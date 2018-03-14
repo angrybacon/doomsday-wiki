@@ -1,0 +1,49 @@
+import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
+
+import { AppBar, Grid, Tab, Tabs, Toolbar, Typography, withStyles } from 'material-ui';
+import { Folder, Home } from 'mdi-material-ui';
+
+const styles = theme => ({
+  fillY: {
+    ...theme.mixins.toolbar
+  }
+});
+
+class Header extends React.Component {
+
+  state = {currentTab: undefined};
+
+  changeTab = (event, value) => {
+    this.setState({currentTab: value});
+  };
+
+  render() {
+    const { classes, location } = this.props;
+    let { currentTab } = this.state;
+    currentTab = location.pathname;
+    return (
+      <AppBar component="div" position="static">
+        <Toolbar>
+          <Grid container alignItems="center" justify="space-between">
+            <Grid item>
+              <Typography color="inherit" variant="title">ddft.wiki</Typography>
+            </Grid>
+            <Grid item>
+              <Tabs classes={{root: classes.fillY}} onChange={this.changeTab} value={currentTab}>
+                <Tab classes={{root: classes.fillY}} component={Link} icon={<Home />}
+                     to="/home/" value="/home/">
+                </Tab>
+                <Tab classes={{root: classes.fillY}} component={Link} icon={<Folder />}
+                     to="/articles/" value="/articles/">
+                </Tab>
+              </Tabs>
+            </Grid>
+          </Grid>
+        </Toolbar>
+      </AppBar>
+    );
+  }
+}
+
+export default withRouter(withStyles(styles)(Header));

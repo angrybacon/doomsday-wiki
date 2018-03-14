@@ -1,0 +1,9 @@
+#+TITLE: DDFT Wiki
+#+AUTHOR: Mathieu Marques
+
+* Installation
+
+#+BEGIN_SRC sh
+npm install
+npm start
+#+END_SRC
