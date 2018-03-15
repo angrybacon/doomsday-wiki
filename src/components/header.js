@@ -31,12 +31,12 @@ class Header extends React.Component {
             </Grid>
             <Grid item>
               <Tabs classes={{root: classes.fillY}} onChange={this.changeTab} value={currentTab}>
-                <Tab classes={{root: classes.fillY}} component={Link} icon={<Home />}
-                     to="/home/" value="/home/">
-                </Tab>
-                <Tab classes={{root: classes.fillY}} component={Link} icon={<Folder />}
-                     to="/articles/" value="/articles/">
-                </Tab>
+                {[
+                  {icon: <Home />,    to: '/home/',      value: '/home/'},
+                  {icon: <Folder />,  to: '/articles/',  value: '/articles/'}
+                ].map(function(tab, index) {
+                  return <Tab key={index} classes={{root: classes.fillY}} component={Link} {...tab} />;
+                })}
               </Tabs>
             </Grid>
           </Grid>
