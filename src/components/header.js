@@ -32,7 +32,7 @@ class Header extends React.Component {
             <Grid item>
               <Tabs classes={{root: classes.fillY}} onChange={this.changeTab} value={currentTab}>
                 {[
-                  {icon: <Home />,    to: '/home/',      value: '/home/'},
+                  {icon: <Home />,    to: '/',           value: '/'},
                   {icon: <Folder />,  to: '/articles/',  value: '/articles/'}
                 ].map(function(tab, index) {
                   return <Tab key={index} classes={{root: classes.fillY}} component={Link} {...tab} />;

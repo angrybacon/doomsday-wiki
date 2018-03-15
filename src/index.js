@@ -15,7 +15,7 @@ function Popin() {
       <Grid container direction="column" spacing={0} style={{minWidth: 400}} wrap="nowrap">
         <Grid item component="header"><Header /></Grid>
         <Grid item style={{flexShrink: 1, height: '100%', overflowY: 'auto'}}>
-          <Route component={Home} exact path="/home/" />
+          <Route component={Home} exact path="/" />
           <Route component={Articles} exact path="/articles/" />
         </Grid>
       </Grid>
