@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
 import { AppBar, Grid, Tab, Tabs, Toolbar, Typography, withStyles } from 'material-ui';
-import { Folder, Home } from 'mdi-material-ui';
+import { Folder, Home, Puzzle } from 'mdi-material-ui';
 
 const styles = theme => ({
   fillY: {
@@ -23,6 +23,7 @@ class Header extends React.Component {
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
       {icon: <Folder />,  to: '/articles/',  value: '/articles/'},
+      {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
     ];
     let { currentTab } = this.state;
     currentTab = location.pathname;
