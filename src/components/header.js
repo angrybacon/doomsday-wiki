@@ -7,7 +7,7 @@ import { Folder, Home } from 'mdi-material-ui';
 const styles = theme => ({
   fillY: {
     ...theme.mixins.toolbar
-  }
+  },
 });
 
 class Header extends React.Component {
@@ -20,8 +20,13 @@ class Header extends React.Component {
 
   render() {
     const { classes, location } = this.props;
+    const tabs = [
+      {icon: <Home />,    to: '/',           value: '/'},
+      {icon: <Folder />,  to: '/articles/',  value: '/articles/'},
+    ];
     let { currentTab } = this.state;
     currentTab = location.pathname;
+
     return (
       <AppBar component="div" position="static">
         <Toolbar>
@@ -31,10 +36,7 @@ class Header extends React.Component {
             </Grid>
             <Grid item>
               <Tabs classes={{root: classes.fillY}} onChange={this.changeTab} value={currentTab}>
-                {[
-                  {icon: <Home />,    to: '/',           value: '/'},
-                  {icon: <Folder />,  to: '/articles/',  value: '/articles/'}
-                ].map(function(tab, index) {
+                {tabs.map(function(tab, index) {
                   return <Tab key={index} classes={{root: classes.fillY}} component={Link} {...tab} />;
                 })}
               </Tabs>
