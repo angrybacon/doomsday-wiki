@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import { Grid, MuiThemeProvider, Paper, createMuiTheme, withStyles } from 'material-ui';
+import { createMuiTheme, Grid, MuiThemeProvider, Paper, Typography, withStyles } from 'material-ui';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import { Header, Page } from './components';
@@ -57,6 +57,8 @@ const Application = withStyles(styles)(function(props) {
                 <Paper children={<Page className="sidebar" source="sidebar.md" />} />
               </Grid>
             </Grid>
+            <Typography children="Copyright &copy; 2018 ddft.wiki contributors"
+                        style={{marginTop: 20, textAlign: 'center'}} />
           </Grid>
         </Grid>
       </Router>
