@@ -5,9 +5,7 @@ import { AppBar, Grid, Tab, Tabs, Toolbar, Typography, withStyles } from 'materi
 import { Folder, Home, Puzzle } from 'mdi-material-ui';
 
 const styles = theme => ({
-  fillY: {
-    ...theme.mixins.toolbar
-  },
+  tabs: {...theme.mixins.toolbar},
 });
 
 class Header extends React.Component {
@@ -32,15 +30,12 @@ class Header extends React.Component {
       <AppBar component="div" position="static">
         <Toolbar>
           <Grid container alignItems="center" justify="space-between">
+            <Grid item children={<Typography children="ddft.wiki" color="inherit" variant="title" />} />
             <Grid item>
-              <Typography color="inherit" variant="title">ddft.wiki</Typography>
-            </Grid>
-            <Grid item>
-              <Tabs classes={{root: classes.fillY}} onChange={this.changeTab} value={currentTab}>
-                {tabs.map(function(tab, index) {
-                  return <Tab key={index} classes={{root: classes.fillY}} component={Link} {...tab} />;
-                })}
-              </Tabs>
+              <Tabs children={tabs.map(function(tab, index) {
+                      return <Tab key={index} className={classes.tabs} component={Link} {...tab} />;
+                    })}
+                    className={classes.tabs} onChange={this.changeTab} value={currentTab} />
             </Grid>
           </Grid>
         </Toolbar>
