@@ -5,6 +5,7 @@ import { AppBar, Grid, Tab, Tabs, Toolbar, Typography, withStyles } from 'materi
 import { Folder, Home, Puzzle } from 'mdi-material-ui';
 
 const styles = theme => ({
+  root: {padding: 0},
   tabs: {...theme.mixins.toolbar},
 });
 
@@ -27,7 +28,7 @@ class Header extends React.Component {
     currentTab = location.pathname;
 
     return (
-      <AppBar component="div" position="static">
+      <AppBar className={classes.root} component="div" position="static">
         <Toolbar>
           <Grid container alignItems="center" justify="space-between">
             <Grid item children={<Typography children="ddft.wiki" color="inherit" variant="title" />} />
