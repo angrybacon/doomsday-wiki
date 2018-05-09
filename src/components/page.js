@@ -23,9 +23,12 @@ class Page extends React.Component {
     const renderers = {
       heading: props => <Typography children={props.children} gutterBottom variant={getHeading(props.level)} />,
     };
+    const { className } = this.props;
     let { content } = this.state;
     return content ? (
-      <Typography children={<ReactMarkdown renderers={renderers} source={content} />} component="div" />
+      <Typography
+        children={<ReactMarkdown className={className} renderers={renderers} source={content} />}
+        component="div" />
     ) : null;
   }
 }
