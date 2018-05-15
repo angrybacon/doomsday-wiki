@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 
-import { AppBar, Grid, Tab, Tabs, Toolbar, Typography, withStyles } from 'material-ui';
+import { AppBar, Grid, Switch, Tab, Tabs, Toolbar, Typography, withStyles } from 'material-ui';
 import { Folder, Home, Puzzle } from 'mdi-material-ui';
 
 const styles = theme => ({
@@ -18,7 +18,7 @@ class Header extends React.Component {
   };
 
   render() {
-    const { classes, location } = this.props;
+    const { changeTheme, classes, location } = this.props;
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
       {icon: <Folder />,  to: '/articles/',  value: '/articles/'},
@@ -32,6 +32,7 @@ class Header extends React.Component {
         <Toolbar>
           <Grid container alignItems="center" justify="space-between">
             <Grid item children={<Typography children="ddft.wiki" color="inherit" variant="title" />} />
+            <Switch onChange={changeTheme()} />
             <Grid item>
               <Tabs children={tabs.map(function(tab, index) {
                       return <Tab key={index} className={classes.tabs} component={Link} {...tab} />;
