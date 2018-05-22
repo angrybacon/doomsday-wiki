@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Typography } from 'material-ui';
+import { Table, TableBody, TableCell, TableHead, TableRow, Typography } from 'material-ui';
 import ReactMarkdown from 'react-markdown';
 
 import { PrettyLink } from '.';
@@ -27,6 +27,11 @@ class Page extends React.Component {
     const renderers = {
       heading: props => <Typography children={props.children} gutterBottom {...getHeading(props.level)} />,
       link: props => <PrettyLink {...props} gutterBottom />,
+      table: props => <Table children={props.children} />,
+      tableHead: props => <TableHead children={props.children} />,
+      tableBody: props => <TableBody children={props.children} />,
+      tableRow: props => <TableRow children={props.children} />,
+      tableCell: props => <TableCell children={props.children} padding="checkbox" />,
     };
     renderers.linkReference = renderers.link;
     const { className } = this.props;
