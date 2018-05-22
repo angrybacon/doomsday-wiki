@@ -6,8 +6,10 @@ import ReactMarkdown from 'react-markdown';
 import { PrettyLink } from '.';
 
 function getHeading(level) {
-  const defaultVariant = 'headline';
-  return {1: 'display2', 2: 'display1'}[level] || defaultVariant;
+  return {
+    component: 'h' + level,
+    variant: {1: 'display3', 2: 'display2', 3: 'display1'}[level] || 'display1',
+  };
 }
 
 class Page extends React.Component {
@@ -23,7 +25,7 @@ class Page extends React.Component {
 
   render() {
     const renderers = {
-      heading: props => <Typography children={props.children} gutterBottom variant={getHeading(props.level)} />,
+      heading: props => <Typography children={props.children} gutterBottom {...getHeading(props.level)} />,
       link: props => <PrettyLink {...props} gutterBottom />,
     };
     renderers.linkReference = renderers.link;
