@@ -8,7 +8,6 @@ import { Header, Page } from '.';
 
 const styles = theme => ({
   root: {
-    backgroundColor: blueGrey[50],
     flexShrink: 1,
     height: '100%',
     overflowX: 'hidden',
@@ -61,7 +60,11 @@ class Application extends React.Component {
     return (
       <MuiThemeProvider theme={theme}>
         <Router>
-          <Grid container direction="column" spacing={0} style={{minWidth: 400}} wrap="nowrap">
+          <Grid container
+                direction="column"
+                spacing={0}
+                style={{backgroundColor: theme.palette.background.default, minWidth: 400}}
+                wrap="nowrap">
             <Grid item children={<Header changeTheme={this.changeTheme} />} component="header" />
             <Grid item className={classes.root}>
               <Grid container justify="center">
