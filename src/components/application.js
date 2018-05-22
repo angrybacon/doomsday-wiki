@@ -22,6 +22,7 @@ const styles = theme => ({
 });
 
 const defaultTheme = createMuiTheme();
+
 const theme = {
   overrides: {
     MuiPaper: {
@@ -34,10 +35,12 @@ const theme = {
     },
   },
 };
+
 const lightTheme = createMuiTheme(Object.assign({}, theme, {palette: {
   primary: {main: blueGrey[800]},
   secondary: pink,
 }}));
+
 const darkTheme = createMuiTheme(Object.assign({}, theme, {palette: {
   primary: {main: blueGrey[800]},
   secondary: pink,
@@ -63,7 +66,7 @@ class Application extends React.Component {
             <Grid item className={classes.root}>
               <Grid container justify="center">
                 <Grid item xs={12} sm={8} md={7} lg={6} xl={5}>
-                  <Paper>
+                  <Paper component="article">
                     <Route exact path="/" render={() => <Page source="home.md" />} />
                     <Route exact path="/articles/" render={() => <Page source="articles.md" />} />
                     <Route exact path="/puzzles/" render={() => <Page source="puzzles.md" />} />
@@ -73,7 +76,10 @@ class Application extends React.Component {
                   <Paper children={<Page className="sidebar" source="sidebar.md" />} />
                 </Grid>
               </Grid>
-              <Typography align="center" children="Copyright &copy; 2018 ddft.wiki" style={{marginTop: 20}} />
+              <Typography align="center"
+                          children="Copyright &copy; 2018 ddft.wiki contributors"
+                          component="footer"
+                          style={{marginTop: 20}} />
             </Grid>
           </Grid>
         </Router>

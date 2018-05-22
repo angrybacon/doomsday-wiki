@@ -5,6 +5,14 @@ body, html, #root, #root > div {
   padding: 0;
 }
 
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 #root {
   overflow-x: auto;
 }
