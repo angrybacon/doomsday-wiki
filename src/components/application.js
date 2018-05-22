@@ -75,8 +75,13 @@ class Application extends React.Component {
                     <Route exact path="/puzzles/" render={() => <Page source="puzzles.md" />} />
                   </Paper>
                 </Grid>
-                <Grid item xs={12} sm={4} md={3} lg={2} xl={2} component="aside">
-                  <Paper children={<Page className="sidebar" source="sidebar.md" />} />
+                <Grid item xs={12} sm={4} md={3} lg={2} xl={2}>
+                  <Grid container direction="column">
+                    <Grid item children={<Paper children={<Page source="links.md" />} component="aside" />} />
+                    <Grid item children={<Paper children={<Page source="notation.md" />}
+                                                component="aside"
+                                                style={{padding: 0}} />} />
+                  </Grid>
                 </Grid>
               </Grid>
               <Typography align="center"
