@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Divider from '@material-ui/core/Divider';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -40,6 +41,7 @@ class Page extends React.Component {
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
       tableCell: props => <TableCell children={props.children} padding="checkbox" />,
+      thematicBreak: Divider,
     };
     renderers.linkReference = renderers.link;
     const { className } = this.props;
