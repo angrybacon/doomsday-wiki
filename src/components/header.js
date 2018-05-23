@@ -1,8 +1,20 @@
 import React from 'react';
-import { Link, withRouter } from 'react-router-dom';
 
-import { AppBar, Grid, Switch, Tab, Tabs, Toolbar, Typography, withStyles } from 'material-ui';
-import { Folder, Home, Puzzle } from 'mdi-material-ui';
+import withRouter from 'react-router-dom/withRouter';
+import Link from 'react-router-dom/Link';
+
+import AppBar from '@material-ui/core/AppBar';
+import Grid from '@material-ui/core/Grid';
+import Switch from '@material-ui/core/Switch';
+import Tab from '@material-ui/core/Tab';
+import Tabs from '@material-ui/core/Tabs';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
+
+import Folder from 'mdi-material-ui/Folder';
+import Home from 'mdi-material-ui/Home';
+import Puzzle from 'mdi-material-ui/Puzzle';
 
 const styles = theme => ({
   root: {padding: 0},

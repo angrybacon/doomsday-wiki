@@ -1,10 +1,20 @@
 import React from 'react';
 
-import { createMuiTheme, Grid, MuiThemeProvider, Paper, Typography, withStyles } from 'material-ui';
-import { blueGrey, pink } from 'material-ui/colors';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import blueGrey from '@material-ui/core/colors/blueGrey';
+import pink from '@material-ui/core/colors/pink';
+import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
+import withStyles from '@material-ui/core/styles/withStyles';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
-import { Header, Page } from '.';
+import BrowserRouter from 'react-router-dom/BrowserRouter';
+import Route from 'react-router-dom/Route';
+
+import Header from './header';
+import Page from './page';
+
 
 const styles = theme => ({
   root: {
@@ -66,21 +76,20 @@ class Application extends React.Component {
 
     return (
       <MuiThemeProvider theme={theme}>
-        <Router>
+        <BrowserRouter>
           <Grid
             container
             direction="column"
-            spacing={0}
             style={{backgroundColor: theme.palette.background.default, minWidth: 400}}
             wrap="nowrap">
             <Grid item children={<Header changeTheme={this.changeTheme} />} component="header" />
             <Grid item className={classes.root}>
-              <Grid container justify="center">
+              <Grid container justify="center" spacing={16}>
                 <Grid item xs={12} sm={8} md={7} lg={6} xl={5}>
                   <Paper component="article" children={routes} />
                 </Grid>
                 <Grid item xs={12} sm={4} md={3} lg={2} xl={2}>
-                  <Grid container direction="column">
+                  <Grid container direction="column" spacing={16}>
                     <Grid item children={<Paper children={<Page source="links.md" />} component="aside" />} />
                     <Grid item>
                       <Paper children={<Page source="notation.md" />} component="aside" style={{padding: 0}} />
@@ -93,7 +102,7 @@ class Application extends React.Component {
               </Typography>
             </Grid>
           </Grid>
-        </Router>
+        </BrowserRouter>
       </MuiThemeProvider>
     );
   }

@@ -1,12 +1,12 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 
-import { Application } from './components';
+import Application from './components/application';
 
 import 'typeface-roboto';
 import './styles/index.css';
 
 const root = document.getElementById('root');
 if (root) {
-  render(<Application />, root);
+  ReactDOM.render(<Application />, root);
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { withStyles } from 'material-ui';
+import withStyles from '@material-ui/core/styles/withStyles';
 
 const styles = theme => ({
   root: {color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]},
