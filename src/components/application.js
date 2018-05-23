@@ -55,39 +55,42 @@ class Application extends React.Component {
   }
 
   render() {
+
     const { classes } = this.props;
+    const routes = [
+      {path: '/',           source: 'home.md'},
+      {path: '/articles/',  source: 'articles.md'},
+      {path: '/puzzles/',   source: 'puzzles.md'},
+    ].map(it => <Route exact key={it.path} path={it.path} render={() => <Page source={it.source} />} />);
     let { theme } = this.state;
+
     return (
       <MuiThemeProvider theme={theme}>
         <Router>
-          <Grid container
-                direction="column"
-                spacing={0}
-                style={{backgroundColor: theme.palette.background.default, minWidth: 400}}
-                wrap="nowrap">
+          <Grid
+            container
+            direction="column"
+            spacing={0}
+            style={{backgroundColor: theme.palette.background.default, minWidth: 400}}
+            wrap="nowrap">
             <Grid item children={<Header changeTheme={this.changeTheme} />} component="header" />
             <Grid item className={classes.root}>
               <Grid container justify="center">
                 <Grid item xs={12} sm={8} md={7} lg={6} xl={5}>
-                  <Paper component="article">
-                    <Route exact path="/" render={() => <Page source="home.md" />} />
-                    <Route exact path="/articles/" render={() => <Page source="articles.md" />} />
-                    <Route exact path="/puzzles/" render={() => <Page source="puzzles.md" />} />
-                  </Paper>
+                  <Paper component="article" children={routes} />
                 </Grid>
                 <Grid item xs={12} sm={4} md={3} lg={2} xl={2}>
                   <Grid container direction="column">
                     <Grid item children={<Paper children={<Page source="links.md" />} component="aside" />} />
-                    <Grid item children={<Paper children={<Page source="notation.md" />}
-                                                component="aside"
-                                                style={{padding: 0}} />} />
+                    <Grid item>
+                      <Paper children={<Page source="notation.md" />} component="aside" style={{padding: 0}} />
+                    </Grid>
                   </Grid>
                 </Grid>
               </Grid>
-              <Typography align="center"
-                          children="Copyright &copy; 2018 ddft.wiki contributors"
-                          component="footer"
-                          style={{marginTop: 20}} />
+              <Typography align="center" component="footer" style={{marginTop: 20}}>
+                Copyright &copy; 2018 ddft.wiki contributors
+              </Typography>
             </Grid>
           </Grid>
         </Router>

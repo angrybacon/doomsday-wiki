@@ -18,6 +18,7 @@ class Header extends React.Component {
   };
 
   render() {
+
     const { changeTheme, classes, location } = this.props;
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
