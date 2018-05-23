@@ -12,6 +12,7 @@ import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 import Route from 'react-router-dom/Route';
 
+import Chapter from './chapter';
 import Header from './header';
 import Page from './page';
 
@@ -75,6 +76,7 @@ class Application extends React.Component {
       {path: '/',           component: <Page source="home.md" />,      exact: true},
       {path: '/articles/',  component: <Page source="articles.md" />,  exact: true},
       {path: '/puzzles/',   component: <Page source="puzzles.md" />,   exact: true},
+      {path: '/chapters/',  component: <Chapter />},
     ].map(it => <Route exact={it.exact} key={it.path} path={it.path} render={() => it.component} />);
     let { theme } = this.state;
 
