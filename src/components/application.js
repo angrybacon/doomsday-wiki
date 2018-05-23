@@ -56,6 +56,7 @@ const darkTheme = createMuiTheme(Object.assign({}, theme, {palette: {
   type: 'dark',
 }}));
 
+
 class Application extends React.Component {
 
   state = {theme: lightTheme};
@@ -107,5 +108,6 @@ class Application extends React.Component {
     );
   }
 }
+
 
 export default withStyles(styles)(Application);

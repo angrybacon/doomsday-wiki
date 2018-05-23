@@ -11,12 +11,14 @@ import ReactMarkdown from 'react-markdown';
 
 import PrettyLink from './prettylink';
 
+
 function getHeading(level) {
   return {
     component: 'h' + level,
     variant: {1: 'display3', 2: 'display2', 3: 'display1'}[level] || 'display1',
   };
 }
+
 
 class Page extends React.Component {
 
@@ -49,5 +51,6 @@ class Page extends React.Component {
     ) : null;
   }
 }
+
 
 export default Page;

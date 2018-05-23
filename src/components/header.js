@@ -16,10 +16,12 @@ import Folder from 'mdi-material-ui/Folder';
 import Home from 'mdi-material-ui/Home';
 import Puzzle from 'mdi-material-ui/Puzzle';
 
+
 const styles = theme => ({
   root: {padding: 0},
   tabs: {...theme.mixins.toolbar},
 });
+
 
 class Header extends React.Component {
 
@@ -58,5 +60,6 @@ class Header extends React.Component {
     );
   }
 }
+
 
 export default withRouter(withStyles(styles)(Header));
