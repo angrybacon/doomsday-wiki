@@ -72,10 +72,10 @@ class Application extends React.Component {
 
     const { classes } = this.props;
     const routes = [
-      {path: '/',           source: 'home.md'},
-      {path: '/articles/',  source: 'articles.md'},
-      {path: '/puzzles/',   source: 'puzzles.md'},
-    ].map(it => <Route exact key={it.path} path={it.path} render={() => <Page source={it.source} />} />);
+      {path: '/',           component: <Page source="home.md" />,      exact: true},
+      {path: '/articles/',  component: <Page source="articles.md" />,  exact: true},
+      {path: '/puzzles/',   component: <Page source="puzzles.md" />,   exact: true},
+    ].map(it => <Route exact={it.exact} key={it.path} path={it.path} render={() => it.component} />);
     let { theme } = this.state;
 
     return (
