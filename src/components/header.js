@@ -37,7 +37,7 @@ class Header extends React.Component {
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
       {icon: <Folder />,  to: '/articles/',  value: '/articles/'},
-      {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
+      // {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
     ];
     let { currentTab } = this.state;
     currentTab = location.pathname;

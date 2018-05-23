@@ -1,5 +1,3 @@
-### Links
-
 [Doomsday Discord](https://discord.gg/vajvFXt)
 
 [DDFT Facebook Group](https://www.facebook.com/groups/128925840926904/?ref=bookmarks)

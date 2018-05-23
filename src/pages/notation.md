@@ -1,4 +1,4 @@
-| Shorthand | Card               |
+| Notation  | Card               |
 | --------- | ------------------ |
 | AoI       | Act on Impulse     |
 | BS        | Brainstorm         |

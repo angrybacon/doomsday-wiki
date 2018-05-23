@@ -25,6 +25,9 @@ const styles = theme => ({
     paddingBottom: theme.spacing.unit * 2,
     paddingTop: theme.spacing.unit * 2,
     [theme.breakpoints.up('sm')]: {
+      padding: theme.spacing.unit * 2,
+    },
+    [theme.breakpoints.up('md')]: {
       padding: theme.spacing.unit * 3,
     },
   }
