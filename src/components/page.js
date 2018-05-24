@@ -10,6 +10,8 @@ import Typography from '@material-ui/core/Typography';
 
 import ReactMarkdown from 'react-markdown';
 
+import Link from 'react-router-dom/Link';
+
 import PrettyLink from './prettylink';
 
 
@@ -26,7 +28,8 @@ class Page extends React.Component {
   state = {content: null};
 
   componentDidMount() {
-    import('../pages/' + this.props.source).then(
+    const path = this.props.source || this.props.match.params.chapter + '/' + this.props.match.params.page + '.md';
+    import('../pages/' + path).then(
       content => this.setState({content: content}),
       () => this.setState({content: null})
     );
@@ -35,7 +38,7 @@ class Page extends React.Component {
   render() {
     const renderers = {
       heading: props => <Typography children={props.children} gutterBottom {...getHeading(props.level)} />,
-      link: props => <PrettyLink {...props} gutterBottom />,
+      link: props => <PrettyLink {...props} component={props.href.startsWith('http') ? null : Link} />,
       table: props => <Table children={props.children} />,
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
