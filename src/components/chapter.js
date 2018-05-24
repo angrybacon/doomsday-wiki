@@ -8,11 +8,7 @@ import Page from './page';
 
 class Chapter extends React.Component {
   render() {
-    return (
-      <Switch>
-        <Route component={Page} path='/chapters/:chapter/:page/' />
-      </Switch>
-    );
+    return <Switch children={<Route component={Page} path='/chapters/:chapter/:page/' />} />;
   }
 }
 

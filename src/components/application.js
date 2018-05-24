@@ -67,7 +67,7 @@ class Application extends React.Component {
 
   changeTheme = () => (event, checked) => {
     this.setState({theme: checked ? darkTheme : lightTheme});
-  }
+  };
 
   render() {
 

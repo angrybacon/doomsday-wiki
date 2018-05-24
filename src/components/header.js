@@ -1,8 +1,5 @@
 import React from 'react';
 
-import withRouter from 'react-router-dom/withRouter';
-import Link from 'react-router-dom/Link';
-
 import AppBar from '@material-ui/core/AppBar';
 import Grid from '@material-ui/core/Grid';
 import Switch from '@material-ui/core/Switch';
@@ -15,6 +12,9 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Folder from 'mdi-material-ui/Folder';
 import Home from 'mdi-material-ui/Home';
 import Puzzle from 'mdi-material-ui/Puzzle';
+
+import withRouter from 'react-router-dom/withRouter';
+import Link from 'react-router-dom/Link';
 
 
 const styles = theme => ({
@@ -38,7 +38,7 @@ class Header extends React.Component {
       {icon: <Home />,    to: '/',           value: '/'},
       {icon: <Folder />,  to: '/articles/',  value: '/articles/'},
       // {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
-    ];
+    ].map((it, index) => <Tab {...it} key={index} className={classes.tabs} component={Link} />);
     let { currentTab } = this.state;
     currentTab = location.pathname;
 
@@ -49,10 +49,7 @@ class Header extends React.Component {
             <Grid item children={<Typography children="ddft.wiki" color="inherit" variant="title" />} />
             <Switch onChange={changeTheme()} />
             <Grid item>
-              <Tabs children={tabs.map(function(tab, index) {
-                      return <Tab key={index} className={classes.tabs} component={Link} {...tab} />;
-                    })}
-                    className={classes.tabs} onChange={this.changeTab} value={currentTab} />
+              <Tabs children={tabs} className={classes.tabs} onChange={this.changeTab} value={currentTab} />
             </Grid>
           </Grid>
         </Toolbar>
