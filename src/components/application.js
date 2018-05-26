@@ -25,12 +25,8 @@ const styles = theme => ({
     overflowY: 'auto',
     paddingBottom: theme.spacing.unit * 2,
     paddingTop: theme.spacing.unit * 2,
-    [theme.breakpoints.up('sm')]: {
-      padding: theme.spacing.unit * 2,
-    },
-    [theme.breakpoints.up('md')]: {
-      padding: theme.spacing.unit * 3,
-    },
+    [theme.breakpoints.up('sm')]: {padding: theme.spacing.unit * 2},
+    [theme.breakpoints.up('md')]: {padding: theme.spacing.unit * 3},
   }
 });
 
@@ -41,9 +37,7 @@ const theme = {
     MuiPaper: {
       root: {
         padding: defaultTheme.spacing.unit * 3,
-        [defaultTheme.breakpoints.up('sm')]: {
-          padding: defaultTheme.spacing.unit * 4,
-        },
+        [defaultTheme.breakpoints.up('sm')]: {padding: defaultTheme.spacing.unit * 4},
       }
     },
   },
@@ -96,7 +90,9 @@ class Application extends React.Component {
                 </Grid>
                 <Grid item xs={12} sm={4} md={3} lg={2} xl={2}>
                   <Grid container direction="column" spacing={16}>
-                    <Grid item children={<Paper children={<Page source="links.md" />} component="aside" />} />
+                    <Grid item>
+                      <Paper children={<Page source="links.md" />} component="aside" />
+                    </Grid>
                     <Grid item>
                       <Paper children={<Page source="notation.md" />} component="aside" style={{padding: 0}} />
                     </Grid>
