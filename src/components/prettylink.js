@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 
 import OpenInNew from 'mdi-material-ui/OpenInNew';
