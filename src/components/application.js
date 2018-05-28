@@ -11,6 +11,7 @@ import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 import Route from 'react-router-dom/Route';
+import Switch from 'react-router-dom/Switch';
 
 import Chapter from './chapter';
 import Header from './header';
@@ -67,11 +68,15 @@ class Application extends React.Component {
 
     const { classes } = this.props;
     const routes = [
-      {path: '/',           component: <Page source="home.md" />,      exact: true},
-      {path: '/articles/',  component: <Page source="articles.md" />,  exact: true},
-      {path: '/puzzles/',   component: <Page source="puzzles.md" />,   exact: true},
-      {path: '/chapters/',  component: <Chapter />},
-    ].map(it => <Route exact={it.exact} key={it.path} path={it.path} render={() => it.component} />);
+      {path: '/',           exact: true,  component: [<Page source="home.md" />]},
+      {path: '/archives/',  exact: true,  component: [<Page source="articles.md" />, <Chapter />]},
+      {path: '/archives/',                component: [<Chapter />]},
+      {path: '/puzzles/',   exact: true,  component: [<Page source="puzzles.md" />]},
+    ].map((it, index) => <Route exact={it.exact} key={index} path={it.path} render={
+      () => <Grid container children={it.component.map(
+        (it, index) => <Grid item children={<Paper children={it} component="article" />} key={index} />
+      )} direction="column" spacing={16} />
+    } />);
     let { theme } = this.state;
 
     return (
@@ -85,9 +90,7 @@ class Application extends React.Component {
             <Grid item children={<Header changeTheme={this.changeTheme} />} component="header" />
             <Grid item className={classes.root}>
               <Grid container justify="center" spacing={16}>
-                <Grid item xs={12} sm={8} md={7} lg={6} xl={5}>
-                  <Paper component="article" children={routes} />
-                </Grid>
+                <Grid item xs={12} sm={8} md={7} lg={6} xl={5} children={<Switch children={routes} />} />
                 <Grid item xs={12} sm={4} md={3} lg={2} xl={2}>
                   <Grid container direction="column" spacing={16}>
                     <Grid item>

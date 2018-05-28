@@ -36,7 +36,7 @@ class Header extends React.Component {
     const { changeTheme, classes, location } = this.props;
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
-      {icon: <Folder />,  to: '/articles/',  value: '/articles/'},
+      {icon: <Folder />,  to: '/archives/',  value: '/archives/'},
       // {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
     ].map((it, index) => <Tab {...it} key={index} className={classes.tabs} component={Link} />);
     let { currentTab } = this.state;

@@ -33,8 +33,8 @@ This repository, and all of its contents, is licensed under [CC-BY-4.0][30].
 
 Chapter 1, the Fundamentals:
 
-- [Basics](/chapters/1/basics/)
-- [Brainstorm in Doomsday](/chapters/1/brainstorm/)
+- [Basics](/archives/1/basics/)
+- [Brainstorm in Doomsday](/archives/1/brainstorm/)
 - [Laboratory Maniac](http://ddft.wiki/pages-output/ch1/laboratory-maniac)
 - [Pass the Turn](http://ddft.wiki/pages-output/ch1/pass-the-turn)
 
