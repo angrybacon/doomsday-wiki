@@ -48,7 +48,7 @@ Chapter 2, Supplementary Techniques:
 Chapter 3, Limitations:
 
 - [Playing Around Surgical](http://ddft.wiki/pages-output/ch3/surgical)
-- [CMC Limitations](http://ddft.wiki/pages-output/ch3/cmc_limits)
+- [CMC Limitations](/archives/3/cmc/)
 
 Chapter 4, Deck Construction:
 
