@@ -2,6 +2,8 @@ import React from 'react';
 
 import AppBar from '@material-ui/core/AppBar';
 import Grid from '@material-ui/core/Grid';
+import Hidden from '@material-ui/core/Hidden';
+import IconButton from '@material-ui/core/IconButton';
 import Switch from '@material-ui/core/Switch';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
@@ -11,6 +13,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import Folder from 'mdi-material-ui/Folder';
 import Home from 'mdi-material-ui/Home';
+import Menu from 'mdi-material-ui/Menu';
 import Puzzle from 'mdi-material-ui/Puzzle';
 
 import withRouter from 'react-router-dom/withRouter';
@@ -33,23 +36,36 @@ class Header extends React.Component {
 
   render() {
 
-    const { changeTheme, classes, location } = this.props;
+    const { changeTheme, classes, location, toggleDrawer } = this.props;
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
       {icon: <Folder />,  to: '/archives/',  value: '/archives/'},
       // {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
     ].map((it, index) => <Tab {...it} key={index} className={classes.tabs} component={Link} />);
-    let { currentTab } = this.state;
-    currentTab = location.pathname;
+    this.state.currentTab = location.pathname;
 
     return (
-      <AppBar className={classes.root} component="div" position="static">
+      <AppBar className={classes.root} position="static">
         <Toolbar>
           <Grid container alignItems="center" justify="space-between">
-            <Grid item children={<Typography children="ddft.wiki" color="inherit" variant="title" />} />
+            <Grid item>
+              <Grid container alignItems="center">
+                <Grid item>
+                  <Hidden mdUp>
+                    <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
+                  </Hidden>
+                </Grid>
+                <Grid item style={{marginLeft: '1em'}}>
+                  <Typography children="ddft.wiki" color="inherit" variant="title" />
+                </Grid>
+              </Grid>
+            </Grid>
             <Switch onChange={changeTheme()} />
             <Grid item>
-              <Tabs children={tabs} className={classes.tabs} onChange={this.changeTab} value={currentTab} />
+              <Tabs children={tabs}
+                    className={classes.tabs}
+                    onChange={this.changeTab}
+                    value={this.state.currentTab} />
             </Grid>
           </Grid>
         </Toolbar>

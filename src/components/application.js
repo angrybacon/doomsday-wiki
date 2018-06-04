@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Grid from '@material-ui/core/Grid';
+import Hidden from '@material-ui/core/Hidden';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import blueGrey from '@material-ui/core/colors/blueGrey';
@@ -14,12 +15,14 @@ import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 
 import Chapter from './chapter';
+import Sidebar from './sidebar';
 import Header from './header';
 import Page from './page';
 
 
+const sidebarWidth = 300;
 const styles = theme => ({
-  root: {
+  body: {
     flexShrink: 1,
     height: '100%',
     overflowX: 'hidden',
@@ -28,7 +31,16 @@ const styles = theme => ({
     paddingTop: theme.spacing.unit * 2,
     [theme.breakpoints.up('sm')]: {padding: theme.spacing.unit * 2},
     [theme.breakpoints.up('md')]: {padding: theme.spacing.unit * 3},
-  }
+  },
+  root: {
+    [theme.breakpoints.up('md')]: {
+      marginLeft: sidebarWidth,
+      width: `calc(100% - ${sidebarWidth}px)`,
+    },
+  },
+  sidebar: {
+    width: sidebarWidth,
+  },
 });
 
 const defaultTheme = createMuiTheme();
@@ -58,10 +70,14 @@ const darkTheme = createMuiTheme(Object.assign({}, theme, {palette: {
 
 class Application extends React.Component {
 
-  state = {theme: lightTheme};
+  state = {drawer: false, theme: lightTheme};
 
   changeTheme = () => (event, checked) => {
     this.setState({theme: checked ? darkTheme : lightTheme});
+  };
+
+  toggleDrawer = () => {
+    this.setState({drawer: !this.state.drawer});
   };
 
   render() {
@@ -77,36 +93,36 @@ class Application extends React.Component {
         (it, index) => <Grid item children={<Paper children={it} component="article" />} key={index} />
       )} direction="column" spacing={16} />
     } />);
-    let { theme } = this.state;
 
     return (
-      <MuiThemeProvider theme={theme}>
+      <MuiThemeProvider theme={this.state.theme}>
         <BrowserRouter>
-          <Grid
-            container
-            direction="column"
-            style={{backgroundColor: theme.palette.background.default, minWidth: 400}}
-            wrap="nowrap">
-            <Grid item children={<Header changeTheme={this.changeTheme} />} component="header" />
-            <Grid item className={classes.root}>
-              <Grid container justify="center" spacing={16}>
-                <Grid item xs={12} sm={8} md={7} lg={6} xl={5} children={<Switch children={routes} />} />
-                <Grid item xs={12} sm={4} md={3} lg={2} xl={2}>
-                  <Grid container direction="column" spacing={16}>
-                    <Grid item>
-                      <Paper children={<Page source="links.md" />} component="aside" />
-                    </Grid>
-                    <Grid item>
-                      <Paper children={<Page source="notation.md" />} component="aside" style={{padding: 0}} />
-                    </Grid>
+          <div style={{backgroundColor: this.state.theme.palette.background.default, minWidth: 320}}>
+            <Hidden mdUp>
+              <Sidebar open onClose={this.toggleDrawer} variant="temporary" />
+            </Hidden>
+            <Hidden smDown>
+              <Sidebar classes={{paper: classes.sidebar}} implementation="css" variant="permanent" />
+            </Hidden>
+            <Grid container className={classes.root} direction="column">
+              <Grid item>
+                <Header changeTheme={this.changeTheme}
+                        className={classes.header}
+                        component="header"
+                        toggleDrawer={this.toggleDrawer} />
+              </Grid>
+              <Grid item className={classes.body}>
+                <Grid container alignItems="center">
+                  <Grid item xs={12}>
+                    <Switch children={routes} />
+                    <Typography align="center" component="footer" style={{marginTop: 20}}>
+                      Copyright &copy; 2018 ddft.wiki contributors
+                    </Typography>
                   </Grid>
                 </Grid>
               </Grid>
-              <Typography align="center" component="footer" style={{marginTop: 20}}>
-                Copyright &copy; 2018 ddft.wiki contributors
-              </Typography>
             </Grid>
-          </Grid>
+          </div>
         </BrowserRouter>
       </MuiThemeProvider>
     );
