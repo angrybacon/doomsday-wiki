@@ -99,7 +99,7 @@ class Application extends React.Component {
         <BrowserRouter>
           <div style={{backgroundColor: this.state.theme.palette.background.default, minWidth: 320}}>
             <Hidden mdUp>
-              <Sidebar open onClose={this.toggleDrawer} variant="temporary" />
+              <Sidebar open={this.state.drawer} onClose={this.toggleDrawer} variant="temporary" />
             </Hidden>
             <Hidden smDown>
               <Sidebar classes={{paper: classes.sidebar}} implementation="css" variant="permanent" />
