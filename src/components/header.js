@@ -36,7 +36,7 @@ class Header extends React.Component {
 
   render() {
 
-    const { changeTheme, classes, location, toggleDrawer } = this.props;
+    const { classes, location, toggleDrawer } = this.props;
     const tabs = [
       {icon: <Home />,    to: '/',           value: '/'},
       {icon: <Folder />,  to: '/archives/',  value: '/archives/'},
@@ -49,18 +49,17 @@ class Header extends React.Component {
         <Toolbar>
           <Grid container alignItems="center" justify="space-between">
             <Grid item>
-              <Grid container alignItems="center">
-                <Grid item>
-                  <Hidden mdUp>
+              <Hidden mdUp>
+                <Grid container alignItems="center">
+                  <Grid item>
                     <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
-                  </Hidden>
+                  </Grid>
+                  <Grid item style={{marginLeft: '1em'}}>
+                    <Typography children="ddft.wiki" color="inherit" variant={'title'} />
+                  </Grid>
                 </Grid>
-                <Grid item style={{marginLeft: '1em'}}>
-                  <Typography children="ddft.wiki" color="inherit" variant="title" />
-                </Grid>
-              </Grid>
+              </Hidden>
             </Grid>
-            <Switch onChange={changeTheme()} />
             <Grid item>
               <Tabs children={tabs}
                     className={classes.tabs}

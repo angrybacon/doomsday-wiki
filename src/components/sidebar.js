@@ -3,7 +3,10 @@ import React from 'react';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
+import Hidden from '@material-ui/core/Hidden';
 import Paper from '@material-ui/core/Paper';
+import Switch from '@material-ui/core/Switch';
+import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 
@@ -17,16 +20,18 @@ const styles = theme => ({
 
 class Sidebar extends React.Component {
   render() {
-    const { classes } = this.props;
+    const { classes, changeTheme, drawerProps } = this.props;
     return (
-      <Drawer PaperProps={{style: {padding: 0}}} {...this.props}>
-        <Grid container className={classes.title} direction="column" justify="center">
-          <Grid item style={{marginLeft: '1em'}}>
-            <Typography children="ddft.wiki" variant="title" />
-            <Typography children="v0.1" />
-          </Grid>
-        </Grid>
-        <Divider />
+      <Drawer PaperProps={{style: {padding: 0}}} {...drawerProps}>
+        <Hidden smDown>
+          <Toolbar>
+            <Grid container alignItems="center" className={classes.title} justify="space-between">
+              <Grid item children={<Typography children="ddft.wiki" variant="title" />} />
+              <Switch onChange={changeTheme()} />
+            </Grid>
+          </Toolbar>
+          <Divider />
+        </Hidden>
         <div style={{overflowY: 'auto'}}>
           <Paper children={<Page source="links.md" />} elevation={0} />
           <Divider />

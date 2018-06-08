@@ -99,18 +99,17 @@ class Application extends React.Component {
         <BrowserRouter>
           <div style={{backgroundColor: this.state.theme.palette.background.default, minWidth: 320}}>
             <Hidden mdUp>
-              <Sidebar open={this.state.drawer} onClose={this.toggleDrawer} variant="temporary" />
+              <Sidebar changeTheme={this.changeTheme}
+                       drawerProps={{open: this.state.drawer, onClose: this.toggleDrawer, variant: 'temporary'}} />
             </Hidden>
             <Hidden smDown>
-              <Sidebar classes={{paper: classes.sidebar}} implementation="css" variant="permanent" />
+              <Sidebar changeTheme={this.changeTheme}
+                       drawerProps={{
+                         classes: {paper: classes.sidebar}, implementation: 'css', variant: 'permanent'
+                       }} />
             </Hidden>
             <Grid container className={classes.root} direction="column">
-              <Grid item>
-                <Header changeTheme={this.changeTheme}
-                        className={classes.header}
-                        component="header"
-                        toggleDrawer={this.toggleDrawer} />
-              </Grid>
+              <Grid item children={<Header component="header" toggleDrawer={this.toggleDrawer} />} />
               <Grid item className={classes.body}>
                 <Grid container alignItems="center">
                   <Grid item xs={12}>
