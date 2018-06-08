@@ -23,9 +23,8 @@ import Page from './page';
 const sidebarWidth = 300;
 const styles = theme => ({
   body: {
+    flexGrow: 1,
     flexShrink: 1,
-    height: '100%',
-    overflowX: 'hidden',
     overflowY: 'auto',
     paddingBottom: theme.spacing.unit * 2,
     paddingTop: theme.spacing.unit * 2,
@@ -33,6 +32,7 @@ const styles = theme => ({
     [theme.breakpoints.up('md')]: {padding: theme.spacing.unit * 3},
   },
   root: {
+    height: '100%',
     [theme.breakpoints.up('md')]: {
       marginLeft: sidebarWidth,
       width: `calc(100% - ${sidebarWidth}px)`,
@@ -108,7 +108,7 @@ class Application extends React.Component {
                          classes: {paper: classes.sidebar}, implementation: 'css', variant: 'permanent'
                        }} />
             </Hidden>
-            <Grid container className={classes.root} direction="column">
+            <Grid container className={classes.root} direction="column" wrap="nowrap">
               <Grid item children={<Header component="header" toggleDrawer={this.toggleDrawer} />} />
               <Grid item className={classes.body}>
                 <Grid container alignItems="center">
