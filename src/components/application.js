@@ -77,7 +77,7 @@ class Application extends React.Component {
   };
 
   toggleDrawer = () => {
-    this.setState({drawer: !this.state.drawer});
+    this.setState(state => ({drawer: !state.drawer}));
   };
 
   render() {
