@@ -33,7 +33,7 @@ class Sidebar extends React.Component {
           <Divider />
         </Hidden>
         <div style={{overflowY: 'auto'}}>
-          <Paper children={<Page source="links.md" />} elevation={0} />
+          <Paper children={<Page source="links.md" />} elevation={0} style={{marginBottom: 0}} />
           <Divider />
           <Page source="notation.md" />
         </div>
