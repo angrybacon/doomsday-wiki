@@ -37,6 +37,7 @@ class Page extends React.Component {
 
   render() {
     const renderers = {
+      code: props => <pre style={{overflowY: 'auto'}}><code>{props.value}</code></pre>,
       heading: props => <Typography children={props.children} gutterBottom {...getHeading(props.level)} />,
       link: props => <PrettyLink {...props} component={props.href.startsWith('http') ? null : Link} />,
       table: props => <Table children={props.children} />,
