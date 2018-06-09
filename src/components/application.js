@@ -111,14 +111,10 @@ class Application extends React.Component {
             <Grid container className={classes.root} direction="column" wrap="nowrap">
               <Grid item children={<Header component="header" toggleDrawer={this.toggleDrawer} />} />
               <Grid item className={classes.body}>
-                <Grid container alignItems="center">
-                  <Grid item xs={12}>
-                    <Switch children={routes} />
-                    <Typography align="center" component="footer" style={{marginTop: 20}}>
-                      Copyright &copy; 2018 ddft.wiki contributors
-                    </Typography>
-                  </Grid>
-                </Grid>
+                <Switch children={routes} />
+                <Typography align="center" component="footer" style={{marginTop: 20}}>
+                  Copyright &copy; 2018 ddft.wiki contributors
+                </Typography>
               </Grid>
             </Grid>
           </div>
