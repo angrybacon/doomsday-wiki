@@ -12,15 +12,18 @@ import PrettyLink from './prettylink';
 
 class Chapter extends React.Component {
   render() {
+
+    const links = [
+      {text: 'Basics',      href: '/archives/1/basics/'},
+      {text: 'Brainstorm',  href: '/archives/1/brainstorm/'},
+    ].map(it => <li><PrettyLink children={it.text} component={Link} href={it.href} /></li>);
+
     return (
       <Switch>
         <Route exact path="/archives/">
           <div>
             <Typography children="Chapters" component="h1" gutterBottom variant="display3" />
-            <Typography component="ul">
-              <li><PrettyLink component={Link} href="/archives/1/basics/">Basics</PrettyLink></li>
-              <li><PrettyLink component={Link} href="/archives/1/brainstorm/">Brainstorm</PrettyLink></li>
-            </Typography>
+            <Typography children={links} component="ul" />
           </div>
         </Route>
         <Route component={Page} path="/archives/:chapter/:page/" />

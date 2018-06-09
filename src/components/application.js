@@ -92,20 +92,25 @@ class Application extends React.Component {
       {path: '/puzzles/',   exact: true,  component: [<Page source="puzzles.md" />]},
     ].map((it, index) => <Route exact={it.exact} key={index} path={it.path} render={
       () => <Grid container children={it.component.map(
-        (it, index) => <Grid item children={<Paper children={it} component="article" />} key={index} />
+        (it, index) => (
+          <Grid item children={<Paper children={it} component="article" />} key={index} />
+        )
       )} direction="column" wrap="nowrap" />
     } />);
 
     return (
       <MuiThemeProvider theme={this.state.theme}>
         <BrowserRouter>
-          <div style={{backgroundColor: this.state.theme.palette.background.default, minWidth: 320}}>
+          <div style={{
+                 backgroundColor: this.state.theme.palette.background.default,
+                 minWidth: 320,
+               }}>
             <Hidden mdUp>
               <Sidebar changeTheme={this.changeTheme}
                        drawerProps={{
                          open: this.state.drawer,
                          onClose: this.toggleDrawer,
-                         variant: 'temporary'
+                         variant: 'temporary',
                        }} />
             </Hidden>
             <Hidden smDown>
@@ -113,7 +118,7 @@ class Application extends React.Component {
                        drawerProps={{
                          classes: {paper: classes.sidebar},
                          implementation: 'css',
-                         variant: 'permanent'
+                         variant: 'permanent',
                        }} />
             </Hidden>
             <Grid container className={classes.root} direction="column" wrap="nowrap">
