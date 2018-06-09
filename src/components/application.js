@@ -49,8 +49,10 @@ const theme = {
   overrides: {
     MuiPaper: {
       root: {
+        marginBottom: defaultTheme.spacing.unit * 2,
         padding: defaultTheme.spacing.unit * 3,
         [defaultTheme.breakpoints.up('sm')]: {padding: defaultTheme.spacing.unit * 4},
+        [defaultTheme.breakpoints.up('md')]: {marginBottom: defaultTheme.spacing.unit * 3},
       }
     },
   },
@@ -91,7 +93,7 @@ class Application extends React.Component {
     ].map((it, index) => <Route exact={it.exact} key={index} path={it.path} render={
       () => <Grid container children={it.component.map(
         (it, index) => <Grid item children={<Paper children={it} component="article" />} key={index} />
-      )} direction="column" spacing={16} />
+      )} direction="column" wrap="nowrap" />
     } />);
 
     return (
@@ -112,7 +114,7 @@ class Application extends React.Component {
               <Grid item children={<Header component="header" toggleDrawer={this.toggleDrawer} />} />
               <Grid item className={classes.body}>
                 <Switch children={routes} />
-                <Typography align="center" component="footer" style={{marginTop: 20}}>
+                <Typography align="center" component="footer">
                   Copyright &copy; 2018 ddft.wiki contributors
                 </Typography>
               </Grid>
