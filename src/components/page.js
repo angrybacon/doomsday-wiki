@@ -7,6 +7,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
 
 import ReactMarkdown from 'react-markdown';
 
@@ -15,10 +16,21 @@ import Link from 'react-router-dom/Link';
 import PrettyLink from './prettylink';
 
 
+const styles = theme => ({
+  code: {
+    borderColor: theme.palette.divider,
+    borderRadius: 2,
+    borderStyle: 'solid',
+    borderWidth: 1,
+    padding: theme.spacing.unit,
+  },
+});
+
+
 function getHeading(level) {
   return {
     component: 'h' + level,
-    variant: {1: 'display3', 2: 'display2', 3: 'display1'}[level] || 'display1',
+    variant: {1: 'display3', 2: 'display2', 3: 'display1', 4: 'subheading'}[level] || 'display1',
   };
 }
 
@@ -37,7 +49,7 @@ class Page extends React.Component {
 
   render() {
     const renderers = {
-      code: props => <pre style={{overflowY: 'auto'}}><code>{props.value}</code></pre>,
+      code: props => <pre className={classes.code} style={{overflowY: 'auto'}}><code>{props.value}</code></pre>,
       heading: props => <Typography children={props.children} gutterBottom {...getHeading(props.level)} />,
       link: props => <PrettyLink {...props} component={props.href.startsWith('http') ? null : Link} />,
       table: props => <Table children={props.children} />,
@@ -48,7 +60,7 @@ class Page extends React.Component {
       thematicBreak: Divider,
     };
     renderers.linkReference = renderers.link;
-    const { className } = this.props;
+    const { className, classes } = this.props;
     let { content } = this.state;
     return content ? (
       <Typography
@@ -59,4 +71,4 @@ class Page extends React.Component {
 }
 
 
-export default Page;
+export default withStyles(styles)(Page);
