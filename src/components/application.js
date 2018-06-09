@@ -126,10 +126,14 @@ class Application extends React.Component {
                 <Header component="header" toggleDrawer={this.toggleDrawer} />
               </Grid>
               <Grid item className={classes.body}>
-                <Switch children={routes} />
-                <Typography align="center" component="footer">
-                  Copyright &copy; 2018 ddft.wiki contributors
-                </Typography>
+                <Grid container justify="center">
+                  <Grid item xs={12} md={10} lg={8} xl={6}>
+                    <Switch children={routes} />
+                    <Typography align="center" component="footer">
+                      Copyright &copy; 2018 ddft.wiki contributors
+                    </Typography>
+                  </Grid>
+                </Grid>
               </Grid>
             </Grid>
           </div>
