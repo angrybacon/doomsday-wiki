@@ -1,16 +1,16 @@
 #+TITLE: DDFT Wiki
 #+AUTHOR: Mathieu Marques
 
-* Installation
+** Installation
 
 #+BEGIN_SRC sh
 npm install
 npm start
 #+END_SRC
 
-* Deployment
+** Deployment
 
 These 2 branches are automatically deployed upon commit.
 
-- `:master` deploys to http://master--ddftwiki.netlify.com
-- `:production` deploys to http://ddftwiki.netlify.com
+- =:master= deploys to http://master--ddftwiki.netlify.com
+- =:production= deploys to http://ddftwiki.netlify.com
