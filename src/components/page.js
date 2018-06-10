@@ -66,7 +66,11 @@ class Page extends React.Component {
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
-      tableCell: props => <TableCell children={props.children} padding="checkbox" />,
+      tableCell: props => (
+        <TableCell children={props.children}
+                   padding="dense"
+                   style={{borderBottomColor: theme.palette.divider}} />
+      ),
       thematicBreak: Divider,
     };
     renderers.linkReference = renderers.link;
@@ -80,4 +84,4 @@ class Page extends React.Component {
 }
 
 
-export default withStyles(styles)(Page);
+export default withStyles(styles, {withTheme: true})(Page);
