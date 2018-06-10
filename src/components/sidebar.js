@@ -20,9 +20,10 @@ const styles = theme => ({
 
 class Sidebar extends React.Component {
   render() {
-    const { classes, changeTheme, drawerProps } = this.props;
-    return (
-      <Drawer PaperProps={{style: {padding: 0}}} {...drawerProps}>
+
+    const { classes, changeTheme, component, drawerProps } = this.props;
+    const children = (
+      <div>
         <Hidden smDown>
           <Toolbar>
             <Grid container alignItems="center" className={classes.title} justify="space-between">
@@ -37,7 +38,15 @@ class Sidebar extends React.Component {
           <Divider />
           <Page source="notation.md" />
         </div>
-      </Drawer>
+      </div>
+    );
+
+    return React.createElement(
+      component ? component : Drawer,
+      // NOTE: Style is currently being overwritten by SwipeableDrawer.
+      //       https://github.com/mui-org/material-ui/issues/11799
+      {PaperProps: {style: {padding: 0}}, ...drawerProps},
+      children,
     );
   }
 }

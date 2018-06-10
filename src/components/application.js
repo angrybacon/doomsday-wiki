@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import blueGrey from '@material-ui/core/colors/blueGrey';
 import pink from '@material-ui/core/colors/pink';
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
@@ -107,9 +108,11 @@ class Application extends React.Component {
                }}>
             <Hidden mdUp>
               <Sidebar changeTheme={this.changeTheme}
+                       component={SwipeableDrawer}
                        drawerProps={{
                          open: this.state.drawer,
                          onClose: this.toggleDrawer,
+                         onOpen: this.toggleDrawer,
                          variant: 'temporary',
                        }} />
             </Hidden>
