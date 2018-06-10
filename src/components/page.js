@@ -48,10 +48,20 @@ class Page extends React.Component {
   }
 
   render() {
+
+    const { className, classes, theme } = this.props;
+    let { content } = this.state;
+
     const renderers = {
-      code: props => <pre className={classes.code} style={{overflowY: 'auto'}}><code>{props.value}</code></pre>,
-      heading: props => <Typography children={props.children} gutterBottom {...getHeading(props.level)} />,
-      link: props => <PrettyLink {...props} component={props.href.startsWith('http') ? null : Link} />,
+      code: props => (
+        <pre className={classes.code} style={{overflowY: 'auto'}}><code>{props.value}</code></pre>
+      ),
+      heading: props => (
+        <Typography children={props.children} gutterBottom {...getHeading(props.level)} />
+      ),
+      link: props => (
+        <PrettyLink {...props} component={props.href.startsWith('http') ? null : Link} />
+      ),
       table: props => <Table children={props.children} />,
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
@@ -60,8 +70,7 @@ class Page extends React.Component {
       thematicBreak: Divider,
     };
     renderers.linkReference = renderers.link;
-    const { className, classes } = this.props;
-    let { content } = this.state;
+
     return content ? (
       <Typography
         children={<ReactMarkdown className={className} renderers={renderers} source={content} />}

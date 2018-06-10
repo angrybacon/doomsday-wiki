@@ -16,7 +16,9 @@ class Chapter extends React.Component {
     const links = [
       {text: 'Basics',      href: '/archives/1/basics/'},
       {text: 'Brainstorm',  href: '/archives/1/brainstorm/'},
-    ].map(it => <li><PrettyLink children={it.text} component={Link} href={it.href} /></li>);
+    ].map(it => (
+      <li key={it.href}><PrettyLink children={it.text} component={Link} href={it.href} /></li>
+    ));
 
     return (
       <Switch>
