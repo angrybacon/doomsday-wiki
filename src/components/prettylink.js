@@ -4,6 +4,8 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import OpenInNew from 'mdi-material-ui/OpenInNew';
 
+import Link from 'react-router-dom/Link';
+
 
 const styles = theme => ({
   root: {color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]},
@@ -12,7 +14,9 @@ const styles = theme => ({
 
 class PrettyLink extends React.Component {
   render() {
-    const { children, classes, component, href, target, theme} = this.props;
+    const { children, classes, href, target, theme} = this.props;
+    const component = this.props.component || (href.startsWith('http') ? null : Link);
+
     return component ?
       React.createElement(component, {className: classes.root, to: href}, children) : (
         <span style={{alignItems: 'center', display: 'inline-flex'}}>

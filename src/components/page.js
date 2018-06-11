@@ -11,8 +11,6 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import ReactMarkdown from 'react-markdown';
 
-import Link from 'react-router-dom/Link';
-
 import PrettyLink from './prettylink';
 
 
@@ -59,9 +57,8 @@ class Page extends React.Component {
       heading: props => (
         <Typography children={props.children} gutterBottom {...getHeading(props.level)} />
       ),
-      link: props => (
-        <PrettyLink {...props} component={props.href.startsWith('http') ? null : Link} />
-      ),
+      link: PrettyLink,
+      linkReference: PrettyLink,
       table: props => <Table children={props.children} />,
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
@@ -73,7 +70,6 @@ class Page extends React.Component {
       ),
       thematicBreak: Divider,
     };
-    renderers.linkReference = renderers.link;
 
     return content ? (
       <Typography
