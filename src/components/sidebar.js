@@ -1,16 +1,25 @@
 import React from 'react';
 
+import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
 import Paper from '@material-ui/core/Paper';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 
+import Link from 'react-router-dom/Link';
+
 import Page from './page';
+
+import routes from '../routes';
 
 
 const styles = theme => ({
@@ -24,10 +33,48 @@ const styles = theme => ({
 
 
 class Sidebar extends React.Component {
+
+  state = {menuItems: {}};
+
+  toggleMenuItem = index => () => {
+    this.setState(state => {
+      const newState = Object.assign({}, state);
+      newState.menuItems[index] = !newState.menuItems[index];
+      return newState;
+    });
+  };
+
   render() {
 
     const { classes, changeTheme, component, drawerProps } = this.props;
-    const children = (
+
+    const menu = routes.map((chapter, index) => {
+      const labels = chapter.label.split(',');
+      const routes = chapter.routes.map((it, index) => (
+        <ListItem button
+                  children={<ListItemText primary={it.text} />}
+                  component={it.href ? Link : 'div'}
+                  dense
+                  disabled={!it.href || it.href.startsWith('http')}
+                  key={index}
+                  to={it.href} />
+      ));
+      return (
+        <div key={index}>
+          <ListItem button dense onClick={this.toggleMenuItem(index)}>
+            <ListItemIcon children={chapter.icon} />
+            <ListItemText primary={labels[0]} secondary={labels[1]} />
+          </ListItem>
+          <Collapse in={this.state.menuItems[index]} timeout="auto">
+            <Divider />
+            <List children={routes} />
+            <Divider />
+          </Collapse>
+        </div>
+      );
+    });
+
+    const drawer = (
       <Grid container direction="column" wrap="nowrap">
         <Hidden smDown>
           <Grid item>
@@ -41,6 +88,8 @@ class Sidebar extends React.Component {
           <Divider />
         </Hidden>
         <Grid item className={classes.body}>
+          <List children={menu} component="nav" />
+          <Divider />
           <Paper children={<Page source="links.md" />} elevation={0} style={{marginBottom: 0}} />
           <Divider />
           <Page source="notation.md" />
@@ -53,7 +102,7 @@ class Sidebar extends React.Component {
       // NOTE: Style is currently being overwritten by SwipeableDrawer.
       //       https://github.com/mui-org/material-ui/issues/11799
       {PaperProps: {style: {padding: 0}}, ...drawerProps},
-      children,
+      drawer,
     );
   }
 }

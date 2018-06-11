@@ -2,22 +2,24 @@ import React from 'react';
 
 import Typography from '@material-ui/core/Typography';
 
-import Link from 'react-router-dom/Link';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 
 import Page from './page';
 import PrettyLink from './prettylink';
 
+import routes from '../routes.js';
+
 
 class Chapter extends React.Component {
   render() {
 
-    const links = [
-      {text: 'Basics',      href: '/archives/1/basics/'},
-      {text: 'Brainstorm',  href: '/archives/1/brainstorm/'},
-    ].map(it => (
-      <li key={it.href}><PrettyLink children={it.text} component={Link} href={it.href} /></li>
+    const links = routes.map(chapter => chapter.routes.map(
+      (it, index) => (
+        it.href
+          ? <li key={index}><PrettyLink children={it.text} href={it.href} /></li>
+          : <li key={index}>{it.text}</li>
+      )
     ));
 
     return (
