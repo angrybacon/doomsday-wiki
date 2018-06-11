@@ -37,11 +37,11 @@ class Header extends React.Component {
 
     const { classes, location, toggleDrawer } = this.props;
     const tabs = [
-      {icon: <Home />,    to: '/',           value: '/'},
-      {icon: <Folder />,  to: '/archives/',  value: '/archives/'},
-      // {icon: <Puzzle />,  to: '/puzzles/',   value: '/puzzles/'},
-    ].map((it, index) => <Tab {...it} key={index} className={classes.tabs} component={Link} />);
-    this.state.currentTab = location.pathname;
+      {icon: <Home />,    to: '/',           value: ''},
+      {icon: <Folder />,  to: '/archives/',  value: 'archives'},
+      // {icon: <Puzzle />,  to: '/puzzles/',   value: 'puzzles'},
+    ].map(it => <Tab {...it} key={it.to} className={classes.tabs} component={Link} />);
+    this.state.currentTab = location.pathname.substring(1).split('/')[0];
 
     return (
       <AppBar className={classes.root} position="static">
