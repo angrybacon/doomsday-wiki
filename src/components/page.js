@@ -50,7 +50,7 @@ class Page extends React.Component {
   render() {
 
     const { className, classes, theme } = this.props;
-    let { content } = this.state;
+    const { content } = this.state;
 
     const renderers = {
       code: props => (
