@@ -14,6 +14,11 @@ import Page from './page';
 
 
 const styles = theme => ({
+  body: {
+    flexGrow: 1,
+    flexShrink: 1,
+    overflowY: 'auto',
+  },
   title: theme.mixins.toolbar,
 });
 
@@ -23,22 +28,24 @@ class Sidebar extends React.Component {
 
     const { classes, changeTheme, component, drawerProps } = this.props;
     const children = (
-      <div>
+      <Grid container direction="column" wrap="nowrap">
         <Hidden smDown>
-          <Toolbar>
-            <Grid container alignItems="center" className={classes.title} justify="space-between">
-              <Grid item children={<Typography children="ddft.wiki" variant="title" />} />
-              <Switch onChange={changeTheme()} />
-            </Grid>
-          </Toolbar>
+          <Grid item>
+            <Toolbar>
+              <Grid container alignItems="center" className={classes.title} justify="space-between">
+                <Grid item children={<Typography children="ddft.wiki" variant="title" />} />
+                <Switch onChange={changeTheme()} />
+              </Grid>
+            </Toolbar>
+          </Grid>
           <Divider />
         </Hidden>
-        <div style={{overflowY: 'auto'}}>
+        <Grid item className={classes.body}>
           <Paper children={<Page source="links.md" />} elevation={0} style={{marginBottom: 0}} />
           <Divider />
           <Page source="notation.md" />
-        </div>
-      </div>
+        </Grid>
+      </Grid>
     );
 
     return React.createElement(
