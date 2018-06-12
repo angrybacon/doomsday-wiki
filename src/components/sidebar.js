@@ -19,7 +19,7 @@ import Link from 'react-router-dom/Link';
 
 import Page from './page';
 
-import routes from '../routes';
+import MENU from '../menu';
 
 
 const styles = theme => ({
@@ -48,7 +48,7 @@ class Sidebar extends React.Component {
 
     const { classes, changeTheme, component, drawerProps } = this.props;
 
-    const menu = routes.map((chapter, index) => {
+    const menu = MENU.map((chapter, index) => {
       const labels = chapter.label.split(',');
       const routes = chapter.routes.map((it, index) => (
         <ListItem button

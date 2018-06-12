@@ -13,7 +13,6 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Folder from 'mdi-material-ui/Folder';
 import Home from 'mdi-material-ui/Home';
 import Menu from 'mdi-material-ui/Menu';
-import Puzzle from 'mdi-material-ui/Puzzle';
 
 import withRouter from 'react-router-dom/withRouter';
 import Link from 'react-router-dom/Link';
@@ -29,9 +28,7 @@ class Header extends React.Component {
 
   state = {currentTab: undefined};
 
-  changeTab = (event, value) => {
-    this.setState({currentTab: value});
-  };
+  changeTab = (event, value) => this.setState({currentTab: value});
 
   render() {
 
@@ -39,7 +36,6 @@ class Header extends React.Component {
     const tabs = [
       {icon: <Home />,    to: '/',           value: ''},
       {icon: <Folder />,  to: '/archives/',  value: 'archives'},
-      // {icon: <Puzzle />,  to: '/puzzles/',   value: 'puzzles'},
     ].map(it => <Tab {...it} key={it.to} className={classes.tabs} component={Link} />);
     this.state.currentTab = location.pathname.substring(1).split('/')[0];
 

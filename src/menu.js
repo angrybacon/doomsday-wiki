@@ -9,7 +9,7 @@ import Target from 'mdi-material-ui/Target';
 import Wrench from 'mdi-material-ui/Wrench';
 
 
-const routes = [
+const MENU = [
 
   {
     label: 'Chapter 1, the Fundamentals', icon: <Baby />, routes: [
@@ -67,4 +67,4 @@ const routes = [
 
 ];
 
-export default routes;
+export default MENU;

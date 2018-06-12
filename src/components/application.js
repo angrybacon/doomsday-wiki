@@ -113,7 +113,6 @@ class Application extends React.Component {
                          open: this.state.drawer,
                          onClose: this.toggleDrawer,
                          onOpen: this.toggleDrawer,
-                         variant: 'temporary',
                        }} />
             </Hidden>
             <Hidden smDown>
