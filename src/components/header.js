@@ -20,7 +20,7 @@ import Link from 'react-router-dom/Link';
 
 const styles = theme => ({
   root: {margin: 0, padding: 0},
-  tabs: {...theme.mixins.toolbar},
+  tabs: theme.mixins.toolbar,
 });
 
 
