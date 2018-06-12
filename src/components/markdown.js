@@ -38,7 +38,22 @@ class Markdown extends React.Component {
   state = {content: null};
 
   componentDidMount() {
-    const path = this.props.source || this.props.match.params.chapter + '/' + this.props.match.params.page + '.md';
+    this.update();
+  }
+
+  componentDidUpdate(props) {
+    if (props.match && props.match.params) {
+      const {chapter: oldChapter, page: oldPage} = props.match.params;
+      const {chapter, page} = this.props.match.params;
+      if (page !== oldPage || chapter !== oldChapter) {
+        this.update();
+      }
+    }
+  }
+
+  update() {
+    const { chapter, page } = this.props.match ? this.props.match.params : {};
+    const path = this.props.source || chapter + '/' + page + '.md';
     import('../pages/' + path).then(
       content => this.setState({content: content}),
       () => this.setState({content: null})
