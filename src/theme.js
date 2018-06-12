@@ -6,6 +6,7 @@ import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 const defaultTheme = createMuiTheme();
 
 const themeOptions = {
+  mixins: {toolbar: {...defaultTheme.mixins.toolbar, minHeight: 48}},
   overrides: {
     MuiPaper: {
       root: {
@@ -17,6 +18,7 @@ const themeOptions = {
         },
       }
     },
+    MuiTab: {root: {minWidth: 56}},
   },
 };
 
