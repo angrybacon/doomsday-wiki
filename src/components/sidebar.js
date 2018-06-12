@@ -27,6 +27,7 @@ const styles = theme => ({
     flexShrink: 1,
     overflowY: 'auto',
   },
+  paper: {marginBottom: 0, padding: theme.spacing.unit * 3},
   title: theme.mixins.toolbar,
 });
 
@@ -89,9 +90,8 @@ class Sidebar extends React.Component {
         <Grid item className={classes.body}>
           <List children={menu} component="nav" />
           <Divider />
-          <Paper children={<Markdown source="links.md" />} elevation={0} style={{marginBottom: 0}} />
-          <Divider />
           <Markdown source="notation.md" />
+          <Paper children={<Markdown source="links.md" />} className={classes.paper} elevation={0} />
         </Grid>
       </Grid>
     );

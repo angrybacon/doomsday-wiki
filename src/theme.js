@@ -11,8 +11,10 @@ const themeOptions = {
       root: {
         marginBottom: defaultTheme.spacing.unit * 2,
         padding: defaultTheme.spacing.unit * 3,
-        [defaultTheme.breakpoints.up('sm')]: {padding: defaultTheme.spacing.unit * 4},
-        [defaultTheme.breakpoints.up('md')]: {marginBottom: defaultTheme.spacing.unit * 3},
+        [defaultTheme.breakpoints.up('md')]: {
+          marginBottom: defaultTheme.spacing.unit * 3,
+          padding: defaultTheme.spacing.unit * 4,
+        },
       }
     },
   },
