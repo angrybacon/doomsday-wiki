@@ -46,7 +46,7 @@ class Sidebar extends React.Component {
 
   render() {
 
-    const { classes, changeTheme, component, drawerProps } = this.props;
+    const { classes, changeTheme, component, drawerProps, toggleDrawer } = this.props;
 
     const menu = MENU.map((chapter, index) => {
       const labels = chapter.label.split(',');
@@ -57,6 +57,7 @@ class Sidebar extends React.Component {
                   dense
                   disabled={!it.href || it.href.startsWith('http')}
                   key={index}
+                  onClick={toggleDrawer}
                   to={it.href} />
       ));
       return (

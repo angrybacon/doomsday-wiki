@@ -66,7 +66,8 @@ class Application extends React.Component {
                          open: this.state.drawer,
                          onClose: this.toggleDrawer,
                          onOpen: this.toggleDrawer,
-                       }} />
+                       }}
+                       toggleDrawer={this.toggleDrawer} />
             </Hidden>
             <Hidden smDown>
               <Sidebar changeTheme={this.changeTheme}
