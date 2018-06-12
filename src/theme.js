@@ -18,7 +18,6 @@ const themeOptions = {
         },
       }
     },
-    MuiTab: {root: {minWidth: 56}},
     MuiTableRow: {head: {height: 48}},
   },
 };

@@ -5,45 +5,27 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
-import Tab from '@material-ui/core/Tab';
-import Tabs from '@material-ui/core/Tabs';
 import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import Folder from 'mdi-material-ui/Folder';
-import Home from 'mdi-material-ui/Home';
 import Menu from 'mdi-material-ui/Menu';
 
-import withRouter from 'react-router-dom/withRouter';
 import Link from 'react-router-dom/Link';
 
 
 const styles = theme => ({
   home: {color: theme.palette.primary.contrastText},
   root: {margin: 0, padding: 0},
-  tabs: theme.mixins.toolbar,
 });
 
 
 class Header extends React.Component {
-
-  state = {currentTab: undefined};
-
-  changeTab = (event, value) => this.setState({currentTab: value});
-
   render() {
-
-    const { classes, location, toggleDrawer } = this.props;
-    const tabs = [
-      {icon: <Home />,    to: '/',           value: ''},
-      {icon: <Folder />,  to: '/archives/',  value: 'archives'},
-    ].map(it => <Tab {...it} key={it.to} className={classes.tabs} component={Link} />);
-    this.state.currentTab = location.pathname.substring(1).split('/')[0];
-
+    const { classes, toggleDrawer } = this.props;
     return (
       <AppBar className={classes.root} position="static">
         <Toolbar>
-          <Grid container alignItems="center" justify="space-between">
+          <Grid container alignItems="center">
             <Grid item>
               <Hidden mdUp>
                 <Grid container alignItems="center">
@@ -58,12 +40,6 @@ class Header extends React.Component {
                 </Grid>
               </Hidden>
             </Grid>
-            <Grid item>
-              <Tabs children={tabs}
-                    className={classes.tabs}
-                    onChange={this.changeTab}
-                    value={this.state.currentTab} />
-            </Grid>
           </Grid>
         </Toolbar>
       </AppBar>
@@ -72,4 +48,4 @@ class Header extends React.Component {
 }
 
 
-export default withRouter(withStyles(styles)(Header));
+export default withStyles(styles)(Header);

@@ -12,18 +12,17 @@ import Page from './page';
 
 class Routes extends React.Component {
   render() {
-    const routes = [
-      {path: '/',           exact: true,  components: [<Markdown source="home.md" />]},
-      {path: '/archives/',  exact: true,  components: [<Markdown source="articles.md" />]},
-      {path: '/archives/',                components: [<Page />]},
-    ].map((it, index) => <Route exact={it.exact} key={index} path={it.path} render={
-      () => <Grid container children={it.components.map(
-        (it, index) => (
-          <Grid item children={<Paper children={it} component="article" />} key={index} />
-        )
-      )} direction="column" wrap="nowrap" />
-    } />);
-    return <Switch children={routes} />;
+    return (
+      <Switch>
+        <Route path="/" exact>
+          <Grid container direction="column" wrap="nowrap">
+            <Grid item children={<Paper children={<Markdown source="home.md" />} component="article" />} />
+            <Grid item children={<Paper children={<Markdown source="articles.md" />} component="article" />} />
+          </Grid>
+        </Route>
+        <Route path="/archives/" children={<Paper children={<Page />} component="article" />} />
+      </Switch>
+    );
   }
 }
 
