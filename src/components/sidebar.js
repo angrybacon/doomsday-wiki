@@ -17,7 +17,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import Link from 'react-router-dom/Link';
 
-import Page from './page';
+import Markdown from './markdown';
 
 import MENU from '../menu';
 
@@ -90,9 +90,9 @@ class Sidebar extends React.Component {
         <Grid item className={classes.body}>
           <List children={menu} component="nav" />
           <Divider />
-          <Paper children={<Page source="links.md" />} elevation={0} style={{marginBottom: 0}} />
+          <Paper children={<Markdown source="links.md" />} elevation={0} style={{marginBottom: 0}} />
           <Divider />
-          <Page source="notation.md" />
+          <Markdown source="notation.md" />
         </Grid>
       </Grid>
     );
