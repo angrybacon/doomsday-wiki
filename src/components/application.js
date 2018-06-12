@@ -4,9 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import Typography from '@material-ui/core/Typography';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import blueGrey from '@material-ui/core/colors/blueGrey';
-import pink from '@material-ui/core/colors/pink';
-import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 import withStyles from '@material-ui/core/styles/withStyles';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
@@ -15,6 +12,7 @@ import BrowserRouter from 'react-router-dom/BrowserRouter';
 import Header from './header';
 import Routes from './routes';
 import Sidebar from './sidebar';
+import { darkTheme, lightTheme } from '../theme';
 
 
 const sidebarWidth = 300;
@@ -39,33 +37,6 @@ const styles = theme => ({
     width: sidebarWidth,
   },
 });
-
-const defaultTheme = createMuiTheme();
-
-const theme = {
-  overrides: {
-    MuiPaper: {
-      root: {
-        marginBottom: defaultTheme.spacing.unit * 2,
-        padding: defaultTheme.spacing.unit * 3,
-        [defaultTheme.breakpoints.up('sm')]: {padding: defaultTheme.spacing.unit * 4},
-        [defaultTheme.breakpoints.up('md')]: {marginBottom: defaultTheme.spacing.unit * 3},
-      }
-    },
-  },
-};
-
-const lightTheme = createMuiTheme(Object.assign({}, theme, {palette: {
-  primary: {main: blueGrey[800]},
-  secondary: pink,
-}}));
-
-const darkTheme = createMuiTheme(Object.assign({}, theme, {palette: {
-  primary: {main: blueGrey[800]},
-  secondary: pink,
-  type: 'dark',
-}}));
-
 
 class Application extends React.Component {
 
