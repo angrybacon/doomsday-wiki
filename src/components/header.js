@@ -1,13 +1,13 @@
 import React from 'react';
 
 import AppBar from '@material-ui/core/AppBar';
+import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import Tab from '@material-ui/core/Tab';
 import Tabs from '@material-ui/core/Tabs';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 
 import Folder from 'mdi-material-ui/Folder';
@@ -19,6 +19,7 @@ import Link from 'react-router-dom/Link';
 
 
 const styles = theme => ({
+  home: {color: theme.palette.primary.contrastText},
   root: {margin: 0, padding: 0},
   tabs: theme.mixins.toolbar,
 });
@@ -49,8 +50,10 @@ class Header extends React.Component {
                   <Grid item>
                     <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
                   </Grid>
-                  <Grid item style={{marginLeft: '1em'}}>
-                    <Typography children="ddft.wiki" color="inherit" variant={'title'} />
+                  <Grid item style={{marginLeft: '.5em'}}>
+                    <Link children={<Button children="ddft.wiki" className={classes.home} size="small" />}
+                          style={{textDecoration: 'none'}}
+                          to="/" />
                   </Grid>
                 </Grid>
               </Hidden>

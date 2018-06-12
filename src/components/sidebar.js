@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Button from '@material-ui/core/Button';
 import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
@@ -12,7 +13,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Paper from '@material-ui/core/Paper';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 
 import Link from 'react-router-dom/Link';
@@ -80,7 +80,11 @@ class Sidebar extends React.Component {
           <Grid item>
             <Toolbar>
               <Grid container alignItems="center" className={classes.title} justify="space-between">
-                <Grid item children={<Typography children="ddft.wiki" variant="title" />} />
+                <Grid item>
+                  <Link children={<Button children="ddft.wiki" className={classes.home} size="large" />}
+                        style={{textDecoration: 'none'}}
+                        to="/" />
+                </Grid>
                 <Switch onChange={changeTheme()} />
               </Grid>
             </Toolbar>
