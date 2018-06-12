@@ -2,7 +2,6 @@ import React from 'react';
 
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import blueGrey from '@material-ui/core/colors/blueGrey';
@@ -12,13 +11,10 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
 import BrowserRouter from 'react-router-dom/BrowserRouter';
-import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
 
-import Chapter from './chapter';
-import Sidebar from './sidebar';
 import Header from './header';
-import Page from './page';
+import Routes from './routes';
+import Sidebar from './sidebar';
 
 
 const sidebarWidth = 300;
@@ -84,21 +80,7 @@ class Application extends React.Component {
   };
 
   render() {
-
     const { classes } = this.props;
-    const routes = [
-      {path: '/',           exact: true,  component: [<Page source="home.md" />]},
-      {path: '/archives/',  exact: true,  component: [<Page source="articles.md" />, <Chapter />]},
-      {path: '/archives/',                component: [<Chapter />]},
-      {path: '/puzzles/',   exact: true,  component: [<Page source="puzzles.md" />]},
-    ].map((it, index) => <Route exact={it.exact} key={index} path={it.path} render={
-      () => <Grid container children={it.component.map(
-        (it, index) => (
-          <Grid item children={<Paper children={it} component="article" />} key={index} />
-        )
-      )} direction="column" wrap="nowrap" />
-    } />);
-
     return (
       <MuiThemeProvider theme={this.state.theme}>
         <BrowserRouter>
@@ -130,7 +112,7 @@ class Application extends React.Component {
               <Grid item className={classes.body}>
                 <Grid container justify="center">
                   <Grid item xs={12} md={10} lg={8} xl={6}>
-                    <Switch children={routes} />
+                    <Routes />
                     <Typography align="center" component="footer">
                       Copyright &copy; 2018 ddft.wiki contributors
                     </Typography>
