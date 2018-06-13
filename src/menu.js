@@ -22,7 +22,7 @@ const MENU = [
 
   {
     label: 'Chapter 2, Supplementary Techniques', icon: <Target />, routes: [
-      {text: 'Conjurer\'s Bauble',             href: 'http://ddft.wiki/pages-output/ch2/double-doomsday'},
+      {text: 'Conjurer\'s Bauble',             href: '/archives/2/conjurers-bauble/'},
       {text: 'Shelldock Isle/Emrakul',         href: 'http://ddft.wiki/pages-output/ch2/shelldock-emrakul'},
       {text: 'Double Doomsday Piles',          href: 'http://ddft.wiki/pages-output/ch2/double-doomsday'},
       {text: 'Time Spiral Piles',              href: 'http://ddft.wiki/pages-output/ch2/doomsday-timespiral'},
