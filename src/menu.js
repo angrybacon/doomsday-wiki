@@ -15,7 +15,7 @@ const MENU = [
     label: 'Chapter 1, the Fundamentals', icon: <Baby />, routes: [
       {text: 'Basics',                         href: '/archives/1/basics/'},
       {text: 'Brainstorm',                     href: '/archives/1/brainstorm/'},
-      {text: 'Laboratory Maniac',              href: 'http://ddft.wiki/pages-output/ch1/laboratory-maniac'},
+      {text: 'Laboratory Maniac',              href: '/archives/1/laboratory-maniac/'},
       {text: 'Pass the Turn',                  href: 'http://ddft.wiki/pages-output/ch1/pass-the-turn'},
     ]
   },
