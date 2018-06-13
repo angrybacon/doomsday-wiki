@@ -36,23 +36,11 @@ const MENU = [
     ]
   },
 
-  {
-    label: 'Chapter 4, Deck Construction', icon: <Wrench />, routes: [
-      {text: 'Under construction'},
-    ]
-  },
+  {label: 'Chapter 4, Deck Construction', icon: <Wrench />},
 
-  {
-    label: 'Chapter 5, Gameplay Strategies', icon: <ChessKnight />, routes: [
-      {text: 'Under construction'},
-    ]
-  },
+  {label: 'Chapter 5, Gameplay Strategies', icon: <ChessKnight />},
 
-  {
-    label: 'Chapter 6, Puzzles', icon: <Puzzle />, routes: [
-      {text: 'Under construction'},
-    ]
-  },
+  {label: 'Chapter 6, Puzzles', icon: <Puzzle />},
 
   {
     label: 'Postamble, Appendices', icon: <FileOutline />, routes: [

@@ -50,7 +50,7 @@ class Sidebar extends React.Component {
 
     const menu = MENU.map((chapter, index) => {
       const labels = chapter.label.split(',');
-      const routes = chapter.routes.map((it, index) => (
+      const routes = (chapter.routes || []).map((it, index) => (
         <ListItem button
                   children={<ListItemText primary={it.text} />}
                   component={it.href ? Link : 'div'}
@@ -62,7 +62,7 @@ class Sidebar extends React.Component {
       ));
       return (
         <div key={index}>
-          <ListItem button dense onClick={this.toggleMenuItem(index)}>
+          <ListItem button dense disabled={!routes.length} onClick={this.toggleMenuItem(index)}>
             <ListItemIcon children={chapter.icon} />
             <ListItemText primary={labels[0]} secondary={labels[1]} />
           </ListItem>
