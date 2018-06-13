@@ -56,12 +56,12 @@ const MENU = [
 
   {
     label: 'Postamble, Appendices', icon: <FileOutline />, routes: [
-      {text: 'Pile Document',                  href: 'http://ddft.wiki/pages-output/appendix/rem_table'},
+      {text: 'Pile Document',                  href: '/archives/appendices/piles/'},
       {text: 'Puzzle answers'},
-      {text: 'Sample Decklists',               href: 'http://ddft.wiki/pages-output/appendix/Decklist'},
-      {text: 'Interesting Card Interactions',  href: 'http://ddft.wiki/pages-output/appendix/interesting-interactions'},
-      {text: 'Removal Tables',                 href: 'http://ddft.wiki/pages-output/appendix/rem_table'},
-      {text: 'Doomsday Resources',             href: 'http://ddft.wiki/pages-output/appendix/external_resources'},
+      {text: 'Sample Decklists',               href: '/archives/appendices/decklists/'},
+      {text: 'Interesting Card Interactions',  href: '/archives/appendices/interactions/'},
+      {text: 'Removal Tables',                 href: '/archives/appendices/removal-tables/'},
+      {text: 'Doomsday Resources',             href: '/archives/appendices/resources/'},
     ]
   },
 
