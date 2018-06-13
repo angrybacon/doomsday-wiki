@@ -31,7 +31,7 @@ const MENU = [
 
   {
     label: 'Chapter 3, Limitations', icon: <AlertOctagon />, routes: [
-      {text: 'Playing Around Surgical',        href: 'http://ddft.wiki/pages-output/ch3/surgical'},
+      {text: 'Playing Around Surgical',        href: '/archives/3/surgical-extraction/'},
       {text: 'CMC Limitations',                href: '/archives/3/cmc/'},
     ]
   },
