@@ -5,7 +5,6 @@ import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
-import Hidden from '@material-ui/core/Hidden';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -13,6 +12,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Paper from '@material-ui/core/Paper';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
+import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import withStyles from '@material-ui/core/styles/withStyles';
 
 import Link from 'react-router-dom/Link';
@@ -46,7 +46,7 @@ class Sidebar extends React.Component {
 
   render() {
 
-    const { classes, changeTheme, component, drawerProps, toggleDrawer } = this.props;
+    const { classes, changeTheme, component, drawerProps, toggleDrawer, width } = this.props;
 
     const menu = MENU.map((chapter, index) => {
       const labels = chapter.label.split(',');
@@ -77,21 +77,22 @@ class Sidebar extends React.Component {
 
     const drawer = (
       <Grid container direction="column" wrap="nowrap">
-        <Hidden smDown>
-          <Grid item>
-            <Toolbar>
-              <Grid container alignItems="center" className={classes.title} justify="space-between">
-                <Grid item>
-                  <Link children={<Button children="ddft.wiki" className={classes.home} size="large" />}
-                        style={{textDecoration: 'none'}}
-                        to="/" />
-                </Grid>
-                <Switch onChange={changeTheme()} />
+        <Grid item>
+          <Toolbar>
+            <Grid container alignItems="center" className={classes.title} justify="space-between">
+              <Grid item>
+                <Link style={{textDecoration: 'none'}} to="/">
+                  <Button children="ddft.wiki"
+                          color="primary"
+                          size={isWidthDown('sm', width) ? 'small' : 'medium'}
+                          style={{boxShadow: 'none'}} variant="contained"/>
+                </Link>
               </Grid>
-            </Toolbar>
-          </Grid>
-          <Divider />
-        </Hidden>
+              <Switch onChange={changeTheme()} />
+            </Grid>
+          </Toolbar>
+        </Grid>
+        <Divider />
         <Grid item className={classes.body}>
           <List children={menu} component="nav" />
           <Divider />
@@ -112,4 +113,4 @@ class Sidebar extends React.Component {
 }
 
 
-export default withStyles(styles)(Sidebar);
+export default withWidth()(withStyles(styles)(Sidebar));

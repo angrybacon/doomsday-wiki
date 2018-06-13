@@ -19,6 +19,7 @@ const themeOptions = {
       }
     },
     MuiTableRow: {head: {height: 48}},
+    MuiTypography: {title: {fontWeight: 'normal'}},
   },
 };
 
