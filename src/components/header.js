@@ -9,6 +9,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import Menu from 'mdi-material-ui/Menu';
 
+import Breadcrumbs from './breadcrumbs';
 
 
 const styles = theme => ({
@@ -29,6 +30,7 @@ class Header extends React.Component {
                 <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
               </Grid>
             </Hidden>
+            <Grid item children={<Breadcrumbs />} />
           </Grid>
         </Toolbar>
       </AppBar>
