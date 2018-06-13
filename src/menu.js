@@ -25,7 +25,7 @@ const MENU = [
       {text: 'Conjurer\'s Bauble',             href: '/archives/2/conjurers-bauble/'},
       {text: 'Shelldock Isle',                 href: '/archives/2/shelldock-isle/'},
       {text: 'Double Doomsday Piles',          href: '/archives/2/double-doomsday/'},
-      {text: 'Time Spiral Piles',              href: 'http://ddft.wiki/pages-output/ch2/doomsday-timespiral'},
+      {text: 'Time Spiral Piles',              href: '/archives/2/time-spiral/'},
     ]
   },
 
