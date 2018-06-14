@@ -1,7 +1,7 @@
 # Articles
 
-- [Dueling Doomsdays](https://ddft.wiki/posts-output/Dueling%20Doomsdays_Clash%20in%20Cymru/) - April 23, 2018
-- [SCG Worcester 2018 Full Report](https://ddft.wiki/posts-output/SCG_Worcester_Report/) - March 6, 2018
-- [Doomsday by Numbers](https://ddft.wiki/posts-output/DDStatistics-001/) - February 3, 2018
-- [Doomsday in 2017](https://ddft.wiki/posts-output/DD_2017/) - January 10, 2018
-- [Doomsday By Committee #1: Setting the Scene](https://ddft.wiki/posts-output/DDBC-001/) - January 3, 2018
+- [Dueling Doomsdays](/articles/2018/04/23-dueling-doomsdays) - April 23, 2018
+- [SCG Worcester 2018 Full Report](/articles/2018/03/06-scg-worcester-report) - March 6, 2018
+- [Doomsday by Numbers](/articles/2018/02/03-doomsday-by-numbers) - February 3, 2018
+- [Doomsday in 2017](/articles/2018/01/10-doomsday-in-2017) - January 10, 2018
+- [Doomsday By Committee #1: Setting the Scene](/articles/2018/01/03-doomsday-by-committee) - January 3, 2018

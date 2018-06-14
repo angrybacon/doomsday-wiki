@@ -11,6 +11,7 @@ class Page extends React.Component {
     return (
       <Switch>
         <Route component={Markdown} path="/appendices/:page/" />
+        <Route component={Markdown} path="/articles/:year/:month/:page/" />
         <Route component={Markdown} path="/chapters/:chapter/:page/" />
       </Switch>
     );
