@@ -35,6 +35,9 @@ function getHeading(level) {
 
 class Markdown extends React.Component {
 
+  // NOTE: We relies on the fact that object key-values pairs are now ordered,
+  //       sort of.
+
   state = {content: null};
 
   componentDidMount() {
@@ -42,18 +45,22 @@ class Markdown extends React.Component {
   }
 
   componentDidUpdate(props) {
-    if (props.match && props.match.params) {
-      const {chapter: oldChapter, page: oldPage} = props.match.params;
-      const {chapter, page} = this.props.match.params;
-      if (page !== oldPage || chapter !== oldChapter) {
+    if (this.props.match && props.match) {
+      const path = Object.values(this.props.match.params).reduce((result, it) => result.concat(it), '');
+      const oldPath = Object.values(props.match.params).reduce((result, it) => result.concat(it), '');
+      if (path !== oldPath) {
         this.update();
       }
     }
   }
 
   update() {
-    const { chapter, page } = this.props.match ? this.props.match.params : {};
-    const path = this.props.source || chapter + '/' + page + '.md';
+    const parameters = (
+      this.props.match
+        ? [this.props.match.url.split('/')[1]].concat(Object.values(this.props.match.params))
+        : []
+    );
+    const path = this.props.source || parameters.join('/') + '.md';
     import('../pages/' + path).then(
       content => this.setState({content: content}),
       () => this.setState({content: null})

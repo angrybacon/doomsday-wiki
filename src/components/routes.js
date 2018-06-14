@@ -20,7 +20,7 @@ class Routes extends React.Component {
             <Grid item children={<Paper children={<Markdown source="articles.md" />} component="article" />} />
           </Grid>
         </Route>
-        <Route path="/archives/" children={<Paper children={<Page />} component="article" />} />
+        <Route children={<Paper children={<Page />} component="article" />} />
       </Switch>
     );
   }

@@ -13,11 +13,11 @@ there to help people to really understand how the deck works and can win in
 various scenarios.
 
 An overview of Doomsday piles is actually collected in a separate document,
-which is called [The Doomsday Pile Document](/archives/appendices/piles/). The
-pile document only lists a selection of the possible piles, while the Doomsday
-Codex focuses the theory behind the piles. How to build them, when to build
-them, why the pile is build up like that, how to play around stuff, how to
-sequence your spells correctly, and so on.
+which is called [The Doomsday Pile Document](/appendices/piles/). The pile
+document only lists a selection of the possible piles, while the Doomsday Codex
+focuses the theory behind the piles. How to build them, when to build them, why
+the pile is build up like that, how to play around stuff, how to sequence your
+spells correctly, and so on.
 
 Another related collection of articles is the
 [Doomsday-Library](https://github.com/Bennotsi-MTG/Doomsday-Library). This is a

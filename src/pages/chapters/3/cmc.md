@@ -236,7 +236,7 @@ limitation pieces. X denotes it cannot achieve the function of removing the lock
 piece/(s) listed.
 
 *A more complete version of this table may be found in [Appendix
-V](/archives/appendices/removal-tables/).
+V](/appendices/removal-tables/).
 
 |                                       | By Force   | Consign   | Meltdown   | Pulverize   | Shattering Spree   |
 | ------------------------------------- | :--------: | :-------: | :--------: | :---------: | :----------------: |

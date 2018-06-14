@@ -31,7 +31,7 @@ GP:
 -> IU, CB, GP, LED, LM.                  BBB+1UU (6)
 ```
 
-You should recognise the above example from the [Basics](/archives/1/basics/)
+You should recognise the above example from the [Basics](/chapters/1/basics/)
 document.  
 Here you can see we can use CB to have a draw card effect present even after we
 have activated our LED for mana.
@@ -53,7 +53,7 @@ CB in play+GP:
 ```
 
 This has some overlap with what is described in the [Double
-Doomsday](/archives/2/double-doomsday/) document. Just as historically you could
+Doomsday](/chapters/2/double-doomsday/) document. Just as historically you could
 with Sensei's Divining Top, Conjurer's Bauble may be used save the draw for the
 second pile in the play line.
 
@@ -389,6 +389,6 @@ pile with in order to give yourself an additional turn worth of Emrakul attacks.
    when using CB
 
 Hopefully this will allow a greater understanding of how to play through more of
-the piles that make up the [Pile Document](/archives/appendices/piles/).
-Remember as with anything it is better to learn the concepts presented here more
-so than to try and rote learn piles and of course, practice makes perfect.
+the piles that make up the [Pile Document](/appendices/piles/). Remember as with
+anything it is better to learn the concepts presented here more so than to try
+and rote learn piles and of course, practice makes perfect.
