@@ -33,10 +33,9 @@ four of.
 
 - 4 x Brainstorm
 
-This allows for further deck filtering, hand fixing and some
-[nifty tricks](http://ddft.wiki/pages-output/ch1/brainstorm/) involving Doomsday
-stacks. It also can help protect from opposing discard effects. Should always be
-a four of.
+This allows for further deck filtering, hand fixing and some [nifty
+tricks](/archives/1/brainstorm/) involving Doomsday stacks. It also can help
+protect from opposing discard effects. Should always be a four of.
 
 - 4 x Ponder
 
@@ -77,10 +76,9 @@ his weight well in a lot of scenarios. Most lists do run one copy main.
 
 - 0-4 Conjurer's Baubles
 
-This card is explained in full
-[here](http://ddft.wiki/pages-output/ch2/cb-piles/) and allows a multitude of
-funtions with the key ones being to store a draw in the face of using Lion's Eye
-Diamonds to generate mana. Most lists are running 2-4.
+This card is explained in full [here](/archives/2/conjurers-bauble/) and allows
+a multitude of funtions with the key ones being to store a draw in the face of
+using Lion's Eye Diamonds to generate mana. Most lists are running 2-4.
 
 - 0-4 Preordain
 
@@ -203,8 +201,8 @@ one get exiled in some way.
 The rest is quite open but popular choices include packages such as a Tropical
 Island with either Abrupt Decay / Xantid Swarm / Carpet of Flowers or
 alternative win conditions such as
-[Shelldock/Emrakul](http://ddft.wiki/pages-output/ch2/shelldock-emrakul/) or
-more redundancy in terms of removal to bring in.
+[Shelldock/Emrakul](/archives/2/shelldock-isle/) or more redundancy in terms of
+removal to bring in.
 
 # Example List:
 

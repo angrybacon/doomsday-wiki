@@ -13,18 +13,16 @@ there to help people to really understand how the deck works and can win in
 various scenarios.
 
 An overview of Doomsday piles is actually collected in a separate document,
-which is called [The Doomsday Pile Document][10]. The pile document only lists a
-selection of the possible piles, while the Doomsday Codex focuses the theory
-behind the piles. How to build them, when to build them, why the pile is build
-up like that, how to play around stuff, how to sequence your spells correctly,
-and so on.
+which is called [The Doomsday Pile Document](/archives/appendices/piles/). The
+pile document only lists a selection of the possible piles, while the Doomsday
+Codex focuses the theory behind the piles. How to build them, when to build
+them, why the pile is build up like that, how to play around stuff, how to
+sequence your spells correctly, and so on.
 
-Another related collection of articles is the [Doomsday-Library][20]. This is a
+Another related collection of articles is the
+[Doomsday-Library](https://github.com/Bennotsi-MTG/Doomsday-Library). This is a
 collection of archived articles that have become obsolete, for example due to
 the format evolving, or because certain cards have been banned.
 
-This repository, and all of its contents, is licensed under [CC-BY-4.0][30].
-
-[10]: http://ddft.wiki/pages-output/appendix/pile-doc
-[20]: https://github.com/Bennotsi-MTG/Doomsday-Library
-[30]: https://creativecommons.org/licenses/by/4.0/
+This repository, and all of its contents, is licensed under
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).

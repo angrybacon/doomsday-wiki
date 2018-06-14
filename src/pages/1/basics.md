@@ -226,6 +226,6 @@ decklist and start goldfishing trying to figure out what piles to build and how
 to execute them. There are several documents available that list Doomsday piles
 which you can use to get to know more piles. These are very important tools when
 learning how to play the deck.  
-See the [DDFT Pile Document] for a more basic list of different piles.
-
-[DDFT Pile Document]: https://github.com/Bennotsi-MTG/ddft-pileDoc/blob/master/README.md
+See the [DDFT Pile
+Document](https://github.com/Bennotsi-MTG/ddft-pileDoc/blob/master/README.md)
+for a more basic list of different piles.

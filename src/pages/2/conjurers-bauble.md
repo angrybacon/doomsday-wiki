@@ -3,8 +3,8 @@
 At the time of writing (July 2017) this is still a relatively new tech to play
 around with. Historically Sensei's Divining Top held a place as a standard 4-of
 in the deck to act as deck filtering and a 'free saved' card draw for Doomsday
-piles. More information on how this was used can be found in the
-[Doomsday Library](https://github.com/Bennotsi-MTG/Doomsday-Library).
+piles. More information on how this was used can be found in the [Doomsday
+Library](https://github.com/Bennotsi-MTG/Doomsday-Library).
 
 Conjurer's Bauble was identified as the closest equivalent for use in Doomsday
 storm or Laboratory Maniac piles that would allow a free draw that was also
@@ -31,8 +31,8 @@ GP:
 -> IU, CB, GP, LED, LM.                  BBB+1UU (6)
 ```
 
-You should recognise the above example from the
-[Basics](http://ddft.wiki/pages-output/basics/) document.  
+You should recognise the above example from the [Basics](/archives/1/basics/)
+document.  
 Here you can see we can use CB to have a draw card effect present even after we
 have activated our LED for mana.
 
@@ -52,10 +52,10 @@ CB in play+GP:
 -> IU, LED, GP, LED, BW
 ```
 
-This has some overlap with what is described in the
-[Double Doomsday](http://ddft.wiki/pages-output/double-doomsday/) document. Just as
-historically you could with Sensei's Divining Top, Conjurer's Bauble may be used
-save the draw for the second pile in the play line.
+This has some overlap with what is described in the [Double
+Doomsday](/archives/2/double-doomsday/) document. Just as historically you could
+with Sensei's Divining Top, Conjurer's Bauble may be used save the draw for the
+second pile in the play line.
 
 This simple use as a cantrip is not however the true strength of CB.
 
@@ -389,7 +389,6 @@ pile with in order to give yourself an additional turn worth of Emrakul attacks.
    when using CB
 
 Hopefully this will allow a greater understanding of how to play through more of
-the piles that make up the
-[Pile Document](http://ddft.wiki/pages-output/appendix/pile-doc/). Remember as
-with anything it is better to learn the concepts presented here more so than to
-try and rote learn piles and of course, practice makes perfect.
+the piles that make up the [Pile Document](/archives/appendices/piles/).
+Remember as with anything it is better to learn the concepts presented here more
+so than to try and rote learn piles and of course, practice makes perfect.
