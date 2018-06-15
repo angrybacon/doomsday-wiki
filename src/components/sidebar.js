@@ -52,9 +52,8 @@ class Sidebar extends React.Component {
       const routes = (chapter.routes || []).map((it, index) => (
         <ListItem button
                   children={<ListItemText primary={it.text} />}
-                  component={it.href ? Link : 'div'}
+                  component={Link}
                   dense
-                  disabled={!it.href || it.href.startsWith('http')}
                   key={index}
                   onClick={toggleDrawer}
                   to={it.href} />
