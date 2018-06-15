@@ -10,6 +10,7 @@ import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 
 import Header from './header';
+import PrettyLink from './prettylink';
 import Routes from './routes';
 import Sidebar from './sidebar';
 import { darkTheme, lightTheme } from '../theme';
@@ -87,7 +88,7 @@ class Application extends React.Component {
                   <Grid item xs={12} md={10} lg={8} xl={6}>
                     <Routes />
                     <Typography align="center" component="footer">
-                      Copyright &copy; 2018 ddft.wiki contributors
+                      Copyright &copy; 2018 <PrettyLink children="ddft.wiki contributors" to="/authors/" />
                     </Typography>
                   </Grid>
                 </Grid>

@@ -7,6 +7,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 
+import Authors from './authors';
 import Markdown from './markdown';
 import Page from './page';
 
@@ -21,7 +22,7 @@ class Routes extends React.Component {
     const { classes } = this.props;
     return (
       <Switch>
-        <Route path="/" exact>
+        <Route exact path="/">
           <Grid container direction="column" wrap="nowrap">
             <Grid item>
               <Paper className={classes.padding} component="article">
@@ -35,6 +36,7 @@ class Routes extends React.Component {
             </Grid>
           </Grid>
         </Route>
+        <Route children={<Authors />} path="/authors/" />
         <Route>
           <Paper children={<Page />} className={classes.padding} component="article" />
         </Route>
