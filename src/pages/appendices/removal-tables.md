@@ -20,32 +20,32 @@ Burning Wish.
 |                                    | By Force | Consign  | Meltdown | Pulverize | Shattering Spree | Void Snare |
 | ---------------------------------- | :------: | :------: | :------: | :-------: | :--------------: | :--------: |
 | **Chalice @0**                     | 1R       | 1U       | R        | 0         | R                | U          |
-| **Chalice @1**                     | 1R       | 1U       | 1R       | 0         | RR               | X          |
-| **Chalice @2**                     | X        | X        | R        | 0         | R                | U          |
+| **Chalice @1**                     | 1R       | 1U       | 1R       | 0         | RR               | -          |
+| **Chalice @2**                     | -        | -        | R        | 0         | R                | U          |
 | **Chalice @3**                     | 1R       | 1U       | R        | 0         | R                | U          |
 | **Chalice @4**                     | 1R       | 1U       | R        | 0         | R                | U          |
-| **Chalices @0+1**                  | 2R       | X        | 1R       | 0         | RRR              | X          |
-| **Chalices @0+2**                  | 2R       | X        | R        | 0         | RR               | X          |
-| **Chalices @0+3**                  | X        | X        | R        | 0         | RR               | X          |
-| **Chalices @0+4**                  | 2R       | X        | R        | 0         | RR               | X          |
-| **Chalices @1+2**                  | 2R       | X        | 2R       | 0         | RRR              | X          |
-| **Chalices @1+3**                  | X        | X        | 1R       | 0         | RRR              | X          |
-| **Chalices @1+4**                  | 2R       | X        | 1R       | 0         | RRR              | X          |
-| **Chalices @2+3**                  | X        | X        | R        | 0         | RR               | X          |
-| **Chalices @2+4**                  | 2R       | X        | 2R       | 0         | RR               | X          |
+| **Chalices @0+1**                  | 2R       | -        | 1R       | 0         | RRR              | -          |
+| **Chalices @0+2**                  | 2R       | -        | R        | 0         | RR               | -          |
+| **Chalices @0+3**                  | -        | -        | R        | 0         | RR               | -          |
+| **Chalices @0+4**                  | 2R       | -        | R        | 0         | RR               | -          |
+| **Chalices @1+2**                  | 2R       | -        | 2R       | 0         | RRR              | -          |
+| **Chalices @1+3**                  | -        | -        | 1R       | 0         | RRR              | -          |
+| **Chalices @1+4**                  | 2R       | -        | 1R       | 0         | RRR              | -          |
+| **Chalices @2+3**                  | -        | -        | R        | 0         | RR               | -          |
+| **Chalices @2+4**                  | 2R       | -        | 2R       | 0         | RR               | -          |
 | **Trinisphere**                    | 2R       | 2U       | 3R       | 3         | 2R               | 2U         |
-| **Trinisphere + Chalice @0**       | 2R       | X        | 3R       | 4         | 1RR              | X          |
-| **Trinisphere + Chalice @1**       | 2R       | X        | 3R       | 3         | RRR              | X          |
-| **Trinisphere + Chalice @2**       | 2R       | X        | 3R       | 3         | 1RR              | X          |
-| **Trinisphere + Chalice @3**       | X        | X        | 3R       | 3         | 1RR              | X          |
-| **Trinisphere + Chalice @4**       | 2R       | X        | 4R       | 3         | 1RR              | X          |
+| **Trinisphere + Chalice @0**       | 2R       | -        | 3R       | 4         | 1RR              | -          |
+| **Trinisphere + Chalice @1**       | 2R       | -        | 3R       | 3         | RRR              | -          |
+| **Trinisphere + Chalice @2**       | 2R       | -        | 3R       | 3         | 1RR              | -          |
+| **Trinisphere + Chalice @3**       | -        | -        | 3R       | 3         | 1RR              | -          |
+| **Trinisphere + Chalice @4**       | 2R       | -        | 4R       | 3         | 1RR              | -          |
 | **Thorn of Amethyst**              | 2R       | 2U       | 3R       | 1         | 1R               | 1U         |
 | **2 Thorns of Amethyst**           | 4R       | 3U       | 4R       | 2         | 1RR              | 2U         |
-| **Thorn of Amethyst + Chalice @0** | 3R       | 3U       | 3R       | 1         | 1RR              | X          |
-| **Thorn of Amethyst + Chalice @1** | 3R       | X        | 3R       | 1         | 1RRR             | X          |
-| **Thorn of Amethyst + Chalice @2** | 3R       | X        | 3R       | 1         | 1RR              | X          |
-| **Thorn of Amethyst + Chalice @3** | X        | X        | 3R       | 1         | 1RR              | X          |
-| **Thorn of Amethyst + Chalice @4** | 3R       | X        | 3R       | 1         | 1RR              | X          |
+| **Thorn of Amethyst + Chalice @0** | 3R       | 3U       | 3R       | 1         | 1RR              | -          |
+| **Thorn of Amethyst + Chalice @1** | 3R       | -        | 3R       | 1         | 1RRR             | -          |
+| **Thorn of Amethyst + Chalice @2** | 3R       | -        | 3R       | 1         | 1RR              | -          |
+| **Thorn of Amethyst + Chalice @3** | -        | -        | 3R       | 1         | 1RR              | -          |
+| **Thorn of Amethyst + Chalice @4** | 3R       | -        | 3R       | 1         | 1RR              | -          |
 
 #### 2. Table of Alternative Wishable Artifact Removal Costs
 
@@ -57,32 +57,32 @@ of completeness*
 |                                    | Eye of Nowhere | Scrap Mastery | Shatterstorm | Subterranean Tremors | Vandalblast |
 | ---------------------------------- | :------------: | :-----------: | :----------: | :------------------: | :---------: |
 | **Chalice @0**                     | UU             | 3RR           | 2RR          | 4R                   | R           |
-| **Chalice @1**                     | UU             | 3RR           | 2RR          | 4R                   | X           |
-| **Chalice @2**                     | X              | 3RR           | 2RR          | 4R                   | R           |
+| **Chalice @1**                     | UU             | 3RR           | 2RR          | 4R                   | -           |
+| **Chalice @2**                     | -              | 3RR           | 2RR          | 4R                   | R           |
 | **Chalice @3**                     | UU             | 3RR           | 2RR          | 4R                   | R           |
-| **Chalice @4**                     | UU             | 3RR           | X            | 4R                   | R           |
-| **Chalices @0+1**                  | X              | 3RR           | 2RR          | 4R                   | X           |
-| **Chalices @0+2**                  | X              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Chalices @0+3**                  | X              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Chalices @0+4**                  | X              | 3RR           | X            | 4R                   | 4R          |
-| **Chalices @1+2**                  | X              | 3RR           | 2RR          | 4R                   | X           |
-| **Chalices @1+3**                  | X              | 3RR           | 2RR          | 4R                   | X           |
-| **Chalices @1+4**                  | X              | 3RR           | X            | 4R                   | X           |
-| **Chalices @2+3**                  | X              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Chalices @2+4**                  | X              | 3RR           | X            | 4R                   | 4R          |
+| **Chalice @4**                     | UU             | 3RR           | -            | 4R                   | R           |
+| **Chalices @0+1**                  | -              | 3RR           | 2RR          | 4R                   | -           |
+| **Chalices @0+2**                  | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| **Chalices @0+3**                  | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| **Chalices @0+4**                  | -              | 3RR           | -            | 4R                   | 4R          |
+| **Chalices @1+2**                  | -              | 3RR           | 2RR          | 4R                   | -           |
+| **Chalices @1+3**                  | -              | 3RR           | 2RR          | 4R                   | -           |
+| **Chalices @1+4**                  | -              | 3RR           | -            | 4R                   | -           |
+| **Chalices @2+3**                  | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| **Chalices @2+4**                  | -              | 3RR           | -            | 4R                   | 4R          |
 | **Trinisphere**                    | 1UU            | 3RR           | 2RR          | 4R                   | 2R          |
-| **Trinisphere + Chalice @0**       | X              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Trinisphere + Chalice @1**       | X              | 3RR           | 2RR          | 4R                   | X           |
-| **Trinisphere + Chalice @2**       | X              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Trinisphere + Chalice @3**       | X              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Trinisphere + Chalice @4**       | X              | 3RR           | X            | 4R                   | 4R          |
+| **Trinisphere + Chalice @0**       | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| **Trinisphere + Chalice @1**       | -              | 3RR           | 2RR          | 4R                   | -           |
+| **Trinisphere + Chalice @2**       | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| **Trinisphere + Chalice @3**       | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| **Trinisphere + Chalice @4**       | -              | 3RR           | -            | 4R                   | 4R          |
 | **Thorn of Amethyst**              | 1UU            | 4RR           | 3RR          | 5R                   | 1R          |
-| **2 Thorns of Amethyst**           | X              | 5RR           | 4RR          | 6R                   | 6R          |
-| **Thorn of Amethyst + Chalice @0** | X              | 4RR           | 3RR          | 5R                   | 5R          |
-| **Thorn of Amethyst + Chalice @1** | X              | 4RR           | 3RR          | 5R                   | X           |
-| **Thorn of Amethyst + Chalice @2** | X              | 4RR           | 3RR          | 5R                   | 5R          |
-| **Thorn of Amethyst + Chalice @3** | X              | 4RR           | 3RR          | 5R                   | 5R          |
-| **Thorn of Amethyst + Chalice @4** | X              | 4RR           | X            | 5R                   | 5R          |
+| **2 Thorns of Amethyst**           | -              | 5RR           | 4RR          | 6R                   | 6R          |
+| **Thorn of Amethyst + Chalice @0** | -              | 4RR           | 3RR          | 5R                   | 5R          |
+| **Thorn of Amethyst + Chalice @1** | -              | 4RR           | 3RR          | 5R                   | -           |
+| **Thorn of Amethyst + Chalice @2** | -              | 4RR           | 3RR          | 5R                   | 5R          |
+| **Thorn of Amethyst + Chalice @3** | -              | 4RR           | 3RR          | 5R                   | 5R          |
+| **Thorn of Amethyst + Chalice @4** | -              | 4RR           | -            | 5R                   | 5R          |
 
 #### 3. Table of Common, Non-Wishable Artifact Removal Costs
 
@@ -92,32 +92,32 @@ Burning Wish but are usually sided in for post-board games.
 |                                    | Abrupt Decay | Chain of Vapor | Echoing Truth | Hurkyl's Recall |
 | ---------------------------------- | :----------: | :------------: | :-----------: | :-------------: |
 | **Chalice @0**                     | BG           | U              | 1U            | 1U              |
-| **Chalice @1**                     | BG           | X              | 1U            | 1U              |
-| **Chalice @2**                     | BG           | U              | X             | X               |
+| **Chalice @1**                     | BG           | -              | 1U            | 1U              |
+| **Chalice @2**                     | BG           | U              | -             | -               |
 | **Chalice @3**                     | BG           | U              | 1U            | 1U              |
 | **Chalice @4**                     | BG           | U              | 1U            | 1U              |
-| **Chalices @0+1**                  | X            | X              | 1U            | 1U              |
-| **Chalices @0+2**                  | X            | X              | X             | X               |
-| **Chalices @0+3**                  | X            | X              | 1U            | 1U              |
-| **Chalices @0+4**                  | X            | X              | 1U            | 1U              |
-| **Chalices @1+2**                  | X            | X              | X             | X               |
-| **Chalices @1+3**                  | X            | X              | 1U            | 1U              |
-| **Chalices @1+4**                  | X            | X              | 1U            | 1U              |
-| **Chalices @2+3**                  | X            | X              | X             | X               |
-| **Chalices @2+4**                  | X            | X              | X             | X               |
+| **Chalices @0+1**                  | -            | -              | 1U            | 1U              |
+| **Chalices @0+2**                  | -            | -              | -             | -               |
+| **Chalices @0+3**                  | -            | -              | 1U            | 1U              |
+| **Chalices @0+4**                  | -            | -              | 1U            | 1U              |
+| **Chalices @1+2**                  | -            | -              | -             | -               |
+| **Chalices @1+3**                  | -            | -              | 1U            | 1U              |
+| **Chalices @1+4**                  | -            | -              | 1U            | 1U              |
+| **Chalices @2+3**                  | -            | -              | -             | -               |
+| **Chalices @2+4**                  | -            | -              | -             | -               |
 | **Trinisphere**                    | 1BG          | 2U             | 2U            | 2U              |
-| **Trinisphere + Chalice @0**       | X            | X              | X             | 2U              |
-| **Trinisphere + Chalice @1**       | X            | X              | X             | 2U              |
-| **Trinisphere + Chalice @2**       | X            | X              | X             | X               |
-| **Trinisphere + Chalice @3**       | X            | X              | X             | 2U              |
-| **Trinisphere + Chalice @4**       | X            | X              | X             | 2U              |
+| **Trinisphere + Chalice @0**       | -            | -              | -             | 2U              |
+| **Trinisphere + Chalice @1**       | -            | -              | -             | 2U              |
+| **Trinisphere + Chalice @2**       | -            | -              | -             | -               |
+| **Trinisphere + Chalice @3**       | -            | -              | -             | 2U              |
+| **Trinisphere + Chalice @4**       | -            | -              | -             | 2U              |
 | **Thorn of Amethyst**              | 1BG          | 1U             | 2U            | 2U              |
-| **2 Thorns of Amethyst**           | X            | X              | 3U            | 3U              |
-| **Thorn of Amethyst + Chalice @0** | X            | X              | X             | 2U              |
-| **Thorn of Amethyst + Chalice @1** | X            | X              | X             | 2U              |
-| **Thorn of Amethyst + Chalice @2** | X            | X              | X             | X               |
-| **Thorn of Amethyst + Chalice @3** | X            | X              | X             | 2U              |
-| **Thorn of Amethyst + Chalice @4** | X            | X              | X             | 2U              |
+| **2 Thorns of Amethyst**           | -            | -              | 3U            | 3U              |
+| **Thorn of Amethyst + Chalice @0** | -            | -              | -             | 2U              |
+| **Thorn of Amethyst + Chalice @1** | -            | -              | -             | 2U              |
+| **Thorn of Amethyst + Chalice @2** | -            | -              | -             | -               |
+| **Thorn of Amethyst + Chalice @3** | -            | -              | -             | 2U              |
+| **Thorn of Amethyst + Chalice @4** | -            | -              | -             | 2U              |
 
 #### 4. Table of Alternative, Non-Wishable Artifact Removal Costs
 
@@ -130,28 +130,28 @@ of completeness*
 | ---------------------------------- | :------------: | :---: | :--------: | :-------------------: | :------: | :-----------: |
 | **Chalice @0**                     | 1R             | 0     | 1W         | C+2                   | 2U       | 2U            |
 | **Chalice @1**                     | 1R             | 0     | 1W         | 0+2                   | 2U       | 2U            |
-| **Chalice @2**                     | X              | 0     | X          | 0+2                   | 2U       | 2U            |
-| **Chalice @3**                     | 1R             | X     | 1W         | 0+2                   | X        | X             |
+| **Chalice @2**                     | -              | 0     | -          | 0+2                   | 2U       | 2U            |
+| **Chalice @3**                     | 1R             | -     | 1W         | 0+2                   | -        | -             |
 | **Chalice @4**                     | 1R             | 0     | 1W         | 0+2                   | 2U       | 2U            |
-| **Chalices @0+1**                  | 1RG            | X     | X          | CC+2                  | 2U       | 2U            |
-| **Chalices @0+2**                  | X              | X     | X          | C+2                   | 2U       | 2U            |
-| **Chalices @0+3**                  | 1RG            | X     | X          | C+2                   | X        | X             |
-| **Chalices @0+4**                  | 1RG            | X     | X          | C+2                   | 2U       | 2U            |
-| **Chalices @1+2**                  | X              | X     | X          | 0+2                   | 2U       | 2U            |
-| **Chalices @1+3**                  | 1RG            | X     | X          | 0+2                   | X        | X             |
-| **Chalices @1+4**                  | 1RG            | X     | X          | 0+2                   | 2U       | 2U            |
-| **Chalices @2+3**                  | X              | X     | X          | 0+2                   | X        | X             |
-| **Chalices @2+4**                  | X              | X     | X          | 0+2                   | 2U       | 2U            |
+| **Chalices @0+1**                  | 1RG            | -     | -          | CC+2                  | 2U       | 2U            |
+| **Chalices @0+2**                  | -              | -     | -          | C+2                   | 2U       | 2U            |
+| **Chalices @0+3**                  | 1RG            | -     | -          | C+2                   | -        | -             |
+| **Chalices @0+4**                  | 1RG            | -     | -          | C+2                   | 2U       | 2U            |
+| **Chalices @1+2**                  | -              | -     | -          | 0+2                   | 2U       | 2U            |
+| **Chalices @1+3**                  | 1RG            | -     | -          | 0+2                   | -        | -             |
+| **Chalices @1+4**                  | 1RG            | -     | -          | 0+2                   | 2U       | 2U            |
+| **Chalices @2+3**                  | -              | -     | -          | 0+2                   | -        | -             |
+| **Chalices @2+4**                  | -              | -     | -          | 0+2                   | 2U       | 2U            |
 | **Trinisphere**                    | 2R             | 3     | 2W         | UBR+2                 | 2U       | 2U            |
-| **Trinisphere + Chalice @0**       | 2RG            | X     | X          | X                     | 2U       | 2U            |
-| **Trinisphere + Chalice @1**       | 2RG            | X     | X          | X                     | 2U       | 2U            |
-| **Trinisphere + Chalice @2**       | X              | X     | X          | X                     | 2U       | 2U            |
-| **Trinisphere + Chalice @3**       | 2RG            | X     | X          | X                     | X        | X             |
-| **Trinisphere + Chalice @4**       | 2RG            | X     | X          | X                     | 2U       | 2U            |
+| **Trinisphere + Chalice @0**       | 2RG            | -     | -          | -                     | 2U       | 2U            |
+| **Trinisphere + Chalice @1**       | 2RG            | -     | -          | -                     | 2U       | 2U            |
+| **Trinisphere + Chalice @2**       | -              | -     | -          | -                     | 2U       | 2U            |
+| **Trinisphere + Chalice @3**       | 2RG            | -     | -          | -                     | -        | -             |
+| **Trinisphere + Chalice @4**       | 2RG            | -     | -          | -                     | 2U       | 2U            |
 | **Thorn of Amethyst**              | 2R             | 1     | 2W         | UB+2                  | 3U       | 3U            |
-| **2 Thorns of Amethyst**           | 4RG            | X     | X          | UB+2                  | 4U       | 4U            |
-| **Thorn of Amethyst + Chalice @0** | 2RG            | X     | X          | X                     | 3U       | 3U            |
-| **Thorn of Amethyst + Chalice @1** | 2RG            | X     | X          | X                     | 3U       | 3U            |
-| **Thorn of Amethyst + Chalice @2** | X              | X     | X          | X                     | 3U       | 3U            |
-| **Thorn of Amethyst + Chalice @3** | 2RG            | X     | X          | X                     | X        | X             |
-| **Thorn of Amethyst + Chalice @4** | 2RG            | X     | X          | X                     | 3U       | 3U            |
+| **2 Thorns of Amethyst**           | 4RG            | -     | -          | UB+2                  | 4U       | 4U            |
+| **Thorn of Amethyst + Chalice @0** | 2RG            | -     | -          | -                     | 3U       | 3U            |
+| **Thorn of Amethyst + Chalice @1** | 2RG            | -     | -          | -                     | 3U       | 3U            |
+| **Thorn of Amethyst + Chalice @2** | -              | -     | -          | -                     | 3U       | 3U            |
+| **Thorn of Amethyst + Chalice @3** | 2RG            | -     | -          | -                     | -        | -             |
+| **Thorn of Amethyst + Chalice @4** | 2RG            | -     | -          | -                     | 3U       | 3U            |
