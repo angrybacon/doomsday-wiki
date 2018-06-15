@@ -14,14 +14,13 @@ const styles = theme => ({
 
 class PrettyLink extends React.Component {
   render() {
-    const { children, classes, href, target, theme} = this.props;
+    const { children, classes, href, target, theme, to} = this.props;
     const component = this.props.component || (href && href.startsWith('http') ? null : Link);
-
-    return href ? (
+    return to || href ? (
       component ?
-        React.createElement(component, {className: classes.root, to: href}, children) : (
+        React.createElement(component, {className: classes.root, to: to || href}, children) : (
           <span style={{alignItems: 'center', display: 'inline-flex'}}>
-            <a className={classes.root} href={href} target={target || '_blank'}>{children}</a>
+            <a className={classes.root} href={to || href} target={target || '_blank'}>{children}</a>
             <OpenInNew style={{fontSize: theme.typography.body1.fontSize, marginLeft: 4}} />
           </span>
         )
