@@ -15,12 +15,14 @@ import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import withStyles from '@material-ui/core/styles/withStyles';
 
 import Link from 'react-router-dom/Link';
+import NavLink from 'react-router-dom/NavLink';
 
 import Markdown from './markdown';
 import MENU from '../menu';
 
 
 const styles = theme => ({
+  activeLink: {backgroundColor: theme.palette.action.selected},
   body: {
     flexGrow: 1,
     flexShrink: 1,
@@ -50,9 +52,10 @@ class Sidebar extends React.Component {
     const menu = MENU.map((chapter, index) => {
       const labels = chapter.label.split(',');
       const routes = (chapter.routes || []).map((it, index) => (
-        <ListItem button
+        <ListItem activeClassName={classes.activeLink}
+                  button
                   children={<ListItemText primary={it.text} />}
-                  component={Link}
+                  component={NavLink}
                   dense
                   key={index}
                   onClick={toggleDrawer}
