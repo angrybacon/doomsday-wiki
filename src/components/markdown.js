@@ -22,6 +22,7 @@ const styles = theme => ({
     borderWidth: 1,
     padding: theme.spacing.unit,
   },
+  padding: theme.mixins.padding({x: true}),
 });
 
 
@@ -69,34 +70,50 @@ class Markdown extends React.Component {
 
   render() {
 
-    const { className, classes, theme } = this.props;
+    const { className, classes, noPadding, theme } = this.props;
     const { content } = this.state;
 
     const renderers = {
       code: props => (
-        <pre className={classes.code} style={{overflowY: 'auto'}}><code>{props.value}</code></pre>
+        <div className={noPadding ? {} : classes.padding}>
+          <pre className={classes.code} style={{overflowY: 'auto'}}>
+            <code>{props.value}</code>
+          </pre>
+        </div>
       ),
       heading: props => (
-        <Typography children={props.children} gutterBottom {...getHeading(props.level)} />
+        <Typography {...getHeading(props.level)}
+                    children={props.children}
+                    className={noPadding ? {} : classes.padding}
+                    gutterBottom />
       ),
       link: PrettyLink,
       linkReference: PrettyLink,
-      table: props => <Table children={props.children} />,
+      list: (props, a, b) => (
+        <div className={noPadding ? {} : classes.padding}>
+          {React.createElement(props.ordered ? 'ol' : 'ul', {}, props.children)}
+        </div>
+      ),
+      paragraph: props => <p className={noPadding ? {} : classes.padding}>{props.children}</p>,
+      table: props => <Table children={props.children} className={classes.table} />,
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
       tableCell: props => (
         <TableCell children={props.children}
-                   padding="dense"
-                   style={{borderBottomColor: theme.palette.divider}} />
+                   padding="checkbox"
+                   style={{borderBottomColor: theme.palette.divider}}
+                   // NOTE: There might soon be a better way.
+                   //       See https://github.com/rexxars/react-markdown/issues/138.
+                   {...this.props.tableCellProps} />
       ),
       thematicBreak: Divider,
     };
 
     return content ? (
-      <Typography
-        children={<ReactMarkdown className={className} renderers={renderers} source={content} />}
-        component="div" />
+      <Typography component="div">
+        <ReactMarkdown className={className} renderers={renderers} source={content} />
+      </Typography>
     ) : null;
   }
 }

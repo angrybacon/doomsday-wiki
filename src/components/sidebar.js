@@ -9,7 +9,6 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import Paper from '@material-ui/core/Paper';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
@@ -27,7 +26,7 @@ const styles = theme => ({
     flexShrink: 1,
     overflowY: 'auto',
   },
-  paper: {marginBottom: 0, padding: theme.spacing.unit * 3},
+  padding: {padding: theme.spacing.unit * 3},
   title: theme.mixins.toolbar,
 });
 
@@ -96,8 +95,8 @@ class Sidebar extends React.Component {
         <Grid item className={classes.body}>
           <List children={menu} component="nav" />
           <Divider />
-          <Markdown source="notation.md" />
-          <Paper children={<Markdown source="links.md" />} className={classes.paper} elevation={0} />
+          <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
+          <Markdown className={classes.padding} noPadding source="links.md" />
         </Grid>
       </Grid>
     );
