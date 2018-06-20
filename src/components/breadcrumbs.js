@@ -23,7 +23,7 @@ const getTitle = path => {
   MENU.some(
     chapter => (
       (chapter.routes || []).some(route => route.href === path ? results.push(route.text) : false)
-        ? results.unshift(chapter.label.split(',')[0])
+        ? results.unshift(chapter.label)
         : false
     )
   );
