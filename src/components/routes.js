@@ -36,10 +36,10 @@ class Routes extends React.Component {
             </Grid>
           </Grid>
         </Route>
-        <Route children={<Authors />} path="/authors/" />
-        <Route>
-          <Paper children={<Page />} className={classes.padding} component="article" />
-        </Route>
+        <Route exact children={<Authors />} path="/authors/" />
+        <Route exact component={Page} path="/appendices/:page/" />
+        <Route exact component={Page} path="/articles/:year/:month/:page/" />
+        <Route exact component={Page} path="/chapters/:chapter/:page/" />
       </Switch>
     );
   }

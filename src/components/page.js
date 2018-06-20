@@ -1,22 +1,24 @@
 import React from 'react';
 
-import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
+import Paper from '@material-ui/core/Paper';
+import withStyles from '@material-ui/core/styles/withStyles';
 
 import Markdown from './markdown';
 
 
+const styles = theme => ({
+  root: theme.mixins.padding({y: true}),
+});
+
+
 class Page extends React.Component {
   render() {
+    const { classes, match } = this.props;
     return (
-      <Switch>
-        <Route component={Markdown} path="/appendices/:page/" />
-        <Route component={Markdown} path="/articles/:year/:month/:page/" />
-        <Route component={Markdown} path="/chapters/:chapter/:page/" />
-      </Switch>
+      <Paper children={<Markdown match={match} />} className={classes.root} component="article" />
     );
   }
 }
 
 
-export default Page;
+export default withStyles(styles)(Page);
