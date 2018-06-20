@@ -8,7 +8,7 @@ import ChevronRight from 'mdi-material-ui/ChevronRight';
 
 import withRouter from 'react-router-dom/withRouter';
 
-import MENU from '../menu';
+import { MENU } from '../menu';
 
 
 const styles = theme => ({
