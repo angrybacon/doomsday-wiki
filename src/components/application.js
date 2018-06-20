@@ -88,7 +88,7 @@ class Application extends React.Component {
                   <Grid item xs={12} md={10} lg={8} xl={6}>
                     <Routes />
                     <Typography align="center" component="footer">
-                      Copyright &copy; 2018 <PrettyLink children="ddft.wiki contributors" to="/authors/" />
+                      Copyright &copy; 2018 <PrettyLink children="ddft.wiki contributors" href="/authors/" />
                     </Typography>
                   </Grid>
                 </Grid>
