@@ -9,6 +9,16 @@ import Target from 'mdi-material-ui/Target';
 import Wrench from 'mdi-material-ui/Wrench';
 
 
+export const PUZZLES = [
+  {
+    title: 'Tier 1', href: '/puzzles/1/', routes: [
+      {text: 'A',                              href: '/puzzles/1/a/'},
+      {text: 'B',                              href: '/puzzles/1/b/'},
+    ]
+  },
+];
+
+
 export const MENU = [
 
   {
@@ -40,7 +50,11 @@ export const MENU = [
 
   {label: 'Chapter 5, Gameplay Strategies', icon: <ChessKnight />},
 
-  {label: 'Chapter 6, Puzzles', icon: <Puzzle />},
+  {
+    label: 'Chapter 6, Puzzles', icon: <Puzzle />, routes: [
+      {text: '1',                              href: '/puzzles/1/'},
+    ]
+  },
 
   {
     label: 'Postamble, Appendices', icon: <FileOutline />, routes: [

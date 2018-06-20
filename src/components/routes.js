@@ -10,6 +10,8 @@ import Switch from 'react-router-dom/Switch';
 import Authors from './authors';
 import Markdown from './markdown';
 import Page from './page';
+import Puzzle from './puzzle';
+import Puzzles from './puzzles';
 
 
 const styles = theme => ({
@@ -40,6 +42,8 @@ class Routes extends React.Component {
         <Route exact component={Page} path="/appendices/:page/" />
         <Route exact component={Page} path="/articles/:year/:month/:page/" />
         <Route exact component={Page} path="/chapters/:chapter/:page/" />
+        <Route exact component={Puzzles} path="/puzzles/:tier/" />
+        <Route exact component={Puzzle} path="/puzzles/:tier/:puzzle" />
       </Switch>
     );
   }

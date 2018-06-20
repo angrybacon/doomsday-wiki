@@ -1,0 +1,10 @@
+{
+  "opponent": {
+    "hand": ["?", "?", "Force of Will", "?", "?", "?", "?"],
+    "life": 20
+  },
+  "self": {
+    "hand": ["Swamp", "Dark Ritual", "Doomsday", "Lion's Eye Diamond", "Gitaxian Probe"],
+    "life": 20
+  }
+}
