@@ -3,9 +3,6 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import Route from 'react-router-dom/Route';
-import Switch from 'react-router-dom/Switch';
-
 import Markdown from './markdown';
 
 
