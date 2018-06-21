@@ -43,7 +43,7 @@ class Routes extends React.Component {
         <Route exact component={Page} path="/articles/:year/:month/:page/" />
         <Route exact component={Page} path="/chapters/:chapter/:page/" />
         <Route exact component={Puzzles} path="/puzzles/:tier/" />
-        <Route exact component={Puzzle} path="/puzzles/:tier/:puzzle" />
+        <Route exact component={Puzzle} path="/puzzles/:tier/:puzzle/" />
       </Switch>
     );
   }

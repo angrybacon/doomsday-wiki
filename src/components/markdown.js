@@ -64,7 +64,7 @@ class Markdown extends React.Component {
     const path = this.props.source || parameters.join('/') + '.md';
     import('../pages/' + path).then(
       content => this.setState({content: content}),
-      () => this.setState({content: null})
+      () => this.setState({content: null}),
     );
   }
 
