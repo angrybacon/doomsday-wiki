@@ -1,5 +1,7 @@
 import React from 'react';
 
+import axios from 'axios';
+
 import Paper from '@material-ui/core/Paper';
 import withStyles from '@material-ui/core/styles/withStyles';
 
@@ -109,10 +111,29 @@ const PuzzleBoard = withStyles(styles)(props => {
 });
 
 
-const PuzzleCard = withStyles(styles)(props=> {
-  const { classes, component, data, opponent } = props;
-  const className = classes.puzzleCard + (opponent ? ' ' + classes.puzzleCardOpponent : '');
-  return React.createElement(component || 'div', {className: className}, data);
+const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Component {
+
+  state = {card: null};
+
+  componentDidMount() {
+    let data = this.props.data.trim();
+    data = data === '?' ? 'Stasis' : data;
+    axios.get('https://api.scryfall.com/cards/named?exact=' + data).then(
+      response => this.setState({card: response.data})
+    );
+  }
+
+  render() {
+    const { classes, component, data, opponent } = this.props;
+    const { card } = this.state;
+    const className = classes.puzzleCard + (opponent ? ' ' + classes.puzzleCardOpponent : '');
+    const image = (
+      card
+        ? <img alt={card.name} className={classes.puzzleCardImage} src={card.image_uris.small} />
+        : null
+    );
+    return React.createElement(component || 'div', {className: className}, image);
+  }
 });
 
 
