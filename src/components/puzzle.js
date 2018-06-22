@@ -34,59 +34,52 @@ const styles = theme => ({
   puzzleCardOpponent: {
   },
 
-  puzzleGraveyard: {
-    alignItems: 'center',
+  puzzleCards: {
     bottom: 0,
     display: 'flex',
-    justifyContent: 'center',
-    left: 0,
-    position: 'absolute',
-    top: 0,
-    width: '20%',
-  },
-
-  puzzleGraveyardOpponent: {
-    left: 'unset',
-    right: 0,
-  },
-
-  puzzleHand: {
-    alignItems: 'center',
-    bottom: 0,
-    display: 'flex',
-    justifyContent: 'center',
     left: 0,
     listStyleType: 'none',
     margin: 0,
     padding: 0,
     position: 'absolute',
     right: 0,
+    top: 0,
   },
 
-  puzzleHandOpponent: {
+  puzzleCardsOpponent: {
     bottom: 'unset',
     top: 0,
   },
 
+  puzzleGraveyard: {
+    flexDirection: 'column',
+    width: '20%',
+  },
+
+  puzzleGraveyardOpponent: {
+    flexDirection: 'column-reverse',
+  },
+
+  puzzleHand: {
+  },
+
+  puzzleHandOpponent: {
+  },
+
   puzzleLands: {
-    alignItems: 'center',
     backgroundColor: 'khaki',
-    display: 'flex',
     flexGrow: 1,
-    justifyContent: 'center',
   },
 
   puzzleLandsOpponent: {},
 
   puzzlePermanents: {
-    alignItems: 'center',
     backgroundColor: 'beige',
-    display: 'flex',
     flexGrow: 1,
-    justifyContent: 'center',
   },
 
-  puzzlePermanentsOpponent: {},
+  puzzlePermanentsOpponent: {
+  },
 
   puzzleLayout: {
     ...theme.mixins.padding({x: true}),
@@ -102,23 +95,24 @@ const PuzzleBoard = withStyles(styles)(props => {
   const className = classes.puzzleBoard + (opponent ? ' ' + classes.puzzleBoardOpponent : '');
   return (
     <div className={className}>
-      <PuzzleGraveyard data={data && data.graveyard} opponent={opponent} />
-      <PuzzleHand data={data && data.hand} opponent={opponent} />
-      <PuzzleLands data={data && data.lands} opponent={opponent} />
-      <PuzzlePermanents data={data && data.permanents} opponent={opponent} />
+      <PuzzleCards data={data && data.graveyard} opponent={opponent} variant="graveyard" />
+      <PuzzleCards data={data && data.hand} opponent={opponent} variant="hand" />
+      <PuzzleCards data={data && data.lands} opponent={opponent} variant="lands" />
+      <PuzzleCards data={data && data.permanents} opponent={opponent} variant="permanents" />
     </div>
   );
 });
 
 
+const BACK_URI = 'back.jpg';
 const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Component {
 
   state = {card: null};
 
   componentDidMount() {
-    let data = this.props.data.trim();
-    data = data === '?' ? 'Stasis' : data;
-    axios.get('https://api.scryfall.com/cards/named?exact=' + data).then(
+    const data = (this.props.data || 'Stasis|LEA').split('|');
+    const parameters = '?exact=' + data[0] + (data.length > 1 ? '&set=' + data[1] : '');
+    axios.get('https://api.scryfall.com/cards/named' + parameters).then(
       response => this.setState({card: response.data})
     );
   }
@@ -132,51 +126,25 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
         ? <img alt={card.name} className={classes.puzzleCardImage} src={card.image_uris.small} />
         : null
     );
-    return React.createElement(component || 'div', {className: className}, image);
+    return React.createElement(component || 'li', {className: className}, image);
   }
 });
 
 
-const PuzzleGraveyard = withStyles(styles)(props => {
-  const { classes, opponent, data } = props;
-  const className = classes.puzzleGraveyard + (opponent ? ' ' + classes.puzzleGraveyardOpponent : '');
-  return (
-    <div className={className}>
-      <p>Graveyard</p>
-    </div>
+const PuzzleCards = withStyles(styles)(props => {
+  const { classes, opponent, data, variant } = props;
+  const className = (
+    classes.puzzleCards
+      + (opponent ? ' ' + classes.puzzleCardsOpponent : '')
+      + ' ' + {
+        graveyard: classes.puzzleGraveyard,
+        hand: classes.puzzleHand,
+        lands: classes.puzzleLands,
+        permanents: classes.puzzlePermanents,
+      }[variant]
   );
-});
-
-
-const PuzzleHand = withStyles(styles)(props => {
-  const { classes, opponent, data } = props;
-  const className = classes.puzzleHand + (opponent ? ' ' + classes.puzzleHandOpponent : '');
-  const cards = (data || []).map(
-    (card, index) => <PuzzleCard component="li" data={card} key={index} />
-  );
+  const cards = (data || []).map((card, index) => <PuzzleCard data={card} key={index} />);
   return <ul className={className}>{cards}</ul>;
-});
-
-
-const PuzzleLands = withStyles(styles)(props => {
-  const { classes, opponent, data } = props;
-  const className = classes.puzzleLands + (opponent ? ' ' + classes.puzzleLandsOpponent : '');
-  return (
-    <div className={className}>
-      <p>Lands</p>
-    </div>
-  );
-});
-
-
-const PuzzlePermanents = withStyles(styles)(props => {
-  const { classes, opponent, data } = props;
-  const className = classes.puzzlePermanents + (opponent ? ' ' + classes.puzzlePermanentsOpponent : '');
-  return (
-    <div className={className}>
-      <p>Permanents</p>
-    </div>
-  );
 });
 
 
@@ -196,7 +164,7 @@ const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Com
     );
     import('../pages/' + path).then(
       data => this.setState({data: data}),
-      () => this.setState({data: null}),
+      error => console.error(error),
     );
   }
 
