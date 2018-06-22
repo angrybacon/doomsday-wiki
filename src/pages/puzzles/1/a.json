@@ -1,10 +1,13 @@
 {
   "opponent": {
-    "hand": ["?", "?", "Force of Will", "?", "?", "?", "?"],
+    "hand": ["", "", "Force of Will|ALL", "", "", "", ""],
     "life": 20
   },
   "self": {
-    "hand": ["Swamp", "Dark Ritual", "Doomsday", "Lion's Eye Diamond", "Gitaxian Probe"],
-    "life": 20
+    "graveyard": ["Polluted Delta|ONS", "Cabal Therapy|JUD"],
+    "hand": ["Dark Ritual|LEA", "Doomsday|WTH", "Gitaxian Probe|NPH"],
+    "lands": ["Swamp|UNH"],
+    "life": 20,
+    "permanents": ["Lion's Eye Diamond|MIR"]
   }
 }
