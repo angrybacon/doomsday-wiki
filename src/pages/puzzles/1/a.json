@@ -1,7 +1,10 @@
 {
   "opponent": {
+    "graveyard": ["Flooded Strand", "Ponder"],
     "hand": ["", "", "Force of Will|ALL", "", "", "", ""],
-    "life": 20
+    "lands": ["Island|UNH", "Island|UNH", "Plains|UNH"],
+    "life": 20,
+    "permanents": ["Counterbalance", "Search for Azcanta", "Monastery Mentor"]
   },
   "self": {
     "graveyard": ["Polluted Delta|ONS", "Cabal Therapy|JUD"],
