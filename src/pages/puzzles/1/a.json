@@ -8,7 +8,7 @@
   },
   "self": {
     "graveyard": ["Polluted Delta|ONS", "Cabal Therapy|JUD"],
-    "hand": ["Dark Ritual|LEA", "Doomsday|WTH", "Gitaxian Probe|NPH"],
+    "hand": ["Dark Ritual|LEA", "Doomsday|WTH", "Gitaxian Probe|NPH", "Dark Ritual|LEA", "Doomsday|WTH", "Gitaxian Probe|NPH"],
     "lands": ["Swamp|UNH"],
     "life": 20,
     "permanents": ["Lion's Eye Diamond|MIR"]
