@@ -85,7 +85,7 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
   }
 
   render() {
-    const { classes, component, gutters } = this.props;
+    const { classes, component, gutters, tilt } = this.props;
     const { card } = this.state;
     const image = (
       card
@@ -93,7 +93,10 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
           <img alt={card.name}
                className={classes.card}
                src={(card.image_uris ? card.image_uris : card.card_faces[0].image_uris).small}
-               style={gutters && {margin: '0 .5em'}} />
+               style={{...{
+                 ...(gutters && {margin: '0 .5em'}),
+                 ...(tilt && {transform: 'rotate(' + tilt * 2 + 'deg)'})
+               }}} />
         )
       : null
     );
@@ -103,10 +106,13 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
 
 
 const PuzzleCards = withStyles(styles)(props => {
-  const { classes, data, gutters, variant } = props;
-  const cards = (data || []).map(
-    (card, index) => <PuzzleCard data={card} gutters={gutters} key={index} />
-  );
+  const { classes, data, gutters, spread, variant } = props;
+  const cards = (data || []).map((card, index) => (
+    <PuzzleCard data={card}
+                gutters={gutters}
+                key={index}
+                tilt={spread && index - ((data ? data.length : 0) / 2 | 0)} />
+  ));
   return <ul className={classes.cards + ' ' + classes[variant]}>{cards}</ul>;
 });
 
@@ -151,7 +157,7 @@ const PuzzleTable = withStyles(styles)(props => {
     <div className={className}>
       <div className={classes.table}>
         <PuzzleCards data={data && data.graveyard} variant="graveyard" />
-        <PuzzleCards data={data && data.hand} variant="hand" />
+        <PuzzleCards data={data && data.hand} variant="hand" spread />
         <PuzzleCards data={data && data.permanents} gutters variant="board" />
         <PuzzleCards data={data && data.lands} gutters variant="board" />
       </div>
