@@ -8,6 +8,11 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Markdown from './markdown';
 
 
+const ENDPOINT_SCRYFALL = 'https://api.scryfall.com/cards/named';
+const STATIC_CARD_BACK = '/cards/back.png';
+const STATIC_CARD_404 = '/cards/404.png';
+
+
 const puzzleLayoutHeight = 360;
 const styles = theme => ({
 
@@ -105,14 +110,14 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
       }
       return this.getCard(card);
     }
-    this.setCard('/cards/back.png');
+    this.setCard(STATIC_CARD_BACK);
   }
 
   getCard(card) {
     const parameters = 'exact=' + card.name + (card.set ? '&set=' + card.set : '');
-    return axios.get('https://api.scryfall.com/cards/named?' + parameters).then(
+    return axios.get(ENDPOINT_SCRYFALL + '?' + parameters).then(
       response => this.setState({card: response.data}),
-      () => this.setCard('/cards/404.png'),
+      () => this.setCard(STATIC_CARD_404),
     );
   }
 
