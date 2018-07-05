@@ -103,8 +103,9 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
         this.setState({tapped: true});
         card.name = card.name.slice(1)
       }
-      this.getCard(card);
+      return this.getCard(card);
     }
+    this.setCard('/cards/back.png');
   }
 
   getCard(card) {
