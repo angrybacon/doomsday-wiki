@@ -85,6 +85,7 @@ class Sidebar extends React.Component {
                 <Link style={{textDecoration: 'none'}} to="/">
                   <Button children="ddft.wiki"
                           color="primary"
+                          onClick={toggleDrawer}
                           size={isWidthDown('sm', width) ? 'small' : 'medium'}
                           style={{boxShadow: 'none'}} variant="contained"/>
                 </Link>
