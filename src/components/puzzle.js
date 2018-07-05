@@ -110,7 +110,8 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
   getCard(card) {
     const parameters = 'exact=' + card.name + (card.set ? '&set=' + card.set : '');
     return axios.get('https://api.scryfall.com/cards/named?' + parameters).then(
-      response => this.setState({card: response.data})
+      response => this.setState({card: response.data}),
+      () => this.setCard('/cards/404.png'),
     );
   }
 
