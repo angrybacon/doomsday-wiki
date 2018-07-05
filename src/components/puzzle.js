@@ -36,6 +36,10 @@ const styles = theme => ({
     height: '4em',
   },
 
+  cardTapped: {
+    transform: 'rotate(85deg)',
+  },
+
   cards: {
     alignItems: 'center',
     display: 'flex',
@@ -89,12 +93,16 @@ const PuzzleBoard = withStyles(styles)(props => {
 
 const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Component {
 
-  state = {card: null};
+  state = {card: null, tapped: false};
 
   componentDidMount() {
     const data = this.props.data ? this.props.data.split('|') : null;
     if (data) {
       const card = {name: data[0], set: data.length > 1 ? data[1] : undefined};
+      if (card.name[0] === '-') {
+        this.setState({tapped: true});
+        card.name = card.name.slice(1)
+      }
       this.getCard(card);
     }
   }
@@ -112,12 +120,12 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
 
   render() {
     const { classes, component, style } = this.props;
-    const { card } = this.state;
+    const { card, tapped } = this.state;
     const image = (
       card
         ? (
           <img alt={card.name}
-               className={classes.card}
+               className={[classes.card, tapped ? classes.cardTapped : ''].join(' ')}
                src={(card.image_uris ? card.image_uris : card.card_faces[0].image_uris).small} />
         )
       : null

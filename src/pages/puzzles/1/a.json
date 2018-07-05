@@ -2,7 +2,7 @@
   "opponent": {
     "graveyard": ["Flooded Strand", "Ponder"],
     "hand": ["", "", "Force of Will|ALL", "", "", "", ""],
-    "lands": ["Island|UNH", "Island|UNH", "Plains|UNH"],
+    "lands": ["-Island|UNH", "-Island|UNH", "Plains|UNH"],
     "life": 20,
     "permanents": ["Counterbalance", "Search for Azcanta", "Monastery Mentor"]
   },
