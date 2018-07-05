@@ -92,11 +92,22 @@ const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Compone
   state = {card: null};
 
   componentDidMount() {
-    const data = (this.props.data || 'Stasis|LEA').split('|');
-    const parameters = '?exact=' + data[0] + (data.length > 1 ? '&set=' + data[1] : '');
-    axios.get('https://api.scryfall.com/cards/named' + parameters).then(
+    const data = this.props.data ? this.props.data.split('|') : null;
+    if (data) {
+      const card = {name: data[0], set: data.length > 1 ? data[1] : undefined};
+      this.getCard(card);
+    }
+  }
+
+  getCard(card) {
+    const parameters = 'exact=' + card.name + (card.set ? '&set=' + card.set : '');
+    return axios.get('https://api.scryfall.com/cards/named?' + parameters).then(
       response => this.setState({card: response.data})
     );
+  }
+
+  setCard(path) {
+    return this.setState({card: {image_uris: {small: path}}})
   }
 
   render() {
