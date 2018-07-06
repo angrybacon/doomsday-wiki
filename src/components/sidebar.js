@@ -87,7 +87,8 @@ class Sidebar extends React.Component {
                           color="primary"
                           onClick={toggleDrawer}
                           size={isWidthDown('sm', width) ? 'small' : 'medium'}
-                          style={{boxShadow: 'none'}} variant="contained"/>
+                          style={{boxShadow: 'none'}}
+                          variant="contained"/>
                 </Link>
               </Grid>
               <Switch onChange={changeTheme()} />
