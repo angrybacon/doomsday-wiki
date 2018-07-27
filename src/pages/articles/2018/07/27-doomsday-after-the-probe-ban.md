@@ -154,7 +154,7 @@ Now, to the data!
 
 ## Overall Match Winrate
 
-**PIF DD**: 53.33% (16/30)  
+**PiF DD**: 53.33% (16/30)  
 **BW DD**: 53.33% (16/30)
 
 Exactly the same. Not a lot to say here. I ran damn near 50/50 with both lists.
@@ -168,20 +168,20 @@ more interesting stats we can look at.
 
 ### Overall
 
-**PIF DD**: 56.75%  
+**PiF DD**: 56.75%  
 **BW DD**: 52.17%
 
-The PIF version did a bit better in this category, suggesting it had a few more
+The PiF version did a bit better in this category, suggesting it had a few more
 2-0 wins and 1-2 losses.
 
 ### Winrate by Game
 
 | ~      | G1     | G2     | G3     |
 |--------|--------|--------|--------|
-| PIF DD | 66.67% | 60%    | 28%    |
+| PiF DD | 66.67% | 60%    | 28%    |
 | BW DD  | 56.67% | 42.85% | 63.63% |
 
-Frankly I'm not sure what to make of this. The PIF version had a substantially
+Frankly I'm not sure what to make of this. The PiF version had a substantially
 higher G1 and G2 winrate than the BW list, but it drops off precipitously in G3
 whereas the BW list actually gains substantially in G3. This is unexpected, and
 is probably in part a function of the small dataset. It could also be attributed
@@ -192,15 +192,15 @@ lists I'm not sure that adequately explains things.
 ## Mulls and Combo Turn
 
 Average Mulligan  
-**PIF DD**: 6.64  
+**PiF DD**: 6.64  
 **BW DD**: 6.62
 
 Average Combo Turn  
-**PIF DD**: 3.75  
+**PiF DD**: 3.75  
 **BW DD**: 3.33
 
 There doesn't seem to be a significant difference between how well the 2 lists
-mulligan. Both mulligan fairly well. The BW list is slightly faster than the PIF
+mulligan. Both mulligan fairly well. The BW list is slightly faster than the PiF
 list. This is likely due to it having access to Empty the Warrens in Game 1 and
 not needing Threshold for Cabal Rituals.
 
@@ -208,13 +208,13 @@ not needing Threshold for Cabal Rituals.
 
 | Mull   | 7      | 6      | 5      |
 |--------|--------|--------|--------|
-| PIF DD | 62%    | 45.45% | 33.33% |
+| PiF DD | 62%    | 45.45% | 33.33% |
 | BW DD  | 56.25% | 52.94% | 0%     |
 
-I wouldn't put too much stock in this, but it appears as if the PIF list is
+I wouldn't put too much stock in this, but it appears as if the PiF list is
 affected more by mulligans. The BW list has a lower winrate at 7 cards but isn't
 affected as much by going to 6. There weren't enough games where I mulled to 5
-to get reasonable data, but I managed to win one with the PIF list.
+to get reasonable data, but I managed to win one with the PiF list.
 
 ## Winrate vs. Die Roll
 
