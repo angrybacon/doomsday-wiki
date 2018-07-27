@@ -153,7 +153,8 @@ Now, to the data!
 
 ## Overall Match Winrate
 
-PIF DD: 53.33% (16/30) BW DD: 53.33% (16/30)
+**PIF DD**: 53.33% (16/30)  
+**BW DD**: 53.33% (16/30)
 
 Exactly the same. Not a lot to say here. I ran damn near 50/50 with both lists.
 That is far from spectacular, but 30 matches is not a lot, and it is decent
@@ -164,12 +165,15 @@ more interesting stats we can look at.
 
 ## Game Win Percentages
 
-Overall PIF DD: 56.75% BW DD: 52.17%
+### Overall
+
+**PIF DD**: 56.75%  
+**BW DD**: 52.17%
 
 The PIF version did a bit better in this category, suggesting it had a few more
 2-0 wins and 1-2 losses.
 
-Winrate by Game
+### Winrate by Game
 
 | ~      | G1     | G2     | G3     |
 |--------|--------|--------|--------|
@@ -186,9 +190,13 @@ lists I'm not sure that adequately explains things.
 
 ## Mulls and Combo Turn
 
-Average Mulligan PIF DD: 6.64 BW DD: 6.62
+Average Mulligan  
+**PIF DD**: 6.64  
+**BW DD**: 6.62
 
-Average Combo Turn PIF DD: 3.75 BW DD: 3.33
+Average Combo Turn  
+**PIF DD**: 3.75  
+**BW DD**: 3.33
 
 There doesn't seem to be a significant difference between how well the 2 lists
 mulligan. Both mulligan fairly well. The BW list is slightly faster than the PIF
