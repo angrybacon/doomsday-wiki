@@ -1,13 +1,14 @@
 # Doomsday after the Probe Ban
 
 The banning of Gitaxian Probe was brutal. I can't think of another word to
-describe it. For other storm decks, Probe was simply a powerful card, too good
+describe it. For other Storm decks, Probe was simply a powerful card, too good
 not to play. For Doomsday, it was integral to the function of the deck. Beyond
 providing information and a cantrip, it was critical in many piles. Without it,
-most piles cost at least 1 mana more, or generate 1 less storm if, for example,
+most piles cost at least 1 mana more, or generate 1 less Storm if, for example,
 you use an on-board Bauble to draw into your pile. This may not seem devastating
-to the casual reader, but the deck is mana-hungry and often generated exactly 10
-storm, so it's certainly more of a problem than it may appear at first glance.
+to the casual reader, but the deck is mana-hungry and often generating exactly
+10 Storm, so it's certainly more of a problem than it may appear at first
+glance.
 
 After a brief period of mourning, myself and a handful of other Doomsday players
 got down to the business of seeing if the deck was even remotely playable. There
@@ -62,18 +63,18 @@ Board
 
 It's essentially an ANT deck with a pair of Doomsdays jammed in and a couple
 cards to support them, namely Infernal Contract (which turned out to be great on
-its own) and a singleton Conjurer's Bauble (to enable IT->DD lines). The idea
+its own) and a singleton Conjurer's Bauble (to enable IT -> DD lines). The idea
 here is that I can win games off the power of Past in Flames as my Plan A, and
 Doomsday can function more like a Plan B, providing relatively low-resource
 deterministic kills that can ignore grave hate instead of relying on shitty Ad
-Nauseams mana hungry tutor chains. After sideboarding it can lean into Doomsday
-a bit more, including bringing in the Shelldock/Emrakul package which is good
+Nauseam mana hungry tutor chains. After sideboarding it can lean into Doomsday a
+bit more, including bringing in the Shelldock/Emrakul package which is good
 against control decks and serviceable against decks like Show and Tell and
-Eldrazi Post. Note that it doesn't play Lab Maniac anywhere in the 75. The
-pass-the-turn piles are awkward with Infernal Contract and PiF helps you muscle
-through discard so Lab Man got the boot.
+Eldrazi Post. Note that it doesn't play Laboratory Maniac anywhere in the 75.
+The pass-the-turn piles are awkward with Infernal Contract and PiF helps you
+muscle through discard so Laboratory Maniac got the boot.
 
-The other deck list should be more familiar looking to people who have played
+The other deck list should be more familiar-looking to people who have played
 Doosmday in the past:
 
 ```
@@ -127,10 +128,10 @@ if you're going to have 3 "dead" cards in the main, I find that the pile
 flexibility of having AoI and IU is an improvement over some of the cheap
 high-storm tricks you can do with maindeck ToA and Bauble loops.
 
-With that lengthy intro out of the wway, I'll get down to the meat of the
+With that lengthy intro out of the way, I'll get down to the meat of the
 article. I played 30 matches which each of these lists, with minor variations as
 I worked on sideboards and some maindeck numbers. I realize that 30 matches is
-not enough to get real hard data but I think its sufficient to see some trends
+not enough to get real hard data but I think it's sufficient to see some trends
 and start getting an idea of how the 2 lists compare and whether or not Doomsday
 is even remotely playable without Probe. I kept detailed records of my matches
 for each list using the same spreadsheet format that we've used in the past data
@@ -201,9 +202,9 @@ Average Combo Turn
 There doesn't seem to be a significant difference between how well the 2 lists
 mulligan. Both mulligan fairly well. The BW list is slightly faster than the PIF
 list. This is likely due to it having access to Empty the Warrens in Game 1 and
-not needing threshold for Cabal Rituals.
+not needing Threshold for Cabal Rituals.
 
-## Winrate vs Mulligan and die roll
+## Winrate vs. Mulligan and Die Roll
 
 | Mull   | 7      | 6      | 5      |
 |--------|--------|--------|--------|
@@ -215,44 +216,44 @@ affected more by mulligans. The BW list has a lower winrate at 7 cards but isn't
 affected as much by going to 6. There weren't enough games where I mulled to 5
 to get reasonable data, but I managed to win one with the PIF list.
 
-## Winrate vs Die Roll
+## Winrate vs. Die Roll
 
 | Roll   | Win    | Lose   |
 |--------|--------|--------|
-| PIF DD | 42.85% | 62.50% |
+| PiF DD | 42.85% | 62.50% |
 | BW DD  | 57.14% | 50%    |
 
-Another suprise. The PIF list seems to fare much better on the draw, whereas the
-BW list is the opposite. Its worth noting that both lists had the exact same Die
-Roll Win% at 46.67%. In a small sample size this has the potential to be
-strongly affected by what decks I happened to win or lose the roll against but
-it certainly caught my eye and gives me some food for thought.
+Another surprise. The PiF list seems to fare much better on the draw, whereas
+the BW list is the opposite. It's worth noting that both lists had the exact
+same die roll Win% at 46.67%. In a small sample size this has the potential to
+be strongly affected by what decks I happened to win or lose the roll against
+but it certainly caught my eye and gives me some food for thought.
 
-## Winrates vs Archetypes and Disruption Categories
+## Winrates vs. Archetypes and Disruption Categories
 
 Rather than just drop a bunch of raw data here I'll just point out some parts
 that I found noteworthy.
 
 Against decks with Countermagic as their primary and only form of significant
 disruption against us (this includes decks like Miracles, UW Stoneblade, and
-also RUG delver and High Tide) the PIF DD list performed better, going 50%
+also RUG delver and High Tide) the PiF DD list performed better, going 50%
 against these decks. The BW DD list won just 30% of these matches. The BW list
 seems weaker vs RUG Delver due to a shakier manabase and being worse against
 Stifle. However the BW list also played against a few more brew-ish lists in
 this category, including High Tide and a UR Control list so I'm wary of reading
 too much into this result.
 
-The BW DD list seems better vs Hatebear decks like DnT and Maverick and I
+The BW DD list seems better vs. Hatebear decks like DnT and Maverick and I
 attribute this mostly to its ability to Burning Wish for Massacre and ignore
-graveyard hate and Gaddock Teeg. The PIF list won just 1 of 4 matches against
+graveyard hate and Gaddock Teeg. The PiF list won just 1 of 4 matches against
 DnT, but I think this issue can be mitigated with a more focused sideboard and
 better play since I have very little experience in the ANT vs DnT matchup.
 
 Finally, I'd like to discuss a bit of archetype skew in my results. In
 particular, with the BW DD list I played against a wide swath of the format,
-whereas with my PIF DD list I played against a lot more fast blue combo decks,
+whereas with my PiF DD list I played against a lot more fast blue combo decks,
 like Show and Tell and UB Reanimator. These are both tough matchups and I lost
-every single one. In a small sample size this can affect my Overall Win Rate
+every single one. In a small sample size this can affect my overall win rate
 significantly. If I ignore my disastrous matchups against these 2 decks, I
 achieved a 64% winrate against the rest of the format which is quite
 respectable. Obviously I shouldn't just ignore these decks but it suggests that
@@ -263,17 +264,17 @@ the deck could perform well if I have a good plan for them.
 I don't want to draw too many conclusions from this data as the sample size is
 quite small so it must be taken with a grain of salt. I'm more interested in
 generating some discussion. I think the BW DD list provides better game 1
-flexibility and speed. The PIF DD list is smoother and more stable. And for
+flexibility and speed. The PiF DD list is smoother and more stable. And for
 anyone who is thinking "Shouldn't you just play ANT if you're basically doing it
 already?" it's a valid question but I like casting Doomsday and having it in the
 deck got me out of a few situations I wouldn't have been able to get out of
 otherwise. Like many deckbuilding decisions, it comes at a cost, which in this
-case is the lack of some fast lines into ETW and Ad Naus. To anyone thinking "is
-the PIF list reeaally a Doomsday deck, or just ANT with some jank you
+case is the lack of some fast lines into ETW and Ad Nauseam. To anyone thinking "Is
+the PiF list reeaally a Doomsday deck, or just ANT with some jank you
 occasionally get to cast?" I did keep track of how I won my games and I won
 about 30% of my games with Doomsday (this includes when I lean into it more
 postboard with the Shelldock plan). If I had to pick one to take to a tournament
-right now I'd probably lean towards the PIF list, mostly due to the stability of
+right now I'd probably lean towards the PiF list, mostly due to the stability of
 the manabase. Anyway, I encourage anyone interested in trying to keep Doomsday
 alive to try both these lists. I think they both have some potential. And if
 these fail there's the always classic Rev614 Show and Tell/Doomsday hybrid.
