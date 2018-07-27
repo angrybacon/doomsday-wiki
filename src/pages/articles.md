@@ -1,5 +1,6 @@
 # Articles
 
+- [Doomsday After the Probe Ban](/articles/2018/07/27-doomsday-after-the-probe-ban/) - July 27, 2018
 - [Dueling Doomsdays](/articles/2018/04/23-dueling-doomsdays/) - April 23, 2018
 - [SCG Worcester 2018 Full Report](/articles/2018/03/06-scg-worcester-report/) - March 6, 2018
 - [Doomsday by Numbers](/articles/2018/02/03-doomsday-by-numbers/) - February 3, 2018
