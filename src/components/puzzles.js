@@ -24,7 +24,7 @@ class Puzzles extends React.Component {
         <Typography children={puzzles} component="ul" />
       </Paper>
     );
-}
+  }
 }
 
 
