@@ -23,6 +23,7 @@ const styles = theme => ({
     padding: theme.spacing.unit,
   },
   padding: theme.mixins.padding({x: true}),
+  table: {overflowX: 'auto'},
 });
 
 
@@ -95,7 +96,9 @@ class Markdown extends React.Component {
         </div>
       ),
       paragraph: props => <p className={noPadding ? {} : classes.padding}>{props.children}</p>,
-      table: props => <Table children={props.children} className={classes.table} />,
+      table: props => (
+        <div className={`table ${classes.table}`}><Table children={props.children} /></div>
+      ),
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
