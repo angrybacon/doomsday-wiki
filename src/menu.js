@@ -58,6 +58,7 @@ export const MENU = [
 
   {
     label: 'Postamble, Appendices', icon: <FileOutline />, routes: [
+      {text: 'Primer',                         href: '/appendices/primer/'},
       {text: 'Pile Document',                  href: '/appendices/piles/'},
       {text: 'Sample Decklists',               href: '/appendices/decklists/'},
       {text: 'Interesting Card Interactions',  href: '/appendices/interactions/'},
