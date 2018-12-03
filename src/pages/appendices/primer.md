@@ -189,7 +189,7 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 **Think the opponent is being cute and sandbagging a counterspell**
 
 ```
-[IC, DR, DR, Dur, ToA]`
+[IC, DR, DR, Dur, ToA]
 ```
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
@@ -202,7 +202,7 @@ Note that this only works post board since CoV isn't in the maindeck.
 **Brainstorm and IC in hand**
 
 ```
-[DR, LP, DR, DR, ToA]`
+[DR, LP, DR, DR, ToA]
 ```
 
 **Brainstorm and ToA in hand**
