@@ -24,7 +24,7 @@ class Header extends React.Component {
     return (
       <AppBar className={classes.root} position="static">
         <Toolbar>
-          <Grid container alignItems="center">
+          <Grid container alignItems="center" wrap="nowrap">
             <Hidden mdUp>
               <Grid item style={{marginRight: '1em'}}>
                 <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
