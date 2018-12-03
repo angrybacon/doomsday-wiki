@@ -219,7 +219,7 @@ Previous Doomsday lists would often be able to cast a Doomsday and setup a kill
 for next turn with basically 3 lands and nothing else available as resources.
 This deck is nowhere near as mana efficient at doing it, but setting up a
 pass-the-turn pile is possible and comes up occasionally. Knowing what it takes
-to execute one could save your ass. This is what the pile might look like:
+to execute one could save your ass. This is what one such pile might look like:
 
 `[IC, RoF, CR, CB, ToA]`
 
@@ -234,8 +234,19 @@ need to rely on rituals in hand or mana rocks on the field to get you up to 9
 mana. As you might imagine this scenario won't come up that often, but sometimes
 you'll find youself with a bunch of mana and a Doomsday but no cantrip, and the
 best bet may be to slam the Doomsday and hope you get another turn unmolested.
-Incidentally the same pile can be used as a same-turn pile to potentially make
+Incidentally the same setup can be used as a same-turn pile to potentially make
 upwards of 20 copies of ToA if your opponent has an unusually high life total.
+
+Here is another potential pass-the-turn pile:
+
+`[IC, DR, DR, BW, ToA]`
+
+Here you would wish for Past in Flames to flash back your rituals and end it
+with ToA. This one requires 2 red mana for Wish and PiF. Imagine you had just 2
+Seas and an LED on board, and a ritual in hand after resolving Doomsday. With
+the above pass-the-pile you could draw IC for turn, ritual it out cracking LED
+for RRR, cast the other 2 rituals, wish for and cast PiF, then flashback all
+your rituals and cast Tendrils for 10 copies.
 
 ### Killing Without Doomsday
 
@@ -307,14 +318,48 @@ pseudo-cantrip into a DD pile since it can get you a Draw4. Doomsday won't be
 your main plan in some matchups and then you can use your cantrips more
 aggressively to set up another kind of kill.
 
-Don't be afraid to cast a Draw4 for value. If you can cast it and pass the turn
-without dying or blowing too many resources, you should be strongly considering
-it. Untapping with a full grip is insane, even if it cost you half your life.
-Draw4s also make good bait spells for countermagic.
+Don't be afraid to cast a Draw4 for value. Untapping with a full grip is insane,
+even if it cost you half your life. There can be a steep learning curve to
+figuring out the best time to do this. There's no hard rules but when
+considering the possibility of a value Draw4, there are 3 general factors I
+consider.
+1. How many other cards must you spend to cast it? The more cards you put into
+   casting it, the less value it nets you. Ideally you hardcast it off lands and
+   spend no rituals or petals.
+2. Is there any reason you should hold onto it? It can draw you into Doomsday
+   pile or be a potential Storm engine, but don't get too hung up on holding it
+   for a combo turn if you are still missing lots of other resources you'd need
+   to combo.
+3. Do you anticipate being able to win or NEEDING to win within a turn or 2 of
+   casting it? I think this is the hardest one to get a feel for. If you feel
+   like you're at parity or slightly ahead of your opponent but expect to be
+   jockeying for position for another couple turns, then maybe hold on to it,
+   especially if you have other spells you could cast, like a cantrip or extra
+   discard. More information lets you make a more informed decision about when
+   to cast it. If you're way ahead, a value draw 4 could be the nail in the
+   coffin, but it also may not be necessary. If you're behind, you likely need
+   to cast it, even if you're staring down a threatening board state. Here's an
+   example I hope is illustrative: imagine you and your opponent are both
+   empty-handed but they have a Gurmag Angler on board. You are at 14 life and
+   your topdeck is an Infernal Contract. I'd snap that bad boy off. Going to 7
+   life means you get at most one more turn but you see more cards this way than
+   you do by waiting to die to a 3-turn clock. Maybe you untap at 2 life and
+   string together a PiF kill or something, or maybe those 4 cards are awful but
+   in that case you would have died anyway.
 
-Be careful when using Doomsday as a bait spell. Most of the time opponents will
-throw counters at it without a second thought, but if they call your bluff you
-may find yourself unable to actually win.
+This list has enough "must-counter" spells that you have a shot at using extra
+business spells to muscle past countermagic even if you're short on Duress
+effects. Draw4s are excellent at this, since if they do resolve you're up on
+cards. Burning Wish is also decent since if it resolves you can still do
+something produtive with it like grab a Draw4 or a PiF. Be careful when using
+Doomsday as a bait spell. Most of the time opponents will throw counters at it
+without a second thought, but if they call your bluff you can very well lose the
+game.
+
+Draw4s are the best single card for desperation plays and opportunistically
+taking advantage of windows your opponent gives you. Any time you resolve a draw
+4, even with no cards in hand and no mana floating, there is a chance you end
+the game on the spot.
 
 I said earlier that life total management was very important. Doomsday and
 Draw4s both halve your lifetotal and they round up, meaning you generally need
@@ -326,9 +371,6 @@ otherwise.
 Cabal Ritual with threshold is 5 black mana. Just need one more to cast DD + IC.
 
 Don't shoot off Duresses willy-nilly.
-
-Extra Burning Wishes make decent bait spells as well, and worst case scenario
-they find you an IC or PiF as a backup plan if a later spell gets countered.
 
 Try not to be overly afraid of Surgical Extraction. There is no one card that
 can be removed from your deck to completely shut off your ability to win. Since
@@ -401,20 +443,27 @@ just has different tools against discard in the form of Draw4s and PiF.
 +2 Empty the Warrens, +1 Infernal Contract  
 In this matchup my plan A is to get off an EtW in the first few turns of the
 game as that is usually enough. If that doesn't happen you want to be able to go
-toe-to-toe with their discard and card advantage.
+toe-to-toe with their discard and card advantage. You can consider bringing
+Flusterstorm in for this matchup if you feel like you want a little more help.
+Maybe cut an LED and a Duress.
 
 **Miracles, High Tide, any slow Ux Counterspell deck**  
 -4 Lion's Eye Diamond, -4 Burning Wish, -1 Preordain  
 +1 Doomsday, +1 Infernal Contract, +1 Tendrils of Agony, +1 Past in Flames, +3
 Empty the Warrens, +2 Flusterstorm  
 I am not at all confident in my sideboard plan for this matchup. I've tried a
-ton of differrent things and this feels the best but I don't like the matchup.
-My game 1 winrate against it is around 90% but my match winrate is less than 50%
-meaning something goes drastically wrong post-board. Counterbalance is the
+ton of different things and this feels the best but I don't like the matchup. My
+game 1 winrate against Miracles is around 90% but my match winrate is less than
+50% meaning something goes drastically wrong post-board. Counterbalance is the
 biggest problem card, but postboard they have a ton of other disruption. The
-gameplan here is to do mini-Empties and Tendrils and try to leverage the higher
-individual power level of your cards. LED comes out because it doesn't do much
-towards this gameplan, and it doesn't play well with Flusterstorms.
+gameplan here is to use your interaction to stop their gameplan while forcing
+them to spend resources interacting on your terms. Against Miracles, this could
+mean Duressing their control cards and trying to whittle down their life total
+with EtW, which forces them to commit resources to finding Terminus. Vs a deck
+like High Tide, it means attacking their combo peices and using your
+individually powerful cards to overwhelm their counters. Disrupt them and make
+them spend resources trying to reassemble instead of spend resources stopping
+you.
 
 **Most Delver Variants**  
 -2 Doomsday  
@@ -427,12 +476,13 @@ suprisingly late into the game. Be patient.
 **Death's Shadow**  
 -3 Doomdsay, -1 Conjurer's Bauble  
 +2 Empty the Warrens, +1 Tendrils of Agony, +1 Infernal Contract  
-This might seem weird but Doomsday is uniquely bad here. They often have heavy
-discard and your life total matters a lot against their fast clock. A naturally
-drawn Tendrils is often excellent in this matchup, and if you cast a Wish it
-most often is to find Empty the Warrens. The Bauble gets cut because it's bad
-without Doomsday, and the Contract comes in because you need maximum ability to
-try and take advantage of any opening you get.
+This might seem weird and I'm not 100% convinced on this board plan but Doomsday
+is uniquely bad here. They often have heavy discard and your life total matters
+a lot against their fast clock. A naturally drawn Tendrils is often excellent in
+this matchup, and if you cast a Wish it most often is to find Empty the Warrens.
+The Bauble gets cut because it's bad without Doomsday, and the Contract comes in
+because you need maximum ability to try and take advantage of any opening you
+get.
 
 **Storm**  
 -1 Rain of Filth, -1 Doomsday, -1 Preordain  
@@ -447,7 +497,9 @@ discard-laden attrition games.
 -3 Duress, -1 Preordain  
 +3 Echoing Truth, +1 Chain of Vapor  
 Duress does very little and you need ways to bounce their stuff. Either win
-before they drop a lockpiece, or try to get rid of it and go off.
+before they drop a lockpiece, or try to get rid of it and go off. Don't forget
+that Burning Wish can find solutions to hateful permanents, but a quick EtW can
+be a solution too.
 
 **Lands**  
 -4 Thoughtseize  
@@ -455,19 +507,26 @@ before they drop a lockpiece, or try to get rid of it and go off.
 Here, Thoughtseize doesn't hit anything Duress doesn't, and the bounce spells
 are better than more discard. Gameplan is the same as vs other lockpiece decks.
 Win before the Spheres come down, or bounce them. The mana denial is heavier in
-this matchup so watch out for that.
+this matchup so watch out for that, and remember that Empty the Warrens is
+pretty bad in this matchup.
 
 **Sneak and Show and Reanimator**  
 -1 Preordain, -1 Rain of Filth  
 +2 Flusterstorm  
 You don't have time to be casting a bunch of cantrips or making enough land
 drops for RoF to be good. Flusterstorm is your best hope in these matchups.
+Prioritize stopping their combo over setting up your own. Draw4's are good in
+this matchup because they are the best single card at taking advantage of a
+window your opponent gives you, and it may be correct to side the same as Storm
+for this matchup.
 
-**Turbo Depths and Nic Fit**  
--3 Duress, -1 Rain of Filth, -1 Preordain  
+**Turbo Depths or Nic Fit, without blue splash**  
+-3 Duress, -1 Thoughtseize -1 Preordain  
 +3 Echoing Truth, +1 Chain of Vapor, +1 Infernal Contract  
-Discard is not great, bounce spells are better, and your life total doesn't
-matter as much as fighting through their discard.
+Very different decks but identical sideboard plans. Both decks may have things
+you want to bounce and plenty of discard, and give you some leeway with using
+your life as a resource. If either deck is playing blue I'd leave all 4
+Thoughtseize in and only bring in 2 Echoing Truth.
 
 ## Statistics
 
