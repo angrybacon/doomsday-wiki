@@ -51,7 +51,7 @@ Main
 1 Swamp
 
 Sideboard
-1 Doomdsay
+1 Doomsday
 1 Tendrils of Agony
 1 Infernal Contract
 1 Past in Flames (PiF)
