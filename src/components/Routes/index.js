@@ -2,21 +2,15 @@ import React from 'react';
 
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import withStyles from '@material-ui/core/styles/withStyles';
 
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 
-import Authors from './authors';
-import Markdown from './markdown';
-import Page from './page';
-import Puzzle from './puzzle';
-import Puzzles from './puzzles';
-
-
-const styles = theme => ({
-  padding: theme.mixins.padding({y: true}),
-});
+import Authors from '../Authors';
+import Markdown from '../Markdown';
+import Page from '../Page';
+import Puzzle from '../Puzzle';
+import Puzzles from '../Puzzles';
 
 
 class Routes extends React.Component {
@@ -27,14 +21,10 @@ class Routes extends React.Component {
         <Route exact path="/">
           <Grid container direction="column" wrap="nowrap">
             <Grid item>
-              <Paper className={classes.padding} component="article">
-                <Markdown source="home.md" />
-              </Paper>
+              <Paper children={<Markdown source="home.md" />} component="article" />
             </Grid>
             <Grid item>
-              <Paper className={classes.padding} component="article">
-                <Markdown source="articles.md" />
-              </Paper>
+              <Paper children={<Markdown source="articles.md" />} component="article" />
             </Grid>
           </Grid>
         </Route>
@@ -50,4 +40,4 @@ class Routes extends React.Component {
 }
 
 
-export default withStyles(styles)(Routes);
+export default Routes;

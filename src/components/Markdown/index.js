@@ -11,7 +11,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 
 import ReactMarkdown from 'react-markdown';
 
-import PrettyLink from './prettylink';
+import Prettylink from '../Prettylink';
 
 
 const styles = theme => ({
@@ -63,7 +63,7 @@ class Markdown extends React.Component {
         : []
     );
     const path = this.props.source || parameters.join('/') + '.md';
-    import('../pages/' + path).then(
+    import('../../pages/' + path).then(
       content => this.setState({content: content}),
       () => this.setState({content: null}),
     );
@@ -88,8 +88,8 @@ class Markdown extends React.Component {
                     className={noPadding ? {} : classes.padding}
                     gutterBottom />
       ),
-      link: PrettyLink,
-      linkReference: PrettyLink,
+      link: Prettylink,
+      linkReference: Prettylink,
       list: (props, a, b) => (
         <div className={noPadding ? {} : classes.padding}>
           {React.createElement(props.ordered ? 'ol' : 'ul', {}, props.children)}

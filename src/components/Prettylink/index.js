@@ -2,7 +2,7 @@ import React from 'react';
 
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import OpenInNew from 'mdi-material-ui/OpenInNew';
+import OpenInNewIcon from 'mdi-react/OpenInNewIcon';
 
 import Link from 'react-router-dom/Link';
 
@@ -20,7 +20,7 @@ const styles = theme => ({
 });
 
 
-class PrettyLink extends React.Component {
+class Prettylink extends React.Component {
   render() {
     const { children, classes, href, target} = this.props;
     const component = this.props.component || (href && href.startsWith('http') ? null : Link);
@@ -28,7 +28,7 @@ class PrettyLink extends React.Component {
       component ? React.createElement(component, {className: classes.root, to: href}, children) : (
         <span className={classes.externalWrapper}>
           <a className={classes.root} href={href} target={target || '_blank'}>{children}</a>
-          <OpenInNew className={classes.externalIcon} />
+          <OpenInNewIcon className={classes.externalIcon} />
         </span>
       )
     ) : <span {...this.props}>{children}</span>;
@@ -36,4 +36,4 @@ class PrettyLink extends React.Component {
 }
 
 
-export default withStyles(styles, {withTheme: true})(PrettyLink);
+export default withStyles(styles, {withTheme: true})(Prettylink);

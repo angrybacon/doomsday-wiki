@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Application from './components/application';
+import Application from './components/Application';
 
 import 'typeface-roboto';
 import './styles/index.css';

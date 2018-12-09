@@ -9,11 +9,11 @@ import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 
-import Header from './header';
-import PrettyLink from './prettylink';
-import Routes from './routes';
-import Sidebar from './sidebar';
-import { darkTheme, lightTheme } from '../theme';
+import Header from '../Header';
+import Prettylink from '../Prettylink';
+import Routes from '../Routes';
+import Sidebar from '../Sidebar';
+import { darkTheme, lightTheme } from '../../theme';
 
 
 const sidebarWidth = 300;
@@ -58,9 +58,9 @@ class Application extends React.Component {
       <MuiThemeProvider theme={this.state.theme}>
         <BrowserRouter>
           <div style={{
-                 backgroundColor: this.state.theme.palette.background.default,
-                 minWidth: 320,
-               }}>
+            backgroundColor: this.state.theme.palette.background.default,
+            minWidth: 320,
+          }}>
             <Hidden mdUp>
               <Sidebar changeTheme={this.changeTheme}
                        component={SwipeableDrawer}
@@ -88,7 +88,8 @@ class Application extends React.Component {
                   <Grid item xs={12} md={10} lg={8} xl={6}>
                     <Routes />
                     <Typography align="center" component="footer">
-                      Copyright &copy; 2018 <PrettyLink children="ddft.wiki contributors" href="/authors/" />
+                      Copyright &copy; 2018
+                      <Prettylink children="ddft.wiki contributors" href="/authors/" />
                     </Typography>
                   </Grid>
                 </Grid>

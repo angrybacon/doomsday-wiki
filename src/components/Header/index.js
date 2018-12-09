@@ -7,9 +7,9 @@ import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import Menu from 'mdi-material-ui/Menu';
+import MenuIcon from 'mdi-react/MenuIcon';
 
-import Breadcrumbs from './breadcrumbs';
+import Breadcrumbs from '../Breadcrumbs';
 
 
 const styles = theme => ({
@@ -27,7 +27,7 @@ class Header extends React.Component {
           <Grid container alignItems="center" wrap="nowrap">
             <Hidden mdUp>
               <Grid item style={{marginRight: '1em'}}>
-                <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
+                <IconButton children={<MenuIcon />} color="inherit" onClick={toggleDrawer} />
               </Grid>
             </Hidden>
             <Grid item children={<Breadcrumbs />} />

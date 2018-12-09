@@ -5,7 +5,7 @@ import axios from 'axios';
 import Paper from '@material-ui/core/Paper';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import Markdown from './markdown';
+import Markdown from '../Markdown';
 
 
 const ENDPOINT_SCRYFALL = 'https://api.scryfall.com/cards/named';
@@ -179,7 +179,7 @@ const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Com
         ? this.props.match.url.split('/').filter(it => it).join('/') + '.json'
         : this.props.source
     );
-    import('../pages/' + path).then(
+    import('../../pages/' + path).then(
       data => this.setState({data: data}),
       error => console.error(error),
     );

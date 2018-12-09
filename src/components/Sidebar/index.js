@@ -17,8 +17,8 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Link from 'react-router-dom/Link';
 import NavLink from 'react-router-dom/NavLink';
 
-import Markdown from './markdown';
-import { MENU } from '../menu';
+import Markdown from '../Markdown';
+import { MENU } from '../../menu';
 
 
 const styles = theme => ({
