@@ -35,7 +35,7 @@ function getHeading(level) {
 }
 
 
-class Markdown extends React.Component {
+class Markdown extends React.PureComponent {
 
   // NOTE: We relies on the fact that object key-values pairs are now ordered,
   //       sort of.

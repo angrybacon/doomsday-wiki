@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Markdown from '../Markdown';
 
 
-class Page extends React.Component {
+class Page extends React.PureComponent {
   render() {
     const { match } = this.props;
     return (

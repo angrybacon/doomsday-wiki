@@ -13,7 +13,7 @@ import Puzzle from '../Puzzle';
 import Puzzles from '../Puzzles';
 
 
-class Routes extends React.Component {
+class Routes extends React.PureComponent {
   render() {
     const { classes } = this.props;
     return (

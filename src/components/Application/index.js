@@ -40,7 +40,7 @@ const styles = theme => ({
 });
 
 
-class Application extends React.Component {
+class Application extends React.PureComponent {
 
   state = {drawer: false, theme: lightTheme};
 

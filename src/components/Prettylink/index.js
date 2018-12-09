@@ -20,7 +20,7 @@ const styles = theme => ({
 });
 
 
-class Prettylink extends React.Component {
+class Prettylink extends React.PureComponent {
   render() {
     const { children, classes, href, target} = this.props;
     const component = this.props.component || (href && href.startsWith('http') ? null : Link);

@@ -96,7 +96,7 @@ const PuzzleBoard = withStyles(styles)(props => {
 });
 
 
-const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Component {
+const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.PureComponent {
 
   state = {card: null, tapped: false};
 
@@ -165,7 +165,7 @@ const PuzzleCards = withStyles(styles)(props => {
 });
 
 
-const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Component {
+const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.PureComponent {
 
   state = {data: null};
 
@@ -198,7 +198,7 @@ const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Com
 });
 
 
-class Puzzle extends React.Component {
+class Puzzle extends React.PureComponent {
   render() {
     const { classes, match } = this.props;
     return (

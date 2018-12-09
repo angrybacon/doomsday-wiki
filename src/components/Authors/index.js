@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Markdown from '../Markdown';
 
 
-class Authors extends React.Component {
+class Authors extends React.PureComponent {
   render() {
     return (
       <div>

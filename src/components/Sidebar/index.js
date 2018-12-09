@@ -33,7 +33,7 @@ const styles = theme => ({
 });
 
 
-class Sidebar extends React.Component {
+class Sidebar extends React.PureComponent {
 
   state = {menuItems: {}};
 

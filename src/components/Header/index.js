@@ -18,7 +18,7 @@ const styles = theme => ({
 });
 
 
-class Header extends React.Component {
+class Header extends React.PureComponent {
   render() {
     const { classes, toggleDrawer } = this.props;
     return (

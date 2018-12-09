@@ -7,7 +7,7 @@ import Prettylink from '../Prettylink';
 import { PUZZLES } from '../../menu';
 
 
-class Puzzles extends React.Component {
+class Puzzles extends React.PureComponent {
   render() {
     const { match } = this.props;
     const puzzles = (PUZZLES.find(it => it.href === match.url) || {routes: []}).routes.map(
