@@ -1,0 +1,30 @@
+body, html, #root, #root > div {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+#root {
+  overflow-x: auto;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.table:not(:last-child) {
+  margin-bottom: 2em;
+}
