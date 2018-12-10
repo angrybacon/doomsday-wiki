@@ -64,7 +64,7 @@ class Sidebar extends React.PureComponent {
                            toggleMenuItem={this.toggleMenuItem} />
               <Divider />
               <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
-              <Markdown className={classes.padding} noPadding source="links.md" />
+              <Markdown className={classes.padding} source="links.md" />
             </Grid>
           </Grid>
         )}

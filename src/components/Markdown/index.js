@@ -22,7 +22,6 @@ const styles = theme => ({
     borderWidth: 1,
     padding: theme.spacing.unit,
   },
-  padding: theme.mixins.padding({x: true}),
   table: {overflowX: 'auto'},
 });
 
@@ -71,34 +70,23 @@ class Markdown extends React.PureComponent {
 
   render() {
 
-    const { className, classes, noPadding, theme } = this.props;
+    const { className, classes, theme } = this.props;
     const { content } = this.state;
 
     const renderers = {
       code: props => (
-        <div className={noPadding ? {} : classes.padding}>
-          <pre className={classes.code} style={{overflowY: 'auto'}}>
-            <code>{props.value}</code>
-          </pre>
-        </div>
+        <pre className={classes.code} style={{overflowY: 'auto'}}>
+          <code>{props.value}</code>
+        </pre>
       ),
-      heading: props => (
-        <Typography {...getHeading(props.level)}
-                    children={props.children}
-                    className={noPadding ? {} : classes.padding}
-                    gutterBottom />
-      ),
+      heading: props => <Typography {...getHeading(props.level)} children={props.children} gutterBottom />,
       link: Prettylink,
       linkReference: Prettylink,
       list: (props, a, b) => (
-        <div className={noPadding ? {} : classes.padding}>
-          {React.createElement(props.ordered ? 'ol' : 'ul', {}, props.children)}
-        </div>
+        <div>{React.createElement(props.ordered ? 'ol' : 'ul', {}, props.children)}</div>
       ),
-      paragraph: props => <p className={noPadding ? {} : classes.padding}>{props.children}</p>,
-      table: props => (
-        <div className={`table ${classes.table}`}><Table children={props.children} /></div>
-      ),
+      paragraph: props => <p>{props.children}</p>,
+      table: props => <div className={`table ${classes.table}`}><Table children={props.children} /></div>,
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,

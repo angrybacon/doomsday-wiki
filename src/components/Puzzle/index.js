@@ -71,12 +71,9 @@ const styles = theme => ({
   },
 
   layout: {
-    ...theme.mixins.padding({x: true}),
     height: puzzleLayoutHeight,
     overflow: 'hidden',
   },
-
-  root: theme.mixins.padding({y: true}),
 });
 
 

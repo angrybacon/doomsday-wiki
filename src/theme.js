@@ -9,18 +9,6 @@ const defaultTheme = createMuiTheme({
 
 const themeOptions = {
   mixins: {
-    padding: (options = {x: true, y: true}) => ({
-      paddingBottom: options.y ? defaultTheme.spacing.unit * 3 : 0,
-      paddingLeft: options.x ? defaultTheme.spacing.unit * 3 : 0,
-      paddingRight: options.x ? defaultTheme.spacing.unit * 3 : 0,
-      paddingTop: options.y ? defaultTheme.spacing.unit * 3 : 0,
-      [defaultTheme.breakpoints.up('md')]: {
-        paddingBottom: options.y ? defaultTheme.spacing.unit * 4 : 0,
-        paddingLeft: options.x ? defaultTheme.spacing.unit * 4 : 0,
-        paddingRight: options.x ? defaultTheme.spacing.unit * 4 : 0,
-        paddingTop: options.y ? defaultTheme.spacing.unit * 4 : 0,
-      },
-    }),
     toolbar: {...defaultTheme.mixins.toolbar, minHeight: 48},
   },
   overrides: {
