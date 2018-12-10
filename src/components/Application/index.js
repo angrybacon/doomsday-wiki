@@ -13,7 +13,7 @@ import Header from '../Header';
 import Prettylink from '../Prettylink';
 import Routes from '../Routes';
 import Sidebar from '../Sidebar';
-import { darkTheme, lightTheme } from '../../theme';
+import { ThemeConsumer } from '../../contexts/Theme';
 
 
 const sidebarWidth = 300;
@@ -42,11 +42,7 @@ const styles = theme => ({
 
 class Application extends React.PureComponent {
 
-  state = {drawer: false, theme: lightTheme};
-
-  changeTheme = () => (event, checked) => {
-    this.setState({theme: checked ? darkTheme : lightTheme});
-  };
+  state = {drawer: false};
 
   toggleDrawer = () => {
     this.setState(state => ({drawer: !state.drawer}));
@@ -55,49 +51,51 @@ class Application extends React.PureComponent {
   render() {
     const { classes } = this.props;
     return (
-      <MuiThemeProvider theme={this.state.theme}>
-        <BrowserRouter>
-          <div style={{
-            backgroundColor: this.state.theme.palette.background.default,
-            minWidth: 320,
-          }}>
-            <Hidden mdUp>
-              <Sidebar changeTheme={this.changeTheme}
-                       component={SwipeableDrawer}
-                       drawerProps={{
-                         open: this.state.drawer,
-                         onClose: this.toggleDrawer,
-                         onOpen: this.toggleDrawer,
-                       }}
-                       toggleDrawer={this.toggleDrawer} />
-            </Hidden>
-            <Hidden smDown>
-              <Sidebar changeTheme={this.changeTheme}
-                       drawerProps={{
-                         classes: {paper: classes.sidebar},
-                         implementation: 'css',
-                         variant: 'permanent',
-                       }} />
-            </Hidden>
-            <Grid container className={classes.root} direction="column" wrap="nowrap">
-              <Grid item>
-                <Header component="header" toggleDrawer={this.toggleDrawer} />
-              </Grid>
-              <Grid item className={classes.body}>
-                <Grid container justify="center">
-                  <Grid item xs={12} md={10} lg={8} xl={6}>
-                    <Routes />
-                    <Typography align="center" component="footer">
-                      Copyright &copy; 2018
-                      <Prettylink children="ddft.wiki contributors" href="/authors/" />
-                    </Typography>
+      <ThemeConsumer>
+        {theme => (
+          <MuiThemeProvider theme={theme.state.current}>
+            <BrowserRouter>
+              <div style={{
+                backgroundColor: theme.state.current.palette.background.default,
+                minWidth: 320,
+              }}>
+                <Hidden mdUp>
+                  <Sidebar component={SwipeableDrawer}
+                           drawerProps={{
+                             open: this.state.drawer,
+                             onClose: this.toggleDrawer,
+                             onOpen: this.toggleDrawer,
+                           }}
+                           toggleDrawer={this.toggleDrawer} />
+                </Hidden>
+                <Hidden smDown>
+                  <Sidebar drawerProps={{
+                    classes: {paper: classes.sidebar},
+                    implementation: 'css',
+                    variant: 'permanent',
+                  }} />
+                </Hidden>
+                <Grid container className={classes.root} direction="column" wrap="nowrap">
+                  <Grid item>
+                    <Header component="header" toggleDrawer={this.toggleDrawer} />
+                  </Grid>
+                  <Grid item className={classes.body}>
+                    <Grid container justify="center">
+                      <Grid item xs={12} md={10} lg={8} xl={6}>
+                        <Routes />
+                        <Typography align="center" component="footer">
+                          Copyright &copy; 2018
+                          <Prettylink children="ddft.wiki contributors" href="/authors/" />
+                        </Typography>
+                      </Grid>
+                    </Grid>
                   </Grid>
                 </Grid>
-              </Grid>
-            </Grid>
-          </div>
-        </BrowserRouter>
-      </MuiThemeProvider>
+              </div>
+            </BrowserRouter>
+          </MuiThemeProvider>
+        )}
+      </ThemeConsumer>
     );
   }
 }

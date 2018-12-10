@@ -18,6 +18,7 @@ import Link from 'react-router-dom/Link';
 import NavLink from 'react-router-dom/NavLink';
 
 import Markdown from '../Markdown';
+import { ThemeConsumer } from '../../contexts/Theme';
 import { MENU } from '../../menu';
 
 
@@ -47,7 +48,7 @@ class Sidebar extends React.PureComponent {
 
   render() {
 
-    const { classes, changeTheme, component, drawerProps, toggleDrawer, width } = this.props;
+    const { classes, component, drawerProps, toggleDrawer, width } = this.props;
 
     const menu = MENU.map((chapter, index) => {
       const labels = chapter.label.split(',');
@@ -77,32 +78,36 @@ class Sidebar extends React.PureComponent {
     });
 
     const drawer = (
-      <Grid container direction="column" wrap="nowrap">
-        <Grid item>
-          <Toolbar>
-            <Grid container alignItems="center" className={classes.title} justify="space-between">
-              <Grid item>
-                <Link style={{textDecoration: 'none'}} to="/">
-                  <Button children="ddft.wiki"
-                          color="primary"
-                          onClick={toggleDrawer}
-                          size={isWidthDown('sm', width) ? 'small' : 'medium'}
-                          style={{boxShadow: 'none'}}
-                          variant="contained"/>
-                </Link>
-              </Grid>
-              <Switch onChange={changeTheme()} />
+      <ThemeConsumer>
+        {theme => (
+          <Grid container direction="column" wrap="nowrap">
+            <Grid item>
+              <Toolbar>
+                <Grid container alignItems="center" className={classes.title} justify="space-between">
+                  <Grid item>
+                    <Link style={{textDecoration: 'none'}} to="/">
+                      <Button children="ddft.wiki"
+                              color="primary"
+                              onClick={toggleDrawer}
+                              size={isWidthDown('sm', width) ? 'small' : 'medium'}
+                              style={{boxShadow: 'none'}}
+                              variant="contained"/>
+                    </Link>
+                  </Grid>
+                  <Switch checked={theme.state.isDark} onChange={theme.toggle} />
+                </Grid>
+              </Toolbar>
             </Grid>
-          </Toolbar>
-        </Grid>
-        <Divider />
-        <Grid item className={classes.body}>
-          <List children={menu} component="nav" />
-          <Divider />
-          <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
-          <Markdown className={classes.padding} noPadding source="links.md" />
-        </Grid>
-      </Grid>
+            <Divider />
+            <Grid item className={classes.body}>
+              <List children={menu} component="nav" />
+              <Divider />
+              <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
+              <Markdown className={classes.padding} noPadding source="links.md" />
+            </Grid>
+          </Grid>
+        )}
+      </ThemeConsumer>
     );
 
     return React.createElement(
