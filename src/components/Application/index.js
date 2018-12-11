@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import withStyles from '@material-ui/core/styles/withStyles';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
-
 import BrowserRouter from 'react-router-dom/BrowserRouter';
 
 import Header from '../Header';

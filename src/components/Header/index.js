@@ -6,7 +6,6 @@ import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
-
 import MenuIcon from 'mdi-react/MenuIcon';
 
 import Breadcrumbs from '../Breadcrumbs';

@@ -8,9 +8,6 @@ const defaultTheme = createMuiTheme({
 });
 
 const themeOptions = {
-  mixins: {
-    toolbar: {...defaultTheme.mixins.toolbar, minHeight: 48},
-  },
   overrides: {
     MuiPaper: {
       root: {

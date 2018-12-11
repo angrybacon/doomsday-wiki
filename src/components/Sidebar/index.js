@@ -16,7 +16,6 @@ const styles = theme => ({
     flexShrink: 1,
     overflowY: 'auto',
   },
-  title: theme.mixins.toolbar,
 });
 
 
