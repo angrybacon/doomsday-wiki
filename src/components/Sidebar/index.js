@@ -1,18 +1,13 @@
 import React from 'react';
 
-import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
-import Switch from '@material-ui/core/Switch';
-import Toolbar from '@material-ui/core/Toolbar';
-import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import withStyles from '@material-ui/core/styles/withStyles';
-import Link from 'react-router-dom/Link';
 
 import Markdown from '../Markdown';
+import SidebarHeader from '../SidebarHeader';
 import SidebarMenu from '../SidebarMenu';
-import { ThemeConsumer } from '../../contexts/Theme';
 
 
 const styles = theme => ({
@@ -34,28 +29,10 @@ class Sidebar extends React.PureComponent {
   };
 
   render() {
-    const { classes, component, drawerProps, toggleDrawer, width } = this.props;
+    const { classes, component, drawerProps, toggleDrawer } = this.props;
     const drawer = (
       <Grid container direction="column" wrap="nowrap">
-        <Grid item>
-          <Toolbar>
-            <Grid container alignItems="center" className={classes.title} justify="space-between">
-              <Grid item>
-                <Link style={{textDecoration: 'none'}} to="/">
-                  <Button children="ddft.wiki"
-                          color="primary"
-                          onClick={toggleDrawer}
-                          size={isWidthDown('sm', width) ? 'small' : 'medium'}
-                          style={{boxShadow: 'none'}}
-                          variant="contained"/>
-                </Link>
-              </Grid>
-              <ThemeConsumer>
-                {theme => <Switch checked={theme.state.isDark} onChange={theme.toggle} />}
-              </ThemeConsumer>
-            </Grid>
-          </Toolbar>
-        </Grid>
+        <Grid item children={<SidebarHeader />} />
         <Divider />
         <Grid item className={classes.body}>
           <SidebarMenu menuItems={this.state.menuItems}
@@ -79,4 +56,4 @@ class Sidebar extends React.PureComponent {
 }
 
 
-export default withWidth()(withStyles(styles)(Sidebar));
+export default withStyles(styles)(Sidebar);
