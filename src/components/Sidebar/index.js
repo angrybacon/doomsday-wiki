@@ -21,7 +21,6 @@ const styles = theme => ({
     flexShrink: 1,
     overflowY: 'auto',
   },
-  padding: {padding: theme.spacing.unit * 3},
   title: theme.mixins.toolbar,
 });
 
@@ -37,38 +36,36 @@ class Sidebar extends React.PureComponent {
   render() {
     const { classes, component, drawerProps, toggleDrawer, width } = this.props;
     const drawer = (
-      <ThemeConsumer>
-        {theme => (
-          <Grid container direction="column" wrap="nowrap">
-            <Grid item>
-              <Toolbar>
-                <Grid container alignItems="center" className={classes.title} justify="space-between">
-                  <Grid item>
-                    <Link style={{textDecoration: 'none'}} to="/">
-                      <Button children="ddft.wiki"
-                              color="primary"
-                              onClick={toggleDrawer}
-                              size={isWidthDown('sm', width) ? 'small' : 'medium'}
-                              style={{boxShadow: 'none'}}
-                              variant="contained"/>
-                    </Link>
-                  </Grid>
-                  <Switch checked={theme.state.isDark} onChange={theme.toggle} />
-                </Grid>
-              </Toolbar>
+      <Grid container direction="column" wrap="nowrap">
+        <Grid item>
+          <Toolbar>
+            <Grid container alignItems="center" className={classes.title} justify="space-between">
+              <Grid item>
+                <Link style={{textDecoration: 'none'}} to="/">
+                  <Button children="ddft.wiki"
+                          color="primary"
+                          onClick={toggleDrawer}
+                          size={isWidthDown('sm', width) ? 'small' : 'medium'}
+                          style={{boxShadow: 'none'}}
+                          variant="contained"/>
+                </Link>
+              </Grid>
+              <ThemeConsumer>
+                {theme => <Switch checked={theme.state.isDark} onChange={theme.toggle} />}
+              </ThemeConsumer>
             </Grid>
-            <Divider />
-            <Grid item className={classes.body}>
-              <SidebarMenu menuItems={this.state.menuItems}
-                           toggleDrawer={toggleDrawer}
-                           toggleMenuItem={this.toggleMenuItem} />
-              <Divider />
-              <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
-              <Markdown className={classes.padding} source="links.md" />
-            </Grid>
-          </Grid>
-        )}
-      </ThemeConsumer>
+          </Toolbar>
+        </Grid>
+        <Divider />
+        <Grid item className={classes.body}>
+          <SidebarMenu menuItems={this.state.menuItems}
+                       toggleDrawer={toggleDrawer}
+                       toggleMenuItem={this.toggleMenuItem} />
+          <Divider />
+          <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
+          <Markdown source="links.md" />
+        </Grid>
+      </Grid>
     );
 
     return React.createElement(

@@ -15,7 +15,6 @@ import Puzzles from '../Puzzles';
 
 class Routes extends React.PureComponent {
   render() {
-    const { classes } = this.props;
     return (
       <Switch>
         <Route exact path="/">

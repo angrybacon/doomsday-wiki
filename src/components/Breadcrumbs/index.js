@@ -7,7 +7,7 @@ import ChevronRightIcon from 'mdi-react/ChevronRightIcon';
 
 import withRouter from 'react-router-dom/withRouter';
 
-import { MENU } from '../../menu';
+import menu from '../../menu';
 
 
 const getTitle = path => {
@@ -15,7 +15,7 @@ const getTitle = path => {
     return ['Home'];
   }
   const results = [];
-  MENU.some(
+  menu.some(
     chapter => (
       (chapter.routes || []).some(route => route.href === path ? results.push(route.text) : false)
         ? results.unshift(chapter.label)

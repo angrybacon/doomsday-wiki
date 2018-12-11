@@ -9,17 +9,7 @@ import TargetIcon from 'mdi-react/TargetIcon';
 import WrenchIcon from 'mdi-react/WrenchIcon';
 
 
-export const PUZZLES = [
-  {
-    title: 'Tier 1', href: '/puzzles/1/', routes: [
-      {text: 'A',                              href: '/puzzles/1/a/'},
-      {text: 'B',                              href: '/puzzles/1/b/'},
-    ]
-  },
-];
-
-
-export const MENU = [
+export default [
 
   {
     label: 'Chapter 1, the Fundamentals', icon: <BabyIcon />, routes: [

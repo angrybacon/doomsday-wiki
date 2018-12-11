@@ -9,7 +9,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import withStyles from '@material-ui/core/styles/withStyles';
 import NavLink from 'react-router-dom/NavLink';
 
-import { MENU } from '../../menu';
+import menu from '../../menu';
 
 
 const styles = theme => ({
@@ -20,7 +20,7 @@ const styles = theme => ({
 class SidebarMenu extends React.PureComponent {
   render() {
     const { classes, menuItems, toggleDrawer, toggleMenuItem } = this.props;
-    const menu = MENU.map((chapter, index) => {
+    const items = menu.map((chapter, index) => {
       const labels = chapter.label.split(',');
       const routes = (chapter.routes || []).map((it, index) => (
         <ListItem activeClassName={classes.activeLink}
@@ -46,7 +46,7 @@ class SidebarMenu extends React.PureComponent {
         </div>
       );
     });
-    return <List children={menu} component="nav" />;
+    return <List children={items} component="nav" />;
   }
 }
 
