@@ -1,9 +1,7 @@
 import React from 'react';
 
 import Grid from '@material-ui/core/Grid';
-import Hidden from '@material-ui/core/Hidden';
 import Typography from '@material-ui/core/Typography';
-import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import withStyles from '@material-ui/core/styles/withStyles';
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
@@ -15,6 +13,7 @@ import Sidebar from '../Sidebar';
 import { ThemeConsumer } from '../../contexts/Theme';
 
 
+const sidebarTreshold = 'sm';
 const sidebarWidth = 300;
 const styles = theme => ({
   body: {
@@ -28,10 +27,15 @@ const styles = theme => ({
   },
   root: {
     height: '100%',
-    [theme.breakpoints.up('md')]: {
-      marginLeft: sidebarWidth,
-      width: `calc(100% - ${sidebarWidth}px)`,
+    paddingLeft: sidebarWidth,
+    width: '100%',
+    [theme.breakpoints.down(sidebarTreshold)]: {
+      paddingLeft: 0,
     },
+  },
+  rootBackground: {
+    backgroundColor: theme.palette.background.default,
+    minWidth: 320,
   },
   sidebar: {
     width: sidebarWidth,
@@ -40,13 +44,6 @@ const styles = theme => ({
 
 
 class Application extends React.PureComponent {
-
-  state = {drawer: false};
-
-  toggleDrawer = () => {
-    this.setState(state => ({drawer: !state.drawer}));
-  };
-
   render() {
     const { classes } = this.props;
     return (
@@ -54,30 +51,10 @@ class Application extends React.PureComponent {
         {theme => (
           <MuiThemeProvider theme={theme.state.current}>
             <BrowserRouter>
-              <div style={{
-                backgroundColor: theme.state.current.palette.background.default,
-                minWidth: 320,
-              }}>
-                <Hidden mdUp>
-                  <Sidebar component={SwipeableDrawer}
-                           drawerProps={{
-                             open: this.state.drawer,
-                             onClose: this.toggleDrawer,
-                             onOpen: this.toggleDrawer,
-                           }}
-                           toggleDrawer={this.toggleDrawer} />
-                </Hidden>
-                <Hidden smDown>
-                  <Sidebar drawerProps={{
-                    classes: {paper: classes.sidebar},
-                    implementation: 'css',
-                    variant: 'permanent',
-                  }} />
-                </Hidden>
+              <div className={classes.rootBackground}>
+                <Sidebar sidebarProps={{classes: {paper: classes.sidebar}}} sidebarTreshold={sidebarTreshold} />
                 <Grid container className={classes.root} direction="column" wrap="nowrap">
-                  <Grid item>
-                    <Header component="header" toggleDrawer={this.toggleDrawer} />
-                  </Grid>
+                  <Grid item children={<Header component="header" />} />
                   <Grid item className={classes.body}>
                     <Grid container justify="center">
                       <Grid item xs={12} md={10} lg={8} xl={6}>

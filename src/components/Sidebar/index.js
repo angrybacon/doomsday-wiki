@@ -3,11 +3,14 @@ import React from 'react';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
+import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import withStyles from '@material-ui/core/styles/withStyles';
+import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 
 import Markdown from '../Markdown';
 import SidebarHeader from '../SidebarHeader';
 import SidebarMenu from '../SidebarMenu';
+import { SidebarConsumer } from '../../contexts/Sidebar';
 
 
 const styles = theme => ({
@@ -20,39 +23,35 @@ const styles = theme => ({
 
 
 class Sidebar extends React.PureComponent {
-
-  state = {menuItems: {}};
-
-  toggleMenuItem = index => () => {
-    this.setState(state => ({menuItems: {...state.menuItems, [index]: !state.menuItems[index]}}));
-  };
-
   render() {
-    const { classes, component, drawerProps, toggleDrawer } = this.props;
-    const drawer = (
+    const { classes, sidebarProps, sidebarTreshold, width } = this.props;
+    const content = (
       <Grid container direction="column" wrap="nowrap">
-        <Grid item children={<SidebarHeader />} />
+        <Grid item children={<SidebarHeader size={isWidthDown(sidebarTreshold, width) ? 'small' : 'medium'} />} />
         <Divider />
         <Grid item className={classes.body}>
-          <SidebarMenu menuItems={this.state.menuItems}
-                       toggleDrawer={toggleDrawer}
-                       toggleMenuItem={this.toggleMenuItem} />
+          <SidebarMenu />
           <Divider />
           <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
           <Markdown source="links.md" />
         </Grid>
       </Grid>
     );
-
-    return React.createElement(
-      component ? component : Drawer,
-      // NOTE: Style is currently being overwritten by SwipeableDrawer.
-      //       https://github.com/mui-org/material-ui/issues/11799
-      {PaperProps: {style: {padding: 0}}, ...drawerProps},
-      drawer,
+    const isMobile = isWidthDown(sidebarTreshold, width);
+    const drawer = (
+      <SidebarConsumer>
+        {({state, toggleDrawer}) => (
+          <SwipeableDrawer children={content}
+                           onClose={toggleDrawer(false)}
+                           onOpen={toggleDrawer(true)}
+                           open={state.drawerIsOpen} />
+        )}
+      </SidebarConsumer>
     );
+    const sidebar = <Drawer {...sidebarProps} children={content} variant="permanent" />;
+    return isMobile ? drawer : sidebar;
   }
 }
 
 
-export default withStyles(styles)(Sidebar);
+export default withWidth()(withStyles(styles)(Sidebar));

@@ -9,6 +9,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import MenuIcon from 'mdi-react/MenuIcon';
 
 import Breadcrumbs from '../Breadcrumbs';
+import { SidebarConsumer } from '../../contexts/Sidebar';
 
 
 const styles = theme => ({
@@ -19,14 +20,18 @@ const styles = theme => ({
 
 class Header extends React.PureComponent {
   render() {
-    const { classes, toggleDrawer } = this.props;
+    const { classes } = this.props;
     return (
       <AppBar className={classes.root} position="static">
         <Toolbar>
           <Grid container alignItems="center" wrap="nowrap">
             <Hidden mdUp>
               <Grid item style={{marginRight: '1em'}}>
-                <IconButton children={<MenuIcon />} color="inherit" onClick={toggleDrawer} />
+                <SidebarConsumer>
+                  {({toggleDrawer}) => (
+                    <IconButton children={<MenuIcon />} color="inherit" onClick={toggleDrawer()} />
+                  )}
+                </SidebarConsumer>
               </Grid>
             </Hidden>
             <Grid item children={<Breadcrumbs />} />

@@ -4,7 +4,6 @@ import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
-import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Link from 'react-router-dom/Link';
 
@@ -18,7 +17,7 @@ const styles = theme => ({
 
 class SidebarHeader extends React.PureComponent {
   render() {
-    const { classes, toggleDrawer, width } = this.props;
+    const { classes, size, toggleDrawer } = this.props;
     return (
       <Toolbar>
         <Grid container alignItems="center" className={classes.root} justify="space-between">
@@ -27,7 +26,7 @@ class SidebarHeader extends React.PureComponent {
               <Button children="ddft.wiki"
                       color="primary"
                       onClick={toggleDrawer}
-                      size={isWidthDown('sm', width) ? 'small' : 'medium'}
+                      size={size}
                       style={{boxShadow: 'none'}}
                       variant="contained"/>
             </Link>
@@ -42,4 +41,4 @@ class SidebarHeader extends React.PureComponent {
 }
 
 
-export default withWidth()(withStyles(styles)(SidebarHeader));
+export default withStyles(styles)(SidebarHeader);

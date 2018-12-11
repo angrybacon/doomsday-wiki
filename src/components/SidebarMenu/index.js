@@ -10,6 +10,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import NavLink from 'react-router-dom/NavLink';
 
 import menu from '../../menu';
+import { SidebarConsumer } from '../../contexts/Sidebar';
 
 
 const styles = theme => ({
@@ -18,35 +19,53 @@ const styles = theme => ({
 
 
 class SidebarMenu extends React.PureComponent {
+
+  state = {entries: {}};
+
+  toggleEntry = index => () => {
+    this.setState(state => ({entries: {...state.entries, [index]: !state.entries[index]}}));
+  };
+
   render() {
-    const { classes, menuItems, toggleDrawer, toggleMenuItem } = this.props;
-    const items = menu.map((chapter, index) => {
-      const labels = chapter.label.split(',');
-      const routes = (chapter.routes || []).map((it, index) => (
-        <ListItem activeClassName={classes.activeLink}
-                  button
-                  children={<ListItemText primary={it.text} />}
-                  component={NavLink}
-                  dense
-                  key={index}
-                  onClick={toggleDrawer}
-                  to={it.href} />
-      ));
-      return (
-        <div key={index}>
-          <ListItem button dense disabled={!routes.length} onClick={toggleMenuItem(index)}>
-            <ListItemIcon children={chapter.icon} />
-            <ListItemText primary={labels[0]} secondary={labels[1]} />
-          </ListItem>
-          <Collapse in={menuItems[index]} timeout="auto">
-            <Divider />
-            <List children={routes} />
-            <Divider />
-          </Collapse>
-        </div>
-      );
-    });
-    return <List children={items} component="nav" />;
+    const { classes } = this.props;
+    const { entries } = this.state;
+    return (
+      <List component="nav">
+        {menu.map((chapter, index) => {
+          const [primary, secondary] = chapter.label.split(',');
+          const routes = chapter.routes || [];
+          return (
+            <SidebarConsumer key={index}>
+              {({toggleDrawer}) => (
+                <div>
+                  <ListItem button dense disabled={!routes.length} onClick={this.toggleEntry(index)}>
+                    <ListItemIcon children={chapter.icon} />
+                    <ListItemText primary={primary} secondary={secondary} />
+                  </ListItem>
+                  <Collapse in={entries[index]} timeout="auto">
+                    <Divider />
+                    <List>
+                      {routes.map((it, index) => (
+                        <ListItem activeClassName={classes.activeLink}
+                                  button
+                                  component={NavLink}
+                                  dense
+                                  key={index}
+                                  onClick={toggleDrawer(false)}
+                                  to={it.href}>
+                          <ListItemText primary={it.text} />
+                        </ListItem>
+                      ))}
+                    </List>
+                    <Divider />
+                  </Collapse>
+                </div>
+              )}
+            </SidebarConsumer>
+          );
+        })}
+      </List>
+    );
   }
 }
 
