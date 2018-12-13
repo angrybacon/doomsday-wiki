@@ -18,7 +18,7 @@ const styles = theme => ({
 
 class SidebarHeader extends React.PureComponent {
   render() {
-    const { classes, size, toggleDrawer } = this.props;
+    const { classes, size } = this.props;
     return (
       <Toolbar>
         <Grid container alignItems="center" className={classes.root} justify="space-between">

@@ -14,7 +14,11 @@ const styles = () => ({
 class Page extends React.PureComponent {
   render() {
     const { classes, match } = this.props;
-    return <Paper children={<Markdown match={match} />} className={classes.root } component="article" />;
+    return (
+      <Paper className={classes.root} component="article">
+        <Markdown gutter match={match} />
+      </Paper>
+    );
   }
 }
 
