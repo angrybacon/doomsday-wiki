@@ -23,6 +23,13 @@ const themeOptions = {
         },
       }
     },
+    MuiTable: {
+      root: {
+        '&:not(:last-child)': {
+          marginBottom: '1em',
+        },
+      },
+    },
     MuiTableRow: {head: {height: 48}},
     MuiTypography: {title: {fontWeight: 'normal'}},
   },

@@ -6,8 +6,13 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Markdown from '../Markdown';
 
 
-const styles = () => ({
-  root: {overflowX: 'hidden'},
+const styles = theme => ({
+  root: {
+    overflowX: 'hidden',
+    [theme.breakpoints.down('xs')]: {
+      borderRadius: 0,
+    },
+  },
 });
 
 

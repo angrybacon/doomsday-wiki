@@ -17,10 +17,19 @@ a {
   }
 }
 
+ol,
+ul {
+  padding-left: 1em;
+}
+
+ol,
+ul,
 p:first-child {
   margin-top: 0;
 }
 
+ol,
+ul,
 p:last-child {
   margin-bottom: 0;
 }

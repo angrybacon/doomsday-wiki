@@ -63,7 +63,7 @@ class Markdown extends React.PureComponent {
 
     const renderers = {
       code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
-      heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level}`} />,
+      heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 1}`} />,
       link: Prettylink,
       linkReference: Prettylink,
       table: props => <Table children={props.children} />,
