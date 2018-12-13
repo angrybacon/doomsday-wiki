@@ -48,8 +48,8 @@ class Sidebar extends React.PureComponent {
         )}
       </SidebarConsumer>
     );
-    const sidebar = <Drawer {...sidebarProps} children={content} variant="permanent" />;
-    return isMobile ? drawer : sidebar;
+    const drawerFixed = <Drawer {...sidebarProps} children={content} variant="permanent" />;
+    return isMobile ? drawer : drawerFixed;
   }
 }
 
