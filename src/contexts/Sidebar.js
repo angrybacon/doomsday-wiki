@@ -4,7 +4,7 @@ import React from 'react';
 const SidebarContext = React.createContext();
 
 
-export class SidebarProvider extends React.PureComponent {
+export class SidebarProvider extends React.Component {
 
   state = {
     drawerIsOpen: false,

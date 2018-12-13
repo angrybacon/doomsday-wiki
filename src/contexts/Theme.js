@@ -6,7 +6,7 @@ import {darkTheme, lightTheme } from '../theme';
 const ThemeContext = React.createContext();
 
 
-export class ThemeProvider extends React.PureComponent {
+export class ThemeProvider extends React.Component {
 
   state = {
     current: lightTheme,

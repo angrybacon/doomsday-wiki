@@ -12,7 +12,7 @@ import Puzzle from '../Puzzle';
 import Puzzles from '../Puzzles';
 
 
-class Routes extends React.PureComponent {
+class Routes extends React.Component {
   render() {
     return (
       <Switch>
