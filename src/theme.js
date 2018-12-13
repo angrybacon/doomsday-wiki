@@ -17,9 +17,15 @@ const themeOptions = {
   overrides: {
     MuiPaper: {
       root: {
-        marginBottom: defaultTheme.spacing.unit * 2,
+        padding: defaultTheme.spacing.unit * 2,
         [defaultTheme.breakpoints.up('md')]: {
-          marginBottom: defaultTheme.spacing.unit * 3,
+          padding: defaultTheme.spacing.unit * 3,
+        },
+        '&:not(:last-child)': {
+          marginBottom: defaultTheme.spacing.unit * 2,
+          [defaultTheme.breakpoints.up('md')]: {
+            marginBottom: defaultTheme.spacing.unit * 3,
+          },
         },
       }
     },

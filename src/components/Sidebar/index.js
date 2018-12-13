@@ -3,6 +3,7 @@ import React from 'react';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import withStyles from '@material-ui/core/styles/withStyles';
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
@@ -20,7 +21,11 @@ const styles = theme => ({
     overflowY: 'auto',
   },
   drawerFixed: {
+    padding: 0,
     width: theme.mixins.sidebar.width,
+  },
+  drawerTemporary: {
+    padding: 0,
   },
 });
 
@@ -37,7 +42,7 @@ class Sidebar extends React.PureComponent {
           <SidebarMenu />
           <Divider />
           <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} />
-          <Markdown source="links.md" />
+          <Paper children={<Markdown source="links.md" />} elevation={0} square />
         </Grid>
       </Grid>
     );
@@ -45,6 +50,7 @@ class Sidebar extends React.PureComponent {
       <SidebarConsumer>
         {({state, toggleDrawer}) => (
           <SwipeableDrawer children={content}
+                           classes={{paper: classes.drawerTemporary}}
                            onClose={toggleDrawer(false)}
                            onOpen={toggleDrawer(true)}
                            open={state.drawerIsOpen} />
