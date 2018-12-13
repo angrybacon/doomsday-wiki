@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
+
 import Application from './components/Application';
 import { SidebarProvider } from './contexts/Sidebar';
-import { ThemeProvider } from './contexts/Theme';
+import { ThemeConsumer, ThemeProvider } from './contexts/Theme';
 
 import './reset.scss';
 
@@ -13,7 +15,9 @@ if (root) {
   const application = (
     <SidebarProvider>
       <ThemeProvider>
-        <Application />
+        <ThemeConsumer>
+          {({state}) => <MuiThemeProvider children={<Application />} theme={state.current} />}
+        </ThemeConsumer>
       </ThemeProvider>
     </SidebarProvider>
   );

@@ -8,6 +8,12 @@ const defaultTheme = createMuiTheme({
 });
 
 const themeOptions = {
+  mixins: {
+    sidebar: {
+      treshold: 'sm',
+      width: 300,
+    },
+  },
   overrides: {
     MuiPaper: {
       root: {

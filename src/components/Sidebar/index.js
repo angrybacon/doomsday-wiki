@@ -19,15 +19,19 @@ const styles = theme => ({
     flexShrink: 1,
     overflowY: 'auto',
   },
+  drawerFixed: {
+    width: theme.mixins.sidebar.width,
+  },
 });
 
 
 class Sidebar extends React.PureComponent {
   render() {
-    const { classes, sidebarProps, sidebarTreshold, width } = this.props;
+    const { classes, theme, width } = this.props;
+    const isMobile = isWidthDown(theme.mixins.sidebar.treshold, width);
     const content = (
       <Grid container direction="column" wrap="nowrap">
-        <Grid item children={<SidebarHeader size={isWidthDown(sidebarTreshold, width) ? 'small' : 'medium'} />} />
+        <Grid item children={<SidebarHeader size={isMobile ? 'small' : 'medium'} />} />
         <Divider />
         <Grid item className={classes.body}>
           <SidebarMenu />
@@ -37,7 +41,6 @@ class Sidebar extends React.PureComponent {
         </Grid>
       </Grid>
     );
-    const isMobile = isWidthDown(sidebarTreshold, width);
     const drawer = (
       <SidebarConsumer>
         {({state, toggleDrawer}) => (
@@ -48,10 +51,10 @@ class Sidebar extends React.PureComponent {
         )}
       </SidebarConsumer>
     );
-    const drawerFixed = <Drawer {...sidebarProps} children={content} variant="permanent" />;
+    const drawerFixed = <Drawer children={content} classes={{paper: classes.drawerFixed}} variant="permanent" />;
     return isMobile ? drawer : drawerFixed;
   }
 }
 
 
-export default withWidth()(withStyles(styles)(Sidebar));
+export default withWidth()(withStyles(styles, {withTheme: true})(Sidebar));
