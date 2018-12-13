@@ -7,6 +7,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Link from 'react-router-dom/Link';
 
+import { SidebarConsumer } from '../../contexts/Sidebar';
 import { ThemeConsumer } from '../../contexts/Theme';
 
 
@@ -23,12 +24,16 @@ class SidebarHeader extends React.PureComponent {
         <Grid container alignItems="center" className={classes.root} justify="space-between">
           <Grid item>
             <Link style={{textDecoration: 'none'}} to="/">
-              <Button children="ddft.wiki"
-                      color="primary"
-                      onClick={toggleDrawer}
-                      size={size}
-                      style={{boxShadow: 'none'}}
-                      variant="contained"/>
+              <SidebarConsumer>
+                {({toggleDrawer}) => (
+                  <Button children="ddft.wiki"
+                          color="primary"
+                          onClick={toggleDrawer(false)}
+                          size={size}
+                          style={{boxShadow: 'none'}}
+                          variant="contained"/>
+                )}
+              </SidebarConsumer>
             </Link>
           </Grid>
           <ThemeConsumer>
