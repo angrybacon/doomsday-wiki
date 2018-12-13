@@ -8,12 +8,12 @@ import Markdown from '../Markdown';
 class Authors extends React.PureComponent {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Paper children={<Markdown source="authors/bennotsi.md" />} />
         <Paper children={<Markdown source="authors/d8dk32.md" />} />
         <Paper children={<Markdown source="authors/doishy.md" />} />
         <Paper children={<Markdown source="authors/emidln.md" />} />
-      </div>
+      </React.Fragment>
     );
   }
 }
