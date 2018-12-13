@@ -22,14 +22,14 @@ ul {
   padding-left: 1em;
 }
 
-ol,
-ul,
+ol:first-child,
+ul:first-child,
 p:first-child {
   margin-top: 0;
 }
 
-ol,
-ul,
+ol:last-child,
+ul:last-child,
 p:last-child {
   margin-bottom: 0;
 }
