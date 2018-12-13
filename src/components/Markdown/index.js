@@ -23,6 +23,11 @@ const styles = theme => ({
     overflowY: 'auto',
     padding: theme.spacing.unit,
   },
+  gutter: {
+    marginLeft: -theme.overrides.MuiPaper.root.padding,
+    marginRight: -theme.overrides.MuiPaper.root.padding,
+    width: 'auto',
+  },
   table: {overflowX: 'auto'},
 });
 
@@ -58,7 +63,7 @@ class Markdown extends React.PureComponent {
 
   render() {
 
-    const { className, classes } = this.props;
+    const { className, classes, gutter } = this.props;
     const { content } = this.state;
 
     const renderers = {
@@ -66,12 +71,12 @@ class Markdown extends React.PureComponent {
       heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 1}`} />,
       link: Prettylink,
       linkReference: Prettylink,
-      table: props => <Table children={props.children} />,
+      table: props => <Table children={props.children} className={gutter && classes.gutter} />,
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
       tableCell: props => <TableCell children={props.children} padding="checkbox" />,
-      thematicBreak: Divider,
+      thematicBreak: () => <Divider className={gutter && classes.gutter} />,
     };
 
     return content ? (
