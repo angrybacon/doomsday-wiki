@@ -25,8 +25,7 @@ const styles = theme => ({
   },
   gutter: {
     marginLeft: -theme.overrides.MuiPaper.root.padding,
-    marginRight: -theme.overrides.MuiPaper.root.padding,
-    width: 'auto',
+    width: `calc(100% + ${theme.overrides.MuiPaper.root.padding * 2 + 1}px)`,
   },
   table: {overflowX: 'auto'},
 });
