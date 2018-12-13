@@ -18,8 +18,10 @@ const styles = theme => ({
     overflowY: 'auto',
     paddingBottom: theme.spacing.unit * 2,
     paddingTop: theme.spacing.unit * 2,
-    [theme.breakpoints.up('sm')]: {padding: theme.spacing.unit * 2},
-    [theme.breakpoints.up('md')]: {padding: theme.spacing.unit * 3},
+    [theme.breakpoints.up('md')]: {
+      paddingBottom: theme.spacing.unit * 3,
+      paddingTop: theme.spacing.unit * 3,
+    },
   },
   root: {
     height: '100%',
@@ -47,7 +49,7 @@ class Application extends React.PureComponent {
             <Grid item children={<Header component="header" />} />
             <Grid item className={classes.body}>
               <Grid container justify="center">
-                <Grid item xs={12} md={10} lg={8} xl={6}>
+                <Grid item xs={12} sm={11} md={10} lg={8} xl={6}>
                   <Routes />
                   <Typography align="center" component="footer">
                     Copyright &copy; 2018 <Prettylink children="ddft.wiki contributors" href="/authors/" />
