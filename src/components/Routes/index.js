@@ -18,12 +18,8 @@ class Routes extends React.PureComponent {
       <Switch>
         <Route exact path="/">
           <Grid container direction="column" wrap="nowrap">
-            <Grid item>
-              <Paper children={<Markdown source="home.md" />} component="article" />
-            </Grid>
-            <Grid item>
-              <Paper children={<Markdown source="articles.md" />} component="article" />
-            </Grid>
+            <Grid item children={<Paper children={<Markdown source="home.md" />} />} />
+            <Grid item children={<Paper children={<Markdown source="articles.md" />} />} />
           </Grid>
         </Route>
         <Route exact children={<Authors />} path="/authors/" />

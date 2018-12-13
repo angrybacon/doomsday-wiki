@@ -2,10 +2,16 @@ import React from 'react';
 
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
 import ChevronRightIcon from 'mdi-react/ChevronRightIcon';
 import withRouter from 'react-router-dom/withRouter';
 
 import menu from '../../menu';
+
+
+const styles = () => ({
+  crumb: {marginRight: '.5em'},
+});
 
 
 const getTitle = path => {
@@ -26,16 +32,16 @@ const getTitle = path => {
 
 class Breadcrumbs extends React.PureComponent {
   render() {
-    const { location } = this.props;
+    const { classes, location } = this.props;
     let breadcrumbs = getTitle(location.pathname);
     breadcrumbs = breadcrumbs.reduce((accumulator, it, index) => {
       accumulator.push(
-        <Grid item key={it}>
+        <Grid item className={classes.crumb} key={it}>
           <Typography children={it} color="inherit" variant="h6" />
         </Grid>
       );
       if (index < breadcrumbs.length - 1) {
-        accumulator.push(<ChevronRightIcon key={it + '-separator'} style={{margin: '0 .5em'}}/>);
+        accumulator.push(<ChevronRightIcon className={classes.crumb} key={it + '-separator'} />);
       }
       return accumulator;
     }, []);
@@ -44,4 +50,4 @@ class Breadcrumbs extends React.PureComponent {
 }
 
 
-export default withRouter(Breadcrumbs);
+export default withRouter(withStyles(styles)(Breadcrumbs));
