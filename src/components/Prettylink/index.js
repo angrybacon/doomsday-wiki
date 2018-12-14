@@ -24,7 +24,7 @@ class Prettylink extends React.PureComponent {
     const { children, classes, href, target} = this.props;
     const component = this.props.component || (href && href.startsWith('http') ? null : Link);
     return href ? (
-      component ? React.createElement(component, {className: classes.root, to: href}, children) : (
+      component ? React.createElement(component, {className: classes.link, to: href}, children) : (
         <span className={classes.root}>
           <a className={classes.link} href={href} target={target || '_blank'}>{children}</a>
           <OpenInNewIcon className={classes.icon} size={12} />
