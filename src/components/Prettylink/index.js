@@ -9,7 +9,9 @@ const styles = theme => ({
   icon: {
     marginLeft: '.25em',
   },
-  link: {color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]},
+  link: {
+    color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]
+  },
   root: {
     alignItems: 'center',
     display: 'inline-flex',
@@ -28,7 +30,7 @@ class Prettylink extends React.PureComponent {
           <OpenInNewIcon className={classes.icon} size={12} />
         </span>
       )
-    ) : <span {...this.props}>{children}</span>;
+    ) : <a {...this.props}>{children}</a>;
   }
 }
 
