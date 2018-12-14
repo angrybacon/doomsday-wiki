@@ -6,15 +6,15 @@ import Link from 'react-router-dom/Link';
 
 
 const styles = theme => ({
-  externalIcon: {
+  icon: {
     fontSize: theme.typography.body1.fontSize,
     marginLeft: '.25em',
   },
-  externalWrapper: {
+  link: {color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]},
+  root: {
     alignItems: 'center',
     display: 'inline-flex',
   },
-  root: {color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]},
 });
 
 
@@ -24,9 +24,9 @@ class Prettylink extends React.PureComponent {
     const component = this.props.component || (href && href.startsWith('http') ? null : Link);
     return href ? (
       component ? React.createElement(component, {className: classes.root, to: href}, children) : (
-        <span className={classes.externalWrapper}>
-          <a className={classes.root} href={href} target={target || '_blank'}>{children}</a>
-          <OpenInNewIcon className={classes.externalIcon} />
+        <span className={classes.root}>
+          <a className={classes.link} href={href} target={target || '_blank'}>{children}</a>
+          <OpenInNewIcon className={classes.icon} />
         </span>
       )
     ) : <span {...this.props}>{children}</span>;
