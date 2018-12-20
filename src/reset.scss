@@ -11,10 +11,7 @@ body, html, #root, #root > div {
 
 a {
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
+  &:hover { text-decoration: underline; }
 }
 
 ol,
@@ -22,14 +19,9 @@ ul {
   padding-left: 1em;
 }
 
-ol:first-child,
-ul:first-child,
-p:first-child {
-  margin-top: 0;
-}
-
-ol:last-child,
-ul:last-child,
-p:last-child {
-  margin-bottom: 0;
+ol,
+ul,
+p {
+  &:first-child { margin-top: 0; }
+  &:last-child { margin-bottom: 0; }
 }
