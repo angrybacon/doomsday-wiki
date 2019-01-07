@@ -1,15 +1,9 @@
-- In play: Island, Swamp, Volcanic Island
-- In hand: Brainstorm, Burning Wish, Dark Ritual, Doomsday
-- Opponent's Life: 20
-- Your life: 20
-- Opponent has no relevant interaction
-- Win this turn
-
 | Life | Storm | Hand           | Mana | Board                    | Library                |
 |------|-------|----------------|------|--------------------------|------------------------|
-| 20   | 0     | BS, BW, DR, DD |      | Island, Swamp, V. Island | ?                      |
-| 10   | 2     | BS, BW         |      | Island, V. Island        | AoI, LED, GP, LED, LED |
-| 10   | 3     | LED, GP        |      | V. Island                | AoI, BW, LED, LED      |
-| 8    | 5     | AoI            | RRR  | V. Island                | BW, LED, LED           |
-| 8    | 6     | (BW, LED, LED) |      | V. Island                |                        |
-| 8    | 9     | ToA            | BBRR | V. Island                |                        |
+| 20   | 0     | PN, DR, DD, LED|      | Island, Swamp            | ?                      |
+| 10   | 3     | PN             |      | Island, Swamp            | IC, DR, LP, CB, ToA    |
+| 10   | 4     | IC             | BBB  | Island, Swamp            | DR, LP, CB, ToA        |
+| 4    | 5     | DR, LP, CB, ToA|      | Island, Swamp            |                        |
+| 4    | 8     | ToA            | BB   | Island, Swamp, CB        |                        |
+| 4    | 9     | ToA, DR        | BB   | Island, Swamp            |                        |
+| 4    | 10    | ToA            | BBBB | Island, Swamp            |                        |
