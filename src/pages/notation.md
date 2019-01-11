@@ -8,12 +8,14 @@
 | DR        | Dark Ritual                      |
 | CR        | Cabal Ritual                     |
 | GP        | Gitaxian Probe                   |
-| D4        | Infernal Contract/Cruel Bargain  |
+| IC        | Infernal Contract/Cruel Bargain  |
 | IU        | Ideas Unbound                    |
 | LED       | Lion's Eye Diamond               |
 | LM        | Laboratory Maniac                |
+| SW        | Street Wraith                    |
 | LP        | Lotus Petal                      |
 | PN        | Ponder                           |
 | SI        | Shelldock Isle                   |
+| Em        | Emrakul, the Aeons Torn          |
 | TW        | Three Wishes                     |
 | ToA       | Tendrils of Agony                |

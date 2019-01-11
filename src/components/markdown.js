@@ -9,7 +9,7 @@ import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown/with-html';
 
 import PrettyLink from './prettylink';
 
@@ -34,6 +34,30 @@ function getHeading(level) {
   };
 }
 
+function injectCardArt(content) {
+  var injected = content;   
+  injected = injected.replace(/!IC/g, '![IC](https://img.scryfall.com/cards/small/en/mir/129.jpg)'); 
+  injected = injected.replace(/!LP/g, '![LP](https://img.scryfall.com/cards/small/en/tmp/294.jpg)'); 
+  injected = injected.replace(/!DR/g, '![DR](https://img.scryfall.com/cards/small/en/mmq/129.jpg)'); 
+  injected = injected.replace(/!ToA/g, '![ToA](https://img.scryfall.com/cards/small/en/scg/75.jpg)'); 
+  injected = injected.replace(/!BW/g, '![BW](https://img.scryfall.com/cards/small/en/jud/83.jpg)'); 
+  injected = injected.replace(/!CB/g, '![CB](https://img.scryfall.com/cards/small/en/5dn/112.jpg)'); 
+  injected = injected.replace(/!LED/g, '![LED](https://img.scryfall.com/cards/small/en/mir/307.jpg)'); 
+  injected = injected.replace(/!BS/g, '![BS](https://img.scryfall.com/cards/small/en/mmq/61.jpg)'); 
+  injected = injected.replace(/!Pre/g, '![Pre](https://img.scryfall.com/cards/small/en/m11/70.jpg)'); 
+  injected = injected.replace(/!Dur/g, '![Dur](https://img.scryfall.com/cards/small/en/usg/132.jpg)'); 
+  injected = injected.replace(/!CoV/g, '![CoV](https://img.scryfall.com/cards/small/en/ons/73.jpg)'); 
+  injected = injected.replace(/!RoF/g, '![RoF](https://img.scryfall.com/cards/small/en/usg/151.jpg)'); 
+  injected = injected.replace(/!CR/g, '![CR](https://img.scryfall.com/cards/small/en/tor/51.jpg)'); 
+  injected = injected.replace(/!IU/g, '![IU](https://img.scryfall.com/cards/small/en/sok/40.jpg)'); 
+  injected = injected.replace(/!SW/g, '![SW](https://img.scryfall.com/cards/small/en/fut/90.jpg)'); 
+  injected = injected.replace(/!D4/g, '![D4](https://img.scryfall.com/cards/small/en/por/86.jpg)');  
+  injected = injected.replace(/!LM/g, '![LM](https://img.scryfall.com/cards/small/front/8/0/809205f3-acf5-4244-b360-09ce4ba76795.jpg)');      
+  injected = injected.replace(/!SI/g, '![SI](https://img.scryfall.com/cards/small/en/lrw/272.jpg)');  
+  injected = injected.replace(/!Em/g, '![Em](https://img.scryfall.com/cards/small/en/roe/4.jpg)');  
+
+  return injected;
+}
 
 class Markdown extends React.Component {
 
@@ -64,7 +88,7 @@ class Markdown extends React.Component {
     );
     const path = this.props.source || parameters.join('/') + '.md';
     import('../pages/' + path).then(
-      content => this.setState({content: content}),
+      content => this.setState({content: injectCardArt(content)}),
       () => this.setState({content: null}),
     );
   }
@@ -78,7 +102,7 @@ class Markdown extends React.Component {
       code: props => (
         <div className={noPadding ? {} : classes.padding}>
           <pre className={classes.code} style={{overflowY: 'auto'}}>
-            <code>{props.value}</code>
+            {props.value}
           </pre>
         </div>
       ),
@@ -111,6 +135,9 @@ class Markdown extends React.Component {
                    {...this.props.tableCellProps} />
       ),
       thematicBreak: Divider,
+      image: props => (
+          <img src={props.src} alt={props.alt} style={{height: '8em'}}/>
+      )
     };
 
     return content ? (
