@@ -55,7 +55,7 @@
   },
   "scripts": {
     "build": "npm run build-css && node scripts/build.js",
-    "start": "npm run watch-css && npm run watch-js",
+    "start": "npm-run-all -p watch-css watch-js",
     "test": "node scripts/test.js --env=jsdom",
     "watch-css": "npm run build-css && node-sass-chokidar src/styles/ -o src/styles/ --watch",
     "watch-js": "node scripts/start.js",
