@@ -325,13 +325,16 @@ even if it cost you half your life. There can be a steep learning curve to
 figuring out the best time to do this. There's no hard rules but when
 considering the possibility of a value Draw4, there are 3 general factors I
 consider.
+
 1. How many other cards must you spend to cast it? The more cards you put into
    casting it, the less value it nets you. Ideally you hardcast it off lands and
    spend no rituals or petals.
+
 2. Is there any reason you should hold onto it? It can draw you into Doomsday
    pile or be a potential Storm engine, but don't get too hung up on holding it
    for a combo turn if you are still missing lots of other resources you'd need
    to combo.
+
 3. Do you anticipate being able to win or NEEDING to win within a turn or 2 of
    casting it? I think this is the hardest one to get a feel for. If you feel
    like you're at parity or slightly ahead of your opponent but expect to be

@@ -7,8 +7,13 @@ import Markdown from './markdown';
 import Typography from '@material-ui/core/Typography';
 import Collapse from '@material-ui/core/Collapse';
 import Button from '@material-ui/core/Button';
+import axios from 'axios';
+import Paper from '@material-ui/core/Paper';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import Card from './card';
+import Markdown from '../Markdown';
+
+import Card from '../Card';
 
 
 const styles = theme => ({
@@ -69,10 +74,9 @@ const styles = theme => ({
   },
 
   layout: {
-    ...theme.mixins.padding({x: true}),
+    height: puzzleLayoutHeight,
+    overflow: 'hidden',
   },
-
-  root: theme.mixins.padding({y: true}),
 });
 
 
@@ -117,7 +121,7 @@ const PuzzleCards = withStyles(styles)(props => {
 });
 
 
-const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Component {
+const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.PureComponent {
 
   state = {data: null};
 
@@ -131,7 +135,7 @@ const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Com
         ? this.props.match.url.split('/').filter(it => it).join('/') + '.json'
         : this.props.source
     );
-    import('../pages/' + path).then(
+    import('../../pages/' + path).then(
       data => this.setState({data: data}),
       error => console.error(error),
     );

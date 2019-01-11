@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Application from './components/application';
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 
-import 'typeface-roboto';
-import './styles/index.css';
+import Application from './components/Application';
+import { SidebarProvider } from './contexts/Sidebar';
+import { ThemeConsumer, ThemeProvider } from './contexts/Theme';
+
+import './reset.scss';
 
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Application />, root);
+  const application = (
+    <SidebarProvider>
+      <ThemeProvider>
+        <ThemeConsumer>
+          {({state}) => <MuiThemeProvider children={<Application />} theme={state.current} />}
+        </ThemeConsumer>
+      </ThemeProvider>
+    </SidebarProvider>
+  );
+  ReactDOM.render(application, root);
 }

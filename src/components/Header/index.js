@@ -6,10 +6,10 @@ import Hidden from '@material-ui/core/Hidden';
 import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
+import MenuIcon from 'mdi-react/MenuIcon';
 
-import Menu from 'mdi-material-ui/Menu';
-
-import Breadcrumbs from './breadcrumbs';
+import Breadcrumbs from '../Breadcrumbs';
+import { SidebarConsumer } from '../../contexts/Sidebar';
 
 
 const styles = theme => ({
@@ -18,16 +18,20 @@ const styles = theme => ({
 });
 
 
-class Header extends React.Component {
+class Header extends React.PureComponent {
   render() {
-    const { classes, toggleDrawer } = this.props;
+    const { classes } = this.props;
     return (
       <AppBar className={classes.root} position="static">
         <Toolbar>
           <Grid container alignItems="center" wrap="nowrap">
             <Hidden mdUp>
               <Grid item style={{marginRight: '1em'}}>
-                <IconButton children={<Menu />} color="inherit" onClick={toggleDrawer} />
+                <SidebarConsumer>
+                  {({toggleDrawer}) => (
+                    <IconButton children={<MenuIcon />} color="inherit" onClick={toggleDrawer()} />
+                  )}
+                </SidebarConsumer>
               </Grid>
             </Hidden>
             <Grid item children={<Breadcrumbs />} />
