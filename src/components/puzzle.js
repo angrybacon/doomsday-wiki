@@ -1,7 +1,5 @@
 import React from 'react';
 
-import axios from 'axios';
-
 import Paper from '@material-ui/core/Paper';
 import withStyles from '@material-ui/core/styles/withStyles';
 
@@ -10,10 +8,8 @@ import Typography from '@material-ui/core/Typography';
 import Collapse from '@material-ui/core/Collapse';
 import Button from '@material-ui/core/Button';
 
+import Card from './card';
 
-const ENDPOINT_SCRYFALL = 'https://api.scryfall.com/cards/named';
-const STATIC_CARD_BACK = '/cards/back.png';
-const STATIC_CARD_404 = '/cards/404.png';
 
 const styles = theme => ({
 
@@ -97,53 +93,6 @@ const PuzzleBoard = withStyles(styles)(props => {
   );
 });
 
-
-const PuzzleCard = withStyles(styles)(class PuzzleCardRoot extends React.Component {
-
-  state = {card: null, tapped: false};
-
-  componentDidMount() {
-    const data = this.props.data ? this.props.data.split('|') : null;
-    if (data) {
-      const card = {name: data[0], set: data.length > 1 ? data[1] : undefined};
-      if (card.name[0] === '-') {
-        this.setState({tapped: true});
-        card.name = card.name.slice(1)
-      }
-      return this.getCard(card);
-    }
-    this.setCard(STATIC_CARD_BACK);
-  }
-
-  getCard(card) {
-    const parameters = 'exact=' + card.name + (card.set ? '&set=' + card.set : '');
-    return axios.get(ENDPOINT_SCRYFALL + '?' + parameters).then(
-      response => this.setState({card: response.data}),
-      () => this.setCard(STATIC_CARD_404),
-    );
-  }
-
-  setCard(path) {
-    return this.setState({card: {image_uris: {small: path}}})
-  }
-
-  render() {
-    const { classes, component, style } = this.props;
-    const { card, tapped } = this.state;
-    const image = (
-      card
-        ? (
-          <img alt={card.name}
-               className={[classes.card, tapped ? classes.cardTapped : ''].join(' ')}
-               src={(card.image_uris ? card.image_uris : card.card_faces[0].image_uris).small} />
-        )
-      : null
-    );
-    return React.createElement(component || 'li', {style: style}, image);
-  }
-});
-
-
 const PuzzleCards = withStyles(styles)(props => {
   const { classes, data, gutters, spread, variant } = props;
   const cards = (data || []).map((card, index, cards) => {
@@ -151,7 +100,7 @@ const PuzzleCards = withStyles(styles)(props => {
     const tilt = spread ? index - (cards.length / 2 | 0) : 0;
     const offset = Math.abs(tilt) * .05;
     return (
-      <PuzzleCard data={card}
+      <Card data={card}
                   key={index}
                   style={{...{
                     ...(gutters && {margin: '0.5em'}),
