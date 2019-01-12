@@ -3,13 +3,9 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import Markdown from './markdown';
 import Typography from '@material-ui/core/Typography';
 import Collapse from '@material-ui/core/Collapse';
 import Button from '@material-ui/core/Button';
-import axios from 'axios';
-import Paper from '@material-ui/core/Paper';
-import withStyles from '@material-ui/core/styles/withStyles';
 
 import Markdown from '../Markdown';
 
@@ -74,7 +70,6 @@ const styles = theme => ({
   },
 
   layout: {
-    height: puzzleLayoutHeight,
     overflow: 'hidden',
   },
 });
