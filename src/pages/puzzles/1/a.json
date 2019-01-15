@@ -1,16 +1,23 @@
 {
   "opponent": {
-    "graveyard": ["Flooded Strand", "Ponder"],
-    "hand": ["", "", "Force of Will|ALL", "", "", "", ""],
+    "graveyard": ["Flooded Strand", "Ponder", "Force of Will"],
+    "hand": ["Counterspell", "Island", "Swords to Plowshares"],
     "lands": ["-Island|UNH", "-Island|UNH", "Plains|UNH"],
-    "life": 20,
-    "permanents": ["Counterbalance", "Search for Azcanta", "Monastery Mentor"]
+    "life": 19,
+    "permanents": ["Search for Azcanta"]
   },
   "self": {
-    "graveyard": ["Polluted Delta|ONS", "Cabal Therapy|JUD"],
-    "hand": ["Dark Ritual|LEA", "Doomsday|WTH", "Gitaxian Probe|NPH", "Dark Ritual|LEA", "Doomsday|WTH", "Gitaxian Probe|NPH"],
-    "lands": ["Swamp|UNH"],
+    "graveyard": ["Duress"],
+    "hand": ["Dark Ritual|LEA", "Doomsday|WTH", "Ponder", "Dark Ritual|LEA", "Doomsday|WTH", "Lion's Eye Diamond"],
+    "lands": ["Swamp|UNH", "Island|UNH"],
     "life": 20,
-    "permanents": ["Lion's Eye Diamond|MIR"]
-  }
+    "permanents": []
+  },
+  
+  "situation": ["- In play: Island, Swamp",
+    "- In hand: Dark Ritual, Doomsday, Ponder, Lion's Eye Diamond",
+    "- Opponent's Life: 19", 
+    " - Your life: 20", 
+    "- Opponent has no relevant interaction", 
+    "- Win this turn"]
 }
