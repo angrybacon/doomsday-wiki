@@ -13,11 +13,12 @@
     "life": 20,
     "permanents": []
   },
-  
-  "situation": ["- In play: Island, Swamp",
+  "situation": [
+    "- In play: Island, Swamp",
     "- In hand: Dark Ritual, Doomsday, Ponder, Lion's Eye Diamond",
-    "- Opponent's Life: 19", 
-    " - Your life: 20", 
-    "- Opponent has no relevant interaction", 
-    "- Win this turn"]
+    "- Opponent's Life: 19",
+    "- Your life: 20",
+    "- Opponent has no relevant interaction",
+    "- Win this turn"
+  ]
 }

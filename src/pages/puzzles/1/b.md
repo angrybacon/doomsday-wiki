@@ -6,7 +6,7 @@
 - Win this turn
 
 | Life | Storm | Hand           | Mana | Board | Library                |
-|------|-------|----------------|------|-------|------------------------|
+| ---- | ----- | -------------- | ---- | ----- | ---------------------- |
 | 20   | 0     | DR, DD, GP, GP |      | Swamp | ?                      |
 | 10   | 2     | GP, GP         |      |       | LED, AoI, LED, LED, BW |
 | 6    | 3     | GP, LED        |      |       | AoI, LED, LED, BW      |

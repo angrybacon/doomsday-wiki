@@ -1,17 +1,15 @@
+import Button from '@material-ui/core/Button';
+import Collapse from '@material-ui/core/Collapse';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import withStyles from '@material-ui/core/styles/withStyles';
 import React from 'react';
 
-import Paper from '@material-ui/core/Paper';
-import withStyles from '@material-ui/core/styles/withStyles';
-
-import Typography from '@material-ui/core/Typography';
-import Collapse from '@material-ui/core/Collapse';
-import Button from '@material-ui/core/Button';
-
+import Card from '../Card';
 import Markdown from '../Markdown';
 
-import Card from '../Card';
 
-
+// const puzzleLayoutHeight = 360;
 const styles = theme => ({
 
   board: {
@@ -70,6 +68,7 @@ const styles = theme => ({
   },
 
   layout: {
+    // height: puzzleLayoutHeight,
     overflow: 'hidden',
   },
 });
@@ -92,6 +91,7 @@ const PuzzleBoard = withStyles(styles)(props => {
   );
 });
 
+
 const PuzzleCards = withStyles(styles)(props => {
   const { classes, data, gutters, spread, variant } = props;
   const cards = (data || []).map((card, index, cards) => {
@@ -100,16 +100,16 @@ const PuzzleCards = withStyles(styles)(props => {
     const offset = Math.abs(tilt) * .05;
     return (
       <Card data={card}
-                  key={index}
-                  style={{...{
-                    ...(gutters && {margin: '0.5em'}),
-                    ...(spread && {marginRight: '-1em', zIndex: index}),
-                    ...(variant && variant === "graveyard" && {marginTop: '-3em', zIndex: index}),
-                    ...(spread && last && {marginRight: 0}),
-                    ...((offset || tilt) && {
-                      transform: 'translate(0, ' + offset + 'em) rotate(' + tilt * 2 + 'deg)'
-                    }),
-                  }}} />
+            key={index}
+            style={{...{
+              ...(gutters && {margin: '0.5em'}),
+              ...(spread && {marginRight: '-1em', zIndex: index}),
+              ...(variant && variant === "graveyard" && {marginTop: '-3em', zIndex: index}),
+              ...(spread && last && {marginRight: 0}),
+              ...((offset || tilt) && {
+                transform: 'translate(0, ' + offset + 'em) rotate(' + tilt * 2 + 'deg)'
+              }),
+            }}} />
     );
   });
   return <ul className={classes.cards + ' ' + classes[variant]}>{cards}</ul>;
@@ -145,7 +145,7 @@ const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Pur
         <PuzzleBoard data={data && data.self} />
         {data && data.situation && data.situation.map((str,idx) => {
           const style = idx === 0 ? {marginTop: '1em'} : {};
-          return <Typography style={style}>{str}</Typography>;
+          return <Typography children={str} style={style} />;
         })}
       </div>
     );
@@ -154,13 +154,13 @@ const PuzzleLayout = withStyles(styles)(class PuzzleLayoutRoot extends React.Pur
 
 
 class Puzzle extends React.Component {
-  state = {
-    open: false,
-  };
+
+  state = {open: false};
 
   handleClick = () => {
-    this.setState(state => ({ open: !state.open }));
+    this.setState(state => ({open: !state.open}));
   };
+
   render() {
     const { classes, match } = this.props;
     return (
@@ -170,8 +170,8 @@ class Puzzle extends React.Component {
           Show/Hide Solution
         </Button>
         <Collapse in={this.state.open} timeout="auto" unmountOnExit>
-          <Markdown match={match}/>
-        </Collapse>    
+          <Markdown match={match} />
+        </Collapse>
       </Paper>
     );
   }
