@@ -21,7 +21,7 @@ const styles = theme => ({
 
 class Prettylink extends React.PureComponent {
   render() {
-    const { children, classes, href, target} = this.props;
+    const { children, classes, href, target } = this.props;
     const component = this.props.component || (href && href.startsWith('http') ? null : Link);
     return href ? (
       component ? React.createElement(component, {className: classes.link, to: href}, children) : (
@@ -35,4 +35,4 @@ class Prettylink extends React.PureComponent {
 }
 
 
-export default withStyles(styles, {withTheme: true})(Prettylink);
+export default withStyles(styles)(Prettylink);
