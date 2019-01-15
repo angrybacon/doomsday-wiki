@@ -41,7 +41,7 @@ export default [
   {label: 'Chapter 5, Gameplay Strategies', icon: <ChessKnightIcon />},
 
   {
-    label: 'Chapter 6, PuzzleIcons', icon: <PuzzleIcon />, routes: [
+    label: 'Chapter 6, Puzzles', icon: <PuzzleIcon />, routes: [
       {text: '1',                              href: '/puzzles/1/'},
     ]
   },
@@ -55,6 +55,5 @@ export default [
       {text: 'Removal Tables',                 href: '/appendices/removal-tables/'},
       {text: 'Doomsday Resources',             href: '/appendices/resources/'},
     ]
-  },
-
+  }
 ];
