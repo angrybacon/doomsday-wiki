@@ -11,6 +11,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 
 import Prettylink from '../Prettylink';
+import Quote from '../Quote';
 
 
 const styles = theme => ({
@@ -89,6 +90,7 @@ class Markdown extends React.PureComponent {
     const { content } = this.state;
 
     const renderers = {
+      blockquote: props => <Quote children={props.children} />,
       code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
       heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 1}`} />,
       image: props => <img alt={props.alt} src={props.src} style={{height: '8em'}} />,
