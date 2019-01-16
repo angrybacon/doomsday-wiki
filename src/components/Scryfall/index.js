@@ -1,24 +1,17 @@
 import React from 'react';
-import withStyles from '@material-ui/core/styles/withStyles';
 
-
-const styles = theme => ({
-  root: {
-    outline: `1px solid ${theme.palette.primary.main}`,
-  },
-});
+import Card from '../Card';
+import Prettylink from '../Prettylink';
 
 
 class Scryfall extends React.PureComponent {
-
-  componentDidMount() {
-  }
-
   render() {
-    const { classes, query } = this.props;
-    return <span className={classes.root} children={query} />;
+    let { query } = this.props;
+    query = query.trim();
+    const image = query.startsWith('!');
+    return query ? (image ? <Card query={query} /> : <Prettylink children={query} href="" />) : null;
   }
 }
 
 
-export default withStyles(styles)(Scryfall);
+export default Scryfall;
