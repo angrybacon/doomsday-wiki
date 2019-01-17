@@ -11,9 +11,16 @@ const STATIC_CARD_BACK = '/cards/back.png';
 
 
 const ACRONYM_MAP = {
+  bw: ['Burning Wish', 'JUD'],
+  cb: ["Conjurer's Bauble", '5DN'],
+  cov: ['Chain of Vapor', 'ONS'],
+  cr: ['Cabal Ritual', 'TOR'],
   dr: ['Dark Ritual', 'LEB'],
+  dur: ['Duress', 'USG'],
   ic: ['Infernal Contract', 'MIR'],
+  led: ["Lion's Eye Diamond", 'MIR'],
   lp: ['Lotus Petal', 'TMP'],
+  rof: ['Rain of Filth', 'USG'],
   toa: ['Tendrils of Agony', 'SCG'],
 };
 
