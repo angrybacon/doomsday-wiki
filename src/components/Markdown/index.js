@@ -28,6 +28,10 @@ const styles = theme => ({
     overflowY: 'auto',
     padding: theme.spacing.unit,
   },
+  divider: {
+    marginBottom: '1em',
+    marginTop: '1em',
+  },
   gutter: {
     marginLeft: -theme.overrides.MuiPaper.root.padding,
     width: `calc(100% + ${theme.overrides.MuiPaper.root.padding * 2 + 1}px)`,
@@ -73,7 +77,7 @@ class Markdown extends React.PureComponent {
     const renderers = {
       blockquote: props => <Quote children={props.children} />,
       code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
-      heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 1}`} />,
+      heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 2}`} />,
       link: Prettylink,
       linkReference: Prettylink,
       table: props => <Table children={props.children} className={gutter && classes.gutter} />,
@@ -87,7 +91,7 @@ class Markdown extends React.PureComponent {
         ));
         return <React.Fragment children={nodes} />;
       },
-      thematicBreak: () => <Divider className={classNames({[classes.gutter]: gutter})} />,
+      thematicBreak: () => <Divider className={classNames(classes.divider, {[classes.gutter]: gutter})} />,
     };
 
     return content ? (
