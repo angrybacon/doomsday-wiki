@@ -73,7 +73,6 @@ class Markdown extends React.PureComponent {
       blockquote: props => <Quote children={props.children} />,
       code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
       heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 1}`} />,
-      image: props => <img alt={props.alt} src={props.src} style={{height: '8em'}} />,
       link: Prettylink,
       linkReference: Prettylink,
       table: props => <Table children={props.children} className={gutter && classes.gutter} />,
