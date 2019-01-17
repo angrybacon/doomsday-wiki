@@ -1,4 +1,5 @@
 import axios from 'axios';
+import classNames from 'classnames';
 import Divider from '@material-ui/core/Divider';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -86,7 +87,7 @@ class Markdown extends React.PureComponent {
         ));
         return <React.Fragment children={nodes} />;
       },
-      thematicBreak: () => <Divider className={gutter && classes.gutter} />,
+      thematicBreak: () => <Divider className={classNames({[classes.gutter]: gutter})} />,
     };
 
     return content ? (

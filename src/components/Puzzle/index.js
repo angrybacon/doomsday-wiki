@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import Button from '@material-ui/core/Button';
 import Collapse from '@material-ui/core/Collapse';
 import Paper from '@material-ui/core/Paper';
@@ -112,7 +113,7 @@ const PuzzleCards = withStyles(styles)(props => {
             }}} />
     );
   });
-  return <ul className={classes.cards + ' ' + classes[variant]}>{cards}</ul>;
+  return <ul className={classNames(classes.cards, classes[variant])}>{cards}</ul>;
 });
 
 
