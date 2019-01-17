@@ -12,6 +12,10 @@ import ReactMarkdown from 'react-markdown';
 
 import Prettylink from '../Prettylink';
 import Quote from '../Quote';
+import Scryfall from '../Scryfall';
+
+
+const SCRYFALL_RE = /{{([^{}]+)}}/g;
 
 
 const styles = theme => ({
@@ -29,30 +33,6 @@ const styles = theme => ({
   },
   table: {overflowX: 'auto'},
 });
-
-
-function injectCardArt(content) {
-  return content
-    .replace(/!IC/g, '![IC](https://img.scryfall.com/cards/small/en/mir/129.jpg)')
-    .replace(/!LP/g, '![LP](https://img.scryfall.com/cards/small/en/tmp/294.jpg)')
-    .replace(/!DR/g, '![DR](https://img.scryfall.com/cards/small/en/mmq/129.jpg)')
-    .replace(/!ToA/g, '![ToA](https://img.scryfall.com/cards/small/en/scg/75.jpg)')
-    .replace(/!BW/g, '![BW](https://img.scryfall.com/cards/small/en/jud/83.jpg)')
-    .replace(/!CB/g, '![CB](https://img.scryfall.com/cards/small/en/5dn/112.jpg)')
-    .replace(/!LED/g, '![LED](https://img.scryfall.com/cards/small/en/mir/307.jpg)')
-    .replace(/!BS/g, '![BS](https://img.scryfall.com/cards/small/en/mmq/61.jpg)')
-    .replace(/!Pre/g, '![Pre](https://img.scryfall.com/cards/small/en/m11/70.jpg)')
-    .replace(/!Dur/g, '![Dur](https://img.scryfall.com/cards/small/en/usg/132.jpg)')
-    .replace(/!CoV/g, '![CoV](https://img.scryfall.com/cards/small/en/ons/73.jpg)')
-    .replace(/!RoF/g, '![RoF](https://img.scryfall.com/cards/small/en/usg/151.jpg)')
-    .replace(/!CR/g, '![CR](https://img.scryfall.com/cards/small/en/tor/51.jpg)')
-    .replace(/!IU/g, '![IU](https://img.scryfall.com/cards/small/en/sok/40.jpg)')
-    .replace(/!SW/g, '![SW](https://img.scryfall.com/cards/small/en/fut/90.jpg)')
-    .replace(/!D4/g, '![D4](https://img.scryfall.com/cards/small/en/por/86.jpg)')
-    .replace(/!LM/g, '![LM](https://img.scryfall.com/cards/small/front/8/0/809205f3-acf5-4244-b360-09ce4ba76795.jpg)')
-    .replace(/!SI/g, '![SI](https://img.scryfall.com/cards/small/en/lrw/272.jpg)')
-    .replace(/!Em/g, '![Em](https://img.scryfall.com/cards/small/en/roe/4.jpg)');
-}
 
 
 class Markdown extends React.PureComponent {
@@ -77,7 +57,7 @@ class Markdown extends React.PureComponent {
     ).join('/') + '.md');
     try {
       const resource = require('../../pages/' + path);
-      axios(resource).then(response => this.setState({content: injectCardArt(response.data)}));
+      axios(resource).then(response => this.setState({content: response.data}));
     }
     catch (e) {
       console.error(`Could not find document at '${path}'`);
@@ -101,6 +81,12 @@ class Markdown extends React.PureComponent {
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
       tableCell: props => <TableCell children={props.children} padding="checkbox" />,
+      text: props => {
+        const nodes = props.value.split(SCRYFALL_RE).map((it, index) => (
+          index % 2 ? <Scryfall query={it} key={index} /> : it
+        ));
+        return <React.Fragment children={nodes} />;
+      },
       thematicBreak: () => <Divider className={gutter && classes.gutter} />,
     };
 

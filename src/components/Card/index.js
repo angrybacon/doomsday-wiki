@@ -1,11 +1,5 @@
-import axios from 'axios';
 import withStyles from '@material-ui/core/styles/withStyles';
 import React from 'react';
-
-
-const ENDPOINT_SCRYFALL = 'https://api.scryfall.com/cards/named';
-const STATIC_CARD_BACK = '/cards/back.png';
-const STATIC_CARD_404 = '/cards/404.png';
 
 
 const styles = theme => ({
@@ -69,7 +63,9 @@ const styles = theme => ({
   //   ...theme.mixins.padding({x: true}),
   // },
 
-  // root: theme.mixins.padding({y: true}),
+  root: {
+    height: '8em',
+  },
 });
 
 
@@ -77,48 +73,9 @@ class Card extends React.Component {
 
   state = {art: null, name: null, tapped: false};
 
-  componentDidMount() {
-    const query = this.props.query ? this.props.query.split('|') : null;
-    if (query) {
-      const card = {name: query[0], set: query.length > 1 ? query[1] : undefined};
-      if (card.name[0] === '-') {
-        this.setState({tapped: true});
-        card.name = card.name.slice(1);
-      }
-      return this.getCard(card).then(() => {
-        console.log(this.state.name, this.state.art);
-      });
-    }
-    this.setCard(STATIC_CARD_BACK);
-  }
-
-  getCard(card) {
-    return axios.get(`${ENDPOINT_SCRYFALL}?exact=${card.name}&set=${card.set || ''}`).then(
-      response => {
-        const card = response.data;
-        return this.setCard(
-          card.name,
-          (card.image_uris ? card.image_uris : card.card_faces[0].image_uris).small,
-        );
-      },
-      () => this.setCard(null, STATIC_CARD_404),
-    );
-  }
-
-  setCard(name, art) {
-    return this.setState({art: art, name: name});
-  }
-
   render() {
-    const { classes, style } = this.props;
-    const { art, name, tapped } = this.state;
-    return art ? React.createElement('img', {
-      alt: name,
-      // className: [classes.card, tapped ? classes.cardTapped : ''].join(' '),
-      // src: (card.image_uris ? card.image_uris : card.card_faces[0].image_uris).small,
-      src: art,
-      // style: style,
-    }) : null;
+    const { classes, name, url } = this.props;
+    return <img alt={name} className={classes.root} src={url} />;
   }
 }
 
