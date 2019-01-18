@@ -18,6 +18,7 @@ const ACRONYM_MAP = {
   rof: ['Rain of Filth', 'USG'],
   toa: ['Tendrils of Agony', 'SCG'],
 };
+const CACHE = {};
 const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
@@ -27,7 +28,17 @@ class Scryfall extends React.PureComponent {
   state = {art: '/cards/back.png', link: null, name: null, showArt: null};
 
   getCard = (name, set='') => (
-    axios.get(`${SCRYFALL_API}?exact=${name}&set=${set}`)
+    new Promise((resolve, reject) => {
+      if (CACHE[`${name}${set}`]) {
+        resolve(CACHE[`${name}${set}`]);
+      }
+      else {
+        axios.get(`${SCRYFALL_API}?exact=${name}&set=${set}`).then(response => {
+          CACHE[`${name}${set}`] = response;
+          reject(response);
+        })
+      }
+    }).then(response => response, response => response)
   );
 
   setCard = card => {
