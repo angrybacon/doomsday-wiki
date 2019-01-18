@@ -5,11 +5,6 @@ import Card from '../Card';
 import Prettylink from '../Prettylink';
 
 
-const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
-const SCRYFALL_SEARCH = 'https://scryfall.com/search';
-const STATIC_CARD_BACK = '/cards/back.png';
-
-
 const ACRONYM_MAP = {
   bw: ['Burning Wish', 'JUD'],
   cb: ["Conjurer's Bauble", '5DN'],
@@ -23,11 +18,13 @@ const ACRONYM_MAP = {
   rof: ['Rain of Filth', 'USG'],
   toa: ['Tendrils of Agony', 'SCG'],
 };
+const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
+const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 
 class Scryfall extends React.PureComponent {
 
-  state = {art: null, link: null, name: null, showArt: null};
+  state = {art: '/cards/back.png', link: null, name: null, showArt: null};
 
   getCard = (name, set='') => (
     axios.get(`${SCRYFALL_API}?exact=${name}&set=${set}`)
@@ -39,9 +36,6 @@ class Scryfall extends React.PureComponent {
         art: (card.image_uris || card.card_faces[0].image_uris).small,
         name: card.name,
       });
-    }
-    else {
-      this.setState({art: STATIC_CARD_BACK});
     }
   };
 
@@ -56,17 +50,11 @@ class Scryfall extends React.PureComponent {
       set = (set || defaultSet || '').trim();
       if (showArt) {
         this.setState({showArt: showArt});
-        this.getCard(name, set).then(
-          response => this.setCard(response.data),
-          () => this.setCard(),
-        );
+        this.getCard(name, set).then(response => this.setCard(response.data));
       }
       else {
         this.setState({link: `${SCRYFALL_SEARCH}?q=${name}`, name: name});
       }
-    }
-    else {
-      this.setCard();
     }
   }
 
