@@ -17,6 +17,14 @@ const ACRONYM_MAP = {
   lp: ['Lotus Petal', 'TMP'],
   rof: ['Rain of Filth', 'USG'],
   toa: ['Tendrils of Agony', 'SCG'],
+  iu: ['Ideas Unbound', 'SOK'],
+  sw: ['Street Wraith', 'FUT'],
+  lm: ['Laboratory Maniac', 'ISD'],
+  em: ['Emrakul, the Aeons Torn', 'ROE'],
+  si: ['Shelldock Isle', 'LRW'],
+  isl: ['Island', 'UNH'],
+  pre: ['Preordain', 'M11'],
+  dd: ['Doomsday', 'WTH']
 };
 const CACHE = {};
 const SCRYFALL_API = 'https://api.scryfall.com/cards/named';

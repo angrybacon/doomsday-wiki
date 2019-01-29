@@ -16,16 +16,14 @@ export default [
       {text: 'Basics',                         href: '/chapters/1/basics/'},
       {text: 'Brainstorm',                     href: '/chapters/1/brainstorm/'},
       {text: 'Laboratory Maniac',              href: '/chapters/1/laboratory-maniac/'},
-      {text: 'Pass the Turn',                  href: '/chapters/1/pass-the-turn/'},
     ]
   },
 
   {
     label: 'Chapter 2, Supplementary Techniques', icon: <TargetIcon />, routes: [
+      {text: 'Passing the Turn',                  href: '/chapters/2/pass-the-turn/'},
       {text: 'Conjurer\'s Bauble',             href: '/chapters/2/conjurers-bauble/'},
-      {text: 'Shelldock Isle',                 href: '/chapters/2/shelldock-isle/'},
-      {text: 'Double Doomsday Piles',          href: '/chapters/2/double-doomsday/'},
-      {text: 'Time Spiral Piles',              href: '/chapters/2/time-spiral/'},
+      {text: 'Uncommon Piles',                 href: '/chapters/2/uncommon-piles/'},
     ]
   },
 

@@ -31,8 +31,10 @@ const getTitle = path => {
 
 
 class Breadcrumbs extends React.PureComponent {
+
   render() {
     const { classes, location } = this.props;
+    console.log("pathname: " + location.pathname);
     let breadcrumbs = getTitle(location.pathname);
     breadcrumbs = breadcrumbs.reduce((accumulator, it, index) => {
       accumulator.push(
