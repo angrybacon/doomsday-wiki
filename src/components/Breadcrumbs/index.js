@@ -31,6 +31,7 @@ const getTitle = path => {
 
 
 class Breadcrumbs extends React.PureComponent {
+
   render() {
     const { classes, location } = this.props;
     let breadcrumbs = getTitle(location.pathname);

@@ -145,9 +145,8 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 
 #### Basic Piles
 
-{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}
-
-> Cantrip in hand - BBB+UBBB (7) - 7 Storm
+> Cantrip in hand - BBB+UBBB (7) - 7 Storm  
+> {{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}  
 
 For this pile, you'd cast Infernal Contract, drawing the remaining 4 cards, then
 cast the 2 Rituals off the Lotus Petal, then finish up with Tendrils of Agony.
@@ -162,9 +161,8 @@ pile, and you have an LED to make mana for the Draw4. That's 4 storm, plus 5
 from the pile makes you 1 short. Fortunately you can squeeze that 10th storm out
 of your pile with a slight modification:
 
-{{!IC}} {{!LP}} {{!DR}} {{!CB}} {{!ToA}}
-
-> Cantrip in hand - BBB+UBBB (7) - 8 Storm
+> Cantrip in hand - BBB+UBBB (7) - 8 Storm  
+> {{!IC}} {{!LP}} {{!DR}} {{!CB}} {{!ToA}}  
 
 Now you use IC to draw the remaining 4 cards, cast DR off the LP, use the
 floating BBB to cast CB (BB leftover), activate CB targeting DR to recycle it,
@@ -174,9 +172,8 @@ Bauble is in the deck. Notably, this pile does not dodge graveyard hate. If you
 need an extra storm from your pile and need to dodge gravehate, you can do it
 for 1 extra mana of any color:
 
-{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}
-
-> Cantrip in hand - BBB+UBBB1 (8) - 8 Storm
+> Cantrip in hand - BBB+UBBB1 (8) - 8 Storm  
+> {{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}  
 
 With 1 floating mana left over after casting IC, you can make red with the LP to
 BW for ToA and use the LEDs to generate the mana for it.
@@ -194,39 +191,33 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 **IC in hand used to draw into pile**
 
-{{!LP}} {{!DR}} {{!DR}} {{!CB}} {{!ToA}}
+> IC in hand - BBB+BBB (6) - 7 Storm  
+> {{!LP}} {{!DR}} {{!DR}} {{!CB}} {{!ToA}}  
 
-> IC in hand - BBB+BBB (6) - 7 Storm
-
-{{!LED}} {{!LED}} {{!LP}} {{!CB}} {{!BW}}
-
-> IC in hand - BBB+BBB (6) - 8 Storm
+> IC in hand - BBB+BBB (6) - 8 Storm  
+> {{!LED}} {{!LED}} {{!LP}} {{!CB}} {{!BW}}  
 
 **Think the opponent is being cute and sandbagging an answer to Tendrils?**
 
-{{!IC}} {{!DR}} {{!DR}} {{!Dur}} {{!ToA}}
-
-> Cantrip in hand - BBB+UBBBB (8) - 7 Storm
+> Cantrip in hand - BBB+UBBBB (8) - 7 Storm  
+> {{!IC}} {{!DR}} {{!DR}} {{!Dur}} {{!ToA}}  
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
 
-{{!IC}} {{!DR}} {{!DR}} {{!CoV}} {{!ToA}}
-
-> Cantrip in hand - BBB+UUBBBB(9) - 7 Storm
+> Cantrip in hand - BBB+UUBBBB(9) - 7 Storm  
+> {{!IC}} {{!DR}} {{!DR}} {{!CoV}} {{!ToA}}  
 
 Note that this only works post board since CoV isn't in the maindeck.
 
 **Brainstorm and IC in hand**
 
-{{!DR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}
-
-> BS and IC in hand - BBB+UB (5) - 8 Storm
+> BS and IC in hand - BBB+UB (5) - 8 Storm  
+> {{!DR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}  
 
 **Brainstorm and ToA in hand**
 
-{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!DR}}
-
-> BS and ToA in hand - BBB+UB (5) - 8 Storm
+> BS and ToA in hand - BBB+UB (5) - 8 Storm  
+> {{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!DR}}  
 
 This concept of using BS to trade cards in hand for cards in library can be
 extended to other pile components, like if you have a spare LP in hand, etc.
@@ -240,9 +231,8 @@ pass-the-turn pile is possible and comes up occasionally. Knowing what it takes
 to execute one could save your ass. This is the first PTT pile I was able to
 come up with in this new list:
 
-{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}
-
-> BBBB1 (5) - 5 Storm + 6 Storm
+> BBBB1 (5) - 5 Storm + 6 Storm  
+> {{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}  
 
 The idea here is that you cast ToA twice by recycling it with the Bauble.
 ToA->CB->ToA costs 9 mana total. With 5 lands on the field (including all 4
@@ -260,9 +250,8 @@ upwards of 20 copies of ToA if your opponent has an unusually high life total.
 
 Here is another potential pass-the-turn pile:
 
-{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}
-
-> BBBBRR (6) - 8 Storm
+> BBBBRR (6) - 8 Storm  
+> {{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}  
 
 Here you would wish for Past in Flames to flash back your rituals and end it
 with ToA. This one requires 2 red mana for Wish and PiF, and only makes 8 Storm

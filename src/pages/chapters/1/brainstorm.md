@@ -1,106 +1,78 @@
 # Brainstorm in Doomsday
 
-Brainstorm is one of the most powerful, if not controversial, spells available
+Brainstorm is one of the most powerful spells available
 in the Legacy format at this time. There have been numerous articles written on
 this 'seemingly innocuous at first glance' one mana cantrip. I will be glossing
 over the main discussion of this card and instead focus on the specifics of
 using it as a part of or to initiate your doomsday piles. In many cases it can
-be used as any other cantrip. If you have say 2UR available post Doomsday then
-it is perfectly fine to build a very basic pile to win with.
+be used as any other cantrip, but it has unique applications to Doomsday piles,
+allowing you to swap cards in hand for cards in the pile.
 
 One of the more difficult things of playing Doomsday storm combo is recognizing
 situations where you have the resources to win. Beginning players often start
 out with learning only a few piles by heart. While this helps with getting
 started, there will be many chances to win that they will miss out on.
 
-The key thing to understand is that Brainstorm can exchange a few cards in your
-hand with the top of your Doomsday pile. This enables many new lines of play
-that will allow the Doomsday player to win in situations where the basic piles
-would not.
-
 Let's discuss some examples:
 
 You have U available. You have just cast Doomsday so storm count = 1. Your hand
 is BS and BW. Let's assess what we have and look at the most basic of piles to
-compare it with:
+compare it with, one using IU and one using IC:  
 
-```
--> [TW/AoI], LED, LED, GP, BW            BBB+U+[1UU/2R] (7)   9 Storm
+> BS, BW in hand - BBB+UUU (6) - 7 Storm  
+> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}            
 
--> IU, LED, LED, GP, BW                  BBB+U+UU (6)         9 Storm
-```
+> BS, BW in hand - BBB+UBBB1 (8) - 8 Storm  
+> {{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}                  
 
-As we can see, we now have already available our finishing spell (BW). This lets
-us save a slot in the stack to play around with as we can use the BS to insert
-the BW from our hand into the pile. As a result, we have obtained the finisher,
-we just need to consider mana and a way to 'draw' our cards.
-
-Examples:
-
-```
-BS, BW in hand.
--> LED, [TW/AoI], GP, LED, LED          BBB+U (4)             9 Storm
-
-BS, BW in hand.
--> LED, IU, GP, LP, LED                 BBB+2U (6)            9 Storm
-```
+Brainstorm can act as a simple cantrip into a pile, but it can do better here. We have a potential
+finisher in hand and we can use the BS to insert it into the pile. This lets
+us save a slot in the stack to play around, swapping it for extra mana, etc.
 
 Example one:
 
-1. Cast Doomsday, build: [LED, TW/AoI, GP, LED, LED]
-2. Cast BS, draw (LED, TW/AoI, GP) and replace (TW/AoI, BW)
+> BS, BW in hand - BBB+U+1 (5) - 8 Storm  
+> {{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}                
+
+1. Cast Doomsday, building the pile above
+2. Cast BS, draw LED, IU, SW and put back BW, IU
 3. Cast LED
-4. Cast GP, hold priority cracking LED for UUU or RRR, draw (TW/AoI)
-5. Cast TW/AoI, exile (BW, LED, LED)
-6. Cast LED (6)
-7. Cast LED (7)
-   - Crack LEDs for BBB and RRR
-8. Cast BW targeting ToA
-9. Cast ToA for 9 Storm.
+4. Activate SW, hold priority cracking LED for UUU, draw IU
+5. Cast IU, draw BW, LED, LP
+6. Cast LED 
+7. Cast LP 
+8. Cast BW, hold priority and crack LED for BBB, fetch ToA
+9. Cast ToA
 
-Thanks to BS we are able to exchange the BW in the pile with another LED. This
-concept of swapping can be used for many aspects of piles. In this example it
-means we can go off with just U open with any number of the following cards in
-hand:
+You can see that this not only decreases the total cost of the pile by 1 mana,
+but also drastically changes the amount blue mana needed. This is useful, since
+it lets Brainstorm act like a Lion's Eye Diamond, "producing" UU mana for Ideas Unbound.
+It also increases the storm by 1 compared to the basic pile, since you get an extra spell in the pile.
 
-LED, GP, [TW/AoI], BW, LM
+Example 2:
+> BS, BW in hand - BBB+UB1 (6) - 9 Storm  
+> {{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}  
 
-Example two:
+1. Cast Doomsday, building the pile above
+2. Cast BS, draw IC, DR, LP, put back BW, LP
+3. Cast DR, IC, draw LP, BW, LED, LED
+4. Cast LED, LED, LP
+5. Cast BW, hold priority and crack LEDs for BBBBBB, fetch ToA
+6. Cast ToA
 
-This follows exactly the same as example one however we require an additional 2
-generic mana to pull it off.
+In this example, you can see that the storm count is again reduced, as well as the amount
+of black mana needed. Here, Brainstorm is letting you swap the BW for a DR to cast IC.
+Like the previous example, this also generates one more storm than the basic pile.
 
-1. Cast Doomsday, build: [LED, IU, GP, LED, LP]
-2. Cast BS, draw (LED, TW/AoI, GP) and replace (IU, BW)
-3. Cast LED
-4. Cast GP, hold priority cracking LED for UUU or RRR, draw (IU)
-5. Cast IU, draw (BW, LED, LLP)
-6. Cast LED (6)
-7. Cast LP (7)
-   - Crack LP for R
-8. Cast BW targeting ToA, hold priority and crack LED for BBB
-9. Cast ToA for 9 Storm.
-
-Again the same concept applies however we do need one extra mana. The difference
-comes from the fact that we draw BW with IU, as opposed to exiling it with TW or
-AoI. The fact that BW is in our hand means that we can not use LED to pay for
-it. The Lotus Petal in the pile is used to generate R, which together with the U
-left floating after IU is enough to cast BW. LED is sacrificed for black in
-response to produce black mana, where one additional generic mana is needed to
-cast ToA.
-
-Nevertheless both the above examples are cheap piles requiring relatively low
-resources. Assuming the opponent is at enough life and you have ToA in your
-maindeck you can also build the following as pile:
-
-```
-BS, ToA in hand.
--> LED, IU, GP, DR, LP                       BBB+U (4)   8 Storm
-```
+> BS, ToA in hand - BBB+U (4) - 7 Storm  
+> {{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}                       
 
 It follows the same lines of play as the above examples but does not require LED
 after the initial one used to cast IU as LP, DR and the U remaining after IU is
 enough to cast ToA.
+
+Similary, with BS and ToA in hand, you can make a pile with IC. We leave that as an
+exercise for the reader.
 
 Sometimes, we can get around the IU LED mana restriction simply by having extra
 cards in our hands. Notice that in the example above we drew IU only to put it
@@ -115,49 +87,21 @@ exchange any additional cards in hand with cards in the pile.
 
 Say we have BS, IU, and one card in hand. We cast Doomsday and build:
 
-```
-BS, IU, X in hand.
--> LED, LED, GP, LED, BW
-```
+> BS, IU, X in hand - BBB+U (4)- 8 Storm  
+> {{!LED}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}  
 
-1. Cast Doomsday, build: [LED, LED, GP, LED, BW]
-2. Cast BS, draw (LED, LED, GP) and replace (IU, X)
+1. Cast Doomsday, building the pile above
+2. Cast BS, draw LED, LED, GP and replace IU, X
 3. Cast LED
 4. Cast LED
-5. Cast GP, hold priority and crack LEDs for UUU, RRR, draw (IU)
-6. Cast IU draw (X, LED, BW)
+5. Activate SW, hold priority and crack LEDs for UUU, RRR, draw IU
+6. Cast IU draw X, LED, BW
 7. Cast LED
-8. Cast BW targetting ToA, hold priority and crack LED for BBB
-9. Cast ToA for Storm = 9.
+8. Cast BW, hold priority and crack LED for BBB, fetch ToA
+9. Cast ToA
 
 Obviously storm can be +1 if you are able to cast X prior to BW.
 
-Finally let us now consider this scenario; BS and BW in hand. 1UR available.
-Doomsday has been cast therefore Storm Count =1.  
-For argument's sake let us also state that your maindeck draw spell (IU, TW,
-AoI) has been exiled for whatever reasons. We can still work with this scenario.
-
-Example:
-
-```
-BS, BW in hand.
--> LED, GP, LED, LED, BW               BBB+1UR   (6) 9 Storm
-```
-
-1. Cast Doomsday, build: [LED, GP, LED, LED, BW]
-2. Cast BS, draw (LED, GP, LED) and replace (BW, LED)
-3. Cast LED
-4. Cast GP, hold priority and crack LED for RRR, draw (BW)
-5. Cast BW targeting AoI in the SB
-6. Cast AoI, exile (LED, LED, BW)
-7. Cast LED
-8. Cast LED
-   - Crack LEDs for BBB and RRR
-9. Cast BW targetting ToA
-10. Cast ToA for Storm = 10.
-
-Again this playline can be followed with two BW in hand, BW and GP in hand or
-other sets of cards.
 
 ## Summary
 
