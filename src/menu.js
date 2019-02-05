@@ -21,7 +21,7 @@ export default [
 
   {
     label: 'Chapter 2, Supplementary Techniques', icon: <TargetIcon />, routes: [
-      {text: 'Passing the Turn',                  href: '/chapters/2/pass-the-turn/'},
+      {text: 'Passing the Turn',               href: '/chapters/2/pass-the-turn/'},
       {text: 'Conjurer\'s Bauble',             href: '/chapters/2/conjurers-bauble/'},
       {text: 'Uncommon Piles',                 href: '/chapters/2/uncommon-piles/'},
     ]
