@@ -1,15 +1,16 @@
 # Conjurer's Bauble Piles
 
-Historically Sensei's Divining Top held a place as a standard 4-of
-in the deck to act as deck filtering and a 'free saved' card draw for Doomsday
-piles. More information on how this was used can be found in the [Doomsday
+Historically Sensei's Divining Top held a place as a standard 4-of in the deck
+to act as deck filtering and a 'free saved' card draw for Doomsday piles. More
+information on how this was used can be found in the [Doomsday
 Library](https://github.com/Bennotsi-MTG/Doomsday-Library).
 
-After Top was banned, Conjurer's Bauble was identified as the closest equivalent for use in Doomsday
-storm or Laboratory Maniac piles that would allow a free draw that was also
-resistant to having to discard as a result of using Lion's Eye Diamonds. It can
-be included as a singleton copy to act as a replacement SDT element however it
-has some interesting properties when multiples are available in a deck.
+After Top was banned, Conjurer's Bauble was identified as the closest equivalent
+for use in Doomsday storm or Laboratory Maniac piles that would allow a free
+draw that was also resistant to having to discard as a result of using Lion's
+Eye Diamonds. It can be included as a singleton copy to act as a replacement SDT
+element however it has some interesting properties when multiples are available
+in a deck.
 
 The most basic use of the card is of course simply as a cantrip that costs (1).
 It can also be used as a free cantrip if already in play however this does of
@@ -25,10 +26,8 @@ a tool to draw cards when using LED.
 
 Example:
 
-
 > SW in hand - BBB+1UU (6)  
-> {{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}                 
-
+> {{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}  
 
 You should recognise the above example from the [Basics](/chapters/1/basics/)
 document.  
@@ -46,9 +45,8 @@ This is also enables things like Double Doomsday piles.
 Example:
 
 > CB in play, SW in hand - BBB+1UUR (7) - 13 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}                  
+> {{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}  
 > {{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}  
-
 
 This has some overlap with what is described in the [Double
 Doomsday](/chapters/2/double-doomsday/) document. Just as historically you could
@@ -63,9 +61,10 @@ This is where we start to discuss the real differences of Conjurer's Bauble and
 Sensei's Divining Top. We also get to read the rest of the text on Conjurer's
 Bauble other than "T, Sacrifice ~: Draw a card.", Conjurer's Bauble allows you
 (as a may effect) to target a card in your graveyard and stack it at the bottom
-of our deck prior to you drawing a card with it. Do note that the draw will be countered
-if your target is removed from the graveyard, so only target something if necessary. 
-Alongside the deck manipulation a resolved Doomsday provides, this lets us do some nifty tricks.
+of our deck prior to you drawing a card with it. Do note that the draw will be
+countered if your target is removed from the graveyard, so only target something
+if necessary. Alongside the deck manipulation a resolved Doomsday provides, this
+lets us do some nifty tricks.
 
 The first is to ignore the downside of Lion's Eye Diamond's discard when we have
 other cards in hand we need.
@@ -73,11 +72,10 @@ other cards in hand we need.
 Examples:
 
 > CB in play, BW + SW in hand - BBB - 9 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}   
+> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
 
 > CB in play, ToA + SW in hand - BBB - 8 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}                  
-
+> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
 
 I know often you can find yourself with a key business spell in hand and no
 Brainstorm to move it with. You could use the SW to draw into a Brainstorm
@@ -91,12 +89,13 @@ mana now floating you activate CB sending BW to the bottom of your deck to draw
 IU. You have now created a normal -> IU, LED, LED, SW, BW pile!
 
 We can also use this effect to play our finisher spell multiple times. Even on a
-pass-the-turn pile. You may have seen a pile like this already in the pass-the-turn pile section.
+pass-the-turn pile. You may have seen a pile like this already in the
+pass-the-turn pile section.
 
 Example:
 
 > LED in play, ToA in hand - BBB+1 (4) - 6+7 Storm  
-> {{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}                   
+> {{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}  
 
 In this instance we can play ToA twice. We draw IC for our turn.
 
@@ -126,7 +125,7 @@ allows you to extend that to a pseudo-six cards.
 Example:
 
 > CB in play, Pre in hand - BBB+1U (5) - 8 Storm  
-> {{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}                 
+> {{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}  
 
 Normally double cantrip piles that use Infernal Contract/Cruel Bargain/Meditate
 would mean that you draw yourself to death. However, with CB in the deck, you
@@ -145,11 +144,10 @@ for convenience:
 Examples:
 
 > CB in play, BW+SW in hand - BBB+0 (3) - 9 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}                  
+> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
 
 > CB in play, ToA+SW in hand - BBB+0 (3) - 8 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}                  
-
+> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
 
 If you notice, both result in wasted mana being left over. With the BW example
 you are left with U and with the ToA example you are left with U(B/R)(B/R) left
@@ -159,10 +157,10 @@ What if we were to swap the GP in the piles with a CB?
 Examples:
 
 > CB in play, BW+SW in hand - BBB+X (3+X) - 9+X Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}                   
+> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}  
 
 > CB in play, ToA+SW in hand - BBB+X (3+X) - 8+X Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}      
+> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}  
 
 Suddenly the two piles look very different notation wise. Both now have a
 variable X value in their respective mana costs and storm generated values. We
@@ -205,14 +203,14 @@ pass-the-turn piles. The above examples can be generated for -2 storm each as
 pass the turn piles however you likely have extra mana available to increase
 your potential X value.  
 Let's have one last look at a pass the turn pile using CB looping this time
-using IC over IU. Some IC-based decklists choose not to play Bauble in multiples,
-but this pile is a fine example of why you may want to.
+using IC over IU. Some IC-based decklists choose not to play Bauble in
+multiples, but this pile is a fine example of why you may want to.
 
 Example:
 
 Pass the turn.
 > CB in play, ToA in hand - BBB+1+X (4+X) - 12+X Storm  
-> {{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}                 
+> {{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}  
 
 Cast Doomsday build -> [LED, IC, LED, LED, CB]  
 Pass the turn  
@@ -240,8 +238,8 @@ Draw (LED) for turn
 12. Cast ToA for 12 storm.
 
 These tricks with CB allow for a number of iterations based on these simple
-concepts. They are useable with IU or IC which means you can have a lot
-of flexibility in terms of deckbuilding and card choices.
+concepts. They are useable with IU or IC which means you can have a lot of
+flexibility in terms of deckbuilding and card choices.
 
 ## Using CB to play around hate
 
@@ -262,34 +260,31 @@ the main pile itself so it must sit on the sidelines waiting. You also cannot
 use it at the wrong time as that could lead to (as an example) instances of
 drawing both an LED and the IU you intended to cast with the LED mana. Most of
 the time a player will attempt to Surgical in response to you trying to draw
-into your Doomsday pile. If you can plan around this you should be able to nullify
-their Surgical.
+into your Doomsday pile. If you can plan around this you should be able to
+nullify their Surgical.
 
 Example:
 
-
 > CB in play, SW in hand -  BBB+UU (5) - 8 Storm  
-> IU, LED, LED, SW, BW                 
-
+> IU, LED, LED, SW, BW  
 
 If they cast Surgical in response to SW, you can use CB to send the target back
-into the deck. If they cast it in response to IU you can do the same trick.
-Once IU has resolved, it does not matter if they cast Surgical as we have one
-card left in our Library and no copies of it to extract in the Graveyard.
+into the deck. If they cast it in response to IU you can do the same trick. Once
+IU has resolved, it does not matter if they cast Surgical as we have one card
+left in our Library and no copies of it to extract in the Graveyard.
 
 This selective blocking of graveyard targets is also functional pre-combo.
 
 A simple use of CB is simply as a non-U cantrip. Often players will bring in
 Pyroblasts/Red Elemental Blasts to disrupt the combo targeting the IU or other
 cantrips used to draw into the piles. CB can act as a simple 1 mana "Draw a
-card" spell that dodges Red Blasts. When paired with IC, we can build a pile 
+card" spell that dodges Red Blasts. When paired with IC, we can build a pile
 that is completely immune to Pyroblast effects.
 
 Example:
 
 > CB in play - BBB+1+X (4+X) - 7+X Storm  
-> {{!IC}} {{!LED}} {{!LED}} {{!BW}} {{!CB}}                 
-
+> {{!IC}} {{!LED}} {{!LED}} {{!BW}} {{!CB}}  
 
 ## Summary
 

@@ -25,7 +25,7 @@ may be an out. How you managed to end up in this situation is a good question,
 and when you find yourself making a pass-the-turn pile you may want to ask
 yourself if you could have played such that you could go off all in one turn.
 But there certainly are times when a pass-the-turn pile is correct, or your only
-out.  
+out.
 
 There is some good reason that you are going for a pass the turn pile rather
 than winning this turn, either you lack resources or you have to fight through
@@ -37,21 +37,21 @@ Consider the following (intentionally) bad example: you cast Doomsday, but lack
 a draw effect and therefore build:
 
 > Empty Hand - UU (2) - 5 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}
+> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}  
 
 Next turn, for only UU you can draw and cast Ideas Unbound, followed by 2 Lion's
-Eye Diamonds, then cycle Street Wraith into Burning Wish for Tendrils of Agony for 5
-storm. Although the mana cost of this procedure is very low, the storm count is
-seriously lacking. Fortunately, it's easy to increase the storm count
+Eye Diamonds, then cycle Street Wraith into Burning Wish for Tendrils of Agony
+for 5 storm. Although the mana cost of this procedure is very low, the storm
+count is seriously lacking. Fortunately, it's easy to increase the storm count
 from this point on. If you have 1 more mana you can build IU, LED, SW, CB, BW as
-a pile for 6 storm for example. If you have another mana, you can turn that SW into
-a different cantrip. Together with some cards in hand to play out and
-some self-inflicted damage from your opponent's fetchlands, that might just be
+a pile for 6 storm for example. If you have another mana, you can turn that SW
+into a different cantrip. Together with some cards in hand to play out and some
+self-inflicted damage from your opponent's fetchlands, that might just be
 enough.
 
-There are however some more reliable ways of killing the opponent after passing the turn.
-We'll look at pass the turn piles with Lab Maniac, how the Infernal Contract list can
-win with storm, and some alternative methods.
+There are however some more reliable ways of killing the opponent after passing
+the turn. We'll look at pass the turn piles with Lab Maniac, how the Infernal
+Contract list can win with storm, and some alternative methods.
 
 ## Pass the turn piles with Laboratory Maniac
 
@@ -59,30 +59,31 @@ Laboratory Maniac enables some very mana efficient pass the turn piles that may
 offer an out in situations where no other lethal pile would. When you have no
 other cards in hand or play, for example because you've used Lion's Eye Diamond
 to pay for Doomsday, the simplest piles are:
-> 1UU (3) - 2 life  
-> {{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}             
 
-> BBB+B/U (4)     
-> {{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}              
+> 1UU (3) - 2 life  
+> {{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}  
+
+> BBB+B/U (4)  
+> {{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}  
 
 Note that, as mentioned in the section on Lab Maniac, playing IC and LM in the
-same list is uncommon, but the pile is presented for the sake of clarity and completeness.
+same list is uncommon, but the pile is presented for the sake of clarity and
+completeness.
 
 The following piles are even cheaper for when you have an extra draw effect or a
 LED.
 
 > LED in hand - B, 2 life  
-> {{!SW}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}            
+> {{!SW}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}  
 
 > SW in hand - B, 2 life  
-> {{!LED}} {{!IU}} {{!DR}} {{!CB}} {{!LM}}   
+> {{!LED}} {{!IU}} {{!DR}} {{!CB}} {{!LM}}  
 
 > SW in hand - 1, 4 life  
-> {{!LED}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}   
+> {{!LED}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}  
 
 > CB in play - B  
-> {{!LED}} {{!IU}} {{!DR}} {{!CB}} {{!LM}}      
-
+> {{!LED}} {{!IU}} {{!DR}} {{!CB}} {{!LM}}  
 
 Instead of using Lion's Eye Diamond to pay for Ideas Unbound we can also include
 some other card into the pile, to for example play through some card in the
@@ -90,61 +91,64 @@ opponent's hand. The mana cost for including another card depends on the
 location in the pile. There's also a trade-off between life and mana cost.
 
 > SW in hand - 2UUB, 4 life  
-> {{!Dur}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}     
+> {{!Dur}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}  
 
 > SW in hand - 2UUU, 4 life  
-> {{!CoV}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}    
+> {{!CoV}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}  
 
 > LED available - 2U, 4 life  
 > {{!SW}} {{!IU}} {{!Cov}} {{!SW}} {{!LM}}  
 
-Naturally the Duress or Chain of Vapor can be swapped for another spell you'd like to cast, modifying cost of the pile appropriately.
+Naturally the Duress or Chain of Vapor can be swapped for another spell you'd
+like to cast, modifying cost of the pile appropriately.
 
 For all Laboratory Maniac pass the turn piles, you can replace the card that
 draws from an empty library in the Doomsday pile with Chromatic Sphere and
 increase the mana cost accordingly.
 
-
 ## Pass the Turn Piles with Infernal Contract
 
-Since the IC-based decklist generally doesn't play Laboratory Maniac, it needs to 
-generate a lethal Storm count. This is doable but tends to be mana hungry. We'll 
-address the simplest and most common piles here. These piles
-don't come up all that often but it's worth being aware of them.
+Since the IC-based decklist generally doesn't play Laboratory Maniac, it needs
+to generate a lethal Storm count. This is doable but tends to be mana hungry.
+We'll address the simplest and most common piles here. These piles don't come up
+all that often but it's worth being aware of them.
 
 > Empty hand, 5 lands on board - BBBB1 - 5 Storm + 6 Storm  
 > {{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}  
 
-This pile works by using CB to cast ToA twice, using CB to rebuy it. To do it from
-no cards in hand requires a ton of lands on board, as well as Rain of Filth which 
-not every list plays. However, with some mana producers in hand the onboard requirements are easier to manage.
+This pile works by using CB to cast ToA twice, using CB to rebuy it. To do it
+from no cards in hand requires a ton of lands on board, as well as Rain of Filth
+which not every list plays. However, with some mana producers in hand the
+onboard requirements are easier to manage.
 
 > DR, LED in hand - 1B - 6 Storm + 7 Storm  
-> {{!IC}} {{!LED}} {{!DR}} {{!CB}} {{!ToA}} 
+> {{!IC}} {{!LED}} {{!DR}} {{!CB}} {{!ToA}}  
 
-If you have Past in Flames in the sideboard you can use that as an engine to generate 
-lethal storm. 
+If you have Past in Flames in the sideboard you can use that as an engine to
+generate lethal storm.
 
 > DR in hand - BBRR - 10 Storm  
 > {{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}  
 
-This pile Doesn't require the use of an artifact meaning it can beat a Null Rod or a 
-Phyrexian Revoker, although having an LED available will make producing RR easier.
+This pile Doesn't require the use of an artifact meaning it can beat a Null Rod
+or a Phyrexian Revoker, although having an LED available will make producing RR
+easier.
 
-You can also use Burning wish to up your storm count, since each Wish in the pile effectively
-counts as 2 spells.
+You can also use Burning wish to up your storm count, since each Wish in the
+pile effectively counts as 2 spells.
 
 > 1BBBRR (6) - 7 storm  
 > {{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}  
 
-The first BW finds IC in the sideboard to draw the rest of the pile. The second burning wish
-fetches ToA. A ritual or LED left in hand will help boost storm count and make the mana cost
-easier.
+The first BW finds IC in the sideboard to draw the rest of the pile. The second
+burning wish fetches ToA. A ritual or LED left in hand will help boost storm
+count and make the mana cost easier.
 
 ## Summary
 
 1. You don't always have to win the turn you cast Doomsday
-2. Pass the turn piles are effective when low on a resource (cards or mana, but not both)
+2. Pass the turn piles are effective when low on a resource (cards or mana, but
+   not both)
 3. PTT piles leave youo susceptible to disruption
 4. There are tricks you can use to ensure you can build up enough storm so you
    don't always have to rely on LM

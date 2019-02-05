@@ -1,12 +1,12 @@
 # Brainstorm in Doomsday
 
-Brainstorm is one of the most powerful spells available
-in the Legacy format at this time. There have been numerous articles written on
-this 'seemingly innocuous at first glance' one mana cantrip. I will be glossing
-over the main discussion of this card and instead focus on the specifics of
-using it as a part of or to initiate your doomsday piles. In many cases it can
-be used as any other cantrip, but it has unique applications to Doomsday piles,
-allowing you to swap cards in hand for cards in the pile.
+Brainstorm is one of the most powerful spells available in the Legacy format at
+this time. There have been numerous articles written on this 'seemingly
+innocuous at first glance' one mana cantrip. I will be glossing over the main
+discussion of this card and instead focus on the specifics of using it as a part
+of or to initiate your doomsday piles. In many cases it can be used as any other
+cantrip, but it has unique applications to Doomsday piles, allowing you to swap
+cards in hand for cards in the pile.
 
 One of the more difficult things of playing Doomsday storm combo is recognizing
 situations where you have the resources to win. Beginning players often start
@@ -17,39 +17,42 @@ Let's discuss some examples:
 
 You have U available. You have just cast Doomsday so storm count = 1. Your hand
 is BS and BW. Let's assess what we have and look at the most basic of piles to
-compare it with, one using IU and one using IC:  
+compare it with, one using IU and one using IC:
 
 > BS, BW in hand - BBB+UUU (6) - 7 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}            
+> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}  
 
 > BS, BW in hand - BBB+UBBB1 (8) - 8 Storm  
-> {{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}                  
+> {{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}  
 
-Brainstorm can act as a simple cantrip into a pile, but it can do better here. We have a potential
-finisher in hand and we can use the BS to insert it into the pile. This lets
-us save a slot in the stack to play around, swapping it for extra mana, etc.
+Brainstorm can act as a simple cantrip into a pile, but it can do better here.
+We have a potential finisher in hand and we can use the BS to insert it into the
+pile. This lets us save a slot in the stack to play around, swapping it for
+extra mana, etc.
 
-Example one:
+Example 1:
 
 > BS, BW in hand - BBB+U+1 (5) - 8 Storm  
-> {{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}                
+> {{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}  
 
 1. Cast Doomsday, building the pile above
 2. Cast BS, draw LED, IU, SW and put back BW, IU
 3. Cast LED
 4. Activate SW, hold priority cracking LED for UUU, draw IU
 5. Cast IU, draw BW, LED, LP
-6. Cast LED 
-7. Cast LP 
+6. Cast LED
+7. Cast LP
 8. Cast BW, hold priority and crack LED for BBB, fetch ToA
 9. Cast ToA
 
 You can see that this not only decreases the total cost of the pile by 1 mana,
 but also drastically changes the amount blue mana needed. This is useful, since
-it lets Brainstorm act like a Lion's Eye Diamond, "producing" UU mana for Ideas Unbound.
-It also increases the storm by 1 compared to the basic pile, since you get an extra spell in the pile.
+it lets Brainstorm act like a Lion's Eye Diamond, "producing" UU mana for Ideas
+Unbound. It also increases the storm by 1 compared to the basic pile, since you
+get an extra spell in the pile.
 
 Example 2:
+
 > BS, BW in hand - BBB+UB1 (6) - 9 Storm  
 > {{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}  
 
@@ -60,19 +63,20 @@ Example 2:
 5. Cast BW, hold priority and crack LEDs for BBBBBB, fetch ToA
 6. Cast ToA
 
-In this example, you can see that the storm count is again reduced, as well as the amount
-of black mana needed. Here, Brainstorm is letting you swap the BW for a DR to cast IC.
-Like the previous example, this also generates one more storm than the basic pile.
+In this example, you can see that the storm count is again reduced, as well as
+the amount of black mana needed. Here, Brainstorm is letting you swap the BW for
+a DR to cast IC. Like the previous example, this also generates one more storm
+than the basic pile.
 
 > BS, ToA in hand - BBB+U (4) - 7 Storm  
-> {{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}                       
+> {{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}  
 
 It follows the same lines of play as the above examples but does not require LED
 after the initial one used to cast IU as LP, DR and the U remaining after IU is
 enough to cast ToA.
 
-Similary, with BS and ToA in hand, you can make a pile with IC. We leave that as an
-exercise for the reader.
+Similary, with BS and ToA in hand, you can make a pile with IC. We leave that as
+an exercise for the reader.
 
 Sometimes, we can get around the IU LED mana restriction simply by having extra
 cards in our hands. Notice that in the example above we drew IU only to put it
@@ -101,7 +105,6 @@ Say we have BS, IU, and one card in hand. We cast Doomsday and build:
 9. Cast ToA
 
 Obviously storm can be +1 if you are able to cast X prior to BW.
-
 
 ## Summary
 
