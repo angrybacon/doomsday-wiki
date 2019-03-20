@@ -212,6 +212,45 @@ over running only three Frenzy and not four. I like three as Frenzy is a dead ca
 Frenzy chain however you do generally want to find one often. Currently there is no definitive 
 correct list but feel free to use the above as a guideline for now.  
 
+## First Run
+
+So I was persuaded and took the above list to a local FNM, 4 rounds.  
+Somehow I went 3-1, not bad for a first run at all however I felt somewhat like a fraud.
+The deck was really fun however every win I got I felt like I 100% cheesed it. Maybe
+this is something akin to imposter syndrome but I had gone in to the night expecting to
+get a 2-2 finish at best with stars aligning. 
+
+The breakdown of what I played against was as such:  
+
+vs ANT (2-0)  
+vs UR Delver (1-2)  
+vs Grixis Control (2-1)  
+vs Burn (2-0)  
+
+Hopefully this shows I wasn't just playing against Tier 13 jank but instead a decent mix
+of proven archetypes, all with experienced pilots. Despite this I still feel odd about this
+strange new coffee filled brew. 
+
+Maybe it's because I am a tea drinker? `:think:`
+
+Do I lack faith in the deck? Most certainly.  
+Did I do well despite minimal practice and having a 75 full of really silly cards? Well, yes...
+seems I did....   
+
+One run of 4 rounds however does not statistically significant data make however, as people who
+have read the old wiki stuff will know, I like numbers! As soon as this new brew was announced and tried
+we at the cabal of Doomsdayers decided to get our rites on and ressurrect an old friend. The 
+result spreadsheet. At the time of writing we now have 164 matches recorded as a community with the following
+statistical breakdown:  
+
+| Match Win % | Average Combo Turn | Average Mulligan |
+|:------:|:------:|:-------:|
+|  68.29%  |  3.15  |  6.75  |
+
+Even for a skeptic like myself, this seems pretty good already. The data obviously has all the issues that
+community derived data has and is collected from a mixture of pilots of differing lists, both online and
+in paper. Take from it what you will.
+
 ## Final Thoughts
 
 **What will be will be  
