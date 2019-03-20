@@ -245,7 +245,7 @@ statistical breakdown:
 
 | Match Win % | Average Combo Turn | Average Mulligan |
 |:------:|:------:|:-------:|
-|  68.29%  |  3.15  |  6.75  |
+|  68.29%  |  3.51  |  6.75  |
 
 Even for a skeptic like myself, this seems pretty good already. The data obviously has all the issues that
 community derived data has and is collected from a mixture of pilots of differing lists, both online and
