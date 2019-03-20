@@ -257,7 +257,7 @@ in paper. Take from it what you will.
 Every river flows into the sea, but it's never enough  
 And when the night gives way  
 It's like a brand new Doomsday**  
-- Architects  
+- Lyrics from the song 'Doomsday' by Architects from the Album Holy Hell (2017) on Epitaph Records
 
 So welcome to a potential new world of degenerate combo. It might not be lean. 
 It might not be pretty. It might not even be good. But whilst the Experimental
