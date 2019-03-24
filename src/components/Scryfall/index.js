@@ -6,6 +6,7 @@ import Prettylink from '../Prettylink';
 
 
 const ACRONYM_MAP = {
+  aoi:  ['Act on Impulse',           'M15'],
   bw:   ['Burning Wish',             'JUD'],
   cb:   ["Conjurer's Bauble",        '5DN'],
   cov:  ['Chain of Vapor',           'ONS'],
@@ -20,6 +21,7 @@ const ACRONYM_MAP = {
   led:  ["Lion's Eye Diamond",       'MIR'],
   lm:   ['Laboratory Maniac',        'ISD'],
   lp:   ['Lotus Petal',              'TMP'],
+  pn:   ['Ponder',                   'LRW'],
   pre:  ['Preordain',                'M11'],
   rof:  ['Rain of Filth',            'USG'],
   si:   ['Shelldock Isle',           'LRW'],
