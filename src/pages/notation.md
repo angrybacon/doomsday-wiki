@@ -19,3 +19,5 @@
 | SW        | Street Wraith                     |
 | TW        | Three Wishes                      |
 | ToA       | Tendrils of Agony                 |
+| EF        | Experimental Frenzy               |
+| LDV       | Lim-Dul's Vault                   |
