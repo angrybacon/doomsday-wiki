@@ -1,4 +1,4 @@
-# Piles with Experimental Frenzy Doomsday - a revitalized version of Doomsday in 2019
+# Piles with Experimental Frenzy Doomsday - a Beginner's Guide to becoming a Barista
 
 *By Knox*
 
