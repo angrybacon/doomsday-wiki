@@ -79,7 +79,8 @@ event. Resleeved, wrote out decklists, talked shit, etc. A little after 9:30am,
 pairings go up for round 1 and I mentally prepare myself to get my dick kicked
 inside-out.
 
-R1 vs UB Reanimator  
+#### R1 vs UB Reanimator
+
 **Game 1** I lose the roll and fan out a turn 2 kill. My opponent starts with a
 Verdant Catacombs and passes. I get my hopes up for a non-blue deck, thinking
 I'll be able to jam next turn. I play a fetch and pass. On their turn, my
@@ -96,7 +97,8 @@ Griselbrand on t1 or 2. I die in a hurry. This matchup is awful, especially when
 I don't have gravehate, so I try not to let it get to me.  
 (0-1)
 
-R2 vs TES  
+#### R2 vs TES
+
 **Game 1** their hand relied heavily on Ad Nauseam, which I snagged with
 discard. They hit back with some discard, but I managed to reassemble before
 they did and killed with Doomsday into a Tendrils.  
@@ -114,7 +116,8 @@ exactly 6 black mana left. Doomsday to 2 life, then draw 4 to 1 life. Petal,
 Ritual, Ritual, Tendrils.  
 (1-1)
 
-R3 vs OmniTell  
+#### R3 vs OmniTell
+
 **Game 1** I lose the roll again. I strip their hand with discard and on turn 3
 they have nothing, and I can kill on my turn 4. Unbeknownst to me, they topdeck
 Cunning Wish. I go for it, and they let me resolve Doomsday and then wish for
@@ -129,7 +132,8 @@ At this point I'm basically on the bubble for top 16, and breakers would still
 need to go my way but I came to play Legacy so I resolve to rattle off 5 wins in
 a row and top 16.
 
-R4 vs Death and Taxes  
+#### R4 vs Death and Taxes
+
 **Game 1** I lose the roll again. My hand is a little slow but I turn 1
 Thoughtseize a Thalia. Unfortunately they draw another before I can win, and I
 can't find a wish to try to get rid of it. More creatures come down and I die.
@@ -142,12 +146,14 @@ Mystic. My opponent topdecks another Mystic and decides to play it. I win with
 Doomsday before the Batterskull can come down.  
 (2-2)
 
-R5 vs No Show  
+#### R5 vs No Show
+
 A win is a win but I would have rather actually beaten someone. I'm not sure why
 this person no showed, its possible I got a pair down and they didn't want to
 keep playing at 3 losses but didn't formally drop. (3-2)
 
-R6 vs Eldrazi Aggro  
+#### R6 vs Eldrazi Aggro
+
 **Game 1** I lose the roll again, and my opponent leads on Temple into Mimic. I
 figure this is the end of the line as it's another miserable matchup. However,
 they have the aggro draw with no interaction, and I'm able to make 12 Goblins on
@@ -163,7 +169,8 @@ instead of the normal Petal to cast more rituals. It makes exactly 10 storm, and
 I'm still alive.  
 (4-2)
 
-R7 vs 4c Loam  
+#### R7 vs 4c Loam
+
 **Game 1** my opponent was kind of salty, already complaining about playing
 against unfair decks all day. They mulliganed and kept a very fair hand and
 despite some Wastelanding, I got the win with Doomsday.  
@@ -181,13 +188,14 @@ So here we are. One more match win and I might make top 16, although my breakers
 aren't great so it's not a guarantee. I made it this far though so might as well
 give it a try.
 
-R8 vs Death and Taxes  
+#### R8 vs Death and Taxes
+
 **Game 1** I lose the roll, but my opponent mulls to 5 and plays a plains and
 passes. I only have a cantrip for my turn. My opponent doesn't have a 2nd land,
 and I survive the crucial second turn. I cantrip again, and when they still
 don't have the 2nd land I win on my 3rd turn.  
 -3 Duress, -1 Preordain, +2 Abrade, +1 Chain of Vapor, +1 Echoing Truth  
-**Game 2**  I mull to a mediocre 6, and get locked out hard by Thalia and
+**Game 2** I mull to a mediocre 6, and get locked out hard by Thalia and
 Prelate.  
 **Game 3** I mull again, but this 6 is better. Potential turn 2 kill if my
 ponder hits something good. Unfortunately it doesn't and I spend my turn 2
@@ -207,5 +215,5 @@ frustrating to choke in the last round, and I seem to do it so often I feel like
 I might be cursed, but I'm trying to shake it off.
 
 If you want to see me play Doomsday, I've been trying to stream 1-2 times a week
-(usually Wednesday, Thursday or Friday)at twitch.tv/ddftguy and I upload all my
-past streams to YouTube (link to channel)
+(usually Wednesday, Thursday or Friday) at twitch.tv/ddftguy and I upload all my
+past streams to YouTube (link to channel).
