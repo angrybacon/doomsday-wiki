@@ -27,6 +27,10 @@ const ACRONYM_MAP = {
   si:   ['Shelldock Isle',           'LRW'],
   sw:   ['Street Wraith',            'FUT'],
   toa:  ['Tendrils of Agony',        'SCG'],
+  ef:   ['Experimental Frenzy',      'GRN'],
+  ldv:  ['Lim-Dûls Vault',     'Alliances'],
+  et:   ['Echoing truth',                 ],
+  cobru:['collective brutality',          ],
 };
 const CACHE = {};
 const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
