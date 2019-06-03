@@ -13,6 +13,7 @@ class Authors extends React.PureComponent {
         <Paper children={<Markdown source="authors/d8dk32.md" />} />
         <Paper children={<Markdown source="authors/doishy.md" />} />
         <Paper children={<Markdown source="authors/emidln.md" />} />
+        <Paper children={<Markdown source="authors/knox.md" />} />
       </React.Fragment>
     );
   }
