@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { darkTheme, lightTheme } from '../theme';
+import Cookie from '../tools/cookie';
 
 
 const ThemeContext = React.createContext();
@@ -8,16 +9,20 @@ const ThemeContext = React.createContext();
 
 export class ThemeProvider extends React.Component {
 
-  state = {
-    current: lightTheme,
-    isDark: false,
-  };
+  constructor(props) {
+    super(props);
+    const isDark = !!Cookie.get(Cookie.cookies.dark);
+    this.state = {
+      current: isDark ? darkTheme : lightTheme,
+      isDark: isDark,
+    };
+  }
 
   toggle = (event, checked) => {
     this.setState({
       current: checked ? darkTheme : lightTheme,
       isDark: !!checked,
-    });
+    }, () => Cookie.set(Cookie.cookies.dark, !!checked, Cookie.duration.long));
   };
 
   render() {
