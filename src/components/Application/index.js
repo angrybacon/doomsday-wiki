@@ -52,7 +52,7 @@ class Application extends React.PureComponent {
                 <Grid item xs={12} sm={11} md={10} lg={8} xl={6}>
                   <Routes />
                   <Typography align="center" component="footer">
-                    Copyright &copy; 2018 <Prettylink children="ddft.wiki contributors" href="/authors/" />
+                    Copyright &copy; 2019 <Prettylink children="ddft.wiki contributors" href="/authors/" />
                   </Typography>
                 </Grid>
               </Grid>
