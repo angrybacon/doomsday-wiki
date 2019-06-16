@@ -21,7 +21,12 @@ const themeOptions = {
         '&:not(:last-child)': {
           marginBottom: defaultTheme.spacing.unit * 3,
         },
-      }
+      },
+      rounded: {
+        [defaultTheme.breakpoints.down('xs')]: {
+          borderRadius: 0,
+        },
+      },
     },
     MuiTable: {
       root: {

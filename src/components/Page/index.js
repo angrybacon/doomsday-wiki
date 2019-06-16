@@ -9,9 +9,6 @@ import Markdown from '../Markdown';
 const styles = theme => ({
   root: {
     overflowX: 'hidden',
-    [theme.breakpoints.down('xs')]: {
-      borderRadius: 0,
-    },
   },
 });
 
