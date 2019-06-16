@@ -27,6 +27,9 @@ const styles = theme => ({
   drawerTemporary: {
     padding: 0,
   },
+  root: {
+    height: '100%',
+  },
 });
 
 
@@ -35,7 +38,7 @@ class Sidebar extends React.PureComponent {
     const { classes, theme, width } = this.props;
     const isMobile = isWidthDown(theme.mixins.sidebar.treshold, width);
     const content = (
-      <Grid container direction="column" wrap="nowrap">
+      <Grid container className={classes.root} direction="column" wrap="nowrap">
         <Grid item children={<SidebarHeader size={isMobile ? 'small' : 'medium'} />} />
         <Divider />
         <Grid item className={classes.body}>
