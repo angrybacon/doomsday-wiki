@@ -16,11 +16,20 @@ const styles = theme => ({
     flexGrow: 1,
     flexShrink: 1,
     overflowY: 'auto',
-    paddingBottom: theme.spacing.unit * 2,
     paddingTop: theme.spacing.unit * 2,
     [theme.breakpoints.up('md')]: {
-      paddingBottom: theme.spacing.unit * 3,
       paddingTop: theme.spacing.unit * 3,
+    },
+  },
+  content: {
+    height: '100%',
+  },
+  footer: {
+    marginBottom: theme.spacing.unit * 2,
+    marginTop: theme.spacing.unit * 2,
+    [theme.breakpoints.up('md')]: {
+      marginBottom: theme.spacing.unit * 3,
+      marginTop: theme.spacing.unit * 3,
     },
   },
   root: {
@@ -35,6 +44,9 @@ const styles = theme => ({
     backgroundColor: theme.palette.background.default,
     minWidth: 320,
   },
+  routes: {
+    flexGrow: 1,
+  },
 });
 
 
@@ -48,11 +60,18 @@ class Application extends React.PureComponent {
           <Grid container className={classes.root} direction="column" wrap="nowrap">
             <Grid item children={<Header component="header" />} />
             <Grid item className={classes.body}>
-              <Grid container justify="center">
-                <Grid item xs={12} sm={11} md={10} lg={8} xl={6}>
+              <Grid container
+                    alignItems="center"
+                    className={classes.content}
+                    direction="column"
+                    wrap="nowrap">
+                <Grid item className={classes.routes} xs={12} sm={11} md={10} lg={8} xl={6}>
                   <Routes />
+                </Grid>
+                <Grid item className={classes.footer}>
                   <Typography align="center" component="footer">
-                    Copyright &copy; 2019 <Prettylink children="ddft.wiki contributors" href="/authors/" />
+                    Copyright &copy; 2019&nbsp;
+                    <Prettylink children="ddft.wiki contributors" href="/authors/" />
                   </Typography>
                 </Grid>
               </Grid>

@@ -7,6 +7,7 @@ import Switch from 'react-router-dom/Switch';
 import Authors from '../Authors';
 import Markdown from '../Markdown';
 import Page from '../Page';
+import Page404 from '../Page404';
 import Puzzle from '../Puzzle';
 import Puzzles from '../Puzzles';
 
@@ -27,6 +28,7 @@ class Routes extends React.Component {
         <Route exact component={Page} path="/chapters/:chapter/:page/" />
         <Route exact component={Puzzles} path="/puzzles/:tier/" />
         <Route exact component={Puzzle} path="/puzzles/:tier/:puzzle/" />
+        <Route component={Page404} />
       </Switch>
     );
   }
