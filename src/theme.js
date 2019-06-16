@@ -44,5 +44,12 @@ export const lightTheme = createMuiTheme(Object.assign({}, themeOptions, {palett
 export const darkTheme = createMuiTheme(Object.assign({}, themeOptions, {palette: {
   primary: {main: blueGrey[800]},
   secondary: pink,
+  text: {
+    disabled: 'rgba(255, 255, 255, 0.4)',
+    hint: 'rgba(255, 255, 255, 0.4)',
+    icon: 'rgba(255, 255, 255, 0.4)',
+    primary: 'rgba(255, 255, 255, 0.8)',
+    secondary: 'rgba(255, 255, 255, 0.6)',
+  },
   type: 'dark',
 }}));
