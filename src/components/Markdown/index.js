@@ -77,7 +77,9 @@ class Markdown extends React.PureComponent {
     const renderers = {
       blockquote: props => <Quote children={props.children} />,
       code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
-      heading: props => <Typography children={props.children} gutterBottom variant={`h${props.level + 2}`} />,
+      heading: props => (
+        <Typography children={props.children} gutterBottom variant={`h${props.level + 2}`} />
+      ),
       link: Prettylink,
       linkReference: Prettylink,
       table: props => <Table children={props.children} className={gutter && classes.gutter} />,
@@ -91,11 +93,16 @@ class Markdown extends React.PureComponent {
         ));
         return <React.Fragment children={nodes} />;
       },
-      thematicBreak: () => <Divider className={classNames(classes.divider, {[classes.gutter]: gutter})} />,
+      thematicBreak: () => (
+        <Divider className={classNames(classes.divider, {[classes.gutter]: gutter})} />
+      ),
     };
 
     return content ? (
-      <Typography className={className} component={ReactMarkdown} renderers={renderers} source={content} />
+      <Typography className={className}
+                  component={ReactMarkdown}
+                  renderers={renderers}
+                  source={content} />
     ) : null;
   }
 }
