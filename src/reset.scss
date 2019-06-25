@@ -1,11 +1,14 @@
-body, html, #root, #root > div {
+body,
+html,
+#___gatsby,
+#___gatsby > div {
   height: 100%;
   margin: 0;
   overflow: hidden;
   padding: 0;
 }
 
-#root {
+#___gatsby > div {
   overflow-x: auto;
 }
 
