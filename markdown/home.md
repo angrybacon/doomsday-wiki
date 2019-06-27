@@ -1,9 +1,3 @@
----
-date: "2019-05-04"
-path: "/home/"
-title: "The Doomsday Codex"
----
-
 # The Doomsday Codex
 
 The Doomsday Codex is intended to be the most complete and up to date work on

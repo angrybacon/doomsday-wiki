@@ -3,7 +3,7 @@ module.exports = {
     {
       options: {
         name: 'markdown',
-        path: `${__dirname}/src/markdown/`,
+        path: `${__dirname}/markdown/`,
       },
       resolve: 'gatsby-source-filesystem',
     },
@@ -14,4 +14,4 @@ module.exports = {
     title: 'Doomsday Wiki',
     description: 'Some description.',
   },
-}
+};
