@@ -6,6 +6,7 @@ exports.createPages = ({ actions, graphql }) => {
   const renderer = path.resolve('src/components/Markdown.js');
   return graphql(`{
     allMarkdownRemark(
+      filter: {frontmatter: {path: {ne: null}}}
       limit: 1000
       sort: {order: DESC, fields: [frontmatter___date]}
     ) {edges {node {frontmatter {path}}}}
