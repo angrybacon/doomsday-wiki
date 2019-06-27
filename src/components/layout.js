@@ -1,13 +1,10 @@
-import { StaticQuery, graphql } from 'gatsby';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 import React from 'react';
-// import BrowserRouter from 'react-router-dom/BrowserRouter';
 
 import Header from './Header';
 import Prettylink from './Prettylink';
-// import Routes from '../Routes';
 import Sidebar from './Sidebar';
 
 import '../reset.scss';
@@ -56,7 +53,7 @@ const styles = theme => ({
 class Layout extends React.PureComponent {
   render() {
     const { classes } = this.props;
-    const application = data => (
+    return (
       <div className={classes.root}>
         <Sidebar />
         <Grid container className={classes.main} direction="column" wrap="nowrap">
@@ -68,8 +65,6 @@ class Layout extends React.PureComponent {
                   direction="column"
                   wrap="nowrap">
               <Grid item className={classes.children} xs={12} sm={11} md={10} lg={8} xl={6}>
-                <Typography children={data.site.siteMetadata.title} variant="h3" />
-                {/* <Routes /> */}
                 {this.props.children}
               </Grid>
               <Grid item className={classes.footer}>
@@ -83,7 +78,6 @@ class Layout extends React.PureComponent {
         </Grid>
       </div>
     );
-    return <StaticQuery query={graphql `query {site {siteMetadata {title}}}`} render={application} />;
   }
 }
 
