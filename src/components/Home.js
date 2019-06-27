@@ -1,38 +1,21 @@
+import { StaticQuery, graphql } from 'gatsby';
+import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
 
-class Home extends React.PureComponent {
+
+export default class Home extends React.PureComponent {
   render() {
-    return (
+    const query = graphql`{
+      home: file(relativePath: {eq: "home.md"}) {childMarkdownRemark {rawMarkdownBody}}
+      test: file(relativePath: {eq: "test.md"}) {childMarkdownRemark {rawMarkdownBody}}
+    }`;
+    return <StaticQuery query={query} render={({ home, test }) => (
       <>
-        <Typography variant="h4">
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-          Morbi tincidunt augue interdum velit euismod in pellentesque massa
-          placerat duis ultricies. Consectetur libero, id faucibus nisl tincidunt
-          eget nullam non nisi est, sit amet facilisis magna etiam tempor, orci?
-        </Typography>
+        <Paper children={<Typography children={home.childMarkdownRemark.rawMarkdownBody} />} />
+        <Paper children={<Typography children={test.childMarkdownRemark.rawMarkdownBody} />} />
       </>
-    );
+    )} />;
   }
 }
-
-
-export default Home;
