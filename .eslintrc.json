@@ -11,7 +11,6 @@
     "__dirname": false,
     "exports": false,
     "module": false,
-    "process": false,
     "require": false
   },
   "parser": "babel-eslint",
@@ -26,12 +25,13 @@
     "react"
   ],
   "rules": {
-    "quotes": ["error", "single"],
-    "react/jsx-indent": ["error", 2],
-    "react/jsx-indent-props": ["error", "first"],
+    "no-unused-vars": 1,
+    "quotes": ["warn", "single", {"avoidEscape": true}],
+    "react/jsx-indent": ["warn", 2],
+    "react/jsx-indent-props": ["warn", "first"],
     "react/no-children-prop": 0,
     "react/prop-types": 1,
-    "semi": ["warn", "always"]
+    "semi": 1
   },
   "settings": {
     "react": {
