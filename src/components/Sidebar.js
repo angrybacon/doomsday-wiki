@@ -3,14 +3,13 @@ import React from 'react';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
-// import Paper from '@material-ui/core/Paper';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import withStyles from '@material-ui/core/styles/withStyles';
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 
-// import Markdown from '../Markdown';
+import SidebarBody from './SidebarBody';
 import SidebarHeader from './SidebarHeader';
-import SidebarMenu from './SidebarMenu';
+// import SidebarMenu from './SidebarMenu';
 import { SidebarConsumer } from '../contexts/Sidebar';
 
 
@@ -42,10 +41,9 @@ class Sidebar extends React.PureComponent {
         <Grid item children={<SidebarHeader size={isMobile ? 'small' : 'medium'} />} />
         <Divider />
         <Grid item className={classes.body}>
-          <SidebarMenu />
-          <Divider />
-          {/* <Markdown source="notation.md" tableCellProps={{padding: 'dense'}} /> */}
-          {/* <Paper children={<Markdown source="links.md" />} elevation={0} square /> */}
+          {/* <SidebarMenu /> */}
+          {/* <Divider /> */}
+          <SidebarBody />
         </Grid>
       </Grid>
     );
