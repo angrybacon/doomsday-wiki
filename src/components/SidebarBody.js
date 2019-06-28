@@ -7,7 +7,7 @@ import Markdown from './Markdown';
 export default class SidebarBody extends React.PureComponent {
   render() {
     const query = graphql`{
-      file(relativePath: {eq: "notation.md"}) {childMarkdownRemark {rawMarkdownBody}}
+      file(relativePath: {eq: "partials/notation.md"}) {childMarkdownRemark {rawMarkdownBody}}
     }`;
     return (
       <StaticQuery

@@ -8,9 +8,9 @@ import Markdown from './Markdown';
 export default class Home extends React.PureComponent {
   render() {
     const query = graphql`{
-      articles: file(relativePath: {eq: "articles.md"}) {childMarkdownRemark {rawMarkdownBody}}
-      home: file(relativePath: {eq: "home.md"}) {childMarkdownRemark {rawMarkdownBody}}
-      links: file(relativePath: {eq: "links.md"}) {childMarkdownRemark {rawMarkdownBody}}
+      articles: file(relativePath: {eq: "partials/articles.md"}) {childMarkdownRemark {rawMarkdownBody}}
+      home: file(relativePath: {eq: "partials/home.md"}) {childMarkdownRemark {rawMarkdownBody}}
+      links: file(relativePath: {eq: "partials/links.md"}) {childMarkdownRemark {rawMarkdownBody}}
     }`;
     return <StaticQuery query={query} render={({ articles, home, links }) => (
       <>
