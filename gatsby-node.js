@@ -1,24 +1,37 @@
+const { createFilePath } = require('gatsby-source-filesystem');
 const path = require('path');
+
+
+exports.onCreateNode = ({ actions, getNode, node }) => {
+  const { createNodeField } = actions;
+  if (node.internal.type === 'File') {
+    const slug = createFilePath({basePath: 'markdown', getNode, node});
+    createNodeField({name: 'slug', node, value: slug});
+  }
+};
 
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
   const renderer = path.resolve('src/components/Page.js');
   return graphql(`{
-    allMarkdownRemark(
-      filter: {frontmatter: {path: {ne: null}}}
-      limit: 1000
-      sort: {order: DESC, fields: [frontmatter___date]}
-    ) {edges {node {frontmatter {path}}}}
+    allFile(filter: {
+      extension: {eq: "md"},
+      relativePath: {glob: "!(partials)/**/*"}
+      sourceInstanceName: {eq: "markdown"},
+    }) {edges {node {
+      childMarkdownRemark {rawMarkdownBody}
+      fields {slug}
+    }}}
   }`).then(result => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
-    return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    return result.data.allFile.edges.forEach(({ node }) => {
       createPage({
         component: renderer,
-        context: {},
-        path: node.frontmatter.path,
+        context: {body: node.childMarkdownRemark.rawMarkdownBody},
+        path: node.fields.slug,
       });
     });
   });
