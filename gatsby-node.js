@@ -3,7 +3,7 @@ const path = require('path');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
-  const renderer = path.resolve('src/components/Markdown.js');
+  const renderer = path.resolve('src/components/Page.js');
   return graphql(`{
     allMarkdownRemark(
       filter: {frontmatter: {path: {ne: null}}}
