@@ -23,6 +23,3 @@ Another related collection of articles is the
 [Doomsday-Library](https://github.com/Bennotsi-MTG/Doomsday-Library). This is a
 collection of archived articles that have become obsolete, for example due to
 the format evolving, or because certain cards have been banned.
-
-This repository, and all of its contents, is licensed under
-[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).

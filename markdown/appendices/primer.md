@@ -1,6 +1,8 @@
-# Draw4 Doomsday Primer
+---
+authors: d8dk32
+---
 
-*By d8dk32*
+# Draw4 Doomsday Primer
 
 ---
 
