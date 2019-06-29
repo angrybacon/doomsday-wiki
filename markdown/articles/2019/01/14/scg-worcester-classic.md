@@ -1,6 +1,8 @@
-# Stages of Grief - Doomsday at the SCG Worcester Classic
+---
+authors: d8dk32
+---
 
-*By d8dk32*
+# Stages of Grief - Doomsday at the SCG Worcester Classic
 
 ---
 

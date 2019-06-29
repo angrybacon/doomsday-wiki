@@ -1,6 +1,8 @@
-# The World's End - An Experimental Frenzy
+---
+authors: Doishy
+---
 
-*By Doishy*
+# The World's End - An Experimental Frenzy
 
 ---
 

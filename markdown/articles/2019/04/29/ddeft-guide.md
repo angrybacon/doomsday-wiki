@@ -1,6 +1,8 @@
-# Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
+---
+authors: Knox
+---
 
-*By Knox*
+# Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
 
 ---
 
