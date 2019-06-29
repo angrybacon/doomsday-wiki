@@ -14,3 +14,41 @@ These 2 branches are automatically deployed upon commit.
 
 - =:master= deploys to https://master--ddftwiki.netlify.com
 - =:production= deploys to https://ddftwiki.netlify.com
+
+** Contributing with Content
+
+The Markdown content is located under =markdown/=.
+
+- =appendices/= :: Extra-articles that serve as reference for new players and
+                   seasoned pilots alike.
+- =articles/=   :: Dated reports and theories.
+- =authors/=    :: Contributors.
+- =chapters/=   :: Most of the content goes there, divided in chapters and
+                   pages.
+- =partials/=   :: Some content within the Wiki comes from those partials, this
+                   avoids having to maintain content alongside code.
+
+The following directories automatically create new pages and routes whenever a
+new Markdown file is created:
+
+- =appendices/=
+- =articles/=
+- =chapters/=
+
+URLs follow the file paths. Follow existing conventions.
+
+** Contributing with Code
+
+The React code is located under =src/=.
+
+Install some kind of ESLint-compatible linter on your editor and follow the
+=.eslintrc.json= as well as the existing conventions.
+
+- =components/= :: Re-usable components, one component does one job.
+- =contexts/=   :: React contexts to dispatch dynamic data accross all children
+                   components.
+- =pages/=      :: Gatsby pages.
+- =tools/=      :: Internal libraries.
+- =html.js=     :: Overwrite Gatsby's default application root.
+- =reset.scss=  :: Simple and naive style reset.
+- =theme.js=    :: Custom Material-UI theme.
