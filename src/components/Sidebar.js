@@ -1,11 +1,10 @@
-import React from 'react';
-
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import withStyles from '@material-ui/core/styles/withStyles';
 import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
+import withStyles from '@material-ui/core/styles/withStyles';
+import React from 'react';
 
 import SidebarBody from './SidebarBody';
 import SidebarHeader from './SidebarHeader';

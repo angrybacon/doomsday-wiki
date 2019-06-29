@@ -1,10 +1,9 @@
-import React from 'react';
-
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
+import React from 'react';
 // import Link from 'react-router-dom/Link';
 
 import { SidebarConsumer } from '../contexts/Sidebar';

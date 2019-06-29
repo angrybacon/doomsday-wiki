@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
@@ -7,6 +5,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import withStyles from '@material-ui/core/styles/withStyles';
+import React from 'react';
 // import NavLink from 'react-router-dom/NavLink';
 
 import menu from '../menu';
@@ -46,7 +45,7 @@ class SidebarMenu extends React.PureComponent {
                     <Divider />
                     <List>
                       {routes.map((it, index) => (
-                        <ListItem /* activeClassName={classes.activeLink} */
+                        <ListItem activeClassName={classes.activeLink}
                                   button
                                   component="li"
                                   dense

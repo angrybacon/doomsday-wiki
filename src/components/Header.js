@@ -1,5 +1,3 @@
-import React from 'react';
-
 import AppBar from '@material-ui/core/AppBar';
 import Grid from '@material-ui/core/Grid';
 import Hidden from '@material-ui/core/Hidden';
@@ -7,7 +5,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
 import MenuIcon from 'mdi-react/MenuIcon';
-// import withRouter from 'react-router-dom/withRouter';
+import React from 'react';
 
 // import Breadcrumbs from '../Breadcrumbs';
 import { SidebarConsumer } from '../contexts/Sidebar';
@@ -44,5 +42,4 @@ class Header extends React.PureComponent {
 }
 
 
-// export default withRouter(withStyles(styles)(Header));
 export default withStyles(styles)(Header);
