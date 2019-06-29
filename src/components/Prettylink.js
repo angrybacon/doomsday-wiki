@@ -21,13 +21,13 @@ const styles = theme => ({
 
 class Prettylink extends React.PureComponent {
   render() {
-    const { children, classes, href, target } = this.props;
+    const { children, classes, href, target='_blank' } = this.props;
     const component = this.props.component || (href && href.startsWith('http') ? null : "a");
     return href ? (
       component ? React.createElement(component, {className: classes.link, to: href}, children) : (
         <span className={classes.root}>
-          <a className={classes.link} href={href} target={target || '_blank'}>{children}</a>
-          <OpenInNewIcon className={classes.icon} size={12} />
+          <a className={classes.link} href={href} target={target}>{children}</a>
+          {target === '_blank' && <OpenInNewIcon className={classes.icon} size={12} />}
         </span>
       )
     ) : <a {...this.props}>{children}</a>;
