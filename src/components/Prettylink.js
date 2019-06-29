@@ -1,3 +1,4 @@
+import { Link } from 'gatsby';
 import withStyles from '@material-ui/core/styles/withStyles';
 import OpenInNewIcon from 'mdi-react/OpenInNewIcon';
 import React from 'react';
@@ -21,7 +22,7 @@ class Prettylink extends React.PureComponent {
   render() {
     const { children, classes, href, target='_blank' } = this.props;
     const isExternal = target === '_blank';
-    const component = this.props.component || (href && href.startsWith('http') ? null : "a");
+    const component = this.props.component || (href && href.startsWith('http') ? null : Link);
     return href ? (
       component ? React.createElement(component, {className: classes.link, to: href}, children) : (
         <span className={classes.root}>

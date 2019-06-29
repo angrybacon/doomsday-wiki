@@ -17,7 +17,7 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`{
     allFile(filter: {
       extension: {eq: "md"},
-      relativePath: {glob: "!(partials)/**/*"}
+      relativePath: {glob: "(appendices|articles|chapters)/**/*"}
       sourceInstanceName: {eq: "markdown"},
     }) {edges {node {
       childMarkdownRemark {rawMarkdownBody}
