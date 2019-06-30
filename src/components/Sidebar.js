@@ -8,7 +8,7 @@ import React from 'react';
 
 import SidebarBody from './SidebarBody';
 import SidebarHeader from './SidebarHeader';
-// import SidebarMenu from './SidebarMenu';
+import SidebarMenu from './SidebarMenu';
 import { SidebarConsumer } from '../contexts/Sidebar';
 
 
@@ -40,8 +40,8 @@ class Sidebar extends React.PureComponent {
         <Grid item children={<SidebarHeader size={isMobile ? 'small' : 'medium'} />} />
         <Divider />
         <Grid item className={classes.body}>
-          {/* <SidebarMenu /> */}
-          {/* <Divider /> */}
+          <SidebarMenu />
+          <Divider />
           <SidebarBody />
         </Grid>
       </Grid>
