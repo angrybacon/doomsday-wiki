@@ -27,7 +27,7 @@ class Header extends React.PureComponent {
             <Hidden mdUp>
               <Grid item style={{marginRight: '1em'}}>
                 <SidebarConsumer>
-                  {({toggleDrawer}) => (
+                  {({ toggleDrawer }) => (
                     <IconButton children={<MenuIcon />} color="inherit" onClick={toggleDrawer()} />
                   )}
                 </SidebarConsumer>

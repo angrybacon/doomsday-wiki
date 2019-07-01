@@ -12,7 +12,7 @@ class Application extends React.PureComponent {
       <SidebarProvider>
         <ThemeProvider>
           <ThemeConsumer>
-            {({state}) => (
+            {({ state }) => (
               <MuiThemeProvider theme={state.current}>
                 <Layout children={this.props.children} />
               </MuiThemeProvider>

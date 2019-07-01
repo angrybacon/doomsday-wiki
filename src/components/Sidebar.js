@@ -41,14 +41,13 @@ class Sidebar extends React.PureComponent {
         <Divider />
         <Grid item className={classes.body}>
           <SidebarMenu />
-          <Divider />
           <SidebarBody />
         </Grid>
       </Grid>
     );
     const drawer = (
       <SidebarConsumer>
-        {({state, toggleDrawer}) => (
+        {({ state, toggleDrawer }) => (
           <SwipeableDrawer children={content}
                            classes={{paper: classes.drawerTemporary}}
                            onClose={toggleDrawer(false)}

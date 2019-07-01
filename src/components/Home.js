@@ -12,7 +12,7 @@ export default class Home extends React.PureComponent {
       home: file(relativePath: {eq: "partials/home.md"}) {childMarkdownRemark {rawMarkdownBody}}
       links: file(relativePath: {eq: "partials/links.md"}) {childMarkdownRemark {rawMarkdownBody}}
     }`;
-    return <StaticQuery query={query} render={({ articles, home, links }) => (
+    return <StaticQuery query={query} render={({ home, links }) => (
       <>
         <Paper children={<Markdown source={home.childMarkdownRemark.rawMarkdownBody} />} />
         <Paper children={<Articles />} />

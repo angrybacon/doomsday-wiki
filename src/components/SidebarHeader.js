@@ -24,7 +24,7 @@ class SidebarHeader extends React.PureComponent {
           <Grid item>
             <Link style={{textDecoration: 'none'}} to="/">
               <SidebarConsumer>
-                {({toggleDrawer}) => (
+                {({ toggleDrawer }) => (
                   <Button children="ddft.wiki"
                           color="primary"
                           onClick={toggleDrawer(false)}

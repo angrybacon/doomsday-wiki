@@ -12,8 +12,6 @@ import FileOutlineIcon from 'mdi-react/FileOutlineIcon';
 import TargetIcon from 'mdi-react/TargetIcon';
 import React from 'react';
 
-import { SidebarConsumer } from '../contexts/Sidebar';
-
 
 const MENU = {
   appendices: {icon: <FileOutlineIcon />, subheader: 'Appendices'},
@@ -71,8 +69,8 @@ class SidebarMenu extends React.PureComponent {
     const { classes } = this.props;
     const { collapses } = this.state;
     return <StaticQuery query={query} render={({ appendices, chapters }) => (
-
       <List component="nav">
+
         {chapters.group.map(({ edges, fieldValue }, index) => (
           <React.Fragment key={index}>
             <ListItem button onClick={this.toggleCollapse(fieldValue)}>
