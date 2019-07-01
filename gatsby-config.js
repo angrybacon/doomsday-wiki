@@ -7,6 +7,7 @@ module.exports = {
       },
       resolve: 'gatsby-source-filesystem',
     },
+    'gatsby-plugin-material-ui',
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
   ],
