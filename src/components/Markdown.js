@@ -25,7 +25,7 @@ const styles = theme => ({
     borderStyle: 'solid',
     borderWidth: 1,
     overflowY: 'auto',
-    padding: theme.spacing.unit,
+    padding: theme.spacing(1),
   },
   divider: {
     marginBottom: '1em',
@@ -50,13 +50,15 @@ class Markdown extends React.PureComponent {
       heading: props => (
         <Typography children={props.children} gutterBottom variant={`h${props.level + 2}`} />
       ),
-      link: Prettylink,
-      linkReference: Prettylink,
-      table: props => <Table children={props.children} className={gutter && classes.gutter} />,
+      link: props => <Prettylink {...props} />,
+      linkReference: props => <Prettylink {...props} />,
+      table: props => (
+        <Table children={props.children} className={gutter && classes.gutter} size="small" />
+      ),
       tableHead: props => <TableHead children={props.children} />,
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
-      tableCell: props => <TableCell children={props.children} padding="checkbox" />,
+      tableCell: props => <TableCell children={props.children} />,
       text: props => {
         const nodes = props.value.split(SCRYFALL_RE).map((it, index) => (
           index % 2 ? <Scryfall query={it} key={index} /> : it

@@ -3,10 +3,7 @@ import pink from '@material-ui/core/colors/pink';
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 
 
-const defaultTheme = createMuiTheme({
-  typography: {useNextVariants: true},
-});
-
+const defaultTheme = createMuiTheme();
 const themeOptions = {
   mixins: {
     sidebar: {
@@ -17,9 +14,9 @@ const themeOptions = {
   overrides: {
     MuiPaper: {
       root: {
-        padding: defaultTheme.spacing.unit * 3,
+        padding: defaultTheme.spacing(3),
         '&:not(:last-child)': {
-          marginBottom: defaultTheme.spacing.unit * 3,
+          marginBottom: defaultTheme.spacing(3),
         },
       },
       rounded: {
@@ -35,10 +32,7 @@ const themeOptions = {
         },
       },
     },
-    MuiTableRow: {head: {height: 48}},
-    MuiTypography: {title: {fontWeight: 'normal'}},
   },
-  typography: {useNextVariants: true},
 };
 
 export const lightTheme = createMuiTheme(Object.assign({}, themeOptions, {palette: {

@@ -15,9 +15,9 @@ const styles = theme => ({
     flexGrow: 1,
     flexShrink: 1,
     overflowY: 'auto',
-    paddingTop: theme.spacing.unit * 2,
+    paddingTop: theme.spacing(2),
     [theme.breakpoints.up('md')]: {
-      paddingTop: theme.spacing.unit * 3,
+      paddingTop: theme.spacing(3),
     },
   },
   children: {
@@ -27,11 +27,11 @@ const styles = theme => ({
     height: '100%',
   },
   footer: {
-    marginBottom: theme.spacing.unit * 2,
-    marginTop: theme.spacing.unit * 2,
+    marginBottom: theme.spacing(2),
+    marginTop: theme.spacing(2),
     [theme.breakpoints.up('md')]: {
-      marginBottom: theme.spacing.unit * 3,
-      marginTop: theme.spacing.unit * 3,
+      marginBottom: theme.spacing(3),
+      marginTop: theme.spacing(3),
     },
   },
   main: {
