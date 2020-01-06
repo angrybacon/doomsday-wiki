@@ -1,6 +1,6 @@
 puzzles: 
  - 
-  deckRef: "https://deckstats.net/decks/146937/1505189-echo-doomsday/en"
+  deckFile: "EchoDoomsday.json"
   oppHand: "Currently Empty"
   oppBoard: Irrelevant
   yourHand: "Doomsday, Doomsday, Burning Wish, Lotus Petal, Brainstorm"

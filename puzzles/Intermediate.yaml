@@ -1,6 +1,6 @@
 puzzles: 
  - 
-  deckRef: "https://deckstats.net/decks/146937/1505189-echo-doomsday/en"
+  deckFile: "EchoDoomsday.json"
   oppHand: Irrelevant
   oppBoard: "Sanctum Prelate@4, Chalice@1"
   yourHand: "Lion's Eye Diamond, Doomsday, Chain of Vapor, Burning Wish, Lotus Petal, Cabal Ritual, Cabal Ritual"

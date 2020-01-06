@@ -18,6 +18,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     'gatsby-transformer-yaml',
+    'gatsby-transformer-json'
   ],
   siteMetadata: {
     title: 'Doomsday Wiki',

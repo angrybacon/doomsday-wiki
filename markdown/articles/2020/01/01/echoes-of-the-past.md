@@ -10,54 +10,7 @@ authors: d8dk32
 
 Then in June, Modern horizons was released, and along with it Echo of Eons. There was some discussion of it as a Burning Wish target, but the old-style lists were seen as inferior to the Frenzy lists, and little more thought was given to the card for a few months. As the end of the decade drew closer, Echo decks started to creep into the metagame a bit, and I started thinking more and more about the card. It dawned on me that if you cast Doomsday and cracked an LED to flashback Echo of Eons, you'd have at least 7 cards (DD, LED, plus your pile) to draw with Echo. Echo could function as a storm engine on it's own, facilitate Doomsday piles, and recoup cards after getting disrupted. With this in mind, I figured I wanted multiple copies maindeck. Burning Wish could let me have effectively 7 copies maindeck, as well as provide a higher density of wincons to hit if I was trying to storm off with Echo as my engine. Pushing farther in this storm-based direction, I realized I'd likely want Cabal Rituals, and this incentivized Draw 4's as my main way to draw Doomsday piles and a tertiary storm engine. Without Act on Impulse, Jace and Lab Man are quite bad, so I leaned further into the storm side of the deck. The final innovation came after I was convinced that Veil of Summer was worth contorting the mana to include. When all was said and done, I ended up on this:
 
----
-### [Deck: Echo Doomsday](https://deckstats.net/decks/146937/1505189-echo-doomsday)
-
-##### Main:
-
- 3 [Doomsday](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Doomsday)  
- 4 [Burning Wish](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Burning+Wish)  
- 3 [Echo of Eons](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Echo+of+Eons)  
- 1 [Infernal Contract](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Infernal+Contract)  
- 1 [Cruel Bargain](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Cruel+Bargain)  
- 1 [Tendrils of Agony](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Tendrils+of+Agony)  
- 4 [Brainstorm](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Brainstorm)  
- 4 [Ponder](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Ponder)  
- 4 [Cabal Ritual](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Cabal+Ritual)  
- 4 [Dark Ritual](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Dark+Ritual)  
- 1 [Rain of Filth](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Rain+of+Filth)   
- 4 [Lion's Eye Diamond](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Lion%27s+Eye+Diamond)  
- 4 [Lotus Petal](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Lotus+Petal)  
- 4 [Thoughtseize](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Thoughtseize)  
- 3 [Veil of Summer](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Veil+of+Summer)  
-
- 1 [Badlands](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Badlands)  
- 1 [Volcanic Island](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Volcanic+Island)  
- 1 [Snow-Covered Island](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Snow-Covered+Island)  
- 1 [Snow-Covered Swamp](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Snow-Covered+Swamp)  
- 1 [Tropical Island](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Tropical+Island)  
- 2 [Underground Sea](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Underground+Sea)  
- 4 [Polluted Delta](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Polluted+Delta)  
- 1 [Bloodstained Mire](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Bloodstained+Mire)  
- 1 [Misty Rainforest](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Misty+Rainforest)  
- 1 [Scalding Tarn](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Scalding+Tarn)  
- 1 [Verdant Catacombs](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Verdant+Catacombs)  
- 
-#### Sideboard:
-
- 1 [Cabal Therapy](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Cabal+Therapy)  
- 2 [Chain of Vapor](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Chain+of+Vapor)  
- 1 [Consign // Oblivion](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Consign+%2F%2F+Oblivion)  
- 1 [Doomsday](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Doomsday)  
- 1 [Echo of Eons](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Echo+of+Eons)  
- 1 [Echoing Truth](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Echoing+Truth)  
- 3 [Empty the Warrens](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Empty+the+Warrens)  
- 2 [Flusterstorm](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Flusterstorm)  
- 1 [Grapeshot](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Grapeshot)  
- 1 [Infernal Contract](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Infernal+Contract)  
- 1 [Tendrils of Agony](https://www.mtg-forum.de/db/magiccard.php?utf8=1&lng=en&card=Tendrils+of+Agony)  
-
----
+<div deckfile="EchoDoomsday.json"/>
 
 ### Playing the Deck
 
@@ -96,3 +49,4 @@ Generally in these matchups you win by giving your opponent as few turns as poss
 #### Combo Mirrors and Pseudo-Mirrors (Slightly Favorable, faster = less favorable)
 
 This list is fast enough to have a shot against just about any other combo deck, has strong game against discard with Veil of Summer and Echoes, and packs enough of it's own disruption to slow the opponent down. Veil has changed the nature of combo matchups though, so be aware of it from your opponents as well. You can kill with Grapeshot to sidestep an opposing Veil if need be but ideally you'll kill them without needing to Echo while they have green mana up. Sometimes, it's best to just jam because if the game goes longer they may end up favored. For sideboarding, you generally want to cut Rain of Filth and a Ponder or a Doomsday for Flusterstorms. If the opponent is on Depths, bring in Chain of Vapor instead.  
+

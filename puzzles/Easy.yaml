@@ -1,6 +1,6 @@
 puzzles: 
  - 
-  deckRef: "https://deckstats.net/decks/146937/1505189-echo-doomsday/en"
+  deckFile: "EchoDoomsday.json"
   oppHand: Irrelevant
   oppBoard: Irrelevant
   yourHand: "Dark Ritual, Doomsday, Lion's Eye Diamond, Ponder"

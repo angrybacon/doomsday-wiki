@@ -121,7 +121,7 @@ class SidebarMenu extends React.PureComponent {
           </Collapse>
           <ListItem button component={Link} to="/puzzles">
             <ListItemIcon children={MENU.puzzles.icon} />
-            <ListItemText primary="Puzzles" secondary={MENU.appendices.subheader} />
+            <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
           </ListItem>
         </>
       </List>
