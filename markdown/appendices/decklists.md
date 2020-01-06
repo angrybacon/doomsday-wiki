@@ -34,3 +34,8 @@ cards back into Doomsday piles.
 <div deckfile="SDTDoomsday.json"/>
 
 The classic list, considered by many to be the most playable form of the deck. It was built to beat the Miracles decks of the day, and the maindeck Decays and 4x Top helped it play a long game and muscle through Counterbalance. Shelldock Isle and Emrakul, Xantid Swarms, and more Decays gave it a strong sideboard plan against the slow blue decks. RIP Sensei's Divining Top.
+
+<div deckfile="EarlyDoomsday.json"/>
+
+This is the earliest Doomsday list I could find. There are some clear similarities with the classic list but also some weird ANT-like aspect mixed in.
+It looks very unrefined, but you can see a lot of the hallmarks of later storm decks. An interesting piece of history but not remotely playable, and not only because of the banned cards.

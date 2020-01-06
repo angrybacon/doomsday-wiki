@@ -18,7 +18,7 @@ export default class Decklist extends React.PureComponent {
         let mainHalf2 = mainKeys.slice(midpoint, mainKeys.length);
 
         return (
-            <div>
+            <div style={{background:'whitesmoke', padding:"15px"}}>
                 <Typography variant="h5">{deckData.name}</Typography>
                 <hr/>
                 <Grid container alignItems="flex-start" wrap="nowrap" justify="space-around" spacing={8}>
