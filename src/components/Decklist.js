@@ -6,6 +6,21 @@ import Paper from '@material-ui/core/Paper';
 
 export default class Decklist extends React.PureComponent {
 
+    isMobile = () => {
+        if( navigator.userAgent.match(/Android/i)
+        || navigator.userAgent.match(/webOS/i)
+        || navigator.userAgent.match(/iPhone/i)
+        || navigator.userAgent.match(/iPad/i)
+        || navigator.userAgent.match(/iPod/i)
+        || navigator.userAgent.match(/BlackBerry/i)
+        || navigator.userAgent.match(/Windows Phone/i)
+        ){
+            return true;
+        } else {
+            return false;
+        }
+    };
+
     //this class gets a decklist name from its props, loads up all the decks from the 'decklists' folder, and displays the one with the name it was given
     render() {
 
@@ -21,7 +36,7 @@ export default class Decklist extends React.PureComponent {
             <div style={{background:'whitesmoke', padding:"15px"}}>
                 <Typography variant="h5">{deckData.name}</Typography>
                 <hr/>
-                <Grid container alignItems="flex-start" wrap="nowrap" justify="space-around" spacing={8}>
+                <Grid container alignItems="flex-start" direction={this.isMobile() ? "column" : "row"} spacing={3}>
                     <Grid item xs zeroMinWidth>
                         <div>
                         <Typography variant="h5">Maindeck</Typography>
@@ -33,9 +48,9 @@ export default class Decklist extends React.PureComponent {
                         </List>
                         </div>
                     </Grid>
-                    <Grid item xs wrap="nowrap">
+                    <Grid item xs zeroMinWidth >
                         <div>
-                        <Typography variant="h5">&#10240;</Typography>
+                        {!this.isMobile() && <Typography variant="h5">&#10240;</Typography>}
                         <List>
                             {mainHalf2.map( (it, index) => {
                                 return (<Typography noWrap>{deckData.main[it]} {it}</Typography>);
@@ -44,7 +59,7 @@ export default class Decklist extends React.PureComponent {
                         </List>
                         </div>
                     </Grid>
-                    <Grid item xs wrap="nowrap" >
+                    <Grid item xs zeroMinWidth>
                         <div>
                         <Typography variant="h5">Sideboard</Typography>
                         <List>

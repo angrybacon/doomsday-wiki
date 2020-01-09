@@ -25,6 +25,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean && rm -rf build",
     "develop": "gatsby develop",
+    "develop-public": "gatsby develop -H 0.0.0.0",
     "postbuild": "mv public build",
     "prebuild": "npm run clean",
     "serve": "gatsby serve",
