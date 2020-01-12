@@ -1,5 +1,6 @@
 const { createFilePath } = require('gatsby-source-filesystem');
 const path = require('path');
+const scryfall = require('./src/tools/scryfall');
 
 
 exports.onCreateNode = ({ actions, getNode, node }) => {
@@ -33,11 +34,11 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors);
     }
     return result.data.allFile.edges.forEach(({ node }) => {
-      createPage({
+      scryfall.replace(node.childMarkdownRemark.rawMarkdownBody).then(body => createPage({
         component: renderer,
         context: {body},
         path: node.fields.slug,
-      });
+      }));
     });
   });
 };
