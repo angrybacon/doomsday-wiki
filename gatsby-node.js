@@ -33,12 +33,12 @@ exports.createPages = ({ actions, graphql }) => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
-    return result.data.allFile.edges.forEach(({ node }) => {
-      scryfall.replace(node.childMarkdownRemark.rawMarkdownBody).then(body => createPage({
+    return Promise.all(result.data.allFile.edges.map(
+      ({ node }) => scryfall.replace(node.childMarkdownRemark.rawMarkdownBody).then(body => createPage({
         component: renderer,
         context: {body},
         path: node.fields.slug,
-      }));
-    });
+      }))
+    ));
   });
 };
