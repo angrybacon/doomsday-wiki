@@ -20,11 +20,8 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "clean": "gatsby clean && rm -rf build",
-    "develop": "gatsby develop",
-    "postbuild": "mv public build",
-    "prebuild": "npm run clean",
+    "prebuild": "gatsby clean",
     "serve": "gatsby serve",
-    "start": "npm run develop"
+    "start": "gatsby develop"
   }
 }
