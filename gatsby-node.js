@@ -18,7 +18,7 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
   const renderer = path.resolve('src/components/Page.js');
-  return graphql(`{
+  const query = graphql(`{
     allFile(filter: {
       extension: {eq: "md"},
       relativePath: {glob: "(appendices|articles|chapters)/**/*"}
@@ -27,14 +27,15 @@ exports.createPages = ({ actions, graphql }) => {
       childMarkdownRemark {rawMarkdownBody}
       fields {slug}
     }}}
-  }`).then(result => {
+  }`);
+  return query.then(result => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
     return result.data.allFile.edges.forEach(({ node }) => {
       createPage({
         component: renderer,
-        context: {body: node.childMarkdownRemark.rawMarkdownBody},
+        context: {body},
         path: node.fields.slug,
       });
     });

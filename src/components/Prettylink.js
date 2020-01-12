@@ -34,7 +34,7 @@ class Prettylink extends React.PureComponent {
           {isExternal && <OpenInNewIcon className={classes.icon} size={12} />}
         </span>
       )
-    ) : <a {...this.props}>{children}</a>;
+    ) : <a children={children} className={classes.link} href={href} target={target} />;
   }
 }
 
