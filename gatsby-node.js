@@ -1,5 +1,6 @@
 const { createFilePath } = require('gatsby-source-filesystem');
 const path = require('path');
+const scryfall = require('./src/tools/scryfall');
 
 
 exports.onCreateNode = ({ actions, getNode, node }) => {
@@ -18,7 +19,7 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
   const renderer = path.resolve('src/components/Page.js');
-  return graphql(`{
+  const query = graphql(`{
     allFile(filter: {
       extension: {eq: "md"},
       relativePath: {glob: "(appendices|articles|chapters)/**/*"}
@@ -27,16 +28,17 @@ exports.createPages = ({ actions, graphql }) => {
       childMarkdownRemark {rawMarkdownBody}
       fields {slug}
     }}}
-  }`).then(result => {
+  }`);
+  return query.then(result => {
     if (result.errors) {
       return Promise.reject(result.errors);
     }
-    return result.data.allFile.edges.forEach(({ node }) => {
-      createPage({
+    return Promise.all(result.data.allFile.edges.map(
+      ({ node }) => scryfall.replace(node.childMarkdownRemark.rawMarkdownBody).then(body => createPage({
         component: renderer,
-        context: {body: node.childMarkdownRemark.rawMarkdownBody},
+        context: {body},
         path: node.fields.slug,
-      });
-    });
+      }))
+    ));
   });
 };

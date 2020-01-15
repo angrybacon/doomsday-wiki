@@ -13,11 +13,7 @@ import htmlParser from 'react-markdown/plugins/html-parser';
 
 import Prettylink from './Prettylink';
 import Quote from './Quote';
-import Scryfall from './Scryfall';
 import Decklist from './Decklist';
-
-
-const SCRYFALL_RE = /{{([^{}]+)}}/g;
 
 
 const styles = theme => ({
@@ -61,12 +57,6 @@ class Markdown extends React.PureComponent {
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
       tableCell: props => <TableCell children={props.children} />,
-      text: props => {
-        const nodes = props.value.split(SCRYFALL_RE).map((it, index) => (
-          index % 2 ? <Scryfall query={it} key={index} /> : it
-        ));
-        return <React.Fragment children={nodes} />;
-      },
       thematicBreak: () => (
         <Divider className={classNames(classes.divider, {[classes.gutter]: gutter})} />
       ),

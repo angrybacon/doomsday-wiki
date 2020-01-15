@@ -29,11 +29,7 @@ The Markdown content is located under =markdown/=.
                    avoids having to maintain content alongside code.
 
 The following directories automatically create new pages and routes whenever a
-new Markdown file is created:
-
-- =appendices/=
-- =articles/=
-- =chapters/=
+new Markdown file is created: =appendices/=, =articles/=, =chapters/=.
 
 URLs follow the file paths. Follow existing conventions.
 

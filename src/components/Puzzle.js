@@ -22,7 +22,7 @@ export default class Puzzle extends React.PureComponent {
                   id="panel1a-header">
                   <Typography > See Decklist: </Typography>
                 </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
+                <ExpansionPanelDetails style={{alignContent:"stretch"}}>
                   <Decklist deckFile={deckFile}/>
                 </ExpansionPanelDetails>
               </ExpansionPanel> 

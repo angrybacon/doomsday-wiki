@@ -33,7 +33,7 @@ export default class Decklist extends React.PureComponent {
         let mainHalf2 = mainKeys.slice(midpoint, mainKeys.length);
 
         return (
-            <div style={{background:'whitesmoke', padding:"15px"}}>
+            <div style={{background:'whitesmoke', padding:"15px", width:"90%"}}>
                 <Typography variant="h5">{deckData.name}</Typography>
                 <hr/>
                 <Grid container alignItems="flex-start" direction={this.isMobile() ? "column" : "row"} spacing={3}>
@@ -48,7 +48,7 @@ export default class Decklist extends React.PureComponent {
                         </List>
                         </div>
                     </Grid>
-                    <Grid item xs zeroMinWidth >
+                    <Grid item xs zeroMinWidth>
                         <div>
                         {!this.isMobile() && <Typography variant="h5">&#10240;</Typography>}
                         <List>
