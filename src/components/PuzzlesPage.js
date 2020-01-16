@@ -60,6 +60,7 @@ class PuzzlesPage extends React.PureComponent {
             name
             childPuzzlesYaml {
               puzzles {
+                deckFile
                 oppHand
                 oppBoard
                 yourHand

@@ -22,8 +22,6 @@ export default class Puzzle extends React.PureComponent {
       yourHand,
     } = this.props.puzzleDetails;
 
-    console.log(oppBoard);
-
     return (
       <div style={{marginTop: 30}}>
         <Typography variant="h5">Puzzle #{this.props.index+1}</Typography>
