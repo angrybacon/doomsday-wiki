@@ -1,0 +1,13 @@
+title: "Easy"
+deckFile: "EchoDoomsday.json"
+oppHand: "Irrelevant"
+oppBoard: "Irrelevant"
+yourHand: "Dark Ritual, Doomsday, Lion's Eye Diamond, Ponder"
+yourBoard: "Swamp, Island"
+situationNotes: "Opponent is at 20 life, you are at 20 life. Win this turn"
+solution: "[Echo of Eons, Lion's Eye Diamond, Lotus Petal, Lotus Petal, Burning Wish]"
+solutionNotes: >
+  A normal Draw4 pile only gets 9 storm here. Cast Doomsday and Ponder into
+  Echo of Eons. Crack LED for UUU and flashback Echo. From there, you'll have
+  exactly 7 cards left, so you draw your whole deck and winning is trivial.
+  Cast your free spells and Wish for Tendrils."
