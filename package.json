@@ -23,6 +23,6 @@
     "prebuild": "gatsby clean",
     "serve": "gatsby serve",
     "start": "gatsby develop",
-    "start-exposed": "gatsby develop -H 0.0.0.0"
+    "start:exposed": "gatsby develop -H 0.0.0.0"
   }
 }

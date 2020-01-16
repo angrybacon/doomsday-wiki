@@ -1,14 +1,23 @@
-puzzles: 
- - 
+puzzles:
+ -
   deckFile: "EchoDoomsday.json"
   oppHand: "Currently Empty"
   oppBoard: Irrelevant
   yourHand: "Doomsday, Doomsday, Burning Wish, Lotus Petal, Brainstorm"
-  yourBoard: "Tropical Island, Island, Underground Sea, Underground Sea, Badlands, Volcanic Island"
-  situationNotes: "Your Sneak and Show opponent is at 20 life, and you are at 2 life. Win this turn"
+  yourBoard: >
+    Tropical Island, Island, Underground Sea, Underground Sea, Badlands,
+    Volcanic Island
+  situationNotes: >
+    Your Sneak and Show opponent is at 20 life, and you are at 2 life. Win this
+    turn
   solution: "[Lion's Eye Diamond, Lion's Eye Diamond, Ponder, Poder, Ponder]"
-  solutionNotes: "Your life total is very low so a Draw4 is not an option. Your opponent is playing a Force of Will deck, so refilling their
-                  hand with an Echo pile is not ideal. But there is another option. You have a ton of blue mana available so you can cycle
-                  some cantrips to build storm. Cast the Doomsday using your black-producing lands. Cast the Lotus Petal and use it to Brainstorm.
-                  Keep the top 3 cards of the pile, and put back the Wish and the extra Doomsday. Play the LEDs, and now you can Ponder into Ponders,
-                  until you run out, then wish for Tendrils of Agony. This should give you a storm count of exactly 10."
+  solutionNotes: >
+    Your life total is very low so a Draw4 is not an option. Your opponent is
+    playing a Force of Will deck, so refilling their hand with an Echo pile is
+    not ideal. But there is another option. You have a ton of blue mana
+    available so you can cycle some cantrips to build storm. Cast the Doomsday
+    using your black-producing lands. Cast the Lotus Petal and use it to
+    Brainstorm. Keep the top 3 cards of the pile, and put back the Wish and the
+    extra Doomsday. Play the LEDs, and now you can Ponder into Ponders, until
+    you run out, then wish for Tendrils of Agony. This should give you a storm
+    count of exactly 10.

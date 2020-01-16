@@ -11,9 +11,9 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 
+import Decklist from './Decklist';
 import Prettylink from './Prettylink';
 import Quote from './Quote';
-import Decklist from './Decklist';
 
 
 const styles = theme => ({
@@ -64,35 +64,31 @@ class Markdown extends React.PureComponent {
 
     const parseHtml = htmlParser({
       isValidNode: node => node.type !== 'script',
-      processingInstructions: [{
-        //BEGIN CUSTOM PROCESSING INSTRUCTIONS
-        replaceChildren: true,
-        shouldProcessNode: function (node) {
-          //inserts deckilist component into element with 'decklist' attribute , ex. <div deckfile="EchoDoomsday.json"></div>
-          return node.attribs && node.attribs['deckfile'];
+      processingInstructions: [
+        // Custom processing instructions
+        {
+          replaceChildren: true,
+          // Inserts decklist component into element with 'decklist'
+          // attribute, ex. <div deckfile="EchoDoomsday.json" />
+          shouldProcessNode: node => node.attribs && node.attribs['deckfile'],
+          // Perform the insertion
+          processNode: node => React.createElement(Decklist, {deckFile: node.attribs['deckfile']}),
         },
-        processNode: function (node, children, index) {
-          //performs the insertion
-          return React.createElement(Decklist, {deckFile: node.attribs['deckfile']});
-        }
-      }, //END CUSTOM PROCESSING INSTRUCTIONS
-      {
-        // handles anything you don't have custom processing for
-        shouldProcessNode: function (node) {
-          return true;
+        {
+          // Handle anything you don't have custom processing for
+          shouldProcessNode: () => true,
+          // processNode: processNodeDefinitions.processDefaultNode,
         },
-        //processNode: processNodeDefinitions.processDefaultNode,
-      },]
-       
+      ]
     });
 
     return (
-      <Typography className={className}
-                  component={ReactMarkdown}
-                  renderers={renderers}
-                  source={source} 
+      <Typography component={ReactMarkdown}
                   escapeHtml={false}
-                  astPlugins={[parseHtml]}/>
+                  renderers={renderers}
+                  source={source}
+                  astPlugins={[parseHtml]}
+                  className={className} />
     );
   }
 }

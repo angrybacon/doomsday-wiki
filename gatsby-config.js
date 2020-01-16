@@ -10,15 +10,15 @@ module.exports = {
     {
       options: {
         name: 'puzzles',
-        path: `./puzzles/`,
+        path: './puzzles/',
       },
       resolve: 'gatsby-source-filesystem',
     },
     'gatsby-plugin-material-ui',
     'gatsby-plugin-sass',
+    'gatsby-transformer-json',
     'gatsby-transformer-remark',
     'gatsby-transformer-yaml',
-    'gatsby-transformer-json'
   ],
   siteMetadata: {
     title: 'Doomsday Wiki',

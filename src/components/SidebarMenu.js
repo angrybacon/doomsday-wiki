@@ -15,11 +15,11 @@ import React from 'react';
 
 
 const MENU = {
-  appendices: {icon: <FileOutlineIcon />, subheader: 'Appendices'},
   1: {icon: <BabyIcon />, subheader: 'The Fundamentals'},
   2: {icon: <TargetIcon />, subheader: 'Supplementary Techniques'},
   3: {icon: <AlertOctagonIcon />, subheader: 'Limitations'},
-  puzzles: {icon: <PuzzleIcon/>, subheader: 'Test your knowledge'}
+  appendices: {icon: <FileOutlineIcon />, subheader: 'Appendices'},
+  puzzles: {icon: <PuzzleIcon />, subheader: 'Test your Knowledge'}
 };
 
 
@@ -119,7 +119,7 @@ class SidebarMenu extends React.PureComponent {
             </List>
             <Divider />
           </Collapse>
-          <ListItem button component={Link} to="/puzzles">
+          <ListItem button component={Link} to="/puzzles/">
             <ListItemIcon children={MENU.puzzles.icon} />
             <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
           </ListItem>
