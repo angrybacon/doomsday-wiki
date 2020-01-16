@@ -6,7 +6,7 @@ import Articles from './Articles';
 import Markdown from './Markdown';
 
 
-export default class Home extends React.PureComponent {
+export default class PageHome extends React.PureComponent {
   render() {
     const query = graphql`{
       home: file(relativePath: {eq: "partials/home.md"}) {childMarkdownRemark {rawMarkdownBody}}

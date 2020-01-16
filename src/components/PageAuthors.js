@@ -5,7 +5,7 @@ import React from 'react';
 import Markdown from './Markdown';
 
 
-export default class Home extends React.PureComponent {
+export default class PageAuthors extends React.PureComponent {
   render() {
     const query = graphql`{
       allFile(

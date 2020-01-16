@@ -6,7 +6,7 @@ import withStyles from '@material-ui/core/styles/withStyles';
 import Grid from '@material-ui/core/Grid';
 import Puzzle from './Puzzle.js';
 
-// import '../reset.scss';
+import '../reset.scss';
 
 
 const styles = theme => ({
@@ -48,7 +48,7 @@ const styles = theme => ({
 });
 
 
-class PuzzlesPage extends React.PureComponent {
+class PagePuzzles extends React.PureComponent {
   render() {
 
     const { classes } = this.props;
@@ -109,4 +109,4 @@ class PuzzlesPage extends React.PureComponent {
 }
 
 
-export default withStyles(styles)(PuzzlesPage);
+export default withStyles(styles)(PagePuzzles);

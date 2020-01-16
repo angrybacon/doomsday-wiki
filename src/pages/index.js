@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Application from '../components/Application';
-import Home from '../components/Home';
+import PageHome from '../components/PageHome';
 
 
-export default class IndexPage extends React.PureComponent {
+export default class Index extends React.PureComponent {
   render() {
-    return <Application children={<Home />} />;
+    return <Application children={<PageHome />} />;
   }
 }

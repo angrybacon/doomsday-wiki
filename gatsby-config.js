@@ -10,7 +10,7 @@ module.exports = {
     {
       options: {
         name: 'puzzles',
-        path: './puzzles/',
+        path: `${__dirname}/puzzles/`,
       },
       resolve: 'gatsby-source-filesystem',
     },

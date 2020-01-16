@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Application from '../components/Application';
-import Authors from '../components/Authors';
+import PageAuthors from '../components/PageAuthors';
 
 
-export default class AuthorsPage extends React.PureComponent {
+export default class Authors extends React.PureComponent {
   render() {
-    return <Application children={<Authors />} />;
+    return <Application children={<PageAuthors />} />;
   }
 }

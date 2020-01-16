@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Application from '../components/Application';
-import PuzzlesPage from '../components/PuzzlesPage';
+import PagePuzzles from '../components/PagePuzzles';
 
 
 export default class Puzzles extends React.PureComponent {
   render() {
-    return <Application children={<PuzzlesPage />} />;
+    return <Application children={<PagePuzzles />} />;
   }
 }
