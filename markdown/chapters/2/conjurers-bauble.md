@@ -26,8 +26,9 @@ a tool to draw cards when using LED.
 
 Example:
 
-> SW in hand - BBB+1UU (6)  
-> {{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}  
+> SW in hand - BBB+1UU (6)
+
+<pile>{{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}</pile>
 
 You should recognise the above example from the [Basics](/chapters/1/basics/)
 document.  
@@ -44,9 +45,11 @@ This is also enables things like Double Doomsday piles.
 
 Example:
 
-> CB in play, SW in hand - BBB+1UUR (7) - 13 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}  
-> {{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}  
+> CB in play, SW in hand - BBB+1UUR (7) - 13 Storm
+
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
+
+<pile>{{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</pile>
 
 This has some overlap with what is described in the [Double
 Doomsday](/chapters/2/double-doomsday/) document. Just as historically you could
@@ -71,11 +74,13 @@ other cards in hand we need.
 
 Examples:
 
-> CB in play, BW + SW in hand - BBB - 9 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
+> CB in play, BW + SW in hand - BBB - 9 Storm
 
-> CB in play, ToA + SW in hand - BBB - 8 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
+<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
+
+> CB in play, ToA + SW in hand - BBB - 8 Storm
+
+<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
 
 I know often you can find yourself with a key business spell in hand and no
 Brainstorm to move it with. You could use the SW to draw into a Brainstorm
@@ -94,8 +99,9 @@ pass-the-turn pile section.
 
 Example:
 
-> LED in play, ToA in hand - BBB+1 (4) - 6+7 Storm  
-> {{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}  
+> LED in play, ToA in hand - BBB+1 (4) - 6+7 Storm
+
+<pile>{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}</pile>
 
 In this instance we can play ToA twice. We draw IC for our turn.
 
@@ -124,8 +130,9 @@ allows you to extend that to a pseudo-six cards.
 
 Example:
 
-> CB in play, Pre in hand - BBB+1U (5) - 8 Storm  
-> {{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}  
+> CB in play, Pre in hand - BBB+1U (5) - 8 Storm
+
+<pile>{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</pile>
 
 Normally double cantrip piles that use Infernal Contract/Cruel Bargain/Meditate
 would mean that you draw yourself to death. However, with CB in the deck, you
@@ -143,11 +150,13 @@ for convenience:
 
 Examples:
 
-> CB in play, BW+SW in hand - BBB+0 (3) - 9 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
+> CB in play, BW+SW in hand - BBB+0 (3) - 9 Storm
 
-> CB in play, ToA+SW in hand - BBB+0 (3) - 8 Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}  
+<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
+
+> CB in play, ToA+SW in hand - BBB+0 (3) - 8 Storm
+
+<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
 
 If you notice, both result in wasted mana being left over. With the BW example
 you are left with U and with the ToA example you are left with U(B/R)(B/R) left
@@ -156,11 +165,13 @@ What if we were to swap the GP in the piles with a CB?
 
 Examples:
 
-> CB in play, BW+SW in hand - BBB+X (3+X) - 9+X Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}  
+> CB in play, BW+SW in hand - BBB+X (3+X) - 9+X Storm
 
-> CB in play, ToA+SW in hand - BBB+X (3+X) - 8+X Storm  
-> {{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}  
+<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</pile>
+
+> CB in play, ToA+SW in hand - BBB+X (3+X) - 8+X Storm
+
+<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</pile>
 
 Suddenly the two piles look very different notation wise. Both now have a
 variable X value in their respective mana costs and storm generated values. We
@@ -211,7 +222,8 @@ Example:
 Pass the turn.
 
 > CB in play, ToA in hand - BBB+1+X (4+X) - 12+X Storm
-> {{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}  
+
+<pile>{{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}</pile>
 
 Cast Doomsday build -> \[LED, IC, LED, LED, CB\]  
 Pass the turn  
@@ -267,7 +279,8 @@ nullify their Surgical.
 Example:
 
 > CB in play, SW in hand -  BBB+UU (5) - 8 Storm  
-> IU, LED, LED, SW, BW  
+
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
 
 If they cast Surgical in response to SW, you can use CB to send the target back
 into the deck. If they cast it in response to IU you can do the same trick. Once
@@ -284,8 +297,9 @@ that is completely immune to Pyroblast effects.
 
 Example:
 
-> CB in play - BBB+1+X (4+X) - 7+X Storm  
-> {{!IC}} {{!LED}} {{!LED}} {{!BW}} {{!CB}}  
+> CB in play - BBB+1+X (4+X) - 7+X Storm
+
+<pile>{{!IC}} {{!LED}} {{!LED}} {{!BW}} {{!CB}}</pile>
 
 ## Summary
 

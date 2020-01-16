@@ -33,6 +33,13 @@ const styles = theme => ({
     marginLeft: -theme.overrides.MuiPaper.root.padding,
     width: `calc(100% + ${theme.overrides.MuiPaper.root.padding * 2 + 1}px)`,
   },
+  pile: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    '@global img': {
+      width: '19%',
+    },
+  },
   table: {overflowX: 'auto'},
 });
 
@@ -65,20 +72,15 @@ class Markdown extends React.PureComponent {
     const parseHtml = htmlParser({
       isValidNode: node => node.type !== 'script',
       processingInstructions: [
-        // Custom processing instructions
         {
-          replaceChildren: true,
-          // Inserts decklist component into element with 'decklist'
-          // attribute, ex. <div deckfile="EchoDoomsday.json" />
-          shouldProcessNode: node => node.attribs && node.attribs['deckfile'],
-          // Perform the insertion
           processNode: node => React.createElement(Decklist, {deckFile: node.attribs['deckfile']}),
+          replaceChildren: true,
+          shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
         },
         {
-          // Handle anything you don't have custom processing for
-          shouldProcessNode: () => true,
-          // processNode: processNodeDefinitions.processDefaultNode,
-        },
+          processNode: () => React.createElement('span', {className: classes.pile}),
+          shouldProcessNode: node => node.name === 'pile',
+        }
       ]
     });
 

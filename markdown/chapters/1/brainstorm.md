@@ -19,11 +19,13 @@ You have U available. You have just cast Doomsday so storm count = 1. Your hand
 is BS and BW. Let's assess what we have and look at the most basic of piles to
 compare it with, one using IU and one using IC:
 
-> BS, BW in hand - BBB+UUU (6) - 7 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}  
+> BS, BW in hand - BBB+UUU (6) - 7 Storm
 
-> BS, BW in hand - BBB+UBBB1 (8) - 8 Storm  
-> {{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}  
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+
+> BS, BW in hand - BBB+UBBB1 (8) - 8 Storm
+
+<pile>{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
 
 Brainstorm can act as a simple cantrip into a pile, but it can do better here.
 We have a potential finisher in hand and we can use the BS to insert it into the
@@ -32,8 +34,9 @@ extra mana, etc.
 
 Example 1:
 
-> BS, BW in hand - BBB+U+1 (5) - 8 Storm  
-> {{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}  
+> BS, BW in hand - BBB+U+1 (5) - 8 Storm
+
+<pile>{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}</pile>
 
 1. Cast Doomsday, building the pile above
 2. Cast BS, draw LED, IU, SW and put back BW, IU
@@ -53,8 +56,9 @@ get an extra spell in the pile.
 
 Example 2:
 
-> BS, BW in hand - BBB+UB1 (6) - 9 Storm  
-> {{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}  
+> BS, BW in hand - BBB+UB1 (6) - 9 Storm
+
+<pile>{{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}</pile>
 
 1. Cast Doomsday, building the pile above
 2. Cast BS, draw IC, DR, LP, put back BW, LP
@@ -68,8 +72,9 @@ the amount of black mana needed. Here, Brainstorm is letting you swap the BW for
 a DR to cast IC. Like the previous example, this also generates one more storm
 than the basic pile.
 
-> BS, ToA in hand - BBB+U (4) - 7 Storm  
-> {{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}  
+> BS, ToA in hand - BBB+U (4) - 7 Storm
+
+<pile>{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}</pile>
 
 It follows the same lines of play as the above examples but does not require LED
 after the initial one used to cast IU as LP, DR and the U remaining after IU is
@@ -91,8 +96,9 @@ exchange any additional cards in hand with cards in the pile.
 
 Say we have BS, IU, and one card in hand. We cast Doomsday and build:
 
-> BS, IU, X in hand - BBB+U (4)- 8 Storm  
-> {{!LED}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}  
+> BS, IU, X in hand - BBB+U (4)- 8 Storm
+
+<pile>{{!LED}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</pile>
 
 1. Cast Doomsday, building the pile above
 2. Cast BS, draw LED, LED, GP and replace IU, X

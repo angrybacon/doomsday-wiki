@@ -134,7 +134,7 @@ how you would normally.
 
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
-{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}
+<pile>{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</pile>
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
 
@@ -174,7 +174,7 @@ into the main and some extra cantrip effects and discard are added.
 Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
-{{!AoI}} {{!LED}} {{!ToA}} {{!PN}} {{!CB}}
+<pile>{{!AoI}} {{!LED}} {{!ToA}} {{!PN}} {{!CB}}</pile>
 
 Some other cards come in to help with combo and consistency. Lim Dul's Vault is
 a classic UB card that has been used as a Vampiric Tutor for awhile and is often

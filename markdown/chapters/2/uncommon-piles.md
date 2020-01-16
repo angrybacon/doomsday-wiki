@@ -18,9 +18,11 @@ and recycle cards you cast in your first pile. These piles typically require a
 lot of mana and life (especially if you're using IC) but they are still worth
 knowing, though they rarely come up.
 
-> CB in play, SW in hand - BBB + 1UUR (7) - 11 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}  
-> {{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}  
+> CB in play, SW in hand - BBB + 1UUR (7) - 11 Storm
+
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
+
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
 
 Plays out as follows:
 
@@ -43,9 +45,11 @@ You can do a Double-DD pile with IC, but be aware you need at least 16 life
 pre-DD to execute this pile and it requires a silly amount of black mana. Here
 is an example of what that might look like:
 
-> DR, Pre in hand - BBB+UBBBBBB1 - 11 Storm  
-> {{!IC}} {{!DR}} {{!CB}} {{!DD}} {{!ToA}}  
-> {{!IC}} {{!DR}} {{!DR}} {{!DD}} {{!Pre}}  
+> DR, Pre in hand - BBB+UBBBBBB1 - 11 Storm
+
+<pile>{{!IC}} {{!DR}} {{!CB}} {{!DD}} {{!ToA}}</pile>
+
+<pile>{{!IC}} {{!DR}} {{!DR}} {{!DD}} {{!Pre}}</pile>
 
 1. Cast Doomsday, building the first pile above
 2. Cast DR, then Pre to draw IC
@@ -72,8 +76,9 @@ valid metagame choice depending on what decks you expect to face.
 
 A simple version of the pile looks like this:
 
-> Enough life to live for 2 turns post-DD  
-> {{!SI}} {{!EM}} {{!Isl}} {{!Dur}} {{!LM}}  
+> Enough life to live for 2 turns post-DD
+
+<pile>{{!SI}} {{!EM}} {{!Isl}} {{!Dur}} {{!LM}}</pile>
 
 1. Cast Doomsday, build the pile above, pass the turn.
 2. Draw and play Shelldock Isle, hideaway Emrakul, pass the turn
@@ -92,7 +97,7 @@ pass 1 turn.
 If you suspect the opponent has a way to interact with the order of your pile,
 like JTMS's +2, you can modify the pile slightly to play around this:
 
-> {{!CB}} {{!SI}} {{!Em}} {{!Dur}} {{!LM}}
+<pile>{{!CB}} {{!SI}} {{!Em}} {{!Dur}} {{!LM}}</pile>
 
 CB on top means SI won't get fatesealed, and you can put DD on the bottom with
 CB to draw SI and ensure you have enough cards in your library to not deck
@@ -111,8 +116,9 @@ are untapped by Time Spiral.
 
 A simple example of a pile that uses Time Spiral is as follows:
 
-> Cantrip, X in hand - UU+1R+\[1R\] (4) - 11 Storm  
-> {{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}  
+> Cantrip, X in hand - UU+1R+\[1R\] (4) - 11 Storm
+
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
 
 The first wish fetches Time Spiral, which untaps lands that let you play the
 second Burning Wish to fetch Tendrils.

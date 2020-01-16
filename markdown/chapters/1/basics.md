@@ -29,8 +29,9 @@ X means a variable amount of any generic mana
 
 Consider the following example of a Doomsday pile in this notation:
 
-> Cantrip in hand - BBB+UUU (6) - 7 Storm  
-> {{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}  
+> Cantrip in hand - BBB+UUU (6) - 7 Storm
+
+<pile>{{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</pile>
 
 This means that IU is the top card and BW is the bottom card. BBB+UUU represents
 the mana cost (Doomsday + Cantrip + Ideas Unbound), (6) is the total converted
@@ -63,8 +64,9 @@ have a Ponder in hand and U to cast it.
 
 #### Ideas Unbound
 
-> Cantrip in hand - BBB+UUU (5) - 7 Storm  
-> {{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}  
+> Cantrip in hand - BBB+UUU (5) - 7 Storm
+
+<pile>{{!IU}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</pile>
 
 1. Cast Doomsday and build the pile above
 2. Cast Cantrip from hand, draw IU
@@ -84,8 +86,9 @@ If you are low on life you'll need more mana to exchange the SW with a different
 
 #### Infernal Contract
 
-> Cantrip in hand - BBB+UBBB (7) - 7 Storm  
-> {{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}  
+> Cantrip in hand - BBB+UBBB (7) - 7 Storm
+
+<pile>{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
 
 1. Cast Doomsday and build the pile above
 2. Cast cantrip, draw IC
@@ -103,8 +106,9 @@ the first cantrip.
 
 #### Ideas Unbound
 
-> SW, SW in hand - BBB+1 (4) - 7 Storm  
-> {{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}  
+> SW, SW in hand - BBB+1 (4) - 7 Storm
+
+<pile>{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</pile>
 
 
 1. Cast Doomsday and build the pile above
@@ -132,8 +136,9 @@ for three black mana and pays for all but 1 mana of Tendrils of Agony.
 
 #### Infernal Contract
 
-> CB on board, Pre in hand - BBB+U1 (5) - 8 Storm  
-> {{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}  
+> CB on board, Pre in hand - BBB+U1 (5) - 8 Storm
+
+<pile>{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</pile>
 
 1. Cast Doomsday and build the above pile
 2. Cast Pre, draw LED

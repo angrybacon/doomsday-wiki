@@ -37,14 +37,17 @@ Now let's look into what winning with Laboratory Maniac looks like in Doomsday.
 Assuming you have 1 Laboratory Maniac somewhere in your maindeck, the standard
 piles are:
 
-> SW in hand - BBB+1UU (6) - 4 life  
-> {{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}  
+> SW in hand - BBB+1UU (6) - 4 life
 
-> CB in play + SW in hand - BBB+B (4) - 4 life  
-> {{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}  
+<pile>{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</pile>
 
-> 2x SW in hand - BBB+B (4) - 4 life  
-> {{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}  
+> CB in play + SW in hand - BBB+B (4) - 4 life
+
+<pile>{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}</pile>
+
+> 2x SW in hand - BBB+B (4) - 4 life
+
+<pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
 
 Most of these piles speak for themselves. Somehow draw and cast Ideas Unbound
 draw CB, LED, SW, cast CB, use SW+LED to draw and cast Laboratory Maniac, tap CB
@@ -71,8 +74,9 @@ as it isn't ass critical for playing through Discard, and the piles are not as
 efficient. It is possible however, and so for the sake of completeness IC/LM
 piles will be touched upon.
 
-> Pre in hand - BBB+UBBB+U/B (7)  
-> {{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}  
+> Pre in hand - BBB+UBBB+U/B (7)
+
+<pile>{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</pile>
 
 This pile is fairly straightforward. Cast IC, draw the remaining cards in your
 library, cast Ritual, Petal, CB, then LM. Draw with Bauble to win the game.
