@@ -4,12 +4,26 @@ import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import List from '@material-ui/core/List';
+import withStyles from '@material-ui/core/styles/withStyles';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import Decklist from './Decklist';
 
 
-export default class Puzzle extends React.PureComponent {
+const styles = theme => ({
+  panel: {
+    marginBottom: theme.spacing(2),
+    padding: 0,
+    '&:before': {
+      display: 'none',
+    },
+  },
+});
+
+
+class Puzzle extends React.PureComponent {
   render() {
+
+    const { classes } = this.props;
 
     const {
       deckFile,
@@ -24,37 +38,36 @@ export default class Puzzle extends React.PureComponent {
     } = this.props.data;
 
     return (
-      <div style={{marginTop: 30}}>
-        <Typography children={title} gutterBottom variant="h4" />
-        <ExpansionPanel style={{margin: 5}}>
-          <ExpansionPanelSummary aria-controls="panel1a-content"
-                                 expandIcon={<ChevronDownIcon />}
-                                 id="panel1a-header">
+      <>
+        <Typography children={title} paragraph variant="h4" />
+        <ExpansionPanel classes={{root: classes.panel}}>
+          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
             <Typography children="See Decklist:" />
           </ExpansionPanelSummary>
           <ExpansionPanelDetails style={{alignContent: 'stretch'}}>
             <Decklist deckFile={deckFile}/>
           </ExpansionPanelDetails>
         </ExpansionPanel>
-        <Typography gutterBottom>Opponent's Hand: {oppHand}</Typography>
-        <Typography gutterBottom>Opponent's Board: {oppBoard}</Typography>
-        <Typography gutterBottom>Your Hand: {yourHand}</Typography>
-        <Typography gutterBottom>Your Board: {yourBoard}</Typography>
-        <Typography gutterBottom>{situationNotes}</Typography>
-        <ExpansionPanel style={{margin: 5}}>
-          <ExpansionPanelSummary aria-controls="panel1a-content"
-                                 expandIcon={<ChevronDownIcon />}
-                                 id="panel1a-header">
+        <Typography>Opponent&apos;s Hand: {oppHand}</Typography>
+        <Typography>Opponent&apos;s Board: {oppBoard}</Typography>
+        <Typography>Your Hand: {yourHand}</Typography>
+        <Typography>Your Board: {yourBoard}</Typography>
+        <Typography paragraph>{situationNotes}</Typography>
+        <ExpansionPanel classes={{root: classes.panel}}>
+          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
             <Typography children="Solution:" />
           </ExpansionPanelSummary>
           <ExpansionPanelDetails>
             <List>
-              <Typography children={solution} gutterBottom />
-              <Typography children={solutionNotes} gutterBottom />
+              <Typography children={solution} paragraph />
+              <Typography children={solutionNotes} paragraph />
             </List>
           </ExpansionPanelDetails>
         </ExpansionPanel>
-      </div>
+      </>
     );
   }
 }
+
+
+export default withStyles(styles)(Puzzle);

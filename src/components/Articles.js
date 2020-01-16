@@ -21,7 +21,7 @@ export default class Articles extends React.PureComponent {
     }`;
     return <StaticQuery query={query} render={({ allFile }) => (
       <>
-        <Typography children="Articles" gutterBottom variant="h3" />
+        <Typography children="Articles" paragraph variant="h3" />
         <Typography component="ul">
           {allFile.edges.map((it, index) => {
             const { childMarkdownRemark: content, fields } = it.node;

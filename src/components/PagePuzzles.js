@@ -1,49 +1,14 @@
 import { StaticQuery, graphql } from 'gatsby';
 import React from 'react';
-import withStyles from '@material-ui/core/styles/withStyles';
-import Divider from '@material-ui/core/Divider';
 import Paper from '@material-ui/core/Paper';
+import withStyles from '@material-ui/core/styles/withStyles';
 import Markdown from './Markdown.js';
 import Puzzle from './Puzzle.js';
 
-import '../reset.scss';
-
 
 const styles = theme => ({
-  body: {
-    flexGrow: 1,
-    overflowY: 'auto',
-    paddingTop: theme.spacing(2),
-    [theme.breakpoints.up('md')]: {
-      paddingTop: theme.spacing(3),
-    },
-  },
-  children: {
-    flexGrow: 1,
-  },
-  content: {
-    height: '100%',
-  },
-  footer: {
-    marginBottom: theme.spacing(2),
-    marginTop: theme.spacing(2),
-    [theme.breakpoints.up('md')]: {
-      marginBottom: theme.spacing(3),
-      marginTop: theme.spacing(3),
-    },
-  },
-  main: {
-    height: '100%',
-    paddingLeft: theme.mixins.sidebar.width,
-    width: '100%',
-    [theme.breakpoints.down(theme.mixins.sidebar.treshold)]: {
-      paddingLeft: 0,
-    },
-  },
-  root: {
-    backgroundColor: theme.palette.background.default,
-    height: '100%',
-    minWidth: 320,
+  puzzle: {
+    marginTop: theme.spacing(3),
   },
 });
 
@@ -78,8 +43,7 @@ class PagePuzzles extends React.PureComponent {
       <Paper>
         <Markdown source={introduction.childMarkdownRemark.rawMarkdownBody} />
         {puzzles.nodes.map((it, index) => (
-          <div key={index}>
-            <Divider />
+          <div className={classes.puzzle} key={index}>
             <Puzzle data={it}/>
           </div>
         ))}
