@@ -1,9 +1,9 @@
 import { StaticQuery, graphql } from 'gatsby';
-import Paper from '@material-ui/core/Paper';
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
-import Grid from '@material-ui/core/Grid';
+import Divider from '@material-ui/core/Divider';
+import Paper from '@material-ui/core/Paper';
+import Markdown from './Markdown.js';
 import Puzzle from './Puzzle.js';
 
 import '../reset.scss';
@@ -54,56 +54,36 @@ class PagePuzzles extends React.PureComponent {
     const { classes } = this.props;
 
     const query = graphql`{
-      allFile(filter: {extension: {eq: "yaml"}}) {
-        edges {
-          node {
-            name
-            childPuzzlesYaml {
-              puzzles {
-                deckFile
-                oppHand
-                oppBoard
-                yourHand
-                yourBoard
-                situationNotes
-                solution
-                solutionNotes
-              }
-            }
-          }
+      introduction: file(relativePath: {eq: "partials/puzzles.md"}) {
+        childMarkdownRemark {
+          rawMarkdownBody
+        }
+      }
+      puzzles: allPuzzlesYaml(sort: {order: ASC, fields: title}) {
+        nodes {
+          deckFile
+          oppBoard
+          oppHand
+          situationNotes
+          solution
+          solutionNotes
+          title
+          yourBoard
+          yourHand
         }
       }
     }`;
 
-    return <StaticQuery query={query} render={({ allFile }) => (
-      <Grid item className={classes.body}>
-        <Paper>
-          <Typography children="Doomsday Puzzles" gutterBottom variant="h3" />
-          <Typography gutterBottom>
-            Feel like you have a handle on how to play the deck? Test your
-            knowledge with these puzzles! They range from simple checks of
-            fundamental understanding, to pain-inducing unrealsitic situations
-            you'll likely never encounter in the wild. Note that some puzzles
-            may have alternative solutions to the one's provided. And don't
-            forget to look at the reference decklists; different variants of the
-            deck will play different cards that can significantly impact
-            possible piles.
-          </Typography>
-          {allFile.edges.map((it, index) => {
-            const { childPuzzlesYaml, name } = it.node;
-            return (
-              <div key={index}>
-                <hr />
-                <br />
-                <Typography key={index} gutterBottom variant="h4">{name} Puzzles</Typography>
-                {childPuzzlesYaml.puzzles.map((child, index) => (
-                  <Puzzle index={index} key={index} puzzleDetails={child}/>
-                ))}
-              </div>
-            );
-          })}
-        </Paper>
-      </Grid>
+    return <StaticQuery query={query} render={({ introduction, puzzles }) => (
+      <Paper>
+        <Markdown source={introduction.childMarkdownRemark.rawMarkdownBody} />
+        {puzzles.nodes.map((it, index) => (
+          <div key={index}>
+            <Divider />
+            <Puzzle data={it}/>
+          </div>
+        ))}
+      </Paper>
     )} />;
   }
 }

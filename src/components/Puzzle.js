@@ -18,13 +18,14 @@ export default class Puzzle extends React.PureComponent {
       situationNotes,
       solution,
       solutionNotes,
+      title,
       yourBoard,
       yourHand,
-    } = this.props.puzzleDetails;
+    } = this.props.data;
 
     return (
       <div style={{marginTop: 30}}>
-        <Typography variant="h5">Puzzle #{this.props.index+1}</Typography>
+        <Typography children={title} gutterBottom variant="h4" />
         <ExpansionPanel style={{margin: 5}}>
           <ExpansionPanelSummary aria-controls="panel1a-content"
                                  expandIcon={<ChevronDownIcon />}
