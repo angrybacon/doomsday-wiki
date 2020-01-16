@@ -83,12 +83,12 @@ class Markdown extends React.PureComponent {
     });
 
     return (
-      <Typography component={ReactMarkdown}
+      <Typography astPlugins={[parseHtml]}
+                  className={className}
                   escapeHtml={false}
                   renderers={renderers}
                   source={source}
-                  astPlugins={[parseHtml]}
-                  className={className} />
+                  component={ReactMarkdown} />
     );
   }
 }

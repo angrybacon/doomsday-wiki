@@ -209,10 +209,11 @@ multiples, but this pile is a fine example of why you may want to.
 Example:
 
 Pass the turn.
-> CB in play, ToA in hand - BBB+1+X (4+X) - 12+X Storm  
+
+> CB in play, ToA in hand - BBB+1+X (4+X) - 12+X Storm
 > {{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}  
 
-Cast Doomsday build -> [LED, IC, LED, LED, CB]  
+Cast Doomsday build -> \[LED, IC, LED, LED, CB\]  
 Pass the turn  
 Draw (LED) for turn  
 1. Cast LED

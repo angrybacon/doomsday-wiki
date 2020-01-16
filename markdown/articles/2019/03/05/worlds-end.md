@@ -153,7 +153,7 @@ cast CoBru back up to 3/4 and thus can repeat ad infinium.
 Hell, you could even consider running Aetherflux Reservoir!
 
 As per the example above  
-\[LED, LED, LED, Aetherflux Resevoir, DD\]  
+\[LED, LED, LED, Aetherflux Reservoir, DD\]  
 Cast LED, from the top of your deck, crack for BBB  
 Cast LED, from the top of your deck, crack for BBB  
 Cast LED, from the top of your deck, crack for BBB  

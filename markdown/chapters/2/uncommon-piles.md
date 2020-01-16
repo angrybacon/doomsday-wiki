@@ -106,12 +106,12 @@ strong wishboard card in its own right, but giving your opponent a fresh 7 in
 our blue-dominated format is undesirable. For this reason the card sees little
 to no play, but is presented here for its historical interest.
 
-The cost listed in square brackets [..] is assumingly paid for by the lands that
+The cost listed in square brackets \[..\] is assumingly paid for by the lands that
 are untapped by Time Spiral.
 
 A simple example of a pile that uses Time Spiral is as follows:
 
-> Cantrip, X in hand - UU+1R+[1R] (4) - 11 Storm  
+> Cantrip, X in hand - UU+1R+\[1R\] (4) - 11 Storm  
 > {{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}  
 
 The first wish fetches Time Spiral, which untaps lands that let you play the
@@ -133,6 +133,6 @@ an additional extra card in hand to not deck yourself.
 ## Summary
 
 1. These piles are useful to know, for their historical significance and
-   occaisional practical use.
+   occasional practical use.
 2. These piles aren't going to come up all that often in a typical game, so
    don't feel you need to memorize them.
