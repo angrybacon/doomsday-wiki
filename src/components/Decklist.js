@@ -4,28 +4,11 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 
 
+// This class gets a decklist name from its props, loads up all the decks from
+// the 'decklists' folder, and displays the one with the name it was given.
+
+
 export default class Decklist extends React.PureComponent {
-
-  isMobile = () => {
-    if (
-      navigator.userAgent.match(/Android/i)
-        || navigator.userAgent.match(/webOS/i)
-        || navigator.userAgent.match(/iPhone/i)
-        || navigator.userAgent.match(/iPad/i)
-        || navigator.userAgent.match(/iPod/i)
-        || navigator.userAgent.match(/BlackBerry/i)
-        || navigator.userAgent.match(/Windows Phone/i)
-    ) {
-      return true;
-    }
-    else {
-      return false;
-    }
-  };
-
-  // This class gets a decklist name from its props, loads up all the decks from
-  // the 'decklists' folder, and displays the one with the name it was given.
-
   render() {
 
     const { deckFile } = this.props;
@@ -40,10 +23,7 @@ export default class Decklist extends React.PureComponent {
       <div style={{background: 'whitesmoke', padding: 15, width: '90%'}}>
         <Typography children={deckData.name} variant="h5" />
         <hr />
-        <Grid container
-              alignItems="flex-start"
-              direction={this.isMobile() ? 'column' : 'row'}
-              spacing={3}>
+        <Grid container alignItems="flex-start" spacing={3}>
           <Grid item xs zeroMinWidth>
             <div>
               <Typography children="Maindeck" variant="h5" />
@@ -56,7 +36,6 @@ export default class Decklist extends React.PureComponent {
           </Grid>
           <Grid item xs zeroMinWidth>
             <div>
-              {!this.isMobile() && <Typography children="&#10240;" variant="h5" />}
               <List>
                 {mainHalf2.map((it, index) => (
                   <Typography key={index} noWrap>{deckData.main[it]} {it}</Typography>
