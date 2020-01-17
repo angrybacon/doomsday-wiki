@@ -73,7 +73,10 @@ class Markdown extends React.PureComponent {
       isValidNode: node => node.type !== 'script',
       processingInstructions: [
         {
-          processNode: node => React.createElement(Decklist, {deckFile: node.attribs['deckfile']}),
+          processNode: node => React.createElement(Decklist, {
+            barf: true,
+            deckFile: node.attribs['deckfile'],
+          }),
           replaceChildren: true,
           shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
         },

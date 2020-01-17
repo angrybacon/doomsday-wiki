@@ -1,4 +1,6 @@
 import React from 'react';
+import Box from '@material-ui/core/Box';
+import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
@@ -10,12 +12,14 @@ import Decklist from './Decklist';
 
 
 const styles = theme => ({
-  panel: {
-    marginBottom: theme.spacing(2),
+  deck: {
     padding: 0,
-    '&:before': {
-      display: 'none',
+    '& > *': {
+      width: '100%',
     },
+  },
+  panel: {
+    padding: 0,
   },
 });
 
@@ -40,30 +44,37 @@ class Puzzle extends React.PureComponent {
     return (
       <>
         <Typography children={title} paragraph variant="h4" />
-        <ExpansionPanel classes={{root: classes.panel}}>
-          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="See Decklist:" />
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails style={{alignContent: 'stretch'}}>
-            <Decklist deckFile={deckFile}/>
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
-        <Typography>Opponent&apos;s Hand: {oppHand}</Typography>
-        <Typography>Opponent&apos;s Board: {oppBoard}</Typography>
-        <Typography>Your Hand: {yourHand}</Typography>
-        <Typography>Your Board: {yourBoard}</Typography>
-        <Typography paragraph>{situationNotes}</Typography>
-        <ExpansionPanel classes={{root: classes.panel}}>
-          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="Solution:" />
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails>
-            <List>
-              <Typography children={solution} paragraph />
-              <Typography children={solutionNotes} paragraph />
-            </List>
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
+        <Box my={2}>
+          <ExpansionPanel classes={{root: classes.panel}}>
+            <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
+              <Typography children="See Decklist:" />
+            </ExpansionPanelSummary>
+            <ExpansionPanelDetails classes={{root: classes.deck}}>
+              <div>
+                <Divider />
+                <Decklist deckFile={deckFile} hr={false} />
+              </div>
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
+        </Box>
+        <Typography children={`Opponent's Hand: ${oppHand}`} />
+        <Typography children={`Opponent's Board: ${oppBoard}`} />
+        <Typography children={`Your Hand: ${yourHand}`} />
+        <Typography children={`Your Board: ${yourBoard}`} />
+        <Typography children={situationNotes} />
+        <Box mt={2}>
+          <ExpansionPanel classes={{root: classes.panel}}>
+            <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
+              <Typography children="Solution:" />
+            </ExpansionPanelSummary>
+            <ExpansionPanelDetails>
+              <List>
+                <Typography children={solution} paragraph />
+                <Typography children={solutionNotes} paragraph />
+              </List>
+            </ExpansionPanelDetails>
+          </ExpansionPanel>
+        </Box>
       </>
     );
   }
