@@ -41,6 +41,7 @@ class Sidebar extends React.PureComponent {
         <Divider />
         <Grid item className={classes.body}>
           <SidebarMenu />
+          <Divider />
           <SidebarBody />
         </Grid>
       </Grid>

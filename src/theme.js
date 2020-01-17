@@ -32,13 +32,20 @@ const themeOptions = {
         },
       },
     },
+    MuiTableCell: {
+      head: {
+        lineHeight: 'inherit',
+      },
+    },
   },
 };
+
 
 export const lightTheme = createMuiTheme(Object.assign({}, themeOptions, {palette: {
   primary: {main: blueGrey[800]},
   secondary: pink,
 }}));
+
 
 export const darkTheme = createMuiTheme(Object.assign({}, themeOptions, {palette: {
   primary: {main: blueGrey[800]},
