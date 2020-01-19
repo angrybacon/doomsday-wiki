@@ -1,4 +1,5 @@
 ---
+authors: d8dk32
 title: Doomsday after the Probe Ban
 ---
 
