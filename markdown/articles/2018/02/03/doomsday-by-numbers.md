@@ -2,11 +2,9 @@
 
 All data compiled 3rd February 2018
 
-```
-"Decks not hot.
-DDFT is international now fam.
-Check the statistekks. (?)"
-```
+> *Decks not hot.*  
+> *DDFT is international now fam.*  
+> *Check the statistekks. (?)*
 
 ## The Data Collection
 

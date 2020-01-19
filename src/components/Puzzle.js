@@ -1,3 +1,4 @@
+import c from 'classnames';
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
@@ -5,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import List from '@material-ui/core/List';
 import withStyles from '@material-ui/core/styles/withStyles';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import Decklist from './Decklist';
@@ -20,6 +20,9 @@ const styles = theme => ({
   },
   panel: {
     padding: 0,
+  },
+  panelDetails: {
+    display: 'block',
   },
 });
 
@@ -49,7 +52,7 @@ class Puzzle extends React.PureComponent {
             <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
               <Typography children="See Decklist:" />
             </ExpansionPanelSummary>
-            <ExpansionPanelDetails classes={{root: classes.deck}}>
+            <ExpansionPanelDetails classes={{root: c(classes.panelDetails, classes.deck)}}>
               <div>
                 <Divider />
                 <Decklist deckFile={deckFile} hr={false} />
@@ -67,11 +70,9 @@ class Puzzle extends React.PureComponent {
             <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
               <Typography children="Solution:" />
             </ExpansionPanelSummary>
-            <ExpansionPanelDetails>
-              <List>
-                <Typography children={solution} paragraph />
-                <Typography children={solutionNotes} paragraph />
-              </List>
+            <ExpansionPanelDetails classes={{root: classes.panelDetails}}>
+              <Typography children={solution} paragraph />
+              <Typography children={solutionNotes} paragraph />
             </ExpansionPanelDetails>
           </ExpansionPanel>
         </Box>

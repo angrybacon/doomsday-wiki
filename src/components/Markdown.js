@@ -1,4 +1,4 @@
-import classNames from 'classnames';
+import c from 'classnames';
 import Divider from '@material-ui/core/Divider';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -53,7 +53,7 @@ class Markdown extends React.PureComponent {
       blockquote: props => <Quote children={props.children} />,
       code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
       heading: props => (
-        <Typography children={props.children} paragraph variant={`h${props.level + 2}`} />
+        <Typography children={props.children} gutterBottom variant={`h${props.level + 2}`} />
       ),
       link: props => <Prettylink {...props} />,
       linkReference: props => <Prettylink {...props} />,
@@ -64,9 +64,7 @@ class Markdown extends React.PureComponent {
       tableBody: props => <TableBody children={props.children} />,
       tableRow: props => <TableRow children={props.children} />,
       tableCell: props => <TableCell children={props.children} />,
-      thematicBreak: () => (
-        <Divider className={classNames(classes.divider, {[classes.gutter]: gutter})} />
-      ),
+      thematicBreak: () => <Divider className={c(classes.divider, {[classes.gutter]: gutter})} />,
     };
 
     const parseHtml = htmlParser({

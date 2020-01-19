@@ -10,13 +10,11 @@ export default class PageHome extends React.PureComponent {
   render() {
     const query = graphql`{
       home: file(relativePath: {eq: "partials/home.md"}) {childMarkdownRemark {rawMarkdownBody}}
-      links: file(relativePath: {eq: "partials/links.md"}) {childMarkdownRemark {rawMarkdownBody}}
     }`;
     return <StaticQuery query={query} render={({ home, links }) => (
       <>
         <Paper children={<Markdown source={home.childMarkdownRemark.rawMarkdownBody} />} />
         <Paper children={<Articles />} />
-        <Paper children={<Markdown source={links.childMarkdownRemark.rawMarkdownBody} />} />
       </>
     )} />;
   }
