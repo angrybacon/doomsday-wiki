@@ -1,6 +1,11 @@
+const dayjs = require('dayjs');
+const customParseFormat = require('dayjs/plugin/customParseFormat');
 const { createFilePath } = require('gatsby-source-filesystem');
 const path = require('path');
 const scryfall = require('./src/tools/scryfall');
+
+
+dayjs.extend(customParseFormat);
 
 
 exports.onCreateNode = ({ actions, getNode, node }) => {
@@ -8,6 +13,10 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
   if (node.internal.type === 'File') {
     const slug = createFilePath({getNode, node});
     createNodeField({name: 'slug', node, value: slug});
+    const date = dayjs(node.relativeDirectory, '[articles]/YYYY/MM/DD');
+    if (date.isValid()) {
+      createNodeField({name: 'date', node, value: date.format('YYYY-MM-DD')});
+    }
     const [ namespace, chapter ] = node.relativePath.split('/');
     if (namespace === 'chapters') {
       createNodeField({name: 'chapter', node, value: chapter});

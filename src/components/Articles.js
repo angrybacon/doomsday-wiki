@@ -18,7 +18,7 @@ export default class Articles extends React.PureComponent {
       ) {
         nodes {
           childMarkdownRemark {frontmatter {authors title}}
-          fields {slug}
+          fields {date slug}
         }
       }
     }`;
@@ -34,7 +34,7 @@ export default class Articles extends React.PureComponent {
               <ListItemText component={Prettylink}
                             key={index}
                             primary={<Prettylink children={title} href={fields.slug} />}
-                            secondary={authors} />
+                            secondary={`${fields.date}${authors}`} />
             );
           })}
         </List>
