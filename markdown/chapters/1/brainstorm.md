@@ -1,4 +1,6 @@
-# Brainstorm in Doomsday
+---
+title: Brainstorm in Doomsday
+---
 
 Brainstorm is one of the most powerful spells available in the Legacy format at
 this time. There have been numerous articles written on this 'seemingly

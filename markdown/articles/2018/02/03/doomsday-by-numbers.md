@@ -1,4 +1,7 @@
-# Doomsday by Numbers
+---
+authors: Doishy
+title: Doomsday by Numbers
+---
 
 All data compiled 3rd February 2018
 

@@ -1,4 +1,6 @@
-# Removal Tables
+---
+title: Removal Tables
+---
 
 Below are a series of tables detailing various options for artifact removal and
 the costs associated with removing common artifacts. This will be updated as

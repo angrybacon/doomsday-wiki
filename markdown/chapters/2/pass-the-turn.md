@@ -1,4 +1,6 @@
-# Pass-the-Turn Piles
+---
+title: Pass-the-Turn Piles
+---
 
 First of all, why would you ever want to cast Doomsday and then pass the turn?
 The answer is simple: when you can't win otherwise. Pass the turn piles help out

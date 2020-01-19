@@ -1,4 +1,8 @@
 import { StaticQuery, graphql } from 'gatsby';
+import Box from '@material-ui/core/Box';
+import Divider from '@material-ui/core/Divider';
+import List from '@material-ui/core/List';
+import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
@@ -8,31 +12,32 @@ import Prettylink from './Prettylink';
 export default class Articles extends React.PureComponent {
   render() {
     const query = graphql`{
-      allFile(
-        filter: {relativePath: {glob: "articles/**/*"}}
-        sort: {fields: fields___slug}
-      ) {edges {node {
-        childMarkdownRemark {
-          frontmatter {authors}
-          headings(depth: h1) {value}
+      articles: allFile(
+        filter: {relativeDirectory: {glob: "articles/**/*"}},
+        sort: {fields: fields___slug, order: ASC}
+      ) {
+        nodes {
+          childMarkdownRemark {frontmatter {authors title}}
+          fields {slug}
         }
-        fields {slug}
-      }}}
+      }
     }`;
-    return <StaticQuery query={query} render={({ allFile }) => (
+    return <StaticQuery query={query} render={({ articles }) => (
       <>
-        <Typography children="Articles" paragraph variant="h3" />
-        <Typography component="ul">
-          {allFile.edges.map((it, index) => {
-            const { childMarkdownRemark: content, fields } = it.node;
+        <Typography children="Articles" gutterBottom variant="h3" />
+        <Box children={<Divider />} my={3} />
+        <List disablePadding>
+          {articles.nodes.map(({ childMarkdownRemark: content, fields }, index) => {
+            const title = content.frontmatter.title;
+            const authors = content.frontmatter.authors ? ` by ${content.frontmatter.authors}` : '';
             return (
-              <li key={index}>
-                <Prettylink children={content.headings[0].value} href={fields.slug}/>
-                {content.frontmatter.authors && ` - by ${content.frontmatter.authors}`}
-              </li>
+              <ListItemText component={Prettylink}
+                            key={index}
+                            primary={<Prettylink children={title} href={fields.slug} />}
+                            secondary={authors} />
             );
           })}
-        </Typography>
+        </List>
       </>
     )} />;
   }

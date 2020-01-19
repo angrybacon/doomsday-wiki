@@ -1,4 +1,6 @@
-# Other Doomsday Resources
+---
+title: Other Doomsday Resources
+---
 
 ## Streams
 

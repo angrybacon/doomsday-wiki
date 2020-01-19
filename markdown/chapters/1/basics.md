@@ -1,4 +1,6 @@
-# The Basics
+---
+title: The Basics
+---
 
 This section explains the basic Doomsday piles that attempt to end the game
 directly with a lethal Tendrils of Agony. Fortunately, these piles will also be

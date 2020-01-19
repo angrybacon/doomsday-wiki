@@ -1,4 +1,7 @@
-# The End of the World at SCG Worcester: A Tale of Heroic Courage and Crushing Defeat
+---
+authors: d8dk32
+title: "The End of the World at SCG Worcester: A Tale of Heroic Courage and Crushing Defeat"
+---
 
 Our hellride begins on March 3rd, 2018, just after 12am. I have to be up in 5
 hours to start making my way towards Worcester. I throw my shit in a bag and

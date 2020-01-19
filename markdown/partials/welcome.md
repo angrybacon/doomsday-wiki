@@ -1,4 +1,8 @@
-# The Doomsday Codex
+---
+title: The Doomsday Codex
+---
+
+[Doomsday Discord](https://discord.gg/vajvFXt)
 
 The Doomsday Codex is intended to be the most complete and up to date work on
 how to cast the card named Doomsday in the Doomsday storm combo deck (DDFT) in

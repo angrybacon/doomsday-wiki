@@ -1,9 +1,6 @@
 ---
 authors: d8dk32
----
-
-# Echoes of the Past - A Doomsday Deck for the Roaring Twenties
-
+title: Echoes of the Past - A Doomsday Deck for the Roaring Twenties
 ---
 
 2019 was a good year for Doomsday. Experimental Frenzy was integral to a massive

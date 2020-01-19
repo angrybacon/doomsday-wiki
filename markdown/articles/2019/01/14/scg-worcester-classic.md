@@ -1,9 +1,6 @@
 ---
 authors: d8dk32
----
-
-# Stages of Grief - Doomsday at the SCG Worcester Classic
-
+title: Stages of Grief - Doomsday at the SCG Worcester Classic
 ---
 
 When Gitaxian Probe was banned, Doomsday, barely clinging to life after losing

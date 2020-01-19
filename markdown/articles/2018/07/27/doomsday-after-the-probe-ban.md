@@ -1,4 +1,6 @@
-# Doomsday after the Probe Ban
+---
+title: Doomsday after the Probe Ban
+---
 
 The banning of Gitaxian Probe was brutal. I can't think of another word to
 describe it. For other Storm decks, Probe was simply a powerful card, too good

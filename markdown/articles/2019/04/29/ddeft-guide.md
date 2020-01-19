@@ -1,9 +1,6 @@
 ---
 authors: Knox
----
-
-# Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
-
+title: Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
 ---
 
 Since the banning of Gitaxian probe on July 2nd of 2018, Doomsday had not seen

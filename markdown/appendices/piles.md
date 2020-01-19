@@ -1,4 +1,6 @@
-# Doomsday Pile Document
+---
+title: Doomsday Pile Document
+---
 
 This document serves as a guide to beginning Doomsday players (the Doomsday
 storm deck in the Legacy Format of Magic: The Gathering).

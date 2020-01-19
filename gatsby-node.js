@@ -6,7 +6,7 @@ const scryfall = require('./src/tools/scryfall');
 exports.onCreateNode = ({ actions, getNode, node }) => {
   const { createNodeField } = actions;
   if (node.internal.type === 'File') {
-    const slug = createFilePath({basePath: 'markdown', getNode, node});
+    const slug = createFilePath({getNode, node});
     createNodeField({name: 'slug', node, value: slug});
     const [ namespace, chapter ] = node.relativePath.split('/');
     if (namespace === 'chapters') {
@@ -23,22 +23,30 @@ exports.createPages = ({ actions, graphql }) => {
     allFile(filter: {
       extension: {eq: "md"},
       relativePath: {glob: "(appendices|articles|chapters)/**/*"}
-      sourceInstanceName: {eq: "markdown"},
-    }) {edges {node {
-      childMarkdownRemark {rawMarkdownBody}
-      fields {slug}
-    }}}
-  }`);
-  return query.then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors);
+      sourceInstanceName: {eq: "markdown"}
+    }) {
+      edges {
+        node {
+          childMarkdownRemark {
+            rawMarkdownBody
+            frontmatter {title}
+          }
+          fields {slug}
+        }
+      }
     }
-    return Promise.all(result.data.allFile.edges.map(
-      ({ node }) => scryfall.replace(node.childMarkdownRemark.rawMarkdownBody).then(body => createPage({
+  }`);
+  return query.then(({ data, errors }) => {
+    if (errors) {
+      return Promise.reject(errors);
+    }
+    return Promise.all(data.allFile.edges.map(({ node }) => {
+      const { frontmatter, rawMarkdownBody } = node.childMarkdownRemark;
+      return scryfall.replace(rawMarkdownBody).then(body => createPage({
         component: renderer,
-        context: {body},
+        context: {body, title: frontmatter.title},
         path: node.fields.slug,
-      }))
-    ));
+      }));
+    }));
   });
 };

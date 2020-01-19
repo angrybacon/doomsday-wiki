@@ -1,4 +1,6 @@
-# Playing Around Surgical Extraction
+---
+title: Playing Around Surgical Extraction
+---
 
 When people are side-boarding to face Doomsday there is one card that they so
 often bring in along with all the discard, counter-magic, spheres and such;

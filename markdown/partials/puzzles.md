@@ -1,4 +1,6 @@
-# Doomsday Puzzles
+---
+title: Doomsday Puzzles
+---
 
 Feel like you have a handle on how to play the deck? Test your knowledge with
 these puzzles! They range from simple checks of fundamental understanding, to

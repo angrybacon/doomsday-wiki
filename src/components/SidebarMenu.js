@@ -47,7 +47,7 @@ class SidebarMenu extends React.PureComponent {
       ) {
         edges {
           node {
-            childMarkdownRemark {headings(depth: h1) {value}}
+            childMarkdownRemark {frontmatter {title}}
             fields {slug}
           }
         }
@@ -59,7 +59,7 @@ class SidebarMenu extends React.PureComponent {
         group(field: fields___chapter) {
           edges {
             node {
-              childMarkdownRemark {headings(depth: h1) {value}}
+              childMarkdownRemark {frontmatter {title}}
               fields {slug}
             }
           }
@@ -89,7 +89,7 @@ class SidebarMenu extends React.PureComponent {
                             dense
                             key={index}
                             to={node.fields.slug}>
-                    <ListItemText primary={node.childMarkdownRemark.headings[0].value} />
+                    <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
                   </ListItem>
                 ))}
               </List>
@@ -113,7 +113,7 @@ class SidebarMenu extends React.PureComponent {
                           dense
                           key={index}
                           to={node.fields.slug}>
-                  <ListItemText primary={node.childMarkdownRemark.headings[0].value} />
+                  <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
                 </ListItem>
               ))}
             </List>

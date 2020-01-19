@@ -1,4 +1,7 @@
-# Doomsday in 2017
+---
+authors: Doishy
+title: Doomsday in 2017
+---
 
 We shall begin with a Pixar-esque bittersweet beginning. The deck is working,
 people are happy, we can run maindeck Abrupt Decay yet still deploy triple

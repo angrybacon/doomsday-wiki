@@ -1,4 +1,6 @@
-# Decklist Compendium
+---
+title: Decklist Compendium
+---
 
 This page serves a a repository of Doomsday decklists past and present. Those
 under 'Current Decklists' are considered stock lists of the currently playable

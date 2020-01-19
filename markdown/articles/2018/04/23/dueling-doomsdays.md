@@ -1,4 +1,7 @@
-# Dueling Doomsday: Clash in Cymru
+---
+authors: Doishy
+title: "Dueling Doomsday: Clash in Cymru"
+---
 
 ## Setting the scene:
 

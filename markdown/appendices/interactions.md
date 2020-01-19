@@ -1,4 +1,6 @@
-# Interesting Interactions
+---
+title: Interesting Interactions
+---
 
 This appendix describes important card interactions that may not be obvious to a
 DDFT beginner.

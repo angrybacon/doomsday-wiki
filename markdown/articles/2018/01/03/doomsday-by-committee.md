@@ -1,4 +1,7 @@
-# Doomsday by Committee, Setting the Scene
+---
+authors: Doishy, d8dk32
+title: Doomsday by Committee, Setting the Scene
+---
 
 ```
 "Eye of twilight, give us sight.

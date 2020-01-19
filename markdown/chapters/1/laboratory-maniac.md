@@ -1,4 +1,6 @@
-# Laboratory Maniac Piles
+---
+title: Laboratory Maniac Piles
+---
 
 Just to be very clear on the purpose of this section: This does not consider the
 use of Mental Note or Unearth or any other dead cards that are vulnerable to

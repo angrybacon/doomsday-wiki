@@ -1,4 +1,6 @@
-# Conjurer's Bauble Piles
+---
+title: Conjurer's Bauble Piles
+---
 
 Historically Sensei's Divining Top held a place as a standard 4-of in the deck
 to act as deck filtering and a 'free saved' card draw for Doomsday piles. More

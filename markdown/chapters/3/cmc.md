@@ -1,4 +1,6 @@
-# Limited Numbers
+---
+title: Limited Numbers
+---
 
 This is a generic title. This section discusses all cards that selectively lock
 off a certain CMC cost of a spell. This can include things like Chalice of the

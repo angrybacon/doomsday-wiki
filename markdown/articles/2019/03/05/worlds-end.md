@@ -1,9 +1,6 @@
 ---
 authors: Doishy
----
-
-# The World's End - An Experimental Frenzy
-
+title: The World's End - An Experimental Frenzy
 ---
 
 Well it has been awhile. Apologies for the silence however unlike d8dk32, the

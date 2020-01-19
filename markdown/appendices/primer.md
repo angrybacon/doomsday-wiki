@@ -1,9 +1,6 @@
 ---
 authors: d8dk32
----
-
-# Draw4 Doomsday Primer
-
+title: Draw4 Doomsday Primer
 ---
 
 After the Probe ban, we in the Doomsday Discord lamented our loss and many
