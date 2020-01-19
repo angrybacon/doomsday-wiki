@@ -68,7 +68,7 @@ class Layout extends React.PureComponent {
                 {this.props.children}
               </Grid>
               <Grid item className={classes.footer}>
-                <Typography align="center" component="footer">
+                <Typography align="center" color="textSecondary" component="footer">
                   Copyright &copy; 2019&nbsp;
                   <Prettylink children="ddft.wiki contributors" href="/authors/" />
                 </Typography>
