@@ -42,20 +42,15 @@ const themeOptions = {
 
 
 export const lightTheme = createMuiTheme(Object.assign({}, themeOptions, {palette: {
-  primary: {main: blueGrey[800]},
+  background: {secondary: blueGrey.A100},
+  primary: blueGrey,
   secondary: pink,
 }}));
 
 
 export const darkTheme = createMuiTheme(Object.assign({}, themeOptions, {palette: {
-  primary: {main: blueGrey[800]},
+  background: {secondary: blueGrey.A700},
+  primary: blueGrey,
   secondary: pink,
-  text: {
-    disabled: 'rgba(255, 255, 255, 0.4)',
-    hint: 'rgba(255, 255, 255, 0.4)',
-    icon: 'rgba(255, 255, 255, 0.4)',
-    primary: 'rgba(255, 255, 255, 0.8)',
-    secondary: 'rgba(255, 255, 255, 0.6)',
-  },
   type: 'dark',
 }}));

@@ -1,6 +1,4 @@
 import { StaticQuery, graphql } from 'gatsby';
-import Box from '@material-ui/core/Box';
-import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
@@ -25,7 +23,6 @@ export default class Articles extends React.PureComponent {
     return <StaticQuery query={query} render={({ articles }) => (
       <>
         <Typography children="Articles" gutterBottom variant="h3" />
-        <Box children={<Divider />} my={3} />
         <List disablePadding>
           {articles.nodes.map(({ childMarkdownRemark: content, fields }, index) => {
             const title = content.frontmatter.title;

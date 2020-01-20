@@ -15,12 +15,13 @@ const styles = theme => ({
   barf: {
     marginLeft: -theme.overrides.MuiPaper.root.padding,
     marginRight: -theme.overrides.MuiPaper.root.padding,
+    padding: 0,
   },
   content: {
-    padding: [[theme.spacing(1), theme.overrides.MuiPaper.root.padding]],
+    padding: [[theme.spacing(1), theme.spacing(2), theme.spacing(2)]],
   },
   root: {
-    backgroundColor: theme.palette.type === 'dark' ? theme.palette.grey[900] : theme.palette.grey[100],
+    backgroundColor: theme.palette.background.secondary,
   },
 });
 
@@ -38,16 +39,16 @@ class Decklist extends React.PureComponent {
           <Typography children={name} paragraph variant="h5" />
           <Grid container>
             <Grid item xs={12} sm={6} md={8}>
-              <Typography children="Maindeck" variant="h6" />
-              <List>
+              <Typography children="Maindeck" gutterBottom variant="h6" />
+              <List disablePadding>
                 {Object.entries(main).map(([ card, amount ], index) => (
                   <Typography children={`${amount} ${card}`} component="li" key={index} />
                 ))}
               </List>
             </Grid>
             <Grid item xs={12} sm={6} md={4}>
-              <Typography children="Sideboard" variant="h6" />
-              <List>
+              <Typography children="Sideboard" gutterBottom variant="h6" />
+              <List disablePadding>
                 {Object.entries(side).map(([ card, amount ], index) => (
                   <Typography children={`${amount} ${card}`} component="li" key={index} />
                 ))}

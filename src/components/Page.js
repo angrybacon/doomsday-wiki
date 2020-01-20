@@ -1,6 +1,4 @@
-import Box from '@material-ui/core/Box';
 import Paper from '@material-ui/core/Paper';
-import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
@@ -14,12 +12,7 @@ export default class Page extends React.PureComponent {
     return (
       <Application>
         <Paper>
-          {!!title && (
-            <>
-              <Typography children={title} variant="h3" />
-              <Box children={<Divider />} my={3} />
-            </>
-          )}
+          {!!title && <Typography children={title} gutterBottom variant="h3" />}
           <Markdown source={body} />
         </Paper>
       </Application>

@@ -1,7 +1,5 @@
 import { StaticQuery, graphql } from 'gatsby';
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import Divider from '@material-ui/core/Divider';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
@@ -47,8 +45,7 @@ class PagePuzzles extends React.PureComponent {
       const { frontmatter, rawMarkdownBody } = introduction.childMarkdownRemark;
       return (
         <Paper>
-          <Typography children={frontmatter.title} variant="h3" />
-          <Box children={<Divider />} my={3} />
+          <Typography children={frontmatter.title} gutterBottom variant="h3" />
           <Markdown source={rawMarkdownBody} />
           {puzzles.nodes.map((it, index) => (
             <div className={classes.puzzle} key={index}>
