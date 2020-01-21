@@ -1,25 +1,26 @@
-import { StaticQuery, graphql } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import Paper from '@material-ui/core/Paper';
 import React from 'react';
 
 import Markdown from '../Markdown';
 
 
-export default class PageAuthors extends React.PureComponent {
-  render() {
-    const query = graphql`{
-      allFile(
-        filter: {relativePath: {glob: "authors/**/*"}}
-        sort: {fields: name}
-      ) {edges {node {childMarkdownRemark {rawMarkdownBody}}}}
-    }`;
-    return <StaticQuery query={query} render={({ allFile }) => (
-      <>
-        {allFile.edges.map((it, index) => (
-          <Paper children={<Markdown source={it.node.childMarkdownRemark.rawMarkdownBody} />}
-                 key={index} />
-        ))}
-      </>
-    )} />;
-  }
+export default function PageAuthors() {
+  const { authors } = useStaticQuery(graphql`{
+    authors: allFile(
+      filter: {relativePath: {glob: "authors/**/*"}}
+      sort: {fields: name, order: ASC}
+    ) {
+      nodes {
+        childMarkdownRemark {rawMarkdownBody}
+      }
+    }
+  }`);
+  return (
+    <>
+      {authors.nodes.map(({ childMarkdownRemark: content }, index) => (
+        <Paper children={<Markdown source={content.rawMarkdownBody} />} key={index} />
+      ))}
+    </>
+  );
 }
