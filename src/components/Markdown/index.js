@@ -11,9 +11,9 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 
-import Decklist from './Decklist';
-import Prettylink from './Prettylink';
-import Quote from './Quote';
+import Decklist from '../Decklist';
+import Prettylink from '../Prettylink';
+import Quote from '../Quote';
 
 
 const styles = theme => ({

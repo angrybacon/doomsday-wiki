@@ -3,11 +3,11 @@ import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
 import React from 'react';
 
-import Header from './Header';
-import Prettylink from './Prettylink';
-import Sidebar from './Sidebar';
+import Header from '../Header';
+import Prettylink from '../Prettylink';
+import Sidebar from '../Sidebar';
 
-import '../reset.scss';
+import '../../reset.scss';
 
 
 const styles = theme => ({

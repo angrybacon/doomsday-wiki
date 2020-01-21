@@ -30,7 +30,7 @@ class Decklist extends React.PureComponent {
   render() {
 
     const { classes, barf, deckFile, hr=true } = this.props;
-    const { main, name, side } = require('../../decklists/' + deckFile);
+    const { main, name, side } = require('../../../decklists/' + deckFile);
 
     return (
       <div className={c(classes.root, {[classes.barf]: barf})}>

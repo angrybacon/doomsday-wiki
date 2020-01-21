@@ -8,7 +8,7 @@ import MenuIcon from 'mdi-react/MenuIcon';
 import React from 'react';
 
 // import Breadcrumbs from '../Breadcrumbs';
-import { SidebarConsumer } from '../contexts/Sidebar';
+import { SidebarConsumer } from '../../contexts/Sidebar';
 
 
 const styles = theme => ({

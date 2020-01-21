@@ -1,9 +1,9 @@
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import React from 'react';
 
-import Layout from './Layout';
-import { SidebarProvider } from '../contexts/Sidebar';
-import { ThemeConsumer, ThemeProvider } from '../contexts/Theme';
+import Layout from '../Layout';
+import { SidebarProvider } from '../../contexts/Sidebar';
+import { ThemeConsumer, ThemeProvider } from '../../contexts/Theme';
 
 
 class Application extends React.PureComponent {

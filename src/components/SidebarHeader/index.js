@@ -6,8 +6,8 @@ import Toolbar from '@material-ui/core/Toolbar';
 import withStyles from '@material-ui/core/styles/withStyles';
 import React from 'react';
 
-import { SidebarConsumer } from '../contexts/Sidebar';
-import { ThemeConsumer } from '../contexts/Theme';
+import { SidebarConsumer } from '../../contexts/Sidebar';
+import { ThemeConsumer } from '../../contexts/Theme';
 
 
 const styles = theme => ({

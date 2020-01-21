@@ -4,7 +4,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
-import Prettylink from './Prettylink';
+import Prettylink from '../Prettylink';
 
 
 export default class Articles extends React.PureComponent {

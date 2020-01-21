@@ -2,7 +2,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Typography from '@material-ui/core/Typography';
 import React from 'react';
 
-import Markdown from './Markdown';
+import Markdown from '../Markdown';
 
 
 export default class Welcome extends React.PureComponent {

@@ -2,7 +2,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import Paper from '@material-ui/core/Paper';
 import React from 'react';
 
-import Markdown from './Markdown';
+import Markdown from '../Markdown';
 
 
 export default class PageAuthors extends React.PureComponent {

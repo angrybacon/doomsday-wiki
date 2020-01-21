@@ -27,7 +27,7 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
-  const renderer = path.resolve('src/components/Page.js');
+  const renderer = path.resolve('src/components/Page/index.js');
   const query = graphql(`{
     allFile(filter: {
       extension: {eq: "md"},

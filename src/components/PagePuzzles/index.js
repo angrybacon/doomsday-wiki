@@ -3,8 +3,8 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import withStyles from '@material-ui/core/styles/withStyles';
-import Markdown from './Markdown.js';
-import Puzzle from './Puzzle.js';
+import Markdown from '../Markdown';
+import Puzzle from '../Puzzle';
 
 
 const styles = theme => ({

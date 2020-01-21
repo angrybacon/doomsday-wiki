@@ -6,10 +6,10 @@ import withWidth, { isWidthDown } from '@material-ui/core/withWidth';
 import withStyles from '@material-ui/core/styles/withStyles';
 import React from 'react';
 
-import SidebarBody from './SidebarBody';
-import SidebarHeader from './SidebarHeader';
-import SidebarMenu from './SidebarMenu';
-import { SidebarConsumer } from '../contexts/Sidebar';
+import SidebarBody from '../SidebarBody';
+import SidebarHeader from '../SidebarHeader';
+import SidebarMenu from '../SidebarMenu';
+import { SidebarConsumer } from '../../contexts/Sidebar';
 
 
 const styles = theme => ({

@@ -1,7 +1,7 @@
 import { StaticQuery, graphql } from 'gatsby';
 import React from 'react';
 
-import Markdown from './Markdown';
+import Markdown from '../Markdown';
 
 
 export default class SidebarBody extends React.PureComponent {

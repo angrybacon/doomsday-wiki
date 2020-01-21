@@ -8,7 +8,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import withStyles from '@material-ui/core/styles/withStyles';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
-import Decklist from './Decklist';
+import Decklist from '../Decklist';
 
 
 const styles = theme => ({
