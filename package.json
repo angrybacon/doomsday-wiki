@@ -1,7 +1,7 @@
 {
   "name": "doomsday-wiki",
   "private": true,
-  "version": "2.1.7",
+  "version": "2.2.0",
   "dependencies": {
     "@material-ui/core": "^4.8.3",
     "axios": "^0.19.1",
