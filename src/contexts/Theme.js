@@ -2,28 +2,34 @@ import React, { useEffect, useState } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 
 import { darkTheme, lightTheme } from '../theme';
-import Cookie from '../tools/cookie';
+import { Local } from '../tools/storage';
 
 
 export const ThemeContext = React.createContext();
 export function ThemeProvider({ children }) {
 
-  const [ dark, setDark ] = useState(!!Cookie.get(Cookie.cookies.dark));
+  const [ dark, setDark ] = useState(null);
 
   const onToggle = (_, checked) => {
     setDark(!!checked);
   };
 
   useEffect(() => {
-    Cookie.set(Cookie.cookies.dark, dark, Cookie.duration.long);
+    if (dark !== null) {
+      Local.set(Local.names.dark, dark);
+    }
   }, [dark]);
 
-  return (
-    <ThemeContext.Provider value={{
-      dark,
-      onToggle,
-    }}>
-      <MuiThemeProvider children={children} theme={dark ? darkTheme : lightTheme} />
-    </ThemeContext.Provider>
+  useEffect(() => {
+    setDark(!!Local.get(Local.names.dark));
+  }, []);
+
+  return dark !== null && (
+    <MuiThemeProvider theme={dark ? darkTheme : lightTheme}>
+      <ThemeContext.Provider children={children} value={{
+        dark,
+        onToggle,
+      }} />
+    </MuiThemeProvider>
   );
 }
