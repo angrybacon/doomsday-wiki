@@ -31,7 +31,7 @@ export default function SidebarHeader() {
                     variant="contained" />
           </Link>
         </Grid>
-        <Switch checked={dark} onChange={onToggleTheme} />
+        <Switch checked={dark} onChange={onToggleTheme} size={isMobile ? 'small' : 'medium'} />
       </Grid>
     </Toolbar>
   );
