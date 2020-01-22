@@ -7,7 +7,7 @@ const defaultTheme = createMuiTheme();
 const themeOptions = {
   mixins: {
     sidebar: {
-      treshold: 'sm',
+      treshold: defaultTheme.breakpoints.down('sm'),
       width: 300,
     },
   },

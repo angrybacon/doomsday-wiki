@@ -26,12 +26,9 @@ export default function Articles() {
         {articles.nodes.map(({ childMarkdownRemark: content, fields }, index) => {
           const title = content.frontmatter.title;
           const authors = content.frontmatter.authors ? ` by ${content.frontmatter.authors}` : '';
-          return (
-            <ListItemText component={Prettylink}
-                          key={index}
-                          primary={<Prettylink children={title} href={fields.slug} />}
-                          secondary={`${fields.date}${authors}`} />
-          );
+          const primary = <Prettylink children={title} href={fields.slug} />;
+          const secondary = `${fields.date}${authors}`;
+          return <ListItemText key={index} primary={primary} secondary={secondary} />;
         })}
       </List>
     </>

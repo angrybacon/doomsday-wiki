@@ -29,7 +29,7 @@ export default makeStyles(theme => ({
     height: '100%',
     paddingLeft: theme.mixins.sidebar.width,
     width: '100%',
-    [theme.breakpoints.down(theme.mixins.sidebar.treshold)]: {
+    [theme.mixins.sidebar.treshold]: {
       paddingLeft: 0,
     },
   },

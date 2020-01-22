@@ -1,7 +1,7 @@
 import cookie from 'js-cookie';
 
 
-class Cookie {
+export default class Cookie {
 
   static cookies = {
     dark: 'ddftwiki.dark',
@@ -16,6 +16,3 @@ class Cookie {
 
   static set = cookie.set;
 }
-
-
-export default Cookie;

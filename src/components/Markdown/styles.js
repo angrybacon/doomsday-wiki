@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles(theme => ({
   code: {
     borderColor: theme.palette.divider,
-    borderRadius: 2,
+    borderRadius: theme.shape.borderRadius,
     borderStyle: 'solid',
     borderWidth: 1,
     overflowY: 'auto',
