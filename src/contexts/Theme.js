@@ -1,40 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Switch from '@material-ui/core/Switch';
+import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 
 import { darkTheme, lightTheme } from '../theme';
 import Cookie from '../tools/cookie';
 
 
-const ThemeContext = React.createContext();
+export const ThemeContext = React.createContext();
+export function ThemeProvider({ children }) {
 
+  const [ dark, setDark ] = useState(!!Cookie.get(Cookie.cookies.dark));
 
-export class ThemeProvider extends React.Component {
-
-  constructor(props) {
-    super(props);
-    const isDark = !!Cookie.get(Cookie.cookies.dark);
-    this.state = {
-      current: isDark ? darkTheme : lightTheme,
-      isDark: isDark,
-    };
-  }
-
-  toggle = (event, checked) => {
-    this.setState({
-      current: checked ? darkTheme : lightTheme,
-      isDark: !!checked,
-    }, () => Cookie.set(Cookie.cookies.dark, !!checked, Cookie.duration.long));
+  const onToggle = (_, checked) => {
+    setDark(!!checked);
   };
 
-  render() {
-    const { children } = this.props;
-    return (
-      <ThemeContext.Provider children={children} value={{
-        state: this.state,
-        toggle: this.toggle,
-      }} />
-    );
-  }
+  const toggle = <Switch checked={dark} onChange={onToggle} />;
+
+  useEffect(() => {
+    Cookie.set(Cookie.cookies.dark, dark, Cookie.duration.long);
+  }, [dark]);
+
+  return (
+    <ThemeContext.Provider value={{toggle}}>
+      <MuiThemeProvider children={children} theme={dark ? darkTheme : lightTheme} />
+    </ThemeContext.Provider>
+  );
 }
-
-
-export const ThemeConsumer = ThemeContext.Consumer;
