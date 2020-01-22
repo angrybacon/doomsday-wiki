@@ -1,6 +1,7 @@
 import { Link } from 'gatsby';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
+import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
@@ -13,7 +14,7 @@ import { ThemeContext } from '../../contexts/Theme';
 
 export default function SidebarHeader() {
   const { toggleDrawer } = useContext(SidebarContext);
-  const { toggle: toggleTheme } = useContext(ThemeContext);
+  const { dark, onToggle: onToggleTheme } = useContext(ThemeContext);
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.mixins.sidebar.treshold);
   const classes = useStyles();
@@ -30,7 +31,7 @@ export default function SidebarHeader() {
                     variant="contained" />
           </Link>
         </Grid>
-        {toggleTheme}
+        <Switch checked={dark} onChange={onToggleTheme} />
       </Grid>
     </Toolbar>
   );

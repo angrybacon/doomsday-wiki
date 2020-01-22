@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Switch from '@material-ui/core/Switch';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 
 import { darkTheme, lightTheme } from '../theme';
@@ -15,14 +14,15 @@ export function ThemeProvider({ children }) {
     setDark(!!checked);
   };
 
-  const toggle = <Switch checked={dark} onChange={onToggle} />;
-
   useEffect(() => {
     Cookie.set(Cookie.cookies.dark, dark, Cookie.duration.long);
   }, [dark]);
 
   return (
-    <ThemeContext.Provider value={{toggle}}>
+    <ThemeContext.Provider value={{
+      dark,
+      onToggle,
+    }}>
       <MuiThemeProvider children={children} theme={dark ? darkTheme : lightTheme} />
     </ThemeContext.Provider>
   );
