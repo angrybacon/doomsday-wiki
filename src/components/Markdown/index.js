@@ -16,7 +16,7 @@ import Quote from '../Quote';
 import useStyles from './styles';
 
 
-export default function Markdown({ className, gutter, source }) {
+export default function Markdown({ barf, className, source }) {
 
   const classes = useStyles();
 
@@ -28,14 +28,14 @@ export default function Markdown({ className, gutter, source }) {
     ),
     link: props => <Prettylink {...props} />,
     linkReference: props => <Prettylink {...props} />,
-    table: props => (
-      <Table children={props.children} className={gutter && classes.gutter} size="small" />
+    table: ({ children }) => (
+      <Table children={children} className={c(classes.table, {[classes.barf]: barf})} size="small" />
     ),
-    tableHead: props => <TableHead children={props.children} />,
-    tableBody: props => <TableBody children={props.children} />,
-    tableRow: props => <TableRow children={props.children} />,
-    tableCell: props => <TableCell children={props.children} />,
-    thematicBreak: () => <Divider className={c(classes.divider, {[classes.gutter]: gutter})} />,
+    tableHead: ({ children }) => <TableHead children={children} />,
+    tableBody: ({ children }) => <TableBody children={children} />,
+    tableRow: ({ children }) => <TableRow children={children} />,
+    tableCell: ({ align, children }) => <TableCell {...{align: align || undefined, children}} />,
+    thematicBreak: () => <Divider className={c(classes.divider, {[classes.barf]: barf})} />,
   };
 
   const parseHtml = htmlParser({
@@ -43,7 +43,7 @@ export default function Markdown({ className, gutter, source }) {
     processingInstructions: [
       {
         processNode: node => React.createElement(Decklist, {
-          barf: true,
+          className: classes.barf,
           deckFile: node.attribs['deckfile'],
         }),
         replaceChildren: true,

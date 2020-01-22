@@ -11,13 +11,13 @@ import useStyles from './styles';
 // the 'decklists' folder, and displays the one with the name it was given.
 
 
-export default function Decklist({ barf, deckFile, hr=true }) {
+export default function Decklist({ className, deckFile, hr=true }) {
 
   const classes = useStyles();
   const { main, name, side } = require('../../../decklists/' + deckFile);
 
   return (
-    <div className={c(classes.root, {[classes.barf]: barf})}>
+    <div className={c(classes.root, className)}>
       {!!hr && <Divider />}
       <div className={classes.content}>
         <Typography children={name} paragraph variant="h5" />

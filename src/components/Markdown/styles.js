@@ -2,6 +2,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 
 export default makeStyles(theme => ({
+  barf: {
+    marginLeft: -theme.overrides.MuiPaper.root.padding,
+    marginRight: -theme.overrides.MuiPaper.root.padding,
+    width: `calc(100% + ${theme.overrides.MuiPaper.root.padding * 2}px)`,
+  },
   code: {
     borderColor: theme.palette.divider,
     borderRadius: theme.shape.borderRadius,
@@ -14,10 +19,6 @@ export default makeStyles(theme => ({
     marginBottom: '1em',
     marginTop: '1em',
   },
-  gutter: {
-    marginLeft: -theme.overrides.MuiPaper.root.padding,
-    width: `calc(100% + ${theme.overrides.MuiPaper.root.padding * 2 + 1}px)`,
-  },
   pile: {
     display: 'flex',
     justifyContent: 'space-between',
@@ -25,5 +26,8 @@ export default makeStyles(theme => ({
       width: '19%',
     },
   },
-  table: {overflowX: 'auto'},
+  table: {
+    display: 'block',
+    overflowX: 'auto',
+  },
 }));

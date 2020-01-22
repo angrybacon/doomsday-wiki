@@ -6,154 +6,172 @@ Below are a series of tables detailing various options for artifact removal and
 the costs associated with removing common artifacts. This will be updated as
 new, effective, options are released.
 
-List of current tables present:
-
-1. Table of Common Wishable Artifact Removal Costs
-2. Table of Alternative Wishable Artifact Removal Costs
-3. Table of Common, Non-Wishable Artifact Removal Costs
-4. Table of Alternative, Non-Wishable Artifact Removal Costs
-
-
-#### 1. Table of Common Wishable Artifact Removal Costs
+## Table of Common Wishable Artifact Removal Costs
 
 This is a list of the most commonly used spells that can be 'tutored' via
 Burning Wish.
 
-|                                    | By Force | Consign  | Meltdown | Pulverize | Shattering Spree | Void Snare |
-| ---------------------------------- | :------: | :------: | :------: | :-------: | :--------------: | :--------: |
-| **Chalice @0**                     | 1R       | 1U       | R        | 0         | R                | U          |
-| **Chalice @1**                     | 1R       | 1U       | 1R       | 0         | RR               | -          |
-| **Chalice @2**                     | -        | -        | R        | 0         | R                | U          |
-| **Chalice @3**                     | 1R       | 1U       | R        | 0         | R                | U          |
-| **Chalice @4**                     | 1R       | 1U       | R        | 0         | R                | U          |
-| **Chalices @0+1**                  | 2R       | -        | 1R       | 0         | RRR              | -          |
-| **Chalices @0+2**                  | 2R       | -        | R        | 0         | RR               | -          |
-| **Chalices @0+3**                  | -        | -        | R        | 0         | RR               | -          |
-| **Chalices @0+4**                  | 2R       | -        | R        | 0         | RR               | -          |
-| **Chalices @1+2**                  | 2R       | -        | 2R       | 0         | RRR              | -          |
-| **Chalices @1+3**                  | -        | -        | 1R       | 0         | RRR              | -          |
-| **Chalices @1+4**                  | 2R       | -        | 1R       | 0         | RRR              | -          |
-| **Chalices @2+3**                  | -        | -        | R        | 0         | RR               | -          |
-| **Chalices @2+4**                  | 2R       | -        | 2R       | 0         | RR               | -          |
-| **Trinisphere**                    | 2R       | 2U       | 3R       | 3         | 2R               | 2U         |
-| **Trinisphere + Chalice @0**       | 2R       | -        | 3R       | 4         | 1RR              | -          |
-| **Trinisphere + Chalice @1**       | 2R       | -        | 3R       | 3         | RRR              | -          |
-| **Trinisphere + Chalice @2**       | 2R       | -        | 3R       | 3         | 1RR              | -          |
-| **Trinisphere + Chalice @3**       | -        | -        | 3R       | 3         | 1RR              | -          |
-| **Trinisphere + Chalice @4**       | 2R       | -        | 4R       | 3         | 1RR              | -          |
-| **Thorn of Amethyst**              | 2R       | 2U       | 3R       | 1         | 1R               | 1U         |
-| **2 Thorns of Amethyst**           | 4R       | 3U       | 4R       | 2         | 1RR              | 2U         |
-| **Thorn of Amethyst + Chalice @0** | 3R       | 3U       | 3R       | 1         | 1RR              | -          |
-| **Thorn of Amethyst + Chalice @1** | 3R       | -        | 3R       | 1         | 1RRR             | -          |
-| **Thorn of Amethyst + Chalice @2** | 3R       | -        | 3R       | 1         | 1RR              | -          |
-| **Thorn of Amethyst + Chalice @3** | -        | -        | 3R       | 1         | 1RR              | -          |
-| **Thorn of Amethyst + Chalice @4** | 3R       | -        | 3R       | 1         | 1RR              | -          |
+| Chalice              | By Force | Consign | Meltdown | Pulverize | Shattering Spree | Void Snare |
+| -------------------- | :------: | :-----: | :------: | :-------: | :--------------: | :--------: |
+| CotV 0               | 1R       | 1U      | R        | 0         | R                | U          |
+| CotV 1               | 1R       | 1U      | 1R       | 0         | RR               | -          |
+| CotV 2               | -        | -       | R        | 0         | R                | U          |
+| CotV 3               | 1R       | 1U      | R        | 0         | R                | U          |
+| CotV 4               | 1R       | 1U      | R        | 0         | R                | U          |
+| CotV 0 + 1           | 2R       | -       | 1R       | 0         | RRR              | -          |
+| CotV 0 + 2           | 2R       | -       | R        | 0         | RR               | -          |
+| CotV 0 + 3           | -        | -       | R        | 0         | RR               | -          |
+| CotV 0 + 4           | 2R       | -       | R        | 0         | RR               | -          |
+| CotV 1 + 2           | 2R       | -       | 2R       | 0         | RRR              | -          |
+| CotV 1 + 3           | -        | -       | 1R       | 0         | RRR              | -          |
+| CotV 1 + 4           | 2R       | -       | 1R       | 0         | RRR              | -          |
+| CotV 2 + 3           | -        | -       | R        | 0         | RR               | -          |
+| CotV 2 + 4           | 2R       | -       | 2R       | 0         | RR               | -          |
 
-#### 2. Table of Alternative Wishable Artifact Removal Costs
+| Trinisphere          | By Force | Consign | Meltdown | Pulverize | Shattering Spree | Void Snare |
+| -------------------- | :------: | :-----: | :------: | :-------: | :--------------: | :--------: |
+| Trinisphere          | 2R       | 2U      | 3R       | 3         | 2R               | 2U         |
+| Trinisphere + CotV 0 | 2R       | -       | 3R       | 4         | 1RR              | -          |
+| Trinisphere + CotV 1 | 2R       | -       | 3R       | 3         | RRR              | -          |
+| Trinisphere + CotV 2 | 2R       | -       | 3R       | 3         | 1RR              | -          |
+| Trinisphere + CotV 3 | -        | -       | 3R       | 3         | 1RR              | -          |
+| Trinisphere + CotV 4 | 2R       | -       | 4R       | 3         | 1RR              | -          |
 
-This is a list of some less commonly used spells that can be
-'tutored' via Burning Wish.  
-*Many of these are not good choices to play but have been included for the sake
-of completeness*
+| Sphere Effects       | By Force | Consign | Meltdown | Pulverize | Shattering Spree | Void Snare |
+| -------------------- | :------: | :-----: | :------: | :-------: | :--------------: | :--------: |
+| 1 sphere             | 2R       | 2U      | 3R       | 1         | 1R               | 1U         |
+| 2 spheres            | 4R       | 3U      | 4R       | 2         | 1RR              | 2U         |
+| 1 sphere + CotV 0    | 3R       | 3U      | 3R       | 1         | 1RR              | -          |
+| 1 sphere + CotV 1    | 3R       | -       | 3R       | 1         | 1RRR             | -          |
+| 1 sphere + CotV 2    | 3R       | -       | 3R       | 1         | 1RR              | -          |
+| 1 sphere + CotV 3    | -        | -       | 3R       | 1         | 1RR              | -          |
+| 1 sphere + CotV 4    | 3R       | -       | 3R       | 1         | 1RR              | -          |
 
-|                                    | Eye of Nowhere | Scrap Mastery | Shatterstorm | Subterranean Tremors | Vandalblast |
-| ---------------------------------- | :------------: | :-----------: | :----------: | :------------------: | :---------: |
-| **Chalice @0**                     | UU             | 3RR           | 2RR          | 4R                   | R           |
-| **Chalice @1**                     | UU             | 3RR           | 2RR          | 4R                   | -           |
-| **Chalice @2**                     | -              | 3RR           | 2RR          | 4R                   | R           |
-| **Chalice @3**                     | UU             | 3RR           | 2RR          | 4R                   | R           |
-| **Chalice @4**                     | UU             | 3RR           | -            | 4R                   | R           |
-| **Chalices @0+1**                  | -              | 3RR           | 2RR          | 4R                   | -           |
-| **Chalices @0+2**                  | -              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Chalices @0+3**                  | -              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Chalices @0+4**                  | -              | 3RR           | -            | 4R                   | 4R          |
-| **Chalices @1+2**                  | -              | 3RR           | 2RR          | 4R                   | -           |
-| **Chalices @1+3**                  | -              | 3RR           | 2RR          | 4R                   | -           |
-| **Chalices @1+4**                  | -              | 3RR           | -            | 4R                   | -           |
-| **Chalices @2+3**                  | -              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Chalices @2+4**                  | -              | 3RR           | -            | 4R                   | 4R          |
-| **Trinisphere**                    | 1UU            | 3RR           | 2RR          | 4R                   | 2R          |
-| **Trinisphere + Chalice @0**       | -              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Trinisphere + Chalice @1**       | -              | 3RR           | 2RR          | 4R                   | -           |
-| **Trinisphere + Chalice @2**       | -              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Trinisphere + Chalice @3**       | -              | 3RR           | 2RR          | 4R                   | 4R          |
-| **Trinisphere + Chalice @4**       | -              | 3RR           | -            | 4R                   | 4R          |
-| **Thorn of Amethyst**              | 1UU            | 4RR           | 3RR          | 5R                   | 1R          |
-| **2 Thorns of Amethyst**           | -              | 5RR           | 4RR          | 6R                   | 6R          |
-| **Thorn of Amethyst + Chalice @0** | -              | 4RR           | 3RR          | 5R                   | 5R          |
-| **Thorn of Amethyst + Chalice @1** | -              | 4RR           | 3RR          | 5R                   | -           |
-| **Thorn of Amethyst + Chalice @2** | -              | 4RR           | 3RR          | 5R                   | 5R          |
-| **Thorn of Amethyst + Chalice @3** | -              | 4RR           | 3RR          | 5R                   | 5R          |
-| **Thorn of Amethyst + Chalice @4** | -              | 4RR           | -            | 5R                   | 5R          |
+## Table of Alternative Wishable Artifact Removal Costs
 
-#### 3. Table of Common, Non-Wishable Artifact Removal Costs
+This is a list of some less commonly used spells that can be 'tutored' via
+Burning Wish.
+
+> Many of these are not good choices to play but have been included for the sake
+> of completeness
+
+| Chalice              | Eye of Nowhere | Scrap Mastery | Shatterstorm | Subterranean Tremors | Vandalblast |
+| -------------------- | :------------: | :-----------: | :----------: | :------------------: | :---------: |
+| CotV 0               | UU             | 3RR           | 2RR          | 4R                   | R           |
+| CotV 1               | UU             | 3RR           | 2RR          | 4R                   | -           |
+| CotV 2               | -              | 3RR           | 2RR          | 4R                   | R           |
+| CotV 3               | UU             | 3RR           | 2RR          | 4R                   | R           |
+| CotV 4               | UU             | 3RR           | -            | 4R                   | R           |
+| CotV 0 + 1           | -              | 3RR           | 2RR          | 4R                   | -           |
+| CotV 0 + 2           | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| CotV 0 + 3           | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| CotV 0 + 4           | -              | 3RR           | -            | 4R                   | 4R          |
+| CotV 1 + 2           | -              | 3RR           | 2RR          | 4R                   | -           |
+| CotV 1 + 3           | -              | 3RR           | 2RR          | 4R                   | -           |
+| CotV 1 + 4           | -              | 3RR           | -            | 4R                   | -           |
+| CotV 2 + 3           | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| CotV 2 + 4           | -              | 3RR           | -            | 4R                   | 4R          |
+
+| Trinisphere          | Eye of Nowhere | Scrap Mastery | Shatterstorm | Subterranean Tremors | Vandalblast |
+| -------------------- | :------------: | :-----------: | :----------: | :------------------: | :---------: |
+| Trinisphere          | 1UU            | 3RR           | 2RR          | 4R                   | 2R          |
+| Trinisphere + CotV 0 | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| Trinisphere + CotV 1 | -              | 3RR           | 2RR          | 4R                   | -           |
+| Trinisphere + CotV 2 | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| Trinisphere + CotV 3 | -              | 3RR           | 2RR          | 4R                   | 4R          |
+| Trinisphere + CotV 4 | -              | 3RR           | -            | 4R                   | 4R          |
+
+| Sphere Effects       | Eye of Nowhere | Scrap Mastery | Shatterstorm | Subterranean Tremors | Vandalblast |
+| -------------------- | :------------: | :-----------: | :----------: | :------------------: | :---------: |
+| 1 sphere             | 1UU            | 4RR           | 3RR          | 5R                   | 1R          |
+| 2 spheres            | -              | 5RR           | 4RR          | 6R                   | 6R          |
+| 1 sphere + CotV 0    | -              | 4RR           | 3RR          | 5R                   | 5R          |
+| 1 sphere + CotV 1    | -              | 4RR           | 3RR          | 5R                   | -           |
+| 1 sphere + CotV 2    | -              | 4RR           | 3RR          | 5R                   | 5R          |
+| 1 sphere + CotV 3    | -              | 4RR           | 3RR          | 5R                   | 5R          |
+| 1 sphere + CotV 4    | -              | 4RR           | -            | 5R                   | 5R          |
+
+## Table of Common, Non-Wishable Artifact Removal Costs
 
 This is a list of the most commonly used spells that cannot be 'tutored' via
 Burning Wish but are usually sided in for post-board games.
 
-|                                    | Abrupt Decay | Chain of Vapor | Echoing Truth | Hurkyl's Recall |
-| ---------------------------------- | :----------: | :------------: | :-----------: | :-------------: |
-| **Chalice @0**                     | BG           | U              | 1U            | 1U              |
-| **Chalice @1**                     | BG           | -              | 1U            | 1U              |
-| **Chalice @2**                     | BG           | U              | -             | -               |
-| **Chalice @3**                     | BG           | U              | 1U            | 1U              |
-| **Chalice @4**                     | BG           | U              | 1U            | 1U              |
-| **Chalices @0+1**                  | -            | -              | 1U            | 1U              |
-| **Chalices @0+2**                  | -            | -              | -             | -               |
-| **Chalices @0+3**                  | -            | -              | 1U            | 1U              |
-| **Chalices @0+4**                  | -            | -              | 1U            | 1U              |
-| **Chalices @1+2**                  | -            | -              | -             | -               |
-| **Chalices @1+3**                  | -            | -              | 1U            | 1U              |
-| **Chalices @1+4**                  | -            | -              | 1U            | 1U              |
-| **Chalices @2+3**                  | -            | -              | -             | -               |
-| **Chalices @2+4**                  | -            | -              | -             | -               |
-| **Trinisphere**                    | 1BG          | 2U             | 2U            | 2U              |
-| **Trinisphere + Chalice @0**       | -            | -              | -             | 2U              |
-| **Trinisphere + Chalice @1**       | -            | -              | -             | 2U              |
-| **Trinisphere + Chalice @2**       | -            | -              | -             | -               |
-| **Trinisphere + Chalice @3**       | -            | -              | -             | 2U              |
-| **Trinisphere + Chalice @4**       | -            | -              | -             | 2U              |
-| **Thorn of Amethyst**              | 1BG          | 1U             | 2U            | 2U              |
-| **2 Thorns of Amethyst**           | -            | -              | 3U            | 3U              |
-| **Thorn of Amethyst + Chalice @0** | -            | -              | -             | 2U              |
-| **Thorn of Amethyst + Chalice @1** | -            | -              | -             | 2U              |
-| **Thorn of Amethyst + Chalice @2** | -            | -              | -             | -               |
-| **Thorn of Amethyst + Chalice @3** | -            | -              | -             | 2U              |
-| **Thorn of Amethyst + Chalice @4** | -            | -              | -             | 2U              |
+| Chalice              | Abrupt Decay | Chain of Vapor | Echoing Truth | Hurkyl's Recall |
+| -------------------- | :----------: | :------------: | :-----------: | :-------------: |
+| CotV 0               | BG           | U              | 1U            | 1U              |
+| CotV 1               | BG           | -              | 1U            | 1U              |
+| CotV 2               | BG           | U              | -             | -               |
+| CotV 3               | BG           | U              | 1U            | 1U              |
+| CotV 4               | BG           | U              | 1U            | 1U              |
+| CotV 0 + 1           | -            | -              | 1U            | 1U              |
+| CotV 0 + 2           | -            | -              | -             | -               |
+| CotV 0 + 3           | -            | -              | 1U            | 1U              |
+| CotV 0 + 4           | -            | -              | 1U            | 1U              |
+| CotV 1 + 2           | -            | -              | -             | -               |
+| CotV 1 + 3           | -            | -              | 1U            | 1U              |
+| CotV 1 + 4           | -            | -              | 1U            | 1U              |
+| CotV 2 + 3           | -            | -              | -             | -               |
+| CotV 2 + 4           | -            | -              | -             | -               |
 
-#### 4. Table of Alternative, Non-Wishable Artifact Removal Costs
+| Trinisphere          | Abrupt Decay | Chain of Vapor | Echoing Truth | Hurkyl's Recall |
+| -------------------- | :----------: | :------------: | :-----------: | :-------------: |
+| Trinisphere          | 1BG          | 2U             | 2U            | 2U              |
+| Trinisphere + CotV 0 | -            | -              | -             | 2U              |
+| Trinisphere + CotV 1 | -            | -              | -             | 2U              |
+| Trinisphere + CotV 2 | -            | -              | -             | -               |
+| Trinisphere + CotV 3 | -            | -              | -             | 2U              |
+| Trinisphere + CotV 4 | -            | -              | -             | 2U              |
+
+| Sphere Effects       | Abrupt Decay | Chain of Vapor | Echoing Truth | Hurkyl's Recall |
+| -------------------- | :----------: | :------------: | :-----------: | :-------------: |
+| 1 sphere             | 1BG          | 1U             | 2U            | 2U              |
+| 2 spheres            | -            | -              | 3U            | 3U              |
+| 1 sphere + CotV 0    | -            | -              | -             | 2U              |
+| 1 sphere + CotV 1    | -            | -              | -             | 2U              |
+| 1 sphere + CotV 2    | -            | -              | -             | -               |
+| 1 sphere + CotV 3    | -            | -              | -             | 2U              |
+| 1 sphere + CotV 4    | -            | -              | -             | 2U              |
+
+## Table of Alternative, Non-Wishable Artifact Removal Costs
 
 This is a list of some less commonly used spells that cannot be 'tutored' via
-Burning Wish but are usually sided in for post-board games.  
-*Many of these are not good choices to play but have been included for the sake
-of completeness*
+Burning Wish but are usually sided in for post-board games.
 
-|                                    | Ancient Grudge | Crash | Disenchant | Engineered Explosives | Rebuild  | Rushing River |
-| ---------------------------------- | :------------: | :---: | :--------: | :-------------------: | :------: | :-----------: |
-| **Chalice @0**                     | 1R             | 0     | 1W         | C+2                   | 2U       | 2U            |
-| **Chalice @1**                     | 1R             | 0     | 1W         | 0+2                   | 2U       | 2U            |
-| **Chalice @2**                     | -              | 0     | -          | 0+2                   | 2U       | 2U            |
-| **Chalice @3**                     | 1R             | -     | 1W         | 0+2                   | -        | -             |
-| **Chalice @4**                     | 1R             | 0     | 1W         | 0+2                   | 2U       | 2U            |
-| **Chalices @0+1**                  | 1RG            | -     | -          | CC+2                  | 2U       | 2U            |
-| **Chalices @0+2**                  | -              | -     | -          | C+2                   | 2U       | 2U            |
-| **Chalices @0+3**                  | 1RG            | -     | -          | C+2                   | -        | -             |
-| **Chalices @0+4**                  | 1RG            | -     | -          | C+2                   | 2U       | 2U            |
-| **Chalices @1+2**                  | -              | -     | -          | 0+2                   | 2U       | 2U            |
-| **Chalices @1+3**                  | 1RG            | -     | -          | 0+2                   | -        | -             |
-| **Chalices @1+4**                  | 1RG            | -     | -          | 0+2                   | 2U       | 2U            |
-| **Chalices @2+3**                  | -              | -     | -          | 0+2                   | -        | -             |
-| **Chalices @2+4**                  | -              | -     | -          | 0+2                   | 2U       | 2U            |
-| **Trinisphere**                    | 2R             | 3     | 2W         | UBR+2                 | 2U       | 2U            |
-| **Trinisphere + Chalice @0**       | 2RG            | -     | -          | -                     | 2U       | 2U            |
-| **Trinisphere + Chalice @1**       | 2RG            | -     | -          | -                     | 2U       | 2U            |
-| **Trinisphere + Chalice @2**       | -              | -     | -          | -                     | 2U       | 2U            |
-| **Trinisphere + Chalice @3**       | 2RG            | -     | -          | -                     | -        | -             |
-| **Trinisphere + Chalice @4**       | 2RG            | -     | -          | -                     | 2U       | 2U            |
-| **Thorn of Amethyst**              | 2R             | 1     | 2W         | UB+2                  | 3U       | 3U            |
-| **2 Thorns of Amethyst**           | 4RG            | -     | -          | UB+2                  | 4U       | 4U            |
-| **Thorn of Amethyst + Chalice @0** | 2RG            | -     | -          | -                     | 3U       | 3U            |
-| **Thorn of Amethyst + Chalice @1** | 2RG            | -     | -          | -                     | 3U       | 3U            |
-| **Thorn of Amethyst + Chalice @2** | -              | -     | -          | -                     | 3U       | 3U            |
-| **Thorn of Amethyst + Chalice @3** | 2RG            | -     | -          | -                     | -        | -             |
-| **Thorn of Amethyst + Chalice @4** | 2RG            | -     | -          | -                     | 3U       | 3U            |
+> Many of these are not good choices to play but have been included for the sake
+> of completeness
+
+| Chalice              | Ancient Grudge | Crash | Disenchant | Engineered Explosives | Rebuild | Rushing River |
+| -------------------- | :------------: | :---: | :--------: | :-------------------: | :-----: | :-----------: |
+| CotV 0               | 1R             | 0     | 1W         | C+2                   | 2U      | 2U            |
+| CotV 1               | 1R             | 0     | 1W         | 0+2                   | 2U      | 2U            |
+| CotV 2               | -              | 0     | -          | 0+2                   | 2U      | 2U            |
+| CotV 3               | 1R             | -     | 1W         | 0+2                   | -       | -             |
+| CotV 4               | 1R             | 0     | 1W         | 0+2                   | 2U      | 2U            |
+| CotV 0 + 1           | 1RG            | -     | -          | CC+2                  | 2U      | 2U            |
+| CotV 0 + 2           | -              | -     | -          | C+2                   | 2U      | 2U            |
+| CotV 0 + 3           | 1RG            | -     | -          | C+2                   | -       | -             |
+| CotV 0 + 4           | 1RG            | -     | -          | C+2                   | 2U      | 2U            |
+| CotV 1 + 2           | -              | -     | -          | 0+2                   | 2U      | 2U            |
+| CotV 1 + 3           | 1RG            | -     | -          | 0+2                   | -       | -             |
+| CotV 1 + 4           | 1RG            | -     | -          | 0+2                   | 2U      | 2U            |
+| CotV 2 + 3           | -              | -     | -          | 0+2                   | -       | -             |
+| CotV 2 + 4           | -              | -     | -          | 0+2                   | 2U      | 2U            |
+
+| Trinisphere          | Ancient Grudge | Crash | Disenchant | Engineered Explosives | Rebuild | Rushing River |
+| -------------------- | :------------: | :---: | :--------: | :-------------------: | :-----: | :-----------: |
+| Trinisphere          | 2R             | 3     | 2W         | UBR+2                 | 2U      | 2U            |
+| Trinisphere + CotV 0 | 2RG            | -     | -          | -                     | 2U      | 2U            |
+| Trinisphere + CotV 1 | 2RG            | -     | -          | -                     | 2U      | 2U            |
+| Trinisphere + CotV 2 | -              | -     | -          | -                     | 2U      | 2U            |
+| Trinisphere + CotV 3 | 2RG            | -     | -          | -                     | -       | -             |
+| Trinisphere + CotV 4 | 2RG            | -     | -          | -                     | 2U      | 2U            |
+
+| Sphere Effects       | Ancient Grudge | Crash | Disenchant | Engineered Explosives | Rebuild | Rushing River |
+| -------------------- | :------------: | :---: | :--------: | :-------------------: | :-----: | :-----------: |
+| 1 sphere             | 2R             | 1     | 2W         | UB+2                  | 3U      | 3U            |
+| 2 spheres            | 4RG            | -     | -          | UB+2                  | 4U      | 4U            |
+| 1 sphere + CotV 0    | 2RG            | -     | -          | -                     | 3U      | 3U            |
+| 1 sphere + CotV 1    | 2RG            | -     | -          | -                     | 3U      | 3U            |
+| 1 sphere + CotV 2    | -              | -     | -          | -                     | 3U      | 3U            |
+| 1 sphere + CotV 3    | 2RG            | -     | -          | -                     | -       | -             |
+| 1 sphere + CotV 4    | 2RG            | -     | -          | -                     | 3U      | 3U            |

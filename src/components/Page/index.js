@@ -12,7 +12,7 @@ export default function Page({ pageContext }) {
     <Application>
       <Paper>
         {!!title && <Typography children={title} gutterBottom variant="h3" />}
-        <Markdown source={body} />
+        <Markdown barf source={body} />
       </Paper>
     </Application>
   );
