@@ -21,13 +21,13 @@ export default function Markdown({ barf, className, source }) {
   const classes = useStyles();
 
   const renderers = {
-    blockquote: props => <Quote children={props.children} />,
-    code: props => <pre className={classes.code}><code>{props.value}</code></pre>,
-    heading: props => (
-      <Typography children={props.children} gutterBottom variant={`h${props.level + 2}`} />
+    blockquote: ({ children }) => <Quote children={children} />,
+    code: ({ value }) => <pre className={classes.code}><code>{value}</code></pre>,
+    heading: ({ children, level }) => (
+      <Typography children={children} gutterBottom variant={`h${level + 2}`} />
     ),
-    link: props => <Prettylink {...props} />,
-    linkReference: props => <Prettylink {...props} />,
+    link: Prettylink,
+    linkReference: Prettylink,
     table: ({ children }) => (
       <Table children={children} className={c(classes.table, {[classes.barf]: barf})} size="small" />
     ),
