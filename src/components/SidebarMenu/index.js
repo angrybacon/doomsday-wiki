@@ -1,112 +1,63 @@
-import { Link, StaticQuery, graphql } from 'gatsby';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import withStyles from '@material-ui/core/styles/withStyles';
-import AlertOctagonIcon from 'mdi-react/AlertOctagonIcon';
-import BabyIcon from 'mdi-react/BabyIcon';
-import FileOutlineIcon from 'mdi-react/FileOutlineIcon';
-import TargetIcon from 'mdi-react/TargetIcon';
-import PuzzleIcon from 'mdi-react/PuzzleIcon';
-import React from 'react';
+import React, { useState } from 'react';
+import menu from './menu';
+import useStyles from './styles';
 
 
-const MENU = {
-  1: {icon: <BabyIcon />, subheader: 'The Fundamentals'},
-  2: {icon: <TargetIcon />, subheader: 'Supplementary Techniques'},
-  3: {icon: <AlertOctagonIcon />, subheader: 'Limitations'},
-  appendices: {icon: <FileOutlineIcon />, subheader: 'Appendices'},
-  puzzles: {icon: <PuzzleIcon />, subheader: 'Test your Knowledge'}
-};
+export default function SidebarMenu() {
 
+  const [ collapses, setCollapses ] = useState({});
+  const classes = useStyles();
 
-const styles = theme => ({
-  active: {
-    backgroundColor: theme.palette.action.selected,
-  },
-});
+  const toggleCollapse = key => () => setCollapses(previous => ({...previous, [key]: !previous[key]}));
 
-
-class SidebarMenu extends React.PureComponent {
-
-  state = {collapses: {}};
-
-  toggleCollapse = key => () => (
-    this.setState(state => ({collapses: {...state.collapses, [key]: !state.collapses[key]}}))
-  );
-
-  render() {
-
-    const query = graphql`{
-      appendices: allFile(
-        filter: {relativePath: {glob: "appendices/**/*"}},
-        sort: {fields: fields___slug}
-      ) {
+  const { appendices, chapters } = useStaticQuery(graphql`{
+    appendices: allFile(
+      filter: {relativePath: {glob: "appendices/**/*"}},
+      sort: {fields: fields___slug}
+    ) {
+      edges {
+        node {
+          childMarkdownRemark {frontmatter {title}}
+          fields {slug}
+        }
+      }
+    }
+    chapters: allFile(
+      filter: {relativePath: {glob: "chapters/**/*"}},
+      sort: {fields: fields___slug}
+    ) {
+      group(field: fields___chapter) {
         edges {
           node {
             childMarkdownRemark {frontmatter {title}}
             fields {slug}
           }
         }
+        fieldValue
       }
-      chapters: allFile(
-        filter: {relativePath: {glob: "chapters/**/*"}},
-        sort: {fields: fields___slug}
-      ) {
-        group(field: fields___chapter) {
-          edges {
-            node {
-              childMarkdownRemark {frontmatter {title}}
-              fields {slug}
-            }
-          }
-          fieldValue
-        }
-      }
-    }`;
+    }
+  }`);
 
-    const { classes } = this.props;
-    const { collapses } = this.state;
-    return <StaticQuery query={query} render={({ appendices, chapters }) => (
-      <List component="nav">
+  return (
+    <List component="nav">
 
-        {chapters.group.map(({ edges, fieldValue }, index) => (
-          <React.Fragment key={index}>
-            <ListItem button onClick={this.toggleCollapse(fieldValue)}>
-              <ListItemIcon children={MENU[fieldValue].icon} />
-              <ListItemText primary={`Chapter ${fieldValue}`} secondary={MENU[fieldValue].subheader}/>
-            </ListItem>
-            <Collapse in={collapses[fieldValue]} timeout="auto">
-              <Divider />
-              <List component="ul">
-                {edges.map(({ node }, index) => (
-                  <ListItem activeClassName={classes.active}
-                            button
-                            component={Link}
-                            dense
-                            key={index}
-                            to={node.fields.slug}>
-                    <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
-                  </ListItem>
-                ))}
-              </List>
-              <Divider />
-            </Collapse>
-          </React.Fragment>
-        ))}
-
-        <>
-          <ListItem button onClick={this.toggleCollapse('appendices')}>
-            <ListItemIcon children={MENU.appendices.icon} />
-            <ListItemText primary="Postamble" secondary={MENU.appendices.subheader} />
+      {chapters.group.map(({ edges, fieldValue }, index) => (
+        <React.Fragment key={index}>
+          <ListItem button onClick={toggleCollapse(fieldValue)}>
+            <ListItemIcon children={menu[fieldValue].icon} />
+            <ListItemText primary={`Chapter ${fieldValue}`} secondary={menu[fieldValue].subheader}/>
           </ListItem>
-          <Collapse in={collapses.appendices} timeout="auto">
+          <Collapse in={collapses[fieldValue]} timeout="auto">
             <Divider />
             <List component="ul">
-              {appendices.edges.map(({ node }, index) => (
+              {edges.map(({ node }, index) => (
                 <ListItem activeClassName={classes.active}
                           button
                           component={Link}
@@ -119,15 +70,35 @@ class SidebarMenu extends React.PureComponent {
             </List>
             <Divider />
           </Collapse>
-          <ListItem button component={Link} to="/puzzles/">
-            <ListItemIcon children={MENU.puzzles.icon} />
-            <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
-          </ListItem>
-        </>
-      </List>
-    )} />;
-  }
+        </React.Fragment>
+      ))}
+
+      <>
+        <ListItem button onClick={toggleCollapse('appendices')}>
+          <ListItemIcon children={menu.appendices.icon} />
+          <ListItemText primary="Postamble" secondary={menu.appendices.subheader} />
+        </ListItem>
+        <Collapse in={collapses.appendices} timeout="auto">
+          <Divider />
+          <List component="ul">
+            {appendices.edges.map(({ node }, index) => (
+              <ListItem activeClassName={classes.active}
+                        button
+                        component={Link}
+                        dense
+                        key={index}
+                        to={node.fields.slug}>
+                <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
+              </ListItem>
+            ))}
+          </List>
+          <Divider />
+        </Collapse>
+        <ListItem button component={Link} to="/puzzles/">
+          <ListItemIcon children={menu.puzzles.icon} />
+          <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
+        </ListItem>
+      </>
+    </List>
+  );
 }
-
-
-export default withStyles(styles)(SidebarMenu);

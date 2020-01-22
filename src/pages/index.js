@@ -4,8 +4,6 @@ import Application from '../components/Application';
 import PageHome from '../components/PageHome';
 
 
-export default class Index extends React.PureComponent {
-  render() {
-    return <Application children={<PageHome />} />;
-  }
+export default function RouteIndex() {
+  return <Application children={<PageHome />} />;
 }

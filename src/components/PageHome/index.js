@@ -5,13 +5,11 @@ import Articles from '../Articles';
 import Welcome from '../Welcome';
 
 
-export default class PageHome extends React.PureComponent {
-  render() {
-    return (
-      <>
-        <Paper children={<Welcome />} />
-        <Paper children={<Articles />} />
-      </>
-    );
-  }
+export default function PageHome() {
+  return (
+    <>
+      <Paper children={<Welcome />} />
+      <Paper children={<Articles />} />
+    </>
+  );
 }

@@ -1,19 +1,14 @@
-import { StaticQuery, graphql } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
 import Markdown from '../Markdown';
 
 
-export default class SidebarBody extends React.PureComponent {
-  render() {
-    const query = graphql`{
-      file(relativePath: {eq: "partials/notation.md"}) {childMarkdownRemark {rawMarkdownBody}}
-    }`;
-    return (
-      <StaticQuery
-        query={query}
-        render={({ file }) => <Markdown source={file.childMarkdownRemark.rawMarkdownBody} />}
-      />
-    );
-  }
+export default function SidebarBody() {
+  const { body } = useStaticQuery(graphql`{
+    body: file(relativePath: {eq: "partials/notation.md"}) {
+      childMarkdownRemark {rawMarkdownBody}
+    }
+  }`);
+  return <Markdown source={body.childMarkdownRemark.rawMarkdownBody} />;
 }

@@ -4,8 +4,6 @@ import Application from '../components/Application';
 import PageAuthors from '../components/PageAuthors';
 
 
-export default class Authors extends React.PureComponent {
-  render() {
-    return <Application children={<PageAuthors />} />;
-  }
+export default function RouteAuthors() {
+  return <Application children={<PageAuthors />} />;
 }
