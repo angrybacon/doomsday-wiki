@@ -1,35 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
-const SidebarContext = React.createContext();
+export const SidebarContext = React.createContext();
+export function SidebarProvider({ children }) {
 
+  const [ drawer, setDrawer ] = useState(false);
+  const [ sidebar, setSidebar ] = useState(true);
 
-export class SidebarProvider extends React.Component {
-
-  state = {
-    drawerIsOpen: false,
-    sidebarIsOpen: true,
+  const toggleDrawer = open => () => {
+    setDrawer(previous => open === undefined ? !previous.drawer : !!open);
   };
 
-  toggleDrawer = open => () => {
-    this.setState(state => ({drawerIsOpen: open === undefined ? !state.drawerIsOpen : !!open}));
+  const toggleSidebar = open => () => {
+    setSidebar(previous => open === undefined ? !previous.sidebar : !!open);
   };
 
-  toggleSidebar = open => () => {
-    this.setState(state => ({sidebarIsOpen: open === undefined ? !state.sidebarIsOpen : !!open}));
-  };
-
-  render() {
-    const { children } = this.props;
-    return (
-      <SidebarContext.Provider children={children} value={{
-        state: this.state,
-        toggleDrawer: this.toggleDrawer,
-        toggleSidebar: this.toggleSidebar,
-      }} />
-    );
-  }
+  return (
+    <SidebarContext.Provider children={children} value={{
+      drawer,
+      sidebar,
+      toggleDrawer,
+      toggleSidebar,
+    }} />
+  );
 }
-
-
-export const SidebarConsumer = SidebarContext.Consumer;
