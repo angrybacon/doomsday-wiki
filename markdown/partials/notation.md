@@ -7,8 +7,8 @@
 | CR        | Cabal Ritual            |
 | DD        | Doomsday                |
 | DR        | Dark Ritual             |
-| Echo      | Echo of Eons            |
 | EF        | Experimental Frenzy     |
+| Echo      | Echo of Eons            |
 | Em        | Emrakul, the Aeons Torn |
 | GP        | Gitaxian Probe          |
 | IC        | Infernal Contract       |
@@ -18,6 +18,7 @@
 | LM        | Laboratory Maniac       |
 | LP        | Lotus Petal             |
 | PN        | Ponder                  |
+| Pre       | Preordain               |
 | RoF       | Rain of Filth           |
 | SI        | Shelldock Isle          |
 | SW        | Street Wraith           |
