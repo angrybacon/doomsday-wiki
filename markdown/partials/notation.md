@@ -4,6 +4,7 @@
 | BS        | Brainstorm              |
 | BW        | Burning Wish            |
 | CB        | Conjurer's Bauble       |
+| CS        | Chromatic Sphere        |
 | CR        | Cabal Ritual            |
 | DD        | Doomsday                |
 | DR        | Dark Ritual             |
