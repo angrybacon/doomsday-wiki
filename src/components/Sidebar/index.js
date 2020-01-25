@@ -1,3 +1,4 @@
+import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
@@ -23,9 +24,8 @@ export default function Sidebar() {
       <Grid item children={<SidebarHeader />} />
       <Divider />
       <Grid item className={classes.body}>
-        <SidebarMenu />
-        <Divider />
-        <SidebarBody />
+        <Box children={<SidebarMenu />} my={1} />
+        <Box children={<SidebarBody />} my={1} />
       </Grid>
     </Grid>
   );

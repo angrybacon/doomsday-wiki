@@ -11,7 +11,7 @@ import Decklist from '../Decklist';
 import useStyles from './styles';
 
 
-export default function Puzzle({ data }) {
+export default function Puzzle({ barf, data }) {
 
   const classes = useStyles();
   const {
@@ -29,8 +29,8 @@ export default function Puzzle({ data }) {
   return (
     <>
       <Typography children={title} paragraph variant="h4" />
-      <Box my={2}>
-        <ExpansionPanel classes={{root: classes.panel}}>
+      <Box className={c({[classes.barf]: barf})} my={2}>
+        <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
             <Typography children="See Decklist:" />
           </ExpansionPanelSummary>
@@ -47,8 +47,8 @@ export default function Puzzle({ data }) {
       <Typography children={`Your Hand: ${yourHand}`} />
       <Typography children={`Your Board: ${yourBoard}`} />
       <Typography children={situationNotes} />
-      <Box mt={2}>
-        <ExpansionPanel classes={{root: classes.panel}}>
+      <Box className={c({[classes.barf]: barf})} mt={2}>
+        <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
             <Typography children="Solution:" />
           </ExpansionPanelSummary>

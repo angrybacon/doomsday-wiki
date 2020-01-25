@@ -3,6 +3,7 @@ import Divider from '@material-ui/core/Divider';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
@@ -29,7 +30,9 @@ export default function Markdown({ barf, className, source }) {
     link: Prettylink,
     linkReference: Prettylink,
     table: ({ children }) => (
-      <Table children={children} className={c(classes.table, {[classes.barf]: barf})} size="small" />
+      <TableContainer className={c({[classes.barf]: barf})}>
+        <Table children={children} size="small" />
+      </TableContainer>
     ),
     tableHead: ({ children }) => <TableHead children={children} />,
     tableBody: ({ children }) => <TableBody children={children} />,
@@ -52,7 +55,7 @@ export default function Markdown({ barf, className, source }) {
       {
         processNode: () => React.createElement('span', {className: classes.pile}),
         shouldProcessNode: node => node.name === 'pile',
-      }
+      },
     ]
   });
 

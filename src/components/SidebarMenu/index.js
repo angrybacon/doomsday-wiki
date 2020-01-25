@@ -46,7 +46,7 @@ export default function SidebarMenu() {
   }`);
 
   return (
-    <List component="nav">
+    <List component="nav" disablePadding>
 
       {chapters.group.map(({ edges, fieldValue }, index) => (
         <React.Fragment key={index}>
@@ -56,7 +56,7 @@ export default function SidebarMenu() {
           </ListItem>
           <Collapse in={collapses[fieldValue]} timeout="auto">
             <Divider />
-            <List component="ul">
+            <List>
               {edges.map(({ node }, index) => (
                 <ListItem activeClassName={classes.active}
                           button
@@ -80,7 +80,7 @@ export default function SidebarMenu() {
         </ListItem>
         <Collapse in={collapses.appendices} timeout="auto">
           <Divider />
-          <List component="ul">
+          <List>
             {appendices.edges.map(({ node }, index) => (
               <ListItem activeClassName={classes.active}
                         button

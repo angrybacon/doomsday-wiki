@@ -26,8 +26,4 @@ export default makeStyles(theme => ({
       width: '19%',
     },
   },
-  table: {
-    display: 'block',
-    overflowX: 'auto',
-  },
 }));
