@@ -12,6 +12,7 @@ import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 
 import Decklist from '../Decklist';
+import Mana from '../Mana';
 import Prettylink from '../Prettylink';
 import Quote from '../Quote';
 import useStyles from './styles';
@@ -51,6 +52,10 @@ export default function Markdown({ barf, className, source }) {
         }),
         replaceChildren: true,
         shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
+      },
+      {
+        processNode: () => React.createElement(Mana),
+        shouldProcessNode: node => node.name === 'mana',
       },
       {
         processNode: () => React.createElement('span', {className: classes.pile}),
