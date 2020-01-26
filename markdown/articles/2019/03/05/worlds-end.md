@@ -31,78 +31,33 @@ is a long running joke that his Delvers never flip). Through his digging he
 looks for and finds 3 Delver of Secrets but lo' none of them flip and he dies to
 a 1/1 Faerie Cloud... Wow.
 
-For anyone mad enough to try the very untuned and fun list I dub it **"Spaghetti
-and Meatballs"**.
+For anyone mad enough to try the very untuned and fun list I dub it *Spaghetti
+and Meatballs*.
 
-```
-MAIN
-3 Island
-4 Polluted Delta
-4 Scalding Tarn
-1 Shelldock Isle
-1 Swamp
-1 Tropical Island
-2 Underground Sea
-
-4 Brainstorm
-1 Cloud of Faeries
-4 Dark Ritual
-3 Doomsday
-3 Emrakul, the Aeons Torn
-1 Flusterstorm
-4 Force of Will
-1 Impulse
-1 Intuition
-1 Lim-DÃ»l's Vault
-3 Lotus Petal
-1 Night's Whisper
-4 Ponder
-3 Preordain
-4 Show and Tell
-2 Spell Pierce
-4 Thoughtseize
-
-BOARD
-3 Abrupt Decay
-1 Duress
-2 Echoing Truth
-1 Flusterstorm
-1 Laboratory Maniac
-1 Massacre
-2 Pithing Needle
-1 Snapcaster Mage
-2 Surgical Extraction
-1 Toxic Deluge
-```
+<div deckfile="2019.03.spaghetti.json"></div>
 
 Anyways I digress. Jumping to ahead a bit, when {{Experimental Frenzy}} was
 spoiled everyone had a think about it but most people just went "hmm, probs not
 great tbh". One person however saw the real potential. Reversemermaid on the
 DDFT Discord (first as some drunken fun started throwing out fun attempts at
-using the card and then suddenly:
+using the card and then suddenly...
 
-> **Reversemermaid 01/26/2019**
->
-> It should probably have a maindeck ToA and a draw 4 to make non-frenzy piles
+Reversemermaid on 01/26/2019:
+
+> *It should probably have a maindeck ToA and a draw 4 to make non-frenzy piles
 > more viable anyhow with frenzy in play the easiest pile is so darn stupid lol,
-> \[LED, LED, LED, LED, BW\] makes enough mana to BW for ToA and sac Frenzy
-
-> **Reversemermaid 01/26/2019**
+> \[LED, LED, LED, LED, BW\] makes enough mana to BW for ToA and sac Frenzy*
 >
-> waiiiiiiiit damn lol these piles have trouble generating enough storm lol just
-> did that pile and storm count was like 7 man im doing some embarassing
-> misplays with this
-
-> **Reversemermaid 01/26/2019**
+> *waiiiiiiiit damn lol these piles have trouble generating enough storm lol
+> just did that pile and storm count was like 7 man im doing some embarassing
+> misplays with this*
 >
-> shieet you can pull double doomsday piles out of your ass to generate storm
-> with frenzy this is so cool
-
-> **Reversemermaid 01/26/2019**
+> *shieet you can pull double doomsday piles out of your ass to generate storm
+> with frenzy this is so cool*
 >
-> at 4 mana sources you can ptt pile with \[EF, LED, LED, DD, ToA\] Throw
+> *at 4 mana sources you can ptt pile with \[EF, LED, LED, DD, ToA\] Throw
 > Healing Salve in the 75 and you can actually go infinite lol Wait ToA gains
-> life so \[LED, LED, LED, ToA, DD\] is infinite
+> life so \[LED, LED, LED, ToA, DD\] is infinite*
 
 Did this guy just say infinite storm with Frenzy out? Suddenly, people were
 interested. Myself included!
@@ -135,28 +90,30 @@ Now the nice thing about this card is the default Frenzy pile is very easy.
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
 
-Cast LED, from the top of your deck, crack for BBB  
-Cast LED, from the top of your deck, crack for BBB  
-Cast LED, from the top of your deck, crack for BBB  
-Cast Tendrils from the top of your deck for 5 storm and have BBBBB left in pool  
-Cast Doomsday stack \[LED, LED, LED, ToA, DD\]  
-Repeat as required.
+1. Cast LED, from the top of your deck, crack for {{BBB}}
+2. Cast LED, from the top of your deck, crack for {{BBB}}
+3. Cast LED, from the top of your deck, crack for {{BBB}}
+4. Cast Tendrils from the top of your deck for 5 storm and have {{BBBBB}} left in pool
+5. Cast Doomsday stack \[LED, LED, LED, ToA, DD\]
+6. Repeat as required
 
 The nice thing is the repeat stacks can use the Doomsday in the yard to form the
 new piles. The life gain from Tendrils helps mitigate the lifeloss from Doomsday
 allowing you to go infinite. As per point 4 above, Collextive Brutalitiy can
-also be used as everntually your Doomsday life total will go down to 1 or 2, you
+also be used as eventually your Doomsday life total will go down to 1 or 2, you
 cast CoBru back up to 3/4 and thus can repeat ad infinium.  
-Hell, you could even consider running Aetherflux Reservoir!
+Hell, you could even consider running {{Aetherflux Reservoir}}!
 
-As per the example above  
-\[LED, LED, LED, Aetherflux Reservoir, DD\]  
-Cast LED, from the top of your deck, crack for BBB  
-Cast LED, from the top of your deck, crack for BBB  
-Cast LED, from the top of your deck, crack for BBB  
-Cast AR from the top of your deck for BBBBB left in pool  
-Cast Doomsday, gaining 6 life stack \[LED, LED, LED, DD, ?\]  
-Repeat as required.
+As per the example above:
+
+<pile>{{!LED}} {{!LED}} {{!LED}} {{!Aetherflux Reservoir}} {{!DD}}</pile>
+
+1. Cast LED, from the top of your deck, crack for {{BBB}}
+2. Cast LED, from the top of your deck, crack for {{BBB}}
+3. Cast LED, from the top of your deck, crack for {{BBB}}
+4. Cast AR from the top of your deck for {{BBBBB}} left in pool
+5. Cast Doomsday, gaining 6 life stack \[LED, LED, LED, DD, ?\]
+6. Repeat as required
 
 Eventually the life gain will ramp up so that you go about 50 life and you can
 dome your opponent as required! This is of course just an amusing idea and in no
@@ -166,7 +123,7 @@ way should be considered competetive!
 
 Meme cards aside, the actual deck construction currently under consideration
 isn't too far removed from pre-ban lists. As Frenzy and Burning Wish do not pair
-well Wish has been cut and obviously Probe is now gone too. Tendrils comes back
+well Wish has been cut and obviously Probe is now gone too. Tendrils come back
 into the main and some extra cantrip effects and discard are added.  
 Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
@@ -188,32 +145,7 @@ Protection comes in the form of 4 TS, 2-4 Duress and 0-1 Collective Brutality.
 
 Taking this into account lists are starting to look similar to the following:
 
-```
-1 Badlands
-1 Island
-4 Polluted Delta
-4 Scalding Tarn
-1 Swamp
-3 Underground Sea
-1 Volcanic Island
-
-1 Act on Impulse
-4 Brainstorm
-3 Cabal Ritual
-1 Collective Brutality
-2 Conjurer's Bauble
-4 Dark Ritual
-4 Doomsday
-2 Duress
-3 Experimental Frenzy
-2 Lim-Dûl's Vault
-4 Lion's Eye Diamond
-4 Lotus Petal
-4 Ponder
-2 Preordain
-1 Tendrils of Agony
-4 Thoughtseize
-```
+<div deckfile="2019.03.ddeft.json"></div>
 
 This has a lot of flex still available and, even as I type this, people are
 offering to fight me over running only three Frenzy and not four. I like three
@@ -254,7 +186,7 @@ spreadsheet. At the time of writing we now have 164 matches recorded as a
 community with the following statistical breakdown:
 
 | Match Win % | Average Combo Turn | Average Mulligan |
-|:-----------:|:------------------:|:----------------:|
+| :---------: | :----------------: | :--------------: |
 | 68.29%      | 3.51               | 6.75             |
 
 Even for a skeptic like myself, this seems pretty good already. The data
@@ -264,12 +196,12 @@ it what you will.
 
 ## Final Thoughts
 
-> What will be will be  
-> Every river flows into the sea, but it's never enough  
-> And when the night gives way  
-> It's like a brand new Doomsday
+> *What will be will be*  
+> *Every river flows into the sea, but it's never enough*  
+> *And when the night gives way*  
+> *It's like a brand new Doomsday*
 
-*Lyrics from the song 'Doomsday' by Architects from the Album Holy Hell (2017)
+*Lyrics from the song "Doomsday" by Architects from the Album "Holy Hell" (2017)
 on Epitaph Records*
 
 So welcome to a potential new world of degenerate combo. It might not be lean.

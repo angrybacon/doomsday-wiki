@@ -1,0 +1,41 @@
+{
+  "name": "DDEFT",
+  "main": {
+    "Act on Impulse": 1,
+    "Cabal Therapy": 1,
+    "Collective Brutality": 1,
+    "Doomsday": 4,
+    "Duress": 2,
+    "Ponder": 4,
+    "Preordain": 2,
+    "Tendrils of Agony": 1,
+    "Thoughtseize": 4,
+    "Brainstorm": 4,
+    "Cabal Ritual": 2,
+    "Dark Ritual": 4,
+    "Conjurer's Bauble": 1,
+    "Lion's Eye Diamond": 4,
+    "Lotus Petal": 4,
+    "Experimental Frenzy": 4,
+    "Badlands": 1,
+    "Bloodstained Mire": 2,
+    "Polluted Delta": 4,
+    "Scalding Tarn": 2,
+    "Snow-Covered Island": 1,
+    "Snow-Covered Swamp": 1,
+    "Underground Sea": 2,
+    "Volcanic Island": 1,
+    "Lim-Dûl's Vault": 3
+  },
+  "side": {
+    "Abrade": 1,
+    "Empty the Warrens": 3,
+    "Engineered Explosives": 1,
+    "Flusterstorm": 2,
+    "Hurkyl's Recall": 2,
+    "Massacre": 2,
+    "Perilous Voyage": 2,
+    "Surgical Extraction": 1,
+    "Tormod's Crypt": 1
+  }
+}

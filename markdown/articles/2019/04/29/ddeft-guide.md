@@ -12,56 +12,20 @@ printed to finally replace the spot of probe.
 
 That card turned out to be Experimental Frenzy.
 
-> Experimental Frenzy 3R  
+> **Experimental Frenzy** {{3R}}  
 > Enchantment
 >
 > You may look at the top card of your library any time.  
 > You may play the top card of your library.  
 > You can’t play cards from your hand.  
-> {3}{R}: Destroy Experimental Frenzy.
+> {{3R}}: Destroy Experimental Frenzy.
 
-James, also known as Ape Of Justice on the Doomsday Discord server, got 6th
-place in a MTGO challenge on April 14th, 2019 with Experimental Frenzy Doomsday.
+James, also known as ApeofJustice on the Doomsday Discord server, got 6th place
+in a MTGO challenge on April 14th, 2019 with {{Experimental Frenzy}} Doomsday.
 
 ## Current Decklist
 
-```
-1 Act on Impulse
-1 Cabal Therapy
-1 Collective Brutality
-4 Doomsday
-2 Duress
-4 Ponder
-2 Preordain
-1 Tendrils of Agony
-4 Thoughtseize
-4 Brainstorm
-2 Cabal Ritual
-4 Dark Ritual
-1 Conjurer's Bauble
-4 Lion's Eye Diamond
-4 Lotus Petal
-4 Experimental Frenzy
-1 Badlands
-2 Bloodstained Mire
-4 Polluted Delta
-2 Scalding Tarn
-1 Snow-Covered Island
-1 Snow-Covered Swamp
-2 Underground Sea
-1 Volcanic Island
-3 Lim-Dûl's Vault
-Sideboard
-1 Abrade
-3 Empty the Warrens
-1 Engineered Explosives
-2 Flusterstorm
-2 Hurkyl's Recall
-2 Massacre
-2 Perilous Voyage
-1 Surgical Extraction
-1 Tormod's Crypt
-```
+<div deckfile="2019.04.ddeft.json"></div>
 
 We have concluded that a list similar to this is optimal.
 
@@ -74,23 +38,23 @@ With Experimental Frenzy in play, casting Doomsday wins the game.
 
 <pile>{{!LED}} {{!LED}} {{!LED}} {{!DD|A25}} {{!ToA}}</pile>
 
-With this pile, you can get infinite storm.
+With this pile, you can get infinite Storm.
 
-1. Cast LED, Crack for BBB
-2. Cast LED, Crack for BBB
-3. Cast LED, Crack for BBB
+1. Cast LED, Crack for {{BBB}}
+2. Cast LED, Crack for {{BBB}}
+3. Cast LED, Crack for {{BBB}}
 4. Cast DD, LED LED LED ToA DD
 5. Repeat
 
 If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
-have 2RU and a cantrip in hand using an Act on Impulse pile. An example of this
+have {{2UR}} and a cantrip in hand using an Act on Impulse pile. An example of this
 line.
 
 <pile>{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</pile>
 
-1. Cast Brainstorm, put back both LEDs, storm 5
-2. Cast Act on Impulse, exiling LED LED Preordain, storm 6
-3. Cast both LEDs, crack for UUUBBB and cast Preordain, storm 9
+1. Cast Brainstorm, put back both LEDs, Storm 5
+2. Cast Act on Impulse, exiling LED LED Preordain, Storm 6
+3. Cast both LEDs, crack for {{UUUBBB}} and cast Preordain, Storm 9
 4. Draw Tendrils and drain them for 20
 
 These are probably the most common piles, but there are variations on them. For
@@ -102,7 +66,7 @@ You can use this pile when you have 4 mana sources in play. If you have a
 Conjurer's Bauble in play, this is a win, if not, this is a PTT pile.
 
 If your opponent has Phyrexian Revoker on LED or a Chalice of the Void set to 0
-and you have a Frenzy in play, you can use this infinite storm pile utilizing
+and you have a Frenzy in play, you can use this infinite Storm pile utilizing
 Dark Ritual as an alternative to LED.
 
 <pile>{{!DR}} {{!DR}} {{!DR}} {{!DD}} {{!ToA}}</pile>
@@ -115,25 +79,23 @@ or bounce spell.
 
 <pile>{{!Dur}} {{!LED}} {{!LED}} {{!DD}} {{!ToA}}</pile>
 
-**OR**
+Or
 
 <pile>{{!LED}} {{!Dur}} {{!LED}} {{!DD}} {{!ToA}}</pile>
 
-**OR**
+Or
 
 <pile>{{!LED}} {{!ET}} {{!LED}} {{!DD}} {{!ToA}}</pile>
 
-The first option is for when you have B floating, while the second and third do
-not require B floating. Both generate infinite storm, and play around different
+The first option is for when you have {{B}} floating, while the second and third do
+not require {{B}} floating. Both generate infinite Storm, and play around different
 pieces of interaction.
 
 ## Collective Brutality - Use Cases
 
-{{!CoBru}}
-
-Collective Brutality is a possible main-deck hedge to cards like Thalia and/or
-Gaddock Teeg, as well as an alternate win condition in case Tendrils of Agony
-gets exiled with Surgical Extraction.
+{{Collective Brutality}} is a possible main-deck hedge to cards like Thalia
+and/or Gaddock Teeg, as well as an alternate win condition in case Tendrils of
+Agony gets exiled with Surgical Extraction.
 
 Due to the fact that Collective Brutality makes you gain 2 life, you can loop
 Doomsday.
@@ -146,26 +108,26 @@ Act on Impulse allows for more traditional piles when you only have 3 mana
 post-DD, and can't cast Experimental Frenzy.
 
 Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
-piles without Frenzy. Conjurer's Bauble allows you to get 6 storm with 5 cards
-using this pile. You need 2RU, a cantrip, and 3 storm for this to work.
+piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
+using this pile. You need {{2UR}}, a cantrip, and 3 Storm for this to work.
 
 <pile>{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!PN}}</pile>
 
-1. Cast cantrip, storm 4
-2. Cast AoI, no mana floating, storm 5
-3. Cast LED, storm 6
-4. Crack LED for UUU, cast Conjurer's Bauble, storm 7
+1. Cast cantrip, Storm 4
+2. Cast AoI, no mana floating, Storm 5
+3. Cast LED, Storm 6
+4. Crack LED for {{UUU}}, cast Conjurer's Bauble, Storm 7
 5. Crack bauble, putting LED on bottom
-6. Cast Ponder and draw LED, storm 8
-7. Cast LED, storm 9
-8. Crack for BBB and cast ToA, storm 10
+6. Cast Ponder and draw LED, Storm 8
+7. Cast LED, Storm 9
+8. Crack for {{BBB}} and cast ToA, Storm 10
 
 Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
 
 <pile>{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</pile>
 
-This pile creates 5 storm, which is usually enough.
+This pile creates 5 Storm, which is usually enough.
 
 According to data we have gathered so far, using the Act on Impulse pile occurs
 around 25% of the time, and should definitely be utilized if possible.

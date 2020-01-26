@@ -6,7 +6,7 @@ title: Stages of Grief - Doomsday at the SCG Worcester Classic
 When Gitaxian Probe was banned, Doomsday, barely clinging to life after losing
 SDT, was pronounced dead. We Doomsday players began the recovery process,
 sorting through our emotions. Most everyone is familiar with the 5 stages of
-grief: Denial, Anger, Bargaining, Depression, Acceptance. I never made it past
+grief: denial, anger, bargaining, depression, acceptance. I never made it past
 the first.
 
 I am a Doomsday player, always have been. I have little interest in playing
@@ -26,50 +26,7 @@ their weeklies, so I was pretty sure I wasn't just getting really lucky and
 might actually be on to something. I 4-1'd my last 2 leagues before the SCG
 Worcester weekend and was feeling pretty good about the list.
 
-```
-MAIN
-4 Burning Wish
-3 Doomdsay
-1 Infernal Contract
-1 Cruel Bargain
-1 Tendrils of Agony
-
-4 Brainstorm
-4 Ponder
-3 Preordain
-1 Conjurer's Bauble
-
-4 Thoughtseize
-3 Duress
-
-4 Dark Ritual
-3 Cabal Ritual
-1 Rain of Filth
-4 Lion's Eye Diamond
-4 Lotus Petal
-
-4 Polluted Delta
-2 Bloodstained Mire
-2 Scalding Tarn
-2 Underground Sea
-1 Volcanic Island
-1 Badlands
-2 Island
-1 Swamp
-
-BOARD
-1 Doomsday
-1 Infernal Contract
-2 Tendrils of Agony
-3 Empty the Warrens
-1 Cabal Therapy
-1 By Force
-1 Massacre
-1 Past in Flames
-2 Abrade
-1 Echoing Truth
-1 Chain of Vapor
-```
+<div deckfile="2019.01.ddft.json"></div>
 
 On Sunday I got up at 6am, drove 40 minutes to a friend's house, and then got in
 his car and rode another 1.5 hours to Worcester. We met up with the rest of my
@@ -78,7 +35,7 @@ event. Resleeved, wrote out decklists, talked shit, etc. A little after 9:30am,
 pairings go up for round 1 and I mentally prepare myself to get my dick kicked
 inside-out.
 
-#### R1 vs UB Reanimator
+## R1 vs UB Reanimator
 
 **Game 1** I lose the roll and fan out a turn 2 kill. My opponent starts with a
 Verdant Catacombs and passes. I get my hopes up for a non-blue deck, thinking
@@ -96,7 +53,7 @@ Griselbrand on t1 or 2. I die in a hurry. This matchup is awful, especially when
 I don't have gravehate, so I try not to let it get to me.  
 (0-1)
 
-#### R2 vs TES
+## R2 vs TES
 
 **Game 1** their hand relied heavily on Ad Nauseam, which I snagged with
 discard. They hit back with some discard, but I managed to reassemble before
@@ -115,7 +72,7 @@ exactly 6 black mana left. Doomsday to 2 life, then draw 4 to 1 life. Petal,
 Ritual, Ritual, Tendrils.  
 (1-1)
 
-#### R3 vs OmniTell
+## R3 vs OmniTell
 
 **Game 1** I lose the roll again. I strip their hand with discard and on turn 3
 they have nothing, and I can kill on my turn 4. Unbeknownst to me, they topdeck
@@ -131,7 +88,7 @@ At this point I'm basically on the bubble for top 16, and breakers would still
 need to go my way but I came to play Legacy so I resolve to rattle off 5 wins in
 a row and top 16.
 
-#### R4 vs Death and Taxes
+## R4 vs Death and Taxes
 
 **Game 1** I lose the roll again. My hand is a little slow but I turn 1
 Thoughtseize a Thalia. Unfortunately they draw another before I can win, and I
@@ -145,13 +102,13 @@ Mystic. My opponent topdecks another Mystic and decides to play it. I win with
 Doomsday before the Batterskull can come down.  
 (2-2)
 
-#### R5 vs No Show
+## R5 vs No Show
 
 A win is a win but I would have rather actually beaten someone. I'm not sure why
 this person no showed, its possible I got a pair down and they didn't want to
 keep playing at 3 losses but didn't formally drop. (3-2)
 
-#### R6 vs Eldrazi Aggro
+## R6 vs Eldrazi Aggro
 
 **Game 1** I lose the roll again, and my opponent leads on Temple into Mimic. I
 figure this is the end of the line as it's another miserable matchup. However,
@@ -168,7 +125,7 @@ instead of the normal Petal to cast more rituals. It makes exactly 10 storm, and
 I'm still alive.  
 (4-2)
 
-#### R7 vs 4c Loam
+## R7 vs 4c Loam
 
 **Game 1** my opponent was kind of salty, already complaining about playing
 against unfair decks all day. They mulliganed and kept a very fair hand and
@@ -187,7 +144,7 @@ So here we are. One more match win and I might make top 16, although my breakers
 aren't great so it's not a guarantee. I made it this far though so might as well
 give it a try.
 
-#### R8 vs Death and Taxes
+## R8 vs Death and Taxes
 
 **Game 1** I lose the roll, but my opponent mulls to 5 and plays a plains and
 passes. I only have a cantrip for my turn. My opponent doesn't have a 2nd land,
@@ -215,4 +172,4 @@ I might be cursed, but I'm trying to shake it off.
 
 If you want to see me play Doomsday, I've been trying to stream 1-2 times a week
 (usually Wednesday, Thursday or Friday) at twitch.tv/ddftguy and I upload all my
-past streams to YouTube (link to channel).
+past streams to YouTube.
