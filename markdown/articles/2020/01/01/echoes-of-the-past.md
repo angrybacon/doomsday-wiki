@@ -14,7 +14,7 @@ Mysteries and Collective Brutality loops. The deck was strong and good at
 grinding through blue control decks, but it felt more like a Frenzy deck and
 less like a Doomsday deck, much less a Storm deck.
 
-Then in June, Modern horizons was released, and along with it Echo of Eons.
+Then in June, Modern horizons was released, and along with it {{Echo of Eons}}.
 There was some discussion of it as a Burning Wish target, but the old-style
 lists were seen as inferior to the Frenzy lists, and little more thought was
 given to the card for a few months. As the end of the decade drew closer, Echo
@@ -35,20 +35,20 @@ include. When all was said and done, I ended up on this:
 
 <div deckfile="EchoDoomsday.json" />
 
-### Playing the Deck
+## Playing the Deck
 
 This deck and many of its play patterns should look familiar to people who
 played Doomsday circa 2013, or played the Draw4 list in early 2018. Doomsday is
-your primary storm engine. A very basic pile would look like [Draw4, Petal, Rit,
-Rit, ToA]. You cast Doomsday, then cantrip into the pile, often using Lion's Eye
-Diamond to generate mana for the Draw4, which draws you the mana to cast
-Tendrils. The pile itself is 5 storm, so you need to cast enough spells before
-Doomsday to make it lethal. You can also use Burning Wish to grab Tendrils and
-add one more storm, but this costs more mana. It's important to keep in mind
-that using a Draw4 in a Doomsday pile means you will be halving your life total
-twice. Life total management is an important aspect of playing Doomdsay, and if
-your life total goes below 4 you need to think about how to win without needing
-a Draw4 in your Doomsday pile.
+your primary storm engine. A very basic pile would look like \[Draw4, Petal,
+Rit, Rit, ToA\]. You cast Doomsday, then cantrip into the pile, often using
+Lion's Eye Diamond to generate mana for the Draw4, which draws you the mana to
+cast Tendrils. The pile itself is 5 storm, so you need to cast enough spells
+before Doomsday to make it lethal. You can also use Burning Wish to grab
+Tendrils and add one more storm, but this costs more mana. It's important to
+keep in mind that using a Draw4 in a Doomsday pile means you will be halving
+your life total twice. Life total management is an important aspect of playing
+Doomdsay, and if your life total goes below 4 you need to think about how to win
+without needing a Draw4 in your Doomsday pile.
 
 Using Echo of Eons in conjunction with Doomsday is where this list differs from
 previous iterations. Those who played in the early days may draw some parallels
@@ -71,33 +71,34 @@ an example, so I reccomend goldfishing a bunch, but I'll try to lay out 3
 scenarios that I think will demonstrate some of the Echo Pile concepts. In each
 of the following examples, assume you opponent cannot interact.
 
-Hand: Dark Ritual, Doomsday, Doomsday, LED, Echo of Eons  
-Board: Swamp, Island  
-You Ritual into Doomdsay and construct the following pile: [LED, Petal, Petal,
-Ponder, Burning Wish]. Crack LED for UUU. Flashback Echo. At this point, there
-are 8 cards left to draw from for Echo, meaning you won't draw one, but there is
-no way to fail because if you don't draw the Burning Wish, you can Ponder for
-it, and if you do draw it, you'll always have the mana to cast it and ToA.
+**Hand:** Dark Ritual, Doomsday, Doomsday, LED, Echo of Eons  
+**Board:** Swamp, Island  
+You Ritual into Doomdsay and construct the following pile: \[LED, Petal, Petal,
+Ponder, Burning Wish_]. Crack LED for {{UUU}}. Flashback Echo. At this point,
+there are 8 cards left to draw from for Echo, meaning you won't draw one, but
+there is no way to fail because if you don't draw the Burning Wish, you can
+Ponder for it, and if you do draw it, you'll always have the mana to cast it and
+ToA.
 
-Hand: Dark Ritual, Doomsday, LED, Echo, Lotus Petal, Burning Wish  
-Board: nothing  
+**Hand:** Dark Ritual, Doomsday, LED, Echo, Lotus Petal, Burning Wish  
+**Board:** nothing  
 Think of this as a turn 1 kill. Petal into Ritual into Doomsday and construct
-the following pile: [LED, LED, LED, Echo, Echo]. Because you have a Burning Wish
-in hand, you don't need to include a wincon in the pile; Echo will recycle it
-for you. Crack LED for UUU and flashback Echo. Now there are 8 cards you can
-draw from for Echo. You are guaranteed to draw at least 2 LED and at least 1
-Echo. Crack those 2 LEDs for UUURRR, then flashback Echo. This time there will
-be 7 cards leftover, so you're guaranteed to draw them all. Cast your LEDs, then
-Wish for ToA.
+the following pile: \[LED, LED, LED, Echo, Echo\]. Because you have a Burning
+Wish in hand, you don't need to include a wincon in the pile; Echo will recycle
+it for you. Crack LED for {{UUU}} and flashback Echo. Now there are 8 cards you
+can draw from for Echo. You are guaranteed to draw at least 2 LED and at least 1
+Echo. Crack those 2 LEDs for {{UUURRR}}, then flashback Echo. This time there
+will be 7 cards leftover, so you're guaranteed to draw them all. Cast your LEDs,
+then Wish for ToA.
 
-Hand: Dark Ritual, Doomsday, Doomdsay, Brainstorm, Thoughtseize, Veil of Summer  
-Board: Swamp, Island  
+**Hand:** Dark Ritual, Doomsday, Doomdsay, Brainstorm, Thoughtseize, Veil of Summer  
+**Board:** Swamp, Island  
 This pile will require a little bit of luck. Ritual into Doomsday and construct
-the following pile: [LED, LED, Echo, LED, Burning Wish]. Cast Brainstorm to draw
-2x LED and Echo. Put back any 2 cards besides the three you just drew. Cast the
-LEDs, crack them for UUURRR. Flashback the Echo. Now you will draw 7 cards from
-9 remaining. You need to draw 2 LEDs and the Burning Wish to win. By my
-calculation this has around a 70% chance of happening. Good odds, but
+the following pile: \[LED, LED, Echo, LED, Burning Wish\]. Cast Brainstorm to
+draw 2x LED and Echo. Put back any 2 cards besides the three you just drew. Cast
+the LEDs, crack them for {{UUURRR}}. Flashback the Echo. Now you will draw 7
+cards from 9 remaining. You need to draw 2 LEDs and the Burning Wish to win. By
+my calculation this has around a 70% chance of happening. Good odds, but
 non-deterministic. As an exercise for the reader, try to think if there may be a
 way to modify the pile to improve your success rate.
 
@@ -123,9 +124,9 @@ spells isn't bad. The deck is extremely business-dense too, and the other storm
 engines don't require cantrips to go off, so depending on your gameplan you can
 be more aggressive with your cantrips.
 
-### Matchups and sideboarding based on broad category
+## Matchups and sideboarding based on broad category
 
-#### Fair Blue Decks (Slghtly Favorable, how much depends a lot on the specfic opponent)
+### Fair Blue Decks (Slghtly Favorable, how much depends a lot on the specfic opponent)
 
 It may seem suprising on the surface, but this deck is fine against blue decks.
 Refilling a blue mage's hand or going all in on Doomsday may not seem like good
@@ -151,7 +152,7 @@ number of goblins against slower control. Even if they don't win outright they
 can get your opponent low and force them to spend resources dealing with the
 horde while you build back up for another go.
 
-#### Permanent Based Hate Decks including Burn (Slightly Unfavorable, except DnT which is even or slightly favorable)
+### Permanent Based Hate Decks including Burn (Slightly Unfavorable, except DnT which is even or slightly favorable)
 
 Generally in these matchups you win by giving your opponent as few turns as
 possible. You have wishable cards to deal with a permanent or 2, but it can be
@@ -166,7 +167,7 @@ and bring in your bounce spells or anything like Abrade or Abrupt Decay that you
 may have. These matchups tend to be straightforward. Watchout for things that
 affect your manabase, and try your best to create an opening.
 
-#### Combo Mirrors and Pseudo-Mirrors (Slightly Favorable, faster = less favorable)
+### Combo Mirrors and Pseudo-Mirrors (Slightly Favorable, faster = less favorable)
 
 This list is fast enough to have a shot against just about any other combo deck,
 has strong game against discard with Veil of Summer and Echoes, and packs enough
