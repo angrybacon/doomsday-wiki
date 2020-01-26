@@ -1,4 +1,4 @@
-const MANA_RE = /{{\s*(X*[0-99]*[WUBRG]*)\s*}}/g;
+const MANA_RE = /{{\s*(X*[0-99]*[CWUBRG]*)\s*}}/g;
 
 
 const reactify = (query, mana) => mana.split('').map(it => `<mana>${it}</mana>`).join('');
