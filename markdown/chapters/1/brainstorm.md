@@ -40,7 +40,7 @@ mana, etc.
 
 <pile>{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}</pile>
 
-1. Cast Doomsday, building the pile above
+1. Cast Doomsday and build the above pile
 2. Cast BS, draw LED, IU, SW and put back BW, IU
 3. Cast LED
 4. Activate SW, hold priority cracking LED for {{UUU}}, draw IU
@@ -63,7 +63,7 @@ since you get an extra spell in the pile.
 
 <pile>{{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}</pile>
 
-1. Cast Doomsday, building the pile above
+1. Cast Doomsday and build the above pile
 2. Cast BS, draw IC, DR, LP, put back BW, LP
 3. Cast DR, IC, draw LP, BW, LED, LED
 4. Cast LED, LED, LP
@@ -104,7 +104,7 @@ Say we have BS, IU, and any one card in hand. We cast Doomsday and build:
 
 <pile>{{!LED}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</pile>
 
-1. Cast Doomsday, building the pile above
+1. Cast Doomsday and build the above pile
 2. Cast BS, draw LED, LED, SW and replace X, IU
 3. Cast LED
 4. Cast LED
@@ -118,5 +118,5 @@ Obviously Storm can be increased by 1 if you are able to cast X prior to BW.
 
 ## Summary
 
-1. You can use BS to exchange resources between your hand and the pile.
-2. Don't fixate on specific lines, just remember general rules.
+1. You can use BS to exchange resources between your hand and the pile
+2. Don't fixate on specific lines, just remember general rules

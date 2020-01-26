@@ -45,7 +45,7 @@ have a Ponder in hand and {{U}} to cast it.
 
 <pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
 
-1. Cast Doomsday and build the pile above
+1. Cast Doomsday and build the above pile
 2. Cast Cantrip from hand, draw IU
 3. Cast IU, draw LED, LED, SW
 4. Cast LED
@@ -68,7 +68,7 @@ cantrip.
 
 <pile>{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
 
-1. Cast Doomsday and build the pile above
+1. Cast Doomsday and build the above pile
 2. Cast cantrip, draw IC
 3. Cast IC, draw LP, DR, DR, ToA
 4. Cast LP
@@ -88,7 +88,7 @@ response to the first cantrip.
 
 <pile>{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</pile>
 
-1. Cast Doomsday and build the pile above
+1. Cast Doomsday and build the above pile
 2. Activate SW, draw LED
 3. Cast LED
 4. Activate SW, hold priority crack LED for {{UUU}}, draw IU
@@ -159,11 +159,11 @@ types of disruption.
 
 ## Summary
 
-1. You generally need a card that lets you draw most of your pile.
+1. You generally need a card that lets you draw most of your pile
 2. Lethal Storm via Tendrils of Agony is the most common win condition for the
-   deck.
+   deck
 3. Holding priority when cantripping with LED in play is key, make sure to get
-   into this habit.
+   into this habit
 
 ## Get Started
 

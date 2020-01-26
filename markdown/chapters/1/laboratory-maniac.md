@@ -40,15 +40,15 @@ Now let's look into what winning with Laboratory Maniac looks like in Doomsday.
 Assuming you have 1 Laboratory Maniac somewhere in your maindeck, the standard
 piles are:
 
-> SW in hand - {{BBB}} + {{1UU}} - 4 life
+> SW in hand - {{BBB}} + {{1UU}}
 
 <pile>{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</pile>
 
-> CB in play, SW in hand - {{BBB}} + {{B}} - 4 life
+> CB in play, SW in hand - {{BBB}} + {{B}}
 
 <pile>{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}</pile>
 
-> 2 SW in hand - {{BBB}} + {{B}} - 4 life
+> 2 SW in hand - {{BBB}} + {{B}}
 
 <pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
 
@@ -75,7 +75,7 @@ as it isn't as critical for playing through discard, and the piles are not as
 efficient. It is possible however, and so for the sake of completeness IC/LM
 piles will be touched upon.
 
-> Pre in hand - {{BBB}} + {{UBBB}} + {{U}} or {{B}}
+> Pre in hand - {{BBB}} + {{UUBBB}} or {{UBBBB}}
 
 <pile>{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</pile>
 
@@ -116,7 +116,7 @@ Obviously, I have only touched upon the subject and the total number of piles
 that may be created is much larger. So things to remember are:
 
 1. LM is an alternate wincon which carries the risk of facing removal, but
-   dodges certain kinds of common Storm hate.
+   dodges certain kinds of common Storm hate
 2. You need enough mana to cast LM safely as well as a draw effect for when he
-   is in play.
-4. CS can be used to create a pile that cannot be responded to by removal.
+   is in play
+4. CS can be used to create a pile that cannot be responded to by removal
