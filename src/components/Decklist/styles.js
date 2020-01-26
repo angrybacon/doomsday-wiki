@@ -7,5 +7,7 @@ export default makeStyles(theme => ({
   },
   root: {
     backgroundColor: theme.palette.background.secondary,
+    marginBottom: theme.spacing(1),
+    marginTop: theme.spacing(1),
   },
 }));
