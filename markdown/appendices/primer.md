@@ -14,62 +14,21 @@ Contracts, extra Rituals, and no Lab Maniac anywhere in the 75. I've been
 working to refine the list since then and it feels like its sufficiently
 competitve that I wouldn't be completely embarassed to write a primer.
 
-### The Base List
+## The Base List
 
 I've added abbreviations for some card names, which will come in handy later
 when notating Doomsday piles and such.
 
-```
-Main
-3 Doomsday (DD)
-4 Burning Wish (BW)
-2 Infernal Contract (IC)
-1 Tendrils of Agony (ToA)
-
-4 Dark Ritual (DR)
-3 Cabal Ritual (CR)
-1 Rain of Filth (RoF)
-4 Lotus Petal (LP)
-4 Lion's Eye Diamond (LED)
-
-4 Brainstorm (BS)
-4 Ponder (PN)
-3 Preordain (Pre)
-1 Conjurer's Bauble (CB)
-
-4 Thoughtseize (TS)
-3 Duress (Dur)
-
-4 Polluted Delta
-2 Bloodstained Mire
-2 Scalding Tarn
-2 Underground Sea
-1 Volcanic Island
-1 Badlands
-2 Island
-1 Swamp
-
-Sideboard
-1 Doomsday
-1 Tendrils of Agony
-1 Infernal Contract
-1 Past in Flames (PiF)
-3 Empty the Warrens (EtW)
-1 Massacre
-1 By Force
-3 Echoing Truth (ET)
-1 Chain of Vapor (CoV)
-2 Flusterstorm
-```
+<div deckfile="2018.12.ddft.json"></div>
 
 ## The Part Where I Predict Some of Your Questions About the List
 
-#### Why Infernal Contract?
+> Why Infernal Contract?
 
 Cruel Bargain works just as well and a split is probably ideal to dodge
 extraction effects.
 
-#### No I mean why play Draw4's over Ideas Unbound/Act on Impulse?
+> No I mean why play Draw4's over Ideas Unbound/Act on Impulse?
 
 One of the things I disliked about previous Doomsday lists is that they had
 "dead" cards in them. Ideas Unbound, Act on Impulse, Laboratory Maniac, all
@@ -81,7 +40,7 @@ against decks that don't pressure your life total, a way to recover from
 discard, a decent bait spell for countermagic, and a functional storm engine in
 its own right. Simply put, Draw4's don't suck to topdeck as much as a Lab Man.
 
-#### Why play twice as many rituals as previous lists?
+> Why play twice as many rituals as previous lists?
 
 This is probably easy to figure out but I'll touch on it anyway. We're playing
 lots of cards that have a mana cost of BBB. You often are casting 2 or more of
@@ -89,7 +48,7 @@ those cards in a single turn. You need the extra rituals. A nice bonus is that
 PiF from the board becomes a lot easier to use and it can help play through soft
 permission like Spell Pierce.
 
-#### Why 3 Cabal Ritual/1 Rain of Filth
+> Why 3 Cabal Ritual/1 Rain of Filth
 
 I'm not 100% convinced of this one myself but for now I'm sticking with it. I
 felt like I wanted a 5th 1-mana ritual, but not 9 rituals, and I really wanted
@@ -97,7 +56,7 @@ the 3rd Preordain, so the cut that made the most sense was the 4th Cabal Ritual.
 Rain of Filth also has a very particular usage in the only reasonable
 pass-the-turn pile I've discovered so far.
 
-#### Why the singleton Conjurer's Bauble?
+> Why the singleton Conjurer's Bauble?
 
 I view it as a necessary evil. It's a cantrip that can be cast off any color of
 mana, and it's a "saved draw" which is a concept you'll be familiar with if
@@ -105,7 +64,7 @@ you've played or read about other iterations of Doomsday decks. It also is
 useful for sneaking an extra storm into your piles, which I'll cover more in
 depth later.
 
-#### Isn't playing Thoughtseize alongside Doomsday and Draw4's a ton of life loss?
+> Isn't playing Thoughtseize alongside Doomsday and Draw4's a ton of life loss?
 
 Yes. Life total management is an important aspect of playing this deck. You must
 cast aside any fear you have of dealing damage to yourself. I win many games at
@@ -115,7 +74,7 @@ number of games I've lost because of it is negligible, and the number of games
 I've won because of it is considerable. (Editor - "The only life that matters,
 is the last" is a key lesson many people need to learn in magic).
 
-#### Why play Doomsday over other Storm decks?
+> Why play Doomsday over other Storm decks?
 
 The primary reason is because it's sweet. It's a fun deck that makes you feel
 smart. Potential benefits over other Storm lists include the flexibility
@@ -125,8 +84,6 @@ hate. It also (now) relies substantially less on Lion's Eye Diamond than decks
 with Infernal Tutor, which can be helpful at times. But in practice it likely
 isn't as good as other Storm decks and if you have interest in the deck you
 should come to terms with this before proceeding.
-
----
 
 ## How to Win Games
 
@@ -144,7 +101,7 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 
 #### Basic Piles
 
-> Cantrip in hand - BBB+UBBB (7) - 7 Storm
+> Cantrip in hand - {{BBB}} + {{UBBB}} - 7 Storm
 
 <pile>{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
 
@@ -161,7 +118,7 @@ pile, and you have an LED to make mana for the Draw4. That's 4 storm, plus 5
 from the pile makes you 1 short. Fortunately you can squeeze that 10th storm out
 of your pile with a slight modification:
 
-> Cantrip in hand - BBB+UBBB (7) - 8 Storm
+> Cantrip in hand - {{BBB}} + {{UBBB}} - 8 Storm
 
 <pile>{{!IC}} {{!LP}} {{!DR}} {{!CB}} {{!ToA}}</pile>
 
@@ -173,7 +130,7 @@ Bauble is in the deck. Notably, this pile does not dodge graveyard hate. If you
 need an extra storm from your pile and need to dodge gravehate, you can do it
 for 1 extra mana of any color:
 
-> Cantrip in hand - BBB+UBBB1 (8) - 8 Storm
+> Cantrip in hand - {{BBB}} + {{1UBBB}} - 8 Storm
 
 <pile>{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
 
@@ -193,23 +150,23 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 **IC in hand used to draw into pile**
 
-> IC in hand - BBB+BBB (6) - 7 Storm
+> IC in hand - {{BBB}} + {{BBB}} - 7 Storm
 
 <pile>{{!LP}} {{!DR}} {{!DR}} {{!CB}} {{!ToA}}</pile>
 
-> IC in hand - BBB+BBB (6) - 8 Storm
+> IC in hand - {{BBB}} + {{BBB}} - 8 Storm
 
 <pile>{{!LED}} {{!LED}} {{!LP}} {{!CB}} {{!BW}}</pile>
 
 **Think the opponent is being cute and sandbagging an answer to Tendrils?**
 
-> Cantrip in hand - BBB+UBBBB (8) - 7 Storm
+> Cantrip in hand - {{BBB}} + {{UBBBB}} - 7 Storm
 
 <pile>{{!IC}} {{!DR}} {{!DR}} {{!Dur}} {{!ToA}}</pile>
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
 
-> Cantrip in hand - BBB+UUBBBB(9) - 7 Storm
+> Cantrip in hand - {{BBB}} + {{UUBBB}} - 7 Storm
 
 <pile>{{!IC}} {{!DR}} {{!DR}} {{!CoV}} {{!ToA}}</pile>
 
@@ -217,13 +174,13 @@ Note that this only works post board since CoV isn't in the maindeck.
 
 **Brainstorm and IC in hand**
 
-> BS and IC in hand - BBB+UB (5) - 8 Storm
+> BS and IC in hand - {{BBB}} + {{UB}} - 8 Storm
 
 <pile>{{!DR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
 
 **Brainstorm and ToA in hand**
 
-> BS and ToA in hand - BBB+UB (5) - 8 Storm
+> BS and ToA in hand - {{BBB}} + {{UB}} - 8 Storm
 
 <pile>{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!DR}}</pile>
 
@@ -239,27 +196,27 @@ pass-the-turn pile is possible and comes up occasionally. Knowing what it takes
 to execute one could save your ass. This is the first PTT pile I was able to
 come up with in this new list:
 
-> BBBB1 (5) - 5 Storm + 6 Storm
+> {{1BBBB}} - 11 Storm
 
 <pile>{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</pile>
 
-The idea here is that you cast ToA twice by recycling it with the Bauble.
-ToA->CB->ToA costs 9 mana total. With 5 lands on the field (including all 4
-black producing lands) you can make this pile work with no cards in hand and
-nothing but lands on board. This is the reason RoF and CR are used. RoF helps
-you get to threshold so that CR makes as much mana as possible. It's worth
-noting that LED is +3 mana like a CR with Threshold and could replace CR in some
-situations. Most of the time you won't have so many lands on board and you'll
-need to rely on rituals in hand or mana rocks on the field to get you up to 9
-mana. As you might imagine this scenario won't come up that often, but sometimes
-you'll find youself with a bunch of mana and a Doomsday but no cantrip, and the
-best bet may be to slam the Doomsday and hope you get another turn unmolested.
-Incidentally the same setup can be used as a same-turn pile to potentially make
-upwards of 20 copies of ToA if your opponent has an unusually high life total.
+The idea here is that you cast ToA twice by recycling it with the Bauble. ToA ->
+CB -> ToA costs 9 mana total. With 5 lands on the field (including all 4 black
+producing lands) you can make this pile work with no cards in hand and nothing
+but lands on board. This is the reason RoF and CR are used. RoF helps you get to
+threshold so that CR makes as much mana as possible. It's worth noting that LED
+is +3 mana like a CR with Threshold and could replace CR in some situations.
+Most of the time you won't have so many lands on board and you'll need to rely
+on rituals in hand or mana rocks on the field to get you up to 9 mana. As you
+might imagine this scenario won't come up that often, but sometimes you'll find
+youself with a bunch of mana and a Doomsday but no cantrip, and the best bet may
+be to slam the Doomsday and hope you get another turn unmolested. Incidentally
+the same setup can be used as a same-turn pile to potentially make upwards of 20
+copies of ToA if your opponent has an unusually high life total.
 
 Here is another potential pass-the-turn pile:
 
-> BBBBRR (6) - 8 Storm
+> {{BBBBRR}} - 8 Storm
 
 <pile>{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</pile>
 
@@ -279,7 +236,7 @@ Empty the Warrens kills are simple so I'll get them out of the way first. Do you
 have a few rituals or petals, maybe an LED, and an Empty the Warrens or a way to
 get it? Consider trying to kill with Empty. EtW lets you "go off" faster and
 with a lower storm count and still likely win. This is useful when you find
-yourself with an opening to "go off" but a non-lethal storm count. Did you
+yourself with an opening to *go off* but a non-lethal storm count. Did you
 duress your Delver opponent and see they had no castable countermagic? Are you
 concerned about a potential lockpiece like Chalice or Thalia? These are good
 times to consider the EtW plan. If you can make at least 8, and preferably more
@@ -316,9 +273,9 @@ Draw4. This will let you see the most cards. I also try to spend as few
 resources before casting the Draw4 as possible to give myself the best chance of
 recovery should I whiff. For example, if I have 2 Underground Seas on board and
 my hand is 3 Dark Rituals and a Draw4, I'm going to start that combo attempt
-with Ritual->Draw4. No need to spend those other rituals just yet if I can still
-cast them later. Now consider if I had a Sea and a Badlands on board, and the
-same hand. Here I'd probably play 2 Rituals off the Sea and then the Draw 4.
+with Ritual -> Draw4. No need to spend those other rituals just yet if I can
+still cast them later. Now consider if I had a Sea and a Badlands on board, and
+the same hand. Here I'd probably play 2 Rituals off the Sea and then the Draw 4.
 This leaves me with a red mana for Wish and mana floating after the Draw4 to
 cast the last Ritual. An exception to this rule would be if I had an LED I
 needed to crack to make red mana, in which case I might go all in and blow the
@@ -348,7 +305,7 @@ concept applies to most every deck, but it's particularly important in proactive
 combo decks that require careful resource management. Look at your opening hand,
 determine whether you think you'll be winning with DD, Natural Storm, EtW, spend
 your resources in the way that best facilitates the plan. It's ok if sometimes
-the plan is "gather info and resources", but if you can't quickly devise a more
+the plan is *gather info and resources*, but if you can't quickly devise a more
 concrete plan you put yourself at a disadvantage.
 
 Don't be afraid to cast a Draw4 for value. Untapping with a full grip is insane,
@@ -360,12 +317,10 @@ consider.
 1. How many other cards must you spend to cast it? The more cards you put into
    casting it, the less value it nets you. Ideally you hardcast it off lands and
    spend no rituals or petals.
-
 2. Is there any reason you should hold onto it? It can draw you into Doomsday
    pile or be a potential Storm engine, but don't get too hung up on holding it
    for a combo turn if you are still missing lots of other resources you'd need
    to combo.
-
 3. Do you anticipate being able to win or NEEDING to win within a turn or 2 of
    casting it? I think this is the hardest one to get a feel for. If you feel
    like you're at parity or slightly ahead of your opponent but expect to be
@@ -383,7 +338,7 @@ consider.
    string together a PiF kill or something, or maybe those 4 cards are awful but
    in that case you would have died anyway.
 
-This list has enough "must-counter" spells that you have a shot at using extra
+This list has enough *must-counter* spells that you have a shot at using extra
 business spells to muscle past countermagic even if you're short on Duress
 effects. Draw4s are excellent at this, since if they do resolve you're up on
 cards. Burning Wish is also decent since if it resolves you can still do
@@ -433,62 +388,74 @@ I'll provide a rough sideboard plan against as many common decks as possible but
 first I'm going to briefly touch on the construction of the sideboard and why
 I've chosen the cards I did, and why I've left some out.
 
-**1 Doomsday, 1 Tendrils of Agony, 1 Infernal Contract, 1 Empty the Warrens, 1
-Past in Flames**  
+> 1 Doomsday, 1 Tendrils of Agony, 1 Infernal Contract, 1 Empty the Warrens, 1
+> Past in Flames
+
 This is the irreplaceable core of the wishboard. IC could conceivably be an
 Ideas Unbound or Act On Impulse but I think IC is the best option since it can
 be brought in for certain matchups.
 
-**1 Massacre, 1 By Force**  
+> 1 Massacre, 1 By Force
+
 These are technically flex slots but I don't like to leave home without them.
 Massacre in particular is a huge help in certain matchups. As for By Force, I
 like to have a card that can deal with Chalices. Other options include
-Consign//Oblivion, Meltdown, and Pulverize although you'd probably want a second
+Consign // Oblivion, Meltdown, and Pulverize although you'd probably want a second
 Volc to support that.
 
-**2 More Empty the Warrens**  
+> 2 More Empty the Warrens
+
 I've found these to be the best sideboard option vs Delver-ish decks, among
 others. Maindeck Empties are good for fighting through counterspells.
 
-**Bounce Spells**  
+> Bounce Spells
+
 For prison and hatebears and random crap you need to get off the battlefield.
 
-**Flusterstorms**  
+> Flusterstorms
+
 Decent against Combo, fine against Hymns and counterspells and stuff although I
 usually don't bring them in against Hymn decks.
 
-**Why no Hurkyl's Recall?**  
+> Why no Hurkyl's Recall?
+
 It's powerful but narrow and given the reduced space I value flexibility in my
 answers.
 
-**Why no Shelldock Isle/Emrakul?**  
+> Why no Shelldock Isle/Emrakul?
+
 It's fine but I don't think it's good enough against a large enough chunk of the
 format, and it's more dead cards in the deck which I'm trying to avoid. If your
 expected meta has lots of Show and Tell, Reanimator, and hard control decks, and
 few Wastelands and non-blue combo decks, it might be worth it.
 
-**Why no Lab Man anywhere in the 75?**  
+> Why no Lab Man anywhere in the 75?
+
 I initially cut it because there aren't any great piles with it and Draw4's, and
 again it's a dead card. At this point I can say with reasonable confidence that
 not having it hasn't had an adverse effect on my winrate. Pass-the-turn Lab Man
 piles were one of the deck's best tools against heavy discard. This new list
 just has different tools against discard in the form of Draw4s and PiF.
 
-#### Sideboard Guide
+### Sideboard Guide
 
-**Grixis Control**  
+#### Grixis Control
+
 -1 Doomsday, -1 Rain of Filth, -1 Preordain  
-+2 Empty the Warrens, +1 Infernal Contract  
++2 Empty the Warrens, +1 Infernal Contract
+
 In this matchup my plan A is to get off an EtW in the first few turns of the
 game as that is usually enough. If that doesn't happen you want to be able to go
 toe-to-toe with their discard and card advantage. You can consider bringing
 Flusterstorm in for this matchup if you feel like you want a little more help.
 Maybe cut an LED and a Duress.
 
-**Miracles, High Tide, any slow Ux Counterspell deck**  
+#### Miracles, High Tide, any slow Ux Counterspell deck
+
 -4 Lion's Eye Diamond, -4 Burning Wish, -1 Preordain  
 +1 Doomsday, +1 Infernal Contract, +1 Tendrils of Agony, +1 Past in Flames, +3
-Empty the Warrens, +2 Flusterstorm  
+Empty the Warrens, +2 Flusterstorm
+
 I am not at all confident in my sideboard plan for this matchup. I've tried a
 ton of different things and this feels the best but I don't like the matchup. My
 game 1 winrate against Miracles is around 90% but my match winrate is less than
@@ -503,17 +470,21 @@ individually powerful cards to overwhelm their counters. Disrupt them and make
 them spend resources trying to reassemble instead of spend resources stopping
 you.
 
-**Most Delver Variants**  
+#### Most Delver Variants
+
 -2 Doomsday  
-+2 Empty the Warrens  
++2 Empty the Warrens
+
 Doomsday isn't great in the Delver matchups. They have bolts, a fast clock and
 lots of disruption. Empty the Warrens is a better plan. Often Delver players
 will keep threat-light, disruption-heavy hands and Empty stays relevant
 suprisingly late into the game. Be patient.
 
-**Death's Shadow**  
+#### Death's Shadow
+
 -3 Doomsday, -1 Conjurer's Bauble  
-+2 Empty the Warrens, +1 Tendrils of Agony, +1 Infernal Contract  
++2 Empty the Warrens, +1 Tendrils of Agony, +1 Infernal Contract
+
 This might seem weird and I'm not 100% convinced on this board plan but Doomsday
 is uniquely bad here. They often have heavy discard and your life total matters
 a lot against their fast clock. A naturally drawn Tendrils is often excellent in
@@ -522,35 +493,43 @@ The Bauble gets cut because it's bad without Doomsday, and the Contract comes in
 because you need maximum ability to try and take advantage of any opening you
 get.
 
-**Storm**  
+#### Storm
+
 -1 Rain of Filth, -1 Doomsday, -1 Preordain  
-+2 Flusterstorm, +1 Infernal Contract  
++2 Flusterstorm, +1 Infernal Contract
+
 Games can end before Rain of Filth becomes relevant, and similarly games can end
 before you have enough lands for a pass-the-turn pile so a Doomsday gets cut.
 Flusterstorm comes in for obvious reasons, and Contract comes in because your
 life total doesn't really matter and the matchup often devolves into
 discard-laden attrition games.
 
-**Death and Taxes and pretty much anything with Chalices**  
+#### Death and Taxes and pretty much anything with Chalices
+
 -3 Duress, -1 Preordain  
-+3 Echoing Truth, +1 Chain of Vapor  
++3 Echoing Truth, +1 Chain of Vapor
+
 Duress does very little and you need ways to bounce their stuff. Either win
 before they drop a lockpiece, or try to get rid of it and go off. Don't forget
 that Burning Wish can find solutions to hateful permanents, but a quick EtW can
 be a solution too.
 
-**Lands**  
+#### Lands
+
 -4 Thoughtseize  
-+3 Echoing Truth, +1 Chain of Vapor  
++3 Echoing Truth, +1 Chain of Vapor
+
 Here, Thoughtseize doesn't hit anything Duress doesn't, and the bounce spells
 are better than more discard. Gameplan is the same as vs other lockpiece decks.
 Win before the Spheres come down, or bounce them. The mana denial is heavier in
 this matchup so watch out for that, and remember that Empty the Warrens is
 pretty bad in this matchup.
 
-**Sneak and Show and Reanimator**  
+#### Sneak and Show and Reanimator
+
 -1 Preordain, -1 Rain of Filth  
-+2 Flusterstorm  
++2 Flusterstorm
+
 You don't have time to be casting a bunch of cantrips or making enough land
 drops for RoF to be good. Flusterstorm is your best hope in these matchups.
 Prioritize stopping their combo over setting up your own. Draw4's are good in
@@ -558,9 +537,11 @@ this matchup because they are the best single card at taking advantage of a
 window your opponent gives you, and it may be correct to side the same as Storm
 for this matchup.
 
-**Turbo Depths or Nic Fit, without blue splash**  
+#### Turbo Depths or Nic Fit, without blue splash
+
 -3 Duress, -1 Thoughtseize -1 Preordain  
-+3 Echoing Truth, +1 Chain of Vapor, +1 Infernal Contract  
++3 Echoing Truth, +1 Chain of Vapor, +1 Infernal Contract
+
 Very different decks but identical sideboard plans. Both decks may have things
 you want to bounce and plenty of discard, and give you some leeway with using
 your life as a resource. If either deck is playing blue I'd leave all 4

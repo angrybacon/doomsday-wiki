@@ -4,14 +4,14 @@ title: Other Doomsday Resources
 
 ## Streams
 
+- Lee *d8dk32* Curtis:
+  [Twitch](https://www.twitch.tv/ddftguy)
+  [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)
 - Albert *g0ld_rook* Huang:
   [Twitch](https://www.twitch.tv/g0ld_rook)
   [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)
 - Erik *Hulahula* Clauss:
   [YouTube](https://www.youtube.com/channel/UC8jP7pO-rpfhn0_Bg7CIp2w)
-- d8dk32:
-  [Twitch](https://www.twitch.tv/ddftguy)
-  [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)
 
 ## Podcasts
 
