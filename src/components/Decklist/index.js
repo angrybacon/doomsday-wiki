@@ -14,30 +14,34 @@ import useStyles from './styles';
 export default function Decklist({ className, deckFile, hr=true }) {
 
   const classes = useStyles();
-  const { main, name, side } = require('../../../decklists/' + deckFile);
+  const { main={}, name, side={} } = require('../../../decklists/' + deckFile);
 
   return (
     <div className={c(classes.root, className)}>
       {!!hr && <Divider />}
       <div className={classes.content}>
-        <Typography children={name} paragraph variant="h5" />
+        {name && <Typography children={name} paragraph variant="h5" />}
         <Grid container>
-          <Grid item xs={12} sm={6} md={8}>
-            <Typography children="Maindeck" gutterBottom variant="h6" />
-            <List disablePadding>
-              {Object.entries(main).map(([ card, amount ], index) => (
-                <Typography children={`${amount} ${card}`} component="li" key={index} />
-              ))}
-            </List>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Typography children="Sideboard" gutterBottom variant="h6" />
-            <List disablePadding>
-              {Object.entries(side).map(([ card, amount ], index) => (
-                <Typography children={`${amount} ${card}`} component="li" key={index} />
-              ))}
-            </List>
-          </Grid>
+          {!!Object.entries(main).length && (
+            <Grid item xs={12} sm={6} md={8}>
+              <Typography children="Maindeck" gutterBottom variant="h6" />
+              <List disablePadding>
+                {Object.entries(main).map(([ card, amount ], index) => (
+                  <Typography children={`${amount} ${card}`} component="li" key={index} />
+                ))}
+              </List>
+            </Grid>
+          )}
+          {!!Object.entries(side).length && (
+            <Grid item xs={12} sm={6} md={4}>
+              <Typography children="Sideboard" gutterBottom variant="h6" />
+              <List disablePadding>
+                {Object.entries(side).map(([ card, amount ], index) => (
+                  <Typography children={`${amount} ${card}`} component="li" key={index} />
+                ))}
+              </List>
+            </Grid>
+          )}
         </Grid>
       </div>
       {!!hr && <Divider />}
