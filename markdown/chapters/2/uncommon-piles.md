@@ -20,7 +20,7 @@ and recycle cards you cast in your first pile. These piles typically require a
 lot of mana and life (especially if you're using IC) but they are still worth
 knowing, though they rarely come up.
 
-> CB in play, SW in hand - BBB + 1UUR (7) - 11 Storm
+> CB in play, SW in hand - {{BBB}} + {{1UUR}} - 11 Storm
 
 <pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
 
@@ -28,36 +28,36 @@ knowing, though they rarely come up.
 
 Plays out as follows:
 
-1. Cast Doomsday, building the first pile above
+1. Cast Doomsday and build the first pile
 2. Activate SW, draw IU
-4. Cast IU, draw LED, LED, BW
+3. Cast IU, draw LED, LED and BW
+4. Cast LED
 5. Cast LED
-6. Cast LED
-7. Cast BW fetching DD, hold priority and crack LEDs for UUU BBB
-7. Cast Doomsday build the second pile above
-   - Crack CB targeting nothing, draw IU
-8. Cast IU, draw LED, LED, SW
-9. Cast LED
+6. Cast BW getting DD, hold priority and crack LEDs for {{UUUBBB}}
+7. Cast Doomsday and build the second pile
+8. Crack CB targeting nothing, draw IU
+9. Cast IU, draw LED, LED and SW
 10. Cast LED
-11. Activate SW, hold priority and crack LEDs for BBB RRR, draw BW
-12. Cast BW fetching ToA
-13. Cast ToA for 11 storm.
+11. Cast LED
+12. Activate SW, hold priority and crack LEDs for {{BBBRRR}}, draw BW
+13. Cast BW getting ToA
+14. Cast ToA
 
 You can do a Double-DD pile with IC, but be aware you need at least 16 life
 pre-DD to execute this pile and it requires a silly amount of black mana. Here
 is an example of what that might look like:
 
-> DR, Pre in hand - BBB+UBBBBBB1 - 11 Storm
+> DR, Pre in hand - {{BBB}} + {{1UBBBBBB}} - 11 Storm
 
 <pile>{{!IC}} {{!DR}} {{!CB}} {{!DD}} {{!ToA}}</pile>
 
 <pile>{{!IC}} {{!DR}} {{!DR}} {{!DD}} {{!Pre}}</pile>
 
-1. Cast Doomsday, building the first pile above
+1. Cast Doomsday and build the first pile
 2. Cast DR, then Pre to draw IC
-3. Cast IC, drawing DR, CB, DD, ToA
-4. Cast CB, then DR, then DD, building the second pile above
-5. Cast IC again, drawing DR, DR, DD, Pre
+3. Cast IC, drawing DR, CB, DD and ToA
+4. Cast CB, then DR, then DD to build the second pile
+5. Cast IC again, drawing DR, DR, DD and Pre
 6. Cast DR, DR, then ToA
 
 This pile is unlikely to be useful in practice since the cost is so steep.
@@ -82,13 +82,13 @@ A simple version of the pile looks like this:
 
 <pile>{{!SI}} {{!EM}} {{!Isl}} {{!Dur}} {{!LM}}</pile>
 
-1. Cast Doomsday, build the pile above, pass the turn.
-2. Draw and play Shelldock Isle, hideaway Emrakul, pass the turn
+1. Cast Doomsday and build the above pile, then pass the turn
+2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
 3. Draw and play Island, activate Shelldock Isle, cast Emrakul, take another
-   turn.
-4. Cast Duress if you can, attack with Emrakul.
-5. Attack again next turn if needed. Lab Man serves as a backup plan in case
-   they're not dead yet.
+   turn
+4. Cast Duress if you can, attack with Emrakul
+5. Attack again next turn if needed. LM serves as a backup plan in case they're
+   not dead yet
 
 The first 2 cards may be the only ones required to win so we have 3 extra cards
 to build some redundancy, interaction and backup plans into our pile.
@@ -97,28 +97,28 @@ If you have SI in hand and a land drop available, you can do this pile and only
 pass 1 turn.
 
 If you suspect the opponent has a way to interact with the order of your pile,
-like JTMS's +2, you can modify the pile slightly to play around this:
+like Jace's +2, you can modify the pile slightly to play around this:
 
 <pile>{{!CB}} {{!SI}} {{!Em}} {{!Dur}} {{!LM}}</pile>
 
 CB on top means SI won't get fatesealed, and you can put DD on the bottom with
-CB to draw SI and ensure you have enough cards in your library to not deck
+CB to draw SI and ensure you have enough cards in your library not to deck
 yourself before you can attack for lethal.
 
 ## Time Spiral Piles
 
-Time Spiral was a common sideboard card in older Doomsday lists, predating the
-rise of SDT Miracles. It can still be used to make functional piles, and is a
-strong wishboard card in its own right, but giving your opponent a fresh 7 in
+{{Time Spiral}} was a common sideboard card in older Doomsday lists, predating
+the rise of SDT Miracles. It can still be used to make functional piles, and is
+a strong wishboard card in its own right, but giving your opponent a fresh 7 in
 our blue-dominated format is undesirable. For this reason the card sees little
 to no play, but is presented here for its historical interest.
 
-The cost listed in square brackets \[..\] is assumingly paid for by the lands that
-are untapped by Time Spiral.
+The cost listed in parentheses is assumingly paid for by the lands that are
+untapped by Time Spiral.
 
-A simple example of a pile that uses Time Spiral is as follows:
+A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
-> Cantrip, X in hand - UU+1R+\[1R\] (4) - 11 Storm
+> 2 cards in hand - {{1UUR}} + ({{1R}}) - 9 Storm
 
 <pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
 
@@ -127,20 +127,16 @@ second Burning Wish to fetch Tendrils.
 
 Note that if you have no other cards in hand or your post-Doomsday graveyard
 resolving Time Spiral will kill you. The Doomsday you've cast to build this pile
-typically ends up as the only card in your graveyard, with 5 cards in your pass
-the turn pile this adds up to 6. However, the Burning Wish used to wish for Time
-Spiral exiles itself, so that's only 5 cards. That's is why the pile lists 'X in
-hand', the extra card is needed to ensure you don't deck yourself when you cast
-Time Spiral. If you can cast spell X after Time Spiral, your storm count can be
-high than what is listed. Also note, that the listed cost assumes that you can
-produce 1R with the lands that you untap with Time Spiral.
-
-You can also use Time Spiral in pass-the-turn piles, just note that you'll need
-an additional extra card in hand to not deck yourself.
+typically ends up as the only card in your graveyard, with 5 cards in your
+pass-the-turn pile this adds up to 6. However, the Burning Wish used to wish for
+Time Spiral exiles itself, so that's only 5 cards. If you can cast spell some of
+the cards you had in hand, your Storm count can be higher than what is listed.
+Also note that the listed cost assumes that you can produce {{1R}} with the
+lands that you untap with Time Spiral.
 
 ## Summary
 
 1. These piles are useful to know, for their historical significance and
-   occasional practical use.
+   occasional practical use
 2. These piles aren't going to come up all that often in a typical game, so
-   don't feel you need to memorize them.
+   don't feel you need to memorize them
