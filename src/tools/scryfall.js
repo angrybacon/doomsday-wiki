@@ -3,6 +3,7 @@ const axios = require('axios').default;
 
 const CARDS = {
   aoi:   ['Act on Impulse',           'M15'],
+  bs:    ['Brainstorm',               'ICE'],
   bw:    ['Burning Wish',             'JUD'],
   cb:    ["Conjurer's Bauble",        '5DN'],
   cobru: ['collective brutality',     'EMN'],
@@ -13,7 +14,9 @@ const CARDS = {
   dur:   ['Duress',                   'USG'],
   ef:    ['Experimental Frenzy',      'GRN'],
   em:    ['Emrakul, the Aeons Torn',  'ROE'],
+  eot:   ['Edge of Autumn',           'FUT'],
   et:    ['Echoing Truth',            'DST'],
+  etw:   ['Empty the Warrens',        'TSP'],
   ic:    ['Infernal Contract',        'MIR'],
   isl:   ['Island',                   'UNH'],
   iu:    ['Ideas Unbound',            'SOK'],
@@ -21,12 +24,14 @@ const CARDS = {
   led:   ["Lion's Eye Diamond",       'MIR'],
   lm:    ['Laboratory Maniac',        'ISD'],
   lp:    ['Lotus Petal',              'TMP'],
+  nc:    ["Nature's Claim",           'WWK'],
   pn:    ['Ponder',                   'LRW'],
   pre:   ['Preordain',                'M11'],
   rof:   ['Rain of Filth',            'USG'],
   si:    ['Shelldock Isle',           'LRW'],
   sw:    ['Street Wraith',            'FUT'],
   toa:   ['Tendrils of Agony',        'SCG'],
+  tw:    ['Three Wishes',             'VIS'],
 };
 const CACHE = {};
 const SCRYFALL_API = 'https://api.scryfall.com/cards/named';

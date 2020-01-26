@@ -4,6 +4,7 @@
 | BS        | Brainstorm              |
 | BW        | Burning Wish            |
 | CB        | Conjurer's Bauble       |
+| CoBru     | Collective Brutality    |
 | CS        | Chromatic Sphere        |
 | CR        | Cabal Ritual            |
 | DD        | Doomsday                |
@@ -14,7 +15,7 @@
 | GP        | Gitaxian Probe          |
 | IC        | Infernal Contract       |
 | IU        | Ideas Unbound           |
-| LDV       | Lim-DÃ»l's Vault         |
+| LDV       | Lim-Dûl's Vault         |
 | LED       | Lion's Eye Diamond      |
 | LM        | Laboratory Maniac       |
 | LP        | Lotus Petal             |
