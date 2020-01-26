@@ -12,7 +12,7 @@ have had the final straw. They are done, that's it. Game over.
 
 Is it the end?
 
-I hope not.....
+I hope not...
 
 2017 has been a difficult year for Doomsday as an archetype primarily due to the
 SDT ban. A lot of it was spent trying to work out any and all possible
@@ -40,7 +40,7 @@ For many points I will not just be talking shit out of nowhere. Back in November
 I started a mini project to begin collecting statistics about the deck and I
 have put a call out to anyone who can to provide match results for the deck.
 These results have a number of data points that are needed to be considered
-"good data". I also stressed to all submitting I wanted all reports. All wins,
+*good data. I also stressed to all submitting I wanted all reports. All wins,
 losses, draws. I was not looking to get a rose-tinted view but instead wanted an
 accurate snapshot of how the deck was performing. This mix of pilots also
 allowed a mix of experienced and new people to get involved hopefully allowing a
@@ -56,31 +56,28 @@ describe and present the data and stats collected from the data so if any
 explanation is missing regarding the data that is presented here, it should be
 addressed in this later article.
 
-Withut further ado, and continuing on the Disney theme...
+Without further ado, and continuing on the Disney theme...
 
-**Let's get down to business:**
+## Let's Get Down to Business
 
 Here are Nanda's opening points:
 
-```
-"Building the deck again, I'm still feeling the same issues--basically I'm
-frequently getting hands where you have to choose whether or not to stall
-out by keeping cantrips as combo pieces or stall out by having no cantrips
-when you finally assembled BBB and Doomsday. I'm realizing more how Top set
-up a lot of the quick wins by being selection without costing a card to let
-you look for Doomsday or Dark Ritual, but also because a lot of my Doomsday
-wins were actually off of Burning Wish, Top and LED mana. Getting BBB feels
-like a huge choke point for winning quickly. Does that make sense?
-Rituals feel bad, but you need one to actually be fast with Doomsday.
-If I don't open on Ritual and Doomsday in hand I feel stuck between not
-playing cards and hoping to draw into what I need, or playing cards and hoping
-that I still have enough resources to win on the same turn by the time I find
-my combo pieces."
-```
+> *Building the deck again, I'm still feeling the same issues--basically I'm
+> frequently getting hands where you have to choose whether or not to stall out
+> by keeping cantrips as combo pieces or stall out by having no cantrips when
+> you finally assembled BBB and Doomsday. I'm realizing more how Top set up a
+> lot of the quick wins by being selection without costing a card to let you
+> look for Doomsday or Dark Ritual, but also because a lot of my Doomsday wins
+> were actually off of Burning Wish, Top and LED mana. Getting BBB feels like a
+> huge choke point for winning quickly. Does that make sense? Rituals feel bad,
+> but you need one to actually be fast with Doomsday. If I don't open on Ritual
+> and Doomsday in hand I feel stuck between not playing cards and hoping to draw
+> into what I need, or playing cards and hoping that I still have enough
+> resources to win on the same turn by the time I find my combo pieces.*
 
 This block actually contains two points in one as I see it.
 
-- The deck is inconsistent.
+### The deck is Inconsistent
 
 The idea is that you have to choose whether to use cantrips to sculpt or to hold
 for the combo turn. Doomsday is unique insofar that cantrips double as combo
@@ -127,7 +124,7 @@ useless outside of an active combo turn and sometimes variance can really kick
 you in the proverbial nuts but most of the time, at least according to the
 numbers, we seem to be doing fine.
 
-- Making BBB for a quick DD without DR is difficult.
+### Making {{BBB}} for a Quick DD Without DR is Difficult
 
 One of the issues with the deck is that the namesake card does require BBB to
 cast. This is an interesting element with a deck that is primarily U. In terms
@@ -136,29 +133,31 @@ potential one of. Lotus Petal as a four of and generally four lands that make B
 (normally 2 Seas, 1 Badlands and 1 Swamp). Nanda is correct in saying that DR is
 the best way to make BBB quickly however it is far from the only way. Two lands
 and a lotus petal is often enough or even one land and two petals can occur
-often. ``` "...a lot of my Doomsday wins were actually off of Burning Wish, Top
-and LED mana." ``` We also have the option thanks to Conjurer's Bauble to play
-out Doomsday on turn 2 via Burning Wish and two LEDs thereby replicating the
-'saved' draw effect we gained from SDT. One of the more well known recent
-achievements of the deck, the 5-0 result from an MTGO by g0ld_rook had him run
-four CB and he noted that he had under appreciated the saved draw effect gained
-by them during early testing with them.
+often.
+
+> *...a lot of my Doomsday wins were actually off of Burning Wish, Top and LED
+> mana.*
+
+We also have the option thanks to Conjurer's Bauble to play out Doomsday on turn
+2 via Burning Wish and two LEDs thereby replicating the 'saved' draw effect we
+gained from SDT. One of the more well known recent achievements of the deck, the
+5-0 result from an MTGO by g0ld_rook had him run four CB and he noted that he
+had under appreciated the saved draw effect gained by them during early testing
+with them.
 
 This point feeds into some of Nanda's later comments:
 
-```
-..."I'm sure the deck is fine if the game is going long, but I feel completely
-toothless in the early game. If your hand isn't perfect then you're not
-racing most fast decks, and that means you have to use your cantrips more
-aggressively and I don't think that's a winning proposition when every card
-you spend to look is actually costing a full card now."
-```
+> *...I'm sure the deck is fine if the game is going long, but I feel completely
+> toothless in the early game. If your hand isn't perfect then you're not racing
+> most fast decks, and that means you have to use your cantrips more
+> aggressively and I don't think that's a winning proposition when every card
+> you spend to look is actually costing a full card now.*
 
 Which creates a third point:
 
-- Doomsday is not a fast enough combo deck.
+### Doomsday is Not a Fast Enough Combo Deck
 
-Of the "classic" Legacy storm variants you have three main camps (though some
+Of the *classic* Legacy Storm variants you have three main camps (though some
 would argue only two). ANT, DDFT and TES. In order of speed it has always been
 considered to order TES as the fastest, ANT as second and DDFT as the slowest.
 This has often been true as TES sacrifices deterministic wins for speed and DDFT
@@ -173,10 +172,10 @@ including one listed as "Active Combo turn". This turn has been tracked on a
 scale of T1 to T4+ with the theory that beyond T4 there is little difference for
 a deck concerned about being fast between say T5 and T20. As part of my data
 gathering I also collected combo turn statistics. This is the turn the combo
-occurs so if you are executing a DD Pass-the-turn pile it is the turn you cast
+occurs so if you are executing a DD pass-the-turn pile it is the turn you cast
 Doomsday to make the pile, not the turn you win on. This can create some results
 skewing but I will address that a bit more in a moment. First let's look at the
-raw data:
+raw data.
 
 Data collated on 03/01/2018:
 
@@ -205,22 +204,21 @@ been converted to correspond with the TES and ANT range of 1-4+.
 When discussing this point regarding speed with Nanda he made the following
 comments:
 
-```
-"Doomsday is being carried on the back of Burning Wish at that point is
-how it has been feeling. Not like Doomsday is doing anything powerful,
-but that we're playing a faster Storm deck with pet cards instead of
-the cards that make it a consistently fast threat. I've been liking when
-I draw Burning Wish in these versions of the deck because we have so much
-fast mana. I have felt miserable anytime I had a Doomsday in hand." ...
-..."I want to be wrong about the deck not winning in a timely manner, but
-I can't reconcile the idea that the mana is too awkward for Doomsday
-to consistently be a Turn 2/3 threat without having to spend cards you
-may not be able to afford spending. That sums up the issue for me, I think."
-```
+> *Doomsday is being carried on the back of Burning Wish at that point is how it
+> has been feeling. Not like Doomsday is doing anything powerful, but that we're
+> playing a faster Storm deck with pet cards instead of the cards that make it a
+> consistently fast threat. I've been liking when I draw Burning Wish in these
+> versions of the deck because we have so much fast mana. I have felt miserable
+> anytime I had a Doomsday in hand...*
+>
+> *...I want to be wrong about the deck not winning in a timely manner, but I
+> can't reconcile the idea that the mana is too awkward for Doomsday to
+> consistently be a Turn 2/3 threat without having to spend cards you may not be
+> able to afford spending. That sums up the issue for me, I think.*
 
 This gives us point 4:
 
-- Doomsday is now just a worse ANT/TES.
+### Doomsday is Now Just a Worse ANT/TES
 
 These are fair comments. It is true that cards like Past in Flames are
 incredibly powerful engines that in many situations are less akward and more
@@ -228,8 +226,12 @@ consistent than Doomsday itself. Our data above including EtW results definately
 skews it faster so what if we take out those results and consider only the wins
 that use the deck's namesake card? We'll also have a look at the breakdown in
 how the deck actually goes about winning to work out how much the statement
-of... ``` "...we're playing a faster Storm deck with pet cards instead of the
-cards that make it a consistently fast threat..." ``` ...is true.
+of...
+
+> *...we're playing a faster Storm deck with pet cards instead of the cards that
+> make it a consistently fast threat...*
+
+...is true.
 
 | Deck | Average Combo Turn |
 | :--: | :----------------: |
@@ -254,15 +256,14 @@ Yes, I think so.
 
 Nanda ended his message with the following final point to make:
 
-```
-Sorry for the rant earlier. It's frustrating because it feels like having to learn to
-walk after losing a leg. Is no one else feeling this way? I want to stay the course
-but I keep getting discouraged by how even just my goldfishing is playing out.
-```
+> *Sorry for the rant earlier. It's frustrating because it feels like having to
+> learn to walk after losing a leg. Is no one else feeling this way? I want to
+> stay the course but I keep getting discouraged by how even just my goldfishing
+> is playing out.*
 
 Which gives a final point of:
 
-- Post SDT ban DDFT is not the same as pre-ban DDFT.
+### Post SDT Ban DDFT is Not the Same as Pre-Ban DDFT
 
 Now I have no fancy stats or graphs for this. It's true. DDFT is a different
 deck now. We have only made a few changes, going from 16 lands to 15, replacing
@@ -285,14 +286,16 @@ I'm sorry for this information splurge as it is a lot to take in.
 At the end of this article resolving we are left with the following five point
 stack having been addressed:
 
-1. The deck is inconsistent. **No more than any combo deck**
-2. Making BBB for a quick DD without DR is difficult. **Potentially but often
-   not**
-3. Doomsday is not a fast enough deck. **Slower than TES, as fast as ANT**
-4. Doomsday is now just a worse ANT/TES. **DDFT is it's own style, not just a
-   clone**
-5. Post SDT ban DDFT is not the same as pre-ban DDFT. **Correct and we as pilots
-   have to work through this**
+1. The deck is inconsistent.  
+   **No more than any combo deck**
+2. Making {{BBB}} for a quick DD without DR is difficult.  
+   **Potentially but often not**
+3. Doomsday is not a fast enough deck.  
+   **Slower than TES, as fast as ANT**
+4. Doomsday is now just a worse ANT/TES.  
+   **DDFT is its own style, not just a clone**
+5. Post SDT ban, DDFT is not the same as pre-ban DDFT.  
+   **Correct and we as pilots have to work through this**
 
 Hopefully this has helped you as the reader come to make a decision whether to
 put the deck down, pick the deck up or just understand what happened to the deck
@@ -315,6 +318,7 @@ Thanks for reading!
 
 ## Links
 
-- [Bryant Cook's Article](http://theepicstorm.com/storm-data-comparison/) spreadsheets visited 03/01/2018
-- [g0ld_rook's 5-0 list](https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2017-12-10)
-- [Doomsday Stats Collection Spreadsheet](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit?usp=sharing)
+- [Bryant Cook's Article]
+  (http://theepicstorm.com/storm-data-comparison/) spreadsheets visited 03/01/2018
+- [g0ld_rook's 5-0 list]
+  (https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2017-12-10)

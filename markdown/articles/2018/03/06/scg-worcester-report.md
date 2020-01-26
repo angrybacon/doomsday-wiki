@@ -16,45 +16,7 @@ Bizkit songs and "What's New, Pussycat" as sung by Tom Jones and Engelbert
 Humperdinck and arrive at the venue feeling refreshed and ready for 9 grueling
 rounds of magic. I scribble out this decklist:
 
-```
-3 Doomsday
-4 Burning Wish
-1 Act on Impulse
-1 Laboratory Maniac
-4 Gitaxian Probe
-4 Brainstorm
-4 Ponder
-3 Preordain
-2 Conjurer's Bauble
-4 Duress
-3 Cabal Therapy
-4 Dark Ritual
-4 Lion's Eye Diamond
-4 Lotus Petal
-4 Polluted Delta
-3 Scalding Tarn
-1 Misty Rainforest
-2 Underground Sea
-1 Badlands
-1 Volcanic Island
-2 Island
-1 Swamp
-
-SIDEBOARD
-1 Doomsday
-1 Tendrils of Agony
-1 Act on Impulse
-1 Massacre
-1 By Force
-1 Thoughtseize
-1 Empty the Warrens
-2 Hurkyl's Recall
-1 Chain of Vapor
-1 Echoing Truth
-2 Abrupt Decay
-1 Tropical Island
-1 Sylvan Library
-```
+<div deckfile="2018.03.ddft.1.json"></div>
 
 And the hellride begins in earnest. This is all from sketchy notes and memory,
 so bear with it.
@@ -115,7 +77,7 @@ G3: This game plays out similarly to g2. I get the Library down and see a ton of
 cards with it. Sometime after turn 5 I have a Bauble on board, and a hand of 2x
 LED, Ritual, Doomsday, Preordain, Wish, Duress. I take a Fluster, leaving them
 with another. I Jam the Doomsday into it, and they let it resolve. I build a
-pile of `Duress, AoI, LED, LED, Wish`. Tap Bauble to draw the Duress and take
+pile of \[Duress, AoI, LED, LED, Wish\]. Tap Bauble to draw the Duress and take
 the 2nd Fluster, then play out my LEDs, Preordain into the Act on Impulse, and
 go off.
 
@@ -336,44 +298,7 @@ never use and get a foil Lab Maniac and a foil Empty the Warrens. Then I
 scribble out my decklist for the legacy Classic. I decided to drop the green
 splash this time, to compare the two versions.
 
-```
-3 Doomsday
-4 Burning Wish
-1 Act on Impulse
-1 Laboratory Maniac
-4 Gitaxian Probe
-4 Brainstorm
-4 Ponder
-3 Preordain
-2 Conjurer's Bauble
-3 Duress
-4 Cabal Therapy
-4 Dark Ritual
-4 Lion's Eye Diamond
-4 Lotus Petal
-4 Polluted Delta
-3 Scalding Tarn
-1 Bloodstained Mire
-2 Underground Sea
-1 Badlands
-1 Volcanic Island
-2 Island
-1 Swamp
-
-SIDEBOARD
-1 Doomsday
-1 Tendrils of Agony
-1 Act on Impulse
-1 Massacre
-1 By Force
-1 Thoughtseize
-3 Empty the Warrens
-2 Hurkyl's Recall
-1 Chain of Vapor
-1 Echoing Truth
-1 Rending Volley
-1 Telemin Performance
-```
+<div deckfile="2018.03.ddft.2.json"></div>
 
 I almost fall asleep at my table for the players meeting. I drink half an energy
 drink, and sit down for the first round of the Classic.
@@ -432,9 +357,9 @@ the third game.
 
 G3: They are beating me down with a strix and a DRS but are a little constrained
 on mana. I get the interaction out of their hand, they Surgical my Duresses, and
-I go for a pass-the-turn pile of `Therapy, AoI, LM, LED, GP` with 4 lands and a
-Bauble on board, and another Doomsday in hand. This gives me a discard spell to
-try to hit a counterspell if they draw one. However, they draw and play Dack,
+I go for a pass-the-turn pile of \[Therapy, AoI, LM, LED, GP\] with 4 lands and
+a Bauble on board, and another Doomsday in hand. This gives me a discard spell
+to try to hit a counterspell if they draw one. However, they draw and play Dack,
 and Dack me. I draw Therapy and AoI, and discard Therapy and the extra Doomsday.
 I untap, draw Lab Man, play AoI exiling LED and Probe, and crack LED for UUU
 discarding Lab Man. Bauble puts Lab Man on the bottom of my emty library so I
@@ -470,24 +395,7 @@ to try to dump on my fellow scrubs who scrubbed out of the Open and the Classic.
 I changed my decklist one more time, leaving the maindeck untouched from last
 time but swapping the 2 extra ETW in the board for 2 Defense Grids.
 
-```
-SIDEBOARD
-1 Doomsday
-1 Tendrils of Agony
-1 Act on Impulse
-1 Massacre
-1 By Force
-1 Thoughtseize
-1 Empty the Warrens
-2 Defense Grid
-2 Hurkyl's Recall
-1 Chain of Vapor
-1 Echoing Truth
-1 Rending Volley
-1 Telemin Performance
-```
-
-## Side Event: 4-Round Challenge
+## Side Event: 4-Rounds Challenge
 
 ### R1 vs Spanish Inquisition (2-0)
 
@@ -567,8 +475,8 @@ my hand wasn't going anywhere.
 G2: I resolve a defense grid but my hand is not coming together the way I
 wanted. They have a deathrite shaman and a strix pressuring my life a bit. I
 make a pass-the-turn pile, but fail to account for the possibility of Jace. Of
-course, Jace is cast and I get fatesealed and I scoop. My pile was `AoI, LED,
-LM, GP, GP`. If I had simply put one of those Probes on the top, I would have
+course, Jace is cast and I get fatesealed and I scoop. My pile was \[AoI, LED,
+LM, GP, GP\]. If I had simply put one of those Probes on the top, I would have
 likely won this game. Oh well.
 
 So a 3-1 record in the challenge is good enough for some prize wall tickets,

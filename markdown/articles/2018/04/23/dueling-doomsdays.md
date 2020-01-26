@@ -3,7 +3,7 @@ authors: Doishy
 title: "Dueling Doomsday: Clash in Cymru"
 ---
 
-## Setting the scene:
+## Setting the scene
 
 One week prior to the event our local Legacy Judgette suddenly fired out info of
 a GPT, one of those hasn't been seen in ages, but it's Legacy and
@@ -13,138 +13,28 @@ short notice and terrible weather (like wow it was bad). Five rounds of Swiss
 with cut to Top 8. Thanks to the lovely judges we gave the full metagame
 breakdown:
 
-```
-Standstill
-Lands x2
-Doomsday x2
-Infect
-ANT
-Aluren
-Turbo Depths
-Death and Taxes
-Grixis Delver
-Golgari Prison
-Elves
-Miracles
-BUG Delver
-Omnisneak/tell x3
-Maverick
-```
+- Standstill
+- Lands x2
+- Doomsday x2
+- Infect
+- ANT
+- Aluren
+- Turbo Depths
+- Death and Taxes
+- Grixis Delver
+- Golgari Prison
+- Elves
+- Miracles
+- BUG Delver
+- Omnisneak/tell x3
+- Maverick
 
 No Chalice decks (yay) and only one Ctrl+C, Ctrl+V out. As you can see Doomsday
 made up a significant portion of the metagame (10.5%!) with myself (Doishy) and
 ApeofJustice representing.
 
-**Our lists:**
-
-ApeofJustice:
-
-```
-Maindeck:
-
-Sorceries (25)
-3x Doomsday
-4x Burning Wish
-4x Ponder
-4x Gitaxian Probe
-2x Preordain
-3x Duress
-3x Cabal Therapy
-1x Thoughtseize
-1x Act on Impulse
-
-Instant (9)
-1x Rain of Filth
-4x Brainstorm
-4x Dark Ritual
-
-Artifact (10)
-4x Lion’s Eye Diamond
-4x Lotus Petal
-2x Conjurer’s Bauble
-
-Creature (1)
-1x Laboratory Maniac
-
-Lands (15)
-4x Polluted Delta
-3x Scalding Tarn
-1x Bloodstained Mire
-2x Underground Sea
-1x Volcanic Island
-1x Badlands
-2x Island
-1x Swamp
-
-Sideboard:
-1x Doomsday
-1x Massacre
-1x By Force
-1x Act on Impulse
-1x Cabal Therapy
-1x Void Snare
-2x Empty the Warrens
-1x Tendrils of Agony
-1x Shelldock Isle
-1x Emrakul, the Aeon’s Torn
-1x Hurkyl’s Recall
-1x Engineered Explosives
-1x Echoing Truth
-1x Surgical Extraction
-```
-
-Doishy:
-
-```
-Maindeck:
-
-Sorceries (25)
-3x Doomsday
-4x Burning Wish
-4x Ponder
-4x Gitaxian Probe
-2x Preordain
-1x Duress
-3x Cabal Therapy
-2x Thoughtseize
-1x Act on Impulse
-1x Tendrils of Agony
-
-Instant (8)
-4x Brainstorm
-4x Dark Ritual
-
-Artifact (11)
-4x Lion’s Eye Diamond
-4x Lotus Petal
-3x Conjurer’s Bauble
-
-Creature (1)
-1x Laboratory Maniac
-
-Lands (15)
-4x Polluted Delta
-4x Scalding Tarn
-2x Underground Sea
-1x Volcanic Island
-1x Badlands
-2x Island
-1x Swamp
-
-Sideboard:
-1x Doomsday
-1x Massacre
-1x Ideas Unbound
-1x Duress
-1x Tropical Island
-1x Empty the Warrens
-1x Tendrils of Agony
-2x Hurkyl’s Recall
-2x Chain of Vapor
-2x Xantid Swarm
-2x Carpet of Flowers
-
-```
+<div deckfile="2018.04.ddft.1.json"></div>
+<div deckfile="2018.04.ddft.2.json"></div>
 
 Let's get into it. Reports written by their respective pilots:
 
@@ -248,7 +138,6 @@ Doomsday but cannot hit the needed storm count so I manage to build a DD EtW
 pile with at least two turns
 left of draw steps with 18 Goblins in play. He scoops. DD EtW pile. WUT?!  
 This round I also enjoyed watching the lands mirror occurring to my left XD
-
 
 ### Round 3
 
@@ -364,7 +253,7 @@ It was everything everyone dreams of.
 
 ![Game Faces](/img/MirrorMatch.png)
 
-- Ape (Front) feeling the pressure as Doishy (Back) gets super srs.
+> Ape (Front) feeling the pressure as Doishy (Back) gets super srs.
 
 Game 1 he displays superior die skills and both of us wreck the hands of the
 other. He manages to Doomsday first but it's a bluff and he sets up an easy PTT
@@ -388,27 +277,28 @@ shit works anyways?.
 
 ![Dat Gamestate](/img/MIrrorMatchBoardState.png)
 
-- 9 Goblins stare down 14 ~~Business Cards~~ Goblins as a Doomsday resolves.
+> 9 Goblins stare down 14 ~~Business Cards~~ Goblins as a Doomsday resolves.
 
 ## Ending Thoughts
 
-**ApeofJustice:**
+ApeofJustice:
 
-I went 2-3 in actual matches. I feel that my opponents had a couple of
-particularly fortunate draws, but I was somewhat pleased with my overall play. I
-certainly still have some space for improvement, especially seeing the play from
-Doishy with his CB piles (something I very rarely do). Either way, I had a
-tremendously fun event in Cardiff, and am glad to meet some of the people of
-this community.
+> *I went 2-3 in actual matches. I feel that my opponents had a couple of
+> particularly fortunate draws, but I was somewhat pleased with my overall play.
+> I certainly still have some space for improvement, especially seeing the play
+> from Doishy with his CB piles (something I very rarely do). Either way, I had
+> a tremendously fun event in Cardiff, and am glad to meet some of the people of
+> this community.*
 
-**Doishy:**
+Doishy:
 
-3-2 overall but a fun day nonethless. Nice gloating point to note: My Standstill
-deck piloted by my friend Alex came second. His Semi finals match was so
-glorious with Game 1 of it (vs Maverick) ending with his Opp having 0 permanents
-on the field and 2 cards (one was Teeg) in hand. Maindeck Crucible + Ghost
-Quarter + EE is so beautifull! ANT won the event so gratz to Ben :)
-
-It was great meeting ApeofJustice (though it transpires we had met before in
-years gone by) and I look fowards to schooling any other Doomsdayers in superior
-combat maths at GP Brum (look forward to my 0-8 drop report).
+> *3-2 overall but a fun day nonethless. Nice gloating point to note: My
+> Standstill deck piloted by my friend Alex came second. His Semi finals match
+> was so glorious with Game 1 of it (vs Maverick) ending with his Opp having 0
+> permanents on the field and 2 cards (one was Teeg) in hand. Maindeck
+> Crucible + Ghost Quarter + EE is so beautifull! ANT won the event so gratz to
+> Ben :)*
+>
+> *It was great meeting ApeofJustice (though it transpires we had met before in
+> years gone by) and I look fowards to schooling any other Doomsdayers in
+> superior combat maths at GP Brum (look forward to my 0-8 drop report).*

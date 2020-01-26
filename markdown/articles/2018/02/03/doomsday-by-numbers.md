@@ -3,7 +3,7 @@ authors: Doishy
 title: Doomsday by Numbers
 ---
 
-All data compiled 3rd February 2018
+All data compiled on 3rd February 2018.
 
 > *Decks not hot.*  
 > *DDFT is international now fam.*  
@@ -35,15 +35,6 @@ similar. Despite this difference in raw data for any direct comparisons to the
 ANT/TES data we have converted the results so that it's all incorporated into
 the T1-T4+ format.
 
-```
-Quick glossary:
-ANT - Ad-Nauseum Tendrils, a Legacy Storm deck based around Past in Flames engine
-DDFT - Doomsday Fetchland Tendrils, a Legacy Storm deck based around the card Doomsday
-TES - The Epic Storm, a Legacy Storm deck based around Ad Nauseum and Burning Wish
-Tendrils/ToA - Shorthands for Tendrils of Agony
-Empty/EtW - Shorthands for Empty the Warrens
-```
-
 Winning game engines was another difference. We could have just tracked Doomsday
 vs Empty the Warrens vs Natural Tendrils kills however this wouldn't have been
 enough detail. Doomsday itself is a weird deck, once you cast the card there are
@@ -51,7 +42,7 @@ so many different ways to draw into it, time it, win with it that you have a lot
 of different options. In total we have 35 different generic winning engines used
 spread across the use of Doomsday, Burning Wish and the various win conditions
 that can be utilised. We also tracked whether a combo turn involved a
-[pass-the-turn pile](/chapters/1/pass-the-turn/), a [double cantrip
+[pass-the-turn pile](/chapters/2/pass-the-turn/), a [double cantrip
 pile](/chapters/1/basics/), and various other techniques with cards like
 [Laboratory Maniac](/chapters/1/laboratory-maniac/) or [Conjurer's
 Bauble](/chapters/2/conjurers-bauble/).
@@ -59,22 +50,17 @@ Bauble](/chapters/2/conjurers-bauble/).
 Going into this level of detail allowed us to identify trends in how often the
 deck uses what to win and how useful certain niche cards are to the deck.
 
-The full public data spreadsheet may be found
-[HERE](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit?usp=sharing).
-Please feel free to contribute any and all matches played, just make sure to
-include all information requested in the sheet.
-
 ## Bias Within the Data
 
 There are some limitations with how our data is compiled and assessed. One major
 one is in regards to combo turn. Combo turn refers to the turn we "go off" but
 this may not be the same turn we win. Casting Doomsday on T1 to build a
-[Shelldock Isle/Emrakul Pile](/chapters/2/shelldock-isle/) would still be
-recorded as a T1 combo turn despite not winning until T3/4. The same with early
-EtW plays. Making 14 Goblins on T2 might not win you the game until T4 or even
-later but it would still be recorded as T2. The TES data has this same issue in
-regards to EtW lines but with Doomsday and pass-the-turn piles it's possibly a
-bit more prevalent here.
+[Shelldock Isle pile](/chapters/2/uncommon-piles/) would still be recorded as a
+T1 combo turn despite not winning until T3/4. The same with early EtW plays.
+Making 14 Goblins on T2 might not win you the game until T4 or even later but it
+would still be recorded as T2. The TES data has this same issue in regards to
+EtW lines but with Doomsday and pass-the-turn piles it's possibly a bit more
+prevalent here.
 
 Another major difference in the data collection compared to Cook's TES data is
 that the TES data only draws from a single individual and only records MTGO
@@ -103,23 +89,23 @@ their notes so in the interests of pragmatism this level of data is ommitted.
 
 Right then, let's start looking at some data shall we?
 
-First of all the number of total 'good' match data points is 565. A 'good' match
+First of all the number of total 'good' match data points is 565. A *good* match
 is defined as one where we have all the pertinent information recorded. For any
 data crunching involving sucess or win% we shall also define a 'good' match as
 "not the mirror". The reason being here is that we might only have data from one
 side of the match therefore only recording the result from one side and not the
 other. As a result it's easier to just omit them than allow the minor skew from
 it to be used. So for any results based statistics we had 560 data points
-instead (Yes, that means 5 mirror matches played, funtimes!).
+instead (yes, that means 5 mirror matches played, funtimes!).
 
 ### Winning
 
-First of all the ones that everyone wants to know: The Match and Game win rates.
+First of all the ones that everyone wants to know: the match and game win rates.
 
-Match Win rate (%): 56.25%  
-Game Win rate (%): 54.71%
+Match win rate: 56.25%  
+Game win rate: 54.71%
 
-Well it's positive(>50%)! That's always a good start.  
+Well it's positive (>50%)! That's always a good start.  
 What does this actually mean though?
 
 Well it means that we have a better than half chance of winning any given match
@@ -134,15 +120,15 @@ most of our losses are 1-2's.
 This is further justified when we look at our Match win % when we go to a game 3
 compared to when we do not.
 
-Match Win rate win in two games (%): 61.62%  
-Match Win rate win in three games (%): 50.54%
+match win rate win in two games: 61.62%  
+match win rate win in three games: 50.54%
 
 Looking further in again to a win % breakdown by game, we can see the trend even
 clearer:
 
-Game 1 wins (%): 61.15%  
-Game 2 wins (%): 51.64%  
-Game 3 wins (%): 50.74%
+Game 1 wins: 61.15%  
+Game 2 wins: 51.64%  
+Game 3 wins: 50.74%
 
 So why is this?
 
@@ -160,18 +146,19 @@ the wrong times. It could also be the fact that our main win condition allows
 our opponent to see the entierity of our deck that is not included in the
 Doomsday pile and thus know exactly what to play around.
 
-*Pre-release edit:  
-I had in fact pre-written a lot of this article before copying in the numbers as
-the trends were already seemingly well developed however something was
-interesting to note here. When I first started writing this up G3 was at a
-negative win% (around 45%) however when coming to review the article we realised
-that it was now at 50%. This is really interesting as it implies that, over the
-course of the past month or so, we as an archetype and as pilots have obviously
-started figuring things out. My personal hypothesis is that we, having finally
-worked out where the deck is going have now been able to focus outwards at the
-person across the table and not just inwards in trying to get the deck to work.
-This change over time is about to be discussed next anyways but I thought it was
-an interesting enough point to mention.*
+Pre-release edit:
+
+> I had in fact pre-written a lot of this article before copying in the numbers
+> as the trends were already seemingly well developed however something was
+> interesting to note here. When I first started writing this up G3 was at a
+> negative win% (around 45%) however when coming to review the article we
+> realised that it was now at 50%. This is really interesting as it implies
+> that, over the course of the past month or so, we as an archetype and as
+> pilots have obviously started figuring things out. My personal hypothesis is
+> that we, having finally worked out where the deck is going have now been able
+> to focus outwards at the person across the table and not just inwards in
+> trying to get the deck to work. This change over time is about to be discussed
+> next anyways but I thought it was an interesting enough point to mention.
 
 ### About Time
 
@@ -190,7 +177,7 @@ As you can see with have limited early data but a lot more recent data. We can
 also see an upward trend in terms of Match Win %. If we look at Match Win % but
 only taken from the past two months we get:
 
-Match Win rate win past two months (%): 58.67%
+match win rate win past two months: 58.67%
 
 Definitely looking better.
 
@@ -247,7 +234,7 @@ We decided upon a system of defining archetypes by what elements we as a deck
 actually cared about in terms of interaction. We decided to use the following
 catergories to list archetypes by:
 
-- Chalice - Decks that utitlise permanent, usually artifact based hate such as
+- Chalice - Decks that utitlize permanent, usually artifact based hate such as
   Chalice of the Void or Thorn of Amethyst
 - Counterspells - Decks that utilise reactive countermagic such as Force of Will
   or Daze
@@ -284,7 +271,7 @@ obviously need to try and up our game against these decks however facing a mix
 of proactive disruption to your hand and reactive countermagic for the combo
 whilst under pressure is tricky. These are also the category the two highest
 opposing decks fall into accounting for 16.82% of the meta between them. The
-'ChaliceCounterspells' result can be largely discounted due to small sample
+*ChaliceCounterspells* result can be largely discounted due to small sample
 size, since few decks (mainly Tezzeret lists) run this combination of
 interaction.
 
@@ -315,7 +302,7 @@ than a contributing factor.
 
 Either way it looks like the deck mulligans pretty well.
 
-### Gotta Go Fast
+### Gotta go Fast
 
 The next thing to look at that I touched upon previously is the speed that we go
 off. This is an interesting one as discussed because it's hard to get an
@@ -341,18 +328,17 @@ graph.
 Totalling all combo turns across all games together and applying the TES T1-T4+
 scale we can work out our overall Average Combo Turn (ACT).
 
-ACT: 2.94  
+ACT: 2.94
 
 Comparing this to the other data from the last article we can see we are slower
 than TES on average but marginally faster than ANT. One thing to note however is
 that we do record combo turns for games even when we do not win them. This
 represents us 'going off' and maybe being blown out by an unknown piece of hate
 or miscounting storm or messing up the pile. To fix this we can generate the ACT
-filtered only by
-when we win the game we go off.  
+filtered only by when we win the game we go off.  
 Averaging that gives us the following:
 
-ACT (Wins): 2.92
+ACT (wins): 2.92
 
 As you can see it is in fact slightly faster. I think this can be easily
 explained by the fact that as any game drags on, the non 'fast' combo player is
@@ -368,7 +354,7 @@ ACT (wins, Doomsday): 2.96
 
 Unsurprisingly it is slower than the overall wins ACT however it is still faster
 than the total ACT compiling all combo turns that include losses. I think all
-this shows that overall we are a fast enough deck to be considered 'fast combo'
+this shows that overall we are a fast enough deck to be considered *fast combo*
 (relative to the other storm variants and not including things like Belcher or
 BR Reanimator).
 
@@ -386,7 +372,7 @@ can't effectively interact with that plan early on. It could also represent the
 need to go off in the face of more constrained resources preventing a same-turn
 win.
 
-### How We Do Things
+### How we do Things
 
 Following on from our glance at how often we pass-the-turn we can also see what
 methods we use to win. We asked people to fill in their winning line from a
@@ -398,7 +384,7 @@ broken it down into a set of four.
   Doomsday)
 - N-Storm: Any line that wins via just naturally storming our with Tendrils of
   Agony (without casting Doomsday)
-- Other: Any other win method such as sideboarded "Man Plans" or Burning Wish
+- Other: Any other win method such as sideboarded *Man Plans* or Burning Wish
   for Telemin Performance
 
 ![% of win types across games](/img/DDStatsGraph8.gif)
@@ -431,15 +417,15 @@ wins.
 ## Closing Thoughts
 
 I didn't think I would get so into this whole stats thing but I did. I'm
-normally a Han Solo, "don't tell me the odds" kind of guy so following numbers
+normally a Han Solo, *don't tell me the odds* kind of guy so following numbers
 was a refreshing change. I'm hopeful that the above helps solidify our position
-as an "established deck" despite a lack of metagame penetration and / or number
+as an *established deck* despite a lack of metagame penetration and / or number
 of top 8 performances (give us time!). It seems we are doing pretty well and now
 just need to start polishing up our gameplay and bringing out our
-anti-'CounterspellsDiscard' tech (IMO it's two Empty the Warrens in our board).
+anti-*CounterspellsDiscard* tech (IMO it's two Empty the Warrens in our board).
 
 Massive shout outs to all those who have contributed results to this project
 especialy d8dk32 and Hulahula who are MTGO League Machines! All I ask is that
 everyone keeps up with the data recording. The more we keep up with this, the
-more results, the more accurate a snapshot we can keep on
-how the deck is performing.
+more results, the more accurate a snapshot we can keep on how the deck is
+performing.

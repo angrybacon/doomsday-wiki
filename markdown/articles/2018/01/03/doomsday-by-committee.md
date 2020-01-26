@@ -3,25 +3,22 @@ authors: Doishy, d8dk32
 title: Doomsday by Committee, Setting the Scene
 ---
 
-```
-"Eye of twilight, give us sight.
-Take our offer, give us might.
-Make our power tears of night."
-...
-
-"Guys do we intend to try and beckon forth power through the Eye of twilight?"
-"Why, what's wrong with the Eye of twilight?"
-"I'm sure there are more powerful entities out there."
-"Like whom?"
-"Hanarsh the soul taker? We have virgins right here..."
-"No! Look, Eye of twilight is the best otherworldly entity that
-may be willing to grant unholy power.So he is what we will reach out to. Understand?"
-"Fine."
-"Sure."
-"Okay. Where were we....Eye of twilight, give us sight..."
-...
-"Do we really always have to wear black?"
-```
+> *Eye of twilight, give us sight.*  
+> *Take our offer, give us might.*  
+> *Make our power tears of night.*  
+> *...*  
+> *Guys do we intend to try and beckon forth power through the Eye of twilight?*  
+> *Why, what's wrong with the Eye of twilight?*  
+> *I'm sure there are more powerful entities out there.*  
+> *Like whom?*  
+> *Hanarsh the soul taker? We have virgins right here...*  
+> *No! Look, Eye of twilight is the best otherworldly entity that may be willing
+>  to grant unholy power.So he is what we will reach out to. Understand?*  
+> *Fine.*  
+> *Sure.*  
+> *Okay. Where were we....Eye of twilight, give us sight...*  
+> *...*  
+> *Do we really always have to wear black?*
 
 Hello and welcome to the first of what will hopefully be a series of articles
 whereby some players get together and either observe and discuss live games with
@@ -31,7 +28,8 @@ highlight how different people think and to hopefully provide meaningful
 examples that give lessons others can take away and apply to their own play.
 
 In this first ritual meeting we have two members of the
-super-secret-shadowy-Doomsday-cabal (TM)*  
+*super-secret-shadowy-Doomsday-cabal (TM)*\*
+
 d8dk32 and Doishy playing through some games of an MTGO league. Instead of doing
 a complete breakdown of every game instead we'll just focus on some of the more
 thought provoking or interesting decision points and provide some insight into
@@ -46,9 +44,9 @@ The decklist:
 
 ![d8dk32's decklist](/img/Ritual1_decklist.jpg)
 
-`*`*super-secret-shadowy-Doomsday-cabal (TM) might not exist....*
+\* *Super-secret-shadowy-Doomsday-cabal (TM) might not exist...*
 
-### Scenario 1:
+## Scenario 1
 
 We are on the play and started with a Misty Rainforest. Opponent leads Turn one
 Verdant Catacombs and passes. We play a Badlands, crack the fetch for an Island,
@@ -64,11 +62,10 @@ to decide how to build our pile. Our storm count was already plenty high so we
 only needed four cards in the pile to achieve lethal storm. There were two
 options available to us for what to do with the 5th slot:
 
-A. Hide the Laboratory Maniac at the bottom of the pile.
-
+A. Hide the Laboratory Maniac at the bottom of the pile.  
 B. Use the spare card to Gitaxian Probe to see what they are on.
 
-**What is the correct play?**
+### What is the correct play?
 
 We decided on choice A, to hide the Lab Man, thinking that there was more to be
 gained from having a trick up our sleeve. We only briefly discussed what the
@@ -87,19 +84,21 @@ example of how format familiarity goes beyond simply knowing what spells a deck
 plays. Czech Pile rarely plays more than one or two Verdant Catacombs, if any,
 whereas it is essentially always a four-of in 4C Loam.
 
-Doishy's comments:  
-*Our discussion was a tad more in depth here. From a previous match we had faced
-an elves opponent who had started with a dramatically slow opening and so
-pondered whether this was another elves start. It could also have been Czech
-Pile who missed the Ponder/Deathrite opening or even some sort of Aggro Loam or
-Maverick build. Small mention was also put towards Turbo Depths however most of
-these decks have enough one drops to make it strange to not play something. In
-hindsight we for sure should have gone for Option B, especially given most
-relevant boarding from our opponent is based upon the other fifty nine cards
-they will see over the one they won't. Information is crucial and seeing seven
-points of information is much better than hiding one.*
+Doishy's comments:
 
-### Scenario 2:
+> *Our discussion was a tad more in depth here. From a previous match we had
+> faced an elves opponent who had started with a dramatically slow opening and
+> so pondered whether this was another elves start. It could also have been
+> Czech Pile who missed the Ponder/Deathrite opening or even some sort of Aggro
+> Loam or Maverick build. Small mention was also put towards Turbo Depths
+> however most of these decks have enough one drops to make it strange to not
+> play something. In hindsight we for sure should have gone for option B,
+> especially given most relevant boarding from our opponent is based upon the
+> other fifty nine cards they will see over the one they won't. Information is
+> crucial and seeing seven points of information is much better than hiding
+> one.*
+
+## Scenario 2
 
 It is our turn three in game two vs Elves. They have Gaea's Cradle, Cavern of
 Souls, Wirewood Symbiote and Quirion Ranger in play, with Dryad Arbor and Cabal
@@ -112,13 +111,13 @@ what of that we can even play around.
 
 ![Scenario 2](/img/Ritual1_Scenario2.jpg)
 
-The pile that quickly jumps to mind is a 'basic' pile like [AoI, LED, LM, GP,
-GP]. This neatly plays around Therapy, and the 4 life paid is fine in this
+The pile that quickly jumps to mind is a *basic* pile like \[AoI, LED, LM, GP,
+GP\]. This neatly plays around Therapy, and the 4 life paid is fine in this
 situation. The problem with this pile is it requires the use of the Petal to
 cast AoI, meaning they'll have a turn to find something like Reclamation Sage
 for the blowout.
 
-You could build [LED, AoI, LED, GP, LM] and use the Brainstorm in hand to kick
+You could build \[LED, AoI, LED, GP, LM\] and use the Brainstorm in hand to kick
 things off next turn. This doesn't require the use of the Petal but could be
 ruined if they find a black mana source to cast Therapy.
 
@@ -127,10 +126,10 @@ hand to draw into the pile would improve the odds of getting the right cards
 even if the our pile got shuffled.
 
 We thought for a bit about what pile would beat the most kinds of hate but just
-went with the 'basic' Maniac pile since Therapy seemed most likely happen and to
+went with the *basic* Maniac pile since Therapy seemed most likely happen and to
 avoid running down the clock too much. This pile ended up working fine, but no
-sooner had we committed to it than Doishy came up with a better pile: [Volc,
-AoI, LM, LED, GP]. With this, we can hold the Brainstorm and if they Therapy or
+sooner had we committed to it than Doishy came up with a better pile: \[Volc,
+AoI, LM, LED, GP\]. With this, we can hold the Brainstorm and if they Therapy or
 play artifact destruction on their turn simply cast Brainstorm off Petal to draw
 the Volcanic Island, dodging both kinds of hate. Volc will be the red source for
 AoI next turn. Otherwise, we'll hang onto the brainstorm until our next turn.
@@ -138,18 +137,20 @@ Draw the Volc, crack the petal to brainstormn into AoI, play the Volc and win.
 If at any point they cast Surgical, we Brainstorm after it resolves and hope the
 pieces we need are in the top three.
 
-Doishy's comments:  
-*We dicussed the different interactions that could be found with Natural Order
-being the primary one. Natural order finding a Craterhoof would just kill us
-there and then so that is one thing we basically had to ignore (assuming the
-opponent had retained the card in their deck post board). Normally Reclamation
-Sage is a one of in the SB but, alongside Green Sun's Zenith which is normally a
-three to four of the odds of finding it were higher. This does not even count
-for them finding something like an Elvish Visionary and starting an "Engine"
-turn. I think the Volc line was the safest choice given the inherent risk of a
-pass the turn pile against a deck that can literally explode from nowehere.*
+Doishy's comments:
 
-### Scenario 3:
+> *We dicussed the different interactions that could be found with Natural Order
+> being the primary one. Natural order finding a Craterhoof would just kill us
+> there and then so that is one thing we basically had to ignore (assuming the
+> opponent had retained the card in their deck post board). Normally Reclamation
+> Sage is a one of in the SB but, alongside Green Sun's Zenith which is normally
+> a three to four of the odds of finding it were higher. This does not even
+> count for them finding something like an Elvish Visionary and starting an
+> "Engine" turn. I think the Volc line was the safest choice given the inherent
+> risk of a pass the turn pile against a deck that can literally explode from
+> nowehere.*
+
+## Scenario 3
 
 We've just lost game one to RUG Delver and are in the process of sideboarding.
 The question of whether to bring in Xantid Swarm comes up. It is obviously
@@ -176,20 +177,22 @@ Grixis, this is discard. Swarm doesn't really help against either of these. I
 think these sideboard slots could be used in a better way, although I'm not
 quite sure how yet.
 
-Doishy's comments:  
-*I personally was against Swarm coming in. Locally my meta is full of Grixis
-Delver variants and all run Bolt, even post board as, if nothing else, it forces
-us to consider whether we can go off and lose half our life in the face of a
-potential three damage, especially if relying on Probes. As part of our
-discussion on this we actually went and checked the sideboard of every top
-placing, large event Storm deck to see what they were running in terms of
-sideboards and whether Swarm was a heavy feature. Many didn't run any or ran
-only a Miser's copy. This actually kick started some faulty chicken-and-egg
-logic. We reasoned that because Storm doesn't play a lot of it now, the opponent
-would likely not be prepared to face it. What we should have considered was that
-maybe not many were being played because Bolt was so prevalent.*
+Doishy's comments:
 
-### Bonus Discussion:
+> *I personally was against Swarm coming in. Locally my meta is full of Grixis
+> Delver variants and all run Bolt, even post board as, if nothing else, it
+> forces us to consider whether we can go off and lose half our life in the face
+> of a potential three damage, especially if relying on Probes. As part of our
+> discussion on this we actually went and checked the sideboard of every top
+> placing, large event Storm deck to see what they were running in terms of
+> sideboards and whether Swarm was a heavy feature. Many didn't run any or ran
+> only a Miser's copy. This actually kick started some faulty chicken-and-egg
+> logic. We reasoned that because Storm doesn't play a lot of it now, the
+> opponent would likely not be prepared to face it. What we should have
+> considered was that maybe not many were being played because Bolt was so
+> prevalent.*
+
+## Bonus Discussion
 
 Over the course of the four rounds we played, Doishy noticed that I was bringing
 in Thoughtseize every round and suggested I play it maindeck. In the past I have
@@ -207,44 +210,48 @@ take Force of Will or Leovold, all of these are realistic scenarios where
 Thoughtseize is potentially better than Duress or Therapy. However, the life
 loss would quickly add up so I don't think I want it in multiples just yet.
 
-Doishy's comments:  
-*This observation was in some part due to the fact that d8 would not simply add
-in an extra discard spell but swap it out for a Therapy. There was also some
-bias here as for the last year I have been running a Miser's Thoughtseize main
-and it whas been very strong, especially in the face of Thalias or Eidolons so
-much so that I have consider switching from three Therapy, two Duress one
-Thoughtseize main to three Therapy, one Duress and two Thoughtseize main.*
+Doishy's comments:
 
-### Parting Thoughts:
+> *This observation was in some part due to the fact that d8 would not simply
+> add in an extra discard spell but swap it out for a Therapy. There was also
+> some bias here as for the last year I have been running a Miser's Thoughtseize
+> main and it whas been very strong, especially in the face of Thalias or
+> Eidolons so much so that I have consider switching from three Therapy, two
+> Duress one Thoughtseize main to three Therapy, one Duress and two Thoughtseize
+> main.*
 
-d8dk32's comments:  
-I often talk to myself when I play online, but it's much more informative to
-talk to someone else who also knows your deck. Hopefully reading this and any
-future articles we publish will help people learning to play this deck, but I
-think this pair-playing process is a valuable learning tool and if you can find
-a willing partner would be an excellent way to learn on your own. Just as
-important as learning to build piles is learning how to make the plays in the
-early turns to reach the point where you get to build piles. Having someone to
-watch over your shoulder helps you play better by catching mistakes and
-providing a sounding board when the best line isn't clear. Doishy and I agreed
-on most things this time but discussing the reasoning behind our choices is
-helpful regardless.
+## Parting Thoughts
 
-Doishy's comments:  
-*I for one really enjoyed watching d8 play whilst we discussed decisions. What
-made me feel confidant was, barring some of the decision points above, we quite
-often agreed very quickly on what line to take with most being the correct one.
-In addition to the above we had a classic turn two "Do we jam?" vs what turned
-out to be an Esper Stoneblade/Delver variant. We both said yes and it was 100%
-correct given the circumstances. One thing that it made clear to me is how
-important it is having these very fluid conversations during gameplay. Although
-people at my local shops know me and my deck of choice none of them really
-"know" the deck to the point where I could properly discuss my card choices,
-play choices and similar.*
+d8dk32's comments:
+
+> *I often talk to myself when I play online, but it's much more informative to
+> talk to someone else who also knows your deck. Hopefully reading this and any
+> future articles we publish will help people learning to play this deck, but I
+> think this pair-playing process is a valuable learning tool and if you can
+> find a willing partner would be an excellent way to learn on your own. Just as
+> important as learning to build piles is learning how to make the plays in the
+> early turns to reach the point where you get to build piles. Having someone to
+> watch over your shoulder helps you play better by catching mistakes and
+> providing a sounding board when the best line isn't clear. Doishy and I agreed
+> on most things this time but discussing the reasoning behind our choices is
+> helpful regardless.*
+
+Doishy's comments:
+
+> *I for one really enjoyed watching d8 play whilst we discussed decisions. What
+> made me feel confidant was, barring some of the decision points above, we
+> quite often agreed very quickly on what line to take with most being the
+> correct one. In addition to the above we had a classic turn two "Do we jam?"
+> vs what turned out to be an Esper Stoneblade/Delver variant. We both said yes
+> and it was 100% correct given the circumstances. One thing that it made clear
+> to me is how important it is having these very fluid conversations during
+> gameplay. Although people at my local shops know me and my deck of choice none
+> of them really "know" the deck to the point where I could properly discuss my
+> card choices, play choices and similar.*
 
 Hopefully you enjoyed this first installment of Doomsday by Committee. We shall
-hopefully return with more of the super-secret-shadowy-Doomsday-cabal (TM) that
-might not exist with further discussion on other play points, opening hands,
-scenarios and occasional puzzles.
+hopefully return with more of the *super-secret-shadowy-Doomsday-cabal (TM)*
+that might not exist with further discussion on other play points, opening
+hands, scenarios and occasional puzzles.
 
 Thank you for reading!

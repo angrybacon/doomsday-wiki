@@ -23,46 +23,7 @@ lists looked a lot like ANT and played maybe a singleton Doomsday as an
 additional engine. The first list I started playing post-ban that felt
 functional looked like this:
 
-```
-PIF DD
-
-Main
-2 Doomsday
-4 Infernal Tutor
-1 Tendrils of Agony
-4 Dark Ritual
-1 Infernal Contract
-1 Past in Flames
-4 Lion's Eye Diamond
-4 Lotus Petal
-4 Brainstorm
-4 Ponder
-4 Duress
-3 Thoughtseize
-4 Cabal Ritual
-4 Polluted Delta
-2 Scalding Tarn
-2 Bloodstained Mire
-2 Island
-2 Swamp
-1 Volcanic Island
-2 Underground Sea
-1 Conjurer's Bauble
-3 Preordain
-1 Dark Petition
-
-Board
-1 Chain of Vapor
-1 Flusterstorm
-2 Surgical Extraction
-2 Hurkyl's Recall
-2 Echoing Truth
-2 Massacre
-1 Shelldock Isle
-1 Emrakul, the Aeons Torn
-2 Doomsday
-1 Empty the Warrens
-```
+<div deckfile="2018.07.ddft.pif.json"></div>
 
 It's essentially an ANT deck with a pair of Doomsdays jammed in and a couple
 cards to support them, namely Infernal Contract (which turned out to be great on
@@ -80,46 +41,7 @@ muscle through discard so Laboratory Maniac got the boot.
 The other deck list should be more familiar-looking to people who have played
 Doosmday in the past:
 
-```
-BW DD
-
-Main
-1 Badlands
-4 Brainstorm
-4 Burning Wish
-4 Dark Ritual
-3 Doomsday
-4 Duress
-2 Street Wraith
-1 Act on Impulse
-2 Island
-1 Laboratory Maniac
-4 Lion's Eye Diamond
-4 Ponder
-3 Preordain
-1 Swamp
-2 Underground Sea
-1 Volcanic Island
-2 Bloodstained Mire
-4 Lotus Petal
-4 Polluted Delta
-2 Conjurer's Bauble
-2 Scalding Tarn
-3 Thoughtseize
-1 Ideas Unbound
-1 Rain of Filth
-
-Board
-1 Doomsday
-3 Empty the Warrens
-1 Act on Impulse
-1 Tendrils of Agony
-3 Echoing Truth
-1 By Force
-2 Massacre
-2 Surgical Extraction
-1 Hurkyl's Recall
-```
+<div deckfile="2018.07.ddft.bw.json"></div>
 
 This is "traditional" list with a couple Street Wraith instead of Probes. Wraith
 probably isn't good enough to play the full 4 but having the free draw is
@@ -209,10 +131,10 @@ not needing Threshold for Cabal Rituals.
 
 ## Winrate vs. Mulligan and Die Roll
 
-| Mull   | 7      | 6      | 5      |
-|--------|--------|--------|--------|
-| PiF DD | 62%    | 45.45% | 33.33% |
-| BW DD  | 56.25% | 52.94% | 0%     |
+| Mulligan | 7      | 6      | 5      |
+|----------|--------|--------|--------|
+| PiF DD   | 62%    | 45.45% | 33.33% |
+| BW DD    | 56.25% | 52.94% | 0%     |
 
 I wouldn't put too much stock in this, but it appears as if the PiF list is
 affected more by mulligans. The BW list has a lower winrate at 7 cards but isn't
