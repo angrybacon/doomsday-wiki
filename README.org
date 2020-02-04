@@ -12,7 +12,7 @@ npm start
 
 These 2 branches are automatically deployed upon commit.
 
-- =:master= deploys to https://master--ddftwiki.netlify.com
+- =:master= deploys to https://master\--ddftwiki.netlify.com
 - =:production= deploys to https://ddftwiki.netlify.com
 
 ** Contributing with Content
