@@ -5,6 +5,8 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
     "plugin:react/recommended"
   ],
   "globals": {
@@ -22,16 +24,33 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "import",
+    "react",
+    "sort-destructure-keys"
   ],
   "rules": {
-    "no-unused-vars": 1,
-    "quotes": ["warn", "single", {"avoidEscape": true}],
-    "react/jsx-indent": ["warn", 2],
-    "react/jsx-indent-props": ["warn", "first"],
+    "array-bracket-newline": ["error", "consistent"],
+    "array-element-newline": ["error", "consistent"],
+    "block-spacing": ["error", "always"],
+    "brace-style": ["error", "stroustrup"],
+    "import/order": ["error", {
+      "alphabetize": {"order": "asc"},
+      "groups": ["builtin", "external", "parent", "sibling", "index"],
+      "newlines-between": "never"
+    }],
+    "no-empty": ["error", {"allowEmptyCatch": true}],
+    "no-lonely-if": "error",
+    "no-trailing-spaces": "error",
+    "no-unused-vars": ["error", {"ignoreRestSiblings": true}],
+    "quotes": ["error", "single", {"avoidEscape": true}],
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-indent-props": ["error", "first"],
     "react/no-children-prop": 0,
-    "react/prop-types": 1,
-    "semi": 1
+    "semi": ["error", "always"],
+    "sort-destructure-keys/sort-destructure-keys": "error",
+    "sort-imports": ["error", {"ignoreDeclarationSort": true}],
+    "space-before-blocks": ["error", "always"],
+    "space-infix-ops": "error"
   },
   "settings": {
     "react": {
