@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 
 
@@ -24,3 +25,8 @@ export function SidebarProvider({ children }) {
     }} />
   );
 }
+
+
+SidebarProvider.propTypes = {
+  children: PropTypes.node,
+};

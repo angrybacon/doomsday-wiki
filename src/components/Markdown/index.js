@@ -1,4 +1,8 @@
 import c from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import htmlParser from 'react-markdown/plugins/html-parser';
 import Divider from '@material-ui/core/Divider';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -7,10 +11,6 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
-import htmlParser from 'react-markdown/plugins/html-parser';
-
 import Decklist from '../Decklist';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
@@ -23,6 +23,7 @@ export default function Markdown({ barf, className, source }) {
   const classes = useStyles();
 
   const renderers = {
+    /* eslint-disable react/display-name, react/prop-types */
     blockquote: ({ children }) => <Quote children={children} />,
     code: ({ value }) => <pre className={classes.code}><code>{value}</code></pre>,
     heading: ({ children, level }) => (
@@ -40,11 +41,13 @@ export default function Markdown({ barf, className, source }) {
     tableRow: ({ children }) => <TableRow children={children} />,
     tableCell: ({ align, children }) => <TableCell {...{align: align || undefined, children}} />,
     thematicBreak: () => <Divider className={c(classes.divider, {[classes.barf]: barf})} />,
+    /* eslint-enable react/display-name, react/prop-types */
   };
 
   const parseHtml = htmlParser({
     isValidNode: node => node.type !== 'script',
     processingInstructions: [
+      /* eslint-disable react/display-name */
       {
         processNode: node => React.createElement(Decklist, {
           className: classes.barf,
@@ -61,6 +64,7 @@ export default function Markdown({ barf, className, source }) {
         processNode: () => React.createElement('span', {className: classes.pile}),
         shouldProcessNode: node => node.name === 'pile',
       },
+      /* eslint-enable react/display-name */
     ]
   });
 
@@ -73,3 +77,10 @@ export default function Markdown({ barf, className, source }) {
                 component={ReactMarkdown} />
   );
 }
+
+
+Markdown.propTypes = {
+  barf: PropTypes.bool,
+  className: PropTypes.string,
+  source: PropTypes.string.isRequired,
+};

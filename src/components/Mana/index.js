@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Children } from 'react';
 import { Mana as M } from '@saeris/react-mana';
 import useStyles from './styles';
@@ -15,3 +16,8 @@ export default function Mana({ children }) {
   }, '').toLowerCase();
   return <M className={classes.root} cost fixed symbol={result} />;
 }
+
+
+Mana.propTypes = {
+  children: PropTypes.node,
+};

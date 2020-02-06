@@ -39,7 +39,7 @@ const SCRYFALL_RE = /{{\s*(!)?\s*([^|{}]*[^|{}\s])[|\s]*(?:[|\s]+([^|{}]*[^|{}\s
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 
-const markdownify = (name, set='', art='') => {
+const markdownify = (name, set = '', art = '') => {
   if (art && set) {
     return `![${name} (${set})](${art.small})`;
   }
@@ -66,7 +66,7 @@ const scry = (query, one, two, three) => new Promise(resolve => {
 });
 
 
-const search = (name, set='') => new Promise((resolve, reject) => {
+const search = (name, set = '') => new Promise((resolve, reject) => {
   const key = `${name}|${set}`;
   if (CACHE[key]) {
     resolve(CACHE[key]);

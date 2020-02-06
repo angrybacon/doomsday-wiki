@@ -1,10 +1,11 @@
 import { Link } from 'gatsby';
 import OpenInNewIcon from 'mdi-react/OpenInNewIcon';
+import PropTypes from 'prop-types';
 import React from 'react';
 import useStyles from './styles';
 
 
-export default function Prettylink({ children, component, href, target='_blank' }) {
+export default function Prettylink({ children, component, href, target }) {
   const classes = useStyles();
   const isBlank = target === '_blank';
   component = component || (href && href.startsWith('http') ? null : Link);
@@ -21,3 +22,16 @@ export default function Prettylink({ children, component, href, target='_blank' 
     )
   ) : <a children={children} className={classes.link} href={href} target={target} />;
 }
+
+
+Prettylink.defaultProps = {
+  target: '_blank',
+};
+
+
+Prettylink.propTypes = {
+  children: PropTypes.node,
+  component: PropTypes.elementType,
+  href: PropTypes.string,
+  target: PropTypes.string,
+};

@@ -1,12 +1,13 @@
 import c from 'classnames';
+import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
+import PropTypes from 'prop-types';
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
-import Typography from '@material-ui/core/Typography';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Typography from '@material-ui/core/Typography';
 import Decklist from '../Decklist';
 import useStyles from './styles';
 
@@ -61,3 +62,19 @@ export default function Puzzle({ barf, data }) {
     </>
   );
 }
+
+
+Puzzle.propTypes = {
+  barf: PropTypes.bool,
+  data: PropTypes.shape({
+    deckFile: PropTypes.string.isRequired,
+    oppBoard: PropTypes.string.isRequired,
+    oppHand: PropTypes.string.isRequired,
+    situationNotes: PropTypes.string.isRequired,
+    solution: PropTypes.string.isRequired,
+    solutionNotes: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    yourBoard: PropTypes.string.isRequired,
+    yourHand: PropTypes.string.isRequired,
+  }),
+};

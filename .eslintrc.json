@@ -33,13 +33,19 @@
     "array-element-newline": ["error", "consistent"],
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "stroustrup"],
+    "eol-last": ["error", "always"],
     "import/order": ["error", {
       "alphabetize": {"order": "asc"},
-      "groups": ["builtin", "external", "parent", "sibling", "index"],
-      "newlines-between": "never"
+      "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+      "newlines-between": "never",
+      "pathGroups": [
+        {"group": "internal", "pattern": "@material-ui/**", "position": "after"},
+        {"group": "internal", "pattern": "@saeris/**", "position": "after"}
+      ]
     }],
     "no-empty": ["error", {"allowEmptyCatch": true}],
     "no-lonely-if": "error",
+    "no-multiple-empty-lines": ["error", {"max": 2, "maxBOF": 0, "maxEOF": 0}],
     "no-trailing-spaces": "error",
     "no-unused-vars": ["error", {"ignoreRestSiblings": true}],
     "quotes": ["error", "single", {"avoidEscape": true}],

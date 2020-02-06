@@ -1,9 +1,9 @@
-import React from 'react';
 import AlertOctagonIcon from 'mdi-react/AlertOctagonIcon';
 import BabyIcon from 'mdi-react/BabyIcon';
 import FileOutlineIcon from 'mdi-react/FileOutlineIcon';
-import TargetIcon from 'mdi-react/TargetIcon';
 import PuzzleIcon from 'mdi-react/PuzzleIcon';
+import TargetIcon from 'mdi-react/TargetIcon';
+import React from 'react';
 
 
 export default {

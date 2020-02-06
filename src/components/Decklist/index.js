@@ -1,9 +1,10 @@
 import c from 'classnames';
+import PropTypes from 'prop-types';
 import React from 'react';
 import Divider from '@material-ui/core/Divider';
+import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
 import useStyles from './styles';
 
 
@@ -11,10 +12,10 @@ import useStyles from './styles';
 // the 'decklists' folder, and displays the one with the name it was given.
 
 
-export default function Decklist({ className, deckFile, hr=true }) {
+export default function Decklist({ className, deckFile, hr }) {
 
   const classes = useStyles();
-  const { main={}, name, side={} } = require('../../../decklists/' + deckFile);
+  const { main = {}, name, side = {} } = require('../../../decklists/' + deckFile);
 
   return (
     <div className={c(classes.root, className)}>
@@ -48,3 +49,15 @@ export default function Decklist({ className, deckFile, hr=true }) {
     </div>
   );
 }
+
+
+Decklist.propTypes = {
+  hr: true,
+};
+
+
+Decklist.propTypes = {
+  className: PropTypes.string,
+  deckFile: PropTypes.string.isRequired,
+  hr: PropTypes.bool,
+};

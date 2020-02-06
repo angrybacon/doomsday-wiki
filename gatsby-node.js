@@ -1,7 +1,7 @@
+const path = require('path');
 const dayjs = require('dayjs');
 const customParseFormat = require('dayjs/plugin/customParseFormat');
 const { createFilePath } = require('gatsby-source-filesystem');
-const path = require('path');
 const mana = require('./src/tools/mana');
 const scryfall = require('./src/tools/scryfall');
 

@@ -1,11 +1,12 @@
+import PropTypes from 'prop-types';
+import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import React from 'react';
-
 import Header from '../Header';
 import Prettylink from '../Prettylink';
 import Sidebar from '../Sidebar';
 import useStyles from './styles';
+
 
 import '../../reset.scss';
 
@@ -38,3 +39,8 @@ export default function Layout({ children }) {
     </div>
   );
 }
+
+
+Layout.propTypes = {
+  children: PropTypes.node,
+};

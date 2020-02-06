@@ -1,16 +1,15 @@
+import React, { useContext } from 'react';
 import Box from '@material-ui/core/Box';
 import Divider from '@material-ui/core/Divider';
 import Drawer from '@material-ui/core/Drawer';
 import Grid from '@material-ui/core/Grid';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
-import React, { useContext } from 'react';
-
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+import { SidebarContext } from '../../contexts/Sidebar';
 import SidebarBody from '../SidebarBody';
 import SidebarHeader from '../SidebarHeader';
 import SidebarMenu from '../SidebarMenu';
-import { SidebarContext } from '../../contexts/Sidebar';
 import useStyles from './styles';
 
 

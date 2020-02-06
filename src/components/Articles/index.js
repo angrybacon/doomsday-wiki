@@ -1,9 +1,8 @@
 import { graphql, useStaticQuery } from 'gatsby';
+import React from 'react';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
 import Typography from '@material-ui/core/Typography';
-import React from 'react';
-
 import Prettylink from '../Prettylink';
 
 

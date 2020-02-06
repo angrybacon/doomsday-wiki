@@ -1,7 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import Paper from '@material-ui/core/Paper';
 import React from 'react';
-
+import Paper from '@material-ui/core/Paper';
 import Markdown from '../components/Markdown';
 
 

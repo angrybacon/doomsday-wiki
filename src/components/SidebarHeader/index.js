@@ -1,15 +1,14 @@
 import { Link } from 'gatsby';
+import React, { useContext } from 'react';
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Switch from '@material-ui/core/Switch';
 import Toolbar from '@material-ui/core/Toolbar';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useTheme } from '@material-ui/core/styles';
-import React, { useContext } from 'react';
-import useStyles from './styles';
-
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { SidebarContext } from '../../contexts/Sidebar';
 import { ThemeContext } from '../../contexts/Theme';
+import useStyles from './styles';
 
 
 export default function SidebarHeader() {
