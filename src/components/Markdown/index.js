@@ -70,7 +70,7 @@ export default function Markdown({ barf, className, source }) {
 
   return (
     <Typography astPlugins={[parseHtml]}
-                className={className}
+                className={c(classes.root, className)}
                 escapeHtml={false}
                 renderers={renderers}
                 source={source}

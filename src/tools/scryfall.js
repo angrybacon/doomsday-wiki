@@ -41,7 +41,7 @@ const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 const markdownify = (name, set = '', art = '') => {
   if (art && set) {
-    return `![${name} (${set})](${art.small})`;
+    return `![${name} (${set})](${art.border_crop})`;
   }
   return `[${name}](${SCRYFALL_SEARCH}?q=${encodeURIComponent(name)})`;
 };

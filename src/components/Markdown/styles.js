@@ -26,4 +26,9 @@ export default makeStyles(theme => ({
       width: '19%',
     },
   },
+  root: {
+    '@global img': {
+      borderRadius: '2%',
+    },
+  },
 }));
