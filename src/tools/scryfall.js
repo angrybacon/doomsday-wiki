@@ -2,36 +2,41 @@ const axios = require('axios').default;
 
 
 const CARDS = {
-  aoi:   ['Act on Impulse',           'M15'],
-  bs:    ['Brainstorm',               'ICE'],
-  bw:    ['Burning Wish',             'JUD'],
-  cb:    ["Conjurer's Bauble",        '5DN'],
-  cobru: ['collective brutality',     'EMN'],
-  cov:   ['Chain of Vapor',           'ONS'],
-  cr:    ['Cabal Ritual',             'TOR'],
-  dd:    ['Doomsday',                 'WTH'],
-  dr:    ['Dark Ritual',              'LEB'],
-  dur:   ['Duress',                   'USG'],
-  ef:    ['Experimental Frenzy',      'GRN'],
-  em:    ['Emrakul, the Aeons Torn',  'ROE'],
-  eot:   ['Edge of Autumn',           'FUT'],
-  et:    ['Echoing Truth',            'DST'],
-  etw:   ['Empty the Warrens',        'TSP'],
-  ic:    ['Infernal Contract',        'MIR'],
-  isl:   ['Island',                   'UNH'],
-  iu:    ['Ideas Unbound',            'SOK'],
-  ldv:   ["Lim-Dul's Vault",          'ALL'],
-  led:   ["Lion's Eye Diamond",       'MIR'],
-  lm:    ['Laboratory Maniac',        'ISD'],
-  lp:    ['Lotus Petal',              'TMP'],
-  nc:    ["Nature's Claim",           'WWK'],
-  pn:    ['Ponder',                   'LRW'],
-  pre:   ['Preordain',                'M11'],
-  rof:   ['Rain of Filth',            'USG'],
-  si:    ['Shelldock Isle',           'LRW'],
-  sw:    ['Street Wraith',            'FUT'],
-  toa:   ['Tendrils of Agony',        'SCG'],
-  tw:    ['Three Wishes',             'VIS'],
+  AoI:   ['Act on Impulse',           'M15'],
+  BS:    ['Brainstorm',               'ICE'],
+  BW:    ['Burning Wish',             'JUD'],
+  CB:    ["Conjurer's Bauble",        '5DN'],
+  CoBru: ['Collective Brutality',     'EMN'],
+  CoV:   ['Chain of Vapor',           'ONS'],
+  CR:    ['Cabal Ritual',             'TOR'],
+  CS:    ['Chromatic Sphere',         'INV'],
+  DD:    ['Doomsday',                 'WTH'],
+  DR:    ['Dark Ritual',              'LEB'],
+  Dur:   ['Duress',                   'USG'],
+  Echo:  ['Echo of Eons',             'MH1'],
+  EF:    ['Experimental Frenzy',      'GRN'],
+  Em:    ['Emrakul, the Aeons Torn',  'ROE'],
+  EoT:   ['Edge of Autumn',           'FUT'],
+  ET:    ['Echoing Truth',            'DST'],
+  EtW:   ['Empty the Warrens',        'TSP'],
+  GP:    ['Gitaxian Probe',           'NPH'],
+  IC:    ['Infernal Contract',        'MIR'],
+  Isl:   ['Island',                   'UNH'],
+  IU:    ['Ideas Unbound',            'SOK'],
+  LDV:   ["Lim-Dûl's Vault",          'ALL'],
+  LED:   ["Lion's Eye Diamond",       'MIR'],
+  LM:    ['Laboratory Maniac',        'ISD'],
+  LP:    ['Lotus Petal',              'TMP'],
+  NC:    ["Nature's Claim",           'WWK'],
+  Pn:    ['Ponder',                   'LRW'],
+  Pre:   ['Preordain',                'M11'],
+  RoF:   ['Rain of Filth',            'USG'],
+  SI:    ['Shelldock Isle',           'LRW'],
+  SW:    ['Street Wraith',            'FUT'],
+  ToA:   ['Tendrils of Agony',        'SCG'],
+  TW:    ['Three Wishes',             'VIS'],
+  Veil:  ['Veil of Summer',           'M20'],
+  WT:    ['Wishclaw Talisman',        'ELD'],
 };
 const CACHE = {};
 const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
@@ -48,7 +53,7 @@ const markdownify = (name, set = '', art = '') => {
 
 
 const scry = (query, one, two, three) => new Promise(resolve => {
-  const [ name, defaultSet ] = CARDS[two.toLowerCase()] || [two];
+  const [ name, defaultSet ] = CARDS[two] || [two];
   const set = three || defaultSet;
   if (one === '!') {
     search(name, set).then(
@@ -78,6 +83,9 @@ const search = (name, set = '') => new Promise((resolve, reject) => {
     }, reject);
   }
 });
+
+
+module.exports.cards = CARDS;
 
 
 module.exports.replace = text => {

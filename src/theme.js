@@ -25,33 +25,6 @@ const themeOptions = {
         },
       },
     },
-    MuiTable: {
-      root: {
-        '&:not(:last-child)': {
-          marginBottom: '1em',
-        },
-      },
-    },
-    MuiTableContainer: {
-      root: {
-        borderTopColor: defaultTheme.palette.divider,
-        borderTopStyle: 'solid',
-        borderTopWidth: 1,
-        marginBottom: defaultTheme.spacing(3),
-        '& + &': {
-          borderTopStyle: 'none',
-          marginTop: -defaultTheme.spacing(3),
-        },
-        '&:last-child': {
-          marginBottom: 0,
-        },
-      },
-    },
-    MuiTableCell: {
-      head: {
-        lineHeight: 'inherit',
-      },
-    },
   },
 };
 

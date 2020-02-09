@@ -111,7 +111,7 @@ Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
 piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
 using this pile. You need {{2UR}}, a cantrip, and 3 Storm for this to work.
 
-<pile>{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!PN}}</pile>
+<pile>{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!Pn}}</pile>
 
 1. Cast cantrip, Storm 4
 2. Cast AoI, no mana floating, Storm 5

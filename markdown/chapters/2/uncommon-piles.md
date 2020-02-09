@@ -80,7 +80,7 @@ A simple version of the pile looks like this:
 
 > Enough life to live for 2 turns post-DD
 
-<pile>{{!SI}} {{!EM}} {{!Isl}} {{!Dur}} {{!LM}}</pile>
+<pile>{{!SI}} {{!Em}} {{!Isl}} {{!Dur}} {{!LM}}</pile>
 
 1. Cast Doomsday and build the above pile, then pass the turn
 2. Draw and play Shelldock Isle, hide Emrakul, pass the turn

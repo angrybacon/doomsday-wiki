@@ -109,7 +109,7 @@ location in the pile. There's also a trade-off between life and mana cost.
 
 > LED in play - {{2U}}
 
-<pile>{{!SW}} {{!IU}} {{!Cov}} {{!SW}} {{!LM}}</pile>
+<pile>{{!SW}} {{!IU}} {{!CoV}} {{!SW}} {{!LM}}</pile>
 
 Naturally the Duress or Chain of Vapor can be swapped for another spell you'd
 like to cast, modifying cost of the pile appropriately.

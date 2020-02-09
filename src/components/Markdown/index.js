@@ -4,10 +4,8 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 import Divider from '@material-ui/core/Divider';
-import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
@@ -15,6 +13,7 @@ import Decklist from '../Decklist';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
 import Quote from '../Quote';
+import Table from '../Table';
 import useStyles from './styles';
 
 
@@ -31,11 +30,7 @@ export default function Markdown({ barf, className, source }) {
     ),
     link: Prettylink,
     linkReference: Prettylink,
-    table: ({ children }) => (
-      <TableContainer className={c({[classes.barf]: barf})}>
-        <Table children={children} size="small" />
-      </TableContainer>
-    ),
+    table: ({ children }) => <Table children={children} className={c({[classes.barf]: barf})} />,
     tableHead: ({ children }) => <TableHead children={children} />,
     tableBody: ({ children }) => <TableBody children={children} />,
     tableRow: ({ children }) => <TableRow children={children} />,

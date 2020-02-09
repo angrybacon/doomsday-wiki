@@ -73,32 +73,31 @@ export default function SidebarMenu() {
         </React.Fragment>
       ))}
 
-      <>
-        <ListItem button onClick={toggleCollapse('appendices')}>
-          <ListItemIcon children={menu.appendices.icon} />
-          <ListItemText primary="Postamble" secondary={menu.appendices.subheader} />
-        </ListItem>
-        <Collapse in={collapses.appendices} timeout="auto">
-          <Divider />
-          <List>
-            {appendices.edges.map(({ node }, index) => (
-              <ListItem activeClassName={classes.active}
-                        button
-                        component={Link}
-                        dense
-                        key={index}
-                        to={node.fields.slug}>
-                <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
-              </ListItem>
-            ))}
-          </List>
-          <Divider />
-        </Collapse>
-        <ListItem button component={Link} to="/puzzles/">
-          <ListItemIcon children={menu.puzzles.icon} />
-          <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
-        </ListItem>
-      </>
+      <ListItem button onClick={toggleCollapse('appendices')}>
+        <ListItemIcon children={menu.appendices.icon} />
+        <ListItemText primary="Postamble" secondary={menu.appendices.subheader} />
+      </ListItem>
+      <Collapse in={collapses.appendices} timeout="auto">
+        <Divider />
+        <List>
+          {appendices.edges.map(({ node }, index) => (
+            <ListItem activeClassName={classes.active}
+                      button
+                      component={Link}
+                      dense
+                      key={index}
+                      to={node.fields.slug}>
+              <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
+            </ListItem>
+          ))}
+        </List>
+        <Divider />
+      </Collapse>
+
+      <ListItem button component={Link} to="/puzzles/">
+        <ListItemIcon children={menu.puzzles.icon} />
+        <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
+      </ListItem>
     </List>
   );
 }
