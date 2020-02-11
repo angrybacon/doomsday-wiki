@@ -1,4 +1,4 @@
-title: "Meandeck vs Force of Negation and Removal"
+title: "Meandeck vs Bant Snowko, Tier 2"
 authors: "Doishy"
 deckFile: "BUG_Meandeck.json"
 oppHand: "Swords to Plowshares, Force of Negation, Ponder"
@@ -20,6 +20,7 @@ solutionNotes: >
   will make a mistake. The stack works the same way as before however we move the Oracle to the
   bottom of the stack and replace it with a Ponder. 
   
+  Cast Dark Ritual into Doomsday and stack [Brainstorm, Ponder, Edge of Autumn, Lion's Eye Diamond, Thassa's Oracle].
   Cycle Wraith into Brainstorm. Cast the Brainstorm and draw Ponder, Edge and LED. Put back Ponder
   and Underground Sea. Play LED. Cycle Edge of Autumn and hold priority, cracking LED for UUU. 
   Draw Ponder and cast Ponder with UU floating. Arrange to draw the Oracle and then cast Oracle for
