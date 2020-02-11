@@ -1,29 +1,35 @@
 title: "Meandeck vs Bant Snowko, Tier 2"
 authors: "Doishy"
-deckFile: "BUG_Meandeck.json"
+deckFile: "2020.02.11.bug-meandeck.json"
 oppHand: "Swords to Plowshares, Force of Negation, Ponder"
 oppBoard: "Elk, Elk, Elk, Oko, Thief of Crowns"
-yourHand: "Dark Ritual, Doomsday, Force of Will, Force of Will, Street Wraith, Underground Sea"
-yourBoard: >
-  Polluted Delta, Swamp, Underground Sea
-  Baleful Strix
+yourHand: >
+  Dark Ritual, Doomsday, Force of Will, Force of Will, Street Wraith,
+  Underground Sea
+yourBoard: "Polluted Delta, Swamp, Underground Sea, Baleful Strix"
 situationNotes: >
-  Tier 2: Very similar to last game you have the same setup as before. At 8 life and 
-  facing down a lethal board, even despite your loyal Strix thanks to their removal in hand.
-  Despite the trials faced, you still see a way out. Win this turn.
-solution: "[Brainstorm, Ponder, Edge of Autumn, Lion's Eye Diamond, Thassa's Oracle]"
+  Tier 2: Very similar to last game you have the same setup as before. At 8 life
+  and facing down a lethal board, even despite your loyal Strix thanks to their
+  removal in hand. Despite the trials faced, you still see a way out. Win this
+  turn.
+solution: >
+  [Brainstorm, Ponder, Edge of Autumn, Lion's Eye Diamond, Thassa's Oracle]
 solutionNotes: >
-  As with the first puzzle of this scenario you have to take the same considerations with your
-  life total in hand however, there is a chance (albeit a slim one) that the opponent will
-  pull the trigger on their Swords to Plowshares too early netting you the one life that opens
-  up use of the fetchland in play. As stated before however we shouldn't assume our opponent
-  will make a mistake. The stack works the same way as before however we move the Oracle to the
-  bottom of the stack and replace it with a Ponder. 
-  
-  Cast Dark Ritual into Doomsday and stack [Brainstorm, Ponder, Edge of Autumn, Lion's Eye Diamond, Thassa's Oracle].
-  Cycle Wraith into Brainstorm. Cast the Brainstorm and draw Ponder, Edge and LED. Put back Ponder
-  and Underground Sea. Play LED. Cycle Edge of Autumn and hold priority, cracking LED for UUU. 
-  Draw Ponder and cast Ponder with UU floating. Arrange to draw the Oracle and then cast Oracle for
-  UU. You will win with one card left in your library. Thanks to the presence of our Baleful Strix
-  we have a spare devotion to blue that stays even if they cast Swords to Plowshares on the Oracle
-  as a response to its trigger.
+  As with the first puzzle of this scenario you have to take the same
+  considerations with your life total in hand however, there is a chance (albeit
+  a slim one) that the opponent will pull the trigger on their Swords to
+  Plowshares too early netting you the one life that opens up use of the
+  fetchland in play. As stated before however we shouldn't assume our opponent
+  will make a mistake. The stack works the same way as before however we move
+  the Oracle to the bottom of the stack and replace it with a Ponder.
+
+  Cast Dark Ritual into Doomsday and stack [Brainstorm, Ponder, Edge of Autumn,
+  Lion's Eye Diamond, Thassa's Oracle].
+
+  Cycle Wraith into Brainstorm. Cast the Brainstorm and draw Ponder, Edge and
+  LED. Put back Ponder and Underground Sea. Play LED. Cycle Edge of Autumn and
+  hold priority, cracking LED for UUU. Draw Ponder and cast Ponder with UU
+  floating. Arrange to draw the Oracle and then cast Oracle for UU. You will win
+  with one card left in your library. Thanks to the presence of our Baleful
+  Strix we have a spare devotion to blue that stays even if they cast Swords to
+  Plowshares on the Oracle as a response to its trigger.

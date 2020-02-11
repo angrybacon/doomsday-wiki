@@ -1,5 +1,5 @@
 {
-  "name": "BUG_Meandeck",
+  "name": "BUG Meandeck",
   "main": {
     "Baleful Strix": 2,
     "Bayou": 1,
@@ -24,8 +24,8 @@
     "Underground Sea": 2,
     "Unearth": 1,
     "Veil of Summer": 3,
-    "Verdant Catacombs": 1,
-     },
+    "Verdant Catacombs": 1
+  },
   "side": {
     "Abrupt Decay": 2,
     "Chain of Vapor": 2,

@@ -1,29 +1,35 @@
 title: "Meandeck vs Bant Snowko"
 authors: "Doishy"
-deckFile: "BUG_Meandeck.json"
+deckFile: "2020.02.11.bug-meandeck.json"
 oppHand: "Force of Negation, Ponder"
 oppBoard: "Elk, Elk, Elk, Oko, Thief of Crowns"
-yourHand: "Dark Ritual, Doomsday, Force of Will, Force of Will, Street Wraith, Underground Sea"
-yourBoard: >
-  Polluted Delta, Swamp, Underground Sea
+yourHand: >
+  Dark Ritual, Doomsday, Force of Will, Force of Will, Street Wraith,
+  Underground Sea
+yourBoard: "Polluted Delta, Swamp, Underground Sea"
 situationNotes: >
-  Playing against your Snowko opponent you are at 8 life and are faced with lethal on board.
-  You know from previous Thoughtseizes that they have Force of Negation and a blue card in hand. 
-  You think you've found a line that shows them why the Elk king is dead. 
-  Win this turn.
+  Playing against your Snowko opponent you are at 8 life and are faced with
+  lethal on board. You know from previous Thoughtseizes that they have Force of
+  Negation and a blue card in hand. You think you've found a line that shows
+  them why the Elk king is dead. Win this turn.
 solution: "[Brainstorm, Thassa's Oracle, Edge of Autumn, Lion's Eye Diamond, X]"
 solutionNotes: >
-  Being at so low a life is tricky here. You have a couple of options however one of them 
-  relies on your opponent's sequencing so should be avoided. If your opponent tries to Force
-  of Negation the Doomsday on the stack you have the option to crack your fetch in response and
-  build this pile: [Predict, Thassa's Oracle, Edge of Autumn, Lotus Petal, Unearth] however,
-  if you crack the fetch land prior to casting Doomsday and they don't cast Force of Negation you
-  are dead to them trying to Force the Predict post Doomsday. Because of this, the fetch land
-  should be considered a Red Herring and ignored. The solution pile listed can be used no matter
-  what point the opponent tries to fight over your spells. So worst case scenario, post Doomsday,
-  you go from 4 life, cycle Street Wraith to 2 life and have 1 life spell to cast Force of Will.
-  
-  Cast Dark Ritual into Doomsday and stack [Brainstorm, Thassa's Oracle, Edge of Autumn, Lion's Eye Diamond, X].
-  Cycle Wraith into Brainstorm. Cast the Brainstorm and draw Oracle, Edge and LED. Put back Oracle
-  and Underground Sea. Play LED. Cycle Edge of Autumn and hold priority, cracking LED for UUU. 
-  Draw Oracle and cast Oracle with U floating. You will win with two cards left in your library. 
+  Being at so low a life is tricky here. You have a couple of options however
+  one of them relies on your opponent's sequencing so should be avoided. If your
+  opponent tries to Force of Negation the Doomsday on the stack you have the
+  option to crack your fetch in response and build this pile: [Predict, Thassa's
+  Oracle, Edge of Autumn, Lotus Petal, Unearth] however, if you crack the fetch
+  land prior to casting Doomsday and they don't cast Force of Negation you are
+  dead to them trying to Force the Predict post Doomsday. Because of this, the
+  fetch land should be considered a Red Herring and ignored. The solution pile
+  listed can be used no matter what point the opponent tries to fight over your
+  spells. So worst case scenario, post Doomsday, you go from 4 life, cycle
+  Street Wraith to 2 life and have 1 life spell to cast Force of Will.
+
+  Cast Dark Ritual into Doomsday and stack [Brainstorm, Thassa's Oracle, Edge of
+  Autumn, Lion's Eye Diamond, X].
+
+  Cycle Wraith into Brainstorm. Cast the Brainstorm and draw Oracle, Edge and
+  LED. Put back Oracle and Underground Sea. Play LED. Cycle Edge of Autumn and
+  hold priority, cracking LED for UUU. Draw Oracle and cast Oracle with U
+  floating. You will win with two cards left in your library.
