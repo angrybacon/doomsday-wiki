@@ -1,4 +1,4 @@
-title: "Meandeck vs Force of Negation"
+title: "Meandeck vs Bant Snowko"
 authors: "Doishy"
 deckFile: "BUG_Meandeck.json"
 oppHand: "Force of Negation, Ponder"
@@ -23,6 +23,7 @@ solutionNotes: >
   what point the opponent tries to fight over your spells. So worst case scenario, post Doomsday,
   you go from 4 life, cycle Street Wraith to 2 life and have 1 life spell to cast Force of Will.
   
+  Cast Dark Ritual into Doomsday and stack [Brainstorm, Thassa's Oracle, Edge of Autumn, Lion's Eye Diamond, X].
   Cycle Wraith into Brainstorm. Cast the Brainstorm and draw Oracle, Edge and LED. Put back Oracle
   and Underground Sea. Play LED. Cycle Edge of Autumn and hold priority, cracking LED for UUU. 
   Draw Oracle and cast Oracle with U floating. You will win with two cards left in your library. 
