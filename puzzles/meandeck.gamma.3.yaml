@@ -1,0 +1,35 @@
+title: "Meandeck vs Death and Taxes, Tier 3"
+authors: "d8dk32, Doishy"
+deckFile: "BUG_Meandeck.json"
+oppHand: "Swords to Plowshares"
+oppBoard: "Rest in Peace, Leonin Arbiter, Thalia, Guardian of Thraben, Phyrexian Revoker (Naming Lion's Eye Diamond)"
+yourHand: "Brainstorm, Chain of Vapor, Dark Ritual, Dark Ritual, Doomsday, Edge of Autumn, Lotus Petal"
+yourBoard: >
+  Island, Lotus Petal, Underground Sea, Tropical Island
+  Thassa's Oracle
+situationNotes: >
+ Deja vous again! Like a reccurring nightmare, you seem to be trapped in an
+ endless stream of game 2's against a very vengeful Death and Taxes player.
+ Whilst ahead a game in game 2. You find yourself up against a lot of hate. 
+ You are stuck at 5 life facing down an even greater variety of hatebears
+ and a Rest in Peace to boot! The opponent only has a Swords to Plowshares
+ in hand but,  as they only have one mana source open, their own Thalia
+ is preventing them from casting it. What is worse is you've already
+ lost an Oracle to a prior Swords. Despite this never ceasing, targeted 
+ aggression there is still a way to navigate this horde. Win this turn!
+solution: "[-,-,-,-,-]"
+solutionNotes: >
+ Following on from how we started our tier 2 solution, there is another potential
+ out to this scenario. We can utilise the unique properties of this board state
+ and build ourselves our own, homebrewed Leveler effect. This is a puzzle that requires
+ a little bit of thinking outside the proverbial box.
+ 
+ Cast Chain of Vapor for UU targeting the your Oracle, use the Chain ability and 
+ sacrifice a land to copy it and bounce Thalia. Cast a Ritual netting
+ BBB and use it to cast Doomsday. We are not going to pay for the Leonin Arbiter
+ tax this time. Why? Because with Rest in Peace present and us forbidden 
+ from searching our library thanks to the Arbiter, we now successfully exile our entire
+ deck. Cast the Lotus Petal in hand and crack both Petals in play for UU. Cast the Oracle
+ to win with 0 cards in our library. 
+ 
+ If you got a different solution please feel free to share it on the Discord! Well done!
