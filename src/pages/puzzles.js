@@ -3,7 +3,7 @@ import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Markdown from '../components/Markdown';
-import Puzzle from '../components/Puzzle';
+import Puzzles from '../components/Puzzles';
 
 
 export default function PagePuzzles() {
@@ -35,11 +35,7 @@ export default function PagePuzzles() {
         <Typography children={frontmatter.title} gutterBottom variant="h3" />
         <Markdown source={rawMarkdownBody} />
       </Paper>
-      {puzzles.nodes.map((it, index) => (
-        <Paper key={index}>
-          <Puzzle barf data={it}/>
-        </Paper>
-      ))}
+      <Puzzles puzzles={puzzles.nodes} />
     </>
   );
 }
