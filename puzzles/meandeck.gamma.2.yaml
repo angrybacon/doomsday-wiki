@@ -3,35 +3,38 @@ authors: "d8dk32, Doishy"
 deckFile: "BUG_Meandeck.json"
 oppHand: "Swords to Plowshares"
 oppBoard: "Rest in Peace, Leonin Arbiter, Thalia, Guardian of Thraben"
-yourHand: "Brainstorm, Chain of Vapor, Dark Ritual, Dark Ritual, Doomsday, Edge of Autumn, Lotus Petal"
+yourHand: >
+  Brainstorm, Chain of Vapor, Dark Ritual, Dark Ritual, Doomsday, Edge of
+  Autumn, Lotus Petal
 yourBoard: >
-  Island, Lotus Petal, Underground Sea, Tropical Island
-  Thassa's Oracle
+  Island, Lotus Petal, Underground Sea, Tropical Island Thassa's Oracle
 situationNotes: >
- Deja vous! Whilst ahead a game in game 2. You find yourself up against a lot of hate. 
- You are stuck at 5 life facing down a variety of hatebears and a Rest in 
- Peace to boot! The opponent only has a Swords to Plowshares in hand but, 
- as they only have one mana source open, their own Thalia is preventing them 
- from casting it. What is worse is you've already lost an Oracle to a prior Swords.
- Despite this continued targeted aggression there is still a way to navigate this horde.
- Win this turn!
+ Deja vous! Whilst ahead a game in game 2. You find yourself up against a lot of
+ hate. You are stuck at 5 life facing down a variety of hatebears and a Rest in
+ Peace to boot! The opponent only has a Swords to Plowshares in hand but, as
+ they only have one mana source open, their own Thalia is preventing them from
+ casting it. What is worse is you've already lost an Oracle to a prior Swords.
+ Despite this continued targeted aggression there is still a way to navigate
+ this horde. Win this turn!
 solution: "[Lotus Petal, Predict, Lion's Eye Diamond, Ponder, X]"
 solutionNotes: >
- As before, there are a number of potential solutions so the one listed is likely
- not the only one available. In this scenario we have to be cautious of keeping the 
- second (and thereby last) Oracle alive and safe from the Swords to Plowshares in 
- the opponent's hand. As a result, we need to build a Brainstorm pile that allows us
- to put Oracle in our stack without accidentally losing it to an LED activation. 
- 
- Cast Chain of Vapor for UU targeting the your Oracle, use the Chain ability and 
- sacrifice a land to copy it and bounce Thalia. Cast both Rituals netting
- BBBBB and use them to pay 2 for Leonin Arbiter and BBB for Doomsday. With
- Doomsday, stack [Lotus Petal, Predict, Lion's Eye Diamond, Ponder, X]. Here we 
- need to ensure we cast Brainstorm as our first cantrip drawing LP, Predict and LED
- and putting back [Edge of Autumn and Thassa's Oracle]. Cast both Petals in hand
- along with the LED. Crack the petals for UU to cast Predict, cracking LED in response
- for UUU, exiling Edge of Autumn and drawing Oracle, Ponder. Use one of the U for Ponder
- to draw X and finally use the final UU to cast Oracle, winning with 0 cards left in 
- your library and safely ignoring the Swords to Plowshares.
- 
- If you got a different solution they may be covered in the later tiers of this scenario.
+ As before, there are a number of potential solutions so the one listed is
+ likely not the only one available. In this scenario we have to be cautious of
+ keeping the second (and thereby last) Oracle alive and safe from the Swords to
+ Plowshares in the opponent's hand. As a result, we need to build a Brainstorm
+ pile that allows us to put Oracle in our stack without accidentally losing it
+ to an LED activation.
+
+ Cast Chain of Vapor for UU targeting the your Oracle, use the Chain ability and
+ sacrifice a land to copy it and bounce Thalia. Cast both Rituals netting BBBBB
+ and use them to pay 2 for Leonin Arbiter and BBB for Doomsday. With Doomsday,
+ stack [Lotus Petal, Predict, Lion's Eye Diamond, Ponder, X]. Here we need to
+ ensure we cast Brainstorm as our first cantrip drawing LP, Predict and LED and
+ putting back [Edge of Autumn and Thassa's Oracle]. Cast both Petals in hand
+ along with the LED. Crack the petals for UU to cast Predict, cracking LED in
+ response for UUU, exiling Edge of Autumn and drawing Oracle, Ponder. Use one of
+ the U for Ponder to draw X and finally use the final UU to cast Oracle, winning
+ with 0 cards left in your library and safely ignoring the Swords to Plowshares.
+
+ If you got a different solution they may be covered in the later tiers of this
+ scenario.
