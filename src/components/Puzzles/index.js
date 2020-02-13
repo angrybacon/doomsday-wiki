@@ -1,3 +1,6 @@
+import match from 'autosuggest-highlight/match';
+import parse from 'autosuggest-highlight/parse';
+import c from 'classnames';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import Paper from '@material-ui/core/Paper';
@@ -12,13 +15,36 @@ export default function Puzzles({ puzzles: source }) {
   const [ puzzles, setPuzzles ] = useState(source);
   const classes = useStyles();
 
+  const getOptionLabel = filter => (
+    <>
+      {filter.key && <span children={`${filter.key}:`} className={classes.filterLabelPrefix} />}
+      <span children={filter.value || filter} />
+    </>
+  );
+
   const onFilter = (_, filters) => {
-    setPuzzles(filters.reduce((accumulator, { key, value }) => {
-      return accumulator.filter(puzzle => puzzle[key] && puzzle[key].indexOf(value) > -1);
-    }, source));
+    setPuzzles(filters.reduce((accumulator, filter) => accumulator.filter(puzzle => {
+      if (typeof filter === 'string') {
+        const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
+        return Object.values(fields).some(it => it.toLowerCase().indexOf(filter.toLowerCase()) > -1);
+      }
+      const { key, value } = filter;
+      return puzzle[key] && puzzle[key].indexOf(value) > -1;
+    }), source));
   };
 
-  const renderInput = rest => <TextField {...rest} fullWidth label="Filter" variant="outlined" />;
+  const renderInput = properties => (
+    <TextField {...properties} fullWidth label="Filter" variant="outlined" />
+  );
+
+  /* eslint-disable-next-line react/prop-types */
+  const renderOption = ({ value }, { inputValue }) => (
+    <div>
+      {parse(value, match(value, inputValue)).map(({ highlight, text }, index) => (
+        <span children={text} className={c({[classes.filterHighlight]: highlight})} key={index} />
+      ))}
+    </div>
+  );
 
   const options = Object.entries(source.reduce((accumulator, {
     id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, yourHand, ...rest
@@ -37,13 +63,14 @@ export default function Puzzles({ puzzles: source }) {
   return (
     <>
       <Paper>
-        <Autocomplete classes={{paper: classes.paper}}
-                      getOptionLabel={({ value }) => value}
+        <Autocomplete classes={{groupLabel: classes.filterGroup, paper: classes.filterPaper}}
+                      getOptionLabel={getOptionLabel}
                       groupBy={({ key }) => key}
                       multiple
                       onChange={onFilter}
                       options={options}
-                      renderInput={renderInput} />
+                      renderInput={renderInput}
+                      renderOption={renderOption} />
       </Paper>
       {puzzles.map((it, index) => (
         <Paper key={index}>
