@@ -6,7 +6,7 @@ export default makeStyles(theme => ({
     marginLeft: '.25em',
   },
   link: {
-    color: theme.palette.secondary[{dark: 'light', light: 'dark'}[theme.palette.type]]
+    color: theme.palette.secondary.light
   },
   root: {
     alignItems: 'center',

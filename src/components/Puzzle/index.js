@@ -29,7 +29,7 @@ export default function Puzzle({ barf, data }) {
 
   return (
     <>
-      <Typography children={title} paragraph variant="h4" />
+      <Typography children={title} component="h4" paragraph variant="h4" />
       <Box className={c({[classes.barf]: barf})} my={2}>
         <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
