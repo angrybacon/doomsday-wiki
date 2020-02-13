@@ -3,7 +3,10 @@ authors: "Hulahula, Doishy"
 deckFile: "2020.02.11.bug-meandeck.json"
 oppHand: "Irrelevant"
 oppBoard: "Leyline of the Void, Thoughtknot Seer, Walking Ballista (1 Counter)"
-yourHand: "Dark Ritual, Doomsday, Edge of Autumn"
+yourHand:
+  - Dark Ritual
+  - Doomsday
+  - Edge of Autumn
 yourBoard: >
   Tropical Island (Tapped), Underground Sea Lion's Eye Diamond, Thassa's Oracle
 situationNotes: >

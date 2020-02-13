@@ -3,9 +3,14 @@ authors: "d8dk32, Doishy"
 deckFile: "2020.02.11.bug-meandeck.json"
 oppHand: "Swords to Plowshares"
 oppBoard: "Rest in Peace, Leonin Arbiter, Thalia, Guardian of Thraben"
-yourHand: >
-  Brainstorm, Chain of Vapor, Dark Ritual, Dark Ritual, Doomsday, Edge of
-  Autumn, Lotus Petal
+yourHand:
+  - Brainstorm
+  - Chain of Vapor
+  - Dark Ritual
+  - Dark Ritual
+  - Doomsday
+  - Edge of Autumn
+  - Lotus Petal
 yourBoard: >
   Island, Lotus Petal, Underground Sea, Tropical Island Thassa's Oracle
 situationNotes: >

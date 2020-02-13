@@ -2,7 +2,12 @@ title: "Echo Doomsday vs Sneak and Show"
 deckFile: "EchoDoomsday.json"
 oppHand: "Currently Empty"
 oppBoard: "Irrelevant"
-yourHand: "Doomsday, Doomsday, Burning Wish, Lotus Petal, Brainstorm"
+yourHand:
+  - Doomsday
+  - Doomsday
+  - Burning Wish
+  - Lotus Petal
+  - Brainstorm
 yourBoard: >
   Tropical Island, Island, Underground Sea, Underground Sea, Badlands,
   Volcanic Island

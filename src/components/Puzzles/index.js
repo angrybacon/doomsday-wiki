@@ -47,12 +47,17 @@ export default function Puzzles({ puzzles: source }) {
   );
 
   const options = Object.entries(source.reduce((accumulator, {
-    id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, yourHand, ...rest
+    id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, ...rest
   }) => {
     Object.entries(rest).map(([ key, value ]) => {
       accumulator[key] = accumulator[key] || [];
-      if (accumulator[key].indexOf(value) === -1) {
+      if (typeof value === 'string' && accumulator[key].indexOf(value) === -1) {
         accumulator[key] = [...accumulator[key], value];
+      }
+      else if (Array.isArray(value)) {
+        accumulator[key] = [...accumulator[key], ...value].filter(
+          (it, index, array) => array.indexOf(it) === index
+        );
       }
     });
     return accumulator;
@@ -64,6 +69,7 @@ export default function Puzzles({ puzzles: source }) {
     <>
       <Paper>
         <Autocomplete classes={{groupLabel: classes.filterGroup, paper: classes.filterPaper}}
+                      freeSolo
                       getOptionLabel={getOptionLabel}
                       groupBy={({ key }) => key}
                       multiple

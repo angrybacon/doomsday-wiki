@@ -5,9 +5,14 @@ oppHand: "Swords to Plowshares"
 oppBoard: >
   Rest in Peace, Leonin Arbiter, Thalia, Guardian of Thraben, Phyrexian Revoker
   (Naming Lion's Eye Diamond)
-yourHand: >
-  Brainstorm, Chain of Vapor, Dark Ritual, Dark Ritual, Doomsday, Edge of
-  Autumn, Lotus Petal
+yourHand:
+  - Brainstorm
+  - Chain of Vapor
+  - Dark Ritual
+  - Dark Ritual
+  - Doomsday
+  - Edge of Autumn
+  - Lotus Petal
 yourBoard: >
   Island, Lotus Petal, Underground Sea, Tropical Island Thassa's Oracle
 situationNotes: >

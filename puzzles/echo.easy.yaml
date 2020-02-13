@@ -2,7 +2,11 @@ title: "Echo Doomsday vs a Goldfish"
 deckFile: "EchoDoomsday.json"
 oppHand: "Irrelevant"
 oppBoard: "Irrelevant"
-yourHand: "Dark Ritual, Doomsday, Lion's Eye Diamond, Ponder"
+yourHand:
+  - Dark Ritual
+  - Doomsday
+  - Lion's Eye Diamond
+  - Ponder
 yourBoard: "Swamp, Island"
 situationNotes: "Opponent is at 20 life, you are at 20 life. Win this turn"
 solution: >

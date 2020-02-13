@@ -3,9 +3,13 @@ authors: "Doishy"
 deckFile: "2020.02.11.bug-meandeck.json"
 oppHand: "Force of Negation, Ponder"
 oppBoard: "Elk, Elk, Elk, Oko, Thief of Crowns"
-yourHand: >
-  Dark Ritual, Doomsday, Force of Will, Force of Will, Street Wraith,
-  Underground Sea
+yourHand:
+  - Dark Ritual
+  - Doomsday
+  - Force of Will
+  - Force of Will
+  - Street Wraith
+  - Underground Sea
 yourBoard: "Polluted Delta, Swamp, Underground Sea"
 situationNotes: >
   Playing against your Snowko opponent you are at 8 life and are faced with

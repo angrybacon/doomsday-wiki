@@ -3,9 +3,13 @@ authors: "Doishy"
 deckFile: "2020.02.11.bug-meandeck.json"
 oppHand: "Swords to Plowshares, Force of Negation, Ponder"
 oppBoard: "Elk, Elk, Elk, Oko, Thief of Crowns"
-yourHand: >
-  Dark Ritual, Doomsday, Force of Will, Force of Will, Street Wraith,
-  Underground Sea
+yourHand:
+  - Dark Ritual
+  - Doomsday
+  - Force of Will
+  - Force of Will
+  - Street Wraith
+  - Underground Sea
 yourBoard: "Polluted Delta, Swamp, Underground Sea, Baleful Strix"
 situationNotes: >
   Tier 2: Very similar to last game you have the same setup as before. At 8 life

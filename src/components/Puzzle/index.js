@@ -75,6 +75,6 @@ Puzzle.propTypes = {
     solutionNotes: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     yourBoard: PropTypes.string.isRequired,
-    yourHand: PropTypes.string.isRequired,
+    yourHand: PropTypes.array.isRequired,
   }),
 };
