@@ -9,35 +9,37 @@ import useStyles from './styles';
 
 export default function Puzzles({ puzzles: source }) {
 
-  const [ puzzles ] = useState(source);
+  const [ puzzles, setPuzzles ] = useState(source);
   const classes = useStyles();
 
-  const onFilter = () => {};
+  const onFilter = (_, filters) => {
+    setPuzzles(filters.reduce((accumulator, { key, value }) => {
+      return accumulator.filter(puzzle => puzzle[key] && puzzle[key].indexOf(value) > -1);
+    }, source));
+  };
 
   const renderInput = rest => <TextField {...rest} fullWidth label="Filter" variant="outlined" />;
 
-  const options = [
-    {title: 'The Shawshank Redemption', year: 1994},
-    {title: 'The Godfather', year: 1972},
-    {title: 'The Godfather: Part II', year: 1974},
-    {title: 'The Dark Knight', year: 2008},
-    {title: '12 Angry Men', year: 1957},
-    {title: "Schindler's List", year: 1993},
-    {title: 'Pulp Fiction', year: 1994},
-    {title: 'The Lord of the Rings: The Return of the King', year: 2003},
-    {title: 'The Good, the Bad and the Ugly', year: 1966},
-    {title: 'Fight Club', year: 1999},
-    {title: 'The Lord of the Rings: The Fellowship of the Ring', year: 2001},
-    {title: 'Star Wars: Episode V - The Empire Strikes Back', year: 1980},
-    {title: 'Forrest Gump', year: 1994},
-    {title: 'Inception', year: 2010},
-  ];
+  const options = Object.entries(source.reduce((accumulator, {
+    id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, yourHand, ...rest
+  }) => {
+    Object.entries(rest).map(([ key, value ]) => {
+      accumulator[key] = accumulator[key] || [];
+      if (accumulator[key].indexOf(value) === -1) {
+        accumulator[key] = [...accumulator[key], value];
+      }
+    });
+    return accumulator;
+  }, {})).reduce((accumulator, [ key, values ]) => (
+    [...accumulator, ...values.map(value => ({key, value}))]
+  ), []);
 
   return (
     <>
       <Paper>
         <Autocomplete classes={{paper: classes.paper}}
-                      getOptionLabel={it => it.title}
+                      getOptionLabel={({ value }) => value}
+                      groupBy={({ key }) => key}
                       multiple
                       onChange={onFilter}
                       options={options}
