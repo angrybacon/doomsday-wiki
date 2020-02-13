@@ -26,7 +26,10 @@ export default function Puzzles({ puzzles: source }) {
     setPuzzles(filters.reduce((accumulator, filter) => accumulator.filter(puzzle => {
       if (typeof filter === 'string') {
         const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
-        return Object.values(fields).some(it => it.toLowerCase().indexOf(filter.toLowerCase()) > -1);
+        return Object.values(fields).some(field => {
+          field = (Array.isArray(field) ? field.map(it => it.toLowerCase()) : field.toLowerCase());
+          return field.indexOf(filter.toLowerCase()) > -1;
+        });
       }
       const { key, value } = filter;
       return puzzle[key] && puzzle[key].indexOf(value) > -1;
