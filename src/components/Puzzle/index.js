@@ -1,5 +1,6 @@
 import c from 'classnames';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
+import CircleSmallIcon from 'mdi-react/CircleSmallIcon';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Box from '@material-ui/core/Box';
@@ -29,8 +30,14 @@ export default function Puzzle({ barf, component, data }) {
   } = data;
 
   const prettify = value => (
-    <Typography children={Array.isArray(value) ? value.join(', ') : value || '-'}
-                color={value ? 'inherit' : 'textSecondary'} />
+    <Box color={value ? 'inherit' : 'text.secondary'} display="flex" flexWrap="wrap">
+      {Array.isArray(value) ? (value.map((it, index, array) => (
+        <Box alignItems="center" display="flex" key={index}>
+          {it}
+          {index < array.length - 1 && <CircleSmallIcon size="1em" />}
+        </Box>
+      ))) : value || '-'}
+    </Box>
   );
 
   return React.createElement(component, null, (
@@ -49,7 +56,8 @@ export default function Puzzle({ barf, component, data }) {
           </ExpansionPanelDetails>
         </ExpansionPanel>
       </Box>
-      <Typography container className={classes.situation} component={Grid} gutterBottom>
+      {notes && <Typography children={notes} paragraph />}
+      <Typography container className={classes.situation} component={Grid}>
         <Grid item xs={12} sm={4} md={3} children="Opponent's Hand" />
         <Grid item xs={12} sm={8} md={9} children={prettify(oppHand)} />
         <Grid item xs={12} sm={4} md={3} children="Opponent's Board" />
@@ -59,8 +67,7 @@ export default function Puzzle({ barf, component, data }) {
         <Grid item xs={12} sm={4} md={3} children="Your Board" />
         <Grid item xs={12} sm={8} md={9} children={prettify(yourBoard)} />
       </Typography>
-      <Typography children={notes} paragraph />
-      <div className={c({[classes.barf]: barf})}>
+      <Box className={c({[classes.barf]: barf})} mt={2}>
         <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
             <Typography children="Solution" />
@@ -70,7 +77,7 @@ export default function Puzzle({ barf, component, data }) {
             <Typography children={solutionNotes} />
           </ExpansionPanelDetails>
         </ExpansionPanel>
-      </div>
+      </Box>
     </>
   ));
 }
