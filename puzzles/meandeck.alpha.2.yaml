@@ -1,8 +1,16 @@
 title: "Meandeck vs Bant Snowko, Tier 2"
-authors: "Doishy"
+authors:
+  - Doishy
 deckFile: "2020.02.11.bug-meandeck.json"
-oppHand: "Swords to Plowshares, Force of Negation, Ponder"
-oppBoard: "Elk, Elk, Elk, Oko, Thief of Crowns"
+oppHand:
+  - Swords to Plowshares
+  - Force of Negation
+  - Ponder
+oppBoard:
+  - Elk
+  - Elk
+  - Elk
+  - Oko, Thief of Crowns
 yourHand:
   - Dark Ritual
   - Doomsday
@@ -10,14 +18,22 @@ yourHand:
   - Force of Will
   - Street Wraith
   - Underground Sea
-yourBoard: "Polluted Delta, Swamp, Underground Sea, Baleful Strix"
-situationNotes: >
+yourBoard:
+  - Polluted Delta
+  - Swamp
+  - Underground Sea
+  - Baleful Strix
+notes: >
   Tier 2: Very similar to last game you have the same setup as before. At 8 life
   and facing down a lethal board, even despite your loyal Strix thanks to their
   removal in hand. Despite the trials faced, you still see a way out. Win this
   turn.
-solution: >
-  [Brainstorm, Ponder, Edge of Autumn, Lion's Eye Diamond, Thassa's Oracle]
+solution:
+  - Brainstorm
+  - Ponder
+  - Edge of Autumn
+  - Lion's Eye Diamond
+  - Thassa's Oracle
 solutionNotes: >
   As with the first puzzle of this scenario you have to take the same
   considerations with your life total in hand however, there is a chance (albeit

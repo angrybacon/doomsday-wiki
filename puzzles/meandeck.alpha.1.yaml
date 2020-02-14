@@ -1,8 +1,15 @@
 title: "Meandeck vs Bant Snowko"
-authors: "Doishy"
+authors:
+  - Doishy
 deckFile: "2020.02.11.bug-meandeck.json"
-oppHand: "Force of Negation, Ponder"
-oppBoard: "Elk, Elk, Elk, Oko, Thief of Crowns"
+oppHand:
+  - Force of Negation
+  - Ponder
+oppBoard:
+  - Elk
+  - Elk
+  - Elk
+  - Oko, Thief of Crowns
 yourHand:
   - Dark Ritual
   - Doomsday
@@ -10,13 +17,21 @@ yourHand:
   - Force of Will
   - Street Wraith
   - Underground Sea
-yourBoard: "Polluted Delta, Swamp, Underground Sea"
-situationNotes: >
+yourBoard:
+  - Polluted Delta
+  - Swamp
+  - Underground Sea
+notes: >
   Playing against your Snowko opponent you are at 8 life and are faced with
   lethal on board. You know from previous Thoughtseizes that they have Force of
   Negation and a blue card in hand. You think you've found a line that shows
   them why the Elk king is dead. Win this turn.
-solution: "[Brainstorm, Thassa's Oracle, Edge of Autumn, Lion's Eye Diamond, X]"
+solution:
+  - Brainstorm
+  - Thassa's Oracle
+  - Edge of Autumn
+  - Lion's Eye Diamond
+  - X
 solutionNotes: >
   Being at so low a life is tricky here. You have a couple of options however
   one of them relies on your opponent's sequencing so should be avoided. If your

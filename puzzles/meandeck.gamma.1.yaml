@@ -1,8 +1,14 @@
 title: "Meandeck vs Death and Taxes"
-authors: "d8dk32, Doishy"
+authors:
+  - d8dk32
+  - Doishy
 deckFile: "2020.02.11.bug-meandeck.json"
-oppHand: "Swords to Plowshares"
-oppBoard: "Rest in Peace, Leonin Arbiter, Thalia, Guardian of Thraben"
+oppHand:
+  - Swords to Plowshares
+oppBoard:
+  - Rest in Peace
+  - Leonin Arbiter
+  - Thalia, Guardian of Thraben
 yourHand:
   - Brainstorm
   - Chain of Vapor
@@ -11,30 +17,38 @@ yourHand:
   - Doomsday
   - Edge of Autumn
   - Lotus Petal
-yourBoard: >
-  Island, Lotus Petal, Underground Sea, Tropical Island
-  Thassa's Oracle
-situationNotes: >
- Whilst ahead a game in game 2. You find yourself up against a lot of hate. You
- are stuck at 5 life facing down a variety of hatebears and a Rest in Peace to
- boot! The opponent only has a Swords to Plowshares in hand but, as they only
- have one mana source open, their own Thalia is preventing them from casting it.
- Despite this targeted aggression there is still a way to navigate this horde.
- Win this turn!
-solution: "[Lion's Eye Diamond, Predict, X, X, Thassa's Oracle]"
+yourBoard:
+  - Island
+  - Lotus Petal
+  - Underground Sea
+  - Tropical Island
+  - Thassa's Oracle
+notes: >
+  Whilst ahead a game in game 2. You find yourself up against a lot of hate. You
+  are stuck at 5 life facing down a variety of hatebears and a Rest in Peace to
+  boot! The opponent only has a Swords to Plowshares in hand but, as they only
+  have one mana source open, their own Thalia is preventing them from casting
+  it. Despite this targeted aggression there is still a way to navigate this
+  horde. Win this turn!
+solution:
+  - Lion's Eye Diamond
+  - Predict
+  - X
+  - X
+  - Thassa's Oracle
 solutionNotes: >
- There are in fact a number of potential solutions to this one. The first one is
- pretty simple. Two Dark Rituals handily provde both the mana for casting
- Doomsday and an additional BB for paying Leonin Arbiter's tax.
+  There are in fact a number of potential solutions to this one. The first one
+  is pretty simple. Two Dark Rituals handily provde both the mana for casting
+  Doomsday and an additional BB for paying Leonin Arbiter's tax.
 
- Cast Chain of Vapor for UU targeting the Thalia. Cast both Rituals netting
- BBBBB and use them to pay 2 for Leonin Arbiter and BBB for Doomsday. With
- Doomsday, stack [Lion's Eye Diamond, Predict, X, X, Thassa's Oracle]. This then
- becomes a very simple "double cantrip" pile using one of either Brainstorm or
- Edge to draw LED, then use the other to draw Predict, holding priority to crack
- LED for UUU. You predict away X and draw the Oracle. Play the Oracle to win
- with 0 cards left in the library thereby negating the opposing Swords to
- Plowshares.
+  Cast Chain of Vapor for UU targeting the Thalia. Cast both Rituals netting
+  BBBBB and use them to pay 2 for Leonin Arbiter and BBB for Doomsday. With
+  Doomsday, stack [Lion's Eye Diamond, Predict, X, X, Thassa's Oracle]. This
+  then becomes a very simple "double cantrip" pile using one of either
+  Brainstorm or Edge to draw LED, then use the other to draw Predict, holding
+  priority to crack LED for UUU. You predict away X and draw the Oracle. Play
+  the Oracle to win with 0 cards left in the library thereby negating the
+  opposing Swords to Plowshares.
 
- If you got a different solution they may be covered in the later tiers of this
- scenario.
+  If you got a different solution they may be covered in the later tiers of this
+  scenario.

@@ -1,20 +1,29 @@
 title: "Echo Doomsday vs Sneak and Show"
 deckFile: "EchoDoomsday.json"
-oppHand: "Currently Empty"
-oppBoard: "Irrelevant"
+oppHand: null
+oppBoard: null
 yourHand:
   - Doomsday
   - Doomsday
   - Burning Wish
   - Lotus Petal
   - Brainstorm
-yourBoard: >
-  Tropical Island, Island, Underground Sea, Underground Sea, Badlands,
-  Volcanic Island
-situationNotes: >
+yourBoard:
+  - Tropical Island
+  - Island
+  - Underground Sea
+  - Underground Sea
+  - Badlands
+  - Volcanic Island
+notes: >
   Your Sneak and Show opponent is at 20 life, and you are at 2 life. Win this
   turn
-solution: "[Lion's Eye Diamond, Lion's Eye Diamond, Ponder, Ponder, Ponder]"
+solution:
+  - Lion's Eye Diamond
+  - Lion's Eye Diamond
+  - Ponder
+  - Ponder
+  - Ponder
 solutionNotes: >
   Your life total is very low so a Draw4 is not an option. Your opponent is
   playing a Force of Will deck, so refilling their hand with an Echo pile is

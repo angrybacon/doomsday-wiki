@@ -1,32 +1,45 @@
 title: "Meandeck vs Eldrazi"
-authors: "Hulahula, Doishy"
+authors:
+  - Hulahula
+  - Doishy
 deckFile: "2020.02.11.bug-meandeck.json"
-oppHand: "Irrelevant"
-oppBoard: "Leyline of the Void, Thoughtknot Seer, Walking Ballista (1 Counter)"
+oppHand: null
+oppBoard:
+  - Leyline of the Void
+  - Thoughtknot Seer
+  - Walking Ballista (1)
 yourHand:
   - Dark Ritual
   - Doomsday
   - Edge of Autumn
-yourBoard: >
-  Tropical Island (Tapped), Underground Sea Lion's Eye Diamond, Thassa's Oracle
-situationNotes: >
+yourBoard:
+  - Tropical Island (tapped)
+  - Underground Sea
+  - Lion's Eye Diamond
+  - Thassa's Oracle
+notes: >
   In game 3, you find yourself at 9 life facing down some lethal beaters.
   Between the Leyline, Pitching Spells to Force of Will and the Thoughtknot Seer
   you have lost both copies of Predict and your second Oracle to exile. Despite
   this you find a line and take it home to win the match. Win this turn.
-solution: "[Chain of Vapor, Street Wraith, X, X, X]"
+solution:
+  - Chain of Vapor
+  - Street Wraith
+  - X
+  - X
+  - X
 solutionNotes: >
- The key thing to remember here actually lies within one of the opponent's
- cards. Thoughtknot Seer, when it leaves the battlefield, causes opponents to
- draw a card. You can use this to your advantage alongside Chain of Vapors copy
- clause to both pick up your own Oracle and re-play it as well as netting
- another draw into the stack. You also have to be wary of the Walking Ballista
- as too much life loss through Stree Wraith cycles can leave you dead to it.
+  The key thing to remember here actually lies within one of the opponent's
+  cards. Thoughtknot Seer, when it leaves the battlefield, causes opponents to
+  draw a card. You can use this to your advantage alongside Chain of Vapors copy
+  clause to both pick up your own Oracle and re-play it as well as netting
+  another draw into the stack. You also have to be wary of the Walking Ballista
+  as too much life loss through Stree Wraith cycles can leave you dead to it.
 
- Cast Dark Ritual into Doomsday and stack [Chain of Vapor, Street Wraith,
- Ponder, X, X]. Cycle Edge of Autumn (Sacrificing the Tapped Tropical Island),
- hold priority to crack LED for UUU, to draw Chain of Vapor. Cast Chain
- targeting your own Oracle, copy it, sacrificing your second land to bounce the
- opposing Thoughtknot Seer. Seer with trigger causing you to draw Street Wraith.
- Cycle Street Wraith (going from 4 life post Doomsday to 2 life post Cycle) to
- draw X. Cast Oracle and win with two cards left in the library.
+  Cast Dark Ritual into Doomsday and stack [Chain of Vapor, Street Wraith,
+  Ponder, X, X]. Cycle Edge of Autumn (Sacrificing the Tapped Tropical Island),
+  hold priority to crack LED for UUU, to draw Chain of Vapor. Cast Chain
+  targeting your own Oracle, copy it, sacrificing your second land to bounce the
+  opposing Thoughtknot Seer. Seer with trigger causing you to draw Street
+  Wraith. Cycle Street Wraith (going from 4 life post Doomsday to 2 life post
+  Cycle) to draw X. Cast Oracle and win with two cards left in the library.

@@ -20,10 +20,11 @@ export default function PagePuzzles() {
     }
     puzzles: allPuzzlesYaml(sort: {order: ASC, fields: title}) {
       nodes {
+        authors
         deckFile
+        notes
         oppBoard
         oppHand
-        situationNotes
         solution
         solutionNotes
         title

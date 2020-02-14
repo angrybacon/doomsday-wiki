@@ -24,8 +24,13 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
       if (typeof filter === 'string') {
         const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
         return Object.values(fields).some(field => {
-          field = (Array.isArray(field) ? field.map(it => it.toLowerCase()) : field.toLowerCase());
-          return field.indexOf(filter.toLowerCase()) > -1;
+          if (typeof field === 'string') {
+            return field.indexOf(filter.toLowerCase()) > -1;
+          }
+          else if (Array.isArray(field)) {
+            return field.some(it => it.toLowerCase().includes(filter.toLowerCase()));
+          }
+          return false;
         });
       }
       const { key, value } = filter;
@@ -46,22 +51,22 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
     </div>
   );
 
-  const options = Object.entries(puzzles.reduce((accumulator, {
-    id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, ...fields
-  }) => {
-    Object.entries(fields).map(([ key, value ]) => {
-      accumulator[key] = accumulator[key] || [];
-      if (typeof value === 'string' && accumulator[key].indexOf(value) === -1) {
-        accumulator[key] = [...accumulator[key], value];
-      }
-      else if (Array.isArray(value)) {
-        accumulator[key] = [...accumulator[key], ...value].filter(
-          (it, index, array) => array.indexOf(it) === index
-        );
-      }
-    });
-    return accumulator;
-  }, {})).reduce((accumulator, [ key, values ]) => (
+  const options = Object.entries(
+    puzzles.reduce((accumulator, { id, notes, solution, solutionNotes, title, ...fields }) => {
+      Object.entries(fields).map(([ key, value ]) => {
+        accumulator[key] = accumulator[key] || [];
+        if (typeof value === 'string' && accumulator[key].indexOf(value) === -1) {
+          accumulator[key] = [...accumulator[key], value];
+        }
+        else if (Array.isArray(value)) {
+          accumulator[key] = [...accumulator[key], ...value].filter(
+            (it, index, array) => array.indexOf(it) === index
+          );
+        }
+      });
+      return accumulator;
+    }, {})
+  ).reduce((accumulator, [ key, values ]) => (
     [...accumulator, ...values.map(value => ({key, value}))]
   ), []);
 
