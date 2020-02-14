@@ -22,4 +22,22 @@ export default makeStyles(theme => ({
   panelDetails: {
     display: 'block',
   },
+  situation: {
+    alignItems: 'center',
+    '& > *': {
+      marginBottom: theme.spacing(1),
+    },
+    '& > :nth-child(2n)': {
+      paddingLeft: theme.spacing(1),
+      [theme.breakpoints.down('xs')]: {
+        paddingLeft: 0,
+      },
+    },
+    '& > :nth-child(2n+1)': {
+      color: theme.palette.text.secondary,
+      [theme.breakpoints.down('xs')]: {
+        marginBottom: 0,
+      },
+    },
+  },
 }));

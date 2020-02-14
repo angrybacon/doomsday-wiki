@@ -7,6 +7,7 @@ import Divider from '@material-ui/core/Divider';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Decklist from '../Decklist';
 import useStyles from './styles';
@@ -17,9 +18,9 @@ export default function Puzzle({ barf, component, data }) {
   const classes = useStyles();
   const {
     deckFile,
+    notes,
     oppBoard,
     oppHand,
-    situationNotes,
     solution,
     solutionNotes,
     title,
@@ -27,13 +28,18 @@ export default function Puzzle({ barf, component, data }) {
     yourHand,
   } = data;
 
+  const prettify = value => (
+    <Typography children={Array.isArray(value) ? value.join(', ') : value || '-'}
+                color={value ? 'inherit' : 'textSecondary'} />
+  );
+
   return React.createElement(component, null, (
     <>
       <Typography children={title} component="h4" paragraph variant="h4" />
       <Box className={c({[classes.barf]: barf})} my={2}>
         <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="See Decklist:" />
+            <Typography children="See Decklist" />
           </ExpansionPanelSummary>
           <ExpansionPanelDetails classes={{root: c(classes.panelDetails, classes.deck)}}>
             <div>
@@ -43,22 +49,28 @@ export default function Puzzle({ barf, component, data }) {
           </ExpansionPanelDetails>
         </ExpansionPanel>
       </Box>
-      <Typography children={`Opponent's Hand: ${oppHand}`} />
-      <Typography children={`Opponent's Board: ${oppBoard}`} />
-      <Typography children={`Your Hand: ${yourHand}`} />
-      <Typography children={`Your Board: ${yourBoard}`} />
-      <Typography children={situationNotes} />
-      <Box className={c({[classes.barf]: barf})} mt={2}>
+      <Typography container className={classes.situation} component={Grid} gutterBottom>
+        <Grid item xs={12} sm={4} md={3} children="Opponent's Hand" />
+        <Grid item xs={12} sm={8} md={9} children={prettify(oppHand)} />
+        <Grid item xs={12} sm={4} md={3} children="Opponent's Board" />
+        <Grid item xs={12} sm={8} md={9} children={prettify(oppBoard)} />
+        <Grid item xs={12} sm={4} md={3} children="Your Hand" />
+        <Grid item xs={12} sm={8} md={9} children={prettify(yourHand)} />
+        <Grid item xs={12} sm={4} md={3} children="Your Board" />
+        <Grid item xs={12} sm={8} md={9} children={prettify(yourBoard)} />
+      </Typography>
+      <Typography children={notes} paragraph />
+      <div className={c({[classes.barf]: barf})}>
         <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="Solution:" />
+            <Typography children="Solution" />
           </ExpansionPanelSummary>
           <ExpansionPanelDetails classes={{root: classes.panelDetails}}>
-            <Typography children={solution} paragraph />
-            <Typography children={solutionNotes} paragraph />
+            <Typography children={prettify(solution)} component="div" paragraph />
+            <Typography children={solutionNotes} />
           </ExpansionPanelDetails>
         </ExpansionPanel>
-      </Box>
+      </div>
     </>
   ));
 }
@@ -73,14 +85,15 @@ Puzzle.propTypes = {
   barf: PropTypes.bool,
   component: PropTypes.elementType,
   data: PropTypes.shape({
+    authors: PropTypes.array,
     deckFile: PropTypes.string.isRequired,
-    oppBoard: PropTypes.string.isRequired,
-    oppHand: PropTypes.string.isRequired,
-    situationNotes: PropTypes.string.isRequired,
-    solution: PropTypes.string.isRequired,
+    notes: PropTypes.string.isRequired,
+    oppBoard: PropTypes.array,
+    oppHand: PropTypes.array,
+    solution: PropTypes.array.isRequired,
     solutionNotes: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    yourBoard: PropTypes.string.isRequired,
-    yourHand: PropTypes.array.isRequired,
+    yourBoard: PropTypes.array,
+    yourHand: PropTypes.array,
   }),
 };
