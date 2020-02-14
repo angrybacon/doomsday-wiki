@@ -2,17 +2,17 @@ import { makeStyles } from '@material-ui/core/styles';
 
 
 export default makeStyles(theme => ({
-  filterGroup: {
+  group: {
     color: theme.palette.text.hint,
     textTransform: 'uppercase',
   },
-  filterHighlight: {
+  highlight: {
     color: theme.palette.secondary.light,
   },
-  filterLabelPrefix: {
+  labelPrefix: {
     textTransform: 'lowercase',
   },
-  filterPaper: {
+  paper: {
     boxShadow: theme.shadows[6],
     padding: 0,
   },

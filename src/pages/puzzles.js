@@ -1,12 +1,16 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import Markdown from '../components/Markdown';
 import Paper from '../components/Paper';
-import Puzzles from '../components/Puzzles';
+import Puzzle from '../components/Puzzle';
+import PuzzleFilters from '../components/PuzzleFilters';
 
 
 export default function PagePuzzles() {
+
+  const [ items, setItems ] = useState([]);
   const { introduction, puzzles } = useStaticQuery(graphql`{
     introduction: file(relativePath: {eq: "partials/puzzles.md"}) {
       childMarkdownRemark {
@@ -29,13 +33,21 @@ export default function PagePuzzles() {
     }
   }`);
   const { frontmatter, rawMarkdownBody } = introduction.childMarkdownRemark;
+
+  useEffect(() => {
+    if (puzzles.nodes.length) {
+      setItems(puzzles.nodes);
+    }
+  }, [puzzles.nodes]);
+
   return (
     <>
       <Paper>
         <Typography children={frontmatter.title} gutterBottom variant="h3" />
         <Markdown source={rawMarkdownBody} />
+        <Box children={<PuzzleFilters onFilter={setItems} puzzles={puzzles.nodes} />} mt={2} />
       </Paper>
-      <Puzzles puzzles={puzzles.nodes} />
+      {items.map((it, index) => <Puzzle barf component={Paper} key={index} data={it} />)}
     </>
   );
 }

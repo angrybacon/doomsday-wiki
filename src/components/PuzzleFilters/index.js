@@ -2,28 +2,25 @@ import match from 'autosuggest-highlight/match';
 import parse from 'autosuggest-highlight/parse';
 import c from 'classnames';
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
-import Paper from '@material-ui/core/Paper';
+import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
-import Puzzle from '../Puzzle';
 import useStyles from './styles';
 
 
-export default function Puzzles({ puzzles: source }) {
+export default function PuzzleFilters({ onFilter, puzzles }) {
 
-  const [ puzzles, setPuzzles ] = useState(source);
   const classes = useStyles();
 
   const getOptionLabel = filter => (
     <>
-      {filter.key && <span children={`${filter.key}:`} className={classes.filterLabelPrefix} />}
+      {filter.key && <span children={`${filter.key}:`} className={classes.labelPrefix} />}
       <span children={filter.value || filter} />
     </>
   );
 
-  const onFilter = (_, filters) => {
-    setPuzzles(filters.reduce((accumulator, filter) => accumulator.filter(puzzle => {
+  const onChange = (_, filters) => {
+    onFilter(filters.reduce((accumulator, filter) => accumulator.filter(puzzle => {
       if (typeof filter === 'string') {
         const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
         return Object.values(fields).some(field => {
@@ -33,7 +30,7 @@ export default function Puzzles({ puzzles: source }) {
       }
       const { key, value } = filter;
       return puzzle[key] && puzzle[key].indexOf(value) > -1;
-    }), source));
+    }), puzzles));
   };
 
   const renderInput = properties => (
@@ -44,15 +41,15 @@ export default function Puzzles({ puzzles: source }) {
   const renderOption = ({ value }, { inputValue }) => (
     <div>
       {parse(value, match(value, inputValue)).map(({ highlight, text }, index) => (
-        <span children={text} className={c({[classes.filterHighlight]: highlight})} key={index} />
+        <span children={text} className={c({[classes.highlight]: highlight})} key={index} />
       ))}
     </div>
   );
 
-  const options = Object.entries(source.reduce((accumulator, {
-    id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, ...rest
+  const options = Object.entries(puzzles.reduce((accumulator, {
+    id, oppBoard, oppHand, situationNotes, solution, solutionNotes, yourBoard, ...fields
   }) => {
-    Object.entries(rest).map(([ key, value ]) => {
+    Object.entries(fields).map(([ key, value ]) => {
       accumulator[key] = accumulator[key] || [];
       if (typeof value === 'string' && accumulator[key].indexOf(value) === -1) {
         accumulator[key] = [...accumulator[key], value];
@@ -69,33 +66,25 @@ export default function Puzzles({ puzzles: source }) {
   ), []);
 
   return (
-    <>
-      <Paper>
-        <Autocomplete classes={{groupLabel: classes.filterGroup, paper: classes.filterPaper}}
-                      freeSolo
-                      getOptionLabel={getOptionLabel}
-                      groupBy={({ key }) => key}
-                      multiple
-                      onChange={onFilter}
-                      options={options}
-                      renderInput={renderInput}
-                      renderOption={renderOption} />
-      </Paper>
-      {puzzles.map((it, index) => (
-        <Paper key={index}>
-          <Puzzle barf data={it}/>
-        </Paper>
-      ))}
-    </>
+    <Autocomplete classes={{groupLabel: classes.group, paper: classes.paper}}
+                  freeSolo
+                  getOptionLabel={getOptionLabel}
+                  groupBy={({ key }) => key}
+                  multiple
+                  onChange={onChange}
+                  options={options}
+                  renderInput={renderInput}
+                  renderOption={renderOption} />
   );
 }
 
 
-Puzzles.defaultProps = {
+PuzzleFilters.defaultProps = {
   puzzles: [],
 };
 
 
-Puzzles.propTypes = {
+PuzzleFilters.propTypes = {
+  onFilter: PropTypes.func.isRequired,
   puzzles: PropTypes.array,
 };

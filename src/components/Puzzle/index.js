@@ -12,7 +12,7 @@ import Decklist from '../Decklist';
 import useStyles from './styles';
 
 
-export default function Puzzle({ barf, data }) {
+export default function Puzzle({ barf, component, data }) {
 
   const classes = useStyles();
   const {
@@ -27,7 +27,7 @@ export default function Puzzle({ barf, data }) {
     yourHand,
   } = data;
 
-  return (
+  return React.createElement(component, null, (
     <>
       <Typography children={title} component="h4" paragraph variant="h4" />
       <Box className={c({[classes.barf]: barf})} my={2}>
@@ -60,12 +60,18 @@ export default function Puzzle({ barf, data }) {
         </ExpansionPanel>
       </Box>
     </>
-  );
+  ));
 }
+
+
+Puzzle.defaultProps = {
+  component: 'div',
+};
 
 
 Puzzle.propTypes = {
   barf: PropTypes.bool,
+  component: PropTypes.elementType,
   data: PropTypes.shape({
     deckFile: PropTypes.string.isRequired,
     oppBoard: PropTypes.string.isRequired,
