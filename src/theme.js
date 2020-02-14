@@ -6,24 +6,27 @@ import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 const defaultTheme = createMuiTheme();
 const themeOptions = {
   mixins: {
+    barf: (styles = {}) => ({
+      marginLeft: -defaultTheme.spacing(3),
+      marginRight: -defaultTheme.spacing(3),
+      ...styles,
+      [defaultTheme.breakpoints.down('sm')]: {
+        marginLeft: -defaultTheme.spacing(2),
+        marginRight: -defaultTheme.spacing(2),
+        ...styles[defaultTheme.breakpoints.down('sm')],
+      },
+    }),
+    gutters: (styles = {}) => ({
+      padding: defaultTheme.spacing(3),
+      ...styles,
+      [defaultTheme.breakpoints.down('sm')]: {
+        padding: defaultTheme.spacing(2),
+        ...styles[defaultTheme.breakpoints.down('sm')],
+      },
+    }),
     sidebar: {
       treshold: defaultTheme.breakpoints.down('sm'),
       width: 300,
-    },
-  },
-  overrides: {
-    MuiPaper: {
-      root: {
-        padding: defaultTheme.spacing(3),
-        '&:not(:last-child)': {
-          marginBottom: defaultTheme.spacing(3),
-        },
-      },
-      rounded: {
-        [defaultTheme.breakpoints.down('xs')]: {
-          borderRadius: 0,
-        },
-      },
     },
   },
 };

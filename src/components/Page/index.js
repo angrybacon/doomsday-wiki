@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Markdown from '../Markdown';
+import Paper from '../Paper';
 
 
 export default function Page({ pageContext }) {

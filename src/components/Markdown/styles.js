@@ -3,9 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(theme => ({
   barf: {
-    marginLeft: -theme.overrides.MuiPaper.root.padding,
-    marginRight: -theme.overrides.MuiPaper.root.padding,
-    width: `calc(100% + ${theme.overrides.MuiPaper.root.padding * 2}px)`,
+    ...theme.mixins.barf(),
   },
   code: {
     borderColor: theme.palette.divider,

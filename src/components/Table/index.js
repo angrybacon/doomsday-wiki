@@ -9,9 +9,11 @@ import useStyles from './styles';
 export default function Table({ children, className, minimal, size }) {
   const classes = useStyles();
   return !!children && (
-    <MuiTableContainer className={c(classes.root, {[classes.minimal]: minimal}, className)}>
-      <MuiTable children={children} size={size} />
-    </MuiTableContainer>
+    <div className={c(classes.root, {[classes.minimal]: minimal}, className)}>
+      <MuiTableContainer>
+        <MuiTable children={children} size={size} />
+      </MuiTableContainer>
+    </div>
   );
 }
 

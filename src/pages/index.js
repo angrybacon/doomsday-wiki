@@ -1,6 +1,6 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
 import Articles from '../components/Articles';
+import Paper from '../components/Paper';
 import Welcome from '../components/Welcome';
 
 
