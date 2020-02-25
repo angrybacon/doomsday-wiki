@@ -28,6 +28,7 @@ export default function Markdown({ barf, className, source }) {
     heading: ({ children, level }) => (
       <Typography children={children} gutterBottom variant={`h${level + 2}`} />
     ),
+    image: rest => <img {...rest} className={classes.image} />,
     link: Prettylink,
     linkReference: Prettylink,
     table: ({ children }) => <Table children={children} className={c({[classes.barf]: barf})} />,
@@ -65,7 +66,7 @@ export default function Markdown({ barf, className, source }) {
 
   return (
     <Typography astPlugins={[parseHtml]}
-                className={c(classes.root, className)}
+                className={className}
                 escapeHtml={false}
                 renderers={renderers}
                 source={source}

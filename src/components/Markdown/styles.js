@@ -17,16 +17,15 @@ export default makeStyles(theme => ({
     marginBottom: '1em',
     marginTop: '1em',
   },
-  pile: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    '@global img': {
-      width: '19%',
-    },
+  image: {
+    maxWidth: '100%',
   },
-  root: {
+  pile: {
     '@global img': {
       borderRadius: '2%',
+      width: '19%',
     },
+    display: 'flex',
+    justifyContent: 'space-between',
   },
 }));
