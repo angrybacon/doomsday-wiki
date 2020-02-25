@@ -31,10 +31,10 @@ export default function Markdown({ barf, className, source }) {
     link: Prettylink,
     linkReference: Prettylink,
     table: ({ children }) => <Table children={children} className={c({[classes.barf]: barf})} />,
-    tableHead: ({ children }) => <TableHead children={children} />,
     tableBody: ({ children }) => <TableBody children={children} />,
-    tableRow: ({ children }) => <TableRow children={children} />,
     tableCell: ({ align, children }) => <TableCell {...{align: align || undefined, children}} />,
+    tableHead: ({ children }) => <TableHead children={children} />,
+    tableRow: ({ children }) => <TableRow children={children} />,
     thematicBreak: () => <Divider className={c(classes.divider, {[classes.barf]: barf})} />,
     /* eslint-enable react/display-name, react/prop-types */
   };
