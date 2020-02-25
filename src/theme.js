@@ -5,6 +5,7 @@ import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 
 const defaultTheme = createMuiTheme();
 const themeOptions = {
+
   mixins: {
     barf: (styles = {}) => ({
       marginLeft: -defaultTheme.spacing(3),
@@ -27,6 +28,21 @@ const themeOptions = {
     sidebar: {
       treshold: defaultTheme.breakpoints.down('sm'),
       width: 300,
+    },
+  },
+
+  overrides: {
+    MuiTableCell: {
+      head: {
+        lineHeight: 'inherit',
+      },
+    },
+    MuiTypography: {
+      gutterBottom: {
+        '&:not(:first-child)': {
+          marginTop: '.35em',
+        },
+      },
     },
   },
 };
