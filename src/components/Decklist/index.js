@@ -1,4 +1,5 @@
 import c from 'classnames';
+import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Divider from '@material-ui/core/Divider';
@@ -8,46 +9,50 @@ import Typography from '@material-ui/core/Typography';
 import useStyles from './styles';
 
 
-// This class gets a decklist name from its props, loads up all the decks from
-// the 'decklists' folder, and displays the one with the name it was given.
-
-
-export default function Decklist({ className, deckFile, hr }) {
+export default function Decklist({ className, hr, path }) {
 
   const classes = useStyles();
-  const { main = {}, name, side = {} } = require('../../../decklists/' + deckFile);
+  const { decks } = useStaticQuery(graphql`{
+    decks: allDeck {
+      edges {
+        node {
+          main
+          relativePath
+          side
+        }
+      }
+    }
+  }`);
+  const node = decks.edges.find(({ node }) => node.relativePath === path);
+  const { main, relativePath, side } = node && node.node || {main: [], side: []};
 
-  return (
+  const row = ([ amount, card], index) => (
+    <Typography children={`${amount} ${card}`} component="li" key={index} />
+  );
+
+  return (!!main.length || !!side.length) && (
     <div className={c(classes.root, className)}>
       {!!hr && <Divider />}
       <div className={classes.content}>
-        {name && <Typography children={name} paragraph variant="h5" />}
+        {relativePath && <Typography children={relativePath} gutterBottom variant="h5" />}
         <Grid container>
-          {!!Object.entries(main).length && (
+          {!!main.length && (
             <Grid item xs={12} sm={6} md={8}>
               <Typography children="Maindeck" gutterBottom variant="h6" />
-              <List disablePadding>
-                {Object.entries(main).map(([ card, amount ], index) => (
-                  <Typography children={`${amount} ${card}`} component="li" key={index} />
-                ))}
-              </List>
+              {main.map((it, index) => <List children={it.map(row)} disablePadding key={index} />)}
             </Grid>
           )}
-          {!!Object.entries(side).length && (
+          {!!side.length && (
             <Grid item xs={12} sm={6} md={4}>
               <Typography children="Sideboard" gutterBottom variant="h6" />
-              <List disablePadding>
-                {Object.entries(side).map(([ card, amount ], index) => (
-                  <Typography children={`${amount} ${card}`} component="li" key={index} />
-                ))}
-              </List>
+              {side.map((it, index) => <List children={it.map(row)} disablePadding key={index} />)}
             </Grid>
           )}
         </Grid>
       </div>
       {!!hr && <Divider />}
     </div>
-  );
+  ) || <pre children={`Deck: ${path}`} />;
 }
 
 
@@ -58,6 +63,6 @@ Decklist.propTypes = {
 
 Decklist.propTypes = {
   className: PropTypes.string,
-  deckFile: PropTypes.string.isRequired,
   hr: PropTypes.bool,
+  path: PropTypes.string.isRequired,
 };

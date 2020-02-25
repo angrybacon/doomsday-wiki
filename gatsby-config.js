@@ -2,6 +2,13 @@ module.exports = {
   plugins: [
     {
       options: {
+        name: 'decklists',
+        path: `${__dirname}/decklists/`,
+      },
+      resolve: 'gatsby-source-filesystem',
+    },
+    {
+      options: {
         name: 'markdown',
         path: `${__dirname}/markdown/`,
       },

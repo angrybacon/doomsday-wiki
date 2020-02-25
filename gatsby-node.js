@@ -2,6 +2,7 @@ const path = require('path');
 const dayjs = require('dayjs');
 const customParseFormat = require('dayjs/plugin/customParseFormat');
 const { createFilePath } = require('gatsby-source-filesystem');
+const deck = require('./src/tools/deck');
 const mana = require('./src/tools/mana');
 const scryfall = require('./src/tools/scryfall');
 
@@ -9,8 +10,15 @@ const scryfall = require('./src/tools/scryfall');
 dayjs.extend(customParseFormat);
 
 
-exports.onCreateNode = ({ actions, getNode, node }) => {
-  const { createNodeField } = actions;
+exports.onCreateNode = ({
+  actions,
+  createContentDigest,
+  createNodeId,
+  getNode,
+  loadNodeContent,
+  node,
+}) => {
+  const { createNode, createNodeField } = actions;
   if (node.internal.type === 'File') {
     const slug = createFilePath({getNode, node});
     createNodeField({name: 'slug', node, value: slug});
@@ -21,6 +29,17 @@ exports.onCreateNode = ({ actions, getNode, node }) => {
     const [ namespace, chapter ] = node.relativePath.split('/');
     if (namespace === 'chapters') {
       createNodeField({name: 'chapter', node, value: chapter});
+    }
+    if (node.sourceInstanceName === 'decklists') {
+      loadNodeContent(node).then(value => {
+        const data = deck.parse(node.relativePath, value);
+        createNode({
+          ...data,
+          id: createNodeId(node.id),
+          internal: {contentDigest: createContentDigest(data), type: 'Deck'},
+          relativePath: node.relativePath,
+        });
+      });
     }
   }
 };

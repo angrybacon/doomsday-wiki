@@ -1,0 +1,37 @@
+3 Doomsday
+4 Burning Wish
+1 Act On Impulse
+1 Laboratory Maniac
+4 Brainstorm
+4 Ponder
+4 Gitaxian Probe
+2 Preordain
+2 Conjurer's Bauble
+4 Dark Ritual
+4 Lotus Petal
+4 Lion's Eye Diamond
+4 Cabal Therapy
+3 Duress
+
+4 Polluted Delta
+3 Scalding Tarn
+2 Bloodstained Mire
+2 Underground Sea
+1 Volcanic Island
+1 Badlands
+2 Island
+1 Swamp
+
+Sideboard
+1 Doomsday
+1 Tendrils of Agony
+1 Empty the Warrens
+1 By Force
+1 Consign//Oblivion
+1 Infernal Contract
+1 Inquisition of Kozilek
+1 Massacre
+1 Telemin Performance
+2 Defense Grid
+2 Surgical Extraction
+2 Echoing Truth

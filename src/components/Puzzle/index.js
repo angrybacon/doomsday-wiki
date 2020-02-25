@@ -51,7 +51,7 @@ export default function Puzzle({ barf, component, data }) {
           <ExpansionPanelDetails classes={{root: c(classes.panelDetails, classes.deck)}}>
             <div>
               <Divider />
-              <Decklist deckFile={deckFile} hr={false} />
+              <Decklist hr={false} path={deckFile} />
             </div>
           </ExpansionPanelDetails>
         </ExpansionPanel>

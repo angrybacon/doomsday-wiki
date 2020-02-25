@@ -46,7 +46,7 @@ export default function Markdown({ barf, className, source }) {
       {
         processNode: node => React.createElement(Decklist, {
           className: classes.barf,
-          deckFile: node.attribs['deckfile'],
+          path: node.attribs['deckfile'],
         }),
         replaceChildren: true,
         shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],

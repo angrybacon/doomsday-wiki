@@ -23,7 +23,7 @@ lists looked a lot like ANT and played maybe a singleton Doomsday as an
 additional engine. The first list I started playing post-ban that felt
 functional looked like this:
 
-<div deckfile="2018.07.ddft.pif.json"></div>
+<div deckfile="2018/07/ddft.pif.txt"></div>
 
 It's essentially an ANT deck with a pair of Doomsdays jammed in and a couple
 cards to support them, namely Infernal Contract (which turned out to be great on
@@ -41,7 +41,7 @@ muscle through discard so Laboratory Maniac got the boot.
 The other deck list should be more familiar-looking to people who have played
 Doosmday in the past:
 
-<div deckfile="2018.07.ddft.bw.json"></div>
+<div deckfile="2018/07/ddft.bw.txt"></div>
 
 This is "traditional" list with a couple Street Wraith instead of Probes. Wraith
 probably isn't good enough to play the full 4 but having the free draw is
