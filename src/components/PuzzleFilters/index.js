@@ -23,15 +23,7 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
     onFilter(filters.reduce((accumulator, filter) => accumulator.filter(puzzle => {
       if (typeof filter === 'string') {
         const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
-        return Object.values(fields).some(field => {
-          if (typeof field === 'string') {
-            return field.indexOf(filter.toLowerCase()) > -1;
-          }
-          else if (Array.isArray(field)) {
-            return field.some(it => it.toLowerCase().includes(filter.toLowerCase()));
-          }
-          return false;
-        });
+        return should(filter, Object.values(fields));
       }
       const { key, value } = filter;
       return puzzle[key] && puzzle[key].indexOf(value) > -1;
@@ -49,6 +41,10 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
         <span children={text} className={c({[classes.highlight]: highlight})} key={index} />
       ))}
     </div>
+  );
+
+  const should = (input, fields) => (
+    fields.flat().join(' ').toLowerCase().indexOf(input.toLowerCase()) > -1
   );
 
   const options = Object.entries(
