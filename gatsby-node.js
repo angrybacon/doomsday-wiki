@@ -32,7 +32,7 @@ exports.onCreateNode = ({
     }
     if (node.sourceInstanceName === 'decklists') {
       loadNodeContent(node).then(value => {
-        const data = deck.parse(node.relativePath, value);
+        const data = deck.parse(value);
         createNode({
           ...data,
           id: createNodeId(node.id),
