@@ -29,16 +29,26 @@ export default function Puzzle({ barf, component, data }) {
     yourHand,
   } = data;
 
-  const prettify = value => (
-    <Box color={value ? 'inherit' : 'text.secondary'} display="flex" flexWrap="wrap">
-      {Array.isArray(value) ? (value.map((it, index, array) => (
-        <Box alignItems="center" display="flex" key={index}>
-          {it}
-          {index < array.length - 1 && <CircleSmallIcon size="1em" />}
-        </Box>
-      ))) : value || '-'}
-    </Box>
-  );
+  const prettify = value => {
+    value = value && (Array.isArray(value) ? value : [value]) || [];
+    return value.length ? (
+      <Box display="flex" flexWrap="wrap">
+        {value.map((it, index, array) => (
+          <Box alignItems="center" display="flex" key={index}>
+            {it}
+            {index < array.length - 1 && <CircleSmallIcon size="1em" />}
+          </Box>
+        ))}
+      </Box>
+    ) : '';
+  };
+
+  const rows = [
+    {label: "Opponent's Hand", text: prettify(oppHand)},
+    {label: "Opponent's Board", text: prettify(oppBoard)},
+    {label: 'Your Hand', text: prettify(yourHand)},
+    {label: 'Your Board', text: prettify(yourBoard)},
+  ].filter(it => it.text);
 
   return React.createElement(component, null, (
     <>
@@ -57,16 +67,16 @@ export default function Puzzle({ barf, component, data }) {
         </ExpansionPanel>
       </Box>
       {notes && <Typography children={notes} paragraph />}
-      <Typography container className={classes.situation} component={Grid}>
-        <Grid item xs={12} sm={4} md={3} children="Opponent's Hand" />
-        <Grid item xs={12} sm={8} md={9} children={prettify(oppHand)} />
-        <Grid item xs={12} sm={4} md={3} children="Opponent's Board" />
-        <Grid item xs={12} sm={8} md={9} children={prettify(oppBoard)} />
-        <Grid item xs={12} sm={4} md={3} children="Your Hand" />
-        <Grid item xs={12} sm={8} md={9} children={prettify(yourHand)} />
-        <Grid item xs={12} sm={4} md={3} children="Your Board" />
-        <Grid item xs={12} sm={8} md={9} children={prettify(yourBoard)} />
-      </Typography>
+      {!!rows.length && (
+        <Typography container className={classes.situation} component={Grid}>
+          {rows.map((it, index) => (
+            <React.Fragment key={index}>
+              <Grid item xs={12} sm={4} md={3} children={it.label} />
+              <Grid item xs={12} sm={8} md={9} children={it.text} />
+            </React.Fragment>
+          ))}
+        </Typography>
+      )}
       <Box className={c({[classes.barf]: barf})} mt={2}>
         <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
