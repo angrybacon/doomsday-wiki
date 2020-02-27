@@ -6,14 +6,14 @@ export default makeStyles(theme => ({
     ...theme.mixins.barf(),
   },
   deck: {
-    padding: 0,
     '& > *': {
       width: '100%',
     },
+    padding: 0,
   },
   panel: {
-    borderColor: theme.palette.divider,
     borderBottomStyle: 'solid',
+    borderColor: theme.palette.divider,
     borderTopStyle: 'solid',
     borderWidth: 1,
     padding: 0,
@@ -23,7 +23,6 @@ export default makeStyles(theme => ({
     display: 'block',
   },
   situation: {
-    alignItems: 'center',
     '& > *': {
       marginBottom: theme.spacing(1),
     },
@@ -39,5 +38,6 @@ export default makeStyles(theme => ({
         marginBottom: 0,
       },
     },
+    alignItems: 'center',
   },
 }));

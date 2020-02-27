@@ -29,7 +29,7 @@ export default function Puzzle({ barf, component, data }) {
     yourHand,
   } = data;
 
-  const prettify = value => {
+  const listify = value => {
     value = value && (Array.isArray(value) ? value : [value]) || [];
     return value.length ? (
       <Box display="flex" flexWrap="wrap">
@@ -44,10 +44,10 @@ export default function Puzzle({ barf, component, data }) {
   };
 
   const rows = [
-    {label: "Opponent's Hand", text: prettify(oppHand)},
-    {label: "Opponent's Board", text: prettify(oppBoard)},
-    {label: 'Your Hand', text: prettify(yourHand)},
-    {label: 'Your Board', text: prettify(yourBoard)},
+    {label: "Opponent's Hand", text: listify(oppHand)},
+    {label: "Opponent's Board", text: listify(oppBoard)},
+    {label: 'Your Hand', text: listify(yourHand)},
+    {label: 'Your Board', text: listify(yourBoard)},
   ].filter(it => it.text);
 
   return React.createElement(component, null, (
@@ -83,7 +83,7 @@ export default function Puzzle({ barf, component, data }) {
             <Typography children="Solution" />
           </ExpansionPanelSummary>
           <ExpansionPanelDetails classes={{root: classes.panelDetails}}>
-            <Typography children={prettify(solution)} component="div" paragraph />
+            <Typography children={listify(solution)} component="div" paragraph />
             <Typography children={solutionNotes} />
           </ExpansionPanelDetails>
         </ExpansionPanel>
