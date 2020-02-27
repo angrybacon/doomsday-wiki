@@ -11,6 +11,7 @@ import PuzzleFilters from '../components/PuzzleFilters';
 export default function PagePuzzles() {
 
   const [ items, setItems ] = useState([]);
+  const [ words, setWords ] = useState([]);
   const { introduction, puzzles } = useStaticQuery(graphql`{
     introduction: file(relativePath: {eq: "partials/puzzles.md"}) {
       childMarkdownRemark {
@@ -35,6 +36,11 @@ export default function PagePuzzles() {
   }`);
   const { frontmatter, rawMarkdownBody } = introduction.childMarkdownRemark;
 
+  const onFilter = newItems => {
+    setItems(newItems);
+    return newWords => setWords(newWords);
+  };
+
   useEffect(() => {
     if (puzzles.nodes.length) {
       setItems(puzzles.nodes);
@@ -46,9 +52,9 @@ export default function PagePuzzles() {
       <Paper>
         <Typography children={frontmatter.title} gutterBottom variant="h3" />
         <Markdown source={rawMarkdownBody} />
-        <Box children={<PuzzleFilters onFilter={setItems} puzzles={puzzles.nodes} />} mt={2} />
+        <Box children={<PuzzleFilters onFilter={onFilter} puzzles={puzzles.nodes} />} mt={2} />
       </Paper>
-      {items.map((it, index) => <Puzzle barf component={Paper} key={index} data={it} />)}
+      {items.map((it, index) => <Puzzle barf component={Paper} data={it} key={index} words={words} />)}
     </>
   );
 }

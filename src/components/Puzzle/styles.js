@@ -11,6 +11,10 @@ export default makeStyles(theme => ({
     },
     padding: 0,
   },
+  highlight: {
+    backgroundColor: 'inherit',
+    color: theme.palette.secondary.A100,
+  },
   panel: {
     borderBottomStyle: 'solid',
     borderColor: theme.palette.divider,

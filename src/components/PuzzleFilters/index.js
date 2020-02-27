@@ -20,14 +20,20 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
   );
 
   const onChange = (_, filters) => {
-    onFilter(filters.reduce((accumulator, filter) => accumulator.filter(puzzle => {
-      if (typeof filter === 'string') {
-        const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
-        return should(filter, Object.values(fields));
-      }
-      const { key, value } = filter;
-      return puzzle[key] && puzzle[key].indexOf(value) > -1;
-    }), puzzles));
+    const items = filters.reduce((accumulator, filter) => (
+      accumulator.filter(puzzle => {
+        if (typeof filter === 'string') {
+          const { deckFile, id, solution, solutionNotes, ...fields } = puzzle;
+          return should(filter, Object.values(fields));
+        }
+        const { key, value } = filter;
+        return puzzle[key] && puzzle[key].indexOf(value) > -1;
+      })
+    ), puzzles);
+    const words = filters.reduce((accumulator, filter) => (
+      [...accumulator, (typeof filter === 'string' ? filter : filter.value).toLowerCase()]
+    ), []).filter(it => it);
+    onFilter(items)(words);
   };
 
   const renderInput = properties => (
