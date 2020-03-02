@@ -65,7 +65,7 @@ export default function Puzzle({ barf, component, data, words }) {
       <Box className={c({[classes.barf]: barf})} my={2}>
         <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="See Decklist" />
+            <Typography children="Decklist" />
           </ExpansionPanelSummary>
           <ExpansionPanelDetails classes={{root: c(classes.panelDetails, classes.deck)}}>
             <div>
