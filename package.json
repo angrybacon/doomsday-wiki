@@ -18,12 +18,21 @@
     "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-yaml": "^2.2.23",
     "mana-font": "^1.4.1",
-    "mdi-react": "^5.6.0",
+    "mdi-react": "^6.7.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-highlight-words": "^0.16.0",
     "react-markdown": "^4.3.1"
+  },
+  "devDependencies": {
+    "commitlint": "^8.3.5",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-sort-destructure-keys": "^1.3.3",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.7"
   },
   "scripts": {
     "build": "gatsby build",
@@ -31,13 +40,5 @@
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "start:exposed": "gatsby develop -H 0.0.0.0"
-  },
-  "devDependencies": {
-    "commitlint": "^8.3.5",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-react-hooks": "^2.4.0",
-    "eslint-plugin-sort-destructure-keys": "^1.3.3",
-    "husky": "^4.2.1",
-    "lint-staged": "^10.0.7"
   }
 }
