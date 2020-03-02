@@ -130,7 +130,7 @@ alongside Act on Impulse to enable an easy non-Frenzy pile.
 
 <pile>{{!AoI}} {{!LED}} {{!ToA}} {{!Pn}} {{!CB}}</pile>
 
-Some other cards come in to help with combo and consistency. Lim Dul's Vault is
+Some other cards come in to help with combo and consistency. Lim DÃ»l's Vault is
 a classic UB card that has been used as a Vampiric Tutor for awhile and is often
 dismissed due to the card disadvantage it provides. However consider with Frenzy
 out. Suddenly you get to either tutor what you need to play immediately or even
