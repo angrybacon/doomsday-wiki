@@ -19,7 +19,7 @@ competitve that I wouldn't be completely embarassed to write a primer.
 I've added abbreviations for some card names, which will come in handy later
 when notating Doomsday piles and such.
 
-<div deckfile="2018/12/ddft.txt"></div>
+<div deckfile="2018/12/ddft.txt" />
 
 ## The Part Where I Predict Some of Your Questions About the List
 

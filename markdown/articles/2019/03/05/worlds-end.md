@@ -34,7 +34,7 @@ a 1/1 Faerie Cloud... Wow.
 For anyone mad enough to try the very untuned and fun list I dub it *Spaghetti
 and Meatballs*.
 
-<div deckfile="2019/03/spaghetti.txt"></div>
+<div deckfile="2019/03/spaghetti.txt" />
 
 Anyways I digress. Jumping to ahead a bit, when {{Experimental Frenzy}} was
 spoiled everyone had a think about it but most people just went "hmm, probs not
@@ -145,7 +145,7 @@ Protection comes in the form of 4 TS, 2-4 Duress and 0-1 Collective Brutality.
 
 Taking this into account lists are starting to look similar to the following:
 
-<div deckfile="2019/03/ddeft.txt"></div>
+<div deckfile="2019/03/ddeft.txt" />
 
 This has a lot of flex still available and, even as I type this, people are
 offering to fight me over running only three Frenzy and not four. I like three

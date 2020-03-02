@@ -16,7 +16,7 @@ Bizkit songs and "What's New, Pussycat" as sung by Tom Jones and Engelbert
 Humperdinck and arrive at the venue feeling refreshed and ready for 9 grueling
 rounds of magic. I scribble out this decklist:
 
-<div deckfile="2018/03/ddft.burg.txt"></div>
+<div deckfile="2018/03/ddft.burg.txt" />
 
 And the hellride begins in earnest. This is all from sketchy notes and memory,
 so bear with it.
@@ -298,7 +298,7 @@ never use and get a foil Lab Maniac and a foil Empty the Warrens. Then I
 scribble out my decklist for the legacy Classic. I decided to drop the green
 splash this time, to compare the two versions.
 
-<div deckfile="2018/03/ddft.bur.txt"></div>
+<div deckfile="2018/03/ddft.bur.txt" />
 
 I almost fall asleep at my table for the players meeting. I drink half an energy
 drink, and sit down for the first round of the Classic.
