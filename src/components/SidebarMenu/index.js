@@ -17,83 +17,52 @@ export default function SidebarMenu() {
 
   const toggleCollapse = key => () => setCollapses(previous => ({...previous, [key]: !previous[key]}));
 
-  const { appendices, chapters } = useStaticQuery(graphql`{
-    appendices: allFile(
-      filter: {relativePath: {glob: "appendices/**/*"}},
-      sort: {fields: fields___slug}
-    ) {
-      edges {
-        node {
-          childMarkdownRemark {frontmatter {title}}
-          fields {slug}
-        }
-      }
-    }
+  const chapters = useStaticQuery(graphql`{
     chapters: allFile(
-      filter: {relativePath: {glob: "chapters/**/*"}},
+      filter: {sourceInstanceName: {glob: "(appendices|chapters)"}},
       sort: {fields: fields___slug}
     ) {
       group(field: fields___chapter) {
-        edges {
-          node {
-            childMarkdownRemark {frontmatter {title}}
-            fields {slug}
-          }
+        nodes {
+          childMarkdownRemark {frontmatter {title}}
+          fields {slug}
         }
         fieldValue
       }
     }
-  }`);
+  }`).chapters.group.sort((a, b) => (
+    (menu[a.fieldValue] || {}).order - (menu[b.fieldValue] || {}).order
+  ));
 
   return (
     <List component="nav" disablePadding>
-
-      {chapters.group.map(({ edges, fieldValue }, index) => (
-        <React.Fragment key={index}>
-          <ListItem button onClick={toggleCollapse(fieldValue)}>
-            <ListItemIcon children={menu[fieldValue].icon} />
-            <ListItemText primary={`Chapter ${fieldValue}`} secondary={menu[fieldValue].subheader}/>
-          </ListItem>
-          <Collapse in={collapses[fieldValue]} timeout="auto">
-            <Divider />
-            <List>
-              {edges.map(({ node }, index) => (
-                <ListItem activeClassName={classes.active}
-                          button
-                          component={Link}
-                          dense
-                          key={index}
-                          to={node.fields.slug}>
-                  <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
-                </ListItem>
-              ))}
-            </List>
-            <Divider />
-          </Collapse>
-        </React.Fragment>
-      ))}
-
-      <ListItem button onClick={toggleCollapse('appendices')}>
-        <ListItemIcon children={menu.appendices.icon} />
-        <ListItemText primary="Postamble" secondary={menu.appendices.subheader} />
-      </ListItem>
-      <Collapse in={collapses.appendices} timeout="auto">
-        <Divider />
-        <List>
-          {appendices.edges.map(({ node }, index) => (
-            <ListItem activeClassName={classes.active}
-                      button
-                      component={Link}
-                      dense
-                      key={index}
-                      to={node.fields.slug}>
-              <ListItemText primary={node.childMarkdownRemark.frontmatter.title} />
+      {chapters.map(({ fieldValue, nodes }, index) => {
+        const { icon, subtitle, title } = menu[fieldValue] || {};
+        return (
+          <React.Fragment key={index}>
+            <ListItem button onClick={toggleCollapse(fieldValue)}>
+              {!!icon && <ListItemIcon children={icon} />}
+              <ListItemText primary={title || `Chapter ${fieldValue}`} secondary={subtitle} />
             </ListItem>
-          ))}
-        </List>
-        <Divider />
-      </Collapse>
-
+            <Collapse in={collapses[fieldValue]} timeout="auto">
+              <Divider />
+              <List>
+                {nodes.map(({ childMarkdownRemark, fields }, index) => (
+                  <ListItem activeClassName={classes.active}
+                            button
+                            component={Link}
+                            dense
+                            key={index}
+                            to={fields.slug}>
+                    <ListItemText primary={childMarkdownRemark.frontmatter.title} />
+                  </ListItem>
+                ))}
+              </List>
+              <Divider />
+            </Collapse>
+          </React.Fragment>
+        );
+      })}
       <ListItem button component={Link} to="/puzzles/">
         {!!menu.puzzles.icon && <ListItemIcon children={menu.puzzles.icon} />}
         <ListItemText primary={menu.puzzles.title || 'Puzzles'} secondary={menu.puzzles.subtitle} />

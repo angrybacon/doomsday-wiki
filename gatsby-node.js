@@ -10,6 +10,31 @@ const scryfall = require('./src/tools/scryfall');
 dayjs.extend(customParseFormat);
 
 
+const makeChapter = ({ createNodeField, node }) => {
+  let value = null;
+  if (node.sourceInstanceName === 'appendices') {
+    value = 'appendices';
+  }
+  else if (node.sourceInstanceName === 'chapters') {
+    value = node.relativeDirectory.split('/')[0] || '0';
+  }
+  createNodeField({name: 'chapter', node, value});
+};
+
+
+const makeDate = ({ createNodeField, node }) => {
+  const date = dayjs(node.relativeDirectory, 'YYYY/MM/DD');
+  const value = date.isValid() ? date.format('YYYY-MM-DD') : null;
+  createNodeField({name: 'date', node, value});
+};
+
+
+const makeSlug = ({ createNodeField, getNode, node }) => {
+  const value = createFilePath({getNode, node});
+  createNodeField({name: 'slug', node, value});
+};
+
+
 exports.onCreateNode = ({
   actions,
   createContentDigest,
@@ -20,16 +45,9 @@ exports.onCreateNode = ({
 }) => {
   const { createNode, createNodeField } = actions;
   if (node.internal.type === 'File') {
-    const slug = createFilePath({getNode, node});
-    createNodeField({name: 'slug', node, value: slug});
-    const date = dayjs(node.relativeDirectory, '[articles]/YYYY/MM/DD');
-    if (date.isValid()) {
-      createNodeField({name: 'date', node, value: date.format('YYYY-MM-DD')});
-    }
-    const [ namespace, chapter ] = node.relativePath.split('/');
-    if (namespace === 'chapters') {
-      createNodeField({name: 'chapter', node, value: chapter});
-    }
+    makeChapter({createNodeField, node});
+    makeDate({createNodeField, node});
+    makeSlug({createNodeField, getNode, node});
     if (node.sourceInstanceName === 'decklists') {
       loadNodeContent(node).then(value => {
         const data = deck.parse(value);
@@ -51,8 +69,7 @@ exports.createPages = ({ actions, graphql }) => {
   const query = graphql(`{
     allFile(filter: {
       extension: {eq: "md"},
-      relativePath: {glob: "(appendices|articles|chapters)/**/*"}
-      sourceInstanceName: {eq: "markdown"}
+      sourceInstanceName: {glob: "(appendices|articles|chapters)"}
     }) {
       edges {
         node {

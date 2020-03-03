@@ -4,8 +4,6 @@ title: Conjurer's Bauble Piles
 
 Historically {{Sensei's Divining Top}} held a place as a standard 4-of in the
 deck to act as deck filtering and a *free saved* card draw for Doomsday piles.
-More information on how this was used can be found in the [Doomsday
-Library][doomsday-library].
 
 After Top was banned, {{Conjurer's Bauble}} was identified as the closest
 equivalent for use in Doomsday Storm or Laboratory Maniac piles that would allow
@@ -290,13 +288,9 @@ Pyroblast effects.
 5. Be mindful of targeted graveyard hate if exposing your cards to the graveyard
    when using CB
 
-Hopefully this will allow a greater understanding of how to play through more of
-the piles that make up the [Doomsday Pile Document][piles].
 Remember as with anything it is better to learn the concepts presented here more
 so than to try and rote-learn piles and of course, practice makes perfect.
 
 [basics]: /chapters/1/basics/
-[doomsday-library]: https://github.com/Bennotsi-MTG/Doomsday-Library
 [pass-the-turn]: /chapters/2/pass-the-turn/
-[piles]: /appendices/piles/
 [uncommon-piles]: /chapters/2/uncommon-piles/

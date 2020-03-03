@@ -1,15 +1,15 @@
-import AlertOctagonIcon from 'mdi-react/AlertOctagonIcon';
-import BabyIcon from 'mdi-react/BabyIcon';
+import EyeOutlineIcon from 'mdi-react/EyeOutlineIcon';
 import FileOutlineIcon from 'mdi-react/FileOutlineIcon';
+import FlashIcon from 'mdi-react/FlashIcon';
+import FlaskOutlineIcon from 'mdi-react/FlaskOutlineIcon';
 import PuzzleIcon from 'mdi-react/PuzzleIcon';
-import TargetIcon from 'mdi-react/TargetIcon';
 import React from 'react';
 
 
 export default {
-  1: {icon: <BabyIcon />, subheader: 'The Fundamentals'},
-  2: {icon: <TargetIcon />, subheader: 'Supplementary Techniques'},
-  3: {icon: <AlertOctagonIcon />, subheader: 'Limitations'},
   appendices: {icon: <FileOutlineIcon />, order: 4, subtitle: 'Other Resources', title: 'Appendices'},
+  ddeft: {icon: <FlaskOutlineIcon />, order: 1, subtitle: 'Experimental Frenzy', title: 'DDEFT'},
+  ddft: {icon: <FlashIcon />, order: 0, subtitle: 'Doomsday Fetchland Tendrils', title: 'DDFT'},
+  meandeck: {icon: <EyeOutlineIcon />, order: 2, subtitle: 'Oracle Something', title: 'Meandeck'},
   puzzles: {icon: <PuzzleIcon />, subtitle: 'Challenge Yourself', title: 'Puzzles'},
 };

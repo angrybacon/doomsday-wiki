@@ -1,6 +1,18 @@
 module.exports = {
   plugins: [
     {
+      options: {name: 'appendices', path: `${__dirname}/markdown/appendices/`},
+      resolve: 'gatsby-source-filesystem',
+    },
+    {
+      options: {name: 'articles', path: `${__dirname}/markdown/articles/`},
+      resolve: 'gatsby-source-filesystem',
+    },
+    {
+      options: {name: 'chapters', path: `${__dirname}/markdown/chapters/`},
+      resolve: 'gatsby-source-filesystem',
+    },
+    {
       options: {name: 'markdown', path: `${__dirname}/markdown/`},
       resolve: 'gatsby-source-filesystem',
     },

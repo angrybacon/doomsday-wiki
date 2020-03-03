@@ -9,7 +9,7 @@ import Prettylink from '../Prettylink';
 export default function Articles() {
   const { articles } = useStaticQuery(graphql`{
     articles: allFile(
-      filter: {relativeDirectory: {glob: "articles/**/*"}},
+      filter: {sourceInstanceName: {eq: "articles"}},
       sort: {fields: fields___slug, order: ASC}
     ) {
       nodes {

@@ -167,8 +167,7 @@ types of disruption.
 
 ## Get Started
 
-You now have sufficient information to start practicing! Just take a [proven
-decklist][decklists] and start goldfishing trying to figure out what piles to
-build and how to execute them.
+You now have sufficient information to start practicing! Start goldfishing and
+try to figuring out what piles to build and how to execute them.
 
-[decklists]: /appendices/decklists/
+<div deckfile="ddeft.txt" />
