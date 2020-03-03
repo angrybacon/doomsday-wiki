@@ -1,24 +1,15 @@
 module.exports = {
   plugins: [
     {
-      options: {
-        name: 'decklists',
-        path: `${__dirname}/decklists/`,
-      },
+      options: {name: 'markdown', path: `${__dirname}/markdown/`},
       resolve: 'gatsby-source-filesystem',
     },
     {
-      options: {
-        name: 'markdown',
-        path: `${__dirname}/markdown/`,
-      },
+      options: {name: 'decklists', path: `${__dirname}/decklists/`},
       resolve: 'gatsby-source-filesystem',
     },
     {
-      options: {
-        name: 'puzzles',
-        path: `${__dirname}/puzzles/`,
-      },
+      options: {name: 'puzzles', path: `${__dirname}/puzzles/`},
       resolve: 'gatsby-source-filesystem',
     },
     'gatsby-plugin-material-ui',
@@ -28,7 +19,7 @@ module.exports = {
     'gatsby-transformer-yaml',
   ],
   siteMetadata: {
-    title: 'Doomsday Wiki',
     description: 'Some description.',
+    title: 'Doomsday Wiki',
   },
 };

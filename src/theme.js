@@ -32,11 +32,6 @@ const themeOptions = {
   },
 
   overrides: {
-    MuiTableCell: {
-      head: {
-        lineHeight: 'inherit',
-      },
-    },
     MuiTypography: {
       gutterBottom: {
         '&:not(:first-child)': {

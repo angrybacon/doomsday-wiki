@@ -21,4 +21,4 @@ title: Other Doomsday Resources
 ## Videos
 
 - [d8dk32 Top 8 (Legacy Titanium Series 1K Challenge - August 2017)]
-  (https://www.youtube.com/watch?v=VmmR_3pG0Rs&feature=youtu.be&t=38m3s)
+  (https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)

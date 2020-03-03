@@ -95,8 +95,8 @@ export default function SidebarMenu() {
       </Collapse>
 
       <ListItem button component={Link} to="/puzzles/">
-        <ListItemIcon children={menu.puzzles.icon} />
-        <ListItemText primary="Puzzles" secondary="Challenge Yourself" />
+        {!!menu.puzzles.icon && <ListItemIcon children={menu.puzzles.icon} />}
+        <ListItemText primary={menu.puzzles.title || 'Puzzles'} secondary={menu.puzzles.subtitle} />
       </ListItem>
     </List>
   );

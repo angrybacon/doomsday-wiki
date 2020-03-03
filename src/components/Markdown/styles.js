@@ -22,7 +22,7 @@ export default makeStyles(theme => ({
   },
   pile: {
     '@global img': {
-      borderRadius: '2%',
+      borderRadius: theme.shape.borderRadius,
       width: '19%',
     },
     display: 'flex',
