@@ -11,6 +11,7 @@ import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import Collapsible from '../Collapsible';
 import Decklist from '../Decklist';
 import useStyles from './styles';
 
@@ -93,15 +94,10 @@ export default function Puzzle({ barf, component, data, words }) {
         </Typography>
       )}
       <Box className={c({[classes.barf]: barf})} mt={2}>
-        <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
-          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="Solution" />
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails classes={{root: classes.panelDetails}}>
-            <Typography children={listify(solution)} component="div" paragraph />
-            <Typography children={solutionNotes} />
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
+        <Collapsible title="Solution">
+          <Typography children={listify(solution)} component="div" paragraph />
+          <Typography children={solutionNotes} />
+        </Collapsible>
       </Box>
     </>
   ));

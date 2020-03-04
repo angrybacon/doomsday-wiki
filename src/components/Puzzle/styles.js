@@ -5,26 +5,9 @@ export default makeStyles(theme => ({
   barf: {
     ...theme.mixins.barf(),
   },
-  deck: {
-    '& > *': {
-      width: '100%',
-    },
-    padding: 0,
-  },
   highlight: {
     backgroundColor: 'inherit',
     color: theme.palette.secondary.A100,
-  },
-  panel: {
-    borderBottomStyle: 'solid',
-    borderColor: theme.palette.divider,
-    borderTopStyle: 'solid',
-    borderWidth: 1,
-    padding: 0,
-    position: 'inherit',
-  },
-  panelDetails: {
-    display: 'block',
   },
   situation: {
     '& > *': {
