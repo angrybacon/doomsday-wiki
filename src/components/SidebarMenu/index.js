@@ -20,7 +20,7 @@ export default function SidebarMenu() {
   const chapters = useStaticQuery(graphql`{
     chapters: allFile(
       filter: {sourceInstanceName: {glob: "(appendices|chapters)"}},
-      sort: {fields: fields___slug}
+      sort: {fields: childMarkdownRemark___frontmatter___order, order: ASC}
     ) {
       group(field: fields___chapter) {
         nodes {
@@ -30,9 +30,7 @@ export default function SidebarMenu() {
         fieldValue
       }
     }
-  }`).chapters.group.sort((a, b) => (
-    (menu[a.fieldValue] || {}).order - (menu[b.fieldValue] || {}).order
-  ));
+  }`).chapters.group.sort((a, b) => (menu[a.fieldValue] || {}).order - (menu[b.fieldValue] || {}).order);
 
   return (
     <List component="nav" disablePadding>

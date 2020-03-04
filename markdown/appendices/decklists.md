@@ -1,4 +1,5 @@
 ---
+order: 0
 title: Decklist Compendium
 ---
 
