@@ -1,14 +1,9 @@
 import c from 'classnames';
-import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import CircleSmallIcon from 'mdi-react/CircleSmallIcon';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Highlighter from 'react-highlight-words';
 import Box from '@material-ui/core/Box';
-import Divider from '@material-ui/core/Divider';
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Collapsible from '../Collapsible';
@@ -64,17 +59,7 @@ export default function Puzzle({ barf, component, data, words }) {
                      textToHighlight={title} />
       </Typography>
       <Box className={c({[classes.barf]: barf})} my={2}>
-        <ExpansionPanel classes={{root: classes.panel}} elevation={0} square>
-          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children="Decklist" />
-          </ExpansionPanelSummary>
-          <ExpansionPanelDetails classes={{root: c(classes.panelDetails, classes.deck)}}>
-            <div>
-              <Divider />
-              <Decklist hr={false} path={deckFile} />
-            </div>
-          </ExpansionPanelDetails>
-        </ExpansionPanel>
+        <Decklist collapsible path={deckFile} />
       </Box>
       {notes && (
         <Typography paragraph>

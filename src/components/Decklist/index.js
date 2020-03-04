@@ -1,15 +1,14 @@
-import c from 'classnames';
 import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Divider from '@material-ui/core/Divider';
 import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
+import Collapsible from '../Collapsible';
 import useStyles from './styles';
 
 
-export default function Decklist({ className, hr, path }) {
+export default function Decklist({ collapsible, path, ...rest }) {
 
   const classes = useStyles();
   const { decks } = useStaticQuery(graphql`{
@@ -24,17 +23,18 @@ export default function Decklist({ className, hr, path }) {
     }
   }`);
   const node = decks.edges.find(({ node }) => node.relativePath === path);
-  const { main, relativePath, side } = node && node.node || {main: [], side: []};
+  const { main, side } = node && node.node || {main: [], side: []};
 
   const row = ([ amount, card], index) => (
     <Typography children={`${amount} ${card}`} component="li" key={index} />
   );
 
-  return (!!main.length || !!side.length) && (
-    <div className={c(classes.root, className)}>
-      {!!hr && <Divider />}
+  const wrapper = collapsible ? Collapsible : 'div';
+  const title = <>Decklist: <Typography children={path} color="textSecondary" component="span" /></>;
+  const deck = (!!main.length || !!side.length) && (
+    <div className={classes.root}>
       <div className={classes.content}>
-        {relativePath && <Typography children={relativePath} gutterBottom variant="h5" />}
+        {!collapsible && path && <Typography children={path} gutterBottom variant="h5" />}
         <Grid container>
           {!!main.length && (
             <Grid item xs={12} sm={6} md={8}>
@@ -50,19 +50,15 @@ export default function Decklist({ className, hr, path }) {
           )}
         </Grid>
       </div>
-      {!!hr && <Divider />}
     </div>
-  ) || <pre children={`Deck: ${path}`} />;
+  );
+
+  return React.createElement(wrapper, {...(collapsible && {title, zoom: true}), ...rest}, deck);
 }
 
 
 Decklist.propTypes = {
-  hr: true,
-};
-
-
-Decklist.propTypes = {
   className: PropTypes.string,
-  hr: PropTypes.bool,
+  collapsible: PropTypes.bool,
   path: PropTypes.string.isRequired,
 };

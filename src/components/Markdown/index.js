@@ -46,7 +46,8 @@ export default function Markdown({ barf, className, source }) {
       /* eslint-disable react/display-name */
       {
         processNode: node => React.createElement(Decklist, {
-          className: classes.barf,
+          barf,
+          collapsible: true,
           path: node.attribs['deckfile'],
         }),
         replaceChildren: true,
