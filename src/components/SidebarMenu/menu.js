@@ -10,6 +10,6 @@ export default {
   appendices: {icon: <FileOutlineIcon />, order: 4, subtitle: 'Other Resources', title: 'Appendices'},
   ddeft: {icon: <FlaskOutlineIcon />, order: 1, subtitle: 'Experimental Frenzy', title: 'DDEFT'},
   ddft: {icon: <FlashIcon />, order: 0, subtitle: 'Doomsday Fetchland Tendrils', title: 'DDFT'},
-  meandeck: {icon: <EyeOutlineIcon />, order: 2, subtitle: 'Oracle Something', title: 'Meandeck'},
+  meandeck: {icon: <EyeOutlineIcon />, order: 2, subtitle: "Thassa's Oracle", title: 'Meandeck'},
   puzzles: {icon: <PuzzleIcon />, subtitle: 'Challenge Yourself', title: 'Puzzles'},
 };
