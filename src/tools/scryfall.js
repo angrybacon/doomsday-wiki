@@ -33,6 +33,7 @@ const CARDS = {
   RoF:   ['Rain of Filth',            'USG'],
   SI:    ['Shelldock Isle',           'LRW'],
   SW:    ['Street Wraith',            'FUT'],
+  TO:    ["Thassa's Oracle",          'THB'],
   TW:    ['Three Wishes',             'VIS'],
   ToA:   ['Tendrils of Agony',        'SCG'],
   Veil:  ['Veil of Summer',           'M20'],
