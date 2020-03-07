@@ -28,6 +28,7 @@ const CARDS = {
   LM:    ['Laboratory Maniac',        'ISD'],
   LP:    ['Lotus Petal',              'TMP'],
   NC:    ["Nature's Claim",           'WWK'],
+  Pd:    ['Predict',                  'ODY'],
   Pn:    ['Ponder',                   'LRW'],
   Pre:   ['Preordain',                'M11'],
   RoF:   ['Rain of Filth',            'USG'],
