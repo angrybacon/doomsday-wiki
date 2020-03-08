@@ -15,14 +15,14 @@ and tutoring ability is effectively combined with EF's play-off-the-top clause
 to allow for iterate-able wins requiring no draw spells to *crack* into the
 pile.
 
-Once an Experimental Frenzy is on board, a resolved Doomsdays allows for a quick
+Once an Experimental Frenzy is on board, a resolved Doomsday allows for a quick
 pile with innate durability.
 
 <pile>{{!LED}} {{!LED}} {{!LED}} {{!TO}} {{!DD}}</pile>
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</pile>
+<pile>{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</pile>
 
 Both of these generate enough mana in pile to recast Doomsday and restart the
-loop, with the CoBru pile being iterated as many times as possible.
+loop, with the ToA pile being iterated as many times as necessary.
 
 *More content coming soon*
