@@ -22,6 +22,7 @@ export default makeStyles(theme => ({
   },
   pile: {
     '@global img': {
+      alignSelf: 'center',
       borderRadius: theme.shape.borderRadius,
       width: '19%',
     },
