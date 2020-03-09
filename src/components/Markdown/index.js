@@ -59,7 +59,7 @@ export default function Markdown({ barf, className, source }) {
       },
       {
         processNode: () => React.createElement('span', {className: classes.pile}),
-        shouldProcessNode: node => node.name === 'pile',
+        shouldProcessNode: ({ name }) => name === 'pile',
       },
       /* eslint-enable react/display-name */
     ]
