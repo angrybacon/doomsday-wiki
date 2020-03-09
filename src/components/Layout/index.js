@@ -29,7 +29,7 @@ export default function Layout({ children }) {
             </Grid>
             <Grid item className={classes.footer}>
               <Typography align="center" color="textSecondary" component="footer">
-                Copyright &copy; 2019&nbsp;
+                Copyright &copy; 2020&nbsp;
                 <Prettylink children="ddft.wiki contributors" href="/authors/" />
               </Typography>
             </Grid>
