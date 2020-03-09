@@ -63,3 +63,10 @@ cards in your pile.
 > Ponder, LED in hand - {{BBB}} + {{U}}
 
 <pile>{{!Pd}} {{!Pn}} {{!SW}} {{!LP}} {{!TO}}</pile>
+
+## Get Started
+
+If you want to discover a bit by yourself before diving into more detailed
+chapters, try a couple goldfish games with the following proven list.
+
+<div deckfile="meandeck.txt" />

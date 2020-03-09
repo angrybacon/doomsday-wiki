@@ -1,5 +1,6 @@
 ---
 authors: angrybacon
+order: 10
 title: Brainstorm
 ---
 
@@ -11,7 +12,7 @@ With limited initial resources, if stranded on mana against Wasteland or
 opposing Rishadan Port activations you can still combo out with only a
 Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 
-## Brainstorm Mana Available
+## Brainstorm Available
 
 > BS, X in hand - {{BBB}} + {{U}}
 
@@ -22,7 +23,7 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 1. Target yourself with Predict naming X and drawing the rest of the pile
 1. The Lotus Petal gives you a second {{U}} to cast TO with an empty library
 
-## Free cycler Available
+## Free Cycler Available
 
 The pile is similar, but you don't have a spare {{U}} this time to cast the
 Brainstorm. You can get it with any free cycler by placing a Lotus Petal in
@@ -39,3 +40,5 @@ afford the land drop this turn.
 1. Ponder for TO
 1. Cast TO with the remaining mana from LED with 1 card left in your library
 
+However that pile leaves you vulnerable to removal your opponent might play in
+response to TO's trigger.

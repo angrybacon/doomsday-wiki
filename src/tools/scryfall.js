@@ -35,8 +35,10 @@ const CARDS = {
   SI:    ['Shelldock Isle',           'LRW'],
   SW:    ['Street Wraith',            'FUT'],
   TO:    ["Thassa's Oracle",          'THB'],
+  TS:    ['Thoughtseize',             'LRW'],
   TW:    ['Three Wishes',             'VIS'],
   ToA:   ['Tendrils of Agony',        'SCG'],
+  Un:    ['Unearth',                  'ULG'],
   Veil:  ['Veil of Summer',           'M20'],
   WT:    ['Wishclaw Talisman',        'ELD'],
 };

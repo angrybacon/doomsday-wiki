@@ -12,10 +12,17 @@ new printings.
 
 ## Current Decklists
 
-This is the most "proven modern Doomsday deck. Multiple 5-0's and 1K top8's, as
-well as a MTGO Challenge top8's to its name. It is also moderately easier to
-play than lists of the past. This is probably the best place to start for
-beginners.
+Since the printing of {{Thassa's Oracle}}, an old friend resurged from the dead:
+Meandeck Doomsday. The list plays a more reactive role in most matchups and
+focuses on building resources before going off. Since TO is so compact and cheap
+compared to its predecessors, it can still allow for quick win with an actual
+long game plan.
+
+<div deckfile="meandeck.txt" />
+
+Multiple 5-0's and 1K top 8's, as well as a MTGO Challenge top8's to its name.
+This is a proven list based around Experimental Frenzy that is also moderately
+easier to play than lists of the past.
 
 <div deckfile="ddeft.txt" />
 
