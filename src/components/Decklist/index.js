@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Box from '@material-ui/core/Box';
 import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Collapsible from '../Collapsible';
@@ -35,20 +35,24 @@ export default function Decklist({ collapsible, path, ...rest }) {
     <div className={classes.root}>
       <div className={classes.content}>
         {!collapsible && path && <Typography children={path} gutterBottom variant="h5" />}
-        <Grid container>
+        <Box display="flex" justifyContent="space-between" flexWrap="wrap">
           {!!main.length && (
-            <Grid item xs={12} sm={6} md={8}>
+            <Box my={1}>
               <Typography children="Maindeck" gutterBottom variant="h6" />
-              {main.map((it, index) => <List children={it.map(row)} disablePadding key={index} />)}
-            </Grid>
+              <Box display="flex" mx={-2}>
+                {main.map((it, index) => (
+                  <Box children={<List children={it.map(row)} disablePadding />} key={index} mx={2} />
+                ))}
+              </Box>
+            </Box>
           )}
           {!!side.length && (
-            <Grid item xs={12} sm={6} md={4}>
+            <Box my={1}>
               <Typography children="Sideboard" gutterBottom variant="h6" />
               {side.map((it, index) => <List children={it.map(row)} disablePadding key={index} />)}
-            </Grid>
+            </Box>
           )}
-        </Grid>
+        </Box>
       </div>
     </div>
   );
