@@ -12,6 +12,8 @@ title: Other Doomsday Resources
   [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)
 - Erik *Hulahula* Clauss:
   [YouTube](https://www.youtube.com/channel/UC8jP7pO-rpfhn0_Bg7CIp2w)
+- Ethan *monkeyscantcry* Formicella:
+  [Twitch](https://www.twitch.tv/monkeyscantcry)
 
 ## Podcasts
 
@@ -20,5 +22,7 @@ title: Other Doomsday Resources
 
 ## Videos
 
-- [d8dk32 Top 8 (Legacy Titanium Series 1K Challenge - August 2017)]
+- [Anuraag Das's VOD featuring monkeyscantcry (march 2020)]
+  (https://www.twitch.tv/videos/565641017)
+- [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (august 2017)]
   (https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
