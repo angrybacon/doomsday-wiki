@@ -1,19 +1,14 @@
 #+TITLE: DDFT Wiki
 #+AUTHOR: Mathieu Marques
 
-** Installation
-
-#+BEGIN_SRC sh
-npm install
-npm start
-#+END_SRC
-
 ** Deployment
 
 These 2 branches are automatically deployed upon commit.
 
-- =:master= deploys to https://master\--ddftwiki.netlify.com
+- =:master= deploys to [[https://master--ddftwiki.netlify.com][https://master\--ddftwiki.netlify.com]]
 - =:production= deploys to https://ddftwiki.netlify.com
+
+A DNS alias for the production address points to https://ddft.wiki.
 
 ** Contributing with Content
 
@@ -35,10 +30,19 @@ URLs follow the file paths. Follow existing conventions.
 
 ** Contributing with Code
 
-The React code is located under =src/=.
+*** Installation
+
+#+BEGIN_SRC sh
+npm install
+npm start
+#+END_SRC
 
 Install some kind of ESLint-compatible linter on your editor and follow the
 =.eslintrc.json= as well as the existing conventions.
+
+*** Project Layout
+
+The React code is located under =src/=.
 
 - =components/= :: Re-usable components, one component does one job.
 - =contexts/=   :: React contexts to dispatch dynamic data accross all children
