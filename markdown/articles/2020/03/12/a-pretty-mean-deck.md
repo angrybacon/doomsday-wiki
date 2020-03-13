@@ -80,7 +80,7 @@ resolves assuming you have 0 cards left in your library.
 So what does this actually mean?
 
 First of all it means that you don't always have to rely on LED to generate enough mana 
-for your Doomsday pile. Take this example from our (Basics Chapter)[https://ddft.wiki/meandeck/basics/]:
+for your Doomsday pile. Take this example from our [Basics Chapter](https://ddft.wiki/meandeck/basics/)
 
 <pile>{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</pile>
 
@@ -94,7 +94,7 @@ an additional two cards.
 {{Predict}} is a great example. This card has been played in Miracle decks to success and offers
 a decent card advantage engine, especially given the high cantrip density the deck runs, even
 outside of the combo. It can then be used as a combo piece either simply as a draw two that digs
-three cards deep or can be used to synergise with [[Unearth]] allowing the playing of Oracle for 
+three cards deep or can be used to synergise with {{Unearth}} allowing the playing of Oracle for 
 the cost of a single {{B}}. 
 
 <pile>{{!Pd}} {{!Pn}} {{!SW}} {{!LP}} {{!TO}}</pile>
@@ -111,7 +111,7 @@ the range of splash colours on offer means the list is quite configurable to tas
 
 ### "Okay, I'm interested! What list should I try?"
 
-Currently there seem to be two main styles of play; Esper and BUG. 
+Currently there seem to be two main styles of play; Esper {{UBW}} and BUG {{BUG}}. 
 
 BUG was the first iteration and the main offer is main deck {{Veil of Summer}} along with 
 sideboard options like {{Abrupt Decay}} for problem permanents or cards like {{Xantid Swarm}}
@@ -128,9 +128,9 @@ garners interest, more and more minds will likely get it to a place where it wil
 at least a little more optimised than before. If you want some starting points for either
 list TCDecks has some listed:
 
-(Esper by Hulahula)[https://www.tcdecks.net/deck.php?id=33721&iddeck=299988]
+[Esper by Hulahula](https://www.tcdecks.net/deck.php?id=33721&iddeck=299988)
 
-(BUG by Gre3n1T)[https://www.tcdecks.net/deck.php?id=33454&iddeck=296642]
+[BUG by Gre3n1T](https://www.tcdecks.net/deck.php?id=33454&iddeck=296642)
 
 ### "The Madness has taken me, how do I find out more!?"
 
@@ -140,9 +140,9 @@ due to a lot of format and deck change in a small amount of time and not a lot o
 authors to write things! As this is a community run project we are always welcoming of new
 submissions whether it is articles, puzzles or chapter pages. 
 
-If you want even more content please check out our (Resources)[https://ddft.wiki/resources/] page
+If you want even more content please check out our [Resources](https://ddft.wiki/resources/) page
 which includes links to local streams or if you are up for a challenge maybe check 
-out the (Puzzles)[https://ddft.wiki/puzzles/] page.
+out the [Puzzles](https://ddft.wiki/puzzles/) page.
 
 Until next time.
 
