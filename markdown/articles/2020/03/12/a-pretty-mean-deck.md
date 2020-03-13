@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-title: A pretty mean deck or; "What is this new meme everyone is playing?"
+title: "Is the World Ending?" - A Pretty Mean Deck for 2020
 ---
 
 Hi everyone, 
@@ -23,7 +23,7 @@ write this little introduction to everything and dust the cobwebs off myself too
 
 So first things first:
 
-### "What the hell does Meandeck Doomsday Mean?"
+### "What does Meandeck Doomsday actually Mean?"
 
 Meandeck Doomsday (either in BUG, Esper or BUgw form) is essentially a combo control
 deck. The namesake stems from Team Meandeck, the team name of the old Ohio based,
@@ -51,7 +51,7 @@ newer players always asked about but never had any results. Through the discussi
 term "Meandeck Doomsday" became synonamous with "Doomsday featuring Force of Wills".
 
 
-### From 2012 to 2020
+### "From 2012 to 2020"
 
 Fast forwarding eight years and suddenly everyone and their mother are trying the deck out.
 So what changed?
@@ -225,7 +225,7 @@ list TCDecks has some listed:
 
 If this seems to be your jam then look no further. The Doomsday wiki is designed to be the 
 primary resource on any variants of the deck. The lack of contemperaneous content is 
-due to a lot of format and deck change in a small amount of time and not a lot of willing
+due to a lot of format and deck changes in a small amount of time and not a lot of willing
 authors to write things! As this is a community run project we are always welcoming of new
 submissions whether it is articles, puzzles or chapter pages. 
 
@@ -233,8 +233,10 @@ If you want even more content please check out our [Resources](https://ddft.wiki
 which includes links to local streams or if you are up for a challenge maybe check 
 out the [Puzzles](https://ddft.wiki/puzzles/) page.
 
+If you would like to get in contact for submissions to the Wiki please contact AngryBacon 
+
 Until next time.
 
-May your world always be ending!
+May you have a pleasant apocalypse!
 
 **Doishy.**
