@@ -19,3 +19,8 @@ various scenarios.
 The Doomsday Wiki focuses on the theory behind the piles. How to build them,
 when to build them, why the pile is build up like that, how to play around
 stuff, how to sequence your spells correctly, and so on.
+
+This work is licensed under a **Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License**.
+
+[License](http://creativecommons.org/licenses/by-nc-nd/4.0/)
