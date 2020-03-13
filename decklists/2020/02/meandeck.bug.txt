@@ -4,7 +4,7 @@
 2 Predict
 2 Street Wraith
 2 Thassa's Oracle
-2 Thoughtseize
+3 Thoughtseize
 3 Lotus Petal
 3 Veil of Summer
 4 Brainstorm
@@ -15,13 +15,13 @@
 4 Preordain
 
 1 Bayou
-1 Snow-Covered Island
+2 Snow-Covered Island
 1 Snow-Covered Swamp
 1 Tropical Island
 1 Verdant Catacombs
 2 Baleful Strix
 2 Underground Sea
-3 Misty Rainforest
+4 Misty Rainforest
 4 Polluted Delta
 
 Sideboard
