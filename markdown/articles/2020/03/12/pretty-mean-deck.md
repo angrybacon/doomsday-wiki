@@ -73,7 +73,7 @@ having a spare {{U}} can mean a lot.
 
 The second key advantage is being able to win the game without having to draw a
 card in the process. Laboratory Maniac has a window of opportunity whereby your
-opponent gets a change to kill it. If this suceeds you more often than not just
+opponent gets a chance to kill it. If this suceeds you more often than not just
 kill yourself with your otherwise game winning draw. Oracle however lets you win
 the game whether the card is in play or not. The Oracle text on Oracle states
 
