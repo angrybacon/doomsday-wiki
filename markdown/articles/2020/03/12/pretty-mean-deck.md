@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-title: A Pretty Mean Deck or; "What is this new meme everyone is playing?"
+title: "\"Is the World Ending?\" - A Pretty Mean Deck for 2020"
 ---
 
 Hi everyone, it's safe to say, (especially looking at the article history from
@@ -16,14 +16,14 @@ both great and terrible at the same time. Great people are enjoying the
 archetype and it seems to be putting up enough results to show itself to be
 greater than tier 10 however terrible in that a lot of people are picking up the
 deck with no idea on what to do with it. In an effort to help spread the memes
-of Doomsday stacks comprised of 4 {{Temporal Mastery}} and 1 {{Thassa's Oracle}}
+of Doomsday stacks comprised of 4 x {{Temporal Mastery}} and 1 x {{Thassa's Oracle}}
 and to prevent pay-walled content telling you how to play the deck I thought I
 would write this little introduction to everything and dust the cobwebs off
 myself too.
 
 So first things first:
 
-## "What the hell does Meandeck Doomsday Mean?"
+## "What does Meandeck Doomsday actually Mean?"
 
 Meandeck Doomsday (either in BUG, Esper or BUgw form) is essentially a combo
 control deck. The namesake stems from Team Meandeck, the team name of the old
@@ -64,8 +64,6 @@ featured for the two years prior?
 
 The very short answer is of course everyone's favourite fishy friend; {{Thassa's
 Oracle}}.
-
-<pile>{{!TO}}{{!LM}}</pile>
 
 Oracle has two key advantages that make it superior to {{Laboratory Maniac}}.
 The first is the mana cost. It may not seem like much going from {{2U}} to
@@ -120,6 +118,97 @@ can win out of nowhere. The number of *bad cards*, whilst not being zero, has
 now dropped to maybe two-three per list and the range of splash colours on offer
 means the list is quite configurable to taste.
 
+## "You've shown me some piles, but how do they actually work!?"
+
+One of the most common questions people have is based around "what are the most
+basic piles?" or "where can I find a list of piles to learn." You shouldn't
+really try and rote learn piles but instead learn to work out what resources you
+have available to them alongside some simple rules in terms of basic pile
+building.
+
+In the interest of helping newer folks however I will walk through some simple
+examples.
+
+### Let us Consider the Following Scenario
+
+You have {{Dark Ritual}}, {{Ponder}} and {{Doomsday}} in hand and Island, Swamp,
+and 3 x Underground Sea in play.
+
+1. Tap you lands for {{UUUUB}}
+1. Use {{B}} to cast Dark Ritual adding {{BBB}} to pool
+1. Use the {{BBB}} to cast Doomsday with {{UUUU}} in pool
+
+Stack the following:
+
+<pile>{{!Pd}} {{!Pn}} {{!SW}} {{!LP}} {{!TO}}</pile>
+
+1. Use {{U}} to cast Ponder. Draw Predict
+1. Use {{UU}} to cast Predict targeting yourself
+1. Name Ponder with Predict putting Ponder into your graveyard and drawing
+   Street Wraith and Lotus Petal
+1. Cycle the Street Wraith paying two life. Draw Thassa's Oracle
+1. Cast Lotus Petal. Crack for {{U}} leaving {{UU}} in pool
+1. Use {{UU}} to cast Thassa's Oracle
+
+The entire line costs {{BBB}} + {{1UUU}} and requires a cantrip in hand.  
+This is a very basic single cantrip pile.
+
+### The Second Scenario to Consider
+
+You have {{Doomsday}}, {{Street Wraith}}, {{Preordain}} in hand and Swamp and 3
+x Underground Sea in play.
+
+1. Tap your lands for {{UBBB}}
+1. Use {{BBB}} to cast Doomsday with {{U}} in pool
+
+Stack the following:
+
+<pile>{{!LED}} {{!Pd}} {{!Pn}} {{!LP}} {{!TO}}</pile>
+
+1. Use {{U}} to cast Preordain. Draw Lion's Eye Diamond
+1. Cast Lion's Eye Diamond
+1. Cycle the Street Wraith paying two life. Hold priotity and crack Lion's Eye
+   Diamond for {{UUU}}. Draw Predict
+1. Use {{UU}} to cast Predict targeting yourself
+1. Name Ponder with Predict putting Ponder into your graveyard and drawing
+   Thassa's Oracle and Lotus Petal
+1. Cast Lotus Petal. Crack for {{U}} leaving {{UU}} in pool
+1. Use {{UU}} to cast Thassa's Oracle
+
+The entire line costs {{BBB}} + {{U}} and requires two cantrips in hand.  
+This is a very basic double cantrip pile.
+
+### The Final Scenario to Consider
+
+You have {{Dark Ritual}}, {{Force of Will}}, {{Brainstorm}} and {{Doomsday}} in
+hand and Island, Swamp in play.
+
+1. Tap you lands for {{UB}}
+1. Use {{B}} to cast Dark Ritual adding {{BBB}} to pool
+1. Use the {{BBB}} to cast Doomsday with {{U}} in pool
+
+Stack the following:
+
+<pile>{{!LED}} {{!SW}} {{!Pd}} {{!LP}} {{!TO}}</pile>
+
+1. Use {{U}} to cast Brainstorm
+1. Draw Lion's Eye Diamond, Street Wraith and Predict and replace back first
+   Force of Will and then Predict on top
+1. Cast Lion's Eye Diamond
+1. Cycle the Street Wraith paying two life. Hold priotity and crack Lion's Eye
+   Diamond for {{UUU}}. Draw Predict
+1. Use {{UU}} to cast Predict targeting yourself
+1. Name Force of Will with Predict putting Force of Will into your graveyard and
+   drawing Thassa's Oracle and Lotus Petal
+1. Cast Lotus Petal. Crack for {{U}} leaving {{UU}} in pool
+1. Use {{UU}} to cast Thassa's Oracle
+
+The entire line costs {{BBB}} + {{U}} and requires Brainstorm and one additional
+card in hand.  
+This is a very basic Brainstorm pile.
+
+Feel free to have a go at goldfishing similar lines!
+
 ## "Okay, I'm interested! What list should I try?"
 
 Currently there seem to be two main styles of play; Esper {{UBW}} and BUG
@@ -161,6 +250,9 @@ articles, puzzles or chapter pages.
 If you want even more content please check out our [resources](/resources/) page
 which includes links to local streams or if you are up for a challenge maybe
 check out the [puzzles](/puzzles/) page.
+
+If you would like to submit any content to the Wiki then please contact
+AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).
 
 Until next time.
 
