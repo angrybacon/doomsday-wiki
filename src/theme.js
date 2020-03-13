@@ -35,8 +35,9 @@ const themeOptions = {
     MuiTypography: {
       gutterBottom: {
         '&:not(:first-child)': {
-          marginTop: '.35em',
+          marginTop: '1em',
         },
+        marginBottom: '1em',
       },
     },
   },
