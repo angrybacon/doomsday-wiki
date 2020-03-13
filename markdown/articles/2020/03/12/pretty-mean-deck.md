@@ -23,7 +23,7 @@ myself too.
 
 So first things first:
 
-## "What does Meandeck Doomsday actually Mean?"
+## *What does Meandeck Doomsday actually Mean?*
 
 Meandeck Doomsday (either in BUG, Esper or BUgw form) is essentially a combo
 control deck. The namesake stems from Team Meandeck, the team name of the old
@@ -118,7 +118,7 @@ can win out of nowhere. The number of *bad cards*, whilst not being zero, has
 now dropped to maybe two-three per list and the range of splash colours on offer
 means the list is quite configurable to taste.
 
-## "You've shown me some piles, but how do they actually work!?"
+## *You've shown me some piles, but how do they actually work!?*
 
 One of the most common questions people have is based around "what are the most
 basic piles?" or "where can I find a list of piles to learn." You shouldn't
@@ -209,7 +209,7 @@ This is a very basic Brainstorm pile.
 
 Feel free to have a go at goldfishing similar lines!
 
-## "Okay, I'm interested! What list should I try?"
+## *Okay, I'm interested! What list should I try?*
 
 Currently there seem to be two main styles of play; Esper {{UBW}} and BUG
 {{BUG}}.
@@ -238,7 +238,7 @@ starting points for either list TCDecks has some listed:
 
 <div deckfile="2020/03/meandeck.bug.txt" />
 
-## "The Madness has taken me, how do I find out more!?"
+## *The Madness has taken me, how do I find out more!?*
 
 If this seems to be your jam then look no further. The Doomsday Wiki is designed
 to be the primary resource on any variants of the deck. The lack of
@@ -256,4 +256,4 @@ AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).
 
 Until next time.
 
-May your world always be ending!
+May you have a pleasant apocalypse!
