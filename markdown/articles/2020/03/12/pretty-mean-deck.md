@@ -247,9 +247,9 @@ amount of time and not a lot of willing authors to write things! As this is a
 community run project we are always welcoming of new submissions whether it is
 articles, puzzles or chapter pages.
 
-If you want even more content please check out our [resources](/resources/) page
-which includes links to local streams or if you are up for a challenge maybe
-check out the [puzzles](/puzzles/) page.
+If you want even more content please check out our
+[resources](/appendices/resources/) page which includes links to local streams
+or if you are up for a challenge maybe check out the [puzzles](/puzzles/) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).

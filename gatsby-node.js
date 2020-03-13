@@ -30,8 +30,9 @@ const makeDate = ({ createNodeField, node }) => {
 
 
 const makeSlug = ({ createNodeField, getNode, node }) => {
-  const value = createFilePath({getNode, node});
-  createNodeField({name: 'slug', node, value});
+  const prefix = node.sourceInstanceName !== 'chapters' ? `/${node.sourceInstanceName}` : '';
+  const path = createFilePath({getNode, node});
+  createNodeField({name: 'slug', node, value: prefix.concat(path)});
 };
 
 
