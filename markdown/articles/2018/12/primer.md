@@ -1,6 +1,6 @@
 ---
 authors: d8dk32
-title: Draw4 Doomsday Primer
+title: Draw4 Primer
 ---
 
 After the Probe ban, we in the Doomsday Discord lamented our loss and many
@@ -13,11 +13,6 @@ lots of trial and error returned with a list I liked better, one with Infernal
 Contracts, extra Rituals, and no Lab Maniac anywhere in the 75. I've been
 working to refine the list since then and it feels like its sufficiently
 competitve that I wouldn't be completely embarassed to write a primer.
-
-## The Base List
-
-I've added abbreviations for some card names, which will come in handy later
-when notating Doomsday piles and such.
 
 <div deckfile="2018/12/ddft.txt" />
 
