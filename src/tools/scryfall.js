@@ -17,7 +17,7 @@ const CARDS = {
   ET:    ['Echoing Truth',            'DST'],
   Echo:  ['Echo of Eons',             'MH1'],
   Em:    ['Emrakul, the Aeons Torn',  'ROE'],
-  EoT:   ['Edge of Autumn',           'FUT'],
+  EoA:   ['Edge of Autumn',           'FUT'],
   EtW:   ['Empty the Warrens',        'TSP'],
   GP:    ['Gitaxian Probe',           'NPH'],
   IC:    ['Infernal Contract',        'MIR'],
