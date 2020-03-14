@@ -7,6 +7,8 @@ title: Other Doomsday Resources
 - Lee *d8dk32* Curtis:
   [Twitch](https://www.twitch.tv/ddftguy)
   [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)
+- Brandon *emidln* Adams:
+  [Twitch](https://www.twitch.tv/adam4300)
 - Albert *g0ld_rook* Huang:
   [Twitch](https://www.twitch.tv/g0ld_rook)
   [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)
@@ -14,6 +16,8 @@ title: Other Doomsday Resources
   [YouTube](https://www.youtube.com/channel/UC8jP7pO-rpfhn0_Bg7CIp2w)
 - Ethan *monkeyscantcry* Formicella:
   [Twitch](https://www.twitch.tv/monkeyscantcry)
+- Romario *Romariovidal* Neto:
+  [Twitch](https://www.twitch.tv/romariovidal)
 
 ## Podcasts
 
