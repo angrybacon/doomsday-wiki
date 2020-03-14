@@ -23,6 +23,7 @@ export default function Layout({ children }) {
                 alignItems="center"
                 className={classes.content}
                 direction="column"
+                id="body"
                 wrap="nowrap">
             <Grid item className={classes.children} xs={12} sm={11} md={10} lg={8} xl={6}>
               {children}
