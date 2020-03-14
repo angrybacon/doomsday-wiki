@@ -6,16 +6,16 @@ export default makeStyles(theme => ({
     flexGrow: 1,
     flexShrink: 1,
     overflowY: 'auto',
-    paddingTop: theme.spacing(2),
-    [theme.breakpoints.up('md')]: {
-      paddingTop: theme.spacing(3),
-    },
   },
   children: {
     flexGrow: 1,
   },
   content: {
     height: '100%',
+    paddingTop: theme.spacing(2),
+    [theme.breakpoints.up('md')]: {
+      paddingTop: theme.spacing(3),
+    },
   },
   footer: {
     marginBottom: theme.spacing(2),
