@@ -10,7 +10,7 @@ export default function Articles() {
   const { articles } = useStaticQuery(graphql`{
     articles: allFile(
       filter: {sourceInstanceName: {eq: "articles"}},
-      sort: {fields: fields___slug, order: ASC}
+      sort: {fields: fields___slug, order: DESC}
     ) {
       nodes {
         childMarkdownRemark {frontmatter {authors title}}
