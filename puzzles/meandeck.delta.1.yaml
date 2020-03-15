@@ -1,0 +1,47 @@
+title: "Meandeck vs BUG Food Chain"
+authors:
+  - Hulahula
+  - Doishy
+deckFile: "2020/03/meandeck.buw.txt"
+oppHand: null
+oppBoard:
+  - Walking Ballista (3)
+  - Baleful Strix
+  - Misthollow Griffin
+yourHand:
+  - Dark Ritual
+  - Doomsday
+  - Arcum's Astrolabe
+  - Lion's Eye Diamond
+  - Thassa's Oracle
+yourBoard:
+  - Snow-Covered Island (tapped)
+  - Tundra
+  - Snow-Covered Island
+  - Snow Covered Swamp
+  - Arcum's Astrolabe
+notes: >
+  After a bit of a grind you find yourself in an awkward spot. You are at 8 life
+  with the combo ready but you have both LED and Oracle in hand and worst of all
+  have failed to include Unearth in your deck. It's probably fine, you'll just
+  have to improvise! Win this turn.
+solution:
+  - Brainstorm
+  - Preordain
+  - Edge of Autumn
+  - Lotus Petal
+  - Preordain
+solutionNotes: >
+  So we need to make sure of two things. First of all, that we do not drop our life
+  total to three because then Ballista can just kill us so we cannot use Street Wraith
+  or any fetchland tricks. We also need to make sure we do end up with a pile that gives
+  us zero cards in the deck when Oracle resolves as Ballista could kill the fish. Finally
+  we need to make sure we do not discard Oracle to the LED because without a second Doomsday
+  (which then takes us below lethal Ballista range anyways) we have no way to retrieve Oracle.
+  This is a handy example of a Brainstorm pile!
+  
+  Use the Swamp to play the Ritual and Doomsday. The Island to cast Astrolabe drawing Brainstorm.
+  This lets you draw Preordain, Edge and Petal and put back Oracle then Preordain. You then play
+  LED and Petal. Cycle Edge, cracking LED for UUU, to draw Preordain. Preordain Oracle the to 
+  bottom and draw the second Preordain. Play the second Preordain and draw Oracle. Cast Oracle 
+  from the Petal and the final U floating from the LED.
