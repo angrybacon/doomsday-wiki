@@ -4,9 +4,6 @@ const { SidebarProvider } = require('./src/contexts/Sidebar');
 const { ThemeProvider } = require('./src/contexts/Theme');
 
 
-exports.shouldUpdateScroll = () => 'body';
-
-
 /* eslint-disable-next-line react/display-name, react/prop-types */
 exports.wrapPageElement = ({ element, ...rest }) => (
   <Layout children={element} {...rest} />
