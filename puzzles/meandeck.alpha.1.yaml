@@ -25,7 +25,7 @@ notes: >
   Playing against your Snowko opponent you are at 8 life and are faced with
   lethal on board. You know from previous Thoughtseizes that they have Force of
   Negation and a blue card in hand. You think you've found a line that shows
-  them why the Elk king is dead. Win this turn.
+  them why the Elk king is dead. You have already made a land drop. Win this turn.
 solution:
   - Brainstorm
   - Thassa's Oracle
