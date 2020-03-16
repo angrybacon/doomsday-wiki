@@ -1,6 +1,6 @@
 4 Doomsday
 4 Experimental Frenzy
-1 Jace, Wielder of Mysteries
+1 Thassa's Oracle
 2 Lim-Dûl's Vault
 1 Act on Impulse
 4 Brainstorm
