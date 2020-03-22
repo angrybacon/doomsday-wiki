@@ -1,5 +1,4 @@
 import c from 'classnames';
-import CircleSmallIcon from 'mdi-react/CircleSmallIcon';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Highlighter from 'react-highlight-words';
@@ -8,6 +7,7 @@ import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Collapsible from '../Collapsible';
 import Decklist from '../Decklist';
+import Listify from '../Listify';
 import useStyles from './styles';
 
 
@@ -26,29 +26,22 @@ export default function Puzzle({ barf, component, data, words }) {
     yourHand,
   } = data;
 
-  const listify = (value, highlight) => {
-    value = value && (Array.isArray(value) ? value : [value]) || [];
-    return value.length ? (
-      <Box display="flex" flexWrap="wrap">
-        {value.map((it, index, array) => (
-          <Box alignItems="center" display="flex" key={index}>
-            {highlight && words.length ? (
-              <Highlighter highlightClassName={classes.highlight}
-                           searchWords={words}
-                           textToHighlight={it} />
-            ) : it}
-            {index < array.length - 1 && <CircleSmallIcon size="1em" />}
-          </Box>
-        ))}
-      </Box>
-    ) : '';
+  const highlighter = words => value => (
+    <Highlighter highlightClassName={classes.highlight}
+                 searchWords={words}
+                 textToHighlight={value} />
+  );
+
+  const listify = (value, highlighter) => {
+    const renderer = words.length ? highlighter(words) : null;
+    return <Listify items={value} renderer={renderer} />;
   };
 
   const rows = [
-    {label: "Opponent's Hand", text: listify(oppHand, true)},
-    {label: "Opponent's Board", text: listify(oppBoard, true)},
-    {label: 'Your Hand', text: listify(yourHand, true)},
-    {label: 'Your Board', text: listify(yourBoard, true)},
+    {label: "Opponent's Hand", text: listify(oppHand, highlighter)},
+    {label: "Opponent's Board", text: listify(oppBoard, highlighter)},
+    {label: 'Your Hand', text: listify(yourHand, highlighter)},
+    {label: 'Your Board', text: listify(yourBoard, highlighter)},
   ].filter(it => it.text);
 
   return React.createElement(component, null, (
