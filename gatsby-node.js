@@ -76,9 +76,9 @@ exports.createPages = ({ actions, graphql }) => {
         node {
           childMarkdownRemark {
             rawMarkdownBody
-            frontmatter {title}
+            frontmatter {authors title}
           }
-          fields {slug}
+          fields {date(formatString: "LL") slug}
         }
       }
     }
@@ -89,9 +89,11 @@ exports.createPages = ({ actions, graphql }) => {
     }
     return Promise.all(data.allFile.edges.map(({ node }) => {
       const { frontmatter, rawMarkdownBody } = node.childMarkdownRemark;
+      const { authors, title } = frontmatter;
+      const { date } = node.fields;
       return mana.replace(rawMarkdownBody).then(scryfall.replace).then(body => createPage({
         component: renderer,
-        context: {body, title: frontmatter.title},
+        context: {authors, body, date, title},
         path: node.fields.slug,
       }));
     }));
