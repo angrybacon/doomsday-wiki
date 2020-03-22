@@ -34,6 +34,12 @@ const themeOptions = {
   overrides: {
     MuiTypography: {
       gutterBottom: {
+        '&:first-child': {
+          marginTop: 0,
+        },
+        '&:last-child': {
+          marginBottom: 0,
+        },
         '&:not(:first-child)': {
           marginTop: '1em',
         },

@@ -79,6 +79,7 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {authors title}
           }
           fields {date(formatString: "LL") slug}
+          sourceInstanceName
         }
       }
     }
@@ -88,12 +89,13 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(errors);
     }
     return Promise.all(data.allFile.edges.map(({ node }) => {
-      const { frontmatter, rawMarkdownBody } = node.childMarkdownRemark;
+      const { childMarkdownRemark, sourceInstanceName } = node;
+      const { frontmatter, rawMarkdownBody } = childMarkdownRemark;
       const { authors, title } = frontmatter;
       const { date } = node.fields;
       return mana.replace(rawMarkdownBody).then(scryfall.replace).then(body => createPage({
         component: renderer,
-        context: {authors, body, date, title},
+        context: {authors, body, date, title, type: sourceInstanceName},
         path: node.fields.slug,
       }));
     }));

@@ -20,7 +20,7 @@ export default function Articles() {
   }`);
   return (
     <>
-      <Typography children="Articles" gutterBottom variant="h3" />
+      <Typography align="center" children="Articles" gutterBottom variant="h3" />
       <List disablePadding>
         {articles.nodes.map(({ childMarkdownRemark: content, fields }, index) => {
           const title = content.frontmatter.title;

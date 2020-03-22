@@ -7,21 +7,27 @@ import Paper from '../Paper';
 
 
 export default function Page({ pageContext }) {
-  const { authors, body, date, title } = pageContext;
-  const subtitle = !!(date || authors) && (
-    <Listify justifyContent="center" items={[date, authors].filter(it => it)} />
-  );
+  const { authors, body, date, title, type } = pageContext;
+  const subtitle = <Listify justifyContent="center" items={[date, authors]} />;
+  const primary = !!title && <Typography align="center" children={title} variant="h3" />;
+  const isArticle = type === 'articles';
   return (
     <Paper>
-      {!!(subtitle || title) && (
-        <Typography component="div" gutterBottom variant="h3">
-          {!!title && <Typography children={title} variant="h3" />}
-          {!!subtitle && (
-            <Typography align="center" children={subtitle} gutterBottom variant="subtitle1" />
-          )}
-        </Typography>
-      )}
+      <Typography component="div" gutterBottom variant="h3">
+        {primary}
+        {isArticle && (
+          <Typography align="center" children={subtitle} color="textSecondary" variant="subtitle1" />
+        )}
+      </Typography>
       <Markdown barf source={body} />
+      {!isArticle && (
+        <Typography align="center"
+                    children={subtitle}
+                    color="textSecondary"
+                    component="div"
+                    gutterBottom
+                    variant="body2" />
+      )}
     </Paper>
   );
 }
@@ -33,5 +39,6 @@ Page.propTypes = {
     body: PropTypes.string.isRequired,
     date: PropTypes.string,
     title: PropTypes.string,
+    type: PropTypes.string,
   }),
 };
