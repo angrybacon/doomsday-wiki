@@ -65,7 +65,7 @@ interested. Myself included!
 Looking into the card and decklist more there were some key things identified.
 
 1. Frenzy plus Doomsday is an instant win.
-2. Fenzy plus Doomsday is infinite Storm instant win.
+2. Frenzy plus Doomsday is infinite Storm instant win.
 3. Frenzy plus Doomsday assuming you have B post DD is an instant win even with
    Surgical on LED
 4. You can even sub out Tendrils for Collective Brutality and it would still
