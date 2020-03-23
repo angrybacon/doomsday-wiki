@@ -21,7 +21,7 @@ should provide some clarity on the following things:
 1.2 DDEFT
 1.3 Meandeck
 2. Card Choices
-2.1 Doomsday
+**2.1 Doomsday
 2.2 Fast Mana
 2.3 Cantrips
 2.4 Protection
@@ -29,10 +29,12 @@ should provide some clarity on the following things:
 2.6 Manabase
 2.7 Sideboard
 3. Colour Choices
-3.1 White
+**3.1 White
 3.2 Red
 3.3 Green
-4. Additional Content Available**
+4. The Mechanics of Resolving Doomsday
+**5. Learning "Piles"
+6. Additional Content Available
 
 
 ## 1. The Different Doomsday Archetypes
