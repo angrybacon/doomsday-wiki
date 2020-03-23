@@ -586,3 +586,15 @@ are much better than trying to memorise 100 potential piles by rote.
 
 
 ## 6. Additional Content Available
+
+If you want even more content please check out our
+[resources](/appendices/resources/) page which includes a list of community streamers or maybe
+if you are up for a challenge maybe check out the [puzzles](/puzzles/) page.
+
+If you would like to submit any content to the Wiki then please contact
+AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).
+
+Until next time.
+
+May you avoid the first horsemen of the apocalypse!  
+(Stay safe and be kind to one another).
