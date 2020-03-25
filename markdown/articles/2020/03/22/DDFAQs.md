@@ -3,6 +3,9 @@ authors: Doishy
 title: "DDFAQs or "The start of everything you need to know about how to end the world in 2020"
 ---
 
+Include combined picture or tweet embed somewhere (to break up the mass of text in article)
+(https://twitter.com/misc_mtg/status/1242429703622782976)
+
 With the influx of new interest towards the archetype, there
 has been a rise in new players gravitating towards our favourite
 {{BBB}} sorcery. With this surge in new blood there have been a
