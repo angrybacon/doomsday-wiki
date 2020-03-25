@@ -9,7 +9,7 @@ new, effective, options are released.
 ## Table of Common Wishable Artifact Removal Costs
 
 This is a list of the most commonly used spells that can be *tutored* via
-Burning Wis.hrea
+Burning Wish.
 
 | Chalice of the Void  | By Force | Consign | Meltdown | Pulverize | Shattering Spree | Void Snare |
 | -------------------- | :------: | :-----: | :------: | :-------: | ---------------- | :--------: |

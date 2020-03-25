@@ -12,12 +12,10 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
 
   const classes = useStyles();
 
-  const getOptionLabel = filter => (
-    <>
-      {filter.key && <span children={`${filter.key}:`} className={classes.labelPrefix} />}
-      <span children={filter.value || filter} />
-    </>
-  );
+  const getOptionLabel = filter => {
+    const prefix = filter.key ? `${filter.key.toLowerCase()}: ` : '';
+    return `${prefix}${filter.value || filter}`;
+  };
 
   const onChange = (_, filters) => {
     const items = filters.reduce((accumulator, filter) => (
