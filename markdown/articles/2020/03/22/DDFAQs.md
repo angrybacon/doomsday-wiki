@@ -138,8 +138,7 @@ preference can also feature heavily meaning where one person may be having succe
 with one style of list, another person might be doing the same with a completely
 different style. 
 
-A good example of this is the [Legacy 5-0 league results posting from 21/03/2020
-(03/21/2020 for any US folk)](https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-03-21)
+A good example of this is the [Legacy 5-0 league results](https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-03-21) posting from 21/03/2020 (03/21/2020 for any US folk)
 which featured two Doomsday pilots, each playing a Meandeck variant. This shows
 how different lists can be playing to same archetype.
 
@@ -601,3 +600,39 @@ Until next time.
 
 May you avoid the first horsemen of the apocalypse!  
 (Stay safe and be kind to one another).
+
+## Post Script
+
+d8dk32 recently forwarded me a tweet by Steven Menendian (designer of the 2012 iteration of
+Meandeck Doomsday who posted this screenshot as a turn 1 win in Vintage. It is in fact also
+a deterministic turn 1 kill in Legacy Doomsday too!
+
+**SCREENSHOT PICTURE OF TWEET AND PICTURE
+
+Have a go at working out this little puzzle checking the meandeck lists on the wiki or the recent
+5-0 lists linked above and see if you can work it out :)  
+The answer may be found below!
+
+```
+SOME SORT OF SPOILER TAGGING OR GAP
+```
+
+<pile>{{!LP}} {{!LED}} {{!EoA/SW}} {{!Pre}} {{!SW/X}}</pile>
+
+1. Use Swamp for {{B}} to cast Dark Ritual. 
+1. Use {{BBB}} from the Ritual to cast Doomsday.
+1. Cycle Street Wraith paying two life. Draw Lotus Petal.
+1. Cast Lotus Petal.
+1. Use Lotus Petal for {{U}} to cast Brainstorm. 
+1. Draw Lion's Eye Diamond, Edge of Autumn and Preordain and replace back first
+   Thassa's Oracle and then Preordain on top
+1. Cycle the Edge of Autumn sacrificing Swamp. Hold priotity and crack Lion's Eye
+   Diamond for {{UUU}}. Draw Preordain
+1. Use {{U}} to cast Preordain targeting yourself
+1. If you list runs additional Street Wraiths move Oracle to the bottom and draw the cycler.
+   Otherwise draw Oracle.
+1. If you drew a Street Wraith, cycle Street Wraith paying two life. Draw Oracle.
+1. Use {{UU}} to cast Thassa's Oracle
+
+
+xxx
