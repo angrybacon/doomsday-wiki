@@ -9,9 +9,6 @@ export default makeStyles(theme => ({
   highlight: {
     color: theme.palette.secondary.light,
   },
-  labelPrefix: {
-    textTransform: 'lowercase',
-  },
   paper: {
     boxShadow: theme.shadows[6],
     padding: 0,
