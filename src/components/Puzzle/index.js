@@ -33,7 +33,7 @@ export default function Puzzle({ barf, component, data, words }) {
   );
 
   const listify = (value, highlighter) => {
-    const renderer = words.length ? highlighter(words) : null;
+    const renderer = typeof highlighter === 'function' && words.length ? highlighter(words) : null;
     return <Listify items={value} renderer={renderer} />;
   };
 
