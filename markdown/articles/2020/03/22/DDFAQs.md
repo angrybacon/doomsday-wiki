@@ -83,7 +83,7 @@ The aim of the deck is to kill via a Doomsday pile with lethal
 {{Tendrils of Agony}} or {{Thassa's Oracle}} or a natural Tendrils
 storm kill without Doomsday. See an example pile below:
 
-<pile>{{!AOI}} {{!LED}} {{!ToA}} {{!PN}} {{!CB}}</pile>
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!PN}} {{!BW}}</pile>
 
 Due to the cards used, the deck tends to be Grixis colours sometimes
 splashing Green for sideboard options.
@@ -126,7 +126,8 @@ win conditions either. An example pile is below:
 
 <pile>{{!Pd}} {{!Pn}} {{!EoA}} {{!LED}} {{!TO}}</pile>
 
-
+*Note: At the time of writing this article, this variant is the one having most
+success in tournaments.
 
 ## 2. Card Choices
 
@@ -154,7 +155,7 @@ variant you are playing, you will be wanting to run 4 of these no matter what.
 With Meandeck and DDEFt variatnts these will often just all be run in the main
 however thanks to {{Burning Wish}}, DDFT variants may run three in the main 
 and on in the sideboard as a wish target thereby increasing the number of 
-pseudo copies in the deck up to 7 (Three DD, two BW).
+pseudo copies in the deck up to 7 (3 DD, 4 BW).
 
 There are a number of other cards that can also fall into this category 
 alongside {{Burning Wish}} as cards that are basically designed to find {{Doomsday}}
@@ -239,6 +240,7 @@ Combine these with some of the cantripping protection elements and more niche "c
 I would expect a modern DDFT list to run the default 8 of Ponder x Brainstorm and anywhere between
 2 and 4 copies of Preordain. I would also not be surprised to expect maybe 0-2 Street Wraith. If
 Astrolabe is to be run, it would likely take the Preordain slot as the deck needs room for its fast mana.
+As a general rule of thumb, the less preordain you have, the fast you intend the deck to be.
 
 **DDEFT
 
@@ -269,12 +271,12 @@ Interaction can come in many forms such as proactive discard effects like {{Dure
 reactive cards like {{Force of Will}} and {{Flusterstorm}}, cards that can perform both roles to an 
 extent like {{Orim's Chant}} and {{Veil of Summer}} or static abilities such as {{Defense Grid}} and 
 {{Teferi, Time Raveler}}. Depending on the list you are running these are all options available to a 
-Doomsday pilot. Normally you would want at least 8 pieces of permission maindeck with additional
+Doomsday pilot. Normally you would want at least 8 pieces of protection maindeck with additional
 sideboard slots dedicated to more specific interaction.
 
 **DDFT
 
-DDFT tends to run around 7-8 permission slots main. The lists that run 7 often run an additional piece
+DDFT tends to run around 7-8 protection slots main. The lists that run 7 often run an additional piece
 of discard in the sideboard that can be found with {{Burning Wish}} thereby adding a pseudo additional
 4 pieces of discard to that count. This is normally a split of {{Thoughtseize}} and {{Veil of Summer}}
 or {{Thoughtseize}} and {{Duress}} in the main with the sideboard option being {{Duress}} or
@@ -285,7 +287,7 @@ are less likely to be seen.
 
 **DDEFT
 
-DDEFT tends to skimp a little bit on permission. Normally only 6-7 pieces of permission main. These
+DDEFT tends to skimp a little bit on protection. Normally only 6-7 pieces of protection main. These
 also should always be proactive pieces. If {{Experimental Frenzy}} is on the field and you hit
 a counterspell on top you are then stuck with it present on the top of your deck or, in hand
 where it cannot be cast at all. {{Thoughtseize}} and {{Duress}} are the favourites over other
@@ -314,7 +316,8 @@ to get the win.
 {{Lion's Eye Diamond}} falls into this category. Although it can be used to provide a mana boost
 when digging into a Doomsday pile or used to cast something grabbed with Burning Wish, it generally
 just sits pretty doing nothing prior to that. It is however one of the most powerful tools
-when performing the combo and thus should always be run, albeit to varying degrees.
+when performing the combo and thus should always be run, albeit to varying degrees. In storm
+builds it provides free storm and can enable the easy casting of {{Echo of Eons}}.
 
 Finally some sort of win condition is required. This can be in the form of {{Tendrils of Agony}},
 {{Thassa's Oracle}} or even {{Collective Brutatlity}}. {{Burning Wish}} can also take this spot
@@ -323,7 +326,7 @@ generally the win condition is counted as such so you only want 1-2 of them.
 
 **DDFT
 
-DDFT tends to run 1 card advantage spell and this is normally {{Act on Impulse}} or {{Cruel Bargain}}.
+DDFT tends to run 1 card advantage spell and this is normally {{Ideas Unbound}} or {{Cruel Bargain}}.
 It can also then run either 0-2 Cycle effects and 0-3 Echo of Eons with a potential 4th as a wish
 target in the sideboard. Generally the win conditions are 0-1 Tendrils main (0 if the Tendrils is
 wishable from the side) and 1 Oracle main. Tendrils is retained as it takes the requirement to have
@@ -469,7 +472,7 @@ Veil and Decay are the biggest boons for playing {{G}}.
 ### 3.4 No Splash
 
 There is some potential for running a straight {{UB}} list with no splash colours. For 
-a speed focussed list, use of {{Wishclaw Talisman}} and {{Echo of Eons}} could
+a speed focused list, use of {{Wishclaw Talisman}} and {{Echo of Eons}} could
 allow for a fast win however they may be considered unreliable. Your protection suite
 is also limited to countermagic and discard (both matching poorly against opposing
 {{Veil of Summer effects}}) and either {{B}} based creature removal or {{U}} based
