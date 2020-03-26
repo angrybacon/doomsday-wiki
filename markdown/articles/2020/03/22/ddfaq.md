@@ -3,8 +3,7 @@ authors: Doishy
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 
-Include combined picture or tweet embed somewhere (to break up the mass of text
-in article) (https://twitter.com/misc_mtg/status/1242429703622782976)
+<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FxoWxan3wD">pic.twitter.com/FxoWxan3wD</a></p>&mdash; 宮坂 (@misc_mtg) <a href="https://twitter.com/misc_mtg/status/1242429703622782976?ref_src=twsrc%5Etfw">March 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 With the influx of new interest towards the archetype, there has been a rise in
 new players gravitating towards our favourite {{BBB}} sorcery. With this surge
@@ -643,7 +642,7 @@ d8dk32 recently forwarded me a tweet by Steven Menendian (designer of the 2012
 iteration of Meandeck Doomsday) who posted this screenshot as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
-**SCREENSHOT PICTURE OF TWEET AND PICTURE
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just got a turn 1 win. Build the pile. <a href="https://t.co/VKAAf6nQjL">pic.twitter.com/VKAAf6nQjL</a></p>&mdash; Stephen Menendian (@SMenendian) <a href="https://twitter.com/SMenendian/status/1242650950415691776?ref_src=twsrc%5Etfw">March 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki or the recent 5-0 lists linked above and see if you can work it out :)  
