@@ -637,10 +637,10 @@ Until next time.
 May you avoid the first horsemen of the apocalypse!  
 (Stay safe and be kind to one another).
 
-## Post Script
+## Post Script Puzzle
 
 d8dk32 recently forwarded me a tweet by Steven Menendian (designer of the 2012
-iteration of Meandeck Doomsday who posted this screenshot as a turn 1 win in
+iteration of Meandeck Doomsday) who posted this screenshot as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
 **SCREENSHOT PICTURE OF TWEET AND PICTURE
