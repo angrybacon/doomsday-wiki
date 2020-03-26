@@ -147,7 +147,7 @@ considerations for all three variants as there are common factors between them.
 Now it seems a bit superfluous to mention but the first part, and the main link
 between the variants, is the namesake card itself; {{Doomsday}}. No matter what
 variant you are playing, you will be wanting to run 4 of these no matter what.
-With Meandeck and DDEFt variatnts these will often just all be run in the main
+With Meandeck and DDEFT variants these will often just all be run in the main
 however thanks to {{Burning Wish}}, DDFT variants may run three in the main and
 on in the sideboard as a wish target thereby increasing the number of pseudo
 copies in the deck up to 7 (3 DD, 4 BW).
@@ -167,7 +167,7 @@ A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
-<pile>{{Doomsday|WTH}}  {{Experimental Frenzy</pile>
+<pile>{{!Doomsday|WTH}}  {{!Experimental Frenzy|GRN}}</pile>
 
 ### 2.2 Mana Acceleration and Fixing
 
@@ -179,11 +179,11 @@ your opponents from dropping hate elements or simply to outrace your opponent to
 prevent them winning the game first. To facilitate this, a number of mana
 acceleration options are used.
 
-The deck normally plays out like a mono {{U}} deck to begin with, cast cantrips and
-setting up but then needs to pivot into almost a mono {{B}} deck to win. Going from
-a {{Wasteland}} proof {{U}} manabase to something that produces {{BBB}} can be
-tricky without fixing so along with acceleration elements, fixing elements are
-also incorporated.
+The deck normally plays out like a mono {{U}} deck to begin with, cast cantrips
+and setting up but then needs to pivot into almost a mono {{B}} deck to win.
+Going from a {{Wasteland}} proof {{U}} manabase to something that produces
+{{BBB}} can be tricky without fixing so along with acceleration elements, fixing
+elements are also incorporated.
 
 Cards like {{Dark Ritual}} and {{Lotus Petal}} allow you to get ahead of mana
 quickly and can help fix your colours to provide the {{BBB}} needed to cast
@@ -199,7 +199,7 @@ not lose card advantage whilst playing it.
 You may note I have not yet discussed {{Lion's Eye Diamond}} here, this will be
 covered in *Combo Pieces*.
 
-<pile>{{Dark Ritual}} {{Lotus Petal}} {{Arcum's Astrolabe}}</pile>
+<pile>{{!Dark Ritual}} {{!Lotus Petal}} {{!Arcum's Astrolabe}}</pile>
 
 #### DDFT and DDEFT
 
@@ -240,7 +240,7 @@ more on those later. Combine these with some of the cantripping protection
 elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
 up with a very high cantrip number.
 
-<pile>{{!Pn}} {{!BS}} {{!Pre}}</pile>
+<pile>{{!Ponder}} {{!Brainstorm}} {{!Preordain}}</pile>
 
 #### DDFT
 
@@ -279,7 +279,7 @@ somewhat upon the later discussion of splash colours but hopefully will keep it
 to a simple numbers game for now.
 
 Interaction can come in many forms such as proactive discard effects like
-{{Duress}} and {{Thoguhtseize}}, reactive cards like {{Force of Will}} and
+{{Duress}} and {{Thoughtseize}}, reactive cards like {{Force of Will}} and
 {{Flusterstorm}}, cards that can perform both roles to an extent like
 {{Orim's Chant}} and {{Veil of Summer}} or static abilities such as
 {{Defense Grid}} and {{Teferi, Time Raveler}}. Depending on the list you are
@@ -287,7 +287,7 @@ running these are all options available to a Doomsday pilot. Normally you would
 want at least 8 pieces of protection maindeck with additional sideboard slots
 dedicated to more specific interaction.
 
-<pile>{{!TS}} {{!FoW}} {{Veil of Summer}} {{Teferi, Time Raveler}}</pile>
+<pile>{{!TS}} {{!Force of Will}} {{Veil of Summer}} {{Teferi, Time Raveler}}</pile>
 
 #### DDFT
 
@@ -404,7 +404,7 @@ to fetch a basic Island is more crucial than a basic swamp as that tends to
 allow you to get into the game in the first place and the majority of your deck
 is {{U}} based cantrips anyways.
 
-<pile>{{Island|RAV}} {{Underground Sea}} {{Swamp|RAV}}</pile>
+<pile>{{!Island|RAV}} {{!Underground Sea}} {{!Swamp|RAV}}</pile>
 
 #### DDFT and DDEFT
 
@@ -499,7 +499,7 @@ Crowns}} as a potential option or {{Uro, Titan of Nature's Wrath}}.
 
 Veil and Decay are the biggest boons for playing {{G}}.
 
-<pile>{{Monastery Mentor}} {{Pyroblast}} {{Abrupt Decay}}</pile>
+<pile>{{!Monastery Mentor}} {{!Pyroblast}} {{!Abrupt Decay}}</pile>
 
 ### 3.4 No Splash
 
@@ -521,7 +521,7 @@ with the Oracle trigger on the stack all the while avoiding cards like
 
 Budget and consistent mana is the biggest boon for playing straight {{UB}}.
 
-<pile>{{Divining Witch}}</pile>
+<pile>{{!Divining Witch}}</pile>
 
 ## 4. The Mechanics of Resolving Doomsday
 
@@ -535,7 +535,7 @@ A large part of the confusion for the physical resolution of it stems from the
 wording on the original Weatherlight printing of {{Doomsday}}. See the card
 below along with the original rules text printed:
 
-<pile>{{Doomsday|WTH}}</pile>
+<pile>{{!Doomsday|WTH}}</pile>
 
 > Pay half your life, rounded up:  
 > Put your graveyard on top of your library, then remove all but five cards of
@@ -556,7 +556,7 @@ quite put out that it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-<pile>{{Doomsday|A25}}</pile>
+<pile>{{!Doomsday|A25}}</pile>
 
 > Search your library and graveyard for five cards and exile the rest.  
 > Put the chosen cards on top of your library in any order.  
@@ -604,7 +604,7 @@ worrying about becoming your own enemy.
 There is one final point I wish to touch on which is learning Doomsday piles
 (sometimes referred to as stacks). The first questions that people tend to ask
 other than "what is the currently played standard list?" is often "what are the
-basic piles?". The key mechanics are explained here on the wiki already and my
+basic piles?". The key mechanics are explained here on the Wiki already and my
 last article went over some of them briefly but people then ask for more. One
 question that is asked is "can I get a list of piles please?
 
@@ -646,8 +646,8 @@ Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 **SCREENSHOT PICTURE OF TWEET AND PICTURE
 
 Have a go at working out this little puzzle checking the meandeck lists on the
-wiki or the recent 5-0 lists linked above and see if you can work it out :) **Divining witch face?**  
-The answer may be found below!
+Wiki or the recent 5-0 lists linked above and see if you can work it out :)  
+**Divining witch face?** The answer may be found below!
 
 **SOME SORT OF SPOILER TAGGING OR GAP
 
