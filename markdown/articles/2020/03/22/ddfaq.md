@@ -60,7 +60,7 @@ and a bit more comparison on each.
 
 Discord Summary: *Lists that utilise traditional elements such as Burning WIsh,
 some sort of "draw 3/4" engine and focus on a Storm style approach to winning
-(however do not always require storm to win).
+(however do not always require storm to win).*
 
 [As mentioned last time](/article/2020/03/12/pretty-mean-deck.md), DDFT is the
 traditional name of historical iterations of the deck. We won't do a full
@@ -76,7 +76,7 @@ kill via a Doomsday pile with lethal {{Tendrils of Agony}} or
 {{Thassa's Oracle}} or a natural Tendrils storm kill without Doomsday. See an
 example pile below:
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!PN}} {{!BW}}</pile>
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!Pn}} {{!BW}}</pile>
 
 Due to the cards used, the deck tends to be Grixis colours sometimes splashing
 Green for sideboard options.
@@ -84,7 +84,7 @@ Green for sideboard options.
 ### 1.2 DDEFT (Doomsday Experimental Frenzy Tendrils)
 
 Discord Summary: *Lists that utilise Experimental Frenzy as the primary engine
-to win.
+to win.*
 
 The summary defines this sub-archetype pretty well. {{Experimental Frenzy}} is a
 very powerful card advantage engine that can, under the right circumstances,
@@ -97,7 +97,7 @@ amongst other things (see example below).
 <pile>{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</pile>
 
 Instead of using {{Burning Wish}} for additional copies of Doomsday, the deck
-uses cards like {{Lim-Dûl's Vault}} to act as tutor pieces prior to "going off"
+uses cards like {{Lim-Dûl's Vault}} to act as tutor pieces prior to *going off*
 and facilitate the kill from an active Frenzy (as they let you stack the top of
 the deck you are playing from).
 
@@ -110,7 +110,7 @@ Discord Summary: *Lists that are less combo focused and incorporate reactive
 countermagic such as Force of Will within their game plan.
 
 Meandeck Doomsday tends to play a slower gameplan than the other two variants
-focussing more on controlling the game prior to "going off". The deck is more
+focussing more on controlling the game prior to *going off*. The deck is more
 prone to passing the turn after resolving a Doomsday whereas DDFT and DDEFT are
 both more designed to go off the same turn you resolve one. This version plays
 less dedicated combo pieces such as {{Lion's Eye Diamond}} and more reactive
@@ -155,7 +155,7 @@ copies in the deck up to 7 (3 DD, 4 BW).
 There are a number of other cards that can also fall into this category
 alongside {{Burning Wish}} as cards that are basically designed to find
 {{Doomsday}} to win. These include, but are not limited to, the aforementioned
-{{Burning Wish}}, {{Lim-Dul's Vault}} and {{Wishclaw Talisman}}. They are mostly
+{{Burning Wish}}, {{Lim-Dûl's Vault}} and {{Wishclaw Talisman}}. They are mostly
 there to increase your Doomsday count beyond 4 as it is normally the card that
 needs to resolve to enable you to win the game. {{Experimental Frenzy}} also
 falls under this category as it generally counts as a card that will normally
@@ -163,9 +163,11 @@ win you the game if it resolves.
 
 **All Variants**
 
-A deck generally wants to have between 4 and 8 primary "bombs". Any less and you
+A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
+
+<pile>{{Doomsday|WTH}}  {{Experimental Frenzy</pile>
 
 ### 2.2 Mana Acceleration and Fixing
 
@@ -177,9 +179,9 @@ your opponents from dropping hate elements or simply to outrace your opponent to
 prevent them winning the game first. To facilitate this, a number of mana
 acceleration options are used.
 
-The deck normally plays out like a mono U deck to begin with, cast cantrips and
-setting up but then needs to pivot into almost a mono B deck to win. Going from
-a {{Wasteland}} proof U manabase to something that produces {{BBB}} can be
+The deck normally plays out like a mono {{U}} deck to begin with, cast cantrips and
+setting up but then needs to pivot into almost a mono {{B}} deck to win. Going from
+a {{Wasteland}} proof {{U}} manabase to something that produces {{BBB}} can be
 tricky without fixing so along with acceleration elements, fixing elements are
 also incorporated.
 
@@ -195,7 +197,9 @@ can include this efficient {{Prophetic Prism}} that enables mana fixing and does
 not lose card advantage whilst playing it.
 
 You may note I have not yet discussed {{Lion's Eye Diamond}} here, this will be
-covered in "Combo Pieces".
+covered in *Combo Pieces*.
+
+<pile>{{Dark Ritual}} {{Lotus Petal}} {{Arcum's Astrolabe}}</pile>
 
 #### DDFT and DDEFT
 
@@ -210,7 +214,7 @@ reasonably incorporate it if desired.
 #### Meandeck
 
 Meandeck lists are less concerned with going fast. They still want to run
-between 3-4 Rituals as it enables the more mana efficient "kill turns" however
+between 3-4 Rituals as it enables the more mana efficient *kill turns* however
 they likely only want between 1-3 Petals, normally around 2 at most. This is the
 variant that most favours the Astrolabe fixing plan being able to drop basics at
 a steady rate and favouring resilience over speed within the gameplan. If you
@@ -222,9 +226,9 @@ recommended.
 Cantrips are a staple of almost any Legacy deck that runs U and this one is no
 exception. Just like other combo variants, Doomsday wants to find the pieces it
 needs as quickly and reliably as it can so it tends to have a greater number of
-cantrips relative to other "fairer" decks. Unlike other decks like TES however,
+cantrips relative to other *fairer* decks. Unlike other decks like TES however,
 the cantrips can actually form an integral part of the combo itself and so
-ensuring these are at a maximum is key. You don't want to be having to "burn"
+ensuring these are at a maximum is key. You don't want to be having to *burn*
 through cantrips to find pieces to then find yourself unable to draw into an
 otherwise game-winning pile.
 
@@ -233,8 +237,10 @@ As a result I would expect any Doomsday deck to be running {{Brainstorm}},
 some lists will be running the previously cited {{Arcum's Astrolabe}} along with
 some spicier elements such as {{Street Wraith}} and {{Edge of Autumn}} however
 more on those later. Combine these with some of the cantripping protection
-elements and more niche "combo cards" like {{Conjurer's Bauble}} you should end
+elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
 up with a very high cantrip number.
+
+<pile>{{!Pn}} {{!BS}} {{!Pre}}</pile>
 
 #### DDFT
 
@@ -250,7 +256,7 @@ DDEFT would be also wanting to run the 8 plus 2-4 Preordain. Unlike DDFT however
 it cannot afford to run either cycling effects like Street Wraith, nor can it
 run Arcum's Astrolabe. With {{Experimental Frenzy}} out you cannot easily cast
 either card from the top of your deck thus increasing the liklihood of
-"whiffing" whilst with a Frenzy out. This shouldn't matter however as a Frenzy
+*whiffing* whilst with a Frenzy out. This shouldn't matter however as a Frenzy
 can itself generate such a high potential card advantage that having less
 cantrips is considered fine.
 
@@ -280,6 +286,8 @@ Interaction can come in many forms such as proactive discard effects like
 running these are all options available to a Doomsday pilot. Normally you would
 want at least 8 pieces of protection maindeck with additional sideboard slots
 dedicated to more specific interaction.
+
+<pile>{{!TS}} {{!FoW}} {{Veil of Summer}} {{Teferi, Time Raveler}}</pile>
 
 #### DDFT
 
@@ -316,7 +324,7 @@ removal like {{Abrupt Decay}} too.
 
 ### 2.5 Combo Pieces
 
-Although the deck is normally a "one card combo" there are certain other pieces
+Although the deck is normally a *one card combo* there are certain other pieces
 needed to make it work it the most efficient way possible. These are often cards
 that may have limited usefulness outside of winning the game. Normally decks
 have 1-2 raw card advantage engine pieces {{Ideas Unbound}}, {{Act on Impulse}}
@@ -335,8 +343,10 @@ provides free storm and can enable the easy casting of {{Echo of Eons}}.
 Finally some sort of win condition is required. This can be in the form of
 {{Tendrils of Agony}}, {{Thassa's Oracle}} or even {{Collective Brutatlity}}.
 {{Burning Wish}} can also take this spot as it can tutor up a Tendrils if
-needed. You want to run as few "dead" cards as possibly and generally the win
+needed. You want to run as few *dead* cards as possibly and generally the win
 condition is counted as such so you only want 1-2 of them.
+
+<pile>{{!ToA}} {{!LED}} {{!TO}}</pile>
 
 #### DDFT
 
@@ -357,7 +367,7 @@ cards can be a liability as, with Frenzy out, you will not be able to cast them
 however you can still cast cards that have been exiled. This then rules out the
 use of Echo of Eons and, as mentioned previously, this also prevents the
 effective use of cyclers. DDEFT should also run the full 4 Lion's Eye Diamonds.
-Being able to pay {{0}} for gain {{BBB}}, {{UUU}} or {{RRR}} and "draw a card"
+Being able to pay {{0}} for gain {{BBB}}, {{UUU}} or {{RRR}} and draw a card,
 all the while effectively ignoring the downside makes it an even more powerful
 card than in other lists.
 
@@ -393,6 +403,8 @@ Delta and 4 {{Scalding Tarn}} or 3 Tarn and 1 {{Bloodstained Mire}}. Being able
 to fetch a basic Island is more crucial than a basic swamp as that tends to
 allow you to get into the game in the first place and the majority of your deck
 is {{U}} based cantrips anyways.
+
+<pile>{{Island|RAV}} {{Underground Sea}} {{Swamp|RAV}}</pile>
 
 #### DDFT and DDEFT
 
@@ -487,6 +499,8 @@ Crowns}} as a potential option or {{Uro, Titan of Nature's Wrath}}.
 
 Veil and Decay are the biggest boons for playing {{G}}.
 
+<pile>{{Monastery Mentor}} {{Pyroblast}} {{Abrupt Decay}}</pile>
+
 ### 3.4 No Splash
 
 There is some potential for running a straight {{UB}} list with no splash
@@ -507,7 +521,7 @@ with the Oracle trigger on the stack all the while avoiding cards like
 
 Budget and consistent mana is the biggest boon for playing straight {{UB}}.
 
-**PICTURE OF DIVINING WITCH
+<pile>{{Divining Witch}}</pile>
 
 ## 4. The Mechanics of Resolving Doomsday
 
@@ -521,7 +535,7 @@ A large part of the confusion for the physical resolution of it stems from the
 wording on the original Weatherlight printing of {{Doomsday}}. See the card
 below along with the original rules text printed:
 
-**PICTURE OF OG Doomsday
+<pile>{{Doomsday|WTH}}</pile>
 
 > Pay half your life, rounded up:  
 > Put your graveyard on top of your library, then remove all but five cards of
@@ -542,7 +556,7 @@ quite put out that it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-**PICTURE OF A25 Doomsday
+<pile>{{Doomsday|A25}}</pile>
 
 > Search your library and graveyard for five cards and exile the rest.  
 > Put the chosen cards on top of your library in any order.  
@@ -589,10 +603,10 @@ worrying about becoming your own enemy.
 
 There is one final point I wish to touch on which is learning Doomsday piles
 (sometimes referred to as stacks). The first questions that people tend to ask
-other than "what is the currently played standard list" is often "what are the
-basic piles". The key mechanics are explained here on the wiki already and my
+other than "what is the currently played standard list?" is often "what are the
+basic piles?". The key mechanics are explained here on the wiki already and my
 last article went over some of them briefly but people then ask for more. One
-question that is asked is "can I get a list of piles please?**
+question that is asked is "can I get a list of piles please?
 
 Back in the days of the Stormboards there was a pile document maintained that
 tried to list every conceivable Doomsday pile, the card requirements, mana
@@ -632,7 +646,7 @@ Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 **SCREENSHOT PICTURE OF TWEET AND PICTURE
 
 Have a go at working out this little puzzle checking the meandeck lists on the
-wiki or the recent 5-0 lists linked above and see if you can work it out :)  
+wiki or the recent 5-0 lists linked above and see if you can work it out :) **Divining witch face?**  
 The answer may be found below!
 
 **SOME SORT OF SPOILER TAGGING OR GAP
