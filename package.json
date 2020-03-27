@@ -10,6 +10,7 @@
     "axios": "^0.19.1",
     "classnames": "^2.2.6",
     "dayjs": "^1.8.23",
+    "exenv": "^1.2.2",
     "gatsby": "^2.20.4",
     "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-sass": "^2.2.1",
@@ -23,6 +24,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-highlight-words": "^0.16.0",
+    "react-load-script": "0.0.6",
     "react-markdown": "^4.3.1"
   },
   "devDependencies": {

@@ -14,6 +14,7 @@ import Mana from '../Mana';
 import Prettylink from '../Prettylink';
 import Quote from '../Quote';
 import Table from '../Table';
+import Tweet from '../Tweet';
 import useStyles from './styles';
 
 
@@ -43,7 +44,7 @@ export default function Markdown({ barf, className, source }) {
   const parseHtml = htmlParser({
     isValidNode: node => node.type !== 'script',
     processingInstructions: [
-      /* eslint-disable react/display-name */
+      /* eslint-disable react/display-name, react/prop-types */
       {
         processNode: node => React.createElement(Decklist, {
           barf,
@@ -61,7 +62,11 @@ export default function Markdown({ barf, className, source }) {
         processNode: () => React.createElement('span', {className: classes.pile}),
         shouldProcessNode: ({ name }) => name === 'pile',
       },
-      /* eslint-enable react/display-name */
+      {
+        processNode: ({ attribs }) => React.createElement(Tweet, {id: attribs.id}),
+        shouldProcessNode: ({ name }) => name === 'tweet',
+      },
+      /* eslint-enable react/display-name, react/prop-types */
     ]
   });
 

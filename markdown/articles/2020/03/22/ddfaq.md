@@ -3,8 +3,6 @@ authors: Doishy
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr"><a href="https://t.co/FxoWxan3wD">pic.twitter.com/FxoWxan3wD</a></p>&mdash; 宮坂 (@misc_mtg) <a href="https://twitter.com/misc_mtg/status/1242429703622782976?ref_src=twsrc%5Etfw">March 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
 With the influx of new interest towards the archetype, there has been a rise in
 new players gravitating towards our favourite {{BBB}} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
@@ -13,6 +11,8 @@ at least start answering many of the questions [in my first
 article](/article/2020/03/12/pretty-mean-deck.md), which you should really have
 a read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
+
+<tweet id="1242429703622782976"></tweet>
 
 1. The different Doomsday archetypes
     1. DDFT
