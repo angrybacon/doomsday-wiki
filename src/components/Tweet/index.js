@@ -1,3 +1,4 @@
+import c from 'classnames';
 import E from 'exenv';
 import PropTypes from 'prop-types';
 import React, { useCallback, useEffect, useRef, useState  } from 'react';
@@ -11,7 +12,7 @@ import useStyles from './styles';
 export default function Tweet({ id }) {
 
   const root = useRef(null);
-  const [ height, setHeight ] = useState(0);
+  const [ height, setHeight ] = useState(200);
   const [ loading, setLoading ] = useState(true);
   const [ ready, setReady ] = useState(false);
   const [ should, setShould ] = useState(false);
@@ -56,12 +57,10 @@ export default function Tweet({ id }) {
   return (
     <div className={classes.root} style={{height}}>
       {should && <Script onLoad={onLoad} url="https://platform.twitter.com/widgets.js" />}
-      {loading && (
-        <div className={classes.loader}>
-          <CircularProgress color="secondary" component="span" size={60} />
-        </div>
-      )}
       <div className={classes.container} ref={root} />
+      <div className={c(classes.loader, {[classes.loading]: loading})}>
+        {loading && <CircularProgress color="secondary" component="span" size={60} />}
+      </div>
     </div>
   );
 }
