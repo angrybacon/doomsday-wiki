@@ -18,6 +18,14 @@ import Tweet from '../Tweet';
 import useStyles from './styles';
 
 
+/* eslint-disable react/prop-types */
+const  Paragraph = ({ children }) => {
+  const component = children[0].type.displayName === 'ParsedHtml' ? 'div' : 'p';
+  return <Typography children={children} component={component} gutterBottom />;
+};
+/* eslint-enable react/prop-types */
+
+
 export default function Markdown({ barf, className, source }) {
 
   const classes = useStyles();
@@ -32,6 +40,7 @@ export default function Markdown({ barf, className, source }) {
     image: rest => <img {...rest} className={classes.image} />,
     link: Prettylink,
     linkReference: Prettylink,
+    paragraph: Paragraph,
     table: ({ children }) => <Table children={children} className={c({[classes.barf]: barf})} />,
     tableBody: ({ children }) => <TableBody children={children} />,
     tableCell: ({ align, children }) => <TableCell {...{align: align || undefined, children}} />,

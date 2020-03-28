@@ -3,6 +3,8 @@ authors: Doishy
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 
+<tweet id="1242429703622782976"></tweet>
+
 With the influx of new interest towards the archetype, there has been a rise in
 new players gravitating towards our favourite {{BBB}} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
@@ -11,8 +13,6 @@ at least start answering many of the questions [in my first
 article](/article/2020/03/12/pretty-mean-deck.md), which you should really have
 a read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
-
-<tweet id="1242429703622782976"></tweet>
 
 1. The different Doomsday archetypes
     1. DDFT
@@ -642,7 +642,7 @@ d8dk32 recently forwarded me a tweet by Steven Menendian (designer of the 2012
 iteration of Meandeck Doomsday) who posted this screenshot as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just got a turn 1 win. Build the pile. <a href="https://t.co/VKAAf6nQjL">pic.twitter.com/VKAAf6nQjL</a></p>&mdash; Stephen Menendian (@SMenendian) <a href="https://twitter.com/SMenendian/status/1242650950415691776?ref_src=twsrc%5Etfw">March 25, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<tweet id="1242650950415691776"></tweet>
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki or the recent 5-0 lists linked above and see if you can work it out :)  
