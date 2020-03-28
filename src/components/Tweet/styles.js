@@ -6,6 +6,7 @@ export default makeStyles(theme => ({
     '& > *': {
       margin: '0 auto !important',
     },
+    maxWidth: '100%',
   },
   loader: {
     alignItems: 'center',
