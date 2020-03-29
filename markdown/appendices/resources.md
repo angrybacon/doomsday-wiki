@@ -16,6 +16,8 @@ title: Other Doomsday Resources
   [YouTube](https://www.youtube.com/channel/UC8jP7pO-rpfhn0_Bg7CIp2w)
 - Ethan *monkeyscantcry* Formicella:
   [Twitch](https://www.twitch.tv/monkeyscantcry)
+- Martin *nevilshute* Nielsen:
+  [YouTube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)
 - Romario *Romariovidal* Neto:
   [Twitch](https://www.twitch.tv/romariovidal)
 
