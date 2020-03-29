@@ -55,17 +55,17 @@ export default function Markdown({ barf, className, source }) {
     processingInstructions: [
       /* eslint-disable react/display-name, react/prop-types */
       {
-        processNode: node => React.createElement(Decklist, {
+        processNode: ({ attribs }) => React.createElement(Decklist, {
           barf,
           collapsible: true,
-          path: node.attribs['deckfile'],
+          path: attribs.deckfile,
         }),
         replaceChildren: true,
         shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
       },
       {
         processNode: () => React.createElement(Mana),
-        shouldProcessNode: node => node.name === 'mana',
+        shouldProcessNode: ({ name }) => name === 'mana',
       },
       {
         processNode: () => React.createElement('span', {className: classes.pile}),

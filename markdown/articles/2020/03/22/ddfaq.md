@@ -3,7 +3,7 @@ authors: Doishy
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 
-<tweet id="1242429703622782976"></tweet>
+<tweet id="1242429703622782976" />
 
 With the influx of new interest towards the archetype, there has been a rise in
 new players gravitating towards our favourite {{BBB}} sorcery. With this surge
@@ -286,7 +286,7 @@ running these are all options available to a Doomsday pilot. Normally you would
 want at least 8 pieces of protection maindeck with additional sideboard slots
 dedicated to more specific interaction.
 
-<pile>{{!TS}} {{!Force of Will}} {{Veil of Summer}} {{Teferi, Time Raveler}}</pile>
+<pile>{{!TS}} {{!Force of Will}} {{!Veil of Summer}} {{!Teferi, Time Raveler}}</pile>
 
 #### DDFT
 
@@ -642,11 +642,11 @@ d8dk32 recently forwarded me a tweet by Steven Menendian (designer of the 2012
 iteration of Meandeck Doomsday) who posted this screenshot as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
-<tweet id="1242650950415691776"></tweet>
+<tweet id="1242650950415691776" />
 
 Have a go at working out this little puzzle checking the meandeck lists on the
-Wiki or the recent 5-0 lists linked above and see if you can work it out :)  
-**Divining witch face?** The answer may be found below!
+Wiki and see if you can work it out :)  
+The answer may be found below!
 
 **SOME SORT OF SPOILER TAGGING OR GAP
 
