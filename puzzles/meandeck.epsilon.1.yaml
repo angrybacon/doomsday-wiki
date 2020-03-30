@@ -1,19 +1,19 @@
 title: "Meandeck vs Dredge"
 authors:
-  - Steven Menendian
+  - Stephen Menendian
   - Doishy
 deckFile: "2020/03/meandeck.buw.txt"
 oppBoard:
-  - Narcomaeba
+  - Narcomoeba
   - City of Brass
 yourHand:
-  - Dark Ritual
   - Doomsday
   - Doomsday
-  - Brainstorm
-  - Street Wraith
-  - Snow-Covered Swamp
   - Thassa's Oracle
+  - Snow-Covered Swamp
+  - Brainstorm
+  - Dark Ritual
+  - Street Wraith
 yourBoard:
 notes: >
   Turn 1 on the draw in game 1 your Dredge opponent runs out a classic Faithless
@@ -27,9 +27,10 @@ solution:
   - Preordain
   - X
 solutionNotes: >
-  The main thing to see here is the fact we have a decent Brainstorm pile, but no
-  U to cast Brainstorm. Street Wraith makes this easy then to find the U source and
-  put Oracle back into the pile. You cycle the Wraith into the Petal that allows
-  you to cast Brainstorm. You put back Preordain and Oracle. Cast LED, cycle, crack
-  for UUU and cast Preordain into Oracle. If you are running a third "free-cycle" 
-  card you can play around removal too by having X as another Street Wraith. 
+  The main thing to see here is the fact we have a decent Brainstorm pile, but
+  no U to cast Brainstorm. Street Wraith makes this easy then to find the U
+  source and put Oracle back into the pile. You cycle the Wraith into the Petal
+  that allows you to cast Brainstorm. You put back Preordain and Oracle. Cast
+  LED, cycle, crack for UUU and cast Preordain into Oracle. If you are running a
+  third "free-cycle" card you can play around removal too by having X as another
+  Street Wraith.

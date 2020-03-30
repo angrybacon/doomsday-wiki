@@ -646,5 +646,4 @@ Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)  
-The answer may be found in our
-[puzzles](/puzzles/) page
+The answer may be found in our [puzzles](/puzzles/) page.
