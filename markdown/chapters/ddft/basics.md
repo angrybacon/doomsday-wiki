@@ -3,21 +3,11 @@ order: 0
 title: The Basics
 ---
 
-This section explains the basic Doomsday piles that attempt to end the game
-directly with a lethal Tendrils of Agony. Fortunately, these piles will also be
-the piles that you will execute most frequently and likely win most of your
-games with.
+The goal of all Magic decks is to win the game. Doomsday aims to do so by casting its namesake card and constructing a "pile" of 5 cards
+tailored to the current game state. While it would be nigh impossible to enumerate every game state and pile variation, we can definitely
+go over the basics. There are 2 cards that we will be using in conjuction with Doomsday to actually bring about our opponent's demise: 
+Tendrils of Agony (typically found via Burning Wish), and Thassa's Oracle.
 
-There will however, be times where you will build piles that win with Laboratory
-Maniac, or build up a higher Storm count with one of several tricks, or build a
-pile that plays around Pyroblast on one of your draw spells, or even optimize
-for the highest probability of being successful against a Surgical Extraction in
-your opponent's hand.
-
-Before this becomes too intimidating, let's first consider the most simple
-Doomsday piles. And since this is the starting point for reading about Doomsday
-piles in general, we will first explain a bit about the notation that we use
-when writing down piles.
 
 ## Basic Doomsday Piles
 
@@ -60,62 +50,84 @@ only 14 lifeloss. Note that the {{UU}} for IU is often paid for by a Lion's Eye
 Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond preceding
 the Doomsday you're already up to 18 lifeloss. Add in a Duress or an extra
 ritual beforehand and they're dead.  
-If you are low on life you'll need more mana to exchange the SW with a different
-cantrip.
+If you are low on life or need an extra storm, you'll can exchange the Street Wraith with a Ponder
+at the cost of 1 more {{U}} mana.
+
+> Cantrip in hand - {{BBB}} + {{UUU}}
+
+<pile>{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</pile>
+
+1. Cast Doomsday and build the above pile
+2. Cast Cantrip from hand, draw IU
+3. Cast IU, draw LP, LP, SW
+4. Cycle SW to draw Oracle
+5. Use the Petals to cast Oracle
+6. Oracle triggers with no cards left in your deck for the win
+
+This pile costs the same as the Tendrils pile, but the storm count doesn't matter, which obviously is great when you can't
+generate enough storm.
 
 #### Infernal Contract
 
-> Cantrip in hand - {{BBB}} + {{UBBB}} - 7 Storm
+> Cantrip in hand - {{BBB}} + {{1UBBB}} - 8 Storm
 
-<pile>{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
+<pile>{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</pile>
 
 1. Cast Doomsday and build the above pile
 2. Cast cantrip, draw IC
-3. Cast IC, draw LP, DR, DR, ToA
-4. Cast LP
-5. Cast DR, DR
-6. Cast ToA
+3. Cast IC, draw LP, LED, LED, ToA
+4. Cast LP and the LEDs
+5. Cast BW, holding priority, then crack LEDs for BBBBBB
+6. Retrive ToA from your sideboard and cast it
 
-This pile costs {{BBB}} + {{UBBB}}, requires you have at least 2 life
-post-Doomsday, and results in 7 Storm. Like with Ideas Unbound, the mana cost
-for the draw spell can be - and often is - paid for by a Lion's Eye Diamond in
+This pile costs {{BBB}} + {{1UBBB}}, requires you have at least 2 life
+post-Doomsday, and results in 8 Storm. Like with Ideas Unbound, the mana cost
+for the Draw-4 can be - and often is - paid for by a Lion's Eye Diamond in
 response to the first cantrip.
 
 ### Double Cantrip Piles
 
 #### Ideas Unbound
 
-> SW, SW in hand - {{BBB}} + {{1}} - 7 Storm
+> Pn, Pn in hand - {{BBB}} + {{1UU}} - 9 Storm
 
 <pile>{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</pile>
 
 1. Cast Doomsday and build the above pile
-2. Activate SW, draw LED
+2. Cast a Ponder to draw LED
 3. Cast LED
-4. Activate SW, hold priority crack LED for {{UUU}}, draw IU
+4. Cast the other Ponder, hold priority crack LED for {{UUU}}, draw IU
 5. Cast IU, draw LP, LED, BW
 6. Cast LP
 7. Cast LED, crack LP for {{R}}
 8. Cast BW, hold priority crack LED for {{BBB}}, get ToA
 9. Cast ToA
 
-This pile has cost only {{BBB}} + {{1}} and 4 life to execute and results in 7
-Storm. This pile is quite efficient when it comes to mana. We use the second
-cantrip in hand to draw a Lion's Eye Diamond before executing the rest of the
+This pile costs {{BBB}} + {{1UU}} to execute and results in 9
+Storm. We use the second cantrip in hand to draw a Lion's Eye Diamond before executing the rest of the
 pile and use that Lion's Eye Diamond to pay for much of the rest of the pile. We
-basically turn our additional Street Wraith into a Lion's Eye Diamond with
+basically turn our additional cantrip into a Lion's Eye Diamond with
 Doomsday.
 
-One difficulty with this pile is that Ideas Unbound actually draws Burning Wish
-before we can sacrifice the second Lion's Eye Diamond in the pile to produce red
-mana. Therefore, one of the Lion's Eye Diamonds in the pile is replaced with a
-Lotus Petal, which together with one blue mana left from the first Lion's Eye
-Diamond pays for the Burning Wish. The second Lion's Eye Diamond is sacrificed
-for three black mana and pays for all but 1 mana of Tendrils of Agony.
+> Pn, Pn in hand - {{BBB}} + {{UU}}
+
+<pile>{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</pile>
+
+1. Cast Doomsday and build the above pile
+2. Cast a Ponder to draw LED
+3. Cast LED
+4. Cast the other Ponder, hold priority crack LED for {{UUU}}, draw IU
+5. Cast IU, draw LP, LP, TO
+6. Use the Petals to cast Oracle
+7. Oracle triggers with no cards left for the win
+
+Double cantrip piles are cheaper and more straightforward with Thassa's Oracle, requiring merely the cost of
+the 2 cantrips post-Doomsday. Note that in each of these piles, the cantrip doesn't matter, you simply need the
+resources to cast it. If you had 2 Street Wraiths in hand, this pile would cost 4 life after Doomsday, but no additional mana.
 
 #### Infernal Contract
 
-> CB on board, Pre in hand - {{BBB}} + {{1U}} - 9 Storm
+> CB, Pre in hand - {{BBB}} + {{2U}} - 9 Storm
 
 <pile>{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</pile>
 
@@ -130,22 +142,19 @@ for three black mana and pays for all but 1 mana of Tendrils of Agony.
 
 Double cantrip piles with Infernal Contract require a Conjurer's Bauble, since
 if you can't put a card back into your deck you'll deck yourself when you try to
-draw 4.
+draw 4. This is not a situation that you will likely find yourself in, as Draw-4s like Infernal Contract
+and Conjurer's bauble tend to be uncommon deckbuilding choices in the most recent DDFT lists.
 
 ## Variations
 
-That's it for the basic and most common piles that end with Tendrils of Agony.
+That's it for the basic and most common piles.
 There are many variations of each pile and it doesn't really make sense to list
-them all. In each of the above piles you may replace Street Wraith with a
-Ponder, you simply need the extra blue mana to pay for it. Also of note, the use
+them all. In each of the above piles you may replace one cantrip with another,
+you simply need the life or mana to use it. Also of note, the use
 of Conjurer's Bauble to draw into the piles allows for lower mana or life costs
 but does result in less Storm being generated during the play line.
 
-The most important part of learning how to cast Doomsday, is to think how you
-would like to cast a lethal Tendrils of Agony, and then think of the cards
-you'll need to get there. Doomsday is essentially a 5 cards tutor.
-
-The trick is to try not to think of the specifics too much. Try to break
+The most important part of learning how to cast Doomsday is to try not to think of the specifics too much. Try to break
 everything down into resources. The key ones are the cards you hold in hand, the
 mana available, any other cards in play like Conjurer's Bauble and your deck
 construction. As you get more familiar with these factors you can then start to
@@ -158,7 +167,7 @@ chapters, you'll learn tricks for increasing Storm count, swapping cards into
 your piles with Brainstorm, and crafting piles that can win through certain
 types of disruption.
 
-## Summary
+## Conclusion
 
 1. You generally need a card that lets you draw most of your pile
 2. Lethal Storm via Tendrils of Agony is the most common win condition for the
