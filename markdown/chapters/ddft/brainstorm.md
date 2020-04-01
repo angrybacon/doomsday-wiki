@@ -50,7 +50,7 @@ The extra card in hand need not be a win condition; any card that you want in yo
 > BS, LP in hand - {{BBB}} + {{1UB}} - 9 Storm
 
 
-<pile>{{!IC}} {{!DR}} {{!BW}} {{!LED}} {{!LED}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!BW}} {{!LED}} {{!LED}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast BS, draw IC, DR, BW, put back BW, LP
@@ -69,7 +69,7 @@ Cards in hand need not even be "useful" at all. Dead cards can be traded in as w
 
 > BS, Land in hand - {{BBB}} + {{U}}
 
-<pile>{{!LED}} {{!SW}} {{!Pn}} {{!TO}} {{!Pn}}</pile>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!TO}} {{!Pn}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Brainstorm, draw LED, SW, Ponder, put back Land, then Ponder
@@ -86,7 +86,7 @@ The Brainstorm can even be in the pile, if you have another cantrip to retrieve 
 
 > Ponder, Land in hand - {{BBB}} + {{UU}}
 
-<pile>{{!BS}} {{!LED}} {{!SW}} {{!Pn}} {{!TO}</pile>
+<row variant="pile">{{!BS}} {{!LED}} {{!SW}} {{!Pn}} {{!TO}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Ponder to draw Brainstorm

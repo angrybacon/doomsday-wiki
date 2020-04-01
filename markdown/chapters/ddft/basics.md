@@ -55,7 +55,7 @@ at the cost of 1 more {{U}} mana.
 
 > Cantrip in hand - {{BBB}} + {{UUU}}
 
-<pile>{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</pile>
+<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Cantrip from hand, draw IU
@@ -71,7 +71,7 @@ generate enough storm.
 
 > Cantrip in hand - {{BBB}} + {{1UBBB}} - 8 Storm
 
-<pile>{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</pile>
+<row variant="pile">{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast cantrip, draw IC
@@ -111,7 +111,7 @@ Doomsday.
 
 > Pn, Pn in hand - {{BBB}} + {{UU}}
 
-<pile>{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast a Ponder to draw LED
