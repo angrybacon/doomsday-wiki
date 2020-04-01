@@ -131,10 +131,10 @@ The final Tendrils can be replaced with Burning Wish, but this will increase the
 mana artifact to be available in hand or on board.
 
 
-## Summary
+## Conclusion
 
 1. You don't always have to win the turn you cast Doomsday
 2. Pass-the-turn piles can be cheap and effective, especially when Thassa's Oracle is involved
-3. PTT piles leave you susceptible to disruption
+3. PTT piles leave you more susceptible to disruption
 4. It is possible to generate lethal Storm counts despite passing the turn, typically by using tricks to recycle cards. Mana is usually the primary constraint in such piles.
 5. Note that all of these piles can be used as same-turn piles, you simply need the extra resources to cast Doomsday and draw into your pile on the same turn. 

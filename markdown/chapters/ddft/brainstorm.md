@@ -20,7 +20,7 @@ Brainstorm can act as a simple cantrip into a pile, but it can do more interesti
 
 Let's discuss some examples:
 
-## Example 1
+### Example 1
 
 If you have a win condition in hand, you can Brainstorm to insert it into the pile, swapping it for additional mana.
 
@@ -44,7 +44,7 @@ it lets Brainstorm act almost likea ritual, *producing* {{UU}} mana for
 Ideas Unbound. It also increases the storm by 1 compared to the basic pile,
 since you get an extra spell in the pile.
 
-## Example 2
+### Example 2
 
 The extra card in hand need not be a win condition; any card that you want in your pile can be swapped in with Brainstorm.
 
@@ -64,7 +64,7 @@ In this example, you can see that the Storm count is again increased, as well as
 the amount of black mana needed decreased. Here, Brainstorm is letting you swap
 the Petal for a DR to cast IC.
 
-## Example 3
+### Example 3
 
 Cards in hand need not even be "useful" at all. Dead cards can be traded in as well.
 
@@ -81,13 +81,13 @@ Cards in hand need not even be "useful" at all. Dead cards can be traded in as w
 
 While this pile is vulnerable to removal on Oracle, its also extremely cheap and works with a rather bad hand.
 
-## Example 4
+### Example 4
 
 The Brainstorm can even be in the pile, if you have another cantrip to retrieve it
 
 > Ponder, Land in hand - {{BBB}} + {{UU}}
 
-<row variant="pile">{{!BS}} {{!LED}} {{!SW}} {{!Pn}} {{!TO}</row>
+<row variant="pile">{{!BS}} {{!LED}} {{!SW}} {{!Pn}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Ponder to draw Brainstorm

@@ -112,16 +112,20 @@ nevertheless useful to know, since its execution requires no unusual cards. A si
 type of pile was a reasonable option though you are unlikely to encounter such a situation in the wild; for example, your opponent has
 a {{Leyline of sanctity}} and a {{Meddling Mage}} naming Thassa's Oracle
 
+### Example 1
+
 > Ponder, LED, LED in hand - {{BBB}} + {{U}} - 6 Storm
 
 <row variant="pile"> {{!BW}} {{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}} </row>
 
-In it's crudest form, you use Doomsday as a tutor for Burning Wish, which then retrieves Empty the Warrens. The remainder
+In its crudest form, you use Doomsday as a tutor for Burning Wish, which then retrieves Empty the Warrens. The remainder
 of the pile is discard or other interactive spells, to ensure your opponent can't deal with the goblins before they deal with your opponent.
+
+### Example 2
 
 > Ponder, LED in hand - {{BBB}} + {{1U}} + {{BBB}} - 8 Storm
 
-<row variant="pile"> {{!IU}} {{!LP}} {{!LED}} {{!BW}} {{!DD}} </pile>
+<row variant="pile"> {{!IU}} {{!LP}} {{!LED}} {{!BW}} {{!DD}} </row>
 
 In this slightly more complicated variant, you use Doomsday to set up a pile that makes Goblins, and then the next turn you use another
 Doomsday to add more cards to your deck so you have time to make a lethal attack.
@@ -138,6 +142,8 @@ untapped by Time Spiral.
 
 A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
+### Example 1
+
 > 2 cards in hand - {{1UUR}} + ({{1R}}) - 9 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
@@ -149,9 +155,11 @@ Note that as with Echo piles, the number of cards left over to shuffle back into
 to avoid decking yourself. Also note that the listed cost assumes that you can produce {{1R}} with the
 lands that you untap with Time Spiral.
 
-## Summary
+## Conclusion
 
-1. These piles are useful to know, for their historical significance and
-   occasional practical use
-2. These piles aren't going to come up all that often in a typical game, so
+1. These piles aren't going to come up all that often in a typical game, so
    don't feel you need to memorize them
+2. Many of these piles are high risk in some form or another. Don't be afraid of this though. If one of these types
+of piles gives you a 10% chance to win, that could be 10% more than any other option.
+3. Consider these less as something to memorize and more as a source of inspiration for thinking outside the box when it comes to pile construction
+
