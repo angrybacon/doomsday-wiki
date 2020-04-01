@@ -11,7 +11,7 @@ and saying "Go."
 One of the main uses of pass-the-turn piles is
 to become immune to discard. Under the right conditions, you can cast Doomsday, pass,
 and untap with all the resources you need to win on the battlefield or the top of your deck,
-thereby invalidating an opponen't interaction. 
+thereby invalidating an opponent's interaction. 
 
 Another situation in which you may choose to do a pass the turn pile is when you don't have a
 draw effect, but your life total is not threatened. Here you can use your draw step as the cantrip. 
@@ -37,8 +37,8 @@ conceivably cast Doomsday on turn 1, and make your second land drop to generate 
 
 <row variant="pile">{{!IC}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
 
-This is essentially the same pile, but with Infernal Contract as the draw spell. It has a different cost,
-but it's worth noting that this could be paid with a Ritual.
+This is essentially the same pile as Example 1, but with Infernal Contract as the draw spell. It has a different cost,
+but it's worth noting that this could be paid with a Ritual, meaning fewer lands needed if the situation permits.
 
 ### Example 3  
 > Lion's Eye Diamond on the board - {{0}}
@@ -79,7 +79,7 @@ Ideas Unbound, which draws 2 LEDs and an Echo of Eons. Crack both LEDs for RRRUU
 This will draw the remaining 7 cards. Recast the mana artifacts, then the Burning Wish to grab Tendrils and cast it off LED mana.
 
 This pile is quite mana efficient, and even approaches a lethal storm count on its own. If the 2 cards in hand are castable spells
-(i.e. Rituals, Petals) you can increase the storm count assuming you have the resources to cast those spells. Echo creates some
+(i.e. Rituals, Petals) you can easily reach a lethal storm count assuming you have the resources to cast those spells. Echo creates some
 unusual constraints on the pile though: the precise number of cards leftover is important so Echo doesn't kill you, and there is
 a chance your opponent draws a fresh hand full of interaction.
 
@@ -137,3 +137,4 @@ mana artifact to be available in hand or on board.
 2. Pass-the-turn piles can be cheap and effective, especially when Thassa's Oracle is involved
 3. PTT piles leave you susceptible to disruption
 4. It is possible to generate lethal Storm counts despite passing the turn, typically by using tricks to recycle cards. Mana is usually the primary constraint in such piles.
+5. Note that all of these piles can be used as same-turn piles, you simply need the extra resources to cast Doomsday and draw into your pile on the same turn. 

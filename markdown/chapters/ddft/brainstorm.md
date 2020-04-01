@@ -104,4 +104,4 @@ turn your mere Ponder into a fancy Brainstorm to then turn your dead cards into 
 
 1. You can use BS to exchange resources between your hand and the pile
 2. These resources need not be mana or wincons; dead cards/slots in your pile are resources in this sense.
-3. Be judicious with your Brainstorms pre-combo. Too aggressive and you may find yourself in a situation where you could have won with more patience.
+3. Be judicious with your Brainstorms pre-combo, as they can be powerful enablers for your combo turn.
