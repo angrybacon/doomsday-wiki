@@ -36,7 +36,7 @@ my opinion).
 
 With Experimental Frenzy in play, casting Doomsday wins the game.
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!DD|A25}} {{!ToA}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!DD|A25}} {{!ToA}}</row>
 
 With this pile, you can get infinite Storm.
 
@@ -50,7 +50,7 @@ If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
 have {{2UR}} and a cantrip in hand using an Act on Impulse pile. An example of this
 line.
 
-<pile>{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</pile>
+<row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</row>
 
 1. Cast Brainstorm, put back both LEDs, Storm 5
 2. Cast Act on Impulse, exiling LED LED Preordain, Storm 6
@@ -60,7 +60,7 @@ line.
 These are probably the most common piles, but there are variations on them. For
 example, take this PTT pile where you need 4 mana on the next turn.
 
-<pile>{{!EF}} {{!LED}} {{!LED}} {{!DD|A25}} {{!ToA}}</pile>
+<row variant="pile">{{!EF}} {{!LED}} {{!LED}} {{!DD|A25}} {{!ToA}}</row>
 
 You can use this pile when you have 4 mana sources in play. If you have a
 Conjurer's Bauble in play, this is a win, if not, this is a PTT pile.
@@ -69,7 +69,7 @@ If your opponent has Phyrexian Revoker on LED or a Chalice of the Void set to 0
 and you have a Frenzy in play, you can use this infinite Storm pile utilizing
 Dark Ritual as an alternative to LED.
 
-<pile>{{!DR}} {{!DR}} {{!DR}} {{!DD}} {{!ToA}}</pile>
+<row variant="pile">{{!DR}} {{!DR}} {{!DR}} {{!DD}} {{!ToA}}</row>
 
 It does the same thing as the other piles, but it doesn't use LED.
 
@@ -77,15 +77,15 @@ Due to the fact that we only need to be making 4 mana each time we loop doomsday
 to eventually cast Tendrils, the pile can be altered to fit in a discard spell
 or bounce spell.
 
-<pile>{{!Dur}} {{!LED}} {{!LED}} {{!DD}} {{!ToA}}</pile>
+<row variant="pile">{{!Dur}} {{!LED}} {{!LED}} {{!DD}} {{!ToA}}</row>
 
 Or
 
-<pile>{{!LED}} {{!Dur}} {{!LED}} {{!DD}} {{!ToA}}</pile>
+<row variant="pile">{{!LED}} {{!Dur}} {{!LED}} {{!DD}} {{!ToA}}</row>
 
 Or
 
-<pile>{{!LED}} {{!ET}} {{!LED}} {{!DD}} {{!ToA}}</pile>
+<row variant="pile">{{!LED}} {{!ET}} {{!LED}} {{!DD}} {{!ToA}}</row>
 
 The first option is for when you have {{B}} floating, while the second and third do
 not require {{B}} floating. Both generate infinite Storm, and play around different
@@ -100,7 +100,7 @@ Agony gets exiled with Surgical Extraction.
 Due to the fact that Collective Brutality makes you gain 2 life, you can loop
 Doomsday.
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</row>
 
 ## Act on Impulse
 
@@ -111,7 +111,7 @@ Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
 piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
 using this pile. You need {{2UR}}, a cantrip, and 3 Storm for this to work.
 
-<pile>{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!Pn}}</pile>
+<row variant="pile">{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!Pn}}</row>
 
 1. Cast cantrip, Storm 4
 2. Cast AoI, no mana floating, Storm 5
@@ -125,7 +125,7 @@ using this pile. You need {{2UR}}, a cantrip, and 3 Storm for this to work.
 Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
 
-<pile>{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</pile>
+<row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</row>
 
 This pile creates 5 Storm, which is usually enough.
 

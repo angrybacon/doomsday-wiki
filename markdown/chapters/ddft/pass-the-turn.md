@@ -40,7 +40,7 @@ a draw effect and therefore build:
 
 > {{UU}} - 5 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 Next turn, for only {{UU}} you can draw and cast Ideas Unbound, followed by 2 Lion's
 Eye Diamonds, then cycle Street Wraith into Burning Wish for Tendrils of Agony
@@ -65,11 +65,11 @@ to pay for Doomsday, the simplest piles are:
 
 > {{1UU}}
 
-<pile>{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</row>
 
 > {{UBBB}} or {{BBBB}}
 
-<pile>{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</row>
 
 Note that, as mentioned in the section on Laboratory Maniac, playing IC and LM
 in the same list is uncommon, but the pile is presented for the sake of clarity
@@ -80,19 +80,19 @@ LED.
 
 > LED in hand - {{B}}
 
-<pile>{{!SW}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
+<row variant="pile">{{!SW}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</row>
 
 > SW in hand - {{B}}
 
-<pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</row>
 
 > CB in play - {{B}}
 
-<pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</row>
 
 > SW in hand - {{1}}
 
-<pile>{{!LED}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
 
 Instead of using Lion's Eye Diamond to pay for Ideas Unbound we can also include
 some other card into the pile, to for example play through some card in the
@@ -101,15 +101,15 @@ location in the pile. There's also a trade-off between life and mana cost.
 
 > SW in hand - {{2UUB}}
 
-<pile>{{!Dur}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!Dur}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
 
 > SW in hand - {{2UUU}}
 
-<pile>{{!CoV}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!CoV}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
 
 > LED in play - {{2U}}
 
-<pile>{{!SW}} {{!IU}} {{!CoV}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!SW}} {{!IU}} {{!CoV}} {{!SW}} {{!LM}}</row>
 
 Naturally the Duress or Chain of Vapor can be swapped for another spell you'd
 like to cast, modifying cost of the pile appropriately.
@@ -127,7 +127,7 @@ all that often but it's worth being aware of them.
 
 > 5 lands in play - {{1BBBB}} - 11 Storm
 
-<pile>{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
 This pile works by using CB to cast ToA twice, using CB to rebuy it. To do it
 from no cards in hand requires a ton of lands on board, as well as {{Rain of
@@ -136,14 +136,14 @@ the onboard requirements are easier to manage.
 
 > DR, LED in hand - {{1B}} - 15 Storm
 
-<pile>{{!IC}} {{!LED}} {{!DR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!LED}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
 If you have Past in Flames in the sideboard you can use that as an engine to
 generate lethal storm.
 
 > DR in hand - {{BBRR}} - 10 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</row>
 
 This pile doesn't require the use of an artifact meaning it can beat a Null Rod
 or a {{Phyrexian Revoker}}, although having an LED available will make producing
@@ -153,7 +153,7 @@ You can also use Burning Wish to up your Storm count.
 
 > {{1BBBBR}} or {{1BBBRR}} - 7 Storm
 
-<pile>{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 The first BW finds IC in the sideboard to draw the rest of the pile. The second
 burning wish fetches ToA. A ritual or LED left in hand will help boost Storm

@@ -23,11 +23,11 @@ piles to compare with, one using IU and one using IC:
 
 > BS, BW in hand - {{BBB}} + {{UUU}} - 7 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 > BS, BW in hand - {{BBB}} + {{1UBBB}} - 8 Storm
 
-<pile>{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 Brainstorm can act as a simple cantrip into a pile, but it can do better here.
 We have a potential finisher in hand and we can use the BS to insert it into the
@@ -38,7 +38,7 @@ mana, etc.
 
 > BS, BW in hand - {{BBB}} + {{1U}} - 8 Storm
 
-<pile>{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast BS, draw LED, IU, SW and put back BW, IU
@@ -61,7 +61,7 @@ since you get an extra spell in the pile.
 > BS, BW in hand - {{BBB}} + {{1UB}} - 9 Storm
 
 
-<pile>{{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!LED}} {{!LED}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast BS, draw IC, DR, LP, put back BW, LP
@@ -78,7 +78,7 @@ the BW for a DR to cast IC.
 
 > BS, ToA in hand - {{BBB}} + {{U}} - 7 Storm
 
-<pile>{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LP}}</row>
 
 It follows the same lines of play as the above examples but does not require LED
 after the initial one used to cast IU as LP, DR and the {{U}} remaining after IU
@@ -102,7 +102,7 @@ Say we have BS, IU, and any one card in hand. We cast Doomsday and build:
 
 > BS, IU, X in hand - {{BBB}} + {{U}} - 8 Storm
 
-<pile>{{!LED}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!SW}} {{!LED}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast BS, draw LED, LED, SW and replace X, IU

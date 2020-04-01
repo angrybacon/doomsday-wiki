@@ -28,7 +28,7 @@ a tool to draw cards when using LED.
 
 > SW in hand - {{BBB}} + {{1UU}}
 
-<pile>{{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}</pile>
+<row variant="pile">{{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}</row>
 
 You should recognise the above example from the [Basics][basics].  
 Here you can see we can use CB to have a draw effect present even after we have
@@ -46,9 +46,9 @@ This also enables things like Double Doomsday piles.
 
 > CB in play, SW in hand - {{BBB}} + {{1UUR}} - 11 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 This has some overlap with what is described in the [Double Doomsday
 Piles][uncommon-piles] section document. Just as historically you could with
@@ -75,11 +75,11 @@ other cards in hand we need.
 
 > CB in play, BW and SW in hand - {{BBB}} - 7 Storm
 
-<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
 > CB in play, ToA and SW in hand - {{BBB}} - 6 Storm
 
-<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
 I know often you can find yourself with a key business spell in hand and no
 Brainstorm to move it with. You could use the SW to draw into a Brainstorm
@@ -99,7 +99,7 @@ pass-the-turn pile. More on this in the [pass-the-turn section][pass-the-turn].
 
 > LED in play, ToA in hand - {{1BBB}} - 13 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}</row>
 
 In this instance we can play ToA twice. We draw IC for our turn.
 
@@ -127,7 +127,7 @@ allows you to extend that to a pseudo-six cards.
 
 > CB in play, Pre in hand - {{BBB}} + {{1U}} - 9 Storm
 
-<pile>{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 Normally double cantrip piles that use a draw-4 would mean that you draw
 yourself to death. However, with CB in the deck, you can use the same trick as
@@ -145,11 +145,11 @@ for convenience:
 
 > CB in play, BW and SW in hand - {{BBB}} - 7 Storm
 
-<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
 > CB in play, ToA and SW in hand - {{BBB}} - 6 Storm
 
-<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
 If you notice, both result in wasted mana being left over. With the BW example
 you are left with U and with the ToA example you are left with U(B/R)(B/R) left
@@ -160,11 +160,11 @@ What if we were to swap the GP in the piles with a CB?
 
 > CB in play, BW and SW in hand - {{BBB}} + {{X}} - 8+ Storm
 
-<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</row>
 
 > CB in play, ToA and SW in hand - {{BBB}} + {{X}} - 9+ Storm
 
-<pile>{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</row>
 
 Suddenly the two piles look very different notation wise. Both now have a
 variable {{X}} value in their respective mana costs. We also see suddenly that
@@ -216,7 +216,7 @@ Pass the turn.
 
 > CB in play, ToA in hand - {{BBB}} + {{X1}} - 12+ Storm
 
-<pile>{{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}</pile>
+<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Pass the turn
@@ -264,7 +264,7 @@ nullify their Surgical.
 
 > CB in play, SW in hand -  {{BBB}} + {{UU}} - 6 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 If they cast Surgical in response to SW, you can use CB to send the target back
 into the deck. If they cast it in response to IU you can do the same trick. Once

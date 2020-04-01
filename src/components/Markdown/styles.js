@@ -20,13 +20,25 @@ export default makeStyles(theme => ({
   image: {
     maxWidth: '100%',
   },
-  pile: {
-    '@global img': {
+  row: {
+    '@global *': {
       alignSelf: 'center',
+    },
+    '@global img': {
       borderRadius: theme.shape.borderRadius,
-      width: '19%',
     },
     display: 'flex',
+  },
+  rowCentered: {
+    '@global *': {
+      width: '28%',
+    },
+    justifyContent: 'space-around',
+  },
+  rowPile: {
+    '@global *': {
+      width: '19%',
+    },
     justifyContent: 'space-between',
   },
 }));

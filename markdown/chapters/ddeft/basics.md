@@ -18,9 +18,9 @@ pile.
 Once an Experimental Frenzy is on board, a resolved Doomsday allows for a quick
 pile with innate durability.
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!TO}} {{!DD}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!TO}} {{!DD}}</row>
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</row>
 
 Both of these generate enough mana in pile to recast Doomsday and restart the
 loop, with the ToA pile being iterated as many times as necessary.

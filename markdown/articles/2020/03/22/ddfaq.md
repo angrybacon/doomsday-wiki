@@ -57,9 +57,9 @@ and a bit more comparison on each.
 
 ### 1.1 DDFT (DoomsDay Fetchland Tendrils)
 
-Discord Summary: *Lists that utilise traditional elements such as Burning WIsh,
-some sort of "draw 3/4" engine and focus on a Storm style approach to winning
-(however do not always require storm to win).*
+*Lists that utilise traditional elements such as Burning WIsh, some sort of draw
+3/4 engine and focus on a Storm style approach to winning (however do not always
+require storm to win).*
 
 [As mentioned last time](/article/2020/03/12/pretty-mean-deck.md), DDFT is the
 traditional name of historical iterations of the deck. We won't do a full
@@ -75,15 +75,14 @@ kill via a Doomsday pile with lethal {{Tendrils of Agony}} or
 {{Thassa's Oracle}} or a natural Tendrils storm kill without Doomsday. See an
 example pile below:
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!Pn}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pn}} {{!BW}}</row>
 
 Due to the cards used, the deck tends to be Grixis colours sometimes splashing
 Green for sideboard options.
 
 ### 1.2 DDEFT (Doomsday Experimental Frenzy Tendrils)
 
-Discord Summary: *Lists that utilise Experimental Frenzy as the primary engine
-to win.*
+*Lists that utilise Experimental Frenzy as the primary engine to win.*
 
 The summary defines this sub-archetype pretty well. {{Experimental Frenzy}} is a
 very powerful card advantage engine that can, under the right circumstances,
@@ -93,7 +92,7 @@ infinite life should you wish. The deck can pull off the same win methods as
 DDFT but also allows winning via infinite copies of {{Collective Brutality}}
 amongst other things (see example below).
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</row>
 
 Instead of using {{Burning Wish}} for additional copies of Doomsday, the deck
 uses cards like {{Lim-Dûl's Vault}} to act as tutor pieces prior to *going off*
@@ -103,10 +102,10 @@ the deck you are playing from).
 Due to the cards used, this deck also tends to be Grixis colours sometimes
 splashing Green for sideboard options.
 
-### 1.3 Meandeck Doomsday (We couldn't decide on a good acronym for this one)
+### 1.3 Meandeck Doomsday (we couldn't decide on a good acronym for this one)
 
-Discord Summary: *Lists that are less combo focused and incorporate reactive
-countermagic such as Force of Will within their game plan.
+*Lists that are less combo focused and incorporate reactive countermagic such as
+Force of Will within their game plan.*
 
 Meandeck Doomsday tends to play a slower gameplan than the other two variants
 focussing more on controlling the game prior to *going off*. The deck is more
@@ -116,9 +115,9 @@ less dedicated combo pieces such as {{Lion's Eye Diamond}} and more reactive
 control elements like {{Force of Will}}. The deck does not run Storm based win
 conditions either. An example pile is below:
 
-<pile>{{!Pd}} {{!Pn}} {{!EoA}} {{!LED}} {{!TO}}</pile>
+<row variant="pile">{{!Pd}} {{!Pn}} {{!EoA}} {{!LED}} {{!TO}}</row>
 
-*Note: At the time of writing this article, this variant is the one having most
+**Note**: At the time of writing this article, this variant is the one having most
 success in tournaments.
 
 ## 2. Card Choices
@@ -160,13 +159,11 @@ needs to resolve to enable you to win the game. {{Experimental Frenzy}} also
 falls under this category as it generally counts as a card that will normally
 win you the game if it resolves.
 
-**All Variants**
-
 A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
-<pile>{{!Doomsday|WTH}}  {{!Experimental Frenzy|GRN}}</pile>
+<row variant="centered">{{!DD}}  {{!EF}}</row>
 
 ### 2.2 Mana Acceleration and Fixing
 
@@ -198,7 +195,7 @@ not lose card advantage whilst playing it.
 You may note I have not yet discussed {{Lion's Eye Diamond}} here, this will be
 covered in *Combo Pieces*.
 
-<pile>{{!Dark Ritual}} {{!Lotus Petal}} {{!Arcum's Astrolabe}}</pile>
+<row variant="centered">{{!DR}} {{!LP}} {{!AA}}</row>
 
 #### DDFT and DDEFT
 
@@ -239,7 +236,7 @@ more on those later. Combine these with some of the cantripping protection
 elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
 up with a very high cantrip number.
 
-<pile>{{!Ponder}} {{!Brainstorm}} {{!Preordain}}</pile>
+<row variant="centered">{{!Pn}} {{!BS}} {{!Pre}}</row>
 
 #### DDFT
 
@@ -286,7 +283,7 @@ running these are all options available to a Doomsday pilot. Normally you would
 want at least 8 pieces of protection maindeck with additional sideboard slots
 dedicated to more specific interaction.
 
-<pile>{{!TS}} {{!Force of Will}} {{!Veil of Summer}} {{!Teferi, Time Raveler}}</pile>
+<row variant="centered">{{!TS}} {{!FoW}} {{!Veil}}</row>
 
 #### DDFT
 
@@ -345,7 +342,7 @@ Finally some sort of win condition is required. This can be in the form of
 needed. You want to run as few *dead* cards as possibly and generally the win
 condition is counted as such so you only want 1-2 of them.
 
-<pile>{{!ToA}} {{!LED}} {{!TO}}</pile>
+<row variant="centered">{{!ToA}} {{!LED}} {{!TO}}</row>
 
 #### DDFT
 
@@ -403,7 +400,7 @@ to fetch a basic Island is more crucial than a basic swamp as that tends to
 allow you to get into the game in the first place and the majority of your deck
 is {{U}} based cantrips anyways.
 
-<pile>{{!Island|RAV}} {{!Underground Sea}} {{!Swamp|RAV}}</pile>
+<row variant="centered">{{!Island|RAV}} {{!Underground Sea|LEB}} {{!Swamp|RAV}}</row>
 
 #### DDFT and DDEFT
 
@@ -449,10 +446,8 @@ summary of each variant and the colour options they tend to run followed by some
 in depth discussion as to what the different colour splashes bring to the table
 in terms of tools.
 
-**DDFT** Normally base {{UBR}} with the option to splash {{W}} or {{G}}.
-
-**DDEFT** Normally base {{UBR}}, unlikley to run splash colours.
-
+**DDFT** Normally base {{UBR}} with the option to splash {{W}} or {{G}}.  
+**DDEFT** Normally base {{UBR}}, unlikley to run splash colours.  
 **Meandeck** Normally {{UBG}} or {{UBW}} with the option to splash {{W}}, {{R}}
 or {{G}}.
 
@@ -462,7 +457,7 @@ White is almost exclusively played in Meandeck lists however you could easily
 incorporate it into DDFT. Maindeck, {{W}} provides protection spells mostly in
 the form of {{Orim's Chant}}, {{Silence}} or {{Teferi, Time Raveler}} the last
 of which can also act as a method to draw into a Doomsday pile or a mini card
-advantage engine when the '-1' is coupled with {{Arcum's Astrolabe}}.
+advantage engine when the -3 is coupled with {{Arcum's Astrolabe}}.
 {{Abeyance}} is another great option that also cantrips and so makes a good
 initiation spell for drawing into a Doomsday pile.
 
@@ -498,7 +493,7 @@ Crowns}} as a potential option or {{Uro, Titan of Nature's Wrath}}.
 
 Veil and Decay are the biggest boons for playing {{G}}.
 
-<pile>{{!Monastery Mentor}} {{!Pyroblast}} {{!Abrupt Decay}}</pile>
+<row variant="centered">{{!Monastery Mentor|FRF}} {{!Pyroblast|ICE}} {{!AD}}</row>
 
 ### 3.4 No Splash
 
@@ -520,7 +515,7 @@ with the Oracle trigger on the stack all the while avoiding cards like
 
 Budget and consistent mana is the biggest boon for playing straight {{UB}}.
 
-<pile>{{!Divining Witch}}</pile>
+<row variant="centered">{{!DW}}</row>
 
 ## 4. The Mechanics of Resolving Doomsday
 
@@ -534,7 +529,7 @@ A large part of the confusion for the physical resolution of it stems from the
 wording on the original Weatherlight printing of {{Doomsday}}. See the card
 below along with the original rules text printed:
 
-<pile>{{!Doomsday|WTH}}</pile>
+<row variant="centered">{{!Doomsday|WTH}}</row>
 
 > Pay half your life, rounded up:  
 > Put your graveyard on top of your library, then remove all but five cards of
@@ -555,7 +550,7 @@ quite put out that it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-<pile>{{!Doomsday|A25}}</pile>
+<row variant="centered">{{!Doomsday|A25}}</row>
 
 > Search your library and graveyard for five cards and exile the rest.  
 > Put the chosen cards on top of your library in any order.  
@@ -563,14 +558,14 @@ Doomsday:
 
 As you can see the wording changes significantly. If you were to perform the
 actions specified by the original wording and shuffled your graveyard and
-library together you can be called out for a GRV at CompREL so watch out. Cards
-like {{Shadow of Doubt}} will work in preventing you from searching your library
-for cards but will still allow you to search your graveyard. One especially key
-thing to note is your opponent is allowed to see what cards you select (if any)
-from the graveyard as it is an open information zone. You are not required to
-explicitly state what you are taking however you should always allow them time
-to ask to see what cards are chosen and are not allowed to hide that information
-from them.
+library together you can be called out for a GRV at competitive REL so watch
+out. Cards like {{Shadow of Doubt}} will work in preventing you from searching
+your library for cards but will still allow you to search your graveyard. One
+especially key thing to note is your opponent is allowed to see what cards you
+select (if any) from the graveyard as it is an open information zone. You are
+not required to explicitly state what you are taking however you should always
+allow them time to ask to see what cards are chosen and are not allowed to hide
+that information from them.
 
 The last point I want to make on resolving Doomsday is one about time. On MTGO
 you have a chess clock that allows you to take much longer on decisions however

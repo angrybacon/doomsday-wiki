@@ -22,9 +22,9 @@ knowing, though they rarely come up.
 
 > CB in play, SW in hand - {{BBB}} + {{1UUR}} - 11 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 Plays out as follows:
 
@@ -49,9 +49,9 @@ is an example of what that might look like:
 
 > DR, Pre in hand - {{BBB}} + {{1UBBBBBB}} - 11 Storm
 
-<pile>{{!IC}} {{!DR}} {{!CB}} {{!DD}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!CB}} {{!DD}} {{!ToA}}</row>
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!DD}} {{!Pre}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!DD}} {{!Pre}}</row>
 
 1. Cast Doomsday and build the first pile
 2. Cast DR, then Pre to draw IC
@@ -80,7 +80,7 @@ A simple version of the pile looks like this:
 
 > Enough life to live for 2 turns post-DD
 
-<pile>{{!SI}} {{!Em}} {{!Isl}} {{!Dur}} {{!LM}}</pile>
+<row variant="pile">{{!SI}} {{!Em}} {{!Isl}} {{!Dur}} {{!LM}}</row>
 
 1. Cast Doomsday and build the above pile, then pass the turn
 2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
@@ -99,7 +99,7 @@ pass 1 turn.
 If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
-<pile>{{!CB}} {{!SI}} {{!Em}} {{!Dur}} {{!LM}}</pile>
+<row variant="pile">{{!CB}} {{!SI}} {{!Em}} {{!Dur}} {{!LM}}</row>
 
 CB on top means SI won't get fatesealed, and you can put DD on the bottom with
 CB to draw SI and ensure you have enough cards in your library not to deck
@@ -120,7 +120,7 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
 > 2 cards in hand - {{1UUR}} + ({{1R}}) - 9 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
 
 The first wish fetches Time Spiral, which untaps lands that let you play the
 second Burning Wish to fetch Tendrils.

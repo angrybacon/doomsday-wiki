@@ -42,15 +42,15 @@ piles are:
 
 > SW in hand - {{BBB}} + {{1UU}}
 
-<pile>{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</row>
 
 > CB in play, SW in hand - {{BBB}} + {{B}}
 
-<pile>{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}</row>
 
 > 2 SW in hand - {{BBB}} + {{B}}
 
-<pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</row>
 
 Most of these piles speak for themselves. Somehow draw and cast Ideas Unbound
 draw CB, LED, SW, cast CB, use SW + LED to draw and cast Laboratory Maniac, tap
@@ -77,7 +77,7 @@ piles will be touched upon.
 
 > Pre in hand - {{BBB}} + {{UUBBB}} or {{UBBBB}}
 
-<pile>{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</row>
 
 This pile is fairly straightforward. Cast IC, draw the remaining cards in your
 library, cast DR, LP, CB, then LM. Draw with CB to win the game.

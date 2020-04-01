@@ -2,6 +2,8 @@ const axios = require('axios').default;
 
 
 const CARDS = {
+  AA:    ["Arcum's Astrolabe",        'MH1'],
+  AD:    ['Abrupt Decay',             'RTR'],
   AoI:   ['Act on Impulse',           'M15'],
   BS:    ['Brainstorm',               'ICE'],
   BW:    ['Burning Wish',             'JUD'],
@@ -12,6 +14,7 @@ const CARDS = {
   CoV:   ['Chain of Vapor',           'ONS'],
   DD:    ['Doomsday',                 'WTH'],
   DR:    ['Dark Ritual',              'LEB'],
+  DW:    ['Divining Witch',           'NEM'],
   Dur:   ['Duress',                   'USG'],
   EF:    ['Experimental Frenzy',      'GRN'],
   ET:    ['Echoing Truth',            'DST'],
@@ -19,6 +22,7 @@ const CARDS = {
   Em:    ['Emrakul, the Aeons Torn',  'ROE'],
   EoA:   ['Edge of Autumn',           'FUT'],
   EtW:   ['Empty the Warrens',        'TSP'],
+  FoW:   ['Force of Will',            'ALL'],
   GP:    ['Gitaxian Probe',           'NPH'],
   IC:    ['Infernal Contract',        'MIR'],
   IU:    ['Ideas Unbound',            'SOK'],

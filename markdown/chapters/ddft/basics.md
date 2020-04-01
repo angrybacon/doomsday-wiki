@@ -44,7 +44,7 @@ have a Ponder in hand and {{U}} to cast it.
 
 > Cantrip in hand - {{BBB}} + {{UUU}} - 7 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Cantrip from hand, draw IU
@@ -67,7 +67,7 @@ cantrip.
 
 > Cantrip in hand - {{BBB}} + {{UBBB}} - 7 Storm
 
-<pile>{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast cantrip, draw IC
@@ -87,7 +87,7 @@ response to the first cantrip.
 
 > SW, SW in hand - {{BBB}} + {{1}} - 7 Storm
 
-<pile>{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Activate SW, draw LED
@@ -117,7 +117,7 @@ for three black mana and pays for all but 1 mana of Tendrils of Agony.
 
 > CB on board, Pre in hand - {{BBB}} + {{1U}} - 9 Storm
 
-<pile>{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Pre, draw LED
