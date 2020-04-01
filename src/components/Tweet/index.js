@@ -30,7 +30,7 @@ export default function Tweet({ id }) {
       dnt: true,
       theme: theme.palette.type,
     }).then(it => {
-      setHeight(it.clientHeight);
+      setHeight(it ? it.clientHeight : 0);
       setLoading(false);
       setUpdate(false);
     });
