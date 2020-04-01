@@ -3,127 +3,67 @@ title: Pass-the-Turn Piles
 ---
 
 First of all, why would you ever want to cast Doomsday and then pass the turn?
-The answer is simple: when you can't win otherwise. Pass-the-turn piles help out
-when you can't win right now, because you lack mana and/or draw effects, but you
-can't afford to wait much longer either. It should be clear that pass-the-turn
-piles are practically never a very desirable plan. When you make decisions like
-whether to keep a hand or not, or when to cast your cantrips, going for a
-pass-the-turn pile should serve as a last resort. The risks involved in paying
-half your life rounded up and passing the turn are not to be underestimated.
+The answer is simple: when you can't win otherwise. It should be clear that pass-the-turn
+piles are rarely a desirable plan as there are significant risks involved in paying half your life
+and saying "Go."
 
-In Legacy, discard is one of the most common strategies for disrupting your
-opponent's plan. Therefore, many decks try to use discard to prevent us from
-winning the game before they do. One of the main uses of pass-the-turn piles is
-to become immune to discard. If you can't win right now because you still lack
-some resources, but you can cast Doomsday and dump other cards, like Lion's Eye
-Diamond or Conjurer's Bauble on the table, you may be able to setup a win for
-next turn without giving your opponent another window to discard any of your
-precious cards.
+One of the main uses of pass-the-turn piles is
+to become immune to discard. Under the right conditions, you can cast Doomsday, pass,
+and untap with all the resources you need to win on the battlefield or the top of your deck,
+thereby invalidating an opponen't interaction. 
 
-In some other (uncommon) situations building a pass-the-turn pile may be your
-best shot at winning the game any time soon. For example, when you lack a draw
-effect to draw in to your pile, but have everything else, pass-the-turn piles
-may be an out. How you managed to end up in this situation is a good question,
-and when you find yourself making a pass-the-turn pile you may want to ask
-yourself if you could have played such that you could go off all in one turn.
-But there certainly are times when a pass-the-turn pile is correct, or your only
-out.
+Another situation in which you may choose to do a pass the turn pile is when you don't have a
+draw effect, but your life total is not threatened. Here you can use your draw step as the cantrip. 
+This also reduces the amount of mana you need to go off in one turn.
 
-There is some good reason that you are going for a pass-the-turn pile rather
-than winning this turn, either you lack resources or you have to fight through
-some form of hate. Let's first talk about building pass-the-turn piles because
-we lack resources, such as a draw effect or mana. We'll focus on playing
-around/through hate later.
+## Pass-the-Turn Piles with Thassa's Oracle
 
-Consider the following (intentionally) bad example: you cast Doomsday, but lack
-a draw effect and therefore build:
+Thassa's Oracle is a substantial improvement to the deck, not least of all because of the extremely cheap
+pass-the-turn piles it enables. Let's look at a very basic example.
 
-> {{UU}} - 5 Storm
+> {{UU}}
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<pile>{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</pile>
 
-Next turn, for only {{UU}} you can draw and cast Ideas Unbound, followed by 2 Lion's
-Eye Diamonds, then cycle Street Wraith into Burning Wish for Tendrils of Agony
-for 5 Storm. Although the mana cost of this procedure is very low, the Storm
-count is seriously lacking. Fortunately, it's easy to increase the Storm count
-from this point on. If you have 1 more mana you can build IU, LED, SW, CB, BW as
-a pile for 6 storm for example. If you have another mana, you can turn that SW
-into a different cantrip. Together with some cards in hand to play out and some
-self-inflicted damage from your opponent's fetchlands, that might just be
-enough.
+Imagine you have an Island and and Underground Sea on board, Dark Ritual and Doomsday in hand. You can
+Ritual into Doomsday, pass the turn, and win with a mere 2 blue mana and 2 life when you untap. In fact you could
+conceivably cast Doomsday on turn 1, and make your second land drop to generate {{UU}}.
 
-There are however some more reliable ways of killing the opponent after passing
-the turn. We'll look at pass-the-turn piles with LM, how the Infernal
-Contract list can win with Storm, and some alternative methods.
+> {{BBB}}
 
-## Pass-the-Turn Piles with Laboratory Maniac
+<pile>{{!IC}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</pile>
 
-Laboratory Maniac enables some very mana efficient pass-the-turn piles that may
-offer an out in situations where no other lethal pile would. When you have no
-other cards in hand or play, for example because you've used Lion's Eye Diamond
-to pay for Doomsday, the simplest piles are:
+This is essentially the same pile, but with Infernal Contract as the draw spell. It has a different cost,
+but it's worth noting that this could be paid with a Ritual.
 
-> {{1UU}}
+> Lion's Eye Diamond on the board - {{0}}
 
-<pile>{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</pile>
+<pile>{{!SW}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</pile>
 
-> {{UBBB}} or {{BBBB}}
+If you have an LED on the battlefield, you can win for just 2 life, no mana needed. This can be very valuable, because
+there may be times where you lose lands after passing the turn. Invalidating mana-denial and discard can be valuable against
+a deck like Pox, which, while uncommon, you will surely encounter at some point.
+>Ponder in hand - {{U}}
 
-<pile>{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</pile>
+<pile>{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</pile>
 
-Note that, as mentioned in the section on Laboratory Maniac, playing IC and LM
-in the same list is uncommon, but the pile is presented for the sake of clarity
-and completeness.
+This pile is similar to the last, but swaps the locations of the cantrip and the LED. You might use a pile like this when
+you are constrained on mana and don't have enough resources to go off all in one turn. For example, with a single Underground Sea,
+you could cast Dark Ritual and Doomsday on one turn, and Ponder on the next, where you wouldn't have the mana to do it all
+in one turn.
 
-The following piles are even cheaper for when you have an extra draw effect or a
-LED.
 
-> LED in hand - {{B}}
+## Pass-the-Turn Piles with Tendrils of Agony
 
-<pile>{{!SW}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
+Generating a lethal storm count can be tricky when you have to pass the turn. A standard five card pile ending with Burning Wish
+for Tendrils will only generate 6 Storm on its own, which is unlikely to be lethal. Having additional Rituals or mana artifacts
+in hand can help add to storm count, but you still need to be getting up to 9 or 10 storm to kill under most circumstances.
+Thassa's Oracle has made it so these kinds of piles are often unecessary, but if you are unlucky you may find yourself with Oracle
+exiled, nothing but a Doomsday in hand, and you'll be glad you read this section.
 
-> SW in hand - {{B}}
+> LP on board - {{UU}}
 
-<pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
-
-> CB in play - {{B}}
-
-<pile>{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</pile>
-
-> SW in hand - {{1}}
-
-<pile>{{!LED}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
-
-Instead of using Lion's Eye Diamond to pay for Ideas Unbound we can also include
-some other card into the pile, to for example play through some card in the
-opponent's hand. The mana cost for including another card depends on the
-location in the pile. There's also a trade-off between life and mana cost.
-
-> SW in hand - {{2UUB}}
-
-<pile>{{!Dur}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
-
-> SW in hand - {{2UUU}}
-
-<pile>{{!CoV}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
-
-> LED in play - {{2U}}
-
-<pile>{{!SW}} {{!IU}} {{!CoV}} {{!SW}} {{!LM}}</pile>
-
-Naturally the Duress or Chain of Vapor can be swapped for another spell you'd
-like to cast, modifying cost of the pile appropriately.
-
-For all Laboratory Maniac pass-the-turn piles, you can replace the card that
-draws from an empty library in the Doomsday pile with Chromatic Sphere and
-increase the mana cost accordingly.
-
-## Pass-the-Turn Piles with Infernal Contract
-
-Since the IC-based decklists generally don't play Laboratory Maniac, it needs
-to generate a lethal Storm count. This is doable but tends to be mana hungry.
-We'll address the simplest and most common piles here. These piles don't come up
-all that often but it's worth being aware of them.
+<pile>{{!IU}} {{!LED}} {{!LED}} {{!Echo}}</pile>
 
 > 5 lands in play - {{1BBBB}} - 11 Storm
 
