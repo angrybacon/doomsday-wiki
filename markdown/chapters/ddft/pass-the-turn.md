@@ -67,7 +67,7 @@ exiled, nothing but a Doomsday in hand, and you'll be glad you read this section
 
 > 5 lands in play - {{1BBBB}} - 11 Storm
 
-<pile>{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
 This pile works by using CB to cast ToA twice, using CB to rebuy it. To do it
 from no cards in hand requires a ton of lands on board, as well as {{Rain of
@@ -76,14 +76,14 @@ the onboard requirements are easier to manage.
 
 > DR, LED in hand - {{1B}} - 15 Storm
 
-<pile>{{!IC}} {{!LED}} {{!DR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!LED}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
 If you have Past in Flames in the sideboard you can use that as an engine to
 generate lethal storm.
 
 > DR in hand - {{BBRR}} - 10 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</row>
 
 This pile doesn't require the use of an artifact meaning it can beat a Null Rod
 or a {{Phyrexian Revoker}}, although having an LED available will make producing
@@ -93,7 +93,7 @@ You can also use Burning Wish to up your Storm count.
 
 > {{1BBBBR}} or {{1BBBRR}} - 7 Storm
 
-<pile>{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 The first BW finds IC in the sideboard to draw the rest of the pile. The second
 burning wish fetches ToA. A ritual or LED left in hand will help boost Storm

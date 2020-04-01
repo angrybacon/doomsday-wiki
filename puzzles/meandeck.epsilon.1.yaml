@@ -1,0 +1,36 @@
+title: "Meandeck vs Dredge"
+authors:
+  - Stephen Menendian
+  - Doishy
+deckFile: "2020/03/meandeck.buw.txt"
+oppBoard:
+  - Narcomoeba
+  - City of Brass
+yourHand:
+  - Doomsday
+  - Doomsday
+  - Thassa's Oracle
+  - Snow-Covered Swamp
+  - Brainstorm
+  - Dark Ritual
+  - Street Wraith
+yourBoard:
+notes: >
+  Turn 1 on the draw in game 1 your Dredge opponent runs out a classic Faithless
+  Looting x Lion's Eye Diamond turn however they don't hit a Therapy despite
+  being ready to deal a lot of damage next turn. You draw your card for the turn
+  and smile as you have a turn 1 win. Win this turn.
+solution:
+  - Lotus Petal
+  - Lion's Eye Diamond
+  - Edge of Autumn
+  - Preordain
+  - X
+solutionNotes: >
+  The main thing to see here is the fact we have a decent Brainstorm pile, but
+  no U to cast Brainstorm. Street Wraith makes this easy then to find the U
+  source and put Oracle back into the pile. You cycle the Wraith into the Petal
+  that allows you to cast Brainstorm. You put back Preordain and Oracle. Cast
+  LED, cycle, crack for UUU and cast Preordain into Oracle. If you are running a
+  third "free-cycle" card you can play around removal too by having X as another
+  Street Wraith.

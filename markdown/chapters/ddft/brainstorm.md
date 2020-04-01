@@ -25,7 +25,7 @@ If you have a win condition in hand, you can Brainstorm to insert it into the pi
 
 > BS, BW in hand - {{BBB}} + {{1U}} - 8 Storm
 
-<pile>{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!LED}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast BS, draw LED, IU, SW and put back BW, IU

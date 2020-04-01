@@ -26,19 +26,19 @@ post-DD to get us going.
 
 > SW in hand - {{BBB}} + {{UUBR}} - 6 Storm
 
-<pile>{{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}}</row>
 
 > CB in play, SW in hand - {{BBB}} + {{XBB}} - 7+ Storm
 
-<pile>{{!DR}} {{!IC}} {{!DR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!DR}} {{!IC}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
 > 2 SW in hand - {{BBB}} + {{BRR}} - 6 Storm
 
-<pile>{{!DR}} {{!AoI}} {{!DR}} {{!DR}} {{!BW}}</pile>
+<row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!DR}} {{!BW}}</row>
 
 > 2 SW in hand - {{BBB}} + {{UBR}}
 
-<pile>{{!DR}} {{!AoI}} {{!DR}} {{!LM}} {{!SW}}</pile>
+<row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!LM}} {{!SW}}</row>
 
 These piles have lost a lot of their power with the banning of Gitaxian Probe
 since the free draw effect utilized here does not count towards Storm count.
@@ -89,19 +89,19 @@ like Edge of Autumn to access the pile are all considerations.
 
 > Pass the turn - {{2BBBR}} - 7 Storm
 
-<pile>{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 > BW in hand, CB in play, pass the turn - {{1R}} - 8 Storm
 
-<pile>{{!LED}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
 
 > BW in hand, CB in play - {{BBB}} + {{2R}} - 8 Storm
 
-<pile>{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
 > BW in hand, CB in play - {{BBB}} + {{1R}} - 7 Storm
 
-<pile>{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</row>
 
 In terms of removal there is very little here. Only {{Chain of Vapor}} and
 {{Void Snare}} are affected here. This is where By Force shines over some other
@@ -120,11 +120,11 @@ get rid of it. You can also ignore this limitation with maindeck ToA.
 
 > SW in hand, CB in play - {{BBB}} + {{X}} - 8+ Storm
 
-<pile>{{!LED}} {{!AoI}} {{!ToA}} {{!LED}} {{!CB}}</pile>
+<row variant="pile">{{!LED}} {{!AoI}} {{!ToA}} {{!LED}} {{!CB}}</row>
 
 > SW in hand - {{BBB}} + {{2UR}}
 
-<pile>{{!AoI}} {{!LED}} {{!BS}} {{!LM}} {{!Abandon Hope}}</pile>
+<row variant="pile">{{!AoI}} {{!LED}} {{!BS}} {{!LM}} {{!Abandon Hope}}</row>
 
 This limitation in terms of removal is very awkward. Things like Abrupt Decay
 are not affected from a Chalice set to 2. This does lock off things like
@@ -182,35 +182,35 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {{BBB}} + {{2RG}} - 8 Storm
 
-<pile>{{!LED}} {{!NC}} {{!DR}} {{!LP}} {{!ToA}}</pile>
+<row variant="pile">{{!LED}} {{!NC}} {{!DR}} {{!LP}} {{!ToA}}</row>
 
 > BW and BS in hand, CB in play - {{BBB}} + {{UG}} - 9 Storm
 
-<pile>{{!NC}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</pile>
+<row variant="pile">{{!NC}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</row>
 
 > SW and BW in hand - {{BBB}} + {{2RG}} - 7 Storm
 
-<pile>{{!LED}} {{!NC}} {{!LED}} {{!SW}} {{!ToA}}</pile>
+<row variant="pile">{{!LED}} {{!NC}} {{!LED}} {{!SW}} {{!ToA}}</row>
 
 > Pass the turn, SW in hand - {{2UUG}}
 
-<pile>{{!NC}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!NC}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, SW in hand - {{1UUG}}
 
-<pile>{{!NC}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!NC}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, SW in hand - {{2RG}}
 
-<pile>{{!NC}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!NC}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, LED in play - {{2G}}
 
-<pile>{{!SW}} {{!IU}} {{!NC}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!SW}} {{!IU}} {{!NC}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, LED in play - {{2UG}}
 
-<pile>{{!SW}} {{!AoI}} {{!NC}} {{!SW}} {{!LM}}</pile>
+<row variant="pile">{{!SW}} {{!AoI}} {{!NC}} {{!SW}} {{!LM}}</row>
 
 ## Pass-the-Turn Piles Using Chain of Vapor
 
@@ -221,15 +221,15 @@ remove a limitation.
 
 > Pass the turn, SW in hand - {{UUU}} - 9 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!CoV}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!CoV}} {{!BW}}</row>
 
 > Pass the turn, LED in play - {{UUU}} - 8 Storm
 
-<pile>{{!IU}} {{!LED}} {{!SW}} {{!CoV}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!SW}} {{!CoV}} {{!BW}}</row>
 
 > Pass the turn, BW, SW and any 1 card in hand - {{UU}} - 9 Storm
 
-<pile>{{!SW}} {{!BS}} {{!LED}} {{!LED}} {{!CoV}}</pile>
+<row variant="pile">{{!SW}} {{!BS}} {{!LED}} {{!LED}} {{!CoV}}</row>
 
 ## Removal Choices
 

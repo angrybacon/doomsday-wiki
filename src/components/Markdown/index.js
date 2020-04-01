@@ -1,20 +1,29 @@
-import c from 'classnames';
-import PropTypes from 'prop-types';
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
-import htmlParser from 'react-markdown/plugins/html-parser';
 import Divider from '@material-ui/core/Divider';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
+import c from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import htmlParser from 'react-markdown/plugins/html-parser';
 import Decklist from '../Decklist';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
 import Quote from '../Quote';
 import Table from '../Table';
+import Tweet from '../Tweet';
 import useStyles from './styles';
+
+
+/* eslint-disable react/prop-types */
+const  Paragraph = ({ children }) => {
+  const component = children[0].type.displayName === 'ParsedHtml' ? 'div' : 'p';
+  return <Typography children={children} component={component} gutterBottom />;
+};
+/* eslint-enable react/prop-types */
 
 
 export default function Markdown({ barf, className, source }) {
@@ -31,6 +40,7 @@ export default function Markdown({ barf, className, source }) {
     image: rest => <img {...rest} className={classes.image} />,
     link: Prettylink,
     linkReference: Prettylink,
+    paragraph: Paragraph,
     table: ({ children }) => <Table children={children} className={c({[classes.barf]: barf})} />,
     tableBody: ({ children }) => <TableBody children={children} />,
     tableCell: ({ align, children }) => <TableCell {...{align: align || undefined, children}} />,
@@ -43,25 +53,35 @@ export default function Markdown({ barf, className, source }) {
   const parseHtml = htmlParser({
     isValidNode: node => node.type !== 'script',
     processingInstructions: [
-      /* eslint-disable react/display-name */
+      /* eslint-disable react/display-name, react/prop-types */
       {
-        processNode: node => React.createElement(Decklist, {
+        processNode: ({ attribs }) => React.createElement(Decklist, {
           barf,
           collapsible: true,
-          path: node.attribs['deckfile'],
+          path: attribs.deckfile,
         }),
         replaceChildren: true,
         shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
       },
       {
         processNode: () => React.createElement(Mana),
-        shouldProcessNode: node => node.name === 'mana',
+        shouldProcessNode: ({ name }) => name === 'mana',
       },
       {
-        processNode: () => React.createElement('span', {className: classes.pile}),
-        shouldProcessNode: ({ name }) => name === 'pile',
+        processNode: ({ attribs }) => {
+          const classnames = c(classes.row, {
+            centered: classes.rowCentered,
+            pile: classes.rowPile,
+          }[attribs.variant]);
+          return React.createElement('span', {className: classnames});
+        },
+        shouldProcessNode: ({ name }) => name === 'row',
       },
-      /* eslint-enable react/display-name */
+      {
+        processNode: ({ attribs }) => React.createElement(Tweet, {id: attribs.id}),
+        shouldProcessNode: ({ name }) => name === 'tweet',
+      },
+      /* eslint-enable react/display-name, react/prop-types */
     ]
   });
 

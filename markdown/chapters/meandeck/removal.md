@@ -27,7 +27,7 @@ resolving TO.
 
 > Ponder, Island in hand - {{BBB}} + {{UUU}}
 
-<pile>{{!BS}} {{!SW}} {{!SW}} {{!Polluted Delta|ONS}} {{!TO}}</pile>
+<row variant="pile">{{!BS}} {{!SW}} {{!SW}} {{!Polluted Delta|ONS}} {{!TO}}</row>
 
 1. Cast Ponder to draw BS
 1. Cast BS and put back Island then SW
@@ -53,7 +53,7 @@ name TO itself to Predict to dig into the pile.
 
 > Ponder, Ponder in hand - {{BBB}} + {{UU}}
 
-<pile>{{!LED}} {{!Pd}} {{!TO}} {{!Un}} {{!LP}}</pile>
+<row variant="pile">{{!LED}} {{!Pd}} {{!TO}} {{!Un}} {{!LP}}</row>
 
 At the very least you could put Unearth at the bottom of your pile *just in
 case*.

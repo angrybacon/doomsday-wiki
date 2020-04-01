@@ -17,7 +17,7 @@ terms of decklists so adjust accordingly.
 
 There are some key rules you can use to help remember things like Storm count.
 If the intended pile is meant to win without passing the turn then you always
-have 1 Storm to begin with from Doomsday itself. Additionally if all cards used
+have at least 1 Storm to begin with from Doomsday itself. Additionally if all cards used
 in the Doomsday pile are spells you can cast, then you get to add 5 Storm from
 that. Breaking down the card sets of pre-pile, pile and wish targets helps the
 mind easily compute what Storm count you will end up with from a certain line of
@@ -34,7 +34,7 @@ have a Ponder in hand and {{U}} to cast it.
 
 > Cantrip in hand - {{BBB}} + {{UUU}} - 7 Storm
 
-<pile>{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</pile>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Cantrip from hand, draw IU
@@ -91,7 +91,7 @@ response to the first cantrip.
 
 > Pn, Pn in hand - {{BBB}} + {{1UU}} - 9 Storm
 
-<pile>{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast a Ponder to draw LED
@@ -129,7 +129,7 @@ resources to cast it. If you had 2 Street Wraiths in hand, this pile would cost 
 
 > CB, Pre in hand - {{BBB}} + {{2U}} - 9 Storm
 
-<pile>{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Pre, draw LED

@@ -98,7 +98,7 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 
 > Cantrip in hand - {{BBB}} + {{UBBB}} - 7 Storm
 
-<pile>{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
 
 For this pile, you'd cast Infernal Contract, drawing the remaining 4 cards, then
 cast the 2 Rituals off the Lotus Petal, then finish up with Tendrils of Agony.
@@ -115,7 +115,7 @@ of your pile with a slight modification:
 
 > Cantrip in hand - {{BBB}} + {{UBBB}} - 8 Storm
 
-<pile>{{!IC}} {{!LP}} {{!DR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!LP}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
 Now you use IC to draw the remaining 4 cards, cast DR off the LP, use the
 floating BBB to cast CB (BB leftover), activate CB targeting DR to recycle it,
@@ -127,7 +127,7 @@ for 1 extra mana of any color:
 
 > Cantrip in hand - {{BBB}} + {{1UBBB}} - 8 Storm
 
-<pile>{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</pile>
+<row variant="pile">{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 With 1 floating mana left over after casting IC, you can make red with the LP to
 BW for ToA and use the LEDs to generate the mana for it.
@@ -147,23 +147,23 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 > IC in hand - {{BBB}} + {{BBB}} - 7 Storm
 
-<pile>{{!LP}} {{!DR}} {{!DR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!LP}} {{!DR}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
 > IC in hand - {{BBB}} + {{BBB}} - 8 Storm
 
-<pile>{{!LED}} {{!LED}} {{!LP}} {{!CB}} {{!BW}}</pile>
+<row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!CB}} {{!BW}}</row>
 
 **Think the opponent is being cute and sandbagging an answer to Tendrils?**
 
 > Cantrip in hand - {{BBB}} + {{UBBBB}} - 7 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!Dur}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!Dur}} {{!ToA}}</row>
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
 
 > Cantrip in hand - {{BBB}} + {{UUBBB}} - 7 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!CoV}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!CoV}} {{!ToA}}</row>
 
 Note that this only works post board since CoV isn't in the maindeck.
 
@@ -171,13 +171,13 @@ Note that this only works post board since CoV isn't in the maindeck.
 
 > BS and IC in hand - {{BBB}} + {{UB}} - 8 Storm
 
-<pile>{{!DR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</pile>
+<row variant="pile">{{!DR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
 
 **Brainstorm and ToA in hand**
 
 > BS and ToA in hand - {{BBB}} + {{UB}} - 8 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!DR}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!DR}}</row>
 
 This concept of using BS to trade cards in hand for cards in library can be
 extended to other pile components, like if you have a spare LP in hand, etc.
@@ -193,7 +193,7 @@ come up with in this new list:
 
 > {{1BBBB}} - 11 Storm
 
-<pile>{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
 The idea here is that you cast ToA twice by recycling it with the Bauble. ToA ->
 CB -> ToA costs 9 mana total. With 5 lands on the field (including all 4 black
@@ -213,7 +213,7 @@ Here is another potential pass-the-turn pile:
 
 > {{BBBBRR}} - 8 Storm
 
-<pile>{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</pile>
+<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</row>
 
 Here you would wish for Past in Flames to flash back your rituals and end it
 with ToA. This one requires 2 red mana for Wish and PiF, and only makes 8 Storm
