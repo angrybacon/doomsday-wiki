@@ -63,7 +63,7 @@ in one turn.
 
 Generating a lethal storm count can be tricky when you have to pass the turn. A standard five card pile ending with Burning Wish
 for Tendrils will only generate 6 Storm on its own, which is unlikely to be lethal. Having additional Rituals or mana artifacts
-in hand can help add to storm count, but you still need to be getting up to 9 or 10 storm to kill under most circumstances.
+in hand can help add to storm count, but even then it can be difficult to approach double-digit Storm counts.
 Thassa's Oracle has made it so these kinds of piles are often unecessary, but if you are unlucky you may find yourself with Oracle
 exiled, nothing but a Doomsday in hand, and you'll be glad you read this section.
 
@@ -133,8 +133,6 @@ mana artifact to be available in hand or on board.
 ## Summary
 
 1. You don't always have to win the turn you cast Doomsday
-2. Pass-the-turn piles are effective when low on a resource (cards or mana, but
-   not both)
+2. Pass-the-turn piles can be cheap and effective, especially when Thassa's Oracle is involved
 3. PTT piles leave you susceptible to disruption
-4. There are tricks you can use to ensure you can build up enough Storm so you
-   don't always have to rely on LM
+4. It is possible to generate lethal Storm counts despite passing the turn, typically by using tricks to recycle cards. Mana is usually the primary constraint in such piles.
