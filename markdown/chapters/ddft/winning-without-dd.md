@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 6
 title: Winning Without Doomsday
 ---
 
@@ -13,7 +13,7 @@ Empty the Warrens as an alternative win condition is the most straightforward wa
 
 <row variant="hand">{{!DR}} {{!Veil}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
-Ideally, you can play out your mana artifacts, cast Veil, and then the Dark Ritual. Cast Burning Wish holding priority, and crack the LED for {{RRR}}. Along with the {{BB}} leftover from the Ritual, you have enough to cast Empty the Warrens to make 14 Goblins. Killing like this is extremely simple, but do not underestimate its effectiveness. In fact, if your hand looked like this on turn 1, you should seriously consider skipping the Veil and jamming Empty the Warrens immediately, even if you don't know what your opponent is playing. Early in the game, most decks will simply not be able to handle that many goblins. Other combo decks may be able to race goblins, and decks with Stoneforge Mystic may be able to use Batterskull to stabilize if you don't get a lot of goblins down quickly enough, but other decks will struggle. While you're typically looking to make more than 10 goblins, as few as 8 can put a lot of pressure on a deck like Delver.
+Ideally, you can play out your mana artifacts, cast Veil, and then the Dark Ritual. Cast Burning Wish holding priority, and crack the LED for {{RRR}}. Along with the {{BB}} leftover from the Ritual, you have enough to cast Empty the Warrens to make 14 Goblins. Killing like this is extremely simple, but do not underestimate its effectiveness. In fact, if your hand looked like this on turn 1, you should seriously consider skipping the Veil and jamming Empty the Warrens immediately, even if you don't know what your opponent is playing. Early in the game, most decks will simply not be able to handle that many goblins. Other combo decks may be able to race goblins, and decks with Stoneforge Mystic may be able to use Batterskull to stabilize if you don't get a lot of goblins down quickly enough, but other decks will struggle. While you're typically looking to make more than 10 goblins, as few as 8 can be sufficient against some decks. You should also note that Wish for Empty can play through a Chalice of the Void on 1 relatively easily, with a couple Petals or LEDs.
 
 It is common to play multiple copies of Empty in your sideboard, for the purpose of bringing a few copies in. Naturally drawing and casting Empty the Warrens, rather than Wishing for it, is a great tool against blue decks. Force of Will and Daze lose effectiveness against a storm spell cast from hand, since even if they can counter 1 or 2 copies, you can still have 5 more. Empties are also reasonable in multiples against blue decks. You can make a small goblins horde, perhaps as few as 6, with relatively low resource input. Your opponent then needs to spend resources to deal with the tokes, while you get in a bit of damage and build up to another Empty. In this way, you can grind out slow control decks, perhaps finishing them off with a small Tendrils or Grapeshot if they deal with the second goblin army.
 

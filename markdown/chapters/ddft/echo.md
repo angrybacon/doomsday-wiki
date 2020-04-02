@@ -93,6 +93,8 @@ you can Ponder for it, and in the best case scenario you'll even be able to cast
 
 ## Extra Fancy
 
+### Example 1
+
 It is possible to use multiple Echoes to build very high storm counts, enabling you to kill with {{Grapeshot}}
 
 > LED, Echo, LP in hand - {{BBB}} + {{R}} - 10 + 12 Storm
@@ -107,7 +109,6 @@ and use the floating mana to Grapeshot a 2nd time, for at least another 12 damag
 You need to get lucky here when you draw for your first Echo since you need to at least draw Burning Wish, LED, and Echo. Any additional mana you have available 
 will make your life easier. Of note, if you don't draw Burning Wish on the first Echo you won't be able to kill with Grapeshot, but you can still Echo again and
 have plenty of storm for a lethal Tendrils the next time around.
-
 
 ## Conclusion
 
