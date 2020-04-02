@@ -37,6 +37,7 @@ const CARDS = {
   Pre:   ['Preordain',                'M11'],
   RoF:   ['Rain of Filth',            'USG'],
   SI:    ['Shelldock Isle',           'LRW'],
+  ST:    ['Scalding Tarn',            'ZEN'],
   SW:    ['Street Wraith',            'FUT'],
   TO:    ["Thassa's Oracle",          'THB'],
   TS:    ['Thoughtseize',             'LRW'],
