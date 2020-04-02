@@ -41,4 +41,10 @@ export default makeStyles(theme => ({
     },
     justifyContent: 'space-between',
   },
+  rowHand: {
+    '@global *': {
+      width: '14%',
+    },
+    justifyContent: 'flex-start',
+  }
 }));

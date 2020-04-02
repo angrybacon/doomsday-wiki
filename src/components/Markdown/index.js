@@ -72,6 +72,7 @@ export default function Markdown({ barf, className, source }) {
           const classnames = c(classes.row, {
             centered: classes.rowCentered,
             pile: classes.rowPile,
+            hand: classes.rowHand,
           }[attribs.variant]);
           return React.createElement('span', {className: classnames});
         },
