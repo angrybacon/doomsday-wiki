@@ -75,7 +75,7 @@ This is similar to some Echo pile examples, except it is presented as a pass-the
 
 Just in general, Echo is a strong card against decks that primarily interact with hand hate. You can play out LEDs to protect them from discard, and then later on use an Echo for value to simply refill your hand. Similarly, if an Echo gets discarded to something like a Hymn or Liliana, you can simply flash it back to restock as soon as you have enough mana.
 
-## Playing Through Permanent-based hate
+## Playing Through Permanent-based Hate
 
 Permanent based hate is among the most annoying you will have to face. This section will be rather long, because we'll address techniques for beating the most common permanents
 
@@ -83,9 +83,9 @@ Permanent based hate is among the most annoying you will have to face. This sect
 
 Chalice is the most common piece of permanent hate you will face so knowing how to deal with it is a must. In the sideboard, you will have options to remove it, potentially even ones you can wish for, so we'll focus on piles that can win with it still on the battlefield.
 
-#### Chalice on 0
+#### Chalice on 0/Null Rod/Collector Ouphe/Stony Silence
 
-Chalice on 0 can be tough to deal with. It doesn't hinder your ability to assemble your combo, but most piles rely on 0-cost artifacts which substantially complicates things.
+All of these effects do the same thing: turn off your 0-cost artifacts. They don't hinder your ability to assemble your combo, but most piles rely on 0-cost artifacts which substantially complicates things. Casting Veil of Summer before going off means you can ignore a Chalice, but doesn't help at all against the others. Removing it is an option but may not be possible in game 1, depending on your decklist. Let's look at piles that can work without artifacts.
 
 > Chalice on 0, Ponder in hand - {{BBB} + {{UUU}}, 4 life
 
@@ -93,17 +93,17 @@ Chalice on 0 can be tough to deal with. It doesn't hinder your ability to assemb
 
 With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells. 
 
-> Chalice on 0, Ponder in hand, land drop remaining - {{BBB}} + {{UUUU}}, 4 life
+> Ponder in hand, land drop remaining - {{BBB}} + {{UUUU}}, 4 life
 
 <row variant="pile"> {{!IU}} {{!Isl}} {{!TO}} {{!SW}} {{!Isl}} </row>
 
 This pile works without the need for Street Wraith. You never have to cycle it, that slot could be anything, but here it gets you to 0 cards in the deck. You can use a land drop to make {{U}} to help cast Oracle, but it still requires a ton of blue mana, making things difficult.
 
-> Chalice on 0, Ponder in hand, {{BBB}} + {{UBBBBR}} - 8 Storm
+> Ponder in hand, {{BBB}} + {{UBBBBR}} - 8 Storm
 
 <row variant="pile"> {{!IC}} {{!DR}} {{!DR}} {{!DR}} {{!BW}} </row>
 
-> Chalice on 0, Ponder in hand, {{BBB}} + {{UUUBR}}, 2 life - 7 Storm
+> Ponder in hand, {{BBB}} + {{UUUBR}}, 2 life - 7 Storm
 
 <row variant="pile"> {{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}} </row>
 
@@ -130,3 +130,115 @@ Echo piles can win with Tendrils without ever casting a 1-cost spell.
 <row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!SW}} {{!BW}} </row>
 
 Another storm kill that doesn't use 1-cost spells. Wishing for the Draw-4 eliminates the need for a 1-mana cantrip. This one has a hefty life cost though.
+
+#### Chalice on 2
+
+Chalice on 2 is reltively rare, but it turns off Wish and Oracle. f you resolve Veil of Summer before going off you can just ignore it. This is the preferred method. For the sake of completeness, here is a pile that can work through a Chalice on 2.
+
+> Ponder in hand - {{BBB}} + {{UBBB}} - 7 Storm
+
+<row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!DR}} {{!ToA}} </row>
+
+This pile requires you to have a Draw-4 and Tendrils in your maindeck, which is uncommon
+
+There has been some discussion of playing Cavern of Souls, which could let you play Oracle through Chalice on 2 (and normal countermagic for that matter). It would be a completely dead card outside of piles and so is likely not worth a slot, but its something to think about.
+
+### Gaddock Teeg, Leyline of Sanctity
+
+Simple Doomsday piles that win with Thassa's Oracle can safely ignore any combination of these cards.
+
+### Thalia/Thorn of Amethyst/Sphere of Resistance
+
+Pass-the-turn piles with Oracle are your best bet for playing through taxing effects. By giving yourself an untap step, you make it substantially easier to play through the tax.
+
+> Ponder in hand - {{2U}} with tax
+
+<row variant="pile">{{!LED}} {{!SW}} {{!TO}} {{!LP}} {{!LP}} </row>
+
+Pass the turn after Doomsday. Untap and draw LED. Cast it for {{1}}. Spend {{1U}} on Ponder, holding priority and crack LED for {{UUU}}.
+Draw Street Wraith, cycle it into Oracle, and win with 2 cards left.
+
+### Trinisphere/Ethersworn Canonist/Deafening Silence
+
+These types of effects make it difficult or impossible to cast more than 1 spell per turn. Trinisphere typically has this effect and even though it is not strictly the same effect, similar piles will work against all 3.
+
+> SW in hand - 4 life ( +{{3}} vs Trinisphere)
+
+<row variant="pile">{{!LED}} {{!SW}} {{!TP}} {{!Isl}} {{!Isl}} </row>
+
+Pass the turn after Doomsday. Draw LED for turn, cast it, and cycle both Wraiths (making UUU with LED) to draw and play Oracle. Agianst Trinisphere, you'll need {{3}} to play LED, but then LED generates enough mana to cast Oracle. Against Canonist or Deafening Silence, you only cast 1 artifact and 1 creature, and both lockpieces permit you to cast 1 of each.
+
+If you don't have a Street Wraith in hand, you can do the exact same pile but pass 2 turns.
+
+### Narset and Leovold
+
+{{Narset, Parter of Veils}} and {{Leovold, Emissary of Trest}} both make it difficult to win the game by making you unable to draw through your pile. The key to both cards is that you can't draw more than 1 card per turn, meaning you can draw a card on your opponent's turn. 
+
+> {{UUG}}
+
+<row variant="pile">{{!SW}} {{!Veil}} {{!TO}} {{!Isl}} {{!Isl}} </row>
+
+You need to pass 2 turns to execute this pile. On your first turn, you'll draw Wraith. Pass, and cycle it on your opponent's turn to draw Veil of Summer. Draw Oracle for your next turn. Cast Oracle, and use Veil to protect it if needed. Veil is useful here because it protects from countermagic and Removal. A discard spell could also work in this slot. Unfortunately, the decks that most commonly play Narset and Leovold are blue decks, which makes passing 2 turns a dangerous proposition. But the pile is there, so you should know about it. 
+
+### Counterbalance
+
+Playing through {{Counterbalance}} is not easy. Using a normal decklist, in Game 1 there is no "standard" way of getting through it. If you can resolve a Veil of Summer that will certainly work, but most Counerbalance players will try to keep a 1-cost card on top of their deck as much as possible so this can prove difficult. Natural Storm can also be effective. Sometimes you can convince a Counterbalance player to cast spells to change the cost of their top card, thereby adding to your storm count and unlocking other cards in your hand. This isn't always going to work but it is worth trying.
+
+After sideboarding, if you have Abrupt Decay in your deck, you can use it to remove Counterbalance before going off.
+
+> Ponder, LED in hand - {{BUG}}
+
+<row variant="pile">{{!AD}} {{!IU}} {{!LP}} {{!LP}} {{!TO}} </row>
+
+Pass the turn after Doomsday, then draw the Decay for your turn. Kill the Counterbalance, and then go off. This type of pile is widely applicable to a variety of permanent based hate, and the top card can be swapped for another removal spell if you need to deal with something Abrupt Decay can't handle.
+
+
+## Miscelaneous Hate
+
+### Veil of Summer
+
+While Veil can stop your discard and turn off your Storm game plan, it does nothing against a typical Thassa's Oracle Doomsday pile. against decks that can potentially play Veil of Summer, you should prefer to via a non-Tendrils means, with Doomsday+Oracle being the preference in general.
+
+### Grindstone
+
+Grindstone or other milling effects provide an interesting roadblock to going off with Doomsday. A timely mill can completely destroy a pile. Any effect that draws 3 or more cards can be very dangerous, because you can deck yourself if they mill in response. You can think of Grindstone and other mill effects as a way to change the order of you pile, and we have access to a card that renders the order of our pile irrelevant: Echo of Eons. This will be your strongest tool for beating an onboard Grindstone; standard Echo piles are well suited to the job of beating mill effects. Keep in mind though, that decks that play Grindstone often play Pyroblast as well. 
+
+### Meddling Mage
+
+Meddling Mage is a tricky card. It isn't included in the Permanent-based Hate section because the card they name will substantially effect how you play differently to beat it. Obviously, if they name Doomsday, you need to remove it or win through other means. If they name Tendrils of Agony or Thassa's Oracle, you can win with the other without much trouble. A card like Dark Ritual is not used in many piles, but it can make casting Doomsday harder, and make a non-Doomsday kill almost impossible. Naming Lion's Eye Diamond isn't terribly difficult either. Ideas Unbound can draw 2 Petal and an Oracle and never need to use LED. Likewise, Lotus Petal isn't used in many piles, so you have options there too. The point of all this is to illustrate that there is no single card they can name that completely wrecks you. The biggest threat from Meddling Mage is bad timing, i.e you set up for a certain type of kill, and Mage comes down and ruins it just before you would try to go off. Now your ability to shift gears may be limited, making it harder to recover.
+
+### Ashiok, Dream Render/Leonin Arbiter/Aven Mindcensor
+
+These are 3 fringe-playable cards that all have the effect of preventing you from searching your library. This obviously turns off Doomsday, but you can potentially win with a non-Doomsday storm kill. Ashiok will remove your graveyard as well, but the other 2 let you search it with Doomsday, meaning you can potentially play through them if you're lucky and able to get the cards you need in the grave. And of course in the case of Leonin Arbiter, you can always just pay {{2}} to ignore it.
+
+### Surgical Extraction/Extirpate
+
+These types of effects are troublesome not only because they can remove an important piece from your deck but also because they force a shuffle. A well-timed Surgical suprise can mess up the order of a pile and make it very unlikely that you'll win. There are a few ways to mitigate the effect of Surgical though.
+
+> LED, Echo, 1 other card in hand - {{BBB}} + {{0}} - 10 Storm including Surgical
+
+<row variant="pile">{{!DR}} {{!DR}} {{!LP}} {{!LP}} {{!BW}} </row>
+
+Echo lets you draw the entire pile and the order doesn't matter, so they are well suited to combatting Surgical effects. Note that this one is built without Lion's Eye Diamond, since that is presumably the card that will get extracted. You could build an Oracle pile in a similar fashion. It is import to consider the sequencing of your spells when playing against extraction effects. You cannot take any actions between cracking LED and flashing back Echo, or you will give your opponent priority and the chance to extract the Echo. After Echo, it is possible they could have another Surgical Extraction, so you should sequence carefully here too. Play the Petals first. If you use a Petal before casting the second, they'll have an opportunity to Extract, and likewise with the Rituals.
+
+This next technique won't work against {{Extirpate}} due to Split Second but it can be effective at fighting Surgical Extraction
+
+> Ponder, Brainstorm in hand - {{BBB}} + {{UU}}, max. 4 life
+
+<row variant="pile">{{!LED}} {{!Pn}} {{!SW}} {{!SW}} {{!TO}} </row>
+
+After casting Doomsday, lead off with Ponder. If they Surgical, respond with Brainstorm so you can get the LED in your hand, and then draw a Street Wraith with Ponder. From here, you can cast LED, cycle Wraith making UUU, and be able to win. If they don't Surgical in response to the Ponder, simply draw the LED. Cast it, then Brainstorm making UUU with LED. If they Surgical in response to BS, you'll win no matter what you draw. If they don't you'll still win from here even if they Surgical later on.
+
+The takeaway here is that the instant speed draw of Brainstorm lets you get the one card you absolutely need, and the order of the rest of the pile doesn't matter.
+
+### Various Other Graveyard Hate
+
+Graveyard hate is not particularly effective against DDFT. Only Echo of Eons is at all affected as a gameplan, and against a card like Tormod's Crypt proper sequencing will let you Echo through it anyway. Cabal Ritual has reduced effectiveness against some grave hate, but it's still at least +1 mana no matter what. The one way you can get into a bit of trouble is if they have exiling grave hate like {{Leyline of the Void}} and discard, and manage to exile the cards you need in your pile. This sort of situation is so rare that it frankly isn't worth worrying too much about. 
+
+## Conclusion
+
+1. There is very little hate that is completely unbeatable
+2. This does not mean that you can win from any situation. To beat some of the most hateful things your opponent can throw at you,
+you'll need plenty of time and mana and you won't always have that.
+3. Play to your outs, even if the odds are very long.
+4. Thassa's Oracle is an extremely powerful addition to the deck and immensely useful for beating all kinds of hate.
