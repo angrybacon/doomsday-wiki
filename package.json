@@ -1,7 +1,7 @@
 {
   "name": "doomsday-wiki",
   "private": true,
-  "version": "2.8.9",
+  "version": "2.8.10",
   "dependencies": {
     "@material-ui/core": "^4.9.7",
     "@material-ui/lab": "^4.0.0-alpha.46",
@@ -40,6 +40,7 @@
     "build": "gatsby build",
     "prebuild": "gatsby clean",
     "prestart": "gatsby clean",
+    "prestart:exposed": "gatsby clean",
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "start:exposed": "gatsby develop -H 0.0.0.0"

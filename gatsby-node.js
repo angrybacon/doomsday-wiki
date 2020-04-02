@@ -75,8 +75,8 @@ exports.createPages = ({ actions, graphql }) => {
       edges {
         node {
           childMarkdownRemark {
-            rawMarkdownBody
             frontmatter {authors title}
+            rawMarkdownBody
           }
           fields {date(formatString: "LL") slug}
           sourceInstanceName
