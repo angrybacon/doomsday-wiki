@@ -18,7 +18,7 @@ title: Other Doomsday Resources
   [Twitch](https://www.twitch.tv/monkeyscantcry)
 - Martin *nevilshute* Nielsen:
   [YouTube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)
-- Romario *Romariovidal* Neto:
+- Romario *Romariovidal* Vidal:
   [Twitch](https://www.twitch.tv/romariovidal)
 
 ## Podcasts

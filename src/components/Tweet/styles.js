@@ -16,6 +16,7 @@ export default makeStyles(theme => ({
     justifyContent: 'center',
     left: 0,
     opacity: 0,
+    pointerEvents: 'none',
     position: 'absolute',
     right: 0,
     top: 0,
