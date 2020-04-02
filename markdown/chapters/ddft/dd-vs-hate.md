@@ -164,7 +164,7 @@ These types of effects make it difficult or impossible to cast more than 1 spell
 
 > SW in hand - 4 life ( +{{3}} vs Trinisphere)
 
-<row variant="pile">{{!LED}} {{!SW}} {{!TP}} {{!Isl}} {{!Isl}} </row>
+<row variant="pile">{{!LED}} {{!SW}} {{!TO}} {{!Isl}} {{!Isl}} </row>
 
 Pass the turn after Doomsday. Draw LED for turn, cast it, and cycle both Wraiths (making UUU with LED) to draw and play Oracle. Agianst Trinisphere, you'll need {{3}} to play LED, but then LED generates enough mana to cast Oracle. Against Canonist or Deafening Silence, you only cast 1 artifact and 1 creature, and both lockpieces permit you to cast 1 of each.
 
@@ -193,7 +193,7 @@ After sideboarding, if you have Abrupt Decay in your deck, you can use it to rem
 Pass the turn after Doomsday, then draw the Decay for your turn. Kill the Counterbalance, and then go off. This type of pile is widely applicable to a variety of permanent based hate, and the top card can be swapped for another removal spell if you need to deal with something Abrupt Decay can't handle.
 
 
-## Miscelaneous Hate
+## Miscellaneous Hate
 
 ### Veil of Summer
 
