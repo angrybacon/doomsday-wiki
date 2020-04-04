@@ -35,6 +35,13 @@ export default makeStyles(theme => ({
     },
     justifyContent: 'space-around',
   },
+  rowHand: {
+    '@global *': {
+      padding: 1,
+      width: '14%',
+    },
+    justifyContent: 'flex-start',
+  },
   rowPile: {
     '@global *': {
       width: '19%',

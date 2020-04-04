@@ -1,9 +1,9 @@
 3 Doomsday
 3 Echo of Eons
-1 Tendrils of Agony
+1 Thassa's Oracle
 4 Burning Wish
+1 Ideas Unbound
 1 Infernal Contract
-1 Cruel Bargain
 4 Brainstorm
 4 Ponder
 4 Thoughtseize

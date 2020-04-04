@@ -59,6 +59,7 @@ export default function Markdown({ className, source }) {
         processNode: ({ attribs }) => {
           const classnames = c(classes.row, {
             centered: classes.rowCentered,
+            hand: classes.rowHand,
             pile: classes.rowPile,
           }[attribs.variant]);
           return React.createElement('span', {className: classnames});

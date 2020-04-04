@@ -42,10 +42,8 @@ so many different ways to draw into it, time it, win with it that you have a lot
 of different options. In total we have 35 different generic winning engines used
 spread across the use of Doomsday, Burning Wish and the various win conditions
 that can be utilised. We also tracked whether a combo turn involved a
-[pass-the-turn pile](/chapters/2/pass-the-turn/), a [double cantrip
-pile](/chapters/1/basics/), and various other techniques with cards like
-[Laboratory Maniac](/chapters/1/laboratory-maniac/) or [Conjurer's
-Bauble](/chapters/2/conjurers-bauble/).
+pass-the-turn pile, a double cantrip pile, and various other techniques with
+cards like Laboratory Maniac or Conjurer's Bauble.
 
 Going into this level of detail allowed us to identify trends in how often the
 deck uses what to win and how useful certain niche cards are to the deck.
@@ -55,12 +53,11 @@ deck uses what to win and how useful certain niche cards are to the deck.
 There are some limitations with how our data is compiled and assessed. One major
 one is in regards to combo turn. Combo turn refers to the turn we "go off" but
 this may not be the same turn we win. Casting Doomsday on T1 to build a
-[Shelldock Isle pile](/chapters/2/uncommon-piles/) would still be recorded as a
-T1 combo turn despite not winning until T3/4. The same with early EtW plays.
-Making 14 Goblins on T2 might not win you the game until T4 or even later but it
-would still be recorded as T2. The TES data has this same issue in regards to
-EtW lines but with Doomsday and pass-the-turn piles it's possibly a bit more
-prevalent here.
+Shelldock Isle pile would still be recorded as a T1 combo turn despite not
+winning until T3/4. The same with early EtW plays. Making 14 Goblins on T2 might
+not win you the game until T4 or even later but it would still be recorded as
+T2. The TES data has this same issue in regards to EtW lines but with Doomsday
+and pass-the-turn piles it's possibly a bit more prevalent here.
 
 Another major difference in the data collection compared to Cook's TES data is
 that the TES data only draws from a single individual and only records MTGO

@@ -1,4 +1,5 @@
 ---
+order: 5
 title: Uncommon Piles
 ---
 
@@ -6,63 +7,9 @@ There are a number of less commonly used ways to win the game after Doomsday.
 These may no longer be as relevant as they once were, or simply may not come up
 often enough in practice to be worth devoting a whole page to, but they are
 still worth knowing about. We won't go too deep into these topics, as the basics
-should get you through on the rare occasion this knowledge is relevant. There
-are a number of other configurations these pile types can take, but this should
-get you started.
+should get you through on the rare occasion this knowledge is relevant.
 
-## Double Doomsday Piles
-
-There may come a time when you need to achieve a high storm count, but Lab Man
-is not an option. Perhaps your opponent has a high life total and lots of
-removal. One option in such situations is a Double Doomsday pile. As the name
-suggests, these involve casting Doomsday twice in one turn, to build a new pile
-and recycle cards you cast in your first pile. These piles typically require a
-lot of mana and life (especially if you're using IC) but they are still worth
-knowing, though they rarely come up.
-
-> CB in play, SW in hand - {{BBB}} + {{1UUR}} - 11 Storm
-
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
-
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
-
-Plays out as follows:
-
-1. Cast Doomsday and build the first pile
-2. Activate SW, draw IU
-3. Cast IU, draw LED, LED and BW
-4. Cast LED
-5. Cast LED
-6. Cast BW getting DD, hold priority and crack LEDs for {{UUUBBB}}
-7. Cast Doomsday and build the second pile
-8. Crack CB targeting nothing, draw IU
-9. Cast IU, draw LED, LED and SW
-10. Cast LED
-11. Cast LED
-12. Activate SW, hold priority and crack LEDs for {{BBBRRR}}, draw BW
-13. Cast BW getting ToA
-14. Cast ToA
-
-You can do a Double-DD pile with IC, but be aware you need at least 16 life
-pre-DD to execute this pile and it requires a silly amount of black mana. Here
-is an example of what that might look like:
-
-> DR, Pre in hand - {{BBB}} + {{1UBBBBBB}} - 11 Storm
-
-<row variant="pile">{{!IC}} {{!DR}} {{!CB}} {{!DD}} {{!ToA}}</row>
-
-<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!DD}} {{!Pre}}</row>
-
-1. Cast Doomsday and build the first pile
-2. Cast DR, then Pre to draw IC
-3. Cast IC, drawing DR, CB, DD and ToA
-4. Cast CB, then DR, then DD to build the second pile
-5. Cast IC again, drawing DR, DR, DD and Pre
-6. Cast DR, DR, then ToA
-
-This pile is unlikely to be useful in practice since the cost is so steep.
-
-## Shelldock Isle/Emrakul
+## Shelldock Isle / Emrakul
 
 The interaction between Doomsday and Shelldock Isle is surprisingly elegant.
 Once you resolve Doomsday you automatically fulfill the activation condition on
@@ -71,24 +18,26 @@ Aeons Torn is by far the best card to cast off Shelldock Isle, since you will
 get an extra turn and can attack to obliterate your opponent's board.
 
 This tech was extremely popular during the height of Miracles' power, since it
-was immune to counterspells after Doomsday resolved. In the current metagame,
-there are not enough decks that are weak to this strategy to make it worth
-spending the sideboard slots, so it fell out of favor. It could certainly be a
-valid metagame choice depending on what decks you expect to face.
+was immune to counterspells after Doomsday resolved. Blue mages would try to
+trap you by letting Doomsday resolve, and you could slow-roll out an
+uncounterable Eldrazi to punish them. In the current metagame, there are not
+enough decks that are weak to this strategy to make it worth spending the
+sideboard slots, so it fell out of favor. It could certainly be a valid metagame
+choice depending on what decks you expect to face.
 
 A simple version of the pile looks like this:
 
 > Enough life to live for 2 turns post-DD
 
-<row variant="pile">{{!SI}} {{!Em}} {{!Isl}} {{!Dur}} {{!LM}}</row>
+<row variant="pile">{{!SI}} {{!Em}} {{!Isl}} {{!Dur}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile, then pass the turn
 2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
 3. Draw and play Island, activate Shelldock Isle, cast Emrakul, take another
    turn
 4. Cast Duress if you can, attack with Emrakul
-5. Attack again next turn if needed. LM serves as a backup plan in case they're
-   not dead yet
+5. Attack again next turn if needed. Oracle serves as a backup plan in case
+   they're not dead yet or deal with the Emrakul.
 
 The first 2 cards may be the only ones required to win so we have 3 extra cards
 to build some redundancy, interaction and backup plans into our pile.
@@ -99,24 +48,114 @@ pass 1 turn.
 If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
-<row variant="pile">{{!CB}} {{!SI}} {{!Em}} {{!Dur}} {{!LM}}</row>
+<row variant="pile">{{!Pn}} {{!SI}} {{!Em}} {{!TO}} {{!DD}}</row>
 
-CB on top means SI won't get fatesealed, and you can put DD on the bottom with
-CB to draw SI and ensure you have enough cards in your library not to deck
-yourself before you can attack for lethal.
+Ponder on top means Shelldock Isle won't get fatesealed, you have Oracle as a
+backup plan, and a Doomsday as yet another backup plan to recycle cards in case
+you need more turns to attack with your 15/15.
+
+## Passing Multiple Turns After Doomsday
+
+Passing one turn after Doomsday is sketchy enough, why would you want to pass
+multiple turns? Well, sometimes it's just what you need to do. If you are
+severely constrained on resources, or your opponent has a lockpiece you need to
+remove, or they are chock full of interaction but have no clock, you may find
+yourself needing to draw multiple cards over multiple turns to deal with such
+situations. Thassa's Oracle provides a cheap, clean wincon in these types of
+situations. Lets look at a few example:
+
+### Example 1
+
+> Tropical Island, Underground Sea on board, no cantrips in hand, Opponent has
+> Chalice@2 - {{BG}} + {{UU}}
+
+<row variant="pile">{{!AD}} {{!SW}} {{!TO}} {{!LP}} {{!LP}}</row>
+
+This situation is pretty specific, but it illustrates the need to occasionally
+pass multiple turns. Consider this a post-board game, where you're more likely
+to have Abrupt Decay in your deck. Perhaps your hand was nothing but a Dark
+Ritual and a Doomsday, but your opponent has no clock. Make use of Doomsday's
+tutoring power to find a solution to the Chalice locking your wincons.
+
+1. Cast Doomsday and build the above pile. Pass the turn.
+2. Draw Decay, and pass the turn again. Decay the Chalice on their end step.
+3. Draw Street Wraith, and cycle it into Oracle.
+4. Oracle's trigger will win you the game with 2 cards left.
+
+With this pile, you can even pass 1-2 more turns to draw mana to cast Oracle, if
+for example you got hit with Wasteland.
+
+### Example 2
+
+> No mana on board, no cards in hand - {{0}}, 2 life
+
+<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!TO}} {{!LP}}</row>
+
+1. Pass the turn after casting Doomsday
+2. Draw the LED, play it out, and pass again.
+3. Draw the Street Wraith, cycle it holding priority to crack LED for {{UUU}}
+4. Draw Ponder and cast it, leaving {{UU}} floating
+5. Draw Oracle and cast it to win with 1 card left.
+
+How did you find yourself in this position? Maybe you cast Doomsday using Lotus
+Petal and Dark Ritual. Let's not think too hard about it. The point is that if
+you pass 2 turns, you can win from literally nothing.
+
+### Example 3
+
+> Plenty of lands/mana on board - {{BBBBUU}}
+
+<row variant="pile">{{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}} {{!TO}}</row>
+
+This is a very crude example but again, it illustrates an idea. Perhaps you cast
+Doomsday against a Ux Control deck, assuming it would be countered, but they let
+it through. Their deck is ponderously slow, and they aren't threatening your
+life total at all. You could simply pass 5 turns, draw a ton of discard, and try
+to brute force your Oracle through on the last turn.
+
+## Piles with Empty the Warrens
+
+This is another technique, that, while its usefulness has declined sharply with
+the inclusion Thassa's Oracle, is nevertheless useful to know, since its
+execution requires no unusual cards. A situation could be contrived where this
+type of pile was a reasonable option though you are unlikely to encounter such a
+situation in the wild; for example, your opponent has a {{Leyline of sanctity}}
+and a {{Meddling Mage}} naming Thassa's Oracle
+
+### Example 1
+
+> Ponder, LED, LED in hand - {{BBB}} + {{U}} - 6 Storm
+
+<row variant="pile">{{!BW}} {{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}}</row>
+
+In its crudest form, you use Doomsday as a tutor for Burning Wish, which then
+retrieves Empty the Warrens. The remainder of the pile is discard or other
+interactive spells, to ensure your opponent can't deal with the goblins before
+they deal with your opponent.
+
+### Example 2
+
+> Ponder, LED in hand - {{BBB}} + {{1U}} + {{BBB}} - 8 Storm
+
+<row variant="pile">{{!IU}} {{!LP}} {{!LED}} {{!BW}} {{!DD}}</row>
+
+In this slightly more complicated variant, you use Doomsday to set up a pile
+that makes Goblins, and then the next turn you use another Doomsday to add more
+cards to your deck so you have time to make a lethal attack.
 
 ## Time Spiral Piles
 
 {{Time Spiral}} was a common sideboard card in older Doomsday lists, predating
-the rise of SDT Miracles. It can still be used to make functional piles, and is
-a strong wishboard card in its own right, but giving your opponent a fresh 7 in
-our blue-dominated format is undesirable. For this reason the card sees little
-to no play, but is presented here for its historical interest.
+the rise of SDT Miracles. It can still be used to make functional piles, but
+these days is obviated by Echo of Eons. For this reason the card sees little to
+no play, but the pile is presented here for its historical interest.
 
 The cost listed in parentheses is assumingly paid for by the lands that are
 untapped by Time Spiral.
 
 A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
+
+### Example 1
 
 > 2 cards in hand - {{1UUR}} + ({{1R}}) - 9 Storm
 
@@ -125,18 +164,17 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 The first wish fetches Time Spiral, which untaps lands that let you play the
 second Burning Wish to fetch Tendrils.
 
-Note that if you have no other cards in hand or your post-Doomsday graveyard
-resolving Time Spiral will kill you. The Doomsday you've cast to build this pile
-typically ends up as the only card in your graveyard, with 5 cards in your
-pass-the-turn pile this adds up to 6. However, the Burning Wish used to wish for
-Time Spiral exiles itself, so that's only 5 cards. If you can cast spell some of
-the cards you had in hand, your Storm count can be higher than what is listed.
-Also note that the listed cost assumes that you can produce {{1R}} with the
-lands that you untap with Time Spiral.
+Note that as with Echo piles, the number of cards left over to shuffle back into
+your library is important, to avoid decking yourself. Also note that the listed
+cost assumes that you can produce {{1R}} with the lands that you untap with Time
+Spiral.
 
-## Summary
+## Conclusion
 
-1. These piles are useful to know, for their historical significance and
-   occasional practical use
-2. These piles aren't going to come up all that often in a typical game, so
+1. These piles aren't going to come up all that often in a typical game, so
    don't feel you need to memorize them
+2. Many of these piles are high risk in some form or another. Don't be afraid
+   of this though. If one of these types of piles gives you a 10% chance to win,
+   that could be 10% more than any other option.
+3. Consider these less as something to memorize and more as a source of
+   inspiration for thinking outside the box when it comes to pile construction
