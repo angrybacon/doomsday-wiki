@@ -28,7 +28,7 @@ Sideboard
 1 Grapeshot
 1 Past in Flames
 1 Cabal Therapy
-1 Chain Lightning 
+1 Chain Lightning
 1 Infernal Tutor
 1 Hull Breach
 4 Xantid Swarm

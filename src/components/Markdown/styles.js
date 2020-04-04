@@ -35,17 +35,17 @@ export default makeStyles(theme => ({
     },
     justifyContent: 'space-around',
   },
+  rowHand: {
+    '@global *': {
+      padding: 1,
+      width: '14%',
+    },
+    justifyContent: 'flex-start',
+  },
   rowPile: {
     '@global *': {
       width: '19%',
     },
     justifyContent: 'space-between',
   },
-  rowHand: {
-    '@global *': {
-      width: '14%',
-      padding: "1px",
-    },
-    justifyContent: 'flex-start',
-  }
 }));

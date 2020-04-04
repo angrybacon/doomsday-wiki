@@ -5,9 +5,9 @@ title: Brainstorm in Doomsday
 
 Brainstorm is one of the most powerful spells available in the Legacy format at
 this time. There have been numerous articles written on this *seemingly
-innocuous at first glance* one mana cantrip. We'll assume you know the basics of casting Brainstorm,
-and instead focus on the specifics of using it as a part
-of, or to initiate, your doomsday piles. In many cases it can be used as any other
+innocuous at first glance* one mana cantrip. We'll assume you know the basics of
+casting Brainstorm, and instead focus on the specifics of using it as a part of,
+or to initiate, your doomsday piles. In many cases it can be used as any other
 cantrip, but it has unique applications to Doomsday piles, allowing you to swap
 cards in hand for cards in the pile.
 
@@ -16,13 +16,15 @@ situations where you have the resources to win. Beginning players often start
 out with learning only a few piles by heart. While this helps with getting
 started, there will be many chances to win that they will miss out on.
 
-Brainstorm can act as a simple cantrip into a pile, but it can do more interesting things as well.
+Brainstorm can act as a simple cantrip into a pile, but it can do more
+interesting things as well.
 
 Let's discuss some examples:
 
 ### Example 1
 
-If you have a win condition in hand, you can Brainstorm to insert it into the pile, swapping it for additional mana.
+If you have a win condition in hand, you can Brainstorm to insert it into the
+pile, swapping it for additional mana.
 
 > BS, BW in hand - {{BBB}} + {{1U}} - 8 Storm
 
@@ -40,13 +42,14 @@ If you have a win condition in hand, you can Brainstorm to insert it into the pi
 
 You can see that this not only decreases the total cost of the pile by 1 mana,
 but also drastically reduces the amount blue mana needed. This is useful, since
-it lets Brainstorm act almost likea ritual, *producing* {{UU}} mana for
-Ideas Unbound. It also increases the storm by 1 compared to the basic pile,
-since you get an extra spell in the pile.
+it lets Brainstorm act almost likea ritual, *producing* {{UU}} mana for Ideas
+Unbound. It also increases the storm by 1 compared to the basic pile, since you
+get an extra spell in the pile.
 
 ### Example 2
 
-The extra card in hand need not be a win condition; any card that you want in your pile can be swapped in with Brainstorm.
+The extra card in hand need not be a win condition; any card that you want in
+your pile can be swapped in with Brainstorm.
 
 > BS, LP in hand - {{BBB}} + {{1UB}} - 9 Storm
 
@@ -66,7 +69,8 @@ the Petal for a DR to cast IC.
 
 ### Example 3
 
-Cards in hand need not even be "useful" at all. Dead cards can be traded in as well.
+Cards in hand need not even be "useful" at all. Dead cards can be traded in as
+well.
 
 > BS, Land in hand - {{BBB}} + {{U}}
 
@@ -79,11 +83,13 @@ Cards in hand need not even be "useful" at all. Dead cards can be traded in as w
 5. Cast Oracle
 6. Oracle triggers with 2 cards left in the deck to win
 
-While this pile is vulnerable to removal on Oracle, its also extremely cheap and works with a rather bad hand.
+While this pile is vulnerable to removal on Oracle, its also extremely cheap and
+works with a rather bad hand.
 
 ### Example 4
 
-The Brainstorm can even be in the pile, if you have another cantrip to retrieve it
+The Brainstorm can even be in the pile, if you have another cantrip to retrieve
+it.
 
 > Ponder, Land in hand - {{BBB}} + {{UU}}
 
@@ -97,11 +103,14 @@ The Brainstorm can even be in the pile, if you have another cantrip to retrieve 
 5. Cast Oracle
 6. Oracle triggers with 1 cards left in the deck to win
 
-After you Ponder into the pile, this one is identical to the previous example. At the cost of only 1 more mana you can
-turn your mere Ponder into a fancy Brainstorm to then turn your dead cards into live ones.
+After you Ponder into the pile, this one is identical to the previous example.
+At the cost of only 1 more mana you can turn your mere Ponder into a fancy
+Brainstorm to then turn your dead cards into live ones.
 
 ## Conclusion
 
 1. You can use BS to exchange resources between your hand and the pile
-2. These resources need not be mana or wincons; dead cards/slots in your pile are resources in this sense.
-3. Be judicious with your Brainstorms pre-combo, as they can be powerful enablers for your combo turn.
+2. These resources need not be mana or wincons; dead cards/slots in your pile
+   are resources in this sense.
+3. Be judicious with your Brainstorms pre-combo, as they can be powerful
+   enablers for your combo turn.

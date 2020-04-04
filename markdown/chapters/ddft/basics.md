@@ -3,10 +3,13 @@ order: 0
 title: The Basics
 ---
 
-The goal of all Magic decks is to win the game. Doomsday aims to do so by casting its namesake card and constructing a "pile" of 5 cards
-tailored to the current game state. While it would be nigh impossible to enumerate every game state and pile variation, we can definitely
-go over the basics. There are 2 cards that we will be using in conjuction with Doomsday to actually bring about our opponent's demise: 
-Tendrils of Agony (typically found via Burning Wish), and Thassa's Oracle.
+The goal of all Magic decks is to win the game. Doomsday aims to do so by
+casting its namesake card and constructing a "pile" of 5 cards tailored to the
+current game state. While it would be nigh impossible to enumerate every game
+state and pile variation, we can definitely go over the basics. There are 2
+cards that we will be using in conjuction with Doomsday to actually bring about
+our opponent's demise: Tendrils of Agony (typically found via Burning Wish), and
+Thassa's Oracle.
 
 
 ## Basic Doomsday Piles
@@ -17,18 +20,18 @@ terms of decklists so adjust accordingly.
 
 There are some key rules you can use to help remember things like Storm count.
 If the intended pile is meant to win without passing the turn then you always
-have at least 1 Storm to begin with from Doomsday itself. Additionally if all cards used
-in the Doomsday pile are spells you can cast, then you get to add 5 Storm from
-that. Breaking down the card sets of pre-pile, pile and wish targets helps the
-mind easily compute what Storm count you will end up with from a certain line of
-play.
+have at least 1 Storm to begin with from Doomsday itself. Additionally if all
+cards used in the Doomsday pile are spells you can cast, then you get to add 5
+Storm from that. Breaking down the card sets of pre-pile, pile and wish targets
+helps the mind easily compute what Storm count you will end up with from a
+certain line of play.
 
 ### Single Cantrip Piles
 
 There are basically two variants to this pile. You either have a cantrip that
-draws a single card in hand ready to cast, or a {{Conjurer's Bauble}} in play. For
-the moment, the difference does not really matter and we'll just assume that you
-have a Ponder in hand and {{U}} to cast it.
+draws a single card in hand ready to cast, or a {{Conjurer's Bauble}} in play.
+For the moment, the difference does not really matter and we'll just assume that
+you have a Ponder in hand and {{U}} to cast it.
 
 #### Ideas Unbound
 
@@ -45,13 +48,13 @@ have a Ponder in hand and {{U}} to cast it.
 7. Cast BW for ToA
 8. Cast ToA
 
-This pile has cost you {{BBB}} + {{UUU}} and 2 life and results in 7 Storm, that is
-only 14 lifeloss. Note that the {{UU}} for IU is often paid for by a Lion's Eye
-Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond preceding
-the Doomsday you're already up to 18 lifeloss. Add in a Duress or an extra
-ritual beforehand and they're dead.  
-If you are low on life or need an extra storm, you'll can exchange the Street Wraith with a Ponder
-at the cost of 1 more {{U}} mana.
+This pile has cost you {{BBB}} + {{UUU}} and 2 life and results in 7 Storm, that
+is only 14 lifeloss. Note that the {{UU}} for IU is often paid for by a Lion's
+Eye Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond
+preceding the Doomsday you're already up to 18 lifeloss. Add in a Duress or an
+extra ritual beforehand and they're dead.  
+If you are low on life or need an extra storm, you'll can exchange the Street
+Wraith with a Ponder at the cost of 1 more {{U}} mana.
 
 > Cantrip in hand - {{BBB}} + {{UUU}}
 
@@ -64,8 +67,8 @@ at the cost of 1 more {{U}} mana.
 5. Use the Petals to cast Oracle
 6. Oracle triggers with no cards left in your deck for the win
 
-This pile costs the same as the Tendrils pile, but the storm count doesn't matter, which obviously is great when you can't
-generate enough storm.
+This pile costs the same as the Tendrils pile, but the storm count doesn't
+matter, which obviously is great when you can't generate enough storm.
 
 #### Infernal Contract
 
@@ -103,10 +106,10 @@ response to the first cantrip.
 8. Cast BW, hold priority crack LED for {{BBB}}, get ToA
 9. Cast ToA
 
-This pile costs {{BBB}} + {{1UU}} to execute and results in 9
-Storm. We use the second cantrip in hand to draw a Lion's Eye Diamond before executing the rest of the
-pile and use that Lion's Eye Diamond to pay for much of the rest of the pile. We
-basically turn our additional cantrip into a Lion's Eye Diamond with
+This pile costs {{BBB}} + {{1UU}} to execute and results in 9 Storm. We use the
+second cantrip in hand to draw a Lion's Eye Diamond before executing the rest of
+the pile and use that Lion's Eye Diamond to pay for much of the rest of the
+pile. We basically turn our additional cantrip into a Lion's Eye Diamond with
 Doomsday.
 
 > Pn, Pn in hand - {{BBB}} + {{UU}}
@@ -121,9 +124,11 @@ Doomsday.
 6. Use the Petals to cast Oracle
 7. Oracle triggers with no cards left for the win
 
-Double cantrip piles are cheaper and more straightforward with Thassa's Oracle, requiring merely the cost of
-the 2 cantrips post-Doomsday. Note that in each of these piles, the cantrip doesn't matter, you simply need the
-resources to cast it. If you had 2 Street Wraiths in hand, this pile would cost 4 life after Doomsday, but no additional mana.
+Double cantrip piles are cheaper and more straightforward with Thassa's Oracle,
+requiring merely the cost of the 2 cantrips post-Doomsday. Note that in each of
+these piles, the cantrip doesn't matter, you simply need the resources to cast
+it. If you had 2 Street Wraiths in hand, this pile would cost 4 life after
+Doomsday, but no additional mana.
 
 #### Infernal Contract
 
@@ -142,24 +147,26 @@ resources to cast it. If you had 2 Street Wraiths in hand, this pile would cost 
 
 Double cantrip piles with Infernal Contract require a Conjurer's Bauble, since
 if you can't put a card back into your deck you'll deck yourself when you try to
-draw 4. This is not a situation that you will likely find yourself in, as Draw-4s like Infernal Contract
-and Conjurer's bauble tend to be uncommon deckbuilding choices in the most recent DDFT lists.
+draw 4. This is not a situation that you will likely find yourself in, as
+Draw-4s like Infernal Contract and Conjurer's bauble tend to be uncommon
+deckbuilding choices in the most recent DDFT lists.
 
 ## Variations
 
-That's it for the basic and most common piles.
-There are many variations of each pile and it doesn't really make sense to list
-them all. In each of the above piles you may replace one cantrip with another,
-you simply need the life or mana to use it. Also of note, the use
-of Conjurer's Bauble to draw into the piles allows for lower mana or life costs
-but does result in less Storm being generated during the play line.
+That's it for the basic and most common piles. There are many variations of each
+pile and it doesn't really make sense to list them all. In each of the above
+piles you may replace one cantrip with another, you simply need the life or mana
+to use it. Also of note, the use of Conjurer's Bauble to draw into the piles
+allows for lower mana or life costs but does result in less Storm being
+generated during the play line.
 
-The most important part of learning how to cast Doomsday is to try not to think of the specifics too much. Try to break
-everything down into resources. The key ones are the cards you hold in hand, the
-mana available, any other cards in play like Conjurer's Bauble and your deck
-construction. As you get more familiar with these factors you can then start to
-consider your opponent as a factor and become more experienced in generating
-piles on the fly to fit whatever gameplay scenario you might come across.
+The most important part of learning how to cast Doomsday is to try not to think
+of the specifics too much. Try to break everything down into resources. The key
+ones are the cards you hold in hand, the mana available, any other cards in play
+like Conjurer's Bauble and your deck construction. As you get more familiar with
+these factors you can then start to consider your opponent as a factor and
+become more experienced in generating piles on the fly to fit whatever gameplay
+scenario you might come across.
 
 This is only a small subset of the types of piles you'll require, but these
 basic forms are the foundation for other piles you'll encounter. In later
