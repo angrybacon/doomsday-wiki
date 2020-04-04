@@ -1,14 +1,14 @@
+import c from 'classnames';
+import PropTypes from 'prop-types';
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import htmlParser from 'react-markdown/plugins/html-parser';
 import Divider from '@material-ui/core/Divider';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Typography from '@material-ui/core/Typography';
-import c from 'classnames';
-import PropTypes from 'prop-types';
-import React from 'react';
-import ReactMarkdown from 'react-markdown';
-import htmlParser from 'react-markdown/plugins/html-parser';
 import Decklist from '../Decklist';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
@@ -19,7 +19,7 @@ import useStyles from './styles';
 
 
 /* eslint-disable react/prop-types */
-const  Paragraph = ({ children }) => {
+const Paragraph = ({ children }) => {
   const component = children[0].type.displayName === 'ParsedHtml' ? 'div' : 'p';
   return <Typography children={children} component={component} gutterBottom />;
 };
