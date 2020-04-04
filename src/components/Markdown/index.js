@@ -1,53 +1,41 @@
-import Divider from '@material-ui/core/Divider';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Typography from '@material-ui/core/Typography';
 import c from 'classnames';
 import PropTypes from 'prop-types';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
+import Typography from '@material-ui/core/Typography';
 import Decklist from '../Decklist';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
-import Quote from '../Quote';
-import Table from '../Table';
 import Tweet from '../Tweet';
+import Blockquote from './renderers/Blockquote';
+import Code from './renderers/Code';
+import Heading from './renderers/Heading';
+import Image from './renderers/Image';
+import Paragraph from './renderers/Paragraph';
+import Table, { TableBody, TableCell, TableHead, TableRow } from './renderers/Table';
+import ThematicBreak from './renderers/ThematicBreak';
 import useStyles from './styles';
 
 
-/* eslint-disable react/prop-types */
-const  Paragraph = ({ children }) => {
-  const component = children[0].type.displayName === 'ParsedHtml' ? 'div' : 'p';
-  return <Typography children={children} component={component} gutterBottom />;
-};
-/* eslint-enable react/prop-types */
-
-
-export default function Markdown({ barf, className, source }) {
+export default function Markdown({ className, source }) {
 
   const classes = useStyles();
 
   const renderers = {
-    /* eslint-disable react/display-name, react/prop-types */
-    blockquote: ({ children }) => <Quote children={children} />,
-    code: ({ value }) => <pre className={classes.code}><code>{value}</code></pre>,
-    heading: ({ children, level }) => (
-      <Typography children={children} gutterBottom variant={`h${level + 2}`} />
-    ),
-    image: rest => <img {...rest} className={classes.image} />,
+    blockquote: Blockquote,
+    code: Code,
+    heading: Heading,
+    image: Image,
     link: Prettylink,
     linkReference: Prettylink,
     paragraph: Paragraph,
-    table: ({ children }) => <Table children={children} className={c({[classes.barf]: barf})} />,
-    tableBody: ({ children }) => <TableBody children={children} />,
-    tableCell: ({ align, children }) => <TableCell {...{align: align || undefined, children}} />,
-    tableHead: ({ children }) => <TableHead children={children} />,
-    tableRow: ({ children }) => <TableRow children={children} />,
-    thematicBreak: () => <Divider className={c(classes.divider, {[classes.barf]: barf})} />,
-    /* eslint-enable react/display-name, react/prop-types */
+    table: Table,
+    tableBody: TableBody,
+    tableCell: TableCell,
+    tableHead: TableHead,
+    tableRow: TableRow,
+    thematicBreak: ThematicBreak,
   };
 
   const parseHtml = htmlParser({
@@ -56,7 +44,7 @@ export default function Markdown({ barf, className, source }) {
       /* eslint-disable react/display-name, react/prop-types */
       {
         processNode: ({ attribs }) => React.createElement(Decklist, {
-          barf,
+          barf: true,
           collapsible: true,
           path: attribs.deckfile,
         }),
@@ -98,7 +86,6 @@ export default function Markdown({ barf, className, source }) {
 
 
 Markdown.propTypes = {
-  barf: PropTypes.bool,
   className: PropTypes.string,
   source: PropTypes.string.isRequired,
 };

@@ -52,12 +52,12 @@ those select parts of the server. Despite these summaries being present we still
 get some confusion as to what the differences actually entail both in terms of
 deck building decisions and in terms of personal preferences or gameplay styles.
 
-I will present the three main archetypes below with the current Discord summary
+I will present the three main variants below with the current Discord summary
 and a bit more comparison on each.
 
 ### 1.1 DDFT (DoomsDay Fetchland Tendrils)
 
-*Lists that utilise traditional elements such as Burning WIsh, some sort of draw
+*Lists that utilise traditional elements such as Burning Wish, some sort of draw
 3/4 engine and focus on a Storm style approach to winning (however do not always
 require storm to win).*
 
@@ -66,14 +66,13 @@ traditional name of historical iterations of the deck. We won't do a full
 history lesson here however it basically refers to the fact that this is a storm
 deck that can play a much longer game if required.
 
-The deck normally incorporates some sort of raw card advntage engine such as
+The deck normally incorporates some sort of raw card advantage engine such as
 {{Ideas Unbound}}, {{Act on Impulse}}, {{Three Wishes}} or {{Cruel Bargain}} to
 enable drawing into the Doomsday pile. {{Burning Wish}} has been used often to
-enable additional pseudo copies of Doomsday and newer cards like
-{{Echo of Eons}} ave been incorporated in lists too. The aim of the deck is to
-kill via a Doomsday pile with lethal {{Tendrils of Agony}} or
-{{Thassa's Oracle}} or a natural Tendrils storm kill without Doomsday. See an
-example pile below:
+enable additional pseudo copies of Doomsday and newer cards like {{Echo of
+Eons}} have been incorporated in lists too. The aim of the deck is to kill via a
+Doomsday pile with lethal {{Tendrils of Agony}} or {{Thassa's Oracle}} or a
+natural Tendrils storm kill without Doomsday. See an example pile below:
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pn}} {{!BW}}</row>
 
@@ -124,7 +123,7 @@ success in tournaments.
 
 One thing newer players always ask is "what is the standard list being played".
 This is a difficult question to answer due to the flexibility of the deck to
-incorporate different elements and play different strategies / elements. Pilot
+incorporate different cards and play different strategies / elements. Pilot
 preference can also feature heavily meaning where one person may be having
 success with one style of list, another person might be doing the same with a
 completely different style.
@@ -219,12 +218,12 @@ recommended.
 
 ### 2.3 Cantrips
 
-Cantrips are a staple of almost any Legacy deck that runs U and this one is no
-exception. Just like other combo variants, Doomsday wants to find the pieces it
-needs as quickly and reliably as it can so it tends to have a greater number of
-cantrips relative to other *fairer* decks. Unlike other decks like TES however,
-the cantrips can actually form an integral part of the combo itself and so
-ensuring these are at a maximum is key. You don't want to be having to *burn*
+Cantrips are a staple of almost any Legacy deck that runs {{U}} and this one is
+no exception. Just like other combo variants, Doomsday wants to find the pieces
+it needs as quickly and reliably as it can so it tends to have a greater number
+of cantrips relative to other *fairer* decks. Unlike other combo decks like TES
+however, the cantrips can actually form an integral part of the combo itself and
+so ensuring these are at a maximum is key. You don't want to be having to *burn*
 through cantrips to find pieces to then find yourself unable to draw into an
 otherwise game-winning pile.
 
@@ -270,9 +269,9 @@ Wraith and 1-2 Edge of Autumn.
 No combo deck wants to run into potential permission without first having some
 sort of guard up (except maybe Belcher). Interaction is part of what makes
 Legacy so much fun and having tools to interact with your opponent proactively,
-or to react to their interaction are crucial to have. This section touches
-somewhat upon the later discussion of splash colours but hopefully will keep it
-to a simple numbers game for now.
+or to react to their interaction is crucial. This section touches somewhat upon
+the later discussion of splash colours but hopefully will keep it to a simple
+numbers game for now.
 
 Interaction can come in many forms such as proactive discard effects like
 {{Duress}} and {{Thoughtseize}}, reactive cards like {{Force of Will}} and
@@ -307,7 +306,7 @@ are then stuck with it present on the top of your deck or, in hand where it
 cannot be cast at all. {{Thoughtseize}} and {{Duress}} are the favourites over
 other splash options like {{Veil of Summer}} as trying to balance mana when
 playing off the top of your deck can really put a strain on having the right
-colours and you always want {{B}} in adbundance.
+colours and you always want {{B}} in abundance.
 
 #### Meandeck
 
@@ -385,13 +384,14 @@ Being a combo deck, Doomsday does not need to run as many lands as some of it's
 fairer {{U}} cousins. Depending on how fast you intend to try and win and how
 much other mana acceleration you are playing a deck should run typically 15-18
 lands, usually around 16/17. This tends to be mostly comprised of a minimum of 4
-{{Polluted Delta}}, 4 other on-colour fetchlands or 4 Primastic Vista, at least
-1 {{Island}}/{{Snow-Covered Island}} and 1 {{Swamp}}/{{Snow-Covered Swamp}} and
-1 {{Underground Sea}}. The rest is the a mix of additional Seas, some other U/X
-and B/X splash duals and additional basic lands as required. Astrolabe decks
-tend to run more basics compared to their non-snow cousins. Even with
-Astrolabes, you should consider at least 2 {{Underground Sea}}s in your list and
-probably 1 each of the primary splash colour U/X and B/X dual land.
+{{Polluted Delta}}, 4 other on-colour fetchlands or 4 {{Prismatic Vista}}, at
+least 1 {{Island}}/{{Snow-Covered Island}} and 1
+{{Swamp}}/{{Snow-Covered Swamp}} and 1 {{Underground Sea}}. The rest is the a
+mix of additional Seas, some other U/X and B/X splash duals and additional basic
+lands as required. Astrolabe decks tend to run more basics compared to their
+non-snow cousins. Even with Astrolabes, you should consider at least 2
+{{Underground Sea}}s in your list and probably 1 each of the primary splash
+colour U/X and B/X dual land.
 
 For example if you are running a Grixis list you should run 1
 {{Volcanic Island}} and 1 {{Badlands}} and tailor your fetches accordingly so 4
@@ -633,7 +633,7 @@ May you avoid the first horsemen of the apocalypse!
 
 ## Post Script Puzzle
 
-d8dk32 recently forwarded me a tweet by Steven Menendian (designer of the 2012
+d8dk32 recently forwarded me a tweet by Stephen Menendian (designer of the 2012
 iteration of Meandeck Doomsday) who posted this screenshot as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
