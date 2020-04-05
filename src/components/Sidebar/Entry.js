@@ -1,4 +1,6 @@
 import { Link } from 'gatsby';
+import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
+import ChevronUpIcon from 'mdi-react/ChevronUpIcon';
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import Collapse from '@material-ui/core/Collapse';
@@ -24,6 +26,10 @@ export default function Entry({ entries, extra, icon, subtitle, title, ...rest }
         <ListItemText primary={title}
                       secondary={subtitle}
                       secondaryTypographyProps={{variant: 'caption'}} />
+        {entries.length > 0 && (
+          <div children={open ? <ChevronUpIcon /> : <ChevronDownIcon />}
+               className={classes.entryChevron} />
+        )}
       </ListItem>
       {entries.length > 0 && (
         <Collapse in={open} timeout="auto">

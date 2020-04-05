@@ -17,6 +17,9 @@ export default makeStyles(theme => ({
   entryActive: {
     backgroundColor: theme.palette.action.selected,
   },
+  entryChevron: {
+    color: theme.palette.text.secondary,
+  },
   header: theme.mixins.toolbar,
   root: {
     height: '100%',
