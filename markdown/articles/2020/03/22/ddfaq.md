@@ -10,7 +10,7 @@ new players gravitating towards our favourite {{BBB}} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
 people either interested, or starting off playing {{Doomsday}}. I had hoped to
 at least start answering many of the questions [in my first
-article](/article/2020/03/12/pretty-mean-deck.md), which you should really have
+article](/article/2020/03/12/pretty-mean-deck/), which you should really have
 a read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
@@ -61,7 +61,7 @@ and a bit more comparison on each.
 3/4 engine and focus on a Storm style approach to winning (however do not always
 require storm to win).*
 
-[As mentioned last time](/article/2020/03/12/pretty-mean-deck.md), DDFT is the
+[As mentioned last time](/article/2020/03/12/pretty-mean-deck/), DDFT is the
 traditional name of historical iterations of the deck. We won't do a full
 history lesson here however it basically refers to the fact that this is a storm
 deck that can play a much longer game if required.
