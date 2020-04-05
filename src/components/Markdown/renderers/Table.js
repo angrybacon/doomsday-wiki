@@ -1,15 +1,15 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import TableBodyWrapper from '@material-ui/core/TableBody';
-import TableCellWrapper from '@material-ui/core/TableCell';
-import TableHeadWrapper from '@material-ui/core/TableHead';
-import TableRowWrapper from '@material-ui/core/TableRow';
-import TableWrapper from '../../Table';
+import MuiTableBody from '@material-ui/core/TableBody';
+import MuiTableCell from '@material-ui/core/TableCell';
+import MuiTableHead from '@material-ui/core/TableHead';
+import MuiTableRow from '@material-ui/core/TableRow';
+import MuiTable from '../../Table';
 import useStyles from '../styles';
 
 
 export function TableBody({ children }) {
-  return <TableBodyWrapper children={children} />;
+  return <MuiTableBody children={children} />;
 }
 
 
@@ -19,18 +19,18 @@ TableBody.propTypes = {
 
 
 export function TableCell({ align, children }) {
-  return <TableCellWrapper {...{align: align || undefined, children}} />;
+  return <MuiTableCell {...{align: align || undefined, children}} />;
 }
 
 
 TableCell.propTypes = {
-  align: PropTypes.bool,
+  align: PropTypes.string,
   children: PropTypes.node,
 };
 
 
 export function TableHead({ children }) {
-  return <TableHeadWrapper children={children} />;
+  return <MuiTableHead children={children} />;
 }
 
 
@@ -40,7 +40,7 @@ TableHead.propTypes = {
 
 
 export function TableRow({ children }) {
-  return <TableRowWrapper children={children} />;
+  return <MuiTableRow children={children} />;
 }
 
 
@@ -51,7 +51,7 @@ TableRow.propTypes = {
 
 export default function Table({ children }) {
   const classes = useStyles();
-  return <TableWrapper children={children} className={classes.barf} />;
+  return <MuiTable children={children} className={classes.barf} />;
 }
 
 

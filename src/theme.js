@@ -27,7 +27,7 @@ const themeOptions = {
     }),
     sidebar: {
       treshold: defaultTheme.breakpoints.down('sm'),
-      width: 300,
+      width: 310,
     },
   },
 

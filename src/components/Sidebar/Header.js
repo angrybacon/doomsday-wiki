@@ -11,7 +11,7 @@ import { ThemeContext } from '../../contexts/Theme';
 import useStyles from './styles';
 
 
-export default function SidebarHeader() {
+export default function Header() {
   const { toggleDrawer } = useContext(SidebarContext);
   const { dark, onToggle: onToggleTheme } = useContext(ThemeContext);
   const theme = useTheme();
@@ -19,7 +19,7 @@ export default function SidebarHeader() {
   const classes = useStyles();
   return (
     <Toolbar>
-      <Grid container alignItems="center" className={classes.root} justify="space-between">
+      <Grid container alignItems="center" className={classes.header} justify="space-between">
         <Grid item>
           <Link style={{textDecoration: 'none'}} to="/">
             <Button children="ddft.wiki"

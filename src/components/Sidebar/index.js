@@ -7,9 +7,9 @@ import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { SidebarContext } from '../../contexts/Sidebar';
-import SidebarBody from '../SidebarBody';
-import SidebarHeader from '../SidebarHeader';
-import SidebarMenu from '../SidebarMenu';
+import Body from './Body';
+import Entries from './Entries';
+import Header from './Header';
 import useStyles from './styles';
 
 
@@ -20,11 +20,11 @@ export default function Sidebar() {
   const isMobile = useMediaQuery(theme.mixins.sidebar.treshold);
   const content = (
     <Grid container className={classes.root} direction="column" wrap="nowrap">
-      <Grid item children={<SidebarHeader />} />
+      <Grid item children={<Header />} />
       <Divider />
       <Grid item className={classes.body}>
-        <Box children={<SidebarMenu />} my={1} />
-        <Box children={<SidebarBody />} my={1} />
+        <Box children={<Entries />} my={1} />
+        <Box children={<Body />} my={1} />
       </Grid>
     </Grid>
   );

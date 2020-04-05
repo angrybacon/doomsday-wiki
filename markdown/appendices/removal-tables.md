@@ -12,7 +12,7 @@ This is a list of the most commonly used spells that can be *tutored* via
 Burning Wish.
 
 | Chalice of the Void  | By Force | Consign | Meltdown | Pulverize | Shattering Spree | Void Snare |
-| -------------------- | :------: | :-----: | :------: | :-------: | ---------------- | :--------: |
+| -------------------- | :------: | :-----: | :------: | :-------: | :--------------: | :--------: |
 | 0                    | {{1R}}   | {{1U}}  | {{R}}    | {{0}}     | {{R}}            | {{U}}      |
 | 1                    | {{1R}}   | {{1U}}  | {{1R}}   | {{0}}     | {{RR}}           | -          |
 | 2                    | -        | -       | {{R}}    | {{0}}     | {{R}}            | {{U}}      |

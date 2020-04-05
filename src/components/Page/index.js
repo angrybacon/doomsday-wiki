@@ -8,19 +8,20 @@ import Paper from '../Paper';
 
 export default function Page({ pageContext }) {
   const { authors, body, date, title, type } = pageContext;
-  const subtitle = <Listify justifyContent="center" items={[date, authors]} />;
+  const credit = [date, authors].filter(it => it);
+  const subtitle = credit.length ? <Listify justifyContent="center" items={credit} /> : null;
   const primary = !!title && <Typography align="center" children={title} variant="h3" />;
   const isArticle = type === 'articles';
   return (
     <Paper>
       <Typography component="div" gutterBottom variant="h3">
         {primary}
-        {isArticle && (
+        {isArticle && subtitle && (
           <Typography align="center" children={subtitle} color="textSecondary" variant="subtitle1" />
         )}
       </Typography>
       <Markdown barf source={body} />
-      {!isArticle && (
+      {!isArticle && subtitle && (
         <Typography align="center"
                     children={subtitle}
                     color="textSecondary"

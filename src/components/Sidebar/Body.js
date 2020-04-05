@@ -8,7 +8,7 @@ import { cards } from '../../tools/scryfall';
 import Table from '../Table';
 
 
-export default function SidebarBody() {
+export default function Body() {
   return !!Object.keys(cards).length && (
     <>
       <Divider />

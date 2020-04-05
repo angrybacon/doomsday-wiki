@@ -14,6 +14,10 @@ export default makeStyles(theme => ({
   drawerTemporary: {
     padding: 0,
   },
+  entryActive: {
+    backgroundColor: theme.palette.action.selected,
+  },
+  header: theme.mixins.toolbar,
   root: {
     height: '100%',
   },
