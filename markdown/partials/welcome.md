@@ -1,7 +1,3 @@
----
-title: The Doomsday Wiki
----
-
 [Doomsday Discord](https://discord.gg/vajvFXt)
 
 The Doomsday Wiki is intended to be the most complete and up to date work on how

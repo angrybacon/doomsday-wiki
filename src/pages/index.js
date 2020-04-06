@@ -1,16 +1,22 @@
 import React from 'react';
+import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 import Articles from '../components/Articles';
 import Paper from '../components/Paper';
 import Welcome from '../components/Welcome';
-import useStyles from './styles';
 
 
 export default function PageHome() {
-  const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <Paper children={<Welcome />} />
-      <Paper children={<Articles />} />
-    </div>
+    <>
+      <Box mb={1} ml={1}>
+        <Typography children="Recent Articles" color="textSecondary" variant="subtitle1" />
+      </Box>
+      <Box children={<Articles top />} mb={3} />
+      <Box mb={1} ml={1}>
+        <Typography children="Welcome" color="textSecondary" variant="subtitle1" />
+      </Box>
+      <Box children={<Paper children={<Welcome />} />} mb={3} />
+    </>
   );
 }
