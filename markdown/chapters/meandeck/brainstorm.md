@@ -4,7 +4,8 @@ order: 10
 title: Brainstorm
 ---
 
-In the basics we alluded to the use of Brainstorm as a specialty elements.
+In the basics we alluded to the use of Brainstorm as being a special case
+when discussing the use of cantrips to draw into our Doomsday piles.
 More than a cantrip to start consuming your piles, Brainstorm can effectively
 draw 3 cards at once from said pile unlike other options from your suite of
 cantrips. This, combined with otherwise *dead* cards from hand can turn
