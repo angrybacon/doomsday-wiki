@@ -26,7 +26,7 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 1. The Lotus Petal gives you a second {{U}} to cast TO with an empty library
 
 In the worked example above, you effectively turn the Brainstorm and the 
-superfluous card into {{{UUU}} plus a way to draw into your 2 mana draw
+superfluous card into {{UUU}} plus a way to draw into your 2 mana draw
 spell, in this instance Predict.
 
 ## Brainstorm and 'Combo Piece' Available
