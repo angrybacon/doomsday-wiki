@@ -29,6 +29,18 @@ In the worked example above, you effectively turn the Brainstorm and the
 superfluous card into {{UUU}} plus a way to draw into your 2 mana draw
 spell, in this instance Predict.
 
+Another example is presented here using Ideas Unbound.
+
+> {{BBB}} + Brainstorm + X
+
+<row variant="pile">{{!LED}} {{!SW}} {{!IU}} {{!LP}} {{!TO}}</row>
+
+1. Cast Brainstorm and put back X then Ideas Unbound on top
+1. Cast LED, cycle SW cracking LED for {{UUU}} and draw the IU
+1. Cast IU, drawing the rest of the pile
+1. The Lotus Petal gives you a second {{U}} to cast TO with an empty library
+
+
 ## Brainstorm and 'Combo Piece' Available
 
 > {{BBB}} + Brainstorm + Thassa's Oracle
