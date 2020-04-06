@@ -14,9 +14,10 @@ export default function Welcome() {
     }
   }`);
   const { frontmatter, rawMarkdownBody } = welcome.childMarkdownRemark;
+  const { title } = frontmatter;
   return (
     <>
-      <Typography align="center" children={frontmatter.title} gutterBottom variant="h3" />
+      {title && <Typography align="center" children={title} gutterBottom variant="h3" />}
       <Markdown source={rawMarkdownBody} />
     </>
   );

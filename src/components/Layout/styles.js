@@ -12,17 +12,17 @@ export default makeStyles(theme => ({
   },
   content: {
     height: '100%',
-    paddingTop: theme.spacing(2),
-    [theme.breakpoints.up('md')]: {
-      paddingTop: theme.spacing(3),
+    paddingTop: theme.spacing(3),
+    [theme.mixins.sidebar.treshold]: {
+      paddingTop: theme.spacing(2),
     },
   },
   footer: {
-    marginBottom: theme.spacing(2),
-    marginTop: theme.spacing(2),
-    [theme.breakpoints.up('md')]: {
-      marginBottom: theme.spacing(3),
-      marginTop: theme.spacing(3),
+    marginBottom: theme.spacing(3),
+    marginTop: theme.spacing(3),
+    [theme.mixins.sidebar.treshold]: {
+      marginBottom: theme.spacing(2),
+      marginTop: theme.spacing(2),
     },
   },
   main: {

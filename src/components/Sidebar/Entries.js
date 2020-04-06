@@ -19,7 +19,9 @@ export default function Entries() {
         fieldValue
       }
     }
-  }`).chapters.group.sort((a, b) => (menu[a.fieldValue] || {}).order - (menu[b.fieldValue] || {}).order);
+  }`).chapters.group.sort(({ fieldValue: left }, { fieldValue: right }) => (
+    menu[left].order - menu[right].order
+  ));
   return (
     <List component="nav" disablePadding>
       {chapters.map(({ fieldValue, nodes }, index) => {

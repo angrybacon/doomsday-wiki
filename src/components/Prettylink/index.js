@@ -10,16 +10,18 @@ export default function Prettylink({ children, component, href, target }) {
   const isBlank = target === '_blank';
   component = component || (href && href.startsWith('http') ? null : Link);
   return href ? (
-    component ? React.createElement(component, {className: classes.link, to: href}, children) : (
-      <span className={classes.root}>
-        <a children={children}
-           className={classes.link}
-           href={href}
-           target={target}
-           {...(isBlank && {rel: 'noopener noreferrer'})} />
-        {isBlank && <OpenInNewIcon className={classes.icon} size={12} />}
-      </span>
-    )
+    component
+      ? React.createElement(component, {className: classes.link, to: href}, children)
+      : (
+        <span className={classes.root}>
+          <a children={children}
+             className={classes.link}
+             href={href}
+             target={target}
+             {...(isBlank && {rel: 'noopener noreferrer'})} />
+          {isBlank && <OpenInNewIcon className={classes.icon} size={12} />}
+        </span>
+      )
   ) : <a children={children} className={classes.link} href={href} target={target} />;
 }
 

@@ -25,7 +25,7 @@ export default function Layout({ children }) {
                 direction="column"
                 id="body"
                 wrap="nowrap">
-            <Grid item className={classes.children} xs={12} sm={11} md={10} lg={8} xl={6}>
+            <Grid item className={classes.children} xs={12} md={10} lg={8} xl={6}>
               {children}
             </Grid>
             <Grid item className={classes.footer}>
