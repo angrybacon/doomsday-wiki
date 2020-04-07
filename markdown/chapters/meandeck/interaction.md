@@ -17,7 +17,6 @@ We will consider the following types of interaction for this section:
 1. Permanent Based Interaction
    1. Chalice
    1. Taxing Effects
-   1. Counterbalance
    1. Spell Restrictors
    1. Draw Restrictors
 1. Hand attack
@@ -202,7 +201,86 @@ if they try and fight over the Oracle.
 
 **Other tools available**
 
-There are some key cards that may be used to help work around 
+There are some key cards that may be used to help work around traditional countermagic. 
+Cavern of Souls is an easy fit into the Meandeck gameplan and, if a land drop is available,
+can easily slot into some of the more *standard* piles. 
+
+> {{BBB}} + Brainstorm + X
+
+<row variant="pile">{{!Pd}} {{!LED}} {{!EoA}} {{!TO}} {{!Cavern of Souls}}</row>
+
+You should recognise the above as a simplified Brainstorm pile. In this we have simply
+swapped out a Lotus Petal with Cavern. This severely punishes anyone trying to wait
+on countering the Oracle by letting the rest of the spells beforehand resolve.
+
+Likewise it can slot into most IU piles too. 
+
+> {{BBB}} + {{UU}} + Cantrip
+
+<row variant="pile">{{!IU}} {{!LP}} {{!Cavern of Souls}} {{!EoA}} {{!TO}}</row>
+
+Teferi, Time Raveler is another tool that can be used to help prevent countermagic
+however it is expensive to include in piles. It might be suitable for a PTT pile in the
+mid to late game. The in-built draw effect can help access your pile and, when combined
+with Astrolabe, can function as pseudo draw 2 or 3. You can use this draw to replace
+a cantrip slot in any of the piles already explained.
+
+## 3. Playing Around / Through Permanent Based Interaction
+
+**Chalice of the  Void**
+
+Chalice is a Legacy staple that is featured in a number of decks. It seeks to generate card
+advantage by (hopefully) countering a number of cards or preventing the casting of cards of
+a certain cmc. Normally Chalice is set to X = 1 most of the time which, although can be a heavy
+detriment to a deck comprised of predominantly 1 cost cards, does not stop the deck winning the
+game. 
+
+Although it certainly is convenient trying to get {{BBB}} from Dark Ritual, you can easily
+just cast it from lands. It is perfectly fine getting to turn three without having fetched
+and just finding 3 black sources to cast Doomsday. From that point you don't have to cast
+a single 1 mana spell. 
+
+<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+
+<row variant="pile">{{!Predict}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
+
+Both of the above examples are all comprised of 0 / 2 drops and free cycling effects all of which can
+circumnavigate the limitations Chalice creates. If playing against a known Chalice deck, simply
+going turn 1 Doomsday off of DR with another land in hand is pretty safe given you can ignore
+the interaction (at least where Chalice is concerned). The above are pretty cheap too representing
+post Doomsday costs of {{UU}} and {{1U}} respectively.
+
+Chalice is not limited to being set on 1. Sometimes an opponent will want to deploy 
+a threat plus disruption on turn 1 so might lead with Chalice X = 0 or may play a 
+Chalice X = 2 in the late game. For X = 0 this is fine so long as you have been making
+land drops though the game or, at worst, allows you to put lands into the pile itself. 
+If you have Arcum's Astrolabe out you can also use Dark Ritual as a *mana boost* that
+filters into the {{U}} needed for Oracle. 
+
+> {{BBB}} + {{1UU}} + Cantrip
+
+<row variant="pile">{{!Predict}} {{!SW}} {{!Island}} {{!EoA}} {{!TO}}</row>
+
+If X = 2 then you can build something like a Brainstorm pile that only uses your 1 mana
+cantrips alongside something like Cavern of Souls to get through the Chalice. 
+
+If you are playing Veil of Summer against Chalice on 0 or 2 then simply casting Veil,
+or leading a pile with it, will allow your spells to resolve through the Chalice.
+Tis is especially useful for BUG variants. 
+
+Post-board for all of the above you can also start adding removal into your piles as the
+top card in order to try and facilitate the win. Consider the below PTT example against
+a Chalice of the Void.
+
+> {{BG}} + {{U}} + Brainstorm + X (Post Doomsday)
+
+<row variant="pile">{{!Abrupt Decay}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+
+Although we are talking predominantly about Chalice of the Void, the same information
+can apply to facing against Counterbalance or even, to some extent, Sanctum Prelate.
+These cards both also seek to cut you off a key cost of card however with some cards
+like Prelate, it is very likely to be set at 'X' = 3 to prevent the casting of Doomsday
+in the first place.
 
 ## Build Durable Piles
 
