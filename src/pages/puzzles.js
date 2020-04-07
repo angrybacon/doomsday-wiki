@@ -50,7 +50,7 @@ export default function PagePuzzles() {
   return (
     <>
       <Paper>
-        <Typography children={frontmatter.title} gutterBottom variant="h3" />
+        <Typography children={frontmatter.title} gutterBottom variant="h4" />
         <Markdown source={rawMarkdownBody} />
         <Box children={<PuzzleFilters onFilter={onFilter} puzzles={puzzles.nodes} />} mt={2} />
       </Paper>

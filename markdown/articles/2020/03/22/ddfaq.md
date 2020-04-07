@@ -570,7 +570,7 @@ that information from them.
 The last point I want to make on resolving Doomsday is one about time. On MTGO
 you have a chess clock that allows you to take much longer on decisions however
 in paper there is no such mechanic. As a result I would always advise you know
-what pile you are ging to make before even considering to put Doomsday on the
+what pile you are going to make before even considering to put Doomsday on the
 stack. This will save you a lot of time and your opponent's will thank you for
 it. As Doomsday is (or possibly was) quite a niche deck, a lot of people offline
 would generally give a generous allowance during the resolution of Doomsday to

@@ -27,14 +27,12 @@ export default function Puzzle({ barf, component, data, words }) {
   } = data;
 
   const highlighter = words => value => (
-    <Highlighter highlightClassName={classes.highlight}
-                 searchWords={words}
-                 textToHighlight={value} />
+    <Highlighter highlightClassName={classes.highlight} searchWords={words} textToHighlight={value} />
   );
 
   const listify = (value, highlighter) => {
     const renderer = typeof highlighter === 'function' && words.length ? highlighter(words) : null;
-    return <Listify items={value} renderer={renderer} />;
+    return !!value && <Listify items={value} renderer={renderer} />;
   };
 
   const rows = [
@@ -44,9 +42,9 @@ export default function Puzzle({ barf, component, data, words }) {
     {label: 'Your Board', text: listify(yourBoard, highlighter)},
   ].filter(it => it.text);
 
-  return React.createElement(component, null, (
+  return React.createElement(component, {className: classes.root}, (
     <>
-      <Typography component="h4" paragraph variant="h4">
+      <Typography gutterBottom variant="h4">
         <Highlighter highlightClassName={classes.highlight}
                      searchWords={words}
                      textToHighlight={title} />
