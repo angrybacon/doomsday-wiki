@@ -5,8 +5,8 @@
 
 These 2 branches are automatically deployed upon commit.
 
-- =:master= deploys to [[https://master--ddftwiki.netlify.com][https://master\--ddftwiki.netlify.com]]
-- =:production= deploys to https://ddftwiki.netlify.com
+- =:master= deploys to [[https://master--ddftwiki.netlify.app][https://master\--ddftwiki.netlify.app]]
+- =:production= deploys to https://ddftwiki.netlify.app
 
 A DNS alias for the production address points to https://ddft.wiki.
 

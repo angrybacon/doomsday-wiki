@@ -12,7 +12,7 @@ And when it has gone past I will turn the inner eye to see its path.
 Where the fear has gone there will be nothing. Only I will remain."*
 
 One lesson all budding combo players learn as they dive into the world of
-degenerate Magic decks is when to "go for it". When do you take a chance and jam
+degenerate Magic decks is when to *go for it*. When do you take a chance and jam
 your combo, despite the possibility of opposing interaction? When do you wait a
 little bit longer, trying to find a better opportunity? This is an espceially
 critical lesson for Doomsday players, since there is often no recovering if you
@@ -34,9 +34,10 @@ the universe, like *"What the fuck am I looking at?"*
 That's a question I can answer.
 
 This is Mindkiller Doomsday, so called because your mind is dead now. I used to
-have a job and a family, but then I put Echo of Eons in my Doomsday deck and now
-I'm homeless and casting 3 Spoils of the Vault in 1 turn. I'm addicted to
-yeeting. I'm a braindead yeet-zombie and you will be too if you play this deck.
+have a job and a family, but then I put {{Echo of Eons}} in my Doomsday deck and
+now I'm homeless and casting 3 {{Spoils of the Vault}} in 1 turn. I'm addicted
+to yeeting. I'm a braindead yeet-zombie and you will be too if you play this
+deck.
 
 Why would you ever play a deck like this? If you have zero control over the
 death spiral of your life and have accepted that, then this is probably the deck
@@ -53,10 +54,10 @@ least from the sideboard, though previous iterations of this deck played {{Veil
 of Summer}} maindeck. Occasionally you need to make {{U}}. Creating a reliable
 4-color fetchland manabase on 9-10 lands proved difficult, and rainbow lands
 ended up feeling the most reliable. There are a ton of rainbow lands out there,
-and they are all worse than Gemstone Mine. After 4 Gemstone Mine, the only
-semi-reasonable ones are City of Brass/Mana Confluence, Glimmervoid, and
-Undiscovered Paradise. Pick the split you hate the least, it probably doesn't
-matter.
+and they are all worse than {{Gemstone Mine}}. After 4 Gemstone Mine, the only
+semi-reasonable ones are {{City of Brass}} / {{Mana Confluence}},
+{{Glimmervoid}}, and {{Undiscovered Paradise}}. Pick the split you hate the
+least, it probably doesn't matter.
 
 ### Burning Wish
 
@@ -67,35 +68,35 @@ the glue that holds the deck together, the thread of flesh between a loose tooth
 and your gums. Burning Wish has a long and storied history in Legacy Storm
 decks, especially the kinds that want to go fast. This is your main business
 spell, as it finds wincons and also answers. The sideboard is, apart from a
-small anti-blue package, entirely wishboard a la Belcher.
+small anti-blue package, entirely wishboard à la Belcher.
 
 ### Echo of Eons
 
 <row variant="centered">{{!Echo}}</row>
 
 Like Burning Wish, this card has proven its power in Belcher, TES and DDFT.
-We're a storm deck playing LED and we want to go fast, there is no reason not to
+We're a Storm deck playing LED and we want to go fast, there is no reason not to
 be playing this card. It's an engine, a combo enabler with Doomsday, and a
 potential way to refill your hand if you get disrupted. We're going to ignore
 the fact that it also refills your opponent's hand, because they don't matter.
 
-### Doomsday/Thassa's Oracle
+### Doomsday / Thassa's Oracle
 
 <row variant="centered">{{!DD}} {{!TO}}</row>
 
 Doomsday is perhaps a questionable inclusion. Playing it kind of forces you to
-play Thasssa's Oracle, which is completely dead outside of piles. Winning with
-it can be clumsy if you don't have a way to draw into your pile right away. But
-Doomsday does have some merits. You'll find its suprisingly effective at winning
-through certain kinds of hate. We'll talk about it more later but it is a
-serviceable engine card.
+play Thassa's Oracle, which is completely dead outside of piles. Winning with it
+can be clumsy if you don't have a way to draw into your pile right away. But
+Doomsday does have some merits. You'll find it's suprisingly effective at
+winning through certain kinds of hate. We'll talk about it more later but it is
+a serviceable engine card.
 
 ### Infernal Contract
 
 <row variant="centered">{{!IC}}</row>
 
 This is primarily here to facilitate certain Doomsday piles, but it is
-functional as a storm engine of sorts, the way Spanish Inquisition decks use it.
+functional as a Storm engine of sorts, the way Spanish Inquisition decks use it.
 
 ### Manamorphose
 
@@ -112,7 +113,7 @@ very important.
 
 Having Empty maindeck provides another business spell, one that is particularly
 resilient to countermagic. In the first iterations of the deck, this slot was
-taken up by Veil of Summer, and all 4 Empty were in the sideboard. I relaized
+taken up by Veil of Summer, and all 4 Empty were in the sideboard. I realized
 that I was bringing them in a lot, and that it felt like having them main was
 letting me cheese more wins than the Veils were. This is up for debate and
 despite my yeet-induced psychosis I could be convinced that this is
@@ -125,13 +126,13 @@ meta-dependent.
 Ah yes. Saving the best for last. If Burning Wish was the flesh-bit keeping the
 loose tooth in, Spoils is the dental floss your older step-brother used to tie
 that tooth to the bathroom door. Spoils is the most powerful tutor legal in
-legacy at this time. One mana, instant speed, and finds anything in your deck.
+Legacy at this time. One mana, instant speed, and finds anything in your deck.
 Spoils plays a dual role as a business spell and mana. It can turn black mana
 into another color by finding Lotus Petal. It can function as a ritual by
 finding Lion's Eye Diamond. It can find a Wish or an Echo or an LED. It draws
 into and through Doomsday piles. It does everything you want and more, with just
-one *tiny* downside in that sometimes you cast it and reveal your entire deck
-and fucking die.
+one *tiny* downside in that sometimes you cast it, reveal your entire deck and
+fucking die.
 
 ## How to Have No Fear - Playing Mindkiller Doomsday
 
@@ -167,10 +168,10 @@ Echo.
 <row variant="hand"> {{!LP}} {{!LP}} {{!LED}} {{!LED}} {{!Echo}} {{!BW}} {{!GM}}</row>
 
 This is an extremely busted hand, and among the best you can hope for against
-Fair Blue decks. You have 2 must-counter spells in hand, meaning you can "go
-off" through a Force, and you have plenty of mana so soft counters aren't a
+Fair Blue decks. You have 2 must-counter spells in hand, meaning you can *go
+off* through a Force, and you have plenty of mana so soft counters aren't a
 major concern. Play your land, cast your Petals then LEDs. Cast Wish, holding
-priority and cracking the LEDs for {{UUURRR}}. If they counter Wish, just echo.
+priority and cracking the LEDs for {{UUURRR}}. If they counter Wish, just Echo.
 If they don't, grab Empty the Warrens for 12 goblins. You'll even have enough
 mana to still cast Echo afterwards.
 
@@ -184,14 +185,14 @@ priority, cast Spoils, continue holding priority, and finally crack LED for
 {{RRR}}. Now you have 2 business spells on the stack, forcing them to have 2
 counterspells. If Spoils resolves, name Empty the Warrens, which is what Wish
 would get anyway. If the Wish also resolves, grab Cabal Therapy to shred their
-hand. 12 Goblins on t1 should get the job done, and Cabal Therapy will let you
+hand. 12 Goblins on T1 should get the job done, and Cabal Therapy will let you
 have a chance even against decks that could race the goblins.
 
 ### Hand 4
 
 <row variant="hand"> {{!LP}} {{!DR}} {{!DD}} {{!RTF}} {{!SW}} {{!GM}}</row>
 
-The first Doomsday hand. We are pretty clearly are casting Dark Ritual into
+The first Doomsday hand. We are pretty clearly casting Dark Ritual into
 Doomsday. Street Wraith will draw into the pile and we can have some mana
 floating due to Rite of Flame. What's the pile though? Prepare for the most
 breathtakingly elegant Doomdsay pile you will ever see:
@@ -222,24 +223,24 @@ I think this hand is a mulligan, but it's close. You could try to make this a
 turn 2 hand. You need more mana to make that Wish useful. On turn 2, you'll have
 seen 3 new cards with Manamorphose. If you find a Dark Ritual or an LED, you can
 at least make goblins, which is fine on turn 2. But it's high variance, not
-guranteed, and the deck mulligans pretty well. I'd throw this back.
+guaranteed, and the deck mulligans pretty well. I'd throw this back.
 
 ### Hand 7
 
 <row variant="hand"> {{!LP}} {{!DR}} {{!CoB}} {{!LP}} {{!EtW}} {{!BW}} {{!GM}}</row>
 
-This hand isn't stellar, but you should keep it. It can make 8 goblins on t1, or
-10 on t2, with protection in the form of Wish as bait. If you decide to make 8
-on t1, Wish can later find Therapy to interact, or Chain Lightning to remove a
-blocker, or even Doomsday as a potential a backup plan. The route you go is
-going to depend on the matchup. If you don't know the matchup, I'd lean towards
-waiting until t2.
+This hand isn't stellar, but you should keep it. It can make 8 goblins on T1, or
+10 on T2, with protection in the form of Wish as bait. If you decide to make 8
+on T1, Wish can later find Cabal Therapy to interact, or Chain Lightning to
+remove a blocker, or even Doomsday as a potential a backup plan. The route you
+go is going to depend on the matchup. If you don't know the matchup, I'd lean
+towards waiting until T2.
 
 ## Reality Check - A Bit of Math Regarding Spoils
 
-I doubt you were wondering "How likely is Spoils to actually kill me?", because
-you are a Warrior, not a Coward. But maybe you were anyway. Call it facing your
-fears. Let's take a quick look at the math on Spoils.
+I doubt you were wondering *"How likely is Spoils to actually kill me?"*,
+because you are a Warrior, not a Coward. But maybe you were anyway. Call it
+facing your fears. Let's take a quick look at the maths on Spoils.
 
 I computed the average life lost and probability of killing you for a turn 1
 Spoils from 20 life (53 cards left in the deck), for a 4-of down to a 1-of. I
@@ -292,7 +293,7 @@ likely to take some game losses from Spoils. Say you cast Spoils exactly once
 per match, always for a 4-of. The chance of uncontrollable game loss over the
 course of a 9-rounder is around 75%. Honestly that's better than I was expecting
 when I did the math just now, but I can understand why someone like a filthy
-Delver player might consider it "unacceptable risk".
+Delver player might consider it *unacceptable risk*.
 
 Now where were we? Right, being Warriors.
 
@@ -307,10 +308,10 @@ Quad-Morphose pile. Lets look at a couple others.
 <row variant="pile">{{!Spl}} {{!MM}} {{!MM}} {{!MM}} {{!TO}}</row>
 
 This is a pass-the-turn pile, where you use Spoils to dig down to Oracle. This
-lets you potentially win through Mindbreak Trap or Deafening Silence. It is also
-quite cheap and can get through tax effects as well. If they counter Spoils, you
-can still try to use the Morphoses to cast Oracle the next turn, if you have the
-ability to cast them.
+lets you potentially win through {{Mindbreak Trap}} or {{Deafening Silence}}. It
+is also quite cheap and can get through tax effects as well. If they counter
+Spoils, you can still try to use the Morphoses to cast Oracle the next turn, if
+you have the ability to cast them.
 
 > Echo, Spoils in hand - {{BBB}} + {{B}}
 
@@ -324,7 +325,7 @@ to Spoils.
 
 <row variant="pile">{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
 
-Manamorphose can draw into piles as well, and can fixx your colors to cast
+Manamorphose can draw into piles as well, and can fix your colors to cast
 Contract if you want to win with Storm instead of The Glorious Quad-Morphose
 Oracle Pile.
 
@@ -333,7 +334,7 @@ Oracle Pile.
 <row variant="pile">{{!LED}} {{!MM}} {{!MM}} {{!MM}} {{!TO}}</row>
 
 A double-cantrip pile of sorts for when you have a shitload of black mana. You
-Spoil for LED, and then either Spoil striaght to the Oracle if you have life to
+Spoil for LED, and then either Spoil straight to the Oracle if you have life to
 spare, or just draw a Manamorphose if you don't.
 
 ## Matchups
@@ -341,11 +342,11 @@ spare, or just draw a Manamorphose if you don't.
 When it comes to a deck like this, we don't care so much about precisely what
 deck our opponent is playing, but rather what they can do about what we're
 doing. Adding this to the fact that we only have 4-5 real sideboard slots leads
-me to the conclusion that its better to think in broad categories of matchup
+me to the conclusion that its better to think in broad categories of matchups
 rather than a per-deck basis. As such, we'll go over srategies for each of 4
 categories.
 
-### Delver/Daze decks
+### Delver / Daze Decks
 
 Aggro-control and tempo decks, including Delver, Shadow, Infect.
 
@@ -353,50 +354,50 @@ Aggro-control and tempo decks, including Delver, Shadow, Infect.
 +4 Xantid Swarm, + 1 Cabal Therapy
 
 Doomsday is uniquely bad against these types of decks so we just cut it
-commpletely. Xantid Swarm isn't spectacular, but its better than Doomsday.
+completely. {{Xantid Swarm}} isn't spectacular, but its better than Doomsday.
 Therapy comes in as another protective spell. We're unlikely to wish for it,
 since Wishes will usually find Empty in these matchups.
 
-### Blue Control
+### Blue Control Decks
 
 Force of Will decks that don't have a real clock. Miracles, Stryfo Pile, etc. I
 would also include something like Food Chain in here. It's not a perfect fit but
 your strategy against it is the same.
 
--1 DD, -2 SSG, -1 Manamorphose  
+-1 Doomsday, -2 Simian Spirit Guide, -1 Manamorphose  
 +4 Xantid Swarm
 
 Taking out a little bit off everything to fit in the full set of bugs. Doomsday
 isn't at its best against blue decks so one gets cut. We're likely to be going a
 bit slower against these decks as well, so SSG goes as well. You can get away
-with just 3 Morphose, using a Street Wraith if needed instead for The Glorious
+with just 3 Morphoses, using a Street Wraith if needed instead for The Glorious
 Quad-Morphose Pile.
 
-### Prison-y decks
+### Prison-y Decks
 
-Anything with permanents that want to fuck your day up. Stompy variants, DnT,
-Maverick, etc.
+Anything with permanents that want to fuck your day up. Stompy variants, Death
+and Taxes, Maverick, etc.
 
-No Changes
+No Changes.
 
 Most of the time, you just want to go fast. The best way to win these matchups
 is to not give them a chance to play anything. Obviously this will not always be
 possible. Doomsday shines in these matchups since you can win through some
 prison elements. The Glorious Quad-Morphose Pile can beat a Chalice on 0 or 1,
-pass-the-turn piles with Spoils can beat Deafening Silence or Canonist. Also
-keep in mind that these are decks that will often play Leyline of the Void,
-meaning Echo can be a liability. But a broken Echo hand is still probably worth
-keeping. Maverick could potentially be playing Veil, so be wary, but not overly
-so.
+pass-the-turn piles with Spoils can beat Deafening Silence or
+{{Ethersworn Canonist}}. Also keep in mind that these are decks that will often
+play {{Leyline of the Void}}, meaning Echo can be a liability. But a broken Echo
+hand is still probably worth keeping. Maverick could potentially be playing
+Veil, so be wary, but not overly so.
 
 ### Anything Else
 
-Burn, Dredge, Storm, Depths, Elves, etc, etc
+Burn, Dredge, Storm, Depths, Elves, etc.
 
-No Changes
+No Changes.
 
 Just be faster.
 
 ## Conclusion
 
-1. YEET
+YEET
