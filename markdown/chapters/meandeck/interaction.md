@@ -15,15 +15,8 @@ We will consider the following types of interaction for this section:
 1. Removal
 1. Countermagic
 1. Permanent Based Interaction
-   1. Chalice
-   1. Taxing Effects
-   1. Spell Restrictors
-   1. Draw Restrictors
-1. Hand attack
-1. Land Destruction
-1. Mill Effects
 1. Shuffle Effects
-1. Ignorable Interaction
+1. The Kitchen Sink (Everything Else)
 
 
 ## 1. Playing Around Removal
@@ -262,7 +255,9 @@ filters into the {{U}} needed for Oracle.
 <row variant="pile">{{!Predict}} {{!SW}} {{!Island}} {{!EoA}} {{!TO}}</row>
 
 If X = 2 then you can build something like a Brainstorm pile that only uses your 1 mana
-cantrips alongside something like Cavern of Souls to get through the Chalice. 
+cantrips alongside something like Cavern of Souls to get through the Chalice. Alternatively
+the use of Unearth can help get around the need for a 2 drop using LED as a discard
+outlet for Oracle instead of *milling* with Predict.
 
 If you are playing Veil of Summer against Chalice on 0 or 2 then simply casting Veil,
 or leading a pile with it, will allow your spells to resolve through the Chalice.
@@ -277,26 +272,160 @@ a Chalice of the Void.
 <row variant="pile">{{!Abrupt Decay}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 
 Although we are talking predominantly about Chalice of the Void, the same information
-can apply to facing against Counterbalance or even, to some extent, Sanctum Prelate.
+can apply to facing against Counterbalance (Veil still gets around the Counterbalance
+trigger) or even, to some extent, Sanctum Prelate.
 These cards both also seek to cut you off a key cost of card however with some cards
 like Prelate, it is very likely to be set at 'X' = 3 to prevent the casting of Doomsday
-in the first place.
+in the first place. 
 
-## Build Durable Piles
+**Taxing Effects**
 
-Sometimes you might want to go blind and force through removal with redundancy.
-{{Unearth}} is one tool to build some durability against removal but most
-notably countermagic. It lets you reanimate the TO when countered or when you
-name TO itself to Predict to dig into the pile.
+When discussing these effects we are talking about things like Thalia, Guardian of 
+Thraben and Thorn of Amethyst. These generally do not actively stop you *going off*
+and winning the game however they do present potential for a lot of delay on reaching
+that combo turn, especially if being placed under pressure. The piles themselves
+can be adapted, using the free cyclers, to try and become as mana efficient as possible.
+This is especially good whne knowing you don't face removal as often the Oracle
+itself is not taxed:
 
-> Ponder, Ponder in hand - {{BBB}} + {{UU}}
+<row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
 
-<row variant="pile">{{!LED}} {{!Pd}} {{!TO}} {{!Un}} {{!LP}}</row>
+In the above example you can simply cycle the first 2 cards and then cast Oracle for
+{{UU}}. The 2 Doomsdays are just placeholders as, in theory, you will not need them to
+achieve the win. Obviously, when facing known removal you would have to adapt this further
+but quite often the tax effect can also prevent the removal being cast as well so bear 
+that in mind.
 
-At the very least you could put Unearth at the bottom of your pile *just in
-case*.
+**Spell Restrictors**
 
-One other way to build redundancy is putting a second copy of Doomsday in your
-pile, if anything goes wrong you can always re-cast Doomsday, pay half your life
-and try again!
+Spell restrictors are things that place a limitation of how many spells you may be able to 
+cast in a given turn. Cards like Ethersworn Canonist or Deafening Silence both achieve this
+well. Just like the limitations with the tax effects, these generally only seek to slow you
+down rather than prevent a full game win and both can be played around. 
+
+For example, playing against Deafening Silence you can do a PTT pile similar to the one
+stated against taxing effects ensuring that you only ever cast one spell. The cyclers can
+be replaced with another cantrip if need be to increase the pile cost by {{1}}, {{U}} or {{s}}.
+
+**Draw Restrictors**
+
+This category is one of the hardest to fight through effectively as they cause both delay and
+prevention of most of the piles we want to use. Leovold, Emissary of Trest, Narset, Parter of 
+Veils and Spirit of the Labrynth all fall under this heading. The easiest way to deal with them
+is of course removal however that is not always viable, especially in game 1. Another way is
+to simply pass the turn a number of times using the sorcery speed cantrips on your turn and the 
+instant speed free cyclers on the opponent's turn. Predict is quite useful in this scenario as, 
+despite costing {{1U}} it allows you to *burn through* 2 cards from the stack. Something like
+the following may be useful facing an opposing Narset for example (spread over multiple
+turns):
+
+<row variant="pile">{{!Pn}} {{!Pd}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+
+One key thing to note with these cards involves Teferi, Time Raveler's {{-3}} ability. If use the
+ability on a Leovold, you *will* get to draw the card afterwards. This can allow you to remove the
+disruption and *crack* into the pile at the same time.
+
+**Search Restrictors**
+
+These are cards that, rather than disrupt the Doomsday pile itself, actively prevent you building
+it in the first place. To understand what is being talk about; please read the below Oracle
+text of Doomsday:
+
+> Search your library and graveyard for five cards and exile the rest.  
+> Put the chosen cards on top of your library in any order.  
+> You lose half your life, rounded up.
+
+The first line is the relevant one. When resolving Doomsday you have to search two zones to construct
+your pile. Cards like Ashiok, Dream Render, Leonin Arbiter and Aven Mindcensor can all prevent
+you from searching the library and cards like Rest in Peace can limit what is available to 
+find in the graveyard. Out of these two the former is certainly the most detrimental as that can
+cut you off from the majority of your cards. So long as you are mindful of these you can however
+pull a neat trick.
+
+If you have Oracle in hand, you can cast Doomsday without being able to search your library. You still
+need to find 5 cards from your graveyard (if able) but, assuming those are all cantrips and fetchlands,
+you can still build a serviceable pile from them. Even better if your graveyard is small or non-existent;
+you can cast Doomsday and set your library of 0 cards and then cast Oracle to win.
+
+## 4. Playing Around Shuffle Effects
+
+Shuffle effects can be one annoyance to face when building a pile that would otherwise have perfect
+ordering to it. There are some examples that you could consider needing to play around like Field 
+of Ruin however this is a bit too niche to consider is most matches. The primary concern is in fact 
+a card that is very prevalent in Legacy; Surgical Extraction.
+
+Upon sucessfully resolving a Doomsday, assuming no cards like Leyline of the Void are present, there
+will be one card in your graveyard and that will be the copy of Doomsday itself. This is a prime target
+for an opposing Surgical in an attempt to mess up the ordering of a Doomsday pile as you try and *go off*
+in one turn. When the surgical is used can depend on the opponent but if they wait in response to a 
+Predict for example it can really mess things up. 
+
+You can build piles that are either resilient to Surgical, giving decent odds of suceeding despite the 
+shuffle, or even immune to it. A big part of when the opponent casts the Surgical can depend on what
+spell you are using to draw into a pile. Let us take the following scenario:
+
+> {{BBB}} + {{UU}} + Cantrip
+
+<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+
+If the Cantrip used to *crack* into the pile is something like an Astrolabe or a Street Wraith then
+the opponent is likely to Surgical right away meaning you have a 20% chance to draw into the desired
+Ideas Unbound or a 5% chance to draw Edge to then Cycle immediately into Ideas Unbound (25% sucess rate
+chance in total). 
+If using another cantrip, the opponent still may Surgical however the odds of you finding what you need (IU)
+are dramatically increased. See below a table that shows the percentage of successfully finding either
+the IU itself or Edge of Autumn that then cycles into IU. Note that these percentages do not count
+towards ensuring that Edge is not the bottom card of the deck after finding and resolving Ideas
+Unbound and therefore may not play perfectly around removal too. 
+
+|:  :|:Street Wraith:|:Ponder:|:Brainstorm:|:Preordain:|
+-------------------------------------------------
+|:Ignore Removal:|:25%:|:70%:|:60%:|:70%:|
+|:Beat Removal:|:TBC:|:TBC:|:TBC:|:TBC:|
+
+If your opponent then waits on the Surgical for after you already have the ability to draw 3 of the 4
+remaining cards in the deck and are only punished if you have Edge as the bottom card of the pile and
+the opponent has removal for Oracle with no additional devotion present (assuming you don't have the luxury
+to pass the turn). Calculating the percentages for other things like Brainstorm piles is slightly harder, 
+especially when you cannot predict when the opponent will try to use their Surgical (if at all).
+
+One cool trick you can use is to try and bait them into using a known Surgical effect. By placing additional
+copies of Doomsday into your pile, if your opponent tries to extract them, you can *shrink* your library by
+that amount. This again assumes they will Surgical at a time you want but it is a possibility to be considered.
+
+> {{BBB}} + {{UU}} + Cantrip
+
+<row variant="pile">{{!SW}} {{!Edge}} {{!TO}} {{!DD}} {{!DD}}</row>
+
+Here you have a pile where, if they Surgical in response to the cantrip effect on Doomsday, you will have
+a deterministic win (using one of Ponder, Brainstorm or Preordain) as you can ensure you are able to see 
+all the cards within the deck and not die to drawing too deep with Brainstorm. Even if they do not Surgical
+you still can just cycle twice and play Oracle with a library of 2 cards.
+
+## 5. Everything Else to Consider
+
+As you get more matches under your belt with the deck you will start to face more an more interaction that
+might seem a surprise or unexpected. I will try and list some of the ones that are relatively common to
+try and beat and will try to provide examples for some of those on how to consider playing around them.
+This is not an exhaustive list however and you will eventually run across an unexpected interaction you
+may not have considered before. If something does *get you* then stay calm, take it as learning and move
+on.
+
+**Grindstone**
+
+**Fireblast**
+
+**Mindbreak Trap**
+
+**Thought Scour**
+
+**Dack Fayden**
+
+**Jace, the Mind Sculptor**
+
+**Wasteland**
+
+**Discard**
+
+**Vendilion Clique**
 
