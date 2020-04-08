@@ -374,14 +374,12 @@ Ideas Unbound or a 5% chance to draw Edge to then Cycle immediately into Ideas U
 chance in total). 
 If using another cantrip, the opponent still may Surgical however the odds of you finding what you need (IU)
 are dramatically increased. See below a table that shows the percentage of successfully finding either
-the IU itself or Edge of Autumn that then cycles into IU. Note that these percentages do not count
-towards ensuring that Edge is not the bottom card of the deck after finding and resolving Ideas
-Unbound and therefore may not play perfectly around removal too. 
+the IU itself or Edge of Autumn that then cycles into IU.  
 
 |:  :|:Street Wraith:|:Ponder:|:Brainstorm:|:Preordain:|
 -------------------------------------------------
 |:Ignore Removal:|:25%:|:70%:|:60%:|:70%:|
-|:Beat Removal:|:TBC:|:TBC:|:TBC:|:TBC:|
+|:Beat Removal:|:20%:|:53%:|:45%:|:66%:|
 
 If your opponent then waits on the Surgical for after you already have the ability to draw 3 of the 4
 remaining cards in the deck and are only punished if you have Edge as the bottom card of the pile and
