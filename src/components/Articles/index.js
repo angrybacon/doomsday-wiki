@@ -50,7 +50,7 @@ export default function Articles({ top }) {
       {articles.map((it, index) => {
         const { authors, banner, date, slug, title } = article(it);
         return (
-          <Grid item xs={12} xl={6} key={index} title={title}>
+          <Grid item xs={12} key={index} title={title}>
             <Card>
               <Prettylink style={{textDecoration: 'none'}} href={slug}>
                 <CardActionArea classes={{focusHighlight: classes.cardActive, root: classes.card}}
