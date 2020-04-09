@@ -6,6 +6,7 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
 import List from '@material-ui/core/List';
 import ListItemText from '@material-ui/core/ListItemText';
@@ -26,7 +27,7 @@ export default function Articles({ top }) {
     ) {
       nodes {
         childMarkdownRemark {
-          frontmatter {authors title}
+          frontmatter {authors banner title}
         }
         fields {date slug}
       }
@@ -38,34 +39,40 @@ export default function Articles({ top }) {
   const isMobile = useMediaQuery(theme.mixins.sidebar.treshold);
 
   const article = ({ childMarkdownRemark, fields }) => {
-    let { authors, title } = childMarkdownRemark.frontmatter;
+    let { authors, banner, title } = childMarkdownRemark.frontmatter;
     let { date, slug } = fields;
     authors = authors ? ` by ${authors}` : '';
-    return {authors, date, slug, subtitle: `${date}${authors}`, title};
+    return {authors, banner, date, slug, subtitle: `${date}${authors}`, title};
   };
 
   const cards = articles => (
     <Grid container spacing={isMobile ? 2 : 3}>
       {articles.map((it, index) => {
-        const { authors, date, slug, title } = article(it);
+        const { authors, banner, date, slug, title } = article(it);
         return (
-          <Grid item xs={12} key={index} title={title}>
+          <Grid item xs={12} xl={6} key={index} title={title}>
             <Card>
               <Prettylink style={{textDecoration: 'none'}} href={slug}>
-                <CardActionArea>
-                  <CardContent>
-                    <Typography children={title} component="h6" gutterBottom variant="body1" />
-                    <Typography color="textSecondary" component="div" variant="body2">
-                      <Box alignItems="center" display="flex">
-                        <CalendarIcon className={classes.icon} size={16} />
-                        {date}
-                      </Box>
-                      <Box alignItems="center" display="flex">
-                        <AccountEditOutlineIcon className={classes.icon} size={16} />
-                        {authors}
-                      </Box>
-                    </Typography>
-                  </CardContent>
+                <CardActionArea classes={{focusHighlight: classes.cardActive, root: classes.card}}
+                                TouchRippleProps={{classes: {root: classes.cardRipple}}}>
+                  <Box display="flex" justifyContent="space-between" width="100%">
+                    <CardContent>
+                      <Typography children={title} component="h6" gutterBottom variant="body1" />
+                      <Typography color="textSecondary" component="div" variant="body2">
+                        <Box alignItems="center" display="flex">
+                          <CalendarIcon className={classes.icon} size={16} />
+                          {date}
+                        </Box>
+                        <Box alignItems="center" display="flex">
+                          <AccountEditOutlineIcon className={classes.icon} size={16} />
+                          {authors}
+                        </Box>
+                      </Typography>
+                    </CardContent>
+                    <Box display={banner ? 'block' : 'none'} maxWidth="30%" minWidth="30%">
+                      <CardMedia className={classes.cardMedia} component="img" image={banner} />
+                    </Box>
+                  </Box>
                 </CardActionArea>
               </Prettylink>
             </Card>
@@ -87,7 +94,7 @@ export default function Articles({ top }) {
 
   return (
     top
-      ? cards(articles.nodes.slice(0, 3))
+      ? cards(articles.nodes.slice(0, 4))
       : (
         <>
           <Typography children="Articles" gutterBottom variant="h4" />
