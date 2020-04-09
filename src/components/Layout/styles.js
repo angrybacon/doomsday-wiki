@@ -5,6 +5,7 @@ export default makeStyles(theme => ({
   body: {
     flexGrow: 1,
     flexShrink: 1,
+    overflowX: 'hidden',
     overflowY: 'auto',
   },
   children: {
