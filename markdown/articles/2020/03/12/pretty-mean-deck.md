@@ -1,5 +1,6 @@
 ---
 authors: Doishy
+banner: /assets/thassa-s-oracle.thb.jpg
 title: "\"Is the World Ending?\" - A Pretty Mean Deck for 2020"
 ---
 
