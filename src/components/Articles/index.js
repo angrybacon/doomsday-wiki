@@ -14,6 +14,7 @@ import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Card from '../Card';
+import Listify from '../Listify';
 import Prettylink from '../Prettylink';
 import useStyles from './styles';
 
@@ -41,8 +42,9 @@ export default function Articles({ top }) {
   const article = ({ childMarkdownRemark, fields }) => {
     let { authors, banner, title } = childMarkdownRemark.frontmatter;
     let { date, slug } = fields;
-    authors = authors ? ` by ${authors}` : '';
-    return {authors, banner, date, slug, subtitle: `${date}${authors}`, title};
+    const credit = [date, authors].filter(it => it);
+    const subtitle = credit.length ? <Listify items={credit} /> : null;
+    return {authors, banner, date, slug, subtitle, title};
   };
 
   const cards = articles => (
