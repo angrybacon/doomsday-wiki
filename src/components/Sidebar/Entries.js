@@ -32,6 +32,10 @@ export default function Entries() {
              subtitle={menu.puzzles.subtitle}
              title={menu.puzzles.title}
              extra={{component: Link, to: '/puzzles/'}} />
+      <Entry icon={menu.articles.icon}
+             subtitle={menu.articles.subtitle}
+             title={menu.articles.title}
+             extra={{component: Link, to: '/articles/'}} />
     </List>
   );
 }
