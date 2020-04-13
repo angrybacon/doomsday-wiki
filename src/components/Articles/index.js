@@ -15,6 +15,7 @@ import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Card from '../Card';
 import Listify from '../Listify';
+import Markdown from '../Markdown';
 import Prettylink from '../Prettylink';
 import useStyles from './styles';
 
@@ -28,6 +29,7 @@ export default function Articles({ top }) {
     ) {
       nodes {
         childMarkdownRemark {
+          excerpt(format: PLAIN pruneLength: 150)
           frontmatter {authors banner title}
         }
         fields {date slug}
@@ -40,17 +42,18 @@ export default function Articles({ top }) {
   const isMobile = useMediaQuery(theme.mixins.sidebar.treshold);
 
   const article = ({ childMarkdownRemark, fields }) => {
-    let { authors, banner, title } = childMarkdownRemark.frontmatter;
+    const { excerpt, frontmatter } = childMarkdownRemark;
+    let { authors, banner, title } = frontmatter;
     let { date, slug } = fields;
     const credit = [date, authors].filter(it => it);
     const subtitle = credit.length ? <Listify items={credit} /> : null;
-    return {authors, banner, date, slug, subtitle, title};
+    return {authors, banner, date, excerpt, slug, subtitle, title};
   };
 
   const cards = articles => (
     <Grid container spacing={isMobile ? 2 : 3}>
       {articles.map((it, index) => {
-        const { authors, banner, date, slug, title } = article(it);
+        const { authors, banner, date, excerpt, slug, title } = article(it);
         return (
           <Grid item xs={12} key={index} title={title}>
             <Card>
@@ -60,6 +63,7 @@ export default function Articles({ top }) {
                   <Box display="flex" justifyContent="space-between" width="100%">
                     <CardContent>
                       <Typography children={title} component="h6" gutterBottom variant="body1" />
+                      <Markdown color="textSecondary" gutterBottom source={excerpt} variant="body2"/>
                       <Typography color="textSecondary" component="div" variant="body2">
                         <Box alignItems="center" display="flex">
                           <CalendarIcon className={classes.icon} size={16} />
