@@ -20,7 +20,7 @@ We will consider the following types of interaction for this section:
 
 ## 1. Playing Around Removal
 
-**Cheating on Devotion**
+### Cheating on Devotion
 
 The first key point to state is when removal actualy matters. Thassa's Oracle
 has some key text on it that states the following:
@@ -73,7 +73,7 @@ extra potential Devotion to {{U}} to help bolster your effect. Cards like
 Baleful Strix, Counterbalance, Snapcaster Mage or even Teferi, Time Raveler are
 a few examples.
 
-**Thinning with Fetchlands**
+### Thinning with Fetchlands
 
 Another trick you can do, to help achieve a library of 0 cards for your Oracle
 trigger, is this: With an active fetchland in play as you resolve Doomsday, or
@@ -104,7 +104,7 @@ Oracle and thereby leaving you stuck with no cards left in the deck and a lethal
 draw step looming. Thankfully there are a number of ways and means to play
 around / punish a resolved Doomsday in the face of countermagic.
 
-**Proactive Disruption**
+### Proactive Disruption
 
 You can utilise your proactive disruption spells like Thoughtseize or Veil of
 Summer at the start of your turn. Consider the following scenario where you have
@@ -150,7 +150,7 @@ is obviously a risky line if they do not respond to the Veil as it leaves you
 having to pass the turn again with Force backup available only prior to trying
 to crack LED.
 
-**Reactive Disruption**
+### Reactive Disruption
 
 For Legacy, reactive disruption tends to be centred around countermagic and
 Meandeck is no different. A lot of the consideration that comes from using
@@ -188,7 +188,7 @@ In an alternative scenario if you were to face similar, but with an additional
 interaction such as Daze or simply a second {{U}} card to allow you to cast
 Force of Will twice if they try and fight over the Oracle.
 
-**Other tools available**
+### Other Tools Available
 
 There are some key cards that may be used to help work around traditional
 countermagic. Cavern of Souls is an easy fit into the Meandeck gameplan and, if
@@ -219,7 +219,7 @@ explained.
 
 ## 3. Playing Around / Through Permanent Based Interaction
 
-**Chalice of the Void**
+### Chalice of the Void
 
 Chalice is a Legacy staple that is featured in a number of decks. It seeks to
 generate card advantage by (hopefully) countering a number of cards or
@@ -278,7 +278,7 @@ cards both also seek to cut you off a key cost of card however with some cards
 like Prelate, it is very likely to be set at 'X' = 3 to prevent the casting of
 Doomsday in the first place.
 
-**Taxing Effects**
+### Taxing Effects
 
 When discussing these effects we are talking about things like Thalia, Guardian
 of Thraben and Thorn of Amethyst. These generally do not actively stop you
@@ -296,7 +296,7 @@ need them to achieve the win. Obviously, when facing known removal you would
 have to adapt this further but quite often the tax effect can also prevent the
 removal being cast as well so bear that in mind.
 
-**Spell Restrictors**
+### Spell Restrictors
 
 Spell restrictors are things that place a limitation of how many spells you may
 be able to cast in a given turn. Cards like Ethersworn Canonist or Deafening
@@ -309,7 +309,7 @@ the one stated against taxing effects ensuring that you only ever cast one
 spell. The cyclers can be replaced with another cantrip if need be to increase
 the pile cost by {{1}}, {{U}} or {{S}}.
 
-**Draw Restrictors**
+### Draw Restrictors
 
 This category is one of the hardest to fight through effectively as they cause
 both delay and prevention of most of the piles we want to use. Leovold, Emissary
@@ -329,7 +329,7 @@ ability. If use the ability on a Leovold, you *will* get to draw the card
 afterwards. This can allow you to remove the disruption and *crack* into the
 pile at the same time.
 
-**Search Restrictors**
+### Search Restrictors
 
 These are cards that, rather than disrupt the Doomsday pile itself, actively
 prevent you building it in the first place. To understand what is being talk
@@ -427,83 +427,91 @@ them. This is not an exhaustive list however and you will eventually run across
 an unexpected interaction you may not have considered before. If something does
 *get you* then stay calm, take it as learning and move on.
 
-**Grindstone**
+### Grindstone
 
-This is a consideration when facing any Painter variant. You can find yourself in a situation whereby
-your opponent may have an active Grindstone and the mana to activate it but you otherwise have a 
-window to try and win. Just like with Surgical Extraction it is difficult to know if and / or when
-the opponent may try to activate the Grindstone but it is possible to play around. 
+This is a consideration when facing any Painter variant. You can find yourself
+in a situation whereby your opponent may have an active Grindstone and the mana
+to activate it but you otherwise have a window to try and win. Just like with
+Surgical Extraction it is difficult to know if and/or when the opponent may
+try to activate the Grindstone but it is possible to play around.
 
 >{{BBB}} + {{UU}} to {{UUUU}} + Cantrip
 
 <row variant="pile">{{!Pn}} {{!Pn}} {{!SW}} {{!EoA}} {{!TO}}</row>
 
-For the example above, if they Grindstone when digging into the pile you will *mill* Ponder and 
-Ponder and then also Wraith and Edge and draw TO to be able to cast it with 0 cards in your
-library. If you can draw into Ponder, you cast Ponder and again, if they go to activate Grindstone,
-you will *mill* Ponder and Street Wraith which allows you to draw Edge and cycle into Oracle.
-If you are allowed to access the second Ponder then, assuming they do not activate Grindstone here 
-you can directly grab Oracle and cast it with 2 cards left in your library and a devotion of 2.
+For the example above, if they Grindstone when digging into the pile you will
+*mill* Ponder and Ponder and then also Wraith and Edge and draw TO to be able to
+cast it with 0 cards in your library. If you can draw into Ponder, you cast
+Ponder and again, if they go to activate Grindstone, you will *mill* Ponder and
+Street Wraith which allows you to draw Edge and cycle into Oracle. If you are
+allowed to access the second Ponder then, assuming they do not activate
+Grindstone here you can directly grab Oracle and cast it with 2 cards left in
+your library and a devotion of 2.
 
 This is just one example in a single set of potential circumstances of course.
 
-**Fireblast**
+### Fireblast
 
-Fireblast is something to be mindful of only in the Burn matchup but it's a good consideration
-in line with Lightning bolt to be mindful of your life total. If you cast Doomsday from 9 life
-or less you are weak to Fireblast once the Doomsday resolves and likewise from 7 life or less
-you are at risk of bolt. You also have to be mindful of when you can incorporate the use of
-Street Wraith in a pile (blocked from 5 life or less) or Force of Will or a fetchland
-(3 life or less). Also always be mindful that if you cast Doomsday when on 1 life you will 
+Fireblast is something to be mindful of only in the Burn matchup but it's a good
+consideration in line with Lightning bolt to be mindful of your life total. If
+you cast Doomsday from 9 life or less you are weak to Fireblast once the
+Doomsday resolves and likewise from 7 life or less you are at risk of bolt. You
+also have to be mindful of when you can incorporate the use of Street Wraith in
+a pile (blocked from 5 life or less) or Force of Will or a fetchland (3 life or
+less). Also always be mindful that if you cast Doomsday when on 1 life you will
 immediate lose due to the rounding up clause.
 
-**Mindbreak Trap**
+### Mindbreak Trap
 
-Mindbreak Trap is a popular tool to beat combo decks and work around Veil of Summer. If you
-know or suspect the possibility of facing it then you can either try to incorporate counter
-magic into your strategy or build a PTT pile that is mindful of the spell count. Assuming
-that you cast Dark Ritual into Doomsday, it is risky to try and resolve a third spell. 
+Mindbreak Trap is a popular tool to beat combo decks and work around Veil of
+Summer. If you know or suspect the possibility of facing it then you can either
+try to incorporate counter magic into your strategy or build a PTT pile that is
+mindful of the spell count. Assuming that you cast Dark Ritual into Doomsday, it
+is risky to try and resolve a third spell.
 
 Consider the following:
 
 <row variant="pile">{{!IU}} {{!TS}} {{!LP}} {{!LP}} {{!TO}}</row>
 
-Assuming you had a cantrip ready to *dig* into the pile, you can use it to try and use it to
-either preemptively bait the Trap or to enable digging one deeper so that you can lead on 
-Thoughtseize the next turn.
+Assuming you had a cantrip ready to *dig* into the pile, you can use it to try
+and use it to either preemptively bait the Trap or to enable digging one deeper
+so that you can lead on Thoughtseize the next turn.
 
-**Thought Scour/Predict**
+### Thought Scour / Predict
 
-Thought Scour is not normally a common card in Legacy now that the Underworld Breach era is
-gone however it still can show up in rogue brews from time to time. Predict is a card
-advantage spell played by both Miracles and Doomsday pilots. Both Thought Scour and Predict
-can target any player and so either can mess up your piles at instant speed, milling a key
-piece in response to a cantrip or potentially forcing you to commit unknowing suicide by 
-making your Ideas Unbound suddenly lethal through decking. You can try to take similar
-considerations to when facing Grindstone in either baiting the known spell or taking a bit
-more time to play around it.
+Thought Scour is not normally a common card in Legacy now that the Underworld
+Breach era is gone however it still can show up in rogue brews from time to
+time. Predict is a card advantage spell played by both Miracles and Doomsday
+pilots. Both Thought Scour and Predict can target any player and so either can
+mess up your piles at instant speed, milling a key piece in response to a
+cantrip or potentially forcing you to commit unknowing suicide by making your
+Ideas Unbound suddenly lethal through decking. You can try to take similar
+considerations to when facing Grindstone in either baiting the known spell or
+taking a bit more time to play around it.
 
-**Dack Fayden/Jace, the Mind Sculptor/Portent**
+### Dack Fayden / Jace, the Mind Sculptor/Portent
 
-These only need to be considered when building a Pass the Turn pile. Jace is likely the most
-common one to face and is easily beaten by placing an otherwise innocuous cantrip as the top
-card. If the opponent *upticks* Jace then they cannot *hit* an integral piece if it's the second
-card down and even if they allow it to stay on top you can still execute the pile without
-hinderance.
+These only need to be considered when building a Pass the Turn pile. Jace is
+likely the most common one to face and is easily beaten by placing an otherwise
+innocuous cantrip as the top card. If the opponent *upticks* Jace then they
+cannot *hit* an integral piece if it's the second card down and even if they
+allow it to stay on top you can still execute the pile without hinderance.
 
-**Vendilion Clique/**Kolagahn's Command****
+### Vendilion Clique / Kolagahn's Command
 
-Both of these cards tend to come from control shells. Command is likely more disruptive but can be 
-played around assuming you are able to ensure you have one additional card in hand than needed. 
-Often this means not being able to utilise LED however you can otherwise treat it like any other 
-pile where you need to keep countermagic up. Clique is tricky when trying to utilise cards like
-Predict or Ideas Unbound but is relatively superfluous if executing something with just cantrips.
-You can also build a pile around it *if* you can predict when the opponent will use it however that
-can be tricky.
+Both of these cards tend to come from control shells. Command is likely more
+disruptive but can be played around assuming you are able to ensure you have one
+additional card in hand than needed. Often this means not being able to utilise
+LED however you can otherwise treat it like any other pile where you need to
+keep countermagic up. Clique is tricky when trying to utilise cards like Predict
+or Ideas Unbound but is relatively superfluous if executing something with just
+cantrips. You can also build a pile around it *if* you can predict when the
+opponent will use it however that can be tricky.
 
-### Final Thoughts
+## Final Thoughts
 
-There are a number of things that you may face and the ability to deal with it comes from research and
-practice. Remember to always consider the matchup in playing around Wasteland, opposing Thoughtseize
-effects and the like prior to the combo to give yourself the best chance to enact the combo. Consider
-whether speed or resilience is the right path given your opponent's deck. 
+There are a number of things that you may face and the ability to deal with it
+comes from research and practice. Remember to always consider the matchup in
+playing around Wasteland, opposing Thoughtseize effects and the like prior to
+the combo to give yourself the best chance to enact the combo. Consider whether
+speed or resilience is the right path given your opponent's deck.
