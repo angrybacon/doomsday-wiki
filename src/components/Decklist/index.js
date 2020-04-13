@@ -1,16 +1,15 @@
+import Box from '@material-ui/core/Box';
+import Grid from '@material-ui/core/Grid';
+import List from '@material-ui/core/List';
+import Typography from '@material-ui/core/Typography';
 import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import List from '@material-ui/core/List';
-import Typography from '@material-ui/core/Typography';
 import Collapsible from '../Collapsible';
-import useStyles from './styles';
 
 
 export default function Decklist({ collapsible, path, ...rest }) {
 
-  const classes = useStyles();
   const { decks } = useStaticQuery(graphql`{
     decks: allDeck {
       edges {
@@ -32,29 +31,29 @@ export default function Decklist({ collapsible, path, ...rest }) {
   const wrapper = collapsible ? Collapsible : 'div';
   const title = <>Decklist: <Typography children={path} color="textSecondary" component="span" /></>;
   const deck = (!!main.length || !!side.length) && (
-    <div className={classes.root}>
-      <div className={classes.content}>
+    <Box bgcolor="background.secondary">
+      <Box p={2}>
         {!collapsible && path && <Typography children={path} gutterBottom variant="h5" />}
-        <Box display="flex" justifyContent="space-between" flexWrap="wrap">
+        <Grid container spacing={2}>
           {!!main.length && (
-            <Box my={1}>
+            <Grid item xs={12} sm={8}>
               <Typography children="Maindeck" gutterBottom variant="h6" />
               <Box display="flex" mx={-2}>
                 {main.map((it, index) => (
                   <Box children={<List children={it.map(row)} disablePadding />} key={index} mx={2} />
                 ))}
               </Box>
-            </Box>
+            </Grid>
           )}
           {!!side.length && (
-            <Box my={1}>
+            <Grid item xs={12} sm={4}>
               <Typography children="Sideboard" gutterBottom variant="h6" />
               {side.map((it, index) => <List children={it.map(row)} disablePadding key={index} />)}
-            </Box>
+            </Grid>
           )}
-        </Box>
-      </div>
-    </div>
+        </Grid>
+      </Box>
+    </Box>
   );
 
   return React.createElement(wrapper, {...(collapsible && {title, zoom: true}), ...rest}, deck);
