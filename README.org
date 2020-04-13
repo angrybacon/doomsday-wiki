@@ -36,11 +36,11 @@ The Markdown supports a number of a shorthands in order to easily insert Mana
 symbols.
 
 #+BEGIN_SRC
-{W}{U}{B}{R}{G} {0}{1}{2}{3} ... {15} ... {20}
+{W}{U}{B}{R}{G} {C} {S} {X}{Y}{Z} {0}{1}{2}{3} ... {20}
 {1}{U/B}{U/B} {U/P} {2/U}{2/U}{2/U} {X}{R} {tap} {+1}{+0}{-5}
 #+END_SRC
 
-[[/assets/mana.png]]
+[[/assets/mana-preview.png]]
 
 *** Scryfall
 
