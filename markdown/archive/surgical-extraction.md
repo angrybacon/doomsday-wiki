@@ -127,7 +127,7 @@ with no drawbacks.
 
 > Pass the turn, AoI in hand - {{BBB}} + {{2R}}
 
-<row variant="pile">{{!Abandon Hope}} {{!Isl}} {{!LM}} {{!LED}} {{!SW}}</row>
+<row variant="pile">{{!Abandon Hope}} {{!I}} {{!LM}} {{!LED}} {{!SW}}</row>
 
 ## Summary
 

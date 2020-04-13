@@ -75,7 +75,7 @@ Eons}} have been incorporated in lists too. The aim of the deck is to kill via a
 Doomsday pile with lethal {{Tendrils of Agony}} or {{Thassa's Oracle}} or a
 natural Tendrils storm kill without Doomsday. See an example pile below:
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pn}} {{!BW}}</row>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pnd}} {{!BW}}</row>
 
 Due to the cards used, the deck tends to be Grixis colours sometimes splashing
 Green for sideboard options.
@@ -115,7 +115,7 @@ less dedicated combo pieces such as {{Lion's Eye Diamond}} and more reactive
 control elements like {{Force of Will}}. The deck does not run Storm based win
 conditions either. An example pile is below:
 
-<row variant="pile">{{!Pd}} {{!Pn}} {{!EoA}} {{!LED}} {{!TO}}</row>
+<row variant="pile">{{!Prt}} {{!Pnd}} {{!EoA}} {{!LED}} {{!TO}}</row>
 
 **Note**: At the time of writing this article, this variant is the one having most
 success in tournaments.
@@ -236,7 +236,7 @@ more on those later. Combine these with some of the cantripping protection
 elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
 up with a very high cantrip number.
 
-<row variant="centered">{{!Pn}} {{!BS}} {{!Pre}}</row>
+<row variant="centered">{{!Pnd}} {{!BS}} {{!Prt}}</row>
 
 #### DDFT
 
@@ -283,7 +283,7 @@ running these are all options available to a Doomsday pilot. Normally you would
 want at least 8 pieces of protection maindeck with additional sideboard slots
 dedicated to more specific interaction.
 
-<row variant="centered">{{!TS}} {{!FoW}} {{!Veil}}</row>
+<row variant="centered">{{!Tsz}} {{!FoW}} {{!VoS}}</row>
 
 #### DDFT
 

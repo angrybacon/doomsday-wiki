@@ -26,7 +26,7 @@ game before your opponent establishes a board presence, but it can still be
 effective later on aggainst threat-light decks like Delver. Consider the
 following hand:
 
-<row variant="hand">{{!DR}} {{!Veil}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
+<row variant="hand">{{!DR}} {{!VoS}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
 Ideally, you can play out your mana artifacts, cast Veil, and then the Dark
 Ritual. Cast Burning Wish holding priority, and crack the LED for {{RRR}}. Along
@@ -75,7 +75,7 @@ land drop you can use this to generate mana after Echo.
 
 Consider the following situation, where your opening 7 looks like this:
 
-<row variant="hand">{{!LED}} {{!LED}} {{!ST}} {{!LP}} {{!Isl}} {{!Echo}} {{!ST}}</row>
+<row variant="hand">{{!LED}} {{!LED}} {{!ST}} {{!LP}} {{!I}} {{!EoE}} {{!ST}}</row>
 
 You should strongly consider spinning the wheel on that Echo right away. A fresh
 hand with 5 mana available is very strong, and that hand isn't likelyto get
@@ -160,7 +160,7 @@ One last thing to address: there will be times when you determine that you
 simply have to take a risk and go for a natural storm kill without a Wish in
 hand. Perhaps your hand looks like this:
 
-<row variant="hand">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!DR}} {{!DR}} {{!Pn}}</row>
+<row variant="hand">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!DR}} {{!DR}} {{!Pnd}}</row>
 
 Maybe you have a couple lands on board. If your opponent is threatening lethal
 damage, you need to go all in. Cast all your mana spells, then finally Ponder

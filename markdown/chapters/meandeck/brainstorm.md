@@ -16,7 +16,7 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 
 > BS, X in hand - {{BBB}} + {{U}}
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pd}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Prt}} {{!LP}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back X then Predict
 1. Cast LED, cycle SW cracking LED for {{UUU}} and draw the Predict
@@ -32,7 +32,7 @@ afford the land drop this turn.
 
 > BS, SW, X in hand - {{BBB}} + {{0}}
 
-<row variant="pile">{{!LP}} {{!LED}} {{!SW}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!LP}} {{!LED}} {{!SW}} {{!Pnd}} {{!TO}}</row>
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off LP and put back X then Ponder

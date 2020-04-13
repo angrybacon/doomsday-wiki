@@ -128,7 +128,7 @@ into the main and some extra cantrip effects and discard are added.
 Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!ToA}} {{!Pn}} {{!CB}}</row>
+<row variant="pile">{{!AoI}} {{!LED}} {{!ToA}} {{!Pnd}} {{!CB}}</row>
 
 Some other cards come in to help with combo and consistency. Lim DÃ»l's Vault is
 a classic UB card that has been used as a Vampiric Tutor for awhile and is often

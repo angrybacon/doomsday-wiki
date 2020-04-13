@@ -53,7 +53,7 @@ name TO itself to Predict to dig into the pile.
 
 > Ponder, Ponder in hand - {{BBB}} + {{UU}}
 
-<row variant="pile">{{!LED}} {{!Pd}} {{!TO}} {{!Un}} {{!LP}}</row>
+<row variant="pile">{{!LED}} {{!Prt}} {{!TO}} {{!Un}} {{!LP}}</row>
 
 At the very least you could put Unearth at the bottom of your pile *just in
 case*.

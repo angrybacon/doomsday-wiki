@@ -22,7 +22,7 @@ draw spell, helps digging into the pile, drawing resources from the pile.
 
 > {{BBB}} + {{1U}}
 
-<row variant="pile">{{!Pd}} {{!Pn}} {{!LED}} {{!SW}} {{!TO}}</row>
+<row variant="pile">{{!Prt}} {{!Pnd}} {{!LED}} {{!SW}} {{!TO}}</row>
 
 Post-Doomsday, pick these 5 cards and form a pile with them. Draw into the
 Predict, either the same turn or by passing the turn to your opponent. Target
@@ -51,7 +51,7 @@ your pile while cracking the LED for mana.
 
 > Ponder, Ponder in hand - {{BBB}} + {{UU}}
 
-<row variant="pile">{{!LED}} {{!SW}} {{!SW}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!SW}} {{!Pnd}} {{!TO}}</row>
 
 The above pile is much straightforward on purpose, its parts are moving and can
 be replaced depending on what parts you already have access to.
@@ -62,7 +62,7 @@ cards in your pile.
 
 > Ponder, LED in hand - {{BBB}} + {{U}}
 
-<row variant="pile">{{!Pd}} {{!Pn}} {{!SW}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!Prt}} {{!Pnd}} {{!SW}} {{!LP}} {{!TO}}</row>
 
 ## Get Started
 
