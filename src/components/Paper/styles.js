@@ -2,10 +2,12 @@ import { makeStyles } from '@material-ui/core/styles';
 
 
 export default makeStyles(theme => ({
-  rounded: {
-    ...theme.mixins.gutters(),
+  root: {
     [theme.mixins.sidebar.treshold]: {
       borderRadius: 0,
     },
+  },
+  rounded: {
+    ...theme.mixins.gutters(),
   },
 }));

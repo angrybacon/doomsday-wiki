@@ -1,6 +1,6 @@
+import Typography from '@material-ui/core/Typography';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 import Listify from '../Listify';
 import Markdown from '../Markdown';
 import Paper from '../Paper';
@@ -20,7 +20,7 @@ export default function Page({ pageContext }) {
           <Typography align="center" children={subtitle} color="textSecondary" variant="subtitle1" />
         )}
       </Typography>
-      <Markdown barf source={body} />
+      <Markdown source={body} />
       {!isArticle && subtitle && (
         <Typography align="center"
                     children={subtitle}
