@@ -32,7 +32,7 @@ This means that even in the face of a removal spell you can still win if the
 trigger resolves assuming you have 0 cards left in your library. The only time
 removal matters is when you have cards left within your library. If an opponent
 tries to remove the Oracle at that point, assuming you have no additional
-Devotion to {{U}}, you will not be able to win off of the trigger.
+Devotion to {U}, you will not be able to win off of the trigger.
 
 The main counter to this is of course to try and ensure you always leave 0 cards
 left in your deck once the Oracle trigger will resolve. Another way is to
@@ -40,12 +40,12 @@ potentially try a *bait pile* which tries to go off in one turn but has the
 option to wait another. This can be especially useful if you are playing
 multiple Oracles. Let us take this example from the Brainstorm chapter:
 
-> {{BBB}} + Brainstorm + Thassa's Oracle + X
+> {B}{B}{B} + Brainstorm + Thassa's Oracle + X
 
 <row variant="pile">{{!LED}} {{!SW}} {{!BS}} {{!EoA}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
-1. Cast LED and LP, cycle SW cracking LED for {{UUU}} and draw the Cantrip.
+1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
 1. Cast the Cantrip and arrange your library so that it is (EoA, TO, TO)
 1. Draw Edge, Cycle Edge and draw Oracle.
 1. Cast Oracle to (hopefully) win.
@@ -64,14 +64,14 @@ This pile plays around the following:
 - Countermagic for the first Oracle
 
 If your opponent deals with TO with its trigger on the stack, you could be
-missing on a couple Devotion to {{U}}. That's why it's important to try and
+missing on a couple Devotion to {U}. That's why it's important to try and
 consume the entirety of your pile before going for it whenever you can,
 especially if your opponent is likely to hold removal as you go off.
 
 With enough mana, and other relevant permanents in your deck, you can utitlise
-extra potential Devotion to {{U}} to help bolster your effect. Cards like
-Baleful Strix, Counterbalance, Snapcaster Mage or even Teferi, Time Raveler are
-a few examples.
+extra potential Devotion to {U} to help bolster your effect. Cards like Baleful
+Strix, Counterbalance, Snapcaster Mage or even Teferi, Time Raveler are a few
+examples.
 
 ### Thinning with Fetchlands
 
@@ -83,7 +83,7 @@ resolving TO.
 
 Consider the following:
 
-> {{BBB}} + {{UU}} + Ponder + Island (Land drop available)
+> {B}{B}{B} + {U}{U} + Ponder + Island (Land drop available)
 
 <row variant="pile">{{!BS}} {{!SW}} {{!EoA}} {{!Polluted Delta|ONS}} {{!TO}}</row>
 
@@ -108,7 +108,7 @@ around / punish a resolved Doomsday in the face of countermagic.
 
 You can utilise your proactive disruption spells like Thoughtseize or Veil of
 Summer at the start of your turn. Consider the following scenario where you have
-cast Doomsday on turn 1 for a PTT pile in the face of a known {{U}} deck and it
+cast Doomsday on turn 1 for a PTT pile in the face of a known {U} deck and it
 has resolved (from the Basics chapter):
 
 > Opening hand (7)  
@@ -128,7 +128,7 @@ solution assuming we played Doomsday off of Swamp and Dark Ritual:
 1. Play Island, cast Brainstorm with Island, and put back Force and Preordain on
    top
 1. Cast Thoughtseize to take away any potential interaction
-1. Cycle EoA cracking LED for {{UUU}} and draw Preordain
+1. Cycle EoA cracking LED for {U}{U}{U} and draw Preordain
 1. Scry the Force of Will to the bottom, draw Oracle
 1. Cast Oracle for the win
 
@@ -184,9 +184,9 @@ discard as they can only take 1 Force and there is still a Preordain to pitch
 for the other.
 
 In an alternative scenario if you were to face similar, but with an additional
-{{U}} available, you could build the same thing but with an additional piece of
-interaction such as Daze or simply a second {{U}} card to allow you to cast
-Force of Will twice if they try and fight over the Oracle.
+{U} available, you could build the same thing but with an additional piece of
+interaction such as Daze or simply a second {U} card to allow you to cast Force
+of Will twice if they try and fight over the Oracle.
 
 ### Other Tools Available
 
@@ -195,7 +195,7 @@ countermagic. Cavern of Souls is an easy fit into the Meandeck gameplan and, if
 a land drop is available, can easily slot into some of the more *standard*
 piles.
 
-> {{BBB}} + Brainstorm + X
+> {B}{B}{B} + Brainstorm + X
 
 <row variant="pile">{{!Pd}} {{!LED}} {{!EoA}} {{!TO}} {{!Cavern of Souls}}</row>
 
@@ -206,7 +206,7 @@ beforehand resolve.
 
 Likewise it can slot into most IU piles too.
 
-> {{BBB}} + {{UU}} + Cantrip
+> {B}{B}{B} + {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!Cavern of Souls}} {{!EoA}} {{!TO}}</row>
 
@@ -227,10 +227,10 @@ preventing the casting of cards of a certain cmc. Normally Chalice is set to X =
 1 most of the time which, although can be a heavy detriment to a deck comprised
 of predominantly 1 cost cards, does not stop the deck winning the game.
 
-Although it certainly is convenient trying to get {{BBB}} from Dark Ritual, you
-can easily just cast it from lands. It is perfectly fine getting to turn three
-without having fetched and just finding 3 black sources to cast Doomsday. From
-that point you don't have to cast a single 1 mana spell.
+Although it certainly is convenient trying to get {B}{B}{B} from Dark Ritual,
+you can easily just cast it from lands. It is perfectly fine getting to turn
+three without having fetched and just finding 3 black sources to cast Doomsday.
+From that point you don't have to cast a single 1 mana spell.
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
 
@@ -241,16 +241,16 @@ effects all of which can circumnavigate the limitations Chalice creates. If
 playing against a known Chalice deck, simply going turn 1 Doomsday off of DR
 with another land in hand is pretty safe given you can ignore the interaction
 (at least where Chalice is concerned). The above are pretty cheap too
-representing post Doomsday costs of {{UU}} and {{1U}} respectively.
+representing post Doomsday costs of {U}{U} and {1}{U} respectively.
 
 Chalice is not limited to being set on 1. Sometimes an opponent will want to
 deploy a threat plus disruption on turn 1 so might lead with Chalice X = 0 or
 may play a Chalice X = 2 in the late game. For X = 0 this is fine so long as you
 have been making land drops though the game or, at worst, allows you to put
 lands into the pile itself. If you have Arcum's Astrolabe out you can also use
-Dark Ritual as a *mana boost* that filters into the {{U}} needed for Oracle.
+Dark Ritual as a *mana boost* that filters into the {U} needed for Oracle.
 
-> {{BBB}} + {{1UU}} + Cantrip
+> {B}{B}{B} + {1}{U}{U} + Cantrip
 
 <row variant="pile">{{!Predict}} {{!SW}} {{!Island}} {{!EoA}} {{!TO}}</row>
 
@@ -267,7 +267,7 @@ Post-board for all of the above you can also start adding removal into your
 piles as the top card in order to try and facilitate the win. Consider the below
 PTT example against a Chalice of the Void.
 
-> {{BG}} + {{U}} + Brainstorm + X (Post Doomsday)
+> {B}{G} + {U} + Brainstorm + X (Post Doomsday)
 
 <row variant="pile">{{!Abrupt Decay}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 
@@ -291,7 +291,7 @@ face removal as often the Oracle itself is not taxed:
 <row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
 
 In the above example you can simply cycle the first 2 cards and then cast Oracle
-for {{UU}}. The 2 Doomsdays are just placeholders as, in theory, you will not
+for {U}{U}. The 2 Doomsdays are just placeholders as, in theory, you will not
 need them to achieve the win. Obviously, when facing known removal you would
 have to adapt this further but quite often the tax effect can also prevent the
 removal being cast as well so bear that in mind.
@@ -307,7 +307,7 @@ and both can be played around.
 For example, playing against Deafening Silence you can do a PTT pile similar to
 the one stated against taxing effects ensuring that you only ever cast one
 spell. The cyclers can be replaced with another cantrip if need be to increase
-the pile cost by {{1}}, {{U}} or {{S}}.
+the pile cost by {1}, {U} or {S}.
 
 ### Draw Restrictors
 
@@ -318,13 +318,13 @@ heading. The easiest way to deal with them is of course removal however that is
 not always viable, especially in game 1. Another way is to simply pass the turn
 a number of times using the sorcery speed cantrips on your turn and the instant
 speed free cyclers on the opponent's turn. Predict is quite useful in this
-scenario as, despite costing {{1U}} it allows you to *burn through* 2 cards from
+scenario as, despite costing {1}{U} it allows you to *burn through* 2 cards from
 the stack. Something like the following may be useful facing an opposing Narset
 for example (spread over multiple turns):
 
 <row variant="pile">{{!Pn}} {{!Pd}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 
-One key thing to note with these cards involves Teferi, Time Raveler's {{-3}}
+One key thing to note with these cards involves Teferi, Time Raveler's {-3}
 ability. If use the ability on a Leovold, you *will* get to draw the card
 afterwards. This can allow you to remove the disruption and *crack* into the
 pile at the same time.
@@ -374,7 +374,7 @@ suceeding despite the shuffle, or even immune to it. A big part of when the
 opponent casts the Surgical can depend on what spell you are using to draw into
 a pile. Let us take the following scenario:
 
-> {{BBB}} + {{UU}} + Cantrip
+> {B}{B}{B} + {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
 
@@ -406,7 +406,7 @@ opponent tries to extract them, you can *shrink* your library by that amount.
 This again assumes they will Surgical at a time you want but it is a possibility
 to be considered.
 
-> {{BBB}} + {{UU}} + Cantrip
+> {B}{B}{B} + {U}{U} + Cantrip
 
 <row variant="pile">{{!SW}} {{!Edge}} {{!TO}} {{!DD}} {{!DD}}</row>
 
@@ -432,10 +432,10 @@ an unexpected interaction you may not have considered before. If something does
 This is a consideration when facing any Painter variant. You can find yourself
 in a situation whereby your opponent may have an active Grindstone and the mana
 to activate it but you otherwise have a window to try and win. Just like with
-Surgical Extraction it is difficult to know if and/or when the opponent may
-try to activate the Grindstone but it is possible to play around.
+Surgical Extraction it is difficult to know if and/or when the opponent may try
+to activate the Grindstone but it is possible to play around.
 
->{{BBB}} + {{UU}} to {{UUUU}} + Cantrip
+>{B}{B}{B} + {U}{U} to {U}{U}{U}{U} + Cantrip
 
 <row variant="pile">{{!Pn}} {{!Pn}} {{!SW}} {{!EoA}} {{!TO}}</row>
 

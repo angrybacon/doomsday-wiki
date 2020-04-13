@@ -27,24 +27,24 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 1. The Lotus Petal gives you a second {U} to cast TO with an empty library
 
 In the worked example above, you effectively turn the Brainstorm and the
-superfluous card into {{UUU}} plus a way to draw into your 2 mana draw spell, in
-this instance Predict.
+superfluous card into {U}{U}{U} plus a way to draw into your 2 mana draw spell,
+in this instance Predict.
 
 Another example is presented here using Ideas Unbound.
 
-> {{BBB}} + Brainstorm + X
+> {B}{B}{B} + Brainstorm + X
 
 <row variant="pile">{{!LED}} {{!SW}} {{!IU}} {{!LP}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back X then Ideas Unbound on top
-1. Cast LED, cycle SW cracking LED for {{UUU}} and draw the IU
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the IU
 1. Cast IU, drawing the rest of the pile
-1. The Lotus Petal gives you a second {{U}} to cast TO with an empty library
+1. The Lotus Petal gives you a second {U} to cast TO with an empty library
 
 
 ## Brainstorm and *Combo Piece* Available
 
-> {{BBB}} + Brainstorm + Thassa's Oracle
+> {B}{B}{B} + Brainstorm + Thassa's Oracle
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!EoA}} {{!Pn}}</row>
 
@@ -57,25 +57,25 @@ have it *eaten* by the Ooze. We cannot use Predict here as we would need to mill
 the Oracle to do so effectively.
 
 1. Cast Brainstorm and put back Oracle then Ponder on top.
-1. Cast LED, cycle SW cracking LED for {{UUU}} and draw the Ponder.
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
 1. Cast Ponder and arrange your library so that it is (EoA, TO, Pn)
 1. Draw Edge, Cycle Edge and draw Oracle.
 1. Cast Oracle to win.
 
 As you can see this pile does not beat removal on Oracle as it leaves a single
-card in your deck however, if you have an additional {{U}} available then you
-can change step 3 above to arrange the deck (EoA, Pn, TO) and cast the second
-Ponder with the additional {{U}}. Likewise, if you have another cantrip in
-addition to the Oracle in hand, you can use that instead of the first Ponder in
-the example and use that extra card to generate the additional {{U}} needed for
-the same starting mana cost.
+card in your deck however, if you have an additional {U} available then you can
+change step 3 above to arrange the deck (EoA, Pn, TO) and cast the second Ponder
+with the additional {U}. Likewise, if you have another cantrip in addition to
+the Oracle in hand, you can use that instead of the first Ponder in the example
+and use that extra card to generate the additional {U} needed for the same
+starting mana cost.
 
-> {{BBB}} + Brainstorm + Thassa's Oracle + Cantrip
+> {B}{B}{B} + Brainstorm + Thassa's Oracle + Cantrip
 
 <row variant="pile">{{!LED}} {{!SW}} {{!LP}} {{!EoA}} {{!Pn}}</row>
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
-1. Cast LED and LP, cycle SW cracking LED for {{UUU}} and draw the Cantrip.
+1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
 1. Cast the Cantrip and arrange your library so that it is (EoA, Pn, TO)
 1. Draw Edge, Cycle Edge and draw Oracle.
 1. Cast Oracle to win.
@@ -108,11 +108,11 @@ well if you have an available land drop that turn.
 1. Ponder for TO
 1. Cast TO with the remaining mana from LED with 1 card left in your library
 
-Similarly you can use the same as above with having a cycler in hand and {{U}}
+Similarly you can use the same as above with having a cycler in hand and {U}
 available but no Brainstorm in hand. Simply exchange the resource requirements
 to between what is outside the pile and the top card of the pile.
 
-> {{BBB}} + {{U}} + Street Wraith + X
+> {B}{B}{B} + {U} + Street Wraith + X
 
 <row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 

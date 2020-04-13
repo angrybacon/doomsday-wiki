@@ -49,7 +49,7 @@ of LED to generate the mana for Oracle.
 
 ## Double Cantrip Pile
 
-> {{BBB}} + Cantrip + Cantrip
+> {B}{B}{B} + Cantrip + Cantrip
 
 <row variant="pile">{{!LED}} {{!Pd}} {{!SW}} {{!LP}} {{!TO}}</row>
 
@@ -59,8 +59,8 @@ If you find yourself constrained on the mana to cast both a cantrip, and one of
 your two mana draw spells but have an additional cantrip in hand then you can
 construct what is known as a *double cantrip* pile. You use the first cantrip to
 draw the LED. Cast it and in response to the second cantrip, *crack* the LED for
-{{UUU}}. This will then allow you to draw into the two mana draw spell and cast
-it to then draw into Oracle and the LP required for the second {{U}} for it.
+{U}{U}{U}. This will then allow you to draw into the two mana draw spell and
+cast it to then draw into Oracle and the LP required for the second {U} for it.
 
 In one of those examples above we have included a suggestion of where you can
 include protection slots within the pile. If you have the available mana it may
@@ -78,7 +78,7 @@ If short on mana and LED becomes necessary, you can replicate the *double
 cantrip* piles above once again using the first cantrip to draw into LED, and
 the second cantrip to dig deeper into your pile while cracking the LED for mana.
 
-> {{BBB}} + Cantrip + Cantrip
+> {B}{B}{B} + Cantrip + Cantrip
 
 <row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 
@@ -122,8 +122,8 @@ Or
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!TS}} {{!TO}}</row>
 
 The first example is a *Single Cantrip + Predict* example and the second is a
-*Double Cantrip* example which also allows you to hold up {{B}} from your swamp
-to cast a Thoughtseize before committing Oracle to the stack.
+*Double Cantrip* example which also allows you to hold up {B} from your swamp to
+cast a Thoughtseize before committing Oracle to the stack.
 
 If you are concerned about additional permission from the opponent you could
 even consider passing the turn again if you don't feel under pressure. Instead
@@ -136,9 +136,9 @@ At the end of the opponent's turn you can then cast the Predict, targeting
 yourself and naming Street Wraith, to draw LP and Ponder. This then allows you
 to draw Oracle for your turn and cast it off of Island and LP with double Force
 of Will backup (with Preordain / Ponder as your *pitch* cards). You even have an
-additional {{B}} available to pay for something like Daze. In the event of
-trouble prior to the Predict, or to protect the Predict itself, you have the
-first Force of Will available.
+additional {B} available to pay for something like Daze. In the event of trouble
+prior to the Predict, or to protect the Predict itself, you have the first Force
+of Will available.
 
 ## Get Started
 
