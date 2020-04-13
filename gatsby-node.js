@@ -3,7 +3,6 @@ const dayjs = require('dayjs');
 const customParseFormat = require('dayjs/plugin/customParseFormat');
 const { createFilePath } = require('gatsby-source-filesystem');
 const deck = require('./src/tools/deck');
-const mana = require('./src/tools/mana');
 const scryfall = require('./src/tools/scryfall');
 
 
@@ -93,7 +92,7 @@ exports.createPages = ({ actions, graphql }) => {
       const { frontmatter, rawMarkdownBody } = childMarkdownRemark;
       const { authors, title } = frontmatter;
       const { date } = node.fields;
-      return mana.replace(rawMarkdownBody).then(scryfall.replace).then(body => createPage({
+      return scryfall.replace(rawMarkdownBody).then(body => createPage({
         component: renderer,
         context: {authors, body, date, title, type: sourceInstanceName},
         path: node.fields.slug,
