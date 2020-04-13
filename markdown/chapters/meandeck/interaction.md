@@ -489,7 +489,7 @@ Ideas Unbound suddenly lethal through decking. You can try to take similar
 considerations to when facing Grindstone in either baiting the known spell or
 taking a bit more time to play around it.
 
-### Dack Fayden / Jace, the Mind Sculptor/Portent
+### Dack Fayden / Jace, the Mind Sculptor / Portent
 
 These only need to be considered when building a Pass the Turn pile. Jace is
 likely the most common one to face and is easily beaten by placing an otherwise
@@ -497,7 +497,7 @@ innocuous cantrip as the top card. If the opponent *upticks* Jace then they
 cannot *hit* an integral piece if it's the second card down and even if they
 allow it to stay on top you can still execute the pile without hinderance.
 
-### Vendilion Clique / Kolagahn's Command
+### Vendilion Clique / Kolaghan's Command
 
 Both of these cards tend to come from control shells. Command is likely more
 disruptive but can be played around assuming you are able to ensure you have one

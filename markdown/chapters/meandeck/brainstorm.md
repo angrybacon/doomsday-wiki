@@ -42,7 +42,7 @@ Another example is presented here using Ideas Unbound.
 1. The Lotus Petal gives you a second {{U}} to cast TO with an empty library
 
 
-## Brainstorm and 'Combo Piece' Available
+## Brainstorm and *Combo Piece* Available
 
 > {{BBB}} + Brainstorm + Thassa's Oracle
 
@@ -122,7 +122,7 @@ done if you have excess mana or the card X is a cantrip already in exchanging
 the cantrip for mana within the pile to enable the playing around of removal to
 ensure you have a 0 card library on resolution of the Oracle trigger.
 
-## Next steps
+## Next Steps
 
 Now you have covered the basic concepts of pile building and the use of
 Brainstorm to exchange resources between hand and the pile itself, the next
