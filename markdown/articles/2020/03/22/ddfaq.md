@@ -386,11 +386,11 @@ fairer {{U}} cousins. Depending on how fast you intend to try and win and how
 much other mana acceleration you are playing a deck should run typically 15-18
 lands, usually around 16/17. This tends to be mostly comprised of a minimum of 4
 {{Polluted Delta}}, 4 other on-colour fetchlands or 4 {{Prismatic Vista}}, at
-least 1 {{Island}}/{{Snow-Covered Island}} and 1
-{{Swamp}}/{{Snow-Covered Swamp}} and 1 {{Underground Sea}}. The rest is the a
-mix of additional Seas, some other U/X and B/X splash duals and additional basic
-lands as required. Astrolabe decks tend to run more basics compared to their
-non-snow cousins. Even with Astrolabes, you should consider at least 2
+least 1 {{Island}} / {{Snow-Covered Island}} and 1 {{Swamp}} /
+{{Snow-Covered Swamp}} and 1 {{Underground Sea}}. The rest is the a mix of
+additional Seas, some other U/X and B/X splash duals and additional basic lands
+as required. Astrolabe decks tend to run more basics compared to their non-snow
+cousins. Even with Astrolabes, you should consider at least 2
 {{Underground Sea}}s in your list and probably 1 each of the primary splash
 colour U/X and B/X dual land.
 
@@ -502,9 +502,8 @@ There is some potential for running a straight {{UB}} list with no splash
 colours. For a speed focused list, use of {{Wishclaw Talisman}} and
 {{Echo of Eons}} could allow for a fast win however they may be considered
 unreliable. Your protection suite is also limited to countermagic and discard
-(both matching poorly against opposing {{Veil of Summer effects}}) and either
-{{B}} based creature removal or {{U}} based bounce removal which is not
-permanent.
+(both matching poorly against opposing Veil effects) and either {{B}} based
+creature removal or {{U}} based bounce removal which is not permanent.
 
 There is some scope for a plan B with the use of creatures like
 {{Snapcaster Mage}}, {{Dark Confidant}} or {{Rotting Regisaur}} however these

@@ -51,12 +51,12 @@ Let's go through it and discuss the dubious deckbuilding decisions I've made...
 <row variant="centered">{{!GM}} {{!CoB}}</row>
 
 Your mana clearly needs to make {{R}} and {{B}}. It also has to make {{G}}, at
-least from the sideboard, though previous iterations of this deck played {{Veil
-of Summer}} maindeck. Occasionally you need to make {{U}}. Creating a reliable
-4-color fetchland manabase on 9-10 lands proved difficult, and rainbow lands
-ended up feeling the most reliable. There are a ton of rainbow lands out there,
-and they are all worse than {{Gemstone Mine}}. After 4 Gemstone Mine, the only
-semi-reasonable ones are {{City of Brass}} / {{Mana Confluence}},
+least from the sideboard, though previous iterations of this deck played
+{{Veil of Summer}} maindeck. Occasionally you need to make {{U}}. Creating a
+reliable 4-color fetchland manabase on 9-10 lands proved difficult, and rainbow
+lands ended up feeling the most reliable. There are a ton of rainbow lands out
+there, and they are all worse than {{Gemstone Mine}}. After 4 Gemstone Mine, the
+only semi-reasonable ones are {{City of Brass}} / {{Mana Confluence}},
 {{Glimmervoid}}, and {{Undiscovered Paradise}}. Pick the split you hate the
 least, it probably doesn't matter.
 
