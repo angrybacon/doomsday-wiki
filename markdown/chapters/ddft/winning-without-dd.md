@@ -29,19 +29,19 @@ following hand:
 <row variant="hand">{{!DR}} {{!VoS}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
 Ideally, you can play out your mana artifacts, cast Veil, and then the Dark
-Ritual. Cast Burning Wish holding priority, and crack the LED for {{RRR}}. Along
-with the {{BB}} leftover from the Ritual, you have enough to cast Empty the
-Warrens to make 14 Goblins. Killing like this is extremely simple, but do not
-underestimate its effectiveness. In fact, if your hand looked like this on turn
-1, you should seriously consider skipping the Veil and jamming Empty the Warrens
-immediately, even if you don't know what your opponent is playing. Early in the
-game, most decks will simply not be able to handle that many goblins. Other
-combo decks may be able to race goblins, and decks with Stoneforge Mystic may be
-able to use Batterskull to stabilize if you don't get a lot of goblins down
-quickly enough, but other decks will struggle. While you're typically looking to
-make more than 10 goblins, as few as 8 can be sufficient against some decks. You
-should also note that Wish for Empty can play through a Chalice of the Void on 1
-relatively easily, with a couple Petals or LEDs.
+Ritual. Cast Burning Wish holding priority, and crack the LED for {R}{R}{R}.
+Along with the {B}{B} leftover from the Ritual, you have enough to cast Empty
+the Warrens to make 14 Goblins. Killing like this is extremely simple, but do
+not underestimate its effectiveness. In fact, if your hand looked like this on
+turn 1, you should seriously consider skipping the Veil and jamming Empty the
+Warrens immediately, even if you don't know what your opponent is playing. Early
+in the game, most decks will simply not be able to handle that many goblins.
+Other combo decks may be able to race goblins, and decks with Stoneforge Mystic
+may be able to use Batterskull to stabilize if you don't get a lot of goblins
+down quickly enough, but other decks will struggle. While you're typically
+looking to make more than 10 goblins, as few as 8 can be sufficient against some
+decks. You should also note that Wish for Empty can play through a Chalice of
+the Void on 1 relatively easily, with a couple Petals or LEDs.
 
 It is common to play multiple copies of Empty in your sideboard, for the purpose
 of bringing a few copies in. Naturally drawing and casting Empty the Warrens,
@@ -68,7 +68,7 @@ When going off with Echo of Eons, mana is going to be your biggest constraint.
 This deck does not play as many free mana sources as a deck like TES, so you
 typically want as much mana floating as possible after casting Echo. While you
 can theoretically win with no mana floating, it is simply unlikely. Ideally,
-you'll have access to at least {{UBR}}, so you can cast rituals, you have red
+you'll have access to at least {U}{B}{R}, so you can cast rituals, you have red
 for Burning Wish, and blue in case you need to cantrip to find more mana or
 Burning Wish. Keep in mind that you are likely to draw a land, so if you have a
 land drop you can use this to generate mana after Echo.
@@ -79,8 +79,9 @@ Consider the following situation, where your opening 7 looks like this:
 
 You should strongly consider spinning the wheel on that Echo right away. A fresh
 hand with 5 mana available is very strong, and that hand isn't likelyto get
-better. Crack the LEDs for {{UUUBBB}}. Don't crack the Scalding Tarn, since you
-will want to know what's in your new hand before you decide what land to fetch.
+better. Crack the LEDs for {U}{U}{U}{B}{B}{B}. Don't crack the Scalding Tarn,
+since you will want to know what's in your new hand before you decide what land
+to fetch.
 
 An important thing to keep in mind, on which has been alluded to but mostly
 glossed over so far, is that Echo draws your opponent a new hand, and recycles
@@ -107,7 +108,7 @@ more non-deterministic lines with PiF, flashing back cantrips to try to find
 another Wish. Draw-4 spells like Infernal Contract can be powerful value engines
 with Past in Flames, letting you see several more extra cards than cantrips
 alone could. Using Past in Flames is also mana hungry, and is uniquely hungry
-for {{R}}, since you need it for 2 Wishes and PiF itself. Keep this in mind when
+for {R}, since you need it for 2 Wishes and PiF itself. Keep this in mind when
 considering a PiF line.
 
 A few quick notes on other alternative storm engine options that DON'T see play
@@ -164,18 +165,18 @@ hand. Perhaps your hand looks like this:
 
 Maybe you have a couple lands on board. If your opponent is threatening lethal
 damage, you need to go all in. Cast all your mana spells, then finally Ponder
-holding priority and crack the LEDs for {{UUURRR}}. If you find a Burning Wish,
-you'll be able to cast Tendrils with storm count 9, which might be enough. If
-you find more cantrips you can cast them to dig deeper and Storm harder. The
-point is that you simply aren't winning unless you go all in, but DDFT affords
-you the possibility to win with a hand like that. Though this is a simplistic
-example, knowing when to take the risk is a skill you must learn. To go a little
-deeper on this idea, imagine that Ponder was an Infernal Contract, and your life
-total was not yet in danger, but would be if you cast the Contract. Do you go
-for it? There are a lot of other factors at play here, like what interaction
-your opponent could have, but in general you'll be better off going for it.
-Waiting and giving your opponent a chance to draw something new and useful is
-rarely worthwhile in a spot like this.
+holding priority and crack the LEDs for {U}{U}{U}{R}{R}{R}. If you find a
+Burning Wish, you'll be able to cast Tendrils with storm count 9, which might be
+enough. If you find more cantrips you can cast them to dig deeper and Storm
+harder. The point is that you simply aren't winning unless you go all in, but
+DDFT affords you the possibility to win with a hand like that. Though this is a
+simplistic example, knowing when to take the risk is a skill you must learn. To
+go a little deeper on this idea, imagine that Ponder was an Infernal Contract,
+and your life total was not yet in danger, but would be if you cast the
+Contract. Do you go for it? There are a lot of other factors at play here, like
+what interaction your opponent could have, but in general you'll be better off
+going for it. Waiting and giving your opponent a chance to draw something new
+and useful is rarely worthwhile in a spot like this.
 
 ## The Beatdown Plan
 

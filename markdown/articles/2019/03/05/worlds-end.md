@@ -90,10 +90,11 @@ Now the nice thing about this card is the default Frenzy pile is very easy.
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
 
-1. Cast LED, from the top of your deck, crack for {{BBB}}
-2. Cast LED, from the top of your deck, crack for {{BBB}}
-3. Cast LED, from the top of your deck, crack for {{BBB}}
-4. Cast Tendrils from the top of your deck for 5 storm and have {{BBBBB}} left in pool
+1. Cast LED, from the top of your deck, crack for {B}{B}{B}
+2. Cast LED, from the top of your deck, crack for {B}{B}{B}
+3. Cast LED, from the top of your deck, crack for {B}{B}{B}
+4. Cast Tendrils from the top of your deck for 5 storm and have {B}{B}{B}{B}{B}
+   left in pool
 5. Cast Doomsday stack \[LED, LED, LED, ToA, DD\]
 6. Repeat as required
 
@@ -108,10 +109,10 @@ As per the example above:
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!Aetherflux Reservoir}} {{!DD}}</row>
 
-1. Cast LED, from the top of your deck, crack for {{BBB}}
-2. Cast LED, from the top of your deck, crack for {{BBB}}
-3. Cast LED, from the top of your deck, crack for {{BBB}}
-4. Cast AR from the top of your deck for {{BBBBB}} left in pool
+1. Cast LED, from the top of your deck, crack for {B}{B}{B}
+2. Cast LED, from the top of your deck, crack for {B}{B}{B}
+3. Cast LED, from the top of your deck, crack for {B}{B}{B}
+4. Cast AR from the top of your deck for {B}{B}{B}{B}{B} left in pool
 5. Cast Doomsday, gaining 6 life stack \[LED, LED, LED, DD, ?\]
 6. Repeat as required
 

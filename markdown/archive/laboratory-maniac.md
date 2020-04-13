@@ -40,15 +40,15 @@ Now let's look into what winning with Laboratory Maniac looks like in Doomsday.
 Assuming you have 1 Laboratory Maniac somewhere in your maindeck, the standard
 piles are:
 
-> SW in hand - {{BBB}} + {{1UU}}
+> SW in hand - {B}{B}{B} + {1}{U}{U}
 
 <row variant="pile">{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</row>
 
-> CB in play, SW in hand - {{BBB}} + {{B}}
+> CB in play, SW in hand - {B}{B}{B} + {B}
 
 <row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}</row>
 
-> 2 SW in hand - {{BBB}} + {{B}}
+> 2 SW in hand - {B}{B}{B} + {B}
 
 <row variant="pile">{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</row>
 
@@ -59,7 +59,7 @@ sufficient life left to live another turn, you might pass the turn waiting for
 your next upkeep as the last moment for your opponent to cast any removal, to
 which you can respond with CB, or win in your draw step. This is a common trick
 to beat a single removal spell that needs no modifications to the pile.
-Obviously, add {{U}} to the mana cost and subtract 2 life for each SW you don't
+Obviously, add {U} to the mana cost and subtract 2 life for each SW you don't
 have enough life for or when you have another cantrip instead. Many other
 variations are possible.
 
@@ -75,7 +75,7 @@ as it isn't as critical for playing through discard, and the piles are not as
 efficient. It is possible however, and so for the sake of completeness IC/LM
 piles will be touched upon.
 
-> Pre in hand - {{BBB}} + {{UUBBB}} or {{UBBBB}}
+> Pre in hand - {B}{B}{B} + {U}{U/B}{B}{B}{B}
 
 <row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</row>
 

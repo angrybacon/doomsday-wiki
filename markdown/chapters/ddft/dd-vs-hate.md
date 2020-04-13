@@ -40,7 +40,7 @@ One thing to consider is using a pass-the-turn pile. Lets say your opponent lets
 you resolve Doomsday but still has a Force of Will. You could use a
 pass-the-turn pile like this:
 
-> Ponder in hand - {{UUUB}}, 2 life
+> Ponder in hand - {U}{U}{U}{B}, 2 life
 
 <row variant="pile">{{!Tsz}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -56,7 +56,7 @@ casting lots of instants and sorceries. If you're playing multiple {{Street
 Wraith}}, a pile like this can completely invalidate Flusterstorm (assuming
 Doomsday resolves):
 
-> {{UU}}, 4 life
+> {U}{U}, 4 life
 
 <row variant="pile"> {{!SW}} {{!SW}} {{!TO}} {{!LP}} {{!LP}}</row>
 
@@ -71,7 +71,7 @@ What about something like Pyroblast? Ideas Unbound and Thassa's Oracle are both
 blue, so this poses some difficulty. Fortunately, the sideboard gives us some
 options to work with.
 
-> LED, BW in hand - {{BBB}} + {{1R}}, min. 12 life pre-DD - 9 Storm
+> LED, BW in hand - {B}{B}{B} + {1}{R}, minimum 12 life pre-DD - 9 Storm
 
 <row variant="pile"> {{!LED}} {{!LED}} {{!LP}} {{!SW}} {{!BW}}</row>
 
@@ -85,7 +85,7 @@ point here is that it is possible.
 How about Stifle? Stifle is unaffected by Veil of Summer, stops both ways you'd
 try to win (Oracle and storm), but it won't stop you from drawing your pile.
 
-> Ponder in hand - {{UUUB}}, 2 life
+> Ponder in hand - {U}{U}{U}{B}, 2 life
 
 <row variant="pile"> {{!IU}} {{!Dur}} {{!LED}} {{!SW}} {{!TO}}</row>
 
@@ -106,7 +106,7 @@ Doomsday may be all you need.
 
 ### Example 1
 
-> {{UU}}, 2 life
+> {U}{U}, 2 life
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
@@ -116,7 +116,7 @@ discard.
 
 ### Example 2
 
->  Echo, 1 other card in hand - {{0}}
+>  Echo, 1 other card in hand - {0}
 
 <row variant="pile"> {{!LED}} {{!LP}} {{!LP}} {{!TO}} {{!LP}}</row>
 
@@ -156,26 +156,26 @@ going off means you can ignore a Chalice, but doesn't help at all against the
 others. Removing it is an option but may not be possible in game 1, depending on
 your decklist. Let's look at piles that can work without artifacts.
 
-> Chalice on 0, Ponder in hand - {{BBB} + {{UUU}}, 4 life
+> Chalice on 0, Ponder in hand - {B}{B}{B} + {U}{U}{U}, 4 life
 
 <row variant="pile"> {{!SW}} {{!SW}} {{!TO}} {{!I}} {{!I}}</row>
 
 With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells.
 
-> Ponder in hand, land drop remaining - {{BBB}} + {{UUUU}}, 4 life
+> Ponder in hand, land drop remaining - {B}{B}{B} + {U}{U}{U}{U}, 4 life
 
 <row variant="pile"> {{!IU}} {{!I}} {{!TO}} {{!SW}} {{!I}}</row>
 
 This pile works without the need for Street Wraith. You never have to cycle it,
 that slot could be anything, but here it gets you to 0 cards in the deck. You
-can use a land drop to make {{U}} to help cast Oracle, but it still requires a
-ton of blue mana, making things difficult.
+can use a land drop to make {U} to help cast Oracle, but it still requires a ton
+of blue mana, making things difficult.
 
-> Ponder in hand, {{BBB}} + {{UBBBBR}} - 8 Storm
+> Ponder in hand, {B}{B}{B} + {U}{B}{B}{B}{B}{R} - 8 Storm
 
 <row variant="pile"> {{!IC}} {{!DR}} {{!DR}} {{!DR}} {{!BW}}</row>
 
-> Ponder in hand, {{BBB}} + {{UUUBR}}, 2 life - 7 Storm
+> Ponder in hand, {B}{B}{B} + {U}{U}{U}{B}{R}, 2 life - 7 Storm
 
 <row variant="pile"> {{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}}</row>
 
@@ -188,20 +188,20 @@ Chalice on 1 makes it tough to assemble your combo, since it turns off your
 cantrips, but it does very little to prevent you from winning if you can actualy
 cast Doomsday.
 
-> {{UU}}, 2 life
+> {U}{U}, 2 life
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
 The simplest pass-the-turn pile possible contains no 1-cost spells. You've seen
 this one before.
 
-> Echo, LED in hand - {{BBB}} - 10 Storm
+> Echo, LED in hand - {B}{B}{B} - 10 Storm
 
 <row variant="pile">{{!LP}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
 
 Echo piles can win with Tendrils without ever casting a 1-cost spell.
 
-> BW, LED in hand - {{BBB}} + {{1R}}, 12 - 9 Storm
+> BW, LED in hand - {B}{B}{B} + {1}{R}, 12 - 9 Storm
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!SW}} {{!BW}}</row>
 
@@ -215,7 +215,7 @@ Veil of Summer before going off you can just ignore it. This is the preferred
 method. For the sake of completeness, here is a pile that can work through a
 Chalice on 2.
 
-> Ponder in hand - {{BBB}} + {{UBBB}} - 7 Storm
+> Ponder in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!DR}} {{!ToA}}</row>
 
@@ -238,13 +238,13 @@ Pass-the-turn piles with Oracle are your best bet for playing through taxing
 effects. By giving yourself an untap step, you make it substantially easier to
 play through the tax.
 
-> Ponder in hand - {{2U}} with tax
+> Ponder in hand - {2}{U} with tax
 
 <row variant="pile">{{!LED}} {{!SW}} {{!TO}} {{!LP}} {{!LP}}</row>
 
-Pass the turn after Doomsday. Untap and draw LED. Cast it for {{1}}. Spend
-{{1U}} on Ponder, holding priority and crack LED for {{UUU}}. Draw Street
-Wraith, cycle it into Oracle, and win with 2 cards left.
+Pass the turn after Doomsday. Untap and draw LED. Cast it for {1}. Spend {1}{U}
+on Ponder, holding priority and crack LED for {U}{U}{U}. Draw Street Wraith,
+cycle it into Oracle, and win with 2 cards left.
 
 ### Trinisphere / Ethersworn Canonist / Deafening Silence
 
@@ -252,13 +252,13 @@ These types of effects make it difficult or impossible to cast more than 1 spell
 per turn. Trinisphere typically has this effect and even though it is not
 strictly the same effect, similar piles will work against all 3.
 
-> SW in hand - 4 life (+{{3}} vs Trinisphere)
+> SW in hand - 4 life ({3} versus Trinisphere)
 
 <row variant="pile">{{!LED}} {{!SW}} {{!TO}} {{!I}} {{!I}}</row>
 
 Pass the turn after Doomsday. Draw LED for turn, cast it, and cycle both Wraiths
 (making UUU with LED) to draw and play Oracle. Agianst Trinisphere, you'll need
-{{3}} to play LED, but then LED generates enough mana to cast Oracle. Against
+{3} to play LED, but then LED generates enough mana to cast Oracle. Against
 Canonist or Deafening Silence, you only cast 1 artifact and 1 creature, and both
 lockpieces permit you to cast 1 of each.
 
@@ -272,7 +272,7 @@ difficult to win the game by making you unable to draw through your pile. The
 key to both cards is that you can't draw more than 1 card per turn, meaning you
 can draw a card on your opponent's turn.
 
-> {{UUG}}
+> {U}{U}{G}
 
 <row variant="pile">{{!SW}} {{!VoS}} {{!TO}} {{!I}} {{!I}}</row>
 
@@ -298,7 +298,7 @@ isn't always going to work but it is worth trying.
 After sideboarding, if you have Abrupt Decay in your deck, you can use it to
 remove Counterbalance before going off.
 
-> Ponder, LED in hand - {{BUG}}
+> Ponder, LED in hand - {B}{U}{G}
 
 <row variant="pile">{{!AD}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -353,7 +353,7 @@ potentially win with a non-Doomsday storm kill. Ashiok will remove your
 graveyard as well, but the other 2 let you search it with Doomsday, meaning you
 can potentially play through them if you're lucky and able to get the cards you
 need in the grave. And of course in the case of Leonin Arbiter, you can always
-just pay {{2}} to ignore it.
+just pay {2} to ignore it.
 
 ### Surgical Extraction/Extirpate
 
@@ -363,7 +363,7 @@ well-timed Surgical suprise can mess up the order of a pile and make it very
 unlikely that you'll win. There are a few ways to mitigate the effect of
 Surgical though.
 
-> LED, Echo, 1 other card in hand - {{BBB}} + {{0}} - 10 Storm including
+> LED, Echo, 1 other card in hand - {B}{B}{B} + {0} - 10 Storm including
 > Surgical
 
 <row variant="pile">{{!DR}} {{!DR}} {{!LP}} {{!LP}} {{!BW}}</row>
@@ -382,7 +382,7 @@ second, they'll have an opportunity to Extract, and likewise with the Rituals.
 This next technique won't work against {{Extirpate}} due to Split Second but it
 can be effective at fighting Surgical Extraction
 
-> Ponder, Brainstorm in hand - {{BBB}} + {{UU}}, max. 4 life
+> Ponder, Brainstorm in hand - {B}{B}{B} + {U}{U}, maximum 4 life
 
 <row variant="pile">{{!LED}} {{!Pnd}} {{!SW}} {{!SW}} {{!TO}}</row>
 

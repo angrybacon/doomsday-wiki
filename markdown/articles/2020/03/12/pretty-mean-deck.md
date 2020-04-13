@@ -67,10 +67,10 @@ The very short answer is of course everyone's favourite fishy friend; {{Thassa's
 Oracle}}.
 
 Oracle has two key advantages that make it superior to {{Laboratory Maniac}}.
-The first is the mana cost. It may not seem like much going from {{2U}} to
-{{UU}} however when considering the resource constraints you normally face with
+The first is the mana cost. It may not seem like much going from {2}{U} to
+{U}{U} however when considering the resource constraints you normally face with
 the deck such as {{Daze}}, {{Wasteland}} or {{Thalia, Guardian of Thraben}}
-having a spare {{U}} can mean a lot.
+having a spare {U} can mean a lot.
 
 The second key advantage is being able to win the game without having to draw a
 card in the process. Laboratory Maniac has a window of opportunity whereby your
@@ -105,7 +105,7 @@ success and offers a decent card advantage engine, especially given the high
 cantrip density the deck runs, even outside of the combo. It can then be used as
 a combo piece either simply as a draw two that digs three cards deep or can be
 used to synergise with {{Unearth}} allowing the playing of Oracle for the cost
-of a single {{B}}.
+of a single {B}.
 
 <row variant="pile">{{!Prt}} {{!Pnd}} {{!SW}} {{!LP}} {{!TO}}</row>
 
@@ -135,23 +135,23 @@ examples.
 You have {{Dark Ritual}}, {{Ponder}} and {{Doomsday}} in hand and Island, Swamp,
 and 3 x Underground Sea in play.
 
-1. Tap you lands for {{UUUUB}}
-1. Use {{B}} to cast Dark Ritual adding {{BBB}} to pool
-1. Use the {{BBB}} to cast Doomsday with {{UUUU}} in pool
+1. Tap you lands for {U}{U}{U}{U}{B}
+1. Use {B} to cast Dark Ritual adding {B}{B}{B} to pool
+1. Use the {B}{B}{B} to cast Doomsday with {U}{U}{U}{U} in pool
 
 Stack the following:
 
 <row variant="pile">{{!Prt}} {{!Pnd}} {{!SW}} {{!LP}} {{!TO}}</row>
 
-1. Use {{U}} to cast Ponder. Draw Predict
-1. Use {{UU}} to cast Predict targeting yourself
+1. Use {U} to cast Ponder. Draw Predict
+1. Use {U}{U} to cast Predict targeting yourself
 1. Name Ponder with Predict putting Ponder into your graveyard and drawing
    Street Wraith and Lotus Petal
 1. Cycle the Street Wraith paying two life. Draw Thassa's Oracle
-1. Cast Lotus Petal. Crack for {{U}} leaving {{UU}} in pool
-1. Use {{UU}} to cast Thassa's Oracle
+1. Cast Lotus Petal. Crack for {U} leaving {U}{U} in pool
+1. Use {U}{U} to cast Thassa's Oracle
 
-The entire line costs {{BBB}} + {{1UUU}} and requires a cantrip in hand.  
+The entire line costs {B}{B}{B} + {1}{U}{U}{U} and requires a cantrip in hand.  
 This is a very basic single cantrip pile.
 
 ### The Second Scenario to Consider
@@ -160,23 +160,23 @@ You have {{Doomsday}}, {{Street Wraith}}, {{Preordain}} in hand and Swamp and 3
 x Underground Sea in play.
 
 1. Tap your lands for {{UBBB}}
-1. Use {{BBB}} to cast Doomsday with {{U}} in pool
+1. Use {B}{B}{B} to cast Doomsday with {U} in pool
 
 Stack the following:
 
 <row variant="pile">{{!LED}} {{!Prt}} {{!Pnd}} {{!LP}} {{!TO}}</row>
 
-1. Use {{U}} to cast Preordain. Draw Lion's Eye Diamond
+1. Use {U} to cast Preordain. Draw Lion's Eye Diamond
 1. Cast Lion's Eye Diamond
 1. Cycle the Street Wraith paying two life. Hold priotity and crack Lion's Eye
-   Diamond for {{UUU}}. Draw Predict
-1. Use {{UU}} to cast Predict targeting yourself
+   Diamond for {U}{U}{U}. Draw Predict
+1. Use {U}{U} to cast Predict targeting yourself
 1. Name Ponder with Predict putting Ponder into your graveyard and drawing
    Thassa's Oracle and Lotus Petal
-1. Cast Lotus Petal. Crack for {{U}} leaving {{UU}} in pool
-1. Use {{UU}} to cast Thassa's Oracle
+1. Cast Lotus Petal. Crack for {U} leaving {U}{U} in pool
+1. Use {U}{U} to cast Thassa's Oracle
 
-The entire line costs {{BBB}} + {{U}} and requires two cantrips in hand.  
+The entire line costs {B}{B}{B} + {U} and requires two cantrips in hand.  
 This is a very basic double cantrip pile.
 
 ### The Final Scenario to Consider
@@ -184,27 +184,27 @@ This is a very basic double cantrip pile.
 You have {{Dark Ritual}}, {{Force of Will}}, {{Brainstorm}} and {{Doomsday}} in
 hand and Island, Swamp in play.
 
-1. Tap you lands for {{UB}}
-1. Use {{B}} to cast Dark Ritual adding {{BBB}} to pool
-1. Use the {{BBB}} to cast Doomsday with {{U}} in pool
+1. Tap you lands for {U}{B}
+1. Use {B} to cast Dark Ritual adding {B}{B}{B} to pool
+1. Use the {B}{B}{B} to cast Doomsday with {U} in pool
 
 Stack the following:
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Prt}} {{!LP}} {{!TO}}</row>
 
-1. Use {{U}} to cast Brainstorm
+1. Use {U} to cast Brainstorm
 1. Draw Lion's Eye Diamond, Street Wraith and Predict and replace back first
    Force of Will and then Predict on top
 1. Cast Lion's Eye Diamond
 1. Cycle the Street Wraith paying two life. Hold priotity and crack Lion's Eye
-   Diamond for {{UUU}}. Draw Predict
-1. Use {{UU}} to cast Predict targeting yourself
+   Diamond for {U}{U}{U}. Draw Predict
+1. Use {U}{U} to cast Predict targeting yourself
 1. Name Force of Will with Predict putting Force of Will into your graveyard and
    drawing Thassa's Oracle and Lotus Petal
-1. Cast Lotus Petal. Crack for {{U}} leaving {{UU}} in pool
-1. Use {{UU}} to cast Thassa's Oracle
+1. Cast Lotus Petal. Crack for {U} leaving {U}{U} in pool
+1. Use {U}{U} to cast Thassa's Oracle
 
-The entire line costs {{BBB}} + {{U}} and requires Brainstorm and one additional
+The entire line costs {B}{B}{B} + {U} and requires Brainstorm and one additional
 card in hand.  
 This is a very basic Brainstorm pile.
 
@@ -212,8 +212,8 @@ Feel free to have a go at goldfishing similar lines!
 
 ## *Okay, I'm interested! What list should I try?*
 
-Currently there seem to be two main styles of play; Esper {{UBW}} and BUG
-{{BUG}}.
+Currently there seem to be two main styles of play; Esper {U}{B}{W} and BUG
+{B}{U}{G}.
 
 BUG was the first iteration and the main offer is main deck {{Veil of Summer}}
 along with sideboard options like {{Abrupt Decay}} for problem permanents or

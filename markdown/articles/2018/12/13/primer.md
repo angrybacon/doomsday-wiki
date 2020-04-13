@@ -96,7 +96,7 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 
 #### Basic Piles
 
-> Cantrip in hand - {{BBB}} + {{UBBB}} - 7 Storm
+> Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!IC}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
 
@@ -113,7 +113,7 @@ pile, and you have an LED to make mana for the Draw4. That's 4 storm, plus 5
 from the pile makes you 1 short. Fortunately you can squeeze that 10th storm out
 of your pile with a slight modification:
 
-> Cantrip in hand - {{BBB}} + {{UBBB}} - 8 Storm
+> Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 8 Storm
 
 <row variant="pile">{{!IC}} {{!LP}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
@@ -125,7 +125,7 @@ Bauble is in the deck. Notably, this pile does not dodge graveyard hate. If you
 need an extra storm from your pile and need to dodge gravehate, you can do it
 for 1 extra mana of any color:
 
-> Cantrip in hand - {{BBB}} + {{1UBBB}} - 8 Storm
+> Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
 <row variant="pile">{{!IC}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
@@ -145,23 +145,23 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 **IC in hand used to draw into pile**
 
-> IC in hand - {{BBB}} + {{BBB}} - 7 Storm
+> IC in hand - {B}{B}{B} + {B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!LP}} {{!DR}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
-> IC in hand - {{BBB}} + {{BBB}} - 8 Storm
+> IC in hand - {B}{B}{B} + {B}{B}{B} - 8 Storm
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!CB}} {{!BW}}</row>
 
 **Think the opponent is being cute and sandbagging an answer to Tendrils?**
 
-> Cantrip in hand - {{BBB}} + {{UBBBB}} - 7 Storm
+> Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!Dur}} {{!ToA}}</row>
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
 
-> Cantrip in hand - {{BBB}} + {{UUBBB}} - 7 Storm
+> Cantrip in hand - {B}{B}{B} + {U}{U}{B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!CoV}} {{!ToA}}</row>
 
@@ -169,13 +169,13 @@ Note that this only works post board since CoV isn't in the maindeck.
 
 **Brainstorm and IC in hand**
 
-> BS and IC in hand - {{BBB}} + {{UB}} - 8 Storm
+> BS and IC in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
 <row variant="pile">{{!DR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
 
 **Brainstorm and ToA in hand**
 
-> BS and ToA in hand - {{BBB}} + {{UB}} - 8 Storm
+> BS and ToA in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!DR}}</row>
 
@@ -191,7 +191,7 @@ pass-the-turn pile is possible and comes up occasionally. Knowing what it takes
 to execute one could save your ass. This is the first PTT pile I was able to
 come up with in this new list:
 
-> {{1BBBB}} - 11 Storm
+> {1}{B}{B}{B}{B} - 11 Storm
 
 <row variant="pile">{{!IC}} {{!Rain}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
@@ -211,7 +211,7 @@ upwards of 20 copies of ToA if your opponent has an unusually high life total.
 
 Here is another potential pass-the-turn pile:
 
-> {{BBBBRR}} - 8 Storm
+> {B}{B}{B}{B}{R}{R} - 8 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</row>
 

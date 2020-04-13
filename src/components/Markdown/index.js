@@ -4,6 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 import Typography from '@material-ui/core/Typography';
+import mana from '../../tools/mana';
 import Decklist from '../Decklist';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
@@ -18,7 +19,7 @@ import ThematicBreak from './renderers/ThematicBreak';
 import useStyles from './styles';
 
 
-export default function Markdown({ className, source }) {
+export default function Markdown({ className, source, ...rest }) {
 
   const classes = useStyles();
 
@@ -52,7 +53,10 @@ export default function Markdown({ className, source }) {
         shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
       },
       {
-        processNode: () => React.createElement(Mana),
+        processNode: ({ attribs }) => React.createElement(Mana, {
+          loyalty: attribs.loyalty,
+          symbol: attribs.symbol,
+        }),
         shouldProcessNode: ({ name }) => name === 'mana',
       },
       {
@@ -79,8 +83,9 @@ export default function Markdown({ className, source }) {
                 className={className}
                 escapeHtml={false}
                 renderers={renderers}
-                source={source}
-                component={ReactMarkdown} />
+                source={mana.replace(source)}
+                component={ReactMarkdown}
+                {...rest} />
   );
 }
 

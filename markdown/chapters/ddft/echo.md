@@ -25,16 +25,17 @@ scenario, the 7th card is Lion's Eye Diamon, which you will crack to both
 generate mana for the flashback cost on Echo, and also to deposit it into your
 graveyard.
 
-> LED, Echo in hand - {{BBB}} - 10 Storm
+> LED, Echo in hand - {B}{B}{B} - 10 Storm
 
 <row variant="pile">{{!LP}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
 
 1. Cast Doomsday and build the pile described
-2. Cast LED and activate to to make {{UUU}}
+2. Cast LED and activate to to make {U}{U}{U}
 3. Use that mana to flashback Echo of Eons
 4. Draw the 7 remaining cards
 5. Cast all 3 LEDs and the 2 Petals
-6. Cast Burning Wish, holding priority to crack at least 2 LEDs for {{BBBBBB}}
+6. Cast Burning Wish, holding priority to crack at least 2 LEDs for
+   {B}{B}{B}{B}{B}{B}
 7. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
    opponent
 
@@ -49,7 +50,7 @@ now we will pretend this isn't a factor and simply focus on how the piles work.
 
 ### Example 2
 
-> Echo, Ponder in hand - {{BBB}} + {{U}}
+> Echo, Ponder in hand - {B}{B}{B} + {U}
 
 <row variant="pile">{{!LED}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -64,7 +65,7 @@ take a look at an example.
 
 ### Example 1
 
-> Brainstorm, 2 useless cards in hand - {{BBB}} + {{U}} - 9+ Storm
+> Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
 <row variant="pile">{{!EoE}} {{!LED}} {{!LED}} {{!Ponder}} {{!BW}}</row>
 
@@ -83,7 +84,7 @@ wish for Tendrils.
 Sometimes it is tough to avoid a bit of non-determinism when you have multiple
 extra cards in hand.
 
-> LED, Echo, and 2 useless cards in hand - {{BBB}}
+> LED, Echo, and 2 useless cards in hand - {B}{B}{B}
 
 <row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pnd}} {{!TO}}</row>
 
@@ -104,7 +105,7 @@ are good enough that you should take the chance almost every time.
 Echo can be used in manner similar to Brainstorm, to move cards in your hand
 into the pile.
 
-> LED, Echo, Oracle in hand - {{BBB}}
+> LED, Echo, Oracle in hand - {B}{B}{B}
 
 <row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pnd}} {{!Tsz}}</row>
 
@@ -120,7 +121,7 @@ able to cast the discard spell for protection before casting Oracle.
 It is possible to use multiple Echoes to build very high storm counts, enabling
 you to kill with {{Grapeshot}}
 
-> LED, Echo, LP in hand - {{BBB}} + {{R}} - 10 + 12 Storm
+> LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 
 <row variant="pile">{{!EoE}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
 
