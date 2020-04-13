@@ -11,8 +11,8 @@ new players gravitating towards our favourite {B}{B}{B} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
 people either interested, or starting off playing {{Doomsday}}. I had hoped to
 at least start answering many of the questions [in my first
-article](/articles/2020/03/12/pretty-mean-deck/), which you should really have
-a read of before going through this one, however it seems I didn't touch on many
+article](/articles/2020/03/12/pretty-mean-deck/), which you should really have a
+read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
 1. The different Doomsday archetypes
@@ -70,10 +70,11 @@ deck that can play a much longer game if required.
 The deck normally incorporates some sort of raw card advantage engine such as
 {{Ideas Unbound}}, {{Act on Impulse}}, {{Three Wishes}} or {{Cruel Bargain}} to
 enable drawing into the Doomsday pile. {{Burning Wish}} has been used often to
-enable additional pseudo copies of Doomsday and newer cards like {{Echo of
-Eons}} have been incorporated in lists too. The aim of the deck is to kill via a
-Doomsday pile with lethal {{Tendrils of Agony}} or {{Thassa's Oracle}} or a
-natural Tendrils storm kill without Doomsday. See an example pile below:
+enable additional pseudo copies of Doomsday and newer cards like
+{{Echo of Eons}} have been incorporated in lists too. The aim of the deck is to
+kill via a Doomsday pile with lethal {{Tendrils of Agony}} or
+{{Thassa's Oracle}} or a natural Tendrils storm kill without Doomsday. See an
+example pile below:
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pn}} {{!BW}}</row>
 
@@ -117,14 +118,14 @@ conditions either. An example pile is below:
 
 <row variant="pile">{{!Pd}} {{!Pn}} {{!EoA}} {{!LED}} {{!TO}}</row>
 
-**Note**: At the time of writing this article, this variant is the one having most
-success in tournaments.
+**Note**: At the time of writing this article, this variant is the one having
+most success in tournaments.
 
 ## 2. Card Choices
 
 One thing newer players always ask is "what is the standard list being played".
 This is a difficult question to answer due to the flexibility of the deck to
-incorporate different cards and play different strategies / elements. Pilot
+incorporate different cards and play different strategies/elements. Pilot
 preference can also feature heavily meaning where one person may be having
 success with one style of list, another person might be doing the same with a
 completely different style.
@@ -153,17 +154,17 @@ copies in the deck up to 7 (3 DD, 4 BW).
 There are a number of other cards that can also fall into this category
 alongside {{Burning Wish}} as cards that are basically designed to find
 {{Doomsday}} to win. These include, but are not limited to, the aforementioned
-{{Burning Wish}}, {{Lim-Dûl's Vault}} and {{Wishclaw Talisman}}. They are mostly
-there to increase your Doomsday count beyond 4 as it is normally the card that
-needs to resolve to enable you to win the game. {{Experimental Frenzy}} also
-falls under this category as it generally counts as a card that will normally
-win you the game if it resolves.
+{{Burning Wish}}, {{Lim-Dûl's Vault}} and {{Wishclaw Talisman}}. They are
+mostly there to increase your Doomsday count beyond 4 as it is normally the card
+that needs to resolve to enable you to win the game. {{Experimental Frenzy}}
+also falls under this category as it generally counts as a card that will
+normally win you the game if it resolves.
 
 A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
-<row variant="centered">{{!DD}}  {{!EF}}</row>
+<row variant="centered">{{!DD}} {{!EF}}</row>
 
 ### 2.2 Mana Acceleration and Fixing
 
@@ -447,7 +448,7 @@ in depth discussion as to what the different colour splashes bring to the table
 in terms of tools.
 
 **DDFT** Normally base {U}{B}{R} with the option to splash {W} or {G}.  
-**DDEFT** Normally base {U}{B}{R}, unlikley to run splash colours.  
+**DDEFT** Normally base {U}{B}{R}, unlikely to run splash colours.  
 **Meandeck** Normally {U}{B}{G} or {U}{B}{W} with the option to splash {W}, {R}
 or {G}.
 
@@ -543,7 +544,7 @@ actually part of the resolution. You will not lose your life for putting
 Doomsday on the stack! Despite what the colon present may imply, the resolution
 of the card is *not* an activated ability. I have had an opponent before who
 read my card and asked a nearby judge "can I name this card with
-{{Pithing Needle}}" to which the Judge quite correctly replied: "Yes". My
+{{Pithing Needle}}" to which the judge quite correctly replied: "Yes". My
 opponent then proceeded to play said {{Pithing Needle}} on the card and was
 quite put out that it did not work the way they had hoped it would.
 

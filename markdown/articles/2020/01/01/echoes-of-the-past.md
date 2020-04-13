@@ -75,7 +75,7 @@ of the following examples, assume you opponent cannot interact.
 **Hand:** Dark Ritual, Doomsday, Doomsday, LED, Echo of Eons  
 **Board:** Swamp, Island  
 You Ritual into Doomdsay and construct the following pile: \[LED, Petal, Petal,
-Ponder, Burning Wish_]. Crack LED for {U}{U}{U}. Flashback Echo. At this point,
+Ponder, Burning Wish\]. Crack LED for {U}{U}{U}. Flashback Echo. At this point,
 there are 8 cards left to draw from for Echo, meaning you won't draw one, but
 there is no way to fail because if you don't draw the Burning Wish, you can
 Ponder for it, and if you do draw it, you'll always have the mana to cast it and

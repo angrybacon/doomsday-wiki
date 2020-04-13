@@ -3,11 +3,11 @@ title: Limited Numbers
 ---
 
 This is a generic title. This section discusses all cards that selectively lock
-off a certain CMC cost of a spell. This can include things like {{Chalice of the
-Void}}, {{Sanctum Prelate}} or non-permanent hate such as {{Spell Snare}}. There
-are some CMCs the deck needs to be able to function, and some that are
-completely optional. Here we shall explore the relevancy these cards have
-against us and some strategies to face them.
+off a certain CMC cost of a spell. This can include things like
+{{Chalice of the Void}}, {{Sanctum Prelate}} or non-permanent hate such as
+{{Spell Snare}}. There are some CMCs the deck needs to be able to function, and
+some that are completely optional. Here we shall explore the relevancy these
+cards have against us and some strategies to face them.
 
 For each value examples will be given on what hate you might face and how to get
 around the listed limitation.
@@ -47,7 +47,7 @@ The general concept to remember is that our main method of fast mana generation
 after our 0 cost artifacts is DR. This means we need both {B} to enable the
 casting of these rituals and also {R} available to cast BW at the end.
 Alternatively if you are aiming for a LM pile you need {U}. As all our cantrips
-are not affected we can still easliy draw into what we need. If you happen to be
+are not affected we can still easily draw into what we need. If you happen to be
 playing with maindeck ToA then you don't need to worry about these additional
 colour requirements but for most DDFT lists you do.
 
