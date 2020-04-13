@@ -22,7 +22,7 @@ We will consider the following types of interaction for this section:
 
 ### Cheating on Devotion
 
-The first key point to state is when removal actualy matters. Thassa's Oracle
+The first key point to state is when removal actually matters. Thassa's Oracle
 has some key text on it that states the following:
 
 > *If X is greater than or equal to the number of cards in your library, you win
@@ -68,7 +68,7 @@ missing on a couple Devotion to {U}. That's why it's important to try and
 consume the entirety of your pile before going for it whenever you can,
 especially if your opponent is likely to hold removal as you go off.
 
-With enough mana, and other relevant permanents in your deck, you can utitlise
+With enough mana, and other relevant permanents in your deck, you can utilise
 extra potential Devotion to {U} to help bolster your effect. Cards like Baleful
 Strix, Counterbalance, Snapcaster Mage or even Teferi, Time Raveler are a few
 examples.
@@ -313,7 +313,7 @@ the pile cost by {1}, {U} or {S}.
 
 This category is one of the hardest to fight through effectively as they cause
 both delay and prevention of most of the piles we want to use. Leovold, Emissary
-of Trest, Narset, Parter of Veils and Spirit of the Labrynth all fall under this
+of Trest, Narset, Parter of Veils and Spirit of the Labyrinth all fall under this
 heading. The easiest way to deal with them is of course removal however that is
 not always viable, especially in game 1. Another way is to simply pass the turn
 a number of times using the sorcery speed cantrips on your turn and the instant
@@ -362,7 +362,7 @@ consider needing to play around like Field of Ruin however this is a bit too
 niche to consider is most matches. The primary concern is in fact a card that is
 very prevalent in Legacy; Surgical Extraction.
 
-Upon sucessfully resolving a Doomsday, assuming no cards like Leyline of the
+Upon successfully resolving a Doomsday, assuming no cards like Leyline of the
 Void are present, there will be one card in your graveyard and that will be the
 copy of Doomsday itself. This is a prime target for an opposing Surgical in an
 attempt to mess up the ordering of a Doomsday pile as you try and *go off* in
@@ -370,7 +370,7 @@ one turn. When the surgical is used can depend on the opponent but if they wait
 in response to a Predict for example it can really mess things up.
 
 You can build piles that are either resilient to Surgical, giving decent odds of
-suceeding despite the shuffle, or even immune to it. A big part of when the
+succeeding despite the shuffle, or even immune to it. A big part of when the
 opponent casts the Surgical can depend on what spell you are using to draw into
 a pile. Let us take the following scenario:
 
@@ -381,7 +381,7 @@ a pile. Let us take the following scenario:
 If the Cantrip used to *crack* into the pile is something like an Astrolabe or a
 Street Wraith then the opponent is likely to Surgical right away meaning you
 have a 20% chance to draw into the desired Ideas Unbound or a 5% chance to draw
-Edge to then Cycle immediately into Ideas Unbound (25% sucess rate chance in
+Edge to then Cycle immediately into Ideas Unbound (25% success rate chance in
 total). If using another cantrip, the opponent still may Surgical however the
 odds of you finding what you need (IU) are dramatically increased. See below a
 table that shows the percentage of successfully finding either the IU itself or
@@ -474,7 +474,7 @@ Consider the following:
 <row variant="pile">{{!IU}} {{!TS}} {{!LP}} {{!LP}} {{!TO}}</row>
 
 Assuming you had a cantrip ready to *dig* into the pile, you can use it to try
-and use it to either preemptively bait the Trap or to enable digging one deeper
+and use it to either pre-emptively bait the Trap or to enable digging one deeper
 so that you can lead on Thoughtseize the next turn.
 
 ### Thought Scour / Predict
@@ -484,7 +484,7 @@ Breach era is gone however it still can show up in rogue brews from time to
 time. Predict is a card advantage spell played by both Miracles and Doomsday
 pilots. Both Thought Scour and Predict can target any player and so either can
 mess up your piles at instant speed, milling a key piece in response to a
-cantrip or potentially forcing you to commit unknowing suicide by making your
+cantrip or potentially forcing you to unknowingly *deck* yourself by making your
 Ideas Unbound suddenly lethal through decking. You can try to take similar
 considerations to when facing Grindstone in either baiting the known spell or
 taking a bit more time to play around it.
@@ -495,7 +495,7 @@ These only need to be considered when building a Pass the Turn pile. Jace is
 likely the most common one to face and is easily beaten by placing an otherwise
 innocuous cantrip as the top card. If the opponent *upticks* Jace then they
 cannot *hit* an integral piece if it's the second card down and even if they
-allow it to stay on top you can still execute the pile without hinderance.
+allow it to stay on top you can still execute the pile without hindrance.
 
 ### Vendilion Clique / Kolaghan's Command
 
@@ -506,7 +506,8 @@ LED however you can otherwise treat it like any other pile where you need to
 keep countermagic up. Clique is tricky when trying to utilise cards like Predict
 or Ideas Unbound but is relatively superfluous if executing something with just
 cantrips. You can also build a pile around it *if* you can predict when the
-opponent will use it however that can be tricky.
+opponent will use it however that can be tricky. Also be mindful of timing for
+your opponent being able to *snipe* an LED with the artifact destruction mode.
 
 ## Final Thoughts
 
