@@ -12,6 +12,8 @@ A DNS alias for the production address points to https://ddft.wiki.
 
 ** Contributing with Content
 
+*** Markdown
+
 The Markdown content is located under =markdown/=.
 
 - =appendices/= :: Extra-articles that serve as reference for new players and
@@ -27,6 +29,26 @@ The following directories automatically create new pages and routes whenever a
 new Markdown file is created: =appendices/=, =articles/=, =chapters/=.
 
 URLs follow the file paths. Follow existing conventions.
+
+*** Mana
+
+The Markdown supports a number of a shorthands in order to easily insert Mana
+symbols.
+
+#+BEGIN_SRC
+{W}{U}{B}{R}{G} {C} {S} {X}{Y}{Z} {0}{1}{2}{3} ... {20}
+{1}{U/B}{U/B} {U/P} {2/U}{2/U}{2/U} {X}{R} {tap} {+1}{+0}{-5}
+#+END_SRC
+
+[[/assets/mana-preview.png]]
+
+*** Scryfall
+
+You can link cards within content thanks to [[https://scryfall.com/][Scryfall]].
+Wrap a card's name with double curly braces for a simple link ={{Doomsday}}=.
+
+Add a =!= to insert a scan instead: ={{!Doomsday}}=. You can also specify the
+set: ={{!Doomsday|WTH}}=.
 
 ** Contributing with Code
 
