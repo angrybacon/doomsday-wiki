@@ -234,10 +234,10 @@ remove a limitation.
 ## Removal Choices
 
 With so many sets having seen print, there is now a veritable plethora of
-different removal options for getting rid of things like {{Chalice of the
-Void}}, {{Trinisphere}} and {{Thorn of Amethyst}} with many being able to get
-rid of multiple at the same time. See the [removal tables][removal-tables] for
-more details.
+different removal options for getting rid of things like
+{{Chalice of the Void}}, {{Trinisphere}} and {{Thorn of Amethyst}} with many
+being able to get rid of multiple at the same time. See the [removal
+tables][removal-tables] for more details.
 
 ## Summary
 

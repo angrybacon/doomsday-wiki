@@ -97,9 +97,9 @@ Cast your LEDs, then Wish for ToA.
 This pile will require a little bit of luck. Ritual into Doomsday and construct
 the following pile: \[LED, LED, Echo, LED, Burning Wish\]. Cast Brainstorm to
 draw 2x LED and Echo. Put back any 2 cards besides the three you just drew. Cast
-the LEDs, crack them for {{UUURRR}}. Flashback the Echo. Now you will draw 7
-cards from 9 remaining. You need to draw 2 LEDs and the Burning Wish to win. By
-my calculation this has around a 70% chance of happening. Good odds, but
+the LEDs, crack them for {U}{U}{U}{R}{R}{R}. Flashback the Echo. Now you will
+draw 7 cards from 9 remaining. You need to draw 2 LEDs and the Burning Wish to
+win. By my calculation this has around a 70% chance of happening. Good odds, but
 non-deterministic. As an exercise for the reader, try to think if there may be a
 way to modify the pile to improve your success rate.
 

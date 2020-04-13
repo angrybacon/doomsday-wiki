@@ -30,7 +30,7 @@ following hand:
 
 Ideally, you can play out your mana artifacts, cast Veil, and then the Dark
 Ritual. Cast Burning Wish holding priority, and crack the LED for {R}{R}{R}.
-Along with the {{BB}} leftover from the Ritual, you have enough to cast Empty
+Along with the {B}{B} leftover from the Ritual, you have enough to cast Empty
 the Warrens to make 14 Goblins. Killing like this is extremely simple, but do
 not underestimate its effectiveness. In fact, if your hand looked like this on
 turn 1, you should seriously consider skipping the Veil and jamming Empty the
@@ -68,7 +68,7 @@ When going off with Echo of Eons, mana is going to be your biggest constraint.
 This deck does not play as many free mana sources as a deck like TES, so you
 typically want as much mana floating as possible after casting Echo. While you
 can theoretically win with no mana floating, it is simply unlikely. Ideally,
-you'll have access to at least {{UBR}}, so you can cast rituals, you have red
+you'll have access to at least {U}{B}{R}, so you can cast rituals, you have red
 for Burning Wish, and blue in case you need to cantrip to find more mana or
 Burning Wish. Keep in mind that you are likely to draw a land, so if you have a
 land drop you can use this to generate mana after Echo.
@@ -165,18 +165,18 @@ hand. Perhaps your hand looks like this:
 
 Maybe you have a couple lands on board. If your opponent is threatening lethal
 damage, you need to go all in. Cast all your mana spells, then finally Ponder
-holding priority and crack the LEDs for {{UUURRR}}. If you find a Burning Wish,
-you'll be able to cast Tendrils with storm count 9, which might be enough. If
-you find more cantrips you can cast them to dig deeper and Storm harder. The
-point is that you simply aren't winning unless you go all in, but DDFT affords
-you the possibility to win with a hand like that. Though this is a simplistic
-example, knowing when to take the risk is a skill you must learn. To go a little
-deeper on this idea, imagine that Ponder was an Infernal Contract, and your life
-total was not yet in danger, but would be if you cast the Contract. Do you go
-for it? There are a lot of other factors at play here, like what interaction
-your opponent could have, but in general you'll be better off going for it.
-Waiting and giving your opponent a chance to draw something new and useful is
-rarely worthwhile in a spot like this.
+holding priority and crack the LEDs for {U}{U}{U}{R}{R}{R}. If you find a
+Burning Wish, you'll be able to cast Tendrils with storm count 9, which might be
+enough. If you find more cantrips you can cast them to dig deeper and Storm
+harder. The point is that you simply aren't winning unless you go all in, but
+DDFT affords you the possibility to win with a hand like that. Though this is a
+simplistic example, knowing when to take the risk is a skill you must learn. To
+go a little deeper on this idea, imagine that Ponder was an Infernal Contract,
+and your life total was not yet in danger, but would be if you cast the
+Contract. Do you go for it? There are a lot of other factors at play here, like
+what interaction your opponent could have, but in general you'll be better off
+going for it. Waiting and giving your opponent a chance to draw something new
+and useful is rarely worthwhile in a spot like this.
 
 ## The Beatdown Plan
 

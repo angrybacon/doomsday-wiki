@@ -103,7 +103,7 @@ you pass 2 turns, you can win from literally nothing.
 
 ### Example 3
 
-> Plenty of lands/mana on board - {{BBBBUU}}
+> Plenty of lands/mana on board - {B}{B}{B}{B}{U}{U}
 
 <row variant="pile">{{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}} {{!TO}}</row>
 

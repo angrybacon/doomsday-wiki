@@ -172,9 +172,9 @@ This is an extremely busted hand, and among the best you can hope for against
 Fair Blue decks. You have 2 must-counter spells in hand, meaning you can *go
 off* through a Force, and you have plenty of mana so soft counters aren't a
 major concern. Play your land, cast your Petals then LEDs. Cast Wish, holding
-priority and cracking the LEDs for {{UUURRR}}. If they counter Wish, just Echo.
-If they don't, grab Empty the Warrens for 12 goblins. You'll even have enough
-mana to still cast Echo afterwards.
+priority and cracking the LEDs for {U}{U}{U}{R}{R}{R}. If they counter Wish,
+just Echo. If they don't, grab Empty the Warrens for 12 goblins. You'll even
+have enough mana to still cast Echo afterwards.
 
 ### Hand 3
 

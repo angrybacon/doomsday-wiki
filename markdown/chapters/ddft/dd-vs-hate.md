@@ -40,7 +40,7 @@ One thing to consider is using a pass-the-turn pile. Lets say your opponent lets
 you resolve Doomsday but still has a Force of Will. You could use a
 pass-the-turn pile like this:
 
-> Ponder in hand - {{UUUB}}, 2 life
+> Ponder in hand - {U}{U}{U}{B}, 2 life
 
 <row variant="pile">{{!TS}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -85,7 +85,7 @@ point here is that it is possible.
 How about Stifle? Stifle is unaffected by Veil of Summer, stops both ways you'd
 try to win (Oracle and storm), but it won't stop you from drawing your pile.
 
-> Ponder in hand - {{UUUB}}, 2 life
+> Ponder in hand - {U}{U}{U}{B}, 2 life
 
 <row variant="pile"> {{!IU}} {{!Dur}} {{!LED}} {{!SW}} {{!TO}}</row>
 
@@ -162,7 +162,7 @@ your decklist. Let's look at piles that can work without artifacts.
 
 With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells.
 
-> Ponder in hand, land drop remaining - {B}{B}{B} + {{UUUU}}, 4 life
+> Ponder in hand, land drop remaining - {B}{B}{B} + {U}{U}{U}{U}, 4 life
 
 <row variant="pile"> {{!IU}} {{!Isl}} {{!TO}} {{!SW}} {{!Isl}}</row>
 
@@ -272,7 +272,7 @@ difficult to win the game by making you unable to draw through your pile. The
 key to both cards is that you can't draw more than 1 card per turn, meaning you
 can draw a card on your opponent's turn.
 
-> {{UUG}}
+> {U}{U}{G}
 
 <row variant="pile">{{!SW}} {{!Veil}} {{!TO}} {{!Isl}} {{!Isl}}</row>
 
@@ -298,7 +298,7 @@ isn't always going to work but it is worth trying.
 After sideboarding, if you have Abrupt Decay in your deck, you can use it to
 remove Counterbalance before going off.
 
-> Ponder, LED in hand - {{BUG}}
+> Ponder, LED in hand - {B}{U}{G}
 
 <row variant="pile">{{!AD}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 

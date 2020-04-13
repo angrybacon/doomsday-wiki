@@ -25,7 +25,7 @@ putting both a fetchland and a fetch'able land inside the pile, you can
 effectively thin further down the size of your library as you move towards
 resolving TO.
 
-> Ponder, Island in hand - {{BBB}} + {{UUU}}
+> Ponder, Island in hand - {B}{B}{B} + {U}{U}{U}
 
 <row variant="pile">{{!BS}} {{!SW}} {{!SW}} {{!Polluted Delta|ONS}} {{!TO}}</row>
 
@@ -51,7 +51,7 @@ Sometimes you might want to go blind and force through removal with redundancy.
 notably countermagic. It lets you reanimate the TO when countered or when you
 name TO itself to Predict to dig into the pile.
 
-> Ponder, Ponder in hand - {{BBB}} + {{UU}}
+> Ponder, Ponder in hand - {B}{B}{B} + {U}{U}
 
 <row variant="pile">{{!LED}} {{!Pd}} {{!TO}} {{!Un}} {{!LP}}</row>
 

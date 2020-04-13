@@ -325,7 +325,7 @@ Although the deck is normally a *one card combo* there are certain other pieces
 needed to make it work it the most efficient way possible. These are often cards
 that may have limited usefulness outside of winning the game. Normally decks
 have 1-2 raw card advantage engine pieces {{Ideas Unbound}}, {{Act on Impulse}}
-or {{Predict}} to enable drawing into the Doomsday pile. In additon some number
+or {{Predict}} to enable drawing into the Doomsday pile. In addition some number
 of cards (0-4) to facilitate getting through the piles easier like
 {{Echo of Eons}}, {{Street Wraith}} or {{Edge of Autumn}} are run to make it
 more mana efficient to get the win.
@@ -338,7 +338,7 @@ thus should always be run, albeit to varying degrees. In storm builds it
 provides free storm and can enable the easy casting of {{Echo of Eons}}.
 
 Finally some sort of win condition is required. This can be in the form of
-{{Tendrils of Agony}}, {{Thassa's Oracle}} or even {{Collective Brutatlity}}.
+{{Tendrils of Agony}}, {{Thassa's Oracle}} or even {{Collective Brutality}}.
 {{Burning Wish}} can also take this spot as it can tutor up a Tendrils if
 needed. You want to run as few *dead* cards as possibly and generally the win
 condition is counted as such so you only want 1-2 of them.
@@ -386,20 +386,19 @@ Being a combo deck, Doomsday does not need to run as many lands as some of it's
 fairer {U} cousins. Depending on how fast you intend to try and win and how much
 other mana acceleration you are playing a deck should run typically 15-18 lands,
 usually around 16/17. This tends to be mostly comprised of a minimum of 4
-{{Polluted Delta}}, 4 other on-colour fetchlands or 4 {{Prismatic Vista}}, at
-least 1 {{Island}} / {{Snow-Covered Island}} and 1 {{Swamp}} / {{Snow-Covered
-Swamp}} and 1 {{Underground Sea}}. The rest is the a mix of additional Seas,
-some other U/X and B/X splash duals and additional basic lands as required.
-Astrolabe decks tend to run more basics compared to their non-snow cousins. Even
-with Astrolabes, you should consider at least 2 {{Underground Sea}}s in your
-list and probably 1 each of the primary splash colour U/X and B/X dual land.
+Polluted Delta, 4 other on-colour fetchlands or 4 Prismatic Vista, at least 1
+Island / Snow-Covered Island and 1 Swamp / Snow-Covered Swamp and 1 Underground
+Sea. The rest is the a mix of additional Seas, some other U/X and B/X splash
+duals and additional basic lands as required. Astrolabe decks tend to run more
+basics compared to their non-snow cousins. Even with Astrolabes, you should
+consider at least 2 Underground Seas in your list and probably 1 each of the
+primary splash colour U/X and B/X dual land.
 
-For example if you are running a Grixis list you should run 1
-{{Volcanic Island}} and 1 {{Badlands}} and tailor your fetches accordingly so 4
-Delta and 4 {{Scalding Tarn}} or 3 Tarn and 1 {{Bloodstained Mire}}. Being able
-to fetch a basic Island is more crucial than a basic swamp as that tends to
-allow you to get into the game in the first place and the majority of your deck
-is {U} based cantrips anyways.
+For example if you are running a Grixis list you should run 1 Volcanic Island
+and 1 Badlands and tailor your fetches accordingly so 4 Delta and 4 Scalding
+Tarn or 3 Tarn and 1 Bloodstained Mire. Being able to fetch a basic Island is
+more crucial than a basic swamp as that tends to allow you to get into the game
+in the first place and the majority of your deck is {U} based cantrips anyways.
 
 <row variant="centered">{{!Island|RAV}} {{!Underground Sea|LEB}} {{!Swamp|RAV}}</row>
 
