@@ -3,11 +3,11 @@ title: Limited Numbers
 ---
 
 This is a generic title. This section discusses all cards that selectively lock
-off a certain CMC cost of a spell. This can include things like {{Chalice of the
-Void}}, {{Sanctum Prelate}} or non-permanent hate such as {{Spell Snare}}. There
-are some CMCs the deck needs to be able to function, and some that are
-completely optional. Here we shall explore the relevancy these cards have
-against us and some strategies to face them.
+off a certain CMC cost of a spell. This can include things like
+{{Chalice of the Void}}, {{Sanctum Prelate}} or non-permanent hate such as
+{{Spell Snare}}. There are some CMCs the deck needs to be able to function, and
+some that are completely optional. Here we shall explore the relevancy these
+cards have against us and some strategies to face them.
 
 For each value examples will be given on what hate you might face and how to get
 around the listed limitation.
@@ -24,19 +24,19 @@ Diamond and Lotus Petal. Both are incredibly useful mana generating resources
 but neither are required to win. All that it means is more mana is needed
 post-DD to get us going.
 
-> SW in hand - {{BBB}} + {{UUBR}} - 6 Storm
+> SW in hand - {B}{B}{B} + {U}{U}{B}{R} - 6 Storm
 
 <row variant="pile">{{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}}</row>
 
-> CB in play, SW in hand - {{BBB}} + {{XBB}} - 7+ Storm
+> CB in play, SW in hand - {B}{B}{B} + {X}{B}{B} - 7+ Storm
 
 <row variant="pile">{{!DR}} {{!IC}} {{!DR}} {{!CB}} {{!ToA}}</row>
 
-> 2 SW in hand - {{BBB}} + {{BRR}} - 6 Storm
+> 2 SW in hand - {B}{B}{B} + {B}{R}{R} - 6 Storm
 
 <row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!DR}} {{!BW}}</row>
 
-> 2 SW in hand - {{BBB}} + {{UBR}}
+> 2 SW in hand - {B}{B}{B} + {U}{B}{R}
 
 <row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!LM}} {{!SW}}</row>
 
@@ -44,19 +44,19 @@ These piles have lost a lot of their power with the banning of Gitaxian Probe
 since the free draw effect utilized here does not count towards Storm count.
 
 The general concept to remember is that our main method of fast mana generation
-after our 0 cost artifacts is DR. This means we need both {{B}} to enable the
-casting of these rituals and also {{R}} available to cast BW at the end.
-Alternatively if you are aiming for a LM pile you need {{U}}. As all our
-cantrips are not affected we can still easliy draw into what we need. If you
-happen to be playing with maindeck ToA then you don't need to worry about these
-additional colour requirements but for most DDFT lists you do.
+after our 0 cost artifacts is DR. This means we need both {B} to enable the
+casting of these rituals and also {R} available to cast BW at the end.
+Alternatively if you are aiming for a LM pile you need {U}. As all our cantrips
+are not affected we can still easily draw into what we need. If you happen to be
+playing with maindeck ToA then you don't need to worry about these additional
+colour requirements but for most DDFT lists you do.
 
 CMC 0 basically only stops Engineered Explosives in terms of cards we can bring
 in to fight it. Anything else such as {{By Force}}, {{Hurkyl's Recall}} or
 similar can all deal with a Chalice on 0 with no issue and similarly,
 {{Massacre}}, {{Abrupt Decay}} and {{Pyroclasm}} can all easily deal with
 Sanctum Prelate. One thing to note is, should you by some means have a way to
-generate colourless mana, you can in fact play EE for {{1}} and it will resolve
+generate colourless mana, you can in fact play EE for {1} and it will resolve
 with 0 counter on due to the nature of Sunburst only counting coloured mana.
 
 ## 1 Mana Cost Spells
@@ -87,19 +87,19 @@ piles are a strong consideration. If passing the turn is not an option then
 wishing for a draw spell, using a draw spell already in hand or using something
 like Edge of Autumn to access the pile are all considerations.
 
-> Pass the turn - {{2BBBR}} - 7 Storm
+> Pass the turn - {2}{B}{B}{B}{R} - 7 Storm
 
 <row variant="pile">{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
 
-> BW in hand, CB in play, pass the turn - {{1R}} - 8 Storm
+> BW in hand, CB in play, pass the turn - {1}{R} - 8 Storm
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
 
-> BW in hand, CB in play - {{BBB}} + {{2R}} - 8 Storm
+> BW in hand, CB in play - {B}{B}{B} + {2}{R} - 8 Storm
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
-> BW in hand, CB in play - {{BBB}} + {{1R}} - 7 Storm
+> BW in hand, CB in play - {B}{B}{B} + {1}{R} - 7 Storm
 
 <row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</row>
 
@@ -118,11 +118,11 @@ if you are running a draw-3 option you should have no issues generating a simple
 double cantrip LM pile however if you require a BW Storm kill then you have to
 get rid of it. You can also ignore this limitation with maindeck ToA.
 
-> SW in hand, CB in play - {{BBB}} + {{X}} - 8+ Storm
+> SW in hand, CB in play - {B}{B}{B} + {X} - 8+ Storm
 
 <row variant="pile">{{!LED}} {{!AoI}} {{!ToA}} {{!LED}} {{!CB}}</row>
 
-> SW in hand - {{BBB}} + {{2UR}}
+> SW in hand - {B}{B}{B} + {2}{U}{R}
 
 <row variant="pile">{{!AoI}} {{!LED}} {{!BS}} {{!LM}} {{!Abandon Hope}}</row>
 
@@ -177,38 +177,38 @@ discussed simply incorporating these cards into piles to allow us to win.
 Obviously certain limitations will prevent you getting to these piles in the
 first place but these should still give you an idea of how to swap out pile
 elements for the required removal. For ease of clarity I shall present the use
-of {{Nature's Claim}} for it's unique mana cost of {{G}} which you can swap out
+of {{Nature's Claim}} for it's unique mana cost of {G} which you can swap out
 for the appropriate removal spell by substituting the mana cost accordingly.
 
-> SW and BW in hand - {{BBB}} + {{2RG}} - 8 Storm
+> SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
 
 <row variant="pile">{{!LED}} {{!NC}} {{!DR}} {{!LP}} {{!ToA}}</row>
 
-> BW and BS in hand, CB in play - {{BBB}} + {{UG}} - 9 Storm
+> BW and BS in hand, CB in play - {B}{B}{B} + {U}{G} - 9 Storm
 
 <row variant="pile">{{!NC}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</row>
 
-> SW and BW in hand - {{BBB}} + {{2RG}} - 7 Storm
+> SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 7 Storm
 
 <row variant="pile">{{!LED}} {{!NC}} {{!LED}} {{!SW}} {{!ToA}}</row>
 
-> Pass the turn, SW in hand - {{2UUG}}
+> Pass the turn, SW in hand - {2}{U}{U}{G}
 
 <row variant="pile">{{!NC}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
 
-> Pass the turn, SW in hand - {{1UUG}}
+> Pass the turn, SW in hand - {1}{U}{U}{G}
 
 <row variant="pile">{{!NC}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</row>
 
-> Pass the turn, SW in hand - {{2RG}}
+> Pass the turn, SW in hand - {2}{R}{G}
 
 <row variant="pile">{{!NC}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</row>
 
-> Pass the turn, LED in play - {{2G}}
+> Pass the turn, LED in play - {2}{G}
 
 <row variant="pile">{{!SW}} {{!IU}} {{!NC}} {{!SW}} {{!LM}}</row>
 
-> Pass the turn, LED in play - {{2UG}}
+> Pass the turn, LED in play - {2}{U}{G}
 
 <row variant="pile">{{!SW}} {{!AoI}} {{!NC}} {{!SW}} {{!LM}}</row>
 
@@ -219,25 +219,25 @@ preventing 1 CMC spells being cast is Chain of Vapor. This allows you to bounce
 your own 0 cost artifacts to further increase Storm count before using it to
 remove a limitation.
 
-> Pass the turn, SW in hand - {{UUU}} - 9 Storm
+> Pass the turn, SW in hand - {U}{U}{U} - 9 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!CoV}} {{!BW}}</row>
 
-> Pass the turn, LED in play - {{UUU}} - 8 Storm
+> Pass the turn, LED in play - {U}{U}{U} - 8 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!SW}} {{!CoV}} {{!BW}}</row>
 
-> Pass the turn, BW, SW and any 1 card in hand - {{UU}} - 9 Storm
+> Pass the turn, BW, SW and any 1 card in hand - {U}{U} - 9 Storm
 
 <row variant="pile">{{!SW}} {{!BS}} {{!LED}} {{!LED}} {{!CoV}}</row>
 
 ## Removal Choices
 
 With so many sets having seen print, there is now a veritable plethora of
-different removal options for getting rid of things like {{Chalice of the
-Void}}, {{Trinisphere}} and {{Thorn of Amethyst}} with many being able to get
-rid of multiple at the same time. See the [removal tables][removal-tables] for
-more details.
+different removal options for getting rid of things like
+{{Chalice of the Void}}, {{Trinisphere}} and {{Thorn of Amethyst}} with many
+being able to get rid of multiple at the same time. See the [removal
+tables][removal-tables] for more details.
 
 ## Summary
 

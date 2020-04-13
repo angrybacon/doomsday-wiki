@@ -25,7 +25,7 @@ over multiple turns, utilising your draw step as a way to *dig* into the pile.
 
 ## Single Cantrip + Predict Pile
 
-> {{BBB}} + {{1U}} + Cantrip
+> {B}{B}{B} + {1}{U} + Cantrip
 
 <row variant="pile">{{!Pd}} {{!Pn}} {{!LED}} {{!SW}} {{!TO}}</row>
 
@@ -33,12 +33,12 @@ Post-Doomsday, pick these 5 cards and form a pile with them. Draw into the
 Predict, either the same turn or by passing the turn to your opponent. Target
 yourself with Predict and name whatever you put in second position in order to
 draw both SW and LED (Ponder in the example displayed above). Play the LED and
-cycle SW whilst retaining priority. This lets you crack the LED for {{UUU}} and
-draw the TO for the win.
+cycle SW whilst retaining priority. This lets you crack the LED for {U}{U}{U}
+and draw the TO for the win.
 
 ## Single Cantrip + Ideas Unbound Pile
 
-> {{BBB}} + {{UU}} + Cantrip
+> {B}{B}{B} + {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 

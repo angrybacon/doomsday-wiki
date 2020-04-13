@@ -31,11 +31,11 @@ certain line of play.
 There are basically two variants to this pile. You either have a cantrip that
 draws a single card in hand ready to cast, or a {{Conjurer's Bauble}} in play.
 For the moment, the difference does not really matter and we'll just assume that
-you have a Ponder in hand and {{U}} to cast it.
+you have a Ponder in hand and {U} to cast it.
 
 #### Ideas Unbound
 
-> Cantrip in hand - {{BBB}} + {{UUU}} - 7 Storm
+> Cantrip in hand - {B}{B}{B} + {U}{U}{U} - 7 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
@@ -44,19 +44,19 @@ you have a Ponder in hand and {{U}} to cast it.
 3. Cast IU, draw LED, LED, SW
 4. Cast LED
 5. Cast LED
-6. Activate SW, hold priority crack LEDs for {{BBBRRR}}, draw BW
+6. Activate SW, hold priority crack LEDs for {B}{B}{B}{R}{R}{R}, draw BW
 7. Cast BW for ToA
 8. Cast ToA
 
-This pile has cost you {{BBB}} + {{UUU}} and 2 life and results in 7 Storm, that
-is only 14 lifeloss. Note that the {{UU}} for IU is often paid for by a Lion's
-Eye Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond
+This pile has cost you {B}{B}{B} + {U}{U}{U} and 2 life and results in 7 Storm,
+that is only 14 lifeloss. Note that the {U}{U} for IU is often paid for by a
+Lion's Eye Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond
 preceding the Doomsday you're already up to 18 lifeloss. Add in a Duress or an
 extra ritual beforehand and they're dead.  
 If you are low on life or need an extra storm, you'll can exchange the Street
-Wraith with a Ponder at the cost of 1 more {{U}} mana.
+Wraith with a Ponder at the cost of 1 more {U} mana.
 
-> Cantrip in hand - {{BBB}} + {{UUU}}
+> Cantrip in hand - {B}{B}{B} + {U}{U}{U}
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
@@ -72,7 +72,7 @@ matter, which obviously is great when you can't generate enough storm.
 
 #### Infernal Contract
 
-> Cantrip in hand - {{BBB}} + {{1UBBB}} - 8 Storm
+> Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
 <row variant="pile">{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
 
@@ -83,7 +83,7 @@ matter, which obviously is great when you can't generate enough storm.
 5. Cast BW, holding priority, then crack LEDs for BBBBBB
 6. Retrive ToA from your sideboard and cast it
 
-This pile costs {{BBB}} + {{1UBBB}}, requires you have at least 2 life
+This pile costs {B}{B}{B} + {1}{U}{B}{B}{B}, requires you have at least 2 life
 post-Doomsday, and results in 8 Storm. Like with Ideas Unbound, the mana cost
 for the Draw-4 can be - and often is - paid for by a Lion's Eye Diamond in
 response to the first cantrip.
@@ -92,34 +92,34 @@ response to the first cantrip.
 
 #### Ideas Unbound
 
-> Pn, Pn in hand - {{BBB}} + {{1UU}} - 9 Storm
+> Pn, Pn in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast a Ponder to draw LED
 3. Cast LED
-4. Cast the other Ponder, hold priority crack LED for {{UUU}}, draw IU
+4. Cast the other Ponder, hold priority crack LED for {U}{U}{U}, draw IU
 5. Cast IU, draw LP, LED, BW
 6. Cast LP
-7. Cast LED, crack LP for {{R}}
-8. Cast BW, hold priority crack LED for {{BBB}}, get ToA
+7. Cast LED, crack LP for {R}
+8. Cast BW, hold priority crack LED for {B}{B}{B}, get ToA
 9. Cast ToA
 
-This pile costs {{BBB}} + {{1UU}} to execute and results in 9 Storm. We use the
-second cantrip in hand to draw a Lion's Eye Diamond before executing the rest of
-the pile and use that Lion's Eye Diamond to pay for much of the rest of the
-pile. We basically turn our additional cantrip into a Lion's Eye Diamond with
-Doomsday.
+This pile costs {B}{B}{B} + {1}{U}{U} to execute and results in 9 Storm. We use
+the second cantrip in hand to draw a Lion's Eye Diamond before executing the
+rest of the pile and use that Lion's Eye Diamond to pay for much of the rest of
+the pile. We basically turn our additional cantrip into a Lion's Eye Diamond
+with Doomsday.
 
-> Pn, Pn in hand - {{BBB}} + {{UU}}
+> Pn, Pn in hand - {B}{B}{B} + {U}{U}
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast a Ponder to draw LED
 3. Cast LED
-4. Cast the other Ponder, hold priority crack LED for {{UUU}}, draw IU
+4. Cast the other Ponder, hold priority crack LED for {U}{U}{U}, draw IU
 5. Cast IU, draw LP, LP, TO
 6. Use the Petals to cast Oracle
 7. Oracle triggers with no cards left for the win
@@ -132,17 +132,17 @@ Doomsday, but no additional mana.
 
 #### Infernal Contract
 
-> CB, Pre in hand - {{BBB}} + {{2U}} - 9 Storm
+> CB, Pre in hand - {B}{B}{B} + {2}{U} - 9 Storm
 
 <row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Pre, draw LED
-3. Cast LED, crack it for {{BBB}}
+3. Cast LED, crack it for {B}{B}{B}
 4. Activate CB targeting LED, draw IC
 5. Cast IC, draw LED, LP, BW, LED
 6. Cast LED, LED, LP
-8. Cast BW, hold priority cracking LEDs for {{BBBBBB}}, getting ToA
+8. Cast BW, hold priority cracking LEDs for {B}{B}{B}{B}{B}{B}, getting ToA
 9. Cast ToA
 
 Double cantrip piles with Infernal Contract require a Conjurer's Bauble, since

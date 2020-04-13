@@ -17,14 +17,14 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 
 ## Brainstorm Available
 
-> {{BBB}} + Brainstorm + X
+> {B}{B}{B} + Brainstorm + X
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pd}} {{!LP}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back X then Predict on top
-1. Cast LED, cycle SW cracking LED for {{UUU}} and draw the Predict
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Predict
 1. Target yourself with Predict naming X and drawing the rest of the pile
-1. The Lotus Petal gives you a second {{U}} to cast TO with an empty library
+1. The Lotus Petal gives you a second {U} to cast TO with an empty library
 
 In the worked example above, you effectively turn the Brainstorm and the
 superfluous card into {{UUU}} plus a way to draw into your 2 mana draw spell, in
@@ -93,18 +93,18 @@ used.
 ## Free Cycler Available
 
 It may be you find yourself with all the tools in hand to perform a Brainstorm
-pile, but you don't have a spare {{U}} this time to cast the Brainstorm itself.
-If you have any free cycler in hand you can get around this by placing a Lotus
-Petal in first position of your pile. This works with a {{U}}-producing land as
+pile, but you don't have a spare {U} this time to cast the Brainstorm itself. If
+you have any free cycler in hand you can get around this by placing a Lotus
+Petal in first position of your pile. This works with a {U}-producing land as
 well if you have an available land drop that turn.
 
-> {{BBB}} + Brainstorm + Street Wraith + X
+> {B}{B}{B} + Brainstorm + Street Wraith + X
 
 <row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off of LP and put back X then Ponder
-1. Cast LED, cycle SW cracking LED for {{UUU}} and draw the Ponder
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder
 1. Ponder for TO
 1. Cast TO with the remaining mana from LED with 1 card left in your library
 

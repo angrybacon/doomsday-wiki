@@ -12,12 +12,12 @@ Lion's Eye Diamond. It can be included as a singleton copy to act as a
 replacement SDT element however it has some interesting properties when
 multiples are available in a deck.
 
-The most basic use of the card is of course simply as a cantrip that costs
-{{1}}. It can also be used as a free cantrip if already in play however this
-does of course result in less storm count being available. In any of the common
-piles that require a non-specialist cantrip (such as Brainstorm) this can be
-used instead of any others which is handy if you only have {{B}} post-DD for
-drawing into a pile.
+The most basic use of the card is of course simply as a cantrip that costs {1}.
+It can also be used as a free cantrip if already in play however this does of
+course result in less storm count being available. In any of the common piles
+that require a non-specialist cantrip (such as Brainstorm) this can be used
+instead of any others which is handy if you only have {B} post-DD for drawing
+into a pile.
 
 ## Storing a Draw With CB
 
@@ -26,7 +26,7 @@ a tool to draw cards when using LED.
 
 ### Example 1
 
-> SW in hand - {{BBB}} + {{1UU}}
+> SW in hand - {B}{B}{B} + {1}{U}{U}
 
 <row variant="pile">{{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}</row>
 
@@ -44,7 +44,7 @@ This also enables things like Double Doomsday piles.
 
 ### Example 2
 
-> CB in play, SW in hand - {{BBB}} + {{1UUR}} - 11 Storm
+> CB in play, SW in hand - {B}{B}{B} + {1}{U}{U}{R} - 11 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
 
@@ -73,11 +73,11 @@ other cards in hand we need.
 
 ### Example 1
 
-> CB in play, BW and SW in hand - {{BBB}} - 7 Storm
+> CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
-> CB in play, ToA and SW in hand - {{BBB}} - 6 Storm
+> CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
@@ -97,7 +97,7 @@ pass-the-turn pile. More on this in the [pass-the-turn section][pass-the-turn].
 
 ### Example 2
 
-> LED in play, ToA in hand - {{1BBB}} - 13 Storm
+> LED in play, ToA in hand - {1}{B}{B}{B} - 13 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}</row>
 
@@ -109,7 +109,7 @@ In this instance we can play ToA twice. We draw IC for our turn.
 4. Cast DR
 5. Cast CB
 6. Cast ToA for 6 Storm
-7. Crack LED for {{BBB}}
+7. Crack LED for {B}{B}{B}
 8. Crack CB targeting ToA, draw ToA
 9. Cast ToA for 7 storm
 
@@ -125,16 +125,16 @@ You can use the theory of retrieving a card above to help build your pile up.
 Five card decks do have limits even if we get to choose all five cards. CB
 allows you to extend that to a pseudo-six cards.
 
-> CB in play, Pre in hand - {{BBB}} + {{1U}} - 9 Storm
+> CB in play, Pre in hand - {B}{B}{B} + {1}{U} - 9 Storm
 
 <row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
 
 Normally double cantrip piles that use a draw-4 would mean that you draw
 yourself to death. However, with CB in the deck, you can use the same trick as
 with the IU pile. Use the Pre to draw into the pile. Cast and crack the LED for
-{{BBB}}. You then use the CB to send the LED to the bottom of your deck and draw
-IC. Using the mana from LED, you now can draw the rest of the pile: LED, LP, BW
-and LED, allowing you to storm to victory.
+{B}{B}{B}. You then use the CB to send the LED to the bottom of your deck and
+draw IC. Using the mana from LED, you now can draw the rest of the pile: LED,
+LP, BW and LED, allowing you to storm to victory.
 
 ## Using 2 CBs in a loop
 
@@ -143,11 +143,11 @@ of CB, especially in multiples. The more astute of you may have noticed one key
 inefficiency of two of the piles discussed already. I will copy them again here
 for convenience:
 
-> CB in play, BW and SW in hand - {{BBB}} - 7 Storm
+> CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
-> CB in play, ToA and SW in hand - {{BBB}} - 6 Storm
+> CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
 
@@ -158,17 +158,17 @@ What if we were to swap the GP in the piles with a CB?
 
 ### Example 1
 
-> CB in play, BW and SW in hand - {{BBB}} + {{X}} - 8+ Storm
+> CB in play, BW and SW in hand - {B}{B}{B} + {X} - 8+ Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</row>
 
-> CB in play, ToA and SW in hand - {{BBB}} + {{X}} - 9+ Storm
+> CB in play, ToA and SW in hand - {B}{B}{B} + {X} - 9+ Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</row>
 
 Suddenly the two piles look very different notation wise. Both now have a
-variable {{X}} value in their respective mana costs. We also see suddenly that
-the ToA pile, traditionally having a lower storm count than its BW cousin has
+variable {X} value in their respective mana costs. We also see suddenly that the
+ToA pile, traditionally having a lower storm count than its BW cousin has
 suddenly overtake it in terms of Storm count generated.
 
 This is because we can make use of a Bauble loop. Much like the historic looping
@@ -177,13 +177,13 @@ example:
 
 1. Cast Doomsday and build the first pile
 2. Activate SW, draw LED
-3. Cast LED, crack LED for {{UUU}}
+3. Cast LED, crack LED for {U}{U}{U}
 4. Crack CB targeting nothing, draw IU
 5. Cast IU, draw LED, LED and CB
 6. Cast CB
 7. Cast LED
 8. Cast LED
-9. Crack LEDs for {{BBBRRR}}
+9. Crack LEDs for {B}{B}{B}{R}{R}{R}
 10. Crack CB targeting BW, draw BW
 11. Cast BW targeting ToA
 12. Cast ToA
@@ -214,7 +214,7 @@ multiples, but this pile is a fine example of why you may want to.
 
 Pass the turn.
 
-> CB in play, ToA in hand - {{BBB}} + {{X1}} - 12+ Storm
+> CB in play, ToA in hand - {B}{B}{B} + {X}{1} - 12+ Storm
 
 <row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}</row>
 
@@ -222,14 +222,14 @@ Pass the turn.
 2. Pass the turn
 3. Draw LED for turn
 4. Cast LED
-5. Crack LED for {{BBB}}
+5. Crack LED for {B}{B}{B}
 6. Crack CB targeting LED, draw IC
 7. Cast IC, draw LED, LED, CB and LED
 8. Cast LED
 9. Cast LED
 10. Cast LED
 11. Cast CB
-12. Crack LEDs for {{BBB}} {{BBB}} {{BBB}}
+12. Crack LEDs for {B}{B}{B} {B}{B}{B} {B}{B}{B}
 13. Crack CB targeting CB, draw CB
 14. Cast CB
 15. Repeat steps 13 and 14 until you have 4 mana left in pool
@@ -262,7 +262,7 @@ the time a player will attempt to Surgical in response to you trying to draw
 into your Doomsday pile. If you can plan around this you should be able to
 nullify their Surgical.
 
-> CB in play, SW in hand -  {{BBB}} + {{UU}} - 6 Storm
+> CB in play, SW in hand -  {B}{B}{B} + {U}{U} - 6 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
 
