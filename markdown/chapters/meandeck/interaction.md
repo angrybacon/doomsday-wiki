@@ -313,14 +313,14 @@ the pile cost by {1}, {U} or {S}.
 
 This category is one of the hardest to fight through effectively as they cause
 both delay and prevention of most of the piles we want to use. Leovold, Emissary
-of Trest, Narset, Parter of Veils and Spirit of the Labyrinth all fall under this
-heading. The easiest way to deal with them is of course removal however that is
-not always viable, especially in game 1. Another way is to simply pass the turn
-a number of times using the sorcery speed cantrips on your turn and the instant
-speed free cyclers on the opponent's turn. Predict is quite useful in this
-scenario as, despite costing {1}{U} it allows you to *burn through* 2 cards from
-the stack. Something like the following may be useful facing an opposing Narset
-for example (spread over multiple turns):
+of Trest, Narset, Parter of Veils and Spirit of the Labyrinth all fall under
+this heading. The easiest way to deal with them is of course removal however
+that is not always viable, especially in game 1. Another way is to simply pass
+the turn a number of times using the sorcery speed cantrips on your turn and the
+instant speed free cyclers on the opponent's turn. Predict is quite useful in
+this scenario as, despite costing {1}{U} it allows you to *burn through* 2 cards
+from the stack. Something like the following may be useful facing an opposing
+Narset for example (spread over multiple turns):
 
 <row variant="pile">{{!Pn}} {{!Pd}} {{!EoA}} {{!Pn}} {{!TO}}</row>
 
