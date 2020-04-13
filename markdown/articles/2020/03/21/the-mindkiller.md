@@ -50,9 +50,9 @@ Let's go through it and discuss the dubious deckbuilding decisions I've made...
 
 <row variant="centered">{{!GM}} {{!CoB}}</row>
 
-Your mana clearly needs to make {{R}} and {{B}}. It also has to make {{G}}, at
-least from the sideboard, though previous iterations of this deck played
-{{Veil of Summer}} maindeck. Occasionally you need to make {{U}}. Creating a
+Your mana clearly needs to make {R} and {B}. It also has to make {G}, at least
+from the sideboard, though previous iterations of this deck played
+{{Veil of Summer}} maindeck. Occasionally you need to make {U}. Creating a
 reliable 4-color fetchland manabase on 9-10 lands proved difficult, and rainbow
 lands ended up feeling the most reliable. There are a ton of rainbow lands out
 there, and they are all worse than {{Gemstone Mine}}. After 4 Gemstone Mine, the
@@ -160,8 +160,8 @@ how they should play out.
 This is a pretty straightforward Echo hand. No sense in waiting, just jam the
 Echo and hope your new hand does something. The only thing to think about is
 what mana you leave floating. I believe the best line is to play out Mine, then
-LED, then Petal. Cast Dark Ritual off Mine. Crack the LED for {{RRR}}, and use
-the Petal to make {{U}}. That way you can have {{RRBB}} floating after casting
+LED, then Petal. Cast Dark Ritual off Mine. Crack the LED for {R}{R}{R}, and use
+the Petal to make {U}. That way you can have {R}{R}{B}{B} floating after casting
 Echo.
 
 ### Hand 2
@@ -183,7 +183,7 @@ mana to still cast Echo afterwards.
 Like the previous hand, this one has 2 business spells and is therefore high
 potential against Fair Blue. Play out all your mana. Cast Burning Wish, hold
 priority, cast Spoils, continue holding priority, and finally crack LED for
-{{RRR}}. Now you have 2 business spells on the stack, forcing them to have 2
+{R}{R}{R}. Now you have 2 business spells on the stack, forcing them to have 2
 counterspells. If Spoils resolves, name Empty the Warrens, which is what Wish
 would get anyway. If the Wish also resolves, grab Cabal Therapy to shred their
 hand. 12 Goblins on T1 should get the job done, and Cabal Therapy will let you
@@ -198,13 +198,13 @@ Doomsday. Street Wraith will draw into the pile and we can have some mana
 floating due to Rite of Flame. What's the pile though? Prepare for the most
 breathtakingly elegant Doomdsay pile you will ever see:
 
-> SW in hand - {{1R}}, 2 life
+> SW in hand - {1}{R}, 2 life
 
 <row variant="pile">{{!MM}} {{!MM}} {{!MM}} {{!MM}} {{!TO}}</row>
 
 Grab some tissues and mop up. This pile right here is extremely powerful. You
 can win with very little mana left after Doomsday. It also functions as a pass
-the turn pile that wins from just {{1R}}, without the need to include any extra
+the turn pile that wins from just {1}{R}, without the need to include any extra
 bad cards other than Oracle. No Predict or Ideas Unbound. No god either. Only M
 O R P H O S E.
 
@@ -304,7 +304,7 @@ This deck is playing some cards that are not in any other Doomsday decks, so we
 should address how those cards affect piles. We saw one earlier on, the glorious
 Quad-Morphose pile. Lets look at a couple others.
 
-> LED on board - {{B}}, 3 life
+> LED on board - {B}, 3 life
 
 <row variant="pile">{{!Spl}} {{!MM}} {{!MM}} {{!MM}} {{!TO}}</row>
 
@@ -314,7 +314,7 @@ is also quite cheap and can get through tax effects as well. If they counter
 Spoils, you can still try to use the Morphoses to cast Oracle the next turn, if
 you have the ability to cast them.
 
-> Echo, Spoils in hand - {{BBB}} + {{B}}
+> Echo, Spoils in hand - {B}{B}{B} + {B}
 
 <row variant="pile">{{!LED}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -322,7 +322,7 @@ Spoils can be used as simply a cantrip into your pile (in this case a
 straightforward Echo pile). If you hit on the top card, you won't lose any life
 to Spoils.
 
-> Rite of Flame, Manamorphose in hand - {{BBB}} + {{1BR}} - 9 Storm
+> Rite of Flame, Manamorphose in hand - {B}{B}{B} + {1}{B}{R} - 9 Storm
 
 <row variant="pile">{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
 
@@ -330,7 +330,7 @@ Manamorphose can draw into piles as well, and can fix your colors to cast
 Contract if you want to win with Storm instead of The Glorious Quad-Morphose
 Oracle Pile.
 
-> Spoils, Spoils in hand - {{BBB}} + {{BB}}
+> Spoils, Spoils in hand - {B}{B}{B} + {B}{B}
 
 <row variant="pile">{{!LED}} {{!MM}} {{!MM}} {{!MM}} {{!TO}}</row>
 

@@ -27,18 +27,18 @@ Let's look at some basic examples.
 
 ### Example 1
 
-> {{UU}}
+> {U}{U}
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
 Imagine you have an Island and and Underground Sea on board, Dark Ritual and
 Doomsday in hand. You can Ritual into Doomsday, pass the turn, and win with a
 mere 2 blue mana and 2 life when you untap. In fact you could conceivably cast
-Doomsday on turn 1, and make your second land drop to generate {{UU}}.
+Doomsday on turn 1, and make your second land drop to generate {U}{U}.
 
 ### Example 2
 
-> {{BBB}}
+> {B}{B}{B}
 
 <row variant="pile">{{!IC}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -48,7 +48,7 @@ be paid with a Ritual, meaning fewer lands needed if the situation permits.
 
 ### Example 3
 
-> Lion's Eye Diamond on the board - {{0}}
+> Lion's Eye Diamond on the board - {0}
 
 <row variant="pile">{{!SW}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -60,7 +60,7 @@ encounter at some point.
 
 ### Example 4
 
-> Ponder in hand - {{U}}
+> Ponder in hand - {U}
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -83,7 +83,7 @@ you read this section.
 
 ### Example 1
 
-> 2 cards in hand - {{UU}} - 8 Storm
+> 2 cards in hand - {U}{U} - 8 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Echo}} {{!BW}}</row>
 
@@ -104,21 +104,20 @@ there is a chance your opponent draws a fresh hand full of interaction.
 
 ### Example 2
 
-> LED, LP on board - {{1UU}} - 9 Storm
+> LED, LP on board - {1}{U}{U} - 9 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!DD}} {{!Pn}} {{!BW}}</row>
 
-1. Cast Ideas Unbound, holding priority to crack LED for {{BBB}}, drawing LED,
+1. Cast Ideas Unbound, holding priority to crack LED for {B}{B}{B}, drawing LED,
    Ponder and Doomsday
-2. Cast LED, crack the Petal for {{U}}, then cast DD with the floating black
-   mana
+2. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
 3. Construct the following new pile:
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LP}} {{!BW}} {{!DD}}</row>
 
-4. Ponder into this new pile, holding priority to crack LED for {{UUU}}
+4. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
 5. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
-6. Cast LED, Petal, and then Wish, holding priority to crack LED for {{BBB}}
+6. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
 7. Retrive Tendrils of Agony from your sideboard and aim it at your opponent
 
 This what is often referred to as a Double-Doomsday pile, where a second
@@ -132,7 +131,7 @@ opponent any new cards, so it has some appealing aspects.
 
 ### Example 3
 
-> 5 lands in play - {{1BBBB}} - 5 Storm + 6 Storm
+> 5 lands in play - {1}{B}{B}{B}{B} - 5 Storm + 6 Storm
 
 <row variant="pile">{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
@@ -144,7 +143,7 @@ in hand the onboard requirements are easier to manage.
 
 ### Example 4
 
-> DR in hand, PiF in sideboard - {{BBRR}} - 10 Storm
+> DR in hand, PiF in sideboard - {B}{B}{R}{R} - 10 Storm
 
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</row>
 
@@ -153,10 +152,10 @@ generate lethal storm.
 
 This pile doesn't require the use of an artifact meaning it can beat a Null Rod
 or a {{Phyrexian Revoker}}, although having an LED available will make producing
-{{RR}} easier.
+{R}{R} easier.
 
 The final Tendrils can be replaced with Burning Wish, but this will increase the
-cost of the pile by {{R}}, effectively requiring a mana artifact to be available
+cost of the pile by {R}, effectively requiring a mana artifact to be available
 in hand or on board.
 
 ## Conclusion

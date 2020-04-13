@@ -7,7 +7,7 @@ title: DDFAQs or the Start of Everything You Need to Know about How to End the W
 <tweet id="1242429703622782976" />
 
 With the influx of new interest towards the archetype, there has been a rise in
-new players gravitating towards our favourite {{BBB}} sorcery. With this surge
+new players gravitating towards our favourite {B}{B}{B} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
 people either interested, or starting off playing {{Doomsday}}. I had hoped to
 at least start answering many of the questions [in my first
@@ -175,14 +175,14 @@ your opponents from dropping hate elements or simply to outrace your opponent to
 prevent them winning the game first. To facilitate this, a number of mana
 acceleration options are used.
 
-The deck normally plays out like a mono {{U}} deck to begin with, cast cantrips
-and setting up but then needs to pivot into almost a mono {{B}} deck to win.
-Going from a {{Wasteland}} proof {{U}} manabase to something that produces
-{{BBB}} can be tricky without fixing so along with acceleration elements, fixing
-elements are also incorporated.
+The deck normally plays out like a mono {U} deck to begin with, cast cantrips
+and setting up but then needs to pivot into almost a mono {B} deck to win. Going
+from a {{Wasteland}} proof {U} manabase to something that produces {B}{B}{B} can
+be tricky without fixing so along with acceleration elements, fixing elements
+are also incorporated.
 
 Cards like {{Dark Ritual}} and {{Lotus Petal}} allow you to get ahead of mana
-quickly and can help fix your colours to provide the {{BBB}} needed to cast
+quickly and can help fix your colours to provide the {B}{B}{B} needed to cast
 Doomsday. These are the main mana enablers that can be found across all
 variants. Dark Ritual especially allows you to cast Doomsday off of a single B
 source which is great against mana denial strategies many decks deploy.
@@ -219,10 +219,10 @@ recommended.
 
 ### 2.3 Cantrips
 
-Cantrips are a staple of almost any Legacy deck that runs {{U}} and this one is
-no exception. Just like other combo variants, Doomsday wants to find the pieces
-it needs as quickly and reliably as it can so it tends to have a greater number
-of cantrips relative to other *fairer* decks. Unlike other combo decks like TES
+Cantrips are a staple of almost any Legacy deck that runs {U} and this one is no
+exception. Just like other combo variants, Doomsday wants to find the pieces it
+needs as quickly and reliably as it can so it tends to have a greater number of
+cantrips relative to other *fairer* decks. Unlike other combo decks like TES
 however, the cantrips can actually form an integral part of the combo itself and
 so ensuring these are at a maximum is key. You don't want to be having to *burn*
 through cantrips to find pieces to then find yourself unable to draw into an
@@ -276,12 +276,12 @@ numbers game for now.
 
 Interaction can come in many forms such as proactive discard effects like
 {{Duress}} and {{Thoughtseize}}, reactive cards like {{Force of Will}} and
-{{Flusterstorm}}, cards that can perform both roles to an extent like
-{{Orim's Chant}} and {{Veil of Summer}} or static abilities such as
-{{Defense Grid}} and {{Teferi, Time Raveler}}. Depending on the list you are
-running these are all options available to a Doomsday pilot. Normally you would
-want at least 8 pieces of protection maindeck with additional sideboard slots
-dedicated to more specific interaction.
+{{Flusterstorm}}, cards that can perform both roles to an extent like {{Orim's
+Chant}} and {{Veil of Summer}} or static abilities such as {{Defense Grid}} and
+{{Teferi, Time Raveler}}. Depending on the list you are running these are all
+options available to a Doomsday pilot. Normally you would want at least 8 pieces
+of protection maindeck with additional sideboard slots dedicated to more
+specific interaction.
 
 <row variant="centered">{{!TS}} {{!FoW}} {{!Veil}}</row>
 
@@ -294,9 +294,9 @@ count. This is normally a split of {{Thoughtseize}} and {{Veil of Summer}} or
 {{Thoughtseize}} and {{Duress}} in the main with the sideboard option being
 {{Duress}} or {{Cabal Therapy}}. Countermagic is not used in these lists except
 as a sideboard slot against other fast combo decks as it interacts poorly with
-the card {{Lion's Eye Diamond}}. {{W}} also tends to not be run as it has
-limited beneficial options for the deck so cards like {{Silence}} are less
-likely to be seen.
+the card {{Lion's Eye Diamond}}. {W} also tends to not be run as it has limited
+beneficial options for the deck so cards like {{Silence}} are less likely to be
+seen.
 
 #### DDEFT
 
@@ -307,7 +307,7 @@ are then stuck with it present on the top of your deck or, in hand where it
 cannot be cast at all. {{Thoughtseize}} and {{Duress}} are the favourites over
 other splash options like {{Veil of Summer}} as trying to balance mana when
 playing off the top of your deck can really put a strain on having the right
-colours and you always want {{B}} in abundance.
+colours and you always want {B} in abundance.
 
 #### Meandeck
 
@@ -363,9 +363,9 @@ cards can be a liability as, with Frenzy out, you will not be able to cast them
 however you can still cast cards that have been exiled. This then rules out the
 use of Echo of Eons and, as mentioned previously, this also prevents the
 effective use of cyclers. DDEFT should also run the full 4 Lion's Eye Diamonds.
-Being able to pay {{0}} for gain {{BBB}}, {{UUU}} or {{RRR}} and draw a card,
-all the while effectively ignoring the downside makes it an even more powerful
-card than in other lists.
+Being able to pay {0} for gain {B}{B}{B}, {U}{U}{U} or {R}{R}{R} and draw a
+card, all the while effectively ignoring the downside makes it an even more
+powerful card than in other lists.
 
 #### Meandeck
 
@@ -382,24 +382,23 @@ singleton main with an additional copy in the sideboard.
 ### 2.6 Manabase
 
 Being a combo deck, Doomsday does not need to run as many lands as some of it's
-fairer {{U}} cousins. Depending on how fast you intend to try and win and how
-much other mana acceleration you are playing a deck should run typically 15-18
-lands, usually around 16/17. This tends to be mostly comprised of a minimum of 4
+fairer {U} cousins. Depending on how fast you intend to try and win and how much
+other mana acceleration you are playing a deck should run typically 15-18 lands,
+usually around 16/17. This tends to be mostly comprised of a minimum of 4
 {{Polluted Delta}}, 4 other on-colour fetchlands or 4 {{Prismatic Vista}}, at
-least 1 {{Island}} / {{Snow-Covered Island}} and 1 {{Swamp}} /
-{{Snow-Covered Swamp}} and 1 {{Underground Sea}}. The rest is the a mix of
-additional Seas, some other U/X and B/X splash duals and additional basic lands
-as required. Astrolabe decks tend to run more basics compared to their non-snow
-cousins. Even with Astrolabes, you should consider at least 2
-{{Underground Sea}}s in your list and probably 1 each of the primary splash
-colour U/X and B/X dual land.
+least 1 {{Island}} / {{Snow-Covered Island}} and 1 {{Swamp}} / {{Snow-Covered
+Swamp}} and 1 {{Underground Sea}}. The rest is the a mix of additional Seas,
+some other U/X and B/X splash duals and additional basic lands as required.
+Astrolabe decks tend to run more basics compared to their non-snow cousins. Even
+with Astrolabes, you should consider at least 2 {{Underground Sea}}s in your
+list and probably 1 each of the primary splash colour U/X and B/X dual land.
 
 For example if you are running a Grixis list you should run 1
 {{Volcanic Island}} and 1 {{Badlands}} and tailor your fetches accordingly so 4
 Delta and 4 {{Scalding Tarn}} or 3 Tarn and 1 {{Bloodstained Mire}}. Being able
 to fetch a basic Island is more crucial than a basic swamp as that tends to
 allow you to get into the game in the first place and the majority of your deck
-is {{U}} based cantrips anyways.
+is {U} based cantrips anyways.
 
 <row variant="centered">{{!Island|RAV}} {{!Underground Sea|LEB}} {{!Swamp|RAV}}</row>
 
@@ -409,7 +408,7 @@ As these are more speed oriented lists they tend to stay at the 15-17 land
 range. This is normally 4 Delta, 4 Tarn or 3 Tarn/1 Mire, 1 Volcanic Island, 1
 Badlands, 2 Underground Seas, 2 Islands and 1 Swamp. Sometimes (if there is a
 splash colour) you might add an additional land or replace the second basic
-Island with a, in the example of {{G}}, {{Bayou}} and/or {{Tropical Island}}.
+Island with a, in the example of {G}, {{Bayou}} and/or {{Tropical Island}}.
 Toolbox lands such as {{Nurturing Peatland}} tend not be be used for these lists
 but can be an option.
 
@@ -418,7 +417,7 @@ but can be an option.
 As the more control oriented lists, Meandeck decks tend to go around the 17-18
 land mark. This tends to be 4 Delta, 4 Splash Fetch ({{Misty Rainforest}} for
 BUG and {{Flooded Strand}} for Esper) or 4 {{Prismatic Vista}}, 1-3 Underground
-Seas, 1 of each splash dual (so for {{W}} 1 {{Tundra}} and 1 {{Scrubland}}) and
+Seas, 1 of each splash dual (so for {W} 1 {{Tundra}} and 1 {{Scrubland}}) and
 2-5 basic lands. Normally 1-4 Islands, 1-2 Swamps, and 0-1 Splash Basic. Some
 pilots also elect to run a toolbox land such as a {{Cavern of Souls}},
 {{Mystic Sanctuary}} or {{Silent Clearing}}.
@@ -439,36 +438,36 @@ sideboards fully here however some options will be explored in the next section.
 ## 3. Colour Choices
 
 Doomsday decks have some interesting choices when it comes to what colours to
-run within them. Doomsday itself is a card costing {{BBB}} so that immediately
-locks in one of your colours. Almost all lists (as discussed above) feature
-{{U}} cantrip shells so the decks are often solidly based in {{UB}} however the
-rest of the available colours are all useable within the shell. Below will be a
+run within them. Doomsday itself is a card costing {B}{B}{B} so that immediately
+locks in one of your colours. Almost all lists (as discussed above) feature {U}
+cantrip shells so the decks are often solidly based in {U}{B} however the rest
+of the available colours are all useable within the shell. Below will be a
 summary of each variant and the colour options they tend to run followed by some
 in depth discussion as to what the different colour splashes bring to the table
 in terms of tools.
 
-**DDFT** Normally base {{UBR}} with the option to splash {{W}} or {{G}}.  
-**DDEFT** Normally base {{UBR}}, unlikley to run splash colours.  
-**Meandeck** Normally {{UBG}} or {{UBW}} with the option to splash {{W}}, {{R}}
-or {{G}}.
+**DDFT** Normally base {U}{B}{R} with the option to splash {W} or {G}.  
+**DDEFT** Normally base {U}{B}{R}, unlikley to run splash colours.  
+**Meandeck** Normally {U}{B}{G} or {U}{B}{W} with the option to splash {W}, {R}
+or {G}.
 
 ### 3.1 White
 
 White is almost exclusively played in Meandeck lists however you could easily
-incorporate it into DDFT. Maindeck, {{W}} provides protection spells mostly in
-the form of {{Orim's Chant}}, {{Silence}} or {{Teferi, Time Raveler}} the last
-of which can also act as a method to draw into a Doomsday pile or a mini card
-advantage engine when the -3 is coupled with {{Arcum's Astrolabe}}.
-{{Abeyance}} is another great option that also cantrips and so makes a good
-initiation spell for drawing into a Doomsday pile.
+incorporate it into DDFT. Maindeck, {W} provides protection spells mostly in the
+form of {{Orim's Chant}}, {{Silence}} or {{Teferi, Time Raveler}} the last of
+which can also act as a method to draw into a Doomsday pile or a mini card
+advantage engine when the -3 is coupled with {{Arcum's Astrolabe}}. {{Abeyance}}
+is another great option that also cantrips and so makes a good initiation spell
+for drawing into a Doomsday pile.
 
-From the sideboard {{W}} offers a plan B in the form of {{Monastery Mentor}}
-that plays well with the cantrip dense lists that are run. Removal comes in the
-form of {{Disenchant}} or {{Wear//Tear}} for artifact or enchantment hate and
+From the sideboard {W} offers a plan B in the form of {{Monastery Mentor}} that
+plays well with the cantrip dense lists that are run. Removal comes in the form
+of {{Disenchant}} or {{Wear//Tear}} for artifact or enchantment hate and
 {{Swords to Plowshares}} to deal with problematic creatures. You also gain some
 additional graveyard hate options in the form of {{Rest in Peace}}.
 
-Teferi and Mentor are probably the biggest boons for playing {{W}}.
+Teferi and Mentor are probably the biggest boons for playing {W}.
 
 ### 3.2 Red
 
@@ -477,10 +476,10 @@ Red is obviously a staple for DDEFT and often for DDFT too. It enables
 other toolbox cards. From the side it can provide access to alternative win
 conditions like {{Empty the Warrens}} and a plethora of removal for different
 scenarios such as {{Abrade}}, {{By Force}} or {{Rending Volley}} to name a few.
-{{R}} also gives you access to {{Pyroblast}}/ {{Red Elemental Blast}} effects
-which are incredibly powerful tools against any {{U}} based matchup.
+{R} also gives you access to {{Pyroblast}} / {{Red Elemental Blast}} effects
+which are incredibly powerful tools against any {U} based matchup.
 
-Empty the Warrens and Red Blasts are the biggest boons for playing {{R}}.
+Empty the Warrens and Red Blasts are the biggest boons for playing {R}.
 
 ### 3.3 Green
 
@@ -488,22 +487,23 @@ Green provides a slightly cheaper package in terms of mana cost. Maindeck it
 provides access to protection in the form of {{Veil of Summer}} and super
 efficient removal in the form of {{Abrupt Decay}}. From the sideboard additional
 Veils/Decays may be brought in alongside other elements such as
-{{Carpet of Flowers}} or {{Xantid Swarms}}. {{G}} does not have a plan B
-associated with it however some have explored the use of {{Oko, Thief of
-Crowns}} as a potential option or {{Uro, Titan of Nature's Wrath}}.
+{{Carpet of Flowers}} or {{Xantid Swarms}}. {G} does not have a plan B
+associated with it however some have explored the use of
+{{Oko, Thief of Crowns}} as a potential option or
+{{Uro, Titan of Nature's Wrath}}.
 
-Veil and Decay are the biggest boons for playing {{G}}.
+Veil and Decay are the biggest boons for playing {G}.
 
 <row variant="centered">{{!Monastery Mentor|FRF}} {{!Pyroblast|ICE}} {{!AD}}</row>
 
 ### 3.4 No Splash
 
-There is some potential for running a straight {{UB}} list with no splash
+There is some potential for running a straight {U}{B} list with no splash
 colours. For a speed focused list, use of {{Wishclaw Talisman}} and
 {{Echo of Eons}} could allow for a fast win however they may be considered
 unreliable. Your protection suite is also limited to countermagic and discard
-(both matching poorly against opposing Veil effects) and either {{B}} based
-creature removal or {{U}} based bounce removal which is not permanent.
+(both matching poorly against opposing Veil effects) and either {B} based
+creature removal or {U} based bounce removal which is not permanent.
 
 There is some scope for a plan B with the use of creatures like
 {{Snapcaster Mage}}, {{Dark Confidant}} or {{Rotting Regisaur}} however these
@@ -513,7 +513,7 @@ engine that enables you to both find {{Thassa's Oracle}} and exile your library
 with the Oracle trigger on the stack all the while avoiding cards like
 {{Spell Pierce}}, {{Force of Negation}} and {{Flusterstorm}}.
 
-Budget and consistent mana is the biggest boon for playing straight {{UB}}.
+Budget and consistent mana is the biggest boon for playing straight {U}{B}.
 
 <row variant="centered">{{!DW}}</row>
 

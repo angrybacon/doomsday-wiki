@@ -13,7 +13,7 @@ Most Meandeck piles try to play around removal.
 ## Cheating on Devotion
 
 If your opponent deals with TO with its trigger on the stack, you could be
-missing on a couple Devotion to {{U}}. That's why it's important to try and
+missing on a couple Devotion to {U}. That's why it's important to try and
 consume the entirety of your pile before going for it whenever you can,
 especially if your opponent is likely to hold removal as you go off.
 

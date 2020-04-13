@@ -67,7 +67,7 @@ situations. Lets look at a few example:
 ### Example 1
 
 > Tropical Island, Underground Sea on board, no cantrips in hand, Opponent has
-> Chalice@2 - {{BG}} + {{UU}}
+> Chalice@2 - {B}{G} + {U}{U}
 
 <row variant="pile">{{!AD}} {{!SW}} {{!TO}} {{!LP}} {{!LP}}</row>
 
@@ -87,14 +87,14 @@ for example you got hit with Wasteland.
 
 ### Example 2
 
-> No mana on board, no cards in hand - {{0}}, 2 life
+> No mana on board, no cards in hand - {0}, 2 life
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!TO}} {{!LP}}</row>
 
 1. Pass the turn after casting Doomsday
 2. Draw the LED, play it out, and pass again.
-3. Draw the Street Wraith, cycle it holding priority to crack LED for {{UUU}}
-4. Draw Ponder and cast it, leaving {{UU}} floating
+3. Draw the Street Wraith, cycle it holding priority to crack LED for {U}{U}{U}
+4. Draw Ponder and cast it, leaving {U}{U} floating
 5. Draw Oracle and cast it to win with 1 card left.
 
 How did you find yourself in this position? Maybe you cast Doomsday using Lotus
@@ -124,7 +124,7 @@ and a {{Meddling Mage}} naming Thassa's Oracle
 
 ### Example 1
 
-> Ponder, LED, LED in hand - {{BBB}} + {{U}} - 6 Storm
+> Ponder, LED, LED in hand - {B}{B}{B} + {U} - 6 Storm
 
 <row variant="pile">{{!BW}} {{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}}</row>
 
@@ -135,7 +135,7 @@ they deal with your opponent.
 
 ### Example 2
 
-> Ponder, LED in hand - {{BBB}} + {{1U}} + {{BBB}} - 8 Storm
+> Ponder, LED in hand - {B}{B}{B} + {1}{U} + {B}{B}{B} - 8 Storm
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LED}} {{!BW}} {{!DD}}</row>
 
@@ -157,7 +157,7 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
 ### Example 1
 
-> 2 cards in hand - {{1UUR}} + ({{1R}}) - 9 Storm
+> 2 cards in hand - {1}{U}{U}{R} + ({1}{R}) - 9 Storm
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
 
@@ -166,7 +166,7 @@ second Burning Wish to fetch Tendrils.
 
 Note that as with Echo piles, the number of cards left over to shuffle back into
 your library is important, to avoid decking yourself. Also note that the listed
-cost assumes that you can produce {{1R}} with the lands that you untap with Time
+cost assumes that you can produce {1}{R} with the lands that you untap with Time
 Spiral.
 
 ## Conclusion

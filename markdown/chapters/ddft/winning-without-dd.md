@@ -29,19 +29,19 @@ following hand:
 <row variant="hand">{{!DR}} {{!Veil}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
 Ideally, you can play out your mana artifacts, cast Veil, and then the Dark
-Ritual. Cast Burning Wish holding priority, and crack the LED for {{RRR}}. Along
-with the {{BB}} leftover from the Ritual, you have enough to cast Empty the
-Warrens to make 14 Goblins. Killing like this is extremely simple, but do not
-underestimate its effectiveness. In fact, if your hand looked like this on turn
-1, you should seriously consider skipping the Veil and jamming Empty the Warrens
-immediately, even if you don't know what your opponent is playing. Early in the
-game, most decks will simply not be able to handle that many goblins. Other
-combo decks may be able to race goblins, and decks with Stoneforge Mystic may be
-able to use Batterskull to stabilize if you don't get a lot of goblins down
-quickly enough, but other decks will struggle. While you're typically looking to
-make more than 10 goblins, as few as 8 can be sufficient against some decks. You
-should also note that Wish for Empty can play through a Chalice of the Void on 1
-relatively easily, with a couple Petals or LEDs.
+Ritual. Cast Burning Wish holding priority, and crack the LED for {R}{R}{R}.
+Along with the {{BB}} leftover from the Ritual, you have enough to cast Empty
+the Warrens to make 14 Goblins. Killing like this is extremely simple, but do
+not underestimate its effectiveness. In fact, if your hand looked like this on
+turn 1, you should seriously consider skipping the Veil and jamming Empty the
+Warrens immediately, even if you don't know what your opponent is playing. Early
+in the game, most decks will simply not be able to handle that many goblins.
+Other combo decks may be able to race goblins, and decks with Stoneforge Mystic
+may be able to use Batterskull to stabilize if you don't get a lot of goblins
+down quickly enough, but other decks will struggle. While you're typically
+looking to make more than 10 goblins, as few as 8 can be sufficient against some
+decks. You should also note that Wish for Empty can play through a Chalice of
+the Void on 1 relatively easily, with a couple Petals or LEDs.
 
 It is common to play multiple copies of Empty in your sideboard, for the purpose
 of bringing a few copies in. Naturally drawing and casting Empty the Warrens,
@@ -79,8 +79,9 @@ Consider the following situation, where your opening 7 looks like this:
 
 You should strongly consider spinning the wheel on that Echo right away. A fresh
 hand with 5 mana available is very strong, and that hand isn't likelyto get
-better. Crack the LEDs for {{UUUBBB}}. Don't crack the Scalding Tarn, since you
-will want to know what's in your new hand before you decide what land to fetch.
+better. Crack the LEDs for {U}{U}{U}{B}{B}{B}. Don't crack the Scalding Tarn,
+since you will want to know what's in your new hand before you decide what land
+to fetch.
 
 An important thing to keep in mind, on which has been alluded to but mostly
 glossed over so far, is that Echo draws your opponent a new hand, and recycles
@@ -107,7 +108,7 @@ more non-deterministic lines with PiF, flashing back cantrips to try to find
 another Wish. Draw-4 spells like Infernal Contract can be powerful value engines
 with Past in Flames, letting you see several more extra cards than cantrips
 alone could. Using Past in Flames is also mana hungry, and is uniquely hungry
-for {{R}}, since you need it for 2 Wishes and PiF itself. Keep this in mind when
+for {R}, since you need it for 2 Wishes and PiF itself. Keep this in mind when
 considering a PiF line.
 
 A few quick notes on other alternative storm engine options that DON'T see play

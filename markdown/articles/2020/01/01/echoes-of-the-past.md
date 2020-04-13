@@ -75,7 +75,7 @@ of the following examples, assume you opponent cannot interact.
 **Hand:** Dark Ritual, Doomsday, Doomsday, LED, Echo of Eons  
 **Board:** Swamp, Island  
 You Ritual into Doomdsay and construct the following pile: \[LED, Petal, Petal,
-Ponder, Burning Wish_]. Crack LED for {{UUU}}. Flashback Echo. At this point,
+Ponder, Burning Wish_]. Crack LED for {U}{U}{U}. Flashback Echo. At this point,
 there are 8 cards left to draw from for Echo, meaning you won't draw one, but
 there is no way to fail because if you don't draw the Burning Wish, you can
 Ponder for it, and if you do draw it, you'll always have the mana to cast it and
@@ -86,11 +86,11 @@ ToA.
 Think of this as a turn 1 kill. Petal into Ritual into Doomsday and construct
 the following pile: \[LED, LED, LED, Echo, Echo\]. Because you have a Burning
 Wish in hand, you don't need to include a wincon in the pile; Echo will recycle
-it for you. Crack LED for {{UUU}} and flashback Echo. Now there are 8 cards you
-can draw from for Echo. You are guaranteed to draw at least 2 LED and at least 1
-Echo. Crack those 2 LEDs for {{UUURRR}}, then flashback Echo. This time there
-will be 7 cards leftover, so you're guaranteed to draw them all. Cast your LEDs,
-then Wish for ToA.
+it for you. Crack LED for {U}{U}{U} and flashback Echo. Now there are 8 cards
+you can draw from for Echo. You are guaranteed to draw at least 2 LED and at
+least 1 Echo. Crack those 2 LEDs for {U}{U}{U}{R}{R}{R}, then flashback Echo.
+This time there will be 7 cards leftover, so you're guaranteed to draw them all.
+Cast your LEDs, then Wish for ToA.
 
 **Hand:** Dark Ritual, Doomsday, Doomdsay, Brainstorm, Thoughtseize, Veil of Summer  
 **Board:** Swamp, Island  

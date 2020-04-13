@@ -20,7 +20,7 @@ draw spell, helps digging into the pile, drawing resources from the pile.
 
 ## Predict
 
-> {{BBB}} + {{1U}}
+> {B}{B}{B} + {1}{U}
 
 <row variant="pile">{{!Pd}} {{!Pn}} {{!LED}} {{!SW}} {{!TO}}</row>
 
@@ -28,11 +28,11 @@ Post-Doomsday, pick these 5 cards and form a pile with them. Draw into the
 Predict, either the same turn or by passing the turn to your opponent. Target
 yourself with Predict and name whatever you put in second position in order to
 draw both SW and LED. Play the LED and cycle SW while keeping priority. This
-lets you crack the LED for {{UUU}} and draw the TO for the win.
+lets you crack the LED for {U}{U}{U} and draw the TO for the win.
 
 ## Ideas Unbound
 
-> {{BBB}} + {{UU}}
+> {B}{B}{B} + {U}{U}
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
@@ -49,7 +49,7 @@ If short on mana and LED becomes necessary, you need to assemble 2 draw effects.
 The first one to draw said LED, and the second one to draw the second card from
 your pile while cracking the LED for mana.
 
-> Ponder, Ponder in hand - {{BBB}} + {{UU}}
+> Ponder, Ponder in hand - {B}{B}{B} + {U}{U}
 
 <row variant="pile">{{!LED}} {{!SW}} {{!SW}} {{!Pn}} {{!TO}}</row>
 
@@ -57,10 +57,10 @@ The above pile is much straightforward on purpose, its parts are moving and can
 be replaced depending on what parts you already have access to.
 
 For instance, if you already have the LED and a Ponder, you crack the LED for
-{{UUU}} in response to the Ponder, giving you enough mana to work with for the
+{U}{U}{U} in response to the Ponder, giving you enough mana to work with for the
 cards in your pile.
 
-> Ponder, LED in hand - {{BBB}} + {{U}}
+> Ponder, LED in hand - {B}{B}{B} + {U}
 
 <row variant="pile">{{!Pd}} {{!Pn}} {{!SW}} {{!LP}} {{!TO}}</row>
 

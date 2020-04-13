@@ -12,13 +12,13 @@ printed to finally replace the spot of probe.
 
 That card turned out to be Experimental Frenzy.
 
-> **Experimental Frenzy** {{3R}}  
+> **Experimental Frenzy** {3}{R}  
 > Enchantment
 >
 > You may look at the top card of your library any time.  
 > You may play the top card of your library.  
 > You can’t play cards from your hand.  
-> {{3R}}: Destroy Experimental Frenzy.
+> {3}{R}: Destroy Experimental Frenzy.
 
 James, also known as ApeofJustice on the Doomsday Discord server, got 6th place
 in a MTGO challenge on April 14th, 2019 with {{Experimental Frenzy}} Doomsday.
@@ -40,21 +40,21 @@ With Experimental Frenzy in play, casting Doomsday wins the game.
 
 With this pile, you can get infinite Storm.
 
-1. Cast LED, Crack for {{BBB}}
-2. Cast LED, Crack for {{BBB}}
-3. Cast LED, Crack for {{BBB}}
+1. Cast LED, Crack for {B}{B}{B}
+2. Cast LED, Crack for {B}{B}{B}
+3. Cast LED, Crack for {B}{B}{B}
 4. Cast DD, LED LED LED ToA DD
 5. Repeat
 
 If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
-have {{2UR}} and a cantrip in hand using an Act on Impulse pile. An example of this
-line.
+have {2}{U}{R} and a cantrip in hand using an Act on Impulse pile. An example of
+this line.
 
 <row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</row>
 
 1. Cast Brainstorm, put back both LEDs, Storm 5
 2. Cast Act on Impulse, exiling LED LED Preordain, Storm 6
-3. Cast both LEDs, crack for {{UUUBBB}} and cast Preordain, Storm 9
+3. Cast both LEDs, crack for {U}{U}{U}{B}{B}{B} and cast Preordain, Storm 9
 4. Draw Tendrils and drain them for 20
 
 These are probably the most common piles, but there are variations on them. For
@@ -87,9 +87,9 @@ Or
 
 <row variant="pile">{{!LED}} {{!ET}} {{!LED}} {{!DD}} {{!ToA}}</row>
 
-The first option is for when you have {{B}} floating, while the second and third do
-not require {{B}} floating. Both generate infinite Storm, and play around different
-pieces of interaction.
+The first option is for when you have {B} floating, while the second and third
+do not require {B} floating. Both generate infinite Storm, and play around
+different pieces of interaction.
 
 ## Collective Brutality - Use Cases
 
@@ -109,18 +109,18 @@ post-DD, and can't cast Experimental Frenzy.
 
 Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
 piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
-using this pile. You need {{2UR}}, a cantrip, and 3 Storm for this to work.
+using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
 
 <row variant="pile">{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!Pn}}</row>
 
 1. Cast cantrip, Storm 4
 2. Cast AoI, no mana floating, Storm 5
 3. Cast LED, Storm 6
-4. Crack LED for {{UUU}}, cast Conjurer's Bauble, Storm 7
+4. Crack LED for {U}{U}{U}, cast Conjurer's Bauble, Storm 7
 5. Crack bauble, putting LED on bottom
 6. Cast Ponder and draw LED, Storm 8
 7. Cast LED, Storm 9
-8. Crack for {{BBB}} and cast ToA, Storm 10
+8. Crack for {B}{B}{B} and cast ToA, Storm 10
 
 Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
