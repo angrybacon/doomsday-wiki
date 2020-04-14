@@ -122,7 +122,7 @@ generate enough mana to cast everything we want. If we use LED our Oracle
 becomes exposed thanks to having to discard our Forces. Here is one potential
 solution assuming we played Doomsday off of Swamp and Dark Ritual:
 
-<row variant="pile">{{!BS}} {{!TS}} {{!LED}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!BS}} {{!Tsz}} {{!LED}} {{!EoA}} {{!TO}}</row>
 
 1. Draw Brainstorm for turn
 1. Play Island, cast Brainstorm with Island, and put back Force and Preordain on
@@ -471,7 +471,7 @@ is risky to try and resolve a third spell.
 
 Consider the following:
 
-<row variant="pile">{{!IU}} {{!TS}} {{!LP}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!IU}} {{!Tsz}} {{!LP}} {{!LP}} {{!TO}}</row>
 
 Assuming you had a cantrip ready to *dig* into the pile, you can use it to try
 and use it to either pre-emptively bait the Trap or to enable digging one deeper
