@@ -53,7 +53,7 @@ of LED to generate the mana for Oracle.
 
 <row variant="pile">{{!LED}} {{!Pdt}} {{!SW}} {{!LP}} {{!TO}}</row>
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Daze}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Daze|NEM}} {{!TO}}</row>
 
 If you find yourself constrained on the mana to cast both a cantrip, and one of
 your two mana draw spells but have an additional cantrip in hand then you can
@@ -104,7 +104,7 @@ Take the following example:
 > Game 1  
 > On the play
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!Swamp}} {{!Island}} {{!Pre}}</row>
+<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!I|RAV}} {{!Pre}}</row>
 
 Here we have a great example of what looks to be a 'combo ready hand' however we
 cannot actually go off in the same turn with it. Even if we were to wait one

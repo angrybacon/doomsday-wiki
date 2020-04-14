@@ -12,6 +12,7 @@ const CARDS = {
   CS:    ['Chromatic Sphere',         'INV'],
   CoB:   ['City of Brass',            'ARN'],
   CoBru: ['Collective Brutality',     'EMN'],
+  CoS:   ['Cavern of Souls',          'AVR'],
   CoV:   ['Chain of Vapor',           'ONS'],
   DD:    ['Doomsday',                 'WTH'],
   DR:    ['Dark Ritual',              'LEB'],

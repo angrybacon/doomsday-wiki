@@ -115,7 +115,7 @@ has resolved (from the Basics chapter):
 > Game 1  
 > On the play
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!Swamp}} {{!Island}} {{!Pre}}</row>
+<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!I|RAV}} {{!Pre}}</row>
 
 Although we have Force of will in our hand we are wanting to use LED to help us
 generate enough mana to cast everything we want. If we use LED our Oracle
@@ -169,7 +169,7 @@ The extra card drawn can allow a lot of flexibility in keeping up countermagic.
 
 Consider the following:
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!Underground Sea}} {{!Island}} {{!Pre}}</row>
+<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!Underground Sea|LEB}} {{!I|RAV}} {{!Pre}}</row>
 
 Once again we are taking our PTT example but this time we are assuming we are
 not playing against a deck running Wasteland effects. Because of this we can
@@ -197,7 +197,7 @@ piles.
 
 > {B}{B}{B} + Brainstorm + X
 
-<row variant="pile">{{!Pdt}} {{!LED}} {{!EoA}} {{!TO}} {{!Cavern of Souls}}</row>
+<row variant="pile">{{!Pdt}} {{!LED}} {{!EoA}} {{!TO}} {{!CoS}}</row>
 
 You should recognise the above as a simplified Brainstorm pile. In this we have
 simply swapped out a Lotus Petal with Cavern. This severely punishes anyone
@@ -208,7 +208,7 @@ Likewise it can slot into most IU piles too.
 
 > {B}{B}{B} + {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!Cavern of Souls}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!IU}} {{!LP}} {{!CoS}} {{!EoA}} {{!TO}}</row>
 
 Teferi, Time Raveler is another tool that can be used to help prevent
 countermagic however it is expensive to include in piles. It might be suitable
@@ -234,7 +234,7 @@ From that point you don't have to cast a single 1 mana spell.
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
 
-<row variant="pile">{{!Predict}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
 
 Both of the above examples are all comprised of 0 / 2 drops and free cycling
 effects all of which can circumnavigate the limitations Chalice creates. If
@@ -252,7 +252,7 @@ Dark Ritual as a *mana boost* that filters into the {U} needed for Oracle.
 
 > {B}{B}{B} + {1}{U}{U} + Cantrip
 
-<row variant="pile">{{!Predict}} {{!SW}} {{!Island}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!SW}} {{!I|RAV}} {{!EoA}} {{!TO}}</row>
 
 If X = 2 then you can build something like a Brainstorm pile that only uses your
 1 mana cantrips alongside something like Cavern of Souls to get through the
@@ -269,7 +269,7 @@ PTT example against a Chalice of the Void.
 
 > {B}{G} + {U} + Brainstorm + X (Post Doomsday)
 
-<row variant="pile">{{!Abrupt Decay}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+<row variant="pile">{{!AD}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
 Although we are talking predominantly about Chalice of the Void, the same
 information can apply to facing against Counterbalance (Veil still gets around
