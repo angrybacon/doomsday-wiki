@@ -2,22 +2,32 @@ import { Link } from 'gatsby';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import ChevronUpIcon from 'mdi-react/ChevronUpIcon';
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import { useMatch } from '@reach/router';
 import useStyles from './styles';
 
 
-export default function Entry({ entries, extra, icon, subtitle, title, ...rest }) {
+export default function Entry({ entries, extra, icon, namespace, subtitle, title, ...rest }) {
 
+  const match = useMatch(`/${namespace}/*`);
   const classes = useStyles();
   const [ open, setOpen ] = useState(false);
+  const [ ready, setReady ] = useState(false);
 
   const onToggle = () => setOpen(previous => !previous);
+
+  useEffect(() => {
+    if (!ready && !!match) {
+      setOpen(!!match);
+      setReady(true);
+    }
+  }, [match, ready]);
 
   return (
     <React.Fragment {...rest}>
@@ -66,6 +76,7 @@ Entry.propTypes = {
   })),
   extra: PropTypes.object,
   icon: PropTypes.node,
+  namespace: PropTypes.string,
   subtitle: PropTypes.string.isRequired,
   title: PropTypes.string,
 };

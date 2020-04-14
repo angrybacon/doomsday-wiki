@@ -26,7 +26,12 @@ export default function Entries() {
     <List component="nav" disablePadding>
       {chapters.map(({ fieldValue, nodes }, index) => {
         const { icon, subtitle, title } = menu[fieldValue] || {};
-        return <Entry entries={nodes} icon={icon} key={index} subtitle={subtitle} title={title} />;
+        return <Entry entries={nodes}
+                      icon={icon}
+                      key={index}
+                      namespace={fieldValue}
+                      subtitle={subtitle}
+                      title={title} />;
       })}
       <Entry icon={menu.puzzles.icon}
              subtitle={menu.puzzles.subtitle}
