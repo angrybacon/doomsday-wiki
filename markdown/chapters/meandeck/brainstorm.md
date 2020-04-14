@@ -16,7 +16,7 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 
 > BS, X in hand - {B}{B}{B} + {U}
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Prt}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pdt}} {{!LP}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back X then Predict
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Predict

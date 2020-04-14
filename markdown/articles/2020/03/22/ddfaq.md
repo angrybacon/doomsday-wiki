@@ -116,7 +116,7 @@ less dedicated combo pieces such as {{Lion's Eye Diamond}} and more reactive
 control elements like {{Force of Will}}. The deck does not run Storm based win
 conditions either. An example pile is below:
 
-<row variant="pile">{{!Prt}} {{!Pnd}} {{!EoA}} {{!LED}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!Pnd}} {{!EoA}} {{!LED}} {{!TO}}</row>
 
 **Note**: At the time of writing this article, this variant is the one having
 most success in tournaments.
@@ -237,7 +237,7 @@ more on those later. Combine these with some of the cantripping protection
 elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
 up with a very high cantrip number.
 
-<row variant="centered">{{!Pnd}} {{!BS}} {{!Prt}}</row>
+<row variant="centered">{{!Pnd}} {{!BS}} {{!Pdt}}</row>
 
 #### DDFT
 
