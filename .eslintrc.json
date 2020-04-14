@@ -42,6 +42,7 @@
       "newlines-between": "never",
       "pathGroups": [
         {"group": "internal", "pattern": "@material-ui/**", "position": "after"},
+        {"group": "internal", "pattern": "@reach/**", "position": "after"},
         {"group": "internal", "pattern": "@saeris/**", "position": "after"}
       ]
     }],
