@@ -85,7 +85,7 @@ you read this section.
 
 > 2 cards in hand - {U}{U} - 8 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Echo}} {{!BW}}</row>
+<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!EoE}} {{!BW}}</row>
 
 Echo of Eons in the maindeck provides some very interesting pile options, which
 are explored more in-depth in a later chapter. One powerful application is
@@ -106,7 +106,7 @@ there is a chance your opponent draws a fresh hand full of interaction.
 
 > LED, LP on board - {1}{U}{U} - 9 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!DD}} {{!Pn}} {{!BW}}</row>
+<row variant="pile">{{!IU}} {{!LED}} {{!DD}} {{!Pnd}} {{!BW}}</row>
 
 1. Cast Ideas Unbound, holding priority to crack LED for {B}{B}{B}, drawing LED,
    Ponder and Doomsday
@@ -133,7 +133,7 @@ opponent any new cards, so it has some appealing aspects.
 
 > 5 lands in play - {1}{B}{B}{B}{B} - 5 Storm + 6 Storm
 
-<row variant="pile">{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</row>
+<row variant="pile">{{!IC}} {{!Rain}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
 This pile, on the other hand, does require some less commmon card choices. It
 works by using CB to cast ToA twice. To do it from no cards in hand requires a

@@ -50,7 +50,7 @@ If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
 have {2}{U}{R} and a cantrip in hand using an Act on Impulse pile. An example of
 this line.
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</row>
+<row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pdt}} {{!ToA}}</row>
 
 1. Cast Brainstorm, put back both LEDs, Storm 5
 2. Cast Act on Impulse, exiling LED LED Preordain, Storm 6
@@ -111,7 +111,7 @@ Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
 piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
 using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
 
-<row variant="pile">{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!Pn}}</row>
+<row variant="pile">{{!AoI}} {{!ToA}} {{!LED}} {{!CB}} {{!Pnd}}</row>
 
 1. Cast cantrip, Storm 4
 2. Cast AoI, no mana floating, Storm 5
@@ -125,7 +125,7 @@ using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
 Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pre}} {{!ToA}}</row>
+<row variant="pile">{{!AoI}} {{!LED}} {{!LED}} {{!Pdt}} {{!ToA}}</row>
 
 This pile creates 5 Storm, which is usually enough.
 

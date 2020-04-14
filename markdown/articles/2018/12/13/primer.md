@@ -193,21 +193,21 @@ come up with in this new list:
 
 > {1}{B}{B}{B}{B} - 11 Storm
 
-<row variant="pile">{{!IC}} {{!RoF}} {{!CR}} {{!CB}} {{!ToA}}</row>
+<row variant="pile">{{!IC}} {{!Rain}} {{!CR}} {{!CB}} {{!ToA}}</row>
 
 The idea here is that you cast ToA twice by recycling it with the Bauble. ToA ->
 CB -> ToA costs 9 mana total. With 5 lands on the field (including all 4 black
 producing lands) you can make this pile work with no cards in hand and nothing
-but lands on board. This is the reason RoF and CR are used. RoF helps you get to
-threshold so that CR makes as much mana as possible. It's worth noting that LED
-is +3 mana like a CR with Threshold and could replace CR in some situations.
-Most of the time you won't have so many lands on board and you'll need to rely
-on rituals in hand or mana rocks on the field to get you up to 9 mana. As you
-might imagine this scenario won't come up that often, but sometimes you'll find
-youself with a bunch of mana and a Doomsday but no cantrip, and the best bet may
-be to slam the Doomsday and hope you get another turn unmolested. Incidentally
-the same setup can be used as a same-turn pile to potentially make upwards of 20
-copies of ToA if your opponent has an unusually high life total.
+but lands on board. This is the reason Rain of Filth and CR are used. Rain helps
+you get to threshold so that CR makes as much mana as possible. It's worth
+noting that LED is +3 mana like a CR with Threshold and could replace CR in some
+situations. Most of the time you won't have so many lands on board and you'll
+need to rely on rituals in hand or mana rocks on the field to get you up to 9
+mana. As you might imagine this scenario won't come up that often, but sometimes
+you'll find youself with a bunch of mana and a Doomsday but no cantrip, and the
+best bet may be to slam the Doomsday and hope you get another turn unmolested.
+Incidentally the same setup can be used as a same-turn pile to potentially make
+upwards of 20 copies of ToA if your opponent has an unusually high life total.
 
 Here is another potential pass-the-turn pile:
 
@@ -526,7 +526,7 @@ pretty bad in this matchup.
 +2 Flusterstorm
 
 You don't have time to be casting a bunch of cantrips or making enough land
-drops for RoF to be good. Flusterstorm is your best hope in these matchups.
+drops for Rain to be good. Flusterstorm is your best hope in these matchups.
 Prioritize stopping their combo over setting up your own. Draw4's are good in
 this matchup because they are the best single card at taking advantage of a
 window your opponent gives you, and it may be correct to side the same as Storm

@@ -29,7 +29,7 @@ A simple version of the pile looks like this:
 
 > Enough life to live for 2 turns post-DD
 
-<row variant="pile">{{!SI}} {{!Em}} {{!Isl}} {{!Dur}} {{!TO}}</row>
+<row variant="pile">{{!SI}} {{!Em}} {{!I}} {{!Dur}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile, then pass the turn
 2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
@@ -48,7 +48,7 @@ pass 1 turn.
 If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
-<row variant="pile">{{!Pn}} {{!SI}} {{!Em}} {{!TO}} {{!DD}}</row>
+<row variant="pile">{{!Pnd}} {{!SI}} {{!Em}} {{!TO}} {{!DD}}</row>
 
 Ponder on top means Shelldock Isle won't get fatesealed, you have Oracle as a
 backup plan, and a Doomsday as yet another backup plan to recycle cards in case
@@ -89,7 +89,7 @@ for example you got hit with Wasteland.
 
 > No mana on board, no cards in hand - {0}, 2 life
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!TO}} {{!LP}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!TO}} {{!LP}}</row>
 
 1. Pass the turn after casting Doomsday
 2. Draw the LED, play it out, and pass again.

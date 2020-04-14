@@ -74,7 +74,7 @@ well.
 
 > BS, Land in hand - {B}{B}{B} + {U}
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!TO}} {{!Pn}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!TO}} {{!Pnd}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Brainstorm, draw LED, SW, Ponder, put back Land, then Ponder
@@ -93,7 +93,7 @@ it.
 
 > Ponder, Land in hand - {B}{B}{B} + {U}{U}
 
-<row variant="pile">{{!BS}} {{!LED}} {{!SW}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!BS}} {{!LED}} {{!SW}} {{!Pnd}} {{!TO}}</row>
 
 1. Cast Doomsday and build the above pile
 2. Cast Ponder to draw Brainstorm

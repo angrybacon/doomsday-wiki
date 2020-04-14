@@ -19,7 +19,7 @@ Brainstorm post-Doomsday as long as you have an extra card in hand to put back.
 
 > {B}{B}{B} + Brainstorm + X
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pd}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pdt}} {{!LP}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back X then Predict on top
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Predict
@@ -100,7 +100,7 @@ well if you have an available land drop that turn.
 
 > {B}{B}{B} + Brainstorm + Street Wraith + X
 
-<row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off of LP and put back X then Ponder

@@ -42,7 +42,7 @@ pass-the-turn pile like this:
 
 > Ponder in hand - {U}{U}{U}{B}, 2 life
 
-<row variant="pile">{{!TS}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!Tsz}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
 You draw Thoughtseize for turn, take the Force from your opponent's hand, and
 then Ponder into the rest of the pile to win with Oracle. This type of pile can
@@ -158,13 +158,13 @@ your decklist. Let's look at piles that can work without artifacts.
 
 > Chalice on 0, Ponder in hand - {B}{B}{B} + {U}{U}{U}, 4 life
 
-<row variant="pile"> {{!SW}} {{!SW}} {{!TO}} {{!Isl}} {{!Isl}}</row>
+<row variant="pile"> {{!SW}} {{!SW}} {{!TO}} {{!I}} {{!I}}</row>
 
 With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells.
 
 > Ponder in hand, land drop remaining - {B}{B}{B} + {U}{U}{U}{U}, 4 life
 
-<row variant="pile"> {{!IU}} {{!Isl}} {{!TO}} {{!SW}} {{!Isl}}</row>
+<row variant="pile"> {{!IU}} {{!I}} {{!TO}} {{!SW}} {{!I}}</row>
 
 This pile works without the need for Street Wraith. You never have to cycle it,
 that slot could be anything, but here it gets you to 0 cards in the deck. You
@@ -254,7 +254,7 @@ strictly the same effect, similar piles will work against all 3.
 
 > SW in hand - 4 life ({3} versus Trinisphere)
 
-<row variant="pile">{{!LED}} {{!SW}} {{!TO}} {{!Isl}} {{!Isl}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!TO}} {{!I}} {{!I}}</row>
 
 Pass the turn after Doomsday. Draw LED for turn, cast it, and cycle both Wraiths
 (making UUU with LED) to draw and play Oracle. Agianst Trinisphere, you'll need
@@ -274,7 +274,7 @@ can draw a card on your opponent's turn.
 
 > {U}{U}{G}
 
-<row variant="pile">{{!SW}} {{!Veil}} {{!TO}} {{!Isl}} {{!Isl}}</row>
+<row variant="pile">{{!SW}} {{!VoS}} {{!TO}} {{!I}} {{!I}}</row>
 
 You need to pass 2 turns to execute this pile. On your first turn, you'll draw
 Wraith. Pass, and cycle it on your opponent's turn to draw Veil of Summer. Draw
@@ -384,7 +384,7 @@ can be effective at fighting Surgical Extraction
 
 > Ponder, Brainstorm in hand - {B}{B}{B} + {U}{U}, maximum 4 life
 
-<row variant="pile">{{!LED}} {{!Pn}} {{!SW}} {{!SW}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!Pnd}} {{!SW}} {{!SW}} {{!TO}}</row>
 
 After casting Doomsday, lead off with Ponder. If they Surgical, respond with
 Brainstorm so you can get the LED in your hand, and then draw a Street Wraith

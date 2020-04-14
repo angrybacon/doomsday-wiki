@@ -27,7 +27,7 @@ over multiple turns, utilising your draw step as a way to *dig* into the pile.
 
 > {B}{B}{B} + {1}{U} + Cantrip
 
-<row variant="pile">{{!Pd}} {{!Pn}} {{!LED}} {{!SW}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!Pnd}} {{!LED}} {{!SW}} {{!TO}}</row>
 
 Post-Doomsday, pick these 5 cards and form a pile with them. Draw into the
 Predict, either the same turn or by passing the turn to your opponent. Target
@@ -119,7 +119,7 @@ the examples above:
 
 Or
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!TS}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Tsz}} {{!TO}}</row>
 
 The first example is a *Single Cantrip + Predict* example and the second is a
 *Double Cantrip* example which also allows you to hold up {B} from your swamp to
@@ -129,7 +129,7 @@ If you are concerned about additional permission from the opponent you could
 even consider passing the turn again if you don't feel under pressure. Instead
 of using LED you can set up something like this:
 
-<row variant="pile">{{!Pd}} {{!SW}} {{!LP}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!SW}} {{!LP}} {{!Pnd}} {{!TO}}</row>
 
 In this example you can draw Predict for turn, play your island and pass again.
 At the end of the opponent's turn you can then cast the Predict, targeting

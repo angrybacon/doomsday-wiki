@@ -67,7 +67,7 @@ take a look at an example.
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
-<row variant="pile">{{!Echo}} {{!LED}} {{!LED}} {{!Ponder}} {{!BW}}</row>
+<row variant="pile">{{!EoE}} {{!LED}} {{!LED}} {{!Ponder}} {{!BW}}</row>
 
 To start this pile, you cast Brainstorm and trade the 2 useless cards for Echo
 and 2 LEDs. PLay out both LEDs, crack them for UUURRR, and flashback Echo,
@@ -86,7 +86,7 @@ extra cards in hand.
 
 > LED, Echo, and 2 useless cards in hand - {B}{B}{B}
 
-<row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pnd}} {{!TO}}</row>
 
 This pile will start out identically to our other, casting Echo to draw a
 fresh 7. Unfortunately, there are 9 cards left due to those pesky useless cards
@@ -107,7 +107,7 @@ into the pile.
 
 > LED, Echo, Oracle in hand - {B}{B}{B}
 
-<row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pn}} {{!TS}}</row>
+<row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pnd}} {{!Tsz}}</row>
 
 For just the cost of a Doomsday, you can get that Oracle back into your deck to
 draw again. In this situation you will draw 7 out of 8 remaining cards, but like
@@ -123,7 +123,7 @@ you to kill with {{Grapeshot}}
 
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 
-<row variant="pile">{{!Echo}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
+<row variant="pile">{{!EoE}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
 
 Cast Doomsday, play out your mana artifacts, sacrifice them all for UUUR, and
 flashback Echo. Now for the sake of demonstration, Let's assume you draw the
