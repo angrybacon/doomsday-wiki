@@ -46,7 +46,7 @@ Another example is presented here using Ideas Unbound.
 
 > {B}{B}{B} + Brainstorm + Thassa's Oracle
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!EoA}} {{!Pn}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!EoA}} {{!Pnd}}</row>
 
 You may find yourself in a scenario where you have a card in hand that is
 considered *dead* outside of the combo turn. Thankfully, BS allows you to take
@@ -72,7 +72,7 @@ starting mana cost.
 
 > {B}{B}{B} + Brainstorm + Thassa's Oracle + Cantrip
 
-<row variant="pile">{{!LED}} {{!SW}} {{!LP}} {{!EoA}} {{!Pn}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!LP}} {{!EoA}} {{!Pnd}}</row>
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
 1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
@@ -114,7 +114,7 @@ to between what is outside the pile and the top card of the pile.
 
 > {B}{B}{B} + {U} + Street Wraith + X
 
-<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
 It follows the exact sequence as the one before but you cycle into the
 Brainstorm rather into the mana needed for it. Once again, the same trick can be

@@ -51,7 +51,7 @@ of LED to generate the mana for Oracle.
 
 > {B}{B}{B} + Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!Pd}} {{!SW}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!Pdt}} {{!SW}} {{!LP}} {{!TO}}</row>
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Daze}} {{!TO}}</row>
 
@@ -80,7 +80,7 @@ the second cantrip to dig deeper into your pile while cracking the LED for mana.
 
 > {B}{B}{B} + Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
 The above pile is pretty simplistic but shows that sometimes the simplest route
 is the most effective one. With additional cantrips you can even include
@@ -115,7 +115,7 @@ Given we have some protection in hand already, it is probably best to *jam* DR
 into DD off of the swamp and build something like what we have already seen in
 the examples above:
 
-<row variant="pile">{{!Pd}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
 
 Or
 

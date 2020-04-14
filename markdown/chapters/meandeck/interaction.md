@@ -197,7 +197,7 @@ piles.
 
 > {B}{B}{B} + Brainstorm + X
 
-<row variant="pile">{{!Pd}} {{!LED}} {{!EoA}} {{!TO}} {{!Cavern of Souls}}</row>
+<row variant="pile">{{!Pdt}} {{!LED}} {{!EoA}} {{!TO}} {{!Cavern of Souls}}</row>
 
 You should recognise the above as a simplified Brainstorm pile. In this we have
 simply swapped out a Lotus Petal with Cavern. This severely punishes anyone
@@ -269,7 +269,7 @@ PTT example against a Chalice of the Void.
 
 > {B}{G} + {U} + Brainstorm + X (Post Doomsday)
 
-<row variant="pile">{{!Abrupt Decay}} {{!LED}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!Abrupt Decay}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
 Although we are talking predominantly about Chalice of the Void, the same
 information can apply to facing against Counterbalance (Veil still gets around
@@ -322,7 +322,7 @@ this scenario as, despite costing {1}{U} it allows you to *burn through* 2 cards
 from the stack. Something like the following may be useful facing an opposing
 Narset for example (spread over multiple turns):
 
-<row variant="pile">{{!Pn}} {{!Pd}} {{!EoA}} {{!Pn}} {{!TO}}</row>
+<row variant="pile">{{!Pnd}} {{!Pdt}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
 One key thing to note with these cards involves Teferi, Time Raveler's {-3}
 ability. If use the ability on a Leovold, you *will* get to draw the card
@@ -408,7 +408,7 @@ to be considered.
 
 > {B}{B}{B} + {U}{U} + Cantrip
 
-<row variant="pile">{{!SW}} {{!Edge}} {{!TO}} {{!DD}} {{!DD}}</row>
+<row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
 
 Here you have a pile where, if they Surgical in response to the cantrip effect
 on Doomsday, you will have a deterministic win (using one of Ponder, Brainstorm
@@ -437,7 +437,7 @@ to activate the Grindstone but it is possible to play around.
 
 >{B}{B}{B} + {U}{U} to {U}{U}{U}{U} + Cantrip
 
-<row variant="pile">{{!Pn}} {{!Pn}} {{!SW}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!Pnd}} {{!Pnd}} {{!SW}} {{!EoA}} {{!TO}}</row>
 
 For the example above, if they Grindstone when digging into the pile you will
 *mill* Ponder and Ponder and then also Wraith and Edge and draw TO to be able to
