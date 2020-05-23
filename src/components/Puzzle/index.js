@@ -6,7 +6,7 @@ import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Collapsible from '../Collapsible';
-import Decklist from '../Decklist';
+import Deck from '../Deck';
 import Listify from '../Listify';
 import useStyles from './styles';
 
@@ -50,7 +50,7 @@ export default function Puzzle({ barf, component, data, words }) {
                      textToHighlight={title} />
       </Typography>
       <Box className={c({[classes.barf]: barf})} my={2}>
-        <Decklist collapsible path={deckFile} />
+        <Deck collapsible path={deckFile} />
       </Box>
       {notes && (
         <Typography paragraph>

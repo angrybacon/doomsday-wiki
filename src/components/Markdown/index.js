@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 import Typography from '@material-ui/core/Typography';
 import mana from '../../tools/mana';
-import Decklist from '../Decklist';
+import Deck from '../Deck';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
 import Tweet from '../Tweet';
@@ -44,7 +44,7 @@ export default function Markdown({ className, source, ...rest }) {
     processingInstructions: [
       /* eslint-disable react/display-name, react/prop-types */
       {
-        processNode: ({ attribs }) => React.createElement(Decklist, {
+        processNode: ({ attribs }) => React.createElement(Deck, {
           barf: true,
           collapsible: true,
           path: attribs.deckfile,
