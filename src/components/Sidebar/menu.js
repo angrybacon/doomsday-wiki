@@ -9,7 +9,7 @@ import React from 'react';
 
 export default {
   appendices: {icon: <FileOutlineIcon />, order: 3, subtitle: 'Other Resources', title: 'Appendices'},
-  articles: {icon: <NewspaperIcon />, subtitle: 'Articles', title: 'Articles'},
+  articles: {icon: <NewspaperIcon />, subtitle: 'Article Archive', title: 'Articles'},
   ddeft: {icon: <FlaskOutlineIcon />, order: 1, subtitle: 'Experimental Frenzy', title: 'DDEFT'},
   ddft: {icon: <FlashIcon />, order: 0, subtitle: 'Doomsday Fetchland Tendrils', title: 'DDFT'},
   meandeck: {icon: <EyeOutlineIcon />, order: 2, subtitle: 'Force of Will Doomsday', title: 'Meandeck'},
