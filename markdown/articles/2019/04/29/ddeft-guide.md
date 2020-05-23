@@ -25,7 +25,7 @@ in a MTGO challenge on April 14th, 2019 with {{Experimental Frenzy}} Doomsday.
 
 ## Current Decklist
 
-<div deckfile="2019/04/ddeft.txt" />
+<deck path="2019/04/ddeft.txt" />
 
 We have concluded that a list similar to this is optimal.
 

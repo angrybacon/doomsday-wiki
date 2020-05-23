@@ -24,7 +24,7 @@ Just always go fo it.
 
 ## Mindkiller Doomsday
 
-<div deckfile="2020/04/mindkiller.txt" />
+<deck path="2020/04/mindkiller.txt" />
 
 I'm sure by now you've looked at the decklist, maybe closed it for a second and
 looked again, praying it'll be different, like when you peer into the fridge at

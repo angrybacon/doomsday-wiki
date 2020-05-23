@@ -47,10 +47,9 @@ export default function Markdown({ className, source, ...rest }) {
         processNode: ({ attribs }) => React.createElement(Deck, {
           barf: true,
           collapsible: true,
-          path: attribs.deckfile,
+          path: attribs.path,
         }),
-        replaceChildren: true,
-        shouldProcessNode: ({ attribs }) => attribs && attribs['deckfile'],
+        shouldProcessNode: ({ name }) => name === 'deck',
       },
       {
         processNode: ({ attribs }) => React.createElement(Mana, {

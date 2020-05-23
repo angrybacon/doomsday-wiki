@@ -233,11 +233,11 @@ starting points for either list TCDecks has some listed:
 
 [Esper by Hulahula](https://www.tcdecks.net/deck.php?id=33721&iddeck=299988)
 
-<div deckfile="2020/03/meandeck.buw.txt" />
+<deck path="2020/03/meandeck.buw.txt" />
 
 [BUG by Gre3n1T](https://www.tcdecks.net/deck.php?id=33454&iddeck=296642)
 
-<div deckfile="2020/03/meandeck.bug.txt" />
+<deck path="2020/03/meandeck.bug.txt" />
 
 ## *The Madness has taken me, how do I find out more!?*
 

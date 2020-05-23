@@ -26,7 +26,7 @@ their weeklies, so I was pretty sure I wasn't just getting really lucky and
 might actually be on to something. I 4-1'd my last 2 leagues before the SCG
 Worcester weekend and was feeling pretty good about the list.
 
-<div deckfile="2019/01/ddft.txt" />
+<deck path="2019/01/ddft.txt" />
 
 On Sunday I got up at 6am, drove 40 minutes to a friend's house, and then got in
 his car and rode another 1.5 hours to Worcester. We met up with the rest of my
