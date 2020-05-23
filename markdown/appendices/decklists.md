@@ -18,7 +18,9 @@ focuses on building resources before going off. Since TO is so compact and cheap
 compared to its predecessors, it can still allow for quick win with an actual
 long game plan.
 
-<deck path="meandeck.txt" />
+<deck path="meandeck.ubw.txt" />
+
+<deck path="meandeck.ubg.txt" />
 
 Multiple 5-0's and 1K top 8's, as well as a MTGO Challenge top8's to its name.
 This is a proven list based around Experimental Frenzy that is also moderately

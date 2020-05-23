@@ -13,6 +13,7 @@ export default makeStyles(theme => ({
     borderColor: theme.palette.divider,
     borderTopStyle: 'solid',
     borderWidth: 1,
+    marginTop: [-1, '!important'],
     padding: 0,
     position: 'inherit',
   },
