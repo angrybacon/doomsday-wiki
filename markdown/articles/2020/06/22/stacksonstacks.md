@@ -9,9 +9,9 @@ Companion mechanic being pushed out, we are able (at least until the next
 printing disaster) to take stock and ease into a semi stable metagame. For
 Doomsday, this means being able to stack up some results and get some real
 testing in. The core of Meandeck Doomsday is pretty well settled now however
-there are some key variations that are being tried and debated on.
+there are some key variations that are being tested and debated on.
 
-Recently, on the Discord, the discussion came up of the advantages and
+Recently, in the Discord, the discussion came up of the advantages and
 disadvantages of different interaction elements. This includes choices which
 inform colour selection for the main deck, sideboard and takes into account
 playstyle and meta considerations.
@@ -22,7 +22,7 @@ into some of the nuances in using the different tools available to us when
 playing. I will also provide some real world examples where certain elements
 have shone and finish off with mention of the greatest matchup in Legacy.
 
-## 1. The Tools
+## The Tools
 
 Previously I discussed a variety of options that different colour splashes
 provide. In this article I will provide a defined list of *categories* that will
@@ -33,8 +33,9 @@ pretty much a "core tool" in the deck and unlikely to be
 - Discard
 - Veil of Summer
 - Orim's Chant / Silence
-- Pyroblast
+- REB / Pyroblast
 - Daze
+- Spell Pierce / Flusterstorm
 
 ### Discard
 
@@ -50,10 +51,10 @@ personally like 2:1 in Thoughtseize's favour.
 Therapy is less favoured at the moment. It has a greater range of efficacy with
 a *higher ceiling* of potentially getting multiple hate pieces out of hand in
 one sweep but with a *lower floor* of failing to take anything at all. It does
-have on other advantage (if running {{Baleful Strix}} in the deck) that allows
+have one other advantage (if running {{Baleful Strix}} in the deck) that allows
 you to cast it multiple times thanks to the flashback clause. Nevilshute has
 recently been having great success running a 1:1:1 ratio of all three discard
-spells in his main deck for maximum flexibility.
+spells in their main deck for maximum flexibility.
 
 Targeted discard is a very effective protection method as it allows both the
 removal of at least one piece of opposing interaction from the opponent. Unlike
@@ -114,3 +115,62 @@ graveyard in response to {{Unearth}} with {{Faerie Macabre}} or an
 {{Aether Vial}} on 4 putting a {{Venser, Shaper Savant}} into play to bounce
 Oracle off the stack, it should protect you from 99& of what you can expect to
 face.
+
+If you were to consider a hypothetical combo mirror the three tools above would
+hold somewhat of a rock-paper-scissors dynamic. Discard tends to be more effective
+against {{W}} chant effects, chants better than Veil and Veil beats up on discard.
+All three sets of tools are perfectly justifiable in use and there is a certain
+amount of playstyle preference and local / wider metagame shift to consider.
+
+### REB / Pyroblast
+
+The next tool to discuss is the pairing of {{Red Elemental Blast}} and {{Pyroblast}}.
+Often these simply perform like an additional (albeit more limited) copy of
+Force of Will however there is a bit more nuance to using them in/ considering them for
+your list. They cannot fight over opposing threats for the most part other than
+something like {{Show and Tell}} or {{Echo of Eons}} but are instead good at defending
+against opposing countermagic. They are not effective against opposing Red Blasts but
+are effective at not being countered by said opposing Red Blasts. Equally, they don't
+prevent Veil from resolving but equally do not feed into it obtaining *value*
+ which can make the consideration of using the Veil trickier.
+ 
+ Red Blasts have the second function that makes them favourable which is the ability
+ to potential remove threats from the board as well. {{Narset, Parter of Veils}}, 
+ {{Leovold, Emmissary of Trest}} and {{Delver of Secrets}} are all viable targets
+ that warrant removal assuming they were able to resolve in the first place. Though they
+ can be countered (unlike common counterpart {{Abrupt Decay}}) they do not get stopped
+ by Veil as decay can be.
+ 
+ As with the other three previously mentioned, when to bring Red Blasts along can depend
+ on playstyle, personal preference, expected metagame shifts, or even just limitations
+ of your collection (as some may not have the correct dual lands for a given splash which
+ is totally okay!). There is currently no objectively correct answer on which interaction
+ to bring to the table however a mix is generally considered better. Normally the mix
+ inolves pairing Discard plus one of the other colour splashes (the deck inherently being
+ base {{UB}} meaning this is easier to support) however running say 6-8 Chant/Silences is
+ not uncommon. Certain tools are of course better or worse depending on what you are facing 
+ and tend to favour being good against facing against {{U}} based decks.
+ 
+ ### Daze
+ 
+ {{Daze}} gets a slot all by itself over other potential countermagic due to the mana 
+ efficiency it displays. It enables easy and aggressive early combo turns and can protect
+ against a variety of threats. In games expected to go longer it does lose its viability
+ at hitting something but otherwise it can provide an efficient *soft counter*. This
+ makes it especially viable to be placed inside a Doomsday pile. 
+ 
+ Consider the following example:
+ 
+ You have resolved Doomsday/drawn into your stack and have {{UUU}} available.
+ 
+ <row variant="pile">{{!IU}} {{!LP}} {{!EoA}} {{!Daze}} {{!TO}}</row>
+ 
+ Where something like a Veil, Duress or Force would require additional cards in
+ hand or additional mana, the Daze is easy to *slot* into our basic pile. 
+ 
+ ### Spell Pierce / Flusterstorm
+ 
+ 
+ ## Example Scenarios
+ 
+ ## The Doomsday Mirror
