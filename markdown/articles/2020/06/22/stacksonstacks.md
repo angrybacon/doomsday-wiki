@@ -189,6 +189,78 @@ prevent Veil from resolving but equally do not feed into it obtaining *value*
  
 ### Scenario 1: 
 
+> Game 1
+> You're at 13 life
+> Opponent is on RUG Delver ft. {{Stifle}}
+> Opponent has 2 {{Tarmogyf}} in play. Both are 3/4.
+> {{Snow-Covered Swamp}}, {{Snow-Covered Island}}, {{Snow-Covered Island}} and {{Arcum's Astrolabe}} in play.
+> Opponent has a single uncracked fetchland in play. 4 cards in hand.
+
+<row variant="hand">{{!DR|MM}} {{!DD|WTH}} {{!FoW|EMA}} {{!Daze|NEM}} {{!BS|MM}} {{!Dur|PD3}} {{!Bayou|LEB}}</row>
+
+In this example we have a situation where if we want to win, we have to be able to resolve
+Doomsday and win in the same turn thanks to the two Goyfs facing us. Let's quickly explore
+the face value options and compare them to what the opponent could have, and the other tools
+at our disposal. 
+
+As the scenario stands, the first thing to try would be to consider whether to use the Duress
+or not. If we think they do not have any interaction, or only a single piece of basic interaction,
+we could consider casting {{Dark Ritual}} into Doomsday and build something simple like:
+
+ <row variant="pile">{{!IU}} {{!LP}} {{!EoA}} {{!LP}} {{!TO}}</row>
+
+This will allow us to win through a single piece of disruption thanks to the Force of Will
+where we would pitch Daze to Force and Brainstorm into the pile. It does however fold
+to if they have two pieces of interaction. We are constrained on being able to rely
+on both Daze and Force as it may be that they only have *pitch* countermagic and so can
+hold up the fetchland to pay for the Daze. It would also mean we would need to *pitch*
+Brainstorm to the Force leaving us with no way to draw into our pile. As a result
+it is probably best to Duress first to see if we are able to commit into a pile
+with Force and / or Daze backup.
+
+If we had Veil instead of Duress we should probably also cast it here first. If they
+cannot stop it then there is only Stifle that we need to be concerned with. You would 
+also have to consider not being able to build a pile that wins with >0 cards in the
+library as they may still have {{Lightning Bolt}} for Oracle. Waiting on
+Veil to try and accrue value is fine if you know they have an answer to Doomsday here
+however awkward if they elect to not use it until after the pile is resolved. We cannot
+assume whether we will be able to resolve Veil and make effective use of the card draw.
+If we were to have Silence, then they would have to stop it or lose any chance to interact.
+
+For any of the above, if they do try and counter it, we would need to consider whether to
+commit more cards or not. If they use a Force of Will you cannot Daze back here however
+it leaves them with only 2 cards left in hand and you with access to Force and/or Daze.
+If they use a Daze then it gets a little trickier. If it's Duress you can probably pay
+and maybe wait until next turn to try and go off, now with them 2 cards down and you with
+additional mana available. If it's Silence or Veil you likely are unable to win this turn
+and so it is probably better to not pay for it. If it's a Spell Pierce they commit, we
+can probably commit our Daze to stop it as they have now left themselves unable to pay
+for it. 
+
+> If we play Silence and it resolves without needing to commit further resource. (Using Snow-Covered Island through Astrolabe).
+
+We can easily build a same turn win Brainstorm + LED pile and win.
+
+<row variant="pile">{{!LED}} {{!EoA}} {{!IU}} {{!LP}} {{!TO}}</row>
+
+   1. Silence has resolved.
+   1. Cast Dark Ritual with Snow-Covered Swamp into Doomsday building the above pile.
+   1. Cast Brainstorm with Snow-Covered Island, putting back Force and Ideas Unbound on top.
+   1. Cast Lion's Eye Diamond
+   1. Cycle EoA cracking LED for {U}{U}{U} and draw Ideas Unbound
+   1. Cast Ideas Unbound and draw Force, LP, Oracle
+   1. Use the {U} floating and LP to cast Oracle
+   
+> If we play Veil and it resolves without needing to commit further resource. (Using Bayou).
+
+We need to try and build something that plays around Stifle or removal for Oracle
+however we could consider not trying to play around either. They cannot commit both
+due to their mana constraints so Daze should be sufficient to protect us.
+
+
+<row variant="pile">{{!X}} {{!X}} {{!X}} {{!X}} {{!X}}</row>
+
+
 
 
 
