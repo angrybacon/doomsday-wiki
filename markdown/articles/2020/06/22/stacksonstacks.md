@@ -170,7 +170,26 @@ prevent Veil from resolving but equally do not feed into it obtaining *value*
  
  ### Spell Pierce / Flusterstorm
  
+ These are both proven and effective disruption / protection pieces. {{Spell Pierce}} has 
+ the added benefit of being able to deal with a Chalice or Narset in addition to other
+ stack based interaction whereas {{Flusterstorm}} is just generally more efficient, 
+ normally able to win a large counterwar by itself (generally only superceeded by an 
+ opposing Veil or sometimes another Fluster. Both are of course *soft* counters and 
+ thus, like Daze, can lose effectiveness in a longer game. These are perfectly fine
+ to be used in a pile, especially with an excess of {{U}} available however, unlike
+ the other, more proactive pieces, these can't be used effectively alongside
+ {{Lion's Eye Diamond}}. 
  
  ## Example Scenarios
  
+  With that, you have a pretty concise list (however certainly non-exhaustive) of stack
+ based interaction tools that could be run. We will now look at a few scenarios where
+ you could find yourself wanting one or more of them including some real world game
+ examples.
+ 
+### Scenario 1: 
+
+
+
+
  ## The Doomsday Mirror
