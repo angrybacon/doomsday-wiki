@@ -182,19 +182,19 @@ prevent Veil from resolving but equally do not feed into it obtaining *value*
  
  ## Example Scenarios
  
-  With that, you have a pretty concise list (however certainly non-exhaustive) of stack
+ With that, you have a pretty concise (however certainly non-exhaustive) list of stack
  based interaction tools that could be run. We will now look at a few scenarios where
  you could find yourself wanting one or more of them including some real world game
  examples.
  
 ### Scenario 1: 
 
-> Game 1
-> You're at 13 life
-> Opponent is on RUG Delver ft. {{Stifle}}
-> Opponent has 2 {{Tarmogyf}} in play. Both are 3/4.
-> {{Snow-Covered Swamp}}, {{Snow-Covered Island}}, {{Snow-Covered Island}} and {{Arcum's Astrolabe}} in play.
-> Opponent has a single uncracked fetchland in play. 4 cards in hand.
+> Game 1. 
+> You're at 13 life. 
+> Opponent is on RUG Delver ft. {{Stifle}}. 
+> Opponent has 2 {{Tarmogyf}} in play. Both are 3/4.  
+> {{Snow-Covered Swamp}}, {{Snow-Covered Island}}, {{Snow-Covered Island}} and {{Arcum's Astrolabe}} in play.  
+> Opponent has a single uncracked fetchland in play. 4 cards in hand.  
 
 <row variant="hand">{{!DR|MM}} {{!DD|WTH}} {{!FoW|EMA}} {{!Daze|NEM}} {{!BS|MM}} {{!Dur|PD3}} {{!Bayou|LEB}}</row>
 
