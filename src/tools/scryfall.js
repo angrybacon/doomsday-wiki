@@ -18,6 +18,7 @@ const CARDS = {
   DR:    ['Dark Ritual',              'LEB'],
   DW:    ['Divining Witch',           'NEM'],
   Dur:   ['Duress',                   'USG'],
+  Dz:    ['Daze',                     'NEM'],
   EF:    ['Experimental Frenzy',      'GRN'],
   ET:    ['Echoing Truth',            'DST'],
   Em:    ['Emrakul, the Aeons Torn',  'ROE'],
