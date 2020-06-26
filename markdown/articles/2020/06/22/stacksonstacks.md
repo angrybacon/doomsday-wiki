@@ -132,7 +132,11 @@ something like {{Show and Tell}} or {{Echo of Eons}} but are instead good at def
 against opposing countermagic. They are not effective against opposing Red Blasts but
 are effective at not being countered by said opposing Red Blasts. Equally, they don't
 prevent Veil from resolving but equally do not feed into it obtaining *value*
- which can make the consideration of using the Veil trickier.
+ which can make the consideration of using the Veil trickier. Splitting your
+ Red Blast effects is a good idea whenfacing cards like {{Surgical Extraction}}
+ or {{Meddling Mage}} as it stops the opponent being able to completely *lock out*
+ you from the Red Blast effects completely. This is anothe reason it's good to
+ have a mix of Discard effects too, if running them.
  
  Red Blasts have the second function that makes them favourable which is the ability
  to potential remove threats from the board as well. {{Narset, Parter of Veils}}, 
@@ -168,6 +172,9 @@ prevent Veil from resolving but equally do not feed into it obtaining *value*
  Where something like a Veil, Duress or Force would require additional cards in
  hand or additional mana, the Daze is easy to *slot* into our basic pile. 
  
+ You can also perform some useful tricks with Daze alongside some of the other cards in
+ order to re-use lands when you have a spare land drop or colour filter between them.
+ 
  ### Spell Pierce / Flusterstorm
  
  These are both proven and effective disruption / protection pieces. {{Spell Pierce}} has 
@@ -193,10 +200,11 @@ prevent Veil from resolving but equally do not feed into it obtaining *value*
 > You're at 13 life. 
 > Opponent is on RUG Delver ft. {{Stifle}}. 
 > Opponent has 2 {{Tarmogyf}} in play. Both are 3/4.  
-> {{Snow-Covered Swamp}}, {{Snow-Covered Island}}, {{Snow-Covered Island}} and {{Arcum's Astrolabe}} in play.  
+> {{Snow-Covered Swamp}}, {{Snow-Covered Island}}, {{Snow-Covered Island}}, {{Bayou}} and {{Arcum's Astrolabe}} in play.  
+> You already played a land.  
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.  
 
-<row variant="hand">{{!DR|MM}} {{!DD|WTH}} {{!FoW|EMA}} {{!Daze|NEM}} {{!BS|MM}} {{!Dur|PD3}} {{!Bayou|LEB}}</row>
+<row variant="hand">{{!DR|MM}} {{!DD|WTH}} {{!FoW|EMA}} {{!Daze|NEM}} {{!BS|MM}} {{!Dur|PD3}}</row>
 
 In this example we have a situation where if we want to win, we have to be able to resolve
 Doomsday and win in the same turn thanks to the two Goyfs facing us. Let's quickly explore
@@ -257,11 +265,30 @@ We need to try and build something that plays around Stifle or removal for Oracl
 however we could consider not trying to play around either. They cannot commit both
 due to their mana constraints so Daze should be sufficient to protect us.
 
+<row variant="pile">{{!LED}} {{!IU}} {{!Pn}} {{!LP}} {{!TO}}</row>
 
-<row variant="pile">{{!X}} {{!X}} {{!X}} {{!X}} {{!X}}</row>
+   1. Veil has resolved.
+   1. Cast Dark Ritual with Snow-Covered Swamp into Doomsday building the above pile.
+   1. Cast Brainstorm with Snow-Covered Island, putting back Daze and Ideas Unbound on top.
+   1. Cast Lion's Eye Diamond
+   1. Cast Ponder with Snow -Covered Island cracking LED for {U}{U}{U} and draw Ideas Unbound
+   1. Cast Ideas Unbound and draw Daze, LP, Oracle
+   1. Use the {U} floating and LP to cast Oracle
+   1. Cast Daze on any interaction they might have.
+   
+   > If we play Duress and it resolves we see the following hand:
+   
+  <row variant="hand">{{!Spell Snare}} {{!Stifle}} {{!Scalding Tarn}} {{!Daze|NEM}} {{!Oko, Thief of Crowns}}</row> 
 
-
-
-
+Whereas Veil and Silence (in this instance) have effectively nullified a chunk of their hand, 
+Duress, although giving us information on it, has unfortunately still left a problem. We cannot
+mimic what we did with a resolved Veil as, depending on what we take, they could still Daze /
+{{Spell Snare}} the pile. Now that weve seen their hand, we need to assess what we can / should
+take and whether we can "go for it" this turn. We know they don't have removal so it opens up the
+options for a pile that doesn't leave the deck with 0 cards left in it. We also know they can
+only use on of their 1 cmc spells if Daze were to be taken which, we could then deal with our
+own Daze. If we take the Snare it would allow us access to Ideas Unbound however we wouldn't be
+able to draw into it with Ponder (thanks to Daze) and we couldn't cycle into it with Edge
+(thanks to Stifle). 
 
  ## The Doomsday Mirror
