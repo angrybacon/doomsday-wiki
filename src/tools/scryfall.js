@@ -45,6 +45,7 @@ const CARDS = {
   S:     ['Swamp',                    'UNH'],
   SCI:   ['Snow-Covered Island',      'ICE'],
   SCS:   ['Snow-Covered Swamp',       'ICE'],
+  SE:    ['Surgical Extraction',      'NPH'],
   SI:    ['Shelldock Isle',           'LRW'],
   ST:    ['Scalding Tarn',            'ZEN'],
   SW:    ['Street Wraith',            'FUT'],
