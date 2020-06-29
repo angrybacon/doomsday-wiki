@@ -1,8 +1,7 @@
 [Doomsday Discord](https://discord.gg/vajvFXt)
 
 The Doomsday Wiki is intended to be the most complete and up to date work on how
-to cast the card named Doomsday in the Doomsday Storm combo deck in the Legacy
-format of Magic: the Gathering.
+to cast the card named Doomsday in the Legacy format of Magic: the Gathering.
 
 There is actually much more to how to play the deck, but understanding how to
 cast the namesake card of the deck is a pretty big piece of the puzzle. This
