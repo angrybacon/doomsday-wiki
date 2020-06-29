@@ -38,7 +38,7 @@ export default makeStyles(theme => ({
   rowHand: {
     '@global *': {
       padding: 1,
-      width: '14%',
+      width: '12%',
     },
     justifyContent: 'flex-start',
   },
