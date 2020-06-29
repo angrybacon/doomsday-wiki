@@ -1,7 +1,7 @@
 ---
 authors: Doishy
 banner: /assets/daze.nem.jpg
-title: Fat Stacks - Obtaining maximum value from your interaction
+title: Fat Stacks - Obtaining Maximum Value from Your Interaction
 ---
 
 With the tumultuous start to the year now easing up a little and Lurrus/the
@@ -185,10 +185,10 @@ between them.
 
 ### Spell Pierce / Flusterstorm
 
-These are both proven and effective disruption / protection pieces. {{Spell
-Pierce}} has the added benefit of being able to deal with a Chalice or Narset in
-addition to other stack based interaction whereas {{Flusterstorm}} is just
-generally more efficient, normally able to win a large counterwar by itself
+These are both proven and effective disruption / protection pieces.
+{{Spell Pierce}} has the added benefit of being able to deal with a Chalice or
+Narset in addition to other stack based interaction whereas {{Flusterstorm}} is
+just generally more efficient, normally able to win a large counterwar by itself
 (generally only superceeded by an opposing Veil or sometimes another Fluster.
 Both are of course *soft* counters and thus, like Daze, can lose effectiveness
 in a longer game. These are perfectly fine to be used in a pile, especially with
@@ -208,7 +208,8 @@ some real world game examples.
 > You're at 13 life.  
 > Opponent is on RUG Delver ft. {{Stifle}}.  
 > Opponent has 2 {{Tarmogoyf}} in play. Both are 3/4.  
-> You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island, Bayou and
+> You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island and
+> Bayou.  
 > You have Arcum's Astrolabe in play.  
 > You already played a land.  
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.
@@ -239,8 +240,8 @@ Daze backup.
 
 If we had Veil instead of Duress we should probably also cast it here first. If
 they cannot stop it then there is only Stifle that we need to be concerned with.
-You would also have to consider not being able to build a pile that wins with >0
-cards in the library as they may still have {{Lightning Bolt}} for Oracle.
+You would also have to consider not being able to build a pile that wins with
+\>0 cards in the library as they may still have {{Lightning Bolt}} for Oracle.
 Waiting on Veil to try and accrue value is fine if you know they have an answer
 to Doomsday here however awkward if they elect to not use it until after the
 pile is resolved. We cannot assume whether we will be able to resolve Veil and
@@ -384,8 +385,8 @@ just allowed Thoughtseize to resolve then we could have taken a Force and then
 Forced back if they tried to fight over the Doomsday itself.
 
 If they had had a third piece of relevant interaction then keeping our Second
-Force of Will is correct as it would allow us to fight over the Doomsday resolving
-and create a *pass the turn* pile to win the next turn.
+Force of Will is correct as it would allow us to fight over the Doomsday
+resolving and create a *pass the turn* pile to win the next turn.
 
 ## The Doomsday Mirror
 
@@ -596,7 +597,7 @@ to play Oracle. He probaly should have built something like:
 With the above he basically would be brute forcing through Oracle with his Force
 backup and have Cavern / Veil to help resolve it whilst also playing around the
 possibility of Pyroblast killing it in response to the Oracle trigger (assuming
->0 cards left).
+\>0 cards left).
 
 ## Closing Thoughts
 
