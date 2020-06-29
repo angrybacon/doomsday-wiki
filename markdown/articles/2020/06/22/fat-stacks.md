@@ -66,7 +66,7 @@ hand to help inform future decisions.
 
 The main downside to discard, and why it is not the most prevalent secondary
 interaction element, after counter magic, is of course {{Veil of Summer}}.
-Firing a discard spell into an open {{G}} mana is a recipe for giving your
+Firing a discard spell into an open {G} mana is a recipe for giving your
 opponent a 2 for 1. Despite this current meta trend, it's still worth running,
 it just requires some additional consideration for timing of use.
 
@@ -323,7 +323,7 @@ find additional protection or free up our mana.
 > You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island,
 > Volcanic Island and Underground Sea in play.  
 > You have not played a land.  
-> Opponent has 6 untapped lands, 4 that can make {{U}}. 5 cards in hand. We know
+> Opponent has 6 untapped lands, 4 that can make {U}. 5 cards in hand. We know
 > they have at least 1 Force of Will and blue card.
 
 <row variant="hand">{{!DR|MMQ}} {{!DD}} {{!FoW|EMA}} {{!FoW}} {{!Dz}} {{!Tsz}} {{!Pdt}} {{!LP}}</row>
