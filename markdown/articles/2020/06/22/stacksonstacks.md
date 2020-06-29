@@ -1,7 +1,7 @@
 ---
 authors: Doishy
 banner: /assets/daze.nem.jpg
-title: Stacks on stacks - The choices of Interaction
+title: Fat Stacks - Obtaining maximum value from your interaction
 ---
 
 With the tumultuous start to the year now easing up a little and Lurrus/the
