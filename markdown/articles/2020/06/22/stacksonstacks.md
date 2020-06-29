@@ -208,8 +208,8 @@ some real world game examples.
 > You're at 13 life.  
 > Opponent is on RUG Delver ft. {{Stifle}}.  
 > Opponent has 2 {{Tarmogoyf}} in play. Both are 3/4.  
-> Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island, Bayou and
-> Arcum's Astrolabe in play.  
+> You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island, Bayou and
+> You have Arcum's Astrolabe in play.  
 > You already played a land.  
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.
 
@@ -317,7 +317,75 @@ to find additional protection or free up our mana.
 
 ### Scenario 2
 
-NEED TO WRITE
+> Game 1.  
+> You're at 13 life.  
+> Opponent is on Standstill.    
+> Opponent has {{Standstill}} in play.   
+> You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island, Volcanic Island and Underground Sea in play.    
+> You have not played a land.  
+> Opponent has 6 untapped lands, 4 that can make {{U}}. 5 cards in hand. We know they have at least 1 Force of Will and  blue card.
+
+<row variant="hand">{{!DR|MMQ}} {{!DD}} {{!FoW|EMA}} {{!FoW}} {{!Dz}}
+{{!Ts|PD3}} {{Pdt}} {{LP}}</row>
+
+Here we have a scenario where we are not under a huge amount of pressure however, 
+our opponent does have a Standstill in play, we have finally hit 8 cards in our
+hand so would have to discard one anyways, and they have just landed a threat in
+the form of a tapped {{Faerie Conclave}}. This is a good time to initiate a fight
+because even with the three cards from Standstill, they only hit parity with us
+in terms of cards in hand.
+
+We should lead here with Thoughtseize rather than going straight to business
+with Petal into Doomsday. This gives the most amount of information and allows
+us, at the very least, to take out the Force of Will we know about from their
+hand. Again, if this resolves, it will at least enable us to take one relevant 
+spell and see if it safe to try and combo out here. If we had Veil or a Chant
+effect like Silence, these would also be preferable to lead on as they would
+act like a pseudo discard spell in this instance, prompting the opponent into
+having to make a response. Our opponent only seems to be playing {{UW}} so 
+if we were to have a red blast, it could likely answer most of their responses
+however in that scenario, we would have to commit the Doomsday as the initial
+spell as we would only have reactive cards. This isn't too bad as in theory
+it would still trade nicely with most of their relevant interaction however
+it could mean getting blown out by something like {{Dovin's Veto}}. For a deck
+like Standstill, the only rogue card that really makes Thoughtseize shine
+over the alternatative options is Nimble Obstructionist being cycled as none
+of the other options can deal with it.
+
+On Thoughtseizing them, and Standstill resolving, they respond with Force of Will
+pitching the {{Supreme Verdict}} we knew about as their blue card. Now this could
+tell us one of two things. Either, they have more interaction that they wish to
+remain hidden and are happy to trade two cards we know about to protect it, or, 
+they have no more interaction and don't want us to know they are *shields down*.
+In either scenario, allowing Thoughtseize to resolve is pretty important in
+providing that information for us so fighting this Force is very justifiable.
+Even if they commit even further to defending it, it means less possible interaction
+for the Doomsday itself. 
+
+If we do fight further, we need to think on what is worth
+pitching to our next Force of Will. We have three options; Daze, another Force and
+Predict. Predict is the card that will allow us to win in this same turn if it
+turns out they don't have an answer so we want to try and keep this at all costs.
+Daze is another possible piece of interaction that wouldn't require us to pitch
+Predict to it (unlike say, a second Force of Will) however even if the opponent
+hardcast a Force of Will, they would still have the mana to pay for it. Taking 
+all this into account it is likely best to pay for Force of Will with our Daze.
+This leaves the option to retain a second Force of Will and still leaves
+Predict available for the combo whilst using the *least useful* card. If they had
+hardcast Force of Will and a second piece of cheap interaction like Spell Pierce
+then we might be able to accrue value from the Daze however the fact they elected
+to not pay for the first Force of Will indicates it is unlikely this will occur.
+
+Given this, we Force back and they allow Thoughtseize to resolve. We see that 
+their hand has a number of blanks and a {{Force of Negation}} plus a blue card.
+This is part explains why they did not want to hardcast the initial Force of
+Will so that they would have the mana for the Force of Negation. If they
+had just allowed Thoughtseize to resolve then we could have taken a Force and
+then Forced back if they tried to fight over the Doomsday itself.
+
+If they had had a third piece of relevant interaction then keeping our Second
+Force of Will is correct as it would allow us to fight over the Doomsday resolving
+and create a *pass the turn* pile to win the next turn.
 
 ## The Doomsday Mirror
 
