@@ -35,6 +35,12 @@ Maniac piles because you can play Chromatic Sphere, Laboratory Maniac, and then
 activate Chromatic Sphere without your opponent having priority to cast their
 removal.
 
+### {{Daze}}
+
+If you have a land drop available. You can use Daze to generate additional mana by
+playing a *dead* card like Dark Ritual in order to return and Island to enable generation
+of two blue mana.
+
 ### {{Lake of the Dead}}
 
 Lake of the Dead does not enter the battlefield until after a swamp is
