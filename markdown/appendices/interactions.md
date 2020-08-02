@@ -38,7 +38,7 @@ removal.
 ### {{Daze}}
 
 If you have a land drop available. You can use Daze to generate additional mana by
-playing a *dead* card like Dark Ritual in order to return and Island to enable generation
+playing a *dead* card like Dark Ritual in order to return an Island to enable generation
 of two blue mana.
 
 ### {{Lake of the Dead}}
@@ -117,6 +117,11 @@ at instant speed, when you draw in to your pile.
 ### {{Portent}}
 
 Can reorder your library at sorcery speed. Interferes with PTT piles.
+
+### {{Show and Tell}}
+
+If against Show and Tell you can build a pile that, if they cast a Show and Tell, you can cycle
+and put Oracle into play from it, winning with the trigger.
 
 ### {{Stifle}}
 
