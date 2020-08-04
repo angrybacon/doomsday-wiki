@@ -46,4 +46,3 @@ title: Other Doomsday Resources
   (https://www.twitch.tv/videos/698945172)
 - [Romariovidal builds the "perfect pile" on Esper Meandeck]
   (https://clips.twitch.tv/NaiveAgreeableTitanDatBoi?fbclid=IwAR3w38BIdFVkfUsbSc2PLxyrgLCxDNNblHKI_U8I8Z-hs7O2o76fjYl4uJU)
-  

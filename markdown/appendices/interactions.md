@@ -37,18 +37,18 @@ removal.
 
 ### {{Daze}}
 
-If you have a land drop available. You can use Daze to generate additional mana by
-playing a *dead* card like Dark Ritual in order to return an Island to enable generation
-of two blue mana.
+If you have a land drop available. You can use Daze to generate additional mana
+by playing a *dead* card like Dark Ritual in order to return an Island to enable
+generation of two blue mana.
 
 ### {{Lake of the Dead}}
 
 Lake of the Dead does not enter the battlefield until after a swamp is
 sacrificed. Therefore, it is not possible to do any tricks like activating it in
 response to that trigger. You really do need 2 swamps in play in order to
-activate this card, and those swamps will be sacrificed by playing and activating
-it. Lake of the Dead's activation is a mana ability and does not go on the
-stack either.
+activate this card, and those swamps will be sacrificed by playing and
+activating it. Lake of the Dead's activation is a mana ability and does not go
+on the stack either.
 
 ### {{Lion's Eye Diamond}}
 
@@ -61,23 +61,23 @@ to get the LED mana before you draw the cards.
 
 ### {{Predict}}
 
-This can target the opponent but can be stopped by Veil of Summer if you use choose
-to do so.
+This can target the opponent but can be stopped by Veil of Summer if you use
+choose to do so.
 
 ### {{Thassa's Oracle}}
 
-Oracle checks the devotion on resolution so if you have cards left in your library
-and your opponent kills the Oracle, you will have no devotion and not win the game.
-The Oracle checks on an equal to or less than basis so if you have no devotion and
-no cards in your library you will win the game.
+Oracle checks the devotion on resolution so if you have cards left in your
+library and your opponent kills the Oracle, you will have no devotion and not
+win the game. The Oracle checks on an equal to or less than basis so if you have
+no devotion and no cards in your library you will still win the game.
 
 ### {{Veil of Summer}}
 
-Veil of Summer will prevent any Thoughtscour or Predict effects from targeting you.
-Conversely, it will not stop Mindbreak Trap, Stifle or Surgical Extraction from being
-effective. It will also draw you a card most of the time so be careful to keep this 
-in mind if you have 0 cards left in your deck. This card will also let you play
-cards through a Chalice of the Void.
+Veil of Summer will prevent any Thought Scour or Predict effects from targeting
+you. Conversely, it will not stop Mindbreak Trap, Stifle or Surgical Extraction
+from being effective. It will also draw you a card most of the time so be
+careful to keep this in mind if you have 0 cards left in your deck. This card
+will also let you play cards through a Chalice of the Void.
 
 ## Opponent Interactions
 
@@ -102,12 +102,13 @@ Pithing needle cannot stop LED, Lotus Petal, Chromatic Sphere, or Doomsday.
 > Players try naming Doomsday due to the strange wording on the Weatherlight
 > printing since it appears like activated abilities do.
 
-Pithing needle can stop Conjurer's Bauble, cyclers like Street Wraith and fetchlands.
+Pithing needle can stop Conjurer's Bauble, cyclers like Street Wraith and
+fetchlands.
 
 ### {{Phyrexian Revoker}}
 
-Phyrexian Revoker can stop LED, Lotus Petal, Chromatic Sphere, Conjurer's
-Bauble and cyclers like Street Wraith. It cannot hit fetchlands nor Shelldock Isle.
+Phyrexian Revoker can stop LED, Lotus Petal, Chromatic Sphere, Conjurer's Bauble
+and cyclers like Street Wraith. It cannot hit fetchlands nor Shelldock Isle.
 
 ### {{Grindstone}}, {{Predict}}, {{Thought Scour}}, {{Surgical Extraction}}
 
@@ -120,12 +121,12 @@ Can reorder your library at sorcery speed. Interferes with PTT piles.
 
 ### {{Show and Tell}}
 
-If against Show and Tell you can build a pile that, if they cast a Show and Tell, you can cycle
-and put Oracle into play from it, winning with the trigger.
+If against Show and Tell you can build a pile that, if they cast a Show and
+Tell, you can cycle and put Oracle into play from it, winning with the trigger.
 
 ### {{Stifle}}
 
 Can stop Conjurer's Bauble activations, Tendrils of Agony and Empty the Warrens
 Storm triggers, as well as fetchlands, cyclers like Street Wraith and Thassa's
-Oracle triggers. Does not stop Chromatic Sphere, Lake ofcthe Dead, Rain of Filth,
-Lotus Petal, or LED activations.
+Oracle triggers. Does not stop Chromatic Sphere, Lake of the Dead, Rain of
+Filth, Lotus Petal, or LED activations.
