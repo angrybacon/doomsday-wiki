@@ -1,7 +1,7 @@
-import PropTypes from 'prop-types';
-import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Header from '../Header';
 import Prettylink from '../Prettylink';
 import Sidebar from '../Sidebar';
@@ -17,7 +17,7 @@ export default function Layout({ children }) {
     <div className={classes.root}>
       <Sidebar />
       <Grid container className={classes.main} direction="column" wrap="nowrap">
-        <Grid item children={<Header component="header" />} />
+        <Grid item children={<Header component="header" />} className={classes.header} />
         <Grid item className={classes.body}>
           <Grid container
                 alignItems="center"

@@ -26,6 +26,9 @@ export default makeStyles(theme => ({
       marginTop: theme.spacing(2),
     },
   },
+  header: {
+    zIndex: 100,
+  },
   main: {
     height: '100%',
     paddingLeft: theme.mixins.sidebar.width,
