@@ -55,11 +55,14 @@ set: ={{!Doomsday|WTH}}=.
 *** Installation
 
 #+BEGIN_SRC sh
-npm install
-npm start
+yarn
+yarn start
 #+END_SRC
 
-Install some kind of ESLint-compatible linter on your editor and follow the
+Alternatively, if you want to browse the local instance of the application from
+another machine, use `yarn start:exposed` instead.
+
+Install some kind of ESLint-compatible linter on your editor and follow
 =.eslintrc.json= as well as the existing conventions.
 
 *** Project Layout
