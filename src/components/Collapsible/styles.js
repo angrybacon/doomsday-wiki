@@ -16,6 +16,16 @@ export default makeStyles(theme => ({
     padding: 0,
     position: 'inherit',
   },
+  summary: {
+    ...theme.mixins.gutters({
+      paddingBottom: 0,
+      paddingTop: 0,
+      [theme.mixins.sidebar.treshold]: {
+        paddingBottom: 0,
+        paddingTop: 0,
+      },
+    }),
+  },
   zoom: {
     '& > *': {
       width: '100%',

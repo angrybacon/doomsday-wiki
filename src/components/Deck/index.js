@@ -30,7 +30,7 @@ export default function Decklist({ collapsible, path, ...rest }) {
   const wrapper = collapsible ? Collapsible : 'div';
   const title = (
     <>
-      Decklist:
+      {'Decklist: '}
       <Typography color="textSecondary" component="span">{path}</Typography>
     </>
   );

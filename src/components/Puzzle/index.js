@@ -49,7 +49,7 @@ export default function Puzzle({ barf, component, data, words }) {
 
   return React.createElement(component, {className: classes.root}, (
     <>
-      <Typography gutterBottom variant="h4">
+      <Typography gutterBottom variant="h5">
         <Highlighter
           highlightClassName={classes.highlight}
           searchWords={words}

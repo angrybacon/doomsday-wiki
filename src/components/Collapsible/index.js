@@ -14,7 +14,7 @@ export default function Collapsible({ barf, children, className, title, zoom }) 
     <div className={c({[classes.barf]: barf}, className)}>
       <Accordion square classes={{root: classes.root}} elevation={0}>
         {!!title && (
-          <AccordionSummary expandIcon={<ChevronDownIcon />}>
+          <AccordionSummary classes={{root: classes.summary}} expandIcon={<ChevronDownIcon />}>
             <Typography>{title}</Typography>
           </AccordionSummary>
         )}

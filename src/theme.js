@@ -3,29 +3,41 @@ import pink from '@material-ui/core/colors/pink';
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 
 const defaultTheme = createMuiTheme();
+const sidebarTreshold = defaultTheme.breakpoints.down('sm');
+
+const barf = (styles = {}) => ({
+  marginLeft: -defaultTheme.spacing(3),
+  marginRight: -defaultTheme.spacing(3),
+  ...styles,
+  [sidebarTreshold]: {
+    marginLeft: -defaultTheme.spacing(2),
+    marginRight: -defaultTheme.spacing(2),
+    ...styles[sidebarTreshold],
+  },
+});
+
+const gutters = (styles = {}) => ({
+  paddingBottom: defaultTheme.spacing(3),
+  paddingLeft: defaultTheme.spacing(3),
+  paddingRight: defaultTheme.spacing(3),
+  paddingTop: defaultTheme.spacing(3),
+  ...styles,
+  [sidebarTreshold]: {
+    paddingBottom: defaultTheme.spacing(2),
+    paddingLeft: defaultTheme.spacing(2),
+    paddingRight: defaultTheme.spacing(2),
+    paddingTop: defaultTheme.spacing(2),
+    ...styles[sidebarTreshold],
+  },
+});
+
 const themeOptions = {
 
   mixins: {
-    barf: (styles = {}) => ({
-      marginLeft: -defaultTheme.spacing(3),
-      marginRight: -defaultTheme.spacing(3),
-      ...styles,
-      [defaultTheme.breakpoints.down('sm')]: {
-        marginLeft: -defaultTheme.spacing(2),
-        marginRight: -defaultTheme.spacing(2),
-        ...styles[defaultTheme.breakpoints.down('sm')],
-      },
-    }),
-    gutters: (styles = {}) => ({
-      padding: defaultTheme.spacing(3),
-      ...styles,
-      [defaultTheme.breakpoints.down('sm')]: {
-        padding: defaultTheme.spacing(2),
-        ...styles[defaultTheme.breakpoints.down('sm')],
-      },
-    }),
+    barf,
+    gutters,
     sidebar: {
-      treshold: defaultTheme.breakpoints.down('sm'),
+      treshold: sidebarTreshold,
       width: 310,
     },
   },
