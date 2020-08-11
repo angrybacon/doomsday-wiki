@@ -7,10 +7,10 @@ import useStyles from './styles';
 export default function Prettylink({ children, component, href, target, ...rest }) {
   const classes = useStyles();
   const isBlank = target === '_blank';
-  component = component || (href && href.startsWith('http') ? null : Link);
+  const Wrapper = component || (href && href.startsWith('http') ? null : Link);
   return href ? (
-    component
-      ? React.createElement(component, {className: classes.link, to: href, ...rest}, children)
+    Wrapper
+      ? (<Wrapper className={classes.link} to={href} {...rest}>{children}</Wrapper>)
       : (
         <span className={classes.root}>
           <a

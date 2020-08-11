@@ -10,7 +10,7 @@ import Deck from '../Deck';
 import Listify from '../Listify';
 import useStyles from './styles';
 
-export default function Puzzle({ barf, component, data, words }) {
+export default function Puzzle({ barf, component: Component, data, words }) {
 
   const classes = useStyles();
   const {
@@ -47,8 +47,8 @@ export default function Puzzle({ barf, component, data, words }) {
     {label: 'Your Board', text: listify(yourBoard, highlighter)},
   ].filter(it => it.text);
 
-  return React.createElement(component, {className: classes.root}, (
-    <>
+  return (
+    <Component className={classes.root}>
       <Typography gutterBottom variant="h5">
         <Highlighter
           highlightClassName={classes.highlight}
@@ -84,8 +84,8 @@ export default function Puzzle({ barf, component, data, words }) {
           <Typography>{solutionNotes}</Typography>
         </Collapsible>
       </Box>
-    </>
-  ));
+    </Component>
+  );
 }
 
 Puzzle.defaultProps = {

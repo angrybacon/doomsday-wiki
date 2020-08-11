@@ -43,18 +43,13 @@ export default function Markdown({ className, source, ...rest }) {
     processingInstructions: [
       /* eslint-disable react/display-name, react/prop-types */
       {
-        processNode: ({ attribs }) => React.createElement(Deck, {
-          barf: true,
-          collapsible: true,
-          path: attribs.path,
-        }),
+        processNode: ({ attribs }) => <Deck barf collapsible path={attribs.path} />,
         shouldProcessNode: ({ name }) => name === 'deck',
       },
       {
-        processNode: ({ attribs }) => React.createElement(Mana, {
-          loyalty: attribs.loyalty,
-          symbol: attribs.symbol,
-        }),
+        processNode: ({ attribs }) => (
+          <Mana loyalty={attribs.loyalty} symbol={attribs.symbol} />
+        ),
         shouldProcessNode: ({ name }) => name === 'mana',
       },
       {
@@ -64,12 +59,12 @@ export default function Markdown({ className, source, ...rest }) {
             hand: classes.rowHand,
             pile: classes.rowPile,
           }[attribs.variant]);
-          return React.createElement('span', {className: classnames});
+          return <span className={classnames} />;
         },
         shouldProcessNode: ({ name }) => name === 'row',
       },
       {
-        processNode: ({ attribs }) => React.createElement(Tweet, {id: attribs.id}),
+        processNode: ({ attribs }) => <Tweet id={attribs.id} />,
         shouldProcessNode: ({ name }) => name === 'tweet',
       },
       /* eslint-enable react/display-name, react/prop-types */

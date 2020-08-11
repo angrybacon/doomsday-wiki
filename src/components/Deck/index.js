@@ -27,7 +27,7 @@ export default function Decklist({ collapsible, path, ...rest }) {
     <Typography key={index} component="li">{amount} {card}</Typography>
   );
 
-  const wrapper = collapsible ? Collapsible : 'div';
+  const Wrapper = collapsible ? Collapsible : 'div';
   const title = (
     <>
       {'Decklist: '}
@@ -64,7 +64,9 @@ export default function Decklist({ collapsible, path, ...rest }) {
     </Box>
   );
 
-  return React.createElement(wrapper, {...(collapsible && {title, zoom: true}), ...rest}, deck);
+  return (
+    <Wrapper {...{...(collapsible && {title, zoom: true}), ...rest}}>{deck}</Wrapper>
+  );
 }
 
 Decklist.propTypes = {
