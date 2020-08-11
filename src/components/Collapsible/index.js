@@ -2,9 +2,9 @@ import c from 'classnames';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import PropTypes from 'prop-types';
 import React from 'react';
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Accordion from '@material-ui/core/Accordion';
+import AccordionDetails from '@material-ui/core/AccordionDetails';
+import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import useStyles from './styles';
 
@@ -12,16 +12,16 @@ export default function Collapsible({ barf, children, className, title, zoom }) 
   const classes = useStyles();
   return !!children && (
     <div className={c({[classes.barf]: barf}, className)}>
-      <ExpansionPanel square classes={{root: classes.root}} elevation={0}>
+      <Accordion square classes={{root: classes.root}} elevation={0}>
         {!!title && (
-          <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
+          <AccordionSummary expandIcon={<ChevronDownIcon />}>
             <Typography>{title}</Typography>
-          </ExpansionPanelSummary>
+          </AccordionSummary>
         )}
-        <ExpansionPanelDetails classes={{root: c(classes.details, {[classes.zoom]: zoom})}}>
+        <AccordionDetails classes={{root: c(classes.details, {[classes.zoom]: zoom})}}>
           {children}
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }
