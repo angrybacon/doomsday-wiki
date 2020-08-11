@@ -10,7 +10,7 @@ export default function Table({ children, className, minimal, size }) {
   return !!children && (
     <div className={c(classes.root, {[classes.minimal]: minimal}, className)}>
       <MuiTableContainer>
-        <MuiTable children={children} size={size} />
+        <MuiTable size={size}>{children}</MuiTable>
       </MuiTableContainer>
     </div>
   );

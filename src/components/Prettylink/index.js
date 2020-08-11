@@ -14,16 +14,17 @@ export default function Prettylink({ children, component, href, target, ...rest 
       : (
         <span className={classes.root}>
           <a
-            children={children}
             className={classes.link}
             href={href}
             target={target}
             {...(isBlank && {rel: 'noopener noreferrer'})}
-          />
+          >
+            {children}
+          </a>
           {isBlank && <OpenInNewIcon className={classes.icon} size={12} />}
         </span>
       )
-  ) : <a children={children} className={classes.link} href={href} target={target} {...rest} />;
+  ) : <a className={classes.link} href={href} target={target} {...rest}>{children}</a>;
 }
 
 Prettylink.defaultProps = {

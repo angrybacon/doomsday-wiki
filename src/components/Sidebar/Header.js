@@ -22,13 +22,14 @@ export default function Header() {
         <Grid item>
           <Link style={{textDecoration: 'none'}} to="/">
             <Button
-              children="ddft.wiki"
               color="primary"
               onClick={toggleDrawer(false)}
               size={isMobile ? 'small' : 'medium'}
               style={{boxShadow: 'none'}}
               variant="contained"
-            />
+            >
+              ddft.wiki
+            </Button>
           </Link>
         </Grid>
         <Switch checked={dark} onChange={onToggleTheme} size={isMobile ? 'small' : 'medium'} />

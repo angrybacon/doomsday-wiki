@@ -3,7 +3,7 @@ import React from 'react';
 import Quote from '../../Quote';
 
 export default function Blockquote({ children }) {
-  return <Quote children={children} />;
+  return <Quote>{children}</Quote>;
 }
 
 Blockquote.propTypes = {

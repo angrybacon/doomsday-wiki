@@ -5,7 +5,6 @@ import Typography from '@material-ui/core/Typography';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Articles from '../components/Articles';
-import Paper from '../components/Paper';
 import Welcome from '../components/Welcome';
 
 export default function PageHome() {
@@ -18,13 +17,13 @@ export default function PageHome() {
           <Typography color="textSecondary" component={Box} mb={1} ml={1} variant="subtitle1">
             Welcome
           </Typography>
-          <Box children={<Paper children={<Welcome />} />} />
+          <Box><Welcome /></Box>
         </Grid>
         <Grid item lg={6} xs={12}>
           <Typography color="textSecondary" component={Box} mb={1} ml={1} variant="subtitle1">
             Recent Articles
           </Typography>
-          <Box children={<Articles top />} />
+          <Box><Articles top /></Box>
         </Grid>
       </Grid>
     </>

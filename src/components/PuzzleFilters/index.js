@@ -41,7 +41,7 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
   const renderOption = ({ value }, { inputValue }) => (
     <div>
       {parse(value, match(value, inputValue)).map(({ highlight, text }, index) => (
-        <span children={text} key={index} className={c({[classes.highlight]: highlight})} />
+        <span key={index} className={c({[classes.highlight]: highlight})}>{text}</span>
       ))}
     </div>
   );

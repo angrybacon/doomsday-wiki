@@ -15,7 +15,7 @@ export default function Layout({ children }) {
     <div className={classes.root}>
       <Sidebar />
       <Grid container className={classes.main} direction="column" wrap="nowrap">
-        <Grid children={<Header component="header" />} item className={classes.header} />
+        <Grid item className={classes.header}><Header component="header" /></Grid>
         <Grid item className={classes.body}>
           <Grid
             container
@@ -25,11 +25,11 @@ export default function Layout({ children }) {
             id="body"
             wrap="nowrap"
           >
-            <Grid children={children} item className={classes.children} md={10} xs={12} />
+            <Grid item className={classes.children} md={10} xs={12}>{children}</Grid>
             <Grid item className={classes.footer}>
               <Typography align="center" color="textSecondary" component="footer">
                 Copyright &copy; 2020&nbsp;
-                <Prettylink children="ddft.wiki contributors" href="/authors/" />
+                <Prettylink href="/authors/">ddft.wiki contributors</Prettylink>
               </Typography>
             </Grid>
           </Grid>

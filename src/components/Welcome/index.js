@@ -2,6 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Markdown from '../Markdown';
+import Paper from '../Paper';
 
 export default function Welcome() {
   const { welcome } = useStaticQuery(graphql`{
@@ -15,9 +16,9 @@ export default function Welcome() {
   const { frontmatter, rawMarkdownBody } = welcome.childMarkdownRemark;
   const { title } = frontmatter;
   return (
-    <>
-      {title && <Typography children={title} gutterBottom align="center" variant="h3" />}
+    <Paper>
+      {title && <Typography gutterBottom align="center" variant="h3">{title}</Typography>}
       <Markdown source={rawMarkdownBody} />
-    </>
+    </Paper>
   );
 }

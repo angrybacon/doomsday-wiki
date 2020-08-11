@@ -7,7 +7,11 @@ export function SidebarProvider({ children }) {
   const toggleDrawer = useCallback(open => () => {
     setDrawer(previous => open === undefined ? !previous.drawer : !!open);
   }, []);
-  return <SidebarContext.Provider children={children} value={{drawer, toggleDrawer}} />;
+  return (
+    <SidebarContext.Provider value={{drawer, toggleDrawer}}>
+      {children}
+    </SidebarContext.Provider>
+  );
 }
 
 SidebarProvider.propTypes = {

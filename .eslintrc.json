@@ -83,7 +83,7 @@
       "declaration": "parens-new-line",
       "return": "parens-new-line"
     }],
-    "react/no-children-prop": 0,
+    "react/no-children-prop": "warn",
     "react/no-unused-prop-types": "warn",
     "react/prefer-stateless-function": "error",
     "react-hooks/exhaustive-deps": "error",

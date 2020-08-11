@@ -3,7 +3,7 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 
 export default function Heading({ children, level }) {
-  return <Typography children={children} gutterBottom variant={`h${level + 2}`} />;
+  return <Typography gutterBottom variant={`h${level + 2}`}>{children}</Typography>;
 }
 
 Heading.propTypes = {

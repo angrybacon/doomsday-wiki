@@ -14,15 +14,15 @@ export default function Body() {
       <Table minimal>
         <TableHead>
           <TableRow>
-            <TableCell children="Notation" />
-            <TableCell children="Card" />
+            <TableCell>Notation</TableCell>
+            <TableCell>Card</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {Object.entries(cards).map(([ acronym, card ], index) => (
             <TableRow key={index}>
-              <TableCell children={acronym} />
-              <TableCell children={card[0]} />
+              <TableCell>{acronym}</TableCell>
+              <TableCell>{card[0]}</TableCell>
             </TableRow>
           ))}
         </TableBody>

@@ -7,7 +7,7 @@ exports.shouldUpdateScroll = () => 'body';
 
 /* eslint-disable-next-line react/display-name, react/prop-types */
 exports.wrapPageElement = ({ element, ...rest }) => (
-  <Layout children={element} {...rest} />
+  <Layout {...rest}>{element}</Layout>
 );
 
 /* eslint-disable-next-line react/display-name, react/prop-types */

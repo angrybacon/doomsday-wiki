@@ -9,7 +9,7 @@ export default function Page({ pageContext }) {
   const { authors, body, date, title, type } = pageContext;
   const credit = [date, authors].filter(it => it);
   const subtitle = credit.length ? <Listify items={credit} justifyContent="center" /> : null;
-  const primary = !!title && <Typography children={title} align="center" variant="h3" />;
+  const primary = !!title && <Typography align="center" variant="h3">{title}</Typography>;
   const isArticle = type === 'articles';
   return (
     <Paper>
@@ -24,13 +24,14 @@ export default function Page({ pageContext }) {
       <Markdown source={body} />
       {!isArticle && subtitle && (
         <Typography
-          children={subtitle}
           gutterBottom
           align="center"
           color="textSecondary"
           component="div"
           variant="body2"
-        />
+        >
+          {subtitle}
+        </Typography>
       )}
     </Paper>
   );

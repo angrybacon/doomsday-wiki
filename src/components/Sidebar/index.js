@@ -23,27 +23,28 @@ export default function Sidebar() {
 
   const content = (
     <Grid container className={classes.root} direction="column" wrap="nowrap">
-      <Grid children={<Header />} item />
+      <Grid item><Header /></Grid>
       <Divider />
       <Grid item className={classes.body}>
-        <Box children={<Entries />} my={1} />
-        <Box children={<Body />} my={1} />
+        <Box my={1}><Entries /></Box>
+        <Box my={1}><Body /></Box>
       </Grid>
     </Grid>
   );
 
   const drawer = (
     <SwipeableDrawer
-      children={content}
       classes={{paper: classes.drawerTemporary}}
       onClose={toggleDrawer(false)}
       onOpen={toggleDrawer(true)}
       open={drawerIsOpen}
-    />
+    >
+      {content}
+    </SwipeableDrawer>
   );
 
   const drawerFixed = (
-    <Drawer children={content} classes={{paper: classes.drawerFixed}} variant="permanent" />
+    <Drawer classes={{paper: classes.drawerFixed}} variant="permanent">{content}</Drawer>
   );
 
   useEffect(() => {

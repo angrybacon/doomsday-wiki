@@ -49,9 +49,9 @@ export default function PagePuzzles() {
   return (
     <>
       <Paper>
-        <Typography children={frontmatter.title} gutterBottom variant="h4" />
+        <Typography gutterBottom variant="h4">{frontmatter.title}</Typography>
         <Markdown source={rawMarkdownBody} />
-        <Box children={<PuzzleFilters onFilter={onFilter} puzzles={puzzles.nodes} />} mt={2} />
+        <Box mt={2}><PuzzleFilters onFilter={onFilter} puzzles={puzzles.nodes} /></Box>
       </Paper>
       {items.map((it, index) => (
         <Puzzle key={index} barf component={Paper} data={it} words={words} />

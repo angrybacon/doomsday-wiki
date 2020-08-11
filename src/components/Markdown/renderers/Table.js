@@ -8,7 +8,7 @@ import MuiTable from '../../Table';
 import useStyles from '../styles';
 
 export function TableBody({ children }) {
-  return <MuiTableBody children={children} />;
+  return <MuiTableBody>{children}</MuiTableBody>;
 }
 
 TableBody.propTypes = {
@@ -25,7 +25,7 @@ TableCell.propTypes = {
 };
 
 export function TableHead({ children }) {
-  return <MuiTableHead children={children} />;
+  return <MuiTableHead>{children}</MuiTableHead>;
 }
 
 TableHead.propTypes = {
@@ -33,7 +33,7 @@ TableHead.propTypes = {
 };
 
 export function TableRow({ children }) {
-  return <MuiTableRow children={children} />;
+  return <MuiTableRow>{children}</MuiTableRow>;
 }
 
 TableRow.propTypes = {
@@ -42,7 +42,7 @@ TableRow.propTypes = {
 
 export default function Table({ children }) {
   const classes = useStyles();
-  return <MuiTable children={children} className={classes.barf} />;
+  return <MuiTable className={classes.barf}>{children}</MuiTable>;
 }
 
 Table.propTypes = {

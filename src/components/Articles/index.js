@@ -100,7 +100,7 @@ export default function Articles({ top }) {
     <List disablePadding>
       {articles.map((it, index) => {
         const { slug, subtitle, title } = article(it);
-        const primary = <Prettylink children={title} href={slug} />;
+        const primary = <Prettylink href={slug}>{title}</Prettylink>;
         return <ListItemText key={index} primary={primary} secondary={subtitle} />;
       })}
     </List>
@@ -111,7 +111,7 @@ export default function Articles({ top }) {
       ? cards(articles.nodes.slice(0, 4))
       : (
         <>
-          <Typography children="Articles" gutterBottom variant="h4" />
+          <Typography gutterBottom variant="h4">Articles</Typography>
           {list(articles.nodes)}
         </>
       )

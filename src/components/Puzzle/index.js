@@ -72,16 +72,16 @@ export default function Puzzle({ barf, component, data, words }) {
         <Typography container className={classes.situation} component={Grid}>
           {rows.map((it, index) => (
             <React.Fragment key={index}>
-              <Grid children={it.label} item md={3} sm={4} xs={12} />
-              <Grid children={it.text} item md={9} sm={8} xs={12} />
+              <Grid item md={3} sm={4} xs={12}>{it.label}</Grid>
+              <Grid item md={9} sm={8} xs={12}>{it.text}</Grid>
             </React.Fragment>
           ))}
         </Typography>
       )}
       <Box className={c({[classes.barf]: barf})} mt={2}>
         <Collapsible title="Solution">
-          <Typography children={listify(solution)} paragraph component="div" />
-          <Typography children={solutionNotes} />
+          <Typography paragraph component="div">{listify(solution)}</Typography>
+          <Typography>{solutionNotes}</Typography>
         </Collapsible>
       </Box>
     </>

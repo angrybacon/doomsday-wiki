@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 export default function Paragraph({ children }) {
   const component = children[0].type.displayName === 'ParsedHtml' ? 'div' : 'p';
   return (
-    <Typography children={children} gutterBottom component={component} variant="inherit" />
+    <Typography gutterBottom component={component} variant="inherit">{children}</Typography>
   );
 }
 

@@ -15,7 +15,7 @@ export default function Collapsible({ barf, children, className, title, zoom }) 
       <ExpansionPanel square classes={{root: classes.root}} elevation={0}>
         {!!title && (
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
-            <Typography children={title} />
+            <Typography>{title}</Typography>
           </ExpansionPanelSummary>
         )}
         <ExpansionPanelDetails classes={{root: c(classes.details, {[classes.zoom]: zoom})}}>

@@ -27,7 +27,7 @@ export default function PageAuthors() {
       <Grid container spacing={isMobile ? 2 : 3}>
         {authors.nodes.map(({ childMarkdownRemark: content }, index) => (
           <Grid key={index} item xs={12}>
-            <Paper children={<Markdown source={content.rawMarkdownBody} />} />
+            <Paper><Markdown source={content.rawMarkdownBody} /></Paper>
           </Grid>
         ))}
       </Grid>

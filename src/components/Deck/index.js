@@ -24,7 +24,7 @@ export default function Decklist({ collapsible, path, ...rest }) {
   const { main, side } = node && node.node || {main: [], side: []};
 
   const row = ([ amount, card], index) => (
-    <Typography children={`${amount} ${card}`} key={index} component="li" />
+    <Typography key={index} component="li">{amount} {card}</Typography>
   );
 
   const wrapper = collapsible ? Collapsible : 'div';
@@ -37,15 +37,15 @@ export default function Decklist({ collapsible, path, ...rest }) {
   const deck = (!!main.length || !!side.length) && (
     <Box bgcolor="background.secondary">
       <Box p={2}>
-        {!collapsible && path && <Typography children={path} gutterBottom variant="h5" />}
+        {!collapsible && path && <Typography gutterBottom variant="h5">{path}</Typography>}
         <Grid container spacing={2}>
           {!!main.length && (
             <Grid item sm={8} xs={12}>
-              <Typography children="Maindeck" gutterBottom variant="h6" />
+              <Typography gutterBottom variant="h6">Maindeck</Typography>
               <Box display="flex" mx={-2}>
                 {main.map((it, index) => (
                   <Box key={index} mx={2}>
-                    <List children={it.map(row)} disablePadding />
+                    <List disablePadding>{it.map(row)}</List>
                   </Box>
                 ))}
               </Box>
@@ -53,9 +53,9 @@ export default function Decklist({ collapsible, path, ...rest }) {
           )}
           {!!side.length && (
             <Grid item sm={4} xs={12}>
-              <Typography children="Sideboard" gutterBottom variant="h6" />
+              <Typography gutterBottom variant="h6">Sideboard</Typography>
               {side.map((it, index) => (
-                <List children={it.map(row)} key={index} disablePadding />
+                <List key={index} disablePadding>{it.map(row)}</List>
               ))}
             </Grid>
           )}

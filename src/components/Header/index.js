@@ -17,7 +17,7 @@ export default function Header() {
         <Grid container alignItems="center" wrap="nowrap">
           <Hidden mdUp>
             <Grid item style={{marginRight: '1em'}}>
-              <IconButton children={<MenuIcon />} color="inherit" onClick={toggleDrawer()} />
+              <IconButton color="inherit" onClick={toggleDrawer()}><MenuIcon /></IconButton>
             </Grid>
           </Hidden>
         </Grid>

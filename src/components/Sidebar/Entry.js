@@ -31,17 +31,16 @@ export default function Entry({ entries, extra, icon, namespace, subtitle, title
   return (
     <React.Fragment {...rest}>
       <ListItem button onClick={entries.length ? onToggle : null} {...extra}>
-        {!!icon && <ListItemIcon children={icon} />}
+        {!!icon && <ListItemIcon>{icon}</ListItemIcon>}
         <ListItemText
           primary={title}
           secondary={subtitle}
           secondaryTypographyProps={{variant: 'caption'}}
         />
         {entries.length > 0 && (
-          <div
-            children={open ? <ChevronUpIcon /> : <ChevronDownIcon />}
-            className={classes.entryChevron}
-          />
+          <div className={classes.entryChevron}>
+            {open ? <ChevronUpIcon /> : <ChevronDownIcon />}
+          </div>
         )}
       </ListItem>
       {entries.length > 0 && (
