@@ -6,7 +6,6 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import Markdown from '../components/Markdown';
 import Paper from '../components/Paper';
 
-
 export default function PageAuthors() {
 
   const { authors } = useStaticQuery(graphql`{
@@ -27,7 +26,7 @@ export default function PageAuthors() {
     <>
       <Grid container spacing={isMobile ? 2 : 3}>
         {authors.nodes.map(({ childMarkdownRemark: content }, index) => (
-          <Grid item xs={12} key={index}>
+          <Grid key={index} item xs={12}>
             <Paper children={<Markdown source={content.rawMarkdownBody} />} />
           </Grid>
         ))}

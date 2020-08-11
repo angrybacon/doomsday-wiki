@@ -7,7 +7,6 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Collapsible from '../Collapsible';
 
-
 export default function Decklist({ collapsible, path, ...rest }) {
 
   const { decks } = useStaticQuery(graphql`{
@@ -25,30 +24,39 @@ export default function Decklist({ collapsible, path, ...rest }) {
   const { main, side } = node && node.node || {main: [], side: []};
 
   const row = ([ amount, card], index) => (
-    <Typography children={`${amount} ${card}`} component="li" key={index} />
+    <Typography children={`${amount} ${card}`} key={index} component="li" />
   );
 
   const wrapper = collapsible ? Collapsible : 'div';
-  const title = <>Decklist: <Typography children={path} color="textSecondary" component="span" /></>;
+  const title = (
+    <>
+      Decklist:
+      <Typography color="textSecondary" component="span">{path}</Typography>
+    </>
+  );
   const deck = (!!main.length || !!side.length) && (
     <Box bgcolor="background.secondary">
       <Box p={2}>
         {!collapsible && path && <Typography children={path} gutterBottom variant="h5" />}
         <Grid container spacing={2}>
           {!!main.length && (
-            <Grid item xs={12} sm={8}>
+            <Grid item sm={8} xs={12}>
               <Typography children="Maindeck" gutterBottom variant="h6" />
               <Box display="flex" mx={-2}>
                 {main.map((it, index) => (
-                  <Box children={<List children={it.map(row)} disablePadding />} key={index} mx={2} />
+                  <Box key={index} mx={2}>
+                    <List children={it.map(row)} disablePadding />
+                  </Box>
                 ))}
               </Box>
             </Grid>
           )}
           {!!side.length && (
-            <Grid item xs={12} sm={4}>
+            <Grid item sm={4} xs={12}>
               <Typography children="Sideboard" gutterBottom variant="h6" />
-              {side.map((it, index) => <List children={it.map(row)} disablePadding key={index} />)}
+              {side.map((it, index) => (
+                <List children={it.map(row)} key={index} disablePadding />
+              ))}
             </Grid>
           )}
         </Grid>
@@ -58,7 +66,6 @@ export default function Decklist({ collapsible, path, ...rest }) {
 
   return React.createElement(wrapper, {...(collapsible && {title, zoom: true}), ...rest}, deck);
 }
-
 
 Decklist.propTypes = {
   className: PropTypes.string,

@@ -4,7 +4,6 @@ import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import { darkTheme, lightTheme } from '../theme';
 import { Local } from '../tools/storage';
 
-
 export const ThemeContext = React.createContext();
 export function ThemeProvider({ children }) {
 
@@ -26,14 +25,10 @@ export function ThemeProvider({ children }) {
 
   return dark !== null && (
     <MuiThemeProvider theme={dark ? darkTheme : lightTheme}>
-      <ThemeContext.Provider children={children} value={{
-        dark,
-        onToggle,
-      }} />
+      <ThemeContext.Provider value={{dark, onToggle}}>{children}</ThemeContext.Provider>
     </MuiThemeProvider>
   );
 }
-
 
 ThemeProvider.propTypes = {
   children: PropTypes.node,

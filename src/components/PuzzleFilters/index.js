@@ -7,7 +7,6 @@ import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import useStyles from './styles';
 
-
 export default function PuzzleFilters({ onFilter, puzzles }) {
 
   const classes = useStyles();
@@ -42,7 +41,7 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
   const renderOption = ({ value }, { inputValue }) => (
     <div>
       {parse(value, match(value, inputValue)).map(({ highlight, text }, index) => (
-        <span children={text} className={c({[classes.highlight]: highlight})} key={index} />
+        <span children={text} key={index} className={c({[classes.highlight]: highlight})} />
       ))}
     </div>
   );
@@ -60,34 +59,34 @@ export default function PuzzleFilters({ onFilter, puzzles }) {
         }
         else if (Array.isArray(value)) {
           accumulator[key] = [...accumulator[key], ...value].filter(
-            (it, index, array) => array.indexOf(it) === index
+            (it, index, array) => array.indexOf(it) === index,
           );
         }
       });
       return accumulator;
-    }, {})
+    }, {}),
   ).reduce((accumulator, [ key, values ]) => (
     [...accumulator, ...values.map(value => ({key, value}))]
   ), []);
 
   return (
-    <Autocomplete classes={{groupLabel: classes.group, paper: classes.paper}}
-                  freeSolo
-                  getOptionLabel={getOptionLabel}
-                  groupBy={({ key }) => key}
-                  multiple
-                  onChange={onChange}
-                  options={options}
-                  renderInput={renderInput}
-                  renderOption={renderOption} />
+    <Autocomplete
+      freeSolo
+      multiple
+      classes={{groupLabel: classes.group, paper: classes.paper}}
+      getOptionLabel={getOptionLabel}
+      groupBy={({ key }) => key}
+      onChange={onChange}
+      options={options}
+      renderInput={renderInput}
+      renderOption={renderOption}
+    />
   );
 }
-
 
 PuzzleFilters.defaultProps = {
   puzzles: [],
 };
-
 
 PuzzleFilters.propTypes = {
   onFilter: PropTypes.func.isRequired,

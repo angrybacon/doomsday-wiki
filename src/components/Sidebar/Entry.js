@@ -12,7 +12,6 @@ import ListItemText from '@material-ui/core/ListItemText';
 import { useMatch } from '@reach/router';
 import useStyles from './styles';
 
-
 export default function Entry({ entries, extra, icon, namespace, subtitle, title, ...rest }) {
 
   const match = useMatch(`/${namespace}/*`);
@@ -33,12 +32,16 @@ export default function Entry({ entries, extra, icon, namespace, subtitle, title
     <React.Fragment {...rest}>
       <ListItem button onClick={entries.length ? onToggle : null} {...extra}>
         {!!icon && <ListItemIcon children={icon} />}
-        <ListItemText primary={title}
-                      secondary={subtitle}
-                      secondaryTypographyProps={{variant: 'caption'}} />
+        <ListItemText
+          primary={title}
+          secondary={subtitle}
+          secondaryTypographyProps={{variant: 'caption'}}
+        />
         {entries.length > 0 && (
-          <div children={open ? <ChevronUpIcon /> : <ChevronDownIcon />}
-               className={classes.entryChevron} />
+          <div
+            children={open ? <ChevronUpIcon /> : <ChevronDownIcon />}
+            className={classes.entryChevron}
+          />
         )}
       </ListItem>
       {entries.length > 0 && (
@@ -46,12 +49,14 @@ export default function Entry({ entries, extra, icon, namespace, subtitle, title
           <Divider />
           <List>
             {entries.map(({ childMarkdownRemark, fields }, index) => (
-              <ListItem activeClassName={classes.entryActive}
-                        button
-                        component={Link}
-                        dense
-                        key={index}
-                        to={fields.slug}>
+              <ListItem
+                key={index}
+                button
+                dense
+                activeClassName={classes.entryActive}
+                component={Link}
+                to={fields.slug}
+              >
                 <ListItemText primary={childMarkdownRemark.frontmatter.title} />
               </ListItem>
             ))}
@@ -63,11 +68,9 @@ export default function Entry({ entries, extra, icon, namespace, subtitle, title
   );
 }
 
-
 Entry.defaultProps = {
   entries: [],
 };
-
 
 Entry.propTypes = {
   entries: PropTypes.arrayOf(PropTypes.shape({

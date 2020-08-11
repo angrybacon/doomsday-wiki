@@ -7,7 +7,6 @@ import TableRow from '@material-ui/core/TableRow';
 import { cards } from '../../tools/scryfall';
 import Table from '../Table';
 
-
 export default function Body() {
   return !!Object.keys(cards).length && (
     <>

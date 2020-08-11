@@ -9,7 +9,6 @@ const parse = text => (
     }))
 );
 
-
 module.exports.parse = text => {
   const [ main = '', side = '' ] = text.split(/(?:\/\/ *)?sideboard/i);
   return {

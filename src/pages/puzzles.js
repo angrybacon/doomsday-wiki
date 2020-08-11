@@ -7,7 +7,6 @@ import Paper from '../components/Paper';
 import Puzzle from '../components/Puzzle';
 import PuzzleFilters from '../components/PuzzleFilters';
 
-
 export default function PagePuzzles() {
 
   const [ items, setItems ] = useState([]);
@@ -54,7 +53,9 @@ export default function PagePuzzles() {
         <Markdown source={rawMarkdownBody} />
         <Box children={<PuzzleFilters onFilter={onFilter} puzzles={puzzles.nodes} />} mt={2} />
       </Paper>
-      {items.map((it, index) => <Puzzle barf component={Paper} data={it} key={index} words={words} />)}
+      {items.map((it, index) => (
+        <Puzzle key={index} barf component={Paper} data={it} words={words} />
+      ))}
     </>
   );
 }

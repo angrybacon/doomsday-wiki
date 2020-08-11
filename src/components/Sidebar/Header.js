@@ -10,7 +10,6 @@ import { SidebarContext } from '../../contexts/Sidebar';
 import { ThemeContext } from '../../contexts/Theme';
 import useStyles from './styles';
 
-
 export default function Header() {
   const { toggleDrawer } = useContext(SidebarContext);
   const { dark, onToggle: onToggleTheme } = useContext(ThemeContext);
@@ -22,12 +21,14 @@ export default function Header() {
       <Grid container alignItems="center" className={classes.header} justify="space-between">
         <Grid item>
           <Link style={{textDecoration: 'none'}} to="/">
-            <Button children="ddft.wiki"
-                    color="primary"
-                    onClick={toggleDrawer(false)}
-                    size={isMobile ? 'small' : 'medium'}
-                    style={{boxShadow: 'none'}}
-                    variant="contained" />
+            <Button
+              children="ddft.wiki"
+              color="primary"
+              onClick={toggleDrawer(false)}
+              size={isMobile ? 'small' : 'medium'}
+              style={{boxShadow: 'none'}}
+              variant="contained"
+            />
           </Link>
         </Grid>
         <Switch checked={dark} onChange={onToggleTheme} size={isMobile ? 'small' : 'medium'} />

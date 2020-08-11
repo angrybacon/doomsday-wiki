@@ -5,34 +5,36 @@ import Listify from '../Listify';
 import Markdown from '../Markdown';
 import Paper from '../Paper';
 
-
 export default function Page({ pageContext }) {
   const { authors, body, date, title, type } = pageContext;
   const credit = [date, authors].filter(it => it);
-  const subtitle = credit.length ? <Listify justifyContent="center" items={credit} /> : null;
-  const primary = !!title && <Typography align="center" children={title} variant="h3" />;
+  const subtitle = credit.length ? <Listify items={credit} justifyContent="center" /> : null;
+  const primary = !!title && <Typography children={title} align="center" variant="h3" />;
   const isArticle = type === 'articles';
   return (
     <Paper>
-      <Typography component="div" gutterBottom variant="h3">
+      <Typography gutterBottom component="div" variant="h3">
         {primary}
         {isArticle && subtitle && (
-          <Typography align="center" children={subtitle} color="textSecondary" variant="subtitle1" />
+          <Typography align="center" color="textSecondary" variant="subtitle1">
+            {subtitle}
+          </Typography>
         )}
       </Typography>
       <Markdown source={body} />
       {!isArticle && subtitle && (
-        <Typography align="center"
-                    children={subtitle}
-                    color="textSecondary"
-                    component="div"
-                    gutterBottom
-                    variant="body2" />
+        <Typography
+          children={subtitle}
+          gutterBottom
+          align="center"
+          color="textSecondary"
+          component="div"
+          variant="body2"
+        />
       )}
     </Paper>
   );
 }
-
 
 Page.propTypes = {
   pageContext: PropTypes.shape({

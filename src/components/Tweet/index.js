@@ -9,7 +9,6 @@ import { useTheme } from '@material-ui/core/styles';
 import usePrevious from '../../tools/hooks/previous';
 import useStyles from './styles';
 
-
 export default function Tweet({ id }) {
 
   const [ viewRoot, inView ] = useInView({rootMargin: '200px'});
@@ -69,11 +68,11 @@ export default function Tweet({ id }) {
   }, [inView, visible]);
 
   return (
-    <div className={classes.root} ref={viewRoot} style={{height}}>
+    <div ref={viewRoot} className={classes.root} style={{height}}>
       {visible && (
         <>
           {should && <Script onLoad={onLoad} url="https://platform.twitter.com/widgets.js" />}
-          <div className={classes.container} ref={tweetRoot} />
+          <div ref={tweetRoot} className={classes.container} />
           <div className={c(classes.loader, {[classes.loading]: loading})}>
             {loading && <CircularProgress color="secondary" component="span" size={60} />}
           </div>
@@ -82,7 +81,6 @@ export default function Tweet({ id }) {
     </div>
   );
 }
-
 
 Tweet.propTypes = {
   id: PropTypes.string.isRequired,

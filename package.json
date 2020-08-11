@@ -7,6 +7,8 @@
     "prebuild": "gatsby clean",
     "prestart": "gatsby clean",
     "prestart:exposed": "gatsby clean",
+    "pretty": "eslint . --ext .js,.jsx",
+    "pretty:fix": "eslint . --ext .js,.jsx --fix",
     "serve": "gatsby serve",
     "start": "gatsby develop",
     "start:exposed": "gatsby develop -H 0.0.0.0"

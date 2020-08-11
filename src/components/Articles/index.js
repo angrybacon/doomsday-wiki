@@ -19,7 +19,6 @@ import Markdown from '../Markdown';
 import Prettylink from '../Prettylink';
 import useStyles from './styles';
 
-
 export default function Articles({ top }) {
 
   const { articles } = useStaticQuery(graphql`{
@@ -55,15 +54,24 @@ export default function Articles({ top }) {
       {articles.map((it, index) => {
         const { authors, banner, date, excerpt, slug, title } = article(it);
         return (
-          <Grid item xs={12} key={index} title={title}>
+          <Grid key={index} item title={title} xs={12}>
             <Card>
-              <Prettylink style={{textDecoration: 'none'}} href={slug}>
-                <CardActionArea classes={{focusHighlight: classes.cardActive, root: classes.card}}
-                                TouchRippleProps={{classes: {root: classes.cardRipple}}}>
+              <Prettylink href={slug} style={{textDecoration: 'none'}}>
+                <CardActionArea
+                  classes={{focusHighlight: classes.cardActive, root: classes.card}}
+                  TouchRippleProps={{classes: {root: classes.cardRipple}}}
+                >
                   <Box display="flex" justifyContent="space-between" width="100%">
                     <CardContent>
-                      <Typography children={title} component="h6" gutterBottom variant="body1" />
-                      <Markdown color="textSecondary" gutterBottom source={excerpt} variant="body2"/>
+                      <Typography gutterBottom component="h6" variant="body1">
+                        {title}
+                      </Typography>
+                      <Markdown
+                        gutterBottom
+                        color="textSecondary"
+                        source={excerpt}
+                        variant="body2"
+                      />
                       <Typography color="textSecondary" component="div" variant="body2">
                         <Box alignItems="center" display="flex">
                           <CalendarIcon className={classes.icon} size={16} />
@@ -109,7 +117,6 @@ export default function Articles({ top }) {
       )
   );
 }
-
 
 Articles.propTypes = {
   top: PropTypes.bool,

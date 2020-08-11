@@ -7,9 +7,7 @@ import Prettylink from '../Prettylink';
 import Sidebar from '../Sidebar';
 import useStyles from './styles';
 
-
 import '../../reset.scss';
-
 
 export default function Layout({ children }) {
   const classes = useStyles();
@@ -17,15 +15,17 @@ export default function Layout({ children }) {
     <div className={classes.root}>
       <Sidebar />
       <Grid container className={classes.main} direction="column" wrap="nowrap">
-        <Grid item children={<Header component="header" />} className={classes.header} />
+        <Grid children={<Header component="header" />} item className={classes.header} />
         <Grid item className={classes.body}>
-          <Grid container
-                alignItems="center"
-                className={classes.content}
-                direction="column"
-                id="body"
-                wrap="nowrap">
-            <Grid item children={children} className={classes.children} xs={12} md={10} />
+          <Grid
+            container
+            alignItems="center"
+            className={classes.content}
+            direction="column"
+            id="body"
+            wrap="nowrap"
+          >
+            <Grid children={children} item className={classes.children} md={10} xs={12} />
             <Grid item className={classes.footer}>
               <Typography align="center" color="textSecondary" component="footer">
                 Copyright &copy; 2020&nbsp;
@@ -38,7 +38,6 @@ export default function Layout({ children }) {
     </div>
   );
 }
-
 
 Layout.propTypes = {
   children: PropTypes.node,

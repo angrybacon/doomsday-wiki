@@ -18,7 +18,6 @@ import Table, { TableBody, TableCell, TableHead, TableRow } from './renderers/Ta
 import ThematicBreak from './renderers/ThematicBreak';
 import useStyles from './styles';
 
-
 export default function Markdown({ className, source, ...rest }) {
 
   const classes = useStyles();
@@ -74,20 +73,21 @@ export default function Markdown({ className, source, ...rest }) {
         shouldProcessNode: ({ name }) => name === 'tweet',
       },
       /* eslint-enable react/display-name, react/prop-types */
-    ]
+    ],
   });
 
   return (
-    <Typography astPlugins={[parseHtml]}
-                className={className}
-                escapeHtml={false}
-                renderers={renderers}
-                source={mana.replace(source)}
-                component={ReactMarkdown}
-                {...rest} />
+    <Typography
+      astPlugins={[parseHtml]}
+      className={className}
+      component={ReactMarkdown}
+      escapeHtml={false}
+      renderers={renderers}
+      source={mana.replace(source)}
+      {...rest}
+    />
   );
 }
-
 
 Markdown.propTypes = {
   className: PropTypes.string,

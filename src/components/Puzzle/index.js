@@ -10,7 +10,6 @@ import Deck from '../Deck';
 import Listify from '../Listify';
 import useStyles from './styles';
 
-
 export default function Puzzle({ barf, component, data, words }) {
 
   const classes = useStyles();
@@ -27,11 +26,17 @@ export default function Puzzle({ barf, component, data, words }) {
   } = data;
 
   const highlighter = words => value => (
-    <Highlighter highlightClassName={classes.highlight} searchWords={words} textToHighlight={value} />
+    <Highlighter
+      highlightClassName={classes.highlight}
+      searchWords={words}
+      textToHighlight={value}
+    />
   );
 
   const listify = (value, highlighter) => {
-    const renderer = typeof highlighter === 'function' && words.length ? highlighter(words) : null;
+    const renderer = (
+      typeof highlighter === 'function' && words.length ? highlighter(words) : null
+    );
     return !!value && <Listify items={value} renderer={renderer} />;
   };
 
@@ -45,33 +50,37 @@ export default function Puzzle({ barf, component, data, words }) {
   return React.createElement(component, {className: classes.root}, (
     <>
       <Typography gutterBottom variant="h4">
-        <Highlighter highlightClassName={classes.highlight}
-                     searchWords={words}
-                     textToHighlight={title} />
+        <Highlighter
+          highlightClassName={classes.highlight}
+          searchWords={words}
+          textToHighlight={title}
+        />
       </Typography>
       <Box className={c({[classes.barf]: barf})} my={2}>
         <Deck collapsible path={deckFile} />
       </Box>
       {notes && (
         <Typography paragraph>
-          <Highlighter highlightClassName={classes.highlight}
-                       searchWords={words}
-                       textToHighlight={notes} />
+          <Highlighter
+            highlightClassName={classes.highlight}
+            searchWords={words}
+            textToHighlight={notes}
+          />
         </Typography>
       )}
       {!!rows.length && (
         <Typography container className={classes.situation} component={Grid}>
           {rows.map((it, index) => (
             <React.Fragment key={index}>
-              <Grid item xs={12} sm={4} md={3} children={it.label} />
-              <Grid item xs={12} sm={8} md={9} children={it.text} />
+              <Grid children={it.label} item md={3} sm={4} xs={12} />
+              <Grid children={it.text} item md={9} sm={8} xs={12} />
             </React.Fragment>
           ))}
         </Typography>
       )}
       <Box className={c({[classes.barf]: barf})} mt={2}>
         <Collapsible title="Solution">
-          <Typography children={listify(solution)} component="div" paragraph />
+          <Typography children={listify(solution)} paragraph component="div" />
           <Typography children={solutionNotes} />
         </Collapsible>
       </Box>
@@ -79,12 +88,10 @@ export default function Puzzle({ barf, component, data, words }) {
   ));
 }
 
-
 Puzzle.defaultProps = {
   component: 'div',
   words: [],
 };
-
 
 Puzzle.propTypes = {
   barf: PropTypes.bool,

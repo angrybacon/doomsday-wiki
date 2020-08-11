@@ -1,6 +1,5 @@
 const axios = require('axios').default;
 
-
 const CARDS = {
   AA:    ["Arcum's Astrolabe",        'MH1'],
   AD:    ['Abrupt Decay',             'RTR'],
@@ -64,14 +63,12 @@ const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
 const SCRYFALL_RE = /{{\s*(!)?\s*([^|{}]*[^|{}\s])[|\s]*(?:[|\s]+([^|{}]*[^|{}\s]))?\s*}}/g;
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
-
 const markdownify = (name, set = '', art = '') => {
   if (art && set) {
     return `![${name} (${set})](${art.border_crop})`;
   }
   return `[${name}](${SCRYFALL_SEARCH}?q=${encodeURIComponent(name)})`;
 };
-
 
 const scry = (query, one, two, three) => new Promise(resolve => {
   const [ name, defaultSet ] = CARDS[two] || [two];
@@ -91,7 +88,6 @@ const scry = (query, one, two, three) => new Promise(resolve => {
   }
 });
 
-
 const search = (name, set = '') => new Promise((resolve, reject) => {
   const key = `${name}|${set}`;
   if (CACHE[key]) {
@@ -105,12 +101,12 @@ const search = (name, set = '') => new Promise((resolve, reject) => {
   }
 });
 
-
 module.exports.cards = CARDS;
-
 
 module.exports.replace = text => {
   const promises = [];
   text.replace(SCRYFALL_RE, (...rest) => promises.push(scry(...rest)));
-  return Promise.all(promises).then(results => text.replace(SCRYFALL_RE, () => results.shift()));
+  return Promise
+    .all(promises)
+    .then(results => text.replace(SCRYFALL_RE, () => results.shift()));
 };

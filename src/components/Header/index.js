@@ -8,7 +8,6 @@ import Toolbar from '@material-ui/core/Toolbar';
 import { SidebarContext } from '../../contexts/Sidebar';
 import useStyles from './styles';
 
-
 export default function Header() {
   const { toggleDrawer } = useContext(SidebarContext);
   const classes = useStyles();

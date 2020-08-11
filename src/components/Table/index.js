@@ -5,7 +5,6 @@ import MuiTable from '@material-ui/core/Table';
 import MuiTableContainer from '@material-ui/core/TableContainer';
 import useStyles from './styles';
 
-
 export default function Table({ children, className, minimal, size }) {
   const classes = useStyles();
   return !!children && (
@@ -17,11 +16,9 @@ export default function Table({ children, className, minimal, size }) {
   );
 }
 
-
 Table.defaultProps = {
   size: 'small',
 };
-
 
 Table.propTypes = {
   children: PropTypes.node,

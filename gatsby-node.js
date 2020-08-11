@@ -5,9 +5,7 @@ const { createFilePath } = require('gatsby-source-filesystem');
 const deck = require('./src/tools/deck');
 const scryfall = require('./src/tools/scryfall');
 
-
 dayjs.extend(customParseFormat);
-
 
 const makeChapter = ({ createNodeField, node }) => {
   let value = null;
@@ -20,20 +18,17 @@ const makeChapter = ({ createNodeField, node }) => {
   createNodeField({name: 'chapter', node, value});
 };
 
-
 const makeDate = ({ createNodeField, node }) => {
   const date = dayjs(node.relativeDirectory, 'YYYY/MM/DD');
   const value = date.isValid() ? date.format('YYYY-MM-DD') : null;
   createNodeField({name: 'date', node, value});
 };
 
-
 const makeSlug = ({ createNodeField, getNode, node }) => {
   const prefix = node.sourceInstanceName !== 'chapters' ? `/${node.sourceInstanceName}` : '';
   const path = createFilePath({getNode, node});
   createNodeField({name: 'slug', node, value: prefix.concat(path)});
 };
-
 
 exports.onCreateNode = ({
   actions,
@@ -61,7 +56,6 @@ exports.onCreateNode = ({
     }
   }
 };
-
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;

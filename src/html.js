@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-
 export default function Html({
   body,
   bodyAttributes,
@@ -20,13 +19,12 @@ export default function Html({
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}
-        <div dangerouslySetInnerHTML={{ __html: body }} id="___gatsby" key="body" />
+        <div key="body" dangerouslySetInnerHTML={{ __html: body }} id="___gatsby" />
         {postBodyComponents}
       </body>
     </html>
   );
 }
-
 
 Html.propTypes = {
   body: PropTypes.string,

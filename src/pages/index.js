@@ -8,20 +8,19 @@ import Articles from '../components/Articles';
 import Paper from '../components/Paper';
 import Welcome from '../components/Welcome';
 
-
 export default function PageHome() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.mixins.sidebar.treshold);
   return (
     <>
       <Grid container spacing={isMobile ? 2 : 3}>
-        <Grid item xs={12} lg={6}>
+        <Grid item lg={6} xs={12}>
           <Typography color="textSecondary" component={Box} mb={1} ml={1} variant="subtitle1">
             Welcome
           </Typography>
           <Box children={<Paper children={<Welcome />} />} />
         </Grid>
-        <Grid item xs={12} lg={6}>
+        <Grid item lg={6} xs={12}>
           <Typography color="textSecondary" component={Box} mb={1} ml={1} variant="subtitle1">
             Recent Articles
           </Typography>

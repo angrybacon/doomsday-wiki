@@ -8,12 +8,11 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import Typography from '@material-ui/core/Typography';
 import useStyles from './styles';
 
-
 export default function Collapsible({ barf, children, className, title, zoom }) {
   const classes = useStyles();
   return !!children && (
     <div className={c({[classes.barf]: barf}, className)}>
-      <ExpansionPanel classes={{root: classes.root}} elevation={0} square>
+      <ExpansionPanel square classes={{root: classes.root}} elevation={0}>
         {!!title && (
           <ExpansionPanelSummary expandIcon={<ChevronDownIcon />}>
             <Typography children={title} />
@@ -26,7 +25,6 @@ export default function Collapsible({ barf, children, className, title, zoom }) 
     </div>
   );
 }
-
 
 Collapsible.propTypes = {
   barf: PropTypes.bool,

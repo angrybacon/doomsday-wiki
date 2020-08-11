@@ -3,7 +3,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Markdown from '../Markdown';
 
-
 export default function Welcome() {
   const { welcome } = useStaticQuery(graphql`{
     welcome: file(relativePath: {eq: "partials/welcome.md"}) {
@@ -17,7 +16,7 @@ export default function Welcome() {
   const { title } = frontmatter;
   return (
     <>
-      {title && <Typography align="center" children={title} gutterBottom variant="h3" />}
+      {title && <Typography children={title} gutterBottom align="center" variant="h3" />}
       <Markdown source={rawMarkdownBody} />
     </>
   );

@@ -13,7 +13,6 @@ import Entries from './Entries';
 import Header from './Header';
 import useStyles from './styles';
 
-
 export default function Sidebar() {
 
   const { drawer: drawerIsOpen, toggleDrawer } = useContext(SidebarContext);
@@ -24,7 +23,7 @@ export default function Sidebar() {
 
   const content = (
     <Grid container className={classes.root} direction="column" wrap="nowrap">
-      <Grid item children={<Header />} />
+      <Grid children={<Header />} item />
       <Divider />
       <Grid item className={classes.body}>
         <Box children={<Entries />} my={1} />
@@ -34,11 +33,13 @@ export default function Sidebar() {
   );
 
   const drawer = (
-    <SwipeableDrawer children={content}
-                     classes={{paper: classes.drawerTemporary}}
-                     onClose={toggleDrawer(false)}
-                     onOpen={toggleDrawer(true)}
-                     open={drawerIsOpen} />
+    <SwipeableDrawer
+      children={content}
+      classes={{paper: classes.drawerTemporary}}
+      onClose={toggleDrawer(false)}
+      onOpen={toggleDrawer(true)}
+      open={drawerIsOpen}
+    />
   );
 
   const drawerFixed = (

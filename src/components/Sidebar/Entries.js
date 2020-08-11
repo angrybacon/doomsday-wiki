@@ -4,7 +4,6 @@ import List from '@material-ui/core/List';
 import Entry from './Entry';
 import menu from './menu';
 
-
 export default function Entries() {
   const chapters = useStaticQuery(graphql`{
     chapters: allFile(
@@ -23,24 +22,32 @@ export default function Entries() {
     menu[left].order - menu[right].order
   ));
   return (
-    <List component="nav" disablePadding>
+    <List disablePadding component="nav">
       {chapters.map(({ fieldValue, nodes }, index) => {
         const { icon, subtitle, title } = menu[fieldValue] || {};
-        return <Entry entries={nodes}
-                      icon={icon}
-                      key={index}
-                      namespace={fieldValue}
-                      subtitle={subtitle}
-                      title={title} />;
+        return (
+          <Entry
+            key={index}
+            entries={nodes}
+            icon={icon}
+            namespace={fieldValue}
+            subtitle={subtitle}
+            title={title}
+          />
+        );
       })}
-      <Entry icon={menu.puzzles.icon}
-             subtitle={menu.puzzles.subtitle}
-             title={menu.puzzles.title}
-             extra={{component: Link, to: '/puzzles/'}} />
-      <Entry icon={menu.articles.icon}
-             subtitle={menu.articles.subtitle}
-             title={menu.articles.title}
-             extra={{component: Link, to: '/articles/'}} />
+      <Entry
+        extra={{component: Link, to: '/puzzles/'}}
+        icon={menu.puzzles.icon}
+        subtitle={menu.puzzles.subtitle}
+        title={menu.puzzles.title}
+      />
+      <Entry
+        extra={{component: Link, to: '/articles/'}}
+        icon={menu.articles.icon}
+        subtitle={menu.articles.subtitle}
+        title={menu.articles.title}
+      />
     </List>
   );
 }

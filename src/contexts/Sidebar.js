@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useCallback, useState } from 'react';
 
-
 export const SidebarContext = React.createContext();
 export function SidebarProvider({ children }) {
   const [ drawer, setDrawer ] = useState(false);
@@ -10,7 +9,6 @@ export function SidebarProvider({ children }) {
   }, []);
   return <SidebarContext.Provider children={children} value={{drawer, toggleDrawer}} />;
 }
-
 
 SidebarProvider.propTypes = {
   children: PropTypes.node,
