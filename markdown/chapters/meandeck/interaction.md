@@ -401,21 +401,22 @@ piles is slightly harder, especially when you cannot predict when the opponent
 will try to use their Surgical (if at all).
 
 One cool trick you can use is to try and bait them into using a known Surgical
-effect. By placing additional copies of Doomsday into your pile, if your
-opponent tries to extract them, you can *shrink* your library by that amount.
-This again assumes they will Surgical at a time you want but it is a possibility
-to be considered.
+effect if you have your own in hand. By placing additional copies of Doomsday
+into your pile, if your opponent tries to extract them, you can *shrink* your
+library by casting your own Surgical on the original Doomsday and "shrink it" by
+that amount. This again assumes they will Surgical at a time you want but it is
+a possibility to be considered.
 
 > {B}{B}{B} + {U}{U} + Cantrip
 
 <row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
 
 Here you have a pile where, if they Surgical in response to the cantrip effect
-on Doomsday, you will have a deterministic win (using one of Ponder, Brainstorm
-or Preordain) as you can ensure you are able to see all the cards within the
-deck and not die to drawing too deep with Brainstorm. Even if they do not
-Surgical you still can just cycle twice and play Oracle with a library of 2
-cards.
+on Doomsday, and you remove all the copies in the pile, you will have a
+deterministic win (using one of Ponder, Brainstorm or Preordain) as you can
+ensure you are able to see all the cards within the deck and not die to drawing
+too deep with Brainstorm. Even if they do not Surgical you still can just cycle
+twice and play Oracle with a library of 2 cards.
 
 ## 5. Everything Else to Consider
 
@@ -476,6 +477,18 @@ Consider the following:
 Assuming you had a cantrip ready to *dig* into the pile, you can use it to try
 and use it to either pre-emptively bait the Trap or to enable digging one deeper
 so that you can lead on Thoughtseize the next turn.
+
+You can also utilise tools like the cycling effects to just not cast three
+spells. If you suspect a Mindbreak Trap in the opponent's hand, with three lands
+available on the following turn you can go Dark Ritual into Doomsday and pass
+the turn building the following:
+
+<row variant="pile">{{!IU}} {{!EoA}} {{!LP}} {{!Island}} {{!TO}}</row>
+
+This pile only actually casts two spells on the turn after resolving Doomsday.
+Ideas Unbound and the Thassa's Oracle itself. You can also utilise piles of just
+3 cycling effects or add in Cavern to the mix to protect against other effects
+should it be desired.
 
 ### Thought Scour / Predict
 
