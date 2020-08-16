@@ -16,7 +16,7 @@ such as Reid Duke, AJ Sacher and Tomas Mar.
 
 [Fishing Lessons: Pondering Brainstorm](https://articles.starcitygames.com/premium/fishing-lessons-pondering-brainstorm/)  
 
-[Everything about four colour control](https://snapcardster.com/blog/everything-about-four-color-control/)
+[Everything about four colour control](https://snapcardster.com/blog/everything-about-four-color-control/)   
 *Please note: the Snapcardster site is no longer running and 
 therefore the link will not function, there are reddit and mtgsource 
 threads which can be found discussing the key points of the article 
@@ -170,9 +170,14 @@ disruption depending on the situation. In a combo deck, this is normally
 a bit more hyper-focussed to find the piece/pieces in order to 'go off'
 as quickly as possible. More often in combo decks you will find yourself
 shuffling off of Ponders or 'bottoming 2' off Preordains in order to
-find what is needed.
+find what is needed. The following guidelines are only that, general 
+guidelines. As with anything in life there are always possible exceptions
+or circumstances where an alternative set of ideas are more valid than
+those presented here so they should not taken as gospel truth.
 
-
+In general, with your cantrips, you want to try and maximise the amount of
+cards you 'see'. This gives you the most information to help you make the
+most informed decision you can in your gameplay actions.
 
 Intro - reference Reid / Thomas E quote / SCG article
       - Give reasoning for why writing it
