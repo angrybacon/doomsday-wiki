@@ -12,14 +12,11 @@ and finding answers when needed. There have already been a number
 of articles that explore these theories by well known personalities
 such as Reid Duke, AJ Sacher and Tomas Mar.
 
-[Reid's Guide to Legacy: Using Cantrips Properly]
-(https://www.channelfireball.com/all-strategy/articles/reids-guide-to-legacy-using-cantrips-properly/)
+[Reid's Guide to Legacy: Using Cantrips Properly](https://www.channelfireball.com/all-strategy/articles/reids-guide-to-legacy-using-cantrips-properly/)
 
-[Fishing Lessons: Pondering Brainstorm]
-(https://articles.starcitygames.com/premium/fishing-lessons-pondering-brainstorm/)  
+[Fishing Lessons: Pondering Brainstorm](https://articles.starcitygames.com/premium/fishing-lessons-pondering-brainstorm/)  
 
-[Everything about four colour control]
-(https://snapcardster.com/blog/everything-about-four-color-control/)
+[Everything about four colour control](https://snapcardster.com/blog/everything-about-four-color-control/)
 *Please note: the Snapcardster site is no longer running and 
 therefore the link will not function, there are reddit and mtgsource 
 threads which can be found discussing the key points of the article 
