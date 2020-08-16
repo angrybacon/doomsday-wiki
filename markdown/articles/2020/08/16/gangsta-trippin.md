@@ -112,6 +112,10 @@ response to an {{Exhume}} whereby, thanks to the life paid to a
 {{Griselbrand}} and the Swampwalk it can often present a lethal clock
 out of nowhere.
 
+For an excellent example of Street Wraith as a win condition please
+watch [This Video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute
+against {U}{B} Shadow.
+
 #### {{Edge of Autumn}}
 
 Edge of Autumn provides a method of cycling that is less taxing
@@ -160,8 +164,16 @@ a single turn, potentially enabling you to combo off there and then.
 
 ## Cantrip sequencing - General Principles
 
+Normally, when playing a 'fair' Legacy deck, you need to filter through
+your deck in order to find the balance of threats, protection and 
+disruption depending on the situation. In a combo deck, this is normally
+a bit more hyper-focussed to find the piece/pieces in order to 'go off'
+as quickly as possible. More often in combo decks you will find yourself
+shuffling off of Ponders or 'bottoming 2' off Preordains in order to
+find what is needed.
 
-========================================
+
+
 Intro - reference Reid / Thomas E quote / SCG article
       - Give reasoning for why writing it
 Give a summary of the cantrips
