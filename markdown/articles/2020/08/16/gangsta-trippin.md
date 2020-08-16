@@ -40,20 +40,49 @@ In this article we hope to present the following points:
 
 ## A summary of the cantrips involved
 
+### Legacy Staples
+
 The first suite of cantrips are what would be considered the *standard*
 Legacy setup. Ponder and Brainstorm can be found of as 4-ofs in most
 {U} based decks and Preordain as a 2-4 of in many as well.
 
-### {{Ponder}}
+#### {{Ponder}}
 
-Make note of counter-point to Reid's article here?
+Ponder is powerful tool that allows you to 'see' 4 cards during
+resolution. It is at its most powerful when paired with a fetchland
+as this gives you the option to take the 'best' card of the first
+three observed and shuffle away any potential unwanted pieces with 
+the fetchland. Ponder is best suited for trying to find one specific
+card which, for our intents and purposes, is normally Doomsday.
 
-### {{Preordain}}
+#### {{Preordain}}
 
-Make reference to Tomas' main Preordain vs Ponder point here?
+Preordain is normally considered the 'weakest' of the classic suite.
+Previously it has normally been relegated to combo decks who just
+wanted additional filtering to find key pieces but is generally considered
+weaker than Ponder as it sees 1 fewer cards. This point is in direct
+contradiction to the wording presented in Reid's article.
 
-### {{Brainstorm}}
+> Preordain is ideal for digging to particular cards. This is why you
+> see Preordain often in combo decks, but less often in fair decks like 
+> Delver or Snow. Like Brainstorm, Preordain gets more powerful as the 
+> game goes deeper, since you’ll have a clearer picture of what cards
+> you’re looking for. 
 
+I think the intent of the words is the same but the way they are presented
+implies the opposite of the truth.
+
+#### {{Brainstorm}}
+
+Brainstorm has been described as a ['Pillar of the Format'](https://twitter.com/mtgaaron/status/985674571188588544)
+and is considered one of the most powerful spell effects in Legacy.
+It acts as a way to 'see' 3 cards but can, in effect, give the ability
+to exchange up to 2 cards from your hand, normally those considered
+uneeded at the time, and get rid of them, again normally with the aid
+of a fetchland. This in a sense can be viewed as almost drawing 3 cards
+with some people comparing it to {{Ancestral Recall}}. 
+
+### Free 'Cycling Effects'
 
 This next pair are mostly unique to Doomsday however {{Death's Shadow}}
 based decks will also make use of one of them. These are 'free' cycling 
@@ -61,12 +90,46 @@ cards that have little to no relevant text outside of their cycling
 abilities (other than some specific circumstances). Their use is almost
 always to provide a {0} mana draw effect after Doomsday has resolved.
 
-### {{Street Wraith}}
+#### {{Street Wraith}}
 
-### {{Edge of Autumn}}
+Street Wraith is used by Shadow decks to both thin out their draws
+and to reduce their life total aggressively. For Doomsday it is
+a  way to enable a lot of the piles made with the added benefit of
+being a draw effect that is immune to normal countermagic. The
+main downside of Street Wraith is the fact that, post Doomsday, 
+your life total can be taxed quite heavily so having to rely on paying
+2 or 4 life can be pretty punishing. Unlike Edge of Autumn however
+it can be used even if you have played an aggressive hand via
+Lotus Petals or if you need to retain a land to return with Daze
+for example.
 
-Make comparison to Edge vs Wraith as per Tsz vs Duress here?
+In some circumstances, it can be used as an additional win condition.
+Casting a Street Wraith after your Doomsdays have been hit with a
+{{Surgical Extraction}} effects or your opponent has paid 16 life
+with {{Sylvan Library}} can be a legitimate way to win the game.
+Against {B}{R} Reanimator there is also the potential to cycle it in
+response to an {{Exhume}} whereby, thanks to the life paid to a
+{{Griselbrand}} and the Swampwalk it can often present a lethal clock
+out of nowhere.
 
+#### {{Edge of Autumn}}
+
+Edge of Autumn provides a method of cycling that is less taxing
+on the manabase however can be of much less use outside of the
+combo. Sacrificing a land can be a heavy costs however sometimes
+it does mean you can mitigate the downside of a {{Wasteland}}
+effect or similar by cycling in response. In a pinch you can also
+use it to retrieve the third {B} source in the form of the basic
+Swamp from the deck but the situations this is needed are far
+and few between.
+
+The thought process behind it mirrors that of the discard suite
+utilised. Edge is effectively the equivalent of {{Duress}}. 
+Although Duress is generally more narrow than {{Thoughtseize}}
+in effect, the life loss can be significant so a mix is run
+to provide maximum flexibility.
+
+### Pile Enablers
 
 The next pair are not cantrips in the traditional sense as they are more 
 designed to provide raw card advantage in their use. Just like with the 
@@ -78,9 +141,24 @@ days.
 
 ### {{Predict}}
 
+Predict pairs effectively with other cantrips as you can use it to provide
+additional filtering and raw card advantage. It also enables access to
+Doomsday piles where you only have a single {U} available to dig into the pile
+with. You can make use of effects like the reveal triggers on {{Delver of Secrets}}
+or {{Counterbalance}} to gain advantage from your opponent's deck and,
+in the mirror, it can even disrupt opposing Doomsday piles either milling
+a key component or causing the pilot to inadvertently draw themselves to
+death.
+
 ### {{Ideas Unbound}}
 
+Ideas Unbound is a more effective card (resources allowing) during pile
+construction but a weaker card outside of the combo. It can be used as
+a large scale {{Faithless Looting}} effect to turn a land heavy hand
+into a speall heavy hand. or provide an explosive boost of cards for 
+a single turn, potentially enabling you to combo off there and then.
 
+## Cantrip sequencing - General Principles
 
 
 ========================================
