@@ -1,6 +1,6 @@
 ---
 authors: Nevilshute, Doishy
-banner: /assets/brainstorm.nem.jpg (masques art pls x x x)
+banner: /assets/brainstorm.mmq.jpg (masques art pls x x x)
 title: Gangster Trippin' - Cantrip discipline in Doomsday (and Legacy in general)
 ---
 
