@@ -12,7 +12,7 @@ there to help people to really understand how the deck works and can win in
 various scenarios.
 
 The Doomsday Wiki focuses on the theory behind the piles. How to build them,
-when to build them, why the pile is build up like that, how to play around
+when to build them, why the pile is built up like that, how to play around
 stuff, how to sequence your spells correctly, and so on.
 
 This work is licensed under a **Creative Commons
