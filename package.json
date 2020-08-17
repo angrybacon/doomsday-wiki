@@ -1,7 +1,7 @@
 {
   "name": "doomsday-wiki",
   "private": true,
-  "version": "2.10.0",
+  "version": "2.10.1",
   "scripts": {
     "build": "gatsby build",
     "prebuild": "gatsby clean",
