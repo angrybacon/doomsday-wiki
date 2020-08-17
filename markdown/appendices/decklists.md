@@ -18,6 +18,8 @@ focuses on building resources before going off. Since TO is so compact and cheap
 compared to its predecessors, it can still allow for quick win with an actual
 long game plan.
 
+<deck path="meandeck.ubrg.txt" />
+
 <deck path="meandeck.ubw.txt" />
 
 <deck path="meandeck.ubg.txt" />
