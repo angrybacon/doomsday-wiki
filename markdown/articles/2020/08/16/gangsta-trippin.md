@@ -177,7 +177,45 @@ those presented here so they should not taken as gospel truth.
 
 In general, with your cantrips, you want to try and maximise the amount of
 cards you 'see'. This gives you the most information to help you make the
-most informed decision you can in your gameplay actions.
+most informed decision you can in your gameplay actions. If presented with 
+a turn one hand with a single Island, and presented with a choice of leading
+with a Ponder or Preordain generally it would be better to lead on the latter. 
+This is because the Preordain will let you see up to 3 cards initially and, if
+a fetchland is found in those 3 and / or the card drawn for your subsequent
+turn, it will improve the Ponder used. 
+
+If you have both and 2 non-fetchlands to cast them with then it is once again
+better to lead with Preordain. This allows you to see up to 7 cards between the
+2 of them. If you have 1 fetchland and 1 non-fetchland then it is better to lead
+on the Ponder, fetch, then (if desired) play the Preordain. You may not wish to
+retain all the cards seen from Ponder on the top of your deck and so want the
+option to shuffle them away. You also don't wish to cast the Preordain to
+potentially scry 2 cards to the bottom of your deck that are unwanted to then
+shuffle them back to the top. This is also why it can be beneficial to crack any
+fetches in play prior to casting Preordain.
+
+You should always try and cast Brainstorm in conjucture with a fetchland. 
+With this in mind it should rarely be cast on turn 1. The main times this
+is acceptable are scenarios such as when trying to protect a card in hand from
+opposing targeted discard or, if your hand is one (common) piece away from a 
+deterministic win, and you think that you are able to find that piece through
+an end-of-turn Brainstorm. Often though it is still worth not casting it so 
+early in the game.
+
+If you are trying to dig hard to find one particular card, perhaps in a
+desperation scenario, it might be worth leaving a Brainstorm to be the 
+last cantrip you play. This is because after resolving any Ponders and/or
+Preordains you have, the Brainstorm cannot 'clear the top' of your library
+so, although it can see 3 cards, it will not be able to have you view any
+new ones in isolation. In non-desperation scenarioes it may be better to
+Brainstorm and then use the scry 2 from Preordain or the shuffle from 
+Ponder to act as a fetchland shuffle however this is generally inefficient
+in terms of card usage.
+
+## Cantrip sequencing - Doomsday Principles
+
+
+
 
 Intro - reference Reid / Thomas E quote / SCG article
       - Give reasoning for why writing it
