@@ -28,7 +28,7 @@ export default function Articles({ top }) {
     ) {
       nodes {
         childMarkdownRemark {
-          excerpt(format: PLAIN pruneLength: 150)
+          excerpt(format: PLAIN pruneLength: 100)
           frontmatter {authors banner title}
         }
         fields {date slug}
@@ -83,7 +83,7 @@ export default function Articles({ top }) {
                         </Box>
                       </Typography>
                     </CardContent>
-                    <Box display={banner ? 'block' : 'none'} maxWidth="30%" minWidth="30%">
+                    <Box display={banner ? 'block' : 'none'} maxWidth="40%" minWidth="40%">
                       <CardMedia className={classes.cardMedia} component="img" image={banner} />
                     </Box>
                   </Box>
