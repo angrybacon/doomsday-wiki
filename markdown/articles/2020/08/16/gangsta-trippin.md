@@ -212,11 +212,85 @@ Brainstorm and then use the scry 2 from Preordain or the shuffle from
 Ponder to act as a fetchland shuffle however this is generally inefficient
 in terms of card usage.
 
-## Cantrip sequencing - Doomsday Principles
+## Cantrip sequencing - Doomsday Principles (pre-combo)
+
+### Brainstorm Retention
+
+In Doomsday there are a few considerations to make that can sometimes go
+against what is considered *normal sequencing*. One example is the use
+(or non-use) of Brainstorm. We know that Brainstorm, in conjecture with
+an additional card in hand post-Doomsday resolving, can lead to a
+deterministic, same-turn win. Let's consider the following hand:
+
+<row variant="hand">{{!DR}} {{!Pn}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!Bs}} {{!Pre}}</row>
+
+In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
+
+<row variant="hand">{{!Underground Sea}} {{!Polluted Delta}}</row>
+
+It is turn 3.
+
+Normally we would expect, in order to maximise the cards *seen* this turn, to 
+lead with Brainstorm off of Underground Sea to then fetch away what we get rid of
+and assume we will be casting Preordain next, maybe Ponder. One thing to consider
+though, as we are looking for the Doomsday, is that if we find one, we can win
+the game this turn with Brainstorm. As a result, what might be a better option
+is to lead on Ponder. This gives us the maximum amount of cards seen for our 
+mana and leaves us with the option to keep one card and shuffle away the rest. 
+
+If we fail to find a Doomsday with the Ponder we have the option to fetch and use
+the Preordain to try again. If our life total is not under pressure then we can play
+Swamp and cast Dark Ritual and Doomsday this turn. If it is we can play Swamp and
+pass the turn looking to hit the win on the next. Obviously the matchup and circumstance
+plays a large role in what sequence or line to work towards but it does mean there 
+are additional considerations to be made before playing an *optimal* Brainstorm.
+
+### Cantrip Retention
+
+Similar to the point above, quite often the scenario comes up whereby you have Doomsday
+in hand plus the means to cast it but no way to *dig* into the pile. If the opponent
+has pressure on board, this could mean you are unable to cast Doomsday until you find
+some sort of cantrip. Sometimes this situation comes up from poor variance but other 
+times it can be from a misuse of cantrips and an overly aggressive use of them to 
+find the combo / mana pieces.
+
+When working out what you need to win you of course need to note the relative pressure
+you are under from your opponent. Do you need to cast a Ponder this turn or can it
+wait until the next? One of the hardest lessons to learn in Legacy is probably when
+it is fine to play a land and simply say "go". If you are playing against a {U}
+based control deck, often they will not be able to place any pressure on the board 
+until the later turns or if they do, it is often only something like an {{Ice-Fanged Coatl}}.
+Being chipped away for 1 a turn is fine as it gives you a lot of time to work with
+so don't feel like you have to use all your mana every turn. This same principle
+applies to facing against {{Daze}} decks like Delver. It's okay to take a turn
+or two and simply develop your mana without allowing them to trade 1:1 with your
+cantrips.
+
+### Cycling 
+
+In terms of cantrip retention the best ones to keep back, when allowed, are the
+free cycling cards; Wraith and Edge. They provide the most mana efficient method
+to draw into a pile post-Doomsday resolving. As with everything however, this
+may not always be the case and sometimes using a cycler prior to being in a position
+to combo can be advantageous. 
+
+If you have a dual land in play and an Edge of Autumn in hand and your opponent
+activates Wasteland, targeting your dual, you can obtain value by cycling the 
+Edge, sacrificing the dual land being targeted, to draw a card. If you
+are only one card away from having the win, this might not be worth doing, especially
+if you know the top cards of your library.
+
+The cyclers can also be used 
+
+Edge vs Wasteland  
+SW casting?  
+Cycle to improve a Brainstorm  
+Cycle + LDV or PT  
 
 
+### Getting Value from Predict
 
-
+### Looting with Ideas Unbound
 Intro - reference Reid / Thomas E quote / SCG article
       - Give reasoning for why writing it
 Give a summary of the cantrips
@@ -227,7 +301,7 @@ Give a summary of the cantrips
  - EoA
 
 
-
+## Cantrip sequencing - Doomsday Principles (in piles)
 
 Debate of Trip vs Trip vs Trip?
 
