@@ -48,12 +48,13 @@ Legacy setup. Ponder and Brainstorm can be found of as 4-ofs in most
 
 #### {{Ponder}}
 
-Ponder is powerful tool that allows you to 'see' 4 cards during
+Ponder is powerful tool that allows you to see 4 cards during
 resolution. It is at its most powerful when paired with a fetchland
-as this gives you the option to take the 'best' card of the first
+as this gives you the option to take the best card of the first
 three observed and shuffle away any potential unwanted pieces with 
 the fetchland. Ponder is best suited for trying to find one specific
-card which, for our intents and purposes, is normally Doomsday.
+card which, for our intents and purposes, is normally Dark Ritual, 
+Doomsday or a protection spell like Force of Will.
 
 #### {{Preordain}}
 
@@ -85,10 +86,11 @@ with some people comparing it to {{Ancestral Recall}}.
 ### Free 'Cycling Effects'
 
 This next pair are mostly unique to Doomsday however {{Death's Shadow}}
-based decks will also make use of one of them. These are 'free' cycling 
-cards that have little to no relevant text outside of their cycling
-abilities (other than some specific circumstances). Their use is almost
-always to provide a {0} mana draw effect after Doomsday has resolved.
+based decks (and some Dredge decks) will also make use of one of them.
+These are 'free' cycling cards that have little to no relevant text 
+outside of their cycling abilities (other than some specific circumstances).
+Their use is almost always to provide a {0} mana draw effect after Doomsday 
+has resolved.
 
 #### {{Street Wraith}}
 
@@ -119,7 +121,7 @@ against {U}{B} Shadow.
 #### {{Edge of Autumn}}
 
 Edge of Autumn provides a method of cycling that is less taxing
-on the manabase however can be of much less use outside of the
+on your life total however can be of much less use outside of the
 combo. Sacrificing a land can be a heavy costs however sometimes
 it does mean you can mitigate the downside of a {{Wasteland}}
 effect or similar by cycling in response. In a pinch you can also
@@ -139,7 +141,7 @@ The next pair are not cantrips in the traditional sense as they are more
 designed to provide raw card advantage in their use. Just like with the 
 cycling cards, they tend to be considered primarily for their use within
 Doomsday piles however they can have usage outside of this to varying
-degrees. One is a well know staple for certain builds of Miracles and the 
+degrees. One is a well known staple for certain builds of Miracles and the 
 other is a historical card from pre- {{Sensei's Divining Top}} ban DDFT
 days. 
 
@@ -147,7 +149,7 @@ days.
 
 Predict pairs effectively with other cantrips as you can use it to provide
 additional filtering and raw card advantage. It also enables access to
-Doomsday piles where you only have a single {U} available to dig into the pile
+Doomsday piles where you cannot make {U}{U} to dig into the pile
 with. You can make use of effects like the reveal triggers on {{Delver of Secrets}}
 or {{Counterbalance}} to gain advantage from your opponent's deck and,
 in the mirror, it can even disrupt opposing Doomsday piles either milling
@@ -176,7 +178,7 @@ or circumstances where an alternative set of ideas are more valid than
 those presented here so they should not taken as gospel truth.
 
 In general, with your cantrips, you want to try and maximise the amount of
-cards you 'see'. This gives you the most information to help you make the
+cards you see. This gives you the most information to help you make the
 most informed decision you can in your gameplay actions. If presented with 
 a turn one hand with a single Island, and presented with a choice of leading
 with a Ponder or Preordain generally it would be better to lead on the latter. 
