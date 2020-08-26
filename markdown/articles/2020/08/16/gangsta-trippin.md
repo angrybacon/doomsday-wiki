@@ -282,26 +282,55 @@ Edge, sacrificing the dual land being targeted, to draw a card. If you
 are only one card away from having the win, this might not be worth doing, especially
 if you know the top cards of your library.
 
-The cyclers can also be used 
-
-Edge vs Wasteland  
-SW casting?  
-Cycle to improve a Brainstorm  
-Cycle + LDV or PT  
-
+The cyclers can also be used to improve the use of setup cards like {{Lim-Dûl's Vault}}
+by enabling mana efficient ways of drawing the cards tutored for within the same turn.
+You can also use them to access *hidden* cards on the top of your deck. Hiding a Force
+of Will or a Daze on the top of your deck, with a Street Wraith in hand, means you can
+potentially dodge it getting hit by a card like Duress. This particular trick shouldn't
+be used often as it normally results in card disadvantage but it is something to be 
+mindful of. 
 
 ### Getting Value from Predict
 
-### Looting with Ideas Unbound
-Intro - reference Reid / Thomas E quote / SCG article
-      - Give reasoning for why writing it
-Give a summary of the cantrips
- - Ponder
- - Preordain
- - Brainstorm
- - SW
- - EoA
+One card that you can easily gain advantage from is Predict. Predict allows you
+to naturally jump ahead in cards which, in grindy matchups, can be pivotal. Often,
+thanks to the deck manipulation of other cards within the list, you can find a 
+window where you know the top of your deck in order to correctly name it with 
+Predict. This isn't always the case however and it is common to fall into traps
+of misusing your cantrips in order to setup Predict. Additionally, Predict is
+often the last cantrip you leave in your hand when searching for something. A
+hand of Brainstorm, Fetchland, Ponder, Preordain and Predict will likely start with
+Brainstorm into Fetch, shuffle, Preordain then Ponder. Assuming you shuffle from 
+the Ponder you are left with no knowledge to extract value from the Predict with.
 
+You can get value from Predict by targeting an opponent. Cards like Delver of Secrets
+or Counterbalance, as mentioned earlier, will cause the opponent to reveal the top
+of their deck to you. You can then target them, naming the card, to extract the 
+Predict value. You can also try this, assuming you have no better option, after 
+the opponent resolves a Brainstorm (assuming you knew their hand prior through discard)
+or, specifically in the Doomsday mirror, after they have resolved a Doomsday. 
+You will need to be wary of trying to do this. Cards like Veil of Summer and 
+{{Leyline of Sanctity}} can prevent you targeting the opponent and effects that
+shuffle decks like fetch lands or Surgical Extraction can be used to remove potential
+advantage from using Predict.
+
+### Looting with Ideas Unbound
+
+Many see Ideas Unbound as a purely *combo-centric* card wit very limited utility
+prior to the casting of Doomsday. There are two main methods of using it outside
+of inside piles; *filtering* and *card booming*. Filtering basically is the use
+of it as a glorified {{Careful Study}}. If you find yourself with a hand of too
+many lands, or an abundance of protection in a matchup where it's not needed,
+you can just cast Ideas Unbound to spend the turn drawing some extra gas and 
+discarding the uneeded cards.
+
+The other option is more of a late game tactic whereby you use it effectively
+as an {{Ancestral Recall}}. If you are low on cards, close to having a winning
+hand, in a bit of a dire strait and have a decent amount of excess mana you can
+use it to draw 3 cards to try and hit some business spells. Often you can be able
+to find Doomsday and the mana to cast it, or spells to protect it, and resolve
+a win in the same turn, thus avoiding the discard clause, or creating a pass
+the turn pile whereby discarding your hand becomes a non-issue.
 
 ## Cantrip sequencing - Doomsday Principles (in piles)
 
@@ -312,6 +341,7 @@ Doomsday specific considerations
  - Casting one to leave two and consider what pitches to a Force
  - When to use everything to dig and when to hold in case find the win on same turn 
  - ???
+ - Sometimes correct to misname for a pile
 
 Scenarios 
 - Edge vs Wasteland (Ref recent Emidln match where he just ignored wasteland to have a same turn win with edge in hand)
