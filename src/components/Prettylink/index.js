@@ -1,7 +1,7 @@
+import React from 'react';
 import { Link } from 'gatsby';
 import OpenInNewIcon from 'mdi-react/OpenInNewIcon';
 import PropTypes from 'prop-types';
-import React from 'react';
 import useStyles from './styles';
 
 export default function Prettylink({ children, component, href, target, ...rest }) {

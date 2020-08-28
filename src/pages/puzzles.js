@@ -1,5 +1,5 @@
-import { graphql, useStaticQuery } from 'gatsby';
 import React, { useEffect, useState } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import Markdown from '../components/Markdown';

@@ -1,10 +1,10 @@
+import React from 'react';
 import EyeOutlineIcon from 'mdi-react/EyeOutlineIcon';
 import FileOutlineIcon from 'mdi-react/FileOutlineIcon';
 import FlashIcon from 'mdi-react/FlashIcon';
 import FlaskOutlineIcon from 'mdi-react/FlaskOutlineIcon';
 import NewspaperIcon from 'mdi-react/NewspaperIcon';
 import PuzzleIcon from 'mdi-react/PuzzleIcon';
-import React from 'react';
 
 export default {
   appendices: {

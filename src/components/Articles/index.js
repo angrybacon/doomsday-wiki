@@ -1,8 +1,8 @@
+import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import AccountEditOutlineIcon from 'mdi-react/AccountEditOutlineIcon';
 import CalendarIcon from 'mdi-react/CalendarIcon';
 import PropTypes from 'prop-types';
-import React from 'react';
 import Box from '@material-ui/core/Box';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';

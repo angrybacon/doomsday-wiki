@@ -1,6 +1,6 @@
+import React from 'react';
 import c from 'classnames';
 import PropTypes from 'prop-types';
-import React from 'react';
 import Highlighter from 'react-highlight-words';
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';

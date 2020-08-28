@@ -1,5 +1,5 @@
-import { Link, graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+import { Link, graphql, useStaticQuery } from 'gatsby';
 import List from '@material-ui/core/List';
 import Entry from './Entry';
 import menu from './menu';

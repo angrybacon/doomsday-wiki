@@ -1,8 +1,8 @@
+import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import ChevronDownIcon from 'mdi-react/ChevronDownIcon';
 import ChevronUpIcon from 'mdi-react/ChevronUpIcon';
 import PropTypes from 'prop-types';
-import React, { useEffect, useState } from 'react';
 import Collapse from '@material-ui/core/Collapse';
 import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';

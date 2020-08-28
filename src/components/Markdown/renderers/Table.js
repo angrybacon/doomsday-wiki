@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import PropTypes from 'prop-types';
 import MuiTableBody from '@material-ui/core/TableBody';
 import MuiTableCell from '@material-ui/core/TableCell';
 import MuiTableHead from '@material-ui/core/TableHead';

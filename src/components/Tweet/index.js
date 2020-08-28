@@ -1,7 +1,7 @@
+import React, { useCallback, useEffect, useRef, useState  } from 'react';
 import c from 'classnames';
 import E from 'exenv';
 import PropTypes from 'prop-types';
-import React, { useCallback, useEffect, useRef, useState  } from 'react';
 import { useInView } from 'react-intersection-observer';
 import Script from 'react-load-script';
 import CircularProgress from '@material-ui/core/CircularProgress';

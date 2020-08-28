@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import { darkTheme, lightTheme } from '../theme';
 import { Local } from '../tools/storage';

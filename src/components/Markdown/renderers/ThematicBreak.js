@@ -1,5 +1,5 @@
-import c from 'classnames';
 import React from 'react';
+import c from 'classnames';
 import Divider from '@material-ui/core/Divider';
 import useStyles from '../styles';
 

@@ -37,6 +37,21 @@
     "comma-dangle": ["warn", "always-multiline"],
     "comma-spacing": "warn",
     "eol-last": "warn",
+    "import/order": ["warn", {
+      "alphabetize": {"order": "asc"},
+      "groups": [
+        ["builtin", "external", "internal"],
+        ["parent", "sibling", "index"]
+      ],
+      "newlines-between": "never",
+      "pathGroups": [
+        {"group": "builtin", "pattern": "react", "position": "before"},
+        {"group": "external", "pattern": "@material-ui/**", "position": "after"},
+        {"group": "external", "pattern": "@reach/**", "position": "after"},
+        {"group": "external", "pattern": "@saeris/**", "position": "after"}
+      ],
+      "pathGroupsExcludedImportTypes": ["builtin"]
+    }],
     "indent": ["warn", 2],
     "jsx-quotes": "warn",
     "keyword-spacing": "warn",

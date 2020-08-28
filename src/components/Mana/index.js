@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Mana as M } from '@saeris/react-mana';
 import useStyles from './styles';
 

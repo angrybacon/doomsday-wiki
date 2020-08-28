@@ -1,5 +1,5 @@
-import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import Grid from '@material-ui/core/Grid';
 import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';

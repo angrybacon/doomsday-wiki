@@ -1,6 +1,6 @@
+import React from 'react';
 import c from 'classnames';
 import PropTypes from 'prop-types';
-import React from 'react';
 import MuiTable from '@material-ui/core/Table';
 import MuiTableContainer from '@material-ui/core/TableContainer';
 import useStyles from './styles';

@@ -1,7 +1,7 @@
-import Box from '@material-ui/core/Box';
+import React from 'react';
 import CircleSmallIcon from 'mdi-react/CircleSmallIcon';
 import PropTypes from 'prop-types';
-import React from 'react';
+import Box from '@material-ui/core/Box';
 
 export default function Listify({ items, renderer, separator, ...rest }) {
   items = (items && (Array.isArray(items) ? items : [items]) || []).filter(it => it);

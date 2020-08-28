@@ -1,6 +1,6 @@
+import React from 'react';
 import c from 'classnames';
 import PropTypes from 'prop-types';
-import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 import Typography from '@material-ui/core/Typography';

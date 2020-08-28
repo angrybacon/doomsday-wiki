@@ -1,5 +1,5 @@
-import MenuIcon from 'mdi-react/MenuIcon';
 import React, { useContext } from 'react';
+import MenuIcon from 'mdi-react/MenuIcon';
 import AppBar from '@material-ui/core/AppBar';
 import Grid from '@material-ui/core/Grid';
 import IconButton from '@material-ui/core/IconButton';
