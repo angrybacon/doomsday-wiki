@@ -1,5 +1,5 @@
 ---
-authors: Nevilshute, Doishy
+authors: Doishy
 banner: /assets/brainstorm.mmq.jpg (masques art pls x x x)
 title: Gangster Trippin' - Cantrip discipline in Doomsday (and Legacy in general)
 ---
@@ -268,6 +268,31 @@ applies to facing against {{Daze}} decks like Delver. It's okay to take a turn
 or two and simply develop your mana without allowing them to trade 1:1 with your
 cantrips.
 
+Often you might find a situation where you have a pair of cantrips in hand and 
+just need to find a single remaining piece to combo off, perhaps a ritual, 
+Doomsday or protection spell. Depending on what combination of cantrips is
+in hand, can be crucial in balancing what is best for finding the missing piece
+and also which is best for accessing the pile. As is alluded to in the 
+[meandeck interactions](chapters\meandeck\interactions) chapter, there can
+be crucial benefits to favouring one cantrip over another. In a vacuum, 
+Brainstorm is likely the most favourable cantrip to retain. It enables the
+most mana efficient same turn win piles and, without a fetchland to pair with, 
+can cause you to become locked when searching for the final piece. 
+
+If picking between Ponder and Preordain, Ponder is obviously favourable to
+be able to see more cards than Preordain can to maximise the chance of 
+finding the final piece required. Preordain is also more favourable in 
+playing around shuffle effects like Surgical Extraction. The table below,
+taken from the interactions chapter, shows the calculated probability of
+successfully hitting the desired card first within a pile. As can be observed,
+Preordain gives the most favourable success rate of building a standard same
+turn win pile.
+
+|                | Street Wraith | Ponder | Brainstorm | Preordain |
+| :------------: | :-----------: | :----: | :--------: | :-------: |
+| Ignore Removal | 25%           | 70%    | 60%        | 70%       |
+| Beat Removal   | 20%           | 53%    | 45%        | 66%       |
+
 ### Cycling 
 
 In terms of cantrip retention the best ones to keep back, when allowed, are the
@@ -332,16 +357,23 @@ to find Doomsday and the mana to cast it, or spells to protect it, and resolve
 a win in the same turn, thus avoiding the discard clause, or creating a pass
 the turn pile whereby discarding your hand becomes a non-issue.
 
-## Cantrip sequencing - Doomsday Principles (in piles)
+## Example Scenarios
 
-Debate of Trip vs Trip vs Trip?
+We shall now present a couple of example scenarios involving cantrip decisions
+taken from real-life situations observed. The scenario will be given and 
+a question asked about a decision point. The potential answers will then
+be discussed. As with any situation, there may not be an objectively correct
+solution but hopefully they will be thought provoking enough to allow you to
+be able to identify alternative, non-intuitive lines in future games you might
+play.
 
-Doomsday specific considerations
- - Keeping BS held up for same turn wins
- - Casting one to leave two and consider what pitches to a Force
- - When to use everything to dig and when to hold in case find the win on same turn 
- - ???
- - Sometimes correct to misname for a pile
+### Scenario 1 - Edge of Autumn vs Wasteland
+
+### Scenario 2 - Last resorts
+
+### Scenario 3 - Cast or Cycle?
+
+### Scenario 4 - Between two cyclers
 
 Scenarios 
 - Edge vs Wasteland (Ref recent Emidln match where he just ignored wasteland to have a same turn win with edge in hand)
