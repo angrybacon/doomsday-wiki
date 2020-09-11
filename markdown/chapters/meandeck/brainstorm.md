@@ -41,7 +41,6 @@ Another example is presented here using Ideas Unbound.
 1. Cast IU, drawing the rest of the pile
 1. The Lotus Petal gives you a second {U} to cast TO with an empty library
 
-
 ## Brainstorm and *Combo Piece* Available
 
 > {B}{B}{B} + Brainstorm + Thassa's Oracle
@@ -51,8 +50,8 @@ Another example is presented here using Ideas Unbound.
 You may find yourself in a scenario where you have a card in hand that is
 considered *dead* outside of the combo turn. Thankfully, BS allows you to take
 it out of your hand and replace it into the pile. Let us consider the example
-above. It may be the opponent has a card like Scavenging Ooze out and you you
-need utitlise LED to generate mana but don't want to discard your one Oracle to
+above. It may be the opponent has a card like Scavenging Ooze out and you need
+to utilize LED to generate mana but don't want to discard your one Oracle to
 have it *eaten* by the Ooze. We cannot use Predict here as we would need to mill
 the Oracle to do so effectively.
 
