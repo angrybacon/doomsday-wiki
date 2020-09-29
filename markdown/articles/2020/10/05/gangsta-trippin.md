@@ -418,7 +418,7 @@ Our board is:
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pnd}} {{!Daze}} {{!BS}} {{Sclading Tarn}}</row>
+<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pnd}} {{!Daze}} {{!BS}} {{!Scalding Tarn}}</row>
 
 What's the play?
 
@@ -449,7 +449,7 @@ Our board is:
 
 Our hand is:
 
-<row variant="hand">{{!Daze}} {{!Island}} {{!Pre}} {{!DD}} {{!Dur}} {{!EoA}} {{Misty Rainforest}}</row>
+<row variant="hand">{{!Daze}} {{!Island}} {{!Pre}} {{!DD}} {{!Dur}} {{!EoA}} {{!Misty Rainforest}}</row>
 
 What's the play?
 
