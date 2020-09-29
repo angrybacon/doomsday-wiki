@@ -16,7 +16,7 @@ such as Reid Duke, AJ Sacher and Tomas Mar.
 - [Everything about four colour control][snapcardster.four-color-control]
 
 [cfb.cantrip-guide]: https://www.channelfireball.com/all-strategy/articles/reids-guide-to-legacy-using-cantrips-properly/
-[cfb.fishing-lesson]: https://articles.starcitygames.com/premium/fishing-lessons-pondering-brainstorm/
+[scg.fishing-lesson]: https://articles.starcitygames.com/premium/fishing-lessons-pondering-brainstorm/
 [snapcardster.four-color-control]: https://snapcardster.com/blog/everything-about-four-color-control/
 
 *Please note: the Snapcardster site is no longer running and therefore the link
