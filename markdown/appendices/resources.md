@@ -20,6 +20,12 @@ title: Other Doomsday Resources
   [YouTube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)
 - Romario *Romariovidal* Vidal:
   [Twitch](https://www.twitch.tv/romariovidal)
+- Walkedairplane (Walked):
+  [Twitch](https://www.twitch.tv/walkedairplane)
+  [YouTube](https://www.youtube.com/user/walkedairplane)
+- Eric *Revenantkioku* Koziol:
+  [Twitch](https://www.twitch.tv/revenantkioku)
+  [YouTube](https://www.youtube.com/user/revenantkioku)
 
 ## Podcasts
 
@@ -29,6 +35,12 @@ title: Other Doomsday Resources
 
 ## Videos
 
+- Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)
+  [Part 1](https://www.youtube.com/watch?v=dw-MHBQCPDs)
+  [Part 2](https://www.youtube.com/watch?v=cIcQGptZcFY)
+  [Part 3](https://www.youtube.com/watch?v=htyfeXN24Qo)
+- [TwinlessTwinMTG runs a league with Monkeyscantcry]
+  (https://www.twitch.tv/twinlesstwinmtg/video/715777301)
 - [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese]
   (https://www.youtube.com/watch?v=eMgfFlx0_10)
 - [Jarvis Yu ft. Ari Lax do a League with 4C Meandeck (July 2020)]
