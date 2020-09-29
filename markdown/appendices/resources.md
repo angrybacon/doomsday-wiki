@@ -23,10 +23,9 @@ title: Other Doomsday Resources
 - Walkedairplane (Walked):
   [Twitch](https://www.twitch.tv/walkedairplane)
   [YouTube](https://www.youtube.com/user/walkedairplane)
-- Revenantkioku:
+- Eric *Revenantkioku* Koziol:
   [Twitch](https://www.twitch.tv/revenantkioku)
   [YouTube](https://www.youtube.com/user/revenantkioku)
- 
 
 ## Podcasts
 
