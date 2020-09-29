@@ -58,6 +58,8 @@ unwanted pieces with the fetchland. Ponder is best suited for trying to find one
 specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
+<row variant="pile">{{!Pnd}}</row>
+
 #### {{Preordain}}
 
 Preordain is normally considered the 'weakest' of the classic suite. Previously
@@ -74,6 +76,8 @@ presented in Reid's article.
 I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
+<row variant="pile">{{!Pre}}</row>
+
 #### {{Brainstorm}}
 
 Brainstorm has been described as a [*Pillar of the
@@ -83,6 +87,8 @@ considered one of the most powerful spell effects in Legacy. It acts as a way to
 from your hand, normally those considered uneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
 as almost drawing 3 cards with some people comparing it to {{Ancestral Recall}}.
+
+<row variant="pile">{{!BS}}</row>
 
 ### Free *Cycling Effects*
 
@@ -114,6 +120,8 @@ out of nowhere.
 For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
+<row variant="pile">{{!SW}}</row>
+
 #### {{Edge of Autumn}}
 
 Edge of Autumn provides a method of cycling that is less taxing on your life
@@ -127,6 +135,8 @@ The thought process behind it mirrors that of the discard suite utilised. Edge
 is effectively the equivalent of {{Duress}}. Although Duress is generally more
 narrow than {{Thoughtseize}} in effect, the life loss can be significant so a
 mix is run to provide maximum flexibility.
+
+<row variant="pile">{{!EoA}}</row>
 
 ### Pile Enablers
 
@@ -147,6 +157,8 @@ of effects like the reveal triggers on {{Delver of Secrets}} or
 mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
+<row variant="pile">{{!Pdt}}</row>
+
 ### {{Ideas Unbound}}
 
 Ideas Unbound is a more effective card (resources allowing) during pile
@@ -154,6 +166,8 @@ construction but a weaker card outside of the combo. It can be used as a large
 scale {{Faithless Looting}} effect to turn a land heavy hand into a speall heavy
 hand. or provide an explosive boost of cards for a single turn, potentially
 enabling you to combo off there and then.
+
+<row variant="pile">{{!IU}}</row>
 
 ## Cantrip Sequencing - General Principles
 
@@ -214,7 +228,7 @@ Brainstorm. We know that Brainstorm, in conjecture with an additional card in
 hand post-Doomsday resolving, can lead to a deterministic, same-turn win. Let's
 consider the following hand:
 
-<row variant="hand">{{!DR}} {{!Pn}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!Bs}} {{!Pre}}</row>
+<row variant="hand">{{!DR}} {{!Pnd}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!BS}} {{!Pre}}</row>
 
 In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
 
@@ -373,7 +387,7 @@ Our board is:
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!EoA}} {{!FoW}} {{!FoW}} {{!Underground Sea}} {{!Bs}} {{!Daze}}</row>
+<row variant="hand">{{!DR}} {{!EoA}} {{!FoW}} {{!FoW}} {{!Underground Sea}} {{!BS}} {{!Daze}}</row>
 
 What's the play?
 
@@ -404,7 +418,7 @@ Our board is:
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pn}} {{!Daze}} {{!Bs}} {{Misty Rainforest}}</row>
+<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pnd}} {{!Daze}} {{!BS}} {{Sclading Tarn}}</row>
 
 What's the play?
 
@@ -416,7 +430,7 @@ mana however if we can find it within 2 of our single mana cantrips then we can
 still win this turn. The key here is to recognise what are the minimum
 requirements for a winning hand with what we have. Given the hand above, we can
 win so long as we have a {B} for Dark Ritual and both the Street Wraith and
-Brainstorm in hand. Given this information we can sequence by playing Misty,
+Brainstorm in hand. Given this information we can sequence by playing Tarn,
 fetching, playing Preordain followed by playing Ponder. This potential for 7
 looks should give around a 46% chance of finding one of our four copies of
 Doomsday. Any cards seen / drawn with the two cantrips such as an additional
