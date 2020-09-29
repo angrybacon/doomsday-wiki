@@ -369,18 +369,113 @@ play.
 
 ### Scenario 1 - Edge of Autumn vs Wasteland
 
+We're playing against {U}{B} Shadow. It is a few turns in and we have cantripped
+to find a Doomsday on top of the deck with Ponder. As we fear Thoughtseize from
+their hand we decide to leave Doomsday on top and draw a land in order to protect
+it. We pass the turn and our opponent plays a Wasteland and fires it off targeting
+our tapped Underground Sea. 
+
+Our board is:
+
+<row variant="hand">{{!Underground Sea}} {{!Polluted Delta}}</row>
+
+Our hand is:
+
+<row variant="hand">{{!DR}} {{!EoA}} {{!FoW}} {{!FoW}} {{!Underground Sea}} {{!Bs}} {{!Daze}}</row>
+
+What's the play?
+
+We have a couple of options here. First is to fetch, cast Brainstorm and hope they try and interact
+with it so we can "save" our land by returning it with Daze. This is a poor choice and one that is
+not recommended no matter how "clever" it might feel. The second is to cycle Edge of Autumn, sacrificing
+the Sea to draw the known Doomsday thus obtaining "value" from their Wasteland activation. This is
+often a good play however in this instance it may not be optimal. The third option is just allow the Wasteland
+to resolve without a response. If we draw the Doomsday next turn we have the ability to cast
+it off of the Dark Ritual, with Force of Will and/or Daze backup along with mana to pay for Daze or
+the ability to make a "perfect" Brainstorm pile with Cavern of Souls included. In this instance
+it is probably optimal to go with the third option which gives you the most flexibility.
+
 ### Scenario 2 - Last resorts
+
+We're playing against a Depths deck that has the active Stage x Depths ready on the field. It is
+game 1 so we gave no way to combat an on board Marit Lage. We have an almost ready hand and
+some cantrips so we have an out, we just need to try and sequence everything into a win. We enter
+turn 3 with the following board state and hand:
+
+Our board is:
+
+<row variant="hand">{{!Underground Sea}} {{!Underground Sea}}</row>
+
+Our hand is:
+
+<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pn}} {{!Daze}} {{!Bs}} {{Misty Rainforest}}</row>
+
+What's the play?
+
+Looking at our hand we can see that the only piece we are missing for a win is the Doomsday itself.
+We have a plethora of potential cantrip options to make use of so we need to ensure we maximise
+their potential to give us the best chance of finding what we need. We have the potential to become
+slightly constrained on mana however if we can find it within 2 of our single mana cantrips then we
+can still win this turn. The key here is to recognise what are the minimum requirements for a winning 
+hand with what we have. Given the hand above, we can win so long as we have a {B} for Dark Ritual and
+both the Street Wraith and Brainstorm in hand. Given this information we can sequence by playing Misty, 
+fetching, playing Preordain followed by playing Ponder. This potential for 7 looks should give
+around a 46% chance of finding one of our four copies of Doomsday. Any cards seen / drawn with the two
+cantrips such as an additional Street Wraith or Edge of Autumn or Lotus Petal can help change the odds
+or give additional options but, in a vacuum, this is likely the best sequence to take.
 
 ### Scenario 3 - Cast or Cycle?
 
-### Scenario 4 - Between two cyclers
+We're playing against TES on the play. We've managed to find a Doomsday however we have not managed 
+to find a ritual or a third {B} mana source as we enter turn 2. Our opponent has just cantripped 
+turn 1 and passed.
 
-Scenarios 
-- Edge vs Wasteland (Ref recent Emidln match where he just ignored wasteland to have a same turn win with edge in hand)
-- Dead on board with a cantrip and BS in hand?
-- Using Edge to find a land vs casting to find the basic swamp to go off turn 3.
-- Edge vs Street Wraith when you have 1 land and a Daze you wish to use.
-- Starter hand with DR, Fetch, Sea, SW, Pre, Pn, BS - What is sequence?
-- Dead on board if PTT, no cantrip in hand
+Our board is:
 
-Outro
+<row variant="hand">{{!Underground Sea}}</row>
+
+Our hand is:
+
+<row variant="hand">{{!Daze}} {{!Island}} {{!Pre}} {{!DD}} {{!Dur}} {{!EoA}} {{Misty Rainforest}}</row>
+
+What's the play?
+
+We have a couple of options here. The Daze gives us a little bit of flexibility in terms of protection
+however given how much artifact mana TES runs currently, it is very likely to be obsoleted if not paired
+with additional protection. One option to consider is to play Misty and fetch for Bayou to then cast
+Edge of Autumn. This allows us to guarantee finding our basic Swamp ready to have {U}{B}{B}{B} available
+on our next turn. This does leave us a little vulnerable however as even then we would not be able to
+win on the same turn we Doomsday without picking up a Brainstorm and we could not cast our Duress on either
+turn without finding a 4th {B} source. If we play Misty and fetch another Sea however, we can preordain to 
+try and find a Dark Ritual or B source and cast Duress in the same turn. This helps delay the opponent and
+gives a higher upside as, if we find the Dark Ritual, we can perform a deterministic turn 3 win with
+Edge cycling into Brainstorm pile.
+
+## Closing Thoughts
+
+As always a wordy read so thank you for taking the time to work through it. 
+I hope the article was enjoyable. It's a tricky subject to broach as there
+is already so many good resources covering the art of cantripping with the basics
+such as pair fetches with Brainstorm or fetch before you Preordain however I 
+wanted to try and capture some of the non-intuitive thinking that can be 
+associated with playing Meandeck Doomsday. 
+
+I would like to give a shout of thanks to Nevilshute who helped review this
+as I wrote it. He does a lot of great video content so please do 
+[check his videos out on youtube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)
+if you want to see the deck in action.
+
+As always if you want even more content please check out our
+[resources](/appendices/resources/) page which includes a list of community
+streamers or maybe if you are up for a challenge maybe check out the
+[puzzles](/puzzles/) page.
+
+If you would like to submit any content to the Wiki then please contact
+AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
+Doishy on the Discord if you wish to discuss anything mentioned in the article
+further.
+
+Until next time.
+
+Please stay safe, well and punish people for playing non-blue decks.  
+xxx
