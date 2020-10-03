@@ -58,7 +58,7 @@ unwanted pieces with the fetchland. Ponder is best suited for trying to find one
 specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
-<row variant="pile">{{!Pnd}}</row>
+<row variant="centered">{{!Pnd}}</row>
 
 #### {{Preordain}}
 
@@ -76,7 +76,7 @@ presented in Reid's article.
 I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
-<row variant="pile">{{!Pre}}</row>
+<row variant="centered">{{!Pre}}</row>
 
 #### {{Brainstorm}}
 
@@ -88,7 +88,7 @@ from your hand, normally those considered uneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
 as almost drawing 3 cards with some people comparing it to {{Ancestral Recall}}.
 
-<row variant="pile">{{!BS}}</row>
+<row variant="centered">{{!BS}}</row>
 
 ### Free *Cycling Effects*
 
@@ -120,7 +120,7 @@ out of nowhere.
 For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
-<row variant="pile">{{!SW}}</row>
+<row variant="centered">{{!SW}}</row>
 
 #### {{Edge of Autumn}}
 
@@ -136,7 +136,7 @@ is effectively the equivalent of {{Duress}}. Although Duress is generally more
 narrow than {{Thoughtseize}} in effect, the life loss can be significant so a
 mix is run to provide maximum flexibility.
 
-<row variant="pile">{{!EoA}}</row>
+<row variant="centered">{{!EoA}}</row>
 
 ### Pile Enablers
 
@@ -157,7 +157,7 @@ of effects like the reveal triggers on {{Delver of Secrets}} or
 mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
-<row variant="pile">{{!Pdt}}</row>
+<row variant="centered">{{!Pdt}}</row>
 
 ### {{Ideas Unbound}}
 
@@ -167,7 +167,7 @@ scale {{Faithless Looting}} effect to turn a land heavy hand into a speall heavy
 hand. or provide an explosive boost of cards for a single turn, potentially
 enabling you to combo off there and then.
 
-<row variant="pile">{{!IU}}</row>
+<row variant="centered">{{!IU}}</row>
 
 ## Cantrip Sequencing - General Principles
 
