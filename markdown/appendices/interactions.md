@@ -81,6 +81,14 @@ will also let you play cards through a Chalice of the Void.
 
 ## Opponent Interactions
 
+### {{Echo of Eons}}
+
+If playing against a known Echo deck try to make sure you have at least 8 cards
+spread across your hand, library and graveyard to avoid them being able to Echo
+you to death. You should have a minimum of 6 from the Doomsday in your graveyard
+and your 5 card pile so having an extra 2 cards in hand or some uncracked
+fetches and/or lotus petals in play can help achive this.
+
 ### {{Flickerwisp}}
 
 An opponent can cause headaches with an Aether Vial on 3 and a Flickerwisp in
