@@ -62,7 +62,7 @@ Doomsday or a protection spell like Force of Will.
 
 #### {{Preordain}}
 
-Preordain is normally considered the 'weakest' of the classic suite. Previously
+Preordain is normally considered the *weakest* of the classic suite. Previously
 it has normally been relegated to combo decks who just wanted additional
 filtering to find key pieces but is generally considered weaker than Ponder as
 it sees 1 fewer cards. This point is in direct contradiction to the wording
@@ -94,7 +94,7 @@ as almost drawing 3 cards with some people comparing it to {{Ancestral Recall}}.
 
 This next pair are mostly unique to Doomsday however {{Death's Shadow}} based
 decks (and some Dredge decks) will also make use of one of them. These are
-'free' cycling cards that have little to no relevant text outside of their
+*free* cycling cards that have little to no relevant text outside of their
 cycling abilities (other than some specific circumstances). Their use is almost
 always to provide a {0} mana draw effect after Doomsday has resolved.
 
@@ -171,12 +171,12 @@ enabling you to combo off there and then.
 
 ## Cantrip Sequencing - General Principles
 
-Normally, when playing a 'fair' Legacy deck, you need to filter through your
+Normally, when playing a *fair* Legacy deck, you need to filter through your
 deck in order to find the balance of threats, protection and disruption
 depending on the situation. In a combo deck, this is normally a bit more
 hyper-focussed to find the piece/pieces in order to *go off* as quickly as
 possible. More often in combo decks you will find yourself shuffling off of
-Ponders or 'bottoming 2' off Preordains in order to find what is needed. The
+Ponders or *bottoming 2* off Preordains in order to find what is needed. The
 following guidelines are only that, general guidelines. As with anything in life
 there are always possible exceptions or circumstances where an alternative set
 of ideas are more valid than those presented here so they should not taken as
@@ -212,7 +212,7 @@ in the game.
 If you are trying to dig hard to find one particular card, perhaps in a
 desperation scenario, it might be worth leaving a Brainstorm to be the last
 cantrip you play. This is because after resolving any Ponders and/or Preordains
-you have, the Brainstorm cannot 'clear the top' of your library so, although it
+you have, the Brainstorm cannot *clear the top* of your library so, although it
 can see 3 cards, it will not be able to have you view any new ones in isolation.
 In non-desperation scenarioes it may be better to Brainstorm and then use the
 scry 2 from Preordain or the shuffle from Ponder to act as a fetchland shuffle
