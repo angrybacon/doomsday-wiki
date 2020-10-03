@@ -12,7 +12,7 @@ export default function Prettylink({ children, component, href, target, ...rest 
     Wrapper
       ? (<Wrapper className={classes.link} to={href} {...rest}>{children}</Wrapper>)
       : (
-        <span className={classes.root}>
+        <span>
           <a
             className={classes.link}
             href={href}
