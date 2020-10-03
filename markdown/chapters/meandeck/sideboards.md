@@ -129,6 +129,7 @@ Some key examples of anti-blue to consider:
 - Flusterstorm
 - Hope of Ghirapur
 - Xantid Swarm
+- Defense Grid
 
 <row variant="pile">{{!Silence}} {{!Pyroblast}} {{!Hope of Ghirapur}} {{!Red Elemental Blast}} {{!Xantid Swarm}}</row>
 
@@ -170,6 +171,7 @@ Some key examples of anti-graveyard to consider:
 - Nihil Spellbomb (soft)
 - Grafdigger's Cage (hard)
 - Faerie Macabre (soft)
+- Relic of Progrenitus (soft)
 
 <row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!Rest in Peace}} {{!Grafdigger's Cage}}</row>
 
@@ -318,8 +320,8 @@ their threats if you have the luxury to do so.
 Examples of this archetype include:
 
 - {R}{U}{G} Delver
-- {U}{R} Delver
-- {U}{B} Shadow
+- {U}{B} Ninjas
+- {B}{U}{G} Shadow
 - {U}{G} Infect
 
 <row variant="pile">{{!Delver of Secrets}} {{!Dreadhorde Arcanist}} {{!Daze}} {{!Death's Shadow}} {{!Glistener Elf}}</row>
@@ -470,7 +472,8 @@ Part creature based deck and part blue based control, their disruption suite
 tends to be a mix of Force of Wills and Force of Negations coupled with cards
 like Meddling Mage and other hatebear type effects. You will definately want
 your Anti-blue suite along with some additional permanent and/or creature
-removal to help face them.
+removal to help face them. Disguising what deck you are on pre-board can help
+avoid any relevant Meddling Mage naming against you.
 
 #### Aluren
 
@@ -484,7 +487,16 @@ win.
 Part creature deck and part combo deck, they can kill swiftly but often have a
 lot of creature based interaction they can deploy. Having 1 for 1 answers to
 their combo items is effective but consideration should be given to other
-permanents they can run. Some lists may also run discard effects.
+permanents they can run. Some lists may also run discard effects. With the
+printing of Allosaurus Shepherd these decks can bypass a lot of your disruption
+suite so aiming for a quick combo is pretty key.
+
+#### Oops all Spells
+
+Part graveyard deck and part combo deck, they are popular and more resilient
+with the modal double faced land cards. You should be okay boarding in a similar
+fashion when facing reanimator to maximise early disruption and interaction and
+play a slightly more controlling role.
 
 ## Closing Words
 
