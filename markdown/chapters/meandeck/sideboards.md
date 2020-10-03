@@ -88,7 +88,7 @@ Some key examples of permanent removal to consider:
 - Echoing Truth
 - Hurkyl's Recall
 
-<row variant="pile">{{!Abrupt Decay}} {{!Abrade}} {{!Goblin Cratermaker}} {{!Teferi's Realm}} {{!Pernicious Deed}}</row>
+<row variant="pile">{{!AD}} {{!Abrade}} {{!Goblin Cratermaker}} {{!Teferi's Realm}} {{!Pernicious Deed}}</row>
 
 #### Creature Removal
 
@@ -108,7 +108,7 @@ Some key examples of creature removal to consider:
 - Dead of Winter
 - Terminus
 
-<row variant="pile">{{!Swords to Plowshares}} {{!Fatal Push}} {{!Massacre}} {{!Toxic Deluge}} {{!Terminus}}</row>
+<row variant="pile">{{!StP}} {{!Fatal Push}} {{!Massacre}} {{!Toxic Deluge}} {{!Terminus}}</row>
 
 #### Anti-Blue
 
@@ -131,7 +131,7 @@ Some key examples of anti-blue to consider:
 - Xantid Swarm
 - Defense Grid
 
-<row variant="pile">{{!Silence}} {{!Pyroblast}} {{!Hope of Ghirapur}} {{!Red Elemental Blast}} {{!Xantid Swarm}}</row>
+<row variant="pile">{{!Silence}} {{!Pyroblast}} {{!Hope of Ghirapur}} {{!REB}} {{!Xantid Swarm}}</row>
 
 #### Anti-Combo
 
@@ -173,7 +173,7 @@ Some key examples of anti-graveyard to consider:
 - Faerie Macabre (soft)
 - Relic of Progrenitus (soft)
 
-<row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!Rest in Peace}} {{!Grafdigger's Cage}}</row>
+<row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!RiP}} {{!Grafdigger's Cage}}</row>
 
 #### Mana-Assets
 
