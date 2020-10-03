@@ -173,7 +173,7 @@ Some key examples of anti-graveyard to consider:
 - Faerie Macabre (soft)
 - Relic of Progrenitus (soft)
 
-<row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!Rest in Peace}} {{!Grafdigger's Cage}}</row>
+<row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!RiP}} {{!Grafdigger's Cage}}</row>
 
 #### Mana-Assets
 
