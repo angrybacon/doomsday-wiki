@@ -35,10 +35,8 @@ title: Other Doomsday Resources
 
 ## Videos
 
-- Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)
-  [Part 1](https://www.youtube.com/watch?v=dw-MHBQCPDs)
-  [Part 2](https://www.youtube.com/watch?v=cIcQGptZcFY)
-  [Part 3](https://www.youtube.com/watch?v=htyfeXN24Qo)
+- [Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)]
+  (https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)
 - [TwinlessTwinMTG runs a league with Monkeyscantcry]
   (https://www.twitch.tv/twinlesstwinmtg/video/715777301)
 - [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese]
