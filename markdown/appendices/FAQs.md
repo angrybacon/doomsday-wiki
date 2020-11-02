@@ -18,20 +18,28 @@ available for play. These comprise of DDFT, DDEFT, "Meandeck" Doomsday and Entom
    Storm plans using cards like Burning Wish, Echo of Eons and Tendrils of Agony. They also 
    prefer proactive protection such as Duress over being able to run reactive counter magic. 
    
+   <row variant="centered">{{!Tendrils of Agony}}</row>
+   
  - DDEFT (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This was the main
    variant available post Gitaxian Probe ban and pre-printing of Thassa's Oracle. These lists
    use Experimental Frenzy as a card advantage engine and win condition in tandem with Doomsday. 
+   
+      <row variant="centered">{{!Experimental Frenzy}}</row>
    
  - Meandeck Doomsday is the primary deck variant that is having previously unprecedented success
    since the printing of Thassa's Oracle. Meandeck Doomsday uses counter magic like Force of Will
    and Daze to play a controlling game before ending the game with Doomsday. The moniker "Meandeck"
    is explained in this article [here](/articles/2020/03/12/pretty-mean-deck/). 
    
+      <row variant="centered">{{!Force of Will}}</row>
+   
  - Entombsday is more of a Tin Fins variant with a main deck plan focussing on reanimating Griselbrand
    using either Shallow Grave or Goryo's Vengeance to then have it attack alongside Emrakul, the Eons Torn
    or, looping the deck to cast an infinite number of Collective Brutalitys or a lethal Tendrils of Agony. 
    The key point ot focus on is it runs a dedicated transformational sideboard into effectively a variant
    of Meandeck Doomsday. 
+   
+      <row variant="centered">{{!Griselbranned}}</row>
    
 ### 2. What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
@@ -40,9 +48,11 @@ outnumbers TCDeck numbers of the previous 10 years preceeding it for all archety
 It also had a high number of top 32 finishes in the Eternal Weekend events for 2020. 
 
 Within Meandeck Doomsday there is no definitive *best* colour configuration to run. Success has been had with
-straight UB, BUG, Grixis, 4 colour (no W) and Esper lists across the year with most decks having an almost
+straight {U}{B}, {B}{U}{G}, Grixis, 4 colour (no {W}) and Esper lists across the year with most decks having an almost
 entirely UB main deck configuration. The tools that are effective and provided by each colour depend on the meta
 at the time and the pilot's preferences in deck building. 
+
+   <row variant="centered">{{!Veil of Summer}}{{!Pyroblast}}{{!Teferi, Time Raveler}}</row>
 
 ### 3. What list should I start on? What is the *best* list to play?
 
@@ -58,7 +68,7 @@ Historically there was a spreadsheet that had an ever-growing list of pre-prescr
 but this was for the old DDFT decks pre-Sensei's Divining Top ban. A current one is not maintained for a couple of 
 reasons the biggest being that trying to rote learn piles is actually not effective training/practice. It is better
 to learn the general rule sets or toolboxes you have at your disposal and then try to build on the fly using your
-knowledge, experience and general critical thinking than it is to try and remember "if I have  BBB+UUU+1+SW in hand
+knowledge, experience and general critical thinking than it is to try and remember "if I have  {B}{B}{B}+{U}{U}{U}+{1}+SW in hand
 then I can win through Thalia, Guardian of Thraben in play. 
 
 This wiki aims to try and provide the general concepts and basic level knowledge needed to pilot the deck. Select your
@@ -76,12 +86,16 @@ Doomsday down however often they are too slow or get answered easily by Daze. TE
 of disruption the deck brings to the table nor interact with the fast combo kill. All of these are likely the 
 mopst favourable (part based on gut feel and part based on community obtained results found [here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
 
+   <row variant="centered">{{!Oko, Thief of Crowns}}{{!Knight of the Reliquary}}{{!Wishclaw Talisman}}</row>
+
 ### 6. What is the worst matchup for the deck?
 
 Delver. Delver. Definately Delver. Also Shadow decks. Basically any aggressive tempo shell running cheap threats
 and mana efficient disruption. RUG Delver is the (current) most played deck in Legacy and the deck has a hard
 time with that matchup (around 40% match win rate observed) however Grixis Delver is likely the worst to face
 as the addition of Thoughtseize as another angle of disruption makes them very hard to face.
+
+   <row variant="centered">{{!Delver of Secrets}}</row>
 
 ### 7. What's a good meta to play Doomsday in?
 
@@ -98,6 +112,8 @@ get too defensive if informed that the card was tried and didn't hit the mark. I
 deck I would advise getting a few reps under your belt playing it first before delving into the spicier
 areas of the card pool. This doesn't mean you shouldn't consider new things but do check first as likely
 it has been tried and rejected before. 
+
+   <row variant="centered">{{!Drown in the Loch}}{{!Baleful Strix}}{{!Careful Study}}</row>
 
 ### 9. Is the deck hard to learn? Is it the most difficult deck in Legacy?
 
