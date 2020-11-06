@@ -41,6 +41,10 @@ If you have a land drop available. You can use Daze to generate additional mana
 by playing a *dead* card like Dark Ritual in order to return an Island to enable
 generation of two blue mana.
 
+### {{Doomsday}}
+
+Doomsday rounds up the life loss so casting it at 1 life will result in you losing.
+
 ### {{Lake of the Dead}}
 
 Lake of the Dead does not enter the battlefield until after a swamp is
@@ -81,6 +85,13 @@ will also let you play cards through a Chalice of the Void.
 
 ## Opponent Interactions
 
+
+### {{Aven Mindcensor}}, {{Shadow of Doubt}}
+
+If there is an Aven Mindcensor on the board, a resolved Doomsday will be able to
+search only the top 4 cards of the library and the entire graveyard. Selecting 1
+card from the top 4 does not allow you to dig one deeper in to your library.
+
 ### {{Echo of Eons}}
 
 If playing against a known Echo deck try to make sure you have at least 8 cards
@@ -95,13 +106,13 @@ An opponent can cause headaches with an Aether Vial on 3 and a Flickerwisp in
 hand, since they are able to exile cards at critical times in your sequencing.
 The disruptive cards that Flickerwisp can exile are LED, Conjurer's Bauble,
 Chromatic Sphere, Laboratory Maniac, or even a land in response to an unresolved
-Rain of Filth on the stack.
+Rain of Filth on the stack or to deny a Massacre alternative casting.
 
-### {{Aven Mindcensor}}, {{Shadow of Doubt}}
+### {{Opposition Agent}}
 
-If there is an Aven Mindcensor on the board, a resolved Doomsday will be able to
-search only the top 4 cards of the library and the entire graveyard. Selecting 1
-card from the top 4 does not allow you to dig one deeper in to your library.
+Casting Doomsday into an active Opposition Agent will result in your opponent getting
+to look for 5 cards in your deck and you exiling the rest. Unless Oracle is in your
+hand this will mostly result in your loss. 
 
 ### {{Pithing Needle}}
 
@@ -132,7 +143,13 @@ Can reorder your library at sorcery speed. Interferes with PTT piles.
 If against Show and Tell you can build a pile that, if they cast a Show and
 Tell, you can cycle and put Oracle into play from it, winning with the trigger.
 
-### {{Stifle}}
+### {{Skyclave Apparation}}
+
+Remember that Death and Taxes can present removal by having an Aether Vial set to
+3, even if they have no mana open Be careful if considering a pile with cards remaining
+in your library.
+
+### {{Stifle}}/{{Trickbind}}
 
 Can stop Conjurer's Bauble activations, Tendrils of Agony and Empty the Warrens
 Storm triggers, as well as fetchlands, cyclers like Street Wraith and Thassa's
