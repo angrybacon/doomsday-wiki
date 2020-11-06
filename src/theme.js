@@ -52,9 +52,9 @@ const themeOptions = {
           marginBottom: 0,
         },
         '&:not(:first-child)': {
-          marginTop: '1em',
+          marginTop: '1.5em',
         },
-        marginBottom: '1em',
+        marginBottom: '1.5em',
       },
     },
   },
