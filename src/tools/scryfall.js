@@ -39,6 +39,7 @@ const CARDS = {
   Pdt:   ['Predict',                  'ODY'],
   Pnd:   ['Ponder',                   'LRW'],
   Pre:   ['Preordain',                'M11'],
+  Pyro:  ['Pyroblast',                'ICE'],
   REB:   ['Red Elemental Blast',      'LEB'],
   Rain:  ['Rain of Filth',            'USG'],
   RiP:   ['Rest in Peace',            'RTR'],
