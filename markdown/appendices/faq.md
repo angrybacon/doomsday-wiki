@@ -103,7 +103,7 @@ enough disruption to be able to stop us. Maverick has threats but often little
 to no disruption. Sometimes Thalia or Ouphe can slow Doomsday down however often
 they are too slow or get answered easily by Daze. TES cannot beat the sheer
 amount of disruption the deck brings to the table nor interact with the fast
-combo kill. All of these are likely the mopst favourable (part based on gut feel
+combo kill. All of these are likely the most favourable (part based on gut feel
 and part based on community obtained results found
 [here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
 
