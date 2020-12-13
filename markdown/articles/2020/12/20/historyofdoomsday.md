@@ -54,19 +54,15 @@ from Urza's Legacy were printed, he actually already found a copy, and use for D
 
 <row variant="pile">{{!Meditate}} {{!Palinchron}} {{!Mana Flare}} {{!Turnabout}} {{!Stroke of Genius}}</row>
 
-For only {11}{U}{U}{U}{U}{R} this would give you infinite mana to cast an exponentially large fireball at 
+For only {4}{U}{U}{U}{R} this would give you infinite mana to cast an exponentially large Stroke at 
 your opponent. Pretty powerful magic. 
 
-```
-Bacon pls check maths on how cheap this pile above can be made for, way too tired right now xxxx
-```
-
-He eventually moved house, living in Chicago and visited the local game shop. There he brought along
+Emidln eventually moved house, living in Chicago and visited the local game shop. There he brought along
 a powerful 64 card mono {B} deck full of strong threats like {{Order of the Ebon Hand}}. He went 2-1
 catching the eyes of some local players who offered sound advice like "play 60 cards" and "have real
 threats in there". From there he went to learn about Legacy and started to play the format. Initially
-he ran {{Smokestack}} based prison decks and slowly graduated into the combo side of things. Spanish
-Inquisition (Mono {B} Storm) and Iggy Pop (Ill-Gotten Gains {U}{B} Storm). Before we go into the 
+he ran {{Smokestack}} based prison decks and slowly graduated into the combo side of things. First Iggy
+Pop (Ill-Gotten Gains {U}{B} Storm) and later on Spanish Inquisition (Mono {B} Storm). Before we go into the 
 next stage of his journey let us take a look at the start of the card {{Doomsday}} itself.
 
 
@@ -176,7 +172,9 @@ Legacy deck truly form.
 ## The Start of Legacy - Early Storm Lists
 
 Moving sideways for the time being, storm decks were viable from the onset of Legacy with the most well known
-list at the time being known as 'Iggy Pop'. Iggy was a {U}{B} storm list based around the engine of {{Ill-Gotten Gains}}
+list at the time being known as 'Iggy Pop', designed by Michael Bomholt whose original primer can be found 
+[HERE](https://web.archive.org/web/20090104201512/http://www.starcitygames.com/php/news/article/10989.html).
+Iggy was a {U}{B} storm list based around the engine of {{Ill-Gotten Gains}}
 coupled with rituals effects, other fast mana, Lion's Eye Diamonds and {{Tendrils of Agony}} with tools like
 Mystical Tutor and {{Intuition}} to find them. The deck was very proactive, to the point it didn't run much
 protection at all. Discard effects like Duress weren't viable as, due to the mirrored recursion effect of 
@@ -189,11 +187,11 @@ of Tendrils of Agony to win. It was very consistent boasting 8 maindeck tutor ef
 {{Chain of Vapor}} or {{Cabal Pit}}.
 
 It's here in our story where we re-focus on Emidln. Emidln had gotten a taste of competetive magic and so 
-started browsing forums to find out more information. Places like the Starcitygames forums, the mana drain
-forums (in the new legacy section, the mana leak) and the mtgsalvation forums. He started to meet and 
+started browsing forums to find out more information. Places like the StarCityGames, The Mana Drain
+forums (in the new legacy section, The Mana Leak) and the MtGSalvation forums. He started to meet and 
 become friends with people online, chatting via Aim, MSN, IRC, ICQ and a whole host of other messaging platforms.
 He realised he very much enjoyed the idea and style of the combo decks that were coming out and was invited
-to a specialised team forums for 'Team Blitzkrieg' or BZK for short. On the BZK forums all mana of combo decks
+to a specialised team forums for 'Team Blitzkrieg' or BZK for short. On the BZK forums all manner of combo decks
 were being discussed including early Spanish Inquisition lists (SI), the aforementioned Iggy Pop and some new
 decks that would start to evolve into more Modern storm lists and Emidln was in the middle of them.
 
@@ -204,7 +202,7 @@ were used to cheat on mana and then the deck finished off opponents with either 
 {{Goblin Charbelcher}}. There was a point in time where the SI decks tried a number of cards in them to 
 increase the *business* count available as the draw 4's could be unreliable. Cards like {{Diablic Intent}} worked
 alongside the 'tallmen' approach with {{Shield Sphere}} and friends however this did stretch reliance on the creature
-aspect. Doomsday was explored by Emidln and BZK friends; Evenpence and Desolutionist as a way to incorporate additional 
+aspect. Doomsday was explored by Emidln and BZK friends; B.C., Evenpence and Desolutionist as a way to incorporate additional 
 business into the shell to some success but the deck, although fast, did not achieve any top tier status.
 
 <row variant="pile">{{!Cruel Bargain}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
@@ -213,8 +211,8 @@ IN 2006 Iggy pop got a large boost in the form of {{Leyline of the Void}} from G
 balanced nature of Ill-Gotten Gains by removing the opposing hand from the game entirely. It could also just be
 used to make an opponent go hellbent from turn 1. A very key card was printed in Dissession in the form of 
 {{Infernal Tutor}}. This card allowed for a combo with Lion's Eye Diamond to achiveve hellbent status and 
-effectively become a {{Demonic Tutor}} in doing so. It also gave rise to other branch decks like Nausea which ran
-{{Spoils of the Vault}}, {{Chromatic Sphere}} and Helm of Awakening. The deck actually ran a single copy of
+effectively become a {{Demonic Tutor}} in doing so. It also gave more power to other branch decks like Nausea which ran
+{{Spoils of the Vault}}, {{Chromatic Sphere}} and Helm of Awakening as an engine. The deck actually ran a single copy of
 Doomsday as a wish target with {{Meditate}} being the draw 4 of choice.
 
 
@@ -223,11 +221,11 @@ Doomsday as a wish target with {{Meditate}} being the draw 4 of choice.
 2006 was a pretty crucial year for storm with the introduction of the set Time Spiral. This was the first set since
 Scourge to revisit the Storm mechanic giving two key cards: {{Grapeshot}} and, more importantly, {{Empty the Warrens}}.
 These cards gave a huge boost to the decks trying to use them with the Goblins plan allowing players to go off much
-earlier with a quick Empty for 5 or so presenting 10+power on the board from turn 1. This also gave a huge boost vs the
+earlier with a quick Empty for 5 or so presenting 10+ power on the board from turn 1. This also gave a huge boost vs the
 Control decks of the time which didn't have mana efficient board sweepers to deal with such aggression. Because of this
-new printing the BZK group started working on two key builds to make use of them. The first was developed by
+new printing the BZK group started working on two key builds to make use of them. The first was designed by
 user Wastedlife (now better known as a certain Bryant Cook) who came up with this deck concept known as 
-'The Epic Storm' or TES. This started utilising principles such as including main deck protection and a diverse
+'The EPIC Storm' or TES. This started utilising principles such as including main deck protection and a diverse
 tool suite to try and run hard and fast.
 
 From a Discord log from Emidln:
@@ -245,7 +243,7 @@ as additional protection, {U} tutors and filtering and even {G} tools from the s
 manabase. {{City of Brass}} and {{Gemstone Mine}} were the deck's lands of choice alongside {{Forbidden Orchard}} to power
 out it's aggressive threats.
 
-At the same time as this was happening, Emidln was working on a deck called Fetchland Tendrils (FT) at the time moving into 2007.
+At the same time as Wastedlife developed TES, Emidln was working on a deck called Fetchland Tendrils (FT) at the time moving into 2007.
 Whereas TES was a 5 colour monstrosity built for speed, FT was focussed on the traditional {U}{B} shell of fetchlands
 and duals to run a {U}{B}{W} manabase. It also ran the same tutor packages with Mystical Tutor but also ran {{Grim Tutors}}.
 These were very highly priced at the time being only printed in a small Starter set. Mtgthesource was now active and the very first
@@ -306,10 +304,11 @@ Breathweapon suggested a few Storm based piles, most very simplistic variants su
 Cantrip + {B}{B}{B}{B}
 <row variant="pile">{{!Cruel Bargain}} {{!DR}} {{!DR}} {{!SDT}} {{!ToA}}</row>
 
-On seeing  this Emidln sat down online with goobafish (inventor of Canadian Threshold), desolutionist and birdman to
-map out potential kills that could come from this Storm x Doomsday deck idea. Doomsday followed a lot of the mana
-principles of Fetchland Tendrils and could run tutorable toolbox into the Doomsday piles.
-This period of time from 2007 through into 2008 was when Doomsday was really developed as a deck. People were discussing a
+On seeing  this Emidln sat down online with goobafish (inventor of Canadian Threshold), desolutionist, rsaunders
+Whit3_Ghost and birdman along with many other fellow BZK! members to map out and test potential kills that could
+come from this Storm x Doomsday deck idea as part of a large collaborative effort. Doomsday followed a lot of the
+mana principles of Fetchland Tendrils and could run tutorable toolbox into the Doomsday piles. This period of 
+time from 2007 through into 2008 was when Doomsday was really developed as a deck. People were discussing a 
 lot of spicy inclusions as part of the learning / brewing process.
 
 From an Emidln mtgthesource post in 2008:
