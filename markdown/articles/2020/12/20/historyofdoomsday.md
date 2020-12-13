@@ -23,17 +23,20 @@ his path onto the deck.
 
 The entire interview is available to watch/listen to on Youtube either as in its
 uncurated and raw format [here for video]() or [here for just audio]()
-``Note: this is over five hours long so is quite a journey. It also include a lot of
+``Note: the raw is over five hours long so is quite a journey. It also include a lot of
 segways and general chatter however as I say in it: "the people who will be listening
 to this will enjoy a big ramble about storm"``.
 
-You can also listen to the edited down audio version which is a little more palatable
-[here]().
+You can also listen to the edited down audio version which is a little more lean
+[here](). This was edited by the lovely Otterlady and is around 3 hours 45 or so.
+This one is a lot more focussed on topic and a lot less rambling!
 
 This article will detail the key points discussed and follow the history of the deck
 but will not be an accurate transcription of the interview. I will include quotes from
 the recordings but it will be written to stay more on target than our recorded
-discussion does. I have tried to be as accurate as possible through online research
+discussion does. There is only a little overlap between this article and the recording
+so I would very much recommend you partake in both (thouhg of course I am biased on this).
+I have tried to be as accurate as possible through online research
 however a lot of the pre-2007 information is hard to find or lost and piecing together
 accurate timelines is tricky. I also apologise if I mis-attribute anything, get an online
 handle wrong or omit someone very important. I have tried to get everything as correct
