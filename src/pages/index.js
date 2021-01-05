@@ -21,7 +21,7 @@ export default function PageHome() {
         </Grid>
         <Grid item lg={6} xs={12}>
           <Typography color="textSecondary" component={Box} mb={1} ml={1} variant="subtitle1">
-            Recent Articles
+            Latest Articles
           </Typography>
           <Box><Articles top /></Box>
         </Grid>
