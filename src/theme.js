@@ -38,11 +38,16 @@ const themeOptions = {
     gutters,
     sidebar: {
       treshold: sidebarTreshold,
-      width: 310,
+      width: 320,
     },
   },
 
   overrides: {
+    MuiListItemIcon: {
+      root: {
+        minWidth: 48,
+      },
+    },
     MuiTypography: {
       gutterBottom: {
         '&:first-child': {
