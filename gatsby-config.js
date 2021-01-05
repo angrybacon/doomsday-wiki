@@ -25,7 +25,10 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
     },
     'gatsby-plugin-material-ui',
-    'gatsby-plugin-sass',
+    {
+      options: {implementation: require('sass')},
+      resolve: 'gatsby-plugin-sass',
+    },
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
     'gatsby-transformer-yaml',
