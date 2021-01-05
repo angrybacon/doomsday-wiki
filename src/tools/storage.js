@@ -1,7 +1,7 @@
 export class Local {
 
   static names = {
-    dark: 'ddftwiki.dark',
+    dark: 'ddft:dark',
   };
 
   static clear = name => name ? localStorage.removeItem(name) : localStorage.clear();
