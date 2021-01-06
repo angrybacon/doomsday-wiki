@@ -277,12 +277,13 @@ suite to try and run hard and fast.
 
 From a Discord log from Emidln:
 
-> "TES actually began as a way for Bryant to abuse Culling the Weak it played
+> TES actually began as a way for Bryant to abuse Culling the Weak it played
 > Priest of Gix and Trinket Mage for LED/Petal as extra value on Culling the
-> Weak" ... "he kept iterating on the deck and I kept trying to play it, because
-> I loved storm we both recognized very fast that Empty the Warrens was going to
-> change storm to good effect" "I think by GP Flash, we had finally cut Plunge
-> into Darkness from TES"
+> Weak  
+> He kept iterating on the deck and I kept trying to play it, because I loved
+> storm we both recognized very fast that Empty the Warrens was going to
+> change storm to good effect  
+> I think by GP Flash, we had finally cut Plunge into Darkness from TES
 
 When Coldsnap was released it brought with it {{Rite of Flame}} which allowed
 the ditching of the less efficient creature plan and combine them alongside the
@@ -303,8 +304,8 @@ highly priced at the time being only printed in a small Starter set.
 Mtgthesource was now active and the very first response to Emidln's initial post
 on the Fetchland Tendrils thread is from user APriestofGix who says:
 
-> "You deck could be as good as Hulk Flash, and never see play because of the
-> price tag."
+> You deck could be as good as Hulk Flash, and never see play because of the
+> price tag.
 >
 > --- [APriestOfGix](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183656&viewfull=1#post183656)
 
@@ -339,9 +340,9 @@ Vapor to bounce it in response to the trigger.
 
 The deck was very open to intepretation and, in Emidln's own words:
 
-> "This archetype is extremely customizable. The basic requirements are
+> This archetype is extremely customizable. The basic requirements are
 > blue/black fetchlands, brainstorm, dark ritual, lion's eye diamond, and
-> tendrils of agony. Everything else is basically up in the air."
+> tendrils of agony. Everything else is basically up in the air.
 >
 > --- [emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183642&viewfull=1#post183642)
 
@@ -395,6 +396,7 @@ From an Emidln mtgthesource post in 2008:
 > I'm going to go ahead and decree the following:  
 > 4 Sensei's Divining Top 1 Doomsday 1 Death Wish 2 Tendrils of Agony 1
 > Ill-Gotten Gains are MANDATORY in Fetchland Tendrils.
+>
 > --- [emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=229554&viewfull=1#post229554)
 
 Brainstorm in hand + 2 cards in hand + {1}{B}{B}{U}
@@ -407,13 +409,14 @@ draw 4s like Meditate.
 
 From Emidln chatting to me on Discord:
 
-> "our tech was pretty bad though" IU existed, we just didn't use it we also
-> didn't really realize that the pattern matched "piles" for Brainstorm/SdT
-> could work with IGG for awhile
+> Our tech was pretty bad though  
+> IU existed, we just didn't use it we also didn't really realize that the
+> pattern matched "piles" for Brainstorm/SdT  
+> Could work with IGG for a while
 
 As is said in our recording:
 
-> "we were slow to change".
+> We were slow to change.
 
 Late 2008 saw another key Storm card enter the scene from the Alara block; {{Ad
 Nauseum}}. The Storm decks had already been diverging over manabase but this
@@ -427,16 +430,17 @@ the rest add between 1 and 3. Questions start getting asked about things like
 having Burning Wish vs not, the desired speed of the deck and the relevancy of
 chant effects vs discard.
 
-From Dark_Cynic87 on the mtgthesource Fetchland Tendrils thread: > Well,
-considering the options, you can go one of two routes with FT:
+From Dark_Cynic87 on the mtgthesource Fetchland Tendrils thread:
+
+> Well, considering the options, you can go one of two routes with FT:
 >
-> 1.) D-Day, a more controll-ish build that is slower but more resilient to
+> 1\. D-Day, a more controll-ish build that is slower but more resilient to
 > discard, counterspells, and other disruption such as Mages and Teegs, CB (to a
-> point), and > Chalice,
+> point), and Chalice,
 >
-> OR
+> Or
 >
-> 2.) Balls-to-the-Wall. Doesn't need resiliency to disruption as it expects to
+> 2\. Balls-to-the-Wall. Doesn't need resiliency to disruption as it expects to
 > only see 1x FoW/Daze, one Duress/Seize/Hymn, or maybe a chant or Teeg/Mage.
 >
 > There is no happy medium. There probably never will be.
@@ -573,10 +577,10 @@ Lejay from a stormboards post in 2010:
 > and shuffle your graveyard into your library. Ideas unbound resolves giving
 > you Emrakul, LED and Ideas unbound with +1 mana. You have a loop. When you
 > have enough mana you can just play LED and crack it to shuffle the four cards
-> in your library. Then activate top. If Emrakul is in top three you just have >
+> in your library. Then activate top. If Emrakul is in top three you just have
 > to draw and hardcast it. Otherwise draw an ideas unbound and play it. Play the
 > top and tap it to get Emrakul. So 3/4 of the time you are completely safe, and
-> 1/4 of > the time this pile will need the opponent to be at 15 life or less.
+> 1/4 of the time this pile will need the opponent to be at 15 life or less.
 >
 > --- [Lejay](https://teamstormboards.proboards.com/post/3053/thread)
 
@@ -591,8 +595,8 @@ posted the idea in April 2010 of combining the Show and Tell style list with
 that of a DDFT style list. The deck was titled Rev 614 after the following
 passage from the bible, Book of Revelations, Chapter 6, Verse 14:
 
-> "The sky was split apart like a scroll being rolled up, and every mountain and
-> island were moved from their places."
+> The sky was split apart like a scroll being rolled up, and every mountain and
+> island were moved from their places.
 
 This was a reference to the Annihilator 6 trigger of Emrakul causing the
 destruction of lands which includes of course, Islands and Mountains.
@@ -788,7 +792,7 @@ be playing the deck, people are still well invested it making it work. A forum
 post from nanda sums it up nicely:
 
 > Okay, so the meta right now seems pretty bad for DDFT. But I've spent six
-> months getting the cards for this deck, so I do not give a fuck--I'm playing
+> months getting the cards for this deck, so I do not give a fuck -- I'm playing
 > Doomsday.
 >
 > --- [Nanda](https://teamstormboards.proboards.com/post/4684/thread)
@@ -855,8 +859,7 @@ mtgthesource thread on the article:
 > but exposes itself, very slightly, to other forms of hate. I've built this
 > deck to mitigate those.
 >
-> ---
-> [Smmenen](http://www.mtgthesource.com/forums/showthread.php?23925-Premium-Article-So-Many-Insane-Plays-%96-The-Legacy-Doomsday-Device-Primer&p=646969&viewfull=1#post646969)
+> --- [Smmenen](http://www.mtgthesource.com/forums/showthread.php?23925-Premium-Article-So-Many-Insane-Plays-%96-The-Legacy-Doomsday-Device-Primer&p=646969&viewfull=1#post646969)
 
 Now the point above is bang on the nail so to speak. Time and new printings,
 which we will get to later, have proven that the theory of it being a 1 card
@@ -1146,20 +1149,22 @@ and a few people decided to have a go at trying it out. It was reversemermaid at
 the time who first took it out for a spin. They were drunk and chatting on the
 Discord server as they tested it. This was the output of their testing:
 
-From the Discord chat log: > It should probably have a maindeck ToA and a draw 4
-to make non-frenzy piles more viable anyhow with frenzy in play the easiest pile
-is > so darn stupid lol, [LED, LED, LED, LED, BW] makes enough mana to BW for
-ToA and sac Frenzy
+From the Discord chat log:
 
-> waiiiiiiiit damn lol these piles have trouble generating enough storm lol just
-> did that pile and storm count was like 7 man im doing some embarassing
-> misplays with this shieet you can pull double doomsday piles out of your ass
-> to generate storm with frenzy this is so cool at 4 mana sources you can ptt
-> pile with [EF, LED, LED, DD, ToA] Throw Healing Salve in the 75 and you can
-> actually go infinite lol Wait ToA gains life so [LED, LED, > LED, ToA, DD] is
-> infinite
+> It should probably have a maindeck ToA and a draw 4 to make non-frenzy piles
+> more viable anyhow with frenzy in play the easiest pile is so darn stupid lol,
+> [LED, LED, LED, LED, BW] makes enough mana to BW for ToA and sac Frenzy
+>
+> Waiiiiiiiit damn lol these piles have trouble generating enough storm lol just
+> did that pile and storm count was like 7 man im doing some
+> embarassing misplays with this  
+> Shieet you can pull double doomsday piles out of your ass to generate storm
+> with frenzy this is so cool at 4 mana sources you can ptt pile with [EF, LED,
+> LED, DD, ToA] Throw Healing Salve in the 75 and you can actually go infinite
+> lol  
+> Wait ToA gains life so [LED, LED, LED, ToA, DD] is infinite
 
-reversemermaid stumbled upon the foundations of a new version of Doomsday in
+Reversemermaid stumbled upon the foundations of a new version of Doomsday in
 Legacy. It was dubbed DDEFT (still pronounced the same as DDFT) or "Doomsday
 Experimental Frenzy Tendrils". The idea of this version was it could do the same
 tricks with Act on Impulse as it's predecessor if need be but it also could just
@@ -1319,7 +1324,7 @@ reanimate a Griselbranned. This would then draw more cards to play a Lotus Petal
 or Chrome Mox to ritual or Entomb-Grave a {{Children of Korlis}}. This would
 enable life gain to draw more cards with. You could win through haste attacking
 for 22 with Emrakul and Griselbranned or storm off with Tendrils. The deck was
-an all-in graveyard combo whcih could run a storm finish. Now some people
+an all-in graveyard combo which could run a storm finish. Now some people
 decided to try running Doomsday as a sideboard plan for the deck adding a
 Shelldock Isle and 4 Doomsday along with some other bits. It was pretty
 successful, both with and without the transformational sideboard plan. It ran
@@ -1333,7 +1338,7 @@ of take a Tin Fins list and add Doomsday to it, you start with a 2020 Meandeck
 Doomsday list and fit the Entomb-Griselbranned package to it. He ran it to
 strong success with solid performances even in open decklist events. As with any
 good Legacy deck it had a number of suggestions for its origin including *Dimir
-combo*, *5 card monte*, *DDTF - Doomsday Tin Fins* but it was finally nichf who
+combo*, *5 card monte*, *DDTF - Doomsday Tin Fins* but it was finally NichP who
 came up with the moniker *Entombsday* and it stuck.
 
 ## Closing Thoughts
