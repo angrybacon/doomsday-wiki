@@ -1,39 +1,48 @@
 #+TITLE: DDFT Wiki
 #+AUTHOR: Mathieu Marques
 
-** Deployment
-
-These 2 branches are automatically deployed upon commit.
-
-- =:master= deploys to [[https://master--ddftwiki.netlify.app][https://master\--ddftwiki.netlify.app]]
-- =:production= deploys to https://ddftwiki.netlify.app
-
-A DNS alias for the production address points to https://ddft.wiki.
-
 ** Contributing with Content
+
+The following sections will describe how to contribute for specific content
+within the Wiki.
+
+Pull request only.
 
 *** Markdown
 
-The Markdown content is located under =markdown/=.
+**** Pages
 
-- =appendices/= :: Extra-articles that serve as reference for new players and
+The Markdown is located under =markdown/=.
+
+- =appendices/= :: Extra-resources that serve as reference for new players and
                    seasoned pilots alike.
+- =archive/=    :: Old content that no longer presents relevance due to bannings
+                   or else.
 - =articles/=   :: Dated reports and theories.
 - =authors/=    :: Contributors.
-- =chapters/=   :: Most of the content goes there, divided in chapters and
+- =chapters/=   :: Most of the content goes there, organized in chapters and
                    pages.
-- =partials/=   :: Some content within the Wiki comes from those partials, this
-                   avoids having to maintain content alongside code.
+- =partials/=   :: Some static content within the Wiki comes from those
+                   partials, this avoids having to maintain content alongside
+                   code.
 
-The following directories automatically create new pages and routes whenever a
-new Markdown file is created: =appendices/=, =articles/=, =chapters/=.
-
+#+BEGIN_QUOTE
+*Note*  
+Adding Markdown content in the following directories automatically creates new
+pages and route URLs: =appendices/=, =articles/=, =chapters/=.  
 URLs follow the file paths. Follow existing conventions.
+#+END_QUOTE
 
-*** Mana
+#+BEGIN_QUOTE
+*Note*  
+In order to add a new chapter make sure you don't forget to add the
+corresponding entry in the sidebar component.
+#+END_QUOTE
 
-The Markdown supports a number of a shorthands in order to easily insert Mana
-symbols.
+**** Mana
+
+The Markdown supports a number of inline shorthands in order to easily insert
+Mana symbols.
 
 #+BEGIN_SRC
 {W}{U}{B}{R}{G} {C} {S} {X}{Y}{Z} {0}{1}{2}{3} ... {20}
@@ -42,7 +51,7 @@ symbols.
 
 [[/assets/mana-preview.png]]
 
-*** Scryfall
+**** Scryfall
 
 You can link cards within content thanks to [[https://scryfall.com/][Scryfall]].
 Wrap a card's name with double curly braces for a simple link ={{Doomsday}}=.
@@ -52,7 +61,14 @@ set: ={{!Doomsday|WTH}}=.
 
 ** Contributing with Code
 
+Issues and/or pull requests work best.
+
 *** Installation
+
+#+BEGIN_QUOTE
+*Note*  
+This assumes you have a working setup for a standard Node application.
+#+END_QUOTE
 
 #+BEGIN_SRC sh
 yarn
@@ -60,7 +76,7 @@ yarn start
 #+END_SRC
 
 Alternatively, if you want to browse the local instance of the application from
-another machine, use `yarn start:exposed` instead.
+another machine, use =yarn start:exposed= instead.
 
 Install some kind of ESLint-compatible linter on your editor and follow
 =.eslintrc.json= as well as the existing conventions.
@@ -77,3 +93,14 @@ The React code is located under =src/=.
 - =html.js=     :: Overwrite Gatsby's default application root.
 - =reset.scss=  :: Simple and naive style reset.
 - =theme.js=    :: Custom Material-UI theme.
+
+** Deployment
+
+These 2 branches are automatically deployed upon commit.
+
+- =:master= deploys to
+  [[https://master--ddftwiki.netlify.app][https://master\--ddftwiki.netlify.app]]
+- =:production= deploys to https://ddftwiki.netlify.app
+
+A DNS alias for the production address points to the official domain for the
+Wiki https://ddft.wiki.
