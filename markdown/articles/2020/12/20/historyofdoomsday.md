@@ -13,7 +13,7 @@ has existed since the printing of our title card in the Weatherlight set
 in 1997. Despite playing through some significant printings, bannings, and
 changing metagames there has been one constant throughout the existence of the
 deck and that is one of the leading pioneers and early innovators of the deck:
-Brandon "Emidln" Adams (bja on MTGO).
+Brandon *Emidln* Adams (bja on MTGO).
 
 I've been bothering him about various things since I took the deck up and he's
 always been available to answer (even if sometimes it took up to a year to do so
@@ -50,7 +50,7 @@ With that all clarified. let's get into it!
 
 ## Who is Emidln?
 
-Brandon "Emidln" (pronounced ee-mid-lin) Adams is a Legacy, Vintage and EDH
+Brandon *Emidln* (pronounced ee-mid-lin) Adams is a Legacy, Vintage and EDH
 player best known for his historical and current work on the Doomsday Legacy
 archetype. He started playing magic around 1997/1998 learning to play (with only
 a slightly incorrect ruleset) from his cousin). His pet deck was a cheeky 72
@@ -174,7 +174,7 @@ to the deck in the form of {{Sensei's Divining Top}}. With this being printed a
 new combo was identified that allowed pilots to avoid the use of the graveyard
 entirely. If you combine a pair of Divining Tops with {{Helm of Awakening}}, you
 can loop them to generate infinite storm as each Top now casts for {0}. You can
-use these to generate storm and then "spin" the top at the end to draw into the
+use these to generate storm and then *spin* the top at the end to draw into the
 lethal Brain Freeze. The pile in isolation can seem clunky however as multiple
 Tops and Helms were run, it is likely you would aready have cost reduction or
 digging already available.
@@ -473,7 +473,7 @@ into what was listed as a 'German Variant' of NLS. It ran so many tutors/wishes
 that it was very consistent in picking up the pieces it needed for any given
 scenarios and had a huge toolbox of options. As 2009 drew to a close there was a
 much greater understanding of the fundamentals that modern Storm decks needed a
-large movement to start "trimming the fat" out of decks. There was still no
+large movement to start *trimming the fat* out of decks. There was still no
 general consensus on a *best list* for Doomsday decks. Emidln makes mention of
 user piZZero in helping understand some key points on play and how important it
 is to truly understand ones own decklist.
@@ -605,7 +605,7 @@ Shelldock Isle all in the main deck. The deck survived the Mystical Tutor ban
 and gained quite some popularity moving away from the Tendrils build to an
 all-in Emrakul build. It played very much like a combo-control deck running
 Force of Will, Top and other lighter permission. The most notable result it had
-was with a version dubbed "Ugly Duckling" run by Chris Gosselin. This version
+was with a version dubbed *Ugly Duckling* run by Chris Gosselin. This version
 ran Spell Pierces, Thoughtseizes, {{Stifle}} and a number of spicy sideboard
 inclusions like {{Form of the Dragon}} and {{Armageddon}} (for flavour reasons
 maybe?). He made top 8 of GP Columbus in August 2010. You can find a video of
@@ -655,7 +655,7 @@ tools like Empty the Warrens, Lotus Petal, wishable draw 4s were all avbailble
 for customisation and could be added or removed as needed. The wish board gave a
 large toolbox that helped deal with many problem cards that other storm variants
 could struggle with in game 1 and the deck could both play a long grindy control
-game and eventually "go over the top" with Tendrils or just get a turn 1 kill
+game and eventually *go over the top* with Tendrils or just get a turn 1 kill
 out of nowhere.
 
 This is where the majority of the *common piles* were developed if they hadn't
@@ -684,7 +684,7 @@ Burning Wish (Wish for Ideas Unbound) + Cantrip
 DDFT saw high popularity and was well placed against a lot of the meta. As a
 result it put up good results between the printing and after Misstep was banned
 in September 2011, it was likely one of the better decks of the format. This
-"Golden Age" as Emidln proclaimed it did not last long however due to the onset
+*Golden Age* as Emidln proclaimed it did not last long however due to the onset
 of a new block, a new set and the printing of another key set of cards. This
 block is so influential on the format that people have even been trying to push
 fan formats around ommitting it entirely. Enter Innistrad block.
@@ -779,7 +779,7 @@ often Counterbalance could disrupt you.
 
 Along with this evolution of other storm based combo decks, control and tempo.
 Show and Tell and Reanimator decks get a boost from the printing of
-{{Griselbranned}} in Avacyn Restored. Grizzy-B immediately becomes the most
+{{Griselbrand}} in Avacyn Restored. Grizzy-B immediately becomes the most
 efficient creature to cheat into play giving additional power to the existing
 {U}{B} Reanimator decks of the time and enabling Sneak and Show decks to
 flourish further as well. All these power ups across the rest of the format gave
@@ -892,7 +892,7 @@ find a copy through cantripping. When your entire deck has no alternate kill
 (like natural Tendrils or Wish into Empty the Warrens) then not being able to
 find your key card is devastating.
 
-The third point is the misconception on what problems were being "solved" by the
+The third point is the misconception on what problems were being *solved* by the
 list change and how impacted the deck was from the new problems. The deck took
 away some of the requirement to win on the spot and an inherent weakness to anti
 combo hate like Mindbreak Trap and replaced it with a partial reliance on the
@@ -967,7 +967,7 @@ The start of 2017 seems very optimistic. Despite a low number of high placing
 results in events, there is still a decent community to the deck. The
 Stormboards gets its first makeover in a long while with old content archived
 away and a new navigation system and fresh graphics job. There is also the start
-of a project by user Bennotsi to begin writing "The Doomsday Codex", a project
+of a project by user Bennotsi to begin writing *The Doomsday Codex*, a project
 that would soon enough evolve into the current Doomsday Wiki. Miracles is the
 current top dog of the wider Legacy metagame running Counterbalance and Sensei's
 Divining Top alongside Terminus and {{Entreat the Angels}} to devastating
@@ -1090,9 +1090,9 @@ through the old forum posts on the Stormboards. As we entered 2018 the Doomsday
 Discord* was created. Originally intended to supplement the Stormboards with
 more instantaneous chatter it inevitably came to replace it entirely.
 
-* A fun little aside. Two Discord servers were actually created in the same
+*A fun little aside. Two Discord servers were actually created in the same
 evening. One by me and one by Wolfgang13. The current one used is the one
-Wolfgang13 made and passed ownership over to me.
+Wolfgang13 made and passed ownership over to me.*
 
 This discussion forum and active re-working of an archetype really brought the
 community together with key members like Angrybacon, 8bit9mm, Luchius, ElDorte
@@ -1207,13 +1207,13 @@ being run then {{Veil of Summer}} would have been a nice consideration but it
 did not slot in well with the Frenzy version of the deck requiring another
 splash colour and being an awkward hit off of Frenzy. The only tool that was
 really tried out was {{Echo of Eons}}. Echo allowed for the building of piles
-that use Echo to "Timetwister" into your pile. This normally required at least
+that use Echo to *Timetwister* into your pile. This normally required at least
 one additional card in hand or some free mana rocks in play. d8dk32 was once
 again the leading man on giving this new tech a try writing a [mini primer
 article on its usage](articles/2020/01/01/echoes-of-the-past/). The list played
 Veil, as allowing a {U} opponent to draw 7 cards is asking for disaster, and
 other than the Doomsday package, played very similar to other storm lists almost
-like an ANT and "new TES" style hybrid. As with many of the recent iterations of
+like an ANT and *new TES* style hybrid. As with many of the recent iterations of
 attempting revival, the deck seemed fun but overall lacking in raw
 power/consistency.
 
@@ -1258,7 +1258,7 @@ get things close to being right. Tech like Predict with Unearth was tried, cards
 like Counterbalance were given a go. Even spicy options like {{Divining Witch}}
 were given a run. Early on the shell seemed to be viable in either {B}{U}{G} for
 Veil and {{Abrupt Decay}} or {U}{B}{W} for {{Teferi, Time Raveler}} and
-{{Monastery Mentor}}. The list could be run as either a "normal" dual land
+{{Monastery Mentor}}. The list could be run as either a *normal* dual land
 manabase or an {{Arcum's Astrolabe}} reinforced snow one. With the build of
 momentum for the deck, many old pilots came back to the deck. Hulahula,
 Nevilshute, Emidln and Monkeyscantcry all started putting out good results
@@ -1268,7 +1268,7 @@ surge of results coming in and availability of testing, tech like maindeck
 at a stretch, it obtained widespread acceptance and Predict was ditched back to
 favour the old faithful; Ideas Unbound. Thanks to testing from community member
 and well known player Jax, Daze was integrated into the lists due to the speed
-with which the deck could win. Tinkering of things like number of "free cycle"
+with which the deck could win. Tinkering of things like number of *free cycle*
 effects were tried and eventually a mostly stock list structure was formed and
 piles were worked out.
 
@@ -1332,9 +1332,9 @@ deal?"](https://www.youtube.com/watch?v=kWsViXXyhfI). The concept was to instead
 of take a Tin Fins list and add Doomsday to it, you start with a 2020 Meandeck
 Doomsday list and fit the Entomb-Griselbranned package to it. He ran it to
 strong success with solid performances even in open decklist events. As with any
-good Legacy deck it had a number of suggestions for its origin including "dimir
-combo", "5 card monte", "DDTF - Doomsday Tin Fins" but it was finally nichf who
-came up with the moniker "Entombsday" and it stuck.
+good Legacy deck it had a number of suggestions for its origin including *Dimir
+combo*, *5 card monte*, *DDTF - Doomsday Tin Fins* but it was finally nichf who
+came up with the moniker *Entombsday* and it stuck.
 
 ## Closing Thoughts
 
