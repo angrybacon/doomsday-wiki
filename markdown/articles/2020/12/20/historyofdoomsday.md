@@ -107,14 +107,14 @@ stated](http://www.wizards.com/Default.asp?x=dci/announce/dci20040901a):
 > The "Type 1.5" Banned List is now maintained separately from the Vintage
 > Banned and Restricted Lists. This format is going to be renamed.
 
-The format was subsequently decided to be named 'Legacy' and from that moment
+The format was subsequently decided to be named *Legacy* and from that moment
 on, the format's became independant of one another. Along with this format
 change a number of cards that were previously banned in Type 1.5 were taken off
 the ban list into Legacy. These notably included {{Burning Wish}}, {{Chrome
 Mox}}, {{Lion's Eye Diamond}}, {{Lotus Petal}}, {{Mystical Tutor}} and
 {{Doomsday}}. In 2005 there was also an unrestriction of Doomsday from the
 Vintage restricted list. This allowed Vintage pioneers like Stephen Menendian
-and 'Team Meandeck' to develop a storm based Doomsday deck that made use of
+and *Team Meandeck* to develop a storm based Doomsday deck that made use of
 {{Tendrils of Agony}}, {{Gush}} combined with {{Fastbond}} and a cool kill
 involving {{Mind's Desire}} into {{Beacon of Destruction}}.
 
@@ -201,7 +201,7 @@ decks found the answer did the Legacy deck truly form.
 ## The Start of Legacy - Early Storm Lists
 
 Moving sideways for the time being, storm decks were viable from the onset of
-Legacy with the most well known list at the time being known as 'Iggy Pop',
+Legacy with the most well known list at the time being known as *Iggy Pop*,
 designed by Michael Bomholt whose original primer can be found
 [HERE](https://web.archive.org/web/20090104201512/http://www.starcitygames.com/php/news/article/10989.html).
 Iggy was a {U}{B} storm list based around the engine of {{Ill-Gotten Gains}}
@@ -227,20 +227,20 @@ The Mana Leak) and the MtGSalvation forums. He started to meet and become
 friends with people online, chatting via Aim, MSN, IRC, ICQ and a whole host of
 other messaging platforms. He realised he very much enjoyed the idea and style
 of the combo decks that were coming out and was invited to a specialised team
-forums for 'Team Blitzkrieg' or BZK for short. On the BZK forums all manner of
+forums for *Team Blitzkrieg* or BZK for short. On the BZK forums all manner of
 combo decks were being discussed including early Spanish Inquisition lists (SI),
 the aforementioned Iggy Pop and some new decks that would start to evolve into
 more Modern storm lists and Emidln was in the middle of them.
 
 Spanish Inquistion is a deck that a lot of people still hold very dear to their
 heart to this day. The idea of the deck is to utilise fast mana and ritual
-effects combined with 'draw 4's' like {{Cruel Bargain)) and {{Infernal
+effects combined with *draw 4's* like {{Cruel Bargain)) and {{Infernal
 Contract}}. {{Land Grant}}, along with {{Culling the Weak}} and creatures like
 {{Phyrexian Walker}} were used to cheat on mana and then the deck finished off
 opponents with either Tendrils of Agony or {{Goblin Charbelcher}}. There was a
 point in time where the SI decks tried a number of cards in them to increase the
 *business* count available as the draw 4's could be unreliable. Cards like
-{{Diablic Intent}} worked alongside the 'tallmen' approach with {{Shield
+{{Diablic Intent}} worked alongside the *tallmen* approach with {{Shield
 Sphere}} and friends however this did stretch reliance on the creature aspect.
 Doomsday was explored by Emidln and BZK friends; B.C., Evenpence and
 Desolutionist as a way to incorporate additional business into the shell to some
@@ -271,7 +271,7 @@ boost vs the Control decks of the time which didn't have mana efficient board
 sweepers to deal with such aggression. Because of this new printing the BZK
 group started working on two key builds to make use of them. The first was
 designed by user Wastedlife (now better known as a certain Bryant Cook) who came
-up with this deck concept known as 'The EPIC Storm' or TES. This started
+up with this deck concept known as *The EPIC Storm* or TES. This started
 utilising principles such as including main deck protection and a diverse tool
 suite to try and run hard and fast.
 
@@ -351,7 +351,7 @@ of better cantrips, exploration of correct cantripping and fetching mechanics
 were starting to be explored. What are now assumed basic mechanics for a lot of
 Legacy decks were almost unheard of back then as the format, and the skills
 involved, were still fledging. This is also where we start to see the birth of
-more modern storm variants with the 'Xerox' concepts of cantrips over lands
+more modern storm variants with the *Xerox* concepts of cantrips over lands
 really taking effect. 4 Brainstorm, 4 Top, 4 Ponder and 4 Street Wraith became a
 staple build with Wraith allowing you to grab any card fetched from Mystical
 Tutor in the same turn as a *build your own {{Vampiric Tutor}}* type affair.
@@ -421,8 +421,8 @@ As is said in our recording:
 Late 2008 saw another key Storm card enter the scene from the Alara block; {{Ad
 Nauseum}}. The Storm decks had already been diverging over manabase but this
 really tipped things over the edge. We'd already seen Iggy Pop split into FT and
-TES. We now had further splitting into TES, FT, 'Next Level Storm' NLS and
-'Doomsday Fetchland Tendrils' DDFT which finally became its own thing. Ad
+TES. We now had further splitting into TES, FT, *Next Level Storm* NLS and
+*Doomsday Fetchland Tendrils* DDFT which finally became its own thing. Ad
 Nauseum pretty much completely replaces Ill-Gotten Gains as the primary combo
 engine easing up on the graveyard aspect and thus leaving Iggy Pop as an
 archetype in the dust. TES adds in {{Simian Spirit Guides}} and 3-4 Ad Nauseum,
@@ -473,7 +473,7 @@ CoV in hand + SdT in play + {1}{U}
 NLS was like a Doomsday / FT / Ad Nauseum hybrid that had access to both the
 fast kill that TES ran, albeit a tad slower, and the anti-Teeg/more versatile or
 grindy style that Doomsday had. Users like Cheeseburger and Nemavera put a lot
-into what was listed as a 'German Variant' of NLS. It ran so many tutors/wishes
+into what was listed as a *German Variant* of NLS. It ran so many tutors/wishes
 that it was very consistent in picking up the pieces it needed for any given
 scenarios and had a huge toolbox of options. As 2009 drew to a close there was a
 much greater understanding of the fundamentals that modern Storm decks needed a
@@ -815,8 +815,8 @@ discard. An Ideas Unbound effect was removed entirely along with the LEDs to
 enable this suite of counterspells. The deck ran 6 ritual effects supplemental
 Dark Ritual with a pair of Cabal Rituals. It still retained the 4 Tops and 12
 other cantrips and ran a purely UB manabase boasting 5 basic lands. The only win
-condition was a single Labman main with no Burning Wishes in the list. The "pile
-package" comprised of 2 additional cards; {{Mental Note}} and {{Unearth}}. The
+condition was a single Labman main with no Burning Wishes in the list. The *pile
+package* comprised of 2 additional cards; {{Mental Note}} and {{Unearth}}. The
 primary pile it ran went as such:
 
 {U}{B}
@@ -1165,8 +1165,8 @@ From the Discord chat log:
 > Wait ToA gains life so [LED, LED, LED, ToA, DD] is infinite
 
 Reversemermaid stumbled upon the foundations of a new version of Doomsday in
-Legacy. It was dubbed DDEFT (still pronounced the same as DDFT) or "Doomsday
-Experimental Frenzy Tendrils". The idea of this version was it could do the same
+Legacy. It was dubbed DDEFT (still pronounced the same as DDFT) or *Doomsday
+Experimental Frenzy Tendrils*. The idea of this version was it could do the same
 tricks with Act on Impulse as it's predecessor if need be but it also could just
 run 3-4 Experimental Frenzies as both a raw card advantage engine and combo
 kill. If you had a Frenzy in play and resolved a Doomsday you could build a
