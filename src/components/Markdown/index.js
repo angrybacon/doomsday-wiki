@@ -3,6 +3,7 @@ import c from 'classnames';
 import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
+import gfm from 'remark-gfm';
 import Typography from '@material-ui/core/Typography';
 import mana from '../../tools/mana';
 import Deck from '../Deck';
@@ -77,6 +78,7 @@ export default function Markdown({ className, source, ...rest }) {
       className={className}
       component={ReactMarkdown}
       escapeHtml={false}
+      plugins={[gfm]}
       renderers={renderers}
       source={mana.replace(source)}
       {...rest}
