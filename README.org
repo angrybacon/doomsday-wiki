@@ -59,6 +59,30 @@ Wrap a card's name with double curly braces for a simple link ={{Doomsday}}=.
 Add a =!= to insert a scan instead: ={{!Doomsday}}=. You can also specify the
 set: ={{!Doomsday|WTH}}=.
 
+**** Piles
+
+TODO
+
+**** Banners
+
+The banners you've seen for articles don't have to be of a specific resolution
+nor file format, use common sense. A reliable way of downloading cropped out
+arts is to use Scryfall's API:
+
+https://api.scryfall.com/cards/named?exact=dark+ritual&set=leb
+
+The above link should yield a JSON object where you will find an entry for an
+adequately sized file. For more details about how to query the API, see the
+official documentation: https://scryfall.com/docs/api .
+
+*** Decklists
+
+TODO
+
+*** Puzzles
+
+TODO
+
 ** Contributing with Code
 
 Issues and/or pull requests work best.
@@ -93,6 +117,14 @@ The React code is located under =src/=.
 - =html.js=     :: Overwrite Gatsby's default application root.
 - =reset.scss=  :: Simple and naive style reset.
 - =theme.js=    :: Custom Material-UI theme.
+
+*** Branch Conventions
+
+TODO
+
+*** Commit Conventions
+
+TODO
 
 ** Deployment
 
