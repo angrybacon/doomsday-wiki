@@ -231,7 +231,7 @@ more Modern storm lists and Emidln was in the middle of them.
 
 Spanish Inquistion is a deck that a lot of people still hold very dear to their
 heart to this day. The idea of the deck is to utilise fast mana and ritual
-effects combined with *draw 4's* like {{Cruel Bargain)) and {{Infernal
+effects combined with *draw 4's* like {{Cruel Bargain}} and {{Infernal
 Contract}}. {{Land Grant}}, along with {{Culling the Weak}} and creatures like
 {{Phyrexian Walker}} were used to cheat on mana and then the deck finished off
 opponents with either Tendrils of Agony or {{Goblin Charbelcher}}. There was a
@@ -245,10 +245,10 @@ success but the deck, although fast, did not achieve any top tier status.
 
 <row variant="pile">{{!Cruel Bargain|POR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
 
-IN 2006 Iggy pop got a large boost in the form of {{Leyline of the Void}} from
+In 2006 Iggy pop got a large boost in the form of {{Leyline of the Void}} from
 Guildpact which allowed it to mitigate the balanced nature of Ill-Gotten Gains
 by removing the opposing hand from the game entirely. It could also just be used
-to make an opponent go hellbent from turn 1. A very key card was printed in
+to make an opponent go hellbent from turn 1. Another very key card was printed in
 Dissession in the form of {{Infernal Tutor}}. This card allowed for a combo with
 Lion's Eye Diamond to achiveve hellbent status and effectively become a
 {{Demonic Tutor}} in doing so. It also gave more power to other branch decks
@@ -260,7 +260,7 @@ wish target with {{Meditate}} being the draw 4 of choice.
 
 2006 was a pretty crucial year for storm with the introduction of the set Time
 Spiral. This was the first set since Scourge to revisit the Storm mechanic
-giving two key cards: {{Grapeshot}} and, more importantly, {{Empty the
+providing two key cards: {{Grapeshot}} and, more importantly, {{Empty the
 Warrens}}. These cards gave a huge boost to the decks trying to use them with
 the Goblins plan allowing players to go off much earlier with a quick Empty for
 5 or so presenting 10+ power on the board from turn 1. This also gave a huge
@@ -306,7 +306,7 @@ on the Fetchland Tendrils thread is from user APriestofGix who says:
 >
 > --- [APriestOfGix](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183656&viewfull=1#post183656)
 
-2006 also introduced in {{Infernal Tutor}} from Dissension. This was a card that
+2006 also introduced {{Infernal Tutor}} from Dissension. This was a card that
 could act as both a way to double up on ritual effects in hand whilst also
 having the potential to act like a full on Demonic Tutor when coupled with LED.
 This card would help power up TES as it grew along with other fledging storm
@@ -380,8 +380,8 @@ Cantrip + {B}{B}{B}{B}
 <row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!SdT}} {{!ToA}}</row>
 
 On seeing this Emidln sat down online with goobafish (inventor of Canadian
-Threshold), desolutionist, rsaunders Whit3_Ghost and birdman along with many
-other fellow BZK! members to map out and test potential kills that could come
+Threshold), desolutionist, rsaunders, Whit3_Ghost and birdman along with many
+other fellow BZK members to map out and test potential kills that could come
 from this Storm x Doomsday deck idea as part of a large collaborative effort.
 Doomsday followed a lot of the mana principles of Fetchland Tendrils and could
 run tutorable toolbox into the Doomsday piles. This period of time from 2007
@@ -1358,14 +1358,9 @@ part of it! Special thanks also go to Nanda/Namida/AgyePA who has been on the
 deck since 2011 and who has been an excellent friend/ ideas discussion partner
 for me over the years despite the geographical location difference!
 
-If you haven't yet, please feel free to waytch / listen to the interview with
-Emidln that can be found linked below. The edited version was produced by
+If you haven't yet, please feel free to watch / listen to the interview with
+Emidln that can be found linked at the top of the page. The edited version was produced by
 OtterLady (@justthefastest on Twitter) with help from Hulahula.
-
-The entire interview is available to watch/listen at the top of this page.
-
-*Note: this is over five hours long so is quite a journey. It also include a lot
-of segways and general chatter.*
 
 As always if you want even more content please check out our
 [resources](/appendices/resources/) page which includes a list of community
