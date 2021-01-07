@@ -182,35 +182,35 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!NC}} {{!DR}} {{!LP}} {{!ToA}}</row>
+<row variant="pile">{{!LED}} {{!Nature's Claim|WWK}} {{!DR}} {{!LP}} {{!ToA}}</row>
 
 > BW and BS in hand, CB in play - {B}{B}{B} + {U}{G} - 9 Storm
 
-<row variant="pile">{{!NC}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</row>
+<row variant="pile">{{!Nature's Claim|WWK}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</row>
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!NC}} {{!LED}} {{!SW}} {{!ToA}}</row>
+<row variant="pile">{{!LED}} {{!Nature's Claim|WWK}} {{!LED}} {{!SW}} {{!ToA}}</row>
 
 > Pass the turn, SW in hand - {2}{U}{U}{G}
 
-<row variant="pile">{{!NC}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
+<row variant="pile">{{!Nature's Claim|WWK}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, SW in hand - {1}{U}{U}{G}
 
-<row variant="pile">{{!NC}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</row>
+<row variant="pile">{{!Nature's Claim|WWK}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, SW in hand - {2}{R}{G}
 
-<row variant="pile">{{!NC}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</row>
+<row variant="pile">{{!Nature's Claim|WWK}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, LED in play - {2}{G}
 
-<row variant="pile">{{!SW}} {{!IU}} {{!NC}} {{!SW}} {{!LM}}</row>
+<row variant="pile">{{!SW}} {{!IU}} {{!Nature's Claim|WWK}} {{!SW}} {{!LM}}</row>
 
 > Pass the turn, LED in play - {2}{U}{G}
 
-<row variant="pile">{{!SW}} {{!AoI}} {{!NC}} {{!SW}} {{!LM}}</row>
+<row variant="pile">{{!SW}} {{!AoI}} {{!Nature's Claim|WWK}} {{!SW}} {{!LM}}</row>
 
 ## Pass-the-Turn Piles Using Chain of Vapor
 

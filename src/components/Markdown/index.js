@@ -4,12 +4,15 @@ import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
 import htmlParser from 'react-markdown/plugins/html-parser';
 import gfm from 'remark-gfm';
+import slug from 'remark-slug';
 import Typography from '@material-ui/core/Typography';
 import mana from '../../tools/mana';
 import Deck from '../Deck';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
+import Soundcloud from '../Soundcloud';
 import Tweet from '../Tweet';
+import Youtube from '../Youtube';
 import Blockquote from './renderers/Blockquote';
 import Code from './renderers/Code';
 import Heading from './renderers/Heading';
@@ -65,8 +68,16 @@ export default function Markdown({ className, source, ...rest }) {
         shouldProcessNode: ({ name }) => name === 'row',
       },
       {
+        processNode: ({ attribs }) => <Soundcloud url={attribs.url} />,
+        shouldProcessNode: ({ name }) => name === 'soundcloud',
+      },
+      {
         processNode: ({ attribs }) => <Tweet id={attribs.id} />,
         shouldProcessNode: ({ name }) => name === 'tweet',
+      },
+      {
+        processNode: ({ attribs }) => <Youtube id={attribs.id} />,
+        shouldProcessNode: ({ name }) => name === 'youtube',
       },
       /* eslint-enable react/display-name, react/prop-types */
     ],
@@ -78,7 +89,7 @@ export default function Markdown({ className, source, ...rest }) {
       className={className}
       component={ReactMarkdown}
       escapeHtml={false}
-      plugins={[gfm]}
+      plugins={[gfm, slug]}
       renderers={renderers}
       source={mana.replace(source)}
       {...rest}
