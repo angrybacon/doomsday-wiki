@@ -11,6 +11,7 @@ import Mana from '../Mana';
 import Prettylink from '../Prettylink';
 import Soundcloud from '../Soundcloud';
 import Tweet from '../Tweet';
+import Youtube from '../Youtube';
 import Blockquote from './renderers/Blockquote';
 import Code from './renderers/Code';
 import Heading from './renderers/Heading';
@@ -72,6 +73,10 @@ export default function Markdown({ className, source, ...rest }) {
       {
         processNode: ({ attribs }) => <Tweet id={attribs.id} />,
         shouldProcessNode: ({ name }) => name === 'tweet',
+      },
+      {
+        processNode: ({ attribs }) => <Youtube id={attribs.id} />,
+        shouldProcessNode: ({ name }) => name === 'youtube',
       },
       /* eslint-enable react/display-name, react/prop-types */
     ],

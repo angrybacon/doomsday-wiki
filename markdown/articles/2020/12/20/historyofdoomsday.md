@@ -29,6 +29,8 @@ The entire interview is available on YouTube and SoundCloud.
 include a lot of segways and general chatter however as I say in it: "the people
 who will be listening to this will enjoy a big ramble about Storm".*
 
+<youtube id="3LLIFHv5kbo" />
+
 You can also listen to the edited down audio version which is a little more lean
 [here][audio.clean]. This was edited by the lovely Otterlady and is around 3
 hours 45 or so. This one is a lot more focussed on topic and a lot less
