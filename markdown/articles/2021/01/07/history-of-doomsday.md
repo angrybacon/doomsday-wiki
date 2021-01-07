@@ -265,12 +265,11 @@ Warrens}}. These cards gave a huge boost to the decks trying to use them with
 the Goblins plan allowing players to go off much earlier with a quick Empty for
 5 or so presenting 10+ power on the board from turn 1. This also gave a huge
 boost vs the Control decks of the time which didn't have mana efficient board
-sweepers to deal with such aggression. Because of this new printing the BZK
-group started working on two key builds to make use of them. The first was
-designed by user Wastedlife (now better known as a certain Bryant Cook) who came
-up with this deck concept known as *The EPIC Storm* or TES. This started
-utilising principles such as including main deck protection and a diverse tool
-suite to try and run hard and fast.
+sweepers to deal with such aggression. Two key builds of storm quickly appeared 
+to make use of them. The first was designed by user Wastedlife (now better known 
+as a certain Bryant Cook) who came up with this deck concept known as *The EPIC Storm* 
+, or TES for short. This started utilising principles such as including main deck 
+protection and a diverse tool suite to try and run hard and fast.
 
 From a Discord log from Emidln:
 
