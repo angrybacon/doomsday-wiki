@@ -9,6 +9,7 @@ import mana from '../../tools/mana';
 import Deck from '../Deck';
 import Mana from '../Mana';
 import Prettylink from '../Prettylink';
+import Soundcloud from '../Soundcloud';
 import Tweet from '../Tweet';
 import Blockquote from './renderers/Blockquote';
 import Code from './renderers/Code';
@@ -63,6 +64,10 @@ export default function Markdown({ className, source, ...rest }) {
           return <span className={classnames} />;
         },
         shouldProcessNode: ({ name }) => name === 'row',
+      },
+      {
+        processNode: ({ attribs }) => <Soundcloud url={attribs.url} />,
+        shouldProcessNode: ({ name }) => name === 'soundcloud',
       },
       {
         processNode: ({ attribs }) => <Tweet id={attribs.id} />,

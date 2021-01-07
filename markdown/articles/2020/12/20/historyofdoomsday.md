@@ -21,13 +21,13 @@ always been available to answer (even if sometimes it took up to a year to do so
 get both a lot of detail on the history of the deck and learn a bit more about
 him as a player and his path onto the deck.
 
-The entire interview is available to watch/listen to on YouTube either as in its
-uncurated and raw format [here for video][video.raw] or [here for just
-audio][audio.raw].
+The entire interview is available on YouTube and SoundCloud.
 
-*Note: the raw is over five hours long so is quite a journey. It also include a
-lot of segways and general chatter however as I say in it: "the people who will
-be listening to this will enjoy a big ramble about storm".*
+<soundcloud url="https://soundcloud.com/ddftwiki/a-history-of-doomsday" />
+
+*Note: the raw video is over five hours long so is quite a journey. It also
+include a lot of segways and general chatter however as I say in it: "the people
+who will be listening to this will enjoy a big ramble about Storm".*
 
 You can also listen to the edited down audio version which is a little more lean
 [here][audio.clean]. This was edited by the lovely Otterlady and is around 3
@@ -1365,15 +1365,10 @@ If you haven't yet, please feel free to waytch / listen to the interview with
 Emidln that can be found linked below. The edited version was produced by
 OtterLady (@justthefastest on Twitter) with help from Hulahula.
 
-The entire interview is available to watch/listen to on YouTube either as in its
-uncurated and raw format [here for video][video.raw] or [here for just
-audio][audio.raw].
+The entire interview is available to watch/listen at the top of this page.
 
 *Note: this is over five hours long so is quite a journey. It also include a lot
 of segways and general chatter.*
-
-You can also listen to the edited down audio version which is a little more
-palatable [here][audio.clean].
 
 As always if you want even more content please check out our
 [resources](/appendices/resources/) page which includes a list of community
@@ -1388,7 +1383,3 @@ further.
 Until next time.
 
 Learn from the past and look to the future!
-
-[audio.clean]: 
-[audio.raw]: 
-[video.raw]: 
