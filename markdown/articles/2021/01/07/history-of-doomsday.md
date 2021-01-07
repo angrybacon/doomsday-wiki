@@ -191,7 +191,7 @@ digging already available.
 This pile was resilient to graveyard interation however was still reliant on
 both activated abilities and artifact synergies which were hurt by {{Pithing
 Needle}} and {{Null Rod}} respectively which were relatively common from
-sideboards. The decks were certainly playable, but far from competi/tive at the
+sideboards. The decks were certainly playable, but far from competitive at the
 time. It wasn't truly until a group of people working on completely different
 decks found the answer did the Legacy deck truly form.
 
