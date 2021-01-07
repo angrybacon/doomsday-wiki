@@ -26,8 +26,8 @@ The entire interview is available on YouTube and SoundCloud.
 <soundcloud url="https://soundcloud.com/ddftwiki/a-history-of-doomsday" />
 
 *Note: the raw video is over five hours long so is quite a journey. It also
-include a lot of segways and general chatter however as I say in it: "the people
-who will be listening to this will enjoy a big ramble about Storm".*
+includes a lot of segways and general chatter however as I say in it: "the
+people who will be listening to this will enjoy a big ramble about Storm".*
 
 <youtube id="3LLIFHv5kbo" />
 
@@ -248,9 +248,9 @@ success but the deck, although fast, did not achieve any top tier status.
 In 2006 Iggy pop got a large boost in the form of {{Leyline of the Void}} from
 Guildpact which allowed it to mitigate the balanced nature of Ill-Gotten Gains
 by removing the opposing hand from the game entirely. It could also just be used
-to make an opponent go hellbent from turn 1. Another very key card was printed in
-Dissession in the form of {{Infernal Tutor}}. This card allowed for a combo with
-Lion's Eye Diamond to achiveve hellbent status and effectively become a
+to make an opponent go hellbent from turn 1. Another very key card was printed
+in Dissension in the form of {{Infernal Tutor}}. This card allowed for a combo
+with Lion's Eye Diamond to achiveve hellbent status and effectively become a
 {{Demonic Tutor}} in doing so. It also gave more power to other branch decks
 like Nausea which ran {{Spoils of the Vault}}, {{Chromatic Sphere}} and Helm of
 Awakening as an engine. The deck actually ran a single copy of Doomsday as a
@@ -1359,8 +1359,9 @@ deck since 2011 and who has been an excellent friend/ ideas discussion partner
 for me over the years despite the geographical location difference!
 
 If you haven't yet, please feel free to watch / listen to the interview with
-Emidln that can be found linked at the top of the page. The edited version was produced by
-OtterLady (@justthefastest on Twitter) with help from Hulahula.
+Emidln that can be found linked at the top of the page. The edited version was
+produced by OtterLady ([@justthefastest](https://twitter.com/justthefastest) on
+Twitter) with help from Hulahula.
 
 As always if you want even more content please check out our
 [resources](/appendices/resources/) page which includes a list of community
