@@ -31,11 +31,6 @@ who will be listening to this will enjoy a big ramble about Storm".*
 
 <youtube id="3LLIFHv5kbo" />
 
-You can also listen to the edited down audio version which is a little more lean
-[here][audio.clean]. This was edited by the lovely Otterlady and is around 3
-hours 45 or so. This one is a lot more focussed on topic and a lot less
-rambling!
-
 This article will detail the key points discussed and follow the history of the
 deck but will not be an accurate transcription of the interview. I will include
 quotes from the recordings but it will be written to stay more on target than
