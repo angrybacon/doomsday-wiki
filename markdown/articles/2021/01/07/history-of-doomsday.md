@@ -267,9 +267,10 @@ the Goblins plan allowing players to go off much earlier with a quick Empty for
 boost vs the Control decks of the time which didn't have mana efficient board
 sweepers to deal with such aggression. Two key builds of storm quickly appeared 
 to make use of them. The first was designed by user Wastedlife (now better known 
-as a certain Bryant Cook) who came up with this deck concept known as *The EPIC Storm* 
-, or TES for short. This started utilising principles such as including main deck 
-protection and a diverse tool suite to try and run hard and fast.
+as a certain Bryant Cook) who came up with this deck concept known as 
+*The EPIC Storm*, or *TES* for short. This started utilising principles such
+as including main deck protection and a diverse tool suite to try and run hard
+and fast.
 
 From a Discord log from Emidln:
 
