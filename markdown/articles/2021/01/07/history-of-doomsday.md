@@ -191,7 +191,7 @@ digging already available.
 This pile was resilient to graveyard interation however was still reliant on
 both activated abilities and artifact synergies which were hurt by {{Pithing
 Needle}} and {{Null Rod}} respectively which were relatively common from
-sideboards. The decks were certainly playable, but far from competetive at the
+sideboards. The decks were certainly playable, but far from competi/tive at the
 time. It wasn't truly until a group of people working on completely different
 decks found the answer did the Legacy deck truly form.
 
@@ -218,7 +218,7 @@ boasting 8 maindeck tutor effects and maindeck removal like {{Chain of Vapor}}
 or {{Cabal Pit}}.
 
 It's here in our story where we re-focus on Emidln. Emidln had gotten a taste of
-competetive magic and so started browsing forums to find out more information.
+competitive magic and so started browsing forums to find out more information.
 Places like the StarCityGames, The Mana Drain forums (in the new legacy section,
 The Mana Leak) and the MtGSalvation forums. He started to meet and become
 friends with people online, chatting via Aim, MSN, IRC, ICQ and a whole host of
@@ -351,7 +351,7 @@ involved, were still fledging. This is also where we start to see the birth of
 more modern storm variants with the *Xerox* concepts of cantrips over lands
 really taking effect. 4 Brainstorm, 4 Top, 4 Ponder and 4 Street Wraith became a
 staple build with Wraith allowing you to grab any card fetched from Mystical
-Tutor in the same turn as a *build your own {{Vampiric Tutor}}* type affair.
+Tutor in the same turn as a *build your own {{Demonic Tutor}}* type affair.
 
 It was also around this time that Emidln and Wastedlife set up the stormboards.
 BZK was a team affiliated site with other people who worked on seperate teams
@@ -409,7 +409,7 @@ From Emidln chatting to me on Discord:
 > Our tech was pretty bad though  
 > IU existed, we just didn't use it we also didn't really realize that the
 > pattern matched "piles" for Brainstorm/SdT  
-> Could work with IGG for a while
+> Could work without IGG for a while
 
 As is said in our recording:
 
