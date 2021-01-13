@@ -8,6 +8,23 @@ key question is missing then please feel free to suggest it. A lot of the
 questions were either fully or partially answered in this article here:
 [DDFAQs](/articles/2020/03/22/ddfaq/)
 
+  1. What are the different Doomsday decks and what is the difference between them?
+  1. What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
+  1. What list should I start on? What is the *best* list to play?
+  1. Is there a list of common/all Doomsday piles? What is the most common pile I should learn?
+  1. What is the best matchup for the deck?
+  1. What is the worst matchup for the deck?
+  1. What's a good meta to play Doomsday in?
+  1. I think X card might be good, should I run it?
+  1. Is the deck hard to learn? Is it the most difficult deck in Legacy?
+  1. How do I resolve Doomsday in paper?
+  1. How long should I be taking to resolve Doomsday in paper?
+  1. I run X deck, how do I beat Doomsday?
+  1. What is the best way to learn Doomsday?
+  1. I'm building on a budget, can I build Doomsday?
+  1. 
+  
+
 
 ### 1. What are the different Doomsday decks and what is the difference between them?
 
