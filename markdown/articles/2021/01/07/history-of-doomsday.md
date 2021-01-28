@@ -36,7 +36,7 @@ deck but will not be an accurate transcription of the interview. I will include
 quotes from the recordings but it will be written to stay more on target than
 our recorded discussion does. There is only a little overlap between this
 article and the recording so I would very much recommend you partake in both
-(thouhg of course I am biased on this). I have tried to be as accurate as
+(though of course I am biased on this). I have tried to be as accurate as
 possible through online research however a lot of the pre-2007 information is
 hard to find or lost and piecing together accurate timelines is tricky. I also
 apologise if I mis-attribute anything, get an online handle wrong or omit
@@ -50,7 +50,7 @@ With that all clarified. let's get into it!
 Brandon *Emidln* (pronounced ee-mid-lin) Adams is a Legacy, Vintage and EDH
 player best known for his historical and current work on the Doomsday Legacy
 archetype. He started playing magic around 1997/1998 learning to play (with only
-a slightly incorrect ruleset) from his cousin). His pet deck was a cheeky 72
+a slightly incorrect ruleset) from his cousin. His pet deck was a cheeky 72
 cards ("you've got to fit all your best cards in somehow") and ran Shivan
 Dragons and other {B}{R} creatures. As time went on, and new cards from Urza's
 Legacy were printed, he actually already found a copy, and use for Doomsday in
