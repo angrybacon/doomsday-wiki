@@ -88,7 +88,7 @@ Consider the following:
 <row variant="pile">{{!BS}} {{!SW}} {{!EoA}} {{!Polluted Delta|ONS}} {{!TO}}</row>
 
 1. Cast Ponder to draw BS
-1. Cast BS and put back Island then SW
+1. Cast BS and put back Island then EoA
 1. Cycle SW to draw EoA
 1. Land Polluted Delta and fetch the Island
 1. Cycle SW and play TO with 0 remaining cards
