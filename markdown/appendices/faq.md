@@ -8,6 +8,24 @@ key question is missing then please feel free to suggest it. A lot of the
 questions were either fully or partially answered in this article here:
 [DDFAQs](/articles/2020/03/22/ddfaq/)
 
+1. What are the different Doomsday decks and what is the difference between
+   them?
+1. What is the *best* Doomsday archetype? Of that archetype what are the *best*
+   colours to run?
+1. What list should I start on? What is the *best* list to play?
+1. Is there a list of common/all Doomsday piles? What is the most common pile I
+   should learn?
+1. What is the best matchup for the deck?
+1. What is the worst matchup for the deck?
+1. What's a good meta to play Doomsday in?
+1. I think X card might be good, should I run it?
+1. Is the deck hard to learn? Is it the most difficult deck in Legacy?
+1. How do I resolve Doomsday in paper?
+1. How long should I be taking to resolve Doomsday in paper?
+1. I run X deck, how do I beat Doomsday?
+1. What is the best way to learn Doomsday?
+1. What order should I make purchases to build Doomsday?
+1. I am limited on my budget, can I still build the deck?
 
 ### 1. What are the different Doomsday decks and what is the difference between them?
 
@@ -240,3 +258,33 @@ stuck, feel free to ask for help! The sense of community is very strong and you
 should be able to find someone to answer any queries across most time zones so
 please feel free to come and say hello in the [Doomsday
 Discord](https://discord.gg/vajvFXt).
+
+### 14. What order should I make purchases to build Doomsday?
+
+As with any Legacy deck the focus should always be on the reserved list staples.
+dual lands are the first port of call with Underground Seas being the key part.
+You should look to pick up at least 2 Underground Seas if not 3 if you can. Once
+you have Seas then the Lion's Eye Diamond(s) is the next priority. For Meandeck
+you just need one but for the more all-in combo builds you will want
+4. After that I think you should look to pick up the splash dual lands (if
+applicable) prioritising the {U} based ones over any {B} based ones. Once you
+have your reserved list staples then the rest of the deck can be reasonably easy
+to source with Force of Wills likely being the next biggest purchase.
+
+### 15. I am limited on my budget, can I still build the deck?
+
+This obviously depends on how constricted you are in terms of budget but yes you
+can! The easiest way is of course to run a heavy Snow-Basic / Arcum's Astrolabe
+list. This way you will only need 1-2 Underground Seas and can rely on basics
+and Astrolabe to fix for any splash colours. This can slow the deck down and
+make cards like Daze much worse for early turns but is perfectly viable. You can
+also omit the Lion's Eye Diamond in Meandeck but it will prevent you from
+getting access to a lot of the most mana efficient or quick kills it enables.
+You probably need the Force of Wills but you can also not run them if need be
+and instead rely more on soft counters and discard effects or Veil of Summer.
+The only card I would really advocate not skimping on is Cavern of Souls. This
+card single-handedly can enable a lot of wins in {U} matchups and thus is too
+good a tool to lose.
+
+If you have any questions beyond what is listed here feel free to ask in the
+[Discord](https://discord.gg/vajvFXt) or email ddftwiki@gmail.com
