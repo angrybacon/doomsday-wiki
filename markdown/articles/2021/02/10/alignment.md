@@ -1,12 +1,12 @@
 ---
 authors: Doishy
-banner: Ideas unbound
+banner: /assets/ideasunbound-sok.jpg
 title: The Doomsday Alignment Chart - Different Styles of Deckbuilding.
 ---
 
 ## Introduction
 
-I have written [before]() on the subject of deck construction in terms of colour
+I have written [before](/articles/2020/03/22/ddfaq) on the subject of deck construction in terms of colour
 options and deckbuilding tools however I have not covered deck building styles
 properly. We have now had a year from initial deck conception through to
 refinement and now, after what we thought was a mostly complete process with a
@@ -63,11 +63,10 @@ single off colour splash is pretty much free in terms of deck building.
 Currently straight {U}{B} or {U}{B}{R} seem to be the most popular
 configurations at the time of writing.
 
-Here is an example list from a recent [xxxxxx]:
+Here is an example list from a recent mtgo league trophy by Kl0gw:
 
-```
-List
-```
+<deck path="2021/02/10/turbo-meandeck-kl0gw-ub.txt" />
+
 
 ### Speed Neutral - Old Reliable (Base Meandeck)
 
@@ -92,11 +91,10 @@ Colour wise the deck tends to be 3 colour with {U}{B}{R} or {U}{B}{G} being the
 most popular although you can find variants available in {W}{U}{B}, {U}{B} or
 {U}{B}{R}{G}.
 
-Here is an example list from a recent [xxxxxx]:
+Here is an example list from a recent 13th place PTQ finish by RonColpoCinese:
 
-```
-List
-```
+<deck path="2021/02/10/meandeck-roncolpcinese-ubg.txt" />
+
 
 ### Speed Radical - Basically Snowko (Doomsday Control)
 
@@ -125,19 +123,15 @@ through and early Doomsday.
 
 These decks make full use of Astrolabe either being {U}{B}{R}, {U}{B}{G} or
 {U}{B}{R}{G}. Currently nothing from the {W} section of the colour pie has made
-enough impact to be desired but who's to say we won#t see a full five colour
+enough impact to be desired but who's to say we won't see a full five colour
 variant attempted soon?
 
-Here are two example lists from recent [xxxxxx]:
+Here are two example lists from a recent 15th place challenge finish by Marcus 
+Ewaldh and another from a recent mtgo league trophy by Nevilshute:
 
-```
-Arcanist List
-```
+<deck path="2021/02/10/arcanist-meandeck-iwouldliketorespond-ubr.txt" />
 
-
-```
-Uro List
-```
+<deck path="2021/02/10/uro-meandeck-nevilshute-ubrg.txt" />
 
 ## Alignment Axis 2 - Greed
 
@@ -188,11 +182,9 @@ can cause a stretch on your resources. Even despite this you still have access
 to Defense Grid, Hope of Ghirapur, Massacre, Flusterstorm and all manner of
 strong Legacy playables.
 
-Here is an example list from a recent [xxxxxx]:
+Here is an example list from a recent 4-1 mtgo league result from BluStalker:
 
-```
-List
-```
+<deck path="2021/02/10/snow-meandeck-blustalker-ub.txt" />
 
 ### Greed Neutral - 3 Colours
 
@@ -225,11 +217,9 @@ Sideboard wise having a splash colour really improves your toolbox options with
 additional cards not yet mentioned like Xantid Swarm, Carpet of Flowers, Abrade
 and the currently powerful creature suite of Dreadhorde Arcanist or Uro.
 
-Here is an example list from a recent [xxxxxx]:
+Here is an example list from a recent 23rd PTQ placement by Helvetti:
 
-```
-List
-```
+<deck path="2021/02/10/meandeck-helvetti-ubr.txt" />
 
 ### Greedy Motherfucker - 4 Colours
 
@@ -280,28 +270,21 @@ mana, which can hinder obtaining {B}{B}{B}, or increasing a reliance on your
 Lotus Petals to help fix your colours if not on Astrolabe. I would recommend
 sticking with at least 3 Petal if considering 4 colour.
 
-Here are three example lists from recent [xxxxxx]:
+Here are three example lists from recent mtgo league trophies by Sawatarix,
+BCS8995 and Doishy respectively:
 
-```
-4th splash in side
-```
+<deck path="2021/02/10/snow-meandeck-sawatarix-ubrg.txt" />
 
-```
-4 colour labe
-```
+<deck path="2021/02/10/snow-meandeck-bcs8995-ubrg.txt" />
 
-```
-Doishy List
-```
+<deck path="2021/02/10/meandeck-doishy-ubrg.txt" />
 
 ## Building the Chart
 
 Now we have our 2 axis we can build our little Doomsday deck building alignment
 chart!
 
-```
-chart
-```
+![Alignment Chart](/img/2021alignment.png)
 
 Obviously this is a gross oversimplification but it's a fun little way to
 quickly work out what sort of Doomsdayer you are. I personally sit as an "Old
