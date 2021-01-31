@@ -38,7 +38,7 @@ ending the game with Doomsday. The moniker *Meandeck* is explained in this
 article [here](/articles/2020/03/12/pretty-mean-deck/).
 
 If you are new to the archetype then please check out the [FAQs
-Appendix](/appendices/faq) for an intial queries you might have. Please peruse
+Appendix](/appendices/faq) for any initial queries you might have. Please peruse
 the wiki, have a read of some of the articles and if after going through you
 still have questions then feel free to come visit us in the
 [Discord](https://discord.gg/vajvFXt).
