@@ -4,11 +4,14 @@ title: Other Doomsday Resources
 
 ## Streams
 
+You can often find people streaming in the discord server. Alternatively check out these channels:
+
 - Lee *d8dk32* Curtis:
   [Twitch](https://www.twitch.tv/ddftguy)
   [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)
 - Brandon *emidln* Adams:
   [Twitch](https://www.twitch.tv/adam4300)
+  [Youtube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)
 - Albert *g0ld_rook* Huang:
   [Twitch](https://www.twitch.tv/g0ld_rook)
   [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)
@@ -26,6 +29,21 @@ title: Other Doomsday Resources
 - Eric *Revenantkioku* Koziol:
   [Twitch](https://www.twitch.tv/revenantkioku)
   [YouTube](https://www.youtube.com/user/revenantkioku)
+- Doishy:
+  [Twitch](https://www.twitch.tv/doishy)
+  [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)
+
+For Paper Legacy that often involves Doomsday.
+
+- Bazaar of Boxes: 
+  [Twitch](https://twitch.tv/bazaarofboxes)
+  [YouTube](https://www.youtube.com/channel/UCJAh1KrKva2ThdY2OSs1-Rw)
+- 90smtg:
+  [Twitch](https://twitch.tv/90sMTG)
+  [YouTube](https://www.youtube.com/c/90sMTG/featured)
+- MTGPaperLegacy:
+  [Twitch](https://www.twitch.tv/mtgpaperlegacy)
+  [YouTube](https://www.youtube.com/channel/UCLn5vm9flyrHeds_uUKBEew)
 
 ## Podcasts
 
@@ -35,17 +53,22 @@ title: Other Doomsday Resources
 
 ## Videos
 
+- [LeFly runs a League with Meandeck (February 2021) - German](https://www.youtube.com/watch?v=pkpixIywm1w)
+- [Andreas Mengucci runs a league with UB Meandeck (December 2020)](https://www.youtube.com/watch?v=8HlIvDf7iDg)
+- [Anuraag Das runs some ANT/Doomsday with Ki Sawatari (December 2020)](https://www.youtube.com/watch?v=u-kyFx2VJ0c)
 - [Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)]
   (https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)
-- [TwinlessTwinMTG runs a league with Monkeyscantcry]
+- [TwinlessTwinMTG runs a league with Monkeyscantcry (Expired)]
   (https://www.twitch.tv/twinlesstwinmtg/video/715777301)
+- [Julian runs a League with Meandeck Doomsday (November 2020)](https://www.youtube.com/watch?v=xbrEBHtF1Cs&t=4s)
+- [Julian is coached through a league with Nevilshute (August 2020)](https://www.youtube.com/watch?v=JDEXkRw679w)
 - [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese]
   (https://www.youtube.com/watch?v=eMgfFlx0_10)
 - [Jarvis Yu ft. Ari Lax do a League with 4C Meandeck (July 2020)]
   (https://www.youtube.com/watch?v=mn4GYFoVrRA)
-- [Anuraag Das's VOD featuring monkeyscantcry (march 2020)]
+- [Anuraag Das's VOD featuring monkeyscantcry (March 2020) (Expired)]
   (https://www.twitch.tv/videos/565641017)
-- [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (august 2017)]
+- [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (August 2017)]
   (https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
 
 ## Highlight Reel
@@ -56,3 +79,9 @@ title: Other Doomsday Resources
   (https://www.twitch.tv/videos/698945172)
 - [Romariovidal builds the "perfect pile" on Esper Meandeck]
   (https://clips.twitch.tv/NaiveAgreeableTitanDatBoi?fbclid=IwAR3w38BIdFVkfUsbSc2PLxyrgLCxDNNblHKI_U8I8Z-hs7O2o76fjYl4uJU)
+
+## Other Articles
+
+- [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
+- [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
+- [Maxtortion Writes about Esper Doomsday](https://minmaxblog.com/max-shows-off-esper-doomsday/)
