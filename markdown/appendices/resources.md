@@ -59,27 +59,16 @@ For Paper Legacy that often involves Doomsday.
 - [Anuraag Das runs some ANT/Doomsday with Ki Sawatari (December 2020)](https://www.youtube.com/watch?v=u-kyFx2VJ0c)
 - [Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)]
   (https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)
-- [TwinlessTwinMTG runs a league with Monkeyscantcry (Expired)]
-  (https://www.twitch.tv/twinlesstwinmtg/video/715777301)
 - [Julian runs a League with Meandeck Doomsday (November 2020)](https://www.youtube.com/watch?v=xbrEBHtF1Cs&t=4s)
 - [Julian is coached through a league with Nevilshute (August 2020)](https://www.youtube.com/watch?v=JDEXkRw679w)
-- [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese]
-  (https://www.youtube.com/watch?v=eMgfFlx0_10)
-- [Jarvis Yu ft. Ari Lax do a League with 4C Meandeck (July 2020)]
-  (https://www.youtube.com/watch?v=mn4GYFoVrRA)
-- [Anuraag Das's VOD featuring monkeyscantcry (March 2020) (Expired)]
-  (https://www.twitch.tv/videos/565641017)
-- [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (August 2017)]
-  (https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
+- [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese](https://www.youtube.com/watch?v=eMgfFlx0_10)
+- [Jarvis Yu ft. Ari Lax do a League with 4C Meandeck (July 2020)](https://www.youtube.com/watch?v=mn4GYFoVrRA)
+- [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (August 2017)](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
 
 ## Highlight Reel
 
-- [Monkeyscantcry shows the best pile to play around Surgical Extraction]
-  (https://www.twitch.tv/videos/564975441)
-- [Romariovidal finishes a league in spectacular fashion]
-  (https://www.twitch.tv/videos/698945172)
-- [Romariovidal builds the "perfect pile" on Esper Meandeck]
-  (https://clips.twitch.tv/NaiveAgreeableTitanDatBoi?fbclid=IwAR3w38BIdFVkfUsbSc2PLxyrgLCxDNNblHKI_U8I8Z-hs7O2o76fjYl4uJU)
+- [Monkeyscantcry shows the best pile to play around Surgical Extraction](https://www.twitch.tv/videos/564975441)
+- [Romariovidal finishes a league in spectacular fashion](https://www.twitch.tv/videos/698945172)
 
 ## Other Articles
 
