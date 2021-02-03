@@ -4,7 +4,8 @@ title: Other Doomsday Resources
 
 ## Streams
 
-You can often find people streaming in the discord server. Alternatively check out these channels:
+You can often find people streaming in the Discord server. Alternatively check
+out these channels:
 
 - Lee *d8dk32* Curtis:
   [Twitch](https://www.twitch.tv/ddftguy)
