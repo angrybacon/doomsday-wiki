@@ -12,7 +12,7 @@ out these channels:
   [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)
 - Brandon *emidln* Adams:
   [Twitch](https://www.twitch.tv/adam4300)
-  [Youtube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)
+  [YouTube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)
 - Albert *g0ld_rook* Huang:
   [Twitch](https://www.twitch.tv/g0ld_rook)
   [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)
