@@ -54,9 +54,9 @@ For Paper Legacy that often involves Doomsday.
 
 ## Videos
 
-- [Hellownewton runs a league with RomarioVidal Part 1](https://www.youtube.com/watch?v=VhzUCmILgj8&ab_channel=hello_newton)
-- [Hellownewton runs a league with RomarioVidal Part 2](https://www.youtube.com/watch?v=9KzxwRH0vbo&ab_channel=hello_newton)
-- [Bryant Cook goes to the Dark side casting Doomsday for the first time](https://youtu.be/h1euGB8hQFM)
+- [Hellownewton runs a league with RomarioVidal Part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8&ab_channel=hello_newton)
+- [Hellownewton runs a league with RomarioVidal Part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo&ab_channel=hello_newton)
+- [Bryant Cook goes to the Dark side casting Doomsday for the first time (February 2021)](https://youtu.be/h1euGB8hQFM)
 - [LeFly runs a League with Meandeck (February 2021) - German](https://www.youtube.com/watch?v=pkpixIywm1w)
 - [Andreas Mengucci runs a league with UB Meandeck (December 2020)](https://www.youtube.com/watch?v=8HlIvDf7iDg)
 - [Anuraag Das runs some ANT/Doomsday with Ki Sawatari (December 2020)](https://www.youtube.com/watch?v=u-kyFx2VJ0c)
