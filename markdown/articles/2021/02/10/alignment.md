@@ -58,6 +58,14 @@ Autumn to Street Wraith. This helps cycle through the deck quicker and access
 the card found with Personal Tutor faster. It also allows a slight reduction in
 the land count for the deck running around 16 lands over the "normal" 17.
 
+The advantage of this is you are able to *go under* a lot of decks like Delver
+before their disruption becomes available and with the hard bit of resolving
+Doomsday being completed quicker, the pressure on them to find a way to answer
+Cavern + Oracle is all the heavier. Conversely though you lose some of the long
+game resiliency and can be a lot more reliant on your mulligan decisions as
+your opening hand often offers a lot less flexibility with a smaller
+selection cantrip suite.
+
 The deck favours minimising splash colours where possible however having a
 single off colour splash is pretty much free in terms of deck building.
 Currently straight {U}{B} or {U}{B}{R} seem to be the most popular
@@ -109,7 +117,7 @@ multiple copies of Predict however, unlike the Esper lists, the deck has started
 to utilise the card Dreadhorde Arcanist in order to double down on obtaining
 maximum value from its cards.
 
-In parrellel to this Predict focussed style there is another school of thought
+In parallel to this Predict focussed style there is another school of thought
 that Nevilshute has been championing based around Oko, Thief of Crowns and Uro,
 Titan of Nature's Wrath. This deck has the ability to play either the
 traditional Doomsday plan or as a snow based control deck which happens to run
@@ -119,7 +127,8 @@ creature packages and more mana based control like Veil of Summer or Pyroblast
 effects. The number of Lotus Petals are also reduced to only 1-2 in the lists.
 Becausse of these changes to both sets of lists, the decks can play a very
 strong longer game but are not able to capitalise as well on finding or pushing
-through and early Doomsday.
+through and early Doomsday thanks to the lack of Daze, the higher reliance
+on fetching up basic lands and the reduced Petal count.
 
 These decks make full use of Astrolabe either being {U}{B}{R}, {U}{B}{G} or
 {U}{B}{R}{G}. Currently nothing from the {W} section of the colour pie has made
@@ -182,7 +191,7 @@ can cause a stretch on your resources. Even despite this you still have access
 to Defense Grid, Hope of Ghirapur, Massacre, Flusterstorm and all manner of
 strong Legacy playables.
 
-Here is an example list from a recent 4-1 mtgo league result from BluStalker:
+Here is an example list from a semi-recent 4-1 mtgo league result from BluStalker:
 
 <deck path="2021/02/10/snow-meandeck-blustalker-ub.txt" />
 
