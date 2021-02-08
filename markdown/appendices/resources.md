@@ -48,11 +48,15 @@ For Paper Legacy that often involves Doomsday.
 
 ## Podcasts
 
+For podcasts with consistent Doomsday tags or specific episodes.
+
 - [Legacy Breakfast](https://legacy-breakfast.com/tag/doomsday/)
 - [Eternal Central](https://www.eternalcentral.com/tag/doomsday/)
 - [The Dead Format episode 106 ft. Nevilshute](https://soundcloud.com/the-dead-format/episode-106-doomsday-with-nevilshute-martin-nielsen)
 
 ## Videos
+
+Videos from non-regular streamers or Doomsday content creators:
 
 - [Hellownewton runs a league with RomarioVidal Part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8&ab_channel=hello_newton)
 - [Hellownewton runs a league with RomarioVidal Part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo&ab_channel=hello_newton)
@@ -69,10 +73,14 @@ For Paper Legacy that often involves Doomsday.
 
 ## Highlight Reel
 
+Silly or amusing clips from Twitch Streams.
+
 - [Monkeyscantcry shows the best pile to play around Surgical Extraction](https://www.twitch.tv/videos/564975441)
 - [Romariovidal finishes a league in spectacular fashion](https://www.twitch.tv/videos/698945172)
 
 ## Other Articles
+
+Alternate writing on Doomsday from around the web.
 
 - [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
 - [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
