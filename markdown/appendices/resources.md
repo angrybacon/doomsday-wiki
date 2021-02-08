@@ -30,6 +30,9 @@ out these channels:
 - Eric *Revenantkioku* Koziol:
   [Twitch](https://www.twitch.tv/revenantkioku)
   [YouTube](https://www.youtube.com/user/revenantkioku)
+- James *Apeofjustice* Whitehouse:
+  [Twitch](https://www.twitch.tv/apeofjustice)
+  [YouTube](https://www.youtube.com/channel/UCx_K-oTEpDPJRhPtiP3WjKw)
 - Doishy:
   [Twitch](https://www.twitch.tv/doishy)
   [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)
