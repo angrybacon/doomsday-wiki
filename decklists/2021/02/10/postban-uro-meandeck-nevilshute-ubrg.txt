@@ -1,0 +1,38 @@
+4 Baleful Strix
+1 Thassa's Oracle
+3 Uro, Titan of Nature's Wrath
+4 Doomsday
+2 Duress
+1 Edge of Autumn
+1 Ideas Unbound
+4 Ponder
+2 Preordain
+1 Thoughtseize
+4 Brainstorm
+4 Dark Ritual
+4 Daze
+4 Force of Will
+1 Spell Pierce
+1 Lion's Eye Diamond
+2 Lotus Petal
+
+1 Bayou
+1 Cavern of Souls
+1 Island
+4 Misty Rainforest
+4 Polluted Delta
+1 Swamp
+2 Tropical Island
+3 Underground Sea
+
+Sideboard
+3 Abrupt Decay
+1 Brazen Borrower
+2 Carpet of Flowers
+1 Force of Negation
+2 Plague Engineer
+2 Pyroblast
+1 Red Elemental Blast
+1 Spell Pierce
+1 Taiga
+1 Volcanic Island
