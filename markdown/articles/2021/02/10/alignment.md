@@ -4,6 +4,14 @@ banner: /assets/ideasunbound-sok.jpg
 title: The Doomsday Alignment Chart - Different Styles of Deckbuilding.
 ---
 
+*Preface: This article was in fact written before the banning of Arcum's Astrolabe
+and thus contains out of date information. We still went to publish because
+people were interested in it so apologies! I did add some edits in italics
+to try and give some more relevancy. 
+
+Stay Safe x x x 
+- Doishy*
+
 ## Introduction
 
 I have written [before](/articles/2020/03/22/ddfaq) on the subject of deck construction in terms of colour
@@ -83,8 +91,8 @@ meta aside). They are the ones written most about using the full 12 cantrip
 suite, 4 Daze, 2-3 free cyclers and 2-3 Petal. They have also previously
 incorporated a minor creature splash within them either using 0-4 Baleful Strix
 or some sort of "Man plan" in the sideboard. The sideboard plan has ranged from
-Uro, Mentor or Dreadhorde Arcanist (A Wizard like Oracle) with many things like
-Hullbreacher (A Merfolk like Oracle), Opposition Agent and Diving Witch being
+Uro, Mentor or Dreadhorde Arcanist (Now Banned) (A Wizard like Oracle) with many things like
+Hullbreacher (A Merfolk like Oracle), Opposition Agent and Divining Witch being
 tried.
 
 These lists can play the fast game of turn 1 Dark Ritual into Doomsday with Daze
@@ -107,7 +115,7 @@ Here is an example list from a recent 13th place PTQ finish by RonColpoCinese:
 ### Speed Radical - Basically Snowko (Doomsday Control)
 
 On the opposite end of the spectrum from Turbo we have the new development of
-the lists popularised by Hulahula from back in early 2020. These lists tend to
+the lists popularised by Hulahula from back in early 2020. These lists tended to
 run Arcum's Astrolabe and a larger land count to ensure a robust and consistent
 manabase and combine it with larger threats or protection spells. The early
 lists were Esper to utilise Teferi, Time Raveler however new lists such as those
@@ -130,12 +138,14 @@ strong longer game but are not able to capitalise as well on finding or pushing
 through and early Doomsday thanks to the lack of Daze, the higher reliance
 on fetching up basic lands and the reduced Petal count.
 
-These decks make full use of Astrolabe either being {U}{B}{R}, {U}{B}{G} or
+These decks made full use of Astrolabe either being {U}{B}{R}, {U}{B}{G} or
 {U}{B}{R}{G}. Currently nothing from the {W} section of the colour pie has made
 enough impact to be desired but who's to say we won't see a full five colour
-variant attempted soon?
+variant attempted soon? It is possible to run a grindier control variant without
+Astrolabe using a higher basics count and moving away from cards like Daze but
+it will slightly less resiliency or ability to splash as many colours.
 
-Here are two example lists from a recent 15th place challenge finish by Marcus 
+Here are two *(pre-ban)* example lists from a recent 15th place challenge finish by Marcus 
 Ewaldh and another from a recent mtgo league trophy by Nevilshute:
 
 <deck path="2021/02/10/arcanist-meandeck-iwouldliketorespond-ubr.txt" />
@@ -222,6 +232,11 @@ basics to replace an Underground Sea. You would also be more inclined to include
 the {B}x fetch over the 4th {U}x one to find that basic (but make sure to not
 get tempted by Prismatic Vista!).
 
+*Now that Astrolabe is gone it's going to be a bit harder to run a budget style list
+for 3 colours but it is still doable. You will likely want at least 2 Underground Seas
+and to run probably 2 Island and 2 Swamp along  with maybe 1 splash basic. You will
+also most likely need to run at least one {U}x splash dual if possible.*
+
 Sideboard wise having a splash colour really improves your toolbox options with
 additional cards not yet mentioned like Xantid Swarm, Carpet of Flowers, Abrade
 and the currently powerful creature suite of Dreadhorde Arcanist or Uro.
@@ -288,6 +303,17 @@ BCS8995 and Doishy respectively:
 
 <deck path="2021/02/10/meandeck-doishy-ubrg.txt" />
 
+
+*Post ban both Martin 'Nevilshute' Nielson and Kai 'Sawatarix' Sawatari have been
+on a good run with a 4 colour (no {w}) list featuring Daze, Uro, Strix, 2 Petals
+and sideboarding Red Blast effects. Having had the opportunity to watch it first
+hand vs a lot of decks with mana punishment, it looked very solid. If nothing else
+I think it proved you can play the greedy control style list without heavy reliance
+on Astrolabe now it's gone and with only 2 basics, 1 Island and 1 Swamp. The list
+can be found below.*
+
+<deck path="2021/02/10/postban-uro-meandeck-nevilshute-ubrg.txt" />
+
 ## Building the Chart
 
 Now we have our 2 axis we can build our little Doomsday deck building alignment
@@ -302,7 +328,7 @@ Reliable Greedy Motherfucker". Where do you sit on the chart?
 With the divergence in lists it can be intimidating for players new to the
 archetype to work out what sort of list to try, what splash colours are most
 suited to them, how many colours to run, whether to run a more dual centric list
-or Astrolabe style list, where to have creatures or be all in on the combo and
+or heavy basic land style list, where to have creatures or be all in on the combo and
 to work out the speed vs grind tradeoff. Hopefully reading through this it will
 help you get an idea / understanding of what options are out there and what you
 wish to play.
