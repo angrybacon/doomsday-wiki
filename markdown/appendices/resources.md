@@ -39,7 +39,7 @@ out these channels:
 
 For Paper Legacy that often involves Doomsday.
 
-- Bazaar of Boxes: 
+- Bazaar of Boxes:
   [Twitch](https://twitch.tv/bazaarofboxes)
   [YouTube](https://www.youtube.com/channel/UCJAh1KrKva2ThdY2OSs1-Rw)
 - 90smtg:
