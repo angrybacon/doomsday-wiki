@@ -81,7 +81,7 @@ configurations at the time of writing.
 
 Here is an example list from a recent mtgo league trophy by Kl0gw:
 
-<deck path="2021/02/10/turbo-meandeck-kl0gw-ub.txt" />
+<deck path="2021/02/19/meandeck.ub.kl0gw.txt" />
 
 
 ### Speed Neutral - Old Reliable (Base Meandeck)
@@ -109,7 +109,7 @@ most popular although you can find variants available in {W}{U}{B}, {U}{B} or
 
 Here is an example list from a recent 13th place PTQ finish by RonColpoCinese:
 
-<deck path="2021/02/10/meandeck-roncolpcinese-ubg.txt" />
+<deck path="2021/02/19/meandeck.ubg.roncolpcinese.txt" />
 
 
 ### Speed Radical - Basically Snowko (Doomsday Control)
@@ -140,7 +140,7 @@ fetching up basic lands and the reduced Petal count.
 
 These decks made full use of Astrolabe either being {U}{B}{R}, {U}{B}{G} or
 {U}{B}{R}{G}. Currently nothing from the {W} section of the colour pie has made
-enough impact to be desired but who's to say we won't see a full five colour
+enough impact to be desired but who's to say we won't see a full five colours
 variant attempted soon? It is possible to run a grindier control variant without
 Astrolabe using a higher basics count and moving away from cards like Daze but
 it will slightly less resiliency or ability to splash as many colours.
@@ -148,9 +148,9 @@ it will slightly less resiliency or ability to splash as many colours.
 Here are two *(pre-ban)* example lists from a recent 15th place challenge finish
 by Marcus Ewaldh and another from a recent mtgo league trophy by Nevilshute:
 
-<deck path="2021/02/10/arcanist-meandeck-iwouldliketorespond-ubr.txt" />
+<deck path="2021/02/19/meandeck.ubr.iwouldliketorespond.txt" />
 
-<deck path="2021/02/10/uro-meandeck-nevilshute-ubrg.txt" />
+<deck path="2021/02/19/meandeck.ubrg.nevilshute.txt" />
 
 ## Alignment Axis 2 - Greed
 
@@ -175,7 +175,7 @@ Underground Seas. With this you can supplement with a basic manabase and, for 2
 colours, it should run pretty well. Cavern is likely more important than Sea #3
 to enable more winning lines.
 
-For the second point, having a simple 2 colour manabase means you are very
+For the second point, having a simple 2 colours manabase means you are very
 resilient to Wasteland and not getting cut on colours. At its heart Doomsday is
 a mono {U} deck that happens to win with a {B}{B}{B} cost spell but being able
 to maximise on the ability to go turn 1 Dark Ritual into Doomsday with Daze
@@ -204,11 +204,11 @@ strong Legacy playables.
 Here is an example list from a semi-recent 4-1 mtgo league result from
 BluStalker:
 
-<deck path="2021/02/10/snow-meandeck-blustalker-ub.txt" />
+<deck path="2021/02/19/meandeck.ub.blustalker.txt" />
 
 ### Greed Neutral - 3 Colours
 
-I personally would consider the 3 colour lists to be the normal choice for most
+I personally would consider the 3 colours lists to be the normal choice for most
 players. The splash colour is often practically free due to, as stated above,
 the lists tend to be almost entirely {U}{B} main only anyways. If concerned on
 budget then after, your 2 Seas, you should look to pick up the {U}x splash dual
@@ -245,7 +245,7 @@ and the currently powerful creature suite of Dreadhorde Arcanist or Uro.
 
 Here is an example list from a recent 23rd PTQ placement by Helvetti:
 
-<deck path="2021/02/10/meandeck-helvetti-ubr.txt" />
+<deck path="2021/02/19/meandeck.ubr.helvetti.txt" />
 
 ### Greedy Motherfucker - 4 Colours
 
@@ -257,17 +257,17 @@ are a few ways you can go about running this configuration.
 1. Boarding the splash
 1. Just run it all main
 
-The first option is very similar to the configuration of the Astrolabe 3 colour
+The first option is very similar to the configuration of the Astrolabe 3 colours
 deck. You would normally only run Snow-Covered basics of 3 of your colours as
 between your splashes one is normally the "secondary" splash and the other the
 "tertiary" splash. Often it's {G} as the secondary and {R} as the tertiary. {G}
 has better options in a wider set of matchups and better tools in matchups where
-your manabase is under pressure whilst {R} is often, at least in a 4 colour
+your manabase is under pressure whilst {R} is often, at least in a 4 colours
 build, reserved mostly for combating fair, non-Delver {U} decks. (Decay normally
-being a better option than Abrade). If you were running 4 colour no {G} then {W}
-would probably be the secondary splash and {R} still the tertiary. The tertiary
-splash would normally be provided by a single {U}x dual either main or in the
-side.
+being a better option than Abrade). If you were running 4 colours no {G} then
+{W} would probably be the secondary splash and {R} still the tertiary. The
+tertiary splash would normally be provided by a single {U}x dual either main or
+in the side.
 
 The second option is having the {U}x splash dual in the side which only gets
 brought in as part of the side package. It might replace the secondary splash
@@ -289,21 +289,21 @@ splash), 1 Bayou, 1 Tropical Island, 1 Volcanic Island, 1 Island and 1 Swamp
 have elected to take my splash by reducing my basic count but you can also
 consider dropping to 2 Seas and staying on 3 basics.
 
-The advantages of 4 colour are of course to maximum the options in your toolbox.
-Some decks you can stay just one 3 colour shard/wedge, others you can bring in
-the whole lot. The limitations are sometimes your reliance on finding the right
-mana, which can hinder obtaining {B}{B}{B}, or increasing a reliance on your
-Lotus Petals to help fix your colours if not on Astrolabe. I would recommend
-sticking with at least 3 Petal if considering 4 colour.
+The advantages of 4 colours are of course to maximum the options in your
+toolbox. Some decks you can stay just one 3 colours shard/wedge, others you can
+bring in the whole lot. The limitations are sometimes your reliance on finding
+the right mana, which can hinder obtaining {B}{B}{B}, or increasing a reliance
+on your Lotus Petals to help fix your colours if not on Astrolabe. I would
+recommend sticking with at least 3 Petal if considering 4 colours.
 
 Here are three example lists from recent mtgo league trophies by Sawatarix,
 BCS8995 and Doishy respectively:
 
-<deck path="2021/02/10/snow-meandeck-sawatarix-ubrg.txt" />
+<deck path="2021/02/19/meandeck.ubrg.sawatarix.txt" />
 
-<deck path="2021/02/10/snow-meandeck-bcs8995-ubrg.txt" />
+<deck path="2021/02/19/meandeck.ubrg.bcs8995.txt" />
 
-<deck path="2021/02/10/meandeck-doishy-ubrg.txt" />
+<deck path="2021/02/19/meandeck.ubrg.doishy.txt" />
 
 *Post-ban both Martin 'Nevilshute' Nielson and Kai 'Sawatarix' Sawatari have
 been on a good run with a 4 colours (no {w}) list featuring Daze, Uro, Strix, 2
@@ -313,7 +313,7 @@ nothing else I think it proved you can play the greedy control style list
 without heavy reliance on Astrolabe now it's gone and with only 2 basics, 1
 Island and 1 Swamp. The list can be found below.*
 
-<deck path="2021/02/10/postban-uro-meandeck-nevilshute-ubrg.txt" />
+<deck path="2021/02/19/meandeck.ubrg.nevilshute-postban.txt" />
 
 ## Building the Chart
 
