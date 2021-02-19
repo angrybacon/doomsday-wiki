@@ -17,6 +17,8 @@ export default makeStyles(theme => ({
     marginTop: '1em',
   },
   image: {
+    display: 'block',
+    margin: [[0, 'auto']],
     maxWidth: '100%',
   },
   row: {
