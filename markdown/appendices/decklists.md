@@ -5,7 +5,7 @@ title: Decklist Compendium
 
 This page serves as a repository of Doomsday decklists past and present. Those
 under *Current Decklists* are considered stock lists of the currently playable
-Doomsday variants, and we'll do our best to keep them up to date. The
+Doomsday variants, and we'll do our best to keep them up to date. In the
 *Historical Decklists* section are examples of lists from the past. Most are
 unplayable due to bannings, while some are still legal but have been obviated by
 new printings.
