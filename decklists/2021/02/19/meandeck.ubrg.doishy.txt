@@ -2,6 +2,7 @@
 1 Thassa's Oracle
 4 Doomsday
 3 Duress
+1 Thoughtseize
 1 Edge of Autumn
 1 Ideas Unbound
 4 Ponder
