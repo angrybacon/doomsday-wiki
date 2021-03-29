@@ -77,3 +77,11 @@ guides - why you should write them and ignore them Scenario 1: MCC stream Daze
 2: BS into Narset SW beats. 3; ????
 
 End.
+
+
+We knew Predict was correct IU bad.
+Wrong.
+We knew card disadvantage from PT and LDV was bad.
+Wrong.
+We knew that you should only run one Oracle.
+Wrong.
