@@ -125,7 +125,7 @@ combo kill. All of these are likely the most favourable (part based on gut feel
 and part based on community obtained results found
 [here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
 
-<row variant="centered">{{!Oko, Thief of Crowns}} {{!Knight of the Reliquary}} {{!Wishclaw Talisman}}</row>
+<row variant="centered">{{!Uro, Titan of Nature's Wrath}} {{!Knight of the Reliquary}} {{!Wishclaw Talisman}}</row>
 
 ### 6. What is the worst matchup for the deck?
 
