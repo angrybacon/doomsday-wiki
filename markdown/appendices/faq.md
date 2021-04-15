@@ -26,6 +26,7 @@ questions were either fully or partially answered in this article here:
 1. What is the best way to learn Doomsday?
 1. What order should I make purchases to build Doomsday?
 1. I am limited on my budget, can I still build the deck?
+1. I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
 
 ### 1. What are the different Doomsday decks and what is the difference between them?
 
@@ -125,7 +126,7 @@ combo kill. All of these are likely the most favourable (part based on gut feel
 and part based on community obtained results found
 [here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
 
-<row variant="centered">{{!Oko, Thief of Crowns}} {{!Knight of the Reliquary}} {{!Wishclaw Talisman}}</row>
+<row variant="centered">{{!Uro, Titan of Nature's Wrath}} {{!Knight of the Reliquary}} {{!Wishclaw Talisman}}</row>
 
 ### 6. What is the worst matchup for the deck?
 
@@ -274,9 +275,10 @@ to source with Force of Wills likely being the next biggest purchase.
 ### 15. I am limited on my budget, can I still build the deck?
 
 This obviously depends on how constricted you are in terms of budget but yes you
-can! The easiest way is of course to run a heavy Snow-Basic / Arcum's Astrolabe
-list. This way you will only need 1-2 Underground Seas and can rely on basics
-and Astrolabe to fix for any splash colours. This can slow the deck down and
+can! The easiest way is of course to run a heavy basics list. Unfortunately due
+to the life loss from Doomsday *Shock Lands* like {{Watery Grave}} are not
+viable. Following this you will only need 1-2 Underground Seas and can rely on
+basics and Petals to fix for any splash colours. This can slow the deck down and
 make cards like Daze much worse for early turns but is perfectly viable. You can
 also omit the Lion's Eye Diamond in Meandeck but it will prevent you from
 getting access to a lot of the most mana efficient or quick kills it enables.
@@ -285,6 +287,17 @@ and instead rely more on soft counters and discard effects or Veil of Summer.
 The only card I would really advocate not skimping on is Cavern of Souls. This
 card single-handedly can enable a lot of wins in {U} matchups and thus is too
 good a tool to lose.
+
+### 16. I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
+
+The second Oracle (main or side) can have a number of uses. It helps increase
+resilience against effects like {{Extract}} when they are aggressively used,
+help give a *second attempt* vs. cards like {{Stifle}} on the Oracle's trigger.
+They can enable additional devotion count, allow blocking in a pinch with some
+filtering, provide extra tricks vs. mill effects like {{Ipnu Rivulet}} and act
+as a pseudo +2 to your {U} card count for Force of Will effects. Especially
+useful if you need to bring in Force of Negations and maximise the ability to
+use them.
 
 If you have any questions beyond what is listed here feel free to ask in the
 [Discord](https://discord.gg/vajvFXt) or email ddftwiki@gmail.com
