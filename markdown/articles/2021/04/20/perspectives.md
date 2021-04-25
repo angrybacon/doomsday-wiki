@@ -85,3 +85,18 @@ We knew card disadvantage from PT and LDV was bad.
 Wrong.
 We knew that you should only run one Oracle.
 Wrong.
+
+
+Scenario. Vs infect. They have trop, nexus tapped.
+You have , sea. You ponder see Doomsday, Force, 
+Ritual. Your hand is ritual, daze, brainstorm, edge, delta.
+
+
+What's the play? Brainstorm into the DD plus force then go off
+Edge into force and go off? 
+
+
+
+Post Doomsday Vs ur Delver. 
+You have one card left in library and cast oracle
+Off cavern. They bolt the oracle. What's the play? 
