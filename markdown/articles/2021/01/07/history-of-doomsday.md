@@ -994,10 +994,10 @@ quote from user Oddmtg sums up the day very well:
 
 What's important to note here is that at this point Emidln had a lot of irl
 stuff going on. Between work and family matters he had been able to devote less
-time to Legacy and the forum/archetype in general. Beause of my relative lack of
-commitments and my enthusiasm for the deck , I had stepped up to help moderate
-and subsequently administrate the forums. I was also now very active in the
-community online where possible and thus, when the ban hit, was one of the
+time to Legacy and the forum/archetype in general. Because of my relative lack
+of commitments and my enthusiasm for the deck , I had stepped up to help
+moderate and subsequently administrate the forums. I was also now very active in
+the community online where possible and thus, when the ban hit, was one of the
 forerunners in trying to piece the deck and the community back together.
 
 2017 post Top was quite a wild ride. People were trying all sorts of nonsense to
