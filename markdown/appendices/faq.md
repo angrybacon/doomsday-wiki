@@ -288,6 +288,18 @@ The only card I would really advocate not skimping on is Cavern of Souls. This
 card single-handedly can enable a lot of wins in {U} matchups and thus is too
 good a tool to lose.
 
+<deck path="meandeck.budget.txt" />
+
+**Access to {{Force of Will}}**  
+-2 Flusterstorm -2 Thoughtseize  
++4 Force of Will
+
+**Access to {{Underground Sea}}**  
+-1 Watery Grave  
++1 Underground Sea
+
+At 2 {{Underground Sea}}, {{Daze}} is unlocked as a reliable option.
+
 ### 16. I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
 
 The second Oracle (main or side) can have a number of uses. It helps increase
