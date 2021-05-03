@@ -51,7 +51,8 @@ For Paper Legacy that often involves Doomsday.
 
 ## Podcasts
 
-For podcasts with consistent Doomsday tags or specific episodes.
+For podcasts with consistent Doomsday tags or specific episodes.  
+Assume English unless specified otherwise.
 
 - [Legacy Breakfast](https://legacy-breakfast.com/tag/doomsday/)
 - [Eternal Central](https://www.eternalcentral.com/tag/doomsday/)
@@ -59,8 +60,10 @@ For podcasts with consistent Doomsday tags or specific episodes.
 
 ## Videos
 
-Videos from non-regular streamers or Doomsday content creators:
+Videos from non-regular streamers or Doomsday content creators:  
+Assume English unless specified otherwise.
 
+- [Video Primer/Deck Tech on the Deck (April 2021) - German](https://www.youtube.com/watch?v=R76tj2vwp34)
 - [Hellownewton runs a league with RomarioVidal Part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8&ab_channel=hello_newton)
 - [Hellownewton runs a league with RomarioVidal Part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo&ab_channel=hello_newton)
 - [Bryant Cook goes to the Dark side casting Doomsday for the first time (February 2021)](https://youtu.be/h1euGB8hQFM)
@@ -83,8 +86,11 @@ Silly or amusing clips from Twitch Streams.
 
 ## Other Articles
 
-Alternate writing on Doomsday from around the web.
+Alternate writing on Doomsday from around the web.  
+Assume English unless specified otherwise.
 
+- [Mini Blog Primer on the deck - Japanese](https://note.com/nao_ddft/n/ne45e19d345f9#xbjjD)
+- [Chinese Translation of "A Pretty Mean Deck" Article - Chinese](https://mp.weixin.qq.com/s?__biz=MzI5NjQzMzkyNA==&mid=2247485372&idx=1&sn=a1f902cbc2bfad9114d0c914f5956179&chksm=ec4527d7db32aec156f74862bc7ece396c59cd107f66e934e75bffd8ba0c7deeb63b19505962&xtrack=1&scene=0&subscene=90&sessionid=1596770673&clicktime=1596770677&enterid=1596770677&ascene=7&devicetype=android-28&version=2700103f&nettype=cmnet&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AxWxDJ1wuGO%2FeayyH%2BkaLzo%3D&pass_ticket=WPgneLqHtt1ItbbRqYQ5PVbUxRjeKTkLP%2BoSE5FBToXur0wzknSxEde4ASbY8LPP&wx_header=1)
 - [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
 - [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
 - [Maxtortion Writes about Esper Doomsday](https://minmaxblog.com/max-shows-off-esper-doomsday/)
