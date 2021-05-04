@@ -90,7 +90,7 @@ Alternate writing on Doomsday from around the web.
 Assume English unless specified otherwise.
 
 - [Mini Blog Primer on the deck - Japanese](https://note.com/nao_ddft/n/ne45e19d345f9#xbjjD)
-- [Chinese Translation of "A Pretty Mean Deck" Article - Chinese](https://mp.weixin.qq.com/s?__biz=MzI5NjQzMzkyNA==&mid=2247485372&idx=1&sn=a1f902cbc2bfad9114d0c914f5956179&chksm=ec4527d7db32aec156f74862bc7ece396c59cd107f66e934e75bffd8ba0c7deeb63b19505962&xtrack=1&scene=0&subscene=90&sessionid=1596770673&clicktime=1596770677&enterid=1596770677&ascene=7&devicetype=android-28&version=2700103f&nettype=cmnet&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AxWxDJ1wuGO%2FeayyH%2BkaLzo%3D&pass_ticket=WPgneLqHtt1ItbbRqYQ5PVbUxRjeKTkLP%2BoSE5FBToXur0wzknSxEde4ASbY8LPP&wx_header=1)
+- [Chinese Translation of "A Pretty Mean Deck" Article - Chinese](https://mp.weixin.qq.com/s?__biz=MzI5NjQzMzkyNA==&mid=2247485372&idx=1&sn=a1f902cbc2bfad9114d0c914f5956179)
 - [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
 - [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
 - [Maxtortion Writes about Esper Doomsday](https://minmaxblog.com/max-shows-off-esper-doomsday/)
