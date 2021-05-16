@@ -63,6 +63,7 @@ Assume English unless specified otherwise.
 Videos from non-regular streamers or Doomsday content creators:  
 Assume English unless specified otherwise.
 
+- [Nevilshute Provides a Video Primer on the Deck (May 2021)](https://www.youtube.com/watch?v=Js6hJ_4K5CU)
 - [Video Primer/Deck Tech on the Deck (April 2021) - German](https://www.youtube.com/watch?v=R76tj2vwp34)
 - [Hellownewton runs a league with RomarioVidal Part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8&ab_channel=hello_newton)
 - [Hellownewton runs a league with RomarioVidal Part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo&ab_channel=hello_newton)
@@ -89,6 +90,8 @@ Silly or amusing clips from Twitch Streams.
 Alternate writing on Doomsday from around the web.  
 Assume English unless specified otherwise.
 
+- [Article on Vintage Doomsday by Suzuki Yuuto - Japanese](https://note.com/unbangush/n/n6e509434ef9c)
+- [Vintage Articles for Vintage Doomsday by Revenantkioku](https://oraclesofthecoast.com/)
 - [Mini Blog Primer on the deck - Japanese](https://note.com/nao_ddft/n/ne45e19d345f9#xbjjD)
 - [Chinese Translation of "A Pretty Mean Deck" Article - Chinese](https://mp.weixin.qq.com/s?__biz=MzI5NjQzMzkyNA==&mid=2247485372&idx=1&sn=a1f902cbc2bfad9114d0c914f5956179)
 - [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
