@@ -100,3 +100,12 @@ Edge into force and go off?
 Post Doomsday Vs ur Delver. 
 You have one card left in library and cast oracle
 Off cavern. They bolt the oracle. What's the play? 
+
+"Guys i am very new to doomsday, what is the ideal pile if you are gonna go t1 dark ritual into doomsday?"
+-Darthdog
+
+"What is the best list/default list/best style?"
+-Many people over time
+Is an impossible question
+
+- Why is it impossible to answer such simple generic questions with the deck.
