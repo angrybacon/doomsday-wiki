@@ -10,18 +10,20 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown, getArticles, getMarkdown } from '@/tools/markdown';
 
 const ArticlePage: NextPage<Markdown> = ({ content }) => (
-  <Layout>
+  <>
     <Head>
       <title>Article</title>
     </Head>
-    <Grid container spacing={2}>
-      <Grid item xs={12}>
-        <Card>
-          <CardContent children={content} component={ReactMarkdown} />
-        </Card>
+    <Layout>
+      <Grid container spacing={2}>
+        <Grid item xs={12}>
+          <Card>
+            <CardContent children={content} component={ReactMarkdown} />
+          </Card>
+        </Grid>
       </Grid>
-    </Grid>
-  </Layout>
+    </Layout>
+  </>
 );
 
 export const getStaticPaths: GetStaticPaths = async () => {
