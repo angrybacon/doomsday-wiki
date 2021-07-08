@@ -19,9 +19,9 @@ which will cover cards that don't fit nicely into the others.
 
 ## Fighting through Countermagic
 
-Throughought the history of Legacy, roughly 50% of decks at any given time have
+Throughought the history of Legacy, roughly 30-50% of decks at any given time have
 played the card Force of Will. Countermagic is the most common type of
-interaction/hate your opponent will have for you, and so you must be prepared to
+interaction/hate your opponent will have for you in game 1, and so you must be prepared to
 play against it. Due to how common countermagic is, the deck is well prepared
 for the fight.
 
@@ -124,7 +124,7 @@ This is similar to some Echo pile examples, except it is presented as a
 pass-the-turn pile. It doesn't matter if they hit you with discard, since you
 want the Echo in your graveyard anyway and the other card in hand doesn't
 matter. You'll untap, draw LED, flashback Echo, and win with Oracle. Note too
-the order of the pile here. It actually matters, since if something happens nad
+the order of the pile here. It actually matters, since if something happens and
 you can't Echo, you may still be able to win by simply passing a few more turns
 before you play Oracle.
 
@@ -201,7 +201,7 @@ this one before.
 
 Echo piles can win with Tendrils without ever casting a 1-cost spell.
 
-> BW, LED in hand - {B}{B}{B} + {1}{R}, 12 - 9 Storm
+> BW, LED in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!SW}} {{!BW}}</row>
 
@@ -288,7 +288,7 @@ proposition. But the pile is there, so you should know about it.
 
 Playing through {{Counterbalance}} is not easy. Using a normal decklist, in Game
 1 there is no "standard" way of getting through it. If you can resolve a Veil of
-Summer that will certainly work, but most Counerbalance players will try to keep
+Summer that will certainly work, but most Counterbalance players will try to keep
 a 1-cost card on top of their deck as much as possible so this can prove
 difficult. Natural Storm can also be effective. Sometimes you can convince a
 Counterbalance player to cast spells to change the cost of their top card,
@@ -345,9 +345,9 @@ is bad timing, i.e you set up for a certain type of kill, and Mage comes down
 and ruins it just before you would try to go off. Now your ability to shift
 gears may be limited, making it harder to recover.
 
-### Ashiok, Dream Render/Leonin Arbiter/Aven Mindcensor
+### Opposition Agent/Ashiok, Dream Render/similar others
 
-These are 3 fringe-playable cards that all have the effect of preventing you
+These are relatively rare cards that all have the effect of preventing you
 from searching your library. This obviously turns off Doomsday, but you can
 potentially win with a non-Doomsday storm kill. Ashiok will remove your
 graveyard as well, but the other 2 let you search it with Doomsday, meaning you
@@ -398,13 +398,39 @@ The takeaway here is that the instant speed draw of Brainstorm lets you get the
 one card you absolutely need, and the order of the rest of the pile doesn't
 matter.
 
+### Endurance
+
+A new card of 2021 that is seeing a lot of play, both in blue decks and non-blue decks. It can ruin Oracle piles for 0 mana
+and has proven troublesome for many Doomsday players. If you walk into it, you're liable to get completely blown out. However, DDFT
+can play around it much more easily than other Domsday variants by not using Oracle. Endurance will have no effect on a typical
+Storm kill pile. Echo piles can also be used to dodge Endurance, though care must be taken not to put more than 2 cards back into
+your graveyard.
+
+> LED, Echo in hand - BBB
+
+<row variant="pile">{{!LP}} {{!LP}} {{!SW}} {{!SW}} {{!TO}}</row>
+
+This is a simple Echo pile setup that leaves no cards in grave or deck after casting Echo. If you only crack 2 petals to cast Oracle, then
+you'll win even if they have endurance. If they have Endurance plus removal, you can cycle the Wraiths after Endurance to draw the 2 remaining cards.
+
+This principal can be applied to non-Echo piles as well. The following pass-the-turn pile can beat an Endurance without giving your opponent a fresh hand.
+
+> UUU (lands only!), 2 life
+
+<row variant="pile">{{!IU}} {{!Island}} {{!TO}} {{!SW}} {{!Island}}</row>
+
+After your draw step give you IU, you cast it to draw Oracle, land, and a Street Wraith. At this point, Doomsday and IU are in your graveyard and there's
+1 card left in your deck (the actual card you put in the pile here doesn't matter). Play the Island and cast TO. If they respond with Endurance, you can se Street Wraith to draw 1 of the 3 cards after it resolves to leave only 2 in library for the Oracle trigger. 
+
+You can also beat Endurance by passing multiple turns after Doomsday and making land drops to have mana for Oracle that doesn't put cards in the graveyard.
+
 ### Various Other Graveyard Hate
 
-Graveyard hate is not particularly effective against DDFT. Only Echo of Eons is
+Graveyard hate generally is not all that effective against DDFT. Only Echo of Eons is
 at all affected as a gameplan, and against a card like Tormod's Crypt proper
 sequencing will let you Echo through it anyway. Cabal Ritual has reduced
 effectiveness against some grave hate, but it's still at least +1 mana no matter
-what. The one way you can get into a bit of trouble is if they have exiling
+what. One way you can get into a bit of trouble is if they have exiling
 grave hate like {{Leyline of the Void}} and discard, and manage to exile the
 cards you need in your pile. This sort of situation is so rare that it frankly
 isn't worth worrying too much about.

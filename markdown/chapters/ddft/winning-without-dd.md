@@ -23,7 +23,7 @@ Empty the Warrens as an alternative win condition is the most straightforward
 way of winning without Doomsday. You can easily make 10 or more goblins, and do
 so as early as the first turn. Typically you'll want to do this early in the
 game before your opponent establishes a board presence, but it can still be
-effective later on aggainst threat-light decks like Delver. Consider the
+effective later on depending on the matchup. Consider the
 following hand:
 
 <row variant="hand">{{!DR}} {{!VoS}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
@@ -33,7 +33,7 @@ Ritual. Cast Burning Wish holding priority, and crack the LED for {R}{R}{R}.
 Along with the {B}{B} leftover from the Ritual, you have enough to cast Empty
 the Warrens to make 14 Goblins. Killing like this is extremely simple, but do
 not underestimate its effectiveness. In fact, if your hand looked like this on
-turn 1, you should seriously consider skipping the Veil and jamming Empty the
+turn 1, you should at least3 consider skipping the Veil and jamming Empty the
 Warrens immediately, even if you don't know what your opponent is playing. Early
 in the game, most decks will simply not be able to handle that many goblins.
 Other combo decks may be able to race goblins, and decks with Stoneforge Mystic
@@ -43,14 +43,14 @@ looking to make more than 10 goblins, as few as 8 can be sufficient against some
 decks. You should also note that Wish for Empty can play through a Chalice of
 the Void on 1 relatively easily, with a couple Petals or LEDs.
 
-It is common to play multiple copies of Empty in your sideboard, for the purpose
+You can consider playing multiple copies of Empty in your sideboard, for the purpose
 of bringing a few copies in. Naturally drawing and casting Empty the Warrens,
 rather than Wishing for it, is a great tool against blue decks. Force of Will
 and Daze lose effectiveness against a storm spell cast from hand, since even if
 they can counter 1 or 2 copies, you can still have 5 more. Empties are also
 reasonable in multiples against blue decks. You can make a small goblins horde,
 perhaps as few as 6, with relatively low resource input. Your opponent then
-needs to spend resources to deal with the tokes, while you get in a bit of
+needs to spend resources to deal with the tokens, while you get in a bit of
 damage and build up to another Empty. In this way, you can grind out slow
 control decks, perhaps finishing them off with a small Tendrils or Grapeshot if
 they deal with the second goblin army.
@@ -77,13 +77,13 @@ Consider the following situation, where your opening 7 looks like this:
 
 <row variant="hand">{{!LED}} {{!LED}} {{!ST}} {{!LP}} {{!I}} {{!EoE}} {{!ST}}</row>
 
-You should strongly consider spinning the wheel on that Echo right away. A fresh
-hand with 5 mana available is very strong, and that hand isn't likelyto get
-better. Crack the LEDs for {U}{U}{U}{B}{B}{B}. Don't crack the Scalding Tarn,
+This is likely a keep and you should strongly consider spinning the wheel on that Echo right away. A fresh
+hand with 5 mana available is very strong, and that hand isn't likely to get
+better soon. Crack the LEDs for {U}{U}{U}{B}{B}{B}. Don't crack the Scalding Tarn,
 since you will want to know what's in your new hand before you decide what land
 to fetch.
 
-An important thing to keep in mind, on which has been alluded to but mostly
+An important thing to keep in mind, one which has been alluded to but mostly
 glossed over so far, is that Echo draws your opponent a new hand, and recycles
 all their countermagic that you already fought through. They won't always draw
 relevant cards, but you should anticiapte them having something. Sometimes there
@@ -93,9 +93,14 @@ worry much at all. If you draw discard/Veil in your new 7, cast it first
 whenever possible. You can sometimes use extra mana-prodcing spells to bait
 countermagic if you sequence them in such a way as to tempt your opponent.
 
-The other reasonable candidate for an alternative storm engine is {{Past in
+Another common alternative storm engine is Peer into the Abyss. Again, usage is pretty straightforward.
+Make a bunch of mana, Wish for Peer, and cast it. Whiffing will be rare from this point, and you can choose to win any number of ways
+depending on what you daw. Peer does require a substantial upfront mana investment, but for the price it has a much higher rate of success than
+Echo of Eons.
+
+The only other reasonable candidate for an alternative storm engine is {{Past in
 Flames}}. This is a much less common sideboard choice these days, since it is
-clumsier than Echo of Eons, but it's worth mention. We won't go too in depth
+clumsier than Peer or Echo, but it's worth a mention. We won't go too in depth
 here, since there are plenty of ANT guides out there that address ts use.
 Instead we will again focus on the caveats of using Past in Flames in this deck.
 
@@ -187,7 +192,7 @@ Thassa's Oracle and Street Wraith(s). These creatures can attack, and very
 rarely they can outright win the game. Slightly more commonly, they can do 2-6
 damage and put your opponent in range of a small Tendrils.
 
-People have tried various creature plans from the sideboard, including but no
+People have tried various creature plans from the sideboard, including but not
 limited to {{Young Pyromancer}}, {{Monastery Mentor}} and {{Dark Confidant}}. In
 this case winning with creature beatdown can become a more viable plan (although
 Confidant is typically seen as a card advantage engine first and a beater

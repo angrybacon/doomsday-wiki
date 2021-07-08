@@ -42,7 +42,7 @@ pile, swapping it for additional mana.
 
 You can see that this not only decreases the total cost of the pile by 1 mana,
 but also drastically reduces the amount blue mana needed. This is useful, since
-it lets Brainstorm act almost likea ritual, *producing* {U}{U} mana for Ideas
+it lets Brainstorm act almost like a ritual, effectively *producing* {U}{U} mana for Ideas
 Unbound. It also increases the storm by 1 compared to the basic pile, since you
 get an extra spell in the pile.
 

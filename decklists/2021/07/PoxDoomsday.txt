@@ -1,0 +1,31 @@
+4 Doomsday
+4 Dark Ritual
+1 Unearth
+1 Thassa's Oracle
+1 Night's Whisper
+1 Discovery/Dispersal
+1 Street Wraith
+1 Lion's Eye Diamond
+2 Innocent Blood
+2 Eliminate
+4 Thoughtseize
+4 Hymn to Tourach
+3 Liliana of the Veil
+2 Cursed Scroll
+4 Ashiok, Dream Render
+
+15 Swamp
+1 Tomb of Urami
+4 Urborg, Tomb of Yawgmoth
+4 Mishra's Factory
+1 Cabal Pit
+
+Sideboard
+1 Fatal Push
+2 Pithing Needle
+2 Night of Souls' Betrayal
+2 Surgical Extraction
+2 Massacre
+2 Relic of Progenitus
+2 Duress
+2 Ensaring Bridge

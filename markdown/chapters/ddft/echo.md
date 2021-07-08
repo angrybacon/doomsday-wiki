@@ -4,7 +4,7 @@ title: Using Echo of Eons in Piles
 ---
 
 Echo of Eons is a recent additional to the DDFT arsenal, and is quite powerful
-and flexible. A deck the The Epic Storm uses it as an alternative storm engine,
+and flexible. A deck like the The Epic Storm uses it as an alternative storm engine,
 and while we can use it that way too, it has some very interesting applications
 in Doomsday piles. If you're an {{Old Fogey}} when it comes to Doomsday, you may
 see some similarities between the piles presented here and the {{Time Spiral}}
@@ -39,8 +39,8 @@ graveyard.
 7. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
    opponent
 
-This pile is rather striking if you ask me. It is elegant, efficient, and
-flashy. You need 2 rather specific cards in hand but the upfront mana cost is
+This pile is rather elegant if you ask me. It's mana efficient, and also
+flashy, which is appealing. You need 2 rather specific cards in hand but the upfront mana cost is
 merely the price of Doomsday, and it generates all 10 storm on its own. The most
 glaring downside of this pile, something it shares with all Echo piles, is that
 your opponent also draws a fresh hand, meaning they can draw all manner of nasty
@@ -141,7 +141,7 @@ again and have plenty of storm for a lethal Tendrils the next time around.
 
 ## Conclusion
 
-1. Echo makes enables some extremely cheap piles that generate high storm
+1. Echo enables some extremely mana-efficient piles that generate high storm
    counts.
 2. Some Echo piles are nondeterministic out of necessity, but don't let this
    scare you off. They typically still have a high probability of working.
