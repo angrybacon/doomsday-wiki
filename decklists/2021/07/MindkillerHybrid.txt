@@ -27,7 +27,8 @@ Sideboard
 1 Doomsday
 1 Tendrils of Agony
 1 Peer into the Abyss
-3 Abrupt Decay
+2 Abrupt Decay
+1 Galvanic Relay
 1 Rip Apart
 1 Infernal Contract
 1 Grapeshot
