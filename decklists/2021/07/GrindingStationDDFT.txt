@@ -1,18 +1,17 @@
 3 Tendrils of Agony
-1 Cruel Bargain
+2 Cruel Bargain
 2 Infernal Contract
-1 Night's Whisper
+1 Ideas Unbound
 4 Doomsday
 1 Street Wraith
 1 Edge of Autumn
 1 Thassa's Oracle
 4 Ponder
 4 Brainstorm
-3 Duress
-3 Veil of Summer
+2 Preordain
+4 Veil of Summer
 4 Dark Ritual
 4 Cabal Ritual
-1 Rain of Filth
 4 Lotus Petal
 4 Lion's Eye Diamond
 
