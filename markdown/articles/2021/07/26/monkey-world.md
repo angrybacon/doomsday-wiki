@@ -29,7 +29,7 @@ deck by deck.
 
 Additions:
 
-<row variant="hand">{{!Ragavan, Nimble Pilferer}} {{!Dragon's Rage Channeler}} {{!Murktide Regent}}</row>
+<row variant="centered">{{!Ragavan, Nimble Pilferer}} {{!Dragon's Rage Channeler}} {{!Murktide Regent}}</row>
 
 {U}{R} was already the main Delver variant after Strixhaven, and these 3 new
 threats cemented that even further.
@@ -79,7 +79,7 @@ changed the matchup a lot.
 
 Additions:
 
-<row variant="hand"> {{!Endurance}} {{!Prismatic Ending}}</row>
+<row variant="centered">{{!Endurance}} {{!Prismatic Ending}}</row>
 
 There is only one real control deck left, Bant Miracles.  
 The control decks were never a real problem for us. We always had very good
@@ -101,7 +101,7 @@ since they play Endurance in their main deck anyway.
 
 Additions:
 
-<row variant="hand">{{!Endurance}} {{!Grist, the Hunger Tide}}</row>
+<row variant="centered">{{!Endurance}} {{!Grist, the Hunger Tide}}</row>
 
 In the past Elves was a very favorable match up for us, we were able to just
 slam and win in the next or same turn, but sadly they now have an answer post
@@ -118,36 +118,36 @@ post Doomsday, if we go for a pas the turn pile.
 
 Additions:
 
-<row variant="hand">{{!Endurance}} {{!Yavimaya, Cradle of Growth}}</row>
+<row variant="centered">{{!Endurance}} {{!Yavimaya, Cradle of Growth}}</row>
 
-{{Yavimaya, Gradle of Growth}} gave a huge boost to this kind of deck,
+{{Yavimaya, Cradle of Growth}} gave a huge boost to this kind of deck,
 especially GW Depths. GW Depths got a lot faster and is probably the premiere
 Depths deck right now. Endurance is also an issue in this match up, but at least
 they cannot protect it.
 
 ### Death and Taxes
 
-Additions:
+Addition:
 
-<row variant="hand">{{!Kaldra Compleat}}</row>
+<row variant="centered">{{!Kaldra Compleat}}</row>
 
 Death and Taxes had always an awful match up against us and it stays this way,
 but be careful with slow piles as {{Kaldra Compleat}} gives haste.
 
 ### Cloudpost
 
-Additions:
+Addition:
 
-<row variant="hand">{{!Endurance}}</row>
+<row variant="centered">{{!Endurance}}</row>
 
 Cloudpost is still a *free win* win for us, but as always with green decks since
 MH2, play around Endurance.
 
 ### Show and Tell Variants
 
-Additions:
+Addition:
 
-<row variant="hand">{{!Ragavan, Nimble Pilferer}}</row>
+<row variant="centered">{{!Ragavan, Nimble Pilferer}}</row>
 
 {U}{R} Sneak and Show plays some number of Ragavan, Nimble Pilferer in the
 sideboard, so be careful in Game 2 and 3, but it is not as scary as in {U}{R}
@@ -161,7 +161,7 @@ strongest post MH2, but still a pretty even match up.
 
 Additions:
 
-<row variant="hand">{{!Endurance}} {{!Urza's Saga}}</row>
+<row variant="centered">{{!Endurance}} {{!Urza's Saga}}</row>
 
 Lands was a very good match up for us, but it could get very tricky. We had
 build piles to play around all sorts of mana taxing hate like Sphere of
@@ -178,7 +178,7 @@ It is still a good match up but it got a bit worse, like most.
 
 Additions:
 
-<row variant="hand">{{!Ragavan, Nimble Pilferer}} {{!Urza's Saga}}</row>
+<row variant="centered">{{!Ragavan, Nimble Pilferer}} {{!Urza's Saga}}</row>
 
 This new iteration of {{Standstill}} decks took the metagame by storm, it is
 just behind Delver as the number 1 contender for best deck of the format.
@@ -195,9 +195,9 @@ Ragavan. But be careful, they play Stifle!
 
 ### Madness
 
-Additions:
+Addition:
 
-<row variant="hand">{{!Blazing Rootwalla}}</row>
+<row variant="centered">{{!Blazing Rootwalla}}</row>
 
 Madness is a new a deck, similar to HogaakVine in Vintage. It has some really
 explosive first turns and most graveyard hate is only relevant in longer games,
@@ -322,4 +322,4 @@ further.
 See ya the next time,  
 OtterLady!
 
-<row variant="hand">{{!Lutri, the Spellchaser}}</row> 
+<row variant="centered">{{!Lutri, the Spellchaser}}</row>
