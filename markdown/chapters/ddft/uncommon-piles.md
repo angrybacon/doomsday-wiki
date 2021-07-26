@@ -20,9 +20,9 @@ get an extra turn and can attack to obliterate your opponent's board.
 This tech was extremely popular during the height of Miracles' power, since it
 was immune to counterspells after Doomsday resolved. Blue mages would try to
 trap you by letting Doomsday resolve, and you could slow-roll out an
-uncounterable Eldrazi to punish them. It fell out of favor over the past couple years
-but 2021 is seeing it have a bit of a rennaissance in Meandeck, where it is being used to beat Endurance 
-out of Bant Control decks.
+uncounterable Eldrazi to punish them. It fell out of favor over the past couple
+years but 2021 is seeing it have a bit of a rennaissance in Meandeck, where it
+is being used to beat Endurance out of Bant Control decks.
 
 A simple version of the pile looks like this:
 
@@ -144,9 +144,12 @@ cards to your deck so you have time to make a lethal attack.
 
 ## Spoils of the Vault Piles
 
-Spoils of the Vault has interesting applications in piles. While somewhat of an uncommon card choice,
-Mindkiller Doomsday plays it in multiples and it occasionally appears as a singleton in otherwise normal
-DDFT lists. It's good to know the types of things it can do. Some of this is also discussed in the [original article](https://ddft.wiki/articles/2020/03/21/the-mindkiller/) about Mindkiller Doomsday, but is included here for the sake of completeness.
+Spoils of the Vault has interesting applications in piles. While somewhat of an
+uncommon card choice, Mindkiller Doomsday plays it in multiples and it
+occasionally appears as a singleton in otherwise normal DDFT lists. It's good to
+know the types of things it can do. Some of this is also discussed in the
+[original article](/articles/2020/03/21/the-mindkiller/) about
+Mindkiller Doomsday, but is included here for the sake of completeness.
 
 ### Example 1
 
@@ -154,10 +157,13 @@ DDFT lists. It's good to know the types of things it can do. Some of this is als
 
 <row variant="pile">{{!SotV}}, {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
 
-For this pass-the-turn pile, you draw Spoils, cast it and name Oracle, then cast Oracle. Simple as that. The 3 cards in the middle of the pile
-can be anything, but ideally should be something that can win the game the next turn if Spoils was countered. It can be used to beat a wide variety of hate,
-such as Mindbreak Trap, Deafening Silence, Endurance, Narset and Leovold, etc., and can play through a Thalia for minimal additional mana. What is more, it
-leaves you with an empty library so removal is ineffective. 
+For this pass-the-turn pile, you draw Spoils, cast it and name Oracle, then cast
+Oracle. Simple as that. The 3 cards in the middle of the pile can be anything,
+but ideally should be something that can win the game the next turn if Spoils
+was countered. It can be used to beat a wide variety of hate, such as Mindbreak
+Trap, Deafening Silence, Endurance, Narset and Leovold, etc., and can play
+through a Thalia for minimal additional mana. What is more, it leaves you with
+an empty library so removal is ineffective.
 
 ### Example 2
 
@@ -165,12 +171,16 @@ leaves you with an empty library so removal is ineffective.
 
 <row variant="pile">{{!LED}}{{!LP}}{{!SotV}}{{!I}}{{!TO}}</row>
 
-This is similar to some of the piles in the Brainstorm chapter, but Spoils lets you win without leaving cards left in your deck, whereas that would be impossible without it. 
+This is similar to some of the piles in the Brainstorm chapter, but Spoils lets
+you win without leaving cards left in your deck, whereas that would be
+impossible without it.
 
 1. Cast Doomsday and build the above pile.
 2. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
-3. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for UUU
-4. Spoils will exile the 2 useless cards and the Island (or whatever you put there) and give you Oracle
+3. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for
+   UUU
+4. Spoils will exile the 2 useless cards and the Island (or whatever you put
+   there) and give you Oracle
 5. Cast Oracle to win with 0 cards left in library.
 
 
@@ -202,8 +212,10 @@ Spiral.
 
 ## Conclusion
 
-1. These piles will not come up in a typical game, so don't feel you need to memorize them.
-2. Many of these piles are high risk in some form or another. Don't be afraid
-   of this though. If one of these types of piles gives you a 10% chance to win,
+1. These piles will not come up in a typical game, so don't feel you need to
+   memorize them.
+2. Many of these piles are high risk in some form or another. Don't be afraid of
+   this though. If one of these types of piles gives you a 10% chance to win,
    that could be 10% more than any other option.
-3. Outside-the-box thinking can be valuable when building piles. Consider these piles your inspiration.
+3. Outside-the-box thinking can be valuable when building piles. Consider these
+   piles your inspiration.

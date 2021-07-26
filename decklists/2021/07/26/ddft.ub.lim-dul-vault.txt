@@ -1,4 +1,3 @@
-
 3 Tendrils of Agony
 2 Lim-Dûl's Vault
 2 Infernal Contract
@@ -33,4 +32,3 @@ Sideboard
 2 Hurkyl's Recall
 2 Defense Grid
 1 Devastation Tide
-
