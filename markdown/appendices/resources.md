@@ -36,6 +36,9 @@ out these channels:
 - Doishy:
   [Twitch](https://www.twitch.tv/doishy)
   [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)
+- Kai *Sawatarix* Sawatari:
+  [Twitch](https://www.twitch.tv/sawatarix)
+  [Youtube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg/featured)
 
 For Paper Legacy that often involves Doomsday.
 
@@ -63,8 +66,14 @@ Assume English unless specified otherwise.
 Videos from non-regular streamers or Doomsday content creators:  
 Assume English unless specified otherwise.
 
+- [MinT runs a league with Meandeck post MH2 (July 2021)](https://www.youtube.com/watch?v=Aidkv6ZH87A)
+- [Bryant Cook runs a league with the help of Wonderpreaux with Meandeck Doomsday (June 2021)](https://www.youtube.com/watch?v=PMqa-PoH57c)
+- [NathanLipetz runs a league with Meandeck (June 2021)](https://www.youtube.com/watch?v=BLubJad3Pnw)
+- [MrLee runs a league with Chain of Smog Doomsday (June 2021)](https://www.youtube.com/watch?v=kvUTvOye8uc)
 - [Nevilshute Provides a Video Primer on the Deck (May 2021)](https://www.youtube.com/watch?v=Js6hJ_4K5CU)
-- [Video Primer/Deck Tech on the Deck (April 2021) - German](https://www.youtube.com/watch?v=R76tj2vwp34)
+- [NathanLipetz runs a league with Meandeck helped by TheJigisAlwaysUp (April 2021)](https://www.youtube.com/watch?v=jKqj_6Z0mrQ&t=11s)
+- [Video Primer/Deck Tech on Meandeck Doomsday (April 2021) - German](https://www.youtube.com/watch?v=R76tj2vwp34)
+- [CalebD runs a league with Chain of Smog Doomsday (April 2021)](https://www.youtube.com/watch?v=9M0K1Z9bWM0)
 - [Hellownewton runs a league with RomarioVidal Part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8&ab_channel=hello_newton)
 - [Hellownewton runs a league with RomarioVidal Part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo&ab_channel=hello_newton)
 - [Bryant Cook goes to the Dark side casting Doomsday for the first time (February 2021)](https://youtu.be/h1euGB8hQFM)
