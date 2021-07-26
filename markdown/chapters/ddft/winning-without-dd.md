@@ -5,11 +5,11 @@ title: Winning Without Doomsday
 
 One advantage that DDFT has over other Doomsday variants is that it can reliably
 win without casting the namesake card, and can even do it quickly. This can be a
-big deal, since it means you have options. You don't fold to a single
-{{Surgical Extraction}} on the right card. You can win through a card like
-{{Ashiok, Dream Render}}, or go off all at once in the face of a
-{{Narset, Parter of Veils}}. You can pick the best combo engine for the
-situation and dodge the potential chokepoint that is the card Doomsday.
+big deal, since it means you have options. You don't fold to a single {{Surgical
+Extraction}} on the right card. You can win through a card like {{Ashiok, Dream
+Render}}, or go off all at once in the face of a {{Narset, Parter of Veils}}.
+You can pick the best combo engine for the situation and dodge the potential
+chokepoint that is the card Doomsday.
 
 There are 3 main categories of non-Doosmday wins and we will explore each of
 them. Winning without Doomsday is arguably less complicated than winning with
@@ -23,8 +23,7 @@ Empty the Warrens as an alternative win condition is the most straightforward
 way of winning without Doomsday. You can easily make 10 or more goblins, and do
 so as early as the first turn. Typically you'll want to do this early in the
 game before your opponent establishes a board presence, but it can still be
-effective later on depending on the matchup. Consider the
-following hand:
+effective later on depending on the matchup. Consider the following hand:
 
 <row variant="hand">{{!DR}} {{!VoS}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
 
@@ -43,14 +42,14 @@ looking to make more than 10 goblins, as few as 8 can be sufficient against some
 decks. You should also note that Wish for Empty can play through a Chalice of
 the Void on 1 relatively easily, with a couple Petals or LEDs.
 
-You can consider playing multiple copies of Empty in your sideboard, for the purpose
-of bringing a few copies in. Naturally drawing and casting Empty the Warrens,
-rather than Wishing for it, is a great tool against blue decks. Force of Will
-and Daze lose effectiveness against a storm spell cast from hand, since even if
-they can counter 1 or 2 copies, you can still have 5 more. Empties are also
-reasonable in multiples against blue decks. You can make a small goblins horde,
-perhaps as few as 6, with relatively low resource input. Your opponent then
-needs to spend resources to deal with the tokens, while you get in a bit of
+You can consider playing multiple copies of Empty in your sideboard, for the
+purpose of bringing a few copies in. Naturally drawing and casting Empty the
+Warrens, rather than Wishing for it, is a great tool against blue decks. Force
+of Will and Daze lose effectiveness against a storm spell cast from hand, since
+even if they can counter 1 or 2 copies, you can still have 5 more. Empties are
+also reasonable in multiples against blue decks. You can make a small goblins
+horde, perhaps as few as 6, with relatively low resource input. Your opponent
+then needs to spend resources to deal with the tokens, while you get in a bit of
 damage and build up to another Empty. In this way, you can grind out slow
 control decks, perhaps finishing them off with a small Tendrils or Grapeshot if
 they deal with the second goblin army.
@@ -77,11 +76,11 @@ Consider the following situation, where your opening 7 looks like this:
 
 <row variant="hand">{{!LED}} {{!LED}} {{!ST}} {{!LP}} {{!I}} {{!EoE}} {{!ST}}</row>
 
-This is likely a keep and you should strongly consider spinning the wheel on that Echo right away. A fresh
-hand with 5 mana available is very strong, and that hand isn't likely to get
-better soon. Crack the LEDs for {U}{U}{U}{B}{B}{B}. Don't crack the Scalding Tarn,
-since you will want to know what's in your new hand before you decide what land
-to fetch.
+This is likely a keep and you should strongly consider spinning the wheel on
+that Echo right away. A fresh hand with 5 mana available is very strong, and
+that hand isn't likely to get better soon. Crack the LEDs for
+{U}{U}{U}{B}{B}{B}. Don't crack the Scalding Tarn, since you will want to know
+what's in your new hand before you decide what land to fetch.
 
 An important thing to keep in mind, one which has been alluded to but mostly
 glossed over so far, is that Echo draws your opponent a new hand, and recycles
@@ -93,10 +92,12 @@ worry much at all. If you draw discard/Veil in your new 7, cast it first
 whenever possible. You can sometimes use extra mana-prodcing spells to bait
 countermagic if you sequence them in such a way as to tempt your opponent.
 
-Another common alternative storm engine is Peer into the Abyss. Again, usage is pretty straightforward.
-Make a bunch of mana, Wish for Peer, and cast it. Whiffing will be rare from this point, and you can choose to win any number of ways
-depending on what you daw. Peer does require a substantial upfront mana investment, but for the price it has a much higher rate of success than
-Echo of Eons.
+Another common alternative storm engine is Peer into the Abyss. Again, usage is
+pretty straightforward. Make a bunch of mana, Wish for Peer, and cast it.
+Whiffing will be rare from this point, and you can choose to win any number of
+ways depending on what you daw. Peer does require a substantial upfront mana
+investment, but for the price it has a much higher rate of success than Echo of
+Eons.
 
 The only other reasonable candidate for an alternative storm engine is {{Past in
 Flames}}. This is a much less common sideboard choice these days, since it is

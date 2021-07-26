@@ -7,9 +7,9 @@ The goal of all Magic decks is to win the game. Doomsday aims to do so by
 casting its namesake card and constructing a "pile" of 5 cards tailored to the
 current game state. While it would be nigh impossible to enumerate every game
 state and pile variation, we can definitely go over the basics. There are 2
-cards that we will typically be using in conjuction with Doomsday to actually bring about
-our opponent's demise: Tendrils of Agony (usually found via Burning Wish), and
-Thassa's Oracle.
+cards that we will typically be using in conjuction with Doomsday to actually
+bring about our opponent's demise: Tendrils of Agony (usually found via Burning
+Wish), and Thassa's Oracle.
 
 
 ## Basic Doomsday Piles
@@ -97,7 +97,8 @@ response to the first cantrip.
 3. Use the Petals to cast Thassa's Oracle
 4. Oracle triggers with no cards in library for the win.
 
-Oracle piles can be done with Infernal Contract as well, and cost 1 less mana than a Storm pile with Contract.
+Oracle piles can be done with Infernal Contract as well, and cost 1 less mana
+than a Storm pile with Contract.
 
 ### Double Cantrip Piles
 
@@ -167,9 +168,9 @@ deckbuilding choices in the most recent DDFT lists.
 That's it for the basic and most common piles. There are many variations of each
 pile and it doesn't really make sense to list them all. In each of the above
 piles you may replace one cantrip with another, you simply need the life or mana
-to use it. Also of note, the use of an on-board Conjurer's Bauble to draw into the piles
-allows for lower mana or life costs but does result in less Storm being
-generated during the play line.
+to use it. Also of note, the use of an on-board Conjurer's Bauble to draw into
+the piles allows for lower mana or life costs but does result in less Storm
+being generated during the play line.
 
 The most important part of learning how to cast Doomsday is to try not to think
 of the specifics too much. Try to break everything down into resources. The key
@@ -188,8 +189,9 @@ types of disruption.
 ## Conclusion
 
 1. You generally need a card that lets you draw most of your pile
-2. Lethal Storm via Tendrils of Agony and Thassa's Oracle triggers are the most common win conditions for the
-   deck. Each is best applied in different game scenarios which you'll learn with time.
+2. Lethal Storm via Tendrils of Agony and Thassa's Oracle triggers are the most
+   common win conditions for the deck. Each is best applied in different game
+   scenarios which you'll learn with time.
 3. Holding priority when cantripping with LED in play is key, make sure to get
    into this habit
 

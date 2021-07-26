@@ -33,4 +33,3 @@ Sideboard
 1 Infernal Contract
 1 Grapeshot
 4 Silence
-
