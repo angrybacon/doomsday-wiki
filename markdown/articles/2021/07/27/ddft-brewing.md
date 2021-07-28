@@ -101,8 +101,6 @@ that sometimes fell apart without any intervention from the opponent. Every time
 I had a cold streak with Spoils of the Vault, I would look for alternatives to
 it.
 
-> Preordain can't dig 15 cards for 1 mana
-
 <row variant="centered">{{!Plunge into Darkness}} {{!Gamble|USG}} {{!SotV}}</row>
 
 I tried replacing it with Preordain, I tried Plunge into Darkness, I tried
