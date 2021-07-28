@@ -345,9 +345,9 @@ is bad timing, i.e you set up for a certain type of kill, and Mage comes down
 and ruins it just before you would try to go off. Now your ability to shift
 gears may be limited, making it harder to recover.
 
-### Opposition Agent/Ashiok, Dream Render/similar others
+### Opposition Agent, Ashiok, and Friends
 
-These are relatively rare cards that all have the effect of preventing you from
+There are several cards of varying playability that all have the effect of preventing you from
 searching your library. This obviously turns off Doomsday, but you can
 potentially win with a non-Doomsday storm kill. Ashiok will remove your
 graveyard as well, but the other 2 let you search it with Doomsday, meaning you

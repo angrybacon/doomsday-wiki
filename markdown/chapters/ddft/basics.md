@@ -88,7 +88,7 @@ post-Doomsday, and results in 8 Storm. Like with Ideas Unbound, the mana cost
 for the Draw-4 can be - and often is - paid for by a Lion's Eye Diamond in
 response to the first cantrip.
 
-> Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 8 Storm
+> Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}
 
 <row variant="pile">{{!IC}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
 

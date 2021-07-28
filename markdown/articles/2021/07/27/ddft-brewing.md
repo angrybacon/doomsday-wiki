@@ -186,8 +186,8 @@ Now, this deck wasn't really that good, and the fact that I never finsihed a
 sideboard for it is somewhat telling. But it got me thinking about the power of
 Brainstorm, as both a setup spell and a Doomsday enabler. It's also quite good
 with multiple copies of Tendrils of Agony, since it frequently is worth 2 or 3
-Storm; cast spells, Brainstorm, draw 1-2 more castable spells, put back the
-Tendrils in your hand, then draw into it for lethal was a common play pattern.
+Storm; cast spells, Brainstorm, draw 1-2 more castable spells, put a Tendrils from your hand back into your library,
+then cantrip into it for lethal was a common play pattern.
 So I set about making a more stable, less all-in DDFT list with multiple
 maindeck Tendrils, and ended up on this:
 
@@ -259,7 +259,7 @@ casting it, and I settled on 2 copies, although 3 is also reasonable.
 I urge anyone who made it this far into the article to give this deck a shot. I
 promise it's better than it looks, and more people playing it means more people
 to help develop it. While I'm at it, I want to should out some people on the
-Doomsday discord who have contribted ideas that went into these decks.
+Doomsday discord who have contributed ideas that went into these decks.
 UnorthodoxBird, BluStalker, nottobay13, and Jens have all been active in playing
 and developing DDFT, and a few others pop by on occasion. The DDFT Cabal is
 always recruiting so come on by if any of these lists made your loins tingle.
