@@ -217,9 +217,9 @@ sideboard for it is somewhat telling. But it got me thinking about the power of
 Brainstorm, as both a setup spell and a Doomsday enabler. It's also quite good
 with multiple copies of Tendrils of Agony, since it frequently is worth 2 or 3
 Storm; cast spells, Brainstorm, draw 1-2 more castable spells, put back the
-Tendrils in your hand, then draw into it for lethal was a common play pattern.
-So I set about making a more stable, less all-in DDFT list with multiple
-maindeck Tendrils, and ended up on this:
+Tendrils in your library, then draw into it for lethal was a common play
+pattern. So I set about making a more stable, less all-in DDFT list with
+multiple maindeck Tendrils, and ended up on this:
 
 <deck path="2021/07/26/ddft.ubg.grinding.txt" />
 
