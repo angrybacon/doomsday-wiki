@@ -102,6 +102,7 @@ Assume English unless specified otherwise.
 - [Article on Vintage Doomsday by Suzuki Yuuto - Japanese](https://note.com/unbangush/n/n6e509434ef9c)
 - [Vintage Articles for Vintage Doomsday by Revenantkioku](https://oraclesofthecoast.com/)
 - [Mini Blog Primer on the deck - Japanese](https://note.com/nao_ddft/n/ne45e19d345f9)
+- [Chinese Translation of "A Pretty Mean Deck" Article - Chinese](https://mp.weixin.qq.com/s?__biz=MzI5NjQzMzkyNA==&mid=2247485372&idx=1&sn=a1f902cbc2bfad9114d0c914f5956179)
 - [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
 - [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
 - [Maxtortion Writes about Esper Doomsday](https://minmaxblog.com/max-shows-off-esper-doomsday/)
