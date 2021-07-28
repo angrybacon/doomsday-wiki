@@ -20,19 +20,19 @@ export default {
   },
   ddeft: {
     icon: <FlaskOutlineIcon />,
-    order: 1,
+    order: 2,
     subtitle: 'Experimental Frenzy',
     title: 'DDEFT',
   },
   ddft: {
     icon: <FlashIcon />,
-    order: 0,
+    order: 1,
     subtitle: 'Doomsday Fetchland Tendrils',
     title: 'DDFT',
   },
   meandeck: {
     icon: <EyeOutlineIcon />,
-    order: 2,
+    order: 0,
     subtitle: 'Force of Will Doomsday',
     title: 'Meandeck',
   },

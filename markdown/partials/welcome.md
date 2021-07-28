@@ -20,6 +20,12 @@ stuff, how to sequence your spells correctly, and so on.
 We have three main variants represented on here that you can access resources
 for on the left hand sidebar.
 
+**Meandeck Doomsday** is the primary deck variant that is having previously
+unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
+uses counter magic like Force of Will and Daze to play a controlling game before
+ending the game with Doomsday. The moniker *Meandeck* is explained in this
+article [here](/articles/2020/03/12/pretty-mean-deck/).
+
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
 have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
@@ -30,12 +36,6 @@ being able to run reactive counter magic.
 was the main variant available post Gitaxian Probe ban and pre-printing of
 Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
-
-**Meandeck Doomsday** is the primary deck variant that is having previously
-unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
-uses counter magic like Force of Will and Daze to play a controlling game before
-ending the game with Doomsday. The moniker *Meandeck* is explained in this
-article [here](/articles/2020/03/12/pretty-mean-deck/).
 
 If you are new to the archetype then please check out the [FAQs
 Appendix](/appendices/faq) for any initial queries you might have. Please peruse
