@@ -6,7 +6,7 @@ title: Pass-the-Turn Piles
 First of all, why would you ever want to cast Doomsday and then pass the turn?
 The answer is simple: when you can't win otherwise. It should be clear that
 pass-the-turn piles open you up to some risk by allowing the opponent to untap,
-but they can still be wuite powerful.
+but they can still be quite powerful.
 
 One of the main uses of pass-the-turn piles is to become immune to discard.
 Under the right conditions, you can cast Doomsday, pass, and untap with all the
@@ -47,6 +47,7 @@ chapter, simply using the draw step in place of a cantrip to draw into the pile.
 This is essentially the same pile as Example 1, but with Infernal Contract as
 the draw spell. It has a different cost, but it's worth noting that this could
 be paid with a Ritual, meaning fewer lands needed if the situation permits.
+
 Again, this pile is also presented as a same-turn pile in the first chapter, and
 here the draw step replaces a cantrip.
 
@@ -174,5 +175,5 @@ in hand or on board.
 5. Note that all of these piles can be used as same-turn piles, you simply need
    the extra resources to cast Doomsday and draw into your pile on the same
    turn.
-6. Don't put unecessarry cards in your deck just to enable some of these more
+6. Don't put unnecessary cards in your deck just to enable some of these more
    unusual pass-the-turn piles.
