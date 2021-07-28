@@ -12,7 +12,7 @@ ideas in case I find the next piece of sick tech. It's rare that this actually
 happens, but even failed brews can leave behind valuable morsels, which may with
 luck accumulate into something playable. So, dear reader, let me take you on a
 journey through the dark corners of the Doomsday Discord, where suboptimal decks
-skitter in the shadows, and the few remaining DDFT players, guant and starving,
+skitter in the shadows, and the few remaining DDFT players, gaunt and starving,
 make their home. We'll see some examples of failures, examine the useful scraps,
 and talk about what I think is the best list right now for someone who wants to
 play Doomsday and Tendrils of Agony in the same 75.
