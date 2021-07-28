@@ -21,7 +21,7 @@ This tech was extremely popular during the height of Miracles' power, since it
 was immune to counterspells after Doomsday resolved. Blue mages would try to
 trap you by letting Doomsday resolve, and you could slow-roll out an
 uncounterable Eldrazi to punish them. It fell out of favor over the past couple
-years but 2021 is seeing it have a bit of a rennaissance in Meandeck, where it
+years but 2021 is seeing a bit of a rennaissance in Meandeck, where it
 is being used to beat Endurance out of Bant Control decks.
 
 A simple version of the pile looks like this:
@@ -171,9 +171,9 @@ an empty library so removal is ineffective.
 
 <row variant="pile">{{!LED}}{{!LP}}{{!SotV}}{{!I}}{{!TO}}</row>
 
-This is similar to some of the piles in the Brainstorm chapter, but Spoils lets
-you win without leaving cards left in your deck, whereas that would be
-impossible without it.
+This is similar to some of the piles in the [Brainstorm
+chapter][ddft:brainstorm], but Spoils lets you win without leaving cards left in
+your deck, whereas that would be impossible without it.
 
 1. Cast Doomsday and build the above pile.
 2. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
@@ -183,6 +183,7 @@ impossible without it.
    there) and give you Oracle
 5. Cast Oracle to win with 0 cards left in library.
 
+[ddft:brainstorm]: /ddft/brainstorm/
 
 ## Time Spiral Piles
 

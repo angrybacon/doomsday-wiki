@@ -19,8 +19,8 @@ which will cover cards that don't fit nicely into the others.
 
 ## Fighting through Countermagic
 
-Throughought the history of Legacy, roughly 30-50% of decks at any given time
-have played the card Force of Will. Countermagic is the most common type of
+Throughout the history of Legacy, roughly 30-50% of decks at any given time have
+played the card {{Force of Will}}. Countermagic is the most common type of
 interaction/hate your opponent will have for you in game 1, and so you must be
 prepared to play against it. Due to how common countermagic is, the deck is well
 prepared for the fight.
@@ -71,7 +71,7 @@ What about something like Pyroblast? Ideas Unbound and Thassa's Oracle are both
 blue, so this poses some difficulty. Fortunately, the sideboard gives us some
 options to work with.
 
-> LED, BW in hand - {B}{B}{B} + {1}{R}, minimum 12 life pre-DD - 9 Storm
+> LED, BW in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
 
 <row variant="pile"> {{!LED}} {{!LED}} {{!LP}} {{!SW}} {{!BW}}</row>
 
@@ -286,8 +286,8 @@ proposition. But the pile is there, so you should know about it.
 
 ### Counterbalance
 
-Playing through {{Counterbalance}} is not easy. Using a normal decklist, in Game
-1 there is no "standard" way of getting through it. If you can resolve a Veil of
+Playing through {{Counterbalance}} is not easy. Using a normal decklist, in game
+1 there is no *standard* way of getting through it. If you can resolve a Veil of
 Summer that will certainly work, but most Counterbalance players will try to
 keep a 1-cost card on top of their deck as much as possible so this can prove
 difficult. Natural Storm can also be effective. Sometimes you can convince a
@@ -417,7 +417,7 @@ casting Echo. If you only crack 2 petals to cast Oracle, then you'll win even if
 they have endurance. If they have Endurance plus removal, you can cycle the
 Wraiths after Endurance to draw the 2 remaining cards.
 
-This principal can be applied to non-Echo piles as well. The following
+This principle can be applied to non-Echo piles as well. The following
 pass-the-turn pile can beat an Endurance without giving your opponent a fresh
 hand.
 
@@ -425,10 +425,10 @@ hand.
 
 <row variant="pile">{{!IU}} {{!Island}} {{!TO}} {{!SW}} {{!Island}}</row>
 
-After your draw step give you IU, you cast it to draw Oracle, land, and a Street
+After your draw step gives you IU, you cast it to draw land, Oracle and a Street
 Wraith. At this point, Doomsday and IU are in your graveyard and there's 1 card
 left in your deck (the actual card you put in the pile here doesn't matter).
-Play the Island and cast TO. If they respond with Endurance, you can se Street
+Play the Island and cast TO. If they respond with Endurance, you can use Street
 Wraith to draw 1 of the 3 cards after it resolves to leave only 2 in library for
 the Oracle trigger.
 
@@ -450,8 +450,8 @@ worrying too much about.
 
 1. There is very little hate that is completely unbeatable
 2. This does not mean that you can win from any situation. To beat some of the
-most hateful things your opponent can throw at you, you'll need plenty of time
-and mana and you won't always have that.
+   most hateful things your opponent can throw at you, you'll need plenty of
+   time and mana and you won't always have that.
 3. Play to your outs, even if the odds are very long.
 4. Thassa's Oracle is an extremely powerful addition to the deck and immensely
    useful for beating all kinds of hate.

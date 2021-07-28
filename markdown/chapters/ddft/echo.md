@@ -4,8 +4,8 @@ title: Using Echo of Eons in Piles
 ---
 
 Echo of Eons is a comparatively recent addition to the DDFT arsenal, and is
-quite powerful and flexible. A deck like the The Epic Storm uses it as an
-alternative storm engine, and while we can use it that way too, it has some very
+quite powerful and flexible. A deck like The Epic Storm uses it as an
+alternative Storm engine, and while we can use it that way too, it has some very
 interesting applications in Doomsday piles. If you're an {{Old Fogey}} when it
 comes to Doomsday, you may see some similarities between the piles presented
 here and the {{Time Spiral}} piles of yore.

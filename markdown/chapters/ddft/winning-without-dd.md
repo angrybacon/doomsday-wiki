@@ -32,7 +32,7 @@ Ritual. Cast Burning Wish holding priority, and crack the LED for {R}{R}{R}.
 Along with the {B}{B} leftover from the Ritual, you have enough to cast Empty
 the Warrens to make 14 Goblins. Killing like this is extremely simple, but do
 not underestimate its effectiveness. In fact, if your hand looked like this on
-turn 1, you should at least3 consider skipping the Veil and jamming Empty the
+turn 1, you should at least consider skipping the Veil and jamming Empty the
 Warrens immediately, even if you don't know what your opponent is playing. Early
 in the game, most decks will simply not be able to handle that many goblins.
 Other combo decks may be able to race goblins, and decks with Stoneforge Mystic
@@ -47,7 +47,7 @@ purpose of bringing a few copies in. Naturally drawing and casting Empty the
 Warrens, rather than Wishing for it, is a great tool against blue decks. Force
 of Will and Daze lose effectiveness against a storm spell cast from hand, since
 even if they can counter 1 or 2 copies, you can still have 5 more. Empties are
-also reasonable in multiples against blue decks. You can make a small goblins
+also reasonable in multiples against blue decks. You can make a small goblin
 horde, perhaps as few as 6, with relatively low resource input. Your opponent
 then needs to spend resources to deal with the tokens, while you get in a bit of
 damage and build up to another Empty. In this way, you can grind out slow
@@ -85,24 +85,24 @@ what's in your new hand before you decide what land to fetch.
 An important thing to keep in mind, one which has been alluded to but mostly
 glossed over so far, is that Echo draws your opponent a new hand, and recycles
 all their countermagic that you already fought through. They won't always draw
-relevant cards, but you should anticiapte them having something. Sometimes there
+relevant cards, but you should anticipate them having something. Sometimes there
 isn't anything you can do about it, and you just need to spin the wheel.
 Sometimes you can resolve a {{Veil of Summer}} before Echo and you won't need to
 worry much at all. If you draw discard/Veil in your new 7, cast it first
 whenever possible. You can sometimes use extra mana-prodcing spells to bait
 countermagic if you sequence them in such a way as to tempt your opponent.
 
-Another common alternative storm engine is Peer into the Abyss. Again, usage is
-pretty straightforward. Make a bunch of mana, Wish for Peer, and cast it.
+Another common alternative Storm engine is {{Peer into the Abyss}}. Again, usage
+is pretty straightforward. Make a bunch of mana, wish for Peer, and cast it.
 Whiffing will be rare from this point, and you can choose to win any number of
-ways depending on what you daw. Peer does require a substantial upfront mana
+ways depending on what you draw. Peer does require a substantial upfront mana
 investment, but for the price it has a much higher rate of success than Echo of
 Eons.
 
-The only other reasonable candidate for an alternative storm engine is {{Past in
+The only other reasonable candidate for an alternative Storm engine is {{Past in
 Flames}}. This is a much less common sideboard choice these days, since it is
 clumsier than Peer or Echo, but it's worth a mention. We won't go too in depth
-here, since there are plenty of ANT guides out there that address ts use.
+here, since there are plenty of ANT guides out there that address its use.
 Instead we will again focus on the caveats of using Past in Flames in this deck.
 
 The first and most important is that Burning Wish exiles itself upon resolution.
