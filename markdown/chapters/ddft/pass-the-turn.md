@@ -5,8 +5,8 @@ title: Pass-the-Turn Piles
 
 First of all, why would you ever want to cast Doomsday and then pass the turn?
 The answer is simple: when you can't win otherwise. It should be clear that
-pass-the-turn piles are rarely a desirable plan as there are significant risks
-involved in paying half your life and saying "Go."
+pass-the-turn piles open you up to some risk by allowing the opponent to untap,
+but they can still be quite powerful.
 
 One of the main uses of pass-the-turn piles is to become immune to discard.
 Under the right conditions, you can cast Doomsday, pass, and untap with all the
@@ -34,7 +34,9 @@ Let's look at some basic examples.
 Imagine you have an Island and and Underground Sea on board, Dark Ritual and
 Doomsday in hand. You can Ritual into Doomsday, pass the turn, and win with a
 mere 2 blue mana and 2 life when you untap. In fact you could conceivably cast
-Doomsday on turn 1, and make your second land drop to generate {U}{U}.
+Doomsday on turn 1, and make your second land drop to generate {U}{U}. You may
+notice that this is identical to the basic Oracle pile presented in the first
+chapter, simply using the draw step in place of a cantrip to draw into the pile.
 
 ### Example 2
 
@@ -46,9 +48,12 @@ This is essentially the same pile as Example 1, but with Infernal Contract as
 the draw spell. It has a different cost, but it's worth noting that this could
 be paid with a Ritual, meaning fewer lands needed if the situation permits.
 
+Again, this pile is also presented as a same-turn pile in the first chapter, and
+here the draw step replaces a cantrip.
+
 ### Example 3
 
-> Lion's Eye Diamond on the board - {0}
+> Lion's Eye Diamond on the board - {0}, 2 life
 
 <row variant="pile">{{!SW}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -170,3 +175,5 @@ in hand or on board.
 5. Note that all of these piles can be used as same-turn piles, you simply need
    the extra resources to cast Doomsday and draw into your pile on the same
    turn.
+6. Don't put unnecessary cards in your deck just to enable some of these more
+   unusual pass-the-turn piles.

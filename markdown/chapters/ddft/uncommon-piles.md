@@ -20,10 +20,9 @@ get an extra turn and can attack to obliterate your opponent's board.
 This tech was extremely popular during the height of Miracles' power, since it
 was immune to counterspells after Doomsday resolved. Blue mages would try to
 trap you by letting Doomsday resolve, and you could slow-roll out an
-uncounterable Eldrazi to punish them. In the current metagame, there are not
-enough decks that are weak to this strategy to make it worth spending the
-sideboard slots, so it fell out of favor. It could certainly be a valid metagame
-choice depending on what decks you expect to face.
+uncounterable Eldrazi to punish them. It fell out of favor over the past couple
+years but 2021 is seeing a bit of a rennaissance in Meandeck, where it
+is being used to beat Endurance out of Bant Control decks.
 
 A simple version of the pile looks like this:
 
@@ -99,7 +98,7 @@ for example you got hit with Wasteland.
 
 How did you find yourself in this position? Maybe you cast Doomsday using Lotus
 Petal and Dark Ritual. Let's not think too hard about it. The point is that if
-you pass 2 turns, you can win from literally nothing.
+you pass 2 turns, you can win from literally nothing but a couple life.
 
 ### Example 3
 
@@ -120,7 +119,7 @@ the inclusion Thassa's Oracle, is nevertheless useful to know, since its
 execution requires no unusual cards. A situation could be contrived where this
 type of pile was a reasonable option though you are unlikely to encounter such a
 situation in the wild; for example, your opponent has a {{Leyline of sanctity}}
-and a {{Meddling Mage}} naming Thassa's Oracle
+and a {{Meddling Mage}} naming Thassa's Oracle.
 
 ### Example 1
 
@@ -142,6 +141,49 @@ they deal with your opponent.
 In this slightly more complicated variant, you use Doomsday to set up a pile
 that makes Goblins, and then the next turn you use another Doomsday to add more
 cards to your deck so you have time to make a lethal attack.
+
+## Spoils of the Vault Piles
+
+Spoils of the Vault has interesting applications in piles. While somewhat of an
+uncommon card choice, Mindkiller Doomsday plays it in multiples and it
+occasionally appears as a singleton in otherwise normal DDFT lists. It's good to
+know the types of things it can do. Some of this is also discussed in the
+[original article](/articles/2020/03/21/the-mindkiller/) about
+Mindkiller Doomsday, but is included here for the sake of completeness.
+
+### Example 1
+
+> {B}{U}{U}, 3 life
+
+<row variant="pile">{{!SotV}}, {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
+
+For this pass-the-turn pile, you draw Spoils, cast it and name Oracle, then cast
+Oracle. Simple as that. The 3 cards in the middle of the pile can be anything,
+but ideally should be something that can win the game the next turn if Spoils
+was countered. It can be used to beat a wide variety of hate, such as Mindbreak
+Trap, Deafening Silence, Endurance, Narset and Leovold, etc., and can play
+through a Thalia for minimal additional mana. What is more, it leaves you with
+an empty library so removal is ineffective.
+
+### Example 2
+
+> Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} + 3 life
+
+<row variant="pile">{{!LED}}{{!LP}}{{!SotV}}{{!I}}{{!TO}}</row>
+
+This is similar to some of the piles in the [Brainstorm
+chapter][ddft:brainstorm], but Spoils lets you win without leaving cards left in
+your deck, whereas that would be impossible without it.
+
+1. Cast Doomsday and build the above pile.
+2. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
+3. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for
+   UUU
+4. Spoils will exile the 2 useless cards and the Island (or whatever you put
+   there) and give you Oracle
+5. Cast Oracle to win with 0 cards left in library.
+
+[ddft:brainstorm]: /ddft/brainstorm/
 
 ## Time Spiral Piles
 
@@ -171,10 +213,10 @@ Spiral.
 
 ## Conclusion
 
-1. These piles aren't going to come up all that often in a typical game, so
-   don't feel you need to memorize them
-2. Many of these piles are high risk in some form or another. Don't be afraid
-   of this though. If one of these types of piles gives you a 10% chance to win,
+1. These piles will not come up in a typical game, so don't feel you need to
+   memorize them.
+2. Many of these piles are high risk in some form or another. Don't be afraid of
+   this though. If one of these types of piles gives you a 10% chance to win,
    that could be 10% more than any other option.
-3. Consider these less as something to memorize and more as a source of
-   inspiration for thinking outside the box when it comes to pile construction
+3. Outside-the-box thinking can be valuable when building piles. Consider these
+   piles your inspiration.

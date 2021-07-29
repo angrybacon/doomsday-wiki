@@ -3,12 +3,12 @@ order: 3
 title: Using Echo of Eons in Piles
 ---
 
-Echo of Eons is a recent additional to the DDFT arsenal, and is quite powerful
-and flexible. A deck the The Epic Storm uses it as an alternative storm engine,
-and while we can use it that way too, it has some very interesting applications
-in Doomsday piles. If you're an {{Old Fogey}} when it comes to Doomsday, you may
-see some similarities between the piles presented here and the {{Time Spiral}}
-piles of yore.
+Echo of Eons is a comparatively recent addition to the DDFT arsenal, and is
+quite powerful and flexible. A deck like The Epic Storm uses it as an
+alternative Storm engine, and while we can use it that way too, it has some very
+interesting applications in Doomsday piles. If you're an {{Old Fogey}} when it
+comes to Doomsday, you may see some similarities between the piles presented
+here and the {{Time Spiral}} piles of yore.
 
 If you're reading these in order, you'll have seen a simple Echo pile example
 among the pass-the-turn piles. We'll go into more depth about them and discuss
@@ -39,14 +39,15 @@ graveyard.
 7. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
    opponent
 
-This pile is rather striking if you ask me. It is elegant, efficient, and
-flashy. You need 2 rather specific cards in hand but the upfront mana cost is
-merely the price of Doomsday, and it generates all 10 storm on its own. The most
-glaring downside of this pile, something it shares with all Echo piles, is that
-your opponent also draws a fresh hand, meaning they can draw all manner of nasty
-interaction. We won't worry about this for now. Some decks won't even have any
-interaction, and there are techniques to be used against those that do, but for
-now we will pretend this isn't a factor and simply focus on how the piles work.
+This pile is rather elegant if you ask me. It's mana efficient, and also flashy,
+which is appealing. You need 2 rather specific cards in hand but the upfront
+mana cost is merely the price of Doomsday, and it generates all 10 storm on its
+own. The most glaring downside of this pile, something it shares with all Echo
+piles, is that your opponent also draws a fresh hand, meaning they can draw all
+manner of nasty interaction. We won't worry about this for now. Some decks won't
+even have any interaction, and there are techniques to be used against those
+that do, but for now we will pretend this isn't a factor and simply focus on how
+the piles work.
 
 ### Example 2
 
@@ -131,7 +132,8 @@ ideal 7: 3 LEDs, Echo, BW, and the Lotus Petal. Cast all your mana artifacts,
 then cast Burning Wish holding priority, and cracking your LEDs for UUURRRRRR.
 Retrieve Grapeshot and cast it, dealing 10 damage to your opponent. Flashback
 Echo, and draw the remaining 7 cards. Play out your mana artifacts once again,
-and use the floating mana to Grapeshot a 2nd time, for at least another 12 damage.
+and use the floating mana to Grapeshot a 2nd time, for at least another 12
+damage.
 
 You need to get lucky here when you draw for your first Echo since you need to
 at least draw Burning Wish, LED, and Echo. Any additional mana you have
@@ -141,7 +143,7 @@ again and have plenty of storm for a lethal Tendrils the next time around.
 
 ## Conclusion
 
-1. Echo makes enables some extremely cheap piles that generate high storm
+1. Echo enables some extremely mana-efficient piles that generate high storm
    counts.
 2. Some Echo piles are nondeterministic out of necessity, but don't let this
    scare you off. They typically still have a high probability of working.
