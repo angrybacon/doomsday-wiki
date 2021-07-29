@@ -1,6 +1,6 @@
 ---
 authors: OtterLady
-banner: /assets/pact-of-negation.fut.jpg
+banner: /banners/pact-of-negation.fut.jpg
 title: Fish and Tendrils. Food for Thought in a World Full of Monkeys
 ---
 

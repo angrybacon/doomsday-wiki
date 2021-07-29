@@ -1,6 +1,6 @@
 ---
 authors: Jacobisboss
-banner: /assets/ancestral-recall.leb.jpg
+banner: /banners/ancestral-recall.leb.jpg
 title: Everything Doomsday (Vintage)
 ---
 

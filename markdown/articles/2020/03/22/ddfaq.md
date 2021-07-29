@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /assets/doomsday.wth.jpg
+banner: /banners/doomsday.wth.jpg
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 

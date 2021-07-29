@@ -7,7 +7,8 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import { Layout } from '@/components/Layout/Layout';
-import { Markdown, getArticles, getMarkdown } from '@/tools/markdown';
+import { getArticles, getMarkdown } from '@/tools/markdown';
+import { Article, Markdown } from '@/tools/markdown.model';
 
 const ArticlePage: NextPage<Markdown> = ({ content }) => (
   <>
@@ -27,19 +28,18 @@ const ArticlePage: NextPage<Markdown> = ({ content }) => (
 );
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const articles = await getArticles();
-  const paths = articles
-    .filter((it) => it.length === 4) // NOTE Filter out incomplete paths
-    .map(([year, month, day, slug]) => ({
-      params: { year, month, day, slug },
-    }));
+  const articles: Article[] = await getArticles();
+  const paths = articles.map(({ pathTokens }) => {
+    const [year, month, day, article] = pathTokens;
+    return { params: { year, month, day, article } };
+  });
   return { fallback: false, paths };
 };
 
 interface Query extends ParsedUrlQuery {
+  article: string;
   day: string;
   month: string;
-  slug: string;
   year: string;
 }
 
@@ -51,7 +51,7 @@ export const getStaticProps: GetStaticProps<Markdown, Query> = async ({
     params!.year,
     params!.month,
     params!.day,
-    params!.slug
+    params!.article
   ),
 });
 

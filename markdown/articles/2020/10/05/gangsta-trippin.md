@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /assets/brainstorm.mmq.jpg
+banner: /banners/brainstorm.mmq.jpg
 title: "Gangster Trippin' - Cantrip Discipline in Doomsday (and Legacy in general)"
 ---
 

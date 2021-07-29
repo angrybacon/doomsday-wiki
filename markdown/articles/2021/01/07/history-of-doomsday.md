@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /assets/dark-ritual.leb.jpg
+banner: /banners/dark-ritual.leb.jpg
 title: The History of Doomsday - An interview with Emidln
 ---
 
