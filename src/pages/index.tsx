@@ -19,17 +19,13 @@ const HomePage: NextPage<Props> = ({ articles, welcome }) => (
   <Layout>
     <Title title="Welcome" />
     <Grid container spacing={2}>
-      <Grid item md={8} lg={6}>
+      <Grid item sm={6} md={7}>
         <Card>
           <CardContent component={ReactMarkdown}>{welcome.content}</CardContent>
         </Card>
       </Grid>
       <Grid item xs>
-        <Card>
-          <CardContent>
-            <Articles articles={articles} />
-          </CardContent>
-        </Card>
+        <Articles articles={articles} />
       </Grid>
     </Grid>
   </Layout>

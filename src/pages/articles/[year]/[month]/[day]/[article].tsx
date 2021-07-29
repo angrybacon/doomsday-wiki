@@ -20,7 +20,9 @@ const ArticlePage: NextPage<Props> = ({ markdown }) => (
     <Grid container spacing={2}>
       <Grid item xs={12}>
         <Card>
-          <CardContent children={markdown.content} component={ReactMarkdown} />
+          <CardContent component={ReactMarkdown}>
+            {markdown.content}
+          </CardContent>
         </Card>
       </Grid>
     </Grid>

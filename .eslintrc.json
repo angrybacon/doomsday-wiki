@@ -11,17 +11,42 @@
     "plugin:import/typescript",
     "prettier"
   ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": "error",
+        "react/prop-types": "off"
+      }
+    }
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "import", "react"],
   "root": true,
   "rules": {
-    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/explicit-module-boundary-types": [
+      "error",
+      { "allowTypedFunctionExpressions": true }
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-non-null-assertion": "error",
+    "@typescript-eslint/no-use-before-define": "error",
     "import/prefer-default-export": "off",
     "no-use-before-define": "off",
-    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
+    "react/jsx-filename-extension": [
+      "error",
+      { "extensions": [".jsx", ".tsx"] }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ]
   },
   "settings": {
-    "import/resolver2": {
+    "import/resolver": {
       "typescript": {}
     }
   }
