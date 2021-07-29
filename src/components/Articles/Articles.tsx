@@ -8,9 +8,9 @@ interface Props {
 
 export const Articles: FunctionComponent<Props> = ({ articles }) => (
   <ul>
-    {articles.map(({ path, title }, index) => (
-      <li key={`article-${path}-${index}`}>
-        <Link href={path}>{title || path}</Link>
+    {articles.map(({ route, title }) => (
+      <li key={`article-${route}`}>
+        <Link href={route}>{title || route}</Link>
       </li>
     ))}
   </ul>
