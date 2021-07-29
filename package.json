@@ -9,11 +9,14 @@
     "lint:code": "eslint .",
     "lint:fix": "yarn lint:code --fix",
     "lint:typings": "tsc",
+    "prepare": "husky install",
     "start": "next start"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.2",
-    "@material-ui/icons": "^4.11.2",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
+    "classnames": "^2.3.1",
     "gray-matter": "^4.0.3",
     "next": "^11.0.1",
     "react": "^17.0.2",
@@ -28,10 +31,13 @@
     "eslint": "^7.30.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": ">=6",
+    "lint-staged": ">=10",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   }

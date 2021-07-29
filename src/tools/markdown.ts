@@ -15,21 +15,22 @@ const baseArticleUrl = join(baseMarkdownUrl, 'articles');
 
 /** Read file system and return a list of all articles. */
 export const getArticles: GetArticles = async () => {
-  const slugs: Article[] = [];
+  const articles: Article[] = [];
   for await (const segments of walk(baseArticleUrl, extension)) {
     // NOTE Only consider complete paths ie. [year, month, day, article]
     if (segments.length === 4) {
       const path: string = join(baseArticleUrl, ...segments) + extension;
       const buffer: string = readFileSync(path, 'utf8');
       const { data }: GrayMatterFile<string> = matter(buffer);
-      slugs.push({
+      const [year, month, day] = segments;
+      articles.push({
+        data: { ...data, date: `${year}-${month}-${day}` },
         route: ['/articles', ...segments].join('/'),
         segments,
-        ...(data.title && { title: data.title }),
       });
     }
   }
-  return slugs;
+  return articles;
 };
 
 /** Read file system and return Markdown matter from the specified slug. */

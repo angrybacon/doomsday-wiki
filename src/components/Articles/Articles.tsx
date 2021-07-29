@@ -1,17 +1,18 @@
 import React, { FunctionComponent } from 'react';
-import { Link } from '@/components/Link/Link';
-import { Article } from '@/tools/markdown.model';
+import Grid from '@material-ui/core/Grid';
+import { Article } from '@/components/Article/Article';
+import { Article as ArticleModel } from '@/tools/markdown.model';
 
 interface Props {
-  articles: Article[];
+  articles: ArticleModel[];
 }
 
 export const Articles: FunctionComponent<Props> = ({ articles }) => (
-  <ul>
-    {articles.map(({ route, title }) => (
-      <li key={`article-${route}`}>
-        <Link href={route}>{title || route}</Link>
-      </li>
+  <Grid container direction="column" spacing={2}>
+    {articles.map(({ data, route }) => (
+      <Grid item key={`article-${route}`} xs={12}>
+        <Article matter={data} route={route} />
+      </Grid>
     ))}
-  </ul>
+  </Grid>
 );
