@@ -1,11 +1,14 @@
+import { GrayMatterFile } from 'gray-matter';
+
 export interface Article {
-  path: string;
-  pathTokens: string[];
+  route: string;
+  segments: string[];
   title?: string;
 }
 
 export interface Markdown {
   content: string;
+  data: GrayMatterFile<string>['data'];
 }
 
 export type GetArticles = () => Promise<Article[]>;

@@ -1,5 +1,4 @@
 import { GetStaticProps, NextPage } from 'next';
-import Head from 'next/head';
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import Card from '@material-ui/core/Card';
@@ -7,6 +6,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import { Articles } from '@/components/Articles/Articles';
 import { Layout } from '@/components/Layout/Layout';
+import { Title } from '@/components/Title/Title';
 import { getArticles, getMarkdown } from '@/tools/markdown';
 import { Markdown, Article } from '@/tools/markdown.model';
 
@@ -17,16 +17,14 @@ interface Props {
 
 const HomePage: NextPage<Props> = ({ articles, welcome }) => (
   <Layout>
-    <Head>
-      <title>Welcome</title>
-    </Head>
+    <Title title="Welcome" />
     <Grid container spacing={2}>
-      <Grid item xs={6}>
+      <Grid item md={8} lg={6}>
         <Card>
           <CardContent component={ReactMarkdown}>{welcome.content}</CardContent>
         </Card>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs>
         <Card>
           <CardContent>
             <Articles articles={articles} />
