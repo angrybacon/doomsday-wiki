@@ -56,7 +56,6 @@ but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 
 <row variant="centered">{{!Solve the Equation}} {{!Dark Petition}}</row>
 
-
 While these issues weren't catastrophic, and careful fetching could minimize it,
 I was nonetheless driven to explore other options. Over the course of 2020 and
 early 2021, I tried some Wish-less variants as well, including versions that
@@ -129,9 +128,9 @@ reason or another, and none of them actually panned out.
 
 This was a variant of Mindkiller, an ill-fated attempt to remove Spoils from the
 deck. Belcher also gave it another angle of attack, one that couldn't be stopped
-by {{Flusterstorm}} or a well timed Lightning Bolt. The manabase was an issue here.
-The MDFC lands are critical to good belches, but opening a hand with a bunch of
-Dark Rituals and 2 lands that don't make black was pretty awkward.
+by {{Flusterstorm}} or a well timed Lightning Bolt. The manabase was an issue
+here. The MDFC lands are critical to good belches, but opening a hand with a
+bunch of Dark Rituals and 2 lands that don't make black was pretty awkward.
 
 Belcher itself was also very mana hungry, more so than anything in the typical
 Mindkiller list, and so I never really wanted to draw Belcher. Unlike Spoils,
@@ -214,10 +213,10 @@ Now, this deck wasn't really that good, and the fact that I never finished a
 sideboard for it is somewhat telling. But it got me thinking about the power of
 Brainstorm, as both a setup spell and a Doomsday enabler. It's also quite good
 with multiple copies of Tendrils of Agony, since it frequently is worth 2 or 3
-Storm; cast spells, Brainstorm, draw 1-2 more castable spells, put a Tendrils from your hand back into your library,
-then cantrip into it for lethal was a common play pattern.
-So I set about making a more stable, less all-in DDFT list with multiple
-maindeck Tendrils, and ended up on this:
+Storm; cast spells, Brainstorm, draw 1-2 more castable spells, put a Tendrils
+from your hand back into your library, then cantrip into it for lethal was a
+common play pattern. So I set about making a more stable, less all-in DDFT list
+with multiple maindeck Tendrils, and ended up on this:
 
 <deck path="2021/07/26/ddft.ubg.grinding.txt" />
 
@@ -275,8 +274,8 @@ shut up has skyrocketed. With a 5c manabase, Chants are easy enough to support.
 The sideboards have also acquired some new tools. Since the early days of the
 deck there have been a few playable printings which made their way into the
 wishboard. Peer into the Abyss is extremely powerful as an alternate engine. Rip
-Apart plays the roles that Consign//Oblivion, Hullbreach, or Chain Lightning
-may have played, but does so on 1 card. Galvanic Relay has shown promise as an
+Apart plays the roles that Consign//Oblivion, Hullbreach, or Chain Lightning may
+have played, but does so on 1 card. Galvanic Relay has shown promise as an
 engine that turns Burning Wish into a must counter, and can function with less
 mana than other options.
 
