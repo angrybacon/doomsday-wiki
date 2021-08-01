@@ -79,7 +79,7 @@ Assume English unless specified otherwise.
 - [Bryant Cook goes to the Dark side casting Doomsday for the first time (February 2021)](https://www.youtube.com/watch?v=h1euGB8hQFM)
 - [LeFly runs a League with Meandeck (February 2021) - German](https://www.youtube.com/watch?v=pkpixIywm1w)
 - [Andreas Mengucci runs a league with UB Meandeck (December 2020)](https://www.youtube.com/watch?v=8HlIvDf7iDg)
-- [Anuraag Das runs some ANT/Doomsday with Ki Sawatari (December 2020)](https://www.youtube.com/watch?v=u-kyFx2VJ0c)
+- [Anuraag Das runs some ANT/Doomsday with Kai Sawatari (December 2020)](https://www.youtube.com/watch?v=u-kyFx2VJ0c)
 - [Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)](https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)
 - [Julian runs a League with Meandeck Doomsday (November 2020)](https://www.youtube.com/watch?v=xbrEBHtF1Cs)
 - [Julian is coached through a league with Nevilshute (August 2020)](https://www.youtube.com/watch?v=JDEXkRw679w)
