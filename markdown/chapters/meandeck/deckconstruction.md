@@ -478,6 +478,7 @@ in testing.
 
 ## 6. Card Group - Pile Cards
 
+<row variant="pile">{{!TO}} {{!EoA}} {{!IU}} {{!LED}} {{!CoS}}</row>
 
 ### 6.1 Thassa's Oracle
 
