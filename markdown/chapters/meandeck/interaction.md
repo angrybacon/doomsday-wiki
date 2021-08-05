@@ -1,5 +1,6 @@
 ---
 authors: angrybacon, Labman13, Doishy
+order: 3
 title: Playing Around Interaction
 ---
 
