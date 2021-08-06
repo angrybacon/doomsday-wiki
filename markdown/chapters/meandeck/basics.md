@@ -54,7 +54,7 @@ cards left in your library on its resolution, other times it means needing to
 have no cards left in your library on resolution. The former is known as an
 *imperfect pile* and the latter a *perfect pile*. An *imperfect pile* is named
 as such because if your opponent is able to remove the Oracle from play prior to
-resolution of the Oracle's trigger then you will not win the game.
+resolution of its trigger then you will not win the game.
 
 In this section we will explore some of the simplest and most commonly used
 piles in order to achieve a *perfect pile* for your Oracle trigger to resolve.
@@ -68,15 +68,15 @@ If we take the following example:
 
 This cost shows we require {B}{B}{B} for casting Doomsday. {U}{U} for casting
 specific cards in the pile and the ability to *cantrip*. If the chosen *cantrip*
-effect costs mana you will need to add this on to the total otherwise presented
-so in the example of using Preordain as your cantrip you will need {B}{B}{B} +
+effect costs mana you will need to add this on to the total otherwise presented.
+In the example of using Preordain as your cantrip you will need {B}{B}{B} +
 {U}{U} + {U}.
 
 > {B}{B}{B} + {U}{U} + Brainstorm + X
 
 Sometimes we will use the terminology of X. In this instance X means having any
 single card in hand, irrespective of what that card is. An X card is normally
-used in conjuction with {{Brainstorm}} and thus is rarely cast but we will
+used in conjunction with {{Brainstorm}} and thus is rarely cast but we will
 explore more of this in another chapter.
 
 ## Single Cantrip + Ideas Unbound Pile
@@ -101,12 +101,14 @@ Souls}} if you have a land drop available to you.
 
 This is a slightly different take for people who wish to use {{Predict}} over
 Ideas Unbound. In this example you use your cantrip effect to draw Predict. You
-cast Predict to name the top card of your deck, in this example {{Ponder}],
+cast Predict to name the top card of your deck, in this example {{Ponder}},
 drawing the cycle effect and Lion's Eye Diamond (LED). You cast the LED. You
-then cycle, hold priority, and *crack* the LED for {U}{U}{U}. (*Crack* is a
-colloquial term for activating a mana rock like LED or Lotus Petal (LP) or for
-sacrificing a Fetch land like {{Polluted Delta}}). Once the cycle draw resolves,
-you will now have the mana to cast Oracle.
+then cycle, hold priority, and *crack* the LED for {U}{U}{U}.
+
+*Crack is a colloquial term for activating a mana rock like LED or Lotus Petal
+(LP) or for sacrificing a Fetchland like {{Polluted Delta}}.*
+
+Once the cycle draw resolves, you will now have the mana to cast Oracle.
 
 ## Double Cantrip Pile
 
@@ -121,15 +123,15 @@ your two mana draw spells but have an additional, useable cantrip in hand then
 you can construct what is known as a *double cantrip* pile. You use the first
 cantrip to draw the LED. Cast it and in response to the second cantrip, *crack*
 the LED for {U}{U}{U}. This will then allow you to draw into the two mana draw
-spell and cast it to then draw into Oracle and the LP required for the second
-{U} for it.
+spell and cast it to draw into Oracle and the LP required for the second
+{U}.
 
-In one of those examples above we have included a suggestion of where you can
+In one of those examples above we have included a suggestion where you can
 include protection slots within the pile. If you have the available mana it may
-help you against opponent's who are either trying to slow roll their permission
+help you against opponents who are either trying to slow roll their permission
 spells or who are holding something like {{Stifle}} up.
 
-## Piles not using Predict or Ideas Unbound
+## Piles Not Using Predict nor Ideas Unbound
 
 In the event that your draw spell(s) gets exiled, usually by pitching them to
 Force of Will or through your opponent actions, you need another way of drawing
@@ -149,7 +151,7 @@ is the most effective one. With additional cantrips you can even include
 protection slots within the pile.
 
 For any of the above examples you can reduce the cost drastically by using the
-free cyclers Street Wraith}} and/or Edge of Autumn. There are also some
+free cyclers Street Wraith and/or Edge of Autumn. There are also some
 interesting tricks we can utilise where the card {{Brainstorm}} is one of the
 cantrips within our hand however we will cover those in another chapter.
 
