@@ -10,7 +10,3 @@ export interface Markdown {
   content: string;
   data?: GrayMatterFile<string>['data'];
 }
-
-export type GetArticles = () => Promise<Article[]>;
-
-export type GetMarkdown = (...slugs: string[]) => Markdown;

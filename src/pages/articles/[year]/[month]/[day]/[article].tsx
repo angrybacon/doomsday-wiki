@@ -7,8 +7,9 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import { Layout } from '@/components/Layout/Layout';
 import { Title } from '@/components/Title/Title';
-import { getArticles, getMarkdown } from '@/tools/markdown';
-import { Article, Markdown } from '@/tools/markdown.model';
+import { getArticles } from '@/tools/markdown/getArticles';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { Article, Markdown } from '@/tools/markdown/types';
 
 interface Props {
   markdown: Markdown;
@@ -30,7 +31,7 @@ const ArticlePage: NextPage<Props> = ({ markdown }) => (
 );
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const articles: Article[] = await getArticles();
+  const articles: Article[] = getArticles();
   const paths = articles.map(({ segments }) => {
     const [year, month, day, article] = segments;
     return { params: { article, day, month, year } };

@@ -7,8 +7,9 @@ import Grid from '@material-ui/core/Grid';
 import { Articles } from '@/components/Articles/Articles';
 import { Layout } from '@/components/Layout/Layout';
 import { Title } from '@/components/Title/Title';
-import { getArticles, getMarkdown } from '@/tools/markdown';
-import { Markdown, Article } from '@/tools/markdown.model';
+import { getArticles } from '@/tools/markdown/getArticles';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { Markdown, Article } from '@/tools/markdown/types';
 
 interface Props {
   articles: Article[];
@@ -33,7 +34,7 @@ const HomePage: NextPage<Props> = ({ articles, welcome }) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    articles: await getArticles(),
+    articles: getArticles(),
     welcome: getMarkdown('partials/welcome'),
   },
 });
