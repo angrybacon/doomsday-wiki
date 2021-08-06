@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import Grid from '@material-ui/core/Grid';
 import { Article } from '@/components/Article/Article';
-import { Article as ArticleModel } from '@/tools/markdown.model';
+import { Article as ArticleModel } from '@/tools/markdown/types';
 
 interface Props {
   articles: ArticleModel[];
