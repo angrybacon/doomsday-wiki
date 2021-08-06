@@ -26,11 +26,15 @@ These are as follows:
 1. Draw into your pile enough so that the Oracle's trigger can win you the game
 1. Resolve Thassa's Oracle
 
+<row variant="centered">{{!DD}}{{!TO}}</row>
+
 Out these steps, we will start by detailing how to achieve steps 2. and 3. as
 these are the first steps that are unique to the Doomsday archetype. Other decks
 like Omnitell have similar transferable skills in order to resolve a specific
 key spell however it is the *pile* construction that is often the trickiest
 element of playing the deck for newer players of the archetype.
+
+<row variant="centered">{{!Pre}}{{!SW}}</row>
 
 The first consideration to make is how you will *dig* into the pile.  
 We will use the phrase *dig* to mean to initially draw into the five cards you
@@ -108,7 +112,7 @@ you will now have the mana to cast Oracle.
 
 > {B}{B}{B} + Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Pact of Negation|FUT}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!PoN}} {{!TO}}</row>
 
 <row variant="pile">{{!LED}} {{!Pdt}} {{!SW}} {{!LP}} {{!TO}}</row>
 
