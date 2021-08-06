@@ -38,7 +38,7 @@ ability which draws a card upon resolution. Typically this is provided by one of
 played {U} filter effects like {{Preordain}} or a free cycle effect like {{Street Wraith}}.
 If you are not under pressure you can also simply pass the turn to the opposing player and use
 your next turn's draw step in order to *dig* into the *pile*. When this is performed it is
-simply know as a *pass the turn pile* or *PTT pile*. 
+simply known as a *pass the turn pile* or *PTT pile*. 
 
 Once you have decided what method you will *dig* into your pile with you need to work out
 how you are going to get through enough cards that the trigger from Thassa's Oracle will win
