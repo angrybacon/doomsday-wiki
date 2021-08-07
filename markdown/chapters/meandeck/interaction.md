@@ -252,7 +252,7 @@ Doomsday. From that point you don't have to cast a single one mana spell.
 
 > {B}{B}{B} + {1}{U} + Cantrip
 
-<row variant="pile">{{!Pdt}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!Pdt}} {{!Dur}} {{!LED}} {{!EoA}} {{!TO}}</row>
 
 Both of the above examples are all comprised of zero or two mana cost spells and
 free cycling effects all of which can circumnavigate the limitations Chalice
@@ -608,8 +608,7 @@ Because of the size of the Legacy card pool and the variance between decklists,
 even within proven archetypes, you can often face strange or unexpected corner
 cases. Just try your best to make note of what you are aware, play around what
 you can but be mindful that sometimes you cannot play around everything and need
-to accept if they have the one corner case card then you will not be able to
-win.
+to accept if they have the one corner case card.
 
 In the next section we shall explore sideboard choices and theory which will
 help you with some of the decisions or scenarios presented in this chapter.
