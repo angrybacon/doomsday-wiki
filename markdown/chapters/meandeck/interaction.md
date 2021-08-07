@@ -1,6 +1,6 @@
 ---
 authors: angrybacon, Labman13, Doishy
-order: 3
+order: 2
 title: Playing Around Interaction
 ---
 
@@ -43,7 +43,7 @@ opponent tries to remove the Oracle at that point, assuming you have no
 additional Devotion to {U}, you will not be able to win off of the trigger.
 
 The main counter to this is of course to try and ensure you always leave zero
-cards left in your deck once the Oracle trigger will resolve. Another way is to
+cards left in your deck once the Oracle trigger resolves. Another way is to
 potentially try a *bait pile* which tries to go off in one turn but has the
 option to wait another. This can be especially useful if you are playing
 multiple Oracles. Let us take this example from the Brainstorm chapter:
@@ -174,7 +174,7 @@ reactive protection within piles generally boils down to 2 points:
 Resources in this context can mean mana, cards in hand to pitch to Force of
 Will, lands in play to return with Daze or cycle off of Edge of Autumn or simply
 just the number of cards in hand. We can have a look at a number of options that
-are run in lists for countermagic choices and how they may effect your pile
+are run in lists for countermagic choices and how they may affect your pile
 building options.
 
 The greatest tool in allowing the use of countermagic in piles is Ideas Unbound.
@@ -198,7 +198,7 @@ for the other.
 
 In an alternative scenario if you were to face similar, but with an additional
 {U} available, you could build the same thing but with an additional piece of
-interaction such as Daze, Pact of Negation or simply a second {U} card to allow
+interaction such as Daze, Pact of Negation or simply a second blue card to allow
 you to cast Force of Will twice if they try and fight over the Oracle.
 
 ### Other Tools Available
@@ -236,9 +236,9 @@ already explained.
 
 {{Chalice of the Void}} is a Legacy staple that is featured in a number of
 decks. It seeks to generate card advantage by (hopefully) countering a number of
-cards or preventing the casting of cards of a certain cmc. Normally Chalice is
+cards or preventing the casting of cards of a certain CMC. Normally Chalice is
 set to X = 1 most of the time which, although can be a heavy detriment to a deck
-comprised of predominantly one cost cards, does not stop the deck winning the
+comprised of predominantly one cost cards, does not stop the deck from winning the
 game.
 
 Although it certainly is convenient trying to get {B}{B}{B} from Dark Ritual,
@@ -264,7 +264,7 @@ cheap too representing post Doomsday costs of {U}{U} and {1}{U} respectively.
 Chalice is not limited to being set on one. Sometimes an opponent will want to
 deploy a threat plus disruption on turn one so might lead with Chalice X = 0 or
 may play a Chalice X = 2 in the late game. For X = 0 this is fine so long as you
-have been making land drops though the game or, at worst, allows you to put
+have been making land drops throughout the game or, at worst, allows you to put
 lands into the pile itself.
 
 > {B}{B}{B} + {U}{U}{U} + Cantrip
@@ -336,7 +336,7 @@ them is of course removal however that is not always viable, especially in game
 one. Another way is to simply pass the turn a number of times using the sorcery
 speed cantrips on your turn and the instant speed free cyclers on the opponent's
 turn. Predict is quite useful in this scenario as, despite costing {1}{U} it
-allows you to *dig* two cards deep into the pile. Something like the following
+allows you to *dig* up to three cards deep into the pile. Something like the following
 may be useful facing an opposing Narset for example (spread over multiple
 turns):
 
@@ -385,7 +385,7 @@ search for five counterspells to try and stop you.
 Shuffle effects can be one annoyance to face when building a pile that would
 otherwise have perfect ordering to it. There are some examples that you could
 consider needing to play around like {{Field of Ruin}} or {{Assassin's Trophy}}
-however the primary concern is in fact a card that is very prevalent in Legacy;
+however the primary concern is in fact a card that is very prevalent in Legacy:
 {{Surgical Extraction}}.
 
 Upon successfully resolving a Doomsday, assuming no cards like {{Leyline of the
@@ -441,7 +441,7 @@ Here you have a pile where, if they Surgical in response to the cantrip effect
 on Doomsday and you remove all the copies in the pile, you will have a
 deterministic win (using one of Ponder, Brainstorm or Preordain) as you can
 ensure you are able to see all the cards within the deck and not die to drawing
-too deep with Brainstorm. Even if they do not Surgical you still can just cycle
+too deep with Brainstorm. Even if they do not Surgical you can still just cycle
 twice and play Oracle with a library of two cards.
 
 ## 5. Everything Else to Consider
@@ -488,7 +488,7 @@ Doomsday resolves and likewise from seven life or less you are at risk of bolt.
 You also have to be mindful of when you can incorporate the use of Street Wraith
 in a pile (blocked from five life or less) or Force of Will or a fetchland
 (three life or less). Also always be mindful that if you cast Doomsday when on
-one life you will immediate lose due to the rounding up clause of the life loss.
+one life you will immediately lose due to the rounding up clause of the life loss.
 
 ### Mindbreak Trap
 
@@ -521,7 +521,7 @@ effects should it be desired.
 ### Thought Scour / Predict / Archmage's Charm
 
 Thought Scour is not normally a common card in Legacy now that the {{Underworld
-Breach}} era is gone however it still can show up in rogue brews from time to
+Breach}} era is gone however it can still show up in rogue brews from time to
 time. Predict is a card advantage spell played by both Miracles and Doomsday
 pilots. Both Thought Scour and Predict can target any player and so either can
 mess up your piles at instant speed, milling a key piece in response to a
@@ -576,7 +576,7 @@ board or suspect your opponent might be able to *dash* one from their hand. When
 considering Ragavan you have to work out what cards in the pile they will be
 exiling with it.
 
-The safest method to deal with it is place a cycle effect in any slot they are
+The safest method to deal with it is to place a cycle effect in any slot they are
 likely to exile. This way if they do exile it, they cannot obtain any value from
 it and if they don't exile it you have still have the draw effect available to
 you.
@@ -604,9 +604,10 @@ comes from research and practice. Remember to always consider the matchup in
 playing around Wasteland, opposing Thoughtseize effects, Daze and the like prior
 to the combo to give yourself the best chance to enact the combo. Consider
 whether speed or resilience is the right path given your opponent's deck.
+
 Because of the size of the Legacy card pool and the variance between decklists,
 even within proven archetypes, you can often face strange or unexpected corner
-cases. Just try your best to make note of what you are aware, play around what
+cases. Just try your best to make note of what you are aware of, play around what
 you can but be mindful that sometimes you cannot play around everything and need
 to accept if they have the one corner case card.
 
