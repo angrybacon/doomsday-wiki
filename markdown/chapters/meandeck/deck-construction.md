@@ -129,7 +129,7 @@ some only the Island and others (as mentioned above) are opting to run no basic
 lands at all. If you want to opt for a more control style build then you will
 probably need to look to increase your basic land count to four or five.
 Normally you wouldn't consider running a splash basic such as a mountain or
-forest however in the heavier control builds you might consider it.
+forest however in the heavier control builds it might be worthwhile.
 
 For example: In an Esper {W}{U}{B} based Doomsday list you might elect to run
 two Islands, two Swamps and one Plains as your basic lands of choice.
@@ -156,10 +156,10 @@ balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 
 #### {U}{B} *Turbo*
 
-- 4 Polluted Delta
+- 2 Polluted Delta
 - 2 Flooded Strand
-- 1 Scalding Tarn
-- 1 Misty Rainforest
+- 2 Scalding Tarn
+- 2 Misty Rainforest
 - 4 Underground Sea
 - 1 Watery Grave
 - 1 Island
@@ -172,7 +172,7 @@ dual land of the appropriate type here.
 - 4 Polluted Delta
 - 3 Scalding Tarn
 - 1 Bloodstained Mire
-- 4 Underground Sea
+- 3 Underground Sea
 - 1 Volcanic Island
 - 1 Badlands
 - 1 Island
@@ -299,9 +299,9 @@ There is one more main class of proactive disruption in the form of running a
 creature package. The most commonly found card for this is {{Baleful Strix}}
 however other options like {{Uro, Titan of Nature's Wrath}} and {{Sedgemoor
 Witch}} have been tried. The idea behind these is they act as delays to your
-opponent's pressure whilst also providing additional card draws. In the case of
-Uro and Sedgemoor, they can also act as full plan B's providing an alternative
-way to win that isn't Doomsday.
+opponent's pressure whilst also providing additional card draws. Uro and Sedgemoor
+both also provide an alternative way to win without casting Doomsday for matchups
+where that may be useful.
 
 If running Strixes, these normally are swapped out for some mix of free cycle
 effects, {{Daze}} or Preordains. Adding some of the other creature packages are
@@ -464,18 +464,22 @@ in testing.
 
 <row variant="pile">{{!TO}} {{!EoA}} {{!IU}} {{!LED}} {{!CoS}}</row>
 
-### 6.1 Thassa's Oracle
-
 This is probably the most diverse set of cards and might as well be titled
 "miscellaneous" however there are some important pieces in here that are
 fundamental to the deck. A lot of these cards do have a lot of usage outside of
 the Doomsday pile but their core value/the reason they are in the deck is often
 to be searched up and utilised as part of your combo. In theory almost all of
-these are optional extras apart from one key component which is the {{Thassa's
-Oracle}} itself. Obviously this is the card you need to be able to win the game
-with (unless you have a plan B) and therefore you have to run at least one of
+these are optional extras apart from one key component:
+
+### 6.1 Thassa's Oracle
+
+{{Thassa's Oracle}} is the card you need to be able to win the game,
+(unless you have a plan B) and therefore you have to run at least one of
 them. Some people like to run two but the second is often relegated to the
-sideboard.
+sideboard. There is not much else to say other than the alternatives
+in {{Laboratory Maniac}} and {{Jace, Wielder of Mysteries}} unfortunately
+do not display quite the same efficiency or efficacy as a win condition
+of choice.
 
 
 ### 6.2 Free Cycle effects
