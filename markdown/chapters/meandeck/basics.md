@@ -28,7 +28,7 @@ These are as follows:
 
 <row variant="centered">{{!DD}}{{!TO}}</row>
 
-Out these steps, we will start by detailing how to achieve steps 2. and 3. as
+Of these steps, we will provide additional focus on how to achieve steps 2. and 3. as
 these are the first steps that are unique to the Doomsday archetype. Other decks
 like Omnitell have similar transferable skills in order to resolve a specific
 key spell however it is the *pile* construction that is often the trickiest
@@ -55,6 +55,8 @@ have no cards left in your library on resolution. The former is known as an
 *imperfect pile* and the latter a *perfect pile*. An *imperfect pile* is named
 as such because if your opponent is able to remove the Oracle from play prior to
 resolution of its trigger then you will not win the game.
+
+## Pile Notation
 
 In this section we will explore some of the simplest and most commonly used
 piles in order to achieve a *perfect pile* for your Oracle trigger to resolve.
