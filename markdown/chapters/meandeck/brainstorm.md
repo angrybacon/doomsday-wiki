@@ -6,7 +6,7 @@ title: Brainstorm in Doomsday
 
 *Preface: We will be using terminology and abbreviations introduced in the
 Basics chapter of the wiki. If you have not read the Basics chapter it is
-recommended you do so first as this builds upon the concepts introduced there.
+recommended you do so first as this builds upon the concepts introduced there.*
 
 Brainstorm is one of the most powerful spells available in the Legacy format at
 this time. There have been numerous articles written on this *seemingly
@@ -94,7 +94,7 @@ As you can see this is an imperfect pile as it does not beat removal on Oracle
 due to it leaving a single card in your deck. If you have an additional {U}
 available then you can change step 3. above to arrange the deck (EoA, Pn, TO)
 and cast the second Ponder with the additional {U}. Likewise, if you have
-another cantrip in addition to the Oracle in hand, you can use that instead of
+another Preordain or Ponder in addition to the Oracle in hand, you can use that instead of
 the first Ponder in the example and use that extra card to generate the
 additional {U} needed for the same starting mana cost.
 
@@ -141,11 +141,11 @@ additional protection against what our opponent had. In this instance having the
 extra card in hand allowed us to make use of three of the pile cards immediately
 rather than just two. This also results in a perfect pile.
 
-## Brainstorm Pile - Brainstorm and *Free Cycler* Available
+## Brainstorm Pile - Brainstorm and *Free Cantrip* Available
 
 You may find yourself with all the tools in hand to perform a Brainstorm pile,
 but you don't have a spare {U} this time to cast the Brainstorm itself. If you
-have any free cycle effect in hand you can get around this by placing a Lotus
+have any free cycling effect in hand you can get around this by placing a Lotus
 Petal as the first card of your pile. This works with a {U}-producing land as
 well if you have an available land drop for that turn.
 
@@ -175,7 +175,7 @@ you have a Strix in play to turn it into a perfect pile.
 Thanks to the Strix in play providing one extra devotion to {U}, this allows you
 to win even if the Oracle is removed.
 
-## Brainstorm Pile - {U} and *Free Cycler* Available
+## Brainstorm Pile - {U} and *Free Cantrip* Available
 
 Using the concepts we learned above, we can actually create an imperfect
 Brainstorm pile without Brainstorm even being in our hand. Instead of needing
@@ -193,7 +193,7 @@ the cantrip for mana within the pile to enable the playing around of removal to
 ensure you have perfect pile to generate a zero card library on resolution of
 the Oracle trigger.
 
-## Brainstorm Pile - Not using LED.
+## Brainstorm Pile - Not using LED
 
 Sometimes you may not wish to commit to a Brainstorm pile because you are
 concerned about interaction and are holding Force of Will and a *pitch* card for
@@ -247,7 +247,7 @@ Let us consider the following example:
 
 > {B}{B}{B} + Brainstorm + X
 
-<row variant="pile">{{!SW}} {{!SW}} {{!CoS}} {{!TO}} {{!Pact of Negation}}</row>
+<row variant="pile">{{!SW}} {{!SW}} {{!CoS}} {{!TO}} {{!PoN}}</row>
 
 You can speed things up with this pile if your opponent does something like tap
 out of mana from their Swords to Plowshares. On their end step you can do the
