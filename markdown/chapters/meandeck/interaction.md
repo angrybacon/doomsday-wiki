@@ -52,8 +52,8 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!EoA}} {{!TO}}</row>
 
-1. Cast Brainstorm, draw, LED, SW and your cantrip and put back Oracle then your Cantrip on top.
-1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
+1. Cast Brainstorm and put back Oracle then Ponder on top
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
 1. Cast the cantrip and arrange your library so that it is (TO, EoA, TO)
 1. Draw Oracle, cast Oracle to (hopefully) win.
 1. If they have removal, pass the turn.
