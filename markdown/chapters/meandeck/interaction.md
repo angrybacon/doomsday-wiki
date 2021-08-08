@@ -48,20 +48,21 @@ potentially try a *bait pile* which tries to go off in one turn but has the
 option to wait another. This can be especially useful if you are playing
 multiple Oracles. Let us take this example from the Brainstorm chapter:
 
-> {B}{B}{B} + Brainstorm + Thassa's Oracle + X
+> {B}{B}{B} + Brainstorm + Thassa's Oracle
 
-<row variant="pile">{{!LED}} {{!SW}} {{!BS}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!EoA}} {{!TO}}</row>
 
-1. Cast Brainstorm and put back Oracle then your Cantrip on top.
-1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
-1. Cast the Cantrip and arrange your library so that it is (EoA, TO, TO)
-1. Draw Edge, Cycle Edge and draw Oracle.
-1. Cast Oracle to (hopefully) win.
-1. If they have removal, pass the turn and try to cast Oracle again.
+1. Cast Brainstorm, draw, LED, SW and your cantrip and put back Oracle then your Cantrip on top.
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
+1. Cast the cantrip and arrange your library so that it is (TO, EoA, TO)
+1. Draw Oracle, cast Oracle to (hopefully) win.
+1. If they have removal, pass the turn.
+1. Draw Edge, cycle Edge to draw Oracle and cast Oracle to (hopefully) win.
 
 This example is good if you suspect removal but are not under too much pressure
 where you would not survive another turn. You can try and *go off* with a backup
-Oracle in the deck the turn after.
+Oracle in the deck the turn after. Stacking the Edge above the second Oracle
+can also protect against things like a dashed {{Ragavan, Nimble Pilferer}}.
 
 This pile plays around the following:
 
