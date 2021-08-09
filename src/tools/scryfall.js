@@ -39,6 +39,7 @@ const CARDS = {
   LP:    ['Lotus Petal',              'TMP'],
   Mm:    ['Manamorphose',             'SHM'],
   PD:    ['Polluted Delta',           'ONS'],
+  PT:    ['Personal Tutor',           'POR'],
   Pdt:   ['Predict',                  'ODY'],
   Pnd:   ['Ponder',                   'LRW'],
   PoN:   ['Pact of Negation',         'FUT'],
