@@ -61,8 +61,8 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 This example is good if you suspect removal but are not under too much pressure
 where you would not survive another turn. You can try and *go off* with a backup
-Oracle in the deck the turn after. Stacking the Edge above the second Oracle
-can also protect against things like a dashed {{Ragavan, Nimble Pilferer}}.
+Oracle in the deck the turn after. Stacking the Edge above the second Oracle can
+also protect against things like a dashed {{Ragavan, Nimble Pilferer}}.
 
 This pile plays around the following:
 
@@ -239,8 +239,8 @@ already explained.
 decks. It seeks to generate card advantage by (hopefully) countering a number of
 cards or preventing the casting of cards of a certain CMC. Normally Chalice is
 set to X = 1 most of the time which, although can be a heavy detriment to a deck
-comprised of predominantly one cost cards, does not stop the deck from winning the
-game.
+comprised of predominantly one cost cards, does not stop the deck from winning
+the game.
 
 Although it certainly is convenient trying to get {B}{B}{B} from Dark Ritual,
 you can easily just cast it from lands. It is perfectly fine getting to turn
@@ -337,9 +337,9 @@ them is of course removal however that is not always viable, especially in game
 one. Another way is to simply pass the turn a number of times using the sorcery
 speed cantrips on your turn and the instant speed free cyclers on the opponent's
 turn. Predict is quite useful in this scenario as, despite costing {1}{U} it
-allows you to *dig* up to three cards deep into the pile. Something like the following
-may be useful facing an opposing Narset for example (spread over multiple
-turns):
+allows you to *dig* up to three cards deep into the pile. Something like the
+following may be useful facing an opposing Narset for example (spread over
+multiple turns):
 
 <row variant="pile">{{!Pnd}} {{!Pdt}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
@@ -430,7 +430,7 @@ opponent will try to use their Surgical (if at all).
 One cool trick you can use is to try and bait them into using a known Surgical
 effect if you have your own in hand. By placing additional copies of Doomsday
 into your pile, if your opponent tries to extract them, you can *shrink* your
-library by casting your own Surgical on the original Doomsday and "shrink it" by
+library by casting your own Surgical on the original Doomsday and *shrink it* by
 that amount. This again assumes they will Surgical at a time you want but it is
 a possibility to be considered.
 
@@ -442,8 +442,8 @@ Here you have a pile where, if they Surgical in response to the cantrip effect
 on Doomsday and you remove all the copies in the pile, you will have a
 deterministic win (using one of Ponder, Brainstorm or Preordain) as you can
 ensure you are able to see all the cards within the deck and not die to drawing
-too deep with Brainstorm. Even if they do not Surgical you can still just cycle
-twice and play Oracle with a library of two cards.
+too deep with Brainstorm. Even if they do not use Surgical you can still just
+cycle twice and play Oracle with a library of two cards.
 
 ## 5. Everything Else to Consider
 
@@ -489,7 +489,8 @@ Doomsday resolves and likewise from seven life or less you are at risk of bolt.
 You also have to be mindful of when you can incorporate the use of Street Wraith
 in a pile (blocked from five life or less) or Force of Will or a fetchland
 (three life or less). Also always be mindful that if you cast Doomsday when on
-one life you will immediately lose due to the rounding up clause of the life loss.
+one life you will immediately lose due to the rounding up clause of the life
+loss.
 
 ### Mindbreak Trap
 
@@ -577,10 +578,10 @@ board or suspect your opponent might be able to *dash* one from their hand. When
 considering Ragavan you have to work out what cards in the pile they will be
 exiling with it.
 
-The safest method to deal with it is to place a cycle effect in any slot they are
-likely to exile. This way if they do exile it, they cannot obtain any value from
-it and if they don't exile it you have still have the draw effect available to
-you.
+The safest method to deal with it is to place a cycle effect in any slot they
+are likely to exile. This way if they do exile it, they cannot obtain any value
+from it and if they don't exile it you have still have the draw effect available
+to you.
 
 Consider the following example from the basics chapter.
 
@@ -608,9 +609,9 @@ whether speed or resilience is the right path given your opponent's deck.
 
 Because of the size of the Legacy card pool and the variance between decklists,
 even within proven archetypes, you can often face strange or unexpected corner
-cases. Just try your best to make note of what you are aware of, play around what
-you can but be mindful that sometimes you cannot play around everything and need
-to accept if they have the one corner case card.
+cases. Just try your best to make note of what you are aware of, play around
+what you can but be mindful that sometimes you cannot play around everything and
+need to accept if they have the one corner case card.
 
 In the next section we shall explore sideboard choices and theory which will
 help you with some of the decisions or scenarios presented in this chapter.
