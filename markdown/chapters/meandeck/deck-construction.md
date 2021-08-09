@@ -299,9 +299,9 @@ There is one more main class of proactive disruption in the form of running a
 creature package. The most commonly found card for this is {{Baleful Strix}}
 however other options like {{Uro, Titan of Nature's Wrath}} and {{Sedgemoor
 Witch}} have been tried. The idea behind these is they act as delays to your
-opponent's pressure whilst also providing additional card draws. Uro and Sedgemoor
-both also provide an alternative way to win without casting Doomsday for matchups
-where that may be useful.
+opponent's pressure whilst also providing additional card draws. Uro and
+Sedgemoor both also provide an alternative way to win without casting Doomsday
+for matchups where that may be useful.
 
 If running Strixes, these normally are swapped out for some mix of free cycle
 effects, {{Daze}} or Preordains. Adding some of the other creature packages are
@@ -473,14 +473,12 @@ these are optional extras apart from one key component:
 
 ### 6.1 Thassa's Oracle
 
-{{Thassa's Oracle}} is the card you need to be able to win the game,
-(unless you have a plan B) and therefore you have to run at least one of
-them. Some people like to run two but the second is often relegated to the
-sideboard. There is not much else to say other than the alternatives
-in {{Laboratory Maniac}} and {{Jace, Wielder of Mysteries}} unfortunately
-do not display quite the same efficiency or efficacy as a win condition
-of choice.
-
+{{Thassa's Oracle}} is the card you need to be able to win the game, (unless you
+have a plan B) and therefore you have to run at least one of them. Some people
+like to run two but the second is often relegated to the sideboard. There is not
+much else to say other than the alternatives in {{Laboratory Maniac}} and
+{{Jace, Wielder of Mysteries}} unfortunately do not display quite the same
+efficiency or efficacy as a win condition of choice.
 
 ### 6.2 Free Cycle effects
 
