@@ -86,13 +86,13 @@ Consider the following example:
 
 1. Cast Brainstorm and put back Oracle then Ponder on top.
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
-1. Cast Ponder and arrange your library so that it is (EoA, TO, Pn)
-1. Draw Edge, Cycle Edge and draw Oracle.
+1. Cast Ponder and arrange your library so that it is (EoA, TO, Pnd)
+1. Draw Edge, cycle Edge, draw Ponder then Oracle.
 1. Cast Oracle to win.
 
 As you can see this is an imperfect pile as it does not beat removal on Oracle
 due to it leaving a single card in your deck. If you have an additional {U}
-available then you can change step 3. above to arrange the deck (EoA, Pn, TO)
+available then you can change step 3. above to arrange the deck (EoA, Pnd, TO)
 and cast the second Ponder with the additional {U}. Likewise, if you have
 another Preordain or Ponder in addition to the Oracle in hand, you can use that
 instead of the first Ponder in the example and use that extra card to generate
@@ -104,7 +104,7 @@ the additional {U} needed for the same starting mana cost.
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
 1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
-1. Cast the Cantrip and arrange your library so that it is (EoA, Pn, TO)
+1. Cast the Cantrip and arrange your library so that it is (EoA, Pnd, TO)
 1. Draw Edge, cycle Edge and draw Oracle.
 1. Cast Oracle to win.
 
