@@ -28,11 +28,11 @@ These are as follows:
 
 <row variant="centered">{{!DD}}{{!TO}}</row>
 
-Of these steps, we will provide additional focus on how to achieve steps 2. and 3. as
-these are the first steps that are unique to the Doomsday archetype. Other decks
-like Omnitell have similar transferable skills in order to resolve a specific
-key spell however it is the *pile* construction that is often the trickiest
-element of playing the deck for newer players of the archetype.
+Of these steps, we will provide additional focus on how to achieve steps 2.
+and 3. as these are the first steps that are unique to the Doomsday archetype.
+Other decks like Omnitell have similar transferable skills in order to resolve a
+specific key spell however it is the *pile* construction that is often the
+trickiest element of playing the deck for newer players of the archetype.
 
 <row variant="centered">{{!Pre}}{{!SW}}</row>
 
@@ -125,8 +125,7 @@ your two mana draw spells but have an additional, useable cantrip in hand then
 you can construct what is known as a *double cantrip* pile. You use the first
 cantrip to draw the LED. Cast it and in response to the second cantrip, *crack*
 the LED for {U}{U}{U}. This will then allow you to draw into the two mana draw
-spell and cast it to draw into Oracle and the LP required for the second
-{U}.
+spell and cast it to draw into Oracle and the LP required for the second {U}.
 
 In one of those examples above we have included a suggestion where you can
 include protection slots within the pile. If you have the available mana it may
