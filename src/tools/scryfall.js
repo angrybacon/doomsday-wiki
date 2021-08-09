@@ -41,6 +41,7 @@ const CARDS = {
   PD:    ['Polluted Delta',           'ONS'],
   Pdt:   ['Predict',                  'ODY'],
   Pnd:   ['Ponder',                   'LRW'],
+  PoN:   ['Pact of Negation',         'FUT'],
   Pre:   ['Preordain',                'M11'],
   Pyro:  ['Pyroblast',                'ICE'],
   REB:   ['Red Elemental Blast',      'LEB'],
