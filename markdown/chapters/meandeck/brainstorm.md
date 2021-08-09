@@ -94,9 +94,9 @@ As you can see this is an imperfect pile as it does not beat removal on Oracle
 due to it leaving a single card in your deck. If you have an additional {U}
 available then you can change step 3. above to arrange the deck (EoA, Pn, TO)
 and cast the second Ponder with the additional {U}. Likewise, if you have
-another Preordain or Ponder in addition to the Oracle in hand, you can use that instead of
-the first Ponder in the example and use that extra card to generate the
-additional {U} needed for the same starting mana cost.
+another Preordain or Ponder in addition to the Oracle in hand, you can use that
+instead of the first Ponder in the example and use that extra card to generate
+the additional {U} needed for the same starting mana cost.
 
 > {B}{B}{B} + Brainstorm + Thassa's Oracle + Cantrip
 
