@@ -37,9 +37,9 @@ minimum, the following cards in your main deck configuration:
 - 1-3 Basic lands
 - 5-6 Dual lands
 
-Your list may look very different but hopefully the principles of how to 
-calculate what to board in / out remain universal enough that it will 
-still apply, even if you are a running a *Turbo* list or a *control* one.
+Your list may look very different but hopefully the principles of how to
+calculate what to board in/out remain universal enough that it will still apply,
+even if you are a running a *Turbo* list or a *Control* one.
 
 ### Sideboard Tools
 
@@ -68,34 +68,34 @@ cards like Meddling Mage to be prominent.
 
 We will be discussing the following categories:
 
-1. Permanent Removal
-1. Creature Removal
-1. Anti Blue
-1. Anti Combo
-1. Anti Graveyard
-1. Mana Assets
-1. Alternate Win Conditions 
+1. Permanent removal
+1. Creature removal
+1. Anti-blue
+1. Anti-combo
+1. Anti-graveyard
+1. Mana assets
+1. Alternate win conditions
 
 #### 1. Permanent Removal
 
 Permanent removal is anything that can deal with hateful interaction such as
-{{Chalice of the Void}}, {{Deafening Silence}}, {{Counterbalance}}, {{Trinisphere}} or {{Narset,
-Parter of Veils}}. Normally it can also deal with creature based interaction too
-but not always. There is a lot of overlap between the two categories however the
-permanent removal section is generally a bit broader. Often is is favourable to
-have only permanent removal then maybe 1 additional flex slot of creature
-removal depending on what is expected to be faced or what your colour
-requirements allow.
+{{Chalice of the Void}}, {{Deafening Silence}}, {{Counterbalance}},
+{{Trinisphere}} or {{Narset, Parter of Veils}}. Normally it can also deal with
+creature based interaction too but not always. There is a lot of overlap between
+the two categories however the permanent removal section is generally a bit
+broader. Often is is favourable to have only permanent removal then maybe 1
+additional flex slot of creature removal depending on what is expected to be
+faced or what your colour requirements allow.
 
-One item on the list which may look out of place is Force of Negation (FoN). 
-FoN provides dual utility in being able to be brought in against opposing
-combo decks as part of the *4. Anti Combo* package but also can function as
-pseudo removal by preventing problem permanents like Trinisphere from ever
-entering the battlefield in the first place.
+One item on the list which may look out of place is Force of Negation (FoN). FoN
+provides dual utility in being able to be brought in against opposing combo
+decks as part of the *4. Anti-Combo* package but also can function as pseudo
+removal by preventing problem permanents like Trinisphere from ever entering the
+battlefield in the first place.
 
-You probably want 2-4 slots dedicated to this role. If running four FoN then
-you can consider adding maybe 1-2 extra slots at most or to save those
-for creature removal options.
+You probably want 2-4 slots dedicated to this role. If running four FoN then you
+can consider adding maybe 1-2 extra slots at most or to save those for creature
+removal options.
 
 Some key examples of permanent removal to consider:
 
@@ -106,7 +106,7 @@ Some key examples of permanent removal to consider:
 - {{Serenity}}
 - {{Teferi's Realm}}
 - {{Chain of Vapor}}
-- {{Pyroblast}}/{{Red Elemental Blast}}
+- {{Pyroblast}} / {{Red Elemental Blast}}
 - {{Pernicious Deed}}
 - {{Echoing Truth}}
 - {{Hurkyl's Recall}}
@@ -165,9 +165,9 @@ These are cards that tend to be geared towards preventing other proactive combo
 decks from initiating or implementing their plans. They tend to be cheap
 disruptive cards that are designed to interact with the opponent.
 
-You probably want 2-4 slots dedicated to this role. As mentioned before
-you can overlap these slots alongside the *1. Permanent Removal* slots
-in the form of FoN.
+You probably want 2-4 slots dedicated to this role. As mentioned before you can
+overlap these slots alongside the *1. Permanent Removal* slots in the form of
+FoN.
 
 Some key examples of anti-combo to consider:
 
@@ -185,14 +185,14 @@ Some key examples of anti-combo to consider:
 These are cards designed to interact with the graveyard. They tend to remove
 cards from a graveyard, either in a targeted or non-targeted fashion. They
 should be thought of as *Hard* anti-graveyard cards or *Soft* anti-graveyard
-cards. *Hard* hate tends to remove the usage of graveyards entirely whilst *soft*
-temporarily removes either a graveyard or few targeted cards from the graveyard.
+cards. *Hard* hate tends to remove the usage of graveyards entirely whilst
+*soft* temporarily removes either a graveyard or few targeted cards from the
+graveyard.
 
 If using Leyline of the Void you likely want to run 4, if not then 1-3 slots
-should suffice. Some tools like Flusterstorm or FoN have very good utility
-in a lot of the matchups that utilise the graveyard so in some circumstances
-you may be able to fight those type of decks without dedicated interaction to
-bring in.
+should suffice. Some tools like Flusterstorm or FoN have very good utility in a
+lot of the matchups that utilise the graveyard so in some circumstances you may
+be able to fight those type of decks without dedicated interaction to bring in.
 
 Some key examples of anti-graveyard to consider:
 
@@ -207,16 +207,16 @@ Some key examples of anti-graveyard to consider:
 
 <row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!RiP}} {{!Grafdigger's Cage}}</row>
 
-#### 6. Mana-Assets
+#### 6. Mana Assets
 
 These are cards that help reinforce your manabase in some way. They may be an
 extra instance of a splash colour, additional basis to fight against Wasteland
 strategies or other mana based tools to use.
 
-This role is the most dependant on your main deck configuration and thus
-you may want between 0-3 slots dedicated to this role.
+This role is the most dependant on your main deck configuration and thus you may
+want between 0-3 slots dedicated to this role.
 
-Some key examples of mana-assets to consider:
+Some key examples of mana assets to consider:
 
 - {{Carpet of Flowers}}
 - {{Cavern of Souls}} (if not main)
@@ -230,17 +230,16 @@ Some key examples of mana-assets to consider:
 
 These are cards that can provide an alternate way to win that supplements the
 primary Doomsday plan or, in the case of a complete *transformative sideboard*
-replaces it entirely. Some of the cards have additional utility such as a
-second Thassa's Oracle increasing your blue card count by effectively
-two (as you can now *pitch* either Oracle to a Force effect). This is 
-good vs matchups where you know you want to maximise having free
-interaction.
+replaces it entirely. Some of the cards have additional utility such as a second
+Thassa's Oracle increasing your blue card count by effectively two (as you can
+now *pitch* either Oracle to a Force effect). This is good vs matchups where you
+know you want to maximise having free interaction.
 
-There isn't a recommended number to run for this role however if you are doing
-a full *transformational sideboard*, it may take up the majority of your sideboard
+There isn't a recommended number to run for this role however if you are doing a
+full *transformational sideboard*, it may take up the majority of your sideboard
 so be mindful if choosing this strategy.
 
-Some key examples of Alternate Win Conditions to consider:
+Some key examples of alternate win conditions to consider:
 
 - An additional {{Thassa's Oracle}}
 - {{Shelldock Isle}} and {{Emrakul, the Aeon's Torn}}
@@ -316,7 +315,7 @@ Blue based control can represent a number of archetypes however they generally
 use a mix of cantrips, removal spells and countermagic to draw out the game and
 gain advantage through it going long. Normally the win conditions utilised are
 not very fast to deploy or are slow to get going, often relying more on defense
-than aggression. Bringing the tool suite from the Anti-Blue package is normally
+than aggression. Bringing the tool suite from the anti-blue package is normally
 most effective with some consideration given to needing to bring in Permanent
 Removal too as often you can face cards like Deafening Silence, Counterbalance
 or Back to Basics. Boarding out cards that are effective in fast games is a good
@@ -341,9 +340,8 @@ opportunity with an early Doomsday you should take it. Cavern of Souls means
 that you can commit to a pass the turn pile across multiple turns and still
 manage to circumnavigate the majority of what interaction they can bring.
 
-Any green based examples of this archtype also tend to run Endurance so
-watch out when trying to aggressively go off in the face of no counter
-magic.
+Any green based examples of this archetype also tend to run Endurance so watch
+out when trying to aggressively go off in the face of no counter magic.
 
 Examples of this archetype include:
 
@@ -363,7 +361,8 @@ cheap, aggressive threat which can then close out the game, backed up by cheap
 disruption. Racing these decks is difficult due to the high amount of
 interaction they bring but falling into the long game can result in one of their
 threats providing heavy pressure. You want to bring in some elements of the
-Anti-Blue package however consideration could also be more focussed on Mana assets.
+anti-blue package however consideration could also be more focussed on Mana
+assets.
 
 Delver strategies try to limit your resources so bring cards like Carpet of
 Flowers in means you negate their soft permission and mana denial plan. Some
@@ -372,26 +371,28 @@ time, trying to fight the Delver player *on the ground* results in wasting time
 and playing into their strategy. If on a more control style build you should
 consider slowing down a little to ensure resilience against their disruption and
 take out cards like Lion's Eye Diamond, Lotus Petal, Lim-Dûl's Vault and
-Personal Tutor. Force of Will and Daze are both considerations for removal too, however
-you should decide to keep one or the other and this could be dependent on being
-on the play vs being on the draw or how much you feel your mana is constrained.
+Personal Tutor. Force of Will and Daze are both considerations for removal too,
+however you should decide to keep one or the other and this could be dependent
+on being on the play vs being on the draw or how much you feel your mana is
+constrained.
 
-Some pilots prefer to try and utilise speed to their advantage. This can either be
-through trying to resolve Doomsday as quickly as possible or, trying to resolve
-Doomsday and avoid passing the turn. For this latter one, maximising free cycle
-effects and adding in mana efficient interaction like Pact of Negation can
-be important.
+Some pilots prefer to try and utilise speed to their advantage. This can either
+be through trying to resolve Doomsday as quickly as possible or, trying to
+resolve Doomsday and avoid passing the turn. For this latter one, maximising
+free cycle effects and adding in mana efficient interaction like Pact of
+Negation can be important.
 
 If possible you want to avoid keeping a hand that is too *all-in* and preferably
 have multiple mana sources at your disposal as Wasteland and Stifle can both be
 a concern. Aggressively fetching your basic lands is advantageous unless you
 think you have enough resilience to ignore any Wasteland effects. Try not to
 feel pressured to jam too quickly but be mindful that thanks to cards like
-Ragavan, Nimble Pilferer, them casting your own discard or opposing Berserk/Invigorate combo can cause
-you to lose quickly. Stifle is the scariest tool in the arsenal of these decks
-as it gets around Cavern of Souls and Veil of Summer so removing that via
-Discard is a prioity. Try to avoid playing into Daze and avoid fighting over
-their threats if you have the luxury to do so.
+{{Ragavan, Nimble Pilferer}}, them casting your own discard or opposing
+{{Berserk}}/{{Invigorate}} combo can cause you to lose quickly. Stifle is the
+scariest tool in the arsenal of these decks as it gets around Cavern of Souls
+and Veil of Summer so removing that via discard is a priority. Try to avoid
+playing into Daze and avoid fighting over their threats if you have the luxury
+to do so.
 
 Examples of this archetype include:
 
@@ -416,15 +417,15 @@ Duress, Thoughtseize, Cavern of Souls, Pyroblasts or Veil of Summer type
 effects.
 
 If you have a fast kill in hand you can keep that with a reasonable chance of
-getting there. The only potential disruption to consider is Mindbreak Trap, Endurance or
-Surgical Extraction effects for same turn wins and something like Deafening
-Silence, Ethersworn Canonist, Thalia, Guardian of Thraben or Choke for pass the
-turn wins. Having a piece of removal in your starting hand is favourable but not
-something you should mulligan too aggressively towards. Try to avoid needing to
-go for Unearth based wins as they could run tools like Elvish Reclaimer or
-Knight of the Reliquary that could fetch Bojuka Bog or have an on-board
-Scavenging Ooze or Containment Priest. Speed is normally better in these
-matchups.
+getting there. The only potential disruption to consider is Mindbreak Trap,
+Endurance or Surgical Extraction effects for same turn wins and something like
+Deafening Silence, Ethersworn Canonist, Thalia, Guardian of Thraben or Choke for
+pass the turn wins. Having a piece of removal in your starting hand is
+favourable but not something you should mulligan too aggressively towards. Try
+to avoid needing to go for Unearth based wins as they could run tools like
+Elvish Reclaimer or Knight of the Reliquary that could fetch Bojuka Bog or have
+an on-board Scavenging Ooze or Containment Priest. Speed is normally better in
+these matchups.
 
 Examples of this archetype include:
 
@@ -445,16 +446,16 @@ countermagic, perhaps in conjecture with other tools, in order to *force
 through* the win. Against non-blue based combo you should focus on balancing
 defense with offense. As much interaction as is relevant should be brought in.
 Cards like Flusterstorm, Veil of Summer, Spell Pierce and Mindbreak Trap should
-be brought in. 
+be brought in.
 
-If the opposing combo has a single key combo piece or a reliance
-on the graveyard then Surgical Extraction can also be considered to be brought
-in. Take out things like Cavern of Souls, basic Island, slower cards like
-Lim-Dûl's Vault, maindeck Pyroblasts, any maindeck removal and potentially
-Predict / Unearth if you are running Ideas Unbound. If you are against blue
-based combo then the Anti-blue suite should be brought in as well as other
-disruption. Remove things like Lion's Eye Diamond, Lim-Dûl's Vault, Unearth,
-Predict, basic Swamp and maindeck removal.
+If the opposing combo has a single key combo piece or a reliance on the
+graveyard then Surgical Extraction can also be considered to be brought in. Take
+out things like Cavern of Souls, basic Island, slower cards like Lim-Dûl's
+Vault, maindeck Pyroblasts, any maindeck removal and potentially Predict/Unearth
+if you are running Ideas Unbound. If you are against blue based combo then the
+anti-blue suite should be brought in as well as other disruption. Remove things
+like Lion's Eye Diamond, Lim-Dûl's Vault, Unearth, Predict, basic Swamp and
+maindeck removal.
 
 You want to keep a hand that is either fast or heavy in disruption. Depending on
 the matchup and speed of the opposing combo you may wish to mulligan
@@ -464,15 +465,14 @@ that you might get *Force checked* in the first turn of the game. Many combo
 decks aim to reduce your life total to 0 therefore it can be risky progressing a
 pass-the-turn pile as it may give them the opportunity they need however you
 could be under threat of having your combo pieces discarded if you don't take an
-opportunity. 
+opportunity.
 
-The specific matchup and your hand composition should help inform
-you of the decision to take. Try to balance finding your own plan whilst
-disrupting theirs and again work out the threat assessment of certain cards.
-Cards like Daze will lose value as the match develops so consider using them
-aggressively unless you have a Force of Will to *pitch* them to. It might be
-better to use your mana to hold up disruption over using your cantrips to full
-turn efficiency.
+The specific matchup and your hand composition should help inform you of the
+decision to take. Try to balance finding your own plan whilst disrupting theirs
+and again work out the threat assessment of certain cards. Cards like Daze will
+lose value as the match develops so consider using them aggressively unless you
+have a Force of Will to *pitch* them to. It might be better to use your mana to
+hold up disruption over using your cantrips to full turn efficiency.
 
 Examples of this archetype include:
 
@@ -544,7 +544,7 @@ elements to consider when facing them:
 
 Part Stompy deck and part blue based combo deck. This deck can be difficult to
 deal with. They will have both Force of Will and Chalice of the Void post board
-so you will want to consider balancing out permanent removal and your Anti-blue
+so you will want to consider balancing out permanent removal and your anti-blue
 suite for the match. If you run Leyline of the Void then that could be a
 consideration but any soft graveyard interaction is likely a trap to run.
 
@@ -553,7 +553,7 @@ consideration but any soft graveyard interaction is likely a trap to run.
 Part creature based deck and part blue based control, their disruption suite
 tends to be a mix of Force of Wills and Force of Negations coupled with cards
 like Meddling Mage and other hatebear type effects. You will definately want
-your Anti-blue suite along with some additional permanent and/or creature
+your anti-blue suite along with some additional permanent and/or creature
 removal to help face them. Disguising what deck you are on pre-board can help
 avoid any relevant Meddling Mage naming against you.
 
@@ -561,7 +561,7 @@ avoid any relevant Meddling Mage naming against you.
 
 Part combo deck and part blue based control, they tend to rely on just pitch
 countermagic coupled with cards like Leovold, Emissary of Trest. You want to
-bring in Anti-blue cards but be mindful they can play a relatively fast combo to
+bring in anti-blue cards but be mindful they can play a relatively fast combo to
 win.
 
 #### Elves
@@ -573,9 +573,9 @@ permanents they can run. Some lists may also run discard effects. With the
 printing of Allosaurus Shepherd these decks can bypass a lot of your disruption
 suite so aiming for a quick combo is pretty key.
 
-Another example of this combination would be GW Depths.
+Another example of this combination would be {G}{W} Depths.
 
-#### Oops all Spells
+#### Oops All Spells
 
 Part graveyard deck and part combo deck, they are popular and more resilient
 with the modal double faced land cards. You should be okay boarding in a similar
