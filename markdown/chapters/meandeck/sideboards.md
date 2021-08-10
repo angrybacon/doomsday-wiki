@@ -1,6 +1,6 @@
 ---
 authors: Nevilshute, Hulahula, Emidln, Monkeyscantcry, Romariovidal, Doishy
-order: 5
+order: 4
 title: General Sideboard Principles
 ---
 

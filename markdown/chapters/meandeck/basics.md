@@ -177,7 +177,7 @@ more turn we still wouldn't have the guaranteed win unless we draw well and our
 opponent could play some interactive piece that punishes us for waiting.
 
 Given we have some protection in hand already, it is probably best to *jam* DR
-into DD off of the swamp and build something like what we have already seen in
+into DD off of the Swamp and build something like what we have already seen in
 the examples above:
 
 > {B}{B}{B} + Passing the turn
@@ -190,7 +190,7 @@ Or
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Tsz}} {{!TO}}</row>
 
-The first example is a *Single Cantrip + Predict* example and the second is a
+The first example is a *Single cantrip + Predict* example and the second is a
 *Double Cantrip* example which also allows you to hold up {B} from your swamp to
 cast a Thoughtseize before committing Oracle to the stack. In this second
 example one of the cantrips involved is your draw step.
@@ -207,7 +207,7 @@ In this example you can draw Predict for turn, play your island and pass again.
 At the end of the opponent's turn you can then cast the Predict, targeting
 yourself and naming Street Wraith, to draw LP and Ponder. This then allows you
 to draw Oracle for your turn and cast it off of Island and LP with double Force
-of Will backup (with Preordain / Ponder as your *pitch* cards). You even have an
+of Will backup (with Preordain/Ponder as your *pitch* cards). You even have an
 additional {B} available to pay for something like Daze. In the event of trouble
 prior to the Predict, or to protect the Predict itself, you have the first Force
 of Will available.

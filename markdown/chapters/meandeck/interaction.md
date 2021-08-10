@@ -231,7 +231,7 @@ your pile and, when combined with Baleful Strix, can function as pseudo draw 2
 or 3. You can use this draw to replace a cantrip slot in any of the piles
 already explained.
 
-## 3. Playing Around / Through Permanent-Based Interaction
+## 3. Playing Around/Through Permanent-Based Interaction
 
 ### Chalice of the Void
 
@@ -478,7 +478,7 @@ your library and a devotion of 2.
 
 This is just one example in a single set of potential circumstances of course.
 Similar to this includes cards like {{Hedron Crab}}, {{Altar of Dementia}},
-{{Ipnu Rivelet}} and {{Cephalid Coliseum}}.
+{{Ipnu Rivulet}} and {{Cephalid Coliseum}}.
 
 ### Fireblast
 
