@@ -34,7 +34,7 @@ making in no time.
 
 ## Brainstorm Pile - Brainstorm Available
 
-> {B}{B}{B} + {U} + Brainstorm + X
+> {U} + Brainstorm + X
 
 <row variant="pile">{{!LED}} {{!SW}} {{!IU}} {{!LP}} {{!TO}}</row>
 
@@ -54,7 +54,7 @@ Let's look at the steps to complete the pile:
 
 Another example is presented here using Predict.
 
-> {B}{B}{B} + {U} + Brainstorm + X
+> {U} + Brainstorm + X
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pdt}} {{!LP}} {{!TO}}</row>
 
@@ -80,7 +80,7 @@ under pressure you may not be able to.
 
 Consider the following example:
 
-> {B}{B}{B} + {U} + Brainstorm + Thassa's Oracle
+> {U} + Brainstorm + Thassa's Oracle
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!EoA}} {{!Pnd}}</row>
 
@@ -98,7 +98,7 @@ another Preordain or Ponder in addition to the Oracle in hand, you can use that
 instead of the first Ponder in the example and use that extra card to generate
 the additional {U} needed for the same starting mana cost.
 
-> {B}{B}{B} + {U} + Brainstorm + Thassa's Oracle + Cantrip
+> {U} + Brainstorm + Thassa's Oracle + Cantrip
 
 <row variant="pile">{{!LED}} {{!SW}} {{!LP}} {{!EoA}} {{!Pnd}}</row>
 
@@ -123,7 +123,7 @@ utilise the additional resources. Let's look at an example where you have an
 extra {B} available, IU in hand and you know your opponent is holding a Stifle
 in hand.
 
-> {B}{B}{B} + {U} + Brainstorm + Ideas Unbound + X + {B}
+> {U}{B} + Brainstorm + Ideas Unbound + X
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Tsz}} {{!LP}} {{!TO}}</row>
 
@@ -149,7 +149,7 @@ have any free cycling effect in hand you can get around this by placing a Lotus
 Petal as the first card of your pile. This works with a {U}-producing land as
 well if you have an available land drop for that turn.
 
-> {B}{B}{B} + {U} + Brainstorm + Street Wraith + X
+> {U} + Brainstorm + Street Wraith + X
 
 <row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!TO}} {{!I|RAV}}</row>
 
@@ -162,7 +162,7 @@ Again this is an example of an imperfect pile. If you played a list featuring
 {{Baleful Strix}} in, you can make the following minor adjustment to the pile if
 you have a Strix in play to turn it into a perfect pile.
 
-> {B}{B}{B} + {U} + Brainstorm + Street Wraith + X
+> {U} + Brainstorm + Street Wraith + X
 
 <row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
@@ -182,7 +182,7 @@ Brainstorm pile without Brainstorm even being in our hand. Instead of needing
 something like a Lotus Petal to be our top card, we can set Brainstorm as our
 top card instead.
 
-> {B}{B}{B} + {U} + Street Wraith + X
+> {U} + Street Wraith + X
 
 <row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
@@ -205,7 +205,7 @@ You successfully resolve Doomsday but suspect your opponent may be holding an
 {{Endurance}} plus *pitch* card in hand. In this scenario you can build the
 following pile:
 
-> {B}{B}{B} + {U} + Brainstorm + Street Wraith + X + X
+> {U} + Brainstorm + Street Wraith + X + X
 
 <row variant="pile">{{!EoA}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
 
@@ -222,7 +222,7 @@ You can also utilise a spare land in hand plus a land drop to enable the
 creation of a perfect Brainstorm pile. Consider the following scenario where we
 have perhaps run out of fetchable lands from our deck as they are in our hand:
 
-> {B}{B}{B} + {U} + Brainstorm + Street Wraith + Underground Sea + Underground Sea  
+> {U} + Brainstorm + Street Wraith + Underground Sea + Underground Sea  
 > A fetchland in play, land drop available for turn
 
 <row variant="pile">{{!SW}} {{!LP}} {{!Misty Rainforest}} {{!Daze}} {{!TO}}</row>
@@ -245,7 +245,7 @@ you need to win on the spot.
 
 Let us consider the following example:
 
-> {B}{B}{B} + {U} + Brainstorm + X
+> {U} + Brainstorm + X
 
 <row variant="pile">{{!SW}} {{!SW}} {{!CoS}} {{!TO}} {{!PoN}}</row>
 

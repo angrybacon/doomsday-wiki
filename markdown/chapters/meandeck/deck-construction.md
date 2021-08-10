@@ -241,7 +241,7 @@ eighteen you should probably be running two at most. You should always consider
 running at least two because of the usefulness in pile building such as in the
 example below:
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
 

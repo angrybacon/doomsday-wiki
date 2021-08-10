@@ -48,7 +48,7 @@ potentially try a *bait pile* which tries to go off in one turn but has the
 option to wait another. This can be especially useful if you are playing
 multiple Oracles. Let us take this example from the Brainstorm chapter:
 
-> {B}{B}{B} + Brainstorm + Thassa's Oracle
+> {U} + Brainstorm + Thassa's Oracle
 
 <row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!EoA}} {{!TO}}</row>
 
@@ -95,7 +95,8 @@ resolving TO.
 
 Consider the following:
 
-> {B}{B}{B} + {U}{U} + Ponder + Island (Land drop available)
+> {U}{U} + Ponder + Island  
+> Land drop available
 
 <row variant="pile">{{!BS}} {{!SW}} {{!EoA}} {{!Polluted Delta|ONS}} {{!TO}}</row>
 
@@ -209,7 +210,7 @@ countermagic. Cavern of Souls is an easy fit into the Meandeck gameplan and, if
 a land drop is available, can easily slot into some of the more *standard*
 piles.
 
-> {B}{B}{B} + Brainstorm + X
+> {U} + Brainstorm + X
 
 <row variant="pile">{{!Pdt}} {{!LED}} {{!EoA}} {{!TO}} {{!CoS}}</row>
 
@@ -220,7 +221,7 @@ beforehand resolve.
 
 Likewise it can slot into most IU piles too.
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!CoS}} {{!EoA}} {{!TO}}</row>
 
@@ -247,11 +248,11 @@ you can easily just cast it from lands. It is perfectly fine getting to turn
 three without having fetched and just finding three black sources to cast
 Doomsday. From that point you don't have to cast a single one mana spell.
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
 
-> {B}{B}{B} + {1}{U} + Cantrip
+> {1}{U} + Cantrip
 
 <row variant="pile">{{!Pdt}} {{!Dur}} {{!LED}} {{!EoA}} {{!TO}}</row>
 
@@ -268,7 +269,8 @@ may play a Chalice X = 2 in the late game. For X = 0 this is fine so long as you
 have been making land drops throughout the game or, at worst, allows you to put
 lands into the pile itself.
 
-> {B}{B}{B} + {U}{U}{U} + Cantrip
+> {U}{U}{U} + Cantrip  
+> Land drop available
 
 <row variant="pile">{{!IU}} {{!SW}} {{!I|RAV}} {{!EoA}} {{!TO}}</row>
 
@@ -285,7 +287,7 @@ Post-board, for all of the above, you can also start adding removal into your
 piles as the top card in order to try and facilitate the win. Consider the below
 PTT example against a Chalice of the Void.
 
-> {B}{G} + {U} + Brainstorm + X (Post Doomsday)
+> {U}{B}{G} + Brainstorm + X + PTT
 
 <row variant="pile">{{!AD}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
@@ -401,7 +403,7 @@ succeeding despite the shuffle, or even immune to it. A big part of when the
 opponent casts the Surgical can depend on what spell you are using to draw into
 a pile. Let us take the following scenario:
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
 
@@ -434,7 +436,7 @@ library by casting your own Surgical on the original Doomsday and *shrink it* by
 that amount. This again assumes they will Surgical at a time you want but it is
 a possibility to be considered.
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
 <row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
 
@@ -463,7 +465,7 @@ mana to activate it but you otherwise have a window to try and win. Just like
 with Surgical Extraction it is difficult to know if and/or when the opponent may
 try to activate the Grindstone but it is possible to play around.
 
->{B}{B}{B} + {U}{U} to {U}{U}{U}{U} + Cantrip
+> {U}{U} + ({U}{U}) + Cantrip
 
 <row variant="pile">{{!Pnd}} {{!Pnd}} {{!SW}} {{!EoA}} {{!TO}}</row>
 
@@ -585,14 +587,14 @@ to you.
 
 Consider the following example from the basics chapter.
 
-> {B}{B}{B} + {U}{U} + PTT
+> {U}{U} + PTT
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
 You can make a minor adjustment without losing functionality of the pile by
 placing the SW as the first card.
 
-> {B}{B}{B} + {U}{U} + PTT
+> {U}{U} + PTT
 
 <row variant="pile">{{!SW}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 

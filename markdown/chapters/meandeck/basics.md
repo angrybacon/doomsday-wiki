@@ -66,15 +66,14 @@ followed by the pile as a visual display.
 
 If we take the following example:
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
-This cost shows we require {B}{B}{B} for casting Doomsday. {U}{U} for casting
+This cost shows we require {B}{B}{B} for casting Doomsday, {U}{U} for casting
 specific cards in the pile and the ability to *cantrip*. If the chosen *cantrip*
 effect costs mana you will need to add this on to the total otherwise presented.
-In the example of using Preordain as your cantrip you will need {B}{B}{B} +
-{U}{U} + {U}.
+In the example of using Preordain as your cantrip you will need {U}{U} + {U}.
 
-> {B}{B}{B} + {U}{U} + Brainstorm + X
+> {U} + Brainstorm + X
 
 Sometimes we will use the terminology of X. In this instance X means having any
 single card in hand, irrespective of what that card is. An X card is normally
@@ -83,7 +82,7 @@ explore more of this in another chapter.
 
 ## Single Cantrip + Ideas Unbound Pile
 
-> {B}{B}{B} + {U}{U} + Cantrip
+> {U}{U} + Cantrip
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
@@ -97,7 +96,7 @@ Souls}} if you have a land drop available to you.
 
 ## Single Cantrip + Predict Pile
 
-> {B}{B}{B} + {1}{U} + Cantrip
+> {1}{U} + Cantrip
 
 <row variant="pile">{{!Pdt}} {{!Pnd}} {{!LED}} {{!SW}} {{!TO}}</row>
 
@@ -114,7 +113,7 @@ Once the cycle draw resolves, you will now have the mana to cast Oracle.
 
 ## Double Cantrip Pile
 
-> {B}{B}{B} + Cantrip + Cantrip
+> Cantrip + Cantrip
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!PoN}} {{!TO}}</row>
 
@@ -143,7 +142,7 @@ If short on mana and LED becomes necessary, you can replicate the *double
 cantrip* piles above once again using the first cantrip to draw into LED, and
 the second cantrip to dig deeper into your pile while cracking the LED for mana.
 
-> {B}{B}{B} + Cantrip + Cantrip
+> Cantrip + Cantrip
 
 <row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
 
@@ -180,13 +179,13 @@ Given we have some protection in hand already, it is probably best to *jam* DR
 into DD off of the Swamp and build something like what we have already seen in
 the examples above:
 
-> {B}{B}{B} + Passing the turn
+> PTT
 
 <row variant="pile">{{!Pdt}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
 
 Or
 
-> {B}{B}{B} + Cantrip + Passing the turn
+> PTT + Cantrip
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Tsz}} {{!TO}}</row>
 
@@ -199,7 +198,7 @@ If you are concerned about additional permission from the opponent you could
 even consider passing the turn again if you don't feel under pressure. Instead
 of using LED you can set up something like this:
 
-> {B}{B}{B} + Passing the turn twice
+> PTT + PTT
 
 <row variant="pile">{{!Pdt}} {{!SW}} {{!LP}} {{!Pnd}} {{!TO}}</row>
 
