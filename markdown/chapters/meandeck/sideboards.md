@@ -351,7 +351,7 @@ Examples of this archetype include:
 - Stryfo Pile
 - Jeskai Mentor
 
-<row variant="pile">{{!Counterbalance}} {{!Standstill}} {{!Dack Fayden}} {{!Standstill}} {{!Endurance}}</row>
+<row variant="pile">{{!Counterbalance}} {{!Standstill}} {{!Dack Fayden}} {{!Sylvan Library}} {{!Endurance}}</row>
 
 ### Delver Strategies
 
