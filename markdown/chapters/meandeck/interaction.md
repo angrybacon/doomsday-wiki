@@ -459,6 +459,8 @@ an unexpected interaction you may not have considered before. If something does
 
 ### Grindstone
 
+<row variant="centered">{{!Grindstone}}</row>
+
 This is a consideration when facing any Painter variant. You can find yourself
 in a situation whereby your opponent may have an active {{Grindstone}} and the
 mana to activate it but you otherwise have a window to try and win. Just like
@@ -484,6 +486,8 @@ Similar to this includes cards like {{Hedron Crab}}, {{Altar of Dementia}},
 
 ### Fireblast
 
+<row variant="centered">{{!Fireblast}}</row>
+
 Fireblast is something to be mindful of only in the Burn matchup but it's a good
 consideration in line with Lightning bolt to be mindful of your life total. If
 you cast Doomsday from nine life or less you are weak to Fireblast once the
@@ -495,6 +499,8 @@ one life you will immediately lose due to the rounding up clause of the life
 loss.
 
 ### Mindbreak Trap
+
+<row variant="centered">{{!Mindbreak Trap}}</row>
 
 {{Mindbreak Trap}} is a popular tool to beat combo decks and work around Veil of
 Summer. If you know or suspect the possibility of facing it then you can either
@@ -524,6 +530,8 @@ effects should it be desired.
 
 ### Thought Scour / Predict / Archmage's Charm
 
+<row variant="centered">{{!Thought Scour}} {{!Pdt}} {{!Archmage's Charm}}</row>
+
 Thought Scour is not normally a common card in Legacy now that the {{Underworld
 Breach}} era is gone however it can still show up in rogue brews from time to
 time. Predict is a card advantage spell played by both Miracles and Doomsday
@@ -536,6 +544,8 @@ taking a bit more time to play around it.
 
 ### Dack Fayden / Jace, the Mind Sculptor / Portent
 
+<row variant="centered">{{!Dack Fayden}} {{!Jace, the Mind Sculptor}} {{!Portent}}</row>
+
 These only need to be considered when building a Pass the Turn pile. Jace is
 likely the most common one to face and is easily beaten by placing an otherwise
 innocuous cantrip as the top card. If the opponent *upticks* Jace then they
@@ -543,6 +553,8 @@ cannot *hit* an integral piece if it's the second card down and even if they
 allow it to stay on top you can still execute the pile without hindrance.
 
 ### Vendilion Clique / Kolaghan's Command
+
+<row variant="centered">{{!Vendilion Clique}} {{!Kolaghan's Command}}</row>
 
 Both of these cards tend to come from control shells. Command is likely more
 disruptive but can be played around assuming you are able to ensure you have one
@@ -556,6 +568,8 @@ your opponent being able to *snipe* an LED with the artifact destruction mode.
 
 ### Stifle / Trickbind / Torpor Orb / Dress Down
 
+<row variant="pile">{{!Stifle}} {{!Trickbind}} {{!Torpor Orb}} {{!Dress Down}}</row>
+
 These effects all seek to prevent the Thassa's Oracle trigger from either
 resolving or ever triggering in the first place. For any permanent based one you
 will need to remove it to be able to win from the Oracle trigger. For the
@@ -567,6 +581,8 @@ example of these effects.
 
 ### Thoughtseize / Thoughtknot Seer / Cabal Therapy
 
+<row variant="centered">{{!Tsz}} {{!Thoughtknot Seer}} {{!CT}}</row>
+
 These effects tend to only be relevant for PTT piles. Normally they can be
 safely ignored however they may cause delay to your pile winning or, in the
 worst case scenario, could take your Oracle out of your hand leaving you unable
@@ -574,6 +590,8 @@ to win. Just be mindful of when these cards could come up if building a PTT
 pile.
 
 ### Ragavan, Nimble Pilferer
+
+<row variant="centered">{{!Ragavan, Nimble Pilferer}}</row>
 
 Another PTT only example. You may know about a {{Ragavan, Nimble Pilferer}} on
 board or suspect your opponent might be able to *dash* one from their hand. When

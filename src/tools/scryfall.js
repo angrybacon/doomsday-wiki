@@ -9,6 +9,7 @@ const CARDS = {
   CB:    ["Conjurer's Bauble",        '5DN'],
   CR:    ['Cabal Ritual',             'TOR'],
   CS:    ['Chromatic Sphere',         'INV'],
+  CT:    ['Cabal Therapy',            'JUD'],
   CoB:   ['City of Brass',            'ARN'],
   CoBru: ['Collective Brutality',     'EMN'],
   CoS:   ['Cavern of Souls',          'AVR'],
