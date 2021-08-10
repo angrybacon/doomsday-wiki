@@ -104,7 +104,7 @@ than a Storm pile with Contract.
 
 #### Ideas Unbound
 
-> Pn, Pn in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
+> Pnd, Pnd in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</row>
 
@@ -124,7 +124,7 @@ rest of the pile and use that Lion's Eye Diamond to pay for much of the rest of
 the pile. We basically turn our additional cantrip into a Lion's Eye Diamond
 with Doomsday.
 
-> Pn, Pn in hand - {B}{B}{B} + {U}{U}
+> Pnd, Pnd in hand - {B}{B}{B} + {U}{U}
 
 <row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
 

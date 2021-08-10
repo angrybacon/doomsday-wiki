@@ -50,7 +50,7 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 > {B}{B}{B} + Brainstorm + Thassa's Oracle
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pn}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!EoA}} {{!TO}}</row>
 
 1. Cast Brainstorm and put back Oracle then Ponder on top
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
