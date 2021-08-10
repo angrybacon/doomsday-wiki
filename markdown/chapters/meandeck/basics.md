@@ -68,11 +68,12 @@ If we take the following example:
 
 > {U}{U} + Cantrip
 
-The cost omits that we require {B}{B}{B} for casting Doomsday as this is an assumed
-requirement for even considering what pile to build. It requires {U}{U} for casting
-specific cards in the pile and the ability to *cantrip*. If the chosen *cantrip*
-effect costs mana you will need to add this on to the total otherwise presented.
-In the example of using Preordain as your cantrip you will need {U}{U} + {U}.
+The cost omits that we require {B}{B}{B} for casting Doomsday as this is an
+assumed requirement for even considering what pile to build. It requires {U}{U}
+for casting specific cards in the pile and the ability to *cantrip*. If the
+chosen *cantrip* effect costs mana you will need to add this on to the total
+otherwise presented. In the example of using Preordain as your cantrip you will
+need {U}{U} + {U}.
 
 > {U} + Brainstorm + X
 
