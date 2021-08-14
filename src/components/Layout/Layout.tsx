@@ -2,28 +2,13 @@ import c from 'classnames';
 import React, { FunctionComponent, ReactNode, useState } from 'react';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
-import {
-  Theme,
-  createStyles,
-  makeStyles,
-  useTheme,
-} from '@material-ui/core/styles';
+import { useTheme } from '@material-ui/core/styles';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import type { ChapterEntry } from '@/tools/markdown/types';
-
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    container: {
-      marginLeft: theme.drawer.width,
-      '&.mobile': {
-        marginLeft: 0,
-      },
-    },
-  })
-);
+import { useStyles } from '@/components/Layout/Layout.styles';
 
 type OnSidebarToggle = (value: boolean) => () => void;
 

@@ -6,27 +6,16 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
 import type { ChapterEntry } from '@/tools/markdown/types';
-
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    chevron: {
-      transition: theme.transitions.create('transform'),
-    },
-    pages: {
-      backgroundColor: theme.palette.background.default,
-    },
-  })
-);
+import { useStyles } from '@/components/Sidebar/Entry.styles';
 
 type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
 
 type Props = ChapterEntry;
 
-export const SidebarEntry: FunctionComponent<Props> = ({
+export const Entry: FunctionComponent<Props> = ({
   icon,
   pages,
   subtitle,
