@@ -5,22 +5,10 @@ import IconButton from '@material-ui/core/IconButton';
 import Slide from '@material-ui/core/Slide';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-import { Theme, makeStyles } from '@material-ui/core/styles';
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-
-const useStyles = makeStyles((theme: Theme) => ({
-  bar: {
-    left: theme.drawer.width,
-    zIndex: theme.zIndex.drawer - 1,
-    '&.mobile': {
-      left: 0,
-    },
-  },
-  menu: { marginRight: theme.spacing() },
-  offset: theme.mixins.toolbar,
-}));
+import { useStyles } from '@/components/Header/Header.styles';
 
 interface Props {
   /** Whether the header should be left-padded. */

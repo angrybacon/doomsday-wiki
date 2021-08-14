@@ -2,36 +2,9 @@ import React, { FunctionComponent } from 'react';
 import Divider from '@material-ui/core/Divider';
 import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
-import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
-import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
+import { Entry } from '@/components/Sidebar/Entry';
 import type { ChapterEntry } from '@/tools/markdown/types';
-
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    paper: {
-      width: theme.drawer.width,
-    },
-    root: {
-      [theme.breakpoints.up('sm')]: {
-        width: theme.drawer.width,
-        flexShrink: 0,
-      },
-    },
-    appBar: {
-      [theme.breakpoints.up('sm')]: {
-        width: `calc(100% - ${theme.drawer.width}px)`,
-        marginLeft: theme.drawer.width,
-      },
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-      [theme.breakpoints.up('sm')]: {
-        display: 'none',
-      },
-    },
-    toolbar: theme.mixins.toolbar,
-  })
-);
+import { useStyles } from '@/components/Sidebar/Sidebar.styles';
 
 interface Props {
   /** Content of the drawer menu. */
@@ -57,7 +30,7 @@ export const Sidebar: FunctionComponent<Props> = ({
       <Divider />
       <List dense>
         {chapters.map((chapter) => (
-          <SidebarEntry key={`chapter-${chapter.title}`} {...chapter} />
+          <Entry key={`chapter-${chapter.title}`} {...chapter} />
         ))}
       </List>
       <Divider />

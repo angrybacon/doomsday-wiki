@@ -1,7 +1,7 @@
-import NextLink, { LinkProps } from 'next/link';
+import NextLink, { LinkProps as NextLinkProps } from 'next/link';
 import React, { FunctionComponent } from 'react';
 
-interface Props extends LinkProps {
+interface Props extends NextLinkProps {
   href: string;
 }
 
