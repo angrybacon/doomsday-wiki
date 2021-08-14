@@ -1,4 +1,7 @@
+import NextLink from 'next/link';
 import React, { FunctionComponent } from 'react';
+import Box from '@material-ui/core/Box';
+import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
@@ -26,9 +29,20 @@ export const Sidebar: FunctionComponent<Props> = ({
   const classes = useStyles();
   const drawer = (
     <>
-      <div className={classes.toolbar} />
+      <Box alignItems="center" display="flex" className={classes.header}>
+        <NextLink href="/" passHref>
+          <Button
+            color="primary"
+            disableElevation
+            size="small"
+            variant="contained"
+          >
+            ddft.wiki
+          </Button>
+        </NextLink>
+      </Box>
       <Divider />
-      <List dense>
+      <List component="nav" dense>
         {chapters.map((chapter) => (
           <Entry key={`chapter-${chapter.title}`} {...chapter} />
         ))}
@@ -47,10 +61,8 @@ export const Sidebar: FunctionComponent<Props> = ({
     : { open: true, variant: 'permanent' };
 
   return (
-    <nav className={classes.root}>
-      <Drawer classes={{ paper: classes.paper }} {...drawerProps}>
-        {drawer}
-      </Drawer>
-    </nav>
+    <Drawer classes={{ paper: classes.paper }} {...drawerProps}>
+      {drawer}
+    </Drawer>
   );
 };
