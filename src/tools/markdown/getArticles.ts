@@ -1,11 +1,10 @@
-import { readFileSync } from 'fs';
 import { join } from 'path';
-import matter, { GrayMatterFile } from 'gray-matter';
 import { Article } from '@/tools/markdown/types';
 import {
   BASE_ARTICLE_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
+import { read } from '@/tools/markdown/read';
 import { walk } from '@/tools/markdown/walk';
 
 /** Default options for the `getArticles` helper. */
@@ -25,14 +24,12 @@ export const getArticles: GetArticles = (options) => {
   const reduceFunction: 'reduce' | 'reduceRight' = ascending
     ? 'reduce'
     : 'reduceRight';
-  const files = Array.from(walk(BASE_ARTICLE_URL, MARKDOWN_EXTENSION));
+  const files = Array.from(walk(BASE_ARTICLE_URL, { depth: 4 }));
   const articles = files[reduceFunction]<Article[]>((accumulator, segments) => {
     // NOTE Only consider complete paths ie. [year, month, day, article]
     if (segments.length === 4) {
-      const path: string =
-        join(BASE_ARTICLE_URL, ...segments) + MARKDOWN_EXTENSION;
-      const buffer: string = readFileSync(path, 'utf8');
-      const { data }: GrayMatterFile<string> = matter(buffer);
+      const path = join(BASE_ARTICLE_URL, ...segments) + MARKDOWN_EXTENSION;
+      const { data } = read(path);
       const [year, month, day] = segments;
       return [
         ...accumulator,
