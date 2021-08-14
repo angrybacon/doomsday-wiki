@@ -9,8 +9,11 @@
     "lint:code": "eslint .",
     "lint:fix": "yarn lint:code --fix",
     "lint:typings": "tsc",
+    "lint:typings:watch": "tsc -w",
     "prepare": "husky install",
-    "start": "next start"
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.2",
@@ -18,16 +21,20 @@
     "@mdi/react": "^1.5.0",
     "classnames": "^2.3.1",
     "gray-matter": "^4.0.3",
+    "memfs": "^3.2.2",
     "next": "^11.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-markdown": "^6.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
     "@types/node": "^16.0.0",
     "@types/react": "^17.0.13",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
+    "babel-jest": "^27.0.6",
     "eslint": "^7.30.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -37,6 +44,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": ">=6",
+    "jest": "^27.0.6",
     "lint-staged": ">=10",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5"
