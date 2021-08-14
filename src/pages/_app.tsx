@@ -1,13 +1,20 @@
-import { AppProps } from 'next/app';
+import NextApplication from 'next/app';
+import type { AppContext, AppProps } from 'next/app';
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { theme } from '@/theme/theme';
+import { getChapters } from '@/tools/markdown/getChapters';
+import type { WithChapters } from '@/tools/markdown/types';
 
-type ApplicationFunction = (props: AppProps) => JSX.Element;
+type ApplicationProps = AppProps & WithChapters;
 
-const Application: ApplicationFunction = ({ Component, pageProps }) => {
+const Application = ({
+  Component,
+  chapters,
+  pageProps,
+}: ApplicationProps): JSX.Element => {
   useEffect(() => {
     const styles = document.querySelector('#jss-server-side');
     styles?.parentElement?.removeChild(styles);
@@ -24,10 +31,15 @@ const Application: ApplicationFunction = ({ Component, pageProps }) => {
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <Component {...pageProps} chapters={chapters} />
       </ThemeProvider>
     </>
   );
+};
+
+Application.getInitialProps = async (context: AppContext) => {
+  const props = await NextApplication.getInitialProps(context);
+  return { ...props, chapters: getChapters() };
 };
 
 export default Application;

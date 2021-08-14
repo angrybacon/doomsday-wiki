@@ -1,8 +1,19 @@
-import { readdirSync } from 'fs';
+import { existsSync, readdirSync } from 'fs';
 import { join, parse } from 'path';
+import { MARKDOWN_EXTENSION } from '@/tools/markdown/constants';
+
+/** Default options the `walk` generator. */
+const walkOptionsDefault: WalkOptions = {
+  extension: MARKDOWN_EXTENSION,
+};
+
+interface WalkOptions {
+  depth?: number;
+  extension?: string;
+}
 
 /**
- * Generator to walk through `directory` and yield all files.
+ * generator to walk through `directory` and yield all files.
  * Return a tuple containing all parent folders in an array and the file
  * extension.
  * When `extension` is specified, only return files that match.
@@ -10,17 +21,21 @@ import { join, parse } from 'path';
  */
 export function* walk(
   directory: string,
-  extension: string,
+  options: WalkOptions = {},
   accumulator: string[] = []
 ): Generator<string[]> {
-  // NOTE Looping over the stream requires the `--downlevelIteration` flag
-  for (const file of readdirSync(directory, { withFileTypes: true })) {
-    const entry = join(directory, file.name);
-    const { ext, name } = parse(file.name);
-    if (file.isDirectory()) {
-      yield* walk(entry, extension, [...accumulator, file.name]);
-    } else if (file.isFile() && (!extension || ext === extension)) {
-      yield [...accumulator, name];
+  const { depth, extension } = { ...walkOptionsDefault, ...options };
+  if (accumulator.length === depth) return;
+  if (existsSync(directory)) {
+    // NOTE Looping over the stream requires the `--downlevelIteration` flag
+    for (const file of readdirSync(directory, { withFileTypes: true })) {
+      const entry = join(directory, file.name);
+      const { ext, name } = parse(file.name);
+      if (file.isDirectory()) {
+        yield* walk(entry, { depth, extension }, [...accumulator, file.name]);
+      } else if (file.isFile() && (!extension || ext === extension)) {
+        yield [...accumulator, name];
+      }
     }
   }
 }

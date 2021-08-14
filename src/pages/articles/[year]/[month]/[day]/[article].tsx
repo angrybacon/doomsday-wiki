@@ -9,14 +9,17 @@ import { Layout } from '@/components/Layout/Layout';
 import { Title } from '@/components/Title/Title';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import { Article, Markdown } from '@/tools/markdown/types';
+import { Article, Markdown, WithChapters } from '@/tools/markdown/types';
 
 interface Props {
   markdown: Markdown;
 }
 
-const ArticlePage: NextPage<Props> = ({ markdown }) => (
-  <Layout>
+const ArticlePage: NextPage<Props & WithChapters> = ({
+  chapters,
+  markdown,
+}) => (
+  <Layout chapters={chapters}>
     <Title title={markdown?.data?.title} />
     <Grid container spacing={2}>
       <Grid item xs={12}>
