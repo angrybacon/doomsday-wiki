@@ -23,6 +23,13 @@
         "@typescript-eslint/explicit-module-boundary-types": "error",
         "react/prop-types": "off"
       }
+    },
+    {
+      "files": ["*.test.ts", "*.test.tsx"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "global-require": "off"
+      }
     }
   ],
   "parser": "@typescript-eslint/parser",
