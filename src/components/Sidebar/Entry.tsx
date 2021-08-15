@@ -8,12 +8,14 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
-import type { ChapterEntry } from '@/tools/markdown/types';
+import type { CategoryMeta, Document } from '@/tools/markdown/types';
 import { useStyles } from '@/components/Sidebar/Entry.styles';
 
 type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
 
-type Props = ChapterEntry;
+type Props = CategoryMeta & {
+  pages: Document[];
+};
 
 export const Entry: FunctionComponent<Props> = ({
   icon,
@@ -52,10 +54,10 @@ export const Entry: FunctionComponent<Props> = ({
       <Collapse in={isOpen} timeout="auto" unmountOnExit>
         <Divider />
         <List className={classes.pages} component="div" dense disablePadding>
-          {pages.map(({ route, title: pageTitle }) => (
+          {pages.map(({ data, route }) => (
             <NextLink href={route} key={`page-${route}`} passHref>
               <ListItem button component="a">
-                <ListItemText primary={pageTitle} />
+                <ListItemText primary={data?.title || route} />
               </ListItem>
             </NextLink>
           ))}

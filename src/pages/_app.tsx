@@ -5,14 +5,14 @@ import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { theme } from '@/theme/theme';
-import { getChapters } from '@/tools/markdown/getChapters';
-import type { WithChapters } from '@/tools/markdown/types';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type { WithMenu } from '@/tools/markdown/types';
 
-type ApplicationProps = AppProps & WithChapters;
+type ApplicationProps = AppProps & WithMenu;
 
 const Application = ({
   Component,
-  chapters,
+  menu,
   pageProps,
 }: ApplicationProps): JSX.Element => {
   useEffect(() => {
@@ -31,7 +31,8 @@ const Application = ({
       </Head>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} chapters={chapters} />
+        {/* TODO Provide menu through a shared context */}
+        <Component {...pageProps} menu={menu} />
       </ThemeProvider>
     </>
   );
@@ -39,7 +40,7 @@ const Application = ({
 
 Application.getInitialProps = async (context: AppContext) => {
   const props = await NextApplication.getInitialProps(context);
-  return { ...props, chapters: getChapters() };
+  return { ...props, menu: getMenu() };
 };
 
 export default Application;

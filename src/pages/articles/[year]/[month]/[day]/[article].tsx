@@ -9,17 +9,14 @@ import { Layout } from '@/components/Layout/Layout';
 import { Title } from '@/components/Title/Title';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import { Article, Markdown, WithChapters } from '@/tools/markdown/types';
+import { Document, Markdown, WithMenu } from '@/tools/markdown/types';
 
 interface Props {
   markdown: Markdown;
 }
 
-const ArticlePage: NextPage<Props & WithChapters> = ({
-  chapters,
-  markdown,
-}) => (
-  <Layout chapters={chapters}>
+const ArticlePage: NextPage<Props & WithMenu> = ({ markdown, menu }) => (
+  <Layout menu={menu}>
     <Title title={markdown?.data?.title} />
     <Grid container spacing={2}>
       <Grid item xs={12}>
@@ -34,9 +31,9 @@ const ArticlePage: NextPage<Props & WithChapters> = ({
 );
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const articles: Article[] = getArticles();
-  const paths = articles.map(({ segments }) => {
-    const [year, month, day, article] = segments;
+  const articles: Document[] = getArticles();
+  const paths = articles.map(({ crumbs }) => {
+    const [year, month, day, article] = crumbs;
     return { params: { article, day, month, year } };
   });
   return { fallback: false, paths };
