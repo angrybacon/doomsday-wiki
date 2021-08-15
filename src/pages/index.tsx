@@ -6,7 +6,6 @@ import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import { Article } from '@/components/Article/Article';
 import { Layout } from '@/components/Layout/Layout';
-import { Title } from '@/components/Title/Title';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import type { Document, Markdown, WithMenu } from '@/tools/markdown/types';
@@ -17,22 +16,19 @@ interface Props {
 }
 
 const HomePage: NextPage<Props & WithMenu> = ({ articles, menu, welcome }) => (
-  <Layout menu={menu}>
-    <Title title="Welcome" />
-    <Grid container spacing={2}>
-      <Grid item sm={6} md={7}>
-        <Card>
-          <CardContent component={ReactMarkdown}>{welcome.content}</CardContent>
-        </Card>
-      </Grid>
-      <Grid item xs>
-        <Grid container direction="column" spacing={2}>
-          {articles.map(({ data, route }) => (
-            <Grid item key={`article-${route}`} xs={12}>
-              <Article matter={data} route={route} />
-            </Grid>
-          ))}
-        </Grid>
+  <Layout grid menu={menu} title="Welcome">
+    <Grid item sm={6} md={7}>
+      <Card>
+        <CardContent component={ReactMarkdown}>{welcome.content}</CardContent>
+      </Card>
+    </Grid>
+    <Grid item xs>
+      <Grid container direction="column" spacing={2}>
+        {articles.map(({ data, route }) => (
+          <Grid item key={`article-${route}`} xs={12}>
+            <Article matter={data} route={route} />
+          </Grid>
+        ))}
       </Grid>
     </Grid>
   </Layout>
