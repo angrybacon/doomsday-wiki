@@ -1,138 +1,14 @@
-#+TITLE: DDFT Wiki
+#+TITLE: Doomsday Wiki
 #+AUTHOR: Mathieu Marques
-
-** Contributing with Content
-
-The following sections will describe how to contribute for specific content
-within the Wiki.
-
-Pull request only.
-
-*** Markdown
-
-**** Pages
-
-The Markdown is located under =markdown/=.
-
-- =appendices/= :: Extra-resources that serve as reference for new players and
-                   seasoned pilots alike.
-- =archive/=    :: Old content that no longer presents relevance due to bannings
-                   or else.
-- =articles/=   :: Dated reports and theories.
-- =authors/=    :: Contributors.
-- =chapters/=   :: Most of the content goes there, organized in chapters and
-                   pages.
-- =partials/=   :: Some static content within the Wiki comes from those
-                   partials, this avoids having to maintain content alongside
-                   code.
-
-#+BEGIN_QUOTE
-*Note*  
-Adding Markdown content in the following directories automatically creates new
-pages and route URLs: =appendices/=, =articles/=, =chapters/=.  
-URLs follow the file paths. Follow existing conventions.
-#+END_QUOTE
-
-#+BEGIN_QUOTE
-*Note*  
-In order to add a new chapter make sure you don't forget to add the
-corresponding entry in the sidebar component.
-#+END_QUOTE
-
-**** Mana
-
-The Markdown supports a number of inline shorthands in order to easily insert
-Mana symbols.
-
-#+BEGIN_SRC
-{W}{U}{B}{R}{G} {C} {S} {X}{Y}{Z} {0}{1}{2}{3} ... {20}
-{1}{U/B}{U/B} {U/P} {2/U}{2/U}{2/U} {X}{R} {tap} {+1}{+0}{-5}
-#+END_SRC
-
-[[/assets/mana-preview.png]]
-
-**** Scryfall
-
-You can link cards within content thanks to [[https://scryfall.com/][Scryfall]].
-Wrap a card's name with double curly braces for a simple link ={{Doomsday}}=.
-
-Add a =!= to insert a scan instead: ={{!Doomsday}}=. You can also specify the
-set: ={{!Doomsday|WTH}}=.
-
-**** Piles
-
-TODO
-
-**** Banners
-
-The banners you've seen for articles don't have to be of a specific resolution
-nor file format, use common sense. A reliable way of downloading cropped out
-arts is to use Scryfall's API:
-
-https://api.scryfall.com/cards/named?exact=dark+ritual&set=leb
-
-The above link should yield a JSON object where you will find an entry for an
-adequately sized file. For more details about how to query the API, see the
-official documentation: https://scryfall.com/docs/api .
-
-*** Decklists
-
-TODO
-
-*** Puzzles
-
-TODO
 
 ** Contributing with Code
 
-Issues and/or pull requests work best.
-
 *** Installation
 
-#+BEGIN_QUOTE
-*Note*  
-This assumes you have a working setup for a standard Node application.
-#+END_QUOTE
+This is a Next.js application written with TypeScript. All you have to do is
+clone the repository and run =yarn= to install the dependencies.
 
-#+BEGIN_SRC sh
-yarn
-yarn start
-#+END_SRC
+*** Coding Conventions
 
-Alternatively, if you want to browse the local instance of the application from
-another machine, use =yarn start:exposed= instead.
-
-Install some kind of ESLint-compatible linter on your editor and follow
-=.eslintrc.json= as well as the existing conventions.
-
-*** Project Layout
-
-The React code is located under =src/=.
-
-- =components/= :: Re-usable components, one component does one job.
-- =contexts/=   :: React contexts to dispatch dynamic data accross all children
-                   components.
-- =pages/=      :: Gatsby pages.
-- =tools/=      :: Internal libraries.
-- =html.js=     :: Overwrite Gatsby's default application root.
-- =reset.scss=  :: Simple and naive style reset.
-- =theme.js=    :: Custom Material-UI theme.
-
-*** Branch Conventions
-
-TODO
-
-*** Commit Conventions
-
-TODO
-
-** Deployment
-
-These 2 branches are automatically deployed upon commit.
-
-- =:master= deploys to
-  [[https://master--ddftwiki.netlify.app][https://master\--ddftwiki.netlify.app]]
-- =:production= deploys to https://ddftwiki.netlify.app
-
-A DNS alias for the production address points to the official domain for the
-Wiki https://ddft.wiki.
+- Respect the =eslint= configuration
+- Respect the =prettier= configuration
