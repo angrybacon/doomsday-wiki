@@ -1,112 +1,28 @@
 {
   "env": {
     "browser": true,
-    "es6": true
+    "es2020": true,
+    "jest": true
   },
   "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:react/recommended"
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "prettier"
   ],
-  "globals": {
-    "__dirname": false,
-    "exports": false,
-    "module": false,
-    "require": false
-  },
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
-  },
-  "plugins": [
-    "import",
-    "react",
-    "react-hooks",
-    "sort-destructure-keys"
-  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "import", "react"],
+  "root": true,
   "rules": {
-    "array-bracket-newline": ["warn", "consistent"],
-    "array-element-newline": ["warn", "consistent"],
-    "block-spacing": "warn",
-    "brace-style": ["warn", "stroustrup"],
-    "comma-dangle": ["warn", "always-multiline"],
-    "comma-spacing": "warn",
-    "eol-last": "warn",
-    "import/order": ["warn", {
-      "alphabetize": {"order": "asc"},
-      "groups": [
-        ["builtin", "external", "internal"],
-        ["parent", "sibling", "index"]
-      ],
-      "newlines-between": "never",
-      "pathGroups": [
-        {"group": "builtin", "pattern": "react", "position": "before"},
-        {"group": "external", "pattern": "@material-ui/**", "position": "after"},
-        {"group": "external", "pattern": "@reach/**", "position": "after"},
-        {"group": "external", "pattern": "@saeris/**", "position": "after"}
-      ],
-      "pathGroupsExcludedImportTypes": ["builtin"]
-    }],
-    "indent": ["warn", 2],
-    "jsx-quotes": "warn",
-    "keyword-spacing": "warn",
-    "max-len": ["warn", {"code": 96, "ignoreRegExpLiterals": true}],
-    "no-console": ["warn", {"allow": ["error", "warn"]}],
-    "no-empty": ["warn", {"allowEmptyCatch": true}],
-    "no-eval": ["warn", {"allowIndirect": true}],
-    "no-lonely-if": "warn",
-    "no-multiple-empty-lines": ["warn", {"max": 1, "maxBOF": 0, "maxEOF": 0}],
-    "no-trailing-spaces": "warn",
-    "no-unused-vars": ["warn", {"ignoreRestSiblings": true}],
-    "quotes": ["warn", "single", {"avoidEscape": true}],
-    "semi": ["warn", "always"],
-    "sort-destructure-keys/sort-destructure-keys": "warn",
-    "sort-imports": ["warn", {"ignoreDeclarationSort": true}],
-    "sort-keys": "warn",
-    "space-before-blocks": ["warn", "always"],
-    "space-infix-ops": "warn",
-    "react/boolean-prop-naming": "warn",
-    "react/button-has-type": "error",
-    "react/destructuring-assignment": "warn",
-    "react/function-component-definition": ["warn", {"unnamedComponents": "arrow-function"}],
-    "react/jsx-boolean-value": "warn",
-    "react/jsx-closing-bracket-location": "warn",
-    "react/jsx-closing-tag-location": "warn",
-    "react/jsx-curly-brace-presence": "warn",
-    "react/jsx-curly-newline": "warn",
-    "react/jsx-curly-spacing": "warn",
-    "react/jsx-equals-spacing": "warn",
-    "react/jsx-first-prop-new-line": "warn",
-    "react/jsx-fragments": "warn",
-    "react/jsx-handler-names": "warn",
-    "react/jsx-indent": ["warn", 2],
-    "react/jsx-indent-props": ["warn", "first"],
-    "react/jsx-max-props-per-line": ["warn", { "when": "multiline" }],
-    "react/jsx-sort-props": ["warn", {
-      "ignoreCase": true,
-      "reservedFirst": true,
-      "shorthandFirst": true
-    }],
-    "react/jsx-wrap-multilines": ["warn", {
-      "arrow": "parens-new-line",
-      "assignment": "parens-new-line",
-      "declaration": "parens-new-line",
-      "return": "parens-new-line"
-    }],
-    "react/no-children-prop": "warn",
-    "react/no-unused-prop-types": "warn",
-    "react/prefer-stateless-function": "error",
-    "react-hooks/exhaustive-deps": "error",
-    "react-hooks/rules-of-hooks": "error"
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "import/prefer-default-export": "off",
+    "no-use-before-define": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
   },
   "settings": {
-    "react": {
-      "version": "detect"
+    "import/resolver2": {
+      "typescript": {}
     }
   }
 }
