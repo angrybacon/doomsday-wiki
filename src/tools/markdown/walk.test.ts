@@ -11,12 +11,12 @@ describe(walk.name, () => {
   beforeAll(() => {
     vol.fromJSON(
       {
-        'a/a.mdx': '',
+        'a/a.md': '',
         'a/b.txt': '',
-        'a/c.mdx': '',
+        'a/c.md': '',
         'b/a/b.txt': '',
         'b/c/d.txt': '',
-        'c/d/e/f.mdx': '',
+        'c/d/e/f.md': '',
         'empty.d': null,
       },
       '/root'
@@ -30,7 +30,7 @@ describe(walk.name, () => {
   describe('Basic', () => {
     it('should use the mocked file system', () => {
       // When
-      const result = readFileSync('/root/a/a.mdx', { encoding: 'utf8' });
+      const result = readFileSync('/root/a/a.md', { encoding: 'utf8' });
       // Then
       expect(result).toEqual('');
     });
@@ -65,7 +65,7 @@ describe(walk.name, () => {
   });
 
   describe('Extension', () => {
-    it('should match MDX files by default', () => {
+    it('should match Markdown files by default', () => {
       // When
       const result = Array.from(walk('/root'));
       // Then
