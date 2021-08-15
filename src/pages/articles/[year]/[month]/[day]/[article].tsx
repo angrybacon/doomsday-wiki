@@ -4,9 +4,7 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Grid from '@material-ui/core/Grid';
 import { Layout } from '@/components/Layout/Layout';
-import { Title } from '@/components/Title/Title';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { Document, Markdown, WithMenu } from '@/tools/markdown/types';
@@ -16,17 +14,10 @@ interface Props {
 }
 
 const ArticlePage: NextPage<Props & WithMenu> = ({ markdown, menu }) => (
-  <Layout menu={menu}>
-    <Title title={markdown?.data?.title} />
-    <Grid container spacing={2}>
-      <Grid item xs={12}>
-        <Card>
-          <CardContent component={ReactMarkdown}>
-            {markdown.content}
-          </CardContent>
-        </Card>
-      </Grid>
-    </Grid>
+  <Layout maxWidth="md" menu={menu} title={markdown?.data?.title}>
+    <Card>
+      <CardContent component={ReactMarkdown}>{markdown.content}</CardContent>
+    </Card>
   </Layout>
 );
 
