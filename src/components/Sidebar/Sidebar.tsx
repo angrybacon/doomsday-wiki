@@ -5,6 +5,7 @@ import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
+import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import { Entry } from '@/components/Sidebar/Entry';
 import { useStyles } from '@/components/Sidebar/Sidebar.styles';
 import type { Menu } from '@/tools/markdown/types';
@@ -44,9 +45,17 @@ export const Sidebar: FunctionComponent<Props> = ({
       </Box>
       <Divider />
       <List component="nav" dense>
-        {menu.map((category) => (
-          <Entry key={`category-${category.title}`} {...category} />
+        {menu.map((entry) => (
+          <Entry key={`entry-${entry.title}`} {...entry} />
         ))}
+        <NextLink href="/articles" passHref>
+          <Entry
+            component="a"
+            icon={mdiNewspaperVariantMultiple}
+            subtitle="Article Archive"
+            title="Articles"
+          />
+        </NextLink>
       </List>
       <Divider />
     </>
