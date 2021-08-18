@@ -25,7 +25,7 @@ Slam early and build your pile around mana and card draw denial.
 
 #### Sideboard
 
-<row variant="hand"> {{!Deafening Silence}} {{!Mindbreak Trap}} {{!Surgical Extraction}</row>
+<row variant="hand"> {{!Deafening Silence}} {{!Mindbreak Trap}} {{!Surgical Extraction}}</row>
 
 ### Gameplay
 
@@ -54,7 +54,7 @@ An early Doomsdays gives you enough time to build safe piles.
 
 #### Maindeck
 
-<row variant="hand"> {{!Gaddock Teeg}} {{!Collector Ouphe}} {{!Endurance}} {{!Wasteland}} {{!Solitude}} {{!Dark Depths}</row>
+<row variant="hand"> {{!Gaddock Teeg}} {{!Collector Ouphe}} {{!Endurance}} {{!Wasteland}} {{!Solitude}} {{!Dark Depths}}</row>
 
 #### Sideboard
 
@@ -88,7 +88,7 @@ Playing the long game is not a winning line.
 
 #### Sideboard
 
-<row variant="hand"> {{!Pyroblast}} {{!Sphere of Resistance} {{!Choke}} {{!Endurance}} </row>
+<row variant="hand"> {{!Pyroblast}} {{!Sphere of Resistance}} {{!Choke}} {{!Endurance}} </row>
 
 ### Gameplay
 
