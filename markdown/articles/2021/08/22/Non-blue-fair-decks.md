@@ -1,7 +1,7 @@
 ---
 authors: OtterLady
 banner: /assets/stinging-study.c21.jpg
-title: Matchup Guides: Non Blue Fair Decks
+title: "Matchup Guides: Non Blue Fair Decks"
 ---
 
 Gude!
