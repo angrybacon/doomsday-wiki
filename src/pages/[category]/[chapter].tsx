@@ -1,10 +1,10 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { ParsedUrlQuery } from 'querystring';
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { Layout } from '@/components/Layout/Layout';
+import { Remark } from '@/components/Remark/Remark';
 import { getChapters } from '@/tools/markdown/getChapters';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import type { Document, Markdown, WithMenu } from '@/tools/markdown/types';
@@ -16,7 +16,7 @@ interface Props {
 const ChapterPage: NextPage<Props & WithMenu> = ({ markdown, menu }) => (
   <Layout maxWidth="md" menu={menu} title={markdown?.data?.title}>
     <Card>
-      <CardContent component={ReactMarkdown}>{markdown.content}</CardContent>
+      <CardContent component={Remark} markdown={markdown} />
     </Card>
   </Layout>
 );
