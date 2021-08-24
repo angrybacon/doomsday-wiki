@@ -1,11 +1,11 @@
 import { GetStaticProps, NextPage } from 'next';
 import React from 'react';
-import ReactMarkdown from 'react-markdown';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import { Article } from '@/components/Article/Article';
 import { Layout } from '@/components/Layout/Layout';
+import { Remark } from '@/components/Remark/Remark';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import type { Document, Markdown, WithMenu } from '@/tools/markdown/types';
@@ -24,7 +24,7 @@ const HomePage: NextPage<Props & WithMenu> = ({ articles, menu, welcome }) => (
   >
     <Grid item sm={6} md={7}>
       <Card>
-        <CardContent component={ReactMarkdown}>{welcome.content}</CardContent>
+        <CardContent component={Remark} markdown={welcome} />
       </Card>
     </Grid>
     <Grid item xs>
