@@ -4,9 +4,15 @@ banner: /assets/stinging-study.c21.jpg
 title: "Matchup Guides: Non Blue Fair Decks"
 ---
 
-With this chapter we want to give you a brief overview over the most relevant matchups in the current meta. We try to keep everything short and easy to read.
+With this chapter we want to give you a brief overview over the most relevant matchups in the current meta. We try to keep everything short and easy to read.  
+To keep verything easy to read, we organized every matchup as follows.
+  
+Deck Name  
+Gamplan: a short 1 or 2 sentence summary of the matchup  
+Cards to keep in mind: cards that are important for the matchups, divided in Maindeck and Sideboard  
+Gameplay: A longer guide how to play the pre and post Doomsday part of the matchup
 
-!If you want to skip to a certain matchup use STRG+F!
+!If you want to skip to a certain matchup use CTRL+F!
 
 ## UR Delver
 
@@ -105,7 +111,7 @@ When we are already talking about Kaldra Compleat, remember it has haste and rep
 
 ### Gameplan
 
-An early Doomsdays gives you enough time to build safe piles.
+An early Doomsday gives you enough time to build safe piles.
 
 ### Cards to keep in mind
 
@@ -298,7 +304,7 @@ Resolving Doomsday should not be too hard, Aluren plays 4 Force of Will main and
 #### Post Doomsday 
 
 Many lists play Endurance, like most green decks in the current meta, so prepare to play around atleast one copy.  
-If they fought about your Doomsday, they often don't have enough resources to go off, but that is not always the case, especially since Acererak the Archlich joined the format. Should they still be able to go off and you have enough cyclers in hand to cycle to Thassa's Oracle, be careful with casting it of Aluren. You have to cast it when their combo creature is on the stack, else they can react and combo off while the Thassa's Oracle trigger is still no the stack.
+If they fought over your Doomsday, they often don't have enough resources to go off, but that is not always the case, especially since Acererak the Archlich joined the format. Should they still be able to go off and you have enough cyclers in hand to cycle to Thassa's Oracle, be careful with casting it of Aluren. You have to cast it when their combo creature is on the stack, else they can react and combo off while the Thassa's Oracle trigger is still no the stack.
 
 ## Reanimator
 
@@ -323,7 +329,7 @@ When fighting their combo, try always to counter the Entomb effects, without a g
 
 #### Post Doomsday
 
-One of the scariest creatures they can reanimate post Doomsday is Ashen Rider, so try to be carefull with your lands and don't be stingy with your lotus petals.
+The scariest creatures they can reanimate post Doomsday are Iona and Ashen Rider, so try to be carefull with your lands and don't be stingy with your lotus petals. Iona will just end the game, and you can't do anything about that 99% of the time.
 
 ## Sneak and Show
 
@@ -333,7 +339,7 @@ One of the scariest creatures they can reanimate post Doomsday is Ashen Rider, s
 
 #### Maindeck
 
-<row variant="hand"> {{!Daze}} {{!Force of Will}}</row>
+<row variant="hand"> {{!Daze}} {{!Force of Will}} {{!Sneak Attack}}</row>
 
 #### Sideboard
 
@@ -385,7 +391,7 @@ Some Omni-Tell lists play Trickbind in their Sideboard. Try to use discard spell
 
 #### Maindeck
 
-<row variant="hand"> {{!Hedron Crab}} {{!Vengevine}} {{!Cabal Therapy}} {{!Altar of Dementia}}</row>
+<row variant="hand"> {{!Hedron Crab}} {{!Vengevine}} {{!Cabal Therapy}} {{!Altar of Dementia}} {{!Bloodghast}}</row>
 
 #### Sideboard
 
@@ -395,12 +401,12 @@ Some Omni-Tell lists play Trickbind in their Sideboard. Try to use discard spell
 
 The Hogaak matchup can be pretty tricky, because they have two ways to kill you, either with damage or with mill. They don't even have to completely mill your 60 cards, the pure on board threat of milling us is often enough to make a kill with Doomsday impossible.  
 There are two iterations of Hogaak, a jund version and BUG one. The BUG versions is scarier by far, thanks to Hedron Crab.  
-Speed is the only way to beat Hogaak, they are just to explosive to give them time and you don't want to play against Hedron Crab and a uncracked Fetchlands.  
+Speed is the only way to beat Hogaak, they are just to explosive to give them time and you don't want to play against Hedron Crab and a uncracked Fetchlands. But sometimes you have to be very carefull when you want to cast Doomsday but with no option to win on the same turn. Bloodghasts will always have haste after you resolved Doomsday, so try to evaluate the damage they can put out after you resolved Doomsday and passed the turn.  
 They don't play any sideboard hate for Doomsday, but countermagic is still very important to keep them in check and protect your combo.
 
 #### Post Doomsday 
 
-Because Hogaak plays no interaction, you can build Brainstorm piles when ever you can. Should you have to pass the turn, make sure you have answers at your disposal.
+Because Hogaak plays no cards to interact with you on the stack, outside of Hedron Crab + Fetchland. So you can build Brainstorm piles when ever you have the resources to do so. Should you have to pass the turn, make sure you have answers at your disposal.
 
 ## Madness
 
@@ -420,10 +426,10 @@ Because Hogaak plays no interaction, you can build Brainstorm piles when ever yo
 
 #### Pre Doomsday
 
-Similar to Hogaak it's a race of die matchup, but Madness has zero interaction. They just slam and hope it's enough, and we do the same.  
+Similar to Hogaak it's a race or die matchup, but Madness has zero interaction. They just slam and hope it's enough, and we do the same.  
 Lion's Eye Diamond is a very scary card in their deck, that leads to super explosive turns. It should be countered 90% of the time.  
 Should they have Mindbreak Trap in hand post sideboard, it's often pretty obvious. It's very hard for them to keep interaction up while playing out their threats.
 
 #### Post Doomsday
 
-Their only ways to put hasty threats onto the board are Vengevine and Anger. This makes it very easy to predict their damage and if it's safe to pass the turn.
+Their only ways to put hasty threats onto the board are Vengevine and Anger + a Mountain. This makes it very easy to predict their damage and if it's safe to pass the turn.
