@@ -7,7 +7,7 @@ title: "Matchup Guides: Non Blue Fair Decks"
 With this chapter we want to give you a brief overview over the most relevant matchups in the current meta. We try to keep everything short and easy to read.  
 To keep verything easy to read, we organized every matchup as follows.
   
-Deck Name  
+Opposing Deck Name
 Gamplan: a short 1 or 2 sentence summary of the matchup  
 Cards to keep in mind: cards that are important for the matchups, divided in Maindeck and Sideboard  
 Gameplay: A longer guide how to play the pre and post Doomsday part of the matchup
@@ -18,6 +18,8 @@ Gameplay: A longer guide how to play the pre and post Doomsday part of the match
 
 ### Gameplan
 
+Resolving an early Doomsday is very important, but it's also important to build fast piles.
+
 ### Cards to keep in mind
 
 #### Maindeck
@@ -26,13 +28,23 @@ Gameplay: A longer guide how to play the pre and post Doomsday part of the match
 
 #### Sideboard
 
-<row variant="hand"> {{!Pyroblast}} {{!Force of Negation}} {{!Surgical Extraction}} {{!Court of Cunning}}</row>
+<row variant="hand"> {{!Pyroblast}} {{!Force of Negation}} {{!Surgical Extraction}}</row>
 
 ### Gameplay
 
 #### Pre Doomsday
 
+Playing a longer game against a deck with strong pressure and heavy protection has always been really hard, but now with the snowballing nature of Ragavan it's even harder to set up a safe kill. You just don not have the time to dig through your deck to find the right pieces.  
+Ragavan is a very dominating factor in this matchup. It disrupts your own plans, by stealing your cards, and supoorts their gameplan by dealing damage and accumulating resources. Your main goal, after setting up Doomsday, should be keeping the impact of the monkey as low as possible, either by feeding it "bad" cards or by resolving a Doomsday before it even has the chance to snowball.  
+When mulliganing, keep in mind {{Daze}} can be invalidated very fast by {{Ragavan, Nimble Pilferer}} and every cantrip has to hit something good or you'll fall be behind very fast. Hands with turn 1 Doomsday are always great, espcially of the play. After MH2 many Delver players cut some Force of Negation, making our turn 1 Doomsdays a lot safer.  
+Against the current Izzet Delver lists Force of Will got a lot worse, because it's very resource intensive and we rather prefere to keep the cards we would pitch to it for wins without passing the turn post Doomsday. To fight this problem many Doomsday lists play Pact of Negation, because It's less resource intensive and supports wins without passing the turn.
+
 #### Post Doomsday 
+
+The post Doomsday game against UR Delver is very tricky. You often have to take risks to resolve Oracle without giving the Delver player too much time to look for answeres or straight up kill you with damage.  
+Of course you would prefere to always build brainstorm piles and never pass the turn, but that's not always possible. So you will have to build piles that pass the turn. Here comes the ugly part, you can't beat everything a Delver deck possibly has. Even in stock lists. You'll have to learn how to assess the situation nad plan accordingly. That's an important skill in every matchup, but against Delver it's crucial.  
+When building fast pass the turn piles, {{Lion's Eye Diamond}} will be your best friend. The 3 free mana are often very helpful to cast Oracle without having to put multiple Lands in your pile.  
+A little trick to play through an opposing Ragavan post Doomsday is to put a cycler on top of your pile. It's not a loss when the monkey steals it, but you are also happy to draw it and you can use it to dig deeper or control better what Rgavan steals next.  
 
 ## Jeskai Ragavan
 
@@ -52,7 +64,12 @@ Gameplay: A longer guide how to play the pre and post Doomsday part of the match
 
 #### Pre Doomsday 
 
+Jeskai Ragavan is a very undefined archetype at the moment. There many builds out there, from tempo style list, over midrange variants, to more controling builds.  
+The matches against this deck play pretty similar to the UR Delver matchup, but Jeskai Ragavan has often a weaker damage backup, because many lists play less or no {{Lightning Bolts}} combined less threats but more protection.
+
 #### Post Doomsday 
+
+The post Doomsday part of the game is often defined by the variant you play against or you think you play against. It's very important to try to identify your opponents role and adapt to new information.  
 
 ## Bant Miracles
 
@@ -72,7 +89,12 @@ Gameplay: A longer guide how to play the pre and post Doomsday part of the match
 
 #### Pre Doomsday
 
+You can play a much slower game against Bant Miracles. They don't have any early threats and have to respect Daze. In Game 1 one layer of protection is often enough to resolve a Doomday but in post board games it's adviced to play more carefuly.  
+Many sideboarded games are defined by hate bears from their side, because they often don't have enough countermagic to just fight Doomsday on the stack. They have to try to lock us out of the game or rely on the pressure of their creatures.  
+
 #### Post Doomsday 
+
+After you resolved Doomsday everything is about beating {{Endurance}}, and against some newer lists {{Dress Down}}. They are their main way to beat Thassa's Oracle. But there are many ways to play around these answers. In Game 1 you have to rely on countermagic and discard, but in Game 2 and 3 you'll often use a sideboard package, like {{Emrakul, the Aeons Torn}} + {{Shelldock Isle}}. These sideboard packages often come with their own weaknesses, like {{Teferi, Time Raveler}} or {{Back to Basics}}, but are still better than just slamming 1 Oracle into a prepared opponent.
 
 ## Death and Taxes
 
@@ -256,8 +278,6 @@ There are many ways to play around it. Countermagic is the obvious way, but you 
 
 ### Gameplan
 
-Just Racing.
-
 ### Cards to keep in mind
 
 #### Maindeck
@@ -266,19 +286,19 @@ Just Racing.
 
 #### Sideboard
 
-<row variant="hand"> {{!Collector Ouphe}} {{!Thoughtseize}}</row>
+<row variant="hand"> {{!Collector Ouphe}} {{!Thoughtseize}} {{!Deafening Silence}} {{!Choke}}</row>
 
 ### Gameplay
 
 #### Pre Doomsday
 
-Since Allosaurus Shepherd removed all interaction in this matchup, it's just racing and countering some Thoughtseize if necessary.
-They can set up some super fast kills, either with Allosaurus Shepherd and enough mana or with Natural Order.
+Since Allosaurus Shepherd removed all interaction in this matchup, it's just racing and countering a Thoughtseize or Deafening Silence if necessary. But should you have to possibility to counter something without losing too much speed, it's often adviced to slow them down by denying them important combo cards like {{Elvish Visionary}} or {{Heritage Druid}}.  
+They can set up some super fast kills, either with Allosaurus Shepherd and enough mana or with Natural Order. So be carefull and try to finish the game as fast as possible.
 
 #### Post Doomsday 
 
-Passing the turn piles can be a tad risky, because Elves can be really explosive. Especially Turn 3 or later.  
-In the past some Elves lists played Endurance or Crop Rotation for Ipnu Rivulet, but as long as they stay absent from Sideboards, you only have to play around Collector Ouphe.
+Passing the turn piles can be a tad risky, because Elves can be really explosive. Especially Turn 3 or later. Try to build fast piles.  
+In the past some Elves lists played Endurance or Crop Rotation for Ipnu Rivulet, but as long as they stay absent from sideboards, you only have to play around Collector Ouphe.
 
 ## Aluren
 
