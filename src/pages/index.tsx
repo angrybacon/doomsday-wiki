@@ -16,7 +16,12 @@ interface Props {
 }
 
 const HomePage: NextPage<Props & WithMenu> = ({ articles, menu, welcome }) => (
-  <Layout grid menu={menu} title="Welcome">
+  <Layout
+    wrapper={Grid}
+    wrapperProps={{ container: true, spacing: 2 }}
+    menu={menu}
+    title="Welcome"
+  >
     <Grid item sm={6} md={7}>
       <Card>
         <CardContent component={ReactMarkdown}>{welcome.content}</CardContent>

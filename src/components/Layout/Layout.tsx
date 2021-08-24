@@ -1,8 +1,12 @@
 import c from 'classnames';
-import React, { FunctionComponent, ReactChild, useState } from 'react';
+import React, {
+  FunctionComponent,
+  Fragment,
+  ReactChild,
+  useState,
+} from 'react';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
 import { useTheme } from '@material-ui/core/styles';
 import type { Breakpoint } from '@material-ui/core/styles/createBreakpoints';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
@@ -20,16 +24,25 @@ type Props = {
   menu: Menu;
   title?: string;
 } & (
-  | { children: ReactChild | ReactChild[]; grid: boolean }
-  | { children: ReactChild; grid?: never }
+  | {
+      children: ReactChild | ReactChild[];
+      wrapper: React.ElementType;
+      wrapperProps?: Record<string, any>;
+    }
+  | {
+      children: ReactChild;
+      wrapper?: never;
+      wrapperProps?: never;
+    }
 );
 
 export const Layout: FunctionComponent<Props> = ({
   children,
-  grid,
   maxWidth,
   menu,
   title,
+  wrapper: Wrapper = Fragment,
+  wrapperProps,
 }) => {
   const classes = useStyles();
   const theme = useTheme();
@@ -39,14 +52,6 @@ export const Layout: FunctionComponent<Props> = ({
   const onSidebarToggle: OnSidebarToggle = (value) => () => {
     setIsSidebarOpen(value);
   };
-
-  const content = grid ? (
-    <Grid container spacing={2}>
-      {children}
-    </Grid>
-  ) : (
-    children
-  );
 
   return (
     <>
@@ -60,7 +65,7 @@ export const Layout: FunctionComponent<Props> = ({
       />
       <div className={c(classes.container, { mobile: isMobile })}>
         <Container component={Box} maxWidth={maxWidth} py={3}>
-          {content}
+          <Wrapper {...wrapperProps}>{children}</Wrapper>
         </Container>
         <Footer />
       </div>
