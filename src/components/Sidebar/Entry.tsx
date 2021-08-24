@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import Link from 'next/link';
 import React, {
   ElementType,
   FunctionComponent,
@@ -67,13 +67,13 @@ export const Entry: FunctionComponent<Props> = ({
       {hasPages && (
         <Collapse in={isOpen} timeout="auto" unmountOnExit>
           <Divider />
-          <List className={classes.pages} component="div" dense disablePadding>
+          <List className={classes.pages} component="div" dense>
             {pages?.map(({ data, route }) => (
-              <NextLink href={route} key={`page-${route}`} passHref>
+              <Link href={route} key={`page-${route}`} passHref>
                 <ListItem button component="a">
                   <ListItemText primary={data?.title || route} />
                 </ListItem>
-              </NextLink>
+              </Link>
             ))}
           </List>
           <Divider />

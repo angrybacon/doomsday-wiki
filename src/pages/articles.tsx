@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import Link from 'next/link';
 import { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
@@ -8,7 +8,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemAvatar from '@material-ui/core/ListItemAvatar';
 import ListItemText from '@material-ui/core/ListItemText';
 import { createStyles, makeStyles } from '@material-ui/core/styles';
-import { mdiAccount, mdiCalendar, mdiFileDocument } from '@mdi/js';
+import { mdiFileDocument } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Layout } from '@/components/Layout/Layout';
 import { getArticles } from '@/tools/markdown/getArticles';
@@ -35,7 +35,7 @@ const ArticlesPage: NextPage<Props & WithMenu> = ({ articles, menu }) => {
       <Card>
         <List dense disablePadding>
           {articles.map(({ data, route }, index) => (
-            <NextLink href={route} key={route} passHref>
+            <Link href={route} key={route} passHref>
               <ListItem
                 button
                 component="a"
@@ -58,7 +58,7 @@ const ArticlesPage: NextPage<Props & WithMenu> = ({ articles, menu }) => {
                   secondaryTypographyProps={{ variant: 'caption' }}
                 />
               </ListItem>
-            </NextLink>
+            </Link>
           ))}
         </List>
       </Card>
