@@ -48,7 +48,9 @@
       "ignorePackages",
       { "ts": "never", "tsx": "never" }
     ],
+    "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
+    "no-console": ["warn", { "allow": ["error"] }],
     "no-use-before-define": "off",
     "no-shadow": "off",
     "react/jsx-filename-extension": [

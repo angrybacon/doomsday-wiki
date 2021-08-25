@@ -1,8 +1,11 @@
 import React, { FunctionComponent } from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
+import remarkDirective from 'remark-directive';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import { Heading } from '@/components/Remark/renderers';
+import { remarkPile } from '@/components/Remark/plugins';
+import { Heading, Pile } from '@/components/Remark/renderers';
+import type { PileProps } from '@/components/Remark/renderers/types';
 import type { Markdown } from '@/tools/markdown/types';
 
 interface Props {
@@ -10,13 +13,16 @@ interface Props {
   markdown: Markdown;
 }
 
-const components: Components = {
+const components: Components & {
+  pile: FunctionComponent<PileProps>;
+} = {
   h1: Heading,
   h2: Heading,
   h3: Heading,
   h4: Heading,
   h5: Heading,
   h6: Heading,
+  pile: Pile,
 };
 
 export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {
@@ -29,7 +35,11 @@ export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {
           <Typography variant="h1">{data?.title}</Typography>
         </Box>
       )}
-      <ReactMarkdown components={components} skipHtml>
+      <ReactMarkdown
+        components={components}
+        remarkPlugins={[remarkDirective, remarkPile]}
+        skipHtml
+      >
         {content}
       </ReactMarkdown>
     </div>
