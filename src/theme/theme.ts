@@ -15,6 +15,13 @@ const base: Theme = createTheme();
 
 export const theme: Theme = createTheme({
   drawer: { width: 320 },
+  overrides: {
+    MuiCardContent: {
+      root: {
+        padding: base.spacing(2),
+      },
+    },
+  },
   typography: {
     fontSize: 16,
     h1: { fontSize: base.typography.pxToRem(64) },

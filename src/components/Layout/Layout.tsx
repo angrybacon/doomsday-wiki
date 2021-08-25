@@ -1,12 +1,15 @@
 import c from 'classnames';
 import React, {
+  ElementType,
   FunctionComponent,
   Fragment,
+  HTMLAttributes,
   ReactChild,
   useState,
 } from 'react';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
+import type { GridTypeMap } from '@material-ui/core/Grid';
 import { useTheme } from '@material-ui/core/styles';
 import type { Breakpoint } from '@material-ui/core/styles/createBreakpoints';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
@@ -26,8 +29,8 @@ type Props = {
 } & (
   | {
       children: ReactChild | ReactChild[];
-      wrapper: React.ElementType;
-      wrapperProps?: Record<string, any>;
+      wrapper: ElementType;
+      wrapperProps?: HTMLAttributes<HTMLDivElement> & GridTypeMap['props'];
     }
   | {
       children: ReactChild;
