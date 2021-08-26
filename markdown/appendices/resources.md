@@ -39,6 +39,8 @@ out these channels/content creators for Doomsday streams/videos:
 - Kai *Sawatarix* Sawatari:
   [Twitch](https://www.twitch.tv/sawatarix)
   [Youtube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)
+- ThornOfWrath:
+  [Twitch](https://www.twitch.tv/thornofwrath)
 
 For Paper Legacy that often involves Doomsday.
 
@@ -67,6 +69,9 @@ Videos from non-regular streamers or Doomsday content creators.
 Assume English unless specified otherwise.
 
 ### 2021
+- [Guma runs a league with UB Meandeck (August 2021) - Portugese/Português](https://www.youtube.com/watch?v=Wn26fq9mAWg)
+- [MinT runs a league with Grixis Meandeck (August 2021)](https://www.youtube.com/watch?v=yKWIi_DcWkc)
+- [BoshNRoll runs a league with Esper Meandeck ft. Stoneforge Mystic (August 2021)](https://www.youtube.com/watch?v=mZJMKwtWUbo)
 - [Bryant Cook runs a league with Meandeck (August 2021)](https://www.youtube.com/watch?v=n8w5lQ2Xbn0)
 - [ちばとMTG shows a mini primer on how the core cards in the deck work (July 2021) - Japanese/日本語](https://www.youtube.com/watch?v=RsFCyud45qw)
 - [MinT runs a league with Meandeck post MH2 (July 2021)](https://www.youtube.com/watch?v=Aidkv6ZH87A)
