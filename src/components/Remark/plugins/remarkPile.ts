@@ -15,7 +15,10 @@ export const remarkPile: Pluggable = () => (tree) => {
       hName: directive.name,
       hProperties: {
         ...directive.attributes,
-        cards: cards.map((card) => card.value),
+        cards: cards.map((card) => ({
+          id: card.position?.start?.offset,
+          query: card.value,
+        })),
       },
     };
   });
