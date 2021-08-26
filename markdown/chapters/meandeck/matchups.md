@@ -1,7 +1,7 @@
 ---
-authors: OtterLady
-banner: /assets/stinging-study.c21.jpg
-title: "Matchup Guides: Non Blue Fair Decks"
+authors: OtterLady, Doishy
+order: 5
+title: Matchup Guides
 ---
 
 With this chapter we want to give you a brief overview over the most relevant matchups in the current meta. We try to keep everything short and easy to read.  
@@ -74,6 +74,8 @@ The post Doomsday part of the game is often defined by the variant you play agai
 ## Bant Miracles
 
 ### Gameplan
+
+Beating countermagic is not your only problem, their hatebears and answers to Oracle will be main reason you lose games.
 
 ### Cards to keep in mind
 
@@ -193,7 +195,7 @@ Bounce Spells are the way to go to beat a fast Marit Lage.
 
 ### Gameplan
 
-Just slam, and beat Endurance post Doomsday
+Just slam, and beat Endurance post Doomsday.
 
 ### Cards to keep in mind
 
@@ -276,6 +278,8 @@ There are many ways to play around it. Countermagic is the obvious way, but you 
 
 ### Gameplan
 
+Don't rely on countermagic, resolving an early Doomsday is a goog way to win.
+
 ### Cards to keep in mind
 
 #### Maindeck
@@ -301,6 +305,8 @@ In the past some Elves lists played {{Endurance}} or {{Crop Rotation}} for {{Ipn
 ## Aluren
 
 ### Gameplan
+
+You are a lot faster and you have more protection. Don't play scared, play like against a bad control deck.
 
 ### Cards to keep in mind
 
@@ -328,6 +334,8 @@ If they fought over your Doomsday, they often don't have enough resources to go 
 
 ### Gameplan
 
+Countermagic is essential. Counter their enablers.
+
 ### Cards to keep in mind
 
 #### Maindeck
@@ -352,6 +360,8 @@ The scariest creatures they can reanimate post Doomsday are {{Iona, Shield of Em
 ## Sneak and Show
 
 ### Gameplan
+
+You are a bit faster, use this to your advantage.
 
 ### Cards to keep in mind
 
@@ -380,6 +390,8 @@ After you resolved Doomsday only {{Sneak Attack}} can kill you. {{Show and Tell}
 
 ### Gameplan
 
+They are just a bad control deck with a combo finish. Omni-Tell can not beat you post Doomsday.
+
 ### Cards to keep in mind
 
 #### Maindeck
@@ -405,6 +417,8 @@ Some Omni-Tell lists play {{Trickbind}} in their Sideboard. Try to use discard s
 
 ### Gameplan
 
+Race them, but keep their opportunity to mill you out in mind.
+
 ### Cards to keep in mind
 
 #### Maindeck
@@ -429,6 +443,8 @@ Because Hogaak plays no cards to interact with you on the stack, outside of Hedr
 ## Madness
 
 ### Gameplan
+
+Just race, don't rely on a turn 3 Doomsday.
 
 ### Cards to keep in mind
 
