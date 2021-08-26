@@ -3,6 +3,7 @@ import React, {
   ElementType,
   FunctionComponent,
   MouseEvent,
+  forwardRef,
   useState,
 } from 'react';
 import Collapse from '@material-ui/core/Collapse';
@@ -18,19 +19,15 @@ import { useStyles } from '@/components/Sidebar/Entry.styles';
 
 type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
 
-type Props = CategoryMeta &
-  (
+type Props = CategoryMeta & { children?: never } & (
     | { component?: ElementType; pages?: never }
     | { component?: never; pages: Document[] }
   );
 
-export const Entry: FunctionComponent<Props> = ({
-  icon,
-  pages,
-  subtitle,
-  title,
-  ...rest
-}) => {
+export const Entry: FunctionComponent<Props> = forwardRef<
+  HTMLDivElement,
+  Props
+>(({ icon, pages, subtitle, title, ...rest }, ref) => {
   const classes = useStyles();
   const [isOpen, setIsOpen] = useState(false);
   const hasPages = !!pages?.length;
@@ -44,7 +41,7 @@ export const Entry: FunctionComponent<Props> = ({
 
   return (
     <>
-      <ListItem button {...props}>
+      <ListItem button ref={ref} {...props}>
         {icon && (
           <ListItemIcon>
             <Icon path={icon} size={1} />
@@ -81,4 +78,4 @@ export const Entry: FunctionComponent<Props> = ({
       )}
     </>
   );
-};
+});
