@@ -1,6 +1,6 @@
 import c from 'classnames';
 import React, { FunctionComponent, useEffect, useState } from 'react';
-import { search } from '@/tools/scryfall/search';
+import { scry } from '@/tools/scryfall/scry';
 import { useStyles } from '@/components/Card/Card.styles';
 
 interface CardModel {
@@ -19,7 +19,7 @@ export const Card: FunctionComponent<Props> = ({ className, query }) => {
 
   const onSearch = async (name: string, set?: string) => {
     try {
-      const { data } = await search(name, set);
+      const { data } = await scry(name, set);
       setCard({
         image: data.image_uris.png,
         name: data.name,
