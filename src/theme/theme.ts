@@ -1,5 +1,6 @@
 import { createTheme } from '@material-ui/core/styles';
 import type { Theme } from '@material-ui/core/styles';
+import primary from '@material-ui/core/colors/deepPurple';
 
 declare module '@material-ui/core/styles' {
   interface Theme {
@@ -11,10 +12,20 @@ declare module '@material-ui/core/styles' {
   }
 }
 
+declare module '@material-ui/core/styles/createPalette' {
+  interface TypeBackground {
+    pile: string;
+  }
+}
+
 const base: Theme = createTheme();
 
 export const theme: Theme = createTheme({
   drawer: { width: 320 },
+  palette: {
+    background: { pile: primary[50] },
+    primary: { main: primary[600] },
+  },
   overrides: {
     MuiCardContent: {
       root: {
