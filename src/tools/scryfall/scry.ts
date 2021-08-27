@@ -2,7 +2,7 @@ import axios, { AxiosResponse } from 'axios';
 import { HttpStatusCode } from '@/constants/HttpStatusCode';
 
 /**
- * Cache to hold subsequent search queries.
+ * Cache to hold concurrent search queries.
  * The content can either be a resolved or rejected promise, or a pending
  * promise.
  */
@@ -11,13 +11,13 @@ const CACHE: Record<string, AxiosResponse | Promise<AxiosResponse>> = {};
 /** Endpoint to query for a card name and optional set. */
 const SCRYFALL_API = 'https://api.scryfall.com/cards/named';
 
-type Search = (key: string, set?: string) => Promise<AxiosResponse>;
+type Scry = (key: string, set?: string) => Promise<AxiosResponse>;
 
 /**
  * Query api.scryfall.com for `name` in `set`.
  * Build a cache to avoid querying twice for the same name and set pair.
  */
-export const search: Search = (name, set = '') =>
+export const scry: Scry = (name, set = '') =>
   new Promise<AxiosResponse>((resolve, reject) => {
     const key = `${name}/${set}`;
     if (CACHE[key]) {
