@@ -18,7 +18,13 @@ export const theme: Theme = createTheme({
   overrides: {
     MuiCardContent: {
       root: {
-        padding: base.spacing(2),
+        padding: base.spacing(3),
+      },
+    },
+    MuiTypography: {
+      gutterBottom: {
+        '&:not(:first-child)': { marginTop: '.6em' },
+        '&:not(:last-child)': { marginBottom: '.6em' },
       },
     },
   },

@@ -1,12 +1,14 @@
+import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import { remarkPile } from '@/components/Remark/plugins';
-import { Heading, Pile } from '@/components/Remark/renderers';
-import type { PileProps } from '@/components/Remark/renderers/types';
+import { remarkRow } from '@/components/Remark/plugins';
+import { Heading, Row, Text } from '@/components/Remark/renderers';
+import type { RowProps } from '@/components/Remark/renderers/types';
 import type { Markdown } from '@/tools/markdown/types';
+import { useStyles } from '@/components/Remark/Remark.styles';
 
 interface Props {
   className?: string;
@@ -14,7 +16,7 @@ interface Props {
 }
 
 const components: Components & {
-  pile: FunctionComponent<PileProps>;
+  row: FunctionComponent<RowProps>;
 } = {
   h1: Heading,
   h2: Heading,
@@ -22,24 +24,24 @@ const components: Components & {
   h4: Heading,
   h5: Heading,
   h6: Heading,
-  pile: Pile,
+  p: Text,
+  row: Row,
 };
 
 export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {
+  const classes = useStyles();
   const { content, data } = markdown;
-
+  const plugins = [remarkDirective, remarkRow];
   return (
-    <div className={className}>
+    <div className={c(classes.root, className)}>
       {data?.title && (
         <Box textAlign="center">
-          <Typography variant="h1">{data?.title}</Typography>
+          <Typography gutterBottom variant="h1">
+            {data.title}
+          </Typography>
         </Box>
       )}
-      <ReactMarkdown
-        components={components}
-        remarkPlugins={[remarkDirective, remarkPile]}
-        skipHtml
-      >
+      <ReactMarkdown components={components} remarkPlugins={plugins} skipHtml>
         {content}
       </ReactMarkdown>
     </div>
