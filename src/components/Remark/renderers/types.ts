@@ -1,1 +1,1 @@
-export type { Props as PileProps } from '@/components/Remark/renderers/Pile';
+export type { Props as RowProps } from '@/components/Remark/renderers/Row';

@@ -6,7 +6,7 @@ import { Node, Test, visit } from 'unist-util-visit';
 
 type Pluggable = PluggableList extends readonly (infer T)[] ? T : never;
 
-export const remarkPile: Pluggable = () => (tree) => {
+export const remarkRow: Pluggable = () => (tree) => {
   visit<Node, Test>(tree, 'containerDirective', (node) => {
     const directive = node as ContainerDirective;
     const cards = selectAll('text', directive) as Text[];

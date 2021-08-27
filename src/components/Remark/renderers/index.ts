@@ -1,2 +1,3 @@
 export { Heading } from './Heading';
-export { Pile } from './Pile';
+export { Row } from './Row';
+export { Text } from './Text';

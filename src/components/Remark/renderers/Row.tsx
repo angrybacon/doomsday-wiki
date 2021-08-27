@@ -1,7 +1,8 @@
+import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Card } from '@/components/Card/Card';
-import { useStyles } from '@/components/Remark/renderers/Pile.styles';
+import { useStyles } from '@/components/Remark/renderers/Row.styles';
 
 interface Card {
   id?: number;
@@ -9,14 +10,16 @@ interface Card {
 }
 
 export interface Props extends ReactMarkdownProps {
-  node: ReactMarkdownProps['node'] & { properties: { cards: Card[] } };
+  node: ReactMarkdownProps['node'] & {
+    properties: { cards: Card[]; variant?: string };
+  };
 }
 
-export const Pile: FunctionComponent<Props> = ({ node }) => {
+export const Row: FunctionComponent<Props> = ({ node, ...rest }) => {
   const classes = useStyles();
-  const cards = node.properties?.cards ?? [];
+  const { cards = [], variant = 'pile' } = node.properties;
   return (
-    <div className={classes.root}>
+    <div className={c(classes.root, classes?.[variant])}>
       {cards.map(({ id, query }) => (
         <div className={classes.card} key={id}>
           <Card query={query} />
