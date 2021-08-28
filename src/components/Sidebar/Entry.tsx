@@ -14,8 +14,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
-import type { CategoryMeta, Document } from '@/tools/markdown/types';
 import { useStyles } from '@/components/Sidebar/Entry.styles';
+import type { CategoryMeta, Document } from '@/tools/markdown/types';
 
 type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
 

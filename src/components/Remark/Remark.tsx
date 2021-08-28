@@ -5,7 +5,7 @@ import remarkDirective from 'remark-directive';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { remarkRow } from '@/components/Remark/plugins';
-import { Heading, Row, Text } from '@/components/Remark/renderers';
+import { Heading, Link, Quote, Row, Text } from '@/components/Remark/renderers';
 import type { RowProps } from '@/components/Remark/renderers/types';
 import type { Markdown } from '@/tools/markdown/types';
 import { useStyles } from '@/components/Remark/Remark.styles';
@@ -18,6 +18,7 @@ interface Props {
 const components: Components & {
   row: FunctionComponent<RowProps>;
 } = {
+  a: Link,
   h1: Heading,
   h2: Heading,
   h3: Heading,
