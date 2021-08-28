@@ -19,6 +19,7 @@ const components: Components & {
   row: FunctionComponent<RowProps>;
 } = {
   a: Link,
+  blockquote: Quote,
   h1: Heading,
   h2: Heading,
   h3: Heading,
