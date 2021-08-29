@@ -10,6 +10,13 @@ export const useStyles = makeStyles((theme: Theme) =>
       },
     },
 
+    centered: {
+      justifyContent: 'space-around',
+      '& $card': {
+        maxWidth: '25%',
+      },
+    },
+
     pile: {
       backgroundColor: theme.palette.background.pile,
       borderColor: theme.palette.divider,
