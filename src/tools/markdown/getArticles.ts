@@ -1,11 +1,11 @@
 import { join } from 'path';
+import { readMarkdown } from '@/tools/io/readMarkdown';
+import { walk } from '@/tools/io/walk';
 import {
   BASE_ARTICLE_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
-import { read } from '@/tools/markdown/read';
 import type { Document } from '@/tools/markdown/types';
-import { walk } from '@/tools/markdown/walk';
 
 /** Default options for the `getArticles` helper. */
 const getArticlesOptionsDefault: GetArticlesOptions = {
@@ -29,7 +29,7 @@ export const getArticles: GetArticles = (options) => {
     // NOTE Only consider complete paths ie. [year, month, day, article]
     if (crumbs.length === 4) {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
-      let { data } = read(path);
+      let { data } = readMarkdown(path);
       const [year, month, day] = crumbs;
       data = { ...data, date: `${year}-${month}-${day}` };
       const route = ['/articles', ...crumbs].join('/');
