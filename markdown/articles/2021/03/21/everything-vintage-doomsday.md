@@ -30,7 +30,10 @@ to your Oracle. In my mind, there are only three flex slots in the maindeck for
 Doomsday. In this build, we have elected to use {{Mystical Dispute}}, {{Force of
 Negation}}, and {{Portent}}.
 
-<row variant="centered">{{!CoS}}</row>
+:::row{variant=centered}
+
+CoS
+:::
 
 **Mystical Dispute / Force of Negation**: These slots are generally between
 either {{Treasure Cruise}} + disruptive spell or two disruptive spells. Standard
@@ -43,7 +46,11 @@ because of things like {{Leovold, Emissary of Trest}}, {{Hullbreacher}}, and
 having an excellent one mana answer that can also counter {{Force of Will}}s is
 very lovely.
 
-<row variant="centered">{{!Mystical Dispute}} {{!Force of Negation}}</row>
+:::row{variant=centered}
+
+Mystical Dispute 
+Force of Negation
+:::
 
 **Portent**: This slot is mainly for extra cantrips. Often you will see
 {{Sleight of Hand}}, {{Peek}}, or even {{Cling to Dust}}. {{Ponder}} is
@@ -51,7 +58,10 @@ restricted for a reason, and while this card can't crack piles, it's very good
 at being good card selection or messing up your opponent's top 3 cards,
 especially in something like the mirror.
 
-<row variant="centered">{{!Portent}}</row>
+:::row{variant=centered}
+
+Portent
+:::
 
 ## Part 2: Sideboard Configuration and Sideboard Guide
 
@@ -73,7 +83,12 @@ doomsday pile, especially when you have a Mox Jet in your start, so you don't
 need to tap a land to play it. A handy thing it can do is snag a Brain freeze
 before you combo, so you don't die on the spot.
 
-<row variant="centered">{{!Steel Sabotage}} {{!Mindbreak Trap}} {{!Duress}}</row>
+:::row{variant=centered}
+
+Steel Sabotage 
+Mindbreak Trap 
+Duress
+:::
 
 **{{Fatal Push}}**: you need an answer for cards like Lavinia, {{Deathrite
 Shaman}}, {{Thalia, Guardian of Thraben}}, {{Archon of Emeria}}, Leovold,
@@ -89,7 +104,12 @@ tutors.
 decks, but it's just the most efficient card to play in your doomsday sideboard
 for that matchup without dedicating too many spots for the matchup.
 
-<row variant="centered">{{!Fatal Push}} {{!Opposition Agent}} {{!Leyline of the Void}}</row>
+:::row{variant=centered}
+
+Fatal Push 
+Opposition Agent 
+Leyline of the Void
+:::
 
 **{{Tasigur, the Golden Fang}}**: you want an additional win condition against
 decks that can disrupt your combo well, like {{Brain Freeze}} or a deck with
@@ -102,7 +122,11 @@ Negation. Because of this, it can sometimes steal games.
 **{{Island}}**: having a second basic is another tool for shops to better play
 around {{Wasteland}} and {{Ghost Quarter}}.
 
-<row variant="centered">{{!Tasigur, the Golden Fang}} {{!Island}}</row>
+:::row{variant=centered}
+
+Tasigur, the Golden Fang 
+Island
+:::
 
 ### Sideboard Guide
 
@@ -233,7 +257,16 @@ Our hand is:
 >    Good things: it can keep Street Wraith. Wraith is a vital card to beating
 >    Brain Freeze.
 
-<row variant="hand">{{!DD}} {{!SW}} {{!Pre}} {{!FoW}} {{!Underground Sea|LEB}} {{!Tasigur, the Golden Fang}} {{!DR}}</row>
+:::row{variant=hand}
+
+DD 
+SW 
+Pre 
+FoW 
+Underground Sea | LEB 
+Tasigur, the Golden Fang 
+DR
+:::
 
 ## Part 4: Playing vs. BUG
 
@@ -277,7 +310,14 @@ their graveyard doesn't matter (i.e., {{Snapcaster Mage}}). What is your pile?
 >   cast it on Doomsday)
 > - A single Wasteland can be played around
 
-<row variant="pile">{{!Demonic Tutor}} {{!Time Walk}} {{!TO}} {{!TO}} {{!Island}}</row>
+:::row{variant=pile}
+
+Demonic Tutor 
+Time Walk 
+TO 
+TO 
+Island
+:::
 
 ## Part 5: Playing vs. Bant
 
@@ -312,7 +352,14 @@ What is your pile, and what do are you trying to do in the following turns?
 > to Lavinia as well. The pile discoverN describes makes it so you can beat all
 > of these cards as well as Flusterstorm and Daze (two Oracles).
 
-<row variant="pile">{{!Time Walk}} {{!TO}} {{!TO}} {{!Island}} {{!Island}}</row>
+:::row{variant=pile}
+
+Time Walk 
+TO 
+TO 
+Island 
+Island
+:::
 
 ## Part 6: Playing vs. Shops
 
@@ -332,7 +379,12 @@ Rod}}, more Revokers, etc?
 
 Our hand is:
 
-<row variant="hand">{{!Pre}} {{!Daze}} {{!FoW}}</row>
+:::row{variant=hand}
+
+Pre 
+Daze 
+FoW
+:::
 
 *My response*
 
@@ -359,11 +411,25 @@ Our hand is:
 > could argue for as well. Playing vs. shops can be complicated, and the most
 > essential thing is mana sources and having enough lands at all times.
 
-<row variant="pile">{{!Steel Sabotage}} {{!Gush}} {{!TO}} {{!Black Lotus}} {{!Island}}</row>
+:::row{variant=pile}
+
+Steel Sabotage 
+Gush 
+TO 
+Black Lotus 
+Island
+:::
 
 Or
 
-<row variant="pile">{{!Time Walk}} {{!SW}} {{!TO}} {{!Island}} {{!Island}}</row>
+:::row{variant=pile}
+
+Time Walk 
+SW 
+TO 
+Island 
+Island
+:::
 
 That's all! If you enjoyed this guide, you can leave me a follow on
 [Twitter](https://twitter.com/Jacobisboss1) for more like it in the future. Once

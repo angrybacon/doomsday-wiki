@@ -113,7 +113,14 @@ Some key examples of permanent removal to consider:
 - {{Prismatic Ending}}
 - {{Force of Negation}}
 
-<row variant="pile">{{!AD}} {{!Abrade}} {{!Prismatic Ending}} {{!Teferi's Realm}} {{!Pernicious Deed}}</row>
+:::row{variant=pile}
+
+AD 
+Abrade 
+Prismatic Ending 
+Teferi's Realm 
+Pernicious Deed
+:::
 
 #### 2. Creature Removal
 
@@ -133,7 +140,14 @@ Some key examples of creature removal to consider:
 - {{Dead of Winter}}
 - {{Terminus}}
 
-<row variant="pile">{{!StP}} {{!Fatal Push}} {{!Massacre}} {{!Toxic Deluge}} {{!Terminus}}</row>
+:::row{variant=pile}
+
+StP 
+Fatal Push 
+Massacre 
+Toxic Deluge 
+Terminus
+:::
 
 #### 3. Anti-Blue
 
@@ -157,7 +171,14 @@ Some key examples of anti-blue to consider:
 - {{Defense Grid}}
 - {{Teferi, Time Raveler}}
 
-<row variant="pile">{{!Silence}} {{!Pyroblast}} {{!Hope of Ghirapur}} {{!Defense Grid}} {{!Xantid Swarm}}</row>
+:::row{variant=pile}
+
+Silence 
+Pyroblast 
+Hope of Ghirapur 
+Defense Grid 
+Xantid Swarm
+:::
 
 #### 4. Anti-Combo
 
@@ -178,7 +199,14 @@ Some key examples of anti-combo to consider:
 - {{Force of Negation}}
 - {{Lavinia, Azorius Renegade}}
 
-<row variant="pile">{{!Veil of Summer}} {{!Flusterstorm}} {{!Spell Pierce}} {{!Mindbreak Trap}} {{!Force of Negation}}</row>
+:::row{variant=pile}
+
+Veil of Summer 
+Flusterstorm 
+Spell Pierce 
+Mindbreak Trap 
+Force of Negation
+:::
 
 #### 5. Anti-Graveyard
 
@@ -205,7 +233,14 @@ Some key examples of anti-graveyard to consider:
 - {{Faerie Macabre}} (soft)
 - {{Relic of Progrenitus}} (soft)
 
-<row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!RiP}} {{!Grafdigger's Cage}}</row>
+:::row{variant=pile}
+
+Leyline of the Void 
+Tormod's Crypt 
+Surgical Extraction 
+RiP 
+Grafdigger's Cage
+:::
 
 #### 6. Mana Assets
 
@@ -224,7 +259,13 @@ Some key examples of mana assets to consider:
 - B/x Splash duals like {{Badlands}} or {{Bayou}}
 - {{Cabal Ritual}}
 
-<row variant="pile">{{!Carpet of Flowers}} {{!Cavern of Souls}} {{!Snow-Covered Plains}} {{!CR}} {{!Bayou}}</row>
+:::row{variant=pile}
+
+Carpet of Flowers 
+Cavern of Souls {{!Snow-Covered Plains}} 
+CR 
+Bayou
+:::
 
 #### 7. Alterate Win Conditions
 
@@ -307,7 +348,14 @@ Examples of this archetype include:
 - Hogaak variants
 - {U}{B}{R} Phoenix
 
-<row variant="pile">{{!Griselbrand}} {{!Dread Return}} {{!Ichorid}} {{!Hogaak, Arisen Necropolis}} {{!Arclight Phoenix}}</row>
+:::row{variant=pile}
+
+Griselbrand 
+Dread Return 
+Ichorid 
+Hogaak, Arisen Necropolis 
+Arclight Phoenix
+:::
 
 ### Blue-Based Control
 
@@ -351,7 +399,14 @@ Examples of this archetype include:
 - Stryfo Pile
 - Jeskai Mentor
 
-<row variant="pile">{{!Counterbalance}} {{!Standstill}} {{!Dack Fayden}} {{!Sylvan Library}} {{!Endurance}}</row>
+:::row{variant=pile}
+
+Counterbalance 
+Standstill 
+Dack Fayden 
+Sylvan Library 
+Endurance
+:::
 
 ### Delver Strategies
 
@@ -403,7 +458,14 @@ Examples of this archetype include:
 - {U}{B} Shadow
 - {U}{W}{R} Ragavan Saga
 
-<row variant="pile">{{!Delver of Secrets}} {{!Ragavan, Nimble Pilferer}} {{!Daze}} {{!Death's Shadow}} {{!Glistener Elf}}</row>
+:::row{variant=pile}
+
+Delver of Secrets 
+Ragavan, Nimble Pilferer 
+Daze 
+Death's Shadow 
+Glistener Elf
+:::
 
 ### Creature Based Strategies
 
@@ -433,7 +495,14 @@ Examples of this archetype include:
 - Goblins
 - Maverick
 
-<row variant="pile">{{!Aether Vial}} {{!Green Sun's Zenith}} {{!Thalia, Guardian of Thraben}} {{!Goblin Lackey}} {{!Knight of the Reliquary}}</row>
+:::row{variant=pile}
+
+Aether Vial 
+Green Sun's Zenith 
+Thalia, Guardian of Thraben 
+Goblin Lackey 
+Knight of the Reliquary
+:::
 
 ### Fast Combo
 
@@ -490,7 +559,14 @@ Examples of this archetype include:
 - Doomsday
 - High Tide
 
-<row variant="pile">{{!Tendrils of Agony}} {{!Goblin Charbelcher}} {{!Dark Depths}} {{!Show and Tell}} {{!High Tide}}</row>
+:::row{variant=pile}
+
+Tendrils of Agony 
+Goblin Charbelcher 
+Dark Depths 
+Show and Tell 
+High Tide
+:::
 
 ### Stompy Strategies
 
@@ -522,7 +598,14 @@ Examples of this archetype include:
 - 12 Post
 - Steel Stompy
 
-<row variant="pile">{{!Chalice of the Void}} {{!Blood Moon}} {{!Thoughtknot Seer}} {{!Karn, the Great Creator}} {{!Cloudpost}}</row>
+:::row{variant=pile}
+
+Chalice of the Void 
+Blood Moon 
+Thoughtknot Seer 
+Karn, the Great Creator 
+Cloudpost
+:::
 
 ### Hybrid Archetypes
 

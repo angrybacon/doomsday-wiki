@@ -56,7 +56,14 @@ Dragons and other {B}{R} creatures. As time went on, and new cards from Urza's
 Legacy were printed, he actually already found a copy, and use for Doomsday in
 his ~~pile~~ deck which he used to deploy a very efficient combo:
 
-<row variant="pile">{{!Meditate|TMP}} {{!Palinchron|ULG}} {{!Mana Flare|LEB}} {{!Turnabout|USG}} {{!Stroke of Genius|USG}}</row>
+:::row{variant=pile}
+
+Meditate | TMP 
+Palinchron | ULG 
+Mana Flare | LEB 
+Turnabout | USG 
+Stroke of Genius | USG
+:::
 
 For only {4}{U}{U}{U}{R} this would give you infinite mana to cast an
 exponentially large Stroke at your opponent. Pretty powerful magic.
@@ -83,7 +90,14 @@ tournament style decks I can find were Type 1 legal only and built themselves to
 loop {{Timetwister}} in order to net mana each re-casting to then cast a lethal
 {{Braingeyser}} or other {x} spell.
 
-<row variant="pile">{{!I}} {{!Black Lotus|LEB}} {{!LED}} {{!Regrowth|LEB}} {{!Braingeyser|LEB}}</row>
+:::row{variant=pile}
+
+I 
+Black Lotus | LEB 
+LED 
+Regrowth | LEB 
+Braingeyser | LEB
+:::
 
 The pile required Timetwister and 2 other cards in hand along with {1}{G} for
 Regrowth. The Island could be replaced with any card as the idea was to *crack*
@@ -115,7 +129,14 @@ and *Team Meandeck* to develop a storm based Doomsday deck that made use of
 {{Tendrils of Agony}}, {{Gush}} combined with {{Fastbond}} and a cool kill
 involving {{Mind's Desire}} into {{Beacon of Destruction}}.
 
-<row variant="pile">{{!Ancestral Recall|LEB}} {{!Black Lotus|LEB}} {{!DR}} {{!Mind's Desire|SCG}} {{!Beacon of Destruction|5DN}}</row>
+:::row{variant=pile}
+
+Ancestral Recall | LEB 
+Black Lotus | LEB 
+DR 
+Mind's Desire | SCG 
+Beacon of Destruction | 5DN
+:::
 
 This pile was a pass-the-turn pile that cost {U}{B} to enact. It gave a storm of
 4 which allowed you to cast Desire into Beacon, cast the Beacon with the other
@@ -129,7 +150,14 @@ When Legacy first began there was some interest pocketed around about trying to
 build a Doomsday deck. Some tried to mimick what a lot of Storm decks at the
 time were doing building piles like:
 
-<row variant="pile">{{!BS}} {{!DR}} {{!DR}} {{!IGG}} {{!ToA}}</row>
+:::row{variant=pile}
+
+BS 
+DR 
+DR 
+IGG 
+ToA
+:::
 
 This already required 5 spells in hand to go off and was cumbersome but did add
 some additional business to the decks. Another cute tech people were trying was
@@ -142,14 +170,28 @@ off over 2 turns if you needed all and 1 turn if you had a piece already. The
 entire thing could be powered out by a mix of {{Dark Ritual}} and {{Cabal
 Ritual}}.
 
-<row variant="pile">{{!Buried Alive|ODY}} {{!Sutured Ghoul|JUD}} {{!Phyrexian Dreadnought}} {{!Krosan Cloudscraper|LGN}} {{!Shallow grave}}</row>
+:::row{variant=pile}
+
+Buried Alive | ODY 
+Sutured Ghoul | JUD 
+Phyrexian Dreadnought 
+Krosan Cloudscraper | LGN 
+Shallow grave
+:::
 
 These lists were creative but generally not very effective at all and normally
 relied on Doomsday as a secondary plan to the main combo. At this time there was
 one version of the deck that did have a relatively clean pile being available
 making use of the, as then, new cards from Mirrodin block.
 
-<row variant="pile">{{!Pdt}} {{!Brain Freeze|SCG}} {{!LED}} {{!CB}} {{!Second Sunrise}}</row>
+:::row{variant=pile}
+
+Pdt 
+Brain Freeze | SCG 
+LED 
+CB 
+Second Sunrise
+:::
 
 This cost a cantrip plus {2}{U} to enact on the same turn or you could also pass
 the turn with it. You cast Predict, naming Brain Freeze and drawing LED and
@@ -178,15 +220,36 @@ digging already available.
 
 {2}{U}{U}{U}
 
-<row variant="pile">{{!IU}} {{!Helm of Awakening}} {{!SdT}} {{!SdT}} {{!Brain Freeze|SCG}}</row>
+:::row{variant=pile}
+
+IU 
+Helm of Awakening 
+SdT 
+SdT 
+Brain Freeze | SCG
+:::
 
 1 Top in play + {2}{U}{U}
 
-<row variant="pile">{{!IU}} {{!Helm of Awakening}} {{!LED}} {{!SdT}} {{!Brain Freeze|SCG}}</row>
+:::row{variant=pile}
+
+IU 
+Helm of Awakening 
+LED 
+SdT 
+Brain Freeze | SCG
+:::
 
 1 Helm in play + {U}{U}
 
-<row variant="pile">{{!IU}} {{!SdT}} {{!LED}} {{!SdT}} {{!Brain Freeze|SCG}}</row>
+:::row{variant=pile}
+
+IU 
+SdT 
+LED 
+SdT 
+Brain Freeze | SCG
+:::
 
 This pile was resilient to graveyard interation however was still reliant on
 both activated abilities and artifact synergies which were hurt by {{Pithing
@@ -243,7 +306,14 @@ Doomsday was explored by Emidln and BZK friends; B.C., Evenpence and
 Desolutionist as a way to incorporate additional business into the shell to some
 success but the deck, although fast, did not achieve any top tier status.
 
-<row variant="pile">{{!Cruel Bargain|POR}} {{!LP}} {{!DR}} {{!DR}} {{!ToA}}</row>
+:::row{variant=pile}
+
+Cruel Bargain | POR 
+LP 
+DR 
+DR 
+ToA
+:::
 
 In 2006 Iggy pop got a large boost in the form of {{Leyline of the Void}} from
 Guildpact which allowed it to mitigate the balanced nature of Ill-Gotten Gains
@@ -377,7 +447,14 @@ such as:
 
 Cantrip + {B}{B}{B}{B}
 
-<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!SdT}} {{!ToA}}</row>
+:::row{variant=pile}
+
+IC 
+DR 
+DR 
+SdT 
+ToA
+:::
 
 On seeing this Emidln sat down online with goobafish (inventor of Canadian
 Threshold), desolutionist, rsaunders, Whit3_Ghost and birdman along with many
@@ -398,7 +475,14 @@ From an Emidln mtgthesource post in 2008:
 
 Brainstorm in hand + 2 cards in hand + {1}{B}{B}{U}
 
-<row variant="pile">{{!LED}} {{!LED}} {{!IT}} {{!Death Wish}} {{!IGG}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+IT 
+Death Wish 
+IGG
+:::
 
 A lot of what is taken for granted in modern lists wasn't considered back then.
 {{Ideas Unbound}} existed but wasn't considered instead having people favour
@@ -461,11 +545,25 @@ whilst then bouncing an opposing Teeg.
 
 CoV in hand + SdT in play + {1}{U}
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+LED 
+LED 
+BW
+:::
 
 1 SdT in play + {1}{U}{U}{U}
 
-<row variant="pile">{{!IU}} {{!LED}} {{!CoV}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+CoV 
+LED 
+BW
+:::
 
 NLS was like a Doomsday / FT / Ad Nauseum hybrid that had access to both the
 fast kill that TES ran, albeit a tad slower, and the anti-Teeg/more versatile or
@@ -534,14 +632,28 @@ pass-the-turn pile plan that circumnavigated countermagic. Pretty much every
 DDFT, and ANT deck for that matter, adopted the Doomsday into Shelldock plan as
 part of their sideboard.
 
-<row variant="pile">{{!SI}} {{!Em}} {{!I}} {{!I}} {{!I}}</row>
+:::row{variant=pile}
+
+SI 
+Em 
+I 
+I 
+I
+:::
 
 People also worked out ways that could be used to ensure you could resolve it in
 the same turn you cast Doomsday using {{Cloud of Faeries}} as another enabler.
 
 Land drop available + Cantrip + 1 card in hand + {1}{U}
 
-<row variant="pile">{{!BS}} {{!SI}} {{!Cloud of Faeries|ULG}} {{!Em}} {{!I}}</row>
+:::row{variant=pile}
+
+BS 
+SI 
+Cloud of Faeries | ULG 
+Em 
+I
+:::
 
 This technology was adopted by other storm decks to form an easy sideboard
 strategy that could be used to beat control decks as, once Doomsday had
@@ -552,7 +664,14 @@ also incidentally gave the deck resistance against {{Painter's Servant}} x
 Lejay had some additional fun coming up with some silly, if inefficient, tech
 involving multiple Ideas Unbounds and Emrakul to enable shuffle.
 
-<row variant="pile">{{!Relic of Progenitus|ALA}} {{!IU}} {{!Em}} {{!LED}} {{!IU}}</row>
+:::row{variant=pile}
+
+Relic of Progenitus | ALA 
+IU 
+Em 
+LED 
+IU
+:::
 
 Lejay from a stormboards post in 2010:
 
@@ -664,23 +783,58 @@ been used before.
 
 Cantrip + {U}{U}
 
-<row variant="pile">{{!IU}} {{!LED}} {{!GP}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+GP 
+LED 
+BW
+:::
 
 2 Cantrips + {R}
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+LED 
+LED 
+BW
+:::
 
 Cantrip + Top in play
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+LED 
+LED 
+BW
+:::
 
 Pass the turn + {U}{U}
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+LED 
+BW 
+BW
+:::
 
 Burning Wish (Wish for Ideas Unbound) + Cantrip
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LP 
+LED 
+BW
+:::
 
 DDFT saw high popularity and was well placed against a lot of the meta. As a
 result it put up good results between the printing and after Misstep was banned
@@ -712,15 +866,36 @@ to removal completely.
 
 Cantrip + {U}{U}
 
-<row variant="pile">{{!IU}} {{!LED}} {{!GP}} {{!SdT}} {{!LM}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+GP 
+SdT 
+LM
+:::
 
 Cantrip + Top in play
 
-<row variant="pile">{{!LED}} {{!IU}} {{!GP}} {{!LED}} {{!LM}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+GP 
+LED 
+LM
+:::
 
 Pass the turn + {2}{U}{U}
 
-<row variant="pile">{{!IU}} {{!LED}} {{!GP}} {{!CS}} {{!LM}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+GP 
+CS 
+LM
+:::
 
 The piles normally worked by getting Labman and Top into play together and then
 activating Top to win. If you suspected removal you could pass until your next
@@ -818,7 +993,14 @@ primary pile it ran went as such:
 
 {U}{B}
 
-<row variant="pile">{{!Mental Note}} {{!LM}} {{!Pact of Negation|FUT}} {{!GP}} {{!Un}}</row>
+:::row{variant=pile}
+
+Mental Note 
+LM 
+Pact of Negation | FUT 
+GP 
+Un
+:::
 
 The idea was to play a heavy control game, utilising the reactive elements and
 getting Top online. Once Doomsday is assembled you cast it and, either try to
@@ -911,7 +1093,17 @@ Doomsday of the time made those otherwise *dead* cards very live.
 The speed was also a key point. The Meandeck list, with a perfect draw, could
 achieve a turn 2 kill with the following cards in hand/drawn:
 
-<row variant="hand">{{!DR|MMQ}} {{!DD}} {{!DR|MMQ}} {{!Pact of Negation|FUT}} {{!SdT}} {{!PD}} {{!GP}} {{!Island|RAV}}</row>
+:::row{variant=hand}
+
+DR | MMQ 
+DD 
+DR | MMQ 
+Pact of Negation | FUT 
+SdT 
+PD 
+GP 
+Island | RAV
+:::
 
 The sequencing would be play Top off of Island on turn 1. Turn 2 you would fetch
 Swamp with Delta, cast Ritual into Ritual and then Doomsday. You would then
@@ -920,7 +1112,17 @@ draw and cast Probe into Unearth. Cast Unearth to reanimate Labman to then
 activate Top to draw for the win. An equivalent perfect draw from DDFT could
 result in a turn 1 win.
 
-<row variant="hand">{{!DR|MMQ}} {{!DD}} {{!DR|MMQ}} {{!Dur}} {{!SdT}} {{!PD}} {{!GP}} {{!Island|RAV}}</row>
+:::row{variant=hand}
+
+DR | MMQ 
+DD 
+DR | MMQ 
+Dur 
+SdT 
+PD 
+GP 
+Island | RAV
+:::
 
 Take the same hand and replace one disruption element for another. You can play
 Delta, fetch Swamp. Ritual, Duress, cast Top. Ritual again to Doomsday stacking
@@ -1015,15 +1217,36 @@ was found to be pretty efficient.
 
 Cantrip + {1}{U}{U}
 
-<row variant="pile">{{!TW}} {{!BW}} {{!GP}} {{!LED}} {{!LED}}</row>
+:::row{variant=pile}
+
+TW 
+BW 
+GP 
+LED 
+LED
+:::
 
 2 Cantrips
 
-<row variant="pile">{{!LED}} {{!TW}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+TW 
+LED 
+LED 
+BW
+:::
 
 2 Cantrips
 
-<row variant="pile">{{!LED}} {{!TW}} {{!LED}} {{!GP}} {{!LM}}</row>
+:::row{variant=pile}
+
+LED 
+TW 
+LED 
+GP 
+LM
+:::
 
 Back in M14 a card had been printed which had been considered by Emidln and
 other members but had been found to be lacking. With the successful testing of
@@ -1060,11 +1283,25 @@ and being able to loop multiple baubles.
 
 Bauble in Play + Cantrip
 
-<row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+AoI 
+LED 
+LED 
+BW
+:::
 
 Bauble in Play + Cantrip
 
-<row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!CB}} {{!ToA}}</row>
+:::row{variant=pile}
+
+LED 
+AoI 
+LED 
+CB 
+ToA
+:::
 
 In the two examples above, the first gives 9 storm assuming you lead with Ritual
 into Doomsday. The second gives 10 storm with the same opening. Post Doomsday
@@ -1171,7 +1408,14 @@ deterministic infinite life-loss win with the following pile:
 
 Frenzy in play
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LED 
+ToA 
+DD
+:::
 
 You cast each LED and cast Tendrils. This gains you enough life to cast the
 Doomsday at the bottom. You then restack the same pile but with the original
@@ -1181,7 +1425,14 @@ Tendrils of Agony.
 
 Frenzy in play
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LED 
+CoBru 
+DD
+:::
 
 With the release of War of the Spark another new tool was introduced that could
 be slotted into the deck; {{Jace, Wielder of Mysteries}}. Jace allowed an
@@ -1191,7 +1442,14 @@ like Flusterstorm underneath it.
 
 Frenzy in play
 
-<row variant="pile">{{!LED}} {{!LED}} {{!Jace, Wielder of Mysteries}} {{!Flusterstorm|CMD}} {{!Flusterstorm}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+Jace, Wielder of Mysteries 
+Flusterstorm | CMD 
+Flusterstorm
+:::
 
 The deck did have some legs, even [putting up good results in a challenge
 online](https://www.youtube.com/watch?v=St6GV0_3wuc&t=3476s) and it had a good
@@ -1240,7 +1498,14 @@ Emidln to the fold who returned by messaging me the following pile concept:
 
 {{Thought Scour}} in hand
 
-<row variant="pile">{{!DA}} {{!I}} {{!LED}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+DA 
+I 
+LED 
+LP 
+TO
+:::
 
 You use Scour to mill Analysis and X, draw LED. LED allows the flashback of Deep
 Analysis to draw Petal and Oracle. The entire pile, although graveyard reliant,
@@ -1276,11 +1541,25 @@ piles were worked out.
 
 Brainstorm + 1 card in hand
 
-<row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+SW 
+LP 
+TO
+:::
 
 Cantrip + {U}{U}
 
-<row variant="pile">{{!IU}} {{!LP}} {{!EoA}} {{!CoS}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+EoA 
+CoS 
+TO
+:::
 
 With the printing of {{Lurrus of the Dream Den}} from Ikoria, Doomsday was easy
 to accept the companion losing only access to {{Street Wraith}} and Teferi in

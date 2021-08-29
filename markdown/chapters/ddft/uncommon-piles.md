@@ -28,7 +28,14 @@ A simple version of the pile looks like this:
 
 > Enough life to live for 2 turns post-DD
 
-<row variant="pile">{{!SI}} {{!Em}} {{!I}} {{!Dur}} {{!TO}}</row>
+:::row{variant=pile}
+
+SI 
+Em 
+I 
+Dur 
+TO
+:::
 
 1. Cast Doomsday and build the above pile, then pass the turn
 2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
@@ -47,7 +54,14 @@ pass 1 turn.
 If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
-<row variant="pile">{{!Pnd}} {{!SI}} {{!Em}} {{!TO}} {{!DD}}</row>
+:::row{variant=pile}
+
+Pnd 
+SI 
+Em 
+TO 
+DD
+:::
 
 Ponder on top means Shelldock Isle won't get fatesealed, you have Oracle as a
 backup plan, and a Doomsday as yet another backup plan to recycle cards in case
@@ -68,7 +82,14 @@ situations. Lets look at a few example:
 > Tropical Island, Underground Sea on board, no cantrips in hand, Opponent has
 > Chalice@2 - {B}{G} + {U}{U}
 
-<row variant="pile">{{!AD}} {{!SW}} {{!TO}} {{!LP}} {{!LP}}</row>
+:::row{variant=pile}
+
+AD 
+SW 
+TO 
+LP 
+LP
+:::
 
 This situation is pretty specific, but it illustrates the need to occasionally
 pass multiple turns. Consider this a post-board game, where you're more likely
@@ -88,7 +109,14 @@ for example you got hit with Wasteland.
 
 > No mana on board, no cards in hand - {0}, 2 life
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!TO}} {{!LP}}</row>
+:::row{variant=pile}
+
+LED 
+SW 
+Pnd 
+TO 
+LP
+:::
 
 1. Pass the turn after casting Doomsday
 2. Draw the LED, play it out, and pass again.
@@ -104,7 +132,14 @@ you pass 2 turns, you can win from literally nothing but a couple life.
 
 > Plenty of lands/mana on board - {B}{B}{B}{B}{U}{U}
 
-<row variant="pile">{{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}} {{!TO}}</row>
+:::row{variant=pile}
+
+Dur 
+Dur 
+Dur 
+Dur 
+TO
+:::
 
 This is a very crude example but again, it illustrates an idea. Perhaps you cast
 Doomsday against a Ux Control deck, assuming it would be countered, but they let
@@ -125,7 +160,14 @@ and a {{Meddling Mage}} naming Thassa's Oracle.
 
 > Ponder, LED, LED in hand - {B}{B}{B} + {U} - 6 Storm
 
-<row variant="pile">{{!BW}} {{!Dur}} {{!Dur}} {{!Dur}} {{!Dur}}</row>
+:::row{variant=pile}
+
+BW 
+Dur 
+Dur 
+Dur 
+Dur
+:::
 
 In its crudest form, you use Doomsday as a tutor for Burning Wish, which then
 retrieves Empty the Warrens. The remainder of the pile is discard or other
@@ -136,7 +178,14 @@ they deal with your opponent.
 
 > Ponder, LED in hand - {B}{B}{B} + {1}{U} + {B}{B}{B} - 8 Storm
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LED}} {{!BW}} {{!DD}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LED 
+BW 
+DD
+:::
 
 In this slightly more complicated variant, you use Doomsday to set up a pile
 that makes Goblins, and then the next turn you use another Doomsday to add more
@@ -155,7 +204,14 @@ Mindkiller Doomsday, but is included here for the sake of completeness.
 
 > {B}{U}{U}, 3 life
 
-<row variant="pile">{{!SotV}}, {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
+:::row{variant=pile}
+
+SotV, 
+Mm 
+Mm 
+Mm 
+TO
+:::
 
 For this pass-the-turn pile, you draw Spoils, cast it and name Oracle, then cast
 Oracle. Simple as that. The 3 cards in the middle of the pile can be anything,
@@ -169,7 +225,14 @@ an empty library so removal is ineffective.
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} + 3 life
 
-<row variant="pile">{{!LED}}{{!LP}}{{!SotV}}{{!I}}{{!TO}}</row>
+:::row{variant=pile}
+
+LED
+LP
+SotV
+I
+TO
+:::
 
 This is similar to some of the piles in the [Brainstorm
 chapter][ddft:brainstorm], but Spoils lets you win without leaving cards left in
@@ -201,7 +264,14 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
 > 2 cards in hand - {1}{U}{U}{R} + ({1}{R}) - 9 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+LED 
+BW 
+BW
+:::
 
 The first wish fetches Time Spiral, which untaps lands that let you play the
 second Burning Wish to fetch Tendrils.

@@ -50,7 +50,14 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 > {U} + Brainstorm + Thassa's Oracle
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+SW 
+Pnd 
+EoA 
+TO
+:::
 
 1. Cast Brainstorm and put back Oracle then Ponder on top
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
@@ -98,7 +105,14 @@ Consider the following:
 > {U}{U} + Ponder + Island  
 > Land drop available
 
-<row variant="pile">{{!BS}} {{!SW}} {{!EoA}} {{!Polluted Delta|ONS}} {{!TO}}</row>
+:::row{variant=pile}
+
+BS 
+SW 
+EoA 
+Polluted Delta | ONS 
+TO
+:::
 
 1. Cast Ponder to draw BS
 1. Cast BS and put back Island then EoA
@@ -129,14 +143,30 @@ has resolved (from the Basics chapter):
 > Game 1  
 > On the play
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!I|RAV}} {{!Pre}}</row>
+:::row{variant=hand}
+
+DR 
+DD 
+FoW 
+FoW 
+S | RAV 
+I | RAV 
+Pre
+:::
 
 Although we have Force of will in our hand we are wanting to use LED to help us
 generate enough mana to cast everything we want. If we use LED our Oracle
 becomes exposed thanks to having to discard our Forces. Here is one potential
 solution assuming we played Doomsday off of Swamp and Dark Ritual:
 
-<row variant="pile">{{!BS}} {{!Tsz}} {{!LED}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+BS 
+Tsz 
+LED 
+EoA 
+TO
+:::
 
 1. Draw Brainstorm for turn
 1. Play Island, cast Brainstorm with Island, and put back Force and Preordain on
@@ -151,7 +181,14 @@ them to a scenario whereby before, we had not considered facing interaction
 fully. You can do a similar scenario where you have initiated off of Bayou with
 Veil of Summer instead.
 
-<row variant="pile">{{!BS}} {{!VoS}} {{!LED}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+BS 
+VoS 
+LED 
+EoA 
+TO
+:::
 
 If they cast a spell, such as a Brainstorm, in response to the Veil, you have a
 chance to crack LED after Brainstorm has resolved and priority passes back to
@@ -184,14 +221,30 @@ The extra card drawn can allow a lot of flexibility in keeping up countermagic.
 
 Consider the following:
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!Underground Sea|LEB}} {{!I|RAV}} {{!Pre}}</row>
+:::row{variant=hand}
+
+DR 
+DD 
+FoW 
+FoW 
+Underground Sea | LEB 
+I | RAV 
+Pre
+:::
 
 Once again we are taking our PTT example but this time we are assuming we are
 not playing against a deck running Wasteland effects. Because of this we can
 guarantee to have UU available on our turn. As a result we can build a pile like
 so:
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+EoA 
+TO
+:::
 
 This pile allows us to simply cast IU and play out Oracle without ever needing
 to *drop shields* of the two Forces in hand. It is also resilient to opposing
@@ -212,7 +265,14 @@ piles.
 
 > {U} + Brainstorm + X
 
-<row variant="pile">{{!Pdt}} {{!LED}} {{!EoA}} {{!TO}} {{!CoS}}</row>
+:::row{variant=pile}
+
+Pdt 
+LED 
+EoA 
+TO 
+CoS
+:::
 
 You should recognise the above as a simplified Brainstorm pile. In this we have
 simply swapped out a Lotus Petal with Cavern. This severely punishes anyone
@@ -223,7 +283,14 @@ Likewise it can slot into most IU piles too.
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!CoS}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+CoS 
+EoA 
+TO
+:::
 
 Teferi, Time Raveler is another tool that can be used to help prevent
 countermagic however it is expensive to include in piles. It might be suitable
@@ -250,11 +317,25 @@ Doomsday. From that point you don't have to cast a single one mana spell.
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+EoA 
+TO
+:::
 
 > {1}{U} + Cantrip
 
-<row variant="pile">{{!Pdt}} {{!Dur}} {{!LED}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pdt 
+Dur 
+LED 
+EoA 
+TO
+:::
 
 Both of the above examples are all comprised of zero or two mana cost spells and
 free cycling effects all of which can circumnavigate the limitations Chalice
@@ -272,7 +353,14 @@ lands into the pile itself.
 > {U}{U}{U} + Cantrip  
 > Land drop available
 
-<row variant="pile">{{!IU}} {{!SW}} {{!I|RAV}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+SW 
+I | RAV 
+EoA 
+TO
+:::
 
 If X = 2 then you can build something like a Brainstorm pile that only uses your
 one mana cantrips alongside something like Cavern of Souls to get through the
@@ -289,7 +377,14 @@ PTT example against a Chalice of the Void.
 
 > {U}{B}{G} + Brainstorm + X + PTT
 
-<row variant="pile">{{!AD}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+
+AD 
+LED 
+EoA 
+Pnd 
+TO
+:::
 
 Although we are talking predominantly about Chalice of the Void, the same
 information can apply to facing against Counterbalance (Veil still gets around
@@ -308,7 +403,14 @@ pressure. The piles themselves can be adapted, using the free cyclers, to try
 and become as mana efficient as possible. This is especially good when knowing
 you don't face removal as often the Oracle itself is not taxed:
 
-<row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
+:::row{variant=pile}
+
+SW 
+EoA 
+TO 
+DD 
+DD
+:::
 
 In the above example you can simply cycle the first two cards and then cast
 Oracle for {U}{U}. The two Doomsdays are just placeholders as, in theory, you
@@ -343,7 +445,14 @@ allows you to *dig* up to three cards deep into the pile. Something like the
 following may be useful facing an opposing Narset for example (spread over
 multiple turns):
 
-<row variant="pile">{{!Pnd}} {{!Pdt}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pnd 
+Pdt 
+EoA 
+Pnd 
+TO
+:::
 
 One key thing to note with these cards involves Teferi, Time Raveler's {-3}
 ability. If use the ability on a Leovold, you *will* get to draw the card
@@ -405,7 +514,14 @@ a pile. Let us take the following scenario:
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+EoA 
+TO
+:::
 
 If the Cantrip used to *dig* into the pile is something like a Street Wraith
 then the opponent is likely to Surgical right away meaning you have a 20% chance
@@ -438,7 +554,14 @@ a possibility to be considered.
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!SW}} {{!EoA}} {{!TO}} {{!DD}} {{!DD}}</row>
+:::row{variant=pile}
+
+SW 
+EoA 
+TO 
+DD 
+DD
+:::
 
 Here you have a pile where, if they Surgical in response to the cantrip effect
 on Doomsday and you remove all the copies in the pile, you will have a
@@ -459,7 +582,10 @@ an unexpected interaction you may not have considered before. If something does
 
 ### Grindstone
 
-<row variant="centered">{{!Grindstone}}</row>
+:::row{variant=centered}
+
+Grindstone
+:::
 
 This is a consideration when facing any Painter variant. You can find yourself
 in a situation whereby your opponent may have an active {{Grindstone}} and the
@@ -469,7 +595,14 @@ try to activate the Grindstone but it is possible to play around.
 
 > {U}{U} + ({U}{U}) + Cantrip
 
-<row variant="pile">{{!Pnd}} {{!Pnd}} {{!SW}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pnd 
+Pnd 
+SW 
+EoA 
+TO
+:::
 
 For the example above, if they Grindstone when digging into the pile you will
 *mill* Ponder and Ponder and then also Wraith and Edge and draw TO to be able to
@@ -486,7 +619,10 @@ Similar to this includes cards like {{Hedron Crab}}, {{Altar of Dementia}},
 
 ### Fireblast
 
-<row variant="centered">{{!Fireblast}}</row>
+:::row{variant=centered}
+
+Fireblast
+:::
 
 Fireblast is something to be mindful of only in the Burn matchup but it's a good
 consideration in line with Lightning bolt to be mindful of your life total. If
@@ -500,7 +636,10 @@ loss.
 
 ### Mindbreak Trap
 
-<row variant="centered">{{!Mindbreak Trap}}</row>
+:::row{variant=centered}
+
+Mindbreak Trap
+:::
 
 {{Mindbreak Trap}} is a popular tool to beat combo decks and work around Veil of
 Summer. If you know or suspect the possibility of facing it then you can either
@@ -510,7 +649,14 @@ is risky to try and resolve a third spell.
 
 Consider the following:
 
-<row variant="pile">{{!IU}} {{!Tsz}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+Tsz 
+LP 
+LP 
+TO
+:::
 
 Assuming you had a cantrip ready to *dig* into the pile, you can use it to try
 and use it to either pre-emptively bait the Trap or to enable digging one deeper
@@ -521,7 +667,14 @@ spells. If you suspect a Mindbreak Trap in the opponent's hand, with three lands
 available on the following turn you can go Dark Ritual into Doomsday and pass
 the turn building the following:
 
-<row variant="pile">{{!IU}} {{!EoA}} {{!LP}} {{!Island}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+EoA 
+LP 
+Island 
+TO
+:::
 
 This pile only actually casts two spells on the turn after resolving Doomsday.
 Ideas Unbound and the Thassa's Oracle itself. You can also utilise piles of just
@@ -530,7 +683,12 @@ effects should it be desired.
 
 ### Thought Scour / Predict / Archmage's Charm
 
-<row variant="centered">{{!Thought Scour}} {{!Pdt}} {{!Archmage's Charm}}</row>
+:::row{variant=centered}
+
+Thought Scour 
+Pdt 
+Archmage's Charm
+:::
 
 Thought Scour is not normally a common card in Legacy now that the {{Underworld
 Breach}} era is gone however it can still show up in rogue brews from time to
@@ -544,7 +702,12 @@ taking a bit more time to play around it.
 
 ### Dack Fayden / Jace, the Mind Sculptor / Portent
 
-<row variant="centered">{{!Dack Fayden}} {{!Jace, the Mind Sculptor}} {{!Portent}}</row>
+:::row{variant=centered}
+
+Dack Fayden 
+Jace, the Mind Sculptor 
+Portent
+:::
 
 These only need to be considered when building a Pass the Turn pile. Jace is
 likely the most common one to face and is easily beaten by placing an otherwise
@@ -554,7 +717,11 @@ allow it to stay on top you can still execute the pile without hindrance.
 
 ### Vendilion Clique / Kolaghan's Command
 
-<row variant="centered">{{!Vendilion Clique}} {{!Kolaghan's Command}}</row>
+:::row{variant=centered}
+
+Vendilion Clique 
+Kolaghan's Command
+:::
 
 Both of these cards tend to come from control shells. Command is likely more
 disruptive but can be played around assuming you are able to ensure you have one
@@ -568,7 +735,13 @@ your opponent being able to *snipe* an LED with the artifact destruction mode.
 
 ### Stifle / Trickbind / Torpor Orb / Dress Down
 
-<row variant="pile">{{!Stifle}} {{!Trickbind}} {{!Torpor Orb}} {{!Dress Down}}</row>
+:::row{variant=pile}
+
+Stifle 
+Trickbind 
+Torpor Orb 
+Dress Down
+:::
 
 These effects all seek to prevent the Thassa's Oracle trigger from either
 resolving or ever triggering in the first place. For any permanent based one you
@@ -581,7 +754,12 @@ example of these effects.
 
 ### Thoughtseize / Thoughtknot Seer / Cabal Therapy
 
-<row variant="centered">{{!Tsz}} {{!Thoughtknot Seer}} {{!CT}}</row>
+:::row{variant=centered}
+
+Tsz 
+Thoughtknot Seer 
+CT
+:::
 
 These effects tend to only be relevant for PTT piles. Normally they can be
 safely ignored however they may cause delay to your pile winning or, in the
@@ -591,7 +769,10 @@ pile.
 
 ### Ragavan, Nimble Pilferer
 
-<row variant="centered">{{!Ragavan, Nimble Pilferer}}</row>
+:::row{variant=centered}
+
+Ragavan, Nimble Pilferer
+:::
 
 Another PTT only example. You may know about a {{Ragavan, Nimble Pilferer}} on
 board or suspect your opponent might be able to *dash* one from their hand. When
@@ -607,14 +788,28 @@ Consider the following example from the basics chapter.
 
 > {U}{U} + PTT
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+SW 
+TO
+:::
 
 You can make a minor adjustment without losing functionality of the pile by
 placing the SW as the first card.
 
 > {U}{U} + PTT
 
-<row variant="pile">{{!SW}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+SW 
+IU 
+LP 
+LP 
+TO
+:::
 
 In this way, even if you are attacked and hit by a Ragavan, you can still draw
 your entire pile on the following turn and cast Oracle.

@@ -86,7 +86,14 @@ how you would normally.
 
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LED 
+ToA 
+DD
+:::
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
 
@@ -107,7 +114,14 @@ Hell, you could even consider running {{Aetherflux Reservoir}}!
 
 As per the example above:
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!Aetherflux Reservoir}} {{!DD}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LED 
+Aetherflux Reservoir 
+DD
+:::
 
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 2. Cast LED, from the top of your deck, crack for {B}{B}{B}
@@ -129,7 +143,14 @@ into the main and some extra cantrip effects and discard are added.
 Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!ToA}} {{!Pnd}} {{!CB}}</row>
+:::row{variant=pile}
+
+AoI 
+LED 
+ToA 
+Pnd 
+CB
+:::
 
 Some other cards come in to help with combo and consistency. Lim DÃ»l's Vault is
 a classic UB card that has been used as a Vampiric Tutor for awhile and is often

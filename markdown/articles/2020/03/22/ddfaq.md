@@ -76,7 +76,14 @@ kill via a Doomsday pile with lethal {{Tendrils of Agony}} or
 {{Thassa's Oracle}} or a natural Tendrils storm kill without Doomsday. See an
 example pile below:
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pnd}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+LED 
+Pnd 
+BW
+:::
 
 Due to the cards used, the deck tends to be Grixis colours sometimes splashing
 Green for sideboard options.
@@ -93,7 +100,14 @@ infinite life should you wish. The deck can pull off the same win methods as
 DDFT but also allows winning via infinite copies of {{Collective Brutality}}
 amongst other things (see example below).
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LED 
+CoBru 
+DD
+:::
 
 Instead of using {{Burning Wish}} for additional copies of Doomsday, the deck
 uses cards like {{Lim-Dûl's Vault}} to act as tutor pieces prior to *going off*
@@ -116,7 +130,14 @@ less dedicated combo pieces such as {{Lion's Eye Diamond}} and more reactive
 control elements like {{Force of Will}}. The deck does not run Storm based win
 conditions either. An example pile is below:
 
-<row variant="pile">{{!Pdt}} {{!Pnd}} {{!EoA}} {{!LED}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pdt 
+Pnd 
+EoA 
+LED 
+TO
+:::
 
 **Note**: At the time of writing this article, this variant is the one having
 most success in tournaments.
@@ -164,7 +185,11 @@ A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
-<row variant="centered">{{!DD}} {{!EF}}</row>
+:::row{variant=centered}
+
+DD 
+EF
+:::
 
 ### 2.2 Mana Acceleration and Fixing
 
@@ -196,7 +221,12 @@ not lose card advantage whilst playing it.
 You may note I have not yet discussed {{Lion's Eye Diamond}} here, this will be
 covered in *Combo Pieces*.
 
-<row variant="centered">{{!DR}} {{!LP}} {{!AA}}</row>
+:::row{variant=centered}
+
+DR 
+LP 
+AA
+:::
 
 #### DDFT and DDEFT
 
@@ -237,7 +267,12 @@ more on those later. Combine these with some of the cantripping protection
 elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
 up with a very high cantrip number.
 
-<row variant="centered">{{!Pnd}} {{!BS}} {{!Pdt}}</row>
+:::row{variant=centered}
+
+Pnd 
+BS 
+Pdt
+:::
 
 #### DDFT
 
@@ -284,7 +319,12 @@ options available to a Doomsday pilot. Normally you would want at least 8 pieces
 of protection maindeck with additional sideboard slots dedicated to more
 specific interaction.
 
-<row variant="centered">{{!Tsz}} {{!FoW}} {{!VoS}}</row>
+:::row{variant=centered}
+
+Tsz 
+FoW 
+VoS
+:::
 
 #### DDFT
 
@@ -343,7 +383,12 @@ Finally some sort of win condition is required. This can be in the form of
 needed. You want to run as few *dead* cards as possibly and generally the win
 condition is counted as such so you only want 1-2 of them.
 
-<row variant="centered">{{!ToA}} {{!LED}} {{!TO}}</row>
+:::row{variant=centered}
+
+ToA 
+LED 
+TO
+:::
 
 #### DDFT
 
@@ -400,7 +445,12 @@ Tarn or 3 Tarn and 1 Bloodstained Mire. Being able to fetch a basic Island is
 more crucial than a basic swamp as that tends to allow you to get into the game
 in the first place and the majority of your deck is {U} based cantrips anyways.
 
-<row variant="centered">{{!Island|RAV}} {{!Underground Sea|LEB}} {{!Swamp|RAV}}</row>
+:::row{variant=centered}
+
+Island | RAV 
+Underground Sea | LEB 
+Swamp | RAV
+:::
 
 #### DDFT and DDEFT
 
@@ -494,7 +544,12 @@ associated with it however some have explored the use of
 
 Veil and Decay are the biggest boons for playing {G}.
 
-<row variant="centered">{{!Monastery Mentor|FRF}} {{!Pyroblast|ICE}} {{!AD}}</row>
+:::row{variant=centered}
+
+Monastery Mentor | FRF 
+Pyroblast | ICE 
+AD
+:::
 
 ### 3.4 No Splash
 
@@ -515,7 +570,10 @@ with the Oracle trigger on the stack all the while avoiding cards like
 
 Budget and consistent mana is the biggest boon for playing straight {U}{B}.
 
-<row variant="centered">{{!DW}}</row>
+:::row{variant=centered}
+
+DW
+:::
 
 ## 4. The Mechanics of Resolving Doomsday
 
@@ -529,7 +587,10 @@ A large part of the confusion for the physical resolution of it stems from the
 wording on the original Weatherlight printing of {{Doomsday}}. See the card
 below along with the original rules text printed:
 
-<row variant="centered">{{!Doomsday|WTH}}</row>
+:::row{variant=centered}
+
+Doomsday | WTH
+:::
 
 > Pay half your life, rounded up:  
 > Put your graveyard on top of your library, then remove all but five cards of
@@ -550,7 +611,10 @@ quite put out that it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-<row variant="centered">{{!Doomsday|A25}}</row>
+:::row{variant=centered}
+
+Doomsday | A25
+:::
 
 > Search your library and graveyard for five cards and exile the rest.  
 > Put the chosen cards on top of your library in any order.  

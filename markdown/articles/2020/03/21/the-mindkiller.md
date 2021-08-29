@@ -48,7 +48,11 @@ Let's go through it and discuss the dubious deckbuilding decisions I've made...
 
 ### Rainbow Manabase
 
-<row variant="centered">{{!GM}} {{!CoB}}</row>
+:::row{variant=centered}
+
+GM 
+CoB
+:::
 
 Your mana clearly needs to make {R} and {B}. It also has to make {G}, at least
 from the sideboard, though previous iterations of this deck played
@@ -62,7 +66,10 @@ least, it probably doesn't matter.
 
 ### Burning Wish
 
-<row variant="centered">{{!BW}}</row>
+:::row{variant=centered}
+
+BW
+:::
 
 This is among the least dubious of all the deckbuilding decisions I made. It's
 the glue that holds the deck together, the thread of flesh between a loose tooth
@@ -73,7 +80,10 @@ small anti-blue package, entirely wishboard à la Belcher.
 
 ### Echo of Eons
 
-<row variant="centered">{{!EoE}}</row>
+:::row{variant=centered}
+
+EoE
+:::
 
 Like Burning Wish, this card has proven its power in Belcher, TES and DDFT.
 We're a Storm deck playing LED and we want to go fast, there is no reason not to
@@ -83,7 +93,11 @@ the fact that it also refills your opponent's hand, because they don't matter.
 
 ### Doomsday / Thassa's Oracle
 
-<row variant="centered">{{!DD}} {{!TO}}</row>
+:::row{variant=centered}
+
+DD 
+TO
+:::
 
 Doomsday is perhaps a questionable inclusion. Playing it kind of forces you to
 play Thassa's Oracle, which is completely dead outside of piles. Winning with it
@@ -94,14 +108,20 @@ a serviceable engine card.
 
 ### Infernal Contract
 
-<row variant="centered">{{!IC}}</row>
+:::row{variant=centered}
+
+IC
+:::
 
 This is primarily here to facilitate certain Doomsday piles, but it is
 functional as a Storm engine of sorts, the way Spanish Inquisition decks use it.
 
 ### Manamorphose
 
-<row variant="centered">{{!Mm}}</row>
+:::row{variant=centered}
+
+Mm
+:::
 
 Manamorphose does a lot. It can help you cast Dark Ritual off a Simian Spirit
 Guide, or Doomsday off a Rite of Flame. It digs, draws into Doomsday piles, and
@@ -110,7 +130,10 @@ very important.
 
 ### Empty the Warrens
 
-<row variant="centered">{{!EtW}}</row>
+:::row{variant=centered}
+
+EtW
+:::
 
 Having Empty maindeck provides another business spell, one that is particularly
 resilient to countermagic. In the first iterations of the deck, this slot was
@@ -122,7 +145,10 @@ meta-dependent.
 
 ### Spoils of the Vault
 
-<row variant="centered">{{!SotV}}</row>
+:::row{variant=centered}
+
+SotV
+:::
 
 Ah yes. Saving the best for last. If Burning Wish was the flesh-bit keeping the
 loose tooth in, Spoils is the dental floss your older step-brother used to tie
@@ -155,7 +181,16 @@ how they should play out.
 
 ### Hand 1
 
-<row variant="hand">{{!CoB}} {{!GM}} {{!LP}} {{!DR}} {{!CoB}} {{!LED}} {{!EoE}}</row>
+:::row{variant=hand}
+
+CoB 
+GM 
+LP 
+DR 
+CoB 
+LED 
+EoE
+:::
 
 This is a pretty straightforward Echo hand. No sense in waiting, just jam the
 Echo and hope your new hand does something. The only thing to think about is
@@ -166,7 +201,16 @@ Echo.
 
 ### Hand 2
 
-<row variant="hand"> {{!LP}} {{!LP}} {{!LED}} {{!LED}} {{!EoE}} {{!BW}} {{!GM}}</row>
+:::row{variant=hand}
+ 
+LP 
+LP 
+LED 
+LED 
+EoE 
+BW 
+GM
+:::
 
 This is an extremely busted hand, and among the best you can hope for against
 Fair Blue decks. You have 2 must-counter spells in hand, meaning you can *go
@@ -178,7 +222,16 @@ have enough mana to still cast Echo afterwards.
 
 ### Hand 3
 
-<row variant="hand"> {{!LP}} {{!DR}} {{!LED}} {{!DR}} {{!SotV}} {{!BW}} {{!GM}}</row>
+:::row{variant=hand}
+ 
+LP 
+DR 
+LED 
+DR 
+SotV 
+BW 
+GM
+:::
 
 Like the previous hand, this one has 2 business spells and is therefore high
 potential against Fair Blue. Play out all your mana. Cast Burning Wish, hold
@@ -191,7 +244,15 @@ have a chance even against decks that could race the goblins.
 
 ### Hand 4
 
-<row variant="hand"> {{!LP}} {{!DR}} {{!DD}} {{!Rite}} {{!SW}} {{!GM}}</row>
+:::row{variant=hand}
+ 
+LP 
+DR 
+DD 
+Rite 
+SW 
+GM
+:::
 
 The first Doomsday hand. We are pretty clearly casting Dark Ritual into
 Doomsday. Street Wraith will draw into the pile and we can have some mana
@@ -200,7 +261,14 @@ breathtakingly elegant Doomdsay pile you will ever see:
 
 > SW in hand - {1}{R}, 2 life
 
-<row variant="pile">{{!Mm}} {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
+:::row{variant=pile}
+
+Mm 
+Mm 
+Mm 
+Mm 
+TO
+:::
 
 Grab some tissues and mop up. This pile right here is extremely powerful. You
 can win with very little mana left after Doomsday. It also functions as a pass
@@ -210,7 +278,16 @@ O R P H O S E.
 
 ### Hand 5
 
-<row variant="hand"> {{!LP}} {{!EoE}} {{!DD}} {{!DD}} {{!SotV}} {{!TO}} {{!BW}}</row>
+:::row{variant=hand}
+ 
+LP 
+EoE 
+DD 
+DD 
+SotV 
+TO 
+BW
+:::
 
 This hand might look like ass but it's fine. This is where you recite the Litany
 against Fear. Spoils for LED. Echo. Invoke the higher power of your choice. Dab
@@ -218,7 +295,16 @@ on the haters.
 
 ### Hand 6
 
-<row variant="hand"> {{!LP}} {{!GM}} {{!Rite}} {{!Mm}} {{!Mm}} {{!CoB}} {{!BW}}</row>
+:::row{variant=hand}
+ 
+LP 
+GM 
+Rite 
+Mm 
+Mm 
+CoB 
+BW
+:::
 
 I think this hand is a mulligan, but it's close. You could try to make this a
 turn 2 hand. You need more mana to make that Wish useful. On turn 2, you'll have
@@ -228,7 +314,16 @@ guaranteed, and the deck mulligans pretty well. I'd throw this back.
 
 ### Hand 7
 
-<row variant="hand"> {{!LP}} {{!DR}} {{!CoB}} {{!LP}} {{!EtW}} {{!BW}} {{!GM}}</row>
+:::row{variant=hand}
+ 
+LP 
+DR 
+CoB 
+LP 
+EtW 
+BW 
+GM
+:::
 
 This hand isn't stellar, but you should keep it. It can make 8 goblins on T1, or
 10 on T2, with protection in the form of Wish as bait. If you decide to make 8
@@ -306,7 +401,14 @@ Quad-Morphose pile. Lets look at a couple others.
 
 > LED on board - {B}, 3 life
 
-<row variant="pile">{{!SotV}} {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
+:::row{variant=pile}
+
+SotV 
+Mm 
+Mm 
+Mm 
+TO
+:::
 
 This is a pass-the-turn pile, where you use Spoils to dig down to Oracle. This
 lets you potentially win through {{Mindbreak Trap}} or {{Deafening Silence}}. It
@@ -316,7 +418,14 @@ you have the ability to cast them.
 
 > Echo, Spoils in hand - {B}{B}{B} + {B}
 
-<row variant="pile">{{!LED}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+LP 
+LP 
+LP 
+TO
+:::
 
 Spoils can be used as simply a cantrip into your pile (in this case a
 straightforward Echo pile). If you hit on the top card, you won't lose any life
@@ -324,7 +433,14 @@ to Spoils.
 
 > Rite of Flame, Manamorphose in hand - {B}{B}{B} + {1}{B}{R} - 9 Storm
 
-<row variant="pile">{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+IC 
+LP 
+LED 
+LED 
+BW
+:::
 
 Manamorphose can draw into piles as well, and can fix your colors to cast
 Contract if you want to win with Storm instead of The Glorious Quad-Morphose
@@ -332,7 +448,14 @@ Oracle Pile.
 
 > Spoils, Spoils in hand - {B}{B}{B} + {B}{B}
 
-<row variant="pile">{{!LED}} {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+Mm 
+Mm 
+Mm 
+TO
+:::
 
 A double-cantrip pile of sorts for when you have a shitload of black mana. You
 Spoil for LED, and then either Spoil straight to the Oracle if you have life to

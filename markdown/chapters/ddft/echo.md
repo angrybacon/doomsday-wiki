@@ -27,7 +27,14 @@ graveyard.
 
 > LED, Echo in hand - {B}{B}{B} - 10 Storm
 
-<row variant="pile">{{!LP}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LP 
+LP 
+LED 
+LED 
+BW
+:::
 
 1. Cast Doomsday and build the pile described
 2. Cast LED and activate to to make {U}{U}{U}
@@ -53,7 +60,14 @@ the piles work.
 
 > Echo, Ponder in hand - {B}{B}{B} + {U}
 
-<row variant="pile">{{!LED}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+LP 
+LP 
+LP 
+TO
+:::
 
 This pile is very similar to the first one, except you need to Ponder to grab
 LED off the top. We're also using Thassa's Oracle here simply to demonstrate
@@ -68,7 +82,14 @@ take a look at an example.
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
-<row variant="pile">{{!EoE}} {{!LED}} {{!LED}} {{!Ponder}} {{!BW}}</row>
+:::row{variant=pile}
+
+EoE 
+LED 
+LED 
+Ponder 
+BW
+:::
 
 To start this pile, you cast Brainstorm and trade the 2 useless cards for Echo
 and 2 LEDs. PLay out both LEDs, crack them for UUURRR, and flashback Echo,
@@ -87,7 +108,14 @@ extra cards in hand.
 
 > LED, Echo, and 2 useless cards in hand - {B}{B}{B}
 
-<row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+
+LP 
+LP 
+LP 
+Pnd 
+TO
+:::
 
 This pile will start out identically to our other, casting Echo to draw a
 fresh 7. Unfortunately, there are 9 cards left due to those pesky useless cards
@@ -108,7 +136,14 @@ into the pile.
 
 > LED, Echo, Oracle in hand - {B}{B}{B}
 
-<row variant="pile">{{!LP}} {{!LP}} {{!LP}} {{!Pnd}} {{!Tsz}}</row>
+:::row{variant=pile}
+
+LP 
+LP 
+LP 
+Pnd 
+Tsz
+:::
 
 For just the cost of a Doomsday, you can get that Oracle back into your deck to
 draw again. In this situation you will draw 7 out of 8 remaining cards, but like
@@ -124,7 +159,14 @@ you to kill with {{Grapeshot}}
 
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 
-<row variant="pile">{{!EoE}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+EoE 
+LED 
+LED 
+LED 
+BW
+:::
 
 Cast Doomsday, play out your mana artifacts, sacrifice them all for UUUR, and
 flashback Echo. Now for the sake of demonstration, Let's assume you draw the

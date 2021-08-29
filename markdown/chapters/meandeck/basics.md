@@ -26,7 +26,11 @@ These are as follows:
 1. Draw into your pile enough so that the Oracle's trigger can win you the game
 1. Resolve Thassa's Oracle
 
-<row variant="centered">{{!DD}}{{!TO}}</row>
+:::row{variant=centered}
+
+DD
+TO
+:::
 
 Of these steps, we will provide additional focus on how to achieve steps 2.
 and 3. as these are the first steps that are unique to the Doomsday archetype.
@@ -34,7 +38,11 @@ Other decks like Omnitell have similar transferable skills in order to resolve a
 specific key spell however it is the *pile* construction that is often the
 trickiest element of playing the deck for newer players of the archetype.
 
-<row variant="centered">{{!Pre}}{{!SW}}</row>
+:::row{variant=centered}
+
+Pre
+SW
+:::
 
 The first consideration to make is how you will *dig* into the pile.  
 We will use the phrase *dig* to mean to initially draw into the five cards you
@@ -86,7 +94,14 @@ explore more of this in another chapter.
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+SW 
+TO
+:::
 
 Here you can use a cantrip to access the {{Ideas Unbound}}. This allows you to
 draw the two {{Lotus Petal}}s and the cycle effect. You can then cycle to draw
@@ -100,7 +115,14 @@ Souls}} if you have a land drop available to you.
 
 > {1}{U} + Cantrip
 
-<row variant="pile">{{!Pdt}} {{!Pnd}} {{!LED}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pdt 
+Pnd 
+LED 
+SW 
+TO
+:::
 
 This is a slightly different take for people who wish to use {{Predict}} over
 Ideas Unbound. In this example you use your cantrip effect to draw Predict. You
@@ -117,9 +139,23 @@ Once the cycle draw resolves, you will now have the mana to cast Oracle.
 
 > Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!PoN}} {{!TO}}</row>
+:::row{variant=pile}
 
-<row variant="pile">{{!LED}} {{!Pdt}} {{!SW}} {{!LP}} {{!TO}}</row>
+LED 
+IU 
+LP 
+PoN 
+TO
+:::
+
+:::row{variant=pile}
+
+LED 
+Pdt 
+SW 
+LP 
+TO
+:::
 
 If you find yourself constrained on the mana to cast both a cantrip, and one of
 your two mana draw spells but have an additional, useable cantrip in hand then
@@ -146,7 +182,14 @@ the second cantrip to dig deeper into your pile while cracking the LED for mana.
 
 > Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+SW 
+EoA 
+Pnd 
+TO
+:::
 
 The above pile is pretty simplistic but shows that sometimes the simplest route
 is the most effective one. With additional cantrips you can even include
@@ -170,7 +213,16 @@ Take the following example:
 > Game 1  
 > On the play
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!I|RAV}} {{!Pre}}</row>
+:::row{variant=hand}
+
+DR 
+DD 
+FoW 
+FoW 
+S | RAV 
+I | RAV 
+Pre
+:::
 
 Here we have a great example of what looks to be a *combo ready hand* however we
 cannot actually go off in the same turn with it. Even if we were to wait one
@@ -183,13 +235,27 @@ the examples above:
 
 > PTT
 
-<row variant="pile">{{!Pdt}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pdt 
+SW 
+LED 
+EoA 
+TO
+:::
 
 Or
 
 > PTT + Cantrip
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Tsz}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+LP 
+Tsz 
+TO
+:::
 
 The first example is a *Single cantrip + Predict* example and the second is a
 *Double Cantrip* example which also allows you to hold up {B} from your swamp to
@@ -202,7 +268,14 @@ of using LED you can set up something like this:
 
 > PTT + PTT
 
-<row variant="pile">{{!Pdt}} {{!SW}} {{!LP}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pdt 
+SW 
+LP 
+Pnd 
+TO
+:::
 
 In this example you can draw Predict for turn, play your island and pass again.
 At the end of the opponent's turn you can then cast the Predict, targeting

@@ -50,7 +50,13 @@ turns whilst LDV is slower but has more flexibility by avoiding {{Chalice of the
 Void}} set to X = 1, being an Instant and being able to *tutor* for cards other
 than Sorceries.
 
-<row variant="pile">{{!DD}} {{!PT}} {{!Lim-Dul's Vault}} {{!Solve the Equation}} {{!BW}}</row>
+:::row{variant=pile}
+
+DD 
+PT {{!Lim-Dul's Vault}} 
+Solve the Equation 
+BW
+:::
 
 Another option, albeit a slower one again is {{Solve the Equation}}. This costs
 {2}{U} but allows you to place the Doomsday, or other target, directly into your
@@ -93,7 +99,12 @@ For example: In a Grixis {U}{B}{R} based Doomsday list you might elect to run
 four Polluted Delta, three {{Scalding Tarn}} and one {{Bloodstained Mire}} as
 your fetchlands of choice.
 
-<row variant="pile">{{!Polluted Delta}} {{!Scalding Tarn}} {{!Bloodstained Mire}}</row>
+:::row{variant=pile}
+
+Polluted Delta 
+Scalding Tarn 
+Bloodstained Mire
+:::
 
 An eight fetchland configuration is not required with some people opting for
 running nine with a reduced mana-producing land count. Additionally for more
@@ -120,7 +131,12 @@ For example: In a BUG {B}{U}{G} based Doomsday list you might elect to run three
 Underground Seas, one {{Tropical Island}} and one {{Bayou}} as your dual lands
 of choice.
 
-<row variant="pile">{{!Underground Sea}} {{!Tropical Island}} {{!Bayou}}</row>
+:::row{variant=pile}
+
+Underground Sea 
+Tropical Island 
+Bayou
+:::
 
 The final land type to discuss (for this section) is your basic land count.
 Traditionally only two to three basics were run normally in a 2:1 ratio of
@@ -134,7 +150,12 @@ forest however in the heavier control builds it might be worthwhile.
 For example: In an Esper {W}{U}{B} based Doomsday list you might elect to run
 two Islands, two Swamps and one Plains as your basic lands of choice.
 
-<row variant="pile">{{!Island|RAV}} {{!Swamp|RAV}} {{!Plains|RAV}}</row>
+:::row{variant=pile}
+
+Island | RAV 
+Swamp | RAV 
+Plains | RAV
+:::
 
 ### 2.1 Deckbuilding Ratios - Lands
 
@@ -199,7 +220,12 @@ basics to find a ratio that fits your playing style preferences.
 
 ## 3. Card Group - Mana Accelerants
 
-<row variant="pile">{{!DR}} {{!LP}} {{!CR}}</row>
+:::row{variant=pile}
+
+DR 
+LP 
+CR
+:::
 
 Because Legacy can be a very fast and efficient format, additional help is
 needed in order to facilitate casting a spell which costs {B}{B}{B}. One
@@ -243,7 +269,14 @@ example below:
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+EoA 
+TO
+:::
 
 ## 4. Card Group - Interaction
 
@@ -256,7 +289,14 @@ this include counter-magic like {{Spell Pierce}}.
 
 ### 4.1 Proactive Interaction
 
-<row variant="pile">{{!Dur}} {{!Tsz}} {{!Teferi, Time Raveler}} {{!Baleful Strix}} {{!Wasteland}}</row>
+:::row{variant=pile}
+
+Dur 
+Tsz 
+Teferi, Time Raveler 
+Baleful Strix 
+Wasteland
+:::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
 effects such as Duress and {{Thoughtseize}} or tools like {{Teferi, Time
@@ -320,7 +360,13 @@ from free cycle effects and other interaction.
 
 ### 4.2 Reactive Interaction
 
-<row variant="pile">{{!Force of Will}} {{!Daze}} {{!Flusterstorm}} {{!Veil of Summer}}</row>
+:::row{variant=pile}
+
+Force of Will 
+Daze 
+Flusterstorm 
+Veil of Summer
+:::
 
 Reactive interaction is most commonly found in Doomsday lists as either
 counterspell effects such as {{Force of Will}} and Daze or tools like {{Veil of
@@ -422,7 +468,13 @@ longer and grindier game most likely.
 
 ## 5. Card Group - Cantrips
 
-<row variant="pile">{{!BS}} {{!Pnd}} {{!Pre}} {{!Mishra's Bauble}}</row>
+:::row{variant=pile}
+
+BS 
+Pnd 
+Pre 
+Mishra's Bauble
+:::
 
 Cantrips are a staple in {U} decks in Legacy and provide the ability to find the
 cards you need at the time you need them and allow you to *cheat* on mana
@@ -462,7 +514,14 @@ in testing.
 
 ## 6. Card Group - Pile Cards
 
-<row variant="pile">{{!TO}} {{!EoA}} {{!IU}} {{!LED}} {{!CoS}}</row>
+:::row{variant=pile}
+
+TO 
+EoA 
+IU 
+LED 
+CoS
+:::
 
 This is probably the most diverse set of cards and might as well be titled
 "miscellaneous" however there are some important pieces in here that are

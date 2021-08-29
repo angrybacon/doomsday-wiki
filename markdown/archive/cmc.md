@@ -26,19 +26,47 @@ post-DD to get us going.
 
 > SW in hand - {B}{B}{B} + {U}{U}{B}{R} - 6 Storm
 
-<row variant="pile">{{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+DR 
+DR 
+SW 
+BW
+:::
 
 > CB in play, SW in hand - {B}{B}{B} + {X}{B}{B} - 7+ Storm
 
-<row variant="pile">{{!DR}} {{!IC}} {{!DR}} {{!CB}} {{!ToA}}</row>
+:::row{variant=pile}
+
+DR 
+IC 
+DR 
+CB 
+ToA
+:::
 
 > 2 SW in hand - {B}{B}{B} + {B}{R}{R} - 6 Storm
 
-<row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!DR}} {{!BW}}</row>
+:::row{variant=pile}
+
+DR 
+AoI 
+DR 
+DR 
+BW
+:::
 
 > 2 SW in hand - {B}{B}{B} + {U}{B}{R}
 
-<row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!LM}} {{!SW}}</row>
+:::row{variant=pile}
+
+DR 
+AoI 
+DR 
+LM 
+SW
+:::
 
 These piles have lost a lot of their power with the banning of Gitaxian Probe
 since the free draw effect utilized here does not count towards Storm count.
@@ -89,19 +117,47 @@ like Edge of Autumn to access the pile are all considerations.
 
 > Pass the turn - {2}{B}{B}{B}{R} - 7 Storm
 
-<row variant="pile">{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
+:::row{variant=pile}
+
+BW 
+LED 
+LED 
+LP 
+BW
+:::
 
 > BW in hand, CB in play, pass the turn - {1}{R} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LED 
+LED 
+BW
+:::
 
 > BW in hand, CB in play - {B}{B}{B} + {2}{R} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+LED 
+LP 
+LP 
+BW
+:::
 
 > BW in hand, CB in play - {B}{B}{B} + {1}{R} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+
+LED 
+AoI 
+LED 
+LED 
+BW
+:::
 
 In terms of removal there is very little here. Only {{Chain of Vapor}} and
 {{Void Snare}} are affected here. This is where By Force shines over some other
@@ -120,11 +176,25 @@ get rid of it. You can also ignore this limitation with maindeck ToA.
 
 > SW in hand, CB in play - {B}{B}{B} + {X} - 8+ Storm
 
-<row variant="pile">{{!LED}} {{!AoI}} {{!ToA}} {{!LED}} {{!CB}}</row>
+:::row{variant=pile}
+
+LED 
+AoI 
+ToA 
+LED 
+CB
+:::
 
 > SW in hand - {B}{B}{B} + {2}{U}{R}
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!BS}} {{!LM}} {{!Abandon Hope}}</row>
+:::row{variant=pile}
+
+AoI 
+LED 
+BS 
+LM 
+Abandon Hope
+:::
 
 This limitation in terms of removal is very awkward. Things like Abrupt Decay
 are not affected from a Chalice set to 2. This does lock off things like
@@ -182,35 +252,91 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!Nature's Claim|WWK}} {{!DR}} {{!LP}} {{!ToA}}</row>
+:::row{variant=pile}
+
+LED 
+Nature's Claim | WWK 
+DR 
+LP 
+ToA
+:::
 
 > BW and BS in hand, CB in play - {B}{B}{B} + {U}{G} - 9 Storm
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</row>
+:::row{variant=pile}
+
+Nature's Claim | WWK 
+AoI 
+LED 
+LED 
+LED
+:::
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!Nature's Claim|WWK}} {{!LED}} {{!SW}} {{!ToA}}</row>
+:::row{variant=pile}
+
+LED 
+Nature's Claim | WWK 
+LED 
+SW 
+ToA
+:::
 
 > Pass the turn, SW in hand - {2}{U}{U}{G}
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+
+Nature's Claim | WWK 
+IU 
+LP 
+SW 
+LM
+:::
 
 > Pass the turn, SW in hand - {1}{U}{U}{G}
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+
+Nature's Claim | WWK 
+TW 
+LED 
+SW 
+LM
+:::
 
 > Pass the turn, SW in hand - {2}{R}{G}
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+
+Nature's Claim | WWK 
+AoI 
+LED 
+SW 
+LM
+:::
 
 > Pass the turn, LED in play - {2}{G}
 
-<row variant="pile">{{!SW}} {{!IU}} {{!Nature's Claim|WWK}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+
+SW 
+IU 
+Nature's Claim | WWK 
+SW 
+LM
+:::
 
 > Pass the turn, LED in play - {2}{U}{G}
 
-<row variant="pile">{{!SW}} {{!AoI}} {{!Nature's Claim|WWK}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+
+SW 
+AoI 
+Nature's Claim | WWK 
+SW 
+LM
+:::
 
 ## Pass-the-Turn Piles Using Chain of Vapor
 
@@ -221,15 +347,36 @@ remove a limitation.
 
 > Pass the turn, SW in hand - {U}{U}{U} - 9 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!CoV}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+LED 
+CoV 
+BW
+:::
 
 > Pass the turn, LED in play - {U}{U}{U} - 8 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!SW}} {{!CoV}} {{!BW}}</row>
+:::row{variant=pile}
+
+IU 
+LED 
+SW 
+CoV 
+BW
+:::
 
 > Pass the turn, BW, SW and any 1 card in hand - {U}{U} - 9 Storm
 
-<row variant="pile">{{!SW}} {{!BS}} {{!LED}} {{!LED}} {{!CoV}}</row>
+:::row{variant=pile}
+
+SW 
+BS 
+LED 
+LED 
+CoV
+:::
 
 ## Removal Choices
 

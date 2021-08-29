@@ -90,7 +90,14 @@ First of all it means that you don't always have to rely on LED to generate
 enough mana for your Doomsday pile. Take this example from our [Basics
 Chapter](/meandeck/basics/)
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+LP 
+SW 
+TO
+:::
 
 If you play this turn with Force of Will and a blue card up, you can hold both
 to protect the win thanks to never having to need to discard your hand. Sounds
@@ -107,9 +114,23 @@ a combo piece either simply as a draw two that digs three cards deep or can be
 used to synergise with {{Unearth}} allowing the playing of Oracle for the cost
 of a single {B}.
 
-<row variant="pile">{{!Pdt}} {{!Pnd}} {{!SW}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
 
-<row variant="pile">{{!Pdt}} {{!TO}} {{!SW}} {{!LP}} {{!Un}}</row>
+Pdt 
+Pnd 
+SW 
+LP 
+TO
+:::
+
+:::row{variant=pile}
+
+Pdt 
+TO 
+SW 
+LP 
+Un
+:::
 
 As you can see these piles are quite lean in terms of mana and card resources
 post Doomsday resolution. This, coupled with the fact you now have the counter
@@ -141,7 +162,14 @@ and 3 x Underground Sea in play.
 
 Stack the following:
 
-<row variant="pile">{{!Pdt}} {{!Pnd}} {{!SW}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+Pdt 
+Pnd 
+SW 
+LP 
+TO
+:::
 
 1. Use {U} to cast Ponder. Draw Predict
 1. Use {U}{U} to cast Predict targeting yourself
@@ -164,7 +192,14 @@ x Underground Sea in play.
 
 Stack the following:
 
-<row variant="pile">{{!LED}} {{!Pdt}} {{!Pnd}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+Pdt 
+Pnd 
+LP 
+TO
+:::
 
 1. Use {U} to cast Preordain. Draw Lion's Eye Diamond
 1. Cast Lion's Eye Diamond
@@ -190,7 +225,14 @@ hand and Island, Swamp in play.
 
 Stack the following:
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pdt}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+SW 
+Pdt 
+LP 
+TO
+:::
 
 1. Use {U} to cast Brainstorm
 1. Draw Lion's Eye Diamond, Street Wraith and Predict and replace back first

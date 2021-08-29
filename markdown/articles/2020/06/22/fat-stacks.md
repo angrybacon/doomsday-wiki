@@ -174,7 +174,14 @@ Consider the following example:
 
 You have resolved Doomsday/drawn into your stack and have {U}{U}{U} available.
 
-<row variant="pile">{{!IU}} {{!LP}} {{!EoA}} {{!Dz}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+EoA 
+Dz 
+TO
+:::
 
 Where something like a Veil, Duress or Force would require additional cards in
 hand or additional mana, the Daze is easy to *slot* into our basic pile.
@@ -214,7 +221,15 @@ some real world game examples.
 > You already played a land.  
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.
 
-<row variant="hand">{{!DR|MMQ}} {{!DD}} {{!FoW|EMA}} {{!Dz}} {{!BS|MMQ}} {{!Dur|PD3}}</row>
+:::row{variant=hand}
+
+DR | MMQ 
+DD 
+FoW | EMA 
+Dz 
+BS | MMQ 
+Dur | PD3
+:::
 
 In this example we have a situation where if we want to win, we have to be able
 to resolve Doomsday and win in the same turn thanks to the two Goyfs facing us.
@@ -226,7 +241,14 @@ use the Duress or not. If we think they do not have any interaction, or only a
 single piece of basic interaction, we could consider casting {{Dark Ritual}}
 into Doomsday and build something simple like:
 
-<row variant="pile">{{!IU}} {{!LP}} {{!EoA}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+LP 
+EoA 
+LP 
+TO
+:::
 
 This will allow us to win through a single piece of disruption thanks to the
 Force of Will where we would pitch Daze to Force and Brainstorm into the pile.
@@ -263,7 +285,14 @@ it.
 
 We can easily build a same turn win Brainstorm + LED pile and win.
 
-<row variant="pile">{{!LED}} {{!EoA}} {{!IU}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+EoA 
+IU 
+LP 
+TO
+:::
 
 1. Silence has resolved.
 1. Cast Dark Ritual with Snow-Covered Swamp into Doomsday building the above
@@ -282,7 +311,14 @@ Oracle however we could consider not trying to play around either. They cannot
 commit both due to their mana constraints so Daze should be sufficient to
 protect us.
 
-<row variant="pile">{{!LED}} {{!IU}} {{!Pnd}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+
+LED 
+IU 
+Pnd 
+LP 
+TO
+:::
 
 1. Veil has resolved.
 1. Cast Dark Ritual with Snow-Covered Swamp into Doomsday building the above
@@ -298,7 +334,14 @@ protect us.
 
 #### If we play Duress and it resolves we see the following hand
 
-<row variant="hand">{{!Spell Snare}} {{!Stifle}} {{!Scalding Tarn}} {{!Dz}} {{!Oko, Thief of Crowns}}</row>
+:::row{variant=hand}
+
+Spell Snare 
+Stifle 
+Scalding Tarn 
+Dz 
+Oko, Thief of Crowns
+:::
 
 Whereas Veil and Silence (in this instance) have effectively nullified a chunk
 of their hand, Duress, although giving us information on it, has unfortunately
@@ -326,7 +369,17 @@ find additional protection or free up our mana.
 > Opponent has 6 untapped lands, 4 that can make {U}. 5 cards in hand. We know
 > they have at least 1 Force of Will and blue card.
 
-<row variant="hand">{{!DR|MMQ}} {{!DD}} {{!FoW|EMA}} {{!FoW}} {{!Dz}} {{!Tsz}} {{!Pdt}} {{!LP}}</row>
+:::row{variant=hand}
+
+DR | MMQ 
+DD 
+FoW | EMA 
+FoW 
+Dz 
+Tsz 
+Pdt 
+LP
+:::
 
 Here we have a scenario where we are not under a huge amount of pressure
 however, our opponent does have a Standstill in play, we have finally hit 8
@@ -433,7 +486,14 @@ turn, play a land and have the following hand / board state:
 
 My hand is thus:
 
-<row variant="hand">{{!DD}} {{!FoW}} {{!Dz}} {{!Pyroblast}} {{!VoS}}</row>
+:::row{variant=hand}
+
+DD 
+FoW 
+Dz 
+Pyroblast 
+VoS
+:::
 
 #### My Perspective Only
 
@@ -461,7 +521,14 @@ he sees my hand of two protection elements. He then allows Doomsday to resolve.
 
 I build the following pile:
 
-<row variant="pile">{{!Pnd}} {{!EoA}} {{!TO}} {{!Pnd}} {{!DD}}</row>
+:::row{variant=pile}
+
+Pnd 
+EoA 
+TO 
+Pnd 
+DD
+:::
 
 Now there are a few things to note here. First and foremost this was not the
 best pile to build as was built on an assumption. The assumption was that he
@@ -493,7 +560,14 @@ let's break it down from the other side too.
 First we should consider what AgyePA had in hand. On my Doomsday being placed on
 the stack it looked like this:
 
-<row variant="hand">{{!DD}} {{!FoW}} {{!Dz}} {{!SE}} {{!VoS}}</row>
+:::row{variant=hand}
+
+DD 
+FoW 
+Dz 
+SE 
+VoS
+:::
 
 Almost identical in fact however he knew he had a Daze on the top of his deck.
 After Doomsday was cast he decided to go for Veil because, in his words, "I was
@@ -528,7 +602,14 @@ create a *no-nonsense* pile that wins on the spot with {{Cavern of Souls}}. This
 way if I had built a pile that had to pass the turn once more, he could just try
 and win.
 
-<row variant="pile">{{!EoA}} {{!SW}} {{!VoS}} {{!TO}} {{!CoS}}</row>
+:::row{variant=pile}
+
+EoA 
+SW 
+VoS 
+TO 
+CoS
+:::
 
 Unfortunately in this instance it was not the case so when I led on Veil, he
 decided to hold Force back just in case I couldn't win that turn.
@@ -573,13 +654,27 @@ correct to have held back the Surgical here.
 As I said before the pile I made was based on a faulty assumption. What I should
 have built was something along the lines of:
 
-<row variant="pile">{{!Pnd}} {{!Pnd}} {{!TO}} {{!Pnd}} {{!Pnd}}</row>
+:::row{variant=pile}
+
+Pnd 
+Pnd 
+TO 
+Pnd 
+Pnd
+:::
 
 The only variant to this would be that I had used some Ponders previously
 therefore, to maximise the information hidden from my opponent building
 something like the below may be better. At least in a tournament setting.
 
-<row variant="pile">{{!Pnd}} {{!Pre}} {{!TO}} {{!Pnd}} {{!Pre}}</row>
+:::row{variant=pile}
+
+Pnd 
+Pre 
+TO 
+Pnd 
+Pre
+:::
 
 This gives only one potential *dead* draw that forces you to pass the turn again
 in Oracle and gives a deterministic win (assuming Veil resolves). If you do draw
@@ -592,7 +687,14 @@ I said he had built something *no-nonsense* however the astute of you will have
 noticed he would have needed to have multiple turns of passing to have managed
 to play Oracle. He probaly should have built something like:
 
-<row variant="pile">{{!IU}} {{!CoS}} {{!VoS}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+
+IU 
+CoS 
+VoS 
+EoA 
+TO
+:::
 
 With the above he basically would be brute forcing through Oracle with his Force
 backup and have Cavern / Veil to help resolve it whilst also playing around the

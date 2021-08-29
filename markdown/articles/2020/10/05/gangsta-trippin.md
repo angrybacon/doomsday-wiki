@@ -58,7 +58,10 @@ unwanted pieces with the fetchland. Ponder is best suited for trying to find one
 specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
-<row variant="centered">{{!Pnd}}</row>
+:::row{variant=centered}
+
+Pnd
+:::
 
 #### {{Preordain}}
 
@@ -76,7 +79,10 @@ presented in Reid's article.
 I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
-<row variant="centered">{{!Pre}}</row>
+:::row{variant=centered}
+
+Pre
+:::
 
 #### {{Brainstorm}}
 
@@ -88,7 +94,10 @@ from your hand, normally those considered uneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
 as almost drawing 3 cards with some people comparing it to {{Ancestral Recall}}.
 
-<row variant="centered">{{!BS}}</row>
+:::row{variant=centered}
+
+BS
+:::
 
 ### Free *Cycling Effects*
 
@@ -120,7 +129,10 @@ out of nowhere.
 For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
-<row variant="centered">{{!SW}}</row>
+:::row{variant=centered}
+
+SW
+:::
 
 #### {{Edge of Autumn}}
 
@@ -136,7 +148,10 @@ is effectively the equivalent of {{Duress}}. Although Duress is generally more
 narrow than {{Thoughtseize}} in effect, the life loss can be significant so a
 mix is run to provide maximum flexibility.
 
-<row variant="centered">{{!EoA}}</row>
+:::row{variant=centered}
+
+EoA
+:::
 
 ### Pile Enablers
 
@@ -157,7 +172,10 @@ of effects like the reveal triggers on {{Delver of Secrets}} or
 mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
-<row variant="centered">{{!Pdt}}</row>
+:::row{variant=centered}
+
+Pdt
+:::
 
 ### {{Ideas Unbound}}
 
@@ -167,7 +185,10 @@ scale {{Faithless Looting}} effect to turn a land heavy hand into a speall heavy
 hand. or provide an explosive boost of cards for a single turn, potentially
 enabling you to combo off there and then.
 
-<row variant="centered">{{!IU}}</row>
+:::row{variant=centered}
+
+IU
+:::
 
 ## Cantrip Sequencing - General Principles
 
@@ -228,11 +249,24 @@ Brainstorm. We know that Brainstorm, in conjecture with an additional card in
 hand post-Doomsday resolving, can lead to a deterministic, same-turn win. Let's
 consider the following hand:
 
-<row variant="hand">{{!DR}} {{!Pnd}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!BS}} {{!Pre}}</row>
+:::row{variant=hand}
+
+DR 
+Pnd 
+FoW 
+FoW 
+S | RAV 
+BS 
+Pre
+:::
 
 In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
 
-<row variant="hand">{{!Underground Sea}} {{!Polluted Delta}}</row>
+:::row{variant=hand}
+
+Underground Sea 
+Polluted Delta
+:::
 
 It is turn 3.
 
@@ -383,11 +417,24 @@ targeting our tapped Underground Sea.
 
 Our board is:
 
-<row variant="hand">{{!Underground Sea}} {{!Polluted Delta}}</row>
+:::row{variant=hand}
+
+Underground Sea 
+Polluted Delta
+:::
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!EoA}} {{!FoW}} {{!FoW}} {{!Underground Sea}} {{!BS}} {{!Daze}}</row>
+:::row{variant=hand}
+
+DR 
+EoA 
+FoW 
+FoW 
+Underground Sea 
+BS 
+Daze
+:::
 
 What's the play?
 
@@ -414,11 +461,24 @@ state and hand:
 
 Our board is:
 
-<row variant="hand">{{!Underground Sea}} {{!Underground Sea}}</row>
+:::row{variant=hand}
+
+Underground Sea 
+Underground Sea
+:::
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pnd}} {{!Daze}} {{!BS}} {{!Scalding Tarn}}</row>
+:::row{variant=hand}
+
+DR 
+SW 
+Pre 
+Pnd 
+Daze 
+BS 
+Scalding Tarn
+:::
 
 What's the play?
 
@@ -445,11 +505,23 @@ turn 2. Our opponent has just cantripped turn 1 and passed.
 
 Our board is:
 
-<row variant="hand">{{!Underground Sea}}</row>
+:::row{variant=hand}
+
+Underground Sea
+:::
 
 Our hand is:
 
-<row variant="hand">{{!Daze}} {{!Island}} {{!Pre}} {{!DD}} {{!Dur}} {{!EoA}} {{!Misty Rainforest}}</row>
+:::row{variant=hand}
+
+Daze 
+Island 
+Pre 
+DD 
+Dur 
+EoA 
+Misty Rainforest
+:::
 
 What's the play?
 

@@ -40,14 +40,20 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
   of Eons and Tendrils of Agony. They also prefer proactive protection such as
   Duress over being able to run reactive counter magic.
 
-<row variant="centered">{{!ToA}}</row>
+:::row{variant=centered}
+
+ToA
+:::
 
 - **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style.
   This was the main variant available post Gitaxian Probe ban and pre-printing
   of Thassa's Oracle. These lists use Experimental Frenzy as a card advantage
   engine and win condition in tandem with Doomsday.
 
-<row variant="centered">{{!EF}}</row>
+:::row{variant=centered}
+
+EF
+:::
 
 - **Meandeck Doomsday** is the primary deck variant that is having previously
   unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
@@ -55,7 +61,10 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
   before ending the game with Doomsday. The moniker *Meandeck* is explained in
   this article [here](/articles/2020/03/12/pretty-mean-deck/).
 
-<row variant="centered">{{!FoW}}</row>
+:::row{variant=centered}
+
+FoW
+:::
 
 - **Entombsday** is more of a Tin Fins variant with a main deck plan focussing
   on reanimating Griselbrand using either {{Shallow Grave}} or {{Goryo's
@@ -64,7 +73,10 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
   lethal Tendrils of Agony. The key point ot focus on is it runs a dedicated
   transformational sideboard into effectively a variant of Meandeck Doomsday.
 
-<row variant="centered">{{!Griselbrand}}</row>
+:::row{variant=centered}
+
+Griselbrand
+:::
 
 ### 2. What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
@@ -80,7 +92,12 @@ and even {U}{B}{R}{G} across the year with most decks having an almost entirely
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
 
-<row variant="centered">{{!Veil of Summer}} {{!Pyro}} {{!Teferi, Time Raveler}}</row>
+:::row{variant=centered}
+
+Veil of Summer 
+Pyro 
+Teferi, Time Raveler
+:::
 
 ### 3. What list should I start on? What is the *best* list to play?
 
@@ -126,7 +143,12 @@ combo kill. All of these are likely the most favourable (part based on gut feel
 and part based on community obtained results found
 [here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
 
-<row variant="centered">{{!Uro, Titan of Nature's Wrath}} {{!Knight of the Reliquary}} {{!Wishclaw Talisman}}</row>
+:::row{variant=centered}
+
+Uro, Titan of Nature's Wrath 
+Knight of the Reliquary 
+Wishclaw Talisman
+:::
 
 ### 6. What is the worst matchup for the deck?
 
@@ -137,7 +159,10 @@ matchup (around 40% match win rate observed) however Grixis Delver is likely the
 worst to face as the addition of Thoughtseize as another angle of disruption
 makes them very hard to face.
 
-<row variant="centered">{{!Delver of Secrets}}</row>
+:::row{variant=centered}
+
+Delver of Secrets
+:::
 
 ### 7. What's a good meta to play Doomsday in?
 
@@ -157,7 +182,12 @@ advise getting a few reps under your belt playing it first before delving into
 the spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
-<row variant="centered">{{!Drown in the Loch}} {{!Baleful Strix}} {{!Careful Study}}</row>
+:::row{variant=centered}
+
+Drown in the Loch 
+Baleful Strix 
+Careful Study
+:::
 
 ### 9. Is the deck hard to learn? Is it the most difficult deck in Legacy?
 
@@ -181,7 +211,10 @@ A large part of the confusion for the physical resolution of Doomsday stems from
 the wording on the original Weatherlight printing of {{Doomsday}}. See the card
 below along with the original rules text printed:
 
-<row variant="centered">{{!Doomsday|WTH}}</row>
+:::row{variant=centered}
+
+Doomsday | WTH
+:::
 
 > Pay half your life, rounded up:  
 > Put your graveyard on top of your library, then remove all but five cards of
@@ -202,7 +235,10 @@ it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-<row variant="centered">{{!Doomsday|A25}}</row>
+:::row{variant=centered}
+
+Doomsday | A25
+:::
 
 > Search your library and graveyard for five cards and exile the rest.  
 > Put the chosen cards on top of your library in any order.  
