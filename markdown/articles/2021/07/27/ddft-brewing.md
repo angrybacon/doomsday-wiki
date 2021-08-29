@@ -59,7 +59,7 @@ but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 While these issues weren't catastrophic, and careful fetching could minimize it,
 I was nonetheless driven to explore other options. Over the course of 2020 and
 early 2021, I tried some Wish-less variants as well, including versions that
-looked a bit like ANT-hybrids with {{Solve the Equation}} or {{Dark Petition}}.
+looked a bit like ANT-hybrids with :card[Solve the Equation] or :card[Dark Petition].
 The mana was much more stable with just 3 colors, but the tutors felt worse than
 {{Burning Wish}}. I did find that I liked having all 4 Doomsday maindeck, but
 the shells felt great when you drew Doomsday and anemic at best when you didn't.
