@@ -20,7 +20,3 @@ export interface Markdown {
   content: string;
   data?: GrayMatterFile<string>['data'];
 }
-
-export interface WithMenu {
-  menu: Menu;
-}

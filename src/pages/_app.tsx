@@ -6,15 +6,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { theme } from '@/theme/theme';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { WithMenu } from '@/tools/markdown/types';
-
-type ApplicationProps = AppProps & WithMenu;
+import type { ExtraPageProps } from '@/interfaces/page.model';
 
 const Application = ({
   Component,
   menu,
   pageProps,
-}: ApplicationProps): JSX.Element => {
+}: AppProps & ExtraPageProps): JSX.Element => {
   useEffect(() => {
     const styles = document.querySelector('#jss-server-side');
     styles?.parentElement?.removeChild(styles);

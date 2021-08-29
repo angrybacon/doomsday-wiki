@@ -5,15 +5,16 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
+import type { ExtraPageProps } from '@/interfaces/page.model';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import { Document, Markdown, WithMenu } from '@/tools/markdown/types';
+import type { Document, Markdown } from '@/tools/markdown/types';
 
 interface Props {
   markdown: Markdown;
 }
 
-const ArticlePage: NextPage<Props & WithMenu> = ({ markdown, menu }) => (
+const ArticlePage: NextPage<Props & ExtraPageProps> = ({ markdown, menu }) => (
   <Layout maxWidth="md" menu={menu} title={markdown?.data?.title}>
     <Card>
       <CardContent component={Remark} markdown={markdown} />
