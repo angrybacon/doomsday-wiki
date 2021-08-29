@@ -3,14 +3,14 @@ title: Laboratory Maniac Piles
 ---
 
 Just to be very clear on the purpose of this section: this does not consider the
-use of {{Mental Note}} or {{Unearth}} or any other dead cards that are vulnerable to
+use of :card[Mental Note] or :card[Unearth] or any other dead cards that are vulnerable to
 graveyard hate. We use Laboratory Maniac together with the cards that we are
 already playing.
 
-{{Laboratory Maniac}} serves as an alternative way to win within Doomsday Storm
+:card[Laboratory Maniac] serves as an alternative way to win within Doomsday Storm
 combo. It is a win condition that doesn't target the opponent (therefore playing
-around {{Leyline of Sanctity}}), doesn't involve casting non-creature spells
-with converted mana cost 4 or greater against {{Gaddock Teeg}}, and doesn't care
+around :card[Leyline of Sanctity]), doesn't involve casting non-creature spells
+with converted mana cost 4 or greater against :card[Gaddock Teeg], and doesn't care
 about your opponent's life total. Because Laboratory Maniac is a creature, and
 needs to be in play when you draw from an empty library, he is vulnerable to
 removal spells like Swords to Plowshares, Lightning Bolt, Pyroblast, and Abrupt
@@ -91,7 +91,7 @@ provides flexibility while being low power.
 
 ## Chromatic Sphere
 
-{{Chromatic Sphere}} can be used to enable Laboratory Maniac piles even when your
+:card[Chromatic Sphere] can be used to enable Laboratory Maniac piles even when your
 opponent is holding creature removal. The key idea is to draw your entire
 library and get Chromatic Sphere and Laboratory Maniac in play, then with 1 mana
 floating you activate Chromatic Sphere to win the game at mana-ability speed,

@@ -35,8 +35,8 @@ the universe, like *"What the fuck am I looking at?"*
 That's a question I can answer.
 
 This is Mindkiller Doomsday, so called because your mind is dead now. I used to
-have a job and a family, but then I put {{Echo of Eons}} in my Doomsday deck and
-now I'm homeless and casting 3 {{Spoils of the Vault}} in 1 turn. I'm addicted
+have a job and a family, but then I put :card[Echo of Eons] in my Doomsday deck and
+now I'm homeless and casting 3 :card[Spoils of the Vault] in 1 turn. I'm addicted
 to yeeting. I'm a braindead yeet-zombie and you will be too if you play this
 deck.
 
@@ -52,12 +52,12 @@ Let's go through it and discuss the dubious deckbuilding decisions I've made...
 
 Your mana clearly needs to make {R} and {B}. It also has to make {G}, at least
 from the sideboard, though previous iterations of this deck played
-{{Veil of Summer}} maindeck. Occasionally you need to make {U}. Creating a
+:card[Veil of Summer] maindeck. Occasionally you need to make {U}. Creating a
 reliable 4-color fetchland manabase on 9-10 lands proved difficult, and rainbow
 lands ended up feeling the most reliable. There are a ton of rainbow lands out
-there, and they are all worse than {{Gemstone Mine}}. After 4 Gemstone Mine, the
-only semi-reasonable ones are {{City of Brass}} / {{Mana Confluence}},
-{{Glimmervoid}}, and {{Undiscovered Paradise}}. Pick the split you hate the
+there, and they are all worse than :card[Gemstone Mine]. After 4 Gemstone Mine, the
+only semi-reasonable ones are :card[City of Brass] / :card[Mana Confluence],
+:card[Glimmervoid], and :card[Undiscovered Paradise]. Pick the split you hate the
 least, it probably doesn't matter.
 
 ### Burning Wish
@@ -144,7 +144,7 @@ your back. You are a Warrior, your opponent is a Coward, and Cowards can't block
 Warriors.
 
 Before we really dive in though, we need to get something out of the way.
-{{Spoils of the Vault}} works 100% of the time. It never kills you. It never
+:card[Spoils of the Vault] works 100% of the time. It never kills you. It never
 exiles cards you'll need later. It can do no wrong. If you can't trick yourself
 into fully believing that, you'll never truly grasp the 200 IQ galaxy brain
 plays involved with this deck.
@@ -309,7 +309,7 @@ Quad-Morphose pile. Lets look at a couple others.
 <row variant="pile">{{!SotV}} {{!Mm}} {{!Mm}} {{!Mm}} {{!TO}}</row>
 
 This is a pass-the-turn pile, where you use Spoils to dig down to Oracle. This
-lets you potentially win through {{Mindbreak Trap}} or {{Deafening Silence}}. It
+lets you potentially win through :card[Mindbreak Trap] or :card[Deafening Silence]. It
 is also quite cheap and can get through tax effects as well. If they counter
 Spoils, you can still try to use the Morphoses to cast Oracle the next turn, if
 you have the ability to cast them.
@@ -355,7 +355,7 @@ Aggro-control and tempo decks, including Delver, Shadow, Infect.
 +4 Xantid Swarm, + 1 Cabal Therapy
 
 Doomsday is uniquely bad against these types of decks so we just cut it
-completely. {{Xantid Swarm}} isn't spectacular, but its better than Doomsday.
+completely. :card[Xantid Swarm] isn't spectacular, but its better than Doomsday.
 Therapy comes in as another protective spell. We're unlikely to wish for it,
 since Wishes will usually find Empty in these matchups.
 
@@ -386,8 +386,8 @@ is to not give them a chance to play anything. Obviously this will not always be
 possible. Doomsday shines in these matchups since you can win through some
 prison elements. The Glorious Quad-Morphose Pile can beat a Chalice on 0 or 1,
 pass-the-turn piles with Spoils can beat Deafening Silence or
-{{Ethersworn Canonist}}. Also keep in mind that these are decks that will often
-play {{Leyline of the Void}}, meaning Echo can be a liability. But a broken Echo
+:card[Ethersworn Canonist]. Also keep in mind that these are decks that will often
+play :card[Leyline of the Void], meaning Echo can be a liability. But a broken Echo
 hand is still probably worth keeping. Maverick could potentially be playing
 Veil, so be wary, but not overly so.
 

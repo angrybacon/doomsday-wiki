@@ -49,7 +49,7 @@ The first suite of cantrips are what would be considered the *standard* Legacy
 setup. Ponder and Brainstorm can be found of as 4-ofs in most {U} based decks
 and Preordain as a 2-4 of in many as well.
 
-#### {{Ponder}}
+#### :card[Ponder]
 
 Ponder is powerful tool that allows you to see 4 cards during resolution. It is
 at its most powerful when paired with a fetchland as this gives you the option
@@ -60,7 +60,7 @@ Doomsday or a protection spell like Force of Will.
 
 <row variant="centered">{{!Pnd}}</row>
 
-#### {{Preordain}}
+#### :card[Preordain]
 
 Preordain is normally considered the *weakest* of the classic suite. Previously
 it has normally been relegated to combo decks who just wanted additional
@@ -78,7 +78,7 @@ implies the opposite of the truth.
 
 <row variant="centered">{{!Pre}}</row>
 
-#### {{Brainstorm}}
+#### :card[Brainstorm]
 
 Brainstorm has been described as a [*Pillar of the
 Format*](https://twitter.com/mtgaaron/status/985674571188588544) and is
@@ -86,19 +86,19 @@ considered one of the most powerful spell effects in Legacy. It acts as a way to
 *see* 3 cards but can, in effect, give the ability to exchange up to 2 cards
 from your hand, normally those considered uneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
-as almost drawing 3 cards with some people comparing it to {{Ancestral Recall}}.
+as almost drawing 3 cards with some people comparing it to :card[Ancestral Recall].
 
 <row variant="centered">{{!BS}}</row>
 
 ### Free *Cycling Effects*
 
-This next pair are mostly unique to Doomsday however {{Death's Shadow}} based
+This next pair are mostly unique to Doomsday however :card[Death's Shadow] based
 decks (and some Dredge decks) will also make use of one of them. These are
 *free* cycling cards that have little to no relevant text outside of their
 cycling abilities (other than some specific circumstances). Their use is almost
 always to provide a {0} mana draw effect after Doomsday has resolved.
 
-#### {{Street Wraith}}
+#### :card[Street Wraith]
 
 Street Wraith is used by Shadow decks to both thin out their draws and to reduce
 their life total aggressively. For Doomsday it is a way to enable a lot of the
@@ -110,11 +110,11 @@ used even if you have played an aggressive hand via Lotus Petals or if you need
 to retain a land to return with Daze for example.
 
 In some circumstances, it can be used as an additional win condition. Casting a
-Street Wraith after your Doomsdays have been hit with a {{Surgical Extraction}}
-effects or your opponent has paid 16 life with {{Sylvan Library}} can be a
+Street Wraith after your Doomsdays have been hit with a :card[Surgical Extraction]
+effects or your opponent has paid 16 life with :card[Sylvan Library] can be a
 legitimate way to win the game. Against {B}{R} Reanimator there is also the
-potential to cycle it in response to an {{Exhume}} whereby, thanks to the life
-paid to a {{Griselbrand}} and the Swampwalk it can often present a lethal clock
+potential to cycle it in response to an :card[Exhume] whereby, thanks to the life
+paid to a :card[Griselbrand] and the Swampwalk it can often present a lethal clock
 out of nowhere.
 
 For an excellent example of Street Wraith as a win condition please watch [this
@@ -122,18 +122,18 @@ video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
 <row variant="centered">{{!SW}}</row>
 
-#### {{Edge of Autumn}}
+#### :card[Edge of Autumn]
 
 Edge of Autumn provides a method of cycling that is less taxing on your life
 total however can be of much less use outside of the combo. Sacrificing a land
 can be a heavy costs however sometimes it does mean you can mitigate the
-downside of a {{Wasteland}} effect or similar by cycling in response. In a pinch
+downside of a :card[Wasteland] effect or similar by cycling in response. In a pinch
 you can also use it to retrieve the third {B} source in the form of the basic
 Swamp from the deck but the situations this is needed are far and few between.
 
 The thought process behind it mirrors that of the discard suite utilised. Edge
-is effectively the equivalent of {{Duress}}. Although Duress is generally more
-narrow than {{Thoughtseize}} in effect, the life loss can be significant so a
+is effectively the equivalent of :card[Duress]. Although Duress is generally more
+narrow than :card[Thoughtseize] in effect, the life loss can be significant so a
 mix is run to provide maximum flexibility.
 
 <row variant="centered">{{!EoA}}</row>
@@ -145,25 +145,25 @@ designed to provide raw card advantage in their use. Just like with the cycling
 cards, they tend to be considered primarily for their use within Doomsday piles
 however they can have usage outside of this to varying degrees. One is a well
 known staple for certain builds of Miracles and the other is a historical card
-from pre- {{Sensei's Divining Top}} ban DDFT days.
+from pre- :card[Sensei's Divining Top] ban DDFT days.
 
-### {{Predict}}
+### :card[Predict]
 
 Predict pairs effectively with other cantrips as you can use it to provide
 additional filtering and raw card advantage. It also enables access to Doomsday
 piles where you cannot make {U}{U} to dig into the pile with. You can make use
-of effects like the reveal triggers on {{Delver of Secrets}} or
-{{Counterbalance}} to gain advantage from your opponent's deck and, in the
+of effects like the reveal triggers on :card[Delver of Secrets] or
+:card[Counterbalance] to gain advantage from your opponent's deck and, in the
 mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
 <row variant="centered">{{!Pdt}}</row>
 
-### {{Ideas Unbound}}
+### :card[Ideas Unbound]
 
 Ideas Unbound is a more effective card (resources allowing) during pile
 construction but a weaker card outside of the combo. It can be used as a large
-scale {{Faithless Looting}} effect to turn a land heavy hand into a speall heavy
+scale :card[Faithless Looting] effect to turn a land heavy hand into a speall heavy
 hand. or provide an explosive boost of cards for a single turn, potentially
 enabling you to combo off there and then.
 
@@ -271,7 +271,7 @@ place any pressure on the board until the later turns or if they do, it is often
 only something like an {{Ice-Fanged Coatl}}. Being chipped away for 1 a turn is
 fine as it gives you a lot of time to work with so don't feel like you have to
 use all your mana every turn. This same principle applies to facing against
-{{Daze}} decks like Delver. It's okay to take a turn or two and simply develop
+:card[Daze] decks like Delver. It's okay to take a turn or two and simply develop
 your mana without allowing them to trade 1:1 with your cantrips.
 
 Often you might find a situation where you have a pair of cantrips in hand and
@@ -341,7 +341,7 @@ to extract the Predict value. You can also try this, assuming you have no better
 option, after the opponent resolves a Brainstorm (assuming you knew their hand
 prior through discard) or, specifically in the Doomsday mirror, after they have
 resolved a Doomsday. You will need to be wary of trying to do this. Cards like
-Veil of Summer and {{Leyline of Sanctity}} can prevent you targeting the
+Veil of Summer and :card[Leyline of Sanctity] can prevent you targeting the
 opponent and effects that shuffle decks like fetch lands or Surgical Extraction
 can be used to remove potential advantage from using Predict.
 
@@ -350,13 +350,13 @@ can be used to remove potential advantage from using Predict.
 Many see Ideas Unbound as a purely *combo-centric* card wit very limited utility
 prior to the casting of Doomsday. There are two main methods of using it outside
 of inside piles; *filtering* and *card booming*. Filtering basically is the use
-of it as a glorified {{Careful Study}}. If you find yourself with a hand of too
+of it as a glorified :card[Careful Study]. If you find yourself with a hand of too
 many lands, or an abundance of protection in a matchup where it's not needed,
 you can just cast Ideas Unbound to spend the turn drawing some extra gas and
 discarding the uneeded cards.
 
 The other option is more of a late game tactic whereby you use it effectively as
-an {{Ancestral Recall}}. If you are low on cards, close to having a winning
+an :card[Ancestral Recall]. If you are low on cards, close to having a winning
 hand, in a bit of a dire strait and have a decent amount of excess mana you can
 use it to draw 3 cards to try and hit some business spells. Often you can be
 able to find Doomsday and the mana to cast it, or spells to protect it, and

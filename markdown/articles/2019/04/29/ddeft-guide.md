@@ -21,7 +21,7 @@ That card turned out to be Experimental Frenzy.
 > {3}{R}: Destroy Experimental Frenzy.
 
 James, also known as ApeofJustice on the Doomsday Discord server, got 6th place
-in a MTGO challenge on April 14th, 2019 with {{Experimental Frenzy}} Doomsday.
+in a MTGO challenge on April 14th, 2019 with :card[Experimental Frenzy] Doomsday.
 
 ## Current Decklist
 
@@ -93,7 +93,7 @@ different pieces of interaction.
 
 ## Collective Brutality - Use Cases
 
-{{Collective Brutality}} is a possible main-deck hedge to cards like Thalia
+:card[Collective Brutality] is a possible main-deck hedge to cards like Thalia
 and/or Gaddock Teeg, as well as an alternate win condition in case Tendrils of
 Agony gets exiled with Surgical Extraction.
 

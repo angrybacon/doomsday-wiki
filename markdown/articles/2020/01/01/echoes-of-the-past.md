@@ -15,7 +15,7 @@ Mysteries and Collective Brutality loops. The deck was strong and good at
 grinding through blue control decks, but it felt more like a Frenzy deck and
 less like a Doomsday deck, much less a Storm deck.
 
-Then in June, Modern horizons was released, and along with it {{Echo of Eons}}.
+Then in June, Modern horizons was released, and along with it :card[Echo of Eons].
 There was some discussion of it as a Burning Wish target, but the old-style
 lists were seen as inferior to the Frenzy lists, and little more thought was
 given to the card for a few months. As the end of the decade drew closer, Echo

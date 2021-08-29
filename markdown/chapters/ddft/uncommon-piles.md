@@ -118,8 +118,8 @@ This is another technique, that, while its usefulness has declined sharply with
 the inclusion Thassa's Oracle, is nevertheless useful to know, since its
 execution requires no unusual cards. A situation could be contrived where this
 type of pile was a reasonable option though you are unlikely to encounter such a
-situation in the wild; for example, your opponent has a {{Leyline of sanctity}}
-and a {{Meddling Mage}} naming Thassa's Oracle.
+situation in the wild; for example, your opponent has a :card[Leyline of sanctity]
+and a :card[Meddling Mage] naming Thassa's Oracle.
 
 ### Example 1
 
@@ -187,7 +187,7 @@ your deck, whereas that would be impossible without it.
 
 ## Time Spiral Piles
 
-{{Time Spiral}} was a common sideboard card in older Doomsday lists, predating
+:card[Time Spiral] was a common sideboard card in older Doomsday lists, predating
 the rise of SDT Miracles. It can still be used to make functional piles, but
 these days is obviated by Echo of Eons. For this reason the card sees little to
 no play, but the pile is presented here for its historical interest.

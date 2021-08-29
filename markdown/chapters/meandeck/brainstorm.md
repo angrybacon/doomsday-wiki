@@ -64,15 +64,15 @@ Another example is presented here using Predict.
 1. The Lotus Petal gives you a second {U} to cast TO with an empty library
 
 Both of the worked examples above allow for perfect piles to be made, allowing
-you to play around removal like {{Swords to Plowshares}}.
+you to play around removal like :card[Swords to Plowshares].
 
 ## Brainstorm Pile - Brainstorm and *Combo Piece* Available
 
 You may find yourself in a scenario where you have a card in hand that is
 considered *dead* outside of the combo turn. Thankfully, Brainstorm (BS) allows
 you to transfer it out of your hand and replace it into the pile. Let us
-consider the example above. It may be the opponent has a card like {{Scavenging
-Ooze}} out and you need to utilize LED to generate mana but don't want to
+consider the example above. It may be the opponent has a card like :card[Scavenging
+Ooze] out and you need to utilize LED to generate mana but don't want to
 discard your one Oracle to have it *eaten* by the Ooze. We cannot use Predict
 here as we would need to *mill* the Oracle to do so effectively. In many
 situations you might be able to make a PTT pile however if your life total is
@@ -159,7 +159,7 @@ well if you have an available land drop for that turn.
 1. Cast TO with the remaining mana from LED with two cards left in your library
 
 Again this is an example of an imperfect pile. If you played a list featuring
-{{Baleful Strix}} in, you can make the following minor adjustment to the pile if
+:card[Baleful Strix] in, you can make the following minor adjustment to the pile if
 you have a Strix in play to turn it into a perfect pile.
 
 > {U} + Brainstorm + Street Wraith + X
@@ -202,7 +202,7 @@ win that same turn whilst keeping up your countermagic. Let us consider the
 following scenario:
 
 You successfully resolve Doomsday but suspect your opponent may be holding an
-{{Endurance}} plus *pitch* card in hand. In this scenario you can build the
+:card[Endurance] plus *pitch* card in hand. In this scenario you can build the
 following pile:
 
 > {U} + Brainstorm + Street Wraith + X + X

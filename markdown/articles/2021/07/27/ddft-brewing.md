@@ -59,9 +59,9 @@ but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 While these issues weren't catastrophic, and careful fetching could minimize it,
 I was nonetheless driven to explore other options. Over the course of 2020 and
 early 2021, I tried some Wish-less variants as well, including versions that
-looked a bit like ANT-hybrids with {{Solve the Equation}} or {{Dark Petition}}.
+looked a bit like ANT-hybrids with :card[Solve the Equation] or :card[Dark Petition].
 The mana was much more stable with just 3 colors, but the tutors felt worse than
-{{Burning Wish}}. I did find that I liked having all 4 Doomsday maindeck, but
+:card[Burning Wish]. I did find that I liked having all 4 Doomsday maindeck, but
 the shells felt great when you drew Doomsday and anemic at best when you didn't.
 
 ## The Mindkiller
@@ -128,7 +128,7 @@ reason or another, and none of them actually panned out.
 
 This was a variant of Mindkiller, an ill-fated attempt to remove Spoils from the
 deck. Belcher also gave it another angle of attack, one that couldn't be stopped
-by {{Flusterstorm}} or a well timed Lightning Bolt. The manabase was an issue
+by :card[Flusterstorm] or a well timed Lightning Bolt. The manabase was an issue
 here. The MDFC lands are critical to good belches, but opening a hand with a
 bunch of Dark Rituals and 2 lands that don't make black was pretty awkward.
 
@@ -158,7 +158,7 @@ don't expect much.
 <deck path="2021/07/26/ddft.ub.lim-dul-vault.txt" />
 
 Another list based on the "X is just Doomsday 5-8!" idea. I actually first had
-this idea shortly after {{Gitaxian Probe}} got banned. It wasn't good then, so I
+this idea shortly after :card[Gitaxian Probe] got banned. It wasn't good then, so I
 probably shouldn't have expected much now, but hey, Oracle had been printed
 since back then, so why not give it another shot? {{Lim-Dul's Vault}} can be
 used to arrange the top few cards into something that can generate lethal Storm.

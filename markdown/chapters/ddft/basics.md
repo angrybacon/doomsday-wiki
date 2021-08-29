@@ -29,7 +29,7 @@ certain line of play.
 ### Single Cantrip Piles
 
 There are basically two variants to this pile. You either have a cantrip that
-draws a single card in hand ready to cast, or a {{Conjurer's Bauble}} in play.
+draws a single card in hand ready to cast, or a :card[Conjurer's Bauble] in play.
 For the moment, the difference does not really matter and we'll just assume that
 you have a Ponder in hand and {U} to cast it.
 

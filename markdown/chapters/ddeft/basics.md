@@ -5,7 +5,7 @@ title: The Basics
 ---
 
 DDEFT is a Doomsday variant set on lining up quick loopable and durable Doomsday
-kills through the card {{Experimental Frenzy}}.
+kills through the card :card[Experimental Frenzy].
 
 This high value enchantment allows us to work off the top of our deck at the
 cost of losing access to our hand, an ability that is abused in two ways by

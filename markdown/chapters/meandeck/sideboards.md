@@ -79,8 +79,8 @@ We will be discussing the following categories:
 #### 1. Permanent Removal
 
 Permanent removal is anything that can deal with hateful interaction such as
-{{Chalice of the Void}}, {{Deafening Silence}}, {{Counterbalance}},
-{{Trinisphere}} or {{Narset, Parter of Veils}}. Normally it can also deal with
+:card[Chalice of the Void], :card[Deafening Silence], :card[Counterbalance],
+:card[Trinisphere] or :card[Narset, Parter of Veils]. Normally it can also deal with
 creature based interaction too but not always. There is a lot of overlap between
 the two categories however the permanent removal section is generally a bit
 broader. Often is is favourable to have only permanent removal then maybe 1
@@ -99,19 +99,19 @@ removal options.
 
 Some key examples of permanent removal to consider:
 
-- {{Abrupt Decay}}
-- {{Assasin's Trophy}}
-- {{Abrade}}
-- {{Goblin Cratermaker}}
-- {{Serenity}}
-- {{Teferi's Realm}}
-- {{Chain of Vapor}}
-- {{Pyroblast}} / {{Red Elemental Blast}}
-- {{Pernicious Deed}}
-- {{Echoing Truth}}
-- {{Hurkyl's Recall}}
-- {{Prismatic Ending}}
-- {{Force of Negation}}
+- :card[Abrupt Decay]
+- :card[Assasin's Trophy]
+- :card[Abrade]
+- :card[Goblin Cratermaker]
+- :card[Serenity]
+- :card[Teferi's Realm]
+- :card[Chain of Vapor]
+- :card[Pyroblast] / :card[Red Elemental Blast]
+- :card[Pernicious Deed]
+- :card[Echoing Truth]
+- :card[Hurkyl's Recall]
+- :card[Prismatic Ending]
+- :card[Force of Negation]
 
 <row variant="pile">{{!AD}} {{!Abrade}} {{!Prismatic Ending}} {{!Teferi's Realm}} {{!Pernicious Deed}}</row>
 
@@ -125,13 +125,13 @@ You likely want only 1-2 slots dedicated to this role.
 
 Some key examples of creature removal to consider:
 
-- {{Swords to Plowshares}}
-- {{Fatal Push}}
-- {{Massacre}}
-- {{Drown in the Loch}}
-- {{Toxic Deluge}}
-- {{Dead of Winter}}
-- {{Terminus}}
+- :card[Swords to Plowshares]
+- :card[Fatal Push]
+- :card[Massacre]
+- :card[Drown in the Loch]
+- :card[Toxic Deluge]
+- :card[Dead of Winter]
+- :card[Terminus]
 
 <row variant="pile">{{!StP}} {{!Fatal Push}} {{!Massacre}} {{!Toxic Deluge}} {{!Terminus}}</row>
 
@@ -145,17 +145,17 @@ You probably want 1-4 slots dedicated to this role.
 
 Some key examples of anti-blue to consider:
 
-- {{Silence}}
-- {{Orim's Chant}}
-- {{Pyroblast}} / {{Red Elemental Blast}}
-- {{Veil of Summer}}
-- {{Cavern of Souls}} (if not main)
-- {{Spell Pierce}}
-- {{Flusterstorm}}
-- {{Hope of Ghirapur}}
-- {{Xantid Swarm}}
-- {{Defense Grid}}
-- {{Teferi, Time Raveler}}
+- :card[Silence]
+- :card[Orim's Chant]
+- :card[Pyroblast] / :card[Red Elemental Blast]
+- :card[Veil of Summer]
+- :card[Cavern of Souls] (if not main)
+- :card[Spell Pierce]
+- :card[Flusterstorm]
+- :card[Hope of Ghirapur]
+- :card[Xantid Swarm]
+- :card[Defense Grid]
+- :card[Teferi, Time Raveler]
 
 <row variant="pile">{{!Silence}} {{!Pyroblast}} {{!Hope of Ghirapur}} {{!Defense Grid}} {{!Xantid Swarm}}</row>
 
@@ -171,12 +171,12 @@ FoN.
 
 Some key examples of anti-combo to consider:
 
-- {{Veil of Summer}}
-- {{Flusterstorm}}
-- {{Spell Pierce}}
-- {{Mindbreak Trap}}
-- {{Force of Negation}}
-- {{Lavinia, Azorius Renegade}}
+- :card[Veil of Summer]
+- :card[Flusterstorm]
+- :card[Spell Pierce]
+- :card[Mindbreak Trap]
+- :card[Force of Negation]
+- :card[Lavinia, Azorius Renegade]
 
 <row variant="pile">{{!Veil of Summer}} {{!Flusterstorm}} {{!Spell Pierce}} {{!Mindbreak Trap}} {{!Force of Negation}}</row>
 
@@ -196,14 +196,14 @@ be able to fight those type of decks without dedicated interaction to bring in.
 
 Some key examples of anti-graveyard to consider:
 
-- {{Surgical Extraction}} (soft)
-- {{Tormod's Crypt}} (soft)
-- {{Leyline of the Void}} (hard)
-- {{Rest in Peace}} (hard)
-- {{Nihil Spellbomb}} (soft)
-- {{Grafdigger's Cage}} (hard)
-- {{Faerie Macabre}} (soft)
-- {{Relic of Progrenitus}} (soft)
+- :card[Surgical Extraction] (soft)
+- :card[Tormod's Crypt] (soft)
+- :card[Leyline of the Void] (hard)
+- :card[Rest in Peace] (hard)
+- :card[Nihil Spellbomb] (soft)
+- :card[Grafdigger's Cage] (hard)
+- :card[Faerie Macabre] (soft)
+- :card[Relic of Progrenitus] (soft)
 
 <row variant="pile">{{!Leyline of the Void}} {{!Tormod's Crypt}} {{!Surgical Extraction}} {{!RiP}} {{!Grafdigger's Cage}}</row>
 
@@ -218,11 +218,11 @@ want between 0-3 slots dedicated to this role.
 
 Some key examples of mana assets to consider:
 
-- {{Carpet of Flowers}}
-- {{Cavern of Souls}} (if not main)
+- :card[Carpet of Flowers]
+- :card[Cavern of Souls] (if not main)
 - Basic lands
-- B/x Splash duals like {{Badlands}} or {{Bayou}}
-- {{Cabal Ritual}}
+- B/x Splash duals like :card[Badlands] or :card[Bayou]
+- :card[Cabal Ritual]
 
 <row variant="pile">{{!Carpet of Flowers}} {{!Cavern of Souls}} {{!Snow-Covered Plains}} {{!CR}} {{!Bayou}}</row>
 
@@ -241,19 +241,19 @@ so be mindful if choosing this strategy.
 
 Some key examples of alternate win conditions to consider:
 
-- An additional {{Thassa's Oracle}}
-- {{Shelldock Isle}} and {{Emrakul, the Aeon's Torn}}
-- {{Monastery Mentor}}
-- {{Stoneforge Mystic}} alongside {{Batterskull}} and {{Umezawa's Jitte}}
-- {{Opposition Agent}}
-- {{Hullbreacher}}
-- {{Gurmag Angler}}
-- {{Murktide Regent}}
-- {{Tombstalker}}
-- {{Uro, Titan of Nature's Wrath}}
-- {{Jace, Wielder of Mysteries}}
-- {{Divining Witch}}
-- {{Death's Shadow}}
+- An additional :card[Thassa's Oracle]
+- :card[Shelldock Isle] and :card[Emrakul, the Aeon's Torn]
+- :card[Monastery Mentor]
+- :card[Stoneforge Mystic] alongside :card[Batterskull] and :card[Umezawa's Jitte]
+- :card[Opposition Agent]
+- :card[Hullbreacher]
+- :card[Gurmag Angler]
+- :card[Murktide Regent]
+- :card[Tombstalker]
+- :card[Uro, Titan of Nature's Wrath]
+- :card[Jace, Wielder of Mysteries]
+- :card[Divining Witch]
+- :card[Death's Shadow]
 
 ## Sideboarding Strategies
 
@@ -387,8 +387,8 @@ have multiple mana sources at your disposal as Wasteland and Stifle can both be
 a concern. Aggressively fetching your basic lands is advantageous unless you
 think you have enough resilience to ignore any Wasteland effects. Try not to
 feel pressured to jam too quickly but be mindful that thanks to cards like
-{{Ragavan, Nimble Pilferer}}, them casting your own discard or opposing
-{{Berserk}}/{{Invigorate}} combo can cause you to lose quickly. Stifle is the
+:card[Ragavan, Nimble Pilferer], them casting your own discard or opposing
+:card[Berserk]/:card[Invigorate] combo can cause you to lose quickly. Stifle is the
 scariest tool in the arsenal of these decks as it gets around Cavern of Souls
 and Veil of Summer so removing that via discard is a priority. Try to avoid
 playing into Daze and avoid fighting over their threats if you have the luxury

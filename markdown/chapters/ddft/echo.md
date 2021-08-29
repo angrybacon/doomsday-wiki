@@ -6,9 +6,9 @@ title: Using Echo of Eons in Piles
 Echo of Eons is a comparatively recent addition to the DDFT arsenal, and is
 quite powerful and flexible. A deck like The Epic Storm uses it as an
 alternative Storm engine, and while we can use it that way too, it has some very
-interesting applications in Doomsday piles. If you're an {{Old Fogey}} when it
+interesting applications in Doomsday piles. If you're an :card[Old Fogey] when it
 comes to Doomsday, you may see some similarities between the piles presented
-here and the {{Time Spiral}} piles of yore.
+here and the :card[Time Spiral] piles of yore.
 
 If you're reading these in order, you'll have seen a simple Echo pile example
 among the pass-the-turn piles. We'll go into more depth about them and discuss
@@ -120,7 +120,7 @@ able to cast the discard spell for protection before casting Oracle.
 ### Example 1
 
 It is possible to use multiple Echoes to build very high storm counts, enabling
-you to kill with {{Grapeshot}}
+you to kill with :card[Grapeshot]
 
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 

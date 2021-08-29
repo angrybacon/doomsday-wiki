@@ -22,7 +22,7 @@ best games of magic I have ever played in.
 
 I am against UB Shadow, Game 1. We both know what each other are on. He has a
 threat-light hand with disruption and burns himself down to 13 stripping my
-hand. I play a {{Cloud of Faeries}} and start bashing in, holding countermagic
+hand. I play a :card[Cloud of Faeries] and start bashing in, holding countermagic
 up. He ignores them for a bit, even shuffling away a Fatal Push with a BS when
 suddenly his life is low enough to be in danger. We of course have both been
 joking the whole time that I was now playing the Delver deck and would get there
@@ -36,7 +36,7 @@ and Meatballs*.
 
 <deck path="2019/03/spaghetti.txt" />
 
-Anyways I digress. Jumping to ahead a bit, when {{Experimental Frenzy}} was
+Anyways I digress. Jumping to ahead a bit, when :card[Experimental Frenzy] was
 spoiled everyone had a think about it but most people just went "hmm, probs not
 great tbh". One person however saw the real potential. Reversemermaid on the
 DDFT Discord (first as some drunken fun started throwing out fun attempts at
@@ -78,7 +78,7 @@ Lotus. Lands become huge liabilities and Cantrips reverse themselves. Take
 Preordain for instance. Normally if you see two bad cards you bottom both and
 draw a fresh one. With frenzy out you should instead bottom one, draw one and
 then have the fresh one on the top of your library. Things like Fetches and
-{{Conjurer's Bauble}} can now help clear "dud" cards off the top of the library
+:card[Conjurer's Bauble] can now help clear "dud" cards off the top of the library
 and your hand becomes a weird part graveyard part Brainstorm access pool
 resource. Ponder becomes interesing as you can clear a dead card by "drawing" it
 and then keep two desirables but all this means thinking in a way very unlike
@@ -103,7 +103,7 @@ new piles. The life gain from Tendrils helps mitigate the lifeloss from Doomsday
 allowing you to go infinite. As per point 4 above, Collextive Brutalitiy can
 also be used as eventually your Doomsday life total will go down to 1 or 2, you
 cast CoBru back up to 3/4 and thus can repeat ad infinium.  
-Hell, you could even consider running {{Aetherflux Reservoir}}!
+Hell, you could even consider running :card[Aetherflux Reservoir]!
 
 As per the example above:
 

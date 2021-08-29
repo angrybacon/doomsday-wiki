@@ -5,9 +5,9 @@ title: Winning Without Doomsday
 
 One advantage that DDFT has over other Doomsday variants is that it can reliably
 win without casting the namesake card, and can even do it quickly. This can be a
-big deal, since it means you have options. You don't fold to a single {{Surgical
-Extraction}} on the right card. You can win through a card like {{Ashiok, Dream
-Render}}, or go off all at once in the face of a {{Narset, Parter of Veils}}.
+big deal, since it means you have options. You don't fold to a single :card[Surgical
+Extraction] on the right card. You can win through a card like :card[Ashiok, Dream
+Render], or go off all at once in the face of a :card[Narset, Parter of Veils].
 You can pick the best combo engine for the situation and dodge the potential
 chokepoint that is the card Doomsday.
 
@@ -87,20 +87,20 @@ glossed over so far, is that Echo draws your opponent a new hand, and recycles
 all their countermagic that you already fought through. They won't always draw
 relevant cards, but you should anticipate them having something. Sometimes there
 isn't anything you can do about it, and you just need to spin the wheel.
-Sometimes you can resolve a {{Veil of Summer}} before Echo and you won't need to
+Sometimes you can resolve a :card[Veil of Summer] before Echo and you won't need to
 worry much at all. If you draw discard/Veil in your new 7, cast it first
 whenever possible. You can sometimes use extra mana-prodcing spells to bait
 countermagic if you sequence them in such a way as to tempt your opponent.
 
-Another common alternative Storm engine is {{Peer into the Abyss}}. Again, usage
+Another common alternative Storm engine is :card[Peer into the Abyss]. Again, usage
 is pretty straightforward. Make a bunch of mana, wish for Peer, and cast it.
 Whiffing will be rare from this point, and you can choose to win any number of
 ways depending on what you draw. Peer does require a substantial upfront mana
 investment, but for the price it has a much higher rate of success than Echo of
 Eons.
 
-The only other reasonable candidate for an alternative Storm engine is {{Past in
-Flames}}. This is a much less common sideboard choice these days, since it is
+The only other reasonable candidate for an alternative Storm engine is :card[Past in
+Flames]. This is a much less common sideboard choice these days, since it is
 clumsier than Peer or Echo, but it's worth a mention. We won't go too in depth
 here, since there are plenty of ANT guides out there that address its use.
 Instead we will again focus on the caveats of using Past in Flames in this deck.
@@ -194,7 +194,7 @@ rarely they can outright win the game. Slightly more commonly, they can do 2-6
 damage and put your opponent in range of a small Tendrils.
 
 People have tried various creature plans from the sideboard, including but not
-limited to {{Young Pyromancer}}, {{Monastery Mentor}} and {{Dark Confidant}}. In
+limited to :card[Young Pyromancer], :card[Monastery Mentor] and :card[Dark Confidant]. In
 this case winning with creature beatdown can become a more viable plan (although
 Confidant is typically seen as a card advantage engine first and a beater
 second). However, this type of plan tends to be weaker than one might think, and
