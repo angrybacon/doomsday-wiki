@@ -4,7 +4,12 @@ import ReactMarkdown, { Components } from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
+import { remarkCard } from '@/components/Remark/plugins/remarkCard';
 import { remarkRow } from '@/components/Remark/plugins/remarkRow';
+import {
+  RemarkCard,
+  Props as RemarkCardProps,
+} from '@/components/Remark/renderers/RemarkCard';
 import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
 import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
@@ -22,10 +27,12 @@ interface Props {
 }
 
 const components: Components & {
+  card: FunctionComponent<RemarkCardProps>;
   row: FunctionComponent<RemarkRowProps>;
 } = {
   a: RemarkLink,
   blockquote: RemarkQuote,
+  card: RemarkCard,
   h1: RemarkHeading,
   h2: RemarkHeading,
   h3: RemarkHeading,
@@ -39,7 +46,7 @@ const components: Components & {
 export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {
   const classes = useStyles();
   const { content, data } = markdown;
-  const plugins = [remarkDirective, remarkRow];
+  const plugins = [remarkDirective, remarkCard, remarkRow];
   return (
     <div className={c(classes.root, className)}>
       {data?.title && (
