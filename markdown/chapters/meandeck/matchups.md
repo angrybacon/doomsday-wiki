@@ -6,11 +6,13 @@ title: Matchup Guides
 
 With this chapter we want to give you a brief overview over the most relevant matchups in the current meta. We try to keep everything short and easy to read.  
 To keep verything easy to read, we organized every matchup as follows.
-  
-Opposing Deck Name
-Gamplan: a short 1 or 2 sentence summary of the matchup  
-Cards to keep in mind: cards that are important for the matchups, divided in Maindeck and Sideboard  
-Gameplay: A longer guide how to play the pre and post Doomsday part of the matchup
+
+1. **Opposing deck name**
+1. **Gameplan**: a short 1 or 2 sentences summary of the matchup
+1. **Cards to keep in mind**: cards that are important for the matchups, divided in
+   maindeck and sideboard
+1. **Gameplay**: a longer guide how to play the pre and post Doomsday part of
+   the matchup
 
 !If you want to skip to a certain matchup use CTRL+F!
 
