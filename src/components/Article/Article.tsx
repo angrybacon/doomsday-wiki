@@ -9,7 +9,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
-import { useStyles } from '@/components/Article/Article.styles';
+import { useStyles } from './Article.styles';
 
 interface Props {
   matter?: GrayMatterFile<string>['data'];

@@ -18,7 +18,7 @@ import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
 import type { Menu } from '@/tools/markdown/types';
-import { useStyles } from '@/components/Layout/Layout.styles';
+import { useStyles } from './Layout.styles';
 
 type OnSidebarToggle = (value: boolean) => () => void;
 

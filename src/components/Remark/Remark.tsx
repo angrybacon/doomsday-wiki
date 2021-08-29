@@ -4,11 +4,17 @@ import ReactMarkdown, { Components } from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import { remarkRow } from '@/components/Remark/plugins';
-import { Heading, Link, Quote, Row, Text } from '@/components/Remark/renderers';
-import type { RowProps } from '@/components/Remark/renderers/types';
+import { remarkRow } from '@/components/Remark/plugins/remarkRow';
+import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
+import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
+import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
+import {
+  RemarkRow,
+  Props as RemarkRowProps,
+} from '@/components/Remark/renderers/RemarkRow';
+import { RemarkText } from '@/components/Remark/renderers/RemarkText';
 import type { Markdown } from '@/tools/markdown/types';
-import { useStyles } from '@/components/Remark/Remark.styles';
+import { useStyles } from './Remark.styles';
 
 interface Props {
   className?: string;
@@ -16,18 +22,18 @@ interface Props {
 }
 
 const components: Components & {
-  row: FunctionComponent<RowProps>;
+  row: FunctionComponent<RemarkRowProps>;
 } = {
-  a: Link,
-  blockquote: Quote,
-  h1: Heading,
-  h2: Heading,
-  h3: Heading,
-  h4: Heading,
-  h5: Heading,
-  h6: Heading,
-  p: Text,
-  row: Row,
+  a: RemarkLink,
+  blockquote: RemarkQuote,
+  h1: RemarkHeading,
+  h2: RemarkHeading,
+  h3: RemarkHeading,
+  h4: RemarkHeading,
+  h5: RemarkHeading,
+  h6: RemarkHeading,
+  p: RemarkText,
+  row: RemarkRow,
 };
 
 export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {

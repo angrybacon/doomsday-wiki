@@ -1,1 +1,0 @@
-export { remarkRow } from './remarkRow';

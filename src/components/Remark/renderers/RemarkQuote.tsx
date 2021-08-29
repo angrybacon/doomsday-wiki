@@ -1,8 +1,8 @@
 import React from 'react';
 import type { Components } from 'react-markdown';
-import { useStyles } from '@/components/Remark/renderers/Quote.styles';
+import { useStyles } from './RemarkQuote.styles';
 
-export const Quote: Components['blockquote'] = ({ children }) => {
+export const RemarkQuote: Components['blockquote'] = ({ children }) => {
   const classes = useStyles();
   return <blockquote className={classes.root}>{children}</blockquote>;
 };

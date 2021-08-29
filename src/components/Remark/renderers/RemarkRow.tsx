@@ -2,20 +2,18 @@ import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Card } from '@/components/Card/Card';
-import { useStyles } from '@/components/Remark/renderers/Row.styles';
-
-interface Card {
-  id?: number;
-  query: string;
-}
+import { useStyles } from './RemarkRow.styles';
 
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
-    properties: { cards: Card[]; variant?: string };
+    properties: {
+      cards: { id?: string; query: string }[];
+      variant?: Variant;
+    };
   };
 }
 
-export const Row: FunctionComponent<Props> = ({ node, ...rest }) => {
+export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
   const classes = useStyles();
   const { cards = [], variant = 'pile' } = node.properties;
   return (
