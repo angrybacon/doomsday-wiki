@@ -233,7 +233,15 @@ Our hand is:
 >    Good things: it can keep Street Wraith. Wraith is a vital card to beating
 >    Brain Freeze.
 
-<row variant="hand">{{!DD}} {{!SW}} {{!Pre}} {{!FoW}} {{!Underground Sea|LEB}} {{!Tasigur, the Golden Fang}} {{!DR}}</row>
+:::row{variant=hand}
+- DD
+- SW
+- Pre
+- FoW
+- Underground Sea | LEB
+- Tasigur, the Golden Fang
+- DR
+:::
 
 ## Part 4: Playing vs. BUG
 

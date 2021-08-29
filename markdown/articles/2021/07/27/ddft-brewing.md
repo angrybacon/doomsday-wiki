@@ -19,7 +19,11 @@ play Doomsday and Tendrils of Agony in the same 75.
 
 ## The Starting Point
 
-<row variant="centered">{{!DD}} {{!EoE}} {{!BW}}</row>
+:::row
+- DD
+- EoE
+- BW
+:::
 
 This is roughly what I and others would consider a typical DDFT list in the
 present day. It has undergone some changes since [my original Echo Doomsday

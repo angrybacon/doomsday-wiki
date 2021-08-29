@@ -56,7 +56,13 @@ Dragons and other {B}{R} creatures. As time went on, and new cards from Urza's
 Legacy were printed, he actually already found a copy, and use for Doomsday in
 his ~~pile~~ deck which he used to deploy a very efficient combo:
 
-<row variant="pile">{{!Meditate|TMP}} {{!Palinchron|ULG}} {{!Mana Flare|LEB}} {{!Turnabout|USG}} {{!Stroke of Genius|USG}}</row>
+:::row{variant=pile}
+- Meditate | TMP
+- Palinchron | ULG
+- Mana Flare | LEB
+- Turnabout | USG
+- Stroke of Genius | USG
+:::
 
 For only {4}{U}{U}{U}{R} this would give you infinite mana to cast an
 exponentially large Stroke at your opponent. Pretty powerful magic.
