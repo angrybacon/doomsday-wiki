@@ -1,7 +1,7 @@
 import c from 'classnames';
 import React, { FunctionComponent, useEffect, useState } from 'react';
 import { scry } from '@/tools/scryfall/scry';
-import { useStyles } from '@/components/Card/Card.styles';
+import { useStyles } from './Card.styles';
 
 interface CardModel {
   image?: string;

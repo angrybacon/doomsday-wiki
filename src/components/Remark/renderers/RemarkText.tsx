@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import Typography from '@material-ui/core/Typography';
 
-export const Text: FunctionComponent = ({ children }) => (
+export const RemarkText: FunctionComponent = ({ children }) => (
   <Typography paragraph>{children}</Typography>
 );

@@ -8,7 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import { useStyles } from '@/components/Header/Header.styles';
+import { useStyles } from './Header.styles';
 
 interface Props {
   /** Whether the header should be left-padded. */

@@ -12,7 +12,7 @@ import type { Variant } from '@material-ui/core/styles/createTypography';
  */
 const variants: Variant[] = ['h2', 'h2', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
-export const Heading: HeadingComponent = ({ children, level }) => (
+export const RemarkHeading: HeadingComponent = ({ children, level }) => (
   <Typography gutterBottom variant={variants[level]}>
     {children}
   </Typography>

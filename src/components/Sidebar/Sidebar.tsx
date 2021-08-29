@@ -7,8 +7,8 @@ import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import { Entry } from '@/components/Sidebar/Entry';
-import { useStyles } from '@/components/Sidebar/Sidebar.styles';
 import type { Menu } from '@/tools/markdown/types';
+import { useStyles } from './Sidebar.styles';
 
 interface Props {
   /** Whether the drawer should be permanent. */

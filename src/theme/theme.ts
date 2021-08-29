@@ -32,6 +32,11 @@ export const theme: Theme = createTheme({
         padding: base.spacing(3),
       },
     },
+    MuiLink: {
+      root: {
+        color: base.palette.secondary.main,
+      },
+    },
     MuiTypography: {
       gutterBottom: {
         '&:not(:first-child)': { marginTop: '.6em' },
