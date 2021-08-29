@@ -2,6 +2,9 @@ import { join } from 'path';
 import { mdiEye, mdiFileDocumentMultiple, mdiFlash, mdiFlask } from '@mdi/js';
 import type { Category, CategoryMeta } from '@/tools/markdown/types';
 
+/** File extension to consider for Markdown content. */
+export const MARKDOWN_EXTENSION = '.md';
+
 /** Base URL for Markdown content. */
 export const BASE_MARKDOWN_URL = join(process.cwd(), 'markdown');
 
@@ -42,6 +45,3 @@ export const MENU_DECORATIONS: Record<Category, CategoryMeta> = {
     title: 'Meandeck',
   },
 };
-
-/** File extension to consider for Markdown content. */
-export const MARKDOWN_EXTENSION = '.md';

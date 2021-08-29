@@ -6,16 +6,21 @@ import Grid from '@material-ui/core/Grid';
 import { Article } from '@/components/Article/Article';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
+import type { ExtraPageProps } from '@/interfaces/page.model';
 import { getArticles } from '@/tools/markdown/getArticles';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import type { Document, Markdown, WithMenu } from '@/tools/markdown/types';
+import type { Document, Markdown } from '@/tools/markdown/types';
 
 interface Props {
   articles: Document[];
   welcome: Markdown;
 }
 
-const HomePage: NextPage<Props & WithMenu> = ({ articles, menu, welcome }) => (
+const HomePage: NextPage<Props & ExtraPageProps> = ({
+  articles,
+  menu,
+  welcome,
+}) => (
   <Layout
     wrapper={Grid}
     wrapperProps={{ container: true, spacing: 2 }}
