@@ -1,6 +1,7 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
+import type { PluggableList } from 'react-markdown/lib/react-markdown';
 import remarkDirective from 'remark-directive';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
@@ -46,7 +47,7 @@ const components: Components & {
 export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {
   const classes = useStyles();
   const { content, data } = markdown;
-  const plugins = [remarkDirective, remarkCard, remarkRow];
+  const plugins: PluggableList = [remarkCard, remarkRow];
   return (
     <div className={c(classes.root, className)}>
       {data?.title && (
@@ -56,7 +57,11 @@ export const Remark: FunctionComponent<Props> = ({ className, markdown }) => {
           </Typography>
         </Box>
       )}
-      <ReactMarkdown components={components} remarkPlugins={plugins} skipHtml>
+      <ReactMarkdown
+        components={components}
+        remarkPlugins={[remarkDirective, ...plugins]}
+        skipHtml
+      >
         {content}
       </ReactMarkdown>
     </div>

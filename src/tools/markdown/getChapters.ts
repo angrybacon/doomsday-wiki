@@ -1,11 +1,11 @@
 import { join } from 'path';
+import { readMarkdown } from '@/tools/io/readMarkdown';
+import { walk } from '@/tools/io/walk';
 import {
   BASE_CHAPTER_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
-import { read } from '@/tools/markdown/read';
 import type { Document } from '@/tools/markdown/types';
-import { walk } from '@/tools/markdown/walk';
 
 type GetChapters = () => Document[];
 
@@ -16,7 +16,7 @@ export const getChapters: GetChapters = () => {
     // NOTE Only consider complete paths ie. [category, chapter]
     if (crumbs.length === 2) {
       const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
-      const { data } = read(path);
+      const { data } = readMarkdown(path);
       const route = ['', ...crumbs].join('/');
       return [...accumulator, { crumbs, data, route }];
     }

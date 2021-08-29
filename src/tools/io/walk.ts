@@ -2,19 +2,19 @@ import { existsSync, readdirSync } from 'fs';
 import { join, parse } from 'path';
 import { MARKDOWN_EXTENSION } from '@/tools/markdown/constants';
 
-/** Default options the `walk` generator. */
-const walkOptionsDefault: WalkOptions = {
-  extension: MARKDOWN_EXTENSION,
-};
-
 interface WalkOptions {
   depth?: number;
   extension?: string;
 }
 
+/** Default options the `walk` generator. */
+const walkOptionsDefault: WalkOptions = {
+  extension: MARKDOWN_EXTENSION,
+};
+
 /**
- * generator to walk through `directory` and yield all files.
- * Return a tuple containing all parent folders in an array and the file
+ * Generator to walk through `directory` and yield all files.
+ * Return a tuple containing all successive parent folders followed by the file
  * extension.
  * When `extension` is specified, only return files that match.
  * Prefer synchronous exploration since order matters.
