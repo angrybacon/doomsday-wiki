@@ -7,9 +7,7 @@ import { SHORTHANDS } from '@/tools/scryfall/cards';
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 export interface Props extends ReactMarkdownProps {
-  node: ReactMarkdownProps['node'] & {
-    properties: { card: string };
-  };
+  node: ReactMarkdownProps['node'] & { properties: { card: string } };
 }
 
 export const RemarkCard: FunctionComponent<Props> = ({ node }) => {

@@ -1,4 +1,4 @@
-import { createStyles, makeStyles } from '@material-ui/core/styles';
+import { alpha, createStyles, makeStyles } from '@material-ui/core/styles';
 import type { Theme } from '@material-ui/core/styles';
 import type { CSSProperties } from '@material-ui/core/styles/withStyles';
 
@@ -18,7 +18,7 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
 
     pile: {
-      backgroundColor: theme.palette.background.pile,
+      backgroundColor: alpha(theme.palette.primary.main, 0.2),
       borderColor: theme.palette.divider,
       borderLeftWidth: 0,
       borderRightWidth: 0,

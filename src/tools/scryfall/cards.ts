@@ -19,6 +19,7 @@ export const SHORTHANDS: Record<string, string> =
   EtW:   'Empty the Warrens',
   IC:    'Infernal Contract',
   LDV:   "Lim-Dul's Vault",
+  LED:   "Lion's Eye Diamond",
   Mm:    'Manamorphose',
   SotV:  'Spoils of the Vault',
   TO:    "Thassa's Oracle",
