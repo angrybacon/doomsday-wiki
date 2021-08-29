@@ -24,11 +24,11 @@ Resolving an early Doomsday is very important, but it's also important to build 
 
 #### Maindeck
 
-<row variant="hand"> {{!Ragavan, Nimble Pilferer}} {{!Lightning Bolt}} {{!Daze}} {{!Wasteland}} {{!Force of Will}}</row>
+<row variant="hand">{{!Ragavan, Nimble Pilferer}} {{!Lightning Bolt}} {{!Daze}} {{!Wasteland}} {{!Force of Will}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Pyroblast}} {{!Force of Negation}} {{!Surgical Extraction}}</row>
+<row variant="hand">{{!Pyroblast}} {{!Force of Negation}} {{!Surgical Extraction}}</row>
 
 ### Gameplay
 
@@ -39,7 +39,7 @@ Ragavan is a very dominating factor in this matchup. It disrupts your own plans,
 When mulliganing, keep in mind {{Daze}} can be invalidated very fast by {{Ragavan, Nimble Pilferer}} and every cantrip has to hit something good or you'll fall be behind very fast. Hands with turn 1 Doomsday are always great, espcially of the play. After MH2 many Delver players cut some {{Force of Negation}}, making our turn 1 Doomsdays a lot safer.  
 Against the current Izzet Delver lists {{Force of Will}} got a lot worse, because it's very resource intensive and we rather prefere to keep the cards we would pitch to it for wins without passing the turn post Doomsday. To fight this problem many Doomsday lists play {{Pact of Negation}}, because It's less resource intensive and supports wins without passing the turn.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 The post Doomsday game against UR Delver is very tricky. You often have to take risks to resolve Oracle without giving the Delver player too much time to look for answeres or straight up kill you with damage.  
 Of course you would prefere to always build Brainstorm piles and never pass the turn, but that's not always possible. So you will have to build piles that pass the turn. Here comes the ugly part, you can't beat everything a Delver deck possibly has. Even in stock lists. You'll have to learn how to assess the situation nad plan accordingly. That's an important skill in every matchup, but against Delver it's crucial.  
@@ -54,20 +54,20 @@ A little trick to play through an opposing Ragavan post Doomsday is to put a cyc
 
 #### Maindeck
 
-<row variant="hand"> {{!Ragavan, Nimble Pilferer}} {{!Daze}} {{!Force of Will}} {{!Wasteland}} {{!Counterbalance}} {{!Urza's Saga}}</row>
+<row variant="hand">{{!Ragavan, Nimble Pilferer}} {{!Daze}} {{!Force of Will}} {{!Wasteland}} {{!Counterbalance}} {{!Urza's Saga}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Hullbreacher}} {{!Pyroblast}} {{!Surgical Extraction}} {{!Force of Negation}} {{!Meddling Mage}} {{!Torpor Orb}} {{!Flusterstorm}}</row>
+<row variant="hand">{{!Hullbreacher}} {{!Pyroblast}} {{!Surgical Extraction}} {{!Force of Negation}} {{!Meddling Mage}} {{!Torpor Orb}} {{!Flusterstorm}}</row>
 
 ### Gameplay
 
-#### Pre Doomsday 
+#### Pre Doomsday
 
 Jeskai Ragavan is a very undefined archetype at the moment. There many builds out there, from tempo style list, over midrange variants, to more controling builds.  
 The matches against this deck play pretty similar to the UR Delver matchup, but Jeskai Ragavan has often a weaker damage backup, because many lists play less or no {{Lightning Bolts}} combined less threats but more protection.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 The post Doomsday part of the game is often defined by the variant you play against or you think you play against. It's very important to try to identify your opponents role and adapt to new information.  
 
@@ -81,11 +81,11 @@ Beating countermagic is not your only problem, their hatebears and answers to Or
 
 #### Maindeck
 
-<row variant="hand"> {{!Endurance}} {{!Force of Will}} {{!Force of Negation}} {{!Dress Down}} {{!Teferi, Time Raveler}}</row>
+<row variant="hand">{{!Endurance}} {{!Force of Will}} {{!Force of Negation}} {{!Dress Down}} {{!Teferi, Time Raveler}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Hullbreacher}} {{!Ethersworn Canonist}} {{!Surgical Extraction}} {{!Force of Negation}} {{!Meddling Mage}} {{!Torpor Orb}} {{!Back to Basics}}  {{!Flusterstorm}}</row>
+<row variant="hand">{{!Hullbreacher}} {{!Ethersworn Canonist}} {{!Surgical Extraction}} {{!Force of Negation}} {{!Meddling Mage}} {{!Torpor Orb}} {{!Back to Basics}} {{!Flusterstorm}}</row>
 
 ### Gameplay
 
@@ -94,7 +94,7 @@ Beating countermagic is not your only problem, their hatebears and answers to Or
 You can play a much slower game against Bant Miracles. They don't have any early threats and have to respect Daze. In Game 1 one layer of protection is often enough to resolve a Doomday but in post board games it's adviced to play more carefuly.  
 Many sideboarded games are defined by hatebears from their side, because they often don't have enough countermagic to just fight Doomsday on the stack. They have to try to lock us out of the game or rely on the pressure of their creatures.  
 
-#### Post Doomsday 
+#### Post Doomsday
 
 After you resolved Doomsday everything is about beating {{Endurance}}, and against some newer lists {{Dress Down}}. They are their main way to beat {{Thassa's Oracle}}. But there are many ways to play around these answers. In Game 1 you have to rely on countermagic and discard, but in Game 2 and 3 you'll often use a sideboard package, like {{Emrakul, the Aeons Torn}} + {{Shelldock Isle}}. These sideboard packages often come with their own weaknesses, like {{Teferi, Time Raveler}} or {{Back to Basics}}, but are still better than just slamming 1 Oracle into a prepared opponent.
 
@@ -108,11 +108,11 @@ Slam early and build your pile around mana and card draw denial.
 
 #### Maindeck
 
-<row variant="hand"> {{!Kaldra Compleat}} {{!Spirit of the Labyrinth}} {{!Rishadan Port}} {{!Wasteland}} {{!Solitude}}</row>
+<row variant="hand">{{!Kaldra Compleat}} {{!Spirit of the Labyrinth}} {{!Rishadan Port}} {{!Wasteland}} {{!Solitude}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Deafening Silence}} {{!Mindbreak Trap}} {{!Surgical Extraction}}</row>
+<row variant="hand">{{!Deafening Silence}} {{!Mindbreak Trap}} {{!Surgical Extraction}}</row>
 
 ### Gameplay
 
@@ -123,7 +123,7 @@ Longer games are their only reliable way to win. They deny our mana and hinder o
 Game 1 they have no way to interact with your Doomsday on the stack, so you can just slam as early as possible.  
 In post board games play around {{Mindbreak Trap}} when it's reasonable and keep countermagic ready to fight {{Deafening Silence}}.  
 
-#### Post Doomsday 
+#### Post Doomsday
 
 It's very important to keep in mind, that your mana is your biggest weakness and that you can not rely on cyclers as tool to work through your pile.  
 There are many possible piles, but one of the easiest, most tested and pretty {{Surgical Extraction}} proof pile is Fetchland, Fetchland, Thassa's Oracle, Land, Land. It gives you the necessary mana, thins the pile and goes down to 0 cards to play around {{Solitude}}. All without cyclers or cantrips that get stuck in your hand against a {{Spirit of the Labyrinth}}. It's also very customizable. For instance if they already build up some pressure, add a {{Massacre}} or a removal spell for {{Stoneforge Mystic}} to stay safe from {{Kaldra Compleat}}.  
@@ -139,11 +139,11 @@ An early Doomsday gives you enough time to build safe piles.
 
 #### Maindeck
 
-<row variant="hand"> {{!Gaddock Teeg}} {{!Collector Ouphe}} {{!Endurance}} {{!Wasteland}} {{!Solitude}} {{!Dark Depths}}</row>
+<row variant="hand">{{!Gaddock Teeg}} {{!Collector Ouphe}} {{!Endurance}} {{!Wasteland}} {{!Solitude}} {{!Dark Depths}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Deafening Silence}} {{!Mindbreak Trap}} {{!Surgical Extraction}} {{!Choke}} {{!Thoughtseize}}</row>
+<row variant="hand">{{!Deafening Silence}} {{!Mindbreak Trap}} {{!Surgical Extraction}} {{!Choke}} {{!Thoughtseize}}</row>
 
 ### Gameplay
 
@@ -152,7 +152,7 @@ An early Doomsday gives you enough time to build safe piles.
 The matchup against Maverick plays pretty similar to the DnT mactchup, but with a small but important difference, {{Green Sun's Zenith}}. It gives them the opportunity to find their silverbullets very easily. Since there are no real stock Maverick lists at the moment expect every possible sideboard silverbullet also in the maindeck.  
 Some lists play {{Dark Depths}} as an alternative win condition, but it's not super common and the Dark Depths lines are all very telegraphed and easy to spot.  
 
-#### Post Doomsday 
+#### Post Doomsday
 
 Like against most green Decks {{Endurance}} is the only real threat to your easy win.  
 That's why it's super important to build safe piles. As long as you resolved Doomsday early, there is no reason to get fancy.  
@@ -168,11 +168,11 @@ Playing the long game is not a winning line.
 
 #### Maindeck
 
-<row variant="hand"> {{!Ghost Quarter}} {{!Dark Depths}} {{!Crop Rotation}} {{!Wasteland}} {{!Rishadan Port}} {{!Urza's Saga}}</row>
+<row variant="hand">{{!Ghost Quarter}} {{!Dark Depths}} {{!Crop Rotation}} {{!Wasteland}} {{!Rishadan Port}} {{!Urza's Saga}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Pyroblast}} {{!Sphere of Resistance}} {{!Choke}} {{!Endurance}} </row>
+<row variant="hand">{{!Pyroblast}} {{!Sphere of Resistance}} {{!Choke}} {{!Endurance}} </row>
 
 ### Gameplay
 
@@ -181,7 +181,7 @@ Playing the long game is not a winning line.
 Lands has super strong mana denial, even more in Game 2 and 3, and will propably always win the long game, but it can switch gears super fast thanks to {{Dark Depths}}.  
 Based on that analysis a fast Doomsday is the way to go. But when you are mulliganing keep in mind, how strong countermagic is against their post sideboard hate pieces.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 You have 3 main objectives post Doomsday. Have enough mana to cast {{Thassa's Oracle}}. Beat {{Pyroblast}}. Beat {{Endurance}}. Building piles against Lands isn't always easy, and sometimes you have to take some risks, but if you play to your objectives in the priority they are listes above, you should be on a good way to win.  
 You have to learn assess your opponents posibilities, that's not something you'll learn reading this guide. You need to play matches over matches to refine this skill. But i can give you list of usefull tools you propably have in your deck.  
@@ -201,11 +201,11 @@ Just slam, and beat Endurance post Doomsday.
 
 #### Maindeck
 
-<row variant="hand"> {{!Endurance}} {{!Dark Depths}}</row>
+<row variant="hand">{{!Endurance}} {{!Dark Depths}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Mindbreak Trap}}</row>
+<row variant="hand">{{!Mindbreak Trap}}</row>
 
 ### Gameplay
 
@@ -214,7 +214,7 @@ Just slam, and beat Endurance post Doomsday.
 This will be a short one. Just cast Doomsday asap and play around possible {{Mindbreak Traps}} in sideboarded games.  
 Some lists play the {{Dark Depths}} Combo. Like in any Dark Depths deck, their plays to creat a 20/20 are super telegraphed.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 They only have one card to interact with you, {{Endurance}}. You should always have enough time for a pile that beats Endurance and even plays around {{Mindbreak Trap}}.
 
@@ -228,11 +228,11 @@ Cast Doomsday as soons as possible, and play around Endurance.
 
 #### Maindeck
 
-<row variant="hand"> {{!Endurance}} {{!Crop Rotation}} {{!Dark Depths}} {{!Wasteland}} {{!Elvish Reclaimer}}</row>
+<row variant="hand">{{!Endurance}} {{!Crop Rotation}} {{!Dark Depths}} {{!Wasteland}} {{!Elvish Reclaimer}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Deafening Silence}} {{!Choke}} {{!Collector Ouphe}}</row>
+<row variant="hand">{{!Deafening Silence}} {{!Choke}} {{!Collector Ouphe}}</row>
 
 ### Gameplay
 
@@ -241,7 +241,7 @@ Cast Doomsday as soons as possible, and play around Endurance.
 The matchup plays pretty similar to the Maverick matchup, but you have to focus more on speed. GW Depts can set up a pretty early Dark Depths Combo with it's fast mana and strong tutors, but they are not really a fast combo deck. Most hands can't kill you realiably through countermagic in the early turns of the game.  
 They have no counterplay against you in Game 1 besides pressure and a bit of mana dial with Wasteland, so just slam early. In Game 2 and 3 they propably bring in more mana denial like {{Collector Ouphe}} or {{Choke}} and some basic combo hate with {{Deafening Silence}}. Still nothing a fast Doomsday can't beat.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 For your pile, evaluate their pressure and build accordingly, but try to play around {{Endurance}} if possible.
 
@@ -255,11 +255,11 @@ Keep countermagic up and do not pass the turn after Doomsday without protection.
 
 #### Maindeck
 
-<row variant="hand"> {{!Orim's Chant}} {{!Veil of Summer}} {{!Echo of Eons}}</row>
+<row variant="hand">{{!Orim's Chant}} {{!Veil of Summer}} {{!Echo of Eons}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Grapeshot}}</row>
+<row variant="hand">{{!Grapeshot}}</row>
 
 ### Gameplay
 
@@ -268,7 +268,7 @@ Keep countermagic up and do not pass the turn after Doomsday without protection.
 The epic storm or short TES is the slower combo deck in matchup. It plays no real interaction with your combo, only protection for their own. So your Doomsday is always safe.  
 TES is pretty good in playing through countermagic and is able to reset hands with Echo of Eons. Be carefull with your countermagic, try not to waste it. It's good to have a feeling for how far they are away from a kill, to assess the situation.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 Pass the turn piles are very risky against Storm decks, because the lifeloss of {{Doomsday}]} puts them in the very good position of not needing a high storm count. With {{Burning Wish}} for {{Grapeshot}} they can easily amass enough damage even without the 4 Mana for {{Tendrils of Agony}}. Only pass the turn if you know they can not kill you. With {{Burning Wish}} for {{Grapeshot}} 
 Since some lists started to play white, be carefull, they can cast {{Orim's Chant}} to "mill you out". They just cast Orim's Chant when you draw your last card, to prevent you from casting Thassa's Oracle and you'll lose in your next draw step.
@@ -284,11 +284,11 @@ Don't rely on countermagic, resolving an early Doomsday is a goog way to win.
 
 #### Maindeck
 
-<row variant="hand"> {{!Allosaurus Shepherd}} {{!Archon of Valor's Reach}} {{!Crop Rotation}} {{!Glimpse of Nature}} {{!Natural Order}}</row>
+<row variant="hand">{{!Allosaurus Shepherd}} {{!Archon of Valor's Reach}} {{!Crop Rotation}} {{!Glimpse of Nature}} {{!Natural Order}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Collector Ouphe}} {{!Thoughtseize}} {{!Deafening Silence}} {{!Choke}}</row>
+<row variant="hand">{{!Collector Ouphe}} {{!Thoughtseize}} {{!Deafening Silence}} {{!Choke}}</row>
 
 ### Gameplay
 
@@ -297,7 +297,7 @@ Don't rely on countermagic, resolving an early Doomsday is a goog way to win.
 Since {{Allosaurus Shepherd }} removed all interaction in this matchup, it's just racing and countering a {{Thoughtseize}} or {{Deafening Silence}} if necessary. But should you have to possibility to counter something without losing too much speed, it's often adviced to slow them down by denying them important combo cards like {{Elvish Visionary}} or {{Heritage Druid}}.  
 They can set up some super fast kills, either with Allosaurus Shepherd and enough mana or with {{Natural Order}}. So be carefull and try to finish the game as fast as possible.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 Passing the turn piles can be a tad risky, because Elves can be really explosive. Especially Turn 3 or later. Try to build fast piles.  
 In the past some Elves lists played {{Endurance}} or {{Crop Rotation}} for {{Ipnu Rivulet}}, but as long as they stay absent from sideboards, you only have to play around {{Collector Ouphe}}.
@@ -312,11 +312,11 @@ You are a lot faster and you have more protection. Don't play scared, play like 
 
 #### Maindeck
 
-<row variant="hand"> {{!Endurance}} {{!Force of Will}}</row>
+<row variant="hand">{{!Endurance}} {{!Force of Will}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Force of Negation}} {{!Opposition Agent}</row>
+<row variant="hand">{{!Force of Negation}} {{!Opposition Agent}</row>
 
 ### Gameplay
 
@@ -325,7 +325,7 @@ You are a lot faster and you have more protection. Don't play scared, play like 
 Aluren is a pretty slow combo deck. To go off they need atleast 4 Mana, {{Aluren}} and two of their combo creatures or {{Acererak the Archlich}}. This should give you enough time to find Doomsday and set up a safe kill.  
 Resolving Doomsday should not be too hard, Aluren plays 4 Force of Will main and 2 Force of Negation in the sideboard. That's often not enough when they also try to set up their own kill. In game 1 one counterspell is often enought to force your Doomsday through. In game 2 you want enough interaction to beat atleast 2 Force effects from their side and try to keep an eye out for {{Opposition Agent}}.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 Many lists play {{Endurance}}, like most green decks in the current meta, so prepare to play around atleast one copy.  
 If they fought over your Doomsday, they often don't have enough resources to go off, but that is not always the case, especially since {{Acererak the Archlich}} joined the format. Should they still be able to go off and you have enough cyclers in hand to cycle to Thassa's Oracle, be careful with casting it of {{Aluren}}. You have to cast it when their combo creature is on the stack, else they can react and combo off while the Thassa's Oracle trigger is still no the stack.
@@ -340,11 +340,11 @@ Countermagic is essential. Counter their enablers.
 
 #### Maindeck
 
-<row variant="hand"> {{!Grief}} {{!Chancellor of the Annex}} {{!Cabal Therapy}} {{!Thoughtseize}} {{!Unmask}}</row>
+<row variant="hand">{{!Grief}} {{!Chancellor of the Annex}} {{!Cabal Therapy}} {{!Thoughtseize}} {{!Unmask}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Iona, Shield of Emeria}}</row>
+<row variant="hand">{{!Iona, Shield of Emeria}}</row>
 
 ### Gameplay
 
@@ -367,11 +367,11 @@ You are a bit faster, use this to your advantage.
 
 #### Maindeck
 
-<row variant="hand"> {{!Daze}} {{!Force of Will}} {{!Sneak Attack}}</row>
+<row variant="hand">{{!Daze}} {{!Force of Will}} {{!Sneak Attack}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Ragavan, Nimble Pilferer}} {{!Flusterstorm}} {{!Red Elemental Blast}} {{!Blood Moon}}</row>
+<row variant="hand">{{!Ragavan, Nimble Pilferer}} {{!Flusterstorm}} {{!Red Elemental Blast}} {{!Blood Moon}}</row>
 
 ### Gameplay
 
@@ -382,7 +382,7 @@ Both ours and their deck share many similarities, but there are 2 very small but
 In games were you can't combo safe in turn 1 or 2 the game can evolve into a staredown while both players dig for interaction. Discard can be very helpfull in situations like this. But be careful, if you play a list with less cantrips, they will sculpt their hand better than you most of the time.  
 In post board games they have two tricks up their sleeve, {{Blood Moon}} effects and Ragavan. Try to keep that in mind, but it's nothing match up defining.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 After you resolved Doomsday only {{Sneak Attack}} can kill you. {{Show and Tell}} is very risky for them to cast, because it's just an Oracle cost reducer now, and if you should have no Thassa's Oracle in hand it atleast gives you another turn to win the game. A small trick they can use, they can put Sneak Attack into play with Show and Tell.
 
@@ -396,11 +396,11 @@ They are just a bad control deck with a combo finish. Omni-Tell can not beat you
 
 #### Maindeck
 
-<row variant="hand"> {{!Force of Will}} {{!Veil of Summer}} {{!Force of Will}} {{!Cunning Wish}}</row>
+<row variant="hand">{{!Force of Will}} {{!Veil of Summer}} {{!Force of Will}} {{!Cunning Wish}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Surgical Extraction}} {{!Endurance}}{{!Trickbind}}</row>
+<row variant="hand">{{!Surgical Extraction}} {{!Endurance}}{{!Trickbind}}</row>
 
 ### Gameplay
 
@@ -408,7 +408,7 @@ They are just a bad control deck with a combo finish. Omni-Tell can not beat you
 
 Omni-Tell is a lot slower than it's sister Sneak and Show, since it plays only {{Show and Tell}} and no Sneak Attack. It also plays only 4 counterspells most of the time. That's overall very positive for us. Not much protection is needed and we have time to set up, but a lost counter war over Doomsday, can have harsh consequences if they fetch {{Surgical Extraction}} from their Sideboard with {{Cunning Wish}}.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 You can build pretty safe piles that either use their Show and Tell to put Thassa's Oracle into play or just cast it of Cavern of Souls.  
 Some Omni-Tell lists play {{Trickbind}} in their Sideboard. Try to use discard spells to get rid of it if necessary.
@@ -423,7 +423,7 @@ Race them, but keep their opportunity to mill you out in mind.
 
 #### Maindeck
 
-<row variant="hand"> {{!Hedron Crab}} {{!Vengevine}} {{!Cabal Therapy}} {{!Altar of Dementia}} {{!Bloodghast}}</row>
+<row variant="hand">{{!Hedron Crab}} {{!Vengevine}} {{!Cabal Therapy}} {{!Altar of Dementia}} {{!Bloodghast}}</row>
 
 #### Sideboard
 
@@ -436,7 +436,7 @@ There are two iterations of Hogaak, a jund version and BUG one. The BUG versions
 Speed is the only way to beat Hogaak, they are just to explosive to give them time and you don't want to play against Hedron Crab and a uncracked Fetchlands. But you have to be very carefull when you want to cast Doomsday but with no option to win on the same turn. {{Bloodghasts}} will always have haste after you resolved Doomsday, so try to evaluate the damage they can put out after you resolved Doomsday and passed the turn.  
 They don't play any sideboard hate for Doomsday, but countermagic is still very important to keep them in check and protect your combo.
 
-#### Post Doomsday 
+#### Post Doomsday
 
 Because Hogaak plays no cards to interact with you on the stack, outside of Hedron Crab + Fetchland, you can build Brainstorm piles when ever you have the resources to do so. Should you have to pass the turn, make sure you have answers at your disposal.
 
@@ -450,11 +450,11 @@ Just race, don't rely on a turn 3 Doomsday.
 
 #### Maindeck
 
-<row variant="hand"> {{!Anger}} {{!Vengevine}}</row>
+<row variant="hand">{{!Anger}} {{!Vengevine}}</row>
 
 #### Sideboard
 
-<row variant="hand"> {{!Mindbreak Trap}}</row>
+<row variant="hand">{{!Mindbreak Trap}}</row>
 
 ### Gameplay
 
