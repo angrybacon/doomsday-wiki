@@ -24,7 +24,7 @@ To keep verything easy to read, we organized every matchup as follows:
 
 Resolving an early Doomsday is very important, but it's also important to build fast piles.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -87,7 +87,7 @@ what Rgavan steals next.
 
 ### Gameplan
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -120,7 +120,7 @@ your opponents role and adapt to new information.
 Beating countermagic is not your only problem, their hatebears and answers to
 Oracle will be main reason you lose games.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -161,7 +161,7 @@ slamming 1 Oracle into a prepared opponent.
 
 Slam early and build your pile around mana and card draw denial.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -210,7 +210,7 @@ represents 5 damage for 2 Mana out of a Stoneforge Mystic.
 
 An early Doomsday gives you enough time to build safe piles.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -251,7 +251,7 @@ away from petals as your mana sources for {{Thassa's Oracle}}.
 
 Playing the long game is not a winning line.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -304,7 +304,7 @@ to go to beat a fast Marit Lage.
 
 Just slam, and beat Endurance post Doomsday.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -336,7 +336,7 @@ have enough time for a pile that beats Endurance and even plays around
 
 Cast Doomsday as soons as possible, and play around Endurance.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -366,13 +366,13 @@ combo hate with {{Deafening Silence}}. Still nothing a fast Doomsday can't beat.
 For your pile, evaluate their pressure and build accordingly, but try to play
 around {{Endurance}} if possible.
 
-## The epic storm
+## The Epic Storm
 
 ### Gameplan
 
 Keep countermagic up and do not pass the turn after Doomsday without protection.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -416,7 +416,7 @@ There are many ways to play around it. Countermagic is the obvious way, but you 
 
 Don't rely on countermagic, resolving an early Doomsday is a goog way to win.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -451,7 +451,7 @@ In the past some Elves lists played {{Endurance}} or {{Crop Rotation}} for {{Ipn
 
 You are a lot faster and you have more protection. Don't play scared, play like against a bad control deck.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -484,7 +484,7 @@ If they fought over your Doomsday, they often don't have enough resources to go 
 
 Countermagic is essential. Counter their enablers.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -515,7 +515,7 @@ The scariest creatures they can reanimate post Doomsday are {{Iona, Shield of Em
 
 You are a bit faster, use this to your advantage.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -554,7 +554,7 @@ After you resolved Doomsday only {{Sneak Attack}} can kill you. {{Show and Tell}
 
 They are just a bad control deck with a combo finish. Omni-Tell can not beat you post Doomsday.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -583,7 +583,7 @@ Some Omni-Tell lists play {{Trickbind}} in their Sideboard. Try to use discard s
 
 Race them, but keep their opportunity to mill you out in mind.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
@@ -622,7 +622,7 @@ Because Hogaak plays no cards to interact with you on the stack, outside of Hedr
 
 Just race, don't rely on a turn 3 Doomsday.
 
-### Cards to keep in mind
+### Cards to Keep in Mind
 
 #### Maindeck
 
