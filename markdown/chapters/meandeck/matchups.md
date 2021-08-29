@@ -7,7 +7,7 @@ title: Matchup Guides
 With this chapter we want to give you a brief overview over the most relevant
 matchups in the current meta. We try to keep everything short and easy to read.
 
-To keep verything easy to read, we organized every matchup as follows:
+To keep everything easy to read, we organized every matchup as follows:
 
 1. **Opposing deck name**
 1. **Gameplan**: a short 1 or 2 sentences summary of the matchup
@@ -414,7 +414,7 @@ There are many ways to play around it. Countermagic is the obvious way, but you 
 
 ### Gameplan
 
-Don't rely on countermagic, resolving an early Doomsday is a goog way to win.
+Don't rely on countermagic, resolving an early Doomsday is a good way to win.
 
 ### Cards to Keep in Mind
 
@@ -498,9 +498,9 @@ Countermagic is essential. Counter their enablers.
 
 #### Pre Doomsday
 
-Do NOT keep hands without countermagic. You'll need it to protect your own combo
-and fighting off theirs. With all their discard effects one free counter is
-often not enough. The only reason to keep hands without protection are turn 1
+Do **not** keep hands without countermagic. You'll need it to protect your own
+combo and fighting off theirs. With all their discard effects one free counter
+is often not enough. The only reason to keep hands without protection are turn 1
 kills.
 
 When fighting their combo, try always to counter the {{Entomb}} effects, without a good target their reanimation spells are useless. And as a little sidenote, most lists play only 8 ways to creatures into the graveyard, but 12 reanimation spells.
