@@ -19,7 +19,8 @@ export const Card: FunctionComponent<Props> = ({ className, query }) => {
 
   const onSearch = async (name: string, set?: string) => {
     try {
-      const { data } = await scry(name, set);
+      const response = await scry(name, set);
+      const data = response.data?.data?.[0] || response.data;
       setCard({
         image: data.image_uris.png,
         name: data.name,
