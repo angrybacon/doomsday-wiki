@@ -1,5 +1,6 @@
 import { createTheme } from '@material-ui/core/styles';
 import type { Theme } from '@material-ui/core/styles';
+import type { CSSProperties } from '@material-ui/core/styles/withStyles';
 import primary from '@material-ui/core/colors/deepPurple';
 import secondary from '@material-ui/core/colors/pink';
 
@@ -13,14 +14,31 @@ declare module '@material-ui/core/styles' {
   }
 }
 
+declare module '@material-ui/core/styles/createMixins' {
+  interface Mixins {
+    barf: () => CSSProperties;
+  }
+}
+
 const base: Theme = createTheme();
+
+const gutters = () => ({
+  paddingLeft: base.spacing(3),
+  paddingRight: base.spacing(3),
+});
+
+const barf = () => ({
+  marginLeft: -base.spacing(3),
+  marginRight: -base.spacing(3),
+});
 
 export const theme: Theme = createTheme({
   drawer: { width: 320 },
+  mixins: { barf, gutters },
   overrides: {
     MuiCardContent: {
       root: {
-        padding: base.spacing(3),
+        ...gutters(),
       },
     },
     MuiLink: {
