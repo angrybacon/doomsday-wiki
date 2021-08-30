@@ -69,6 +69,7 @@ Videos from non-regular streamers or Doomsday content creators.
 Assume English unless specified otherwise.
 
 ### 2021
+
 - [Guma runs a league with UB Meandeck (August 2021) - Portugese/Português](https://www.youtube.com/watch?v=Wn26fq9mAWg)
 - [MinT runs a league with Grixis Meandeck (August 2021)](https://www.youtube.com/watch?v=yKWIi_DcWkc)
 - [BoshNRoll runs a league with Esper Meandeck ft. Stoneforge Mystic (August 2021)](https://www.youtube.com/watch?v=mZJMKwtWUbo) (contains ads)
