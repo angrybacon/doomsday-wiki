@@ -97,6 +97,9 @@ Assume English unless specified otherwise.
 - [Julian is coached through a league with Nevilshute (August 2020)](https://www.youtube.com/watch?v=JDEXkRw679w)
 - [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese/Português](https://www.youtube.com/watch?v=eMgfFlx0_10)
 - [Jarvis Yu ft. Ari Lax do a League with 4C Meandeck (July 2020)](https://www.youtube.com/watch?v=mn4GYFoVrRA)
+
+### Older
+
 - [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (August 2017)](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
 
 ## Highlight Reel
