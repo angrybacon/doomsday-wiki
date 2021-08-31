@@ -5,7 +5,7 @@ title: Other Doomsday Resources
 ## Streams and Content Creators
 
 You can often find people streaming in the Discord server. Alternatively check
-out these channels/content creators for Doomsday streams/videos:
+out these content creators for Doomsday:
 
 - Lee *d8dk32* Curtis:
   [Twitch](https://www.twitch.tv/ddftguy)
