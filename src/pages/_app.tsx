@@ -5,11 +5,13 @@ import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@material-ui/core/styles';
 import { theme } from '@/theme/theme';
+import { getDecklists } from '@/tools/decklists/getDecklists';
 import { getMenu } from '@/tools/markdown/getMenu';
 import type { ExtraPageProps } from '@/interfaces/page.model';
 
 const Application = ({
   Component,
+  decklists,
   menu,
   pageProps,
 }: AppProps & ExtraPageProps): JSX.Element => {
@@ -30,7 +32,7 @@ const Application = ({
       <ThemeProvider theme={theme}>
         <CssBaseline />
         {/* TODO Provide menu through a shared context */}
-        <Component {...pageProps} menu={menu} />
+        <Component {...pageProps} decklists={decklists} menu={menu} />
       </ThemeProvider>
     </>
   );
@@ -38,7 +40,7 @@ const Application = ({
 
 Application.getInitialProps = async (context: AppContext) => {
   const props = await NextApplication.getInitialProps(context);
-  return { ...props, menu: getMenu() };
+  return { ...props, decklists: getDecklists(), menu: getMenu() };
 };
 
 export default Application;

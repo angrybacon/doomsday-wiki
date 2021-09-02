@@ -18,7 +18,7 @@ export const useStyles = makeStyles((theme: Theme) =>
 
     pile: {
       ...theme.mixins.barf(),
-      backgroundColor: alpha(theme.palette.primary.main, 0.2),
+      backgroundColor: alpha(theme.palette.primary.main, 0.1),
       borderColor: theme.palette.divider,
       borderLeftWidth: 0,
       borderRightWidth: 0,
