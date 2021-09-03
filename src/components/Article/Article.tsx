@@ -1,6 +1,6 @@
 import c from 'classnames';
 import { GrayMatterFile } from 'gray-matter';
-import Link from 'next/link';
+import NextLink from 'next/link';
 import React, { CSSProperties, FunctionComponent } from 'react';
 import Box from '@material-ui/core/Box';
 import Card from '@material-ui/core/Card';
@@ -30,7 +30,7 @@ export const Article: FunctionComponent<Props> = ({ matter = {}, route }) => {
       className={c(classes.root, { [classes.rootWithBanner]: banner })}
       style={getBackgroundStyle(banner)}
     >
-      <Link href={route} passHref>
+      <NextLink href={route} passHref>
         <CardActionArea>
           <CardContent className={classes.content}>
             <Typography variant="h6">{title || route}</Typography>
@@ -58,7 +58,7 @@ export const Article: FunctionComponent<Props> = ({ matter = {}, route }) => {
             )}
           </CardContent>
         </CardActionArea>
-      </Link>
+      </NextLink>
     </Card>
   );
 };
