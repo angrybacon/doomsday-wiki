@@ -13,7 +13,7 @@ import {
 } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Entry } from '@/components/Sidebar/Entry';
-import { ThemeContext } from '@/theme/ThemeProvider';
+import { ThemeContext } from '@/theme/ThemeContext';
 import type { Menu } from '@/tools/markdown/types';
 import { useStyles } from './Sidebar.styles';
 

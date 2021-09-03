@@ -15,7 +15,7 @@ interface ThemeState {
 }
 
 const initialThemeState: ThemeState = {
-  isDark: false,
+  isDark: true,
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   toggle: () => {},
 };
