@@ -5,6 +5,7 @@ export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     header: {
       ...theme.mixins.toolbar,
+      justifyContent: 'space-between',
       paddingLeft: theme.spacing(1),
       paddingRight: theme.spacing(1),
       [theme.breakpoints.up('sm')]: {

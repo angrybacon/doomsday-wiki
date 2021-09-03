@@ -1,7 +1,7 @@
 import React, { Children } from 'react';
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
-import { theme } from '@/theme/theme';
+import { darkTheme as theme } from '@/theme/theme';
 
 export default class Document extends NextDocument {
   static async getInitialProps(context) {

@@ -1,5 +1,4 @@
-import { createTheme } from '@material-ui/core/styles';
-import type { Theme } from '@material-ui/core/styles';
+import { Theme, ThemeOptions, createTheme } from '@material-ui/core/styles';
 import type { CSSProperties } from '@material-ui/core/styles/withStyles';
 import primary from '@material-ui/core/colors/deepPurple';
 import secondary from '@material-ui/core/colors/pink';
@@ -32,7 +31,7 @@ const barf = () => ({
   marginRight: -base.spacing(3),
 });
 
-export const theme: Theme = createTheme({
+const options: ThemeOptions = {
   drawer: { width: 320 },
   mixins: { barf, gutters },
   overrides: {
@@ -57,6 +56,7 @@ export const theme: Theme = createTheme({
   palette: {
     primary,
     secondary,
+    type: 'dark',
   },
   typography: {
     fontSize: 16,
@@ -67,4 +67,14 @@ export const theme: Theme = createTheme({
     h5: { fontSize: base.typography.pxToRem(24) },
     h6: { fontSize: base.typography.pxToRem(20) },
   },
+};
+
+export const darkTheme: Theme = createTheme({
+  ...options,
+  palette: { ...options.palette, type: 'dark' },
+});
+
+export const lightTheme: Theme = createTheme({
+  ...options,
+  palette: { ...options.palette, type: 'light' },
 });
