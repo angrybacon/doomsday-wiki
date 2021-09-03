@@ -36,28 +36,20 @@ const options: ThemeOptions = {
   mixins: { barf, gutters },
   overrides: {
     MuiCardContent: {
-      root: {
-        padding: base.spacing(3),
-        ...gutters(),
-      },
+      root: { padding: base.spacing(3), ...gutters() },
     },
     MuiLink: {
-      root: {
-        color: base.palette.secondary.light,
-      },
+      root: { color: base.palette.secondary.light },
     },
     MuiTypography: {
       gutterBottom: {
         '&:not(:first-child)': { marginTop: '.6em' },
         '&:not(:last-child)': { marginBottom: '.6em' },
       },
+      h1: { marginBottom: '.8em' },
     },
   },
-  palette: {
-    primary,
-    secondary,
-    type: 'dark',
-  },
+  palette: { primary, secondary, type: 'dark' },
   typography: {
     fontSize: 16,
     h1: { fontSize: base.typography.pxToRem(64) },

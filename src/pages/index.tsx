@@ -27,7 +27,7 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
     menu={menu}
     title="Welcome"
   >
-    <Grid item sm={6} md={7}>
+    <Grid item sm={7}>
       <Card>
         <CardContent component={Remark} markdown={welcome} />
       </Card>
