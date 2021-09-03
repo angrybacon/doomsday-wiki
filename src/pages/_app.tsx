@@ -3,7 +3,7 @@ import type { AppContext, AppProps } from 'next/app';
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { ThemeProvider } from '@/theme/ThemeProvider';
+import { ThemeProvider } from '@/theme/ThemeContext';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { getMenu } from '@/tools/markdown/getMenu';
 import type { ExtraPageProps } from '@/interfaces/page.model';
