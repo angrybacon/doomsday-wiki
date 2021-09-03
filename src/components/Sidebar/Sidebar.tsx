@@ -1,12 +1,19 @@
 import Link from 'next/link';
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, useContext } from 'react';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
+import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
-import { mdiNewspaperVariantMultiple } from '@mdi/js';
+import {
+  mdiNewspaperVariantMultiple,
+  mdiWeatherNight,
+  mdiWeatherSunny,
+} from '@mdi/js';
+import { Icon } from '@mdi/react';
 import { Entry } from '@/components/Sidebar/Entry';
+import { ThemeContext } from '@/theme/ThemeProvider';
 import type { Menu } from '@/tools/markdown/types';
 import { useStyles } from './Sidebar.styles';
 
@@ -28,6 +35,7 @@ export const Sidebar: FunctionComponent<Props> = ({
   onClose,
 }) => {
   const classes = useStyles();
+  const { isDark, toggle } = useContext(ThemeContext);
 
   const drawer = (
     <>
@@ -42,6 +50,9 @@ export const Sidebar: FunctionComponent<Props> = ({
             ddft.wiki
           </Button>
         </Link>
+        <IconButton onClick={toggle}>
+          <Icon path={isDark ? mdiWeatherSunny : mdiWeatherNight} size={1} />
+        </IconButton>
       </Box>
       <Divider />
       <List component="nav" dense>

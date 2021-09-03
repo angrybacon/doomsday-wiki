@@ -3,8 +3,7 @@ import type { AppContext, AppProps } from 'next/app';
 import Head from 'next/head';
 import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { ThemeProvider } from '@material-ui/core/styles';
-import { theme } from '@/theme/theme';
+import { ThemeProvider } from '@/theme/ThemeProvider';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { getMenu } from '@/tools/markdown/getMenu';
 import type { ExtraPageProps } from '@/interfaces/page.model';
@@ -29,7 +28,7 @@ const Application = ({
           name="viewport"
         />
       </Head>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider>
         <CssBaseline />
         {/* TODO Provide menu through a shared context */}
         <Component {...pageProps} decklists={decklists} menu={menu} />
