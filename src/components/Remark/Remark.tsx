@@ -69,9 +69,7 @@ export const Remark: FunctionComponent<Props> = ({
     <div className={c(classes.root, className)}>
       {data?.title && (
         <Box textAlign="center">
-          <Typography gutterBottom variant="h1">
-            {data.title}
-          </Typography>
+          <Typography variant="h1">{data.title}</Typography>
         </Box>
       )}
       <ReactMarkdown
