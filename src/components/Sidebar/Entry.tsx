@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NextLink from 'next/link';
 import React, {
   ElementType,
   FunctionComponent,
@@ -66,11 +66,11 @@ export const Entry: FunctionComponent<Props> = forwardRef<
           <Divider />
           <List className={classes.pages} component="div" dense>
             {pages?.map(({ data, route }) => (
-              <Link href={route} key={`page-${route}`} passHref>
+              <NextLink href={route} key={`page-${route}`} passHref>
                 <ListItem button component="a">
                   <ListItemText primary={data?.title || route} />
                 </ListItem>
-              </Link>
+              </NextLink>
             ))}
           </List>
           <Divider />

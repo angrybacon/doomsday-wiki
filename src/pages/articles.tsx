@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NextLink from 'next/link';
 import { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
@@ -36,7 +36,7 @@ const ArticlesPage: NextPage<Props & ExtraPageProps> = ({ articles, menu }) => {
       <Card>
         <List dense disablePadding>
           {articles.map(({ data, route }, index) => (
-            <Link href={route} key={route} passHref>
+            <NextLink href={route} key={route} passHref>
               <ListItem
                 button
                 component="a"
@@ -59,7 +59,7 @@ const ArticlesPage: NextPage<Props & ExtraPageProps> = ({ articles, menu }) => {
                   secondaryTypographyProps={{ variant: 'caption' }}
                 />
               </ListItem>
-            </Link>
+            </NextLink>
           ))}
         </List>
       </Card>

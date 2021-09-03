@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import NextLink from 'next/link';
 import React, { FunctionComponent, useContext } from 'react';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
@@ -40,7 +40,7 @@ export const Sidebar: FunctionComponent<Props> = ({
   const drawer = (
     <>
       <Box alignItems="center" display="flex" className={classes.header}>
-        <Link href="/" passHref>
+        <NextLink href="/" passHref>
           <Button
             color="primary"
             disableElevation
@@ -49,7 +49,7 @@ export const Sidebar: FunctionComponent<Props> = ({
           >
             ddft.wiki
           </Button>
-        </Link>
+        </NextLink>
         <IconButton onClick={toggle}>
           <Icon path={isDark ? mdiWeatherSunny : mdiWeatherNight} size={1} />
         </IconButton>
@@ -59,14 +59,14 @@ export const Sidebar: FunctionComponent<Props> = ({
         {menu.map((entry) => (
           <Entry key={`entry-${entry.title}`} {...entry} />
         ))}
-        <Link href="/articles" passHref>
+        <NextLink href="/articles" passHref>
           <Entry
             component="a"
             icon={mdiNewspaperVariantMultiple}
             subtitle="Article Archive"
             title="Articles"
           />
-        </Link>
+        </NextLink>
       </List>
       <Divider />
     </>
