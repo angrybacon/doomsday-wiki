@@ -35,11 +35,10 @@ export const Decklist: FunctionComponent<Props> = ({
           expandIcon={<Icon path={mdiChevronDown} size={1} />}
         >
           <div>{title || path}</div>
-          {title && (
-            <Box mt={1}>
-              <Typography variant="caption">{path}</Typography>
-              <Typography variant="caption">{author}</Typography>
-            </Box>
+          {author && (
+            <Typography color="textSecondary" variant="caption">
+              {author}
+            </Typography>
           )}
         </AccordionSummary>
         <AccordionDetails className={c(classes.details, classes.gutters)}>

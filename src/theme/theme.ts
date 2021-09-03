@@ -38,6 +38,7 @@ export const theme: Theme = createTheme({
   overrides: {
     MuiCardContent: {
       root: {
+        padding: base.spacing(3),
         ...gutters(),
       },
     },

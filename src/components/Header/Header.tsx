@@ -4,7 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import IconButton from '@material-ui/core/IconButton';
 import Slide from '@material-ui/core/Slide';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
@@ -37,7 +36,6 @@ export const Header: FunctionComponent<Props> = ({
                 <Icon path={mdiMenu} size={1} />
               </IconButton>
             )}
-            <Typography>This is the header</Typography>
           </Toolbar>
         </AppBar>
       </Slide>

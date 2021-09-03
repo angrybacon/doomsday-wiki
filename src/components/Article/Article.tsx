@@ -27,12 +27,12 @@ export const Article: FunctionComponent<Props> = ({ matter = {}, route }) => {
 
   return (
     <Card
-      className={c(classes.card, { [classes.cardWithBanner]: banner })}
+      className={c(classes.root, { [classes.rootWithBanner]: banner })}
       style={getBackgroundStyle(banner)}
     >
       <Link href={route} passHref>
         <CardActionArea>
-          <CardContent>
+          <CardContent className={classes.content}>
             <Typography variant="h6">{title || route}</Typography>
             {!!authors && (
               <Box
@@ -41,7 +41,7 @@ export const Article: FunctionComponent<Props> = ({ matter = {}, route }) => {
                 display="flex"
                 fontSize="caption.fontSize"
               >
-                <Icon path={mdiAccount} size={1} />
+                <Icon path={mdiAccount} size={0.7} />
                 <span>{authors}</span>
               </Box>
             )}
@@ -52,7 +52,7 @@ export const Article: FunctionComponent<Props> = ({ matter = {}, route }) => {
                 display="flex"
                 fontSize="caption.fontSize"
               >
-                <Icon path={mdiCalendar} size={1} />
+                <Icon path={mdiCalendar} size={0.7} />
                 <span>{date}</span>
               </Box>
             )}

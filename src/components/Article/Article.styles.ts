@@ -6,10 +6,13 @@ const BANNER_OFFSET = 80;
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
-    card: {
+    content: {
+      padding: theme.spacing(2),
+    },
+    root: {
       position: 'relative',
     },
-    cardWithBanner: {
+    rootWithBanner: {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
