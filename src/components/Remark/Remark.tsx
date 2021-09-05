@@ -3,7 +3,6 @@ import React, { FunctionComponent } from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
 import type { PluggableList } from 'react-markdown/lib/react-markdown';
 import remarkDirective from 'remark-directive';
-import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import { remarkCard } from '@/components/Remark/plugins/remarkCard';
 import { remarkDecklist } from '@/components/Remark/plugins/remarkDecklist';
@@ -68,9 +67,9 @@ export const Remark: FunctionComponent<Props> = ({
   return (
     <div className={c(classes.root, className)}>
       {data?.title && (
-        <Box textAlign="center">
-          <Typography variant="h1">{data.title}</Typography>
-        </Box>
+        <Typography align="center" variant="h1">
+          {data.title}
+        </Typography>
       )}
       <ReactMarkdown
         components={components}

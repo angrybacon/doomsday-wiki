@@ -47,6 +47,7 @@ const options: ThemeOptions = {
         '&:not(:last-child)': { marginBottom: '.6em' },
       },
       h1: { marginBottom: '.8em' },
+      paragraph: { '&:last-child': { marginBottom: 0 } },
     },
   },
   palette: { primary, secondary, type: 'dark' },

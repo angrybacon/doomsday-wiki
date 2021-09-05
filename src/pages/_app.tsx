@@ -30,7 +30,7 @@ const Application = ({
       </Head>
       <ThemeProvider>
         <CssBaseline />
-        {/* TODO Provide menu through a shared context */}
+        {/* TODO Provide decklists and menu through a shared context */}
         <Component {...pageProps} decklists={decklists} menu={menu} />
       </ThemeProvider>
     </>
