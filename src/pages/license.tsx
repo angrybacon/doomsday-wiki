@@ -64,4 +64,6 @@ const LicensePage: NextPage<ExtraPageProps> = ({ menu }) => (
   </Layout>
 );
 
+export const getStaticProps: GetStaticProps = async () => ({ props: {} });
+
 export default LicensePage;
