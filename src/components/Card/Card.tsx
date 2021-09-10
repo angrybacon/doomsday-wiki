@@ -8,7 +8,7 @@ interface CardModel {
   name?: string;
 }
 
-interface Props {
+export interface Props {
   className?: string;
   query: string;
 }
