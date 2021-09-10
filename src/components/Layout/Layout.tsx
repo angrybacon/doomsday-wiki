@@ -1,4 +1,5 @@
 import c from 'classnames';
+import { useRouter } from 'next/router';
 import type {
   ElementType,
   FunctionComponent,
@@ -44,6 +45,7 @@ export const Layout: FunctionComponent<Props> = ({
   wrapper: Wrapper = Fragment,
   wrapperProps,
 }) => {
+  const router = useRouter();
   const classes = useStyles();
   const theme = useTheme();
   // NOTE Prefer `up` over `down` to avoid flickering
@@ -57,6 +59,11 @@ export const Layout: FunctionComponent<Props> = ({
   const openSidebar = useCallback(() => {
     setIsSidebarOpen(true);
   }, []);
+
+  useEffect(() => {
+    router.events.on('routeChangeStart', closeSidebar);
+    return () => router.events.off('routeChangeStart', closeSidebar);
+  }, [closeSidebar, router]);
 
   return (
     <>
