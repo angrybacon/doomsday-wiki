@@ -1,12 +1,11 @@
 import c from 'classnames';
-import React, {
+import type {
   ElementType,
   FunctionComponent,
-  Fragment,
   HTMLAttributes,
   ReactChild,
-  useState,
 } from 'react';
+import React, { Fragment, useCallback, useEffect, useState } from 'react';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 import type { GridTypeMap } from '@material-ui/core/Grid';
@@ -19,8 +18,6 @@ import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
 import type { Menu } from '@/tools/markdown/types';
 import { useStyles } from './Layout.styles';
-
-type OnSidebarToggle = (value: boolean) => () => void;
 
 type Props = {
   maxWidth?: Breakpoint;
@@ -49,24 +46,29 @@ export const Layout: FunctionComponent<Props> = ({
 }) => {
   const classes = useStyles();
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  // NOTE Prefer `up` over `down` to avoid flickering
+  const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const onSidebarToggle: OnSidebarToggle = (value) => () => {
-    setIsSidebarOpen(value);
-  };
+  const closeSidebar = useCallback(() => {
+    setIsSidebarOpen(false);
+  }, []);
+
+  const openSidebar = useCallback(() => {
+    setIsSidebarOpen(true);
+  }, []);
 
   return (
     <>
       {title && <Title title={title} />}
-      <Header isMobile={isMobile} onSidebarOpen={onSidebarToggle(true)} />
+      <Header isMobile={!isDesktop} onSidebarOpen={openSidebar} />
       <Sidebar
         menu={menu}
-        isMobile={isMobile}
+        isMobile={!isDesktop}
         isOpen={isSidebarOpen}
-        onClose={onSidebarToggle(false)}
+        onClose={closeSidebar}
       />
-      <div className={c(classes.container, { mobile: isMobile })}>
+      <div className={c(classes.container, { mobile: !isDesktop })}>
         <Container component={Box} maxWidth={maxWidth} py={3}>
           <Wrapper {...wrapperProps}>{children}</Wrapper>
         </Container>
