@@ -11,7 +11,7 @@ import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
 import { useStyles } from './Article.styles';
 
-interface Props {
+export interface Props {
   matter?: GrayMatterFile<string>['data'];
   route: string;
 }

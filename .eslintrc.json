@@ -48,6 +48,10 @@
       "ignorePackages",
       { "ts": "never", "tsx": "never" }
     ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": ["jest.*.*", "**/*.test.*"] }
+    ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
     "no-console": ["warn", { "allow": ["error"] }],
