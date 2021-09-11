@@ -37,6 +37,11 @@ export const Sidebar: FunctionComponent<Props> = ({
   const classes = useStyles();
   const { isDark, toggle } = useContext(ThemeContext);
 
+  const onThemeToggle = () => {
+    toggle();
+    onClose();
+  };
+
   const drawer = (
     <>
       <Box alignItems="center" display="flex" className={classes.header}>
@@ -50,7 +55,7 @@ export const Sidebar: FunctionComponent<Props> = ({
             ddft.wiki
           </Button>
         </NextLink>
-        <IconButton onClick={toggle}>
+        <IconButton onClick={onThemeToggle}>
           <Icon path={isDark ? mdiWeatherSunny : mdiWeatherNight} size={1} />
         </IconButton>
       </Box>
