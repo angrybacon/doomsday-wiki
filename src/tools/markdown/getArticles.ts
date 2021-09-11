@@ -1,5 +1,6 @@
 import { join } from 'path';
 import { readMarkdown } from '@/tools/io/readMarkdown';
+import { formatDate } from '@/tools/io/formatDate';
 import { walk } from '@/tools/io/walk';
 import {
   BASE_ARTICLE_URL,
@@ -31,7 +32,7 @@ export const getArticles: GetArticles = (options) => {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
       let { data } = readMarkdown(path);
       const [year, month, day] = crumbs;
-      data = { ...data, date: `${year}-${month}-${day}` };
+      data = { ...data, date: formatDate(year, month, day) };
       const route = ['/articles', ...crumbs].join('/');
       return [...accumulator, { crumbs, data, route }];
     }

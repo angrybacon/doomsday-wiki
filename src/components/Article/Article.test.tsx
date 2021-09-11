@@ -36,4 +36,13 @@ describe(Article.name, () => {
     // Then
     expect(screen.getByText(props.matter.authors)).toBeInTheDocument();
   });
+
+  it('should render the date if provided', () => {
+    // Given
+    props.matter = { date: 'January 1, 1970' };
+    // When
+    render(<Article {...props} />);
+    // Then
+    expect(screen.getByText(props.matter.date)).toBeInTheDocument();
+  });
 });
