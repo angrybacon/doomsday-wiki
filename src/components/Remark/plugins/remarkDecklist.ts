@@ -16,7 +16,7 @@ export const remarkDecklist: (decklists: Decklists) => Pluggable =
           hName: directive.name,
           hProperties: {
             ...directive.attributes,
-            decklist: decklists[path],
+            ...decklists[path],
           },
         };
       }

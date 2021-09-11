@@ -7,4 +7,9 @@ export interface Decklist {
   title?: string;
 }
 
-export type Decklists = Record<string, Decklist>;
+export interface DecklistExtra {
+  date: null | string;
+  titleAsFile: string;
+}
+
+export type Decklists = Record<string, Decklist & DecklistExtra>;

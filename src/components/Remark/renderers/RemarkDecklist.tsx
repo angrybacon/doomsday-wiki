@@ -1,26 +1,28 @@
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Decklist } from '@/components/Decklist/Decklist';
-import type { Decklist as DecklistModel } from '@/tools/decklists/types';
+import type {
+  Decklist as DecklistModel,
+  DecklistExtra,
+} from '@/tools/decklists/types';
 
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
-    properties: { decklist: DecklistModel };
+    properties: DecklistModel & DecklistExtra;
   };
   path?: string;
 }
 
 export const RemarkDecklist: FunctionComponent<Props> = ({ node, path }) => {
   if (!path) return null;
-  const { decklist } = node.properties;
-  const { author, main, side, title } = decklist;
+  const { author, date, main, side, title, titleAsFile } = node.properties;
   return (
     <Decklist
       author={author}
+      date={date || undefined}
       main={main}
-      path={path}
       side={side?.[0]}
-      title={title}
+      title={title || titleAsFile}
     />
   );
 };

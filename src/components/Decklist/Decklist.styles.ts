@@ -33,6 +33,16 @@ export const useStyles = makeStyles((theme: Theme) =>
         marginTop: -theme.spacing(2),
       },
     },
+    subtitle: {
+      alignItems: 'center',
+      display: 'flex',
+      '& > :not(:first-child)': {
+        marginLeft: theme.spacing(1),
+      },
+      '& > * > :not(:first-child)': {
+        marginLeft: theme.spacing(0.5),
+      },
+    },
     summary: {
       display: 'block',
     },
