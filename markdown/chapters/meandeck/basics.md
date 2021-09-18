@@ -179,6 +179,17 @@ free cyclers Street Wraith and/or Edge of Autumn. There are also some
 interesting tricks we can utilise where the card {{Brainstorm}} is one of the
 cantrips within our hand however we will cover those in another chapter.
 
+Another option is the use of Deep Analysis if you have it, or an LED in hand.
+Consider the following piles:
+
+> Deep Analysis + Cycler
+
+<row variant="pile">{{!LED}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
+
+> Lion's Eye Diamond + Cycler
+
+<row variant="pile">{{!Deep Analysis}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
+
 ## Passing the Turn
 
 As previously mentioned, a *pass the turn pile* or *PTT pile* is simply one
