@@ -2,6 +2,7 @@ import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Card } from '@/components/Card/Card';
+import type { ScryData } from '@/tools/scryfall/types';
 import { useStyles } from './RemarkRow.styles';
 
 enum Variant {
@@ -12,7 +13,7 @@ enum Variant {
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: {
-      cards: { id?: string; query: string }[];
+      cards: { data: ScryData; id?: string; query: string }[];
       variant?: Variant;
     };
   };
@@ -26,9 +27,9 @@ export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
     : Variant.CENTERED;
   return (
     <div className={c(classes.root, classes[variantClass])}>
-      {cards.map(({ id, query }) => (
+      {cards.map(({ data, id, query }) => (
         <div className={classes.card} key={id}>
-          <Card query={query} />
+          <Card data={data} query={query} />
         </div>
       ))}
     </div>

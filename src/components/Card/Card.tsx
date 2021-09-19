@@ -1,45 +1,25 @@
 import c from 'classnames';
-import React, { FunctionComponent, useEffect, useState } from 'react';
-import { scry } from '@/tools/scryfall/scry';
+import React, { FunctionComponent } from 'react';
+import type { ScryData } from '@/tools/scryfall/types';
 import { useStyles } from './Card.styles';
-
-interface CardModel {
-  image?: string;
-  name?: string;
-}
 
 export interface Props {
   className?: string;
+  data: ScryData;
   query: string;
 }
 
-export const Card: FunctionComponent<Props> = ({ className, query }) => {
-  const [card, setCard] = useState<CardModel>({});
+export const Card: FunctionComponent<Props> = ({ className, data, query }) => {
   const classes = useStyles();
-
-  const onSearch = async (name: string, set?: string) => {
-    try {
-      const response = await scry(name, set);
-      const data = response.data?.data?.[0] || response.data;
-      setCard({
-        image: data.image_uris.png,
-        name: data.name,
-      });
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  useEffect(() => {
-    const [name, set] = query.split('|').map((it) => it.trim());
-    onSearch(name, set);
-  }, [query]);
-
+  const { image_uris: images, name } = data;
+  const image = images?.png;
   return (
-    <img
-      alt={card.name}
-      className={c(classes.root, className)}
-      src={card.image}
-    />
+    image && (
+      <img
+        alt={name || query}
+        className={c(classes.root, className)}
+        src={image}
+      />
+    )
   );
 };

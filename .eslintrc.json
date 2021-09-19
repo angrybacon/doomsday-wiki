@@ -43,6 +43,7 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-use-before-define": "error",
+    "camelcase": ["warn", { "ignoreDestructuring": true }],
     "import/extensions": [
       "error",
       "ignorePackages",

@@ -15,7 +15,7 @@ interface Props {
 }
 
 const ChapterPage: NextPage<Props & ExtraPageProps> = ({ markdown, menu }) => (
-  <Layout maxWidth="md" menu={menu} title={markdown?.data?.title}>
+  <Layout maxWidth="md" menu={menu} title={markdown?.matter?.title}>
     <Card>
       <CardContent component={Remark} markdown={markdown} />
     </Card>
@@ -40,7 +40,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,
 }) => ({
   props: {
-    markdown: getMarkdown(
+    markdown: await getMarkdown(
       'chapters',
       params?.category ?? '',
       params?.chapter ?? ''
