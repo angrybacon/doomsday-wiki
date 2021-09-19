@@ -21,7 +21,7 @@ const LicensePage: NextPage<Props & ExtraPageProps> = ({ markdown, menu }) => (
 );
 
 export const getStaticProps: GetStaticProps = async () => ({
-  props: { markdown: getMarkdown('partials/license') },
+  props: { markdown: await getMarkdown('partials/license') },
 });
 
 export default LicensePage;

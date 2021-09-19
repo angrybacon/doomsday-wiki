@@ -58,17 +58,17 @@ export const Remark: FunctionComponent<Props> = ({
   markdown,
 }) => {
   const classes = useStyles();
-  const { content, data } = markdown;
+  const { matter, scries, text } = markdown;
   const plugins: PluggableList = [
     ...(decklists ? [remarkDecklist(decklists)] : []),
     remarkCard,
-    remarkRow,
+    remarkRow({ scries }),
   ];
   return (
     <div className={c(classes.root, className)}>
-      {data?.title && (
+      {matter?.title && (
         <Typography align="center" variant="h1">
-          {data.title}
+          {matter.title}
         </Typography>
       )}
       <ReactMarkdown
@@ -76,7 +76,7 @@ export const Remark: FunctionComponent<Props> = ({
         remarkPlugins={[remarkDirective, ...plugins]}
         skipHtml
       >
-        {content}
+        {text}
       </ReactMarkdown>
     </div>
   );

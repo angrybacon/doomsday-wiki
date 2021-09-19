@@ -19,7 +19,7 @@ const ArticlePage: NextPage<Props & ExtraPageProps> = ({
   markdown,
   menu,
 }) => (
-  <Layout maxWidth="md" menu={menu} title={markdown?.data?.title}>
+  <Layout maxWidth="md" menu={menu} title={markdown.matter?.title}>
     <Card>
       <CardContent
         component={Remark}
@@ -50,7 +50,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,
 }) => ({
   props: {
-    markdown: getMarkdown(
+    markdown: await getMarkdown(
       'articles',
       params?.year ?? '',
       params?.month ?? '',

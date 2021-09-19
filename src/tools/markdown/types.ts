@@ -1,4 +1,5 @@
 import { GrayMatterFile } from 'gray-matter';
+import type { ScryData } from '@/tools/scryfall/types';
 
 export type Category = 'appendices' | 'ddeft' | 'meandeck' | 'ddft';
 
@@ -17,6 +18,7 @@ export interface Document {
 export type Menu = (CategoryMeta & { pages: Document[] })[];
 
 export interface Markdown {
-  content: string;
-  data?: GrayMatterFile<string>['data'];
+  matter?: GrayMatterFile<string>['data'];
+  scries: Record<string, ScryData>;
+  text: string;
 }

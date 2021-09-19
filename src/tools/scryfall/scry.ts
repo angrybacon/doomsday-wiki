@@ -1,8 +1,9 @@
-import axios, { AxiosResponse } from 'axios';
+import axios from 'axios';
 import { HttpStatusCode } from '@/constants/HttpStatusCode';
 import { SETS, SHORTHANDS } from '@/tools/scryfall/cards';
+import type { ScryResponse } from '@/tools/scryfall/types';
 
-type Cache = Record<string, AxiosResponse | Promise<AxiosResponse>>;
+type Cache = Record<string, ScryResponse | Promise<ScryResponse>>;
 
 /**
  * Cache to hold concurrent search queries.
@@ -35,29 +36,37 @@ const getApi = (name: string, set?: string): [Cache, Api, string] =>
         `q=!"${name}"&unique=prints&order=released&dir=asc`,
       ];
 
-type Scry = (key: string, set?: string) => Promise<AxiosResponse>;
+type Scry = (key: string, set?: string) => Promise<ScryResponse>;
 
 /**
- * Query Scryfall for `name` in `set`.
- * Build a cache to avoid querying twice for the same name and set pair.
+ * Query Scryfall with `query`.
+ *
+ * It consists of a card name and an optionnal set separated by a `|`.
+ *
+ * This asynchronous function builds a cache of concurrent promises to avoid
+ * querying twice for the same name and set pair.
  */
-export const scry: Scry = (name, set = '') =>
-  new Promise<AxiosResponse>((resolve, reject) => {
+export const scry: Scry = (query) =>
+  new Promise<ScryResponse>((resolve, reject) => {
+    const [name, set] = query.split('|').map((it) => it.trim());
     const realName = SHORTHANDS[name] || name;
     const realSet = set || SETS[realName];
-    const [cache, api, query] = getApi(realName, realSet);
+    const [cache, api, parameters] = getApi(realName, realSet);
     const key = `${realName}/${realSet}`;
     if (cache[key]) {
+      const response = cache[key] as ScryResponse;
       if (
-        (cache[key] as AxiosResponse).status === undefined ||
-        (cache[key] as AxiosResponse).status === HttpStatusCode.OK
+        // NOTE The request is still pending
+        response.status === undefined ||
+        // NOTE The request has already resolved
+        response.status === HttpStatusCode.OK
       ) {
-        return resolve(cache[key]);
+        return resolve(response);
       }
       return reject(cache[key]);
     }
-    cache[key] = axios.get(`${api}?${query}`);
-    return (cache[key] as Promise<AxiosResponse>).then(
+    cache[key] = axios.get(`${api}?${parameters}`);
+    return (cache[key] as Promise<ScryResponse>).then(
       (response) => {
         cache[key] = response;
         return resolve(response);

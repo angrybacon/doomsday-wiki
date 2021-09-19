@@ -13,15 +13,15 @@ export const SETS: Record<string, string> =
 export const SHORTHANDS: Record<string, string> =
   // prettier-ignore
   {
-  BS:    'Brainstorm',
-  DD:    'Doomsday',
-  EoE:   'Echo of Eons',
-  EtW:   'Empty the Warrens',
-  IC:    'Infernal Contract',
-  LDV:   "Lim-Dul's Vault",
-  LED:   "Lion's Eye Diamond",
-  Mm:    'Manamorphose',
-  SotV:  'Spoils of the Vault',
-  TO:    "Thassa's Oracle",
-  ToA:   'Tendrils of Agony',
+  BS:   'Brainstorm',
+  DD:   'Doomsday',
+  EoE:  'Echo of Eons',
+  EtW:  'Empty the Warrens',
+  IC:   'Infernal Contract',
+  LDV:  "Lim-Dul's Vault",
+  LED:  "Lion's Eye Diamond",
+  Mm:   'Manamorphose',
+  SotV: 'Spoils of the Vault',
+  TO:   "Thassa's Oracle",
+  ToA:  'Tendrils of Agony',
 };
