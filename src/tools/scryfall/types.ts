@@ -9,5 +9,8 @@ export interface ScryData {
   [key: string]: any;
 }
 
+/** Dictionary of Scry results. */
+export type Scries = Record<string, ScryData>;
+
 /** Convenience typing to refer to responses from the Scryfall API. */
 export type ScryResponse = AxiosResponse<ScryData>;
