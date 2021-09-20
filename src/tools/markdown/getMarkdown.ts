@@ -5,11 +5,11 @@ import { unified } from 'unified';
 import { readMarkdown } from '@/tools/io/readMarkdown';
 import { Markdown } from '@/tools/markdown/types';
 import type { Scries } from '@/tools/scryfall/types';
-import { remarkScryfall } from '@/components/Remark/plugins/remarkScryfall';
 import {
   BASE_MARKDOWN_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
+import { remarkScryfall } from '@/tools/remark/remarkScryfall';
 
 /** Parse buffer as Markdown text and return Scry data from directives. */
 const getScries = async (buffer: string): Promise<Scries> => {
