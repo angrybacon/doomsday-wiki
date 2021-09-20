@@ -27,13 +27,7 @@ import type { Decklists } from '@/tools/decklists/types';
 import type { Markdown } from '@/tools/markdown/types';
 import { useStyles } from './Remark.styles';
 
-interface Props {
-  className?: string;
-  decklists?: Decklists;
-  markdown: Markdown;
-}
-
-const components: Components & {
+const COMPONENTS: Components & {
   card: FunctionComponent<RemarkCardProps>;
   decklist: FunctionComponent<RemarkDecklistProps>;
   row: FunctionComponent<RemarkRowProps>;
@@ -51,6 +45,12 @@ const components: Components & {
   p: RemarkText,
   row: RemarkRow,
 };
+
+interface Props {
+  className?: string;
+  decklists?: Decklists;
+  markdown: Markdown;
+}
 
 export const Remark: FunctionComponent<Props> = ({
   className,
@@ -72,7 +72,7 @@ export const Remark: FunctionComponent<Props> = ({
         </Typography>
       )}
       <ReactMarkdown
-        components={components}
+        components={COMPONENTS}
         remarkPlugins={[remarkDirective, ...plugins]}
         skipHtml
       >

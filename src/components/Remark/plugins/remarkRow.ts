@@ -3,15 +3,16 @@ import type { ContainerDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
-import type { ScryData } from '@/tools/scryfall/types';
+import type { Scries } from '@/tools/scryfall/types';
 
-type RemarkRow = (context: { scries: Record<string, ScryData> }) => Plugin;
+type RemarkRow = (context: { scries: Scries }) => Plugin;
 
 export const remarkRow: RemarkRow =
   ({ scries }) =>
   () =>
   (tree) => {
-    visit<Node, Test>(tree, 'containerDirective', (node) => {
+    const test: Test = { name: 'row', type: 'containerDirective' };
+    visit<Node, Test>(tree, test, (node) => {
       const directive = node as ContainerDirective;
       const texts = selectAll('text', directive) as Text[];
       const cards = texts.map((text) => ({

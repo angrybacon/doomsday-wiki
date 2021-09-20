@@ -7,7 +7,8 @@ import { Node, Test, visit } from 'unist-util-visit';
 type Pluggable = PluggableList extends readonly (infer T)[] ? T : never;
 
 export const remarkCard: Pluggable = () => (tree) => {
-  visit<Node, Test>(tree, 'textDirective', (node) => {
+  const test: Test = { name: 'card', type: 'textDirective' };
+  visit<Node, Test>(tree, test, (node) => {
     const directive = node as TextDirective;
     const card = select('text', directive) as Text;
     if (card) {

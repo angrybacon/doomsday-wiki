@@ -7,7 +7,8 @@ type Pluggable = PluggableList extends readonly (infer T)[] ? T : never;
 
 export const remarkDecklist: (decklists: Decklists) => Pluggable =
   (decklists) => () => (tree) => {
-    visit<Node, Test>(tree, 'leafDirective', (node) => {
+    const test: Test = { name: 'decklist', type: 'leafDirective' };
+    visit<Node, Test>(tree, test, (node) => {
       const directive = node as LeafDirective;
       const path: string | undefined = directive.attributes?.path;
       if (path) {
