@@ -150,7 +150,7 @@ Similarly, you can replace the Consider in hand with a cycling effect.
 
 > {U} + Cycler
 
-<row variant="pile">{{!Consider}} {{!Deep Analysis}} {{!LED}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!Consider}} {{!DA}} {{!LED}} {{!LP}} {{!TO}}</row>
 
 ## Piles Not Using Predict nor Ideas Unbound
 
