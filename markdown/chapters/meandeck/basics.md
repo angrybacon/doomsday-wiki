@@ -146,8 +146,7 @@ Analysis with Flashback using the Diamond mana. This allows you to then draw
 into additional mana and the Oracle. You can replace Petal with Cavern of Souls
 if you have a land drop available.
 
-You can also use this with a cycling effect in hand simply replacing the cycler
-in the previous example with a Consider at the start.
+Similarly, you can replace the Consider in hand with a cycling effect.
 
 > {U} + Cycler
 
