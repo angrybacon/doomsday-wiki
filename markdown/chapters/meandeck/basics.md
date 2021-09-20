@@ -137,7 +137,7 @@ spells or who are holding something like {{Stifle}} up.
 
 > {U} + Consider
 
-<row variant="pile">{{!Deep Analysis}} {{!LED}} {{!SW}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!DA}} {{!LED}} {{!SW}} {{!LP}} {{!TO}}</row>
 
 If you are low on resources you can utilise the above pile using {{Consider}} in
 conjunction with {{Deep Analysis}}. Consider allows you to put Deep Analysis
