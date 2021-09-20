@@ -133,6 +133,25 @@ include protection slots within the pile. If you have the available mana it may
 help you against opponents who are either trying to slow roll their permission
 spells or who are holding something like {{Stifle}} up.
 
+## Consider Piles
+
+> {U} + Consider
+
+<row variant="pile">{{!DA}} {{!LED}} {{!SW}} {{!LP}} {{!TO}}</row>
+
+If you are low on resources you can utilise the above pile using {{Consider}} in
+conjunction with {{Deep Analysis}}. Consider allows you to put Deep Analysis
+into your graveyard and draw the Lion's Eye Diamond. You can then cast the Deep
+Analysis with Flashback using the Diamond mana. This allows you to then draw
+into additional mana and the Oracle. You can replace Petal with Cavern of Souls
+if you have a land drop available.
+
+Similarly, you can replace the Consider in hand with a cycling effect.
+
+> {U} + Cycler
+
+<row variant="pile">{{!Consider}} {{!DA}} {{!LED}} {{!LP}} {{!TO}}</row>
+
 ## Piles Not Using Predict nor Ideas Unbound
 
 In the event that your draw spell(s) gets exiled, usually by pitching them to
@@ -156,6 +175,13 @@ For any of the above examples you can reduce the cost drastically by using the
 free cyclers Street Wraith and/or Edge of Autumn. There are also some
 interesting tricks we can utilise where the card {{Brainstorm}} is one of the
 cantrips within our hand however we will cover those in another chapter.
+
+Another option is the use of Deep Analysis if you have it, or an LED in hand.
+Deep Analysis and LED can be interchanged:
+
+> Lion's Eye Diamond + Cycler
+
+<row variant="pile">{{!DA}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
 
 ## Passing the Turn
 
