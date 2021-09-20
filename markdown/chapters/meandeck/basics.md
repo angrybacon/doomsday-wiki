@@ -143,9 +143,8 @@ If you are low on resources you can utilise the above pile using {{Consider}} in
 conjunction with {{Deep Analysis}}. Consider allows you to put Deep Analysis
 into your graveyard and draw the Lion's Eye Diamond. You can then cast the Deep
 Analysis with Flashback using the Diamond mana. This allows you to then draw
-into additional mana and the Oracle using the final mana from the Diamond plus
-the petal to cast Oracle. You can replace Petal with Cavern of Souls if you have
-a land drop available.
+into additional mana and the Oracle. You can replace Petal with Cavern of Souls
+if you have a land drop available.
 
 You can also use this with a cycling effect in hand simply replacing the cycler
 in the previous example with a Consider at the start.
