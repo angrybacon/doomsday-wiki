@@ -183,14 +183,11 @@ top card instead.
 
 <row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!TO}} {{!Island|RAV}}</row>
 
-It follows the exact sequence as the one before but you cycle into the
-Brainstorm rather into the mana needed for it. Once again, the same trick can be
-done if you have excess mana or the card X is a cantrip already in exchanging
-the cantrip for mana within the pile to enable the playing around of removal to
-ensure you have perfect pile to generate a zero card library on resolution of
-the Oracle trigger.
+This time you cycle into the Brainstorm rather than into the mana needed for it
+and make an imperfect pile. Once again, you can use excess mana or add mana in
+the pile if the card X is a cantrip in order to make it a perfect pile.
 
-Again you can make it a perfect pile too.
+Alternatively, use Consider to get rid of X and achieve a perfect pile.
 
 > {U} + Street Wraith + X
 

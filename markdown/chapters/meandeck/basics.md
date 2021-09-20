@@ -177,11 +177,7 @@ interesting tricks we can utilise where the card {{Brainstorm}} is one of the
 cantrips within our hand however we will cover those in another chapter.
 
 Another option is the use of Deep Analysis if you have it, or an LED in hand.
-Consider the following piles:
-
-> Deep Analysis + Cycler
-
-<row variant="pile">{{!LED}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
+Deep Analysis and LED can be interchanged:
 
 > Lion's Eye Diamond + Cycler
 
