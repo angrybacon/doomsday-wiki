@@ -1,13 +1,15 @@
 import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
-import type { Plugin } from 'unified';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
+import type { Remarker } from '@/tools/remark/types';
 import type { Scries } from '@/tools/scryfall/types';
 
-type RemarkRow = (context: { scries: Scries }) => Plugin;
-
-export const remarkRow: RemarkRow =
+/**
+ * Parse row directives and augment properties with Scry results for the current
+ * row of cards only.
+ */
+export const remarkRow: Remarker<{ scries: Scries }> =
   ({ scries }) =>
   () =>
   (tree) => {
@@ -16,6 +18,7 @@ export const remarkRow: RemarkRow =
       const directive = node as ContainerDirective;
       const texts = selectAll('text', directive) as Text[];
       const cards = texts.map((text) => ({
+        // NOTE Scry results can contain be a list in case of non-exact matches
         data: scries[text.value].data?.[0] || scries[text.value],
         id: text.position?.start.offset,
         query: text.value,
@@ -23,8 +26,10 @@ export const remarkRow: RemarkRow =
       // NOTE Augment tree properties with card meta data
       directive.data = {
         ...directive.data,
-        hName: directive.name,
-        hProperties: { ...directive.attributes, cards },
+        hProperties: {
+          ...(directive.data?.hProperties as Record<string, unknown>),
+          cards,
+        },
       };
     });
   };

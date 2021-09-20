@@ -4,9 +4,6 @@ import ReactMarkdown, { Components } from 'react-markdown';
 import type { PluggableList } from 'react-markdown/lib/react-markdown';
 import remarkDirective from 'remark-directive';
 import Typography from '@material-ui/core/Typography';
-import { remarkCard } from '@/components/Remark/plugins/remarkCard';
-import { remarkDecklist } from '@/components/Remark/plugins/remarkDecklist';
-import { remarkRow } from '@/components/Remark/plugins/remarkRow';
 import {
   RemarkCard,
   Props as RemarkCardProps,
@@ -25,6 +22,9 @@ import {
 import { RemarkText } from '@/components/Remark/renderers/RemarkText';
 import type { Decklists } from '@/tools/decklists/types';
 import type { Markdown } from '@/tools/markdown/types';
+import { remarkCard } from '@/tools/remark/remarkCard';
+import { remarkDecklist } from '@/tools/remark/remarkDecklist';
+import { remarkRow } from '@/tools/remark/remarkRow';
 import { useStyles } from './Remark.styles';
 
 const COMPONENTS: Components & {
