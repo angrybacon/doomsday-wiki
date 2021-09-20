@@ -65,7 +65,9 @@ export const scry: Scry = (query) =>
       }
       return reject(cache[key]);
     }
-    cache[key] = axios.get(`${api}?${parameters}`);
+    const path = `${api}?${parameters}`;
+    console.info(`[scryfall] GET ${path}`);
+    cache[key] = axios.get(path);
     return (cache[key] as Promise<ScryResponse>).then(
       (response) => {
         cache[key] = response;
