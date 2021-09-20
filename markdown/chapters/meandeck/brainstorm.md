@@ -159,7 +159,7 @@ well if you have an available land drop for that turn.
 1. Cast TO with the remaining mana from LED with two cards left in your library
 
 Again this is an example of an imperfect pile. If you played a list featuring
-{{Consider}} in, you can make the following minor adjustment to the pile to turn 
+{{Consider}} in, you can make the following minor adjustment to the pile to turn
 it into a perfect pile.
 
 > {U} + Brainstorm + Street Wraith + X
@@ -167,8 +167,8 @@ it into a perfect pile.
 <row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Consider}} {{!TO}}</row>
 
 1. Cycle SW, draw the LP and cast it
-1. Cast Brainstorm off of LP and put back X then Ponder
-1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder
+1. Cast Brainstorm off of LP and put back X then Consider
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Consider
 1. Cast Consider, put X into the graveyard and draw TO
 1. Cast TO with the remaining mana from LED with zero cards left in your library
 

@@ -185,7 +185,7 @@ Consider the following piles:
 
 > Lion's Eye Diamond + Cycler
 
-<row variant="pile">{{!Deep Analysis}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!DA}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
 
 ## Passing the Turn
 
