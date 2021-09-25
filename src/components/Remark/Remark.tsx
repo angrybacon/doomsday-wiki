@@ -22,6 +22,7 @@ import {
 import { RemarkText } from '@/components/Remark/renderers/RemarkText';
 import type { Decklists } from '@/tools/decklists/types';
 import type { Markdown } from '@/tools/markdown/types';
+import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist';
 import { remarkRow } from '@/tools/remark/remarkRow';
@@ -63,6 +64,7 @@ export const Remark: FunctionComponent<Props> = ({
   const classes = useStyles();
   const { matter, scries, text } = markdown;
   const plugins: PluggableList = [
+    remarkBase(),
     remarkCard(),
     remarkDecklist({ decklists }),
     remarkRow({ scries }),
