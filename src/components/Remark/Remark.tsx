@@ -19,6 +19,10 @@ import {
   RemarkRow,
   Props as RemarkRowProps,
 } from '@/components/Remark/renderers/RemarkRow';
+import {
+  RemarkSoundcloud,
+  Props as RemarkSoundcloudProps,
+} from '@/components/Remark/renderers/RemarkSoundcloud';
 import { RemarkText } from '@/components/Remark/renderers/RemarkText';
 import type { Decklists } from '@/tools/decklists/types';
 import type { Markdown } from '@/tools/markdown/types';
@@ -44,10 +48,12 @@ const COMPONENTS_EXTRA: {
   card: FunctionComponent<RemarkCardProps>;
   decklist: FunctionComponent<RemarkDecklistProps>;
   row: FunctionComponent<RemarkRowProps>;
+  soundcloud: FunctionComponent<RemarkSoundcloudProps>;
 } = {
   card: RemarkCard,
   decklist: RemarkDecklist,
   row: RemarkRow,
+  soundcloud: RemarkSoundcloud,
 };
 
 interface Props {
