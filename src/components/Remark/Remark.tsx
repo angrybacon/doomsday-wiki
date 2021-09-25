@@ -1,8 +1,8 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
-import type { PluggableList } from 'react-markdown/lib/react-markdown';
 import remarkDirective from 'remark-directive';
+import type { PluggableList } from 'unified';
 import Typography from '@material-ui/core/Typography';
 import {
   RemarkCard,
@@ -27,15 +27,9 @@ import { remarkDecklist } from '@/tools/remark/remarkDecklist';
 import { remarkRow } from '@/tools/remark/remarkRow';
 import { useStyles } from './Remark.styles';
 
-const COMPONENTS: Components & {
-  card: FunctionComponent<RemarkCardProps>;
-  decklist: FunctionComponent<RemarkDecklistProps>;
-  row: FunctionComponent<RemarkRowProps>;
-} = {
+const COMPONENTS: Components = {
   a: RemarkLink,
   blockquote: RemarkQuote,
-  card: RemarkCard,
-  decklist: RemarkDecklist,
   h1: RemarkHeading,
   h2: RemarkHeading,
   h3: RemarkHeading,
@@ -43,12 +37,21 @@ const COMPONENTS: Components & {
   h5: RemarkHeading,
   h6: RemarkHeading,
   p: RemarkText,
+};
+
+const COMPONENTS_EXTRA: {
+  card: FunctionComponent<RemarkCardProps>;
+  decklist: FunctionComponent<RemarkDecklistProps>;
+  row: FunctionComponent<RemarkRowProps>;
+} = {
+  card: RemarkCard,
+  decklist: RemarkDecklist,
   row: RemarkRow,
 };
 
 interface Props {
   className?: string;
-  decklists?: Decklists;
+  decklists: Decklists;
   markdown: Markdown;
 }
 
@@ -60,8 +63,8 @@ export const Remark: FunctionComponent<Props> = ({
   const classes = useStyles();
   const { matter, scries, text } = markdown;
   const plugins: PluggableList = [
-    ...(decklists ? [remarkDecklist(decklists)] : []),
-    remarkCard,
+    remarkCard(),
+    remarkDecklist({ decklists }),
     remarkRow({ scries }),
   ];
   return (
@@ -72,7 +75,7 @@ export const Remark: FunctionComponent<Props> = ({
         </Typography>
       )}
       <ReactMarkdown
-        components={COMPONENTS}
+        components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
         remarkPlugins={[remarkDirective, ...plugins]}
         skipHtml
       >
