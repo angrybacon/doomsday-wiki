@@ -14,10 +14,18 @@ interface Props {
   markdown: Markdown;
 }
 
-const ChapterPage: NextPage<Props & ExtraPageProps> = ({ markdown, menu }) => (
+const ChapterPage: NextPage<Props & ExtraPageProps> = ({
+  decklists,
+  markdown,
+  menu,
+}) => (
   <Layout maxWidth="md" menu={menu} title={markdown?.matter?.title}>
     <Card>
-      <CardContent component={Remark} markdown={markdown} />
+      <CardContent
+        component={Remark}
+        decklists={decklists}
+        markdown={markdown}
+      />
     </Card>
   </Layout>
 );

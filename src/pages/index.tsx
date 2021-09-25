@@ -18,6 +18,7 @@ interface Props {
 
 const HomePage: NextPage<Props & ExtraPageProps> = ({
   articles,
+  decklists,
   menu,
   welcome,
 }) => (
@@ -29,7 +30,11 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
   >
     <Grid item sm={7}>
       <Card>
-        <CardContent component={Remark} markdown={welcome} />
+        <CardContent
+          component={Remark}
+          decklists={decklists}
+          markdown={welcome}
+        />
       </Card>
     </Grid>
     <Grid item xs>

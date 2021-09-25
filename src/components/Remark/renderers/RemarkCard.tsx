@@ -7,11 +7,14 @@ import { SHORTHANDS } from '@/tools/scryfall/cards';
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 export interface Props extends ReactMarkdownProps {
-  node: ReactMarkdownProps['node'] & { properties: { card: string } };
+  node: ReactMarkdownProps['node'] & {
+    properties: { name?: string };
+  };
 }
 
 export const RemarkCard: FunctionComponent<Props> = ({ node }) => {
-  let name: string = node.properties?.card;
+  let { name } = node.properties;
+  if (!name) return null;
   name = SHORTHANDS[name] || name;
   return (
     <NextLink href={`${SCRYFALL_SEARCH}?q=${name}`} passHref>
