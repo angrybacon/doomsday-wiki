@@ -2,7 +2,6 @@ import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
-import type { RemarkerAsync } from '@/tools/remark/types';
 import { scry } from '@/tools/scryfall/scry';
 import type { Scries, ScryResponse } from '@/tools/scryfall/types';
 
@@ -11,8 +10,9 @@ import type { Scries, ScryResponse } from '@/tools/scryfall/types';
  * the queries within.
  * This Unified pluggable returns a record of queries and responses pairs.
  */
-export const remarkScryfall: RemarkerAsync<Scries> =
-  () => async (tree: Node) => {
+export const remarkScryfall =
+  () =>
+  async (tree: Node): Promise<Scries> => {
     /** Unist tests to only visit nodes that contain Scryfall queries. */
     const tests: Test = [{ name: 'row', type: 'containerDirective' }];
     /** Contain the list of Scryfall promises to await for. */

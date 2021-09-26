@@ -1,17 +1,16 @@
 import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
+import type { Plugin } from 'unified';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
-import type { Remarker } from '@/tools/remark/types';
 import type { Scries } from '@/tools/scryfall/types';
 
 /**
  * Parse row directives and augment properties with Scry results for the current
  * row of cards only.
  */
-export const remarkRow: Remarker<{ scries: Scries }> =
+export const remarkRow: Plugin<[{ scries: Scries }]> =
   ({ scries }) =>
-  () =>
   (tree) => {
     const test: Test = { name: 'row', type: 'containerDirective' };
     visit<Node, Test>(tree, test, (node) => {

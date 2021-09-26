@@ -1,15 +1,14 @@
 import type { LeafDirective } from 'mdast-util-directive';
+import type { Plugin } from 'unified';
 import { Node, Test, visit } from 'unist-util-visit';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Remarker } from '@/tools/remark/types';
 
 /**
  * Parse decklist directives and augment properties with metadata found in
  * `decklists`.
  */
-export const remarkDecklist: Remarker<{ decklists: Decklists }> =
+export const remarkDecklist: Plugin<[{ decklists: Decklists }]> =
   ({ decklists }) =>
-  () =>
   (tree) => {
     const test: Test = { name: 'decklist', type: 'leafDirective' };
     visit<Node, Test>(tree, test, (node) => {
