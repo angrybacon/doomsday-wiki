@@ -64,23 +64,23 @@ time to submit anything.
 Deck style: Grixis Turbo Meandeck.
 [Decklist](https://mtgmelee.com/Decklist/View/167050)
 
-"This past weekend the guy from The Legacy Pit hosted an event in Frederick MD,
-this was the first large event since the start of the pandemic in NA. The
-tournament was only a few hours away driving from my house and, like a lot of
-other legacy enthusiasts, I was itching to play some paper legacy.
-
-The general perception was the meta was being dominated by Ragavan/DRC/Urza's
-Saga decks. Out of those 3, Ragavan represented the biggest threat to my deck of
-choice: Doomsday. I didn’t really do any extensive testing or preparation for
-the event due to some family schedule changes and some other personal
-businesses, but I was did play a good number of leagues and tried a few
-different deck configurations. Eventually I settled on the “Kai Sawatari”
-Doomsday list, it’s the list most similar to the lists I was familiar and have
-had some previous good results.
-
-So onto the event, we were required to submit decklists and register ahead of
-time since there wouldn’t be any in-person registration, with that being said I
-registered the Wednesday before the event."
+> This past weekend the guy from The Legacy Pit hosted an event in Frederick MD,
+> this was the first large event since the start of the pandemic in NA. The
+> tournament was only a few hours away driving from my house and, like a lot of
+> other legacy enthusiasts, I was itching to play some paper legacy.
+>
+> The general perception was the meta was being dominated by Ragavan/DRC/Urza's
+> Saga decks. Out of those 3, Ragavan represented the biggest threat to my deck
+> of choice: Doomsday. I didn’t really do any extensive testing or preparation
+> for the event due to some family schedule changes and some other personal
+> businesses, but I was did play a good number of leagues and tried a few
+> different deck configurations. Eventually I settled on the *Kai Sawatari**
+> Doomsday list, it’s the list most similar to the lists I was familiar and have
+> had some previous good results.
+>
+> So onto the event, we were required to submit decklists and register ahead of
+> time since there wouldn’t be any in-person registration, with that being said
+> I registered the Wednesday before the event.
 
 #### Round 1 vs Sam Roukas on {U}{W}{R} Sagavan. Loss (0-2)
 
@@ -269,16 +269,17 @@ normal thing again in the future when things are safer.
 Deck style: Grixis Turbo Meandeck.
 [Decklist](https://mtgmelee.com/Decklist/View/167298)
 
-"My general decision to play Doomsday for the Pit open was based on a gut
-feeling that Ragavan decks would be less popular in paper and my general dislike
-for the card. I didn't have very much experience with combo and got 100% of my
-list from Kai and followed his stream religiously over the past few months.
-Unfortunately I was wrong about my general impression of the metagame, there was
-a bunch of monkey buisness. Despite with facing some bad matchups and my
-relative inexperience as a pilot, the deck felt bonkers. One thing I will say is
-while the Bant/4C matchup feels close when I play online many of the pilots in
-this event seemed to not have a good understanding of matchup dynamics. Plenty
-of {{Endurance}}s cast at the wrong time and {{Pyroblast}}s burned on cantrips."
+> My general decision to play Doomsday for the Pit open was based on a gut
+> feeling that Ragavan decks would be less popular in paper and my general
+> dislike for the card. I didn't have very much experience with combo and got
+> 100% of my list from Kai and followed his stream religiously over the past few
+> months. Unfortunately I was wrong about my general impression of the metagame,
+> there was a bunch of monkey buisness. Despite with facing some bad matchups
+> and my relative inexperience as a pilot, the deck felt bonkers. One thing I
+> will say is while the Bant/4C matchup feels close when I play online many of
+> the pilots in this event seemed to not have a good understanding of matchup
+> dynamics. Plenty of {{Endurance}}s cast at the wrong time and {{Pyroblast}}s
+> burned on cantrips.
 
 #### Round 1 vs Matt Brown on {U}{R} Delver. Loss (1-2)
 
@@ -412,11 +413,11 @@ Deck style: Grixis Turbo Meandeck.
 [Decklist](https://mtgmelee.com/Decklist/View/163733) *Note: MtGMelee has a
 mistake and the {{Vapor Snag}} should be a {{Chain of Vapor}}.
 
-"I don’t have a ton of notes about each match other than what I played against
-but I’ll try to recall anything notable. In terms of prep was I played at least
-one or two matches daily on cockatrice two weeks leading up to the tournament
-and Kai’s stream/Youtube was super helpful in terms of learning lines and the
-thought process of the deck."
+> I don’t have a ton of notes about each match other than what I played against
+> but I’ll try to recall anything notable. In terms of prep was I played at
+> least one or two matches daily on cockatrice two weeks leading up to the
+> tournament and Kai’s stream/Youtube was super helpful in terms of learning
+> lines and the thought process of the deck.
 
 #### Round 1 vs Kyle Dorgan on Karnforge. Win (2-1)
 
@@ -570,47 +571,47 @@ Sideboard:
 Deck style: Grixis Stifle Turbo Meandeck.
 [Decklist](https://mtgmelee.com/Decklist/View/162172)
 
-"The Legacy Pit Open (LPO for short) was my first Legacy tournament in over a
-year and a half. To give some background, before my daughter was born in March,
-2020, I decided that the MTG First 2K and the Dice City Revised Open would be my
-last bits of competitive Magic for a long time. At some point after my daughter
-was born, I grinded leagues on MTGO with Meandeck Doomsday in the Oko meta with
-the older, more controlling version of Meandeck Doomsday, and I performed quite
-well with it until I had to focus more on family life. Up until this point, I
-had played Doomsday in paper only once at my local meta, Curio Cavern, in June
-of 2021, and I had not played any matches with the Turbo version I ran at the
-LPO. So, going into the week before the tournament, I would not have played more
-than 2-3 matches with Doomsday, no matches with the Turbo version, and a grand
-total of 6 matches of Legacy in 2021, period.
-
-To prepare for the tournament, I first had to decide whether I wanted to stick
-with the controlling version of Doomsday that had fallen out of favor or move to
-the turbo version. I didn’t really have the time or the desire to get back on
-MTGO, so I paid close attention to what Kai Sawatari (Sawatarix), Max Carini
-(Wonderpreaux), and Ethan Formichella (Monkeyscantcry) were running. Max’s
-{{Stifle}} version was very appealing to me since it appeared to enable an
-easier pivot between controlling and turbo modes of the deck, and it also
-appeared to fit better with substituting {{Lim-Dul’s Vault}} for {{Personal
-Tutor}}. The choice to run {{Lim-Dul’s Vault}} over {{Personal Tutor}} was
-personal preference, but I also am simply unwilling to spend hundreds of dollars
-in paper for a card that in my view only provides a marginal advantage over the
-alternative. The same decision was also made in designing the sideboard – I
-wasn’t terribly enthusiastic about spending $400 for a set of {{Force of
-Negation}}, so with a lot of help from Max, I crafted a sideboard for this event
-that would fit well for the expected meta.
-
-When some of the Nothern VA Legacy crew got together at Bob Huang’s place to
-test, I jumped at the chance to get some reps in to prepare for this tournament.
-I tested Doomsday vs. {U}{R} Ragavan Tempo matchup quite a bit with Dan
-Signorini and Kyle Pittleman, and it didn’t seem as bad as I had imagined. It
-became incredibly obvious after the first couple games that going fast with
-countermagic/disruption before the Ragavan deck could establish itself was the
-way Doomsday wins the matchup.
-
-After testing and more discussion with Max, I decided on the list below for the
-LPO. I felt the slotting for boarding for the various decks that make up the
-current meta was very straightforward in this build, which was intended to make
-things easier on me during the LPO."
+> The Legacy Pit Open (LPO for short) was my first Legacy tournament in over a
+> year and a half. To give some background, before my daughter was born in
+> March, 2020, I decided that the MTG First 2K and the Dice City Revised Open
+> would be my last bits of competitive Magic for a long time. At some point
+> after my daughter was born, I grinded leagues on MTGO with Meandeck Doomsday
+> in the Oko meta with the older, more controlling version of Meandeck Doomsday,
+> and I performed quite well with it until I had to focus more on family life.
+> Up until this point, I had played Doomsday in paper only once at my local
+> meta, Curio Cavern, in June of 2021, and I had not played any matches with the
+> Turbo version I ran at the LPO. So, going into the week before the tournament,
+> I would not have played more than 2-3 matches with Doomsday, no matches with
+> the Turbo version, and a grand total of 6 matches of Legacy in 2021, period.
+>
+> To prepare for the tournament, I first had to decide whether I wanted to stick
+> with the controlling version of Doomsday that had fallen out of favor or move
+> to the turbo version. I didn’t really have the time or the desire to get back
+> on MTGO, so I paid close attention to what Kai Sawatari (Sawatarix), Max
+> Carini (Wonderpreaux), and Ethan Formichella (Monkeyscantcry) were running.
+> Max’s {{Stifle}} version was very appealing to me since it appeared to enable
+> an easier pivot between controlling and turbo modes of the deck, and it also
+> appeared to fit better with substituting {{Lim-Dul’s Vault}} for {{Personal
+> Tutor}}. The choice to run {{Lim-Dul’s Vault}} over {{Personal Tutor}} was
+> personal preference, but I also am simply unwilling to spend hundreds of
+> dollars in paper for a card that in my view only provides a marginal advantage
+> over the alternative. The same decision was also made in designing the
+> sideboard – I wasn’t terribly enthusiastic about spending $400 for a set of
+> {{Force of Negation}}, so with a lot of help from Max, I crafted a sideboard
+> for this event that would fit well for the expected meta.
+>
+> When some of the Nothern VA Legacy crew got together at Bob Huang’s place to
+> test, I jumped at the chance to get some reps in to prepare for this
+> tournament. I tested Doomsday vs. {U}{R} Ragavan Tempo matchup quite a bit
+> with Dan Signorini and Kyle Pittleman, and it didn’t seem as bad as I had
+> imagined. It became incredibly obvious after the first couple games that going
+> fast with countermagic/disruption before the Ragavan deck could establish
+> itself was the way Doomsday wins the matchup.
+>
+> After testing and more discussion with Max, I decided on the list below for
+> the LPO. I felt the slotting for boarding for the various decks that make up
+> the current meta was very straightforward in this build, which was intended to
+> make things easier on me during the LPO.
 
 #### Round 1 vs Mark Marra on {U}{W}{R} Sagavan. Win (2-1)
 
