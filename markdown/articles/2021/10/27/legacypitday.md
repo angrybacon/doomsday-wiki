@@ -132,7 +132,7 @@ blue card in hand. They minus Karn to get a {{Tormod’s Crypt}} then try to
 flashback an {{Echo of Eons}} with a {{Lion's Eye Diamond}}. I countered and won
 on the following turn.
 
-<row variant="pile">{{!Urza, Lord High Artificer}}</row>
+<row variant="centered">{{!Urza, Lord High Artificer}}</row>
 
 #### Round 4 vs Tony Murate (Into_Play) on Mono {G} Cloudpost. Win (2-0)
 
@@ -231,7 +231,7 @@ combo turn. It felt super rewarding to win this and the previous round. This
 also meant I was guaranteed to get my entry fee money back and now I was going
 to play for some extra $45.
 
-<row variant="pile">{{!Dragon's Rage Channeller}}</row>
+<row variant="pile">{{!Dragon's Rage Channeler}}</row>
 
 #### Round 9 vs Michael Mapson on {G}{W} Depths. Win (2-0)
 
@@ -308,7 +308,7 @@ them from there and easily win.
 
 G2 They mulled into oblivion.
 
-<row variant="pile">{{!Entomb}}</row>
+<row variant="pile">{{!Entomb|ODY}}</row>
 
 #### Round 4 vs Jacob Saracino on {U}{R} Delver. Win (2-1)
 
@@ -358,7 +358,7 @@ tucked in with their other lands! Made a Pile that would have lost to
 {{Endurance}} when I could easily have put them on 0 outs with an {{Ideas
 Unbound}} that drew in to {{Pact of Negation}}.
 
-<row variant="pile">{{!Swords to Plowshares}}</row>
+<row variant="pile">{{!StP}}</row>
 
 #### Round 7 vs Mark Kelley on {U}{W}{G} Control. Win (2-1)
 
@@ -381,7 +381,7 @@ turn 1 {{Doomsday}} with {{Undeground Sea}} and a fetch in hand. Made the
 following pile to beat {{Wasteland}} + {{Thalia, Guardian of Thraben}} over two
 turns.
 
-<row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!TO}} {{!Volcanic Island}}</row>
+<row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!TO}} {{!Volcanic Island|LEB}}</row>
 
 They knew they couldn't win and so just chose to not reveal what deck they were
 on. I assumed {G}{W} depths.
@@ -391,7 +391,7 @@ Ritual}} over a {{Preordain}} in a situation where my only other draw spells
 were cyclers. The {{Preordain}} let me dig to a {{Brainstorm}} that ended the
 game.
 
-<row variant="pile">{{!Nattle Sentinel}}</row>
+<row variant="pile">{{!Nettle Sentinel}}</row>
 
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1)
 
@@ -625,7 +625,7 @@ me build a pile that could win through {{Wasteland}} and the active Ragavan on
 board while losing to {{Force of Will}} #2 + blue card (which I felt wasn’t
 likely):
 
-<row variant="pile">{{SW}} {{!Volcanic Island}} {{!SW}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!SW}} {{!Volcanic Island|LEB}} {{!SW}} {{!EoA}} {{!TO}}</row>
 
 In: {{Cavern of Souls}}, 2 {{Duress}}, {{Abrade}}, 2 {{Flusterstorm}}  
 Out: 4 {{Force of Will}}, 2 {{Lim-Dul’s Vault}}
@@ -639,7 +639,7 @@ to Ragavan.
 Game 3, I got lucky on a mull to 4 that had a turn 1 {{Doomsday}} with {{Daze}}
 backup. I decided to build a 2-turn pile that would lose to {{Wasteland}}.
 
-<row variant="pile">{{CoS}} {{!SW}} {{!EoA}} {{!SW}} {{!TO}}</row>
+<row variant="pile">{{!CoS}} {{!SW}} {{!EoA}} {{!SW}} {{!TO}}</row>
 
 I was able to fade Wasteland and got there.
 
@@ -651,7 +651,7 @@ Ritual}}, and {{Doomsday}} in hand with no mana floating after Doomsday. A pile
 of LED, IU, {{Lotus Petal}}, {{Pact of Negation}}, {{Thassa’s Oracle}} enabled
 the same turn win with 2 cyclers in hand.
 
-<row variant="pile">{{LED}} {{!IU}} {{!LP}} {{!PoN}} {{!TO}}</row>
+<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!PoN}} {{!TO}}</row>
 
 In: {{Echoing Truth}}, 2 {{Abrade}}  
 Out: 2 {{Thoughtseize}}, {{Preordain}}
@@ -668,7 +668,7 @@ cast {{Stifle}} on {{Thespian's Stage}} activation. In Patrick’s end step, I
 cast {{Brainstorm}} and put cycler and land on top. On my turn, I drew the 2nd
 cycler and won using the same pile as game 1.
 
-<row variant="pile">{{!Dark Depths}}</row>
+<row variant="pile">{{!Dark Depths|CSP}}</row>
 
 #### Round 3 vs Anthony Arevalo on {U}{W}{R} Sagavan. Loss (1-2)
 
@@ -765,7 +765,7 @@ that was my window to try to go for a win by casting {{Doomsday}} and building a
 fastest-killing pass-the-turn pile I could (IU, Edge, Land, TO, X) while holding
 up {{Force of Will}} on Bryant’s turn.
 
-<row variant="pile">{{IU}} {{!EoA}} {{!Underground Sea}} {{!TO}} {{!Island|RAV}}</row>
+<row variant="pile">{{!IU}} {{!EoA}} {{!Underground Sea|LEB}} {{!TO}} {{!Island|RAV}}</row>
 
 What I should have thought more carefully about was the possibility of Bryant
 having {{Echo of Eons}} in hand, which he did and led on the following turn. Now
@@ -812,7 +812,7 @@ drew another {{Daze}}. I played the other fetchland, cracked it for
 pile being {{Ideas Unbound}}, {{Edge of Autumn}}, {{Lotus Petal}}, {{Thassa’s
 Oracle}}, {{Cavern of Souls}}.
 
-<row variant="pile">{{IU}} {{!EoA}} {{!LP}} {{!TO}} {{!CoS}}</row>
+<row variant="pile">{{!IU}} {{!EoA}} {{!LP}} {{!TO}} {{!CoS}}</row>
 
 Kyle untapped, played another fetchland, cast {{Ponder}}, and passed. I cast
 {{Ideas Unbound}}, played {{Lotus Petal}}, cycled into Cavern on Merfolk, and
@@ -826,7 +826,7 @@ cast {{Dark Ritual}} into {{Doomsday}}. I built a pile to beat {{Wasteland}} but
 would require fading 2 turns to so: Fetchland, Edge, TO, Cavern, {{Volcanic
 Island}}.
 
-<row variant="pile">{{Polluted Delta}} {{!EoA}} {{!TO}} {{!CoS}} {{!Volcanic Island}}</row>
+<row variant="pile">{{!Polluted Delta}} {{!EoA}} {{!TO}} {{!CoS}} {{!Volcanic Island|LEB}}</row>
 
 Unfortunately, that didn’t matter – Kyle revealed {{Brainstorm}} to flip Delver,
 played {{Volcanic Island}}
@@ -861,7 +861,7 @@ Shepherd}}), {{Lotus Petal}}, {{Edge of Autumn}}, {{Thassa’s Oracle}}. I ended
 up not needing the {{Stifle}}, since my opponent couldn’t find a {{Glimpse of
 Nature}} or {{Natural Order}}.
 
-<row variant="pile">{{IU}} {{!Stifle}} {{!LP}} {{!EoA}} {{!TO}}</row>
+<row variant="pile">{{!IU}} {{!Stifle}} {{!LP}} {{!EoA}} {{!TO}}</row>
 
 #### Round 7 vs Zach Felix on Elves. Win (2-1)
 
@@ -900,7 +900,7 @@ X. It would have left me open to {{Endurance}}, though, so I decided to go with
 {{Ponder}}, {{Ideas Unbound}}, Land, Petal, TO to hold up {{Force of Will}} on
 {{Endurance}} (which he didn’t have in hand) to win.
 
-<row variant="pile">{{Pn}} {{!IU}} {{!Underground Sea}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!Pn}} {{!IU}} {{!Underground Sea|LEB}} {{!LP}} {{!TO}}</row>
 
 #### Round 8 vs Juanmanuel Angulo on Ninjas. Win (2-1)
 
@@ -1000,7 +1000,7 @@ great getting to play Legacy in paper again and great to hang out with old
 friends. The Legacy Pit put on a great tournament, and I felt safe with the mask
 enforcement. I look forward to being able to do this in the future.
 
-## One Last {{Consider}}ation
+## One Last Consider'ation
 
 And there we have it! A big thank-you to all our contributors who submitted
 reports for this article. As I said there were 11 players for Doomsday overall
