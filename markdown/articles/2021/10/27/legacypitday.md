@@ -131,6 +131,8 @@ I had {{Force of Negation}}, {{Force of Will}} and a blue card in hand. They min
 to get a {{Tormod’s Crypt}} then try to flashback an {{Echo of Eons}} with a {{Lion's Eye Diamond}}.
 I countered and won on the following turn.
 
+<row variant="pile">{{!Urza, Lord High Artificer}}</row>
+
 #### Round 4 vs Tony Murate (Into_Play) on Mono {G} Cloudpost. Win (2-0).
 
 This round I played against the great and powerful Tony Murata aka into_play 
@@ -162,6 +164,8 @@ attacked down to 0.
 
 G3 . I found the combo pieces a turn too late, but overall I think this was one of the MUs I
 hadn’t played any matches against it, I didn’t really approach the games correctly.
+
+<row variant="pile">{{!Thought Monitor}}</row>
 
 #### Round 6 vs Matthew Hackbirt (TheHackbert) on Cephalid Breakfast. Win (2-0).
 
@@ -213,6 +217,8 @@ from the mulligan.
 G2. I used the SB plan for Delver, and {{Pact of Negation}} really shined in the combo turn.
 It felt super rewarding to win this and the previous round. This also meant I was guaranteed
 to get my entry fee money back and now I was going to play for some extra $45.
+
+<row variant="pile">{{!Dragon's Rage Channeller}}</row>
 
 #### Round 9 vs Michael Mapson on {G}{W} Depths. Win (2-0).
 
@@ -283,6 +289,8 @@ I was able to outdraw them from there and easily win.
 
 G2 They mulled into oblivion. 
 
+<row variant="pile">{{!Entomb}}</row>
+
 #### Round 4 vs Jacob Saracino on {U}{R} Delver. Win (2-1).
 
 G1 was close, they had turn 1 Ragavan and off the first cantrips I saw straight gas.
@@ -325,6 +333,8 @@ Game 3 was my second big punt. I didn't realize they had an onboard {{Karakas}} 
 their other lands! Made a Pile that would have lost to {{Endurance}} when I could easily have 
 put them on 0 outs with an {{Ideas Unbound}} that drew in to {{Pact of Negation}}. 
 
+<row variant="pile">{{!Swords to Plowshares}}</row>
+
 #### Round 7 vs Mark Kelley on {U}{W}{G} Control. Win (2-1).
 
 G1 Not much to say here. 
@@ -352,6 +362,8 @@ They knew they couldn't win and so just chose to not reveal what deck they were 
 G2 they {{Thoughtseize}} twice, and made in my mind a poor choice to take {{Dark Ritual}} over
 a {{Preordain}} in a situation where my only other draw spells were cyclers. The {{Preordain}}
 let me dig to a {{Brainstorm}} that ended the game. 
+
+<row variant="pile">{{!Nattle Sentinel}}</row>
 
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1).
 
@@ -400,6 +412,8 @@ sort of slumped in his chair which I read as he didn’t have anything else to f
 so I went for the same turn kill in lieu of a ptt pile. It ended up being the case that he
 didn’t have anything but that could have been a nutty bluff too.
 
+<row variant="pile">{{!Delver of Secrets}}</row>
+
 #### Round 4 vs Michael Morris on {R}{W} Painter. Win (2-0).
 
 Both games I had some really good hands that went off quick with protection.
@@ -434,6 +448,8 @@ G3 was just a series of clunky draws that were enough to resolve a doomsday but 
 {{Pyroblast}} in his hand that hit my brainstorm and left the Emrakul stranded in my hand while
 he beat down with his {{Collector Ouphe}}.
 
+<row variant="pile">{{!Uro, Titan of Nature's Wrath}}</row>
+
 #### Round 7 vs Michael Horn on {U}{R} Delver. Loss (0-2).
 
 This match felt like how the {U}{R} delver matchup should go. Had a ptt pile g1 that he triple 
@@ -457,6 +473,8 @@ against Doomsday which is what both of my previous delver opponents did.
 Got absolutely run over this match. It was one of those matches where stompy had everything 
 and can keep jamming threats+lock pieces to run you out of resources. They had {{Jeska’s Will}}
 in the list though which I thought was cool.
+
+<row variant="pile">{{!Blood Moon}}</row>
 
 #### Round 9 vs Landon Handerson on Elves. Win (2-1).
 
@@ -587,6 +605,8 @@ the game for me in {{Stifle}}, {{Doomsday}}, cycler, {{Dark Ritual}}, X.  On my 
 In Patrick’s end step, I cast {{Brainstorm}} and put cycler and land on top. On my turn, I drew the
 2nd cycler and won using the same pile as game 1.
 
+<row variant="pile">{{!Dark Depths}}</row>
+
 #### Round 3 vs Anthony Arevalo on {U}{W}{R} Sagavan. Loss (1-2).
 
 Anthony is a regular at Dice City Games, the other store in the DC Metro Area that has a highly 
@@ -676,6 +696,8 @@ Romario was of the opposite opinion, that I should have waited, since I had the 
 and could potentially draw into a same turn kill. After the match, Bryant and I also talked a little about game 2, 
 and he shared Max’s opinion that I should have let {{Echo of Eons}} resolve and counter the payoff spells post-Echo. 
 It’s a tough choice, either way, but I think in the end that Romario was right and I should have waited to cast Doomsday.
+
+<row variant="pile">{{!Wishclaw Talisman}}</row>
 
 #### Round 5 vs Kyle Souza on {U}{R} Delver. Loss (1-2).
 
@@ -785,7 +807,9 @@ Game 3, I kept a slower 7 that was full of disruption.  My opponent mulled to 5.
 taking his {{Force of Will}}. He played out his two {{Ornithopter}}s and passed.  On my turn, I cantripped to 
 find {{Doomsday}} and left mana open to {{Stifle}} ninjitsu, which I did the following turn. My next draw was a 
 {{Red Elemental Blast}}, which I used on Yuriko the next time it entered the battlefield.  When I untapped, 
-I found the third land for Doomsday, had Cavern in hand, and made a cycler pile that won me the match the following turn.  
+I found the third land for Doomsday, had Cavern in hand, and made a cycler pile that won me the match the following turn. 
+
+<row variant="pile">{{!Changeling Outcast}}</row>
 
 #### Round 9 vs Daniel McCaulley on Urza Echo ft. Painter Transformation. Loss (1-2).
 
