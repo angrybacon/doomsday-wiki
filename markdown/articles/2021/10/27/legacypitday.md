@@ -58,7 +58,7 @@ from other players but they were not able to find the time to submit anything.
 
 ### Romario Neto (RomarioVidal) - 25th Place (7-2)
 
-[Romario's Twitter](https://twitter.com/romarioneto3?lang=en)
+[Romario's Twitter](https://twitter.com/romarioneto3?lang=en)  
 [Romario's Twitch](https://www.twitch.tv/romariovidal)
 
 Deck style: Grixis Turbo Meandeck.
