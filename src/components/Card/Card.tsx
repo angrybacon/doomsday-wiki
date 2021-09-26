@@ -12,7 +12,7 @@ export interface Props {
 export const Card: FunctionComponent<Props> = ({ className, data, query }) => {
   const classes = useStyles();
   const { image_uris: images, name } = data;
-  const image = images?.png;
+  const image = images?.border_crop;
   return (
     image && (
       <img

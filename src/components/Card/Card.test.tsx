@@ -9,7 +9,7 @@ describe(Card.name, () => {
     props = {
       data: {
         // eslint-disable-next-line camelcase
-        image_uris: { png: 'protocol://path/to/resource.png' },
+        image_uris: { border_crop: 'protocol://path/to/resource.png' },
         name: 'Card Name',
       },
       query: 'Card Name | SET',
