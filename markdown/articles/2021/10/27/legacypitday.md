@@ -171,7 +171,7 @@ G3. I found the combo pieces a turn too late, but overall I think this was one
 of the MUs I hadn’t played any matches against it, I didn’t really approach the
 games correctly.
 
-<row variant="pile">{{!Thought Monitor}}</row>
+<row variant="centered">{{!Thought Monitor}}</row>
 
 #### Round 6 vs Matthew Hackbirt (TheHackbert) on Cephalid Breakfast. Win (2-0)
 
@@ -231,7 +231,7 @@ combo turn. It felt super rewarding to win this and the previous round. This
 also meant I was guaranteed to get my entry fee money back and now I was going
 to play for some extra $45.
 
-<row variant="pile">{{!Dragon's Rage Channeler}}</row>
+<row variant="centered">{{!Dragon's Rage Channeler}}</row>
 
 #### Round 9 vs Michael Mapson on {G}{W} Depths. Win (2-0)
 
@@ -308,7 +308,7 @@ them from there and easily win.
 
 G2 They mulled into oblivion.
 
-<row variant="pile">{{!Entomb|ODY}}</row>
+<row variant="centered">{{!Entomb|ODY}}</row>
 
 #### Round 4 vs Jacob Saracino on {U}{R} Delver. Win (2-1)
 
@@ -358,7 +358,7 @@ tucked in with their other lands! Made a Pile that would have lost to
 {{Endurance}} when I could easily have put them on 0 outs with an {{Ideas
 Unbound}} that drew in to {{Pact of Negation}}.
 
-<row variant="pile">{{!StP}}</row>
+<row variant="centered">{{!StP}}</row>
 
 #### Round 7 vs Mark Kelley on {U}{W}{G} Control. Win (2-1)
 
@@ -391,7 +391,7 @@ Ritual}} over a {{Preordain}} in a situation where my only other draw spells
 were cyclers. The {{Preordain}} let me dig to a {{Brainstorm}} that ended the
 game.
 
-<row variant="pile">{{!Nettle Sentinel}}</row>
+<row variant="centered">{{!Nettle Sentinel|EVE}}</row>
 
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1)
 
@@ -445,7 +445,7 @@ have anything else to fight back so I went for the same turn kill in lieu of a
 ptt pile. It ended up being the case that he didn’t have anything but that could
 have been a nutty bluff too.
 
-<row variant="pile">{{!Delver of Secrets}}</row>
+<row variant="centered">{{!Delver of Secrets}}</row>
 
 #### Round 4 vs Michael Morris on {R}{W} Painter. Win (2-0)
 
@@ -486,7 +486,7 @@ G3 was just a series of clunky draws that were enough to resolve a doomsday but
 couldn’t beat the {{Pyroblast}} in his hand that hit my brainstorm and left the
 Emrakul stranded in my hand while he beat down with his {{Collector Ouphe}}.
 
-<row variant="pile">{{!Uro, Titan of Nature's Wrath}}</row>
+<row variant="centered">{{!Uro, Titan of Nature's Wrath}}</row>
 
 #### Round 7 vs Michael Horn on {U}{R} Delver. Loss (0-2)
 
@@ -515,7 +515,7 @@ Got absolutely run over this match. It was one of those matches where stompy had
 everything and can keep jamming threats+lock pieces to run you out of resources.
 They had {{Jeska’s Will}} in the list though which I thought was cool.
 
-<row variant="pile">{{!Blood Moon}}</row>
+<row variant="centered">{{!Blood Moon}}</row>
 
 #### Round 9 vs Landon Handerson on Elves. Win (2-1)
 
@@ -668,7 +668,7 @@ cast {{Stifle}} on {{Thespian's Stage}} activation. In Patrick’s end step, I
 cast {{Brainstorm}} and put cycler and land on top. On my turn, I drew the 2nd
 cycler and won using the same pile as game 1.
 
-<row variant="pile">{{!Dark Depths|CSP}}</row>
+<row variant="centered">{{!Dark Depths|CSP}}</row>
 
 #### Round 3 vs Anthony Arevalo on {U}{W}{R} Sagavan. Loss (1-2)
 
@@ -788,7 +788,7 @@ Eons}} resolve and counter the payoff spells post-Echo. It’s a tough choice,
 either way, but I think in the end that Romario was right and I should have
 waited to cast Doomsday.
 
-<row variant="pile">{{!Wishclaw Talisman}}</row>
+<row variant="centered">{{!Wishclaw Talisman}}</row>
 
 #### Round 5 vs Kyle Souza on {U}{R} Delver. Loss (1-2)
 
@@ -826,7 +826,7 @@ cast {{Dark Ritual}} into {{Doomsday}}. I built a pile to beat {{Wasteland}} but
 would require fading 2 turns to so: Fetchland, Edge, TO, Cavern, {{Volcanic
 Island}}.
 
-<row variant="pile">{{!Polluted Delta}} {{!EoA}} {{!TO}} {{!CoS}} {{!Volcanic Island|LEB}}</row>
+<row variant="pile">{{!Polluted Delta|ONS}} {{!EoA}} {{!TO}} {{!CoS}} {{!Volcanic Island|LEB}}</row>
 
 Unfortunately, that didn’t matter – Kyle revealed {{Brainstorm}} to flip Delver,
 played {{Volcanic Island}}
@@ -900,7 +900,7 @@ X. It would have left me open to {{Endurance}}, though, so I decided to go with
 {{Ponder}}, {{Ideas Unbound}}, Land, Petal, TO to hold up {{Force of Will}} on
 {{Endurance}} (which he didn’t have in hand) to win.
 
-<row variant="pile">{{!Pn}} {{!IU}} {{!Underground Sea|LEB}} {{!LP}} {{!TO}}</row>
+<row variant="pile">{{!Pnd}} {{!IU}} {{!Underground Sea|LEB}} {{!LP}} {{!TO}}</row>
 
 #### Round 8 vs Juanmanuel Angulo on Ninjas. Win (2-1)
 
@@ -932,7 +932,7 @@ entered the battlefield. When I untapped, I found the third land for Doomsday,
 had Cavern in hand, and made a cycler pile that won me the match the following
 turn.
 
-<row variant="pile">{{!Changeling Outcast}}</row>
+<row variant="centered">{{!Changeling Outcast}}</row>
 
 #### Round 9 vs Daniel McCaulley on Urza Echo ft. Painter Transformation. Loss (1-2)
 
