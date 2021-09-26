@@ -1,6 +1,6 @@
 ---
 authors: Romariovidal, Ruta Barracuda, VendillionMisclique, germancouch, Doishy
-banner: /assets/consider.jpg
+banner: /assets/consider-imh.jpg
 title: Doomsday at the Legacy Pit Open - An interview with RomarioVidal
 ---
 
