@@ -293,10 +293,11 @@ Game one was quick. They tapped out for a t2 {{Sylvan Library}} when I had
 {{Daze}} in hand, was able to go off holding up multiple pieces of interaction.
 Game 2 I got smacked down by an early {{Wasteland}} x {{Life from the Loam}}
 lock. I questioned if I should board out the Shelldock Emmy plan but chose to
-leave it in. This paid off in the final game where I cast {{Duress}} to see
-{{Force of Will}}
-+ multiple {{Endurance}}. I was able to play it slow with Emrakul and won but it
-was close. They got two dredges to look for the one-of {{Wasteland}}.
+leave it in.
+
+This paid off in the final game where I cast {{Duress}} to see {{Force of Will}}
+and multiple {{Endurance}}. I was able to play it slow with Emrakul and won but
+it was close. They got two dredges to look for the one-of {{Wasteland}}.
 
 #### Round 3 vs Mason Slate on {B}{R} Reanimator. Win (2-0)
 
@@ -410,8 +411,10 @@ easy turn 2 win.
 ### Nicholas French-Seats (germancouch) - 59th Place (6-3)
 
 Deck style: Grixis Turbo Meandeck.
-[Decklist](https://mtgmelee.com/Decklist/View/163733) *Note: MtGMelee has a
-mistake and the {{Vapor Snag}} should be a {{Chain of Vapor}}.
+[Decklist](https://mtgmelee.com/Decklist/View/163733)
+
+*Note: MtGMelee has a mistake and the {{Vapor Snag}} should be a {{Chain of
+Vapor}}.*
 
 > I don’t have a ton of notes about each match other than what I played against
 > but I’ll try to recall anything notable. In terms of prep was I played at
@@ -450,7 +453,7 @@ have been a nutty bluff too.
 #### Round 4 vs Michael Morris on {R}{W} Painter. Win (2-0)
 
 Both games I had some really good hands that went off quick with protection. G1
-he plays {{Ancient Den}}->pass which I read as not a Force deck so I just
+he plays {{Ancient Den}} then passes which I read as not a Force deck so I just
 jammed.
 
 G2 had counters for anything that mattered and jammed a pile that wins on the
@@ -555,14 +558,21 @@ at no black mana. Now that {{Consider}} is legal too I’m looking forward to
 trying {{Consider}} + {{Deep Analysis}} which brings me to my list changes.
 
 Maindeck:
-- Taking out the {{Island}} and replacing it with either a {{Watery Grave}} or the 9th fetch.
-- Making room for some number of {{Consider}} + {{Deep Analysis}}. Probably going to start with
-cutting {{Preordain}} + trimming some cyclers and see where that goes.
+
+- Taking out the {{Island}} and replacing it with either a {{Watery Grave}} or
+  the 9th fetch.
+- Making room for some number of {{Consider}} + {{Deep Analysis}}. Probably
+  going to start with cutting {{Preordain}} + trimming some cyclers and see
+  where that goes.
 
 Sideboard:
-- Cutting {{Nausea}}. Against elves I didn’t seem to need it and I have {{Massacre}} against DnT.
-- Cutting the Emrakul + Shelldock plan and going to try the double-Oracle plan for {{Endurance}} decks.
-- Adding another {{Pact of Negation}} and a {{Spell Pierce}} into the remaining open slots.
+
+- Cutting {{Nausea}}. Against elves I didn’t seem to need it and I have
+  {{Massacre}} against DnT.
+- Cutting the Emrakul + Shelldock plan and going to try the double-Oracle plan
+  for {{Endurance}} decks.
+- Adding another {{Pact of Negation}} and a {{Spell Pierce}} into the remaining
+  open slots.
 
 ### Dave Boruta (Ruta Barracuda) - 106th Place (5-4)
 
