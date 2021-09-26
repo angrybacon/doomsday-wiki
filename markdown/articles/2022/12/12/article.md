@@ -4,13 +4,20 @@ banner: /banners/dark-ritual.leb.jpg
 title: The History of Doomsday - An interview with Emidln
 ---
 
+Note: the raw :card[Brainstorm] video :card[Veil of Summer] is over five hours
+long so is quite a journey. It also includes a lot of segways and general
+chatter however as I say in it: "the people who will be listening to this will
+enjoy a big ramble about Storm".
+
+::soundcloud{url=https://soundcloud.com/ddftwiki/a-history-of-doomsday}
+::youtube{id=3LLIFHv5kbo}
+
 :::row
 - Doomsday
 - Brainstorm
 - LED |  MIR
 :::
 
-<soundcloud url="https://soundcloud.com/ddftwiki/a-history-of-doomsday" />
 
 ## Test 1
 
@@ -28,8 +35,6 @@ iterating, adjusting, and refining my lists.
 *Note: the raw video is over five hours long so is quite a journey. It also
 includes a lot of segways and general chatter however as I say in it: "the
 people who will be listening to this will enjoy a big ramble about Storm".*
-
-<youtube id="3LLIFHv5kbo" />
 
 ::decklist{path=meandeck.darcy}
 ::decklist{path=2021/07/26/ddft.ub.lim-dul-vault}

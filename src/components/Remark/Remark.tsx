@@ -76,10 +76,10 @@ export const Remark: FunctionComponent<Props> = ({
   const classes = useStyles();
   const { matter, scries, text } = markdown;
   const plugins: PluggableList = [
-    remarkBase(),
-    remarkCard(),
-    remarkDecklist({ decklists }),
-    remarkRow({ scries }),
+    remarkBase,
+    remarkCard,
+    [remarkDecklist, { decklists }],
+    [remarkRow, { scries }],
   ];
   return (
     <div className={c(classes.root, className)}>
