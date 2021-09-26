@@ -118,7 +118,7 @@ before I could resolve {{Thassa’s Oracle}}.
 #### Round 3 vs Derek Toth on Urza Echo. Win (2-0)
 
 G1. This is another game that I didn’t get the right deck my opponent was
-playing. They cast a {{Chalice of the Void]] on turn one off a {{City of
+playing. They cast a {{Chalice of the Void}} on turn one off a {{City of
 Traitors}} which I countered. I cast {{Doomsday}} the following turn and make a
 pile that can beat anything but a {{Trinisphere}}, they don’t cast anything and
 just pass the turn, {{Thassa’s Oracle}} enters the battlefield and we reach for
@@ -723,7 +723,7 @@ player, I would have said this would have been a fine keep. Against Bryant on
 TES, I should have looked for a faster combo hand, since that is how
 {{Doomsday}} wins the Storm matchup. I opened with fetching for an {{Underground
 Sea}} and cast {{Ponder}} – I believe I shuffled that {{Ponder}} and drew
-{{Lotus Petal}. Bryant had a very fast start as expected and was able to play
+{{Lotus Petal}}. Bryant had a very fast start as expected and was able to play
 out much of his mana as expected and cast {{Ponder}}. On my turn, I drew
 {{Brainstorm}} and cast it to find another {{Brainstorm}}, a second {{Street
 Wraith}}, and a land – no second blue card to hold up double FoW. I put {{Lotus
@@ -924,7 +924,7 @@ cantrips were unable to find another {{Doomsday}} in the following turns,
 meaning I quickly died to a board of ninjas.
 
 Game 3, I kept a slower 7 that was full of disruption. My opponent mulled to 5.
-I opened on {{Thoughtseize}], taking his {{Force of Will}}. He played out his
+I opened on {{Thoughtseize}}, taking his {{Force of Will}}. He played out his
 two {{Ornithopter}}s and passed. On my turn, I cantripped to find {{Doomsday}}
 and left mana open to {{Stifle}} ninjitsu, which I did the following turn. My
 next draw was a {{Red Elemental Blast}}, which I used on Yuriko the next time it
@@ -953,7 +953,7 @@ opponent casts {{Grindstone}} on his turn, which is met with {{Force of Will}}
 from me. He forces back, I Red Blast his force, and he Forces again. The next
 time he untaps, I lose.
 
-Game 3, I mull to 5 looking for a quick {{Doomsday}, which I don’t find.
+Game 3, I mull to 5 looking for a quick {{Doomsday}}, which I don’t find.
 Instead, I have {{Abrade}}, Petal, Fetch, Cantrip, {{Dark Ritual}}. I cantrip
 turn 1 and shuffle to draw {{Street Wraith}}. My opponent plays turn 1 Painter.
 Turn 2, I attempt to {{Abrade}} and am met with {{Force of Will}}. From there,
