@@ -13,6 +13,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       borderTopWidth: 1,
       display: 'flex',
       justifyContent: 'space-between',
+      overflowX: 'auto',
       paddingBottom: theme.spacing(2),
       paddingTop: theme.spacing(2),
     },
