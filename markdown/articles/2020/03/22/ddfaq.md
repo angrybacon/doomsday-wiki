@@ -96,7 +96,7 @@ amongst other things (see example below).
 <row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</row>
 
 Instead of using :card[Burning Wish] for additional copies of Doomsday, the deck
-uses cards like {{Lim-Dûl's Vault}} to act as tutor pieces prior to *going off*
+uses cards like :card[Lim-Dûl's Vault] to act as tutor pieces prior to *going off*
 and facilitate the kill from an active Frenzy (as they let you stack the top of
 the deck you are playing from).
 
@@ -154,7 +154,7 @@ copies in the deck up to 7 (3 DD, 4 BW).
 There are a number of other cards that can also fall into this category
 alongside :card[Burning Wish] as cards that are basically designed to find
 :card[Doomsday] to win. These include, but are not limited to, the aforementioned
-:card[Burning Wish], {{Lim-Dûl's Vault}} and :card[Wishclaw Talisman]. They are
+:card[Burning Wish], :card[Lim-Dûl's Vault] and :card[Wishclaw Talisman]. They are
 mostly there to increase your Doomsday count beyond 4 as it is normally the card
 that needs to resolve to enable you to win the game. :card[Experimental Frenzy]
 also falls under this category as it generally counts as a card that will
@@ -463,7 +463,7 @@ for drawing into a Doomsday pile.
 
 From the sideboard {W} offers a plan B in the form of :card[Monastery Mentor] that
 plays well with the cantrip dense lists that are run. Removal comes in the form
-of :card[Disenchant] or {{Wear//Tear}} for artifact or enchantment hate and
+of :card[Disenchant] or :card[Wear//Tear] for artifact or enchantment hate and
 :card[Swords to Plowshares] to deal with problematic creatures. You also gain some
 additional graveyard hate options in the form of :card[RiP].
 

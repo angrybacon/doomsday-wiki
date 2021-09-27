@@ -84,7 +84,7 @@ Additions:
 There is only one real control deck left, Bant Miracles.  
 The control decks were never a real problem for us. We always had very good
 matchups against them, because they had no effective tools to beat us, outside
-of :card[Meddling Mage] and some special targeted hate like {{Archmage’s Charm}} or
+of :card[Meddling Mage] and some special targeted hate like :card[Archmage's Charm] or
 :card[Torpor Orb] but Modern Horizons 2 changed that.
 
 With Endurance Bant Miracles got a new tool to beat us post Doomsday. A flashed
@@ -108,7 +108,7 @@ slam and win in the next or same turn, but sadly they now have an answer post
 Doomsday and can easily protect it with :card[Allosaurus Shepherd]. I still think
 it is a good match up for us, but we have to play more carefully now.
 
-They also got a 3 mana Planeswalker they can fetch with {{Green Sun’s Zenith}},
+They also got a 3 mana Planeswalker they can fetch with :card[Green Sun's Zenith],
 :card[Grist, the Hunger Tide].
 
 It won’t come up very often, but the -5 ability has the potential to kill us
@@ -233,7 +233,7 @@ The typical Turbo List contains:
 Mainboard
 
 - 14-16 Lands (mainly 4 Underground Sea and sometimes no basics)
-- 1 {{Lion’s Eye Diamond}}
+- 1 :card[Lion's Eye Diamond]
 - 4 :card[Lotus Petal]
 - 0-1 :card[Pact of Negation] (to beat Endurance in game 1 and for faster wins
   against Delver)
@@ -248,7 +248,7 @@ Mainboard
 - 1-2 :card[Edge of Autumn] (more cyclers help with the consistency of same turn
   wins)
 - 1 :card[Ideas Unbound]
-- 1-2 {{Thassa’s Oracle}} (2 Oracles help with Endurance)
+- 1-2 :card[Thassa's Oracle] (2 Oracles help with Endurance)
 - 4 :card[Doomsday]
 - 2-4 :card[Street Wraith] (again more cyclers help with the consistency of same
   turn wins)
@@ -265,7 +265,7 @@ Sideboard
   Dispute]
 - 0-2 Cheap creature removal such as :card[Fatal Push]
 - 0-2 Bounce spells like :card[Echoing Truth]
-- 1 Anti-Endurance package (:card[Shelldock Isle] + {{Emrakul the Aeon’s Torn}} or
+- 1 Anti-Endurance package (:card[Shelldock Isle] + :card[Emrakul, the Aeon's Torn] or
   something like :card[Echo of Eons])
 
 The most important changes post MH2 are the packages to beat :card[Endurance] and
@@ -282,7 +282,7 @@ winning in one turn.
 
 The most important techs emerged to beat :card[Endurance].  
 Some lists play two :card[Thassa's Oracle] or :card[Echo of Eons], but the most common
-techs are :card[Shelldock Isle] + {{Emrakul, the Aeon’s Torn}} and :card[Pact of
+techs are :card[Shelldock Isle] + :card[Emrakul, the Aeon's Torn] and :card[Pact of
 Negation].
 
 The Emrakul plan can even be combined with Thassa's Oracle for very resilient

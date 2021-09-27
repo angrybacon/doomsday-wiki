@@ -268,7 +268,7 @@ turn or can it wait until the next? One of the hardest lessons to learn in
 Legacy is probably when it is fine to play a land and simply say "go". If you
 are playing against a {U} based control deck, often they will not be able to
 place any pressure on the board until the later turns or if they do, it is often
-only something like an {{Ice-Fanged Coatl}}. Being chipped away for 1 a turn is
+only something like an :card[Ice-Fanged Coatl]. Being chipped away for 1 a turn is
 fine as it gives you a lot of time to work with so don't feel like you have to
 use all your mana every turn. This same principle applies to facing against
 :card[Daze] decks like Delver. It's okay to take a turn or two and simply develop
@@ -313,7 +313,7 @@ one card away from having the win, this might not be worth doing, especially if
 you know the top cards of your library.
 
 The cyclers can also be used to improve the use of setup cards like
-{{Lim-Dûl's Vault}} by enabling mana efficient ways of drawing the cards tutored
+:card[Lim-Dûl's Vault] by enabling mana efficient ways of drawing the cards tutored
 for within the same turn. You can also use them to access *hidden* cards on the
 top of your deck. Hiding a Force of Will or a Daze on the top of your deck, with
 a Street Wraith in hand, means you can potentially dodge it getting hit by a

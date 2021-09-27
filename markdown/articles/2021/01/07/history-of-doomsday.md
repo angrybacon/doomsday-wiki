@@ -163,7 +163,7 @@ dangerous as :card[Tormod's Crypt] was one of the most commonly played sideboard
 cards at the time. It also had some trouble finding the pieces as the only
 non-:card[Brainstorm] cantrips available were :card[Serum Visions] and thing like
 :card[Portent] however these weren't even really used. The main lists focussed on
-using Mystical Tutor and {{Lim-dul's Vault}} to assemble the pieces they needed
+using Mystical Tutor and :card[Lim-Dul's Vault] to assemble the pieces they needed
 to go off.
 
 When Champion's of Kamigawa came out in late 2004 it brought with it a new tool
@@ -201,7 +201,7 @@ Moving sideways for the time being, storm decks were viable from the onset of
 Legacy with the most well known list at the time being known as *Iggy Pop*,
 designed by Michael Bomholt whose original primer can be found
 [HERE](https://web.archive.org/web/20090104201512/http://www.starcitygames.com/php/news/article/10989.html).
-Iggy was a {U}{B} storm list based around the engine of {{Ill-Gotten Gains}}
+Iggy was a {U}{B} storm list based around the engine of :card[Ill-Gotten Gains]
 coupled with rituals effects, other fast mana, Lion's Eye Diamonds and
 :card[Tendrils of Agony] with tools like Mystical Tutor and :card[Intuition] to find
 them. The deck was very proactive, to the point it didn't run much protection at

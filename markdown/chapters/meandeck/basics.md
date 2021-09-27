@@ -139,8 +139,8 @@ spells or who are holding something like :card[Stifle] up.
 
 <row variant="pile">{{!DA}} {{!LED}} {{!SW}} {{!LP}} {{!TO}}</row>
 
-If you are low on resources you can utilise the above pile using {{Consider}} in
-conjunction with {{Deep Analysis}}. Consider allows you to put Deep Analysis
+If you are low on resources you can utilise the above pile using :card[Consider] in
+conjunction with :card[Deep Analysis]. Consider allows you to put Deep Analysis
 into your graveyard and draw the Lion's Eye Diamond. You can then cast the Deep
 Analysis with Flashback using the Diamond mana. This allows you to then draw
 into additional mana and the Oracle. You can replace Petal with Cavern of Souls

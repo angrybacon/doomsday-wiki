@@ -160,7 +160,7 @@ don't expect much.
 Another list based on the "X is just Doomsday 5-8!" idea. I actually first had
 this idea shortly after :card[Gitaxian Probe] got banned. It wasn't good then, so I
 probably shouldn't have expected much now, but hey, Oracle had been printed
-since back then, so why not give it another shot? {{Lim-Dul's Vault}} can be
+since back then, so why not give it another shot? :card[Lim-Dul's Vault] can be
 used to arrange the top few cards into something that can generate lethal Storm.
 Play a few Draw4's and multiple copies of Tendrils maindeck so you have a better
 shot at arranging a lethal pile with LDV.
