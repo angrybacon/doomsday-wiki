@@ -12,7 +12,7 @@ new printings.
 
 ## Current Decklists
 
-Since the printing of {{Thassa's Oracle}}, an old friend resurged from the dead:
+Since the printing of :card[Thassa's Oracle], an old friend resurged from the dead:
 Meandeck Doomsday. The list plays a more reactive role in most matchups and
 focuses on building resources before going off. Since TO is so compact and cheap
 compared to its predecessors, it can still allow for quick win with an actual
@@ -48,19 +48,19 @@ inspiration to the construction of that list.
 
 <deck path="2018/12/ddft.txt" />
 
-After the banning of {{Sensei's Divining Top}}, the deck changed its shape a
+After the banning of :card[Sensei's Divining Top], the deck changed its shape a
 little bit. The number of copies of Lotus Petal was increased to pump up the
 speed, since without Top the ability to grind was diminished.
-{{Conjurer's Bauble}} saw its first appearance as a *stored draw* like Top was,
+:card[Conjurer's Bauble] saw its first appearance as a *stored draw* like Top was,
 and as a way to loop cards back into Doomsday piles.
 
 <deck path="2018/06/ddft.txt" />
 
 The classic list, considered by many to be the most playable form of the deck.
 It was built to beat the Miracles decks of the day, and the maindeck copies of
-{{Abrupt Decay}} and the full playset of Top helped it play a long game and
-muscle through {{Counterbalance}}. {{Shelldock Isle}} and Emrakul,
-{{Xantid Swarm}}, and more decays gave it a strong sideboard plan against the
+:card[Abrupt Decay] and the full playset of Top helped it play a long game and
+muscle through :card[Counterbalance]. :card[Shelldock Isle] and Emrakul,
+:card[Xantid Swarm], and more decays gave it a strong sideboard plan against the
 slow blue decks.
 
 RiP Sensei's Divining Top.

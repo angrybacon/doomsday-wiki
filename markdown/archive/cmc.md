@@ -4,8 +4,8 @@ title: Limited Numbers
 
 This is a generic title. This section discusses all cards that selectively lock
 off a certain CMC cost of a spell. This can include things like
-{{Chalice of the Void}}, {{Sanctum Prelate}} or non-permanent hate such as
-{{Spell Snare}}. There are some CMCs the deck needs to be able to function, and
+:card[Chalice of the Void], :card[Sanctum Prelate] or non-permanent hate such as
+:card[Spell Snare]. There are some CMCs the deck needs to be able to function, and
 some that are completely optional. Here we shall explore the relevancy these
 cards have against us and some strategies to face them.
 
@@ -52,9 +52,9 @@ playing with maindeck ToA then you don't need to worry about these additional
 colour requirements but for most DDFT lists you do.
 
 CMC 0 basically only stops Engineered Explosives in terms of cards we can bring
-in to fight it. Anything else such as {{By Force}}, {{Hurkyl's Recall}} or
+in to fight it. Anything else such as :card[By Force], :card[Hurkyl's Recall] or
 similar can all deal with a Chalice on 0 with no issue and similarly,
-{{Massacre}}, {{Abrupt Decay}} and {{Pyroclasm}} can all easily deal with
+:card[Massacre], :card[Abrupt Decay] and :card[Pyroclasm] can all easily deal with
 Sanctum Prelate. One thing to note is, should you by some means have a way to
 generate colourless mana, you can in fact play EE for {1} and it will resolve
 with 0 counter on due to the nature of Sunburst only counting coloured mana.
@@ -65,9 +65,9 @@ This is THE classic opener of Stompy variants, Aggro Loam and other strategies
 that aren't concerned with cantripping or similar. The main issue with this
 limitation is getting to the point you can cast Doomsday rather than the actual
 going off. Obviously things like running BW along with artifact hate such as
-{{Meltdown}} can help get around the issue but you may just find you can go off
+:card[Meltdown] can help get around the issue but you may just find you can go off
 without it (however unlikely that may be). You can also just try to go for an
-{{EtW}} play by throwing cantrips into Chalice then using lands, LP and LEDs to
+:card[EtW] play by throwing cantrips into Chalice then using lands, LP and LEDs to
 BW for EtW. This can also achieve a natural ToA kill if you have the time and
 resources.
 
@@ -76,7 +76,7 @@ lack of being able to cast things like DR or CB. IC is the preferred draw method
 here as it means you get the complete stack rather than IU that leaves you
 needing to draw an additional card. If you have a CB in play already then there
 is obviously no issue but it is still worth considering. This is also where the
-cycling ability of Street Wraith and {{Edge of Autumn}} shines as it represents
+cycling ability of Street Wraith and :card[Edge of Autumn] shines as it represents
 a cantrip that, although does not generate Storm, does allow drawing into the
 pile and also drawing a card for LM victories.
 
@@ -103,8 +103,8 @@ like Edge of Autumn to access the pile are all considerations.
 
 <row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</row>
 
-In terms of removal there is very little here. Only {{Chain of Vapor}} and
-{{Void Snare}} are affected here. This is where By Force shines over some other
+In terms of removal there is very little here. Only :card[Chain of Vapor] and
+:card[Void Snare] are affected here. This is where By Force shines over some other
 artifact removal as casting By Force with X = 1 means that it becomes a CMC 2
 card that then allows you to destroy a single Chalice set to 1. A Sanctum
 Prelate is equally vulnerable as most of our removal for creatures costs 2 or 4.
@@ -146,13 +146,13 @@ answers and if in doubt, you can still initiate an Empty the Warrens line with
 no issue.
 
 Removal-wise this does not prevent anything really unless you are going for
-something more spicy such as {{Toxic Deluge}} or {{Rushing River}}. Otherwise
+something more spicy such as :card[Toxic Deluge] or :card[Rushing River]. Otherwise
 all your removal is turned on and ready to go.
 
 ## 4 Mana Cost Spells
 
-In this category we introduce, in addition to Prelate and Chalice, {{Gaddock
-Teeg}} as another limitation permanent we could face. The main thing here is
+In this category we introduce, in addition to Prelate and Chalice, :card[Gaddock
+Teeg] as another limitation permanent we could face. The main thing here is
 that this number block prevents our Storm finishers from being used. LM piles
 are completely unaffected so those are an easy line to victory.
 
@@ -177,7 +177,7 @@ discussed simply incorporating these cards into piles to allow us to win.
 Obviously certain limitations will prevent you getting to these piles in the
 first place but these should still give you an idea of how to swap out pile
 elements for the required removal. For ease of clarity I shall present the use
-of {{Nature's Claim}} for it's unique mana cost of {G} which you can swap out
+of :card[Nature's Claim] for it's unique mana cost of {G} which you can swap out
 for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
@@ -235,7 +235,7 @@ remove a limitation.
 
 With so many sets having seen print, there is now a veritable plethora of
 different removal options for getting rid of things like
-{{Chalice of the Void}}, {{Trinisphere}} and {{Thorn of Amethyst}} with many
+:card[Chalice of the Void], :card[Trinisphere] and :card[Thorn of Amethyst] with many
 being able to get rid of multiple at the same time. See the [removal
 tables][removal-tables] for more details.
 

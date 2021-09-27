@@ -4,7 +4,7 @@ title: Playing Around Surgical Extraction
 
 When people are sideboarding to face Doomsday there is one card that they so
 often bring in along with all the discard, counter-magic, spheres and such;
-{{Surgical Extraction}}. This card is particularly annoying as it performs a
+:card[Surgical Extraction]. This card is particularly annoying as it performs a
 number of functions against us. It removes options from our piles that can be
 very key (commonly LED). It can take out the namesake card (assuming no BW or
 after BW into DD) and worse of all it can cause us to shuffle our perfect five

@@ -2,10 +2,10 @@
 title: Conjurer's Bauble Piles
 ---
 
-Historically {{Sensei's Divining Top}} held a place as a standard 4-of in the
+Historically :card[Sensei's Divining Top] held a place as a standard 4-of in the
 deck to act as deck filtering and a *free saved* card draw for Doomsday piles.
 
-After Top was banned, {{Conjurer's Bauble}} was identified as the closest
+After Top was banned, :card[Conjurer's Bauble] was identified as the closest
 equivalent for use in Doomsday Storm or Laboratory Maniac piles that would allow
 a free draw that was also resistant to having to discard as a result of using
 Lion's Eye Diamond. It can be included as a singleton copy to act as a

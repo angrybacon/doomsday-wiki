@@ -4,13 +4,13 @@ order: 0
 title: The Basics
 ---
 
-The goal of all Magic decks is to win the game. {{Doomsday}} aims to do so by
+The goal of all Magic decks is to win the game. :card[Doomsday] aims to do so by
 casting its namesake card and constructing a *pile* of 5 cards tailored to the
 current game state. While it would be nigh impossible to enumerate every game
 state and pile variation, these chapters are aimed to show you the basic
 concepts behind casting and winning with Doomsday. There is one primary win
 condition that is used in this version of the deck to win with and that is via
-{{Thassa's Oracle}}.
+:card[Thassa's Oracle].
 
 ## Pile Construction Steps
 
@@ -41,8 +41,8 @@ We will use the phrase *dig* to mean to initially draw into the five cards you
 have stacked with Doomsday.  
 The most common way to *dig* into your pile is via a *cantrip* effect. This is a
 spell or ability which draws a card upon resolution. Typically this is provided
-by one of the commonly played {U} filter effects like {{Preordain}} or a free
-cycle effect like {{Street Wraith}}. If you are not under pressure you can also
+by one of the commonly played {U} filter effects like :card[Preordain] or a free
+cycle effect like :card[Street Wraith]. If you are not under pressure you can also
 simply pass the turn to the opposing player and use your next turn's draw step
 in order to *dig* into the *pile*. When this is performed it is simply known as
 a *pass the turn pile* or *PTT pile*.
@@ -79,7 +79,7 @@ need {U}{U} + {U}.
 
 Sometimes we will use the terminology of X. In this instance X means having any
 single card in hand, irrespective of what that card is. An X card is normally
-used in conjunction with {{Brainstorm}} and thus is rarely cast but we will
+used in conjunction with :card[Brainstorm] and thus is rarely cast but we will
 explore more of this in another chapter.
 
 ## Single Cantrip + Ideas Unbound Pile
@@ -88,13 +88,13 @@ explore more of this in another chapter.
 
 <row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
 
-Here you can use a cantrip to access the {{Ideas Unbound}}. This allows you to
-draw the two {{Lotus Petal}}s and the cycle effect. You can then cycle to draw
+Here you can use a cantrip to access the :card[Ideas Unbound]. This allows you to
+draw the two :card[Lotus Petal]s and the cycle effect. You can then cycle to draw
 the Oracle and cast it using the two Petals. Because this pile does not make use
-of {{Lion's Eye Diamond}} you can hold up cards like {{Force of Will}} or
-{{Daze}} in order to protect it. You can also substitute Street Wraith for
-{{Edge of Autumn}} if you are low on life or a Lotus Petal for a {{Cavern of
-Souls}} if you have a land drop available to you.
+of :card[Lion's Eye Diamond] you can hold up cards like :card[Force of Will] or
+:card[Daze] in order to protect it. You can also substitute Street Wraith for
+:card[Edge of Autumn] if you are low on life or a Lotus Petal for a :card[Cavern of
+Souls] if you have a land drop available to you.
 
 ## Single Cantrip + Predict Pile
 
@@ -102,14 +102,14 @@ Souls}} if you have a land drop available to you.
 
 <row variant="pile">{{!Pdt}} {{!Pnd}} {{!LED}} {{!SW}} {{!TO}}</row>
 
-This is a slightly different take for people who wish to use {{Predict}} over
+This is a slightly different take for people who wish to use :card[Predict] over
 Ideas Unbound. In this example you use your cantrip effect to draw Predict. You
-cast Predict to name the top card of your deck, in this example {{Ponder}},
+cast Predict to name the top card of your deck, in this example :card[Ponder],
 drawing the cycle effect and Lion's Eye Diamond (LED). You cast the LED. You
 then cycle, hold priority, and *crack* the LED for {U}{U}{U}.
 
 *Crack is a colloquial term for activating a mana rock like LED or Lotus Petal
-(LP) or for sacrificing a Fetchland like {{Polluted Delta}}.*
+(LP) or for sacrificing a Fetchland like :card[Polluted Delta].*
 
 Once the cycle draw resolves, you will now have the mana to cast Oracle.
 
@@ -131,7 +131,7 @@ spell and cast it to draw into Oracle and the LP required for the second {U}.
 In one of those examples above we have included a suggestion where you can
 include protection slots within the pile. If you have the available mana it may
 help you against opponents who are either trying to slow roll their permission
-spells or who are holding something like {{Stifle}} up.
+spells or who are holding something like :card[Stifle] up.
 
 ## Consider Piles
 
@@ -173,7 +173,7 @@ protection slots within the pile.
 
 For any of the above examples you can reduce the cost drastically by using the
 free cyclers Street Wraith and/or Edge of Autumn. There are also some
-interesting tricks we can utilise where the card {{Brainstorm}} is one of the
+interesting tricks we can utilise where the card :card[Brainstorm] is one of the
 cantrips within our hand however we will cover those in another chapter.
 
 Another option is the use of Deep Analysis if you have it, or an LED in hand.

@@ -20,7 +20,7 @@ which will cover cards that don't fit nicely into the others.
 ## Fighting through Countermagic
 
 Throughout the history of Legacy, roughly 30-50% of decks at any given time have
-played the card {{Force of Will}}. Countermagic is the most common type of
+played the card :card[Force of Will]. Countermagic is the most common type of
 interaction/hate your opponent will have for you in game 1, and so you must be
 prepared to play against it. Due to how common countermagic is, the deck is well
 prepared for the fight.
@@ -52,8 +52,8 @@ have just one card you care about.
 ### Example 2
 
 Another option if your opponent has something like Flusterstorm is to avoid
-casting lots of instants and sorceries. If you're playing multiple {{Street
-Wraith}}, a pile like this can completely invalidate Flusterstorm (assuming
+casting lots of instants and sorceries. If you're playing multiple :card[Street
+Wraith], a pile like this can completely invalidate Flusterstorm (assuming
 Doomsday resolves):
 
 > {U}{U}, 4 life
@@ -98,7 +98,7 @@ and then you're free to cycle into Oracle.
 
 It is common to face discard in the legacy format, especially from other combo
 decks and non-blue midrange. Discard comes in a few varieties, a la
-{{Thoughtseize}}, {{Hymn to Tourach}}, and {{Liliana of the Veil}}, but you
+:card[Thoughtseize], :card[Hymn to Tourach], and :card[Liliana of the Veil], but you
 fight through them all in fundamentally the same way. Pass-the-turn piles are a
 powerful weapon against discard. They don't need to rely on cards in hand after
 Doomsday, and they require minimal initial input, i.e. a single hardcast
@@ -267,7 +267,7 @@ pass 2 turns.
 
 ### Narset and Leovold
 
-{{Narset, Parter of Veils}} and {{Leovold, Emissary of Trest}} both make it
+:card[Narset, Parter of Veils] and :card[Leovold, Emissary of Trest] both make it
 difficult to win the game by making you unable to draw through your pile. The
 key to both cards is that you can't draw more than 1 card per turn, meaning you
 can draw a card on your opponent's turn.
@@ -286,7 +286,7 @@ proposition. But the pile is there, so you should know about it.
 
 ### Counterbalance
 
-Playing through {{Counterbalance}} is not easy. Using a normal decklist, in game
+Playing through :card[Counterbalance] is not easy. Using a normal decklist, in game
 1 there is no *standard* way of getting through it. If you can resolve a Veil of
 Summer that will certainly work, but most Counterbalance players will try to
 keep a 1-cost card on top of their deck as much as possible so this can prove
@@ -379,7 +379,7 @@ is possible they could have another Surgical Extraction, so you should sequence
 carefully here too. Play the Petals first. If you use a Petal before casting the
 second, they'll have an opportunity to Extract, and likewise with the Rituals.
 
-This next technique won't work against {{Extirpate}} due to Split Second but it
+This next technique won't work against :card[Extirpate] due to Split Second but it
 can be effective at fighting Surgical Extraction
 
 > Ponder, Brainstorm in hand - {B}{B}{B} + {U}{U}, maximum 4 life
@@ -442,7 +442,7 @@ Eons is at all affected as a gameplan, and against a card like Tormod's Crypt
 proper sequencing will let you Echo through it anyway. Cabal Ritual has reduced
 effectiveness against some grave hate, but it's still at least +1 mana no matter
 what. One way you can get into a bit of trouble is if they have exiling grave
-hate like {{Leyline of the Void}} and discard, and manage to exile the cards you
+hate like :card[Leyline of the Void] and discard, and manage to exile the cards you
 need in your pile. This sort of situation is so rare that it frankly isn't worth
 worrying too much about.
 

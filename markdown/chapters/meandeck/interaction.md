@@ -62,13 +62,13 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 This example is good if you suspect removal but are not under too much pressure
 where you would not survive another turn. You can try and *go off* with a backup
 Oracle in the deck the turn after. Stacking the Edge above the second Oracle can
-also protect against things like a dashed {{Ragavan, Nimble Pilferer}}.
+also protect against things like a dashed :card[Ragavan, Nimble Pilferer].
 
 This pile plays around the following:
 
-- {{Warping Wail}}
+- :card[Warping Wail]
 - Unavailability of Predict/Ideas Unbound
-- {{Stifle}} for the first Oracle
+- :card[Stifle] for the first Oracle
 - Removal for both Oracles
 - Countermagic for the first Oracle
 
@@ -79,9 +79,9 @@ especially if your opponent is likely to hold removal as you go off.
 
 With enough mana, and other relevant permanents in your deck, you can utilise
 extra potential Devotion to {U} to help bolster your effect. Cards like
-{{Baleful Strix}}, {{Counterbalance}}, {{Snapcaster Mage}} or even {{Teferi,
-Time Raveler}} are a few examples. The concepts presented here can also help
-beat something like {{Endurance}} which, although doesn't actually remove the
+:card[Baleful Strix], :card[Counterbalance], :card[Snapcaster Mage] or even :card[Teferi,
+Time Raveler] are a few examples. The concepts presented here can also help
+beat something like :card[Endurance] which, although doesn't actually remove the
 Oracle, does result in your deck having too many cards to enable you to win off
 of the trigger.
 
@@ -236,7 +236,7 @@ already explained.
 
 ### Chalice of the Void
 
-{{Chalice of the Void}} is a Legacy staple that is featured in a number of
+:card[Chalice of the Void] is a Legacy staple that is featured in a number of
 decks. It seeks to generate card advantage by (hopefully) countering a number of
 cards or preventing the casting of cards of a certain CMC. Normally Chalice is
 set to X = 1 most of the time which, although can be a heavy detriment to a deck
@@ -300,8 +300,8 @@ Doomsday in the first place.
 
 ### Taxing Effects
 
-When discussing these effects we are talking about things like {{Thalia,
-Guardian of Thraben}} and {{Thorn of Amethyst}}. These generally do not actively
+When discussing these effects we are talking about things like :card[Thalia,
+Guardian of Thraben] and :card[Thorn of Amethyst]. These generally do not actively
 stop you *going off* and winning the game however they do present potential for
 a lot of delay on reaching that combo turn, especially if being placed under
 pressure. The piles themselves can be adapted, using the free cyclers, to try
@@ -319,8 +319,8 @@ the removal being cast as well so bear that in mind.
 ### Spell Restrictors
 
 Spell restrictors are things that place a limitation of how many spells you may
-be able to cast in a given turn. Cards like {{Ethersworn Canonist}} or
-{{Deafening Silence}} both achieve this well. Just like the limitations with the
+be able to cast in a given turn. Cards like :card[Ethersworn Canonist] or
+:card[Deafening Silence] both achieve this well. Just like the limitations with the
 tax effects, these generally only seek to slow you down rather than prevent a
 full game win and both can be played around.
 
@@ -332,9 +332,9 @@ the pile cost by {1}, {U} or {S}.
 ### Draw Restrictors
 
 This category is one of the hardest to fight through effectively as they cause
-both delay and prevention of most of the piles we want to use. {{Leovold,
-Emissary of Trest}}, {{Narset, Parter of Veils}}, {{Hullbreacher}} and {{Spirit
-of the Labyrinth}} all fall under this heading. The easiest way to deal with
+both delay and prevention of most of the piles we want to use. :card[Leovold,
+Emissary of Trest], :card[Narset, Parter of Veils], :card[Hullbreacher] and :card[Spirit
+of the Labyrinth] all fall under this heading. The easiest way to deal with
 them is of course removal however that is not always viable, especially in game
 one. Another way is to simply pass the turn a number of times using the sorcery
 speed cantrips on your turn and the instant speed free cyclers on the opponent's
@@ -361,9 +361,9 @@ about; please read the below Oracle text of Doomsday:
 > You lose half your life, rounded up.
 
 The first line is the relevant one. When resolving Doomsday you have to search
-two zones to construct your pile. Cards like {{Ashiok, Dream Render}}, {{Leonin
-Arbiter}} and {{Aven Mindcensor}} can all prevent you from searching the library
-and cards like {{Rest in Peace}} can limit what is available to find in the
+two zones to construct your pile. Cards like :card[Ashiok, Dream Render], :card[Leonin
+Arbiter] and :card[Aven Mindcensor] can all prevent you from searching the library
+and cards like :card[Rest in Peace] can limit what is available to find in the
 graveyard. Out of these two the former is certainly the most detrimental as that
 can cut you off from the majority of your cards. So long as you are mindful of
 these you can however pull a neat trick.
@@ -375,7 +375,7 @@ serviceable pile from them. Even better if your graveyard is small or
 non-existent; you can cast Doomsday and set your library of 0 cards and then
 cast Oracle to win.
 
-There is a special case scenario with {{Opposition Agent}}. If you cast Doomsday
+There is a special case scenario with :card[Opposition Agent]. If you cast Doomsday
 with an Opposition Agent in play your opponent gets to search for five cards and
 the rest of your deck is exiled. Because your opponent controls the search they
 will get to see your hand and you will not be able to search from the graveyard.
@@ -387,12 +387,12 @@ search for five counterspells to try and stop you.
 
 Shuffle effects can be one annoyance to face when building a pile that would
 otherwise have perfect ordering to it. There are some examples that you could
-consider needing to play around like {{Field of Ruin}} or {{Assassin's Trophy}}
+consider needing to play around like :card[Field of Ruin] or :card[Assassin's Trophy]
 however the primary concern is in fact a card that is very prevalent in Legacy:
-{{Surgical Extraction}}.
+:card[Surgical Extraction].
 
-Upon successfully resolving a Doomsday, assuming no cards like {{Leyline of the
-Void}} are present, there will be one card in your graveyard and that will be
+Upon successfully resolving a Doomsday, assuming no cards like :card[Leyline of the
+Void] are present, there will be one card in your graveyard and that will be
 the resolved Doomsday itself. This is a prime target for an opposing Surgical in
 an attempt to mess up the ordering of a Doomsday pile as you try and *go off* in
 one turn. When the Surgical is used can depend on the opponent but if they wait
@@ -462,7 +462,7 @@ an unexpected interaction you may not have considered before. If something does
 <row variant="centered">{{!Grindstone}}</row>
 
 This is a consideration when facing any Painter variant. You can find yourself
-in a situation whereby your opponent may have an active {{Grindstone}} and the
+in a situation whereby your opponent may have an active :card[Grindstone] and the
 mana to activate it but you otherwise have a window to try and win. Just like
 with Surgical Extraction it is difficult to know if and/or when the opponent may
 try to activate the Grindstone but it is possible to play around.
@@ -481,8 +481,8 @@ Grindstone here you can directly grab Oracle and cast it with 2 cards left in
 your library and a devotion of 2.
 
 This is just one example in a single set of potential circumstances of course.
-Similar to this includes cards like {{Hedron Crab}}, {{Altar of Dementia}},
-{{Ipnu Rivulet}} and {{Cephalid Coliseum}}.
+Similar to this includes cards like :card[Hedron Crab], :card[Altar of Dementia],
+:card[Ipnu Rivulet] and :card[Cephalid Coliseum].
 
 ### Fireblast
 
@@ -502,7 +502,7 @@ loss.
 
 <row variant="centered">{{!Mindbreak Trap}}</row>
 
-{{Mindbreak Trap}} is a popular tool to beat combo decks and work around Veil of
+:card[Mindbreak Trap] is a popular tool to beat combo decks and work around Veil of
 Summer. If you know or suspect the possibility of facing it then you can either
 try to incorporate counter magic into your strategy or build a PTT pile that is
 mindful of the spell count. Assuming that you cast Dark Ritual into Doomsday, it
@@ -532,8 +532,8 @@ effects should it be desired.
 
 <row variant="centered">{{!Thought Scour}} {{!Pdt}} {{!Archmage's Charm}}</row>
 
-Thought Scour is not normally a common card in Legacy now that the {{Underworld
-Breach}} era is gone however it can still show up in rogue brews from time to
+Thought Scour is not normally a common card in Legacy now that the :card[Underworld
+Breach] era is gone however it can still show up in rogue brews from time to
 time. Predict is a card advantage spell played by both Miracles and Doomsday
 pilots. Both Thought Scour and Predict can target any player and so either can
 mess up your piles at instant speed, milling a key piece in response to a
@@ -574,7 +574,7 @@ These effects all seek to prevent the Thassa's Oracle trigger from either
 resolving or ever triggering in the first place. For any permanent based one you
 will need to remove it to be able to win from the Oracle trigger. For the
 instant speed ones, you will need some sort of interaction, either counter magic
-or discard (however in the case of {{Trickbind}} you have to be proactive thanks
+or discard (however in the case of :card[Trickbind] you have to be proactive thanks
 to the split second ability) so something like Duress is a must. You can also
 consider using a second Oracle in your pile if you only suspect a single use
 example of these effects.
@@ -593,7 +593,7 @@ pile.
 
 <row variant="centered">{{!Ragavan, Nimble Pilferer}}</row>
 
-Another PTT only example. You may know about a {{Ragavan, Nimble Pilferer}} on
+Another PTT only example. You may know about a :card[Ragavan, Nimble Pilferer] on
 board or suspect your opponent might be able to *dash* one from their hand. When
 considering Ragavan you have to work out what cards in the pile they will be
 exiling with it.

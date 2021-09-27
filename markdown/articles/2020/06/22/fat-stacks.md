@@ -40,19 +40,19 @@ four-of in most lists.
 
 ### Discard
 
-Discard comprises of some ratio of {{Thoughtseize}}, {{Duress}} and
-{{Cabal Therapy}}. Of the three the former is favoured thanks to the ability to
-hit relevant hatebears like {{Thalia, Guardian of Thraben}}, {{Meddling Mage}}
-or {{Eidolon of the Great Revel}}, even despite the life loss clause. Duress
+Discard comprises of some ratio of :card[Thoughtseize], :card[Duress] and
+:card[Cabal Therapy]. Of the three the former is favoured thanks to the ability to
+hit relevant hatebears like :card[Thalia, Guardian of Thraben], :card[Meddling Mage]
+or :card[Eidolon of the Great Revel], even despite the life loss clause. Duress
 hits most relevant, stack based interaction and no life loss clause means it is
-most suitable to be used post {{Doomsday}} resolution as in-pile protection.
+most suitable to be used post :card[Doomsday] resolution as in-pile protection.
 Because of this balance 1-3 Thoughtseize and 1-2 Duress is probably advised. I
 personally like 2:1 in Thoughtseize's favour.
 
 Therapy is less favoured at the moment. It has a greater range of efficacy with
 a *higher ceiling* of potentially getting multiple hate pieces out of hand in
 one sweep but with a *lower floor* of failing to take anything at all. It does
-have one other advantage (if running {{Baleful Strix}} in the deck) that allows
+have one other advantage (if running :card[Baleful Strix] in the deck) that allows
 you to cast it multiple times thanks to the Flashback clause. Nevilshute has
 recently been having great success running a 1:1:1 ratio of all three discard
 spells in their main deck for maximum flexibility.
@@ -61,11 +61,11 @@ Targeted discard is a very effective protection method as it allows both the
 removal of at least one piece of opposing interaction from the opponent. Unlike
 other options, discard can be used in any preceeding turns to protect the combo
 or take out any disruptive permanents that may appear (like
-{{Chalice of the Void}}). It also gives information about the opposing player's
+:card[Chalice of the Void]). It also gives information about the opposing player's
 hand to help inform future decisions.
 
 The main downside to discard, and why it is not the most prevalent secondary
-interaction element, after counter magic, is of course {{Veil of Summer}}.
+interaction element, after counter magic, is of course :card[Veil of Summer].
 Firing a discard spell into an open {G} mana is a recipe for giving your
 opponent a 2 for 1. Despite this current meta trend, it's still worth running,
 it just requires some additional consideration for timing of use.
@@ -86,7 +86,7 @@ hand and the potential to need to use it after it has resolved. You may need to
 build the pile under the assumption of both Veil resolving (and cantripping) or
 not resolving / resolving without cantripping. If not properly considered, you
 may find yourself in a scenario where Veil is your only protection and
-{{Thassa's Oracle}} is on the Stack facing a {{Force of Will}} where you have no
+:card[Thassa's Oracle] is on the Stack facing a :card[Force of Will] where you have no
 cards left in your library. Suddenly the perceived advantage of Veil decreases
 dramatically.
 
@@ -95,11 +95,11 @@ worth initiating the fight by casting Veil *without value*. It may still force
 out a response from your opponent and, if paired with other interaction, could
 still allow you value if the stack starts to get more complex, leading to Veil
 resolving after other responses from your opponent (such as a desperation
-{{Brainstorm}} for example).
+:card[Brainstorm] for example).
 
 Another thing to note is Veil can offer a false sense of security. It does not
-protect from cards like {{Surgical Extraction}}, {{Mindbreak Trap}} or
-{{Stifle}} and thus, should you be in a matchup where these cards are relevant,
+protect from cards like :card[Surgical Extraction], :card[Mindbreak Trap] or
+:card[Stifle] and thus, should you be in a matchup where these cards are relevant,
 you must still consider them.
 
 ### Orim's Chant / Silence
@@ -111,9 +111,9 @@ do not intend to win in the same turn that you are resolving Doomsday in.
 Despite this they are pretty potent tools in the right scenario. At worst they
 simply *eat* a counterspell, just as a Duress or Veil might do so. At best they
 prevent (hopefully) all the opposing interaction available. Other than corner
-cases such as cycling {{Nimble Obstructionist}}, eating Oracle out of the
-graveyard in response to {{Unearth}} with {{Faerie Macabre}} or an
-{{Aether Vial}} on 4 putting a {{Venser, Shaper Savant}} into play to bounce
+cases such as cycling :card[Nimble Obstructionist], eating Oracle out of the
+graveyard in response to :card[Unearth] with :card[Faerie Macabre] or an
+:card[Aether Vial] on 4 putting a :card[Venser, Shaper Savant] into play to bounce
 Oracle off the stack, it should protect you from 99% of what you can expect to
 face.
 
@@ -126,30 +126,30 @@ consider.
 
 ### REB / Pyroblast
 
-The next tool to discuss is the pairing of {{Red Elemental Blast}} and
-{{Pyroblast}}. Often these simply perform like an additional (albeit more
+The next tool to discuss is the pairing of :card[Red Elemental Blast] and
+:card[Pyroblast]. Often these simply perform like an additional (albeit more
 limited) copy of Force of Will however there is a bit more nuance to using them
 in / considering them for your list. They cannot fight over opposing threats for
-the most part other than something like {{Show and Tell}} or {{Echo of Eons}}
+the most part other than something like :card[Show and Tell] or :card[Echo of Eons]
 but are instead good at defending against opposing countermagic. They are not
 effective against opposing Red Blasts but are effective at not being countered
 by said opposing Red Blasts. Equally, they don't prevent Veil from resolving but
 equally do not feed into it obtaining *value* which can make the consideration
 of using the Veil trickier. Splitting your Red Blast effects is a good idea when
-facing cards like {{Surgical Extraction}} or {{Meddling Mage}} as it stops the
+facing cards like :card[Surgical Extraction] or :card[Meddling Mage] as it stops the
 opponent being able to completely *lock out* you from the Red Blast effects
 completely. This is another reason it's good to have a mix of Discard effects
 too, if running them. On the other hand, if running sideboard cards like
-{{Young Pyromancer}}, {{Sprite Dragon}} or even {{Monastery Mentor}}, Pyroblast
+:card[Young Pyromancer], :card[Sprite Dragon] or even :card[Monastery Mentor], Pyroblast
 becomes superior to REB because it can be cast without targeting restrictions on
 anything in play to enable the triggers.
 
 Red Blasts have the second function that makes them favourable which is the
 ability to potential remove threats from the board as well.
-{{Narset, Parter of Veils}}, {{Leovold, Emmissary of Trest}} and
-{{Delver of Secrets}} are all viable targets that warrant removal assuming they
+:card[Narset, Parter of Veils], :card[Leovold, Emmissary of Trest] and
+:card[Delver of Secrets] are all viable targets that warrant removal assuming they
 were able to resolve in the first place. Though they can be countered (unlike
-common counterpart {{Abrupt Decay}}) they do not get stopped by Veil as decay
+common counterpart :card[Abrupt Decay]) they do not get stopped by Veil as decay
 can be. As with the other three previously mentioned, when to bring Red Blasts
 along can depend on playstyle, personal preference, expected metagame shifts, or
 even just limitations of your collection (as some may not have the correct dual
@@ -163,7 +163,7 @@ facing.
 
 ### Daze
 
-{{Daze}} gets a slot all by itself over other potential countermagic due to the
+:card[Daze] gets a slot all by itself over other potential countermagic due to the
 mana efficiency it displays. It enables easy and aggressive early combo turns
 and can protect against a variety of threats. In games expected to go longer it
 does lose its viability at hitting something but otherwise it can provide an
@@ -186,14 +186,14 @@ between them.
 ### Spell Pierce / Flusterstorm
 
 These are both proven and effective disruption / protection pieces.
-{{Spell Pierce}} has the added benefit of being able to deal with a Chalice or
-Narset in addition to other stack based interaction whereas {{Flusterstorm}} is
+:card[Spell Pierce] has the added benefit of being able to deal with a Chalice or
+Narset in addition to other stack based interaction whereas :card[Flusterstorm] is
 just generally more efficient, normally able to win a large counterwar by itself
 (generally only superceeded by an opposing Veil or sometimes another Fluster.
 Both are of course *soft* counters and thus, like Daze, can lose effectiveness
 in a longer game. These are perfectly fine to be used in a pile, especially with
 an excess of {U} available however, unlike the other, more proactive pieces,
-these can't be used effectively alongside {{Lion's Eye Diamond}}.
+these can't be used effectively alongside :card[Lion's Eye Diamond].
 
 ## Example Scenarios
 
@@ -206,8 +206,8 @@ some real world game examples.
 
 > Game 1.  
 > You're at 13 life.  
-> Opponent is on RUG Delver ft. {{Stifle}}.  
-> Opponent has 2 {{Tarmogoyf}} in play. Both are 3/4.  
+> Opponent is on RUG Delver ft. :card[Stifle].  
+> Opponent has 2 :card[Tarmogoyf] in play. Both are 3/4.  
 > You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island and
 > Bayou.  
 > You have Arcum's Astrolabe in play.  
@@ -223,7 +223,7 @@ opponent could have, and the other tools at our disposal.
 
 As the scenario stands, the first thing to try would be to consider whether to
 use the Duress or not. If we think they do not have any interaction, or only a
-single piece of basic interaction, we could consider casting {{Dark Ritual}}
+single piece of basic interaction, we could consider casting :card[Dark Ritual]
 into Doomsday and build something simple like:
 
 <row variant="pile">{{!IU}} {{!LP}} {{!EoA}} {{!LP}} {{!TO}}</row>
@@ -241,7 +241,7 @@ Daze backup.
 If we had Veil instead of Duress we should probably also cast it here first. If
 they cannot stop it then there is only Stifle that we need to be concerned with.
 You would also have to consider not being able to build a pile that wins with
-\>0 cards in the library as they may still have {{Lightning Bolt}} for Oracle.
+\>0 cards in the library as they may still have :card[Lightning Bolt] for Oracle.
 Waiting on Veil to try and accrue value is fine if you know they have an answer
 to Doomsday here however awkward if they elect to not use it until after the
 pile is resolved. We cannot assume whether we will be able to resolve Veil and
@@ -319,7 +319,7 @@ find additional protection or free up our mana.
 > Game 1.  
 > You're at 13 life.  
 > Opponent is on Landstill.  
-> Opponent has {{Standstill}} in play.  
+> Opponent has :card[Standstill] in play.  
 > You have Snow-Covered Swamp, Snow-Covered Island, Snow-Covered Island,
 > Volcanic Island and Underground Sea in play.  
 > You have not played a land.  
@@ -331,7 +331,7 @@ find additional protection or free up our mana.
 Here we have a scenario where we are not under a huge amount of pressure
 however, our opponent does have a Standstill in play, we have finally hit 8
 cards in our hand so would have to discard one anyways, and they have just
-landed a threat in the form of a tapped {{Faerie Conclave}}. This is a good time
+landed a threat in the form of a tapped :card[Faerie Conclave]. This is a good time
 to initiate a fight because even with the three cards from Standstill, they only
 hit parity with us in terms of cards in hand.
 
@@ -347,13 +347,13 @@ to have a red blast, it could likely answer most of their responses however in
 that scenario, we would have to commit the Doomsday as the initial spell as we
 would only have reactive cards. This isn't too bad as in theory it would still
 trade nicely with most of their relevant interaction however it could mean
-getting blown out by something like {{Dovin's Veto}}. For a deck like Landstill,
+getting blown out by something like :card[Dovin's Veto]. For a deck like Landstill,
 the only rogue card that really makes Thoughtseize shine over the alternatative
-options is {{Nimble Obstructionist}} being cycled as none of the other options
+options is :card[Nimble Obstructionist] being cycled as none of the other options
 can deal with it.
 
 On Thoughtseizing them, and Standstill resolving, they respond with Force of
-Will pitching the {{Supreme Verdict}} we knew about as their blue card. Now this
+Will pitching the :card[Supreme Verdict] we knew about as their blue card. Now this
 could tell us one of two things. Either, they have more interaction that they
 wish to remain hidden and are happy to trade two cards we know about to protect
 it, or, they have no more interaction and don't want us to know they are
@@ -378,7 +378,7 @@ elected to not pay for the first Force of Will indicates it is unlikely this
 will occur.
 
 Given this, we Force back and they allow Thoughtseize to resolve. We see that
-their hand has a number of blanks and a {{Force of Negation}} plus a blue card.
+their hand has a number of blanks and a :card[Force of Negation] plus a blue card.
 This is part explains why they did not want to hardcast the initial Force of
 Will so that they would have the mana for the Force of Negation. If they had
 just allowed Thoughtseize to resolve then we could have taken a Force and then
@@ -524,7 +524,7 @@ on top so fetched to try and find a Predict, potentially allowing him to try and
 go for a win, or another Force of Will, letting him hold up double Force and a
 blue card to try and beat my pile. He drew and found a Dark Ritual. Given he
 wasn't able to fight me he decided to jam Doomsday, leaving up both Trops, and
-create a *no-nonsense* pile that wins on the spot with {{Cavern of Souls}}. This
+create a *no-nonsense* pile that wins on the spot with :card[Cavern of Souls]. This
 way if I had built a pile that had to pass the turn once more, he could just try
 and win.
 

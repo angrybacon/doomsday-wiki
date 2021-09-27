@@ -142,7 +142,7 @@ opponent any new cards, so it has some appealing aspects.
 
 This pile, on the other hand, does require some less commmon card choices. It
 works by using CB to cast ToA twice. To do it from no cards in hand requires a
-ton of lands on board, as well as {{Rain of Filth}}, {{Conjurer's Bauble}}, and
+ton of lands on board, as well as :card[Rain of Filth], :card[Conjurer's Bauble], and
 maindeck Tendrils, which not every deck plays. However, with some mana producers
 in hand the onboard requirements are easier to manage.
 
@@ -156,7 +156,7 @@ If you have Past in Flames in the sideboard you can use that as an engine to
 generate lethal storm.
 
 This pile doesn't require the use of an artifact meaning it can beat a Null Rod
-or a {{Phyrexian Revoker}}, although having an LED available will make producing
+or a :card[Phyrexian Revoker], although having an LED available will make producing
 {R}{R} easier.
 
 The final Tendrils can be replaced with Burning Wish, but this will increase the

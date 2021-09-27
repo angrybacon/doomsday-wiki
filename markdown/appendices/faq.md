@@ -58,8 +58,8 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
 <row variant="centered">{{!FoW}}</row>
 
 - **Entombsday** is more of a Tin Fins variant with a main deck plan focussing
-  on reanimating Griselbrand using either {{Shallow Grave}} or {{Goryo's
-  Vengeance}} to then have it attack alongside Emrakul, the Eons Torn or,
+  on reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
+  Vengeance] to then have it attack alongside Emrakul, the Eons Torn or,
   looping the deck to cast an infinite number of Collective Brutality's or a
   lethal Tendrils of Agony. The key point ot focus on is it runs a dedicated
   transformational sideboard into effectively a variant of Meandeck Doomsday.
@@ -103,7 +103,7 @@ not effective training/practice. It is better to learn the general rule sets or
 toolboxes you have at your disposal and then try to build on the fly using your
 knowledge, experience and general critical thinking than it is to try and
 remember "If I have {B}{B}{B}+{U}{U}{U}+{1}+SW in hand then I can win through
-{{Thalia, Guardian of Thraben}} in play".
+:card[Thalia, Guardian of Thraben] in play".
 
 This Wiki aims to try and provide the general concepts and basic level knowledge
 needed to pilot the deck. Select your variant of choice and work through the
@@ -178,7 +178,7 @@ bread and butter.
 ### 10. How do I resolve Doomsday in paper?
 
 A large part of the confusion for the physical resolution of Doomsday stems from
-the wording on the original Weatherlight printing of {{Doomsday}}. See the card
+the wording on the original Weatherlight printing of :card[Doomsday]. See the card
 below along with the original rules text printed:
 
 <row variant="centered">{{!Doomsday|WTH}}</row>
@@ -194,9 +194,9 @@ half your life, rounded up" is not a cost as is implied by the colon `:` but
 actually part of the resolution. You will not lose your life for putting
 Doomsday on the stack! Despite what the colon present may imply, the resolution
 of the card is *not* an activated ability. I have had an opponent before who
-read my card and asked a nearby judge "Can I name this card with {{Pithing
-Needle}}" to which the judge quite correctly replied: "Yes". My opponent then
-proceeded to play said {{Pithing Needle}} on the card and was quite put out that
+read my card and asked a nearby judge "Can I name this card with :card[Pithing
+Needle]" to which the judge quite correctly replied: "Yes". My opponent then
+proceeded to play said :card[Pithing Needle] on the card and was quite put out that
 it did not work the way they had hoped it would.
 
 Before the next point let's take a look at the updated Oracle wording on the A25
@@ -211,7 +211,7 @@ Doomsday:
 As you can see the wording changes significantly. If you were to perform the
 actions specified by the original wording and shuffled your graveyard and
 library together you can be called out for a GRV at competitive REL so watch
-out. Cards like {{Shadow of Doubt}} will work in preventing you from searching
+out. Cards like :card[Shadow of Doubt] will work in preventing you from searching
 your library for cards but will still allow you to search your graveyard. One
 especially key thing to note is your opponent is allowed to see what cards you
 select (if any) from the graveyard as it is an open information zone. You are
@@ -276,7 +276,7 @@ to source with Force of Wills likely being the next biggest purchase.
 
 This obviously depends on how constricted you are in terms of budget but yes you
 can! The easiest way is of course to run a heavy basics list. Unfortunately due
-to the life loss from Doomsday *Shock Lands* like {{Watery Grave}} are not
+to the life loss from Doomsday *Shock Lands* like :card[Watery Grave] are not
 viable. Following this you will only need 1-2 Underground Seas and can rely on
 basics and Petals to fix for any splash colours. This can slow the deck down and
 make cards like Daze much worse for early turns but is perfectly viable. You can
@@ -290,23 +290,23 @@ good a tool to lose.
 
 <deck path="meandeck.budget.txt" />
 
-**Access to {{Force of Will}}**  
+**Access to :card[Force of Will]**  
 -2 Flusterstorm -2 Thoughtseize  
 +4 Force of Will
 
-**Access to {{Underground Sea}}**  
+**Access to :card[Underground Sea]**  
 -1 Watery Grave  
 +1 Underground Sea
 
-At 2 {{Underground Sea}}, {{Daze}} is unlocked as a reliable option.
+At 2 :card[Underground Sea], :card[Daze] is unlocked as a reliable option.
 
 ### 16. I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
 
 The second Oracle (main or side) can have a number of uses. It helps increase
-resilience against effects like {{Extract}} when they are aggressively used,
-help give a *second attempt* vs. cards like {{Stifle}} on the Oracle's trigger.
+resilience against effects like :card[Extract] when they are aggressively used,
+help give a *second attempt* vs. cards like :card[Stifle] on the Oracle's trigger.
 They can enable additional devotion count, allow blocking in a pinch with some
-filtering, provide extra tricks vs. mill effects like {{Ipnu Rivulet}} and act
+filtering, provide extra tricks vs. mill effects like :card[Ipnu Rivulet] and act
 as a pseudo +2 to your {U} card count for Force of Will effects. Especially
 useful if you need to bring in Force of Negations and maximise the ability to
 use them.

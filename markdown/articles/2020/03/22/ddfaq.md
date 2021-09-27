@@ -9,7 +9,7 @@ title: DDFAQs or the Start of Everything You Need to Know about How to End the W
 With the influx of new interest towards the archetype, there has been a rise in
 new players gravitating towards our favourite {B}{B}{B} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
-people either interested, or starting off playing {{Doomsday}}. I had hoped to
+people either interested, or starting off playing :card[Doomsday]. I had hoped to
 at least start answering many of the questions [in my first
 article](/articles/2020/03/12/pretty-mean-deck/), which you should really have a
 read of before going through this one, however it seems I didn't touch on many
@@ -68,12 +68,12 @@ history lesson here however it basically refers to the fact that this is a storm
 deck that can play a much longer game if required.
 
 The deck normally incorporates some sort of raw card advantage engine such as
-{{Ideas Unbound}}, {{Act on Impulse}}, {{Three Wishes}} or {{Cruel Bargain}} to
-enable drawing into the Doomsday pile. {{Burning Wish}} has been used often to
+:card[Ideas Unbound], :card[Act on Impulse], :card[Three Wishes] or :card[Cruel Bargain] to
+enable drawing into the Doomsday pile. :card[Burning Wish] has been used often to
 enable additional pseudo copies of Doomsday and newer cards like
-{{Echo of Eons}} have been incorporated in lists too. The aim of the deck is to
-kill via a Doomsday pile with lethal {{Tendrils of Agony}} or
-{{Thassa's Oracle}} or a natural Tendrils storm kill without Doomsday. See an
+:card[Echo of Eons] have been incorporated in lists too. The aim of the deck is to
+kill via a Doomsday pile with lethal :card[Tendrils of Agony] or
+:card[Thassa's Oracle] or a natural Tendrils storm kill without Doomsday. See an
 example pile below:
 
 <row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!Pnd}} {{!BW}}</row>
@@ -85,17 +85,17 @@ Green for sideboard options.
 
 *Lists that utilise Experimental Frenzy as the primary engine to win.*
 
-The summary defines this sub-archetype pretty well. {{Experimental Frenzy}} is a
+The summary defines this sub-archetype pretty well. :card[Experimental Frenzy] is a
 very powerful card advantage engine that can, under the right circumstances,
 allow you to transform your entire deck into a Doomsday pile. If you cast a
 Doomsday with Frenzy active, you have a deterministic kill that can get through
 infinite life should you wish. The deck can pull off the same win methods as
-DDFT but also allows winning via infinite copies of {{Collective Brutality}}
+DDFT but also allows winning via infinite copies of :card[Collective Brutality]
 amongst other things (see example below).
 
 <row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!CoBru}} {{!DD}}</row>
 
-Instead of using {{Burning Wish}} for additional copies of Doomsday, the deck
+Instead of using :card[Burning Wish] for additional copies of Doomsday, the deck
 uses cards like {{Lim-Dûl's Vault}} to act as tutor pieces prior to *going off*
 and facilitate the kill from an active Frenzy (as they let you stack the top of
 the deck you are playing from).
@@ -112,8 +112,8 @@ Meandeck Doomsday tends to play a slower gameplan than the other two variants
 focussing more on controlling the game prior to *going off*. The deck is more
 prone to passing the turn after resolving a Doomsday whereas DDFT and DDEFT are
 both more designed to go off the same turn you resolve one. This version plays
-less dedicated combo pieces such as {{Lion's Eye Diamond}} and more reactive
-control elements like {{Force of Will}}. The deck does not run Storm based win
+less dedicated combo pieces such as :card[Lion's Eye Diamond] and more reactive
+control elements like :card[Force of Will]. The deck does not run Storm based win
 conditions either. An example pile is below:
 
 <row variant="pile">{{!Pdt}} {{!Pnd}} {{!EoA}} {{!LED}} {{!TO}}</row>
@@ -144,19 +144,19 @@ considerations for all three variants as there are common factors between them.
 ### 2.1 Doomsday
 
 Now it seems a bit superfluous to mention but the first part, and the main link
-between the variants, is the namesake card itself; {{Doomsday}}. No matter what
+between the variants, is the namesake card itself; :card[Doomsday]. No matter what
 variant you are playing, you will be wanting to run 4 of these no matter what.
 With Meandeck and DDEFT variants these will often just all be run in the main
-however thanks to {{Burning Wish}}, DDFT variants may run three in the main and
+however thanks to :card[Burning Wish], DDFT variants may run three in the main and
 on in the sideboard as a wish target thereby increasing the number of pseudo
 copies in the deck up to 7 (3 DD, 4 BW).
 
 There are a number of other cards that can also fall into this category
-alongside {{Burning Wish}} as cards that are basically designed to find
-{{Doomsday}} to win. These include, but are not limited to, the aforementioned
-{{Burning Wish}}, {{Lim-Dûl's Vault}} and {{Wishclaw Talisman}}. They are
+alongside :card[Burning Wish] as cards that are basically designed to find
+:card[Doomsday] to win. These include, but are not limited to, the aforementioned
+:card[Burning Wish], {{Lim-Dûl's Vault}} and :card[Wishclaw Talisman]. They are
 mostly there to increase your Doomsday count beyond 4 as it is normally the card
-that needs to resolve to enable you to win the game. {{Experimental Frenzy}}
+that needs to resolve to enable you to win the game. :card[Experimental Frenzy]
 also falls under this category as it generally counts as a card that will
 normally win you the game if it resolves.
 
@@ -170,7 +170,7 @@ flooded with redundant copies.
 
 As the primary win condition for the deck is a 3 mana card, this can be quite a
 struggle to get to in a format like Legacy where resource efficiency is prized
-above all else. With cards like {{Thalia, Guardian of Thraden}} in the format,
+above all else. With cards like :card[Thalia, Guardian of Thraden] in the format,
 it is important to be able to resolve your game winning card fast to prevent
 your opponents from dropping hate elements or simply to outrace your opponent to
 prevent them winning the game first. To facilitate this, a number of mana
@@ -178,31 +178,31 @@ acceleration options are used.
 
 The deck normally plays out like a mono {U} deck to begin with, cast cantrips
 and setting up but then needs to pivot into almost a mono {B} deck to win. Going
-from a {{Wasteland}} proof {U} manabase to something that produces {B}{B}{B} can
+from a :card[Wasteland] proof {U} manabase to something that produces {B}{B}{B} can
 be tricky without fixing so along with acceleration elements, fixing elements
 are also incorporated.
 
-Cards like {{Dark Ritual}} and {{Lotus Petal}} allow you to get ahead of mana
+Cards like :card[Dark Ritual] and :card[Lotus Petal] allow you to get ahead of mana
 quickly and can help fix your colours to provide the {B}{B}{B} needed to cast
 Doomsday. These are the main mana enablers that can be found across all
 variants. Dark Ritual especially allows you to cast Doomsday off of a single B
 source which is great against mana denial strategies many decks deploy.
 
-It wouldn't be a post-2019 article without mentioning {{Arcum's Astrolabe}}. By
+It wouldn't be a post-2019 article without mentioning :card[Arcum's Astrolabe]. By
 manipulating the manabase so it includes a heavy Snow-Covered basic count you
-can include this efficient {{Prophetic Prism}} that enables mana fixing and does
+can include this efficient :card[Prophetic Prism] that enables mana fixing and does
 not lose card advantage whilst playing it.
 
-You may note I have not yet discussed {{Lion's Eye Diamond}} here, this will be
+You may note I have not yet discussed :card[Lion's Eye Diamond] here, this will be
 covered in *Combo Pieces*.
 
 <row variant="centered">{{!DR}} {{!LP}} {{!AA}}</row>
 
 #### DDFT and DDEFT
 
-For these variants both {{Dark Ritual}} and {{Lotus Petal}} should be considered
+For these variants both :card[Dark Ritual] and :card[Lotus Petal] should be considered
 as 4-ofs. In addition some consideration might be given to running additional
-acceleration in the form of up to 1 {{Cabal Ritual}} or {{Rain of Filth}}. These
+acceleration in the form of up to 1 :card[Cabal Ritual] or :card[Rain of Filth]. These
 variants want to go fast and as such, the levels of fast mana should be
 increased to facilitate this. Conversely, these decks most likely do not want to
 run Astrolabe as it promotes a slower gameplay style overall but can still
@@ -229,12 +229,12 @@ so ensuring these are at a maximum is key. You don't want to be having to *burn*
 through cantrips to find pieces to then find yourself unable to draw into an
 otherwise game-winning pile.
 
-As a result I would expect any Doomsday deck to be running {{Brainstorm}},
-{{Ponder}} and {{Preordain}} in various ratios of 4:4:X. In addition to this
-some lists will be running the previously cited {{Arcum's Astrolabe}} along with
-some spicier elements such as {{Street Wraith}} and {{Edge of Autumn}} however
+As a result I would expect any Doomsday deck to be running :card[Brainstorm],
+:card[Ponder] and :card[Preordain] in various ratios of 4:4:X. In addition to this
+some lists will be running the previously cited :card[Arcum's Astrolabe] along with
+some spicier elements such as :card[Street Wraith] and :card[Edge of Autumn] however
 more on those later. Combine these with some of the cantripping protection
-elements and more niche *combo cards* like {{Conjurer's Bauble}} you should end
+elements and more niche *combo cards* like :card[Conjurer's Bauble] you should end
 up with a very high cantrip number.
 
 <row variant="centered">{{!Pnd}} {{!BS}} {{!Pdt}}</row>
@@ -251,7 +251,7 @@ rule of thumb, the less preordain you have, the fast you intend the deck to be.
 
 DDEFT would be also wanting to run the 8 plus 2-4 Preordain. Unlike DDFT however
 it cannot afford to run either cycling effects like Street Wraith, nor can it
-run Arcum's Astrolabe. With {{Experimental Frenzy}} out you cannot easily cast
+run Arcum's Astrolabe. With :card[Experimental Frenzy] out you cannot easily cast
 either card from the top of your deck thus increasing the liklihood of
 *whiffing* whilst with a Frenzy out. This shouldn't matter however as a Frenzy
 can itself generate such a high potential card advantage that having less
@@ -276,10 +276,10 @@ the later discussion of splash colours but hopefully will keep it to a simple
 numbers game for now.
 
 Interaction can come in many forms such as proactive discard effects like
-{{Duress}} and {{Thoughtseize}}, reactive cards like {{Force of Will}} and
-{{Flusterstorm}}, cards that can perform both roles to an extent like {{Orim's
-Chant}} and {{Veil of Summer}} or static abilities such as {{Defense Grid}} and
-{{Teferi, Time Raveler}}. Depending on the list you are running these are all
+:card[Duress] and :card[Thoughtseize], reactive cards like :card[Force of Will] and
+:card[Flusterstorm], cards that can perform both roles to an extent like :card[Orim's
+Chant] and :card[Veil of Summer] or static abilities such as :card[Defense Grid] and
+:card[Teferi, Time Raveler]. Depending on the list you are running these are all
 options available to a Doomsday pilot. Normally you would want at least 8 pieces
 of protection maindeck with additional sideboard slots dedicated to more
 specific interaction.
@@ -290,23 +290,23 @@ specific interaction.
 
 DDFT tends to run around 7-8 protection slots main. The lists that run 7 often
 run an additional piece of discard in the sideboard that can be found with
-{{Burning Wish}} thereby adding a pseudo additional 4 pieces of discard to that
-count. This is normally a split of {{Thoughtseize}} and {{Veil of Summer}} or
-{{Thoughtseize}} and {{Duress}} in the main with the sideboard option being
-{{Duress}} or {{Cabal Therapy}}. Countermagic is not used in these lists except
+:card[Burning Wish] thereby adding a pseudo additional 4 pieces of discard to that
+count. This is normally a split of :card[Thoughtseize] and :card[Veil of Summer] or
+:card[Thoughtseize] and :card[Duress] in the main with the sideboard option being
+:card[Duress] or :card[Cabal Therapy]. Countermagic is not used in these lists except
 as a sideboard slot against other fast combo decks as it interacts poorly with
-the card {{Lion's Eye Diamond}}. {W} also tends to not be run as it has limited
-beneficial options for the deck so cards like {{Silence}} are less likely to be
+the card :card[Lion's Eye Diamond]. {W} also tends to not be run as it has limited
+beneficial options for the deck so cards like :card[Silence] are less likely to be
 seen.
 
 #### DDEFT
 
 DDEFT tends to skimp a little bit on protection. Normally only 6-7 pieces of
 protection main. These also should always be proactive pieces. If
-{{Experimental Frenzy}} is on the field and you hit a counterspell on top you
+:card[Experimental Frenzy] is on the field and you hit a counterspell on top you
 are then stuck with it present on the top of your deck or, in hand where it
-cannot be cast at all. {{Thoughtseize}} and {{Duress}} are the favourites over
-other splash options like {{Veil of Summer}} as trying to balance mana when
+cannot be cast at all. :card[Thoughtseize] and :card[Duress] are the favourites over
+other splash options like :card[Veil of Summer] as trying to balance mana when
 playing off the top of your deck can really put a strain on having the right
 colours and you always want {B} in abundance.
 
@@ -314,32 +314,32 @@ colours and you always want {B} in abundance.
 
 Meandeck probably has the most dedicated protection slots and the widest range
 of available protection/permission to it. It tends to always run at minimum 4
-{{Force of Will}} and that is supported by another 7-8 protection slots. These
+:card[Force of Will] and that is supported by another 7-8 protection slots. These
 can be, depending on the splash colours run, any ratio of discard, veils, chant
 effects, soft counters or similar and sometimes include pieces of maindeck
-removal like {{Abrupt Decay}} too.
+removal like :card[Abrupt Decay] too.
 
 ### 2.5 Combo Pieces
 
 Although the deck is normally a *one card combo* there are certain other pieces
 needed to make it work it the most efficient way possible. These are often cards
 that may have limited usefulness outside of winning the game. Normally decks
-have 1-2 raw card advantage engine pieces {{Ideas Unbound}}, {{Act on Impulse}}
-or {{Predict}} to enable drawing into the Doomsday pile. In addition some number
+have 1-2 raw card advantage engine pieces :card[Ideas Unbound], :card[Act on Impulse]
+or :card[Predict] to enable drawing into the Doomsday pile. In addition some number
 of cards (0-4) to facilitate getting through the piles easier like
-{{Echo of Eons}}, {{Street Wraith}} or {{Edge of Autumn}} are run to make it
+:card[Echo of Eons], :card[Street Wraith] or :card[Edge of Autumn] are run to make it
 more mana efficient to get the win.
 
-{{Lion's Eye Diamond}} falls into this category. Although it can be used to
+:card[Lion's Eye Diamond] falls into this category. Although it can be used to
 provide a mana boost when digging into a Doomsday pile or used to cast something
 grabbed with Burning Wish, it generally just sits pretty doing nothing prior to
 that. It is however one of the most powerful tools when performing the combo and
 thus should always be run, albeit to varying degrees. In storm builds it
-provides free storm and can enable the easy casting of {{Echo of Eons}}.
+provides free storm and can enable the easy casting of :card[Echo of Eons].
 
 Finally some sort of win condition is required. This can be in the form of
-{{Tendrils of Agony}}, {{Thassa's Oracle}} or even {{Collective Brutality}}.
-{{Burning Wish}} can also take this spot as it can tutor up a Tendrils if
+:card[Tendrils of Agony], :card[Thassa's Oracle] or even :card[Collective Brutality].
+:card[Burning Wish] can also take this spot as it can tutor up a Tendrils if
 needed. You want to run as few *dead* cards as possibly and generally the win
 condition is counted as such so you only want 1-2 of them.
 
@@ -347,8 +347,8 @@ condition is counted as such so you only want 1-2 of them.
 
 #### DDFT
 
-DDFT tends to run 1 card advantage spell and this is normally {{Ideas Unbound}}
-or {{Cruel Bargain}}. It can also then run either 0-2 Cycle effects and 0-3 Echo
+DDFT tends to run 1 card advantage spell and this is normally :card[Ideas Unbound]
+or :card[Cruel Bargain]. It can also then run either 0-2 Cycle effects and 0-3 Echo
 of Eons with a potential 4th as a wish target in the sideboard. Generally the
 win conditions are 0-1 Tendrils main (0 if the Tendrils is wishable from the
 side) and 1 Oracle main. Tendrils is retained as it takes the requirement to
@@ -359,7 +359,7 @@ of utility.
 #### DDEFT
 
 DDEFT doesn't need to run a card advantage spell thanks to Experimental Frenzy
-however it can elect to run 0-1 {{Act on Impulse}}. Spells that actually draw
+however it can elect to run 0-1 :card[Act on Impulse]. Spells that actually draw
 cards can be a liability as, with Frenzy out, you will not be able to cast them
 however you can still cast cards that have been exiled. This then rules out the
 use of Echo of Eons and, as mentioned previously, this also prevents the
@@ -374,7 +374,7 @@ Meandeck lists are more prone to passing the turn and playing more reactive
 protection so the downside of Lion's Eye Diamond is more significant. Despite
 this, it still enables some of the more mana efficient wins and so generally 1
 is run. Meandeck lists tend to be able to run the more mana efficient card
-advantage engines too so run 1-2 {{Predict}} or {{Ideas Unbound}}. They tend to
+advantage engines too so run 1-2 :card[Predict] or :card[Ideas Unbound]. They tend to
 run between 1-2 Street Wraith and 1 Edge of Autumn. Edge is crucial as it
 provides a life-free alternative to drawing one card deeper into the Doomsday
 pile. Finally the win condition is 1-2 Thassa's Oracles. Often it is run as a
@@ -408,25 +408,25 @@ As these are more speed oriented lists they tend to stay at the 15-17 land
 range. This is normally 4 Delta, 4 Tarn or 3 Tarn/1 Mire, 1 Volcanic Island, 1
 Badlands, 2 Underground Seas, 2 Islands and 1 Swamp. Sometimes (if there is a
 splash colour) you might add an additional land or replace the second basic
-Island with a, in the example of {G}, {{Bayou}} and/or {{Tropical Island}}.
-Toolbox lands such as {{Nurturing Peatland}} tend not be be used for these lists
+Island with a, in the example of {G}, :card[Bayou] and/or :card[Tropical Island].
+Toolbox lands such as :card[Nurturing Peatland] tend not be be used for these lists
 but can be an option.
 
 #### Meandeck
 
 As the more control oriented lists, Meandeck decks tend to go around the 17-18
-land mark. This tends to be 4 Delta, 4 Splash Fetch ({{Misty Rainforest}} for
-BUG and {{Flooded Strand}} for Esper) or 4 {{Prismatic Vista}}, 1-3 Underground
-Seas, 1 of each splash dual (so for {W} 1 {{Tundra}} and 1 {{Scrubland}}) and
+land mark. This tends to be 4 Delta, 4 Splash Fetch (:card[Misty Rainforest] for
+BUG and :card[Flooded Strand] for Esper) or 4 :card[Prismatic Vista], 1-3 Underground
+Seas, 1 of each splash dual (so for {W} 1 :card[Tundra] and 1 :card[Scrubland]) and
 2-5 basic lands. Normally 1-4 Islands, 1-2 Swamps, and 0-1 Splash Basic. Some
-pilots also elect to run a toolbox land such as a {{Cavern of Souls}},
-{{Mystic Sanctuary}} or {{Silent Clearing}}.
+pilots also elect to run a toolbox land such as a :card[Cavern of Souls],
+:card[Mystic Sanctuary] or :card[Silent Clearing].
 
 ### 2.7 Sideboard
 
 Across all the variants and pilots the styles of sideboards can vary
 dramatically. Some tailor completely to facing other matchups, some include some
-sort of secondary or tertiary win condition and those with {{Burning Wish}} can
+sort of secondary or tertiary win condition and those with :card[Burning Wish] can
 even include a tutorable toolbox that can deployed to the main deck game plan.
 
 As any Legacy player knows, mapping sideboards or listing sideboard options can
@@ -455,28 +455,28 @@ or {G}.
 
 White is almost exclusively played in Meandeck lists however you could easily
 incorporate it into DDFT. Maindeck, {W} provides protection spells mostly in the
-form of {{Orim's Chant}}, {{Silence}} or {{Teferi, Time Raveler}} the last of
+form of :card[Orim's Chant], :card[Silence] or :card[Teferi, Time Raveler] the last of
 which can also act as a method to draw into a Doomsday pile or a mini card
-advantage engine when the -3 is coupled with {{Arcum's Astrolabe}}. {{Abeyance}}
+advantage engine when the -3 is coupled with :card[Arcum's Astrolabe]. :card[Abeyance]
 is another great option that also cantrips and so makes a good initiation spell
 for drawing into a Doomsday pile.
 
-From the sideboard {W} offers a plan B in the form of {{Monastery Mentor}} that
+From the sideboard {W} offers a plan B in the form of :card[Monastery Mentor] that
 plays well with the cantrip dense lists that are run. Removal comes in the form
-of {{Disenchant}} or {{Wear//Tear}} for artifact or enchantment hate and
-{{Swords to Plowshares}} to deal with problematic creatures. You also gain some
-additional graveyard hate options in the form of {{RiP}}.
+of :card[Disenchant] or {{Wear//Tear}} for artifact or enchantment hate and
+:card[Swords to Plowshares] to deal with problematic creatures. You also gain some
+additional graveyard hate options in the form of :card[RiP].
 
 Teferi and Mentor are probably the biggest boons for playing {W}.
 
 ### 3.2 Red
 
 Red is obviously a staple for DDEFT and often for DDFT too. It enables
-{{Burning Wish}} in the main deck as a tutor for both the combo elements and
+:card[Burning Wish] in the main deck as a tutor for both the combo elements and
 other toolbox cards. From the side it can provide access to alternative win
-conditions like {{Empty the Warrens}} and a plethora of removal for different
-scenarios such as {{Abrade}}, {{By Force}} or {{Rending Volley}} to name a few.
-{R} also gives you access to {{Pyroblast}} / {{Red Elemental Blast}} effects
+conditions like :card[Empty the Warrens] and a plethora of removal for different
+scenarios such as :card[Abrade], :card[By Force] or :card[Rending Volley] to name a few.
+{R} also gives you access to :card[Pyroblast] / :card[Red Elemental Blast] effects
 which are incredibly powerful tools against any {U} based matchup.
 
 Empty the Warrens and Red Blasts are the biggest boons for playing {R}.
@@ -484,13 +484,13 @@ Empty the Warrens and Red Blasts are the biggest boons for playing {R}.
 ### 3.3 Green
 
 Green provides a slightly cheaper package in terms of mana cost. Maindeck it
-provides access to protection in the form of {{Veil of Summer}} and super
-efficient removal in the form of {{Abrupt Decay}}. From the sideboard additional
+provides access to protection in the form of :card[Veil of Summer] and super
+efficient removal in the form of :card[Abrupt Decay]. From the sideboard additional
 Veils/Decays may be brought in alongside other elements such as
-{{Carpet of Flowers}} or {{Xantid Swarms}}. {G} does not have a plan B
+:card[Carpet of Flowers] or :card[Xantid Swarms]. {G} does not have a plan B
 associated with it however some have explored the use of
-{{Oko, Thief of Crowns}} as a potential option or
-{{Uro, Titan of Nature's Wrath}}.
+:card[Oko, Thief of Crowns] as a potential option or
+:card[Uro, Titan of Nature's Wrath].
 
 Veil and Decay are the biggest boons for playing {G}.
 
@@ -499,19 +499,19 @@ Veil and Decay are the biggest boons for playing {G}.
 ### 3.4 No Splash
 
 There is some potential for running a straight {U}{B} list with no splash
-colours. For a speed focused list, use of {{Wishclaw Talisman}} and
-{{Echo of Eons}} could allow for a fast win however they may be considered
+colours. For a speed focused list, use of :card[Wishclaw Talisman] and
+:card[Echo of Eons] could allow for a fast win however they may be considered
 unreliable. Your protection suite is also limited to countermagic and discard
 (both matching poorly against opposing Veil effects) and either {B} based
 creature removal or {U} based bounce removal which is not permanent.
 
 There is some scope for a plan B with the use of creatures like
-{{Snapcaster Mage}}, {{Dark Confidant}} or {{Rotting Regisaur}} however these
+:card[Snapcaster Mage], :card[Dark Confidant] or :card[Rotting Regisaur] however these
 are not the most powerful of tools. Of the plan B options available,
-{{Divining Witch}} is certainly the most effective providing a 1 card combo
-engine that enables you to both find {{Thassa's Oracle}} and exile your library
+:card[Divining Witch] is certainly the most effective providing a 1 card combo
+engine that enables you to both find :card[Thassa's Oracle] and exile your library
 with the Oracle trigger on the stack all the while avoiding cards like
-{{Spell Pierce}}, {{Force of Negation}} and {{Flusterstorm}}.
+:card[Spell Pierce], :card[Force of Negation] and :card[Flusterstorm].
 
 Budget and consistent mana is the biggest boon for playing straight {U}{B}.
 
@@ -526,7 +526,7 @@ on a number of times (as a paper only player) and it was only later into my
 Legacy 'career' I felt comfortable with it.
 
 A large part of the confusion for the physical resolution of it stems from the
-wording on the original Weatherlight printing of {{Doomsday}}. See the card
+wording on the original Weatherlight printing of :card[Doomsday]. See the card
 below along with the original rules text printed:
 
 <row variant="centered">{{!Doomsday|WTH}}</row>
@@ -543,8 +543,8 @@ actually part of the resolution. You will not lose your life for putting
 Doomsday on the stack! Despite what the colon present may imply, the resolution
 of the card is *not* an activated ability. I have had an opponent before who
 read my card and asked a nearby judge "can I name this card with
-{{Pithing Needle}}" to which the judge quite correctly replied: "Yes". My
-opponent then proceeded to play said {{Pithing Needle}} on the card and was
+:card[Pithing Needle]" to which the judge quite correctly replied: "Yes". My
+opponent then proceeded to play said :card[Pithing Needle] on the card and was
 quite put out that it did not work the way they had hoped it would.
 
 Before the next point let's take a look at the updated Oracle wording on the A25
@@ -559,7 +559,7 @@ Doomsday:
 As you can see the wording changes significantly. If you were to perform the
 actions specified by the original wording and shuffled your graveyard and
 library together you can be called out for a GRV at competitive REL so watch
-out. Cards like {{Shadow of Doubt}} will work in preventing you from searching
+out. Cards like :card[Shadow of Doubt] will work in preventing you from searching
 your library for cards but will still allow you to search your graveyard. One
 especially key thing to note is your opponent is allowed to see what cards you
 select (if any) from the graveyard as it is an open information zone. You are
@@ -583,8 +583,8 @@ The use of pencil and notepad during paper games or just notepad.exe on the
 computer is a great way to map out your pile and note mana/draw constraints
 whilst planning it. You should also goldfish, goldfish, goldfish! The deck is
 unforgiving to mistakes, especially when made after Doomsday has resolved.
-Forgetting the order of cards when naming with {{Predict}}, failing to activate
-a {{Lion's Eye Diamond}} at the right time or even forgetting to include a win
+Forgetting the order of cards when naming with :card[Predict], failing to activate
+a :card[Lion's Eye Diamond] at the right time or even forgetting to include a win
 condition in your pile are all things that can happen!
 
 As a way to minimise your own mistakes potential, just practice playing some
