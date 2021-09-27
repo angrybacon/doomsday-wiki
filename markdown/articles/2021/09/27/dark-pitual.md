@@ -173,7 +173,7 @@ games correctly.
 
 <row variant="centered">{{!Thought Monitor}}</row>
 
-#### Round 6 vs Matthew Hackbirt (TheHackbert) on Cephalid Breakfast. Win (2-0)
+#### Round 6 vs Matthew Hackbert (TheHackbert) on Cephalid Breakfast. Win (2-0)
 
 Played against another great player from Arizona, the awesome Matt Hackbert.
 
