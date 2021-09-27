@@ -16,14 +16,12 @@ export const RemarkSoundcloud: FunctionComponent<Props> = ({ node }) => {
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
   return (
-    <div className={classes.root}>
-      <iframe
-        allow="autoplay"
-        className={classes.frame}
-        scrolling="no"
-        src={`https://w.soundcloud.com/player/?${parameters.join('&')}`}
-        title={url}
-      />
-    </div>
+    <iframe
+      allow="autoplay"
+      className={classes.root}
+      scrolling="no"
+      src={`https://w.soundcloud.com/player/?${parameters.join('&')}`}
+      title={url}
+    />
   );
 };
