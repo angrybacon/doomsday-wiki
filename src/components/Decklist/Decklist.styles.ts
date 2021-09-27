@@ -17,7 +17,9 @@ export const useStyles = makeStyles((theme: Theme) =>
       paddingBottom: theme.spacing(2),
       paddingTop: theme.spacing(2),
     },
+
     gutters: theme.mixins.gutters(),
+
     root: {
       ...theme.mixins.barf(),
       borderBottomWidth: 1,
@@ -26,14 +28,12 @@ export const useStyles = makeStyles((theme: Theme) =>
       borderRightWidth: 0,
       borderStyle: 'solid',
       borderTopWidth: 1,
-      '&:not(:last-child)': {
-        marginBottom: theme.spacing(2),
-      },
       '& + &': {
         borderTopWidth: 0,
-        marginTop: -theme.spacing(2),
+        marginTop: '0 !important',
       },
     },
+
     subtitle: {
       alignItems: 'center',
       display: 'flex',
@@ -44,6 +44,7 @@ export const useStyles = makeStyles((theme: Theme) =>
         marginLeft: theme.spacing(0.5),
       },
     },
+
     summary: {
       display: 'block',
     },

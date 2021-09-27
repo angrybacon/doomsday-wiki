@@ -2,6 +2,7 @@ import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import ReactMarkdown, { Components } from 'react-markdown';
 import remarkDirective from 'remark-directive';
+import remarkGfm from 'remark-gfm';
 import type { PluggableList } from 'unified';
 import Typography from '@material-ui/core/Typography';
 import {
@@ -23,6 +24,13 @@ import {
   RemarkSoundcloud,
   Props as RemarkSoundcloudProps,
 } from '@/components/Remark/renderers/RemarkSoundcloud';
+import {
+  RemarkTable,
+  RemarkTableBody,
+  RemarkTableCell,
+  RemarkTableHead,
+  RemarkTableRow,
+} from '@/components/Remark/renderers/RemarkTable';
 import {
   RemarkYoutube,
   Props as RemarkYoutubeProps,
@@ -46,6 +54,12 @@ const COMPONENTS: Components = {
   h5: RemarkHeading,
   h6: RemarkHeading,
   p: RemarkText,
+  table: RemarkTable,
+  tbody: RemarkTableBody,
+  td: RemarkTableCell,
+  th: RemarkTableCell,
+  thead: RemarkTableHead,
+  tr: RemarkTableRow,
 };
 
 const COMPONENTS_EXTRA: {
@@ -90,7 +104,7 @@ export const Remark: FunctionComponent<Props> = ({
       )}
       <ReactMarkdown
         components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
-        remarkPlugins={[remarkDirective, ...plugins]}
+        remarkPlugins={[remarkDirective, remarkGfm, ...plugins]}
         skipHtml
       >
         {text}

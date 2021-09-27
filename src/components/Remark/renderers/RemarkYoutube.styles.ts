@@ -18,9 +18,6 @@ export const useStyles = makeStyles((theme: Theme) =>
       position: 'relative',
       // NOTE Force intrinsic height to always 16/9
       paddingBottom: '56.25%',
-      '&:not(:last-child)': {
-        marginBottom: theme.spacing(2),
-      },
     },
   })
 );
