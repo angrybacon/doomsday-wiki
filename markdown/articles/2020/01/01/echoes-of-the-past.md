@@ -1,6 +1,6 @@
 ---
 authors: d8dk32
-banner: /assets/echo-of-eons.mh1.jpg
+banner: /banners/echo-of-eons.mh1.jpg
 title: Echoes of the Past - A Doomsday Deck for the Roaring Twenties
 ---
 

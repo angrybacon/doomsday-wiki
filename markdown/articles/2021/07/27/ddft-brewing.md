@@ -1,6 +1,6 @@
 ---
 authors: d8dk32
-banner: /assets/tendrils-of-agony.scg.jpg
+banner: /banners/tendrils-of-agony.scg.jpg
 title: DDFT Brews for 2021
 ---
 

@@ -1,4 +1,4 @@
-.cache/
-build/
+.husky/_/
+.next/
+coverage/
 node_modules/
-public/

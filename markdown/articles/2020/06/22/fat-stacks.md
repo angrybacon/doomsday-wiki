@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /assets/daze.nem.jpg
+banner: /banners/daze.nem.jpg
 title: Fat Stacks - Obtaining Maximum Value from Your Interaction
 ---
 

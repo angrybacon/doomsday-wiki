@@ -1,0 +1,38 @@
+// Title: Darcy Doomsday
+// Author: angrybacon
+
+4 Brainstorm
+4 Dark Ritual
+111 Deep Analysis
+4 Doomsday
+4 Dragon's Rage Channeler
+1 Duress
+2 Flusterstorm
+4 Force of Will
+1 Lion's Eye Diamond
+2 Lotus Petal
+3 Mishra's Bauble
+4 Ponder
+4 Predict
+3 Street Wraith
+1 Thassa's Oracle
+1 Thoughtseize
+1 Unearth
+
+1 Badlands
+1 Bloodstained Mire
+1 Island
+4 Polluted Delta
+4 Scalding Tarn
+3 Underground Sea
+1 Volcanic Island
+
+// Sideboard
+1 Echoing Truth
+2 Force of Negation
+1 Hurkyl's Recall
+2 Lightning Bolt
+1 Mountain
+3 Murktide Regent
+4 Pyroblast
+1 Tormod's Crypt

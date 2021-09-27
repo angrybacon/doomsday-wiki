@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /assets/dark-ritual.leb.jpg
+banner: /banners/dark-ritual.leb.jpg
 title: The History of Doomsday - An interview with Emidln
 ---
 
@@ -1070,7 +1070,7 @@ In the two examples above, the first gives 9 storm assuming you lead with Ritual
 into Doomsday. The second gives 10 storm with the same opening. Post Doomsday
 you cantrip into the first LED and then activate Bauble, targeting nothing, to
 draw and cast Act. Act exiles LED, Bauble and Tendrils. You cast LED and produce
-{B}{B}{B} with it. You cast Bauble for {B} leaving {B]{B} in pool. You activate
+{B}{B}{B} with it. You cast Bauble for {B} leaving {B}{B} in pool. You activate
 Bauble and target the original Bauble in the graveyard. This puts the first
 Bauble onto the top of your deck and immediately draws it. You cast it for {B}
 leaving {B} in pool. You then activate it again targeting one of the LEDs in the

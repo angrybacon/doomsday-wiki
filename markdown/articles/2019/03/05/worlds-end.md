@@ -80,8 +80,8 @@ draw a fresh one. With frenzy out you should instead bottom one, draw one and
 then have the fresh one on the top of your library. Things like Fetches and
 :card[Conjurer's Bauble] can now help clear "dud" cards off the top of the library
 and your hand becomes a weird part graveyard part Brainstorm access pool
-resource. Ponder becomes interesing as you can clear a dead card by "drawing" it
-and then keep two desirables but all this means thinking in a way very unlike
+resource. Ponder becomes interesting as you can clear a dead card by *drawing*
+it and then keep two desirables but all this means thinking in a way very unlike
 how you would normally.
 
 Now the nice thing about this card is the default Frenzy pile is very easy.

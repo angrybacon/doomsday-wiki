@@ -159,21 +159,18 @@ well if you have an available land drop for that turn.
 1. Cast TO with the remaining mana from LED with two cards left in your library
 
 Again this is an example of an imperfect pile. If you played a list featuring
-:card[Baleful Strix] in, you can make the following minor adjustment to the pile if
-you have a Strix in play to turn it into a perfect pile.
+:card[Consider] in, you can make the following minor adjustment to the pile to turn
+it into a perfect pile.
 
 > {U} + Brainstorm + Street Wraith + X
 
-<row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+<row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Consider}} {{!TO}}</row>
 
 1. Cycle SW, draw the LP and cast it
-1. Cast Brainstorm off of LP and put back X then Ponder
-1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder
-1. Ponder for TO
-1. Cast TO with the remaining mana from LED with one card left in your library
-
-Thanks to the Strix in play providing one extra devotion to {U}, this allows you
-to win even if the Oracle is removed.
+1. Cast Brainstorm off of LP and put back X then Consider
+1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Consider
+1. Cast Consider, put X into the graveyard and draw TO
+1. Cast TO with the remaining mana from LED with zero cards left in your library
 
 ## Brainstorm Pile - {U} and *Free Cantrip* Available
 
@@ -184,14 +181,17 @@ top card instead.
 
 > {U} + Street Wraith + X
 
-<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!TO}} {{!Island|RAV}}</row>
 
-It follows the exact sequence as the one before but you cycle into the
-Brainstorm rather into the mana needed for it. Once again, the same trick can be
-done if you have excess mana or the card X is a cantrip already in exchanging
-the cantrip for mana within the pile to enable the playing around of removal to
-ensure you have perfect pile to generate a zero card library on resolution of
-the Oracle trigger.
+This time you cycle into the Brainstorm rather than into the mana needed for it
+and make an imperfect pile. Once again, you can use excess mana or add mana in
+the pile if the card X is a cantrip in order to make it a perfect pile.
+
+Alternatively, use Consider to get rid of X and achieve a perfect pile.
+
+> {U} + Street Wraith + X
+
+<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Consider}} {{!TO}}</row>
 
 ## Brainstorm Pile - Not using LED
 

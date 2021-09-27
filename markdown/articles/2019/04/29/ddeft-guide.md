@@ -1,5 +1,6 @@
 ---
 authors: Knox
+banner: /banners/experimental-frenzy.grn.jpg
 title: Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
 ---
 

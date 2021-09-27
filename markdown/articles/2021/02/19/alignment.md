@@ -1,7 +1,7 @@
 ---
 authors: Doishy
-banner: /assets/ideas-unbound.sok.jpg
-title: The Doomsday Alignment Chart - Different Styles of Deckbuilding.
+banner: /banners/ideas-unbound.sok.jpg
+title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
 ---
 
 > Preface: This article was in fact written before the banning of Arcum's
