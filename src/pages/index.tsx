@@ -1,5 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
-import React from 'react';
+import React, { useState } from 'react';
+import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
@@ -21,33 +22,48 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
   decklists,
   menu,
   welcome,
-}) => (
-  <Layout
-    wrapper={Grid}
-    wrapperProps={{ container: true, spacing: 2 }}
-    menu={menu}
-    title="Welcome"
-  >
-    <Grid item sm={7}>
-      <Card>
-        <CardContent
-          component={Remark}
-          decklists={decklists}
-          markdown={welcome}
-        />
-      </Card>
-    </Grid>
-    <Grid item xs>
-      <Grid container direction="column" spacing={2}>
-        {articles.map(({ data, route }) => (
-          <Grid item key={`article-${route}`} xs={12}>
-            <Article matter={data} route={route} />
-          </Grid>
-        ))}
+}) => {
+  const [size, setSize] = useState(6);
+
+  const showMore = () => {
+    setSize((previous) => previous + 3);
+  };
+
+  return (
+    <Layout
+      wrapper={Grid}
+      wrapperProps={{ container: true, spacing: 2 }}
+      menu={menu}
+      title="Welcome"
+    >
+      <Grid item sm={7}>
+        <Card>
+          <CardContent
+            component={Remark}
+            decklists={decklists}
+            markdown={welcome}
+          />
+        </Card>
       </Grid>
-    </Grid>
-  </Layout>
-);
+      <Grid item xs>
+        <Grid container direction="column" spacing={2}>
+          {articles.slice(0, size).map(({ data, route }) => (
+            <Grid item key={`article-${route}`} xs={12}>
+              <Article matter={data} route={route} />
+            </Grid>
+          ))}
+          {size < articles.length + 1 && (
+            <Grid item xs={12}>
+              <Button fullWidth onClick={showMore} size="small">
+                Show more
+              </Button>
+            </Grid>
+          )}
+        </Grid>
+      </Grid>
+    </Layout>
+  );
+};
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
