@@ -29,7 +29,13 @@ Let's look at some basic examples.
 
 > {U}{U}
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+- IU
+- LP
+- LP
+- SW
+- TO
+:::
 
 Imagine you have an Island and and Underground Sea on board, Dark Ritual and
 Doomsday in hand. You can Ritual into Doomsday, pass the turn, and win with a
@@ -42,7 +48,13 @@ chapter, simply using the draw step in place of a cantrip to draw into the pile.
 
 > {B}{B}{B}
 
-<row variant="pile">{{!IC}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- IC
+- LP
+- LP
+- LP
+- TO
+:::
 
 This is essentially the same pile as Example 1, but with Infernal Contract as
 the draw spell. It has a different cost, but it's worth noting that this could
@@ -55,7 +67,13 @@ here the draw step replaces a cantrip.
 
 > Lion's Eye Diamond on the board - {0}, 2 life
 
-<row variant="pile">{{!SW}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- SW
+- IU
+- LP
+- LP
+- TO
+:::
 
 If you have an LED on the battlefield, you can win for just 2 life, no mana
 needed. This can be very valuable, because there may be times where you lose
@@ -67,7 +85,13 @@ encounter at some point.
 
 > Ponder in hand - {U}
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LP
+- LP
+- TO
+:::
 
 This pile is similar to the last, but swaps the locations of the cantrip and the
 LED. You might use a pile like this when you are constrained on mana and don't
@@ -90,7 +114,13 @@ you read this section.
 
 > 2 cards in hand - {U}{U} - 8 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!EoE}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LED
+- EoE
+- BW
+:::
 
 Echo of Eons in the maindeck provides some very interesting pile options, which
 are explored more in-depth in a later chapter. One powerful application is
@@ -111,14 +141,26 @@ there is a chance your opponent draws a fresh hand full of interaction.
 
 > LED, LP on board - {1}{U}{U} - 9 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!DD}} {{!Pnd}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- DD
+- Pnd
+- BW
+:::
 
 1. Cast Ideas Unbound, holding priority to crack LED for {B}{B}{B}, drawing LED,
    Ponder and Doomsday
 2. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
 3. Construct the following new pile:
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LP}} {{!BW}} {{!DD}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LP
+- BW
+- DD
+:::
 
 4. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
 5. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
@@ -138,26 +180,38 @@ opponent any new cards, so it has some appealing aspects.
 
 > 5 lands in play - {1}{B}{B}{B}{B} - 5 Storm + 6 Storm
 
-<row variant="pile">{{!IC}} {{!Rain}} {{!CR}} {{!CB}} {{!ToA}}</row>
+:::row{variant=pile}
+- IC
+- Rain of Filth
+- CR
+- CB
+- ToA
+:::
 
 This pile, on the other hand, does require some less commmon card choices. It
 works by using CB to cast ToA twice. To do it from no cards in hand requires a
-ton of lands on board, as well as :card[Rain of Filth], :card[Conjurer's Bauble], and
-maindeck Tendrils, which not every deck plays. However, with some mana producers
-in hand the onboard requirements are easier to manage.
+ton of lands on board, as well as :card[Rain of Filth], :card[Conjurer's
+Bauble], and maindeck Tendrils, which not every deck plays. However, with some
+mana producers in hand the onboard requirements are easier to manage.
 
 ### Example 4
 
 > DR in hand, PiF in sideboard - {B}{B}{R}{R} - 10 Storm
 
-<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!BW}} {{!ToA}}</row>
+:::row{variant=pile}
+- IC
+- DR
+- DR
+- BW
+- ToA
+:::
 
 If you have Past in Flames in the sideboard you can use that as an engine to
 generate lethal storm.
 
 This pile doesn't require the use of an artifact meaning it can beat a Null Rod
-or a :card[Phyrexian Revoker], although having an LED available will make producing
-{R}{R} easier.
+or a :card[Phyrexian Revoker], although having an LED available will make
+producing {R}{R} easier.
 
 The final Tendrils can be replaced with Burning Wish, but this will increase the
 cost of the pile by {R}, effectively requiring a mana artifact to be available

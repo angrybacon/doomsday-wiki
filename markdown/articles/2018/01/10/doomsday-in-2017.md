@@ -319,6 +319,7 @@ Thanks for reading!
 ## Links
 
 - [Bryant Cook's Article]
-  (http://theepicstorm.com/storm-data-comparison/) spreadsheets visited on 03/01/2018
+  (http://theepicstorm.com/storm-data-comparison/) spreadsheets visited on
+  03/01/2018
 - [g0ld_rook's 5-0 list]
   (https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2017-12-10#gld_rook_-)

@@ -28,7 +28,13 @@ a tool to draw cards when using LED.
 
 > SW in hand - {B}{B}{B} + {1}{U}{U}
 
-<row variant="pile">{{!IU}} {{!CB}} {{!SW}} {{!LED}} {{!LM}}</row>
+:::row{variant=pile}
+- IU
+- CB
+- SW
+- LED
+- LM
+:::
 
 You should recognise the above example from the [Basics][basics].  
 Here you can see we can use CB to have a draw effect present even after we have
@@ -46,9 +52,21 @@ This also enables things like Double Doomsday piles.
 
 > CB in play, SW in hand - {B}{B}{B} + {1}{U}{U}{R} - 11 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!BW}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LED
+- BW
+- BW
+:::
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LED
+- SW
+- BW
+:::
 
 This has some overlap with what is described in the [Double Doomsday
 Piles][uncommon-piles] section document. Just as historically you could with
@@ -75,11 +93,23 @@ other cards in hand we need.
 
 > CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LED
+- LED
+- SW
+:::
 
 > CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LED
+- LED
+- SW
+:::
 
 I know often you can find yourself with a key business spell in hand and no
 Brainstorm to move it with. You could use the SW to draw into a Brainstorm
@@ -99,7 +129,13 @@ pass-the-turn pile. More on this in the [pass-the-turn section][pass-the-turn].
 
 > LED in play, ToA in hand - {1}{B}{B}{B} - 13 Storm
 
-<row variant="pile">{{!IC}} {{!DR}} {{!DR}} {{!LP}} {{!CB}}</row>
+:::row{variant=pile}
+- IC
+- DR
+- DR
+- LP
+- CB
+:::
 
 In this instance we can play ToA twice. We draw IC for our turn.
 
@@ -127,7 +163,13 @@ allows you to extend that to a pseudo-six cards.
 
 > CB in play, Pre in hand - {B}{B}{B} + {1}{U} - 9 Storm
 
-<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
+:::row{variant=pile}
+- LED
+- IC
+- LED
+- LP
+- BW
+:::
 
 Normally double cantrip piles that use a draw-4 would mean that you draw
 yourself to death. However, with CB in the deck, you can use the same trick as
@@ -145,11 +187,23 @@ for convenience:
 
 > CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LED
+- LED
+- SW
+:::
 
 > CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!SW}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LED
+- LED
+- SW
+:::
 
 If you notice, both result in wasted mana being left over. With the BW example
 you are left with U and with the ToA example you are left with U(B/R)(B/R) left
@@ -160,11 +214,23 @@ What if we were to swap the GP in the piles with a CB?
 
 > CB in play, BW and SW in hand - {B}{B}{B} + {X} - 8+ Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LED
+- LED
+- CB
+:::
 
 > CB in play, ToA and SW in hand - {B}{B}{B} + {X} - 9+ Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LED}} {{!LED}} {{!CB}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LED
+- LED
+- CB
+:::
 
 Suddenly the two piles look very different notation wise. Both now have a
 variable {X} value in their respective mana costs. We also see suddenly that the
@@ -216,7 +282,13 @@ Pass the turn.
 
 > CB in play, ToA in hand - {B}{B}{B} + {X}{1} - 12+ Storm
 
-<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LED}} {{!CB}}</row>
+:::row{variant=pile}
+- LED
+- IC
+- LED
+- LED
+- CB
+:::
 
 1. Cast Doomsday and build the above pile
 2. Pass the turn
@@ -262,9 +334,15 @@ the time a player will attempt to Surgical in response to you trying to draw
 into your Doomsday pile. If you can plan around this you should be able to
 nullify their Surgical.
 
-> CB in play, SW in hand -  {B}{B}{B} + {U}{U} - 6 Storm
+> CB in play, SW in hand - {B}{B}{B} + {U}{U} - 6 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LED
+- SW
+- BW
+:::
 
 If they cast Surgical in response to SW, you can use CB to send the target back
 into the deck. If they cast it in response to IU you can do the same trick. Once

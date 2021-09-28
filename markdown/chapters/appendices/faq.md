@@ -40,14 +40,18 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
   of Eons and Tendrils of Agony. They also prefer proactive protection such as
   Duress over being able to run reactive counter magic.
 
-<row variant="centered">{{!ToA}}</row>
+:::row{variant=centered}
+- ToA
+:::
 
 - **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style.
   This was the main variant available post Gitaxian Probe ban and pre-printing
   of Thassa's Oracle. These lists use Experimental Frenzy as a card advantage
   engine and win condition in tandem with Doomsday.
 
-<row variant="centered">{{!EF}}</row>
+:::row{variant=centered}
+- EF
+:::
 
 - **Meandeck Doomsday** is the primary deck variant that is having previously
   unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
@@ -55,16 +59,20 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
   before ending the game with Doomsday. The moniker *Meandeck* is explained in
   this article [here](/articles/2020/03/12/pretty-mean-deck/).
 
-<row variant="centered">{{!FoW}}</row>
+:::row{variant=centered}
+- FoW
+:::
 
 - **Entombsday** is more of a Tin Fins variant with a main deck plan focussing
   on reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
-  Vengeance] to then have it attack alongside Emrakul, the Eons Torn or,
-  looping the deck to cast an infinite number of Collective Brutality's or a
-  lethal Tendrils of Agony. The key point ot focus on is it runs a dedicated
+  Vengeance] to then have it attack alongside Emrakul, the Eons Torn or, looping
+  the deck to cast an infinite number of Collective Brutality's or a lethal
+  Tendrils of Agony. The key point ot focus on is it runs a dedicated
   transformational sideboard into effectively a variant of Meandeck Doomsday.
 
-<row variant="centered">{{!Griselbrand}}</row>
+:::row{variant=centered}
+- Griselbrand
+:::
 
 ### 2. What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
@@ -80,7 +88,11 @@ and even {U}{B}{R}{G} across the year with most decks having an almost entirely
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
 
-<row variant="centered">{{!Veil of Summer}} {{!Pyro}} {{!Teferi, Time Raveler}}</row>
+:::row{variant=centered}
+- Veil of Summer
+- Pyroblast
+- Teferi, Time Raveler
+:::
 
 ### 3. What list should I start on? What is the *best* list to play?
 
@@ -126,7 +138,11 @@ combo kill. All of these are likely the most favourable (part based on gut feel
 and part based on community obtained results found
 [here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
 
-<row variant="centered">{{!Uro, Titan of Nature's Wrath}} {{!Knight of the Reliquary}} {{!Wishclaw Talisman}}</row>
+:::row{variant=centered}
+- Uro, Titan of Nature's Wrath
+- Knight of the Reliquary
+- Wishclaw Talisman
+:::
 
 ### 6. What is the worst matchup for the deck?
 
@@ -137,7 +153,9 @@ matchup (around 40% match win rate observed) however Grixis Delver is likely the
 worst to face as the addition of Thoughtseize as another angle of disruption
 makes them very hard to face.
 
-<row variant="centered">{{!Delver of Secrets}}</row>
+:::row{variant=centered}
+- Delver of Secrets
+:::
 
 ### 7. What's a good meta to play Doomsday in?
 
@@ -157,7 +175,11 @@ advise getting a few reps under your belt playing it first before delving into
 the spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
-<row variant="centered">{{!Drown in the Loch}} {{!Baleful Strix}} {{!Careful Study}}</row>
+:::row{variant=centered}
+- Drown in the Loch
+- Baleful Strix
+- Careful Study
+:::
 
 ### 9. Is the deck hard to learn? Is it the most difficult deck in Legacy?
 
@@ -178,10 +200,12 @@ bread and butter.
 ### 10. How do I resolve Doomsday in paper?
 
 A large part of the confusion for the physical resolution of Doomsday stems from
-the wording on the original Weatherlight printing of :card[Doomsday]. See the card
-below along with the original rules text printed:
+the wording on the original Weatherlight printing of :card[Doomsday]. See the
+card below along with the original rules text printed:
 
-<row variant="centered">{{!Doomsday|WTH}}</row>
+:::row{variant=centered}
+- Doomsday|WTH
+:::
 
 > Pay half your life, rounded up:  
 > Put your graveyard on top of your library, then remove all but five cards of
@@ -196,13 +220,15 @@ Doomsday on the stack! Despite what the colon present may imply, the resolution
 of the card is *not* an activated ability. I have had an opponent before who
 read my card and asked a nearby judge "Can I name this card with :card[Pithing
 Needle]" to which the judge quite correctly replied: "Yes". My opponent then
-proceeded to play said :card[Pithing Needle] on the card and was quite put out that
-it did not work the way they had hoped it would.
+proceeded to play said :card[Pithing Needle] on the card and was quite put out
+that it did not work the way they had hoped it would.
 
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-<row variant="centered">{{!Doomsday|A25}}</row>
+:::row{variant=centered}
+- Doomsday|A25
+:::
 
 > Search your library and graveyard for five cards and exile the rest.  
 > Put the chosen cards on top of your library in any order.  
@@ -211,13 +237,13 @@ Doomsday:
 As you can see the wording changes significantly. If you were to perform the
 actions specified by the original wording and shuffled your graveyard and
 library together you can be called out for a GRV at competitive REL so watch
-out. Cards like :card[Shadow of Doubt] will work in preventing you from searching
-your library for cards but will still allow you to search your graveyard. One
-especially key thing to note is your opponent is allowed to see what cards you
-select (if any) from the graveyard as it is an open information zone. You are
-not required to explicitly state what you are taking however you should always
-allow them time to ask to see what cards are chosen and are not allowed to hide
-that information from them.
+out. Cards like :card[Shadow of Doubt] will work in preventing you from
+searching your library for cards but will still allow you to search your
+graveyard. One especially key thing to note is your opponent is allowed to see
+what cards you select (if any) from the graveyard as it is an open information
+zone. You are not required to explicitly state what you are taking however you
+should always allow them time to ask to see what cards are chosen and are not
+allowed to hide that information from them.
 
 ### 11. How long should I be taking to resolve Doomsday in paper?
 
@@ -304,12 +330,12 @@ At 2 :card[Underground Sea], :card[Daze] is unlocked as a reliable option.
 
 The second Oracle (main or side) can have a number of uses. It helps increase
 resilience against effects like :card[Extract] when they are aggressively used,
-help give a *second attempt* vs. cards like :card[Stifle] on the Oracle's trigger.
-They can enable additional devotion count, allow blocking in a pinch with some
-filtering, provide extra tricks vs. mill effects like :card[Ipnu Rivulet] and act
-as a pseudo +2 to your {U} card count for Force of Will effects. Especially
-useful if you need to bring in Force of Negations and maximise the ability to
-use them.
+help give a *second attempt* vs. cards like :card[Stifle] on the Oracle's
+trigger. They can enable additional devotion count, allow blocking in a pinch
+with some filtering, provide extra tricks vs. mill effects like :card[Ipnu
+Rivulet] and act as a pseudo +2 to your {U} card count for Force of Will
+effects. Especially useful if you need to bring in Force of Negations and
+maximise the ability to use them.
 
 If you have any questions beyond what is listed here feel free to ask in the
 [Discord](https://discord.gg/vajvFXt) or email ddftwiki@gmail.com

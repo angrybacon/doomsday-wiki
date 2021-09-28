@@ -3,21 +3,21 @@ title: Laboratory Maniac Piles
 ---
 
 Just to be very clear on the purpose of this section: this does not consider the
-use of :card[Mental Note] or :card[Unearth] or any other dead cards that are vulnerable to
-graveyard hate. We use Laboratory Maniac together with the cards that we are
-already playing.
+use of :card[Mental Note] or :card[Unearth] or any other dead cards that are
+vulnerable to graveyard hate. We use Laboratory Maniac together with the cards
+that we are already playing.
 
-:card[Laboratory Maniac] serves as an alternative way to win within Doomsday Storm
-combo. It is a win condition that doesn't target the opponent (therefore playing
-around :card[Leyline of Sanctity]), doesn't involve casting non-creature spells
-with converted mana cost 4 or greater against :card[Gaddock Teeg], and doesn't care
-about your opponent's life total. Because Laboratory Maniac is a creature, and
-needs to be in play when you draw from an empty library, he is vulnerable to
-removal spells like Swords to Plowshares, Lightning Bolt, Pyroblast, and Abrupt
-Decay which are all Legacy staples. There are ways to try to play around
-removal, but you can't beat everything. The primary purpose of LM is as a wincon
-that dodges a lot of incidental Storm hate. It is not a required card, and some
-pilots choose not to play it at all, but it has its uses.
+:card[Laboratory Maniac] serves as an alternative way to win within Doomsday
+Storm combo. It is a win condition that doesn't target the opponent (therefore
+playing around :card[Leyline of Sanctity]), doesn't involve casting non-creature
+spells with converted mana cost 4 or greater against :card[Gaddock Teeg], and
+doesn't care about your opponent's life total. Because Laboratory Maniac is a
+creature, and needs to be in play when you draw from an empty library, he is
+vulnerable to removal spells like Swords to Plowshares, Lightning Bolt,
+Pyroblast, and Abrupt Decay which are all Legacy staples. There are ways to try
+to play around removal, but you can't beat everything. The primary purpose of LM
+is as a wincon that dodges a lot of incidental Storm hate. It is not a required
+card, and some pilots choose not to play it at all, but it has its uses.
 
 Playing a 1-off Laboratory Maniac comes with a number of perks:
 
@@ -42,15 +42,33 @@ piles are:
 
 > SW in hand - {B}{B}{B} + {1}{U}{U}
 
-<row variant="pile">{{!IU}} {{!CB}} {{!LED}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+- IU
+- CB
+- LED
+- SW
+- LM
+:::
 
 > CB in play, SW in hand - {B}{B}{B} + {B}
 
-<row variant="pile">{{!LED}} {{!IU}} {{!SW}} {{!DR}} {{!LM}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- SW
+- DR
+- LM
+:::
 
 > 2 SW in hand - {B}{B}{B} + {B}
 
-<row variant="pile">{{!LED}} {{!IU}} {{!CB}} {{!DR}} {{!LM}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- CB
+- DR
+- LM
+:::
 
 Most of these piles speak for themselves. Somehow draw and cast Ideas Unbound
 draw CB, LED, SW, cast CB, use SW + LED to draw and cast Laboratory Maniac, tap
@@ -77,7 +95,13 @@ piles will be touched upon.
 
 > Pre in hand - {B}{B}{B} + {U}{U/B}{B}{B}{B}
 
-<row variant="pile">{{!IC}} {{!DR}} {{!LP}} {{!CB}} {{!LM}}</row>
+:::row{variant=pile}
+- IC
+- DR
+- LP
+- CB
+- LM
+:::
 
 This pile is fairly straightforward. Cast IC, draw the remaining cards in your
 library, cast DR, LP, CB, then LM. Draw with CB to win the game.
@@ -91,8 +115,8 @@ provides flexibility while being low power.
 
 ## Chromatic Sphere
 
-:card[Chromatic Sphere] can be used to enable Laboratory Maniac piles even when your
-opponent is holding creature removal. The key idea is to draw your entire
+:card[Chromatic Sphere] can be used to enable Laboratory Maniac piles even when
+your opponent is holding creature removal. The key idea is to draw your entire
 library and get Chromatic Sphere and Laboratory Maniac in play, then with 1 mana
 floating you activate Chromatic Sphere to win the game at mana-ability speed,
 without your opponent being able to respond. Abrupt Decay may still be used on

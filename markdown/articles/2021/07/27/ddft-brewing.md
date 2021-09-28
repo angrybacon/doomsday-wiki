@@ -19,7 +19,11 @@ play Doomsday and Tendrils of Agony in the same 75.
 
 ## The Starting Point
 
-<row variant="centered">{{!DD}} {{!EoE}} {{!BW}}</row>
+:::row{variant=centered}
+- DD
+- EoE
+- BW
+:::
 
 This is roughly what I and others would consider a typical DDFT list in the
 present day. It has undergone some changes since [my original Echo Doomsday
@@ -29,7 +33,11 @@ article][articles:echoes-of-the-past] but is more or less recognizable.
 
 <deck path="2021/07/26/ddft.ubrg.echo.txt" />
 
-<row variant="centered">{{!TO}} {{!IU}} {{!IC}}</row>
+:::row{variant=centered}
+- TO
+- IU
+- IC
+:::
 
 The biggest change of course is the adoption of Thassa's Oracle which hadn't
 been printed when that article was published. But there are other refinements as
@@ -54,19 +62,27 @@ and ups the impact of Wastelands and Stifles. Defense grid is perhaps an option,
 but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 3 to dodge Daze, and the opponent could pay 3 to Force a business spell anyway.
 
-<row variant="centered">{{!Solve the Equation}} {{!Dark Petition}}</row>
+:::row{variant=centered}
+- Solve the Equation
+- Dark Petition
+:::
 
 While these issues weren't catastrophic, and careful fetching could minimize it,
 I was nonetheless driven to explore other options. Over the course of 2020 and
 early 2021, I tried some Wish-less variants as well, including versions that
-looked a bit like ANT-hybrids with :card[Solve the Equation] or :card[Dark Petition].
-The mana was much more stable with just 3 colors, but the tutors felt worse than
-:card[Burning Wish]. I did find that I liked having all 4 Doomsday maindeck, but
-the shells felt great when you drew Doomsday and anemic at best when you didn't.
+looked a bit like ANT-hybrids with :card[Solve the Equation] or :card[Dark
+Petition]. The mana was much more stable with just 3 colors, but the tutors felt
+worse than :card[Burning Wish]. I did find that I liked having all 4 Doomsday
+maindeck, but the shells felt great when you drew Doomsday and anemic at best
+when you didn't.
 
 ## The Mindkiller
 
-<row variant="centered">{{!SotV}} {{!EtW}} {{!Mm}}</row>
+:::row{variant=centered}
+- SotV
+- EtW
+- Mm
+:::
 
 A few months after brewing the initial Echo Doomsday list, Thassa's Oracle had
 already cemented its place in the Doomsday Hall of Fame. By this time there were
@@ -100,7 +116,11 @@ that sometimes fell apart without any intervention from the opponent. Every time
 I had a cold streak with Spoils of the Vault, I would look for alternatives to
 it.
 
-<row variant="centered">{{!Plunge into Darkness}} {{!Gamble|USG}} {{!SotV}}</row>
+:::row{variant=centered}
+- Plunge into Darkness
+- Gamble|USG
+- SotV
+:::
 
 I tried replacing it with Preordain, I tried Plunge into Darkness, I tried
 Gamble, anything I could think of, but I kept coming back to Spoils. Preordain
@@ -114,7 +134,11 @@ or nearly so, and thus the *Mindkiller* style of DDFT stayed in my mind.
 
 ## The Truly Bizarre
 
-<row variant="centered">{{!Goblin Charbelcher|MRD}} {{!Recross the Paths}} {{!Lim-Dul's Vault}}</row>
+:::row{variant=centered}
+- Goblin Charbelcher|MRD
+- Recross the Paths
+- Lim-Dul's Vault
+:::
 
 I've always been drawn to unusual decks, particularly fast combos, although I've
 been known to play some Pox on occasion. Doomsday itself, back when I started
@@ -158,8 +182,8 @@ don't expect much.
 <deck path="2021/07/26/ddft.ub.lim-dul-vault.txt" />
 
 Another list based on the "X is just Doomsday 5-8!" idea. I actually first had
-this idea shortly after :card[Gitaxian Probe] got banned. It wasn't good then, so I
-probably shouldn't have expected much now, but hey, Oracle had been printed
+this idea shortly after :card[Gitaxian Probe] got banned. It wasn't good then,
+so I probably shouldn't have expected much now, but hey, Oracle had been printed
 since back then, so why not give it another shot? :card[Lim-Dul's Vault] can be
 used to arrange the top few cards into something that can generate lethal Storm.
 Play a few Draw4's and multiple copies of Tendrils maindeck so you have a better
@@ -180,7 +204,11 @@ Maybe this will... nope.
 
 ## The Successful Failures
 
-<row variant="centered">{{!ToA}} {{!BS}} {{!IC}}</row>
+:::row{variant=centered}
+- ToA
+- BS
+- IC
+:::
 
 Some of my experiments that didn't work out still yielded some valuable
 insights, or pointed me in a direction that ended up being worthwhile. Two that
@@ -239,7 +267,11 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 
 ## The Top of the Trashpile
 
-<row variant="centered">{{!Gemstone Mine}} {{!DD}} {{!Silence}}</row>
+:::row{variant=centered}
+- Gemstone Mine
+- DD
+- Silence
+:::
 
 So where did I end up after all that? Well, here's two lists:
 
@@ -259,7 +291,11 @@ on time, fetching for basics, or green or white sources, can be a liability. In
 the *Mindkiller* variant, the power of Brainstorm both in setup and in piles is
 worth contorting the mana a bit to play a handful of fetches.
 
-<row variant="centered">{{!Prismatic Ending}}{{!Endurance}}{{!Dress Down}}</row>
+:::row{variant=centered}
+- Prismatic Ending
+- Endurance
+- Dress Down
+:::
 
 The primary type of disruption is also the same between the two lists now,
 although Mindkiller only has access to it after sideboarding. With the printing
@@ -269,7 +305,11 @@ of questionable worth in an Echo of Eons deck. Tack on Endurance, Stifle,
 Mindbreak Trap, Dress Down, etc. and the value of telling your opponent to just
 shut up has skyrocketed. With a 5c manabase, Chants are easy enough to support.
 
-<row variant="centered">{{!Peer into the Abyss}}{{!Rip Apart}}{{!Galvanic Relay}}</row>
+:::row{variant=centered}
+- Peer into the Abyss
+- Rip Apart
+- Galvanic Relay
+:::
 
 The sideboards have also acquired some new tools. Since the early days of the
 deck there have been a few playable printings which made their way into the

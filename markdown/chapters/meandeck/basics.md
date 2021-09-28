@@ -26,7 +26,10 @@ These are as follows:
 1. Draw into your pile enough so that the Oracle's trigger can win you the game
 1. Resolve Thassa's Oracle
 
-<row variant="centered">{{!DD}}{{!TO}}</row>
+:::row{variant=centered}
+- DD
+- TO
+:::
 
 Of these steps, we will provide additional focus on how to achieve steps 2.
 and 3. as these are the first steps that are unique to the Doomsday archetype.
@@ -34,7 +37,10 @@ Other decks like Omnitell have similar transferable skills in order to resolve a
 specific key spell however it is the *pile* construction that is often the
 trickiest element of playing the deck for newer players of the archetype.
 
-<row variant="centered">{{!Pre}}{{!SW}}</row>
+:::row{variant=centered}
+- Pre
+- SW
+:::
 
 The first consideration to make is how you will *dig* into the pile.  
 We will use the phrase *dig* to mean to initially draw into the five cards you
@@ -42,10 +48,10 @@ have stacked with Doomsday.
 The most common way to *dig* into your pile is via a *cantrip* effect. This is a
 spell or ability which draws a card upon resolution. Typically this is provided
 by one of the commonly played {U} filter effects like :card[Preordain] or a free
-cycle effect like :card[Street Wraith]. If you are not under pressure you can also
-simply pass the turn to the opposing player and use your next turn's draw step
-in order to *dig* into the *pile*. When this is performed it is simply known as
-a *pass the turn pile* or *PTT pile*.
+cycle effect like :card[Street Wraith]. If you are not under pressure you can
+also simply pass the turn to the opposing player and use your next turn's draw
+step in order to *dig* into the *pile*. When this is performed it is simply
+known as a *pass the turn pile* or *PTT pile*.
 
 Once you have decided what method you will *dig* into your pile with you need to
 work out how you are going to get through enough cards that the trigger from
@@ -86,21 +92,33 @@ explore more of this in another chapter.
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+- IU
+- LP
+- LP
+- SW
+- TO
+:::
 
-Here you can use a cantrip to access the :card[Ideas Unbound]. This allows you to
-draw the two :card[Lotus Petal]s and the cycle effect. You can then cycle to draw
-the Oracle and cast it using the two Petals. Because this pile does not make use
-of :card[Lion's Eye Diamond] you can hold up cards like :card[Force of Will] or
-:card[Daze] in order to protect it. You can also substitute Street Wraith for
-:card[Edge of Autumn] if you are low on life or a Lotus Petal for a :card[Cavern of
-Souls] if you have a land drop available to you.
+Here you can use a cantrip to access the :card[Ideas Unbound]. This allows you
+to draw the two :card[Lotus Petal]s and the cycle effect. You can then cycle to
+draw the Oracle and cast it using the two Petals. Because this pile does not
+make use of :card[Lion's Eye Diamond] you can hold up cards like :card[Force of
+Will] or :card[Daze] in order to protect it. You can also substitute Street
+Wraith for :card[Edge of Autumn] if you are low on life or a Lotus Petal for a
+:card[Cavern of Souls] if you have a land drop available to you.
 
 ## Single Cantrip + Predict Pile
 
 > {1}{U} + Cantrip
 
-<row variant="pile">{{!Pdt}} {{!Pnd}} {{!LED}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+- Pdt
+- Pnd
+- LED
+- SW
+- TO
+:::
 
 This is a slightly different take for people who wish to use :card[Predict] over
 Ideas Unbound. In this example you use your cantrip effect to draw Predict. You
@@ -117,9 +135,21 @@ Once the cycle draw resolves, you will now have the mana to cast Oracle.
 
 > Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!PoN}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LP
+- PoN
+- TO
+:::
 
-<row variant="pile">{{!LED}} {{!Pdt}} {{!SW}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- Pdt
+- SW
+- LP
+- TO
+:::
 
 If you find yourself constrained on the mana to cast both a cantrip, and one of
 your two mana draw spells but have an additional, useable cantrip in hand then
@@ -137,20 +167,32 @@ spells or who are holding something like :card[Stifle] up.
 
 > {U} + Consider
 
-<row variant="pile">{{!DA}} {{!LED}} {{!SW}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- DA
+- LED
+- SW
+- LP
+- TO
+:::
 
-If you are low on resources you can utilise the above pile using :card[Consider] in
-conjunction with :card[Deep Analysis]. Consider allows you to put Deep Analysis
-into your graveyard and draw the Lion's Eye Diamond. You can then cast the Deep
-Analysis with Flashback using the Diamond mana. This allows you to then draw
-into additional mana and the Oracle. You can replace Petal with Cavern of Souls
-if you have a land drop available.
+If you are low on resources you can utilise the above pile using :card[Consider]
+in conjunction with :card[Deep Analysis]. Consider allows you to put Deep
+Analysis into your graveyard and draw the Lion's Eye Diamond. You can then cast
+the Deep Analysis with Flashback using the Diamond mana. This allows you to then
+draw into additional mana and the Oracle. You can replace Petal with Cavern of
+Souls if you have a land drop available.
 
 Similarly, you can replace the Consider in hand with a cycling effect.
 
 > {U} + Cycler
 
-<row variant="pile">{{!Consider}} {{!DA}} {{!LED}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- Consider
+- DA
+- LED
+- LP
+- TO
+:::
 
 ## Piles Not Using Predict nor Ideas Unbound
 
@@ -165,7 +207,13 @@ the second cantrip to dig deeper into your pile while cracking the LED for mana.
 
 > Cantrip + Cantrip
 
-<row variant="pile">{{!LED}} {{!SW}} {{!EoA}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- SW
+- EoA
+- Pnd
+- TO
+:::
 
 The above pile is pretty simplistic but shows that sometimes the simplest route
 is the most effective one. With additional cantrips you can even include
@@ -181,7 +229,13 @@ Deep Analysis and LED can be interchanged:
 
 > Lion's Eye Diamond + Cycler
 
-<row variant="pile">{{!DA}} {{!SW}} {{!SW}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- DA
+- SW
+- SW
+- LP
+- TO
+:::
 
 ## Passing the Turn
 
@@ -196,7 +250,15 @@ Take the following example:
 > Game 1  
 > On the play
 
-<row variant="hand">{{!DR}} {{!DD}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!I|RAV}} {{!Pre}}</row>
+:::row{variant=hand}
+- DR
+- DD
+- FoW
+- FoW
+- Swamp
+- Island
+- Pre
+:::
 
 Here we have a great example of what looks to be a *combo ready hand* however we
 cannot actually go off in the same turn with it. Even if we were to wait one
@@ -209,13 +271,25 @@ the examples above:
 
 > PTT
 
-<row variant="pile">{{!Pdt}} {{!SW}} {{!LED}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+- Pdt
+- SW
+- LED
+- EoA
+- TO
+:::
 
 Or
 
 > PTT + Cantrip
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!Tsz}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LP
+- Tsz
+- TO
+:::
 
 The first example is a *Single cantrip + Predict* example and the second is a
 *Double Cantrip* example which also allows you to hold up {B} from your swamp to
@@ -228,7 +302,13 @@ of using LED you can set up something like this:
 
 > PTT + PTT
 
-<row variant="pile">{{!Pdt}} {{!SW}} {{!LP}} {{!Pnd}} {{!TO}}</row>
+:::row{variant=pile}
+- Pdt
+- SW
+- LP
+- Pnd
+- TO
+:::
 
 In this example you can draw Predict for turn, play your island and pass again.
 At the end of the opponent's turn you can then cast the Predict, targeting

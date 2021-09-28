@@ -58,7 +58,9 @@ unwanted pieces with the fetchland. Ponder is best suited for trying to find one
 specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
-<row variant="centered">{{!Pnd}}</row>
+:::row{variant=centered}
+- Pnd
+:::
 
 #### :card[Preordain]
 
@@ -76,7 +78,9 @@ presented in Reid's article.
 I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
-<row variant="centered">{{!Pre}}</row>
+:::row{variant=centered}
+- Pre
+:::
 
 #### :card[Brainstorm]
 
@@ -86,9 +90,12 @@ considered one of the most powerful spell effects in Legacy. It acts as a way to
 *see* 3 cards but can, in effect, give the ability to exchange up to 2 cards
 from your hand, normally those considered uneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
-as almost drawing 3 cards with some people comparing it to :card[Ancestral Recall].
+as almost drawing 3 cards with some people comparing it to :card[Ancestral
+Recall].
 
-<row variant="centered">{{!BS}}</row>
+:::row{variant=centered}
+- BS
+:::
 
 ### Free *Cycling Effects*
 
@@ -110,33 +117,38 @@ used even if you have played an aggressive hand via Lotus Petals or if you need
 to retain a land to return with Daze for example.
 
 In some circumstances, it can be used as an additional win condition. Casting a
-Street Wraith after your Doomsdays have been hit with a :card[Surgical Extraction]
-effects or your opponent has paid 16 life with :card[Sylvan Library] can be a
-legitimate way to win the game. Against {B}{R} Reanimator there is also the
-potential to cycle it in response to an :card[Exhume] whereby, thanks to the life
-paid to a :card[Griselbrand] and the Swampwalk it can often present a lethal clock
-out of nowhere.
+Street Wraith after your Doomsdays have been hit with a :card[Surgical
+Extraction] effects or your opponent has paid 16 life with :card[Sylvan Library]
+can be a legitimate way to win the game. Against {B}{R} Reanimator there is also
+the potential to cycle it in response to an :card[Exhume] whereby, thanks to the
+life paid to a :card[Griselbrand] and the Swampwalk it can often present a
+lethal clock out of nowhere.
 
 For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
-<row variant="centered">{{!SW}}</row>
+:::row{variant=centered}
+- SW
+:::
 
 #### :card[Edge of Autumn]
 
 Edge of Autumn provides a method of cycling that is less taxing on your life
 total however can be of much less use outside of the combo. Sacrificing a land
 can be a heavy costs however sometimes it does mean you can mitigate the
-downside of a :card[Wasteland] effect or similar by cycling in response. In a pinch
-you can also use it to retrieve the third {B} source in the form of the basic
-Swamp from the deck but the situations this is needed are far and few between.
+downside of a :card[Wasteland] effect or similar by cycling in response. In a
+pinch you can also use it to retrieve the third {B} source in the form of the
+basic Swamp from the deck but the situations this is needed are far and few
+between.
 
 The thought process behind it mirrors that of the discard suite utilised. Edge
-is effectively the equivalent of :card[Duress]. Although Duress is generally more
-narrow than :card[Thoughtseize] in effect, the life loss can be significant so a
-mix is run to provide maximum flexibility.
+is effectively the equivalent of :card[Duress]. Although Duress is generally
+more narrow than :card[Thoughtseize] in effect, the life loss can be significant
+so a mix is run to provide maximum flexibility.
 
-<row variant="centered">{{!EoA}}</row>
+:::row{variant=centered}
+- EoA
+:::
 
 ### Pile Enablers
 
@@ -157,17 +169,21 @@ of effects like the reveal triggers on :card[Delver of Secrets] or
 mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
-<row variant="centered">{{!Pdt}}</row>
+:::row{variant=centered}
+- Pdt
+:::
 
 ### :card[Ideas Unbound]
 
 Ideas Unbound is a more effective card (resources allowing) during pile
 construction but a weaker card outside of the combo. It can be used as a large
-scale :card[Faithless Looting] effect to turn a land heavy hand into a speall heavy
-hand. or provide an explosive boost of cards for a single turn, potentially
-enabling you to combo off there and then.
+scale :card[Faithless Looting] effect to turn a land heavy hand into a speall
+heavy hand. or provide an explosive boost of cards for a single turn,
+potentially enabling you to combo off there and then.
 
-<row variant="centered">{{!IU}}</row>
+:::row{variant=centered}
+- IU
+:::
 
 ## Cantrip Sequencing - General Principles
 
@@ -228,11 +244,22 @@ Brainstorm. We know that Brainstorm, in conjecture with an additional card in
 hand post-Doomsday resolving, can lead to a deterministic, same-turn win. Let's
 consider the following hand:
 
-<row variant="hand">{{!DR}} {{!Pnd}} {{!FoW}} {{!FoW}} {{!S|RAV}} {{!BS}} {{!Pre}}</row>
+:::row{variant=hand}
+- DR
+- Pnd
+- FoW
+- FoW
+- Swamp
+- BS
+- Pre
+:::
 
 In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
 
-<row variant="hand">{{!Underground Sea}} {{!Polluted Delta}}</row>
+:::row{variant=hand}
+- Underground Sea
+- Polluted Delta
+:::
 
 It is turn 3.
 
@@ -268,11 +295,11 @@ turn or can it wait until the next? One of the hardest lessons to learn in
 Legacy is probably when it is fine to play a land and simply say "go". If you
 are playing against a {U} based control deck, often they will not be able to
 place any pressure on the board until the later turns or if they do, it is often
-only something like an :card[Ice-Fanged Coatl]. Being chipped away for 1 a turn is
-fine as it gives you a lot of time to work with so don't feel like you have to
-use all your mana every turn. This same principle applies to facing against
-:card[Daze] decks like Delver. It's okay to take a turn or two and simply develop
-your mana without allowing them to trade 1:1 with your cantrips.
+only something like an :card[Ice-Fanged Coatl]. Being chipped away for 1 a turn
+is fine as it gives you a lot of time to work with so don't feel like you have
+to use all your mana every turn. This same principle applies to facing against
+:card[Daze] decks like Delver. It's okay to take a turn or two and simply
+develop your mana without allowing them to trade 1:1 with your cantrips.
 
 Often you might find a situation where you have a pair of cantrips in hand and
 just need to find a single remaining piece to combo off, perhaps a ritual,
@@ -313,12 +340,12 @@ one card away from having the win, this might not be worth doing, especially if
 you know the top cards of your library.
 
 The cyclers can also be used to improve the use of setup cards like
-:card[Lim-Dûl's Vault] by enabling mana efficient ways of drawing the cards tutored
-for within the same turn. You can also use them to access *hidden* cards on the
-top of your deck. Hiding a Force of Will or a Daze on the top of your deck, with
-a Street Wraith in hand, means you can potentially dodge it getting hit by a
-card like Duress. This particular trick shouldn't be used often as it normally
-results in card disadvantage but it is something to be mindful of.
+:card[Lim-Dûl's Vault] by enabling mana efficient ways of drawing the cards
+tutored for within the same turn. You can also use them to access *hidden* cards
+on the top of your deck. Hiding a Force of Will or a Daze on the top of your
+deck, with a Street Wraith in hand, means you can potentially dodge it getting
+hit by a card like Duress. This particular trick shouldn't be used often as it
+normally results in card disadvantage but it is something to be mindful of.
 
 ### Getting Value from Predict
 
@@ -350,10 +377,10 @@ can be used to remove potential advantage from using Predict.
 Many see Ideas Unbound as a purely *combo-centric* card wit very limited utility
 prior to the casting of Doomsday. There are two main methods of using it outside
 of inside piles; *filtering* and *card booming*. Filtering basically is the use
-of it as a glorified :card[Careful Study]. If you find yourself with a hand of too
-many lands, or an abundance of protection in a matchup where it's not needed,
-you can just cast Ideas Unbound to spend the turn drawing some extra gas and
-discarding the uneeded cards.
+of it as a glorified :card[Careful Study]. If you find yourself with a hand of
+too many lands, or an abundance of protection in a matchup where it's not
+needed, you can just cast Ideas Unbound to spend the turn drawing some extra gas
+and discarding the uneeded cards.
 
 The other option is more of a late game tactic whereby you use it effectively as
 an :card[Ancestral Recall]. If you are low on cards, close to having a winning
@@ -383,11 +410,22 @@ targeting our tapped Underground Sea.
 
 Our board is:
 
-<row variant="hand">{{!Underground Sea}} {{!Polluted Delta}}</row>
+:::row{variant=hand}
+- Underground Sea
+- Polluted Delta
+:::
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!EoA}} {{!FoW}} {{!FoW}} {{!Underground Sea}} {{!BS}} {{!Daze}}</row>
+:::row{variant=hand}
+- DR
+- EoA
+- FoW
+- FoW
+- Underground Sea
+- BS
+- Daze
+:::
 
 What's the play?
 
@@ -414,11 +452,22 @@ state and hand:
 
 Our board is:
 
-<row variant="hand">{{!Underground Sea}} {{!Underground Sea}}</row>
+:::row{variant=hand}
+- Underground Sea
+- Underground Sea
+:::
 
 Our hand is:
 
-<row variant="hand">{{!DR}} {{!SW}} {{!Pre}} {{!Pnd}} {{!Daze}} {{!BS}} {{!Scalding Tarn}}</row>
+:::row{variant=hand}
+- DR
+- SW
+- Pre
+- Pnd
+- Daze
+- BS
+- Scalding Tarn
+:::
 
 What's the play?
 
@@ -445,11 +494,21 @@ turn 2. Our opponent has just cantripped turn 1 and passed.
 
 Our board is:
 
-<row variant="hand">{{!Underground Sea}}</row>
+:::row{variant=hand}
+- Underground Sea
+:::
 
 Our hand is:
 
-<row variant="hand">{{!Daze}} {{!Island}} {{!Pre}} {{!DD}} {{!Dur}} {{!EoA}} {{!Misty Rainforest}}</row>
+:::row{variant=hand}
+- Daze
+- Island
+- Pre
+- DD
+- Dur
+- EoA
+- Misty Rainforest
+:::
 
 What's the play?
 

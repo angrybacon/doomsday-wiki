@@ -12,11 +12,11 @@ new printings.
 
 ## Current Decklists
 
-Since the printing of :card[Thassa's Oracle], an old friend resurged from the dead:
-Meandeck Doomsday. The list plays a more reactive role in most matchups and
-focuses on building resources before going off. Since TO is so compact and cheap
-compared to its predecessors, it can still allow for quick win with an actual
-long game plan.
+Since the printing of :card[Thassa's Oracle], an old friend resurged from the
+dead: Meandeck Doomsday. The list plays a more reactive role in most matchups
+and focuses on building resources before going off. Since TO is so compact and
+cheap compared to its predecessors, it can still allow for quick win with an
+actual long game plan.
 
 <deck path="meandeck.ubr.txt" />
 
@@ -50,9 +50,9 @@ inspiration to the construction of that list.
 
 After the banning of :card[Sensei's Divining Top], the deck changed its shape a
 little bit. The number of copies of Lotus Petal was increased to pump up the
-speed, since without Top the ability to grind was diminished.
-:card[Conjurer's Bauble] saw its first appearance as a *stored draw* like Top was,
-and as a way to loop cards back into Doomsday piles.
+speed, since without Top the ability to grind was diminished. :card[Conjurer's
+Bauble] saw its first appearance as a *stored draw* like Top was, and as a way
+to loop cards back into Doomsday piles.
 
 <deck path="2018/06/ddft.txt" />
 

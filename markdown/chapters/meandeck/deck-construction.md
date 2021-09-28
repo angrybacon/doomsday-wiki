@@ -34,31 +34,37 @@ There are 6 main groups of cards used.
 
 ## 1. Card Group - Doomsdays
 
-The namesake of the deck, :card[Doomsday] is a requirement in all variants of the
-archetype. You will always need to have access to this as a four of in any
+The namesake of the deck, :card[Doomsday] is a requirement in all variants of
+the archetype. You will always need to have access to this as a four of in any
 dedicated build played. As you will need to access and resolve one of these in
 order to win the game in 99% of cases, often it is advantageous to try and
 increase the number being played. Because of deck construction rules limitations
 in Legacy, this means running other cards to try and locate more copies of
 Doomsday.
 
-The two most common examples are :card[Personal Tutor] (PT) and :card[Lim-Dul's Vault]
-(LDV). Both of these are card disadvantage but allow you to locate a copy of
-Doomsday and place it on top of your deck. Personal Tutor is more favoured for
-faster style lists costing only {U} and is good for setting up earlier combo
-turns whilst LDV is slower but has more flexibility by avoiding :card[Chalice of the
-Void] set to X = 1, being an Instant and being able to *tutor* for cards other
-than Sorceries.
+The two most common examples are :card[Personal Tutor] (PT) and :card[Lim-Dul's
+Vault] (LDV). Both of these are card disadvantage but allow you to locate a copy
+of Doomsday and place it on top of your deck. Personal Tutor is more favoured
+for faster style lists costing only {U} and is good for setting up earlier combo
+turns whilst LDV is slower but has more flexibility by avoiding :card[Chalice of
+the Void] set to X = 1, being an Instant and being able to *tutor* for cards
+other than Sorceries.
 
-<row variant="pile">{{!DD}} {{!PT}} {{!Lim-Dul's Vault}} {{!Solve the Equation}} {{!BW}}</row>
+:::row{variant=pile}
+- DD
+- PT
+- Lim-Dul's Vault
+- Solve the Equation
+- BW
+:::
 
-Another option, albeit a slower one again is :card[Solve the Equation]. This costs
-{2}{U} but allows you to place the Doomsday, or other target, directly into your
-hand. It can be favourable for lists that either want access to a more toolbox
-approach to some of the deckbuilding choices or a slower, more controlling one.
-There are many other options that could be considered like :card[Burning Wish],
-:card[Profane Tutor] or :card[Spoils of the Vault] however the majority of these have
-been found to not be effective.
+Another option, albeit a slower one again is :card[Solve the Equation]. This
+costs {2}{U} but allows you to place the Doomsday, or other target, directly
+into your hand. It can be favourable for lists that either want access to a more
+toolbox approach to some of the deckbuilding choices or a slower, more
+controlling one. There are many other options that could be considered like
+:card[Burning Wish], :card[Profane Tutor] or :card[Spoils of the Vault] however
+the majority of these have been found to not be effective.
 
 ### 1.1 Deckbuilding Ratios - Doomsdays
 
@@ -90,37 +96,46 @@ based splash fetch (where a splash is applicable) as the majority with
 ocassional incorporation of the {B} based splash fetch.
 
 For example: In a Grixis {U}{B}{R} based Doomsday list you might elect to run
-four Polluted Delta, three :card[Scalding Tarn] and one :card[Bloodstained Mire] as
-your fetchlands of choice.
+four Polluted Delta, three :card[Scalding Tarn] and one :card[Bloodstained Mire]
+as your fetchlands of choice.
 
-<row variant="pile">{{!Polluted Delta}} {{!Scalding Tarn}} {{!Bloodstained Mire}}</row>
+:::row{variant=pile}
+- Polluted Delta
+- Scalding Tarn
+- Bloodstained Mire
+:::
 
 An eight fetchland configuration is not required with some people opting for
 running nine with a reduced mana-producing land count. Additionally for more
 controlling builds, some may elect to replace some of these with copies of
-:card[Prismatic Vista] in conjunction with an increased basic lands count however
-these are considered not as effective as other fetchlands.
+:card[Prismatic Vista] in conjunction with an increased basic lands count
+however these are considered not as effective as other fetchlands.
 
-In terms of fetchable lands, :card[Underground Sea] is the dominant dual land used.
-For most straight {U}{B} lists this is a four-of that is run however for less
-aggressive lists or lists with splash colours in this can often be a three of.
-Some very aggressive lists which have started to forgo basic lands entirely are
-option to run four Seas and a copy of :card[Watery Grave] as a pseudo fifth copy.
-In this instance, if no basic lands are being run, the fetchland configuration
-can be changed to run any combination of {U}/x or {B}/x fetchlands.
-(Diversification is important to avoid :card[Pithing Needle] type effects.
-Conversely, in a more control-based list this can drop down as far as only one
-or two copies of Underground Sea with an Island dominant manabase being favoured
-with copies of :card[Urborg, Tomb of Yawgmoth] being run as a mana fixer of choice.
+In terms of fetchable lands, :card[Underground Sea] is the dominant dual land
+used. For most straight {U}{B} lists this is a four-of that is run however for
+less aggressive lists or lists with splash colours in this can often be a three
+of. Some very aggressive lists which have started to forgo basic lands entirely
+are option to run four Seas and a copy of :card[Watery Grave] as a pseudo fifth
+copy. In this instance, if no basic lands are being run, the fetchland
+configuration can be changed to run any combination of {U}/x or {B}/x
+fetchlands. (Diversification is important to avoid :card[Pithing Needle] type
+effects. Conversely, in a more control-based list this can drop down as far as
+only one or two copies of Underground Sea with an Island dominant manabase being
+favoured with copies of :card[Urborg, Tomb of Yawgmoth] being run as a mana
+fixer of choice.
 
 If splash colours are being run then it is generally accepted to run one {U}/x
 dual land of the splash colour and one {B}/x dual land of the splash colour.
 
 For example: In a BUG {B}{U}{G} based Doomsday list you might elect to run three
-Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual lands
-of choice.
+Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
+lands of choice.
 
-<row variant="pile">{{!Underground Sea}} {{!Tropical Island}} {{!Bayou}}</row>
+:::row{variant=pile}
+- Underground Sea
+- Tropical Island
+- Bayou
+:::
 
 The final land type to discuss (for this section) is your basic land count.
 Traditionally only two to three basics were run normally in a 2:1 ratio of
@@ -134,21 +149,26 @@ forest however in the heavier control builds it might be worthwhile.
 For example: In an Esper {W}{U}{B} based Doomsday list you might elect to run
 two Islands, two Swamps and one Plains as your basic lands of choice.
 
-<row variant="pile">{{!Island|RAV}} {{!Swamp|RAV}} {{!Plains|RAV}}</row>
+:::row{variant=pile}
+- Island|RAV
+- Swamp|RAV
+- Plains|RAV
+:::
 
 ### 2.1 Deckbuilding Ratios - Lands
 
 The majority of Doomsday lists like to run between fourteen and seventeen lands
 as part of their core manabase. The number tends to decrease with a more
-aggressive playstyle and an increased number of free cycle effects and :card[Lotus
-Petal]s. It is normally split as eight fetch lands, two basics and five dual
-lands with numbers changing based on your preference and playstyle. You can
-supplement your land count with other toolbox lands like :card[Cavern of Souls] or
-:card[Shelldock Isle] however these will be discussed later as part of the Pile
-Cards section and should not be considered as part of your mana producing land
-count. Some people also opt to use other toolbox lands like :card[Wasteland] in
-their lists in an effort to be more disruptive. Again this should not factor as
-part of your mana requirements and instead be considered as Interaction.
+aggressive playstyle and an increased number of free cycle effects and
+:card[Lotus Petal]s. It is normally split as eight fetch lands, two basics and
+five dual lands with numbers changing based on your preference and playstyle.
+You can supplement your land count with other toolbox lands like :card[Cavern of
+Souls] or :card[Shelldock Isle] however these will be discussed later as part of
+the Pile Cards section and should not be considered as part of your mana
+producing land count. Some people also opt to use other toolbox lands like
+:card[Wasteland] in their lists in an effort to be more disruptive. Again this
+should not factor as part of your mana requirements and instead be considered as
+Interaction.
 
 Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, straight {U}{B} *Turbo* manabase, a more
@@ -179,8 +199,8 @@ dual land of the appropriate type here.
 - 1 Swamp
 
 You can consider swapping basics for additional fetches if you want to be a
-little less resilient vs Wasteland or :card[Blood Moon] effects. Inversely you can
-also go down to three Seas to add an additional basic land if desired.
+little less resilient vs Wasteland or :card[Blood Moon] effects. Inversely you
+can also go down to three Seas to add an additional basic land if desired.
 
 #### {W}{U}{B} *Control*
 
@@ -199,7 +219,11 @@ basics to find a ratio that fits your playing style preferences.
 
 ## 3. Card Group - Mana Accelerants
 
-<row variant="pile">{{!DR}} {{!LP}} {{!CR}}</row>
+:::row{variant=pile}
+- DR
+- LP
+- CR
+:::
 
 Because Legacy can be a very fast and efficient format, additional help is
 needed in order to facilitate casting a spell which costs {B}{B}{B}. One
@@ -208,11 +232,11 @@ stack, hopefully outracing any pressure that is on the board or avoiding your
 opponent being able to obtain interaction in hand or the mana resources to use
 it. To facilitate this we use a few cards that temporarily accelerate our mana.
 
-The core ones played are :card[Dark Ritual] and Lotus Petal. Dark Ritual is a key
-tool which conveniently, on resolution, produces the exact mana required to cast
-Doomsday. It allows you to be able to aggressively fetch basic Islands and still
-have {B}{B}{B} and it can even enable you to cast Doomsday on turn one of the
-game. You should almost always be running four copies of Dark Ritual.
+The core ones played are :card[Dark Ritual] and Lotus Petal. Dark Ritual is a
+key tool which conveniently, on resolution, produces the exact mana required to
+cast Doomsday. It allows you to be able to aggressively fetch basic Islands and
+still have {B}{B}{B} and it can even enable you to cast Doomsday on turn one of
+the game. You should almost always be running four copies of Dark Ritual.
 
 Lotus Petal is both a mana accelerant that helps cast your spells and can be
 easily incorporated effectively in your piles. It helps fix your mana to enable
@@ -223,13 +247,13 @@ are favourable for either decks looking to win fast or that have greedier mana
 requirements due to splash colours. In a control style list you may only wish to
 run two whilst most other lists will probably wish to run three or four.
 
-Some people opt for additional acceleration in the form of a singleton :card[Cabal
-Ritual]. This is simply a way to ensure you have more consistent access to
-{B}{B}{B} and is generally just a way to jump from two mana to three mana. The
-Threshold effect is normally not something that is required. You would only
-consider running a Cabal Ritual if you really wanted to cheat on mana and try to
-make your deck as consistent as possible for mulliganing purposes. Some people
-include one or two Cabal Rituals as sideboard cards for certain matchups.
+Some people opt for additional acceleration in the form of a singleton
+:card[Cabal Ritual]. This is simply a way to ensure you have more consistent
+access to {B}{B}{B} and is generally just a way to jump from two mana to three
+mana. The Threshold effect is normally not something that is required. You would
+only consider running a Cabal Ritual if you really wanted to cheat on mana and
+try to make your deck as consistent as possible for mulliganing purposes. Some
+people include one or two Cabal Rituals as sideboard cards for certain matchups.
 
 ### 3.1 Deckbuilding Ratios - Mana Accelerants
 
@@ -243,20 +267,32 @@ example below:
 
 > {U}{U} + Cantrip
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!EoA}} {{!TO}}</row>
+:::row{variant=pile}
+- IU
+- LP
+- LP
+- EoA
+- TO
+:::
 
 ## 4. Card Group - Interaction
 
 Under interaction, there are two additional sub-categories of cards. Proactive
 and reactive. Proactive interaction is one you can use at any time to try and
 either interfere with your opponent's game plan or to protect your own. Examples
-of this include discard spells like :card[Duress]. Reactive interaction are cards
-that rely on your opponent making an action before they can be used. Examples of
-this include counter-magic like :card[Spell Pierce].
+of this include discard spells like :card[Duress]. Reactive interaction are
+cards that rely on your opponent making an action before they can be used.
+Examples of this include counter-magic like :card[Spell Pierce].
 
 ### 4.1 Proactive Interaction
 
-<row variant="pile">{{!Dur}} {{!Tsz}} {{!Teferi, Time Raveler}} {{!Baleful Strix}} {{!Wasteland}}</row>
+:::row{variant=pile}
+- Dur
+- Tsz
+- Teferi, Time Raveler
+- Baleful Strix
+- Wasteland
+:::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
 effects such as Duress and :card[Thoughtseize] or tools like :card[Teferi, Time
@@ -279,8 +315,8 @@ the life loss from Thoughtseize and the bias of non-creature spells being more
 impactful in matchups however this is meta-dependant and sometimes it is better
 to favour Thoughtseize. You should always include at least one of each in order
 to be able to incorporate the appropriate one in pile building. Some have tried
-alternatives like :card[Cabal Therapy] and :card[Inquisition of Kozilek] however they
-have been found to be not as effective as Duress and Thoughtseize.
+alternatives like :card[Cabal Therapy] and :card[Inquisition of Kozilek] however
+they have been found to be not as effective as Duress and Thoughtseize.
 
 Teferi is a very strong tool in the Doomsday arsenal. It prevents almost all
 interaction during your combo turn and allows you to easily deploy your threats
@@ -297,15 +333,15 @@ be run alongside discard effects and other reactive disruption.
 
 There is one more main class of proactive disruption in the form of running a
 creature package. The most commonly found card for this is :card[Baleful Strix]
-however other options like :card[Uro, Titan of Nature's Wrath] and :card[Sedgemoor
-Witch] have been tried. The idea behind these is they act as delays to your
-opponent's pressure whilst also providing additional card draws. Uro and
-Sedgemoor both also provide an alternative way to win without casting Doomsday
-for matchups where that may be useful.
+however other options like :card[Uro, Titan of Nature's Wrath] and
+:card[Sedgemoor Witch] have been tried. The idea behind these is they act as
+delays to your opponent's pressure whilst also providing additional card draws.
+Uro and Sedgemoor both also provide an alternative way to win without casting
+Doomsday for matchups where that may be useful.
 
 If running Strixes, these normally are swapped out for some mix of free cycle
-effects, :card[Daze] or Preordains. Adding some of the other creature packages are
-less simple to map out but can also take the place of those slots alongside
+effects, :card[Daze] or Preordains. Adding some of the other creature packages
+are less simple to map out but can also take the place of those slots alongside
 Lotus Petals. Strixes are normally run as a two to four of and creature plans
 like Uro a three to four of (where incorporated).
 
@@ -320,13 +356,18 @@ from free cycle effects and other interaction.
 
 ### 4.2 Reactive Interaction
 
-<row variant="pile">{{!Force of Will}} {{!Daze}} {{!Flusterstorm}} {{!Veil of Summer}}</row>
+:::row{variant=pile}
+- Force of Will
+- Daze
+- Flusterstorm
+- Veil of Summer
+:::
 
 Reactive interaction is most commonly found in Doomsday lists as either
-counterspell effects such as :card[Force of Will] and Daze or tools like :card[Veil of
-Summer]. They are effective at efficiently interacting with your opponent's
-cards and can help in both offense and defense. These tend to be more mana
-efficient than the proactive interaction available.
+counterspell effects such as :card[Force of Will] and Daze or tools like
+:card[Veil of Summer]. They are effective at efficiently interacting with your
+opponent's cards and can help in both offense and defense. These tend to be more
+mana efficient than the proactive interaction available.
 
 Countermagic is the most common form of interaction found in Doomsday. As with
 many blue decks in Legacy, the first card to consider is Force of Will. Force
@@ -339,22 +380,22 @@ the deck.
 
 Daze is another excellent tool in terms of interaction. It provides a second,
 mana-efficient piece of interaction that can help defend against key tap-out
-threats like :card[Trinisphere] or :card[Sylvan Library] whilst also providing the
-ability to push through early Doomsdays. As the game progresses they start being
-less effective but can be used *pitch* to Force of Will meaning they are never
-truly dead cards. For non-control based lists this is almost always a four-of
-include into the deck as it really helps push through a lot of matchups. In
-control lists it tends to not be included at all, instead being replace with
+threats like :card[Trinisphere] or :card[Sylvan Library] whilst also providing
+the ability to push through early Doomsdays. As the game progresses they start
+being less effective but can be used *pitch* to Force of Will meaning they are
+never truly dead cards. For non-control based lists this is almost always a
+four-of include into the deck as it really helps push through a lot of matchups.
+In control lists it tends to not be included at all, instead being replace with
 alternative tools like Baleful Strix and Teferi.
 
 There are a couple of additional counter spell effects you can elect to run but
 these are normally personal preference choices. :card[Flusterstorm] and Spell
 Pierce are both viable options with the former being good at protecting your
 combo and against opposing combo and the latter being better at protecting from
-permanent hate like Blood Moon or planeswalkers like :card[Karn the Great Creator].
-These normally contend with the proactive interaction slots and are only ever
-featured as a one or two-of at most. Some will also elect to run some number of
-:card[Pact of Negation] however this will be discussed as a pile card.
+permanent hate like Blood Moon or planeswalkers like :card[Karn the Great
+Creator]. These normally contend with the proactive interaction slots and are
+only ever featured as a one or two-of at most. Some will also elect to run some
+number of :card[Pact of Negation] however this will be discussed as a pile card.
 
 Veil of Summer is an interesting interaction card. It can act both as proactive
 interaction by initiating a combo turn with it, but can also act as reactive
@@ -422,7 +463,12 @@ longer and grindier game most likely.
 
 ## 5. Card Group - Cantrips
 
-<row variant="pile">{{!BS}} {{!Pnd}} {{!Pre}} {{!Mishra's Bauble}}</row>
+:::row{variant=pile}
+- BS
+- Pnd
+- Pre
+- Mishra's Bauble
+:::
 
 Cantrips are a staple in {U} decks in Legacy and provide the ability to find the
 cards you need at the time you need them and allow you to *cheat* on mana
@@ -432,22 +478,22 @@ however if you wish to read more about the ways of using them in the deck, feel
 free to read [this article here](/articles/2020/10/05/gangsta-trippin/).
 
 There are two core cantrips which are run as a core part of the deck package;
-:card[Brainstorm] and :card[Ponder]. These are both run as four-ofs and, without very
-good justification, should likely never drop below that number. Preordain is a
-more flexible cantrip, normally being run as at least a two-of but anywhere up
-to a four-of most of the time. As said before the number of Preordains tends to
-fluctuate with the style of the deck often being cut in favour of tutor effects
-or creature packages.
+:card[Brainstorm] and :card[Ponder]. These are both run as four-ofs and, without
+very good justification, should likely never drop below that number. Preordain
+is a more flexible cantrip, normally being run as at least a two-of but anywhere
+up to a four-of most of the time. As said before the number of Preordains tends
+to fluctuate with the style of the deck often being cut in favour of tutor
+effects or creature packages.
 
-:card[Mishra's Bauble] is a card that generally only gets played in slower builds
-alongside high numbers of :card[Predict]. It acts as a delayed way to draw into a
-pile as well as providing fetching information for either your own deck or in
-terms of what your opponent is playing. Most importantly though it allows you to
-consistently *hit* with Predict allowing the maximum card advantage to be
-accrued with it. Outside of this interaction though, it is likely worse than
-Preordain despite the lower cost as it decreases your potential blue count for
-Force of Will and can be slow/not contribute to same turn wins when you need
-them.
+:card[Mishra's Bauble] is a card that generally only gets played in slower
+builds alongside high numbers of :card[Predict]. It acts as a delayed way to
+draw into a pile as well as providing fetching information for either your own
+deck or in terms of what your opponent is playing. Most importantly though it
+allows you to consistently *hit* with Predict allowing the maximum card
+advantage to be accrued with it. Outside of this interaction though, it is
+likely worse than Preordain despite the lower cost as it decreases your
+potential blue count for Force of Will and can be slow/not contribute to same
+turn wins when you need them.
 
 ### 5.1 Deckbuilding Ratios - Cantrips
 
@@ -462,7 +508,13 @@ in testing.
 
 ## 6. Card Group - Pile Cards
 
-<row variant="pile">{{!TO}} {{!EoA}} {{!IU}} {{!LED}} {{!CoS}}</row>
+:::row{variant=pile}
+- TO
+- EoA
+- IU
+- LED
+- CoS
+:::
 
 This is probably the most diverse set of cards and might as well be titled
 "miscellaneous" however there are some important pieces in here that are
@@ -473,23 +525,23 @@ these are optional extras apart from one key component:
 
 ### 6.1 Thassa's Oracle
 
-:card[Thassa's Oracle] is the card you need to be able to win the game, (unless you
-have a plan B) and therefore you have to run at least one of them. Some people
-like to run two but the second is often relegated to the sideboard. There is not
-much else to say other than the alternatives in :card[Laboratory Maniac] and
-:card[Jace, Wielder of Mysteries] unfortunately do not display quite the same
-efficiency or efficacy as a win condition of choice.
+:card[Thassa's Oracle] is the card you need to be able to win the game, (unless
+you have a plan B) and therefore you have to run at least one of them. Some
+people like to run two but the second is often relegated to the sideboard. There
+is not much else to say other than the alternatives in :card[Laboratory Maniac]
+and :card[Jace, Wielder of Mysteries] unfortunately do not display quite the
+same efficiency or efficacy as a win condition of choice.
 
 ### 6.2 Free Cycle effects
 
 The next set of pile cards to look at are the free cyclers. When we talk about
-these are meaning :card[Street Wraith] and :card[Edge of Autumn]. In pile building
-they provide a *free* way to draw a card that cannot be countered through
-conventional means. This gives a lot of flexibility and enables a lot of the
-faster, or same turn pile wins. Both tend to be run because sometimes the life
-total can be pressured and you may not have the two life available to cycle a
-Street Wraith, even though it is probably the more useful of the two outside of
-the combo.
+these are meaning :card[Street Wraith] and :card[Edge of Autumn]. In pile
+building they provide a *free* way to draw a card that cannot be countered
+through conventional means. This gives a lot of flexibility and enables a lot of
+the faster, or same turn pile wins. Both tend to be run because sometimes the
+life total can be pressured and you may not have the two life available to cycle
+a Street Wraith, even though it is probably the more useful of the two outside
+of the combo.
 
 Depending on your playstyle you can probably run between one and six of these
 effects. You will want at least one to be able to create Brainstorm piles that
@@ -513,13 +565,13 @@ card advantage engine.
 
 ### 6.4 Lion's Eye Diamond
 
-:card[Lion's Eye Diamond] (or LED) is an incredibly strong card that allows you, in
-your piles, to cheat on mana. It has some limitations in not allowing you to use
-counter magic to protect anything you cast with it but the benefits are so large
-that these are not a concern. It is one of the cards that enables the fastest
-wins and the most mana efficient piles in the deck. You should almost always run
-one as a core card in the deck however any more can be a liability as it has
-almost no use outside of piles (though there are some corner cases).
+:card[Lion's Eye Diamond] (or LED) is an incredibly strong card that allows you,
+in your piles, to cheat on mana. It has some limitations in not allowing you to
+use counter magic to protect anything you cast with it but the benefits are so
+large that these are not a concern. It is one of the cards that enables the
+fastest wins and the most mana efficient piles in the deck. You should almost
+always run one as a core card in the deck however any more can be a liability as
+it has almost no use outside of piles (though there are some corner cases).
 
 ### 6.5 Cavern of Souls
 

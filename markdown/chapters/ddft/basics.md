@@ -29,15 +29,21 @@ certain line of play.
 ### Single Cantrip Piles
 
 There are basically two variants to this pile. You either have a cantrip that
-draws a single card in hand ready to cast, or a :card[Conjurer's Bauble] in play.
-For the moment, the difference does not really matter and we'll just assume that
-you have a Ponder in hand and {U} to cast it.
+draws a single card in hand ready to cast, or a :card[Conjurer's Bauble] in
+play. For the moment, the difference does not really matter and we'll just
+assume that you have a Ponder in hand and {U} to cast it.
 
 #### Ideas Unbound
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U} - 7 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!SW}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LED
+- SW
+- BW
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast Cantrip from hand, draw IU
@@ -58,7 +64,13 @@ Wraith with a Ponder at the cost of 1 more {U} mana.
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U}
 
-<row variant="pile">{{!IU}} {{!LP}} {{!LP}} {{!SW}} {{!TO}}</row>
+:::row{variant=pile}
+- IU
+- LP
+- LP
+- SW
+- TO
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast Cantrip from hand, draw IU
@@ -74,7 +86,13 @@ matter, which obviously is great when you can't generate enough storm.
 
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
-<row variant="pile">{{!IC}} {{!LP}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+- IC
+- LP
+- LED
+- LED
+- BW
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast cantrip, draw IC
@@ -90,7 +108,13 @@ response to the first cantrip.
 
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}
 
-<row variant="pile">{{!IC}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- IC
+- LP
+- LP
+- LP
+- TO
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast cantrip to draw IC
@@ -106,7 +130,13 @@ than a Storm pile with Contract.
 
 > Pnd, Pnd in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LP
+- LED
+- BW
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast a Ponder to draw LED
@@ -126,7 +156,13 @@ with Doomsday.
 
 > Pnd, Pnd in hand - {B}{B}{B} + {U}{U}
 
-<row variant="pile">{{!LED}} {{!IU}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- IU
+- LP
+- LP
+- TO
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast a Ponder to draw LED
@@ -146,7 +182,13 @@ Doomsday, but no additional mana.
 
 > CB, Pre in hand - {B}{B}{B} + {2}{U} - 10 Storm
 
-<row variant="pile">{{!LED}} {{!IC}} {{!LED}} {{!LP}} {{!BW}}</row>
+:::row{variant=pile}
+- LED
+- IC
+- LED
+- LP
+- BW
+:::
 
 1. Cast Doomsday and build the above pile
 2. Cast Pre, draw LED

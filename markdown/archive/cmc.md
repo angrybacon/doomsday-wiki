@@ -3,11 +3,11 @@ title: Limited Numbers
 ---
 
 This is a generic title. This section discusses all cards that selectively lock
-off a certain CMC cost of a spell. This can include things like
-:card[Chalice of the Void], :card[Sanctum Prelate] or non-permanent hate such as
-:card[Spell Snare]. There are some CMCs the deck needs to be able to function, and
-some that are completely optional. Here we shall explore the relevancy these
-cards have against us and some strategies to face them.
+off a certain CMC cost of a spell. This can include things like :card[Chalice of
+the Void], :card[Sanctum Prelate] or non-permanent hate such as :card[Spell
+Snare]. There are some CMCs the deck needs to be able to function, and some that
+are completely optional. Here we shall explore the relevancy these cards have
+against us and some strategies to face them.
 
 For each value examples will be given on what hate you might face and how to get
 around the listed limitation.
@@ -26,19 +26,43 @@ post-DD to get us going.
 
 > SW in hand - {B}{B}{B} + {U}{U}{B}{R} - 6 Storm
 
-<row variant="pile">{{!IU}} {{!DR}} {{!DR}} {{!SW}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- DR
+- DR
+- SW
+- BW
+:::
 
 > CB in play, SW in hand - {B}{B}{B} + {X}{B}{B} - 7+ Storm
 
-<row variant="pile">{{!DR}} {{!IC}} {{!DR}} {{!CB}} {{!ToA}}</row>
+:::row{variant=pile}
+- DR
+- IC
+- DR
+- CB
+- ToA
+:::
 
 > 2 SW in hand - {B}{B}{B} + {B}{R}{R} - 6 Storm
 
-<row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!DR}} {{!BW}}</row>
+:::row{variant=pile}
+- DR
+- AoI
+- DR
+- DR
+- BW
+:::
 
 > 2 SW in hand - {B}{B}{B} + {U}{B}{R}
 
-<row variant="pile">{{!DR}} {{!AoI}} {{!DR}} {{!LM}} {{!SW}}</row>
+:::row{variant=pile}
+- DR
+- AoI
+- DR
+- LM
+- SW
+:::
 
 These piles have lost a lot of their power with the banning of Gitaxian Probe
 since the free draw effect utilized here does not count towards Storm count.
@@ -54,9 +78,9 @@ colour requirements but for most DDFT lists you do.
 CMC 0 basically only stops Engineered Explosives in terms of cards we can bring
 in to fight it. Anything else such as :card[By Force], :card[Hurkyl's Recall] or
 similar can all deal with a Chalice on 0 with no issue and similarly,
-:card[Massacre], :card[Abrupt Decay] and :card[Pyroclasm] can all easily deal with
-Sanctum Prelate. One thing to note is, should you by some means have a way to
-generate colourless mana, you can in fact play EE for {1} and it will resolve
+:card[Massacre], :card[Abrupt Decay] and :card[Pyroclasm] can all easily deal
+with Sanctum Prelate. One thing to note is, should you by some means have a way
+to generate colourless mana, you can in fact play EE for {1} and it will resolve
 with 0 counter on due to the nature of Sunburst only counting coloured mana.
 
 ## 1 Mana Cost Spells
@@ -65,20 +89,20 @@ This is THE classic opener of Stompy variants, Aggro Loam and other strategies
 that aren't concerned with cantripping or similar. The main issue with this
 limitation is getting to the point you can cast Doomsday rather than the actual
 going off. Obviously things like running BW along with artifact hate such as
-:card[Meltdown] can help get around the issue but you may just find you can go off
-without it (however unlikely that may be). You can also just try to go for an
-:card[EtW] play by throwing cantrips into Chalice then using lands, LP and LEDs to
-BW for EtW. This can also achieve a natural ToA kill if you have the time and
-resources.
+:card[Meltdown] can help get around the issue but you may just find you can go
+off without it (however unlikely that may be). You can also just try to go for
+an :card[EtW] play by throwing cantrips into Chalice then using lands, LP and
+LEDs to BW for EtW. This can also achieve a natural ToA kill if you have the
+time and resources.
 
 The two main points to take is the lack of ability to cast your cantrips and the
 lack of being able to cast things like DR or CB. IC is the preferred draw method
 here as it means you get the complete stack rather than IU that leaves you
 needing to draw an additional card. If you have a CB in play already then there
 is obviously no issue but it is still worth considering. This is also where the
-cycling ability of Street Wraith and :card[Edge of Autumn] shines as it represents
-a cantrip that, although does not generate Storm, does allow drawing into the
-pile and also drawing a card for LM victories.
+cycling ability of Street Wraith and :card[Edge of Autumn] shines as it
+represents a cantrip that, although does not generate Storm, does allow drawing
+into the pile and also drawing a card for LM victories.
 
 With these piles you also have to consider you have most likely cast DD off of
 lands and LPs. As a result you probably have less mana available and as the most
@@ -89,24 +113,48 @@ like Edge of Autumn to access the pile are all considerations.
 
 > Pass the turn - {2}{B}{B}{B}{R} - 7 Storm
 
-<row variant="pile">{{!BW}} {{!LED}} {{!LED}} {{!LP}} {{!BW}}</row>
+:::row{variant=pile}
+- BW
+- LED
+- LED
+- LP
+- BW
+:::
 
 > BW in hand, CB in play, pass the turn - {1}{R} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+- LED
+- LED
+- LED
+- LED
+- BW
+:::
 
 > BW in hand, CB in play - {B}{B}{B} + {2}{R} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
+:::row{variant=pile}
+- LED
+- LED
+- LP
+- LP
+- BW
+:::
 
 > BW in hand, CB in play - {B}{B}{B} + {1}{R} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!AoI}} {{!LED}} {{!LED}} {{!BW}}</row>
+:::row{variant=pile}
+- LED
+- AoI
+- LED
+- LED
+- BW
+:::
 
 In terms of removal there is very little here. Only :card[Chain of Vapor] and
-:card[Void Snare] are affected here. This is where By Force shines over some other
-artifact removal as casting By Force with X = 1 means that it becomes a CMC 2
-card that then allows you to destroy a single Chalice set to 1. A Sanctum
+:card[Void Snare] are affected here. This is where By Force shines over some
+other artifact removal as casting By Force with X = 1 means that it becomes a
+CMC 2 card that then allows you to destroy a single Chalice set to 1. A Sanctum
 Prelate is equally vulnerable as most of our removal for creatures costs 2 or 4.
 
 ## 2 Mana Cost Spells
@@ -120,11 +168,23 @@ get rid of it. You can also ignore this limitation with maindeck ToA.
 
 > SW in hand, CB in play - {B}{B}{B} + {X} - 8+ Storm
 
-<row variant="pile">{{!LED}} {{!AoI}} {{!ToA}} {{!LED}} {{!CB}}</row>
+:::row{variant=pile}
+- LED
+- AoI
+- ToA
+- LED
+- CB
+:::
 
 > SW in hand - {B}{B}{B} + {2}{U}{R}
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!BS}} {{!LM}} {{!Abandon Hope}}</row>
+:::row{variant=pile}
+- AoI
+- LED
+- BS
+- LM
+- Abandon Hope
+:::
 
 This limitation in terms of removal is very awkward. Things like Abrupt Decay
 are not affected from a Chalice set to 2. This does lock off things like
@@ -146,15 +206,15 @@ answers and if in doubt, you can still initiate an Empty the Warrens line with
 no issue.
 
 Removal-wise this does not prevent anything really unless you are going for
-something more spicy such as :card[Toxic Deluge] or :card[Rushing River]. Otherwise
-all your removal is turned on and ready to go.
+something more spicy such as :card[Toxic Deluge] or :card[Rushing River].
+Otherwise all your removal is turned on and ready to go.
 
 ## 4 Mana Cost Spells
 
 In this category we introduce, in addition to Prelate and Chalice, :card[Gaddock
-Teeg] as another limitation permanent we could face. The main thing here is
-that this number block prevents our Storm finishers from being used. LM piles
-are completely unaffected so those are an easy line to victory.
+Teeg] as another limitation permanent we could face. The main thing here is that
+this number block prevents our Storm finishers from being used. LM piles are
+completely unaffected so those are an easy line to victory.
 
 Also to consider is the fact that we don't need to worry too much about Chalice
 being set to four. Storm will still trigger so only the original instance of the
@@ -182,35 +242,83 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
 
-<row variant="pile">{{!LED}} {{!Nature's Claim|WWK}} {{!DR}} {{!LP}} {{!ToA}}</row>
+:::row{variant=pile}
+- LED
+- Nature's Claim|WWK
+- DR
+- LP
+- ToA
+:::
 
 > BW and BS in hand, CB in play - {B}{B}{B} + {U}{G} - 9 Storm
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!AoI}} {{!LED}} {{!LED}} {{!LED}}</row>
+:::row{variant=pile}
+- Nature's Claim|WWK
+- AoI
+- LED
+- LED
+- LED
+:::
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 7 Storm
 
-<row variant="pile">{{!LED}} {{!Nature's Claim|WWK}} {{!LED}} {{!SW}} {{!ToA}}</row>
+:::row{variant=pile}
+- LED
+- Nature's Claim|WWK
+- LED
+- SW
+- ToA
+:::
 
 > Pass the turn, SW in hand - {2}{U}{U}{G}
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!IU}} {{!LP}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+- Nature's Claim|WWK
+- IU
+- LP
+- SW
+- LM
+:::
 
 > Pass the turn, SW in hand - {1}{U}{U}{G}
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!TW}} {{!LED}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+- Nature's Claim|WWK
+- TW
+- LED
+- SW
+- LM
+:::
 
 > Pass the turn, SW in hand - {2}{R}{G}
 
-<row variant="pile">{{!Nature's Claim|WWK}} {{!AoI}} {{!LED}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+- Nature's Claim|WWK
+- AoI
+- LED
+- SW
+- LM
+:::
 
 > Pass the turn, LED in play - {2}{G}
 
-<row variant="pile">{{!SW}} {{!IU}} {{!Nature's Claim|WWK}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+- SW
+- IU
+- Nature's Claim|WWK
+- SW
+- LM
+:::
 
 > Pass the turn, LED in play - {2}{U}{G}
 
-<row variant="pile">{{!SW}} {{!AoI}} {{!Nature's Claim|WWK}} {{!SW}} {{!LM}}</row>
+:::row{variant=pile}
+- SW
+- AoI
+- Nature's Claim|WWK
+- SW
+- LM
+:::
 
 ## Pass-the-Turn Piles Using Chain of Vapor
 
@@ -221,23 +329,41 @@ remove a limitation.
 
 > Pass the turn, SW in hand - {U}{U}{U} - 9 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!LED}} {{!CoV}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- LED
+- CoV
+- BW
+:::
 
 > Pass the turn, LED in play - {U}{U}{U} - 8 Storm
 
-<row variant="pile">{{!IU}} {{!LED}} {{!SW}} {{!CoV}} {{!BW}}</row>
+:::row{variant=pile}
+- IU
+- LED
+- SW
+- CoV
+- BW
+:::
 
 > Pass the turn, BW, SW and any 1 card in hand - {U}{U} - 9 Storm
 
-<row variant="pile">{{!SW}} {{!BS}} {{!LED}} {{!LED}} {{!CoV}}</row>
+:::row{variant=pile}
+- SW
+- BS
+- LED
+- LED
+- CoV
+:::
 
 ## Removal Choices
 
 With so many sets having seen print, there is now a veritable plethora of
-different removal options for getting rid of things like
-:card[Chalice of the Void], :card[Trinisphere] and :card[Thorn of Amethyst] with many
-being able to get rid of multiple at the same time. See the [removal
-tables][removal-tables] for more details.
+different removal options for getting rid of things like :card[Chalice of the
+Void], :card[Trinisphere] and :card[Thorn of Amethyst] with many being able to
+get rid of multiple at the same time. See the [removal tables][removal-tables]
+for more details.
 
 ## Summary
 

@@ -144,7 +144,7 @@ Can reorder your library at sorcery speed. Interferes with PTT piles.
 If against Show and Tell you can build a pile that, if they cast a Show and
 Tell, you can cycle and put Oracle into play from it, winning with the trigger.
 
-### :card[Skyclave Apparation]
+### :card[Skyclave Apparition]
 
 Remember that Death and Taxes can present removal by having an Aether Vial set
 to 3, even if they have no mana open Be careful if considering a pile with cards

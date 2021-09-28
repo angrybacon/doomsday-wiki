@@ -22,14 +22,14 @@ best games of magic I have ever played in.
 
 I am against UB Shadow, Game 1. We both know what each other are on. He has a
 threat-light hand with disruption and burns himself down to 13 stripping my
-hand. I play a :card[Cloud of Faeries] and start bashing in, holding countermagic
-up. He ignores them for a bit, even shuffling away a Fatal Push with a BS when
-suddenly his life is low enough to be in danger. We of course have both been
-joking the whole time that I was now playing the Delver deck and would get there
-with it. He finally finds his own Delver to drop and lo' it does not flip (there
-is a long running joke that his Delvers never flip). Through his digging he
-looks for and finds 3 Delver of Secrets but lo' none of them flip and he dies to
-a 1/1 Faerie Cloud... Wow.
+hand. I play a :card[Cloud of Faeries] and start bashing in, holding
+countermagic up. He ignores them for a bit, even shuffling away a Fatal Push
+with a BS when suddenly his life is low enough to be in danger. We of course
+have both been joking the whole time that I was now playing the Delver deck and
+would get there with it. He finally finds his own Delver to drop and lo' it does
+not flip (there is a long running joke that his Delvers never flip). Through his
+digging he looks for and finds 3 Delver of Secrets but lo' none of them flip and
+he dies to a 1/1 Faerie Cloud... Wow.
 
 For anyone mad enough to try the very untuned and fun list I dub it *Spaghetti
 and Meatballs*.
@@ -78,15 +78,21 @@ Lotus. Lands become huge liabilities and Cantrips reverse themselves. Take
 Preordain for instance. Normally if you see two bad cards you bottom both and
 draw a fresh one. With frenzy out you should instead bottom one, draw one and
 then have the fresh one on the top of your library. Things like Fetches and
-:card[Conjurer's Bauble] can now help clear "dud" cards off the top of the library
-and your hand becomes a weird part graveyard part Brainstorm access pool
+:card[Conjurer's Bauble] can now help clear "dud" cards off the top of the
+library and your hand becomes a weird part graveyard part Brainstorm access pool
 resource. Ponder becomes interesting as you can clear a dead card by *drawing*
 it and then keep two desirables but all this means thinking in a way very unlike
 how you would normally.
 
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!ToA}} {{!DD}}</row>
+:::row{variant=pile}
+- LED | MIR
+- LED
+- LED
+- ToA
+- DD
+:::
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
 
@@ -102,12 +108,18 @@ The nice thing is the repeat stacks can use the Doomsday in the yard to form the
 new piles. The life gain from Tendrils helps mitigate the lifeloss from Doomsday
 allowing you to go infinite. As per point 4 above, Collextive Brutalitiy can
 also be used as eventually your Doomsday life total will go down to 1 or 2, you
-cast CoBru back up to 3/4 and thus can repeat ad infinium.  
+cast Collective Brutality back up to 3/4 and thus can repeat ad infinium.  
 Hell, you could even consider running :card[Aetherflux Reservoir]!
 
 As per the example above:
 
-<row variant="pile">{{!LED}} {{!LED}} {{!LED}} {{!Aetherflux Reservoir}} {{!DD}}</row>
+:::row{variant=pile}
+- LED
+- LED
+- LED
+- Aetherflux Reservoir
+- DD
+:::
 
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 2. Cast LED, from the top of your deck, crack for {B}{B}{B}
@@ -129,7 +141,13 @@ into the main and some extra cantrip effects and discard are added.
 Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
-<row variant="pile">{{!AoI}} {{!LED}} {{!ToA}} {{!Pnd}} {{!CB}}</row>
+:::row{variant=pile}
+- AoI
+- LED
+- ToA
+- Pnd
+- CB
+:::
 
 Some other cards come in to help with combo and consistency. Lim DÃ»l's Vault is
 a classic UB card that has been used as a Vampiric Tutor for awhile and is often

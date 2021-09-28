@@ -194,8 +194,8 @@ anyone who is thinking "Shouldn't you just play ANT if you're basically doing it
 already?" it's a valid question but I like casting Doomsday and having it in the
 deck got me out of a few situations I wouldn't have been able to get out of
 otherwise. Like many deckbuilding decisions, it comes at a cost, which in this
-case is the lack of some fast lines into ETW and Ad Nauseam. To anyone thinking "Is
-the PiF list reeaally a Doomsday deck, or just ANT with some jank you
+case is the lack of some fast lines into ETW and Ad Nauseam. To anyone thinking
+"Is the PiF list reeaally a Doomsday deck, or just ANT with some jank you
 occasionally get to cast?" I did keep track of how I won my games and I won
 about 30% of my games with Doomsday (this includes when I lean into it more
 postboard with the Shelldock plan). If I had to pick one to take to a tournament

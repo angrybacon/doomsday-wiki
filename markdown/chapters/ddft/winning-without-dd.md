@@ -5,11 +5,11 @@ title: Winning Without Doomsday
 
 One advantage that DDFT has over other Doomsday variants is that it can reliably
 win without casting the namesake card, and can even do it quickly. This can be a
-big deal, since it means you have options. You don't fold to a single :card[Surgical
-Extraction] on the right card. You can win through a card like :card[Ashiok, Dream
-Render], or go off all at once in the face of a :card[Narset, Parter of Veils].
-You can pick the best combo engine for the situation and dodge the potential
-chokepoint that is the card Doomsday.
+big deal, since it means you have options. You don't fold to a single
+:card[Surgical Extraction] on the right card. You can win through a card like
+:card[Ashiok, Dream Render], or go off all at once in the face of a
+:card[Narset, Parter of Veils]. You can pick the best combo engine for the
+situation and dodge the potential chokepoint that is the card Doomsday.
 
 There are 3 main categories of non-Doosmday wins and we will explore each of
 them. Winning without Doomsday is arguably less complicated than winning with
@@ -25,7 +25,14 @@ so as early as the first turn. Typically you'll want to do this early in the
 game before your opponent establishes a board presence, but it can still be
 effective later on depending on the matchup. Consider the following hand:
 
-<row variant="hand">{{!DR}} {{!VoS}} {{!LED}} {{!LP}} {{!LP}} {{!BW}}</row>
+:::row{variant=hand}
+- DR
+- VoS
+- LED
+- LP
+- LP
+- BW
+:::
 
 Ideally, you can play out your mana artifacts, cast Veil, and then the Dark
 Ritual. Cast Burning Wish holding priority, and crack the LED for {R}{R}{R}.
@@ -74,7 +81,15 @@ land drop you can use this to generate mana after Echo.
 
 Consider the following situation, where your opening 7 looks like this:
 
-<row variant="hand">{{!LED}} {{!LED}} {{!ST}} {{!LP}} {{!I}} {{!EoE}} {{!ST}}</row>
+:::row{variant=hand}
+- LED
+- LED
+- Scalding Tarn
+- LP
+- Island
+- EoE
+- Scalding Tarn
+:::
 
 This is likely a keep and you should strongly consider spinning the wheel on
 that Echo right away. A fresh hand with 5 mana available is very strong, and
@@ -87,23 +102,24 @@ glossed over so far, is that Echo draws your opponent a new hand, and recycles
 all their countermagic that you already fought through. They won't always draw
 relevant cards, but you should anticipate them having something. Sometimes there
 isn't anything you can do about it, and you just need to spin the wheel.
-Sometimes you can resolve a :card[Veil of Summer] before Echo and you won't need to
-worry much at all. If you draw discard/Veil in your new 7, cast it first
+Sometimes you can resolve a :card[Veil of Summer] before Echo and you won't need
+to worry much at all. If you draw discard/Veil in your new 7, cast it first
 whenever possible. You can sometimes use extra mana-prodcing spells to bait
 countermagic if you sequence them in such a way as to tempt your opponent.
 
-Another common alternative Storm engine is :card[Peer into the Abyss]. Again, usage
-is pretty straightforward. Make a bunch of mana, wish for Peer, and cast it.
-Whiffing will be rare from this point, and you can choose to win any number of
-ways depending on what you draw. Peer does require a substantial upfront mana
+Another common alternative Storm engine is :card[Peer into the Abyss]. Again,
+usage is pretty straightforward. Make a bunch of mana, wish for Peer, and cast
+it. Whiffing will be rare from this point, and you can choose to win any number
+of ways depending on what you draw. Peer does require a substantial upfront mana
 investment, but for the price it has a much higher rate of success than Echo of
 Eons.
 
-The only other reasonable candidate for an alternative Storm engine is :card[Past in
-Flames]. This is a much less common sideboard choice these days, since it is
-clumsier than Peer or Echo, but it's worth a mention. We won't go too in depth
-here, since there are plenty of ANT guides out there that address its use.
-Instead we will again focus on the caveats of using Past in Flames in this deck.
+The only other reasonable candidate for an alternative Storm engine is
+:card[Past in Flames]. This is a much less common sideboard choice these days,
+since it is clumsier than Peer or Echo, but it's worth a mention. We won't go
+too in depth here, since there are plenty of ANT guides out there that address
+its use. Instead we will again focus on the caveats of using Past in Flames in
+this deck.
 
 The first and most important is that Burning Wish exiles itself upon resolution.
 This means you can't flash back the same Wish that you used to get PiF. To have
@@ -167,7 +183,15 @@ One last thing to address: there will be times when you determine that you
 simply have to take a risk and go for a natural storm kill without a Wish in
 hand. Perhaps your hand looks like this:
 
-<row variant="hand">{{!LED}} {{!LED}} {{!LP}} {{!LP}} {{!DR}} {{!DR}} {{!Pnd}}</row>
+:::row{variant=hand}
+- LED
+- LED
+- LP
+- LP
+- DR
+- DR
+- Pnd
+:::
 
 Maybe you have a couple lands on board. If your opponent is threatening lethal
 damage, you need to go all in. Cast all your mana spells, then finally Ponder
@@ -194,13 +218,13 @@ rarely they can outright win the game. Slightly more commonly, they can do 2-6
 damage and put your opponent in range of a small Tendrils.
 
 People have tried various creature plans from the sideboard, including but not
-limited to :card[Young Pyromancer], :card[Monastery Mentor] and :card[Dark Confidant]. In
-this case winning with creature beatdown can become a more viable plan (although
-Confidant is typically seen as a card advantage engine first and a beater
-second). However, this type of plan tends to be weaker than one might think, and
-most player tend to eschew it. You may find it to your liking, or suited to your
-expected metagame, but in general, don't consider creature beatdown a real plan
-to win the game.
+limited to :card[Young Pyromancer], :card[Monastery Mentor] and :card[Dark
+Confidant]. In this case winning with creature beatdown can become a more viable
+plan (although Confidant is typically seen as a card advantage engine first and
+a beater second). However, this type of plan tends to be weaker than one might
+think, and most player tend to eschew it. You may find it to your liking, or
+suited to your expected metagame, but in general, don't consider creature
+beatdown a real plan to win the game.
 
 ## Conclusion
 

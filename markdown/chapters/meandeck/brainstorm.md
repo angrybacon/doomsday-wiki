@@ -36,7 +36,13 @@ making in no time.
 
 > {U} + Brainstorm + X
 
-<row variant="pile">{{!LED}} {{!SW}} {{!IU}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- SW
+- IU
+- LP
+- TO
+:::
 
 Here we have the simplest type of Brainstorm pile. Instead of needing both a
 cantrip effect and {U}{U}, we can convert the Brainstorm into what is missing.
@@ -56,7 +62,13 @@ Another example is presented here using Predict.
 
 > {U} + Brainstorm + X
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pdt}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- SW
+- Pdt
+- LP
+- TO
+:::
 
 1. Cast Brainstorm and put back X then Predict on top
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Predict
@@ -71,18 +83,24 @@ you to play around removal like :card[Swords to Plowshares].
 You may find yourself in a scenario where you have a card in hand that is
 considered *dead* outside of the combo turn. Thankfully, Brainstorm (BS) allows
 you to transfer it out of your hand and replace it into the pile. Let us
-consider the example above. It may be the opponent has a card like :card[Scavenging
-Ooze] out and you need to utilize LED to generate mana but don't want to
-discard your one Oracle to have it *eaten* by the Ooze. We cannot use Predict
-here as we would need to *mill* the Oracle to do so effectively. In many
-situations you might be able to make a PTT pile however if your life total is
-under pressure you may not be able to.
+consider the example above. It may be the opponent has a card like
+:card[Scavenging Ooze] out and you need to utilize LED to generate mana but
+don't want to discard your one Oracle to have it *eaten* by the Ooze. We cannot
+use Predict here as we would need to *mill* the Oracle to do so effectively. In
+many situations you might be able to make a PTT pile however if your life total
+is under pressure you may not be able to.
 
 Consider the following example:
 
 > {U} + Brainstorm + Thassa's Oracle
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Pnd}} {{!EoA}} {{!Pnd}}</row>
+:::row{variant=pile}
+- LED
+- SW
+- Pnd
+- EoA
+- Pnd
+:::
 
 1. Cast Brainstorm and put back Oracle then Ponder on top.
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
@@ -100,7 +118,13 @@ the additional {U} needed for the same starting mana cost.
 
 > {U} + Brainstorm + Thassa's Oracle + Cantrip
 
-<row variant="pile">{{!LED}} {{!SW}} {{!LP}} {{!EoA}} {{!Pnd}}</row>
+:::row{variant=pile}
+- LED
+- SW
+- LP
+- EoA
+- Pnd
+:::
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
 1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
@@ -125,7 +149,13 @@ in hand.
 
 > {U}{B} + Brainstorm + Ideas Unbound + X
 
-<row variant="pile">{{!LED}} {{!SW}} {{!Tsz}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- LED
+- SW
+- Tsz
+- LP
+- TO
+:::
 
 We can play the pile in the following manner:
 
@@ -151,7 +181,13 @@ well if you have an available land drop for that turn.
 
 > {U} + Brainstorm + Street Wraith + X
 
-<row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!TO}} {{!I|RAV}}</row>
+:::row{variant=pile}
+- LP
+- LED
+- EoA
+- TO
+- Island
+:::
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off of LP and put back X then TO
@@ -159,12 +195,18 @@ well if you have an available land drop for that turn.
 1. Cast TO with the remaining mana from LED with two cards left in your library
 
 Again this is an example of an imperfect pile. If you played a list featuring
-:card[Consider] in, you can make the following minor adjustment to the pile to turn
-it into a perfect pile.
+:card[Consider] in, you can make the following minor adjustment to the pile to
+turn it into a perfect pile.
 
 > {U} + Brainstorm + Street Wraith + X
 
-<row variant="pile">{{!LP}} {{!LED}} {{!EoA}} {{!Consider}} {{!TO}}</row>
+:::row{variant=pile}
+- LP
+- LED
+- EoA
+- Consider
+- TO
+:::
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off of LP and put back X then Consider
@@ -181,7 +223,13 @@ top card instead.
 
 > {U} + Street Wraith + X
 
-<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!TO}} {{!Island|RAV}}</row>
+:::row{variant=pile}
+- BS
+- LED
+- EoA
+- TO
+- Island|RAV
+:::
 
 This time you cycle into the Brainstorm rather than into the mana needed for it
 and make an imperfect pile. Once again, you can use excess mana or add mana in
@@ -191,7 +239,13 @@ Alternatively, use Consider to get rid of X and achieve a perfect pile.
 
 > {U} + Street Wraith + X
 
-<row variant="pile">{{!BS}} {{!LED}} {{!EoA}} {{!Consider}} {{!TO}}</row>
+:::row{variant=pile}
+- BS
+- LED
+- EoA
+- Consider
+- TO
+:::
 
 ## Brainstorm Pile - Not using LED
 
@@ -207,7 +261,13 @@ following pile:
 
 > {U} + Brainstorm + Street Wraith + X + X
 
-<row variant="pile">{{!EoA}} {{!LP}} {{!LP}} {{!LP}} {{!TO}}</row>
+:::row{variant=pile}
+- EoA
+- LP
+- LP
+- LP
+- TO
+:::
 
 1. Cycle SW, draw the Edge of Autumn (EoA)
 1. Cycle EoA, draw the LP and cast it
@@ -225,7 +285,13 @@ have perhaps run out of fetchable lands from our deck as they are in our hand:
 > {U} + Brainstorm + Street Wraith + Underground Sea + Underground Sea  
 > A fetchland in play, land drop available for turn
 
-<row variant="pile">{{!SW}} {{!LP}} {{!Misty Rainforest}} {{!Daze}} {{!TO}}</row>
+:::row{variant=pile}
+- SW
+- LP
+- Misty Rainforest
+- Daze
+- TO
+:::
 
 1. Cycle SW, draw SW
 1. Cycle SW, draw the LP and cast it
@@ -247,7 +313,13 @@ Let us consider the following example:
 
 > {U} + Brainstorm + X
 
-<row variant="pile">{{!SW}} {{!SW}} {{!CoS}} {{!TO}} {{!PoN}}</row>
+:::row{variant=pile}
+- SW
+- SW
+- CoS
+- TO
+- PoN
+:::
 
 You can speed things up with this pile if your opponent does something like tap
 out of mana from their Swords to Plowshares. On their end step you can do the

@@ -34,6 +34,7 @@ made up a significant portion of the metagame (10.5%!) with myself (Doishy) and
 ApeofJustice representing.
 
 <deck path="2018/04/ddft.apeofjustice.txt" />
+
 <deck path="2018/04/ddft.doishy.txt" />
 
 Let's get into it. Reports written by their respective pilots:
@@ -51,8 +52,8 @@ G1) I get killed on T1, oh well, what you gunna do. Can’t help that’s just h
 it sometimes goes.  
 G2) This game was quite grindy, with lots of hand disruption thrown between each
 player, Ben does a mini Tendrils against me quite early on. I soon draw a
-Surgical Extraction, and target
-his Tendrils of Agony; Ben concedes in response. Obviously didn’t side in or
+Surgical Extraction, and target his Tendrils of Agony; Ben concedes in response.
+Obviously didn’t side in or
 maindeck any Empty the Warrens.  
 G3) On the draw I keep a hand that is solid with some disruption, mana and DD,
 but no cantrips. Ben kept a 7 so I didn’t feel I could justify going below with
@@ -118,9 +119,8 @@ Thoughtseize, Double therapy, leaving him with the Brainstorm, and Boseiju. I go
 a couple more draw-gos with Morgan. I manage to brainstorm into Probe, Probe,
 Duress. Duress him see the coast is clear, play out my mana, and probe into the
 Probe then BW I put back ontop (With him on 19 and my storm currently 6), to go
-for an Empty the warrens for
-16 goblins, and then flash back the 2 therapies from T1. He draws nothing
-relevant and concedes.
+for an Empty the warrens for 16 goblins, and then flash back the 2 therapies
+from T1. He draws nothing relevant and concedes.
 
 **Player: Doishy  
 Opponent: Justin  
@@ -189,7 +189,7 @@ unknowns were of course FoW and blue card. Blergh.
 
 **Player: ApeofJustice  
 Opponent: Mark  
-Opposing Deck: Infect
+Opposing Deck: Infect  
 Result: 2-1**
 
 Playing against Mark who I knew is on Infect. I feel it’s a bad match up, and

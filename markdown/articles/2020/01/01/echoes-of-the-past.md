@@ -15,23 +15,23 @@ Mysteries and Collective Brutality loops. The deck was strong and good at
 grinding through blue control decks, but it felt more like a Frenzy deck and
 less like a Doomsday deck, much less a Storm deck.
 
-Then in June, Modern horizons was released, and along with it :card[Echo of Eons].
-There was some discussion of it as a Burning Wish target, but the old-style
-lists were seen as inferior to the Frenzy lists, and little more thought was
-given to the card for a few months. As the end of the decade drew closer, Echo
-decks started to creep into the metagame a bit, and I started thinking more and
-more about the card. It dawned on me that if you cast Doomsday and cracked an
-LED to flashback Echo of Eons, you'd have at least 7 cards (DD, LED, plus your
-pile) to draw with Echo. Echo could function as a storm engine on it's own,
-facilitate Doomsday piles, and recoup cards after getting disrupted. With this
-in mind, I figured I wanted multiple copies maindeck. Burning Wish could let me
-have effectively 7 copies maindeck, as well as provide a higher density of
-wincons to hit if I was trying to storm off with Echo as my engine. Pushing
-farther in this storm-based direction, I realized I'd likely want Cabal Rituals,
-and this incentivized Draw 4's as my main way to draw Doomsday piles and a
-tertiary storm engine. Without Act on Impulse, Jace and Lab Man are quite bad,
-so I leaned further into the storm side of the deck. The final innovation came
-after I was convinced that Veil of Summer was worth contorting the mana to
+Then in June, Modern horizons was released, and along with it :card[Echo of
+Eons]. There was some discussion of it as a Burning Wish target, but the
+old-style lists were seen as inferior to the Frenzy lists, and little more
+thought was given to the card for a few months. As the end of the decade drew
+closer, Echo decks started to creep into the metagame a bit, and I started
+thinking more and more about the card. It dawned on me that if you cast Doomsday
+and cracked an LED to flashback Echo of Eons, you'd have at least 7 cards (DD,
+LED, plus your pile) to draw with Echo. Echo could function as a storm engine on
+it's own, facilitate Doomsday piles, and recoup cards after getting disrupted.
+With this in mind, I figured I wanted multiple copies maindeck. Burning Wish
+could let me have effectively 7 copies maindeck, as well as provide a higher
+density of wincons to hit if I was trying to storm off with Echo as my engine.
+Pushing farther in this storm-based direction, I realized I'd likely want Cabal
+Rituals, and this incentivized Draw 4's as my main way to draw Doomsday piles
+and a tertiary storm engine. Without Act on Impulse, Jace and Lab Man are quite
+bad, so I leaned further into the storm side of the deck. The final innovation
+came after I was convinced that Veil of Summer was worth contorting the mana to
 include. When all was said and done, I ended up on this:
 
 <deck path="2020/01/ddft.burg.txt" />
