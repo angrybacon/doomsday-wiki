@@ -13,13 +13,12 @@ export const Card: FunctionComponent<Props> = ({ className, data, query }) => {
   const classes = useStyles();
   const { image_uris: images, name } = data;
   const image = images?.border_crop;
+  if (!image) return null;
   return (
-    image && (
-      <img
-        alt={name || query}
-        className={c(classes.root, className)}
-        src={image}
-      />
-    )
+    <img
+      alt={name || query}
+      className={c(classes.root, className)}
+      src={image}
+    />
   );
 };

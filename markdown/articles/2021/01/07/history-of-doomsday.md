@@ -254,7 +254,7 @@ decks found the answer did the Legacy deck truly form.
 Moving sideways for the time being, storm decks were viable from the onset of
 Legacy with the most well known list at the time being known as *Iggy Pop*,
 designed by Michael Bomholt whose original primer can be found
-[HERE](https://web.archive.org/web/20090104201512/http://www.starcitygames.com/php/news/article/10989.html).
+[here](https://web.archive.org/web/20090104201512/http://www.starcitygames.com/php/news/article/10989.html).
 Iggy was a {U}{B} storm list based around the engine of :card[Ill-Gotten Gains]
 coupled with rituals effects, other fast mana, Lion's Eye Diamonds and
 :card[Tendrils of Agony] with tools like Mystical Tutor and :card[Intuition] to
