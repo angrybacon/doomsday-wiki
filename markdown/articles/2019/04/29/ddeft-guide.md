@@ -27,7 +27,7 @@ Doomsday.
 
 ## Current Decklist
 
-<deck path="2019/04/ddeft.txt" />
+::decklist{path=2019/04/ddeft}
 
 We have concluded that a list similar to this is optimal.
 

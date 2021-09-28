@@ -33,9 +33,9 @@ No Chalice decks (yay) and only one Ctrl+C, Ctrl+V out. As you can see Doomsday
 made up a significant portion of the metagame (10.5%!) with myself (Doishy) and
 ApeofJustice representing.
 
-<deck path="2018/04/ddft.apeofjustice.txt" />
+::decklist{path=2018/04/ddft.apeofjustice}
 
-<deck path="2018/04/ddft.doishy.txt" />
+::decklist{path=2018/04/ddft.doishy}
 
 Let's get into it. Reports written by their respective pilots:
 

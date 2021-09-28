@@ -324,9 +324,9 @@ of Will available.
 If you want to discover a bit by yourself before diving into more detailed
 chapters, try a couple goldfish games with the following proven list.
 
-<deck path="meandeck.ubr.txt" />
+::decklist{path=meandeck.ubr}
 
 Alternatively, if you're looking into getting the cards here is a functional
 budget version:
 
-<deck path="meandeck.budget.txt" />
+::decklist{path=meandeck.budget}

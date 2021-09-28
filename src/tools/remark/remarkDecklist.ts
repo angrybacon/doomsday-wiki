@@ -15,6 +15,9 @@ export const remarkDecklist: Plugin<[{ decklists: Decklists }]> =
       const directive = node as LeafDirective;
       const path: string | undefined = directive.attributes?.path;
       if (path) {
+        if (!decklists[path]) {
+          console.error(`[remark] Missing decklist for path '${path}'`);
+        }
         directive.data = {
           ...directive.data,
           hProperties: {

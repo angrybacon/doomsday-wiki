@@ -18,7 +18,7 @@ for writing.*
 Decklist can be found [here](https://www.mtggoldfish.com/deck/3818519#paper) or
 below:
 
-<deck path="2021/03/21/meandeck.jacobisboss.txt" />
+::decklist{path=2021/03/21/meandeck.jacobisboss}
 
 Many players come from legacy doomsday to play vintage doomsday, and many wonder
 why the deck does not play :card[Cavern of Souls]. The reason is that after

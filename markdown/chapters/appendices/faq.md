@@ -314,7 +314,7 @@ The only card I would really advocate not skimping on is Cavern of Souls. This
 card single-handedly can enable a lot of wins in {U} matchups and thus is too
 good a tool to lose.
 
-<deck path="meandeck.budget.txt" />
+::decklist{path=meandeck.budget}
 
 **Access to :card[Force of Will]**  
 -2 Flusterstorm -2 Thoughtseize  

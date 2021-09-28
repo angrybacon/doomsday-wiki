@@ -270,11 +270,11 @@ starting points for either list TCDecks has some listed:
 
 [Esper by Hulahula](https://www.tcdecks.net/deck.php?id=33721&iddeck=299988)
 
-<deck path="2020/03/meandeck.buw.txt" />
+::decklist{path=2020/03/meandeck.buw}
 
 [BUG by Gre3n1T](https://www.tcdecks.net/deck.php?id=33454&iddeck=296642)
 
-<deck path="2020/03/meandeck.bug.txt" />
+::decklist{path=2020/03/meandeck.bug}
 
 ## *The Madness has taken me, how do I find out more!?*
 

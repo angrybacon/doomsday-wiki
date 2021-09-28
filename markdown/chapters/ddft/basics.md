@@ -242,4 +242,4 @@ types of disruption.
 You now have sufficient information to start practicing! Start goldfishing and
 try to figuring out what piles to build and how to execute them.
 
-<deck path="ddft.txt" />
+::decklist{path=ddft}

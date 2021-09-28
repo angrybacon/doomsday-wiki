@@ -31,7 +31,7 @@ article][articles:echoes-of-the-past] but is more or less recognizable.
 
 [articles:echoes-of-the-past]: /articles/2020/01/01/echoes-of-the-past/
 
-<deck path="2021/07/26/ddft.ubrg.echo.txt" />
+::decklist{path=2021/07/26/ddft.ubrg.echo}
 
 :::row{variant=centered}
 - TO
@@ -108,7 +108,7 @@ playing it.
 [articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller/
 [mtggoldfish:the-mindkiller]: https://www.mtggoldfish.com/deck/3369246#paper
 
-<deck path="2021/07/26/mindkiller.wubrg.txt" />
+::decklist{path=2021/07/26/mindkiller.wubrg}
 
 *Mindkiller* is probably the deck I'm most proud of, but it has its flaws.
 Though it could be suprisingly resilient, it was still a glass cannon, and one
@@ -148,7 +148,7 @@ strange and bad ideas to count, but I thought it might be interesting to see
 some of my most *out-there* bad ideas. Each of these I thought had merit for one
 reason or another, and none of them actually panned out.
 
-<deck path="2021/07/26/belcher-doomsday.txt" />
+::decklist{path=2021/07/26/belcher-doomsday}
 
 This was a variant of Mindkiller, an ill-fated attempt to remove Spoils from the
 deck. Belcher also gave it another angle of attack, one that couldn't be stopped
@@ -163,7 +163,7 @@ worst business in the deck. I liked that I could fit protection into the
 maindeck, but losing Echo also made it mulligan much worse. Basically, the
 tradeoffs it made ended up working out like I thought they might.
 
-<deck path="2021/07/26/recross-doomsday.txt" />
+::decklist{path=2021/07/26/recross-doomsday}
 
 Recross the Paths is Doomsday 5-8!
 
@@ -179,7 +179,7 @@ important cards in the deck eat into your life total.
 I'll probably keeping working on this one just because I love Recross, but I
 don't expect much.
 
-<deck path="2021/07/26/ddft.ub.lim-dul-vault.txt" />
+::decklist{path=2021/07/26/ddft.ub.lim-dul-vault}
 
 Another list based on the "X is just Doomsday 5-8!" idea. I actually first had
 this idea shortly after :card[Gitaxian Probe] got banned. It wasn't good then,
@@ -195,7 +195,7 @@ I thought.
 Too bad it wasn't good. The mana is great since its only 2 colors but that was
 about the only redeeming quality of the deck in practice.
 
-<deck path="2021/07/26/pox-doomsday.txt" />
+::decklist{path=2021/07/26/pox-doomsday}
 
 This one isn't DDFT but it certainly is bizarre. Doomsday costs {B}{B}{B}. Pox
 makes lots of black mana. Control decks with suprise combo finishes can be good.
@@ -235,7 +235,7 @@ mana-positive, so it felt like a good fit.
 
 [scg:meandeck-primer]: https://articles.starcitygames.com/premium/the-meandeck-tendrils-primer/
 
-<deck path="2021/07/26/ddft.ub.echo.txt" />
+::decklist{path=2021/07/26/ddft.ub.echo}
 
 Now, this deck wasn't really that good, and the fact that I never finished a
 sideboard for it is somewhat telling. But it got me thinking about the power of
@@ -246,7 +246,7 @@ from your hand back into your library, then cantrip into it for lethal was a
 common play pattern. So I set about making a more stable, less all-in DDFT list
 with multiple maindeck Tendrils, and ended up on this:
 
-<deck path="2021/07/26/ddft.ubg.grinding.txt" />
+::decklist{path=2021/07/26/ddft.ubg.grinding}
 
 This list was a lot closer to a success than a failure. I actually liked it
 quite a bit. The mana was solid, the maindeck Tendrils felt great against blue
@@ -275,9 +275,9 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 
 So where did I end up after all that? Well, here's two lists:
 
-<deck path="2021/07/26/ddft.wubrg.echo.txt" />
+::decklist{path=2021/07/26/ddft.wubrg.echo}
 
-<deck path="2021/07/26/ddft.wubr.mindkiller.txt" />
+::decklist{path=2021/07/26/ddft.wubr.mindkiller}
 
 If normal *Echo Doomsday* was a 1 and full-blown *Mindkilller* was a 10, then
 the first list is probably a 3 and the second is a 7. I've learned and applied
