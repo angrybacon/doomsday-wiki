@@ -38,9 +38,9 @@ Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
 
 If you are new to the archetype then please check out the [FAQs
-Appendix](/appendices/faq) for any initial queries you might have. Please peruse
-the wiki, have a read of some of the articles and if after going through you
-still have questions then feel free to come visit us in the
+Appendix](/appendices/faq/) for any initial queries you might have. Please
+peruse the wiki, have a read of some of the articles and if after going through
+you still have questions then feel free to come visit us in the
 [Discord](https://discord.gg/vajvFXt).
 
 This work is licensed under a **Creative Commons

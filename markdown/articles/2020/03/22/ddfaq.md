@@ -4,8 +4,6 @@ banner: /banners/doomsday.wth.jpg
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 
-<tweet id="1242429703622782976" />
-
 With the influx of new interest towards the archetype, there has been a rise in
 new players gravitating towards our favourite {B}{B}{B} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
@@ -16,22 +14,22 @@ read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
 1. The different Doomsday archetypes
-    1. DDFT
-    1. DDEFT
-    1. Meandeck
+   1. DDFT
+   1. DDEFT
+   1. Meandeck
 1. Card Choices
-    1. Doomsday
-    1. Mana Acceleration and Fixing
-    1. Cantrips
-    1. Protection
-    1. Combo Pieces
-    1. Manabase
-    1. Sideboard
+   1. Doomsday
+   1. Mana Acceleration and Fixing
+   1. Cantrips
+   1. Protection
+   1. Combo Pieces
+   1. Manabase
+   1. Sideboard
 1. Colour Choices
-    1. White
-    1. Red
-    1. Green
-    1. No Splash
+   1. White
+   1. Red
+   1. Green
+   1. No Splash
 1. The Mechanics of Resolving Doomsday
 1. Learning "Piles"
 1. Additional Content Available
@@ -255,7 +253,7 @@ through cantrips to find pieces to then find yourself unable to draw into an
 otherwise game-winning pile.
 
 As a result I would expect any Doomsday deck to be running :card[Brainstorm],
-:card[Ponder] and :card[Preordain] in various ratios of 4:4:X. In addition to
+:card[Ponder] and :card[Preordain] in various ratios of 4-4-X. In addition to
 this some lists will be running the previously cited :card[Arcum's Astrolabe]
 along with some spicier elements such as :card[Street Wraith] and :card[Edge of
 Autumn] however more on those later. Combine these with some of the cantripping
@@ -685,11 +683,14 @@ May you avoid the first horsemen of the apocalypse!
 
 ## Post Script Puzzle
 
-d8dk32 recently forwarded me a tweet by Stephen Menendian (designer of the 2012
-iteration of Meandeck Doomsday) who posted this screenshot as a turn 1 win in
-Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
+d8dk32 recently forwarded me [a tweet by Stephen
+Menendian][twitter:vintage-turn-one] (designer of the 2012 iteration of Meandeck
+Doomsday) who posted this picture as a turn 1 win in Vintage. It is in fact also
+a deterministic turn 1 kill in Legacy Doomsday too!
 
-<tweet id="1242650950415691776" />
+[twitter:vintage-turn-one]: https://twitter.com/SMenendian/status/1242650950415691776
+
+![Vintage turn one by Stephen Menendian](/media/pictures/meandeck.vintage-turn-one.jpeg)
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)  

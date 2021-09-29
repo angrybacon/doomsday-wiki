@@ -14,7 +14,7 @@ title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
 
 ## Introduction
 
-I have written [before](/articles/2020/03/22/ddfaq) on the subject of deck
+I have written [before](/articles/2020/03/22/ddfaq/) on the subject of deck
 construction in terms of colour options and deckbuilding tools however I have
 not covered deck building styles properly. We have now had a year from initial
 deck conception through to refinement and now, after what we thought was a

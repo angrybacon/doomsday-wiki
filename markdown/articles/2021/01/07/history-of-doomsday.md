@@ -23,13 +23,13 @@ him as a player and his path onto the deck.
 
 The entire interview is available on YouTube and SoundCloud.
 
-<soundcloud url="https://soundcloud.com/ddftwiki/a-history-of-doomsday" />
+::soundcloud{url=https://soundcloud.com/ddftwiki/a-history-of-doomsday}
 
 *Note: the raw video is over five hours long so is quite a journey. It also
 includes a lot of segways and general chatter however as I say in it: "the
 people who will be listening to this will enjoy a big ramble about Storm".*
 
-<youtube id="3LLIFHv5kbo" />
+::youtube{id=3LLIFHv5kbo}
 
 This article will detail the key points discussed and follow the history of the
 deck but will not be an accurate transcription of the interview. I will include
