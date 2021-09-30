@@ -22,7 +22,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       backgroundSize: 'cover',
       color: theme.palette.common.white,
       '&:before': {
-        backdropFilter: 'blur(2px)',
+        backdropFilter: 'blur(4px)',
         backgroundColor: alpha(theme.palette.common.black, 0.3),
         borderTopColor: alpha(theme.palette.common.white, 0.2),
         borderTopStyle: 'solid',

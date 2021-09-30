@@ -36,5 +36,3 @@ pile with innate durability.
 
 Both of these generate enough mana in pile to recast Doomsday and restart the
 loop, with the ToA pile being iterated as many times as necessary.
-
-*More content coming soon*

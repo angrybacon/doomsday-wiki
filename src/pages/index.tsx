@@ -24,7 +24,7 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
   menu,
   welcome,
 }) => {
-  const [size, setSize] = useState(6);
+  const [size, setSize] = useState(5);
 
   const showMore = () => {
     setSize((previous) => previous + 3);
