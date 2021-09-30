@@ -66,7 +66,7 @@ export const Layout: FunctionComponent<Props> = ({
   }, [closeSidebar, router]);
 
   return (
-    <>
+    <Box display="flex" flexDirection="column" minHeight="100vh">
       {title && <Title title={title} />}
       <Header isMobile={!isDesktop} onSidebarOpen={openSidebar} />
       <Sidebar
@@ -75,17 +75,17 @@ export const Layout: FunctionComponent<Props> = ({
         isOpen={isSidebarOpen}
         onClose={closeSidebar}
       />
-      <div className={c(classes.container, { mobile: !isDesktop })}>
-        <Container
-          className={classes.containee}
-          component={Box}
-          maxWidth={maxWidth}
-          my={3}
-        >
+      <Box
+        className={c(classes.container, { mobile: !isDesktop })}
+        display="flex"
+        flexDirection="column"
+        flexGrow="1"
+      >
+        <Container component={Box} maxWidth={maxWidth}>
           <Wrapper {...wrapperProps}>{children}</Wrapper>
         </Container>
-        <Footer className={classes.footer} />
-      </div>
-    </>
+        <Footer className={c(classes.footer, classes.sidebar)} />
+      </Box>
+    </Box>
   );
 };

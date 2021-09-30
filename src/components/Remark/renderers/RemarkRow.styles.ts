@@ -16,8 +16,11 @@ export const useStyles = makeStyles((theme: Theme) =>
       },
     },
 
+    container: {
+      display: 'flex',
+    },
+
     pile: {
-      ...theme.mixins.barf(),
       backgroundColor: alpha(theme.palette.primary.main, 0.1),
       borderColor: theme.palette.divider,
       borderLeftWidth: 0,
@@ -25,14 +28,14 @@ export const useStyles = makeStyles((theme: Theme) =>
       borderStyle: 'solid',
       borderWidth: 1,
       padding: theme.spacing(2),
-
       '& $card': {
         width: '20%',
       },
+      [theme.breakpoints.only('xs')]: {
+        padding: theme.spacing(),
+      },
     },
 
-    root: {
-      display: 'flex',
-    },
+    root: theme.mixins.barf(),
   })
 );

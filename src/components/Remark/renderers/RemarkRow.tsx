@@ -26,12 +26,14 @@ export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
     ? variant
     : Variant.CENTERED;
   return (
-    <div className={c(classes.root, classes[variantClass])}>
-      {cards.map(({ data, id, query }) => (
-        <div className={classes.card} key={id}>
-          <Card data={data} query={query} />
-        </div>
-      ))}
+    <div className={classes.root}>
+      <div className={c(classes.container, classes[variantClass])}>
+        {cards.map(({ data, id, query }) => (
+          <div className={classes.card} key={id}>
+            <Card data={data} query={query} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -24,11 +24,19 @@ const base: Theme = createTheme();
 const gutters = () => ({
   paddingLeft: base.spacing(3),
   paddingRight: base.spacing(3),
+  [base.breakpoints.only('xs')]: {
+    paddingLeft: base.spacing(2),
+    paddingRight: base.spacing(2),
+  },
 });
 
 const barf = () => ({
   marginLeft: -base.spacing(3),
   marginRight: -base.spacing(3),
+  [base.breakpoints.only('xs')]: {
+    marginLeft: -base.spacing(2),
+    marginRight: -base.spacing(2),
+  },
 });
 
 const options: ThemeOptions = {
@@ -36,7 +44,10 @@ const options: ThemeOptions = {
   mixins: { barf, gutters },
   overrides: {
     MuiCardContent: {
-      root: { padding: base.spacing(3), ...gutters() },
+      root: {
+        padding: base.spacing(3),
+        ...gutters(),
+      },
     },
     MuiContainer: {
       root: {
@@ -50,7 +61,10 @@ const options: ThemeOptions = {
       root: { color: base.palette.secondary.light },
     },
     MuiPaper: {
-      rounded: { [base.breakpoints.only('xs')]: { borderRadius: 0 } },
+      rounded: {
+        borderRadius: base.spacing(),
+        [base.breakpoints.only('xs')]: { borderRadius: 0 },
+      },
     },
     MuiTypography: {
       gutterBottom: {

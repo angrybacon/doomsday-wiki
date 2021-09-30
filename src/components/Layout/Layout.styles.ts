@@ -4,17 +4,26 @@ import type { Theme } from '@material-ui/core/styles';
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     container: {
+      marginBottom: theme.spacing(3),
+      marginTop: theme.spacing(3),
       marginLeft: theme.drawer.width,
       '&.mobile': {
         marginLeft: 0,
       },
     },
     footer: {
-      margin: theme.spacing(3),
+      marginTop: 'auto',
+      padding: theme.spacing(3),
+      paddingBottom: 0,
     },
     [theme.breakpoints.only('xs')]: {
+      container: {
+        marginBottom: theme.spacing(2),
+        marginTop: theme.spacing(2),
+      },
       footer: {
-        margin: theme.spacing(2),
+        padding: theme.spacing(2),
+        paddingBottom: 0,
       },
     },
   })
