@@ -1,5 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+import Divider from '@material-ui/core/Divider';
 import { useStyles } from './RemarkYoutube.styles';
 
 export interface Props extends ReactMarkdownProps {
@@ -22,13 +23,17 @@ export const RemarkYoutube: FunctionComponent<Props> = ({ node }) => {
   ];
   return (
     <div className={classes.root}>
-      <iframe
-        allow={allow.join(';')}
-        allowFullScreen
-        className={classes.frame}
-        src={`https://www.youtube.com/embed/${id}`}
-        title={id}
-      />
+      <Divider />
+      <div className={classes.container}>
+        <iframe
+          allow={allow.join(';')}
+          allowFullScreen
+          className={classes.frame}
+          src={`https://www.youtube.com/embed/${id}`}
+          title={id}
+        />
+      </div>
+      <Divider />
     </div>
   );
 };

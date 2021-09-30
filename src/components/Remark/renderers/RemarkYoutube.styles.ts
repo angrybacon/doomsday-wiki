@@ -3,9 +3,16 @@ import type { Theme } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    container: {
+      backgroundColor: theme.palette.common.black,
+      height: 0,
+      position: 'relative',
+      // NOTE Force intrinsic height to always 16/9
+      paddingBottom: '56.25%',
+    },
     frame: {
       border: 'none',
-      borderRadius: theme.shape.borderRadius * 2,
+      borderRadius: 0,
       display: 'block',
       height: '100%',
       left: 0,
@@ -13,11 +20,6 @@ export const useStyles = makeStyles((theme: Theme) =>
       position: 'absolute',
       width: '100%',
     },
-    root: {
-      height: 0,
-      position: 'relative',
-      // NOTE Force intrinsic height to always 16/9
-      paddingBottom: '56.25%',
-    },
+    root: theme.mixins.barf(),
   })
 );

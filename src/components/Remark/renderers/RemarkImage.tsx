@@ -1,5 +1,6 @@
 import React from 'react';
 import type { Components } from 'react-markdown';
+import Divider from '@material-ui/core/Divider';
 import Typography from '@material-ui/core/Typography';
 import { useStyles } from './RemarkImage.styles';
 
@@ -10,8 +11,10 @@ export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
   return (
     <>
       <span className={classes.root}>
+        <Divider />
         {/* eslint-disable-next-line jsx-a11y/alt-text  */}
         <img className={classes.image} {...rest} title={description} />
+        <Divider />
       </span>
       {description && (
         <Typography
