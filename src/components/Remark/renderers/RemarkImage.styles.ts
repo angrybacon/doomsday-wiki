@@ -14,8 +14,11 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
     root: {
       ...theme.mixins.barf(),
+      borderColor: theme.palette.divider,
+      borderBottomStyle: 'solid',
+      borderTopStyle: 'solid',
+      borderWidth: 1,
       display: 'block',
-      margin: 'auto',
     },
   })
 );

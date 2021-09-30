@@ -20,6 +20,12 @@ export const useStyles = makeStyles((theme: Theme) =>
       position: 'absolute',
       width: '100%',
     },
-    root: theme.mixins.barf(),
+    root: {
+      ...theme.mixins.barf(),
+      borderColor: theme.palette.divider,
+      borderBottomStyle: 'solid',
+      borderTopStyle: 'solid',
+      borderWidth: 10,
+    },
   })
 );

@@ -1436,7 +1436,7 @@ really tried out was :card[Echo of Eons]. Echo allowed for the building of piles
 that use Echo to *Timetwister* into your pile. This normally required at least
 one additional card in hand or some free mana rocks in play. d8dk32 was once
 again the leading man on giving this new tech a try writing a [mini primer
-article on its usage](articles/2020/01/01/echoes-of-the-past/). The list played
+article on its usage](/articles/2020/01/01/echoes-of-the-past/). The list played
 Veil, as allowing a {U} opponent to draw 7 cards is asking for disaster, and
 other than the Doomsday package, played very similar to other storm lists almost
 like an ANT and *new TES* style hybrid. As with many of the recent iterations of
