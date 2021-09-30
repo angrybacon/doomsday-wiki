@@ -13,11 +13,11 @@ export interface Props extends ReactMarkdownProps {
 }
 
 export const RemarkDecklist: FunctionComponent<Props> = ({ node }) => {
-  const { author, date, main, side, title, titleAsFile } = node.properties;
+  const { authors, date, main, side, title, titleAsFile } = node.properties;
   if (!main) return null;
   return (
     <Decklist
-      author={author}
+      authors={authors}
       date={date || undefined}
       main={main}
       side={side?.[0]}

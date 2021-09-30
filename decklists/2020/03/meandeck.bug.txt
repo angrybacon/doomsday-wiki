@@ -1,3 +1,5 @@
+// Title: Sultai Meandeck
+// Authors: Gre3n1T
 2 Baleful Strix
 2 Street Wraith
 2 Thassa's Oracle

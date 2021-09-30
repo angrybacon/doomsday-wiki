@@ -1,3 +1,5 @@
+// Title: UB Meandeck
+// Authors: BluStalker
 3 Baleful Strix
 2 Street Wraith
 1 Thassa's Oracle

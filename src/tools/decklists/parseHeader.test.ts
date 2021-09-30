@@ -1,15 +1,15 @@
 import { parseHeader } from '@/tools/decklists/parseHeader';
 
 describe(parseHeader.name, () => {
-  it('should parse the title and author', () => {
+  it('should parse the title and authors', () => {
     // Given
     const title = 'Decklist Title';
-    const author = 'Firstname Lastname';
-    const buffer = [`// Title: ${title}`, `// Author: ${author}`].join('\n');
+    const authors = 'Firstname Lastname';
+    const buffer = [`// Title: ${title}`, `// Authors: ${authors}`].join('\n');
     // When
     const result = parseHeader(buffer);
     // Then
-    expect(result.author).toEqual(author);
+    expect(result.authors).toEqual(authors);
     expect(result.title).toEqual(title);
   });
 
@@ -20,17 +20,17 @@ describe(parseHeader.name, () => {
     // When
     const result = parseHeader(buffer);
     // Then
-    expect(result.author).toBeUndefined();
+    expect(result.authors).toBeUndefined();
     expect(result.title).toEqual(title);
   });
 
-  it('should not parse the author without a title', () => {
+  it('should not parse the authors without a title', () => {
     // Given
-    const buffer = `// Author: Firstname Latname`;
+    const buffer = `// Authors: Firstname Lastname`;
     // When
     const result = parseHeader(buffer);
     // Then
-    expect(result.author).toBeUndefined();
+    expect(result.authors).toBeUndefined();
     expect(result.title).toBeUndefined();
   });
 });

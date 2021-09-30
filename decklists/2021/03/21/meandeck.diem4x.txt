@@ -1,3 +1,5 @@
+// Title: Meandeck
+// Authors: Bart "Diem4x" van Etten
 1 Ancestral Recall
 1 Black Lotus
 1 Brainstorm

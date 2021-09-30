@@ -1,7 +1,7 @@
 import { DECK_RE } from '@/tools/decklists/constants';
 
 type Header = {
-  author?: string;
+  authors?: string;
   title?: string;
 };
 
@@ -10,6 +10,6 @@ type Header = {
  * It usually looks like this:
  */
 export const parseHeader = (text = ''): Header => {
-  const [, title, author] = text.match(DECK_RE.header) || [];
-  return { author, title };
+  const [, title, authors] = text.match(DECK_RE.header) || [];
+  return { authors, title };
 };

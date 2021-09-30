@@ -79,10 +79,9 @@ single off colour splash is pretty much free in terms of deck building.
 Currently straight {U}{B} or {U}{B}{R} seem to be the most popular
 configurations at the time of writing.
 
-Here is an example list from a recent mtgo league trophy by Kl0gw:
+Here is an example list from a recent MTGO League trophy by kl0gW:
 
 ::decklist{path=2021/02/19/meandeck.ub.kl0gw}
-
 
 ### Speed Neutral - Old Reliable (Base Meandeck)
 
@@ -109,8 +108,7 @@ most popular although you can find variants available in {W}{U}{B}, {U}{B} or
 
 Here is an example list from a recent 13th place PTQ finish by RonColpoCinese:
 
-::decklist{path=2021/02/19/meandeck.ubg.roncolpcinese}
-
+::decklist{path=2021/02/19/meandeck.ubg.roncolpocinese}
 
 ### Speed Radical - Basically Snowko (Doomsday Control)
 
@@ -296,8 +294,8 @@ the right mana, which can hinder obtaining {B}{B}{B}, or increasing a reliance
 on your Lotus Petals to help fix your colours if not on Astrolabe. I would
 recommend sticking with at least 3 Petal if considering 4 colours.
 
-Here are three example lists from recent mtgo league trophies by Sawatarix,
-BCS8995 and Doishy respectively:
+Here are three example lists from recent mtgo league trophies by *Sawatarix*,
+*BCS8995* and *Doishy* respectively:
 
 ::decklist{path=2021/02/19/meandeck.ubrg.sawatarix}
 
@@ -305,13 +303,13 @@ BCS8995 and Doishy respectively:
 
 ::decklist{path=2021/02/19/meandeck.ubrg.doishy}
 
-*Post-ban both Martin 'Nevilshute' Nielson and Kai 'Sawatarix' Sawatari have
-been on a good run with a 4 colours (no {w}) list featuring Daze, Uro, Strix, 2
+Post-ban both Martin *nevilshute* Nielsen and Kai *Sawatarix* Sawatari have been
+on a good run with a 4 colours (no {w}) list featuring Daze, Uro, Strix, 2
 Petals and sideboarding Red Blast effects. Having had the opportunity to watch
-it first hand vs a lot of decks with mana punishment, it looked very solid. If
+it first hand vs. a lot of decks with mana punishment, it looked very solid. If
 nothing else I think it proved you can play the greedy control style list
-without heavy reliance on Astrolabe now it's gone and with only 2 basics, 1
-Island and 1 Swamp. The list can be found below.*
+without heavy reliance on Astrolabe now that it's gone and with only 2 basics, 1
+Island and 1 Swamp. The list can be found below.
 
 ::decklist{path=2021/02/19/meandeck.ubrg.nevilshute-postban}
 

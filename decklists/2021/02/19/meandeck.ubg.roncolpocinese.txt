@@ -1,3 +1,5 @@
+// Title: Sultai Meandeck
+// Authors: RonColpoCinese
 4 Baleful Strix
 2 Street Wraith
 1 Thassa's Oracle

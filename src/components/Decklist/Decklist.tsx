@@ -12,7 +12,7 @@ import type { Card } from '@/tools/decklists/types';
 import { useStyles } from './Decklist.styles';
 
 export interface Props {
-  author?: string;
+  authors?: string;
   date?: string;
   main: Card[][];
   side?: Card[];
@@ -20,7 +20,7 @@ export interface Props {
 }
 
 export const Decklist: FunctionComponent<Props> = ({
-  author,
+  authors,
   main,
   date,
   side,
@@ -40,10 +40,10 @@ export const Decklist: FunctionComponent<Props> = ({
             color="textSecondary"
             variant="caption"
           >
-            {author && (
+            {authors && (
               <Box alignItems="center" display="flex">
                 <Icon path={mdiAccount} size={0.7} />
-                <span>{author}</span>
+                <span>{authors}</span>
               </Box>
             )}
             {date && (

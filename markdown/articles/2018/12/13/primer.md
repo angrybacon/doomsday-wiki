@@ -12,7 +12,7 @@ there might be something we were missing. I went off the rails a bit, and after
 lots of trial and error returned with a list I liked better, one with Infernal
 Contracts, extra Rituals, and no Lab Maniac anywhere in the 75. I've been
 working to refine the list since then and it feels like its sufficiently
-competitve that I wouldn't be completely embarassed to write a primer.
+competitive that I wouldn't be completely embarassed to write a primer.
 
 ::decklist{path=2018/12/ddft}
 

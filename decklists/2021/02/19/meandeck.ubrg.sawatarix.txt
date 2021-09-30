@@ -1,3 +1,5 @@
+// Title: 4c Meandeck
+// Authors: Kai "Sawatarix" Sawatari
 2 Baleful Strix
 1 Street Wraith
 1 Thassa's Oracle

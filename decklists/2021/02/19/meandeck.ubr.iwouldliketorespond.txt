@@ -1,3 +1,5 @@
+// Title: Grixis Meandeck
+// Authors: Marcus "Iwouldliketorespond" Ewaldh
 4 Baleful Strix
 1 Thassa's Oracle
 4 Doomsday

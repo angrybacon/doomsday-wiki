@@ -27,9 +27,9 @@ functional looked like this:
 
 It's essentially an ANT deck with a pair of Doomsdays jammed in and a couple
 cards to support them, namely Infernal Contract (which turned out to be great on
-its own) and a singleton Conjurer's Bauble (to enable IT -> DD lines). The idea
-here is that I can win games off the power of Past in Flames as my Plan A, and
-Doomsday can function more like a Plan B, providing relatively low-resource
+its own) and a singleton Conjurer's Bauble (to enable IT into DD lines). The
+idea here is that I can win games off the power of Past in Flames as my Plan A,
+and Doomsday can function more like a Plan B, providing relatively low-resource
 deterministic kills that can ignore grave hate instead of relying on shitty Ad
 Nauseam mana hungry tutor chains. After sideboarding it can lean into Doomsday a
 bit more, including bringing in the Shelldock/Emrakul package which is good
@@ -39,7 +39,7 @@ The pass-the-turn piles are awkward with Infernal Contract and PiF helps you
 muscle through discard so Laboratory Maniac got the boot.
 
 The other deck list should be more familiar-looking to people who have played
-Doosmday in the past:
+Doomsday in the past:
 
 ::decklist{path=2018/07/ddft.bw}
 

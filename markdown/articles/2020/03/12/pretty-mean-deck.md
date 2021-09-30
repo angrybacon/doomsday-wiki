@@ -266,15 +266,15 @@ with :card[Monastery Mentor] which has always been a hobby of mine.
 There is still no clearly defined list that is *objectively better* however as
 the deck garners interest, more and more minds will likely get it to a place
 where it will be at least a little more optimised than before. If you want some
-starting points for either list TCDecks has some listed:
-
-[Esper by Hulahula](https://www.tcdecks.net/deck.php?id=33721&iddeck=299988)
+starting points for either list, see [Hulahula's][tcdecks:esper] and
+[Gre3n1T's][tcdecks:sultai] approaches, Esper and Sultai respectively.
 
 ::decklist{path=2020/03/meandeck.buw}
 
-[BUG by Gre3n1T](https://www.tcdecks.net/deck.php?id=33454&iddeck=296642)
-
 ::decklist{path=2020/03/meandeck.bug}
+
+[tcdecks:esper]: https://www.tcdecks.net/deck.php?id=33721&iddeck=299988
+[tcdecks:sultai]: https://www.tcdecks.net/deck.php?id=33454&iddeck=296642
 
 ## *The Madness has taken me, how do I find out more!?*
 

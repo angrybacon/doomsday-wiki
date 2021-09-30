@@ -1,3 +1,5 @@
+// Title: Astrolabe-less 4c Meandeck
+// Authors: Martin "nevilshute" Nielsen
 4 Baleful Strix
 1 Thassa's Oracle
 3 Uro, Titan of Nature's Wrath

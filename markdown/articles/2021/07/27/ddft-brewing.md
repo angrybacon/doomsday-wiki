@@ -275,12 +275,12 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 
 So where did I end up after all that? Well, here's two lists:
 
-::decklist{path=2021/07/26/ddft.wubrg.echo}
-
 ::decklist{path=2021/07/26/ddft.wubr.mindkiller}
 
+::decklist{path=2021/07/26/ddft.wubrg.echo}
+
 If normal *Echo Doomsday* was a 1 and full-blown *Mindkilller* was a 10, then
-the first list is probably a 3 and the second is a 7. I've learned and applied
+the first list is probably a 7 and the second is a 3. I've learned and applied
 some lessons from both ends of the DDFT spectrum and thus you'll see some
 similarities between the two lists. The most notable is in the manabase, which
 probably looks like a burning dog poo, but it usually works out.

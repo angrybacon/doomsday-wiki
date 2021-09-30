@@ -12,6 +12,6 @@ export const DECK_RE: Record<string, RegExp> = {
   decklist:
     /\n*((?:\/\/.*\n+)+)?\n*((?:[^/].+\n*)+)\n*(?:\/\/ Sideboard\n+((?:.+\n*)+)\n*)?/,
   groupDelimiter: /\s*\n\s*\n\s*/,
-  header: /(?:\/\/ Title: +(\b.*\b)).*(?:\n+\/\/ Author: +(\b.*\b))?/,
+  header: /(?:\/\/ Title: +(\b.*\b)).*(?:\n+\/\/ Authors: +(\b.*\b))?/,
   line: /\d+[^\n]+/g,
 };

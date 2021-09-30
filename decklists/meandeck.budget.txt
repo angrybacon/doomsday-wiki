@@ -1,3 +1,5 @@
+// Title: Budget Meandeck
+// Authors: emidln
 3 Baleful Strix
 4 Brainstorm
 1 Cabal Therapy

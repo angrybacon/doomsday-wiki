@@ -10,9 +10,9 @@ import type { Decklist } from '@/tools/decklists/types';
  */
 export const parse = (buffer: string): Decklist => {
   const [, header, main, side] = buffer.match(DECK_RE.decklist) || [];
-  const { author, title } = parseHeader(header);
+  const { authors, title } = parseHeader(header);
   return {
-    author,
+    authors,
     main: parseCards(main),
     side: parseCards(side),
     title,

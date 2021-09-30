@@ -1,3 +1,5 @@
+// Title: 4c Meandeck
+// Authors: BCS8995
 2 Oko, Thief of Crowns
 3 Baleful Strix
 1 Thassa's Oracle

@@ -1,3 +1,5 @@
+// Title: Draw4 Doomsday Fetchland Tendrils
+// Authors: d8dk32
 3 Doomsday
 4 Burning Wish
 2 Infernal Contract

@@ -8,7 +8,7 @@ jest.mock('@/tools/decklists/parseHeader');
 
 const sample = [
   '// Title: Decklist Title',
-  '// Author: Firstname Lastname',
+  '// Authors: Firstname Lastname',
   '4 Doomsday',
   '4 Doomsday',
   '// Sideboard',
@@ -31,7 +31,7 @@ describe(parse.name, () => {
     // Then
     const expected = [
       '// Title: Decklist Title',
-      '// Author: Firstname Lastname',
+      '// Authors: Firstname Lastname',
       '',
     ].join('\n');
     expect(parseHeader).toHaveBeenCalledWith(expected);

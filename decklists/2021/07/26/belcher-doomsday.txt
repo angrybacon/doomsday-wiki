@@ -1,3 +1,5 @@
+// Title: Belcher Doomsday
+// Authors: d8dk32
 3 Empty the Warrens
 4 Goblin Charbelcher
 4 Burning Wish

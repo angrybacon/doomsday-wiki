@@ -1,3 +1,5 @@
+// Title: 4c Meandeck
+// Authors: Doishy
 2 Street Wraith
 1 Thassa's Oracle
 4 Doomsday

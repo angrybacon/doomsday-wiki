@@ -1,3 +1,5 @@
+// Title: Esper Meandeck
+// Authors: Hulahula
 1 Street Wraith
 1 Thassa's Oracle
 1 Predict

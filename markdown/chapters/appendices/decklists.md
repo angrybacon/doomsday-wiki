@@ -20,11 +20,11 @@ actual long game plan.
 
 ::decklist{path=meandeck.ubr}
 
-::decklist{path=meandeck.ubrg}
-
-::decklist{path=meandeck.ubw}
+::decklist{path=meandeck.wub}
 
 ::decklist{path=meandeck.ubg}
+
+::decklist{path=meandeck.ubrg}
 
 Multiple 5-0's and 1K top 8's, as well as a MTGO Challenge top8's to its name.
 This is a proven list based around Experimental Frenzy that is also moderately

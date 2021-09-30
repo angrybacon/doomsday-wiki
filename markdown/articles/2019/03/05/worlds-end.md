@@ -78,7 +78,7 @@ Lotus. Lands become huge liabilities and Cantrips reverse themselves. Take
 Preordain for instance. Normally if you see two bad cards you bottom both and
 draw a fresh one. With frenzy out you should instead bottom one, draw one and
 then have the fresh one on the top of your library. Things like Fetches and
-:card[Conjurer's Bauble] can now help clear "dud" cards off the top of the
+:card[Conjurer's Bauble] can now help clear *dud* cards off the top of the
 library and your hand becomes a weird part graveyard part Brainstorm access pool
 resource. Ponder becomes interesting as you can clear a dead card by *drawing*
 it and then keep two desirables but all this means thinking in a way very unlike
@@ -149,18 +149,18 @@ alongside Act on Impulse to enable an easy non-Frenzy pile.
 - CB
 :::
 
-Some other cards come in to help with combo and consistency. Lim DÃ»l's Vault is
-a classic UB card that has been used as a Vampiric Tutor for awhile and is often
-dismissed due to the card disadvantage it provides. However consider with Frenzy
-out. Suddenly you get to either tutor what you need to play immediately or even
-create a "Frenzy Stack" to chain off the top of your deck.
+Some other cards come in to help with combo and consistency. Lim Dul's Vault is
+a classic UB card that has been used as a Vampiric Tutor for a while and is
+often dismissed due to the card disadvantage it provides. However consider with
+Frenzy out. Suddenly you get to either tutor what you need to play immediately
+or even create a *Frenzy Stack* to chain off the top of your deck.
 
 Lands wise, you want as low a count as possible to avoid hitting them with
 Frenzy however you still need enough to cast your cards. 14-15 seem to be the
 commonly preferred count and these are supplemented by 4 Petals, 4 LED, 4 DR and
 3-4 CR.
 
-Protection comes in the form of 4 TS, 2-4 Duress and 0-1 Collective Brutality.
+Protection comes in the form of 4 Tsz, 2-4 Duress and 0-1 Collective Brutality.
 
 Taking this into account lists are starting to look similar to the following:
 

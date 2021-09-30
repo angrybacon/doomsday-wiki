@@ -1,7 +1,7 @@
 export type Card = [quantity: number, name: string];
 
 export interface Decklist {
-  author?: string;
+  authors?: string;
   main: Card[][];
   side?: Card[][];
   title?: string;
