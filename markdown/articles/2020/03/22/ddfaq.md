@@ -690,7 +690,7 @@ a deterministic turn 1 kill in Legacy Doomsday too!
 
 [twitter:vintage-turn-one]: https://twitter.com/SMenendian/status/1242650950415691776
 
-![Vintage turn one by Stephen Menendian](/media/pictures/meandeck.vintage-turn-one.jpeg)
+![Vintage turn one by Stephen Menendian](/media/pictures/2020.vintage-turn-one.jpeg)
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)  

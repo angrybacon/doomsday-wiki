@@ -103,9 +103,9 @@ across all games of a match and the win percentages calculated from when
 mulligans occur. Below you can find two graphs: the percentage of games where
 mulligans occur and the percentage of games won against mulligans.
 
-![Mulligan Percentage Across Games](/img/DD2017Graph1.gif)
+![Mulligan percentage across games](/media/pictures/2017.chart.mulligan.gif)
 
-![Mulligan Win Percentage Across Games](/img/DD2017Graph2.gif)
+![Mulligan win percentage across games](/media/pictures/2017.chart.mulligan-win.gif)
 
 As you can see, despite the concerns, the deck seems to mulligan very well.
 There could be some variance in that people are keeping dodgy seven card hands
@@ -244,7 +244,7 @@ gone up but is still on par with ANT. Following on from this point again Nanda
 had real concerns that Doomsday as a deck was not winning using its namesake
 card. Let's look at the breakdown of winning game engines:
 
-![Combo Engines Across Games](/img/DD2017Graph3.gif)
+![Combo engines across games](/media/pictures/2017.chart.engines.gif)
 
 I guess that paints a clear picture. The four engines measured are the primary
 ones of any line that uses Doomsday itself, BW into EtW, natural ToA kills and
@@ -318,8 +318,6 @@ Thanks for reading!
 
 ## Links
 
-- [Bryant Cook's Article]
-  (http://theepicstorm.com/storm-data-comparison/) spreadsheets visited on
-  03/01/2018
-- [g0ld_rook's 5-0 list]
-  (https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2017-12-10#gld_rook_-)
+- [Bryant Cook's Article](http://theepicstorm.com/storm-data-comparison/)
+  spreadsheets visited on 03/01/2018
+- [g0ld_rook's 5-0 list](https://magic.wizards.com/en/articles/archive/mtgo-standings/competitive-legacy-constructed-league-2017-12-10#gld_rook_-)

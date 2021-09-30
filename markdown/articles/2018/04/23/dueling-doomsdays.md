@@ -251,7 +251,7 @@ The 100% mirror.
 James on James, Doomsday on Doomsday action.  
 It was everything everyone dreams of.
 
-![Game Faces](/img/MirrorMatch.png)
+![Game faces](/media/pictures/2018.mirror.one.jpeg)
 
 > Ape (Front) feeling the pressure as Doishy (Back) gets super srs.
 
@@ -275,7 +275,7 @@ wanting Doomsday in the Top 8 over personal glory but alas it was for naught
 because there was a big tie of people on six points and who even knows how that
 shit works anyways?.
 
-![Dat Gamestate](/img/MIrrorMatchBoardState.png)
+![Dat gamestate](/media/pictures/2018.mirror.two.jpeg)
 
 > 9 Goblins stare down 14 ~~Business Cards~~ Goblins as a Doomsday resolves.
 

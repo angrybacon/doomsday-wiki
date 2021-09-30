@@ -318,7 +318,7 @@ Island and 1 Swamp. The list can be found below.
 Now that we have our 2 axis we can build our little Doomsday deck building
 alignment chart!
 
-![Alignment Chart](/img/2021alignment.png)
+![Alignment chart](/media/pictures/2021.alignment.jpeg)
 
 Obviously this is a gross oversimplification but it's a fun little way to
 quickly work out what sort of Doomsdayer you are. I personally sit as an "Old
