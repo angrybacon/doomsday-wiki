@@ -4,13 +4,13 @@ banner: /banners/spoils-of-the-vault.mrd.jpg
 title: Have No Fear, the Mindkiller is Here
 ---
 
-*"I must not fear.  
-Fear is the mind-killer.  
-Fear is the little-death that brings total obliteration.  
-I will face my fear.  
-I will permit it to pass over me and through me.  
-And when it has gone past I will turn the inner eye to see its path.  
-Where the fear has gone there will be nothing. Only I will remain."*
+> "I must not fear.  
+> Fear is the mind-killer.  
+> Fear is the little-death that brings total obliteration.  
+> I will face my fear.  
+> I will permit it to pass over me and through me.  
+> And when it has gone past I will turn the inner eye to see its path.  
+> Where the fear has gone there will be nothing. Only I will remain."
 
 One lesson all budding combo players learn as they dive into the world of
 degenerate Magic decks is when to *go for it*. When do you take a chance and jam
@@ -326,7 +326,7 @@ I computed the average life lost and probability of killing you for a turn 1
 Spoils from 20 life (53 cards left in the deck), for a 4-of down to a 1-of. I
 used a quick Matlab script to simulate 50,000 Spoils for each.
 
-```
+```matlab
 function spoils(deckSize, copiesLeft, numIters)
     avg = 0;
     deathCounter = 0;

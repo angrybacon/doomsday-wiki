@@ -4,6 +4,7 @@ import {
   RemarkCard,
   Props as RemarkCardProps,
 } from '@/components/Remark/renderers/RemarkCard';
+import { RemarkCode } from '@/components/Remark/renderers/RemarkCode';
 import {
   RemarkDecklist,
   Props as RemarkDecklistProps,
@@ -36,6 +37,7 @@ import {
 export const COMPONENTS: Components = {
   a: RemarkLink,
   blockquote: RemarkQuote,
+  code: RemarkCode,
   h1: RemarkHeading,
   h2: RemarkHeading,
   h3: RemarkHeading,
