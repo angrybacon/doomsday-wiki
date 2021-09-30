@@ -21,6 +21,7 @@ import type { Menu } from '@/tools/markdown/types';
 import { useStyles } from './Layout.styles';
 
 type Props = {
+  className?: string;
   maxWidth?: Breakpoint;
   menu: Menu;
   title?: string;
@@ -39,6 +40,7 @@ type Props = {
 
 export const Layout: FunctionComponent<Props> = ({
   children,
+  className,
   maxWidth,
   menu,
   title,
@@ -66,7 +68,12 @@ export const Layout: FunctionComponent<Props> = ({
   }, [closeSidebar, router]);
 
   return (
-    <Box display="flex" flexDirection="column" minHeight="100vh">
+    <Box
+      className={className}
+      display="flex"
+      flexDirection="column"
+      minHeight="100vh"
+    >
       {title && <Title title={title} />}
       <Header isMobile={!isDesktop} onSidebarOpen={openSidebar} />
       <Sidebar

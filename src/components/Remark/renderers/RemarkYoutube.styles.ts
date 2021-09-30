@@ -1,5 +1,4 @@
-import { createStyles, makeStyles } from '@material-ui/core/styles';
-import type { Theme } from '@material-ui/core/styles';
+import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -7,7 +6,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       backgroundColor: theme.palette.common.black,
       height: 0,
       position: 'relative',
-      // NOTE Force intrinsic height to always 16/9
+      // NOTE Force intrinsic height to always be 16/9
       paddingBottom: '56.25%',
     },
     frame: {
