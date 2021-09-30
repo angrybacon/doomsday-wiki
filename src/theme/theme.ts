@@ -38,8 +38,19 @@ const options: ThemeOptions = {
     MuiCardContent: {
       root: { padding: base.spacing(3), ...gutters() },
     },
+    MuiContainer: {
+      root: {
+        [base.breakpoints.only('xs')]: {
+          paddingLeft: 0,
+          paddingRight: 0,
+        },
+      },
+    },
     MuiLink: {
       root: { color: base.palette.secondary.light },
+    },
+    MuiPaper: {
+      rounded: { [base.breakpoints.only('xs')]: { borderRadius: 0 } },
     },
     MuiTypography: {
       gutterBottom: {

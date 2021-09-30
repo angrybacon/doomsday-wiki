@@ -9,5 +9,13 @@ export const useStyles = makeStyles((theme: Theme) =>
         marginLeft: 0,
       },
     },
+    footer: {
+      margin: theme.spacing(3),
+    },
+    [theme.breakpoints.only('xs')]: {
+      footer: {
+        margin: theme.spacing(2),
+      },
+    },
   })
 );

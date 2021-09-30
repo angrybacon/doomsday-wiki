@@ -76,10 +76,15 @@ export const Layout: FunctionComponent<Props> = ({
         onClose={closeSidebar}
       />
       <div className={c(classes.container, { mobile: !isDesktop })}>
-        <Container component={Box} maxWidth={maxWidth} py={3}>
+        <Container
+          className={classes.containee}
+          component={Box}
+          maxWidth={maxWidth}
+          my={3}
+        >
           <Wrapper {...wrapperProps}>{children}</Wrapper>
         </Container>
-        <Footer />
+        <Footer className={classes.footer} />
       </div>
     </>
   );

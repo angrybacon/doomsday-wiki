@@ -8,9 +8,8 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
     quantity: {
       marginRight: theme.spacing(),
-      maxWidth: '2em',
-      minWidth: '2em',
-      textAlign: 'right',
+      maxWidth: '1.2em',
+      minWidth: '1.2em',
     },
     root: {
       listStyleType: 'none',

@@ -1,5 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 import React, { useState } from 'react';
+import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -53,10 +54,12 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
             </Grid>
           ))}
           {size < articles.length + 1 && (
-            <Grid item xs={12}>
-              <Button fullWidth onClick={showMore} size="small">
-                Show more
-              </Button>
+            <Grid item>
+              <Box display="flex" justifyContent="center">
+                <Button onClick={showMore} size="small">
+                  Show more
+                </Button>
+              </Box>
             </Grid>
           )}
         </Grid>
