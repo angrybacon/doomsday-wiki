@@ -24,6 +24,6 @@
 1 Island
 2 Underground Sea
 
-Sideboard
+// Sideboard
 4 Duress
 4 Hope of Ghirapur

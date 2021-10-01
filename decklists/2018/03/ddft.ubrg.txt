@@ -25,7 +25,7 @@
 2 Island
 1 Swamp
 
-Sideboard
+// Sideboard
 1 Doomsday
 1 Tendrils of Agony
 1 Act on Impulse

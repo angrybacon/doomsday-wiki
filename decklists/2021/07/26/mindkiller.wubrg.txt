@@ -23,7 +23,7 @@
 4 City of Brass
 2 Glimmervoid
 
-Sideboard
+// Sideboard
 1 Doomsday
 1 Tendrils of Agony
 1 Empty the Warrens

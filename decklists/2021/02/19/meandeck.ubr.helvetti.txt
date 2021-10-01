@@ -29,7 +29,7 @@
 3 Underground Sea
 1 Volcanic Island
 
-Sideboard
+// Sideboard
 2 Abdrade
 1 Fatal Push
 1 Red Elemental Blast

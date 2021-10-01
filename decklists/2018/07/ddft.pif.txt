@@ -26,7 +26,7 @@
 1 Volcanic Island
 2 Underground Sea
 
-Sideboard
+// Sideboard
 1 Chain of Vapor
 1 Flusterstorm
 2 Surgical Extraction

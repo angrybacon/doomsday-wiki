@@ -29,7 +29,7 @@
 1 Island
 1 Swamp
 
-Sideboard
+// Sideboard
 1 Echo of Eons
 3 Empty the Warrens
 1 Doomsday

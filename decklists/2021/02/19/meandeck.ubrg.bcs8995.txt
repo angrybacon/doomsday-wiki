@@ -28,7 +28,7 @@
 2 Underground Sea
 1 Volcanic Island
 
-Sideboard:
+// Sideboard
 3 Abrupt Decay
 1 Collector Ouphe
 2 Force of Negation

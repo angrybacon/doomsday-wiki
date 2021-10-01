@@ -21,7 +21,7 @@
 4 Turntimber Symbiosis
 4 Agadeem's Awakening
 
-Sideboard
+// Sideboard
 4 Xantid Swarm
 2 Veil of Summer
 4 Duress

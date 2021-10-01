@@ -26,7 +26,7 @@
 4 Flooded Strand
 4 Polluted Delta
 
-Sideboard
+// Sideboard
 1 Abeyance
 2 Echoing Truth
 2 Monastery Mentor

@@ -23,7 +23,7 @@
 4 Mishra's Factory
 1 Cabal Pit
 
-Sideboard
+// Sideboard
 1 Fatal Push
 2 Pithing Needle
 2 Night of Souls' Betrayal

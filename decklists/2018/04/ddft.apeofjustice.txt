@@ -27,7 +27,7 @@
 2 Island
 1 Swamp
 
-Sideboard
+// Sideboard
 1 Doomsday
 1 Massacre
 1 By Force

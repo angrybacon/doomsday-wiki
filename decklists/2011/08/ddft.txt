@@ -27,7 +27,7 @@
 2 Underground Sea
 1 Scrubland
 
-Sideboard
+// Sideboard
 1 Chain of Vapor
 4 Dark Confidant
 1 Echoing Truth

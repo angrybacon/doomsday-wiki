@@ -27,7 +27,7 @@
 2 Tropical Island
 3 Underground Sea
 
-Sideboard
+// Sideboard
 3 Abrupt Decay
 1 Brazen Borrower
 2 Carpet of Flowers

@@ -27,7 +27,7 @@
 1 Tropical Island
 3 Underground Sea
 
-Sideboard:
+// Sideboard
 4 Abrupt Decay
 2 Baleful Strix
 1 Pyroblast

@@ -27,7 +27,7 @@
 1 Swamp
 2 Island
 
-Sideboard
+// Sideboard
 3 Abrupt Decay
 2 Fatal Push
 1 Veil of Summer

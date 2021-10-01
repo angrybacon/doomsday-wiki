@@ -24,7 +24,7 @@
 1 Badlands
 1 Volcanic Island
 
-Sideboard
+// Sideboard
 1 Echo of Eons
 1 Empty the Warrens
 1 Doomsday

@@ -26,7 +26,7 @@
 1 Tropical Island
 3 Underground Sea
 
-Sideboard
+// Sideboard
 2 Abrupt Decay
 1 Demonic Lore
 3 Force of Negation

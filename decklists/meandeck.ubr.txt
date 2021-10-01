@@ -26,7 +26,7 @@
 4 Underground Sea
 1 Volcanic Island
 
-Sideboard
+// Sideboard
 3 Baleful Strix
 1 Chain of Vapor
 1 Consign // Oblivion

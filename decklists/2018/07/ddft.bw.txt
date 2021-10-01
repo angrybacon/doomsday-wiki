@@ -27,7 +27,7 @@
 4 Polluted Delta
 2 Scalding Tarn
 
-Sideboard
+// Sideboard
 1 Doomsday
 3 Empty the Warrens
 1 Act on Impulse

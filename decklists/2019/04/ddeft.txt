@@ -28,7 +28,7 @@
 2 Underground Sea
 1 Volcanic Island
 
-Sideboard
+// Sideboard
 1 Abrade
 3 Empty the Warrens
 1 Engineered Explosives

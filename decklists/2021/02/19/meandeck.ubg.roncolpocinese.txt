@@ -29,7 +29,7 @@
 3 Underground Sea
 1 Verdant Catacombs
 
-Sideboard:
+// Sideboard
 3 Abrupt Decay
 2 Carpet of Flowers
 3 Defense Grid

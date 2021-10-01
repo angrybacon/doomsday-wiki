@@ -20,7 +20,7 @@
 4 Agadeem's Awakening
 4 Shatterskull Smashing
 
-Sideboard
+// Sideboard
 1 Recross the Paths
 1 Empty the Warrens
 2 Pyroblast

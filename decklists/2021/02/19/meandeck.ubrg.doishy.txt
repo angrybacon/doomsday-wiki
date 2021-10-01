@@ -29,7 +29,7 @@
 3 Underground Sea
 1 Volcanic Island
 
-Sideboard
+// Sideboard
 1 Personal Tutor
 1 Massacre
 2 Abrupt Decay

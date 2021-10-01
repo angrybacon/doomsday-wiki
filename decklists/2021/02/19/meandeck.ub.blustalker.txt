@@ -27,7 +27,7 @@
 2 Snow-Covered Swamp
 3 Underground Sea
 
-Sideboard:
+// Sideboard
 2 Flusterstorm
 1 Echoing Truth
 2 Mystical Dispute

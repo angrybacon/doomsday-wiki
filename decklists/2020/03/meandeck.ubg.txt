@@ -31,7 +31,7 @@
 3 Underground Sea
 4 Misty Rainforest
 
-Sideboard
+// Sideboard
 1 Veil of Summer
 2 Abrupt Decay
 1 Cavern of Souls
