@@ -9,12 +9,15 @@ export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     card: {
       '& > *': {
-        padding: theme.spacing(1),
+        padding: theme.spacing(),
       },
     },
 
     centered: {
-      justifyContent: 'space-around',
+      ...theme.mixins.gutters(),
+      justifyContent: 'space-between',
+      marginLeft: -theme.spacing(),
+      marginRight: -theme.spacing(),
       '& $card': {
         maxWidth: '25%',
       },

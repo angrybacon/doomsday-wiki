@@ -36,7 +36,7 @@ const getApi = (name: string, set?: string): [Cache, Api, string] =>
         `q=!"${name}"&unique=prints&order=released&dir=asc`,
       ];
 
-type Scry = (key: string, set?: string) => Promise<ScryResponse>;
+type Scry = (query: string) => Promise<ScryResponse>;
 
 /**
  * Query Scryfall with `query`.

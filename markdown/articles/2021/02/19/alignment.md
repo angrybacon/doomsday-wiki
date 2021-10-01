@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /banners/ideas-unbound.sok.jpg
+banner: IU
 title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
 ---
 

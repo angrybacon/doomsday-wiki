@@ -2,8 +2,13 @@ import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
+import { readFirstResult } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
-import type { Scries, ScryResponse } from '@/tools/scryfall/types';
+import type {
+  Scries,
+  ScryDataItem,
+  ScryResponse,
+} from '@/tools/scryfall/types';
 
 /**
  * Parse the Markdown tree and visit all Scryfall directives in order to compute
@@ -24,7 +29,10 @@ export const remarkScryfall =
       const texts = selectAll('text', directive) as Text[];
       texts.forEach(({ value }) => {
         const promise = scry(value).then((response) => {
-          scries[value] = response.data;
+          // NOTE Scry results can contain a list in case of non-exact matches.
+          //      In this case we only care about the first result.
+          const data: ScryDataItem = readFirstResult(response.data);
+          scries[value] = data;
           return response;
         });
         promises.push(promise);

@@ -1,16 +1,34 @@
 import { AxiosResponse } from 'axios';
 
-// TODO Add a type for array-like Scryfall response
+/** Dictionary of Scry results. */
+export type Scries = Record<string, ScryDataItem>;
 
 /** Type as best as possible the card response we get from Scryfall API. */
-export interface ScryData {
+export interface ScryDataItem {
+  /* eslint-disable camelcase */
+  card_faces?: (Partial<ScryDataItem> & { object: 'card_face' })[];
+  image_uris?: {
+    art_crop: string;
+    border_crop: string;
+    large: string;
+    normal: string;
+    png: string;
+    small: string;
+  };
   name: string;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
+  object: 'card';
+  /* eslint-enable camelcase */
 }
 
-/** Dictionary of Scry results. */
-export type Scries = Record<string, ScryData>;
+/** Type representing Scryfall response when the yield is a list. */
+export interface ScryDataList {
+  /* eslint-disable camelcase */
+  data: ScryDataItem[];
+  has_more: boolean;
+  object: 'list';
+  total_cards: number;
+  /* eslint-enable camelcase */
+}
 
 /** Convenience typing to refer to responses from the Scryfall API. */
-export type ScryResponse = AxiosResponse<ScryData>;
+export type ScryResponse = AxiosResponse<ScryDataItem | ScryDataList>;

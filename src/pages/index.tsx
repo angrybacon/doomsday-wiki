@@ -70,7 +70,7 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    articles: getArticles(),
+    articles: await getArticles(),
     welcome: await getMarkdown('partials/welcome'),
   },
 });

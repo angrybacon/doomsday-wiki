@@ -1,6 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Card, Props } from '@/components/Card/Card';
+import type { ScryDataItem } from '@/tools/scryfall/types';
 
 describe(Card.name, () => {
   let props: Props;
@@ -11,7 +12,7 @@ describe(Card.name, () => {
         // eslint-disable-next-line camelcase
         image_uris: { border_crop: 'protocol://path/to/resource.png' },
         name: 'Card Name',
-      },
+      } as ScryDataItem,
       query: 'Card Name | SET',
     };
     jest.clearAllMocks();
@@ -19,17 +20,19 @@ describe(Card.name, () => {
 
   it('should render nothing when URL is not available', () => {
     // Given
-    delete props.data.image_uri;
+    // eslint-disable-next-line camelcase
+    props.data = { image_uris: {} } as ScryDataItem;
     // When
     const { container } = render(<Card {...props} />);
     // Then
-    expect(container.firstChild).toBeEmptyDOMElement();
+    expect(container).toBeEmptyDOMElement();
   });
 
   it('should set a source attribute', () => {
     // Given
     const url = 'protocol://path/to/resource.png';
-    props.data.image_uris.png = url;
+    // eslint-disable-next-line camelcase
+    props.data = { image_uris: { border_crop: url } } as ScryDataItem;
     // When
     render(<Card {...props} />);
     // Then
@@ -48,8 +51,7 @@ describe(Card.name, () => {
 
   it('should fallback to the Scryfall query if the name is not available', () => {
     // Given
-    // @ts-expect-error: We do not control the content of data
-    delete props.data.name;
+    props.data.name = '';
     props.query = 'Card Name | SET';
     // When
     render(<Card {...props} />);

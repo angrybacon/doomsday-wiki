@@ -31,7 +31,7 @@ const ArticlePage: NextPage<Props & ExtraPageProps> = ({
 );
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const articles: Document[] = getArticles();
+  const articles: Document[] = await getArticles();
   const paths = articles.map(({ crumbs }) => {
     const [year, month, day, article] = crumbs;
     return { params: { article, day, month, year } };

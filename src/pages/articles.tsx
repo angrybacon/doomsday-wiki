@@ -69,7 +69,7 @@ const ArticlesPage: NextPage<Props & ExtraPageProps> = ({ articles, menu }) => {
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    articles: getArticles(),
+    articles: await getArticles(),
   },
 });
 

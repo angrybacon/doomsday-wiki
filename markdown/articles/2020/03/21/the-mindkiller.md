@@ -1,6 +1,6 @@
 ---
 authors: d8dk32
-banner: /banners/spoils-of-the-vault.mrd.jpg
+banner: SotV
 title: Have No Fear, the Mindkiller is Here
 ---
 

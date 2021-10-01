@@ -1,11 +1,11 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
-import type { ScryData } from '@/tools/scryfall/types';
+import type { ScryDataItem } from '@/tools/scryfall/types';
 import { useStyles } from './Card.styles';
 
 export interface Props {
   className?: string;
-  data: ScryData;
+  data: ScryDataItem;
   query: string;
 }
 

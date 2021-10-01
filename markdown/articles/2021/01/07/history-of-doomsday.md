@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: /banners/dark-ritual.leb.jpg
+banner: DR
 title: The History of Doomsday - An interview with Emidln
 ---
 
@@ -653,25 +653,27 @@ involving multiple Ideas Unbounds and Emrakul to enable shuffle.
 :::row{variant=pile}
 - Relic of Progenitus|ALA
 - IU
-- Em
 - LED
+- Em
 - IU
 :::
 
 Lejay from a stormboards post in 2010:
 
-> The Unbound Emrakul piles :
+> The Unbound Emrakul piles:
 >
 > These 2 piles require a second ideas unbound either in the main or sb (or both
 > main) and a SdT in play.
 >
-> Relic of progenitus IU (or BW + 1R) LED Emrakul IU (or BW +1R)
+> Relic of progenitus, IU, (or BW + 1R), LED, Emrakul, IU (or BW +1R)
 >
-> Pile A, pass the turn : Mana : UUUU2. You need no card in hand or a LED to
-> discard. Pile B, with cantrip : Mana : UUUUU2. You need a brainstorm/ponder in
-> hand and no other card or a LED to discard.
+> Pile A, pass the turn  
+> Mana: UUUU2. You need no card in hand or a LED to discard.  
+> Pile B, with cantrip  
+> Mana: UUUUU2. You need a brainstorm/ponder in hand and no other card or a LED
+> to discard.
 >
-> For both pile : Draw and play relic. Activate it (last window to discard your
+> For both pile: Draw and play relic. Activate it (last window to discard your
 > hand with LED) removing graveyards and cantriping into Ideas unbound. Play
 > ideas unbound to draw Emrakul, LED and Ideas unbound with no cards in library.
 > Play LED. Play ideas unbound and in response sacrifice LED to discard Emrakul
@@ -714,7 +716,7 @@ was with a version dubbed *Ugly Duckling* run by Chris Gosselin. This version
 ran Spell Pierces, Thoughtseizes, :card[Stifle] and a number of spicy sideboard
 inclusions like :card[Form of the Dragon] and :card[Armageddon] (for flavour
 reasons maybe?). He made top 8 of GP Columbus in August 2010. You can find a
-video of the full deck tech [HERE](https://www.youtube.com/watch?v=0TNK1Jb5r9E).
+video of the full deck tech [here](https://www.youtube.com/watch?v=0TNK1Jb5r9E).
 Outside of 2010-2011 the deck didn't see a huge amount of play however as it
 could be awkward and have some slightly dodgy starting hands with Doomsday +
 Emrakul not always aligning fully.
@@ -1022,7 +1024,7 @@ combo and having the scope to be one of the best decks in Legacy is completely
 correct however I believe his thinking was a little ahead of its time and based
 on a few misconceptions. The best result that was achieved with it was going 6-3
 at an SCG event in Columbus. The deck can be seen on feature match
-[HERE](https://www.youtube.com/watch?v=UuswAK0IYdg). Other than that it failed
+[here](https://www.youtube.com/watch?v=UuswAK0IYdg). Other than that it failed
 to really make a splash in the format and this is for a number of reasons based
 on the aforementioned idea of these misconceptions. I will discuss them based on
 my own thought processes below:
@@ -1307,7 +1309,7 @@ really felt like a second Golden Age, if not in actual results, at least in
 community culture. Overall despite the rocky start of 2017, 2018 felt like a
 really good year for the deck.
 
-## Fuck you Wizards
+## Fuck You Wizards
 
 This section should have a more thematic title however I am going to allow
 myself the luxury of a little bit of bias here. In July 2018 we saw the banning
