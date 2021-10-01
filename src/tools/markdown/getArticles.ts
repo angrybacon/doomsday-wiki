@@ -7,7 +7,7 @@ import {
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
 import type { Document } from '@/tools/markdown/types';
-import { readFirstArt } from '@/tools/scryfall/read';
+import { readFirstFace } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { ScryDataItem, ScryResponse } from '@/tools/scryfall/types';
 
@@ -35,7 +35,7 @@ export const getArticles: GetArticles = async (options) => {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
       let { data } = readMarkdown(path);
       const [year, month, day] = crumbs;
-      // NOTE Warm up Scryfall query to be resolved later
+      // NOTE Warm up Scryfall query in a temporary key to be resolved later
       const bannerPromise = data.banner ? scry(data.banner) : null;
       data = { ...data, bannerPromise, date: formatDate(year, month, day) };
       const route = ['/articles', ...crumbs].join('/');
@@ -54,14 +54,16 @@ export const getArticles: GetArticles = async (options) => {
       try {
         // eslint-disable-next-line no-await-in-loop
         response = await document.data.bannerPromise;
+        delete document.data.bannerPromise;
       } catch (error) {
         throw new Error(
           `Scryfall error while querying '${document.data.banner}' (${error.data.details})`
         );
       }
-      const art: ScryDataItem['image_uris'] = readFirstArt(response.data);
-      document.data.banner = art?.art_crop || null;
-      document.data.bannerPromise = null;
+      const card: ScryDataItem = readFirstFace(response.data);
+      document.data.banner = card.image_uris?.art_crop || null;
+      document.data.bannerArtist = document.data.banner ? card.artist : null;
+      document.data.bannerName = document.data.banner ? card.name : null;
     }
   }
   return documents;

@@ -6,6 +6,7 @@ export type Scries = Record<string, ScryDataItem>;
 /** Type as best as possible the card response we get from Scryfall API. */
 export interface ScryDataItem {
   /* eslint-disable camelcase */
+  artist?: string;
   card_faces?: (Partial<ScryDataItem> & { object: 'card_face' })[];
   image_uris?: {
     art_crop: string;

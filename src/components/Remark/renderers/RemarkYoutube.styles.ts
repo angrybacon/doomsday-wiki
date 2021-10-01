@@ -24,7 +24,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       borderColor: theme.palette.divider,
       borderBottomStyle: 'solid',
       borderTopStyle: 'solid',
-      borderWidth: 10,
+      borderWidth: 1,
     },
   })
 );
