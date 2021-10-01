@@ -3,13 +3,14 @@ import remarkDirective from 'remark-directive';
 import remarkParse from 'remark-parse';
 import { unified } from 'unified';
 import { readMarkdown } from '@/tools/io/readMarkdown';
+import { toDirective } from '@/tools/mana/toDirective';
 import { Markdown } from '@/tools/markdown/types';
-import type { Scries } from '@/tools/scryfall/types';
 import {
   BASE_MARKDOWN_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
 import { remarkScryfall } from '@/tools/remark/remarkScryfall';
+import type { Scries } from '@/tools/scryfall/types';
 
 /** Parse buffer as Markdown text and return Scry data from directives. */
 const getScries = async (buffer: string): Promise<Scries> => {
@@ -27,5 +28,5 @@ export const getMarkdown: GetMarkdown = async (...slugs) => {
   const path = join(BASE_MARKDOWN_URL, ...slugs) + MARKDOWN_EXTENSION;
   const { content: text, data: matter } = readMarkdown(path);
   const scries = await getScries(text);
-  return { matter, scries, text };
+  return { matter, scries, text: toDirective(text) };
 };

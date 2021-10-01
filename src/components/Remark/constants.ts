@@ -12,6 +12,10 @@ import {
 import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
 import { RemarkImage } from '@/components/Remark/renderers/RemarkImage';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
+import {
+  RemarkMana,
+  Props as RemarkManaProps,
+} from '@/components/Remark/renderers/RemarkMana';
 import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
 import { RemarkParagraph } from '@/components/Remark/renderers/RemarkParagraph';
 import {
@@ -57,12 +61,14 @@ export const COMPONENTS: Components = {
 export const COMPONENTS_EXTRA: {
   card: FunctionComponent<RemarkCardProps>;
   decklist: FunctionComponent<RemarkDecklistProps>;
+  mana: FunctionComponent<RemarkManaProps>;
   row: FunctionComponent<RemarkRowProps>;
   soundcloud: FunctionComponent<RemarkSoundcloudProps>;
   youtube: FunctionComponent<RemarkYoutubeProps>;
 } = {
   card: RemarkCard,
   decklist: RemarkDecklist,
+  mana: RemarkMana,
   row: RemarkRow,
   soundcloud: RemarkSoundcloud,
   youtube: RemarkYoutube,

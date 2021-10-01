@@ -1,6 +1,6 @@
-import { manaToDirective } from '@/tools/remark/manaToDirective';
+import { toDirective } from '@/tools/mana/toDirective';
 
-describe(manaToDirective.name, () => {
+describe(toDirective.name, () => {
   const specifications: [string, [string, string][]][] = [
     [
       'Simple',
@@ -74,7 +74,7 @@ describe(manaToDirective.name, () => {
         const text = `Before ${input} After`;
         // Then
         const expected = `Before ${output} After`;
-        expect(manaToDirective(text)).toEqual(expected);
+        expect(toDirective(text)).toEqual(expected);
       });
     });
   });
@@ -84,21 +84,21 @@ describe(manaToDirective.name, () => {
       // Given
       const text = 'Before {A} After';
       // Then
-      expect(manaToDirective(text)).toEqual(text);
+      expect(toDirective(text)).toEqual(text);
     });
 
     it('should not parse unsupported multi-characters patterns', () => {
       // Given
       const text = 'Before {UNSUPPORTED} After';
       // Then
-      expect(manaToDirective(text)).toEqual(text);
+      expect(toDirective(text)).toEqual(text);
     });
 
     it('should not parse composed patterns', () => {
       // Given
       const text = 'Before {2UB} After';
       // Then
-      expect(manaToDirective(text)).toEqual(text);
+      expect(toDirective(text)).toEqual(text);
     });
   });
 });

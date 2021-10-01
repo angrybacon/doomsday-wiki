@@ -11,6 +11,7 @@ import type { Markdown } from '@/tools/markdown/types';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist';
+import { remarkMana } from '@/tools/remark/remarkMana';
 import { remarkRow } from '@/tools/remark/remarkRow';
 import { useStyles } from './Remark.styles';
 
@@ -31,6 +32,7 @@ export const Remark: FunctionComponent<Props> = ({
     remarkBase,
     remarkCard,
     [remarkDecklist, { decklists }],
+    remarkMana,
     [remarkRow, { scries }],
   ];
   return (

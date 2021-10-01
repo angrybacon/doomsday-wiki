@@ -4135,6 +4135,11 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
+mana-font@^1.14.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/mana-font/-/mana-font-1.14.0.tgz#708b94acbee9ebc6713b65702de5733c1272d68b"
+  integrity sha512-/opV8SWsRo8zGKxwrcgoNxIhHBSQxbfpGzHu/4cXXSOoeHQdAc+gYQGiwM0cLIGE8QSPSpZ7csd2UFpCw8uWsQ==
+
 markdown-table@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.1.tgz#88c48957aaf2a8014ccb2ba026776a1d736fe3dc"
