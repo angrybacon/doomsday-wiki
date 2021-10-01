@@ -15,7 +15,7 @@ export const useStyles = makeStyles((theme: Theme) =>
 
     centered: {
       ...theme.mixins.gutters(),
-      justifyContent: 'space-between',
+      justifyContent: 'space-around',
       marginLeft: -theme.spacing(),
       marginRight: -theme.spacing(),
       '& $card': {

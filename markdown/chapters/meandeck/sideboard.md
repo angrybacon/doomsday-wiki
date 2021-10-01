@@ -113,7 +113,7 @@ Some key examples of permanent removal to consider:
 - :card[Prismatic Ending]
 - :card[Force of Negation]
 
-:::row{variant=pile}
+:::row{variant=centered}
 - AD
 - Abrade
 - Prismatic Ending
@@ -139,7 +139,7 @@ Some key examples of creature removal to consider:
 - :card[Dead of Winter]
 - :card[Terminus]
 
-:::row{variant=pile}
+:::row{variant=centered}
 - StP
 - Fatal Push
 - Massacre
@@ -169,7 +169,7 @@ Some key examples of anti-blue to consider:
 - :card[Defense Grid]
 - :card[Teferi, Time Raveler]
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Silence
 - Pyroblast
 - Hope of Ghirapur
@@ -196,7 +196,7 @@ Some key examples of anti-combo to consider:
 - :card[Force of Negation]
 - :card[Lavinia, Azorius Renegade]
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Veil of Summer
 - Flusterstorm
 - Spell Pierce
@@ -229,7 +229,7 @@ Some key examples of anti-graveyard to consider:
 - :card[Faerie Macabre] (soft)
 - :card[Relic of Progrenitus] (soft)
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Leyline of the Void
 - Tormod's Crypt
 - Surgical Extraction
@@ -254,7 +254,7 @@ Some key examples of mana assets to consider:
 - B/x Splash duals like :card[Badlands] or :card[Bayou]
 - :card[Cabal Ritual]
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Carpet of Flowers
 - Cavern of Souls
 - Snow-Covered Plains
@@ -343,7 +343,7 @@ Examples of this archetype include:
 - Hogaak variants
 - {U}{B}{R} Phoenix
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Griselbrand
 - Dread Return
 - Ichorid
@@ -393,7 +393,7 @@ Examples of this archetype include:
 - Stryfo Pile
 - Jeskai Mentor
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Counterbalance
 - Standstill
 - Dack Fayden
@@ -451,7 +451,7 @@ Examples of this archetype include:
 - {U}{B} Shadow
 - {U}{W}{R} Ragavan Saga
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Delver of Secrets
 - Ragavan, Nimble Pilferer
 - Daze
@@ -487,7 +487,7 @@ Examples of this archetype include:
 - Goblins
 - Maverick
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Aether Vial
 - Green Sun's Zenith
 - Thalia, Guardian of Thraben
@@ -550,7 +550,7 @@ Examples of this archetype include:
 - Doomsday
 - High Tide
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Tendrils of Agony
 - Goblin Charbelcher
 - Dark Depths
@@ -588,7 +588,7 @@ Examples of this archetype include:
 - 12 Post
 - Steel Stompy
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Chalice of the Void
 - Blood Moon
 - Thoughtknot Seer
