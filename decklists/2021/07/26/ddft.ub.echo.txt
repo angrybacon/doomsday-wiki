@@ -1,5 +1,6 @@
 // Title: UB Doomsday Fetchland Tendrils feat. Echo of Eons
 // Authors: d8dk32
+// Colors: {U}{B}
 4 Tendrils of Agony
 4 Spoils of the Vault
 4 Echo of Eons

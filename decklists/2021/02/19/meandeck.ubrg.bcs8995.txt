@@ -1,5 +1,6 @@
 // Title: 4c Meandeck
 // Authors: BCS8995
+// Colors: {U}{B}{R}{G}
 2 Oko, Thief of Crowns
 3 Baleful Strix
 1 Thassa's Oracle

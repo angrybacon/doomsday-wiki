@@ -1,5 +1,6 @@
 // Title: Probe-less Doomsday Fetchland Tendrils
 // Authors: d8dk32
+// Colors: {U}{B}{R}
 4 Burning Wish
 3 Doomdsay
 1 Infernal Contract

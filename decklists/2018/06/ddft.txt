@@ -1,4 +1,5 @@
 // Title: Top-less Doomsday Fetchland Tendrils
+// Colors: {U}{B}{R}
 3 Doomsday
 4 Burning Wish
 1 Act On Impulse

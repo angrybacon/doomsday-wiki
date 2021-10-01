@@ -42,7 +42,7 @@ the scenarios. Doishy is watching and will add further commentary.
 
 The decklist:
 
-::decklist{path=2018/01/ddft.burg}
+::decklist{path=2018/01/ddft.ubrg}
 
 \* *Super-secret-shadowy-Doomsday-cabal (TM) might not exist...*
 

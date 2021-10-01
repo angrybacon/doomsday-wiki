@@ -1,5 +1,6 @@
 // Title: Doomsday Fetchland Tendrils
 // Authors: d8dk32
+// Colors: {U}{B}{R}{G}
 3 Doomsday
 3 Echo of Eons
 1 Tendrils of Agony

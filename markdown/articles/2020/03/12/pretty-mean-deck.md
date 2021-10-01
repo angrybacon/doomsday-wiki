@@ -269,9 +269,9 @@ where it will be at least a little more optimised than before. If you want some
 starting points for either list, see [Hulahula's][tcdecks:esper] and
 [Gre3n1T's][tcdecks:sultai] approaches, Esper and Sultai respectively.
 
-::decklist{path=2020/03/meandeck.buw}
+::decklist{path=2020/03/meandeck.wub}
 
-::decklist{path=2020/03/meandeck.bug}
+::decklist{path=2020/03/meandeck.ubg}
 
 [tcdecks:esper]: https://www.tcdecks.net/deck.php?id=33721&iddeck=299988
 [tcdecks:sultai]: https://www.tcdecks.net/deck.php?id=33454&iddeck=296642

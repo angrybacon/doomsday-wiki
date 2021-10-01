@@ -1,5 +1,6 @@
 // Title: Grixis Meandeck
 // Authors: Helvetti
+// Colors: {U}{B}{R}
 2 Street Wraith
 1 Thassa's Oracle
 4 Doomsday

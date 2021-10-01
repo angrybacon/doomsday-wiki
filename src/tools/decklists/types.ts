@@ -2,6 +2,7 @@ export type Card = [quantity: number, name: string];
 
 export interface Decklist {
   authors?: string;
+  colors?: string[];
   main: Card[][];
   side?: Card[][];
   title?: string;

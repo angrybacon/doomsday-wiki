@@ -1,5 +1,6 @@
 // Title: Sultai Meandeck
 // Authors: RonColpoCinese
+// Colors: {U}{B}{G}
 4 Baleful Strix
 2 Street Wraith
 1 Thassa's Oracle

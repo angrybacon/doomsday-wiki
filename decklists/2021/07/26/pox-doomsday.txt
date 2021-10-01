@@ -1,5 +1,6 @@
 // Title: Pox Doomsday
 // Authors: d8dk32
+// Colors: {B}
 4 Doomsday
 4 Dark Ritual
 1 Unearth

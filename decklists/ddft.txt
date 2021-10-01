@@ -1,4 +1,5 @@
 // Title: Doomsday Fetchland Tendrils
+// Colors: {U}{B}{R}{G}
 3 Echo of Eons
 4 Burning Wish
 3 Doomsday

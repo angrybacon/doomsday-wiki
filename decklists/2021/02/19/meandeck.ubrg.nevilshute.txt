@@ -1,5 +1,6 @@
 // Title: 4c Meandeck
 // Authors: Martin "nevilshute" Nielsen
+// Colors: {U}{B}{R}{G}
 3 Baleful Strix
 1 Thassa's Oracle
 3 Uro, Titan of Nature's Wrath

@@ -1,5 +1,6 @@
 // Title: Doomsday Fetchland Tendrils feat. Burning Wish
 // Authors: d8dk32
+// Colors: {U}{B}{R}
 1 Act on Impulse
 1 Ideas Unbound
 1 Laboratory Maniac

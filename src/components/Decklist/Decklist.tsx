@@ -8,11 +8,13 @@ import Typography from '@material-ui/core/Typography';
 import { mdiAccount, mdiCalendar, mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Column } from '@/components/Decklist/Column';
+import { Mana } from '@/components/Mana/Mana';
 import type { Card } from '@/tools/decklists/types';
 import { useStyles } from './Decklist.styles';
 
 export interface Props {
   authors?: string;
+  colors?: string[];
   date?: string;
   main: Card[][];
   side?: Card[];
@@ -21,6 +23,7 @@ export interface Props {
 
 export const Decklist: FunctionComponent<Props> = ({
   authors,
+  colors,
   main,
   date,
   side,
@@ -34,25 +37,43 @@ export const Decklist: FunctionComponent<Props> = ({
           classes={{ content: classes.summary, root: classes.gutters }}
           expandIcon={<Icon path={mdiChevronDown} size={1} />}
         >
-          <Typography variant="body2">{title}</Typography>
-          <Typography
-            className={classes.subtitle}
-            color="textSecondary"
-            variant="caption"
-          >
-            {authors && (
-              <Box alignItems="center" display="flex">
-                <Icon path={mdiAccount} size={0.7} />
-                <span>{authors}</span>
+          <Box alignItems="center" display="flex">
+            {!!colors?.length && (
+              <Box
+                alignItems="center"
+                display="flex"
+                fontSize="caption.fontSize"
+                mr={0.5}
+              >
+                {colors.map((color, index) => (
+                  // eslint-disable-next-line react/no-array-index-key
+                  <Mana key={index} pattern={color} />
+                ))}
               </Box>
             )}
-            {date && (
-              <Box alignItems="center" display="flex">
-                <Icon path={mdiCalendar} size={0.7} />
-                <span>{date}</span>
-              </Box>
-            )}
-          </Typography>
+            <Typography variant="body2">{title}</Typography>
+          </Box>
+          {(authors || date) && (
+            <Box
+              className={classes.subtitle}
+              color="text.secondary"
+              fontSize="caption.fontSize"
+              mt={1}
+            >
+              {authors && (
+                <Box alignItems="center" display="flex">
+                  <Icon path={mdiAccount} size={0.7} />
+                  <span>{authors}</span>
+                </Box>
+              )}
+              {date && (
+                <Box alignItems="center" display="flex">
+                  <Icon path={mdiCalendar} size={0.7} />
+                  <span>{date}</span>
+                </Box>
+              )}
+            </Box>
+          )}
         </AccordionSummary>
         <AccordionDetails className={c(classes.details, classes.gutters)}>
           <Box display="flex" flex={2}>

@@ -1,5 +1,6 @@
 // Title: Spaghetti and Meatballs
 // Authors: Doishy
+// Colors: {U}{B}{G}
 4 Brainstorm
 1 Cloud of Faeries
 4 Dark Ritual

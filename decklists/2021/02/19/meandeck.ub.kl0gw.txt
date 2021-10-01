@@ -1,5 +1,6 @@
 // Title: UB Meandeck
 // Authors: kl0gW
+// Colors: {U}{B}
 4 Street Wraith
 1 Thassa's Oracle
 4 Doomsday

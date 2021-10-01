@@ -1,4 +1,5 @@
 // Title: Doomsday Experimental Frenzy
+// Colors: {U}{B}{R}
 4 Doomsday
 4 Experimental Frenzy
 1 Thassa's Oracle

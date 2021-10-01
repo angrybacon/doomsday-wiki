@@ -34,7 +34,7 @@ bad, so I leaned further into the storm side of the deck. The final innovation
 came after I was convinced that Veil of Summer was worth contorting the mana to
 include. When all was said and done, I ended up on this:
 
-::decklist{path=2020/01/ddft.burg}
+::decklist{path=2020/01/ddft.ubrg}
 
 ## Playing the Deck
 

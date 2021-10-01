@@ -1,5 +1,6 @@
 // Title: Grixis Meandeck
 // Authors: Marcus "Iwouldliketorespond" Ewaldh
+// Colors: {U}{B}{R}
 4 Baleful Strix
 1 Thassa's Oracle
 4 Doomsday

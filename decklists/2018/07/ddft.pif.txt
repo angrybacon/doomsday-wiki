@@ -1,5 +1,6 @@
 // Title: Doomsday Fetchland Tendrils feat. Past in Flames
 // Authors: d8dk32
+// Colors: {U}{B}{R}
 2 Doomsday
 4 Infernal Tutor
 1 Tendrils of Agony

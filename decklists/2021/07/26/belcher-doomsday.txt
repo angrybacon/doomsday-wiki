@@ -1,5 +1,6 @@
 // Title: Belcher Doomsday
 // Authors: d8dk32
+// Colors: {U}{B}{R}{G}
 3 Empty the Warrens
 4 Goblin Charbelcher
 4 Burning Wish

@@ -1,5 +1,6 @@
 // Title: Doishy's Doomsday Fetchland Tendrils
 // Authors: Doishy
+// Colors: {U}{B}{R}{G}
 3 Doomsday
 4 Burning Wish
 4 Ponder

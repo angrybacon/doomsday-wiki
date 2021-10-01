@@ -1,5 +1,6 @@
 // Title: Doomsday Fetchland Tendrils - Legacy Classic
 // Authors: d8dk32
+// Colors: {U}{B}{R}
 3 Doomsday
 4 Burning Wish
 1 Act on Impulse

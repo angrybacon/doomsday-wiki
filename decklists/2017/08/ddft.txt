@@ -1,4 +1,5 @@
 // Title: Miracles-era Doomsday Fetchland Tendrils
+// Colors: {U}{B}{R}{G}
 3 Doomsday
 3 Burning Wish
 1 Ideas Unbound
