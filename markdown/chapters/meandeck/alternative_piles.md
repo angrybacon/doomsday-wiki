@@ -10,6 +10,7 @@ could include spicy main deck choices or the use of certain
 sideboard cards and is here to make you aware of how some of these
 tools are utilised in the wild. 
 
+DA in hand piles
 
 Shelly x Emmy
 
