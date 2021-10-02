@@ -9,10 +9,10 @@ title: Doomsday at the Legacy Pit Open - An Interview with RomarioVidal
 ## Preface
 
 Last weekend (weekend of September the 18th 2021) The Legacy Pit hosted the
-Legacy Pit Open, a large competetive event for Legacy in the US. The event was
+Legacy Pit Open; a large, competitive event for Legacy in the US. The event was
 very successful and a number of people have already written reports / write ups
-of their tournament experience. A number of archetypes were represented
-including a number of people out to jam some Doomsday in paper. We approached
+of their tournament experience. Various archetypes were represented
+including a fair few people out to jam some Doomsday in paper. We approached
 those who were part of the online community and asked if anyone was willing to
 write up a report of their event and we had a brilliant response with 4 pilots
 submitting reports for this article and 1 of them even offering to talk over the
@@ -38,7 +38,7 @@ deck choice decisions, the event itself and future thoughts including how
 under 2 hours (1 hour 49 minutes) and has been cleaned up to hopefully make it
 palatable for the ears. Currently it is only available on Youtube because
 unfortunately the payment model on SoundCloud means we cannot upload any
-additional content on there without paying for the priviledge. Please do have a
+additional content on there without paying for the privilege. Please do have a
 listen if you have time!
 
 :youtube{id=PHycYczJ_dk}
@@ -138,7 +138,7 @@ Creator], I let it resolve even though I had :card[Force of Negation],
 - Urza, Lord High Artificer
 :::
 
-#### Round 4 vs Tony *Into_Play* Murate on Mono Green Cloudpost. Win (2-0)
+#### Round 4 vs Tony *Into_Play* Murata on Mono Green Cloudpost. Win (2-0)
 
 This round I played against the great and powerful Tony Murata aka into_play on
 mtgo, well known caster of :card[Primeval Titan]s.
