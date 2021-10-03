@@ -5,6 +5,7 @@ export type Category = 'appendices' | 'ddeft' | 'meandeck' | 'ddft';
 
 export interface CategoryMeta {
   icon?: string;
+  id?: Category;
   subtitle?: string;
   title: string;
 }
@@ -13,6 +14,7 @@ export interface Document {
   crumbs: string[];
   data?: GrayMatterFile<string>['data'];
   route: string;
+  slug: string;
 }
 
 export type Menu = (CategoryMeta & { pages: Document[] })[];

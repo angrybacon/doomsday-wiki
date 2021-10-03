@@ -1,4 +1,6 @@
+import c from 'classnames';
 import NextLink from 'next/link';
+import { useRouter } from 'next/router';
 import React, {
   ElementType,
   FunctionComponent,
@@ -27,9 +29,10 @@ type Props = CategoryMeta & { children?: never } & (
 export const Entry: FunctionComponent<Props> = forwardRef<
   HTMLDivElement,
   Props
->(({ icon, pages, subtitle, title, ...rest }, ref) => {
+>(({ icon, id, pages, subtitle, title, ...rest }, ref) => {
+  const { query } = useRouter();
   const classes = useStyles();
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(id === query.category);
   const hasPages = !!pages?.length;
 
   /** Toggle the drawer in mobile viewport. */
@@ -65,9 +68,16 @@ export const Entry: FunctionComponent<Props> = forwardRef<
         <Collapse in={isOpen} timeout="auto" unmountOnExit>
           <Divider />
           <List className={classes.pages} component="div" dense>
-            {pages?.map(({ data, route }) => (
+            {pages?.map(({ data, route, slug }) => (
               <NextLink href={route} key={`page-${route}`} passHref>
-                <ListItem button component="a">
+                <ListItem
+                  button
+                  className={c({
+                    [classes.selected]:
+                      id === query.category && slug === query.chapter,
+                  })}
+                  component="a"
+                >
                   <ListItemText primary={data?.title || route} />
                 </ListItem>
               </NextLink>

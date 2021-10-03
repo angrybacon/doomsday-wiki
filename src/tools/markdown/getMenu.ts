@@ -21,6 +21,6 @@ export const getMenu: GetMenu = () => {
   );
   return MENU_ENTRIES.map((category) => {
     const { icon, subtitle, title } = MENU_DECORATIONS[category];
-    return { icon, subtitle, title, pages: menu[category] };
+    return { icon, id: category, subtitle, title, pages: menu[category] };
   });
 };

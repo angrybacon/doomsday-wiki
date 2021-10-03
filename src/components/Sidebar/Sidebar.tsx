@@ -62,7 +62,7 @@ export const Sidebar: FunctionComponent<Props> = ({
       <Divider />
       <List component="nav" dense>
         {menu.map((entry) => (
-          <Entry key={`entry-${entry.title}`} {...entry} />
+          <Entry key={`entry-${entry.id}`} {...entry} />
         ))}
         <NextLink href="/articles" passHref>
           <Entry

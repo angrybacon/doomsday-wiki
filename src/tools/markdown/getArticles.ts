@@ -34,12 +34,12 @@ export const getArticles: GetArticles = async (options) => {
     if (crumbs.length === 4) {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
       let { data } = readMarkdown(path);
-      const [year, month, day] = crumbs;
+      const [year, month, day, slug] = crumbs;
       // NOTE Warm up Scryfall query in a temporary key to be resolved later
       const bannerPromise = data.banner ? scry(data.banner) : null;
       data = { ...data, bannerPromise, date: formatDate(year, month, day) };
       const route = ['/articles', ...crumbs].join('/');
-      return [...accumulator, { crumbs, data, route }];
+      return [...accumulator, { crumbs, data, route, slug }];
     }
     return accumulator;
   }, []);

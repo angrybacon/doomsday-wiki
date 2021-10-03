@@ -8,5 +8,8 @@ export const useStyles = makeStyles((theme: Theme) =>
     pages: {
       backgroundColor: theme.palette.background.default,
     },
+    selected: {
+      backgroundColor: theme.palette.action.focus,
+    },
   })
 );

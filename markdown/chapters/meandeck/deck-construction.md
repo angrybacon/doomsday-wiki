@@ -498,8 +498,8 @@ turn wins when you need them.
 ### 5.1 Deckbuilding Ratios - Cantrips
 
 Most lists run around eleven cantrip effects, not including free cycle effects
-or other pile cards like Predict. This is generally a 4:4:3 split of
-Brainstorm:Ponder:Preordain with the Preordain slot being the one that changes.
+or other pile cards like Predict. This is generally a 4/4/3 split of
+Brainstorm/Ponder/Preordain with the Preordain slot being the one that changes.
 It's a very flexible slot and can be replaced by any number of things including
 interaction, free cycle effects or tutor effects. If you are unsure on what
 style of list you wish to play it is likely better to run the full twelve
