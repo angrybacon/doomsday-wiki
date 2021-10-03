@@ -4,6 +4,10 @@ order: 0
 title: The Basics
 ---
 
+## Table of Contents
+
+## Preamble
+
 The goal of all Magic decks is to win the game. :card[Doomsday] aims to do so by
 casting its namesake card and constructing a *pile* of 5 cards tailored to the
 current game state. While it would be nigh impossible to enumerate every game

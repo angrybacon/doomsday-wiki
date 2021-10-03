@@ -12,8 +12,9 @@ import type { Variant } from '@material-ui/core/styles/createTypography';
  */
 const variants: Variant[] = ['h2', 'h2', 'h2', 'h3', 'h4', 'h5', 'h6'];
 
-export const RemarkHeading: HeadingComponent = ({ children, level }) => (
-  <Typography gutterBottom variant={variants[level]}>
+export const RemarkHeading: HeadingComponent = ({ children, id, level }) => (
+  // NOTE The `id` property comes from `remark-slug`
+  <Typography gutterBottom id={id} variant={variants[level]}>
     {children}
   </Typography>
 );

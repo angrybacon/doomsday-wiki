@@ -3,6 +3,10 @@ order: 4
 title: Doomsday Versus Hate
 ---
 
+## Table of Contents
+
+## Preamble
+
 Part of the appeal of Doomsday as a card and as a deck is its flexibility.
 Doomsday allows you to tutor up just the right set of five cards to pull out a
 win from a wide variety of situations. Some hate that other storm combo decks
@@ -34,7 +38,7 @@ Spell Pierce, you can beat them by simply having extra mana, via rituals or
 plenty of lands. What can you do though if they have "harder" counters that you
 can't get rid of?
 
-### Example 1
+**Example 1**
 
 One thing to consider is using a pass-the-turn pile. Lets say your opponent lets
 you resolve Doomsday but still has a Force of Will. You could use a
@@ -55,7 +59,7 @@ then Ponder into the rest of the pile to win with Oracle. This type of pile can
 work against many kinds of interaction, but it's really only effective if they
 have just one card you care about.
 
-### Example 2
+**Example 2**
 
 Another option if your opponent has something like Flusterstorm is to avoid
 casting lots of instants and sorceries. If you're playing multiple :card[Street
@@ -77,7 +81,7 @@ another Fluster-able spell after Doomsday, or if you have a cantrip in hand you
 can do it all in one turn and hope they don't counter the cantrip. If they do,
 simply win next turn.
 
-### Example 3
+**Example 3**
 
 What about something like Pyroblast? Ideas Unbound and Thassa's Oracle are both
 blue, so this poses some difficulty. Fortunately, the sideboard gives us some
@@ -98,7 +102,7 @@ pile, and you can storm off without ever casting a blue spell. The life cost is
 hefty, since you halve your life total twice and then pay 2 life, but the key
 point here is that it is possible.
 
-### Example 4
+**Example 4**
 
 How about Stifle? Stifle is unaffected by Veil of Summer, stops both ways you'd
 try to win (Oracle and storm), but it won't stop you from drawing your pile.
@@ -128,7 +132,7 @@ are a powerful weapon against discard. They don't need to rely on cards in hand
 after Doomsday, and they require minimal initial input, i.e. a single hardcast
 Doomsday may be all you need.
 
-### Example 1
+**Example 1**
 
 > {U}{U}, 2 life
 
@@ -144,7 +148,7 @@ You've seen this pile before, but we bring it up again here for its simplcity.
 It is efficient and requires no cards in hand, making it invulnerable to
 discard.
 
-### Example 2
+**Example 2**
 
 >  Echo, 1 other card in hand - {0}
 

@@ -3,6 +3,10 @@ order: 3
 title: Using Echo of Eons in Piles
 ---
 
+## Table of Contents
+
+## Preamble
+
 Echo of Eons is a comparatively recent addition to the DDFT arsenal, and is
 quite powerful and flexible. A deck like The Epic Storm uses it as an
 alternative Storm engine, and while we can use it that way too, it has some very
@@ -16,7 +20,7 @@ some of the unique aspects about Echo piles, but let's start from the beginning.
 
 ## Basic Echo Piles
 
-### Example 1
+**Example 1**
 
 There are only 5 cards in a pile, and Echo makes you draw 7. This means you'll
 need 2 more cards. Echo does not count, as flashback will exile it. One of those
@@ -55,7 +59,7 @@ even have any interaction, and there are techniques to be used against those
 that do, but for now we will pretend this isn't a factor and simply focus on how
 the piles work.
 
-### Example 2
+**Example 2**
 
 > Echo, Ponder in hand - {B}{B}{B} + {U}
 
@@ -76,7 +80,7 @@ that it can be used just as easily to win in Echo piles.
 What happens when you aren't so lucky to have exactly 7 cards left over? Lets
 take a look at an example.
 
-### Example 1
+**Example 1**
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
@@ -98,7 +102,7 @@ be missing one piece, and if you are, then the Ponder will be in your hand to
 find it. Cast Ponder, draw the missing piece, and then play out the LEDs and
 wish for Tendrils.
 
-### Example 3
+**Example 3**
 
 Sometimes it is tough to avoid a bit of non-determinism when you have multiple
 extra cards in hand.
@@ -125,7 +129,7 @@ great, There are 2 cards left, so if the Oracle survives, you win. But there are
 Luckily, the chances of success with this pile is approximately 90%. These odds
 are good enough that you should take the chance almost every time.
 
-### Example 4
+**Example 4**
 
 Echo can be used in manner similar to Brainstorm, to move cards in your hand
 into the pile.
@@ -147,7 +151,7 @@ able to cast the discard spell for protection before casting Oracle.
 
 ## Extra Fancy
 
-### Example 1
+**Example 1**
 
 It is possible to use multiple Echoes to build very high storm counts, enabling
 you to kill with :card[Grapeshot]

@@ -2,12 +2,16 @@
 title: Interesting Interactions
 ---
 
+## Table of Contents
+
+## Preamble
+
 This appendix describes important card interactions that may not be obvious to a
 Doomsday beginner.
 
 ## Your Interactions
 
-### :card[Act on Impulse]
+### Act on Impulse
 
 Exiling cards doesn't count as drawing, so you cannot lose (or win) by casting
 an AoI when 2 cards remain in your library. Cards exiled with Act on Impulse can
@@ -15,18 +19,18 @@ be cast, but their activated abilities cannot be used as if they were in your
 hand. For example, a Street Wraith cannot be cycled from an Act on Impulse
 exile.
 
-### :card[Cavern of Souls]
+### Cavern of Souls
 
 For Thassa's Oracle this can name Merfolk or Wizard. This will let you cast an
 Oracle through Chalice of the Void on X=2.
 
-### :card[Conjurer's Bauble]
+### Conjurer's Bauble
 
 Only target a card if you must, never do it just for value, because if the
 targeted card is removed from the graveyard by your opponent then the bauble
 activation will fizzle and you will not draw a card.
 
-### :card[Chromatic Sphere]
+### Chromatic Sphere
 
 Chromatic Sphere's activated ability is a mana ability. Mana abilities do not go
 on the stack, therefore your opponent cannot respond to this activation.
@@ -35,18 +39,18 @@ Maniac piles because you can play Chromatic Sphere, Laboratory Maniac, and then
 activate Chromatic Sphere without your opponent having priority to cast their
 removal.
 
-### :card[Daze]
+### Daze
 
 If you have a land drop available. You can use Daze to generate additional mana
 by playing a *dead* card like Dark Ritual in order to return an Island to enable
 generation of two blue mana.
 
-### :card[Doomsday]
+### Doomsday
 
 Doomsday rounds up the life loss so casting it at 1 life will result in you
 losing.
 
-### :card[Lake of the Dead]
+### Lake of the Dead
 
 Lake of the Dead does not enter the battlefield until after a swamp is
 sacrificed. Therefore, it is not possible to do any tricks like activating it in
@@ -55,7 +59,7 @@ activate this card, and those swamps will be sacrificed by playing and
 activating it. Lake of the Dead's activation is a mana ability and does not go
 on the stack either.
 
-### :card[Lion's Eye Diamond]
+### Lion's Eye Diamond
 
 As in any Storm deck, LED can be cracked in response to draw effects and
 cantrips such as Brainstorm, Ponder, Preordain, and Conjurer's Bauble. Holding
@@ -64,19 +68,19 @@ discard your hand but still have the mana as you draw in to the next card of
 your library. Failing to announce that you are holding priority will prevent you
 to get the LED mana before you draw the cards.
 
-### :card[Predict]
+### Predict
 
 This can target the opponent but can be stopped by Veil of Summer if you use
 choose to do so.
 
-### :card[Thassa's Oracle]
+### Thassa's Oracle
 
 Oracle checks the devotion on resolution so if you have cards left in your
 library and your opponent kills the Oracle, you will have no devotion and not
 win the game. The Oracle checks on an equal to or less than basis so if you have
 no devotion and no cards in your library you will still win the game.
 
-### :card[Veil of Summer]
+### Veil of Summer
 
 Veil of Summer will prevent any Thought Scour or Predict effects from targeting
 you. Conversely, it will not stop Mindbreak Trap, Stifle or Surgical Extraction
@@ -87,13 +91,13 @@ will also let you play cards through a Chalice of the Void.
 ## Opponent Interactions
 
 
-### :card[Aven Mindcensor], :card[Shadow of Doubt]
+### Aven Mindcensor, Shadow of Doubt
 
 If there is an Aven Mindcensor on the board, a resolved Doomsday will be able to
 search only the top 4 cards of the library and the entire graveyard. Selecting 1
 card from the top 4 does not allow you to dig one deeper in to your library.
 
-### :card[Echo of Eons]
+### Echo of Eons
 
 If playing against a known Echo deck try to make sure you have at least 8 cards
 spread across your hand, library and graveyard to avoid them being able to Echo
@@ -101,7 +105,7 @@ you to death. You should have a minimum of 6 from the Doomsday in your graveyard
 and your 5 card pile so having an extra 2 cards in hand or some uncracked
 fetches and/or lotus petals in play can help achive this.
 
-### :card[Flickerwisp]
+### Flickerwisp
 
 An opponent can cause headaches with an Aether Vial on 3 and a Flickerwisp in
 hand, since they are able to exile cards at critical times in your sequencing.
@@ -109,13 +113,13 @@ The disruptive cards that Flickerwisp can exile are LED, Conjurer's Bauble,
 Chromatic Sphere, Laboratory Maniac, or even a land in response to an unresolved
 Rain of Filth on the stack or to deny a Massacre alternative casting.
 
-### :card[Opposition Agent]
+### Opposition Agent
 
 Casting Doomsday into an active Opposition Agent will result in your opponent
 getting to look for 5 cards in your deck and you exiling the rest. Unless Oracle
 is in your hand this will mostly result in your loss.
 
-### :card[Pithing Needle]
+### Pithing Needle
 
 Pithing needle cannot stop LED, Lotus Petal, Chromatic Sphere, or Doomsday.
 
@@ -125,32 +129,32 @@ Pithing needle cannot stop LED, Lotus Petal, Chromatic Sphere, or Doomsday.
 Pithing needle can stop Conjurer's Bauble, cyclers like Street Wraith and
 fetchlands.
 
-### :card[Phyrexian Revoker]
+### Phyrexian Revoker
 
 Phyrexian Revoker can stop LED, Lotus Petal, Chromatic Sphere, Conjurer's Bauble
 and cyclers like Street Wraith. It cannot hit fetchlands nor Shelldock Isle.
 
-### :card[Grindstone], :card[Predict], :card[Thought Scour], :card[Surgical Extraction]
+### Grindstone, Predict, Thought Scour, Surgical Extraction
 
 These cards have the ability to disturb the ordering or contents of your library
 at instant speed, when you draw in to your pile.
 
-### :card[Portent]
+### Portent
 
 Can reorder your library at sorcery speed. Interferes with PTT piles.
 
-### :card[Show and Tell]
+### Show and Tell
 
 If against Show and Tell you can build a pile that, if they cast a Show and
 Tell, you can cycle and put Oracle into play from it, winning with the trigger.
 
-### :card[Skyclave Apparition]
+### Skyclave Apparition
 
 Remember that Death and Taxes can present removal by having an Aether Vial set
 to 3, even if they have no mana open Be careful if considering a pile with cards
 remaining in your library.
 
-### :card[Stifle], :card[Trickbind]
+### Stifle, Trickbind
 
 Can stop Conjurer's Bauble activations, Tendrils of Agony and Empty the Warrens
 Storm triggers, as well as fetchlands, cyclers like Street Wraith and Thassa's

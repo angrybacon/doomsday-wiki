@@ -3,6 +3,10 @@ order: 5
 title: Uncommon Piles
 ---
 
+## Table of Contents
+
+## Preamble
+
 There are a number of less commonly used ways to win the game after Doomsday.
 These may no longer be as relevant as they once were, or simply may not come up
 often enough in practice to be worth devoting a whole page to, but they are
@@ -75,7 +79,7 @@ yourself needing to draw multiple cards over multiple turns to deal with such
 situations. Thassa's Oracle provides a cheap, clean wincon in these types of
 situations. Lets look at a few example:
 
-### Example 1
+**Example 1**
 
 > Tropical Island, Underground Sea on board, no cantrips in hand, Opponent has
 > Chalice@2 - {B}{G} + {U}{U}
@@ -102,7 +106,7 @@ tutoring power to find a solution to the Chalice locking your wincons.
 With this pile, you can even pass 1-2 more turns to draw mana to cast Oracle, if
 for example you got hit with Wasteland.
 
-### Example 2
+**Example 2**
 
 > No mana on board, no cards in hand - {0}, 2 life
 
@@ -124,7 +128,7 @@ How did you find yourself in this position? Maybe you cast Doomsday using Lotus
 Petal and Dark Ritual. Let's not think too hard about it. The point is that if
 you pass 2 turns, you can win from literally nothing but a couple life.
 
-### Example 3
+**Example 3**
 
 > Plenty of lands/mana on board - {B}{B}{B}{B}{U}{U}
 
@@ -151,7 +155,7 @@ type of pile was a reasonable option though you are unlikely to encounter such a
 situation in the wild; for example, your opponent has a :card[Leyline of
 sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
 
-### Example 1
+**Example 1**
 
 > Ponder, LED, LED in hand - {B}{B}{B} + {U} - 6 Storm
 
@@ -168,7 +172,7 @@ retrieves Empty the Warrens. The remainder of the pile is discard or other
 interactive spells, to ensure your opponent can't deal with the goblins before
 they deal with your opponent.
 
-### Example 2
+**Example 2**
 
 > Ponder, LED in hand - {B}{B}{B} + {1}{U} + {B}{B}{B} - 8 Storm
 
@@ -193,7 +197,7 @@ know the types of things it can do. Some of this is also discussed in the
 [original article](/articles/2020/03/21/the-mindkiller/) about Mindkiller
 Doomsday, but is included here for the sake of completeness.
 
-### Example 1
+**Example 1**
 
 > {B}{U}{U}, 3 life
 
@@ -213,7 +217,7 @@ Trap, Deafening Silence, Endurance, Narset and Leovold, etc., and can play
 through a Thalia for minimal additional mana. What is more, it leaves you with
 an empty library so removal is ineffective.
 
-### Example 2
+**Example 2**
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} + 3 life
 
@@ -251,7 +255,7 @@ untapped by Time Spiral.
 
 A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
-### Example 1
+**Example 1**
 
 > 2 cards in hand - {1}{U}{U}{R} + ({1}{R}) - 9 Storm
 

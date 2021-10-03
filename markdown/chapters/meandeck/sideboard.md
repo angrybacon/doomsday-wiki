@@ -4,6 +4,10 @@ order: 4
 title: General Sideboard Principles
 ---
 
+## Table of Contents
+
+## Preamble
+
 In this chapter we will present the concepts and elements to consider when
 building your sideboard and against some of the more resilient archetypes to
 meta shifts. Obviously with new printings or different metagames these concepts
@@ -76,7 +80,7 @@ We will be discussing the following categories:
 1. Mana assets
 1. Alternate win conditions
 
-#### 1. Permanent Removal
+#### Permanent Removal
 
 Permanent removal is anything that can deal with hateful interaction such as
 :card[Chalice of the Void], :card[Deafening Silence], :card[Counterbalance],
@@ -121,7 +125,7 @@ Some key examples of permanent removal to consider:
 - Pernicious Deed
 :::
 
-#### 2. Creature Removal
+#### Creature Removal
 
 Creature removal is normally more dedicated for just creatures. A lot of the
 tools listed above can also be used to remove them but below are some of the
@@ -147,7 +151,7 @@ Some key examples of creature removal to consider:
 - Terminus
 :::
 
-#### 3. Anti-Blue
+#### Anti-Blue
 
 These are cards that tend to be biased towards stopping blue-based strategies
 from interacting favourably. Some may have relevance in other matchups but that
@@ -177,7 +181,7 @@ Some key examples of anti-blue to consider:
 - Xantid Swarm
 :::
 
-#### 4. Anti-Combo
+#### Anti-Combo
 
 These are cards that tend to be geared towards preventing other proactive combo
 decks from initiating or implementing their plans. They tend to be cheap
@@ -204,7 +208,7 @@ Some key examples of anti-combo to consider:
 - Force of Negation
 :::
 
-#### 5. Anti-Graveyard
+#### Anti-Graveyard
 
 These are cards designed to interact with the graveyard. They tend to remove
 cards from a graveyard, either in a targeted or non-targeted fashion. They
@@ -237,7 +241,7 @@ Some key examples of anti-graveyard to consider:
 - Grafdigger's Cage
 :::
 
-#### 6. Mana Assets
+#### Mana Assets
 
 These are cards that help reinforce your manabase in some way. They may be an
 extra instance of a splash colour, additional basis to fight against Wasteland
@@ -262,7 +266,7 @@ Some key examples of mana assets to consider:
 - Bayou
 :::
 
-#### 7. Alterate Win Conditions
+#### Alternate Win Conditions
 
 These are cards that can provide an alternate way to win that supplements the
 primary Doomsday plan or, in the case of a complete *transformative sideboard*
@@ -459,7 +463,7 @@ Examples of this archetype include:
 - Glistener Elf
 :::
 
-### Creature Based Strategies
+### Creature-Based Strategies
 
 These look to both disrupt and pressure the opponent via a large creature
 presence. Often these decks rely on tools like Aether Vial or Green Sun's Zenith

@@ -11,7 +11,7 @@ export interface Props extends ReactMarkdownProps {
 export const RemarkCard: FunctionComponent<Props> = ({ name }) => {
   if (!name) return null;
   return (
-    <Link external href={`${SCRYFALL_SEARCH}?q=!${name}`}>
+    <Link external href={`${SCRYFALL_SEARCH}?q=!"${name}"`}>
       {name}
     </Link>
   );

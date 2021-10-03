@@ -3,6 +3,10 @@ order: 6
 title: Winning Without Doomsday
 ---
 
+## Table of Contents
+
+## Preamble
+
 One advantage that DDFT has over other Doomsday variants is that it can reliably
 win without casting the namesake card, and can even do it quickly. This can be a
 big deal, since it means you have options. You don't fold to a single

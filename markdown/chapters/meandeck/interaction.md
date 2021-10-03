@@ -4,6 +4,10 @@ order: 2
 title: Playing Around Interaction
 ---
 
+## Table of Contents
+
+## Preamble
+
 Part of the appeal of Doomsday as a card and as a deck is its flexibility.
 Doomsday allows you to tutor up just the right set of five cards to pull out a
 win from a wide variety of situations. Some hate that other combo decks would
@@ -26,7 +30,7 @@ We will consider the following types of interaction for this chapter:
 1. Shuffle Effects
 1. The Kitchen Sink (Everything Else)
 
-## 1. Playing Around Removal
+## Playing Around Removal
 
 ### Cheating on Devotion
 
@@ -118,7 +122,7 @@ Consider the following:
 1. Land Polluted Delta and fetch the Island
 1. Cycle SW and play TO with 0 remaining cards
 
-## 2. Playing Around / Through Countermagic
+## Playing Around / Through Countermagic
 
 When trying to resolve Doomsday, a lot of people will try and fight over the
 Doomsday itself however there are some circumstances where you should try and
@@ -290,7 +294,7 @@ your pile and, when combined with Baleful Strix, can function as pseudo draw 2
 or 3. You can use this draw to replace a cantrip slot in any of the piles
 already explained.
 
-## 3. Playing Around/Through Permanent-Based Interaction
+## Playing Around / Through Permanent-Based Interaction
 
 ### Chalice of the Void
 
@@ -478,7 +482,7 @@ the graveyard. The only way to really beat a resolved agent is if you already
 have Oracle castable in hand, hopefully using Cavern of Souls otherwise the
 opponent could search for five counterspells to try and stop you.
 
-## 4. Playing Around Shuffle Effects
+## Playing Around Shuffle Effects
 
 Shuffle effects can be one annoyance to face when building a pile that would
 otherwise have perfect ordering to it. There are some examples that you could
@@ -554,7 +558,7 @@ ensure you are able to see all the cards within the deck and not die to drawing
 too deep with Brainstorm. Even if they do not use Surgical you can still just
 cycle twice and play Oracle with a library of two cards.
 
-## 5. Everything Else to Consider
+## Everything Else to Consider
 
 As you get more matches under your belt with the deck you will start to face
 more and more interaction that might seem a surprise or unexpected. I will try

@@ -2,6 +2,10 @@
 title: Removal Tables
 ---
 
+## Table of Contents
+
+## Preamble
+
 Below are a series of tables detailing various options for artifact removal and
 the costs associated with removing common artifacts. This will be updated as
 new, effective, options are released.

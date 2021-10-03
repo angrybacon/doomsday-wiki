@@ -4,13 +4,17 @@ order: 3
 title: Deck Construction Principles
 ---
 
+## Table of Contents
+
+## Preamble
+
 Because of how flexible and versatile the Meandeck shell is, and how relatively
 compact the combo can be, there is a lot of potential variance to be found in
 terms of deck construction. Because of this, combined with individual pilot
 preferences, metagame shifts, new printings, meta changes and general brewing,
 it is almost impossible to simply list a *default deck* to start from and try
 online or at a local event. If you do wish to find a decklist to start with,
-consider checking out the #decklists-archive channel in the [Doomsday
+consider checking out the `#decklists-archive` channel in the [Doomsday
 Discord][discord] for the most recent successful lists people are trying out.
 
 Because of this, in this chapter instead of presenting just a decklist and
@@ -23,16 +27,9 @@ We will start by exploring the main card groups which are incorporated into the
 archtype and then look to explore what considerations are made when putting them
 together.
 
-There are 6 main groups of cards used.
+## Doomsday's
 
-1. Doomsdays
-1. Lands
-1. Mana Accelerants
-1. Interaction
-1. Cantrips
-1. Pile Cards
-
-## 1. Card Group - Doomsdays
+### Tutors
 
 The namesake of the deck, :card[Doomsday] is a requirement in all variants of
 the archetype. You will always need to have access to this as a four of in any
@@ -50,7 +47,7 @@ turns whilst LDV is slower but has more flexibility by avoiding :card[Chalice of
 the Void] set to X = 1, being an Instant and being able to *tutor* for cards
 other than Sorceries.
 
-:::row{variant=pile}
+:::row{variant=centered}
 - DD
 - PT
 - Lim-Dul's Vault
@@ -66,7 +63,7 @@ controlling one. There are many other options that could be considered like
 :card[Burning Wish], :card[Profane Tutor] or :card[Spoils of the Vault] however
 the majority of these have been found to not be effective.
 
-### 1.1 Deckbuilding Ratios - Doomsdays
+### Deckbuilding Ratios
 
 In terms of deckbuilding ratios. You should have at a minimum four copies of
 Doomsday. If you prefer a slower, more control style of play then you don't need
@@ -84,11 +81,13 @@ numbers of tutors balancing out. This isn't always the case but is the general
 rule of thumb. You could also consider decreasing interaction as some tutors can
 act as additional copies of those as well.
 
-## 2. Card Group - Lands
+## Lands
+
+### Land Choices
 
 As with the majority of the decks in Legacy, or Magic in general, lands are
 required in order to be able to cast your spells. Doomsday tends to be a deck
-centred around the {U}{B} colour pairing with occasionally secondary and
+centered around the {U}{B} colour pairing with occasionally secondary and
 tertiary splash colours being integrated in. The deck runs a fetchland manabase
 normally consisting of four copies of :card[Polluted Delta] and four to five
 additional *off-colour* fetches. The *off-colour* fetches tend to be the {U}
@@ -96,10 +95,10 @@ based splash fetch (where a splash is applicable) as the majority with
 ocassional incorporation of the {B} based splash fetch.
 
 For example: In a Grixis {U}{B}{R} based Doomsday list you might elect to run
-four Polluted Delta, three :card[Scalding Tarn] and one :card[Bloodstained Mire]
-as your fetchlands of choice.
+four :card[Polluted Delta], three :card[Scalding Tarn] and one
+:card[Bloodstained Mire] as your fetchlands of choice.
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Polluted Delta
 - Scalding Tarn
 - Bloodstained Mire
@@ -118,7 +117,7 @@ of. Some very aggressive lists which have started to forgo basic lands entirely
 are option to run four Seas and a copy of :card[Watery Grave] as a pseudo fifth
 copy. In this instance, if no basic lands are being run, the fetchland
 configuration can be changed to run any combination of {U}/x or {B}/x
-fetchlands. (Diversification is important to avoid :card[Pithing Needle] type
+fetchlands. Diversification is important to avoid :card[Pithing Needle] type
 effects. Conversely, in a more control-based list this can drop down as far as
 only one or two copies of Underground Sea with an Island dominant manabase being
 favoured with copies of :card[Urborg, Tomb of Yawgmoth] being run as a mana
@@ -131,14 +130,14 @@ For example: In a BUG {B}{U}{G} based Doomsday list you might elect to run three
 Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
 lands of choice.
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Underground Sea
 - Tropical Island
 - Bayou
 :::
 
 The final land type to discuss (for this section) is your basic land count.
-Traditionally only two to three basics were run normally in a 2:1 ratio of
+Traditionally only two to three basics were run normally in a 2-1 ratio of
 Island to Swamp. More recently though some are opting to run only one of each,
 some only the Island and others (as mentioned above) are opting to run no basic
 lands at all. If you want to opt for a more control style build then you will
@@ -149,13 +148,13 @@ forest however in the heavier control builds it might be worthwhile.
 For example: In an Esper {W}{U}{B} based Doomsday list you might elect to run
 two Islands, two Swamps and one Plains as your basic lands of choice.
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Island|RAV
 - Swamp|RAV
 - Plains|RAV
 :::
 
-### 2.1 Deckbuilding Ratios - Lands
+### Deckbuilding Ratios
 
 The majority of Doomsday lists like to run between fourteen and seventeen lands
 as part of their core manabase. The number tends to decrease with a more
@@ -174,7 +173,7 @@ Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, straight {U}{B} *Turbo* manabase, a more
 balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 
-#### {U}{B} *Turbo*
+**{U}{B} Turbo**
 
 - 2 Polluted Delta
 - 2 Flooded Strand
@@ -187,7 +186,7 @@ balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 If you were to run a splash colour you could replace the Island with the {U}/x
 dual land of the appropriate type here.
 
-#### {U}{B}{R} *Balanced*
+**{U}{B}{R} Balanced**
 
 - 4 Polluted Delta
 - 3 Scalding Tarn
@@ -202,7 +201,7 @@ You can consider swapping basics for additional fetches if you want to be a
 little less resilient vs Wasteland or :card[Blood Moon] effects. Inversely you
 can also go down to three Seas to add an additional basic land if desired.
 
-#### {W}{U}{B} *Control*
+**{W}{U}{B} Control**
 
 - 4 Polluted Delta
 - 4 Flooded Strand
@@ -217,9 +216,11 @@ can also go down to three Seas to add an additional basic land if desired.
 Once again you can play around with numbers of different fetchlands, duals and
 basics to find a ratio that fits your playing style preferences.
 
-## 3. Card Group - Mana Accelerants
+## Mana Acceleration
 
-:::row{variant=pile}
+### Accelerant Choices
+
+:::row{variant=centered}
 - DR
 - LP
 - CR
@@ -255,7 +256,7 @@ only consider running a Cabal Ritual if you really wanted to cheat on mana and
 try to make your deck as consistent as possible for mulliganing purposes. Some
 people include one or two Cabal Rituals as sideboard cards for certain matchups.
 
-### 3.1 Deckbuilding Ratios - Mana Accelerants
+### Deckbuilding Ratios
 
 As Dark Ritual is pretty much a core staple, the only consideration to changing
 ratios tends to be around the number of Lotus Petals run. If you are on fifteen
@@ -275,7 +276,7 @@ example below:
 - TO
 :::
 
-## 4. Card Group - Interaction
+## Interaction
 
 Under interaction, there are two additional sub-categories of cards. Proactive
 and reactive. Proactive interaction is one you can use at any time to try and
@@ -284,9 +285,9 @@ of this include discard spells like :card[Duress]. Reactive interaction are
 cards that rely on your opponent making an action before they can be used.
 Examples of this include counter-magic like :card[Spell Pierce].
 
-### 4.1 Proactive Interaction
+### Proactive Interaction
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Dur
 - Tsz
 - Teferi, Time Raveler
@@ -350,13 +351,13 @@ and :card[Stifle]. Some use this as a way to actively disrupt their opponent's
 manabase, much in the same vein that a tempo deck like Delver would, and use
 that to accrue pseudo card advantage and prevent your opponent from being able
 to interact with their resources. When run they are normally a compact package
-never more than in a 3:3 split, normally around 2:2. They tend to be run with
+never more than in a 3-3 split, normally around 2-2. They tend to be run with
 faster to more balanced builds rather than slower ones and they take the slots
 from free cycle effects and other interaction.
 
-### 4.2 Reactive Interaction
+### Reactive Interaction
 
-:::row{variant=pile}
+:::row{variant=centered}
 - Force of Will
 - Daze
 - Flusterstorm
@@ -407,7 +408,7 @@ no text in non-{U} matchups and thus is normally relegated to the sideboard. If
 it is run in the main it tends to replace some number of discard spells and is
 only run as a two to three-of.
 
-### 4.3 Deckbuilding Ratios - Interaction
+### Deckbuilding Ratios
 
 When combining the two interaction types, most lists will have around a total of
 eleven to thirteen interaction slots in them. These tend to be split into eight
@@ -418,9 +419,9 @@ one Thoughtseize. The rest becomes quite flexible.
 
 Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, Grixis {U}{B}{R} *Turbo* package, a more
-balanced straight {U}{B} package and an Uro style BUG {B}{U}{G} package.
+balanced straight {U}{B} package and an Uro style BUG {U}{B}{G} package.
 
-#### {U}{B}{R} *Turbo*
+**{U}{B}{R} Turbo**
 
 - 4 Force of Will
 - 4 Daze
@@ -433,7 +434,7 @@ fast and not need to worry about having a lot of interaction, only enough to try
 and push through an early combo. It would also likely be supplemented by a Pact
 of Negation too.
 
-#### {U}{B} *Balanced*
+**{U}{B} Balanced**
 
 - 4 Force of Will
 - 4 Daze
@@ -446,7 +447,7 @@ additional counter magic. They have a higher land count than the *turbo* list
 and likely fewer free cycle effects too which provides the slots to add these
 additional interaction elements in.
 
-#### {B}{U}{G} *Uro*
+**{U}{B}{G} Uro**
 
 - 4 Force of Will
 - 3 Daze
@@ -461,9 +462,11 @@ low, land count will likely be high and you can see they have trimmed on a Daze
 here too. This list will still be able to win fast but is expecting to have a
 longer and grindier game most likely.
 
-## 5. Card Group - Cantrips
+## Cantrips
 
-:::row{variant=pile}
+### Cantrip Choices
+
+:::row{variant=centered}
 - BS
 - Pnd
 - Pre
@@ -495,7 +498,7 @@ likely worse than Preordain despite the lower cost as it decreases your
 potential blue count for Force of Will and can be slow/not contribute to same
 turn wins when you need them.
 
-### 5.1 Deckbuilding Ratios - Cantrips
+### Deckbuilding Ratios
 
 Most lists run around eleven cantrip effects, not including free cycle effects
 or other pile cards like Predict. This is generally a 4/4/3 split of
@@ -506,9 +509,9 @@ style of list you wish to play it is likely better to run the full twelve
 cantrips and then work out what you wish to replace them with at a later point
 in testing.
 
-## 6. Card Group - Pile Cards
+## Pile Cards
 
-:::row{variant=pile}
+:::row{variant=centered}
 - TO
 - EoA
 - IU
@@ -523,7 +526,7 @@ the Doomsday pile but their core value/the reason they are in the deck is often
 to be searched up and utilised as part of your combo. In theory almost all of
 these are optional extras apart from one key component:
 
-### 6.1 Thassa's Oracle
+### Thassa's Oracle
 
 :card[Thassa's Oracle] is the card you need to be able to win the game, (unless
 you have a plan B) and therefore you have to run at least one of them. Some
@@ -532,7 +535,7 @@ is not much else to say other than the alternatives in :card[Laboratory Maniac]
 and :card[Jace, Wielder of Mysteries] unfortunately do not display quite the
 same efficiency or efficacy as a win condition of choice.
 
-### 6.2 Free Cycle effects
+### Free Cycle Effects
 
 The next set of pile cards to look at are the free cyclers. When we talk about
 these are meaning :card[Street Wraith] and :card[Edge of Autumn]. In pile
@@ -551,7 +554,7 @@ Balanced lists will run two to five, again with at least one Edge and finally
 control or slower lists might only run one to two. If they are just running one
 it is likely just a Street Wraith but either can be fine.
 
-### 6.3 Multi-draw Spells
+### Multi-Draw Spells
 
 There are a few options for this category but they all do very similar things.
 :card[Ideas Unbound], Predict and :card[Night's Whisper] all allow you to access
@@ -563,7 +566,7 @@ multi-draw spell is run in a list. Control style lists may consider to run
 multiple Predict either with, or without, and Ideas Unbound in the list as a raw
 card advantage engine.
 
-### 6.4 Lion's Eye Diamond
+### Lion's Eye Diamond
 
 :card[Lion's Eye Diamond] (or LED) is an incredibly strong card that allows you,
 in your piles, to cheat on mana. It has some limitations in not allowing you to
@@ -573,7 +576,7 @@ fastest wins and the most mana efficient piles in the deck. You should almost
 always run one as a core card in the deck however any more can be a liability as
 it has almost no use outside of piles (though there are some corner cases).
 
-### 6.5 Cavern of Souls
+### Cavern of Souls
 
 Cavern of Souls is an excellent way to ensure you can resolve Oracle in the face
 of counter magic or a Chalice of the Void X = 2. It fits very neatly into the
@@ -584,7 +587,7 @@ towards your land/mana count and should instead be considered as a spell. It can
 have some extra utility if you are running a creature package by allowing you to
 cast those creatures with it. Good in heavy {U} metas.
 
-### 6.6 Pact of Negation
+### Pact of Negation
 
 Pact of Negation is similar to Cavern in providing a mana efficient way to
 protect your Oracle resolving however it has the added benefit of also stopping
@@ -595,13 +598,14 @@ certainly not the optimal use of it. If it is run it is normally a single copy
 which can be in the main or side however some do like running more if they want
 to be more aggressive.
 
-## 7.0 Putting it all together
+## Putting It All Together
 
 Now that we've seen all the components we need to work out how we want to fit
 them into our list. We need to consider a few things before we start building to
 work out how we want it to look.
 
 Consider the following questions:
+
 - What turn do we want to cast Doomsday on?
 - How often do we want to make pass the turn piles?
 - What part of the meta do we want to beat?
@@ -628,7 +632,7 @@ the justification of each choice you make.
 
 If you don't feel up to it or maybe don't have the luxury of time to be able to
 follow this exercise then there are many examples of proven lists on websites
-like TCDecks or that can be found in the #decklists-archive channel in the
+like TCDecks or that can be found in the `#decklists-archive` channel in the
 [Doomsday Discord][discord].
 
 ## Next Steps

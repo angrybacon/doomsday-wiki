@@ -13,7 +13,10 @@ export const remarkBase: Plugin = () => (tree) => {
     directive.data = {
       ...directive.data,
       hName: directive.name,
-      hProperties: directive.attributes,
+      hProperties: {
+        ...(directive.data?.hProperties as Record<string, unknown> | undefined),
+        ...directive.attributes,
+      },
     };
   });
 };

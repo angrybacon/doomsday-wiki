@@ -2,79 +2,63 @@
 title: Frequently Asked Questions
 ---
 
+## Table of Contents
+
+## Preamble
+
 Compiled here is a list of frequently asked questions observed from the Discord
 or other sources (Twitter, Reddit, video comment threads etc). If you believe a
 key question is missing then please feel free to suggest it. A lot of the
 questions were either fully or partially answered in this article here:
 [DDFAQs](/articles/2020/03/22/ddfaq/)
 
-1. What are the different Doomsday decks and what is the difference between
-   them?
-1. What is the *best* Doomsday archetype? Of that archetype what are the *best*
-   colours to run?
-1. What list should I start on? What is the *best* list to play?
-1. Is there a list of common/all Doomsday piles? What is the most common pile I
-   should learn?
-1. What is the best matchup for the deck?
-1. What is the worst matchup for the deck?
-1. What's a good meta to play Doomsday in?
-1. I think X card might be good, should I run it?
-1. Is the deck hard to learn? Is it the most difficult deck in Legacy?
-1. How do I resolve Doomsday in paper?
-1. How long should I be taking to resolve Doomsday in paper?
-1. I run X deck, how do I beat Doomsday?
-1. What is the best way to learn Doomsday?
-1. What order should I make purchases to build Doomsday?
-1. I am limited on my budget, can I still build the deck?
-1. I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
-
-### 1. What are the different Doomsday decks and what is the difference between them?
+## What are the different Doomsday decks and what is the difference between them?
 
 There are considered, at the time of writing, to be 4 primary distinct variants
 of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
 **Meandeck Doomsday** and **Entombsday**.
 
-- **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
-  Although it adopts the current usage of Thassa's Oracle these decks tend to
-  also have access to secondary Storm plans using cards like Burning Wish, Echo
-  of Eons and Tendrils of Agony. They also prefer proactive protection such as
-  Duress over being able to run reactive counter magic.
-
 :::row{variant=centered}
 - ToA
 :::
 
-- **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style.
-  This was the main variant available post Gitaxian Probe ban and pre-printing
-  of Thassa's Oracle. These lists use Experimental Frenzy as a card advantage
-  engine and win condition in tandem with Doomsday.
+**DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
+Although it adopts the current usage of Thassa's Oracle these decks tend to also
+have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
+and Tendrils of Agony. They also prefer proactive protection such as Duress over
+being able to run reactive counter magic.
 
 :::row{variant=centered}
 - EF
 :::
 
-- **Meandeck Doomsday** is the primary deck variant that is having previously
-  unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
-  uses counter magic like Force of Will and Daze to play a controlling game
-  before ending the game with Doomsday. The moniker *Meandeck* is explained in
-  this article [here](/articles/2020/03/12/pretty-mean-deck/).
+**DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
+was the main variant available post Gitaxian Probe ban and pre-printing of
+Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
+and win condition in tandem with Doomsday.
 
 :::row{variant=centered}
 - FoW
 :::
 
-- **Entombsday** is more of a Tin Fins variant with a main deck plan focussing
-  on reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
-  Vengeance] to then have it attack alongside Emrakul, the Eons Torn or, looping
-  the deck to cast an infinite number of Collective Brutality's or a lethal
-  Tendrils of Agony. The key point ot focus on is it runs a dedicated
-  transformational sideboard into effectively a variant of Meandeck Doomsday.
+**Meandeck Doomsday** is the primary deck variant that is having previously
+unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
+uses counter magic like Force of Will and Daze to play a controlling game before
+ending the game with Doomsday. The moniker *Meandeck* is explained in this
+article [here](/articles/2020/03/12/pretty-mean-deck/).
 
 :::row{variant=centered}
 - Griselbrand
 :::
 
-### 2. What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
+**Entombsday** is more of a Tin Fins variant with a main deck plan focussing on
+reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
+Vengeance] to then have it attack alongside Emrakul, the Eons Torn or, looping
+the deck to cast an infinite number of Collective Brutality's or a lethal
+Tendrils of Agony. The key point ot focus on is it runs a dedicated
+transformational sideboard into effectively a variant of Meandeck Doomsday.
+
+## What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
 Meandeck Doomsday has the most proven results of the archetypes listed above
 with a 2020 performance that outnumbers TCDeck numbers of the previous 10 years
@@ -94,18 +78,18 @@ building.
 - Teferi, Time Raveler
 :::
 
-### 3. What list should I start on? What is the *best* list to play?
+## What list should I start on? What is the *best* list to play?
 
 If you want a proven and effective list then look at either top placing
 finishers for high player events on
 [TCDecks](https://www.tcdecks.net/archetype.php?archetype=Doomsday&format=Legacy)
-or head to the Doomsday discord server and check out the #decklists-archive
+or head to the Doomsday discord server and check out the `#decklists-archive`
 channel. Successful lists and placements are posted there regularly to ensure
 new technology / strategy is communicated out. There is no defined *best* list
 so just go with the list/lists that seem to be most prevalent as those are
 likely to be considered *best* at the time.
 
-### 4. Is there a list of common/all Doomsday piles? What is the most common pile I should learn?
+## Is there a list of common/all Doomsday piles? What is the most common pile I should learn?
 
 Historically there was a spreadsheet that had an ever-growing list of
 pre-prescribed piles based on certain criteria but this was for the old DDFT
@@ -124,7 +108,7 @@ give an idea of how to play. The majority of piles become variants of those
 discussed but you will, over time, learn to build more situational ones as you
 gain experience.
 
-### 5. What is the best matchup for the deck?
+## What is the best matchup for the deck?
 
 In the current Legacy meta the best matchups to face are probably Snowko
 variants, Maverick and TES. Snowko decks often do not provide much pressure and,
@@ -144,7 +128,7 @@ and part based on community obtained results found
 - Wishclaw Talisman
 :::
 
-### 6. What is the worst matchup for the deck?
+## What is the worst matchup for the deck?
 
 Delver. Delver. Definitely Delver. Also Shadow decks. Basically any aggressive
 tempo shell running cheap threats and mana efficient disruption. RUG Delver is
@@ -157,7 +141,7 @@ makes them very hard to face.
 - Delver of Secrets
 :::
 
-### 7. What's a good meta to play Doomsday in?
+## What's a good meta to play Doomsday in?
 
 Any meta where either Delver isn't prevalent or where decks that prey on Delver
 are. Meandeck Doomsday boasts a good win rate against most of the format
@@ -165,7 +149,7 @@ including very positive rates against decks that are favoured against Delver
 type strategies. Any format with a large non-blue metashare or very controlling
 blue meta share are good fields for Doomsday.
 
-### 8. I think X card might be good, should I run it?
+## I think X card might be good, should I run it?
 
 It might be! A lot of people have been working on the deck for a long time and
 have very likely tried the card out if considered potentially playable. Feel
@@ -181,7 +165,7 @@ things but do check first as likely it has been tried and rejected before.
 - Careful Study
 :::
 
-### 9. Is the deck hard to learn? Is it the most difficult deck in Legacy?
+## Is the deck hard to learn? Is it the most difficult deck in Legacy?
 
 The deck is not hard to learn, especially if you have already got familiarity
 with the core principles of Legacy. General cantripping principles and the use
@@ -197,7 +181,7 @@ smartest type of Legacy player*. Everyone has different ways of thinking and one
 person's nightmare deck to pilot (mine would be Maverick) is another person's
 bread and butter.
 
-### 10. How do I resolve Doomsday in paper?
+## How do I resolve Doomsday in paper?
 
 A large part of the confusion for the physical resolution of Doomsday stems from
 the wording on the original Weatherlight printing of :card[Doomsday]. See the
@@ -245,7 +229,7 @@ zone. You are not required to explicitly state what you are taking however you
 should always allow them time to ask to see what cards are chosen and are not
 allowed to hide that information from them.
 
-### 11. How long should I be taking to resolve Doomsday in paper?
+## How long should I be taking to resolve Doomsday in paper?
 
 If you are at a proper CompREL tournament you should be expected to completely
 resolve Doomsday in about 60 seconds (1 minute). This takes into account the
@@ -265,14 +249,14 @@ you get familiar with the deck. In this aspect MTGO can promote bad habits as,
 thanks to the chess clock, you can often spend a lot of time building and
 selecting pile cards as you play and come to rely on this mechanic.
 
-### 12. I run X deck, how do I beat Doomsday?
+## I run X deck, how do I beat Doomsday?
 
 Haha, nice try! But you won't catch us out that easily! In all seriousness if
 you pop into the Discord there are plenty of people who would be happy to
 discuss the matchup from the other side of things. We're a friendly bunch and
 always open to bouncing ideas around.
 
-### 13. What is the best way to learn Doomsday?
+## What is the best way to learn Doomsday?
 
 Read the Wiki, watch some content as found on our
 [resources](/appendices/resources/) page and most important PRACTICE, PRACTICE,
@@ -286,7 +270,7 @@ should be able to find someone to answer any queries across most time zones so
 please feel free to come and say hello in the [Doomsday
 Discord](https://discord.gg/vajvFXt).
 
-### 14. What order should I make purchases to build Doomsday?
+## What order should I make purchases to build Doomsday?
 
 As with any Legacy deck the focus should always be on the reserved list staples.
 dual lands are the first port of call with Underground Seas being the key part.
@@ -298,7 +282,7 @@ applicable) prioritising the {U} based ones over any {B} based ones. Once you
 have your reserved list staples then the rest of the deck can be reasonably easy
 to source with Force of Wills likely being the next biggest purchase.
 
-### 15. I am limited on my budget, can I still build the deck?
+## I am limited on my budget, can I still build the deck?
 
 This obviously depends on how constricted you are in terms of budget but yes you
 can! The easiest way is of course to run a heavy basics list. Unfortunately due
@@ -326,7 +310,7 @@ good a tool to lose.
 
 At 2 :card[Underground Sea], :card[Daze] is unlocked as a reliable option.
 
-### 16. I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
+## I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
 
 The second Oracle (main or side) can have a number of uses. It helps increase
 resilience against effects like :card[Extract] when they are aggressively used,

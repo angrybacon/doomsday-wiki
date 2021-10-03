@@ -3,6 +3,8 @@ import React, { FunctionComponent } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
+import remarkSlug from 'remark-slug';
+import remarkToc from 'remark-toc';
 import type { PluggableList } from 'unified';
 import Typography from '@material-ui/core/Typography';
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
@@ -28,13 +30,22 @@ export const Remark: FunctionComponent<Props> = ({
 }) => {
   const classes = useStyles();
   const { matter, scries, text } = markdown;
-  const plugins: PluggableList = [
+
+  const basePlugins: PluggableList = [
+    remarkDirective,
+    remarkGfm,
+    remarkSlug,
+    [remarkToc, { maxDepth: 4, ordered: true, tight: true }],
+  ];
+
+  const customPlugins: PluggableList = [
     remarkBase,
     remarkCard,
     [remarkDecklist, { decklists }],
     remarkMana,
     [remarkRow, { scries }],
   ];
+
   return (
     <div className={c(classes.root, className)}>
       {matter?.title && (
@@ -44,7 +55,7 @@ export const Remark: FunctionComponent<Props> = ({
       )}
       <ReactMarkdown
         components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
-        remarkPlugins={[remarkDirective, remarkGfm, ...plugins]}
+        remarkPlugins={[...basePlugins, ...customPlugins]}
         skipHtml
       >
         {text}

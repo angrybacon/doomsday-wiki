@@ -4,6 +4,10 @@ order: 1
 title: Brainstorm in Doomsday
 ---
 
+## Table of Contents
+
+## Preamble
+
 *Preface: We will be using terminology and abbreviations introduced in the
 Basics chapter of the wiki. If you have not read the Basics chapter it is
 recommended you do so first as this builds upon the concepts introduced there.*
@@ -214,7 +218,7 @@ turn it into a perfect pile.
 1. Cast Consider, put X into the graveyard and draw TO
 1. Cast TO with the remaining mana from LED with zero cards left in your library
 
-## Brainstorm Pile - {U} and *Free Cantrip* Available
+## Brainstorm Pile - U and *Free Cantrip* Available
 
 Using the concepts we learned above, we can actually create an imperfect
 Brainstorm pile without Brainstorm even being in our hand. Instead of needing
