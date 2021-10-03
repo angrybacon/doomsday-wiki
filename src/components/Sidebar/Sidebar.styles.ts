@@ -2,9 +2,13 @@ import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
+    actions: {
+      '& > :not(:first-child)': {
+        marginLeft: theme.spacing(),
+      },
+    },
     header: {
       ...theme.mixins.toolbar,
-      justifyContent: 'space-between',
       paddingLeft: theme.spacing(1),
       paddingRight: theme.spacing(1),
       [theme.breakpoints.up('sm')]: {

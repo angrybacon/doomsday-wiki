@@ -7,6 +7,7 @@ import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
 import {
+  mdiDiscord,
   mdiNewspaperVariantMultiple,
   mdiWeatherNight,
   mdiWeatherSunny,
@@ -16,6 +17,8 @@ import { Entry } from '@/components/Sidebar/Entry';
 import { ThemeContext } from '@/theme/ThemeContext';
 import type { Menu } from '@/tools/markdown/types';
 import { useStyles } from './Sidebar.styles';
+
+const DISCORD_URL = 'https://discord.gg/vajvFXt';
 
 interface Props {
   /** Whether the drawer should be permanent. */
@@ -55,9 +58,24 @@ export const Sidebar: FunctionComponent<Props> = ({
             ddft.wiki
           </Button>
         </NextLink>
-        <IconButton onClick={onThemeToggle}>
-          <Icon path={isDark ? mdiWeatherSunny : mdiWeatherNight} size={1} />
-        </IconButton>
+        <Box
+          alignItems="center"
+          className={classes.actions}
+          display="flex"
+          ml="auto"
+        >
+          <a href={DISCORD_URL} rel="noreferrer" target="_blank">
+            <IconButton>
+              <Icon path={mdiDiscord} size={0.8} />
+            </IconButton>
+          </a>
+          <IconButton onClick={onThemeToggle}>
+            <Icon
+              path={isDark ? mdiWeatherSunny : mdiWeatherNight}
+              size={0.8}
+            />
+          </IconButton>
+        </Box>
       </Box>
       <Divider />
       <List component="nav" dense>
