@@ -1,0 +1,40 @@
+// Title: Grixis Stifle Turbo Meandeck
+// Authors: Dave "Ruta Barracuda" Boruta
+// Colors: {U}{B}{R}
+4 Street Wraith
+1 Thassa's Oracle
+4 Lotus Petal
+1 Lion's Eye Diamond
+4 Doomsday
+4 Ponder
+2 Preordain
+2 Thoughtseize
+1 Edge of Autumn
+1 Ideas Unbound
+4 Brainstorm
+4 Dark Ritual
+4 Daze
+4 Force of Will
+2 Lim-Dûl's Vault
+2 Pact of Negation
+2 Stifle
+
+3 Polluted Delta
+3 Scalding Tarn
+3 Underground Sea
+3 Bloodstained Mire
+1 Badlands
+1 Volcanic Island
+
+// Sideboard
+2 Abrade
+2 Duress
+2 Flusterstorm
+2 Leyline of the Void
+1 Cavern of Souls
+1 Echoing Truth
+1 Emrakul, the Aeons Torn
+1 Massacre
+1 Pyroblast
+1 Red Elemental Blast
+1 Shelldock Isle
