@@ -1,14 +1,6 @@
 #+TITLE: Doomsday Wiki
 #+AUTHOR: Mathieu Marques
 
-** Contributing with Code
-
-*** Installation
-
-This is a Next.js application written with TypeScript. All you have to do is
-clone the repository and run =yarn= to install the dependencies.
-
-*** Coding Conventions
-
-- Respect the =eslint= configuration
-- Respect the =prettier= configuration
+This is the repository that hold both the code and content behind
+https://ddft.wiki . If you would like to contribute, see
+[[./CONTRIBUTING.org/][CONTRIBUTING]].

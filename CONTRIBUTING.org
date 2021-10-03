@@ -1,0 +1,41 @@
+#+TITLE: Contributing
+#+AUTHOR: Mathieu Marques
+
+** Preamble
+
+Contributions are more than welcome, thank you for considering it!
+
+Pull requests work best, below are guidelines set to help you in the process of
+providing work for review.
+
+** Contributing with Markdown
+
+See [[./CONTRIBUTING_WITH_MARKDOWN.org][CONTRIBUTING_WITH_MARKDOWN]].
+
+** Contributing with Code
+
+See [[./CONTRIBUTING_WITH_CODE.org][CONTRIBUTING_WITH_CODE]].
+
+** Testing your Changes
+
+This is a Next.js application written with TypeScript. All you have to do is
+clone the repository and use =yarn= to install the dependencies.
+
+#+BEGIN_SRC sh
+yarn      # Install dependencies
+yarn dev  # Run the application locally
+#+END_SRC
+
+See [[./package.json][package.json]] for a complete list of the available
+commands.
+
+Running the project locally ensures you abide by the existing conventions and
+enables live preview for your changes. If for some reason you cannot run the
+project locally, Netlify generates and updates URLs for every pull requests on
+the repository.
+
+For instance, the pull request #123 deploys to
+[[https://deploy-preview-123--ddftwiki.netlify.app/]].
+
+As a general advice, avoid pushing for every little change you make as build
+minutes are limited.

@@ -1,0 +1,169 @@
+#+TITLE: Contributing with Markdown
+#+AUTHOR: Mathieu Marques
+
+** File Structure
+
+Content consists of chapters and articles under =markdown/=. The chapters are
+considered *timeless* and are the content that should be kept up to date to
+account for meta shifts and bannings. Articles on the other hand are dated
+content.
+
+- =archive/= ::
+  Old content that no longer presents relevance due to bannings or else.
+- =articles/= ::
+  Dated reports and theories.
+- =chapters/= ::
+  Most of the content goes there, organized in =ddeft/=, =ddft/= and =meandeck/=
+  chapters. There's also =appendices/= for general-purposed resources.
+- =partials/= ::
+  Static content within the Wiki comes from those partials, this avoids having
+  to maintain content alongside code.
+
+** General Markdown Conventions
+
+- Fill your paragraphs to 80 columns
+- If your title makes the frontmatter data longer than 80 columns, think of a
+  better heading for your document
+- Heading levels start at 2 in order to account for the title found in the
+  frontmatter
+- Don't use unicode quote characters eg. =‘’= and =“”=. They might not render
+  properly for everyone so ASCII quotes eg. ='= and ="= should be preferred
+- A colon right in front of a word will be interpreted as
+  *directive* so make sure you have a space right after =:= when it used as
+  punctuation
+
+** Scryfall
+
+In some contexts, you can refer to card names within Markdown; various
+representations are available. To ease the writing process, a number of
+shorthands for card names can be found [[./src/tools/scryfall/cards.ts][here]].
+
+Optionally, provide a specific set for the representation using the 3-letters
+set code.
+
+#+BEGIN_SRC
+Full Card Name | SET
+#+END_SRC
+
+For instance, =DD | WTH= will scry for /Doomsday/ in the /Weatherlight/ set. To
+identify the right code for your set, inspect the links at
+https://scryfall.com/sets . If not provided, the default set used is the first
+print for the card.
+
+** Article Banners
+
+Articles can be given a banner representing the art of a card. The banner is
+currently only visible from the home page where recent articles are displayed
+but they might be inserted at the top of the article in their respective pages.
+
+You can use a Scryfall query inside of the frontmatter in your Markdown file to
+set a banner for the article. In doubt, follow existing conventions.
+
+** Custom Constructions
+
+A number of custom directives are parsed within Markdown content. For the
+technicalities, the supported specifications for directives in Markdown are
+presented
+[[https://talk.commonmark.org/t/generic-directives-plugins-syntax/444][here]].
+
+*** Inline Card Links
+
+You can insert inline Scryfall links for cards using the following syntax:
+
+#+BEGIN_SRC markdown
+:card[Brainstorm]
+#+END_SRC
+
+This will render an inline link reading "Brainstorm" and pointing to
+https://scryfall.com/search?q=!Brainstorm .
+
+*** Card Rows
+
+By default rows of cards are rendered with the =centered= variant but you can
+specify the variant with the =variant= keyword.
+
+*Centered* rows with more than 4 cards will start shrinking the images so that
+they all fit on one line.
+
+#+BEGIN_SRC markdown
+:::row{variant=centered}
+- Lion's Eye Diamond | MIR
+- Edge of Autumn
+- Thassa's Oracle
+:::
+#+END_SRC
+
+*Pile* rows are rendered using a unique style to make them stand out to the
+reader. In addition, they use a fixed width of 20% for each image.
+
+#+BEGIN_SRC markdown
+:::row{variant=pile}
+- Lion's Eye Diamond | MIR
+- Edge of Autumn
+- Ideas Unbound
+- Lotus Petal
+- Thassa's Oracle
+:::
+#+END_SRC
+
+*** Decklists
+
+You can add decklists within your Markdown content, they will rendered as a
+collapsible block. Decklist files are located under =decklists/= and should be
+dated using a =[year]/[month]/file.txt= or =[year]/[month]/[day]/file.txt=
+convention if able. Follow the existing structure as an example. As an
+exception, decklist files found directly under =decklists/= are used in
+non-dated content to ease maintenance eg. in chapters.
+
+#+BEGIN_SRC markdown
+::decklist{path=path/to/decklist/sans/extension}
+#+END_SRC
+
+The content of decklist files supports title, authors and colors metadata.
+Columns can be created using blank lines. The following example shows how to
+write a decklist file with 2 columns of cards and a 3rd column for the
+sideboard. In doubt, follow existing conventions.
+
+#+BEGIN_SRC text
+// Title: Dummy Example
+// Authors: Author One, Author Two
+// Colors: {U}{B}{R}
+4 Dark Ritual
+4 Doomsday
+
+4 Polluted Delta
+1 Island
+
+// Sideboard
+1 Duress
+#+END_SRC
+
+For more details about color symbols, see the Mana section.
+
+*** Media Embeds
+
+Media embeds are also supported:
+
+For a *SoundCloud* widget, use the following directive and provide its URL.
+
+#+BEGIN_SRC markdown
+::soundcloud{url=https://soundcloud.com/ddftwiki/a-history-of-doomsday}
+#+END_SRC
+
+For a *YouTube* widget, provide the ID typically found in the URL behind the =v=
+parameter in the address bar.
+
+#+BEGIN_SRC markdown
+::youtube{id=3LLIFHv5kbo}
+#+END_SRC
+
+** Mana
+
+You can inline mana symbols in Markdown as well as in decklist blocks. When used
+collectively, for instance to indicate a list of colors, use the same order as
+found on the back of a *Magic: the Gathering* card. This makes searching for
+guilds and clan much easier later on. In doubt, follow existing conventions.
+
+The syntax that was followed during implementation can be found
+[[https://mana.andrewgioia.com/icons.html][here]]. Currently only the mana costs
+are implemented but loyalty and color indicators may come soon :tm:.
