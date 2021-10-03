@@ -1,5 +1,5 @@
 import { GetStaticProps, NextPage } from 'next';
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Box from '@material-ui/core/Box';
 import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
@@ -24,11 +24,22 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
   menu,
   welcome,
 }) => {
-  const [size, setSize] = useState(5);
+  const initialSize = 5;
+  const articleRoot = useRef<HTMLDivElement>(null);
+  const [size, setSize] = useState(initialSize);
 
   const showMore = () => {
     setSize((previous) => previous + 3);
   };
+
+  useEffect(() => {
+    if (size > initialSize) {
+      articleRoot?.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'end',
+      });
+    }
+  }, [size]);
 
   return (
     <Layout
@@ -47,7 +58,7 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
         </Card>
       </Grid>
       <Grid item xs>
-        <Grid container direction="column" spacing={2}>
+        <Grid container direction="column" ref={articleRoot} spacing={2}>
           {articles.slice(0, size).map(({ data, route }) => (
             <Grid item key={`article-${route}`} xs={12}>
               <Article matter={data} route={route} />
