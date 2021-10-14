@@ -55,9 +55,9 @@ export const getArticles: GetArticles = async (options) => {
         // eslint-disable-next-line no-await-in-loop
         response = await document.data.bannerPromise;
         delete document.data.bannerPromise;
-      } catch (error) {
+      } catch (error: any) {
         throw new Error(
-          `Scryfall error while querying '${document.data.banner}' (${error.data.details})`
+          `Scryfall error while querying for banner '${document.data.banner}' (${error.data.details})`
         );
       }
       const card: ScryDataItem = readFirstFace(response.data);

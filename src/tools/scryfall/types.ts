@@ -1,4 +1,4 @@
-import { AxiosResponse } from 'axios';
+import type { AxiosResponse } from 'axios';
 
 /** Dictionary of Scry results. */
 export type Scries = Record<string, ScryDataItem>;
