@@ -1,13 +1,18 @@
 import type { AxiosResponse } from 'axios';
 
-/** Dictionary of Scry results. */
-export type Scries = Record<string, ScryDataItem>;
+enum ScryObject {
+  CARD = 'card',
+  CARD_FACE = 'card_face',
+  LIST = 'list',
+}
 
-/** Type as best as possible the card response we get from Scryfall API. */
+/**
+ * Type as best as possible the card response we get from Scryfall API.
+ * See https://scryfall.com/docs/api/cards
+ */
 export interface ScryDataItem {
-  /* eslint-disable camelcase */
   artist?: string;
-  card_faces?: (Partial<ScryDataItem> & { object: 'card_face' })[];
+  card_faces?: (Partial<ScryDataItem> & { object: ScryObject.CARD_FACE })[];
   image_uris?: {
     art_crop: string;
     border_crop: string;
@@ -17,19 +22,36 @@ export interface ScryDataItem {
     small: string;
   };
   name: string;
-  object: 'card';
-  /* eslint-enable camelcase */
+  object: ScryObject.CARD;
 }
 
-/** Type representing Scryfall response when the yield is a list. */
+/**
+ * Type representing Scryfall response when the yield is a list.
+ * See https://scryfall.com/docs/api/lists
+ */
 export interface ScryDataList {
-  /* eslint-disable camelcase */
   data: ScryDataItem[];
   has_more: boolean;
-  object: 'list';
-  total_cards: number;
-  /* eslint-enable camelcase */
+  object: ScryObject.LIST;
+  next_page: URL | null;
+  total_cards: number | null;
+  warnings: string[] | null;
 }
+
+/**
+ * Scryfall API response in case of error.
+ * See https://scryfall.com/docs/api/errors
+ */
+export interface ScryError {
+  code: string;
+  details: string;
+  status: number;
+  type: string | null;
+  warnings: string[] | null;
+}
+
+/** Dictionary of Scry results. */
+export type Scries = Record<string, ScryDataItem>;
 
 /** Convenience typing to refer to responses from the Scryfall API. */
 export type ScryResponse = AxiosResponse<ScryDataItem | ScryDataList>;

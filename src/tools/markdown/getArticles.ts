@@ -9,7 +9,11 @@ import {
 import type { Document } from '@/tools/markdown/types';
 import { readFirstFace } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
-import type { ScryDataItem, ScryResponse } from '@/tools/scryfall/types';
+import type {
+  ScryDataItem,
+  ScryError,
+  ScryResponse,
+} from '@/tools/scryfall/types';
 
 /** Default options for the `getArticles` helper. */
 const getArticlesOptionsDefault: GetArticlesOptions = {
@@ -55,9 +59,12 @@ export const getArticles: GetArticles = async (options) => {
         // eslint-disable-next-line no-await-in-loop
         response = await document.data.bannerPromise;
         delete document.data.bannerPromise;
-      } catch (error: any) {
+      } catch (error) {
+        const query: string = document.data.banner;
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        const { details } = (error as any).data as ScryError;
         throw new Error(
-          `Scryfall error while querying for banner '${document.data.banner}' (${error.data.details})`
+          `Scryfall error while querying for banner '${query}' (${details})`
         );
       }
       const card: ScryDataItem = readFirstFace(response.data);
