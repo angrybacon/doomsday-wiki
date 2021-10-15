@@ -130,15 +130,18 @@ and part based on community obtained results found
 
 ## What is the worst matchup for the deck?
 
-Delver. Delver. Definitely Delver. Also Shadow decks. Basically any aggressive
-tempo shell running cheap threats and mana efficient disruption. RUG Delver is
-the (current) most played deck in Legacy and the deck has a hard time with that
-matchup (around 40% match win rate observed) however Grixis Delver is likely the
-worst to face as the addition of Thoughtseize as another angle of disruption
-makes them very hard to face.
+Delver. Delver. Definitely Delver. Also Death Shadow decks.
+
+Basically any aggressive tempo shell running cheap threats and mana efficient
+disruption. UR Delver is the most played deck in Legacy and the deck has a hard
+time with that matchup (between 30% and 35% depending on meta shifts and deck
+popularity) however Grixis Delver is likely the worst to face as the addition of
+Thoughtseize as another angle of disruption makes them very hard to face.
 
 :::row{variant=centered}
+- Dragon's Rage Channeler
 - Delver of Secrets
+- Thoughtseize
 :::
 
 ## What's a good meta to play Doomsday in?
