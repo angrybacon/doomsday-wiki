@@ -110,22 +110,33 @@ gain experience.
 
 ## What is the best matchup for the deck?
 
-In the current Legacy meta the best matchups to face are probably Snowko
-variants, Maverick and TES. Snowko decks often do not provide much pressure and,
-if Doomsday resolves, have no answer to Thassa's Oracle cast off of a Cavern of
-Souls. We also have a lot of interaction which means they tend to not have
-enough disruption to be able to stop us. Maverick has threats but often little
-to no disruption. Sometimes Thalia or Ouphe can slow Doomsday down however often
-they are too slow or get answered easily by Daze. TES cannot beat the sheer
-amount of disruption the deck brings to the table nor interact with the fast
-combo kill. All of these are likely the most favourable (part based on gut feel
-and part based on community obtained results found
-[here](https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213).)
+In the current Legacy meta the best matchups to face are probably Miracles
+variants, non-blue decks and TES. These decks often do not provide much pressure
+and, if Doomsday resolves, have no real answer to Thassa's Oracle. We also have
+a lot of interaction which means they tend to not have enough disruption to be
+able to stop us.
+
+Death and Taxes, Maverick and Post are good examples of the easier matchups with
+limited interaction. Still, they can display threats in the form of hatebears
+for the former or larger, game-ending threats for the latter. But often they are
+too slow or get answered easily by Daze. For the green matchups,
+:card[Endurance] requires preparation and proper sequencing but is far from
+being as back-breaking as it is often thought. More details about this in the
+[interaction](/meandeck/interaction/) page.
+
+TES cannot beat the sheer amount of disruption the deck brings to the table nor
+interact with the fast combo kill besides :card[Silence] effects as the Doomsday
+pilot unravel their pile. That weakness can be mitigated but often mean that
+while the TES pilot tries to disrupt our combo turn, they aren't progressing
+their plan as much.
+
+These are likely the most favourable matchups (part based on gut feel and part
+based on community obtained results found [here][public-data-sheet]).
 
 :::row{variant=centered}
-- Uro, Titan of Nature's Wrath
-- Knight of the Reliquary
-- Wishclaw Talisman
+- Endurance
+- Wasteland
+- Silence
 :::
 
 ## What is the worst matchup for the deck?
@@ -267,8 +278,7 @@ Doomsday rewards an exact knowledge of your 75 as well as format knowledge
 highly so increasing exposure to both is very important. Finally, if you get
 stuck, feel free to ask for help! The sense of community is very strong and you
 should be able to find someone to answer any queries across most time zones so
-please feel free to come and say hello in the [Doomsday
-Discord](https://discord.gg/vajvFXt).
+please feel free to come and say hello in the [Doomsday Discord][discord].
 
 ## What order should I make purchases to build Doomsday?
 
@@ -322,4 +332,7 @@ effects. Especially useful if you need to bring in Force of Negations and
 maximise the ability to use them.
 
 If you have any questions beyond what is listed here feel free to ask in the
-[Discord](https://discord.gg/vajvFXt) or email ddftwiki@gmail.com
+[Discord][discord] or email ddftwiki@gmail.com
+
+[discord]: https://discord.gg/vajvFXt
+[public-data-sheet]: https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213
