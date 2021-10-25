@@ -105,7 +105,7 @@ resolving TO.
 
 Consider the following:
 
-> {U}{U} + Ponder + Island  
+> {U}{U}{U} + Ponder + Island  
 > Land drop available
 
 :::row{variant=pile}
