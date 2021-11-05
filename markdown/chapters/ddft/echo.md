@@ -1,5 +1,4 @@
 ---
-order: 3
 title: Using Echo of Eons in Piles
 ---
 

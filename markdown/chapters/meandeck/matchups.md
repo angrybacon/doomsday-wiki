@@ -1,6 +1,5 @@
 ---
 authors: OtterLady, Doishy
-order: 5
 title: Matchup Guides
 ---
 

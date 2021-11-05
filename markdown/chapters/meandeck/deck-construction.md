@@ -1,6 +1,5 @@
 ---
 authors: Otterlady, Doishy
-order: 3
 title: Deck Construction Principles
 ---
 

@@ -1,5 +1,4 @@
 ---
-order: 6
 title: Winning Without Doomsday
 ---
 

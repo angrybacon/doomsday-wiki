@@ -1,6 +1,5 @@
 ---
 authors: angrybacon, Labman13, Doishy
-order: 0
 title: The Basics
 ---
 

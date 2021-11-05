@@ -1,6 +1,5 @@
 ---
 authors: angrybacon, Doishy
-order: 1
 title: Brainstorm in Doomsday
 ---
 
