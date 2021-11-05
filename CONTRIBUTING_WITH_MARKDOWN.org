@@ -28,8 +28,8 @@ content.
   frontmatter
 - Don't use unicode quote characters eg. =‘’= and =“”=. They might not render
   properly for everyone so ASCII quotes eg. ='= and ="= should be preferred
-- A colon right in front of a word will be interpreted as /directive/ so make
-  sure you have a space right after =:= when it used as punctuation
+- A colon right in front of a word will be interpreted as a /directive/ so make
+  sure you have a space right after =:= when it is used as punctuation
 
 ** Scryfall
 
@@ -162,7 +162,7 @@ parameter in the address bar.
 You can inline mana symbols in Markdown as well as in decklist blocks. When used
 collectively, for instance to indicate a list of colors, use the same order as
 found on the back of a /Magic: the Gathering/ card. This makes searching for
-guilds and clan much easier later on. In doubt, follow existing conventions.
+guilds and clans much easier later on. In doubt, follow existing conventions.
 
 The syntax that was followed during implementation can be found
 [[https://mana.andrewgioia.com/icons.html][here]]. Currently only the mana costs

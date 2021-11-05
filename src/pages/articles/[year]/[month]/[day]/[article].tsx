@@ -1,4 +1,5 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
 import React from 'react';
 import Card from '@material-ui/core/Card';
@@ -51,11 +52,15 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
 }) => ({
   props: {
     markdown: await getMarkdown(
-      'articles',
-      params?.year ?? '',
-      params?.month ?? '',
-      params?.day ?? '',
-      params?.article ?? ''
+      join(
+        'articles',
+        /* eslint-disable @typescript-eslint/no-non-null-assertion */
+        params!.year,
+        params!.month,
+        params!.day,
+        params!.article
+        /* eslint-enable @typescript-eslint/no-non-null-assertion */
+      )
     ),
   },
 });

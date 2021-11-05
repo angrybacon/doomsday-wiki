@@ -18,15 +18,19 @@ const getScries = async (buffer: string): Promise<Scries> => {
   return unified().use(remarkScryfall).run(tree) as unknown as Scries;
 };
 
-type GetMarkdown = (...slugs: string[]) => Promise<Markdown>;
+type GetMarkdown = (path: string, root?: string) => Promise<Markdown>;
 
 /**
- * Read file system and return Markdown matter from the specified slug.
+ * Read file system and return Markdown matter from the specified path.
+ * Provided path should be relative to `BASE_MARKDOWN_URL` but can be specified.
  * Augment the result with Scryfall data found in the Markdown content.
  */
-export const getMarkdown: GetMarkdown = async (...slugs) => {
-  const path = join(BASE_MARKDOWN_URL, ...slugs) + MARKDOWN_EXTENSION;
-  const { content: text, data: matter } = readMarkdown(path);
+export const getMarkdown: GetMarkdown = async (
+  path,
+  root = BASE_MARKDOWN_URL
+) => {
+  const absolutePath = join(root, path) + MARKDOWN_EXTENSION;
+  const { content: text, data: matter } = readMarkdown(absolutePath);
   const scries = await getScries(text);
   return { matter, scries, text: toDirective(text) };
 };
