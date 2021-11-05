@@ -22,6 +22,7 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
   articles,
   decklists,
   menu,
+  partials,
   welcome,
 }) => {
   const initialSize = 5;
@@ -54,6 +55,7 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
             component={Remark}
             decklists={decklists}
             markdown={welcome}
+            partials={partials}
           />
         </Card>
       </Grid>

@@ -19,6 +19,7 @@ const ChapterPage: NextPage<Props & ExtraPageProps> = ({
   decklists,
   markdown,
   menu,
+  partials,
 }) => (
   <Layout maxWidth="md" menu={menu} title={markdown?.matter?.title}>
     <Card>
@@ -26,6 +27,7 @@ const ChapterPage: NextPage<Props & ExtraPageProps> = ({
         component={Remark}
         decklists={decklists}
         markdown={markdown}
+        partials={partials}
       />
     </Card>
   </Layout>

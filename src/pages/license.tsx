@@ -16,6 +16,7 @@ const LicensePage: NextPage<Props & ExtraPageProps> = ({
   decklists,
   markdown,
   menu,
+  partials,
 }) => (
   <Layout menu={menu} title="License">
     <Card>
@@ -23,6 +24,7 @@ const LicensePage: NextPage<Props & ExtraPageProps> = ({
         component={Remark}
         decklists={decklists}
         markdown={markdown}
+        partials={partials}
       />
     </Card>
   </Layout>

@@ -7,9 +7,11 @@ import remarkSlug from 'remark-slug';
 import remarkToc from 'remark-toc';
 import type { PluggableList } from 'unified';
 import Typography from '@material-ui/core/Typography';
+// eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Markdown } from '@/tools/markdown/types';
+import type { Markdown, Partials } from '@/tools/markdown/types';
+import { remarkAccordion } from '@/tools/remark/remarkAccordion';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist';
@@ -21,16 +23,19 @@ interface Props {
   className?: string;
   decklists: Decklists;
   markdown: Markdown;
+  partials: Partials;
 }
 
 export const Remark: FunctionComponent<Props> = ({
   className,
   decklists,
   markdown,
+  partials,
 }) => {
   const classes = useStyles();
   const { matter, scries, text } = markdown;
 
+  /** Vendor plugins to run against the node tree. */
   const basePlugins: PluggableList = [
     remarkDirective,
     remarkGfm,
@@ -38,8 +43,14 @@ export const Remark: FunctionComponent<Props> = ({
     [remarkToc, { maxDepth: 4, ordered: true, tight: true }],
   ];
 
+  /**
+   * Our own remarkers to run against the node tree.
+   * They should be used after vendor plugins. The `remarkBase` plugin should
+   * always run first.
+   */
   const customPlugins: PluggableList = [
     remarkBase,
+    [remarkAccordion, { decklists, partials }],
     remarkCard,
     [remarkDecklist, { decklists }],
     remarkMana,

@@ -14,6 +14,9 @@ export const BASE_ARTICLE_URL = join(BASE_MARKDOWN_URL, 'articles');
 /** Base URL for chapters. */
 export const BASE_CHAPTER_URL = join(BASE_MARKDOWN_URL, 'chapters');
 
+/** Base URL for partials. */
+export const BASE_PARTIALS_URL = join(BASE_MARKDOWN_URL, 'partials');
+
 /** Set order for the menu entries. */
 export const MENU_ENTRIES: Category[] = [
   'meandeck',

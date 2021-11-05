@@ -24,3 +24,5 @@ export interface Markdown {
   scries: Scries;
   text: string;
 }
+
+export type Partials = Record<string, Markdown>;

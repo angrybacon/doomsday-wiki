@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { ThemeProvider } from '@/theme/ThemeContext';
 import { getDecklists } from '@/tools/decklists/getDecklists';
+import { getPartials } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import type { ExtraPageProps } from '@/interfaces/page.model';
 
@@ -12,6 +13,7 @@ const Application = ({
   decklists,
   menu,
   pageProps,
+  partials,
 }: AppProps & ExtraPageProps): JSX.Element => {
   useEffect(() => {
     const styles = document.querySelector('#jss-server-side');
@@ -30,7 +32,12 @@ const Application = ({
       <ThemeProvider>
         <CssBaseline />
         {/* TODO Provide decklists and menu through a shared context */}
-        <Component {...pageProps} decklists={decklists} menu={menu} />
+        <Component
+          {...pageProps}
+          decklists={decklists}
+          menu={menu}
+          partials={partials}
+        />
       </ThemeProvider>
     </>
   );
@@ -38,7 +45,12 @@ const Application = ({
 
 Application.getInitialProps = async (context: AppContext) => {
   const props = await NextApplication.getInitialProps(context);
-  return { ...props, decklists: getDecklists(), menu: getMenu() };
+  return {
+    ...props,
+    decklists: getDecklists(),
+    menu: getMenu(),
+    partials: await getPartials(),
+  };
 };
 
 export default Application;

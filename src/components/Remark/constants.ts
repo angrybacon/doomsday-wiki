@@ -1,5 +1,10 @@
 import type { FunctionComponent } from 'react';
 import type { Components } from 'react-markdown';
+// eslint-disable-next-line import/no-cycle
+import {
+  RemarkAccordion,
+  Props as RemarkAccordionProps,
+} from '@/components/Remark/renderers/RemarkAccordion';
 import {
   RemarkCard,
   Props as RemarkCardProps,
@@ -59,6 +64,7 @@ export const COMPONENTS: Components = {
 };
 
 export const COMPONENTS_EXTRA: {
+  accordion: FunctionComponent<RemarkAccordionProps>;
   card: FunctionComponent<RemarkCardProps>;
   decklist: FunctionComponent<RemarkDecklistProps>;
   mana: FunctionComponent<RemarkManaProps>;
@@ -66,6 +72,7 @@ export const COMPONENTS_EXTRA: {
   soundcloud: FunctionComponent<RemarkSoundcloudProps>;
   youtube: FunctionComponent<RemarkYoutubeProps>;
 } = {
+  accordion: RemarkAccordion,
   card: RemarkCard,
   decklist: RemarkDecklist,
   mana: RemarkMana,

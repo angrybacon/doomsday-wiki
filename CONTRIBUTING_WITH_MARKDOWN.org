@@ -157,6 +157,18 @@ parameter in the address bar.
 ::youtube{id=3LLIFHv5kbo}
 #+END_SRC
 
+*** Accordions
+
+Collapsible blocks can be stacked against one another or used alone. Provide a
+title for the CTA as well as a relative path to the Markdown partial to insert
+in the accordion.
+
+Do not specify the extension for the partial, =.md= is assumed.
+
+#+BEGIN_SRC markdown
+::accordion[Click to expand]{path=path/to/partial}
+#+END_SRC
+
 ** Mana
 
 You can inline mana symbols in Markdown as well as in decklist blocks. When used
