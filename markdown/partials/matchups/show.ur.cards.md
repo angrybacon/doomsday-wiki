@@ -4,6 +4,7 @@
 - Daze
 - Force of Will
 - Sneak Attack
+- Boseiju, Who Shelters All
 :::
 
 **Sideboard**

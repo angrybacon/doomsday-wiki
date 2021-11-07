@@ -14,4 +14,6 @@
 - Pyroblast
 - Force of Negation
 - Surgical Extraction
+- Torpor Orb
+- Flusterstorm
 :::

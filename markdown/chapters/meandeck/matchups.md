@@ -1,5 +1,5 @@
 ---
-authors: OtterLady, Doishy
+authors: OtterLady, Doishy, AngryBacon
 title: Matchup Guides
 ---
 
@@ -26,13 +26,18 @@ fast piles.
 
 ## Jeskai Ragavan
 
+The longer you wait, the harder it becomes to power through their card advantage
+as they deploy their clock. The absence of :card[Lightning Bolt] means passing
+the turn is safer than against UR Delver but the likewise, resolving Doomsday
+early is best.
+
 ::accordion[Cards to keep in mind]{path=matchups/sagavan.cards}
 ::accordion[Gameplay]{path=matchups/sagavan.gameplay}
 
 ## Bant Miracles
 
 Beating countermagic is not your only problem, their hatebears and answers to
-Oracle will be main reason you lose games.
+Oracle will be the main reason you lose games.
 
 ::accordion[Cards to keep in mind]{path=matchups/miracles.cards}
 ::accordion[Gameplay]{path=matchups/miracles.gameplay}
@@ -65,7 +70,7 @@ Just slam, and beat Endurance post Doomsday.
 ::accordion[Cards to keep in mind]{path=matchups/post.cards}
 ::accordion[Gameplay]{path=matchups/post.gameplay}
 
-## Gw Depths
+## GW Depths
 
 Cast Doomsday as soons as possible, and play around Endurance.
 
@@ -108,7 +113,7 @@ You are a bit faster, use this to your advantage.
 ::accordion[Cards to keep in mind]{path=matchups/show.ur.cards}
 ::accordion[Gameplay]{path=matchups/show.ur.gameplay}
 
-## Ug Omni-Tell
+## UG Omni-Tell
 
 They are just a bad control deck with a combo finish. Omni-Tell can not beat you
 post Doomsday.

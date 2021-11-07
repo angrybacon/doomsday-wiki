@@ -3,6 +3,7 @@
 :::row{variant=centered}
 - Anger
 - Vengevine
+- Burning Inquiry
 :::
 
 **Sideboard**

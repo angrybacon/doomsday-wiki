@@ -4,7 +4,6 @@
 - Allosaurus Shepherd
 - Archon of Valor's Reach
 - Crop Rotation
-- Glimpse of Nature
 - Natural Order
 :::
 

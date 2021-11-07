@@ -3,14 +3,15 @@
 :::row{variant=centered}
 - Force of Will
 - Veil of Summer
-- Force of Will
 - Cunning Wish
+- Boseiju, Who Shelters All
 :::
 
 **Sideboard**
 
 :::row{variant=centered}
 - Surgical Extraction
-- Endurance}}
+- Endurance
 - Trickbind
+- Dress Down
 :::

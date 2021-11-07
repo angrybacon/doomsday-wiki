@@ -12,4 +12,5 @@
 
 :::row{variant=centered}
 - Iona, Shield of Emeria
+- Magus of the Moon
 :::

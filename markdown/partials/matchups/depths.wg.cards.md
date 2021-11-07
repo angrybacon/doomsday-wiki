@@ -14,4 +14,6 @@
 - Deafening Silence
 - Choke
 - Collector Ouphe
+- Pithing Needle
+- Torpor Orb
 :::
