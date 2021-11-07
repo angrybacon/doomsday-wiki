@@ -1,9 +1,12 @@
+import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
+import { mdiChevronDown } from '@mdi/js';
+import { Icon } from '@mdi/react';
 // eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
 import type { Decklists } from '@/tools/decklists/types';
@@ -34,11 +37,14 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
   const title = children ?? path;
   return (
     <div className={classes.root}>
-      <Accordion classes={{}} elevation={0}>
-        <AccordionSummary className={classes.gutters}>
+      <Accordion elevation={0}>
+        <AccordionSummary
+          className={classes.gutters}
+          expandIcon={<Icon path={mdiChevronDown} size={1} />}
+        >
           <Typography>{title}</Typography>
         </AccordionSummary>
-        <AccordionDetails className={classes.gutters}>
+        <AccordionDetails className={c(classes.details, classes.gutters)}>
           <Remark
             decklists={decklists}
             markdown={markdown}

@@ -163,10 +163,11 @@ Collapsible blocks can be stacked against one another or used alone. Provide a
 title for the CTA as well as a relative path to the Markdown partial to insert
 in the accordion.
 
-Do not specify the extension for the partial, =.md= is assumed.
+Do not specify the extension for the partial, =.md= is always assumed.
 
 #+BEGIN_SRC markdown
-::accordion[Click to expand]{path=path/to/partial}
+::accordion[Click to expand]{path=path/to/partial/one}
+::accordion[Click to expand]{path=path/to/partial/two}
 #+END_SRC
 
 ** Mana
