@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Sneak and Show is one of our harder combo matchups, but we should still be
 slightly favoured.
@@ -16,7 +16,7 @@ they will sculpt their hand better than you most of the time.
 In post board games they have two tricks up their sleeve, :card[Blood Moon]
 effects and Ragavan. Try to keep that in mind.
 
-**Post Doomsday**
+###### Post Doomsday
 
 If you have to pass the turn after resolving Doomsday, try to do so with
 available draw effects still in hand. This makes it risky for them to resolve

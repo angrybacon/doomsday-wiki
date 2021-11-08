@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 The Hogaak matchup can be pretty tricky, because they have two ways to kill you,
 either with damage or with mill. They don't even have to completely mill your 60
@@ -18,7 +18,7 @@ Other than :card[Surgical Extraction], they don't play any sideboard hate for
 Doomsday. Countermagic is still paramount to keep them in check and protect your
 combo.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Because Hogaak plays no cards to interact with you on the stack, resolving
 Doomsday is easy in itself. Playing around crab and fetchlands however can be

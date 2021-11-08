@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Endurance
@@ -6,7 +6,7 @@
 - Pithing Needle
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Mindbreak Trap

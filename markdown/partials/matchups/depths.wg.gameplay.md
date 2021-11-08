@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 The matchup plays pretty similar to the Maverick matchup, but you have to focus
 more on speed. GW Depths can set up a pretty early Dark Depths Combo with its
@@ -12,7 +12,7 @@ bring in more mana denial like :card[Collector Ouphe] or :card[Choke] and some
 basic combo hate with :card[Deafening Silence]. Still, nothing a fast Doomsday
 can't beat.
 
-**Post Doomsday**
+###### Post Doomsday
 
 For your pile, evaluate their pressure and build accordingly, but try to play
 around :card[Endurance] if possible.

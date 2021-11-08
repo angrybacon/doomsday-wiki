@@ -1,8 +1,10 @@
 ###### Maindeck
 
 :::row{variant=centered}
-- Endurance
-- Thoughtseize
+- Wasteland
+- Spirit of the Labyrinth
+- Meddling Mage
+- Aether Vial
 - Force of Will
 - Teferi, Time Raveler
 :::
@@ -10,10 +12,6 @@
 ###### Sideboard
 
 :::row{variant=centered}
-- Leovold, Emissary of Trest
+- Ethersworn Canonist
 - Force of Negation
-- Opposition Agent
-- Hullbreacher
-- Meddling Mage
-- Veil of Summer
 :::

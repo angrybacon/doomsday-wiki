@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Orim's Chant
@@ -7,7 +7,7 @@
 - Echo of Eons
 :::
 
-**Sideboard**
+###### Sideboard
 
 TES doesn't have sideboard slots for us, the playset of :card[Burning Wish]es
 allows for a lot of flexibility, including different threats based on the board

@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Daze
@@ -7,7 +7,7 @@
 - Boseiju, Who Shelters All
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Ragavan, Nimble Pilferer

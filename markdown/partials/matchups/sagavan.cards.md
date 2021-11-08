@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Ragavan, Nimble Pilferer
@@ -9,7 +9,7 @@
 - Urza's Saga
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Hullbreacher

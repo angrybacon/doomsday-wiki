@@ -134,3 +134,8 @@ Just race, don't rely on a turn 3 Doomsday.
 
 ::accordion[Cards to keep in mind]{path=matchups/madness.cards}
 ::accordion[Gameplay]{path=matchups/madness.gameplay}
+
+## Esper Vial
+
+::accordion[Cards to keep in mind]{path=matchups/esper-vial.cards}
+::accordion[Gameplay]{path=matchups/esper-vial.gameplay}

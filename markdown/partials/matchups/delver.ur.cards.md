@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Ragavan, Nimble Pilferer
@@ -8,7 +8,7 @@
 - Force of Will
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Pyroblast

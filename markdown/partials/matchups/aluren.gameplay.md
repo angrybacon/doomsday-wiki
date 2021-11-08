@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Aluren is a pretty slow combo deck. These days white seems to be preferred over
 the {U}{B}{G} lists. To go off they need at least 4 mana, :card[Aluren] and a
@@ -13,7 +13,7 @@ least 2 Force effects from their side and try to keep an eye out for
 :card[Opposition Agent] and :card[Hullbreacher]. The white lists also have
 access to hatebears so bringing removal might be warranted.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Many lists play :card[Endurance], like most green decks in the current meta, so
 prepare to play around at least one copy.

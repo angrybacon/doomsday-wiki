@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Endurance
@@ -8,7 +8,7 @@
 - Teferi, Time Raveler
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Hullbreacher

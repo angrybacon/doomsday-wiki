@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 You can play a much slower game against Bant Miracles. They don't have any early
 threats and have to respect Daze. In game 1 one layer of protection is often
@@ -10,7 +10,7 @@ often don't have enough countermagic to just fight Doomsday on the stack. They
 have to try to lock us out of the game or rely on the pressure of their
 creatures.
 
-**Post Doomsday**
+###### Post Doomsday
 
 After you resolved Doomsday everything is about beating :card[Endurance], and
 against some newer lists :card[Dress Down]. They are their main way to beat

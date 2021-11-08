@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 The matchup against Maverick plays pretty similar to the Death and Taxes
 matchup, with a small but important difference, :card[Green Sun's Zenith]. It
@@ -9,7 +9,7 @@ Some lists play :card[Dark Depths] as an alternative win condition, but it's not
 super common and the Dark Depths lines are all very telegraphed and easy to
 spot.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Like against most green decks :card[Endurance] is the only real threat to your
 easier and quick piles.

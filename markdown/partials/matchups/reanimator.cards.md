@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Grief
@@ -8,7 +8,7 @@
 - Unmask
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Iona, Shield of Emeria

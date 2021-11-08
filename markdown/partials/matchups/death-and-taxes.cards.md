@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Thalia, Guardian of Thraben
@@ -10,7 +10,7 @@
 - Sanctum Prelate
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Deafening Silence

@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Similar to Hogaak it's a race or die matchup, but Madness has zero interaction
 other than creature removal. They just slam and hope it's enough, and we do the
@@ -17,7 +17,7 @@ Should they have :card[Mindbreak Trap] in hand post sideboard, it's often pretty
 obvious, because it's very hard for them to keep interaction up while playing
 out their threats.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Their only ways to put hasty threats onto the board are :card[Vengevine] or
 :card[Anger] with a Mountain. This makes it very easy to predict their damage

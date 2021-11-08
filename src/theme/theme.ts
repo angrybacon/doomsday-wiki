@@ -86,8 +86,8 @@ const options: ThemeOptions = {
     h2: { fontSize: base.typography.pxToRem(48) },
     h3: { fontSize: base.typography.pxToRem(40) },
     h4: { fontSize: base.typography.pxToRem(32) },
-    h5: { fontSize: base.typography.pxToRem(24) },
-    h6: { fontSize: base.typography.pxToRem(20) },
+    h5: { fontSize: base.typography.pxToRem(26) },
+    h6: { fontSize: base.typography.pxToRem(22) },
   },
 };
 

@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Do **not** keep hands without countermagic. You'll need it to protect your own
 combo and fighting off theirs. With all their discard effects one free counter
@@ -10,7 +10,7 @@ effects, without a good target their reanimation spells are mitigated. And as a
 little side note, most lists play only 8 slots dedicated to bin creatures into
 the graveyard and 12 reanimation spells.
 
-**Post Doomsday**
+###### Post Doomsday
 
 The scariest creatures they can reanimate post Doomsday are :card[Iona, Shield
 of Emeria] and :card[Ashen Rider], so try to be careful with your lands as they
