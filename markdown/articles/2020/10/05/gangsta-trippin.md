@@ -306,11 +306,11 @@ just need to find a single remaining piece to combo off, perhaps a ritual,
 Doomsday or protection spell. Depending on what combination of cantrips is in
 hand, can be crucial in balancing what is best for finding the missing piece and
 also which is best for accessing the pile. As is alluded to in the [meandeck
-interactions](chapters/meandeck/interactions) chapter, there can be crucial
-benefits to favouring one cantrip over another. In a vacuum, Brainstorm is
-likely the most favourable cantrip to retain. It enables the most mana efficient
-same turn win piles and, without a fetchland to pair with, can cause you to
-become locked when searching for the final piece.
+interactions](/meandeck/interaction) chapter, there can be crucial benefits to
+favouring one cantrip over another. In a vacuum, Brainstorm is likely the most
+favourable cantrip to retain. It enables the most mana efficient same turn win
+piles and, without a fetchland to pair with, can cause you to become locked when
+searching for the final piece.
 
 If picking between Ponder and Preordain, Ponder is obviously favourable to be
 able to see more cards than Preordain can to maximise the chance of finding the
