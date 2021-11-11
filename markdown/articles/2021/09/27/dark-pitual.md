@@ -11,12 +11,12 @@ title: Doomsday at the Legacy Pit Open - An Interview with RomarioVidal
 Last weekend (weekend of September the 18th 2021) The Legacy Pit hosted the
 Legacy Pit Open; a large, competitive event for Legacy in the US. The event was
 very successful and a number of people have already written reports / write ups
-of their tournament experience. Various archetypes were represented
-including a fair few people out to jam some Doomsday in paper. We approached
-those who were part of the online community and asked if anyone was willing to
-write up a report of their event and we had a brilliant response with 4 pilots
-submitting reports for this article and 1 of them even offering to talk over the
-experience in an interview too!
+of their tournament experience. Various archetypes were represented including a
+fair few people out to jam some Doomsday in paper. We approached those who were
+part of the online community and asked if anyone was willing to write up a
+report of their event and we had a brilliant response with 4 pilots submitting
+reports for this article and 1 of them even offering to talk over the experience
+in an interview too!
 
 For the wider meta and to follow the decklists within the event it can all be
 found online along with the organiser's website (they produce a lot of good
@@ -874,7 +874,7 @@ By the time I recovered, Kyle had Delerium turned on with DRC, eventually
 flipped a Delver, and was able to close the game out with a series of burn
 spells.
 
-**In:** :card[Cavern of Souls],  2 :card[Duress], :card[Abrade], 2
+**In:** :card[Cavern of Souls], 2 :card[Duress], :card[Abrade], 2
 :card[Flusterstorm]  
 **Out:** 4 :card[Force of Will], 2 :card[Lim-Dul's Vault]
 
@@ -1044,10 +1044,11 @@ that whiffed. The next turn, I find the ritual and immediately cast
 :card[Force of Will] backup. My opponent spins his wheels the following turn,
 not top decking well.
 
-**In:** 2 :card[Abrade], :card[Red Elemental Blast], :card[Pyroblast], :card[Cavern
-of Souls], 2 :card[Flusterstorm], 2 :card[Duress], :card[Echoing Truth]  
-**Out:** 2 :card[Stifle], 2 :card[Pact of Negation], 2 :card[Lim-Dul's Vault], 2
-:card[Street Wraith], 2 :card[Lotus Petal]
+**In:** 2 :card[Abrade], :card[Red Elemental Blast], :card[Pyroblast],
+:card[Cavern of Souls], 2 :card[Flusterstorm], 2 :card[Duress], :card[Echoing
+Truth]  
+**Out:** 2 :card[Stifle], 2 :card[Pact of Negation], 2 :card[Lim-Dul's
+Vault], 2 :card[Street Wraith], 2 :card[Lotus Petal]
 
 Game 2, we both mull to 6. My opponent opens with :card[Painter's Servant]
 naming {W}, which is not what I want to see with a grip full of Red Blasts and
