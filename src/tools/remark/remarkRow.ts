@@ -18,14 +18,15 @@ export const remarkRow: Plugin<[{ scries: Scries }]> =
       const directive = node as ContainerDirective;
       const texts = selectAll('text', directive) as Text[];
       const cards = texts.map((text) => {
+        const query: string = text.value;
         let data: ScryDataItem;
         try {
           // NOTE Scry data can contain card faces
-          data = readFirstFace(scries[text.value]);
+          data = readFirstFace(scries[query]);
         } catch {
-          throw new Error(`Missing Scryfall data for query "${text.value}"`);
+          throw new Error(`Missing Scryfall data for query "${query}"`);
         }
-        return { data, id: text.position?.start.offset, query: text.value };
+        return { data, id: text.position?.start.offset };
       });
       // NOTE Augment tree properties with card meta data
       directive.data = {

@@ -9,16 +9,17 @@ describe(Card.name, () => {
   beforeEach(() => {
     props = {
       data: {
-        // eslint-disable-next-line camelcase
+        /* eslint-disable camelcase */
+        artist: 'Firstname Lastname',
         image_uris: { border_crop: 'protocol://path/to/resource.png' },
         name: 'Card Name',
+        set_name: 'Set Name',
+        /* eslint-enable camelcase */
       } as ScryDataItem,
-      query: 'Card Name | SET',
     };
-    jest.clearAllMocks();
   });
 
-  it('should render nothing when URL is not available', () => {
+  it('should render nothing when URLs are not available', () => {
     // Given
     // eslint-disable-next-line camelcase
     props.data = { image_uris: {} } as ScryDataItem;
@@ -28,7 +29,7 @@ describe(Card.name, () => {
     expect(container).toBeEmptyDOMElement();
   });
 
-  it('should set a source attribute', () => {
+  it('should set the source attribute to the provided URL', () => {
     // Given
     const url = 'protocol://path/to/resource.png';
     // eslint-disable-next-line camelcase
@@ -41,21 +42,14 @@ describe(Card.name, () => {
 
   it('should set the accessible name', () => {
     // Given
-    const name = 'Card Name';
-    props.data.name = name;
+    props.data.name = 'Card Name';
+    props.data.artist = 'Firstname Lastname';
+    // eslint-disable-next-line camelcase
+    props.data.set_name = 'Set Name';
     // When
     render(<Card {...props} />);
     // Then
-    expect(screen.getByRole('img')).toHaveAccessibleName(name);
-  });
-
-  it('should fallback to the Scryfall query if the name is not available', () => {
-    // Given
-    props.data.name = '';
-    props.query = 'Card Name | SET';
-    // When
-    render(<Card {...props} />);
-    // Then
-    expect(screen.getByRole('img')).toHaveAccessibleName(props.query);
+    const title = '"Card Name" from Set Name - Art by Firstname Lastname';
+    expect(screen.getByRole('img')).toHaveAccessibleName(title);
   });
 });

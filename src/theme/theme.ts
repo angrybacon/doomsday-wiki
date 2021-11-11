@@ -3,13 +3,17 @@ import type { CSSProperties } from '@material-ui/core/styles/withStyles';
 import primary from '@material-ui/core/colors/deepPurple';
 import secondary from '@material-ui/core/colors/pink';
 
+interface DrawerOptions {
+  width: number;
+}
+
 declare module '@material-ui/core/styles' {
   interface Theme {
-    drawer: { width: number };
+    drawer: DrawerOptions;
   }
 
   interface ThemeOptions {
-    drawer?: { width?: number };
+    drawer: DrawerOptions;
   }
 }
 

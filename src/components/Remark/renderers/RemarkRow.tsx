@@ -13,7 +13,7 @@ enum Variant {
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: {
-      cards: { data: ScryDataItem; id?: string; query: string }[];
+      cards: { data: ScryDataItem; id?: string }[];
       variant?: Variant;
     };
   };
@@ -28,9 +28,9 @@ export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
   return (
     <div className={classes.root}>
       <div className={c(classes.container, classes[variantClass])}>
-        {cards.map(({ data, id, query }) => (
+        {cards.map(({ data, id }) => (
           <div className={classes.card} key={id}>
-            <Card data={data} query={query} />
+            <Card data={data} />
           </div>
         ))}
       </div>

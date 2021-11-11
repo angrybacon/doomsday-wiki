@@ -6,6 +6,7 @@ import Divider from '@material-ui/core/Divider';
 import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
 import IconButton from '@material-ui/core/IconButton';
 import List from '@material-ui/core/List';
+import Tooltip from '@material-ui/core/Tooltip';
 import {
   mdiDiscord,
   mdiNewspaperVariantMultiple,
@@ -64,17 +65,21 @@ export const Sidebar: FunctionComponent<Props> = ({
           display="flex"
           ml="auto"
         >
-          <a href={DISCORD_URL} rel="noreferrer" target="_blank">
-            <IconButton>
-              <Icon path={mdiDiscord} size={0.8} />
+          <Tooltip arrow title="Discord">
+            <a href={DISCORD_URL} rel="noreferrer" target="_blank">
+              <IconButton>
+                <Icon path={mdiDiscord} size={0.8} />
+              </IconButton>
+            </a>
+          </Tooltip>
+          <Tooltip arrow title={`Switch to ${isDark ? 'light' : 'dark'} theme`}>
+            <IconButton onClick={onThemeToggle}>
+              <Icon
+                path={isDark ? mdiWeatherSunny : mdiWeatherNight}
+                size={0.8}
+              />
             </IconButton>
-          </a>
-          <IconButton onClick={onThemeToggle}>
-            <Icon
-              path={isDark ? mdiWeatherSunny : mdiWeatherNight}
-              size={0.8}
-            />
-          </IconButton>
+          </Tooltip>
         </Box>
       </Box>
       <Divider />

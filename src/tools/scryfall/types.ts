@@ -11,7 +11,7 @@ enum ScryObject {
  * See https://scryfall.com/docs/api/cards
  */
 export interface ScryDataItem {
-  artist?: string;
+  artist: string;
   card_faces?: (Partial<ScryDataItem> & { object: ScryObject.CARD_FACE })[];
   image_uris?: {
     art_crop: string;
@@ -23,6 +23,8 @@ export interface ScryDataItem {
   };
   name: string;
   object: ScryObject.CARD;
+  set: string;
+  set_name: string;
 }
 
 /**
