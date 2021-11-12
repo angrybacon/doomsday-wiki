@@ -13,7 +13,7 @@
 :::row{variant=centered}
 - Hullbreacher
 - Ethersworn Canonist
-- Surgical Extraction
+- Court of Cunning
 - Force of Negation
 - Meddling Mage
 - Torpor Orb

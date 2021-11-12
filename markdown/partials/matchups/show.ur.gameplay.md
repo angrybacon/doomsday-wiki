@@ -8,7 +8,7 @@ important differences. We have better fast mana in the form of :card[Dark
 Ritual] and we only need one card to combo. This means we need less resources to
 combo and we can use cantrips to look for protection rather than combo cards.
 
-In games were you can't combo safe in turn 1 or 2 the game can evolve into a
+In games where you can't combo safe in turn 1 or 2 the game can evolve into a
 staredown while both players dig for interaction. Discard can be very helpful in
 situations like this. But be careful, if you play a list with less cantrips,
 they will sculpt their hand better than you most of the time.

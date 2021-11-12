@@ -21,9 +21,15 @@ combo.
 ###### Post Doomsday
 
 Because Hogaak plays no cards to interact with you on the stack, resolving
-Doomsday is easy in itself. Playing around crab and fetchlands however can be
+Doomsday is easy in itself. Playing around crabs and fetchlands however can be
 very difficult, especially when passing the turn where they might have access to
-2 fetchland activations or worse, a second crab. If you have the resources, try
-building [Brainstorm piles](/meandeck/brainstorm/) as they can *fix* your pile
-after a crab trigger or Altar activation(s). Should you have to pass the turn,
-make sure you have answers at your disposal.
+2 fetchland activations or worse, a second crab.
+
+They can also attempt to shuffle your pile thanks to :card[Assassin's Trophy].
+It is a *may* clause but ponder whether you can part with a land during your
+turn.
+
+If you have the resources, try building [Brainstorm
+piles](/meandeck/brainstorm/) as they can *fix* your pile after a crab trigger
+or Altar activation(s). Should you have to pass the turn, make sure you have
+answers at your disposal.

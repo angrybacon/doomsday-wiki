@@ -23,4 +23,5 @@ resources to go off anymore, but that is not always the case, especially since
 :card[Acererak the Archlich] joined the format. Should they still be able to go
 off and you have enough cyclers in hand to cycle to Thassa's Oracle, be careful
 when casting it off :card[Aluren]. It's better to cast it when their combo
-creature is still on the stack, else they can react and combo off in response.
+creature is still on the stack, else they can react and combo off again in
+response.

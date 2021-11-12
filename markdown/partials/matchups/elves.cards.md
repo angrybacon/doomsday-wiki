@@ -10,6 +10,7 @@
 ###### Sideboard
 
 :::row{variant=centered}
+- Endurance
 - Collector Ouphe
 - Thoughtseize
 - Deafening Silence
