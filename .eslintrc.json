@@ -12,12 +12,6 @@
   ],
   "overrides": [
     {
-      "files": ["*.js"],
-      "rules": {
-        "no-param-reassign": "off"
-      }
-    },
-    {
       "files": ["*.ts", "*.tsx"],
       "rules": {
         "@typescript-eslint/explicit-module-boundary-types": "error",
@@ -56,6 +50,7 @@
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
+    "react/jsx-no-useless-fragment": ["warn", { "allowExpressions": true }],
     "no-console": ["warn", { "allow": ["error", "info"] }],
     "no-use-before-define": "off",
     "no-shadow": "off",
@@ -64,6 +59,13 @@
       { "extensions": [".jsx", ".tsx"] }
     ],
     "react/jsx-props-no-spreading": "off",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "no-restricted-syntax": [
       "error",
       "ForInStatement",

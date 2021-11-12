@@ -61,21 +61,21 @@ export const scry: Scry = (query) =>
         // NOTE The request has already resolved
         response.status === HttpStatusCode.OK
       ) {
-        return resolve(response);
+        resolve(response);
       }
-      return reject(cache[key]);
+      reject(cache[key]);
     }
     const path = `${api}?${parameters}`;
     console.info(`[scryfall] GET ${path}`);
     cache[key] = axios.get(path);
-    return (cache[key] as Promise<ScryResponse>).then(
+    (cache[key] as Promise<ScryResponse>).then(
       (response) => {
         cache[key] = response;
-        return resolve(response);
+        resolve(response);
       },
       (error) => {
         cache[key] = error.response;
-        return reject(error.response);
+        reject(error.response);
       }
     );
   });

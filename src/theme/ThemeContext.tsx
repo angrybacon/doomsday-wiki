@@ -2,6 +2,7 @@ import React, {
   FunctionComponent,
   ReactChild,
   createContext,
+  useMemo,
   useState,
 } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
@@ -33,8 +34,10 @@ export const ThemeProvider: FunctionComponent<Props> = ({ children }) => {
     setIsDark((previous) => !previous);
   };
 
+  const value: ThemeState = useMemo(() => ({ isDark, toggle }), [isDark]);
+
   return (
-    <ThemeContext.Provider value={{ isDark, toggle }}>
+    <ThemeContext.Provider value={value}>
       <MuiThemeProvider theme={isDark ? darkTheme : lightTheme}>
         {children}
       </MuiThemeProvider>

@@ -1,10 +1,13 @@
 import type { AxiosResponse } from 'axios';
 
-enum ScryObject {
+enum ScryDataObject {
   CARD = 'card',
   CARD_FACE = 'card_face',
   LIST = 'list',
 }
+
+/** Convenience typing to represent a successful data yield. */
+export type ScryData = ScryDataItem | ScryDataList;
 
 /**
  * Type as best as possible the card response we get from Scryfall API.
@@ -12,7 +15,7 @@ enum ScryObject {
  */
 export interface ScryDataItem {
   artist: string;
-  card_faces?: (Partial<ScryDataItem> & { object: ScryObject.CARD_FACE })[];
+  card_faces?: (Partial<ScryDataItem> & { object: ScryDataObject.CARD_FACE })[];
   image_uris?: {
     art_crop: string;
     border_crop: string;
@@ -22,7 +25,7 @@ export interface ScryDataItem {
     small: string;
   };
   name: string;
-  object: ScryObject.CARD;
+  object: ScryDataObject.CARD;
   set: string;
   set_name: string;
 }
@@ -34,7 +37,7 @@ export interface ScryDataItem {
 export interface ScryDataList {
   data: ScryDataItem[];
   has_more: boolean;
-  object: ScryObject.LIST;
+  object: ScryDataObject.LIST;
   next_page: URL | null;
   total_cards: number | null;
   warnings: string[] | null;
@@ -52,7 +55,7 @@ export interface ScryError {
   warnings: string[] | null;
 }
 
-/** Dictionary of Scry results. */
+/** Dictionary of Scry settlements. */
 export type Scries = Record<string, ScryDataItem>;
 
 /** Convenience typing to refer to responses from the Scryfall API. */
