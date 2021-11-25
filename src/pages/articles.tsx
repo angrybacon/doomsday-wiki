@@ -11,9 +11,9 @@ import { createStyles, makeStyles } from '@material-ui/core/styles';
 import { mdiFileDocument } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Layout } from '@/components/Layout/Layout';
-import type { ExtraPageProps } from '@/interfaces/page.model';
 import { getArticles } from '@/tools/markdown/getArticles';
-import type { Document } from '@/tools/markdown/types';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type { Document, Menu } from '@/tools/markdown/types';
 
 const useStyles = makeStyles(() =>
   createStyles({
@@ -27,9 +27,10 @@ const useStyles = makeStyles(() =>
 
 interface Props {
   articles: Document[];
+  menu: Menu;
 }
 
-const ArticlesPage: NextPage<Props & ExtraPageProps> = ({ articles, menu }) => {
+const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
   const classes = useStyles();
   return (
     <Layout maxWidth="md" menu={menu} title="Articles">
@@ -70,6 +71,7 @@ const ArticlesPage: NextPage<Props & ExtraPageProps> = ({ articles, menu }) => {
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     articles: await getArticles(),
+    menu: getMenu(),
   },
 });
 

@@ -13,8 +13,8 @@ import type { Card } from '@/tools/decklists/types';
 import { useStyles } from './Decklist.styles';
 
 export interface Props {
-  authors?: string;
-  colors?: string[];
+  authors: string | null;
+  colors: string[] | null;
   date?: string;
   main: Card[][];
   side?: Card[];

@@ -8,17 +8,27 @@ import Grid from '@material-ui/core/Grid';
 import { Article } from '@/components/Article/Article';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
-import type { ExtraPageProps } from '@/interfaces/page.model';
+import { getDecklists } from '@/tools/decklists/getDecklists';
+import type { Decklists } from '@/tools/decklists/types';
 import { getArticles } from '@/tools/markdown/getArticles';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import type { Document, Markdown } from '@/tools/markdown/types';
+import { getMarkdown, getPartials } from '@/tools/markdown/getMarkdown';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type {
+  Document,
+  Markdown,
+  Menu,
+  Partials,
+} from '@/tools/markdown/types';
 
 interface Props {
   articles: Document[];
+  decklists: Decklists;
+  menu: Menu;
+  partials: Partials;
   welcome: Markdown;
 }
 
-const HomePage: NextPage<Props & ExtraPageProps> = ({
+const HomePage: NextPage<Props> = ({
   articles,
   decklists,
   menu,
@@ -84,6 +94,9 @@ const HomePage: NextPage<Props & ExtraPageProps> = ({
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     articles: await getArticles(),
+    decklists: getDecklists(),
+    menu: getMenu(),
+    partials: await getPartials(),
     welcome: await getMarkdown('partials/welcome'),
   },
 });

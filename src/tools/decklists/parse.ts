@@ -12,10 +12,10 @@ export const parse = (buffer: string): Decklist => {
   const [, header, main, side] = buffer.match(DECK_RE.decklist) || [];
   const { authors, colors, title } = parseHeader(header);
   return {
-    authors,
-    colors,
+    authors: authors ?? null,
+    colors: colors ?? null,
     main: parseCards(main),
     side: parseCards(side),
-    title,
+    title: title ?? null,
   };
 };

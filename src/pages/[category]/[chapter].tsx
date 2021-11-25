@@ -6,16 +6,26 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
-import type { ExtraPageProps } from '@/interfaces/page.model';
+import { getDecklists } from '@/tools/decklists/getDecklists';
+import type { Decklists } from '@/tools/decklists/types';
 import { getChapters } from '@/tools/markdown/getChapters';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import type { Document, Markdown } from '@/tools/markdown/types';
+import { getMarkdown, getPartials } from '@/tools/markdown/getMarkdown';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type {
+  Document,
+  Markdown,
+  Menu,
+  Partials,
+} from '@/tools/markdown/types';
 
 interface Props {
+  decklists: Decklists;
   markdown: Markdown;
+  menu: Menu;
+  partials: Partials;
 }
 
-const ChapterPage: NextPage<Props & ExtraPageProps> = ({
+const ChapterPage: NextPage<Props> = ({
   decklists,
   markdown,
   menu,
@@ -51,10 +61,13 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,
 }) => ({
   props: {
+    decklists: getDecklists(),
     markdown: await getMarkdown(
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       join('chapters', params!.category, params!.chapter)
     ),
+    menu: getMenu(),
+    partials: await getPartials(),
   },
 });
 

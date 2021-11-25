@@ -4,15 +4,20 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
-import type { ExtraPageProps } from '@/interfaces/page.model';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import type { Markdown } from '@/tools/markdown/types';
+import { getDecklists } from '@/tools/decklists/getDecklists';
+import type { Decklists } from '@/tools/decklists/types';
+import { getMarkdown, getPartials } from '@/tools/markdown/getMarkdown';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type { Markdown, Menu, Partials } from '@/tools/markdown/types';
 
 interface Props {
+  decklists: Decklists;
   markdown: Markdown;
+  menu: Menu;
+  partials: Partials;
 }
 
-const LicensePage: NextPage<Props & ExtraPageProps> = ({
+const LicensePage: NextPage<Props> = ({
   decklists,
   markdown,
   menu,
@@ -31,7 +36,12 @@ const LicensePage: NextPage<Props & ExtraPageProps> = ({
 );
 
 export const getStaticProps: GetStaticProps = async () => ({
-  props: { markdown: await getMarkdown('partials/license') },
+  props: {
+    decklists: getDecklists(),
+    markdown: await getMarkdown('partials/license'),
+    menu: getMenu(),
+    partials: await getPartials(),
+  },
 });
 
 export default LicensePage;

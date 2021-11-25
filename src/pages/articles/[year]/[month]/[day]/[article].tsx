@@ -6,16 +6,26 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
-import type { ExtraPageProps } from '@/interfaces/page.model';
+import { getDecklists } from '@/tools/decklists/getDecklists';
+import type { Decklists } from '@/tools/decklists/types';
 import { getArticles } from '@/tools/markdown/getArticles';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import type { Document, Markdown } from '@/tools/markdown/types';
+import { getMarkdown, getPartials } from '@/tools/markdown/getMarkdown';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type {
+  Document,
+  Markdown,
+  Menu,
+  Partials,
+} from '@/tools/markdown/types';
 
 interface Props {
+  decklists: Decklists;
   markdown: Markdown;
+  menu: Menu;
+  partials: Partials;
 }
 
-const ArticlePage: NextPage<Props & ExtraPageProps> = ({
+const ArticlePage: NextPage<Props> = ({
   decklists,
   markdown,
   menu,
@@ -53,6 +63,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,
 }) => ({
   props: {
+    decklists: getDecklists(),
     markdown: await getMarkdown(
       join(
         'articles',
@@ -64,6 +75,8 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
         /* eslint-enable @typescript-eslint/no-non-null-assertion */
       )
     ),
+    menu: getMenu(),
+    partials: await getPartials(),
   },
 });
 

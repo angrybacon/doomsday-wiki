@@ -1,4 +1,4 @@
-import { NextPage } from 'next';
+import { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import {
@@ -8,7 +8,8 @@ import {
   makeStyles,
 } from '@material-ui/core/styles';
 import { Layout } from '@/components/Layout/Layout';
-import type { ExtraPageProps } from '@/interfaces/page.model';
+import { getMenu } from '@/tools/markdown/getMenu';
+import type { Menu } from '@/tools/markdown/types';
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -33,7 +34,11 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
-const NotFoundPage: NextPage<ExtraPageProps> = ({ menu }) => {
+interface Props {
+  menu: Menu;
+}
+
+const NotFoundPage: NextPage<Props> = ({ menu }) => {
   const classes = useStyles();
   return (
     <Layout className={classes.root} menu={menu} title="404">
@@ -43,5 +48,11 @@ const NotFoundPage: NextPage<ExtraPageProps> = ({ menu }) => {
     </Layout>
   );
 };
+
+export const getStaticProps: GetStaticProps<Props> = () => ({
+  props: {
+    menu: getMenu(),
+  },
+});
 
 export default NotFoundPage;

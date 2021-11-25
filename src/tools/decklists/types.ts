@@ -1,11 +1,11 @@
 export type Card = [quantity: number, name: string];
 
 export interface Decklist {
-  authors?: string;
-  colors?: string[];
+  authors: string | null;
+  colors: string[] | null;
   main: Card[][];
   side?: Card[][];
-  title?: string;
+  title: string | null;
 }
 
 export interface DecklistExtra {
