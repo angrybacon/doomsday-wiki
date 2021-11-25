@@ -1,5 +1,5 @@
-import NextLink from 'next/link';
 import { GetStaticProps, NextPage } from 'next';
+import NextLink from 'next/link';
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Card from '@material-ui/core/Card';
