@@ -161,5 +161,7 @@ Just race, don't rely on a turn 3 Doomsday off your lands.
 
 ## Esper Vial
 
+Meddling Mage is the matchup defining card.
+
 ::accordion[Cards to keep in mind]{path=matchups/esper-vial.cards}
 ::accordion[Gameplay]{path=matchups/esper-vial.gameplay}

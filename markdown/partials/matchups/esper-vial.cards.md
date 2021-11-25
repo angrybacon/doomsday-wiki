@@ -7,6 +7,7 @@
 - Aether Vial
 - Force of Will
 - Teferi, Time Raveler
+- Venser, Shaper Savant
 :::
 
 ###### Sideboard
