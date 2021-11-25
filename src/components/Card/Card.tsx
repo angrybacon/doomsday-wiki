@@ -1,18 +1,18 @@
 import c from 'classnames';
 import React, { FunctionComponent, ReactChild } from 'react';
 import Tooltip from '@material-ui/core/Tooltip';
-import type { ScryDataItem } from '@/tools/scryfall/types';
+import type { ScryCard } from '@/tools/scryfall/types';
 import { useStyles } from './Card.styles';
 
 export interface Props {
   className?: string;
-  data: ScryDataItem;
+  data: ScryCard;
 }
 
 export const Card: FunctionComponent<Props> = ({ className, data }) => {
   const classes = useStyles();
-  const { artist, image_uris: imageUris, name, set_name: setName } = data;
-  const image = imageUris?.border_crop;
+  const { artist, images, name, setName } = data;
+  const image = images.full;
 
   if (!image) return null;
 

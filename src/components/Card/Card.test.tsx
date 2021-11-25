@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Card, Props } from '@/components/Card/Card';
-import type { ScryDataItem } from '@/tools/scryfall/types';
+import type { ScryCard } from '@/tools/scryfall/types';
 
 describe(Card.name, () => {
   let props: Props;
@@ -9,20 +9,17 @@ describe(Card.name, () => {
   beforeEach(() => {
     props = {
       data: {
-        /* eslint-disable camelcase */
         artist: 'Firstname Lastname',
-        image_uris: { border_crop: 'protocol://path/to/resource.png' },
+        images: { full: 'protocol://path/to/resource.png' },
         name: 'Card Name',
-        set_name: 'Set Name',
-        /* eslint-enable camelcase */
-      } as ScryDataItem,
+        setName: 'Set Name',
+      } as ScryCard,
     };
   });
 
   it('should render nothing when URLs are not available', () => {
     // Given
-    // eslint-disable-next-line camelcase
-    props.data = { image_uris: {} } as ScryDataItem;
+    props.data = { images: {} } as ScryCard;
     // When
     const { container } = render(<Card {...props} />);
     // Then
@@ -32,8 +29,7 @@ describe(Card.name, () => {
   it('should set the source attribute to the provided URL', () => {
     // Given
     const url = 'protocol://path/to/resource.png';
-    // eslint-disable-next-line camelcase
-    props.data = { image_uris: { border_crop: url } } as ScryDataItem;
+    props.data = { images: { full: url } } as ScryCard;
     // When
     render(<Card {...props} />);
     // Then
@@ -44,8 +40,7 @@ describe(Card.name, () => {
     // Given
     props.data.name = 'Card Name';
     props.data.artist = 'Firstname Lastname';
-    // eslint-disable-next-line camelcase
-    props.data.set_name = 'Set Name';
+    props.data.setName = 'Set Name';
     // When
     render(<Card {...props} />);
     // Then

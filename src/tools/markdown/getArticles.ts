@@ -9,11 +9,7 @@ import {
 import type { Document } from '@/tools/markdown/types';
 import { readFirstFace } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
-import type {
-  ScryDataItem,
-  ScryError,
-  ScryResponse,
-} from '@/tools/scryfall/types';
+import type { ScryData } from '@/tools/scryfall/types';
 
 /** Default options for the `getArticles` helper. */
 const getArticlesOptionsDefault: GetArticlesOptions = {
@@ -39,36 +35,28 @@ export const getArticles: GetArticles = async (options) => {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
       let { data } = readMarkdown(path);
       const [year, month, day, slug] = crumbs;
-      // NOTE Warm up Scryfall query in a temporary key to be resolved later
-      const bannerPromise = data.banner ? scry(data.banner) : null;
-      data = { ...data, bannerPromise, date: formatDate(year, month, day) };
+      // NOTE Warm up promise in a temporary property to be resolved later
+      const _bannerPromise = data.banner ? scry(data.banner) : null;
+      data = { ...data, _bannerPromise, date: formatDate(year, month, day) };
       const route = ['/articles', ...crumbs].join('/');
       return [...accumulator, { crumbs, data, route, slug }];
     }
     return accumulator;
   }, []);
-  // NOTE Wait for all banner promises, then update in place.
-  //      This is suboptimal in that promises have to be resolved in sequence
-  //      but reads more naturally and will prove easier to maintain for future
-  //      contributors. Nevertheless, promises have already been initialized
-  //      earlier so it's not completely inefficient.
+  // NOTE Wait for all banner promises to resolve
+  const promises = documents.reduce<(Promise<ScryData> | undefined)[]>(
+    (accumulator, { data }) => [...accumulator, data?._bannerPromise],
+    []
+  );
+  await Promise.allSettled(promises);
+  // NOTE Update document with banner data in place and clean up promises
   for (const document of documents) {
-    if (document.data?.bannerPromise) {
-      let response: ScryResponse;
-      try {
-        // eslint-disable-next-line no-await-in-loop
-        response = await document.data.bannerPromise;
-        delete document.data.bannerPromise;
-      } catch (error) {
-        const query: string = document.data.banner;
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const { details } = (error as any).data as ScryError;
-        throw new Error(
-          `Scryfall error while querying for banner '${query}' (${details})`
-        );
-      }
-      const card: ScryDataItem = readFirstFace(response.data);
-      document.data.banner = card.image_uris?.art_crop || null;
+    if (document.data?._bannerPromise) {
+      // eslint-disable-next-line no-await-in-loop
+      const data: ScryData = await document.data._bannerPromise;
+      delete document.data._bannerPromise;
+      const card = readFirstFace(data);
+      document.data.banner = card.images.art;
       document.data.bannerArtist = document.data.banner ? card.artist : null;
       document.data.bannerName = document.data.banner ? card.name : null;
     }

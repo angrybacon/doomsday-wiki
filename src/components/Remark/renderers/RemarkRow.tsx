@@ -2,7 +2,7 @@ import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Card } from '@/components/Card/Card';
-import type { ScryDataItem } from '@/tools/scryfall/types';
+import type { ScryCard } from '@/tools/scryfall/types';
 import { useStyles } from './RemarkRow.styles';
 
 enum Variant {
@@ -13,7 +13,7 @@ enum Variant {
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: {
-      cards: { data: ScryDataItem; id?: string }[];
+      cards: { data: ScryCard; id?: string }[];
       variant?: Variant;
     };
   };

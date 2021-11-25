@@ -14,7 +14,7 @@
     "start": "next start",
     "test": "jest",
     "test:coverage": "yarn test --coverage",
-    "test:watch": "yarn test --verbose --watch"
+    "test:watch": "yarn test --verbose --watchAll"
   },
   "dependencies": {
     "@material-ui/core": "^4.12.2",

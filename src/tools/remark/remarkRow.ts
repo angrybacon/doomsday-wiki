@@ -3,8 +3,7 @@ import type { ContainerDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
-import { readFirstFace } from '@/tools/scryfall/read';
-import type { Scries, ScryDataItem } from '@/tools/scryfall/types';
+import type { Scries, ScryCard } from '@/tools/scryfall/types';
 
 /**
  * Parse row directives and augment properties with Scry results for the current
@@ -19,11 +18,8 @@ export const remarkRow: Plugin<[{ scries: Scries }]> =
       const texts = selectAll('text', directive) as Text[];
       const cards = texts.map((text) => {
         const query: string = text.value;
-        let data: ScryDataItem;
-        try {
-          // NOTE Scry data can contain card faces
-          data = readFirstFace(scries[query]);
-        } catch {
+        const data: ScryCard = scries[query];
+        if (!data) {
           throw new Error(`Missing Scryfall data for query "${query}"`);
         }
         return { data, id: text.position?.start.offset };

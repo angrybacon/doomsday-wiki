@@ -54,6 +54,7 @@
     "no-console": ["warn", { "allow": ["error", "info"] }],
     "no-use-before-define": "off",
     "no-shadow": "off",
+    "no-underscore-dangle": "off",
     "react/jsx-filename-extension": [
       "error",
       { "extensions": [".jsx", ".tsx"] }

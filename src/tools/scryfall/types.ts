@@ -1,6 +1,4 @@
-import type { AxiosResponse } from 'axios';
-
-enum ScryDataObject {
+export enum ScryDataObject {
   CARD = 'card',
   CARD_FACE = 'card_face',
   LIST = 'list',
@@ -31,7 +29,7 @@ export interface ScryDataItem {
 }
 
 /**
- * Type representing Scryfall response when the yield is a list.
+ * Type representing Scryfall response when the yield is a list of cards.
  * See https://scryfall.com/docs/api/lists
  */
 export interface ScryDataList {
@@ -55,8 +53,17 @@ export interface ScryError {
   warnings: string[] | null;
 }
 
-/** Dictionary of Scry settlements. */
-export type Scries = Record<string, ScryDataItem>;
+/** Sanitized Scryfall data for a single card. */
+export interface ScryCard {
+  artist: string;
+  images: {
+    art: string | null;
+    full: string | null;
+  };
+  name: string;
+  setCode: string;
+  setName: string;
+}
 
-/** Convenience typing to refer to responses from the Scryfall API. */
-export type ScryResponse = AxiosResponse<ScryDataItem | ScryDataList>;
+/** Dictionary of Scryfall request settlements. */
+export type Scries = Record<string, ScryCard>;
