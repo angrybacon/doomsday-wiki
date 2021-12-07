@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Gaddock Teeg
@@ -9,7 +9,7 @@
 - Dark Depths
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Deafening Silence

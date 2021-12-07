@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Endurance
@@ -8,7 +8,7 @@
 - Elvish Reclaimer
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Deafening Silence

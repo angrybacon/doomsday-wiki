@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Playing a longer game against a deck with strong pressure and heavy protection
 has always been really hard, but now with the snowballing nature of Ragavan it's
@@ -23,7 +23,7 @@ would pitch to it for wins without passing the turn post Doomsday. To fight this
 problem many Doomsday lists play :card[Pact of Negation], because it's less
 resource intensive and supports wins without passing the turn.
 
-**Post Doomsday**
+###### Post Doomsday
 
 The post Doomsday game against UR Delver is very tricky. You often have to take
 risks to resolve Oracle without giving the Delver player too much time to look

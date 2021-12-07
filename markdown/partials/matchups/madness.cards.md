@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Anger
@@ -6,7 +6,7 @@
 - Burning Inquiry
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Mindbreak Trap

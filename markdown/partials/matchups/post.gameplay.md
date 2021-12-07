@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 This will be a short one. Just cast Doomsday as soon as possible and play around
 possible :card[Mindbreak Trap]s in sideboarded games.
@@ -6,7 +6,7 @@ possible :card[Mindbreak Trap]s in sideboarded games.
 Some lists play the :card[Dark Depths] combo. Like in any Dark Depths deck,
 their plays to create a 20/20 are very telegraphed.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Realistically speaking they only have one card to interact with you,
 :card[Endurance]. You should always have enough time for a pile that beats

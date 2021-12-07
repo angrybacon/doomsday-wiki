@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Ghost Quarter
@@ -9,7 +9,7 @@
 - Urza's Saga
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Pyroblast

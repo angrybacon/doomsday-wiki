@@ -17,6 +17,7 @@ import {
 import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
 import { RemarkImage } from '@/components/Remark/renderers/RemarkImage';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
+import { RemarkList } from '@/components/Remark/renderers/RemarkList';
 import {
   RemarkMana,
   Props as RemarkManaProps,
@@ -54,6 +55,7 @@ export const COMPONENTS: Components = {
   h5: RemarkHeading,
   h6: RemarkHeading,
   img: RemarkImage,
+  ol: RemarkList as Components['ol'],
   p: RemarkParagraph,
   table: RemarkTable,
   tbody: RemarkTableBody,
@@ -61,6 +63,7 @@ export const COMPONENTS: Components = {
   th: RemarkTableCell,
   thead: RemarkTableHead,
   tr: RemarkTableRow,
+  ul: RemarkList as Components['ul'],
 };
 
 export const COMPONENTS_EXTRA: {

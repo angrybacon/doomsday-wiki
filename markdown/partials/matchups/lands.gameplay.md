@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Lands has super strong mana denial, even more in game 2 and 3, and will probably
 always win the long game, it can also switch gears very fast thanks to
@@ -8,7 +8,7 @@ Based on that analysis, a fast Doomsday is the way to go. But when you are
 mulliganing, keep in mind how strong countermagic is against their post
 sideboard hate pieces.
 
-**Post Doomsday**
+###### Post Doomsday
 
 You have 3 main objectives post Doomsday:
 

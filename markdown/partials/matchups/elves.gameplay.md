@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Since :card[Allosaurus Shepherd] removed all interaction in this matchup, it's
 only about racing and countering a :card[Thoughtseize] or :card[Deafening
@@ -11,7 +11,7 @@ They can set up very fast kills, either with Allosaurus Shepherd's activated
 ability or with :card[Natural Order]. Be careful and try to finish the game as
 fast as possible.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Pass the turn piles can be a tad risky due to their explosiveness. Especially
 turn 3 or later. Try to build fast piles.

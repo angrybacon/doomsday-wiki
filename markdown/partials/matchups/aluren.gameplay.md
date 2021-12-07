@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Aluren is a pretty slow combo deck. These days white seems to be preferred over
 the {U}{B}{G} lists. To go off they need at least 4 mana, :card[Aluren] and a
@@ -13,7 +13,7 @@ least 2 Force effects from their side and try to keep an eye out for
 :card[Opposition Agent] and :card[Hullbreacher]. The white lists also have
 access to hatebears so bringing removal might be warranted.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Many lists play :card[Endurance], like most green decks in the current meta, so
 prepare to play around at least one copy.
@@ -23,4 +23,5 @@ resources to go off anymore, but that is not always the case, especially since
 :card[Acererak the Archlich] joined the format. Should they still be able to go
 off and you have enough cyclers in hand to cycle to Thassa's Oracle, be careful
 when casting it off :card[Aluren]. It's better to cast it when their combo
-creature is still on the stack, else they can react and combo off in response.
+creature is still on the stack, else they can react and combo off again in
+response.

@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Force of Will
@@ -7,7 +7,7 @@
 - Boseiju, Who Shelters All
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Surgical Extraction

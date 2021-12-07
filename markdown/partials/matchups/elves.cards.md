@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Allosaurus Shepherd
@@ -7,9 +7,10 @@
 - Natural Order
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
+- Endurance
 - Collector Ouphe
 - Thoughtseize
 - Deafening Silence

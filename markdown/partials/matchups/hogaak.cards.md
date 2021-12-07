@@ -1,4 +1,4 @@
-**Maindeck**
+###### Maindeck
 
 :::row{variant=centered}
 - Hedron Crab
@@ -8,7 +8,7 @@
 - Altar of Dementia
 :::
 
-**Sideboard**
+###### Sideboard
 
 :::row{variant=centered}
 - Thoughtseize

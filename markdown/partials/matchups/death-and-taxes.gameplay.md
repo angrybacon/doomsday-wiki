@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 Against Death and Taxes resolving an early Doomsday is the safest way to win.
 Mulliganing for a turn 1 or turn 2 Doomsday is a good starting point.
@@ -13,7 +13,7 @@ In post board games play around :card[Mindbreak Trap] when it's reasonable and
 keep countermagic ready to fight :card[Deafening Silence]. Beware the vial on 3
 which can either represent :card[Flickerwisp] or :card[Aven Mindcensor].
 
-**Post Doomsday**
+###### Post Doomsday
 
 It's very important to keep in mind, that your mana is your biggest weakness and
 that you can not rely on cyclers as tool to work through your pile.

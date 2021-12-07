@@ -1,4 +1,4 @@
-**Pre Doomsday**
+###### Pre Doomsday
 
 The Epic Storm or TES for short is the slower combo deck in matchup. It plays no
 real interaction other than silence effects, which are mostly protection for
@@ -9,7 +9,7 @@ with Echo of Eons. Be carefull with your countermagic, try not to waste it. It's
 good to have a feeling for how far they are away from a kill, to assess the
 situation.
 
-**Post Doomsday**
+###### Post Doomsday
 
 Pass the turn piles are very risky against Storm decks, because the lifeloss of
 :card[Doomsday] puts them in the very good position of not needing a high Storm
