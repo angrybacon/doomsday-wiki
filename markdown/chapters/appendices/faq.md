@@ -147,6 +147,15 @@ advise getting a few reps under your belt playing it first before delving into
 the spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
+For a list of "off-meta" cards which have been tried before and discussion on
+them please check out the [playables appendix.](/appendices/playables/).
+
+:::row{variant=centered}
+- Drown in the Loch
+- Baleful Strix
+- Careful Study
+:::
+
 ## Is the deck hard to learn? Is it the most difficult deck in Legacy?
 
 The deck is not hard to learn, especially if you have already got familiarity
