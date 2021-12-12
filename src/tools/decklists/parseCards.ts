@@ -6,7 +6,7 @@ import type { Card } from '@/tools/decklists/types';
  * Empty lines found within the body will serve as delimiters for groups in
  * order to accomodate for multi-column rendering.
  */
-export const parseCards = (text = ''): Card[][] =>
+export const parseCards = (text: string): Card[][] =>
   text
     .split(DECK_RE.groupDelimiter)
     .map((group) => group.match(DECK_RE.line))

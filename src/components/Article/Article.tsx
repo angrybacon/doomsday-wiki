@@ -16,20 +16,25 @@ export interface Props {
   route: string;
 }
 
-type GetBackgroundStyle = (href: string | undefined) => CSSProperties;
-
 export const Article: FunctionComponent<Props> = ({ matter = {}, route }) => {
   const { authors, banner, bannerArtist, bannerName, date, title } = matter;
   const classes = useStyles();
 
-  const getBackgroundStyle: GetBackgroundStyle = (href) =>
-    href ? { backgroundImage: `url(${href})` } : {};
+  const cardBackground: CSSProperties = banner
+    ? { backgroundImage: `url(${banner})` }
+    : {};
+
+  const cardTitle: string | undefined = bannerName
+    ? bannerArtist
+      ? `${bannerName} by ${bannerArtist}`
+      : `${bannerName}`
+    : undefined;
 
   return (
     <Card
       className={c(classes.root, { [classes.rootWithBanner]: banner })}
-      style={getBackgroundStyle(banner)}
-      title={`${bannerName} by ${bannerArtist}`}
+      style={cardBackground}
+      title={cardTitle}
     >
       <NextLink href={route} passHref>
         <CardActionArea>

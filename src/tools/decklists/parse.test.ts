@@ -23,7 +23,7 @@ describe(parse.name, () => {
     (parseHeader as jest.Mock).mockReturnValue({});
   });
 
-  it('should parse the header', () => {
+  it('should identify the header', () => {
     // Given
     const buffer = sample;
     // When
@@ -37,7 +37,7 @@ describe(parse.name, () => {
     expect(parseHeader).toHaveBeenCalledWith(expected);
   });
 
-  it('should parse the body', () => {
+  it('should identify the body sections', () => {
     // Given
     const buffer = sample;
     // When
@@ -48,5 +48,20 @@ describe(parse.name, () => {
     expect(parseCards).toHaveBeenCalledTimes(2);
     expect(parseCards).toHaveBeenCalledWith(expectedMain);
     expect(parseCards).toHaveBeenCalledWith(expectedSide);
+  });
+
+  it('should return empty fields when a decklist cannot be parsed', () => {
+    // Given
+    const buffer = '';
+    // When
+    const result = parse(buffer);
+    // Then
+    expect(result).toStrictEqual({
+      authors: null,
+      colors: null,
+      main: null,
+      side: null,
+      title: null,
+    });
   });
 });

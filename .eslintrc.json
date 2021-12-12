@@ -52,6 +52,7 @@
     "import/prefer-default-export": "off",
     "react/jsx-no-useless-fragment": ["warn", { "allowExpressions": true }],
     "no-console": ["warn", { "allow": ["error", "info"] }],
+    "no-nested-ternary": "off",
     "no-use-before-define": "off",
     "no-shadow": "off",
     "no-underscore-dangle": "off",

@@ -9,13 +9,14 @@ import type { Decklist } from '@/tools/decklists/types';
  * Each card is represented as a tuple [quantity, name].
  */
 export const parse = (buffer: string): Decklist => {
-  const [, header, main, side] = buffer.match(DECK_RE.decklist) || [];
+  const [, header = '', main = '', side = ''] =
+    buffer.match(DECK_RE.decklist) || [];
   const { authors, colors, title } = parseHeader(header);
   return {
     authors: authors ?? null,
     colors: colors ?? null,
-    main: parseCards(main),
-    side: parseCards(side),
+    main: parseCards(main) ?? null,
+    side: parseCards(side) ?? null,
     title: title ?? null,
   };
 };
