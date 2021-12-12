@@ -65,11 +65,11 @@ the majority of these have been found to not be effective.
 ### Deckbuilding Ratios
 
 In terms of deckbuilding ratios. You should have at a minimum four copies of
-Doomsday. If you prefer a slower, more control style of play then you don't need
-to have any more as you should naturally find them through your other cantrips
-and general desired length of play. If you want a balanced style list then you
-should look to have around six copies of Doomsday (four Doomsday and two
-tutors). If you want a faster build then you want to aim for seven to eight
+Doomsday. If you prefer a slower, more control-esque style of play then you
+don't need to have any more as you should naturally find them through your other
+cantrips and general desired length of play. If you want a balanced style list
+then you should look to have around six copies of Doomsday (four Doomsday and
+two tutors). If you want a faster build then you want to aim for seven to eight
 copies of Doomsday (four Doomsday and three to four tutors). For faster builds
 the cheaper mana cost tutors are favourable whilst for slower ones the more
 expensive may be better options.
@@ -123,7 +123,8 @@ favoured with copies of :card[Urborg, Tomb of Yawgmoth] being run as a mana
 fixer of choice.
 
 If splash colours are being run then it is generally accepted to run one {U}/x
-dual land of the splash colour and one {B}/x dual land of the splash colour.
+dual land of the splash colour and one {B}/x dual land of the splash colour but
+again you can elect to only run one splash dual with the {U}/X being favoured.
 
 For example: In a BUG {B}{U}{G} based Doomsday list you might elect to run three
 Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
@@ -144,8 +145,8 @@ probably need to look to increase your basic land count to four or five.
 Normally you wouldn't consider running a splash basic such as a mountain or
 forest however in the heavier control builds it might be worthwhile.
 
-For example: In an Esper {W}{U}{B} based Doomsday list you might elect to run
-two Islands, two Swamps and one Plains as your basic lands of choice.
+For example: In an Esper {W}{U}{B} control based Doomsday list you might elect
+to run two Islands, two Swamps and one Plains as your basic lands of choice.
 
 :::row{variant=centered}
 - Island|RAV
@@ -166,7 +167,7 @@ the Pile Cards section and should not be considered as part of your mana
 producing land count. Some people also opt to use other toolbox lands like
 :card[Wasteland] in their lists in an effort to be more disruptive. Again this
 should not factor as part of your mana requirements and instead be considered as
-Interaction.
+interaction.
 
 Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, straight {U}{B} *Turbo* manabase, a more
@@ -497,6 +498,11 @@ likely worse than Preordain despite the lower cost as it decreases your
 potential blue count for Force of Will and can be slow/not contribute to same
 turn wins when you need them.
 
+:card[Consider] is a new card for 2021 which has started to be incorporated into
+lists. It acts like a cantrip however it is more accurate to describe it as a
+*pile card* more than anything. If being run, it will be between 1 and 2 copies
+normally replacing some number of :card[Preordain].
+
 ### Deckbuilding Ratios
 
 Most lists run around eleven cantrip effects, not including free cycle effects
@@ -597,13 +603,26 @@ certainly not the optimal use of it. If it is run it is normally a single copy
 which can be in the main or side however some do like running more if they want
 to be more aggressive.
 
+### Consider Package
+
+As mentioned above in the cantrip section. :card[Consider] is a useful tool that
+can enable some unique piles and help fortify existing ones. If running
+Consider, often it will be paired with :card[Deep Analysis] which enables some
+mana-efficient piles. Some elect to run this package over :card[Ideas Unbound]
+whilst others prefer to run them in conjunction with one another. If running the
+package the Consider normally replaces a Preordain and the Deep Analysis
+replaces a :card[Personal Tutor] (or equivalent) or a free cycle effect. If
+planning to go fast it is best to maximise the number of free cycle effects with
+Consider/Deep Analysis as they also enable the ability to go for aggressive, low
+resource wins.
+
 ## Putting It All Together
 
 Now that we've seen all the components we need to work out how we want to fit
 them into our list. We need to consider a few things before we start building to
 work out how we want it to look.
 
-Consider the following questions:
+Think about the following questions:
 
 - What turn do we want to cast Doomsday on?
 - How often do we want to make pass the turn piles?
@@ -616,13 +635,14 @@ Consider the following questions:
 If we want to cast Doomsday early then we want to maximise our cheap tutors and
 number of mana accelerants and/or free cycle effects but will likely have to
 reduce the number of lands and cantrips we run. We also probably want to include
-Cavern and Ideas Unbound to enable to most efficient PTT piles. If we want to
-pass the turn more we probably want a lower free cycle count and would probably
-not run Pact of Negation. If we wanted to win on the same turn we cast Doomsday
-more often we would probably maximise the use of both of these.
+Cavern and Ideas Unbound to enable to most efficient PTT piles and Consider with
+Deep Analysis to provide the most mana efficient wins available to us. If we
+want to pass the turn more we probably want a lower free cycle count and would
+probably not run Pact of Negation. If we wanted to win on the same turn we cast
+Doomsday more often we would probably maximise the use of both of these.
 
-These are just a few things to consider when putting your decklist together. As
-stated at the start of the chapter, it's not useful to present a *default*
+These are just a few things to have in mind when putting your decklist together.
+As stated at the start of the chapter, it's not useful to present a *default*
 decklist because there is no such thing. It's best to follow the principles
 here, construct a list and test, test, test. Tinker with what you can and really
 try to understand the purpose of running each card in your deck. That way if
