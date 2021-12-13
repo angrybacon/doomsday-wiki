@@ -3,7 +3,7 @@ authors: Doishy
 title: Alternative Pile Building
 ---
 
-## Contents
+## Table of Contents
 
 ## Preamble
 
