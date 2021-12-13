@@ -99,7 +99,7 @@ This is a very basic take on the standard card:[IU] pile which is often used. It
 effective in *risking* jamming a pile without putting too many cards into the graveyard
 which may be returned with Endurance and also still being able to have another Oracle
 in reserve if the first one doesn't work out. What is nice is that even if they were to
-Endurance you here you library would become (randomised after the first TO) some variation
+Endurance you here, your library would become (randomised past the first TO, still on top of the library) some variation
 of the following:
 
 :::row{variant=pile}
