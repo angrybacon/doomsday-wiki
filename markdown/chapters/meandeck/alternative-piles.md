@@ -41,7 +41,7 @@ probably the most effective tool to use.
 Some people have tried various creature shells alongside the Doomsday package
 and one of the more interesting ones for use as part of the Doomsday
 resolution is card:[Dragon's Rage Channeler] (DRC). Each spell cast can let you *dig*
-one additional card deeper through your pile thanks to the Survail ability.
+one additional card deeper through your pile thanks to the *Surveil* ability.
 Let's look at a couple of examples.
 
 > DRC in play + non-Consider castable cantrip in hand
