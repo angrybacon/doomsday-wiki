@@ -55,7 +55,7 @@ Let's look at a couple of examples.
 :::
 
 The most basic example above allows you to turn any regular cantrip into a 
-pseudo copy of card:[Con] by giving it a Surveil 1 effect attached. This allows
+pseudo copy of card:[Con] by giving it a *Surveil 1* effect attached. This allows
 you to perform the basic Consider pile using either card:[Pnd], card:[Pre] or
 card:[BS].
 
