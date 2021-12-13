@@ -201,5 +201,5 @@ There is a much more extensive look at Echo of Eons in the [DDFT section][ddft:e
 ## Next Steps
 
 You don't need to have anything here memorised but do use the information presented
-here as a way of looking at alternative ways perhaps you can build piles with either
+here as a way of looking at alternative ways. Perhaps you can build piles with either
 pre-existing cards or maybe trying something a little more off-piste.
