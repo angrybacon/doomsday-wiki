@@ -96,7 +96,7 @@ the option to *try and try again* when looking to beat cards like card:[Enduranc
 :::
 
 This is a very basic take on the standard card:[IU] pile which is often used. It can be 
-effective in "risking" jamming a pile without putting too many cards into the graveyard
+effective in *risking* jamming a pile without putting too many cards into the graveyard
 which may be returned with Endurance and also still being able to have another Oracle
 in reserve if the first one doesn't work out. What is nice is that even if they were to
 Endurance you here you library would become (randomised after the first TO) some variation
