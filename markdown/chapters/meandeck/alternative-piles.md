@@ -161,7 +161,7 @@ or
 - TO
 :::
 
-You can also combine elements to use Teferi to bounce Strix for additional card draw.
+You can also combine elements to use Teferi to bounce Strix for additional card draw and still maintain a higher {U} Devotion.
 
 > PTT + {U}{B}
 
