@@ -36,7 +36,7 @@ the uncounterable nature, the take an extra turn on casting (which still
 works with Shelldock!) and the attack for 15 with *Annihilator 6* all make it
 probably the most effective tool to use. 
 
-## Piles using Dragon's Rage Channeler
+## Piles Using Dragon's Rage Channeler
 
 Some people have tried various creature shells alongside the Doomsday package
 and one of the more interesting ones for use as part of the Doomsday
