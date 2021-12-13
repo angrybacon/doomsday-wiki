@@ -83,7 +83,7 @@ still allows you to get to 0 cards left in the deck. You can follow the listed s
 
 Often you will see people running 2 card:[TO] in the maindeck or 1 main and 1 in the side.
 This card naturally fits into many pre-existing piles which we have covered already and give
-the option to "try and try again" when looking to beat cards like card:[Endurance].
+the option to *try and try again* when looking to beat cards like card:[Endurance] and :card[Memory's Journey].
 
 > PTT + {U}{U}
 
