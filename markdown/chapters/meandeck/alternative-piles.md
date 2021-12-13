@@ -109,7 +109,7 @@ of the following:
 - IU
 :::
 
-As a result if they do cast and Endurance then you can pass and simply draw the second Oracle
+As a result if they do cast an Endurance then you can pass and simply draw the second Oracle
 now and try to win with a Devotion of 4 with 3 cards remaining in your deck.
 Other options include this example against a {U}{R} Delver deck which may run card:[Ragavan, Nimble Pilferer]
 in. 
