@@ -129,7 +129,7 @@ Blast effect. In which case you can pass, allow Ragavan to exile SW, and try to 
 Oracle off of Cavern (assuming the cantrip resolves of course). If that Oracle is dealt with then
 you can pass again, Ragavan exiles the card:[EoA] and you try casting the second Oracle.
 
-## Slow Piles using Interactive Elements
+## Slow Piles Using Interactive Elements
 
 These piles have been given a generic title but they generally refer to piles that will use tools
 like card:[Baleful Strix], card:[Uro, Titan of Nature's Wrath] and card:[Teferi, Time Raveler] to 
