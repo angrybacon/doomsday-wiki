@@ -194,7 +194,9 @@ As the Echo will exile itself you cannot count that as one of your cards.
 - LP
 :::
 
-There is a much more extensive look at Echo of Eons in the DDFT section of the wiki.
+There is a much more extensive look at Echo of Eons in the [DDFT section][ddft:echo] of the wiki.
+
+[ddft:echo]: /ddft/echo
 
 ## Next Steps
 
