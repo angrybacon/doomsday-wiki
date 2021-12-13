@@ -33,7 +33,7 @@ in conjunction with Oracle.
 
 In theory you can replace Emrakul with any card (including lands) however
 the uncounterable nature, the take an extra turn on casting (which still 
-works with Shelldock!) and the attack for 15 with Annihilator 6 all make it
+works with Shelldock!) and the attack for 15 with *Annihilator 6* all make it
 probably the most effective tool to use. 
 
 ## Piles using Dragon's Rage Channeler
