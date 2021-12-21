@@ -478,7 +478,7 @@ cards you need at the time you need them and allow you to *cheat* on mana
 resources as you don't have to rely on the top of your deck or openening hand to
 draw them. I won't write too much in detail on the different cantrips used
 however if you wish to read more about the ways of using them in the deck, feel
-free to read [this article here](/articles/2020/10/05/gangsta-trippin/).
+free to read [this article here](/articles/2020/10/05/gangsta-trippin).
 
 There are two core cantrips which are run as a core part of the deck package;
 :card[Brainstorm] and :card[Ponder]. These are both run as four-ofs and, without

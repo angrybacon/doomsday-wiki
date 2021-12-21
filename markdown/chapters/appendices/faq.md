@@ -10,7 +10,7 @@ Compiled here is a list of frequently asked questions observed from the Discord
 or other sources (Twitter, Reddit, video comment threads etc). If you believe a
 key question is missing then please feel free to suggest it. A lot of the
 questions were either fully or partially answered in this article here:
-[DDFAQs](/articles/2020/03/22/ddfaq/)
+[DDFAQs](/articles/2020/03/22/ddfaq).
 
 ## What are the different Doomsday decks and what is the difference between them?
 
@@ -45,7 +45,7 @@ and win condition in tandem with Doomsday.
 unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
 uses counter magic like Force of Will and Daze to play a controlling game before
 ending the game with Doomsday. The moniker *Meandeck* is explained in this
-article [here](/articles/2020/03/12/pretty-mean-deck/).
+article [here](/articles/2020/03/12/pretty-mean-deck).
 
 :::row{variant=centered}
 - Griselbrand
@@ -122,7 +122,7 @@ for the former or larger, game-ending threats for the latter. But often they are
 too slow or get answered easily by Daze. For the green matchups,
 :card[Endurance] requires preparation and proper sequencing but is far from
 being as back-breaking as it is often thought. More details about this in the
-[interaction](/meandeck/interaction/) page.
+[interaction](/meandeck/interaction) page.
 
 TES cannot beat the sheer amount of disruption the deck brings to the table nor
 interact with the fast combo kill besides :card[Silence] effects as the Doomsday
@@ -273,7 +273,7 @@ always open to bouncing ideas around.
 ## What is the best way to learn Doomsday?
 
 Read the Wiki, watch some content as found on our
-[resources](/appendices/resources/) page and most important PRACTICE, PRACTICE,
+[resources](/appendices/resources) page and most important PRACTICE, PRACTICE,
 PRACTICE! If you have a spare five minutes try and goldfish the deck. Get used
 to the physical manipulations of the cards. Start presenting yourself with
 scenarios to beat and try to become as familiar with your decklist as you can.

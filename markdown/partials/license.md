@@ -20,8 +20,8 @@ of the [Attribution-NonCommercial-NoDerivatives 4.0 International][wiki:license]
 license. Its raw form can be found within the repository under the `markdown/`
 directory.
 
-[js:next]: https://nextjs.org/
-[js:react]: https://reactjs.org/
+[js:next]: https://nextjs.org
+[js:react]: https://reactjs.org
 [scryfall:api]: https://scryfall.com/docs/api
 [wiki:code]: https://github.com/angrybacon/doomsday-wiki
 [wiki:code-license]: https://github.com/angrybacon/doomsday-wiki/blob/master/LICENSE.org

@@ -193,7 +193,7 @@ Spoils of the Vault has interesting applications in piles. While somewhat of an
 uncommon card choice, Mindkiller Doomsday plays it in multiples and it
 occasionally appears as a singleton in otherwise normal DDFT lists. It's good to
 know the types of things it can do. Some of this is also discussed in the
-[original article](/articles/2020/03/21/the-mindkiller/) about Mindkiller
+[original article](/articles/2020/03/21/the-mindkiller) about Mindkiller
 Doomsday, but is included here for the sake of completeness.
 
 **Example 1**
@@ -240,7 +240,7 @@ your deck, whereas that would be impossible without it.
    there) and give you Oracle
 5. Cast Oracle to win with 0 cards left in library.
 
-[ddft:brainstorm]: /ddft/brainstorm/
+[ddft:brainstorm]: /ddft/brainstorm
 
 ## Time Spiral Piles
 

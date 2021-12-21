@@ -118,7 +118,7 @@ Assume English unless specified otherwise.
 - [Part 1: Article by NagiZero on how to play the deck and their own experiences - Chinese/中文](https://www.iyingdi.com/tz/post/5107657)
 - [Wonderpreaux writes about their thoughts on Stifle and Wasteland in Meandeck](https://pastebin.com/Syt240yY)
 - [Article on Vintage Doomsday by Suzuki Yuuto - Japanese/日本語](https://note.com/unbangush/n/n6e509434ef9c)
-- [Vintage Articles for Vintage Doomsday by Revenantkioku](https://oraclesofthecoast.com/)
+- [Vintage Articles for Vintage Doomsday by Revenantkioku](https://oraclesofthecoast.com)
 - [Mini Blog Primer on the deck - Japanese/日本語](https://note.com/nao_ddft/n/ne45e19d345f9)
 - [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
 - [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)

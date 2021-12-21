@@ -89,7 +89,7 @@ So what does this actually mean?
 
 First of all it means that you don't always have to rely on LED to generate
 enough mana for your Doomsday pile. Take this example from our [Basics
-Chapter](/meandeck/basics/)
+Chapter](/meandeck/basics).
 
 :::row{variant=pile}
 - IU
@@ -286,8 +286,8 @@ community run project we are always welcoming of new submissions whether it is
 articles, puzzles or chapter pages.
 
 If you want even more content please check out our
-[resources](/appendices/resources/) page which includes links to local streams
-or if you are up for a challenge maybe check out the [puzzles](/puzzles/) page.
+[resources](/appendices/resources) page which includes links to local streams or
+if you are up for a challenge maybe check out the [puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).

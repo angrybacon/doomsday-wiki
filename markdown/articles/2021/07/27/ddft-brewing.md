@@ -29,7 +29,7 @@ This is roughly what I and others would consider a typical DDFT list in the
 present day. It has undergone some changes since [my original Echo Doomsday
 article][articles:echoes-of-the-past] but is more or less recognizable.
 
-[articles:echoes-of-the-past]: /articles/2020/01/01/echoes-of-the-past/
+[articles:echoes-of-the-past]: /articles/2020/01/01/echoes-of-the-past
 
 ::decklist{path=2021/07/26/ddft.ubrg.echo}
 
@@ -104,8 +104,8 @@ expert and PSI connoisseur *monkeyscantcry* eventually took it for a spin and
 Top 8, but it felt somewhat reassuring. I kept the list updated and continued
 playing it.
 
-[meandeck:basics]: /meandeck/basics/
-[articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller/
+[meandeck:basics]: /meandeck/basics
+[articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller
 [mtggoldfish:the-mindkiller]: https://www.mtggoldfish.com/deck/3369246#paper
 
 ::decklist{path=2021/07/26/mindkiller.wubrg}

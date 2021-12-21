@@ -29,7 +29,6 @@ They can also attempt to shuffle your pile thanks to :card[Assassin's Trophy].
 It is a *may* clause but ponder whether you can part with a land during your
 turn.
 
-If you have the resources, try building [Brainstorm
-piles](/meandeck/brainstorm/) as they can *fix* your pile after a crab trigger
-or Altar activation(s). Should you have to pass the turn, make sure you have
-answers at your disposal.
+If you have the resources, try building [Brainstorm piles](/meandeck/brainstorm)
+as they can *fix* your pile after a crab trigger or Altar activation(s). Should
+you have to pass the turn, make sure you have answers at your disposal.

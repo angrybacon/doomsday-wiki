@@ -30,7 +30,7 @@ risks to resolve Oracle without giving the Delver player too much time to look
 for answers or straight up kill you with damage.
 
 Of course you would prefer to always build [Brainstorm
-piles](/meandeck/brainstorm/) and never pass the turn, but that's not always
+piles](/meandeck/brainstorm) and never pass the turn, but that's not always
 possible. Here comes the ugly part, you can't beat everything a Delver deck
 possibly has. Even with stock lists. You'll have to learn how to assess the
 situation and plan accordingly. That's an important skill in every matchup, but

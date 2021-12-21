@@ -17,10 +17,10 @@ inform colour selection for the main deck, sideboard and takes into account
 playstyle and meta considerations.
 
 In this article I will look to build upon what was discussed on the splash
-colour selection in [in my last article](/articles/2020/03/22/ddfaq/) and go
-into some of the nuances in using the different tools available to us when
-playing. I will also provide some real world examples where certain elements
-have shone and finish off with mention of the greatest matchup in Legacy.
+colour selection in [in my last article](/articles/2020/03/22/ddfaq) and go into
+some of the nuances in using the different tools available to us when playing. I
+will also provide some real world examples where certain elements have shone and
+finish off with mention of the greatest matchup in Legacy.
 
 ## The Tools
 
@@ -695,9 +695,9 @@ please get in contact if you have any improvement suggestions or any suggestions
 for future content!
 
 As always if you want even more content please check out our
-[resources](/appendices/resources/) page which includes a list of community
+[resources](/appendices/resources) page which includes a list of community
 streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles/) page.
+[puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact

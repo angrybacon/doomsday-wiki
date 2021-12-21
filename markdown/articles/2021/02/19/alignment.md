@@ -14,7 +14,7 @@ title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
 
 ## Introduction
 
-I have written [before](/articles/2020/03/22/ddfaq/) on the subject of deck
+I have written [before](/articles/2020/03/22/ddfaq) on the subject of deck
 construction in terms of colour options and deckbuilding tools however I have
 not covered deck building styles properly. We have now had a year from initial
 deck conception through to refinement and now, after what we thought was a
@@ -333,9 +333,9 @@ this it will help you get an idea / understanding of what options are out there
 and what you wish to play.
 
 As always if you want even more content please check out our
-[resources](/appendices/resources/) page which includes a list of community
+[resources](/appendices/resources) page which includes a list of community
 streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles/) page.
+[puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
