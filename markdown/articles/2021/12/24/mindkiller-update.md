@@ -4,9 +4,9 @@ banner: SotV
 title: "50-Match Kumite: Mindkiller Kata"
 ---
 
-I've once again been brewing around [Mindkiller Doomsday][articles:the-mindkiller], sometimes known as All Bad Cards Doomsday. I'd made some changes since my last update on the deck and it felt quite strong in testing, so I felt it was time to write another update. This time, I wanted to collect some data to help back up my claim that this deck can be competitive in the current legacy metagame. So I resolved to play through 10 leagues and track my performance. Fifty matches, no surrender, no dropping from leagues. I focused my data tracking on match wins, so there's no per-game data, but I did track by opposing archetype to better understand how the deck fares against different apects of the metagame. It should also be noted that 50 matches isn't much in the grand scheme of things, but it should give us somethng to talk about.
+I've once again been brewing around [Mindkiller Doomsday][articles:the-mindkiller], sometimes known as All Bad Cards Doomsday. I'd made some changes since my last update on the deck and it felt quite strong in testing, so I felt it was time to write another update. This time, I wanted to collect some data to help back up my claim that this deck can be competitive in the current legacy metagame. So I resolved to play through 10 leagues and track my performance. Fifty matches, no surrender, no dropping from leagues. I focused my data tracking on match wins, so there's no per-game data, but I did track by opposing archetype to better understand how the deck fares against different aspects of the metagame. It should also be noted that 50 matches isn't much in the grand scheme of things, but it should give us somethng to talk about.
 
-[articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller/
+[articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller
 
 ## The Deck  
 
@@ -87,7 +87,7 @@ Sideboarding with this deck is very straightforward. As I mentioned previously, 
 
 ##### Out  
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Doomsday
 - Doomsday
 - Doomsday
@@ -98,7 +98,7 @@ Sideboarding with this deck is very straightforward. As I mentioned previously, 
 
 ##### In   
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Galvanic Relay
 - Galvanic Relay
 - Galvanic Relay
@@ -113,7 +113,7 @@ The Doomsday package is at it's weakest in these matchups. You don't have the to
 
 ##### Out  
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Thoughtseize
 - Thoughtseize
 - Thoughtseize
@@ -121,7 +121,7 @@ The Doomsday package is at it's weakest in these matchups. You don't have the to
 
 ##### In  
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Orim's Chant
 - Orim's Chant
 - Prismatic Ending
@@ -133,7 +133,7 @@ Minimal sideboarding. Chants can be used proactively as a pseudo-Time Walk, or t
 
 ##### Out  
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Empty the Warrens
 - Empty the Warrens
 - Empty the Warrens
@@ -141,7 +141,7 @@ Minimal sideboarding. Chants can be used proactively as a pseudo-Time Walk, or t
 
 ##### In  
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Orim's Chant
 - Orim's Chant
 - Orim's Chant
@@ -157,7 +157,7 @@ You're gonna have to use your own judgement on a per-deck basis. I find Chants t
 
 ##### Out
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Doomsday
 - Doomsday
 - Doomsday
@@ -167,7 +167,7 @@ You're gonna have to use your own judgement on a per-deck basis. I find Chants t
 
 ##### In
 
-:::row{variant=hand}
+:::row{variant=pile}
 - Prismatic Ending
 - Prismatic Ending
 - Orim's Chant
