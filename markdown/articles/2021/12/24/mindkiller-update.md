@@ -17,7 +17,7 @@ different aspects of the metagame. It should also be noted that 50 matches isn't
 much in the grand scheme of things, but it should give us somethng to talk
 about.
 
-[articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller/
+[articles:the-mindkiller]: /articles/2020/03/21/the-mindkiller
 
 ## The Deck
 
