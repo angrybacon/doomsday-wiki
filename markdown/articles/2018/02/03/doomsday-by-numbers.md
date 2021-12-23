@@ -11,7 +11,7 @@ All data compiled on 3rd February 2018.
 
 ## The Data Collection
 
-Back in January I posted an [article](https://ddft.wiki/posts-output/DD_2017/)
+Back in January I posted an [article](/articles/2018/01/10/doomsday-in-2017)
 detailing a bit about DDFT as a deck across the course of 2017 and how it is
 fairing now. I presented some statistics that had been gathered and gave a hint
 that another article was coming where I present them properly and in greater

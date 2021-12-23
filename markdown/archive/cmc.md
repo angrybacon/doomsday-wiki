@@ -371,4 +371,4 @@ for more details.
 2. Strong sideboarding is key to mitigating these issues
 3. Variable CMCs for your removal is advised to some extent
 
-[removal-tables]: /appendices/removal-tables/
+[removal-tables]: /appendices/removal-tables

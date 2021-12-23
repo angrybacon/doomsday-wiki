@@ -6,7 +6,7 @@ anything degenerate that can also run Force of Will! I've been playing magic
 since OG Ravnica, Legacy since OG Innistrad and have an irrational hatred for
 Delver of Secrets.
 
-I love building communities and help run [local events](http://swawlq.com/) for
+I love building communities and help run [local events](http://swawlq.com) for
 Legacy staples where needed. I collect copies of Doomsday signed by Doomsday
 players and, if you would class yourself as one, I would love to add your
 signature / copy to my collection! Feel free to fire me a message on the Discord

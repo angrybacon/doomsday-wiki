@@ -1438,7 +1438,7 @@ really tried out was :card[Echo of Eons]. Echo allowed for the building of piles
 that use Echo to *Timetwister* into your pile. This normally required at least
 one additional card in hand or some free mana rocks in play. d8dk32 was once
 again the leading man on giving this new tech a try writing a [mini primer
-article on its usage](/articles/2020/01/01/echoes-of-the-past/). The list played
+article on its usage](/articles/2020/01/01/echoes-of-the-past). The list played
 Veil, as allowing a {U} opponent to draw 7 cards is asking for disaster, and
 other than the Doomsday package, played very similar to other storm lists almost
 like an ANT and *new TES* style hybrid. As with many of the recent iterations of
@@ -1572,8 +1572,8 @@ successful, both with and without the transformational sideboard plan. It ran
 all the way up from 2012/2013 but, like many other decks, had some decline to
 it.
 
-In 2020, one Doomsday community member called Walkedairplane or Walked, had a go
-at what they called a ["memestream or real
+In 2020, one Doomsday community member called *Walkedairplane* or *Walked*, had
+a go at what they called a ["memestream or real
 deal?"](https://www.youtube.com/watch?v=kWsViXXyhfI). The concept was to instead
 of take a Tin Fins list and add Doomsday to it, you start with a 2020 Meandeck
 Doomsday list and fit the Entomb-Griselbranned package to it. He ran it to
@@ -1608,9 +1608,9 @@ produced by OtterLady ([@justthefastest](https://twitter.com/justthefastest) on
 Twitter) with help from Hulahula.
 
 As always if you want even more content please check out our
-[resources](/appendices/resources/) page which includes a list of community
+[resources](/appendices/resources) page which includes a list of community
 streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles/) page.
+[puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact

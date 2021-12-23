@@ -11,13 +11,13 @@ sculpting of your hand and finding answers when needed. There have already been
 a number of articles that explore these theories by well known personalities
 such as Reid Duke, AJ Sacher and Tomas Mar.
 
-- [Reid's Guide to Legacy: Using Cantrips Properly][cfb.cantrip-guide]
-- [Fishing Lessons: Pondering Brainstorm][scg.fishing-lesson]
-- [Everything about four colour control][snapcardster.four-color-control]
+- [Reid's Guide to Legacy: Using Cantrips Properly][cfb:cantrip-guide]
+- [Fishing Lessons: Pondering Brainstorm][scg:fishing-lesson]
+- [Everything about four colour control][snapcardster:four-color-control]
 
-[cfb.cantrip-guide]: https://www.channelfireball.com/all-strategy/articles/reids-guide-to-legacy-using-cantrips-properly/
-[scg.fishing-lesson]: https://articles.starcitygames.com/premium/fishing-lessons-pondering-brainstorm/
-[snapcardster.four-color-control]: https://snapcardster.com/blog/everything-about-four-color-control/
+[cfb:cantrip-guide]: https://strategy.channelfireball.com/all-strategy/mtg/channelmagic-articles/reids-guide-to-legacy-using-cantrips-properly/
+[scg:fishing-lesson]: https://articles.starcitygames.com/articles/fishing-lessons-pondering-brainstorm/
+[snapcardster:four-color-control]: https://snapcardster.com/blog/everything-about-four-color-control
 
 *Please note: the Snapcardster site is no longer running and therefore the link
 will not function, there are Reddit and The Source threads which can be found
@@ -541,9 +541,9 @@ videos](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ) out on youtube
 if you want to see the deck in action.
 
 As always if you want even more content please check out our
-[resources](/appendices/resources/) page which includes a list of community
+[resources](/appendices/resources) page which includes a list of community
 streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles/) page.
+[puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact

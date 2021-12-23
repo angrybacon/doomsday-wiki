@@ -35,6 +35,6 @@ If you are new to the archetype then please check out the [FAQs Appendix][faq]
 for any initial queries you might have. Peruse the wiki, read some of the
 articles and come visit us in the [Discord][discord].
 
-[pretty-mean-deck]: /articles/2020/03/12/pretty-mean-deck/
-[faq]: /appendices/faq/
+[pretty-mean-deck]: /articles/2020/03/12/pretty-mean-deck
+[faq]: /appendices/faq
 [discord]: https://discord.gg/vajvFXt

@@ -27,7 +27,7 @@ content so please check them out!):
 [Legacy Data Collection Project Data sheet for the
 event](https://docs.google.com/spreadsheets/d/1NTpJqzHyaRTnV6h6tneYo_Gh8jNGRb_1byaE9sJPmII/edit#gid=303790053)
 
-[The Legacy Pit Website](https://thelegacypit.com/)
+[The Legacy Pit Website](https://thelegacypit.com)
 
 ## The Interview with Romario
 
@@ -1170,9 +1170,9 @@ you would like to get involved or have an idea for an article or series please
 let us know!
 
 As always if you want even more content please check out our
-[resources](/appendices/resources/) page which includes a list of community
+[resources](/appendices/resources) page which includes a list of community
 streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles/) page.
+[puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact

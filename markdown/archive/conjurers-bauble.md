@@ -369,6 +369,6 @@ Pyroblast effects.
 Remember as with anything it is better to learn the concepts presented here more
 so than to try and rote-learn piles and of course, practice makes perfect.
 
-[basics]: /chapters/1/basics/
-[pass-the-turn]: /chapters/2/pass-the-turn/
-[uncommon-piles]: /chapters/2/uncommon-piles/
+[basics]: /chapters/1/basics
+[pass-the-turn]: /chapters/2/pass-the-turn
+[uncommon-piles]: /chapters/2/uncommon-piles

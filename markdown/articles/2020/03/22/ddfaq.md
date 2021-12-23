@@ -9,7 +9,7 @@ new players gravitating towards our favourite {B}{B}{B} sorcery. With this surge
 in new blood there have been a number of questions that keep cropping up for
 people either interested, or starting off playing :card[Doomsday]. I had hoped
 to at least start answering many of the questions [in my first
-article](/articles/2020/03/12/pretty-mean-deck/), which you should really have a
+article](/articles/2020/03/12/pretty-mean-deck), which you should really have a
 read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
@@ -60,7 +60,7 @@ and a bit more comparison on each.
 3/4 engine and focus on a Storm style approach to winning (however do not always
 require storm to win).*
 
-[As mentioned last time](/articles/2020/03/12/pretty-mean-deck/), DDFT is the
+[As mentioned last time](/articles/2020/03/12/pretty-mean-deck), DDFT is the
 traditional name of historical iterations of the deck. We won't do a full
 history lesson here however it basically refers to the fact that this is a storm
 deck that can play a much longer game if required.
@@ -669,9 +669,9 @@ rote.
 ## 6. Additional Content Available
 
 If you want even more content please check out our
-[resources](/appendices/resources/) page which includes a list of community
+[resources](/appendices/resources) page which includes a list of community
 streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles/) page.
+[puzzles](/puzzles) page.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).
@@ -694,4 +694,4 @@ a deterministic turn 1 kill in Legacy Doomsday too!
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)  
-The answer may be found in our [puzzles](/puzzles/) page.
+The answer may be found in our [puzzles](/puzzles) page.
