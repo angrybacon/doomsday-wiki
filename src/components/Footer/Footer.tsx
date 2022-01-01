@@ -13,7 +13,7 @@ export const Footer: FunctionComponent<Props> = ({ className }) => {
   return (
     <footer className={c(classes.root, className)}>
       <Typography color="textSecondary" variant="caption">
-        Copyright &copy; 2017-2021 ddft.wiki contributors. Read the notice about{' '}
+        Copyright &copy; 2017-2022 ddft.wiki contributors. Read the notice about{' '}
         <Link href="/license">licenses and resources</Link>.
       </Typography>
     </footer>

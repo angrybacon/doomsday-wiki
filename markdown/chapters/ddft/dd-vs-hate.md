@@ -523,10 +523,10 @@ matter.
 
 ### Endurance
 
-A new card of 2021 that is seeing a lot of play, both in blue decks and non-blue
-decks. It can ruin Oracle piles for 0 mana and has proven troublesome for many
-Doomsday players. If you walk into it, you're liable to get completely blown
-out. However, DDFT can play around it much more easily than other Domsday
+A new card from 2021 that is seeing a lot of play, both in blue decks and
+non-blue decks. It can ruin Oracle piles for 0 mana and has proven troublesome
+for many Doomsday players. If you walk into it, you're liable to get completely
+blown out. However, DDFT can play around it much more easily than other Domsday
 variants by not using Oracle. Endurance will have no effect on a typical Storm
 kill pile. Echo piles can also be used to dodge Endurance, though care must be
 taken not to put more than 2 cards back into your graveyard.

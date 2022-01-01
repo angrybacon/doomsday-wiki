@@ -498,10 +498,10 @@ likely worse than Preordain despite the lower cost as it decreases your
 potential blue count for Force of Will and can be slow/not contribute to same
 turn wins when you need them.
 
-:card[Consider] is a new card for 2021 which has started to be incorporated into
-lists. It acts like a cantrip however it is more accurate to describe it as a
-*pile card* more than anything. If being run, it will be between 1 and 2 copies
-normally replacing some number of :card[Preordain].
+:card[Consider] is a new card from 2021 which has started to be incorporated
+into lists. It acts like a cantrip however it is more accurate to describe it as
+a *pile card* more than anything. If being run, it will be between 1 and 2
+copies normally replacing some number of :card[Preordain].
 
 ### Deckbuilding Ratios
 
