@@ -105,7 +105,7 @@ multiple Considers and why I run card:[CoS] in the main.
 I have tried in the past to dedicate a lot of sideboard slots for beating
 URx Delver decks before and I realised that the games I was winning against
 them was because of tight play, a little bit of luck and mostly my main deck
-tools. As a result I decided to run no dedicate Delver sideboard slots and
+tools. As a result I decided to run no dedicated Delver sideboard slots and
 instead just work out a solid plan from the other tools I was using anyways. 
 This is the one matchup I pretty much never deviate from my plan on and 
 I am happy to take my 30-40% win rate against them where I can. 
