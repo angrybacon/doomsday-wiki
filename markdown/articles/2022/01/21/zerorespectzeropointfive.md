@@ -7,6 +7,9 @@ title: A Decklist Discussion and Sideboard Guide - Doishy's Turbo Zero Respect v
 ## Table of Contents
 
 ## Preface
+First of all I guess happy new year everyone! 
+
+I hope you're all safe and well going into 2022 xxx
 
 The wiki author team has generally been against the writing of specific sideboard
 guides as are often seen across the magic community. Sideboard guides can be
@@ -134,4 +137,156 @@ based on one set of bad beats or a single event.
 
 ## The Decklist
 
+Here is the decklist itself. You can see already some of the construction thoughts that
+went into it from what was said above. It's a "Turbo List" so has 3 card:[PTY] in alongside
+4 cycling effects to enable swift access to piles. It has card:[Con], card:[DA] and card:[IU]
+all in to enable the faster pile building. All lands are Islands so the fetches can be
+perfectly spread out for the corner case card:[Pithing Needle] effect naming. There is also
+a maindeck card:[Watery Grave] to act as a 5th card:[Underground Sea].
+It has 4 card:[LP] to help speed things up and fix mana. It runs the full set of Forces, 
+Dazes and has 1 x card:[CoS] and 1 x card:[PoN] for pile building alongside two maindeck 
+discard spells as additional protection. It also runs 2 card:[Pre] alongside the normal
+cantrip suite as extra slow fitlering.
+
 ::decklist{path=2022/01/21/zerorespectzeropointfive}
+
+As you can see the maindeck is entirely {U}/{B} (despite what card:[EoA] pretends). This means
+we have a lot of flexibility in being able to add splash colours, if, as and when we need them.
+The sideboard is designed to offer flexibility in many matchups with certain tools acting as
+silver bullets in others. I like including a splash colour in my sideboard because I personally
+see it as a free addition and, at the moment, that splash is {R} however I have done {G} and full
+4 Colour before in the past. I have also dabbled with {W} but not in the same shell as this.
+
+The last major change I made to the list was removing a card:[Tropical Island] from the main and
+replacing it with the card:[Watery Grave] and taking 2 card:[VoS] from
+the side and replacing them with a 2nd card:[Flusterstorm] and 2nd card:[Pyroblast]. From testing, although
+I liked having access to {G} and Veil I had faced many instances where Flusterstorm was either
+equal to, or better in certain circumstances. I also wanted to try a third blast effect as in
+some of the fair blue match ups I was wanting to see them more often. 
+
+### Deeper Sideboard Dive
+
+I will quickly go through the sideboard cards and give a quick summary of their general/expected roles
+and the justification for having them.
+
+- 1 card:[Chain of Vapor]
+  Catch all permanent answer that is easy on the mana. Helps deal with most things other than Chalice on
+  1 and even then most of the time that can be ignored. Can also allow the bouncing of your own Oracle
+  to recast in a pinch.
+  
+- 2 card:[Flusterstorm]
+  Shines vs other spell based combo, helps disrupt cheaper interaction and allows us to force our combo
+  through opposing protection. A very useful tool for multiple fair and unfair matchups.
+  
+- 4 card:[FoN]
+  Acting as both combo protection from those faster than us and to complement the Chain by preventing things
+  like card:[Blood Moon], card:[Chalice of the void], card:[Trinisphere] etc from landing onto the battlefield. 
+  A very versatile and mana efficient card. Sometimes can be over-boarded.
+  
+- 1 card:[Massacre]
+  One of the more specialist tools. This helps deal with a myriad of hatebear style creatures in a very mana efficient
+  way and can be easily found through casting Doomsday. Normally used in non-{U} fair matchups but occasionally can
+  be brought in to fight of card:[Meddling Mage] or similar from fair {U} decks.
+  
+- 2 card:[Pyroblast]
+  Catch all in {U} match ups as protection, disruption and removal. Anyone who plays Legacy knows how effective these can
+  be in the right matchup.
+  
+- 1 card:[Red Elemental Blast]
+  It's like Pyroblast but spelt differently. This is here to simply diversify my blast effects for small percentage points
+  and niche corner cases (although I have had people Surgical them before!).
+  
+- 1 card:[Surgical Extraction]
+  Part of the anti-graveyard package. This provides soft turn 0 protection against decks looking to abuse the graveyard. Sometimes
+  I also look to bring it in for the Mirror.
+  
+- 1 card:[TO]
+  The second Oracle is a very versatile tool. It allows you to pile with two of them giving multiple chances at resolving it and
+  allowing you to go up to a devotion of 4 which helps bypass things like card:[Endurance]. It also
+  increases your pseudo blue card count for Force pitch purposes by +2 (because you now have 2 cards in the deck eligibile to pitch
+  whereas before you could never pitch your lone Oracle). Also (in a pinch) it blocks card:[Ragavan, Nimble Pilferer] really well and
+  helps you avoid any accidentally monkey-related exiling.
+  
+- 1 card:[Tormod's Crypt]
+  The second part of my anti-graveyard package. This one is nice as it can just sit in play whilst you get prepped or be added to a pile
+  to help defend against various tools like card:[Cephalid Coliseum] whilst you go for the win. It's less precise than Surgical but is 
+  a lot more effective.
+  
+- 1 card:[Volcanic Island]
+ Finally it's a land that makes {R}. It helps cast our blast effects. Not much else to say though you could consider to bring it in as
+ an additional "bad Island" in matchups where maybe you don't want Cavern.
+ 
+ ## The Actual Sideboard Guide Bit
+ 
+ Here I will list decks in the order that I think of them. I will trying to add cards I would have on my radar that I wish to respect, cards
+ on my radar I might respect less and variations to what I might board based on how I am feeling (because I am very inconsistent sometimes).
+ Please note this is a snapshot and should not be considered gospel. The presence of SPICE in an opponent's deck can result in variations
+ being made if they are needed and you should always try to critical identify whether something seems sensible to you. If you
+ don't like an idea written here you don't have to follow it :)
+
+### UR Delver/Grixis Delver/RUG Delver
+
+Respect: None of it. Maybe Monkey...
+Disrespect: The rest.
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW]
+Bring in: 2 card:[Flusterstorm], 1 card[TO]
+
+Try your best. Play around Daze/Monkey/Bolt/Wasteland/Stifle when you can. Don't play around them when you can't. If 
+they have Torpor Orb, good for them. They obviously wanted it more. The changes we make are because of card:[Ragavan, Nimble Pilferer]
+because us having our own discard hit is devastating. Second Oracle lets you act a bit ore aggressively in pile building
+and also acts as a buffer to random instances of having your sole win condition exiled to monkey.
+
+
+### Death and Taxes
+
+Respect: Deafening Silence, Spirit of the Labrynth, Rishadan Port
+Disrespect: Thalia, Archive Trap, Solitude, Mindbreak Trap, Ethersworn Canonist
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 1 card:[CoS], 1 card:[PoN]
+Bring in: 1 card:[CoV], 1 card[Massacre], 2-4 card:[FoN], maybe 1 card:[TO]
+
+Death and Taxes is an interesting deck because in theory they have all the right tools to win, but often
+they need multiple of them in one go to actually make it happen. Often card:[Thalia, Guardian of Thraben] is
+too slow to do anything and can be ignored, especially post Doomsday. The scary cards are the ones that
+tax your mana or life total. card:[Wasteland] and card:[Rishadan Port] can be devastating if having to go
+slow so aggressive mulliganing is advised. card:[Kaldra Compleat] is also a house simply because it is
+the fastest threat that they have. I have listed card:[Spirit of the Labrynth] as the main card to
+respect because post Doomsday it not only slows you down in progressing your pile but also has a feisty
+attack of 3 which can quickly knock you down.
+
+
+### Stompy Decks
+
+Respect: Blood Moon, Trinisphere, Opposition Agent
+Disrespect: Chalice (to an extent).
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Preordain], 1 card:[PoN]
+Bring in: 4 card:[FoN], 1 card[TO], 1 card[CoV]
+
+These matchups can be the easiest wins or the hardest losses and sometimes it is a toss of the dice
+based on respective mulligans which can decide it. Cavern stays in because Chalice on 2 ruins your
+day otherwise. Try to avoid keeping hands that die to Chalice on 1 unless that hand then can just
+win on the next turn. It's a swingy matchup but very winnable.
+
+
+### Oops all Spells/BR Reanimator
+
+Respect: The fact they are faster than you.
+Disrespect: Most of their deck.
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[EoA], 2 card:[Preordain], 1 card:[PoN], 1 card:[Island], 1 card:[CoS]
+Bring in: 4 card:[FoN], 1 card[TO], 1 card[Surgical Extraction], 1 card:[Tormod's Crypt], maybe 1-2 card:[Flusterstorm].
+
+Another swingy set of matchups. Their best hands will beat your best hands. VS Reanimator try to fight their
+graveyard enablers like card:[Entomb] or card:[Faithless Looting]. VS Oops fight them however you can. These matchups I 
+personally find favourable but again, they can be very swingy.
+
+
+### Elves
+
+Respect: Allosaurus Shepherd + Endurance
+Disrespect: Choke.
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Preordain], 1 card:[PoN]
+Bring in: 4 card:[FoN], 1 card[TO], 1 card[CoV]
+
+These matchups can be the easiest wins or the hardest losses and sometimes it is a toss of the dice
+based on respective mulligans which can decide it. Cavern stays in because Chalice on 2 ruins your
+day otherwise. Try to avoid keeping hands that die to Chalice on 1 unless that hand then can just
+win on the next turn. It's a swingy matchup but very winnable.
