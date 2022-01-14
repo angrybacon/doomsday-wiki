@@ -229,7 +229,7 @@ and the justification for having them.
 Respect: None of it. Maybe Monkey...
 Disrespect: The rest.
 Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW]
-Bring in: 2 card:[Flusterstorm], 1 card[TO]
+Bring in: 2 card:[Flusterstorm], 1 card:[TO]
 
 Try your best. Play around Daze/Monkey/Bolt/Wasteland/Stifle when you can. Don't play around them when you can't. If 
 they have Torpor Orb, good for them. They obviously wanted it more. The changes we make are because of card:[Ragavan, Nimble Pilferer]
@@ -242,7 +242,7 @@ and also acts as a buffer to random instances of having your sole win condition 
 Respect: Deafening Silence, Spirit of the Labrynth, Rishadan Port
 Disrespect: Thalia, Archive Trap, Solitude, Mindbreak Trap, Ethersworn Canonist
 Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 1 card:[CoS], 1 card:[PoN]
-Bring in: 1 card:[CoV], 1 card[Massacre], 2-4 card:[FoN], maybe 1 card:[TO]
+Bring in: 1 card:[CoV], 1 card:[Massacre], 2-4 card:[FoN], maybe 1 card:[TO]
 
 Death and Taxes is an interesting deck because in theory they have all the right tools to win, but often
 they need multiple of them in one go to actually make it happen. Often card:[Thalia, Guardian of Thraben] is
@@ -259,7 +259,7 @@ attack of 3 which can quickly knock you down.
 Respect: Blood Moon, Trinisphere, Opposition Agent
 Disrespect: Chalice (to an extent).
 Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Preordain], 1 card:[PoN]
-Bring in: 4 card:[FoN], 1 card[TO], 1 card[CoV]
+Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[CoV]
 
 These matchups can be the easiest wins or the hardest losses and sometimes it is a toss of the dice
 based on respective mulligans which can decide it. Cavern stays in because Chalice on 2 ruins your
@@ -272,7 +272,7 @@ win on the next turn. It's a swingy matchup but very winnable.
 Respect: The fact they are faster than you.
 Disrespect: Most of their deck.
 Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[EoA], 2 card:[Preordain], 1 card:[PoN], 1 card:[Island], 1 card:[CoS]
-Bring in: 4 card:[FoN], 1 card[TO], 1 card[Surgical Extraction], 1 card:[Tormod's Crypt], maybe 1-2 card:[Flusterstorm].
+Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[Surgical Extraction], 1 card:[Tormod's Crypt], maybe 1-2 card:[Flusterstorm].
 
 Another swingy set of matchups. Their best hands will beat your best hands. VS Reanimator try to fight their
 graveyard enablers like card:[Entomb] or card:[Faithless Looting]. VS Oops fight them however you can. These matchups I 
@@ -284,7 +284,7 @@ personally find favourable but again, they can be very swingy.
 Respect: Allosaurus Shepherd + Endurance
 Disrespect: Choke.
 Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Preordain], 1 card:[PoN]
-Bring in: 4 card:[FoN], 1 card[TO], 1 card[CoV]
+Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[CoV]
 
 These matchups can be the easiest wins or the hardest losses and sometimes it is a toss of the dice
 based on respective mulligans which can decide it. Cavern stays in because Chalice on 2 ruins your
