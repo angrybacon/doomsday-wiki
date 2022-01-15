@@ -183,6 +183,12 @@ and the justification for having them.
   like card:[Blood Moon], card:[Chalice of the void], card:[Trinisphere] etc from landing onto the battlefield. 
   A very versatile and mana efficient card. Sometimes can be over-boarded.
   
+  :::row{variant=centered}
+- CoV
+- Flusterstorm
+- FoN
+:::
+  
 - 1 card:[Massacre]
   One of the more specialist tools. This helps deal with a myriad of hatebear style creatures in a very mana efficient
   way and can be easily found through casting Doomsday. Normally used in non-{U} fair matchups but occasionally can
@@ -195,6 +201,12 @@ and the justification for having them.
 - 1 card:[Red Elemental Blast]
   It's like Pyroblast but spelt differently. This is here to simply diversify my blast effects for small percentage points
   and niche corner cases (although I have had people Surgical them before!).
+  
+  :::row{variant=centered}
+- Massacre
+- Pyroblast
+- REB
+:::
   
 - 1 card:[Surgical Extraction]
   Part of the anti-graveyard package. This provides soft turn 0 protection against decks looking to abuse the graveyard. Sometimes
@@ -216,6 +228,13 @@ and the justification for having them.
  Finally it's a land that makes {R}. It helps cast our blast effects. Not much else to say though you could consider to bring it in as
  an additional "bad Island" in matchups where maybe you don't want Cavern.
  
+ :::row{variant=centered}
+- Surgical Extraction
+- TO
+- Tormod's Crypt
+- Volcanic Island
+:::
+ 
  ## The Actual Sideboard Guide Bit
  
  Here I will list decks in the order that I think of them. I will trying to add cards I would have on my radar that I wish to respect, cards
@@ -223,6 +242,7 @@ and the justification for having them.
  Please note this is a snapshot and should not be considered gospel. The presence of SPICE in an opponent's deck can result in variations
  being made if they are needed and you should always try to critical identify whether something seems sensible to you. If you
  don't like an idea written here you don't have to follow it :)
+
 
 ### UR Delver/Grixis Delver/RUG Delver
 
@@ -236,6 +256,11 @@ they have Torpor Orb, good for them. They obviously wanted it more. The changes 
 because us having our own discard hit is devastating. Second Oracle lets you act a bit ore aggressively in pile building
 and also acts as a buffer to random instances of having your sole win condition exiled to monkey.
 
+:::row{variant=centered}
+- Delver of Secrets
+- Ragavan, Nimble Pilferer
+- Dragon's Rage Channeler
+:::
 
 ### Death and Taxes
 
@@ -253,6 +278,11 @@ the fastest threat that they have. I have listed card:[Spirit of the Labrynth] a
 respect because post Doomsday it not only slows you down in progressing your pile but also has a feisty
 attack of 3 which can quickly knock you down.
 
+:::row{variant=centered}
+- Ethersworn Canonist
+- Deafening Silence
+- Aether Vial
+:::
 
 ### Stompy Decks
 
@@ -266,10 +296,15 @@ based on respective mulligans which can decide it. Cavern stays in because Chali
 day otherwise. Try to avoid keeping hands that die to Chalice on 1 unless that hand then can just
 win on the next turn. It's a swingy matchup but very winnable.
 
+:::row{variant=centered}
+- Chalice of the Void
+- Blood Moon
+- Trinisphere
+:::
 
-### Oops all Spells/BR Reanimator
+### Oops all Spells/BR Reanimator/Madness
 
-Respect: The fact they are faster than you.  
+Respect: The fact they are faster than you. Burning Inquiry.  
 Disrespect: Most of their deck.  
 Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[EoA], 2 card:[Preordain], 1 card:[PoN], 1 card:[Island], 1 card:[CoS]  
 Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[Surgical Extraction], 1 card:[Tormod's Crypt], maybe 1-2 card:[Flusterstorm].  
@@ -278,15 +313,225 @@ Another swingy set of matchups. Their best hands will beat your best hands. VS R
 graveyard enablers like card:[Entomb] or card:[Faithless Looting]. VS Oops fight them however you can. These matchups I 
 personally find favourable but again, they can be very swingy.
 
+I'll be honest, I don't think I have ever faced the Madness deck in the wild. As a result this is a purely theory
+crafted setup from having checked mtggoldfish for the most popular Legacy decks at the time of writing this and just
+thinking "this'll be similar to the other fast Graveyard strategies".
+
+:::row{variant=centered}
+- Griselbranned
+- Balustrade Spy
+- Basking Rootwalla
+:::
 
 ### Elves
 
 Respect: Allosaurus Shepherd + Endurance  
 Disrespect: Choke.  
-Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Preordain], 1 card:[PoN]  
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 1 card:[CoS]  
+Bring in: 2 card:[FoN], 1 card:[TO], 1 card:[CoV], maybe 1-2 card:[Flusterstorm]  
+
+Thanks to the 2 card combo of card:[Endurance] + card:[Allosaurus Shepherd] or Shepherd + card:[Natural Order] this
+can be a tough fight in my opinion. I like to try and go fast whilst being able to fight the green interaction.
+Some people like to bring in card:[Massacre] but that is not an axis I really want to fight them on.
+
+:::row{variant=centered}
+- Allosaurus Shepherd
+- Nettle Sentinel
+- Natural Order
+:::
+
+### Lands
+
+Respect: Endurance, Red-Elemental Blast, Sphere of Resistance
+Disrespect: Choke, Wasteland, Ghost Quarter  
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Pre] or 1-2 card:[Dz]
 Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[CoV]  
 
-These matchups can be the easiest wins or the hardest losses and sometimes it is a toss of the dice
-based on respective mulligans which can decide it. Cavern stays in because Chalice on 2 ruins your
-day otherwise. Try to avoid keeping hands that die to Chalice on 1 unless that hand then can just
-win on the next turn. It's a swingy matchup but very winnable.
+Lands very much has done a lot of work to try and shore up their combo match ups. Nowadays you can expect to see
+both permanent and stack based interaction to join their usual share of mana denial elements. The trick here
+is to just make sure you can keep up {U}{U} post Doomsday and to retain card:[CoS] in case of REB or 
+the occasional rogue Chalice. Don't ever try and fight them with grave hate vs the Loam plan, it's not
+worth it.
+
+:::row{variant=centered}
+- Life from the Loam
+- Sphere of Resistance
+- Ghost Quarter
+:::
+
+### TES/ANT
+
+Respect: Silence, Orim's Chant  
+Disrespect: The rest.  
+Take out: 1 card:[CoS], 2 card:[Pre], 1 card:[Island], 1 card:[SW]  
+Bring in: 2-4 card:[FoN], 1 card:[TO], 2 card:[Flusterstorm]  
+
+Because of the sheer mass of interaction we can bring to the table and the advantage in a topdeck
+war, we need to be careful about overloading too much on permission. Storm variants are one of
+the matches I am considering not bringing in the full 8 Force effects in for because we can easily
+dilute our own plan too much in it. I don't bother bringing in REB effects because it's not the cantrips
+we want to fight over.
+
+:::row{variant=centered}
+- Rite of Flame
+- Silence
+- Wishclaw Talisman
+:::
+
+### 8-Cast/Urza Echo
+
+Respect: Force of Will, Echo of Eons, Torpor Orb
+Disrespect: Chalice, Emry.  
+Take out: 1 card:[Dur], 1 card:[Tsz], 2 card:[SW], 2 card:[Pre], 1 card:[Island]  
+Bring in: 2-4 card:[FoN], 1 card:[TO], 1 card:[CoV], maybe 2 card:[Flusterstorm], maybe 1 card:[Volcanic Island], maybe 2 card:[Pyroblast], maybe 1 card:[REB]
+
+These two decks I know are very different to face but I feel like I wanted to put them together. Urza Echo feels very much
+like a stompy deck that can run Forces and can be very tough, especially with card:[Hullbreacher]  effects so involved. 8-Cast
+feels easier with less explosiveness traded in for more consistency. Either way, don't be afraid to let Chalices resolve
+and just try to power out a quick win. My plan for these decks keeps changing as I try different things but I was
+reasonably happy with the plan enacted which can be *shameless plug* seen in [this video](https://www.youtube.com/watch?v=GtMGU39YAtw) 
+and *shameless plug* [this video](https://www.youtube.com/watch?v=H62gxBL0lUA) *end of shameless plugging*.
+
+:::row{variant=centered}
+- Echo of Eons
+- Karn, the Great Creator
+- Thought Monitor
+:::
+
+### Blue Soup (Stryfo Pile/BUG Zenith/Bant/Miracles/4C Control)
+
+Respect: Endurance, Meddling Mage, Dress Down, Flusterstorm
+Disrespect: Any deck with Yorion as a companion.  
+Take out: 2 card:[SW], 1 card:[Watery Grave], 1-2 card:[Dz], maybe 1-2 card:[FoW], maybe 1-2 card:[Pre], maybe 1-2 card:[PT]  
+Bring in: 1 card:[TO], maybe 1 card:[CoV], 2 card:[Flusterstorm], 1 card:[Volcanic Island], maybe 2 card:[Pyroblast], maybe 1 card:[REB] 
+
+The main difficulty in facing Blue Soup decks is they could have anything in them. It's a pain in the arse because it's
+all beatable but if you fail to identify splashes or board for the wrong things you can get blown out because a lot of them
+bring in so many different cards. Generally 1 for 1 interaction is good and you want to be able to still have the ability
+to go under them but not be too disadvantaged if the game drags on. I try to always keep at least 2 cycling effects even in
+these matchups.
+
+:::row{variant=centered}
+- Uro, Titan of Nature's Wrath
+- Sylvan Library
+- Swords to Plowshares
+:::
+
+### Jeskai Soup (Jeskai Saga, Jeskai Ragavan, Jeskai Delver, Jeskai Stoneblade)
+
+Respect: Meddling Mage, Dress Down, Lightning Bolt, Ragavan, Day's Undoing  
+Disrespect: REBs.  
+Take out: 2 card:[SW], 1 card:[Watery Grave], 1-2 card:[Dz], maybe 1-2 card:[FoW], maybe 1-2 card:[Pre], maybe 1-2 card:[PT]  
+Bring in: 1 card:[TO], maybe 1 card:[CoV], 2 card:[Flusterstorm], 1 card:[Volcanic Island], maybe 2 card:[Pyroblast], maybe 1 card:[REB] 
+
+OR
+
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW]  
+Bring in: 2 card:[Flusterstorm], 1 card:[TO]  
+
+Like Blue Soup but harder thanks to card:[Ragavan, Nimbler Pilferer] and card:[Expressive Iteration]. Often these might as
+well all be Delver decks just with card:[Meddling Mage] to annoy us. You can very well justify bringing in card:[Massacre] or
+card:[CoV] in these matchups. Again deck variance in the opposing field can cause difficulty in selecting what to bring to 
+the table.
+
+:::row{variant=centered}
+- Expressive Iteration
+- Murktide Regent
+- Meddling Mage
+:::
+
+### Cloudpost
+
+Respect: Endurance  
+Disrespect: The rest.  
+Take out: 1 card:[Dur], 1 card:[Tsz], 1 card:[SW], 2 card:[Preordain], 1 card:[PoN]  
+Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[CoV]   
+
+Cloudpost seems to be the best matchup for the deck. Remember no matchup is unloseable, but sometimes
+it feels that way here. Just don't get blown out by card:[Endurance] or card:[Torpor Orb] and you'll be fine.
+
+:::row{variant=centered}
+- Cloudpost
+- Glimmerpost
+- Mindbreak Trap
+:::
+
+### Painter
+
+Respect: Grindstone, Torpor Orb, Blood Moon, Trinisphere  
+Disrespect: Nah, gotta respect Painter.  
+Take out: 1 card:[Dur], 1 card:[Tsz], 2 card:[SW], 1 card:[Pre]  
+Bring in: 4 card:[FoN], 1 card:[TO], 1 card:[CoV]  
+
+This can be a real tough matchup. A smart Painter player can really do well and playing around an on-board
+card:[Grindstone] can be a real headache.
+
+:::row{variant=centered}
+- Goblin Welder
+- Painter's Servant
+- Grindstone
+:::
+
+### Omnishow
+
+Respect: People who still run Release the Ants. Cunning Wish for Trickbind.  
+Disrespect: People who run Shared Summoning.  
+Take out: 2 card:[SW], 1-2 card:[Pre], 1 card:[Island], 1 card:[PoN], maybe 1 card:[Watery Grave], maybe 1 card:[LED], maybe 1 card:[DA] 
+Bring in: 2-4 card:[FoN], maybe 1 card:[TO], 2 card:[Flusterstorm], maybe 1 card:[Volcanic Island], maybe 2 card:[Pyroblast], maybe 1 card:[REB]  
+
+I love Omnishow and field it as my secondary deck of choice. Unfortunately it is definitely
+clunkier than Doomsday and we had a huge advantage in being able to make resilient pass-the-turn
+piles that win via their card:[Show and Tell].
+
+:::row{variant=centered}
+- Show and Tell
+- Trickbind
+- Cunning Wish
+:::
+
+### Sneak and Show
+
+Respect: Daze  
+Disrespect: The rest.  
+Take out: 2 card:[SW], 1-2 card:[Pre], 1 card:[Island], 1 card:[PoN], maybe 1 card:[Watery Grave], maybe 1 card:[LED], maybe 1 card:[DA], maybe 2 card[:Dz]  
+Bring in: 4 card:[FoN], 1 card:[TO], 2 card:[Flusterstorm], maybe 1 card:[Volcanic Island], maybe 2 card:[Pyroblast], maybe 1 card:[REB]  
+
+Sneak and Show feels like a swingier Omnishow in terms of matchup. It's one of the matchups I have experimented with card:[Dz] being brought in
+and out depending on play vs draw etc. Should still be favourable.
+
+:::row{variant=centered}
+- Sneak Attack
+- Emrakul, the Aeon's Torn
+- Daze
+:::
+
+### That's it.
+
+I'm not going to list each and every archetype in the format and apologies if I have missed yours. There are lots
+of cool decks and many are really fun to face. I'm also not going to map the mirror because that is another matchup
+I change my mind on all the time and we're not here to fight other Doomsdayers, right? RIGHT?!
+
+## Closing Thoughts
+
+There you have it. An attempt at presenting a sideboard guide and the thoughts that go behind it. As you can see
+it's not super well defined and, as I said before, I deviate from it quite often but hey! It's a good starting point.
+One thing I will note is that I find having 3 blast effects a little too many perhaps so I might look to cut
+one for something but for what? That remains to be seen. 
+
+I would strongly advise you 1. Don't try to mimic my decklist because it is very much made for me and 2. Have a 
+go at building your own little sideboard guide as it's a very good exercise to go through. Even if you do
+disregard it afterwards.
+
+As always if you want even more content please check out our
+[resources](/appendices/resources) page which includes a list of community
+streamers or maybe if you are up for a challenge maybe check out the
+[puzzles](/puzzles) page.
+
+If you would like to submit any content to the Wiki then please contact
+AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
+Doishy on the Discord if you wish to discuss anything mentioned in the article
+further.
+
+Until next time.
+
+May you not get bored with all this siding.
