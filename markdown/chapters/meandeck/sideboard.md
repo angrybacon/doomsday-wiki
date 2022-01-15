@@ -376,7 +376,7 @@ It is better to hold on to your interaction to protect your own combo than to
 disrupt some of the grindy control elements your opponent might use. Things like
 a first casting of Uro, Titan of Nature's Wrath or the playing of a Null Rod can
 often be ignored (hand permitting). There is some consideration with preventing
-something like Sylvan Library or Oko, Thief of Crowns resolving if you expect
+something like Sylvan Library or Jace the Mind Sculptor resolving if you expect
 the game to go on too long but otherwise these can also be disregarded in favour
 of progressing your own plan. Threats you should consider fighting are cards
 like Leovold, Emissary of Trest as this disrupts our combo and provides a
