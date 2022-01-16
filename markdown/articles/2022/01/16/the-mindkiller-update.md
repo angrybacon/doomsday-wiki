@@ -20,7 +20,7 @@ to talk about.
 
 ## The Deck
 
-::decklist{path=2021/12/mindkiller-update}
+::decklist{path=2022/01/mindkiller}
 
 This list should look remarkably similar to the original form of the deck. There
 are no attempts to support Brainstorm, there's still plenty of copies of
