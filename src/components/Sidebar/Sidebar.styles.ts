@@ -9,8 +9,8 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
     header: {
       ...theme.mixins.toolbar,
-      paddingLeft: theme.spacing(1),
-      paddingRight: theme.spacing(1),
+      paddingLeft: theme.spacing(),
+      paddingRight: theme.spacing(),
       [theme.breakpoints.up('sm')]: {
         ...theme.mixins.toolbar,
         paddingLeft: theme.spacing(2),

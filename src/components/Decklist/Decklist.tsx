@@ -76,17 +76,27 @@ export const Decklist: FunctionComponent<Props> = ({
           )}
         </AccordionSummary>
         <AccordionDetails className={c(classes.details, classes.gutters)}>
-          <Box display="flex" flex={2}>
-            {main.map((cards, index) => (
-              // eslint-disable-next-line react/no-array-index-key
-              <Box flex={1} key={`column-${index}`}>
-                <Column cards={cards} />
-              </Box>
-            ))}
+          <Box flex={2}>
+            <Typography color="textSecondary" paragraph variant="caption">
+              Main
+            </Typography>
+            <Box display="flex" flexWrap="wrap">
+              {main.map((cards, index) => (
+                // eslint-disable-next-line react/no-array-index-key
+                <Box flex={1} key={`column-${index}`} mb={2} mr={2}>
+                  <Column cards={cards} />
+                </Box>
+              ))}
+            </Box>
           </Box>
           {side && (
-            <Box flex={1} ml={4} mr="1em">
-              <Column cards={side} />
+            <Box flex={1}>
+              <Typography color="textSecondary" paragraph variant="caption">
+                Sideboard
+              </Typography>
+              <Box mb={2}>
+                <Column cards={side} />
+              </Box>
             </Box>
           )}
         </AccordionDetails>

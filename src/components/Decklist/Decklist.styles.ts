@@ -13,6 +13,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       borderTopStyle: 'solid',
       borderTopWidth: 1,
       display: 'flex',
+      flexWrap: 'wrap',
       justifyContent: 'space-between',
       overflowX: 'auto',
       paddingBottom: theme.spacing(2),
@@ -39,7 +40,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       alignItems: 'center',
       display: 'flex',
       '& > :not(:first-child)': {
-        marginLeft: theme.spacing(1),
+        marginLeft: theme.spacing(),
       },
       '& > * > :not(:first-child)': {
         marginLeft: theme.spacing(0.5),

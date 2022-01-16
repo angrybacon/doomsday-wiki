@@ -6,13 +6,13 @@ export const useStyles = makeStyles((theme: Theme) =>
       display: 'flex',
     },
     quantity: {
-      marginRight: theme.spacing(),
-      maxWidth: '1.2em',
-      minWidth: '1.2em',
+      maxWidth: '1.6em',
+      minWidth: '1.6em',
     },
     root: {
       listStyleType: 'none',
       margin: 0,
+      minWidth: 170,
       padding: 0,
     },
   })
