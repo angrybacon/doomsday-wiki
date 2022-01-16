@@ -38,11 +38,11 @@ out these content creators for Doomsday:
   [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)
 - Kai *Sawatarix* Sawatari:
   [Twitch](https://www.twitch.tv/sawatarix)
-  [Youtube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)
+  [YouTube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)
 - ThornOfWrath:
   [Twitch](https://www.twitch.tv/thornofwrath)
 - Michael *fangzie* Webb:
-  [Youtube](https://www.youtube.com/channel/UCiGWW4P0bqUcmb9a8frmx1A)
+  [YouTube](https://www.youtube.com/channel/UCiGWW4P0bqUcmb9a8frmx1A)
 
 For Paper Legacy that often involves Doomsday.
 
@@ -72,32 +72,32 @@ Assume English unless specified otherwise.
 
 ### 2021
 
-- [BoshNRoll runs a league with UB Meandeck ft. Death's Shadow (December 2021)](https://www.youtube.com/watch?v=sbx6_WIuSR4)
-- [MTGBlackSet display some Paper Meandeck in action vs. Death and Taxes (December 2021) - German/Deutsch](https://www.youtube.com/watch?v=Hn3no4hz00s)
-- [MTGBlackSet display some Paper Meandeck in action vs. Moon Stompy (November 2021) - German/Deutsch](https://www.youtube.com/watch?v=898Kqa1wiGw)
-- [Phil G of Thraben University gives their second (much improved) try at Meandeck (October 2021)](https://www.youtube.com/watch?v=5sYA9LsrVLc)
-- [Phil G of Thraben University gives their first (poor) try at Meandeck (October 2021)](https://www.youtube.com/watch?v=P-dBBwj0pFk&list=WL&index=7)
-- [NathanLipetz gives Esper Meandeck a go with kl0gW (October 2021)](https://www.youtube.com/watch?v=c5wEEhXjrS0)
-- [BoshNRoll runs a league with UB Meandeck (October 2021)](https://www.youtube.com/watch?v=t6NK3NoHg7M)
+- [*BoshNRoll* runs a league with UB Meandeck ft. Death's Shadow (December 2021)](https://www.youtube.com/watch?v=sbx6_WIuSR4) (contains ads)
+- [*MTGBlackSet* displays some paper Meandeck in action vs. Death and Taxes (December 2021) - German/Deutsch](https://www.youtube.com/watch?v=Hn3no4hz00s)
+- [*MTGBlackSet* displays some paper Meandeck in action vs. Moon Stompy (November 2021) - German/Deutsch](https://www.youtube.com/watch?v=898Kqa1wiGw)
+- [Phil Gallagher of Thraben University gives their second (much improved) try at Meandeck (October 2021)](https://www.youtube.com/watch?v=5sYA9LsrVLc)
+- [Phil Gallagher of Thraben University gives their first (poor) try at Meandeck (October 2021)](https://www.youtube.com/watch?v=P-dBBwj0pFk&list=WL&index=7)
+- [Nathan Lipetz gives Esper Meandeck a go with *kl0gW* (October 2021)](https://www.youtube.com/watch?v=c5wEEhXjrS0)
+- [*BoshNRoll* runs a league with UB Meandeck (October 2021)](https://www.youtube.com/watch?v=t6NK3NoHg7M) (contains ads)
 - [Bryant Cook runs a league with Meandeck (September 2021)](https://www.youtube.com/watch?v=W-G6j82dtHM)
-- [Guma runs a league with UB Meandeck (August 2021) - Portugese/Português](https://www.youtube.com/watch?v=Wn26fq9mAWg)
-- [MinT runs a league with Grixis Meandeck (August 2021)](https://www.youtube.com/watch?v=yKWIi_DcWkc)
-- [BoshNRoll runs a league with Esper Meandeck ft. Stoneforge Mystic (August 2021)](https://www.youtube.com/watch?v=mZJMKwtWUbo) (contains ads)
+- [*Guma* runs a league with UB Meandeck (August 2021) - Portugese/Português](https://www.youtube.com/watch?v=Wn26fq9mAWg)
+- [*MinT* runs a league with Grixis Meandeck (August 2021)](https://www.youtube.com/watch?v=yKWIi_DcWkc)
+- [*BoshNRoll* runs a league with Esper Meandeck ft. Stoneforge Mystic (August 2021)](https://www.youtube.com/watch?v=mZJMKwtWUbo) (contains ads)
 - [Bryant Cook runs a league with Meandeck (August 2021)](https://www.youtube.com/watch?v=n8w5lQ2Xbn0)
 - [ちばとMTG shows a mini primer on how the core cards in the deck work (July 2021) - Japanese/日本語](https://www.youtube.com/watch?v=RsFCyud45qw)
-- [MinT runs a league with Meandeck post MH2 (July 2021)](https://www.youtube.com/watch?v=Aidkv6ZH87A)
-- [Bryant Cook runs a league with the help of Wonderpreaux with Meandeck (June 2021)](https://www.youtube.com/watch?v=PMqa-PoH57c)
-- [NathanLipetz runs a league with Meandeck (June 2021)](https://www.youtube.com/watch?v=BLubJad3Pnw)
-- [MrLee runs a league with Chain of Smog Doomsday (June 2021)](https://www.youtube.com/watch?v=kvUTvOye8uc)
-- [MTGBlackSet display some Paper Meandeck in action vs Urza Echo (May 2021) - German/Deutsch](https://www.youtube.com/watch?v=MQEco0oCUOA&t=956s)
-- [Nevilshute Provides a Video Primer on the Deck (May 2021)](https://www.youtube.com/watch?v=Js6hJ_4K5CU)
-- [NathanLipetz runs a league with Meandeck helped by TheJigisAlwaysUp (April 2021)](https://www.youtube.com/watch?v=jKqj_6Z0mrQ)
-- [Video Primer/Deck Tech on Meandeck Doomsday (April 2021) - German/Deutsch](https://www.youtube.com/watch?v=R76tj2vwp34)
-- [CalebD runs a league with Chain of Smog Doomsday (April 2021)](https://www.youtube.com/watch?v=9M0K1Z9bWM0)
-- [Hellownewton runs a league with RomarioVidal Part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8)
-- [Hellownewton runs a league with RomarioVidal Part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo)
+- [*MinT* runs a league with Meandeck post-MH2 (July 2021)](https://www.youtube.com/watch?v=Aidkv6ZH87A)
+- [Bryant Cook runs a league with the help of *Wonderpreaux* with Meandeck (June 2021)](https://www.youtube.com/watch?v=PMqa-PoH57c)
+- [Nathan Lipetz runs a league with Meandeck (June 2021)](https://www.youtube.com/watch?v=BLubJad3Pnw)
+- [*MrLee* runs a league with Chain of Smog Doomsday (June 2021)](https://www.youtube.com/watch?v=kvUTvOye8uc)
+- [*MTGBlackSet* displays some paper Meandeck in action vs. Urza Echo (May 2021) - German/Deutsch](https://www.youtube.com/watch?v=MQEco0oCUOA&t=956s)
+- [*Nevilshute* provides a video primer on the Deck (May 2021)](https://www.youtube.com/watch?v=Js6hJ_4K5CU)
+- [Nathan Lipetz runs a league with Meandeck helped by *TheJigIsAlwaysUp* (April 2021)](https://www.youtube.com/watch?v=jKqj_6Z0mrQ)
+- [Video primer/deck tech on Meandeck Doomsday by *MTGBlackSet* (April 2021) - German/Deutsch](https://www.youtube.com/watch?v=R76tj2vwp34)
+- [*CalebD* runs a league with Chain of Smog Doomsday (April 2021)](https://www.youtube.com/watch?v=9M0K1Z9bWM0)
+- [*Hellownewton* runs a league with *RomarioVidal* part 1 (February 2021)](https://www.youtube.com/watch?v=VhzUCmILgj8)
+- [*Hellownewton* runs a league with *RomarioVidal* part 2 (February 2021)](https://www.youtube.com/watch?v=9KzxwRH0vbo)
 - [Bryant Cook goes to the Dark side casting Doomsday for the first time (February 2021)](https://www.youtube.com/watch?v=h1euGB8hQFM)
-- [LeFly runs a League with Meandeck (February 2021) - German/Deutsch](https://www.youtube.com/watch?v=pkpixIywm1w)
+- [*LeFly* runs a League with Meandeck (February 2021) - German/Deutsch](https://www.youtube.com/watch?v=pkpixIywm1w)
 
 ### 2020
 
@@ -105,33 +105,33 @@ Assume English unless specified otherwise.
 - [Anuraag Das runs some ANT/Doomsday with Kai Sawatari (December 2020)](https://www.youtube.com/watch?v=u-kyFx2VJ0c)
 - [Rodrigo *Sharkcaster_Mage* Togores runs a set of leagues with BUrg Meandeck (September 2020)](https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)
 - [Julian runs a League with Meandeck Doomsday (November 2020)](https://www.youtube.com/watch?v=xbrEBHtF1Cs)
-- [Julian is coached through a league with Nevilshute (August 2020)](https://www.youtube.com/watch?v=JDEXkRw679w)
-- [DK_TTGL runs a League with Grixis Meandeck (June 2020) - Portugese/Português](https://www.youtube.com/watch?v=eMgfFlx0_10)
-- [Jarvis Yu ft. Ari Lax do a League with 4C Meandeck (July 2020)](https://www.youtube.com/watch?v=mn4GYFoVrRA)
+- [Julian is coached through a league with *Nevilshute* (August 2020)](https://www.youtube.com/watch?v=JDEXkRw679w)
+- [*DK_TTGL* runs a League with Grixis Meandeck (June 2020) - Portugese/Português](https://www.youtube.com/watch?v=eMgfFlx0_10)
+- [Jarvis Yu ft. Ari Lax do a League with 4c Meandeck (July 2020)](https://www.youtube.com/watch?v=mn4GYFoVrRA)
 
 ### Older
 
-- [d8dk32's top 8 at the Legacy Titanium Series 1K Challenge (August 2017)](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
+- [*d8dk32*'s top 8 at the Legacy Titanium Series 1K Challenge (August 2017)](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)
 
 ## Highlight Reel
 
 Silly or amusing clips from Twitch Streams.
 
-- [Monkeyscantcry shows the best pile to play around Surgical Extraction](https://www.twitch.tv/videos/564975441)
-- [Romariovidal finishes a league in spectacular fashion](https://www.twitch.tv/videos/698945172)
+- [*Monkeyscantcry* shows the best pile to play around Surgical Extraction](https://www.twitch.tv/videos/564975441)
+- [*Romariovidal* finishes a league in spectacular fashion](https://www.twitch.tv/videos/698945172)
 
 ## Other Articles
 
-Alternate writing on Doomsday from around the web.  
+Alternate writings on Doomsday from around the Web.  
 Assume English unless specified otherwise.
 
-- [Write up by StormGuyIsMe on their thoughts on Doomsday](https://docs.google.com/document/d/1Ei-tU5fPfb5b0a1O_kHaa3kAVxRZRS2TjPGpJO8TYqQ/edit)
-- [Part 2: Article by NagiZero on how to play the deck and their own experiences - Chinese/中文](https://www.iyingdi.com/tz/post/5105868)
-- [Part 1: Article by NagiZero on how to play the deck and their own experiences - Chinese/中文](https://www.iyingdi.com/tz/post/5107657)
-- [Wonderpreaux writes about their thoughts on Stifle and Wasteland in Meandeck](https://pastebin.com/Syt240yY)
+- [Write-up by *StormGuyIsMe* on their thoughts on Doomsday](https://docs.google.com/document/d/1Ei-tU5fPfb5b0a1O_kHaa3kAVxRZRS2TjPGpJO8TYqQ)
+- [Part 2: article by *NagiZero* on how to play the deck and their own experiences - Chinese/中文](https://www.iyingdi.com/tz/post/5105868)
+- [Part 1: article by *NagiZero* on how to play the deck and their own experiences - Chinese/中文](https://www.iyingdi.com/tz/post/5107657)
+- [*Wonderpreaux* writes about their thoughts on Stifle and Wasteland in Meandeck](https://pastebin.com/Syt240yY)
 - [Article on Vintage Doomsday by Suzuki Yuuto - Japanese/日本語](https://note.com/unbangush/n/n6e509434ef9c)
-- [Vintage Articles for Vintage Doomsday by Revenantkioku](https://oraclesofthecoast.com)
-- [Mini Blog Primer on the deck - Japanese/日本語](https://note.com/nao_ddft/n/ne45e19d345f9)
-- [Emidln's BUG Doomsday mini Primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
-- [Maxtortion Writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
-- [Maxtortion Writes about Esper Doomsday](https://minmaxblog.com/max-shows-off-esper-doomsday/)
+- [Vintage articles for Vintage Doomsday by *Revenantkioku*](https://oraclesofthecoast.com)
+- [Mini blog primer on the deck - Japanese/日本語](https://note.com/nao_ddft/n/ne45e19d345f9)
+- [*Emidln*'s BUG Doomsday mini primer](https://gist.github.com/emidln/5241e81d32c05188c7ef613e18614925)
+- [*Maxtortion* writes about Grixis Doomsday ft. Dreadhorde Arcanist](https://minmaxblog.com/nostradamus/)
+- [*Maxtortion* writes about Esper Doomsday](https://minmaxblog.com/max-shows-off-esper-doomsday/)
