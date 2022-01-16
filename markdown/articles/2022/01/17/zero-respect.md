@@ -571,8 +571,7 @@ it's a very good exercise to go through. Even if you do disregard it afterwards.
 
 As always if you want even more content please check out our
 [resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
+streamers.
 
 If you would like to submit any content to the Wiki then please contact
 AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
