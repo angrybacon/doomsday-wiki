@@ -160,3 +160,8 @@ Can stop Conjurer's Bauble activations, Tendrils of Agony and Empty the Warrens
 Storm triggers, as well as fetchlands, cyclers like Street Wraith and Thassa's
 Oracle triggers. Does not stop Chromatic Sphere, Lake of the Dead, Rain of
 Filth, Lotus Petal, or LED activations.
+
+### Teferi, Time Raveler
+
+You cannot cast something using Shelldock Isle if the opponent has a Teferi in play
+however you can use Shelldock Isle to put a land into play.
