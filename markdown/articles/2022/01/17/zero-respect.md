@@ -179,11 +179,9 @@ general/expected roles and the justification for having them.
   Helps deal with most things other than Chalice on 1 and even then most of the
   time that can be ignored. Can also allow the bouncing of your own Oracle to
   recast in a pinch.
-
 - 2 :card[Flusterstorm] Shines vs other spell based combo, helps disrupt cheaper
   interaction and allows us to force our combo through opposing protection. A
   very useful tool for multiple fair and unfair matchups.
-
 - 4 :card[FoN] Acting as both combo protection from those faster than us and to
   complement the Chain by preventing things like :card[Blood Moon],
   :card[Chalice of the void], :card[Trinisphere] etc from landing onto the
@@ -201,11 +199,9 @@ general/expected roles and the justification for having them.
   easily found through casting Doomsday. Normally used in non-{U} fair matchups
   but occasionally can be brought in to fight of :card[Meddling Mage] or similar
   from fair {U} decks.
-
 - 2 :card[Pyroblast] Catch all in {U} match ups as protection, disruption and
   removal. Anyone who plays Legacy knows how effective these can be in the right
   matchup.
-
 - 1 :card[Red Elemental Blast] It's like Pyroblast but spelt differently. This
   is here to simply diversify my blast effects for small percentage points and
   niche corner cases (although I have had people Surgical them before!).
@@ -219,7 +215,6 @@ general/expected roles and the justification for having them.
 - 1 :card[Surgical Extraction] Part of the anti-graveyard package. This provides
   soft turn 0 protection against decks looking to abuse the graveyard. Sometimes
   I also look to bring it in for the Mirror.
-
 - 1 :card[TO] The second Oracle is a very versatile tool. It allows you to pile
   with two of them giving multiple chances at resolving it and allowing you to
   go up to a devotion of 4 which helps bypass things like :card[Endurance]. It
@@ -228,13 +223,11 @@ general/expected roles and the justification for having them.
   you could never pitch your lone Oracle). Also (in a pinch) it blocks
   :card[Ragavan, Nimble Pilferer] really well and helps you avoid any
   accidentally monkey-related exiling.
-
 - 1 :card[Tormod's Crypt] The second part of my anti-graveyard package. This one
   is nice as it can just sit in play whilst you get prepped or be added to a
   pile to help defend against various tools like :card[Cephalid Coliseum] whilst
   you go for the win. It's less precise than Surgical but is a lot more
   effective.
-
 - 1 :card[Volcanic Island] Finally it's a land that makes {R}. It helps cast our
  blast effects. Not much else to say though you could consider to bring it in as
  an additional "bad Island" in matchups where maybe you don't want Cavern.
@@ -259,10 +252,10 @@ Here I will list decks in the order that I think of them. I will trying to add
 
 ### UR Delver, Grixis Delver, RUG Delver
 
-Respect: None of it. Maybe Monkey...  
-Disrespect: The rest.  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW]  
-Bring in: 2 :card[Flusterstorm], 1 :card[TO]  
+- **Respect**: None of it. Maybe Monkey...
+- **Disrespect**: The rest
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
+- **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
 Try your best. Play around Daze/Monkey/Bolt/Wasteland/Stifle when you can. Don't
 play around them when you can't. If they have Torpor Orb, good for them. They
@@ -279,10 +272,13 @@ buffer to random instances of having your sole win condition exiled to monkey.
 
 ### Death and Taxes
 
-Respect: Deafening Silence, Spirit of the Labrynth, Rishadan Port  
-Disrespect: Thalia, Archive Trap, Solitude, Mindbreak Trap, Ethersworn Canonist  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW], 1 :card[CoS], 1 :card[PoN]  
-Bring in: 1 :card[CoV], 1 :card[Massacre], 2-4 :card[FoN], maybe 1 :card[TO]  
+- **Respect**: Deafening Silence, Spirit of the Labrynth, Rishadan Port
+- **Disrespect**: Thalia, Archive Trap, Solitude, Mindbreak Trap, Ethersworn
+  Canonist
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 1 Cavern of Souls, 1
+  Pact of Negation
+- **Bring in**: 1 Chain of Vapor, 1 Massacre, 2-4 Force of Negation, maybe 1
+  Thassa's Oracle
 
 Death and Taxes is an interesting deck because in theory they have all the right
 tools to win, but often they need multiple of them in one go to actually make it
@@ -303,11 +299,11 @@ pile but also has a feisty attack of 3 which can quickly knock you down.
 
 ### Stompy Decks
 
-Respect: Blood Moon, Trinisphere, Opposition Agent  
-Disrespect: Chalice (to an extent).  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW], 2 :card[Preordain], 1
-:card[PoN]  
-Bring in: 4 :card[FoN], 1 :card[TO], 1 :card[CoV]
+- **Respect**: Blood Moon, Trinisphere, Opposition Agent
+- **Disrespect**: Chalice (to an extent)
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 2 Preordain, 1 Pact
+  of Negation
+- **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor
 
 These matchups can be the easiest wins or the hardest losses and sometimes it is
 a toss of the dice based on respective mulligans which can decide it. Cavern
@@ -323,11 +319,12 @@ turn. It's a swingy matchup but very winnable.
 
 ### Oops all Spells, BR Reanimator, Madness
 
-Respect: The fact they are faster than you. Burning Inquiry.  
-Disrespect: Most of their deck.  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[EoA], 2 :card[Preordain], 1 :card[PoN], 1 :card[Island], 1 :card[CoS]  
-Bring in: 4 :card[FoN], 1 :card[TO], 1 :card[Surgical Extraction], 1
-:card[Tormod's Crypt], maybe 1-2 :card[Flusterstorm].
+- **Respect**: The fact they are faster than you. Burning Inquiry
+- **Disrespect**: Most of their deck
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Edge of Autumn, 2 Preordain, 1 Pact
+  of Negation, 1 Island, 1 Cavern of Souls
+- **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Surgical Extraction, 1
+  Tormod's Crypt, maybe 1-2 Flusterstorm
 
 Another swingy set of matchups. Their best hands will beat your best hands. VS
 Reanimator try to fight their graveyard enablers like :card[Entomb] or
@@ -347,10 +344,11 @@ for the most popular Legacy decks at the time of writing this and just thinking
 
 ### Elves
 
-Respect: Allosaurus Shepherd + Endurance  
-Disrespect: Choke.  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW], 1 :card[CoS]  
-Bring in: 2 :card[FoN], 1 :card[TO], 1 :card[CoV], maybe 1-2 :card[Flusterstorm]
+- **Respect**: Allosaurus Shepherd + Endurance
+- **Disrespect**: Choke
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 1 Cavern of Souls
+- **Bring in**: 2 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor, maybe
+  1-2 Flusterstorm
 
 Thanks to the 2 card combo of :card[Endurance] + :card[Allosaurus Shepherd] or
 Shepherd + :card[Natural Order] this can be a tough fight in my opinion. I like
@@ -366,10 +364,11 @@ them on.
 
 ### Lands
 
-Respect: Endurance, Red-Elemental Blast, Sphere of Resistance
-Disrespect: Choke, Wasteland, Ghost Quarter  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW], 2 :card[Pre] or 1-2 :card[Dz]  
-Bring in: 4 :card[FoN], 1 :card[TO], 1 :card[CoV]
+- **Respect**: Endurance, Red-Elemental Blast, Sphere of Resistance
+- **Disrespect**: Choke, Wasteland, Ghost Quarter
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 2 Preordain or 1-2
+  Daze
+- **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor
 
 Lands very much has done a lot of work to try and shore up their combo match
 ups. Nowadays you can expect to see both permanent and stack based interaction
@@ -386,10 +385,10 @@ hate vs the Loam plan, it's not worth it.
 
 ### TES, ANT
 
-Respect: Silence, Orim's Chant  
-Disrespect: The rest.  
-Take out: 1 :card[CoS], 2 :card[Pre], 1 :card[Island], 1 :card[SW]  
-Bring in: 2-4 :card[FoN], 1 :card[TO], 2 :card[Flusterstorm]
+- **Respect**: Silence, Orim's Chant
+- **Disrespect**: The rest
+- **Take out**: 1 Cavern of Souls, 2 Preordain, 1 Island, 1 Street Wraith
+- **Bring in**: 2-4 Force of Negation, 1 Thassa's Oracle, 2 Flusterstorm
 
 Because of the sheer mass of interaction we can bring to the table and the
 advantage in a topdeck war, we need to be careful about overloading too much on
@@ -406,12 +405,12 @@ we want to fight over.
 
 ### 8-Cast, Urza Echo
 
-Respect: Force of Will, Echo of Eons, Torpor Orb  
-Disrespect: Chalice, Emry.  
-Take out: 1 :card[Dur], 1 :card[Tsz], 2 :card[SW], 2 :card[Pre], 1 :card[Island]  
-Bring in: 2-4 :card[FoN], 1 :card[TO], 1 :card[CoV], maybe 2
-:card[Flusterstorm], maybe 1 :card[Volcanic Island], maybe 2 :card[Pyroblast],
-maybe 1 :card[REB]
+- **Respect**: Force of Will, Echo of Eons, Torpor Orb
+- **Disrespect**: Chalice, Emry.
+- **Take out**: 1 Duress, 1 Thoughtseize, 2 Street Wraith, 2 Preordain, 1 Island
+- **Bring in**: 2-4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor,
+  maybe 2 Flusterstorm, maybe 1 Volcanic Island, maybe 2 Pyroblast, maybe 1 Red
+  Elemental Blast
 
 These two decks I know are very different to face but I feel like I wanted to
 put them together. Urza Echo feels very much like a stompy deck that can run
@@ -432,11 +431,12 @@ of shameless plugging*.
 
 ### Blue Soup: Stryfo Pile, BUG Zenith, Bant, Miracles, 4c Control
 
-Respect: Endurance, Meddling Mage, Dress Down, Flusterstorm
-Disrespect: Any deck with Yorion as a companion.  
-Take out: 2 :card[SW], 1 :card[Watery Grave], 1-2 :card[Dz], maybe 1-2 :card[FoW], maybe 1-2 :card[Pre], maybe 1-2 :card[PT]  
-Bring in: 1 :card[TO], maybe 1 :card[CoV], 2 :card[Flusterstorm], 1
-:card[Volcanic Island], maybe 2 :card[Pyroblast], maybe 1 :card[REB]
+- **Respect**: Endurance, Meddling Mage, Dress Down, Flusterstorm
+- **Disrespect**: Any deck with Yorion as a companion.
+- **Take out**: 2 Street Wraith, 1 Watery Grave, 1-2 Daze, maybe 1-2 Force of
+  Will, maybe 1-2 Preordain, maybe 1-2 Personal Tutor
+- **Bring in**: 1 Thassa's Oracle, maybe 1 Chain of Vapor, 2 Flusterstorm, 1
+  Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
 The main difficulty in facing Blue Soup decks is they could have anything in
 them. It's a pain in the arse because it's all beatable but if you fail to
@@ -454,16 +454,17 @@ cycling effects even in these matchups.
 
 ### Jeskai Soup: Saga, Ragavan, Delver, Stoneblade
 
-Respect: Meddling Mage, Dress Down, Lightning Bolt, Ragavan, Day's Undoing  
-Disrespect: REBs.  
-Take out: 2 :card[SW], 1 :card[Watery Grave], 1-2 :card[Dz], maybe 1-2 :card[FoW], maybe 1-2 :card[Pre], maybe 1-2 :card[PT]  
-Bring in: 1 :card[TO], maybe 1 :card[CoV], 2 :card[Flusterstorm], 1
-:card[Volcanic Island], maybe 2 :card[Pyroblast], maybe 1 :card[REB]
+- **Respect**: Meddling Mage, Dress Down, Lightning Bolt, Ragavan, Day's Undoing
+- **Disrespect**: REBs.
+- **Take out**: 2 Street Wraith, 1 Watery Grave, 1-2 Daze, maybe 1-2 Force of
+  Will, maybe 1-2 Preordain, maybe 1-2 Personal Tutor
+- **Bring in**: 1 Thassa's Oracle, maybe 1 Chain of Vapor, 2 Flusterstorm, 1
+  Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
 Or
 
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW]  
-Bring in: 2 :card[Flusterstorm], 1 :card[TO]
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
+- **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
 Like Blue Soup but harder thanks to :card[Ragavan, Nimbler Pilferer] and
 :card[Expressive Iteration]. Often these might as well all be Delver decks just
@@ -479,11 +480,11 @@ opposing field can cause difficulty in selecting what to bring to the table.
 
 ### Cloudpost
 
-Respect: Endurance  
-Disrespect: The rest.  
-Take out: 1 :card[Dur], 1 :card[Tsz], 1 :card[SW], 2 :card[Preordain], 1
-:card[PoN]  
-Bring in: 4 :card[FoN], 1 :card[TO], 1 :card[CoV]
+- **Respect**: Endurance
+- **Disrespect**: The rest
+- **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 2 Preordain, 1 Pact
+  of Negation
+- **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor
 
 Cloudpost seems to be the best matchup for the deck. Remember no matchup is
 unloseable, but sometimes it feels that way here. Just don't get blown out by
@@ -497,10 +498,10 @@ unloseable, but sometimes it feels that way here. Just don't get blown out by
 
 ### Painter
 
-Respect: Grindstone, Torpor Orb, Blood Moon, Trinisphere  
-Disrespect: Nah, gotta respect Painter.  
-Take out: 1 :card[Dur], 1 :card[Tsz], 2 :card[SW], 1 :card[Pre]  
-Bring in: 4 :card[FoN], 1 :card[TO], 1 :card[CoV]
+- **Respect**: Grindstone, Torpor Orb, Blood Moon, Trinisphere
+- **Disrespect**: Nah, gotta respect Painter
+- **Take out**: 1 Duress, 1 Thoughtseize, 2 Street Wraith, 1 Preordain
+- **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor
 
 This can be a real tough matchup. A smart Painter player can really do well and
 playing around an on-board :card[Grindstone] can be a real headache.
@@ -513,12 +514,12 @@ playing around an on-board :card[Grindstone] can be a real headache.
 
 ### OmniShow
 
-Respect: People who still run Release the Ants. Cunning Wish for Trickbind.  
-Disrespect: People who run Shared Summoning.  
-Take out: 2 :card[SW], 1-2 :card[Pre], 1 :card[Island], 1 :card[PoN], maybe 1
-:card[Watery Grave], maybe 1 :card[LED], maybe 1 :card[DA]  
-Bring in: 2-4 :card[FoN], maybe 1 :card[TO], 2 :card[Flusterstorm], maybe 1
-:card[Volcanic Island], maybe 2 :card[Pyroblast], maybe 1 :card[REB]
+- **Respect**: People who still run Release the Ants. Cunning Wish for Trickbind
+- **Disrespect**: People who run :card[Shared Summoning]
+- **Take out**: 2 Street Wraith, 1-2 Preordain, 1 Island, 1 Pact of Negation,
+  maybe 1 Watery Grave, maybe 1 Lion's Eye Diamond, maybe 1 Deep Analysis
+- **Bring in**: 2-4 Force of Negation, maybe 1 Thassa's Oracle, 2 Flusterstorm,
+  maybe 1 Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
 I love Omnishow and field it as my secondary deck of choice. Unfortunately it is
 definitely clunkier than Doomsday and we had a huge advantage in being able to
@@ -532,11 +533,13 @@ make resilient pass-the-turn piles that win via their :card[Show and Tell].
 
 ### Sneak and Show
 
-Respect: Daze  
-Disrespect: The rest.  
-Take out: 2 :card[SW], 1-2 :card[Pre], 1 :card[Island], 1 :card[PoN], maybe 1 :card[Watery Grave], maybe 1 :card[LED], maybe 1 :card[DA], maybe 2 card[:Dz]  
-Bring in: 4 :card[FoN], 1 :card[TO], 2 :card[Flusterstorm], maybe 1
-:card[Volcanic Island], maybe 2 :card[Pyroblast], maybe 1 :card[REB]
+- **Respect**: Daze
+- **Disrespect**: The rest
+- **Take out**: 2 Street Wraith, 1-2 Preordain, 1 Island, 1 Pact of Negation,
+  maybe 1 Watery Grave, maybe 1 Lion's Eye Diamond, maybe 1 Deep Analysis, maybe
+  2 Daze
+- **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 2 Flusterstorm, maybe 1
+  Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
 Sneak and Show feels like a swingier Omnishow in terms of matchup. It's one of
 the matchups I have experimented with :card[Dz] being brought in and out
