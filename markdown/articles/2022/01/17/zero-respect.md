@@ -1,7 +1,7 @@
 ---
 authors: Doishy
 banner: Gitaxian Probe
-title: A Decklist Discussion and Sideboard Guide - Doishy's Turbo Zero Respect v0.5
+title: "A Decklist Discussion and Sideboard Guide - Doishy's Turbo Zero Respect v0.5"
 ---
 
 ## Table of Contents
@@ -12,17 +12,16 @@ First of all I guess happy new year everyone!
 
 I hope you're all safe and well going into 2022 xxx
 
-The wiki author team has generally been against the writing of specific
+The Wiki author team has generally been against the writing of specific
 sideboard guides as are often seen across the magic community. Sideboard guides
 can be very helpful in allowing players to quickly pick up decks they may have
 seen from other pilots that they enjoy or provide a quick starter if they do not
-have time to work out the nuances of a deck themselves however The author team
-believe in a more "teach a man to fish" approach whereby we encourage people to
-build their deck and sideboard from the ground up and work out what works best
-for each pilot. There is also a huge amount of potential variation that can be
-applied to the archetype these days with lists often changing speed, style,
-colours and all manner of things based on pilot experience, preference and
-metagame.
+have time to work out the nuances of a deck themselves however we believe in a
+more *teach a man to fish* approach whereby we encourage people to build their
+deck and sideboard from the ground up and work out what works best for each
+pilot. There is also a huge amount of potential variation that can be applied to
+the archetype these days with lists often changing speed, style, colours and all
+manner of things based on pilot experience, preference and metagame.
 
 It's because of this that we present our [sideboard
 chapter](/meandeck/sideboard) as a series of guiding principles instead of a
@@ -78,31 +77,32 @@ deck has the Island subtype and my fetch configuration is Island centric.
 ### I Hate Relying on the Top of my Deck
 
 The games that I lose which annoy me the most are the ones where it has gone a
-bit long and I am waiting for "that one card" to win. The worst is when "that
-one card" is literally any card with the text "draw a card" on. Often it's vs
+bit long and I am waiting for *that one card* to win. The worst is when *that
+one card* is literally any card with the text "draw a card" on it. Often it's vs
 UGx control piles and I have Doomsday, mana, protection in abundance but the
 gamestate is such where I cannot do a PTT pile so all I need is any method to
 dig into the pile post resolution. These are the losses that stick in my mind
 even more so than the turn 1 blowouts with :card[Blood Moon] against Moon Stompy
-or the "needed to dodge :card[Dz] one time" vs Delver. As a result I run as many
-cantrips as I can reasonably fit into the deck whilst still trying to retain the
-elements of the "Turbo" style. This is why you will see some number of
-:card[Pre] in the deck alongside :card[Con] and the normal cantrip/cycler suite.
+or the "needed to dodge :card[Dz] one time" vs. Delver. As a result I run as
+many cantrips as I can reasonably fit into the deck whilst still trying to
+retain the elements of the *Turbo* style. This is why you will see some number
+of :card[Pre] in the deck alongside :card[Con] and the normal cantrip/cycler
+suite.
 
 ### I Tend to be Fast to Cast Doomsday, But Slow After it Resolves
 
-This was something I hadn't thought of before until the lovely Francobolli
+This was something I hadn't thought of before until the lovely *Francobolli*
 pointed it out in response to one of my [YouTube video
 uploads](https://www.youtube.com/watch?v=ZlZ9mnCRFgQ):
 
-> @Doishy your play style is very much on the aggressive side to cast doomsday
+> \@Doishy your play style is very much on the aggressive side to cast doomsday
 > and then maybe conservative making the piles. It is good to see both those
 > perspectives.
 
 In this I am trying to slam Doomsday as fast as possible but will often build a
 pile that passes 1-3 more turns (sometimes the full five) after it resolves.
 This is why I like having Daze, why I run 3 :card[PT] and why I am almost the
-complete "Turbo" shell but don't go full ham on cycling effects, multiple
+complete *Turbo* shell but don't go full ham on cycling effects, multiple
 Considers and why I run :card[CoS] in the main.
 
 ### I am Here to Disrespect Delver
@@ -124,7 +124,7 @@ fast :card[BS] piles and resilient Ideas Unbound piles. Even if they seem poor
 in a matchup, simply having them available to you I think is important because
 they grant you the most flexibility post Doomsday to tailor your pile to your
 needs. In all liklihood I should probably cut some number of them more often but
-I don't..... :D
+I don't... \:D
 
 ### I am Slow to Make Changes to my Deck
 
@@ -140,14 +140,14 @@ not to make knee-jerk decisions based on one set of bad beats or a single event.
 ## The Decklist
 
 Here is the decklist itself. You can see already some of the construction
-thoughts that went into it from what was said above. It's a "Turbo List" so has
+thoughts that went into it from what was said above. It's a *Turbo* list so has
 3 :card[PTY] in alongside 4 cycling effects to enable swift access to piles. It
 has :card[Con], :card[DA] and :card[IU] all in to enable the faster pile
 building. All lands are Islands so the fetches can be perfectly spread out for
 the corner case :card[Pithing Needle] effect naming. There is also a maindeck
 :card[Watery Grave] to act as a 5th :card[Underground Sea]. It has 4 :card[LP]
 to help speed things up and fix mana. It runs the full set of Forces, Dazes and
-has 1 x :card[CoS] and 1 x :card[PoN] for pile building alongside two maindeck
+has 1 :card[CoS] and 1 :card[PoN] for pile building alongside two maindeck
 discard spells as additional protection. It also runs 2 :card[Pre] alongside the
 normal cantrip suite as extra slow fitlering.
 
@@ -230,7 +230,7 @@ general/expected roles and the justification for having them.
   effective.
 - 1 :card[Volcanic Island] Finally it's a land that makes {R}. It helps cast our
  blast effects. Not much else to say though you could consider to bring it in as
- an additional "bad Island" in matchups where maybe you don't want Cavern.
+ an additional *bad Island* in matchups where maybe you don't want Cavern.
 
 :::row{variant=centered}
 - Surgical Extraction
@@ -242,13 +242,13 @@ general/expected roles and the justification for having them.
 ## The Actual Sideboard Guide Bit
 
 Here I will list decks in the order that I think of them. I will trying to add
- cards I would have on my radar that I wish to respect, cards on my radar I
- might respect less and variations to what I might board based on how I am
- feeling (because I am very inconsistent sometimes). Please note this is a
- snapshot and should not be considered gospel. The presence of SPICE in an
- opponent's deck can result in variations being made if they are needed and you
- should always try to critical identify whether something seems sensible to you.
- If you don't like an idea written here you don't have to follow it :)
+cards I would have on my radar that I wish to respect, cards on my radar I might
+respect less and variations to what I might board based on how I am feeling
+(because I am very inconsistent sometimes). Please note this is a snapshot and
+should not be considered gospel. The presence of SPICE in an opponent's deck can
+result in variations being made if they are needed and you should always try to
+critical identify whether something seems sensible to you. If you don't like an
+idea written here you don't have to follow it :)
 
 ### UR Delver, Grixis Delver, RUG Delver
 
@@ -332,9 +332,9 @@ Reanimator try to fight their graveyard enablers like :card[Entomb] or
 personally find favourable but again, they can be very swingy.
 
 I'll be honest, I don't think I have ever faced the Madness deck in the wild. As
-a result this is a purely theory crafted setup from having checked mtggoldfish
+a result this is a purely theory crafted setup from having checked MTGGoldfish
 for the most popular Legacy decks at the time of writing this and just thinking
-"this'll be similar to the other fast Graveyard strategies".
+"this'll be similar to the other fast graveyard strategies".
 
 :::row{variant=centered}
 - Griselbrand
@@ -406,7 +406,7 @@ we want to fight over.
 ### 8-Cast, Urza Echo
 
 - **Respect**: Force of Will, Echo of Eons, Torpor Orb
-- **Disrespect**: Chalice, Emry.
+- **Disrespect**: Chalice, Emry
 - **Take out**: 1 Duress, 1 Thoughtseize, 2 Street Wraith, 2 Preordain, 1 Island
 - **Bring in**: 2-4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor,
   maybe 2 Flusterstorm, maybe 1 Volcanic Island, maybe 2 Pyroblast, maybe 1 Red
@@ -432,7 +432,7 @@ of shameless plugging*.
 ### Blue Soup: Stryfo Pile, BUG Zenith, Bant, Miracles, 4c Control
 
 - **Respect**: Endurance, Meddling Mage, Dress Down, Flusterstorm
-- **Disrespect**: Any deck with Yorion as a companion.
+- **Disrespect**: Any deck with Yorion as a companion
 - **Take out**: 2 Street Wraith, 1 Watery Grave, 1-2 Daze, maybe 1-2 Force of
   Will, maybe 1-2 Preordain, maybe 1-2 Personal Tutor
 - **Bring in**: 1 Thassa's Oracle, maybe 1 Chain of Vapor, 2 Flusterstorm, 1
@@ -455,7 +455,7 @@ cycling effects even in these matchups.
 ### Jeskai Soup: Saga, Ragavan, Delver, Stoneblade
 
 - **Respect**: Meddling Mage, Dress Down, Lightning Bolt, Ragavan, Day's Undoing
-- **Disrespect**: REBs.
+- **Disrespect**: Red Elemental Blast
 - **Take out**: 2 Street Wraith, 1 Watery Grave, 1-2 Daze, maybe 1-2 Force of
   Will, maybe 1-2 Preordain, maybe 1-2 Personal Tutor
 - **Bring in**: 1 Thassa's Oracle, maybe 1 Chain of Vapor, 2 Flusterstorm, 1
