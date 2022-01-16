@@ -71,8 +71,8 @@ allows you to perform the basic Consider pile using either :card[Pnd],
 
 Here you can execute a Brainstorm pile even if you are at a low life total
 without the use of :card[SW] or if you don't have access to tools like :card[IU]
-or :card[Con] which still allows you to get to 0 cards left in the deck. You can
-follow the listed steps:
+and :card[Con]. The pile still allows you to get to 0 cards left in the deck.
+Follow the listed steps:
 
 1. Cast your cantrip and Surveil SW into the graveyard, draw BS
 1. Cast BS, do not Surveil and put back TO and X
@@ -130,10 +130,11 @@ Other options include this example against a {U}{R} Delver deck which may run
 :::
 
 Here you might have a scenario where you want to try and win quickly but suspect
-they may have a Red Blast effect. In which case you can pass, allow Ragavan to
-exile SW, and try to jam the first Oracle off of Cavern (assuming the cantrip
-resolves of course). If that Oracle is dealt with then you can pass again,
-Ragavan exiles the :card[EoA] and you try casting the second Oracle.
+they may have a :card[Red Elemental Blast] effect. In which case you can pass,
+allow Ragavan to exile SW, and try to jam the first Oracle off of Cavern
+(assuming the cantrip resolves of course). If that Oracle is dealt with then you
+can pass again, let Ragavan exile the :card[EoA] and try casting the second
+Oracle.
 
 ## Slow Piles Using Interactive Elements
 
@@ -203,6 +204,25 @@ cards.
 - LP
 - LP
 :::
+
+In a effort to try and beat :card[Endurance] or cards like :card[Torpor Orb] and
+:card[Dress Down], you can also go for a Storm pile:
+
+> PTT, {U}{B} with BS in hand + DR in hand
+
+:::row{variant=pile}
+- Echo of Eons
+- LED
+- ToA
+- LP
+- LP
+:::
+
+The above example reaches lethal Storm count while passing the turn for minimal
+initial mana cost, but piles can be simpler and include permission when you're
+not forced to pass the turn since you would start at Storm count 2 thanks to the
+initial Dark Ritual and Doomsday. As an exercice, try and work out the lines for
+this pile.
 
 There is a much more extensive look at Echo of Eons in the [DDFT
 section][ddft:echo] of the Wiki.
