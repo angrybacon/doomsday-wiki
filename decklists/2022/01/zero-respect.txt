@@ -1,14 +1,6 @@
 // Title: Grixis Turbo Meandeck
 // Authors: Doishy
 // Colors: {U}{B}{R}
-1 Cavern of Souls
-2 Flooded Strand
-1 Island
-2 Misty Rainforest
-2 Polluted Delta
-2 Scalding Tarn
-4 Underground Sea
-1 Watery Grave
 4 Brainstorm
 1 Consider
 4 Dark Ritual
@@ -28,6 +20,15 @@
 3 Street Wraith
 1 Thassa's Oracle
 1 Thoughtseize
+
+1 Cavern of Souls
+2 Flooded Strand
+1 Island
+2 Misty Rainforest
+2 Polluted Delta
+2 Scalding Tarn
+4 Underground Sea
+1 Watery Grave
 
 // Sideboard
 1 Chain of Vapor
