@@ -148,7 +148,7 @@ Dazes and has 1 x card:[CoS] and 1 x card:[PoN] for pile building alongside two 
 discard spells as additional protection. It also runs 2 card:[Pre] alongside the normal
 cantrip suite as extra slow fitlering.
 
-::decklist{path=2022/01/21/zerorespectzeropointfive}
+::decklist{path=2022/01/zero-respect}
 
 As you can see the maindeck is entirely {U}/{B} (despite what card:[EoA] pretends). This means
 we have a lot of flexibility in being able to add splash colours, if, as and when we need them.
