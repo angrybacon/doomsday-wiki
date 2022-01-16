@@ -70,20 +70,15 @@ Assume English unless specified otherwise.
 Videos from non-regular streamers or Doomsday content creators.  
 Assume English unless specified otherwise.
 
-### 2022
-
- - Awaiting Content :D
-
 ### 2021
 
-- [MTGBlackSet display some Paper Meandeck in action vs Death and Taxes (December 2021) - German/Deutsch](https://www.youtube.com/watch?v=Hn3no4hz00s)
 - [BoshNRoll runs a league with UB Meandeck ft. Death's Shadow (December 2021)](https://www.youtube.com/watch?v=sbx6_WIuSR4)
-- [MTGBlackSet display some Paper Meandeck in action vs Moon Stompy (November 2021) - German/Deutsch](https://www.youtube.com/watch?v=898Kqa1wiGw)
+- [MTGBlackSet display some Paper Meandeck in action vs. Death and Taxes (December 2021) - German/Deutsch](https://www.youtube.com/watch?v=Hn3no4hz00s)
+- [MTGBlackSet display some Paper Meandeck in action vs. Moon Stompy (November 2021) - German/Deutsch](https://www.youtube.com/watch?v=898Kqa1wiGw)
 - [Phil G of Thraben University gives their second (much improved) try at Meandeck (October 2021)](https://www.youtube.com/watch?v=5sYA9LsrVLc)
-- [Phil G of Thraben University gives their first try at Meandeck (October 2021)](https://www.youtube.com/watch?v=P-dBBwj0pFk&list=WL&index=7)
+- [Phil G of Thraben University gives their first (poor) try at Meandeck (October 2021)](https://www.youtube.com/watch?v=P-dBBwj0pFk&list=WL&index=7)
 - [NathanLipetz gives Esper Meandeck a go with kl0gW (October 2021)](https://www.youtube.com/watch?v=c5wEEhXjrS0)
 - [BoshNRoll runs a league with UB Meandeck (October 2021)](https://www.youtube.com/watch?v=t6NK3NoHg7M)
-- [Some beginner's have a go at running Meandeck for the first time (October 2021)](https://www.youtube.com/watch?v=Wz9aWgCvByA)
 - [Bryant Cook runs a league with Meandeck (September 2021)](https://www.youtube.com/watch?v=W-G6j82dtHM)
 - [Guma runs a league with UB Meandeck (August 2021) - Portugese/Português](https://www.youtube.com/watch?v=Wn26fq9mAWg)
 - [MinT runs a league with Grixis Meandeck (August 2021)](https://www.youtube.com/watch?v=yKWIi_DcWkc)
