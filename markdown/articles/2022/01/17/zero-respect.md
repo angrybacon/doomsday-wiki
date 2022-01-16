@@ -25,16 +25,16 @@ colours and all manner of things based on pilot experience, preference and
 metagame.
 
 It's because of this that we present our [sideboard
-chapter](/chapters/meandeck/sideboard) as a series of guiding principles instead
-of a rigid +x/-y format because we cannot account for every decklist and what
-might be very common one day could very well become obsolete the next. Even so,
-there are definitely advantages to having at least one example guide if nothing
-else to try to promote people to write/discover their own plans. I personally
-think everyone should have a go at mapping their plans for each matchup at least
-once, even if you don't follow it perfectly or change your mind completely at
-least you have gone through and worked out each slot and whether it is justified
-or not to hold its place and it means you become more aware of the roles each
-card has so that you can become flexible vs the unknown.
+chapter](/meandeck/sideboard) as a series of guiding principles instead of a
+rigid +x/-y format because we cannot account for every decklist and what might
+be very common one day could very well become obsolete the next. Even so, there
+are definitely advantages to having at least one example guide if nothing else
+to try to promote people to write/discover their own plans. I personally think
+everyone should have a go at mapping their plans for each matchup at least once,
+even if you don't follow it perfectly or change your mind completely at least
+you have gone through and worked out each slot and whether it is justified or
+not to hold its place and it means you become more aware of the roles each card
+has so that you can become flexible vs the unknown.
 
 Because of the demand for it as a one-off article I thought I would provide my
 own sideboard guide. This is not a guide I have properly written up before but
