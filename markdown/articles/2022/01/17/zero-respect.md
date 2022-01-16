@@ -54,7 +54,7 @@ experience and ideals. It might be worth before having a go at this yourself to
 work out some key points that you feel about your deck so as to understand what
 you want from it.
 
-### 1. I like playing combo-control
+### I Like Playing Combo-Control
 
 This one is self explanatory. One of the best things about the current
 iterations of Doomsday is I get to run both all my combo staples :card[DR],
@@ -63,7 +63,7 @@ to boot! This means I can have the choice to play the aggressive role (without
 all that nasty combat maths that hurts my tiny brain) or pivot to take it slow a
 bit more until I want to win. This flexibility is something I value highly.
 
-### 2. I see Doomsday as a mono {U} deck that happens to require {B}{B}{B}
+### I See Doomsday as a Mono {U} Deck that Happens to Require {B}{B}{B}
 
 This one is a funny one and one I have been citing since Oracle was printed.
 People often look at me funny when I say this however it is definitely true. The
@@ -75,7 +75,7 @@ occasion firing off a discard spell). This is why in regards to manabase I prize
 {U} over {B} and run a basic Island. It's also why every fetchable land in my
 deck has the Island subtype and my fetch configuration is Island centric.
 
-### 3. I hate relying on the top of my deck
+### I Hate Relying on the Top of my Deck
 
 The games that I lose which annoy me the most are the ones where it has gone a
 bit long and I am waiting for "that one card" to win. The worst is when "that
@@ -89,10 +89,10 @@ cantrips as I can reasonably fit into the deck whilst still trying to retain the
 elements of the "Turbo" style. This is why you will see some number of
 :card[Pre] in the deck alongside :card[Con] and the normal cantrip/cycler suite.
 
-### 4. I tend to be fast to cast Doomsday, but slow after it resolves
+### I Tend to be Fast to Cast Doomsday, But Slow After it Resolves
 
 This was something I hadn't thought of before until the lovely Francobolli
-pointed it out in response to one of my [Youtube video
+pointed it out in response to one of my [YouTube video
 uploads](https://www.youtube.com/watch?v=ZlZ9mnCRFgQ):
 
 > @Doishy your play style is very much on the aggressive side to cast doomsday
@@ -105,7 +105,7 @@ This is why I like having Daze, why I run 3 :card[PT] and why I am almost the
 complete "Turbo" shell but don't go full ham on cycling effects, multiple
 Considers and why I run :card[CoS] in the main.
 
-### 5. I am here to disrespect Delver
+### I am Here to Disrespect Delver
 
 I have tried in the past to dedicate a lot of sideboard slots for beating URx
 Delver decks before and I realised that the games I was winning against them was
@@ -115,7 +115,7 @@ work out a solid plan from the other tools I was using anyways. This is the one
 matchup I pretty much never deviate from my plan on and I am happy to take my
 30-40% win rate against them where I can.
 
-### 6. I like having access to a toolbox
+### I Like Having Access to a Toolbox
 
 You will notice through the guide I often do not take out :card[Con], :card[DA],
 :card[IU], :card[LED] and I almost always leave in 2 cycler effects. This is
@@ -126,7 +126,7 @@ they grant you the most flexibility post Doomsday to tailor your pile to your
 needs. In all liklihood I should probably cut some number of them more often but
 I don't..... :D
 
-### 7. I am slow to make changes to my deck
+### I am Slow to Make Changes to my Deck
 
 I mostly play in paper (and then online when the MTGO all access passes come
 out). I will always run a 75 for a few events to get a feel for what I like/do
@@ -257,7 +257,7 @@ Here I will list decks in the order that I think of them. I will trying to add
  should always try to critical identify whether something seems sensible to you.
  If you don't like an idea written here you don't have to follow it :)
 
-### UR Delver/Grixis Delver/RUG Delver
+### UR Delver, Grixis Delver, RUG Delver
 
 Respect: None of it. Maybe Monkey...  
 Disrespect: The rest.  
@@ -321,7 +321,7 @@ turn. It's a swingy matchup but very winnable.
 - Trinisphere
 :::
 
-### Oops all Spells/BR Reanimator/Madness
+### Oops all Spells, BR Reanimator, Madness
 
 Respect: The fact they are faster than you. Burning Inquiry.  
 Disrespect: Most of their deck.  
@@ -384,7 +384,7 @@ hate vs the Loam plan, it's not worth it.
 - Ghost Quarter
 :::
 
-### TES/ANT
+### TES, ANT
 
 Respect: Silence, Orim's Chant  
 Disrespect: The rest.  
@@ -404,7 +404,7 @@ we want to fight over.
 - Wishclaw Talisman
 :::
 
-### 8-Cast / Urza Echo
+### 8-Cast, Urza Echo
 
 Respect: Force of Will, Echo of Eons, Torpor Orb  
 Disrespect: Chalice, Emry.  
@@ -430,7 +430,7 @@ of shameless plugging*.
 - Thought Monitor
 :::
 
-### Blue Soup (Stryfo Pile / BUG Zenith / Bant / Miracles / 4c Control)
+### Blue Soup: Stryfo Pile, BUG Zenith, Bant, Miracles, 4c Control
 
 Respect: Endurance, Meddling Mage, Dress Down, Flusterstorm
 Disrespect: Any deck with Yorion as a companion.  
@@ -452,7 +452,7 @@ cycling effects even in these matchups.
 - Swords to Plowshares
 :::
 
-### Jeskai Soup (Jeskai Saga, Jeskai Ragavan, Jeskai Delver, Jeskai Stoneblade)
+### Jeskai Soup: Saga, Ragavan, Delver, Stoneblade
 
 Respect: Meddling Mage, Dress Down, Lightning Bolt, Ragavan, Day's Undoing  
 Disrespect: REBs.  
@@ -511,7 +511,7 @@ playing around an on-board :card[Grindstone] can be a real headache.
 - Grindstone
 :::
 
-### Omnishow
+### OmniShow
 
 Respect: People who still run Release the Ants. Cunning Wish for Trickbind.  
 Disrespect: People who run Shared Summoning.  
