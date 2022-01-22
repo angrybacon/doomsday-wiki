@@ -498,7 +498,7 @@ unloseable, but sometimes it feels that way here. Just don't get blown out by
 
 - **Respect**: Grindstone, Torpor Orb, Blood Moon, Trinisphere
 - **Disrespect**: Nah, gotta respect Painter
-- **Take out**: 1 Duress, 1 Thoughtseize, 2 Street Wraith, 1 Preordain
+- **Take out**: 1 Duress, 1 Thoughtseize, 2 Street Wraith, 1 Preordain, 1 Daze
 - **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor
 
 This can be a real tough matchup. A smart Painter player can really do well and
