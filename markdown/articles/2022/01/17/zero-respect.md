@@ -16,7 +16,7 @@ The Wiki author team has generally been against the writing of specific
 sideboard guides as are often seen across the magic community. Sideboard guides
 can be very helpful in allowing players to quickly pick up decks they may have
 seen from other pilots that they enjoy or provide a quick starter if they do not
-have time to work out the nuances of a deck themselves however we believe in a
+have time to work out the nuances of a deck themselves. However we believe in a
 more *teach a man to fish* approach whereby we encourage people to build their
 deck and sideboard from the ground up and work out what works best for each
 pilot. There is also a huge amount of potential variation that can be applied to
@@ -25,15 +25,15 @@ manner of things based on pilot experience, preference and metagame.
 
 It's because of this that we present our [sideboard
 chapter](/meandeck/sideboard) as a series of guiding principles instead of a
-rigid +x/-y format because we cannot account for every decklist and what might
+rigid *+x/-y* format since we cannot account for every decklist and what might
 be very common one day could very well become obsolete the next. Even so, there
 are definitely advantages to having at least one example guide if nothing else
-to try to promote people to write/discover their own plans. I personally think
-everyone should have a go at mapping their plans for each matchup at least once,
-even if you don't follow it perfectly or change your mind completely at least
-you have gone through and worked out each slot and whether it is justified or
-not to hold its place and it means you become more aware of the roles each card
-has so that you can become flexible vs the unknown.
+to try to promote people to write and discover their own plans. I personally
+think everyone should have a go at mapping their plans for each matchup at least
+once, even if you don't follow it perfectly or change your mind completely at
+least you have gone through and worked out each slot and whether it is justified
+to hold its place. It also means that you become more aware of the roles each
+card has so that you can become flexible vs. the unknown.
 
 Because of the demand for it as a one-off article I thought I would provide my
 own sideboard guide. This is not a guide I have properly written up before but
@@ -72,21 +72,21 @@ effects and the ability to make {U}{U}. It's just that awkward bit in the middle
 where you need to find {B}{B}{B} to actually cast Doomsday itself (and on
 occasion firing off a discard spell). This is why in regards to manabase I prize
 {U} over {B} and run a basic Island. It's also why every fetchable land in my
-deck has the Island subtype and my fetch configuration is Island centric.
+deck has the Island subtype and my fetch configuration is Island-centric.
 
 ### I Hate Relying on the Top of my Deck
 
 The games that I lose which annoy me the most are the ones where it has gone a
 bit long and I am waiting for *that one card* to win. The worst is when *that
-one card* is literally any card with the text "draw a card" on it. Often it's vs
-UGx control piles and I have Doomsday, mana, protection in abundance but the
+one card* is literally any card with the text "draw a card" on it. Often it's
+vs. UGx control piles and I have Doomsday, mana, protection in abundance but the
 gamestate is such where I cannot do a PTT pile so all I need is any method to
 dig into the pile post resolution. These are the losses that stick in my mind
 even more so than the turn 1 blowouts with :card[Blood Moon] against Moon Stompy
-or the "needed to dodge :card[Dz] one time" vs. Delver. As a result I run as
+or the "needed to dodge :card[Daze] one time" vs. Delver. As a result I run as
 many cantrips as I can reasonably fit into the deck whilst still trying to
 retain the elements of the *Turbo* style. This is why you will see some number
-of :card[Pre] in the deck alongside :card[Con] and the normal cantrip/cycler
+of :card[Pre] in the deck alongside :card[Con] and the normal cantrip and cycler
 suite.
 
 ### I Tend to be Fast to Cast Doomsday, But Slow After it Resolves
@@ -102,8 +102,8 @@ uploads](https://www.youtube.com/watch?v=ZlZ9mnCRFgQ):
 In this I am trying to slam Doomsday as fast as possible but will often build a
 pile that passes 1-3 more turns (sometimes the full five) after it resolves.
 This is why I like having Daze, why I run 3 :card[PT] and why I am almost the
-complete *Turbo* shell but don't go full ham on cycling effects, multiple
-Considers and why I run :card[CoS] in the main.
+complete *Turbo* shell but don't go full ham on cycling effects and multiple
+:card[Consider]s. It's also why I run :card[CoS] in the main.
 
 ### I am Here to Disrespect Delver
 
@@ -119,72 +119,71 @@ matchup I pretty much never deviate from my plan on and I am happy to take my
 
 You will notice through the guide I often do not take out :card[Con], :card[DA],
 :card[IU], :card[LED] and I almost always leave in 2 cycler effects. This is
-because I like having the options to acces the instant win Deep Analysis pile,
+because I like having the options to access the instant win Deep Analysis pile,
 fast :card[BS] piles and resilient Ideas Unbound piles. Even if they seem poor
 in a matchup, simply having them available to you I think is important because
-they grant you the most flexibility post Doomsday to tailor your pile to your
-needs. In all liklihood I should probably cut some number of them more often but
-I don't... \:D
+they grant you the most flexibility post Doomsday to tailor the pile to your
+needs. In all likelihood I should probably cut some number of them more often
+but I don't... \:D
 
 ### I am Slow to Make Changes to my Deck
 
 I mostly play in paper (and then online when the MTGO all access passes come
-out). I will always run a 75 for a few events to get a feel for what I like/do
-not like and even then almost only ever change 1-2 cards max and normally from
-the sideboard. Like at the time of writing this I am thinking of changing one
-sideboard card and that is after about 2 months of playing with the current 75.
-I think it's important to truly get a feel for what you are running and to try
-not to make knee-jerk decisions based on one set of bad beats or a single event.
-
+out). I will always run a 75 for a few events to get a feel for what I like or
+not and even then almost only ever change 1-2 cards max. Like at the time of
+writing this I am thinking of changing one sideboard card and that is after
+about 2 months of playing with the current 75. I think it's important to truly
+get a feel for what you are running and to try not to make knee-jerk decisions
+based on one set of bad beats or a single event.
 
 ## The Decklist
 
 Here is the decklist itself. You can see already some of the construction
 thoughts that went into it from what was said above. It's a *Turbo* list so has
-3 :card[PTY] in alongside 4 cycling effects to enable swift access to piles. It
+3 :card[PT] in alongside 4 cycling effects to enable swift access to piles. It
 has :card[Con], :card[DA] and :card[IU] all in to enable the faster pile
-building. All lands are Islands so the fetches can be perfectly spread out for
-the corner case :card[Pithing Needle] effect naming. There is also a maindeck
-:card[Watery Grave] to act as a 5th :card[Underground Sea]. It has 4 :card[LP]
-to help speed things up and fix mana. It runs the full set of Forces, Dazes and
-has 1 :card[CoS] and 1 :card[PoN] for pile building alongside two maindeck
-discard spells as additional protection. It also runs 2 :card[Pre] alongside the
-normal cantrip suite as extra slow fitlering.
+building. All lands are Islands so the fetchlands can be perfectly spread out
+for the corner case :card[Pithing Needle] effect naming. There is also a
+maindeck :card[Watery Grave] to act as a 5th :card[Underground Sea]. It has 4
+:card[LP]s to help speed things up and fix mana. It runs the full set of Forces,
+Dazes and has 1 :card[CoS] and 1 :card[PoN] for pile building alongside two
+maindeck discard spells as additional protection. It also runs 2 :card[Pre]
+alongside the normal cantrip suite as extra slow fitlering.
 
 ::decklist{path=2022/01/zero-respect}
 
-As you can see the maindeck is entirely {U}/{B} (despite what :card[EoA]
+As you can see the maindeck is entirely {U}{B} (despite what :card[EoA]
 pretends). This means we have a lot of flexibility in being able to add splash
 colours, if, as and when we need them. The sideboard is designed to offer
 flexibility in many matchups with certain tools acting as silver bullets in
 others. I like including a splash colour in my sideboard because I personally
 see it as a free addition and, at the moment, that splash is {R} however I have
-done {G} and full 4 Colour before in the past. I have also dabbled with {W} but
+done {G} and full 4 colours before in the past. I have also dabbled with {W} but
 not in the same shell as this.
 
 The last major change I made to the list was removing a :card[Tropical Island]
-from the main and replacing it with the :card[Watery Grave] and taking 2
-:card[VoS] from the side and replacing them with a 2nd :card[Flusterstorm] and
-2nd :card[Pyroblast]. From testing, although I liked having access to {G} and
-Veil I had faced many instances where Flusterstorm was either equal to, or
-better in certain circumstances. I also wanted to try a third blast effect as in
-some of the fair blue match ups I was wanting to see them more often.
+from the main, replacing it with the :card[Watery Grave] and taking 2 :card[VoS]
+from the side and replacing them with a 2nd :card[Flusterstorm] and 2nd
+:card[Pyroblast]. From testing, although I liked having access to {G} and Veil,
+I had faced many instances where Flusterstorm was either equal to, or better in
+certain circumstances. I also wanted to try a third blast effect as in some of
+the fair blue matchups I was wanting to see them more often.
 
 ### Deeper Sideboard Dive
 
 I will quickly go through the sideboard cards and give a quick summary of their
 general/expected roles and the justification for having them.
 
-- 1 :card[Chain of Vapor] Catch all permanent answer that is easy on the mana.
+- 1 :card[Chain of Vapor]: Catch all permanent answer that is easy on the mana.
   Helps deal with most things other than Chalice on 1 and even then most of the
   time that can be ignored. Can also allow the bouncing of your own Oracle to
   recast in a pinch.
-- 2 :card[Flusterstorm] Shines vs other spell based combo, helps disrupt cheaper
-  interaction and allows us to force our combo through opposing protection. A
-  very useful tool for multiple fair and unfair matchups.
-- 4 :card[FoN] Acting as both combo protection from those faster than us and to
+- 2 :card[Flusterstorm]: Shines vs. other spell-based combos, helps disrupt
+  cheaper interaction and allows us to force our combo through opposing
+  protection. A very useful tool for multiple fair and unfair matchups.
+- 4 :card[FoN]: Acting as both combo protection from those faster than us and to
   complement the Chain by preventing things like :card[Blood Moon],
-  :card[Chalice of the void], :card[Trinisphere] etc from landing onto the
+  :card[Chalice of the void], :card[Trinisphere] etc. from landing onto the
   battlefield. A very versatile and mana efficient card. Sometimes can be
   over-boarded.
 
@@ -194,15 +193,15 @@ general/expected roles and the justification for having them.
 - FoN
 :::
 
-- 1 :card[Massacre] One of the more specialist tools. This helps deal with a
+- 1 :card[Massacre]: One of the more specialist tools. This helps deal with a
   myriad of hatebear style creatures in a very mana efficient way and can be
   easily found through casting Doomsday. Normally used in non-{U} fair matchups
-  but occasionally can be brought in to fight of :card[Meddling Mage] or similar
-  from fair {U} decks.
-- 2 :card[Pyroblast] Catch all in {U} match ups as protection, disruption and
+  but occasionally can be brought in to fight off :card[Meddling Mage] or
+  similar from fair {U} decks.
+- 2 :card[Pyroblast]: Catch all in {U} matchups as protection, disruption and
   removal. Anyone who plays Legacy knows how effective these can be in the right
   matchup.
-- 1 :card[Red Elemental Blast] It's like Pyroblast but spelt differently. This
+- 1 :card[Red Elemental Blast]: It's like Pyroblast but spelt differently. This
   is here to simply diversify my blast effects for small percentage points and
   niche corner cases (although I have had people Surgical them before!).
 
@@ -212,25 +211,24 @@ general/expected roles and the justification for having them.
 - REB
 :::
 
-- 1 :card[Surgical Extraction] Part of the anti-graveyard package. This provides
-  soft turn 0 protection against decks looking to abuse the graveyard. Sometimes
-  I also look to bring it in for the Mirror.
-- 1 :card[TO] The second Oracle is a very versatile tool. It allows you to pile
+- 1 :card[Surgical Extraction]: Part of the anti-graveyard package. This
+  provides soft turn 0 protection against decks looking to abuse the graveyard.
+  Sometimes I also look to bring it in for the mirror.
+- 1 :card[TO]: The second Oracle is a very versatile tool. It allows you to pile
   with two of them giving multiple chances at resolving it and allowing you to
   go up to a devotion of 4 which helps bypass things like :card[Endurance]. It
   also increases your pseudo blue card count for Force pitch purposes by +2
   (because you now have 2 cards in the deck eligibile to pitch whereas before
-  you could never pitch your lone Oracle). Also (in a pinch) it blocks
-  :card[Ragavan, Nimble Pilferer] really well and helps you avoid any
-  accidentally monkey-related exiling.
-- 1 :card[Tormod's Crypt] The second part of my anti-graveyard package. This one
-  is nice as it can just sit in play whilst you get prepped or be added to a
-  pile to help defend against various tools like :card[Cephalid Coliseum] whilst
-  you go for the win. It's less precise than Surgical but is a lot more
-  effective.
-- 1 :card[Volcanic Island] Finally it's a land that makes {R}. It helps cast our
- blast effects. Not much else to say though you could consider to bring it in as
- an additional *bad Island* in matchups where maybe you don't want Cavern.
+  you could never pitch your lone Oracle). It also blocks :card[Ragavan, Nimble
+  Pilferer] and :card[Thalia, Guardian of Thraben] really well in a pinch.
+- 1 :card[Tormod's Crypt]: The second part of my anti-graveyard package. This
+  one is nice as it can just sit in play whilst you get prepped or be added to a
+  pile to help defend against various tools like :card[Cephalid Coliseum] or
+  even Endurance whilst you go for the win. It's less precise than Surgical but
+  is a lot more effective.
+- 1 :card[Volcanic Island]: Finally it's a land that makes {R}. It helps cast
+ our blast effects. Not much else to say though you could consider to bring it
+ in as an additional *bad Island* in matchups where maybe you don't want Cavern.
 
 :::row{variant=centered}
 - Surgical Extraction
@@ -241,14 +239,14 @@ general/expected roles and the justification for having them.
 
 ## The Actual Sideboard Guide Bit
 
-Here I will list decks in the order that I think of them. I will trying to add
-cards I would have on my radar that I wish to respect, cards on my radar I might
+Here I will list decks in the order that I think of them. I will be trying to
+add cards I have on my radar that I wish to respect, cards on my radar I might
 respect less and variations to what I might board based on how I am feeling
 (because I am very inconsistent sometimes). Please note this is a snapshot and
-should not be considered gospel. The presence of SPICE in an opponent's deck can
-result in variations being made if they are needed and you should always try to
-critical identify whether something seems sensible to you. If you don't like an
-idea written here you don't have to follow it :)
+should not be considered gospel. The presence of *spice* in an opponent's deck
+can result in variations being made if they are needed and you should always try
+to critically identify whether something seems sensible to you. If you don't
+like an idea written here you don't have to follow it :)
 
 ### UR Delver, Grixis Delver, RUG Delver
 
@@ -257,12 +255,13 @@ idea written here you don't have to follow it :)
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
 - **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
-Try your best. Play around Daze/Monkey/Bolt/Wasteland/Stifle when you can. Don't
-play around them when you can't. If they have Torpor Orb, good for them. They
-obviously wanted it more. The changes we make are because of :card[Ragavan,
-Nimble Pilferer] because us having our own discard hit is devastating. Second
-Oracle lets you act a bit ore aggressively in pile building and also acts as a
-buffer to random instances of having your sole win condition exiled to monkey.
+Try your best. Play around Daze, Monkey, Bolt, Wasteland, and Stifle when you
+can. Don't play around them when you can't. If they have Torpor Orb, good for
+them. They obviously wanted it more. The changes we make are because of
+:card[Ragavan, Nimble Pilferer] because us having our own discard hit us is
+devastating. Second Oracle lets you act a bit ore aggressively in pile building
+and also acts as a buffer to random instances of having your sole win condition
+exiled to monkey.
 
 :::row{variant=centered}
 - Delver of Secrets
@@ -272,7 +271,7 @@ buffer to random instances of having your sole win condition exiled to monkey.
 
 ### Death and Taxes
 
-- **Respect**: Deafening Silence, Spirit of the Labrynth, Rishadan Port
+- **Respect**: Deafening Silence, Spirit of the Labyrinth, Rishadan Port
 - **Disrespect**: Thalia, Archive Trap, Solitude, Mindbreak Trap, Ethersworn
   Canonist
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 1 Cavern of Souls, 1
@@ -287,14 +286,14 @@ can be ignored, especially post Doomsday. The scary cards are the ones that tax
 your mana or life total. :card[Wasteland] and :card[Rishadan Port] can be
 devastating if having to go slow so aggressive mulliganing is advised.
 :card[Kaldra Compleat] is also a house simply because it is the fastest threat
-that they have. I have listed :card[Spirit of the Labrynth] as the main card to
+that they have. I have listed :card[Spirit of the Labyrinth] as the main card to
 respect because post Doomsday it not only slows you down in progressing your
 pile but also has a feisty attack of 3 which can quickly knock you down.
 
 :::row{variant=centered}
 - Ethersworn Canonist
 - Deafening Silence
-- Aether Vial
+- Spirit of the Labyrinth
 :::
 
 ### Stompy Decks
@@ -308,8 +307,8 @@ pile but also has a feisty attack of 3 which can quickly knock you down.
 These matchups can be the easiest wins or the hardest losses and sometimes it is
 a toss of the dice based on respective mulligans which can decide it. Cavern
 stays in because Chalice on 2 ruins your day otherwise. Try to avoid keeping
-hands that die to Chalice on 1 unless that hand then can just win on the next
-turn. It's a swingy matchup but very winnable.
+hands that die to Chalice on 1 unless that hand can just win on the next turn.
+It's a swingy matchup but very winnable.
 
 :::row{variant=centered}
 - Chalice of the Void
@@ -326,25 +325,25 @@ turn. It's a swingy matchup but very winnable.
 - **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Surgical Extraction, 1
   Tormod's Crypt, maybe 1-2 Flusterstorm
 
-Another swingy set of matchups. Their best hands will beat your best hands. VS
+Another swingy set of matchups. Their best hands will beat your best hands. Vs.
 Reanimator try to fight their graveyard enablers like :card[Entomb] or
-:card[Faithless Looting]. VS Oops fight them however you can. These matchups I
+:card[Faithless Looting]. Vs. Oops fight them however you can. These matchups I
 personally find favourable but again, they can be very swingy.
 
 I'll be honest, I don't think I have ever faced the Madness deck in the wild. As
-a result this is a purely theory crafted setup from having checked MTGGoldfish
+a result this is a purely theory-crafted setup from having checked MTGGoldfish
 for the most popular Legacy decks at the time of writing this and just thinking
 "this'll be similar to the other fast graveyard strategies".
 
 :::row{variant=centered}
 - Griselbrand
 - Balustrade Spy
-- Basking Rootwalla
+- Burning Inquiry
 :::
 
 ### Elves
 
-- **Respect**: Allosaurus Shepherd + Endurance
+- **Respect**: Allosaurus Shepherd and Endurance
 - **Disrespect**: Choke
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 1 Cavern of Souls
 - **Bring in**: 2 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor, maybe
@@ -364,18 +363,18 @@ them on.
 
 ### Lands
 
-- **Respect**: Endurance, Red-Elemental Blast, Sphere of Resistance
+- **Respect**: Endurance, Red Elemental Blast, Sphere of Resistance
 - **Disrespect**: Choke, Wasteland, Ghost Quarter
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith, 2 Preordain or 1-2
   Daze
 - **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 1 Chain of Vapor
 
-Lands very much has done a lot of work to try and shore up their combo match
-ups. Nowadays you can expect to see both permanent and stack based interaction
-to join their usual share of mana denial elements. The trick here is to just
-make sure you can keep up {U}{U} post Doomsday and to retain :card[CoS] in case
-of REB or the occasional rogue Chalice. Don't ever try and fight them with grave
-hate vs the Loam plan, it's not worth it.
+Lands very much has done a lot of work to try and shore up their combo matchups.
+Nowadays you can expect to see both permanent and stack-based interaction to
+join their usual share of mana denial elements. The trick here is to just make
+sure you can keep up {U}{U} post Doomsday and to retain :card[CoS] in case of
+REB or the occasional rogue Chalice. Don't ever try and fight them with grave
+hate vs. the Loam plan, it's not worth it.
 
 :::row{variant=centered}
 - Life from the Loam
@@ -385,7 +384,7 @@ hate vs the Loam plan, it's not worth it.
 
 ### TES, ANT
 
-- **Respect**: Silence, Orim's Chant
+- **Respect**: Silence and Orim's Chant
 - **Disrespect**: The rest
 - **Take out**: 1 Cavern of Souls, 2 Preordain, 1 Island, 1 Street Wraith
 - **Bring in**: 2-4 Force of Negation, 1 Thassa's Oracle, 2 Flusterstorm
@@ -398,8 +397,8 @@ much in it. I don't bother bringing in REB effects because it's not the cantrips
 we want to fight over.
 
 :::row{variant=centered}
-- Rite of Flame
 - Silence
+- Echo of Eons
 - Wishclaw Talisman
 :::
 
@@ -418,15 +417,14 @@ Forces and can be very tough, especially with :card[Hullbreacher] effects so
 involved. 8-Cast feels easier with less explosiveness traded in for more
 consistency. Either way, don't be afraid to let Chalices resolve and just try to
 power out a quick win. My plan for these decks keeps changing as I try different
-things but I was reasonably happy with the plan enacted which can be *shameless
-plug* seen in [this video](https://www.youtube.com/watch?v=GtMGU39YAtw) and
-*shameless plug* [this video](https://www.youtube.com/watch?v=H62gxBL0lUA) *end
-of shameless plugging*.
+things but I was reasonably happy with the plan enacted which can be seen in
+(shameless plug) [this video](https://www.youtube.com/watch?v=GtMGU39YAtw) and
+[this video](https://www.youtube.com/watch?v=H62gxBL0lUA).
 
 :::row{variant=centered}
 - Echo of Eons
 - Karn, the Great Creator
-- Thought Monitor
+- Force of Will
 :::
 
 ### Blue Soup: Stryfo Pile, BUG Zenith, Bant, Miracles, 4c Control
@@ -438,8 +436,8 @@ of shameless plugging*.
 - **Bring in**: 1 Thassa's Oracle, maybe 1 Chain of Vapor, 2 Flusterstorm, 1
   Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
-The main difficulty in facing Blue Soup decks is they could have anything in
-them. It's a pain in the arse because it's all beatable but if you fail to
+The main difficulty in facing *Blue Soup* decks is that they could have anything
+in them. It's a pain in the arse because it's all beatable but if you fail to
 identify splashes or board for the wrong things you can get blown out because a
 lot of them bring in so many different cards. Generally 1 for 1 interaction is
 good and you want to be able to still have the ability to go under them but not
@@ -449,7 +447,7 @@ cycling effects even in these matchups.
 :::row{variant=centered}
 - Uro, Titan of Nature's Wrath
 - Sylvan Library
-- Swords to Plowshares
+- Meddling Mage
 :::
 
 ### Jeskai Soup: Saga, Ragavan, Delver, Stoneblade
@@ -466,7 +464,7 @@ Or
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
 - **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
-Like Blue Soup but harder thanks to :card[Ragavan, Nimbler Pilferer] and
+Like *Blue Soup* but harder thanks to :card[Ragavan, Nimbler Pilferer] and
 :card[Expressive Iteration]. Often these might as well all be Delver decks just
 with :card[Meddling Mage] to annoy us. You can very well justify bringing in
 :card[Massacre] or :card[CoV] in these matchups. Again deck variance in the
@@ -492,7 +490,7 @@ unloseable, but sometimes it feels that way here. Just don't get blown out by
 
 :::row{variant=centered}
 - Cloudpost
-- Glimmerpost
+- Endurance
 - Mindbreak Trap
 :::
 
@@ -521,9 +519,9 @@ playing around an on-board :card[Grindstone] can be a real headache.
 - **Bring in**: 2-4 Force of Negation, maybe 1 Thassa's Oracle, 2 Flusterstorm,
   maybe 1 Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
-I love Omnishow and field it as my secondary deck of choice. Unfortunately it is
-definitely clunkier than Doomsday and we had a huge advantage in being able to
-make resilient pass-the-turn piles that win via their :card[Show and Tell].
+I love OmniShow and field it as my secondary deck of choice. Unfortunately it is
+definitely clunkier than Doomsday and we have a huge advantage in being able to
+make resilient pass-the-turn piles that win via their own :card[Show and Tell].
 
 :::row{variant=centered}
 - Show and Tell
@@ -541,9 +539,9 @@ make resilient pass-the-turn piles that win via their :card[Show and Tell].
 - **Bring in**: 4 Force of Negation, 1 Thassa's Oracle, 2 Flusterstorm, maybe 1
   Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
-Sneak and Show feels like a swingier Omnishow in terms of matchup. It's one of
-the matchups I have experimented with :card[Dz] being brought in and out
-depending on play vs draw etc. Should still be favourable.
+Sneak and Show feels like a swingier OmniShow in terms of matchup. It's one of
+the matchups I have experimented with :card[Daze] being brought in and out
+depending on play vs. draw. Should still be favourable.
 
 :::row{variant=centered}
 - Sneak Attack
@@ -568,9 +566,10 @@ thing I will note is that I find having 3 blast effects a little too many
 perhaps so I might look to cut one for something but for what? That remains to
 be seen.
 
-I would strongly advise you 1. Don't try to mimic my decklist because it is very
-much made for me and 2. Have a go at building your own little sideboard guide as
-it's a very good exercise to go through. Even if you do disregard it afterwards.
+I would strongly advise you to 1. Not try to mimic my decklist because it is
+very much made for me and 2. Have a go at building your own little sideboard
+guide as it's a very good exercise to go through. Even if you do disregard it
+afterwards.
 
 As always if you want even more content please check out our
 [resources](/appendices/resources) page which includes a list of community
