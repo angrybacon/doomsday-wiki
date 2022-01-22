@@ -169,8 +169,6 @@ I had faced many instances where Flusterstorm was either equal to, or better in
 certain circumstances. I also wanted to try a third blast effect as in some of
 the fair blue matchups I was wanting to see them more often.
 
-### Deeper Sideboard Dive
-
 I will quickly go through the sideboard cards and give a quick summary of their
 general/expected roles and the justification for having them.
 
