@@ -47,6 +47,7 @@ export const SHORTHANDS: Record<string, string> =
   Pnd:  'Ponder',
   PoN:  'Pact of Negation',
   Pre:  'Preordain',
+  REB:  'Red Elemental Blast',
   RiP:  'Rest in Peace',
   SE:   'Surgical Extraction',
   SI:   'Shelldock Isle',
