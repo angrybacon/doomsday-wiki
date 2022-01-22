@@ -2,6 +2,7 @@ import { Theme, ThemeOptions, createTheme } from '@material-ui/core/styles';
 import type { CSSProperties } from '@material-ui/core/styles/withStyles';
 import primary from '@material-ui/core/colors/deepPurple';
 import secondary from '@material-ui/core/colors/pink';
+import '@fontsource/libre-baskerville';
 
 interface DrawerOptions {
   width: number;
@@ -58,6 +59,15 @@ const options: ThemeOptions = {
         [base.breakpoints.only('xs')]: {
           paddingLeft: 0,
           paddingRight: 0,
+        },
+      },
+    },
+    MuiCssBaseline: {
+      '@global': {
+        em: {
+          fontFamily: 'Libre Baskerville, serif',
+          fontSize: '0.9em',
+          fontStyle: 'italic',
         },
       },
     },

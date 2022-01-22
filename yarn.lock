@@ -366,6 +366,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource/libre-baskerville@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/libre-baskerville/-/libre-baskerville-4.5.0.tgz#82871a1e7fc5b2455b37db17342f73aade205eca"
+  integrity sha512-Mutp11P4DtpYYT3NlB5i5TQ7GU53NL1AHcLnqEQDRkLBFuziILhXwOsE+J5IID16qqJ3+VwynkvWLjDoWCijOw==
+
 "@hapi/accept@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.2.tgz#ab7043b037e68b722f93f376afb05e85c0699523"
