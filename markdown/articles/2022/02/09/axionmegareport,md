@@ -1,0 +1,179 @@
+---
+authors: Doishy
+banner: Duress (Mystical Archive Japanese Art pls)
+title: Legacy for Goodies at Axion's Mega Weekend - Winner's Report and Metagame discussion
+---
+
+## Table of Contents
+
+## Preface
+
+On the weekend just gone (5th and 6th of February 2022) [Axion](https://www.axionnow.com/) hosted
+their first CompREL Mega Weekend since the whole COVID thing started. This included
+a massive Modern event, a unified Modern trios event and of course, one of their infamous
+"Legacy for Goodies" events too. As Francois (the lovely owner) said during the player's
+meeting, they were worried they would just about fill the seats for the 32 player capped
+Legacy event however what actually happened was it sold out within a day almost!
+The people have spoken, they want Legacy and it sounds like more events from Axion will
+be appearing within the year!
+
+It was an amazing event run with lots of lovely people involved with judging (big thanks to Nik,
+our head judge), scorekeeping (big shout out to Will who also provided us with delicious
+decklists and metagame data) and of course playing! It was great to see people just having fun, 
+jamming some cards and enjoying themselves. There were only two drops from players in round 4
+but other than that, everyone played the entire swiss which goes to show just how much people
+just wanted to play!
+
+The event was 32 players. 5 round swiss with a cut to top 4.
+There were also two "bonus top 4s" for 5th to 8th place and 9th to 12th place respectively. 
+The entire top 4 prized and the winners of the bonus top 4s also won some goodies. 
+First place was a Revised Underground Sea, second a Revised Taiga and various other delicious
+staples for 3rd/4th and the bonus top 4 winners.
+
+## The Metagame
+
+*Again a massive thanks to scorekeeper Will for getting us this data.*
+
+Going into the event there were two decks I expected to see represented heavily but beyond
+that I had no idea on what the meta could be. I expected a heavy UR Delver presence and a 
+heavy Death & Taxes showing and looks like I was right about those.
+
+Without further ado, here is the complete meta breakdown:
+
+Yorion Death & Taxes	4  
+UR Delver	            3  
+Lands	                3  
+4C Control (UWGb)    	2  
+Cloudpost	            2  
+Doomsday	            1  
+UW Delverblade	      1  
+Imperial Painter	    1  
+4C Yorion Aluren	    1  
+Bant Stoneblade     	1  
+8-Cast	              1  
+Moon Stompy	          1  
+Jeskai Breacher	      1  
+Goblins	              1  
+UB Shadow	            1  
+BUG Control	          1  
+Aggro Affinity	      1  
+Storm	                1  
+Burn	                1  
+Stiflenaught	        1  
+Eldrazi Aggro	        1  
+Esper Miracles	      1  
+Reanimator	          1  
+
+Death & Taxes was the highest represented archetype followed by UR Delver and then Lands. 
+The meta diversity was huge which was great to see with 23 uniquue archetypes on display.
+Obviously in a small paper event it's hard to draw any major conclusions other than people
+played what they could/what they enjoy but it was nice to see so many different decks on display.
+
+What we can see is that Graveyard based decks were very underrepresented with only one pilot
+taking a stand. It's often tough to work out whether people are in the peaks of overloading
+with anti-Graveyard hate or troughs of skimping out on it but with :card[Endurance] in abundance
+alongside a large number of potential Force effects and :card[Bojuka Bogs] it likely is tricky
+to find the wins without going full throttle with something like Oops All Spells.
+Tempo, Prison and Blue Control were all equally represented in the top macro archetype slots
+with 6 pilots each followed by Midrange at 5 pilots, Aggro at 4 and both Spell and Creature
+combo decks at 2 each. 
+
+As metagames go, this one does look like it could actually be quite hostile to Delver/Tempo
+style lists given how much Yorion Death & Taxes, Cloudpost and Lands there was (all heralded to
+be able to prey on traditional Delver decks) however despite this there were still two pilots
+who made it into the top 4. It also looks like it would be a good meta for decks that prey
+on some of the fairer strategies. Something like Elves would have likely been a decent choice
+for the event. 
+
+Righty, now for the Doomsday bit :3 
+
+## Winner's Event Report :)
+
+### Decklist
+
+I was one of the lucky few who managed to secure a ticket and with only the knowledge that 
+"there will probably be UR Delver and Death & Taxes" about I had to try and come up with my
+list. To make things slightly trickier I had gone 1-3 at the last local FNM I had played in
+(making me feel a little bummed out) and, probably more importantly, the :card[Ragavan, Nimbler Pilferer]
+ban had come into effect so I was probably due to make some changes to my [previous list](/articles/2022/01/22/zero-respect#the-decklist)
+whilst being unable to test for the event at all thanks to general life things getting in the way.
+
+As a result I took my previous list as a starter and begun conversing online with various community
+members to try and assess what changes I might want to make (shout out to Otterlady, Nevilshute and
+Prepare4Robots especially on this). I knew I wanted to add additional discard effects into the
+list somewhere and was most worried about Blue based "Soup" decks (Bant, 4C, Jeskai Breacher) just
+because they can run such a diverse spread of relevant hate that, in normal lists, requires answers
+that are otherwise really bad in those matchups. I spent a lot of time agonising over trying an
+alternative way to bypass a :card[Torpor Orb] from say a RUG Saga deck such as good old :card[Tendrils of Agony]
+or ways to remove a variety of other nuisance elements like :card[Meddling Mage] as well with tools
+like :card[Kolaghan's Command] however it was decided to just keep to the theme of what I know and
+just not respect that sort of behaviour. If blue decks want to bring such rude toys to play then
+they are welcome to it!
+
+The final major talking point which I was convinced to try was removing :card[DA] from the list.
+A lot of people have started to run the deck still with :card[Con] but without Analysis as the
+former still has [relevant pile application](/chapters/meandeck/brainstorm.md#brainstorm-pile---brainstorm-and-free-cantrip-available)
+and acts as a decent cantrip to clear 2 cards in the face of a :card[Narset, Parter of Veils] 
+whilst the latter only enables specific fast/efficient piles but ones that are very susceptible 
+to a lot of hate in the format. Thanks to recent trends and discussion with folks I decided to 
+risk it by removing the card from the deck entirely (it was discussed putting it in the board but
+it shines most of all in game 1 scenarios).
+
+When Consider was first spoilt I had in fact said the following:
+
+> I'm going to buy Consider. Buy DA. Then probably only end up on one consider no  DA >.<
+> - Doishy 08/06/2021
+
+Looks like it took me a fair while to stick to what I had said initially but I guess past me
+knew what they were talking about and the change seemed to work out well.
+
+As a result then we made the following changes to the deck thus going into "Turbo Zero Respect version 0.6".
+
+Maindeck:
+-  -1 Deep Analysis
+-  +1 Thoughtseize
+
+Sideboard:
+-  -1 Flusterstorm
+-  +1 Duress
+
+That's it. 
+
+That's all I did. ([I had mentioned I am slow to change](/articles/2022/01/22/zero-respect.md#i-am-slow-to-make-changes-to-my-deck)). 
+
+The :card[Flusterstorm] change was because I wanted to fit more discard in which could snipe
+something like Torpor Orb and dealt with opposing Fluster's too whilst also being more
+mana efficient in the long run vs things like Delver. It also is very strong against opposing
+spelt based combo allowing you to keep a diverse suite of interaction. I had scoured
+MTGGoldfish for what sort of interaction the "Soup" decks were packing and it looked like
+:card[VoS] was at an all time low so I figured this is the time when discard is going to
+look its best before people remember about that card again now that Monkey is gone!
+The other potential cut was the 4th :card[FoN] but I decided on the fluster as, if nothing else,
+I would have a hard time trying not to bring in too much interaction vs certain decks like
+Bant where Fluster, REBs, Discard and some of the removal are all potential choices.
+
+So here is the complete decklist:
+
+::decklist{path=2022/02/zero-respect}
+
+
+### Main Report
+
+So I'm just going to say this now for the record, I was feeling awful the day of the event.
+We had driven up the day before and stayed with some friends (and had a lovely time) however
+the friends in question were in the process of moving and so only had an air mattress to offer
+for sleeping arrangements. This is normally not an issue however for whatever reason I just
+could not sleep at all that night. As a result come Sunday morning when it was time to
+get up to head to the event centre, I felt like literal death. I wolfed down a "not quite-hot-crossed-bun"
+and headed to the bus stop to get to hotel looking and feeling hungover as all hell (despite
+  
+
+
+
+
+
+
+
+
+
+
