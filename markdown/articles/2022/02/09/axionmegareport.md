@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: Duress (Mystical Archive Japanese Art pls)
+banner: Duress | STA | 92
 title: Legacy for Goodies at Axion's Mega Weekend - Winner's Report and Metagame discussion
 ---
 
@@ -40,29 +40,31 @@ heavy Death & Taxes showing and looks like I was right about those.
 
 Without further ado, here is the complete meta breakdown:
 
-Yorion Death & Taxes	4  
-UR Delver	            3  
-Lands	                3  
-4C Control (UWGb)    	2  
-Cloudpost	            2  
-Doomsday	            1  
-UW Delverblade	      1  
-Imperial Painter	    1  
-4C Yorion Aluren	    1  
-Bant Stoneblade     	1  
-8-Cast	              1  
-Moon Stompy	          1  
-Jeskai Breacher	      1  
-Goblins	              1  
-UB Shadow	            1  
-BUG Control	          1  
-Aggro Affinity	      1  
-Storm	                1  
-Burn	                1  
-Stiflenaught	        1  
-Eldrazi Aggro	        1  
-Esper Miracles	      1  
-Reanimator	          1  
+| **Deck**             | **#** |
+|----------------------|-------|
+| Yorion Death & Taxes | 4     |
+| UR Delver            | 3     |
+| Lands                | 3     |
+| 4C Control (UWGb)    | 2     |
+| Cloudpost            | 2     |
+| Doomsday             | 1     |
+| UW Delverblade       | 1     |
+| Imperial Painter     | 1     |
+| 4C Yorion Aluren     | 1     |
+| Bant Stoneblade      | 1     |
+| Reanimator           | 1     |
+| Moon Stompy          | 1     |
+| Jeskai Breacher      | 1     |
+| Goblins              | 1     |
+| UB Shadow            | 1     |
+| BUG Control          | 1     |
+| Aggro Affinity       | 1     |
+| Storm                | 1     |
+| Burn                 | 1     |
+| Stiflenaught         | 1     |
+| Eldrazi Aggro        | 1     |
+| Esper Miracles       | 1     |
+| 8-Cast               | 1     |
 
 Death & Taxes was the highest represented archetype followed by UR Delver and then Lands. 
 The meta diversity was huge which was great to see with 23 uniquue archetypes on display.
@@ -92,6 +94,23 @@ for the event.
 - Exploration
 :::
 
+At the end of the day the final results looked like so:
+
+Top 8 (split into two top 4 results):
+  1. Doomsday - Me!
+  1. UW Delverblade - Chris S
+  1. UR Delver - David S
+  1. Imperial Painter - Callum S
+  1. Yorion Aluren (4C) - Francis GR
+  1. Bant Stoneblade - Giuseppe S
+  1. Yorion Death & Taxes - James M
+  1. 8-Cast - Andrew P
+
+Then the winner of the 2nd bonus top 4 was:
+  - Yorion Death & Taxes - Jamie H
+
+A great showing all round.
+
 Righty, now for the Doomsday bit :3 
 
 ## Winner's Event Report :)
@@ -119,14 +138,14 @@ they are welcome to it!
 
 The final major talking point which I was convinced to try was removing :card[DA] from the list.
 A lot of people have started to run the deck still with :card[Con] but without Analysis as the
-former still has [relevant pile application](/chapters/meandeck/brainstorm.md#brainstorm-pile---brainstorm-and-free-cantrip-available)
+former still has [relevant pile application](/meandeck/brainstorm#brainstorm-pile---brainstorm-and-free-cantrip-available)
 and acts as a decent cantrip to clear 2 cards in the face of a :card[Narset, Parter of Veils] 
 whilst the latter only enables specific fast/efficient piles but ones that are very susceptible 
 to a lot of hate in the format. Thanks to recent trends and discussion with folks I decided to 
 risk it by removing the card from the deck entirely (it was discussed putting it in the board but
 it shines most of all in game 1 scenarios).
 
-When Consider was first spoilt I had in fact said the following:
+When Consider was first spoilt I had in fact said the following:  
 
 > I'm going to buy Consider. Buy DA. Then probably only end up on one consider no  DA >.<
 > - Doishy 08/06/2021
@@ -136,13 +155,13 @@ knew what they were talking about and the change seemed to work out well.
 
 As a result then we made the following changes to the deck thus going into "Turbo Zero Respect version 0.6".
 
-Maindeck:
--  -1 Deep Analysis
--  +1 Thoughtseize
+Maindeck:  
+-  -1 Deep Analysis  
+-  +1 Thoughtseize  
 
-Sideboard:
--  -1 Flusterstorm
--  +1 Duress
+Sideboard:  
+-  -1 Flusterstorm  
+-  +1 Duress  
 
 That's it. 
 
@@ -153,12 +172,12 @@ That's it.
 - Duress
 :::
 
-That's all I did. ([I had mentioned I am slow to change](/articles/2022/01/22/zero-respect.md#i-am-slow-to-make-changes-to-my-deck)). 
+That's all I did. ([I had mentioned I am slow to change](/articles/2022/01/22/zero-respect#i-am-slow-to-make-changes-to-my-deck)). 
 
 The :card[Flusterstorm] change was because I wanted to fit more discard in which could snipe
 something like Torpor Orb and dealt with opposing Fluster's too whilst also being more
 mana efficient in the long run vs things like Delver. It also is very strong against opposing
-spelt based combo allowing you to keep a diverse suite of interaction. I had scoured
+spell based combo allowing you to keep a diverse suite of interaction. I had scoured
 MTGGoldfish for what sort of interaction the "Soup" decks were packing and it looked like
 :card[VoS] was at an all time low so I figured this is the time when discard is going to
 look its best before people remember about that card again now that Monkey is gone!
@@ -169,7 +188,6 @@ Bant where Fluster, REBs, Discard and some of the removal are all potential choi
 So here is the complete decklist:
 
 ::decklist{path=2022/02/zero-respect}
-
 
 ### Main Report
 
@@ -187,7 +205,6 @@ crew, who were playing in the Unified Modern Trios event, and saying hello to ou
 to the player meeting. Francois gave a lovely speech and hinted at some "giga" events in the future
 which will be including Legacy in some form. Nik gave his official speech bit and we kicked off into
 round 1.
-
 
 #### Round 1 vs Connor on Yorion Death & Taxes
 
@@ -228,12 +245,10 @@ We learn from out mistakes and move on. Game 3 I keep 7, Connor 5 and I once aga
 With a full grip and on the play there are very few scenarios where a Death & Taxes player can win
 from here and we get our first (somewhat sloppy) win of the day.
 
-```
-Match:   2-1
-Matches: 1-0
-Games:   2-1
-```
-
+**Match:   2-1  
+Matches: 1-0  
+Games:   2-1  
+**
 
 #### Round 2 vs Jons on Lands ft. Enlightened Tutor
 
@@ -259,16 +274,14 @@ a Doomsday in hand. If I find a land or Ritual I can just let Rod resolve. If I 
 and just try to rush things faster. I find no land but I do find Petal so I force it and jam a turn 3 Doomsday.
 This time I successfully build around the hate faced and land a Cavern fueled Oracle with no issue.
 
-```
-Match:   2-1
-Matches: 2-0
-Games:   4-2
-```
+**Match:   2-1  
+Matches: 2-0  
+Games:   4-2  
+**
 
 Up to this point I had been running on fumes and a little pick-me-up in the form of half a can of 
 energy drink from my friend Ben was very much needed. I assumed I had been winning mostly
 on decent starting hands and decent matchups but eventually this nice ride was bound to end.
-
 
 #### Round 3 vs David on UR Delver
 
@@ -305,12 +318,10 @@ trick to game 1 and with no pressure from David I can just land-go to victory.
 Phew. Okay, well we managed to beat the tricky deck somehow.
 I tried to have a semi nap at a table on my bag. Alas did not help Q.Q
 
-```
-Match:   2-1
-Matches: 3-0
-Games:   6-3
-```
-
+**Match:   2-1  
+Matches: 3-0  
+Games:   6-3  
+**
   
 #### Round 4 vs James on Yorion Death & Taxes
 
@@ -318,7 +329,7 @@ The James mirror. I was not prepared for such things!
 We have a giggle over the concepts of an old-school templated first-name-nemesis style
 card and then actually go to play.
 
-Game 1 I keep a decent but maybe slow-ish hand and are able to lay down a turn 3 pass-the-turn pile.
+Game 1 I keep a decent but maybe slow-ish hand and am able to lay down a turn 3 pass-the-turn pile.
 I actually forget my pile order at one point which means when I try to go for it in a turn I am left
 with a card too many in deck so I have to pass an extra turn (rather than risk :card[Swords to Plowshares]
 or :card[Solitude] and thankfully do not get punished for it. (Another instance of sloppy play Q.Q)
@@ -348,6 +359,9 @@ potentially multiple threats and thus can even justify passing 3-4 turns with no
 Let's just say for argument's sake there is a god and they were angry at how little respect I was giving.
 I think I had 7 looks (6 draws steps and a Street Wraith cycle) to find what I needed which, out of 53
 cards left in deck is a 95.6% chance according to the hypergeometric calculator I just shoved some numbers into.
+
+*Editors Note: you also get 7 looks if you just mulligan lmao - d8dk32*
+
 Ah well, that's the risk of those keeps. And it was a sweet hand. Even on turn 4 facing double :card[Spirit of the Labyrinth]
 I felt favoured. It was only when two Urza tokens joined the party that my life dropped too swiftly to be
 able to come back. I have no idea what my opponent must have thought at me passing and discarding until 
@@ -356,11 +370,10 @@ I died but it must have been funny things.
 Game 3 is back to normal business. I cast a turn 1 Doomsday with a double Petal hand and win after passing
 a few turns. And with that we head towards the final swiss round.
 
-```
-Match:   2-1
-Matches: 4-0
-Games:   8-4
-```
+**Match:   2-1  
+Matches: 4-0  
+Games:   8-4  
+**
 
 Now I am rubbish at breaker maths. I'm not sure what it is but something about it just fails to penetrate into
 my thick skull so, looking at the current round 3 standings I ask Ben how safe it is to ID. Ben is wonderful
@@ -368,7 +381,6 @@ and explains that there are 4 sets of 3-0 players going into round 4 and so in t
 cause pair downs then so long as I match up against another 4-0 player I am safe to ID into the top 4.
 "Sweet" I think as I had not really eaten yet and could really use a long break for food or a nap.
 
-  
 #### Round 5 vs Chris on Hot Chicken, some Chocolate and a Nice Chat
 
 I don't know what occurred in round 4 other than a lot of upsets and at checking the standings Chris and I can
@@ -377,19 +389,18 @@ the shop, get some food, have a sit down and a chat. It was all very pleasant. A
 I have a nosy at the other top table folks to try and work out what will likely break through. Top contenders
 seem to be a Yorion Aluren deck and potentially my round 4 opponent.
 
-```
-Match:   1-1-1
-Matches: 4-0-1
-Games:   8-4
-```
+**Match:   1-1-1  
+Matches: 4-0-1  
+Games:   8-4  
+**
 
 The top 4 cut is actually pretty neat and not what I expected. Obviously Chris and I take the top two spots
 (Chris ahead on GW% which I could have improved by not playing so badly >.< ). Instead of a nice durdly control
 deck or another Death & Taxes opponent to munch on, I am greeted by the 3rd and 4th swiss places being taken
-by none other than my round 3 opponent David (so UR Delver again) and Mr Callum "Whitefaces" Smith on Imperial
+by none other than my round 3 opponent David (so UR Delver again) and Mr Callum Smith of Everyday Eternal fame on Imperial
 Painter, a matchup that can be very tough to navigate. I was in no good mindset to be able to pile
 around :card[Grindstone] repeatedly so was really not looking forward to that. To make matters worse Chris, 
-the delightful person I had eaten and conversed, with betrayed me by being on a UW Delver Blade deck! With 
+the delightful person I had eaten and conversed with, betrayed me by being on a UW Delver Blade deck! With 
 two tempo decks and a headache as my potential opponents I was not looking forward to what was about to happen.
 
 I was however already more than satisfied with my performance despite the mistakes and given how tired I still felt
@@ -397,7 +408,6 @@ I was however already more than satisfied with my performance despite the mistak
 like a great idea to just allow me to go to bed quicker but I am stubborn and competetive so we endured.
 And, going into the semi-final we meet once again with David.
 
- 
 #### Semi-Final vs David on UR Delver
 
 We reunite and have a giggle about how tired I still am. Being the higher seed I take the play (which was massive
@@ -411,7 +421,7 @@ he can't get the pressure down in time to beat Oracle off of Island + Cavern.
 
 Same boarding as round 3.
 
-Game 2 was tough but closer than I would have thought. My notes are poor but I definately throw some discard
+Game 2 was tough but closer than I would have thought. My notes are poor but I definitely throw some discard
 at him early seeing FoN, REB, 2 x Murktide, and Misty. I get pressured quite fast finally managing
 to resolve Doomsday at a precarious 6 life facing an inactive Channeler, the world's dinkiest Murktide
 and maybe 3 cards in David's hand. My pile had to be as simple as it could be and was just the classic
@@ -423,7 +433,7 @@ list, go to 1, feeling okay. Then disaster strikes as post-combat he casts :card
 our Doomsday. Shit, the one out I didn't consider! What was worth noting was my hand at this point was a
 Daze and a very sad Pact of Negation (so maybe I was more protected than I let on, but only a little).
 
-Anyways we were still in the game with a 2 in 5 chance to get there with Ideas or Edge into Ideas but alas
+Anyways we were still in the game with a 25%-ish chance to get there with Ideas or Edge into Ideas but alas
 we were greeted in our draw step by our dear old fishy friend. Ah well, close game for sure!
 
 Game 3 I am starting to shake somewhat. Now I don't usually intake caffeine at all and that energy drink 
@@ -441,15 +451,13 @@ really want to go home). David was an amazing opponent as I said and he showed m
 interaction like Daze, REBs etc which was perfect against me except for a *yolo* style all in on
 turn 1 start when on the draw. I look forward to playing him again!
 
-```
-Match:   2-1
-Matches: 5-0-1
-Games:   10-5
-```
+**Match:   2-1  
+Matches: 5-0-1  
+Games:   10-5  
+**
 
 I groggily look over to my right to see Chris welcoming me across. It seems Callum was unable to face
 off against the UW Tempo deck and thus I finally meet my round 5 opponent on the field of battle.
-
 
 #### Final vs Chris on UW Delverblade
 
@@ -462,7 +470,7 @@ as the only spells. I take Daze and slam a second Ritual into Doomsday with the 
 being Brainstorm, Daze and maybe a Personal Tutor. 
 
 Those of you in the know get what just happened. As my opponent has no interaction going I open sequence
-a [standard Brainstorm pile](/chapters/meandeck/brainstorm.md#brainstorm-pile---brainstorm-available). 
+a [standard Brainstorm pile](/meandeck/brainstorm#brainstorm-pile---brainstorm-available). 
 I'm so jittery and excited yet internally a wreck I start rushing and Nik who is of course observing
 the match closely reminds me that it is not timed and I can slow down. I take a breather and make
 sure to triple check my pile before committing (it would be super embarrassing for an author of
@@ -524,15 +532,13 @@ And that was it.
 
 Final scores:
 
-```
-Match:   2-1
-Matches: 6-0-1
-Games:   12-6
-Non pass-the-turn piles: 1
-Fuckups: Numerous
-Non-landers Kept: 1
-```
-
+**Match:   2-1  
+Matches: 6-0-1  
+Games:   12-6  
+Non pass-the-turn piles: 1  
+Fuckups: Numerous  
+Non-landers Kept: 1  
+**
 
 ## Closing Thoughts
 
