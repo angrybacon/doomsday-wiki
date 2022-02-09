@@ -85,6 +85,13 @@ who made it into the top 4. It also looks like it would be a good meta for decks
 on some of the fairer strategies. Something like Elves would have likely been a decent choice
 for the event. 
 
+:::row{variant=centered}
+- Thalia, Guardian of Thraben
+- Delver of Secrets
+- Cloudpost
+- Exploration
+:::
+
 Righty, now for the Doomsday bit :3 
 
 ## Winner's Event Report :)
@@ -138,6 +145,13 @@ Sideboard:
 -  +1 Duress
 
 That's it. 
+
+:::row{variant=centered}
+- DA
+- Tsz
+- Flusterstorm
+- Duress
+:::
 
 That's all I did. ([I had mentioned I am slow to change](/articles/2022/01/22/zero-respect.md#i-am-slow-to-make-changes-to-my-deck)). 
 
@@ -294,23 +308,262 @@ I tried to have a semi nap at a table on my bag. Alas did not help Q.Q
 ```
 Match:   2-1
 Matches: 3-0
-Games:   6-1
+Games:   6-3
 ```
-
 
   
 #### Round 4 vs James on Yorion Death & Taxes
 
 The James mirror. I was not prepared for such things! 
+We have a giggle over the concepts of an old-school templated first-name-nemesis style
+card and then actually go to play.
 
-zzzzzzzzzzzzzz
+Game 1 I keep a decent but maybe slow-ish hand and are able to lay down a turn 3 pass-the-turn pile.
+I actually forget my pile order at one point which means when I try to go for it in a turn I am left
+with a card too many in deck so I have to pass an extra turn (rather than risk :card[Swords to Plowshares]
+or :card[Solitude] and thankfully do not get punished for it. (Another instance of sloppy play Q.Q)
 
-**Game 2 hand display with hand mode.**
+Same boarding as round 1.
+
+Game 2 is brilliant. Game 2 involves a classic "Doishy" hand. The sort of hand that my friend Matt
+always tells me I shouldn't go for. The sort of hand where I just can't help myself and too
+often get away with. This is my opening 7 (on the draw mind). 
+
+:::row{variant=hand}
+- DR|MMQ
+- DD
+- FoW
+- Massacre
+- CoV
+- BS
+- TO
+- Daze
+:::
+
+Honestly this hand is perfect. It has multiple interaction spells which stay relevant and can cast Doomsday
+from turn 1. Only a small little issue of no initial mana source. It's fine, we have 18 in the deck that allow
+us to Doomsday, 13 of which let us hold :card[Daze] up. The final one, Island, let's us use Daze and cast our
+Brainstorm to find the {B} source we need. Thanks to Force and Massacre we also have huge insurance against
+potentially multiple threats and thus can even justify passing 3-4 turns with no issue. 
+Let's just say for argument's sake there is a god and they were angry at how little respect I was giving.
+I think I had 7 looks (6 draws steps and a Street Wraith cycle) to find what I needed which, out of 53
+cards left in deck is a 95.6% chance according to the hypergeometric calculator I just shoved some numbers into.
+Ah well, that's the risk of those keeps. And it was a sweet hand. Even on turn 4 facing double :card[Spirit of the Labyrinth]
+I felt favoured. It was only when two Urza tokens joined the party that my life dropped too swiftly to be
+able to come back. I have no idea what my opponent must have thought at me passing and discarding until 
+I died but it must have been funny things.
+
+Game 3 is back to normal business. I cast a turn 1 Doomsday with a double Petal hand and win after passing
+a few turns. And with that we head towards the final swiss round.
+
+```
+Match:   2-1
+Matches: 4-0
+Games:   8-4
+```
+
+Now I am rubbish at breaker maths. I'm not sure what it is but something about it just fails to penetrate into
+my thick skull so, looking at the current round 3 standings I ask Ben how safe it is to ID. Ben is wonderful
+and explains that there are 4 sets of 3-0 players going into round 4 and so in theory, if no awkward draws
+cause pair downs then so long as I match up against another 4-0 player I am safe to ID into the top 4.
+"Sweet" I think as I had not really eaten yet and could really use a long break for food or a nap.
+
+  
+#### Round 5 vs Chris on Hot Chicken, some Chocolate and a Nice Chat
+
+I don't know what occurred in round 4 other than a lot of upsets and at checking the standings Chris and I can
+see we are the only 2 players at 4-0. He offers the ID which I gratefully accept. We have a lovely wander to
+the shop, get some food, have a sit down and a chat. It was all very pleasant. As it comes to the round end
+I have a nosy at the other top table folks to try and work out what will likely break through. Top contenders
+seem to be a Yorion Aluren deck and potentially my round 4 opponent.
+
+```
+Match:   1-1-1
+Matches: 4-0-1
+Games:   8-4
+```
+
+The top 4 cut is actually pretty neat and not what I expected. Obviously Chris and I take the top two spots
+(Chris ahead on GW% which I could have improved by not playing so badly >.< ). Instead of a nice durdly control
+deck or another Death & Taxes opponent to munch on, I am greeted by the 3rd and 4th swiss places being taken
+by none other than my round 3 opponent David (so UR Delver again) and Mr Callum "Whitefaces" Smith on Imperial
+Painter, a matchup that can be very tough to navigate. I was in no good mindset to be able to pile
+around :card[Grindstone] repeatedly so was really not looking forward to that. To make matters worse Chris, 
+the delightful person I had eaten and conversed, with betrayed me by being on a UW Delver Blade deck! With 
+two tempo decks and a headache as my potential opponents I was not looking forward to what was about to happen.
+
+I was however already more than satisfied with my performance despite the mistakes and given how tired I still felt
+(though more alive thanks to foods) I think I was happy to be winning or losing at this point. In fact losing seemed
+like a great idea to just allow me to go to bed quicker but I am stubborn and competetive so we endured.
+And, going into the semi-final we meet once again with David.
+
+ 
+#### Semi-Final vs David on UR Delver
+
+We reunite and have a giggle about how tired I still am. Being the higher seed I take the play (which was massive
+here) and we both keep 7. I turn 1 :card[PT] for Doomsday. I think David played a Ponder and passed. Or
+maybe just went land, go. I think it was Ponder because of what occurred later.
+Anyways turn 2 comes and I drop a second land and cast Dark Ritual. I Thoughtseize him, he thinks a bit and goes to 
+Daze it (with no mana floating hence why I think he played Ponder turn 1). I pay for Daze with one of the remaining
+{B}{B} allowing Thoughtseize to resolve and see Murktide, Island, Volc, Daze, Pyroblast (maindeck!) and :card[Expressive Iteration].
+I take Daze and proceed to cast a second Ritual and Doomsday. Exactly the same pile as game 1 of our previous match, 
+he can't get the pressure down in time to beat Oracle off of Island + Cavern.
+
+Same boarding as round 3.
+
+Game 2 was tough but closer than I would have thought. My notes are poor but I definately throw some discard
+at him early seeing FoN, REB, 2 x Murktide, and Misty. I get pressured quite fast finally managing
+to resolve Doomsday at a precarious 6 life facing an inactive Channeler, the world's dinkiest Murktide
+and maybe 3 cards in David's hand. My pile had to be as simple as it could be and was just the classic
+:card[IU] into Edge, Oracle, Cavern, Petal because I could not play around anything as I went to 1 life on
+the swing back. I was only dead to Bolt, Force of Will, Force of Negation, Pyroblast, Red-Elemental Blast, 
+Daze, Stifle, Null Rod, Torpor Orb, Narset, enough cantrips to set Channeler to a 3/3 or Wasteland so I felt
+pretty confident in winning. He draws, plays a fetch, maybe cantrips, attacks. Okay, we dodged a lot of that
+list, go to 1, feeling okay. Then disaster strikes as post-combat he casts :card[Surgical Extraction] on
+our Doomsday. Shit, the one out I didn't consider! What was worth noting was my hand at this point was a
+Daze and a very sad Pact of Negation (so maybe I was more protected than I let on, but only a little).
+
+Anyways we were still in the game with a 2 in 5 chance to get there with Ideas or Edge into Ideas but alas
+we were greeted in our draw step by our dear old fishy friend. Ah well, close game for sure!
+
+Game 3 I am starting to shake somewhat. Now I don't usually intake caffeine at all and that energy drink 
+from earlier was starting to either kick in heavily or wind down. Either way I was not in a good state
+and just wanted the match done with fast. (Only because of me though, I was otherwise having a wonderful
+time with David who was a very fun opponent!). My 7 was a reasonable hand with cantrips and some interaction
+so I shipped it away because it failed to cast Doomsday on turn 1. My 6 cast Doomsday on turn 1 so I kept it.
+It even had a Daze as a nice little extra. I drop double Petal, Sea and cast Doomsday and it just resolves....
+Not what I was expecting. Anyways I pile something sensible. Clutch the Daze for any hated shenanigans
+and find myself watching as David's outs slowly trickled to 0. Again Island and Cavern do their job
+and despite a Surgical again on Doomsday this time the pile is resilient as all hell.
+
+Somehow my sorry being had made it to the finals which was crazy (and slightly upsetting as I did
+really want to go home). David was an amazing opponent as I said and he showed me a hand full of
+interaction like Daze, REBs etc which was perfect against me except for a *yolo* style all in on
+turn 1 start when on the draw. I look forward to playing him again!
+
+```
+Match:   2-1
+Matches: 5-0-1
+Games:   10-5
+```
+
+I groggily look over to my right to see Chris welcoming me across. It seems Callum was unable to face
+off against the UW Tempo deck and thus I finally meet my round 5 opponent on the field of battle.
 
 
+#### Final vs Chris on UW Delverblade
+
+As Chris took the higher seeding I am on the draw and not feeling good about that fact. I hadn't seen
+much of Chris's deck but knew it had Delvers, Stoneforges, Wasteland and Dazes in. The big factor
+that makes it less scary is a lack of Lightning Bolt. The reduced pressure is huge in being able
+to leverage time to our advantage. We both keep 7 and he drops a turn 2 Stoneforge which grabs Kaldra.
+My turn 2 I cast a Ritual into a Duress which see Daze, Kaldra, :card[True-Name Nemesis] and Brainstorm
+as the only spells. I take Daze and slam a second Ritual into Doomsday with the remaining cards in hand
+being Brainstorm, Daze and maybe a Personal Tutor. 
+
+Those of you in the know get what just happened. As my opponent has no interaction going I open sequence
+a [standard Brainstorm pile](/chapters/meandeck/brainstorm.md#brainstorm-pile---brainstorm-available). 
+I'm so jittery and excited yet internally a wreck I start rushing and Nik who is of course observing
+the match closely reminds me that it is not timed and I can slow down. I take a breather and make
+sure to triple check my pile before committing (it would be super embarrassing for an author of
+the wiki to fuck up the exact thing he authored on). I demonstrate the entire thing step by step to
+Chris (and Nik who was very intrigued) and thus complete my one and only same turn win of the event.
+
+Sideboarding was a scary prospect. What {U}{W} lacks in terms of pressure in game 1 it can make up for
+in potential toolbox cards in games 2 and 3. Torpor Orb, Meddling Mage and :card[Ethersword Canonist]
+all came to mind and so I boarded thinking these elements likely. As I was against a tempo deck I didn't
+really want to stress my mana out so I decided to ignore the {R} splash for now. Additional Duress came in, 
+I think Chain and Massacre both came in too. Probably some Street Wraiths came out along with a Preordain.
+My mind is a blur around this time. Oh yes, second Oracle comes in as well!
+
+Game 2 I just can't get the pieces together in time. Chris manages to deploy double :card[Esper Sentinel]
+which do some real heavy lifting in terms of momentum meaning I find myself facing lethal on board if I cast
+Doomsday or not. As a result I fire off a last chance Duress for some info gathering and I think Chris senses
+this so Dazes it, I Daze back to which he Forces, I Force and he has to reveal a Hullbreacher in hand. 
+Good to know I think as I scoop it up. I think Nik had a chuckle over the epic fight for information before
+concession.
+
+Game 3 I elected to make no changes to my configuration. There is some back and forth where I manage to discard
+a Force from his hand and Daze a Teferi on his turn 3. I then slam a Doomsday on turn 3 as it's not getting any
+better and I have mana to pay for Daze which hits. It resolves facing down some light pressure. I build something simple
+but resilient enough that even if I have to pass twice I have a shot, even facing a known Wasteland.
+
+:::row{variant=pile}
+- IU
+- EoA
+- TO
+- CoS
+- TO
+:::
+
+The second TO comes in clutch here as, if I get Wastelanded (3 Seas in play) I can still cast Ideas, 
+drop Cavern and pray for one more turn with Cavern surviving and even if it doesn't survive Chris would
+still need to find another piece of interaction to join it. If by some chance I don't get hit by the
+known Wasteland then I can cast Ideas and try to resolve the first Oracle off of Cavern. If that fails
+then I get to pass and cast again or pass and draw Edge to Cycle into the first Oracle with 2 cards left.
+This does die to Meddling Mage of course but at this point I was happy to just keep it simple and 
+go for the all in or die strategy. I pass back to Chris who takes a draw, does some maths, hits me from 9
+to 6 and plays Wasteland (i cry) to then tap out for a True-Name (hope?!) and states "Right, you either
+win this turn or are dead on board" (i cry again but this time from happy tears). 
+
+Hands shaking once more I simply reply to the effect of "I'll try" and draw Ideas Unbound. I cast it, it
+resolves. I play Cavern, name Wizard (always Wizard, never Merfolk for me) and cast Thassa's Oracle.
+The trigger goes on the stack.
+The trigger resolves.
+Chris offers the fist bump.
+
+I go into literal emotional shock.
+
+Out of nowhere Ben and Dave are next to me giving congratulations and I just cannot process that I won it.
+The fatigue of the sleepless night, the day's thinking, the day's meal habits, the knowledge I still
+had to drive for 2 and half hours after and the realisation I had just (almost)perfect run the first
+post COVID CompREL Legacy event I attended in paper all crashed into me and I will admit I basically
+half broke into tears. (Ben gave me a hug and it was very much what I needed).
+
+And that was it.
+
+Final scores:
+
+```
+Match:   2-1
+Matches: 6-0-1
+Games:   12-6
+Non pass-the-turn piles: 1
+Fuckups: Numerous
+Non-landers Kept: 1
+```
 
 
+## Closing Thoughts
 
+What a journey. Once again I want to thank Francois and Axion for putting on a great event, 
+Nik for judging and helping me keep chill when not in the best state and all my opponents
+for being lovely people. I want to especially thank Dave, Josh and Ben for being there
+between rounds and at the end to help keep me somewhat sane. (They also did pretty
+well going 4-2 in the Modern Trios together!) It was a great weekend for Bristol folks
+all round really with another local taking the win of the Trios event entirely.
 
+List felt great. I was very happy with the extra discard which overperformed and
+other than that awkward R1M1G1 I didn't miss Deep Analysis at all. I'm going to stick
+with this config for now until I see reason to do otherwise.
 
+As always if you want even more content please check out our
+[resources](/appendices/resources) page which includes a list of community
+streamers.
 
+If you would like to submit any content to the Wiki then please contact
+AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
+Doishy on the Discord if you wish to discuss anything mentioned in the article
+further.
+
+And remember, as Sakurai Shouichi states in Riichi Mahjong Flow Book 1: 
+
+> Call hands that need to call, win, then win again next round.
+>  - Flow Book 1: AWAKENING YOUR MAHJONG POWER by SAKURAI Shouichi
+
+Keep hands that need to jam, win, then win again. 
+If you keep winning, you can't lose.
+
+xxxx
+
+Bed now....zzzzzzzzzzzzzz
