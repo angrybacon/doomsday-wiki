@@ -549,9 +549,9 @@ with this config for now until I see reason to do otherwise.
 
 Other top 4 decklists for any interested:
 
-Chris's [UW Delverblade](https://www.mtggoldfish.com/deck/4597883#paper)
-David's [UR Delver](https://www.moxfield.com/decks/_4DNlOxgUk22qOoy3UVXXQ?fbclid=IwAR3eX92JpnZ-FO9qPIuB3y-4r6e96Abm7MoGQ1xAofNdg_kJ7VpUS5dqgf4)
-Callum's [Imperial Painter](https://twitter.com/callumsmithmtg/status/1490619068898062337?cxt=HHwWgsC9kaiJ368pAAAA)
+Chris's [UW Delverblade](https://www.mtggoldfish.com/deck/4597883#paper)  
+David's [UR Delver](https://www.moxfield.com/decks/_4DNlOxgUk22qOoy3UVXXQ?fbclid=IwAR3eX92JpnZ-FO9qPIuB3y-4r6e96Abm7MoGQ1xAofNdg_kJ7VpUS5dqgf4)  
+Callum's [Imperial Painter](https://twitter.com/callumsmithmtg/status/1490619068898062337?cxt=HHwWgsC9kaiJ368pAAAA)  
 
 As always if you want even more content please check out our
 [resources](/appendices/resources) page which includes a list of community
