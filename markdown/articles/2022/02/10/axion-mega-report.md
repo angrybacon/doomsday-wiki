@@ -1,7 +1,7 @@
 ---
 authors: Doishy
-banner: Duress | STA
-title: Legacy for Goodies at Axion's Mega Weekend - Winner's Report and Metagame Discussion
+banner: Duress | STA | 92
+title: "Legacy for Goodies at Axion's Mega Weekend - Winner's Report and Metagame Discussion"
 ---
 
 ## Table of Contents
