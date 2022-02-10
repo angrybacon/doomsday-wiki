@@ -47,6 +47,13 @@ For instance, =DD | WTH= will scry for /Doomsday/ in the /Weatherlight/ set. To
 identify the right code for your set, inspect the links at
 https://scryfall.com/sets .
 
+In some specific cases, you will want to specify a collector number. This can be
+achieved by suffixing the corresponding number. For instance:
+
+#+BEGIN_SRC
+Duress | STA | 92
+#+END_SRC
+
 ** Article Banners
 
 Articles can be given a banner representing the art of a card. The banner is

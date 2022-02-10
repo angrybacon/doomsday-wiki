@@ -35,47 +35,57 @@ type Cache = Record<string, CacheEntry>;
  * The content can either be a resolved or rejected promise, or a pending
  * promise.
  */
-const CACHE: { named: Cache; search: Cache } = {
+const CACHE: { named: Cache; search: Cache; set: Cache } = {
   named: {},
   search: {},
+  set: {},
 };
 
 /** Endpoints to query for a card name. */
 enum Api {
   NAMED = 'https://api.scryfall.com/cards/named',
   SEARCH = 'https://api.scryfall.com/cards/search',
+  SET = 'https://api.scryfall.com/cards',
 }
 
 /**
  * Return a tuple representing the Scryfall configuration to use depending on
  * whether the query is ambiguous or definite.
  */
-const getApi = (name: string, set?: string): [Cache, Api, string] =>
-  set
-    ? // NOTE If a set is specified, the search will not be ambiguous
-      [CACHE.named, Api.NAMED, `exact=${name}&set=${set}`]
-    : // NOTE Else, use the standard search and consider the first result only
-      [
-        CACHE.search,
-        Api.SEARCH,
-        `q=!"${name}"&unique=prints&order=released&dir=asc`,
-      ];
+const getApi = (
+  name: string,
+  set?: string,
+  collectorNumber?: string
+): [Cache, Api, string] => {
+  if (set && collectorNumber) {
+    const api = `${Api.SET}/${set.toLowerCase()}/${collectorNumber}`;
+    return [CACHE.set, api as Api, ''];
+  }
+  if (set) {
+    return [CACHE.named, Api.NAMED, `exact=${name}&set=${set}`];
+  }
+  const parameters = `q=!"${name}"&unique=prints&order=released&dir=asc`;
+  return [CACHE.search, Api.SEARCH, parameters];
+};
 
 type Scry = (query: string) => Promise<ScryData>;
 
 /**
  * Query Scryfall with `query`.
  *
- * It consists of a card name and an optionnal set separated by a `|`.
+ * It consists of a card name and an optionnal set separated by a `|`. Support
+ * was added for collector number, also separated by a `|`. To keep the feature
+ * consistent the card name is still expected in `query` albeit unused in this
+ * case.
  *
  * This asynchronous function builds a cache of concurrent promises to avoid
  * querying twice for the same name and set pair.
  */
 export const scry: Scry = async (query) => {
-  const [name, set] = query.split('|').map((it) => it.trim());
+  const [name, set, collectorNumber] = query.split('|').map((it) => it.trim());
   const realName = SHORTHANDS[name] || name;
   const realSet = set || SETS[realName];
-  const [cache, api, parameters] = getApi(realName, realSet);
+  const [cache, api, parameters] = getApi(realName, realSet, collectorNumber);
   const key = `${realName}/${realSet}`;
   cache[key] = cache[key] || {};
   if (cache[key].status === undefined) {
