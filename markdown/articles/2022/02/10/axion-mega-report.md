@@ -118,9 +118,7 @@ great showing all round.
 
 Righty, now for the Doomsday bit :3
 
-## Winner's Event Report
-
-### Decklist
+## Decklist
 
 I was one of the lucky few who managed to secure a ticket and with only the
 knowledge that "there will probably be UR Delver and Death & Taxes" about I had
@@ -130,6 +128,8 @@ probably more importantly, the :card[Ragavan, Nimbler Pilferer] ban had come
 into effect so I was probably due to make some changes to my [previous
 list](/articles/2022/01/22/zero-respect#the-decklist) whilst being unable to
 test for the event at all thanks to general life things getting in the way.
+
+::decklist{path=2022/02/zero-respect}
 
 As a result I took my previous list as a starter and begun conversing online
 with various community members to try and assess what changes I might want to
@@ -168,7 +168,7 @@ guess past me knew what they were talking about and the change seemed to work
 out well.
 
 As a result then we made the following changes to the deck thus going into
-*Turbo Zero Respect version 0.6*.
+*Turbo Zero Respect v0.6*.
 
 Maindeck:
 
@@ -205,11 +205,7 @@ nothing else, I would have a hard time trying not to bring in too much
 interaction vs certain decks like Bant where Fluster, REBs, Discard and some of
 the removal are all potential choices.
 
-So here is the complete decklist:
-
-::decklist{path=2022/02/zero-respect}
-
-### Main Report
+## Main Report
 
 So I'm just going to say this now for the record, I was feeling awful the day of
 the event. We had driven up the day before and stayed with some friends (and had
@@ -229,7 +225,7 @@ meeting. Francois gave a lovely speech and hinted at some "giga" events in the
 future which will be including Legacy in some form. Nik gave his official speech
 bit and we kicked off into round 1.
 
-#### Round 1 vs. Connor on Yorion Death & Taxes
+### Round 1 vs. Connor on Yorion Death & Taxes
 
 We shuffle up and I lose the coin toss. Connor reveals a Yorion which
 immediately let's me work out he is likely on Death & Taxes or some sort of Blue
@@ -281,7 +277,7 @@ scenarios where a Death & Taxes player can win from here and we get our first
 **Matches**: 1-0  
 **Games**: 2-1
 
-#### Round 2 vs. Jons on Lands ft. Enlightened Tutor
+### Round 2 vs. Jons on Lands ft. Enlightened Tutor
 
 I manage to win the dice roll here and we both keep 7. I have the potential for
 a Doomsday on turn 2 thanks to Petal so I just play fetch and pass. Jons draws
@@ -320,7 +316,7 @@ of half a can of energy drink from my friend Ben was very much needed. I assumed
 I had been winning mostly on decent starting hands and decent matchups but
 eventually this nice ride was bound to end.
 
-#### Round 3 vs. David on UR Delver
+### Round 3 vs. David on UR Delver
 
 I win the die roll again and keep a decent seven that allows a turn 1 Doomsday
 with Thoughtseize backup. I drop Sea and Thoughtseize seeing :card[Brazen
@@ -362,7 +358,7 @@ semi nap at a table on my bag. Alas did not help Q.Q
 **Matches**: 3-0  
 **Games**: 6-3
 
-#### Round 4 vs. James on Yorion Death & Taxes
+### Round 4 vs. James on Yorion Death & Taxes
 
 The James mirror. I was not prepared for such things! We have a giggle over the
 concepts of an old-school templated first-name-nemesis style card and then
@@ -429,7 +425,7 @@ awkward draws cause pair downs then so long as I match up against another 4-0
 player I am safe to ID into the top 4. "Sweet" I think as I had not really eaten
 yet and could really use a long break for food or a nap.
 
-#### Round 5 vs. Chris on Hot Chicken, some Chocolate and a Nice Chat
+### Round 5 vs. Chris on Hot Chicken, some Chocolate and a Nice Chat
 
 I don't know what occurred in round 4 other than a lot of upsets and at checking
 the standings Chris and I can see we are the only 2 players at 4-0. He offers
@@ -463,7 +459,7 @@ like a great idea to just allow me to go to bed quicker but I am stubborn and
 competetive so we endured. And, going into the semi-final we meet once again
 with David.
 
-#### Semi-Final vs. David on UR Delver
+### Semi-Final vs. David on UR Delver
 
 We reunite and have a giggle about how tired I still am. Being the higher seed I
 take the play (which was massive here) and we both keep 7. I turn 1 :card[PT]
@@ -527,7 +523,7 @@ I groggily look over to my right to see Chris welcoming me across. It seems
 Callum was unable to face off against the UW Tempo deck and thus I finally meet
 my round 5 opponent on the field of battle.
 
-#### Final vs. Chris on UW Delverblade
+### Final vs. Chris on UW Delverblade
 
 As Chris took the higher seeding I am on the draw and not feeling good about
 that fact. I hadn't seen much of Chris's deck but knew it had Delvers,
