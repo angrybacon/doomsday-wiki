@@ -11,12 +11,12 @@ title: Legacy for Goodies at Axion's Mega Weekend - Winner's Report and Metagame
 On the weekend just gone (5th and 6th of February 2022)
 [Axion](https://www.axionnow.com/) hosted their first CompREL Mega Weekend since
 the whole COVID thing started. This included a massive Modern event, a unified
-Modern trios event and of course, one of their infamous "Legacy for Goodies"
-events too. As Francois (the lovely owner) said during the player's meeting,
-they were worried they would just about fill the seats for the 32 player capped
-Legacy event however what actually happened was it sold out within a day almost!
-The people have spoken, they want Legacy and it sounds like more events from
-Axion will be appearing within the year!
+Modern trios event and of course, one of their infamous *Legacy for Goodies*
+events too. As Fran&ccedil;ois (the lovely owner) said during the player's
+meeting, they were worried they would just about fill the seats for the 32
+player capped Legacy event however what actually happened was it sold out within
+a day almost! The people have spoken, they want Legacy and it sounds like more
+events from Axion will be appearing within the year!
 
 It was an amazing event run with lots of lovely people involved with judging
 (big thanks to Nik, our head judge), scorekeeping (big shout out to Will who
@@ -27,7 +27,7 @@ than that, everyone played the entire swiss which goes to show just how much
 people just wanted to play!
 
 The event was 32 players. 5 round swiss with a cut to top 4. There were also two
-"bonus top 4s" for 5th to 8th place and 9th to 12th place respectively. The
+*bonus top 4s* for 5th to 8th place and 9th to 12th place respectively. The
 entire top 4 prized and the winners of the bonus top 4s also won some goodies.
 First place was a Revised Underground Sea, second a Revised Taiga and various
 other delicious staples for 3rd/4th and the bonus top 4 winners.
@@ -70,7 +70,7 @@ Without further ado, here is the complete meta breakdown:
 | 8-Cast               | 1 |
 
 Death & Taxes was the highest represented archetype followed by UR Delver and
-then Lands. The meta diversity was huge which was great to see with 23 uniquue
+then Lands. The meta diversity was huge which was great to see with 23 unique
 archetypes on display. Obviously in a small paper event it's hard to draw any
 major conclusions other than people played what they could/what they enjoy but
 it was nice to see so many different decks on display.
@@ -135,7 +135,7 @@ As a result I took my previous list as a starter and begun conversing online
 with various community members to try and assess what changes I might want to
 make (shout out to Otterlady, Nevilshute and Prepare4Robots especially on this).
 I knew I wanted to add additional discard effects into the list somewhere and
-was most worried about Blue based "Soup" decks (Bant, 4C, Jeskai Breacher) just
+was most worried about Blue based *Soup* decks (Bant, 4C, Jeskai Breacher) just
 because they can run such a diverse spread of relevant hate that, in normal
 lists, requires answers that are otherwise really bad in those matchups. I spent
 a lot of time agonising over trying an alternative way to bypass a :card[Torpor
@@ -197,7 +197,7 @@ could snipe something like Torpor Orb and dealt with opposing Fluster's too
 whilst also being more mana efficient in the long run vs things like Delver. It
 also is very strong against opposing spell based combo allowing you to keep a
 diverse suite of interaction. I had scoured MTGGoldfish for what sort of
-interaction the "Soup" decks were packing and it looked like :card[VoS] was at
+interaction the *Soup* decks were packing and it looked like :card[VoS] was at
 an all time low so I figured this is the time when discard is going to look its
 best before people remember about that card again now that Monkey is gone! The
 other potential cut was the 4th :card[FoN] but I decided on the fluster as, if
@@ -221,9 +221,9 @@ night before).
 Anyways I was there to play and was determined to have fun so having met up with
 some of the rest of the Bristol crew, who were playing in the Unified Modern
 Trios event, and saying hello to our local judges, I headed to the player
-meeting. Francois gave a lovely speech and hinted at some "giga" events in the
-future which will be including Legacy in some form. Nik gave his official speech
-bit and we kicked off into round 1.
+meeting. Fran&ccedil;ois gave a lovely speech and hinted at some *Giga* events
+in the future which will be including Legacy in some form. Nik gave his official
+speech bit and we kicked off into round 1.
 
 ### Round 1 vs. Connor on Yorion Death & Taxes
 
@@ -341,7 +341,7 @@ get those fast wins in. 2 Wraiths and a Thoughtseize come out. Duress, Fluster
 and Oracle come in. I might try not bringing in Fluster and keeping 4 discard in
 the future also maybe leaving the second Oracle in. We'll play around a bit.
 
-Game 2 is the most "non-gamey" of the day with me having to mull to 5 with a
+Game 2 is the most *non-gamey* of the day with me having to mull to 5 with a
 Doomsday. My next two draws are Doomsdays and between poor draws, Delver
 pressure and Wasteland I don't really get to do anything of note.
 
@@ -373,7 +373,7 @@ sloppy play Q.Q)
 
 Same boarding as round 1.
 
-Game 2 is brilliant. Game 2 involves a classic "Doishy" hand. The sort of hand
+Game 2 is brilliant. Game 2 involves a classic *Doishy* hand. The sort of hand
 that my friend Matt always tells me I shouldn't go for. The sort of hand where I
 just can't help myself and too often get away with. This is my opening 7 (on the
 draw mind).
@@ -619,8 +619,8 @@ Final scores:
 
 ## Closing Thoughts
 
-What a journey. Once again I want to thank Francois and Axion for putting on a
-great event, Nik for judging and helping me keep chill when not in the best
+What a journey. Once again I want to thank Fran&ccedil;ois and Axion for putting
+on a great event, Nik for judging and helping me keep chill when not in the best
 state and all my opponents for being lovely people. I want to especially thank
 Dave, Josh and Ben for being there between rounds and at the end to help keep me
 somewhat sane. (They also did pretty well going 4-2 in the Modern Trios
