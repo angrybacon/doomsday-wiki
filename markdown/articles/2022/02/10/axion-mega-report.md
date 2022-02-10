@@ -182,15 +182,15 @@ Sideboard:
 
 That's it.
 
+That's all I did. ([I had mentioned I am slow to
+change](/articles/2022/01/22/zero-respect#i-am-slow-to-make-changes-to-my-deck)).
+
 :::row{variant=centered}
 - DA
 - Tsz
 - Flusterstorm
 - Duress
 :::
-
-That's all I did. ([I had mentioned I am slow to
-change](/articles/2022/01/22/zero-respect#i-am-slow-to-make-changes-to-my-deck)).
 
 The :card[Flusterstorm] change was because I wanted to fit more discard in which
 could snipe something like Torpor Orb and dealt with opposing Fluster's too
@@ -383,7 +383,6 @@ draw mind).
 - DD
 - FoW
 - Massacre
-- CoV
 - BS
 - TO
 - Daze
@@ -657,3 +656,5 @@ Keep hands that need to jam, win, then win again. If you keep winning, you can't
 lose.
 
 xxxx
+
+![Doishy picking up his prize](/media/pictures/2022.axion-doishy.jpeg)
