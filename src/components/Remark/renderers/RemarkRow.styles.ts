@@ -19,6 +19,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       marginLeft: -theme.spacing(),
       marginRight: -theme.spacing(),
       '& $card': {
+        flexBasis: '25%',
         maxWidth: '25%',
       },
     },
