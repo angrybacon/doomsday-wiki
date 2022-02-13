@@ -31,6 +31,7 @@ export const Card: FunctionComponent<Props> = ({ className, data }) => {
       <img
         alt={titleLines.join(' - ')}
         className={c(classes.image, className)}
+        loading="lazy"
         src={image}
       />
     </Tooltip>
