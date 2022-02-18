@@ -6,7 +6,7 @@ export const useStyles = makeStyles((theme: Theme) =>
     cell: theme.mixins.gutters(),
 
     head: {
-      backgroundColor: alpha(theme.palette.primary.main, 0.1),
+      backgroundColor: alpha(theme.palette.primary.light, 0.1),
     },
 
     table: {

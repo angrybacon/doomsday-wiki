@@ -10,10 +10,10 @@ export const useStyles = makeStyles((theme: Theme) =>
       },
     },
     root: {
-      '& > :not(:first-child)': {
+      '& > *': {
         marginTop: theme.spacing(2),
       },
-      '& > :last-child': {
+      '& > :first-child, & > :last-child': {
         marginBottom: 0,
       },
     },

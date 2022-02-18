@@ -4,7 +4,7 @@ import { createStyles, makeStyles } from '@mui/styles';
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     details: {
-      backgroundColor: alpha(theme.palette.primary.main, 0.1),
+      backgroundColor: alpha(theme.palette.primary.light, 0.1),
       borderTopColor: theme.palette.divider,
       borderTopStyle: 'solid',
       borderTopWidth: 1,

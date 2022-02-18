@@ -11,11 +11,9 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(),
     },
     inline: {
-      backgroundColor: alpha(theme.palette.primary.main, 0.1),
-      borderColor: theme.palette.divider,
+      backgroundColor: alpha(theme.palette.primary.light, 0.1),
       borderRadius: theme.shape.borderRadius,
-      borderStyle: 'solid',
-      borderWidth: 1,
+      borderStyle: 'hidden',
       color: theme.palette.text.secondary,
       fontFamily: 'monospace',
       fontSize: theme.typography.body2.fontSize,

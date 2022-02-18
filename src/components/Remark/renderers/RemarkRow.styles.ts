@@ -6,6 +6,9 @@ export const useStyles = makeStyles((theme: Theme) =>
     card: {
       '& > *': {
         padding: theme.spacing(),
+        [theme.breakpoints.down('sm')]: {
+          padding: theme.spacing(0.5),
+        },
       },
     },
 
@@ -25,7 +28,7 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
 
     pile: {
-      backgroundColor: alpha(theme.palette.primary.main, 0.1),
+      backgroundColor: alpha(theme.palette.primary.light, 0.1),
       borderColor: theme.palette.divider,
       borderLeftWidth: 0,
       borderRightWidth: 0,
@@ -35,8 +38,11 @@ export const useStyles = makeStyles((theme: Theme) =>
       '& $card': {
         width: '20%',
       },
-      [theme.breakpoints.only('xs')]: {
+      [theme.breakpoints.down('md')]: {
         padding: theme.spacing(),
+      },
+      [theme.breakpoints.down('sm')]: {
+        padding: theme.spacing(0.5),
       },
     },
 

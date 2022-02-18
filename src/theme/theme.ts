@@ -47,6 +47,21 @@ const barf = () => ({
 
 const options: ThemeOptions = {
   components: {
+    MuiAccordion: {
+      styleOverrides: {
+        root: { backgroundColor: 'transparent' },
+      },
+    },
+    MuiAccordionSummary: {
+      styleOverrides: {
+        root: { '&:hover': { backgroundColor: base.palette.action.hover } },
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        root: { borderRadius: base.spacing() },
+      },
+    },
     MuiCardContent: {
       styleOverrides: {
         root: {
@@ -79,7 +94,7 @@ const options: ThemeOptions = {
     MuiPaper: {
       styleOverrides: {
         rounded: {
-          borderRadius: base.spacing(),
+          borderRadius: base.spacing(2),
           [base.breakpoints.only('xs')]: { borderRadius: 0 },
         },
       },

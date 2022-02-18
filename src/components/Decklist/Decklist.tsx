@@ -43,7 +43,7 @@ export const Decklist: FunctionComponent<Props> = ({
                 alignItems="center"
                 display="flex"
                 fontSize="caption.fontSize"
-                mr={0.5}
+                mr={1}
               >
                 {colors.map((color, index) => (
                   // eslint-disable-next-line react/no-array-index-key
