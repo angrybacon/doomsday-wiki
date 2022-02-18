@@ -1,12 +1,12 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import IconButton from '@material-ui/core/IconButton';
-import Slide from '@material-ui/core/Slide';
-import Toolbar from '@material-ui/core/Toolbar';
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
-import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import AppBar from '@mui/material/AppBar';
+import IconButton from '@mui/material/IconButton';
+import Slide from '@mui/material/Slide';
+import Toolbar from '@mui/material/Toolbar';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
 import { useStyles } from './Header.styles';
 
 interface Props {

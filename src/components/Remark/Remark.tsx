@@ -6,7 +6,7 @@ import remarkGfm from 'remark-gfm';
 import remarkSlug from 'remark-slug';
 import remarkToc from 'remark-toc';
 import type { PluggableList } from 'unified';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 // eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import type { Decklists } from '@/tools/decklists/types';

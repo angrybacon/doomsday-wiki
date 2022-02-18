@@ -8,14 +8,14 @@ import React, {
   forwardRef,
   useState,
 } from 'react';
-import Collapse from '@material-ui/core/Collapse';
-import Divider from '@material-ui/core/Divider';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
+import Collapse from '@mui/material/Collapse';
+import Divider from '@mui/material/Divider';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
 import type { CategoryMeta, Document } from '@/tools/markdown/types';
 import { useStyles } from './Entry.styles';
 

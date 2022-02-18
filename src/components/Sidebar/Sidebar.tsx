@@ -1,12 +1,5 @@
 import NextLink from 'next/link';
 import React, { FunctionComponent, useContext } from 'react';
-import Box from '@material-ui/core/Box';
-import Button from '@material-ui/core/Button';
-import Divider from '@material-ui/core/Divider';
-import Drawer, { DrawerProps } from '@material-ui/core/Drawer';
-import IconButton from '@material-ui/core/IconButton';
-import List from '@material-ui/core/List';
-import Tooltip from '@material-ui/core/Tooltip';
 import {
   mdiDiscord,
   mdiNewspaperVariantMultiple,
@@ -14,6 +7,13 @@ import {
   mdiWeatherSunny,
 } from '@mdi/js';
 import { Icon } from '@mdi/react';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+import Drawer, { DrawerProps } from '@mui/material/Drawer';
+import IconButton from '@mui/material/IconButton';
+import List from '@mui/material/List';
+import Tooltip from '@mui/material/Tooltip';
 import { Entry } from '@/components/Sidebar/Entry';
 import { ThemeContext } from '@/theme/ThemeContext';
 import type { Menu } from '@/tools/markdown/types';
@@ -46,8 +46,17 @@ export const Sidebar: FunctionComponent<Props> = ({
     onClose();
   };
 
-  const drawer = (
-    <>
+  const drawerProps: DrawerProps = isMobile
+    ? {
+        ModalProps: { keepMounted: true },
+        onClose,
+        open: isOpen,
+        variant: 'temporary',
+      }
+    : { open: true, variant: 'permanent' };
+
+  return (
+    <Drawer classes={{ paper: classes.paper }} {...drawerProps}>
       <Box alignItems="center" display="flex" className={classes.header}>
         <NextLink href="/" passHref>
           <Button
@@ -67,13 +76,13 @@ export const Sidebar: FunctionComponent<Props> = ({
         >
           <Tooltip arrow title="Discord">
             <a href={DISCORD_URL} rel="noreferrer" target="_blank">
-              <IconButton>
+              <IconButton size="large">
                 <Icon path={mdiDiscord} size={0.8} />
               </IconButton>
             </a>
           </Tooltip>
           <Tooltip arrow title={`Switch to ${isDark ? 'light' : 'dark'} theme`}>
-            <IconButton onClick={onThemeToggle}>
+            <IconButton onClick={onThemeToggle} size="large">
               <Icon
                 path={isDark ? mdiWeatherSunny : mdiWeatherNight}
                 size={0.8}
@@ -97,21 +106,6 @@ export const Sidebar: FunctionComponent<Props> = ({
         </NextLink>
       </List>
       <Divider />
-    </>
-  );
-
-  const drawerProps: DrawerProps = isMobile
-    ? {
-        ModalProps: { keepMounted: true },
-        onClose,
-        open: isOpen,
-        variant: 'temporary',
-      }
-    : { open: true, variant: 'permanent' };
-
-  return (
-    <Drawer classes={{ paper: classes.paper }} {...drawerProps}>
-      {drawer}
     </Drawer>
   );
 };

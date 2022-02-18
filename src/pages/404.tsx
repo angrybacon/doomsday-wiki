@@ -1,12 +1,8 @@
 import { GetStaticProps, NextPage } from 'next';
 import React from 'react';
-import Box from '@material-ui/core/Box';
-import {
-  Theme,
-  alpha,
-  createStyles,
-  makeStyles,
-} from '@material-ui/core/styles';
+import Box from '@mui/material/Box';
+import { Theme, alpha } from '@mui/material/styles';
+import { createStyles, makeStyles } from '@mui/styles';
 import { Layout } from '@/components/Layout/Layout';
 import { getMenu } from '@/tools/markdown/getMenu';
 import type { Menu } from '@/tools/markdown/types';

@@ -2,13 +2,13 @@ import c from 'classnames';
 import { GrayMatterFile } from 'gray-matter';
 import NextLink from 'next/link';
 import React, { CSSProperties, FunctionComponent } from 'react';
-import Box from '@material-ui/core/Box';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
+import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActionArea from '@mui/material/CardActionArea';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
 import { useStyles } from './Article.styles';
 
 export interface Props {

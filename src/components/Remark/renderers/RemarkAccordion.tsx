@@ -1,12 +1,12 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import Typography from '@material-ui/core/Typography';
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import Typography from '@mui/material/Typography';
 // eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
 import type { Decklists } from '@/tools/decklists/types';

@@ -1,12 +1,12 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import Box from '@material-ui/core/Box';
-import Typography from '@material-ui/core/Typography';
 import { mdiAccount, mdiCalendar, mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 import { Column } from '@/components/Decklist/Column';
 import { Mana } from '@/components/Mana/Mana';
 import type { Card } from '@/tools/decklists/types';
@@ -32,7 +32,7 @@ export const Decklist: FunctionComponent<Props> = ({
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Accordion elevation={0}>
+      <Accordion elevation={0} square>
         <AccordionSummary
           classes={{ content: classes.summary, root: classes.gutters }}
           expandIcon={<Icon path={mdiChevronDown} size={1} />}

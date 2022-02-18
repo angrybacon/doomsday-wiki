@@ -1,6 +1,6 @@
 import c from 'classnames';
 import React, { FunctionComponent, ReactChild } from 'react';
-import Tooltip from '@material-ui/core/Tooltip';
+import Tooltip from '@mui/material/Tooltip';
 import type { ScryCard } from '@/tools/scryfall/types';
 import { useStyles } from './Card.styles';
 

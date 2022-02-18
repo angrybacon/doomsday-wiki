@@ -5,8 +5,8 @@ import {
   atomOneDark,
   atomOneLight,
 } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-import Divider from '@material-ui/core/Divider';
-import { useTheme } from '@material-ui/core/styles';
+import Divider from '@mui/material/Divider';
+import { useTheme } from '@mui/material/styles';
 import { useStyles } from './RemarkCode.styles';
 
 export const RemarkCode: Components['code'] = ({
@@ -21,7 +21,7 @@ export const RemarkCode: Components['code'] = ({
   }
   // NOTE ReactMarkdown passes language through the class name
   const [, language] = className.split('-');
-  const style = theme.palette.type === 'light' ? atomOneLight : atomOneDark;
+  const style = theme.palette.mode === 'light' ? atomOneLight : atomOneDark;
   return (
     <span className={classes.root}>
       <Divider />

@@ -1,6 +1,6 @@
 import c from 'classnames';
 import React, { FunctionComponent } from 'react';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import { Link } from '@/components/Link/Link';
 import { useStyles } from './Footer.styles';
 

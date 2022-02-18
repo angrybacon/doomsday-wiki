@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import type { Card } from '@/tools/decklists/types';
 import { useStyles } from './Column.styles';
 

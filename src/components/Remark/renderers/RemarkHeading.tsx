@@ -1,7 +1,7 @@
 import React from 'react';
 import type { HeadingComponent } from 'react-markdown/lib/ast-to-react';
-import Typography from '@material-ui/core/Typography';
-import type { Variant } from '@material-ui/core/styles/createTypography';
+import Typography from '@mui/material/Typography';
+import { TypographyVariant } from '@mui/material/styles';
 
 /**
  * Available heading levels.
@@ -10,7 +10,15 @@ import type { Variant } from '@material-ui/core/styles/createTypography';
  * 2. Level 1 is reserved for the page title so erroneous level 1 headings
  *    should be brought down to level 2
  */
-const variants: Variant[] = ['h2', 'h2', 'h2', 'h3', 'h4', 'h5', 'h6'];
+const variants: TypographyVariant[] = [
+  'h2',
+  'h2',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+];
 
 export const RemarkHeading: HeadingComponent = ({ children, id, level }) => (
   // NOTE The `id` property comes from `remark-slug`

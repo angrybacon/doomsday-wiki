@@ -1,9 +1,5 @@
-import {
-  Theme,
-  alpha,
-  createStyles,
-  makeStyles,
-} from '@material-ui/core/styles';
+import { Theme, alpha } from '@mui/material/styles';
+import { createStyles, makeStyles } from '@mui/styles';
 
 /** Vertical height that should be added for the banner, if any. */
 const BANNER_OFFSET = 80;

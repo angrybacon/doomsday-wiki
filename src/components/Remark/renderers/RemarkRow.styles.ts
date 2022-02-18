@@ -1,9 +1,5 @@
-import {
-  Theme,
-  alpha,
-  createStyles,
-  makeStyles,
-} from '@material-ui/core/styles';
+import { Theme, alpha } from '@mui/material/styles';
+import { createStyles, makeStyles } from '@mui/styles';
 
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -16,8 +12,8 @@ export const useStyles = makeStyles((theme: Theme) =>
     centered: {
       ...theme.mixins.gutters(),
       justifyContent: 'space-around',
-      marginLeft: -theme.spacing(),
-      marginRight: -theme.spacing(),
+      marginLeft: theme.spacing(-1),
+      marginRight: theme.spacing(-1),
       '& $card': {
         flexBasis: '25%',
         maxWidth: '25%',

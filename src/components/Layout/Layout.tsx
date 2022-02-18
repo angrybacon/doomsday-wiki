@@ -7,12 +7,11 @@ import type {
   ReactChild,
 } from 'react';
 import React, { Fragment, useCallback, useEffect, useState } from 'react';
-import Box from '@material-ui/core/Box';
-import Container from '@material-ui/core/Container';
-import type { GridTypeMap } from '@material-ui/core/Grid';
-import { useTheme } from '@material-ui/core/styles';
-import type { Breakpoint } from '@material-ui/core/styles/createBreakpoints';
-import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import type { GridTypeMap } from '@mui/material/Grid';
+import { Breakpoint, useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';

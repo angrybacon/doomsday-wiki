@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Components } from 'react-markdown';
-import Typography from '@material-ui/core/Typography';
+import Typography from '@mui/material/Typography';
 import { useStyles } from './RemarkImage.styles';
 
 export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
