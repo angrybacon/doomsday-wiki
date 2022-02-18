@@ -76,7 +76,7 @@ export const Sidebar: FunctionComponent<Props> = ({
         >
           <Tooltip arrow title="Discord">
             <a href={DISCORD_URL} rel="noreferrer" target="_blank">
-              <IconButton size="large">
+              <IconButton aria-label="Discord" size="large">
                 <Icon path={mdiDiscord} size={0.8} />
               </IconButton>
             </a>
