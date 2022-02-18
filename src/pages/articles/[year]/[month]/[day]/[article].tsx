@@ -31,7 +31,7 @@ const ArticlePage: NextPage<Props> = ({
   menu,
   partials,
 }) => (
-  <Layout maxWidth="md" menu={menu} title={markdown.matter?.title}>
+  <Layout menu={menu} title={markdown.matter?.title}>
     <Card>
       <CardContent
         component={Remark}

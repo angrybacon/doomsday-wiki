@@ -33,7 +33,7 @@ interface Props {
 const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
   const classes = useStyles();
   return (
-    <Layout maxWidth="md" menu={menu} title="Articles">
+    <Layout menu={menu} title="Articles">
       <Card>
         <List dense disablePadding>
           {articles.map(({ data, route }, index) => (
