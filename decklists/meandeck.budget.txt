@@ -1,5 +1,5 @@
 // Title: Budget Meandeck
-// Authors: emidln
+// Authors: Emidln
 // Colors: {U}{B}
 3 Baleful Strix
 4 Brainstorm

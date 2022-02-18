@@ -10,7 +10,7 @@ out these content creators for Doomsday:
 - Lee *d8dk32* Curtis:
   [Twitch](https://www.twitch.tv/ddftguy)
   [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)
-- Brandon *emidln* Adams:
+- Brandon *Emidln* Adams:
   [Twitch](https://www.twitch.tv/adam4300)
   [YouTube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)
 - Albert *g0ld_rook* Huang:

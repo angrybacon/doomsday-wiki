@@ -364,7 +364,7 @@ on the Fetchland Tendrils thread is from user APriestofGix who says:
 > You deck could be as good as Hulk Flash, and never see play because of the
 > price tag.
 >
-> --- [APriestOfGix](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183656&viewfull=1#post183656)
+> &mdash; [APriestOfGix](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183656&viewfull=1#post183656)
 
 2006 also introduced :card[Infernal Tutor] from Dissension. This was a card that
 could act as both a way to double up on ritual effects in hand whilst also
@@ -401,7 +401,7 @@ The deck was very open to intepretation and, in Emidln's own words:
 > blue/black fetchlands, brainstorm, dark ritual, lion's eye diamond, and
 > tendrils of agony. Everything else is basically up in the air.
 >
-> --- [emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183642&viewfull=1#post183642)
+> &mdash; [Emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=183642&viewfull=1#post183642)
 
 Overall the decks were starting to become a lot more streamlined. With the onset
 of better cantrips, exploration of correct cantripping and fetching mechanics
@@ -460,7 +460,7 @@ From an Emidln mtgthesource post in 2008:
 > 4 Sensei's Divining Top 1 Doomsday 1 Death Wish 2 Tendrils of Agony 1
 > Ill-Gotten Gains are MANDATORY in Fetchland Tendrils.
 >
-> --- [emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=229554&viewfull=1#post229554)
+> &mdash; [Emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=229554&viewfull=1#post229554)
 
 Brainstorm in hand + 2 cards in hand + {1}{B}{B}{U}
 
@@ -514,7 +514,7 @@ From Dark_Cynic87 on the mtgthesource Fetchland Tendrils thread:
 >
 > There is no happy medium. There probably never will be.
 >
-> --- [Dark_Cynic87](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=275805&viewfull=1#post275805)
+> &mdash; [Dark_Cynic87](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=275805&viewfull=1#post275805)
 
 It is the concept above that causes FT/NLS to further develop into what becomes
 known as Ad Nauseum Tendrils or ANT. TES also starts to pick up the concepts of
@@ -685,7 +685,7 @@ Lejay from a stormboards post in 2010:
 > top and tap it to get Emrakul. So 3/4 of the time you are completely safe, and
 > 1/4 of the time this pile will need the opponent to be at 15 life or less.
 >
-> --- [Lejay](https://teamstormboards.proboards.com/post/3053/thread)
+> &mdash; [Lejay](https://teamstormboards.proboards.com/post/3053/thread)
 
 ## Rev 614
 
@@ -943,10 +943,10 @@ be playing the deck, people are still well invested it making it work. A forum
 post from nanda sums it up nicely:
 
 > Okay, so the meta right now seems pretty bad for DDFT. But I've spent six
-> months getting the cards for this deck, so I do not give a fuck -- I'm playing
-> Doomsday.
+> months getting the cards for this deck, so I do not give a fuck &ndash; I'm
+> playing Doomsday.
 >
-> --- [Nanda](https://teamstormboards.proboards.com/post/4684/thread)
+> &mdash; [Nanda](https://teamstormboards.proboards.com/post/4684/thread)
 
 ## Meandeck Doomsday - Take 1
 
@@ -995,7 +995,7 @@ thing in legacy citing:
 > totally different from all that has come before. I will explain all in this
 > article.
 >
-> --- [Stephen Menendian](https://www.eternalcentral.com/so-many-insane-plays-the-legacy-doomsday-device-primer/)
+> &mdash; [Stephen Menendian](https://www.eternalcentral.com/so-many-insane-plays-the-legacy-doomsday-device-primer/)
 
 This was a pretty big claim to make given that the current DDFT deck was still
 very much alive and healthy enough at the time. It was met with mixed reviews,
@@ -1003,11 +1003,11 @@ many liking the concept of the deck however an equal number critiscizing the
 apparent increased fragility it presented. Menendian had this to say on the
 mtgthesource thread on the article:
 
-> The main advantage of Doomsday over other Legacy combo decks -- whether they
-> be Show and Tell variants or what not -- is that it is a one card combo to
-> initiate the combo process: all you have to do is resolve Doomsday. Show and
-> Tell decks require you to put other cards in hand. Same with High Tide.
-> Because of that advantage, Dday decks can be much more streamlined and
+> The main advantage of Doomsday over other Legacy combo decks &ndash; whether
+> they be Show and Tell variants or what not &ndash; is that it is a one card
+> combo to initiate the combo process: all you have to do is resolve Doomsday.
+> Show and Tell decks require you to put other cards in hand. Same with High
+> Tide. Because of that advantage, Dday decks can be much more streamlined and
 > efficient, and can have alot more counter-protection.
 >
 > That's why I believe Dday can be not only the top Combo deck in the format,
@@ -1016,7 +1016,7 @@ mtgthesource thread on the article:
 > but exposes itself, very slightly, to other forms of hate. I've built this
 > deck to mitigate those.
 >
-> --- [Smmenen](http://www.mtgthesource.com/forums/showthread.php?23925-Premium-Article-So-Many-Insane-Plays-%96-The-Legacy-Doomsday-Device-Primer&p=646969&viewfull=1#post646969)
+> &mdash; [Smmenen](http://www.mtgthesource.com/forums/showthread.php?23925-Premium-Article-So-Many-Insane-Plays-%96-The-Legacy-Doomsday-Device-Primer&p=646969&viewfull=1#post646969)
 
 Now the point above is bang on the nail so to speak. Time and new printings,
 which we will get to later, have proven that the theory of it being a 1 card
@@ -1168,7 +1168,7 @@ quote from user Oddmtg sums up the day very well:
 > I think I am switching to ANT. I'll definitely check in to see if Doishy can
 > make it happen though.
 >
-> --- [oddmtg](https://teamstormboards.proboards.com/post/12191/thread)
+> &mdash; [oddmtg](https://teamstormboards.proboards.com/post/12191/thread)
 
 What's important to note here is that at this point Emidln had a lot of irl
 stuff going on. Between work and family matters he had been able to devote less

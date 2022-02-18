@@ -198,7 +198,7 @@ Did I do well despite minimal practice and having a 75 full of really silly
 cards? Well, yes... seems I did...
 
 One run of 4 rounds however does not statistically significant data make
-however, as people who have read the old wiki stuff will know, I like numbers!
+however, as people who have read the old Wiki stuff will know, I like numbers!
 As soon as this new brew was announced and tried we at the cabal of Doomsdayers
 decided to get our rites on and ressurrect an old friend. The result
 spreadsheet. At the time of writing we now have 164 matches recorded as a

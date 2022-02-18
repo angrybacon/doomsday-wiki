@@ -540,7 +540,7 @@ pile](/meandeck/brainstorm#brainstorm-pile---brainstorm-available). I'm so
 jittery and excited yet internally a wreck I start rushing and Nik who is of
 course observing the match closely reminds me that it is not timed and I can
 slow down. I take a breather and make sure to triple check my pile before
-committing (it would be super embarrassing for an author of the wiki to fuck up
+committing (it would be super embarrassing for an author of the Wiki to fuck up
 the exact thing he authored on). I demonstrate the entire thing step by step to
 Chris (and Nik who was very intrigued) and thus complete my one and only same
 turn win of the event.

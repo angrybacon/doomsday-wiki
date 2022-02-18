@@ -9,7 +9,7 @@ title: Brainstorm in Doomsday
 ## Preamble
 
 *Preface: We will be using terminology and abbreviations introduced in the
-Basics chapter of the wiki. If you have not read the Basics chapter it is
+Basics chapter of the Wiki. If you have not read the Basics chapter it is
 recommended you do so first as this builds upon the concepts introduced there.*
 
 Brainstorm is one of the most powerful spells available in the Legacy format at

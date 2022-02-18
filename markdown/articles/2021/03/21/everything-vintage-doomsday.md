@@ -420,11 +420,14 @@ again, massive shoutouts to our 4 guests for making this happen. Make sure to
 check them out on Twitter as well. If you have any questions, leave me a DM, and
 I'll get back as soon as I can. Thanks :)
 
-*Editors note: This was original posted
-[here](https://docs.google.com/document/d/1QRPEfYxSIGFvc05LC7uu-tCezkTqR-lzg05-3v_olQI/edit#)
-by Jacoisboss and permission granted to reformat and post on the wiki. If anyone
-else has any Doomsday submissions they would like hosted please drop us a
-message on the [Doomsday Discord](https://discord.gg/vajvFXt).  
-Thank-you Jacob and his co-authors for the great article and thank-you for
-reading.  
-Doishy*
+> Editor's note: This was original posted [here][everything-doomday] by
+> Jacobisboss and permission granted to reformat and post on the Wiki. If anyone
+> else has any Doomsday submissions they would like hosted, please drop us a
+> message on the [Doomsday Discord](https://discord.gg/vajvFXt).
+>
+> Thank you Jacob and his co-authors for the great article and thank-you for
+> reading.
+>
+> &mdash; Doishy
+
+[everything-doomsday]: https://docs.google.com/document/d/1QRPEfYxSIGFvc05LC7uu-tCezkTqR-lzg05-3v_olQI
