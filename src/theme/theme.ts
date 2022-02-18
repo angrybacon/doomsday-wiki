@@ -101,10 +101,25 @@ const options: ThemeOptions = {
     },
     MuiTypography: {
       styleOverrides: {
-        h1: { marginBottom: '.8em' },
         gutterBottom: {
           // NOTE Increase specificity
           '&&': { marginBottom: '.6em', marginTop: '.6em' },
+        },
+        h1: {
+          marginBottom: '.8em',
+          [base.breakpoints.down('sm')]: {
+            fontSize: base.typography.pxToRem(44),
+          },
+        },
+        h2: {
+          [base.breakpoints.down('sm')]: {
+            fontSize: base.typography.pxToRem(40),
+          },
+        },
+        h3: {
+          [base.breakpoints.down('sm')]: {
+            fontSize: base.typography.pxToRem(36),
+          },
         },
         paragraph: { '&:last-child': { marginBottom: 0 } },
       },
@@ -117,7 +132,7 @@ const options: ThemeOptions = {
     fontSize: 16,
     h1: { fontSize: base.typography.pxToRem(64) },
     h2: { fontSize: base.typography.pxToRem(48) },
-    h3: { fontSize: base.typography.pxToRem(40) },
+    h3: { fontSize: base.typography.pxToRem(38) },
     h4: { fontSize: base.typography.pxToRem(32) },
     h5: { fontSize: base.typography.pxToRem(26) },
     h6: { fontSize: base.typography.pxToRem(22) },
