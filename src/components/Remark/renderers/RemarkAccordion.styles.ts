@@ -11,9 +11,9 @@ export const useStyles = makeStyles((theme: Theme) =>
       paddingBottom: theme.spacing(2),
       paddingTop: theme.spacing(2),
     },
-    gutters: theme.mixins.gutters(),
+    gutters: theme.mixins.gutters,
     root: {
-      ...theme.mixins.barf(),
+      ...theme.mixins.barf,
       borderBottomWidth: 1,
       borderColor: theme.palette.divider,
       borderLeftWidth: 0,

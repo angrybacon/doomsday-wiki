@@ -5,7 +5,7 @@ export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       border: 'none',
-      borderRadius: theme.shape.borderRadius * 2,
+      borderRadius: theme.shape.borderRadius,
       display: 'block',
       width: '100%',
     },

@@ -6,7 +6,7 @@ import React, {
   useState,
 } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
-import { darkTheme, lightTheme } from '@/theme/theme';
+import { base, dark, light } from '@/theme/theme';
 
 type Toggle = () => void;
 
@@ -38,8 +38,8 @@ export const ThemeProvider: FunctionComponent<Props> = ({ children }) => {
 
   return (
     <ThemeContext.Provider value={value}>
-      <MuiThemeProvider theme={isDark ? darkTheme : lightTheme}>
-        {children}
+      <MuiThemeProvider theme={isDark ? dark : light}>
+        <MuiThemeProvider theme={base}>{children}</MuiThemeProvider>
       </MuiThemeProvider>
     </ThemeContext.Provider>
   );

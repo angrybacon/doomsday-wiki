@@ -1,12 +1,16 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Article, Props } from '@/components/Article/Article';
+import { useStyles } from '@/components/Article/Article.styles';
+
+jest.mock('@/components/Article/Article.styles');
 
 describe(Article.name, () => {
   let props: Props;
 
   beforeEach(() => {
     props = { route: '/path/to/article' };
+    (useStyles as jest.Mock).mockReturnValueOnce({});
   });
 
   it('should render the title if provided', () => {

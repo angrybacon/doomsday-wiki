@@ -1,6 +1,12 @@
+import {
+  deepPurple as primary,
+  grey,
+  pink as secondary,
+} from '@mui/material/colors';
 import { Theme, ThemeOptions, alpha, createTheme } from '@mui/material/styles';
-import { deepPurple as primary, pink as secondary } from '@mui/material/colors';
 import '@fontsource/libre-baskerville';
+import { barf } from '@/theme/tools/barf';
+import { gutters } from '@/theme/tools/gutters';
 
 interface DrawerOptions {
   width: number;
@@ -18,166 +24,132 @@ declare module '@mui/material/styles' {
 
 declare module '@mui/material/styles/createMixins' {
   interface Mixins {
-    barf: () => CSSProperties;
-    gutters: () => CSSProperties;
+    barf: CSSProperties;
+    gutters: CSSProperties;
   }
 }
 
-const base: Theme = createTheme({
-  palette: { primary, secondary },
-} as ThemeOptions);
+declare module '@mui/styles' {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DefaultTheme extends Theme {}
+}
 
-const gutters = () => ({
-  paddingLeft: base.spacing(3),
-  paddingRight: base.spacing(3),
-  [base.breakpoints.only('xs')]: {
-    paddingLeft: base.spacing(2),
-    paddingRight: base.spacing(2),
-  },
-});
-
-const barf = () => ({
-  marginLeft: base.spacing(-3),
-  marginRight: base.spacing(-3),
-  [base.breakpoints.only('xs')]: {
-    marginLeft: base.spacing(-2),
-    marginRight: base.spacing(-2),
-  },
-});
-
-const options: ThemeOptions = {
-  components: {
-    MuiAccordion: {
-      styleOverrides: {
-        root: { backgroundColor: 'transparent' },
-      },
-    },
-    MuiAccordionSummary: {
-      styleOverrides: {
-        root: { '&:hover': { backgroundColor: base.palette.action.hover } },
-      },
-    },
-    MuiButton: {
-      styleOverrides: {
-        root: { borderRadius: base.spacing() },
-      },
-    },
-    MuiCardContent: {
-      styleOverrides: {
-        root: {
-          padding: base.spacing(3),
-          ...gutters(),
+export const base: (theme: Theme) => Theme = (theme) => {
+  const { breakpoints, palette, spacing, typography } = theme;
+  const { mode } = palette;
+  return createTheme({
+    components: {
+      MuiAccordion: {
+        styleOverrides: {
+          root: { backgroundColor: 'transparent' },
         },
       },
-    },
-    MuiContainer: {
-      styleOverrides: {
-        root: {
-          [base.breakpoints.only('xs')]: {
-            paddingLeft: 0,
-            paddingRight: 0,
+      MuiAccordionSummary: {
+        styleOverrides: {
+          root: { '&:hover': { backgroundColor: palette.action.hover } },
+        },
+      },
+      MuiCardContent: {
+        styleOverrides: {
+          root: {
+            padding: spacing(3),
+            ...gutters(theme),
           },
         },
       },
-    },
-    MuiCssBaseline: {
-      styleOverrides: {
-        '@global': {
-          em: {
-            fontFamily: 'Libre Baskerville, serif',
-            fontSize: '0.9em',
-            fontStyle: 'italic',
+      MuiContainer: {
+        styleOverrides: {
+          root: {
+            [breakpoints.only('xs')]: {
+              paddingLeft: 0,
+              paddingRight: 0,
+            },
           },
         },
       },
-    },
-    MuiPaper: {
-      styleOverrides: {
-        rounded: {
-          borderRadius: base.spacing(2),
-          [base.breakpoints.only('xs')]: { borderRadius: 0 },
+      MuiCssBaseline: {
+        styleOverrides: {
+          '@global': {
+            em: {
+              fontFamily: 'Libre Baskerville, serif',
+              fontSize: '0.9em',
+              fontStyle: 'italic',
+            },
+          },
+        },
+      },
+      MuiLink: {
+        styleOverrides: {
+          root: {
+            color: palette.secondary[mode === 'dark' ? 'light' : 'dark'],
+            textDecorationColor: alpha(palette.secondary.main, 0.5),
+          },
+        },
+      },
+      MuiPaper: {
+        styleOverrides: {
+          rounded: {
+            borderRadius: 16,
+            [breakpoints.only('xs')]: { borderRadius: 0 },
+          },
+        },
+      },
+      MuiTypography: {
+        styleOverrides: {
+          gutterBottom: {
+            // NOTE Increase specificity
+            '&&': { marginBottom: '.6em', marginTop: '.6em' },
+          },
+          h1: {
+            marginBottom: '.8em',
+            [breakpoints.down('sm')]: {
+              fontSize: typography.pxToRem(44),
+            },
+          },
+          h2: {
+            [breakpoints.down('sm')]: {
+              fontSize: typography.pxToRem(40),
+            },
+          },
+          h3: {
+            [breakpoints.down('sm')]: {
+              fontSize: typography.pxToRem(36),
+            },
+          },
+          paragraph: { '&:last-child': { marginBottom: 0 } },
         },
       },
     },
-    MuiTypography: {
-      styleOverrides: {
-        gutterBottom: {
-          // NOTE Increase specificity
-          '&&': { marginBottom: '.6em', marginTop: '.6em' },
-        },
-        h1: {
-          marginBottom: '.8em',
-          [base.breakpoints.down('sm')]: {
-            fontSize: base.typography.pxToRem(44),
-          },
-        },
-        h2: {
-          [base.breakpoints.down('sm')]: {
-            fontSize: base.typography.pxToRem(40),
-          },
-        },
-        h3: {
-          [base.breakpoints.down('sm')]: {
-            fontSize: base.typography.pxToRem(36),
-          },
-        },
-        paragraph: { '&:last-child': { marginBottom: 0 } },
-      },
+    drawer: { width: 310 },
+    mixins: { barf: barf(theme), gutters: gutters(theme) },
+    palette,
+    shape: { borderRadius: 8 },
+    typography: {
+      fontSize: 16,
+      h1: { fontSize: typography.pxToRem(64) },
+      h2: { fontSize: typography.pxToRem(48) },
+      h3: { fontSize: typography.pxToRem(38) },
+      h4: { fontSize: typography.pxToRem(32) },
+      h5: { fontSize: typography.pxToRem(26) },
+      h6: { fontSize: typography.pxToRem(22) },
     },
-  },
-  drawer: { width: 320 },
-  mixins: { barf, gutters },
-  palette: { primary, secondary },
-  typography: {
-    fontSize: 16,
-    h1: { fontSize: base.typography.pxToRem(64) },
-    h2: { fontSize: base.typography.pxToRem(48) },
-    h3: { fontSize: base.typography.pxToRem(38) },
-    h4: { fontSize: base.typography.pxToRem(32) },
-    h5: { fontSize: base.typography.pxToRem(26) },
-    h6: { fontSize: base.typography.pxToRem(22) },
-  },
+  });
 };
 
-export const darkTheme: Theme = createTheme({
-  ...options,
-  components: {
-    ...options.components,
-    MuiLink: {
-      styleOverrides: {
-        root: {
-          color: base.palette.secondary.light,
-          textDecorationColor: alpha(base.palette.secondary.main, 0.5),
-        },
-      },
-    },
-  },
+export const dark: Theme = createTheme({
   palette: {
-    ...options.palette,
-    background: {
-      default: '#121212',
-      paper: base.palette.grey[900],
-    },
+    background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
+    primary,
+    secondary,
   },
-});
+} as ThemeOptions);
 
-export const lightTheme: Theme = createTheme({
-  ...options,
-  components: {
-    ...options.components,
-    MuiLink: {
-      styleOverrides: {
-        root: {
-          color: base.palette.secondary.dark,
-          textDecorationColor: alpha(base.palette.secondary.main, 0.5),
-        },
-      },
-    },
-  },
+export const light: Theme = createTheme({
   palette: {
-    ...options.palette,
-    background: { default: base.palette.grey[100] },
+    background: { default: grey[100] },
     mode: 'light',
+    primary,
+    secondary,
   },
-});
+} as ThemeOptions);

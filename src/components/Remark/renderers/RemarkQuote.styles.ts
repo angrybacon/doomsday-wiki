@@ -9,10 +9,9 @@ export const useStyles = makeStyles((theme: Theme) =>
       margin: 0,
       paddingLeft: theme.spacing(2),
       position: 'relative',
-
       '&:before': {
         backgroundColor: theme.palette.secondary.main,
-        borderRadius: theme.shape.borderRadius,
+        borderRadius: 4,
         content: '""',
         display: 'block',
         height: '100%',
@@ -20,11 +19,9 @@ export const useStyles = makeStyles((theme: Theme) =>
         position: 'absolute',
         width: 4,
       },
-
       '& > :first-child': {
         paddingTop: theme.spacing(),
       },
-
       '& > :last-child': {
         paddingBottom: theme.spacing(),
       },

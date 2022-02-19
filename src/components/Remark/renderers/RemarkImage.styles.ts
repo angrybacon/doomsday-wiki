@@ -13,7 +13,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       width: '100%',
     },
     root: {
-      ...theme.mixins.barf(),
+      ...theme.mixins.barf,
       borderColor: theme.palette.divider,
       borderBottomStyle: 'solid',
       borderTopStyle: 'solid',

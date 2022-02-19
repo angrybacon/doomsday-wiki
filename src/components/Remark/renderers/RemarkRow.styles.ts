@@ -13,7 +13,7 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
 
     centered: {
-      ...theme.mixins.gutters(),
+      ...theme.mixins.gutters,
       justifyContent: 'space-around',
       marginLeft: theme.spacing(-1),
       marginRight: theme.spacing(-1),
@@ -46,6 +46,6 @@ export const useStyles = makeStyles((theme: Theme) =>
       },
     },
 
-    root: theme.mixins.barf(),
+    root: theme.mixins.barf,
   })
 );
