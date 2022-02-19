@@ -20,6 +20,7 @@ const sample = [
 describe(parse.name, () => {
   beforeEach(() => {
     jest.resetAllMocks();
+    (parseCards as jest.Mock).mockReturnValue({});
     (parseHeader as jest.Mock).mockReturnValue({});
   });
 
@@ -50,18 +51,21 @@ describe(parse.name, () => {
     expect(parseCards).toHaveBeenCalledWith(expectedSide);
   });
 
-  it('should return empty fields when a decklist cannot be parsed', () => {
+  it('should return the parsed body sections', () => {
     // Given
-    const buffer = '';
+    (parseCards as jest.Mock).mockReturnValueOnce({ cards: 'MAIN', count: 2 });
+    (parseCards as jest.Mock).mockReturnValueOnce({ cards: 'SIDE', count: 4 });
+    const buffer = sample;
     // When
     const result = parse(buffer);
     // Then
-    expect(result).toStrictEqual({
-      authors: null,
-      colors: null,
-      main: null,
-      side: null,
-      title: null,
-    });
+    expect(result).toStrictEqual(
+      expect.objectContaining({
+        main: 'MAIN',
+        mainCount: 2,
+        side: 'SIDE',
+        sideCount: 4,
+      })
+    );
   });
 });

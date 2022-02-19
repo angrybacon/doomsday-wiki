@@ -17,7 +17,9 @@ export interface Props {
   colors: string[] | null;
   date?: string;
   main: Card[][];
-  side?: Card[];
+  mainCount: number;
+  side: Card[];
+  sideCount: number;
   title: string;
 }
 
@@ -25,8 +27,10 @@ export const Decklist: FunctionComponent<Props> = ({
   authors,
   colors,
   main,
+  mainCount,
   date,
   side,
+  sideCount,
   title,
 }) => {
   const classes = useStyles();
@@ -78,7 +82,7 @@ export const Decklist: FunctionComponent<Props> = ({
         <AccordionDetails className={c(classes.details, classes.gutters)}>
           <Box flex={2}>
             <Typography color="textSecondary" paragraph variant="caption">
-              Main
+              Main {mainCount}
             </Typography>
             <Box display="flex" flexWrap="wrap">
               {main.map((cards, index) => (
@@ -92,7 +96,7 @@ export const Decklist: FunctionComponent<Props> = ({
           {side && (
             <Box flex={1}>
               <Typography color="textSecondary" paragraph variant="caption">
-                Sideboard
+                Sideboard {sideCount}
               </Typography>
               <Box mb={2}>
                 <Column cards={side} />

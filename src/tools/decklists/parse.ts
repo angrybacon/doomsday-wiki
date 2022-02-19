@@ -12,11 +12,15 @@ export const parse = (buffer: string): Decklist => {
   const [, header = '', main = '', side = ''] =
     buffer.match(DECK_RE.decklist) || [];
   const { authors, colors, title } = parseHeader(header);
+  const { cards: mainCards, count: mainCount } = parseCards(main);
+  const { cards: sideCards, count: sideCount } = parseCards(side);
   return {
-    authors: authors ?? null,
-    colors: colors ?? null,
-    main: parseCards(main) ?? null,
-    side: parseCards(side) ?? null,
-    title: title ?? null,
+    authors,
+    colors,
+    main: mainCards,
+    mainCount,
+    side: sideCards,
+    sideCount,
+    title,
   };
 };

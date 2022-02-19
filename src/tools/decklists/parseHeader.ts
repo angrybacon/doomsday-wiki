@@ -2,9 +2,9 @@ import { DECK_RE } from '@/tools/decklists/constants';
 import { toArray } from '@/tools/mana/toArray';
 
 type Header = {
-  authors?: string;
-  colors: string[];
-  title?: string;
+  authors: string | null;
+  colors: string[] | null;
+  title: string | null;
 };
 
 /**
@@ -12,11 +12,12 @@ type Header = {
  * It usually looks like this:
  */
 export const parseHeader = (text: string): Header => {
-  const [, title = '', authors = '', colors = ''] =
+  const [, title = '', authors = '', colorsAsText = ''] =
     text.match(DECK_RE.header) || [];
+  const colors: string[] = toArray(colorsAsText.trim());
   return {
-    authors: authors?.trim(),
-    colors: toArray(colors.trim()),
-    title: title?.trim(),
+    authors: authors.trim() || null,
+    colors: colors.length ? colors : null,
+    title: title.trim() || null,
   };
 };

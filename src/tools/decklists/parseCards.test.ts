@@ -1,5 +1,4 @@
 import { parseCards } from '@/tools/decklists/parseCards';
-import type { Card } from '@/tools/decklists/types';
 
 /**
  * Create a dummy string representing a body of cards as expected from decklist
@@ -19,7 +18,7 @@ describe(parseCards.name, () => {
     // Given
     const buffer: string = dummyCards(2);
     // When
-    const cards: Card[][] = parseCards(buffer);
+    const { cards, count } = parseCards(buffer);
     // Then
     expect(cards).toStrictEqual([
       [
@@ -27,13 +26,14 @@ describe(parseCards.name, () => {
         [4, 'Doomsday'],
       ],
     ]);
+    expect(count).toBe(8);
   });
 
   it('should read a multi-column body of cards', () => {
     // Given
     const buffer: string = dummyCards(2, 1);
     // When
-    const cards: Card[][] = parseCards(buffer);
+    const { cards, count } = parseCards(buffer);
     // Then
     expect(cards).toStrictEqual([
       [
@@ -42,14 +42,16 @@ describe(parseCards.name, () => {
       ],
       [[4, 'Doomsday']],
     ]);
+    expect(count).toBe(12);
   });
 
   it('should read an empty body of cards', () => {
     // Given
     const buffer: string = dummyCards();
     // When
-    const cards: Card[][] = parseCards(buffer);
+    const { cards, count } = parseCards(buffer);
     // Then
     expect(cards).toStrictEqual([]);
+    expect(count).toBe(0);
   });
 });

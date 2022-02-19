@@ -4,7 +4,9 @@ export interface Decklist {
   authors: string | null;
   colors: string[] | null;
   main: Card[][];
-  side?: Card[][];
+  mainCount: number;
+  side: Card[][];
+  sideCount: number;
   title: string | null;
 }
 
