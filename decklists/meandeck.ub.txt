@@ -1,0 +1,39 @@
+// Title: Turbo Meandeck
+// Authors: Doishy
+// Colors: {U}{B}
+1 Cavern of Souls
+2 Flooded Strand
+1 Island
+2 Misty Rainforest
+2 Polluted Delta
+2 Scalding Tarn
+4 Underground Sea
+1 Watery Grave
+4 Brainstorm
+1 Consider
+4 Dark Ritual
+4 Daze
+4 Doomsday
+1 Duress
+1 Edge of Autumn
+4 Force of Will
+1 Ideas Unbound
+1 Lion's Eye Diamond
+4 Lotus Petal
+1 Pact of Negation
+4 Personal Tutor
+4 Ponder
+1 Preordain
+3 Street Wraith
+1 Thassa's Oracle
+2 Thoughtseize
+
+// Sideboard
+1 Chain of Vapor
+2 Flusterstorm
+1 Mystical Dispute
+4 Force of Negation
+1 Massacre
+1 Thassa's Oracle
+1 Duress
+4 Leyline of the Void
