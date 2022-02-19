@@ -34,7 +34,7 @@ declare module '@mui/styles' {
   interface DefaultTheme extends Theme {}
 }
 
-export const base: (theme: Theme) => Theme = (theme) => {
+export const baseTheme: (theme: Theme) => Theme = (theme) => {
   const { breakpoints, palette, spacing, typography } = theme;
   const { mode } = palette;
   return createTheme({
@@ -136,7 +136,7 @@ export const base: (theme: Theme) => Theme = (theme) => {
   });
 };
 
-export const dark: Theme = createTheme({
+export const darkTheme: Theme = createTheme({
   palette: {
     background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
@@ -145,7 +145,7 @@ export const dark: Theme = createTheme({
   },
 } as ThemeOptions);
 
-export const light: Theme = createTheme({
+export const lightTheme: Theme = createTheme({
   palette: {
     background: { default: grey[100] },
     mode: 'light',

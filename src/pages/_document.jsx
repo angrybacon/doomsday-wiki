@@ -1,7 +1,7 @@
 import React, { Children } from 'react';
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@mui/styles';
-import { dark as theme } from '@/theme/theme';
+import { darkTheme as theme } from '@/theme/theme';
 
 export default class Document extends NextDocument {
   static async getInitialProps(context) {
