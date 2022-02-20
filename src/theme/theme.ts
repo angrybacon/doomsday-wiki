@@ -34,9 +34,16 @@ declare module '@mui/styles' {
   interface DefaultTheme extends Theme {}
 }
 
+declare module '@mui/system/createTheme/shape' {
+  interface Shape {
+    borderRadiusPaper: number;
+  }
+}
+
 export const baseTheme: (theme: Theme) => Theme = (theme) => {
   const { breakpoints, palette, spacing, typography } = theme;
   const { mode } = palette;
+  const borderRadiusPaper = 16;
   return createTheme({
     components: {
       MuiAccordion: {
@@ -89,7 +96,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       MuiPaper: {
         styleOverrides: {
           rounded: {
-            borderRadius: 16,
+            borderRadius: borderRadiusPaper,
             [breakpoints.only('xs')]: { borderRadius: 0 },
           },
         },
@@ -123,7 +130,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
     drawer: { width: 310 },
     mixins: { barf: barf(theme), gutters: gutters(theme) },
     palette,
-    shape: { borderRadius: 8 },
+    shape: { borderRadius: 8, borderRadiusPaper },
     typography: {
       fontSize: 16,
       h1: { fontSize: typography.pxToRem(64) },
@@ -147,7 +154,7 @@ export const darkTheme: Theme = createTheme({
 
 export const lightTheme: Theme = createTheme({
   palette: {
-    background: { default: grey[100] },
+    background: { default: grey[50] },
     mode: 'light',
     primary,
     secondary,

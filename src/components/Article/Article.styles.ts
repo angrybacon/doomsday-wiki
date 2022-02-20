@@ -10,6 +10,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
     },
     root: {
+      overflow: 'hidden',
       position: 'relative',
     },
     rootWithBanner: {
@@ -17,22 +18,16 @@ export const useStyles = makeStyles((theme: Theme) =>
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       color: theme.palette.common.white,
-      '&:before': {
+      '& $content': {
         backdropFilter: 'blur(4px)',
         backgroundColor: alpha(theme.palette.common.black, 0.3),
+        // NOTE Fix rounded corners not clipping on Safari
+        borderBottomLeftRadius: theme.shape.borderRadiusPaper,
+        borderBottomRightRadius: theme.shape.borderRadiusPaper,
         borderTopColor: alpha(theme.palette.common.white, 0.2),
         borderTopStyle: 'solid',
         borderTopWidth: 1,
-        bottom: 0,
-        content: '""',
-        display: 'block',
-        left: 0,
-        position: 'absolute',
-        right: 0,
-        top: BANNER_OFFSET,
-      },
-      '& > *': {
-        paddingTop: BANNER_OFFSET,
+        marginTop: BANNER_OFFSET,
       },
     },
     subtitle: {
