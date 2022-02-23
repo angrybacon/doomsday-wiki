@@ -14,6 +14,7 @@ import {
   RemarkDecklist,
   Props as RemarkDecklistProps,
 } from '@/components/Remark/renderers/RemarkDecklist';
+import { RemarkDivider } from '@/components/Remark/renderers/RemarkDivider';
 import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
 import { RemarkImage } from '@/components/Remark/renderers/RemarkImage';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
@@ -54,6 +55,7 @@ export const COMPONENTS: Components = {
   h4: RemarkHeading,
   h5: RemarkHeading,
   h6: RemarkHeading,
+  hr: RemarkDivider,
   img: RemarkImage,
   ol: RemarkList as Components['ol'],
   p: RemarkParagraph,
