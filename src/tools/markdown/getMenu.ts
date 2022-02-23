@@ -24,7 +24,7 @@ export const getMenu: GetMenu = () => {
     // NOTE Sort chapters by frontmatter `order`.
     //      Does not support order above 99.
     pages.sort(
-      (left, right) => (left.data?.order ?? 99) - (right.data?.order ?? 99)
+      (left, right) => (left.matter?.order ?? 99) - (right.matter?.order ?? 99)
     );
     const { icon, subtitle, title } = MENU_DECORATIONS[category];
     return { icon, id: category, subtitle, title, pages };

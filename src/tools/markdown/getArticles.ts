@@ -33,32 +33,37 @@ export const getArticles: GetArticles = async (options) => {
     // NOTE Only consider complete paths ie. [year, month, day, article]
     if (crumbs.length === 4) {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
-      let { data } = readMarkdown(path);
+      const { data } = readMarkdown(path);
       const [year, month, day, slug] = crumbs;
-      // NOTE Warm up promise in a temporary property to be resolved later
-      const _bannerPromise = data.banner ? scry(data.banner) : null;
-      data = { ...data, _bannerPromise, date: formatDate(year, month, day) };
+      const matter = {
+        ...data,
+        // NOTE Warm up promise in a temporary property to be resolved later
+        _bannerPromise: data.banner ? scry(data.banner) : null,
+        date: formatDate(year, month, day),
+      };
       const route = ['/articles', ...crumbs].join('/');
-      return [...accumulator, { crumbs, data, route, slug }];
+      return [...accumulator, { crumbs, matter, route, slug }];
     }
     return accumulator;
   }, []);
   // NOTE Wait for all banner promises to resolve
   const promises = documents.reduce<(Promise<ScryData> | undefined)[]>(
-    (accumulator, { data }) => [...accumulator, data?._bannerPromise],
+    (accumulator, { matter }) => [...accumulator, matter?._bannerPromise],
     []
   );
   await Promise.allSettled(promises);
   // NOTE Update document with banner data in place and clean up promises
   for (const document of documents) {
-    if (document.data?._bannerPromise) {
+    if (document.matter?._bannerPromise) {
       // eslint-disable-next-line no-await-in-loop
-      const data: ScryData = await document.data._bannerPromise;
-      delete document.data._bannerPromise;
+      const data: ScryData = await document.matter._bannerPromise;
+      delete document.matter._bannerPromise;
       const card = readFirstFace(data);
-      document.data.banner = card.images.art;
-      document.data.bannerArtist = document.data.banner ? card.artist : null;
-      document.data.bannerName = document.data.banner ? card.name : null;
+      document.matter.banner = card.images.art;
+      document.matter.bannerArtist = document.matter.banner
+        ? card.artist
+        : null;
+      document.matter.bannerName = document.matter.banner ? card.name : null;
     }
   }
   return documents;

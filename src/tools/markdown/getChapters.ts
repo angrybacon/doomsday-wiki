@@ -18,7 +18,7 @@ export const getChapters: GetChapters = () => {
       const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
       const { data } = readMarkdown(path);
       const route = ['', ...crumbs].join('/');
-      return [...accumulator, { crumbs, data, route, slug: crumbs[1] }];
+      return [...accumulator, { crumbs, matter: data, route, slug: crumbs[1] }];
     }
     return accumulator;
   }, []);

@@ -89,9 +89,9 @@ const HomePage: NextPage<Props> = ({
           ref={articleRoot}
           spacing={2}
         >
-          {articles.slice(0, size).map(({ data, route }) => (
+          {articles.slice(0, size).map(({ matter, route }) => (
             <Grid item key={`article-${route}`} xs={12}>
-              <Article matter={data} route={route} />
+              <Article matter={matter} route={route} />
             </Grid>
           ))}
           {size < articles.length + 1 && (

@@ -12,7 +12,7 @@ export interface CategoryMeta {
 
 export interface Document {
   crumbs: string[];
-  data?: GrayMatterFile<string>['data'];
+  matter?: GrayMatterFile<string>['data'];
   route: string;
   slug: string;
 }

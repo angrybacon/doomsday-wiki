@@ -36,7 +36,7 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
     <Layout menu={menu} title="Articles">
       <Card>
         <List dense disablePadding>
-          {articles.map(({ data, route }, index) => (
+          {articles.map(({ matter, route }, index) => (
             <NextLink href={route} key={route} passHref>
               <ListItem
                 button
@@ -50,11 +50,11 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
                 </ListItemAvatar>
                 <ListItemText
                   classes={{ secondary: classes.secondary }}
-                  primary={data?.title || route}
+                  primary={matter?.title || route}
                   secondary={
                     <>
-                      {data?.date && <span>{data.date}</span>}
-                      {data?.authors && <span>{data.authors}</span>}
+                      {matter?.date && <span>{matter.date}</span>}
+                      {matter?.authors && <span>{matter.authors}</span>}
                     </>
                   }
                   secondaryTypographyProps={{ variant: 'caption' }}

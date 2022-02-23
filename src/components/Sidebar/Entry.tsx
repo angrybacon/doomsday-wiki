@@ -68,7 +68,7 @@ export const Entry: FunctionComponent<Props> = forwardRef<
         <Collapse in={isOpen} timeout="auto" unmountOnExit>
           <Divider />
           <List className={classes.pages} component="div" dense>
-            {pages?.map(({ data, route, slug }) => (
+            {pages?.map(({ matter, route, slug }) => (
               <NextLink href={route} key={`page-${route}`} passHref>
                 <ListItem
                   button
@@ -78,7 +78,7 @@ export const Entry: FunctionComponent<Props> = forwardRef<
                   })}
                   component="a"
                 >
-                  <ListItemText primary={data?.title || route} />
+                  <ListItemText primary={matter?.title || route} />
                 </ListItem>
               </NextLink>
             ))}
