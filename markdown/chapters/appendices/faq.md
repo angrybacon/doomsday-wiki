@@ -300,16 +300,16 @@ to source with Force of Wills likely being the next biggest purchase.
 This obviously depends on how constricted you are in terms of budget but yes you
 can! The easiest way is of course to run a heavy basics list. Unfortunately due
 to the life loss from Doomsday *Shock Lands* like :card[Watery Grave] are not
-viable in high numbers. Following this you will only need 1-2 Underground Seas and can rely on
-basics and Petals to fix for any splash colours. This can slow the deck down and
-make cards like Daze much worse for early turns but is perfectly serviceable. You can
-also omit the Lion's Eye Diamond in Meandeck but it will prevent you from
-getting access to a lot of the more mana efficient or quick kills it enables.
-You probably need the Force of Wills but you can also not run them if need be
-and instead rely more on soft counters and discard effects or Veil of Summer.
-The only card I would really advocate not skimping on is Cavern of Souls. This
-card single-handedly can enable a lot of wins in {U} matchups and thus is too
-good a tool to lose.
+viable in high numbers. Following this you will only need 1-2 Underground Seas
+and can rely on basics and Petals to fix for any splash colours. This can slow
+the deck down and make cards like :card[Daze] much worse for early turns but is
+perfectly serviceable. You can also omit the :card[Lion's Eye Diamond] in
+Meandeck but it will prevent you from getting access to a lot of the more mana
+efficient or quick kills it enables. You probably need the Force of Wills but
+you can also not run them if need be and instead rely more on soft counters and
+discard effects or Veil of Summer. The only card I would really advocate not
+skimping on is :card[Cavern of Souls]. This card single-handedly can enable a
+lot of wins in {U} matchups and thus is too good a tool to lose.
 
 ::decklist{path=meandeck.budget}
 
@@ -337,19 +337,25 @@ maximise the ability to use them.
 ## Why do some lists run Consider without Deep Analysis?
 
 :card[Consider] was first introduced and one of the aspects that made it an
-appealing tool was the fast and low resource piles that could be made with it
-however this was not the key point as to why it was run. It provides a decent
-cantrip effect which case be used to gain advantage through cards like
-:card[Narset, Parter of Veils] whilst also providing a clean way to *dig* 
-through two cards in a pile. It also provides a way to create *perfect* :card[BS]
-piles [in key scenarios](/meandeck/brainstorm#brainstorm-pile---brainstorm-and-free-cantrip-available).
+appealing tool was the fast and low resource piles that could be made with it.
+
+However this was not the key point as to why it was run. It provides a decent
+cantrip effect which can be used to gain advantage through cards like
+:card[Narset, Parter of Veils] whilst also providing a clean way to *dig*
+through two cards in a pile. It also provides a way to create *perfect*
+:card[BS] piles [in key scenarios][meandeck:brainstorm-free-cantrip].
+
+[meandeck:brainstorm-free-cantrip]: /meandeck/brainstorm#brainstorm-pile---brainstorm-and-free-cantrip-available
 
 ## When do I board in Shelldock Isle and Emrakul?
 
 When people elect to run :card[SI] and :card[Emrakul, the Aeon's Torn] they are
-generally thinking about fair {U} matchups that do not run :card[Wasteland]. It should not
-be brought in vs any Delver variant or when Wasteland/ :card[Teferi, Time Raveler] are
-prominant in control variants as both of these can effect it.
+generally thinking about fair {U} matchups that do not run :card[Wasteland]. It
+should not be brought in vs. any Delver variant or when Wasteland and
+:card[Teferi, Time Raveler] are prominant in control variants as both of these
+can effect it.
+
+---
 
 If you have any questions beyond what is listed here feel free to ask in the
 [Discord][discord] or email ddftwiki@gmail.com
