@@ -353,7 +353,7 @@ When people elect to run :card[SI] and :card[Emrakul, the Aeon's Torn] they are
 generally thinking about fair {U} matchups that do not run :card[Wasteland]. It
 should not be brought in vs. any Delver variant or when Wasteland and
 :card[Teferi, Time Raveler] are prominant in control variants as both of these
-can effect it.
+can affect it.
 
 ---
 
