@@ -85,6 +85,14 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
           },
         },
       },
+      MuiDivider: {
+        styleOverrides: {
+          root: {
+            // NOTE Increase specificity
+            '&&': { marginBottom: spacing(3), marginTop: spacing(3) },
+          },
+        },
+      },
       MuiLink: {
         styleOverrides: {
           root: {
