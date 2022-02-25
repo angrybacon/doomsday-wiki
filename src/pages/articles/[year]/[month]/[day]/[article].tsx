@@ -4,6 +4,7 @@ import { ParsedUrlQuery } from 'querystring';
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
@@ -31,18 +32,27 @@ const ArticlePage: NextPage<Props> = ({
   markdown,
   menu,
   partials,
-}) => (
-  <Layout menu={menu} title={markdown.matter?.title}>
-    <Card>
-      <CardContent
-        component={Remark}
-        decklists={decklists}
-        markdown={markdown}
-        partials={partials}
-      />
-    </Card>
-  </Layout>
-);
+}) => {
+  const { matter } = markdown;
+  const { bannerData, title } = matter;
+
+  if (!bannerData || !title) return null;
+
+  return (
+    <Layout menu={menu} title={title}>
+      <Card>
+        <Banner banner={bannerData} title={title} />
+        <CardContent>
+          <Remark
+            decklists={decklists}
+            markdown={markdown}
+            partials={partials}
+          />
+        </CardContent>
+      </Card>
+    </Layout>
+  );
+};
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const articles: Document[] = await getArticles();

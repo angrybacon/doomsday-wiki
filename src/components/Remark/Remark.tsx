@@ -6,7 +6,6 @@ import remarkGfm from 'remark-gfm';
 import remarkSlug from 'remark-slug';
 import remarkToc from 'remark-toc';
 import type { PluggableList } from 'unified';
-import Typography from '@mui/material/Typography';
 // eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import type { Decklists } from '@/tools/decklists/types';
@@ -33,7 +32,7 @@ export const Remark: FunctionComponent<Props> = ({
   partials,
 }) => {
   const classes = useStyles();
-  const { matter, scries, text } = markdown;
+  const { scries, text } = markdown;
 
   /** Vendor plugins to run against the node tree. */
   const basePlugins: PluggableList = [
@@ -59,11 +58,6 @@ export const Remark: FunctionComponent<Props> = ({
 
   return (
     <div className={c(classes.root, className)}>
-      {matter?.title && (
-        <Typography align="center" variant="h1">
-          {matter.title}
-        </Typography>
-      )}
       <ReactMarkdown
         components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
         remarkPlugins={[...basePlugins, ...customPlugins]}

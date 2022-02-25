@@ -34,7 +34,7 @@ interface PropsWithoutWrapper {
 type Props = {
   className?: string;
   menu: Menu;
-  title?: string;
+  title: string;
 } & (PropsWithWrapper | PropsWithoutWrapper);
 
 export const Layout: FunctionComponent<Props> = ({
@@ -72,7 +72,7 @@ export const Layout: FunctionComponent<Props> = ({
       flexDirection="column"
       minHeight="100vh"
     >
-      {title && <Title title={title} />}
+      <Title title={title} />
       <Header isMobile={!isDesktop} onSidebarOpen={openSidebar} />
       <Sidebar
         menu={menu}

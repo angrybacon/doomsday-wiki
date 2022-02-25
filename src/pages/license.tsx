@@ -2,6 +2,7 @@ import { GetStaticProps, NextPage } from 'next';
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
@@ -26,12 +27,12 @@ const LicensePage: NextPage<Props> = ({
 }) => (
   <Layout menu={menu} title="License">
     <Card>
-      <CardContent
-        component={Remark}
-        decklists={decklists}
-        markdown={markdown}
-        partials={partials}
-      />
+      <CardContent>
+        <Typography align="center" variant="h1">
+          License
+        </Typography>
+        <Remark decklists={decklists} markdown={markdown} partials={partials} />
+      </CardContent>
     </Card>
   </Layout>
 );

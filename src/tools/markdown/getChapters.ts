@@ -5,7 +5,7 @@ import {
   BASE_CHAPTER_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
-import type { Document } from '@/tools/markdown/types';
+import type { Document, Matter } from '@/tools/markdown/types';
 
 type GetChapters = () => Document[];
 
@@ -17,9 +17,14 @@ export const getChapters: GetChapters = () => {
     if (crumbs.length === 2) {
       const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
       const { data } = readMarkdown(path);
+      if (!data.title || typeof data.title !== 'string') {
+        throw new Error(`Missing title for chapter at "${path}"`);
+      }
+      const matter = { ...data } as Matter;
       const route = ['', ...crumbs].join('/');
-      return [...accumulator, { crumbs, matter: data, route, slug: crumbs[1] }];
+      return [...accumulator, { crumbs, matter, route, slug: crumbs[1] }];
     }
+    // TODO Warn against orphan files
     return accumulator;
   }, []);
   return documents;

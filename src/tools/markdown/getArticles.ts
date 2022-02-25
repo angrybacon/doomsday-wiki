@@ -6,10 +6,8 @@ import {
   BASE_ARTICLE_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
-import type { Document } from '@/tools/markdown/types';
-import { readFirstFace } from '@/tools/scryfall/read';
-import { scry } from '@/tools/scryfall/scry';
-import type { ScryData } from '@/tools/scryfall/types';
+import { getBanner } from '@/tools/markdown/getBanner';
+import type { Banner, Document, Matter } from '@/tools/markdown/types';
 
 interface GetArticlesOptions {
   ascending?: boolean;
@@ -30,36 +28,35 @@ export const getArticles: GetArticles = async (options) => {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
       const { data } = readMarkdown(path);
       const [year, month, day, slug] = crumbs;
-      const matter = {
-        ...data,
-        // NOTE Warm up promise in a temporary property to be resolved later
-        _bannerPromise: data.banner ? scry(data.banner) : null,
-        date: formatDate(year, month, day),
-      };
+      const date = formatDate(year, month, day);
+      if (!data.title || typeof data.title !== 'string') {
+        throw new Error(`Missing title for article at "${path}"`);
+      }
+      if (!data.banner || typeof data.banner !== 'string') {
+        throw new Error(`Missing banner for article at "${path}"`);
+      }
+      const matter = { ...data, date } as Matter;
+      // @ts-expect-error Warm up promise in a temporary property.
+      matter._bannerPromise = getBanner(data.banner);
       const route = ['/articles', ...crumbs].join('/');
       return [...accumulator, { crumbs, matter, route, slug }];
     }
+    // TODO Warn against orphan files
     return accumulator;
   }, []);
-  // NOTE Wait for all banner promises to resolve
-  const promises = documents.reduce<(Promise<ScryData> | undefined)[]>(
-    (accumulator, { matter }) => [...accumulator, matter?._bannerPromise],
-    []
-  );
-  await Promise.allSettled(promises);
-  // NOTE Update document with banner data in place and clean up promises
   for (const document of documents) {
-    if (document.matter?._bannerPromise) {
+    let data: Banner;
+    try {
+      // @ts-expect-error The property has been force-added above.
       // eslint-disable-next-line no-await-in-loop
-      const data: ScryData = await document.matter._bannerPromise;
-      delete document.matter._bannerPromise;
-      const card = readFirstFace(data);
-      document.matter.banner = card.images.art;
-      document.matter.bannerArtist = document.matter.banner
-        ? card.artist
-        : null;
-      document.matter.bannerName = document.matter.banner ? card.name : null;
+      data = await document.matter._bannerPromise;
+    } catch (error) {
+      const { banner } = document.matter;
+      throw new Error(`Failed to scry for "${banner}" (${error})`);
     }
+    // @ts-expect-error The property has been force-added above.
+    delete document.matter._bannerPromise;
+    document.matter.bannerData = data;
   }
   return documents;
 };

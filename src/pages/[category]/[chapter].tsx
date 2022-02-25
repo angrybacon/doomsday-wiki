@@ -4,6 +4,7 @@ import { ParsedUrlQuery } from 'querystring';
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
@@ -31,18 +32,29 @@ const ChapterPage: NextPage<Props> = ({
   markdown,
   menu,
   partials,
-}) => (
-  <Layout menu={menu} title={markdown?.matter?.title}>
-    <Card>
-      <CardContent
-        component={Remark}
-        decklists={decklists}
-        markdown={markdown}
-        partials={partials}
-      />
-    </Card>
-  </Layout>
-);
+}) => {
+  const { matter } = markdown;
+  const { title } = matter;
+
+  if (!title) return null;
+
+  return (
+    <Layout menu={menu} title={title}>
+      <Card>
+        <CardContent>
+          <Typography align="center" variant="h1">
+            {title}
+          </Typography>
+          <Remark
+            decklists={decklists}
+            markdown={markdown}
+            partials={partials}
+          />
+        </CardContent>
+      </Card>
+    </Layout>
+  );
+};
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const chapters: Document[] = getChapters();

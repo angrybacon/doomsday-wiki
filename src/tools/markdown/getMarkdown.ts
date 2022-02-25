@@ -9,6 +9,7 @@ import {
   BASE_MARKDOWN_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants';
+import { getBanner } from '@/tools/markdown/getBanner';
 import { remarkScryfall } from '@/tools/remark/remarkScryfall';
 import type { Scries } from '@/tools/scryfall/types';
 
@@ -30,7 +31,11 @@ export const getMarkdown: GetMarkdown = async (
   root = BASE_MARKDOWN_URL
 ) => {
   const absolutePath = join(root, path) + MARKDOWN_EXTENSION;
-  const { content: text, data: matter } = readMarkdown(absolutePath);
-  const scries = await getScries(text);
-  return { matter, scries, text: toDirective(text) };
+  const { content, data } = readMarkdown(absolutePath);
+  const scries = await getScries(content);
+  const matter = data;
+  if (matter.banner) {
+    matter.bannerData = await getBanner(matter.banner);
+  }
+  return { matter, scries, text: toDirective(content) };
 };

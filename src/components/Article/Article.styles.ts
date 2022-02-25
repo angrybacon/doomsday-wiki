@@ -10,14 +10,12 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
     },
     root: {
-      overflow: 'hidden',
-      position: 'relative',
-    },
-    rootWithBanner: {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
       color: theme.palette.common.white,
+      overflow: 'hidden',
+      position: 'relative',
       '& $content': {
         backdropFilter: 'blur(4px)',
         backgroundColor: alpha(theme.palette.common.black, 0.3),

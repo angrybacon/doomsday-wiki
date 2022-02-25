@@ -9,41 +9,47 @@ describe(Article.name, () => {
   let props: Props;
 
   beforeEach(() => {
-    props = { route: '/path/to/article' };
+    props = {
+      matter: {
+        bannerData: { art: '', title: '' },
+        date: null,
+        title: 'Article Title',
+      },
+      route: '/path/to/article',
+    };
     (useStyles as jest.Mock).mockReturnValueOnce({});
   });
 
-  it('should render the title if provided', () => {
+  it('should render nothing when no banner is provided', () => {
     // Given
-    props.matter = { title: 'Article Title' };
+    props.matter.bannerData = undefined;
+    // When
+    const { container } = render(<Article {...props} />);
+    // Then
+    expect(container).toBeEmptyDOMElement();
+  });
+
+  it('should render the title', () => {
+    // Given
+    props.matter.title = 'New Article Title';
     // When
     render(<Article {...props} />);
     // Then
     expect(screen.getByText(props.matter.title)).toBeInTheDocument();
   });
 
-  it('should render the route otherwise', () => {
+  it('should render the authors when provided', () => {
     // Given
-    props.matter = undefined;
-    props.route = '/path/to/article';
-    // When
-    render(<Article {...props} />);
-    // Then
-    expect(screen.getByText(props.route)).toBeInTheDocument();
-  });
-
-  it('should render the authors if provided', () => {
-    // Given
-    props.matter = { authors: 'Foo, Bar' };
+    props.matter.authors = 'Foo, Bar';
     // When
     render(<Article {...props} />);
     // Then
     expect(screen.getByText(props.matter.authors)).toBeInTheDocument();
   });
 
-  it('should render the date if provided', () => {
+  it('should render the date when provided', () => {
     // Given
-    props.matter = { date: 'January 1, 1970' };
+    props.matter.date = 'January 1, 1970';
     // When
     render(<Article {...props} />);
     // Then
@@ -53,46 +59,15 @@ describe(Article.name, () => {
   describe('Article banner', () => {
     it('should render the banner as background when provided', () => {
       // Given
-      const banner = 'protocol://domain.tld/path/to/resource';
-      props.matter = { banner };
+      const bannerArt = 'protocol://domain.tld/path/to/resource';
+      const bannerTitle = 'Banner title';
+      props.matter.bannerData = { art: bannerArt, title: bannerTitle };
       // When
       const { container } = render(<Article {...props} />);
       // Then
-      expect(container.firstChild).toHaveStyle(
-        `background-image: url(${banner})`
-      );
-    });
-
-    it('should provide the card name and artist when they are available', () => {
-      // Given
-      const bannerArtist = 'Firstname Lastname';
-      const bannerName = 'Card Name';
-      props.matter = { bannerArtist, bannerName };
-      // When
-      const { container } = render(<Article {...props} />);
-      // Then
-      expect(container.firstChild).toHaveAccessibleName(
-        `${bannerName} by ${bannerArtist}`
-      );
-    });
-
-    it('should provide the card name even when the artist is not available', () => {
-      // Given
-      const bannerName = 'Card Name';
-      props.matter = { bannerName };
-      // When
-      const { container } = render(<Article {...props} />);
-      // Then
-      expect(container.firstChild).toHaveAccessibleName(bannerName);
-    });
-
-    it('should not provide accessible text when the details are not available', () => {
-      // Given
-      props.matter = {};
-      // When
-      const { container } = render(<Article {...props} />);
-      // Then
-      expect(container.firstChild).toHaveAccessibleName('');
+      const element = container.firstChild;
+      expect(element).toHaveStyle(`background-image: url(${bannerArt})`);
+      expect(element).toHaveAccessibleName(bannerTitle);
     });
   });
 });

@@ -23,9 +23,11 @@ export const getMenu: GetMenu = () => {
     const pages: Document[] = [...menu[category]];
     // NOTE Sort chapters by frontmatter `order`.
     //      Does not support order above 99.
-    pages.sort(
-      (left, right) => (left.matter?.order ?? 99) - (right.matter?.order ?? 99)
-    );
+    pages.sort((left, right) => {
+      const leftValue = left.matter.order ?? 99;
+      const rightValue = right.matter.order ?? 99;
+      return leftValue - rightValue;
+    });
     const { icon, subtitle, title } = MENU_DECORATIONS[category];
     return { icon, id: category, subtitle, title, pages };
   });
