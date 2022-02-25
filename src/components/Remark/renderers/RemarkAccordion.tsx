@@ -23,7 +23,6 @@ export interface Props extends ReactMarkdownProps {
   markdown: Markdown;
   partials: Partials;
   path: string;
-  node: ReactMarkdownProps['node'];
 }
 
 export const RemarkAccordion: FunctionComponent<Props> = ({
