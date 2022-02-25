@@ -20,9 +20,9 @@ export const remarkAccordion: Plugin<
       const path: string | undefined = directive.attributes?.path;
       if (!path) {
         const { column: c, line: l } = directive.position?.start ?? {};
-        throw Error(`Missing path in accordion directive at ${l}:${c}`);
+        throw new Error(`Missing path in accordion directive at ${l}:${c}`);
       } else if (!partials[path]) {
-        throw Error(`Missing Markdown file for '${path}' partial`);
+        throw new Error(`Missing Markdown file for '${path}' partial`);
       }
       if (!directive.children.length) {
         console.error(

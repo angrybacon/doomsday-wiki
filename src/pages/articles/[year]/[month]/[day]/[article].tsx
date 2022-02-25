@@ -9,8 +9,9 @@ import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
 import { getArticles } from '@/tools/markdown/getArticles';
-import { getMarkdown, getPartials } from '@/tools/markdown/getMarkdown';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
+import { getPartials } from '@/tools/markdown/getPartials';
 import type {
   Document,
   Markdown,

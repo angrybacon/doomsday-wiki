@@ -11,11 +11,6 @@ import { readFirstFace } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { ScryData } from '@/tools/scryfall/types';
 
-/** Default options for the `getArticles` helper. */
-const getArticlesOptionsDefault: GetArticlesOptions = {
-  ascending: false,
-};
-
 interface GetArticlesOptions {
   ascending?: boolean;
 }
@@ -24,7 +19,7 @@ type GetArticles = (options?: GetArticlesOptions) => Promise<Document[]>;
 
 /** Read file system and return a list of all articles. */
 export const getArticles: GetArticles = async (options) => {
-  const { ascending } = { ...getArticlesOptionsDefault, ...options };
+  const { ascending } = { ascending: false, ...options };
   const reduceFunction: 'reduce' | 'reduceRight' = ascending
     ? 'reduce'
     : 'reduceRight';

@@ -7,11 +7,6 @@ interface WalkOptions {
   extension?: string;
 }
 
-/** Default options the `walk` generator. */
-const walkOptionsDefault: WalkOptions = {
-  extension: MARKDOWN_EXTENSION,
-};
-
 /**
  * Generator to walk through `directory` and yield all files.
  * Return a tuple containing all successive parent folders followed by the file
@@ -24,7 +19,7 @@ export function* walk(
   options: WalkOptions = {},
   accumulator: string[] = []
 ): Generator<string[]> {
-  const { depth, extension } = { ...walkOptionsDefault, ...options };
+  const { depth, extension } = { extension: MARKDOWN_EXTENSION, ...options };
   if (accumulator.length === depth) return;
   if (existsSync(directory)) {
     // NOTE Looping over the stream requires the `--downlevelIteration` flag

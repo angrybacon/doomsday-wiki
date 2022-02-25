@@ -20,7 +20,7 @@ export const getMenu: GetMenu = () => {
     {}
   );
   return MENU_ENTRIES.map((category) => {
-    const pages = [...menu[category]];
+    const pages: Document[] = [...menu[category]];
     // NOTE Sort chapters by frontmatter `order`.
     //      Does not support order above 99.
     pages.sort(

@@ -6,8 +6,9 @@ import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
-import { getMarkdown, getPartials } from '@/tools/markdown/getMarkdown';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
+import { getPartials } from '@/tools/markdown/getPartials';
 import type { Markdown, Menu, Partials } from '@/tools/markdown/types';
 
 interface Props {
