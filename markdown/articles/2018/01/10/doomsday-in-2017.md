@@ -1,5 +1,6 @@
 ---
 authors: Doishy
+banner: GP
 title: Doomsday in 2017
 ---
 

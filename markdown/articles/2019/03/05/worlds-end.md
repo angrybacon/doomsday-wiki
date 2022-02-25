@@ -1,5 +1,6 @@
 ---
 authors: Doishy
+banner: EF
 title: The World's End - An Experimental Frenzy
 ---
 

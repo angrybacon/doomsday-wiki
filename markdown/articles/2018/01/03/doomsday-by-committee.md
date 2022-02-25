@@ -1,5 +1,6 @@
 ---
 authors: Doishy, d8dk32
+banner: DD
 title: Doomsday by Committee, Setting the Scene
 ---
 

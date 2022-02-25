@@ -1,6 +1,6 @@
 ---
 authors: Knox
-banner: EF
+banner: AoI
 title: Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
 ---
 

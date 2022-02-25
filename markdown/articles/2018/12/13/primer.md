@@ -1,5 +1,6 @@
 ---
 authors: d8dk32
+banner: Cruel Bargain
 title: Draw4 Primer
 ---
 

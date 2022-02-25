@@ -1,5 +1,6 @@
 ---
 authors: Doishy
+banner: Dueling Grounds
 title: "Dueling Doomsday: Clash in Cymru"
 ---
 
@@ -7,10 +8,11 @@ title: "Dueling Doomsday: Clash in Cymru"
 
 One week prior to the event our local Legacy Judgette suddenly fired out info of
 a GPT, one of those hasn't been seen in ages, but it's Legacy and
-it's local.  
+it's local.
+
 Saturday the 7th of April: 19 players converged into Firestorm games despite the
-short notice and terrible weather (like wow it was bad). Five rounds of Swiss
-with cut to Top 8. Thanks to the lovely judges we gave the full metagame
+short notice and terrible weather (like wow it was bad). Five rounds of swiss
+with cut to top 8. Thanks to the lovely judges we gave the full metagame
 breakdown:
 
 - Standstill
@@ -253,7 +255,7 @@ It was everything everyone dreams of.
 
 ![Game faces](/media/pictures/2018.mirror.one.jpeg)
 
-> Ape (Front) feeling the pressure as Doishy (Back) gets super srs.
+> Ape (front) feeling the pressure as Doishy (back) gets super serious
 
 Game 1 he displays superior die skills and both of us wreck the hands of the
 other. He manages to Doomsday first but it's a bluff and he sets up an easy PTT

@@ -44,6 +44,7 @@ export const SHORTHANDS: Record<string, string> =
   Mm:   'Manamorphose',
   PT:   'Personal Tutor',
   Pdt:  'Predict',
+  PiF:  'Past in Flames',
   Pnd:  'Ponder',
   PoN:  'Pact of Negation',
   Pre:  'Preordain',

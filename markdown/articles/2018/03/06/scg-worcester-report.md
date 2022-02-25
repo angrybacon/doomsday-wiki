@@ -1,5 +1,6 @@
 ---
 authors: d8dk32
+banner: DD | MP2
 title: "The End of the World at SCG Worcester: A Tale of Heroic Courage and Crushing Defeat"
 ---
 
@@ -14,7 +15,7 @@ I drive an hour and a half to a teammate's house where we condense into 2 cars
 use this time to try to sleep a bit more but instead we screech along to Limp
 Bizkit songs and "What's New, Pussycat" as sung by Tom Jones and Engelbert
 Humperdinck and arrive at the venue feeling refreshed and ready for 9 grueling
-rounds of magic. I scribble out this decklist:
+rounds of Magic. I scribble out this decklist:
 
 ::decklist{path=2018/03/ddft.ubrg}
 
@@ -295,7 +296,7 @@ get up to shower.
 
 We grab breakfast and walk over to the venue. I sell a few EDH staples I'll
 never use and get a foil Lab Maniac and a foil Empty the Warrens. Then I
-scribble out my decklist for the legacy Classic. I decided to drop the green
+scribble out my decklist for the Legacy Classic. I decided to drop the green
 splash this time, to compare the two versions.
 
 ::decklist{path=2018/03/ddft.ubr}
