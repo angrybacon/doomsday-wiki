@@ -26,6 +26,10 @@ export const useStyles = makeStyles((theme: Theme) =>
         borderTopStyle: 'solid',
         borderTopWidth: 1,
         marginTop: BANNER_OFFSET,
+        [theme.breakpoints.only('xs')]: {
+          borderBottomLeftRadius: 0,
+          borderBottomRightRadius: 0,
+        },
       },
     },
     subtitle: {

@@ -17,7 +17,7 @@ export const useStyles = makeStyles((theme: Theme) =>
     root: {
       backgroundColor:
         // NOTE Add a dark background to blend the blurring effect
-        theme.palette.mode === 'light' ? theme.palette.grey[700] : undefined,
+        theme.palette.grey[theme.palette.mode === 'light' ? 600 : 800],
       overflow: 'hidden',
       position: 'relative',
     },
