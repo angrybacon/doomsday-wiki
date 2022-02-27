@@ -1,7 +1,7 @@
 import { GetStaticProps, NextPage } from 'next';
 import NextLink from 'next/link';
 import React from 'react';
-import { mdiAccount, mdiCalendar, mdiFileDocument } from '@mdi/js';
+import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
@@ -50,9 +50,10 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
                 divider={index < articles.length - 1}
               >
                 <ListItemAvatar>
-                  <Avatar>
-                    <Icon path={mdiFileDocument} size={1} />
-                  </Avatar>
+                  <Avatar
+                    alt={matter.bannerData?.title}
+                    src={matter.bannerData?.art}
+                  />
                 </ListItemAvatar>
                 <ListItemText
                   classes={{ secondary: classes.secondary }}
