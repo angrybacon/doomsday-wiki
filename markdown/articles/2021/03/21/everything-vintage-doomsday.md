@@ -1,6 +1,7 @@
 ---
 authors: Jacobisboss
 banner: Ancestral Recall
+kind: ARTICLE
 title: Everything Doomsday (Vintage)
 ---
 

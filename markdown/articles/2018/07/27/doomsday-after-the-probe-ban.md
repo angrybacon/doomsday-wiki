@@ -1,6 +1,7 @@
 ---
 authors: d8dk32
 banner: PiF
+kind: ARTICLE
 title: Doomsday after the Probe Ban
 ---
 

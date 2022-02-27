@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: GP
+kind: ARTICLE
 title: Doomsday in 2017
 ---
 

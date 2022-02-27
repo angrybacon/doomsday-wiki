@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: DR
+kind: ARTICLE
 title: The History of Doomsday - An interview with Emidln
 ---
 

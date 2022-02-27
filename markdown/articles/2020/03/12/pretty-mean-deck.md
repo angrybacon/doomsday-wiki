@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: TO
+kind: ARTICLE
 title: Is the World Ending? - A Pretty Mean Deck for 2020
 ---
 

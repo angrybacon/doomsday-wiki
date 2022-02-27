@@ -1,6 +1,7 @@
 ---
 authors: d8dk32
 banner: EoE
+kind: PRIMER
 title: Echoes of the Past - A Doomsday Deck for the Roaring Twenties
 ---
 

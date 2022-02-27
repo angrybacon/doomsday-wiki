@@ -1,6 +1,7 @@
 ---
 authors: d8dk32
 banner: SotV
+kind: PRIMER
 title: Have No Fear, the Mindkiller is Here
 ---
 

@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: Miscalculation
+kind: ARTICLE
 title: Doomsday by Numbers
 ---
 

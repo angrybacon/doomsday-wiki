@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: Duress | STA | 92
+kind: REPORT
 title: "Legacy at Axion's Mega Weekend - Winner's Report and Metagame Discussion"
 ---
 

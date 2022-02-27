@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: EF
+kind: REPORT
 title: The World's End - An Experimental Frenzy
 ---
 
@@ -227,4 +228,4 @@ on Epitaph Records*
 So welcome to a potential new world of degenerate combo. It might not be lean.
 It might not be pretty. It might not even be good. But whilst the Experimental
 Frenzy buzz is on a high, I will be enjoying trying to cast Doomsday once more
-and maybe, just maybe, DDFT can evolve into DDEFT (Still pronounced the same).
+and maybe, just maybe, DDFT can evolve into DDEFT (still pronounced the same).

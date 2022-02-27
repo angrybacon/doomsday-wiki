@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: DD
+kind: ARTICLE
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 

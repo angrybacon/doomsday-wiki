@@ -1,6 +1,7 @@
 ---
 authors: d8dk32
 banner: ToA
+kind: ARTICLE
 title: DDFT Brews for 2021
 ---
 

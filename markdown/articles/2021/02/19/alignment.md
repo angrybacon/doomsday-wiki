@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: IU
+kind: ARTICLE
 title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
 ---
 

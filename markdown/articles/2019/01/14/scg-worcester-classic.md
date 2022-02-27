@@ -1,6 +1,7 @@
 ---
 authors: d8dk32
 banner: CB
+kind: REPORT
 title: Stages of Grief - Doomsday at the SCG Worcester Classic
 ---
 

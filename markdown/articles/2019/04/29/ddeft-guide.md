@@ -1,6 +1,7 @@
 ---
 authors: Knox
 banner: AoI
+kind: PRIMER
 title: Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
 ---
 
@@ -25,7 +26,7 @@ James, also known as ApeofJustice on the Doomsday Discord server, got 6th place
 in a MTGO challenge on April 14th, 2019 with :card[Experimental Frenzy]
 Doomsday.
 
-## Current Decklist
+## Decklist
 
 ::decklist{path=2019/04/ddeft}
 

@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: Dueling Grounds
+kind: REPORT
 title: "Dueling Doomsday: Clash in Cymru"
 ---
 

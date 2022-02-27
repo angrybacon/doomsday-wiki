@@ -1,6 +1,7 @@
 ---
 authors: d8dk32
 banner: SotV
+kind: PRIMER
 title: "50-Matches Kumite: Mindkiller Kata"
 ---
 

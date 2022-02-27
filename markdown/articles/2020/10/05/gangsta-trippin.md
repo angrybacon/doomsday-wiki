@@ -1,6 +1,7 @@
 ---
 authors: Doishy
 banner: BS | MMQ
+kind: ARTICLE
 title: "Gangster Trippin' - Cantrip Discipline in Doomsday (and Legacy in general)"
 ---
 
