@@ -1,4 +1,5 @@
 import type { Kind } from '@/tools/markdown/constants/Kind';
+import type { Tag } from '@/tools/markdown/constants/Tag';
 import type { Scries } from '@/tools/scryfall/types';
 
 export interface Banner {
@@ -36,6 +37,7 @@ export interface Matter {
   date: string | null;
   kind: Kind;
   order?: number;
+  tags?: Tag[];
   title: string;
 }
 

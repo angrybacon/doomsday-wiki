@@ -6,7 +6,10 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
+import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
+import { ArticleKind } from '@/components/ArticleKind/ArticleKind';
+import { ArticleTag } from '@/components/ArticleTag/ArticleTag';
 import type { Matter } from '@/tools/markdown/types';
 import { useStyles } from './Article.styles';
 
@@ -16,7 +19,7 @@ export interface Props {
 }
 
 export const Article: FunctionComponent<Props> = ({ matter, route }) => {
-  const { authors, bannerData, date, title } = matter;
+  const { authors, bannerData, date, kind, tags, title } = matter;
   const classes = useStyles();
 
   if (!bannerData) return null;
@@ -32,24 +35,27 @@ export const Article: FunctionComponent<Props> = ({ matter, route }) => {
           <CardContent className={classes.content}>
             <Typography variant="h6">{title}</Typography>
             <Box className={classes.details}>
-              {authors && (
-                <Box
-                  fontSize="caption.fontSize"
-                  sx={{ alignItems: 'center', display: 'flex' }}
-                >
-                  <Icon path={mdiAccount} size={0.7} />
-                  <Box sx={{ ml: 0.5 }}>{authors}</Box>
-                </Box>
-              )}
-              {date && (
-                <Box
-                  fontSize="caption.fontSize"
-                  sx={{ alignItems: 'center', display: 'flex' }}
-                >
-                  <Icon path={mdiCalendar} size={0.7} />
-                  <Box sx={{ ml: 0.5 }}>{date}</Box>
-                </Box>
-              )}
+              <div className={classes.tags}>
+                {authors && (
+                  <Chip
+                    classes={{ root: classes.tagFilled }}
+                    icon={<Icon path={mdiAccount} size={0.5} />}
+                    label={authors}
+                    size="small"
+                  />
+                )}
+                {date && (
+                  <Chip
+                    classes={{ root: classes.tagFilled }}
+                    icon={<Icon path={mdiCalendar} size={0.5} />}
+                    label={date}
+                    size="small"
+                  />
+                )}
+                {!!tags?.length &&
+                  tags.map((tag) => <ArticleTag key={tag} tag={tag} />)}
+              </div>
+              <ArticleKind className={classes.kind} kind={kind} />
             </Box>
           </CardContent>
         </CardActionArea>

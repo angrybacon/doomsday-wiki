@@ -2,6 +2,7 @@
 authors: d8dk32
 banner: DD | MP2
 kind: REPORT
+tags: [LEGACY, DDFT]
 title: "The End of the World at SCG Worcester: A Tale of Heroic Courage and Crushing Defeat"
 ---
 

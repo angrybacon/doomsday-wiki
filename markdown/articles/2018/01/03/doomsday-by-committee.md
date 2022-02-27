@@ -2,6 +2,7 @@
 authors: Doishy, d8dk32
 banner: DD
 kind: ARTICLE
+tags: [LEGACY, DDFT]
 title: Doomsday by Committee, Setting the Scene
 ---
 

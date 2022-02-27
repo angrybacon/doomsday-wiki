@@ -2,13 +2,14 @@ import c from 'classnames';
 import React, { FunctionComponent, HTMLAttributes } from 'react';
 import Chip, { ChipTypeMap } from '@mui/material/Chip';
 import { Kind } from '@/tools/markdown/constants/Kind';
-import { useStyles } from './ArticleChip.styles';
+import { useStyles } from './ArticleKind.styles';
 
 interface Props {
+  className?: string;
   kind: Kind;
 }
 
-export const ArticleChip: FunctionComponent<Props> = ({ kind }) => {
+export const ArticleKind: FunctionComponent<Props> = ({ className, kind }) => {
   const classes = useStyles();
 
   const configuration: Record<
@@ -22,7 +23,7 @@ export const ArticleChip: FunctionComponent<Props> = ({ kind }) => {
 
   const properties = {
     ...configuration[kind],
-    className: c(classes.root, configuration[kind].className),
+    className: c(classes.root, configuration[kind].className, className),
   };
 
   return <Chip size="small" {...properties} />;

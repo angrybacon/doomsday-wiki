@@ -2,7 +2,8 @@
 authors: Doishy
 banner: Daze
 kind: ARTICLE
-title: Fat Stacks - Obtaining Maximum Value from Your Interaction
+tags: [LEGACY, MEANDECK]
+title: "Fat Stacks: Obtaining Maximum Value from Your Interaction"
 ---
 
 With the tumultuous start to the year now easing up a little and Lurrus/the

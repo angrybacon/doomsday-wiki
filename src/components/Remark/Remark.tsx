@@ -39,7 +39,7 @@ export const Remark: FunctionComponent<Props> = ({
     remarkDirective,
     remarkGfm,
     remarkSlug,
-    [remarkToc, { maxDepth: 4, ordered: true, tight: true }],
+    [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
   ];
 
   /**

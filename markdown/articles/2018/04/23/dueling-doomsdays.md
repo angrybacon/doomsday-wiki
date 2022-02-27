@@ -2,6 +2,7 @@
 authors: Doishy
 banner: Dueling Grounds
 kind: REPORT
+tags: [LEGACY, DDFT]
 title: "Dueling Doomsday: Clash in Cymru"
 ---
 

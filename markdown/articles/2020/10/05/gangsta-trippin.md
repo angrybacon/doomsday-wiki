@@ -2,7 +2,8 @@
 authors: Doishy
 banner: BS | MMQ
 kind: ARTICLE
-title: "Gangster Trippin' - Cantrip Discipline in Doomsday (and Legacy in general)"
+tags: [LEGACY, MEANDECK]
+title: "Gangster Trippin': Cantrip Discipline in Doomsday"
 ---
 
 Everyone who has forayed into Legacy will know that the blue *xerox* shell is

@@ -2,6 +2,7 @@
 authors: Doishy
 banner: Miscalculation
 kind: ARTICLE
+tags: [LEGACY, DDFT]
 title: Doomsday by Numbers
 ---
 

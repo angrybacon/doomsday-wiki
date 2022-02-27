@@ -2,6 +2,7 @@
 authors: d8dk32
 banner: SotV
 kind: PRIMER
+tags: [LEGACY, DDFT]
 title: "50-Matches Kumite: Mindkiller Kata"
 ---
 

@@ -2,7 +2,8 @@
 authors: Knox
 banner: AoI
 kind: PRIMER
-title: Piles with Experimental Frenzy Doomsday - A Beginner's Guide to Becoming a Barista
+tags: [LEGACY, DDEFT]
+title: "Piles with Experimental Frenzy Doomsday: A Beginner's Guide to Becoming a Barista"
 ---
 
 Since the banning of Gitaxian probe on July 2nd of 2018, Doomsday had not seen

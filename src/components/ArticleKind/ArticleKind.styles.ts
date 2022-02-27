@@ -14,8 +14,6 @@ export const useStyles = makeStyles((theme: Theme) =>
     },
     root: {
       color: theme.palette.common.white,
-      cursor: 'unset',
-      display: 'block',
     },
   })
 );

@@ -2,7 +2,8 @@
 authors: Doishy
 banner: TO
 kind: ARTICLE
-title: Is the World Ending? - A Pretty Mean Deck for 2020
+tags: [LEGACY, MEANDECK]
+title: Is the World Ending? A Pretty Mean Deck for 2020
 ---
 
 Hi everyone, it's safe to say, (especially looking at the article history from

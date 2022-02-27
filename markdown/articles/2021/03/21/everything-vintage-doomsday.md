@@ -2,7 +2,8 @@
 authors: Jacobisboss
 banner: Ancestral Recall
 kind: ARTICLE
-title: Everything Doomsday (Vintage)
+tags: [VINTAGE, MEANDECK]
+title: Everything Doomsday
 ---
 
 *Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort
@@ -14,7 +15,9 @@ for writing.*
 [singpanman]: https://twitter.com/unbanGush
 [discovern]: https://twitter.com/discoverN6
 
-## Part 1: Maindeck Configuration and Why no Cavern of Souls
+## Table of Contents
+
+## Maindeck Configuration and Why no Cavern of Souls
 
 Decklist can be found [here](https://www.mtggoldfish.com/deck/3818519#paper) or
 below:
@@ -61,7 +64,7 @@ especially in something like the mirror.
 - Portent
 :::
 
-## Part 2: Sideboard Configuration and Sideboard Guide
+## Sideboard Configuration and Sideboard Guide
 
 *With Bart van Etten and Max Vervoort*
 
@@ -219,7 +222,7 @@ Gush/Recall, :card[Black Lotus], Oracle, Fluster, Wraith/second Oracle, etc.,
 I've decided to show different puzzles on beating more challenging hate pieces
 and piles you can make to do that.
 
-## Part 3: Playing vs. Breach
+## Playing vs. Breach
 
 *With discoverN*
 
@@ -261,7 +264,7 @@ Our hand is:
 - DR
 :::
 
-## Part 4: Playing vs. BUG
+## Playing vs. BUG
 
 *With SingPanMan*
 
@@ -306,7 +309,7 @@ pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 - Island
 :::
 
-## Part 5: Playing vs. Bant
+## Playing vs. Bant
 
 *With discoverN*
 
@@ -348,7 +351,7 @@ the following turns?
 - Island
 :::
 
-## Part 6: Playing vs. Shops
+## Playing vs. Shops
 
 *With Jacobisboss*
 

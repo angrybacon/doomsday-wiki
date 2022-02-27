@@ -76,6 +76,14 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
           },
         },
       },
+      MuiChip: {
+        styleOverrides: {
+          iconMedium: { marginLeft: spacing(1) },
+          iconSmall: { marginLeft: spacing(0.5) },
+          root: { cursor: 'unset' },
+          sizeSmall: { fontSize: typography.caption.fontSize },
+        },
+      },
       MuiContainer: {
         styleOverrides: {
           root: {

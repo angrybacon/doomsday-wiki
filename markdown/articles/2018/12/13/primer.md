@@ -2,6 +2,7 @@
 authors: d8dk32
 banner: Cruel Bargain
 kind: PRIMER
+tags: [LEGACY, DDFT]
 title: Draw4 Primer
 ---
 

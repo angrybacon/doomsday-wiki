@@ -6,6 +6,10 @@ import { Kind } from '@/tools/markdown/constants/Kind';
 
 jest.mock('@/components/Article/Article.styles');
 
+jest.mock('@/components/ArticleKind/ArticleKind', () => ({
+  ArticleKind: () => <div />,
+}));
+
 describe(Article.name, () => {
   let props: Props;
 
@@ -19,7 +23,7 @@ describe(Article.name, () => {
       },
       route: '/path/to/article',
     };
-    (useStyles as jest.Mock).mockReturnValueOnce({});
+    (useStyles as jest.Mock).mockReturnValue({ palette: {} });
   });
 
   it('should render nothing when no banner is provided', () => {

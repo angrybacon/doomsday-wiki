@@ -2,7 +2,8 @@
 authors: Doishy
 banner: Consider
 kind: REPORT
-title: Doomsday at the Legacy Pit Open - An Interview with RomarioVidal
+tags: [LEGACY, MEANDECK]
+title: "Doomsday at the Legacy Pit Open: An Interview with RomarioVidal"
 ---
 
 ## Table of Contents

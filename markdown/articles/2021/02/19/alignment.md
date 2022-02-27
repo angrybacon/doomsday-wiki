@@ -2,7 +2,8 @@
 authors: Doishy
 banner: IU
 kind: ARTICLE
-title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
+tags: [LEGACY, MEANDECK]
+title: "The Doomsday Alignment Chart: Different Styles of Deckbuilding"
 ---
 
 > Preface: This article was in fact written before the banning of Arcum's
@@ -10,8 +11,9 @@ title: The Doomsday Alignment Chart - Different Styles of Deckbuilding
 > because people were interested in it so apologies! I did add some edits in
 > italics to try and give some more relevancy.
 >
-> Stay Safe x x x  
-> Doishy
+> Stay Safe x x x
+>
+> &mdash; Doishy
 
 ## Introduction
 

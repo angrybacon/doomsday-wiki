@@ -2,6 +2,7 @@
 authors: Doishy
 banner: DD
 kind: ARTICLE
+tags: [LEGACY, DDFT, DDEFT, MEANDECK]
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
 ---
 
@@ -14,28 +15,9 @@ article](/articles/2020/03/12/pretty-mean-deck), which you should really have a
 read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
-1. The different Doomsday archetypes
-   1. DDFT
-   1. DDEFT
-   1. Meandeck
-1. Card Choices
-   1. Doomsday
-   1. Mana Acceleration and Fixing
-   1. Cantrips
-   1. Protection
-   1. Combo Pieces
-   1. Manabase
-   1. Sideboard
-1. Colour Choices
-   1. White
-   1. Red
-   1. Green
-   1. No Splash
-1. The Mechanics of Resolving Doomsday
-1. Learning "Piles"
-1. Additional Content Available
+## Table of Contents
 
-## 1. The Different Doomsday Archetypes
+## The Different Doomsday Archetypes
 
 Although it wasn't always the case, it seems currently the most popular medium
 for discussing specific Legacy archetypes (at the time of writing) is via
@@ -55,7 +37,7 @@ deck building decisions and in terms of personal preferences or gameplay styles.
 I will present the three main variants below with the current Discord summary
 and a bit more comparison on each.
 
-### 1.1 DDFT (DoomsDay Fetchland Tendrils)
+### DDFT (DoomsDay Fetchland Tendrils)
 
 *Lists that utilise traditional elements such as Burning Wish, some sort of draw
 3/4 engine and focus on a Storm style approach to winning (however do not always
@@ -86,7 +68,7 @@ example pile below:
 Due to the cards used, the deck tends to be Grixis colours sometimes splashing
 Green for sideboard options.
 
-### 1.2 DDEFT (Doomsday Experimental Frenzy Tendrils)
+### DDEFT (DoomsDay Experimental Frenzy Tendrils)
 
 *Lists that utilise Experimental Frenzy as the primary engine to win.*
 
@@ -114,7 +96,7 @@ top of the deck you are playing from).
 Due to the cards used, this deck also tends to be Grixis colours sometimes
 splashing Green for sideboard options.
 
-### 1.3 Meandeck Doomsday (we couldn't decide on a good acronym for this one)
+### Meandeck Doomsday
 
 *Lists that are less combo focused and incorporate reactive countermagic such as
 Force of Will within their game plan.*
@@ -138,7 +120,7 @@ win conditions either. An example pile is below:
 **Note**: At the time of writing this article, this variant is the one having
 most success in tournaments.
 
-## 2. Card Choices
+## Card Choices
 
 One thing newer players always ask is "what is the standard list being played".
 This is a difficult question to answer due to the flexibility of the deck to
@@ -158,7 +140,7 @@ considerations for all three variants as there are common factors between them.
 
 [league]: https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-league-2020-03-21
 
-### 2.1 Doomsday
+### Doomsday
 
 Now it seems a bit superfluous to mention but the first part, and the main link
 between the variants, is the namesake card itself; :card[Doomsday]. No matter
@@ -186,7 +168,7 @@ flooded with redundant copies.
 - EF
 :::
 
-### 2.2 Mana Acceleration and Fixing
+### Mana Acceleration and Fixing
 
 As the primary win condition for the deck is a 3 mana card, this can be quite a
 struggle to get to in a format like Legacy where resource efficiency is prized
@@ -242,7 +224,7 @@ a steady rate and favouring resilience over speed within the gameplan. If you
 are running Astrolabe it should be between 2-4 however higher numbers are
 recommended.
 
-### 2.3 Cantrips
+### Cantrips
 
 Cantrips are a staple of almost any Legacy deck that runs {U} and this one is no
 exception. Just like other combo variants, Doomsday wants to find the pieces it
@@ -294,7 +276,7 @@ the standard 8 plus 3-4 Preordain. Unlike DDFT any Astrolabe being run would be
 in addition to Preordains, not instead of. The lists also run between 1-2 Street
 Wraith and 1-2 Edge of Autumn.
 
-### 2.4 Protection
+### Protection
 
 No combo deck wants to run into potential permission without first having some
 sort of guard up (except maybe Belcher). Interaction is part of what makes
@@ -351,7 +333,7 @@ These can be, depending on the splash colours run, any ratio of discard, veils,
 chant effects, soft counters or similar and sometimes include pieces of maindeck
 removal like :card[Abrupt Decay] too.
 
-### 2.5 Combo Pieces
+### Combo Pieces
 
 Although the deck is normally a *one card combo* there are certain other pieces
 needed to make it work it the most efficient way possible. These are often cards
@@ -416,7 +398,7 @@ it provides a life-free alternative to drawing one card deeper into the Doomsday
 pile. Finally the win condition is 1-2 Thassa's Oracles. Often it is run as a
 singleton main with an additional copy in the sideboard.
 
-### 2.6 Manabase
+### Manabase
 
 Being a combo deck, Doomsday does not need to run as many lands as some of it's
 fairer {U} cousins. Depending on how fast you intend to try and win and how much
@@ -462,7 +444,7 @@ Underground Seas, 1 of each splash dual (so for {W} 1 :card[Tundra] and 1
 Splash Basic. Some pilots also elect to run a toolbox land such as a
 :card[Cavern of Souls], :card[Mystic Sanctuary] or :card[Silent Clearing].
 
-### 2.7 Sideboard
+### Sideboard
 
 Across all the variants and pilots the styles of sideboards can vary
 dramatically. Some tailor completely to facing other matchups, some include some
@@ -476,7 +458,7 @@ and gut feelings. As a result going into it fully now would be rushing it and it
 likely deserves a piece all to itself. As a result I will not be discussing
 sideboards fully here however some options will be explored in the next section.
 
-## 3. Colour Choices
+## Colour Choices
 
 Doomsday decks have some interesting choices when it comes to what colours to
 run within them. Doomsday itself is a card costing {B}{B}{B} so that immediately
@@ -492,7 +474,7 @@ in terms of tools.
 **Meandeck** Normally {U}{B}{G} or {U}{B}{W} with the option to splash {W}, {R}
 or {G}.
 
-### 3.1 White
+### White
 
 White is almost exclusively played in Meandeck lists however you could easily
 incorporate it into DDFT. Maindeck, {W} provides protection spells mostly in the
@@ -510,7 +492,7 @@ gain some additional graveyard hate options in the form of :card[RiP].
 
 Teferi and Mentor are probably the biggest boons for playing {W}.
 
-### 3.2 Red
+### Red
 
 Red is obviously a staple for DDEFT and often for DDFT too. It enables
 :card[Burning Wish] in the main deck as a tutor for both the combo elements and
@@ -523,7 +505,7 @@ matchup.
 
 Empty the Warrens and Red Blasts are the biggest boons for playing {R}.
 
-### 3.3 Green
+### Green
 
 Green provides a slightly cheaper package in terms of mana cost. Maindeck it
 provides access to protection in the form of :card[Veil of Summer] and super
@@ -541,7 +523,7 @@ Veil and Decay are the biggest boons for playing {G}.
 - AD
 :::
 
-### 3.4 No Splash
+### No Splash
 
 There is some potential for running a straight {U}{B} list with no splash
 colours. For a speed focused list, use of :card[Wishclaw Talisman] and
@@ -564,7 +546,7 @@ Budget and consistent mana is the biggest boon for playing straight {U}{B}.
 - DW
 :::
 
-## 4. The Mechanics of Resolving Doomsday
+## The Mechanics of Resolving Doomsday
 
 We will now move away from the construction of the deck and have a quick look at
 the mechanical elements required to actually resolve the card Doomsday. This may
@@ -644,7 +626,7 @@ the basics down first. Once you have done that you can start to train yourself
 on some puzzles or at least have the confidence to face interaction without
 worrying about becoming your own enemy.
 
-## 5. Learning *Piles*
+## Learning *Piles*
 
 There is one final point I wish to touch on which is learning Doomsday piles
 (sometimes referred to as stacks). The first questions that people tend to ask
@@ -667,7 +649,7 @@ If in doubt, practice makes perfect! 100 games trying to build and construct
 piles on the fly are much better than trying to memorise 100 potential piles by
 rote.
 
-## 6. Additional Content Available
+## Additional Content Available
 
 If you want even more content please check out our
 [resources](/appendices/resources) page which includes a list of community

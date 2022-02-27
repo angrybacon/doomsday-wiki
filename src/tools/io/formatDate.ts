@@ -20,9 +20,10 @@ export const formatDate: FormatDate = (year, month, day) => {
     month ? parseInt(month, 10) - 1 : 0,
     day ? parseInt(day, 10) : 1
   );
+  const isCurrentYear = new Date().getFullYear() === parseInt(year, 10);
   return date.toLocaleDateString(undefined, {
-    year: 'numeric',
-    ...(month && { month: 'long' }),
+    year: isCurrentYear ? undefined : 'numeric',
+    ...(month && { month: 'short' }),
     ...(day && { day: 'numeric' }),
   });
 };

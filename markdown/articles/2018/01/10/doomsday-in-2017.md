@@ -2,6 +2,7 @@
 authors: Doishy
 banner: GP
 kind: ARTICLE
+tags: [LEGACY, DDFT]
 title: Doomsday in 2017
 ---
 

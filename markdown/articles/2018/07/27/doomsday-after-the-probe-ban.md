@@ -2,6 +2,7 @@
 authors: d8dk32
 banner: PiF
 kind: ARTICLE
+tags: [LEGACY, DDFT]
 title: Doomsday after the Probe Ban
 ---
 

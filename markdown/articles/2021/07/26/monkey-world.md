@@ -2,6 +2,7 @@
 authors: OtterLady
 banner: PoN
 kind: ARTICLE
+tags: [LEGACY, MEANDECK]
 title: Fish and Tendrils. Food for Thought in a World Full of Monkeys
 ---
 

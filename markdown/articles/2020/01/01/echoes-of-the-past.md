@@ -2,7 +2,8 @@
 authors: d8dk32
 banner: EoE
 kind: PRIMER
-title: Echoes of the Past - A Doomsday Deck for the Roaring Twenties
+tags: [LEGACY, DDFT]
+title: "Echoes of the Past: A Doomsday Deck for the Roaring Twenties"
 ---
 
 2019 was a good year for Doomsday. Experimental Frenzy was integral to a massive

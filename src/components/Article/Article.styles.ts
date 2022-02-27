@@ -11,12 +11,12 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
     },
     details: {
-      alignItems: 'center',
-      color: alpha(theme.palette.common.white, 0.7),
       display: 'flex',
-      '& > :not(:first-child)': {
-        marginLeft: theme.spacing(1),
-      },
+      justifyContent: 'space-between',
+      marginTop: theme.spacing(0.5),
+    },
+    kind: {
+      marginLeft: theme.spacing(0.5),
     },
     root: {
       backgroundPosition: 'center',
@@ -38,6 +38,19 @@ export const useStyles = makeStyles((theme: Theme) =>
           borderBottomLeftRadius: 0,
           borderBottomRightRadius: 0,
         },
+      },
+    },
+    tagFilled: {
+      backgroundColor: alpha(theme.palette.common.white, 0.2),
+      '& > *': {
+        color: `${theme.palette.common.white} !important`,
+      },
+    },
+    tags: {
+      margin: theme.spacing(-0.25),
+      '& > *': {
+        color: theme.palette.common.white,
+        margin: theme.spacing(0.25),
       },
     },
   })
