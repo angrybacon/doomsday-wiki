@@ -1,4 +1,7 @@
-import { MENU_DECORATIONS, MENU_ENTRIES } from '@/tools/markdown/constants';
+import {
+  MENU_DECORATIONS,
+  MENU_ENTRIES,
+} from '@/tools/markdown/constants/Menu';
 import { getChapters } from '@/tools/markdown/getChapters';
 import type { Document, Menu } from '@/tools/markdown/types';
 

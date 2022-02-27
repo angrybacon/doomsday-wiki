@@ -8,7 +8,7 @@ import { Markdown } from '@/tools/markdown/types';
 import {
   BASE_MARKDOWN_URL,
   MARKDOWN_EXTENSION,
-} from '@/tools/markdown/constants';
+} from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { remarkScryfall } from '@/tools/remark/remarkScryfall';
 import type { Scries } from '@/tools/scryfall/types';

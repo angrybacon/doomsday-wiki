@@ -1,7 +1,10 @@
 import {
+  amber,
   deepPurple as primary,
   grey,
   pink as secondary,
+  purple,
+  teal,
 } from '@mui/material/colors';
 import { Theme, ThemeOptions, alpha, createTheme } from '@mui/material/styles';
 import '@fontsource/libre-baskerville';
@@ -13,6 +16,14 @@ interface DrawerOptions {
 }
 
 declare module '@mui/material/styles' {
+  interface Palette {
+    articleKinds: { article: string; primer: string; report: string };
+  }
+
+  interface PaletteOptions {
+    articleKinds: { article: string; primer: string; report: string };
+  }
+
   interface Theme {
     drawer: DrawerOptions;
   }
@@ -29,6 +40,7 @@ declare module '@mui/material/styles/createMixins' {
   }
 }
 
+// NOTE Necessary until migrating to `@mui/system`
 declare module '@mui/styles' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
   interface DefaultTheme extends Theme {}
@@ -145,6 +157,11 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
 
 export const darkTheme: Theme = createTheme({
   palette: {
+    articleKinds: {
+      article: amber[700],
+      primer: teal[400],
+      report: purple[400],
+    },
     background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
     primary,
@@ -154,6 +171,11 @@ export const darkTheme: Theme = createTheme({
 
 export const lightTheme: Theme = createTheme({
   palette: {
+    articleKinds: {
+      article: amber.A700,
+      primer: teal.A700,
+      report: purple.A100,
+    },
     background: { default: grey[50] },
     mode: 'light',
     primary,

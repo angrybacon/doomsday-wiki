@@ -5,7 +5,8 @@ import { walk } from '@/tools/io/walk';
 import {
   BASE_ARTICLE_URL,
   MARKDOWN_EXTENSION,
-} from '@/tools/markdown/constants';
+} from '@/tools/markdown/constants/Files';
+import { Kind } from '@/tools/markdown/constants/Kind';
 import { getBanner } from '@/tools/markdown/getBanner';
 import type { Banner, Document, Matter } from '@/tools/markdown/types';
 
@@ -23,25 +24,36 @@ export const getArticles: GetArticles = async (options) => {
     : 'reduceRight';
   const files = Array.from(walk(BASE_ARTICLE_URL, { depth: 4 }));
   const documents = files[reduceFunction]<Document[]>((accumulator, crumbs) => {
+    // TODO Warn against orphan files
     // NOTE Only consider complete paths ie. [year, month, day, article]
     if (crumbs.length === 4) {
       const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
       const { data } = readMarkdown(path);
       const [year, month, day, slug] = crumbs;
       const date = formatDate(year, month, day);
-      if (!data.title || typeof data.title !== 'string') {
-        throw new Error(`Missing title for article at "${path}"`);
-      }
       if (!data.banner || typeof data.banner !== 'string') {
-        throw new Error(`Missing banner for article at "${path}"`);
+        throw new Error(`Missing 'banner' property for article at "${path}"`);
       }
-      const matter = { ...data, date } as Matter;
+      if (!data.kind || typeof data.kind !== 'string') {
+        throw new Error(`Missing 'kind' property for article at "${path}"`);
+      }
+      const kinds: Kind[] = Object.values(Kind);
+      // @ts-expect-error Type is not known yet.
+      if (!kinds.includes(data.kind)) {
+        const kindValues = `['${kinds.join("', '")}']`;
+        throw new Error(
+          `Wrong 'kind' property for article at "${path}". Expected one of: ${kindValues}, got "${data.kind}"`
+        );
+      }
+      if (!data.title || typeof data.title !== 'string') {
+        throw new Error(`Missing 'title' property for article at "${path}"`);
+      }
+      const matter = { ...data, bannerData: undefined, date } as Matter;
       // @ts-expect-error Warm up promise in a temporary property.
       matter._bannerPromise = getBanner(data.banner);
       const route = ['/articles', ...crumbs].join('/');
       return [...accumulator, { crumbs, matter, route, slug }];
     }
-    // TODO Warn against orphan files
     return accumulator;
   }, []);
   for (const document of documents) {

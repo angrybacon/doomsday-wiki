@@ -1,3 +1,4 @@
+import type { Kind } from '@/tools/markdown/constants/Kind';
 import type { Scries } from '@/tools/scryfall/types';
 
 export interface Banner {
@@ -5,14 +6,15 @@ export interface Banner {
   title: string;
 }
 
-export type Category = 'appendices' | 'ddeft' | 'meandeck' | 'ddft';
-
-export interface CategoryMeta {
+export interface Category {
   icon?: string;
-  id?: Category;
+  id?: CategoryId;
   subtitle?: string;
   title: string;
 }
+
+// TODO Prefer an enum
+export type CategoryId = 'appendices' | 'ddeft' | 'ddft' | 'meandeck';
 
 export interface Document {
   crumbs: string[];
@@ -32,10 +34,11 @@ export interface Matter {
   banner?: string;
   bannerData?: Banner;
   date: string | null;
+  kind: Kind;
   order?: number;
   title: string;
 }
 
-export type Menu = (CategoryMeta & { pages: Document[] })[];
+export type Menu = (Category & { pages: Document[] })[];
 
 export type Partials = Record<string, Markdown>;

@@ -16,7 +16,7 @@ export const remarkDecklist: Plugin<[{ decklists: Decklists }]> =
       const path: string | undefined = directive.attributes?.path;
       if (path) {
         if (!decklists[path]) {
-          console.error(`[remark] Missing decklist for path '${path}'`);
+          console.error(`[remark] Missing decklist "${path}"`);
         }
         directive.data = {
           ...directive.data,
@@ -25,6 +25,8 @@ export const remarkDecklist: Plugin<[{ decklists: Decklists }]> =
             ...decklists[path],
           },
         };
+      } else {
+        console.error(`[remark] Missing 'path' attribute in decklist`);
       }
     });
   };

@@ -20,7 +20,7 @@ import { useStyles } from './RemarkAccordion.styles';
 
 export interface Props extends ReactMarkdownProps {
   decklists: Decklists;
-  markdown: Markdown;
+  markdown?: Markdown;
   partials: Partials;
   path: string;
 }
@@ -33,6 +33,7 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
   path,
 }) => {
   const classes = useStyles();
+  if (!markdown) return null;
   const title = children ?? path;
   return (
     <div className={classes.root}>

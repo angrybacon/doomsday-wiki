@@ -16,12 +16,12 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import type { CategoryMeta, Document } from '@/tools/markdown/types';
+import type { Category, Document } from '@/tools/markdown/types';
 import { useStyles } from './Entry.styles';
 
 type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
 
-type Props = CategoryMeta & { children?: never } & (
+type Props = Category & { children?: never } & (
     | { component?: ElementType; pages?: never }
     | { component?: never; pages: Document[] }
   );

@@ -1,6 +1,6 @@
 import { existsSync, readdirSync } from 'fs';
 import { join, parse } from 'path';
-import { MARKDOWN_EXTENSION } from '@/tools/markdown/constants';
+import { MARKDOWN_EXTENSION } from '@/tools/markdown/constants/Files';
 
 interface WalkOptions {
   depth?: number;

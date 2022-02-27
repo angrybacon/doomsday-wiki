@@ -4,7 +4,7 @@ import { Markdown, Partials } from '@/tools/markdown/types';
 import {
   BASE_PARTIALS_URL,
   MARKDOWN_EXTENSION,
-} from '@/tools/markdown/constants';
+} from '@/tools/markdown/constants/Files';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
 
 type GetPartials = () => Promise<Partials>;

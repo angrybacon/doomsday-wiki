@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Article, Props } from '@/components/Article/Article';
 import { useStyles } from '@/components/Article/Article.styles';
+import { Kind } from '@/tools/markdown/constants/Kind';
 
 jest.mock('@/components/Article/Article.styles');
 
@@ -13,6 +14,7 @@ describe(Article.name, () => {
       matter: {
         bannerData: { art: '', title: '' },
         date: null,
+        kind: Kind.ARTICLE,
         title: 'Article Title',
       },
       route: '/path/to/article',
