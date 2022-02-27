@@ -52,6 +52,7 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
                 <ListItemAvatar>
                   <Avatar
                     alt={matter.bannerData?.title}
+                    imgProps={{ loading: 'lazy' }}
                     src={matter.bannerData?.art}
                   />
                 </ListItemAvatar>
