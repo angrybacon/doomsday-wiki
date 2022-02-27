@@ -4,19 +4,18 @@ import { createStyles, makeStyles } from '@mui/styles';
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     article: {
-      borderColor: 'unset',
-      color: theme.palette.articleKinds.article,
-      cursor: 'unset',
+      backgroundColor: theme.palette.articleKinds.article,
     },
     primer: {
-      borderColor: 'unset',
-      color: theme.palette.articleKinds.primer,
-      cursor: 'unset',
+      backgroundColor: theme.palette.articleKinds.primer,
     },
     report: {
-      borderColor: 'unset',
-      color: theme.palette.articleKinds.report,
+      backgroundColor: theme.palette.articleKinds.report,
+    },
+    root: {
+      color: theme.palette.common.white,
       cursor: 'unset',
+      display: 'block',
     },
   })
 );

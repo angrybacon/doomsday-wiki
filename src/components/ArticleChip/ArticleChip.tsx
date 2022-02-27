@@ -1,3 +1,4 @@
+import c from 'classnames';
 import React, { FunctionComponent, HTMLAttributes } from 'react';
 import Chip, { ChipTypeMap } from '@mui/material/Chip';
 import { Kind } from '@/tools/markdown/constants/Kind';
@@ -10,7 +11,7 @@ interface Props {
 export const ArticleChip: FunctionComponent<Props> = ({ kind }) => {
   const classes = useStyles();
 
-  const properties: Record<
+  const configuration: Record<
     Kind,
     ChipTypeMap['props'] & HTMLAttributes<HTMLDivElement>
   > = {
@@ -19,5 +20,10 @@ export const ArticleChip: FunctionComponent<Props> = ({ kind }) => {
     [Kind.REPORT]: { className: classes.report, label: 'Report' },
   };
 
-  return <Chip size="small" variant="outlined" {...properties[kind]} />;
+  const properties = {
+    ...configuration[kind],
+    className: c(classes.root, configuration[kind].className),
+  };
+
+  return <Chip size="small" {...properties} />;
 };

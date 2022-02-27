@@ -7,13 +7,21 @@ const BANNER_OFFSET = 80;
 export const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     content: {
+      color: theme.palette.common.white,
       padding: theme.spacing(2),
+    },
+    details: {
+      alignItems: 'center',
+      color: alpha(theme.palette.common.white, 0.7),
+      display: 'flex',
+      '& > :not(:first-child)': {
+        marginLeft: theme.spacing(1),
+      },
     },
     root: {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
-      color: theme.palette.common.white,
       overflow: 'hidden',
       position: 'relative',
       '& $content': {
@@ -30,13 +38,6 @@ export const useStyles = makeStyles((theme: Theme) =>
           borderBottomLeftRadius: 0,
           borderBottomRightRadius: 0,
         },
-      },
-    },
-    subtitle: {
-      marginTop: theme.spacing(0.5),
-      opacity: 0.75,
-      '& > :not(:first-child)': {
-        marginLeft: theme.spacing(0.5),
       },
     },
   })

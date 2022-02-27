@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
     secondary: {
       alignItems: 'center',
       display: 'flex',
-      marginTop: 0.5,
+      marginTop: theme.spacing(0.25),
       '& > :not(:first-child)': {
         marginLeft: theme.spacing(1),
       },
@@ -68,7 +68,9 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => {
                   }
                   secondaryTypographyProps={{ variant: 'caption' }}
                 />
-                <ArticleChip kind={matter.kind} />
+                <Box sx={{ ml: 1 }}>
+                  <ArticleChip kind={matter.kind} />
+                </Box>
               </ListItem>
             </NextLink>
           ))}

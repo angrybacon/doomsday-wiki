@@ -158,7 +158,7 @@ export const darkTheme: Theme = createTheme({
     articleKinds: {
       article: amber[700],
       primer: teal[400],
-      report: purple[400],
+      report: purple[300],
     },
     background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
