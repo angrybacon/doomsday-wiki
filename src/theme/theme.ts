@@ -88,12 +88,10 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       },
       MuiCssBaseline: {
         styleOverrides: {
-          '@global': {
-            em: {
-              fontFamily: 'Libre Baskerville, serif',
-              fontSize: '0.9em',
-              fontStyle: 'italic',
-            },
+          em: {
+            fontFamily: 'Libre Baskerville, serif',
+            fontSize: '0.9em',
+            fontStyle: 'italic',
           },
         },
       },
