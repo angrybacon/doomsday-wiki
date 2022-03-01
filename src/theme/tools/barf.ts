@@ -6,7 +6,7 @@ type Barf = (theme: Theme) => CSSProperties;
 export const barf: Barf = (theme) => ({
   marginLeft: theme.spacing(-3),
   marginRight: theme.spacing(-3),
-  [theme.breakpoints.only('xs')]: {
+  [theme.breakpoints.down('sm')]: {
     marginLeft: theme.spacing(-2),
     marginRight: theme.spacing(-2),
   },

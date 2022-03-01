@@ -26,5 +26,5 @@ export const ArticleKind: FunctionComponent<Props> = ({ className, kind }) => {
     className: c(classes.root, configuration[kind].className, className),
   };
 
-  return <Chip size="small" {...properties} />;
+  return <Chip size="small" variant="outlined" {...properties} />;
 };

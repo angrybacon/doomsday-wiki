@@ -17,7 +17,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(3),
       paddingBottom: 0,
     },
-    [theme.breakpoints.only('xs')]: {
+    [theme.breakpoints.down('sm')]: {
       container: {
         marginBottom: theme.spacing(2),
         marginTop: theme.spacing(2),

@@ -1,10 +1,10 @@
 import {
-  amber,
+  amber as article,
   deepPurple as primary,
   grey,
   pink as secondary,
-  purple,
-  teal,
+  purple as report,
+  teal as primer,
 } from '@mui/material/colors';
 import { Theme, ThemeOptions, alpha, createTheme } from '@mui/material/styles';
 import '@fontsource/libre-baskerville';
@@ -78,8 +78,8 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       },
       MuiChip: {
         styleOverrides: {
-          iconMedium: { marginLeft: spacing(1) },
-          iconSmall: { marginLeft: spacing(0.5) },
+          iconMedium: { marginLeft: spacing(1.6) },
+          iconSmall: { marginLeft: spacing(0.8) },
           root: { cursor: 'unset' },
           sizeSmall: { fontSize: typography.caption.fontSize },
         },
@@ -87,7 +87,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       MuiContainer: {
         styleOverrides: {
           root: {
-            [breakpoints.only('xs')]: {
+            [breakpoints.down('sm')]: {
               paddingLeft: 0,
               paddingRight: 0,
             },
@@ -103,6 +103,11 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
           },
         },
       },
+      MuiDivider: {
+        defaultProps: {
+          role: 'presentation',
+        },
+      },
       MuiLink: {
         styleOverrides: {
           root: {
@@ -115,7 +120,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
         styleOverrides: {
           rounded: {
             borderRadius: borderRadiusPaper,
-            [breakpoints.only('xs')]: { borderRadius: 0 },
+            [breakpoints.down('sm')]: { borderRadius: 0 },
           },
         },
       },
@@ -164,9 +169,9 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
 export const darkTheme: Theme = createTheme({
   palette: {
     articleKinds: {
-      article: amber[700],
-      primer: teal[400],
-      report: purple[300],
+      article: article.A700,
+      primer: primer.A700,
+      report: report.A700,
     },
     background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
@@ -178,9 +183,9 @@ export const darkTheme: Theme = createTheme({
 export const lightTheme: Theme = createTheme({
   palette: {
     articleKinds: {
-      article: amber.A700,
-      primer: teal.A700,
-      report: purple.A100,
+      article: article.A400,
+      primer: primer.A400,
+      report: report.A400,
     },
     background: { default: grey[50] },
     mode: 'light',

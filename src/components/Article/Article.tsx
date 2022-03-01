@@ -31,10 +31,10 @@ export const Article: FunctionComponent<Props> = ({ matter, route }) => {
       title={bannerData.title}
     >
       <NextLink href={route} passHref>
-        <CardActionArea>
+        <CardActionArea className={classes.button}>
           <CardContent className={classes.content}>
             <Typography variant="h6">{title}</Typography>
-            <Box className={classes.details}>
+            <Box className={classes.secondary}>
               <div className={classes.tags}>
                 {authors && (
                   <Chip

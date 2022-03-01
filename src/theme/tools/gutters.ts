@@ -6,7 +6,7 @@ type Gutters = (theme: Theme) => CSSProperties;
 export const gutters: Gutters = (theme) => ({
   paddingLeft: theme.spacing(3),
   paddingRight: theme.spacing(3),
-  [theme.breakpoints.only('xs')]: {
+  [theme.breakpoints.down('sm')]: {
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(2),
   },
