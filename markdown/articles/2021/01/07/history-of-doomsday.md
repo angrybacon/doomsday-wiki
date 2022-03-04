@@ -415,12 +415,12 @@ really taking effect. 4 Brainstorm, 4 Top, 4 Ponder and 4 Street Wraith became a
 staple build with Wraith allowing you to grab any card fetched from Mystical
 Tutor in the same turn as a *build your own :card[Demonic Tutor]* type affair.
 
-It was also around this time that Emidln and Wastedlife set up the stormboards.
+It was also around this time that Emidln and Wastedlife set up the Stormboards.
 BZK was a team affiliated site with other people who worked on seperate teams
 not wanting to share testing results or tech. Because of this, Emidln wanted to
 set up a non-team affiliated space where people who loved all sorts of Storm
 combo could discuss things freely. Here he was later joined by other active
-users including prominent french player Lejay.
+users including prominent French player Lejay.
 
 Within this new forum, and with other online spaces becoming more active,
 players were able to really develop the fundamentals of Legacy Storm. It is also
@@ -660,32 +660,33 @@ involving multiple Ideas Unbounds and Emrakul to enable shuffle.
 - IU
 :::
 
-Lejay from a stormboards post in 2010:
+Lejay from a Stormboards post in 2010:
 
 > The Unbound Emrakul piles:
 >
-> These 2 piles require a second ideas unbound either in the main or sb (or both
+> These 2 piles require a second Ideas Unbound either in the main or sb (or both
 > main) and a SdT in play.
 >
-> Relic of progenitus, IU, (or BW + 1R), LED, Emrakul, IU (or BW +1R)
+> Relic of Progenitus, IU, (or BW + {1}{R}), LED, Emrakul, IU (or BW + {1}{R})
 >
 > Pile A, pass the turn  
-> Mana: UUUU2. You need no card in hand or a LED to discard.  
-> Pile B, with cantrip  
-> Mana: UUUUU2. You need a brainstorm/ponder in hand and no other card or a LED
-> to discard.
+> Mana: {2}{U}{U}{U}{U}. You need no card in hand or a LED to discard.
 >
-> For both pile: Draw and play relic. Activate it (last window to discard your
-> hand with LED) removing graveyards and cantriping into Ideas unbound. Play
-> ideas unbound to draw Emrakul, LED and Ideas unbound with no cards in library.
+> Pile B, with cantrip  
+> Mana: {2}{U}{U}{U}{U}{U}. You need a Brainstorm/Ponder in hand and no other
+> card or a LED to discard.
+>
+> For both piles: draw and play relic. Activate it (last window to discard your
+> hand with LED) removing graveyards and cantripping into Ideas unbound. Play
+> Ideas Unbound to draw Emrakul, LED and Ideas unbound with no cards in library.
 > Play LED. Play ideas unbound and in response sacrifice LED to discard Emrakul
-> and shuffle your graveyard into your library. Ideas unbound resolves giving
-> you Emrakul, LED and Ideas unbound with +1 mana. You have a loop. When you
+> and shuffle your graveyard into your library. Ideas Unbound resolves giving
+> you Emrakul, LED and Ideas Unbound with +1 mana. You have a loop. When you
 > have enough mana you can just play LED and crack it to shuffle the four cards
-> in your library. Then activate top. If Emrakul is in top three you just have
-> to draw and hardcast it. Otherwise draw an ideas unbound and play it. Play the
-> top and tap it to get Emrakul. So 3/4 of the time you are completely safe, and
-> 1/4 of the time this pile will need the opponent to be at 15 life or less.
+> in your library. Then activate Top. If Emrakul is in top three you just have
+> to draw it and hardcast it. Otherwise draw an Ideas Unbound and play it. Play
+> the Top and tap it to get Emrakul. So 3/4 of the time you are completely safe,
+> and 1/4 of the time this pile will need the opponent to be at 15 life or less.
 >
 > &mdash; [Lejay](https://teamstormboards.proboards.com/post/3053/thread)
 
@@ -1227,7 +1228,7 @@ Back in M14 a card had been printed which had been considered by Emidln and
 other members but had been found to be lacking. With the successful testing of
 Three Wishes by a lot of the active members, it was a Japanese player who first
 tried the next the key to success. Suzuki Yuuto (Singpanman on MTGO) is a
-Japanese player who had gained a reputation from users on the stormboards for
+Japanese player who had gained a reputation from users on the Stormboards for
 playing some really spicy DDFT variants. He has been seen to be trying all sorts
 of nonsense however one particular card that appeared was taken note of. That
 card was :card[Act on Impulse]. Act provided the exact same effect as Three

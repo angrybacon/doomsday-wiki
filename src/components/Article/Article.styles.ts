@@ -18,7 +18,7 @@ export const useStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
     },
     kind: {
-      marginLeft: theme.spacing(0.5),
+      marginLeft: theme.spacing(1),
     },
     root: {
       backgroundPosition: 'center',
