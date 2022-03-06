@@ -1,36 +1,28 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Article, Props } from '@/components/Article/Article';
-import { useStyles } from '@/components/Article/Article.styles';
+import { ArticleCard, Props } from '@/components/ArticleCard/ArticleCard';
 import { Kind } from '@/tools/markdown/constants/Kind';
 
-jest.mock('@/components/Article/Article.styles');
-
-jest.mock('@/components/ArticleKind/ArticleKind', () => ({
-  ArticleKind: () => <div />,
-}));
-
-describe(Article.name, () => {
+describe(ArticleCard.name, () => {
   let props: Props;
 
   beforeEach(() => {
     props = {
+      href: '/path/to/article',
       matter: {
         bannerData: { art: '', title: '' },
         date: null,
         kind: Kind.ARTICLE,
         title: 'Article Title',
       },
-      route: '/path/to/article',
     };
-    (useStyles as jest.Mock).mockReturnValue({ palette: {} });
   });
 
   it('should render nothing when no banner is provided', () => {
     // Given
     props.matter.bannerData = undefined;
     // When
-    const { container } = render(<Article {...props} />);
+    const { container } = render(<ArticleCard {...props} />);
     // Then
     expect(container).toBeEmptyDOMElement();
   });
@@ -39,7 +31,7 @@ describe(Article.name, () => {
     // Given
     props.matter.title = 'New Article Title';
     // When
-    render(<Article {...props} />);
+    render(<ArticleCard {...props} />);
     // Then
     expect(screen.getByText(props.matter.title)).toBeInTheDocument();
   });
@@ -48,7 +40,7 @@ describe(Article.name, () => {
     // Given
     props.matter.authors = 'Foo, Bar';
     // When
-    render(<Article {...props} />);
+    render(<ArticleCard {...props} />);
     // Then
     expect(screen.getByText(props.matter.authors)).toBeInTheDocument();
   });
@@ -57,7 +49,7 @@ describe(Article.name, () => {
     // Given
     props.matter.date = 'January 1, 1970';
     // When
-    render(<Article {...props} />);
+    render(<ArticleCard {...props} />);
     // Then
     expect(screen.getByText(props.matter.date)).toBeInTheDocument();
   });
@@ -69,7 +61,7 @@ describe(Article.name, () => {
       const bannerTitle = 'Banner title';
       props.matter.bannerData = { art: bannerArt, title: bannerTitle };
       // When
-      const { container } = render(<Article {...props} />);
+      const { container } = render(<ArticleCard {...props} />);
       // Then
       const element = container.firstChild;
       expect(element).toHaveStyle(`background-image: url(${bannerArt})`);

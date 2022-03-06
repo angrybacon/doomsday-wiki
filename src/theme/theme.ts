@@ -6,30 +6,29 @@ import {
   purple as report,
   teal as primer,
 } from '@mui/material/colors';
-import { Theme, ThemeOptions, alpha, createTheme } from '@mui/material/styles';
+import { Theme, alpha, createTheme } from '@mui/material/styles';
 import '@fontsource/libre-baskerville';
+import type { Kind } from '@/tools/markdown/constants/Kind';
 import { barf } from '@/theme/tools/barf';
 import { gutters } from '@/theme/tools/gutters';
 
-interface DrawerOptions {
-  width: number;
-}
-
 declare module '@mui/material/styles' {
   interface Palette {
-    articleKinds: { article: string; primer: string; report: string };
+    dividerOpaque: string;
+    document: Record<Kind, string>;
   }
 
   interface PaletteOptions {
-    articleKinds: { article: string; primer: string; report: string };
+    dividerOpaque: string;
+    document: Record<Kind, string>;
   }
 
   interface Theme {
-    drawer: DrawerOptions;
+    drawer: { width: string };
   }
 
   interface ThemeOptions {
-    drawer: DrawerOptions;
+    drawer?: { width: string };
   }
 }
 
@@ -168,28 +167,30 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
 
 export const darkTheme: Theme = createTheme({
   palette: {
-    articleKinds: {
+    background: { default: '#121212', paper: grey[900] },
+    dividerOpaque: grey[900],
+    document: {
       article: article.A700,
       primer: primer.A700,
-      report: report.A700,
+      report: report.A400,
     },
-    background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
     primary,
     secondary,
   },
-} as ThemeOptions);
+});
 
 export const lightTheme: Theme = createTheme({
   palette: {
-    articleKinds: {
-      article: article.A400,
-      primer: primer.A400,
-      report: report.A400,
-    },
     background: { default: grey[50] },
+    dividerOpaque: grey[300],
+    document: {
+      article: article.A700,
+      primer: primer.A700,
+      report: report.A700,
+    },
     mode: 'light',
     primary,
     secondary,
   },
-} as ThemeOptions);
+});

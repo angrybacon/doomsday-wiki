@@ -1,5 +1,5 @@
 export enum Kind {
-  ARTICLE = 'ARTICLE',
-  PRIMER = 'PRIMER',
-  REPORT = 'REPORT',
+  ARTICLE = 'article',
+  PRIMER = 'primer',
+  REPORT = 'report',
 }

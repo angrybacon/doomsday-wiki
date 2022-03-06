@@ -14,6 +14,7 @@ const Application = ({ Component, pageProps }: AppProps): JSX.Element => (
         name="viewport"
       />
     </Head>
+    {/* TODO Remove once fully migrated to `emotion` */}
     <StyledEngineProvider injectFirst>
       <ThemeProvider>
         <CssBaseline />
