@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Daze
 - Force of Will
 - Sneak Attack
@@ -9,7 +9,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 - Flusterstorm
 - Red Elemental Blast

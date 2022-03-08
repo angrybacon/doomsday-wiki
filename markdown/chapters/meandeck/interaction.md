@@ -53,7 +53,7 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 > {U} + Brainstorm + Thassa's Oracle
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Pnd
@@ -107,7 +107,7 @@ Consider the following:
 > {U}{U}{U} + Ponder + Island  
 > Land drop available
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - SW
 - EoA
@@ -159,7 +159,7 @@ generate enough mana to cast everything we want. If we use LED our Oracle
 becomes exposed thanks to having to discard our Forces. Here is one potential
 solution assuming we played Doomsday off of Swamp and Dark Ritual:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - Tsz
 - LED
@@ -180,7 +180,7 @@ them to a scenario whereby before, we had not considered facing interaction
 fully. You can do a similar scenario where you have initiated off of Bayou with
 Veil of Summer instead.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - VoS
 - LED
@@ -234,7 +234,7 @@ not playing against a deck running Wasteland effects. Because of this we can
 guarantee to have UU available on our turn. As a result we can build a pile like
 so:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -261,7 +261,7 @@ piles.
 
 > {U} + Brainstorm + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - LED
 - EoA
@@ -278,7 +278,7 @@ Likewise it can slot into most IU piles too.
 
 > {U}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - CoS
@@ -311,7 +311,7 @@ Doomsday. From that point you don't have to cast a single one mana spell.
 
 > {U}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -321,7 +321,7 @@ Doomsday. From that point you don't have to cast a single one mana spell.
 
 > {1}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - Dur
 - LED
@@ -345,7 +345,7 @@ lands into the pile itself.
 > {U}{U}{U} + Cantrip  
 > Land drop available
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - SW
 - Island
@@ -368,7 +368,7 @@ PTT example against a Chalice of the Void.
 
 > {U}{B}{G} + Brainstorm + X + PTT
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AD
 - LED
 - EoA
@@ -394,7 +394,7 @@ cyclers, to try and become as mana efficient as possible. This is especially
 good when knowing you don't face removal as often the Oracle itself is not
 taxed:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - EoA
 - TO
@@ -435,7 +435,7 @@ costing {1}{U} it allows you to *dig* up to three cards deep into the pile.
 Something like the following may be useful facing an opposing Narset for example
 (spread over multiple turns):
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - Pdt
 - EoA
@@ -503,7 +503,7 @@ a pile. Let us take the following scenario:
 
 > {U}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -542,7 +542,7 @@ a possibility to be considered.
 
 > {U}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - EoA
 - TO
@@ -569,7 +569,7 @@ an unexpected interaction you may not have considered before. If something does
 
 ### Grindstone
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Grindstone
 :::
 
@@ -581,7 +581,7 @@ opponent may try to activate the Grindstone but it is possible to play around.
 
 > {U}{U} + ({U}{U}) + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - Pnd
 - SW
@@ -604,7 +604,7 @@ Dementia], :card[Ipnu Rivulet] and :card[Cephalid Coliseum].
 
 ### Fireblast
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Fireblast
 :::
 
@@ -620,7 +620,7 @@ loss.
 
 ### Mindbreak Trap
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Mindbreak Trap
 :::
 
@@ -632,7 +632,7 @@ Doomsday, it is risky to try and resolve a third spell.
 
 Consider the following:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Tsz
 - LP
@@ -649,7 +649,7 @@ spells. If you suspect a Mindbreak Trap in the opponent's hand, with three lands
 available on the following turn you can go Dark Ritual into Doomsday and pass
 the turn building the following:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - EoA
 - LP
@@ -664,7 +664,7 @@ effects should it be desired.
 
 ### Thought Scour / Predict / Archmage's Charm
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Thought Scour
 - Pdt
 - Archmage's Charm
@@ -682,7 +682,7 @@ taking a bit more time to play around it.
 
 ### Dack Fayden / Jace, the Mind Sculptor / Portent
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Dack Fayden
 - Jace, the Mind Sculptor
 - Portent
@@ -696,7 +696,7 @@ allow it to stay on top you can still execute the pile without hindrance.
 
 ### Vendilion Clique / Kolaghan's Command
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Vendilion Clique
 - Kolaghan's Command
 :::
@@ -713,7 +713,7 @@ your opponent being able to *snipe* an LED with the artifact destruction mode.
 
 ### Stifle / Trickbind / Torpor Orb / Dress Down
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Stifle
 - Trickbind
 - Torpor Orb
@@ -731,7 +731,7 @@ use example of these effects.
 
 ### Thoughtseize / Thoughtknot Seer / Cabal Therapy
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Tsz
 - Thoughtknot Seer
 - CT
@@ -745,7 +745,7 @@ pile.
 
 ### Ragavan, Nimble Pilferer
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 :::
 
@@ -763,7 +763,7 @@ Consider the following example from the basics chapter.
 
 > {U}{U} + PTT
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -776,7 +776,7 @@ placing the SW as the first card.
 
 > {U}{U} + PTT
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - IU
 - LP

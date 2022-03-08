@@ -1,23 +1,29 @@
 import React from 'react';
 import type { Components } from 'react-markdown';
-import Typography from '@mui/material/Typography';
-import { useStyles } from './RemarkImage.styles';
+import { Box, Typography } from '@mui/material';
 
 export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
-  const classes = useStyles();
   if (!rest.src) return null;
   const description: string | undefined = title || rest.alt;
   return (
     <>
-      <span className={classes.root}>
-        {/* eslint-disable-next-line jsx-a11y/alt-text  */}
-        <img className={classes.image} {...rest} title={description} />
-      </span>
+      <Box
+        sx={(theme) => ({
+          ...theme.mixins.barf,
+          border: 1,
+          borderColor: 'divider',
+          borderLeft: 0,
+          borderRight: 0,
+          img: { display: 'block', width: 1 },
+        })}
+      >
+        <img alt={description} {...rest} title={description} />
+      </Box>
       {description && (
         <Typography
-          className={classes.description}
           color="textSecondary"
           component="em"
+          sx={{ display: 'block', mt: 1, textAlign: 'center' }}
           variant="caption"
         >
           {description}

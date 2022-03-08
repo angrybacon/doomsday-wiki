@@ -31,7 +31,7 @@ A simple version of the pile looks like this:
 
 > Enough life to live for 2 turns post-DD
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SI
 - Em
 - Island
@@ -56,7 +56,7 @@ pass 1 turn.
 If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - SI
 - Em
@@ -83,7 +83,7 @@ situations. Lets look at a few example:
 > Tropical Island, Underground Sea on board, no cantrips in hand, Opponent has
 > Chalice@2 - {B}{G} + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AD
 - SW
 - TO
@@ -109,7 +109,7 @@ for example you got hit with Wasteland.
 
 > No mana on board, no cards in hand - {0}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Pnd
@@ -131,7 +131,7 @@ you pass 2 turns, you can win from literally nothing but a couple life.
 
 > Plenty of lands/mana on board - {B}{B}{B}{B}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Dur
 - Dur
 - Dur
@@ -158,7 +158,7 @@ sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
 
 > Ponder, LED, LED in hand - {B}{B}{B} + {U} - 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BW
 - Dur
 - Dur
@@ -175,7 +175,7 @@ they deal with your opponent.
 
 > Ponder, LED in hand - {B}{B}{B} + {1}{U} + {B}{B}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LED
@@ -200,7 +200,7 @@ Doomsday, but is included here for the sake of completeness.
 
 > {B}{U}{U}, 3 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SotV
 - Mm
 - Mm
@@ -220,7 +220,7 @@ an empty library so removal is ineffective.
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} + 3 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LP
 - SotV
@@ -258,7 +258,7 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 
 > 2 cards in hand - {1}{U}{U}{R} + ({1}{R}) - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED

@@ -39,12 +39,6 @@ declare module '@mui/material/styles/createMixins' {
   }
 }
 
-// NOTE Necessary until migrating to `@mui/system`
-declare module '@mui/styles' {
-  // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  interface DefaultTheme extends Theme {}
-}
-
 declare module '@mui/system/createTheme/shape' {
   interface Shape {
     borderRadiusPaper: number;
@@ -69,10 +63,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       },
       MuiCardContent: {
         styleOverrides: {
-          root: {
-            padding: spacing(3),
-            ...gutters(theme),
-          },
+          root: { padding: spacing(3), ...gutters(theme) },
         },
       },
       MuiChip: {
@@ -100,6 +91,10 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
             fontSize: '0.9em',
             fontStyle: 'italic',
           },
+          'ol, ul': {
+            listStylePosition: 'outside',
+            paddingLeft: spacing(4),
+          },
         },
       },
       MuiDivider: {
@@ -121,6 +116,11 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
             borderRadius: borderRadiusPaper,
             [breakpoints.down('sm')]: { borderRadius: 0 },
           },
+        },
+      },
+      MuiTooltip: {
+        styleOverrides: {
+          tooltip: { textAlign: 'center' },
         },
       },
       MuiTypography: {

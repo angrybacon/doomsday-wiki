@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Wasteland
 - Spirit of the Labyrinth
 - Meddling Mage
@@ -12,7 +12,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ethersworn Canonist
 - Force of Negation
 :::

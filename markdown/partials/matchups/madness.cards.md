@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Anger
 - Vengevine
 - Burning Inquiry
@@ -8,6 +8,6 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Mindbreak Trap
 :::

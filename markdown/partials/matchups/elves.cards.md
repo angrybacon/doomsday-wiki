@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Allosaurus Shepherd
 - Archon of Valor's Reach
 - Crop Rotation
@@ -9,7 +9,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Collector Ouphe
 - Thoughtseize

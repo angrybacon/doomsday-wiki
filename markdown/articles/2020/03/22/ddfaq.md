@@ -57,7 +57,7 @@ to kill via a Doomsday pile with lethal :card[Tendrils of Agony] or
 :card[Thassa's Oracle] or a natural Tendrils storm kill without Doomsday. See an
 example pile below:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -80,7 +80,7 @@ get through infinite life should you wish. The deck can pull off the same win
 methods as DDFT but also allows winning via infinite copies of :card[Collective
 Brutality] amongst other things (see example below).
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -109,7 +109,7 @@ less dedicated combo pieces such as :card[Lion's Eye Diamond] and more reactive
 control elements like :card[Force of Will]. The deck does not run Storm based
 win conditions either. An example pile is below:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - Pnd
 - EoA
@@ -163,7 +163,7 @@ A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DD
 - EF
 :::
@@ -198,7 +198,7 @@ does not lose card advantage whilst playing it.
 You may note I have not yet discussed :card[Lion's Eye Diamond] here, this will
 be covered in *Combo Pieces*.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DR
 - LP
 - Arcum's Astrolabe
@@ -243,7 +243,7 @@ Autumn] however more on those later. Combine these with some of the cantripping
 protection elements and more niche *combo cards* like :card[Conjurer's Bauble]
 you should end up with a very high cantrip number.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pnd
 - BS
 - Pdt
@@ -294,7 +294,7 @@ are running these are all options available to a Doomsday pilot. Normally you
 would want at least 8 pieces of protection maindeck with additional sideboard
 slots dedicated to more specific interaction.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Tsz
 - FoW
 - VoS
@@ -357,7 +357,7 @@ Brutality]. :card[Burning Wish] can also take this spot as it can tutor up a
 Tendrils if needed. You want to run as few *dead* cards as possibly and
 generally the win condition is counted as such so you only want 1-2 of them.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - ToA
 - LED
 - TO
@@ -418,7 +418,7 @@ Tarn or 3 Tarn and 1 Bloodstained Mire. Being able to fetch a basic Island is
 more crucial than a basic swamp as that tends to allow you to get into the game
 in the first place and the majority of your deck is {U} based cantrips anyways.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Island|RAV
 - Underground Sea|LEB
 - Swamp|RAV
@@ -517,7 +517,7 @@ Crowns] as a potential option or :card[Uro, Titan of Nature's Wrath].
 
 Veil and Decay are the biggest boons for playing {G}.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Monastery Mentor|FRF
 - Pyroblast|ICE
 - AD
@@ -542,7 +542,7 @@ Pierce], :card[Force of Negation] and :card[Flusterstorm].
 
 Budget and consistent mana is the biggest boon for playing straight {U}{B}.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DW
 :::
 
@@ -558,7 +558,7 @@ A large part of the confusion for the physical resolution of it stems from the
 wording on the original Weatherlight printing of :card[Doomsday]. See the card
 below along with the original rules text printed:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Doomsday|WTH
 :::
 
@@ -581,7 +581,7 @@ that it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Doomsday|A25
 :::
 

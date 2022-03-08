@@ -32,7 +32,7 @@ Let's look at some basic examples.
 
 > {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -51,7 +51,7 @@ chapter, simply using the draw step in place of a cantrip to draw into the pile.
 
 > {B}{B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LP
 - LP
@@ -70,7 +70,7 @@ here the draw step replaces a cantrip.
 
 > Lion's Eye Diamond on the board - {0}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - IU
 - LP
@@ -88,7 +88,7 @@ encounter at some point.
 
 > Ponder in hand - {U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LP
@@ -117,7 +117,7 @@ you read this section.
 
 > 2 cards in hand - {U}{U} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -144,7 +144,7 @@ there is a chance your opponent draws a fresh hand full of interaction.
 
 > LED, LP on board - {1}{U}{U} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - DD
@@ -157,7 +157,7 @@ there is a chance your opponent draws a fresh hand full of interaction.
 2. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
 3. Construct the following new pile:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LP
@@ -183,7 +183,7 @@ opponent any new cards, so it has some appealing aspects.
 
 > 5 lands in play - {1}{B}{B}{B}{B} - 5 Storm + 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - Rain of Filth
 - CR
@@ -201,7 +201,7 @@ mana producers in hand the onboard requirements are easier to manage.
 
 > DR in hand, PiF in sideboard - {B}{B}{R}{R} - 10 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR

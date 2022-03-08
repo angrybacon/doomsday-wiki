@@ -30,7 +30,7 @@ These are as follows:
 1. Draw into your pile enough so that the Oracle's trigger can win you the game
 1. Resolve Thassa's Oracle
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DD
 - TO
 :::
@@ -41,7 +41,7 @@ Other decks like Omnitell have similar transferable skills in order to resolve a
 specific key spell however it is the *pile* construction that is often the
 trickiest element of playing the deck for newer players of the archetype.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pre
 - SW
 :::
@@ -96,7 +96,7 @@ explore more of this in another chapter.
 
 > {U}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -116,7 +116,7 @@ Wraith for :card[Edge of Autumn] if you are low on life or a Lotus Petal for a
 
 > {1}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - Pnd
 - LED
@@ -139,7 +139,7 @@ Once the cycle draw resolves, you will now have the mana to cast Oracle.
 
 > Cantrip + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LP
@@ -147,7 +147,7 @@ Once the cycle draw resolves, you will now have the mana to cast Oracle.
 - TO
 :::
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Pdt
 - SW
@@ -171,7 +171,7 @@ spells or who are holding something like :card[Stifle] up.
 
 > {U} + Consider
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DA
 - LED
 - SW
@@ -190,7 +190,7 @@ Similarly, you can replace the Consider in hand with a cycling effect.
 
 > {U} + Cycler
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Consider
 - DA
 - LED
@@ -211,7 +211,7 @@ the second cantrip to dig deeper into your pile while cracking the LED for mana.
 
 > Cantrip + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - EoA
@@ -233,7 +233,7 @@ Deep Analysis and LED can be interchanged:
 
 > Lion's Eye Diamond + Cycler
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DA
 - SW
 - SW
@@ -275,7 +275,7 @@ the examples above:
 
 > PTT
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - SW
 - LED
@@ -287,7 +287,7 @@ Or
 
 > PTT + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LP
@@ -306,7 +306,7 @@ of using LED you can set up something like this:
 
 > PTT + PTT
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - SW
 - LP

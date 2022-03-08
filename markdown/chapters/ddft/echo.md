@@ -30,7 +30,7 @@ graveyard.
 
 > LED, Echo in hand - {B}{B}{B} - 10 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LP
 - LED
@@ -62,7 +62,7 @@ the piles work.
 
 > Echo, Ponder in hand - {B}{B}{B} + {U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LP
 - LP
@@ -83,7 +83,7 @@ take a look at an example.
 
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - EoE
 - LED
 - LED
@@ -108,7 +108,7 @@ extra cards in hand.
 
 > LED, Echo, and 2 useless cards in hand - {B}{B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LP
 - LP
@@ -135,7 +135,7 @@ into the pile.
 
 > LED, Echo, Oracle in hand - {B}{B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LP
 - LP
@@ -157,7 +157,7 @@ you to kill with :card[Grapeshot]
 
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - EoE
 - LED
 - LED

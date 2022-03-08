@@ -42,7 +42,7 @@ piles are:
 
 > SW in hand - {B}{B}{B} + {1}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - CB
 - LED
@@ -52,7 +52,7 @@ piles are:
 
 > CB in play, SW in hand - {B}{B}{B} + {B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - SW
@@ -62,7 +62,7 @@ piles are:
 
 > 2 SW in hand - {B}{B}{B} + {B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - CB
@@ -95,7 +95,7 @@ piles will be touched upon.
 
 > Pre in hand - {B}{B}{B} + {U}{U/B}{B}{B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - LP

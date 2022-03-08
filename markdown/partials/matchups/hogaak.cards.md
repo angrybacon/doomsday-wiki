@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Hedron Crab
 - Vengevine
 - Bloodghast
@@ -10,7 +10,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Thoughtseize
 - Surgical Extraction
 :::

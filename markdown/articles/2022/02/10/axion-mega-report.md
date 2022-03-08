@@ -95,7 +95,7 @@ also looks like it would be a good meta for decks that prey on some of the
 fairer strategies. Something like Elves would have likely been a decent choice
 for the event.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Thalia, Guardian of Thraben
 - Delver of Secrets
 - Cloudpost
@@ -187,7 +187,7 @@ That's it.
 That's all I did. ([I had mentioned I am slow to
 change](/articles/2022/01/22/zero-respect#i-am-slow-to-make-changes-to-my-deck)).
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DA
 - Tsz
 - Flusterstorm
@@ -256,7 +256,7 @@ and Vial for passing 3 turns assuming you hold Force for the first thing they
 cast. The Forcing of Vial was a poor decision and I should've just held it back
 for a turn 2 play.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Flooded Strand
 - Misty Rainforest
 - TO
@@ -329,7 +329,7 @@ Fetch, TO, Cavern, Island. This, or some variation of it works really well
 against all but the super fast aggro hands Delver can get with 3 power creatures
 and multiple Bolts. David fails to find what he needs and my pile completes.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Scalding Tarn
 - EoA
 - TO
@@ -571,7 +571,7 @@ have mana to pay for Daze which hits. It resolves facing down some light
 pressure. I build something simple but resilient enough that even if I have to
 pass twice I have a shot, even facing a known Wasteland.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - EoA
 - TO

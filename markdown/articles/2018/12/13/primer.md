@@ -101,7 +101,7 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LP
 - DR
@@ -124,7 +124,7 @@ of your pile with a slight modification:
 
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LP
 - DR
@@ -142,7 +142,7 @@ for 1 extra mana of any color:
 
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LED
 - LED
@@ -168,7 +168,7 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 > IC in hand - {B}{B}{B} + {B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - DR
 - DR
@@ -178,7 +178,7 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 > IC in hand - {B}{B}{B} + {B}{B}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LP
@@ -190,7 +190,7 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR
@@ -202,7 +202,7 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR
@@ -216,7 +216,7 @@ Note that this only works post board since CoV isn't in the maindeck.
 
 > BS and IC in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DR
 - LP
 - DR
@@ -228,7 +228,7 @@ Note that this only works post board since CoV isn't in the maindeck.
 
 > BS and ToA in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR
@@ -250,7 +250,7 @@ come up with in this new list:
 
 > {1}{B}{B}{B}{B} - 11 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - Rain of Filth
 - CR
@@ -276,7 +276,7 @@ Here is another potential pass-the-turn pile:
 
 > {B}{B}{B}{B}{R}{R} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR

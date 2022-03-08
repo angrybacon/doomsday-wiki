@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Gaddock Teeg
 - Collector Ouphe
 - Endurance
@@ -11,7 +11,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Deafening Silence
 - Mindbreak Trap
 - Surgical Extraction

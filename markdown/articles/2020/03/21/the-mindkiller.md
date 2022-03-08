@@ -50,7 +50,7 @@ Let's go through it and discuss the dubious deckbuilding decisions I've made...
 
 ### Rainbow Manabase
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Gemstone Mine
 - City of Brass
 :::
@@ -67,7 +67,7 @@ the least, it probably doesn't matter.
 
 ### Burning Wish
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - BW
 :::
 
@@ -80,7 +80,7 @@ small anti-blue package, entirely wishboard à la Belcher.
 
 ### Echo of Eons
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - EoE
 :::
 
@@ -92,7 +92,7 @@ the fact that it also refills your opponent's hand, because they don't matter.
 
 ### Doomsday / Thassa's Oracle
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DD
 - TO
 :::
@@ -106,7 +106,7 @@ a serviceable engine card.
 
 ### Infernal Contract
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - IC
 :::
 
@@ -115,7 +115,7 @@ functional as a Storm engine of sorts, the way Spanish Inquisition decks use it.
 
 ### Manamorphose
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Mm
 :::
 
@@ -126,7 +126,7 @@ very important.
 
 ### Empty the Warrens
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - EtW
 :::
 
@@ -140,7 +140,7 @@ meta-dependent.
 
 ### Spoils of the Vault
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - SotV
 :::
 
@@ -251,7 +251,7 @@ breathtakingly elegant Doomdsay pile you will ever see:
 
 > SW in hand - {1}{R}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Mm
 - Mm
 - Mm
@@ -387,7 +387,7 @@ Quad-Morphose pile. Lets look at a couple others.
 
 > LED on board - {B}, 3 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SotV
 - Mm
 - Mm
@@ -403,7 +403,7 @@ next turn, if you have the ability to cast them.
 
 > Echo, Spoils in hand - {B}{B}{B} + {B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LP
 - LP
@@ -417,7 +417,7 @@ to Spoils.
 
 > Rite of Flame, Manamorphose in hand - {B}{B}{B} + {1}{B}{R} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LP
 - LED
@@ -431,7 +431,7 @@ Oracle Pile.
 
 > Spoils, Spoils in hand - {B}{B}{B} + {B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Mm
 - Mm

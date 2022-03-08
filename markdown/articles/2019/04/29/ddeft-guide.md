@@ -40,7 +40,7 @@ my opinion).
 
 With Experimental Frenzy in play, casting Doomsday wins the game.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -60,7 +60,7 @@ If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
 have {2}{U}{R} and a cantrip in hand using an Act on Impulse pile. An example of
 this line.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AoI
 - LED
 - LED
@@ -76,7 +76,7 @@ this line.
 These are probably the most common piles, but there are variations on them. For
 example, take this PTT pile where you need 4 mana on the next turn.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - EF
 - LED
 - LED
@@ -91,7 +91,7 @@ If your opponent has Phyrexian Revoker on LED or a Chalice of the Void set to 0
 and you have a Frenzy in play, you can use this infinite Storm pile utilizing
 Dark Ritual as an alternative to LED.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DR
 - DR
 - DR
@@ -105,7 +105,7 @@ Due to the fact that we only need to be making 4 mana each time we loop doomsday
 to eventually cast Tendrils, the pile can be altered to fit in a discard spell
 or bounce spell.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Dur
 - LED
 - LED
@@ -115,7 +115,7 @@ or bounce spell.
 
 Or
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Dur
 - LED
@@ -125,7 +125,7 @@ Or
 
 Or
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - ET
 - LED
@@ -146,7 +146,7 @@ Agony gets exiled with Surgical Extraction.
 Due to the fact that Collective Brutality makes you gain 2 life, you can loop
 Doomsday.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -163,7 +163,7 @@ Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
 piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
 using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AoI
 - ToA
 - LED
@@ -183,7 +183,7 @@ using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
 Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AoI
 - LED
 - LED

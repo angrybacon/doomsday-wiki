@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Crop Rotation
 - Dark Depths
@@ -10,7 +10,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Deafening Silence
 - Choke
 - Collector Ouphe

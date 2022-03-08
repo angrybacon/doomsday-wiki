@@ -1,13 +1,15 @@
-import c from 'classnames';
 import React, { FunctionComponent } from 'react';
-import { useStyles } from './Mana.styles';
+import { Box } from '@mui/material';
 import 'mana-font/css/mana.min.css';
 
 interface Props {
   pattern: string;
 }
 
-export const Mana: FunctionComponent<Props> = ({ pattern }) => {
-  const classes = useStyles();
-  return <i className={c(classes.root, `ms ms-cost ms-${pattern}`)} />;
-};
+export const Mana: FunctionComponent<Props> = ({ pattern }) => (
+  <Box
+    component="i"
+    className={`ms ms-cost ms-${pattern}`}
+    sx={{ fontSize: '.8em', mx: 0.125, verticalAlign: 'initial' }}
+  />
+);

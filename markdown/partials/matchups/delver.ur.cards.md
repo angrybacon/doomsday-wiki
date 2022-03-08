@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 - Lightning Bolt
 - Daze
@@ -10,7 +10,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pyroblast
 - Force of Negation
 - Surgical Extraction

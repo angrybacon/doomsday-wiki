@@ -41,7 +41,7 @@ assume that you have a Ponder in hand and {U} to cast it.
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -68,7 +68,7 @@ Wraith with a Ponder at the cost of 1 more {U} mana.
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -90,7 +90,7 @@ matter, which obviously is great when you can't generate enough storm.
 
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LP
 - LED
@@ -112,7 +112,7 @@ response to the first cantrip.
 
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - LP
 - LP
@@ -134,7 +134,7 @@ than a Storm pile with Contract.
 
 > Pnd, Pnd in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LP
@@ -160,7 +160,7 @@ with Doomsday.
 
 > Pnd, Pnd in hand - {B}{B}{B} + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LP
@@ -186,7 +186,7 @@ Doomsday, but no additional mana.
 
 > CB, Pre in hand - {B}{B}{B} + {2}{U} - 10 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IC
 - LED

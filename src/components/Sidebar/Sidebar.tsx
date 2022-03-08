@@ -69,8 +69,7 @@ export const Sidebar: FunctionComponent<Props> = ({
         sx={{
           alignItems: 'center',
           display: 'flex',
-          pl: { xs: 1, md: 2 },
-          pr: { xs: 1, md: 2 },
+          px: { xs: 1, md: 2 },
         }}
       >
         <NextLink href="/" passHref>

@@ -46,7 +46,7 @@ turns whilst LDV is slower but has more flexibility by avoiding :card[Chalice of
 the Void] set to X = 1, being an Instant and being able to *tutor* for cards
 other than Sorceries.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DD
 - PT
 - Lim-Dul's Vault
@@ -97,7 +97,7 @@ For example: In a Grixis {U}{B}{R} based Doomsday list you might elect to run
 four :card[Polluted Delta], three :card[Scalding Tarn] and one
 :card[Bloodstained Mire] as your fetchlands of choice.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Polluted Delta
 - Scalding Tarn
 - Bloodstained Mire
@@ -130,7 +130,7 @@ For example: In a BUG {B}{U}{G} based Doomsday list you might elect to run three
 Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
 lands of choice.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Underground Sea
 - Tropical Island
 - Bayou
@@ -148,7 +148,7 @@ forest however in the heavier control builds it might be worthwhile.
 For example: In an Esper {W}{U}{B} control based Doomsday list you might elect
 to run two Islands, two Swamps and one Plains as your basic lands of choice.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Island|RAV
 - Swamp|RAV
 - Plains|RAV
@@ -220,7 +220,7 @@ basics to find a ratio that fits your playing style preferences.
 
 ### Accelerant Choices
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DR
 - LP
 - CR
@@ -268,7 +268,7 @@ example below:
 
 > {U}{U} + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -287,7 +287,7 @@ Examples of this include counter-magic like :card[Spell Pierce].
 
 ### Proactive Interaction
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Dur
 - Tsz
 - Teferi, Time Raveler
@@ -357,7 +357,7 @@ from free cycle effects and other interaction.
 
 ### Reactive Interaction
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Force of Will
 - Daze
 - Flusterstorm
@@ -466,7 +466,7 @@ longer and grindier game most likely.
 
 ### Cantrip Choices
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - BS
 - Pnd
 - Pre
@@ -516,7 +516,7 @@ in testing.
 
 ## Pile Cards
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - TO
 - EoA
 - IU

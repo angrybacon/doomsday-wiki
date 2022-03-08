@@ -31,7 +31,7 @@ pile, swapping it for additional mana.
 
 > BS, BW in hand - {B}{B}{B} + {1}{U} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - SW
@@ -63,7 +63,7 @@ your pile can be swapped in with Brainstorm.
 > BS, LP in hand - {B}{B}{B} + {1}{U}{B} - 9 Storm
 
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - BW
@@ -89,7 +89,7 @@ well.
 
 > BS, Land in hand - {B}{B}{B} + {U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Pnd
@@ -114,7 +114,7 @@ it.
 
 > Ponder, Land in hand - {B}{B}{B} + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - LED
 - SW

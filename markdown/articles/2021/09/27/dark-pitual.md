@@ -136,7 +136,7 @@ Creator], I let it resolve even though I had :card[Force of Negation],
 :card[Tormod's Crypt] then try to flashback an :card[Echo of Eons] with a
 :card[Lion's Eye Diamond]. I countered and won on the following turn.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Urza, Lord High Artificer
 :::
 
@@ -177,7 +177,7 @@ G3. I found the combo pieces a turn too late, but overall I think this was one
 of the MUs I hadn't played any matches against it, I didn't really approach the
 games correctly.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Thought Monitor
 :::
 
@@ -240,7 +240,7 @@ the combo turn. It felt super rewarding to win this and the previous round. This
 also meant I was guaranteed to get my entry fee money back and now I was going
 to play for some extra $45.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Dragon's Rage Channeler
 :::
 
@@ -320,7 +320,7 @@ able to outdraw them from there and easily win.
 
 G2 They mulled into oblivion.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Entomb|ODY
 :::
 
@@ -373,7 +373,7 @@ Game 3 was my second big punt. I didn't realize they had an onboard
 lost to :card[Endurance] when I could easily have put them on 0 outs with an
 :card[Ideas Unbound] that drew in to :card[Pact of Negation].
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - StP
 :::
 
@@ -399,7 +399,7 @@ turn 1 :card[Doomsday] with :card[Undeground Sea] and a fetch in hand. Made the
 following pile to beat :card[Wasteland] + :card[Thalia, Guardian of Thraben]
 over two turns.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - EoA
@@ -415,7 +415,7 @@ G2 they :card[Thoughtseize] twice, and made in my mind a poor choice to take
 draw spells were cyclers. The :card[Preordain] let me dig to a :card[Brainstorm]
 that ended the game.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Nettle Sentinel|EVE
 :::
 
@@ -469,7 +469,7 @@ didn't have anything else to fight back so I went for the same turn kill in lieu
 of a ptt pile. It ended up being the case that he didn't have anything but that
 could have been a nutty bluff too.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Delver of Secrets
 :::
 
@@ -513,7 +513,7 @@ couldn't beat the :card[Pyroblast] in his hand that hit my brainstorm and left
 the Emrakul stranded in my hand while he beat down with his :card[Collector
 Ouphe].
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Uro, Titan of Nature's Wrath
 :::
 
@@ -545,7 +545,7 @@ Got absolutely run over this match. It was one of those matches where stompy had
 everything and can keep jamming threats+lock pieces to run you out of resources.
 They had :card[Jeska's Will] in the list though which I thought was cool.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Blood Moon
 :::
 
@@ -664,7 +664,7 @@ let me build a pile that could win through :card[Wasteland] and the active
 Ragavan on board while losing to :card[Force of Will] #2 + blue card (which I
 felt wasn't likely):
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - Volcanic Island|LEB
 - SW
@@ -686,7 +686,7 @@ Game 3, I got lucky on a mull to 4 that had a turn 1 :card[Doomsday] with
 :card[Daze] backup. I decided to build a 2-turn pile that would lose to
 :card[Wasteland].
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - CoS
 - SW
 - EoA
@@ -704,7 +704,7 @@ showed me I was clear to go for a fast kill. By turn 2, I had 2 cyclers,
 Doomsday. A pile of LED, IU, :card[Lotus Petal], :card[Pact of Negation],
 :card[Thassa's Oracle] enabled the same turn win with 2 cyclers in hand.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LP
@@ -728,7 +728,7 @@ activation. In Patrick's end step, I cast :card[Brainstorm] and put cycler and
 land on top. On my turn, I drew the 2nd cycler and won using the same pile as
 game 1.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Dark Depths|CSP
 :::
 
@@ -832,7 +832,7 @@ for a win by casting :card[Doomsday] and building a fastest-killing
 pass-the-turn pile I could while holding up :card[Force of Will] on Bryant's
 turn.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - EoA
 - Underground Sea|LEB
@@ -861,7 +861,7 @@ talked a little about game 2, and he shared Max's opinion that I should have let
 tough choice, either way, but I think in the end that Romario was right and I
 should have waited to cast Doomsday.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Wishclaw Talisman
 :::
 
@@ -888,7 +888,7 @@ fetchland. On my turn, I drew another :card[Daze]. I played the other fetchland,
 cracked it for :card[Underground Sea], cast :card[Dark Ritual] into
 :card[Doomsday], and passed with the following pile:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - EoA
 - LP
@@ -907,7 +907,7 @@ into :card[Delver of Secrets]. On my turn, I cracked the fetch for
 :card[Underground Sea], cast :card[Dark Ritual] into :card[Doomsday]. I built a
 pile to beat :card[Wasteland] but would require fading 2 turns:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Polluted Delta|ONS
 - EoA
 - TO
@@ -945,7 +945,7 @@ and drew into :card[Doomsday], :card[Lotus Petal], and a :card[Volcanic Island].
 I cast :card[Dark Ritual] into :card[Doomsday] off the fetched :card[Underground
 Sea] and built the below pile.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Stifle
 - LP
@@ -995,7 +995,7 @@ LED, cycler, TO, X, X. It would have left me open to :card[Endurance], though,
 so I decided to go with the below pile to hold up :card[Force of Will] on
 :card[Endurance] (which he didn't have in hand) to win.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - IU
 - Underground Sea|LEB
@@ -1033,7 +1033,7 @@ Yuriko the next time it entered the battlefield. When I untapped, I found the
 third land for Doomsday, had Cavern in hand, and made a cycler pile that won me
 the match the following turn.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Changeling Outcast
 :::
 
@@ -1120,7 +1120,7 @@ X piles to now go down to 0 cards left in deck.
 
 > {U} + Brainstorm + Street Wraith + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LED
 - EoA
@@ -1140,7 +1140,7 @@ hand you can build the following:
 
 > {U} + Consider
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DA
 - LED
 - SW
