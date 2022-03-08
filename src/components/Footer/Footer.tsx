@@ -1,21 +1,20 @@
-import c from 'classnames';
 import React, { FunctionComponent } from 'react';
-import Typography from '@mui/material/Typography';
+import { Box, Typography } from '@mui/material';
+import type { SystemStyleObject } from '@mui/system';
 import { Link } from '@/components/Link/Link';
-import { useStyles } from './Footer.styles';
 
 interface Props {
-  className?: string;
+  sx?: SystemStyleObject;
 }
 
-export const Footer: FunctionComponent<Props> = ({ className }) => {
-  const classes = useStyles();
-  return (
-    <footer className={c(classes.root, className)}>
-      <Typography color="textSecondary" variant="caption">
-        Copyright &copy; 2017-2022 ddft.wiki contributors. Read the notice about{' '}
-        <Link href="/license">licenses and resources</Link>.
-      </Typography>
-    </footer>
-  );
-};
+export const Footer: FunctionComponent<Props> = ({ sx }) => (
+  <Box
+    component="footer"
+    sx={{ display: 'flex', justifyContent: 'center', ...sx }}
+  >
+    <Typography color="textSecondary" variant="caption">
+      Copyright &copy; 2017-2022 ddft.wiki contributors. Read the notice about{' '}
+      <Link href="/license">licenses and resources</Link>.
+    </Typography>
+  </Box>
+);

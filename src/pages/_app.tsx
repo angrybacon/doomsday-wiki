@@ -2,7 +2,6 @@ import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
-import { StyledEngineProvider } from '@mui/material/styles';
 import { ThemeProvider } from '@/theme/ThemeContext';
 
 const Application = ({ Component, pageProps }: AppProps): JSX.Element => (
@@ -14,14 +13,11 @@ const Application = ({ Component, pageProps }: AppProps): JSX.Element => (
         name="viewport"
       />
     </Head>
-    {/* TODO Remove once fully migrated to `emotion` */}
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider>
-        <CssBaseline />
-        {/* TODO Provide decklists and menu through a shared context */}
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </StyledEngineProvider>
+    <ThemeProvider>
+      <CssBaseline />
+      {/* TODO Provide decklists and menu through a shared context */}
+      <Component {...pageProps} />
+    </ThemeProvider>
   </>
 );
 

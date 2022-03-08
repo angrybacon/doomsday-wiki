@@ -7,17 +7,21 @@ import {
   mdiWeatherSunny,
 } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Divider from '@mui/material/Divider';
-import Drawer, { DrawerProps } from '@mui/material/Drawer';
-import IconButton from '@mui/material/IconButton';
-import List from '@mui/material/List';
-import Tooltip from '@mui/material/Tooltip';
+import {
+  Box,
+  Button,
+  Divider,
+  Drawer,
+  DrawerProps,
+  IconButton,
+  List,
+  Toolbar,
+  Tooltip,
+  drawerClasses,
+} from '@mui/material';
 import { Entry } from '@/components/Sidebar/Entry';
 import { ThemeContext } from '@/theme/ThemeContext';
 import type { Menu } from '@/tools/markdown/types';
-import { useStyles } from './Sidebar.styles';
 
 const DISCORD_URL = 'https://discord.gg/vajvFXt';
 
@@ -38,7 +42,6 @@ export const Sidebar: FunctionComponent<Props> = ({
   menu,
   onClose,
 }) => {
-  const classes = useStyles();
   const { isDark, toggle } = useContext(ThemeContext);
 
   const onThemeToggle = () => {
@@ -56,8 +59,20 @@ export const Sidebar: FunctionComponent<Props> = ({
     : { open: true, variant: 'permanent' };
 
   return (
-    <Drawer classes={{ paper: classes.paper }} {...drawerProps}>
-      <Box alignItems="center" display="flex" className={classes.header}>
+    <Drawer
+      sx={{
+        [`& .${drawerClasses.paper}`]: { width: (theme) => theme.drawer.width },
+      }}
+      {...drawerProps}
+    >
+      <Toolbar
+        sx={{
+          alignItems: 'center',
+          display: 'flex',
+          pl: { xs: 1, md: 2 },
+          pr: { xs: 1, md: 2 },
+        }}
+      >
         <NextLink href="/" passHref>
           <Button
             color="primary"
@@ -69,10 +84,12 @@ export const Sidebar: FunctionComponent<Props> = ({
           </Button>
         </NextLink>
         <Box
-          alignItems="center"
-          className={classes.actions}
-          display="flex"
-          ml="auto"
+          sx={{
+            alignItems: 'center',
+            display: 'flex',
+            ml: 'auto',
+            '& > :not(:first-child)': { ml: 1 },
+          }}
         >
           <Tooltip arrow title="Discord">
             <a href={DISCORD_URL} rel="noreferrer" target="_blank">
@@ -90,7 +107,7 @@ export const Sidebar: FunctionComponent<Props> = ({
             </IconButton>
           </Tooltip>
         </Box>
-      </Box>
+      </Toolbar>
       <Divider />
       <List component="nav" dense>
         {menu.map((entry) => (

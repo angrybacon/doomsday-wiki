@@ -149,7 +149,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
         },
       },
     },
-    drawer: { width: 310 },
+    drawer: { width: '310px' },
     mixins: { barf: barf(theme), gutters: gutters(theme) },
     palette,
     shape: { borderRadius: 8, borderRadiusPaper },
