@@ -357,24 +357,26 @@ can affect it.
 
 ## What does Turbo Doomsday mean?
 
-*Turbo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It is normally associated with
-variants of the deck which have a greater focus on speed rather than resilience. It is
-characterised by a higher count of :card[PT] along with greater numbers of :card[SW] or 
-:card[EoA] compared to other versions.
+*Turbo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It is normally
+associated with variants of the deck which have a greater focus on speed rather
+than resilience. It is characterised by a higher count of :card[PT] along with
+greater numbers of :card[SW] or :card[EoA] compared to other versions.
 
 ## What does Tempo Doomsday mean?
 
-*Tempo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It presents a potential
-*plan B* by running both the normal combo and additonally a number of creature and/or
-planeswalker based threats. It is characterised by a creature suite and a lower
-focus on finding Doomsday or using pile-specific cards like :card[IU].
+*Tempo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It presents a
+potential *plan B* by running both the normal combo and additonally a number of
+creature and/or planeswalker based threats. It is characterised by a creature
+suite and a lower focus on finding Doomsday or using pile-specific cards like
+:card[IU].
 
 ## Which is better out of Turbo or Tempo Doomsday?
 
-Against the majority of the meta at the time of writing this *Turbo* Doomsday has a more
-favourable position with *Tempo* giving up percentage points against some of the otherwise
-easier matchups. *Tempo* however has a much better game to be played against Delver or
-other decks that may run a significant amount of combo specific hate for the matchup.
+Against the majority of the meta at the time of writing this *Turbo* Doomsday
+has a more favourable position with *Tempo* giving up percentage points against
+some of the otherwise easier matchups. *Tempo* however has a much better game to
+be played against Delver or other decks that may run a significant amount of
+combo specific hate for the matchup.
 
 ---
 
