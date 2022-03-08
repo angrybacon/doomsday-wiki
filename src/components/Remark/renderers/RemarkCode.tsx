@@ -23,6 +23,7 @@ export const RemarkCode: Components['code'] = ({
           borderRadius: '4px',
           borderStyle: 'hidden',
           color: 'text.secondary',
+          fontDisplay: 'swap',
           fontFamily: 'monospace',
           fontSize: 'body2.fontSize',
           px: 0.5,

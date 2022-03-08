@@ -87,6 +87,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       MuiCssBaseline: {
         styleOverrides: {
           em: {
+            fontDisplay: 'swap',
             fontFamily: 'Libre Baskerville, serif',
             fontSize: '0.9em',
             fontStyle: 'italic',

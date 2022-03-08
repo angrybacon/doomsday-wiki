@@ -21,7 +21,10 @@ export const RemarkQuote: Components['blockquote'] = ({ children }) => (
         position: 'absolute',
         width: 4,
       },
-      '&, & > *': { fontFamily: 'Libre Baskerville, serif' },
+      '&, & > *': {
+        fontDisplay: 'swap',
+        fontFamily: 'Libre Baskerville, serif',
+      },
       '& > :first-child': { pt: 1 },
       '& > :last-child': { pb: 1 },
     }}
