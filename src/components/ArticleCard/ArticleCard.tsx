@@ -21,7 +21,8 @@ export const ArticleCard: FunctionComponent<Props> = ({ href, matter }) => {
   return (
     <Card
       sx={{
-        background: `url(${bannerData.art}) center / cover no-repeat`,
+        background: 'center / cover no-repeat',
+        backgroundImage: `url(${bannerData.art})`,
         border: (theme) => (theme.palette.mode === 'dark' ? 1 : 0),
         borderColor: 'dividerOpaque',
         position: 'relative',

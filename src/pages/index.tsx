@@ -59,12 +59,13 @@ const HomePage: NextPage<Props> = ({
     >
       <Grid item sm={7}>
         <Card>
-          <CardContent
-            component={Remark}
-            decklists={decklists}
-            markdown={welcome}
-            partials={partials}
-          />
+          <CardContent>
+            <Remark
+              decklists={decklists}
+              markdown={welcome}
+              partials={partials}
+            />
+          </CardContent>
         </Card>
       </Grid>
       <Grid item xs>

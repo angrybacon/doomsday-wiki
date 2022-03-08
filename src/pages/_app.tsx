@@ -4,21 +4,24 @@ import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@/theme/ThemeContext';
 
-const Application = ({ Component, pageProps }: AppProps): JSX.Element => (
-  <>
-    <Head>
-      <meta content="The Doomsday Wiki" name="description" />
-      <meta
-        content="minimum-scale=1, initial-scale=1, width=device-width"
-        name="viewport"
-      />
-    </Head>
-    <ThemeProvider>
-      <CssBaseline />
-      {/* TODO Provide decklists and menu through a shared context */}
-      <Component {...pageProps} />
-    </ThemeProvider>
-  </>
-);
+const Application = (props: AppProps): JSX.Element => {
+  const { Component, pageProps } = props;
+  return (
+    <>
+      <Head>
+        <meta content="The Doomsday Wiki" name="description" />
+        <meta
+          content="minimum-scale=1, initial-scale=1, width=device-width"
+          name="viewport"
+        />
+      </Head>
+      <ThemeProvider>
+        <CssBaseline />
+        {/* TODO Provide decklists and menu through a shared context */}
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  );
+};
 
 export default Application;
