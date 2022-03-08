@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ghost Quarter
 - Dark Depths
 - Crop Rotation
@@ -11,7 +11,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pyroblast
 - Sphere of Resistance
 - Choke

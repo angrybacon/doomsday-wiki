@@ -24,7 +24,7 @@ used in conjunction with Oracle.
 
 > PTT
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SI
 - Em
 - Island
@@ -47,7 +47,7 @@ ability. Let's look at a couple of examples.
 
 > DRC in play + non-Consider castable cantrip in hand
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DA
 - LED
 - SW
@@ -62,7 +62,7 @@ allows you to perform the basic Consider pile using either :card[Pnd],
 
 > {U} + DRC in play + non-Brainstorm castable cantrip in hand + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - BS
 - LED
@@ -90,7 +90,7 @@ cards like :card[Endurance] and :card[Memory's Journey].
 
 > PTT + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - TO
@@ -106,7 +106,7 @@ is that even if they were to cast Endurance here, your library would become
 (randomised past the first TO, still on top of the library) some variation of
 the following:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - TO
 - DD
 - LP
@@ -122,7 +122,7 @@ Other options include this example against a {U}{R} Delver deck which may run
 
 > PTT + Cantrip + {U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - CoS
 - TO
@@ -150,7 +150,7 @@ developed in play so tend to be part of the slower Doomsday variants.
 
 > PTT + {U}{G}{1}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Uro, Titan of Nature's Wrath
 - Island
 - Uro, Titan of Nature's Wrath
@@ -162,7 +162,7 @@ Or
 
 > PTT + {U}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Baleful Strix
 - EoA
 - Baleful Strix
@@ -175,7 +175,7 @@ draw and still maintain a higher {U} Devotion.
 
 > PTT + {U}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Baleful Strix
 - Tundra
 - Teferi, Time Raveler
@@ -198,7 +198,7 @@ cards.
 
 > LED in Hand + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Echo of Eons
 - PoN
 - TO
@@ -211,7 +211,7 @@ In a effort to try and beat :card[Endurance] or cards like :card[Torpor Orb] and
 
 > PTT, {U}{B} with BS in hand + DR in hand
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Echo of Eons
 - LED
 - ToA

@@ -45,7 +45,7 @@ pass-the-turn pile like this:
 
 > Ponder in hand - {U}{U}{U}{B}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Tsz
 - IU
 - LP
@@ -67,7 +67,7 @@ Doomsday resolves):
 
 > {U}{U}, 4 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - SW
 - TO
@@ -88,7 +88,7 @@ options to work with.
 
 > LED, BW in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LP
@@ -108,7 +108,7 @@ try to win (Oracle and storm), but it won't stop you from drawing your pile.
 
 > Ponder in hand - {U}{U}{U}{B}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Dur
 - LED
@@ -135,7 +135,7 @@ Doomsday may be all you need.
 
 > {U}{U}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -151,7 +151,7 @@ discard.
 
 >  Echo, 1 other card in hand - {0}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LP
 - LP
@@ -197,7 +197,7 @@ your decklist. Let's look at piles that can work without artifacts.
 
 > Chalice on 0, Ponder in hand - {B}{B}{B} + {U}{U}{U}, 4 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - SW
 - TO
@@ -209,7 +209,7 @@ With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells.
 
 > Ponder in hand, land drop remaining - {B}{B}{B} + {U}{U}{U}{U}, 4 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Island
 - TO
@@ -224,7 +224,7 @@ of blue mana, making things difficult.
 
 > Ponder in hand, {B}{B}{B} + {U}{B}{B}{B}{B}{R} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR
@@ -234,7 +234,7 @@ of blue mana, making things difficult.
 
 > Ponder in hand, {B}{B}{B} + {U}{U}{U}{B}{R}, 2 life - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - DR
 - DR
@@ -253,7 +253,7 @@ cast Doomsday.
 
 > {U}{U}, 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -266,7 +266,7 @@ this one before.
 
 > Echo, LED in hand - {B}{B}{B} - 10 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LP
 - LED
@@ -278,7 +278,7 @@ Echo piles can win with Tendrils without ever casting a 1-cost spell.
 
 > BW, LED in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LP
@@ -298,7 +298,7 @@ Chalice on 2.
 
 > Ponder in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - LP
@@ -327,7 +327,7 @@ play through the tax.
 
 > Ponder in hand - {2}{U} with tax
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - TO
@@ -347,7 +347,7 @@ strictly the same effect, similar piles will work against all 3.
 
 > SW in hand - 4 life ({3} versus Trinisphere)
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - TO
@@ -373,7 +373,7 @@ can draw a card on your opponent's turn.
 
 > {U}{U}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - VoS
 - TO
@@ -405,7 +405,7 @@ remove Counterbalance before going off.
 
 > Ponder, LED in hand - {B}{U}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AD
 - IU
 - LP
@@ -477,7 +477,7 @@ Surgical though.
 > LED, Echo, 1 other card in hand - {B}{B}{B} + {0} - 10 Storm including
 > Surgical
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DR
 - DR
 - LP
@@ -501,7 +501,7 @@ it can be effective at fighting Surgical Extraction
 
 > Ponder, Brainstorm in hand - {B}{B}{B} + {U}{U}, maximum 4 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Pnd
 - SW
@@ -533,7 +533,7 @@ taken not to put more than 2 cards back into your graveyard.
 
 > LED, Echo in hand - BBB
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LP
 - SW
@@ -552,7 +552,7 @@ hand.
 
 > UUU (lands only!), 2 life
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Island
 - TO

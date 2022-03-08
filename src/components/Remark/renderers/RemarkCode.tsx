@@ -5,35 +5,54 @@ import {
   atomOneDark,
   atomOneLight,
 } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-import Divider from '@mui/material/Divider';
-import { useTheme } from '@mui/material/styles';
-import { useStyles } from './RemarkCode.styles';
+import { Box, Divider } from '@mui/material';
+import { alpha, useTheme } from '@mui/material/styles';
 
 export const RemarkCode: Components['code'] = ({
   children,
   className = '',
   inline,
 }) => {
-  const classes = useStyles();
   const theme = useTheme();
   if (inline) {
-    return <code className={classes.inline}>{children}</code>;
+    return (
+      <Box
+        component="code"
+        sx={{
+          bgcolor: (theme) => alpha(theme.palette.primary.light, 0.1),
+          borderRadius: '4px',
+          borderStyle: 'hidden',
+          color: 'text.secondary',
+          fontDisplay: 'swap',
+          fontFamily: 'monospace',
+          fontSize: 'body2.fontSize',
+          px: 0.5,
+          py: 0.25,
+        }}
+      >
+        {children}
+      </Box>
+    );
   }
   // NOTE ReactMarkdown passes language through the class name
   const [, language] = className.split('-');
-  const style = theme.palette.mode === 'light' ? atomOneLight : atomOneDark;
   return (
-    <span className={classes.root}>
+    <Box
+      component="span"
+      sx={(theme) => ({ ...theme.mixins.barf, display: 'block' })}
+    >
       <Divider />
-      <SyntaxHighlighter
-        className={classes.block}
+      <Box
+        component={SyntaxHighlighter}
         language={language}
         showLineNumbers
-        style={style}
+        style={theme.palette.mode === 'dark' ? atomOneDark : atomOneLight}
+        // TODO Overwrite the padding from inline styles
+        sx={{ fontSize: '0.8em', m: 0 }}
       >
         {children.map((it) => String(it).trim())}
-      </SyntaxHighlighter>
+      </Box>
       <Divider />
-    </span>
+    </Box>
   );
 };

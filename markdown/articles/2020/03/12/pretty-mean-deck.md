@@ -93,7 +93,7 @@ First of all it means that you don't always have to rely on LED to generate
 enough mana for your Doomsday pile. Take this example from our [Basics
 Chapter](/meandeck/basics).
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - LP
@@ -116,7 +116,7 @@ a combo piece either simply as a draw two that digs three cards deep or can be
 used to synergise with :card[Unearth] allowing the playing of Oracle for the
 cost of a single {B}.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - Pnd
 - SW
@@ -124,7 +124,7 @@ cost of a single {B}.
 - TO
 :::
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - TO
 - SW
@@ -162,7 +162,7 @@ Island, Swamp, and 3 x Underground Sea in play.
 
 Stack the following:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - Pnd
 - SW
@@ -191,7 +191,7 @@ Swamp and 3 x Underground Sea in play.
 
 Stack the following:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Pdt
 - Pnd
@@ -223,7 +223,7 @@ You have :card[Dark Ritual], :card[Force of Will], :card[Brainstorm] and
 
 Stack the following:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Pdt

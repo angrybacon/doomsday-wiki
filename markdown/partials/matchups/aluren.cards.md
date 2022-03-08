@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Thoughtseize
 - Force of Will
@@ -9,7 +9,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Leovold, Emissary of Trest
 - Force of Negation
 - Opposition Agent

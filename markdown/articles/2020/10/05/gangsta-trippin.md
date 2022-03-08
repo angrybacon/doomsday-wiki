@@ -60,7 +60,7 @@ unwanted pieces with the fetchland. Ponder is best suited for trying to find one
 specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pnd
 :::
 
@@ -80,7 +80,7 @@ presented in Reid's article.
 I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pre
 :::
 
@@ -95,7 +95,7 @@ them, again normally with the aid of a fetchland. This in a sense can be viewed
 as almost drawing 3 cards with some people comparing it to :card[Ancestral
 Recall].
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - BS
 :::
 
@@ -129,7 +129,7 @@ lethal clock out of nowhere.
 For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - SW
 :::
 
@@ -148,7 +148,7 @@ is effectively the equivalent of :card[Duress]. Although Duress is generally
 more narrow than :card[Thoughtseize] in effect, the life loss can be significant
 so a mix is run to provide maximum flexibility.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - EoA
 :::
 
@@ -171,7 +171,7 @@ of effects like the reveal triggers on :card[Delver of Secrets] or
 mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Pdt
 :::
 
@@ -183,7 +183,7 @@ scale :card[Faithless Looting] effect to turn a land heavy hand into a speall
 heavy hand. or provide an explosive boost of cards for a single turn,
 potentially enabling you to combo off there and then.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - IU
 :::
 

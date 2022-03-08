@@ -21,7 +21,7 @@ play Doomsday and Tendrils of Agony in the same 75.
 
 ## The Starting Point
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - DD
 - EoE
 - BW
@@ -35,7 +35,7 @@ article][articles:echoes-of-the-past] but is more or less recognizable.
 
 ::decklist{path=2021/07/26/ddft.ubrg.echo}
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - TO
 - IU
 - IC
@@ -64,7 +64,7 @@ and ups the impact of Wastelands and Stifles. Defense grid is perhaps an option,
 but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 3 to dodge Daze, and the opponent could pay 3 to Force a business spell anyway.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Solve the Equation
 - Dark Petition
 :::
@@ -80,7 +80,7 @@ when you didn't.
 
 ## The Mindkiller
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - SotV
 - EtW
 - Mm
@@ -118,7 +118,7 @@ that sometimes fell apart without any intervention from the opponent. Every time
 I had a cold streak with Spoils of the Vault, I would look for alternatives to
 it.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Plunge into Darkness
 - Gamble|USG
 - SotV
@@ -136,7 +136,7 @@ or nearly so, and thus the *Mindkiller* style of DDFT stayed in my mind.
 
 ## The Truly Bizarre
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Goblin Charbelcher|MRD
 - Recross the Paths
 - Lim-Dul's Vault
@@ -206,7 +206,7 @@ Maybe this will... nope.
 
 ## The Successful Failures
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - ToA
 - BS
 - IC
@@ -269,7 +269,7 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 
 ## The Top of the Trashpile
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Gemstone Mine
 - DD
 - Silence
@@ -293,7 +293,7 @@ on time, fetching for basics, or green or white sources, can be a liability. In
 the *Mindkiller* variant, the power of Brainstorm both in setup and in piles is
 worth contorting the mana a bit to play a handful of fetches.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Prismatic Ending
 - Endurance
 - Dress Down
@@ -307,7 +307,7 @@ of questionable worth in an Echo of Eons deck. Tack on Endurance, Stifle,
 Mindbreak Trap, Dress Down, etc. and the value of telling your opponent to just
 shut up has skyrocketed. With a 5c manabase, Chants are easy enough to support.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Peer into the Abyss
 - Rip Apart
 - Galvanic Relay

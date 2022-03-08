@@ -31,7 +31,7 @@ deck by deck.
 
 Additions:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 - Dragon's Rage Channeler
 - Murktide Regent
@@ -85,7 +85,7 @@ changed the matchup a lot.
 
 Additions:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Prismatic Ending
 :::
@@ -110,7 +110,7 @@ since they play Endurance in their main deck anyway.
 
 Additions:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Grist, the Hunger Tide
 :::
@@ -130,7 +130,7 @@ post Doomsday, if we go for a pas the turn pile.
 
 Additions:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Yavimaya, Cradle of Growth
 :::
@@ -144,7 +144,7 @@ they cannot protect it.
 
 Addition:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Kaldra Compleat
 :::
 
@@ -155,7 +155,7 @@ but be careful with slow piles as :card[Kaldra Compleat] gives haste.
 
 Addition:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 :::
 
@@ -166,7 +166,7 @@ MH2, play around Endurance.
 
 Addition:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 :::
 
@@ -182,7 +182,7 @@ strongest post MH2, but still a pretty even match up.
 
 Additions:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Urza's Saga
 :::
@@ -202,7 +202,7 @@ It is still a good match up but it got a bit worse, like most.
 
 Additions:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 - Urza's Saga
 :::
@@ -224,7 +224,7 @@ Ragavan. But be careful, they play Stifle!
 
 Addition:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Blazing Rootwalla
 :::
 
@@ -352,6 +352,6 @@ further.
 See ya the next time,  
 OtterLady!
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Lutri, the Spellchaser
 :::

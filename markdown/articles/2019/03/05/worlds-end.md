@@ -89,7 +89,7 @@ how you would normally.
 
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED | MIR
 - LED
 - LED
@@ -116,7 +116,7 @@ Hell, you could even consider running :card[Aetherflux Reservoir]!
 
 As per the example above:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -144,7 +144,7 @@ into the main and some extra cantrip effects and discard are added.
 Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AoI
 - LED
 - ToA

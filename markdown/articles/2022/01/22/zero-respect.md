@@ -3,7 +3,7 @@ authors: Doishy
 banner: PT
 kind: PRIMER
 tags: [LEGACY, MEANDECK]
-title: "A Decklist Discussion and Sideboard Guide: Doishy's Turbo Zero Respect v0.5"
+title: "A Decklist Discussion and Sideboard Guide: Doishy's Turbo Zero Respect"
 ---
 
 ## Table of Contents
@@ -187,7 +187,7 @@ general/expected roles and the justification for having them.
   battlefield. A very versatile and mana efficient card. Sometimes can be
   over-boarded.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - CoV
 - Flusterstorm
 - FoN
@@ -205,7 +205,7 @@ general/expected roles and the justification for having them.
   is here to simply diversify my blast effects for small percentage points and
   niche corner cases (although I have had people Surgical them before!).
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Massacre
 - Pyroblast
 - REB
@@ -230,7 +230,7 @@ general/expected roles and the justification for having them.
  our blast effects. Not much else to say though you could consider to bring it
  in as an additional *bad Island* in matchups where maybe you don't want Cavern.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Surgical Extraction
 - TO
 - Tormod's Crypt
@@ -263,7 +263,7 @@ devastating. Second Oracle lets you act a bit ore aggressively in pile building
 and also acts as a buffer to random instances of having your sole win condition
 exiled to monkey.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Delver of Secrets
 - Ragavan, Nimble Pilferer
 - Dragon's Rage Channeler
@@ -290,7 +290,7 @@ that they have. I have listed :card[Spirit of the Labyrinth] as the main card to
 respect because post Doomsday it not only slows you down in progressing your
 pile but also has a feisty attack of 3 which can quickly knock you down.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ethersworn Canonist
 - Deafening Silence
 - Spirit of the Labyrinth
@@ -310,7 +310,7 @@ stays in because Chalice on 2 ruins your day otherwise. Try to avoid keeping
 hands that die to Chalice on 1 unless that hand can just win on the next turn.
 It's a swingy matchup but very winnable.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Chalice of the Void
 - Blood Moon
 - Trinisphere
@@ -335,7 +335,7 @@ a result this is a purely theory-crafted setup from having checked MTGGoldfish
 for the most popular Legacy decks at the time of writing this and just thinking
 "this'll be similar to the other fast graveyard strategies".
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Griselbrand
 - Balustrade Spy
 - Burning Inquiry
@@ -355,7 +355,7 @@ to try and go fast whilst being able to fight the green interaction. Some people
 like to bring in :card[Massacre] but that is not an axis I really want to fight
 them on.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Allosaurus Shepherd
 - Nettle Sentinel
 - Natural Order
@@ -376,7 +376,7 @@ sure you can keep up {U}{U} post Doomsday and to retain :card[CoS] in case of
 REB or the occasional rogue Chalice. Don't ever try and fight them with grave
 hate vs. the Loam plan, it's not worth it.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Life from the Loam
 - Sphere of Resistance
 - Ghost Quarter
@@ -396,7 +396,7 @@ in the full 8 Force effects in for because we can easily dilute our own plan too
 much in it. I don't bother bringing in REB effects because it's not the cantrips
 we want to fight over.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Silence
 - Echo of Eons
 - Wishclaw Talisman
@@ -421,7 +421,7 @@ things but I was reasonably happy with the plan enacted which can be seen in
 (shameless plug) [this video](https://www.youtube.com/watch?v=GtMGU39YAtw) and
 [this video](https://www.youtube.com/watch?v=H62gxBL0lUA).
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Echo of Eons
 - Karn, the Great Creator
 - Force of Will
@@ -444,7 +444,7 @@ good and you want to be able to still have the ability to go under them but not
 be too disadvantaged if the game drags on. I try to always keep at least 2
 cycling effects even in these matchups.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Uro, Titan of Nature's Wrath
 - Sylvan Library
 - Meddling Mage
@@ -470,7 +470,7 @@ with :card[Meddling Mage] to annoy us. You can very well justify bringing in
 :card[Massacre] or :card[CoV] in these matchups. Again deck variance in the
 opposing field can cause difficulty in selecting what to bring to the table.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Expressive Iteration
 - Murktide Regent
 - Meddling Mage
@@ -488,7 +488,7 @@ Cloudpost seems to be the best matchup for the deck. Remember no matchup is
 unloseable, but sometimes it feels that way here. Just don't get blown out by
 :card[Endurance] or :card[Torpor Orb] and you'll be fine.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Cloudpost
 - Endurance
 - Mindbreak Trap
@@ -504,7 +504,7 @@ unloseable, but sometimes it feels that way here. Just don't get blown out by
 This can be a real tough matchup. A smart Painter player can really do well and
 playing around an on-board :card[Grindstone] can be a real headache.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Goblin Welder
 - Painter's Servant
 - Grindstone
@@ -523,7 +523,7 @@ I love OmniShow and field it as my secondary deck of choice. Unfortunately it is
 definitely clunkier than Doomsday and we have a huge advantage in being able to
 make resilient pass-the-turn piles that win via their own :card[Show and Tell].
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Show and Tell
 - Trickbind
 - Cunning Wish
@@ -543,7 +543,7 @@ Sneak and Show feels like a swingier OmniShow in terms of matchup. It's one of
 the matchups I have experimented with :card[Daze] being brought in and out
 depending on play vs. draw. Should still be favourable.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Sneak Attack
 - Emrakul, the Aeon's Torn
 - Daze

@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
-import { useStyles } from './RemarkYoutube.styles';
+import { Box } from '@mui/material';
 
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
@@ -9,9 +9,10 @@ export interface Props extends ReactMarkdownProps {
 }
 
 export const RemarkYoutube: FunctionComponent<Props> = ({ node }) => {
-  const classes = useStyles();
   const { id } = node.properties;
+
   if (!id) return null;
+
   const allow = [
     'accelerometer',
     'autoplay',
@@ -20,17 +21,43 @@ export const RemarkYoutube: FunctionComponent<Props> = ({ node }) => {
     'gyroscope',
     'picture-in-picture',
   ];
+
   return (
-    <div className={classes.root}>
-      <div className={classes.container}>
-        <iframe
+    <Box
+      sx={(theme) => ({
+        ...theme.mixins.barf,
+        border: 1,
+        borderColor: 'divider',
+        borderLeft: 0,
+        borderRight: 0,
+      })}
+    >
+      <Box
+        sx={{
+          bgcolor: 'background.default',
+          height: 0,
+          position: 'relative',
+          pb: '56.25%', // NOTE Force intrinsic height to always be 16/9
+        }}
+      >
+        <Box
           allow={allow.join(';')}
           allowFullScreen
-          className={classes.frame}
+          component="iframe"
           src={`https://www.youtube.com/embed/${id}`}
+          sx={{
+            border: 0,
+            borderRadius: 0,
+            display: 'block',
+            height: 1,
+            left: 0,
+            top: 0,
+            position: 'absolute',
+            width: 1,
+          }}
           title={id}
         />
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 };

@@ -27,14 +27,14 @@ const sanitizeKind: Sanitizer<Kind> = (value, path) => {
   if (!value || typeof value !== 'string') {
     throw new Error(`Missing 'kind' property for article at "${path}"`);
   }
-  const kinds: Kind[] = Object.values(Kind);
-  if (!kinds.includes(value as Kind)) {
+  const kinds: string[] = Object.keys(Kind);
+  if (!kinds.includes(value)) {
     const kindsPretty = `['${kinds.join("', '")}']`;
     throw new Error(
       `Wrong 'kind' property for article at "${path}". Expected one of: ${kindsPretty}, got "${value}" instead`
     );
   }
-  return value as Kind;
+  return Kind[value as keyof typeof Kind];
 };
 
 /** Verify that the article tags are correctly formed. */

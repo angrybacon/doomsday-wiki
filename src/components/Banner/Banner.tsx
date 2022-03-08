@@ -1,33 +1,57 @@
 import React, { FunctionComponent } from 'react';
-import Divider from '@mui/material/Divider';
-import Typography from '@mui/material/Typography';
+import { Box, Divider, Typography } from '@mui/material';
+import { alpha } from '@mui/material/styles';
 import type { Banner as BannerModel } from '@/tools/markdown/types';
-import { useStyles } from './Banner.styles';
 
 export interface Props {
   banner: BannerModel;
   title: string;
 }
 
-export const Banner: FunctionComponent<Props> = ({ banner, title }) => {
-  const classes = useStyles();
-  return (
-    <>
-      <div
-        aria-level={1}
-        className={classes.root}
-        role="heading"
-        title={banner.title}
+export const Banner: FunctionComponent<Props> = ({ banner, title }) => (
+  <>
+    <Box
+      aria-level={1}
+      role="heading"
+      sx={{
+        bgcolor:
+          // NOTE Add a dark background to blend the blurring effect
+          ({ palette }) => palette.grey[palette.mode === 'light' ? 600 : 800],
+        overflow: 'hidden',
+        position: 'relative',
+      }}
+      title={banner.title}
+    >
+      <Box
+        sx={{
+          background: `url(${banner.art}) center / cover no-repeat`,
+          display: 'flex',
+          filter: 'blur(4px)',
+          height: { xs: 190, md: 270 },
+        }}
+      />
+      <Typography
+        variant="h1"
+        sx={{
+          alignItems: 'center',
+          bgcolor: (theme) => alpha(theme.palette.common.black, 0.3),
+          bottom: 0,
+          color: 'common.white',
+          display: 'flex',
+          fontSize: { xs: '2rem', md: '2.5rem', lg: '3rem' },
+          justifyContent: 'center',
+          left: 0,
+          margin: 0,
+          position: 'absolute',
+          px: { xs: 2, md: 3, lg: 4 },
+          right: 0,
+          textAlign: 'center',
+          top: 0,
+        }}
       >
-        <div
-          className={classes.background}
-          style={{ backgroundImage: `url(${banner.art})` }}
-        />
-        <Typography className={classes.title} variant="h1">
-          {title}
-        </Typography>
-      </div>
-      <Divider />
-    </>
-  );
-};
+        {title}
+      </Typography>
+    </Box>
+    <Divider />
+  </>
+);

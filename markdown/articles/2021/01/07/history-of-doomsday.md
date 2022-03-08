@@ -58,7 +58,7 @@ Dragons and other {B}{R} creatures. As time went on, and new cards from Urza's
 Legacy were printed, he actually already found a copy, and use for Doomsday in
 his ~~pile~~ deck which he used to deploy a very efficient combo:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Meditate|TMP
 - Palinchron|ULG
 - Mana Flare|LEB
@@ -91,7 +91,7 @@ earliest tournament style decks I can find were Type 1 legal only and built
 themselves to loop :card[Timetwister] in order to net mana each re-casting to
 then cast a lethal :card[Braingeyser] or other {x} spell.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Island
 - Black Lotus|LEB
 - LED
@@ -129,7 +129,7 @@ Menendian and *Team Meandeck* to develop a storm based Doomsday deck that made
 use of :card[Tendrils of Agony], :card[Gush] combined with :card[Fastbond] and a
 cool kill involving :card[Mind's Desire] into :card[Beacon of Destruction].
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Ancestral Recall|LEB
 - Black Lotus|LEB
 - DR
@@ -149,7 +149,7 @@ When Legacy first began there was some interest pocketed around about trying to
 build a Doomsday deck. Some tried to mimick what a lot of Storm decks at the
 time were doing building piles like:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - DR
 - DR
@@ -168,7 +168,7 @@ all/the last pieces needed to go off over 2 turns if you needed all and 1 turn
 if you had a piece already. The entire thing could be powered out by a mix of
 :card[Dark Ritual] and :card[Cabal Ritual].
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Buried Alive|ODY
 - Sutured Ghoul|JUD
 - Phyrexian Dreadnought
@@ -181,7 +181,7 @@ relied on Doomsday as a secondary plan to the main combo. At this time there was
 one version of the deck that did have a relatively clean pile being available
 making use of the, as then, new cards from Mirrodin block.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pdt
 - Brain Freeze|SCG
 - LED
@@ -216,7 +216,7 @@ reduction or digging already available.
 
 {2}{U}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Helm of Awakening
 - SdT
@@ -226,7 +226,7 @@ reduction or digging already available.
 
 1 Top in play + {2}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - Helm of Awakening
 - LED
@@ -236,7 +236,7 @@ reduction or digging already available.
 
 1 Helm in play + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - SdT
 - LED
@@ -300,7 +300,7 @@ Evenpence and Desolutionist as a way to incorporate additional business into the
 shell to some success but the deck, although fast, did not achieve any top tier
 status.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Cruel Bargain|POR
 - LP
 - DR
@@ -439,7 +439,7 @@ such as:
 
 Cantrip + {B}{B}{B}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR
@@ -466,7 +466,7 @@ From an Emidln mtgthesource post in 2008:
 
 Brainstorm in hand + 2 cards in hand + {1}{B}{B}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - Infernal Tutor
@@ -535,7 +535,7 @@ extra card whilst then bouncing an opposing Teeg.
 
 CoV in hand + SdT in play + {1}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -545,7 +545,7 @@ CoV in hand + SdT in play + {1}{U}
 
 1 SdT in play + {1}{U}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - CoV
@@ -621,7 +621,7 @@ pass-the-turn pile plan that circumnavigated countermagic. Pretty much every
 DDFT, and ANT deck for that matter, adopted the Doomsday into Shelldock plan as
 part of their sideboard.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SI
 - Em
 - Island
@@ -635,7 +635,7 @@ enabler.
 
 Land drop available + Cantrip + 1 card in hand + {1}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - SI
 - Cloud of Faeries|ULG
@@ -652,7 +652,7 @@ x :card[Grindstone] decks of the time.
 Lejay had some additional fun coming up with some silly, if inefficient, tech
 involving multiple Ideas Unbounds and Emrakul to enable shuffle.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Relic of Progenitus|ALA
 - IU
 - LED
@@ -773,7 +773,7 @@ been used before.
 
 Cantrip + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - GP
@@ -783,7 +783,7 @@ Cantrip + {U}{U}
 
 2 Cantrips + {R}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -793,7 +793,7 @@ Cantrip + {U}{U}
 
 Cantrip + Top in play
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -803,7 +803,7 @@ Cantrip + Top in play
 
 Pass the turn + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -813,7 +813,7 @@ Pass the turn + {U}{U}
 
 Burning Wish (Wish for Ideas Unbound) + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LP
@@ -851,7 +851,7 @@ be immune to removal completely.
 
 Cantrip + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - GP
@@ -861,7 +861,7 @@ Cantrip + {U}{U}
 
 Cantrip + Top in play
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - GP
@@ -871,7 +871,7 @@ Cantrip + Top in play
 
 Pass the turn + {2}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - GP
@@ -975,7 +975,7 @@ and :card[Unearth]. The primary pile it ran went as such:
 
 {U}{B}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Mental Note
 - LM
 - Pact of Negation|FUT
@@ -1196,7 +1196,7 @@ Ideas Unbound but was found to be pretty efficient.
 
 Cantrip + {1}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - TW
 - BW
 - GP
@@ -1206,7 +1206,7 @@ Cantrip + {1}{U}{U}
 
 2 Cantrips
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - TW
 - LED
@@ -1216,7 +1216,7 @@ Cantrip + {1}{U}{U}
 
 2 Cantrips
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - TW
 - LED
@@ -1259,7 +1259,7 @@ and being able to loop multiple baubles.
 
 Bauble in Play + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - AoI
 - LED
@@ -1269,7 +1269,7 @@ Bauble in Play + Cantrip
 
 Bauble in Play + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - AoI
 - LED
@@ -1382,7 +1382,7 @@ deterministic infinite life-loss win with the following pile:
 
 Frenzy in play
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -1398,7 +1398,7 @@ Tendrils of Agony.
 
 Frenzy in play
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -1414,7 +1414,7 @@ like Flusterstorm underneath it.
 
 Frenzy in play
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - Jace, Wielder of Mysteries
@@ -1469,7 +1469,7 @@ Emidln to the fold who returned by messaging me the following pile concept:
 
 :card[Thought Scour] in hand
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DA
 - Island
 - LED
@@ -1511,7 +1511,7 @@ formed and piles were worked out.
 
 Brainstorm + 1 card in hand
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - SW
@@ -1521,7 +1521,7 @@ Brainstorm + 1 card in hand
 
 Cantrip + {U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - EoA

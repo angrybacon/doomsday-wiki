@@ -34,7 +34,7 @@ addition to your Oracle. In my mind, there are only three flex slots in the
 maindeck for Doomsday. In this build, we have elected to use :card[Mystical
 Dispute], :card[Force of Negation], and :card[Portent].
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - CoS
 :::
 
@@ -49,7 +49,7 @@ another Flusterstorm because of things like :card[Leovold, Emissary of Trest],
 significant problems, and having an excellent one mana answer that can also
 counter :card[Force of Will]s is very lovely.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Mystical Dispute
 - Force of Negation
 :::
@@ -60,7 +60,7 @@ is restricted for a reason, and while this card can't crack piles, it's very
 good at being good card selection or messing up your opponent's top 3 cards,
 especially in something like the mirror.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Portent
 :::
 
@@ -84,7 +84,7 @@ doomsday pile, especially when you have a Mox Jet in your start, so you don't
 need to tap a land to play it. A handy thing it can do is snag a Brain freeze
 before you combo, so you don't die on the spot.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Steel Sabotage
 - Mindbreak Trap
 - Duress
@@ -104,7 +104,7 @@ tutors.
 decks, but it's just the most efficient card to play in your doomsday sideboard
 for that matchup without dedicating too many spots for the matchup.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Fatal Push
 - Opposition Agent
 - Leyline of the Void
@@ -121,7 +121,7 @@ even Force of Negation. Because of this, it can sometimes steal games.
 **:card[Island]**: having a second basic is another tool for shops to better
 play around :card[Wasteland] and :card[Ghost Quarter].
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Tasigur, the Golden Fang
 - Island
 :::
@@ -301,7 +301,7 @@ pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 > - The opponent might not have Daze (if the opponent has Daze, they will cast
 >   it on Doomsday) - A single Wasteland can be played around
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Demonic Tutor
 - Time Walk
 - TO
@@ -343,7 +343,7 @@ the following turns?
 > to Lavinia as well. The pile discoverN describes makes it so you can beat all
 > of these cards as well as Flusterstorm and Daze (two Oracles).
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Time Walk
 - TO
 - TO
@@ -400,7 +400,7 @@ Our hand is:
 > could argue for as well. Playing vs. shops can be complicated, and the most
 > essential thing is mana sources and having enough lands at all times.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Steel Sabotage
 - Gush
 - TO
@@ -410,7 +410,7 @@ Our hand is:
 
 Or
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Time Walk
 - SW
 - TO

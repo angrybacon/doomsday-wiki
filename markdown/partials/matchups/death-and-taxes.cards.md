@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Thalia, Guardian of Thraben
 - Kaldra Compleat
 - Spirit of the Labyrinth
@@ -12,7 +12,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Deafening Silence
 - Mindbreak Trap
 - Surgical Extraction

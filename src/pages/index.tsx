@@ -1,13 +1,7 @@
 import { GetStaticProps, NextPage } from 'next';
 import React, { useEffect, useRef, useState } from 'react';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Grid from '@mui/material/Grid';
-import type { Theme } from '@mui/material/styles';
-import { createStyles, makeStyles } from '@mui/styles';
-import { Article } from '@/components/Article/Article';
+import { Button, Card, CardContent, Grid } from '@mui/material';
+import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
@@ -22,14 +16,6 @@ import type {
   Menu,
   Partials,
 } from '@/tools/markdown/types';
-
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    articles: {
-      paddingBottom: theme.spacing(2),
-    },
-  })
-);
 
 const ARTICLES_INITIAL_SIZE = 5;
 
@@ -48,7 +34,6 @@ const HomePage: NextPage<Props> = ({
   partials,
   welcome,
 }) => {
-  const classes = useStyles();
   const articleRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
@@ -74,33 +59,29 @@ const HomePage: NextPage<Props> = ({
     >
       <Grid item sm={7}>
         <Card>
-          <CardContent
-            component={Remark}
-            decklists={decklists}
-            markdown={welcome}
-            partials={partials}
-          />
+          <CardContent>
+            <Remark
+              decklists={decklists}
+              markdown={welcome}
+              partials={partials}
+            />
+          </CardContent>
         </Card>
       </Grid>
       <Grid item xs>
         <Grid
-          className={classes.articles}
           container
-          direction="column"
           ref={articleRoot}
           spacing={2}
+          sx={{ flexDirection: 'column', pb: 2 }}
         >
           {articles.slice(0, size).map(({ matter, route }) => (
             <Grid item key={`article-${route}`} xs={12}>
-              <Article matter={matter} route={route} />
+              <ArticleCard href={route} matter={matter} />
             </Grid>
           ))}
           {size < articles.length + 1 && (
-            <Grid
-              component={Box}
-              item
-              sx={{ display: 'flex', justifyContent: 'center' }}
-            >
+            <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
               <Button onClick={showMore} variant="outlined">
                 Show more
               </Button>

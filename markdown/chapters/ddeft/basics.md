@@ -18,7 +18,7 @@ pile.
 Once an Experimental Frenzy is on board, a resolved Doomsday allows for a quick
 pile with innate durability.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -26,7 +26,7 @@ pile with innate durability.
 - DD
 :::
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED

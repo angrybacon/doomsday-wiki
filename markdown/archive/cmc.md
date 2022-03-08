@@ -26,7 +26,7 @@ post-DD to get us going.
 
 > SW in hand - {B}{B}{B} + {U}{U}{B}{R} - 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - DR
 - DR
@@ -36,7 +36,7 @@ post-DD to get us going.
 
 > CB in play, SW in hand - {B}{B}{B} + {X}{B}{B} - 7+ Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DR
 - IC
 - DR
@@ -46,7 +46,7 @@ post-DD to get us going.
 
 > 2 SW in hand - {B}{B}{B} + {B}{R}{R} - 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DR
 - AoI
 - DR
@@ -56,7 +56,7 @@ post-DD to get us going.
 
 > 2 SW in hand - {B}{B}{B} + {U}{B}{R}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - DR
 - AoI
 - DR
@@ -113,7 +113,7 @@ like Edge of Autumn to access the pile are all considerations.
 
 > Pass the turn - {2}{B}{B}{B}{R} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BW
 - LED
 - LED
@@ -123,7 +123,7 @@ like Edge of Autumn to access the pile are all considerations.
 
 > BW in hand, CB in play, pass the turn - {1}{R} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LED
@@ -133,7 +133,7 @@ like Edge of Autumn to access the pile are all considerations.
 
 > BW in hand, CB in play - {B}{B}{B} + {2}{R} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - LED
 - LP
@@ -143,7 +143,7 @@ like Edge of Autumn to access the pile are all considerations.
 
 > BW in hand, CB in play - {B}{B}{B} + {1}{R} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - AoI
 - LED
@@ -168,7 +168,7 @@ get rid of it. You can also ignore this limitation with maindeck ToA.
 
 > SW in hand, CB in play - {B}{B}{B} + {X} - 8+ Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - AoI
 - ToA
@@ -178,7 +178,7 @@ get rid of it. You can also ignore this limitation with maindeck ToA.
 
 > SW in hand - {B}{B}{B} + {2}{U}{R}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - AoI
 - LED
 - BS
@@ -242,7 +242,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Nature's Claim|WWK
 - DR
@@ -252,7 +252,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > BW and BS in hand, CB in play - {B}{B}{B} + {U}{G} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Nature's Claim|WWK
 - AoI
 - LED
@@ -262,7 +262,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - Nature's Claim|WWK
 - LED
@@ -272,7 +272,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > Pass the turn, SW in hand - {2}{U}{U}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Nature's Claim|WWK
 - IU
 - LP
@@ -282,7 +282,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > Pass the turn, SW in hand - {1}{U}{U}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Nature's Claim|WWK
 - TW
 - LED
@@ -292,7 +292,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > Pass the turn, SW in hand - {2}{R}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Nature's Claim|WWK
 - AoI
 - LED
@@ -302,7 +302,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > Pass the turn, LED in play - {2}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - IU
 - Nature's Claim|WWK
@@ -312,7 +312,7 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 
 > Pass the turn, LED in play - {2}{U}{G}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - AoI
 - Nature's Claim|WWK
@@ -329,7 +329,7 @@ remove a limitation.
 
 > Pass the turn, SW in hand - {U}{U}{U} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -339,7 +339,7 @@ remove a limitation.
 
 > Pass the turn, LED in play - {U}{U}{U} - 8 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - SW
@@ -349,7 +349,7 @@ remove a limitation.
 
 > Pass the turn, BW, SW and any 1 card in hand - {U}{U} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - BS
 - LED

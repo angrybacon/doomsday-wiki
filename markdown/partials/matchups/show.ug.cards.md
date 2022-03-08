@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Force of Will
 - Veil of Summer
 - Cunning Wish
@@ -9,7 +9,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Surgical Extraction
 - Endurance
 - Trickbind

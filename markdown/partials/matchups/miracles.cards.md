@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Force of Will
 - Force of Negation
@@ -10,7 +10,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Hullbreacher
 - Ethersworn Canonist
 - Court of Cunning

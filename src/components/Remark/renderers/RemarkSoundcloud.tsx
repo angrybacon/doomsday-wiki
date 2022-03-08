@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
+import { Box } from '@mui/material';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
-import { useStyles } from './RemarkSoundcloud.styles';
 
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
@@ -9,18 +9,18 @@ export interface Props extends ReactMarkdownProps {
 }
 
 export const RemarkSoundcloud: FunctionComponent<Props> = ({ node }) => {
-  const classes = useStyles();
   const { url } = node.properties;
   if (!url) return null;
-  const parameters = ['auto_play=false', 'show_comments=true', `url=${url}`];
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
+  const parameters = ['auto_play=false', 'show_comments=true', `url=${url}`];
   return (
-    <iframe
+    <Box
       allow="autoplay"
-      className={classes.root}
+      component="iframe"
       scrolling="no"
       src={`https://w.soundcloud.com/player/?${parameters.join('&')}`}
+      sx={{ border: 0, borderRadius: 1, display: 'block', width: 1 }}
       title={url}
     />
   );

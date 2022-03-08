@@ -86,14 +86,14 @@ https://scryfall.com/search?q=!"Brainstorm" .
 Use this directive to render card images within your Markdown content. Scryfall
 queries are supported and you can specify which set to use.
 
-By default rows of cards are rendered with the =centered= variant but you can
+By default rows of cards are rendered with the =CENTERED= variant but you can
 specify the variant with the =variant= keyword.
 
 *Centered* rows allocate 25% of the available width for each image. Beyond 4
 cards, images start shrinking so that they all fit on one line.
 
 #+BEGIN_SRC markdown
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Lion's Eye Diamond | MIR
 - Edge of Autumn
 - Thassa's Oracle
@@ -104,7 +104,7 @@ cards, images start shrinking so that they all fit on one line.
 reader. In addition, they use a fixed width of 20% for each image.
 
 #+BEGIN_SRC markdown
-:::row{variant=pile}
+:::row{variant=PILE}
 - Lion's Eye Diamond | MIR
 - Edge of Autumn
 - Ideas Unbound

@@ -40,7 +40,7 @@ making in no time.
 
 > {U} + Brainstorm + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - IU
@@ -66,7 +66,7 @@ Another example is presented here using Predict.
 
 > {U} + Brainstorm + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Pdt
@@ -98,7 +98,7 @@ Consider the following example:
 
 > {U} + Brainstorm + Thassa's Oracle
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Pnd
@@ -122,7 +122,7 @@ the additional {U} needed for the same starting mana cost.
 
 > {U} + Brainstorm + Thassa's Oracle + Cantrip
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - LP
@@ -153,7 +153,7 @@ in hand.
 
 > {U}{B} + Brainstorm + Ideas Unbound + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - SW
 - Tsz
@@ -185,7 +185,7 @@ well if you have an available land drop for that turn.
 
 > {U} + Brainstorm + Street Wraith + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LED
 - EoA
@@ -204,7 +204,7 @@ turn it into a perfect pile.
 
 > {U} + Brainstorm + Street Wraith + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LP
 - LED
 - EoA
@@ -227,7 +227,7 @@ top card instead.
 
 > {U} + Street Wraith + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - LED
 - EoA
@@ -243,7 +243,7 @@ Alternatively, use Consider to get rid of X and achieve a perfect pile.
 
 > {U} + Street Wraith + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - BS
 - LED
 - EoA
@@ -265,7 +265,7 @@ following pile:
 
 > {U} + Brainstorm + Street Wraith + X + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - EoA
 - LP
 - LP
@@ -289,7 +289,7 @@ have perhaps run out of fetchable lands from our deck as they are in our hand:
 > {U} + Brainstorm + Street Wraith + Underground Sea + Underground Sea  
 > A fetchland in play, land drop available for turn
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - LP
 - Misty Rainforest
@@ -317,7 +317,7 @@ Let us consider the following example:
 
 > {U} + Brainstorm + X
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - SW
 - SW
 - CoS

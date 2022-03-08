@@ -18,7 +18,7 @@ There are considered, at the time of writing, to be 4 primary distinct variants
 of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
 **Meandeck Doomsday** and **Entombsday**.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - ToA
 :::
 
@@ -28,7 +28,7 @@ have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
 and Tendrils of Agony. They also prefer proactive protection such as Duress over
 being able to run reactive counter magic.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - EF
 :::
 
@@ -37,7 +37,7 @@ was the main variant available post Gitaxian Probe ban and pre-printing of
 Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - FoW
 :::
 
@@ -47,7 +47,7 @@ uses counter magic like Force of Will and Daze to play a controlling game before
 ending the game with Doomsday. The moniker *Meandeck* is explained in this
 article [here](/articles/2020/03/12/pretty-mean-deck).
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Griselbrand
 :::
 
@@ -72,7 +72,7 @@ and even {U}{B}{R}{G} across the year with most decks having an almost entirely
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Veil of Summer
 - Pyroblast
 - Teferi, Time Raveler
@@ -133,7 +133,7 @@ their plan as much.
 These are likely the most favourable matchups (part based on gut feel and part
 based on community obtained results found [here][public-data-sheet]).
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Endurance
 - Wasteland
 - Silence
@@ -149,7 +149,7 @@ time with that matchup (between 30% and 35% depending on meta shifts and deck
 popularity) however Grixis Delver is likely the worst to face as the addition of
 Thoughtseize as another angle of disruption makes them very hard to face.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Dragon's Rage Channeler
 - Delver of Secrets
 - Thoughtseize
@@ -173,7 +173,7 @@ advise getting a few reps under your belt playing it first before delving into
 the spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Drown in the Loch
 - Baleful Strix
 - Careful Study
@@ -201,7 +201,7 @@ A large part of the confusion for the physical resolution of Doomsday stems from
 the wording on the original Weatherlight printing of :card[Doomsday]. See the
 card below along with the original rules text printed:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Doomsday|WTH
 :::
 
@@ -224,7 +224,7 @@ that it did not work the way they had hoped it would.
 Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Doomsday|A25
 :::
 

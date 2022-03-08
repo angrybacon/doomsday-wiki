@@ -6,30 +6,29 @@ import {
   purple as report,
   teal as primer,
 } from '@mui/material/colors';
-import { Theme, ThemeOptions, alpha, createTheme } from '@mui/material/styles';
+import { Theme, alpha, createTheme } from '@mui/material/styles';
 import '@fontsource/libre-baskerville';
+import type { Kind } from '@/tools/markdown/constants/Kind';
 import { barf } from '@/theme/tools/barf';
 import { gutters } from '@/theme/tools/gutters';
 
-interface DrawerOptions {
-  width: number;
-}
-
 declare module '@mui/material/styles' {
   interface Palette {
-    articleKinds: { article: string; primer: string; report: string };
+    dividerOpaque: string;
+    document: Record<Kind, string>;
   }
 
   interface PaletteOptions {
-    articleKinds: { article: string; primer: string; report: string };
+    dividerOpaque: string;
+    document: Record<Kind, string>;
   }
 
   interface Theme {
-    drawer: DrawerOptions;
+    drawer: { width: string };
   }
 
   interface ThemeOptions {
-    drawer: DrawerOptions;
+    drawer?: { width: string };
   }
 }
 
@@ -38,12 +37,6 @@ declare module '@mui/material/styles/createMixins' {
     barf: CSSProperties;
     gutters: CSSProperties;
   }
-}
-
-// NOTE Necessary until migrating to `@mui/system`
-declare module '@mui/styles' {
-  // eslint-disable-next-line @typescript-eslint/no-empty-interface
-  interface DefaultTheme extends Theme {}
 }
 
 declare module '@mui/system/createTheme/shape' {
@@ -70,10 +63,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       },
       MuiCardContent: {
         styleOverrides: {
-          root: {
-            padding: spacing(3),
-            ...gutters(theme),
-          },
+          root: { padding: spacing(3), ...gutters(theme) },
         },
       },
       MuiChip: {
@@ -97,9 +87,14 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       MuiCssBaseline: {
         styleOverrides: {
           em: {
+            fontDisplay: 'swap',
             fontFamily: 'Libre Baskerville, serif',
             fontSize: '0.9em',
             fontStyle: 'italic',
+          },
+          'ol, ul': {
+            listStylePosition: 'outside',
+            paddingLeft: spacing(4),
           },
         },
       },
@@ -122,6 +117,11 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
             borderRadius: borderRadiusPaper,
             [breakpoints.down('sm')]: { borderRadius: 0 },
           },
+        },
+      },
+      MuiTooltip: {
+        styleOverrides: {
+          tooltip: { textAlign: 'center' },
         },
       },
       MuiTypography: {
@@ -150,7 +150,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
         },
       },
     },
-    drawer: { width: 310 },
+    drawer: { width: '310px' },
     mixins: { barf: barf(theme), gutters: gutters(theme) },
     palette,
     shape: { borderRadius: 8, borderRadiusPaper },
@@ -168,28 +168,30 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
 
 export const darkTheme: Theme = createTheme({
   palette: {
-    articleKinds: {
+    background: { default: '#121212', paper: grey[900] },
+    dividerOpaque: grey[900],
+    document: {
       article: article.A700,
       primer: primer.A700,
-      report: report.A700,
+      report: report.A400,
     },
-    background: { default: '#121212', paper: grey[900] },
     mode: 'dark',
     primary,
     secondary,
   },
-} as ThemeOptions);
+});
 
 export const lightTheme: Theme = createTheme({
   palette: {
-    articleKinds: {
-      article: article.A400,
-      primer: primer.A400,
-      report: report.A400,
-    },
     background: { default: grey[50] },
+    dividerOpaque: grey[300],
+    document: {
+      article: article.A700,
+      primer: primer.A700,
+      report: report.A700,
+    },
     mode: 'light',
     primary,
     secondary,
   },
-} as ThemeOptions);
+});

@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Grief
 - Chancellor of the Annex
 - Cabal Therapy
@@ -10,7 +10,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Iona, Shield of Emeria
 - Magus of the Moon
 :::

@@ -28,7 +28,7 @@ a tool to draw cards when using LED.
 
 > SW in hand - {B}{B}{B} + {1}{U}{U}
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - CB
 - SW
@@ -52,7 +52,7 @@ This also enables things like Double Doomsday piles.
 
 > CB in play, SW in hand - {B}{B}{B} + {1}{U}{U}{R} - 11 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -60,7 +60,7 @@ This also enables things like Double Doomsday piles.
 - BW
 :::
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED
@@ -93,7 +93,7 @@ other cards in hand we need.
 
 > CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -103,7 +103,7 @@ other cards in hand we need.
 
 > CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -129,7 +129,7 @@ pass-the-turn pile. More on this in the [pass-the-turn section][pass-the-turn].
 
 > LED in play, ToA in hand - {1}{B}{B}{B} - 13 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IC
 - DR
 - DR
@@ -163,7 +163,7 @@ allows you to extend that to a pseudo-six cards.
 
 > CB in play, Pre in hand - {B}{B}{B} + {1}{U} - 9 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IC
 - LED
@@ -187,7 +187,7 @@ for convenience:
 
 > CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -197,7 +197,7 @@ for convenience:
 
 > CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -214,7 +214,7 @@ What if we were to swap the GP in the piles with a CB?
 
 > CB in play, BW and SW in hand - {B}{B}{B} + {X} - 8+ Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -224,7 +224,7 @@ What if we were to swap the GP in the piles with a CB?
 
 > CB in play, ToA and SW in hand - {B}{B}{B} + {X} - 9+ Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - LED
@@ -282,7 +282,7 @@ Pass the turn.
 
 > CB in play, ToA in hand - {B}{B}{B} + {X}{1} - 12+ Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IC
 - LED
@@ -336,7 +336,7 @@ nullify their Surgical.
 
 > CB in play, SW in hand - {B}{B}{B} + {U}{U} - 6 Storm
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LED
 - LED

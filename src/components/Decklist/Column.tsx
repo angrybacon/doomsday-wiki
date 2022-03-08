@@ -1,31 +1,36 @@
 import React, { FunctionComponent } from 'react';
-import Typography from '@mui/material/Typography';
+import { Box, Typography } from '@mui/material';
 import type { Card } from '@/tools/decklists/types';
-import { useStyles } from './Column.styles';
 
 export interface Props {
   cards: Card[];
 }
 
 export const Column: FunctionComponent<Props> = ({ cards }) => {
-  const classes = useStyles();
   if (!cards.length) return null;
   return (
-    <ul className={classes.root}>
+    <Box
+      component="ul"
+      sx={{ listStyleType: 'none', m: 0, minWidth: 170, p: 0 }}
+    >
       {cards.map(([quantity, name]) => (
-        <li className={classes.line} key={`card-${quantity}-${name}`}>
+        <Box
+          component="li"
+          key={`card-${quantity}-${name}`}
+          sx={{ display: 'flex' }}
+        >
           <Typography
-            className={classes.quantity}
             component="span"
             variant="body2"
+            sx={{ maxWidth: '1.6em', minWidth: '1.6em' }}
           >
             {quantity}
           </Typography>
           <Typography component="span" variant="body2">
             {name}
           </Typography>
-        </li>
+        </Box>
       ))}
-    </ul>
+    </Box>
   );
 };

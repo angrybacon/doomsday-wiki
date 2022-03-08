@@ -175,7 +175,7 @@ Consider the following example:
 
 You have resolved Doomsday/drawn into your stack and have {U}{U}{U} available.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - EoA
@@ -240,7 +240,7 @@ use the Duress or not. If we think they do not have any interaction, or only a
 single piece of basic interaction, we could consider casting :card[Dark Ritual]
 into Doomsday and build something simple like:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - LP
 - EoA
@@ -283,7 +283,7 @@ it.
 
 We can easily build a same turn win Brainstorm + LED pile and win.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - EoA
 - IU
@@ -308,7 +308,7 @@ Oracle however we could consider not trying to play around either. They cannot
 commit both due to their mana constraints so Daze should be sufficient to
 protect us.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - LED
 - IU
 - Pnd
@@ -514,7 +514,7 @@ he sees my hand of two protection elements. He then allows Doomsday to resolve.
 
 I build the following pile:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - EoA
 - TO
@@ -593,7 +593,7 @@ create a *no-nonsense* pile that wins on the spot with :card[Cavern of Souls].
 This way if I had built a pile that had to pass the turn once more, he could
 just try and win.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - EoA
 - SW
 - VoS
@@ -644,7 +644,7 @@ correct to have held back the Surgical here.
 As I said before the pile I made was based on a faulty assumption. What I should
 have built was something along the lines of:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - Pnd
 - TO
@@ -656,7 +656,7 @@ The only variant to this would be that I had used some Ponders previously
 therefore, to maximise the information hidden from my opponent building
 something like the below may be better. At least in a tournament setting.
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - Pnd
 - Pre
 - TO
@@ -675,7 +675,7 @@ I said he had built something *no-nonsense* however the astute of you will have
 noticed he would have needed to have multiple turns of passing to have managed
 to play Oracle. He probaly should have built something like:
 
-:::row{variant=pile}
+:::row{variant=PILE}
 - IU
 - CoS
 - VoS

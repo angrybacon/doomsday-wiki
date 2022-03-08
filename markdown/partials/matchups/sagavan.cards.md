@@ -1,6 +1,6 @@
 ###### Maindeck
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Ragavan, Nimble Pilferer
 - Daze
 - Force of Will
@@ -11,7 +11,7 @@
 
 ###### Sideboard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Hullbreacher
 - Pyroblast
 - Surgical Extraction
