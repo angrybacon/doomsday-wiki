@@ -289,11 +289,11 @@ As with any Legacy deck the focus should always be on the reserved list staples.
 dual lands are the first port of call with Underground Seas being the key part.
 You should look to pick up at least 2 Underground Seas if not 3 if you can. Once
 you have Seas then the Lion's Eye Diamond(s) is the next priority. For Meandeck
-you just need one but for the more all-in combo builds you will want
-4. After that I think you should look to pick up the splash dual lands (if
-applicable) prioritising the {U} based ones over any {B} based ones. Once you
-have your reserved list staples then the rest of the deck can be reasonably easy
-to source with Force of Wills likely being the next biggest purchase.
+you just need one but for the more all-in combo builds you will want 4\. After
+that I think you should look to pick up the splash dual lands (if applicable)
+prioritising the {U} based ones over any {B} based ones. Once you have your
+reserved list staples then the rest of the deck can be reasonably easy to source
+with Force of Wills likely being the next biggest purchase.
 
 ## I am limited on my budget, can I still build the deck?
 
