@@ -23,8 +23,6 @@ export const ArticleCard: FunctionComponent<Props> = ({ href, matter }) => {
       sx={{
         background: 'center / cover no-repeat',
         backgroundImage: `url(${bannerData.art})`,
-        border: (theme) => (theme.palette.mode === 'dark' ? 1 : 0),
-        borderColor: 'dividerOpaque',
         position: 'relative',
       }}
       title={bannerData.title}
@@ -34,7 +32,7 @@ export const ArticleCard: FunctionComponent<Props> = ({ href, matter }) => {
           <CardContent
             sx={{
               backgroundColor: (theme) =>
-                alpha(theme.palette.background.default, 0.9),
+                alpha(theme.palette.background.default, 0.8),
               borderTop: 1,
               borderTopColor: 'dividerOpaque',
               p: 2,

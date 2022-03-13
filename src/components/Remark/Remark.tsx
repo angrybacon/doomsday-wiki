@@ -55,9 +55,10 @@ export const Remark: FunctionComponent<Props> = ({
   return (
     <Box
       sx={{
-        '& > *': { mt: 2 },
-        '& > :first-child': { mt: 0 },
-        '& > :last-child': { mb: 0 },
+        // NOTE Increase specificity
+        '&& > *': { mt: 2 },
+        '&& > :first-child': { mt: 0 },
+        '&& > :last-child': { mb: 0 },
       }}
     >
       <ReactMarkdown
