@@ -1,7 +1,7 @@
 ###### Maindeck
 
 :::row{variant=CENTERED}
-- Ragavan, Nimble Pilferer
+- Dragon's Rage Channeler
 - Lightning Bolt
 - Daze
 - Wasteland

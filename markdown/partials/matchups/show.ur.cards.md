@@ -10,8 +10,8 @@
 ###### Sideboard
 
 :::row{variant=CENTERED}
-- Ragavan, Nimble Pilferer
 - Flusterstorm
 - Red Elemental Blast
 - Blood Moon
+- Trickbind
 :::

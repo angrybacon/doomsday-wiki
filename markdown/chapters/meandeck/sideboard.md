@@ -437,13 +437,12 @@ If possible you want to avoid keeping a hand that is too *all-in* and preferably
 have multiple mana sources at your disposal as Wasteland and Stifle can both be
 a concern. Aggressively fetching your basic lands is advantageous unless you
 think you have enough resilience to ignore any Wasteland effects. Try not to
-feel pressured to jam too quickly but be mindful that thanks to cards like
-:card[Ragavan, Nimble Pilferer], them casting your own discard or opposing
-:card[Berserk]/:card[Invigorate] combo can cause you to lose quickly. Stifle is
-the scariest tool in the arsenal of these decks as it gets around Cavern of
-Souls and Veil of Summer so removing that via discard is a priority. Try to
-avoid playing into Daze and avoid fighting over their threats if you have the
-luxury to do so.
+feel pressured to jam too quickly but be mindful that cards like :card[Lightning
+Bolt] and :card[Berserk] with :card[Invigorate] can give them the extra reach
+required to finish you quickly. Stifle is the scariest tool in the arsenal of
+these decks as it gets around Cavern of Souls and Veil of Summer so removing
+that via discard is a priority. Try to avoid playing into Daze and avoid
+fighting over their threats if you have the luxury to do so.
 
 Examples of this archetype include:
 
@@ -452,14 +451,13 @@ Examples of this archetype include:
 - {U}{B}{G} Stiflenought
 - {U}{G} Infect
 - {U}{B} Shadow
-- {W}{U}{R} Ragavan Saga
 
 :::row{variant=CENTERED}
 - Delver of Secrets
-- Ragavan, Nimble Pilferer
 - Daze
 - Death's Shadow
 - Glistener Elf
+- Wasteland
 :::
 
 ### Creature-Based Strategies
