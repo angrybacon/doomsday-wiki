@@ -1,5 +1,5 @@
 // Title: Early Doomsday Fetchland Tendrils
-// Colors: {W}{U}{B}{G}
+// Colors: {U}{B}{W}{G}
 3 Doomsday
 3 Infernal Tutor
 1 Meditate

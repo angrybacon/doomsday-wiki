@@ -66,7 +66,7 @@ preceeding it for all archetypes (excluding 5-0 publications). It also had a
 high number of top 32 finishes in the Eternal Weekend events for 2020.
 
 Within Meandeck Doomsday there is no definitive *best* colour configuration to
-run. Success has been had with straight {U}{B}, {U}{B}{G}, {U}{B}{R}, {U}{B}{W}
+run. Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G}
 and even {U}{B}{R}{G} across the year with most decks having an almost entirely
 {U}{B} main deck configuration. The tools that are effective and provided by
 each colour depend on the meta at the time and the pilot's preferences in deck
@@ -110,28 +110,30 @@ gain experience.
 
 ## What is the best matchup for the deck?
 
+Cloudpost.
+
 In the current Legacy meta the best matchups to face are probably Miracles
 variants, non-blue decks and TES. These decks often do not provide much pressure
-and, if Doomsday resolves, have no real answer to Thassa's Oracle. We also have
-a lot of interaction which means they tend to not have enough disruption to be
-able to stop us.
+and have limited interaction once Doomsday resolves. We also have a lot of
+interaction which means they tend to not have enough disruption to be able to
+stop us.
 
 Death and Taxes, Maverick and Post are good examples of the easier matchups with
 limited interaction. Still, they can display threats in the form of hatebears
-for the former or larger, game-ending threats for the latter. But often they are
-too slow or get answered easily by Daze. For the green matchups,
+for the 2 formers or larger, game-ending threats for the latter. But often they
+are too slow or get answered easily by Daze. For the green matchups,
 :card[Endurance] requires preparation and proper sequencing but is far from
 being as back-breaking as it is often thought. More details about this in the
-[interaction](/meandeck/interaction) page.
+[interaction page](/meandeck/interaction#cheating-on-devotion).
 
 TES cannot beat the sheer amount of disruption the deck brings to the table nor
 interact with the fast combo kill besides :card[Silence] effects as the Doomsday
-pilot unravel their pile. That weakness can be mitigated but often mean that
+pilot unravel their pile. That weakness can be mitigated but often means that
 while the TES pilot tries to disrupt our combo turn, they aren't progressing
-their plan as much.
+their own plan as much.
 
 These are likely the most favourable matchups (part based on gut feel and part
-based on community obtained results found [here][public-data-sheet]).
+based on community-obtained results found [here][data:matchups]).
 
 :::row{variant=CENTERED}
 - Endurance
@@ -383,5 +385,5 @@ combo specific hate for the matchup.
 If you have any questions beyond what is listed here feel free to ask in the
 [Discord][discord] or email ddftwiki@gmail.com
 
+[data:matchups]: https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=890222427
 [discord]: https://discord.gg/vajvFXt
-[public-data-sheet]: https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=397763213

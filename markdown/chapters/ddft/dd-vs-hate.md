@@ -403,7 +403,7 @@ isn't always going to work but it is worth trying.
 After sideboarding, if you have Abrupt Decay in your deck, you can use it to
 remove Counterbalance before going off.
 
-> Ponder, LED in hand - {B}{U}{G}
+> Ponder, LED in hand - {U}{B}{G}
 
 :::row{variant=PILE}
 - AD

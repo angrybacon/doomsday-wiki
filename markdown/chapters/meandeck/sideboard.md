@@ -449,10 +449,10 @@ Examples of this archetype include:
 
 - {U}{R} Delver
 - {U}{B} Ninjas
-- {B}{U}{G} Stiflenought
+- {U}{B}{G} Stiflenought
 - {U}{G} Infect
 - {U}{B} Shadow
-- {U}{W}{R} Ragavan Saga
+- {W}{U}{R} Ragavan Saga
 
 :::row{variant=CENTERED}
 - Delver of Secrets
@@ -648,7 +648,7 @@ permanents they can run. Some lists may also run discard effects. With the
 printing of Allosaurus Shepherd these decks can bypass a lot of your disruption
 suite so aiming for a quick combo is pretty key.
 
-Another example of this combination would be {G}{W} Depths.
+Another example of this combination would be {W}{G} Depths.
 
 #### Oops All Spells
 

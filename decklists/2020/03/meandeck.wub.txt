@@ -1,6 +1,6 @@
 // Title: Esper Meandeck
 // Authors: Hulahula
-// Colors: {W}{U}{B}
+// Colors: {U}{B}{W}
 1 Street Wraith
 1 Thassa's Oracle
 1 Predict

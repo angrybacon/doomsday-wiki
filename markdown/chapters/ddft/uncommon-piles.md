@@ -129,7 +129,7 @@ you pass 2 turns, you can win from literally nothing but a couple life.
 
 **Example 3**
 
-> Plenty of lands/mana on board - {B}{B}{B}{B}{U}{U}
+> Plenty of lands/mana on board - {U}{U}{B}{B}{B}{B}
 
 :::row{variant=PILE}
 - Dur
@@ -198,7 +198,7 @@ Doomsday, but is included here for the sake of completeness.
 
 **Example 1**
 
-> {B}{U}{U}, 3 life
+> {U}{U}{B}, 3 life
 
 :::row{variant=PILE}
 - SotV

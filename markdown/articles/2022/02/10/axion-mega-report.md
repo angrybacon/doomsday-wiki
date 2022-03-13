@@ -547,7 +547,7 @@ the exact thing he authored on). I demonstrate the entire thing step by step to
 Chris (and Nik who was very intrigued) and thus complete my one and only same
 turn win of the event.
 
-Sideboarding was a scary prospect. What {U}{W} lacks in terms of pressure in
+Sideboarding was a scary prospect. What {W}{U} lacks in terms of pressure in
 game 1 it can make up for in potential toolbox cards in games 2 and 3. Torpor
 Orb, Meddling Mage and :card[Ethersword Canonist] all came to mind and so I
 boarded thinking these elements likely. As I was against a tempo deck I didn't

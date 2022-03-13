@@ -408,7 +408,7 @@ over two turns.
 :::
 
 They knew they couldn't win and so just chose to not reveal what deck they were
-on. I assumed {G}{W} depths.
+on. I assumed {W}{G} depths.
 
 G2 they :card[Thoughtseize] twice, and made in my mind a poor choice to take
 :card[Dark Ritual] over a :card[Preordain] in a situation where my only other

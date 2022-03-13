@@ -1,6 +1,6 @@
 // Title: 5c Doomsday Fetchland Tendrils
 // Authors: d8dk32
-// Colors: {W}{U}{B}{R}{G}
+// Colors: {U}{B}{W}{R}{G}
 3 Echo of Eons
 4 Burning Wish
 1 Spoils of the Vault

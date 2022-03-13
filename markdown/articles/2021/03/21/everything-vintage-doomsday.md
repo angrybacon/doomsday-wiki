@@ -128,35 +128,35 @@ play around :card[Wasteland] and :card[Ghost Quarter].
 
 ### Sideboard Guide
 
-| vs BUG {B}{U}{G}            |                      |
-| :-------------------------- | :------------------- |
+| vs BUG                      |                      |
+|:----------------------------|:---------------------|
 | +2 Fatal Push               | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Street Wraith     |
 | +1 Duress                   | -1 Mystical Tutor    |
 |                             | -1 Vampiric Tutor    |
 
 | vs Breach                   |                   |
-| :-------------------------- | :---------------- |
+|:----------------------------|:------------------|
 | +1 Mindbreak Trap           | -1 Island         |
 | +1 Duress                   | -1 Portent        |
 | +1 Opposition Agent         | -1 Mystical Tutor |
 | +1 Tasigur, the Golden Fang | -1 Vampiric Tutor |
 
-| vs Jeskai {U}{W}{R}         |                      |
-| :-------------------------- | :------------------- |
+| vs Jeskai                   |                      |
+|:----------------------------|:---------------------|
 | +2 Fatal Push               | -1 Island            |
 | +1 Duress                   | -1 Force of Negation |
 | +1 Opposition Agent         | -1 Mystical Tutor    |
 | +1 Tasigur, the Golden Fang | -1 Vampiric Tutor    |
 
-| vs Doomsday {B}{B}{B} |                   |
-| :-------------------- | :---------------- |
-| +1 Mindbreak Trap     | -1 Island         |
-| +1 Duress             | -1 Mystical Tutor |
-| +1 Opposition Agent   | -1 Vampiric Tutor |
+| vs Doomsday         |                   |
+|:--------------------|:------------------|
+| +1 Mindbreak Trap   | -1 Island         |
+| +1 Duress           | -1 Mystical Tutor |
+| +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs Hogaak                   |                      |
-| :-------------------------- | :------------------- |
+|:----------------------------|:---------------------|
 | +2 Fatal Push               | -1 Force of Negation |
 | +4 Leyline of the Void      | -1 Necropotence      |
 | +1 Tasigur, the Golden Fang | -1 Mystical Dispute  |
@@ -164,22 +164,22 @@ play around :card[Wasteland] and :card[Ghost Quarter].
 |                             | -1 Dig Through Time  |
 
 | vs Dredge                   |                      |
-| :-------------------------- | :------------------- |
+|:----------------------------|:---------------------|
 | +4 Leyline of the Void      | -1 Mental Misstep    |
 | +1 Tasigur, the Golden Fang | -1 Force of Negation |
 |                             | -1 Necropotence      |
 |                             | -1 Portent           |
 |                             | -1 Dig Through Time  |
 
-| vs RUG {R}{U}{G}            |                      |
-| :-------------------------- | :------------------- |
+| vs RUG                      |                      |
+|:----------------------------|:---------------------|
 | +2 Fatal Push               | -1 Portent           |
 | +1 Duress                   | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Mystical Tutor    |
 |                             | -1 Vampiric Tutor    |
 
 | vs Ravager Shops            |                     |
-| :-------------------------- | :------------------ |
+|:----------------------------|:--------------------|
 | +4 Steel Sabotage           | -1 Mental Misstep   |
 | +1 Tasigur, the Golden Fang | -3 Flusterstorm     |
 | +2 Fatal Push               | -1 Necropotence     |
@@ -187,32 +187,32 @@ play around :card[Wasteland] and :card[Ghost Quarter].
 |                             | -2 Daze             |
 
 | vs Golos Shops              |                     |
-| :-------------------------- | :------------------ |
+|:----------------------------|:--------------------|
 | +4 Steel Sabotage           | -3 Flusterstorm     |
 | +1 Duress                   | -1 Mental Misstep   |
 | +1 Tasigur, the Golden Fang | -1 Mystical Dispute |
 | +1 Island                   | -2 Daze             |
 
 | vs Oath             |                   |
-| :------------------ | :---------------- |
+|:--------------------|:------------------|
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
-| vs Bant Archon {W}{U}{G}    |                      |
-| :-------------------------- | :------------------- |
+| vs Bant Archon              |                      |
+|:----------------------------|:---------------------|
 | +1 Fatal Push               | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Necropotence      |
 |                             | -1 Street Wraith     |
 
 | vs DPS              |                   |
-| :------------------ | :---------------- |
+|:--------------------|:------------------|
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs White Hatebears          |                     |
-| :-------------------------- | :------------------ |
+|:----------------------------|:--------------------|
 | +2 Fatal Push               | -3 Flusterstorm     |
 | +1 Island                   | -1 Mystical Dispute |
 | +1 Tasigur, the Golden Fang |                     |

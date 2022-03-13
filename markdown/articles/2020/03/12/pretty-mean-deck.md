@@ -252,7 +252,7 @@ Feel free to have a go at goldfishing similar lines!
 ## *Okay, I'm interested! What list should I try?*
 
 Currently there seem to be two main styles of play; Esper {U}{B}{W} and BUG
-{B}{U}{G}.
+{U}{B}{G}.
 
 BUG was the first iteration and the main offer is main deck :card[Veil of
 Summer] along with sideboard options like :card[Abrupt Decay] for problem

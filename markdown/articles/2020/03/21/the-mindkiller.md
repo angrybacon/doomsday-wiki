@@ -189,7 +189,7 @@ This is a pretty straightforward Echo hand. No sense in waiting, just jam the
 Echo and hope your new hand does something. The only thing to think about is
 what mana you leave floating. I believe the best line is to play out Mine, then
 LED, then Petal. Cast Dark Ritual off Mine. Crack the LED for {R}{R}{R}, and use
-the Petal to make {U}. That way you can have {R}{R}{B}{B} floating after casting
+the Petal to make {U}. That way you can have {B}{B}{R}{R} floating after casting
 Echo.
 
 ### Hand 2

@@ -1,6 +1,6 @@
 // Title: The Mindkiller, Updated
 // Authors: d8dk32
-// Colors: {U}{B}{R}{W}
+// Colors: {U}{B}{W}{R}
 3 Doomsday
 1 Thassa's Oracle
 4 Burning Wish

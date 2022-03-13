@@ -1,6 +1,6 @@
 // Title: The Mindkiller Hybrid
 // Authors: d8dk32
-// Colors: {W}{U}{B}{R}
+// Colors: {U}{B}{W}{R}
 4 Burning Wish
 3 Echo of Eons
 2 Spoils of the Vault

@@ -126,7 +126,7 @@ If splash colours are being run then it is generally accepted to run one {U}/x
 dual land of the splash colour and one {B}/x dual land of the splash colour but
 again you can elect to only run one splash dual with the {U}/X being favoured.
 
-For example: In a BUG {B}{U}{G} based Doomsday list you might elect to run three
+For example: In a BUG {U}{B}{G} based Doomsday list you might elect to run three
 Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
 lands of choice.
 

@@ -464,7 +464,7 @@ From an Emidln mtgthesource post in 2008:
 >
 > &mdash; [Emidln](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=229554&viewfull=1#post229554)
 
-Brainstorm in hand + 2 cards in hand + {1}{B}{B}{U}
+Brainstorm in hand + 2 cards in hand + {1}{U}{B}{B}
 
 :::row{variant=PILE}
 - LED
@@ -904,7 +904,7 @@ resolution, it could not be incorporated into the shell.
 The final key printing is of course :card[Delver of Secrets]. Prior to Delver
 the premier aggro threat of the format was :card[Wild Nacatl]. This was a
 non-evasive threat that required aggressive fetching of dual lands to enable it
-to achieve its full size. It tended to be run in Zoo, a {G}{W}{R} deck that was
+to achieve its full size. It tended to be run in Zoo, a {W}{R}{G} deck that was
 low on disruption elements. Alongside this there was a tempo deck in the form of
 Thrash (or Canadian Threshold). This ran disruption and low to the ground
 threats like :card[Tarmogoyf] and :card[Nimble Mongoose] but didn't really have
@@ -1459,7 +1459,7 @@ year and a half (minus a brief stint trying to Frenzy people) could maybe come
 back again.
 
 It was Monkeyscantcry who first posted results with a Meandeck style list in
-{B}{U}{G} colours. People had been theorising lists but this was the first real
+{U}{B}{G} colours. People had been theorising lists but this was the first real
 showing of the proof in concept. It took a little while because a lot of the
 community were either playing Underworld Breach decks, myself included, or
 concerned that a format full of Brain Freeze was not a healthy one to be casting
@@ -1494,7 +1494,7 @@ Even with all the years of knowledge it still took a lot of trial and error to
 get things close to being right. Tech like Predict with Unearth was tried, cards
 like Counterbalance were given a go. Even spicy options like :card[Divining
 Witch] were given a run. Early on the shell seemed to be viable in either
-{B}{U}{G} for Veil and :card[Abrupt Decay] or {U}{B}{W} for :card[Teferi, Time
+{U}{B}{G} for Veil and :card[Abrupt Decay] or {U}{B}{W} for :card[Teferi, Time
 Raveler] and :card[Monastery Mentor]. The list could be run as either a *normal*
 dual land manabase or an :card[Arcum's Astrolabe] reinforced snow one. With the
 build of momentum for the deck, many old pilots came back to the deck. Hulahula,

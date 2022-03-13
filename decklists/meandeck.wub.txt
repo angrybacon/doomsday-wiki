@@ -1,5 +1,5 @@
 // Title: Esper Meandeck
-// Colors: {W}{U}{B}
+// Colors: {U}{B}{W}
 3 Baleful Strix
 4 Brainstorm
 1 Cabal Therapy

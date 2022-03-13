@@ -174,7 +174,7 @@ Addition:
 sideboard, so be careful in Game 2 and 3, but it is not as scary as in {U}{R}
 Delver.
 
-{U}{W} and {U}{G} Omnitell stayed the same and are still favorable match ups for
+{W}{U} and {U}{G} Omnitell stayed the same and are still favorable match ups for
 us. {U}{R} Sneak and Show was the strongest variant pre MH2 and stays the
 strongest post MH2, but still a pretty even match up.
 

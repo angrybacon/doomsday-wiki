@@ -389,7 +389,7 @@ hand. Again, if this resolves, it will at least enable us to take one relevant
 spell and see if it safe to try and combo out here. If we had Veil or a Chant
 effect like Silence, these would also be preferable to lead on as they would act
 like a pseudo discard spell in this instance, prompting the opponent into having
-to make a response. Our opponent only seems to be playing {U}{W} so if we were
+to make a response. Our opponent only seems to be playing {W}{U} so if we were
 to have a red blast, it could likely answer most of their responses however in
 that scenario, we would have to commit the Doomsday as the initial spell as we
 would only have reactive cards. This isn't too bad as in theory it would still
