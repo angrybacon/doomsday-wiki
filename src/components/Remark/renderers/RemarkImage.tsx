@@ -17,7 +17,7 @@ export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
           img: { display: 'block', width: 1 },
         })}
       >
-        <img alt={description} {...rest} title={description} />
+        <img alt={description} decoding="async" {...rest} title={description} />
       </Box>
       {description && (
         <Typography

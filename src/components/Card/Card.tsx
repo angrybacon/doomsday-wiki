@@ -27,6 +27,7 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
       <Box
         alt={titleLines.join(' - ')}
         component="img"
+        decoding="async"
         loading="lazy"
         src={image}
         sx={{
