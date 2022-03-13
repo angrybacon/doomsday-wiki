@@ -55,7 +55,7 @@ export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
         ]}
       >
         {cards.map(({ data, id }) => (
-          <Box key={id} sx={{ '& > *': { px: { xs: 0.25, sm: 0.5, md: 1 } } }}>
+          <Box key={id} sx={{ px: { xs: 0.25, sm: 0.5, md: 1 } }}>
             <Card data={data} />
           </Box>
         ))}

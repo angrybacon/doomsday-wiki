@@ -183,7 +183,7 @@ export const darkTheme: Theme = createTheme({
 
 export const lightTheme: Theme = createTheme({
   palette: {
-    background: { default: grey[50] },
+    background: { default: grey[100] },
     dividerOpaque: grey[300],
     document: {
       article: article.A700,

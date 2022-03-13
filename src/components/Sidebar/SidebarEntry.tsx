@@ -9,35 +9,33 @@ import React, {
 } from 'react';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
-import Collapse from '@mui/material/Collapse';
-import Divider from '@mui/material/Divider';
-import List from '@mui/material/List';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
+import {
+  Collapse,
+  Divider,
+  List,
+  ListItemButton,
+  ListItemIcon,
+  ListItemText,
+} from '@mui/material';
 import type { Category, Document } from '@/tools/markdown/types';
 
 type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
 
-type Props = Category & { children?: never } & (
+type Props = Category & { children?: never; href?: string } & (
     | { component?: ElementType; pages?: never }
     | { component?: never; pages: Document[] }
   );
 
-export const Entry: FunctionComponent<Props> = forwardRef<
+export const SidebarEntry: FunctionComponent<Props> = forwardRef<
   HTMLDivElement,
   Props
->(({ icon, id, pages, subtitle, title, ...rest }, ref) => {
-  const { query } = useRouter();
-  const [isOpen, setIsOpen] = useState(id === query.category);
-  const hasPages = !!pages?.length;
+>(({ icon, id: category, pages = [], subtitle, title, ...rest }, ref) => {
+  const { asPath, query } = useRouter();
+  const hasPages = pages.length > 0;
+  const [isOpen, setIsOpen] = useState(hasPages && category === query.category);
 
   /** Toggle the drawer in mobile viewport. */
-  const onToggle: OnToggle = () => {
-    setIsOpen((previous) => !previous);
-  };
-
-  const props = hasPages ? { onClick: onToggle, ...rest } : { ...rest };
+  const onToggle: OnToggle = () => setIsOpen((previous) => !previous);
 
   return (
     <>
@@ -48,7 +46,9 @@ export const Entry: FunctionComponent<Props> = forwardRef<
             transition: (theme) => theme.transitions.create('transform'),
           },
         }}
-        {...props}
+        selected={rest.href === asPath}
+        {...rest}
+        {...(hasPages && { onClick: onToggle })}
       >
         {icon && (
           <ListItemIcon>
@@ -65,18 +65,18 @@ export const Entry: FunctionComponent<Props> = forwardRef<
         )}
       </ListItemButton>
       {hasPages && (
-        <Collapse in={isOpen} timeout="auto" unmountOnExit>
+        <Collapse in={isOpen} timeout="auto">
           <Divider />
           <List
             component="div"
             dense
             sx={{ backgroundColor: 'background.default' }}
           >
-            {pages?.map(({ matter, route, slug }) => (
+            {pages.map(({ matter, route, slug }) => (
               <NextLink href={route} key={`page-${route}`} passHref>
                 <ListItemButton
                   component="a"
-                  selected={id === query.category && slug === query.chapter}
+                  selected={isOpen && slug === query.chapter}
                 >
                   <ListItemText primary={matter?.title || route} />
                 </ListItemButton>
