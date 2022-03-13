@@ -424,7 +424,7 @@ again, massive shoutouts to our 4 guests for making this happen. Make sure to
 check them out on Twitter as well. If you have any questions, leave me a DM, and
 I'll get back as soon as I can. Thanks :)
 
-> Editor's note: This was original posted [here][everything-doomday] by
+> Editor's note: This was original posted [here][everything-doomsday] by
 > Jacobisboss and permission granted to reformat and post on the Wiki. If anyone
 > else has any Doomsday submissions they would like hosted, please drop us a
 > message on the [Doomsday Discord](https://discord.gg/vajvFXt).

@@ -23,18 +23,27 @@ content.
 
 - Fill your paragraphs to 80 columns
 - If your title makes the frontmatter data longer than 80 columns, think of a
-  better heading for your document
+  better heading for your document. In addition to annoy users with
+  terminal-based clients, it also might not look as good in the homepage where
+  article cards are rendered with their corresponding title
 - Heading levels start at 2 in order to account for the title found in the
-  frontmatter
+  Markdown frontmatter
 - Don't use unicode quote characters eg. =‘’= and =“”=. They might not render
   properly for everyone so ASCII quotes eg. ='= and ="= should be preferred
 - A colon right in front of a word will be interpreted as a /directive/ so make
   sure you have a space right after =:= when it is used as punctuation
+- A dot right after a number character ie. when you end your sentence with a
+  digit renders as a numbered list item. To avoid this behavior, escape the dot
+  with a backslash: =[...] you might want all 4\.=
+- Depending on one's Markdown client, a dot at the end of a link can be
+  considered part of said link eg. when you end your sentences with a link you
+  should add a space before the final dot
 
 ** Scryfall
 
-In some contexts, you can refer to card names within Markdown. To ease the writing process, a number of
-shorthands for card names can be found [[./src/tools/scryfall/cards.ts][here]].
+In some contexts, you can refer to card names within Markdown. To ease the
+writing process, a number of shorthands for card names can be found
+[[./src/tools/scryfall/cards.ts][here]].
 
 Optionally, provide a specific set for the representation using the 3-letters
 set code. By default, the first print for the card is used.
@@ -54,14 +63,45 @@ achieved by suffixing the corresponding number. For instance:
 Duress | STA | 92
 #+END_SRC
 
-** Article Banners
+** Frontmatter
 
-Articles can be given a banner representing the art of a card. The banner is
-currently only visible from the home page where recent articles are displayed
-but they might be inserted at the top of the article in their respective pages.
+Chapter document can take advantage of a front section called /frontmatter/ in
+Markdown parlance. It should start with a triple-dash lines and end with
+another. Within that section, a body of YAML metadata can be written.
 
-You can use a Scryfall query inside of the frontmatter in your Markdown file to
-set a banner for the article. In doubt, follow existing conventions.
+- =order= ::
+  A number to specificy the order of your chapter in its accordion within the
+  sidebar. By default chapters are alpha-sorted using their slug (their path).
+- =title= (mandatory) ::
+  A string for your chapter title. Wrap it with double quotes ="= to allow
+  special characters within such as =:= and ='=.
+
+Articles don't have an =order= property but support other fields. Use other
+existing articles for inspiration.
+
+- =authors= ::
+  Comma-separated list of authors that you want to credit for the article.
+- =banner= (mandatory) ::
+  Set a banner for the article to display in the homepage as well as at the top
+  of the article in its own page. Scryfall syntax is supported.
+- =kind= (mandatory) ::
+  A kind symbol. Available values can be found in the keys at
+  [[src/tools/markdown/constants/Kind.ts][Kind.ts]]
+- =tags= ::
+  An array of tag symbols. Available values can be found in the keys at
+  [[src/tools/markdown/constants/Tag.ts][Tag.ts]]
+- =title= (mandatory) ::
+  A string for your article title. Wrap it with double quotes ="= to allow
+  special characters within such as =:= and ='=.
+
+** Tables of Content
+
+An automatic table of content can be inserted in Markdown documents with an
+empty level 2 heading that reads exactly =Table of Contents=. Leave that heading
+empty since all of its content will not be rendered.
+
+The table will look for level 2 and 3 headings in the whole document and render
+as a numbered list of anchor links for each of them.
 
 ** Custom Constructions
 
@@ -115,21 +155,21 @@ reader. In addition, they use a fixed width of 20% for each image.
 
 *** Decklists
 
-You can add decklists within your Markdown content, they will rendered as a
+You can add decklists within your Markdown content, they will be rendered as a
 collapsible block. Decklist files are located under =decklists/= and should be
-dated using a =[year]/[month]/file.txt= or =[year]/[month]/[day]/file.txt=
-convention if able. Follow the existing structure as an example. As an
-exception, decklist files found directly under =decklists/= are used in
-non-dated content to ease maintenance eg. in chapters.
+dated using a =[year]/[month]/[day]/file.txt= (or =[year]/[month]/file.txt= when
+you don't have the exact date) convention if able. Follow the existing structure
+as an example. As an exception, decklist files found directly under =decklists/=
+are used in non-dated content to ease maintenance eg. in chapters.
 
 #+BEGIN_SRC markdown
 ::decklist{path=path/to/decklist/sans/extension}
 #+END_SRC
 
 The content of decklist files supports title, authors and colors metadata.
-Columns can be created using blank lines. The following example shows how to
-write a decklist file with 2 columns of cards and a 3rd column for the
-sideboard. In doubt, follow existing conventions.
+Columns in the rendered decklist can be created using blank lines. The following
+example shows how to write a decklist file with 2 columns of cards and a 3rd
+column for the sideboard. In doubt, follow existing conventions.
 
 #+BEGIN_SRC text
 // Title: Dummy Example
@@ -164,6 +204,9 @@ parameter in the address bar.
 ::youtube{id=3LLIFHv5kbo}
 #+END_SRC
 
+*Twitter* embeds have been removed from the Wiki due to lacking implementation
+and security issues. They may or may not come back in the future.
+
 *** Accordions
 
 Collapsible blocks can be stacked against one another or used alone. Provide a
@@ -173,8 +216,8 @@ in the accordion.
 Do not specify the extension for the partial, =.md= is always assumed.
 
 #+BEGIN_SRC markdown
-::accordion[Click to expand]{path=path/to/partial/one}
-::accordion[Click to expand]{path=path/to/partial/two}
+::accordion[Click to expand]{path=path/to/partial/one/sans/extension}
+::accordion[Click to expand]{path=path/to/partial/two/sans/extension}
 #+END_SRC
 
 ** Mana

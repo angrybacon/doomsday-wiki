@@ -8,7 +8,7 @@ Contributions are more than welcome, thank you for considering it!
 Pull requests work best, below are guidelines set to help you in the process of
 providing work for review.
 
-** Contributing with Markdown
+** Contributing with Content
 
 See [[./CONTRIBUTING_WITH_MARKDOWN.org][CONTRIBUTING_WITH_MARKDOWN]].
 
@@ -36,7 +36,7 @@ project locally, Netlify generates and updates URLs for every pull requests on
 the repository.
 
 For instance, the pull request #123 deploys to
-[[https://deploy-preview-123--ddftwiki.netlify.app/]].
+[[https://deploy-preview-123--ddftwiki.netlify.app]].
 
 As a general advice, avoid pushing for every little change you make as build
 minutes are limited.
