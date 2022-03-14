@@ -34,14 +34,14 @@ const ArticlePage: NextPage<Props> = ({
   partials,
 }) => {
   const { matter } = markdown;
-  const { bannerData, title } = matter;
+  const { authors, bannerData, title } = matter;
 
   if (!bannerData || !title) return null;
 
   return (
     <Layout menu={menu} title={title}>
       <Card>
-        <Banner banner={bannerData} title={title} />
+        <Banner authors={authors} banner={bannerData} title={title} />
         <CardContent>
           <Remark
             decklists={decklists}

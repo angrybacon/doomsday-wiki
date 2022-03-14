@@ -112,7 +112,9 @@ export const Layout: FunctionComponent<Props> = ({
         <Container component={Box} maxWidth="lg">
           <Wrapper {...wrapperProps}>{children}</Wrapper>
         </Container>
-        <Footer sx={{ mt: 'auto', p: { xs: 2, sm: 3 }, pb: 0 }} />
+        <Footer
+          sx={{ mt: 'auto', pt: { xs: 2, sm: 3 }, px: { xs: 2, sm: 3 } }}
+        />
       </Box>
     </Box>
   );

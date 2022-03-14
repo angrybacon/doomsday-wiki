@@ -5,6 +5,7 @@ import {
   BASE_CHAPTER_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants/Files';
+import { sanitizeTitle } from '@/tools/markdown/sanitize';
 import type { Document, Matter } from '@/tools/markdown/types';
 
 type GetChapters = () => Document[];
@@ -18,9 +19,7 @@ export const getChapters: GetChapters = () => {
     if (crumbs.length === 2) {
       const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
       const { data } = readMarkdown(path);
-      if (!data.title || typeof data.title !== 'string') {
-        throw new Error(`Missing 'title' property for chapter at "${path}"`);
-      }
+      data.title = sanitizeTitle(data.title, path);
       const matter = { ...data } as Matter;
       const route = ['', ...crumbs].join('/');
       return [...accumulator, { crumbs, matter, route, slug: crumbs[1] }];

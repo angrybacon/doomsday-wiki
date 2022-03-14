@@ -4,11 +4,16 @@ import { alpha } from '@mui/material/styles';
 import type { Banner as BannerModel } from '@/tools/markdown/types';
 
 export interface Props {
+  authors?: string;
   banner: BannerModel;
   title: string;
 }
 
-export const Banner: FunctionComponent<Props> = ({ banner, title }) => (
+export const Banner: FunctionComponent<Props> = ({
+  authors,
+  banner,
+  title,
+}) => (
   <>
     <Box
       aria-level={1}
@@ -30,8 +35,23 @@ export const Banner: FunctionComponent<Props> = ({ banner, title }) => (
           height: { xs: 190, md: 270 },
         }}
       />
+      {authors && (
+        <Typography
+          component="div"
+          sx={{
+            bottom: 0,
+            color: 'common.white',
+            pb: 0.5,
+            pr: 1,
+            position: 'absolute',
+            right: 0,
+          }}
+          variant="caption"
+        >
+          by {authors}
+        </Typography>
+      )}
       <Typography
-        variant="h1"
         sx={{
           alignItems: 'center',
           bgcolor: (theme) => alpha(theme.palette.common.black, 0.3),
@@ -48,6 +68,7 @@ export const Banner: FunctionComponent<Props> = ({ banner, title }) => (
           textAlign: 'center',
           top: 0,
         }}
+        variant="h1"
       >
         {title}
       </Typography>
