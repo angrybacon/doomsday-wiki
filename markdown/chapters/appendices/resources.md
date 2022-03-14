@@ -8,7 +8,7 @@ You can often find people streaming in the Discord server. Alternatively, check
 out these content creators for Doomsday:
 
 | Channel                           | Links                                                                                                                   |
-|-----------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------|:------------------------------------------------------------------------------------------------------------------------|
 | James *ApeofJustice* Whitehouse   | [Twitch](https://www.twitch.tv/apeofjustice) &bull; [YouTube](https://www.youtube.com/channel/UCx_K-oTEpDPJRhPtiP3WjKw) |
 | Lee *d8dk32* Curtis               | [Twitch](https://www.twitch.tv/ddftguy) &bull; [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)      |
 | *Doishy*                          | [Twitch](https://www.twitch.tv/doishy) &bull; [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)       |
@@ -27,7 +27,7 @@ out these content creators for Doomsday:
 For Paper Legacy that often involves Doomsday:
 
 | Channel         | Links                                                                                                                     |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------|
+|-----------------|:--------------------------------------------------------------------------------------------------------------------------|
 | Bazaar of Boxes | [Twitch](https://twitch.tv/bazaarofboxes) &bull; [YouTube](https://www.youtube.com/channel/UCJAh1KrKva2ThdY2OSs1-Rw)      |
 | 90smtg          | [Twitch](https://twitch.tv/90sMTG) &bull; [YouTube](https://www.youtube.com/channel/UCZRjwixdkw7TykmWn2Mss2g)             |
 | MTGPaperLegacy  | [Twitch](https://www.twitch.tv/mtgpaperlegacy) &bull; [YouTube](https://www.youtube.com/channel/UCLn5vm9flyrHeds_uUKBEew) |
@@ -37,7 +37,7 @@ For Paper Legacy that often involves Doomsday:
 Videos from non-regular streamers or Doomsday content creators.
 
 | Link                                                                                                              | Colors       | Pilot            | Date           | Language   |
-|-------------------------------------------------------------------------------------------------------------------|--------------|------------------|----------------|------------|
+|-------------------------------------------------------------------------------------------------------------------|:-------------|------------------|----------------|------------|
 | [League with Meandeck ft. Death's Shadow](https://www.youtube.com/watch?v=sbx6_WIuSR4) (contains ads)             | {U}{B}{R}    | BoshNRoll        | December 2021  | English    |
 | [*MTGBlackSet* coverage on paper Meandeck vs. WW Pile](https://www.youtube.com/watch?v=Hn3no4hz00s)               | {U}{B}{R}    | Ferid            | December 2021  | German     |
 | [*MTGBlackSet* coverage on paper Meandeck vs. Moon Stompy](https://www.youtube.com/watch?v=898Kqa1wiGw)           | {U}{B}{R}    | Ferid            | November 2021  | German     |

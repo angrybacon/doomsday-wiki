@@ -32,8 +32,16 @@ export const RemarkTableBody: Components['tbody'] = ({ children }) => (
   <TableBody>{children}</TableBody>
 );
 
-export const RemarkTableCell: TableCellComponent = ({ children }) => (
-  <TableCell sx={(theme) => theme.mixins.gutters}>{children}</TableCell>
+export const RemarkTableCell: TableCellComponent = ({ children, style }) => (
+  <TableCell
+    style={style}
+    sx={[
+      (theme) => theme.mixins.gutters,
+      style?.textAlign === 'left' && { whiteSpace: 'nowrap' },
+    ]}
+  >
+    {children}
+  </TableCell>
 );
 
 export const RemarkTableHead: Components['thead'] = ({ children }) => (
