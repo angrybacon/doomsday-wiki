@@ -9,7 +9,7 @@ title: Frequently Asked Questions
 Compiled here is a list of frequently asked questions observed from the Discord
 or other sources (Twitter, Reddit, video comment threads etc). If you believe a
 key question is missing then please feel free to suggest it. A lot of the
-questions were either fully or partially answered in this article here:
+questions were also answered in this article:
 [DDFAQs](/articles/2020/03/22/ddfaq).
 
 ## What are the different Doomsday decks and what is the difference between them?
@@ -20,6 +20,9 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
 
 :::row{variant=CENTERED}
 - ToA
+- EF
+- FoW
+- Griselbrand
 :::
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
@@ -28,28 +31,16 @@ have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
 and Tendrils of Agony. They also prefer proactive protection such as Duress over
 being able to run reactive counter magic.
 
-:::row{variant=CENTERED}
-- EF
-:::
-
 **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
 was the main variant available post Gitaxian Probe ban and pre-printing of
 Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
-
-:::row{variant=CENTERED}
-- FoW
-:::
 
 **Meandeck Doomsday** is the primary deck variant that is having previously
 unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
 uses counter magic like Force of Will and Daze to play a controlling game before
 ending the game with Doomsday. The moniker *Meandeck* is explained in this
 article [here](/articles/2020/03/12/pretty-mean-deck).
-
-:::row{variant=CENTERED}
-- Griselbrand
-:::
 
 **Entombsday** is more of a Tin Fins variant with a main deck plan focussing on
 reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
@@ -72,30 +63,22 @@ and even {U}{B}{R}{G} across the year with most decks having an almost entirely
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
 
-:::row{variant=CENTERED}
-- Veil of Summer
-- Pyroblast
-- Teferi, Time Raveler
-:::
-
 ## What list should I start on? What is the *best* list to play?
 
-If you want a proven and effective list then look at either top placing
-finishers for high player events on
-[TCDecks](https://www.tcdecks.net/archetype.php?archetype=Doomsday&format=Legacy)
-or head to the Doomsday discord server and check out the `#decklists-archive`
-channel. Successful lists and placements are posted there regularly to ensure
-new technology / strategy is communicated out. There is no defined *best* list
-so just go with the list/lists that seem to be most prevalent as those are
-likely to be considered *best* at the time.
+If you want a proven and effective updated list, head to the [Doomsday
+Discord][discord] server and check out the `#decklists-archive` channel.
+Successful lists and placements are posted there regularly to ensure new
+technology and strategy are communicated out. There is no defined *best* list so
+just go with the lists that seem to be most prevalent as those are likely to be
+considered *best* at the time.
 
-## Is there a list of common/all Doomsday piles? What is the most common pile I should learn?
+## Is there a list of common Doomsday piles? What is the most common pile I should learn?
 
 Historically there was a spreadsheet that had an ever-growing list of
-pre-prescribed piles based on certain criteria but this was for the old DDFT
-decks pre-Sensei's Divining Top ban. A current one is not maintained for a
-couple of reasons the biggest being that trying to rote learn piles is actually
-not effective training/practice. It is better to learn the general rule sets or
+pre-prescribed piles based on certain criterias but this was for the old DDFT
+decks pre :card[Sensei's Divining Top] ban. A current one is not maintained for
+a couple of reasons: the biggest being that trying to rote learn piles is
+actually not effective training. It is better to learn the general rule sets or
 toolboxes you have at your disposal and then try to build on the fly using your
 knowledge, experience and general critical thinking than it is to try and
 remember "If I have {B}{B}{B}+{U}{U}{U}+{1}+SW in hand then I can win through
@@ -135,11 +118,7 @@ their own plan as much.
 These are likely the most favourable matchups (part based on gut feel and part
 based on community-obtained results found [here][data:matchups]).
 
-:::row{variant=CENTERED}
-- Endurance
-- Wasteland
-- Silence
-:::
+Head over to the [matchup reference](/meandeck/matchups) for more details.
 
 ## What is the worst matchup for the deck?
 
@@ -151,13 +130,7 @@ time with that matchup (between 30% and 35% depending on meta shifts and deck
 popularity) however Grixis Delver is likely the worst to face as the addition of
 Thoughtseize as another angle of disruption makes them very hard to face.
 
-:::row{variant=CENTERED}
-- Dragon's Rage Channeler
-- Delver of Secrets
-- Thoughtseize
-:::
-
-## What's a good meta to play Doomsday in?
+## What is a good meta to play Doomsday in?
 
 Any meta where either Delver isn't prevalent or where decks that prey on Delver
 are. Meandeck Doomsday boasts a good win rate against most of the format
@@ -174,12 +147,6 @@ the card was tried and didn't hit the mark. If you are new to the deck I would
 advise getting a few reps under your belt playing it first before delving into
 the spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
-
-:::row{variant=CENTERED}
-- Drown in the Loch
-- Baleful Strix
-- Careful Study
-:::
 
 ## Is the deck hard to learn? Is it the most difficult deck in Legacy?
 
@@ -315,11 +282,11 @@ lot of wins in {U} matchups and thus is too good a tool to lose.
 
 ::decklist{path=meandeck.budget}
 
-**Access to :card[Force of Will]**  
+Access to :card[Force of Will]:  
 -2 Flusterstorm -2 Thoughtseize  
 +4 Force of Will
 
-**Access to :card[Underground Sea]**  
+Access to :card[Underground Sea]:  
 -1 Watery Grave  
 +1 Underground Sea
 
@@ -357,14 +324,14 @@ should not be brought in vs. any Delver variant or when Wasteland and
 :card[Teferi, Time Raveler] are prominant in control variants as both of these
 can affect it.
 
-## What does Turbo Doomsday mean?
+## What does *Turbo* Doomsday mean?
 
 *Turbo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It is normally
 associated with variants of the deck which have a greater focus on speed rather
 than resilience. It is characterised by a higher count of :card[PT] along with
 greater numbers of :card[SW] or :card[EoA] compared to other versions.
 
-## What does Tempo Doomsday mean?
+## What does *Tempo* Doomsday mean?
 
 *Tempo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It presents a
 potential *plan B* by running both the normal combo and additonally a number of
