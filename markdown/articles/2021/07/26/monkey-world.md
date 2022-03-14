@@ -339,16 +339,6 @@ In most we still are very favored, but they are no longer *free wins*.
 In my opinion Doomsday is still the best Combo deck out there, but not as
 dominant against every non-Delver Deck as it was pre MH2.
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 See ya the next time,  
 OtterLady!
 

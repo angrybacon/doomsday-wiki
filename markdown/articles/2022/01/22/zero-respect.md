@@ -571,15 +571,6 @@ very much made for me and 2. Have a go at building your own little sideboard
 guide as it's a very good exercise to go through. Even if you do disregard it
 afterwards.
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 Until next time.
 
 May you not get bored with all this siding.

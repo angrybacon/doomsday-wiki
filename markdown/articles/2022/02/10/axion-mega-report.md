@@ -639,15 +639,6 @@ Other top 4 decklists for any interested:
 - Callum's [Imperial
   Painter](https://twitter.com/callumsmithmtg/status/1490619068898062337)
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 And remember, as Sakurai Shouichi states in Riichi Mahjong Flow Book 1:
 
 > Call hands that need to call, win, then win again next round.

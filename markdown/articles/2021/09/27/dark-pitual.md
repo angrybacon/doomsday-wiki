@@ -1171,16 +1171,6 @@ seeing other people in the community get involved with content creation so if
 you would like to get involved or have an idea for an article or series please
 let us know!
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 Until next time.
 
 Keep up the good work all!

@@ -542,16 +542,6 @@ wrote it. He does a lot of great video content so please do check [his
 videos](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ) out on youtube
 if you want to see the deck in action.
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 Until next time.
 
 Please stay safe, well and punish people for playing non-blue decks.  

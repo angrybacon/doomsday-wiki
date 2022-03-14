@@ -2,8 +2,7 @@ import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
 import React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
+import { Card, CardContent, Divider } from '@mui/material';
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
@@ -22,6 +21,7 @@ import type {
 
 interface Props {
   decklists: Decklists;
+  footer: Markdown;
   markdown: Markdown;
   menu: Menu;
   partials: Partials;
@@ -29,6 +29,7 @@ interface Props {
 
 const ArticlePage: NextPage<Props> = ({
   decklists,
+  footer,
   markdown,
   menu,
   partials,
@@ -48,6 +49,10 @@ const ArticlePage: NextPage<Props> = ({
             markdown={markdown}
             partials={partials}
           />
+        </CardContent>
+        <Divider />
+        <CardContent>
+          <Remark decklists={decklists} markdown={footer} partials={partials} />
         </CardContent>
       </Card>
     </Layout>
@@ -75,6 +80,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
 }) => ({
   props: {
     decklists: getDecklists(),
+    footer: await getMarkdown('partials/article-footer'),
     markdown: await getMarkdown(
       join(
         'articles',

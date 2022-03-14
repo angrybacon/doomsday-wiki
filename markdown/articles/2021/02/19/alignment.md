@@ -335,16 +335,6 @@ combo and to work out the speed vs grind tradeoff. Hopefully reading through
 this it will help you get an idea / understanding of what options are out there
 and what you wish to play.
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 Until next time.
 
 May your alignment stay true to Doomsday!

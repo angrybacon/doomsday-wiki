@@ -696,16 +696,6 @@ in prose!) and hypothetical situations. Hopefully it all made sense however
 please get in contact if you have any improvement suggestions or any suggestions
 for future content!
 
-As always if you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt) or contact
-Doishy on the Discord if you wish to discuss anything mentioned in the article
-further.
-
 Until next time.
 
 May you find victory in the hypothetical end times!

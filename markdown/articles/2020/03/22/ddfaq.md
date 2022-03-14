@@ -649,16 +649,6 @@ If in doubt, practice makes perfect! 100 games trying to build and construct
 piles on the fly are much better than trying to memorise 100 potential piles by
 rote.
 
-## Additional Content Available
-
-If you want even more content please check out our
-[resources](/appendices/resources) page which includes a list of community
-streamers or maybe if you are up for a challenge maybe check out the
-[puzzles](/puzzles) page.
-
-If you would like to submit any content to the Wiki then please contact
-AngryBacon in the [Doomsday Discord](https://discord.gg/vajvFXt).
-
 Until next time.
 
 May you avoid the first horsemen of the apocalypse!  
@@ -676,5 +666,4 @@ a deterministic turn 1 kill in Legacy Doomsday too!
 ![Vintage turn one by Stephen Menendian](/media/pictures/2020.vintage-turn-one.jpeg)
 
 Have a go at working out this little puzzle checking the meandeck lists on the
-Wiki and see if you can work it out :)  
-The answer may be found in our [puzzles](/puzzles) page.
+Wiki and see if you can work it out :)
