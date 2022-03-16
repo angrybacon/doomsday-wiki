@@ -334,7 +334,7 @@ greater numbers of :card[SW] or :card[EoA] compared to other versions.
 ## What does *Tempo* Doomsday mean?
 
 *Tempo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It presents a
-potential *plan B* by running both the normal combo and additonally a number of
+potential *plan B* by running both the normal combo and additionally a number of
 creature and/or planeswalker based threats. It is characterised by a creature
 suite and a lower focus on finding Doomsday or using pile-specific cards like
 :card[IU].
