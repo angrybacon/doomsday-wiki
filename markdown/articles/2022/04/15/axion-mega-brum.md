@@ -111,15 +111,14 @@ is fucking sweet.
 
 I managed to win the dice roll and we both keep seven. I do some cantrip type
 things and maybe :card[PT] for a Doomsday to which he makes comment on. He lead
-on just :card[Island] which then returned to his hand as I attempted to hit him
-with a :card[Tsz]. The Island was then replaced with a :card[SI] to which I
-suddenly knew something funny was afoot! I untapped on my turn 3 with a tricky
-decision to make. Now I know Shelldock is a symmetrical check. Assuming my
-opponent is aware too then I had to cast Doomsday and pass the turn. If I do and
-there is something nasty like an :card[Em] under there then I am well and truly
-fucked. But, waiting means more time for them to do whatever they are doing or
-finding disruption. As a result I decided to risk jamming and seeing what
-happened.
+on just Island which then returned to his hand as I attempted to hit him with a
+:card[Tsz]. The Island was then replaced with a :card[SI] to which I suddenly
+knew something funny was afoot! I untapped on my turn 3 with a tricky decision
+to make. Now I know Shelldock is a symmetrical check. Assuming my opponent is
+aware too then I had to cast Doomsday and pass the turn. If I do and there is
+something nasty like an :card[Em] under there then I am well and truly fucked.
+But, waiting means more time for them to do whatever they are doing or finding
+disruption. As a result I decided to risk jamming and seeing what happened.
 
 :::row{variant=hand}
 - Shelldock Isle
@@ -243,16 +242,16 @@ was worried on Narset potential and :card[Dress Down] being an issue. Chain of
 Vapor came in for those!
 
 We both keep 7s for game 2. I get in an early discard spell and see
-:card[Baleful Strix]. Narset, Bolt, Day's Undoing, :card[Pn] and :card[Jace, the
-Mind Sculptor] with some lands. I had a think and decided to take the Narset.
-Turn 3 I jam and make a PTT pile with double Oracle and Cavern in making sure to
-stack it in such a way I cannot get punished by a Thoughtseize into Surgical on
-the fish. Stu draws blank and goes for the natural Day's Undoing. I do some
-quick maths with a hand of Forces, Chain of Vapor, and a cycler. My pile had a
-Ponder and an Ideas Unbound in. I had 11 cards across my hand, graveyard and
-library and could guarantee hitting an Oracle and getting to at least 2 cards
-left thereafter so I let it resolve, He finds nothing and I resolve Oracle off
-Cavern with a silly amount of interaction available.
+:card[Baleful Strix]. Narset, Bolt, Day's Undoing, :card[Pnd] and :card[Jace,
+the Mind Sculptor] with some lands. I had a think and decided to take the
+Narset. Turn 3 I jam and make a PTT pile with double Oracle and Cavern in making
+sure to stack it in such a way I cannot get punished by a Thoughtseize into
+Surgical on the fish. Stu draws blank and goes for the natural Day's Undoing. I
+do some quick maths with a hand of Forces, Chain of Vapor, and a cycler. My pile
+had a Ponder and an Ideas Unbound in. I had 11 cards across my hand, graveyard
+and library and could guarantee hitting an Oracle and getting to at least 2
+cards left thereafter so I let it resolve, He finds nothing and I resolve Oracle
+off Cavern with a silly amount of interaction available.
 
 What would you have taken here?
 

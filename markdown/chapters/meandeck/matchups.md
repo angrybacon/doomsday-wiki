@@ -31,6 +31,15 @@ fast piles.
 ::accordion[Cards to keep in mind]{path=matchups/delver.ur.cards}
 ::accordion[Gameplay]{path=matchups/delver.ur.gameplay}
 
+## Jeskai Control
+
+The longer you wait, the harder it becomes to power through their card advantage
+as they deploy their slow clock. The absence of :card[Lightning Bolt] means
+passing the turn is safer than against other tempo strategies with red.
+
+::accordion[Cards to keep in mind]{path=matchups/jeskai-control.cards}
+::accordion[Gameplay]{path=matchups/jeskai-control.gameplay}
+
 ## Bant Miracles
 
 Take your time. Their main clock consists of early striges and Uro which should
@@ -42,8 +51,8 @@ supposedly drawing *better* than they will.
 
 Beware the eventual maindeck :card[Endurance] and :card[Dress Down]!
 
-::accordion[Cards to keep in mind]{path=matchups/miracles.cards}
-::accordion[Gameplay]{path=matchups/miracles.gameplay}
+::accordion[Cards to keep in mind]{path=matchups/miracles.wug.cards}
+::accordion[Gameplay]{path=matchups/miracles.wug.gameplay}
 
 ## Death and Taxes
 
