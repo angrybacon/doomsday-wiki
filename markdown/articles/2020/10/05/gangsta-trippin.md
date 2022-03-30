@@ -390,7 +390,7 @@ hand, in a bit of a dire strait and have a decent amount of excess mana you can
 use it to draw 3 cards to try and hit some business spells. Often you can be
 able to find Doomsday and the mana to cast it, or spells to protect it, and
 resolve a win in the same turn, thus avoiding the discard clause, or creating a
-pass the turn pile whereby discarding your hand becomes a non-issue.
+pass-the-turn pile whereby discarding your hand becomes a non-issue.
 
 ## Example Scenarios
 

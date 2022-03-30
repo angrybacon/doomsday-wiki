@@ -36,7 +36,7 @@ possibly has. Even with stock lists. You'll have to learn how to assess the
 situation and plan accordingly. That's an important skill in every matchup, but
 against Delver it's crucial.
 
-When building fast pass the turn piles, :card[Lion's Eye Diamond] will be your
+When building fast pass-the-turn piles, :card[Lion's Eye Diamond] will be your
 best friend. The 3 free mana are often very helpful to cast Oracle without
 having to put multiple lands in your pile.
 

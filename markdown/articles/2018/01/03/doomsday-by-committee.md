@@ -150,7 +150,7 @@ Doishy's comments:
 > a three to four of the odds of finding it were higher. This does not even
 > count for them finding something like an Elvish Visionary and starting an
 > "Engine" turn. I think the Volc line was the safest choice given the inherent
-> risk of a pass the turn pile against a deck that can literally explode from
+> risk of a pass-the-turn pile against a deck that can literally explode from
 > nowehere.*
 
 ## Scenario 3

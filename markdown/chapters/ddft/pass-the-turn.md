@@ -16,7 +16,7 @@ Under the right conditions, you can cast Doomsday, pass, and untap with all the
 resources you need to win on the battlefield or the top of your deck, thereby
 invalidating an opponent's interaction.
 
-Another situation in which you may choose to do a pass the turn pile is when you
+Another situation in which you may choose to do a pass-the-turn pile is when you
 don't have a draw effect, but your life total is not threatened. Here you can
 use your draw step as the cantrip. This also reduces the amount of mana you need
 to go off in one turn.

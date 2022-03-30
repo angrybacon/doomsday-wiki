@@ -688,7 +688,7 @@ taking a bit more time to play around it.
 - Portent
 :::
 
-These only need to be considered when building a Pass the Turn pile. Jace is
+These only need to be considered when building a pass-the-turn pile. Jace is
 likely the most common one to face and is easily beaten by placing an otherwise
 innocuous cantrip as the top card. If the opponent *upticks* Jace then they
 cannot *hit* an integral piece if it's the second card down and even if they

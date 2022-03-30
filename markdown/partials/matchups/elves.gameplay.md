@@ -13,7 +13,7 @@ fast as possible.
 
 ###### Post Doomsday
 
-Pass the turn piles can be a tad risky due to their explosiveness. Especially
+Pass-the-turn piles can be a tad risky due to their explosiveness. Especially
 turn 3 or later. Try to build fast piles.
 
 In the past some Elves lists played :card[Endurance] or :card[Crop Rotation] for

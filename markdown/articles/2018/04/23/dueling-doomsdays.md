@@ -65,7 +65,7 @@ this serviceable hand. Ben just Ponders on his turn, shuffles, then passes. I
 feel somewhat confident with the shuffle, and draw another Doomsday for turn. I
 Duress him on my T1, and take a Brainstorm seeing a hand of Flooded Strand,
 Lotus Petal, LED, and 2 Cabal Rituals. Then with no cantrips, I don’t feel
-confident letting this game going long, so I set up a pass the turn pile with
+confident letting this game going long, so I set up a pass-the-turn pile with
 Laboratory Maniac, going straight to 10 life. If he draws a tutor, or the
 Tendrils I die, but that is only a 5 outer, so Im quite happy playing against
 those odds. Ben hits a Ponder, shuffles, and hits the Tutor. GG
@@ -105,7 +105,8 @@ Opposing Deck: Sneak and Show
 Result: 2-0**
 
 Playing against Morgan, who seemed to be somewhat new to the format. We all
-start somewhere. On the play.  
+start somewhere. On the play.
+
 G1) Morgan mulligans to 6 cards and scrys to the top. I keep a pretty solid hand
 with cantrips, mana and a burning wish. I T1 probe him, for information and see
 a pretty weak keep with Volcanic Island, Island, Mountain, Flooded Strand, Lotus
@@ -113,8 +114,8 @@ Petal, and Force of Will. Seems pretty clearly on some UR Show and Tell variant.
 Draw a duress from the probe which I use to take that Force and pass. Morgan
 just plays a land and passes, I draw a therapy and take that Petal, seeing the
 scry to the top was a Griselbrand; confirm my assumption of SnT. I DR, BW, DD
-into a Pass the Turn pile. Kill
-him the next turn.  
+into a pass-the-turn pile. Kill him the next turn.
+
 G2) I keep a very solid hand with Probe, Therapy, Therapy, Thoughtseize, Fetch,
 BW, LP. Morgan on the play plays a land, lotus petal, ponder (shuffle) and
 passes. I draw a LED. Probe him seeing Boseiju, Flusterstorm, Show and Tell,

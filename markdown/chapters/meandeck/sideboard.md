@@ -382,7 +382,7 @@ of progressing your own plan. Threats you should consider fighting are cards
 like Leovold, Emissary of Trest as this disrupts our combo and provides a
 not-insignificant pressure on our life total. Often, if presented with the
 opportunity with an early Doomsday you should take it. Cavern of Souls means
-that you can commit to a pass the turn pile across multiple turns and still
+that you can commit to a pass-the-turn pile across multiple turns and still
 manage to circumnavigate the majority of what interaction they can bring.
 
 Any green based examples of this archetype also tend to run Endurance so watch
@@ -477,7 +477,7 @@ If you have a fast kill in hand you can keep that with a reasonable chance of
 getting there. The only potential disruption to consider is Mindbreak Trap,
 Endurance or Surgical Extraction effects for same turn wins and something like
 Deafening Silence, Ethersworn Canonist, Thalia, Guardian of Thraben or Choke for
-pass the turn wins. Having a piece of removal in your starting hand is
+pass-the-turn wins. Having a piece of removal in your starting hand is
 favourable but not something you should mulligan too aggressively towards. Try
 to avoid needing to go for Unearth based wins as they could run tools like
 Elvish Reclaimer or Knight of the Reliquary that could fetch Bojuka Bog or have

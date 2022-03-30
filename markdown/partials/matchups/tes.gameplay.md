@@ -11,7 +11,7 @@ situation.
 
 ###### Post Doomsday
 
-Pass the turn piles are very risky against Storm decks, because the lifeloss of
+Pass-the-turn piles are very risky against Storm decks, because the lifeloss of
 :card[Doomsday] puts them in the very good position of not needing a high Storm
 count. With :card[Burning Wish] for :card[Grapeshot] they can easily amass
 enough damage without ever needing to reach 4 mana for :card[Tendrils of Agony].

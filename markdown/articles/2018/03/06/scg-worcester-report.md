@@ -383,7 +383,7 @@ a mystery.
 
 G2: I fetch and Thouhgtseize away a chalice, leaving them with a Sudden Shock, a
 Chandra, and a Fiery Confluence. They just play lands and I cantrip. On turn 3 I
-make a pass the turn pile, except I'm at 17 life so I drop to 8. End of turn
+make a pass-the-turn pile, except I'm at 17 life so I drop to 8. End of turn
 they Sudden Shock me, untap, and cast Fiery Confluence to burn me for the
 last 6. So I played like an ass and got punished for it again.
 

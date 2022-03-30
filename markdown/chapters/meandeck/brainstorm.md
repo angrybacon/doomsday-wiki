@@ -36,7 +36,7 @@ Brainstorm is better off simply as the second cantrip in a Double Cantrip pile.
 With this guide, and some practice, you should become confident in this decision
 making in no time.
 
-## Brainstorm Pile - Brainstorm Available
+## Brainstorm Available
 
 > {U} + Brainstorm + X
 
@@ -82,7 +82,7 @@ Another example is presented here using Predict.
 Both of the worked examples above allow for perfect piles to be made, allowing
 you to play around removal like :card[Swords to Plowshares].
 
-## Brainstorm Pile - Brainstorm and *Combo Piece* Available
+## Brainstorm and *Combo Piece* Available
 
 You may find yourself in a scenario where you have a card in hand that is
 considered *dead* outside of the combo turn. Thankfully, Brainstorm (BS) allows
@@ -109,7 +109,7 @@ Consider the following example:
 1. Cast Brainstorm and put back Oracle then Ponder on top.
 1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Ponder.
 1. Cast Ponder and arrange your library so that it is (EoA, TO, Pnd)
-1. Draw Edge, cycle Edge, draw Ponder then Oracle.
+1. Draw Edge, cycle Edge and draw Oracle.
 1. Cast Oracle to win.
 
 As you can see this is an imperfect pile as it does not beat removal on Oracle
@@ -133,7 +133,7 @@ the additional {U} needed for the same starting mana cost.
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
 1. Cast LED and LP, cycle SW cracking LED for {U}{U}{U} and draw the Cantrip.
 1. Cast the Cantrip and arrange your library so that it is (EoA, Pnd, TO)
-1. Draw Edge, cycle Edge and draw Oracle.
+1. Draw Edge, cycle Edge, draw Ponder, cast Ponder and draw Oracle.
 1. Cast Oracle to win.
 
 The Cantrip in the above example can be any of Ponder, Preordain or Brainstorm.
@@ -143,13 +143,13 @@ during resolution. Likewise, with Brainstorm; you will draw all three cards and
 replace 2 in the desired order as required. With Preordain you scry the Oracle
 to the bottom of your library and draw the next card along. Another free cycler
 will not work in this position as they do not have the deck manipulation effects
-needed however even something as simple as Opt can be used.
+needed however even something as simple as :card[Opt] can be used.
 
 Even if not the Oracle, if you already have another element of the pile in hand,
 you can substitute additional toolbox cards within the *standard* pile to
 utilise the additional resources. Let's look at an example where you have an
-extra {B} available, IU in hand and you know your opponent is holding a Stifle
-in hand.
+extra {B} available, :card[IU] in hand and you know your opponent is holding a
+:card[Stifle] in hand.
 
 > {U}{B} + Brainstorm + Ideas Unbound + X
 
@@ -175,7 +175,7 @@ additional protection against what our opponent had. In this instance having the
 extra card in hand allowed us to make use of three of the pile cards immediately
 rather than just two. This also results in a perfect pile.
 
-## Brainstorm Pile - Brainstorm and *Free Cantrip* Available
+## Brainstorm and *Free Cantrip* Available
 
 You may find yourself with all the tools in hand to perform a Brainstorm pile,
 but you don't have a spare {U} this time to cast the Brainstorm itself. If you
@@ -195,7 +195,7 @@ well if you have an available land drop for that turn.
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off of LP and put back X then TO
-1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the TO
+1. Cast LED, cycle EoA cracking LED for {U}{U}{U} and draw the TO
 1. Cast TO with the remaining mana from LED with two cards left in your library
 
 Again this is an example of an imperfect pile. If you played a list featuring
@@ -214,11 +214,11 @@ turn it into a perfect pile.
 
 1. Cycle SW, draw the LP and cast it
 1. Cast Brainstorm off of LP and put back X then Consider
-1. Cast LED, cycle SW cracking LED for {U}{U}{U} and draw the Consider
+1. Cast LED, cycle EoA cracking LED for {U}{U}{U} and draw the Consider
 1. Cast Consider, put X into the graveyard and draw TO
 1. Cast TO with the remaining mana from LED with zero cards left in your library
 
-## Brainstorm Pile - U and *Free Cantrip* Available
+## U and *Free Cantrip* Available
 
 Using the concepts we learned above, we can actually create an imperfect
 Brainstorm pile without Brainstorm even being in our hand. Instead of needing
@@ -232,7 +232,7 @@ top card instead.
 - LED
 - EoA
 - TO
-- Island|RAV
+- Island | RAV
 :::
 
 This time you cycle into the Brainstorm rather than into the mana needed for it
@@ -251,7 +251,7 @@ Alternatively, use Consider to get rid of X and achieve a perfect pile.
 - TO
 :::
 
-## Brainstorm Pile - Not using LED
+## Not Using LED
 
 Sometimes you may not wish to commit to a Brainstorm pile because you are
 concerned about interaction and are holding Force of Will and a *pitch* card for
@@ -304,10 +304,10 @@ have perhaps run out of fetchable lands from our deck as they are in our hand:
 1. Tap both Seas for {U}
 1. Cast TO with zero cards left in your library
 
-## Brainstorm Pile - Speeding up a PTT Pile
+## Speeding Up a PTT Pile
 
 Sometimes you might not be able to execute an imperfect Brainstorm pile due to
-known removal and so elect to build a pass the turn pile instead. You may have
+known removal and so elect to build a pass-the-turn pile instead. You may have
 the Brainstorm in hand but elect to build a slower pile relying on cycle effects
 and fetch lands. If, for whatever reason, circumstances in the game state
 change, you can use the Brainstorm to dig into the pile quicker to access what
@@ -333,7 +333,7 @@ following:
 1. Draw Cavern of Souls for the turn
 1. Cycle SW, draw X
 1. Cycle SW, draw TO
-1. Play Cavern, name Wizard, cast TO with one card left in your library
+1. Play Cavern, name *Wizard*, cast TO with one card left in your library
 
 This is one example of many possible scenarios you can use Brainstorm in a pile
 in order to give flexibility on how it can be played out.

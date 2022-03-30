@@ -55,7 +55,7 @@ by one of the commonly played {U} filter effects like :card[Preordain] or a free
 cycle effect like :card[Street Wraith]. If you are not under pressure you can
 also simply pass the turn to the opposing player and use your next turn's draw
 step in order to *dig* into the *pile*. When this is performed it is simply
-known as a *pass the turn pile* or *PTT pile*.
+known as a *pass-the-turn pile* or *PTT pile*.
 
 Once you have decided what method you will *dig* into your pile with you need to
 work out how you are going to get through enough cards that the trigger from
@@ -243,7 +243,7 @@ Deep Analysis and LED can be interchanged:
 
 ## Passing the Turn
 
-As previously mentioned, a *pass the turn pile* or *PTT pile* is simply one
+As previously mentioned, a *pass-the-turn pile* or *PTT pile* is simply one
 where, instead of having a cantrip to draw into the pile in hand, you utilise
 your draw for the turn instead. There are many reasons why passing the turn
 might be advantageous or necessary based on the resources available to you.

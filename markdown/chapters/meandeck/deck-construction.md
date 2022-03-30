@@ -625,7 +625,7 @@ work out how we want it to look.
 Think about the following questions:
 
 - What turn do we want to cast Doomsday on?
-- How often do we want to make pass the turn piles?
+- How often do we want to make pass-the-turn piles?
 - What part of the meta do we want to beat?
 - What part of the meta do we want to avoid?
 - Do we always want to ensure we are protected or are we happy to blindly *jam*

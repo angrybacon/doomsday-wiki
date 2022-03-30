@@ -742,7 +742,7 @@ Game 1 was quite strange, in that Anthony never fetched a red source, only
 :card[Tundra]s, presumably to hide what he was on; we exchanged :card[Stifle]s
 on fetches and :card[Wasteland], and I eventually found the combo with
 disruption in the form of :card[Thoughtseize] and :card[Force of Will] backup to
-win with a pass the turn pile using :card[Ideas Unbound].
+win with a pass-the-turn pile using :card[Ideas Unbound].
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Abrade], 2
 :card[Flusterstorm]  
@@ -1011,7 +1011,7 @@ land. My opponent opened to :card[Underground Sea], :card[Ponder], pass. So at
 first I thought I was in a combo mirror. I cast a :card[Ponder] on my turn as
 well. My opponent cast another cantrip and then played out :card[Ornithopter].
 Ok, I'm facing :card[Ninjas] - not a great matchup, actually kinda bad. On my
-turn, I find the combo and set up a pass the turn pile with :card[Ideas
+turn, I find the combo and set up a pass-the-turn pile with :card[Ideas
 Unbound]. My opponent ninjitsus in Yuriko on his turn and hits me for a decent
 amount, but not enough to keep me from winning the following turn.
 
