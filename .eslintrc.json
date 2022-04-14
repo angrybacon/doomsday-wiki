@@ -12,7 +12,7 @@
   ],
   "overrides": [
     {
-      "files": ["*.ts", "*.tsx"],
+      "files": ["*.{ts,tsx}"],
       "rules": {
         "@typescript-eslint/explicit-module-boundary-types": "error",
         "react/prop-types": "off",
@@ -20,11 +20,15 @@
       }
     },
     {
-      "files": ["*.test.ts", "*.test.tsx"],
+      "files": ["*.test.{ts,tsx}"],
       "rules": {
         "@typescript-eslint/no-var-requires": "off",
         "global-require": "off"
       }
+    },
+    {
+      "files": ["jest.*.js", "**/*.test.{ts,tsx}"],
+      "rules": { "import/no-extraneous-dependencies": "off" }
     }
   ],
   "parser": "@typescript-eslint/parser",
@@ -43,10 +47,6 @@
       "error",
       "ignorePackages",
       { "ts": "never", "tsx": "never" }
-    ],
-    "import/no-extraneous-dependencies": [
-      "error",
-      { "devDependencies": ["jest.*.*", "**/*.test.*"] }
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
