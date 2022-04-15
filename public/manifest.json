@@ -1,0 +1,20 @@
+{
+  "name": "The Doomsday Wiki",
+  "short_name": "ddft.wiki",
+  "description": "The Doomsday Wiki.",
+  "background_color": "#512DA8",
+  "display": "minimal-ui",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "theme_color": "#673AB7",
+  "icons": [
+    { "sizes": "192x192", "src": "/icons/doomsday-192x192.png" },
+    { "sizes": "512x512", "src": "/icons/doomsday-512x512.png" }
+  ],
+  "shortcuts": [
+    { "name": "Articles", "url": "/articles" },
+    { "name": "Decklists", "url": "/appendices/decklists" },
+    { "name": "FAQ", "url": "/appendices/faq" }
+  ]
+}
