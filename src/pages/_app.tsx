@@ -14,6 +14,7 @@ const Application = (props: AppProps): JSX.Element => {
           content="minimum-scale=1, initial-scale=1, width=device-width"
           name="viewport"
         />
+        <link href="/manifest.json" rel="manifest" />
       </Head>
       <ThemeProvider>
         <CssBaseline />
