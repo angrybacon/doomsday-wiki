@@ -7,5 +7,5 @@
 [[https://discord.gg/vajvFXt][https://img.shields.io/discord/398217260344410112.svg?color=7289DA&label=discord&style=flat-square]]
 
 This is the repository that hold both the code and content behind
-https://ddft.wiki . If you would like to contribute, see
+https://doomsday.wiki . If you would like to contribute, see
 [[./CONTRIBUTING.org/][CONTRIBUTING]].
