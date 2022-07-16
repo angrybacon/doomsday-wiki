@@ -10,17 +10,7 @@
     "plugin:import/typescript",
     "prettier"
   ],
-  "ignorePatterns": [
-    "public/sw.js",
-    "public/sw.js.map",
-    "public/workbox-????????.js",
-    "public/workbox-????????.js.map"
-  ],
   "overrides": [
-    {
-      "files": ["*.{js,jsx}"],
-      "rules": { "@typescript-eslint/no-var-requires": "off" }
-    },
     {
       "files": ["*.{ts,tsx}"],
       "rules": {

@@ -30,7 +30,7 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose }) => {
           size="small"
           variant="contained"
         >
-          ddft.wiki
+          doomsday.wiki
         </Button>
       </NextLink>
       <Box
@@ -41,9 +41,9 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose }) => {
           '& > :not(:first-child)': { ml: 1 },
         }}
       >
-        <Tooltip arrow title="Discord">
-          <a href={DISCORD_URL} rel="noreferrer" target="_blank">
-            <IconButton aria-label="Discord" size="large">
+        <Tooltip arrow title="Join our Discord server">
+          <a href={DISCORD_URL} rel="noopener noreferrer" target="_blank">
+            <IconButton size="large">
               <Icon path={mdiDiscord} size={0.8} />
             </IconButton>
           </a>

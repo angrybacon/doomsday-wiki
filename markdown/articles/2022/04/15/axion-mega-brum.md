@@ -482,7 +482,7 @@ get anything going as the board fills up with angry 1/1 and 2/2 threats.
 Eventually I can cast a :card[Kokusho, the Evening Star] but it is not enough.
 
 Game 2 went a lot better. I was able to get a lot of mana out and start the
-sweet :car[Gifts Ungiven] loop of :card[Hana-Kami], :card[Goryo's Vengeance],
+sweet :card[Gifts Ungiven] loop of :card[Hana-Kami], :card[Goryo's Vengeance],
 :card[Death Denied] and :card[Kagemaro, First to Suffer] going however the whole
 time I had a :card[Manriki-Gusari] boosted :card[Hand of Honor] beating me down
 which I could not get rid of! I finally had gotten everything ready for a big

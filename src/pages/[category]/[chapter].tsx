@@ -31,8 +31,7 @@ const ChapterPage: NextPage<Props> = ({
   menu,
   partials,
 }) => {
-  const { matter } = markdown;
-  const { title } = matter;
+  const { title } = markdown.matter;
 
   if (!title) return null;
 

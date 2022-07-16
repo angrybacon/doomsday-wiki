@@ -1,42 +1,32 @@
-import React, {
-  FunctionComponent,
-  ReactChild,
-  createContext,
-  useEffect,
-  useMemo,
-  useState,
-} from 'react';
+import React, { createContext, useEffect, useMemo, useState } from 'react';
+import type { FunctionComponent, ReactNode } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
 import { THEME_STORAGE_KEY, Theme } from '@/theme/constants';
 import { baseTheme, darkTheme, lightTheme } from '@/theme/theme';
 
-type Toggle = () => void;
-
 interface ThemeState {
   isDark: boolean | null;
-  toggle: Toggle;
+  toggle: () => void;
 }
 
-const initialState: ThemeState = {
+const initial: ThemeState = {
   isDark: null,
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   toggle: () => {},
 };
 
-export const ThemeContext = createContext<ThemeState>(initialState);
+export const ThemeContext = createContext<ThemeState>(initial);
 
 interface Props {
-  children: ReactChild | ReactChild[];
+  children: ReactNode;
 }
 
 export const ThemeProvider: FunctionComponent<Props> = ({ children }) => {
-  const [isDark, setIsDark] = useState<boolean | null>(null);
+  const [isDark, setIsDark] = useState<boolean | null>(initial.isDark);
 
-  const toggle: Toggle = () => {
+  const toggle = () => {
     setIsDark((previous) => !previous);
   };
-
-  const value: ThemeState = useMemo(() => ({ isDark, toggle }), [isDark]);
 
   useEffect(() => {
     if (isDark !== null) {
@@ -49,6 +39,8 @@ export const ThemeProvider: FunctionComponent<Props> = ({ children }) => {
     const value = window.localStorage.getItem(THEME_STORAGE_KEY);
     setIsDark(value !== Theme.LIGHT);
   }, []);
+
+  const value: ThemeState = useMemo(() => ({ isDark, toggle }), [isDark]);
 
   if (isDark === null) return null;
 

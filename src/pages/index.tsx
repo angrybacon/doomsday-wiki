@@ -37,9 +37,7 @@ const HomePage: NextPage<Props> = ({
   const articleRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
-  const showMore = () => {
-    setSize((previous) => previous + 3);
-  };
+  const showMore = () => setSize((previous) => previous + 3);
 
   useEffect(() => {
     if (size > ARTICLES_INITIAL_SIZE) {

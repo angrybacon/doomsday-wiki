@@ -13,8 +13,8 @@ export const Footer: FunctionComponent<Props> = ({ sx }) => (
     sx={{ display: 'flex', justifyContent: 'center', ...sx }}
   >
     <Typography color="textSecondary" variant="caption">
-      Copyright &copy; 2017-2022 ddft.wiki contributors. Read the notice about{' '}
-      <Link href="/license">licenses and resources</Link>.
+      Copyright &copy; 2017-2022 doomsday.wiki contributors. Read the notice
+      about <Link href="/license">licenses and resources</Link>.
     </Typography>
   </Box>
 );
