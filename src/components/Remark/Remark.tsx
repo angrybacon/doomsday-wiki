@@ -53,14 +53,7 @@ export const Remark: FunctionComponent<Props> = ({
   ];
 
   return (
-    <Box
-      sx={{
-        // NOTE Increase specificity
-        '&& > *': { mt: 2 },
-        '&& > :first-child': { mt: 0 },
-        '&& > :last-child': { mb: 0 },
-      }}
-    >
+    <Box sx={{ '> :not(p:first-of-type)': { mt: 3 } }}>
       <ReactMarkdown
         components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
         remarkPlugins={[...basePlugins, ...customPlugins]}

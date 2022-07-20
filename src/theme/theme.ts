@@ -63,7 +63,11 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       },
       MuiCardContent: {
         styleOverrides: {
-          root: { padding: spacing(3), ...gutters(theme) },
+          root: {
+            padding: spacing(4),
+            ...gutters(theme),
+            '&:last-child': { paddingBottom: spacing(4) },
+          },
         },
       },
       MuiChip: {
@@ -86,6 +90,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
       },
       MuiCssBaseline: {
         styleOverrides: {
+          blockquote: { margin: 0 },
           em: {
             fontDisplay: 'swap',
             fontFamily: 'Libre Baskerville, serif',
@@ -94,7 +99,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
           },
           'ol, ul': {
             listStylePosition: 'outside',
-            paddingLeft: spacing(4),
+            paddingLeft: spacing(3),
           },
         },
       },
@@ -146,7 +151,6 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
               fontSize: typography.pxToRem(36),
             },
           },
-          paragraph: { '&:last-child': { marginBottom: 0 } },
         },
       },
     },

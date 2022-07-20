@@ -13,7 +13,7 @@ export const ArticleMeta: FunctionComponent<Props> = ({ matter }) => {
   const { authors, date, kind, tags = [] } = matter;
   return (
     <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 1 }}>
-      <Box sx={{ m: -0.5, '& > *': { m: 0.5 } }}>
+      <Box sx={{ m: -0.5, '> *': { m: 0.5 } }}>
         {authors && (
           <ArticleChip
             icon={<Icon path={mdiAccount} size={0.5} />}

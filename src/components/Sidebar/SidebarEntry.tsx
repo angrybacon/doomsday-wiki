@@ -42,7 +42,7 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
       <ListItemButton
         ref={ref}
         sx={{
-          '& > svg': {
+          '> svg': {
             transition: (theme) => theme.transitions.create('transform'),
           },
         }}

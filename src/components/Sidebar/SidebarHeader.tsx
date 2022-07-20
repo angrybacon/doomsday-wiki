@@ -38,7 +38,7 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose }) => {
           alignItems: 'center',
           display: 'flex',
           ml: 'auto',
-          '& > :not(:first-child)': { ml: 1 },
+          '> *': { ml: 1 },
         }}
       >
         <Tooltip arrow title="Join our Discord server">

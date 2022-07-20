@@ -7,8 +7,9 @@ export const RemarkQuote: Components['blockquote'] = ({ children }) => (
     component="blockquote"
     sx={{
       color: 'text.secondary',
+      fontDisplay: 'swap',
+      fontFamily: 'Libre Baskerville, serif',
       fontStyle: 'italic',
-      m: 0,
       pl: 2,
       position: 'relative',
       '&:before': {
@@ -21,12 +22,10 @@ export const RemarkQuote: Components['blockquote'] = ({ children }) => (
         position: 'absolute',
         width: 4,
       },
-      '&, & > *': {
-        fontDisplay: 'swap',
-        fontFamily: 'Libre Baskerville, serif',
+      '> *': {
+        fontDisplay: 'inherit',
+        fontFamily: 'inherit',
       },
-      '& > :first-child': { pt: 1 },
-      '& > :last-child': { pb: 1 },
     }}
   >
     {children}

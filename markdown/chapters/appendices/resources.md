@@ -69,7 +69,7 @@ Videos from non-regular streamers or Doomsday content creators.
 | [Set of leagues with Meandeck](https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)          | {U}{B}{R}{G} | Rodrigo Togores  | September 2020 | English    |
 | [League with Meandeck](https://www.youtube.com/watch?v=xbrEBHtF1Cs)                                               | {U}{B}{G}    | Julian Knab      | November 2020  | English    |
 | [League with Meandeck ft. *Nevilshute*](https://www.youtube.com/watch?v=JDEXkRw679w)                              | {U}{B}{R}{G} | Julian Knab      | August 2020    | English    |
-| [League with Meandeck ft. Ari Lax  4c Meandeck](https://www.youtube.com/watch?v=mn4GYFoVrRA)                      | {U}{B}{R}{G} | Jarvis Yu        | July 2020      | English    |
+| [League with Meandeck ft. Ari Lax](https://www.youtube.com/watch?v=mn4GYFoVrRA)                                   | {U}{B}{R}{G} | Jarvis Yu        | July 2020      | English    |
 | [League with Meandeck](https://www.youtube.com/watch?v=eMgfFlx0_10)                                               | {U}{B}{R}    | DK_TTGL          | June 2020      | Portuguese |
 | [Top 8 at the Legacy Titanium Series 1K Challenge with DDFT](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s) | {U}{B}{R}    | d8dk32           | August 2017    | English    |
 

@@ -77,8 +77,8 @@ export const Decklist: FunctionComponent<Props> = ({
               display: 'flex',
               fontSize: 'caption.fontSize',
               mt: 1,
-              '& > :not(:first-child)': { ml: 1 },
-              '& > * > :not(:first-child)': { ml: 0.5 },
+              '> *': { mr: 1 },
+              '> * > *': { mr: 0.5 },
             }}
           >
             {authors && (

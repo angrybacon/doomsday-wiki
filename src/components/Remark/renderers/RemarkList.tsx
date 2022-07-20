@@ -9,9 +9,5 @@ interface Props {
 
 export const RemarkList: FunctionComponent<Props> = ({ children, ordered }) => {
   const component: ElementType = ordered ? 'ol' : 'ul';
-  return (
-    <Typography component={component} gutterBottom>
-      {children}
-    </Typography>
-  );
+  return <Typography component={component}>{children}</Typography>;
 };
