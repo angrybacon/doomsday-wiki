@@ -1,5 +1,6 @@
 import NextLink from 'next/link';
-import React, { FunctionComponent } from 'react';
+import React from 'react';
+import type { FunctionComponent } from 'react';
 import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import {
   Divider,
@@ -10,9 +11,11 @@ import {
 } from '@mui/material';
 import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
+import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import type { Menu } from '@/tools/markdown/types';
 
 interface Props {
+  category: string;
   isMobile?: boolean;
   isOpen?: boolean;
   menu: Menu;
@@ -20,6 +23,7 @@ interface Props {
 }
 
 export const Sidebar: FunctionComponent<Props> = ({
+  category,
   isMobile,
   isOpen,
   menu,
@@ -37,7 +41,7 @@ export const Sidebar: FunctionComponent<Props> = ({
   return (
     <Drawer
       sx={{
-        [`& .${drawerClasses.paper}`]: { width: (theme) => theme.drawer.width },
+        [`.${drawerClasses.paper}`]: { width: (theme) => theme.drawer.width },
       }}
       {...drawerProps}
     >
@@ -57,6 +61,7 @@ export const Sidebar: FunctionComponent<Props> = ({
         </NextLink>
       </List>
       <Divider />
+      <SidebarRosetta category={category} />
     </Drawer>
   );
 };

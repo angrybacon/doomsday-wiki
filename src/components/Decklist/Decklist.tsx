@@ -50,7 +50,7 @@ export const Decklist: FunctionComponent<Props> = ({
         expandIcon={<Icon path={mdiChevronDown} size={1} />}
         sx={(theme) => ({
           ...theme.mixins.gutters,
-          [`& .${accordionSummaryClasses.content}`]: { display: 'block' },
+          [`.${accordionSummaryClasses.content}`]: { flexDirection: 'column' },
         })}
       >
         <Box sx={{ alignItems: 'center', display: 'flex' }}>
