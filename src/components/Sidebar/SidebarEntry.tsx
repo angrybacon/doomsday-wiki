@@ -1,41 +1,35 @@
-import NextLink from 'next/link';
 import { useRouter } from 'next/router';
-import React, {
-  ElementType,
-  FunctionComponent,
-  MouseEvent,
-  forwardRef,
-  useState,
-} from 'react';
+import React, { forwardRef, useState } from 'react';
+import type { ElementType, FunctionComponent } from 'react';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
-import {
-  Collapse,
-  Divider,
-  List,
-  ListItemButton,
-  ListItemIcon,
-  ListItemText,
-} from '@mui/material';
-import type { Category, Document } from '@/tools/markdown/types';
+import { ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import { Category } from '@/tools/markdown/constants/Category';
+import type { Chapter, MenuEntry } from '@/tools/markdown/types';
+import { SidebarEntryPages } from '@/components/Sidebar/SidebarEntryPages';
 
-type OnToggle = (event: MouseEvent<HTMLDivElement>) => void;
-
-type Props = Category & { children?: never; href?: string } & (
-    | { component?: ElementType; pages?: never }
-    | { component?: never; pages: Document[] }
-  );
+type Props = Omit<MenuEntry, 'category' | 'pages'> & {
+  category?: Category;
+  children?: never;
+  component?: ElementType;
+  href?: string;
+  pages?: Chapter[];
+};
 
 export const SidebarEntry: FunctionComponent<Props> = forwardRef<
   HTMLDivElement,
   Props
->(({ icon, id: category, pages = [], subtitle, title, ...rest }, ref) => {
+>(({ category, icon, pages = [], subtitle, title, ...rest }, ref) => {
   const { asPath, query } = useRouter();
+  const currentCategory = `${query.category}`;
+  const currentChapter = `${query.chapter}`;
   const hasPages = pages.length > 0;
-  const [isOpen, setIsOpen] = useState(hasPages && category === query.category);
+  const [isOpen, setIsOpen] = useState(
+    hasPages && category === currentCategory
+  );
 
   /** Toggle the drawer in mobile viewport. */
-  const onToggle: OnToggle = () => setIsOpen((previous) => !previous);
+  const onToggle = () => setIsOpen((previous) => !previous);
 
   return (
     <>
@@ -65,26 +59,12 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
         )}
       </ListItemButton>
       {hasPages && (
-        <Collapse in={isOpen} timeout="auto">
-          <Divider />
-          <List
-            component="div"
-            dense
-            sx={{ backgroundColor: 'background.default' }}
-          >
-            {pages.map(({ matter, route, slug }) => (
-              <NextLink href={route} key={`page-${route}`} passHref>
-                <ListItemButton
-                  component="a"
-                  selected={isOpen && slug === query.chapter}
-                >
-                  <ListItemText primary={matter?.title || route} />
-                </ListItemButton>
-              </NextLink>
-            ))}
-          </List>
-          <Divider />
-        </Collapse>
+        <SidebarEntryPages
+          currentCategory={currentCategory}
+          currentChapter={currentChapter}
+          isOpen={isOpen}
+          pages={pages}
+        />
       )}
     </>
   );

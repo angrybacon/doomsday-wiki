@@ -1,30 +1,36 @@
 import { join } from 'path';
 import { readMarkdown } from '@/tools/io/readMarkdown';
 import { walk } from '@/tools/io/walk';
+import { Category } from '@/tools/markdown/constants/Category';
 import {
   BASE_CHAPTER_URL,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants/Files';
 import { sanitizeTitle } from '@/tools/markdown/sanitize';
-import type { Document, Matter } from '@/tools/markdown/types';
+import type { Chapter, Matter } from '@/tools/markdown/types';
 
-type GetChapters = () => Document[];
+type GetChapters = () => Chapter[];
 
 /** Read file system and return a list of all chapters. */
 export const getChapters: GetChapters = () => {
-  const files = Array.from(walk(BASE_CHAPTER_URL, { depth: 2 }));
-  const documents = files.reduce<Document[]>((accumulator, crumbs) => {
-    // TODO Warn against orphan files
+  const depth = 2;
+  const files = Array.from(walk(BASE_CHAPTER_URL, { depth }));
+  const documents = files.reduce<Chapter[]>((accumulator, crumbs) => {
+    const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
     // NOTE Only consider complete paths ie. [category, chapter]
-    if (crumbs.length === 2) {
-      const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
+    if (crumbs.length === depth) {
+      const category = crumbs[0] as Category;
+      const slug = crumbs[1];
+      if (!Object.values(Category).includes(category as Category)) {
+        throw new Error(`Unknown chapter category "${category}"`);
+      }
       const { data } = readMarkdown(path);
       data.title = sanitizeTitle(data.title, path);
       const matter = { ...data } as Matter;
       const route = ['', ...crumbs].join('/');
-      return [...accumulator, { crumbs, matter, route, slug: crumbs[1] }];
+      return [...accumulator, { category, crumbs, matter, route, slug }];
     }
-    return accumulator;
+    throw new Error(`Orphan file found at "${path}"`);
   }, []);
   return documents;
 };

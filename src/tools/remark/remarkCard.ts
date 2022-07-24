@@ -3,7 +3,7 @@ import type { TextDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
 import { select } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
-import { SHORTHANDS } from '@/tools/scryfall/cards';
+import { getCard } from '@/tools/game/getCard';
 
 /** Parse card directives and augment properties with the card name. */
 export const remarkCard: Plugin = () => (tree) => {
@@ -16,7 +16,7 @@ export const remarkCard: Plugin = () => (tree) => {
         ...directive.data,
         hProperties: {
           ...(directive.data?.hProperties as Record<string, unknown>),
-          name: SHORTHANDS[text.value] || text.value,
+          name: getCard(text.value).name,
         },
       };
     }
