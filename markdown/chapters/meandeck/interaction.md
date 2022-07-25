@@ -369,7 +369,7 @@ PTT example against a Chalice of the Void.
 > {U}{B}{G} + Brainstorm + X + PTT
 
 :::row{variant=PILE}
-- AD
+- Abrupt Decay
 - LED
 - EoA
 - Pnd
