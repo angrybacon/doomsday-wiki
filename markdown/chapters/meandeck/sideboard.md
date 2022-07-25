@@ -117,7 +117,7 @@ Some key examples of permanent removal to consider:
 - :card[Force of Negation]
 
 :::row{variant=CENTERED}
-- AD
+- Abrupt Decay
 - Abrade
 - Prismatic Ending
 - Teferi's Realm

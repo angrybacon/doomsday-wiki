@@ -84,7 +84,7 @@ situations. Lets look at a few example:
 > Chalice@2 - {B}{G} + {U}{U}
 
 :::row{variant=PILE}
-- AD
+- Abrupt Decay
 - SW
 - TO
 - LP

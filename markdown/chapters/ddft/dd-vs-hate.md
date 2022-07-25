@@ -406,7 +406,7 @@ remove Counterbalance before going off.
 > Ponder, LED in hand - {U}{B}{G}
 
 :::row{variant=PILE}
-- AD
+- Abrupt Decay
 - IU
 - LP
 - LP

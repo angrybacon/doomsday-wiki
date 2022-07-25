@@ -520,7 +520,7 @@ Veil and Decay are the biggest boons for playing {G}.
 :::row{variant=CENTERED}
 - Monastery Mentor|FRF
 - Pyroblast|ICE
-- AD
+- Abrupt Decay
 :::
 
 ### No Splash
