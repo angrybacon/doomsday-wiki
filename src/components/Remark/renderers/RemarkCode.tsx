@@ -14,28 +14,33 @@ export const RemarkCode: Components['code'] = ({
   inline,
 }) => {
   const theme = useTheme();
+
   if (inline) {
     return (
       <Box
         component="code"
         sx={{
           bgcolor: (theme) => alpha(theme.palette.primary.light, 0.1),
+          borderColor: (theme) => alpha(theme.palette.primary.light, 0.2),
           borderRadius: '4px',
-          borderStyle: 'hidden',
+          borderStyle: 'solid',
+          borderWidth: 1,
           color: 'text.secondary',
           fontDisplay: 'swap',
           fontFamily: 'monospace',
           fontSize: 'body2.fontSize',
           px: 0.5,
-          py: 0.25,
+          py: 0,
         }}
       >
         {children}
       </Box>
     );
   }
+
   // NOTE ReactMarkdown passes language through the class name
   const [, language] = className.split('-');
+
   return (
     <Box
       component="span"

@@ -4,9 +4,9 @@ import { Category } from '@/tools/markdown/constants/Category';
 describe(getCard.name, () => {
   it('should return the name of a known acronym', () => {
     // When
-    const { name, categories } = getCard('AD');
+    const { name, categories } = getCard('DD');
     // Then
-    expect(name).toBe('Abrupt Decay');
+    expect(name).toBe('Doomsday');
     expect(categories).toStrictEqual([]);
   });
 

@@ -4,7 +4,6 @@ import { Category } from '@/tools/markdown/constants/Category';
 export const CARDS: Record<string, [string, Category[]]> =
   // prettier-ignore
   {
-    AD:   ['Abrupt Decay',              []],
     AoI:  ['Act on Impulse',            [Category.DDEFT, Category.DDFT]],
     BS:   ['Brainstorm',                []],
     BW:   ['Burning Wish',              [Category.DDFT]],
@@ -30,7 +29,7 @@ export const CARDS: Record<string, [string, Category[]]> =
     GP:   ['Gitaxian Probe',            [Category.DDFT, Category.MEANDECK]],
     IC:   ['Infernal Contract',         [Category.DDFT]],
     IU:   ['Ideas Unbound',             [Category.DDFT, Category.MEANDECK]],
-    LDV:  ["Lim-Dul's Vault",           []],
+    LDV:  ["Lim-Dul's Vault",           [Category.DDEFT, Category.MEANDECK]],
     LED:  ["Lion's Eye Diamond",        []],
     LM:   ['Laboratory Maniac',         []],
     LP:   ['Lotus Petal',               []],
@@ -42,16 +41,15 @@ export const CARDS: Record<string, [string, Category[]]> =
     PoN:  ['Pact of Negation',          [Category.DDEFT, Category.MEANDECK]],
     Pre:  ['Preordain',                 []],
     REB:  ['Red Elemental Blast',       []],
-    RiP:  ['Rest in Peace',             [Category.MEANDECK]],
     SE:   ['Surgical Extraction',       []],
     SI:   ['Shelldock Isle',            []],
     SW:   ['Street Wraith',             []],
     SdT:  ["Sensei's Divining Top",     []],
-    SotV: ['Spoils of the Vault',       []],
+    SotV: ['Spoils of the Vault',       [Category.DDFT]],
     StP:  ['Swords to Plowshares',      []],
     TO:   ["Thassa's Oracle",           []],
     TW:   ['Three Wishes',              [Category.DDEFT, Category.DDFT]],
     ToA:  ['Tendrils of Agony',         []],
     Tsz:  ['Thoughtseize',              []],
-    VoS:  ['Veil of Summer',            []],
+    VoS:  ['Veil of Summer',            [Category.DDFT, Category.MEANDECK]],
   };

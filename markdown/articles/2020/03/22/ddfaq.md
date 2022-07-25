@@ -488,7 +488,7 @@ From the sideboard {W} offers a plan B in the form of :card[Monastery Mentor]
 that plays well with the cantrip dense lists that are run. Removal comes in the
 form of :card[Disenchant] or :card[Wear//Tear] for artifact or enchantment hate
 and :card[Swords to Plowshares] to deal with problematic creatures. You also
-gain some additional graveyard hate options in the form of :card[RiP].
+gain some additional graveyard hate options in the form of :card[Rest in Peace].
 
 Teferi and Mentor are probably the biggest boons for playing {W}.
 

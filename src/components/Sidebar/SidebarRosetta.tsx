@@ -8,14 +8,16 @@ import {
   TableRow,
   tableCellClasses,
 } from '@mui/material';
+import type { SystemStyleObject } from '@mui/system';
 import { getRosetta } from '@/tools/game/getRosetta';
 import type { Rosetta } from '@/tools/game/getRosetta';
 
 interface Props {
   category: string;
+  sx?: SystemStyleObject;
 }
 
-export const SidebarRosetta: FunctionComponent<Props> = ({ category }) => {
+export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
   const [rosetta, setRosetta] = useState<Rosetta>([]);
 
   useEffect(() => {
@@ -24,11 +26,12 @@ export const SidebarRosetta: FunctionComponent<Props> = ({ category }) => {
 
   return (
     <Table
-      padding="normal"
+      padding="checkbox"
       size="small"
       sx={{
+        [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
         [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
-        [`.${tableCellClasses.head}`]: { fontWeight: 'bold' },
+        ...sx,
       }}
     >
       <TableHead>
@@ -40,8 +43,10 @@ export const SidebarRosetta: FunctionComponent<Props> = ({ category }) => {
       <TableBody>
         {rosetta.map(([notation, card]) => (
           <TableRow key={`rosetta-${notation}-${card}`}>
-            <TableCell>{notation}</TableCell>
-            <TableCell>{card}</TableCell>
+            <TableCell component="th" scope="row">
+              {notation}
+            </TableCell>
+            <TableCell sx={{ whiteSpace: 'nowrap' }}>{card}</TableCell>
           </TableRow>
         ))}
       </TableBody>

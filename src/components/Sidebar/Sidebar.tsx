@@ -3,6 +3,7 @@ import React from 'react';
 import type { FunctionComponent } from 'react';
 import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import {
+  Box,
   Divider,
   Drawer,
   DrawerProps,
@@ -47,21 +48,23 @@ export const Sidebar: FunctionComponent<Props> = ({
     >
       <SidebarHeader onClose={onClose} />
       <Divider />
-      <List component="nav" dense>
-        {menu.map((entry) => (
-          <SidebarEntry key={`entry-${entry.category}`} {...entry} />
-        ))}
-        <NextLink href="/articles" passHref>
-          <SidebarEntry
-            component="a"
-            icon={mdiNewspaperVariantMultiple}
-            subtitle="Article Archive"
-            title="Articles"
-          />
-        </NextLink>
-      </List>
-      <Divider />
-      <SidebarRosetta category={category} />
+      <Box sx={{ overflowY: 'auto' }}>
+        <List component="nav" dense>
+          {menu.map((entry) => (
+            <SidebarEntry key={`entry-${entry.category}`} {...entry} />
+          ))}
+          <NextLink href="/articles" passHref>
+            <SidebarEntry
+              component="a"
+              icon={mdiNewspaperVariantMultiple}
+              subtitle="Article Archive"
+              title="Articles"
+            />
+          </NextLink>
+        </List>
+        <Divider />
+        <SidebarRosetta sx={{ my: 2 }} category={category} />
+      </Box>
     </Drawer>
   );
 };
