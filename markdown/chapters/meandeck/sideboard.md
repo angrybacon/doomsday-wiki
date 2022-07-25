@@ -236,7 +236,7 @@ Some key examples of anti-graveyard to consider:
 - Leyline of the Void
 - Tormod's Crypt
 - Surgical Extraction
-- RiP
+- Rest in Peace
 - Grafdigger's Cage
 :::
 

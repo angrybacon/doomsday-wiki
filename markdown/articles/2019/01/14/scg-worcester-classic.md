@@ -100,7 +100,7 @@ can't find a wish to try to get rid of it. More creatures come down and I die.
 **Game 2** I have a turn 2 Doomsday kill on the play and their single Plains
 does nothing.  
 **Game 3** I Thoughtseize on turn 1 and see Rest in Peace, Stoneforge Mystic,
-Serra Avenger, and some lands. I completely disrespect the RIP and take the
+Serra Avenger, and some lands. I completely disrespect the RiP and take the
 Mystic. My opponent topdecks another Mystic and decides to play it. I win with
 Doomsday before the Batterskull can come down.  
 (2-2)

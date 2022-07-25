@@ -3,8 +3,10 @@ import { readFirstFace } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { ScryData } from '@/tools/scryfall/types';
 
+type GetBanner = (query: string) => Promise<Banner>;
+
 /** Fetch the artwork for a given Scryfall query. */
-export const getBanner = async (query: string): Promise<Banner> => {
+export const getBanner: GetBanner = async (query) => {
   const data: ScryData = await scry(query);
   const { artist, images, name } = readFirstFace(data);
   const { art } = images;

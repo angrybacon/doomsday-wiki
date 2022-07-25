@@ -1,7 +1,9 @@
 import NextLink from 'next/link';
-import React, { FunctionComponent } from 'react';
+import React from 'react';
+import type { FunctionComponent } from 'react';
 import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import {
+  Box,
   Divider,
   Drawer,
   DrawerProps,
@@ -10,9 +12,11 @@ import {
 } from '@mui/material';
 import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
+import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import type { Menu } from '@/tools/markdown/types';
 
 interface Props {
+  category: string;
   isMobile?: boolean;
   isOpen?: boolean;
   menu: Menu;
@@ -20,6 +24,7 @@ interface Props {
 }
 
 export const Sidebar: FunctionComponent<Props> = ({
+  category,
   isMobile,
   isOpen,
   menu,
@@ -37,26 +42,29 @@ export const Sidebar: FunctionComponent<Props> = ({
   return (
     <Drawer
       sx={{
-        [`& .${drawerClasses.paper}`]: { width: (theme) => theme.drawer.width },
+        [`.${drawerClasses.paper}`]: { width: (theme) => theme.drawer.width },
       }}
       {...drawerProps}
     >
       <SidebarHeader onClose={onClose} />
       <Divider />
-      <List component="nav" dense>
-        {menu.map((entry) => (
-          <SidebarEntry key={`entry-${entry.id}`} {...entry} />
-        ))}
-        <NextLink href="/articles" passHref>
-          <SidebarEntry
-            component="a"
-            icon={mdiNewspaperVariantMultiple}
-            subtitle="Article Archive"
-            title="Articles"
-          />
-        </NextLink>
-      </List>
-      <Divider />
+      <Box sx={{ overflowY: 'auto' }}>
+        <List component="nav" dense>
+          {menu.map((entry) => (
+            <SidebarEntry key={`entry-${entry.category}`} {...entry} />
+          ))}
+          <NextLink href="/articles" passHref>
+            <SidebarEntry
+              component="a"
+              icon={mdiNewspaperVariantMultiple}
+              subtitle="Article Archive"
+              title="Articles"
+            />
+          </NextLink>
+        </List>
+        <Divider />
+        <SidebarRosetta sx={{ my: 2 }} category={category} />
+      </Box>
     </Drawer>
   );
 };

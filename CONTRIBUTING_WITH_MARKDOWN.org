@@ -34,7 +34,7 @@ content.
   sure you have a space right after =:= when it is used as punctuation
 - A dot right after a number character ie. when you end your sentence with a
   digit renders as a numbered list item. To avoid this behavior, escape the dot
-  with a backslash: =[...] you might want all 4\.=
+  with a backslash: =[...] you might want all 4\. [...]=
 - Depending on one's Markdown client, a dot at the end of a link can be
   considered part of said link eg. when you end your sentences with a link you
   should add a space before the final dot

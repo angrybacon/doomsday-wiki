@@ -91,6 +91,7 @@ export const Layout: FunctionComponent<Props> = ({
       <Title title={title} />
       <Header isMobile={!isDesktop} onSidebarOpen={openSidebar} />
       <Sidebar
+        category={`${router.query.category}`}
         menu={menu}
         isMobile={!isDesktop}
         isOpen={isSidebarOpen}

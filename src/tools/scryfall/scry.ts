@@ -1,5 +1,6 @@
 import axios from 'axios';
-import { SETS, SHORTHANDS } from '@/tools/scryfall/cards';
+import { getCard } from '@/tools/game/getCard';
+import { SETS } from '@/tools/game/constants/Sets';
 import type { ScryData, ScryError } from '@/tools/scryfall/types';
 
 enum CacheStatus {
@@ -83,8 +84,8 @@ type Scry = (query: string) => Promise<ScryData>;
  */
 export const scry: Scry = async (query) => {
   const [name, set, collectorNumber] = query.split('|').map((it) => it.trim());
-  const realName = SHORTHANDS[name] || name;
-  const realSet = set || SETS[realName];
+  const realName: string = getCard(name).name;
+  const realSet: string | undefined = set || SETS[realName];
   const [cache, api, parameters] = getApi(realName, realSet, collectorNumber);
   const key = `${realName}/${realSet}`;
   cache[key] = cache[key] || {};
