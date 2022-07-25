@@ -31,16 +31,6 @@ fast piles.
 ::accordion[Cards to keep in mind]{path=matchups/delver.ur.cards}
 ::accordion[Gameplay]{path=matchups/delver.ur.gameplay}
 
-## Jeskai Ragavan
-
-The longer you wait, the harder it becomes to power through their card advantage
-as they deploy their clock. The absence of :card[Lightning Bolt] means passing
-the turn is safer than against UR Delver but the likewise, resolving Doomsday
-early is best.
-
-::accordion[Cards to keep in mind]{path=matchups/sagavan.cards}
-::accordion[Gameplay]{path=matchups/sagavan.gameplay}
-
 ## Bant Miracles
 
 Take your time. Their main clock consists of early striges and Uro which should

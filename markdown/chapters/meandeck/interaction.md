@@ -70,8 +70,7 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 This example is good if you suspect removal but are not under too much pressure
 where you would not survive another turn. You can try and *go off* with a backup
-Oracle in the deck the turn after. Stacking the Edge above the second Oracle can
-also protect against things like a dashed :card[Ragavan, Nimble Pilferer].
+Oracle in the deck the turn after.
 
 This pile plays around the following:
 
@@ -742,50 +741,6 @@ safely ignored however they may cause delay to your pile winning or, in the
 worst case scenario, could take your Oracle out of your hand leaving you unable
 to win. Just be mindful of when these cards could come up if building a PTT
 pile.
-
-### Ragavan, Nimble Pilferer
-
-:::row{variant=CENTERED}
-- Ragavan, Nimble Pilferer
-:::
-
-Another PTT only example. You may know about a :card[Ragavan, Nimble Pilferer]
-on board or suspect your opponent might be able to *dash* one from their hand.
-When considering Ragavan you have to work out what cards in the pile they will
-be exiling with it.
-
-The safest method to deal with it is to place a cycle effect in any slot they
-are likely to exile. This way if they do exile it, they cannot obtain any value
-from it and if they don't exile it you have still have the draw effect available
-to you.
-
-Consider the following example from the basics chapter.
-
-> {U}{U} + PTT
-
-:::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
-:::
-
-You can make a minor adjustment without losing functionality of the pile by
-placing the SW as the first card.
-
-> {U}{U} + PTT
-
-:::row{variant=PILE}
-- SW
-- IU
-- LP
-- LP
-- TO
-:::
-
-In this way, even if you are attacked and hit by a Ragavan, you can still draw
-your entire pile on the following turn and cast Oracle.
 
 ## Final Thoughts
 

@@ -117,26 +117,6 @@ As a result if they do cast an Endurance then you can pass and simply draw the
 second Oracle now and try to win with a Devotion of 4 with 3 cards remaining in
 your deck.
 
-Other options include this example against a {U}{R} Delver deck which may run
-:card[Ragavan, Nimble Pilferer] in.
-
-> PTT + Cantrip + {U}
-
-:::row{variant=PILE}
-- SW
-- CoS
-- TO
-- EoA
-- TO
-:::
-
-Here you might have a scenario where you want to try and win quickly but suspect
-they may have a :card[Red Elemental Blast] effect. In which case you can pass,
-allow Ragavan to exile SW, and try to jam the first Oracle off of Cavern
-(assuming the cantrip resolves of course). If that Oracle is dealt with then you
-can pass again, let Ragavan exile the :card[EoA] and try casting the second
-Oracle.
-
 ## Slow Piles Using Interactive Elements
 
 These piles have been given a generic title but they generally refer to piles
