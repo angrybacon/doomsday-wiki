@@ -44,7 +44,7 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
         borderColor: 'divider',
         borderLeft: 0,
         borderRight: 0,
-        '& + &': { borderTop: 0, mt: 0 },
+        '& + &': { borderTop: 0, mt: '0!important' },
       })}
     >
       <Accordion elevation={0}>
