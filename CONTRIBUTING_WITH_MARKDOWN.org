@@ -43,7 +43,7 @@ content.
 
 In some contexts, you can refer to card names within Markdown. To ease the
 writing process, a number of shorthands for card names can be found
-[[./src/tools/scryfall/cards.ts][here]].
+[[./src/tools/game/constants/Cards.ts][here]].
 
 Optionally, provide a specific set for the representation using the 3-letters
 set code. By default, the first print for the card is used.
@@ -86,10 +86,10 @@ existing articles for inspiration.
   of the article in its own page. Scryfall syntax is supported.
 - =kind= (mandatory) ::
   A kind symbol. Available values can be found in the keys at
-  [[src/tools/markdown/constants/Kind.ts][Kind.ts]]
+  [[./src/tools/markdown/constants/Kind.ts][Kind.ts]]
 - =tags= ::
   An array of tag symbols. Available values can be found in the keys at
-  [[src/tools/markdown/constants/Tag.ts][Tag.ts]]
+  [[./src/tools/markdown/constants/Tag.ts][Tag.ts]]
 - =title= (mandatory) ::
   A string for your article title. Wrap it with double quotes ="= to allow
   special characters within such as =:= and ='=.

@@ -294,8 +294,8 @@ Sideboard
   Dispute]
 - 0-2 Cheap creature removal such as :card[Fatal Push]
 - 0-2 Bounce spells like :card[Echoing Truth]
-- 1 Anti-Endurance package (:card[Shelldock Isle] + :card[Emrakul, the Aeon's Torn] or
-  something like :card[Echo of Eons])
+- 1 Anti-Endurance package (:card[Shelldock Isle] + :card[Em] or something like
+  :card[Echo of Eons])
 
 The most important changes post MH2 are the packages to beat :card[Endurance]
 and the absence of :card[Defense Grid].
@@ -312,8 +312,7 @@ winning in one turn.
 
 The most important techs emerged to beat :card[Endurance].  
 Some lists play two :card[Thassa's Oracle] or :card[Echo of Eons], but the most
-common techs are :card[Shelldock Isle] + :card[Emrakul, the Aeon's Torn] and
-:card[Pact of Negation].
+common techs are :card[Shelldock Isle] + :card[Em] and :card[Pact of Negation].
 
 The Emrakul plan can even be combined with Thassa's Oracle for very resilient
 piles, but be careful you can’t activate Shelldock Isle when your opponent has a

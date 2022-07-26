@@ -4,17 +4,23 @@ title: Decklist Compendium
 
 This page serves as a repository of Doomsday decklists past and present. Those
 under *Current Decklists* are considered stock lists of the currently playable
-Doomsday variants, and we'll do our best to keep them up to date. In the
-*Historical Decklists* section are examples of lists from the past. Most are
-unplayable due to bannings, while some are still legal but have been obviated by
-new printings.
+Doomsday variants, but are not day-fresh. Pilots like to experiment on a daily
+basis and keeping lists here simply is not feasible. Worry not, for newer lists
+can always be found in our [Discord server][discord] in the `#decklists-archive`
+channel.
+
+[discord]: https://discord.gg/vajvFXt
+
+In the *Historical Decklists* section are examples of lists from the past. Most
+are unplayable due to bannings, while some are still legal but have been
+obviated by new printings.
 
 ## Current Decklists
 
 Since the printing of :card[Thassa's Oracle], an old friend resurged from the
 dead: Meandeck Doomsday. The list plays a more reactive role in most matchups
 and focuses on building resources before going off. Since TO is so compact and
-cheap compared to its predecessors, it can still allow for quick win with an
+cheap compared to its predecessors, it can still allow for quick wins with an
 actual long game plan.
 
 ::decklist{path=meandeck.ubr}

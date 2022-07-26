@@ -605,7 +605,7 @@ slowly started to be dropped too as the deck moved away from Ad Nauseum and
 instead opted to use :card[Rain of Filth] as the goto ritual #5. There was a big
 reason that lists began to move away from Ad Nauseum in Doomsday whilst ANT and
 TES stuck with it and that was because of one very large printing that ocurred:
-:card[Emrakul, the Aeon's Torn].
+:card[Em].
 
 People very quickly picked up the combo of Emrakul along with a relatively
 innocuous land from Lorwyn, :card[Shelldock Isle]. Isle is the {U} Hideaway land

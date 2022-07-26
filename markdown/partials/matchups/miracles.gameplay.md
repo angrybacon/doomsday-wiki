@@ -16,7 +16,7 @@ After you resolved Doomsday everything is about beating :card[Endurance], and
 against some newer lists :card[Dress Down]. They are their main ways to beat
 :card[Thassa's Oracle]'s trigger. But there are many ways to play around these
 answers. In game 1 you have to rely on countermagic and discard, but in game 2
-and 3 you'll often use a sideboard package, like :card[Emrakul, the Aeons
-Torn] + :card[Shelldock Isle]. These sideboard packages often come with their
-own weaknesses, like :card[Teferi, Time Raveler] or :card[Back to Basics], but
-are still better than just slamming 1 Oracle into a prepared opponent.
+and 3 you'll often use a sideboard package, like :card[Em] + :card[SI]. These
+sideboard packages often come with their own weaknesses, like :card[Teferi, Time
+Raveler] or :card[Back to Basics], but are still better than just slamming 1
+Oracle into a prepared opponent.

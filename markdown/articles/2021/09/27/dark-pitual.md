@@ -150,15 +150,15 @@ lose as the combo player, with the printing of :card[Endurance] things got a lot
 more tricky. I wasn't expecting much interaction from Tony's side of the table
 before board and made a pretty basic :card[Brainstorm] pile.
 
-G2. I boarded in the :card[Emrakul, the Aeon's Torn] + :card[Shelldock Isle]
-plan in this game. I knew it could be a bad idea since they play cards like
-:card[Pithing Needle], :card[Karakas] and possibly :card[Wasteland] /
-:card[Ghost Quarter]. I cast :card[Doomsday] on turn 2, the pile I made was
-:card[Brainstorm] (Emrakul was in my hand), :card[Shelldock Isle],
-:card[Thassa's Oracle], :card[Underground Sea] and :card[Doomsday]. I put
-shelldock in play on turn 3, Tony cast a :card[Crop Rotation] when Emrakul
-resolves, I countered and he conceded. The idea here was to have a second
-:card[Doomsday] to refill my deck in case I needed to attack twice with Emrakul.
+G2. I boarded in the :card[Em] + :card[Shelldock Isle] plan in this game. I knew
+it could be a bad idea since they play cards like :card[Pithing Needle],
+:card[Karakas] and possibly :card[Wasteland] / :card[Ghost Quarter]. I cast
+:card[Doomsday] on turn 2, the pile I made was :card[Brainstorm] (Emrakul was in
+my hand), :card[Shelldock Isle], :card[Thassa's Oracle], :card[Underground Sea]
+and :card[Doomsday]. I put shelldock in play on turn 3, Tony cast a :card[Crop
+Rotation] when Emrakul resolves, I countered and he conceded. The idea here was
+to have a second :card[Doomsday] to refill my deck in case I needed to attack
+twice with Emrakul.
 
 #### Round 5 vs Bob *Griselpuff* Huang on Urza Affinity. Loss (1-2)
 

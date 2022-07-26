@@ -79,7 +79,7 @@ Playing the long game is not a winning line.
 
 ## Mono-Green Cloudpost
 
-Just slam, and beat Endurance post Doomsday.
+Just slam, and beat Endurance post-Doomsday.
 
 ::accordion[Cards to keep in mind]{path=matchups/post.cards}
 ::accordion[Gameplay]{path=matchups/post.gameplay}
@@ -130,7 +130,7 @@ You are a bit faster, use this to your advantage.
 ## UG Omni-Tell
 
 They are just a bad control deck with a combo finish. Omni-Tell can not beat you
-post Doomsday.
+post-Doomsday.
 
 ::accordion[Cards to keep in mind]{path=matchups/show.ug.cards}
 ::accordion[Gameplay]{path=matchups/show.ug.gameplay}

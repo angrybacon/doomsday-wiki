@@ -52,9 +52,8 @@ transformational sideboard into effectively a variant of Meandeck Doomsday.
 ## What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
 Meandeck Doomsday has the most proven results of the archetypes listed above
-with a 2020 performance that outnumbers TCDeck numbers of the previous 10 years
-preceeding it for all archetypes (excluding 5-0 publications). It also had a
-high number of top 32 finishes in the Eternal Weekend events for 2020.
+with performances that outnumbers TCDeck numbers of the previous 10 years
+preceeding it for all archetypes (excluding 5-0 publications).
 
 Within Meandeck Doomsday there is no definitive *best* colour configuration to
 run. Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G}
@@ -314,15 +313,19 @@ cantrip effect which can be used to gain advantage through cards like
 through two cards in a pile. It also provides a way to create *perfect*
 :card[BS] piles [in key scenarios][meandeck:brainstorm-free-cantrip].
 
-[meandeck:brainstorm-free-cantrip]: /meandeck/brainstorm#brainstorm-pile---brainstorm-and-free-cantrip-available
+[meandeck:brainstorm-free-cantrip]: /meandeck/brainstorm#brainstorm-and-free-cantrip-available
 
 ## When do I board in Shelldock Isle and Emrakul?
 
-When people elect to run :card[SI] and :card[Emrakul, the Aeon's Torn] they are
-generally thinking about fair {U} matchups that do not run :card[Wasteland]. It
-should not be brought in vs. any Delver variant or when Wasteland and
-:card[Teferi, Time Raveler] are prominant in control variants as both of these
-can affect it.
+When people elect to run :card[SI] and :card[Em] they are generally thinking
+about fair {U} matchups that do not run :card[Wasteland]. It should not be
+brought in versus any Delver variant nor when Wasteland and :card[Teferi, Time
+Raveler] are prominant in control variants as both of these can affect it.
+
+In early June 2022, the *Hideway* mechanic was revamped and while the Isle still
+enters tapped, the 3 other cards put back under your deck can no longer be
+sorted. For that reason Shelldock Isle has seen a decrease in popularity but the
+Emrakul line is still functional.
 
 ## What does *Turbo* Doomsday mean?
 
@@ -339,13 +342,13 @@ creature and/or planeswalker based threats. It is characterised by a creature
 suite and a lower focus on finding Doomsday or using pile-specific cards like
 :card[IU].
 
-## Which is better out of Turbo or Tempo Doomsday?
+## Which is better out of *Turbo* or *Tempo* Doomsday?
 
 Against the majority of the meta at the time of writing this *Turbo* Doomsday
 has a more favourable position with *Tempo* giving up percentage points against
 some of the otherwise easier matchups. *Tempo* however has a much better game to
 be played against Delver or other decks that may run a significant amount of
-combo specific hate for the matchup.
+combo-specific hate for the matchup.
 
 ---
 

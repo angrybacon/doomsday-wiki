@@ -116,10 +116,10 @@ with a :card[Tsz]. The Island was then replaced with a :card[SI] to which I
 suddenly knew something funny was afoot! I untapped on my turn 3 with a tricky
 decision to make. Now I know Shelldock is a symmetrical check. Assuming my
 opponent is aware too then I had to cast Doomsday and pass the turn. If I do and
-there is something nasty like an :card[Emrakul, the Aeon's Torn] under there
-then I am well and truly fucked. But, waiting means more time for them to do
-whatever they are doing or finding disruption. As a result I decided to risk
-jamming and seeing what happened.
+there is something nasty like an :card[Em] under there then I am well and truly
+fucked. But, waiting means more time for them to do whatever they are doing or
+finding disruption. As a result I decided to risk jamming and seeing what
+happened.
 
 :::row{variant=hand}
 - Shelldock Isle

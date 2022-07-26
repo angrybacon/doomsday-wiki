@@ -281,7 +281,7 @@ so be mindful if choosing this strategy.
 Some key examples of alternate win conditions to consider:
 
 - An additional :card[Thassa's Oracle]
-- :card[Shelldock Isle] and :card[Emrakul, the Aeon's Torn]
+- :card[Shelldock Isle] and :card[Em]
 - :card[Monastery Mentor]
 - :card[Stoneforge Mystic] alongside :card[Batterskull] and :card[Umezawa's Jitte]
 - :card[Opposition Agent]

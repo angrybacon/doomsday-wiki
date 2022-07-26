@@ -150,13 +150,13 @@ decks want to bring such rude toys to play then they are welcome to it!
 The final major talking point which I was convinced to try was removing
 :card[DA] from the list. A lot of people have started to run the deck still with
 :card[Con] but without Analysis as the former still has [relevant pile
-application](/meandeck/brainstorm#brainstorm-pile---brainstorm-and-free-cantrip-available)
-and acts as a decent cantrip to clear 2 cards in the face of a :card[Narset,
-Parter of Veils] whilst the latter only enables specific fast/efficient piles
-but ones that are very susceptible to a lot of hate in the format. Thanks to
-recent trends and discussion with folks I decided to risk it by removing the
-card from the deck entirely (it was discussed putting it in the board but it
-shines most of all in game 1 scenarios).
+application](/meandeck/brainstorm#brainstorm-and-free-cantrip-available) and
+acts as a decent cantrip to clear 2 cards in the face of a :card[Narset, Parter
+of Veils] whilst the latter only enables specific fast/efficient piles but ones
+that are very susceptible to a lot of hate in the format. Thanks to recent
+trends and discussion with folks I decided to risk it by removing the card from
+the deck entirely (it was discussed putting it in the board but it shines most
+of all in game 1 scenarios).
 
 When Consider was first spoilt I had in fact said the following:
 
@@ -538,14 +538,13 @@ Daze and maybe a Personal Tutor.
 
 Those of you in the know get what just happened. As my opponent has no
 interaction going I open sequence a [standard Brainstorm
-pile](/meandeck/brainstorm#brainstorm-pile---brainstorm-available). I'm so
-jittery and excited yet internally a wreck I start rushing and Nik who is of
-course observing the match closely reminds me that it is not timed and I can
-slow down. I take a breather and make sure to triple check my pile before
-committing (it would be super embarrassing for an author of the Wiki to fuck up
-the exact thing he authored on). I demonstrate the entire thing step by step to
-Chris (and Nik who was very intrigued) and thus complete my one and only same
-turn win of the event.
+pile](/meandeck/brainstorm#brainstorm-available). I'm so jittery and excited yet
+internally a wreck I start rushing and Nik who is of course observing the match
+closely reminds me that it is not timed and I can slow down. I take a breather
+and make sure to triple check my pile before committing (it would be super
+embarrassing for an author of the Wiki to fuck up the exact thing he authored
+on). I demonstrate the entire thing step by step to Chris (and Nik who was very
+intrigued) and thus complete my one and only same turn win of the event.
 
 Sideboarding was a scary prospect. What {W}{U} lacks in terms of pressure in
 game 1 it can make up for in potential toolbox cards in games 2 and 3. Torpor
