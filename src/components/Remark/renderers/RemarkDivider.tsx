@@ -5,8 +5,7 @@ export const RemarkDivider: FunctionComponent = () => (
   <Divider
     sx={(theme) => ({
       ...theme.mixins.barf,
-      // NOTE Increase specificity
-      '&&': { my: 3 },
+      my: `${theme.spacing(3)}!important`,
     })}
   />
 );

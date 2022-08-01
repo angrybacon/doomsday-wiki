@@ -8,13 +8,14 @@ import {
   TableRow,
   tableCellClasses,
 } from '@mui/material';
-import type { SystemStyleObject } from '@mui/system';
+import type { Theme } from '@mui/material/styles';
+import type { SxProps } from '@mui/system';
 import { getRosetta } from '@/tools/game/getRosetta';
 import type { Rosetta } from '@/tools/game/getRosetta';
 
 interface Props {
   category: string;
-  sx?: SystemStyleObject;
+  sx?: SxProps<Theme>;
 }
 
 export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
@@ -28,11 +29,13 @@ export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
     <Table
       padding="checkbox"
       size="small"
-      sx={{
-        [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
-        [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
-        ...sx,
-      }}
+      sx={[
+        {
+          [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
+          [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
+        },
+        ...(Array.isArray(sx) ? sx : [sx]),
+      ]}
     >
       <TableHead>
         <TableRow>

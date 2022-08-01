@@ -49,42 +49,39 @@ const HomePage: NextPage<Props> = ({
   }, [size]);
 
   return (
-    <Layout
-      wrapper={Grid}
-      wrapperProps={{ container: true, spacing: 2 }}
-      menu={menu}
-      title="Welcome"
-    >
-      <Grid item sm={7}>
-        <Card>
-          <CardContent>
-            <Remark
-              decklists={decklists}
-              markdown={welcome}
-              partials={partials}
-            />
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item xs>
-        <Grid
-          container
-          ref={articleRoot}
-          spacing={2}
-          sx={{ flexDirection: 'column', pb: 2 }}
-        >
-          {articles.slice(0, size).map(({ matter, route }) => (
-            <Grid item key={`article-${route}`} xs={12}>
-              <ArticleCard href={route} matter={matter} />
-            </Grid>
-          ))}
-          {size < articles.length + 1 && (
-            <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
-              <Button onClick={showMore} variant="outlined">
-                Show more
-              </Button>
-            </Grid>
-          )}
+    <Layout menu={menu} title="Welcome">
+      <Grid container spacing={2}>
+        <Grid item sm={7}>
+          <Card>
+            <CardContent>
+              <Remark
+                decklists={decklists}
+                markdown={welcome}
+                partials={partials}
+              />
+            </CardContent>
+          </Card>
+        </Grid>
+        <Grid item xs>
+          <Grid
+            container
+            ref={articleRoot}
+            spacing={2}
+            sx={{ flexDirection: 'column', pb: 2 }}
+          >
+            {articles.slice(0, size).map(({ matter, route }) => (
+              <Grid item key={`article-${route}`} xs={12}>
+                <ArticleCard href={route} matter={matter} />
+              </Grid>
+            ))}
+            {size < articles.length + 1 && (
+              <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
+                <Button onClick={showMore} variant="outlined">
+                  Show more
+                </Button>
+              </Grid>
+            )}
+          </Grid>
         </Grid>
       </Grid>
     </Layout>

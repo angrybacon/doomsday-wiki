@@ -10,6 +10,8 @@ import {
   List,
   drawerClasses,
 } from '@mui/material';
+import type { Theme } from '@mui/material/styles';
+import type { SxProps } from '@mui/system';
 import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
@@ -30,6 +32,15 @@ export const Sidebar: FunctionComponent<Props> = ({
   menu,
   onClose,
 }) => {
+  const sx: SxProps<Theme> = (theme: Theme) => ({
+    [`.${drawerClasses.paper}`]: [{ width: theme.drawer.width }],
+  });
+
+  const sxBody: SxProps<Theme> = {
+    flexGrow: 1,
+    overflowY: 'auto',
+  };
+
   const drawerProps: DrawerProps = isMobile
     ? {
         ModalProps: { keepMounted: true },
@@ -40,15 +51,10 @@ export const Sidebar: FunctionComponent<Props> = ({
     : { open: true, variant: 'permanent' };
 
   return (
-    <Drawer
-      sx={{
-        [`.${drawerClasses.paper}`]: { width: (theme) => theme.drawer.width },
-      }}
-      {...drawerProps}
-    >
+    <Drawer sx={sx} {...drawerProps}>
       <SidebarHeader onClose={onClose} />
       <Divider />
-      <Box sx={{ overflowY: 'auto' }}>
+      <Box sx={sxBody}>
         <List component="nav" dense>
           {menu.map((entry) => (
             <SidebarEntry key={`entry-${entry.category}`} {...entry} />
