@@ -43,7 +43,7 @@ export const Layout: FunctionComponent<Props> = ({
   }, [closeSidebar, router]);
 
   const sx: SxProps<Theme> = [
-    { display: 'flex', flexDirection: 'column', minHeight: '100vh' },
+    { display: 'flex', flexDirection: 'column', minHeight: '100%' },
     background !== undefined && {
       backgroundImage: `url(${background})`,
       backgroundPosition: 'center',
