@@ -3,15 +3,18 @@ import React, { FunctionComponent, useContext } from 'react';
 import { mdiDiscord, mdiWeatherNight, mdiWeatherSunny } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, Button, IconButton, Toolbar, Tooltip } from '@mui/material';
+import type { Theme } from '@mui/material/styles';
+import type { SxProps } from '@mui/system';
 import { ThemeContext } from '@/theme/ThemeContext';
 
 const DISCORD_URL = 'https://discord.gg/vajvFXt';
 
 interface Props {
   onClose: () => void;
+  sx?: SxProps<Theme>;
 }
 
-export const SidebarHeader: FunctionComponent<Props> = ({ onClose }) => {
+export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
   const { isDark, toggle } = useContext(ThemeContext);
 
   const onThemeToggle = () => {
@@ -21,7 +24,10 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose }) => {
 
   return (
     <Toolbar
-      sx={{ alignItems: 'center', display: 'flex', px: { xs: 1, md: 2 } }}
+      sx={[
+        { alignItems: 'center', display: 'flex', px: { xs: 1, md: 2 } },
+        ...(Array.isArray(sx) ? sx : [sx]),
+      ]}
     >
       <NextLink href="/" passHref>
         <Button

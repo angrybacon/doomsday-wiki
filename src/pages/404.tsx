@@ -11,7 +11,7 @@ interface Props {
 
 const NotFoundPage: NextPage<Props> = ({ menu }) => (
   <Layout background="/404.jpg" menu={menu} title="404">
-    <Box fontSize="8em" fontWeight="fontWeightLight" textAlign="center">
+    <Box fontSize="10em" fontWeight="fontWeightLight" textAlign="center">
       404
     </Box>
   </Layout>

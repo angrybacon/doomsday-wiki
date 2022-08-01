@@ -173,7 +173,7 @@ export const baseTheme: (theme: Theme) => Theme = (theme) => {
 export const darkTheme: Theme = createTheme({
   palette: {
     background: { default: '#121212', paper: grey[900] },
-    dividerOpaque: grey[900],
+    dividerOpaque: grey[800],
     document: {
       article: article.A700,
       primer: primer.A700,
