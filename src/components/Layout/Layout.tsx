@@ -31,6 +31,8 @@ export const Layout: FunctionComponent<Props> = ({
   const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const isClear = !!background;
+
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
 
   const openSidebar = useCallback(() => setIsSidebarOpen(true), []);
@@ -69,7 +71,7 @@ export const Layout: FunctionComponent<Props> = ({
       <Sidebar
         category={`${router.query.category}`}
         menu={menu}
-        clear={!!background}
+        isClear={isClear}
         isMobile={!isDesktop}
         isOpen={isSidebarOpen}
         onClose={closeSidebar}
@@ -91,6 +93,7 @@ export const Layout: FunctionComponent<Props> = ({
           {children}
         </Container>
         <Footer
+          isClear={isClear}
           sx={{ mt: 'auto', pt: { xs: 2, sm: 3 }, px: { xs: 2, sm: 3 } }}
         />
       </Box>
