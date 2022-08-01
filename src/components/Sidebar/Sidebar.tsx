@@ -19,6 +19,7 @@ import type { Menu } from '@/tools/markdown/types';
 
 interface Props {
   category: string;
+  clear?: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
   menu: Menu;
@@ -27,19 +28,35 @@ interface Props {
 
 export const Sidebar: FunctionComponent<Props> = ({
   category,
+  clear = false,
   isMobile,
   isOpen,
   menu,
   onClose,
 }) => {
   const sx: SxProps<Theme> = (theme: Theme) => ({
-    [`.${drawerClasses.paper}`]: [{ width: theme.drawer.width }],
+    [`.${drawerClasses.paper}`]: [
+      { width: theme.drawer.width },
+      clear && { background: 'none' },
+    ],
   });
 
   const sxBody: SxProps<Theme> = {
+    backdropFilter: 'blur(24px)',
     flexGrow: 1,
     overflowY: 'auto',
   };
+
+  const sxHeader: SxProps<Theme> = [
+    clear && {
+      backgroundColor: ({ palette }: Theme) => palette.background.paper,
+    },
+    !clear && {
+      borderBottomColor: ({ palette }: Theme) => palette.divider,
+      borderBottomStyle: 'solid',
+      borderBottomWidth: 1,
+    },
+  ];
 
   const drawerProps: DrawerProps = isMobile
     ? {
@@ -52,8 +69,7 @@ export const Sidebar: FunctionComponent<Props> = ({
 
   return (
     <Drawer sx={sx} {...drawerProps}>
-      <SidebarHeader onClose={onClose} />
-      <Divider />
+      <SidebarHeader sx={sxHeader} onClose={onClose} />
       <Box sx={sxBody}>
         <List component="nav" dense>
           {menu.map((entry) => (

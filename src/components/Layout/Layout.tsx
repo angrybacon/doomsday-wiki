@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Theme, alpha, useTheme } from '@mui/material/styles';
+import { Theme, useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import type { SxProps } from '@mui/system';
 import { Footer } from '@/components/Footer/Footer';
@@ -51,7 +51,6 @@ export const Layout: FunctionComponent<Props> = ({
       position: 'relative',
       '&:before': {
         backdropFilter: 'blur(4px)',
-        backgroundColor: (theme) => alpha(theme.palette.common.black, 0.3),
         bottom: 0,
         content: '""',
         display: 'block',
@@ -70,6 +69,7 @@ export const Layout: FunctionComponent<Props> = ({
       <Sidebar
         category={`${router.query.category}`}
         menu={menu}
+        clear={!!background}
         isMobile={!isDesktop}
         isOpen={isSidebarOpen}
         onClose={closeSidebar}
