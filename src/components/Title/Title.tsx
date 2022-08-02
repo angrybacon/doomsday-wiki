@@ -7,6 +7,6 @@ interface Props {
 
 export const Title: FunctionComponent<Props> = ({ title }) => (
   <Head>
-    <title key="title">{title ? `${title} • ` : ''}ddft.wiki</title>
+    <title key="title">{title ? `${title} • ` : ''}doomsday.wiki</title>
   </Head>
 );
