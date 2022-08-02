@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { Theme, alpha, useTheme } from '@mui/material/styles';
+import { Theme, useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import type { SxProps } from '@mui/system';
 import { Footer } from '@/components/Footer/Footer';
@@ -31,6 +31,8 @@ export const Layout: FunctionComponent<Props> = ({
   const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  const isClear = !!background;
+
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
 
   const openSidebar = useCallback(() => setIsSidebarOpen(true), []);
@@ -41,7 +43,7 @@ export const Layout: FunctionComponent<Props> = ({
   }, [closeSidebar, router]);
 
   const sx: SxProps<Theme> = [
-    { display: 'flex', flexDirection: 'column', minHeight: '100vh' },
+    { display: 'flex', flexDirection: 'column', minHeight: '100%' },
     background !== undefined && {
       backgroundImage: `url(${background})`,
       backgroundPosition: 'center',
@@ -51,7 +53,6 @@ export const Layout: FunctionComponent<Props> = ({
       position: 'relative',
       '&:before': {
         backdropFilter: 'blur(4px)',
-        backgroundColor: (theme) => alpha(theme.palette.common.black, 0.3),
         bottom: 0,
         content: '""',
         display: 'block',
@@ -70,6 +71,7 @@ export const Layout: FunctionComponent<Props> = ({
       <Sidebar
         category={`${router.query.category}`}
         menu={menu}
+        isClear={isClear}
         isMobile={!isDesktop}
         isOpen={isSidebarOpen}
         onClose={closeSidebar}
@@ -91,6 +93,7 @@ export const Layout: FunctionComponent<Props> = ({
           {children}
         </Container>
         <Footer
+          isClear={isClear}
           sx={{ mt: 'auto', pt: { xs: 2, sm: 3 }, px: { xs: 2, sm: 3 } }}
         />
       </Box>

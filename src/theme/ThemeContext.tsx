@@ -2,7 +2,7 @@ import React, { createContext, useEffect, useMemo, useState } from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
 import { THEME_STORAGE_KEY, Theme } from '@/theme/constants';
-import { baseTheme, darkTheme, lightTheme } from '@/theme/theme';
+import { darkTheme, lightTheme } from '@/theme/theme';
 
 interface ThemeState {
   isDark: boolean | null;
@@ -47,7 +47,7 @@ export const ThemeProvider: FunctionComponent<Props> = ({ children }) => {
   return (
     <ThemeContext.Provider value={value}>
       <MuiThemeProvider theme={isDark ? darkTheme : lightTheme}>
-        <MuiThemeProvider theme={baseTheme}>{children}</MuiThemeProvider>
+        {children}
       </MuiThemeProvider>
     </ThemeContext.Provider>
   );
