@@ -5,14 +5,19 @@
 
 ** Coding Conventions
 
-*** TODO TypeScript
+*** TypeScript
 
+- Respect existing conventions
 - Respect the =eslint= configuration
 - Respect the =prettier= configuration
 
-*** TODO Styles
+A commit hook exists to check for ESLint errors and warnings to validate your
+commits. It only validates the content of your commits.
 
-- =Component.styles.ts=
+*** Styles
+
+Prefer the component styling properties when it makes sense, or the =sx=
+property from =@mui/system= otherwise.
 
 ** TODO Commit Conventions
 
@@ -21,7 +26,15 @@
 - Commit naming
 - Pull request naming
 
+** Mocks
+
+In order to both reduce the strain on Scryfall's API and allow offline
+development, various mocks were set up. See =src/mocks/handlers.ts= for their
+implementations and payloads. To disable the mocks, override the value for
+=MOCK_SCRYFALL= in a =.env.local= at the root of the project.
+
 ** TODO Tests
 
 - =jest=
 - =react-testing-library=
+- Coverage report

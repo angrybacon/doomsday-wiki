@@ -91,11 +91,11 @@ export const scry: Scry = async (query) => {
   cache[key] = cache[key] || {};
   if (cache[key].status === undefined) {
     const path = `${api}?${parameters}`;
-    console.info(`[scryfall] GET ${path}`);
     const promise = axios
       .get<ScryData | ScryError>(path)
       .then(({ data }) => data);
     cache[key] = { count: 0, promise, status: CacheStatus.PENDING };
+    console.info(`[scryfall] ${realSet || '---'} ${realName}`);
   }
   cache[key].count += 1;
   let result: ScryData | ScryError;
