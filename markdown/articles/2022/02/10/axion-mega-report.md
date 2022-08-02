@@ -248,13 +248,13 @@ Force it pitching Force. This was a massive mistake. I should've worked out the
 timings of how many turns I would need to pass and what could beat me in passing
 that many turns. I would need to pass 3 turns post Doomsday (unless I get lucky
 on my draw step with a land or another Petal,:card[BS], Street Wraith or
-:card[LED]) and so I should've worked out what beats the likely pile of {fetch,
-fetch, TO, :card[Island], :card[Underground Sea]} or even what beats me trying
-to go for a faster 2 turn pass pile that maybe uses Brainstorm or something else
-similar. Basically there is not enough pressure that can come down from 2 lands
-and Vial for passing 3 turns assuming you hold Force for the first thing they
-cast. The Forcing of Vial was a poor decision and I should've just held it back
-for a turn 2 play.
+:card[LED]) and so I should've worked out what beats the likely pile of \[fetch,
+fetch, TO, Island, Underground Sea\] or even what beats me trying to go for a
+faster 2 turn pass pile that maybe uses Brainstorm or something else similar.
+Basically there is not enough pressure that can come down from 2 lands and Vial
+for passing 3 turns assuming you hold Force for the first thing they cast. The
+Forcing of Vial was a poor decision and I should've just held it back for a turn
+2 play.
 
 :::row{variant=PILE}
 - Flooded Strand

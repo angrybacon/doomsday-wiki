@@ -589,8 +589,8 @@ list changes.
 
 Maindeck:
 
-- Taking out the :card[Island] and replacing it with either a :card[Watery
-  Grave] or the 9th fetch.
+- Taking out the Island and replacing it with either a :card[Watery Grave] or
+  the 9th fetch.
 - Making room for some number of :card[Consider] + :card[Deep Analysis].
   Probably going to start with cutting :card[Preordain] + trimming some cyclers
   and see where that goes.
