@@ -29,7 +29,7 @@ export const Header: FunctionComponent<Props> = ({
           position="sticky"
           sx={(theme: Theme) => ({
             backdropFilter: 'blur(24px)',
-            backgroundColor: alpha(theme.palette.background.paper, 0.5),
+            backgroundColor: alpha(theme.palette.background.paper, 0.75),
             pl: offset,
           })}
         >

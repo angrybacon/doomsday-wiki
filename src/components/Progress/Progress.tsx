@@ -18,7 +18,11 @@ export const Progress: FunctionComponent<Props> = ({ sx }) => {
           backgroundColor: theme.palette.secondary.main,
           borderBottomRightRadius: 2,
           height: 2,
-          width: scroll,
+          transition: theme.transitions.create('width', {
+            duration: 75,
+            easing: 'linear',
+          }),
+          width: `${scroll}%`,
         }),
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
