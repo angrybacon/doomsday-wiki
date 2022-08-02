@@ -1,9 +1,9 @@
 import { useRouter } from 'next/router';
 import React, { useCallback, useEffect, useState } from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import { Theme, useTheme } from '@mui/material/styles';
+import { Box, Container } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
+import type { Theme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import type { SxProps } from '@mui/system';
 import { Footer } from '@/components/Footer/Footer';
@@ -17,6 +17,7 @@ interface Props {
   children: ReactNode;
   menu: Menu;
   title: string;
+  withProgress?: boolean;
 }
 
 export const Layout: FunctionComponent<Props> = ({
@@ -24,6 +25,7 @@ export const Layout: FunctionComponent<Props> = ({
   children,
   menu,
   title,
+  withProgress = false,
 }) => {
   const router = useRouter();
   const theme = useTheme();
@@ -67,7 +69,11 @@ export const Layout: FunctionComponent<Props> = ({
   return (
     <Box sx={sx}>
       <Title title={title} />
-      <Header isMobile={!isDesktop} onSidebarOpen={openSidebar} />
+      <Header
+        isMobile={!isDesktop}
+        onSidebarOpen={openSidebar}
+        withProgress={withProgress}
+      />
       <Sidebar
         category={`${router.query.category}`}
         menu={menu}
