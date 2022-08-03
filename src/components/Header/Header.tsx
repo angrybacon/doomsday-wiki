@@ -37,7 +37,6 @@ export const Header: FunctionComponent<Props> = ({
             {isMobile && (
               <IconButton
                 aria-label="Menu"
-                color="inherit"
                 onClick={onSidebarOpen}
                 sx={{ mr: 1 }}
               >

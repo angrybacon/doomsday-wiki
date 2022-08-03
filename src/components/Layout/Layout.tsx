@@ -6,6 +6,7 @@ import { useTheme } from '@mui/material/styles';
 import type { Theme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import type { SxProps } from '@mui/system';
+import { BackToTop } from '@/components/BackToTop/BackToTop';
 import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
@@ -32,7 +33,6 @@ export const Layout: FunctionComponent<Props> = ({
   // NOTE Prefer `up` over `down` to avoid flickering
   const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
   const isClear = !!background;
 
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
@@ -100,9 +100,17 @@ export const Layout: FunctionComponent<Props> = ({
         </Container>
         <Footer
           isClear={isClear}
-          sx={{ mt: 'auto', pt: { xs: 2, sm: 3 }, px: { xs: 2, sm: 3 } }}
+          sx={{
+            mt: 'auto',
+            pt: { xs: 2, sm: 3 },
+            pl: { xs: 2, sm: 3 },
+            pr: { xs: 7, sm: 8 }, // NOTE Account for BackToTop
+          }}
         />
       </Box>
+      <BackToTop
+        sx={({ spacing }: Theme) => ({ bottom: spacing(2), right: spacing(2) })}
+      />
     </Box>
   );
 };
