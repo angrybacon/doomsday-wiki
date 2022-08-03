@@ -90,20 +90,19 @@ will also let you play cards through a Chalice of the Void.
 
 ## Opponent Interactions
 
-
 ### Aven Mindcensor, Shadow of Doubt
 
 If there is an Aven Mindcensor on the board, a resolved Doomsday will be able to
 search only the top 4 cards of the library and the entire graveyard. Selecting 1
 card from the top 4 does not allow you to dig one deeper in to your library.
 
-### Echo of Eons
+### Echo of Eons, Day's Undoing
 
 If playing against a known Echo deck try to make sure you have at least 8 cards
 spread across your hand, library and graveyard to avoid them being able to Echo
 you to death. You should have a minimum of 6 from the Doomsday in your graveyard
-and your 5 card pile so having an extra 2 cards in hand or some uncracked
-fetches and/or lotus petals in play can help achive this.
+and your 5-cards pile so having an extra 2 cards in hand or some uncracked
+fetches and/or lotus petals in play can help achieve this.
 
 ### Flickerwisp
 
@@ -134,10 +133,10 @@ fetchlands.
 Phyrexian Revoker can stop LED, Lotus Petal, Chromatic Sphere, Conjurer's Bauble
 and cyclers like Street Wraith. It cannot hit fetchlands nor Shelldock Isle.
 
-### Grindstone, Predict, Thought Scour, Surgical Extraction
+### Predict, Grindstone, Thought Scour, Surgical Extraction
 
 These cards have the ability to disturb the ordering or contents of your library
-at instant speed, when you draw in to your pile.
+at instant speed, when you draw into your pile.
 
 ### Portent
 
@@ -151,17 +150,25 @@ Tell, you can cycle and put Oracle into play from it, winning with the trigger.
 ### Skyclave Apparition
 
 Remember that Death and Taxes can present removal by having an Aether Vial set
-to 3, even if they have no mana open Be careful if considering a pile with cards
-remaining in your library.
+to 3, even if they have no mana open. Be careful if considering a pile with
+cards remaining in your library.
 
 ### Stifle, Trickbind
 
 Can stop Conjurer's Bauble activations, Tendrils of Agony and Empty the Warrens
-Storm triggers, as well as fetchlands, cyclers like Street Wraith and Thassa's
-Oracle triggers. Does not stop Chromatic Sphere, Lake of the Dead, Rain of
-Filth, Lotus Petal, or LED activations.
+Storm triggers, as well as fetchlands, cyclers like Street Wraith and more
+importantly Thassa's Oracle triggers. Does not stop Chromatic Sphere, Lake of
+the Dead, Rain of Filth, Lotus Petal, or LED activations.
 
 ### Teferi, Time Raveler
 
 You cannot cast something using Shelldock Isle if the opponent has a Teferi in play
 however you can use Shelldock Isle to put a land into play.
+
+### Wheel of Sun and Moon, Terminus
+
+These cards can put cards back into your pile. The former will make all your
+usual ways of digging into or thinning the pile useless ie. fetchlands, cantrips
+and cyclers won't reduce the size of your pile anymore. While the latter cast
+with the Oracle trigger still on the stack, will reduce your devotion to {U} by
+2 in addition to increasing the size of your library by one.
