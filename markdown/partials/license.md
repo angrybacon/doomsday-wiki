@@ -20,6 +20,13 @@ of the [Attribution-NonCommercial-NoDerivatives 4.0 International][wiki:license]
 license. Its raw form can be found within the repository under the `markdown/`
 directory.
 
+In addition, the Wiki displays icons from the [Material Design Icons][icons:mdi]
+library as well as from the [Simple Icons][icons:simple-icons] library for brand
+icons. Please check their respective licensing for more details, which can be
+adapted from one icon to another.
+
+[icons:mdi]: https://materialdesignicons.com
+[icons:simple-icons]: https://simpleicons.org
 [js:next]: https://nextjs.org
 [js:react]: https://reactjs.org
 [scryfall:api]: https://scryfall.com/docs/api
