@@ -23,12 +23,15 @@
       "files": ["*.test.{ts,tsx}"],
       "rules": {
         "@typescript-eslint/no-var-requires": "off",
-        "global-require": "off"
+        "global-require": "off",
+        "import/no-extraneous-dependencies": "off"
       }
     },
     {
-      "files": ["jest.*.js", "**/*.test.{ts,tsx}"],
-      "rules": { "import/no-extraneous-dependencies": "off" }
+      "files": ["jest.*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off"
+      }
     },
     {
       "files": ["src/mocks/**/*.ts"],
