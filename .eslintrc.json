@@ -29,6 +29,15 @@
     {
       "files": ["jest.*.js", "**/*.test.{ts,tsx}"],
       "rules": { "import/no-extraneous-dependencies": "off" }
+    },
+    {
+      "files": ["src/mocks/**/*.ts"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          { "devDependencies": true }
+        ]
+      }
     }
   ],
   "parser": "@typescript-eslint/parser",

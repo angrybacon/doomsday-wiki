@@ -4,6 +4,10 @@ import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@/theme/ThemeContext';
 
+if (process.env.MOCK_SCRYFALL === 'true') {
+  import('@/mocks/bootstrap');
+}
+
 const Application = (props: AppProps): JSX.Element => {
   const { Component, pageProps } = props;
   return (

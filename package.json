@@ -9,7 +9,6 @@
     "lint:code": "eslint .",
     "lint:fix": "yarn lint:code --fix",
     "lint:typings": "tsc",
-    "lint:typings:watch": "tsc -w",
     "prepare": "husky install",
     "start": "next start",
     "test": "jest",
@@ -67,6 +66,7 @@
     "jest": "28.1.3",
     "jest-environment-jsdom": "28.1.3",
     "lint-staged": "13.0.3",
+    "msw": "0.44.2",
     "prettier": "2.7.1",
     "typescript": "4.7.4"
   }
