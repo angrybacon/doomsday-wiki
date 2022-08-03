@@ -1,6 +1,7 @@
 import NextLink from 'next/link';
 import React, { FunctionComponent, useContext } from 'react';
-import { mdiDiscord, mdiWeatherNight, mdiWeatherSunny } from '@mdi/js';
+import { siDiscord } from 'simple-icons/icons';
+import { mdiLightbulbOff, mdiLightbulbOn } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, Button, IconButton, Toolbar, Tooltip } from '@mui/material';
 import type { Theme } from '@mui/material/styles';
@@ -44,22 +45,19 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
           alignItems: 'center',
           display: 'flex',
           ml: 'auto',
-          '> *': { ml: 1 },
+          '&& > *': { ml: 1 }, // NOTE Increase specificity
         }}
       >
         <Tooltip arrow title="Join our Discord server">
           <a href={DISCORD_URL} rel="noopener noreferrer" target="_blank">
             <IconButton size="large">
-              <Icon path={mdiDiscord} size={0.8} />
+              <Icon path={siDiscord.path} size={0.7} />
             </IconButton>
           </a>
         </Tooltip>
         <Tooltip arrow title={`Switch to ${isDark ? 'light' : 'dark'} theme`}>
           <IconButton onClick={onThemeToggle} size="large">
-            <Icon
-              path={isDark ? mdiWeatherSunny : mdiWeatherNight}
-              size={0.8}
-            />
+            <Icon path={isDark ? mdiLightbulbOn : mdiLightbulbOff} size={0.7} />
           </IconButton>
         </Tooltip>
       </Box>

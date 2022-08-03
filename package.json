@@ -19,7 +19,7 @@
     "@emotion/react": "11.10.0",
     "@emotion/styled": "11.10.0",
     "@fontsource/libre-baskerville": "4.5.8",
-    "@mdi/js": "6.9.96",
+    "@mdi/js": "7.0.96",
     "@mdi/react": "1.6.1",
     "@mui/material": "5.9.3",
     "@mui/system": "5.9.3",
@@ -39,6 +39,7 @@
     "remark-parse": "10.0.1",
     "remark-slug": "7.0.1",
     "remark-toc": "8.0.1",
+    "simple-icons": "7.5.0",
     "unified": "10.1.2",
     "unist-util-select": "4.0.1",
     "unist-util-visit": "4.1.0"
