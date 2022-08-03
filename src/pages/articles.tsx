@@ -14,7 +14,7 @@ interface Props {
 }
 
 const ArticlesPage: NextPage<Props> = ({ articles, menu }) => (
-  <Layout menu={menu} title="Articles">
+  <Layout menu={menu} title="Articles" withBackToTop>
     <Card>
       <List disablePadding>
         {articles.map(({ matter, route }, index) => (

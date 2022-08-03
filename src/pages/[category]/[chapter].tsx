@@ -36,7 +36,7 @@ const ChapterPage: NextPage<Props> = ({
   if (!title) return null;
 
   return (
-    <Layout menu={menu} title={title} withProgress>
+    <Layout menu={menu} title={title} withBackToTop withProgress>
       <Card>
         <CardContent>
           <Typography align="center" variant="h1">

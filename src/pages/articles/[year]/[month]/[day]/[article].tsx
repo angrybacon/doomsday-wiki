@@ -40,7 +40,7 @@ const ArticlePage: NextPage<Props> = ({
   if (!bannerData || !title) return null;
 
   return (
-    <Layout menu={menu} title={title} withProgress>
+    <Layout menu={menu} title={title} withBackToTop withProgress>
       <Card>
         <Banner authors={authors} banner={bannerData} title={title} />
         <CardContent>

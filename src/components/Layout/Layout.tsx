@@ -18,6 +18,7 @@ interface Props {
   children: ReactNode;
   menu: Menu;
   title: string;
+  withBackToTop?: boolean;
   withProgress?: boolean;
 }
 
@@ -26,6 +27,7 @@ export const Layout: FunctionComponent<Props> = ({
   children,
   menu,
   title,
+  withBackToTop = false,
   withProgress = false,
 }) => {
   const router = useRouter();
@@ -100,17 +102,20 @@ export const Layout: FunctionComponent<Props> = ({
         </Container>
         <Footer
           isClear={isClear}
-          sx={{
-            mt: 'auto',
-            pt: { xs: 2, sm: 3 },
-            pl: { xs: 2, sm: 3 },
-            pr: { xs: 7, sm: 8 }, // NOTE Account for BackToTop
-          }}
+          sx={[
+            { mt: 'auto', pt: { xs: 2, sm: 3 }, px: { xs: 2, sm: 3 } },
+            withBackToTop && { pr: { xs: 7, sm: 8 } },
+          ]}
         />
       </Box>
-      <BackToTop
-        sx={({ spacing }: Theme) => ({ bottom: spacing(2), right: spacing(2) })}
-      />
+      {withBackToTop && (
+        <BackToTop
+          sx={({ spacing }: Theme) => ({
+            bottom: spacing(2),
+            right: spacing(2),
+          })}
+        />
+      )}
     </Box>
   );
 };
