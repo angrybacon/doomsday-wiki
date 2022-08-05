@@ -21,6 +21,7 @@ const ARTICLES_INITIAL_SIZE = 5;
 
 interface Props {
   articles: Document[];
+  clock?: string;
   decklists: Decklists;
   menu: Menu;
   partials: Partials;
@@ -29,6 +30,7 @@ interface Props {
 
 const HomePage: NextPage<Props> = ({
   articles,
+  clock,
   decklists,
   menu,
   partials,
@@ -54,6 +56,7 @@ const HomePage: NextPage<Props> = ({
         <Grid item sm={7}>
           <Card>
             <CardContent>
+              {clock}
               <Remark
                 decklists={decklists}
                 markdown={welcome}
