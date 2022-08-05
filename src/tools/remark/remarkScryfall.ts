@@ -2,6 +2,7 @@ import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
+import { Scope, log, logVerbose } from '@/tools/logger/log';
 import { readFirstFace } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { Scries, ScryCard, ScryData } from '@/tools/scryfall/types';
@@ -38,5 +39,9 @@ export const remarkScryfall =
       });
     });
     await Promise.allSettled(promises);
+    if (process.env.REMARK_LOGS === 'true') {
+      log(`Found ${Object.keys(scries).length} cards`, Scope.REMARK);
+      Object.values(scries).map((card) => logVerbose(`  ${card.name}`));
+    }
     return scries;
   };

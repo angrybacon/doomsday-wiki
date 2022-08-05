@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { getCard } from '@/tools/game/getCard';
 import { SETS } from '@/tools/game/constants/Sets';
+import { Scope, log } from '@/tools/logger/log';
 import type { ScryData, ScryError } from '@/tools/scryfall/types';
 
 enum CacheStatus {
@@ -22,19 +23,14 @@ interface CacheEntryPending {
   status: CacheStatus.PENDING;
 }
 
-type CacheEntry = CacheEntryDone | CacheEntryPending;
-
-/**
- * Attempt at keeping pending requests around.
- * Values can either a query response or `null` in which case it means the
- * request is still pending.
- */
-type Cache = Record<string, CacheEntry>;
+type Cache = Record<string, CacheEntryDone | CacheEntryPending>;
 
 /**
  * Cache to hold concurrent search queries.
- * The content can either be a resolved or rejected promise, or a pending
- * promise.
+ * The content of the different cache entries are (un)fulfilled promises.
+ * This is not a perfect solution as the application relies on multiple workers
+ * to build, resulting in several instances of this cookie to exist at a given
+ * time.
  */
 const CACHE: { named: Cache; search: Cache; set: Cache } = {
   named: {},
@@ -95,7 +91,9 @@ export const scry: Scry = async (query) => {
       .get<ScryData | ScryError>(path)
       .then(({ data }) => data);
     cache[key] = { count: 0, promise, status: CacheStatus.PENDING };
-    console.info(`[scryfall] ${realSet || '---'} ${realName}`);
+    if (process.env.SCRYFALL_LOGS === 'true') {
+      log(`${realSet || '---'} ${realName}`, Scope.SCRYFALL);
+    }
   }
   cache[key].count += 1;
   let result: ScryData | ScryError;

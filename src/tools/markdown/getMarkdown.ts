@@ -13,8 +13,10 @@ import { getBanner } from '@/tools/markdown/getBanner';
 import { remarkScryfall } from '@/tools/remark/remarkScryfall';
 import type { Scries } from '@/tools/scryfall/types';
 
+type GetScries = (buffer: string) => Promise<Scries>;
+
 /** Parse buffer as Markdown text and return Scry data from directives. */
-const getScries = async (buffer: string): Promise<Scries> => {
+const getScries: GetScries = async (buffer) => {
   const tree = unified().use(remarkParse).use(remarkDirective).parse(buffer);
   return unified().use(remarkScryfall).run(tree) as unknown as Scries;
 };

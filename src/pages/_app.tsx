@@ -4,7 +4,7 @@ import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@/theme/ThemeContext';
 
-if (process.env.MOCK_SCRYFALL === 'true') {
+if (process.env.SCRYFALL_MOCKS === 'true') {
   import('@/mocks/bootstrap');
 }
 
