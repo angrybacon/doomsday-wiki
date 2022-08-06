@@ -1,47 +1,68 @@
-import type { LeafDirective } from 'mdast-util-directive';
+import type { ContainerDirective, LeafDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
 import { Node, Test, visit } from 'unist-util-visit';
 import type { Decklists } from '@/tools/decklists/types';
 import type { Partials } from '@/tools/markdown/types';
 
+const remarkWithChildren = (directive: ContainerDirective) => {
+  const { column: c, line: l } = directive.position?.start ?? {};
+  const location = `for accordion at ${l}:${c}`;
+  if (!directive.children.length) {
+    console.error(`[remark] Missing title ${location}`);
+  } else if (directive.children.length === 1) {
+    console.error(`[remark] Missing content ${location}`);
+  } else if (directive.children.length > 2) {
+    console.error(`[remark] Too many children ${location}, prefer a partial`);
+  }
+};
+
+const remarkWithPartial = (
+  directive: LeafDirective,
+  { decklists, partials }: RemarkAccordionProps
+) => {
+  const path: string | undefined = directive.attributes?.path;
+  if (!path) {
+    const { column: c, line: l } = directive.position?.start ?? {};
+    console.error(`[remark] Missing path for accordion at ${l}:${c}`);
+  } else if (!partials[path]) {
+    console.error(`[remark] Missing source file for "${path}" partial`);
+  } else if (!directive.children.length) {
+    console.error(`[remark] Missing title for accordion with "${path}"`);
+  } else {
+    // eslint-disable-next-line no-param-reassign
+    directive.data = {
+      ...directive.data,
+      hProperties: {
+        ...(directive.data?.hProperties as Record<string, unknown>),
+        decklists,
+        markdown: partials[path],
+        partials,
+      },
+    };
+  }
+};
+
+interface RemarkAccordionProps {
+  decklists: Decklists;
+  partials: Partials;
+}
+
 /**
  * Augment targets with content from partials for further reference while
  * rendering components.
- * The `decklists` property is only passed down for nested accodions.
+ * The `props` argument is only used to pass down context for nested accordions.
  */
-export const remarkAccordion: Plugin<
-  [{ decklists: Decklists; partials: Partials }]
-> =
-  ({ decklists, partials }) =>
-  (tree) => {
-    const test: Test = { name: 'accordion', type: 'leafDirective' };
-    visit<Node, Test>(tree, test, (node) => {
-      const directive = node as LeafDirective;
-      const path: string | undefined = directive.attributes?.path;
-      if (!directive.children.length) {
-        console.error(
-          `[remark] Missing 'title' attribute for accordion "${path}"`
-        );
-      }
-      if (!path) {
-        const { column: c, line: l } = directive.position?.start ?? {};
-        console.error(
-          `[remark] Missing 'path' attribute in accordion at ${l}:${c}`
-        );
-      } else if (!partials[path]) {
-        console.error(
-          `[remark] Missing Markdown source file for "${path}" partial`
-        );
-      } else {
-        directive.data = {
-          ...directive.data,
-          hProperties: {
-            ...(directive.data?.hProperties as Record<string, unknown>),
-            decklists,
-            markdown: partials[path],
-            partials,
-          },
-        };
+export const remarkAccordion: Plugin<[RemarkAccordionProps]> =
+  (props) => (tree) => {
+    const tests: Test = [
+      { name: 'accordion', type: 'containerDirective' },
+      { name: 'accordion', type: 'leafDirective' },
+    ];
+    visit<Node, Test>(tree, tests, (node) => {
+      if (node.type === 'leafDirective') {
+        remarkWithPartial(node as LeafDirective, props);
+      } else if (node.type === 'containerDirective') {
+        remarkWithChildren(node as ContainerDirective);
       }
     });
   };
