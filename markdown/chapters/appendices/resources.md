@@ -34,15 +34,22 @@ For Paper Legacy that often involves Doomsday:
 
 ## Videos
 
-Videos from non-regular streamers or Doomsday content creators.
+Videos from non-regular streamers or Doomsday content creators in Legacy.
 
 | Link                                                                                                              | Colors       | Pilot            | Date           | Language   |
 |-------------------------------------------------------------------------------------------------------------------|:-------------|------------------|----------------|------------|
+| [League with Meandeck](https://www.youtube.com/watch?v=r4fbt84S0pk)                                               | {U}{B}       | Nevilshute       | July 2022      | English    |
+| [Challenge with Meandeck](https://www.youtube.com/watch?v=uG_Mhi7ukWw)                                            | {U}{B}       | Revenantkioku    | July 2022      | English    |
+| [League with Meandeck ft. Grief](https://www.youtube.com/watch?v=YlzdItzXUWE)                                     | {U}{B}       | Revenantkioku    | June 2022      | English    |
+| [League with Meandeck](https://www.youtube.com/watch?v=nUgBMZ7OSrE)                                               | {U}{B}       | Revenantkioku    | June 2022      | English    |
+| [League with DDFT](https://www.youtube.com/watch?v=L9t3naK4bhs)                                                   | {W}{U}{B}{R} | d8dk32           | May 2022       | English    |
+| [League with Meandeck ft. *Wonderpreaux*](https://www.youtube.com/watch?v=ZIbsSHYfNgk)                            | {U}{B}{R}    | Doishy           | April 2022     | English    |
+| [League with Meandeck ft. *Revenantkioku*](https://www.youtube.com/watch?v=9IsN6XOD8ds)                           | {U}{B}{R}    | Doishy           | April 2022     | English    |
+| [League with Meandeck ft. Yorion](https://www.youtube.com/watch?v=UCtjn48YXGY)                                    | {U}{B}{G}    | Doishy           | April 2022     | English    |
 | [League with Meandeck ft. Death's Shadow](https://www.youtube.com/watch?v=sbx6_WIuSR4) (contains ads)             | {U}{B}{R}    | BoshNRoll        | December 2021  | English    |
 | [*MTGBlackSet* coverage on paper Meandeck vs. WW Pile](https://www.youtube.com/watch?v=Hn3no4hz00s)               | {U}{B}{R}    | Ferid            | December 2021  | German     |
 | [*MTGBlackSet* coverage on paper Meandeck vs. Moon Stompy](https://www.youtube.com/watch?v=898Kqa1wiGw)           | {U}{B}{R}    | Ferid            | November 2021  | German     |
 | [League with Meandeck](https://www.youtube.com/watch?v=5sYA9LsrVLc)                                               | {U}{B}       | Phil Gallagher   | October 2021   | English    |
-| [League with Meandeck](https://www.youtube.com/watch?v=P-dBBwj0pFk) (uneducated first attempt)                    | {U}{B}       | Phil Gallagher   | October 2021   | English    |
 | [League with Meandeck ft. *kl0gW*](https://www.youtube.com/watch?v=c5wEEhXjrS0)                                   | {U}{B}{W}    | Nathan Lipetz    | October 2021   | English    |
 | [League with Meandeck](https://www.youtube.com/watch?v=t6NK3NoHg7M) (contains ads)                                | {U}{B}       | BoshNRoll        | October 2021   | English    |
 | [League with Meandeck](https://www.youtube.com/watch?v=W-G6j82dtHM)                                               | {U}{B}{R}    | Bryant Cook      | September 2021 | English    |

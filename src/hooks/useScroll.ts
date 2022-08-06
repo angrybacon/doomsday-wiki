@@ -9,8 +9,9 @@ export const useScroll: UseScroll = () => {
     const { documentElement } = document;
     if (documentElement) {
       const { clientHeight, scrollHeight, scrollTop } = documentElement;
-      const value = (scrollTop / (scrollHeight - clientHeight)) * 100;
-      setScroll(Math.min(Math.ceil(value), 100));
+      let value = scrollTop / (scrollHeight - clientHeight);
+      value = Math.ceil((value * 100) / 5) * 5;
+      setScroll(Math.min(value, 100));
     }
   };
 
