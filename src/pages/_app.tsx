@@ -1,15 +1,22 @@
-import type { AppProps } from 'next/app';
+import NextApplication from 'next/app';
+import type { AppContext, AppInitialProps, AppProps } from 'next/app';
 import Head from 'next/head';
 import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@/theme/ThemeContext';
+import { getClockCached } from '@/tools/clock/getClockCached';
 
 if (process.env.SCRYFALL_MOCKS === 'true') {
   import('@/mocks/bootstrap');
 }
 
-const Application = (props: AppProps): JSX.Element => {
-  const { Component, pageProps } = props;
+interface Props extends AppInitialProps {
+  clock: string | null;
+}
+
+const Application = (props: AppProps & Props): JSX.Element => {
+  const { Component, clock, pageProps } = props;
+  const componentProps = { ...pageProps, ...(clock && { clock }) };
   return (
     <>
       <Head>
@@ -22,10 +29,17 @@ const Application = (props: AppProps): JSX.Element => {
       <ThemeProvider>
         <CssBaseline />
         {/* TODO Provide decklists and menu through a shared context */}
-        <Component {...pageProps} />
+        <Component {...componentProps} />
       </ThemeProvider>
     </>
   );
+};
+
+Application.getInitialProps = async (
+  context: AppContext
+): Promise<AppInitialProps & Props> => {
+  const props: AppInitialProps = await NextApplication.getInitialProps(context);
+  return { ...props, clock: await getClockCached() };
 };
 
 export default Application;
