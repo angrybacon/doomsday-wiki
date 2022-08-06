@@ -15,8 +15,9 @@ import { Remark } from '@/components/Remark/Remark';
 import type { Decklists } from '@/tools/decklists/types';
 import type { Markdown, Partials } from '@/tools/markdown/types';
 
-// NOTE This module introduces a circular reference but is controlled as long as
-//      it doesn't interact with anything more than `Remark`.
+// NOTE Because this feature allows Markdown content within itself, it
+//      introduces a circular reference but is controlled as long as it doesn't
+//      interact with anything more than `Remark`.
 //
 //      Remark -> Remark/constants -> RemarkAccordion -> Remark
 
@@ -24,7 +25,6 @@ export interface Props extends ReactMarkdownProps {
   decklists: Decklists;
   markdown?: Markdown;
   partials: Partials;
-  path: string;
 }
 
 export const RemarkAccordion: FunctionComponent<Props> = ({
@@ -32,10 +32,11 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
   decklists,
   markdown,
   partials,
-  path,
 }) => {
-  if (!markdown) return null;
-  const title = children ?? path;
+  const [title, ...content] = children;
+
+  if (!title) return null;
+
   return (
     <Box
       sx={(theme) => ({
@@ -52,7 +53,7 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
           expandIcon={<Icon path={mdiChevronDown} size={1} />}
           sx={(theme) => theme.mixins.gutters}
         >
-          <Typography>{title}</Typography>
+          <Typography component="div">{title}</Typography>
         </AccordionSummary>
         <AccordionDetails
           sx={(theme) => ({
@@ -61,13 +62,17 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
             borderTop: 1,
             borderTopColor: 'divider',
             py: 2,
+            '& h6:first-of-type': { mt: 0 },
           })}
         >
-          <Remark
-            decklists={decklists}
-            markdown={markdown}
-            partials={partials}
-          />
+          {content}
+          {markdown && (
+            <Remark
+              decklists={decklists}
+              markdown={markdown}
+              partials={partials}
+            />
+          )}
         </AccordionDetails>
       </Accordion>
     </Box>
