@@ -34,7 +34,7 @@ content.
   sure you have a space right after =:= when it is used as punctuation
 - A dot right after a number character ie. when you end your sentence with a
   digit renders as a numbered list item. To avoid this behavior, escape the dot
-  with a backslash: =[...] you might want all 4\. [...]=
+  with a backslash: =Brainstorm is pretty good, you might want all 4\.=
 - Depending on one's Markdown client, a dot at the end of a link can be
   considered part of said link eg. when you end your sentences with a link you
   should add a space before the final dot
@@ -65,8 +65,8 @@ Duress | STA | 92
 
 ** Frontmatter
 
-Chapter document can take advantage of a front section called /frontmatter/ in
-Markdown parlance. It should start with a triple-dash lines and end with
+*Chapter* documents can take advantage of a front section called /frontmatter/
+in Markdown parlance. It should start with a triple-dash lines and end with
 another. Within that section, a body of YAML metadata can be written.
 
 - =order= ::
@@ -76,7 +76,7 @@ another. Within that section, a body of YAML metadata can be written.
   A string for your chapter title. Wrap it with double quotes ="= to allow
   special characters within such as =:= and ='=.
 
-Articles don't have an =order= property but support other fields. Use other
+*Articles* don't have an =order= property but support other fields. Use other
 existing articles for inspiration.
 
 - =authors= ::
@@ -191,13 +191,13 @@ For more details about color symbols, see the Mana section.
 
 Media embeds are also supported:
 
-For a *SoundCloud* widget, use the following directive and provide its URL.
+*SoundCloud* widgets. Use the following directive and provide its URL.
 
 #+BEGIN_SRC markdown
 ::soundcloud{url=https://soundcloud.com/ddftwiki/a-history-of-doomsday}
 #+END_SRC
 
-For a *YouTube* widget, provide the ID typically found in the URL behind the =v=
+*YouTube* widgets. Provide the ID typically found in the URL behind the =v=
 parameter in the address bar.
 
 #+BEGIN_SRC markdown
@@ -210,15 +210,29 @@ and security issues. They may or may not come back in the future.
 *** Accordions
 
 Collapsible blocks can be stacked against one another or used alone. Provide a
-title for the CTA as well as a relative path to the Markdown partial to insert
-in the accordion.
+title for the CTA as well as content for it.
 
-Do not specify the extension for the partial, =.md= is always assumed.
+The content can be Markdown content directly, albeit with limited support for
+[[#card-rows][row directives]]:
 
 #+BEGIN_SRC markdown
+Note the `:::` to delimit a containing block.
+
+:::accordion[Click to expand]
+Markdown content with *limited* support for **row directives**.
+:::
+#+END_SRC
+
+Or pulled from a partial:
+
+#+BEGIN_SRC markdown
+Note the `::` to denote a *leaf* block with no children.
+
 ::accordion[Click to expand]{path=path/to/partial/one/sans/extension}
 ::accordion[Click to expand]{path=path/to/partial/two/sans/extension}
 #+END_SRC
+
+Do not specify the extension for the partial, =.md= is always assumed.
 
 ** Mana
 
