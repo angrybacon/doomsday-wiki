@@ -1,7 +1,14 @@
 import React, { FunctionComponent } from 'react';
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
-import { AppBar, Box, IconButton, Slide, Toolbar } from '@mui/material';
+import {
+  AppBar,
+  Box,
+  IconButton,
+  Slide,
+  Toolbar,
+  Typography,
+} from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
 import type { Theme } from '@mui/material/styles';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
@@ -43,6 +50,9 @@ export const Header: FunctionComponent<Props> = ({
                 <Icon path={mdiMenu} size={1} />
               </IconButton>
             )}
+            <Typography sx={{ ml: 'auto', typography: 'caption' }}>
+              {process.env.NEXT_PUBLIC_DATE}
+            </Typography>
           </Toolbar>
         </AppBar>
       </Slide>

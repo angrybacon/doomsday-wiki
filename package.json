@@ -3,8 +3,8 @@
   "private": true,
   "version": "3.0.0",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "NEXT_PUBLIC_DATE=$(git --no-pager show --date=relative --format=%cd --no-patch HEAD) next build",
+    "dev": "NEXT_PUBLIC_DATE=$(git --no-pager show --date=relative --format=%cd --no-patch HEAD) next dev",
     "lint": "yarn lint:code && yarn lint:typings",
     "lint:code": "eslint .",
     "lint:fix": "yarn lint:code --fix",
