@@ -91,7 +91,7 @@ export const scry: Scry = async (query) => {
       .get<ScryData | ScryError>(path)
       .then(({ data }) => data);
     cache[key] = { count: 0, promise, status: CacheStatus.PENDING };
-    if (process.env.SCRYFALL_LOGS === 'true') {
+    if (process.env.SCRYFALL_LOGS === '1') {
       log(`${realSet || '---'} ${realName}`, Scope.SCRYFALL);
     }
   }

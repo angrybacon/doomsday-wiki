@@ -30,7 +30,7 @@ export const log: Logger = (message, scope) => {
 };
 
 export const logVerbose: Logger = (...parameters) => {
-  if (process.env.VERBOSE === 'true') {
+  if (process.env.VERBOSE === '1') {
     log(...parameters);
   }
 };

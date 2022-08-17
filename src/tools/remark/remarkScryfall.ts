@@ -39,7 +39,7 @@ export const remarkScryfall =
       });
     });
     await Promise.allSettled(promises);
-    if (process.env.REMARK_LOGS === 'true') {
+    if (process.env.REMARK_LOGS === '1') {
       log(`Found ${Object.keys(scries).length} cards`, Scope.REMARK);
       Object.values(scries).map((card) => logVerbose(`  ${card.name}`));
     }
