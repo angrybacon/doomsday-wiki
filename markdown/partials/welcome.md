@@ -14,11 +14,10 @@ scenarios.
 We have three main variants represented on here that you can access resources
 for on the left hand sidebar.
 
-**Meandeck Doomsday** is the primary deck variant that is having previously
-unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
-uses countermagic like Force of Will and Daze to play a controlling game before
-ending the game. The moniker *Meandeck* is explained in [this
-article][pretty-mean-deck].
+**Doomsday** is the primary deck variant that is having previously
+unprecedented success since the printing of Thassa's Oracle. Legacy Doomsday
+uses countermagic like Force of Will and discard like Duress  to play a controlling game before
+ending the game.
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also

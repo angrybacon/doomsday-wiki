@@ -7,7 +7,7 @@ title: Deck Construction Principles
 
 ## Preamble
 
-Because of how flexible and versatile the Meandeck shell is, and how relatively
+Because of how flexible and versatile the Doomsday shell is, and how relatively
 compact the combo can be, there is a lot of potential variance to be found in
 terms of deck construction. Because of this, combined with individual pilot
 preferences, metagame shifts, new printings, meta changes and general brewing,

@@ -14,7 +14,7 @@ Every matchup is organized as follows:
 - **Gameplay**: a longer text on how to play the pre and post Doomsday parts of
   the matchup
 
-For reference, the document assumes a standard *Meandeck* list and should stay
+For reference, the document assumes a standard Doomsday list and should stay
 generic enough that it applies to all colors.
 
 ::decklist{path=meandeck.wub}

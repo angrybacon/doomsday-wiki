@@ -16,7 +16,7 @@ questions were also answered in this article:
 
 There are considered, at the time of writing, to be 4 primary distinct variants
 of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
-**Meandeck Doomsday** and **Entombsday**.
+**Doomsday** and **Entombsday**.
 
 :::row{variant=CENTERED}
 - ToA
@@ -36,28 +36,28 @@ was the main variant available post Gitaxian Probe ban and pre-printing of
 Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
 
-**Meandeck Doomsday** is the primary deck variant that is having previously
-unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
+**Doomsday** is the primary deck variant that is having previously
+unprecedented success since the printing of Thassa's Oracle. Doomsday
 uses counter magic like Force of Will and Daze to play a controlling game before
-ending the game with Doomsday. The moniker *Meandeck* is explained in this
-article [here](/articles/2020/03/12/pretty-mean-deck).
+ending the game with Doomsday. Initially called "meandeck" Doomsday, the moniker
+*Meandeck* is explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
 
 **Entombsday** is more of a Tin Fins variant with a main deck plan focussing on
 reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
 Vengeance] to then have it attack alongside Emrakul, the Eons Torn or, looping
 the deck to cast an infinite number of Collective Brutality's or a lethal
 Tendrils of Agony. The key point ot focus on is it runs a dedicated
-transformational sideboard into effectively a variant of Meandeck Doomsday.
+transformational sideboard into effectively a variant of Doomsday.
 
 ## What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
-Meandeck Doomsday has the most proven results of the archetypes listed above
+Doomsday has the most proven results of the archetypes listed above
 with performances that outnumbers TCDeck numbers of the previous 10 years
 preceeding it for all archetypes (excluding 5-0 publications).
 
-Within Meandeck Doomsday there is no definitive *best* colour configuration to
+Within Doomsday there is no definitive *best* colour configuration to
 run. Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G}
-and even {U}{B}{R}{G} across the year with most decks having an almost entirely
+and even {U}{B}{R}{G} across the years with most decks having an almost entirely
 {U}{B} main deck configuration. The tools that are effective and provided by
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
@@ -132,7 +132,7 @@ Thoughtseize as another angle of disruption makes them very hard to face.
 ## What is a good meta to play Doomsday in?
 
 Any meta where either Delver isn't prevalent or where decks that prey on Delver
-are. Meandeck Doomsday boasts a good win rate against most of the format
+are. Doomsday boasts a good win rate against most of the format
 including very positive rates against decks that are favoured against Delver
 type strategies. Any format with a large non-blue metashare or very controlling
 blue meta share are good fields for Doomsday.
@@ -256,7 +256,7 @@ please feel free to come and say hello in the [Doomsday Discord][discord].
 As with any Legacy deck the focus should always be on the reserved list staples.
 dual lands are the first port of call with Underground Seas being the key part.
 You should look to pick up at least 2 Underground Seas if not 3 if you can. Once
-you have Seas then the Lion's Eye Diamond(s) is the next priority. For Meandeck
+you have Seas then the Lion's Eye Diamond(s) is the next priority. For Doomsday
 you just need one but for the more all-in combo builds you will want 4\. After
 that I think you should look to pick up the splash dual lands (if applicable)
 prioritising the {U} based ones over any {B} based ones. Once you have your
@@ -272,7 +272,7 @@ viable in high numbers. Following this you will only need 1-2 Underground Seas
 and can rely on basics and Petals to fix for any splash colours. This can slow
 the deck down and make cards like :card[Daze] much worse for early turns but is
 perfectly serviceable. You can also omit the :card[Lion's Eye Diamond] in
-Meandeck but it will prevent you from getting access to a lot of the more mana
+Doomsday but it will prevent you from getting access to a lot of the more mana
 efficient or quick kills it enables. You probably need the Force of Wills but
 you can also not run them if need be and instead rely more on soft counters and
 discard effects or Veil of Summer. The only card I would really advocate not
@@ -329,14 +329,14 @@ Emrakul line is still functional.
 
 ## What does *Turbo* Doomsday mean?
 
-*Turbo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It is normally
+*Turbo* Doomsday is a sub-archetype of Doomsday. It is normally
 associated with variants of the deck which have a greater focus on speed rather
 than resilience. It is characterised by a higher count of :card[PT] along with
 greater numbers of :card[SW] or :card[EoA] compared to other versions.
 
 ## What does *Tempo* Doomsday mean?
 
-*Tempo* Doomsday is a sub-archetype of *Meandeck* Doomsday. It presents a
+*Tempo* Doomsday is a sub-archetype of Doomsday. It presents a
 potential *plan B* by running both the normal combo and additionally a number of
 creature and/or planeswalker based threats. It is characterised by a creature
 suite and a lower focus on finding Doomsday or using pile-specific cards like
