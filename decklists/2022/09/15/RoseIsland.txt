@@ -1,0 +1,36 @@
+// Title: UBR Tempo Doomsday
+// Authors: RoseIsland
+// Colors: {U}{B}{R}
+4 Baleful Strix
+4 Brainstorm
+3 Dragon's Rage Channeller
+3 Dark Ritual
+4 Daze
+4 Doomsday
+3 Expressive Iteration
+2 Fatal Push
+4 Force of Will
+4 Murktide Regent
+4 Ponder
+2 Preordain
+1 Thassa's Oracle
+
+1 Badlands
+1 Cavern of Souls
+1 Mystic Sanctuary
+4 Polluted Delta
+4 Scalding Tarn
+4 Underground Sea
+3 Volcanic Island
+
+// Sideboard
+1 Opposition Agent
+2 Engineered Explosives
+2 Hidetsugu Consumes All
+1 Fatal Push
+2 Meltdown
+2 Pyroblast
+1 Brazen Borrower
+1 Red Elemental Blast
+1 Maddening Hex
+2 Unlicensed Hearse
