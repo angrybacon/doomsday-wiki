@@ -1,0 +1,7 @@
+{
+  "blanks-around-lists": false,
+  "emphasis-style": { "style": "asterisk" },
+  "line-length": { "headings": false, "tables": false },
+  "no-duplicate-heading": { "siblings_only": true },
+  "string-style": { "style": "asterisk" }
+}

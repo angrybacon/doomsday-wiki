@@ -36,11 +36,11 @@ was the main variant available post Gitaxian Probe ban and pre-printing of
 Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
 
-**Doomsday** is the primary deck variant that is having previously
-unprecedented success since the printing of Thassa's Oracle. Doomsday
-uses counter magic like Force of Will and Daze to play a controlling game before
-ending the game with Doomsday. Initially called "meandeck" Doomsday, the moniker
-*Meandeck* is explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
+**Doomsday** is the primary deck variant that is having previously unprecedented
+success since the printing of Thassa's Oracle. Doomsday uses countermagic like
+Force of Will and Daze to play a controlling game before ending the game with
+Doomsday. Initially called *Meandeck* Doomsday, the moniker *Meandeck* is
+explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
 
 **Entombsday** is more of a Tin Fins variant with a main deck plan focussing on
 reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
@@ -51,13 +51,13 @@ transformational sideboard into effectively a variant of Doomsday.
 
 ## What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
 
-Doomsday has the most proven results of the archetypes listed above
-with performances that outnumbers TCDeck numbers of the previous 10 years
-preceeding it for all archetypes (excluding 5-0 publications).
+Doomsday has the most proven results of the archetypes listed above with
+performances that outnumbers TCDeck numbers of the previous 10 years preceeding
+it for all archetypes (excluding 5-0 publications).
 
-Within Doomsday there is no definitive *best* colour configuration to
-run. Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G}
-and even {U}{B}{R}{G} across the years with most decks having an almost entirely
+Within Doomsday there is no definitive *best* colour configuration to run.
+Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G} and
+even {U}{B}{R}{G} across the years with most decks having an almost entirely
 {U}{B} main deck configuration. The tools that are effective and provided by
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
@@ -132,10 +132,10 @@ Thoughtseize as another angle of disruption makes them very hard to face.
 ## What is a good meta to play Doomsday in?
 
 Any meta where either Delver isn't prevalent or where decks that prey on Delver
-are. Doomsday boasts a good win rate against most of the format
-including very positive rates against decks that are favoured against Delver
-type strategies. Any format with a large non-blue metashare or very controlling
-blue meta share are good fields for Doomsday.
+are. Doomsday boasts a good win rate against most of the format including very
+positive rates against decks that are favoured against Delver type strategies.
+Any format with a large non-blue metashare or very controlling blue meta share
+are good fields for Doomsday.
 
 ## I think X card might be good, should I run it?
 
@@ -329,10 +329,10 @@ Emrakul line is still functional.
 
 ## What does *Turbo* Doomsday mean?
 
-*Turbo* Doomsday is a sub-archetype of Doomsday. It is normally
-associated with variants of the deck which have a greater focus on speed rather
-than resilience. It is characterised by a higher count of :card[PT] along with
-greater numbers of :card[SW] or :card[EoA] compared to other versions.
+*Turbo* Doomsday is a sub-archetype of Doomsday. It is normally associated with
+variants of the deck which have a greater focus on speed rather than resilience.
+It is characterised by a higher count of :card[PT] along with greater numbers of
+:card[SW] or :card[EoA] compared to other versions.
 
 ## What does *Tempo* Doomsday mean?
 

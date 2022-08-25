@@ -231,7 +231,7 @@ actually Doomsday*.
 
 After trying that out for a bit, I ended up fitting Echo of Eons into the deck,
 and basically ended up with something like *Mindkiller* but without wishes, just
-straight UB. Echo improves upon the 1 mana = 1 card = 1 storm principle behind
+straight UB. Echo improves upon the 1 mana = 1 card = 1 Storm principle behind
 *Meandeck Tendrils*, by being 3 mana = 7 cards = ~6 storm and often is
 mana-positive, so it felt like a good fit.
 
