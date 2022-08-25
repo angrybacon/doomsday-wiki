@@ -39,6 +39,10 @@ content.
   considered part of said link eg. when you end your sentences with a link.
   Avoid bare links, wrap them with angled brackets =<= and =>=
 
+In addition, =markdownlint= runs on your committed changes to detect necessary
+improvements within your content. A command =yarn lint:wiki= is provided to run
+it locally.
+
 ** Scryfall
 
 In some contexts, you can refer to card names within Markdown. To ease the
