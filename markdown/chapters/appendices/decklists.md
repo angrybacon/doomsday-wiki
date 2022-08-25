@@ -18,7 +18,7 @@ obviated by new printings.
 ## Current Decklists
 
 Since the printing of :card[Thassa's Oracle], an old friend resurged from the
-dead: Meandeck Doomsday. The list plays a more reactive role in most matchups
+dead: Doomsday. The list plays a more reactive role in most matchups
 and focuses on building resources before going off. Since TO is so compact and
 cheap compared to its predecessors, it can still allow for quick wins with an
 actual long game plan.

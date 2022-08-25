@@ -7,7 +7,7 @@ title: Deck Construction Principles
 
 ## Preamble
 
-Because of how flexible and versatile the Meandeck shell is, and how relatively
+Because of how flexible and versatile the Doomsday shell is, and how relatively
 compact the combo can be, there is a lot of potential variance to be found in
 terms of deck construction. Because of this, combined with individual pilot
 preferences, metagame shifts, new printings, meta changes and general brewing,
@@ -173,7 +173,7 @@ Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, straight {U}{B} *Turbo* manabase, a more
 balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 
-**{U}{B} Turbo**
+#### {U}{B} Turbo
 
 - 2 Polluted Delta
 - 2 Flooded Strand
@@ -186,7 +186,7 @@ balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 If you were to run a splash colour you could replace the Island with the {U}/x
 dual land of the appropriate type here.
 
-**{U}{B}{R} Balanced**
+#### {U}{B}{R} Balanced
 
 - 4 Polluted Delta
 - 3 Scalding Tarn
@@ -201,7 +201,7 @@ You can consider swapping basics for additional fetches if you want to be a
 little less resilient vs Wasteland or :card[Blood Moon] effects. Inversely you
 can also go down to three Seas to add an additional basic land if desired.
 
-**{W}{U}{B} Control**
+#### {W}{U}{B} Control
 
 - 4 Polluted Delta
 - 4 Flooded Strand
@@ -421,7 +421,7 @@ Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, Grixis {U}{B}{R} *Turbo* package, a more
 balanced straight {U}{B} package and an Uro style BUG {U}{B}{G} package.
 
-**{U}{B}{R} Turbo**
+#### {U}{B}{R} Turbo
 
 - 4 Force of Will
 - 4 Daze
@@ -434,7 +434,7 @@ fast and not need to worry about having a lot of interaction, only enough to try
 and push through an early combo. It would also likely be supplemented by a Pact
 of Negation too.
 
-**{U}{B} Balanced**
+#### {U}{B} Balanced
 
 - 4 Force of Will
 - 4 Daze
@@ -447,7 +447,7 @@ additional counter magic. They have a higher land count than the *turbo* list
 and likely fewer free cycle effects too which provides the slots to add these
 additional interaction elements in.
 
-**{U}{B}{G} Uro**
+#### {U}{B}{G} Uro
 
 - 4 Force of Will
 - 3 Daze
@@ -607,12 +607,12 @@ to be more aggressive.
 
 As mentioned above in the cantrip section. :card[Consider] is a useful tool that
 can enable some unique piles and help fortify existing ones. If running
-Consider, often it will be paired with :card[Deep Analysis] which enables some
-mana-efficient piles. Some elect to run this package over :card[Ideas Unbound]
-whilst others prefer to run them in conjunction with one another. If running the
-package the Consider normally replaces a Preordain and the Deep Analysis
-replaces a :card[Personal Tutor] (or equivalent) or a free cycle effect. If
-planning to go fast it is best to maximise the number of free cycle effects with
+Consider, it may optionally be paired with :card[Deep Analysis] which enables
+very mana-efficient piles. Some elect to run this package over :card[Ideas
+Unbound] whilst others prefer to run them in conjunction with one another. If
+running the package, the Consider normally replaces a Preordain and the Deep
+Analysis replaces a :card[Personal Tutor] or a free cycle effect. If planning to
+go fast it is best to maximise the number of free cycle effects with
 Consider/Deep Analysis as they also enable the ability to go for aggressive, low
 resource wins.
 

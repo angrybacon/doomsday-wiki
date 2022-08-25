@@ -26,7 +26,7 @@ content.
   better heading for your document. In addition to annoy users with
   terminal-based clients, it also might not look as good in the homepage where
   article cards are rendered with their corresponding title
-- Heading levels start at 2 in order to account for the title found in the
+- Heading levels start at 2 in order to account for the page title found in the
   Markdown frontmatter
 - Don't use unicode quote characters eg. =‘’= and =“”=. They might not render
   properly for everyone so ASCII quotes eg. ='= and ="= should be preferred
@@ -35,9 +35,13 @@ content.
 - A dot right after a number character ie. when you end your sentence with a
   digit renders as a numbered list item. To avoid this behavior, escape the dot
   with a backslash: =Brainstorm is pretty good, you might want all 4\.=
-- Depending on one's Markdown client, a dot at the end of a link can be
-  considered part of said link eg. when you end your sentences with a link you
-  should add a space before the final dot
+- Depending on one's Markdown parser, a dot at the end of a link can be
+  considered part of said link eg. when you end your sentences with a link.
+  Avoid bare links, wrap them with angled brackets =<= and =>=
+
+In addition, =markdownlint= runs on your committed changes to detect necessary
+improvements within your content. A command =yarn lint:wiki= is provided to run
+it locally.
 
 ** Scryfall
 

@@ -201,7 +201,7 @@ to crack LED.
 ### Reactive Disruption
 
 For Legacy, reactive disruption tends to be centred around countermagic and
-Meandeck is no different. A lot of the consideration that comes from using
+Doomsday is no different. A lot of the consideration that comes from using
 reactive protection within piles generally boils down to 2 points:
 
 - Having enough resources to allow the casting of countermagic in your pile
@@ -254,7 +254,7 @@ you to cast Force of Will twice if they try and fight over the Oracle.
 ### Other Tools Available
 
 There are some key cards that may be used to help work around traditional
-countermagic. Cavern of Souls is an easy fit into the Meandeck gameplan and, if
+countermagic. Cavern of Souls is an easy fit into the Doomsday gameplan and, if
 a land drop is available, can easily slot into some of the more *standard*
 piles.
 

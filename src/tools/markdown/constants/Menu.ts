@@ -11,7 +11,7 @@ export const DECORATIONS: MenuDecoration[] = [
     category: Category.MEANDECK,
     icon: mdiEye,
     subtitle: 'Force of Will Doomsday',
-    title: 'Meandeck',
+    title: 'Doomsday',
   },
   {
     category: Category.DDFT,

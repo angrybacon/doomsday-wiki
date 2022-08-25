@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-next-line first-line-heading -->
 Welcome to the Doomsday Wiki!
 
 The Doomsday Wiki is intended to be the most complete and up to date work on how
@@ -14,11 +15,10 @@ scenarios.
 We have three main variants represented on here that you can access resources
 for on the left hand sidebar.
 
-**Meandeck Doomsday** is the primary deck variant that is having previously
-unprecedented success since the printing of Thassa's Oracle. Meandeck Doomsday
-uses countermagic like Force of Will and Daze to play a controlling game before
-ending the game. The moniker *Meandeck* is explained in [this
-article][pretty-mean-deck].
+**Doomsday** is the primary deck variant that is having previously unprecedented
+success since the printing of Thassa's Oracle. Legacy Doomsday uses countermagic
+like Force of Will and discard like Duress to play a controlling game before
+ending the game.
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
@@ -35,6 +35,5 @@ If you are new to the archetype then please check out the [FAQs Appendix][faq]
 for any initial queries you might have. Peruse the Wiki, read some of the
 articles and come visit us in the [Discord][discord].
 
-[pretty-mean-deck]: /articles/2020/03/12/pretty-mean-deck
 [faq]: /appendices/faq
 [discord]: https://discord.gg/vajvFXt
