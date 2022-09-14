@@ -1,7 +1,6 @@
 // Title: Esper Doomsday
 // Authors: Dalibor Szegho
 // Colors: {W}{U}{B}
-
 2 Teferi, Time Raveler
 4 Baleful Strix
 1 Street Wraith
@@ -30,8 +29,6 @@
 1 Swamp
 1 Tundra
 3 Underground Sea
-
-
 
 // Sideboard
 1 Terminus
