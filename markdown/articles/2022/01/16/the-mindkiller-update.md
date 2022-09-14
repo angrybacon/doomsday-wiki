@@ -88,7 +88,7 @@ Anyway, here's how it broke out:
 | Permanent-Based Hate | 6          | 2            | 75.00%  |
 | Combo                | 10         | 5            | 66.67%  |
 | Other                | 6          | 3            | 66.67%  |
-| 8cast                | 0          | 3            | 0.00%   |
+| 8-Cast               | 0          | 3            | 0.00%   |
 
 ### Fair Blue - 60%
 
@@ -156,9 +156,9 @@ combo matchup. Perhaps they're targeting another branch of the meta, or perhaps
 their deck is simply underpowered. Either way, the oddball decks tend to be
 favorable matchups, with the occasional nasty.
 
-### 8Cast - 0%
+### 8-Cast - 0%
 
-I put 8-cast in its own special category for a couple reasons. First and
+I put 8-Cast in its own special category for a couple reasons. First and
 foremost, as a Chalice deck with Force of Wills, it didn't seem to fit well in
 either of the first two categories. But also, I wanted to call it out
 specifically as an absolutely miserable matchup. In these 50 matches I only
@@ -288,7 +288,7 @@ to be broadly good against random bullshit though, and if you're really unsure,
 trimming 2 Thoughtseizes for 2 Chants is vey reasonable. Notably, I also tend to
 use this strategy if I trounce someone turn 1 and never see their deck.
 
-### 8Cast
+### 8-Cast
 
 #### Out
 
@@ -314,7 +314,7 @@ I'm not 100% sure of this sideboarding but I can't think of anything that might
 be better. There's tension here because Doomsday is generally good against
 prison decks but weaker against countermagic. Post-board, they tend to have more
 countermagic than prison elements, which pushed me away from Doomsday. While
-8Cast can sometimes put enough bodies on board to beat an Empty, I still feel
+8-Cast can sometimes put enough bodies on board to beat an Empty, I still feel
 like it's a better plan than Doomsday. But due to the prison pieces, Galvanic
 Relay can be a liability, because they can drop a Chalice on the right number to
 turn off as much of your Relay gas as possible. So I ended up deciding that

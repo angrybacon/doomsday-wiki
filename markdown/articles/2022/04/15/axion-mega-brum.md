@@ -54,7 +54,7 @@ the side and adding a second :card[Flusterstorm]. I was happy with the list and
 any further changes would feel a little too arbitrary. I had been debating maybe
 looking to drop the {R} splash because I find it rarely used but better to stick
 with what I trusted in. I did actually do a small extra bit of prep in mapping
-my sideboard plan for 8-cast, which will become very relevant later, as I
+my sideboard plan for 8-Cast, which will become very relevant later, as I
 realised I did something different every time and suspected the deck to be
 popular (spoiler, it was).
 
