@@ -15,10 +15,10 @@ Hello!
 It's been awhile since the last article posted on here and as a result there has
 been a lot of things that have been worked on in the community. As there have
 been so many changes in terms of subarchetypes of the deck, favouring of certain
-cards, disfavouring of others and a few other misc items to cover I thought it
-prudent to try and collate them into one handy mini-review to try to keep
-everyone up to date with what people have been trying to play around with and
-what discussion has been happening.
+cards, disfavouring of others and a few other miscellaneous items to cover I
+thought it prudent to try and collate them into one handy mini-review to try to
+keep everyone up to date with what people have been trying to play around with
+and what discussion has been happening.
 
 I won't have covered everything discussed but hopefully all the main salient
 points that have enacted permanent or at least semi-permanent changes across
@@ -28,7 +28,7 @@ timeline, significance or any sort of sensible narrative.
 
 ## Changes in 2022
 
-### Card Specific Discussion
+### Card-Specific Discussion
 
 In this section we shall talk about key deck building considerations related to
 single cards (or card groups) that have been varied or talked about heavily this
@@ -41,18 +41,18 @@ year.
 :::
 
 The first one we'll touch on comes in two parts. The first part is related to a
-rules change that was enacted with the release of New Capenna in how Hideaway as
-a mechanic works.
+rules change that was enacted with the release of *New Capenna* in how
+*Hideaway* as a mechanic now works.
 
-> Exile one of them face down and put the rest on the bottom of your library in
-> a random order.
+> ... Exile one of them face down and put the rest on the bottom of your
+> library in a random order.
 
 The change was instead of cards being replaced to your library in an order of
-your choosing, instead it was now randomised. This doesn't seem like much but it
-can have some significant impact if going for a classic :card[Shelldock Isle] /
-:card[Em] pile.
+your choosing, instead it is now randomised. This doesn't seem like much but it
+can have some significant impact if going for a classic :card[Shelldock Isle]
+and :card[Em] pile.
 
-Traditionally vs a {U} based control shell you might build something like this:
+Traditionally vs. a {U} based control shell you might build something like this:
 
 > Pass the turn
 
@@ -89,7 +89,7 @@ deck or even Stryfo himself you will expect to face many of the following cards:
 - Karakas
 :::
 
-All of these are both common, and completely stop the Shelldock gameplan for
+All of these are both common, and completely stop the Shelldock gameplan from
 working. Teferi prevents the casting of Emrakul, Wasteland, Boseiju and Back to
 Basics can all effectively remove the Isle itself, and Karakas / Dress Down both
 stop Emrakul doing what it does best and turns it into a glorified :card[Time
@@ -97,7 +97,7 @@ Walk].
 
 I personally think running this sideboard plan is too narrow as the matchups it
 historically shone in have more than enough tools to deal with it and dedicating
-2 pile specific slots as a result is just too many. It can still be run if you
+2 pile-specific slots as a result is just too many. It can still be run if you
 really want to but I would not advise it and the majority of pilots have left it
 by the wayside.
 
@@ -143,16 +143,17 @@ The first and easiest reason is that people just want more consistency in being
 able to jam a quick Doomsday. With many being up to 8 copies of the namesake
 card (4 :card[DD] and 4 :card[PT]) then want to enable casting them as fast as
 possible and boosting the number of ritual effects facilitates this, even in the
-face of :card[Chalice of the Void] set to 1. With 8-cast being a popular deck in
+face of :card[Chalice of the Void] set to 1. With 8-Cast being a popular deck in
 the format alongside classics like Moon Stompy, this can be quite significant.
 
 The second reason and the one that I see as mis-cited is the impact it has on
 being able to aggressively fetch for basic lands or at least one land in
-particular. Many people see this as a card that rewards the playing of basic
-Swamp as you can grab Island on turn 1, Personal Tutor for Doomsday and then
-fetch basic swamp on turn 2 and Cabal Ritual into Doomsday. In this scenario,
-barring the presence of :card[Blood Moon] it actually only truly enables the use
-of basic Island with the Swamp being a *dead land* here. Let me explain why.
+particular. Many people see this as a card that only rewards the playing of
+basic Swamp as you can grab Island on turn 1, Personal Tutor for Doomsday and
+then fetch basic swamp on turn 2 and Cabal Ritual into Doomsday. In this
+scenario, barring the presence of :card[Blood Moon] it actually only truly
+enables the use of basic Island with the Swamp being a *dead land* here. Let me
+explain why.
 
 Pre-Doomsday you may have concerns about being Wastelanded which are well
 founded. Your deck boasts a high number of {U} based tutors and {U} based
@@ -160,7 +161,7 @@ cantrips and you need these to find what you are looking for. Other than if you
 are running a very heavy discard suite, the only time you really need {B} is to
 enable the casting of Doomsday itself. After that you need to achieve {U}{U} to
 cast :card[TO]. Because of this general play pattern the Cabal Ritual allows
-more aggresive fetching of Island early but you can still happily grab
+more aggressive fetching of Island early but you can still happily grab
 :card[Underground Sea] as the {B} source. Once Doomsday resolves Swamp doesn't
 help cast the majority of the deck. Only discard spells or for taxing effects
 like :card[Sphere of Resistance]. As a result it basically acts like a
@@ -170,7 +171,7 @@ If you had a Sea there then yes, it may be Wastelanded but this then makes it
 the same as a the *non-land* Swamp. If it survives however then you now have an
 additional {U} source with which to make use of.
 
-If people do include Cabal Ritual it tends to be as a 1-3 of and normally
+If people do include Cabal Ritual it tends to be as a 1 to 3-of and normally
 replaces 1 Petal and some number of extraneous :card[Preordain] slots or maybe
 some interaction slots. It is certainly not a requirement, expecially if you
 aren't keen on including basics in your list but it is a useful tool for
@@ -184,11 +185,11 @@ consideration.
 
 It wasn't until around April 2020 with the work of Jax that :card[Daze] became a
 mainstay tool in Legacy Doomsday lists and from that point on it was almost
-always a guaranteed 4 of in most decks. Recently the popularity of Daze in
+always a guaranteed 4-of in most decks. Recently the popularity of Daze in
 Doomsday has dropped with many pilots no longer opting for the full playset but
 dropping down to sometimes 3, 2, 1 or even 0 copies. Some people have looked to
-use it as a 2 of with another 2 in the board. Some like having just the 1 to
-present to the opponent so they have the fear its presence if they see it when
+use it as a 2-of with another 2 in the board. Some like having just the 1 to
+present to the opponent so they have to fear its presence if they see it when
 scanning the exiled deck in game 1. Some feel it no longer does enough to
 justify the slots and instead wish to rely more heavily on discard spells or
 even maindeck :card[Flusterstorm] to win the game.
@@ -196,20 +197,20 @@ even maindeck :card[Flusterstorm] to win the game.
 So why has Daze seemingly become perceived as less worthwhile in Legacy
 Doomsday?
 
-Let's think about the matchups Daze shines in vs the ones it is weak to.
+Let's think about the matchups Daze shines in vs. the ones it is weak to.
 
 Daze shines when you have a mana efficient start and need to buy just a little
 bit of time. It works really well against decks like Stompy and Death and Taxes
 where they have to try and play on curve threats to retain parity with the
 unfair strategy you are aiming to progress. Daze allows you to turn land light
-hands with Rituals in into fast wins whilst preventing the playing of cards like
+hands with Rituals into fast wins whilst preventing the playing of cards like
 :card[Trinisphere] and :card[Spirit of the Labyrinth].
 
 Where Daze is less effective is against decks that either don't present the
 chance for it to work such as {U}{W} control decks which can just play a land
 "say go" strategy or that utilise low resource plans more effectively than
 Doomsday does such as {U}{R} Delver. It can help if you are on the play and have
-a turn 1 combo turn but other than that, in these style of matchups it can be
+a turn 1 combo turn but other than that, in these styles of matchup it can be
 more of a liability than a help.
 
 Comparing these 2 main groups we can already see the former includes many decks
@@ -245,7 +246,8 @@ simply relying on cycling effects and :card[Consider] to enable multi-draw
 piles. Some piles like those using :card[Brainstorm] can be mimicked without the
 need for Ideas.
 
-Let's take a look at this example from the Brainstorm chapter of the wiki:
+Let's take a look at this example from the [Brainstorm
+chapter](/meandeck/brainstorm) of the Wiki:
 
 > {U} + Brainstorm + X
 
@@ -275,11 +277,11 @@ Let's look at the steps to complete the pile:
 1. Cast LED, cycle Street Wraith cracking LED for {U}{U}{U} and draw the
    Consider.
 1. Cast Consider, mill X, drawing the Street Wraith.
-1. Cycle Street Wraith and use the remaining {U}{U} to cast Thassa's Oracle (TO)
-   with an empty library.
+1. Cycle Street Wraith and use the remaining {U}{U} to cast TO with an empty
+   library.
 
-This shows but one example where people have thought Ideas is maybe obsoleted.
-In some of these discussions regarding the usefulness of Ideas Unbound, the word
+This shows one example where people have thought Ideas is maybe obsoleted. In
+some of these discussions regarding the usefulness of Ideas Unbound, the word
 *crutch* has been thrown about a lot in relation to Ideas giving some people the
 false impression that it is a card for new players and isn't actually good.
 
@@ -288,7 +290,7 @@ can facilitate and plenty of examples where it shines.
 
 Take this example playing around :card[Endurance]:
 
-> 3 {U}-producing lands in play.
+> 3 {U} producing lands in play.
 
 :::row{variant=PILE}
 - IU
@@ -301,23 +303,23 @@ Take this example playing around :card[Endurance]:
 Here you can win against an opponent who has double Endurance available.
 
 1. Draw Ideas for turn.
-1. Cast Ideas and draw Cavern, Street Wraith and Oracle.
+1. Cast Ideas and draw Street Wraith, Oracle and Cavern.
 1. Play the Cavern and Cast Oracle.
 1. Oracle will trigger with 1 card remaining in library.
 1. If they Endurance, allow the trigger to resolve and you will have 3 cards
    remaining in library.
-1. Before the Oracle trigger resolves, cycle Street Wraith to draw Street
-   Wraith. 2 cards remain in library.
+1. Before the Oracle trigger resolves, cycle Street Wraith to draw the second
+   Street Wraith. 2 cards now remain in library.
 1. If they Endurance again, allow the trigger to resolve and once more cycle
-   Street Wraith to draw Street Wraith.
-1. Oracle trigger resolves. 2 cards remain in library.
+   Street Wraith.
+1. Oracle trigger resolves with 2 cards left in library.
 
 If you run :card[Pact of Negation] then Ideas also is the easiest way to enable
 a pile to draw Oracle, mana and protection all in one go.
 
-The main takeaway from this is as follows: You don't have to run Ideas Unbound
-however it is still a powerful tool in the Doomsday arsenal and should not be
-disregarded lightly.
+The main takeaway from this is as follows: you don't have to run :card[Ideas
+Unbound] however it is still a powerful tool in the Doomsday arsenal and should
+not be disregarded lightly.
 
 #### Basic Lands
 
@@ -328,7 +330,7 @@ disregarded lightly.
 
 Basic lands have always held an interesting deckbuilding space in Legacy. They
 dodge a lot of strategies usage of cards like Wasteland, Blood Moon or
-:card[Back to Basics] but can really stifle your mana development, especially in
+:card[Back to Basics] but can really hinder your mana development, especially in
 a deck like Doomsday that needs to pivot from {U} to {B}{B}{B} to {U}{U}.
 Certain styles of Doomsday, especially the slower styles of the deck tend to run
 a high basic land count compared to faster versions of the deck (and yes we do
@@ -338,12 +340,12 @@ This year there has been a lot of discussion on whether 0, 1 or 2 basics is
 correct to run. Some people think the game should end before it matters and thus
 have tried a 4 Seas, 2 :card[Watery Grave] mana base whilst others want to be
 able to cast all their spells in the face of denial heavy {U}{R} Delver so opt
-to run both Island and Swamp.
+to run both basic Island and Swamp.
 
 As with many of the deck building decisions I don't think there is a default
 correct answer however I would advocate at the very least most people to justify
 the cutting of the Island from any list. The efficacy of Swamp has been
-discussed above all ready around the impact of Cabal Ritual and although {B} is
+discussed above already around the impact of Cabal Ritual and although {B} is
 needed to cast Doomsday, Island is more important to the deck as it is the land
 that casts the card with "Win the game" printed on it. Many strategies like
 Lands have a hard time beating a resolved Doomsday but the one way they tend to
@@ -356,7 +358,7 @@ waiting until you cast Doomsday, how much you want to rely on Ritual effects to
 do so, how heavy your metagame is full of mana denial and various other factors
 when deciding whether to run basics and if so, how many and which ones to run.
 
-### General Subarchetypes / Nomenculture
+### General Subarchetypes and Nomenculture
 
 In this section we shall talk about the different flavours of Doomsday lists and
 the innovations that have been worked on some of them.
@@ -393,7 +395,7 @@ the general reduction in the use of Daze and the increase in the use of Cabal
 Ritual and Discard spells like :card[Duress] and :card[Thoughtseize] mainly
 thanks to the Ragavan ban from earlier this year.
 
-Here is an example decklist from a recent 5-0 posting by Alex2
+Here is an example decklist from a recent 5-0 posting by Alex2.
 
 ::decklist{path=2022/09/15/alex2}
 
@@ -412,18 +414,18 @@ be trusting in the power of the card and jamming it early and often however a
 variant of the more common *Turbo* lists has appeared with this moniker applied
 to it as a naming convention.
 
-The main differences between a *Turbo* list and an *ABCD* list is the *ABCD*
-list is even more geared towards resolving early Doomsday often. It tends to
-have a higher fast mana count, somtimes forgo some pile cards like Ideas Unbound
-and runs a reduced interaction suite assuming you only need a single piece often
-to jam early. As part of the interaction aresenal it often removes Daze entirely
+The main differences between a *Turbo* list and an *ABCD* list is the latter is
+even more geared towards resolving early Doomsday often. It tends to have a
+higher fast mana count, sometimes forgo some pile cards like Ideas Unbound and
+runs a reduced interaction suite assuming you only need a single piece often to
+jam early. As part of the interaction aresenal it often removes Daze entirely
 but does include additional *pitch* protection in the form of
 :card[Misdirection]. One way these lists have been described is as if they are
-pre-boarded vs decks like 8-Cast and Delver but will maybe not be as well geared
-against other archetypes as a result.
+pre-boarded vs. decks like 8-Cast and Delver but will maybe not be as well
+geared against other archetypes as a result.
 
 Here is an example decklist from a 3rd place Challenge result in April by
-Wonderpreaux
+Wonderpreaux.
 
 ::decklist{path=2022/09/15/wonderpreaux}
 
@@ -446,9 +448,9 @@ to try and synergise with Doomsday itself. :card[Baleful Strix] is often a
 staple inclusion in this style of deck acting as a speedbump to facilitate
 either side of the deck.
 
-This year has seen the design space of this half and half combo vs fair plan
-explored in a much more in-depth fashion to a lot more success / popularity than
-before. This is largely thanks to the inclusion of new creatures like
+This year has seen the design space of this half and half combo vs. fair plan
+explored in a much more in-depth fashion to a lot more success and popularity
+than before. This is largely thanks to the inclusion of new creatures like
 :card[Malevolent Hermit], :card[Murktide Regent] and :card[Dragon's Rage
 Channeler]. All these creatures have been tried and found to incorporate into
 helping the Doomsday plan as well as being powerful in their own right for the
@@ -463,7 +465,7 @@ strong results with this style of deck and it has proven itself worth the time
 to try.
 
 Here is an example decklist from the winner of the August Game Taitan Legacy for
-Real Estate event by RoseIsland
+Real Estate event by RoseIsland.
 
 ::decklist{path=2022/09/15/roseisland}
 
@@ -481,17 +483,17 @@ Something that sort of falls into the *Tempo* concept but not fully involves the
 use of the card :card[Grief]. Grief was explored as a potential interaction
 spell following the idea of maximising turn 1 interaction to enable early
 Doomsday but, just like in Deadguy Ale lists, it was found to be very effective
-when paired with :card[Ephemerate]. This 2 card combo shreds opposing hands by
-causing 3 instances of the Grief discard trigger and leaves you with an
-aggressive creature to either block or start pressuring opponents with.
+when paired with :card[Ephemerate]. This 2 cards combo shreds opposing hands by
+causing 3 instances of the Grief discard triggers and leaves you with an
+aggressive creature to either block or start pressuring the opponent with.
 
 The lists are less reliant on the creature plan as a joint primary method of
 winning and instead use them to help push forwards a slightly later Doomsday
 turn. The lists include a higher land count, lower interaction count and use
 less of the standard toolbox pile cards but can still try the full plan switch
-vs decks like Delver to remove the combo element.
+vs. decks like Delver to remove the combo element.
 
-Here is an example decklist from a 5-0 in July by Monkeyscantcry
+Here is an example decklist from a 5-0 in July by Monkeyscantcry.
 
 ::decklist{path=2022/09/15/monkeyscantcry}
 
@@ -537,7 +539,7 @@ That just about wraps up the current *year in summary*. Hopefully it has
 provided a snapshot glance that allows you to have got a feel for the type of
 innovations and discussions that have taken place within the community. As
 always do feel free to try things out, ask questions and just generally have fun
-tinkering with the best archetype in Legacy (totally not biaised).
+tinkering with the best archetype in Legacy (totally not biased).
 
 Until next time, make sure to stay healthy both physically and mentally. The
 world is a shit show but at least we can all try and have a nice Dooms-day

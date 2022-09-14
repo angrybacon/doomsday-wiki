@@ -107,13 +107,13 @@ At the end of the day the final results looked like so:
 Top 8 (split into two top 4 results):
 
 1. Doomsday - Me!
-1. UW Delverblade - Chris S
-1. UR Delver - David S
-1. Imperial Painter - Callum S
-1. Yorion Aluren (4C) - Francis GR
-1. Bant Stoneblade - Giuseppe S
-1. Yorion Death & Taxes - James M
-1. 8-Cast - Andrew P
+1. UW Delverblade - Chris S.
+1. UR Delver - David S.
+1. Imperial Painter - Callum S.
+1. Yorion Aluren (4C) - Francis GR.
+1. Bant Stoneblade - Giuseppe S.
+1. Yorion Death & Taxes - James M.
+1. 8-Cast - Andrew P.
 
 Then the winner of the 2nd bonus top 4 was: Yorion Death & Taxes - Jamie H. A
 great showing all round.
@@ -402,7 +402,9 @@ I was giving. I think I had 7 looks (6 draws steps and a Street Wraith cycle) to
 find what I needed which, out of 53 cards left in deck is a 95.6% chance
 according to the hypergeometric calculator I just shoved some numbers into.
 
-*Editors Note: you also get 7 looks if you just mulligan lmao - d8dk32*
+> You also get 7 looks if you just mulligan lmao
+>
+> &mdash; d8dk32
 
 Ah well, that's the risk of those keeps. And it was a sweet hand. Even on turn 4
 facing double :card[Spirit of the Labyrinth] I felt favoured. It was only when
