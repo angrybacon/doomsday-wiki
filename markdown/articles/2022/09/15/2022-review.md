@@ -166,21 +166,9 @@ help cast the majority of the deck. Only discard spells or for taxing effects
 like :card[Sphere of Resistance]. As a result it basically acts like a
 *non-land* not contributing to the win.
 
-:::row{variant=CENTERED}
-- Island
-- Cabal Ritual
-- Swamp
-:::
-
 If you had a Sea there then yes, it may be Wastelanded but this then makes it
 the same as a the *non-land* Swamp. If it survives however then you now have an
 additional {U} source with which to make use of.
-
-:::row{variant=CENTERED}
-- Island
-- Cabal Ritual
-- Underground Sea
-:::
 
 If people do include Cabal Ritual it tends to be as a 1-3 of and normally
 replaces 1 Petal and some number of extraneous :card[Preordain] slots or maybe
@@ -445,7 +433,7 @@ others elect to run things like Preordain or Pact of Negation instead.
 #### Tempo Doomsday
 
 :::row{variant=CENTERED}
-- Deranged Hermit
+- Malevolent Hermit
 - Murktide Regent
 :::
 
@@ -461,7 +449,7 @@ either side of the deck.
 This year has seen the design space of this half and half combo vs fair plan
 explored in a much more in-depth fashion to a lot more success / popularity than
 before. This is largely thanks to the inclusion of new creatures like
-:card[Deranged Hermit], :card[Murktide Regent] and :card[Dragon's Rage
+:card[Malevolent Hermit], :card[Murktide Regent] and :card[Dragon's Rage
 Channeler]. All these creatures have been tried and found to incorporate into
 helping the Doomsday plan as well as being powerful in their own right for the
 potential of a fair game plan.
