@@ -1,4 +1,4 @@
-// Title: UB Turbo Doomsday
+// Title: Turbo Doomsday
 // Authors: Alex2
 // Colors: {U}{B}
 4 Brainstorm

@@ -1,4 +1,4 @@
-// Title: UB ABCD Doomsday
+// Title: ABCD Doomsday
 // Authors: Wonderpreaux
 // Colors: {U}{B}
 4 Brainstorm
@@ -10,6 +10,7 @@
 1 Duress
 2 Edge of Autumn
 4 Force of Will
+1 Misdirection
 1 Ideas Unbound
 1 Lion's Eye Diamond
 3 Lotus Petal

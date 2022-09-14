@@ -1,4 +1,4 @@
-// Title: UBR Tempo Doomsday
+// Title: Tempo Doomsday
 // Authors: RoseIsland
 // Colors: {U}{B}{R}
 4 Baleful Strix
