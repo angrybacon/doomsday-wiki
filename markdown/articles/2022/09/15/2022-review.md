@@ -3,7 +3,7 @@ authors: Doishy
 banner: CR | TOR
 kind: ARTICLE
 tags: [LEGACY, MEANDECK]
-title: "May you live in interesting times" - The 2022 Doomsday Review
+title: "May you live in interesting times: The 2022 Doomsday Review"
 ---
 
 ## Table of Contents
