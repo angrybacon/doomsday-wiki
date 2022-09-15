@@ -5,46 +5,52 @@ import type { ScryCard } from '@/tools/scryfall/types';
 
 describe(Card.name, () => {
   let props: Props;
+  const dummyCard = {
+    artist: 'Firstname Lastname',
+    images: { full: 'protocol://path/to/resource.png' },
+    name: 'Card Name',
+    setName: 'Set Name',
+  };
 
   beforeEach(() => {
     props = {
-      data: {
-        artist: 'Firstname Lastname',
-        images: { full: 'protocol://path/to/resource.png' },
-        name: 'Card Name',
-        setName: 'Set Name',
-      } as ScryCard,
+      data: [] as ScryCard[],
     };
   });
 
-  it('should render nothing when URLs are not available', () => {
+  it('should render a card face for each one provided', () => {
     // Given
-    props.data = { images: {} } as ScryCard;
-    // When
-    const { container } = render(<Card {...props} />);
-    // Then
-    expect(container).toBeEmptyDOMElement();
-  });
-
-  it('should set the source attribute to the provided URL', () => {
-    // Given
-    const url = 'protocol://path/to/resource.png';
-    props.data = { images: { full: url } } as ScryCard;
+    props.data = [
+      { ...dummyCard, name: 'One' },
+      { ...dummyCard, name: 'Two' },
+    ] as ScryCard[];
     // When
     render(<Card {...props} />);
     // Then
-    expect(screen.getByRole('img')).toHaveAttribute('src', url);
+    const faces = screen.getAllByRole('img', { hidden: true });
+    expect(faces.length).toEqual(2);
   });
 
-  it('should set the accessible name', () => {
+  it('should render a button to flip faces when there are multiple faces', () => {
     // Given
-    props.data.name = 'Card Name';
-    props.data.artist = 'Firstname Lastname';
-    props.data.setName = 'Set Name';
+    props.data = [
+      { ...dummyCard, name: 'One' },
+      { ...dummyCard, name: 'Two' },
+    ] as ScryCard[];
     // When
     render(<Card {...props} />);
     // Then
-    const title = '"Card Name" from Set Name - Art by Firstname Lastname';
-    expect(screen.getByRole('img')).toHaveAccessibleName(title);
+    const button = screen.getByRole('button', { name: 'Flip' });
+    expect(button).toBeInTheDocument();
+  });
+
+  it('should not render a button when there is only one face', () => {
+    // Given
+    props.data = [{ ...dummyCard }] as ScryCard[];
+    // When
+    render(<Card {...props} />);
+    // Then
+    const button = screen.queryByRole('button', { name: 'Flip' });
+    expect(button).not.toBeInTheDocument();
   });
 });

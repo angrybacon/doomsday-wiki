@@ -18,8 +18,8 @@ export const remarkRow: Plugin<[{ scries: Scries }]> =
       const texts = selectAll('text', directive) as Text[];
       const cards = texts.map((text) => {
         const query: string = text.value;
-        const data: ScryCard = scries[query];
-        if (!data) {
+        const data: ScryCard[] = scries[query];
+        if (!data?.length) {
           throw new Error(`Missing Scryfall data for query "${query}"`);
         }
         return { data, id: text.position?.start.offset };

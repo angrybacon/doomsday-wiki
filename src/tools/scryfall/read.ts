@@ -11,9 +11,12 @@ import {
 export const readFirstResult = (data: ScryData): ScryDataItem =>
   data.object === ScryDataObject.LIST ? (data as ScryDataList).data[0] : data;
 
-/** Data can contain multiple card faces. */
-export const readFirstFace = (data: ScryData): ScryCard => {
-  let card: ScryDataItem = readFirstResult(data);
-  card = { ...card, ...(card?.card_faces?.[0] || {}) };
-  return parse(card);
+/** A single card can have multiple faces. */
+export const readFaces = (data: ScryData): ScryCard[] => {
+  const card: ScryDataItem = readFirstResult(data);
+  let faces: ScryDataItem[] = [card];
+  if (card.card_faces?.[0].image_uris) {
+    faces = card.card_faces.map(({ object, ...it }) => ({ ...card, ...it }));
+  }
+  return faces.map(parse);
 };
