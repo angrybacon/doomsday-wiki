@@ -7,21 +7,27 @@ export enum ScryDataObject {
 /** Convenience typing to represent a successful data yield. */
 export type ScryData = ScryDataItem | ScryDataList;
 
+interface ScryDataItemImages {
+  art_crop: string;
+  border_crop: string;
+  large: string;
+  normal: string;
+  png: string;
+  small: string;
+}
+
 /**
  * Type as best as possible the card response we get from Scryfall API.
  * See https://scryfall.com/docs/api/cards
  */
 export interface ScryDataItem {
   artist: string;
-  card_faces?: (Partial<ScryDataItem> & { object: ScryDataObject.CARD_FACE })[];
-  image_uris?: {
-    art_crop: string;
-    border_crop: string;
-    large: string;
-    normal: string;
-    png: string;
-    small: string;
-  };
+  card_faces?: {
+    image_uris: ScryDataItemImages;
+    name: string;
+    object: ScryDataObject.CARD_FACE;
+  }[];
+  image_uris?: ScryDataItemImages;
   name: string;
   object: ScryDataObject.CARD;
   set: string;
@@ -66,4 +72,4 @@ export interface ScryCard {
 }
 
 /** Dictionary of Scryfall request settlements. */
-export type Scries = Record<string, ScryCard>;
+export type Scries = Record<string, ScryCard[]>;

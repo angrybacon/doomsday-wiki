@@ -3,7 +3,7 @@ import type { ContainerDirective } from 'mdast-util-directive';
 import { selectAll } from 'unist-util-select';
 import { Node, Test, visit } from 'unist-util-visit';
 import { Scope, log, logVerbose } from '@/tools/logger/log';
-import { readFirstFace } from '@/tools/scryfall/read';
+import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { Scries, ScryCard, ScryData } from '@/tools/scryfall/types';
 
@@ -26,13 +26,8 @@ export const remarkScryfall =
       const texts = selectAll('text', directive) as Text[];
       texts.forEach(({ value }) => {
         const promise = scry(value).then((response) => {
-          // NOTE Scry results can contain a list in case of non-exact matches.
-          //      In this case we only care about the first result.
-          // TODO We currently only serve the first face of a card.
-          //      We might want to provide a tuple containing all faces instead
-          //      to provide both faces in Markdown content.
-          const card: ScryCard = readFirstFace(response);
-          scries[value] = card;
+          const cards: ScryCard[] = readFaces(response);
+          scries[value] = cards;
           return response;
         });
         promises.push(promise);
@@ -41,7 +36,9 @@ export const remarkScryfall =
     await Promise.allSettled(promises);
     if (process.env.REMARK_LOGS === '1') {
       log(`Found ${Object.keys(scries).length} cards`, Scope.REMARK);
-      Object.values(scries).map((card) => logVerbose(`  ${card.name}`));
+      Object.values(scries).map((faces) =>
+        faces.map((face) => logVerbose(`  ${face.name}`))
+      );
     }
     return scries;
   };

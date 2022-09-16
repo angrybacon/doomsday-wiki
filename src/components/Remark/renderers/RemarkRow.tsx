@@ -37,7 +37,7 @@ const variantStyles: Record<
 export interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: {
-      cards: { data: ScryCard; id?: string }[];
+      cards: { data: ScryCard[]; id?: string }[];
       variant?: string;
     };
   };
