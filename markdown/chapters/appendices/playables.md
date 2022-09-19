@@ -1,5 +1,5 @@
 ---
-title: The Doomsday Arsenal - A list of potentially playable cards
+title: The Doomsday Playables
 ---
 
 ## Table of Contents
