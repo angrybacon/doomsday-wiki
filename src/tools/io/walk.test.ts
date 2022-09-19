@@ -11,7 +11,7 @@ describe(walk.name, () => {
   beforeAll(() => {
     vol.fromJSON(
       {
-        'a/a.md': '',
+        'a/a.md': 'A',
         'a/b.txt': '',
         'a/c.md': '',
         'b/a/b.txt': '',
@@ -32,7 +32,7 @@ describe(walk.name, () => {
       // When
       const result = readFileSync('/root/a/a.md', { encoding: 'utf8' });
       // Then
-      expect(result).toEqual('');
+      expect(result).toEqual('A');
     });
 
     it('should build the complete root structure', () => {
@@ -51,7 +51,7 @@ describe(walk.name, () => {
 
     it('should build an empty array when the directory is empty', () => {
       // When
-      const result = Array.from(walk('/rootempty.d'));
+      const result = Array.from(walk('/root/empty.d'));
       // Then
       expect(result).toEqual([]);
     });
