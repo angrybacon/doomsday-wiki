@@ -62,7 +62,9 @@ played alternatives of :card[PT] and :card[LDV] which it would replace and is
 open to opposing permanent hate like :card[Abrupt Decay], :card[Collector Ouphe]
 and :card[Prismatic Ending]. If you were less concerned with speed and more
 concerned about card efficiency and were happy playing a slower game then
-Wishclaw or Solve the Equation would be the most viable alternatives.
+Wishclaw or Solve the Equation would be the most viable alternatives. Do note
+however that tutoring for Doomsday with the claw prompts you to win the game in
+the same turn as the opponent will be able to answer it as soon as they untap.
 
 :card[Profane Tutor] has been experimented with a lot and can be a decent choice
 for lists. The card is best utilised on turn 2 which means, in theory, you want
@@ -121,9 +123,10 @@ Unearth was very popular as the current style of the deck was explored. It
 paired well with :card[Predict] which many were running and held its own in a
 vacuum thanks to the cycling allowing it to be thrown back if unneeded. These
 days it is considered a little too cute as it requires the use of the graveyard
-and doesn't fit properly with the style of deck many play. Despite this it's
-still perfectly playable alongside copies of Strix or other creature plans and
-can function as an alternative to a second Oracle in piles.
+and opens you up to otherwise weak interactions like :card[Surgical Extraction]
+or :card[Endurance]. Despite this it's still perfectly playable alongside copies
+of Strix or other creature plans and can function as an alternative to a second
+Oracle in piles.
 
 ## Creatures
 
@@ -132,6 +135,7 @@ can function as an alternative to a second Oracle in piles.
 - Monastery Mentor
 - Sedgemoor Witch
 - Gurmag Angler
+- Murktide Regent
 :::
 
 There are a lot of creatures which could be added to the list above but these
@@ -246,11 +250,15 @@ does the same thing" category of cards.
 :::
 
 These cards can be very powerful allowing for a nice mix of flexibility and
-utility whilst being within the deck's core colours. The issue with them
+utility whilst being within the deck's core colours. One issue with them
 normally stems from the fact that two mana in Legacy is quite a lot and neither
 of these options presented are guaranteed to be effective in every matchup. If
 you are playing a slower, more controlling variant then they might have space as
 a one-of but I would not recommended running them.
+
+The other issue is that trading cards for creatures is often not a good deal for
+Doomsday. For hate pieces, or a *Marit Lage*, one of the more common bounce
+spells is usually enough.
 
 ## Alternative Discard
 
