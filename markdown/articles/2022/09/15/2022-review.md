@@ -358,12 +358,12 @@ waiting until you cast Doomsday, how much you want to rely on Ritual effects to
 do so, how heavy your metagame is full of mana denial and various other factors
 when deciding whether to run basics and if so, how many and which ones to run.
 
-### General Subarchetypes and Nomenculture
+### General Subarchetypes and Nomenclature
 
 In this section we shall talk about the different flavours of Doomsday lists and
 the innovations that have been worked on some of them.
 
-This year saw a lot of nomenculture thrown around for *Turbo Doomsday* and the
+This year saw a lot of nomenclature thrown around for *Turbo Doomsday* and the
 newly dubbed *Tempo Doomsday* alongside a myriad of others which we shall
 discuss in a moment however people often get concerned as to what happens when
 their list doesn't fit into any of these common labels. First of all don't worry
