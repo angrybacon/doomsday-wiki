@@ -3,4 +3,5 @@ export enum Category {
   DDEFT = 'ddeft',
   DDFT = 'ddft',
   MEANDECK = 'meandeck',
+  TEMPO = 'tempo',
 }

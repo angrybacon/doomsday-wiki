@@ -1,4 +1,10 @@
-import { mdiEye, mdiFileDocumentMultiple, mdiFlash, mdiFlask } from '@mdi/js';
+import {
+  mdiEye,
+  mdiFileDocumentMultiple,
+  mdiFlash,
+  mdiFlask,
+  mdiSword,
+} from '@mdi/js';
 import { Category } from '@/tools/markdown/constants/Category';
 import type { MenuDecoration } from '@/tools/markdown/types';
 
@@ -24,6 +30,12 @@ export const DECORATIONS: MenuDecoration[] = [
     icon: mdiFlask,
     subtitle: 'Experimental Frenzy',
     title: 'DDEFT',
+  },
+  {
+    category: Category.TEMPO,
+    icon: mdiSword,
+    subtitle: 'Introducing the Combat Phase',
+    title: 'Tempo',
   },
   {
     category: Category.APPENDICES,
