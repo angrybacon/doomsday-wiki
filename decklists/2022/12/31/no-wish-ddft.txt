@@ -1,0 +1,41 @@
+// Title: No-Wish DDFT
+// Authors: d8dk32
+// Colors: {U}{B}{W}
+4 Doomsday
+4 Wishclaw Talisman
+1 Thassa's Oracle
+1 Ideas Unbound
+1 Bolas's Citadel
+1 Echo of Eons
+1 Tendrils of Agony
+4 Brainstorm
+4 Ponder
+4 Dark Ritual
+2 Cabal Ritual
+4 Lion's Eye Diamond
+4 Lotus Petal
+4 Duress
+3 Orim's Chant
+2 Street Wraith
+1 Edge of Autumn
+
+3 Flooded Strand
+2 Marsh Flats
+4 Polluted Delta
+2 Underground Sea
+1 Tundra
+1 Scrubland
+1 Snow-Covered Island
+1 Snow-Covered Swamp
+
+//Sideboard
+1 Cavern of Souls
+2 Chain of Vapor
+1 Disenchant
+2 Flusterstorm
+2 Massacre
+1 Orim's Chant
+1 Pact of Negation
+2 Prismatic Ending
+2 Surgical Extraction
+1 Thoughtseize

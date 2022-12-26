@@ -1,0 +1,38 @@
+// Title: Fuz65's Citadel Doosmday
+// Authors: Fuz65
+// Colors: {U}{B}
+
+2 Bolas's Citadel
+4 Doomsday
+1 Tendrils of Agony
+1 Thassa's Oracle
+1 Edge of Autumn
+1 Profane Tutor
+4 Brainstorm
+4 Ponder
+3 Preordain
+1 Consider
+1 Night's Whisper
+4 Dark Ritual
+4 Cabal Ritual
+1 Lion's Eye Diamond
+4 Lotus Petal
+4 Duress
+4 Thoughtseize
+1 Pact of Negation
+
+4 Polluted Delta
+4 Flooded Strand
+1 Bloodstained Mire
+3 Underground Sea
+1 Swamp
+2 Island
+
+//Sideboard
+1 Cavern of Souls
+2 Defense Grid
+2 Echoing Truth
+2 Fatal Push
+3 Flusterstorm
+4 Leyline of the Void
+1 Sadistic Sacrament
