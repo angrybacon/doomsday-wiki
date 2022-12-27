@@ -1,5 +1,5 @@
 // Title: Grixis Turbo Meandeck
-// Authors: Romario "RomarioVidal" Neto
+// Authors: Romario "Romariovidal" Neto
 // Colors: {U}{B}{R}
 4 Street Wraith
 1 Thassa's Oracle

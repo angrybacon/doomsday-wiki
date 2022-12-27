@@ -1,0 +1,41 @@
+// Title: Esper Tempo
+// Authors: Brett Wands
+// Colors: {W}{U}{B}
+4 Brainstorm
+4 Ponder
+2 Preordain
+1 Thoughtseize
+2 Spell Pierce
+1 Batterskull
+1 Kaldra Compleat
+1 Lotus Petal
+1 Predict
+1 Unearth
+1 Street Wraith
+1 Thassa's Oracle
+4 Dark Ritual
+4 Doomsday
+4 Baleful Strix
+4 Stoneforge Mystic
+4 Force of Will
+2 Teferi, Time Raveler
+
+4 Flooded Strand
+1 Cavern of Souls
+1 Marsh Flats
+4 Polluted Delta
+1 Swamp
+1 Island
+3 Underground Sea
+1 Tundra
+1 Scrubland
+1 Watery Grave
+
+// Sideboard
+3 Prismatic Ending
+1 Plains
+2 Sheoldred, the Apocalypse
+4 Swords to Plowshares
+1 Surgical Extraction
+3 Force of Negation
+1 Lion's Eye Diamond

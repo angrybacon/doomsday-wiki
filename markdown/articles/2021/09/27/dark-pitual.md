@@ -3,7 +3,7 @@ authors: Doishy
 banner: Consider
 kind: REPORT
 tags: [LEGACY, MEANDECK]
-title: "Doomsday at the Legacy Pit Open: An Interview with RomarioVidal"
+title: "Doomsday at the Legacy Pit Open: An Interview with Romariovidal"
 ---
 
 ## Table of Contents
@@ -43,7 +43,7 @@ unfortunately the payment model on SoundCloud means we cannot upload any
 additional content on there without paying for the privilege. Please do have a
 listen if you have time!
 
-:youtube{id=PHycYczJ_dk}
+::youtube{id=PHycYczJ_dk}
 
 ## The Player's Reports
 
@@ -60,7 +60,7 @@ for being willing to take the time to provide those reports. There were also
 some other great results from other players but they were not able to find the
 time to submit anything.
 
-### Romario *RomarioVidal* Neto - 25th Place (7-2)
+### Romario *Romariovidal* Neto - 25th Place (7-2)
 
 [Romario's Twitter](https://twitter.com/romarioneto3)  
 [Romario's Twitch](https://www.twitch.tv/romariovidal)
@@ -916,8 +916,8 @@ pile to beat :card[Wasteland] but would require fading 2 turns:
 :::
 
 Unfortunately, that didn't matter – Kyle revealed :card[Brainstorm] to flip
-Delver, played :card[Volcanic Island]
-#2, then attacked with Delver. He cast :card[Lightning Bolt], which I Dazed and he Dazed back, then he cast
+Delver, played :card[Volcanic Island] \#2, then attacked with Delver. He cast
+:card[Lightning Bolt], which I Dazed and he Dazed back, then he cast
 :card[Lightning Bolt] #2 for the win.
 
 #### Round 6 vs Michael Fajardo Evangelista on Elves. Win (2-0)
