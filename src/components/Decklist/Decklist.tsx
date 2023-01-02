@@ -14,7 +14,7 @@ import { Column } from '@/components/Decklist/Column';
 import { Mana } from '@/components/Mana/Mana';
 import type { Card } from '@/tools/decklists/types';
 
-export interface Props {
+interface Props {
   authors: string | null;
   colors: string[] | null;
   date?: string;

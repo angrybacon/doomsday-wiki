@@ -56,7 +56,7 @@ export const getArticles: GetArticles = async (options) => {
       data = await document.matter._bannerPromise;
     } catch (error) {
       const { banner } = document.matter;
-      throw new Error(`Failed to scry for "${banner}" (${error})`);
+      throw new Error(`Failed to scry banner "${banner}". ${error}`);
     }
     // @ts-expect-error The property has been force-added above.
     delete document.matter._bannerPromise;

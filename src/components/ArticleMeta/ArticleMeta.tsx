@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import { ArticleChip } from '@/components/ArticleChip/ArticleChip';
 import type { Matter } from '@/tools/markdown/types';
 
-export interface Props {
+interface Props {
   matter: Matter;
 }
 

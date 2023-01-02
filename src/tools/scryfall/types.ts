@@ -1,6 +1,7 @@
-export enum ScryDataObject {
+export enum ScryObject {
   CARD = 'card',
   CARD_FACE = 'card_face',
+  ERROR = 'error',
   LIST = 'list',
 }
 
@@ -25,11 +26,11 @@ export interface ScryDataItem {
   card_faces?: {
     image_uris: ScryDataItemImages;
     name: string;
-    object: ScryDataObject.CARD_FACE;
+    object: ScryObject.CARD_FACE;
   }[];
   image_uris?: ScryDataItemImages;
   name: string;
-  object: ScryDataObject.CARD;
+  object: ScryObject.CARD;
   set: string;
   set_name: string;
 }
@@ -41,7 +42,7 @@ export interface ScryDataItem {
 export interface ScryDataList {
   data: ScryDataItem[];
   has_more: boolean;
-  object: ScryDataObject.LIST;
+  object: ScryObject.LIST;
   next_page: URL | null;
   total_cards: number | null;
   warnings: string[] | null;
@@ -54,6 +55,7 @@ export interface ScryDataList {
 export interface ScryError {
   code: string;
   details: string;
+  object: ScryObject.ERROR;
   status: number;
   type: string | null;
   warnings: string[] | null;

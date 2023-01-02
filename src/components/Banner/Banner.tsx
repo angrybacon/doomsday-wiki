@@ -3,7 +3,7 @@ import { Box, Divider, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 import type { Banner as BannerModel } from '@/tools/markdown/types';
 
-export interface Props {
+interface Props {
   authors?: string;
   banner: BannerModel;
   title: string;
