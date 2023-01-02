@@ -1,3 +1,4 @@
+import type { Root } from 'mdast';
 import { join } from 'path';
 import remarkDirective from 'remark-directive';
 import remarkParse from 'remark-parse';
@@ -17,8 +18,12 @@ type GetScries = (buffer: string) => Promise<Scries>;
 
 /** Parse buffer as Markdown text and return Scry data from directives. */
 const getScries: GetScries = async (buffer) => {
-  const tree = unified().use(remarkParse).use(remarkDirective).parse(buffer);
-  return unified().use(remarkScryfall).run(tree) as unknown as Scries;
+  const tree: Root = unified()
+    .use(remarkParse)
+    .use(remarkDirective)
+    .parse(buffer);
+  const scries = await unified().use(remarkScryfall).run(tree);
+  return scries as unknown as Scries;
 };
 
 type GetMarkdown = (path: string, root?: string) => Promise<Markdown>;
@@ -34,7 +39,7 @@ export const getMarkdown: GetMarkdown = async (
 ) => {
   const absolutePath = join(root, path) + MARKDOWN_EXTENSION;
   const { content, data } = readMarkdown(absolutePath);
-  const scries = await getScries(content);
+  const scries: Scries = await getScries(content);
   const matter = data;
   if (matter.banner) {
     matter.bannerData = await getBanner(matter.banner);

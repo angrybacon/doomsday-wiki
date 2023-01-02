@@ -35,6 +35,13 @@
       }
     },
     {
+      "files": ["scryfall/**/*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "no-console": "off"
+      }
+    },
+    {
       "files": ["src/mocks/**/*.ts"],
       "rules": {
         "import/no-extraneous-dependencies": [

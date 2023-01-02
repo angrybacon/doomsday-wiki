@@ -4,12 +4,12 @@ import {
   ScryData,
   ScryDataItem,
   ScryDataList,
-  ScryDataObject,
+  ScryObject,
 } from '@/tools/scryfall/types';
 
 /** Data can contain a list of objects in case of non-deterministic searches. */
-export const readFirstResult = (data: ScryData): ScryDataItem =>
-  data.object === ScryDataObject.LIST ? (data as ScryDataList).data[0] : data;
+const readFirstResult = (data: ScryData): ScryDataItem =>
+  data.object === ScryObject.LIST ? (data as ScryDataList).data[0] : data;
 
 /** A single card can have multiple faces. */
 export const readFaces = (data: ScryData): ScryCard[] => {

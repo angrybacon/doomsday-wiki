@@ -1,5 +1,6 @@
 .husky/_/
 .next/
+.vercel/
 coverage/
 node_modules/
 .env.local

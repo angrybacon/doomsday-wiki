@@ -26,6 +26,8 @@ property from =@mui/system= otherwise.
 - Commit naming
 - Pull request naming
 
+** TODO Scryfall Cache
+
 ** Mocks
 
 In order to both reduce the strain on Scryfall's API and allow offline
@@ -46,17 +48,10 @@ See [[#environment-variables][#Environment Variables]] to disable the mocks.
 
 A number of variables are pre-configured for you in =.env.development=:
 
-- =REMARK_LOGS= ::
-  Whether server-side parsing operations from the =remark= suite should be
-  logged.
-- =SCRYFALL_LOGS= ::
-  Whether the Scryfall queries should be logged.
 - =SCRYFALL_MOCKS= ::
   Whether the development server should mock queries to api.scryfall.com. This
   allows offline development and reduce unnecessary hits on Scryfall's API since
   card data is fetched during the build.
-- =VERBOSE= ::
-  Whether logs should be decorated with more details.
 
 You can overwrite their respective value, by creating a new =.env.local= at the
 root of the project.

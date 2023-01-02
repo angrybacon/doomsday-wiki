@@ -4,7 +4,7 @@ import { ListItem, ListItemText, Typography } from '@mui/material';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import type { Matter } from '@/tools/markdown/types';
 
-export interface Props {
+interface Props {
   divider?: boolean;
   href: string;
   matter: Matter;
