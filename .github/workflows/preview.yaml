@@ -1,9 +1,10 @@
 name: Preview
 
-on:
-  push:
-    branches-ignore:
-      - release
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+on: push
 
 jobs:
 
@@ -44,9 +45,6 @@ jobs:
   preview:
     name: Preview
     needs: [lint, tests]
-    env:
-      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -64,3 +62,25 @@ jobs:
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy Project Artifacts
         run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+
+  release:
+    name: Release
+    if: ${{ github.ref == 'refs/heads/master' }}
+    needs: preview
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v3
+        with:
+          cache: 'yarn'
+          node-version: 18
+      - name: Install Vercel
+        run: yarn global add vercel@latest
+      - name: Pull Vercel Environment
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Build Project Artifacts
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Deploy Project Artifacts
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
