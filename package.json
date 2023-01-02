@@ -3,11 +3,11 @@
   "private": true,
   "version": "3.0.0",
   "engines": {
-    "node": "19"
+    "node": "18"
   },
   "scripts": {
-    "build": "concurrently -c auto -n 'next,scryfall' 'next build' 'yarn scryfall' --kill-others --success first",
-    "dev": "concurrently -c auto -n 'next,scryfall' 'next dev' 'yarn scryfall'",
+    "build": "concurrently -c auto -n 'next,scryfall' 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next build' 'yarn scryfall' --kill-others --success first",
+    "dev": "concurrently -c auto -n 'next,scryfall' 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next dev' 'yarn scryfall'",
     "lint": "yarn lint:code && yarn lint:typings",
     "lint:code": "eslint .",
     "lint:typings": "tsc",

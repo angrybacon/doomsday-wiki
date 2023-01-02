@@ -1,11 +1,20 @@
 import React, { FunctionComponent } from 'react';
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
-import { AppBar, Box, IconButton, Slide, Toolbar } from '@mui/material';
+import {
+  AppBar,
+  Box,
+  IconButton,
+  Slide,
+  Toolbar,
+  Typography,
+} from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
 import type { Theme } from '@mui/material/styles';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import { Progress } from '@/components/Progress/Progress';
+
+const HASH: string | undefined = process.env.NEXT_PUBLIC_HASH;
 
 interface Props {
   isMobile: boolean;
@@ -42,6 +51,11 @@ export const Header: FunctionComponent<Props> = ({
               >
                 <Icon path={mdiMenu} size={1} />
               </IconButton>
+            )}
+            {HASH && (
+              <Typography sx={{ ml: 'auto', typography: 'caption' }}>
+                {HASH}
+              </Typography>
             )}
           </Toolbar>
         </AppBar>

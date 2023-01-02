@@ -15,6 +15,7 @@ const handler = async (request, response) => {
       return it.text();
     });
     CACHE.set(request.url, promise);
+    console.info(`Cached request for '${request.url}'`);
   }
   try {
     const data = await CACHE.get(request.url);
@@ -26,6 +27,7 @@ const handler = async (request, response) => {
     response.write(`Cache error while requesting ${request.url}`);
   } finally {
     response.end();
+    console.count(`GET ${request.url}`);
   }
 };
 
