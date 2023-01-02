@@ -1,6 +1,6 @@
 // Title: No-Wish DDFT
 // Authors: d8dk32
-// Colors: {U}{B}{W}
+// Colors: {W}{U}{B}
 4 Doomsday
 4 Wishclaw Talisman
 1 Thassa's Oracle
@@ -28,7 +28,7 @@
 1 Snow-Covered Island
 1 Snow-Covered Swamp
 
-//Sideboard
+// Sideboard
 1 Cavern of Souls
 2 Chain of Vapor
 1 Disenchant
