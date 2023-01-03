@@ -29,4 +29,5 @@
 1 By Force
 1 Tendrils of Agony
 1 Galvanic Relay
+1 Reckless Impulse
 4 Duress
