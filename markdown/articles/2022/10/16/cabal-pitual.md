@@ -846,7 +846,7 @@ Every Doomsday list in the event can be found below:
   Sheoldred](https://mtgmelee.com/Decklist/View/247735)
 - [18th Place - Michael *BlackSkyDoc* Yue - UB
   Turbo](https://mtgmelee.com/Decklist/View/247773)
-- [38th Place - Brandom *emidln* Adams - UB
+- [38th Place - Brandon *emidln* Adams - UB
   ABCD](https://mtgmelee.com/Decklist/View/247988)
 - [79th Place - Facuando *ChuckConde* Conde - Esper ft.
   Dakkon!](https://mtgmelee.com/Decklist/View/247147)
