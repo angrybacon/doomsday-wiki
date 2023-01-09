@@ -1,0 +1,42 @@
+// Title: UB Turbo
+// Authors: Romario "Romariovidal" Neto
+// Colors: {U}{B}
+1 Lion's Eye Diamond
+3 Lotus Petal
+4 Brainstorm
+1 Consider
+4 Personal Tutor
+4 Ponder
+4 Dark Ritual
+3 Duress
+1 Thoughtseize
+1 Daze
+2 Thassa's Oracle
+2 Cabal Ritual
+2 Edge of Autumn
+4 Doomsday
+1 Deep Analysis
+4 Force of Will
+3 Street Wraith
+
+1 Cavern of Souls
+2 Flooded Strand
+1 Island
+1 Marsh Flats
+1 Misty Rainforest
+4 Polluted Delta
+1 Scalding Tarn
+1 Swamp
+4 Underground Sea
+
+// Sideboard
+1 Duress
+1 Chain of Vapor
+1 Hurkyl's Recall
+1 Brazen Borrower
+4 Force of Negation
+2 Opposition Agent
+2 Sheoldred, the Apocalypse
+1 Mystic Sanctuary
+1 Relic of Progenitus
+1 Leyline of the Void

@@ -19,7 +19,7 @@ out these content creators for Doomsday:
 | Ethan *monkeyscantcry* Formicella | [Twitch](https://www.twitch.tv/monkeyscantcry)                                                                          |
 | Martin *nevilshute* Nielsen       | [YouTube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)                                                     |
 | Eric *Revenantkioku* Koziol       | [Twitch](https://www.twitch.tv/revenantkioku) &bull; [YouTube](https://www.youtube.com/user/revenantkioku)              |
-| Romario *Romariovidal* Vidal      | [Twitch](https://www.twitch.tv/romariovidal)                                                                            |
+| Romario *Romariovidal* Neto       | [Twitch](https://www.twitch.tv/romariovidal)                                                                            |
 | Kai *Sawatarix* Sawatari          | [Twitch](https://www.twitch.tv/sawatarix) &bull; [YouTube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)    |
 | *ThornOfWrath*                    | [Twitch](https://www.twitch.tv/thornofwrath)                                                                            |
 | *Walked*                          | [Twitch](https://www.twitch.tv/walkedairplane) &bull; [YouTube](https://www.youtube.com/user/walkedairplane)            |
@@ -67,8 +67,8 @@ Videos from non-regular streamers or Doomsday content creators in Legacy.
 | [League with Doomsday ft. *TheJigIsAlwaysUp*](https://www.youtube.com/watch?v=jKqj_6Z0mrQ)                        | {U}{B}       | Nathan Lipetz    | April 2021     | English    |
 | [Primer on Doomsday](https://www.youtube.com/watch?v=R76tj2vwp34)                                                 | {U}{B}{R}    | Ferid            | April 2021     | German     |
 | [League with Chain of Smog Doomsday](https://www.youtube.com/watch?v=9M0K1Z9bWM0)                                 | {U}{B}{G}    | CalebD           | April 2021     | English    |
-| [League with Doomsday ft. *RomarioVidal*: part 2](https://www.youtube.com/watch?v=9KzxwRH0vbo)                    | {U}{B}{R}    | Hellownewton     | February 2021  | English    |
-| [League with Doomsday ft. *RomarioVidal*: part 1](https://www.youtube.com/watch?v=VhzUCmILgj8)                    | {U}{B}{R}    | Hellownewton     | February 2021  | English    |
+| [League with Doomsday ft. *Romariovidal*: part 2](https://www.youtube.com/watch?v=9KzxwRH0vbo)                    | {U}{B}{R}    | Hellownewton     | February 2021  | English    |
+| [League with Doomsday ft. *Romariovidal*: part 1](https://www.youtube.com/watch?v=VhzUCmILgj8)                    | {U}{B}{R}    | Hellownewton     | February 2021  | English    |
 | [League with Doomsday](https://www.youtube.com/watch?v=h1euGB8hQFM)                                               | {U}{B}{R}    | Bryant Cook      | February 2021  | English    |
 | [League with Doomsday](https://www.youtube.com/watch?v=pkpixIywm1w)                                               | {U}{B}{R}    | LeFly            | February 2021  | German     |
 | [League with Doomsday](https://www.youtube.com/watch?v=8HlIvDf7iDg)                                               | {U}{B}       | Andreas Mengucci | December 2020  | English    |

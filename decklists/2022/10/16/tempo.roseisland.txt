@@ -1,0 +1,38 @@
+// Title: Grixis Tempo
+// Authors: Samantha "RoseIsland" Murphy
+// Colors: {U}{B}{R}
+4 Brainstorm
+4 Ponder
+4 Dark Ritual
+2 Fatal Push
+4 Daze
+1 Pyroblast
+1 Young Pyromancer
+1 Thassa's Oracle
+4 Baleful Strix
+3 Expressive Iteration
+4 Doomsday
+4 Force of Will
+4 Murktide Regent
+
+1 Flooded Strand
+1 Badlands
+1 Island
+1 Cavern of Souls
+1 Mystic Sanctuary
+4 Polluted Delta
+4 Scalding Tarn
+4 Underground Sea
+3 Volcanic Island
+
+// Sideboard
+2 Opposition Agent
+2 Unlicensed Hearse
+2 Pyroblast
+2 Hydroblast
+2 Fatal Push
+1 Meltdown
+1 Rough // Tumble
+1 Red Elemental Blast
+1 Brazen Borrower // Petty Theft
+1 Hidetsugu Consumes All // Vessel of the All-Consuming
