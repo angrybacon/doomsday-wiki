@@ -21,6 +21,7 @@ export interface Document {
 
 export interface Markdown {
   matter: Partial<Matter>;
+  partials: Partials;
   scries: Scries;
   text: string;
 }

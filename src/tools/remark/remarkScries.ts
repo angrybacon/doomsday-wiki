@@ -11,7 +11,7 @@ import type { Scries, ScryCard, ScryData } from '@/tools/scryfall/types';
  * the queries within.
  * This Unified pluggable returns a record of queries and responses pairs.
  */
-export const remarkScryfall =
+export const remarkScries =
   () =>
   async (tree: Node): Promise<Scries> => {
     /** Unist tests to only visit nodes that contain Scryfall queries. */
