@@ -13,7 +13,7 @@ import { alpha } from '@mui/material/styles';
 // eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Markdown, Partials } from '@/tools/markdown/types';
+import type { Markdown } from '@/tools/markdown/types';
 
 // NOTE Because this feature allows Markdown content within itself, it
 //      introduces a circular reference but is controlled as long as it doesn't
@@ -24,57 +24,43 @@ import type { Markdown, Partials } from '@/tools/markdown/types';
 export interface Props extends ReactMarkdownProps {
   decklists: Decklists;
   markdown?: Markdown;
-  partials: Partials;
 }
 
 export const RemarkAccordion: FunctionComponent<Props> = ({
-  children,
+  children: [title = 'Expand', ...content] = [],
   decklists,
   markdown,
-  partials,
-}) => {
-  const [title, ...content] = children;
-
-  if (!title) return null;
-
-  return (
-    <Box
-      sx={(theme) => ({
-        ...theme.mixins.barf,
-        border: 1,
-        borderColor: 'divider',
-        borderLeft: 0,
-        borderRight: 0,
-        '& + &': { borderTop: 0, mt: '0!important' },
-      })}
-    >
-      <Accordion elevation={0}>
-        <AccordionSummary
-          expandIcon={<Icon path={mdiChevronDown} size={1} />}
-          sx={(theme) => theme.mixins.gutters}
-        >
-          <Typography component="div">{title}</Typography>
-        </AccordionSummary>
-        <AccordionDetails
-          sx={(theme) => ({
-            ...theme.mixins.gutters,
-            bgcolor: alpha(theme.palette.primary.light, 0.1),
-            borderTop: 1,
-            borderTopColor: 'divider',
-            py: 2,
-            '& h6:first-of-type': { mt: 0 },
-          })}
-        >
-          {content}
-          {markdown && (
-            <Remark
-              decklists={decklists}
-              markdown={markdown}
-              partials={partials}
-            />
-          )}
-        </AccordionDetails>
-      </Accordion>
-    </Box>
-  );
-};
+}) => (
+  <Box
+    sx={(theme) => ({
+      ...theme.mixins.barf,
+      border: 1,
+      borderColor: 'divider',
+      borderLeft: 0,
+      borderRight: 0,
+      '& + &': { borderTop: 0, mt: '0!important' },
+    })}
+  >
+    <Accordion elevation={0}>
+      <AccordionSummary
+        expandIcon={<Icon path={mdiChevronDown} size={1} />}
+        sx={(theme) => theme.mixins.gutters}
+      >
+        <Typography component="div">{title}</Typography>
+      </AccordionSummary>
+      <AccordionDetails
+        sx={(theme) => ({
+          ...theme.mixins.gutters,
+          bgcolor: alpha(theme.palette.primary.light, 0.1),
+          borderTop: 1,
+          borderTopColor: 'divider',
+          py: 2,
+          '& h6:first-of-type': { mt: 0 },
+        })}
+      >
+        {content}
+        {markdown && <Remark decklists={decklists} markdown={markdown} />}
+      </AccordionDetails>
+    </Accordion>
+  </Box>
+);

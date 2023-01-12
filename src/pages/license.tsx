@@ -7,42 +7,34 @@ import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { getMarkdownPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import { getPartials } from '@/tools/markdown/getPartials';
-import type { Markdown, Menu, Partials } from '@/tools/markdown/types';
+import type { Markdown, Menu } from '@/tools/markdown/types';
 
 interface Props {
   decklists: Decklists;
   markdown: Markdown;
   menu: Menu;
-  partials: Partials;
 }
 
-const LicensePage: NextPage<Props> = ({
-  decklists,
-  markdown,
-  menu,
-  partials,
-}) => (
+const LicensePage: NextPage<Props> = ({ decklists, markdown, menu }) => (
   <Layout menu={menu} title="License">
     <Card>
       <CardContent>
         <Typography align="center" variant="h1">
           License
         </Typography>
-        <Remark decklists={decklists} markdown={markdown} partials={partials} />
+        <Remark decklists={decklists} markdown={markdown} />
       </CardContent>
     </Card>
   </Layout>
 );
 
-export const getStaticProps: GetStaticProps = async () => ({
+export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     decklists: getDecklists(),
-    markdown: await getMarkdown('partials/license'),
+    markdown: await getMarkdownPartial('license'),
     menu: getMenu(),
-    partials: await getPartials(),
   },
 });
 

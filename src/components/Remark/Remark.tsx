@@ -9,7 +9,7 @@ import { Box } from '@mui/material';
 // eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Markdown, Partials } from '@/tools/markdown/types';
+import type { Markdown } from '@/tools/markdown/types';
 import { remarkAccordion } from '@/tools/remark/remarkAccordion';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
@@ -20,15 +20,10 @@ import { remarkRow } from '@/tools/remark/remarkRow';
 interface Props {
   decklists: Decklists;
   markdown: Markdown;
-  partials: Partials;
 }
 
-export const Remark: FunctionComponent<Props> = ({
-  decklists,
-  markdown,
-  partials,
-}) => {
-  const { scries, text } = markdown;
+export const Remark: FunctionComponent<Props> = ({ decklists, markdown }) => {
+  const { partials, scries, text } = markdown;
 
   /** Vendor plugins to run against the node tree. */
   const basePlugins: PluggableList = [

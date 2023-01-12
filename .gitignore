@@ -3,5 +3,5 @@
 .vercel/
 coverage/
 node_modules/
-.env.local
+.env*.local
 tsconfig.tsbuildinfo

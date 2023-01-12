@@ -26,8 +26,6 @@ const remarkWithPartial = (
     console.error(`[remark] Missing path for accordion at ${l}:${c}`);
   } else if (!partials[path]) {
     console.error(`[remark] Missing source file for "${path}" partial`);
-  } else if (!directive.children.length) {
-    console.error(`[remark] Missing title for accordion with "${path}"`);
   } else {
     // eslint-disable-next-line no-param-reassign
     directive.data = {

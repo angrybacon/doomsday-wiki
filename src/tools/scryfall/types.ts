@@ -1,7 +1,6 @@
 export enum ScryObject {
   CARD = 'card',
   CARD_FACE = 'card_face',
-  ERROR = 'error',
   LIST = 'list',
 }
 
@@ -45,19 +44,6 @@ export interface ScryDataList {
   object: ScryObject.LIST;
   next_page: URL | null;
   total_cards: number | null;
-  warnings: string[] | null;
-}
-
-/**
- * Scryfall API response in case of error.
- * See https://scryfall.com/docs/api/errors
- */
-export interface ScryError {
-  code: string;
-  details: string;
-  object: ScryObject.ERROR;
-  status: number;
-  type: string | null;
   warnings: string[] | null;
 }
 

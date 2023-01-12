@@ -7,15 +7,9 @@ import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
 import { getArticles } from '@/tools/markdown/getArticles';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { getMarkdownPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import { getPartials } from '@/tools/markdown/getPartials';
-import type {
-  Document,
-  Markdown,
-  Menu,
-  Partials,
-} from '@/tools/markdown/types';
+import type { Document, Markdown, Menu } from '@/tools/markdown/types';
 
 const ARTICLES_INITIAL_SIZE = 5;
 
@@ -23,17 +17,10 @@ interface Props {
   articles: Document[];
   decklists: Decklists;
   menu: Menu;
-  partials: Partials;
   welcome: Markdown;
 }
 
-const HomePage: NextPage<Props> = ({
-  articles,
-  decklists,
-  menu,
-  partials,
-  welcome,
-}) => {
+const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
   const articleRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
@@ -54,11 +41,7 @@ const HomePage: NextPage<Props> = ({
         <Grid item sm={7}>
           <Card>
             <CardContent>
-              <Remark
-                decklists={decklists}
-                markdown={welcome}
-                partials={partials}
-              />
+              <Remark decklists={decklists} markdown={welcome} />
             </CardContent>
           </Card>
         </Grid>
@@ -93,8 +76,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => ({
     articles: await getArticles(),
     decklists: getDecklists(),
     menu: getMenu(),
-    partials: await getPartials(),
-    welcome: await getMarkdown('partials/welcome'),
+    welcome: await getMarkdownPartial('welcome'),
   },
 });
 
