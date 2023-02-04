@@ -24,13 +24,12 @@ type GetArticles = (options?: GetArticlesOptions) => Promise<Document[]>;
 /** Read file system and return a list of all articles. */
 export const getArticles: GetArticles = async (options) => {
   const depth = 4;
+  const extension = MARKDOWN_EXTENSION;
+  const files = walk(BASE_ARTICLE_URL, { depth, extension });
   const { ascending } = { ascending: false, ...options };
-  const reduceFunction: 'reduce' | 'reduceRight' = ascending
-    ? 'reduce'
-    : 'reduceRight';
-  const files = Array.from(walk(BASE_ARTICLE_URL, { depth }));
+  const reduceFunction = ascending ? 'reduce' : 'reduceRight';
   const documents = files[reduceFunction]<Document[]>((accumulator, crumbs) => {
-    const path = join(BASE_ARTICLE_URL, ...crumbs) + MARKDOWN_EXTENSION;
+    const path = join(BASE_ARTICLE_URL, ...crumbs) + extension;
     // NOTE Only consider complete paths ie. [year, month, day, article]
     if (crumbs.length === depth) {
       const { data } = readMarkdown(path);
