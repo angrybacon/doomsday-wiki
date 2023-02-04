@@ -66,8 +66,10 @@ export const getMarkdown: GetMarkdown = async (options) => {
   }
 };
 
-type GetMarkdownPartial = (path: string) => Promise<Markdown>;
+export type GetMarkdownPartial = (options: {
+  path: string;
+}) => Promise<Markdown>;
 
 /** Read Mardown content under the provided `path`. */
-export const getMarkdownPartial: GetMarkdownPartial = async (path) =>
+export const getMarkdownPartial: GetMarkdownPartial = async ({ path }) =>
   getMarkdown({ path, root: BASE_PARTIALS_URL });

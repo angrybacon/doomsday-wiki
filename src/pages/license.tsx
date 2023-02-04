@@ -32,7 +32,7 @@ const LicensePage: NextPage<Props> = ({ decklists, markdown, menu }) => (
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     decklists: getDecklists(),
-    markdown: await getMarkdownPartial('license'),
+    markdown: await getMarkdownPartial({ path: 'license' }),
     menu: getMenu(),
   },
 });

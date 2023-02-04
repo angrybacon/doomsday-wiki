@@ -76,7 +76,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => ({
     articles: await getArticles(),
     decklists: getDecklists(),
     menu: getMenu(),
-    welcome: await getMarkdownPartial('welcome'),
+    welcome: await getMarkdownPartial({ path: 'welcome' }),
   },
 });
 

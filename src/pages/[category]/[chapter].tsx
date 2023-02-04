@@ -1,4 +1,9 @@
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import type {
+  GetStaticPaths,
+  GetStaticPathsResult,
+  GetStaticProps,
+  NextPage,
+} from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
 import { Card, CardContent, Typography } from '@mui/material';
@@ -38,7 +43,7 @@ const ChapterPage: NextPage<Props> = ({ decklists, markdown, menu }) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const chapters: Document[] = getChapters();
-  const paths = chapters.map(({ crumbs }) => {
+  const paths: GetStaticPathsResult['paths'] = chapters.map(({ crumbs }) => {
     const [category, chapter] = crumbs;
     return { params: { category, chapter } };
   });
@@ -52,15 +57,17 @@ interface Query extends ParsedUrlQuery {
 
 export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,
-}) => ({
-  props: {
-    decklists: getDecklists(),
-    markdown: await getMarkdown({
-      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-      path: join('chapters', params!.category, params!.chapter),
-    }),
-    menu: getMenu(),
-  },
-});
+}) => {
+  const { category, chapter } = params as Query;
+  return {
+    props: {
+      decklists: getDecklists(),
+      markdown: await getMarkdown({
+        path: join('chapters', category, chapter),
+      }),
+      menu: getMenu(),
+    },
+  };
+};
 
 export default ChapterPage;
