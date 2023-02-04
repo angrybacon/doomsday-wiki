@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import Divider from '@mui/material/Divider';
 
 export const RemarkDivider: FunctionComponent = () => (

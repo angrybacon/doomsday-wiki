@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
@@ -56,10 +56,17 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
           borderTopColor: 'divider',
           py: 2,
           '& h6:first-of-type': { mt: 0 },
+          '> :not(p:first-of-type)': { mt: 2 },
         })}
       >
         {content}
-        {markdown && <Remark decklists={decklists} markdown={markdown} />}
+        {markdown && (
+          <Remark
+            decklists={decklists}
+            markdown={markdown}
+            withWrapper={false}
+          />
+        )}
       </AccordionDetails>
     </Accordion>
   </Box>

@@ -1,7 +1,6 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
-import React from 'react';
 import { Card, CardContent, Typography } from '@mui/material';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';

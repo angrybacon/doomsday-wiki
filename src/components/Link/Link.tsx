@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import React, { FunctionComponent, ReactNode } from 'react';
+import { FunctionComponent, ReactNode } from 'react';
 import MuiLink from '@mui/material/Link';
 
 interface Props {

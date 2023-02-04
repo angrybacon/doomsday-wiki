@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import { mdiAccount, mdiCalendar, mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {

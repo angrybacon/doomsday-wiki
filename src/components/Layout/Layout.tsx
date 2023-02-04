@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import { Box, Container } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

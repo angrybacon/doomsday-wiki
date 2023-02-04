@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import { ListItem, ListItemText, Typography } from '@mui/material';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import type { Matter } from '@/tools/markdown/types';

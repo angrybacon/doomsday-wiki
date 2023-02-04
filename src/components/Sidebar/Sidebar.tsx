@@ -1,5 +1,4 @@
 import NextLink from 'next/link';
-import React from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import {

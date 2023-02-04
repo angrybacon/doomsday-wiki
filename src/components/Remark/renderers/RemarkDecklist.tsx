@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Decklist } from '@/components/Decklist/Decklist';
 import type {

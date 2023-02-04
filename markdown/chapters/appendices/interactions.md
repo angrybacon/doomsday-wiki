@@ -118,7 +118,15 @@ getting to look for 5 cards in your deck and you exiling the rest. Unless Oracle
 is in your hand this will mostly result in your loss.
 :::
 
-::accordion[Pithing Needle]{path=interactions/pithing-needle}
+:::accordion[Pithing Needle]
+Pithing needle cannot stop LED, Lotus Petal, Chromatic Sphere, or Doomsday.
+
+> Players try naming Doomsday due to the strange wording on the Weatherlight
+> printing since it appears like activated abilities do.
+
+Pithing needle can stop Conjurer's Bauble, cyclers like Street Wraith and
+fetchlands.
+:::
 
 :::accordion[Phyrexian Revoker]
 Phyrexian Revoker can stop LED, Lotus Petal, Chromatic Sphere, Conjurer's Bauble

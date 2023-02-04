@@ -1,5 +1,4 @@
 import { GetStaticProps, NextPage } from 'next';
-import React from 'react';
 import Card from '@mui/material/Card';
 import List from '@mui/material/List';
 import { ArticleListItem } from '@/components/ArticleListItem/ArticleListItem';

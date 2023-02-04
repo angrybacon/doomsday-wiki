@@ -1,4 +1,3 @@
-import React from 'react';
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
 import { darkTheme as theme } from '@/theme/theme';
 

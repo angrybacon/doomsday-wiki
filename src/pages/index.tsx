@@ -1,5 +1,5 @@
 import { GetStaticProps, NextPage } from 'next';
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Button, Card, CardContent, Grid } from '@mui/material';
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Layout } from '@/components/Layout/Layout';
