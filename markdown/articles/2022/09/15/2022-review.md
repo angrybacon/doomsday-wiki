@@ -418,14 +418,14 @@ The main differences between a *Turbo* list and an *ABCD* list is the latter is
 even more geared towards resolving early Doomsday often. It tends to have a
 higher fast mana count, sometimes forgo some pile cards like Ideas Unbound and
 runs a reduced interaction suite assuming you only need a single piece often to
-jam early. As part of the interaction aresenal it often removes Daze entirely
-but does include additional *pitch* protection in the form of
-:card[Misdirection]. One way these lists have been described is as if they are
-pre-boarded vs. decks like 8-Cast and Delver but will maybe not be as well
-geared against other archetypes as a result.
+jam early. As part of the interaction arsenal it often removes Daze entirely but
+does include additional *pitch* protection in the form of :card[Misdirection].
+One way these lists have been described is as if they are pre-boarded vs. decks
+like 8-Cast and Delver but will maybe not be as well geared against other
+archetypes as a result.
 
 Here is an example decklist from a 3rd place Challenge result in April by
-Wonderpreaux.
+*Wonderpreaux*.
 
 ::decklist{path=2022/09/15/wonderpreaux}
 

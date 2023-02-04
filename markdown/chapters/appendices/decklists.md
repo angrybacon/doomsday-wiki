@@ -2,14 +2,7 @@
 title: Decklist Compendium
 ---
 
-This page serves as a repository of Doomsday decklists past and present. Those
-under *Current Decklists* are considered stock lists of the currently playable
-Doomsday variants, but are not day-fresh. Pilots like to experiment on a daily
-basis and keeping lists here simply is not feasible. Worry not, for newer lists
-can always be found in our [Discord server][discord] in the `#decklists-archive`
-channel.
-
-[discord]: https://discord.gg/vajvFXt
+This page serves as a repository of Doomsday decklists past and present.
 
 In the *Historical Decklists* section are examples of lists from the past. Most
 are unplayable due to bannings, while some are still legal but have been
@@ -17,33 +10,19 @@ obviated by new printings.
 
 ## Current Decklists
 
-Since the printing of :card[Thassa's Oracle], an old friend resurged from the
-dead: Doomsday. The list plays a more reactive role in most matchups
-and focuses on building resources before going off. Since TO is so compact and
-cheap compared to its predecessors, it can still allow for quick wins with an
-actual long game plan.
+The lists can either play a more reactive role and focus on building resources
+before going off like the below *Esper Doomsday* list or be more all in. Since
+:card[Thassa's Oracle] is so compact and cheap compared to its predecessor
+alternatives, it can still allow for quick wins with an actual long game plan.
 
-::decklist{path=meandeck.ubr}
-
+::decklist{path=meandeck.ub}
 ::decklist{path=meandeck.wub}
 
-::decklist{path=meandeck.ubg}
+Pilots like to experiment on a daily basis and keeping lists here simply is not
+feasible. Worry not, for newer lists can always be found in our [Discord
+server][discord] in the `#decklists-archive` channel.
 
-::decklist{path=meandeck.ubrg}
-
-Multiple 5-0's and 1K top 8's, as well as a MTGO Challenge top8's to its name.
-This is a proven list based around Experimental Frenzy that is also moderately
-easier to play than lists of the past.
-
-::decklist{path=ddeft}
-
-A new development utilizing some powerful 2019 cards. Though it has yet to
-achieve a notable result, testing indicates that it is comparable in winrate to
-the Frenzy list. It is closer in playstyle to the lists of yore, so if you're
-looking for something more challenging or nostalgic that doesn't sacrifice
-power, try this list.
-
-::decklist{path=ddft}
+[discord]: https://discord.gg/vajvFXt
 
 ## Historical Decklists
 

@@ -14,12 +14,10 @@ Every matchup is organized as follows:
 - **Gameplay**: a longer text on how to play the pre and post Doomsday parts of
   the matchup
 
-For reference, the document assumes a standard Doomsday list and should stay
-generic enough that it applies to all colors.
+For reference, the document assumes a [standard Doomsday list][decklists] and
+should stay generic enough that it applies to all colors.
 
-::decklist{path=meandeck.wub}
-::decklist{path=meandeck.ubr}
-::decklist{path=meandeck.ubg}
+[decklists]: /appendices/decklists
 
 ## Table of Contents
 
