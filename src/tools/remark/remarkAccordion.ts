@@ -1,10 +1,11 @@
 import type { ContainerDirective, LeafDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
-import { Node, Test, visit } from 'unist-util-visit';
+import type { Node } from 'unist';
+import { Test, visit } from 'unist-util-visit';
 import type { Decklists } from '@/tools/decklists/types';
 import type { Partials } from '@/tools/markdown/types';
 
-const remarkWithChildren = (directive: ContainerDirective) => {
+const remarkWithChildren = (directive: Node & ContainerDirective) => {
   const { column: c, line: l } = directive.position?.start ?? {};
   const location = `for accordion at ${l}:${c}`;
   if (!directive.children.length) {
@@ -17,10 +18,10 @@ const remarkWithChildren = (directive: ContainerDirective) => {
 };
 
 const remarkWithPartial = (
-  directive: LeafDirective,
+  directive: Node & LeafDirective,
   { decklists, partials }: RemarkAccordionProps
 ) => {
-  const path: string | undefined = directive.attributes?.path;
+  const path = directive.attributes?.path;
   if (!path) {
     const { column: c, line: l } = directive.position?.start ?? {};
     console.error(`[remark] Missing path for accordion at ${l}:${c}`);

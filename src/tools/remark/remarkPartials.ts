@@ -1,7 +1,8 @@
 import type { Root } from 'mdast';
 import type { LeafDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
-import { Node, Test, visit } from 'unist-util-visit';
+import type { Node } from 'unist';
+import { Test, visit } from 'unist-util-visit';
 import type { GetMarkdownPartial } from '@/tools/markdown/getMarkdown';
 import type { Markdown, Partials } from '@/tools/markdown/types';
 
@@ -18,10 +19,10 @@ export const remarkPartials: Plugin<RemarkPartialsParameters, Root, Partials> =
     const promises: Promise<Markdown>[] = [];
     const partials: Partials = {};
     visit<Node, Test>(tree, tests, (node) => {
-      const directive = node as LeafDirective;
-      const path: string | undefined = directive.attributes?.path;
-      const { column: c, line: l } = directive.position?.start ?? {};
+      const directive = node as Node & LeafDirective;
+      const path = directive.attributes?.path;
       if (!path) {
+        const { column: c, line: l } = directive.position?.start ?? {};
         throw new Error(`Missing path for accordion at ${l}:${c}`);
       } else {
         const promise = getMarkdownPartial({ path }).then(

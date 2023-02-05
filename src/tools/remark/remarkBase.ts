@@ -1,6 +1,7 @@
 import type { Directive } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
-import { Node, Test, visit } from 'unist-util-visit';
+import type { Node } from 'unist';
+import { Test, visit } from 'unist-util-visit';
 
 /**
  * Preliminary visit to mark directives by name for future remarkers as well as
@@ -9,7 +10,7 @@ import { Node, Test, visit } from 'unist-util-visit';
 export const remarkBase: Plugin = () => (tree) => {
   const tests: Test = ['containerDirective', 'leafDirective', 'textDirective'];
   visit<Node, Test>(tree, tests, (node) => {
-    const directive = node as Directive;
+    const directive = node as Node & Directive;
     directive.data = {
       ...directive.data,
       hName: directive.name,

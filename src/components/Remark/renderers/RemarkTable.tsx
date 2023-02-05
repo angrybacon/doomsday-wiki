@@ -1,6 +1,8 @@
+import type { Components } from 'react-markdown';
 import type {
-  Components,
-  TableCellComponent,
+  ComponentType,
+  TableDataCellProps,
+  TableHeaderCellProps,
   TableRowComponent,
 } from 'react-markdown/lib/ast-to-react';
 import {
@@ -31,7 +33,9 @@ export const RemarkTableBody: Components['tbody'] = ({ children }) => (
   <TableBody>{children}</TableBody>
 );
 
-export const RemarkTableCell: TableCellComponent = ({ children, style }) => (
+export const RemarkTableCell: ComponentType<
+  TableDataCellProps | TableHeaderCellProps
+> = ({ children, style }) => (
   <TableCell
     style={style}
     sx={[

@@ -1,6 +1,7 @@
 import type { LeafDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
-import { Node, Test, visit } from 'unist-util-visit';
+import type { Node } from 'unist';
+import { Test, visit } from 'unist-util-visit';
 import type { Decklists } from '@/tools/decklists/types';
 
 /**
@@ -12,8 +13,8 @@ export const remarkDecklist: Plugin<[{ decklists: Decklists }]> =
   (tree) => {
     const test: Test = { name: 'decklist', type: 'leafDirective' };
     visit<Node, Test>(tree, test, (node) => {
-      const directive = node as LeafDirective;
-      const path: string | undefined = directive.attributes?.path;
+      const directive = node as Node & LeafDirective;
+      const path = directive.attributes?.path;
       if (path) {
         if (!decklists[path]) {
           console.error(`[remark] Missing decklist "${path}"`);

@@ -1,5 +1,9 @@
 import type { FunctionComponent } from 'react';
 import type { Components } from 'react-markdown';
+import type {
+  TableDataCellComponent,
+  TableHeaderCellComponent,
+} from 'react-markdown/lib/ast-to-react';
 // eslint-disable-next-line import/no-cycle
 import {
   RemarkAccordion,
@@ -61,8 +65,8 @@ export const COMPONENTS: Components = {
   p: RemarkParagraph,
   table: RemarkTable,
   tbody: RemarkTableBody,
-  td: RemarkTableCell,
-  th: RemarkTableCell,
+  td: RemarkTableCell as TableDataCellComponent,
+  th: RemarkTableCell as TableHeaderCellComponent,
   thead: RemarkTableHead,
   tr: RemarkTableRow,
   ul: RemarkList as Components['ul'],
