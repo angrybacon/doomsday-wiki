@@ -7,6 +7,8 @@ title: The Basics
 DDEFT is a Doomsday variant set on lining up quick loopable and durable Doomsday
 kills through the card :card[Experimental Frenzy].
 
+::decklist{path=ddeft}
+
 This high value enchantment allows us to work off the top of our deck at the
 cost of losing access to our hand, an ability that is abused in two ways by
 DDEFT. First is in the mechanics of Lion's Eye Diamond which becomes an actual

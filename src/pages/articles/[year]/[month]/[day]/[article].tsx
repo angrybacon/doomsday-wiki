@@ -1,7 +1,11 @@
-import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import type {
+  GetStaticPaths,
+  GetStaticPathsResult,
+  GetStaticProps,
+  NextPage,
+} from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
-import React from 'react';
 import { Card, CardContent, Divider } from '@mui/material';
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
@@ -49,7 +53,7 @@ const ArticlePage: NextPage<Props> = ({
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const articles: Document[] = await getArticles();
-  const paths = articles.map(({ crumbs }) => {
+  const paths: GetStaticPathsResult['paths'] = articles.map(({ crumbs }) => {
     const [year, month, day, article] = crumbs;
     return { params: { article, day, month, year } };
   });
@@ -65,23 +69,18 @@ interface Query extends ParsedUrlQuery {
 
 export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,
-}) => ({
-  props: {
-    decklists: getDecklists(),
-    footer: await getMarkdownPartial('article-footer'),
-    markdown: await getMarkdown({
-      path: join(
-        'articles',
-        /* eslint-disable @typescript-eslint/no-non-null-assertion */
-        params!.year,
-        params!.month,
-        params!.day,
-        params!.article
-        /* eslint-enable @typescript-eslint/no-non-null-assertion */
-      ),
-    }),
-    menu: getMenu(),
-  },
-});
+}) => {
+  const { article, day, month, year } = params as Query;
+  return {
+    props: {
+      decklists: getDecklists(),
+      footer: await getMarkdownPartial({ path: 'article-footer' }),
+      markdown: await getMarkdown({
+        path: join('articles', year, month, day, article),
+      }),
+      menu: getMenu(),
+    },
+  };
+};
 
 export default ArticlePage;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { FunctionComponent } from 'react';
 import { mdiChevronUp } from '@mdi/js';
 import Icon from '@mdi/react';

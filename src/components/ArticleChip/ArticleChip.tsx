@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import Chip, { ChipProps } from '@mui/material/Chip';
 import { alpha } from '@mui/material/styles';
 import { Kind } from '@/tools/markdown/constants/Kind';

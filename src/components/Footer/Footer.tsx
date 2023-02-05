@@ -1,4 +1,3 @@
-import React from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import { Box, Typography } from '@mui/material';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';

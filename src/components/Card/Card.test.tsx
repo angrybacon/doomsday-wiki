@@ -1,4 +1,3 @@
-import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { Card, Props } from '@/components/Card/Card';
 import type { ScryCard } from '@/tools/scryfall/types';

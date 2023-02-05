@@ -14,9 +14,10 @@ type GetChapters = () => Chapter[];
 /** Read file system and return a list of all chapters. */
 export const getChapters: GetChapters = () => {
   const depth = 2;
-  const files = Array.from(walk(BASE_CHAPTER_URL, { depth }));
+  const extension = MARKDOWN_EXTENSION;
+  const files = walk(BASE_CHAPTER_URL, { depth, extension });
   const documents = files.reduce<Chapter[]>((accumulator, crumbs) => {
-    const path = join(BASE_CHAPTER_URL, ...crumbs) + MARKDOWN_EXTENSION;
+    const path = join(BASE_CHAPTER_URL, ...crumbs) + extension;
     // NOTE Only consider complete paths ie. [category, chapter]
     if (crumbs.length === depth) {
       const category = crumbs[0] as Category;

@@ -1,4 +1,3 @@
-import React from 'react';
 import type { HeadingComponent } from 'react-markdown/lib/ast-to-react';
 import Typography from '@mui/material/Typography';
 import { TypographyVariant } from '@mui/material/styles';

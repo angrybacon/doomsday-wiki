@@ -12,19 +12,15 @@ type GetDecklists = () => Decklists;
 
 /** Read file system and return all decklists. */
 export const getDecklists: GetDecklists = () => {
-  const files = Array.from(
-    walk(BASE_DECKLISTS_URL, { extension: DECKLISTS_EXTENSION })
-  );
+  const extension = DECKLISTS_EXTENSION;
+  const files = walk(BASE_DECKLISTS_URL, { extension });
   const decklists = files.reduce<Decklists>((accumulator, crumbs) => {
     const slug = join(...crumbs);
-    const path = join(BASE_DECKLISTS_URL, slug) + DECKLISTS_EXTENSION;
+    const path = join(BASE_DECKLISTS_URL, slug) + extension;
     const decklist: Decklist = readDecklist(path);
     const [titleAsFile, ...dateCrumbs] = crumbs.reverse();
     const date: null | string = formatDate(...dateCrumbs.reverse());
-    return {
-      ...accumulator,
-      [slug]: { ...decklist, date, titleAsFile },
-    };
+    return { ...accumulator, [slug]: { ...decklist, date, titleAsFile } };
   }, {});
   return decklists;
 };

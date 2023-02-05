@@ -1,7 +1,8 @@
 import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
 import { selectAll } from 'unist-util-select';
-import { Node, Test, visit } from 'unist-util-visit';
+import type { Node } from 'unist';
+import { Test, visit } from 'unist-util-visit';
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { Scries, ScryCard, ScryData } from '@/tools/scryfall/types';

@@ -49,16 +49,15 @@ type GetMarkdown = (options: {
 export const getMarkdown: GetMarkdown = async (options) => {
   const { path, root = BASE_MARKDOWN_URL } = options;
   const absolutePath = join(root, path) + MARKDOWN_EXTENSION;
-  const markdown: GrayMatterFile<string> = readMarkdown(absolutePath);
-  const { content, data: matter } = markdown;
+  const { content, data }: GrayMatterFile<string> = readMarkdown(absolutePath);
   const tree: Root = makeTree(content);
   try {
     const scries: Scries = await makeScries(tree);
     const partials: Partials = await makePartials(tree);
-    if (matter.banner) {
-      matter.bannerData = await getBanner(matter.banner);
+    if (data.banner) {
+      data.bannerData = await getBanner(data.banner);
     }
-    return { matter, partials, scries, text: toDirective(content) };
+    return { matter: data, partials, scries, text: toDirective(content) };
   } catch (error) {
     let message = `${error}`;
     if (error instanceof Error) message = error.message;
@@ -66,8 +65,10 @@ export const getMarkdown: GetMarkdown = async (options) => {
   }
 };
 
-type GetMarkdownPartial = (path: string) => Promise<Markdown>;
+export type GetMarkdownPartial = (options: {
+  path: string;
+}) => Promise<Markdown>;
 
 /** Read Mardown content under the provided `path`. */
-export const getMarkdownPartial: GetMarkdownPartial = async (path) =>
+export const getMarkdownPartial: GetMarkdownPartial = async ({ path }) =>
   getMarkdown({ path, root: BASE_PARTIALS_URL });

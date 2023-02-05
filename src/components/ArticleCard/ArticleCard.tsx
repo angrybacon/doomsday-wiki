@@ -1,5 +1,5 @@
 import NextLink from 'next/link';
-import React, { FunctionComponent } from 'react';
+import { FunctionComponent } from 'react';
 import { Card, CardActionArea, CardContent, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';

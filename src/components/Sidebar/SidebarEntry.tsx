@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import React, { forwardRef, useState } from 'react';
+import { forwardRef, useState } from 'react';
 import type { ElementType, FunctionComponent } from 'react';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';

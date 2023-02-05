@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
-import React, { FunctionComponent, useContext } from 'react';
-import { siDiscord } from 'simple-icons/icons';
+import { FunctionComponent, useContext } from 'react';
+import { siDiscord } from 'simple-icons';
 import { mdiLightbulbOff, mdiLightbulbOn } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, Button, IconButton, Toolbar, Tooltip } from '@mui/material';

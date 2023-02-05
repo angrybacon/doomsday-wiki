@@ -1,5 +1,4 @@
 import { GetStaticProps, NextPage } from 'next';
-import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -33,7 +32,7 @@ const LicensePage: NextPage<Props> = ({ decklists, markdown, menu }) => (
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     decklists: getDecklists(),
-    markdown: await getMarkdownPartial('license'),
+    markdown: await getMarkdownPartial({ path: 'license' }),
     menu: getMenu(),
   },
 });

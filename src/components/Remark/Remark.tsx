@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import type { FunctionComponent, ReactNode } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
@@ -20,9 +20,14 @@ import { remarkRow } from '@/tools/remark/remarkRow';
 interface Props {
   decklists: Decklists;
   markdown: Markdown;
+  withWrapper?: boolean;
 }
 
-export const Remark: FunctionComponent<Props> = ({ decklists, markdown }) => {
+export const Remark: FunctionComponent<Props> = ({
+  decklists,
+  markdown,
+  withWrapper = true,
+}) => {
   const { partials, scries, text } = markdown;
 
   /** Vendor plugins to run against the node tree. */
@@ -47,15 +52,19 @@ export const Remark: FunctionComponent<Props> = ({ decklists, markdown }) => {
     [remarkRow, { scries }],
   ];
 
-  return (
-    <Box sx={{ '> :not(p:first-of-type)': { mt: 3 } }}>
-      <ReactMarkdown
-        components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
-        remarkPlugins={[...basePlugins, ...customPlugins]}
-        skipHtml
-      >
-        {text}
-      </ReactMarkdown>
-    </Box>
+  const children: ReactNode = (
+    <ReactMarkdown
+      components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
+      remarkPlugins={[...basePlugins, ...customPlugins]}
+      skipHtml
+    >
+      {text}
+    </ReactMarkdown>
+  );
+
+  return withWrapper ? (
+    <Box sx={{ '> :not(p:first-of-type)': { mt: 3 } }}>{children}</Box>
+  ) : (
+    children
   );
 };

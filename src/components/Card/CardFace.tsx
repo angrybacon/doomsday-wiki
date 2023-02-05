@@ -1,4 +1,3 @@
-import React from 'react';
 import type { FunctionComponent, ReactNode } from 'react';
 import { Box, Fade, Tooltip } from '@mui/material';
 import type { Theme } from '@mui/material/styles';

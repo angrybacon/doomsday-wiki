@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Components } from 'react-markdown';
 import { Link } from '@/components/Link/Link';
 
