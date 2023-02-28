@@ -225,7 +225,7 @@ and win that turn.
 
 I’ve made it to the main stage. I take this photo thinking it’ll be the only time I get there!
 
-PHOTO
+![The Top Tables View](/media/pictures/2023.megacy.finals.jpg)
 
 #### Game 1
 
@@ -362,7 +362,7 @@ Time for the finals. Sahar and I are friends from the LGS where we play in Londo
 for both of us, and I glad to be sharing it with her. I make her play on the main stage so I can get a
 photo of us.
 
-PHOTO
+![Two very cool people, Alex and @saharmirhadi](/media/pictures/2023.megacy.finals.jpg)
 
 #### Game 1
 
