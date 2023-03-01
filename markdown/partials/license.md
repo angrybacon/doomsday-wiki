@@ -7,13 +7,12 @@ The Wiki is unofficial *Magic: the Gathering* fan content permitted under the
 symbols and game mechanics are property of *Wizards of the Coast*. Card arts are
 made available from unaltered [Scryfall's API][scryfall:api] and are copyright
 *Wizard of the Coast* or their respective artist for older sets. For cropped
-arts where the artist line of a card is not visible, the artist is mentioned in
-the accessible text.
+arts where the artist line of a card is not visible, the artists are mentioned
+in the accessible text.
 
-All original code for the Wiki is available under the terms of the
-[MIT][wiki:code-license] license. It was made using [React][js:react] and
-[Next.js][js:next]. For more information about the underlying code, refer to the
-[GitHub repository][wiki:code].
+All original code for the Wiki is available under the terms of the [MIT
+license][code:license]. For more information about the underlying code, refer to
+the [GitHub repository][code:repository].
 
 All original content such as articles and chapters is available under the terms
 of the [Attribution-NonCommercial-NoDerivatives 4.0 International][wiki:license]
@@ -25,12 +24,10 @@ library as well as from the [Simple Icons][icons:simple-icons] library for brand
 icons. Please check their respective licensing for more details, which can be
 adapted from one icon to another.
 
-[icons:mdi]: https://materialdesignicons.com
+[code:license]: https://github.com/angrybacon/doomsday-wiki/blob/master/LICENSE.org
+[code:repository]: https://github.com/angrybacon/doomsday-wiki
+[icons:mdi]: https://pictogrammers.com/library/mdi/
 [icons:simple-icons]: https://simpleicons.org
-[js:next]: https://nextjs.org
-[js:react]: https://reactjs.org
 [scryfall:api]: https://scryfall.com/docs/api
-[wiki:code]: https://github.com/angrybacon/doomsday-wiki
-[wiki:code-license]: https://github.com/angrybacon/doomsday-wiki/blob/master/LICENSE.org
 [wiki:license]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 [wizards:fcp]: https://company.wizards.com/en/legal/fancontentpolicy
