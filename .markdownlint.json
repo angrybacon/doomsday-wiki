@@ -3,5 +3,6 @@
   "emphasis-style": { "style": "asterisk" },
   "line-length": { "headings": false, "tables": false },
   "no-duplicate-heading": { "siblings_only": true },
+  "no-emphasis-as-header": false,
   "string-style": { "style": "asterisk" }
 }
