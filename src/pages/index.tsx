@@ -1,6 +1,6 @@
 import { GetStaticProps, NextPage } from 'next';
 import { useEffect, useRef, useState } from 'react';
-import { Button, Card, CardContent, Grid } from '@mui/material';
+import { Button, ButtonGroup, Card, CardContent, Grid } from '@mui/material';
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
@@ -24,7 +24,10 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
   const articleRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
-  const showMore = () => setSize((previous) => previous + 3);
+  const showMore = (count?: number) => () =>
+    setSize((previous) =>
+      count === undefined ? articles.length : previous + count
+    );
 
   useEffect(() => {
     if (size > ARTICLES_INITIAL_SIZE) {
@@ -57,13 +60,15 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
                 <ArticleCard href={route} matter={matter} />
               </Grid>
             ))}
-            {size < articles.length + 1 && (
-              <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
-                <Button onClick={showMore} variant="outlined">
-                  Show more
-                </Button>
-              </Grid>
-            )}
+            <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
+              <ButtonGroup
+                disabled={size >= articles.length}
+                variant="outlined"
+              >
+                <Button onClick={showMore(2)}>Show more</Button>
+                <Button onClick={showMore()}>Show all</Button>
+              </ButtonGroup>
+            </Grid>
           </Grid>
         </Grid>
       </Grid>
