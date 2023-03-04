@@ -1,7 +1,7 @@
 ---
 authors: EternalRant
 banner: Sheoldred, the Apocalypse
-kind: ARTICLE
+kind: REPORT
 tags: [LEGACY, MEANDECK]
 title: "Axion Mega Legacy February 2023: Second Place Report"
 ---
