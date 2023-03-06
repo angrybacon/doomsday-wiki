@@ -1,6 +1,5 @@
 import NextLink from 'next/link';
 import type { FunctionComponent, ReactNode } from 'react';
-import { mdiNewspaperVariantMultiple } from '@mdi/js';
 import {
   Box,
   Divider,
@@ -74,7 +73,6 @@ export const Sidebar: FunctionComponent<Props> = ({
         <NextLink href="/articles" passHref>
           <SidebarEntry
             component="a"
-            icon={mdiNewspaperVariantMultiple}
             subtitle="Article Archive"
             title="Articles"
           />

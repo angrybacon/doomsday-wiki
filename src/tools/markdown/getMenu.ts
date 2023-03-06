@@ -19,7 +19,7 @@ export const getMenu: GetMenu = () => {
     },
     {}
   );
-  return DECORATIONS.map(({ category, icon, subtitle, title }) => {
+  return DECORATIONS.map(({ category, subtitle, title }) => {
     const pages: Chapter[] = [...menu[category]];
     // NOTE Sort chapters by the `order` frontmatter, no support above 99
     pages.sort((left, right) => {
@@ -27,6 +27,6 @@ export const getMenu: GetMenu = () => {
       const rightValue = right.matter.order ?? 99;
       return leftValue - rightValue;
     });
-    return { category, icon, subtitle, title, pages };
+    return { category, subtitle, title, pages };
   });
 };

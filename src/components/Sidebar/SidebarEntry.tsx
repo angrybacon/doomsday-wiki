@@ -3,7 +3,7 @@ import { forwardRef, useState } from 'react';
 import type { ElementType, FunctionComponent } from 'react';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
-import { ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import { ListItemButton, ListItemText } from '@mui/material';
 import { Category } from '@/tools/markdown/constants/Category';
 import type { Chapter, MenuEntry } from '@/tools/markdown/types';
 import { SidebarEntryPages } from '@/components/Sidebar/SidebarEntryPages';
@@ -19,7 +19,7 @@ type Props = Omit<MenuEntry, 'category' | 'pages'> & {
 export const SidebarEntry: FunctionComponent<Props> = forwardRef<
   HTMLDivElement,
   Props
->(({ category, icon, pages = [], subtitle, title, ...rest }, ref) => {
+>(({ category, pages = [], subtitle, title, ...rest }, ref) => {
   const { asPath, query } = useRouter();
   const currentCategory = `${query.category}`;
   const currentChapter = `${query.chapter}`;
@@ -44,11 +44,6 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
         {...rest}
         {...(hasPages && { onClick: onToggle })}
       >
-        {icon && (
-          <ListItemIcon>
-            <Icon path={icon} size={1} />
-          </ListItemIcon>
-        )}
         <ListItemText
           primary={title}
           secondary={subtitle}
