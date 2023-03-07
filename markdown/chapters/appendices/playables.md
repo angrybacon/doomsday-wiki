@@ -97,7 +97,7 @@ tutor effects anyway for potentially additional card advantage engines. If you
 were to run them, then they would probably replace any tutor effects in your
 deck but are not recommended.
 
-## Baleful Strix
+## Striges
 
 :::row{variant=centered}
 - Baleful Strix
@@ -142,17 +142,18 @@ There are a lot of creatures which could be added to the list above but these
 are the examples picked. The idea in having these creatures is to change the
 style of the deck to enable two angles of attack; the conventional one winning
 with Doomsday and Oracle and the alternate plan which pressures life total.
-Sometimes opponents can overextend with cards like :card[Sylvan Library] to find
-that their life total matters all of a sudden. It also makes them have to
-consider retaining things like removal in a situation where maybe they would
-otherwise prefer to have other types of disruption.
+Sometimes opponents can overextend with cards like :card[Sylvan Library] or
+:card[Ancient Tomb] to find that their life total start mattering all of a
+sudden. It also makes them have to consider retaining things like removal in a
+situation where maybe they would otherwise prefer to have other types of
+disruption.
 
 Sometimes the creature plan is light in the main deck but much heavier after
 sideboarding as part of a partial or complete transformational package. There
 are definitely ways that you can capitalise on the surprise factor as a result
 of it but do be aware, one of the pitfalls in running such a sideboard plan can
-be an over-reliance on transforming and a lack of trust/extreme dilution of the
-plan A.
+be an over-reliance on transforming and a lack of trust or extreme dilution of
+the primary plan.
 
 There are ways you can focus more on the creature plan with the early 2022
 dubbing of *Tempo Doomsday* lists but be warned it will skew certain matchups

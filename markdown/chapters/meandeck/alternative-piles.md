@@ -14,15 +14,13 @@ deck choices or the use of certain sideboard cards and is here to make you aware
 of how some of these tools are utilised in the wild. These are not listed in any
 specific order.
 
-## Shelldock Isle Piles
+## Shelldock Isle
 
 You might see a lot of people running :card[SI] alongside :card[Em] in their
 sideboards. The purpose of these cards is to use them in a pile that is
 effective against blue-based control decks which do not run cards like
 :card[Wasteland]. This pile often requires passing multiple turns and can be
 used in conjunction with Oracle.
-
-> PTT
 
 :::row{variant=PILE}
 - SI
@@ -37,13 +35,13 @@ uncounterable nature, the extra turn on casting (which still works with
 Shelldock!) and the attack for 15 with *Annihilator 6* all make it probably the
 most effective tool to use.
 
-## Piles Using Dragon's Rage Channeler
+## Dragon's Rage Channeler
 
 Some people have tried various creature shells alongside the Doomsday package
 and one of the more interesting ones for use as part of the Doomsday resolution
-is :card[Dragon's Rage Channeler] (DRC). Each non-creature spell cast lets you
-*dig* one additional card deeper through your pile thanks to the *Surveil*
-ability. Let's look at a couple of examples.
+is :card[Dragon's Rage Channeler]. Each non-creature spell cast lets you *dig*
+one additional card deeper through your pile thanks to the *Surveil* ability.
+Let's look at a couple of examples.
 
 > DRC in play + non-Consider castable cantrip in hand
 
@@ -60,7 +58,7 @@ pseudo copy of :card[Con] by giving it a *Surveil 1* effect attached. This
 allows you to perform the basic Consider pile using either :card[Pnd],
 :card[Pre] or :card[BS].
 
-> {U} + DRC in play + non-Brainstorm castable cantrip in hand + X
+> DRC in play + {U} + non-Brainstorm castable cantrip in hand + X
 
 :::row{variant=PILE}
 - SW
@@ -79,14 +77,14 @@ Follow the listed steps:
 1. Cast BS, do not Surveil and put back TO and X
 1. Cast LED, Surveil X into the graveyard
 1. Cycle Edge, holding priority and cracking LED for {U}{U}{U}, draw Oracle
-1. Cast Thassa's Oracle (TO) with an empty library
+1. Cast TO with an empty library
 
 ## Double Oracle Piles
 
 Often you will see people running 2 :card[TO] in the maindeck or 1 main and 1 in
-the side. This card naturally fits into many pre-existing piles which we have
-covered already and give the option to *try and try again* when looking to beat
-cards like :card[Endurance] and :card[Memory's Journey].
+the side. The second copy naturally fits into many pre-existing piles which we
+have covered already and give the option to *try and try again* when looking to
+beat cards like :card[Endurance] and :card[Memory's Journey].
 
 > PTT + {U}{U}
 
@@ -128,8 +126,6 @@ increasing your {U} Devotion.
 These typically pass multiple turns and rely on having a solid manabase already
 developed in play so tend to be part of the slower Doomsday variants.
 
-> PTT + {U}{G}{1}
-
 :::row{variant=PILE}
 - Uro, Titan of Nature's Wrath
 - Island
@@ -137,10 +133,6 @@ developed in play so tend to be part of the slower Doomsday variants.
 - CoS
 - TO
 :::
-
-Or
-
-> PTT + {U}{B}
 
 :::row{variant=PILE}
 - Baleful Strix
@@ -153,8 +145,6 @@ Or
 You can also combine elements to use Teferi to bounce Strix for additional card
 draw and still maintain a higher {U} Devotion.
 
-> PTT + {U}{B}
-
 :::row{variant=PILE}
 - Baleful Strix
 - Tundra
@@ -163,12 +153,12 @@ draw and still maintain a higher {U} Devotion.
 - TO
 :::
 
-## Echo of Eons piles
+## Echo of Eons
 
 You can use :card[EoE] as a larger version of Ideas Unbound or Deep Analysis
 which also interacts favourably with Consider. This is not a commonly used card
-but if you wanted to maybe try and utilise Storm cards or perhaps run additional
-LEDs then it might be useful.
+but if you wanted to maybe try and utilise Storm cards or perhaps ignore
+Endurance for the most part then it might be useful.
 
 In order for these piles to work and not kill you, you must ensure you have at
 least one additional card available either in hand or that you can put into your
@@ -213,6 +203,6 @@ section][ddft:echo] of the Wiki.
 ## Next Steps
 
 You don't need to have anything here memorised but do use the information
-presented here as a way of looking at alternative ways. Perhaps you can build
-piles with either pre-existing cards or maybe trying something a little more
-off-piste.
+presented here as a way of looking for alternative piles. You'll find a lot of
+cards in the format interact with the top of your library without even realizing
+the opportunities from the perspective of Doomsday.

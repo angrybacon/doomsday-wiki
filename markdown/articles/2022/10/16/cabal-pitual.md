@@ -74,7 +74,7 @@ his event went.
 Hello, Romario here again with another tournament report, another Pit Open, more
 doomsday content from me, I am pretty bad at making notes at tournaments so the
 following will be situations I found interesting or moments at the event that
-could be relevant for other doomsday players.
+could be relevant for other Doomsday players.
 
 Little bit about the event, the guys from the Pit Open organized one of the
 larger legacy events last year towards the end of the pandemic when the
@@ -203,7 +203,7 @@ hand with 2 :card[FoW], 2x :card[Murktide Regent], :card[Daze] and a
 I knew Bob was on 8 cast and planned accordingly, g1 I cast a t1 DD backed up by
 a Daze on my opponent's FoW, just made a PTT with some cyclers and a :card[CoS].
 G2 and 3 were pretty similar I cast Sheoldred early but Bob found :card[Karakas]
-and I couldn't resolve a doomsday. G3 on the play I had the option to cast a DD
+and I couldn't resolve a Doomsday. G3 on the play I had the option to cast a DD
 on t1 with a SW in hand instead I went for Sheoldred, speaking with Michael
 *BlackSkyDoc* Yue between rounds I think going for DD was a much better option
 Sheoldred required more resources and wouldn't win the next turn, my reasoning
@@ -244,7 +244,7 @@ won.
 #### Round 12 - Matthew Szabo - Elves
 
 This match was in the featured area but it didn't make it on stream, g1 I made
-what I thought was a pretty clever play, I cast PT for doomsday, Matt cast a
+what I thought was a pretty clever play, I cast PT for Doomsday, Matt cast a
 Fiend Artisan, next they got an Opposition Agent in play using Artisan, which
 normally makes things very difficult for Doomsday since the rogue creature
 doesn't let you search your deck and Doomsday is a search effect, but in this
@@ -454,7 +454,7 @@ Doomsday, and two lands! I cast Duress on the first turn, seeing
 :card[Badlands], Ponder, Expressive Iteration, Doomsday, Murktide Regent,
 Pyroblast and Force of Will. I take Force of Will. They play Badlands. I cast
 another discard spell and see another Force of Will, which I discard. They draw
-and pass the turn. I cast doomsday and get forced, then die to Murktide Regent
+and pass the turn. I cast Doomsday and get forced, then die to Murktide Regent
 four turns later.
 
 > 0-2  
@@ -688,17 +688,17 @@ out a full 6 rounds. - Doishy
 Legacy pit II prep: preparing started the event 6 months prior to the event. Not
 knowing for sure what to play, researching various tournaments and decks. I knew
 delver and GW depths were a large part of the meta, and putting up results in
-recent events. Due to the influence of, the infamous doomsday player, Emidln -
-Brandon a good friend and knowledgeable source. I am familiar and a novice when
-playing traditional Doomsday, but Esper Doomsday inched its way into my sights.
-The play style is similar to my liking, combo player at heart, taking Omnishow
-12-3 back at GP Louisville. And obtained mythic rank in mtg arena the month
-prior to build mental fortitude preparing for the long days of magic. Didn't
-help I was traveling 2am-3pm, by car to STL, plane to CHI met up with Emidln -
-Brandon, to board the plane to Richmond.
+recent events. Due to the influence of, the infamous Doomsday player, *Emidln*
+&mdash; Brandon a good friend and knowledgeable source. I am familiar and a
+novice when playing traditional Doomsday, but Esper Doomsday inched its way into
+my sights. The play style is similar to my liking, combo player at heart, taking
+Omnishow 12-3 back at GP Louisville. And obtained mythic rank in mtg arena the
+month prior to build mental fortitude preparing for the long days of magic.
+Didn't help I was traveling 2am-3pm, by car to STL, plane to CHI met up with
+*Emidln*, to board the plane to Richmond.
 
 Choice of deck/construction theory: Esper Doomsday w/ SFM package. The straight
-forward line of doomsday into :card[Predict] name Thassa's Oracle, mill over
+forward line of Doomsday into :card[Predict] name Thassa's Oracle, mill over
 Oracle, draw into Lotus Petal/:card[Unearth]. Unearth Oracle to win. With
 alternate creature/equipment of BS/SFM/BSkull/KC. SB consisting of the best
 white removal in the format STP and Prismatic Ending , more counter magic in
@@ -710,8 +710,8 @@ most removal in legacy because of the relevant 5 toughness. In consideration and
 deck building, there were times where instead of the SFM package, 4x MurkTide 2x
 Sheoldred was considered for the mainboard.
 
-Emidln - Brandon wanted me to play UR Delver due to it being tier 0. And that I
-had experience with the deck. We played roughly 20 games the night before the
+*Emidln* wanted me to play UR Delver due to it being tier 0. And that I had
+experience with the deck. We played roughly 20 games the night before the
 tournament to determine what deck to play. Either UR or EsperDDay. Ultimately, I
 chose to play Doomsday.
 
@@ -772,7 +772,7 @@ sloppy needing more playtesting, get more sleep before. As for the deck, I was
 wanting Sheoldred and Murktide in the main instead of SFM after the event. I
 felt Sheoldred was a powerful card that the opponent had to answer. Murktide
 would have been better than the non flyer SFM package. Not to mention works
-better with a late game doomsday.
+better with a late game Doomsday.
 
 Tournament was great experience and will be a stop for me in the future.
 

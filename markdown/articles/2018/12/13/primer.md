@@ -539,7 +539,7 @@ you.
 -2 Doomsday  
 +2 Empty the Warrens
 
-Doomsday isn't great in the Delver matchups. They have bolts, a fast clock and
+Doomsday isn't great in the Delver matchups. They have Bolts, a fast clock and
 lots of disruption. Empty the Warrens is a better plan. Often Delver players
 will keep threat-light, disruption-heavy hands and Empty stays relevant
 suprisingly late into the game. Be patient.

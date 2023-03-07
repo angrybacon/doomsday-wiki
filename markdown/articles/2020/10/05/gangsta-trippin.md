@@ -371,7 +371,7 @@ option, after the opponent resolves a Brainstorm (assuming you knew their hand
 prior through discard) or, specifically in the Doomsday mirror, after they have
 resolved a Doomsday. You will need to be wary of trying to do this. Cards like
 Veil of Summer and :card[Leyline of Sanctity] can prevent you targeting the
-opponent and effects that shuffle decks like fetch lands or Surgical Extraction
+opponent and effects that shuffle decks like fetchlands or Surgical Extraction
 can be used to remove potential advantage from using Predict.
 
 ### Looting with Ideas Unbound

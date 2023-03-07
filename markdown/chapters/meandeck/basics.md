@@ -23,8 +23,7 @@ comprise your library after the resolution of Doomsday. This is terminology that
 will be used throughout the Wiki.
 
 There are three steps that need to occur to enable you to win (at least most of
-the time).  
-These are as follows:
+the time):
 
 1. Resolve Doomsday
 1. Draw into your pile enough so that the Oracle's trigger can win you the game
@@ -46,9 +45,10 @@ trickiest element of playing the deck for newer players of the archetype.
 - SW
 :::
 
-The first consideration to make is how you will *dig* into the pile.  
-We will use the phrase *dig* to mean to initially draw into the five cards you
-have stacked with Doomsday.  
+The first consideration to make is how you will *dig* into the pile. We will use
+the phrase *dig* to mean to initially draw into the five cards you have stacked
+with Doomsday.
+
 The most common way to *dig* into your pile is via a *cantrip* effect. This is a
 spell or ability which draws a card upon resolution. Typically this is provided
 by one of the commonly played {U} filter effects like :card[Preordain] or a free
@@ -57,11 +57,11 @@ also simply pass the turn to the opposing player and use your next turn's draw
 step in order to *dig* into the *pile*. When this is performed it is simply
 known as a *pass-the-turn pile* or *PTT pile*.
 
-Once you have decided what method you will *dig* into your pile with you need to
-work out how you are going to get through enough cards that the trigger from
-Thassa's Oracle will win you the game. Sometimes this means having up to two
-cards left in your library on its resolution, other times it means needing to
-have no cards left in your library on resolution. The former is known as an
+Once you have decided what method you will *dig* into your pile with, you need
+to work out how you are going to get through enough cards that the trigger from
+:card[Thassa's Oracle] will win you the game. Sometimes this means having up to
+two cards left in your library on its resolution, other times it means needing
+to have no cards left in your library on resolution. The former is known as an
 *imperfect pile* and the latter a *perfect pile*. An *imperfect pile* is named
 as such because if your opponent is able to remove the Oracle from play prior to
 resolution of its trigger then you will not win the game.
@@ -87,12 +87,12 @@ need {U}{U} + {U}.
 
 > {U} + Brainstorm + X
 
-Sometimes we will use the terminology of X. In this instance X means having any
-single card in hand, irrespective of what that card is. An X card is normally
-used in conjunction with :card[Brainstorm] and thus is rarely cast but we will
-explore more of this in another chapter.
+Sometimes we will use the terminology of *X*. In this instance X means having
+any single card in hand, irrespective of what that card is. An X card is
+normally used in conjunction with :card[Brainstorm] and thus is rarely cast but
+we will explore more of this in another chapter.
 
-## Single Cantrip + Ideas Unbound Pile
+## Single Cantrip Ideas Unbound Piles
 
 > {U}{U} + Cantrip
 
@@ -112,7 +112,7 @@ Will] or :card[Daze] in order to protect it. You can also substitute Street
 Wraith for :card[Edge of Autumn] if you are low on life or a Lotus Petal for a
 :card[Cavern of Souls] if you have a land drop available to you.
 
-## Single Cantrip + Predict Pile
+## Single Cantrip Predict Piles
 
 > {1}{U} + Cantrip
 
@@ -126,16 +126,16 @@ Wraith for :card[Edge of Autumn] if you are low on life or a Lotus Petal for a
 
 This is a slightly different take for people who wish to use :card[Predict] over
 Ideas Unbound. In this example you use your cantrip effect to draw Predict. You
-cast Predict to name the top card of your deck, in this example :card[Ponder],
-drawing the cycle effect and Lion's Eye Diamond (LED). You cast the LED. You
-then cycle, hold priority, and *crack* the LED for {U}{U}{U}.
+cast Predict to name the top card of your deck, in this example Ponder, drawing
+the cycle effect and Lion's Eye Diamond. You cast the LED. You then cycle, hold
+priority, and *crack* the LED for {U}{U}{U}.
 
 *Crack is a colloquial term for activating a mana rock like LED or Lotus Petal
-(LP) or for sacrificing a Fetchland like :card[Polluted Delta].*
+or for sacrificing a Fetchland like :card[Polluted Delta].*
 
-Once the cycle draw resolves, you will now have the mana to cast Oracle.
+Once the cycling effect resolves, you will now have the mana to cast Oracle.
 
-## Double Cantrip Pile
+## Double Cantrip Piles
 
 > Cantrip + Cantrip
 
@@ -159,13 +159,13 @@ If you find yourself constrained on the mana to cast both a cantrip, and one of
 your two mana draw spells but have an additional, useable cantrip in hand then
 you can construct what is known as a *double cantrip* pile. You use the first
 cantrip to draw the LED. Cast it and in response to the second cantrip, *crack*
-the LED for {U}{U}{U}. This will then allow you to draw into the two mana draw
-spell and cast it to draw into Oracle and the LP required for the second {U}.
+the LED for {U}{U}{U}. This will then allow you to draw into the draw spell and
+cast it to draw into Oracle and the LP required to cast it.
 
 In one of those examples above we have included a suggestion where you can
-include protection slots within the pile. If you have the available mana it may
-help you against opponents who are either trying to slow roll their permission
-spells or who are holding something like :card[Stifle] up.
+include protection within the pile. If you have the available mana it may help
+you against opponents who are either trying to slow roll their permission spells
+or who are holding something like :card[Stifle].
 
 ## Consider Piles
 
@@ -182,9 +182,9 @@ spells or who are holding something like :card[Stifle] up.
 If you are low on resources you can utilise the above pile using :card[Consider]
 in conjunction with :card[Deep Analysis]. Consider allows you to put Deep
 Analysis into your graveyard and draw the Lion's Eye Diamond. You can then cast
-the Deep Analysis with Flashback using the Diamond mana. This allows you to then
-draw into additional mana and the Oracle. You can replace Petal with Cavern of
-Souls if you have a land drop available.
+the Deep Analysis with Flashback in order to draw into additional mana and the
+Oracle. You can of course replace Petal with Cavern of Souls if you have a land
+drop available.
 
 Similarly, you can replace the Consider in hand with a cycling effect.
 
@@ -200,14 +200,14 @@ Similarly, you can replace the Consider in hand with a cycling effect.
 
 ## Piles Not Using Predict nor Ideas Unbound
 
-In the event that your draw spell(s) gets exiled, usually by pitching them to
+In the event that your draw spell gets exiled, usually by pitching them to
 Force of Will or through your opponent actions, you need another way of drawing
 into your pile. With enough initial mana, regular cantrips and cyclers will do
 just fine.
 
 If short on mana and LED becomes necessary, you can replicate the *double
-cantrip* piles above once again using the first cantrip to draw into LED, and
-the second cantrip to dig deeper into your pile while cracking the LED for mana.
+cantrip* piles from above using the first cantrip to draw into LED, and the
+second cantrip to dig deeper into your pile while cracking the LED for mana.
 
 > Cantrip + Cantrip
 
@@ -266,8 +266,8 @@ Take the following example:
 
 Here we have a great example of what looks to be a *combo ready hand* however we
 cannot actually go off in the same turn with it. Even if we were to wait one
-more turn we still wouldn't have the guaranteed win unless we draw well and our
-opponent could play some interactive piece that punishes us for waiting.
+more turn we still wouldn't have the guaranteed win and our opponent could very
+well play some interactive piece that punishes us for waiting.
 
 Given we have some protection in hand already, it is probably best to *jam* DR
 into DD off of the Swamp and build something like what we have already seen in
@@ -295,10 +295,8 @@ Or
 - TO
 :::
 
-The first example is a *Single cantrip + Predict* example and the second is a
-*Double Cantrip* example which also allows you to hold up {B} from your swamp to
-cast a Thoughtseize before committing Oracle to the stack. In this second
-example one of the cantrips involved is your draw step.
+The second example also allows you to hold up {B} from your Swamp to cast a
+Thoughtseize before committing Oracle to the stack.
 
 If you are concerned about additional permission from the opponent you could
 even consider passing the turn again if you don't feel under pressure. Instead
@@ -318,10 +316,10 @@ In this example you can draw Predict for turn, play your island and pass again.
 At the end of the opponent's turn you can then cast the Predict, targeting
 yourself and naming Street Wraith, to draw LP and Ponder. This then allows you
 to draw Oracle for your turn and cast it off of Island and LP with double Force
-of Will backup (with Preordain/Ponder as your *pitch* cards). You even have an
-additional {B} available to pay for something like Daze. In the event of trouble
-prior to the Predict, or to protect the Predict itself, you have the first Force
-of Will available.
+of Will backup (with Preordain and Ponder as your *pitch* cards). You even have
+an additional {B} available to pay for something like Daze. In the event of
+trouble prior to the Predict, or to protect the Predict itself, you have the
+first Force of Will available.
 
 ## Get Started
 

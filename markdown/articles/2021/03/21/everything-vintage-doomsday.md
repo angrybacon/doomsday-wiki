@@ -24,7 +24,7 @@ below:
 
 ::decklist{path=2021/03/21/meandeck.diem4x}
 
-Many players come from legacy doomsday to play vintage doomsday, and many wonder
+Many players come from legacy Doomsday to play Vintage Doomsday, and many wonder
 why the deck does not play :card[Cavern of Souls]. The reason is that after
 building a pile, you generally will have a :card[Gush] or :card[Ancestral
 Recall] on top. If the opponent has a counterspell, they aren't going to save it
@@ -101,7 +101,7 @@ the game if it's not answered, while it's still decent vs. all decks that play
 tutors.
 
 **:card[Leyline of the Void]**: you only board it in vs. dredge or other bazaar
-decks, but it's just the most efficient card to play in your doomsday sideboard
+decks, but it's just the most efficient card to play in your Doomsday sideboard
 for that matchup without dedicating too many spots for the matchup.
 
 :::row{variant=CENTERED}

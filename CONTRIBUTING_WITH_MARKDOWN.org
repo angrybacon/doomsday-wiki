@@ -198,7 +198,7 @@ Media embeds are also supported:
 *SoundCloud* widgets. Use the following directive and provide its URL.
 
 #+BEGIN_SRC markdown
-::soundcloud{url=https://soundcloud.com/ddftwiki/a-history-of-doomsday}
+::soundcloud{url=ddftwiki/a-history-of-doomsday}
 #+END_SRC
 
 *YouTube* widgets. Provide the ID typically found in the URL behind the =v=
