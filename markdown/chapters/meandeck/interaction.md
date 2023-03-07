@@ -561,19 +561,20 @@ you* then stay calm, take it as learning and move on.
 - Grindstone
 :::
 
-This is a consideration when facing any Painter variant. You can find yourself
-in a situation whereby your opponent may have an active :card[Grindstone] and
-the mana to activate it but you otherwise have a window to try and win. Just
-like with Surgical Extraction it is difficult to know if and/or when the
-opponent may try to activate the Grindstone but it is possible to play around.
+You can find yourself in a situation whereby your opponent may have an active
+:card[Grindstone] and the mana to activate it but you otherwise have a window to
+try and win. Just like with Surgical Extraction it is difficult to know if
+and/or when the opponent may try to activate the Grindstone but the following
+pile covers all possible cases to resolve the Oracle with at most 2 cards left
+while passing the turn.
 
-> {U}{U} + ({U}{U}) + Cantrip
+> PTT + {U}{U}
 
 :::row{variant=PILE}
-- Pnd
-- Pnd
 - SW
 - EoA
+- TO
+- SW
 - TO
 :::
 
@@ -650,11 +651,12 @@ Ideas Unbound and the Thassa's Oracle itself. You can also utilise piles of just
 three cycling effects or add in Cavern to the mix to protect against other
 effects should it be desired.
 
-### Thought Scour / Predict / Archmage's Charm
+### Thought Scour / Predict / Ipnu Rivulet / Archmage's Charm
 
 :::row{variant=CENTERED}
 - Thought Scour
 - Pdt
+- Ipnu Rivulet
 - Archmage's Charm
 :::
 
@@ -731,6 +733,53 @@ safely ignored however they may cause delay to your pile winning or, in the
 worst case scenario, could take your Oracle out of your hand leaving you unable
 to win. Just be mindful of when these cards could come up if building a PTT
 pile.
+
+### Endurance / Thran Foundry
+
+:::row{variant=CENTERED}
+- Endurance | MH2
+- Thran Foundry
+:::
+
+Generally speaking, beating Endurance(s) and similar effects involves one or
+more insurances amongst the following:
+
+- Simply countering the card
+- An abnormally high devotion to {U} to compensate for the new library size
+- Preventing cards to be put back in your library
+
+With enough resources, you could put permission in your pile in the form of
+:card[Pact of Negation] or even :card[Subtlety]. Do know however that your
+opponents will usually be able to tell how many Forces you're holding with the
+exile pile being public to both players.
+
+As seen in other pile examples, blue permanents or double Oracle piles can be
+enough to simply ignore 1 such effect but that might not be enough if you're
+looking to beat 2 copies of Endurance from your opponent for instance.
+
+To make your life easier you should avoid putting things in your graveyard in
+the first place: with the initial Doomsday already there, if you can limit your
+discarding to just 1 extra card, that means their first Endurance will put back
+at most 2 cards making a perfect pile simply become an imperfect pile with the 2
+devotion count from the Oracle. That means you should prefer things that draw
+more with little waste like :card[IU] and avoid cards that put themselves in the
+graveyard like :card[LP] and cyclers. Beating 2 copies of Endurance in the same
+turn requires more initial {U} mana but is definitely possible:
+
+> PTT + {U}{U}{U}
+
+:::row{variant=PILE}
+- IU
+- SW
+- TO
+- Island
+- SW
+:::
+
+Another option is to exile your graveyard in response to the Endurance effect.
+Anti-graveyard sideboard choices like :card[Relic of Progenitus] or
+:card[Tormod's Crypt] can double as Endurance insulation by putting them in the
+pile or by drawing them naturally.
 
 ## Final Thoughts
 

@@ -131,11 +131,12 @@ Oracle in piles.
 ## Creatures
 
 :::row{variant=centered}
+- Dragon's Rage Channeler
 - Uro, Titan of Nature's Wrath
 - Monastery Mentor
 - Sedgemoor Witch
-- Gurmag Angler
 - Murktide Regent
+- Triumph of Saint Katherine
 :::
 
 There are a lot of creatures which could be added to the list above but these

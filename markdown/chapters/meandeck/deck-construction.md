@@ -292,7 +292,7 @@ Examples of this include counter-magic like :card[Spell Pierce].
 - Tsz
 - Teferi, Time Raveler
 - Baleful Strix
-- Wasteland
+- Grief
 :::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
@@ -362,6 +362,7 @@ from free cycle effects and other interaction.
 - Daze
 - Flusterstorm
 - Veil of Summer
+- Subtlety | MH2
 :::
 
 Reactive interaction is most commonly found in Doomsday lists as either
@@ -517,9 +518,8 @@ in testing.
 ## Pile Cards
 
 :::row{variant=CENTERED}
-- TO
-- EoA
-- IU
+- Relic of Progenitus
+- EoE
 - LED
 - CoS
 :::
@@ -541,6 +541,11 @@ and :card[Jace, Wielder of Mysteries] unfortunately do not display quite the
 same efficiency or efficacy as a win condition of choice.
 
 ### Free Cycle Effects
+
+:::row{variant=CENTERED}
+- SW
+- EoA
+:::
 
 The next set of pile cards to look at are the free cyclers, that is :card[Street
 Wraith] and :card[Edge of Autumn]. In pile building they provide a *free* way to
