@@ -165,7 +165,7 @@ G2) Josh mulligans to 6 and scrys to the top. That scry feels a little
 threatening, I keep a solid hand with a T1 Thoughtseize, T2 Kill. I Thoughtseize
 him, seeing Dark Depths, Stage, Karakas, Snow-covered Forest, Catacombs, and my
 only option of a Duress. Feel quietly hopeful. Turns out his scry was a
-Thoughtseize as well, and he takes my doomsday, and I proceed to cast my only
+Thoughtseize as well, and he takes my Doomsday, and I proceed to cast my only
 cantrip (ponder) find 3 lands, shuffle draw a land, then continue flooding out.
 He Marit Lages on T3 with a petal he drew.
 
@@ -238,8 +238,8 @@ out I don't need my Island to win so Chain and Kill her.
 
 ### Round 5
 
-**Player: ApeofJustice/Doishy
-Opponent: Doishy/ApeofJustic   
+**Player: ApeofJustice / Doishy  
+Opponent: Doishy / ApeofJustic  
 Opposing Deck: THE MIRROR!  
 Result: Madness**
 

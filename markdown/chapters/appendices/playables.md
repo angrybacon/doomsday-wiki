@@ -97,7 +97,7 @@ tutor effects anyway for potentially additional card advantage engines. If you
 were to run them, then they would probably replace any tutor effects in your
 deck but are not recommended.
 
-## Baleful Strix
+## Striges
 
 :::row{variant=centered}
 - Baleful Strix
@@ -131,28 +131,30 @@ Oracle in piles.
 ## Creatures
 
 :::row{variant=centered}
+- Dragon's Rage Channeler
 - Uro, Titan of Nature's Wrath
 - Monastery Mentor
 - Sedgemoor Witch
-- Gurmag Angler
 - Murktide Regent
+- Triumph of Saint Katherine
 :::
 
 There are a lot of creatures which could be added to the list above but these
 are the examples picked. The idea in having these creatures is to change the
 style of the deck to enable two angles of attack; the conventional one winning
 with Doomsday and Oracle and the alternate plan which pressures life total.
-Sometimes opponents can overextend with cards like :card[Sylvan Library] to find
-that their life total matters all of a sudden. It also makes them have to
-consider retaining things like removal in a situation where maybe they would
-otherwise prefer to have other types of disruption.
+Sometimes opponents can overextend with cards like :card[Sylvan Library] or
+:card[Ancient Tomb] to find that their life total start mattering all of a
+sudden. It also makes them have to consider retaining things like removal in a
+situation where maybe they would otherwise prefer to have other types of
+disruption.
 
 Sometimes the creature plan is light in the main deck but much heavier after
 sideboarding as part of a partial or complete transformational package. There
 are definitely ways that you can capitalise on the surprise factor as a result
 of it but do be aware, one of the pitfalls in running such a sideboard plan can
-be an over-reliance on transforming and a lack of trust/extreme dilution of the
-plan A.
+be an over-reliance on transforming and a lack of trust or extreme dilution of
+the primary plan.
 
 There are ways you can focus more on the creature plan with the early 2022
 dubbing of *Tempo Doomsday* lists but be warned it will skew certain matchups
@@ -164,7 +166,7 @@ wrong parts of both sides being found.
 :::row{variant=centered}
 - Predict
 - Night's Whisper
-- Expressive Iteration
+- DA
 - Reckless Impulse
 :::
 
@@ -191,23 +193,12 @@ after Doomsday resolves can be limiting and costly, especially if having to be
 paired with Street Wraith cycles or Force pitch casting. It's a fine card but
 normally gets paired alongside Ideas Unbound rather than replacing it.
 
-:card[Expressive Iteration] is an incredibly potent card with it allowing
-selective filtering and card advantage. Because of the way it is worded you
-could in theory use it to dig into a pile and draw LED, exiling something to
-then be able to cast with said LED. Generally though the mana cost and specific
-wording of it is a little restrictive. Making {U}{R} in a deck that wants to go
-from {B}{B}{B} to {U}{U} can be tricky, especially with so many mana denial
-elements omni-present in the format. The order of operations on the card also
-mean that if you are in a position to cast it with only two cards left in your
-deck, you would put one into your hand and one back into the deck but exile
-none. An excellent card for pre-combo play but not brilliant for after Doomsday
-resolves.
-
 ## Mill Cantrips
 
 :::row{variant=centered}
 - Mental Note
 - Thought Scour
+- Consider
 :::
 
 Before :card[Consider] arrived on the scene, these were two options for being

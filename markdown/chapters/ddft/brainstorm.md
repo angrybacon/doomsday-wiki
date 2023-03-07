@@ -6,13 +6,13 @@ title: Brainstorm in Doomsday
 
 ## Preamble
 
-Brainstorm is one of the most powerful spells available in the Legacy format at
-this time. There have been numerous articles written on this *seemingly
-innocuous at first glance* one mana cantrip. We'll assume you know the basics of
-casting Brainstorm, and instead focus on the specifics of using it as a part of,
-or to initiate, your doomsday piles. In many cases it can be used as any other
-cantrip, but it has unique applications to Doomsday piles, allowing you to swap
-cards in hand for cards in the pile.
+:card[Brainstorm] is one of the most powerful spells available in the Legacy
+format at this time. There have been numerous articles written on this
+*seemingly innocuous at first glance* one mana cantrip. We'll assume you know
+the basics of casting Brainstorm, and instead focus on the specifics of using it
+as a part of &mdash; or to initiate &mdash; your Doomsday piles. In many cases
+it can be used as any other cantrip, but it has unique applications to Doomsday
+piles by allowing you to swap cards in hand for cards in the pile.
 
 One of the more difficult things of playing Doomsday Storm combo is recognizing
 situations where you have the resources to win. Beginning players often start
@@ -61,7 +61,6 @@ The extra card in hand need not be a win condition; any card that you want in
 your pile can be swapped in with Brainstorm.
 
 > BS, LP in hand - {B}{B}{B} + {1}{U}{B} - 9 Storm
-
 
 :::row{variant=PILE}
 - IC
@@ -123,12 +122,12 @@ it.
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast Ponder to draw Brainstorm
-2. Cast Brainstorm, draw LED, SW, Ponder, put back Land, then Ponder
-3. Cast LED, cycle SW, holding priority to crack LED for {U}{U}{U}
-4. Draw Ponder and cast it to draw Oracle
-5. Cast Oracle
-6. Oracle triggers with 1 cards left in the deck to win
+1. Cast Ponder to draw Brainstorm
+1. Cast Brainstorm, draw LED, SW, Ponder, put back Land, then Ponder
+1. Cast LED, cycle SW, holding priority to crack LED for {U}{U}{U}
+1. Draw Ponder and cast it to draw Oracle
+1. Cast Oracle
+1. Oracle triggers with 1 cards left in the deck to win
 
 After you Ponder into the pile, this one is identical to the previous example.
 At the cost of only 1 more mana you can turn your mere Ponder into a fancy

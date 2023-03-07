@@ -13,7 +13,11 @@ export const RemarkSoundcloud: FunctionComponent<Props> = ({ node }) => {
   if (!url) return null;
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
-  const parameters = ['auto_play=false', 'show_comments=true', `url=${url}`];
+  const parameters = [
+    'auto_play=false',
+    'show_comments=true',
+    `url=https://soundcloud.com/${url}`,
+  ];
   return (
     <Box
       allow="autoplay"

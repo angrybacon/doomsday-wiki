@@ -6,22 +6,22 @@ tags: [LEGACY, DDFT]
 title: Doomsday by Committee, Setting the Scene
 ---
 
-> *Eye of twilight, give us sight.*  
-> *Take our offer, give us might.*  
-> *Make our power tears of night.*  
-> *...*  
-> *Guys do we intend to try and beckon forth power through the Eye of twilight?*  
-> *Why, what's wrong with the Eye of twilight?*  
-> *I'm sure there are more powerful entities out there.*  
-> *Like whom?*  
-> *Hanarsh the soul taker? We have virgins right here...*  
-> *No! Look, Eye of twilight is the best otherworldly entity that may be willing
->  to grant unholy power.So he is what we will reach out to. Understand?*  
-> *Fine.*  
-> *Sure.*  
-> *Okay. Where were we....Eye of twilight, give us sight...*  
-> *...*  
-> *Do we really always have to wear black?*
+*Eye of twilight, give us sight.*  
+*Take our offer, give us might.*  
+*Make our power tears of night.*
+
+*Guys do we intend to try and beckon forth power through the Eye of twilight?*  
+*Why, what's wrong with the Eye of twilight?*  
+*I'm sure there are more powerful entities out there.*  
+*Like whom?*  
+*Hanarsh the soul taker? We have virgins right here...*  
+*No! Look, Eye of twilight is the best otherworldly entity that may be willing
+ to grant unholy power.So he is what we will reach out to. Understand?*  
+*Fine.*  
+*Sure.*  
+*Okay. Where were we....Eye of twilight, give us sight...*
+
+*Do we really always have to wear black?*
 
 Hello and welcome to the first of what will hopefully be a series of articles
 whereby some players get together and either observe and discuss live games with
@@ -31,7 +31,7 @@ highlight how different people think and to hopefully provide meaningful
 examples that give lessons others can take away and apply to their own play.
 
 In this first ritual meeting we have two members of the
-*super-secret-shadowy-Doomsday-cabal (TM)*\*
+*super-secret-shadowy-Doomsday-cabal* &trade; \*
 
 d8dk32 and Doishy playing through some games of an MTGO league. Instead of doing
 a complete breakdown of every game instead we'll just focus on some of the more
@@ -47,7 +47,7 @@ The decklist:
 
 ::decklist{path=2018/01/ddft.ubrg}
 
-\* *Super-secret-shadowy-Doomsday-cabal (TM) might not exist...*
+\* *Super-secret-shadowy-Doomsday-cabal &trade; might not exist...*
 
 ## Scenario 1
 
@@ -253,7 +253,7 @@ Doishy's comments:
 > card choices, play choices and similar.*
 
 Hopefully you enjoyed this first installment of Doomsday by Committee. We shall
-hopefully return with more of the *super-secret-shadowy-Doomsday-cabal (TM)*
+hopefully return with more of the *super-secret-shadowy-Doomsday-cabal* &trade;
 that might not exist with further discussion on other play points, opening
 hands, scenarios and occasional puzzles.
 

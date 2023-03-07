@@ -41,7 +41,6 @@ export type Menu = MenuEntry[];
 
 export interface MenuDecoration {
   category: Category;
-  icon: string;
   subtitle: string;
   title: string;
 }

@@ -493,12 +493,12 @@ My hand is thus:
 My draw for the turn was Doomsday. I do a quick assessment to see if I want to
 go for it here. With the opponent having 4 unknowns and a Surgical in hand, I
 figure I should be pretty safe to go for it having access to Force, Veil and
-Pyroblast with the aim to do a *Pass the Turn* (PTT) pile which plays around
-Surgical. I tap my seas and Bayou for {B}{B}{B} and put Doomsday on the stack.
-My opponent looks at his hand and commits a Veil to the stack. This is a pretty
-interesting play. I personally see Veil as either the first thing you commit (as
-the *proactive* player) or the very last thing you try and commit to the stack
-as it can trump things like Flusterstorm that could be played in the matchup.
+Pyroblast with the aim to do a *pass-the-turn* pile which plays around Surgical.
+I tap my seas and Bayou for {B}{B}{B} and put Doomsday on the stack. My opponent
+looks at his hand and commits a Veil to the stack. This is a pretty interesting
+play. I personally see Veil as either the first thing you commit (as the
+*proactive* player) or the very last thing you try and commit to the stack as it
+can trump things like Flusterstorm that could be played in the matchup.
 
 Now this is a good example of where red blast effects can be weak. I would much
 prefer to use the red blast defensively as Force can then be saved for any

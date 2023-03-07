@@ -96,7 +96,7 @@ const customizeTheme = (options: ThemeOptions): Theme => {
         MuiCssBaseline: {
           styleOverrides: {
             blockquote: { margin: 0 },
-            '#__next, html, body': { height: '100%' },
+            '#__next, html, body': { height: '100%', fontSize: 18 },
             em: {
               fontDisplay: 'swap',
               fontFamily: 'Libre Baskerville, serif',
@@ -165,7 +165,6 @@ const customizeTheme = (options: ThemeOptions): Theme => {
       palette,
       shape: { borderRadius: 8, borderRadiusPaper },
       typography: {
-        fontSize: 16,
         h1: { fontSize: typography.pxToRem(64) },
         h2: { fontSize: typography.pxToRem(48) },
         h3: { fontSize: typography.pxToRem(38) },

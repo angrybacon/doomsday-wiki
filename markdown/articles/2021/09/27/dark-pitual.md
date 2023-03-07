@@ -249,8 +249,9 @@ to play for some extra $45.
 In this round I played someone who I considered to be one of the nicest people I
 have met playing this game Michael Mapson. Mike hosts a podcast about Modern and
 Legacy, he also has been putting really good results with this Depths variant,
-by the way this is also another mu doomsday is favored. To be honest I was kinda
-relieved I wouldn't have to play against Ragavan for the third time in a row.
+by the way this is also another matchup where Doomsday is favored. To be honest
+I was kinda relieved I wouldn't have to play against Ragavan for the third time
+in a row.
 
 G1. Like I said previously this is a mu Doomsday is favored, much in the same
 way Doomsday is favored against Mono {G} Post but now you do have to have a plan
@@ -460,7 +461,7 @@ difficult to beat.
 G1 had a quick :card[Doomsday] through :card[Force of Will]+:card[Daze] with
 :card[Duress] + :card[Force of Will] backup and made a ptt (pass-the-=turn) pile
 that passed twice and played around most things except something like triple
-:card[Lightning Bolt] or threat + double bolt.
+:card[Lightning Bolt] or threat + double Bolt.
 
 G2 he just kept a hand with :card[Daze] and no threat. Something of note in that
 G2 that happens in paper play that you don't get online is after I Doomsday'ed
@@ -508,7 +509,7 @@ was finally able to :card[Doomsday] and make a pile that could win if my opp
 egregiously misplays more than once but I messed up the chances by not piling
 Emrakul 2nd so I could :card[Shelldock Isle]. First misbuilt pile of the day.
 
-G3 was just a series of clunky draws that were enough to resolve a doomsday but
+G3 was just a series of clunky draws that were enough to resolve a Doomsday but
 couldn't beat the :card[Pyroblast] in his hand that hit my brainstorm and left
 the Emrakul stranded in my hand while he beat down with his :card[Collector
 Ouphe].
@@ -571,7 +572,7 @@ concerts/festivals are doing in requiring proof of vaccination or a negative
 covid test within 72 hours at the door.
 
 Concerning the deck, Doomsday felt like a great pick for the tourney. 9 rounds
-of doomsday didn't feel that crazy from a mentally taxing standpoint and I'd
+of Doomsday didn't feel that crazy from a mentally taxing standpoint and I'd
 100% choose playing this deck for the next big tournament. Getting the reps in
 and memorizing the majority of common piles went a long way in consolidating
 mental energy throughout the tournament. Only egregiously misbuilding 2 piles in
@@ -1054,7 +1055,7 @@ Vault], 2 :card[Street Wraith], 2 :card[Lotus Petal]
 
 Game 2, we both mull to 6. My opponent opens with :card[Painter's Servant]
 naming {W}, which is not what I want to see with a grip full of Red Blasts and
-cantrips. On my turn, I draw :card[Force of Will] and play a fetch land. My
+cantrips. On my turn, I draw :card[Force of Will] and play a fetchland. My
 opponent casts :card[Grindstone] on his turn, which is met with :card[Force of
 Will] from me. He forces back, I Red Blast his force, and he Forces again. The
 next time he untaps, I lose.

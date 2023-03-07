@@ -38,10 +38,10 @@ increase the number being played. Because of deck construction rules limitations
 in Legacy, this means running other cards to try and locate more copies of
 Doomsday.
 
-The two most common examples are :card[Personal Tutor] (PT) and :card[Lim-Dul's
-Vault] (LDV). Both of these are card disadvantage but allow you to locate a copy
-of Doomsday and place it on top of your deck. Personal Tutor is more favoured
-for faster style lists costing only {U} and is good for setting up earlier combo
+The two most common examples are :card[Personal Tutor] and :card[Lim-Dul's
+Vault]. Both of these are card disadvantage but allow you to locate a copy of
+Doomsday and place it on top of your deck. Personal Tutor is more favoured for
+faster style lists costing only {U} and is good for setting up earlier combo
 turns whilst LDV is slower but has more flexibility by avoiding :card[Chalice of
 the Void] set to X = 1, being an Instant and being able to *tutor* for cards
 other than Sorceries.
@@ -145,21 +145,12 @@ probably need to look to increase your basic land count to four or five.
 Normally you wouldn't consider running a splash basic such as a mountain or
 forest however in the heavier control builds it might be worthwhile.
 
-For example: In an Esper {W}{U}{B} control based Doomsday list you might elect
-to run two Islands, two Swamps and one Plains as your basic lands of choice.
-
-:::row{variant=CENTERED}
-- Island|RAV
-- Swamp|RAV
-- Plains|RAV
-:::
-
 ### Deckbuilding Ratios
 
 The majority of Doomsday lists like to run between fourteen and seventeen lands
 as part of their core manabase. The number tends to decrease with a more
 aggressive playstyle and an increased number of free cycle effects and
-:card[Lotus Petal]s. It is normally split as eight fetch lands, two basics and
+:card[Lotus Petal]s. It is normally split as eight fetchlands, two basics and
 five dual lands with numbers changing based on your preference and playstyle.
 You can supplement your land count with other toolbox lands like :card[Cavern of
 Souls] or :card[Shelldock Isle] however these will be discussed later as part of
@@ -179,6 +170,9 @@ balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 - 2 Flooded Strand
 - 2 Scalding Tarn
 - 2 Misty Rainforest
+
+<!-- -->
+
 - 4 Underground Sea
 - 1 Watery Grave
 - 1 Island
@@ -191,6 +185,9 @@ dual land of the appropriate type here.
 - 4 Polluted Delta
 - 3 Scalding Tarn
 - 1 Bloodstained Mire
+
+<!-- -->
+
 - 3 Underground Sea
 - 1 Volcanic Island
 - 1 Badlands
@@ -198,13 +195,16 @@ dual land of the appropriate type here.
 - 1 Swamp
 
 You can consider swapping basics for additional fetches if you want to be a
-little less resilient vs Wasteland or :card[Blood Moon] effects. Inversely you
+little less resilient vs. Wasteland or :card[Blood Moon] effects. Inversely you
 can also go down to three Seas to add an additional basic land if desired.
 
 #### {W}{U}{B} Control
 
 - 4 Polluted Delta
 - 4 Flooded Strand
+
+<!-- -->
+
 - 2 Underground Sea
 - 1 Tundra
 - 1 Scrubland
@@ -292,7 +292,7 @@ Examples of this include counter-magic like :card[Spell Pierce].
 - Tsz
 - Teferi, Time Raveler
 - Baleful Strix
-- Wasteland
+- Grief
 :::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
@@ -362,6 +362,7 @@ from free cycle effects and other interaction.
 - Daze
 - Flusterstorm
 - Veil of Summer
+- Subtlety | MH2
 :::
 
 Reactive interaction is most commonly found in Doomsday lists as either
@@ -517,15 +518,14 @@ in testing.
 ## Pile Cards
 
 :::row{variant=CENTERED}
-- TO
-- EoA
-- IU
+- Relic of Progenitus
+- EoE
 - LED
 - CoS
 :::
 
 This is probably the most diverse set of cards and might as well be titled
-"miscellaneous" however there are some important pieces in here that are
+*miscellaneous* however there are some important pieces in here that are
 fundamental to the deck. A lot of these cards do have a lot of usage outside of
 the Doomsday pile but their core value/the reason they are in the deck is often
 to be searched up and utilised as part of your combo. In theory almost all of
@@ -542,24 +542,36 @@ same efficiency or efficacy as a win condition of choice.
 
 ### Free Cycle Effects
 
-The next set of pile cards to look at are the free cyclers. When we talk about
-these are meaning :card[Street Wraith] and :card[Edge of Autumn]. In pile
-building they provide a *free* way to draw a card that cannot be countered
-through conventional means. This gives a lot of flexibility and enables a lot of
-the faster, or same turn pile wins. Both tend to be run because sometimes the
-life total can be pressured and you may not have the two life available to cycle
-a Street Wraith, even though it is probably the more useful of the two outside
-of the combo.
+:::row{variant=CENTERED}
+- SW
+- EoA
+:::
+
+The next set of pile cards to look at are the free cyclers, that is :card[Street
+Wraith] and :card[Edge of Autumn]. In pile building they provide a *free* way to
+draw a card that cannot be countered through conventional means. This gives a
+lot of flexibility and enables a lot of the faster, or same turn pile wins. Both
+tend to be run because sometimes the life total can be pressured and you may not
+have the two life available to cycle a Street Wraith, even though it is probably
+the more useful of the two outside of the combo.
 
 Depending on your playstyle you can probably run between one and six of these
 effects. You will want at least one to be able to create Brainstorm piles that
 use LED and a free cycle effect but after that it's up to personal taste. Most
 *turbo* lists will run four to six. Normally one Edge and the rest Wraiths.
 Balanced lists will run two to five, again with at least one Edge and finally
-control or slower lists might only run one to two. If they are just running one
-it is likely just a Street Wraith but either can be fine.
+control or slower lists might only run zero to two. If they are just running one
+it is likely just a Street Wraith.
 
 ### Multi-Draw Spells
+
+:::row{variant=CENTERED}
+- Ideas Unbound
+- NW
+- TW
+- Reckless Impulse
+- DA
+:::
 
 There are a few options for this category but they all do very similar things.
 :card[Ideas Unbound], Predict and :card[Night's Whisper] all allow you to access
@@ -573,13 +585,13 @@ card advantage engine.
 
 ### Lion's Eye Diamond
 
-:card[Lion's Eye Diamond] (or LED) is an incredibly strong card that allows you,
-in your piles, to cheat on mana. It has some limitations in not allowing you to
-use counter magic to protect anything you cast with it but the benefits are so
-large that these are not a concern. It is one of the cards that enables the
-fastest wins and the most mana efficient piles in the deck. You should almost
-always run one as a core card in the deck however any more can be a liability as
-it has almost no use outside of piles (though there are some corner cases).
+:card[Lion's Eye Diamond] is an incredibly strong card that allows you, in your
+piles, to cheat on mana. It has some limitations in not allowing you to use
+counter magic to protect anything you cast with it but the benefits are so large
+that these are not a concern. It is one of the cards that enables the fastest
+wins and the most mana efficient piles in the deck. You should almost always run
+one as a core card in the deck however any more can be a liability as it has
+almost no use outside of piles (though there are some corner cases).
 
 ### Cavern of Souls
 
@@ -601,7 +613,7 @@ turn as you cast Doomsday you can also use it to help resolve the Doomsday in
 the first place and, in a pinch, it can be used defensively too though this is
 certainly not the optimal use of it. If it is run it is normally a single copy
 which can be in the main or side however some do like running more if they want
-to be more aggressive.
+to be more aggressive and draw it naturally.
 
 ### Consider Package
 

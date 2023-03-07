@@ -518,7 +518,7 @@ decks, but it can make some clunky draws and Doomsday doesn't utilize them as
 well as TES does. I don't think I like it enough anymore. Similarly, Defense
 Grid and Xantid Swarm look pretty good on paper but they have their own issues.
 Grid comes down too late, especially if you need to play it through Daze, and
-then opponents start being able to pay for it. Swarm dies to bolt which Delver
+then opponents start being able to pay for it. Swarm dies to Bolt which Delver
 should be keeping in against us, and requires the green land vs a Wasteland
 deck. I think what I really need is more practice against Delver decks so I can
 just tighten up play and gain a few percentage points rather than some magical

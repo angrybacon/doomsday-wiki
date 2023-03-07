@@ -1,3 +1,4 @@
+<!-- markdownlint-disable-next-line first-line-heading -->
 ## angrybacon
 
 Part *Spike*, part *Timmy*, but mostly *Johnny*. Playing exclusively Legacy

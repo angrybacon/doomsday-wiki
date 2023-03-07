@@ -25,7 +25,7 @@ him as a player and his path onto the deck.
 
 The entire interview is available on YouTube and SoundCloud.
 
-::soundcloud{url=https://soundcloud.com/ddftwiki/a-history-of-doomsday}
+::soundcloud{url=ddftwiki/a-history-of-doomsday}
 
 *Note: the raw video is over five hours long so is quite a journey. It also
 includes a lot of segways and general chatter however as I say in it: "the
@@ -281,9 +281,9 @@ friends with people online, chatting via Aim, MSN, IRC, ICQ and a whole host of
 other messaging platforms. He realised he very much enjoyed the idea and style
 of the combo decks that were coming out and was invited to a specialised team
 forums for *Team Blitzkrieg* or BZK for short. On the BZK forums all manner of
-combo decks were being discussed including early Spanish Inquisition lists (SI),
-the aforementioned Iggy Pop and some new decks that would start to evolve into
-more Modern storm lists and Emidln was in the middle of them.
+combo decks were being discussed including early Spanish Inquisition lists, the
+aforementioned Iggy Pop and some new decks that would start to evolve into more
+Modern storm lists and Emidln was in the middle of them.
 
 Spanish Inquistion is a deck that a lot of people still hold very dear to their
 heart to this day. The idea of the deck is to utilise fast mana and ritual
@@ -726,7 +726,7 @@ Emrakul not always aligning fully.
 
 The deck excelled against oppsoing combo and control due to the high amount of
 disruption it ran and the resiliency of the threat base however it was poor
-against oppsoing aggro like Zoo. They could pressure the life total with bolts
+against oppsoing aggro like Zoo. They could pressure the life total with Bolts
 if Doomsday was ever cast and had Karakas for any attempts to use Emrakul. The
 deck eventually fell out of favour due to some very big format changes that
 occurred within 2011.

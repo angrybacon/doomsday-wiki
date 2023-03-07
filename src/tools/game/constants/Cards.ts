@@ -34,6 +34,7 @@ export const CARDS: Record<string, [string, Category[]]> =
     LM:   ['Laboratory Maniac',         []],
     LP:   ['Lotus Petal',               []],
     Mm:   ['Manamorphose',              [Category.DDFT]],
+    NW:   ["Night's Whisper",           [Category.MEANDECK]],
     PT:   ['Personal Tutor',            [Category.MEANDECK]],
     Pdt:  ['Predict',                   [Category.MEANDECK]],
     PiF:  ['Past in Flames',            [Category.DDFT]],

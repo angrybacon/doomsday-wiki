@@ -101,7 +101,7 @@ Dark Ritual as an alternative to LED.
 
 It does the same thing as the other piles, but it doesn't use LED.
 
-Due to the fact that we only need to be making 4 mana each time we loop doomsday
+Due to the fact that we only need to be making 4 mana each time we loop Doomsday
 to eventually cast Tendrils, the pile can be altered to fit in a discard spell
 or bounce spell.
 
