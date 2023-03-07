@@ -166,7 +166,7 @@ wrong parts of both sides being found.
 :::row{variant=centered}
 - Predict
 - Night's Whisper
-- Expressive Iteration
+- DA
 - Reckless Impulse
 :::
 
@@ -193,23 +193,12 @@ after Doomsday resolves can be limiting and costly, especially if having to be
 paired with Street Wraith cycles or Force pitch casting. It's a fine card but
 normally gets paired alongside Ideas Unbound rather than replacing it.
 
-:card[Expressive Iteration] is an incredibly potent card with it allowing
-selective filtering and card advantage. Because of the way it is worded you
-could in theory use it to dig into a pile and draw LED, exiling something to
-then be able to cast with said LED. Generally though the mana cost and specific
-wording of it is a little restrictive. Making {U}{R} in a deck that wants to go
-from {B}{B}{B} to {U}{U} can be tricky, especially with so many mana denial
-elements omni-present in the format. The order of operations on the card also
-mean that if you are in a position to cast it with only two cards left in your
-deck, you would put one into your hand and one back into the deck but exile
-none. An excellent card for pre-combo play but not brilliant for after Doomsday
-resolves.
-
 ## Mill Cantrips
 
 :::row{variant=centered}
 - Mental Note
 - Thought Scour
+- Consider
 :::
 
 Before :card[Consider] arrived on the scene, these were two options for being
