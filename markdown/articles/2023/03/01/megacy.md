@@ -461,5 +461,5 @@ Thanks to everyone who made it this far, I hope you enjoyed the writeup. And
 remember, **A**lways **B**e **C**asting **D**oomsday!
 
 *Doishy's editor sign-off: Thanks so much to Alex for submitting this report to
-publish! Remember anyone is able to submit content to the wiki and we'd love to
+publish! Remember anyone is able to submit content to the Wiki and we'd love to
 see more from the community! Congrats again to Alex!*
