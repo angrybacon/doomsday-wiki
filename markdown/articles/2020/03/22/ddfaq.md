@@ -656,14 +656,11 @@ May you avoid the first horsemen of the apocalypse!
 
 ## Post Script Puzzle
 
-d8dk32 recently forwarded me [a tweet by Stephen
-Menendian][twitter:vintage-turn-one] (designer of the 2012 iteration of Meandeck
-Doomsday) who posted this picture as a turn 1 win in Vintage. It is in fact also
-a deterministic turn 1 kill in Legacy Doomsday too!
+d8dk32 recently forwarded me a tweet by Stephen Menendian (designer of the 2012
+iteration of Meandeck Doomsday) who posted this picture as a turn 1 win in
+Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
-[twitter:vintage-turn-one]: https://twitter.com/SMenendian/status/1242650950415691776
-
-![Vintage turn one by Stephen Menendian](/media/pictures/2020.vintage-turn-one.jpeg)
+::tweet{id=1242650950415691776}
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)
