@@ -66,7 +66,9 @@ both of them. Not bad. I made a couple of changes and submitted my decklist.
 
 ## The Decklist
 
-[LINK TO DECKLIST](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
+[Link to the decklist](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
+
+::decklist{path=2023/03/turbo.fuz65}
 
 ::tweet{id=1632482398716698625}
 
@@ -460,9 +462,9 @@ general idea on how to navigate this scenario. Play Carpet, second main jam
 Doomsday. My hand at this point is Underground Sea, a cycler and Nihil
 Spellbomb. I have Underground Sea and :card[Bayou] in play. The pile has
 Cyclers, Thassa, Cavern and Abrupt Decay. My opponent draws 3 with Library and
-plays :cazrd[Narset, Parter of Veils]. Annoying. I'm gonna need at least one
-more turn. I play Spellbomb and EoT Cycle a Wraith, Marco draws cards down to 3
-life and we finally reach the final turn.
+plays :card[Narset, Parter of Veils]. Annoying. I'm gonna need at least one more
+turn. I play Spellbomb and EoT Cycle a Wraith, Marco draws cards down to 3 life
+and we finally reach the final turn.
 
 Cavern on Wizard.  
 Cast Thassa's Oracle.  

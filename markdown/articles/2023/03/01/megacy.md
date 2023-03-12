@@ -48,7 +48,7 @@ so I swapped a couple of sideboard cards around and I'm ready to go.
 Here's the list I ended up playing
 [link](https://www.moxfield.com/decks/MaLuDHEo60icrr-GNki2xg):
 
-::decklist{path=2023/03/turbo}
+::decklist{path=2023/03/turbo.eternalrant}
 
 This list is pretty stock overall.
 
@@ -452,7 +452,7 @@ I'm less happy with the sideboard.
   spot where I wanted it. I find it's generally a weak card, and I like my
   sideboard cards to be more impactful. I'm thinking of changing the Deep
   Analysis in the main for a Thoughtseize. Then in the sideboard go down 1
-  Duress, 1 CoV and 1 Island, and add 2 removal spells (:Card[Fatal Push] /
+  Duress, 1 CoV and 1 Island, and add 2 removal spells (:card[Fatal Push] /
   :card[Slaughter Pact] / :card[Snuff Out]) and 1 :card[Hurkyl's Recall].
 
 ## Sign-Off
