@@ -45,6 +45,10 @@ import {
   RemarkTableRow,
 } from '@/components/Remark/renderers/RemarkTable';
 import {
+  RemarkTweet,
+  RemarkTweetProps,
+} from '@/components/Remark/renderers/RemarkTweet';
+import {
   RemarkYoutube,
   Props as RemarkYoutubeProps,
 } from '@/components/Remark/renderers/RemarkYoutube';
@@ -79,6 +83,7 @@ export const COMPONENTS_EXTRA: {
   mana: FunctionComponent<RemarkManaProps>;
   row: FunctionComponent<RemarkRowProps>;
   soundcloud: FunctionComponent<RemarkSoundcloudProps>;
+  tweet: FunctionComponent<RemarkTweetProps>;
   youtube: FunctionComponent<RemarkYoutubeProps>;
 } = {
   accordion: RemarkAccordion,
@@ -87,5 +92,6 @@ export const COMPONENTS_EXTRA: {
   mana: RemarkMana,
   row: RemarkRow,
   soundcloud: RemarkSoundcloud,
+  tweet: RemarkTweet,
   youtube: RemarkYoutube,
 };

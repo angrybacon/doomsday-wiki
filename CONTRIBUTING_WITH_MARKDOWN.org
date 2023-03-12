@@ -208,8 +208,11 @@ parameter in the address bar.
 ::youtube{id=3LLIFHv5kbo}
 #+END_SRC
 
-*Twitter* embeds have been removed from the Wiki due to lacking implementation
-and security issues. They may or may not come back in the future.
+*Twitter* embeds. Provide the ID found in a tweet URL. Do note that their
+implemenation can be somewhat unreliable on mobile devices where the bottom end
+of the tweet can be cut hiding relevant links such as likes and comments.
+
+::tweet{id=1574576125535129600}
 
 *** Accordions
 
