@@ -52,7 +52,7 @@ event, as I've already had a couple of decent finishes with it. The sudden surge
 of reanimator decks however, galvanized by the release of :card[Atraxa, Grand
 Unifier], made me reconsider my choice. Esper's sideboarding space is limited
 because of all the removal that you're essentially forced to play for Delver.
-I'd have had to give up on some number of card:[Force of Negation]s and
+I'd have had to give up on some number of :card[Force of Negation]s and
 graveyard hate. The obvious consequence of this was switching to Turbo, even
 though I'm not the biggest :card[Personal Tutor] fan (quite the opposite,
 actually). As far as Turbo Doomsday goes, {B}{U}{G} is easily my favourite
@@ -147,8 +147,8 @@ Matches 0-1
 
 **Game 1** my opponent reveals :card[Yorion, Sky Nomad] plays a Plains and
 passes. I :card[Ponder] and set up a turn 2 Doomsday with double Force backup.
-:[CoS] for Human, :card[Thalia, Guardian of Thraben]. :card[Wasteland] on the
-next turn followed by :card[Rishadan Port] quickly close my window.
+:card[CoS] for Human, :card[Thalia, Guardian of Thraben]. :card[Wasteland] on
+the next turn followed by :card[Rishadan Port] quickly close my window.
 
 **Game 2 and 3** were not particolarly close, just usual DD vs DnT stuff.
 (Doishy's editor comments, "F's in chat for DnT players")
