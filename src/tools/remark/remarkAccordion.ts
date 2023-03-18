@@ -12,8 +12,6 @@ const remarkWithChildren = (directive: Node & ContainerDirective) => {
     console.error(`[remark] Missing title ${location}`);
   } else if (directive.children.length === 1) {
     console.error(`[remark] Missing content ${location}`);
-  } else if (directive.children.length > 2) {
-    console.error(`[remark] Too many children ${location}, prefer a partial`);
   }
 };
 
