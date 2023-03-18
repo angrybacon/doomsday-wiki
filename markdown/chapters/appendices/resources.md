@@ -37,62 +37,65 @@ For Paper Legacy that often involves Doomsday:
 
 Videos from non-regular streamers or Doomsday content creators in Legacy.
 
-| Link                                                                                                     | Colors       | Pilot            | Date           | Language   |
-|----------------------------------------------------------------------------------------------------------|:-------------|------------------|----------------|------------|
-| [League with Doomsday](https://www.youtube.com/watch?v=Gf0uOEQz_Kg)                                      | {W}{U}{B}    | Nevilshute       | October 2022   | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=r4fbt84S0pk)                                      | {U}{B}       | Nevilshute       | July 2022      | English    |
-| [Challenge with Doomsday](https://www.youtube.com/watch?v=uG_Mhi7ukWw)                                   | {U}{B}       | Revenantkioku    | July 2022      | English    |
-| [League with Doomsday ft. Grief](https://www.youtube.com/watch?v=YlzdItzXUWE)                            | {U}{B}       | Revenantkioku    | June 2022      | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=nUgBMZ7OSrE)                                      | {U}{B}       | Revenantkioku    | June 2022      | English    |
-| [League with DDFT](https://www.youtube.com/watch?v=L9t3naK4bhs)                                          | {W}{U}{B}{R} | d8dk32           | May 2022       | English    |
-| [League with Doomsday ft. *Wonderpreaux*](https://www.youtube.com/watch?v=ZIbsSHYfNgk)                   | {U}{B}{R}    | Doishy           | April 2022     | English    |
-| [League with Doomsday ft. *Revenantkioku*](https://www.youtube.com/watch?v=9IsN6XOD8ds)                  | {U}{B}{R}    | Doishy           | April 2022     | English    |
-| [League with Doomsday ft. Yorion](https://www.youtube.com/watch?v=UCtjn48YXGY)                           | {U}{B}{G}    | Doishy           | April 2022     | English    |
-| [League with Doomsday ft. Death's Shadow](https://www.youtube.com/watch?v=sbx6_WIuSR4) (contains ads)    | {U}{B}{R}    | BoshNRoll        | December 2021  | English    |
-| [*MTGBlackSet* coverage vs. WW Pile](https://www.youtube.com/watch?v=Hn3no4hz00s)                        | {U}{B}{R}    | Ferid            | December 2021  | German     |
-| [*MTGBlackSet* coverage vs. Moon Stompy](https://www.youtube.com/watch?v=898Kqa1wiGw)                    | {U}{B}{R}    | Ferid            | November 2021  | German     |
-| [League with Doomsday](https://www.youtube.com/watch?v=5sYA9LsrVLc)                                      | {U}{B}       | Phil Gallagher   | October 2021   | English    |
-| [League with Doomsday ft. *kl0gW*](https://www.youtube.com/watch?v=c5wEEhXjrS0)                          | {U}{B}{W}    | Nathan Lipetz    | October 2021   | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=t6NK3NoHg7M) (contains ads)                       | {U}{B}       | BoshNRoll        | October 2021   | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=W-G6j82dtHM)                                      | {U}{B}{R}    | Bryant Cook      | September 2021 | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=Wn26fq9mAWg)                                      | {U}{B}{R}    | Guma             | August 2021    | Portuguese |
-| [League with Doomsday](https://www.youtube.com/watch?v=yKWIi_DcWkc)                                      | {U}{B}{R}    | MinT             | August 2021    | English    |
-| [League with Doomsday ft. Stoneforge Mystic](https://www.youtube.com/watch?v=mZJMKwtWUbo) (contains ads) | {U}{B}{W}    | BoshNRoll        | August 2021    | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=n8w5lQ2Xbn0)                                      | {U}{B}       | Bryant Cook      | August 2021    | English    |
-| [Primer on Doomsday](https://www.youtube.com/watch?v=RsFCyud45qw)                                        | {U}{B}       | ちばとMTG        | July 2021      | Japanese   |
-| [League with Doomsday post-MH2](https://www.youtube.com/watch?v=Aidkv6ZH87A)                             | {U}{B}{R}    | MinT             | July 2021      | English    |
-| [League with Doomsday ft. *Wonderpreaux*](https://www.youtube.com/watch?v=PMqa-PoH57c)                   | {U}{B}       | Bryant Cook      | June 2021      | English    |
-| [League with with Doomsday](https://www.youtube.com/watch?v=BLubJad3Pnw&t=9770s)                         | {U}{B}       | Nathan Lipetz    | June 2021      | English    |
-| [League with Doomsday ft. Chain of Smog](https://www.youtube.com/watch?v=kvUTvOye8uc)                    | {U}{B}{G}    | MrLee            | June 2021      | English    |
-| [*MTGBlackSet* coverage vs. Urza Echo](https://www.youtube.com/watch?v=MQEco0oCUOA&t=956s)               | {U}{B}{R}    | Ferid            | May 2021       | German     |
-| [Primer on Doomsday](https://www.youtube.com/watch?v=Js6hJ_4K5CU)                                        | {U}{B}{R}    | Nevilshute       | May 2021       | English    |
-| [League with Doomsday ft. *TheJigIsAlwaysUp*](https://www.youtube.com/watch?v=jKqj_6Z0mrQ)               | {U}{B}       | Nathan Lipetz    | April 2021     | English    |
-| [Primer on Doomsday](https://www.youtube.com/watch?v=R76tj2vwp34)                                        | {U}{B}{R}    | Ferid            | April 2021     | German     |
-| [League with Doomsday ft. Chain of Smog](https://www.youtube.com/watch?v=9M0K1Z9bWM0)                    | {U}{B}{G}    | CalebD           | April 2021     | English    |
-| [League with Doomsday ft. *Romariovidal*: part 2](https://www.youtube.com/watch?v=9KzxwRH0vbo)           | {U}{B}{R}    | Hellownewton     | February 2021  | English    |
-| [League with Doomsday ft. *Romariovidal*: part 1](https://www.youtube.com/watch?v=VhzUCmILgj8)           | {U}{B}{R}    | Hellownewton     | February 2021  | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=h1euGB8hQFM)                                      | {U}{B}{R}    | Bryant Cook      | February 2021  | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=pkpixIywm1w)                                      | {U}{B}{R}    | LeFly            | February 2021  | German     |
-| [League with Doomsday](https://www.youtube.com/watch?v=8HlIvDf7iDg)                                      | {U}{B}       | Andreas Mengucci | December 2020  | English    |
-| [Practice games with Doomsday ft. Kai Sawatari](https://www.youtube.com/watch?v=u-kyFx2VJ0c&t=4425s)     | {U}{B}{R}    | Anuraag Das      | December 2020  | English    |
-| [Leagues with Doomsday](https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)        | {U}{B}{R}{G} | Rodrigo Togores  | September 2020 | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=xbrEBHtF1Cs)                                      | {U}{B}{G}    | Julian Knab      | November 2020  | English    |
-| [League with Doomsday ft. *Nevilshute*](https://www.youtube.com/watch?v=JDEXkRw679w)                     | {U}{B}{R}{G} | Julian Knab      | August 2020    | English    |
-| [League with Doomsday ft. Ari Lax](https://www.youtube.com/watch?v=mn4GYFoVrRA)                          | {U}{B}{R}{G} | Jarvis Yu        | July 2020      | English    |
-| [League with Doomsday](https://www.youtube.com/watch?v=eMgfFlx0_10)                                      | {U}{B}{R}    | DK_TTGL          | June 2020      | Portuguese |
-| [Top 8 at the Legacy Titanium Series 1K with DDFT](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)  | {U}{B}{R}    | d8dk32           | August 2017    | English    |
+| Link                                                                                                     | Colors       | Date           | Author            | Language   |
+|----------------------------------------------------------------------------------------------------------|:-------------|----------------|-------------------|------------|
+| [League with Doomsday](https://www.youtube.com/watch?v=sR-mH8vT3Mk)                                      | {U}{B}{G}    | December 2022  | MagicBlogsDe      | German     |
+| [League with Doomsday ft. *Doishy*](https://www.youtube.com/watch?v=aXP08JzTdHA)                         | {U}{B}       | November 2022  | Crucible of Words | English    |
+| [Primer on Doomsday](https://www.youtube.com/watch?v=KqQt8tGJwRc)                                        | {U}{B}       | November 2022  | AmmiO             | English    |
+| [Primer on Doomsday](https://www.youtube.com/watch?v=dVspP1N0u2c)                                        | {U}{B}       | October 2022   | Underground Sea   | Italian    |
+| [League with Doomsday](https://www.youtube.com/watch?v=Gf0uOEQz_Kg)                                      | {W}{U}{B}    | October 2022   | Nevilshute        | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=r4fbt84S0pk)                                      | {U}{B}       | July 2022      | Nevilshute        | English    |
+| [Challenge with Doomsday](https://www.youtube.com/watch?v=uG_Mhi7ukWw)                                   | {U}{B}       | July 2022      | Revenantkioku     | English    |
+| [League with Doomsday ft. Grief](https://www.youtube.com/watch?v=YlzdItzXUWE)                            | {U}{B}       | June 2022      | Revenantkioku     | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=nUgBMZ7OSrE)                                      | {U}{B}       | June 2022      | Revenantkioku     | English    |
+| [League with DDFT](https://www.youtube.com/watch?v=L9t3naK4bhs)                                          | {W}{U}{B}{R} | May 2022       | d8dk32            | English    |
+| [League with Doomsday ft. *Wonderpreaux*](https://www.youtube.com/watch?v=ZIbsSHYfNgk)                   | {U}{B}{R}    | April 2022     | Doishy            | English    |
+| [League with Doomsday ft. *Revenantkioku*](https://www.youtube.com/watch?v=9IsN6XOD8ds)                  | {U}{B}{R}    | April 2022     | Doishy            | English    |
+| [League with Doomsday ft. Yorion](https://www.youtube.com/watch?v=UCtjn48YXGY)                           | {U}{B}{G}    | April 2022     | Doishy            | English    |
+| [League with Doomsday ft. Death's Shadow](https://www.youtube.com/watch?v=sbx6_WIuSR4) (contains ads)    | {U}{B}{R}    | December 2021  | BoshNRoll         | English    |
+| [*MTGBlackSet* coverage vs. WW Pile](https://www.youtube.com/watch?v=Hn3no4hz00s)                        | {U}{B}{R}    | December 2021  | Ferid             | German     |
+| [*MTGBlackSet* coverage vs. Moon Stompy](https://www.youtube.com/watch?v=898Kqa1wiGw)                    | {U}{B}{R}    | November 2021  | Ferid             | German     |
+| [League with Doomsday](https://www.youtube.com/watch?v=5sYA9LsrVLc)                                      | {U}{B}       | October 2021   | Phil Gallagher    | English    |
+| [League with Doomsday ft. *kl0gW*](https://www.youtube.com/watch?v=c5wEEhXjrS0)                          | {U}{B}{W}    | October 2021   | Nathan Lipetz     | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=t6NK3NoHg7M) (contains ads)                       | {U}{B}       | October 2021   | BoshNRoll         | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=W-G6j82dtHM)                                      | {U}{B}{R}    | September 2021 | Bryant Cook       | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=Wn26fq9mAWg)                                      | {U}{B}{R}    | August 2021    | Guma              | Portuguese |
+| [League with Doomsday](https://www.youtube.com/watch?v=yKWIi_DcWkc)                                      | {U}{B}{R}    | August 2021    | MinT              | English    |
+| [League with Doomsday ft. Stoneforge Mystic](https://www.youtube.com/watch?v=mZJMKwtWUbo) (contains ads) | {U}{B}{W}    | August 2021    | BoshNRoll         | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=n8w5lQ2Xbn0)                                      | {U}{B}       | August 2021    | Bryant Cook       | English    |
+| [Primer on Doomsday](https://www.youtube.com/watch?v=RsFCyud45qw)                                        | {U}{B}       | July 2021      | ちばとMTG         | Japanese   |
+| [League with Doomsday post-MH2](https://www.youtube.com/watch?v=Aidkv6ZH87A)                             | {U}{B}{R}    | July 2021      | MinT              | English    |
+| [League with Doomsday ft. *Wonderpreaux*](https://www.youtube.com/watch?v=PMqa-PoH57c)                   | {U}{B}       | June 2021      | Bryant Cook       | English    |
+| [League with with Doomsday](https://www.youtube.com/watch?v=BLubJad3Pnw&t=9770s)                         | {U}{B}       | June 2021      | Nathan Lipetz     | English    |
+| [League with Doomsday ft. Chain of Smog](https://www.youtube.com/watch?v=kvUTvOye8uc)                    | {U}{B}{G}    | June 2021      | MrLee             | English    |
+| [*MTGBlackSet* coverage vs. Urza Echo](https://www.youtube.com/watch?v=MQEco0oCUOA&t=956s)               | {U}{B}{R}    | May 2021       | Ferid             | German     |
+| [Primer on Doomsday](https://www.youtube.com/watch?v=Js6hJ_4K5CU)                                        | {U}{B}{R}    | May 2021       | Nevilshute        | English    |
+| [League with Doomsday ft. *TheJigIsAlwaysUp*](https://www.youtube.com/watch?v=jKqj_6Z0mrQ)               | {U}{B}       | April 2021     | Nathan Lipetz     | English    |
+| [Primer on Doomsday](https://www.youtube.com/watch?v=R76tj2vwp34)                                        | {U}{B}{R}    | April 2021     | Ferid             | German     |
+| [League with Doomsday ft. Chain of Smog](https://www.youtube.com/watch?v=9M0K1Z9bWM0)                    | {U}{B}{G}    | April 2021     | CalebD            | English    |
+| [League with Doomsday ft. *Romariovidal*: part 2](https://www.youtube.com/watch?v=9KzxwRH0vbo)           | {U}{B}{R}    | February 2021  | Hellownewton      | English    |
+| [League with Doomsday ft. *Romariovidal*: part 1](https://www.youtube.com/watch?v=VhzUCmILgj8)           | {U}{B}{R}    | February 2021  | Hellownewton      | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=h1euGB8hQFM)                                      | {U}{B}{R}    | February 2021  | Bryant Cook       | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=pkpixIywm1w)                                      | {U}{B}{R}    | February 2021  | LeFly             | German     |
+| [League with Doomsday](https://www.youtube.com/watch?v=8HlIvDf7iDg)                                      | {U}{B}       | December 2020  | Andreas Mengucci  | English    |
+| [Practice games with Doomsday ft. Kai Sawatari](https://www.youtube.com/watch?v=u-kyFx2VJ0c&t=4425s)     | {U}{B}{R}    | December 2020  | Anuraag Das       | English    |
+| [Leagues with Doomsday](https://www.youtube.com/playlist?list=PLowHzeuy7CRM8N34LB8Oc0XGCLIxB3Q3z)        | {U}{B}{R}{G} | September 2020 | Rodrigo Togores   | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=xbrEBHtF1Cs)                                      | {U}{B}{G}    | November 2020  | Julian Knab       | English    |
+| [League with Doomsday ft. *Nevilshute*](https://www.youtube.com/watch?v=JDEXkRw679w)                     | {U}{B}{R}{G} | August 2020    | Julian Knab       | English    |
+| [League with Doomsday ft. Ari Lax](https://www.youtube.com/watch?v=mn4GYFoVrRA)                          | {U}{B}{R}{G} | July 2020      | Jarvis Yu         | English    |
+| [League with Doomsday](https://www.youtube.com/watch?v=eMgfFlx0_10)                                      | {U}{B}{R}    | June 2020      | DK_TTGL           | Portuguese |
+| [Top 8 at the Legacy Titanium Series 1K with DDFT](https://www.youtube.com/watch?v=VmmR_3pG0Rs&t=38m3s)  | {U}{B}{R}    | August 2017    | d8dk32            | English    |
 
 ## Highlight Reel
 
-Silly or amusing clips from Twitch Streams.
+Silly or amusing clips from live Streams.
 
 - [*Monkeyscantcry* shows the best pile to play around Surgical Extraction](https://www.twitch.tv/videos/564975441)
 - [*Romariovidal* finishes a league in spectacular fashion](https://www.twitch.tv/videos/698945172)
 
 ## Podcasts
 
-For podcasts with consistent Doomsday tags or specific episodes. Assume English
-unless specified otherwise.
+For podcasts with consistent Doomsday tags or specific episodes.
 
 - [Legacy Breakfast](https://legacy-breakfast.com/tag/doomsday/)
 - [Eternal Central](https://www.eternalcentral.com/tag/doomsday/)
