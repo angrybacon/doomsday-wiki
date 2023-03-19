@@ -16,13 +16,21 @@ export const Footer: FunctionComponent<Props> = ({ isClear, sx }) => {
     <Box
       component="footer"
       sx={[
-        { color: 'text.secondary', display: 'flex', justifyContent: 'center' },
+        { color: 'text.secondary', textAlign: 'center' },
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >
-      <Typography variant="caption">
+      <Typography component="p" variant="caption">
         Copyright &copy; 2017-2023 doomsday.wiki contributors. Read the notice
         about <Link href="/license">licenses and resources</Link>.
+      </Typography>
+      <Typography component="p" variant="caption">
+        This page collects anonymous analytics through Vercel. See their
+        GDPR-compliant{' '}
+        <Link href="https://vercel.com/legal/privacy-policy">
+          privacy policy
+        </Link>
+        .
       </Typography>
     </Box>
   );
