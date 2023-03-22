@@ -375,8 +375,8 @@ that Dack shit.
 
 G1: I lose the roll, they lead on Chalice@1, and I can't cast any of my spell in
 hand. Turn 2 Rabblemaster into turn 3 Chandra ends the game in short order. I
-only play lands, and only a Volc and some Grixis fetches, so my identity remains
-a mystery.
+only play lands, and only a Volc and some Grixis fetchlands, so my identity
+remains a mystery.
 
 -4 Cabal Therapy, -1 Conjurer's Bauble  
 +2 Hurkyl's Recall, +1 Echoing Truth, +1 Chain of Vapor, +1 Thoughtseize

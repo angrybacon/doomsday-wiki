@@ -173,7 +173,7 @@ like it.
 
 ## Playing and Sideboarding Concepts
 
-I won't go too in-depth into the way you're supposed to play this deck, in small
+I won't go too in depth into the way you're supposed to play this deck, in small
 parts because [my original article][articles:the-mindkiller] discussed it and
 not much has changed, and mostly because it amounts to "look at hand, assess if
 it can do the thing, attempt to do the thing". But I did want to discuss how the

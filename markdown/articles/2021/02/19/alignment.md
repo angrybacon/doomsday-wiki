@@ -183,10 +183,10 @@ to maximise on the ability to go turn 1 Dark Ritual into Doomsday with Daze
 backup (where applicable) is pretty key.
 
 If budget allows then running the full 4 Seas alongside 3 basics (2 Island / 1
-Swamp) is plenty of safe mana to work with. Your fetches should be 4 Polluted
-Delta, 3-4 {U} based fetches and 0-1 {B} based fetch. Prismatic Vista is not a
-suitable card to run as you really need to prioritse being able to find the
-Underground Seas.
+Swamp) is plenty of safe mana to work with. Your fetchlands should be 4 Polluted
+Delta, 3-4 {U} based fetchlands and 0-1 {B} based fetchland. Prismatic Vista is
+not a suitable card to run as you really need to prioritse being able to find
+the Underground Seas.
 
 Sticking to 2 colours has upsides but also a lot of limitations. Normally
 pre-sideboarding this has no effect as the majority of the 2020 Base Meandeck
@@ -220,9 +220,9 @@ For non-budget builds you should consider having 1 {U}x and 1 {B}x dual of your
 splash main. Some lists may prefer to run 1 main and 1 side in which case the
 {B}x should be the one relegated to the board. When running the splash you still
 only really need a maximum of 3 basics in the same configuration (2 Island / 1
-Swamp) or you can get away with only 1 of each. Again your fetches should be 4
-Polluted Delta, 3-4 {U} based fetches and 0-1 {B} based fetch with normally 3
-Underground Seas being played.
+Swamp) or you can get away with only 1 of each. Again your fetchlands should be
+4 Polluted Delta, 3-4 {U} based fetchlands and 0-1 {B} based fetchland with
+normally 3 Underground Seas being played.
 
 The above changes when Arcum's Astrolabe comes into consideration. Of course the
 first change is turning our basics into Snow-Covered ones (because we are fine

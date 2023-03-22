@@ -301,8 +301,8 @@ E-Tutor. What I fail to do is build a pile that beats :card[Ghost Quarter] and
 double Wasteland thanks to :card[Elvish Reclaimer] and I get cut off the {U}{U}
 for Oracle. Oof.
 
-Game 3 we both keep 7. I can't remember too much but I think play fetches for
-turns 1 and 2. A :card[Null Rod] is jammed by Jons turn 2 so I Brainstorm in
+Game 3 we both keep 7. I can't remember too much but I think I play fetchlands
+for turns 1 and 2. A :card[Null Rod] is jammed by Jons turn 2 so I Brainstorm in
 response. The reasoning here was I only had 2 mana sources and a Doomsday in
 hand. If I find a land or Ritual I can just let Rod resolve. If I find a Petal
 then I Force it and just try to rush things faster. I find no land but I do find

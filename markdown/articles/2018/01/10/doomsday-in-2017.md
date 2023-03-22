@@ -80,7 +80,7 @@ Here are Nanda's opening points:
 
 This block actually contains two points in one as I see it.
 
-### The deck is Inconsistent
+### The Deck is Inconsistent
 
 The idea is that you have to choose whether to use cantrips to sculpt or to hold
 for the combo turn. Doomsday is unique insofar that cantrips double as combo
@@ -91,14 +91,14 @@ I will admit that yes, you do have to make these choices however that is
 unfortunately the core of the deck and the element that makes it unique to both
 TES and ANT. DDFT probably has the most elements of choice and the most
 potential decision points per turn. This is not even taking into account
-actually resolving the namesake card. Use of cantrips and lands/fetches has
-always been the hardest element of the deck and the most crucial. Saying that
-though, the current iterations of the deck I think play the most number of
-cantrips of any. Along with the U combo triplet of Brainstorm, Ponder and
-Gitaxian Probe we also run a number of Preordains and / or Conjurer's Baubles
-both of which add to the cantrip count. We are, like any deck in a game with
-some level of variance, at the whimsy of fate however unlike many decks we do
-have the tools to minimise that variance.
+actually resolving the namesake card. Use of cantrips and fetchlands has always
+been the hardest element of the deck and the most crucial. Saying that though,
+the current iterations of the deck I think play the most number of cantrips of
+any. Along with the {U} combo triplet of Brainstorm, Ponder and Gitaxian Probe
+we also run a number of Preordains and / or Conjurer's Baubles both of which add
+to the cantrip count. We are, like any deck in a game with some level of
+variance, at the whimsy of fate however unlike many decks we do have the tools
+to minimise that variance.
 
 To work through this let us start by looking at our levels of variance,
 specifically, as Nanda mentioned, our opening hands. Mulligans were tracked

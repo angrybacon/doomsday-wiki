@@ -217,7 +217,7 @@ retain all the cards seen from Ponder on the top of your deck and so want the
 option to shuffle them away. You also don't wish to cast the Preordain to
 potentially scry 2 cards to the bottom of your deck that are unwanted to then
 shuffle them back to the top. This is also why it can be beneficial to crack any
-fetches in play prior to casting Preordain.
+fetchland in play prior to casting Preordain.
 
 You should always try and cast Brainstorm in conjucture with a fetchland. With
 this in mind it should rarely be cast on turn 1. The main times this is
@@ -358,7 +358,7 @@ find a window where you know the top of your deck in order to correctly name it
 with Predict. This isn't always the case however and it is common to fall into
 traps of misusing your cantrips in order to setup Predict. Additionally, Predict
 is often the last cantrip you leave in your hand when searching for something. A
-hand of Brainstorm, Fetchland, Ponder, Preordain and Predict will likely start
+hand of Brainstorm, fetchland, Ponder, Preordain and Predict will likely start
 with Brainstorm into Fetch, shuffle, Preordain then Ponder. Assuming you shuffle
 from the Ponder you are left with no knowledge to extract value from the Predict
 with.
@@ -533,7 +533,7 @@ Edge cycling into Brainstorm pile.
 As always a wordy read so thank you for taking the time to work through it. I
 hope the article was enjoyable. It's a tricky subject to broach as there is
 already so many good resources covering the art of cantripping with the basics
-such as pair fetches with Brainstorm or fetch before you Preordain however I
+such as pair fetchlands with Brainstorm or fetch before you Preordain however I
 wanted to try and capture some of the non-intuitive thinking that can be
 associated with playing Meandeck Doomsday.
 

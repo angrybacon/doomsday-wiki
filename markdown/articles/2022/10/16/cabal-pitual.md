@@ -143,7 +143,7 @@ pieces.
 #### Round 5 - Quang Vu - 8-Cast
 
 This round I believe I was sitting at table 2, Michael Yue who was also playing
-vs an 8-cast opponent was at table 3 and Max Carini at table 4. Spoiler alert we
+vs an 8-Cast opponent was at table 3 and Max Carini at table 4. Spoiler alert we
 all won this round!
 
 G1 Opponent cast a turn 1 Chalice but :card[Cabal Ritual] bailed me for a turn 2
@@ -182,7 +182,7 @@ concession a couple of turns later.
 
 #### Round 8 - Ryan Mullens - UR Delver
 
-So I knew my last round of the day would be either delver or 8 cast, it was
+So I knew my last round of the day would be either delver or 8-Cast, it was
 delver, very interesting match, interesting situation in g1, I drew DD at
 exactly 4 life facing a 3/3 :card[Dragon's Rage Channeller], unfortunately my
 hand was :card[DD] + :card[SW], I say unfortunately because at 2 more life I
@@ -198,9 +198,9 @@ hand with 2 :card[FoW], 2x :card[Murktide Regent], :card[Daze] and a
 > 1-2  
 > 7-1
 
-#### Round 9 - Bob Huang - 8 Cast
+#### Round 9 - Bob Huang - 8-Cast
 
-I knew Bob was on 8 cast and planned accordingly, g1 I cast a t1 DD backed up by
+I knew Bob was on 8-Cast and planned accordingly, g1 I cast a t1 DD backed up by
 a Daze on my opponent's FoW, just made a PTT with some cyclers and a :card[CoS].
 G2 and 3 were pretty similar I cast Sheoldred early but Bob found :card[Karakas]
 and I couldn't resolve a Doomsday. G3 on the play I had the option to cast a DD
@@ -275,7 +275,7 @@ Finished in **17th place**, and had a lot of fun playing what is my favorite
 combo deck to play, as for sideboard, I basically followed the guide Max Gilmore
 posted, changed a few things when facing MUs that weren't on the guide, but as a
 rule of thumb, I cut discard and PTs vs decks that play to the board like DnT,
-8cast and Maverick for cars like :card[CoV] and Opposition Agent; for decks that
+8-Cast and Maverick for cars like :card[CoV] and Opposition Agent; for decks that
 could cast problematic permanents I brought Force of Negations. The only card I
 would cut for a next event is :card[Mystic Sanctuary], I know the idea was to
 have a card for slower games which your opponent doesn't attack your lands, I
@@ -415,7 +415,7 @@ PoN
 
 #### Round 5 - Joey Funderburk - 8-Cast
 
-Didn't take many notes for this match vs. 8-cast
+Didn't take many notes for this match vs. 8-Cast
 
 Piles were
 
@@ -511,7 +511,7 @@ I resolve Doomsday on turn two. With Thassa's Oracle already in hand, I make a
 quad-cycle pile with chain of vapor as insurance and win the next turn.
 
 Game 3 &mdash; Mulligan to 5 on the draw. I keep Doomsday, Lotus Petal,
-Brainstorm, Fetchland, Brainstorm. He leads with an allosaurus shepherd and
+Brainstorm, fetchland, Brainstorm. He leads with an allosaurus shepherd and
 follow up with Collector Ouphe. I end up in a position where I can't do a PTT
 pile without dying to a pile of 5/5s and can't win in the same turn due to
 Collector Ouphe.
@@ -702,14 +702,14 @@ Choice of deck/construction theory: Esper Doomsday w/ SFM package. The straight
 forward line of Doomsday into :card[Predict] name Thassa's Oracle, mill over
 Oracle, draw into Lotus Petal/:card[Unearth]. Unearth Oracle to win. With
 alternate creature/equipment of BS/SFM/BSkull/KC. SB consisting of the best
-white removal in the format STP and Prismatic Ending , more counter magic in
-FoN, interaction, a Plains, and Sheoldred. I wanted to play with Sheoldred the
-Apocalypse, with the potential of just changing the game in your favor if you
-resolve, and protect Sheoldred. Every cantrip the opponent has shocks them .
-While every draw and cantrip you play extends the game. Also Sheoldred survives
-most removal in legacy because of the relevant 5 toughness. In consideration and
-deck building, there were times where instead of the SFM package, 4x MurkTide 2x
-Sheoldred was considered for the mainboard.
+white removal in the format STP and Prismatic Ending, more countermagic in FoN,
+interaction, a Plains, and Sheoldred. I wanted to play with Sheoldred, with the
+potential of just changing the game in your favor if you resolve, and protect
+Sheoldred. Every cantrip the opponent has shocks them . While every draw and
+cantrip you play extends the game. Also Sheoldred survives most removal in
+legacy because of the relevant 5 toughness. In consideration and deck building,
+there were times where instead of the SFM package, 4x MurkTide 2x Sheoldred was
+considered for the mainboard.
 
 _Emidln_ wanted me to play UR Delver due to it being tier 0. And that I had
 experience with the deck. We played roughly 20 games the night before the

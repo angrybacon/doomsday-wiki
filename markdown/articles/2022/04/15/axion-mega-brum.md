@@ -192,7 +192,7 @@ stuff. I think I also brought in maybe the Duress, I forget.
 I go to 6 whilst Dylan keeps seven. I Duress him turn 1 with only one valid
 target in :card[Mystical Dispute] and the rest of his hand being Endurance,
 :card[Ice-Fang Coatl], Griffin and some lands. I disrespect Endurance by just
-jamming turn 2 and setting up a pile with double Oracle in and counter magic for
+jamming turn 2 and setting up a pile with double Oracle in and countermagic for
 the first Endurance if needed. In the end I just need one Oracle to get the job
 done.
 

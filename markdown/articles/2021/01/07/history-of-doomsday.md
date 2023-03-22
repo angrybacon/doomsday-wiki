@@ -570,15 +570,16 @@ Sanctity] and the enemy coloured fetchland cycle such as :card[Misty
 Rainforest]. Prior to this, Storm had been mostly limited to using
 :card[Polluted Delta], :card[Flooded Strand] and :card[Bloodstained Mire] as its
 land suite of choice favouring Esper configurations however this new set of
-fetches opened up more possibilities for splashing into {G} or {R} whilst still
-being based in {U}. Along with these new cards, September saw the unbanning of a
-couple of key cards including :card[Entomb]. Entomb allowed {U}{B} reanimator
-strategies to flourish seeing them effectively become efficient tempo decks that
-could make use of :card[Force of Will] and :card[Daze] putting threats like
-:card[Inkwell Leviathan], :card[Blazing Archon] and :card[Iona, Shield of
-Emeria] into play. Because of the appearance of this alongside the NLS decks,
-TES, what was now becoming ANT and the recently unbanned :card[Dream Halls] x
-:card[Show and Tell] deck the format became very combo oriented.
+fetchlands opened up more possibilities for splashing into {G} or {R} whilst
+still being based in {U}. Along with these new cards, September saw the
+unbanning of a couple of key cards including :card[Entomb]. Entomb allowed
+{U}{B} reanimator strategies to flourish seeing them effectively become
+efficient tempo decks that could make use of :card[Force of Will] and
+:card[Daze] putting threats like :card[Inkwell Leviathan], :card[Blazing Archon]
+and :card[Iona, Shield of Emeria] into play. Because of the appearance of this
+alongside the NLS decks, TES, what was now becoming ANT and the recently
+unbanned :card[Dream Halls] x :card[Show and Tell] deck the format became very
+combo oriented.
 
 ## Goodbye Mystical Tutor, Hello Preordain
 
@@ -1127,8 +1128,8 @@ in with {U}{R} eventually becoming the most popular build to make use of them.
 DDFT also was able to adopt both Cruise and Dig depending on the pilot's
 preference. Cruise was both a maindeckable tool and a draw 3 that could be found
 with Burning Wish. Dig allowed the efficient finding of combo elements. Because
-of the myriad of fetches, cantrips and the re-introduction of Lotus Petal into
-lists, Delve could be very quickly fueled. It once again gave DDFT another
+of the myriad of fetchlands, cantrips and the re-introduction of Lotus Petal
+into lists, Delve could be very quickly fueled. It once again gave DDFT another
 slight edge up over the other storm variants in being able to utilise these
 cards effectively.
 
@@ -1176,7 +1177,7 @@ quote from user Oddmtg sums up the day very well:
 What's important to note here is that at this point Emidln had a lot of irl
 stuff going on. Between work and family matters he had been able to devote less
 time to Legacy and the forum/archetype in general. Because of my relative lack
-of commitments and my enthusiasm for the deck , I had stepped up to help
+of commitments and my enthusiasm for the deck, I had stepped up to help
 moderate and subsequently administrate the forums. I was also now very active in
 the community online where possible and thus, when the ban hit, was one of the
 forerunners in trying to piece the deck and the community back together.

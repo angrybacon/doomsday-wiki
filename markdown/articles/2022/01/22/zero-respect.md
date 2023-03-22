@@ -68,7 +68,7 @@ bit more until I want to win. This flexibility is something I value highly.
 
 This one is a funny one and one I have been citing since Oracle was printed.
 People often look at me funny when I say this however it is definitely true. The
-deck pre-Doomsday relies on being able to cantrip, cast counter magic and do the
+deck pre-Doomsday relies on being able to cantrip, cast countermagic and do the
 things that blue decks like to do. Post-Doomsday all you need are some draw
 effects and the ability to make {U}{U}. It's just that awkward bit in the middle
 where you need to find {B}{B}{B} to actually cast Doomsday itself (and on

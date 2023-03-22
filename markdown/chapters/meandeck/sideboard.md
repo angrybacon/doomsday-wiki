@@ -1,6 +1,7 @@
 ---
 authors: Nevilshute, Hulahula, Emidln, Monkeyscantcry, Romariovidal, Doishy
-title: General Sideboard Principles
+order: 6
+title: Sideboarding
 ---
 
 ## Table of Contents
@@ -14,42 +15,37 @@ may change so please consider what decks you expect to face and amend
 accordingly. Some of this will overlap with what is discussed in the [Playing
 Around Interaction](/meandeck/interaction) section.
 
-## Your Deck Construction
-
-### List Assumptions
+## List Assumptions
 
 There will need to be some assumptions made on the list you are playing, even
 despite flex slots available. These assumptions are that you will run, at a
 minimum, the following cards in your main deck configuration:
 
-- 4 Doomsday
+- 4-8 Doomsday
 - 4 Dark Ritual
-- 4 Daze
-- 4 Force of Will
+- 2-3 Lotus Petal
 - 1-2 Street Wraith
 - 1 Edge of Autumn
 - 1 Lion's Eye Diamond
-- 2-3 Lotus Petal
-- 3-4 _Other interaction slots_ such as discard effects or Veil of Summer
-- 1-2 Predict / Ideas Unbound
-- 1-2 _Additional Search_ such as Lim-Dûl's Vault or Personal Tutor
-- 4 Ponder
-- 4 Brainstorm
-- 2-4 Preordain
-- 8 Fetchlands
-- 1-3 Basic lands
-- 5-6 Dual lands
+- 4 Force of Will
+- 3-8 Other interaction slots such as discard effects or Daze
+- 0-3 Pile cards such as Ideas Unbound or Pact of Negation
+- 8-12 Cantrips
+- 1 Consider
+- 8 fetchlands
+- 0-3 Basic lands
+- 4-6 Dual lands
 
 Your list may look very different but hopefully the principles of how to
 calculate what to board in/out remain universal enough that it will still apply,
-even if you are a running a _Turbo_ list or a _Control_ one.
+whether you are a running a _Turbo_ list or a _Control_ one.
 
-### Sideboard Tools
+## Sideboard Tools
 
 Generally, when constructing your sideboard, you need to both have a good grasp
 on what the metagame you are expecting to face looks like and to have cards that
-are applicable to multiple match-ups where possible. Trying to run _silver
-bullets_ for archetypes which you have a bad match-up with, but whose meta
+are applicable to multiple matchups where possible. Trying to run _silver
+bullets_ for archetypes which you have a bad matchup with, but whose meta
 penetration is very low, is a misuse of potential card slots. Likewise,
 dedicating too many slots to a deck that is considered tier 1 could mean you get
 overrun by all the other decks that you are likely to face in a normal, healthy
@@ -58,7 +54,7 @@ metagame.
 Most sideboard tools at your disposal can be attributed to dealing with certain
 types of opposing interaction or game plans, although in some cases, there are
 slots that fulfil multiple roles. Knowing what weaknesses you need to shore up
-in what match-ups, and when to respect something and when to accept / ignore it,
+in what matchups, and when to respect something and when to accept or ignore it,
 is a key skill in general deck construction.
 
 The following categories should be consider broad sub-groups and, like our
@@ -69,17 +65,7 @@ in order to have the required tools available. It should be mentioned that
 diversifying your tools, even with similar effects is a good idea if you expect
 cards like Meddling Mage to be prominent.
 
-We will be discussing the following categories:
-
-1. Permanent removal
-1. Creature removal
-1. Anti-blue
-1. Anti-combo
-1. Anti-graveyard
-1. Mana assets
-1. Alternate win conditions
-
-#### Permanent Removal
+### Permanent Removal
 
 Permanent removal is anything that can deal with hateful interaction such as
 :card[Chalice of the Void], :card[Deafening Silence], :card[Counterbalance],
@@ -100,31 +86,25 @@ You probably want 2-4 slots dedicated to this role. If running four FoN then you
 can consider adding maybe 1-2 extra slots at most or to save those for creature
 removal options.
 
-Some key examples of permanent removal to consider:
-
-- :card[Abrupt Decay]
-- :card[Assasin's Trophy]
-- :card[Abrade]
-- :card[Goblin Cratermaker]
-- :card[Serenity]
-- :card[Teferi's Realm]
-- :card[Chain of Vapor]
-- :card[Pyroblast] / :card[Red Elemental Blast]
-- :card[Pernicious Deed]
-- :card[Echoing Truth]
-- :card[Hurkyl's Recall]
-- :card[Prismatic Ending]
-- :card[Force of Negation]
-
 :::row{variant=CENTERED}
 Abrupt Decay
+Assassin's Trophy
 Abrade
-Prismatic Ending
+Goblin Cratermaker
+Echoing Truth
+Chain of Vapor
+:::
+
+:::row{variant=CENTERED}
+Serenity
 Teferi's Realm
+Pyroblast
+Force of Negation
+Prismatic Ending
 Pernicious Deed
 :::
 
-#### Creature Removal
+### Creature Removal
 
 Creature removal is normally more dedicated for just creatures. A lot of the
 tools listed above can also be used to remove them but below are some of the
@@ -132,25 +112,16 @@ more dedicated options which haven't yet been listed.
 
 You likely want only 1-2 slots dedicated to this role.
 
-Some key examples of creature removal to consider:
-
-- :card[Swords to Plowshares]
-- :card[Fatal Push]
-- :card[Massacre]
-- :card[Drown in the Loch]
-- :card[Toxic Deluge]
-- :card[Dead of Winter]
-- :card[Terminus]
-
 :::row{variant=CENTERED}
 StP
 Fatal Push
 Massacre
-Toxic Deluge
+Drown in the Loch
+Snuff Out
 Terminus
 :::
 
-#### Anti-Blue
+### Anti-Blue
 
 These are cards that tend to be biased towards stopping blue-based strategies
 from interacting favourably. Some may have relevance in other matchups but that
@@ -158,29 +129,25 @@ is their main purpose.
 
 You probably want 1-4 slots dedicated to this role.
 
-Some key examples of anti-blue to consider:
-
-- :card[Silence]
-- :card[Orim's Chant]
-- :card[Pyroblast] / :card[Red Elemental Blast]
-- :card[Veil of Summer]
-- :card[Cavern of Souls] (if not main)
-- :card[Spell Pierce]
-- :card[Flusterstorm]
-- :card[Hope of Ghirapur]
-- :card[Xantid Swarm]
-- :card[Defense Grid]
-- :card[Teferi, Time Raveler]
-
 :::row{variant=CENTERED}
 Silence
+Orim's Chant
+Abeyance
 Pyroblast
+Veil of Summer
+Cavern of Souls
+:::
+
+:::row{variant=CENTERED}
+Spell Pierce
+Flusterstorm
 Hope of Ghirapur
 Defense Grid
 Xantid Swarm
+Teferi, Time Raveler
 :::
 
-#### Anti-Combo
+### Anti-Combo
 
 These are cards that tend to be geared towards preventing other proactive combo
 decks from initiating or implementing their plans. They tend to be cheap
@@ -190,24 +157,16 @@ You probably want 2-4 slots dedicated to this role. As mentioned before you can
 overlap these slots alongside the _1. Permanent Removal_ slots in the form of
 FoN.
 
-Some key examples of anti-combo to consider:
-
-- :card[Veil of Summer]
-- :card[Flusterstorm]
-- :card[Spell Pierce]
-- :card[Mindbreak Trap]
-- :card[Force of Negation]
-- :card[Lavinia, Azorius Renegade]
-
 :::row{variant=CENTERED}
 Veil of Summer
 Flusterstorm
 Spell Pierce
 Mindbreak Trap
 Force of Negation
+Lavinia, Azorius Renegade
 :::
 
-#### Anti-Graveyard
+### Anti-Graveyard
 
 These are cards designed to interact with the graveyard. They tend to remove
 cards from a graveyard, either in a targeted or non-targeted fashion. They
@@ -221,26 +180,16 @@ should suffice. Some tools like Flusterstorm or FoN have very good utility in a
 lot of the matchups that utilise the graveyard so in some circumstances you may
 be able to fight those type of decks without dedicated interaction to bring in.
 
-Some key examples of anti-graveyard to consider:
-
-- :card[Surgical Extraction] (soft)
-- :card[Tormod's Crypt] (soft)
-- :card[Leyline of the Void] (hard)
-- :card[Rest in Peace] (hard)
-- :card[Nihil Spellbomb] (soft)
-- :card[Grafdigger's Cage] (hard)
-- :card[Faerie Macabre] (soft)
-- :card[Relic of Progrenitus] (soft)
-
 :::row{variant=CENTERED}
 Leyline of the Void
 Tormod's Crypt
 Surgical Extraction
 Rest in Peace
-Grafdigger's Cage
+Relic of Progenitus
+Faerie Macabre
 :::
 
-#### Mana Assets
+### Mana Assets
 
 These are cards that help reinforce your manabase in some way. They may be an
 extra instance of a splash colour, additional basis to fight against Wasteland
@@ -249,23 +198,16 @@ strategies or other mana based tools to use.
 This role is the most dependant on your main deck configuration and thus you may
 want between 0-3 slots dedicated to this role.
 
-Some key examples of mana assets to consider:
-
-- :card[Carpet of Flowers]
-- :card[Cavern of Souls] (if not main)
-- Basic lands
-- B/x Splash duals like :card[Badlands] or :card[Bayou]
-- :card[Cabal Ritual]
-
 :::row{variant=CENTERED}
 Carpet of Flowers
 Cavern of Souls
-Snow-Covered Plains
 CR
+Plains
 Bayou
+Badlands
 :::
 
-#### Alternate Win Conditions
+### Alternate Win Conditions
 
 These are cards that can provide an alternate way to win that supplements the
 primary Doomsday plan or, in the case of a complete _transformative sideboard_
@@ -278,21 +220,32 @@ There isn't a recommended number to run for this role however if you are doing a
 full _transformational sideboard_, it may take up the majority of your sideboard
 so be mindful if choosing this strategy.
 
-Some key examples of alternate win conditions to consider:
+:::row{variant=CENTERED}
+Shelldock Isle
+Em
+Divining Witch
+Opposition Agent
+Hullbreacher
+Stoneforge Mystic
+:::
 
-- An additional :card[Thassa's Oracle]
-- :card[Shelldock Isle] and :card[Em]
-- :card[Monastery Mentor]
-- :card[Stoneforge Mystic] alongside :card[Batterskull] and :card[Umezawa's Jitte]
-- :card[Opposition Agent]
-- :card[Hullbreacher]
-- :card[Gurmag Angler]
-- :card[Murktide Regent]
-- :card[Tombstalker]
-- :card[Uro, Titan of Nature's Wrath]
-- :card[Jace, Wielder of Mysteries]
-- :card[Divining Witch]
-- :card[Death's Shadow]
+:::row{variant=CENTERED}
+Sheoldred, the Apocalypse
+Monastery Mentor
+Gurmag Angler
+Murktide Regent
+Tombstalker
+Uro, Titan of Nature's Wrath
+:::
+
+:::row{variant=CENTERED}
+Death's Shadow
+Pack Rat
+Rotting Regisaur
+Dragon's Rage Channeler
+Timeless Dragon
+Triumph of Saint Katherine
+:::
 
 ## Sideboarding Strategies
 
@@ -324,9 +277,9 @@ potentially one or more copies of Predict (unless Predict is your only pile draw
 card). Your mana base will not be pressured so you can aggressively fix by
 fetching dual lands and not need to worry about not being able to achieve {U}{U}
 for Ideas Unbound (if you run it). If the opposing deck includes a lot of hand
-disruption then bringing in cheap interaction such as Veil of Summer, Spell
-Pierce or Flusterstorm if you have it can also help buy time to allow you to
-combo off. Normally removal is not effective against these strategies.
+disruption then bringing in cheap interaction such as Veil of Summer,
+Force of Negation or Flusterstorm if you have it can also help buy time to allow
+you to combo off. Normally removal is not effective against these strategies.
 
 If you are running Leyline of the Void then either mulliganing aggressively for
 it or for a fast combo is a good idea. If you are on a mix of the _softer_
@@ -341,10 +294,9 @@ possible.
 
 Examples of this archetype include:
 
-- LED/Manaless Dredge
-- {B}{R} Reanimator
+- Dredge
+- Reanimator
 - Hogaak variants
-- {U}{B}{R} Phoenix
 
 :::row{variant=CENTERED}
 Griselbrand
@@ -386,7 +338,7 @@ that you can commit to a pass-the-turn pile across multiple turns and still
 manage to circumnavigate the majority of what interaction they can bring.
 
 Any green based examples of this archetype also tend to run Endurance so watch
-out when trying to aggressively go off in the face of no counter magic.
+out when trying to aggressively go off in the face of no countermagic.
 
 Examples of this archetype include:
 
@@ -446,11 +398,11 @@ fighting over their threats if you have the luxury to do so.
 
 Examples of this archetype include:
 
-- {U}{R} Delver
-- {U}{B} Ninjas
-- {U}{B}{G} Stiflenought
-- {U}{G} Infect
-- {U}{B} Shadow
+- Delver
+- Ninjas
+- Stiflenought
+- Infect
+- Shadow
 
 :::row{variant=CENTERED}
 Delver of Secrets
@@ -467,7 +419,7 @@ presence. Often these decks rely on tools like Aether Vial or Green Sun's Zenith
 to increase the speed and likelihood that they can commit their threats to the
 board. They tend to not run stack based or hand based disruption, instead
 relying on permanent based interaction. You want to bring in your permanent and
-creature based removal for these match-ups. You can likely trim elements such as
+creature based removal for these matchups. You can likely trim elements such as
 Duress, Thoughtseize, Cavern of Souls, Pyroblasts or Veil of Summer type
 effects.
 
@@ -580,14 +532,14 @@ heavy hand with little disruption or a disruption heavy hand with no threats.
 Knowing which it is can be difficult but you should try and assess what pieces
 you can ignore and what must be dealt with. The scariest card from a Stompy deck
 is probably Thoughtknot Seer as it represents both disruption and pressure in a
-single card.
+single card. Force of Negation is one of the best tools for beating this
+strategy.
 
 Examples of this archetype include:
 
 - Moon Stompy
-- Eldrazi Stompy
+- Initiative
 - 12 Post
-- Steel Stompy
 
 :::row{variant=CENTERED}
 Chalice of the Void
@@ -613,13 +565,13 @@ Ashiok, Nightmare Weaver is fine.
 Below are a few examples of decks that could fit multiple archetypes and the
 elements to consider when facing them:
 
-#### Urza Echo
+#### 8-Cast
 
-Part Stompy deck and part blue based combo deck. This deck can be difficult to
+Part Stompy deck and part blue based control deck. This deck can be difficult to
 deal with. They will have both Force of Will and Chalice of the Void post board
 so you will want to consider balancing out permanent removal and your anti-blue
-suite for the match. If you run Leyline of the Void then that could be a
-consideration but any soft graveyard interaction is likely a trap to run.
+suite for the match. Better to focus on the 8+ counterspells post board than the
+4 Chalices.
 
 #### Esper Vial
 
@@ -663,6 +615,13 @@ recommend having a go at a sideboard guide writing exercise. Even if you would
 rather try to _netdeck_ one for convenience and end up disregarding your own,
 it's a good way to consider how to approach a matchup and what the relative
 value of the cards in your list, both main and side, have. If you still find you
-struggle with the theory behind a given match-up then please don't be afraid to
+struggle with the theory behind a given matchup then please don't be afraid to
 ask for help but remember, the best help is learning how to work it out yourself
 rather than following a guide by rote!
+
+## Next Steps
+
+Next it's finally time to put everything you have read into practice! Some small
+puzzle scenarios, some drills to try. A little bit of homework if you will. But
+don't worry, it's all open book so remember to re-visit previous chapters if you
+need to!

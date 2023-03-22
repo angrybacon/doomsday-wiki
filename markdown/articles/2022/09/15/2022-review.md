@@ -449,7 +449,7 @@ staple inclusion in this style of deck acting as a speedbump to facilitate
 either side of the deck.
 
 This year has seen the design space of this half and half combo vs. fair plan
-explored in a much more in-depth fashion to a lot more success and popularity
+explored in a much more in depth fashion to a lot more success and popularity
 than before. This is largely thanks to the inclusion of new creatures like
 :card[Malevolent Hermit], :card[Murktide Regent] and :card[Dragon's Rage
 Channeler]. All these creatures have been tried and found to incorporate into
