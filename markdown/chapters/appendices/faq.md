@@ -150,7 +150,7 @@ things but do check first as likely it has been tried and rejected before.
 For a list of *off-meta* cards which have been tried before and discussion on
 them please check out the [playables appendix](/appendices/playables/).
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Drown in the Loch
 - Baleful Strix
 - Careful Study

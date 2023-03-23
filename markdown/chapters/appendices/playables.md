@@ -17,7 +17,7 @@ or considerations it may have associated with it.
 
 ## Quicken
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Quicken
 :::
 
@@ -35,7 +35,7 @@ all accounts other than the colour requirement.
 
 ## Tutors
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Grim Tutor
 - Infernal Tutor
 - Profane Tutor
@@ -76,7 +76,7 @@ speed being lost from its use.
 
 ## Wishes
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Burning Wish
 - Death Wish
 - Wish
@@ -99,7 +99,7 @@ deck but are not recommended.
 
 ## Striges
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Baleful Strix
 - Ice-Fang Coatl
 :::
@@ -115,7 +115,7 @@ creature-centric build.
 
 ## Unearth
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Unearth
 :::
 
@@ -130,7 +130,7 @@ Oracle in piles.
 
 ## Creatures
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Dragon's Rage Channeler
 - Uro, Titan of Nature's Wrath
 - Monastery Mentor
@@ -163,7 +163,7 @@ wrong parts of both sides being found.
 
 ## Multi-Draw Spells
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Predict
 - Night's Whisper
 - DA
@@ -195,7 +195,7 @@ normally gets paired alongside Ideas Unbound rather than replacing it.
 
 ## Mill Cantrips
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Mental Note
 - Thought Scour
 - Consider
@@ -216,7 +216,7 @@ honestly Consider is just better.
 
 ## Echo of Eons
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Echo of Eons
 :::
 
@@ -235,7 +235,7 @@ does the same thing" category of cards.
 
 ## Disruption and Removal
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Drown in the Loch
 - Collective Brutality
 :::
@@ -253,7 +253,7 @@ spells is usually enough.
 
 ## Alternative Discard
 
-:::row{variant=centered}
+:::row{variant=CENTERED}
 - Inquisition of Kozilek
 - Cabal Therapy
 :::

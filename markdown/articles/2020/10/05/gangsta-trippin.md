@@ -246,7 +246,7 @@ Brainstorm. We know that Brainstorm, in conjecture with an additional card in
 hand post-Doomsday resolving, can lead to a deterministic, same-turn win. Let's
 consider the following hand:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR
 - Pnd
 - FoW
@@ -258,7 +258,7 @@ consider the following hand:
 
 In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Underground Sea
 - Polluted Delta
 :::
@@ -412,14 +412,14 @@ targeting our tapped Underground Sea.
 
 Our board is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Underground Sea
 - Polluted Delta
 :::
 
 Our hand is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR
 - EoA
 - FoW
@@ -454,14 +454,14 @@ state and hand:
 
 Our board is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Underground Sea
 - Underground Sea
 :::
 
 Our hand is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR
 - SW
 - Pre
@@ -496,13 +496,13 @@ turn 2. Our opponent has just cantripped turn 1 and passed.
 
 Our board is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Underground Sea
 :::
 
 Our hand is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Daze
 - Island
 - Pre

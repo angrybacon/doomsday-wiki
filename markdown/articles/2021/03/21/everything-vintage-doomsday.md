@@ -254,7 +254,7 @@ Our hand is:
 >    Good things: it can keep Street Wraith. Wraith is a vital card to beating
 >    Brain Freeze.
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DD
 - SW
 - Pre
@@ -369,7 +369,7 @@ Rod], more Revokers, etc?
 
 Our hand is:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Pre
 - Daze
 - FoW

@@ -7,22 +7,22 @@ import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
 import type { ScryCard } from '@/tools/scryfall/types';
 
-enum Variant {
-  CENTERED = 'CENTERED',
-  PILE = 'PILE',
-}
+const VARIANTS = {
+  CENTERED: 'CENTERED',
+  PILE: 'PILE',
+} as const;
 
 const variantStyles: Record<
-  Variant,
+  keyof typeof VARIANTS,
   (theme: Theme) => SystemStyleObject<Theme>
 > = {
-  [Variant.CENTERED]: (theme) => ({
+  CENTERED: (theme) => ({
     ...theme.mixins.gutters,
     justifyContent: 'space-around',
     mx: -1,
     '> *': { flexBasis: '25%', maxWidth: '25%' },
   }),
-  [Variant.PILE]: (theme) => ({
+  PILE: (theme) => ({
     ...gutters(theme),
     bgcolor: alpha(theme.palette.primary.light, 0.1),
     border: 1,
@@ -34,7 +34,7 @@ const variantStyles: Record<
   }),
 };
 
-export interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: {
       cards: { data: ScryCard[]; id?: string }[];
@@ -45,15 +45,14 @@ export interface Props extends ReactMarkdownProps {
 
 export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
   const { cards = [], variant } = node.properties;
-  const variantKey = Object.values(Variant).includes(variant as Variant)
-    ? Variant[variant as keyof typeof Variant]
-    : Variant.CENTERED;
+  const variantKey = variant as keyof typeof VARIANTS;
+  const variantStyle = VARIANTS[variantKey] || VARIANTS.CENTERED;
   return (
     <Box sx={(theme) => theme.mixins.barf}>
       <Box
         sx={[
           { display: 'flex', mx: { xs: -0.25, sm: -0.5, md: -1 } },
-          variantStyles[variantKey],
+          variantStyles[variantStyle],
         ]}
       >
         {cards.map(({ data, id }) => (

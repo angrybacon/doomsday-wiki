@@ -187,7 +187,7 @@ slightly longer game, letting you field additional lands to help play through
 soft counters or make more colored mana. An interesting situation you will
 likely find yourself in is a hand like this:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - City of Brass
 - Gemstone Mine
 - DR
@@ -212,7 +212,7 @@ perfectly with the macro-archetypes.
 
 #### Out
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Doomsday
 - Doomsday
 - Doomsday
@@ -223,7 +223,7 @@ perfectly with the macro-archetypes.
 
 #### In
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Galvanic Relay
 - Galvanic Relay
 - Galvanic Relay
@@ -241,7 +241,7 @@ spells to keep the deck threat-dense, and add a bit more protection.
 
 #### Out
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Thoughtseize
 - Thoughtseize
 - Thoughtseize
@@ -249,7 +249,7 @@ spells to keep the deck threat-dense, and add a bit more protection.
 
 #### In
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Orim's Chant
 - Orim's Chant
 - Prismatic Ending
@@ -265,7 +265,7 @@ based on play vs. draw.
 
 #### Out
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Empty the Warrens
 - Empty the Warrens
 - Empty the Warrens
@@ -273,7 +273,7 @@ based on play vs. draw.
 
 #### In
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Orim's Chant
 - Orim's Chant
 - Orim's Chant
@@ -292,7 +292,7 @@ use this strategy if I trounce someone turn 1 and never see their deck.
 
 #### Out
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Doomsday
 - Doomsday
 - Doomsday
@@ -302,7 +302,7 @@ use this strategy if I trounce someone turn 1 and never see their deck.
 
 #### In
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Prismatic Ending
 - Prismatic Ending
 - Orim's Chant
