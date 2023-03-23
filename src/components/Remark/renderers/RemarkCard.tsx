@@ -4,7 +4,7 @@ import { Link } from '@/components/Link/Link';
 
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
-export interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownProps {
   name?: string;
 }
 

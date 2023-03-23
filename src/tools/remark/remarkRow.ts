@@ -25,7 +25,6 @@ export const remarkRow: Plugin<[{ scries: Scries }]> =
         }
         return { data, id: text.position?.start.offset };
       });
-      // NOTE Augment tree properties with card meta data
       directive.data = {
         ...directive.data,
         hProperties: {

@@ -221,7 +221,7 @@ some real world game examples.
 > You already played a land.  
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR|MMQ
 - DD
 - FoW|EMA
@@ -330,7 +330,7 @@ protect us.
 
 #### If we play Duress and it resolves we see the following hand
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Spell Snare
 - Stifle
 - Scalding Tarn
@@ -364,7 +364,7 @@ find additional protection or free up our mana.
 > Opponent has 6 untapped lands, 4 that can make {U}. 5 cards in hand. We know
 > they have at least 1 Force of Will and blue card.
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR|MMQ
 - DD
 - FoW|EMA
@@ -480,7 +480,7 @@ turn, play a land and have the following hand / board state:
 
 My hand is thus:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DD
 - FoW
 - Daze
@@ -552,7 +552,7 @@ let's break it down from the other side too.
 First we should consider what AgyePA had in hand. On my Doomsday being placed on
 the stack it looked like this:
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DD
 - FoW
 - Daze

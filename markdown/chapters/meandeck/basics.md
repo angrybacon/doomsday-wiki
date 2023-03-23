@@ -254,7 +254,7 @@ Take the following example:
 > Game 1  
 > On the play
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR
 - DD
 - FoW

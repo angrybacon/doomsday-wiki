@@ -380,7 +380,7 @@ that my friend Matt always tells me I shouldn't go for. The sort of hand where I
 just can't help myself and too often get away with. This is my opening 7 (on the
 draw mind).
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR | MMQ
 - DD
 - FoW

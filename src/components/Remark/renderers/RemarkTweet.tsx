@@ -16,13 +16,13 @@ declare global {
   }
 }
 
-export interface RemarkTweetProps {
+interface Props {
   node: ReactMarkdownProps['node'] & {
     properties: { id?: string };
   };
 }
 
-export const RemarkTweet: FunctionComponent<RemarkTweetProps> = ({ node }) => {
+export const RemarkTweet: FunctionComponent<Props> = ({ node }) => {
   const { id } = node.properties;
   const [hasError, setHasError] = useState<boolean>(false);
   const [height, setHeight] = useState<number>(400);

@@ -58,7 +58,7 @@ my sideboard plan for 8-Cast, which will become very relevant later, as I
 realised I did something different every time and suspected the deck to be
 popular (spoiler, it was).
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Force of Negation
 - Flusterstorm
 :::
@@ -120,7 +120,7 @@ something nasty like an :card[Em] under there then I am well and truly fucked.
 But, waiting means more time for them to do whatever they are doing or finding
 disruption. As a result I decided to risk jamming and seeing what happened.
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Shelldock Isle
 :::
 
@@ -255,7 +255,7 @@ off Cavern with a silly amount of interaction available.
 
 What would you have taken here?
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - Lightning Bolt
 - Narset, Parter of Veils
 - Jace, the Mind Sculptor
@@ -427,7 +427,7 @@ small chance to eke in to the top thanks to great breakers if I could smash this
 one out. My opponent snap keeps a 7 and I get a little scared as I have to go
 down to 5. But what a 5 it was! (And yes, of course I was on the play again).
 
-:::row{variant=hand}
+:::row{variant=HAND}
 - DR | MMQ
 - DD
 - FoW
