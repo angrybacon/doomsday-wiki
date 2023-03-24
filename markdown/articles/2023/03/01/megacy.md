@@ -164,11 +164,11 @@ special* pile of [Fetch, Fetch, TO, Land, Land]. He doesn't draw any relevant
 interaction or pressure, and I win 2 turns later (with the help of a cantrip).
 
 :::row{variant=PILE}
-- Polluted Delta
-- Misty Rainforest
-- TO
-- Underground Sea
-- Island
+Polluted Delta
+Misty Rainforest
+TO
+Underground Sea
+Island
 :::
 
 #### Game 2
@@ -362,11 +362,11 @@ was right, but I didn't want to lose this game the same way I lost game 2) and
 my opponent scoops.
 
 :::row{variant=PILE}
-- Sheoldred, the Apocalypse
-- TO
-- CoS
-- TO
-- Island
+Sheoldred, the Apocalypse
+TO
+CoS
+TO
+Island
 :::
 
 > Match 2-1  

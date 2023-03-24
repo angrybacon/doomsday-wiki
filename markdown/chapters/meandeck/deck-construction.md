@@ -47,11 +47,11 @@ the Void] set to X = 1, being an Instant and being able to *tutor* for cards
 other than Sorceries.
 
 :::row{variant=CENTERED}
-- DD
-- PT
-- Lim-Dul's Vault
-- Solve the Equation
-- BW
+DD
+PT
+Lim-Dul's Vault
+Solve the Equation
+BW
 :::
 
 Another option, albeit a slower one again is :card[Solve the Equation]. This
@@ -98,9 +98,9 @@ four :card[Polluted Delta], three :card[Scalding Tarn] and one
 :card[Bloodstained Mire] as your fetchlands of choice.
 
 :::row{variant=CENTERED}
-- Polluted Delta
-- Scalding Tarn
-- Bloodstained Mire
+Polluted Delta
+Scalding Tarn
+Bloodstained Mire
 :::
 
 An eight fetchland configuration is not required with some people opting for
@@ -131,9 +131,9 @@ Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
 lands of choice.
 
 :::row{variant=CENTERED}
-- Underground Sea
-- Tropical Island
-- Bayou
+Underground Sea
+Tropical Island
+Bayou
 :::
 
 The final land type to discuss (for this section) is your basic land count.
@@ -221,9 +221,9 @@ basics to find a ratio that fits your playing style preferences.
 ### Accelerant Choices
 
 :::row{variant=CENTERED}
-- DR
-- LP
-- CR
+DR
+LP
+CR
 :::
 
 Because Legacy can be a very fast and efficient format, additional help is
@@ -269,11 +269,11 @@ example below:
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- EoA
-- TO
+IU
+LP
+LP
+EoA
+TO
 :::
 
 ## Interaction
@@ -288,11 +288,11 @@ Examples of this include counter-magic like :card[Spell Pierce].
 ### Proactive Interaction
 
 :::row{variant=CENTERED}
-- Dur
-- Tsz
-- Teferi, Time Raveler
-- Baleful Strix
-- Grief
+Dur
+Tsz
+Teferi, Time Raveler
+Baleful Strix
+Grief
 :::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
@@ -358,11 +358,11 @@ from free cycle effects and other interaction.
 ### Reactive Interaction
 
 :::row{variant=CENTERED}
-- Force of Will
-- Daze
-- Flusterstorm
-- Veil of Summer
-- Subtlety | MH2
+Force of Will
+Daze
+Flusterstorm
+Veil of Summer
+Subtlety | MH2
 :::
 
 Reactive interaction is most commonly found in Doomsday lists as either
@@ -468,10 +468,10 @@ longer and grindier game most likely.
 ### Cantrip Choices
 
 :::row{variant=CENTERED}
-- BS
-- Pnd
-- Pre
-- Mishra's Bauble
+BS
+Pnd
+Pre
+Mishra's Bauble
 :::
 
 Cantrips are a staple in {U} decks in Legacy and provide the ability to find the
@@ -518,10 +518,10 @@ in testing.
 ## Pile Cards
 
 :::row{variant=CENTERED}
-- Relic of Progenitus
-- EoE
-- LED
-- CoS
+Relic of Progenitus
+EoE
+LED
+CoS
 :::
 
 This is probably the most diverse set of cards and might as well be titled
@@ -543,8 +543,8 @@ same efficiency or efficacy as a win condition of choice.
 ### Free Cycle Effects
 
 :::row{variant=CENTERED}
-- SW
-- EoA
+SW
+EoA
 :::
 
 The next set of pile cards to look at are the free cyclers, that is :card[Street
@@ -566,11 +566,11 @@ it is likely just a Street Wraith.
 ### Multi-Draw Spells
 
 :::row{variant=CENTERED}
-- Ideas Unbound
-- NW
-- TW
-- Reckless Impulse
-- DA
+Ideas Unbound
+NW
+TW
+Reckless Impulse
+DA
 :::
 
 There are a few options for this category but they all do very similar things.

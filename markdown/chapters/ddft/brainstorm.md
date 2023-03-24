@@ -32,11 +32,11 @@ pile, swapping it for additional mana.
 > BS, BW in hand - {B}{B}{B} + {1}{U} - 8 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- SW
-- LP
-- LED
+LED
+IU
+SW
+LP
+LED
 :::
 
 1. Cast Doomsday and build the above pile
@@ -63,11 +63,11 @@ your pile can be swapped in with Brainstorm.
 > BS, LP in hand - {B}{B}{B} + {1}{U}{B} - 9 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- BW
-- LED
-- LED
+IC
+DR
+BW
+LED
+LED
 :::
 
 1. Cast Doomsday and build the above pile
@@ -89,11 +89,11 @@ well.
 > BS, Land in hand - {B}{B}{B} + {U}
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pnd
-- TO
-- Pnd
+LED
+SW
+Pnd
+TO
+Pnd
 :::
 
 1. Cast Doomsday and build the above pile
@@ -114,11 +114,11 @@ it.
 > Ponder, Land in hand - {B}{B}{B} + {U}{U}
 
 :::row{variant=PILE}
-- BS
-- LED
-- SW
-- Pnd
-- TO
+BS
+LED
+SW
+Pnd
+TO
 :::
 
 1. Cast Doomsday and build the above pile

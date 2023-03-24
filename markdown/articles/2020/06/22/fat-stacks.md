@@ -176,11 +176,11 @@ Consider the following example:
 You have resolved Doomsday/drawn into your stack and have {U}{U}{U} available.
 
 :::row{variant=PILE}
-- IU
-- LP
-- EoA
-- Daze
-- TO
+IU
+LP
+EoA
+Daze
+TO
 :::
 
 Where something like a Veil, Duress or Force would require additional cards in
@@ -222,12 +222,12 @@ some real world game examples.
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.
 
 :::row{variant=HAND}
-- DR|MMQ
-- DD
-- FoW|EMA
-- Daze
-- BS|MMQ
-- Dur|PD3
+DR|MMQ
+DD
+FoW|EMA
+Daze
+BS|MMQ
+Dur|PD3
 :::
 
 In this example we have a situation where if we want to win, we have to be able
@@ -241,11 +241,11 @@ single piece of basic interaction, we could consider casting :card[Dark Ritual]
 into Doomsday and build something simple like:
 
 :::row{variant=PILE}
-- IU
-- LP
-- EoA
-- LP
-- TO
+IU
+LP
+EoA
+LP
+TO
 :::
 
 This will allow us to win through a single piece of disruption thanks to the
@@ -284,11 +284,11 @@ it.
 We can easily build a same turn win Brainstorm + LED pile and win.
 
 :::row{variant=PILE}
-- LED
-- EoA
-- IU
-- LP
-- TO
+LED
+EoA
+IU
+LP
+TO
 :::
 
 1. Silence has resolved.
@@ -309,11 +309,11 @@ commit both due to their mana constraints so Daze should be sufficient to
 protect us.
 
 :::row{variant=PILE}
-- LED
-- IU
-- Pnd
-- LP
-- TO
+LED
+IU
+Pnd
+LP
+TO
 :::
 
 1. Veil has resolved.
@@ -331,11 +331,11 @@ protect us.
 #### If we play Duress and it resolves we see the following hand
 
 :::row{variant=HAND}
-- Spell Snare
-- Stifle
-- Scalding Tarn
-- Daze
-- Oko, Thief of Crowns
+Spell Snare
+Stifle
+Scalding Tarn
+Daze
+Oko, Thief of Crowns
 :::
 
 Whereas Veil and Silence (in this instance) have effectively nullified a chunk
@@ -365,14 +365,14 @@ find additional protection or free up our mana.
 > they have at least 1 Force of Will and blue card.
 
 :::row{variant=HAND}
-- DR|MMQ
-- DD
-- FoW|EMA
-- FoW
-- Daze
-- Tsz
-- Pdt
-- LP
+DR|MMQ
+DD
+FoW|EMA
+FoW
+Daze
+Tsz
+Pdt
+LP
 :::
 
 Here we have a scenario where we are not under a huge amount of pressure
@@ -481,11 +481,11 @@ turn, play a land and have the following hand / board state:
 My hand is thus:
 
 :::row{variant=HAND}
-- DD
-- FoW
-- Daze
-- Pyroblast
-- VoS
+DD
+FoW
+Daze
+Pyroblast
+VoS
 :::
 
 #### My Perspective Only
@@ -515,11 +515,11 @@ he sees my hand of two protection elements. He then allows Doomsday to resolve.
 I build the following pile:
 
 :::row{variant=PILE}
-- Pnd
-- EoA
-- TO
-- Pnd
-- DD
+Pnd
+EoA
+TO
+Pnd
+DD
 :::
 
 Now there are a few things to note here. First and foremost this was not the
@@ -553,11 +553,11 @@ First we should consider what AgyePA had in hand. On my Doomsday being placed on
 the stack it looked like this:
 
 :::row{variant=HAND}
-- DD
-- FoW
-- Daze
-- SE
-- VoS
+DD
+FoW
+Daze
+SE
+VoS
 :::
 
 Almost identical in fact however he knew he had a Daze on the top of his deck.
@@ -594,11 +594,11 @@ This way if I had built a pile that had to pass the turn once more, he could
 just try and win.
 
 :::row{variant=PILE}
-- EoA
-- SW
-- VoS
-- TO
-- CoS
+EoA
+SW
+VoS
+TO
+CoS
 :::
 
 Unfortunately in this instance it was not the case so when I led on Veil, he
@@ -645,11 +645,11 @@ As I said before the pile I made was based on a faulty assumption. What I should
 have built was something along the lines of:
 
 :::row{variant=PILE}
-- Pnd
-- Pnd
-- TO
-- Pnd
-- Pnd
+Pnd
+Pnd
+TO
+Pnd
+Pnd
 :::
 
 The only variant to this would be that I had used some Ponders previously
@@ -657,11 +657,11 @@ therefore, to maximise the information hidden from my opponent building
 something like the below may be better. At least in a tournament setting.
 
 :::row{variant=PILE}
-- Pnd
-- Pre
-- TO
-- Pnd
-- Pre
+Pnd
+Pre
+TO
+Pnd
+Pre
 :::
 
 This gives only one potential *dead* draw that forces you to pass the turn again
@@ -676,11 +676,11 @@ noticed he would have needed to have multiple turns of passing to have managed
 to play Oracle. He probaly should have built something like:
 
 :::row{variant=PILE}
-- IU
-- CoS
-- VoS
-- EoA
-- TO
+IU
+CoS
+VoS
+EoA
+TO
 :::
 
 With the above he basically would be brute forcing through Oracle with his Force

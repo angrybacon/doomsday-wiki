@@ -29,12 +29,12 @@ game before your opponent establishes a board presence, but it can still be
 effective later on depending on the matchup. Consider the following hand:
 
 :::row{variant=HAND}
-- DR
-- VoS
-- LED
-- LP
-- LP
-- BW
+DR
+VoS
+LED
+LP
+LP
+BW
 :::
 
 Ideally, you can play out your mana artifacts, cast Veil, and then the Dark
@@ -85,13 +85,13 @@ land drop you can use this to generate mana after Echo.
 Consider the following situation, where your opening 7 looks like this:
 
 :::row{variant=HAND}
-- LED
-- LED
-- Scalding Tarn
-- LP
-- Island
-- EoE
-- Scalding Tarn
+LED
+LED
+Scalding Tarn
+LP
+Island
+EoE
+Scalding Tarn
 :::
 
 This is likely a keep and you should strongly consider spinning the wheel on
@@ -187,13 +187,13 @@ simply have to take a risk and go for a natural storm kill without a Wish in
 hand. Perhaps your hand looks like this:
 
 :::row{variant=HAND}
-- LED
-- LED
-- LP
-- LP
-- DR
-- DR
-- Pnd
+LED
+LED
+LP
+LP
+DR
+DR
+Pnd
 :::
 
 Maybe you have a couple lands on board. If your opponent is threatening lethal

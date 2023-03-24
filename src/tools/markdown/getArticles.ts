@@ -47,7 +47,7 @@ export const getArticles: GetArticles = async (options) => {
           return banner;
         },
         (error) => {
-          throw new Error(`Failed to scry banner "${matter.banner}". ${error}`);
+          throw `Failed to scry banner "${matter.banner}" (${error})`;
         }
       );
       bannerPromises.push(bannerPromise);

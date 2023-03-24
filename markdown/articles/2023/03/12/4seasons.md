@@ -259,11 +259,11 @@ Doomsday. The White Plume Adventurer coming the turn after dismantled my plan
 and we went to game 3.
 
 :::row{variant=PILE}
-- Sheoldred, the Apocalypse
-- BS
-- Pnd
-- Abrupt Decay
-- DD
+Sheoldred, the Apocalypse
+BS
+Pnd
+Abrupt Decay
+DD
 :::
 
 **Game 3:** I open a reasonable hand with Preordain, Brainstorm, Doomsday x2,
@@ -377,11 +377,11 @@ late. I held my Oracle safely in hand to avoid Pyroblast and won with Cavern and
 an empty library.
 
 :::row{variant=PILE}
-- SW
-- EoA
-- TO
-- CoS
-- Island
+SW
+EoA
+TO
+CoS
+Island
 :::
 
 Match 2-1  

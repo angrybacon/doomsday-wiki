@@ -23,11 +23,11 @@ effective against blue-based control decks which do not run cards like
 used in conjunction with Oracle.
 
 :::row{variant=PILE}
-- SI
-- Em
-- Island
-- CoS
-- TO
+SI
+Em
+Island
+CoS
+TO
 :::
 
 In theory you can replace Emrakul with any card (including lands) however the
@@ -46,11 +46,11 @@ Let's look at a couple of examples.
 > DRC in play + non-Consider castable cantrip in hand
 
 :::row{variant=PILE}
-- DA
-- LED
-- SW
-- LP
-- TO
+DA
+LED
+SW
+LP
+TO
 :::
 
 The most basic example above allows you to turn any regular cantrip into a
@@ -61,11 +61,11 @@ allows you to perform the basic Consider pile using either :card[Pnd],
 > DRC in play + {U} + non-Brainstorm castable cantrip in hand + X
 
 :::row{variant=PILE}
-- SW
-- BS
-- LED
-- EoA
-- TO
+SW
+BS
+LED
+EoA
+TO
 :::
 
 Here you can execute a Brainstorm pile even if you are at a low life total
@@ -89,11 +89,11 @@ beat cards like :card[Endurance] and :card[Memory's Journey].
 > PTT + {U}{U}
 
 :::row{variant=PILE}
-- IU
-- LP
-- TO
-- CoS
-- TO
+IU
+LP
+TO
+CoS
+TO
 :::
 
 This is a very basic take on the standard :card[IU] pile which is often used. It
@@ -105,10 +105,10 @@ is that even if they were to cast Endurance here, your library would become
 the following:
 
 :::row{variant=PILE}
-- TO
-- DD
-- LP
-- IU
+TO
+DD
+LP
+IU
 :::
 
 As a result if they do cast an Endurance then you can pass and simply draw the
@@ -127,30 +127,30 @@ These typically pass multiple turns and rely on having a solid manabase already
 developed in play so tend to be part of the slower Doomsday variants.
 
 :::row{variant=PILE}
-- Uro, Titan of Nature's Wrath
-- Island
-- Uro, Titan of Nature's Wrath
-- CoS
-- TO
+Uro, Titan of Nature's Wrath
+Island
+Uro, Titan of Nature's Wrath
+CoS
+TO
 :::
 
 :::row{variant=PILE}
-- Baleful Strix
-- EoA
-- Baleful Strix
-- CoS
-- TO
+Baleful Strix
+EoA
+Baleful Strix
+CoS
+TO
 :::
 
 You can also combine elements to use Teferi to bounce Strix for additional card
 draw and still maintain a higher {U} Devotion.
 
 :::row{variant=PILE}
-- Baleful Strix
-- Tundra
-- Teferi, Time Raveler
-- CoS
-- TO
+Baleful Strix
+Tundra
+Teferi, Time Raveler
+CoS
+TO
 :::
 
 ## Echo of Eons
@@ -169,11 +169,11 @@ cards.
 > LED in Hand + Cantrip
 
 :::row{variant=PILE}
-- Echo of Eons
-- PoN
-- TO
-- LP
-- LP
+Echo of Eons
+PoN
+TO
+LP
+LP
 :::
 
 In a effort to try and beat :card[Endurance] or cards like :card[Torpor Orb] and
@@ -182,11 +182,11 @@ In a effort to try and beat :card[Endurance] or cards like :card[Torpor Orb] and
 > PTT, {U}{B} with BS in hand + DR in hand
 
 :::row{variant=PILE}
-- Echo of Eons
-- LED
-- ToA
-- LP
-- LP
+Echo of Eons
+LED
+ToA
+LP
+LP
 :::
 
 The above example reaches lethal Storm count while passing the turn for minimal

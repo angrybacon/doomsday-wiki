@@ -59,8 +59,8 @@ realised I did something different every time and suspected the deck to be
 popular (spoiler, it was).
 
 :::row{variant=HAND}
-- Force of Negation
-- Flusterstorm
+Force of Negation
+Flusterstorm
 :::
 
 As practice/training for the event I spent a day playing Mahjong, ran two proper
@@ -121,7 +121,7 @@ But, waiting means more time for them to do whatever they are doing or finding
 disruption. As a result I decided to risk jamming and seeing what happened.
 
 :::row{variant=HAND}
-- Shelldock Isle
+Shelldock Isle
 :::
 
 I build something using :card[IU] and pass. They drop the know Island and pass
@@ -256,13 +256,13 @@ off Cavern with a silly amount of interaction available.
 What would you have taken here?
 
 :::row{variant=HAND}
-- Lightning Bolt
-- Narset, Parter of Veils
-- Jace, the Mind Sculptor
-- Day's Undoing
-- Baleful Strix
-- Ponder
-- Volcanic Island
+Lightning Bolt
+Narset, Parter of Veils
+Jace, the Mind Sculptor
+Day's Undoing
+Baleful Strix
+Ponder
+Volcanic Island
 :::
 
 **Dice Rolls**: 3-0  
@@ -428,11 +428,11 @@ one out. My opponent snap keeps a 7 and I get a little scared as I have to go
 down to 5. But what a 5 it was! (And yes, of course I was on the play again).
 
 :::row{variant=HAND}
-- DR | MMQ
-- DD
-- FoW
-- Con
-- Underground Sea
+DR | MMQ
+DD
+FoW
+Con
+Underground Sea
 :::
 
 Absolutely perfect, I jam a turn 1 Doomsday and make a resilient PTT pile with
@@ -520,11 +520,11 @@ Game 1 ended in a matter of minutes. We both have 7 and I had turn 1 Doomsday.
 He had no time against the *standard DnT pile* and couldn't get there.
 
 :::row{variant=PILE}
-- Scalding Tarn
-- Polluted Delta
-- TO
-- Underground Sea
-- Island
+Scalding Tarn
+Polluted Delta
+TO
+Underground Sea
+Island
 :::
 
 Same boarding as round 4.

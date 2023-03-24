@@ -301,11 +301,11 @@ and cast DD on T2 off of DR with a blue fetch still in play. FOW pitching
 following pile with a SW in hand.
 
 :::row{variant=PILE}
-- EoA
-- TO
-- CoS
-- TO
-- Island
+EoA
+TO
+CoS
+TO
+Island
 :::
 
 T3 opponent plays a :card[Tropical Island] and passes. T3 draw Edge, pass. T4
@@ -330,11 +330,11 @@ Endurance], taking Torpor Orb. Continue to cast DR and DD with FOW backup for
 their FOW. Make the following pile:
 
 :::row{variant=PILE}
-- IU
-- SW
-- TO
-- PoN
-- CoS
+IU
+SW
+TO
+PoN
+CoS
 :::
 
 They play Island and pass. T3 I cast Ideas Unbound, cycle SW, play Cavern and
@@ -355,19 +355,19 @@ enough of the pile.
 G2 & 3 &mdash; fairly easy wins. Piles were
 
 :::row{variant=PILE}
-- Tsz
-- Island
-- TO
-- CoV
-- CoS
+Tsz
+Island
+TO
+CoV
+CoS
 :::
 
 :::row{variant=PILE}
-- SW
-- EoA
-- EoA
-- TO
-- CoS
+SW
+EoA
+EoA
+TO
+CoS
 :::
 
 > 2-1  
@@ -386,11 +386,11 @@ Lackey], which attacks on T2. I flash in an Opposition Agent off Dark Ritual and
 the game ends a few turns later after casting Doomsday. Pile was:
 
 :::row{variant=PILE}
-- EoA
-- SW
-- EoA
-- TO
-- CoS
+EoA
+SW
+EoA
+TO
+CoS
 :::
 
 > 2-0  
@@ -403,11 +403,11 @@ over the first two turns while having mana up for Daze. The pile in both games
 was:
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 > 2-0  
@@ -420,21 +420,21 @@ Didn't take many notes for this match vs. 8-cast
 Piles were
 
 :::row{variant=PILE}
-- IU
-- EoA
-- TO
-- CoS
-- PoN
+IU
+EoA
+TO
+CoS
+PoN
 :::
 
 and
 
 :::row{variant=PILE}
-- IU
-- EoA
-- TO
-- CoS
-- LP
+IU
+EoA
+TO
+CoS
+LP
 :::
 
 Romario and Wonderpreaux were playing next to me and our Doomsday cabal went 6-0
@@ -474,11 +474,11 @@ backup and they're unable to Brainstorm into a third force. Since they have no
 clock, I go for a double pass-the-turn pile to win.
 
 :::row{variant=PILE}
-- EoA
-- SW
-- EoA
-- TO
-- CoS
+EoA
+SW
+EoA
+TO
+CoS
 :::
 
 SB: - Swamp, -3 Daze, - Thassa's Oracle. +2 Flusterstorm, +2 Mystical Dispute,
@@ -487,11 +487,11 @@ SB: - Swamp, -3 Daze, - Thassa's Oracle. +2 Flusterstorm, +2 Mystical Dispute,
 Game 2 &mdash; on the draw T2 cast DD with Force backup. It resolves.
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 > 2-0  
@@ -527,11 +527,11 @@ over the first two turns while having mana up for Daze.
 Game 1 &mdash; on the play with a full grip!
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 Game 2 &mdash; lose after making a pile that relies on a blue cantrip. They
@@ -551,11 +551,11 @@ Force of Will. Opponent keeps 7. They play :card[Counterbalance] on T2 and
 that resolves!
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- Underground Sea
+EoA
+EoA
+TO
+CoS
+Underground Sea
 :::
 
 They pass twice and I am able to draw both cyclers and go for the perfect kill.
@@ -570,11 +570,11 @@ resulting in a re-roll that he won. Weird. End up losing 1-2. Cast Doomsday
 twice. In Games 1 and 2 made the following default pile
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 In game 3 I resolved Doomsday when my opponent had a revealed Surgical
@@ -582,11 +582,11 @@ Extraction in hand and made the following pile with an Island and Swamp in play,
 and an Underground Sea in hand.
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- DD
-- DD
+EoA
+EoA
+TO
+DD
+DD
 :::
 
 Needless to say, when they cast Surgical Extraction on Doomsday and find, I was
@@ -627,11 +627,11 @@ go for the kill - cast Doomsday, with the intention to make the following pile
 to win
 
 :::row{variant=PILE}
-- BS
-- LED
-- Con
-- EoA
-- TO
+BS
+LED
+Con
+EoA
+TO
 :::
 
 Of course, he casts the Brainstorm here and after putting back two, he casts

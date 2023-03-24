@@ -188,9 +188,9 @@ general/expected roles and the justification for having them.
   over-boarded.
 
 :::row{variant=CENTERED}
-- CoV
-- Flusterstorm
-- FoN
+CoV
+Flusterstorm
+FoN
 :::
 
 - 1 :card[Massacre]: One of the more specialist tools. This helps deal with a
@@ -206,9 +206,9 @@ general/expected roles and the justification for having them.
   niche corner cases (although I have had people Surgical them before!).
 
 :::row{variant=CENTERED}
-- Massacre
-- Pyroblast
-- REB
+Massacre
+Pyroblast
+REB
 :::
 
 - 1 :card[Surgical Extraction]: Part of the anti-graveyard package. This
@@ -231,10 +231,10 @@ general/expected roles and the justification for having them.
  in as an additional *bad Island* in matchups where maybe you don't want Cavern.
 
 :::row{variant=CENTERED}
-- Surgical Extraction
-- TO
-- Tormod's Crypt
-- Volcanic Island
+Surgical Extraction
+TO
+Tormod's Crypt
+Volcanic Island
 :::
 
 ## The Actual Sideboard Guide Bit
@@ -264,9 +264,9 @@ and also acts as a buffer to random instances of having your sole win condition
 exiled to monkey.
 
 :::row{variant=CENTERED}
-- Delver of Secrets
-- Ragavan, Nimble Pilferer
-- Dragon's Rage Channeler
+Delver of Secrets
+Ragavan, Nimble Pilferer
+Dragon's Rage Channeler
 :::
 
 ### Death and Taxes
@@ -291,9 +291,9 @@ respect because post Doomsday it not only slows you down in progressing your
 pile but also has a feisty attack of 3 which can quickly knock you down.
 
 :::row{variant=CENTERED}
-- Ethersworn Canonist
-- Deafening Silence
-- Spirit of the Labyrinth
+Ethersworn Canonist
+Deafening Silence
+Spirit of the Labyrinth
 :::
 
 ### Stompy Decks
@@ -311,9 +311,9 @@ hands that die to Chalice on 1 unless that hand can just win on the next turn.
 It's a swingy matchup but very winnable.
 
 :::row{variant=CENTERED}
-- Chalice of the Void
-- Blood Moon
-- Trinisphere
+Chalice of the Void
+Blood Moon
+Trinisphere
 :::
 
 ### Oops all Spells, BR Reanimator, Madness
@@ -336,9 +336,9 @@ for the most popular Legacy decks at the time of writing this and just thinking
 "this'll be similar to the other fast graveyard strategies".
 
 :::row{variant=CENTERED}
-- Griselbrand
-- Balustrade Spy
-- Burning Inquiry
+Griselbrand
+Balustrade Spy
+Burning Inquiry
 :::
 
 ### Elves
@@ -356,9 +356,9 @@ like to bring in :card[Massacre] but that is not an axis I really want to fight
 them on.
 
 :::row{variant=CENTERED}
-- Allosaurus Shepherd
-- Nettle Sentinel
-- Natural Order
+Allosaurus Shepherd
+Nettle Sentinel
+Natural Order
 :::
 
 ### Lands
@@ -377,9 +377,9 @@ REB or the occasional rogue Chalice. Don't ever try and fight them with grave
 hate vs. the Loam plan, it's not worth it.
 
 :::row{variant=CENTERED}
-- Life from the Loam
-- Sphere of Resistance
-- Ghost Quarter
+Life from the Loam
+Sphere of Resistance
+Ghost Quarter
 :::
 
 ### TES, ANT
@@ -397,9 +397,9 @@ much in it. I don't bother bringing in REB effects because it's not the cantrips
 we want to fight over.
 
 :::row{variant=CENTERED}
-- Silence
-- Echo of Eons
-- Wishclaw Talisman
+Silence
+Echo of Eons
+Wishclaw Talisman
 :::
 
 ### 8-Cast, Urza Echo
@@ -422,9 +422,9 @@ things but I was reasonably happy with the plan enacted which can be seen in
 [this video](https://www.youtube.com/watch?v=H62gxBL0lUA).
 
 :::row{variant=CENTERED}
-- Echo of Eons
-- Karn, the Great Creator
-- Force of Will
+Echo of Eons
+Karn, the Great Creator
+Force of Will
 :::
 
 ### Blue Soup: Stryfo Pile, BUG Zenith, Bant, Miracles, 4c Control
@@ -445,9 +445,9 @@ be too disadvantaged if the game drags on. I try to always keep at least 2
 cycling effects even in these matchups.
 
 :::row{variant=CENTERED}
-- Uro, Titan of Nature's Wrath
-- Sylvan Library
-- Meddling Mage
+Uro, Titan of Nature's Wrath
+Sylvan Library
+Meddling Mage
 :::
 
 ### Jeskai Soup: Saga, Ragavan, Delver, Stoneblade
@@ -471,9 +471,9 @@ with :card[Meddling Mage] to annoy us. You can very well justify bringing in
 opposing field can cause difficulty in selecting what to bring to the table.
 
 :::row{variant=CENTERED}
-- Expressive Iteration
-- Murktide Regent
-- Meddling Mage
+Expressive Iteration
+Murktide Regent
+Meddling Mage
 :::
 
 ### Cloudpost
@@ -489,9 +489,9 @@ unloseable, but sometimes it feels that way here. Just don't get blown out by
 :card[Endurance] or :card[Torpor Orb] and you'll be fine.
 
 :::row{variant=CENTERED}
-- Cloudpost
-- Endurance
-- Mindbreak Trap
+Cloudpost
+Endurance
+Mindbreak Trap
 :::
 
 ### Painter
@@ -505,9 +505,9 @@ This can be a real tough matchup. A smart Painter player can really do well and
 playing around an on-board :card[Grindstone] can be a real headache.
 
 :::row{variant=CENTERED}
-- Goblin Welder
-- Painter's Servant
-- Grindstone
+Goblin Welder
+Painter's Servant
+Grindstone
 :::
 
 ### OmniShow
@@ -524,9 +524,9 @@ definitely clunkier than Doomsday and we have a huge advantage in being able to
 make resilient pass-the-turn piles that win via their own :card[Show and Tell].
 
 :::row{variant=CENTERED}
-- Show and Tell
-- Trickbind
-- Cunning Wish
+Show and Tell
+Trickbind
+Cunning Wish
 :::
 
 ### Sneak and Show
@@ -544,9 +544,9 @@ the matchups I have experimented with :card[Daze] being brought in and out
 depending on play vs. draw. Should still be favourable.
 
 :::row{variant=CENTERED}
-- Sneak Attack
-- Emrakul, the Aeon's Torn
-- Daze
+Sneak Attack
+Emrakul, the Aeon's Torn
+Daze
 :::
 
 ### That's It

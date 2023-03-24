@@ -35,7 +35,7 @@ maindeck for Doomsday. In this build, we have elected to use :card[Mystical
 Dispute], :card[Force of Negation], and :card[Portent].
 
 :::row{variant=CENTERED}
-- CoS
+CoS
 :::
 
 **Mystical Dispute / Force of Negation**: These slots are generally between
@@ -50,8 +50,8 @@ significant problems, and having an excellent one mana answer that can also
 counter :card[Force of Will]s is very lovely.
 
 :::row{variant=CENTERED}
-- Mystical Dispute
-- Force of Negation
+Mystical Dispute
+Force of Negation
 :::
 
 **Portent**: This slot is mainly for extra cantrips. Often you will see
@@ -61,7 +61,7 @@ good at being good card selection or messing up your opponent's top 3 cards,
 especially in something like the mirror.
 
 :::row{variant=CENTERED}
-- Portent
+Portent
 :::
 
 ## Sideboard Configuration and Sideboard Guide
@@ -85,9 +85,9 @@ need to tap a land to play it. A handy thing it can do is snag a Brain freeze
 before you combo, so you don't die on the spot.
 
 :::row{variant=CENTERED}
-- Steel Sabotage
-- Mindbreak Trap
-- Duress
+Steel Sabotage
+Mindbreak Trap
+Duress
 :::
 
 **:card[Fatal Push]**: you need an answer for cards like Lavinia,
@@ -105,9 +105,9 @@ decks, but it's just the most efficient card to play in your Doomsday sideboard
 for that matchup without dedicating too many spots for the matchup.
 
 :::row{variant=CENTERED}
-- Fatal Push
-- Opposition Agent
-- Leyline of the Void
+Fatal Push
+Opposition Agent
+Leyline of the Void
 :::
 
 **:card[Tasigur, the Golden Fang]**: you want an additional win condition
@@ -122,8 +122,8 @@ even Force of Negation. Because of this, it can sometimes steal games.
 play around :card[Wasteland] and :card[Ghost Quarter].
 
 :::row{variant=CENTERED}
-- Tasigur, the Golden Fang
-- Island
+Tasigur, the Golden Fang
+Island
 :::
 
 ### Sideboard Guide
@@ -255,13 +255,13 @@ Our hand is:
 >    Brain Freeze.
 
 :::row{variant=HAND}
-- DD
-- SW
-- Pre
-- FoW
-- Underground Sea|LEB
-- Tasigur, the Golden Fang
-- DR
+DD
+SW
+Pre
+FoW
+Underground Sea|LEB
+Tasigur, the Golden Fang
+DR
 :::
 
 ## Playing vs. BUG
@@ -302,11 +302,11 @@ pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 >   it on Doomsday) - A single Wasteland can be played around
 
 :::row{variant=PILE}
-- Demonic Tutor
-- Time Walk
-- TO
-- TO
-- Island
+Demonic Tutor
+Time Walk
+TO
+TO
+Island
 :::
 
 ## Playing vs. Bant
@@ -344,11 +344,11 @@ the following turns?
 > of these cards as well as Flusterstorm and Daze (two Oracles).
 
 :::row{variant=PILE}
-- Time Walk
-- TO
-- TO
-- Island
-- Island
+Time Walk
+TO
+TO
+Island
+Island
 :::
 
 ## Playing vs. Shops
@@ -370,9 +370,9 @@ Rod], more Revokers, etc?
 Our hand is:
 
 :::row{variant=HAND}
-- Pre
-- Daze
-- FoW
+Pre
+Daze
+FoW
 :::
 
 *My response*
@@ -401,21 +401,21 @@ Our hand is:
 > essential thing is mana sources and having enough lands at all times.
 
 :::row{variant=PILE}
-- Steel Sabotage
-- Gush
-- TO
-- Black Lotus
-- Island
+Steel Sabotage
+Gush
+TO
+Black Lotus
+Island
 :::
 
 Or
 
 :::row{variant=PILE}
-- Time Walk
-- SW
-- TO
-- Island
-- Island
+Time Walk
+SW
+TO
+Island
+Island
 :::
 
 That's all! If you enjoyed this guide, you can leave me a follow on

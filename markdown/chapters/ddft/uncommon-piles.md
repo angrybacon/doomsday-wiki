@@ -34,11 +34,11 @@ A simple version of the pile looks like this:
 > Enough life to live for 2 turns post-DD
 
 :::row{variant=PILE}
-- SI
-- Em
-- Island
-- Dur
-- TO
+SI
+Em
+Island
+Dur
+TO
 :::
 
 1. Cast Doomsday and build the above pile, then pass the turn
@@ -59,11 +59,11 @@ If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
 :::row{variant=PILE}
-- Pnd
-- SI
-- Em
-- TO
-- DD
+Pnd
+SI
+Em
+TO
+DD
 :::
 
 Ponder on top means Shelldock Isle won't get fatesealed, you have Oracle as a
@@ -86,11 +86,11 @@ situations. Lets look at a few example:
 > Chalice@2 - {B}{G} + {U}{U}
 
 :::row{variant=PILE}
-- Abrupt Decay
-- SW
-- TO
-- LP
-- LP
+Abrupt Decay
+SW
+TO
+LP
+LP
 :::
 
 This situation is pretty specific, but it illustrates the need to occasionally
@@ -112,11 +112,11 @@ for example you got hit with Wasteland.
 > No mana on board, no cards in hand - {0}, 2 life
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pnd
-- TO
-- LP
+LED
+SW
+Pnd
+TO
+LP
 :::
 
 1. Pass the turn after casting Doomsday
@@ -134,11 +134,11 @@ you pass 2 turns, you can win from literally nothing but a couple life.
 > Plenty of lands/mana on board - {U}{U}{B}{B}{B}{B}
 
 :::row{variant=PILE}
-- Dur
-- Dur
-- Dur
-- Dur
-- TO
+Dur
+Dur
+Dur
+Dur
+TO
 :::
 
 This is a very crude example but again, it illustrates an idea. Perhaps you cast
@@ -161,11 +161,11 @@ sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
 > Ponder, LED, LED in hand - {B}{B}{B} + {U} - 6 Storm
 
 :::row{variant=PILE}
-- BW
-- Dur
-- Dur
-- Dur
-- Dur
+BW
+Dur
+Dur
+Dur
+Dur
 :::
 
 In its crudest form, you use Doomsday as a tutor for Burning Wish, which then
@@ -178,11 +178,11 @@ they deal with your opponent.
 > Ponder, LED in hand - {B}{B}{B} + {1}{U} + {B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IU
-- LP
-- LED
-- BW
-- DD
+IU
+LP
+LED
+BW
+DD
 :::
 
 In this slightly more complicated variant, you use Doomsday to set up a pile
@@ -203,11 +203,11 @@ Doomsday, but is included here for the sake of completeness.
 > {U}{U}{B}, 3 life
 
 :::row{variant=PILE}
-- SotV
-- Mm
-- Mm
-- Mm
-- TO
+SotV
+Mm
+Mm
+Mm
+TO
 :::
 
 For this pass-the-turn pile, you draw Spoils, cast it and name Oracle, then cast
@@ -223,11 +223,11 @@ an empty library so removal is ineffective.
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} + 3 life
 
 :::row{variant=PILE}
-- LED
-- LP
-- SotV
-- Island
-- TO
+LED
+LP
+SotV
+Island
+TO
 :::
 
 This is similar to some of the piles in the [Brainstorm
@@ -259,11 +259,11 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 > 2 cards in hand - {1}{U}{U}{R} + ({1}{R}) - 9 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- BW
-- BW
+IU
+LED
+LED
+BW
+BW
 :::
 
 The first wish fetches Time Spiral, which untaps lands that let you play the

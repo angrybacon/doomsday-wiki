@@ -19,10 +19,10 @@ of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
 **Doomsday** and **Entombsday**.
 
 :::row{variant=CENTERED}
-- ToA
-- EF
-- FoW
-- Griselbrand
+ToA
+EF
+FoW
+Griselbrand
 :::
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
@@ -151,9 +151,9 @@ For a list of *off-meta* cards which have been tried before and discussion on
 them please check out the [playables appendix](/appendices/playables/).
 
 :::row{variant=CENTERED}
-- Drown in the Loch
-- Baleful Strix
-- Careful Study
+Drown in the Loch
+Baleful Strix
+Careful Study
 :::
 
 ## Is the deck hard to learn? Is it the most difficult deck in Legacy?
@@ -179,7 +179,7 @@ the wording on the original Weatherlight printing of :card[Doomsday]. See the
 card below along with the original rules text printed:
 
 :::row{variant=CENTERED}
-- Doomsday|WTH
+Doomsday|WTH
 :::
 
 > Pay half your life, rounded up:  
@@ -202,7 +202,7 @@ Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
 :::row{variant=CENTERED}
-- Doomsday|A25
+Doomsday|A25
 :::
 
 > Search your library and graveyard for five cards and exile the rest.  

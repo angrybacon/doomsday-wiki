@@ -29,11 +29,11 @@ a tool to draw cards when using LED.
 > SW in hand - {B}{B}{B} + {1}{U}{U}
 
 :::row{variant=PILE}
-- IU
-- CB
-- SW
-- LED
-- LM
+IU
+CB
+SW
+LED
+LM
 :::
 
 You should recognise the above example from the [Basics][basics].  
@@ -53,19 +53,19 @@ This also enables things like Double Doomsday piles.
 > CB in play, SW in hand - {B}{B}{B} + {1}{U}{U}{R} - 11 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- BW
-- BW
+IU
+LED
+LED
+BW
+BW
 :::
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- SW
-- BW
+IU
+LED
+LED
+SW
+BW
 :::
 
 This has some overlap with what is described in the [Double Doomsday
@@ -94,21 +94,21 @@ other cards in hand we need.
 > CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LED
-- LED
-- SW
+LED
+IU
+LED
+LED
+SW
 :::
 
 > CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LED
-- LED
-- SW
+LED
+IU
+LED
+LED
+SW
 :::
 
 I know often you can find yourself with a key business spell in hand and no
@@ -130,11 +130,11 @@ pass-the-turn pile. More on this in the [pass-the-turn section][pass-the-turn].
 > LED in play, ToA in hand - {1}{B}{B}{B} - 13 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- LP
-- CB
+IC
+DR
+DR
+LP
+CB
 :::
 
 In this instance we can play ToA twice. We draw IC for our turn.
@@ -164,11 +164,11 @@ allows you to extend that to a pseudo-six cards.
 > CB in play, Pre in hand - {B}{B}{B} + {1}{U} - 9 Storm
 
 :::row{variant=PILE}
-- LED
-- IC
-- LED
-- LP
-- BW
+LED
+IC
+LED
+LP
+BW
 :::
 
 Normally double cantrip piles that use a draw-4 would mean that you draw
@@ -188,21 +188,21 @@ for convenience:
 > CB in play, BW and SW in hand - {B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LED
-- LED
-- SW
+LED
+IU
+LED
+LED
+SW
 :::
 
 > CB in play, ToA and SW in hand - {B}{B}{B} - 6 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LED
-- LED
-- SW
+LED
+IU
+LED
+LED
+SW
 :::
 
 If you notice, both result in wasted mana being left over. With the BW example
@@ -215,21 +215,21 @@ What if we were to swap the GP in the piles with a CB?
 > CB in play, BW and SW in hand - {B}{B}{B} + {X} - 8+ Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LED
-- LED
-- CB
+LED
+IU
+LED
+LED
+CB
 :::
 
 > CB in play, ToA and SW in hand - {B}{B}{B} + {X} - 9+ Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LED
-- LED
-- CB
+LED
+IU
+LED
+LED
+CB
 :::
 
 Suddenly the two piles look very different notation wise. Both now have a
@@ -283,11 +283,11 @@ Pass the turn.
 > CB in play, ToA in hand - {B}{B}{B} + {X}{1} - 12+ Storm
 
 :::row{variant=PILE}
-- LED
-- IC
-- LED
-- LED
-- CB
+LED
+IC
+LED
+LED
+CB
 :::
 
 1. Cast Doomsday and build the above pile
@@ -337,11 +337,11 @@ nullify their Surgical.
 > CB in play, SW in hand - {B}{B}{B} + {U}{U} - 6 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- SW
-- BW
+IU
+LED
+LED
+SW
+BW
 :::
 
 If they cast Surgical in response to SW, you can use CB to send the target back

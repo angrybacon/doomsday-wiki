@@ -51,8 +51,8 @@ Let's go through it and discuss the dubious deckbuilding decisions I've made...
 ### Rainbow Manabase
 
 :::row{variant=CENTERED}
-- Gemstone Mine
-- City of Brass
+Gemstone Mine
+City of Brass
 :::
 
 Your mana clearly needs to make {R} and {B}. It also has to make {G}, at least
@@ -68,7 +68,7 @@ the least, it probably doesn't matter.
 ### Burning Wish
 
 :::row{variant=CENTERED}
-- BW
+BW
 :::
 
 This is among the least dubious of all the deckbuilding decisions I made. It's
@@ -81,7 +81,7 @@ small anti-blue package, entirely wishboard à la Belcher.
 ### Echo of Eons
 
 :::row{variant=CENTERED}
-- EoE
+EoE
 :::
 
 Like Burning Wish, this card has proven its power in Belcher, TES and DDFT.
@@ -93,8 +93,8 @@ the fact that it also refills your opponent's hand, because they don't matter.
 ### Doomsday / Thassa's Oracle
 
 :::row{variant=CENTERED}
-- DD
-- TO
+DD
+TO
 :::
 
 Doomsday is perhaps a questionable inclusion. Playing it kind of forces you to
@@ -107,7 +107,7 @@ a serviceable engine card.
 ### Infernal Contract
 
 :::row{variant=CENTERED}
-- IC
+IC
 :::
 
 This is primarily here to facilitate certain Doomsday piles, but it is
@@ -116,7 +116,7 @@ functional as a Storm engine of sorts, the way Spanish Inquisition decks use it.
 ### Manamorphose
 
 :::row{variant=CENTERED}
-- Mm
+Mm
 :::
 
 Manamorphose does a lot. It can help you cast Dark Ritual off a Simian Spirit
@@ -127,7 +127,7 @@ very important.
 ### Empty the Warrens
 
 :::row{variant=CENTERED}
-- EtW
+EtW
 :::
 
 Having Empty maindeck provides another business spell, one that is particularly
@@ -141,7 +141,7 @@ meta-dependent.
 ### Spoils of the Vault
 
 :::row{variant=CENTERED}
-- SotV
+SotV
 :::
 
 Ah yes. Saving the best for last. If Burning Wish was the flesh-bit keeping the
@@ -176,13 +176,13 @@ how they should play out.
 ### Hand 1
 
 :::row{variant=HAND}
-- City of Brass
-- Gemstone Mine
-- LP
-- DR
-- City of Brass
-- LED
-- EoE
+City of Brass
+Gemstone Mine
+LP
+DR
+City of Brass
+LED
+EoE
 :::
 
 This is a pretty straightforward Echo hand. No sense in waiting, just jam the
@@ -195,13 +195,13 @@ Echo.
 ### Hand 2
 
 :::row{variant=HAND}
-- LP
-- LP
-- LED
-- LED
-- EoE
-- BW
-- Gemstone Mine
+LP
+LP
+LED
+LED
+EoE
+BW
+Gemstone Mine
 :::
 
 This is an extremely busted hand, and among the best you can hope for against
@@ -215,13 +215,13 @@ have enough mana to still cast Echo afterwards.
 ### Hand 3
 
 :::row{variant=HAND}
-- LP
-- DR
-- LED
-- DR
-- SotV
-- BW
-- Gemstone Mine
+LP
+DR
+LED
+DR
+SotV
+BW
+Gemstone Mine
 :::
 
 Like the previous hand, this one has 2 business spells and is therefore high
@@ -236,12 +236,12 @@ have a chance even against decks that could race the goblins.
 ### Hand 4
 
 :::row{variant=HAND}
-- LP
-- DR
-- DD
-- Rite of Flame
-- SW
-- Gemstone Mine
+LP
+DR
+DD
+Rite of Flame
+SW
+Gemstone Mine
 :::
 
 The first Doomsday hand. We are pretty clearly casting Dark Ritual into
@@ -252,11 +252,11 @@ breathtakingly elegant Doomdsay pile you will ever see:
 > SW in hand - {1}{R}, 2 life
 
 :::row{variant=PILE}
-- Mm
-- Mm
-- Mm
-- Mm
-- TO
+Mm
+Mm
+Mm
+Mm
+TO
 :::
 
 Grab some tissues and mop up. This pile right here is extremely powerful. You
@@ -268,13 +268,13 @@ O R P H O S E.
 ### Hand 5
 
 :::row{variant=HAND}
-- LP
-- EoE
-- DD
-- DD
-- SotV
-- TO
-- BW
+LP
+EoE
+DD
+DD
+SotV
+TO
+BW
 :::
 
 This hand might look like ass but it's fine. This is where you recite the Litany
@@ -284,13 +284,13 @@ on the haters.
 ### Hand 6
 
 :::row{variant=HAND}
-- LP
-- Gemstone Mine
-- Rite of Flame
-- Mm
-- Mm
-- City of Brass
-- BW
+LP
+Gemstone Mine
+Rite of Flame
+Mm
+Mm
+City of Brass
+BW
 :::
 
 I think this hand is a mulligan, but it's close. You could try to make this a
@@ -302,13 +302,13 @@ guaranteed, and the deck mulligans pretty well. I'd throw this back.
 ### Hand 7
 
 :::row{variant=HAND}
-- LP
-- DR
-- City of Brass
-- LP
-- EtW
-- BW
-- Gemstone Mine
+LP
+DR
+City of Brass
+LP
+EtW
+BW
+Gemstone Mine
 :::
 
 This hand isn't stellar, but you should keep it. It can make 8 goblins on T1, or
@@ -388,11 +388,11 @@ Quad-Morphose pile. Lets look at a couple others.
 > LED on board - {B}, 3 life
 
 :::row{variant=PILE}
-- SotV
-- Mm
-- Mm
-- Mm
-- TO
+SotV
+Mm
+Mm
+Mm
+TO
 :::
 
 This is a pass-the-turn pile, where you use Spoils to dig down to Oracle. This
@@ -404,11 +404,11 @@ next turn, if you have the ability to cast them.
 > Echo, Spoils in hand - {B}{B}{B} + {B}
 
 :::row{variant=PILE}
-- LED
-- LP
-- LP
-- LP
-- TO
+LED
+LP
+LP
+LP
+TO
 :::
 
 Spoils can be used as simply a cantrip into your pile (in this case a
@@ -418,11 +418,11 @@ to Spoils.
 > Rite of Flame, Manamorphose in hand - {B}{B}{B} + {1}{B}{R} - 9 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- LED
-- LED
-- BW
+IC
+LP
+LED
+LED
+BW
 :::
 
 Manamorphose can draw into piles as well, and can fix your colors to cast
@@ -432,11 +432,11 @@ Oracle Pile.
 > Spoils, Spoils in hand - {B}{B}{B} + {B}{B}
 
 :::row{variant=PILE}
-- LED
-- Mm
-- Mm
-- Mm
-- TO
+LED
+Mm
+Mm
+Mm
+TO
 :::
 
 A double-cantrip pile of sorts for when you have a shitload of black mana. You

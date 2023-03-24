@@ -20,9 +20,9 @@ you, dear reader, back to... 2021?
 ## 2021
 
 :::row{variant=CENTERED}
-- Echo of Eons
-- Doomsday
-- Spoils of the Vault
+Echo of Eons
+Doomsday
+Spoils of the Vault
 :::
 
 2021, and 2020 before it, had not been a great year for DDFT. We'd gotten
@@ -106,9 +106,9 @@ lot less MTGO during the summer.
 ## You Said There Were Other DDFT Variants, Stop Talking About Your Spoils Kink
 
 :::row{variant=CENTERED}
-- Bolas's Citadel
-- Doomsday
-- Tendrils of Agony
+Bolas's Citadel
+Doomsday
+Tendrils of Agony
 :::
 
 Oh right, sorry.
@@ -160,9 +160,9 @@ these aspects are what allow it to succeed.
 ## The Rest of the Year, or How I Didn’t Learn to Not Talk About My Spoils Kink
 
 :::row{variant=CENTERED}
-- Galvanic Relay
-- Doomsday
-- Mox Opal
+Galvanic Relay
+Doomsday
+Mox Opal
 :::
 
 As autumn rolled in I'd mostly had my fill of grass-touching and started to more
@@ -252,10 +252,10 @@ I also removed :card[Street Wraith]. It was really only in the deck to enable a
 very specific pile. Imagine a hand like this:
 
 :::row{variant=CENTERED}
-- Doomsday
-- Dark Ritual
-- Lotus Petal
-- Lion's Eye Diamond
+Doomsday
+Dark Ritual
+Lotus Petal
+Lion's Eye Diamond
 :::
 
 This is a keepable 4-card hand with Street Wraith in the deck, since you can put

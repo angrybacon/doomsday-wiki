@@ -96,10 +96,10 @@ fairer strategies. Something like Elves would have likely been a decent choice
 for the event.
 
 :::row{variant=CENTERED}
-- Thalia, Guardian of Thraben
-- Delver of Secrets
-- Cloudpost
-- Exploration
+Thalia, Guardian of Thraben
+Delver of Secrets
+Cloudpost
+Exploration
 :::
 
 At the end of the day the final results looked like so:
@@ -188,10 +188,10 @@ That's all I did. ([I had mentioned I am slow to
 change](/articles/2022/01/22/zero-respect#i-am-slow-to-make-changes-to-my-deck)).
 
 :::row{variant=CENTERED}
-- DA
-- Tsz
-- Flusterstorm
-- Duress
+DA
+Tsz
+Flusterstorm
+Duress
 :::
 
 The :card[Flusterstorm] change was because I wanted to fit more discard in which
@@ -257,11 +257,11 @@ Forcing of Vial was a poor decision and I should've just held it back for a turn
 2 play.
 
 :::row{variant=PILE}
-- Flooded Strand
-- Misty Rainforest
-- TO
-- Island
-- Underground Sea
+Flooded Strand
+Misty Rainforest
+TO
+Island
+Underground Sea
 :::
 
 So I draw a dud for turn and jam Doomsday building exactly what was described
@@ -330,11 +330,11 @@ against all but the super fast aggro hands Delver can get with 3 power creatures
 and multiple Bolts. David fails to find what he needs and my pile completes.
 
 :::row{variant=PILE}
-- Scalding Tarn
-- EoA
-- TO
-- CoS
-- Island
+Scalding Tarn
+EoA
+TO
+CoS
+Island
 :::
 
 Boarding for Delver is now Ragavan free (woo!) but I decided to still bring in
@@ -381,13 +381,13 @@ just can't help myself and too often get away with. This is my opening 7 (on the
 draw mind).
 
 :::row{variant=HAND}
-- DR | MMQ
-- DD
-- FoW
-- Massacre
-- BS
-- TO
-- Daze
+DR | MMQ
+DD
+FoW
+Massacre
+BS
+TO
+Daze
 :::
 
 Honestly this hand is perfect. It has multiple interaction spells which stay
@@ -573,11 +573,11 @@ pressure. I build something simple but resilient enough that even if I have to
 pass twice I have a shot, even facing a known Wasteland.
 
 :::row{variant=PILE}
-- IU
-- EoA
-- TO
-- CoS
-- TO
+IU
+EoA
+TO
+CoS
+TO
 :::
 
 The second TO comes in clutch here as, if I get Wastelanded (3 Seas in play) I

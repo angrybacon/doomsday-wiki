@@ -102,11 +102,11 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- DR
-- DR
-- ToA
+IC
+LP
+DR
+DR
+ToA
 :::
 
 For this pile, you'd cast Infernal Contract, drawing the remaining 4 cards, then
@@ -125,11 +125,11 @@ of your pile with a slight modification:
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- DR
-- CB
-- ToA
+IC
+LP
+DR
+CB
+ToA
 :::
 
 Now you use IC to draw the remaining 4 cards, cast DR off the LP, use the
@@ -143,11 +143,11 @@ for 1 extra mana of any color:
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- LED
-- LED
-- LP
-- BW
+IC
+LED
+LED
+LP
+BW
 :::
 
 With 1 floating mana left over after casting IC, you can make red with the LP to
@@ -169,21 +169,21 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 > IC in hand - {B}{B}{B} + {B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- LP
-- DR
-- DR
-- CB
-- ToA
+LP
+DR
+DR
+CB
+ToA
 :::
 
 > IC in hand - {B}{B}{B} + {B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- LED
-- LED
-- LP
-- CB
-- BW
+LED
+LED
+LP
+CB
+BW
 :::
 
 **Think the opponent is being cute and sandbagging an answer to Tendrils?**
@@ -191,11 +191,11 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- Dur
-- ToA
+IC
+DR
+DR
+Dur
+ToA
 :::
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
@@ -203,11 +203,11 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 > Cantrip in hand - {B}{B}{B} + {U}{U}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- CoV
-- ToA
+IC
+DR
+DR
+CoV
+ToA
 :::
 
 Note that this only works post board since CoV isn't in the maindeck.
@@ -217,11 +217,11 @@ Note that this only works post board since CoV isn't in the maindeck.
 > BS and IC in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
 :::row{variant=PILE}
-- DR
-- LP
-- DR
-- DR
-- ToA
+DR
+LP
+DR
+DR
+ToA
 :::
 
 **Brainstorm and ToA in hand**
@@ -229,11 +229,11 @@ Note that this only works post board since CoV isn't in the maindeck.
 > BS and ToA in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- LP
-- DR
+IC
+DR
+DR
+LP
+DR
 :::
 
 This concept of using BS to trade cards in hand for cards in library can be
@@ -251,11 +251,11 @@ come up with in this new list:
 > {1}{B}{B}{B}{B} - 11 Storm
 
 :::row{variant=PILE}
-- IC
-- Rain of Filth
-- CR
-- CB
-- ToA
+IC
+Rain of Filth
+CR
+CB
+ToA
 :::
 
 The idea here is that you cast ToA twice by recycling it with the Bauble. ToA ->
@@ -277,11 +277,11 @@ Here is another potential pass-the-turn pile:
 > {B}{B}{B}{B}{R}{R} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- BW
-- ToA
+IC
+DR
+DR
+BW
+ToA
 :::
 
 Here you would wish for Past in Flames to flash back your rituals and end it

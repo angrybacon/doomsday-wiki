@@ -43,31 +43,31 @@ piles are:
 > SW in hand - {B}{B}{B} + {1}{U}{U}
 
 :::row{variant=PILE}
-- IU
-- CB
-- LED
-- SW
-- LM
+IU
+CB
+LED
+SW
+LM
 :::
 
 > CB in play, SW in hand - {B}{B}{B} + {B}
 
 :::row{variant=PILE}
-- LED
-- IU
-- SW
-- DR
-- LM
+LED
+IU
+SW
+DR
+LM
 :::
 
 > 2 SW in hand - {B}{B}{B} + {B}
 
 :::row{variant=PILE}
-- LED
-- IU
-- CB
-- DR
-- LM
+LED
+IU
+CB
+DR
+LM
 :::
 
 Most of these piles speak for themselves. Somehow draw and cast Ideas Unbound
@@ -96,11 +96,11 @@ piles will be touched upon.
 > Pre in hand - {B}{B}{B} + {U}{U/B}{B}{B}{B}
 
 :::row{variant=PILE}
-- IC
-- DR
-- LP
-- CB
-- LM
+IC
+DR
+LP
+CB
+LM
 :::
 
 This pile is fairly straightforward. Cast IC, draw the remaining cards in your

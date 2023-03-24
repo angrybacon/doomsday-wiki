@@ -30,8 +30,8 @@ the time):
 1. Resolve Thassa's Oracle
 
 :::row{variant=CENTERED}
-- DD
-- TO
+DD
+TO
 :::
 
 Of these steps, we will provide additional focus on how to achieve steps 2.
@@ -41,8 +41,8 @@ specific key spell however it is the *pile* construction that is often the
 trickiest element of playing the deck for newer players of the archetype.
 
 :::row{variant=CENTERED}
-- Pre
-- SW
+Pre
+SW
 :::
 
 The first consideration to make is how you will *dig* into the pile. We will use
@@ -97,11 +97,11 @@ we will explore more of this in another chapter.
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 Here you can use a cantrip to access the :card[Ideas Unbound]. This allows you
@@ -117,11 +117,11 @@ Wraith for :card[Edge of Autumn] if you are low on life or a Lotus Petal for a
 > {1}{U} + Cantrip
 
 :::row{variant=PILE}
-- Pdt
-- Pnd
-- LED
-- SW
-- TO
+Pdt
+Pnd
+LED
+SW
+TO
 :::
 
 This is a slightly different take for people who wish to use :card[Predict] over
@@ -140,19 +140,19 @@ Once the cycling effect resolves, you will now have the mana to cast Oracle.
 > Cantrip + Cantrip
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- PoN
-- TO
+LED
+IU
+LP
+PoN
+TO
 :::
 
 :::row{variant=PILE}
-- LED
-- Pdt
-- SW
-- LP
-- TO
+LED
+Pdt
+SW
+LP
+TO
 :::
 
 If you find yourself constrained on the mana to cast both a cantrip, and one of
@@ -172,11 +172,11 @@ or who are holding something like :card[Stifle].
 > {U} + Consider
 
 :::row{variant=PILE}
-- DA
-- LED
-- SW
-- LP
-- TO
+DA
+LED
+SW
+LP
+TO
 :::
 
 If you are low on resources you can utilise the above pile using :card[Consider]
@@ -191,11 +191,11 @@ Similarly, you can replace the Consider in hand with a cycling effect.
 > {U} + Cycler
 
 :::row{variant=PILE}
-- Consider
-- DA
-- LED
-- LP
-- TO
+Consider
+DA
+LED
+LP
+TO
 :::
 
 ## Piles Not Using Predict nor Ideas Unbound
@@ -212,11 +212,11 @@ second cantrip to dig deeper into your pile while cracking the LED for mana.
 > Cantrip + Cantrip
 
 :::row{variant=PILE}
-- LED
-- SW
-- EoA
-- Pnd
-- TO
+LED
+SW
+EoA
+Pnd
+TO
 :::
 
 The above pile is pretty simplistic but shows that sometimes the simplest route
@@ -234,11 +234,11 @@ Deep Analysis and LED can be interchanged:
 > Lion's Eye Diamond + Cycler
 
 :::row{variant=PILE}
-- DA
-- SW
-- SW
-- LP
-- TO
+DA
+SW
+SW
+LP
+TO
 :::
 
 ## Passing the Turn
@@ -255,13 +255,13 @@ Take the following example:
 > On the play
 
 :::row{variant=HAND}
-- DR
-- DD
-- FoW
-- FoW
-- Swamp
-- Island
-- Pre
+DR
+DD
+FoW
+FoW
+Swamp
+Island
+Pre
 :::
 
 Here we have a great example of what looks to be a *combo ready hand* however we
@@ -276,11 +276,11 @@ the examples above:
 > PTT
 
 :::row{variant=PILE}
-- Pdt
-- SW
-- LED
-- EoA
-- TO
+Pdt
+SW
+LED
+EoA
+TO
 :::
 
 Or
@@ -288,11 +288,11 @@ Or
 > PTT + Cantrip
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- Tsz
-- TO
+LED
+IU
+LP
+Tsz
+TO
 :::
 
 The second example also allows you to hold up {B} from your Swamp to cast a
@@ -305,11 +305,11 @@ of using LED you can set up something like this:
 > PTT + PTT
 
 :::row{variant=PILE}
-- Pdt
-- SW
-- LP
-- Pnd
-- TO
+Pdt
+SW
+LP
+Pnd
+TO
 :::
 
 In this example you can draw Predict for turn, play your island and pass again.

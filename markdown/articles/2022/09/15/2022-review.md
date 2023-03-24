@@ -37,7 +37,7 @@ year.
 #### Shelldock Isle
 
 :::row{variant=CENTERED}
-- Shelldock Isle
+Shelldock Isle
 :::
 
 The first one we'll touch on comes in two parts. The first part is related to a
@@ -57,11 +57,11 @@ Traditionally vs. a {U} based control shell you might build something like this:
 > Pass the turn
 
 :::row{variant=PILE}
-- SI
-- Em
-- Thassa's Oracle
-- Pyroblast
-- Volcanic Island
+SI
+Em
+Thassa's Oracle
+Pyroblast
+Volcanic Island
 :::
 
 The idea here is you draw Shelldock, play it and trigger putting Emrakul
@@ -81,12 +81,12 @@ Nowadays if you sit across from a Grixis Control player, a Jeskai Pile, a Bant
 deck or even Stryfo himself you will expect to face many of the following cards:
 
 :::row{variant=CENTERED}
-- Teferi, Time Raveler
-- Wasteland
-- Dress Down
-- Boseiju, Who Endures
-- Back to Basics
-- Karakas
+Teferi, Time Raveler
+Wasteland
+Dress Down
+Boseiju, Who Endures
+Back to Basics
+Karakas
 :::
 
 All of these are both common, and completely stop the Shelldock gameplan from
@@ -104,7 +104,7 @@ by the wayside.
 #### Deep Analysis
 
 :::row{variant=CENTERED}
-- Deep Analysis
+Deep Analysis
 :::
 
 This time last year :card[Consider] was the new hotness and as a result
@@ -127,7 +127,7 @@ much as a benefit as would be wanted for its inclusion.
 #### Cabal Ritual
 
 :::row{variant=CENTERED}
-- Cabal Ritual
+Cabal Ritual
 :::
 
 :card[CR] is by no means a new card to the format. It has been explored in
@@ -180,7 +180,7 @@ consideration.
 #### Daze
 
 :::row{variant=CENTERED}
-- Daze
+Daze
 :::
 
 It wasn't until around April 2020 with the work of Jax that :card[Daze] became a
@@ -234,7 +234,7 @@ present can be enough to buy time when needed.
 #### Ideas Unbound
 
 :::row{variant=CENTERED}
-- IU
+IU
 :::
 
 :card[Ideas Unbound] has been a staple since before :card[Sensei's Divining Top]
@@ -252,11 +252,11 @@ chapter](/meandeck/brainstorm) of the Wiki:
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- IU
-- LP
-- TO
+LED
+SW
+IU
+LP
+TO
 :::
 
 You can simply change a couple of cards and it still works:
@@ -264,11 +264,11 @@ You can simply change a couple of cards and it still works:
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- Consider
-- SW
-- TO
+LED
+SW
+Consider
+SW
+TO
 :::
 
 Let's look at the steps to complete the pile:
@@ -293,11 +293,11 @@ Take this example playing around :card[Endurance]:
 > 3 {U} producing lands in play.
 
 :::row{variant=PILE}
-- IU
-- SW
-- Thassa's Oracle
-- Cavern of Souls
-- SW
+IU
+SW
+Thassa's Oracle
+Cavern of Souls
+SW
 :::
 
 Here you can win against an opponent who has double Endurance available.
@@ -324,8 +324,8 @@ not be disregarded lightly.
 #### Basic Lands
 
 :::row{variant=CENTERED}
-- Island
-- Swamp
+Island
+Swamp
 :::
 
 Basic lands have always held an interesting deckbuilding space in Legacy. They
@@ -380,7 +380,7 @@ variants or to most novel for 2022.
 #### Turbo Doomsday
 
 :::row{variant=CENTERED}
-- PT
+PT
 :::
 
 The label *Turbo* has now become pretty accepted to mean *Doomsday running 3-4
@@ -405,7 +405,7 @@ cycler cards and the inclusion of just the basic Island.
 #### ABCD Doomsday
 
 :::row{variant=CENTERED}
-- Misdirection
+Misdirection
 :::
 
 ABCD has become a community favourite saying this year with it standing for
@@ -435,8 +435,8 @@ others elect to run things like Preordain or Pact of Negation instead.
 #### Tempo Doomsday
 
 :::row{variant=CENTERED}
-- Malevolent Hermit
-- Murktide Regent
+Malevolent Hermit
+Murktide Regent
 :::
 
 A new label for a previously explored concept appeared this year. *Tempo*
@@ -475,8 +475,8 @@ manabase. Very cool to see!
 #### Grief Doomsday
 
 :::row{variant=CENTERED}
-- Grief
-- Ephemerate
+Grief
+Ephemerate
 :::
 
 Something that sort of falls into the *Tempo* concept but not fully involves the
@@ -503,8 +503,8 @@ element of the deck but sometimes falls prey to its own mana requirements.
 #### Esper Doomsday
 
 :::row{variant=CENTERED}
-- Teferi, Time Raveler
-- Predict
+Teferi, Time Raveler
+Predict
 :::
 
 Although we have technically already discussed lists and subarchetypes in the

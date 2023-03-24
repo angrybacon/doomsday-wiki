@@ -12,7 +12,7 @@ against us and some strategies to face them.
 For each value examples will be given on what hate you might face and how to get
 around the listed limitation.
 
-In addition to these *work around* piles, we'll also discuss the catch-all
+In addition to these _work around_ piles, we'll also discuss the catch-all
 requirements for removing these restrictive permanents. As some numbers being
 named restrict certain removal cards, it's good to have at least two available
 to allow yourself an out for these cards if you were to face them.
@@ -27,41 +27,41 @@ post-DD to get us going.
 > SW in hand - {B}{B}{B} + {U}{U}{B}{R} - 6 Storm
 
 :::row{variant=PILE}
-- IU
-- DR
-- DR
-- SW
-- BW
+IU
+DR
+DR
+SW
+BW
 :::
 
 > CB in play, SW in hand - {B}{B}{B} + {X}{B}{B} - 7+ Storm
 
 :::row{variant=PILE}
-- DR
-- IC
-- DR
-- CB
-- ToA
+DR
+IC
+DR
+CB
+ToA
 :::
 
 > 2 SW in hand - {B}{B}{B} + {B}{R}{R} - 6 Storm
 
 :::row{variant=PILE}
-- DR
-- AoI
-- DR
-- DR
-- BW
+DR
+AoI
+DR
+DR
+BW
 :::
 
 > 2 SW in hand - {B}{B}{B} + {U}{B}{R}
 
 :::row{variant=PILE}
-- DR
-- AoI
-- DR
-- LM
-- SW
+DR
+AoI
+DR
+LM
+SW
 :::
 
 These piles have lost a lot of their power with the banning of Gitaxian Probe
@@ -114,41 +114,41 @@ like Edge of Autumn to access the pile are all considerations.
 > Pass the turn - {2}{B}{B}{B}{R} - 7 Storm
 
 :::row{variant=PILE}
-- BW
-- LED
-- LED
-- LP
-- BW
+BW
+LED
+LED
+LP
+BW
 :::
 
 > BW in hand, CB in play, pass the turn - {1}{R} - 8 Storm
 
 :::row{variant=PILE}
-- LED
-- LED
-- LED
-- LED
-- BW
+LED
+LED
+LED
+LED
+BW
 :::
 
 > BW in hand, CB in play - {B}{B}{B} + {2}{R} - 8 Storm
 
 :::row{variant=PILE}
-- LED
-- LED
-- LP
-- LP
-- BW
+LED
+LED
+LP
+LP
+BW
 :::
 
 > BW in hand, CB in play - {B}{B}{B} + {1}{R} - 7 Storm
 
 :::row{variant=PILE}
-- LED
-- AoI
-- LED
-- LED
-- BW
+LED
+AoI
+LED
+LED
+BW
 :::
 
 In terms of removal there is very little here. Only :card[Chain of Vapor] and
@@ -169,21 +169,21 @@ get rid of it. You can also ignore this limitation with maindeck ToA.
 > SW in hand, CB in play - {B}{B}{B} + {X} - 8+ Storm
 
 :::row{variant=PILE}
-- LED
-- AoI
-- ToA
-- LED
-- CB
+LED
+AoI
+ToA
+LED
+CB
 :::
 
 > SW in hand - {B}{B}{B} + {2}{U}{R}
 
 :::row{variant=PILE}
-- AoI
-- LED
-- BS
-- LM
-- Abandon Hope
+AoI
+LED
+BS
+LM
+Abandon Hope
 :::
 
 This limitation in terms of removal is very awkward. Things like Abrupt Decay
@@ -243,81 +243,81 @@ for the appropriate removal spell by substituting the mana cost accordingly.
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 8 Storm
 
 :::row{variant=PILE}
-- LED
-- Nature's Claim|WWK
-- DR
-- LP
-- ToA
+LED
+Nature's Claim|WWK
+DR
+LP
+ToA
 :::
 
 > BW and BS in hand, CB in play - {B}{B}{B} + {U}{G} - 9 Storm
 
 :::row{variant=PILE}
-- Nature's Claim|WWK
-- AoI
-- LED
-- LED
-- LED
+Nature's Claim|WWK
+AoI
+LED
+LED
+LED
 :::
 
 > SW and BW in hand - {B}{B}{B} + {2}{R}{G} - 7 Storm
 
 :::row{variant=PILE}
-- LED
-- Nature's Claim|WWK
-- LED
-- SW
-- ToA
+LED
+Nature's Claim|WWK
+LED
+SW
+ToA
 :::
 
 > Pass the turn, SW in hand - {2}{U}{U}{G}
 
 :::row{variant=PILE}
-- Nature's Claim|WWK
-- IU
-- LP
-- SW
-- LM
+Nature's Claim|WWK
+IU
+LP
+SW
+LM
 :::
 
 > Pass the turn, SW in hand - {1}{U}{U}{G}
 
 :::row{variant=PILE}
-- Nature's Claim|WWK
-- TW
-- LED
-- SW
-- LM
+Nature's Claim|WWK
+TW
+LED
+SW
+LM
 :::
 
 > Pass the turn, SW in hand - {2}{R}{G}
 
 :::row{variant=PILE}
-- Nature's Claim|WWK
-- AoI
-- LED
-- SW
-- LM
+Nature's Claim|WWK
+AoI
+LED
+SW
+LM
 :::
 
 > Pass the turn, LED in play - {2}{G}
 
 :::row{variant=PILE}
-- SW
-- IU
-- Nature's Claim|WWK
-- SW
-- LM
+SW
+IU
+Nature's Claim|WWK
+SW
+LM
 :::
 
 > Pass the turn, LED in play - {2}{U}{G}
 
 :::row{variant=PILE}
-- SW
-- AoI
-- Nature's Claim|WWK
-- SW
-- LM
+SW
+AoI
+Nature's Claim|WWK
+SW
+LM
 :::
 
 ## Pass-the-Turn Piles Using Chain of Vapor
@@ -330,31 +330,31 @@ remove a limitation.
 > Pass the turn, SW in hand - {U}{U}{U} - 9 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- CoV
-- BW
+IU
+LED
+LED
+CoV
+BW
 :::
 
 > Pass the turn, LED in play - {U}{U}{U} - 8 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- SW
-- CoV
-- BW
+IU
+LED
+SW
+CoV
+BW
 :::
 
 > Pass the turn, BW, SW and any 1 card in hand - {U}{U} - 9 Storm
 
 :::row{variant=PILE}
-- SW
-- BS
-- LED
-- LED
-- CoV
+SW
+BS
+LED
+LED
+CoV
 :::
 
 ## Removal Choices

@@ -31,11 +31,11 @@ graveyard.
 > LED, Echo in hand - {B}{B}{B} - 10 Storm
 
 :::row{variant=PILE}
-- LP
-- LP
-- LED
-- LED
-- BW
+LP
+LP
+LED
+LED
+BW
 :::
 
 1. Cast Doomsday and build the pile described
@@ -63,11 +63,11 @@ the piles work.
 > Echo, Ponder in hand - {B}{B}{B} + {U}
 
 :::row{variant=PILE}
-- LED
-- LP
-- LP
-- LP
-- TO
+LED
+LP
+LP
+LP
+TO
 :::
 
 This pile is very similar to the first one, except you need to Ponder to grab
@@ -84,11 +84,11 @@ take a look at an example.
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
 :::row{variant=PILE}
-- EoE
-- LED
-- LED
-- Ponder
-- BW
+EoE
+LED
+LED
+Ponder
+BW
 :::
 
 To start this pile, you cast Brainstorm and trade the 2 useless cards for Echo
@@ -109,11 +109,11 @@ extra cards in hand.
 > LED, Echo, and 2 useless cards in hand - {B}{B}{B}
 
 :::row{variant=PILE}
-- LP
-- LP
-- LP
-- Pnd
-- TO
+LP
+LP
+LP
+Pnd
+TO
 :::
 
 This pile will start out identically to our other, casting Echo to draw a
@@ -136,11 +136,11 @@ into the pile.
 > LED, Echo, Oracle in hand - {B}{B}{B}
 
 :::row{variant=PILE}
-- LP
-- LP
-- LP
-- Pnd
-- Tsz
+LP
+LP
+LP
+Pnd
+Tsz
 :::
 
 For just the cost of a Doomsday, you can get that Oracle back into your deck to
@@ -158,11 +158,11 @@ you to kill with :card[Grapeshot]
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 
 :::row{variant=PILE}
-- EoE
-- LED
-- LED
-- LED
-- BW
+EoE
+LED
+LED
+LED
+BW
 :::
 
 Cast Doomsday, play out your mana artifacts, sacrifice them all for UUUR, and

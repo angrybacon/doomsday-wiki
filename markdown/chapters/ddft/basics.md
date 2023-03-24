@@ -42,11 +42,11 @@ assume that you have a Ponder in hand and {U} to cast it.
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U} - 7 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- SW
-- BW
+IU
+LED
+LED
+SW
+BW
 :::
 
 1. Cast Doomsday and build the above pile
@@ -69,11 +69,11 @@ Wraith with a Ponder at the cost of 1 more {U} mana.
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U}
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 1. Cast Doomsday and build the above pile
@@ -91,11 +91,11 @@ matter, which obviously is great when you can't generate enough storm.
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- LED
-- LED
-- BW
+IC
+LP
+LED
+LED
+BW
 :::
 
 1. Cast Doomsday and build the above pile
@@ -113,11 +113,11 @@ response to the first cantrip.
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}
 
 :::row{variant=PILE}
-- IC
-- LP
-- LP
-- LP
-- TO
+IC
+LP
+LP
+LP
+TO
 :::
 
 1. Cast Doomsday and build the above pile
@@ -135,11 +135,11 @@ than a Storm pile with Contract.
 > Pnd, Pnd in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- LED
-- BW
+LED
+IU
+LP
+LED
+BW
 :::
 
 1. Cast Doomsday and build the above pile
@@ -161,11 +161,11 @@ with Doomsday.
 > Pnd, Pnd in hand - {B}{B}{B} + {U}{U}
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- LP
-- TO
+LED
+IU
+LP
+LP
+TO
 :::
 
 1. Cast Doomsday and build the above pile
@@ -187,11 +187,11 @@ Doomsday, but no additional mana.
 > CB, Pre in hand - {B}{B}{B} + {2}{U} - 10 Storm
 
 :::row{variant=PILE}
-- LED
-- IC
-- LED
-- LP
-- BW
+LED
+IC
+LED
+LP
+BW
 :::
 
 1. Cast Doomsday and build the above pile

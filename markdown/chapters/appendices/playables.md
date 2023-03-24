@@ -18,7 +18,7 @@ or considerations it may have associated with it.
 ## Quicken
 
 :::row{variant=CENTERED}
-- Quicken
+Quicken
 :::
 
 Quicken is a cantrip effect that can be used to try and help power out your
@@ -36,12 +36,12 @@ all accounts other than the colour requirement.
 ## Tutors
 
 :::row{variant=CENTERED}
-- Grim Tutor
-- Infernal Tutor
-- Profane Tutor
-- Scheming Symmetry
-- Solve the Equation
-- Wishclaw Talisman
+Grim Tutor
+Infernal Tutor
+Profane Tutor
+Scheming Symmetry
+Solve the Equation
+Wishclaw Talisman
 :::
 
 There are many tutor effects available in Legacy however many are considered to
@@ -77,9 +77,9 @@ speed being lost from its use.
 ## Wishes
 
 :::row{variant=CENTERED}
-- Burning Wish
-- Death Wish
-- Wish
+Burning Wish
+Death Wish
+Wish
 :::
 
 Wishes are often discussed as a way to increase the number of pseudo copies of
@@ -100,8 +100,8 @@ deck but are not recommended.
 ## Striges
 
 :::row{variant=CENTERED}
-- Baleful Strix
-- Ice-Fang Coatl
+Baleful Strix
+Ice-Fang Coatl
 :::
 
 Baleful Strix is a great card that can sometimes feel a bit off in a combo
@@ -116,7 +116,7 @@ creature-centric build.
 ## Unearth
 
 :::row{variant=CENTERED}
-- Unearth
+Unearth
 :::
 
 Unearth was very popular as the current style of the deck was explored. It
@@ -131,12 +131,12 @@ Oracle in piles.
 ## Creatures
 
 :::row{variant=CENTERED}
-- Dragon's Rage Channeler
-- Uro, Titan of Nature's Wrath
-- Monastery Mentor
-- Sedgemoor Witch
-- Murktide Regent
-- Triumph of Saint Katherine
+Dragon's Rage Channeler
+Uro, Titan of Nature's Wrath
+Monastery Mentor
+Sedgemoor Witch
+Murktide Regent
+Triumph of Saint Katherine
 :::
 
 There are a lot of creatures which could be added to the list above but these
@@ -164,10 +164,10 @@ wrong parts of both sides being found.
 ## Multi-Draw Spells
 
 :::row{variant=CENTERED}
-- Predict
-- Night's Whisper
-- DA
-- Reckless Impulse
+Predict
+Night's Whisper
+DA
+Reckless Impulse
 :::
 
 Traditionally :card[Ideas Unbound] is the *multi-draw* tool that is used to try
@@ -196,9 +196,9 @@ normally gets paired alongside Ideas Unbound rather than replacing it.
 ## Mill Cantrips
 
 :::row{variant=CENTERED}
-- Mental Note
-- Thought Scour
-- Consider
+Mental Note
+Thought Scour
+Consider
 :::
 
 Before :card[Consider] arrived on the scene, these were two options for being
@@ -217,7 +217,7 @@ honestly Consider is just better.
 ## Echo of Eons
 
 :::row{variant=CENTERED}
-- Echo of Eons
+Echo of Eons
 :::
 
 Echo of Eons is one of the various *draw 7* effects that have existed in Magic
@@ -236,8 +236,8 @@ does the same thing" category of cards.
 ## Disruption and Removal
 
 :::row{variant=CENTERED}
-- Drown in the Loch
-- Collective Brutality
+Drown in the Loch
+Collective Brutality
 :::
 
 These cards can be very powerful allowing for a nice mix of flexibility and
@@ -254,8 +254,8 @@ spells is usually enough.
 ## Alternative Discard
 
 :::row{variant=CENTERED}
-- Inquisition of Kozilek
-- Cabal Therapy
+Inquisition of Kozilek
+Cabal Therapy
 :::
 
 :card[Inquisition of Kozilek] is an interesting card in Legacy. It hits 90% of all

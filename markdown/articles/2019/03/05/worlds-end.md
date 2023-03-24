@@ -90,11 +90,11 @@ how you would normally.
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
 :::row{variant=PILE}
-- LED | MIR
-- LED
-- LED
-- ToA
-- DD
+LED | MIR
+LED
+LED
+ToA
+DD
 :::
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
@@ -117,11 +117,11 @@ Hell, you could even consider running :card[Aetherflux Reservoir]!
 As per the example above:
 
 :::row{variant=PILE}
-- LED
-- LED
-- LED
-- Aetherflux Reservoir
-- DD
+LED
+LED
+LED
+Aetherflux Reservoir
+DD
 :::
 
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
@@ -145,11 +145,11 @@ Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
 :::row{variant=PILE}
-- AoI
-- LED
-- ToA
-- Pnd
-- CB
+AoI
+LED
+ToA
+Pnd
+CB
 :::
 
 Some other cards come in to help with combo and consistency. Lim Dul's Vault is

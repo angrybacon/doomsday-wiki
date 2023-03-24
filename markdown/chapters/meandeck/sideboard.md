@@ -117,11 +117,11 @@ Some key examples of permanent removal to consider:
 - :card[Force of Negation]
 
 :::row{variant=CENTERED}
-- Abrupt Decay
-- Abrade
-- Prismatic Ending
-- Teferi's Realm
-- Pernicious Deed
+Abrupt Decay
+Abrade
+Prismatic Ending
+Teferi's Realm
+Pernicious Deed
 :::
 
 #### Creature Removal
@@ -143,11 +143,11 @@ Some key examples of creature removal to consider:
 - :card[Terminus]
 
 :::row{variant=CENTERED}
-- StP
-- Fatal Push
-- Massacre
-- Toxic Deluge
-- Terminus
+StP
+Fatal Push
+Massacre
+Toxic Deluge
+Terminus
 :::
 
 #### Anti-Blue
@@ -173,11 +173,11 @@ Some key examples of anti-blue to consider:
 - :card[Teferi, Time Raveler]
 
 :::row{variant=CENTERED}
-- Silence
-- Pyroblast
-- Hope of Ghirapur
-- Defense Grid
-- Xantid Swarm
+Silence
+Pyroblast
+Hope of Ghirapur
+Defense Grid
+Xantid Swarm
 :::
 
 #### Anti-Combo
@@ -200,11 +200,11 @@ Some key examples of anti-combo to consider:
 - :card[Lavinia, Azorius Renegade]
 
 :::row{variant=CENTERED}
-- Veil of Summer
-- Flusterstorm
-- Spell Pierce
-- Mindbreak Trap
-- Force of Negation
+Veil of Summer
+Flusterstorm
+Spell Pierce
+Mindbreak Trap
+Force of Negation
 :::
 
 #### Anti-Graveyard
@@ -233,11 +233,11 @@ Some key examples of anti-graveyard to consider:
 - :card[Relic of Progrenitus] (soft)
 
 :::row{variant=CENTERED}
-- Leyline of the Void
-- Tormod's Crypt
-- Surgical Extraction
-- Rest in Peace
-- Grafdigger's Cage
+Leyline of the Void
+Tormod's Crypt
+Surgical Extraction
+Rest in Peace
+Grafdigger's Cage
 :::
 
 #### Mana Assets
@@ -258,11 +258,11 @@ Some key examples of mana assets to consider:
 - :card[Cabal Ritual]
 
 :::row{variant=CENTERED}
-- Carpet of Flowers
-- Cavern of Souls
-- Snow-Covered Plains
-- CR
-- Bayou
+Carpet of Flowers
+Cavern of Souls
+Snow-Covered Plains
+CR
+Bayou
 :::
 
 #### Alternate Win Conditions
@@ -347,11 +347,11 @@ Examples of this archetype include:
 - {U}{B}{R} Phoenix
 
 :::row{variant=CENTERED}
-- Griselbrand
-- Dread Return
-- Ichorid
-- Hogaak, Arisen Necropolis
-- Arclight Phoenix
+Griselbrand
+Dread Return
+Ichorid
+Hogaak, Arisen Necropolis
+Arclight Phoenix
 :::
 
 ### Blue-Based Control
@@ -397,11 +397,11 @@ Examples of this archetype include:
 - Jeskai Mentor
 
 :::row{variant=CENTERED}
-- Counterbalance
-- Standstill
-- Dack Fayden
-- Sylvan Library
-- Endurance
+Counterbalance
+Standstill
+Dack Fayden
+Sylvan Library
+Endurance
 :::
 
 ### Delver Strategies
@@ -453,11 +453,11 @@ Examples of this archetype include:
 - {U}{B} Shadow
 
 :::row{variant=CENTERED}
-- Delver of Secrets
-- Daze
-- Death's Shadow
-- Glistener Elf
-- Wasteland
+Delver of Secrets
+Daze
+Death's Shadow
+Glistener Elf
+Wasteland
 :::
 
 ### Creature-Based Strategies
@@ -489,11 +489,11 @@ Examples of this archetype include:
 - Maverick
 
 :::row{variant=CENTERED}
-- Aether Vial
-- Green Sun's Zenith
-- Thalia, Guardian of Thraben
-- Goblin Lackey
-- Knight of the Reliquary
+Aether Vial
+Green Sun's Zenith
+Thalia, Guardian of Thraben
+Goblin Lackey
+Knight of the Reliquary
 :::
 
 ### Fast Combo
@@ -552,11 +552,11 @@ Examples of this archetype include:
 - High Tide
 
 :::row{variant=CENTERED}
-- Tendrils of Agony
-- Goblin Charbelcher
-- Dark Depths
-- Show and Tell
-- High Tide
+Tendrils of Agony
+Goblin Charbelcher
+Dark Depths
+Show and Tell
+High Tide
 :::
 
 ### Stompy Strategies
@@ -590,11 +590,11 @@ Examples of this archetype include:
 - Steel Stompy
 
 :::row{variant=CENTERED}
-- Chalice of the Void
-- Blood Moon
-- Thoughtknot Seer
-- Karn, the Great Creator
-- Cloudpost
+Chalice of the Void
+Blood Moon
+Thoughtknot Seer
+Karn, the Great Creator
+Cloudpost
 :::
 
 ### Hybrid Archetypes

@@ -41,11 +41,11 @@ my opinion).
 With Experimental Frenzy in play, casting Doomsday wins the game.
 
 :::row{variant=PILE}
-- LED
-- LED
-- LED
-- DD
-- ToA
+LED
+LED
+LED
+DD
+ToA
 :::
 
 With this pile, you can get infinite Storm.
@@ -61,11 +61,11 @@ have {2}{U}{R} and a cantrip in hand using an Act on Impulse pile. An example of
 this line.
 
 :::row{variant=PILE}
-- AoI
-- LED
-- LED
-- Pdt
-- ToA
+AoI
+LED
+LED
+Pdt
+ToA
 :::
 
 1. Cast Brainstorm, put back both LEDs, Storm 5
@@ -77,11 +77,11 @@ These are probably the most common piles, but there are variations on them. For
 example, take this PTT pile where you need 4 mana on the next turn.
 
 :::row{variant=PILE}
-- EF
-- LED
-- LED
-- DD
-- ToA
+EF
+LED
+LED
+DD
+ToA
 :::
 
 You can use this pile when you have 4 mana sources in play. If you have a
@@ -92,11 +92,11 @@ and you have a Frenzy in play, you can use this infinite Storm pile utilizing
 Dark Ritual as an alternative to LED.
 
 :::row{variant=PILE}
-- DR
-- DR
-- DR
-- DD
-- ToA
+DR
+DR
+DR
+DD
+ToA
 :::
 
 It does the same thing as the other piles, but it doesn't use LED.
@@ -106,31 +106,31 @@ to eventually cast Tendrils, the pile can be altered to fit in a discard spell
 or bounce spell.
 
 :::row{variant=PILE}
-- Dur
-- LED
-- LED
-- DD
-- ToA
+Dur
+LED
+LED
+DD
+ToA
 :::
 
 Or
 
 :::row{variant=PILE}
-- LED
-- Dur
-- LED
-- DD
-- ToA
+LED
+Dur
+LED
+DD
+ToA
 :::
 
 Or
 
 :::row{variant=PILE}
-- LED
-- ET
-- LED
-- DD
-- ToA
+LED
+ET
+LED
+DD
+ToA
 :::
 
 The first option is for when you have {B} floating, while the second and third
@@ -147,11 +147,11 @@ Due to the fact that Collective Brutality makes you gain 2 life, you can loop
 Doomsday.
 
 :::row{variant=PILE}
-- LED
-- LED
-- LED
-- Collective Brutality
-- DD
+LED
+LED
+LED
+Collective Brutality
+DD
 :::
 
 ## Act on Impulse
@@ -164,11 +164,11 @@ piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
 using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
 
 :::row{variant=PILE}
-- AoI
-- ToA
-- LED
-- CB
-- Pnd
+AoI
+ToA
+LED
+CB
+Pnd
 :::
 
 1. Cast cantrip, Storm 4
@@ -184,11 +184,11 @@ Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
 
 :::row{variant=PILE}
-- AoI
-- LED
-- LED
-- Pdt
-- ToA
+AoI
+LED
+LED
+Pdt
+ToA
 :::
 
 This pile creates 5 Storm, which is usually enough.

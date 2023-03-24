@@ -94,11 +94,11 @@ enough mana for your Doomsday pile. Take this example from our [Basics
 Chapter](/meandeck/basics).
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 If you play this turn with Force of Will and a blue card up, you can hold both
@@ -117,19 +117,19 @@ used to synergise with :card[Unearth] allowing the playing of Oracle for the
 cost of a single {B}.
 
 :::row{variant=PILE}
-- Pdt
-- Pnd
-- SW
-- LP
-- TO
+Pdt
+Pnd
+SW
+LP
+TO
 :::
 
 :::row{variant=PILE}
-- Pdt
-- TO
-- SW
-- LP
-- Unearth
+Pdt
+TO
+SW
+LP
+Unearth
 :::
 
 As you can see these piles are quite lean in terms of mana and card resources
@@ -163,11 +163,11 @@ Island, Swamp, and 3 x Underground Sea in play.
 Stack the following:
 
 :::row{variant=PILE}
-- Pdt
-- Pnd
-- SW
-- LP
-- TO
+Pdt
+Pnd
+SW
+LP
+TO
 :::
 
 1. Use {U} to cast Ponder. Draw Predict
@@ -192,11 +192,11 @@ Swamp and 3 x Underground Sea in play.
 Stack the following:
 
 :::row{variant=PILE}
-- LED
-- Pdt
-- Pnd
-- LP
-- TO
+LED
+Pdt
+Pnd
+LP
+TO
 :::
 
 1. Use {U} to cast Preordain. Draw Lion's Eye Diamond
@@ -224,11 +224,11 @@ You have :card[Dark Ritual], :card[Force of Will], :card[Brainstorm] and
 Stack the following:
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pdt
-- LP
-- TO
+LED
+SW
+Pdt
+LP
+TO
 :::
 
 1. Use {U} to cast Brainstorm

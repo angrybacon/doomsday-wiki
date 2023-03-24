@@ -22,9 +22,9 @@ play Doomsday and Tendrils of Agony in the same 75.
 ## The Starting Point
 
 :::row{variant=CENTERED}
-- DD
-- EoE
-- BW
+DD
+EoE
+BW
 :::
 
 This is roughly what I and others would consider a typical DDFT list in the
@@ -36,9 +36,9 @@ article][articles:echoes-of-the-past] but is more or less recognizable.
 ::decklist{path=2021/07/26/ddft.ubrg.echo}
 
 :::row{variant=CENTERED}
-- TO
-- IU
-- IC
+TO
+IU
+IC
 :::
 
 The biggest change of course is the adoption of Thassa's Oracle which hadn't
@@ -65,8 +65,8 @@ but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 3 to dodge Daze, and the opponent could pay 3 to Force a business spell anyway.
 
 :::row{variant=CENTERED}
-- Solve the Equation
-- Dark Petition
+Solve the Equation
+Dark Petition
 :::
 
 While these issues weren't catastrophic, and careful fetching could minimize it,
@@ -81,9 +81,9 @@ when you didn't.
 ## The Mindkiller
 
 :::row{variant=CENTERED}
-- SotV
-- EtW
-- Mm
+SotV
+EtW
+Mm
 :::
 
 A few months after brewing the initial Echo Doomsday list, Thassa's Oracle had
@@ -119,9 +119,9 @@ I had a cold streak with Spoils of the Vault, I would look for alternatives to
 it.
 
 :::row{variant=CENTERED}
-- Plunge into Darkness
-- Gamble|USG
-- SotV
+Plunge into Darkness
+Gamble|USG
+SotV
 :::
 
 I tried replacing it with Preordain, I tried Plunge into Darkness, I tried
@@ -137,9 +137,9 @@ or nearly so, and thus the *Mindkiller* style of DDFT stayed in my mind.
 ## The Truly Bizarre
 
 :::row{variant=CENTERED}
-- Goblin Charbelcher|MRD
-- Recross the Paths
-- Lim-Dul's Vault
+Goblin Charbelcher|MRD
+Recross the Paths
+Lim-Dul's Vault
 :::
 
 I've always been drawn to unusual decks, particularly fast combos, although I've
@@ -207,9 +207,9 @@ Maybe this will... nope.
 ## The Successful Failures
 
 :::row{variant=CENTERED}
-- ToA
-- BS
-- IC
+ToA
+BS
+IC
 :::
 
 Some of my experiments that didn't work out still yielded some valuable
@@ -270,9 +270,9 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 ## The Top of the Trashpile
 
 :::row{variant=CENTERED}
-- Gemstone Mine
-- DD
-- Silence
+Gemstone Mine
+DD
+Silence
 :::
 
 So where did I end up after all that? Well, here's two lists:
@@ -294,9 +294,9 @@ the *Mindkiller* variant, the power of Brainstorm both in setup and in piles is
 worth contorting the mana a bit to play a handful of fetches.
 
 :::row{variant=CENTERED}
-- Prismatic Ending
-- Endurance
-- Dress Down
+Prismatic Ending
+Endurance
+Dress Down
 :::
 
 The primary type of disruption is also the same between the two lists now,
@@ -308,9 +308,9 @@ Mindbreak Trap, Dress Down, etc. and the value of telling your opponent to just
 shut up has skyrocketed. With a 5c manabase, Chants are easy enough to support.
 
 :::row{variant=CENTERED}
-- Peer into the Abyss
-- Rip Apart
-- Galvanic Relay
+Peer into the Abyss
+Rip Apart
+Galvanic Relay
 :::
 
 The sideboards have also acquired some new tools. Since the early days of the

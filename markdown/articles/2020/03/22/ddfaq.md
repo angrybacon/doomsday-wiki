@@ -58,11 +58,11 @@ to kill via a Doomsday pile with lethal :card[Tendrils of Agony] or
 example pile below:
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- Pnd
-- BW
+IU
+LED
+LED
+Pnd
+BW
 :::
 
 Due to the cards used, the deck tends to be Grixis colours sometimes splashing
@@ -81,11 +81,11 @@ methods as DDFT but also allows winning via infinite copies of :card[Collective
 Brutality] amongst other things (see example below).
 
 :::row{variant=PILE}
-- LED
-- LED
-- LED
-- Collective Brutality
-- DD
+LED
+LED
+LED
+Collective Brutality
+DD
 :::
 
 Instead of using :card[Burning Wish] for additional copies of Doomsday, the deck
@@ -110,11 +110,11 @@ control elements like :card[Force of Will]. The deck does not run Storm based
 win conditions either. An example pile is below:
 
 :::row{variant=PILE}
-- Pdt
-- Pnd
-- EoA
-- LED
-- TO
+Pdt
+Pnd
+EoA
+LED
+TO
 :::
 
 **Note**: At the time of writing this article, this variant is the one having
@@ -164,8 +164,8 @@ are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
 :::row{variant=CENTERED}
-- DD
-- EF
+DD
+EF
 :::
 
 ### Mana Acceleration and Fixing
@@ -199,9 +199,9 @@ You may note I have not yet discussed :card[Lion's Eye Diamond] here, this will
 be covered in *Combo Pieces*.
 
 :::row{variant=CENTERED}
-- DR
-- LP
-- Arcum's Astrolabe
+DR
+LP
+Arcum's Astrolabe
 :::
 
 #### DDFT and DDEFT
@@ -244,9 +244,9 @@ protection elements and more niche *combo cards* like :card[Conjurer's Bauble]
 you should end up with a very high cantrip number.
 
 :::row{variant=CENTERED}
-- Pnd
-- BS
-- Pdt
+Pnd
+BS
+Pdt
 :::
 
 #### DDFT
@@ -295,9 +295,9 @@ would want at least 8 pieces of protection maindeck with additional sideboard
 slots dedicated to more specific interaction.
 
 :::row{variant=CENTERED}
-- Tsz
-- FoW
-- VoS
+Tsz
+FoW
+VoS
 :::
 
 #### DDFT
@@ -358,9 +358,9 @@ Tendrils if needed. You want to run as few *dead* cards as possibly and
 generally the win condition is counted as such so you only want 1-2 of them.
 
 :::row{variant=CENTERED}
-- ToA
-- LED
-- TO
+ToA
+LED
+TO
 :::
 
 #### DDFT
@@ -419,9 +419,9 @@ more crucial than a basic swamp as that tends to allow you to get into the game
 in the first place and the majority of your deck is {U} based cantrips anyways.
 
 :::row{variant=CENTERED}
-- Island|RAV
-- Underground Sea|LEB
-- Swamp|RAV
+Island|RAV
+Underground Sea|LEB
+Swamp|RAV
 :::
 
 #### DDFT and DDEFT
@@ -518,9 +518,9 @@ Crowns] as a potential option or :card[Uro, Titan of Nature's Wrath].
 Veil and Decay are the biggest boons for playing {G}.
 
 :::row{variant=CENTERED}
-- Monastery Mentor|FRF
-- Pyroblast|ICE
-- Abrupt Decay
+Monastery Mentor|FRF
+Pyroblast|ICE
+Abrupt Decay
 :::
 
 ### No Splash
@@ -543,7 +543,7 @@ Pierce], :card[Force of Negation] and :card[Flusterstorm].
 Budget and consistent mana is the biggest boon for playing straight {U}{B}.
 
 :::row{variant=CENTERED}
-- DW
+DW
 :::
 
 ## The Mechanics of Resolving Doomsday
@@ -559,7 +559,7 @@ wording on the original Weatherlight printing of :card[Doomsday]. See the card
 below along with the original rules text printed:
 
 :::row{variant=CENTERED}
-- Doomsday|WTH
+Doomsday|WTH
 :::
 
 > Pay half your life, rounded up:  
@@ -582,7 +582,7 @@ Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
 :::row{variant=CENTERED}
-- Doomsday|A25
+Doomsday|A25
 :::
 
 > Search your library and graveyard for five cards and exile the rest.  

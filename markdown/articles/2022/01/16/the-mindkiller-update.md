@@ -188,13 +188,13 @@ soft counters or make more colored mana. An interesting situation you will
 likely find yourself in is a hand like this:
 
 :::row{variant=HAND}
-- City of Brass
-- Gemstone Mine
-- DR
-- DR
-- Burning Wish
-- LED
-- Thoughtseize
+City of Brass
+Gemstone Mine
+DR
+DR
+Burning Wish
+LED
+Thoughtseize
 :::
 
 Do you Seize on turn 1, or hold it to cast off a ritual on your turn 2 combo
@@ -213,23 +213,23 @@ perfectly with the macro-archetypes.
 #### Out
 
 :::row{variant=HAND}
-- Doomsday
-- Doomsday
-- Doomsday
-- Thassa's Oracle
-- Street Wraith
-- Manamorphose
+Doomsday
+Doomsday
+Doomsday
+Thassa's Oracle
+Street Wraith
+Manamorphose
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Galvanic Relay
-- Galvanic Relay
-- Galvanic Relay
-- Orim's Chant
-- Orim's Chant
-- Orim's Chant
+Galvanic Relay
+Galvanic Relay
+Galvanic Relay
+Orim's Chant
+Orim's Chant
+Orim's Chant
 :::
 
 The Doomsday package is at its weakest in these matchups. You don't have the
@@ -242,17 +242,17 @@ spells to keep the deck threat-dense, and add a bit more protection.
 #### Out
 
 :::row{variant=HAND}
-- Thoughtseize
-- Thoughtseize
-- Thoughtseize
+Thoughtseize
+Thoughtseize
+Thoughtseize
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Orim's Chant
-- Orim's Chant
-- Prismatic Ending
+Orim's Chant
+Orim's Chant
+Prismatic Ending
 :::
 
 Minimal sideboarding. Chants can be used proactively as a pseudo-:card[Time
@@ -266,17 +266,17 @@ based on play vs. draw.
 #### Out
 
 :::row{variant=HAND}
-- Empty the Warrens
-- Empty the Warrens
-- Empty the Warrens
+Empty the Warrens
+Empty the Warrens
+Empty the Warrens
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Orim's Chant
-- Orim's Chant
-- Orim's Chant
+Orim's Chant
+Orim's Chant
+Orim's Chant
 :::
 
 Empty bad. Chant good.
@@ -293,21 +293,21 @@ use this strategy if I trounce someone turn 1 and never see their deck.
 #### Out
 
 :::row{variant=HAND}
-- Doomsday
-- Doomsday
-- Doomsday
-- Thassa's Oracle
-- Street Wraith
+Doomsday
+Doomsday
+Doomsday
+Thassa's Oracle
+Street Wraith
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Prismatic Ending
-- Prismatic Ending
-- Orim's Chant
-- Orim's Chant
-- Orim's Chant
+Prismatic Ending
+Prismatic Ending
+Orim's Chant
+Orim's Chant
+Orim's Chant
 :::
 
 I'm not 100% sure of this sideboarding but I can't think of anything that might

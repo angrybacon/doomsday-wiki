@@ -61,7 +61,7 @@ specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
 :::row{variant=CENTERED}
-- Pnd
+Pnd
 :::
 
 #### :card[Preordain]
@@ -81,7 +81,7 @@ I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
 :::row{variant=CENTERED}
-- Pre
+Pre
 :::
 
 #### :card[Brainstorm]
@@ -96,7 +96,7 @@ as almost drawing 3 cards with some people comparing it to :card[Ancestral
 Recall].
 
 :::row{variant=CENTERED}
-- BS
+BS
 :::
 
 ### Free *Cycling Effects*
@@ -130,7 +130,7 @@ For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
 :::row{variant=CENTERED}
-- SW
+SW
 :::
 
 #### :card[Edge of Autumn]
@@ -149,7 +149,7 @@ more narrow than :card[Thoughtseize] in effect, the life loss can be significant
 so a mix is run to provide maximum flexibility.
 
 :::row{variant=CENTERED}
-- EoA
+EoA
 :::
 
 ### Pile Enablers
@@ -172,7 +172,7 @@ mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
 :::row{variant=CENTERED}
-- Pdt
+Pdt
 :::
 
 ### :card[Ideas Unbound]
@@ -184,7 +184,7 @@ heavy hand. or provide an explosive boost of cards for a single turn,
 potentially enabling you to combo off there and then.
 
 :::row{variant=CENTERED}
-- IU
+IU
 :::
 
 ## Cantrip Sequencing - General Principles
@@ -247,20 +247,20 @@ hand post-Doomsday resolving, can lead to a deterministic, same-turn win. Let's
 consider the following hand:
 
 :::row{variant=HAND}
-- DR
-- Pnd
-- FoW
-- FoW
-- Swamp
-- BS
-- Pre
+DR
+Pnd
+FoW
+FoW
+Swamp
+BS
+Pre
 :::
 
 In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
 
 :::row{variant=HAND}
-- Underground Sea
-- Polluted Delta
+Underground Sea
+Polluted Delta
 :::
 
 It is turn 3.
@@ -413,20 +413,20 @@ targeting our tapped Underground Sea.
 Our board is:
 
 :::row{variant=HAND}
-- Underground Sea
-- Polluted Delta
+Underground Sea
+Polluted Delta
 :::
 
 Our hand is:
 
 :::row{variant=HAND}
-- DR
-- EoA
-- FoW
-- FoW
-- Underground Sea
-- BS
-- Daze
+DR
+EoA
+FoW
+FoW
+Underground Sea
+BS
+Daze
 :::
 
 What's the play?
@@ -455,20 +455,20 @@ state and hand:
 Our board is:
 
 :::row{variant=HAND}
-- Underground Sea
-- Underground Sea
+Underground Sea
+Underground Sea
 :::
 
 Our hand is:
 
 :::row{variant=HAND}
-- DR
-- SW
-- Pre
-- Pnd
-- Daze
-- BS
-- Scalding Tarn
+DR
+SW
+Pre
+Pnd
+Daze
+BS
+Scalding Tarn
 :::
 
 What's the play?
@@ -497,19 +497,19 @@ turn 2. Our opponent has just cantripped turn 1 and passed.
 Our board is:
 
 :::row{variant=HAND}
-- Underground Sea
+Underground Sea
 :::
 
 Our hand is:
 
 :::row{variant=HAND}
-- Daze
-- Island
-- Pre
-- DD
-- Dur
-- EoA
-- Misty Rainforest
+Daze
+Island
+Pre
+DD
+Dur
+EoA
+Misty Rainforest
 :::
 
 What's the play?

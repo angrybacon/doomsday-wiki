@@ -44,11 +44,11 @@ confident in this decision making in no time.
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- IU
-- LP
-- TO
+LED
+SW
+IU
+LP
+TO
 :::
 
 Here we have the simplest type of Brainstorm pile. Instead of needing both a
@@ -70,11 +70,11 @@ Another example is presented here using Predict.
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pdt
-- LP
-- TO
+LED
+SW
+Pdt
+LP
+TO
 :::
 
 1. Cast Brainstorm and put back X then Predict on top
@@ -102,11 +102,11 @@ Take the following example:
 > {U} + Brainstorm + Thassa's Oracle
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pnd
-- EoA
-- Pnd
+LED
+SW
+Pnd
+EoA
+Pnd
 :::
 
 1. Cast Brainstorm and put back Oracle then Ponder on top.
@@ -126,11 +126,11 @@ the additional {U} needed for the same starting mana cost.
 > {U} + Brainstorm + Thassa's Oracle + Cantrip
 
 :::row{variant=PILE}
-- LED
-- SW
-- LP
-- EoA
-- Pnd
+LED
+SW
+LP
+EoA
+Pnd
 :::
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
@@ -157,11 +157,11 @@ extra {B} available, :card[IU] in hand and you know your opponent is holding a
 > {U}{B} + Brainstorm + Ideas Unbound + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- Tsz
-- LP
-- TO
+LED
+SW
+Tsz
+LP
+TO
 :::
 
 We can play the pile in the following manner:
@@ -189,11 +189,11 @@ well if you have an available land drop for that turn.
 > {U} + Brainstorm + Street Wraith + X
 
 :::row{variant=PILE}
-- LP
-- LED
-- EoA
-- TO
-- Island
+LP
+LED
+EoA
+TO
+Island
 :::
 
 1. Cycle SW, draw the LP and cast it
@@ -208,11 +208,11 @@ turn it into a perfect pile.
 > {U} + Brainstorm + Street Wraith + X
 
 :::row{variant=PILE}
-- LP
-- LED
-- EoA
-- Consider
-- TO
+LP
+LED
+EoA
+Consider
+TO
 :::
 
 1. Cycle SW, draw the LP and cast it
@@ -231,11 +231,11 @@ top card instead.
 > {U} + Street Wraith + X
 
 :::row{variant=PILE}
-- BS
-- LED
-- EoA
-- TO
-- Island | RAV
+BS
+LED
+EoA
+TO
+Island | RAV
 :::
 
 This time you cycle into the Brainstorm rather than into the mana needed for it
@@ -247,11 +247,11 @@ Alternatively, use Consider to get rid of X and achieve a perfect pile.
 > {U} + Street Wraith + X
 
 :::row{variant=PILE}
-- BS
-- LED
-- EoA
-- Consider
-- TO
+BS
+LED
+EoA
+Consider
+TO
 :::
 
 ## Not Using LED
@@ -268,11 +268,11 @@ following pile:
 > {U} + Brainstorm + Street Wraith + X + X
 
 :::row{variant=PILE}
-- EoA
-- LP
-- LP
-- LP
-- TO
+EoA
+LP
+LP
+LP
+TO
 :::
 
 1. Cycle SW, draw the Edge of Autumn (EoA)
@@ -292,11 +292,11 @@ fetchable lands from our deck as they are in our hand:
 > A fetchland in play and a land drop available for turn
 
 :::row{variant=PILE}
-- SW
-- LP
-- Misty Rainforest
-- Daze
-- TO
+SW
+LP
+Misty Rainforest
+Daze
+TO
 :::
 
 1. Cycle SW, draw SW
@@ -318,11 +318,11 @@ to win on the spot.
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- SW
-- SW
-- CoS
-- TO
-- PoN
+SW
+SW
+CoS
+TO
+PoN
 :::
 
 You can speed things up with this pile if your opponent does something like tap
