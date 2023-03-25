@@ -8,8 +8,6 @@ considered /timeless/ and are the content that should be kept up to date to
 account for meta shifts and bannings. Articles on the other hand are dated
 content.
 
-- =archive/= ::
-  Old content that no longer presents relevance due to bannings or else.
 - =articles/= ::
   Dated reports and theories.
 - =chapters/= ::
@@ -17,7 +15,7 @@ content.
   chapters. There's also =appendices/= for general-purposed resources.
 - =partials/= ::
   Static content within the Wiki comes from those partials, this avoids having
-  to maintain content alongside code.
+  to maintain content within code.
 
 ** General Markdown Conventions
 
@@ -25,43 +23,48 @@ content.
 - If your title makes the frontmatter data longer than 80 columns, think of a
   better heading for your document. In addition to annoy users with
   terminal-based clients, it also might not look as good in the homepage where
-  article cards are rendered with their corresponding title
-- Heading levels start at 2 in order to account for the page title found in the
-  Markdown frontmatter
+  article cards are rendered with their corresponding title with limited space
+- Heading levels start at 2 in order to account for the page title
 - Don't use unicode quote characters eg. =‘’= and =“”=. They might not render
-  properly for everyone so ASCII quotes eg. ='= and ="= should be preferred
-- A colon right in front of a word will be interpreted as a /directive/ so make
-  sure you have a space right after =:= when it is used as punctuation
+  properly for everyone so ASCII quotes should be preferred
+- A colon right in front of a word will be interpreted as a Markdown /directive/
+  so make sure you have a space right after =:= when it is used as punctuation
 - A dot right after a number character ie. when you end your sentence with a
-  digit renders as a numbered list item. To avoid this behavior, escape the dot
-  with a backslash: =Brainstorm is pretty good, you might want all 4\.=
-- Depending on one's Markdown parser, a dot at the end of a link can be
+  digit, renders as a numbered list item. To avoid this behavior, escape the dot
+  with a backslash: =Brainstorm is good, you might want all 4\.=
+- Depending on one's Markdown client, a dot at the end of a link can be
   considered part of said link eg. when you end your sentences with a link.
   Avoid bare links, wrap them with angled brackets =<= and =>=
 
-In addition, =markdownlint= runs on your committed changes to detect necessary
-improvements within your content. A command =yarn lint:wiki= is provided to run
-it locally.
+In addition, a linter will run on your committed changes to detect necessary
+improvements. A command is provided to help you sanitize your content locally:
+=yarn lint:wiki=.
+
+If you can, set up your editor of choice to run =prettier= on save when you edit
+Wiki content. It'll do almost everything for you and make the linter happy
+automatically.
 
 ** Scryfall
 
 In some contexts, you can refer to card names within Markdown. To ease the
-writing process, a number of shorthands for card names can be found
-[[./src/tools/game/constants/Cards.ts][here]].
+writing process and reduce typos, a number of shorthands for card names can be
+found [[./src/tools/game/constants/Cards.ts][here]].
 
-Optionally, provide a specific set for the representation using the 3-letters
-set code. By default, the first print for the card is used.
+For parts where you query card imagery, you can optionally provide a specific
+set using the 3-letters set code. By default, the first print for the card is
+used.
 
 #+BEGIN_SRC
-Full Card Name | SET
+DD | SLD
 #+END_SRC
 
-For instance, =DD | WTH= will scry for /Doomsday/ in the /Weatherlight/ set. To
-identify the right code for your set, inspect the links at
-https://scryfall.com/sets .
+For instance, the above query will scry for /Doomsday/ from the /Secret Lair
+Drop/ set. To identify the right code for your set, inspect the links at
+[[https://scryfall.com/sets]].
 
-In some specific cases, you will want to specify a collector number. This can be
-achieved by suffixing the corresponding number. For instance:
+In some specific cases, you will want to specify a collector number.This can be
+achieved by suffixing the corresponding number. This is useful for sets with
+multiple printings of the same card.
 
 #+BEGIN_SRC
 Duress | STA | 92
@@ -69,40 +72,51 @@ Duress | STA | 92
 
 ** Frontmatter
 
-*Chapter* documents can take advantage of a front section called /frontmatter/
-in Markdown parlance. It should start with a triple-dash lines and end with
-another. Within that section, a body of YAML metadata can be written.
+*** Chapters
+
+Chapter documents can take advantage of a front section called /frontmatter/ in
+Markdown parlance. It should start with a triple-dash line and end with another
+triple-dash line. Within that section, a body of YAML metadata can be provided.
 
 - =title= (mandatory) ::
-  A string for your chapter title. Wrap it with double quotes ="= to allow
-  special characters within such as =:= and ='=.
+  A string for your chapter title. Wrap it with quotes to allow special
+  characters within such as =:= and ='=.
+- =authors= ::
+  Comma-separated list of authors that you want to credit for the chapter
+  page. Currently unused.
+  within the sidebar. By default chapters are alpha-sorted using their slug ie.
+  their path.
 - =order= ::
-  A number to specificy the order of your chapter in its accordion within the
-  sidebar. By default chapters are alpha-sorted using their slug (their path).
+  A number to specify the order of your chapter under its collapsible group
+  within the sidebar. By default chapters are alpha-sorted using their slug ie.
+  their path.
 
-*Articles* don't have an =order= property but support other fields. Use other
-existing articles for inspiration.
+*** Articles
+
+Articles documents don't have an =order= property but support other fields. Use
+other existing articles for inspiration.
 
 - =banner= (mandatory) ::
   Set a banner for the article to display in the homepage as well as at the top
-  of the article in its own page. Scryfall syntax is supported.
+  of the article in its own dedicated page. Scryfall syntax is supported.
 - =kind= (mandatory) ::
   A kind symbol. Available values can be found in the keys at
-  [[./src/tools/markdown/constants/Kind.ts][Kind.ts]]
+  [[./src/tools/markdown/constants/Kind.ts][Kind.ts]].
 - =title= (mandatory) ::
-  A string for your article title. Wrap it with double quotes ="= to allow
-  special characters within such as =:= and ='=.
+  The string used for your article page title. Note that this does not have any
+  effect on the URL for your article.
 - =authors= ::
   Comma-separated list of authors that you want to credit for the article.
 - =tags= ::
   An array of tag symbols. Available values can be found in the keys at
-  [[./src/tools/markdown/constants/Tag.ts][Tag.ts]]
+  [[./src/tools/markdown/constants/Tag.ts][Tag.ts]]. Tags are used to dictate
+  which card abbreviations should be documented in the sidebar.
 
 ** Tables of Content
 
 An automatic table of content can be inserted in Markdown documents with an
 empty level 2 heading that reads exactly =Table of Contents=. Leave that heading
-empty since all of its content will not be rendered.
+empty since none of its content will be rendered.
 
 The table will look for level 2 and 3 headings in the whole document and render
 as a numbered list of anchor links for each of them.
@@ -140,7 +154,7 @@ This will render an inline link reading "Brainstorm" and pointing to
 *** Card Rows
 
 Use this directive to render card images within your Markdown content.
-[[#scryfall][Scryfall queries]] are supported and you can specify which set to
+[[#scryfall][Scryfall queries]] are supported in order to specify which set to
 use.
 
 By default rows of cards are rendered with the =CENTERED= variant but you can
@@ -151,9 +165,9 @@ cards, images start shrinking so that they all fit on one line.
 
 #+BEGIN_SRC markdown
 :::row{variant=CENTERED}
-- Lion's Eye Diamond | MIR
-- Edge of Autumn
-- Thassa's Oracle
+Lion's Eye Diamond | MIR
+Edge of Autumn
+Thassa's Oracle
 :::
 #+END_SRC
 
@@ -162,11 +176,11 @@ reader. In addition, they use a fixed width of 20% for each image.
 
 #+BEGIN_SRC markdown
 :::row{variant=PILE}
-- Lion's Eye Diamond | MIR
-- Edge of Autumn
-- Ideas Unbound
-- Lotus Petal
-- Thassa's Oracle
+Lion's Eye Diamond | MIR
+Edge of Autumn
+Ideas Unbound
+Lotus Petal
+Thassa's Oracle
 :::
 #+END_SRC
 
@@ -208,17 +222,11 @@ For more details about color symbols, see the [[#mana][Mana section]].
 
 Media embeds are also supported:
 
-*SoundCloud* widgets. Use the following directive and provide its URL.
+*SoundCloud* embeds. Use the following directive and provide the media path as
+found in the address bar.
 
 #+BEGIN_SRC markdown
 ::soundcloud{url=ddftwiki/a-history-of-doomsday}
-#+END_SRC
-
-*YouTube* widgets. Provide the ID typically found in the URL behind the =v=
-parameter in the address bar.
-
-#+BEGIN_SRC markdown
-::youtube{id=3LLIFHv5kbo}
 #+END_SRC
 
 *Twitter* embeds. Provide the ID found in a tweet URL. They can easily introduce
@@ -229,10 +237,17 @@ early/ ie. too high in the document: don't overuse them.
 ::tweet{id=1574576125535129600}
 #+END_SRC
 
+*YouTube* embeds. Provide the ID typically found in the URL behind the =v=
+parameter in the address bar.
+
+#+BEGIN_SRC markdown
+::youtube{id=3LLIFHv5kbo}
+#+END_SRC
+
 *** Accordions
 
 Collapsible blocks can be stacked against one another or used alone. Provide a
-title for the CTA as well as content for it.
+title for the clickable element as well as content for it.
 
 The content can be Markdown text directly, or even directives.
 
