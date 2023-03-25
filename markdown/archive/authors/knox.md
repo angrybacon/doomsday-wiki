@@ -1,4 +1,5 @@
-<!-- markdownlint-disable-next-line first-line-heading -->
+<!-- markdownlint-disable first-line-heading -->
+
 ## Knox
 
 Somewhat new to the Doomsday scene, only starting to play and develop the deck

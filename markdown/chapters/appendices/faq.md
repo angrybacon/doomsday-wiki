@@ -39,7 +39,7 @@ and win condition in tandem with Doomsday.
 **Doomsday** is the primary deck variant that is having previously unprecedented
 success since the printing of Thassa's Oracle. Doomsday uses countermagic like
 Force of Will and Daze to play a controlling game before ending the game with
-Doomsday. Initially called *Meandeck* Doomsday, the moniker *Meandeck* is
+Doomsday. Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is
 explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
 
 **Entombsday** is more of a Tin Fins variant with a main deck plan focussing on
@@ -49,27 +49,27 @@ the deck to cast an infinite number of Collective Brutality's or a lethal
 Tendrils of Agony. The key point ot focus on is it runs a dedicated
 transformational sideboard into effectively a variant of Doomsday.
 
-## What is the *best* Doomsday archetype? Of that archetype what are the *best* colours to run?
+## What is the _best_ Doomsday archetype? Of that archetype what are the _best_ colours to run?
 
 Doomsday has the most proven results of the archetypes listed above with
 performances that outnumbers TCDeck numbers of the previous 10 years preceeding
 it for all archetypes (excluding 5-0 publications).
 
-Within Doomsday there is no definitive *best* colour configuration to run.
+Within Doomsday there is no definitive _best_ colour configuration to run.
 Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G} and
 even {U}{B}{R}{G} across the years with most decks having an almost entirely
 {U}{B} main deck configuration. The tools that are effective and provided by
 each colour depend on the meta at the time and the pilot's preferences in deck
 building.
 
-## What list should I start on? What is the *best* list to play?
+## What list should I start on? What is the _best_ list to play?
 
 If you want a proven and effective updated list, head to the [Doomsday
 Discord][discord] server and check out the `#decklists-archive` channel.
 Successful lists and placements are posted there regularly to ensure new
-technology and strategy are communicated out. There is no defined *best* list so
+technology and strategy are communicated out. There is no defined _best_ list so
 just go with the lists that seem to be most prevalent as those are likely to be
-considered *best* at the time.
+considered _best_ at the time.
 
 ## Is there a list of common Doomsday piles? What is the most common pile I should learn?
 
@@ -147,7 +147,7 @@ advise getting a few reps under your belt playing it first before delving into
 the spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
-For a list of *off-meta* cards which have been tried before and discussion on
+For a list of _off-meta_ cards which have been tried before and discussion on
 them please check out the [playables appendix](/appendices/playables/).
 
 :::row{variant=CENTERED}
@@ -167,8 +167,8 @@ in legacy despite its historic reputation for being as such however it does
 feature a high number of decision trees that can be intimidating and, given the
 finality of the title card, is pretty unforgiving when it goes wrong. At the end
 of the day if you are not enjoying it or it doesn't fit your playstyle then
-that's fine! There is no pressure to play this deck to be perceived as *the
-smartest type of Legacy player*. Everyone has different ways of thinking and one
+that's fine! There is no pressure to play this deck to be perceived as _the
+smartest type of Legacy player_. Everyone has different ways of thinking and one
 person's nightmare deck to pilot (mine would be Maverick) is another person's
 bread and butter.
 
@@ -192,7 +192,7 @@ unwary who have not read up on the updated Oracle text. First of all the "Pay
 half your life, rounded up" is not a cost as is implied by the colon `:` but
 actually part of the resolution. You will not lose your life for putting
 Doomsday on the stack! Despite what the colon present may imply, the resolution
-of the card is *not* an activated ability. I have had an opponent before who
+of the card is _not_ an activated ability. I have had an opponent before who
 read my card and asked a nearby judge "Can I name this card with :card[Pithing
 Needle]" to which the judge quite correctly replied: "Yes". My opponent then
 proceeded to play said :card[Pithing Needle] on the card and was quite put out
@@ -276,7 +276,7 @@ with Force of Wills likely being the next biggest purchase.
 
 This obviously depends on how constricted you are in terms of budget but yes you
 can! The easiest way is of course to run a heavy basics list. Unfortunately due
-to the life loss from Doomsday *Shock Lands* like :card[Watery Grave] are not
+to the life loss from Doomsday _Shock Lands_ like :card[Watery Grave] are not
 viable in high numbers. Following this you will only need 1-2 Underground Seas
 and can rely on basics and Petals to fix for any splash colours. This can slow
 the deck down and make cards like :card[Daze] much worse for early turns but is
@@ -304,7 +304,7 @@ At 2 :card[Underground Sea], :card[Daze] is unlocked as a reliable option.
 
 The second Oracle (main or side) can have a number of uses. It helps increase
 resilience against effects like :card[Extract] when they are aggressively used,
-help give a *second attempt* vs. cards like :card[Stifle] on the Oracle's
+help give a _second attempt_ vs. cards like :card[Stifle] on the Oracle's
 trigger. They can enable additional devotion count, allow blocking in a pinch
 with some filtering, provide extra tricks vs. mill effects like :card[Ipnu
 Rivulet] and act as a pseudo +2 to your {U} card count for Force of Will
@@ -318,8 +318,8 @@ appealing tool was the fast and low resource piles that could be made with it.
 
 However this was not the key point as to why it was run. It provides a decent
 cantrip effect which can be used to gain advantage through cards like
-:card[Narset, Parter of Veils] whilst also providing a clean way to *dig*
-through two cards in a pile. It also provides a way to create *perfect*
+:card[Narset, Parter of Veils] whilst also providing a clean way to _dig_
+through two cards in a pile. It also provides a way to create _perfect_
 :card[BS] piles [in key scenarios][meandeck:brainstorm-free-cantrip].
 
 [meandeck:brainstorm-free-cantrip]: /meandeck/brainstorm#brainstorm-and-free-cantrip-available
@@ -331,31 +331,31 @@ about fair {U} matchups that do not run :card[Wasteland]. It should not be
 brought in versus any Delver variant nor when Wasteland and :card[Teferi, Time
 Raveler] are prominant in control variants as both of these can affect it.
 
-In early June 2022, the *Hideway* mechanic was revamped and while the Isle still
+In early June 2022, the _Hideway_ mechanic was revamped and while the Isle still
 enters tapped, the 3 other cards put back under your deck can no longer be
 sorted. For that reason Shelldock Isle has seen a decrease in popularity but the
 Emrakul line is still functional.
 
-## What does *Turbo* Doomsday mean?
+## What does _Turbo_ Doomsday mean?
 
-*Turbo* Doomsday is a sub-archetype of Doomsday. It is normally associated with
+_Turbo_ Doomsday is a sub-archetype of Doomsday. It is normally associated with
 variants of the deck which have a greater focus on speed rather than resilience.
 It is characterised by a higher count of :card[PT] along with greater numbers of
 :card[SW] or :card[EoA] compared to other versions.
 
-## What does *Tempo* Doomsday mean?
+## What does _Tempo_ Doomsday mean?
 
-*Tempo* Doomsday is a sub-archetype of Doomsday. It presents a
-potential *plan B* by running both the normal combo and additionally a number of
+_Tempo_ Doomsday is a sub-archetype of Doomsday. It presents a
+potential _plan B_ by running both the normal combo and additionally a number of
 creature and/or planeswalker based threats. It is characterised by a creature
 suite and a lower focus on finding Doomsday or using pile-specific cards like
 :card[IU].
 
-## Which is better out of *Turbo* or *Tempo* Doomsday?
+## Which is better out of _Turbo_ or _Tempo_ Doomsday?
 
-Against the majority of the meta at the time of writing this *Turbo* Doomsday
-has a more favourable position with *Tempo* giving up percentage points against
-some of the otherwise easier matchups. *Tempo* however has a much better game to
+Against the majority of the meta at the time of writing this _Turbo_ Doomsday
+has a more favourable position with _Tempo_ giving up percentage points against
+some of the otherwise easier matchups. _Tempo_ however has a much better game to
 be played against Delver or other decks that may run a significant amount of
 combo-specific hate for the matchup.
 

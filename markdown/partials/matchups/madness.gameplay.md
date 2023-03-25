@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Similar to Hogaak it's a race or die matchup, but Madness has zero interaction

@@ -26,7 +26,7 @@ the cobwebs off myself too.
 
 So first things first:
 
-## *What does Meandeck Doomsday actually Mean?*
+## _What does Meandeck Doomsday actually Mean?_
 
 Meandeck Doomsday (either in BUG, Esper or BUgw form) is essentially a combo
 control deck. The namesake stems from Team Meandeck, the team name of the old
@@ -50,12 +50,12 @@ Now it was generally agreed by most of the Doomsday community at the time (2012)
 that the deck wasn't very good. Although it had cards such as :card[Sensei's
 Divining Top] and :card[Gitaxian Probe] (also RiP), it was often too slow and
 featured no raw card advantage engine to help circumnavigate the pitch counters
-it ran. In addition the *normal* kill required use of a creature that died to
+it ran. In addition the _normal_ kill required use of a creature that died to
 every removal card in the format as well as needing to use the graveyard which
 opens you up to a lot more disruption both pre and post sideboarding. As such
 the deck became something that newer players always asked about but never had
-any results. Through the discussions the term *Meandeck Doomsday* became
-synonymous with *Doomsday featuring Force of Wills*.
+any results. Through the discussions the term _Meandeck Doomsday_ became
+synonymous with _Doomsday featuring Force of Wills_.
 
 ## From 2012 to 2020
 
@@ -81,8 +81,8 @@ opponent gets a chance to kill it. If this suceeds you more often than not just
 kill yourself with your otherwise game winning draw. Oracle however lets you win
 the game whether the card is in play or not. The Oracle text on Oracle states
 
-> *If X is greater than or equal to the number of cards in your library, you win
-> the game.*
+> If X is greater than or equal to the number of cards in your library, you win
+> the game.
 
 This means that even in the face of a :card[Lightning Bolt] you can still win if
 the trigger resolves assuming you have 0 cards left in your library.
@@ -103,8 +103,8 @@ TO
 
 If you play this turn with Force of Will and a blue card up, you can hold both
 to protect the win thanks to never having to need to discard your hand. Sounds
-pretty good right, however I bet you are thinking: *But who would play a card
-like :card[Ideas Unbound]. seems pretty bad?* This thought process brings us to
+pretty good right, however I bet you are thinking: _But who would play a card
+like :card[Ideas Unbound]. seems pretty bad?_ This thought process brings us to
 the next key part of the puzzle. Thanks to Oracle, we can play other draw spells
 to dig deep into our pile including ones that only need to grant us an
 additional two cards.
@@ -136,11 +136,11 @@ As you can see these piles are quite lean in terms of mana and card resources
 post Doomsday resolution. This, coupled with the fact you now have the counter
 magic along with old faithfuls such as :card[Thoughtseize] and new faces such as
 :card[Veil of Summer] means you suddenly have a quite convincing control list
-that can win out of nowhere. The number of *bad cards*, whilst not being zero,
+that can win out of nowhere. The number of _bad cards_, whilst not being zero,
 has now dropped to maybe two-three per list and the range of splash colours on
 offer means the list is quite configurable to taste.
 
-## *You've shown me some piles, but how do they actually work!?*
+## _You've shown me some piles, but how do they actually work!?_
 
 One of the most common questions people have is based around "what are the most
 basic piles?" or "where can I find a list of piles to learn." You shouldn't
@@ -249,7 +249,7 @@ This is a very basic Brainstorm pile.
 
 Feel free to have a go at goldfishing similar lines!
 
-## *Okay, I'm interested! What list should I try?*
+## _Okay, I'm interested! What list should I try?_
 
 Currently there seem to be two main styles of play; Esper {U}{B}{W} and BUG
 {U}{B}{G}.
@@ -265,7 +265,7 @@ Raveler] to play both the anti-hate and anti-counter role. It also lets you take
 a leaf from the recently banned Breach decks and run a plan B of beating faces
 with :card[Monastery Mentor] which has always been a hobby of mine.
 
-There is still no clearly defined list that is *objectively better* however as
+There is still no clearly defined list that is _objectively better_ however as
 the deck garners interest, more and more minds will likely get it to a place
 where it will be at least a little more optimised than before. If you want some
 starting points for either list, see [Hulahula's][tcdecks:esper] and
@@ -278,7 +278,7 @@ starting points for either list, see [Hulahula's][tcdecks:esper] and
 [tcdecks:esper]: https://www.tcdecks.net/deck.php?id=33721&iddeck=299988
 [tcdecks:sultai]: https://www.tcdecks.net/deck.php?id=33454&iddeck=296642
 
-## *The Madness has taken me, how do I find out more!?*
+## _The Madness has taken me, how do I find out more!?_
 
 If this seems to be your jam then look no further. The Doomsday Wiki is designed
 to be the primary resource on any variants of the deck. The lack of

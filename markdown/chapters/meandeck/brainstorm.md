@@ -8,16 +8,16 @@ title: Brainstorm in Doomsday
 
 ## Preamble
 
-*Preface: We will be using terminology and abbreviations introduced in the
+_Preface: We will be using terminology and abbreviations introduced in the
 [Basics chapter][meandeck:basics] of the Wiki. If you have not read it yet, it
 is recommended you do so first as this builds upon the concepts introduced
-there.*
+there._
 
 [meandeck:basics]: /meandeck/basics
 
 :card[Brainstorm] is one of the most powerful spells available in the Legacy
 format at this time. There have been numerous articles written on this
-*seemingly innocuous at first glance* one mana cantrip. We'll assume you know
+_seemingly innocuous at first glance_ one mana cantrip. We'll assume you know
 the basics of casting Brainstorm, and instead focus on the specifics of using it
 as a part of &mdash; or to initiate &mdash; your Doomsday piles. In many cases
 it can be used as any other cantrip, but it has unique applications to Doomsday
@@ -27,7 +27,7 @@ In the basics we alluded to the use of Brainstorm as being a special case when
 discussing the use of cantrips to dig into our Doomsday piles. More than just a
 cantrip to start consuming your piles, Brainstorm can enable you to access three
 cards at once from said pile unlike other options from your suite of cantrips.
-This, combined with what could be otherwise *dead* cards from hand can turn a
+This, combined with what could be otherwise _dead_ cards from hand can turn a
 resource-light turn into a winning one.
 
 Brainstorm piles allow you to win with very limited initial mana resources. For
@@ -88,12 +88,12 @@ you to play around removal like :card[Swords to Plowshares].
 ## Brainstorm and Combo Piece Available
 
 You may find yourself in a scenario where you have a card in hand that is
-thought to be *dead* outside of the combo turn. Thankfully, Brainstorm allows
+thought to be _dead_ outside of the combo turn. Thankfully, Brainstorm allows
 you to transfer it out of your hand and replace it into the pile. Let's take the
 example above. It may be the opponent has a card like :card[Scavenging Ooze] out
 and you need to utilize LED to generate mana but don't want to discard your one
-Oracle to have it *eaten* by the Ooze. We cannot use Predict here as we would
-need to *mill* the Oracle to do so effectively. In many situations you might be
+Oracle to have it _eaten_ by the Ooze. We cannot use Predict here as we would
+need to _mill_ the Oracle to do so effectively. In many situations you might be
 able to make a PTT pile however if your life total is under pressure you may not
 be able to.
 
@@ -149,7 +149,7 @@ will not work in this position as they do not have the deck manipulation effects
 needed however even something as simple as :card[Opt] can be used.
 
 Even if not the Oracle, if you already have another element of the pile in hand,
-you can substitute additional toolbox cards within the *standard* pile to
+you can substitute additional toolbox cards within the _standard_ pile to
 utilise the additional resources. Let's look at an example where you have an
 extra {B} available, :card[IU] in hand and you know your opponent is holding a
 :card[Stifle] in hand.
@@ -257,7 +257,7 @@ TO
 ## Not Using LED
 
 Sometimes you may not wish to commit to a Brainstorm pile because you are
-concerned about interaction and are holding Force of Will and a *pitch* card for
+concerned about interaction and are holding Force of Will and a _pitch_ card for
 it. In these circumstances you can often create an imperfect Brainstorm pile to
 win that same turn whilst keeping up your countermagic.
 
@@ -333,7 +333,7 @@ following:
 1. Draw Cavern of Souls for the turn
 1. Cycle SW, draw X
 1. Cycle SW, draw TO
-1. Play Cavern, name *Wizard*, cast TO with one card left in your library
+1. Play Cavern, name _Wizard_, cast TO with one card left in your library
 
 This is one example of many possible scenarios you can use Brainstorm in a pile
 in order to give flexibility on how it can be played out.

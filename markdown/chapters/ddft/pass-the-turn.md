@@ -147,15 +147,15 @@ there is a chance your opponent draws a fresh hand full of interaction.
 :::row{variant=PILE}
 IU
 LED
-DD
 Pnd
+DD
 BW
 :::
 
 1. Cast Ideas Unbound, holding priority to crack LED for {B}{B}{B}, drawing LED,
    Ponder and Doomsday
-2. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
-3. Construct the following new pile:
+1. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
+1. Construct the following new pile:
 
 :::row{variant=PILE}
 IU
@@ -165,10 +165,10 @@ BW
 DD
 :::
 
-4. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
-5. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
-6. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
-7. Retrive Tendrils of Agony from your sideboard and aim it at your opponent
+1. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
+1. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
+1. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
+1. Retrive Tendrils of Agony from your sideboard and aim it at your opponent
 
 This what is often referred to as a Double-Doomsday pile, where a second
 Doomsday is used as a way to recycle spells. While the initial mana cost looks
@@ -223,14 +223,14 @@ in hand or on board.
 ## Conclusion
 
 1. You don't always have to win the turn you cast Doomsday
-2. Pass-the-turn piles can be cheap and effective, especially when Thassa's
+1. Pass-the-turn piles can be cheap and effective, especially when Thassa's
    Oracle is involved
-3. PTT piles leave you more susceptible to disruption
-4. It is possible to generate lethal Storm counts despite passing the turn,
+1. PTT piles leave you more susceptible to disruption
+1. It is possible to generate lethal Storm counts despite passing the turn,
    typically by using tricks to recycle cards. Mana is usually the primary
    constraint in such piles.
-5. Note that all of these piles can be used as same-turn piles, you simply need
+1. Note that all of these piles can be used as same-turn piles, you simply need
    the extra resources to cast Doomsday and draw into your pile on the same
    turn.
-6. Don't put unnecessary cards in your deck just to enable some of these more
+1. Don't put unnecessary cards in your deck just to enable some of these more
    unusual pass-the-turn piles.

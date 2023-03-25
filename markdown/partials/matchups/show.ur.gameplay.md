@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Sneak and Show is one of our harder combo matchups, but we should still be

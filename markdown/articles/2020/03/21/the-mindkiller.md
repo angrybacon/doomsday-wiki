@@ -15,7 +15,7 @@ title: Have No Fear, the Mindkiller is Here
 > Where the fear has gone there will be nothing. Only I will remain."
 
 One lesson all budding combo players learn as they dive into the world of
-degenerate Magic decks is when to *go for it*. When do you take a chance and jam
+degenerate Magic decks is when to _go for it_. When do you take a chance and jam
 your combo, despite the possibility of opposing interaction? When do you wait a
 little bit longer, trying to find a better opportunity? This is an espceially
 critical lesson for Doomsday players, since there is often no recovering if you
@@ -32,7 +32,7 @@ I'm sure by now you've looked at the decklist, maybe closed it for a second and
 looked again, praying it'll be different, like when you peer into the fridge at
 4:00am hoping to see something besides the wilted lettuce and week old Thai
 curry you saw at 3:30. Perhaps you've uttered deep philosophical questions to
-the universe, like *"What the fuck am I looking at?"*
+the universe, like _"What the fuck am I looking at?"_
 
 That's a question I can answer.
 
@@ -152,7 +152,7 @@ Spoils plays a dual role as a business spell and mana. It can turn black mana
 into another color by finding Lotus Petal. It can function as a ritual by
 finding Lion's Eye Diamond. It can find a Wish or an Echo or an LED. It draws
 into and through Doomsday piles. It does everything you want and more, with just
-one *tiny* downside in that sometimes you cast it, reveal your entire deck and
+one _tiny_ downside in that sometimes you cast it, reveal your entire deck and
 fucking die.
 
 ## How to Have No Fear - Playing Mindkiller Doomsday
@@ -205,8 +205,8 @@ Gemstone Mine
 :::
 
 This is an extremely busted hand, and among the best you can hope for against
-Fair Blue decks. You have 2 must-counter spells in hand, meaning you can *go
-off* through a Force, and you have plenty of mana so soft counters aren't a
+Fair Blue decks. You have 2 must-counter spells in hand, meaning you can _go
+off_ through a Force, and you have plenty of mana so soft counters aren't a
 major concern. Play your land, cast your Petals then LEDs. Cast Wish, holding
 priority and cracking the LEDs for {U}{U}{U}{R}{R}{R}. If they counter Wish,
 just Echo. If they don't, grab Empty the Warrens for 12 goblins. You'll even
@@ -320,7 +320,7 @@ towards waiting until T2.
 
 ## Reality Check - A Bit of Math Regarding Spoils
 
-I doubt you were wondering *"How likely is Spoils to actually kill me?"*,
+I doubt you were wondering _"How likely is Spoils to actually kill me?"_,
 because you are a Warrior, not a Coward. But maybe you were anyway. Call it
 facing your fears. Let's take a quick look at the maths on Spoils.
 
@@ -375,7 +375,7 @@ likely to take some game losses from Spoils. Say you cast Spoils exactly once
 per match, always for a 4-of. The chance of uncontrollable game loss over the
 course of a 9-rounder is around 75%. Honestly that's better than I was expecting
 when I did the math just now, but I can understand why someone like a filthy
-Delver player might consider it *unacceptable risk*.
+Delver player might consider it _unacceptable risk_.
 
 Now where were we? Right, being Warriors.
 

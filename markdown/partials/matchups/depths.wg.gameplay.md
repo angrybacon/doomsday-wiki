@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 The matchup plays pretty similar to the Maverick matchup, but you have to focus

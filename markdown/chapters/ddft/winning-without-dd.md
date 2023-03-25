@@ -142,16 +142,16 @@ in this deck:
 1. Ad Nauseam - a powerful card, but it's an instant. We have no reliable way to
    search for it, and if you're playing multiple Echoes and few 0-mana
    artifacts, your Ad Nauseams will be very bad.
-2. Time Spiral/Diminishing Returns - Both of these have seen play in storm
+1. Time Spiral/Diminishing Returns - Both of these have seen play in storm
    Wishboards at various points in time, but they have since been eclipsed by
    Echo of Eons
-3. Ill-Gotten Gains - A classic storm engine, but wildly outclassed by current
+1. Ill-Gotten Gains - A classic storm engine, but wildly outclassed by current
    offerings. It has been a long time since this card has been under serious
    consideration.
 
 ## Natural Storm
 
-"Natural" storm, simply casting 9-10 spells in one turn without the use of an
+_Natural_ storm, simply casting 9-10 spells in one turn without the use of an
 engine, is not as difficult as it may seem. If you draw for turn and have 8
 cards in hand, all spells, plus a Tendrils of Agony that you Wish for, you can
 already hit your opponent for 18, which in many cases is enough on it's own.
@@ -233,10 +233,10 @@ beatdown a real plan to win the game.
 
 1. DDFT is very capable of winning without casting Doomsday. This is nice
    because it removes a potential chokepoint from the deck.
-2. There are 3 main way to do this, via Empty the Warrens, via an alternative
+1. There are 3 main way to do this, via Empty the Warrens, via an alternative
    engine like Echo of Eons, or via "natural" storm.
-3. Don't fixate on Doomsday just because it is the namesake card. Having the
+1. Don't fixate on Doomsday just because it is the namesake card. Having the
    option to kill another way can open a lot of doors in terms of your gameplan
    and how you play, starting from the earliest turns.
-4. While you may win by attacking with a Thassa's Oracle in 1 out of 1000 games,
+1. While you may win by attacking with a Thassa's Oracle in 1 out of 1000 games,
    don't consider this to be a viable win condition. It's Plan Z.

@@ -141,6 +141,6 @@ that may be created is much larger. So things to remember are:
 
 1. LM is an alternate wincon which carries the risk of facing removal, but
    dodges certain kinds of common Storm hate
-2. You need enough mana to cast LM safely as well as a draw effect for when he
+1. You need enough mana to cast LM safely as well as a draw effect for when he
    is in play
-4. CS can be used to create a pile that cannot be responded to by removal
+1. CS can be used to create a pile that cannot be responded to by removal

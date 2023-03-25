@@ -3,11 +3,11 @@ authors: d8dk32
 banner: SotV
 kind: PRIMER
 tags: [LEGACY, DDFT]
-title: "50-Matches Kumite: Mindkiller Kata"
+title: '50-Matches Kumite: Mindkiller Kata'
 ---
 
 I've once again been brewing around [Mindkiller
-Doomsday][articles:the-mindkiller], sometimes known as *All Bad Cards Doomsday*.
+Doomsday][articles:the-mindkiller], sometimes known as _All Bad Cards Doomsday_.
 I'd made some changes since my last update on the deck and it felt quite strong
 in testing, so I felt it was time to write another update.
 
@@ -83,7 +83,7 @@ pile, so it makes sense to think of these decks as a monolith.
 Anyway, here's how it broke out:
 
 | Macro-Archetype      | Match Wins | Match Losses | Winrate |
-|----------------------|------------|--------------|---------|
+| -------------------- | ---------- | ------------ | ------- |
 | Fair Blue            | 9          | 6            | 60.00%  |
 | Permanent-Based Hate | 6          | 2            | 75.00%  |
 | Combo                | 10         | 5            | 66.67%  |
@@ -92,7 +92,7 @@ Anyway, here's how it broke out:
 
 ### Fair Blue - 60%
 
-*Fair blue* includes decks like Delver, the entire spectrum of UWx Piles from
+_Fair blue_ includes decks like Delver, the entire spectrum of UWx Piles from
 Bant to Landstill, and less common foes such as Death's Shadow decks. This
 category seems to be more or less even, perhaps edging towards slightly
 positive. This is perhaps the most suprising and encouraging result in all of
@@ -126,7 +126,7 @@ and we're the cheesiest.
 
 ### Combo - 66%
 
-The *Combo* deck umbrella has a lot of variation, including Storm, Reanimator,
+The _Combo_ deck umbrella has a lot of variation, including Storm, Reanimator,
 Show and Tell, Elves, and Painter (which could arguably fit better in the Other
 category but it is primarily trying to assemble its 2-cards combo), and how good
 the matchup is can vary a lot depending on the deck. Doomsday and Show and Tell
@@ -146,7 +146,7 @@ aspect of playing a high-variance deck with little to no sculpting.
 
 ### Other - 66%
 
-The *Other* category consists of decks that I felt didn't belong anywhere else.
+The _Other_ category consists of decks that I felt didn't belong anywhere else.
 Good examples are Mono-Green Cloudpost, perhaps the only true ramp deck in
 Legacy, and Madness, the format's lone aggro deck. Both of these tend to match
 up poorly against fast combo, and in my experience this is often the case with

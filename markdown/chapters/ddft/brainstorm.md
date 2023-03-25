@@ -8,7 +8,7 @@ title: Brainstorm in Doomsday
 
 :card[Brainstorm] is one of the most powerful spells available in the Legacy
 format at this time. There have been numerous articles written on this
-*seemingly innocuous at first glance* one mana cantrip. We'll assume you know
+_seemingly innocuous at first glance_ one mana cantrip. We'll assume you know
 the basics of casting Brainstorm, and instead focus on the specifics of using it
 as a part of &mdash; or to initiate &mdash; your Doomsday piles. In many cases
 it can be used as any other cantrip, but it has unique applications to Doomsday
@@ -40,18 +40,18 @@ LED
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast BS, draw LED, IU, SW and put back BW, IU
-3. Cast LED
-4. Activate SW, hold priority cracking LED for {U}{U}{U}, draw IU
-5. Cast IU, draw BW, LP, LED
-6. Cast LED
-7. Cast LP
-8. Cast BW, hold priority and crack LED for {B}{B}{B}, get ToA
-9. Cast ToA
+1. Cast BS, draw LED, IU, SW and put back BW, IU
+1. Cast LED
+1. Activate SW, hold priority cracking LED for {U}{U}{U}, draw IU
+1. Cast IU, draw BW, LP, LED
+1. Cast LED
+1. Cast LP
+1. Cast BW, hold priority and crack LED for {B}{B}{B}, get ToA
+1. Cast ToA
 
 You can see that this not only decreases the total cost of the pile by 1 mana,
 but also drastically reduces the amount of blue mana needed. This is useful,
-since it lets Brainstorm act almost like a ritual, effectively *producing*
+since it lets Brainstorm act almost like a ritual, effectively _producing_
 {U}{U} mana for Ideas Unbound. It also increases the Storm count by 1 compared
 to the basic pile, since you get an extra spell in the pile.
 
@@ -71,11 +71,11 @@ LED
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast BS, draw IC, DR, BW, put back BW, LP
-3. Cast DR, IC, draw LP, BW, LED, LED
-4. Cast LED, LED, LP
-5. Cast BW, hold priority and crack LEDs for {B}{B}{B}{B}{B}{B}, get ToA
-6. Cast ToA
+1. Cast BS, draw IC, DR, BW, put back BW, LP
+1. Cast DR, IC, draw LP, BW, LED, LED
+1. Cast LED, LED, LP
+1. Cast BW, hold priority and crack LEDs for {B}{B}{B}{B}{B}{B}, get ToA
+1. Cast ToA
 
 In this example, you can see that the Storm count is again increased, as well as
 the amount of black mana needed decreased. Here, Brainstorm is letting you swap
@@ -97,11 +97,11 @@ Pnd
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast Brainstorm, draw LED, SW, Ponder, put back Land, then Ponder
-3. Cast LED, cycle SW, holding priority to crack LED for {U}{U}{U}
-4. Draw Ponder and cast it to draw Oracle
-5. Cast Oracle
-6. Oracle triggers with 2 cards left in the deck to win
+1. Cast Brainstorm, draw LED, SW, Ponder, put back Land, then Ponder
+1. Cast LED, cycle SW, holding priority to crack LED for {U}{U}{U}
+1. Draw Ponder and cast it to draw Oracle
+1. Cast Oracle
+1. Oracle triggers with 2 cards left in the deck to win
 
 While this pile is vulnerable to removal on Oracle, its also extremely cheap and
 works with a rather bad hand.
@@ -136,7 +136,7 @@ Brainstorm to then turn your dead cards into live ones.
 ## Conclusion
 
 1. You can use BS to exchange resources between your hand and the pile
-2. These resources need not be mana or wincons; dead cards/slots in your pile
+1. These resources need not be mana or wincons; dead cards/slots in your pile
    are resources in this sense.
-3. Be judicious with your Brainstorms pre-combo, as they can be powerful
+1. Be judicious with your Brainstorms pre-combo, as they can be powerful
    enablers for your combo turn.

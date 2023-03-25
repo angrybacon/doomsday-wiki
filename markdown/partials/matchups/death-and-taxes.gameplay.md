@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Against Death and Taxes resolving an early Doomsday is the safest way to win.

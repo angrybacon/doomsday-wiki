@@ -3,7 +3,7 @@ authors: Doishy
 banner: Consider
 kind: REPORT
 tags: [LEGACY, MEANDECK]
-title: "Doomsday at the Legacy Pit Open: An Interview with Romariovidal"
+title: 'Doomsday at the Legacy Pit Open: An Interview with Romariovidal'
 ---
 
 ## Table of Contents
@@ -60,7 +60,7 @@ for being willing to take the time to provide those reports. There were also
 some other great results from other players but they were not able to find the
 time to submit anything.
 
-### Romario *Romariovidal* Neto - 25th Place (7-2)
+### Romario _Romariovidal_ Neto - 25th Place (7-2)
 
 [Romario's Twitter](https://twitter.com/romarioneto3)  
 [Romario's Twitch](https://www.twitch.tv/romariovidal)
@@ -77,9 +77,9 @@ time to submit anything.
 > of choice: Doomsday. I didn’t really do any extensive testing or preparation
 > for the event due to some family schedule changes and some other personal
 > businesses, but I was did play a good number of leagues and tried a few
-> different deck configurations. Eventually I settled on the *Kai Sawatari**
-> Doomsday list, it’s the list most similar to the lists I was familiar and have
-> had some previous good results.
+> different deck configurations. Eventually I settled on Kai Sawatari's Doomsday
+> list, it’s the list most similar to the lists I was familiar and have had some
+> previous good results.
 >
 > So onto the event, we were required to submit decklists and register ahead of
 > time since there wouldn’t be any in-person registration, with that being said
@@ -140,7 +140,7 @@ Creator], I let it resolve even though I had :card[Force of Negation],
 Urza, Lord High Artificer
 :::
 
-#### Round 4 vs Tony *Into_Play* Murata on Mono Green Cloudpost. Win (2-0)
+#### Round 4 vs Tony _Into_Play_ Murata on Mono Green Cloudpost. Win (2-0)
 
 This round I played against the great and powerful Tony Murata aka into_play on
 mtgo, well known caster of :card[Primeval Titan]s.
@@ -160,7 +160,7 @@ Rotation] when Emrakul resolves, I countered and he conceded. The idea here was
 to have a second :card[Doomsday] to refill my deck in case I needed to attack
 twice with Emrakul.
 
-#### Round 5 vs Bob *Griselpuff* Huang on Urza Affinity. Loss (1-2)
+#### Round 5 vs Bob _Griselpuff_ Huang on Urza Affinity. Loss (1-2)
 
 Played against legacy master Bob Huang, earlier in the day I asked if he was on
 Delver he told me Affinity. Honestly I thought was trolling me for a second, it
@@ -181,7 +181,7 @@ games correctly.
 Thought Monitor
 :::
 
-#### Round 6 vs Matthew *TheHackbert* Hackbert on Cephalid Breakfast. Win (2-0)
+#### Round 6 vs Matthew _TheHackbert_ Hackbert on Cephalid Breakfast. Win (2-0)
 
 Played against another great player from Arizona, the awesome Matt Hackbert.
 
@@ -276,7 +276,7 @@ Ended 7-2 in the event, really enjoyed my matches, all my opponents were really
 nice to interact and were very pleasant, can't wait for big events to become a
 normal thing again in the future when things are safer.
 
-### Nathan *VendillionMisclique* Anderson Stahl - 27th Place (7-2)
+### Nathan _VendillionMisclique_ Anderson Stahl - 27th Place (7-2)
 
 ::decklist{path=2021/09/27/meandeck.vendillionmisclique}
 
@@ -434,7 +434,7 @@ G3 Went to 5 for a hand of :card[Ponder], :card[Force of Negation], land,
 :card[Faithless Looting] that I Forced. Draw land for turn and resolved
 :card[Doomsday] for an easy turn 2 win.
 
-### Nicholas *germancouch* French-Seats - 59th Place (6-3)
+### Nicholas _germancouch_ French-Seats - 59th Place (6-3)
 
 ::decklist{path=2021/09/27/meandeck.germancouch}
 
@@ -605,7 +605,7 @@ Sideboard:
 - Adding another :card[Pact of Negation] and a :card[Spell Pierce] into the
   remaining open slots.
 
-### Dave *Ruta Barracuda* Boruta - 106th Place (5-4)
+### Dave _Ruta Barracuda_ Boruta - 106th Place (5-4)
 
 [Dave's Twitter](https://twitter.com/rutabarracuda)
 
@@ -752,7 +752,7 @@ win with a pass-the-turn pile using :card[Ideas Unbound].
 I remember Game 2 being a slog, with us again trading :card[Stifle]s on
 fetches/:card[Wasteland], my having to deal with an initial Ragavan with
 :card[Abrade] out of the sideboard. This was followed up by Anthony with a
-second continuously *dashed* Ragavan that I was unable to deal with. I made a
+second continuously _dashed_ Ragavan that I was unable to deal with. I made a
 critical mistake with my cantrip decisions at this point that cost me the game,
 as I piled my :card[Ponder]s incorrectly twice – the first, giving away a land I
 actually would have needed, and the second giving up a :card[Daze] that I

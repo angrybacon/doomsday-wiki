@@ -39,13 +39,13 @@ BW
 :::
 
 1. Cast Doomsday and build the pile described
-2. Cast LED and activate to to make {U}{U}{U}
-3. Use that mana to flashback Echo of Eons
-4. Draw the 7 remaining cards
-5. Cast all 3 LEDs and the 2 Petals
-6. Cast Burning Wish, holding priority to crack at least 2 LEDs for
+1. Cast LED and activate to to make {U}{U}{U}
+1. Use that mana to flashback Echo of Eons
+1. Draw the 7 remaining cards
+1. Cast all 3 LEDs and the 2 Petals
+1. Cast Burning Wish, holding priority to crack at least 2 LEDs for
    {B}{B}{B}{B}{B}{B}
-7. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
+1. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
    opponent
 
 This pile is rather elegant if you ask me. It's mana efficient, and also flashy,
@@ -123,7 +123,7 @@ great, There are 2 cards left, so if the Oracle survives, you win. But there are
 2 "fail cases", outcomes where you simply can't win:
 
 1. The 2 remaining cards are Ponder and Thassa's Oracle
-2. The 2 remaining cards are 2 Lotus Petals
+1. The 2 remaining cards are 2 Lotus Petals
 
 Luckily, the chances of success with this pile is approximately 90%. These odds
 are good enough that you should take the chance almost every time.
@@ -184,7 +184,7 @@ again and have plenty of storm for a lethal Tendrils the next time around.
 
 1. Echo enables some extremely mana-efficient piles that generate high storm
    counts.
-2. Some Echo piles are nondeterministic out of necessity, but don't let this
+1. Some Echo piles are nondeterministic out of necessity, but don't let this
    scare you off. They typically still have a high probability of working.
-3. There are inherent risks with Echo piles, particularly the fact that your
+1. There are inherent risks with Echo piles, particularly the fact that your
    opponent will also draw a fresh hand.

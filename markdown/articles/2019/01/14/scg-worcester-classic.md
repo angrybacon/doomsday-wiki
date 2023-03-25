@@ -3,7 +3,7 @@ authors: d8dk32
 banner: CB
 kind: REPORT
 tags: [LEGACY, DDFT]
-title: "Stages of Grief: Doomsday at the SCG Worcester Classic"
+title: 'Stages of Grief: Doomsday at the SCG Worcester Classic'
 ---
 
 When Gitaxian Probe was banned, Doomsday, barely clinging to life after losing
@@ -119,7 +119,8 @@ they have the aggro draw with no interaction, and I'm able to make 12 Goblins on
 turn 3. It's close, but it was enough.  
 -2 Preordain, -1 Rain of Filth, -1 Duress, +2 Abrade, +1 Echoing Truth, + 1
 Chain of Vapor  
-**Game 2** they have turn 1 Chalice@1, Turn 2 Thorn, Turn 3 Trinisphere. I lose  
+**Game 2** they have turn 1 Chalice on 1, Turn 2 Thorn, Turn 3 Trinisphere. I
+lose  
 **Game 3** I lead on Thoughtseize and take a Chalice but they have a 2nd. They
 wasteland me and drop Chalice@0. I have more lands, and since I can cantrip, I'm
 able to put something together withing a turn or 2. I play Petal into Chalice to

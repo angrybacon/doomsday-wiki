@@ -55,9 +55,9 @@ It has ability to mess with the top of our deck, so be careful with your tutors
 and cantrips, and to invalidate :card[Daze] with treasure tokens changed the
 matchup quite a bit. Its very important to remember the Dash ability and to play
 around it post Doomsday. A tried and tested strategy is, to put cyclers into the
-pile to *feed* the monkey, aka use cyclers as filler or as tools to manipulate
-what gets exiled. I often build something like: *cycler, important card, cycler,
-cycler, important card*. With a pile like this Ragavan only eats cards we would
+pile to _feed_ the monkey, aka use cyclers as filler or as tools to manipulate
+what gets exiled. I often build something like: _cycler, important card, cycler,
+cycler, important card_. With a pile like this Ragavan only eats cards we would
 cycle anyway. And if they try to be cheeky and don’t attack for a turn, we just
 use the cycler we drew to feed them dead cards.
 
@@ -159,7 +159,7 @@ Addition:
 Endurance
 :::
 
-Cloudpost is still a *free win* win for us, but as always with green decks since
+Cloudpost is still a _free win_ win for us, but as always with green decks since
 MH2, play around Endurance.
 
 ### Show and Tell Variants
@@ -235,7 +235,7 @@ games we want to avoid anyway.
 One of the most uninteractive matchups out there. Just mulligan for a fast win,
 and slam.
 
-But we also lost some long *loved* enemies.  
+But we also lost some long _loved_ enemies.  
 ANT has fallen of the map completely. :card[Ragavan, Nimble Pilferer] was a huge
 blow for such a discard heavy deck. But also :card[Endurance] has been found
 guilty of accessory to murder in this particular case. A :card[Past in Flames]
@@ -334,7 +334,7 @@ There are even some lists out there with :card[Watery Grave] as their 5th
 Overall we lost some percentage points against many decks we had really good
 matchups against.
 
-In most we still are very favored, but they are no longer *free wins*.  
+In most we still are very favored, but they are no longer _free wins_.  
 In my opinion Doomsday is still the best Combo deck out there, but not as
 dominant against every non-Delver Deck as it was pre MH2.
 

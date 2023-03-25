@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 The Epic Storm or TES for short is the slower combo deck in matchup. It plays no
@@ -19,7 +21,7 @@ Only pass the turn if you know they cannot kill you. With :card[Burning Wish]
 for :card[Grapeshot].
 
 Since some lists started to play white, be careful, they can cast :card[Orim's
-Chant] to *mill you out*. They just cast their silence effect on your upkeep or
+Chant] to _mill you out_. They just cast their silence effect on your upkeep or
 in response to your cycle effects rendering you unable to even cast the oracle.
 
 There are many ways to play around this. Countermagic is the more obvious way,

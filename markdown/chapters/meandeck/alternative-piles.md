@@ -32,15 +32,15 @@ TO
 
 In theory you can replace Emrakul with any card (including lands) however the
 uncounterable nature, the extra turn on casting (which still works with
-Shelldock!) and the attack for 15 with *Annihilator 6* all make it probably the
+Shelldock!) and the attack for 15 with _Annihilator 6_ all make it probably the
 most effective tool to use.
 
 ## Dragon's Rage Channeler
 
 Some people have tried various creature shells alongside the Doomsday package
 and one of the more interesting ones for use as part of the Doomsday resolution
-is :card[Dragon's Rage Channeler]. Each non-creature spell cast lets you *dig*
-one additional card deeper through your pile thanks to the *Surveil* ability.
+is :card[Dragon's Rage Channeler]. Each non-creature spell cast lets you _dig_
+one additional card deeper through your pile thanks to the _Surveil_ ability.
 Let's look at a couple of examples.
 
 > DRC in play + non-Consider castable cantrip in hand
@@ -54,7 +54,7 @@ TO
 :::
 
 The most basic example above allows you to turn any regular cantrip into a
-pseudo copy of :card[Con] by giving it a *Surveil 1* effect attached. This
+pseudo copy of :card[Con] by giving it a _Surveil 1_ effect attached. This
 allows you to perform the basic Consider pile using either :card[Pnd],
 :card[Pre] or :card[BS].
 
@@ -83,7 +83,7 @@ Follow the listed steps:
 
 Often you will see people running 2 :card[TO] in the maindeck or 1 main and 1 in
 the side. The second copy naturally fits into many pre-existing piles which we
-have covered already and give the option to *try and try again* when looking to
+have covered already and give the option to _try and try again_ when looking to
 beat cards like :card[Endurance] and :card[Memory's Journey].
 
 > PTT + {U}{U}
@@ -97,7 +97,7 @@ TO
 :::
 
 This is a very basic take on the standard :card[IU] pile which is often used. It
-can be effective in *risking* jamming a pile without putting too many cards into
+can be effective in _risking_ jamming a pile without putting too many cards into
 the graveyard which may be returned with Endurance and also still being able to
 have another Oracle in reserve if the first one doesn't work out. What is nice
 is that even if they were to cast Endurance here, your library would become

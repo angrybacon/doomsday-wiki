@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Do **not** keep hands without countermagic. You'll need it to protect your own

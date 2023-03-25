@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Overall Esper Vial is not a very fast deck. It needs some time to set up
@@ -9,7 +11,7 @@ counterspell is enough to push through most of the time. Daze is especially good
 in the matchup because they have to use their mana in their early turns to play
 to the board, similarly to Death and Taxes.
 
-Due to its *toolbox* nature, you can expect various threats from your opponent
+Due to its _toolbox_ nature, you can expect various threats from your opponent
 but mostly in the form of hatebears. Cards like :card[Meddling Mage] will slow
 you down by naming Doomsday itself.
 

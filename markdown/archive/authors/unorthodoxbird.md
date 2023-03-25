@@ -1,4 +1,5 @@
-<!-- markdownlint-disable-next-line first-line-heading -->
+<!-- markdownlint-disable first-line-heading -->
+
 ## UnOrthodoxBird
 
 Obsessed with fringe Storm variants, I've been playing Doomsday for almost 2

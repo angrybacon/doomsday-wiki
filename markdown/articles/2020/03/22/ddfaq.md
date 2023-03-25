@@ -39,9 +39,9 @@ and a bit more comparison on each.
 
 ### DDFT (DoomsDay Fetchland Tendrils)
 
-*Lists that utilise traditional elements such as Burning Wish, some sort of draw
+_Lists that utilise traditional elements such as Burning Wish, some sort of draw
 3/4 engine and focus on a Storm style approach to winning (however do not always
-require storm to win).*
+require storm to win)._
 
 [As mentioned last time](/articles/2020/03/12/pretty-mean-deck), DDFT is the
 traditional name of historical iterations of the deck. We won't do a full
@@ -70,7 +70,7 @@ Green for sideboard options.
 
 ### DDEFT (DoomsDay Experimental Frenzy Tendrils)
 
-*Lists that utilise Experimental Frenzy as the primary engine to win.*
+_Lists that utilise Experimental Frenzy as the primary engine to win._
 
 The summary defines this sub-archetype pretty well. :card[Experimental Frenzy]
 is a very powerful card advantage engine that can, under the right
@@ -89,8 +89,8 @@ DD
 :::
 
 Instead of using :card[Burning Wish] for additional copies of Doomsday, the deck
-uses cards like :card[Lim-Dûl's Vault] to act as tutor pieces prior to *going
-off* and facilitate the kill from an active Frenzy (as they let you stack the
+uses cards like :card[Lim-Dûl's Vault] to act as tutor pieces prior to _going
+off_ and facilitate the kill from an active Frenzy (as they let you stack the
 top of the deck you are playing from).
 
 Due to the cards used, this deck also tends to be Grixis colours sometimes
@@ -98,11 +98,11 @@ splashing Green for sideboard options.
 
 ### Meandeck Doomsday
 
-*Lists that are less combo focused and incorporate reactive countermagic such as
-Force of Will within their game plan.*
+_Lists that are less combo focused and incorporate reactive countermagic such as
+Force of Will within their game plan._
 
 Meandeck Doomsday tends to play a slower gameplan than the other two variants
-focussing more on controlling the game prior to *going off*. The deck is more
+focussing more on controlling the game prior to _going off_. The deck is more
 prone to passing the turn after resolving a Doomsday whereas DDFT and DDEFT are
 both more designed to go off the same turn you resolve one. This version plays
 less dedicated combo pieces such as :card[Lion's Eye Diamond] and more reactive
@@ -159,7 +159,7 @@ is normally the card that needs to resolve to enable you to win the game.
 :card[Experimental Frenzy] also falls under this category as it generally counts
 as a card that will normally win you the game if it resolves.
 
-A deck generally wants to have between 4 and 8 primary *bombs*. Any less and you
+A deck generally wants to have between 4 and 8 primary _bombs_. Any less and you
 are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
@@ -196,7 +196,7 @@ can include this efficient :card[Prophetic Prism] that enables mana fixing and
 does not lose card advantage whilst playing it.
 
 You may note I have not yet discussed :card[Lion's Eye Diamond] here, this will
-be covered in *Combo Pieces*.
+be covered in _Combo Pieces_.
 
 :::row{variant=CENTERED}
 DR
@@ -217,7 +217,7 @@ still reasonably incorporate it if desired.
 #### Meandeck
 
 Meandeck lists are less concerned with going fast. They still want to run
-between 3-4 Rituals as it enables the more mana efficient *kill turns* however
+between 3-4 Rituals as it enables the more mana efficient _kill turns_ however
 they likely only want between 1-3 Petals, normally around 2 at most. This is the
 variant that most favours the Astrolabe fixing plan being able to drop basics at
 a steady rate and favouring resilience over speed within the gameplan. If you
@@ -229,9 +229,9 @@ recommended.
 Cantrips are a staple of almost any Legacy deck that runs {U} and this one is no
 exception. Just like other combo variants, Doomsday wants to find the pieces it
 needs as quickly and reliably as it can so it tends to have a greater number of
-cantrips relative to other *fairer* decks. Unlike other combo decks like TES
+cantrips relative to other _fairer_ decks. Unlike other combo decks like TES
 however, the cantrips can actually form an integral part of the combo itself and
-so ensuring these are at a maximum is key. You don't want to be having to *burn*
+so ensuring these are at a maximum is key. You don't want to be having to _burn_
 through cantrips to find pieces to then find yourself unable to draw into an
 otherwise game-winning pile.
 
@@ -240,7 +240,7 @@ As a result I would expect any Doomsday deck to be running :card[Brainstorm],
 this some lists will be running the previously cited :card[Arcum's Astrolabe]
 along with some spicier elements such as :card[Street Wraith] and :card[Edge of
 Autumn] however more on those later. Combine these with some of the cantripping
-protection elements and more niche *combo cards* like :card[Conjurer's Bauble]
+protection elements and more niche _combo cards_ like :card[Conjurer's Bauble]
 you should end up with a very high cantrip number.
 
 :::row{variant=CENTERED}
@@ -263,7 +263,7 @@ DDEFT would be also wanting to run the 8 plus 2-4 Preordain. Unlike DDFT however
 it cannot afford to run either cycling effects like Street Wraith, nor can it
 run Arcum's Astrolabe. With :card[Experimental Frenzy] out you cannot easily
 cast either card from the top of your deck thus increasing the liklihood of
-*whiffing* whilst with a Frenzy out. This shouldn't matter however as a Frenzy
+_whiffing_ whilst with a Frenzy out. This shouldn't matter however as a Frenzy
 can itself generate such a high potential card advantage that having less
 cantrips is considered fine.
 
@@ -335,7 +335,7 @@ removal like :card[Abrupt Decay] too.
 
 ### Combo Pieces
 
-Although the deck is normally a *one card combo* there are certain other pieces
+Although the deck is normally a _one card combo_ there are certain other pieces
 needed to make it work it the most efficient way possible. These are often cards
 that may have limited usefulness outside of winning the game. Normally decks
 have 1-2 raw card advantage engine pieces :card[Ideas Unbound], :card[Act on
@@ -354,7 +354,7 @@ provides free storm and can enable the easy casting of :card[Echo of Eons].
 Finally some sort of win condition is required. This can be in the form of
 :card[Tendrils of Agony], :card[Thassa's Oracle] or even :card[Collective
 Brutality]. :card[Burning Wish] can also take this spot as it can tutor up a
-Tendrils if needed. You want to run as few *dead* cards as possibly and
+Tendrils if needed. You want to run as few _dead_ cards as possibly and
 generally the win condition is counted as such so you only want 1-2 of them.
 
 :::row{variant=CENTERED}
@@ -572,7 +572,7 @@ unwary who have not read up on the updated Oracle text. First of all the "Pay
 half your life, rounded up" is not a cost as is implied by the colon `:` but
 actually part of the resolution. You will not lose your life for putting
 Doomsday on the stack! Despite what the colon present may imply, the resolution
-of the card is *not* an activated ability. I have had an opponent before who
+of the card is _not_ an activated ability. I have had an opponent before who
 read my card and asked a nearby judge "can I name this card with :card[Pithing
 Needle]" to which the judge quite correctly replied: "Yes". My opponent then
 proceeded to play said :card[Pithing Needle] on the card and was quite put out
@@ -626,7 +626,7 @@ the basics down first. Once you have done that you can start to train yourself
 on some puzzles or at least have the confidence to face interaction without
 worrying about becoming your own enemy.
 
-## Learning *Piles*
+## Learning _Piles_
 
 There is one final point I wish to touch on which is learning Doomsday piles
 (sometimes referred to as stacks). The first questions that people tend to ask

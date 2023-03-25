@@ -3,26 +3,26 @@ authors: EternalRant
 banner: Sheoldred, the Apocalypse
 kind: REPORT
 tags: [LEGACY, MEANDECK]
-title: "Axion Mega Legacy February 2023: Second Place Report"
+title: 'Axion Mega Legacy February 2023: Second Place Report'
 ---
 
-*How to do well at a big tournament by getting really lucky*
+_How to do well at a big tournament by getting really lucky_
 
-On the 18th February 2023 I came 2nd in the Axion *Mega Legacy* event in the
+On the 18th February 2023 I came 2nd in the Axion _Mega Legacy_ event in the
 Great Hall at the University of Birmingham. This is part of an event series run
-by Axion Now called *The Gathering* &mdash; basically their answer to GPs. This
+by Axion Now called _The Gathering_ &mdash; basically their answer to GPs. This
 is my writeup of the event.
 
 ## Table of Contents
 
 ## Introductions
 
-Hi, my name is Alex, and I'm *EternalRant* in the Discord. I've been playing
+Hi, my name is Alex, and I'm _EternalRant_ in the Discord. I've been playing
 Magic since 2016 (ignoring some dabbling with it when I was a teenager back in
 the late 90s), and Legacy since 2018. I picked up Doomsday in late 2021, and
 have been playing it almost exclusively ever since. I live in London and there's
-a thriving Legacy scene there, with *Tuesday Night Legacy* happening weekly, and
-the monthly *London Legacy Monthly*. This means I get to play in paper
+a thriving Legacy scene there, with _Tuesday Night Legacy_ happening weekly, and
+the monthly _London Legacy Monthly_. This means I get to play in paper
 regularly, but I don't play online at all.
 
 ## Before the Tournament
@@ -52,7 +52,7 @@ Here's the list I ended up playing
 
 This list is pretty stock overall.
 
-- I'm playing :card[Deep Analysis] as I like having a way to *just go for it* on
+- I'm playing :card[Deep Analysis] as I like having a way to _just go for it_ on
   very low resources.
 - I'm not playing :card[Daze]. I don't like it as a 1-of because I never manage
   to think of piles where it will be useful, and I prefer discard anyway.
@@ -159,8 +159,8 @@ had played Grindstone and held up blast. But I'll take wins where I can!
 #### Game 1
 
 My opponent starts with Plains into :card[Aether Vial]. I lead off with
-:card[Underground Sea] into Dark Ritual into DD. I build the *Death and Taxes
-special* pile of [Fetch, Fetch, TO, Land, Land]. He doesn't draw any relevant
+:card[Underground Sea] into Dark Ritual into DD. I build the _Death and Taxes
+special_ pile of [Fetch, Fetch, TO, Land, Land]. He doesn't draw any relevant
 interaction or pressure, and I win 2 turns later (with the help of a cantrip).
 
 :::row{variant=PILE}
@@ -422,11 +422,11 @@ to reflect and learn for the future. So here are my thoughts:
   like missed triggers or playing into onboard / face up interaction.
 - My mulligan decisions were way better than in the past. I've finally realised
   you should only keep a 7 or 6 card hand if it has a clear path to winning the
-  game. *Lands and spells* is not good enough.
+  game. _Lands and spells_ is not good enough.
 - I was pretty happy with my decision making before resolving Doomsday. I think
   I was timing my discard well, and made good choices with the cards to hit with
   discard.
-- I built a lot of *win right now* piles this tournament. This was really
+- I built a lot of _win right now_ piles this tournament. This was really
   because I was feeling rusty and failed to think through the possible piles in
   time. But it worked out for me, so I might do this more often.
 - I hate losing after resolving Doomsday and that only happened twice this
@@ -460,6 +460,6 @@ I'm less happy with the sideboard.
 Thanks to everyone who made it this far, I hope you enjoyed the writeup. And
 remember, **A**lways **B**e **C**asting **D**oomsday!
 
-*Doishy's editor sign-off: Thanks so much to Alex for submitting this report to
+_Doishy's editor sign-off: Thanks so much to Alex for submitting this report to
 publish! Remember anyone is able to submit content to the Wiki and we'd love to
-see more from the community! Congrats again to Alex!*
+see more from the community! Congrats again to Alex!_

@@ -42,11 +42,11 @@ TO
 :::
 
 1. Cast Doomsday and build the above pile, then pass the turn
-2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
-3. Draw and play Island, activate Shelldock Isle, cast Emrakul, take another
+1. Draw and play Shelldock Isle, hide Emrakul, pass the turn
+1. Draw and play Island, activate Shelldock Isle, cast Emrakul, take another
    turn
-4. Cast Duress if you can, attack with Emrakul
-5. Attack again next turn if needed. Oracle serves as a backup plan in case
+1. Cast Duress if you can, attack with Emrakul
+1. Attack again next turn if needed. Oracle serves as a backup plan in case
    they're not dead yet or deal with the Emrakul.
 
 The first 2 cards may be the only ones required to win so we have 3 extra cards
@@ -100,9 +100,9 @@ Ritual and a Doomsday, but your opponent has no clock. Make use of Doomsday's
 tutoring power to find a solution to the Chalice locking your wincons.
 
 1. Cast Doomsday and build the above pile. Pass the turn.
-2. Draw Decay, and pass the turn again. Decay the Chalice on their end step.
-3. Draw Street Wraith, and cycle it into Oracle.
-4. Oracle's trigger will win you the game with 2 cards left.
+1. Draw Decay, and pass the turn again. Decay the Chalice on their end step.
+1. Draw Street Wraith, and cycle it into Oracle.
+1. Oracle's trigger will win you the game with 2 cards left.
 
 With this pile, you can even pass 1-2 more turns to draw mana to cast Oracle, if
 for example you got hit with Wasteland.
@@ -120,10 +120,10 @@ LP
 :::
 
 1. Pass the turn after casting Doomsday
-2. Draw the LED, play it out, and pass again.
-3. Draw the Street Wraith, cycle it holding priority to crack LED for {U}{U}{U}
-4. Draw Ponder and cast it, leaving {U}{U} floating
-5. Draw Oracle and cast it to win with 1 card left.
+1. Draw the LED, play it out, and pass again.
+1. Draw the Street Wraith, cycle it holding priority to crack LED for {U}{U}{U}
+1. Draw Ponder and cast it, leaving {U}{U} floating
+1. Draw Oracle and cast it to win with 1 card left.
 
 How did you find yourself in this position? Maybe you cast Doomsday using Lotus
 Petal and Dark Ritual. Let's not think too hard about it. The point is that if
@@ -235,12 +235,12 @@ chapter][ddft:brainstorm], but Spoils lets you win without leaving cards left in
 your deck, whereas that would be impossible without it.
 
 1. Cast Doomsday and build the above pile.
-2. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
-3. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for
+1. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
+1. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for
    UUU
-4. Spoils will exile the 2 useless cards and the Island (or whatever you put
+1. Spoils will exile the 2 useless cards and the Island (or whatever you put
    there) and give you Oracle
-5. Cast Oracle to win with 0 cards left in library.
+1. Cast Oracle to win with 0 cards left in library.
 
 [ddft:brainstorm]: /ddft/brainstorm
 
@@ -278,8 +278,8 @@ Spiral.
 
 1. These piles will not come up in a typical game, so don't feel you need to
    memorize them.
-2. Many of these piles are high risk in some form or another. Don't be afraid of
+1. Many of these piles are high risk in some form or another. Don't be afraid of
    this though. If one of these types of piles gives you a 10% chance to win,
    that could be 10% more than any other option.
-3. Outside-the-box thinking can be valuable when building piles. Consider these
+1. Outside-the-box thinking can be valuable when building piles. Consider these
    piles your inspiration.

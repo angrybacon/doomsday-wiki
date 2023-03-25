@@ -96,7 +96,7 @@ SW
 BW
 :::
 
-The Draw-4 in the sideboard lets you use Burning Wish as a *cantrip* into your
+The Draw-4 in the sideboard lets you use Burning Wish as a _cantrip_ into your
 pile, and you can storm off without ever casting a blue spell. The life cost is
 hefty, since you halve your life total twice and then pay 2 life, but the key
 point here is that it is possible.
@@ -149,7 +149,7 @@ discard.
 
 **Example 2**
 
->  Echo, 1 other card in hand - {0}
+> Echo, 1 other card in hand - {0}
 
 :::row{variant=PILE}
 LED
@@ -392,7 +392,7 @@ proposition. But the pile is there, so you should know about it.
 ### Counterbalance
 
 Playing through :card[Counterbalance] is not easy. Using a normal decklist, in
-game 1 there is no *standard* way of getting through it. If you can resolve a
+game 1 there is no _standard_ way of getting through it. If you can resolve a
 Veil of Summer that will certainly work, but most Counterbalance players will
 try to keep a 1-cost card on top of their deck as much as possible so this can
 prove difficult. Natural Storm can also be effective. Sometimes you can convince
@@ -584,9 +584,9 @@ worth worrying too much about.
 ## Conclusion
 
 1. There is very little hate that is completely unbeatable
-2. This does not mean that you can win from any situation. To beat some of the
+1. This does not mean that you can win from any situation. To beat some of the
    most hateful things your opponent can throw at you, you'll need plenty of
    time and mana and you won't always have that.
-3. Play to your outs, even if the odds are very long.
-4. Thassa's Oracle is an extremely powerful addition to the deck and immensely
+1. Play to your outs, even if the odds are very long.
+1. Thassa's Oracle is an extremely powerful addition to the deck and immensely
    useful for beating all kinds of hate.

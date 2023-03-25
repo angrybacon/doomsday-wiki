@@ -6,7 +6,7 @@ tags: [LEGACY, MEANDECK]
 title: Doomsdaying at the 4Seasons Spring Tournament 2023
 ---
 
-Hello everyone! I'm Luca Fasoli, aka *Fuz65* on MTGO. You may know me for the
+Hello everyone! I'm Luca Fasoli, aka _Fuz65_ on MTGO. You may know me for the
 unconventional Doomsday lists that I play on mtgo. Today I want to write about
 my experience at the 4 Seasons spring tournament (3-4-5th March), that
 culminated with a top8 at the Legacy main event.
@@ -19,7 +19,7 @@ decks.
 Fortunately, the 4 Seasons is more than a simple MtG tournament. It's an event
 where you get to meet both new people and friends that you don't get to see
 often. Worst case scenario I'd hang around the tournament hall, spend some money
-on cards that I don't actually need and have dinner at the *Mulino Bruciato*.
+on cards that I don't actually need and have dinner at the _Mulino Bruciato_.
 Not too bad, huh? I finally decided to register for the main event a few days
 before the event and added the Saturday side event to get used to playing my
 deck in paper again. It might sound stupid, but since I play most of my legacy
@@ -42,8 +42,8 @@ someone with an unhealty habit of prioritizing card draw over actively trying to
 win the game, (Doishy's editor comments, "Looking at you Marcus!") Spelldancer
 was exactly what I needed to keep myself interested in Legacy. I wish I had
 taken screenshots of the time I cast a :card[Preordain] with triple active
-Spelldancer, leading into Doomsday+Oracle from hand with 5 devotion, but this *2
-mana kill two :card[Murktide Regent]s* was pretty satisfying as well.
+Spelldancer, leading into Doomsday+Oracle from hand with 5 devotion, but this _2
+mana kill two :card[Murktide Regent]s_ was pretty satisfying as well.
 
 ::tweet{id=1624734026836705281}
 
@@ -114,7 +114,7 @@ joined us for the tournaments on Saturday and Sunday: the team was now complete!
 
 I'd had a pretty intense week, so I slept through my first alarm clock and I
 think I woke up at 10 AM or something like that. The Saturday event starting at
-2PM is *chef's kiss*. I'm sorry I don't remember all the names, but I have no
+2PM is _chef's kiss_. I'm sorry I don't remember all the names, but I have no
 way of checking (thanks companion!)
 
 ### Round 1 vs Janus on Cephalid Breakfast
@@ -222,7 +222,7 @@ Matches 4-2
 
 Not a terrible result, and I got some practice for the main event.
 
-The main event of Saturday is dinner at the *Mulino Bruciato*, which is a
+The main event of Saturday is dinner at the _Mulino Bruciato_, which is a
 highlight of our saturdays at the 4 Seasons Tournament. We booked a table for
 20-something people and it was a ton of fun. As a wheat-intolerant person I
 couldn't eat any of the pasta based dishes, but at the Mulino they have this
@@ -578,9 +578,9 @@ That's all for today! If you want to reach me on social media you can find me on
 
 Thanks for reading!
 
-*Doishy's editor sign-off: Thanks so much to Luca for submitting this report to
+_Doishy's editor sign-off: Thanks so much to Luca for submitting this report to
 publish! Remember anyone is able to submit content to the Wiki and we'd love to
 see more from the community! Congrats again to Luca who is my favourite Dakkon
-lover and champion of the {G} splash!*
+lover and champion of the {G} splash!_
 
 ::tweet{id=1632876228683202561}

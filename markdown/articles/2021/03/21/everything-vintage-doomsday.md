@@ -6,9 +6,9 @@ tags: [VINTAGE, MEANDECK]
 title: Everything Doomsday
 ---
 
-*Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort
+_Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort
 ([MaxMagicer][maxmagicer]), [SingPanMan][singpanman], and [discoverN][discovern]
-for writing.*
+for writing._
 
 [diem4x]: https://twitter.com/Bartvehs
 [maxmagicer]: https://twitter.com/MaxVervoort2002
@@ -66,7 +66,7 @@ Portent
 
 ## Sideboard Configuration and Sideboard Guide
 
-*With Bart van Etten and Max Vervoort*
+_With Bart van Etten and Max Vervoort_
 
 **:card[Steel Sabotage]**: it is only used for the shops matchup, but it's so
 crucial in that matchup that you want four after sideboard. It's the most
@@ -129,34 +129,34 @@ Island
 ### Sideboard Guide
 
 | vs BUG                      |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Street Wraith     |
 | +1 Duress                   | -1 Mystical Tutor    |
 |                             | -1 Vampiric Tutor    |
 
 | vs Breach                   |                   |
-|:----------------------------|:------------------|
+| --------------------------- | ----------------- |
 | +1 Mindbreak Trap           | -1 Island         |
 | +1 Duress                   | -1 Portent        |
 | +1 Opposition Agent         | -1 Mystical Tutor |
 | +1 Tasigur, the Golden Fang | -1 Vampiric Tutor |
 
 | vs Jeskai                   |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Island            |
 | +1 Duress                   | -1 Force of Negation |
 | +1 Opposition Agent         | -1 Mystical Tutor    |
 | +1 Tasigur, the Golden Fang | -1 Vampiric Tutor    |
 
 | vs Doomsday         |                   |
-|:--------------------|:------------------|
+| ------------------- | ----------------- |
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs Hogaak                   |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Force of Negation |
 | +4 Leyline of the Void      | -1 Necropotence      |
 | +1 Tasigur, the Golden Fang | -1 Mystical Dispute  |
@@ -164,7 +164,7 @@ Island
 |                             | -1 Dig Through Time  |
 
 | vs Dredge                   |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +4 Leyline of the Void      | -1 Mental Misstep    |
 | +1 Tasigur, the Golden Fang | -1 Force of Negation |
 |                             | -1 Necropotence      |
@@ -172,14 +172,14 @@ Island
 |                             | -1 Dig Through Time  |
 
 | vs RUG                      |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Portent           |
 | +1 Duress                   | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Mystical Tutor    |
 |                             | -1 Vampiric Tutor    |
 
 | vs Ravager Shops            |                     |
-|:----------------------------|:--------------------|
+| --------------------------- | ------------------- |
 | +4 Steel Sabotage           | -1 Mental Misstep   |
 | +1 Tasigur, the Golden Fang | -3 Flusterstorm     |
 | +2 Fatal Push               | -1 Necropotence     |
@@ -187,32 +187,32 @@ Island
 |                             | -2 Daze             |
 
 | vs Golos Shops              |                     |
-|:----------------------------|:--------------------|
+| --------------------------- | ------------------- |
 | +4 Steel Sabotage           | -3 Flusterstorm     |
 | +1 Duress                   | -1 Mental Misstep   |
 | +1 Tasigur, the Golden Fang | -1 Mystical Dispute |
 | +1 Island                   | -2 Daze             |
 
 | vs Oath             |                   |
-|:--------------------|:------------------|
+| ------------------- | ----------------- |
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs Bant Archon              |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +1 Fatal Push               | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Necropotence      |
 |                             | -1 Street Wraith     |
 
 | vs DPS              |                   |
-|:--------------------|:------------------|
+| ------------------- | ----------------- |
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs White Hatebears          |                     |
-|:----------------------------|:--------------------|
+| --------------------------- | ------------------- |
 | +2 Fatal Push               | -3 Flusterstorm     |
 | +1 Island                   | -1 Mystical Dispute |
 | +1 Tasigur, the Golden Fang |                     |
@@ -224,7 +224,7 @@ and piles you can make to do that.
 
 ## Playing vs. Breach
 
-*With discoverN*
+_With discoverN_
 
 You are against Breach, and the opponent was on the play with seven cards and
 went :card[Misty Rainforest], :card[Mox Ruby], pass (5 cards remaining). You
@@ -235,7 +235,7 @@ this turn and the rest of the game?
 
 Our hand is:
 
-*DiscoverN's response*
+_DiscoverN's response_
 
 > **Game plan:**
 >
@@ -266,7 +266,7 @@ DR
 
 ## Playing vs. BUG
 
-*With SingPanMan*
+_With SingPanMan_
 
 You are at 16 life vs. BUG game three (assume Fatal Push is in your deck and
 nothing is exiled, so you have your whole deck to put in your pile) and cast a
@@ -275,7 +275,7 @@ opponent has Leovold, Collector Ouphe, 3 lands, and 3 cards in hand. You assume
 their graveyard doesn't matter (i.e., :card[Snapcaster Mage]). What is your
 pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 
-*SingPanMan's response*
+_SingPanMan's response_
 
 > Demonic Tutor, Time Walk, Oracle, Oracle, Island (double Trophy is an issue)
 >
@@ -311,7 +311,7 @@ Island
 
 ## Playing vs. Bant
 
-*With discoverN*
+_With discoverN_
 
 Your Opponent casts Archon of Emeria with five cards in hand on the play in turn
 two. It is game three (You have Fatal Push in your deck, and they may have cards
@@ -324,7 +324,7 @@ Hullbreacher, maybe Deafening Silence, counterspells like Flusterstorm, and even
 :card[Spell Queller]). What is your pile, and what do are you trying to do in
 the following turns?
 
-*DiscoverN's response*
+_DiscoverN's response_
 
 > Timewalk, Oracle, Oracle, Island, Island
 >
@@ -353,7 +353,7 @@ Island
 
 ## Playing vs. Shops
 
-*With Jacobisboss*
+_With Jacobisboss_
 
 I've decided to do one final puzzle of a Doomsday pile to beat Golos shops.
 
@@ -375,7 +375,7 @@ Daze
 FoW
 :::
 
-*My response*
+_My response_
 
 > From the top: Steel Sabotage, Gush, Oracle, Lotus, Island  
 > Goal: try to win in two turns.  

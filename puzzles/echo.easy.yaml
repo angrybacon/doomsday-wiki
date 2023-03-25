@@ -1,5 +1,5 @@
-title: "Echo Doomsday vs a Goldfish"
-deckFile: "2020/01/ddft.ubrg.txt"
+title: 'Echo Doomsday vs a Goldfish'
+deckFile: '2020/01/ddft.ubrg.txt'
 oppHand: null
 oppBoard: null
 yourHand:
@@ -10,7 +10,7 @@ yourHand:
 yourBoard:
   - Swamp
   - Island
-notes: "Opponent is at 20 life, you are at 20 life. Win this turn."
+notes: 'Opponent is at 20 life, you are at 20 life. Win this turn.'
 solution:
   - Echo of Eons
   - Lion's Eye Diamond

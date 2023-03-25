@@ -3,7 +3,7 @@ title: Conjurer's Bauble Piles
 ---
 
 Historically :card[Sensei's Divining Top] held a place as a standard 4-of in the
-deck to act as deck filtering and a *free saved* card draw for Doomsday piles.
+deck to act as deck filtering and a _free saved_ card draw for Doomsday piles.
 
 After Top was banned, :card[Conjurer's Bauble] was identified as the closest
 equivalent for use in Doomsday Storm or Laboratory Maniac piles that would allow
@@ -140,14 +140,14 @@ CB
 In this instance we can play ToA twice. We draw IC for our turn.
 
 1. Cast IC, draw DR, DR, LP and CB
-2. Cast LP
-3. Cast DR
-4. Cast DR
-5. Cast CB
-6. Cast ToA for 6 Storm
-7. Crack LED for {B}{B}{B}
-8. Crack CB targeting ToA, draw ToA
-9. Cast ToA for 7 storm
+1. Cast LP
+1. Cast DR
+1. Cast DR
+1. Cast CB
+1. Cast ToA for 6 Storm
+1. Crack LED for {B}{B}{B}
+1. Crack CB targeting ToA, draw ToA
+1. Cast ToA for 7 storm
 
 This playline results in 13 copies of ToA being available off this pile. This
 example does require some quite specific circumstances but it does help
@@ -242,17 +242,17 @@ of two SDTs to generate Storm we can do the same thing here. With the BW
 example:
 
 1. Cast Doomsday and build the first pile
-2. Activate SW, draw LED
-3. Cast LED, crack LED for {U}{U}{U}
-4. Crack CB targeting nothing, draw IU
-5. Cast IU, draw LED, LED and CB
-6. Cast CB
-7. Cast LED
-8. Cast LED
-9. Crack LEDs for {B}{B}{B}{R}{R}{R}
-10. Crack CB targeting BW, draw BW
-11. Cast BW targeting ToA
-12. Cast ToA
+1. Activate SW, draw LED
+1. Cast LED, crack LED for {U}{U}{U}
+1. Crack CB targeting nothing, draw IU
+1. Cast IU, draw LED, LED and CB
+1. Cast CB
+1. Cast LED
+1. Cast LED
+1. Crack LEDs for {B}{B}{B}{R}{R}{R}
+1. Crack CB targeting BW, draw BW
+1. Cast BW targeting ToA
+1. Cast ToA
 
 Simple enough right?
 
@@ -291,22 +291,22 @@ CB
 :::
 
 1. Cast Doomsday and build the above pile
-2. Pass the turn
-3. Draw LED for turn
-4. Cast LED
-5. Crack LED for {B}{B}{B}
-6. Crack CB targeting LED, draw IC
-7. Cast IC, draw LED, LED, CB and LED
-8. Cast LED
-9. Cast LED
-10. Cast LED
-11. Cast CB
-12. Crack LEDs for {B}{B}{B} {B}{B}{B} {B}{B}{B}
-13. Crack CB targeting CB, draw CB
-14. Cast CB
-15. Repeat steps 13 and 14 until you have 4 mana left in pool
-16. Crack CB targeting ToA, draw ToA
-17. Cast ToA
+1. Pass the turn
+1. Draw LED for turn
+1. Cast LED
+1. Crack LED for {B}{B}{B}
+1. Crack CB targeting LED, draw IC
+1. Cast IC, draw LED, LED, CB and LED
+1. Cast LED
+1. Cast LED
+1. Cast LED
+1. Cast CB
+1. Crack LEDs for {B}{B}{B} {B}{B}{B} {B}{B}{B}
+1. Crack CB targeting CB, draw CB
+1. Cast CB
+1. Repeat steps 13 and 14 until you have 4 mana left in pool
+1. Crack CB targeting ToA, draw ToA
+1. Cast ToA
 
 These tricks with CB allow for a number of iterations based on these simple
 concepts. They are useable with IU or IC which means you can have a lot of
@@ -324,7 +324,7 @@ potential key cards from being used but also forces the player to shuffle their
 library thereby destroying the order they had stacked it. CB can help protect
 the pile by acting as a blocker. When Surgical Extraction is cast on something
 in your graveyard, you can respond by sending the target card to the bottom of
-the deck thus causing the Surgical to *fizzle* with no legal target.
+the deck thus causing the Surgical to _fizzle_ with no legal target.
 
 The main trick with this is timing. You obviously cannot use the CB as part of
 the main pile itself so it must sit on the sidelines waiting. You also cannot
@@ -353,17 +353,17 @@ This selective blocking of graveyard targets is also functional pre-combo.
 
 A simple use of CB is simply as a non-U cantrip. Often players will bring in
 Pyroblasts to disrupt the combo targeting the IU or other cantrips used to draw
-into the piles. CB can act as a simple 1 mana *draw a card* spell that dodges
+into the piles. CB can act as a simple 1 mana _draw a card_ spell that dodges
 blasts. When paired with IC, we can build a pile that is completely immune to
 Pyroblast effects.
 
 ## Summary
 
 1. CB can be used to save a draw when using LED for mana
-2. CB can be used to retrieve cards for multiple uses in a pile
-3. CB can be used to extend a pile
-4. CB can be used to get around some hate cards
-5. Be mindful of targeted graveyard hate if exposing your cards to the graveyard
+1. CB can be used to retrieve cards for multiple uses in a pile
+1. CB can be used to extend a pile
+1. CB can be used to get around some hate cards
+1. Be mindful of targeted graveyard hate if exposing your cards to the graveyard
    when using CB
 
 Remember as with anything it is better to learn the concepts presented here more

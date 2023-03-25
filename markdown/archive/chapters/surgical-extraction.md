@@ -31,12 +31,12 @@ BW
 Doomsday has resolved.
 
 1. Activate SW
-2. Cast IU
-3. Cast LED
-4. Cast LED
-5. Activate SW
-6. Cast BW
-7. Cast ToA
+1. Cast IU
+1. Cast LED
+1. Cast LED
+1. Activate SW
+1. Cast BW
+1. Cast ToA
 
 From the above lines. Once the opponent has let IU resolve without using SE then
 it is too late for it to be effective (step 3 onwards). If they use it at step 1
@@ -46,7 +46,7 @@ on the top of the stack and BW is still at the bottom.
 Point 2 gives you a somewhat better chance however it is still poor as it relies
 on BW being your last card. Alas it is my experience that people tend to
 Surgical as soon as they can into a stack therefore relying on your opponent to
-*mess up* is not an effective strategy here.
+_mess up_ is not an effective strategy here.
 
 ## Example 2
 
@@ -63,11 +63,11 @@ SW
 Doomsday has resolved.
 
 1. Activate SW
-2. Cast AoI
-3. Cast LED
-4. Cast LED
-5. Cast BW
-6. Cast ToA
+1. Cast AoI
+1. Cast LED
+1. Cast LED
+1. Cast BW
+1. Cast ToA
 
 This is a very similar set of circumstances however we actually have a higher
 chance of success despite a resolved SE. Point 1 we have a few more permutations
@@ -76,19 +76,19 @@ We now have success if AoI is the first card or the second card if SW is the
 first. Beyond that is does not actually matter on the ordering of the cards.
 
 Likewise point 2 is pretty much guaranteed to succeed as even if they re-order
-you will still *draw* both LEDs and BW with the ability to cast it all.
+you will still _draw_ both LEDs and BW with the ability to cast it all.
 
 We improve our chances of success further by using our other cantrips to draw
-into the stack. The *Look at the top three cards of your library...* and *...you
-may shuffle your library...* clauses on Ponder, the *Scry 2* from Preordain and
-the *Draw three cards, place two cards from your hand onto the top of your
-library* from Brainstorm all give you a higher chance to place the IU, AoI or TW
-first in the stack.
+into the stack. The _Look at the top three cards of your library_ and _you may
+shuffle your library_ clauses on Ponder, the _Scry 2_ from Preordain and the
+_Draw three cards, place two cards from your hand onto the top of your library_
+from Brainstorm all give you a higher chance to place the IU, AoI or TW first in
+the stack.
 
 There are a couple of ways of beating Surgical. Obviously the use of discard or
 silence effects can help protect you however sometimes you might be facing an
 active Snapcaster with Surgical in the graveyard or something similar. Forcing
-the opponent to panic *use it or lose it* is the best way to stop them getting
+the opponent to panic _use it or lose it_ is the best way to stop them getting
 full value out of it. What they try and use it on in this instance obviously
 depends on what is currently targetable in your graveyard. Trying to work out
 what the opponent will go for requires some good observational and psychological
@@ -150,8 +150,8 @@ SW
 ## Summary
 
 1. It's always better to go off without an opposing SE being present
-2. SE can be played around
-3. Opponents can often panic-extract the wrong thing
-4. The trick is timing and not allowing them the gap to cast it
-5. AoI and TW are better tools than IU versus SE
-6. An opposing SE effectively reduces by 2 the amount of Storm count required
+1. SE can be played around
+1. Opponents can often panic-extract the wrong thing
+1. The trick is timing and not allowing them the gap to cast it
+1. AoI and TW are better tools than IU versus SE
+1. An opposing SE effectively reduces by 2 the amount of Storm count required

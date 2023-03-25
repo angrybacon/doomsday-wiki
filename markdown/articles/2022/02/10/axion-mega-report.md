@@ -13,7 +13,7 @@ title: "Legacy at Axion's Mega Weekend: Winner's Report and Metagame Discussion"
 On the weekend just gone (5th and 6th of February 2022)
 [Axion](https://www.axionnow.com/) hosted their first CompREL Mega Weekend since
 the whole COVID thing started. This included a massive Modern event, a unified
-Modern trios event and of course, one of their infamous *Legacy for Goodies*
+Modern trios event and of course, one of their infamous _Legacy for Goodies_
 events too. As Fran&ccedil;ois (the lovely owner) said during the player's
 meeting, they were worried they would just about fill the seats for the 32
 player capped Legacy event however what actually happened was it sold out within
@@ -29,14 +29,14 @@ than that, everyone played the entire swiss which goes to show just how much
 people just wanted to play!
 
 The event was 32 players. 5 round swiss with a cut to top 4. There were also two
-*bonus top 4s* for 5th to 8th place and 9th to 12th place respectively. The
+_bonus top 4s_ for 5th to 8th place and 9th to 12th place respectively. The
 entire top 4 prized and the winners of the bonus top 4s also won some goodies.
 First place was a Revised Underground Sea, second a Revised Taiga and various
 other delicious staples for 3rd/4th and the bonus top 4 winners.
 
 ## The Metagame
 
-*Again a massive thanks to scorekeeper Will for getting us this data.*
+_Again a massive thanks to scorekeeper Will for getting us this data._
 
 Going into the event there were two decks I expected to see represented heavily
 but beyond that I had no idea on what the meta could be. I expected a heavy UR
@@ -45,31 +45,31 @@ about those.
 
 Without further ado, here is the complete meta breakdown:
 
-| Deck                 | # |
-|----------------------|---|
-| Yorion Death & Taxes | 4 |
-| UR Delver            | 3 |
-| Lands                | 3 |
-| 4C Control (UWGb)    | 2 |
-| Cloudpost            | 2 |
-| Doomsday             | 1 |
-| UW Delverblade       | 1 |
-| Imperial Painter     | 1 |
-| 4C Yorion Aluren     | 1 |
-| Bant Stoneblade      | 1 |
-| Reanimator           | 1 |
-| Moon Stompy          | 1 |
-| Jeskai Breacher      | 1 |
-| Goblins              | 1 |
-| UB Shadow            | 1 |
-| BUG Control          | 1 |
-| Aggro Affinity       | 1 |
-| Storm                | 1 |
-| Burn                 | 1 |
-| Stiflenaught         | 1 |
-| Eldrazi Aggro        | 1 |
-| Esper Miracles       | 1 |
-| 8-Cast               | 1 |
+| Deck                 | Count |
+| -------------------- | ----- |
+| Yorion Death & Taxes | 4     |
+| UR Delver            | 3     |
+| Lands                | 3     |
+| 4C Control (UWGb)    | 2     |
+| Cloudpost            | 2     |
+| Doomsday             | 1     |
+| UW Delverblade       | 1     |
+| Imperial Painter     | 1     |
+| 4C Yorion Aluren     | 1     |
+| Bant Stoneblade      | 1     |
+| Reanimator           | 1     |
+| Moon Stompy          | 1     |
+| Jeskai Breacher      | 1     |
+| Goblins              | 1     |
+| UB Shadow            | 1     |
+| BUG Control          | 1     |
+| Aggro Affinity       | 1     |
+| Storm                | 1     |
+| Burn                 | 1     |
+| Stiflenaught         | 1     |
+| Eldrazi Aggro        | 1     |
+| Esper Miracles       | 1     |
+| 8-Cast               | 1     |
 
 Death & Taxes was the highest represented archetype followed by UR Delver and
 then Lands. The meta diversity was huge which was great to see with 23 unique
@@ -137,7 +137,7 @@ As a result I took my previous list as a starter and begun conversing online
 with various community members to try and assess what changes I might want to
 make (shout out to Otterlady, Nevilshute and Prepare4Robots especially on this).
 I knew I wanted to add additional discard effects into the list somewhere and
-was most worried about Blue based *Soup* decks (Bant, 4C, Jeskai Breacher) just
+was most worried about Blue based _Soup_ decks (Bant, 4C, Jeskai Breacher) just
 because they can run such a diverse spread of relevant hate that, in normal
 lists, requires answers that are otherwise really bad in those matchups. I spent
 a lot of time agonising over trying an alternative way to bypass a :card[Torpor
@@ -170,7 +170,7 @@ guess past me knew what they were talking about and the change seemed to work
 out well.
 
 As a result then we made the following changes to the deck thus going into
-*Turbo Zero Respect v0.6*.
+_Turbo Zero Respect v0.6_.
 
 Maindeck:
 
@@ -199,7 +199,7 @@ could snipe something like Torpor Orb and dealt with opposing Fluster's too
 whilst also being more mana efficient in the long run vs things like Delver. It
 also is very strong against opposing spell based combo allowing you to keep a
 diverse suite of interaction. I had scoured MTGGoldfish for what sort of
-interaction the *Soup* decks were packing and it looked like :card[VoS] was at
+interaction the _Soup_ decks were packing and it looked like :card[VoS] was at
 an all time low so I figured this is the time when discard is going to look its
 best before people remember about that card again now that Monkey is gone! The
 other potential cut was the 4th :card[FoN] but I decided on the fluster as, if
@@ -223,7 +223,7 @@ night before).
 Anyways I was there to play and was determined to have fun so having met up with
 some of the rest of the Bristol crew, who were playing in the Unified Modern
 Trios event, and saying hello to our local judges, I headed to the player
-meeting. Fran&ccedil;ois gave a lovely speech and hinted at some *Giga* events
+meeting. Fran&ccedil;ois gave a lovely speech and hinted at some _Giga_ events
 in the future which will be including Legacy in some form. Nik gave his official
 speech bit and we kicked off into round 1.
 
@@ -324,7 +324,7 @@ I win the die roll again and keep a decent seven that allows a turn 1 Doomsday
 with Thoughtseize backup. I drop Sea and Thoughtseize seeing :card[Brazen
 Borrower], :card[Dragon's Rage Channeler], :card[FoW], :card[Unholy Heat],
 :card[Lightning Bolt] and 2 lands. "Oh boy, it's Delver time". So we take Force,
-jam our turn 1 Doomsday, build a classic *anti-Delver* pile of :card[EoA],
+jam our turn 1 Doomsday, build a classic _anti-Delver_ pile of :card[EoA],
 Fetch, TO, Cavern, Island. This, or some variation of it works really well
 against all but the super fast aggro hands Delver can get with 3 power creatures
 and multiple Bolts. David fails to find what he needs and my pile completes.
@@ -343,7 +343,7 @@ get those fast wins in. 2 Wraiths and a Thoughtseize come out. Duress, Fluster
 and Oracle come in. I might try not bringing in Fluster and keeping 4 discard in
 the future also maybe leaving the second Oracle in. We'll play around a bit.
 
-Game 2 is the most *non-gamey* of the day with me having to mull to 5 with a
+Game 2 is the most _non-gamey_ of the day with me having to mull to 5 with a
 Doomsday. My next two draws are Doomsdays and between poor draws, Delver
 pressure and Wasteland I don't really get to do anything of note.
 
@@ -375,7 +375,7 @@ sloppy play Q.Q)
 
 Same boarding as round 1.
 
-Game 2 is brilliant. Game 2 involves a classic *Doishy* hand. The sort of hand
+Game 2 is brilliant. Game 2 involves a classic _Doishy_ hand. The sort of hand
 that my friend Matt always tells me I shouldn't go for. The sort of hand where I
 just can't help myself and too often get away with. This is my opening 7 (on the
 draw mind).
@@ -515,7 +515,7 @@ Surgical again on Doomsday this time the pile is resilient as all hell.
 Somehow my sorry being had made it to the finals which was crazy (and slightly
 upsetting as I did really want to go home). David was an amazing opponent as I
 said and he showed me a hand full of interaction like Daze, REBs etc which was
-perfect against me except for a *yolo* style all in on turn 1 start when on the
+perfect against me except for a _yolo_ style all in on turn 1 start when on the
 draw. I look forward to playing him again!
 
 **Match**: 2-1  

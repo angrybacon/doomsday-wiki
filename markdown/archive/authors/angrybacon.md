@@ -1,7 +1,8 @@
-<!-- markdownlint-disable-next-line first-line-heading -->
+<!-- markdownlint-disable first-line-heading -->
+
 ## angrybacon
 
-Part *Spike*, part *Timmy*, but mostly *Johnny*. Playing exclusively Legacy
+Part _Spike_, part _Timmy_, but mostly _Johnny_. Playing exclusively Legacy
 where I typically try and pilot very weird synergies. I like to make heads turn
 with weird deck constructions putting Dryad Arbor into play off an Aether Vial
 or copying their Song of the Dryad'd Jace with my Vesuva... Naturally, Doomsday

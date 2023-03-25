@@ -51,10 +51,10 @@ ToA
 With this pile, you can get infinite Storm.
 
 1. Cast LED, Crack for {B}{B}{B}
-2. Cast LED, Crack for {B}{B}{B}
-3. Cast LED, Crack for {B}{B}{B}
-4. Cast DD, LED LED LED ToA DD
-5. Repeat
+1. Cast LED, Crack for {B}{B}{B}
+1. Cast LED, Crack for {B}{B}{B}
+1. Cast DD, LED LED LED ToA DD
+1. Repeat
 
 If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
 have {2}{U}{R} and a cantrip in hand using an Act on Impulse pile. An example of
@@ -69,9 +69,9 @@ ToA
 :::
 
 1. Cast Brainstorm, put back both LEDs, Storm 5
-2. Cast Act on Impulse, exiling LED LED Preordain, Storm 6
-3. Cast both LEDs, crack for {U}{U}{U}{B}{B}{B} and cast Preordain, Storm 9
-4. Draw Tendrils and drain them for 20
+1. Cast Act on Impulse, exiling LED LED Preordain, Storm 6
+1. Cast both LEDs, crack for {U}{U}{U}{B}{B}{B} and cast Preordain, Storm 9
+1. Draw Tendrils and drain them for 20
 
 These are probably the most common piles, but there are variations on them. For
 example, take this PTT pile where you need 4 mana on the next turn.
@@ -172,13 +172,13 @@ Pnd
 :::
 
 1. Cast cantrip, Storm 4
-2. Cast AoI, no mana floating, Storm 5
-3. Cast LED, Storm 6
-4. Crack LED for {U}{U}{U}, cast Conjurer's Bauble, Storm 7
-5. Crack bauble, putting LED on bottom
-6. Cast Ponder and draw LED, Storm 8
-7. Cast LED, Storm 9
-8. Crack for {B}{B}{B} and cast ToA, Storm 10
+1. Cast AoI, no mana floating, Storm 5
+1. Cast LED, Storm 6
+1. Crack LED for {U}{U}{U}, cast Conjurer's Bauble, Storm 7
+1. Crack bauble, putting LED on bottom
+1. Cast Ponder and draw LED, Storm 8
+1. Cast LED, Storm 9
+1. Crack for {B}{B}{B} and cast ToA, Storm 10
 
 Sometimes you will not have access to the graveyard, and then you should use
 this pile mentioned earlier:
