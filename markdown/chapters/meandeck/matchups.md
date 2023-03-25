@@ -4,7 +4,7 @@ title: Matchup Guides
 ---
 
 With this chapter we want to give you a brief overview over the most relevant
-matchups in the *current* meta. We try to keep everything short and easy to
+matchups in the _current_ meta. We try to keep everything short and easy to
 read.
 
 Every matchup is organized as follows:
@@ -45,7 +45,7 @@ give you plenty of time to sculpt a hand and resolve Doomsday. Incidentally,
 resolving a turn 1 Doomsday while they're unable to produce a clock fast enough
 lets you protect a slow pass-the-turn pile thanks to :card[Cavern of Souls] or
 countermagic in multiple. The idea is that by stacking your next 5 draws you're
-supposedly drawing *better* than they will.
+supposedly drawing _better_ than they will.
 
 Beware the eventual maindeck :card[Endurance] and :card[Dress Down]!
 

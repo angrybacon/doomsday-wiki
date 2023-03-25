@@ -41,7 +41,7 @@ removal.
 
 :::accordion[Daze]
 If you have a land drop available. You can use Daze to generate additional mana
-by playing a *dead* card like Dark Ritual in order to return an Island to enable
+by playing a _dead_ card like Dark Ritual in order to return an Island to enable
 generation of two blue mana.
 :::
 

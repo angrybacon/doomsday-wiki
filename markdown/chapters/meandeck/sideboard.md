@@ -30,9 +30,9 @@ minimum, the following cards in your main deck configuration:
 - 1 Edge of Autumn
 - 1 Lion's Eye Diamond
 - 2-3 Lotus Petal
-- 3-4 *Other interaction slots* such as discard effects or Veil of Summer
+- 3-4 _Other interaction slots_ such as discard effects or Veil of Summer
 - 1-2 Predict / Ideas Unbound
-- 1-2 *Additional Search* such as Lim-Dûl's Vault or Personal Tutor
+- 1-2 _Additional Search_ such as Lim-Dûl's Vault or Personal Tutor
 - 4 Ponder
 - 4 Brainstorm
 - 2-4 Preordain
@@ -42,14 +42,14 @@ minimum, the following cards in your main deck configuration:
 
 Your list may look very different but hopefully the principles of how to
 calculate what to board in/out remain universal enough that it will still apply,
-even if you are a running a *Turbo* list or a *Control* one.
+even if you are a running a _Turbo_ list or a _Control_ one.
 
 ### Sideboard Tools
 
 Generally, when constructing your sideboard, you need to both have a good grasp
 on what the metagame you are expecting to face looks like and to have cards that
-are applicable to multiple match-ups where possible. Trying to run *silver
-bullets* for archetypes which you have a bad match-up with, but whose meta
+are applicable to multiple match-ups where possible. Trying to run _silver
+bullets_ for archetypes which you have a bad match-up with, but whose meta
 penetration is very low, is a misuse of potential card slots. Likewise,
 dedicating too many slots to a deck that is considered tier 1 could mean you get
 overrun by all the other decks that you are likely to face in a normal, healthy
@@ -63,7 +63,7 @@ is a key skill in general deck construction.
 
 The following categories should be consider broad sub-groups and, like our
 maindeck configuration, are based on some assumptions of what is being run. As
-the deck can have many *splash colour* options it is good to be familiar with
+the deck can have many _splash colour_ options it is good to be familiar with
 what tools you might be able to work with to achieve an effect under each group
 in order to have the required tools available. It should be mentioned that
 diversifying your tools, even with similar effects is a good idea if you expect
@@ -92,7 +92,7 @@ faced or what your colour requirements allow.
 
 One item on the list which may look out of place is Force of Negation (FoN). FoN
 provides dual utility in being able to be brought in against opposing combo
-decks as part of the *4. Anti-Combo* package but also can function as pseudo
+decks as part of the _4. Anti-Combo_ package but also can function as pseudo
 removal by preventing problem permanents like Trinisphere from ever entering the
 battlefield in the first place.
 
@@ -117,11 +117,11 @@ Some key examples of permanent removal to consider:
 - :card[Force of Negation]
 
 :::row{variant=CENTERED}
-- Abrupt Decay
-- Abrade
-- Prismatic Ending
-- Teferi's Realm
-- Pernicious Deed
+Abrupt Decay
+Abrade
+Prismatic Ending
+Teferi's Realm
+Pernicious Deed
 :::
 
 #### Creature Removal
@@ -143,11 +143,11 @@ Some key examples of creature removal to consider:
 - :card[Terminus]
 
 :::row{variant=CENTERED}
-- StP
-- Fatal Push
-- Massacre
-- Toxic Deluge
-- Terminus
+StP
+Fatal Push
+Massacre
+Toxic Deluge
+Terminus
 :::
 
 #### Anti-Blue
@@ -173,11 +173,11 @@ Some key examples of anti-blue to consider:
 - :card[Teferi, Time Raveler]
 
 :::row{variant=CENTERED}
-- Silence
-- Pyroblast
-- Hope of Ghirapur
-- Defense Grid
-- Xantid Swarm
+Silence
+Pyroblast
+Hope of Ghirapur
+Defense Grid
+Xantid Swarm
 :::
 
 #### Anti-Combo
@@ -187,7 +187,7 @@ decks from initiating or implementing their plans. They tend to be cheap
 disruptive cards that are designed to interact with the opponent.
 
 You probably want 2-4 slots dedicated to this role. As mentioned before you can
-overlap these slots alongside the *1. Permanent Removal* slots in the form of
+overlap these slots alongside the _1. Permanent Removal_ slots in the form of
 FoN.
 
 Some key examples of anti-combo to consider:
@@ -200,20 +200,20 @@ Some key examples of anti-combo to consider:
 - :card[Lavinia, Azorius Renegade]
 
 :::row{variant=CENTERED}
-- Veil of Summer
-- Flusterstorm
-- Spell Pierce
-- Mindbreak Trap
-- Force of Negation
+Veil of Summer
+Flusterstorm
+Spell Pierce
+Mindbreak Trap
+Force of Negation
 :::
 
 #### Anti-Graveyard
 
 These are cards designed to interact with the graveyard. They tend to remove
 cards from a graveyard, either in a targeted or non-targeted fashion. They
-should be thought of as *Hard* anti-graveyard cards or *Soft* anti-graveyard
-cards. *Hard* hate tends to remove the usage of graveyards entirely whilst
-*soft* temporarily removes either a graveyard or few targeted cards from the
+should be thought of as _Hard_ anti-graveyard cards or _Soft_ anti-graveyard
+cards. _Hard_ hate tends to remove the usage of graveyards entirely whilst
+_soft_ temporarily removes either a graveyard or few targeted cards from the
 graveyard.
 
 If using Leyline of the Void you likely want to run 4, if not then 1-3 slots
@@ -233,11 +233,11 @@ Some key examples of anti-graveyard to consider:
 - :card[Relic of Progrenitus] (soft)
 
 :::row{variant=CENTERED}
-- Leyline of the Void
-- Tormod's Crypt
-- Surgical Extraction
-- Rest in Peace
-- Grafdigger's Cage
+Leyline of the Void
+Tormod's Crypt
+Surgical Extraction
+Rest in Peace
+Grafdigger's Cage
 :::
 
 #### Mana Assets
@@ -258,24 +258,24 @@ Some key examples of mana assets to consider:
 - :card[Cabal Ritual]
 
 :::row{variant=CENTERED}
-- Carpet of Flowers
-- Cavern of Souls
-- Snow-Covered Plains
-- CR
-- Bayou
+Carpet of Flowers
+Cavern of Souls
+Snow-Covered Plains
+CR
+Bayou
 :::
 
 #### Alternate Win Conditions
 
 These are cards that can provide an alternate way to win that supplements the
-primary Doomsday plan or, in the case of a complete *transformative sideboard*
+primary Doomsday plan or, in the case of a complete _transformative sideboard_
 replaces it entirely. Some of the cards have additional utility such as a second
 Thassa's Oracle increasing your blue card count by effectively two (as you can
-now *pitch* either Oracle to a Force effect). This is good vs matchups where you
+now _pitch_ either Oracle to a Force effect). This is good vs matchups where you
 know you want to maximise having free interaction.
 
 There isn't a recommended number to run for this role however if you are doing a
-full *transformational sideboard*, it may take up the majority of your sideboard
+full _transformational sideboard_, it may take up the majority of your sideboard
 so be mindful if choosing this strategy.
 
 Some key examples of alternate win conditions to consider:
@@ -329,7 +329,7 @@ Pierce or Flusterstorm if you have it can also help buy time to allow you to
 combo off. Normally removal is not effective against these strategies.
 
 If you are running Leyline of the Void then either mulliganing aggressively for
-it or for a fast combo is a good idea. If you are on a mix of the *softer*
+it or for a fast combo is a good idea. If you are on a mix of the _softer_
 graveyard permission like Surgical Extraction or Tormod's Crypt then finding a
 hand with one of these and / or some light permission like Daze can be
 effective. Again, trying to achieve a quick win is favoured as often the
@@ -347,11 +347,11 @@ Examples of this archetype include:
 - {U}{B}{R} Phoenix
 
 :::row{variant=CENTERED}
-- Griselbrand
-- Dread Return
-- Ichorid
-- Hogaak, Arisen Necropolis
-- Arclight Phoenix
+Griselbrand
+Dread Return
+Ichorid
+Hogaak, Arisen Necropolis
+Arclight Phoenix
 :::
 
 ### Blue-Based Control
@@ -397,11 +397,11 @@ Examples of this archetype include:
 - Jeskai Mentor
 
 :::row{variant=CENTERED}
-- Counterbalance
-- Standstill
-- Dack Fayden
-- Sylvan Library
-- Endurance
+Counterbalance
+Standstill
+Dack Fayden
+Sylvan Library
+Endurance
 :::
 
 ### Delver Strategies
@@ -418,7 +418,7 @@ assets.
 Delver strategies try to limit your resources so bring cards like Carpet of
 Flowers in means you negate their soft permission and mana denial plan. Some
 pilots like to bring in creature removal for their threats however a lot of the
-time, trying to fight the Delver player *on the ground* results in wasting time
+time, trying to fight the Delver player _on the ground_ results in wasting time
 and playing into their strategy. If on a more control style build you should
 consider slowing down a little to ensure resilience against their disruption and
 take out cards like Lion's Eye Diamond, Lotus Petal, Lim-Dûl's Vault and
@@ -433,7 +433,7 @@ resolve Doomsday and avoid passing the turn. For this latter one, maximising
 free cycle effects and adding in mana efficient interaction like Pact of
 Negation can be important.
 
-If possible you want to avoid keeping a hand that is too *all-in* and preferably
+If possible you want to avoid keeping a hand that is too _all-in_ and preferably
 have multiple mana sources at your disposal as Wasteland and Stifle can both be
 a concern. Aggressively fetching your basic lands is advantageous unless you
 think you have enough resilience to ignore any Wasteland effects. Try not to
@@ -453,11 +453,11 @@ Examples of this archetype include:
 - {U}{B} Shadow
 
 :::row{variant=CENTERED}
-- Delver of Secrets
-- Daze
-- Death's Shadow
-- Glistener Elf
-- Wasteland
+Delver of Secrets
+Daze
+Death's Shadow
+Glistener Elf
+Wasteland
 :::
 
 ### Creature-Based Strategies
@@ -489,11 +489,11 @@ Examples of this archetype include:
 - Maverick
 
 :::row{variant=CENTERED}
-- Aether Vial
-- Green Sun's Zenith
-- Thalia, Guardian of Thraben
-- Goblin Lackey
-- Knight of the Reliquary
+Aether Vial
+Green Sun's Zenith
+Thalia, Guardian of Thraben
+Goblin Lackey
+Knight of the Reliquary
 :::
 
 ### Fast Combo
@@ -503,8 +503,8 @@ preferably in a single turn. They tend to feature similar disruption in order to
 circumnavigate opposing countermagic or interaction. Often they use cards like
 Thoughtseize, Duress, Unmask, Veil of Summer and Defense Grid to try and get
 their combo through. If they are blue based combo then they will rely on
-countermagic, perhaps in conjecture with other tools, in order to *force
-through* the win. Against non-blue based combo you should focus on balancing
+countermagic, perhaps in conjecture with other tools, in order to _force
+through_ the win. Against non-blue based combo you should focus on balancing
 defense with offense. As much interaction as is relevant should be brought in.
 Cards like Flusterstorm, Veil of Summer, Spell Pierce and Mindbreak Trap should
 be brought in.
@@ -522,7 +522,7 @@ You want to keep a hand that is either fast or heavy in disruption. Depending on
 the matchup and speed of the opposing combo you may wish to mulligan
 aggressively for Force of Will when on the draw however this could leave you
 with an unplayable hand so it is more sensible to keep a balanced 7 and accept
-that you might get *Force checked* in the first turn of the game. Many combo
+that you might get _Force checked_ in the first turn of the game. Many combo
 decks aim to reduce your life total to 0 therefore it can be risky progressing a
 pass-the-turn pile as it may give them the opportunity they need however you
 could be under threat of having your combo pieces discarded if you don't take an
@@ -532,7 +532,7 @@ The specific matchup and your hand composition should help inform you of the
 decision to take. Try to balance finding your own plan whilst disrupting theirs
 and again work out the threat assessment of certain cards. Cards like Daze will
 lose value as the match develops so consider using them aggressively unless you
-have a Force of Will to *pitch* them to. It might be better to use your mana to
+have a Force of Will to _pitch_ them to. It might be better to use your mana to
 hold up disruption over using your cantrips to full turn efficiency.
 
 Examples of this archetype include:
@@ -552,11 +552,11 @@ Examples of this archetype include:
 - High Tide
 
 :::row{variant=CENTERED}
-- Tendrils of Agony
-- Goblin Charbelcher
-- Dark Depths
-- Show and Tell
-- High Tide
+Tendrils of Agony
+Goblin Charbelcher
+Dark Depths
+Show and Tell
+High Tide
 :::
 
 ### Stompy Strategies
@@ -590,11 +590,11 @@ Examples of this archetype include:
 - Steel Stompy
 
 :::row{variant=CENTERED}
-- Chalice of the Void
-- Blood Moon
-- Thoughtknot Seer
-- Karn, the Great Creator
-- Cloudpost
+Chalice of the Void
+Blood Moon
+Thoughtknot Seer
+Karn, the Great Creator
+Cloudpost
 :::
 
 ### Hybrid Archetypes
@@ -605,7 +605,7 @@ assess which parts of their strategy you most need to interact with in order to
 facilitate your gameplan or to prevent theirs. At the end of the day this comes
 down with experience and if a tool you have seems to fit against a deck that is
 sligtly spicy or counter-intuitive to what has been written above then do not be
-afraid to *go with your gut*. Just be mindful that you cannot hedge against
+afraid to _go with your gut_. Just be mindful that you cannot hedge against
 everything without severely diluting your primary gameplan. Accepting that
 sometimes you will lose to an oddball card or a very specific silver bullet like
 Ashiok, Nightmare Weaver is fine.
@@ -660,7 +660,7 @@ play a slightly more controlling role.
 Hopefully this guide provides some of the thought processes needed to approach
 matchups. When you get a list that you like and become familiar with I would
 recommend having a go at a sideboard guide writing exercise. Even if you would
-rather try to *netdeck* one for convenience and end up disregarding your own,
+rather try to _netdeck_ one for convenience and end up disregarding your own,
 it's a good way to consider how to approach a matchup and what the relative
 value of the cards in your list, both main and side, have. If you still find you
 struggle with the theory behind a given match-up then please don't be afraid to

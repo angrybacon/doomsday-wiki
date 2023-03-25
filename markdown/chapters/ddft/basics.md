@@ -8,13 +8,12 @@ title: The Basics
 ## Preamble
 
 The goal of all Magic decks is to win the game. Doomsday aims to do so by
-casting its namesake card and constructing a *pile* of 5 cards tailored to the
+casting its namesake card and constructing a _pile_ of 5 cards tailored to the
 current game state. While it would be nigh impossible to enumerate every game
 state and pile variation, we can definitely go over the basics. There are 2
 cards that we will typically be using in conjunction with Doomsday to actually
 bring about our opponent's demise: Tendrils of Agony (usually found via Burning
 Wish), and Thassa's Oracle.
-
 
 ## Basic Doomsday Piles
 
@@ -42,21 +41,21 @@ assume that you have a Ponder in hand and {U} to cast it.
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U} - 7 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- SW
-- BW
+IU
+LED
+LED
+SW
+BW
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast Cantrip from hand, draw IU
-3. Cast IU, draw LED, LED, SW
-4. Cast LED
-5. Cast LED
-6. Activate SW, hold priority crack LEDs for {B}{B}{B}{R}{R}{R}, draw BW
-7. Cast BW for ToA
-8. Cast ToA
+1. Cast Cantrip from hand, draw IU
+1. Cast IU, draw LED, LED, SW
+1. Cast LED
+1. Cast LED
+1. Activate SW, hold priority crack LEDs for {B}{B}{B}{R}{R}{R}, draw BW
+1. Cast BW for ToA
+1. Cast ToA
 
 This pile has cost you {B}{B}{B} + {U}{U}{U} and 2 life and results in 7 Storm,
 that is only 14 lifeloss. Note that the {U}{U} for IU is often paid for by a
@@ -69,19 +68,19 @@ Wraith with a Ponder at the cost of 1 more {U} mana.
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U}
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast Cantrip from hand, draw IU
-3. Cast IU, draw LP, LP, SW
-4. Cycle SW to draw Oracle
-5. Use the Petals to cast Oracle
-6. Oracle triggers with no cards left in your deck for the win
+1. Cast Cantrip from hand, draw IU
+1. Cast IU, draw LP, LP, SW
+1. Cycle SW to draw Oracle
+1. Use the Petals to cast Oracle
+1. Oracle triggers with no cards left in your deck for the win
 
 This pile costs the same as the Tendrils pile, but the storm count doesn't
 matter, which obviously is great when you can't generate enough storm.
@@ -91,19 +90,19 @@ matter, which obviously is great when you can't generate enough storm.
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- LED
-- LED
-- BW
+IC
+LP
+LED
+LED
+BW
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast cantrip, draw IC
-3. Cast IC, draw LP, LED, LED, ToA
-4. Cast LP and the LEDs
-5. Cast BW, holding priority, then crack LEDs for BBBBBB
-6. Retrive ToA from your sideboard and cast it
+1. Cast cantrip, draw IC
+1. Cast IC, draw LP, LED, LED, ToA
+1. Cast LP and the LEDs
+1. Cast BW, holding priority, then crack LEDs for BBBBBB
+1. Retrive ToA from your sideboard and cast it
 
 This pile costs {B}{B}{B} + {1}{U}{B}{B}{B}, requires you have at least 2 life
 post-Doomsday, and results in 8 Storm. Like with Ideas Unbound, the mana cost
@@ -113,17 +112,17 @@ response to the first cantrip.
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}
 
 :::row{variant=PILE}
-- IC
-- LP
-- LP
-- LP
-- TO
+IC
+LP
+LP
+LP
+TO
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast cantrip to draw IC
-3. Use the Petals to cast Thassa's Oracle
-4. Oracle triggers with no cards in library for the win.
+1. Cast cantrip to draw IC
+1. Use the Petals to cast Thassa's Oracle
+1. Oracle triggers with no cards in library for the win.
 
 Oracle piles can be done with Infernal Contract as well, and cost 1 less mana
 than a Storm pile with Contract.
@@ -135,22 +134,22 @@ than a Storm pile with Contract.
 > Pnd, Pnd in hand - {B}{B}{B} + {1}{U}{U} - 9 Storm
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- LED
-- BW
+LED
+IU
+LP
+LED
+BW
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast a Ponder to draw LED
-3. Cast LED
-4. Cast the other Ponder, hold priority crack LED for {U}{U}{U}, draw IU
-5. Cast IU, draw LP, LED, BW
-6. Cast LP
-7. Cast LED, crack LP for {R}
-8. Cast BW, hold priority crack LED for {B}{B}{B}, get ToA
-9. Cast ToA
+1. Cast a Ponder to draw LED
+1. Cast LED
+1. Cast the other Ponder, hold priority crack LED for {U}{U}{U}, draw IU
+1. Cast IU, draw LP, LED, BW
+1. Cast LP
+1. Cast LED, crack LP for {R}
+1. Cast BW, hold priority crack LED for {B}{B}{B}, get ToA
+1. Cast ToA
 
 This pile costs {B}{B}{B} + {1}{U}{U} to execute and results in 9 Storm. We use
 the second cantrip in hand to draw a Lion's Eye Diamond before executing the
@@ -161,20 +160,20 @@ with Doomsday.
 > Pnd, Pnd in hand - {B}{B}{B} + {U}{U}
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- LP
-- TO
+LED
+IU
+LP
+LP
+TO
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast a Ponder to draw LED
-3. Cast LED
-4. Cast the other Ponder, hold priority crack LED for {U}{U}{U}, draw IU
-5. Cast IU, draw LP, LP, TO
-6. Use the Petals to cast Oracle
-7. Oracle triggers with no cards left for the win
+1. Cast a Ponder to draw LED
+1. Cast LED
+1. Cast the other Ponder, hold priority crack LED for {U}{U}{U}, draw IU
+1. Cast IU, draw LP, LP, TO
+1. Use the Petals to cast Oracle
+1. Oracle triggers with no cards left for the win
 
 Double cantrip piles are cheaper and more straightforward with Thassa's Oracle,
 requiring merely the cost of the 2 cantrips post-Doomsday. Note that in each of
@@ -187,21 +186,21 @@ Doomsday, but no additional mana.
 > CB, Pre in hand - {B}{B}{B} + {2}{U} - 10 Storm
 
 :::row{variant=PILE}
-- LED
-- IC
-- LED
-- LP
-- BW
+LED
+IC
+LED
+LP
+BW
 :::
 
 1. Cast Doomsday and build the above pile
-2. Cast Pre, draw LED
-3. Cast CB, cast LED, crack it for {B}{B}{B}
-4. Activate CB targeting LED, draw IC
-5. Cast IC, draw LED, LP, BW, LED
-6. Cast LED, LED, LP
-8. Cast BW, hold priority cracking LEDs for {B}{B}{B}{B}{B}{B}, getting ToA
-9. Cast ToA
+1. Cast Pre, draw LED
+1. Cast CB, cast LED, crack it for {B}{B}{B}
+1. Activate CB targeting LED, draw IC
+1. Cast IC, draw LED, LP, BW, LED
+1. Cast LED, LED, LP
+1. Cast BW, hold priority cracking LEDs for {B}{B}{B}{B}{B}{B}, getting ToA
+1. Cast ToA
 
 Double cantrip piles with Infernal Contract require a Conjurer's Bauble, since
 if you can't put a card back into your deck you'll deck yourself when you try to
@@ -235,10 +234,10 @@ types of disruption.
 ## Conclusion
 
 1. You generally need a card that lets you draw most of your pile
-2. Lethal Storm via Tendrils of Agony and Thassa's Oracle triggers are the most
+1. Lethal Storm via Tendrils of Agony and Thassa's Oracle triggers are the most
    common win conditions for the deck. Each is best applied in different game
    scenarios which you'll learn with time.
-3. Holding priority when cantripping with LED in play is key, make sure to get
+1. Holding priority when cantripping with LED in play is key, make sure to get
    into this habit
 
 ## Get Started

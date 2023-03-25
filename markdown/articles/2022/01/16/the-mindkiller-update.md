@@ -3,11 +3,11 @@ authors: d8dk32
 banner: SotV
 kind: PRIMER
 tags: [LEGACY, DDFT]
-title: "50-Matches Kumite: Mindkiller Kata"
+title: '50-Matches Kumite: Mindkiller Kata'
 ---
 
 I've once again been brewing around [Mindkiller
-Doomsday][articles:the-mindkiller], sometimes known as *All Bad Cards Doomsday*.
+Doomsday][articles:the-mindkiller], sometimes known as _All Bad Cards Doomsday_.
 I'd made some changes since my last update on the deck and it felt quite strong
 in testing, so I felt it was time to write another update.
 
@@ -83,7 +83,7 @@ pile, so it makes sense to think of these decks as a monolith.
 Anyway, here's how it broke out:
 
 | Macro-Archetype      | Match Wins | Match Losses | Winrate |
-|----------------------|------------|--------------|---------|
+| -------------------- | ---------- | ------------ | ------- |
 | Fair Blue            | 9          | 6            | 60.00%  |
 | Permanent-Based Hate | 6          | 2            | 75.00%  |
 | Combo                | 10         | 5            | 66.67%  |
@@ -92,7 +92,7 @@ Anyway, here's how it broke out:
 
 ### Fair Blue - 60%
 
-*Fair blue* includes decks like Delver, the entire spectrum of UWx Piles from
+_Fair blue_ includes decks like Delver, the entire spectrum of UWx Piles from
 Bant to Landstill, and less common foes such as Death's Shadow decks. This
 category seems to be more or less even, perhaps edging towards slightly
 positive. This is perhaps the most suprising and encouraging result in all of
@@ -126,7 +126,7 @@ and we're the cheesiest.
 
 ### Combo - 66%
 
-The *Combo* deck umbrella has a lot of variation, including Storm, Reanimator,
+The _Combo_ deck umbrella has a lot of variation, including Storm, Reanimator,
 Show and Tell, Elves, and Painter (which could arguably fit better in the Other
 category but it is primarily trying to assemble its 2-cards combo), and how good
 the matchup is can vary a lot depending on the deck. Doomsday and Show and Tell
@@ -146,7 +146,7 @@ aspect of playing a high-variance deck with little to no sculpting.
 
 ### Other - 66%
 
-The *Other* category consists of decks that I felt didn't belong anywhere else.
+The _Other_ category consists of decks that I felt didn't belong anywhere else.
 Good examples are Mono-Green Cloudpost, perhaps the only true ramp deck in
 Legacy, and Madness, the format's lone aggro deck. Both of these tend to match
 up poorly against fast combo, and in my experience this is often the case with
@@ -188,13 +188,13 @@ soft counters or make more colored mana. An interesting situation you will
 likely find yourself in is a hand like this:
 
 :::row{variant=HAND}
-- City of Brass
-- Gemstone Mine
-- DR
-- DR
-- Burning Wish
-- LED
-- Thoughtseize
+City of Brass
+Gemstone Mine
+DR
+DR
+Burning Wish
+LED
+Thoughtseize
 :::
 
 Do you Seize on turn 1, or hold it to cast off a ritual on your turn 2 combo
@@ -213,23 +213,23 @@ perfectly with the macro-archetypes.
 #### Out
 
 :::row{variant=HAND}
-- Doomsday
-- Doomsday
-- Doomsday
-- Thassa's Oracle
-- Street Wraith
-- Manamorphose
+Doomsday
+Doomsday
+Doomsday
+Thassa's Oracle
+Street Wraith
+Manamorphose
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Galvanic Relay
-- Galvanic Relay
-- Galvanic Relay
-- Orim's Chant
-- Orim's Chant
-- Orim's Chant
+Galvanic Relay
+Galvanic Relay
+Galvanic Relay
+Orim's Chant
+Orim's Chant
+Orim's Chant
 :::
 
 The Doomsday package is at its weakest in these matchups. You don't have the
@@ -242,17 +242,17 @@ spells to keep the deck threat-dense, and add a bit more protection.
 #### Out
 
 :::row{variant=HAND}
-- Thoughtseize
-- Thoughtseize
-- Thoughtseize
+Thoughtseize
+Thoughtseize
+Thoughtseize
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Orim's Chant
-- Orim's Chant
-- Prismatic Ending
+Orim's Chant
+Orim's Chant
+Prismatic Ending
 :::
 
 Minimal sideboarding. Chants can be used proactively as a pseudo-:card[Time
@@ -266,17 +266,17 @@ based on play vs. draw.
 #### Out
 
 :::row{variant=HAND}
-- Empty the Warrens
-- Empty the Warrens
-- Empty the Warrens
+Empty the Warrens
+Empty the Warrens
+Empty the Warrens
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Orim's Chant
-- Orim's Chant
-- Orim's Chant
+Orim's Chant
+Orim's Chant
+Orim's Chant
 :::
 
 Empty bad. Chant good.
@@ -293,21 +293,21 @@ use this strategy if I trounce someone turn 1 and never see their deck.
 #### Out
 
 :::row{variant=HAND}
-- Doomsday
-- Doomsday
-- Doomsday
-- Thassa's Oracle
-- Street Wraith
+Doomsday
+Doomsday
+Doomsday
+Thassa's Oracle
+Street Wraith
 :::
 
 #### In
 
 :::row{variant=HAND}
-- Prismatic Ending
-- Prismatic Ending
-- Orim's Chant
-- Orim's Chant
-- Orim's Chant
+Prismatic Ending
+Prismatic Ending
+Orim's Chant
+Orim's Chant
+Orim's Chant
 :::
 
 I'm not 100% sure of this sideboarding but I can't think of anything that might

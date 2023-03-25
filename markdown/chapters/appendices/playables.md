@@ -9,7 +9,7 @@ title: The Doomsday Playables
 This is a list of potential Doomsday playables that have been historically tried
 and are considered either off-meta, that is to say playable but maybe only
 useful in specific circumstances or with certain metagame portions in mind or
-are perhaps *too cute* to run and should probably be omitted from a list unless
+are perhaps _too cute_ to run and should probably be omitted from a list unless
 you really wish to play them (because everyone should be having fun with their
 respective lists!). Each card will have a discussion on how much it has been
 tried, its benefits, what it might replace in a common list and any weaknesses
@@ -18,7 +18,7 @@ or considerations it may have associated with it.
 ## Quicken
 
 :::row{variant=CENTERED}
-- Quicken
+Quicken
 :::
 
 Quicken is a cantrip effect that can be used to try and help power out your
@@ -36,12 +36,12 @@ all accounts other than the colour requirement.
 ## Tutors
 
 :::row{variant=CENTERED}
-- Grim Tutor
-- Infernal Tutor
-- Profane Tutor
-- Scheming Symmetry
-- Solve the Equation
-- Wishclaw Talisman
+Grim Tutor
+Infernal Tutor
+Profane Tutor
+Scheming Symmetry
+Solve the Equation
+Wishclaw Talisman
 :::
 
 There are many tutor effects available in Legacy however many are considered to
@@ -77,19 +77,19 @@ speed being lost from its use.
 ## Wishes
 
 :::row{variant=CENTERED}
-- Burning Wish
-- Death Wish
-- Wish
+Burning Wish
+Death Wish
+Wish
 :::
 
 Wishes are often discussed as a way to increase the number of pseudo copies of
 Doomsday within your deck. The most common one discussed is :card[BW] in regards
-to its mana efficiency and ability to also find a number of strong *toolbox*
+to its mana efficiency and ability to also find a number of strong _toolbox_
 spells. However because of the requirement to add in a significant red splash to
 the main deck configuration (given the majority of lists are purely blue-black
 without sideboarding) many people look to :card[Death Wish] as a possible
-alternative. Unfortunately none of the current *wish* effects are as efficient
-as the *tutor* equivalents :card[PT] and :card[LDV] in terms of mana cost and
+alternative. Unfortunately none of the current _wish_ effects are as efficient
+as the _tutor_ equivalents :card[PT] and :card[LDV] in terms of mana cost and
 flexibility.
 
 They also generally promote a slower style of play which would tend to omit
@@ -100,8 +100,8 @@ deck but are not recommended.
 ## Striges
 
 :::row{variant=CENTERED}
-- Baleful Strix
-- Ice-Fang Coatl
+Baleful Strix
+Ice-Fang Coatl
 :::
 
 Baleful Strix is a great card that can sometimes feel a bit off in a combo
@@ -116,7 +116,7 @@ creature-centric build.
 ## Unearth
 
 :::row{variant=CENTERED}
-- Unearth
+Unearth
 :::
 
 Unearth was very popular as the current style of the deck was explored. It
@@ -131,12 +131,12 @@ Oracle in piles.
 ## Creatures
 
 :::row{variant=CENTERED}
-- Dragon's Rage Channeler
-- Uro, Titan of Nature's Wrath
-- Monastery Mentor
-- Sedgemoor Witch
-- Murktide Regent
-- Triumph of Saint Katherine
+Dragon's Rage Channeler
+Uro, Titan of Nature's Wrath
+Monastery Mentor
+Sedgemoor Witch
+Murktide Regent
+Triumph of Saint Katherine
 :::
 
 There are a lot of creatures which could be added to the list above but these
@@ -157,23 +157,23 @@ be an over-reliance on transforming and a lack of trust or extreme dilution of
 the primary plan.
 
 There are ways you can focus more on the creature plan with the early 2022
-dubbing of *Tempo Doomsday* lists but be warned it will skew certain matchups
+dubbing of _Tempo Doomsday_ lists but be warned it will skew certain matchups
 out of favour and sometimes result in very clunky hands or gameplans with the
 wrong parts of both sides being found.
 
 ## Multi-Draw Spells
 
 :::row{variant=CENTERED}
-- Predict
-- Night's Whisper
-- DA
-- Reckless Impulse
+Predict
+Night's Whisper
+DA
+Reckless Impulse
 :::
 
-Traditionally :card[Ideas Unbound] is the *multi-draw* tool that is used to try
+Traditionally :card[Ideas Unbound] is the _multi-draw_ tool that is used to try
 and dig multiple cards into a pile whilst enabling added protection in your
 hands or the greatest resource efficiency. Outside of the combo however, the
-card is somewhat lackluster and thus many look towards arguably *better* cards
+card is somewhat lackluster and thus many look towards arguably _better_ cards
 in a vacuum to take the slot.
 
 :card[Predict] is the most popular of these and has been shown to be perfectly
@@ -196,9 +196,9 @@ normally gets paired alongside Ideas Unbound rather than replacing it.
 ## Mill Cantrips
 
 :::row{variant=CENTERED}
-- Mental Note
-- Thought Scour
-- Consider
+Mental Note
+Thought Scour
+Consider
 :::
 
 Before :card[Consider] arrived on the scene, these were two options for being
@@ -207,8 +207,8 @@ benefits similar to Consider such as being instant speed and thus allowing to
 dig three through :card[Narset, Parter of Veils] or :card[Spirit of the
 Labyrinth] however only allowing one card to be drawn means you have to have a
 good payoff to get to (something like :card[Unearth] for example having milled
-an Oracle) and unlike *Surveil*, (which Consider basically has) there is no
-*may* clause for the mill so if you get hit by a Surgical Extraction for example
+an Oracle) and unlike _Surveil_, (which Consider basically has) there is no
+_may_ clause for the mill so if you get hit by a Surgical Extraction for example
 you could have your day ruined quite considerably. You also cannot use these
 cleanly in the same Brainstorm piles you can use Consider in because they need
 to have the single mill clause only to be effective. The cards are fine but
@@ -217,14 +217,14 @@ honestly Consider is just better.
 ## Echo of Eons
 
 :::row{variant=CENTERED}
-- Echo of Eons
+Echo of Eons
 :::
 
-Echo of Eons is one of the various *draw 7* effects that have existed in Magic
+Echo of Eons is one of the various _draw 7_ effects that have existed in Magic
 and one of the few that are legal in Legacy. It can be a very powerful tool
 allowing for some unique pile construction that plays well around Endurance or
 makes good use of Lion's Eye Diamond. If you run a list with an excess of Ritual
-effects you can ply extra {B} into the *Flashback* cost for Echo and cards like
+effects you can ply extra {B} into the _Flashback_ cost for Echo and cards like
 Predict or Consider allow you to easily place it into the graveyard.
 
 You have to be wary though as you can deck yourself with the card if you
@@ -236,8 +236,8 @@ does the same thing" category of cards.
 ## Disruption and Removal
 
 :::row{variant=CENTERED}
-- Drown in the Loch
-- Collective Brutality
+Drown in the Loch
+Collective Brutality
 :::
 
 These cards can be very powerful allowing for a nice mix of flexibility and
@@ -248,14 +248,14 @@ you are playing a slower, more controlling variant then they might have space as
 a one-of but I would not recommended running them.
 
 The other issue is that trading cards for creatures is often not a good deal for
-Doomsday. For hate pieces, or a *Marit Lage*, one of the more common bounce
+Doomsday. For hate pieces, or a _Marit Lage_, one of the more common bounce
 spells is usually enough.
 
 ## Alternative Discard
 
 :::row{variant=CENTERED}
-- Inquisition of Kozilek
-- Cabal Therapy
+Inquisition of Kozilek
+Cabal Therapy
 :::
 
 :card[Inquisition of Kozilek] is an interesting card in Legacy. It hits 90% of all
@@ -271,7 +271,7 @@ punch. These days with so many decks running such a mix of potential
 interaction, and without the help of :card[Gitaxian Probe] or sacrificial
 creatures to abuse the Flashback with, it is more than likely this card will now
 read "look at target opponent's hand and feel remorse over the good ol' days as
-your name of *Force of Will* sees *Pyroblast*, *Dress Down* and *Force of
-Negation*". It can be a useful tool in niche situations involving sacrificing
+your name of _Force of Will_ sees _Pyroblast_, _Dress Down_ and _Force of
+Negation_". It can be a useful tool in niche situations involving sacrificing
 your own Oracle but unless you are running things like Baleful Strix to truly
 squeeze value from it, it just cannot compete these days.

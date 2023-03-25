@@ -21,7 +21,7 @@ things. I did try running an older style Rev 614 list (Doomsday x Show and Tell
 featuring Emrakul and Shelldock Isle) going 3-3 in an event which had one of the
 best games of magic I have ever played in.
 
-## Bonus Mini Report!
+## Bonus Mini Report
 
 I am against UB Shadow, Game 1. We both know what each other are on. He has a
 threat-light hand with disruption and burns himself down to 13 stripping my
@@ -34,8 +34,8 @@ not flip (there is a long running joke that his Delvers never flip). Through his
 digging he looks for and finds 3 Delver of Secrets but lo' none of them flip and
 he dies to a 1/1 Faerie Cloud... Wow.
 
-For anyone mad enough to try the very untuned and fun list I dub it *Spaghetti
-and Meatballs*.
+For anyone mad enough to try the very untuned and fun list I dub it _Spaghetti
+and Meatballs_.
 
 ::decklist{path=2019/03/spaghetti}
 
@@ -47,20 +47,20 @@ using the card and then suddenly...
 
 Reversemermaid on 01/26/2019:
 
-> *It should probably have a maindeck ToA and a draw 4 to make non-frenzy piles
+> It should probably have a maindeck ToA and a draw 4 to make non-frenzy piles
 > more viable anyhow with frenzy in play the easiest pile is so darn stupid lol,
-> \[LED, LED, LED, LED, BW\] makes enough mana to BW for ToA and sac Frenzy*
+> \[LED, LED, LED, LED, BW\] makes enough mana to BW for ToA and sac Frenzy
 >
-> *waiiiiiiiit damn lol these piles have trouble generating enough storm lol
-> just did that pile and storm count was like 7 man im doing some embarassing
-> misplays with this*
+> waiiiiiiiit damn lol these piles have trouble generating enough storm lol just
+> did that pile and storm count was like 7 man im doing some embarassing
+> misplays with this
 >
-> *shieet you can pull double doomsday piles out of your ass to generate storm
-> with frenzy this is so cool*
+> shieet you can pull double doomsday piles out of your ass to generate storm
+> with frenzy this is so cool
 >
-> *at 4 mana sources you can ptt pile with \[EF, LED, LED, DD, ToA\] Throw
+> at 4 mana sources you can ptt pile with \[EF, LED, LED, DD, ToA\] Throw
 > Healing Salve in the 75 and you can actually go infinite lol Wait ToA gains
-> life so \[LED, LED, LED, ToA, DD\] is infinite*
+> life so \[LED, LED, LED, ToA, DD\] is infinite
 
 Did this guy just say infinite storm with Frenzy out? Suddenly, people were
 interested. Myself included!
@@ -68,12 +68,12 @@ interested. Myself included!
 Looking into the card and decklist more there were some key things identified.
 
 1. Frenzy plus Doomsday is an instant win.
-2. Frenzy plus Doomsday is infinite Storm instant win.
-3. Frenzy plus Doomsday assuming you have B post DD is an instant win even with
+1. Frenzy plus Doomsday is infinite Storm instant win.
+1. Frenzy plus Doomsday assuming you have B post DD is an instant win even with
    Surgical on LED
-4. You can even sub out Tendrils for Collective Brutality and it would still
+1. You can even sub out Tendrils for Collective Brutality and it would still
    work
-5. Frenzy is a weird card
+1. Frenzy is a weird card
 
 Deep diving into point five further. With Frenzy out suddenly deck construction
 considerations and card sequencing become very different. LED becomes literal
@@ -81,31 +81,31 @@ Lotus. Lands become huge liabilities and Cantrips reverse themselves. Take
 Preordain for instance. Normally if you see two bad cards you bottom both and
 draw a fresh one. With frenzy out you should instead bottom one, draw one and
 then have the fresh one on the top of your library. Things like Fetches and
-:card[Conjurer's Bauble] can now help clear *dud* cards off the top of the
+:card[Conjurer's Bauble] can now help clear _dud_ cards off the top of the
 library and your hand becomes a weird part graveyard part Brainstorm access pool
-resource. Ponder becomes interesting as you can clear a dead card by *drawing*
+resource. Ponder becomes interesting as you can clear a dead card by _drawing_
 it and then keep two desirables but all this means thinking in a way very unlike
 how you would normally.
 
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
 :::row{variant=PILE}
-- LED | MIR
-- LED
-- LED
-- ToA
-- DD
+LED | MIR
+LED
+LED
+ToA
+DD
 :::
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
 
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
-2. Cast LED, from the top of your deck, crack for {B}{B}{B}
-3. Cast LED, from the top of your deck, crack for {B}{B}{B}
-4. Cast Tendrils from the top of your deck for 5 storm and have {B}{B}{B}{B}{B}
+1. Cast LED, from the top of your deck, crack for {B}{B}{B}
+1. Cast LED, from the top of your deck, crack for {B}{B}{B}
+1. Cast Tendrils from the top of your deck for 5 storm and have {B}{B}{B}{B}{B}
    left in pool
-5. Cast Doomsday stack \[LED, LED, LED, ToA, DD\]
-6. Repeat as required
+1. Cast Doomsday stack \[LED, LED, LED, ToA, DD\]
+1. Repeat as required
 
 The nice thing is the repeat stacks can use the Doomsday in the yard to form the
 new piles. The life gain from Tendrils helps mitigate the lifeloss from Doomsday
@@ -117,19 +117,19 @@ Hell, you could even consider running :card[Aetherflux Reservoir]!
 As per the example above:
 
 :::row{variant=PILE}
-- LED
-- LED
-- LED
-- Aetherflux Reservoir
-- DD
+LED
+LED
+LED
+Aetherflux Reservoir
+DD
 :::
 
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
-2. Cast LED, from the top of your deck, crack for {B}{B}{B}
-3. Cast LED, from the top of your deck, crack for {B}{B}{B}
-4. Cast AR from the top of your deck for {B}{B}{B}{B}{B} left in pool
-5. Cast Doomsday, gaining 6 life stack \[LED, LED, LED, DD, ?\]
-6. Repeat as required
+1. Cast LED, from the top of your deck, crack for {B}{B}{B}
+1. Cast LED, from the top of your deck, crack for {B}{B}{B}
+1. Cast AR from the top of your deck for {B}{B}{B}{B}{B} left in pool
+1. Cast Doomsday, gaining 6 life stack \[LED, LED, LED, DD, ?\]
+1. Repeat as required
 
 Eventually the life gain will ramp up so that you go about 50 life and you can
 dome your opponent as required! This is of course just an amusing idea and in no
@@ -145,18 +145,18 @@ Some tricks remain from pre-ban era. Conjurer's Bauble remains at least a one-of
 alongside Act on Impulse to enable an easy non-Frenzy pile.
 
 :::row{variant=PILE}
-- AoI
-- LED
-- ToA
-- Pnd
-- CB
+AoI
+LED
+ToA
+Pnd
+CB
 :::
 
 Some other cards come in to help with combo and consistency. Lim Dul's Vault is
 a classic UB card that has been used as a Vampiric Tutor for a while and is
 often dismissed due to the card disadvantage it provides. However consider with
 Frenzy out. Suddenly you get to either tutor what you need to play immediately
-or even create a *Frenzy Stack* to chain off the top of your deck.
+or even create a _Frenzy Stack_ to chain off the top of your deck.
 
 Lands wise, you want as low a count as possible to avoid hitting them with
 Frenzy however you still need enough to cast your cards. 14-15 seem to be the
@@ -208,7 +208,7 @@ spreadsheet. At the time of writing we now have 164 matches recorded as a
 community with the following statistical breakdown:
 
 | Match Win % | Average Combo Turn | Average Mulligan |
-| :---------: | :----------------: | :--------------: |
+| ----------- | ------------------ | ---------------- |
 | 68.29%      | 3.51               | 6.75             |
 
 Even for a skeptic like myself, this seems pretty good already. The data
@@ -218,13 +218,13 @@ it what you will.
 
 ## Final Thoughts
 
-> *What will be will be*  
-> *Every river flows into the sea, but it's never enough*  
-> *And when the night gives way*  
-> *It's like a brand new Doomsday*
+> What will be will be  
+> Every river flows into the sea, but it's never enough  
+> And when the night gives way  
+> It's like a brand new Doomsday
 
-*Lyrics from the song "Doomsday" by Architects from the Album "Holy Hell" (2017)
-on Epitaph Records*
+_Lyrics from the song "Doomsday" by Architects from the Album "Holy Hell" (2017)
+on Epitaph Records_
 
 So welcome to a potential new world of degenerate combo. It might not be lean.
 It might not be pretty. It might not even be good. But whilst the Experimental

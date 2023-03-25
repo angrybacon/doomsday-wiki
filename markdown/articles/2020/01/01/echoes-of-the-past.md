@@ -3,7 +3,7 @@ authors: d8dk32
 banner: EoE
 kind: PRIMER
 tags: [LEGACY, DDFT]
-title: "Echoes of the Past: A Doomsday Deck for the Roaring Twenties"
+title: 'Echoes of the Past: A Doomsday Deck for the Roaring Twenties'
 ---
 
 2019 was a good year for Doomsday. Experimental Frenzy was integral to a massive
@@ -94,7 +94,8 @@ least 1 Echo. Crack those 2 LEDs for {U}{U}{U}{R}{R}{R}, then flashback Echo.
 This time there will be 7 cards leftover, so you're guaranteed to draw them all.
 Cast your LEDs, then Wish for ToA.
 
-**Hand:** Dark Ritual, Doomsday, Doomdsay, Brainstorm, Thoughtseize, Veil of Summer  
+**Hand:** Dark Ritual, Doomsday, Doomdsay, Brainstorm, Thoughtseize, Veil of
+Summer  
 **Board:** Swamp, Island  
 This pile will require a little bit of luck. Ritual into Doomsday and construct
 the following pile: \[LED, LED, Echo, LED, Burning Wish\]. Cast Brainstorm to

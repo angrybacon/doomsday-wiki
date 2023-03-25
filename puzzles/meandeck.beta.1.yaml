@@ -1,8 +1,8 @@
-title: "Meandeck vs Eldrazi"
+title: 'Meandeck vs Eldrazi'
 authors:
   - Hulahula
   - Doishy
-deckFile: "2020/02/meandeck.ubg.txt"
+deckFile: '2020/02/meandeck.ubg.txt'
 oppHand: null
 oppBoard:
   - Leyline of the Void

@@ -1,10 +1,12 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Maindeck
 
 :::row{variant=CENTERED}
-- Orim's Chant
-- Silence
-- Veil of Summer
-- Echo of Eons
+Orim's Chant
+Silence
+Veil of Summer
+Echo of Eons
 :::
 
 ###### Sideboard

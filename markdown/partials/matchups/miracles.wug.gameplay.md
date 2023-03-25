@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 One layer of protection is usually enough to resolve a Doomday in game 1 but in

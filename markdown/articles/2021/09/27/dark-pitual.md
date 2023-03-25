@@ -3,7 +3,7 @@ authors: Doishy
 banner: Consider
 kind: REPORT
 tags: [LEGACY, MEANDECK]
-title: "Doomsday at the Legacy Pit Open: An Interview with Romariovidal"
+title: 'Doomsday at the Legacy Pit Open: An Interview with Romariovidal'
 ---
 
 ## Table of Contents
@@ -60,7 +60,7 @@ for being willing to take the time to provide those reports. There were also
 some other great results from other players but they were not able to find the
 time to submit anything.
 
-### Romario *Romariovidal* Neto - 25th Place (7-2)
+### Romario _Romariovidal_ Neto - 25th Place (7-2)
 
 [Romario's Twitter](https://twitter.com/romarioneto3)  
 [Romario's Twitch](https://www.twitch.tv/romariovidal)
@@ -77,9 +77,9 @@ time to submit anything.
 > of choice: Doomsday. I didn’t really do any extensive testing or preparation
 > for the event due to some family schedule changes and some other personal
 > businesses, but I was did play a good number of leagues and tried a few
-> different deck configurations. Eventually I settled on the *Kai Sawatari**
-> Doomsday list, it’s the list most similar to the lists I was familiar and have
-> had some previous good results.
+> different deck configurations. Eventually I settled on Kai Sawatari's Doomsday
+> list, it’s the list most similar to the lists I was familiar and have had some
+> previous good results.
 >
 > So onto the event, we were required to submit decklists and register ahead of
 > time since there wouldn’t be any in-person registration, with that being said
@@ -137,10 +137,10 @@ Creator], I let it resolve even though I had :card[Force of Negation],
 :card[Lion's Eye Diamond]. I countered and won on the following turn.
 
 :::row{variant=CENTERED}
-- Urza, Lord High Artificer
+Urza, Lord High Artificer
 :::
 
-#### Round 4 vs Tony *Into_Play* Murata on Mono Green Cloudpost. Win (2-0)
+#### Round 4 vs Tony _Into_Play_ Murata on Mono Green Cloudpost. Win (2-0)
 
 This round I played against the great and powerful Tony Murata aka into_play on
 mtgo, well known caster of :card[Primeval Titan]s.
@@ -160,7 +160,7 @@ Rotation] when Emrakul resolves, I countered and he conceded. The idea here was
 to have a second :card[Doomsday] to refill my deck in case I needed to attack
 twice with Emrakul.
 
-#### Round 5 vs Bob *Griselpuff* Huang on Urza Affinity. Loss (1-2)
+#### Round 5 vs Bob _Griselpuff_ Huang on Urza Affinity. Loss (1-2)
 
 Played against legacy master Bob Huang, earlier in the day I asked if he was on
 Delver he told me Affinity. Honestly I thought was trolling me for a second, it
@@ -178,10 +178,10 @@ of the MUs I hadn't played any matches against it, I didn't really approach the
 games correctly.
 
 :::row{variant=CENTERED}
-- Thought Monitor
+Thought Monitor
 :::
 
-#### Round 6 vs Matthew *TheHackbert* Hackbert on Cephalid Breakfast. Win (2-0)
+#### Round 6 vs Matthew _TheHackbert_ Hackbert on Cephalid Breakfast. Win (2-0)
 
 Played against another great player from Arizona, the awesome Matt Hackbert.
 
@@ -241,7 +241,7 @@ also meant I was guaranteed to get my entry fee money back and now I was going
 to play for some extra $45.
 
 :::row{variant=CENTERED}
-- Dragon's Rage Channeler
+Dragon's Rage Channeler
 :::
 
 #### Round 9 vs Michael Mapson on WG Depths. Win (2-0)
@@ -276,7 +276,7 @@ Ended 7-2 in the event, really enjoyed my matches, all my opponents were really
 nice to interact and were very pleasant, can't wait for big events to become a
 normal thing again in the future when things are safer.
 
-### Nathan *VendillionMisclique* Anderson Stahl - 27th Place (7-2)
+### Nathan _VendillionMisclique_ Anderson Stahl - 27th Place (7-2)
 
 ::decklist{path=2021/09/27/meandeck.vendillionmisclique}
 
@@ -322,7 +322,7 @@ able to outdraw them from there and easily win.
 G2 They mulled into oblivion.
 
 :::row{variant=CENTERED}
-- Entomb|ODY
+Entomb|ODY
 :::
 
 #### Round 4 vs Jacob Saracino on UR Delver. Win (2-1)
@@ -375,7 +375,7 @@ lost to :card[Endurance] when I could easily have put them on 0 outs with an
 :card[Ideas Unbound] that drew in to :card[Pact of Negation].
 
 :::row{variant=CENTERED}
-- StP
+StP
 :::
 
 #### Round 7 vs Mark Kelley on Bant Control. Win (2-1)
@@ -401,11 +401,11 @@ following pile to beat :card[Wasteland] + :card[Thalia, Guardian of Thraben]
 over two turns.
 
 :::row{variant=PILE}
-- LED
-- SW
-- EoA
-- TO
-- Volcanic Island|LEB
+LED
+SW
+EoA
+TO
+Volcanic Island|LEB
 :::
 
 They knew they couldn't win and so just chose to not reveal what deck they were
@@ -417,7 +417,7 @@ draw spells were cyclers. The :card[Preordain] let me dig to a :card[Brainstorm]
 that ended the game.
 
 :::row{variant=CENTERED}
-- Nettle Sentinel|EVE
+Nettle Sentinel|EVE
 :::
 
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1)
@@ -434,7 +434,7 @@ G3 Went to 5 for a hand of :card[Ponder], :card[Force of Negation], land,
 :card[Faithless Looting] that I Forced. Draw land for turn and resolved
 :card[Doomsday] for an easy turn 2 win.
 
-### Nicholas *germancouch* French-Seats - 59th Place (6-3)
+### Nicholas _germancouch_ French-Seats - 59th Place (6-3)
 
 ::decklist{path=2021/09/27/meandeck.germancouch}
 
@@ -471,7 +471,7 @@ of a ptt pile. It ended up being the case that he didn't have anything but that
 could have been a nutty bluff too.
 
 :::row{variant=CENTERED}
-- Delver of Secrets
+Delver of Secrets
 :::
 
 #### Round 4 vs Michael Morris on WR Painter. Win (2-0)
@@ -515,7 +515,7 @@ the Emrakul stranded in my hand while he beat down with his :card[Collector
 Ouphe].
 
 :::row{variant=CENTERED}
-- Uro, Titan of Nature's Wrath
+Uro, Titan of Nature's Wrath
 :::
 
 #### Round 7 vs Michael Horn on UR Delver. Loss (0-2)
@@ -547,7 +547,7 @@ everything and can keep jamming threats+lock pieces to run you out of resources.
 They had :card[Jeska's Will] in the list though which I thought was cool.
 
 :::row{variant=CENTERED}
-- Blood Moon
+Blood Moon
 :::
 
 #### Round 9 vs Landon Handerson on Elves. Win (2-1)
@@ -605,7 +605,7 @@ Sideboard:
 - Adding another :card[Pact of Negation] and a :card[Spell Pierce] into the
   remaining open slots.
 
-### Dave *Ruta Barracuda* Boruta - 106th Place (5-4)
+### Dave _Ruta Barracuda_ Boruta - 106th Place (5-4)
 
 [Dave's Twitter](https://twitter.com/rutabarracuda)
 
@@ -666,11 +666,11 @@ Ragavan on board while losing to :card[Force of Will] #2 + blue card (which I
 felt wasn't likely):
 
 :::row{variant=PILE}
-- SW
-- Volcanic Island|LEB
-- SW
-- EoA
-- TO
+SW
+Volcanic Island|LEB
+SW
+EoA
+TO
 :::
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Abrade], 2
@@ -688,11 +688,11 @@ Game 3, I got lucky on a mull to 4 that had a turn 1 :card[Doomsday] with
 :card[Wasteland].
 
 :::row{variant=PILE}
-- CoS
-- SW
-- EoA
-- SW
-- TO
+CoS
+SW
+EoA
+SW
+TO
 :::
 
 I was able to fade Wasteland and got there.
@@ -706,11 +706,11 @@ Doomsday. A pile of LED, IU, :card[Lotus Petal], :card[Pact of Negation],
 :card[Thassa's Oracle] enabled the same turn win with 2 cyclers in hand.
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- PoN
-- TO
+LED
+IU
+LP
+PoN
+TO
 :::
 
 **In:** :card[Echoing Truth], 2 :card[Abrade]  
@@ -730,7 +730,7 @@ land on top. On my turn, I drew the 2nd cycler and won using the same pile as
 game 1.
 
 :::row{variant=CENTERED}
-- Dark Depths|CSP
+Dark Depths|CSP
 :::
 
 #### Round 3 vs Anthony Arevalo on Jeskai Sagavan. Loss (1-2)
@@ -752,7 +752,7 @@ win with a pass-the-turn pile using :card[Ideas Unbound].
 I remember Game 2 being a slog, with us again trading :card[Stifle]s on
 fetches/:card[Wasteland], my having to deal with an initial Ragavan with
 :card[Abrade] out of the sideboard. This was followed up by Anthony with a
-second continuously *dashed* Ragavan that I was unable to deal with. I made a
+second continuously _dashed_ Ragavan that I was unable to deal with. I made a
 critical mistake with my cantrip decisions at this point that cost me the game,
 as I piled my :card[Ponder]s incorrectly twice – the first, giving away a land I
 actually would have needed, and the second giving up a :card[Daze] that I
@@ -834,11 +834,11 @@ pass-the-turn pile I could while holding up :card[Force of Will] on Bryant's
 turn.
 
 :::row{variant=PILE}
-- IU
-- EoA
-- Underground Sea|LEB
-- TO
-- Island|RAV
+IU
+EoA
+Underground Sea|LEB
+TO
+Island|RAV
 :::
 
 What I should have thought more carefully about was the possibility of Bryant
@@ -863,7 +863,7 @@ tough choice, either way, but I think in the end that Romario was right and I
 should have waited to cast Doomsday.
 
 :::row{variant=CENTERED}
-- Wishclaw Talisman
+Wishclaw Talisman
 :::
 
 #### Round 5 vs Kyle Souza on UR Delver. Loss (1-2)
@@ -890,11 +890,11 @@ cracked it for :card[Underground Sea], cast :card[Dark Ritual] into
 :card[Doomsday], and passed with the following pile:
 
 :::row{variant=PILE}
-- IU
-- EoA
-- LP
-- TO
-- CoS
+IU
+EoA
+LP
+TO
+CoS
 :::
 
 Kyle untapped, played another fetchland, cast :card[Ponder], and passed. I cast
@@ -909,11 +909,11 @@ into :card[Delver of Secrets]. On my turn, I cracked the fetch for
 pile to beat :card[Wasteland] but would require fading 2 turns:
 
 :::row{variant=PILE}
-- Polluted Delta|ONS
-- EoA
-- TO
-- CoS
-- Volcanic Island|LEB
+Polluted Delta|ONS
+EoA
+TO
+CoS
+Volcanic Island|LEB
 :::
 
 Unfortunately, that didn't matter – Kyle revealed :card[Brainstorm] to flip
@@ -947,11 +947,11 @@ I cast :card[Dark Ritual] into :card[Doomsday] off the fetched :card[Underground
 Sea] and built the below pile.
 
 :::row{variant=PILE}
-- IU
-- Stifle
-- LP
-- EoA
-- TO
+IU
+Stifle
+LP
+EoA
+TO
 :::
 
 I ended up not needing the :card[Stifle], since my opponent couldn't find a
@@ -997,11 +997,11 @@ so I decided to go with the below pile to hold up :card[Force of Will] on
 :card[Endurance] (which he didn't have in hand) to win.
 
 :::row{variant=PILE}
-- Pnd
-- IU
-- Underground Sea|LEB
-- LP
-- TO
+Pnd
+IU
+Underground Sea|LEB
+LP
+TO
 :::
 
 #### Round 8 vs Juanmanuel Angulo on Ninjas. Win (2-1)
@@ -1035,7 +1035,7 @@ third land for Doomsday, had Cavern in hand, and made a cycler pile that won me
 the match the following turn.
 
 :::row{variant=CENTERED}
-- Changeling Outcast
+Changeling Outcast
 :::
 
 #### Round 9 vs Daniel McCaulley on Urza Echo ft. Painter Transformation. Loss (1-2)
@@ -1122,11 +1122,11 @@ X piles to now go down to 0 cards left in deck.
 > {U} + Brainstorm + Street Wraith + X
 
 :::row{variant=PILE}
-- LP
-- LED
-- EoA
-- Consider
-- TO
+LP
+LED
+EoA
+Consider
+TO
 :::
 
 1. Cycle SW, draw the LP and cast it
@@ -1142,11 +1142,11 @@ hand you can build the following:
 > {U} + Consider
 
 :::row{variant=PILE}
-- DA
-- LED
-- SW
-- LP
-- TO
+DA
+LED
+SW
+LP
+TO
 :::
 
 1. Cast Consider, surveil the DA and draw LED.

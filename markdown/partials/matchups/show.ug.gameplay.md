@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 OmniTell is a lot slower than its sister Sneak and Show, since it plays only

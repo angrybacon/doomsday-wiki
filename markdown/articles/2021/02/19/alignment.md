@@ -3,7 +3,7 @@ authors: Doishy
 banner: IU
 kind: ARTICLE
 tags: [LEGACY, MEANDECK]
-title: "The Doomsday Alignment Chart: Different Styles of Deckbuilding"
+title: 'The Doomsday Alignment Chart: Different Styles of Deckbuilding'
 ---
 
 > Preface: This article was in fact written before the banning of Arcum's
@@ -56,7 +56,7 @@ of Doomsday since around March/April 2020. He was one of the ones who truly
 pushed the wider usage of Daze forwards and has tried a number of iterations of
 the deck. Between Jax and skilled player kl0gw (who seems to be a 5-0 machine)
 they developed what is being colloquially called "Turbo Doomsday". Whilst the
-previous baseline ran on average 2-3 Lotus Petals and maybe 1-2 *bad* tutors
+previous baseline ran on average 2-3 Lotus Petals and maybe 1-2 _bad_ tutors
 such as Personal Tutor or Lim-Dul's Vault to increase support on finding
 Doomsday, it mostly relied on a heavy cantrip shell and had a decent balance on
 being able to combo fast but not get stuck in the late game.
@@ -64,12 +64,12 @@ being able to combo fast but not get stuck in the late game.
 Turbo Doomsday aims to be finding and casting Doomsday as soon as it can. This
 means it maxes out on Lotus Petals to enable achieving {B}{B}{B} as quickly as
 possible and replaces the use of Preordain with a full playset of Personal
-Tutor. It also runs 4-5 *free cycle* effects in a 1:3 / 1:4 split of Edge of
+Tutor. It also runs 4-5 _free cycle_ effects in a 1:3 / 1:4 split of Edge of
 Autumn to Street Wraith. This helps cycle through the deck quicker and access
 the card found with Personal Tutor faster. It also allows a slight reduction in
 the land count for the deck running around 16 lands over the "normal" 17.
 
-The advantage of this is you are able to *go under* a lot of decks like Delver
+The advantage of this is you are able to _go under_ a lot of decks like Delver
 before their disruption becomes available and with the hard bit of resolving
 Doomsday being completed quicker, the pressure on them to find a way to answer
 Cavern + Oracle is all the heavier. Conversely though you lose some of the long
@@ -146,7 +146,7 @@ variant attempted soon? It is possible to run a grindier control variant without
 Astrolabe using a higher basics count and moving away from cards like Daze but
 it will slightly less resiliency or ability to splash as many colours.
 
-Here are two *(pre-ban)* example lists from a recent 15th place challenge finish
+Here are two _(pre-ban)_ example lists from a recent 15th place challenge finish
 by Marcus Ewaldh and another from a recent mtgo league trophy by Nevilshute:
 
 ::decklist{path=2021/02/19/meandeck.ubr.iwouldliketorespond}
@@ -234,11 +234,11 @@ basics to replace an Underground Sea. You would also be more inclined to include
 the {B}x fetch over the 4th {U}x one to find that basic (but make sure to not
 get tempted by Prismatic Vista!).
 
-*Now that Astrolabe is gone it's going to be a bit harder to run a budget style
+_Now that Astrolabe is gone it's going to be a bit harder to run a budget style
 list for 3 colours but it is still doable. You will likely want at least 2
 Underground Seas and to run probably 2 Island and 2 Swamp along with maybe 1
 splash basic. You will also most likely need to run at least one {U}x splash
-dual if possible.*
+dual if possible._
 
 Sideboard wise having a splash colour really improves your toolbox options with
 additional cards not yet mentioned like Xantid Swarm, Carpet of Flowers, Abrade
@@ -297,8 +297,8 @@ the right mana, which can hinder obtaining {B}{B}{B}, or increasing a reliance
 on your Lotus Petals to help fix your colours if not on Astrolabe. I would
 recommend sticking with at least 3 Petal if considering 4 colours.
 
-Here are three example lists from recent mtgo league trophies by *Sawatarix*,
-*BCS8995* and *Doishy* respectively:
+Here are three example lists from recent mtgo league trophies by _Sawatarix_,
+_BCS8995_ and _Doishy_ respectively:
 
 ::decklist{path=2021/02/19/meandeck.ubrg.sawatarix}
 
@@ -306,7 +306,7 @@ Here are three example lists from recent mtgo league trophies by *Sawatarix*,
 
 ::decklist{path=2021/02/19/meandeck.ubrg.doishy}
 
-Post-ban both Martin *nevilshute* Nielsen and Kai *Sawatarix* Sawatari have been
+Post-ban both Martin _nevilshute_ Nielsen and Kai _Sawatarix_ Sawatari have been
 on a good run with a 4 colours (no {w}) list featuring Daze, Uro, Strix, 2
 Petals and sideboarding Red Blast effects. Having had the opportunity to watch
 it first hand vs. a lot of decks with mana punishment, it looked very solid. If

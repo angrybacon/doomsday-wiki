@@ -1,6 +1,8 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
-Historically, blue *tempo* archetypes have always been the hardest to fight
+Historically, blue _tempo_ archetypes have always been the hardest to fight
 against. Playing a longer game against a deck with strong pressure and heavy
 protection is also challenging and resolving a Doomsday before they establish
 both a clock and amass permission is key.

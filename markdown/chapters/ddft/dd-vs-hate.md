@@ -46,11 +46,11 @@ pass-the-turn pile like this:
 > Ponder in hand - {U}{U}{U}{B}, 2 life
 
 :::row{variant=PILE}
-- Tsz
-- IU
-- LP
-- LP
-- TO
+Tsz
+IU
+LP
+LP
+TO
 :::
 
 You draw Thoughtseize for turn, take the Force from your opponent's hand, and
@@ -68,11 +68,11 @@ Doomsday resolves):
 > {U}{U}, 4 life
 
 :::row{variant=PILE}
-- SW
-- SW
-- TO
-- LP
-- LP
+SW
+SW
+TO
+LP
+LP
 :::
 
 This can be executed as a pass-the-turn pile, where you never have to cast
@@ -89,14 +89,14 @@ options to work with.
 > LED, BW in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
 
 :::row{variant=PILE}
-- LED
-- LED
-- LP
-- SW
-- BW
+LED
+LED
+LP
+SW
+BW
 :::
 
-The Draw-4 in the sideboard lets you use Burning Wish as a *cantrip* into your
+The Draw-4 in the sideboard lets you use Burning Wish as a _cantrip_ into your
 pile, and you can storm off without ever casting a blue spell. The life cost is
 hefty, since you halve your life total twice and then pay 2 life, but the key
 point here is that it is possible.
@@ -109,11 +109,11 @@ try to win (Oracle and storm), but it won't stop you from drawing your pile.
 > Ponder in hand - {U}{U}{U}{B}, 2 life
 
 :::row{variant=PILE}
-- IU
-- Dur
-- LED
-- SW
-- TO
+IU
+Dur
+LED
+SW
+TO
 :::
 
 If you're not worried about your spells being countered, you can move the
@@ -136,11 +136,11 @@ Doomsday may be all you need.
 > {U}{U}, 2 life
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 You've seen this pile before, but we bring it up again here for its simplcity.
@@ -149,14 +149,14 @@ discard.
 
 **Example 2**
 
->  Echo, 1 other card in hand - {0}
+> Echo, 1 other card in hand - {0}
 
 :::row{variant=PILE}
-- LED
-- LP
-- LP
-- TO
-- LP
+LED
+LP
+LP
+TO
+LP
 :::
 
 This is similar to some Echo pile examples, except it is presented as a
@@ -198,11 +198,11 @@ your decklist. Let's look at piles that can work without artifacts.
 > Chalice on 0, Ponder in hand - {B}{B}{B} + {U}{U}{U}, 4 life
 
 :::row{variant=PILE}
-- SW
-- SW
-- TO
-- Island
-- Island
+SW
+SW
+TO
+Island
+Island
 :::
 
 With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells.
@@ -210,11 +210,11 @@ With 2 Street Wraith in the deck, you can avoid casting any 0-cmc spells.
 > Ponder in hand, land drop remaining - {B}{B}{B} + {U}{U}{U}{U}, 4 life
 
 :::row{variant=PILE}
-- IU
-- Island
-- TO
-- SW
-- Island
+IU
+Island
+TO
+SW
+Island
 :::
 
 This pile works without the need for Street Wraith. You never have to cycle it,
@@ -225,21 +225,21 @@ of blue mana, making things difficult.
 > Ponder in hand, {B}{B}{B} + {U}{B}{B}{B}{B}{R} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- DR
-- BW
+IC
+DR
+DR
+DR
+BW
 :::
 
 > Ponder in hand, {B}{B}{B} + {U}{U}{U}{B}{R}, 2 life - 7 Storm
 
 :::row{variant=PILE}
-- IU
-- DR
-- DR
-- SW
-- BW
+IU
+DR
+DR
+SW
+BW
 :::
 
 Storm kills are theoretically possible through a chalice on 0, although they
@@ -254,11 +254,11 @@ cast Doomsday.
 > {U}{U}, 2 life
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 The simplest pass-the-turn pile possible contains no 1-cost spells. You've seen
@@ -267,11 +267,11 @@ this one before.
 > Echo, LED in hand - {B}{B}{B} - 10 Storm
 
 :::row{variant=PILE}
-- LP
-- LP
-- LED
-- LED
-- BW
+LP
+LP
+LED
+LED
+BW
 :::
 
 Echo piles can win with Tendrils without ever casting a 1-cost spell.
@@ -279,11 +279,11 @@ Echo piles can win with Tendrils without ever casting a 1-cost spell.
 > BW, LED in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
 
 :::row{variant=PILE}
-- LED
-- LED
-- LP
-- SW
-- BW
+LED
+LED
+LP
+SW
+BW
 :::
 
 Another storm kill that doesn't use 1-cost spells. Wishing for the Draw-4
@@ -299,11 +299,11 @@ Chalice on 2.
 > Ponder in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- LP
-- DR
-- ToA
+IC
+DR
+LP
+DR
+ToA
 :::
 
 This pile requires you to have a Draw-4 and Tendrils in your maindeck, which is
@@ -328,11 +328,11 @@ play through the tax.
 > Ponder in hand - {2}{U} with tax
 
 :::row{variant=PILE}
-- LED
-- SW
-- TO
-- LP
-- LP
+LED
+SW
+TO
+LP
+LP
 :::
 
 Pass the turn after Doomsday. Untap and draw LED. Cast it for {1}. Spend {1}{U}
@@ -348,11 +348,11 @@ strictly the same effect, similar piles will work against all 3.
 > SW in hand - 4 life ({3} versus Trinisphere)
 
 :::row{variant=PILE}
-- LED
-- SW
-- TO
-- Island
-- Island
+LED
+SW
+TO
+Island
+Island
 :::
 
 Pass the turn after Doomsday. Draw LED for turn, cast it, and cycle both Wraiths
@@ -374,11 +374,11 @@ can draw a card on your opponent's turn.
 > {U}{U}{G}
 
 :::row{variant=PILE}
-- SW
-- VoS
-- TO
-- Island
-- Island
+SW
+VoS
+TO
+Island
+Island
 :::
 
 You need to pass 2 turns to execute this pile. On your first turn, you'll draw
@@ -392,7 +392,7 @@ proposition. But the pile is there, so you should know about it.
 ### Counterbalance
 
 Playing through :card[Counterbalance] is not easy. Using a normal decklist, in
-game 1 there is no *standard* way of getting through it. If you can resolve a
+game 1 there is no _standard_ way of getting through it. If you can resolve a
 Veil of Summer that will certainly work, but most Counterbalance players will
 try to keep a 1-cost card on top of their deck as much as possible so this can
 prove difficult. Natural Storm can also be effective. Sometimes you can convince
@@ -406,11 +406,11 @@ remove Counterbalance before going off.
 > Ponder, LED in hand - {U}{B}{G}
 
 :::row{variant=PILE}
-- Abrupt Decay
-- IU
-- LP
-- LP
-- TO
+Abrupt Decay
+IU
+LP
+LP
+TO
 :::
 
 Pass the turn after Doomsday, then draw the Decay for your turn. Kill the
@@ -478,11 +478,11 @@ Surgical though.
 > Surgical
 
 :::row{variant=PILE}
-- DR
-- DR
-- LP
-- LP
-- BW
+DR
+DR
+LP
+LP
+BW
 :::
 
 Echo lets you draw the entire pile and the order doesn't matter, so they are
@@ -502,11 +502,11 @@ it can be effective at fighting Surgical Extraction
 > Ponder, Brainstorm in hand - {B}{B}{B} + {U}{U}, maximum 4 life
 
 :::row{variant=PILE}
-- LED
-- Pnd
-- SW
-- SW
-- TO
+LED
+Pnd
+SW
+SW
+TO
 :::
 
 After casting Doomsday, lead off with Ponder. If they Surgical, respond with
@@ -534,11 +534,11 @@ taken not to put more than 2 cards back into your graveyard.
 > LED, Echo in hand - BBB
 
 :::row{variant=PILE}
-- LP
-- LP
-- SW
-- SW
-- TO
+LP
+LP
+SW
+SW
+TO
 :::
 
 This is a simple Echo pile setup that leaves no cards in grave or deck after
@@ -553,11 +553,11 @@ hand.
 > UUU (lands only!), 2 life
 
 :::row{variant=PILE}
-- IU
-- Island
-- TO
-- SW
-- Island
+IU
+Island
+TO
+SW
+Island
 :::
 
 After your draw step gives you IU, you cast it to draw land, Oracle and a Street
@@ -584,9 +584,9 @@ worth worrying too much about.
 ## Conclusion
 
 1. There is very little hate that is completely unbeatable
-2. This does not mean that you can win from any situation. To beat some of the
+1. This does not mean that you can win from any situation. To beat some of the
    most hateful things your opponent can throw at you, you'll need plenty of
    time and mana and you won't always have that.
-3. Play to your outs, even if the odds are very long.
-4. Thassa's Oracle is an extremely powerful addition to the deck and immensely
+1. Play to your outs, even if the odds are very long.
+1. Thassa's Oracle is an extremely powerful addition to the deck and immensely
    useful for beating all kinds of hate.

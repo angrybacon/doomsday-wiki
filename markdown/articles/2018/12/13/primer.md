@@ -102,11 +102,11 @@ one is Tendrils of Agony. The reamining cards usually generate mana.
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- DR
-- DR
-- ToA
+IC
+LP
+DR
+DR
+ToA
 :::
 
 For this pile, you'd cast Infernal Contract, drawing the remaining 4 cards, then
@@ -125,11 +125,11 @@ of your pile with a slight modification:
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- LP
-- DR
-- CB
-- ToA
+IC
+LP
+DR
+CB
+ToA
 :::
 
 Now you use IC to draw the remaining 4 cards, cast DR off the LP, use the
@@ -143,11 +143,11 @@ for 1 extra mana of any color:
 > Cantrip in hand - {B}{B}{B} + {1}{U}{B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- LED
-- LED
-- LP
-- BW
+IC
+LED
+LED
+LP
+BW
 :::
 
 With 1 floating mana left over after casting IC, you can make red with the LP to
@@ -169,21 +169,21 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 > IC in hand - {B}{B}{B} + {B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- LP
-- DR
-- DR
-- CB
-- ToA
+LP
+DR
+DR
+CB
+ToA
 :::
 
 > IC in hand - {B}{B}{B} + {B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- LED
-- LED
-- LP
-- CB
-- BW
+LED
+LED
+LP
+CB
+BW
 :::
 
 **Think the opponent is being cute and sandbagging an answer to Tendrils?**
@@ -191,11 +191,11 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- Dur
-- ToA
+IC
+DR
+DR
+Dur
+ToA
 :::
 
 **Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
@@ -203,11 +203,11 @@ to execute one of these piles. Many of these piles can be quite mana hungry.
 > Cantrip in hand - {B}{B}{B} + {U}{U}{B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- CoV
-- ToA
+IC
+DR
+DR
+CoV
+ToA
 :::
 
 Note that this only works post board since CoV isn't in the maindeck.
@@ -217,11 +217,11 @@ Note that this only works post board since CoV isn't in the maindeck.
 > BS and IC in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
 :::row{variant=PILE}
-- DR
-- LP
-- DR
-- DR
-- ToA
+DR
+LP
+DR
+DR
+ToA
 :::
 
 **Brainstorm and ToA in hand**
@@ -229,11 +229,11 @@ Note that this only works post board since CoV isn't in the maindeck.
 > BS and ToA in hand - {B}{B}{B} + {U}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- LP
-- DR
+IC
+DR
+DR
+LP
+DR
 :::
 
 This concept of using BS to trade cards in hand for cards in library can be
@@ -251,11 +251,11 @@ come up with in this new list:
 > {1}{B}{B}{B}{B} - 11 Storm
 
 :::row{variant=PILE}
-- IC
-- Rain of Filth
-- CR
-- CB
-- ToA
+IC
+Rain of Filth
+CR
+CB
+ToA
 :::
 
 The idea here is that you cast ToA twice by recycling it with the Bauble. ToA ->
@@ -277,11 +277,11 @@ Here is another potential pass-the-turn pile:
 > {B}{B}{B}{B}{R}{R} - 8 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- BW
-- ToA
+IC
+DR
+DR
+BW
+ToA
 :::
 
 Here you would wish for Past in Flames to flash back your rituals and end it
@@ -300,7 +300,7 @@ Empty the Warrens kills are simple so I'll get them out of the way first. Do you
 have a few rituals or petals, maybe an LED, and an Empty the Warrens or a way to
 get it? Consider trying to kill with Empty. EtW lets you "go off" faster and
 with a lower storm count and still likely win. This is useful when you find
-yourself with an opening to *go off* but a non-lethal storm count. Did you
+yourself with an opening to _go off_ but a non-lethal storm count. Did you
 duress your Delver opponent and see they had no castable countermagic? Are you
 concerned about a potential lockpiece like Chalice or Thalia? These are good
 times to consider the EtW plan. If you can make at least 8, and preferably more
@@ -369,7 +369,7 @@ concept applies to most every deck, but it's particularly important in proactive
 combo decks that require careful resource management. Look at your opening hand,
 determine whether you think you'll be winning with DD, Natural Storm, EtW, spend
 your resources in the way that best facilitates the plan. It's ok if sometimes
-the plan is *gather info and resources*, but if you can't quickly devise a more
+the plan is _gather info and resources_, but if you can't quickly devise a more
 concrete plan you put yourself at a disadvantage.
 
 Don't be afraid to cast a Draw4 for value. Untapping with a full grip is insane,
@@ -381,11 +381,11 @@ consider.
 1. How many other cards must you spend to cast it? The more cards you put into
    casting it, the less value it nets you. Ideally you hardcast it off lands and
    spend no rituals or petals.
-2. Is there any reason you should hold onto it? It can draw you into Doomsday
+1. Is there any reason you should hold onto it? It can draw you into Doomsday
    pile or be a potential Storm engine, but don't get too hung up on holding it
    for a combo turn if you are still missing lots of other resources you'd need
    to combo.
-3. Do you anticipate being able to win or NEEDING to win within a turn or 2 of
+1. Do you anticipate being able to win or NEEDING to win within a turn or 2 of
    casting it? I think this is the hardest one to get a feel for. If you feel
    like you're at parity or slightly ahead of your opponent but expect to be
    jockeying for position for another couple turns, then maybe hold on to it,
@@ -402,7 +402,7 @@ consider.
    string together a PiF kill or something, or maybe those 4 cards are awful but
    in that case you would have died anyway.
 
-This list has enough *must-counter* spells that you have a shot at using extra
+This list has enough _must-counter_ spells that you have a shot at using extra
 business spells to muscle past countermagic even if you're short on Duress
 effects. Draw4s are excellent at this, since if they do resolve you're up on
 cards. Burning Wish is also decent since if it resolves you can still do

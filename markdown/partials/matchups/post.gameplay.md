@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 This will be a short one. Just cast Doomsday as soon as possible and play around
@@ -15,4 +17,4 @@ Endurance and even plays around :card[Mindbreak Trap].
 From time to time you'll come across a Post opponent with curious sideboard
 choices. This can happen in smaller metas like that of your local FNM. Cards
 such as :card[Mikokoro, Center of the Sea] or :card[Nimble Obstructionist] can
-*get* you if you're not prepared.
+_get_ you if you're not prepared.

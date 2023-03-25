@@ -61,7 +61,7 @@ export const getMarkdown: GetMarkdown = async (options) => {
   } catch (error) {
     let message = `${error}`;
     if (error instanceof Error) message = error.message;
-    throw new Error(`Failed retrieving markdown "${path}". ${message}`);
+    throw new Error(`Failed retrieving markdown "${path}" (${message})`);
   }
 };
 

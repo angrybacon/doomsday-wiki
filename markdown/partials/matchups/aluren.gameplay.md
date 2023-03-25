@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Aluren is a pretty slow combo deck. These days white seems to be preferred over

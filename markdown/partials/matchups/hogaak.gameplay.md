@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 The Hogaak matchup can be pretty tricky, because they have two ways to kill you,
@@ -26,9 +28,9 @@ very difficult, especially when passing the turn where they might have access to
 2 fetchland activations or worse, a second crab.
 
 They can also attempt to shuffle your pile thanks to :card[Assassin's Trophy].
-It is a *may* clause but ponder whether you can part with a land during your
+It is a _may_ clause but ponder whether you can part with a land during your
 turn.
 
 If you have the resources, try building [Brainstorm piles](/meandeck/brainstorm)
-as they can *fix* your pile after a crab trigger or Altar activation(s). Should
+as they can _fix_ your pile after a crab trigger or Altar activation(s). Should
 you have to pass the turn, make sure you have answers at your disposal.

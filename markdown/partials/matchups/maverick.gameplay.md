@@ -1,9 +1,12 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 The matchup against Maverick plays pretty similar to the Death and Taxes
 matchup, with a small but important difference, :card[Green Sun's Zenith]. It
 gives them the opportunity to find their silver bullets very easily. Since there
-are no real stock Maverick lists at the moment, expect every possible sideboard target also in the maindeck.
+are no real stock Maverick lists at the moment, expect every possible sideboard
+target also in the maindeck.
 
 Some lists play :card[Dark Depths] as an alternative win condition, but it's not
 super common and the Dark Depths lines are all very telegraphed and easy to

@@ -6,7 +6,7 @@ tags: [LEGACY, MEANDECK]
 title: "Gangster Trippin': Cantrip Discipline in Doomsday"
 ---
 
-Everyone who has forayed into Legacy will know that the blue *xerox* shell is
+Everyone who has forayed into Legacy will know that the blue _xerox_ shell is
 very prevalent within the format. The shell follows the school of thought that
 uses cheap, draw a card, effects (colloquial known as cantrips) to enable
 sculpting of your hand and finding answers when needed. There have already been
@@ -21,17 +21,17 @@ such as Reid Duke, AJ Sacher and Tomas Mar.
 [scg:fishing-lesson]: https://articles.starcitygames.com/articles/fishing-lessons-pondering-brainstorm/
 [snapcardster:four-color-control]: https://snapcardster.com/blog/everything-about-four-color-control
 
-*Please note: the Snapcardster site is no longer running and therefore the link
+_Please note: the Snapcardster site is no longer running and therefore the link
 will not function, there are Reddit and The Source threads which can be found
 discussing the key points of the article [here][reddit.ponder-vs-preordain] and
-[here][mtgthesource.ponder-vs-preordain] respectively.*
+[here][mtgthesource.ponder-vs-preordain] respectively._
 
 [reddit.ponder-vs-preordain]: https://www.reddit.com/r/MTGLegacy/comments/83w1ug/preordain_vs_ponder/
 [mtgthesource.ponder-vs-preordain]: http://www.mtgthesource.com/forums/showthread.php?32319-Ponder-vs-Preordain
 
-It was these articles and a question from Doomsday Discord members *Wally* and
-*Dale Cooper* that led to the inspiration to author this. Referring back to the
-concept of the *Xerox* shell, Doomsday is a prime example of this in terms of
+It was these articles and a question from Doomsday Discord members _Wally_ and
+_Dale Cooper_ that led to the inspiration to author this. Referring back to the
+concept of the _Xerox_ shell, Doomsday is a prime example of this in terms of
 deck construction. In fact, Meandeck Doomsday potentially boasts the highest
 number of cantrips of any given archetype in Legacy running up to a total of 18
 replacement card draw effects within the main deck alone.
@@ -47,7 +47,7 @@ In this article we hope to present the following points:
 
 ### Legacy Staples
 
-The first suite of cantrips are what would be considered the *standard* Legacy
+The first suite of cantrips are what would be considered the _standard_ Legacy
 setup. Ponder and Brainstorm can be found of as 4-ofs in most {U} based decks
 and Preordain as a 2-4 of in many as well.
 
@@ -61,12 +61,12 @@ specific card which, for our intents and purposes, is normally Dark Ritual,
 Doomsday or a protection spell like Force of Will.
 
 :::row{variant=CENTERED}
-- Pnd
+Pnd
 :::
 
 #### :card[Preordain]
 
-Preordain is normally considered the *weakest* of the classic suite. Previously
+Preordain is normally considered the _weakest_ of the classic suite. Previously
 it has normally been relegated to combo decks who just wanted additional
 filtering to find key pieces but is generally considered weaker than Ponder as
 it sees 1 fewer cards. This point is in direct contradiction to the wording
@@ -81,29 +81,29 @@ I think the intent of the words is the same but the way they are presented
 implies the opposite of the truth.
 
 :::row{variant=CENTERED}
-- Pre
+Pre
 :::
 
 #### :card[Brainstorm]
 
-Brainstorm has been described as a [*Pillar of the
-Format*](https://twitter.com/mtgaaron/status/985674571188588544) and is
+Brainstorm has been described as a [_Pillar of the
+Format_](https://twitter.com/mtgaaron/status/985674571188588544) and is
 considered one of the most powerful spell effects in Legacy. It acts as a way to
-*see* 3 cards but can, in effect, give the ability to exchange up to 2 cards
+_see_ 3 cards but can, in effect, give the ability to exchange up to 2 cards
 from your hand, normally those considered uneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
 as almost drawing 3 cards with some people comparing it to :card[Ancestral
 Recall].
 
 :::row{variant=CENTERED}
-- BS
+BS
 :::
 
-### Free *Cycling Effects*
+### Free _Cycling Effects_
 
 This next pair are mostly unique to Doomsday however :card[Death's Shadow] based
 decks (and some Dredge decks) will also make use of one of them. These are
-*free* cycling cards that have little to no relevant text outside of their
+_free_ cycling cards that have little to no relevant text outside of their
 cycling abilities (other than some specific circumstances). Their use is almost
 always to provide a {0} mana draw effect after Doomsday has resolved.
 
@@ -130,7 +130,7 @@ For an excellent example of Street Wraith as a win condition please watch [this
 video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 
 :::row{variant=CENTERED}
-- SW
+SW
 :::
 
 #### :card[Edge of Autumn]
@@ -149,7 +149,7 @@ more narrow than :card[Thoughtseize] in effect, the life loss can be significant
 so a mix is run to provide maximum flexibility.
 
 :::row{variant=CENTERED}
-- EoA
+EoA
 :::
 
 ### Pile Enablers
@@ -172,7 +172,7 @@ mirror, it can even disrupt opposing Doomsday piles either milling a key
 component or causing the pilot to inadvertently draw themselves to death.
 
 :::row{variant=CENTERED}
-- Pdt
+Pdt
 :::
 
 ### :card[Ideas Unbound]
@@ -184,17 +184,17 @@ heavy hand. or provide an explosive boost of cards for a single turn,
 potentially enabling you to combo off there and then.
 
 :::row{variant=CENTERED}
-- IU
+IU
 :::
 
 ## Cantrip Sequencing - General Principles
 
-Normally, when playing a *fair* Legacy deck, you need to filter through your
+Normally, when playing a _fair_ Legacy deck, you need to filter through your
 deck in order to find the balance of threats, protection and disruption
 depending on the situation. In a combo deck, this is normally a bit more
-hyper-focussed to find the piece/pieces in order to *go off* as quickly as
+hyper-focussed to find the piece/pieces in order to _go off_ as quickly as
 possible. More often in combo decks you will find yourself shuffling off of
-Ponders or *bottoming 2* off Preordains in order to find what is needed. The
+Ponders or _bottoming 2_ off Preordains in order to find what is needed. The
 following guidelines are only that, general guidelines. As with anything in life
 there are always possible exceptions or circumstances where an alternative set
 of ideas are more valid than those presented here so they should not taken as
@@ -230,7 +230,7 @@ in the game.
 If you are trying to dig hard to find one particular card, perhaps in a
 desperation scenario, it might be worth leaving a Brainstorm to be the last
 cantrip you play. This is because after resolving any Ponders and/or Preordains
-you have, the Brainstorm cannot *clear the top* of your library so, although it
+you have, the Brainstorm cannot _clear the top_ of your library so, although it
 can see 3 cards, it will not be able to have you view any new ones in isolation.
 In non-desperation scenarioes it may be better to Brainstorm and then use the
 scry 2 from Preordain or the shuffle from Ponder to act as a fetchland shuffle
@@ -241,31 +241,31 @@ however this is generally inefficient in terms of card usage.
 ### Brainstorm Retention
 
 In Doomsday there are a few considerations to make that can sometimes go against
-what is considered *normal sequencing*. One example is the use (or non-use) of
+what is considered _normal sequencing_. One example is the use (or non-use) of
 Brainstorm. We know that Brainstorm, in conjecture with an additional card in
 hand post-Doomsday resolving, can lead to a deterministic, same-turn win. Let's
 consider the following hand:
 
 :::row{variant=HAND}
-- DR
-- Pnd
-- FoW
-- FoW
-- Swamp
-- BS
-- Pre
+DR
+Pnd
+FoW
+FoW
+Swamp
+BS
+Pre
 :::
 
 In this scenario we have 2 lands in play, Underground Sea and a Polluted Delta.
 
 :::row{variant=HAND}
-- Underground Sea
-- Polluted Delta
+Underground Sea
+Polluted Delta
 :::
 
 It is turn 3.
 
-Normally we would expect, in order to maximise the cards *seen* this turn, to
+Normally we would expect, in order to maximise the cards _seen_ this turn, to
 lead with Brainstorm off of Underground Sea to then fetch away what we get rid
 of and assume we will be casting Preordain next, maybe Ponder. One thing to
 consider though, as we are looking for the Doomsday, is that if we find one, we
@@ -280,12 +280,12 @@ can play Swamp and cast Dark Ritual and Doomsday this turn. If it is we can play
 Swamp and pass the turn looking to hit the win on the next. Obviously the
 matchup and circumstance plays a large role in what sequence or line to work
 towards but it does mean there are additional considerations to be made before
-playing an *optimal* Brainstorm.
+playing an _optimal_ Brainstorm.
 
 ### Cantrip Retention
 
 Similar to the point above, quite often the scenario comes up whereby you have
-Doomsday in hand plus the means to cast it but no way to *dig* into the pile. If
+Doomsday in hand plus the means to cast it but no way to _dig_ into the pile. If
 the opponent has pressure on board, this could mean you are unable to cast
 Doomsday until you find some sort of cantrip. Sometimes this situation comes up
 from poor variance but other times it can be from a misuse of cantrips and an
@@ -323,9 +323,9 @@ the desired card first within a pile. As can be observed, Preordain gives the
 most favourable success rate of building a standard same turn win pile.
 
 |                | Street Wraith | Ponder | Brainstorm | Preordain |
-| :------------: | :-----------: | :----: | :--------: | :-------: |
-| Ignore Removal | 25%           | 70%    | 60%        | 70%       |
-| Beat Removal   | 20%           | 53%    | 45%        | 66%       |
+| -------------- | :-----------: | :----: | :--------: | :-------: |
+| Ignore Removal |      25%      |  70%   |    60%     |    70%    |
+| Beat Removal   |      20%      |  53%   |    45%     |    66%    |
 
 ### Cycling
 
@@ -343,7 +343,7 @@ you know the top cards of your library.
 
 The cyclers can also be used to improve the use of setup cards like
 :card[Lim-Dûl's Vault] by enabling mana efficient ways of drawing the cards
-tutored for within the same turn. You can also use them to access *hidden* cards
+tutored for within the same turn. You can also use them to access _hidden_ cards
 on the top of your deck. Hiding a Force of Will or a Daze on the top of your
 deck, with a Street Wraith in hand, means you can potentially dodge it getting
 hit by a card like Duress. This particular trick shouldn't be used often as it
@@ -376,9 +376,9 @@ can be used to remove potential advantage from using Predict.
 
 ### Looting with Ideas Unbound
 
-Many see Ideas Unbound as a purely *combo-centric* card wit very limited utility
+Many see Ideas Unbound as a purely _combo-centric_ card wit very limited utility
 prior to the casting of Doomsday. There are two main methods of using it outside
-of inside piles; *filtering* and *card booming*. Filtering basically is the use
+of inside piles; _filtering_ and _card booming_. Filtering basically is the use
 of it as a glorified :card[Careful Study]. If you find yourself with a hand of
 too many lands, or an abundance of protection in a matchup where it's not
 needed, you can just cast Ideas Unbound to spend the turn drawing some extra gas
@@ -413,20 +413,20 @@ targeting our tapped Underground Sea.
 Our board is:
 
 :::row{variant=HAND}
-- Underground Sea
-- Polluted Delta
+Underground Sea
+Polluted Delta
 :::
 
 Our hand is:
 
 :::row{variant=HAND}
-- DR
-- EoA
-- FoW
-- FoW
-- Underground Sea
-- BS
-- Daze
+DR
+EoA
+FoW
+FoW
+Underground Sea
+BS
+Daze
 :::
 
 What's the play?
@@ -435,7 +435,7 @@ We have a couple of options here. First is to fetch, cast Brainstorm and hope
 they try and interact with it so we can "save" our land by returning it with
 Daze. This is a poor choice and one that is not recommended no matter how
 "clever" it might feel. The second is to cycle Edge of Autumn, sacrificing the
-Sea to draw the known Doomsday thus obtaining *value* from their Wasteland
+Sea to draw the known Doomsday thus obtaining _value_ from their Wasteland
 activation. This is often a good play however in this instance it may not be
 optimal. The third option is just allow the Wasteland to resolve without a
 response. If we draw the Doomsday next turn we have the ability to cast it off
@@ -455,20 +455,20 @@ state and hand:
 Our board is:
 
 :::row{variant=HAND}
-- Underground Sea
-- Underground Sea
+Underground Sea
+Underground Sea
 :::
 
 Our hand is:
 
 :::row{variant=HAND}
-- DR
-- SW
-- Pre
-- Pnd
-- Daze
-- BS
-- Scalding Tarn
+DR
+SW
+Pre
+Pnd
+Daze
+BS
+Scalding Tarn
 :::
 
 What's the play?
@@ -497,19 +497,19 @@ turn 2. Our opponent has just cantripped turn 1 and passed.
 Our board is:
 
 :::row{variant=HAND}
-- Underground Sea
+Underground Sea
 :::
 
 Our hand is:
 
 :::row{variant=HAND}
-- Daze
-- Island
-- Pre
-- DD
-- Dur
-- EoA
-- Misty Rainforest
+Daze
+Island
+Pre
+DD
+Dur
+EoA
+Misty Rainforest
 :::
 
 What's the play?

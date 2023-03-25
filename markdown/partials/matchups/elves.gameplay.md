@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Since :card[Allosaurus Shepherd] removed all interaction in this matchup, it's

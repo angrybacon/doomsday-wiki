@@ -6,9 +6,9 @@ tags: [VINTAGE, MEANDECK]
 title: Everything Doomsday
 ---
 
-*Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort
+_Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort
 ([MaxMagicer][maxmagicer]), [SingPanMan][singpanman], and [discoverN][discovern]
-for writing.*
+for writing._
 
 [diem4x]: https://twitter.com/Bartvehs
 [maxmagicer]: https://twitter.com/MaxVervoort2002
@@ -35,7 +35,7 @@ maindeck for Doomsday. In this build, we have elected to use :card[Mystical
 Dispute], :card[Force of Negation], and :card[Portent].
 
 :::row{variant=CENTERED}
-- CoS
+CoS
 :::
 
 **Mystical Dispute / Force of Negation**: These slots are generally between
@@ -50,8 +50,8 @@ significant problems, and having an excellent one mana answer that can also
 counter :card[Force of Will]s is very lovely.
 
 :::row{variant=CENTERED}
-- Mystical Dispute
-- Force of Negation
+Mystical Dispute
+Force of Negation
 :::
 
 **Portent**: This slot is mainly for extra cantrips. Often you will see
@@ -61,12 +61,12 @@ good at being good card selection or messing up your opponent's top 3 cards,
 especially in something like the mirror.
 
 :::row{variant=CENTERED}
-- Portent
+Portent
 :::
 
 ## Sideboard Configuration and Sideboard Guide
 
-*With Bart van Etten and Max Vervoort*
+_With Bart van Etten and Max Vervoort_
 
 **:card[Steel Sabotage]**: it is only used for the shops matchup, but it's so
 crucial in that matchup that you want four after sideboard. It's the most
@@ -85,9 +85,9 @@ need to tap a land to play it. A handy thing it can do is snag a Brain freeze
 before you combo, so you don't die on the spot.
 
 :::row{variant=CENTERED}
-- Steel Sabotage
-- Mindbreak Trap
-- Duress
+Steel Sabotage
+Mindbreak Trap
+Duress
 :::
 
 **:card[Fatal Push]**: you need an answer for cards like Lavinia,
@@ -105,9 +105,9 @@ decks, but it's just the most efficient card to play in your Doomsday sideboard
 for that matchup without dedicating too many spots for the matchup.
 
 :::row{variant=CENTERED}
-- Fatal Push
-- Opposition Agent
-- Leyline of the Void
+Fatal Push
+Opposition Agent
+Leyline of the Void
 :::
 
 **:card[Tasigur, the Golden Fang]**: you want an additional win condition
@@ -122,41 +122,41 @@ even Force of Negation. Because of this, it can sometimes steal games.
 play around :card[Wasteland] and :card[Ghost Quarter].
 
 :::row{variant=CENTERED}
-- Tasigur, the Golden Fang
-- Island
+Tasigur, the Golden Fang
+Island
 :::
 
 ### Sideboard Guide
 
 | vs BUG                      |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Street Wraith     |
 | +1 Duress                   | -1 Mystical Tutor    |
 |                             | -1 Vampiric Tutor    |
 
 | vs Breach                   |                   |
-|:----------------------------|:------------------|
+| --------------------------- | ----------------- |
 | +1 Mindbreak Trap           | -1 Island         |
 | +1 Duress                   | -1 Portent        |
 | +1 Opposition Agent         | -1 Mystical Tutor |
 | +1 Tasigur, the Golden Fang | -1 Vampiric Tutor |
 
 | vs Jeskai                   |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Island            |
 | +1 Duress                   | -1 Force of Negation |
 | +1 Opposition Agent         | -1 Mystical Tutor    |
 | +1 Tasigur, the Golden Fang | -1 Vampiric Tutor    |
 
 | vs Doomsday         |                   |
-|:--------------------|:------------------|
+| ------------------- | ----------------- |
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs Hogaak                   |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Force of Negation |
 | +4 Leyline of the Void      | -1 Necropotence      |
 | +1 Tasigur, the Golden Fang | -1 Mystical Dispute  |
@@ -164,7 +164,7 @@ play around :card[Wasteland] and :card[Ghost Quarter].
 |                             | -1 Dig Through Time  |
 
 | vs Dredge                   |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +4 Leyline of the Void      | -1 Mental Misstep    |
 | +1 Tasigur, the Golden Fang | -1 Force of Negation |
 |                             | -1 Necropotence      |
@@ -172,14 +172,14 @@ play around :card[Wasteland] and :card[Ghost Quarter].
 |                             | -1 Dig Through Time  |
 
 | vs RUG                      |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +2 Fatal Push               | -1 Portent           |
 | +1 Duress                   | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Mystical Tutor    |
 |                             | -1 Vampiric Tutor    |
 
 | vs Ravager Shops            |                     |
-|:----------------------------|:--------------------|
+| --------------------------- | ------------------- |
 | +4 Steel Sabotage           | -1 Mental Misstep   |
 | +1 Tasigur, the Golden Fang | -3 Flusterstorm     |
 | +2 Fatal Push               | -1 Necropotence     |
@@ -187,32 +187,32 @@ play around :card[Wasteland] and :card[Ghost Quarter].
 |                             | -2 Daze             |
 
 | vs Golos Shops              |                     |
-|:----------------------------|:--------------------|
+| --------------------------- | ------------------- |
 | +4 Steel Sabotage           | -3 Flusterstorm     |
 | +1 Duress                   | -1 Mental Misstep   |
 | +1 Tasigur, the Golden Fang | -1 Mystical Dispute |
 | +1 Island                   | -2 Daze             |
 
 | vs Oath             |                   |
-|:--------------------|:------------------|
+| ------------------- | ----------------- |
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs Bant Archon              |                      |
-|:----------------------------|:---------------------|
+| --------------------------- | -------------------- |
 | +1 Fatal Push               | -1 Force of Negation |
 | +1 Tasigur, the Golden Fang | -1 Necropotence      |
 |                             | -1 Street Wraith     |
 
 | vs DPS              |                   |
-|:--------------------|:------------------|
+| ------------------- | ----------------- |
 | +1 Mindbreak Trap   | -1 Island         |
 | +1 Duress           | -1 Mystical Tutor |
 | +1 Opposition Agent | -1 Vampiric Tutor |
 
 | vs White Hatebears          |                     |
-|:----------------------------|:--------------------|
+| --------------------------- | ------------------- |
 | +2 Fatal Push               | -3 Flusterstorm     |
 | +1 Island                   | -1 Mystical Dispute |
 | +1 Tasigur, the Golden Fang |                     |
@@ -224,7 +224,7 @@ and piles you can make to do that.
 
 ## Playing vs. Breach
 
-*With discoverN*
+_With discoverN_
 
 You are against Breach, and the opponent was on the play with seven cards and
 went :card[Misty Rainforest], :card[Mox Ruby], pass (5 cards remaining). You
@@ -235,7 +235,7 @@ this turn and the rest of the game?
 
 Our hand is:
 
-*DiscoverN's response*
+_DiscoverN's response_
 
 > **Game plan:**
 >
@@ -255,18 +255,18 @@ Our hand is:
 >    Brain Freeze.
 
 :::row{variant=HAND}
-- DD
-- SW
-- Pre
-- FoW
-- Underground Sea|LEB
-- Tasigur, the Golden Fang
-- DR
+DD
+SW
+Pre
+FoW
+Underground Sea|LEB
+Tasigur, the Golden Fang
+DR
 :::
 
 ## Playing vs. BUG
 
-*With SingPanMan*
+_With SingPanMan_
 
 You are at 16 life vs. BUG game three (assume Fatal Push is in your deck and
 nothing is exiled, so you have your whole deck to put in your pile) and cast a
@@ -275,7 +275,7 @@ opponent has Leovold, Collector Ouphe, 3 lands, and 3 cards in hand. You assume
 their graveyard doesn't matter (i.e., :card[Snapcaster Mage]). What is your
 pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 
-*SingPanMan's response*
+_SingPanMan's response_
 
 > Demonic Tutor, Time Walk, Oracle, Oracle, Island (double Trophy is an issue)
 >
@@ -302,16 +302,16 @@ pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 >   it on Doomsday) - A single Wasteland can be played around
 
 :::row{variant=PILE}
-- Demonic Tutor
-- Time Walk
-- TO
-- TO
-- Island
+Demonic Tutor
+Time Walk
+TO
+TO
+Island
 :::
 
 ## Playing vs. Bant
 
-*With discoverN*
+_With discoverN_
 
 Your Opponent casts Archon of Emeria with five cards in hand on the play in turn
 two. It is game three (You have Fatal Push in your deck, and they may have cards
@@ -324,7 +324,7 @@ Hullbreacher, maybe Deafening Silence, counterspells like Flusterstorm, and even
 :card[Spell Queller]). What is your pile, and what do are you trying to do in
 the following turns?
 
-*DiscoverN's response*
+_DiscoverN's response_
 
 > Timewalk, Oracle, Oracle, Island, Island
 >
@@ -344,16 +344,16 @@ the following turns?
 > of these cards as well as Flusterstorm and Daze (two Oracles).
 
 :::row{variant=PILE}
-- Time Walk
-- TO
-- TO
-- Island
-- Island
+Time Walk
+TO
+TO
+Island
+Island
 :::
 
 ## Playing vs. Shops
 
-*With Jacobisboss*
+_With Jacobisboss_
 
 I've decided to do one final puzzle of a Doomsday pile to beat Golos shops.
 
@@ -370,12 +370,12 @@ Rod], more Revokers, etc?
 Our hand is:
 
 :::row{variant=HAND}
-- Pre
-- Daze
-- FoW
+Pre
+Daze
+FoW
 :::
 
-*My response*
+_My response_
 
 > From the top: Steel Sabotage, Gush, Oracle, Lotus, Island  
 > Goal: try to win in two turns.  
@@ -401,21 +401,21 @@ Our hand is:
 > essential thing is mana sources and having enough lands at all times.
 
 :::row{variant=PILE}
-- Steel Sabotage
-- Gush
-- TO
-- Black Lotus
-- Island
+Steel Sabotage
+Gush
+TO
+Black Lotus
+Island
 :::
 
 Or
 
 :::row{variant=PILE}
-- Time Walk
-- SW
-- TO
-- Island
-- Island
+Time Walk
+SW
+TO
+Island
+Island
 :::
 
 That's all! If you enjoyed this guide, you can leave me a follow on

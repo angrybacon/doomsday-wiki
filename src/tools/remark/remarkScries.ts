@@ -1,6 +1,6 @@
 import type { Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
-import { selectAll } from 'unist-util-select';
+import { select } from 'unist-util-select';
 import type { Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
 import { readFaces } from '@/tools/scryfall/read';
@@ -23,21 +23,16 @@ export const remarkScries =
     const scries: Scries = {};
     visit<Node, Test>(tree, tests, (node) => {
       const directive = node as ContainerDirective;
-      const texts = selectAll('text', directive) as Text[];
-      texts.forEach(({ value }) => {
-        const promise: Promise<ScryData> = scry(value).then(
-          (response) => {
-            const cards: ScryCard[] = readFaces(response);
-            scries[value] = cards;
-            return response;
-          },
-          (error) => {
-            throw error;
-          }
-        );
+      const text = select('text', directive) as Text;
+      text.value.split('\n').forEach((query) => {
+        const promise: Promise<ScryData> = scry(query).then((response) => {
+          const cards: ScryCard[] = readFaces(response);
+          scries[query] = cards;
+          return response;
+        });
         promises.push(promise);
       });
     });
-    await Promise.allSettled(promises);
+    await Promise.all(promises);
     return scries;
   };

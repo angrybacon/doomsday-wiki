@@ -1,3 +1,5 @@
+<!-- markdownlint-disable first-line-heading -->
+
 ###### Pre Doomsday
 
 Lands has super strong mana denial, even more in game 2 and 3, and will probably
@@ -24,7 +26,7 @@ You have to learn how to assess your opponent posibilities, that's not something
 you'll learn reading this guide. With more experience you'll be able to refine this
 skill. Below are a number of relevant interactions in the matchup:
 
-- Fetches are great to play around mana denial. You can *hide* you
+- Fetches are great to play around mana denial. You can _hide_ you
   mana-producing lands behind them while thinning your deck
 - Free countermagic is your best tool against every form of hate spells. From
   :card[Endurance] over :card[Choke] to :card[Sphere of Resistance]

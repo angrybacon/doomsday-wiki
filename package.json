@@ -8,8 +8,9 @@
   "scripts": {
     "build": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next build' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto --kill-others --success first",
     "dev": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next dev' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto",
-    "lint": "concurrently 'yarn:lint:*(!wiki)' --names --prefix-colors auto --success all",
+    "lint": "concurrently 'yarn:lint:*' --names --prefix-colors auto --success all",
     "lint:code": "eslint .",
+    "lint:format": "prettier --check markdown/ puzzles/ scryfall/ src/",
     "lint:prune": "ts-prune --error",
     "lint:typings": "tsc",
     "lint:wiki": "markdownlint markdown/",

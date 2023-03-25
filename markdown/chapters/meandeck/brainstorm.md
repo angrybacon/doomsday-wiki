@@ -8,16 +8,16 @@ title: Brainstorm in Doomsday
 
 ## Preamble
 
-*Preface: We will be using terminology and abbreviations introduced in the
+_Preface: We will be using terminology and abbreviations introduced in the
 [Basics chapter][meandeck:basics] of the Wiki. If you have not read it yet, it
 is recommended you do so first as this builds upon the concepts introduced
-there.*
+there._
 
 [meandeck:basics]: /meandeck/basics
 
 :card[Brainstorm] is one of the most powerful spells available in the Legacy
 format at this time. There have been numerous articles written on this
-*seemingly innocuous at first glance* one mana cantrip. We'll assume you know
+_seemingly innocuous at first glance_ one mana cantrip. We'll assume you know
 the basics of casting Brainstorm, and instead focus on the specifics of using it
 as a part of &mdash; or to initiate &mdash; your Doomsday piles. In many cases
 it can be used as any other cantrip, but it has unique applications to Doomsday
@@ -27,7 +27,7 @@ In the basics we alluded to the use of Brainstorm as being a special case when
 discussing the use of cantrips to dig into our Doomsday piles. More than just a
 cantrip to start consuming your piles, Brainstorm can enable you to access three
 cards at once from said pile unlike other options from your suite of cantrips.
-This, combined with what could be otherwise *dead* cards from hand can turn a
+This, combined with what could be otherwise _dead_ cards from hand can turn a
 resource-light turn into a winning one.
 
 Brainstorm piles allow you to win with very limited initial mana resources. For
@@ -44,11 +44,11 @@ confident in this decision making in no time.
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- IU
-- LP
-- TO
+LED
+SW
+IU
+LP
+TO
 :::
 
 Here we have the simplest type of Brainstorm pile. Instead of needing both a
@@ -70,11 +70,11 @@ Another example is presented here using Predict.
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pdt
-- LP
-- TO
+LED
+SW
+Pdt
+LP
+TO
 :::
 
 1. Cast Brainstorm and put back X then Predict on top
@@ -88,12 +88,12 @@ you to play around removal like :card[Swords to Plowshares].
 ## Brainstorm and Combo Piece Available
 
 You may find yourself in a scenario where you have a card in hand that is
-thought to be *dead* outside of the combo turn. Thankfully, Brainstorm allows
+thought to be _dead_ outside of the combo turn. Thankfully, Brainstorm allows
 you to transfer it out of your hand and replace it into the pile. Let's take the
 example above. It may be the opponent has a card like :card[Scavenging Ooze] out
 and you need to utilize LED to generate mana but don't want to discard your one
-Oracle to have it *eaten* by the Ooze. We cannot use Predict here as we would
-need to *mill* the Oracle to do so effectively. In many situations you might be
+Oracle to have it _eaten_ by the Ooze. We cannot use Predict here as we would
+need to _mill_ the Oracle to do so effectively. In many situations you might be
 able to make a PTT pile however if your life total is under pressure you may not
 be able to.
 
@@ -102,11 +102,11 @@ Take the following example:
 > {U} + Brainstorm + Thassa's Oracle
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pnd
-- EoA
-- Pnd
+LED
+SW
+Pnd
+EoA
+Pnd
 :::
 
 1. Cast Brainstorm and put back Oracle then Ponder on top.
@@ -126,11 +126,11 @@ the additional {U} needed for the same starting mana cost.
 > {U} + Brainstorm + Thassa's Oracle + Cantrip
 
 :::row{variant=PILE}
-- LED
-- SW
-- LP
-- EoA
-- Pnd
+LED
+SW
+LP
+EoA
+Pnd
 :::
 
 1. Cast Brainstorm and put back Oracle then your Cantrip on top.
@@ -149,7 +149,7 @@ will not work in this position as they do not have the deck manipulation effects
 needed however even something as simple as :card[Opt] can be used.
 
 Even if not the Oracle, if you already have another element of the pile in hand,
-you can substitute additional toolbox cards within the *standard* pile to
+you can substitute additional toolbox cards within the _standard_ pile to
 utilise the additional resources. Let's look at an example where you have an
 extra {B} available, :card[IU] in hand and you know your opponent is holding a
 :card[Stifle] in hand.
@@ -157,11 +157,11 @@ extra {B} available, :card[IU] in hand and you know your opponent is holding a
 > {U}{B} + Brainstorm + Ideas Unbound + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- Tsz
-- LP
-- TO
+LED
+SW
+Tsz
+LP
+TO
 :::
 
 We can play the pile in the following manner:
@@ -189,11 +189,11 @@ well if you have an available land drop for that turn.
 > {U} + Brainstorm + Street Wraith + X
 
 :::row{variant=PILE}
-- LP
-- LED
-- EoA
-- TO
-- Island
+LP
+LED
+EoA
+TO
+Island
 :::
 
 1. Cycle SW, draw the LP and cast it
@@ -208,11 +208,11 @@ turn it into a perfect pile.
 > {U} + Brainstorm + Street Wraith + X
 
 :::row{variant=PILE}
-- LP
-- LED
-- EoA
-- Consider
-- TO
+LP
+LED
+EoA
+Consider
+TO
 :::
 
 1. Cycle SW, draw the LP and cast it
@@ -231,11 +231,11 @@ top card instead.
 > {U} + Street Wraith + X
 
 :::row{variant=PILE}
-- BS
-- LED
-- EoA
-- TO
-- Island | RAV
+BS
+LED
+EoA
+TO
+Island | RAV
 :::
 
 This time you cycle into the Brainstorm rather than into the mana needed for it
@@ -247,17 +247,17 @@ Alternatively, use Consider to get rid of X and achieve a perfect pile.
 > {U} + Street Wraith + X
 
 :::row{variant=PILE}
-- BS
-- LED
-- EoA
-- Consider
-- TO
+BS
+LED
+EoA
+Consider
+TO
 :::
 
 ## Not Using LED
 
 Sometimes you may not wish to commit to a Brainstorm pile because you are
-concerned about interaction and are holding Force of Will and a *pitch* card for
+concerned about interaction and are holding Force of Will and a _pitch_ card for
 it. In these circumstances you can often create an imperfect Brainstorm pile to
 win that same turn whilst keeping up your countermagic.
 
@@ -268,11 +268,11 @@ following pile:
 > {U} + Brainstorm + Street Wraith + X + X
 
 :::row{variant=PILE}
-- EoA
-- LP
-- LP
-- LP
-- TO
+EoA
+LP
+LP
+LP
+TO
 :::
 
 1. Cycle SW, draw the Edge of Autumn (EoA)
@@ -292,11 +292,11 @@ fetchable lands from our deck as they are in our hand:
 > A fetchland in play and a land drop available for turn
 
 :::row{variant=PILE}
-- SW
-- LP
-- Misty Rainforest
-- Daze
-- TO
+SW
+LP
+Misty Rainforest
+Daze
+TO
 :::
 
 1. Cycle SW, draw SW
@@ -318,11 +318,11 @@ to win on the spot.
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- SW
-- SW
-- CoS
-- TO
-- PoN
+SW
+SW
+CoS
+TO
+PoN
 :::
 
 You can speed things up with this pile if your opponent does something like tap
@@ -333,7 +333,7 @@ following:
 1. Draw Cavern of Souls for the turn
 1. Cycle SW, draw X
 1. Cycle SW, draw TO
-1. Play Cavern, name *Wizard*, cast TO with one card left in your library
+1. Play Cavern, name _Wizard_, cast TO with one card left in your library
 
 This is one example of many possible scenarios you can use Brainstorm in a pile
 in order to give flexibility on how it can be played out.

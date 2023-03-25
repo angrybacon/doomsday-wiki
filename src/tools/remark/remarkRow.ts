@@ -2,7 +2,7 @@ import type { Text } from 'mdast';
 import type { Node } from 'unist';
 import type { ContainerDirective } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
-import { selectAll } from 'unist-util-select';
+import { select } from 'unist-util-select';
 import { Test, visit } from 'unist-util-visit';
 import type { Scries, ScryCard } from '@/tools/scryfall/types';
 
@@ -16,14 +16,13 @@ export const remarkRow: Plugin<[{ scries: Scries }]> =
     const test: Test = { name: 'row', type: 'containerDirective' };
     visit<Node, Test>(tree, test, (node) => {
       const directive = node as Node & ContainerDirective;
-      const texts = selectAll('text', directive) as Text[];
-      const cards = texts.map((text) => {
-        const query: string = text.value;
+      const text = select('text', directive) as Text;
+      const cards = text.value.split('\n').map((query, index) => {
         const data: ScryCard[] = scries[query];
         if (!data?.length) {
           throw new Error(`Missing Scryfall data for query "${query}"`);
         }
-        return { data, id: text.position?.start.offset };
+        return { data, id: `${text.position?.start.offset}-${index}` };
       });
       directive.data = {
         ...directive.data,

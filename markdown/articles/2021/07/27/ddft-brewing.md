@@ -9,7 +9,7 @@ title: DDFT Brews for 2021
 Like many Legacy players who are dedicated to their deck, I am constantly
 iterating, adjusting, and refining my lists. Since I'm a DDFT holdout, I have to
 work extra hard to make my deck even moderately playable compared to those more
-*normal* Doomsday players. This means I'm very open to trying unsual (read: bad)
+_normal_ Doomsday players. This means I'm very open to trying unsual (read: bad)
 ideas in case I find the next piece of sick tech. It's rare that this actually
 happens, but even failed brews can leave behind valuable morsels, which may with
 luck accumulate into something playable. So, dear reader, let me take you on a
@@ -22,9 +22,9 @@ play Doomsday and Tendrils of Agony in the same 75.
 ## The Starting Point
 
 :::row{variant=CENTERED}
-- DD
-- EoE
-- BW
+DD
+EoE
+BW
 :::
 
 This is roughly what I and others would consider a typical DDFT list in the
@@ -36,9 +36,9 @@ article][articles:echoes-of-the-past] but is more or less recognizable.
 ::decklist{path=2021/07/26/ddft.ubrg.echo}
 
 :::row{variant=CENTERED}
-- TO
-- IU
-- IC
+TO
+IU
+IC
 :::
 
 The biggest change of course is the adoption of Thassa's Oracle which hadn't
@@ -65,8 +65,8 @@ but in testing I was unimpressed. Too often, it would resolve on turn 2, or turn
 3 to dodge Daze, and the opponent could pay 3 to Force a business spell anyway.
 
 :::row{variant=CENTERED}
-- Solve the Equation
-- Dark Petition
+Solve the Equation
+Dark Petition
 :::
 
 While these issues weren't catastrophic, and careful fetching could minimize it,
@@ -81,9 +81,9 @@ when you didn't.
 ## The Mindkiller
 
 :::row{variant=CENTERED}
-- SotV
-- EtW
-- Mm
+SotV
+EtW
+Mm
 :::
 
 A few months after brewing the initial Echo Doomsday list, Thassa's Oracle had
@@ -92,7 +92,7 @@ very few people left trying to develop anything other than the
 [Meandeck][meandeck:basics] style lists that are currently among the top tier of
 the format. That, along with the humorous presentation of [my article about
 it][articles:the-mindkiller], and of course the four copies of Spoils of the
-Vault, made the list, which I dubbed *Mindkiller Doomsday*, not really get taken
+Vault, made the list, which I dubbed _Mindkiller Doomsday_, not really get taken
 seriously even by those few people who might otherwise have been interested.  
 I was quite serious about it, however.
 
@@ -101,7 +101,7 @@ that it sometimes caused game losses, Spoils felt insanely strong. The list had
 a very high rate of combo on turn 1, and Doomsday let it fight through hate that
 similarly fast combo decks would have struggled with. I got numerous 4-1 leagues
 with it so it certainly felt like the potential was there, and known combo
-expert and PSI connoisseur *monkeyscantcry* eventually took it for a spin and
+expert and PSI connoisseur _monkeyscantcry_ eventually took it for a spin and
 [5-0'd with it][mtggoldfish:the-mindkiller]. Obviously this isn't a Grand Prix
 Top 8, but it felt somewhat reassuring. I kept the list updated and continued
 playing it.
@@ -112,16 +112,16 @@ playing it.
 
 ::decklist{path=2021/07/26/mindkiller.wubrg}
 
-*Mindkiller* is probably the deck I'm most proud of, but it has its flaws.
+_Mindkiller_ is probably the deck I'm most proud of, but it has its flaws.
 Though it could be suprisingly resilient, it was still a glass cannon, and one
 that sometimes fell apart without any intervention from the opponent. Every time
 I had a cold streak with Spoils of the Vault, I would look for alternatives to
 it.
 
 :::row{variant=CENTERED}
-- Plunge into Darkness
-- Gamble|USG
-- SotV
+Plunge into Darkness
+Gamble|USG
+SotV
 :::
 
 I tried replacing it with Preordain, I tried Plunge into Darkness, I tried
@@ -132,14 +132,14 @@ but often worse odds than Spoils when it's just a tutor.
 
 Spoils strangely felt like both the glue holding the deck together and the thing
 keeping it from being really broken. But I felt like the power level was there,
-or nearly so, and thus the *Mindkiller* style of DDFT stayed in my mind.
+or nearly so, and thus the _Mindkiller_ style of DDFT stayed in my mind.
 
 ## The Truly Bizarre
 
 :::row{variant=CENTERED}
-- Goblin Charbelcher|MRD
-- Recross the Paths
-- Lim-Dul's Vault
+Goblin Charbelcher|MRD
+Recross the Paths
+Lim-Dul's Vault
 :::
 
 I've always been drawn to unusual decks, particularly fast combos, although I've
@@ -147,7 +147,7 @@ been known to play some Pox on occasion. Doomsday itself, back when I started
 playing it, was one of those unusual decks. Now Doomsday is a normal deck, so
 naturally I need to make it more exciting (i.e. worse). I've tried too many
 strange and bad ideas to count, but I thought it might be interesting to see
-some of my most *out-there* bad ideas. Each of these I thought had merit for one
+some of my most _out-there_ bad ideas. Each of these I thought had merit for one
 reason or another, and none of them actually panned out.
 
 ::decklist{path=2021/07/26/belcher-doomsday}
@@ -207,17 +207,17 @@ Maybe this will... nope.
 ## The Successful Failures
 
 :::row{variant=CENTERED}
-- ToA
-- BS
-- IC
+ToA
+BS
+IC
 :::
 
 Some of my experiments that didn't work out still yielded some valuable
 insights, or pointed me in a direction that ended up being worthwhile. Two that
 I want to highlight were both spawned from a conversation I had with successful
-combo brewer *Jax*.
+combo brewer _Jax_.
 
-*Jax* brought up the idea of porting [Meandeck Tendrils][scg:meandeck-primer]
+_Jax_ brought up the idea of porting [Meandeck Tendrils][scg:meandeck-primer]
 from Vintage to Legacy. Since it is a Spoils of the Vault deck, I was
 immediately interested. We tossed around a couple ideas, I took a couple lists
 for a spin in the MTGO practice rooms, and it never went much farther than that.
@@ -226,13 +226,13 @@ much in his article, and a Legacy port lacks the restricted cards. But I did
 notice something, which was that after cutting all the banned cards and filling
 in some gaps with the best replacement cards I could find, I found myself at 52
 cards. Just enough for 4 Doomsday, 3 Street Wraith and a Thassa's Oracle...
-which is how I ended up with a deck in MTGO called *Meandeck Tendrils but it's
-actually Doomsday*.
+which is how I ended up with a deck in MTGO called _Meandeck Tendrils but it's
+actually Doomsday_.
 
 After trying that out for a bit, I ended up fitting Echo of Eons into the deck,
-and basically ended up with something like *Mindkiller* but without wishes, just
+and basically ended up with something like _Mindkiller_ but without wishes, just
 straight UB. Echo improves upon the 1 mana = 1 card = 1 Storm principle behind
-*Meandeck Tendrils*, by being 3 mana = 7 cards = ~6 storm and often is
+_Meandeck Tendrils_, by being 3 mana = 7 cards = ~6 storm and often is
 mana-positive, so it felt like a good fit.
 
 [scg:meandeck-primer]: https://articles.starcitygames.com/premium/the-meandeck-tendrils-primer/
@@ -261,7 +261,7 @@ That all sounds appealing, but the issue with this style of list was that it
 felt slow. It lacked the early game explosive power provided by Echo of Eons and
 Burning Wish, and most quick wins involved either getting lucky with a Draw4, or
 a quick Doomsday. I found myself performing better against the decks to which
-*Mindkiller* lost, and losing to the decks *Mindkiller* destroyed, but the
+_Mindkiller_ lost, and losing to the decks _Mindkiller_ destroyed, but the
 improvement against blue decks wasn't enough to offset what seemed like a step
 backwards against non-blue decks on average. That said, it gave me plenty to
 think about. Brainstorm and Doomsday make a great pair, and I liked the power of
@@ -270,9 +270,9 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 ## The Top of the Trashpile
 
 :::row{variant=CENTERED}
-- Gemstone Mine
-- DD
-- Silence
+Gemstone Mine
+DD
+Silence
 :::
 
 So where did I end up after all that? Well, here's two lists:
@@ -281,7 +281,7 @@ So where did I end up after all that? Well, here's two lists:
 
 ::decklist{path=2021/07/26/ddft.wubrg.echo}
 
-If normal *Echo Doomsday* was a 1 and full-blown *Mindkilller* was a 10, then
+If normal _Echo Doomsday_ was a 1 and full-blown _Mindkilller_ was a 10, then
 the first list is probably a 7 and the second is a 3. I've learned and applied
 some lessons from both ends of the DDFT spectrum and thus you'll see some
 similarities between the two lists. The most notable is in the manabase, which
@@ -290,13 +290,13 @@ probably looks like a burning dog poo, but it usually works out.
 For the 5c Echo DDFT list, the mana actually seems more stable in this
 configuration. When the most important thing is being able to cast your spells
 on time, fetching for basics, or green or white sources, can be a liability. In
-the *Mindkiller* variant, the power of Brainstorm both in setup and in piles is
+the _Mindkiller_ variant, the power of Brainstorm both in setup and in piles is
 worth contorting the mana a bit to play a handful of fetches.
 
 :::row{variant=CENTERED}
-- Prismatic Ending
-- Endurance
-- Dress Down
+Prismatic Ending
+Endurance
+Dress Down
 :::
 
 The primary type of disruption is also the same between the two lists now,
@@ -308,9 +308,9 @@ Mindbreak Trap, Dress Down, etc. and the value of telling your opponent to just
 shut up has skyrocketed. With a 5c manabase, Chants are easy enough to support.
 
 :::row{variant=CENTERED}
-- Peer into the Abyss
-- Rip Apart
-- Galvanic Relay
+Peer into the Abyss
+Rip Apart
+Galvanic Relay
 :::
 
 The sideboards have also acquired some new tools. Since the early days of the
@@ -324,7 +324,7 @@ mana than other options.
 Finally, the number of Spoils of the Vault warrants some discussion. In 5c Echo
 DDFT, the first Spoils is the most powerful. It has application in piles, it can
 be used as a simple cantrip if you know the top of your deck, and it functions
-as a tutor in a pinch. In *Mindkiller*, Spoils is extremely powerful but you
+as a tutor in a pinch. In _Mindkiller_, Spoils is extremely powerful but you
 don't typically want to draw more than 1 per game. Factoring in the risk
 involved in casting it, and I settled on 2 copies, although 3 is also
 reasonable.
