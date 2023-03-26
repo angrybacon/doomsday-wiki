@@ -37,20 +37,16 @@ As previously stated, the shell of both Tin Fins and Doomsday are remarkably sim
 
 :card[Collective Brutality] - CoBru is an uncountable way to *bin* Griselbrand or Emrakul. Simply cast it with at least one Escalate mode and you are able to discard a card as a cost. CoBru also allows you to win without the combat step by draining your opponent for 2 life every time you *loop* your library. Despite these upsides, the card is clunky and can be considered a flex slot.
 
-:card[Personal Tutor] - While it is a staple of Turbo Doomsday lists, we generally run it as a 2-of or not at all. It makes the Doomsday plan more consistent at the cost of our already limited sideboard slots.
+:card[Personal Tutor] - While it is a staple of Turbo Doomsday lists and generally run as a four-of there, we run it as a two-of or not at all. It makes the Doomsday plan more consistent at the cost of our already limited sideboard slots.
 
-:card[Thassa’s Oracle] - While a single copy is required for the :card[Doomsday] plan, a second is optional and can be replaced with a draw spell such as :card[Predict] or :card[Ideas Unbound].
+:card[Thassa’s Oracle] - A single copy is required for the :card[Doomsday] plan. Running a second is optional and can be replaced with a draw spell such as :card[Predict] or :card[Ideas Unbound].
 
 ### Other Options
 
-:card[Chrome Mox] - Lotus Petal number 5.
+:card[Chrome Mox] - This can be run as Lotus Petal number five, which can allow you to combo off sooner and give you an additional way to continue comboing after drawing 14 cards with Griselbrand.
 
-:card[Predict] and :card[Ideas Unbound] - A way to quickly draw through your *pile*. Opinions on these cards are fairly split amongst Doomsday players.
+:card[Predict] and :card[Ideas Unbound] - Predict and Ideas Unbound allow you to quickly draw through your Doomsday pile and build protection into it at the cost of making you vulverable to disruption like :card[Pyroblast]/[:cardRed Elemental Blast].
 
 :card[Chain of Vapor] - Cheaper to cast than :card[Echoing Truth], but can’t bounce :card[Chalice of the Void] on 1.
 
-:card[Reanimate] - Some pure Tin FIns lists will sometime run a single copy of Reanimate. This is generally not necessary for Entombsday, but is an option if you would like to try it.
-
-### Cards to Avoid
-
-
+:card[Reanimate] - Tin Fins lists will sometimes run a single copy of Reanimate to allow you additional routes to combo off, as well as allowing you to reanimate Children of Korlis using fewer reources. This is generally not standard for Entombsday, but is an option if you would like to try it. It can also enable Doomsday piles that mill Thassa's Oracle with Consider, but this opens you up to graveyard hate, which Entombsday is built to dodge.
