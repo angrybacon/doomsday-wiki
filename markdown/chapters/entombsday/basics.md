@@ -30,9 +30,7 @@ Tin Fins players are no strangers to transformational sideboards and hybrid game
 
 Tin Fins is fun to play. Doomsday is fun play. As the old Reese's ad goes, they're "two great tastes that taste great together!"
 
-From a more objective point of view, both game plans cover each other's weaknesses incredibly well, require little-to-no sacrifice for either gameplan, and allow for some unique gameplay patterns utilizing cards from both plans.
-
-
+From a more objective point of view, both game plans cover each other's weaknesses well. Tin Fins is a safer combo against decks such as Delver that pressure your life total by letting you choose how much life to invest, rather than the hard half of your life total that Doomsday requires. Meanwhile, the Doomsday combo doesn't use the graveyard and is more effectively able to 'go off' and then pass the turn. Both plans require little-to-no sacrifice for the other gameplan, and allow for some unique gameplay patterns utilizing cards from both plans.
 
 Ever cast a Shallow Grave to rebuy a Thassa's Oracle? How about sacrificing Children of Korlis after casting Doomsday?
 

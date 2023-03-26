@@ -60,4 +60,9 @@ Note that Shallow Grave is required here, as it does not target a specific card.
 - Surgical Extraction
 :::
 
-While similar to the previously mentioned effects, Surgical Extraction requires the inverse play pattern. Since Surgical Extraction exiles all copies of the chosen card, you can't allow it to resolve. To beat these effects, you will need two reanimation effects instead of two Entomb effects is you're unable to just counter the spell. 
+While similar to the previously mentioned effects, Surgical Extraction requires the inverse play pattern. Since Surgical Extraction exiles all copies of the chosen card, you can't allow it to resolve. To beat these effects, you will need two reanimation effects instead of two Entomb effects is you're unable to just counter the spell.
+
+In this scenario, you can bait the Surgical using the first reanimation spell, then you can respond to Surgical with the second. Things can get weird if they have two copies of Surgical, but you also run discard spells and countermagic, so you can use those to force them to Surgical before you cast your reanimation or just counter their Surgical.
+
+
+
