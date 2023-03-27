@@ -204,7 +204,7 @@ rather than just two. This also results in a perfect pile.
 
 You may find yourself with all the tools in hand to perform a Brainstorm pile,
 but you don't have a spare {U} this time to cast the Brainstorm itself. If you
-have any free cycling effect in hand you can get around this by placing a Lotus
+have any free cycle effect in hand you can get around this by placing a Lotus
 Petal as the first card of your pile. This works with a {U}-producing land as
 well if you have an available land drop for that turn.
 

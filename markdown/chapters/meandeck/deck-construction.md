@@ -24,8 +24,8 @@ elements or ratios of card choices can do and hopefully give you an idea of how
 you might wish to tailor the shell to your own individual playstyle.
 
 We will start by exploring the main card groups which are incorporated into the
-archtype and then look to explore what considerations are made when putting them
-together.
+archetype and then look to explore what considerations are made when putting
+them together.
 
 ## Doomsdays
 
@@ -295,7 +295,7 @@ Dur
 Tsz
 Teferi, Time Raveler
 Baleful Strix
-Grief
+Grief | MH2
 :::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
@@ -474,6 +474,7 @@ longer and grindier game most likely.
 BS
 Pnd
 Pre
+Con
 Mishra's Bauble
 :::
 
@@ -499,8 +500,8 @@ deck or in terms of what your opponent is playing. Most importantly though it
 allows you to consistently _hit_ with Predict allowing the maximum card
 advantage to be accrued with it. Outside of this interaction though, it is
 likely worse than Preordain despite the lower cost as it decreases your
-potential blue count for Force of Will and can be slow/not contribute to same
-turn wins when you need them.
+potential blue count for Force of Will and the delayed draw cannot contribute to
+same turn wins when you need them.
 
 :card[Consider] is a new card from 2021 which has started to be incorporated
 into lists. It acts like a cantrip however it is more accurate to describe it as
@@ -580,12 +581,12 @@ DA
 :::
 
 There are a few options for this category but they all do very similar things.
-:card[Ideas Unbound], Predict and :card[Night's Whisper] all allow you to access
-multiple cards in your pile at once. They also can have additional utility
-outside of the combo with Predict and Whisper providing stable card advantage
-over time. Ideas Unbound is the most effective/popular one with the others
-sometimes providing a supporting role. Most of the time however only one
-multi-draw spell is run in a list. Control style lists may consider to run
+:card[Ideas Unbound], :card[Predict] and :card[Night's Whisper] all allow you to
+access multiple cards in your pile at once. They also can have additional
+utility outside of the combo with Predict and Whisper providing stable card
+advantage over time. Ideas Unbound is the most effective and popular one with
+the others sometimes providing a supporting role. Most of the time however only
+one multi-draw spell is run in a list. Control style lists may consider to run
 multiple Predict either with, or without, and Ideas Unbound in the list as a raw
 card advantage engine.
 
@@ -605,10 +606,10 @@ Cavern of Souls is an excellent way to ensure you can resolve Oracle in the face
 of countermagic or a Chalice of the Void X = 2. It fits very neatly into the
 shell and can be incorporated into many of the piles that are made. Lists will
 run between zero and one of them, sometimes in the sideboard but mostly in the
-main deck. Although it can tap for {C} it is not considered to be countered
-towards your land/mana count and should instead be considered as a spell. It can
-have some extra utility if you are running a creature package by allowing you to
-cast those creatures with it. Good in heavy {U} metas.
+main deck. Although it can tap for {C} it is not considered to be counted
+towards your land count and should instead be considered as a spell. It can have
+some extra utility if you are running a creature package by allowing you to cast
+those creatures with it. Good in heavy {U} metas.
 
 ### Pact of Negation
 
@@ -630,8 +631,8 @@ very mana-efficient piles. Some elect to run this package over :card[Ideas
 Unbound] whilst others prefer to run them in conjunction with one another. If
 running the package, the Consider normally replaces a Preordain and the Deep
 Analysis replaces a :card[Personal Tutor] or a free cycle effect. If planning to
-go fast it is best to maximise the number of free cycle effects with
-Consider/Deep Analysis as they also enable the ability to go for aggressive, low
+go fast it is best to maximise the number of free cycle effects with Consider
+and Deep Analysis as they also enable the ability to go for aggressive, low
 resource wins.
 
 ## Putting It All Together
