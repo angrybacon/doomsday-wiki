@@ -413,7 +413,7 @@ consider at least 2 Underground Seas in your list and probably 1 each of the
 primary splash colour U/X and B/X dual land.
 
 For example if you are running a Grixis list you should run 1 Volcanic Island
-and 1 Badlands and tailor your fetches accordingly so 4 Delta and 4 Scalding
+and 1 Badlands and tailor your fetchlands accordingly so 4 Delta and 4 Scalding
 Tarn or 3 Tarn and 1 Bloodstained Mire. Being able to fetch a basic Island is
 more crucial than a basic swamp as that tends to allow you to get into the game
 in the first place and the majority of your deck is {U} based cantrips anyways.

@@ -291,7 +291,7 @@ For the 5c Echo DDFT list, the mana actually seems more stable in this
 configuration. When the most important thing is being able to cast your spells
 on time, fetching for basics, or green or white sources, can be a liability. In
 the _Mindkiller_ variant, the power of Brainstorm both in setup and in piles is
-worth contorting the mana a bit to play a handful of fetches.
+worth contorting the mana a bit to play a handful of fetchlands.
 
 :::row{variant=CENTERED}
 Prismatic Ending

@@ -39,9 +39,9 @@ more controlling shell focussing on winning via the card :card[Laboratory
 Maniac].
 
 This deck didn't feature any of the titular Storm cards such as :card[Lion's Eye
-Diamond] but did instead pack a whole heap of counter magic featuring
-:card[Force of Will], :card[Spell Pierce] and :card[Pact of Negation] to name a
-few (even a :card[Misdirection]!).
+Diamond] but did instead pack a whole heap of countermagic featuring :card[Force
+of Will], :card[Spell Pierce] and :card[Pact of Negation] to name a few (even a
+:card[Misdirection]!).
 
 You can find a video of the deck in action
 [here](https://www.youtube.com/watch?v=UuswAK0IYdg)
@@ -133,12 +133,12 @@ Unearth
 :::
 
 As you can see these piles are quite lean in terms of mana and card resources
-post Doomsday resolution. This, coupled with the fact you now have the counter
-magic along with old faithfuls such as :card[Thoughtseize] and new faces such as
-:card[Veil of Summer] means you suddenly have a quite convincing control list
-that can win out of nowhere. The number of _bad cards_, whilst not being zero,
-has now dropped to maybe two-three per list and the range of splash colours on
-offer means the list is quite configurable to taste.
+post Doomsday resolution. This, coupled with the fact you now have the
+countermagic along with old faithfuls such as :card[Thoughtseize] and new faces
+such as :card[Veil of Summer] means you suddenly have a quite convincing control
+list that can win out of nowhere. The number of _bad cards_, whilst not being
+zero, has now dropped to maybe two-three per list and the range of splash
+colours on offer means the list is quite configurable to taste.
 
 ## _You've shown me some piles, but how do they actually work!?_
 

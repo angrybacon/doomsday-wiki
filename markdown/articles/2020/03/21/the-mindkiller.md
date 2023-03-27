@@ -6,13 +6,15 @@ tags: [LEGACY, DDFT]
 title: Have No Fear, the Mindkiller is Here
 ---
 
-> "I must not fear.  
+> I must not fear.  
 > Fear is the mind-killer.  
 > Fear is the little-death that brings total obliteration.  
 > I will face my fear.  
 > I will permit it to pass over me and through me.  
 > And when it has gone past I will turn the inner eye to see its path.  
-> Where the fear has gone there will be nothing. Only I will remain."
+> Where the fear has gone there will be nothing. Only I will remain.
+
+## Preamble
 
 One lesson all budding combo players learn as they dive into the world of
 degenerate Magic decks is when to _go for it_. When do you take a chance and jam

@@ -80,7 +80,7 @@ considerations and card sequencing become very different. LED becomes literal
 Lotus. Lands become huge liabilities and Cantrips reverse themselves. Take
 Preordain for instance. Normally if you see two bad cards you bottom both and
 draw a fresh one. With frenzy out you should instead bottom one, draw one and
-then have the fresh one on the top of your library. Things like Fetches and
+then have the fresh one on the top of your library. Things like fetchlands and
 :card[Conjurer's Bauble] can now help clear _dud_ cards off the top of the
 library and your hand becomes a weird part graveyard part Brainstorm access pool
 resource. Ponder becomes interesting as you can clear a dead card by _drawing_

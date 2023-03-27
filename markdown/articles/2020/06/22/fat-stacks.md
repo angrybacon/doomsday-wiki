@@ -67,7 +67,7 @@ Void]). It also gives information about the opposing player's hand to help
 inform future decisions.
 
 The main downside to discard, and why it is not the most prevalent secondary
-interaction element, after counter magic, is of course :card[Veil of Summer].
+interaction element, after countermagic, is of course :card[Veil of Summer].
 Firing a discard spell into an open {G} mana is a recipe for giving your
 opponent a 2 for 1. Despite this current meta trend, it's still worth running,
 it just requires some additional consideration for timing of use.
@@ -438,7 +438,7 @@ resolving and create a _pass the turn_ pile to win the next turn.
 ## The Doomsday Mirror
 
 This could just be titled "Scenario 3" however I want to give special mention to
-one of my personal favourite match-ups on Doomsday; the mirror! It used to be,
+one of my personal favourite matchups on Doomsday; the mirror! It used to be,
 for older DDFT, that this went a bit more like a Storm mirror with both players
 slinging discard spells at each other until one person managed to top deck a key
 winning piece. With the addition of the counter suite and other interactive

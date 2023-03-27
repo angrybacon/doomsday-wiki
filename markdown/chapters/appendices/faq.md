@@ -29,7 +29,7 @@ Griselbrand
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
 have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
 and Tendrils of Agony. They also prefer proactive protection such as Duress over
-being able to run reactive counter magic.
+being able to run reactive countermagic.
 
 **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
 was the main variant available post Gitaxian Probe ban and pre-printing of
@@ -116,8 +116,6 @@ their own plan as much.
 
 These are likely the most favourable matchups (part based on gut feel and part
 based on community-obtained results found [here][data:matchups]).
-
-Head over to the [matchup reference](/meandeck/matchups) for more details.
 
 ## What is the worst matchup for the deck?
 

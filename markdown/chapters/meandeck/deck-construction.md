@@ -1,6 +1,7 @@
 ---
 authors: Otterlady, Doishy
-title: Deck Construction Principles
+order: 5
+title: Deck Construction
 ---
 
 ## Table of Contents
@@ -26,7 +27,7 @@ We will start by exploring the main card groups which are incorporated into the
 archtype and then look to explore what considerations are made when putting them
 together.
 
-## Doomsday's
+## Doomsdays
 
 ### Tutors
 
@@ -89,9 +90,9 @@ required in order to be able to cast your spells. Doomsday tends to be a deck
 centered around the {U}{B} colour pairing with occasionally secondary and
 tertiary splash colours being integrated in. The deck runs a fetchland manabase
 normally consisting of four copies of :card[Polluted Delta] and four to five
-additional _off-colour_ fetches. The _off-colour_ fetches tend to be the {U}
-based splash fetch (where a splash is applicable) as the majority with
-ocassional incorporation of the {B} based splash fetch.
+additional _off-colour_ fetchlands. The _off-colour_ fetchlands tend to be the
+{U} based splash ones (where a splash is applicable) as the majority with
+occasional incorporation of the {B} based splash fetchland.
 
 For example: In a Grixis {U}{B}{R} based Doomsday list you might elect to run
 four :card[Polluted Delta], three :card[Scalding Tarn] and one
@@ -194,7 +195,7 @@ dual land of the appropriate type here.
 - 1 Island
 - 1 Swamp
 
-You can consider swapping basics for additional fetches if you want to be a
+You can consider swapping basics for additional fetchlands if you want to be a
 little less resilient vs. Wasteland or :card[Blood Moon] effects. Inversely you
 can also go down to three Seas to add an additional basic land if desired.
 
@@ -248,13 +249,15 @@ are favourable for either decks looking to win fast or that have greedier mana
 requirements due to splash colours. In a control style list you may only wish to
 run two whilst most other lists will probably wish to run three or four.
 
-Some people opt for additional acceleration in the form of a singleton
-:card[Cabal Ritual]. This is simply a way to ensure you have more consistent
-access to {B}{B}{B} and is generally just a way to jump from two mana to three
-mana. The Threshold effect is normally not something that is required. You would
-only consider running a Cabal Ritual if you really wanted to cheat on mana and
-try to make your deck as consistent as possible for mulliganing purposes. Some
-people include one or two Cabal Rituals as sideboard cards for certain matchups.
+Some people opt for additional acceleration in the form of :card[Cabal Ritual].
+This is simply a way to ensure you have more consistent access to {B}{B}{B} and
+is generally just a way to jump from two mana to three mana. The Threshold
+effect is normally not something that is required. You would want to run Cabal
+Ritual if you really wanted to cheat on mana and try to make your deck as
+consistent as possible for mulliganing purposes or to enable aggressive
+searching of basic lands more frequently. If running alternate plans that can
+make use of the mana such as :card[Grief] or :card[Sheoldred, the Apocalypse]
+you can also use them to power these out quicker.
 
 ### Deckbuilding Ratios
 
@@ -444,8 +447,8 @@ of Negation too.
 - 1 Flusterstorm
 
 Here you can see this list has opted to run a heavier discard package and some
-additional counter magic. They have a higher land count than the _turbo_ list
-and likely fewer free cycle effects too which provides the slots to add these
+additional countermagic. They have a higher land count than the _turbo_ list and
+likely fewer free cycle effects too which provides the slots to add these
 additional interaction elements in.
 
 #### {U}{B}{G} Uro
@@ -527,9 +530,12 @@ CoS
 This is probably the most diverse set of cards and might as well be titled
 _miscellaneous_ however there are some important pieces in here that are
 fundamental to the deck. A lot of these cards do have a lot of usage outside of
-the Doomsday pile but their core value/the reason they are in the deck is often
-to be searched up and utilised as part of your combo. In theory almost all of
-these are optional extras apart from one key component:
+the Doomsday pile but the reason they are in the deck is often to be searched up
+and utilised as part of your combo. Examples like Echo can be used to build
+piles that have backup plan or maximise the cards you obtain in them whilst
+cards like Relic can be use to protect your graveyard against Endurance. In
+theory almost all of these are optional extras apart from one key component:
+:card[Thassa's Oracle].
 
 ### Thassa's Oracle
 
@@ -587,7 +593,7 @@ card advantage engine.
 
 :card[Lion's Eye Diamond] is an incredibly strong card that allows you, in your
 piles, to cheat on mana. It has some limitations in not allowing you to use
-counter magic to protect anything you cast with it but the benefits are so large
+countermagic to protect anything you cast with it but the benefits are so large
 that these are not a concern. It is one of the cards that enables the fastest
 wins and the most mana efficient piles in the deck. You should almost always run
 one as a core card in the deck however any more can be a liability as it has
@@ -596,7 +602,7 @@ almost no use outside of piles (though there are some corner cases).
 ### Cavern of Souls
 
 Cavern of Souls is an excellent way to ensure you can resolve Oracle in the face
-of counter magic or a Chalice of the Void X = 2. It fits very neatly into the
+of countermagic or a Chalice of the Void X = 2. It fits very neatly into the
 shell and can be incorporated into many of the piles that are made. Lists will
 run between zero and one of them, sometimes in the sideboard but mostly in the
 main deck. Although it can tap for {C} it is not considered to be countered
@@ -669,7 +675,7 @@ like TCDecks or that can be found in the `#decklists-archive` channel in the
 ## Next Steps
 
 Now you have considered how to build your main deck, next chapter will explore
-the principles behind sideboard card choices and the principles to follow for
+the principles behind sideboard card choices and the ideas to follow for
 facing off against different archetypes.
 
 [discord]: https://discord.gg/vajvFXt

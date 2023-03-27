@@ -126,7 +126,7 @@ BW
 :::
 
 Echo of Eons in the maindeck provides some very interesting pile options, which
-are explored more in-depth in a later chapter. One powerful application is
+are explored more in depth in a later chapter. One powerful application is
 building a high storm count by recycling multiple spells post-Doomsday. In this
 example, you draw Ideas Unbound, which draws 2 LEDs and an Echo of Eons. Crack
 both LEDs for RRRUUU, and spend your blue mana to flashback Echo. This will draw

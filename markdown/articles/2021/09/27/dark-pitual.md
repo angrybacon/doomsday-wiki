@@ -95,7 +95,7 @@ Will], :card[Daze]. I am also on the draw in this game. They played a
 :card[Thoughtseize], I see double :card[Daze], :card[Expressive Iteration] and
 some lands, I took a :card[Daze]; I cast :card[Dark Ritual] into
 :card[Doomsday], now the pile I ended up building was what I like to call the
-DnT pile, 2x fetches, :card[Thassa's Oracle] and 2 fetchable lands. This pile
+DnT pile, 2x fetchlands, :card[Thassa's Oracle] and 2 fetchable lands. This pile
 would lose to a second piece of countermagic but it would beat removal, the
 :card[Daze] I knew about and :card[Wasteland]. They drew a :card[Force of Will]
 and we went to play g2.
@@ -227,7 +227,7 @@ Well, as it turns out I was going to have to play against some hard MU in these
 last rounds.
 
 G1. This was kinda funny, both me and my opponent just mulliganed into oblivion.
-My opener was 5 lands (mixed of :card[Underground Sea] and fetches)
+My opener was 5 lands (mixed of :card[Underground Sea] and fetchlands)
 :card[Ponder] and :card[Daze], after that I saw two hands without lands, both me
 and my opponent decided to pile shuffle. I stopped at 4 and they went down to 3
 cards, I kept a hand resilient to :card[Wasteland] and it could cantrip. The
@@ -741,7 +741,7 @@ vaguely recognized him under his mask from monthly tournaments at DC Games.
 
 Game 1 was quite strange, in that Anthony never fetched a red source, only
 :card[Tundra]s, presumably to hide what he was on; we exchanged :card[Stifle]s
-on fetches and :card[Wasteland], and I eventually found the combo with
+on fetchlands and :card[Wasteland], and I eventually found the combo with
 disruption in the form of :card[Thoughtseize] and :card[Force of Will] backup to
 win with a pass-the-turn pile using :card[Ideas Unbound].
 
@@ -750,7 +750,7 @@ win with a pass-the-turn pile using :card[Ideas Unbound].
 **Out:** 4 :card[Force of Will], 2 :card[Lim-Dul's Vault]
 
 I remember Game 2 being a slog, with us again trading :card[Stifle]s on
-fetches/:card[Wasteland], my having to deal with an initial Ragavan with
+fetchlands and :card[Wasteland], my having to deal with an initial Ragavan with
 :card[Abrade] out of the sideboard. This was followed up by Anthony with a
 second continuously _dashed_ Ragavan that I was unable to deal with. I made a
 critical mistake with my cantrip decisions at this point that cost me the game,
@@ -783,7 +783,7 @@ result, it's also the match I remember the best, since I have thought about how
 I could have played it better since then.
 
 Game 1, I kept a slow hand of :card[Ponder], 2x :card[Force of Will],
-:card[Street Wraith], Fetchland, Fetchland, and was on the play. Against any
+:card[Street Wraith], fetchland, fetchland, and was on the play. Against any
 other deck and player, I would have said this would have been a fine keep.
 Against Bryant on TES, I should have looked for a faster combo hand, since that
 is how :card[Doomsday] wins the Storm matchup. I opened with fetching for an
@@ -853,7 +853,7 @@ that whole game incredibly poorly.
 I talked with both Max and Romario after the match about Game 2 specifically,
 and they had different takes. Max was of the opinion that I did have to go for a
 :card[Doomsday] there because I was so far behind, but I should have jam packed
-my pile with counter magic and that way let :card[Echo of Eons] resolve to keep
+my pile with countermagic and that way let :card[Echo of Eons] resolve to keep
 Bryant off the win. Romario was of the opposite opinion, that I should have
 waited, since I had the ability to :card[Force of Will] or :card[Stifle] and
 could potentially draw into a same turn kill. After the match, Bryant and I also
@@ -901,7 +901,7 @@ Kyle untapped, played another fetchland, cast :card[Ponder], and passed. I cast
 :card[Ideas Unbound], played :card[Lotus Petal], cycled into Cavern on Merfolk,
 and cast an uncounterable :card[Thassa's Oracle] for the win.
 
-Game 3, I was on a mull to 5, but found a quick hand of Fetchland, :card[Dark
+Game 3, I was on a mull to 5, but found a quick hand of fetchland, :card[Dark
 Ritual], :card[Doomsday], :card[Daze].  
 I drew into a second :card[Daze] after Kyle opened with :card[Volcanic Island]
 into :card[Delver of Secrets]. On my turn, I cracked the fetch for

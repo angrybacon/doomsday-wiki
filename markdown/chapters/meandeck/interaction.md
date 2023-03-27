@@ -1,5 +1,6 @@
 ---
 authors: angrybacon, Labman13, Doishy
+order: 4
 title: Playing Around Interaction
 ---
 
@@ -509,10 +510,10 @@ what you need are dramatically increased. See below a table that shows the
 percentage of successfully finding either the IU itself or Edge of Autumn that
 then cycles into IU.
 
-|                | Street Wraith | Ponder | Brainstorm | Preordain |
-| -------------- | :-----------: | :----: | :--------: | :-------: |
-| Perfect Pile   |      25%      |  70%   |    60%     |    70%    |
-| Imperfect Pile |      20%      |  53%   |    45%     |    66%    |
+|                | Street Wraith / Consider | Ponder | Brainstorm | Preordain |
+| -------------- | :----------------------: | :----: | :--------: | :-------: |
+| Perfect Pile   |           25%            |  70%   |    60%     |    70%    |
+| Imperfect Pile |           20%            |  53%   |    45%     |    66%    |
 
 If your opponent then waits on the Surgical for after you already have the
 ability to draw three of the four remaining cards in the deck and are only
@@ -578,18 +579,17 @@ SW
 TO
 :::
 
-For the example above, if they Grindstone when digging into the pile you will
-_mill_ Ponder and Ponder and then also Wraith and Edge and draw TO to be able to
-cast it with 0 cards in your library. If you can draw into Ponder, you cast
-Ponder and again, if they go to activate Grindstone, you will _mill_ Ponder and
-Street Wraith which allows you to draw Edge and cycle into Oracle. If you are
-allowed to access the second Ponder then, assuming they do not activate
-Grindstone here you can directly grab Oracle and cast it with 2 cards left in
-your library and a devotion of 2.
+For the example above, if they activate Grindstone prior to accessing the pile
+you will _mill_ SW and Edge, drawing TO for your turn and allowing you to cast
+it. If they wait until you draw SW (activating in your draw step) you will
+_mill_ Edge and Oracle. This allows you to SW into SW into Oracle. If you are
+able to resolve the first SW cycling without any response then you can access
+Edge and cycle again. If they activate here you will mill TO and the second SW
+and draw the second TO.
 
 This is just one example in a single set of potential circumstances of course.
 Similar to this includes cards like :card[Hedron Crab], :card[Altar of
-Dementia], :card[Ipnu Rivulet] and :card[Cephalid Coliseum].
+Dementia] and :card[Ipnu Rivulet].
 
 ### Fireblast
 
@@ -615,7 +615,7 @@ Mindbreak Trap
 
 :card[Mindbreak Trap] is a popular tool to beat combo decks and work around Veil
 of Summer. If you know or suspect the possibility of facing it then you can
-either try to incorporate counter magic into your strategy or build a PTT pile
+either try to incorporate countermagic into your strategy or build a PTT pile
 that is mindful of the spell count. Assuming that you cast Dark Ritual into
 Doomsday, it is risky to try and resolve a third spell.
 
@@ -714,7 +714,7 @@ Dress Down
 These effects all seek to prevent the Thassa's Oracle trigger from either
 resolving or ever triggering in the first place. For any permanent based one you
 will need to remove it to be able to win from the Oracle trigger. For the
-instant speed ones, you will need some sort of interaction, either counter magic
+instant speed ones, you will need some sort of interaction, either countermagic
 or discard (however in the case of :card[Trickbind] you have to be proactive
 thanks to the split second ability) so something like Duress is a must. You can
 also think about using a second Oracle in your pile if you only suspect a single
@@ -781,6 +781,17 @@ Anti-graveyard sideboard choices like :card[Relic of Progenitus] or
 :card[Tormod's Crypt] can double as Endurance insulation by putting them in the
 pile or by drawing them naturally.
 
+## Deciding When to Pass the Turn
+
+One of the hardest tricks to master is the judgement of when to utilise a PTT or
+slow pile and when to go for it in the face of possible interaction. There is no
+hard science to this judgement but it does depend on the resources you have
+available to you, the suspected interaction the opponent has and the degree of
+_pressure_ they are imposing on you with their own gameplan (are they likely to
+be able to win if given the extra turn or turns?). This is something you will
+get better with as you accrue experience and learn the rest of the metagame
+along with your own deck.
+
 ## Final Thoughts
 
 There are a number of things that you may face and the ability to deal with it
@@ -795,5 +806,9 @@ cases. Just try your best to make note of what you are aware of, play around
 what you can but be mindful that sometimes you cannot play around everything and
 need to accept if they have the one corner case card.
 
-In the next section we shall explore sideboard choices and theory which will
-help you with some of the decisions or scenarios presented in this chapter.
+## Next Steps
+
+Now we have a lot of piles under our belt it is time to think on what sort of
+deck construction we are looking for. In the next section we shall discuss the
+deck building and the theorycrafting behind it to help you try and work out what
+sort of Doomsday list you want to play.
