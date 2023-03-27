@@ -19,6 +19,11 @@ export const DECORATIONS: MenuDecoration[] = [
     title: 'DDEFT',
   },
   {
+    category: Category.ENTOMBSDAY,
+    subtitle: 'Tin Fins + Doomsday',
+    title: 'Entombsday',
+  },
+  {
     category: Category.APPENDICES,
     subtitle: 'Other Resources',
     title: 'Appendices',
