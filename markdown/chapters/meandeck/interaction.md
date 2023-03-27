@@ -320,7 +320,7 @@ TO
 :::
 
 Both of the above examples are all comprised of zero or two mana cost spells and
-free cycling effects all of which can circumnavigate the limitations Chalice
+free cycle effects all of which can circumnavigate the limitations Chalice
 creates. If playing against a known Chalice deck, simply going turn one Doomsday
 off of Dark Ritual with another land in hand is pretty safe given you can ignore
 the interaction (at least where Chalice is concerned). The above are pretty

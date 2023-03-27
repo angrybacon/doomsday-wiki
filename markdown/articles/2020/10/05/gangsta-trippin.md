@@ -99,13 +99,13 @@ Recall].
 BS
 :::
 
-### Free _Cycling Effects_
+### Free Cycle Effects
 
 This next pair are mostly unique to Doomsday however :card[Death's Shadow] based
 decks (and some Dredge decks) will also make use of one of them. These are
-_free_ cycling cards that have little to no relevant text outside of their
-cycling abilities (other than some specific circumstances). Their use is almost
-always to provide a {0} mana draw effect after Doomsday has resolved.
+_free_ cycle cards that have little to no relevant text outside of their cycling
+abilities (other than some specific circumstances). Their use is almost always
+to provide a {0} mana draw effect after Doomsday has resolved.
 
 #### :card[Street Wraith]
 
@@ -330,7 +330,7 @@ most favourable success rate of building a standard same turn win pile.
 ### Cycling
 
 In terms of cantrip retention the best ones to keep back, when allowed, are the
-free cycling cards; Wraith and Edge. They provide the most mana efficient method
+free cycle cards; Wraith and Edge. They provide the most mana efficient method
 to draw into a pile post-Doomsday resolving. As with everything however, this
 may not always be the case and sometimes using a cycler prior to being in a
 position to combo can be advantageous.
