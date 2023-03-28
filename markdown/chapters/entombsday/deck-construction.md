@@ -10,8 +10,30 @@ title: Deck Construction
 
 As previously stated, the shell of both Tin Fins and Doomsday are remarkably similar and the combo packages are roughly the same size. Because of this overlap, there are very few concessions made in deckbuilding.
 
+Below are an Entombsday list and a Turbo Doomsday list:
+
 ::decklist{path=2023/03/entombsday.drynne}
-::decklist{path=2023/03/entombsday.Nitro_Rick}
+::decklist{path=2023/03/turbo.eternalrant}
+
+As you can see, the maindeck of both lists only differs by ~25 cards, with many of those being due to the choice of specific fetchlands, discard spells, and counterspells. The deckbuilding ratios are nearly the same. You'll also notice that many of the missing cards from the Doomsday maindeck are present in the sideboard of the Entombsday list.
+
+## General Deckbuilding Principles
+
+The idea behind modern builds of Entombsday is to take the Turbo Doomsday shell, move the Doomsday package to the sideboard (Doomsday, Tutors, Thassa's Oracle, and pile cards), then add in the Tin FIns combo package.
+
+As such, the deckbuilding ideas mirror those expressed in the [Deck Construction Priciples chapter of the Doomsday Wiki](/markdown/chapters/meandeck/deck-construction).
+
+### The Combo Packages
+
+:::row{variant=CENTERED}
+- Entomb
+- Shallow Grave
+- Griselbrand
+:::
+
+The core combo package of Tin Fins consists of a minimum of 4 :card[Entomb], 6 reanimation spells, 2 :card[Griselbrand], 1 :card[Emrakul, the Aeons Torn], and 1 :card[Children of Korlis]. 
+
+The Doomsday package in the sideboard is somewhat streamlined compared to current Doomsday list. We still run 4 copies of :card[Doomsday], 2 :card[Thassa's Oracle], and a :card[Cavern of Souls], but we only have space for 2 copies of :card[Personal Tutor], 2 :card[Street Wraith], and 1 :card[Edge of Autumn].
 
 ### Notable Inclusions
 
@@ -42,6 +64,11 @@ As previously stated, the shell of both Tin Fins and Doomsday are remarkably sim
 :card[Thassa’s Oracle] - A single copy is required for the :card[Doomsday] plan. Running a second is optional and can be replaced with a draw spell such as :card[Predict] or :card[Ideas Unbound].
 
 ### Other Options
+
+
+Here is another example Entombsday list running several of the below options:
+
+::decklist{path=2023/03/entombsday.Nitro_Rick}
 
 :card[Chrome Mox] - This can be run as Lotus Petal number five, which can allow you to combo off sooner and give you an additional way to continue comboing after drawing 14 cards with Griselbrand.
 
