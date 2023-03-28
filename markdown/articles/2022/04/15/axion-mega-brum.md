@@ -15,9 +15,9 @@ On the weekend just gone (9th and 10th of April 2022)
 since the whole COVID thing started. This included a massive Modern event, a
 unified Modern trios event and the return of one of their infamous Mega Legacy
 events too. Once again Fran&ccedil;ois's (the lovely owner) team pulled out all
-the stops putting up duals for the entire top 8 plus a *Diamond* top 8 for 9th
-to 16th, a *Platinum* top 8 for 17th to 24th, *Chocolate* top 8 for 25th to 32nd
-and a *Raspberry Muffin* top 8 for 33rd to 40th all of which had various goodies
+the stops putting up duals for the entire top 8 plus a _Diamond_ top 8 for 9th
+to 16th, a _Platinum_ top 8 for 17th to 24th, _Chocolate_ top 8 for 25th to 32nd
+and a _Raspberry Muffin_ top 8 for 33rd to 40th all of which had various goodies
 up for grabs.
 
 With 106 players for the event which sold out in under 3 hours it was going to
@@ -58,9 +58,9 @@ my sideboard plan for 8-Cast, which will become very relevant later, as I
 realised I did something different every time and suspected the deck to be
 popular (spoiler, it was).
 
-:::row{variant=hand}
-- Force of Negation
-- Flusterstorm
+:::row{variant=HAND}
+Force of Negation
+Flusterstorm
 :::
 
 As practice/training for the event I spent a day playing Mahjong, ran two proper
@@ -73,7 +73,7 @@ Wits] and 3 copies of :card[Yorion, Sky Nomad] in (so they can be found with
 In all honesty I didn't really prep for the event in terms of gameplay. I am now
 at a point where I feel confident in my play and be able to form at least some
 plan for most matchups (super rogue brews aside). As I trust in my mechanics and
-judgement the main thing I decided to focus on for this event was my *mental*.
+judgement the main thing I decided to focus on for this event was my _mental_.
 Now I am someone who can stress out easily especially when I perceive something
 as important which can lead to early mistakes, getting flustered over them and
 then it cascading into a full blown 0-3 drop scenario with high potential for
@@ -120,8 +120,8 @@ something nasty like an :card[Em] under there then I am well and truly fucked.
 But, waiting means more time for them to do whatever they are doing or finding
 disruption. As a result I decided to risk jamming and seeing what happened.
 
-:::row{variant=hand}
-- Shelldock Isle
+:::row{variant=HAND}
+Shelldock Isle
 :::
 
 I build something using :card[IU] and pass. They drop the know Island and pass
@@ -173,7 +173,7 @@ the win!
 
 ### Round 2 vs. Dylan on Food Chain
 
-Just before the match I bump into Greg aka *Dredge Greg* aka *THE_DADDY* on
+Just before the match I bump into Greg aka _Dredge Greg_ aka _THE_DADDY_ on
 MTGO! He's an ex-Bristol/Wales local who I hadn't seen since pre-covid. It was
 lovely to catch up and we talked about how he had crushed me online at the EW
 Bayou event last year. (:card[Memory's Journey] too strong). Anyways, onto the
@@ -192,7 +192,7 @@ stuff. I think I also brought in maybe the Duress, I forget.
 I go to 6 whilst Dylan keeps seven. I Duress him turn 1 with only one valid
 target in :card[Mystical Dispute] and the rest of his hand being Endurance,
 :card[Ice-Fang Coatl], Griffin and some lands. I disrespect Endurance by just
-jamming turn 2 and setting up a pile with double Oracle in and counter magic for
+jamming turn 2 and setting up a pile with double Oracle in and countermagic for
 the first Endurance if needed. In the end I just need one Oracle to get the job
 done.
 
@@ -255,14 +255,14 @@ off Cavern with a silly amount of interaction available.
 
 What would you have taken here?
 
-:::row{variant=hand}
-- Lightning Bolt
-- Narset, Parter of Veils
-- Jace, the Mind Sculptor
-- Day's Undoing
-- Baleful Strix
-- Ponder
-- Volcanic Island
+:::row{variant=HAND}
+Lightning Bolt
+Narset, Parter of Veils
+Jace, the Mind Sculptor
+Day's Undoing
+Baleful Strix
+Ponder
+Volcanic Island
 :::
 
 **Dice Rolls**: 3-0  
@@ -283,7 +283,7 @@ decen if slow-ish 7 whilst he went to 6. I manage to snag a :card[Stoneforge
 Mystic] with a Thoughtseize leaving some :card[Rishadan Port]s in hand along
 with a :card[Mother of Runes] and :card[Flickerwisp]. It's a little late but I
 resolve Doomsday turn 4 and make a PTT pile that can beat double Port and
-Wasteland. Now he had been chipping me down with *Mom* so life total was looking
+Wasteland. Now he had been chipping me down with _Mom_ so life total was looking
 okay and the wisp hadn't appeared at all. Even despite a :card[Thalia, Guardian
 of Thraben] coming down Based on my calculations I was going to end the game
 with an empty library at 1 life. Now the element I did not account for was
@@ -332,7 +332,7 @@ So yeah, this is the part where the day breaks down.
 I check the standings and spy a familiar name joining me on table 1. Autumn used
 to be a Bristol local but moved away to bigger and better things including the
 small deal of smashing it on the pro circuit. We had both learnt to play Legacy
-from the same person and were *brought up* jamming my Manaless Dredge list vs
+from the same person and were _brought up_ jamming my Manaless Dredge list vs
 their {W} Stax deck. Good clean fun. Now I know they are a very good player and
 are likely on a tier deck so expected it to be a tricky fight. We sit down and
 have a lovely chat reconnecting and joking about how the Doomsday community went
@@ -343,7 +343,7 @@ nervous those things make me!) so we kicked off 10 minutes into the round.
 Game 1 I continue my streak of bossing die rolls and take the play with a
 decent 7. I tutor up a Doomsday and pass. Autumn drops some baubles and cracks
 them taking a look and their own library then passes. I have the option to
-deploy a *naked* turn 2 Doomsday here thanks to Petal but as 8-Cast run Forces
+deploy a _naked_ turn 2 Doomsday here thanks to Petal but as 8-Cast run Forces
 and Autumn had a basically full grip I elected to fire off a Duress this turn to
 check the coast was clear. It seemed to be with the hand comprising of
 :card[Thoughtcast], :card[Kappa Cannoneer] and some lands. Obviously I have to
@@ -376,7 +376,7 @@ Second half of the sandwich and satsuma eaten! Keep up the glucose!#
 
 I had someone do the maths and worked out that the 5th win would have allowed me
 to double ID and lock in top-8. As I was now on a loss I had to get one more win
-before the *free round* could be mine. So now relegated to table 5 we went at it
+before the _free round_ could be mine. So now relegated to table 5 we went at it
 again.
 
 So I sit opposite Andy who seemed to know exactly who I was and what my agenda
@@ -412,7 +412,7 @@ decks together. Post board 8-Cast bring Chalice, 8 Forces and Flusters and
 Disputes in which gives them an obscene amount of potential interaction so being
 able to get under them before they can deploy the Chalice or Mana for
 interaction is really important. I had said going into the event that Delver,
-8-Cast and DnT were my *decks to beat* and it looks like I was right with I
+8-Cast and DnT were my _decks to beat_ and it looks like I was right with I
 think 5/6 of the top 8 in the end being made up of robotic turtles.
 
 **Dice Rolls**: 6-0  
@@ -427,12 +427,12 @@ small chance to eke in to the top thanks to great breakers if I could smash this
 one out. My opponent snap keeps a 7 and I get a little scared as I have to go
 down to 5. But what a 5 it was! (And yes, of course I was on the play again).
 
-:::row{variant=hand}
-- DR | MMQ
-- DD
-- FoW
-- Con
-- Underground Sea
+:::row{variant=HAND}
+DR | MMQ
+DD
+FoW
+Con
+Underground Sea
 :::
 
 Absolutely perfect, I jam a turn 1 Doomsday and make a resilient PTT pile with
@@ -517,14 +517,14 @@ he was not happy to see us! I was also one place higher in the standings so got
 to take the play again.
 
 Game 1 ended in a matter of minutes. We both have 7 and I had turn 1 Doomsday.
-He had no time against the *standard DnT pile* and couldn't get there.
+He had no time against the _standard DnT pile_ and couldn't get there.
 
 :::row{variant=PILE}
-- Scalding Tarn
-- Polluted Delta
-- TO
-- Underground Sea
-- Island
+Scalding Tarn
+Polluted Delta
+TO
+Underground Sea
+Island
 :::
 
 Same boarding as round 4.
@@ -568,7 +568,7 @@ I kept a 7 and he a 6. There was an early :card[Delver of Secrets] landing which
 put the pressure on revealing a Daze to the flip. After some careful cantripping
 and a well timed discard spell I was able to jam turn 3 with a PTT pile that
 only lost to Bolt. I had the Ideas in hand and was able to throw a lot of other
-cantrips in in case I had to *manually* dig through it if the Ideas got
+cantrips in in case I had to _manually_ dig through it if the Ideas got
 countered. Poor David went through something like 12 looks with cantrips but was
 not able to find the Bolt and I felt bad as this seemed to only reinforce his
 bias!
@@ -635,7 +635,7 @@ hamper progression towards a slower gamestate. I'm not going to change anything
 for now but the number of REB effects (3) would be my first potential cut if
 anything with maybe a mind to remove the splash entirely.
 
-I do want to play around a little with *ABCD* (always be casting Doomsday)
+I do want to play around a little with _ABCD_ (always be casting Doomsday)
 Doomsday having a go with taking out Daze, adding in :card[Cabal Ritual] and
 getting some :card[Misdirection] action going but not for any serious event
 until I have tried it locally / casually first. I am not going to try any of the

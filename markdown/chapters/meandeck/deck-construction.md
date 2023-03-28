@@ -1,6 +1,7 @@
 ---
 authors: Otterlady, Doishy
-title: Deck Construction Principles
+order: 5
+title: Deck Construction
 ---
 
 ## Table of Contents
@@ -11,7 +12,7 @@ Because of how flexible and versatile the Doomsday shell is, and how relatively
 compact the combo can be, there is a lot of potential variance to be found in
 terms of deck construction. Because of this, combined with individual pilot
 preferences, metagame shifts, new printings, meta changes and general brewing,
-it is almost impossible to simply list a *default deck* to start from and try
+it is almost impossible to simply list a _default deck_ to start from and try
 online or at a local event. If you do wish to find a decklist to start with,
 consider checking out the `#decklists-archive` channel in the [Doomsday
 Discord][discord] for the most recent successful lists people are trying out.
@@ -23,10 +24,10 @@ elements or ratios of card choices can do and hopefully give you an idea of how
 you might wish to tailor the shell to your own individual playstyle.
 
 We will start by exploring the main card groups which are incorporated into the
-archtype and then look to explore what considerations are made when putting them
-together.
+archetype and then look to explore what considerations are made when putting
+them together.
 
-## Doomsday's
+## Doomsdays
 
 ### Tutors
 
@@ -43,15 +44,15 @@ Vault]. Both of these are card disadvantage but allow you to locate a copy of
 Doomsday and place it on top of your deck. Personal Tutor is more favoured for
 faster style lists costing only {U} and is good for setting up earlier combo
 turns whilst LDV is slower but has more flexibility by avoiding :card[Chalice of
-the Void] set to X = 1, being an Instant and being able to *tutor* for cards
+the Void] set to X = 1, being an Instant and being able to _tutor_ for cards
 other than Sorceries.
 
 :::row{variant=CENTERED}
-- DD
-- PT
-- Lim-Dul's Vault
-- Solve the Equation
-- BW
+DD
+PT
+Lim-Dul's Vault
+Solve the Equation
+BW
 :::
 
 Another option, albeit a slower one again is :card[Solve the Equation]. This
@@ -89,18 +90,18 @@ required in order to be able to cast your spells. Doomsday tends to be a deck
 centered around the {U}{B} colour pairing with occasionally secondary and
 tertiary splash colours being integrated in. The deck runs a fetchland manabase
 normally consisting of four copies of :card[Polluted Delta] and four to five
-additional *off-colour* fetches. The *off-colour* fetches tend to be the {U}
-based splash fetch (where a splash is applicable) as the majority with
-ocassional incorporation of the {B} based splash fetch.
+additional _off-colour_ fetchlands. The _off-colour_ fetchlands tend to be the
+{U} based splash ones (where a splash is applicable) as the majority with
+occasional incorporation of the {B} based splash fetchland.
 
 For example: In a Grixis {U}{B}{R} based Doomsday list you might elect to run
 four :card[Polluted Delta], three :card[Scalding Tarn] and one
 :card[Bloodstained Mire] as your fetchlands of choice.
 
 :::row{variant=CENTERED}
-- Polluted Delta
-- Scalding Tarn
-- Bloodstained Mire
+Polluted Delta
+Scalding Tarn
+Bloodstained Mire
 :::
 
 An eight fetchland configuration is not required with some people opting for
@@ -131,9 +132,9 @@ Underground Seas, one :card[Tropical Island] and one :card[Bayou] as your dual
 lands of choice.
 
 :::row{variant=CENTERED}
-- Underground Sea
-- Tropical Island
-- Bayou
+Underground Sea
+Tropical Island
+Bayou
 :::
 
 The final land type to discuss (for this section) is your basic land count.
@@ -161,7 +162,7 @@ should not factor as part of your mana requirements and instead be considered as
 interaction.
 
 Let's consider some example mana bases for different styles of play for the
-deck. We shall present an aggressive, straight {U}{B} *Turbo* manabase, a more
+deck. We shall present an aggressive, straight {U}{B} _Turbo_ manabase, a more
 balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 
 #### {U}{B} Turbo
@@ -194,7 +195,7 @@ dual land of the appropriate type here.
 - 1 Island
 - 1 Swamp
 
-You can consider swapping basics for additional fetches if you want to be a
+You can consider swapping basics for additional fetchlands if you want to be a
 little less resilient vs. Wasteland or :card[Blood Moon] effects. Inversely you
 can also go down to three Seas to add an additional basic land if desired.
 
@@ -221,9 +222,9 @@ basics to find a ratio that fits your playing style preferences.
 ### Accelerant Choices
 
 :::row{variant=CENTERED}
-- DR
-- LP
-- CR
+DR
+LP
+CR
 :::
 
 Because Legacy can be a very fast and efficient format, additional help is
@@ -248,13 +249,15 @@ are favourable for either decks looking to win fast or that have greedier mana
 requirements due to splash colours. In a control style list you may only wish to
 run two whilst most other lists will probably wish to run three or four.
 
-Some people opt for additional acceleration in the form of a singleton
-:card[Cabal Ritual]. This is simply a way to ensure you have more consistent
-access to {B}{B}{B} and is generally just a way to jump from two mana to three
-mana. The Threshold effect is normally not something that is required. You would
-only consider running a Cabal Ritual if you really wanted to cheat on mana and
-try to make your deck as consistent as possible for mulliganing purposes. Some
-people include one or two Cabal Rituals as sideboard cards for certain matchups.
+Some people opt for additional acceleration in the form of :card[Cabal Ritual].
+This is simply a way to ensure you have more consistent access to {B}{B}{B} and
+is generally just a way to jump from two mana to three mana. The Threshold
+effect is normally not something that is required. You would want to run Cabal
+Ritual if you really wanted to cheat on mana and try to make your deck as
+consistent as possible for mulliganing purposes or to enable aggressive
+searching of basic lands more frequently. If running alternate plans that can
+make use of the mana such as :card[Grief] or :card[Sheoldred, the Apocalypse]
+you can also use them to power these out quicker.
 
 ### Deckbuilding Ratios
 
@@ -269,11 +272,11 @@ example below:
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- EoA
-- TO
+IU
+LP
+LP
+EoA
+TO
 :::
 
 ## Interaction
@@ -288,11 +291,11 @@ Examples of this include counter-magic like :card[Spell Pierce].
 ### Proactive Interaction
 
 :::row{variant=CENTERED}
-- Dur
-- Tsz
-- Teferi, Time Raveler
-- Baleful Strix
-- Grief
+Dur
+Tsz
+Teferi, Time Raveler
+Baleful Strix
+Grief | MH2
 :::
 
 Proactive interaction is most commonly found in Doomsday lists as either discard
@@ -305,7 +308,7 @@ Discard effects are good at providing information about a matchup early on and
 either preventing your opponent landing relevant threats or taking away their
 own interaction from them. They tend to excel in {U} based fair matchups or
 against opposing combo decks. They are often weaker against fair non-{U} decks
-or *stompy* type shells. The main limitation of discard effects is that, if they
+or _stompy_ type shells. The main limitation of discard effects is that, if they
 are used on a turn prior to the combo turn, the opponent may have a chance to
 draw into what they need.
 
@@ -358,11 +361,11 @@ from free cycle effects and other interaction.
 ### Reactive Interaction
 
 :::row{variant=CENTERED}
-- Force of Will
-- Daze
-- Flusterstorm
-- Veil of Summer
-- Subtlety | MH2
+Force of Will
+Daze
+Flusterstorm
+Veil of Summer
+Subtlety | MH2
 :::
 
 Reactive interaction is most commonly found in Doomsday lists as either
@@ -375,7 +378,7 @@ Countermagic is the most common form of interaction found in Doomsday. As with
 many blue decks in Legacy, the first card to consider is Force of Will. Force
 allows for interaction from turn one, even without lands in play, and provides a
 catch-all answer to anything your opponent is trying to do. It also can be used
-to help *push through* your own combo turn. As the Doomsday shell is
+to help _push through_ your own combo turn. As the Doomsday shell is
 predominantly a heavy {U} deck, the cost can almost always be paid. Force of
 Will is almost always run as a four of and should be considered a core staple of
 the deck.
@@ -384,7 +387,7 @@ Daze is another excellent tool in terms of interaction. It provides a second,
 mana-efficient piece of interaction that can help defend against key tap-out
 threats like :card[Trinisphere] or :card[Sylvan Library] whilst also providing
 the ability to push through early Doomsdays. As the game progresses they start
-being less effective but can be used *pitch* to Force of Will meaning they are
+being less effective but can be used _pitch_ to Force of Will meaning they are
 never truly dead cards. For non-control based lists this is almost always a
 four-of include into the deck as it really helps push through a lot of matchups.
 In control lists it tends to not be included at all, instead being replace with
@@ -419,7 +422,7 @@ will have at a minimum four copies of Force of Will and at least one Duress and
 one Thoughtseize. The rest becomes quite flexible.
 
 Let's consider some example mana bases for different styles of play for the
-deck. We shall present an aggressive, Grixis {U}{B}{R} *Turbo* package, a more
+deck. We shall present an aggressive, Grixis {U}{B}{R} _Turbo_ package, a more
 balanced straight {U}{B} package and an Uro style BUG {U}{B}{G} package.
 
 #### {U}{B}{R} Turbo
@@ -444,8 +447,8 @@ of Negation too.
 - 1 Flusterstorm
 
 Here you can see this list has opted to run a heavier discard package and some
-additional counter magic. They have a higher land count than the *turbo* list
-and likely fewer free cycle effects too which provides the slots to add these
+additional countermagic. They have a higher land count than the _turbo_ list and
+likely fewer free cycle effects too which provides the slots to add these
 additional interaction elements in.
 
 #### {U}{B}{G} Uro
@@ -468,14 +471,15 @@ longer and grindier game most likely.
 ### Cantrip Choices
 
 :::row{variant=CENTERED}
-- BS
-- Pnd
-- Pre
-- Mishra's Bauble
+BS
+Pnd
+Pre
+Con
+Mishra's Bauble
 :::
 
 Cantrips are a staple in {U} decks in Legacy and provide the ability to find the
-cards you need at the time you need them and allow you to *cheat* on mana
+cards you need at the time you need them and allow you to _cheat_ on mana
 resources as you don't have to rely on the top of your deck or openening hand to
 draw them. I won't write too much in detail on the different cantrips used
 however if you wish to read more about the ways of using them in the deck, feel
@@ -493,15 +497,15 @@ effects or creature packages.
 builds alongside high numbers of :card[Predict]. It acts as a delayed way to
 draw into a pile as well as providing fetching information for either your own
 deck or in terms of what your opponent is playing. Most importantly though it
-allows you to consistently *hit* with Predict allowing the maximum card
+allows you to consistently _hit_ with Predict allowing the maximum card
 advantage to be accrued with it. Outside of this interaction though, it is
 likely worse than Preordain despite the lower cost as it decreases your
-potential blue count for Force of Will and can be slow/not contribute to same
-turn wins when you need them.
+potential blue count for Force of Will and the delayed draw cannot contribute to
+same turn wins when you need them.
 
 :card[Consider] is a new card from 2021 which has started to be incorporated
 into lists. It acts like a cantrip however it is more accurate to describe it as
-a *pile card* more than anything. If being run, it will be between 1 and 2
+a _pile card_ more than anything. If being run, it will be between 1 and 2
 copies normally replacing some number of :card[Preordain].
 
 ### Deckbuilding Ratios
@@ -518,18 +522,21 @@ in testing.
 ## Pile Cards
 
 :::row{variant=CENTERED}
-- Relic of Progenitus
-- EoE
-- LED
-- CoS
+Relic of Progenitus
+EoE
+LED
+CoS
 :::
 
 This is probably the most diverse set of cards and might as well be titled
-*miscellaneous* however there are some important pieces in here that are
+_miscellaneous_ however there are some important pieces in here that are
 fundamental to the deck. A lot of these cards do have a lot of usage outside of
-the Doomsday pile but their core value/the reason they are in the deck is often
-to be searched up and utilised as part of your combo. In theory almost all of
-these are optional extras apart from one key component:
+the Doomsday pile but the reason they are in the deck is often to be searched up
+and utilised as part of your combo. Examples like Echo can be used to build
+piles that have backup plan or maximise the cards you obtain in them whilst
+cards like Relic can be use to protect your graveyard against Endurance. In
+theory almost all of these are optional extras apart from one key component:
+:card[Thassa's Oracle].
 
 ### Thassa's Oracle
 
@@ -543,12 +550,12 @@ same efficiency or efficacy as a win condition of choice.
 ### Free Cycle Effects
 
 :::row{variant=CENTERED}
-- SW
-- EoA
+SW
+EoA
 :::
 
 The next set of pile cards to look at are the free cyclers, that is :card[Street
-Wraith] and :card[Edge of Autumn]. In pile building they provide a *free* way to
+Wraith] and :card[Edge of Autumn]. In pile building they provide a _free_ way to
 draw a card that cannot be countered through conventional means. This gives a
 lot of flexibility and enables a lot of the faster, or same turn pile wins. Both
 tend to be run because sometimes the life total can be pressured and you may not
@@ -558,7 +565,7 @@ the more useful of the two outside of the combo.
 Depending on your playstyle you can probably run between one and six of these
 effects. You will want at least one to be able to create Brainstorm piles that
 use LED and a free cycle effect but after that it's up to personal taste. Most
-*turbo* lists will run four to six. Normally one Edge and the rest Wraiths.
+_turbo_ lists will run four to six. Normally one Edge and the rest Wraiths.
 Balanced lists will run two to five, again with at least one Edge and finally
 control or slower lists might only run zero to two. If they are just running one
 it is likely just a Street Wraith.
@@ -566,20 +573,20 @@ it is likely just a Street Wraith.
 ### Multi-Draw Spells
 
 :::row{variant=CENTERED}
-- Ideas Unbound
-- NW
-- TW
-- Reckless Impulse
-- DA
+Ideas Unbound
+NW
+TW
+Reckless Impulse
+DA
 :::
 
 There are a few options for this category but they all do very similar things.
-:card[Ideas Unbound], Predict and :card[Night's Whisper] all allow you to access
-multiple cards in your pile at once. They also can have additional utility
-outside of the combo with Predict and Whisper providing stable card advantage
-over time. Ideas Unbound is the most effective/popular one with the others
-sometimes providing a supporting role. Most of the time however only one
-multi-draw spell is run in a list. Control style lists may consider to run
+:card[Ideas Unbound], :card[Predict] and :card[Night's Whisper] all allow you to
+access multiple cards in your pile at once. They also can have additional
+utility outside of the combo with Predict and Whisper providing stable card
+advantage over time. Ideas Unbound is the most effective and popular one with
+the others sometimes providing a supporting role. Most of the time however only
+one multi-draw spell is run in a list. Control style lists may consider to run
 multiple Predict either with, or without, and Ideas Unbound in the list as a raw
 card advantage engine.
 
@@ -587,7 +594,7 @@ card advantage engine.
 
 :card[Lion's Eye Diamond] is an incredibly strong card that allows you, in your
 piles, to cheat on mana. It has some limitations in not allowing you to use
-counter magic to protect anything you cast with it but the benefits are so large
+countermagic to protect anything you cast with it but the benefits are so large
 that these are not a concern. It is one of the cards that enables the fastest
 wins and the most mana efficient piles in the deck. You should almost always run
 one as a core card in the deck however any more can be a liability as it has
@@ -596,13 +603,13 @@ almost no use outside of piles (though there are some corner cases).
 ### Cavern of Souls
 
 Cavern of Souls is an excellent way to ensure you can resolve Oracle in the face
-of counter magic or a Chalice of the Void X = 2. It fits very neatly into the
+of countermagic or a Chalice of the Void X = 2. It fits very neatly into the
 shell and can be incorporated into many of the piles that are made. Lists will
 run between zero and one of them, sometimes in the sideboard but mostly in the
-main deck. Although it can tap for {C} it is not considered to be countered
-towards your land/mana count and should instead be considered as a spell. It can
-have some extra utility if you are running a creature package by allowing you to
-cast those creatures with it. Good in heavy {U} metas.
+main deck. Although it can tap for {C} it is not considered to be counted
+towards your land count and should instead be considered as a spell. It can have
+some extra utility if you are running a creature package by allowing you to cast
+those creatures with it. Good in heavy {U} metas.
 
 ### Pact of Negation
 
@@ -624,8 +631,8 @@ very mana-efficient piles. Some elect to run this package over :card[Ideas
 Unbound] whilst others prefer to run them in conjunction with one another. If
 running the package, the Consider normally replaces a Preordain and the Deep
 Analysis replaces a :card[Personal Tutor] or a free cycle effect. If planning to
-go fast it is best to maximise the number of free cycle effects with
-Consider/Deep Analysis as they also enable the ability to go for aggressive, low
+go fast it is best to maximise the number of free cycle effects with Consider
+and Deep Analysis as they also enable the ability to go for aggressive, low
 resource wins.
 
 ## Putting It All Together
@@ -640,7 +647,7 @@ Think about the following questions:
 - How often do we want to make pass-the-turn piles?
 - What part of the meta do we want to beat?
 - What part of the meta do we want to avoid?
-- Do we always want to ensure we are protected or are we happy to blindly *jam*
+- Do we always want to ensure we are protected or are we happy to blindly _jam_
   at any given opportunity?
 - What tools do we want access to in the sideboard?
 
@@ -654,7 +661,7 @@ probably not run Pact of Negation. If we wanted to win on the same turn we cast
 Doomsday more often we would probably maximise the use of both of these.
 
 These are just a few things to have in mind when putting your decklist together.
-As stated at the start of the chapter, it's not useful to present a *default*
+As stated at the start of the chapter, it's not useful to present a _default_
 decklist because there is no such thing. It's best to follow the principles
 here, construct a list and test, test, test. Tinker with what you can and really
 try to understand the purpose of running each card in your deck. That way if
@@ -669,7 +676,7 @@ like TCDecks or that can be found in the `#decklists-archive` channel in the
 ## Next Steps
 
 Now you have considered how to build your main deck, next chapter will explore
-the principles behind sideboard card choices and the principles to follow for
+the principles behind sideboard card choices and the ideas to follow for
 facing off against different archetypes.
 
 [discord]: https://discord.gg/vajvFXt

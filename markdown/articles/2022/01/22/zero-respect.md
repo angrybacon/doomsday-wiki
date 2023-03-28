@@ -19,7 +19,7 @@ sideboard guides as are often seen across the magic community. Sideboard guides
 can be very helpful in allowing players to quickly pick up decks they may have
 seen from other pilots that they enjoy or provide a quick starter if they do not
 have time to work out the nuances of a deck themselves. However we believe in a
-more *teach a man to fish* approach whereby we encourage people to build their
+more _teach a man to fish_ approach whereby we encourage people to build their
 deck and sideboard from the ground up and work out what works best for each
 pilot. There is also a huge amount of potential variation that can be applied to
 the archetype these days with lists often changing speed, style, colours and all
@@ -27,7 +27,7 @@ manner of things based on pilot experience, preference and metagame.
 
 It's because of this that we present our [sideboard
 chapter](/meandeck/sideboard) as a series of guiding principles instead of a
-rigid *+x/-y* format since we cannot account for every decklist and what might
+rigid _+x/-y_ format since we cannot account for every decklist and what might
 be very common one day could very well become obsolete the next. Even so, there
 are definitely advantages to having at least one example guide if nothing else
 to try to promote people to write and discover their own plans. I personally
@@ -68,7 +68,7 @@ bit more until I want to win. This flexibility is something I value highly.
 
 This one is a funny one and one I have been citing since Oracle was printed.
 People often look at me funny when I say this however it is definitely true. The
-deck pre-Doomsday relies on being able to cantrip, cast counter magic and do the
+deck pre-Doomsday relies on being able to cantrip, cast countermagic and do the
 things that blue decks like to do. Post-Doomsday all you need are some draw
 effects and the ability to make {U}{U}. It's just that awkward bit in the middle
 where you need to find {B}{B}{B} to actually cast Doomsday itself (and on
@@ -79,21 +79,21 @@ deck has the Island subtype and my fetch configuration is Island-centric.
 ### I Hate Relying on the Top of my Deck
 
 The games that I lose which annoy me the most are the ones where it has gone a
-bit long and I am waiting for *that one card* to win. The worst is when *that
-one card* is literally any card with the text "draw a card" on it. Often it's
+bit long and I am waiting for _that one card_ to win. The worst is when _that
+one card_ is literally any card with the text "draw a card" on it. Often it's
 vs. UGx control piles and I have Doomsday, mana, protection in abundance but the
 gamestate is such where I cannot do a PTT pile so all I need is any method to
 dig into the pile post resolution. These are the losses that stick in my mind
 even more so than the turn 1 blowouts with :card[Blood Moon] against Moon Stompy
 or the "needed to dodge :card[Daze] one time" vs. Delver. As a result I run as
 many cantrips as I can reasonably fit into the deck whilst still trying to
-retain the elements of the *Turbo* style. This is why you will see some number
+retain the elements of the _Turbo_ style. This is why you will see some number
 of :card[Pre] in the deck alongside :card[Con] and the normal cantrip and cycler
 suite.
 
 ### I Tend to be Fast to Cast Doomsday, But Slow After it Resolves
 
-This was something I hadn't thought of before until the lovely *Francobolli*
+This was something I hadn't thought of before until the lovely _Francobolli_
 pointed it out in response to one of my [YouTube video
 uploads](https://www.youtube.com/watch?v=ZlZ9mnCRFgQ):
 
@@ -104,7 +104,7 @@ uploads](https://www.youtube.com/watch?v=ZlZ9mnCRFgQ):
 In this I am trying to slam Doomsday as fast as possible but will often build a
 pile that passes 1-3 more turns (sometimes the full five) after it resolves.
 This is why I like having Daze, why I run 3 :card[PT] and why I am almost the
-complete *Turbo* shell but don't go full ham on cycling effects and multiple
+complete _Turbo_ shell but don't go full ham on cycling effects and multiple
 :card[Consider]s. It's also why I run :card[CoS] in the main.
 
 ### I am Here to Disrespect Delver
@@ -141,7 +141,7 @@ based on one set of bad beats or a single event.
 ## The Decklist
 
 Here is the decklist itself. You can see already some of the construction
-thoughts that went into it from what was said above. It's a *Turbo* list so has
+thoughts that went into it from what was said above. It's a _Turbo_ list so has
 3 :card[PT] in alongside 4 cycling effects to enable swift access to piles. It
 has :card[Con], :card[DA] and :card[IU] all in to enable the faster pile
 building. All lands are Islands so the fetchlands can be perfectly spread out
@@ -188,9 +188,9 @@ general/expected roles and the justification for having them.
   over-boarded.
 
 :::row{variant=CENTERED}
-- CoV
-- Flusterstorm
-- FoN
+CoV
+Flusterstorm
+FoN
 :::
 
 - 1 :card[Massacre]: One of the more specialist tools. This helps deal with a
@@ -206,9 +206,9 @@ general/expected roles and the justification for having them.
   niche corner cases (although I have had people Surgical them before!).
 
 :::row{variant=CENTERED}
-- Massacre
-- Pyroblast
-- REB
+Massacre
+Pyroblast
+REB
 :::
 
 - 1 :card[Surgical Extraction]: Part of the anti-graveyard package. This
@@ -227,14 +227,14 @@ general/expected roles and the justification for having them.
   even Endurance whilst you go for the win. It's less precise than Surgical but
   is a lot more effective.
 - 1 :card[Volcanic Island]: Finally it's a land that makes {R}. It helps cast
- our blast effects. Not much else to say though you could consider to bring it
- in as an additional *bad Island* in matchups where maybe you don't want Cavern.
+  our blast effects. Not much else to say though you could consider to bring it
+  in as an additional _bad Island_ in matchups where maybe you don't want Cavern.
 
 :::row{variant=CENTERED}
-- Surgical Extraction
-- TO
-- Tormod's Crypt
-- Volcanic Island
+Surgical Extraction
+TO
+Tormod's Crypt
+Volcanic Island
 :::
 
 ## The Actual Sideboard Guide Bit
@@ -243,7 +243,7 @@ Here I will list decks in the order that I think of them. I will be trying to
 add cards I have on my radar that I wish to respect, cards on my radar I might
 respect less and variations to what I might board based on how I am feeling
 (because I am very inconsistent sometimes). Please note this is a snapshot and
-should not be considered gospel. The presence of *spice* in an opponent's deck
+should not be considered gospel. The presence of _spice_ in an opponent's deck
 can result in variations being made if they are needed and you should always try
 to critically identify whether something seems sensible to you. If you don't
 like an idea written here you don't have to follow it :)
@@ -264,9 +264,9 @@ and also acts as a buffer to random instances of having your sole win condition
 exiled to monkey.
 
 :::row{variant=CENTERED}
-- Delver of Secrets
-- Ragavan, Nimble Pilferer
-- Dragon's Rage Channeler
+Delver of Secrets
+Ragavan, Nimble Pilferer
+Dragon's Rage Channeler
 :::
 
 ### Death and Taxes
@@ -291,9 +291,9 @@ respect because post Doomsday it not only slows you down in progressing your
 pile but also has a feisty attack of 3 which can quickly knock you down.
 
 :::row{variant=CENTERED}
-- Ethersworn Canonist
-- Deafening Silence
-- Spirit of the Labyrinth
+Ethersworn Canonist
+Deafening Silence
+Spirit of the Labyrinth
 :::
 
 ### Stompy Decks
@@ -311,9 +311,9 @@ hands that die to Chalice on 1 unless that hand can just win on the next turn.
 It's a swingy matchup but very winnable.
 
 :::row{variant=CENTERED}
-- Chalice of the Void
-- Blood Moon
-- Trinisphere
+Chalice of the Void
+Blood Moon
+Trinisphere
 :::
 
 ### Oops all Spells, BR Reanimator, Madness
@@ -336,9 +336,9 @@ for the most popular Legacy decks at the time of writing this and just thinking
 "this'll be similar to the other fast graveyard strategies".
 
 :::row{variant=CENTERED}
-- Griselbrand
-- Balustrade Spy
-- Burning Inquiry
+Griselbrand
+Balustrade Spy
+Burning Inquiry
 :::
 
 ### Elves
@@ -356,9 +356,9 @@ like to bring in :card[Massacre] but that is not an axis I really want to fight
 them on.
 
 :::row{variant=CENTERED}
-- Allosaurus Shepherd
-- Nettle Sentinel
-- Natural Order
+Allosaurus Shepherd
+Nettle Sentinel
+Natural Order
 :::
 
 ### Lands
@@ -377,9 +377,9 @@ REB or the occasional rogue Chalice. Don't ever try and fight them with grave
 hate vs. the Loam plan, it's not worth it.
 
 :::row{variant=CENTERED}
-- Life from the Loam
-- Sphere of Resistance
-- Ghost Quarter
+Life from the Loam
+Sphere of Resistance
+Ghost Quarter
 :::
 
 ### TES, ANT
@@ -397,9 +397,9 @@ much in it. I don't bother bringing in REB effects because it's not the cantrips
 we want to fight over.
 
 :::row{variant=CENTERED}
-- Silence
-- Echo of Eons
-- Wishclaw Talisman
+Silence
+Echo of Eons
+Wishclaw Talisman
 :::
 
 ### 8-Cast, Urza Echo
@@ -422,9 +422,9 @@ things but I was reasonably happy with the plan enacted which can be seen in
 [this video](https://www.youtube.com/watch?v=H62gxBL0lUA).
 
 :::row{variant=CENTERED}
-- Echo of Eons
-- Karn, the Great Creator
-- Force of Will
+Echo of Eons
+Karn, the Great Creator
+Force of Will
 :::
 
 ### Blue Soup: Stryfo Pile, BUG Zenith, Bant, Miracles, 4c Control
@@ -436,7 +436,7 @@ things but I was reasonably happy with the plan enacted which can be seen in
 - **Bring in**: 1 Thassa's Oracle, maybe 1 Chain of Vapor, 2 Flusterstorm, 1
   Volcanic Island, maybe 2 Pyroblast, maybe 1 Red Elemental Blast
 
-The main difficulty in facing *Blue Soup* decks is that they could have anything
+The main difficulty in facing _Blue Soup_ decks is that they could have anything
 in them. It's a pain in the arse because it's all beatable but if you fail to
 identify splashes or board for the wrong things you can get blown out because a
 lot of them bring in so many different cards. Generally 1 for 1 interaction is
@@ -445,9 +445,9 @@ be too disadvantaged if the game drags on. I try to always keep at least 2
 cycling effects even in these matchups.
 
 :::row{variant=CENTERED}
-- Uro, Titan of Nature's Wrath
-- Sylvan Library
-- Meddling Mage
+Uro, Titan of Nature's Wrath
+Sylvan Library
+Meddling Mage
 :::
 
 ### Jeskai Soup: Saga, Ragavan, Delver, Stoneblade
@@ -464,16 +464,16 @@ Or
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
 - **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
-Like *Blue Soup* but harder thanks to :card[Ragavan, Nimbler Pilferer] and
+Like _Blue Soup_ but harder thanks to :card[Ragavan, Nimbler Pilferer] and
 :card[Expressive Iteration]. Often these might as well all be Delver decks just
 with :card[Meddling Mage] to annoy us. You can very well justify bringing in
 :card[Massacre] or :card[CoV] in these matchups. Again deck variance in the
 opposing field can cause difficulty in selecting what to bring to the table.
 
 :::row{variant=CENTERED}
-- Expressive Iteration
-- Murktide Regent
-- Meddling Mage
+Expressive Iteration
+Murktide Regent
+Meddling Mage
 :::
 
 ### Cloudpost
@@ -489,9 +489,9 @@ unloseable, but sometimes it feels that way here. Just don't get blown out by
 :card[Endurance] or :card[Torpor Orb] and you'll be fine.
 
 :::row{variant=CENTERED}
-- Cloudpost
-- Endurance
-- Mindbreak Trap
+Cloudpost
+Endurance
+Mindbreak Trap
 :::
 
 ### Painter
@@ -505,9 +505,9 @@ This can be a real tough matchup. A smart Painter player can really do well and
 playing around an on-board :card[Grindstone] can be a real headache.
 
 :::row{variant=CENTERED}
-- Goblin Welder
-- Painter's Servant
-- Grindstone
+Goblin Welder
+Painter's Servant
+Grindstone
 :::
 
 ### OmniShow
@@ -524,9 +524,9 @@ definitely clunkier than Doomsday and we have a huge advantage in being able to
 make resilient pass-the-turn piles that win via their own :card[Show and Tell].
 
 :::row{variant=CENTERED}
-- Show and Tell
-- Trickbind
-- Cunning Wish
+Show and Tell
+Trickbind
+Cunning Wish
 :::
 
 ### Sneak and Show
@@ -544,9 +544,9 @@ the matchups I have experimented with :card[Daze] being brought in and out
 depending on play vs. draw. Should still be favourable.
 
 :::row{variant=CENTERED}
-- Sneak Attack
-- Emrakul, the Aeon's Torn
-- Daze
+Sneak Attack
+Emrakul, the Aeon's Torn
+Daze
 :::
 
 ### That's It

@@ -6,7 +6,7 @@ import type {
   DecklistExtra,
 } from '@/tools/decklists/types';
 
-export interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: DecklistModel & DecklistExtra;
   };

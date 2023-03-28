@@ -34,19 +34,19 @@ A simple version of the pile looks like this:
 > Enough life to live for 2 turns post-DD
 
 :::row{variant=PILE}
-- SI
-- Em
-- Island
-- Dur
-- TO
+SI
+Em
+Island
+Dur
+TO
 :::
 
 1. Cast Doomsday and build the above pile, then pass the turn
-2. Draw and play Shelldock Isle, hide Emrakul, pass the turn
-3. Draw and play Island, activate Shelldock Isle, cast Emrakul, take another
+1. Draw and play Shelldock Isle, hide Emrakul, pass the turn
+1. Draw and play Island, activate Shelldock Isle, cast Emrakul, take another
    turn
-4. Cast Duress if you can, attack with Emrakul
-5. Attack again next turn if needed. Oracle serves as a backup plan in case
+1. Cast Duress if you can, attack with Emrakul
+1. Attack again next turn if needed. Oracle serves as a backup plan in case
    they're not dead yet or deal with the Emrakul.
 
 The first 2 cards may be the only ones required to win so we have 3 extra cards
@@ -59,11 +59,11 @@ If you suspect the opponent has a way to interact with the order of your pile,
 like Jace's +2, you can modify the pile slightly to play around this:
 
 :::row{variant=PILE}
-- Pnd
-- SI
-- Em
-- TO
-- DD
+Pnd
+SI
+Em
+TO
+DD
 :::
 
 Ponder on top means Shelldock Isle won't get fatesealed, you have Oracle as a
@@ -86,11 +86,11 @@ situations. Lets look at a few example:
 > Chalice@2 - {B}{G} + {U}{U}
 
 :::row{variant=PILE}
-- Abrupt Decay
-- SW
-- TO
-- LP
-- LP
+Abrupt Decay
+SW
+TO
+LP
+LP
 :::
 
 This situation is pretty specific, but it illustrates the need to occasionally
@@ -100,9 +100,9 @@ Ritual and a Doomsday, but your opponent has no clock. Make use of Doomsday's
 tutoring power to find a solution to the Chalice locking your wincons.
 
 1. Cast Doomsday and build the above pile. Pass the turn.
-2. Draw Decay, and pass the turn again. Decay the Chalice on their end step.
-3. Draw Street Wraith, and cycle it into Oracle.
-4. Oracle's trigger will win you the game with 2 cards left.
+1. Draw Decay, and pass the turn again. Decay the Chalice on their end step.
+1. Draw Street Wraith, and cycle it into Oracle.
+1. Oracle's trigger will win you the game with 2 cards left.
 
 With this pile, you can even pass 1-2 more turns to draw mana to cast Oracle, if
 for example you got hit with Wasteland.
@@ -112,18 +112,18 @@ for example you got hit with Wasteland.
 > No mana on board, no cards in hand - {0}, 2 life
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pnd
-- TO
-- LP
+LED
+SW
+Pnd
+TO
+LP
 :::
 
 1. Pass the turn after casting Doomsday
-2. Draw the LED, play it out, and pass again.
-3. Draw the Street Wraith, cycle it holding priority to crack LED for {U}{U}{U}
-4. Draw Ponder and cast it, leaving {U}{U} floating
-5. Draw Oracle and cast it to win with 1 card left.
+1. Draw the LED, play it out, and pass again.
+1. Draw the Street Wraith, cycle it holding priority to crack LED for {U}{U}{U}
+1. Draw Ponder and cast it, leaving {U}{U} floating
+1. Draw Oracle and cast it to win with 1 card left.
 
 How did you find yourself in this position? Maybe you cast Doomsday using Lotus
 Petal and Dark Ritual. Let's not think too hard about it. The point is that if
@@ -134,11 +134,11 @@ you pass 2 turns, you can win from literally nothing but a couple life.
 > Plenty of lands/mana on board - {U}{U}{B}{B}{B}{B}
 
 :::row{variant=PILE}
-- Dur
-- Dur
-- Dur
-- Dur
-- TO
+Dur
+Dur
+Dur
+Dur
+TO
 :::
 
 This is a very crude example but again, it illustrates an idea. Perhaps you cast
@@ -161,11 +161,11 @@ sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
 > Ponder, LED, LED in hand - {B}{B}{B} + {U} - 6 Storm
 
 :::row{variant=PILE}
-- BW
-- Dur
-- Dur
-- Dur
-- Dur
+BW
+Dur
+Dur
+Dur
+Dur
 :::
 
 In its crudest form, you use Doomsday as a tutor for Burning Wish, which then
@@ -178,11 +178,11 @@ they deal with your opponent.
 > Ponder, LED in hand - {B}{B}{B} + {1}{U} + {B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
-- IU
-- LP
-- LED
-- BW
-- DD
+IU
+LP
+LED
+BW
+DD
 :::
 
 In this slightly more complicated variant, you use Doomsday to set up a pile
@@ -203,11 +203,11 @@ Doomsday, but is included here for the sake of completeness.
 > {U}{U}{B}, 3 life
 
 :::row{variant=PILE}
-- SotV
-- Mm
-- Mm
-- Mm
-- TO
+SotV
+Mm
+Mm
+Mm
+TO
 :::
 
 For this pass-the-turn pile, you draw Spoils, cast it and name Oracle, then cast
@@ -223,11 +223,11 @@ an empty library so removal is ineffective.
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} + 3 life
 
 :::row{variant=PILE}
-- LED
-- LP
-- SotV
-- Island
-- TO
+LED
+LP
+SotV
+Island
+TO
 :::
 
 This is similar to some of the piles in the [Brainstorm
@@ -235,12 +235,12 @@ chapter][ddft:brainstorm], but Spoils lets you win without leaving cards left in
 your deck, whereas that would be impossible without it.
 
 1. Cast Doomsday and build the above pile.
-2. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
-3. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for
+1. Cast Brainstorm to draw LED, LP, Spoils, and put back your 2 useless cards.
+1. Cast LP, LED, and then, holding priority, Spoils for Oracle and crack LED for
    UUU
-4. Spoils will exile the 2 useless cards and the Island (or whatever you put
+1. Spoils will exile the 2 useless cards and the Island (or whatever you put
    there) and give you Oracle
-5. Cast Oracle to win with 0 cards left in library.
+1. Cast Oracle to win with 0 cards left in library.
 
 [ddft:brainstorm]: /ddft/brainstorm
 
@@ -259,11 +259,11 @@ A simple example of a pass-the-turn pile that uses Time Spiral is as follows:
 > 2 cards in hand - {1}{U}{U}{R} + ({1}{R}) - 9 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- BW
-- BW
+IU
+LED
+LED
+BW
+BW
 :::
 
 The first wish fetches Time Spiral, which untaps lands that let you play the
@@ -278,8 +278,8 @@ Spiral.
 
 1. These piles will not come up in a typical game, so don't feel you need to
    memorize them.
-2. Many of these piles are high risk in some form or another. Don't be afraid of
+1. Many of these piles are high risk in some form or another. Don't be afraid of
    this though. If one of these types of piles gives you a 10% chance to win,
    that could be 10% more than any other option.
-3. Outside-the-box thinking can be valuable when building piles. Consider these
+1. Outside-the-box thinking can be valuable when building piles. Consider these
    piles your inspiration.

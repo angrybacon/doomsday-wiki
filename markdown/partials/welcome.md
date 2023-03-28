@@ -1,12 +1,13 @@
-<!-- markdownlint-disable-next-line first-line-heading -->
+<!-- markdownlint-disable first-line-heading -->
+
 Welcome to the Doomsday Wiki!
 
 The Doomsday Wiki is intended to be the most complete and up to date work on how
-to cast the card named Doomsday in the Legacy format of *Magic: the Gathering*.
+to cast the card named Doomsday in the Legacy format of _Magic: the Gathering_.
 
 There is actually much more to how to play the deck, but understanding how to
 cast the namesake card of the deck is a pretty big piece of the puzzle. This is
-specifically not a *primer* as you often see for other decks in Legacy, because
+specifically not a _primer_ as you often see for other decks in Legacy, because
 primers generally become outdated rather quickly and are more about card
 choices, decklists, sideboard plans, and so on. The Doomsday Wiki is there to
 help people to really understand how the deck works and can win in various
@@ -24,7 +25,7 @@ ending the game.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
 have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
 and Tendrils of Agony. They also prefer proactive protection such as Duress over
-being able to run reactive counter magic.
+being able to run reactive countermagic.
 
 **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
 was the main variant available post Gitaxian Probe ban and pre-printing of

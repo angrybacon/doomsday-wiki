@@ -8,9 +8,9 @@ title: Doomsday by Numbers
 
 All data compiled on 3rd February 2018.
 
-> *Decks not hot.*  
-> *DDFT is international now fam.*  
-> *Check the statistekks. (?)*
+> Decks not hot.  
+> DDFT is international now fam.  
+> Check the statistekks. (?)
 
 ## The Data Collection
 
@@ -18,7 +18,8 @@ Back in January I posted an [article](/articles/2018/01/10/doomsday-in-2017)
 detailing a bit about DDFT as a deck across the course of 2017 and how it is
 fairing now. I presented some statistics that had been gathered and gave a hint
 that another article was coming where I present them properly and in greater
-detail.  
+detail.
+
 This is that article.
 
 Back in November some of us started trying to actually work out how well the
@@ -89,7 +90,7 @@ their notes so in the interests of pragmatism this level of data is ommitted.
 
 Right then, let's start looking at some data shall we?
 
-First of all the number of total 'good' match data points is 565. A *good* match
+First of all the number of total 'good' match data points is 565. A _good_ match
 is defined as one where we have all the pertinent information recorded. For any
 data crunching involving sucess or win% we shall also define a 'good' match as
 "not the mirror". The reason being here is that we might only have data from one
@@ -271,7 +272,7 @@ obviously need to try and up our game against these decks however facing a mix
 of proactive disruption to your hand and reactive countermagic for the combo
 whilst under pressure is tricky. These are also the category the two highest
 opposing decks fall into accounting for 16.82% of the meta between them. The
-*ChaliceCounterspells* result can be largely discounted due to small sample
+_ChaliceCounterspells_ result can be largely discounted due to small sample
 size, since few decks (mainly Tezzeret lists) run this combination of
 interaction.
 
@@ -293,7 +294,7 @@ numbers.
 As you can see we keep seven card hands pretty consistently. Interestingly
 enough, the rate at which we mulligan seems to definitely follow a trend as
 games go on through a match. This could be because of awareness of opposing deck
-and what constitutes a *good* hand against a given opponent or it could be more
+and what constitutes a _good_ hand against a given opponent or it could be more
 aggressive mulliganing to try and find key sideboard elements. Looking at the
 win % based on starting hand we continue to see a drop in win percentage across
 all starting hand sizes. Given the higher penchant for needing to mulligan this
@@ -354,7 +355,7 @@ ACT (wins, Doomsday): 2.96
 
 Unsurprisingly it is slower than the overall wins ACT however it is still faster
 than the total ACT compiling all combo turns that include losses. I think all
-this shows that overall we are a fast enough deck to be considered *fast combo*
+this shows that overall we are a fast enough deck to be considered _fast combo_
 (relative to the other storm variants and not including things like Belcher or
 BR Reanimator).
 
@@ -384,7 +385,7 @@ broken it down into a set of four.
   Doomsday)
 - N-Storm: Any line that wins via just naturally storming our with Tendrils of
   Agony (without casting Doomsday)
-- Other: Any other win method such as sideboarded *Man Plans* or Burning Wish
+- Other: Any other win method such as sideboarded _Man Plans_ or Burning Wish
   for Telemin Performance
 
 ![Winrate per engine across games](/media/pictures/2018.numbers.chart.engine-winrate.gif)
@@ -417,12 +418,12 @@ wins.
 ## Closing Thoughts
 
 I didn't think I would get so into this whole stats thing but I did. I'm
-normally a Han Solo, *don't tell me the odds* kind of guy so following numbers
+normally a Han Solo, _don't tell me the odds_ kind of guy so following numbers
 was a refreshing change. I'm hopeful that the above helps solidify our position
-as an *established deck* despite a lack of metagame penetration and / or number
+as an _established deck_ despite a lack of metagame penetration and / or number
 of top 8 performances (give us time!). It seems we are doing pretty well and now
 just need to start polishing up our gameplay and bringing out our
-anti-*CounterspellsDiscard* tech (IMO it's two Empty the Warrens in our board).
+anti-_CounterspellsDiscard_ tech (IMO it's two Empty the Warrens in our board).
 
 Massive shout outs to all those who have contributed results to this project
 especialy d8dk32 and Hulahula who are MTGO League Machines! All I ask is that

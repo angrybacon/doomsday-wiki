@@ -1,42 +1,24 @@
-import type { FunctionComponent } from 'react';
 import type { Components } from 'react-markdown';
 import type {
   TableDataCellComponent,
   TableHeaderCellComponent,
 } from 'react-markdown/lib/ast-to-react';
 // eslint-disable-next-line import/no-cycle
-import {
-  RemarkAccordion,
-  Props as RemarkAccordionProps,
-} from '@/components/Remark/renderers/RemarkAccordion';
-import {
-  RemarkCard,
-  Props as RemarkCardProps,
-} from '@/components/Remark/renderers/RemarkCard';
+import { RemarkAccordion } from '@/components/Remark/renderers/RemarkAccordion';
+import { RemarkCard } from '@/components/Remark/renderers/RemarkCard';
 import { RemarkCode } from '@/components/Remark/renderers/RemarkCode';
-import {
-  RemarkDecklist,
-  Props as RemarkDecklistProps,
-} from '@/components/Remark/renderers/RemarkDecklist';
+import { RemarkDecklist } from '@/components/Remark/renderers/RemarkDecklist';
 import { RemarkDivider } from '@/components/Remark/renderers/RemarkDivider';
 import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
 import { RemarkImage } from '@/components/Remark/renderers/RemarkImage';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
 import { RemarkList } from '@/components/Remark/renderers/RemarkList';
-import {
-  RemarkMana,
-  Props as RemarkManaProps,
-} from '@/components/Remark/renderers/RemarkMana';
+import { RemarkMana } from '@/components/Remark/renderers/RemarkMana';
 import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
 import { RemarkParagraph } from '@/components/Remark/renderers/RemarkParagraph';
-import {
-  RemarkRow,
-  Props as RemarkRowProps,
-} from '@/components/Remark/renderers/RemarkRow';
-import {
-  RemarkSoundcloud,
-  Props as RemarkSoundcloudProps,
-} from '@/components/Remark/renderers/RemarkSoundcloud';
+import { RemarkRow } from '@/components/Remark/renderers/RemarkRow';
+import { RemarkSoundcloud } from '@/components/Remark/renderers/RemarkSoundcloud';
+import { RemarkSpoiler } from '@/components/Remark/renderers/RemarkSpoiler';
 import {
   RemarkTable,
   RemarkTableBody,
@@ -44,14 +26,8 @@ import {
   RemarkTableHead,
   RemarkTableRow,
 } from '@/components/Remark/renderers/RemarkTable';
-import {
-  RemarkTweet,
-  RemarkTweetProps,
-} from '@/components/Remark/renderers/RemarkTweet';
-import {
-  RemarkYoutube,
-  Props as RemarkYoutubeProps,
-} from '@/components/Remark/renderers/RemarkYoutube';
+import { RemarkTweet } from '@/components/Remark/renderers/RemarkTweet';
+import { RemarkYoutube } from '@/components/Remark/renderers/RemarkYoutube';
 
 export const COMPONENTS: Components = {
   a: RemarkLink,
@@ -74,24 +50,16 @@ export const COMPONENTS: Components = {
   thead: RemarkTableHead,
   tr: RemarkTableRow,
   ul: RemarkList as Components['ul'],
-};
+} as const;
 
-export const COMPONENTS_EXTRA: {
-  accordion: FunctionComponent<RemarkAccordionProps>;
-  card: FunctionComponent<RemarkCardProps>;
-  decklist: FunctionComponent<RemarkDecklistProps>;
-  mana: FunctionComponent<RemarkManaProps>;
-  row: FunctionComponent<RemarkRowProps>;
-  soundcloud: FunctionComponent<RemarkSoundcloudProps>;
-  tweet: FunctionComponent<RemarkTweetProps>;
-  youtube: FunctionComponent<RemarkYoutubeProps>;
-} = {
+export const COMPONENTS_EXTRA = {
   accordion: RemarkAccordion,
   card: RemarkCard,
   decklist: RemarkDecklist,
   mana: RemarkMana,
   row: RemarkRow,
   soundcloud: RemarkSoundcloud,
+  spoiler: RemarkSpoiler,
   tweet: RemarkTweet,
   youtube: RemarkYoutube,
-};
+} as const;

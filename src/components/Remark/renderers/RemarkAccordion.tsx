@@ -21,7 +21,7 @@ import type { Markdown } from '@/tools/markdown/types';
 //
 //      Remark -> Remark/constants -> RemarkAccordion -> Remark
 
-export interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownProps {
   decklists: Decklists;
   markdown?: Markdown;
 }

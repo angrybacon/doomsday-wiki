@@ -4,14 +4,14 @@ title: Decklist Compendium
 
 This page serves as a repository of Doomsday decklists past and present.
 
-In the *Historical Decklists* section are examples of lists from the past. Most
+In the _Historical Decklists_ section are examples of lists from the past. Most
 are unplayable due to bannings, while some are still legal but have been
 obviated by new printings.
 
 ## Current Decklists
 
 The lists can either play a more reactive role and focus on building resources
-before going off like the below *Esper Doomsday* list or be more all in. Since
+before going off like the below _Esper Doomsday_ list or be more all in. Since
 :card[Thassa's Oracle] is so compact and cheap compared to its predecessor
 alternatives, it can still allow for quick wins with an actual long game plan.
 
@@ -35,7 +35,7 @@ inspiration to the construction of that list.
 After the banning of :card[Sensei's Divining Top], the deck changed its shape a
 little bit. The number of copies of Lotus Petal was increased to pump up the
 speed, since without Top the ability to grind was diminished. :card[Conjurer's
-Bauble] saw its first appearance as a *stored draw* like Top was, and as a way
+Bauble] saw its first appearance as a _stored draw_ like Top was, and as a way
 to loop cards back into Doomsday piles.
 
 ::decklist{path=2018/06/ddft}

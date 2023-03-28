@@ -6,22 +6,22 @@ tags: [LEGACY, DDFT]
 title: Doomsday by Committee, Setting the Scene
 ---
 
-*Eye of twilight, give us sight.*  
-*Take our offer, give us might.*  
-*Make our power tears of night.*
+_Eye of twilight, give us sight.  
+Take our offer, give us might.  
+Make our power tears of night._
 
-*Guys do we intend to try and beckon forth power through the Eye of twilight?*  
-*Why, what's wrong with the Eye of twilight?*  
-*I'm sure there are more powerful entities out there.*  
-*Like whom?*  
-*Hanarsh the soul taker? We have virgins right here...*  
-*No! Look, Eye of twilight is the best otherworldly entity that may be willing
- to grant unholy power.So he is what we will reach out to. Understand?*  
-*Fine.*  
-*Sure.*  
-*Okay. Where were we....Eye of twilight, give us sight...*
+_Guys do we intend to try and beckon forth power through the Eye of twilight?  
+Why, what's wrong with the Eye of twilight?  
+I'm sure there are more powerful entities out there.  
+Like whom?  
+Hanarsh the soul taker? We have virgins right here...  
+No! Look, Eye of twilight is the best otherworldly entity that may be willing
+to grant unholy power.So he is what we will reach out to. Understand?  
+Fine.  
+Sure.  
+Okay. Where were we... Eye of twilight, give us sight..._
 
-*Do we really always have to wear black?*
+_Do we really always have to wear black?_
 
 Hello and welcome to the first of what will hopefully be a series of articles
 whereby some players get together and either observe and discuss live games with
@@ -31,7 +31,7 @@ highlight how different people think and to hopefully provide meaningful
 examples that give lessons others can take away and apply to their own play.
 
 In this first ritual meeting we have two members of the
-*super-secret-shadowy-Doomsday-cabal* &trade; \*
+_super-secret-shadowy-Doomsday-cabal_ &trade; \*
 
 d8dk32 and Doishy playing through some games of an MTGO league. Instead of doing
 a complete breakdown of every game instead we'll just focus on some of the more
@@ -47,7 +47,7 @@ The decklist:
 
 ::decklist{path=2018/01/ddft.ubrg}
 
-\* *Super-secret-shadowy-Doomsday-cabal &trade; might not exist...*
+\* _Super-secret-shadowy-Doomsday-cabal &trade; might not exist..._
 
 ## Scenario 1
 
@@ -89,7 +89,7 @@ whereas it is essentially always a four-of in 4C Loam.
 
 Doishy's comments:
 
-> *Our discussion was a tad more in depth here. From a previous match we had
+> Our discussion was a tad more in depth here. From a previous match we had
 > faced an elves opponent who had started with a dramatically slow opening and
 > so pondered whether this was another elves start. It could also have been
 > Czech Pile who missed the Ponder/Deathrite opening or even some sort of Aggro
@@ -98,8 +98,7 @@ Doishy's comments:
 > play something. In hindsight we for sure should have gone for option B,
 > especially given most relevant boarding from our opponent is based upon the
 > other fifty nine cards they will see over the one they won't. Information is
-> crucial and seeing seven points of information is much better than hiding
-> one.*
+> crucial and seeing seven points of information is much better than hiding one.
 
 ## Scenario 2
 
@@ -114,7 +113,7 @@ what of that we can even play around.
 
 ![Scenario 2](/media/pictures/2018.ritual-doomsday.two.jpeg)
 
-The pile that quickly jumps to mind is a *basic* pile like \[AoI, LED, LM, GP,
+The pile that quickly jumps to mind is a _basic_ pile like \[AoI, LED, LM, GP,
 GP\]. This neatly plays around Therapy, and the 4 life paid is fine in this
 situation. The problem with this pile is it requires the use of the Petal to
 cast AoI, meaning they'll have a turn to find something like Reclamation Sage
@@ -129,7 +128,7 @@ hand to draw into the pile would improve the odds of getting the right cards
 even if the our pile got shuffled.
 
 We thought for a bit about what pile would beat the most kinds of hate but just
-went with the *basic* Maniac pile since Therapy seemed most likely happen and to
+went with the _basic_ Maniac pile since Therapy seemed most likely happen and to
 avoid running down the clock too much. This pile ended up working fine, but no
 sooner had we committed to it than Doishy came up with a better pile: \[Volc,
 AoI, LM, LED, GP\]. With this, we can hold the Brainstorm and if they Therapy or
@@ -142,7 +141,7 @@ pieces we need are in the top three.
 
 Doishy's comments:
 
-> *We dicussed the different interactions that could be found with Natural Order
+> We dicussed the different interactions that could be found with Natural Order
 > being the primary one. Natural order finding a Craterhoof would just kill us
 > there and then so that is one thing we basically had to ignore (assuming the
 > opponent had retained the card in their deck post board). Normally Reclamation
@@ -151,7 +150,7 @@ Doishy's comments:
 > count for them finding something like an Elvish Visionary and starting an
 > "Engine" turn. I think the Volc line was the safest choice given the inherent
 > risk of a pass-the-turn pile against a deck that can literally explode from
-> nowehere.*
+> nowehere.
 
 ## Scenario 3
 
@@ -182,7 +181,7 @@ quite sure how yet.
 
 Doishy's comments:
 
-> *I personally was against Swarm coming in. Locally my meta is full of Grixis
+> I personally was against Swarm coming in. Locally my meta is full of Grixis
 > Delver variants and all run Bolt, even post board as, if nothing else, it
 > forces us to consider whether we can go off and lose half our life in the face
 > of a potential three damage, especially if relying on Probes. As part of our
@@ -193,7 +192,7 @@ Doishy's comments:
 > logic. We reasoned that because Storm doesn't play a lot of it now, the
 > opponent would likely not be prepared to face it. What we should have
 > considered was that maybe not many were being played because Bolt was so
-> prevalent.*
+> prevalent.
 
 ## Bonus Discussion
 
@@ -215,19 +214,18 @@ loss would quickly add up so I don't think I want it in multiples just yet.
 
 Doishy's comments:
 
-> *This observation was in some part due to the fact that d8 would not simply
-> add in an extra discard spell but swap it out for a Therapy. There was also
-> some bias here as for the last year I have been running a Miser's Thoughtseize
-> main and it whas been very strong, especially in the face of Thalias or
-> Eidolons so much so that I have consider switching from three Therapy, two
-> Duress one Thoughtseize main to three Therapy, one Duress and two Thoughtseize
-> main.*
+> This observation was in some part due to the fact that d8 would not simply add
+> in an extra discard spell but swap it out for a Therapy. There was also some
+> bias here as for the last year I have been running a Miser's Thoughtseize main
+> and it whas been very strong, especially in the face of Thalias or Eidolons so
+> much so that I have consider switching from three Therapy, two Duress one
+> Thoughtseize main to three Therapy, one Duress and two Thoughtseize main.
 
 ## Parting Thoughts
 
 d8dk32's comments:
 
-> *I often talk to myself when I play online, but it's much more informative to
+> I often talk to myself when I play online, but it's much more informative to
 > talk to someone else who also knows your deck. Hopefully reading this and any
 > future articles we publish will help people learning to play this deck, but I
 > think this pair-playing process is a valuable learning tool and if you can
@@ -237,11 +235,11 @@ d8dk32's comments:
 > watch over your shoulder helps you play better by catching mistakes and
 > providing a sounding board when the best line isn't clear. Doishy and I agreed
 > on most things this time but discussing the reasoning behind our choices is
-> helpful regardless.*
+> helpful regardless.
 
 Doishy's comments:
 
-> *I for one really enjoyed watching d8 play whilst we discussed decisions. What
+> I for one really enjoyed watching d8 play whilst we discussed decisions. What
 > made me feel confidant was, barring some of the decision points above, we
 > quite often agreed very quickly on what line to take with most being the
 > correct one. In addition to the above we had a classic turn two "Do we jam?"
@@ -250,10 +248,10 @@ Doishy's comments:
 > to me is how important it is having these very fluid conversations during
 > gameplay. Although people at my local shops know me and my deck of choice none
 > of them really "know" the deck to the point where I could properly discuss my
-> card choices, play choices and similar.*
+> card choices, play choices and similar.
 
 Hopefully you enjoyed this first installment of Doomsday by Committee. We shall
-hopefully return with more of the *super-secret-shadowy-Doomsday-cabal* &trade;
+hopefully return with more of the _super-secret-shadowy-Doomsday-cabal_ &trade;
 that might not exist with further discussion on other play points, opening
 hands, scenarios and occasional puzzles.
 

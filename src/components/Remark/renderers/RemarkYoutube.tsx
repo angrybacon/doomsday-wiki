@@ -2,7 +2,7 @@ import { FunctionComponent } from 'react';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Box } from '@mui/material';
 
-export interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownProps {
   node: ReactMarkdownProps['node'] & {
     properties: { id?: string };
   };

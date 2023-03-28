@@ -31,21 +31,21 @@ graveyard.
 > LED, Echo in hand - {B}{B}{B} - 10 Storm
 
 :::row{variant=PILE}
-- LP
-- LP
-- LED
-- LED
-- BW
+LP
+LP
+LED
+LED
+BW
 :::
 
 1. Cast Doomsday and build the pile described
-2. Cast LED and activate to to make {U}{U}{U}
-3. Use that mana to flashback Echo of Eons
-4. Draw the 7 remaining cards
-5. Cast all 3 LEDs and the 2 Petals
-6. Cast Burning Wish, holding priority to crack at least 2 LEDs for
+1. Cast LED and activate to to make {U}{U}{U}
+1. Use that mana to flashback Echo of Eons
+1. Draw the 7 remaining cards
+1. Cast all 3 LEDs and the 2 Petals
+1. Cast Burning Wish, holding priority to crack at least 2 LEDs for
    {B}{B}{B}{B}{B}{B}
-7. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
+1. Retrieve Tendrils of Agony from your sideboard and cast it targeting your
    opponent
 
 This pile is rather elegant if you ask me. It's mana efficient, and also flashy,
@@ -63,11 +63,11 @@ the piles work.
 > Echo, Ponder in hand - {B}{B}{B} + {U}
 
 :::row{variant=PILE}
-- LED
-- LP
-- LP
-- LP
-- TO
+LED
+LP
+LP
+LP
+TO
 :::
 
 This pile is very similar to the first one, except you need to Ponder to grab
@@ -84,11 +84,11 @@ take a look at an example.
 > Brainstorm, 2 useless cards in hand - {B}{B}{B} + {U} - 9+ Storm
 
 :::row{variant=PILE}
-- EoE
-- LED
-- LED
-- Ponder
-- BW
+EoE
+LED
+LED
+Ponder
+BW
 :::
 
 To start this pile, you cast Brainstorm and trade the 2 useless cards for Echo
@@ -109,11 +109,11 @@ extra cards in hand.
 > LED, Echo, and 2 useless cards in hand - {B}{B}{B}
 
 :::row{variant=PILE}
-- LP
-- LP
-- LP
-- Pnd
-- TO
+LP
+LP
+LP
+Pnd
+TO
 :::
 
 This pile will start out identically to our other, casting Echo to draw a
@@ -123,7 +123,7 @@ great, There are 2 cards left, so if the Oracle survives, you win. But there are
 2 "fail cases", outcomes where you simply can't win:
 
 1. The 2 remaining cards are Ponder and Thassa's Oracle
-2. The 2 remaining cards are 2 Lotus Petals
+1. The 2 remaining cards are 2 Lotus Petals
 
 Luckily, the chances of success with this pile is approximately 90%. These odds
 are good enough that you should take the chance almost every time.
@@ -136,11 +136,11 @@ into the pile.
 > LED, Echo, Oracle in hand - {B}{B}{B}
 
 :::row{variant=PILE}
-- LP
-- LP
-- LP
-- Pnd
-- Tsz
+LP
+LP
+LP
+Pnd
+Tsz
 :::
 
 For just the cost of a Doomsday, you can get that Oracle back into your deck to
@@ -158,11 +158,11 @@ you to kill with :card[Grapeshot]
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
 
 :::row{variant=PILE}
-- EoE
-- LED
-- LED
-- LED
-- BW
+EoE
+LED
+LED
+LED
+BW
 :::
 
 Cast Doomsday, play out your mana artifacts, sacrifice them all for UUUR, and
@@ -184,7 +184,7 @@ again and have plenty of storm for a lethal Tendrils the next time around.
 
 1. Echo enables some extremely mana-efficient piles that generate high storm
    counts.
-2. Some Echo piles are nondeterministic out of necessity, but don't let this
+1. Some Echo piles are nondeterministic out of necessity, but don't let this
    scare you off. They typically still have a high probability of working.
-3. There are inherent risks with Echo piles, particularly the fact that your
+1. There are inherent risks with Echo piles, particularly the fact that your
    opponent will also draw a fresh hand.

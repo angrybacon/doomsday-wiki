@@ -3,7 +3,7 @@ authors: Doishy
 banner: Young Pyromancer
 kind: ARTICLE
 tags: [LEGACY, MEANDECK]
-title: "Doomsday at the Legacy Pit Open II: An Interview with RoseIsland"
+title: 'Doomsday at the Legacy Pit Open II: An Interview with RoseIsland'
 ---
 
 ## Table of Contents
@@ -13,7 +13,7 @@ title: "Doomsday at the Legacy Pit Open II: An Interview with RoseIsland"
 Salutations!
 
 As the nights get darker, the wiki seems to get more active. Almost like it's
-not as nice to go outside these days....oh well! That means more Doomsday
+not as nice to go outside these days... Oh well! That means more Doomsday
 content for everyone!
 
 Just like last year the Legacy Pit hosted their open with a very strong turnout
@@ -37,7 +37,7 @@ content so please check them out!):
 - [Data analysis courtesy of the Legacy Data collection
   project](https://docs.google.com/spreadsheets/d/1y9ayA0xGTXENECbDDeFjHRyQz0oWidmIroab3I4Am4s/edit#gid=303790053)
 
-## The Interview with Samantha *RoseIsland* Murphy
+## The Interview with Samantha _RoseIsland_ Murphy
 
 Linked below you can find a link to the interview I (Doishy) had with
 RoseIsland. They had the highest placing result of all the Doomsday pilots
@@ -143,7 +143,7 @@ pieces.
 #### Round 5 - Quang Vu - 8-Cast
 
 This round I believe I was sitting at table 2, Michael Yue who was also playing
-vs an 8-cast opponent was at table 3 and Max Carini at table 4. Spoiler alert we
+vs an 8-Cast opponent was at table 3 and Max Carini at table 4. Spoiler alert we
 all won this round!
 
 G1 Opponent cast a turn 1 Chalice but :card[Cabal Ritual] bailed me for a turn 2
@@ -182,7 +182,7 @@ concession a couple of turns later.
 
 #### Round 8 - Ryan Mullens - UR Delver
 
-So I knew my last round of the day would be either delver or 8 cast, it was
+So I knew my last round of the day would be either delver or 8-Cast, it was
 delver, very interesting match, interesting situation in g1, I drew DD at
 exactly 4 life facing a 3/3 :card[Dragon's Rage Channeller], unfortunately my
 hand was :card[DD] + :card[SW], I say unfortunately because at 2 more life I
@@ -198,14 +198,14 @@ hand with 2 :card[FoW], 2x :card[Murktide Regent], :card[Daze] and a
 > 1-2  
 > 7-1
 
-#### Round 9 - Bob Huang - 8 Cast
+#### Round 9 - Bob Huang - 8-Cast
 
-I knew Bob was on 8 cast and planned accordingly, g1 I cast a t1 DD backed up by
+I knew Bob was on 8-Cast and planned accordingly, g1 I cast a t1 DD backed up by
 a Daze on my opponent's FoW, just made a PTT with some cyclers and a :card[CoS].
 G2 and 3 were pretty similar I cast Sheoldred early but Bob found :card[Karakas]
 and I couldn't resolve a Doomsday. G3 on the play I had the option to cast a DD
 on t1 with a SW in hand instead I went for Sheoldred, speaking with Michael
-*BlackSkyDoc* Yue between rounds I think going for DD was a much better option
+_BlackSkyDoc_ Yue between rounds I think going for DD was a much better option
 Sheoldred required more resources and wouldn't win the next turn, my reasoning
 at the time was that Sheoldred would dodge :card[FoN].
 
@@ -275,7 +275,7 @@ Finished in **17th place**, and had a lot of fun playing what is my favorite
 combo deck to play, as for sideboard, I basically followed the guide Max Gilmore
 posted, changed a few things when facing MUs that weren't on the guide, but as a
 rule of thumb, I cut discard and PTs vs decks that play to the board like DnT,
-8cast and Maverick for cars like :card[CoV] and Opposition Agent; for decks that
+8-Cast and Maverick for cars like :card[CoV] and Opposition Agent; for decks that
 could cast problematic permanents I brought Force of Negations. The only card I
 would cut for a next event is :card[Mystic Sanctuary], I know the idea was to
 have a card for slower games which your opponent doesn't attack your lands, I
@@ -301,11 +301,11 @@ and cast DD on T2 off of DR with a blue fetch still in play. FOW pitching
 following pile with a SW in hand.
 
 :::row{variant=PILE}
-- EoA
-- TO
-- CoS
-- TO
-- Island
+EoA
+TO
+CoS
+TO
+Island
 :::
 
 T3 opponent plays a :card[Tropical Island] and passes. T3 draw Edge, pass. T4
@@ -330,11 +330,11 @@ Endurance], taking Torpor Orb. Continue to cast DR and DD with FOW backup for
 their FOW. Make the following pile:
 
 :::row{variant=PILE}
-- IU
-- SW
-- TO
-- PoN
-- CoS
+IU
+SW
+TO
+PoN
+CoS
 :::
 
 They play Island and pass. T3 I cast Ideas Unbound, cycle SW, play Cavern and
@@ -355,19 +355,19 @@ enough of the pile.
 G2 & 3 &mdash; fairly easy wins. Piles were
 
 :::row{variant=PILE}
-- Tsz
-- Island
-- TO
-- CoV
-- CoS
+Tsz
+Island
+TO
+CoV
+CoS
 :::
 
 :::row{variant=PILE}
-- SW
-- EoA
-- EoA
-- TO
-- CoS
+SW
+EoA
+EoA
+TO
+CoS
 :::
 
 > 2-1  
@@ -386,11 +386,11 @@ Lackey], which attacks on T2. I flash in an Opposition Agent off Dark Ritual and
 the game ends a few turns later after casting Doomsday. Pile was:
 
 :::row{variant=PILE}
-- EoA
-- SW
-- EoA
-- TO
-- CoS
+EoA
+SW
+EoA
+TO
+CoS
 :::
 
 > 2-0  
@@ -403,11 +403,11 @@ over the first two turns while having mana up for Daze. The pile in both games
 was:
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 > 2-0  
@@ -415,26 +415,26 @@ was:
 
 #### Round 5 - Joey Funderburk - 8-Cast
 
-Didn't take many notes for this match vs. 8-cast
+Didn't take many notes for this match vs. 8-Cast
 
 Piles were
 
 :::row{variant=PILE}
-- IU
-- EoA
-- TO
-- CoS
-- PoN
+IU
+EoA
+TO
+CoS
+PoN
 :::
 
 and
 
 :::row{variant=PILE}
-- IU
-- EoA
-- TO
-- CoS
-- LP
+IU
+EoA
+TO
+CoS
+LP
 :::
 
 Romario and Wonderpreaux were playing next to me and our Doomsday cabal went 6-0
@@ -474,11 +474,11 @@ backup and they're unable to Brainstorm into a third force. Since they have no
 clock, I go for a double pass-the-turn pile to win.
 
 :::row{variant=PILE}
-- EoA
-- SW
-- EoA
-- TO
-- CoS
+EoA
+SW
+EoA
+TO
+CoS
 :::
 
 SB: - Swamp, -3 Daze, - Thassa's Oracle. +2 Flusterstorm, +2 Mystical Dispute,
@@ -487,11 +487,11 @@ SB: - Swamp, -3 Daze, - Thassa's Oracle. +2 Flusterstorm, +2 Mystical Dispute,
 Game 2 &mdash; on the draw T2 cast DD with Force backup. It resolves.
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 > 2-0  
@@ -511,7 +511,7 @@ I resolve Doomsday on turn two. With Thassa's Oracle already in hand, I make a
 quad-cycle pile with chain of vapor as insurance and win the next turn.
 
 Game 3 &mdash; Mulligan to 5 on the draw. I keep Doomsday, Lotus Petal,
-Brainstorm, Fetchland, Brainstorm. He leads with an allosaurus shepherd and
+Brainstorm, fetchland, Brainstorm. He leads with an allosaurus shepherd and
 follow up with Collector Ouphe. I end up in a position where I can't do a PTT
 pile without dying to a pile of 5/5s and can't win in the same turn due to
 Collector Ouphe.
@@ -527,22 +527,23 @@ over the first two turns while having mana up for Daze.
 Game 1 &mdash; on the play with a full grip!
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 Game 2 &mdash; lose after making a pile that relies on a blue cantrip. They
 topdeck a REB effect and clock me before I draw again. Should have gone with a
 Street Wraith over Ponder.
 
-- Pn
-- EoA
-- EoA
-- TO
-- CoS
+:::row{variant=PILE}
+Pnd
+EoA
+EoA
+TO
+CoS
 :::
 
 Game 3 &mdash; I mull to 5 on the play, keeping three lands, Edge of Autumn, and
@@ -551,11 +552,11 @@ Force of Will. Opponent keeps 7. They play :card[Counterbalance] on T2 and
 that resolves!
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- Underground Sea
+EoA
+EoA
+TO
+CoS
+Underground Sea
 :::
 
 They pass twice and I am able to draw both cyclers and go for the perfect kill.
@@ -570,11 +571,11 @@ resulting in a re-roll that he won. Weird. End up losing 1-2. Cast Doomsday
 twice. In Games 1 and 2 made the following default pile
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- CoS
-- PoN
+EoA
+EoA
+TO
+CoS
+PoN
 :::
 
 In game 3 I resolved Doomsday when my opponent had a revealed Surgical
@@ -582,11 +583,11 @@ Extraction in hand and made the following pile with an Island and Swamp in play,
 and an Underground Sea in hand.
 
 :::row{variant=PILE}
-- EoA
-- EoA
-- TO
-- DD
-- DD
+EoA
+EoA
+TO
+DD
+DD
 :::
 
 Needless to say, when they cast Surgical Extraction on Doomsday and find, I was
@@ -627,11 +628,11 @@ go for the kill - cast Doomsday, with the intention to make the following pile
 to win
 
 :::row{variant=PILE}
-- BS
-- LED
-- Con
-- EoA
-- TO
+BS
+LED
+Con
+EoA
+TO
 :::
 
 Of course, he casts the Brainstorm here and after putting back two, he casts
@@ -688,29 +689,29 @@ out a full 6 rounds. - Doishy
 Legacy pit II prep: preparing started the event 6 months prior to the event. Not
 knowing for sure what to play, researching various tournaments and decks. I knew
 delver and GW depths were a large part of the meta, and putting up results in
-recent events. Due to the influence of, the infamous Doomsday player, *Emidln*
+recent events. Due to the influence of, the infamous Doomsday player, _Emidln_
 &mdash; Brandon a good friend and knowledgeable source. I am familiar and a
 novice when playing traditional Doomsday, but Esper Doomsday inched its way into
 my sights. The play style is similar to my liking, combo player at heart, taking
 Omnishow 12-3 back at GP Louisville. And obtained mythic rank in mtg arena the
 month prior to build mental fortitude preparing for the long days of magic.
 Didn't help I was traveling 2am-3pm, by car to STL, plane to CHI met up with
-*Emidln*, to board the plane to Richmond.
+_Emidln_, to board the plane to Richmond.
 
 Choice of deck/construction theory: Esper Doomsday w/ SFM package. The straight
 forward line of Doomsday into :card[Predict] name Thassa's Oracle, mill over
 Oracle, draw into Lotus Petal/:card[Unearth]. Unearth Oracle to win. With
 alternate creature/equipment of BS/SFM/BSkull/KC. SB consisting of the best
-white removal in the format STP and Prismatic Ending , more counter magic in
-FoN, interaction, a Plains, and Sheoldred. I wanted to play with Sheoldred the
-Apocalypse, with the potential of just changing the game in your favor if you
-resolve, and protect Sheoldred. Every cantrip the opponent has shocks them .
-While every draw and cantrip you play extends the game. Also Sheoldred survives
-most removal in legacy because of the relevant 5 toughness. In consideration and
-deck building, there were times where instead of the SFM package, 4x MurkTide 2x
-Sheoldred was considered for the mainboard.
+white removal in the format STP and Prismatic Ending, more countermagic in FoN,
+interaction, a Plains, and Sheoldred. I wanted to play with Sheoldred, with the
+potential of just changing the game in your favor if you resolve, and protect
+Sheoldred. Every cantrip the opponent has shocks them . While every draw and
+cantrip you play extends the game. Also Sheoldred survives most removal in
+legacy because of the relevant 5 toughness. In consideration and deck building,
+there were times where instead of the SFM package, 4x MurkTide 2x Sheoldred was
+considered for the mainboard.
 
-*Emidln* wanted me to play UR Delver due to it being tier 0. And that I had
+_Emidln_ wanted me to play UR Delver due to it being tier 0. And that I had
 experience with the deck. We played roughly 20 games the night before the
 tournament to determine what deck to play. Either UR or EsperDDay. Ultimately, I
 chose to play Doomsday.
@@ -838,21 +839,21 @@ with at least 3 copies per list.
 
 Every Doomsday list in the event can be found below:
 
-- [Top 8 - Samantha *RoseIsland* Murphy - Grixis
+- [Top 8 - Samantha _RoseIsland_ Murphy - Grixis
   Tempo](https://mtgmelee.com/Decklist/View/247557)
-- [12th Place - Max *Wonderpreaux* Carini - UB Turbo ft.
+- [12th Place - Max _Wonderpreaux_ Carini - UB Turbo ft.
   Grief](https://mtgmelee.com/Decklist/View/247784)
-- [17th Place - Romario *Romariovidal* Neto - UB Turbo ft.
+- [17th Place - Romario _Romariovidal_ Neto - UB Turbo ft.
   Sheoldred](https://mtgmelee.com/Decklist/View/247735)
-- [18th Place - Michael *BlackSkyDoc* Yue - UB
+- [18th Place - Michael _BlackSkyDoc_ Yue - UB
   Turbo](https://mtgmelee.com/Decklist/View/247773)
-- [38th Place - Brandon *emidln* Adams - UB
+- [38th Place - Brandon _emidln_ Adams - UB
   ABCD](https://mtgmelee.com/Decklist/View/247988)
-- [79th Place - Facuando *ChuckConde* Conde - Esper ft.
+- [79th Place - Facuando _ChuckConde_ Conde - Esper ft.
   Dakkon!](https://mtgmelee.com/Decklist/View/247147)
 - [106th Place - Brandon Darnell - UB Turbo ft.
   Sheoldred](https://mtgmelee.com/Decklist/View/247785)
-- [276th Place - Brett *BWand* Wands - Esper Tempo ft.
+- [276th Place - Brett _BWand_ Wands - Esper Tempo ft.
   SFM](https://mtgmelee.com/Decklist/View/247974)
 
 ## Final Thoughts

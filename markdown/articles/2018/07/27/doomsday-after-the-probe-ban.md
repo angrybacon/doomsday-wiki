@@ -70,9 +70,9 @@ Before I begin, some caveats about the data:
 
 1. Combo Turn is tracked on a 1-5+ scale, meaning games that go longer than 5
    turns are marked as 5.
-2. When pass-the-turn piles are involved, the combo turn is listed as the turn
+1. When pass-the-turn piles are involved, the combo turn is listed as the turn
    Doomdsay was cast. Empty the Warrens is notated similarly.
-3. Each deck was played against a random sampling of the format, in a
+1. Each deck was played against a random sampling of the format, in a
    combination of Leagues and Practice Room matches. This means that I didn't
    play against the same amounts of the same archetypes, and that there are a
    couple of "tier 3" type lists, like Parfait. I'll touch upon the archetype
@@ -105,7 +105,7 @@ The PiF version did a bit better in this category, suggesting it had a few more
 ### Winrate by Game
 
 | ~      | G1     | G2     | G3     |
-|--------|--------|--------|--------|
+| ------ | ------ | ------ | ------ |
 | PiF DD | 66.67% | 60%    | 28%    |
 | BW DD  | 56.67% | 42.85% | 63.63% |
 
@@ -135,7 +135,7 @@ not needing Threshold for Cabal Rituals.
 ## Winrate vs. Mulligan and Die Roll
 
 | Mulligan | 7      | 6      | 5      |
-|----------|--------|--------|--------|
+| -------- | ------ | ------ | ------ |
 | PiF DD   | 62%    | 45.45% | 33.33% |
 | BW DD    | 56.25% | 52.94% | 0%     |
 
@@ -147,7 +147,7 @@ to get reasonable data, but I managed to win one with the PiF list.
 ## Winrate vs. Die Roll
 
 | Roll   | Win    | Lose   |
-|--------|--------|--------|
+| ------ | ------ | ------ |
 | PiF DD | 42.85% | 62.50% |
 | BW DD  | 57.14% | 50%    |
 

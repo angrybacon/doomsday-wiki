@@ -1,5 +1,6 @@
 ---
 authors: angrybacon, Labman13, Doishy
+order: 4
 title: Playing Around Interaction
 ---
 
@@ -28,8 +29,8 @@ possible corner case card you may face out in the wild.
 The first key point to state is when removal actually matters. Thassa's Oracle
 has some key text on it that states the following:
 
-> *If X is greater than or equal to the number of cards in your library, you win
-> the game.*
+> If X is greater than or equal to the number of cards in your library, you win
+> the game.
 
 This means that even in the face of a removal spell you can still win if the
 trigger resolves assuming you have zero cards left in your library. The only
@@ -39,18 +40,18 @@ additional Devotion to {U}, you will not be able to win off of the trigger.
 
 The main counter to this is of course to try and ensure you always leave zero
 cards left in your deck once the Oracle trigger resolves. Another way is to
-potentially try a *bait pile* which tries to go off in one turn but has the
+potentially try a _bait pile_ which tries to go off in one turn but has the
 option to wait another. This can be especially useful if you are playing
 multiple Oracles. Let us take this example from the Brainstorm chapter:
 
 > {U} + Brainstorm + Thassa's Oracle
 
 :::row{variant=PILE}
-- LED
-- SW
-- Pnd
-- EoA
-- TO
+LED
+SW
+Pnd
+EoA
+TO
 :::
 
 1. Cast Brainstorm and put back Oracle then Ponder on top
@@ -61,7 +62,7 @@ multiple Oracles. Let us take this example from the Brainstorm chapter:
 1. Draw Edge, cycle Edge to draw Oracle and cast Oracle to (hopefully) win.
 
 This example is good if you suspect removal but are not under too much pressure
-where you would not survive another turn. You can try and *go off* with a backup
+where you would not survive another turn. You can try and _go off_ with a backup
 Oracle in the deck the turn after.
 
 This pile plays around the following:
@@ -97,11 +98,11 @@ resolving TO.
 > Land drop available
 
 :::row{variant=PILE}
-- BS
-- SW
-- EoA
-- Polluted Delta|ONS
-- TO
+BS
+SW
+EoA
+Polluted Delta|ONS
+TO
 :::
 
 1. Cast Ponder to draw BS
@@ -134,13 +135,13 @@ has resolved (from the Basics chapter):
 > On the play
 
 :::row{variant=HAND}
-- DR
-- DD
-- FoW
-- FoW
-- Swamp
-- Island
-- Pre
+DR
+DD
+FoW
+FoW
+Swamp
+Island
+Pre
 :::
 
 Although we have Force of will in our hand we are wanting to use LED to help us
@@ -149,11 +150,11 @@ becomes exposed thanks to having to discard our Forces. Here is one potential
 solution assuming we played Doomsday off of Swamp and Dark Ritual:
 
 :::row{variant=PILE}
-- BS
-- Tsz
-- LED
-- EoA
-- TO
+BS
+Tsz
+LED
+EoA
+TO
 :::
 
 1. Draw Brainstorm for turn
@@ -170,11 +171,11 @@ fully. You can do a similar scenario where you have initiated off of Bayou with
 Veil of Summer instead.
 
 :::row{variant=PILE}
-- BS
-- VoS
-- LED
-- EoA
-- TO
+BS
+VoS
+LED
+EoA
+TO
 :::
 
 If they cast a spell, such as a Brainstorm, in response to the Veil, you have a
@@ -209,13 +210,13 @@ The extra card drawn can allow a lot of flexibility in keeping up countermagic.
 Take the following hand:
 
 :::row{variant=HAND}
-- DR
-- DD
-- FoW
-- FoW
-- Underground Sea|LEB
-- Island
-- Pre
+DR
+DD
+FoW
+FoW
+Underground Sea|LEB
+Island
+Pre
 :::
 
 Once again we are taking our PTT example but this time we are assuming we are
@@ -224,15 +225,15 @@ guarantee to have UU available on our turn. As a result we can build a pile like
 so:
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- EoA
-- TO
+IU
+LP
+LP
+EoA
+TO
 :::
 
 This pile allows us to simply cast IU and play out Oracle without ever needing
-to *drop shields* of the two Forces in hand. It is also resilient to opposing
+to _drop shields_ of the two Forces in hand. It is also resilient to opposing
 discard as they can only take 1 Force and there is still a Preordain to pitch
 for the other.
 
@@ -245,17 +246,17 @@ you to cast Force of Will twice if they try and fight over the Oracle.
 
 There are some key cards that may be used to help work around traditional
 countermagic. Cavern of Souls is an easy fit into the Doomsday gameplan and, if
-a land drop is available, can easily slot into some of the more *standard*
+a land drop is available, can easily slot into some of the more _standard_
 piles.
 
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- Pdt
-- LED
-- EoA
-- TO
-- CoS
+Pdt
+LED
+EoA
+TO
+CoS
 :::
 
 You should recognise the above as a simplified Brainstorm pile. In this we have
@@ -268,11 +269,11 @@ Likewise it can slot into most IU piles too.
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- IU
-- LP
-- CoS
-- EoA
-- TO
+IU
+LP
+CoS
+EoA
+TO
 :::
 
 Teferi, Time Raveler is another tool that can be used to help prevent
@@ -301,25 +302,25 @@ Doomsday. From that point you don't have to cast a single one mana spell.
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- EoA
-- TO
+IU
+LP
+LP
+EoA
+TO
 :::
 
 > {1}{U} + Cantrip
 
 :::row{variant=PILE}
-- Pdt
-- Dur
-- LED
-- EoA
-- TO
+Pdt
+Dur
+LED
+EoA
+TO
 :::
 
 Both of the above examples are all comprised of zero or two mana cost spells and
-free cycling effects all of which can circumnavigate the limitations Chalice
+free cycle effects all of which can circumnavigate the limitations Chalice
 creates. If playing against a known Chalice deck, simply going turn one Doomsday
 off of Dark Ritual with another land in hand is pretty safe given you can ignore
 the interaction (at least where Chalice is concerned). The above are pretty
@@ -335,17 +336,17 @@ lands into the pile itself.
 > Land drop available
 
 :::row{variant=PILE}
-- IU
-- SW
-- Island
-- EoA
-- TO
+IU
+SW
+Island
+EoA
+TO
 :::
 
 If X = 2 then you can build something like a Brainstorm pile that only uses your
 one mana cantrips alongside something like Cavern of Souls to get through the
 Chalice. Alternatively the use of Unearth can help get around the need for a 2
-drop using LED as a discard outlet for Oracle instead of *milling* with Predict.
+drop using LED as a discard outlet for Oracle instead of _milling_ with Predict.
 
 If you are playing Veil of Summer against Chalice on 0 or 2 then simply casting
 Veil, or leading a pile with it, will allow your spells to resolve through the
@@ -358,11 +359,11 @@ example against a Chalice of the Void.
 > PTT + {U}{B}{G} + Brainstorm + X
 
 :::row{variant=PILE}
-- Abrupt Decay
-- LED
-- EoA
-- Pnd
-- TO
+Abrupt Decay
+LED
+EoA
+Pnd
+TO
 :::
 
 Although we are talking predominantly about Chalice of the Void, the same
@@ -376,7 +377,7 @@ Doomsday in the first place.
 
 When discussing these effects we are talking about things like :card[Thalia,
 Guardian of Thraben] and :card[Thorn of Amethyst]. These generally do not
-actively stop you *going off* and winning the game however they do present
+actively stop you _going off_ and winning the game however they do present
 potential for a lot of delay on reaching that combo turn, especially if being
 placed under pressure. The piles themselves can be adapted, using the free
 cyclers, to try and become as mana efficient as possible. This is especially
@@ -384,11 +385,11 @@ good when knowing you don't face removal as often the Oracle itself is not
 taxed:
 
 :::row{variant=PILE}
-- SW
-- EoA
-- TO
-- DD
-- DD
+SW
+EoA
+TO
+DD
+DD
 :::
 
 In the above example you can simply cycle the first two cards and then cast
@@ -420,21 +421,21 @@ deal with them is of course removal however that is not always viable,
 especially in game one. Another way is to simply pass the turn a number of times
 using the sorcery speed cantrips on your turn and the instant speed free cyclers
 on the opponent's turn. Predict is quite useful in this scenario as, despite
-costing {1}{U} it allows you to *dig* up to three cards deep into the pile.
+costing {1}{U} it allows you to _dig_ up to three cards deep into the pile.
 Something like the following may be useful facing an opposing Narset for example
 (spread over multiple turns):
 
 :::row{variant=PILE}
-- Pnd
-- Pdt
-- EoA
-- Pnd
-- TO
+Pnd
+Pdt
+EoA
+Pnd
+TO
 :::
 
 One key thing to note with these cards involves Teferi, Time Raveler's {-3}
-ability. If use the ability on a Leovold, you *will* get to draw the card
-afterwards. This can allow you to remove the disruption and *crack* into the
+ability. If use the ability on a Leovold, you _will_ get to draw the card
+afterwards. This can allow you to remove the disruption and _crack_ into the
 pile at the same time.
 
 ### Search Restrictors
@@ -481,7 +482,7 @@ Legacy: :card[Surgical Extraction].
 Upon successfully resolving a Doomsday, assuming no cards like :card[Leyline of
 the Void] are present, there will be one card in your graveyard and that will be
 the resolved Doomsday itself. This is a prime target for an opposing Surgical in
-an attempt to mess up the ordering of a Doomsday pile as you try and *go off* in
+an attempt to mess up the ordering of a Doomsday pile as you try and _go off_ in
 one turn. When the Surgical is used can depend on the opponent but if they wait
 in response to a Predict for example it can really mess things up.
 
@@ -493,14 +494,14 @@ a pile. Let us take the following scenario:
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- EoA
-- TO
+IU
+LP
+LP
+EoA
+TO
 :::
 
-If the Cantrip used to *dig* into the pile is something like a Street Wraith
+If the Cantrip used to _dig_ into the pile is something like a Street Wraith
 then the opponent is likely to Surgical right away meaning you have a 20% chance
 to draw into the desired Ideas Unbound or a 5% chance to draw Edge to then Cycle
 immediately into Ideas Unbound (25% success rate chance in total). If using
@@ -509,10 +510,10 @@ what you need are dramatically increased. See below a table that shows the
 percentage of successfully finding either the IU itself or Edge of Autumn that
 then cycles into IU.
 
-|                | Street Wraith | Ponder | Brainstorm | Preordain |
-| :------------: | :-----------: | :----: | :--------: | :-------: |
-| Perfect Pile   | 25%           | 70%    | 60%        | 70%       |
-| Imperfect Pile | 20%           | 53%    | 45%        | 66%       |
+|                | Street Wraith / Consider | Ponder | Brainstorm | Preordain |
+| -------------- | :----------------------: | :----: | :--------: | :-------: |
+| Perfect Pile   |           25%            |  70%   |    60%     |    70%    |
+| Imperfect Pile |           20%            |  53%   |    45%     |    66%    |
 
 If your opponent then waits on the Surgical for after you already have the
 ability to draw three of the four remaining cards in the deck and are only
@@ -524,19 +525,19 @@ opponent will try to use their Surgical (if at all).
 
 One cool trick you can use is to try and bait them into using a known Surgical
 effect if you have your own in hand. By placing additional copies of Doomsday
-into your pile, if your opponent tries to extract them, you can *shrink* your
-library by casting your own Surgical on the original Doomsday and *shrink it* by
+into your pile, if your opponent tries to extract them, you can _shrink_ your
+library by casting your own Surgical on the original Doomsday and _shrink it_ by
 that amount. This again assumes they will use Surgical Extraction at a time you
 want but it is a possibility to be explored.
 
 > {U}{U} + Cantrip
 
 :::row{variant=PILE}
-- SW
-- EoA
-- TO
-- DD
-- DD
+SW
+EoA
+TO
+DD
+DD
 :::
 
 Here you have a pile where, if they Surgical in response to the cantrip effect
@@ -552,13 +553,13 @@ As you get more matches under your belt with the deck you will start to face
 more and more interaction that might seem a surprise or unexpected. We will try
 and list those that are relatively common to face and will try to provide
 examples on how to play around them. This is not an exhaustive list however and
-you will eventually run across unexpected interactions. If something does *get
-you* then stay calm, take it as learning and move on.
+you will eventually run across unexpected interactions. If something does _get
+you_ then stay calm, take it as learning and move on.
 
 ### Grindstone
 
 :::row{variant=CENTERED}
-- Grindstone
+Grindstone
 :::
 
 You can find yourself in a situation whereby your opponent may have an active
@@ -571,30 +572,29 @@ while passing the turn.
 > PTT + {U}{U}
 
 :::row{variant=PILE}
-- SW
-- EoA
-- TO
-- SW
-- TO
+SW
+EoA
+TO
+SW
+TO
 :::
 
-For the example above, if they Grindstone when digging into the pile you will
-*mill* Ponder and Ponder and then also Wraith and Edge and draw TO to be able to
-cast it with 0 cards in your library. If you can draw into Ponder, you cast
-Ponder and again, if they go to activate Grindstone, you will *mill* Ponder and
-Street Wraith which allows you to draw Edge and cycle into Oracle. If you are
-allowed to access the second Ponder then, assuming they do not activate
-Grindstone here you can directly grab Oracle and cast it with 2 cards left in
-your library and a devotion of 2.
+For the example above, if they activate Grindstone prior to accessing the pile
+you will _mill_ SW and Edge, drawing TO for your turn and allowing you to cast
+it. If they wait until you draw SW (activating in your draw step) you will
+_mill_ Edge and Oracle. This allows you to SW into SW into Oracle. If you are
+able to resolve the first SW cycling without any response then you can access
+Edge and cycle again. If they activate here you will mill TO and the second SW
+and draw the second TO.
 
 This is just one example in a single set of potential circumstances of course.
 Similar to this includes cards like :card[Hedron Crab], :card[Altar of
-Dementia], :card[Ipnu Rivulet] and :card[Cephalid Coliseum].
+Dementia] and :card[Ipnu Rivulet].
 
 ### Fireblast
 
 :::row{variant=CENTERED}
-- Fireblast
+Fireblast
 :::
 
 Fireblast is something to be mindful of only in the Burn matchup but it's a good
@@ -610,26 +610,26 @@ loss.
 ### Mindbreak Trap
 
 :::row{variant=CENTERED}
-- Mindbreak Trap
+Mindbreak Trap
 :::
 
 :card[Mindbreak Trap] is a popular tool to beat combo decks and work around Veil
 of Summer. If you know or suspect the possibility of facing it then you can
-either try to incorporate counter magic into your strategy or build a PTT pile
+either try to incorporate countermagic into your strategy or build a PTT pile
 that is mindful of the spell count. Assuming that you cast Dark Ritual into
 Doomsday, it is risky to try and resolve a third spell.
 
 With the following pile:
 
 :::row{variant=PILE}
-- IU
-- Tsz
-- LP
-- LP
-- TO
+IU
+Tsz
+LP
+LP
+TO
 :::
 
-Assuming you had a cantrip ready to *dig* into the pile, you can use it to try
+Assuming you had a cantrip ready to _dig_ into the pile, you can use it to try
 and use it to either pre-emptively bait the Trap or to enable digging one deeper
 so that you can lead on Thoughtseize the next turn.
 
@@ -639,11 +639,11 @@ available on the following turn you can go Dark Ritual into Doomsday and pass
 the turn building the following:
 
 :::row{variant=PILE}
-- IU
-- EoA
-- LP
-- Island
-- TO
+IU
+EoA
+LP
+Island
+TO
 :::
 
 This pile only actually casts two spells on the turn after resolving Doomsday.
@@ -654,10 +654,10 @@ effects should it be desired.
 ### Thought Scour / Predict / Ipnu Rivulet / Archmage's Charm
 
 :::row{variant=CENTERED}
-- Thought Scour
-- Pdt
-- Ipnu Rivulet
-- Archmage's Charm
+Thought Scour
+Pdt
+Ipnu Rivulet
+Archmage's Charm
 :::
 
 Thought Scour is not normally a common card in Legacy now that the
@@ -665,7 +665,7 @@ Thought Scour is not normally a common card in Legacy now that the
 from time to time. Predict is a card advantage spell played by both Miracles and
 Doomsday pilots. Both Thought Scour and Predict can target any player and so
 either can mess up your piles at instant speed, milling a key piece in response
-to a cantrip or potentially forcing you to unknowingly *deck* yourself by making
+to a cantrip or potentially forcing you to unknowingly _deck_ yourself by making
 your Ideas Unbound suddenly lethal through decking. With Ipnu Rivulet being
 particularly brutal, you can try to take similar considerations when facing
 Grindstone in either baiting the known activation or taking a bit more time to
@@ -674,22 +674,22 @@ play around it.
 ### Dack Fayden / Jace, the Mind Sculptor / Portent
 
 :::row{variant=CENTERED}
-- Dack Fayden
-- Jace, the Mind Sculptor
-- Portent
+Dack Fayden
+Jace, the Mind Sculptor
+Portent
 :::
 
 These are only relevant when building a pass-the-turn pile. Jace is likely the
 least uncommon one to face and is easily beaten by placing an otherwise
-innocuous cantrip as the top card. If the opponent *upticks* Jace then they
-cannot *hit* an integral piece and even if they allow it to stay on top you can
+innocuous cantrip as the top card. If the opponent _upticks_ Jace then they
+cannot _hit_ an integral piece and even if they allow it to stay on top you can
 still execute the pile without hindrance.
 
 ### Vendilion Clique / Kolaghan's Command
 
 :::row{variant=CENTERED}
-- Vendilion Clique
-- Kolaghan's Command
+Vendilion Clique
+Kolaghan's Command
 :::
 
 Both of these cards tend to come from control shells. Command is likely more
@@ -698,23 +698,23 @@ additional card in hand than needed. Often this means not being able to utilise
 LED however you can otherwise treat it like any other pile where you need to
 keep countermagic up. Clique is tricky when trying to utilise cards like Predict
 or Ideas Unbound but is relatively superfluous if executing something with just
-cantrips. You can also build a pile around it *if* you can predict when the
+cantrips. You can also build a pile around it _if_ you can predict when the
 opponent will use it however that can be tricky. Also be mindful of timing for
-your opponent being able to *snipe* an LED with the artifact destruction mode.
+your opponent being able to _snipe_ an LED with the artifact destruction mode.
 
 ### Stifle / Trickbind / Torpor Orb / Dress Down
 
 :::row{variant=CENTERED}
-- Stifle
-- Trickbind
-- Torpor Orb
-- Dress Down
+Stifle
+Trickbind
+Torpor Orb
+Dress Down
 :::
 
 These effects all seek to prevent the Thassa's Oracle trigger from either
 resolving or ever triggering in the first place. For any permanent based one you
 will need to remove it to be able to win from the Oracle trigger. For the
-instant speed ones, you will need some sort of interaction, either counter magic
+instant speed ones, you will need some sort of interaction, either countermagic
 or discard (however in the case of :card[Trickbind] you have to be proactive
 thanks to the split second ability) so something like Duress is a must. You can
 also think about using a second Oracle in your pile if you only suspect a single
@@ -723,9 +723,9 @@ use example of these effects.
 ### Thoughtseize / Thoughtknot Seer / Cabal Therapy
 
 :::row{variant=CENTERED}
-- Tsz
-- Thoughtknot Seer
-- CT
+Tsz
+Thoughtknot Seer
+CT
 :::
 
 These effects tend to only be relevant for PTT piles. Normally they can be
@@ -737,8 +737,8 @@ pile.
 ### Endurance / Thran Foundry
 
 :::row{variant=CENTERED}
-- Endurance | MH2
-- Thran Foundry
+Endurance | MH2
+Thran Foundry
 :::
 
 Generally speaking, beating Endurance(s) and similar effects involves one or
@@ -769,17 +769,28 @@ turn requires more initial {U} mana but is definitely possible:
 > PTT + {U}{U}{U}
 
 :::row{variant=PILE}
-- IU
-- SW
-- TO
-- Island
-- SW
+IU
+SW
+TO
+Island
+SW
 :::
 
 Another option is to exile your graveyard in response to the Endurance effect.
 Anti-graveyard sideboard choices like :card[Relic of Progenitus] or
 :card[Tormod's Crypt] can double as Endurance insulation by putting them in the
 pile or by drawing them naturally.
+
+## Deciding When to Pass the Turn
+
+One of the hardest tricks to master is the judgement of when to utilise a PTT or
+slow pile and when to go for it in the face of possible interaction. There is no
+hard science to this judgement but it does depend on the resources you have
+available to you, the suspected interaction the opponent has and the degree of
+_pressure_ they are imposing on you with their own gameplan (are they likely to
+be able to win if given the extra turn or turns?). This is something you will
+get better with as you accrue experience and learn the rest of the metagame
+along with your own deck.
 
 ## Final Thoughts
 
@@ -795,5 +806,9 @@ cases. Just try your best to make note of what you are aware of, play around
 what you can but be mindful that sometimes you cannot play around everything and
 need to accept if they have the one corner case card.
 
-In the next section we shall explore sideboard choices and theory which will
-help you with some of the decisions or scenarios presented in this chapter.
+## Next Steps
+
+Now we have a lot of piles under our belt it is time to think on what sort of
+deck construction we are looking for. In the next section we shall discuss the
+deck building and the theorycrafting behind it to help you try and work out what
+sort of Doomsday list you want to play.

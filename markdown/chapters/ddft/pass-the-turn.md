@@ -33,11 +33,11 @@ Let's look at some basic examples.
 > {U}{U}
 
 :::row{variant=PILE}
-- IU
-- LP
-- LP
-- SW
-- TO
+IU
+LP
+LP
+SW
+TO
 :::
 
 Imagine you have an Island and and Underground Sea on board, Dark Ritual and
@@ -52,11 +52,11 @@ chapter, simply using the draw step in place of a cantrip to draw into the pile.
 > {B}{B}{B}
 
 :::row{variant=PILE}
-- IC
-- LP
-- LP
-- LP
-- TO
+IC
+LP
+LP
+LP
+TO
 :::
 
 This is essentially the same pile as Example 1, but with Infernal Contract as
@@ -71,11 +71,11 @@ here the draw step replaces a cantrip.
 > Lion's Eye Diamond on the board - {0}, 2 life
 
 :::row{variant=PILE}
-- SW
-- IU
-- LP
-- LP
-- TO
+SW
+IU
+LP
+LP
+TO
 :::
 
 If you have an LED on the battlefield, you can win for just 2 life, no mana
@@ -89,11 +89,11 @@ encounter at some point.
 > Ponder in hand - {U}
 
 :::row{variant=PILE}
-- LED
-- IU
-- LP
-- LP
-- TO
+LED
+IU
+LP
+LP
+TO
 :::
 
 This pile is similar to the last, but swaps the locations of the cantrip and the
@@ -118,15 +118,15 @@ you read this section.
 > 2 cards in hand - {U}{U} - 8 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- LED
-- EoE
-- BW
+IU
+LED
+LED
+EoE
+BW
 :::
 
 Echo of Eons in the maindeck provides some very interesting pile options, which
-are explored more in-depth in a later chapter. One powerful application is
+are explored more in depth in a later chapter. One powerful application is
 building a high storm count by recycling multiple spells post-Doomsday. In this
 example, you draw Ideas Unbound, which draws 2 LEDs and an Echo of Eons. Crack
 both LEDs for RRRUUU, and spend your blue mana to flashback Echo. This will draw
@@ -145,30 +145,30 @@ there is a chance your opponent draws a fresh hand full of interaction.
 > LED, LP on board - {1}{U}{U} - 9 Storm
 
 :::row{variant=PILE}
-- IU
-- LED
-- DD
-- Pnd
-- BW
+IU
+LED
+Pnd
+DD
+BW
 :::
 
 1. Cast Ideas Unbound, holding priority to crack LED for {B}{B}{B}, drawing LED,
    Ponder and Doomsday
-2. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
-3. Construct the following new pile:
+1. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
+1. Construct the following new pile:
 
 :::row{variant=PILE}
-- IU
-- LED
-- LP
-- BW
-- DD
+IU
+LED
+LP
+BW
+DD
 :::
 
-4. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
-5. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
-6. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
-7. Retrive Tendrils of Agony from your sideboard and aim it at your opponent
+1. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
+1. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
+1. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
+1. Retrive Tendrils of Agony from your sideboard and aim it at your opponent
 
 This what is often referred to as a Double-Doomsday pile, where a second
 Doomsday is used as a way to recycle spells. While the initial mana cost looks
@@ -184,11 +184,11 @@ opponent any new cards, so it has some appealing aspects.
 > 5 lands in play - {1}{B}{B}{B}{B} - 5 Storm + 6 Storm
 
 :::row{variant=PILE}
-- IC
-- Rain of Filth
-- CR
-- CB
-- ToA
+IC
+Rain of Filth
+CR
+CB
+ToA
 :::
 
 This pile, on the other hand, does require some less commmon card choices. It
@@ -202,11 +202,11 @@ mana producers in hand the onboard requirements are easier to manage.
 > DR in hand, PiF in sideboard - {B}{B}{R}{R} - 10 Storm
 
 :::row{variant=PILE}
-- IC
-- DR
-- DR
-- BW
-- ToA
+IC
+DR
+DR
+BW
+ToA
 :::
 
 If you have Past in Flames in the sideboard you can use that as an engine to
@@ -223,14 +223,14 @@ in hand or on board.
 ## Conclusion
 
 1. You don't always have to win the turn you cast Doomsday
-2. Pass-the-turn piles can be cheap and effective, especially when Thassa's
+1. Pass-the-turn piles can be cheap and effective, especially when Thassa's
    Oracle is involved
-3. PTT piles leave you more susceptible to disruption
-4. It is possible to generate lethal Storm counts despite passing the turn,
+1. PTT piles leave you more susceptible to disruption
+1. It is possible to generate lethal Storm counts despite passing the turn,
    typically by using tricks to recycle cards. Mana is usually the primary
    constraint in such piles.
-5. Note that all of these piles can be used as same-turn piles, you simply need
+1. Note that all of these piles can be used as same-turn piles, you simply need
    the extra resources to cast Doomsday and draw into your pile on the same
    turn.
-6. Don't put unnecessary cards in your deck just to enable some of these more
+1. Don't put unnecessary cards in your deck just to enable some of these more
    unusual pass-the-turn piles.

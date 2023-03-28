@@ -3,7 +3,7 @@ authors: Doishy
 banner: CR | TOR
 kind: ARTICLE
 tags: [LEGACY, MEANDECK]
-title: "May You Live in Interesting Times: The 2022 Doomsday Review"
+title: 'May You Live in Interesting Times: The 2022 Doomsday Review'
 ---
 
 ## Table of Contents
@@ -37,12 +37,12 @@ year.
 #### Shelldock Isle
 
 :::row{variant=CENTERED}
-- Shelldock Isle
+Shelldock Isle
 :::
 
 The first one we'll touch on comes in two parts. The first part is related to a
-rules change that was enacted with the release of *New Capenna* in how
-*Hideaway* as a mechanic now works.
+rules change that was enacted with the release of _New Capenna_ in how
+_Hideaway_ as a mechanic now works.
 
 > ... Exile one of them face down and put the rest on the bottom of your
 > library in a random order.
@@ -57,11 +57,11 @@ Traditionally vs. a {U} based control shell you might build something like this:
 > Pass the turn
 
 :::row{variant=PILE}
-- SI
-- Em
-- Thassa's Oracle
-- Pyroblast
-- Volcanic Island
+SI
+Em
+Thassa's Oracle
+Pyroblast
+Volcanic Island
 :::
 
 The idea here is you draw Shelldock, play it and trigger putting Emrakul
@@ -81,12 +81,12 @@ Nowadays if you sit across from a Grixis Control player, a Jeskai Pile, a Bant
 deck or even Stryfo himself you will expect to face many of the following cards:
 
 :::row{variant=CENTERED}
-- Teferi, Time Raveler
-- Wasteland
-- Dress Down
-- Boseiju, Who Endures
-- Back to Basics
-- Karakas
+Teferi, Time Raveler
+Wasteland
+Dress Down
+Boseiju, Who Endures
+Back to Basics
+Karakas
 :::
 
 All of these are both common, and completely stop the Shelldock gameplan from
@@ -104,7 +104,7 @@ by the wayside.
 #### Deep Analysis
 
 :::row{variant=CENTERED}
-- Deep Analysis
+Deep Analysis
 :::
 
 This time last year :card[Consider] was the new hotness and as a result
@@ -127,7 +127,7 @@ much as a benefit as would be wanted for its inclusion.
 #### Cabal Ritual
 
 :::row{variant=CENTERED}
-- Cabal Ritual
+Cabal Ritual
 :::
 
 :card[CR] is by no means a new card to the format. It has been explored in
@@ -152,7 +152,7 @@ particular. Many people see this as a card that only rewards the playing of
 basic Swamp as you can grab Island on turn 1, Personal Tutor for Doomsday and
 then fetch basic swamp on turn 2 and Cabal Ritual into Doomsday. In this
 scenario, barring the presence of :card[Blood Moon] it actually only truly
-enables the use of basic Island with the Swamp being a *dead land* here. Let me
+enables the use of basic Island with the Swamp being a _dead land_ here. Let me
 explain why.
 
 Pre-Doomsday you may have concerns about being Wastelanded which are well
@@ -165,10 +165,10 @@ more aggressive fetching of Island early but you can still happily grab
 :card[Underground Sea] as the {B} source. Once Doomsday resolves Swamp doesn't
 help cast the majority of the deck. Only discard spells or for taxing effects
 like :card[Sphere of Resistance]. As a result it basically acts like a
-*non-land* not contributing to the win.
+_non-land_ not contributing to the win.
 
 If you had a Sea there then yes, it may be Wastelanded but this then makes it
-the same as a the *non-land* Swamp. If it survives however then you now have an
+the same as a the _non-land_ Swamp. If it survives however then you now have an
 additional {U} source with which to make use of.
 
 If people do include Cabal Ritual it tends to be as a 1 to 3-of and normally
@@ -180,7 +180,7 @@ consideration.
 #### Daze
 
 :::row{variant=CENTERED}
-- Daze
+Daze
 :::
 
 It wasn't until around April 2020 with the work of Jax that :card[Daze] became a
@@ -217,8 +217,8 @@ Comparing these 2 main groups we can already see the former includes many decks
 that Doomsday can already fair pretty well against whilst the latter includes
 archetypes that the deck struggles against or are closer to 50-50. With this in
 mind it seems, to some, that shoring up the matchups where the natural archetype
-advantage is not as prevalent is more useful than retaining something that *wins
-more* against decks we might already be favoured against.
+advantage is not as prevalent is more useful than retaining something that _wins
+more_ against decks we might already be favoured against.
 
 Daze is still a very powerful card and running it, even as a full playset is
 still very effective. Whether you do play it at all, and how many if yes, really
@@ -234,7 +234,7 @@ present can be enough to buy time when needed.
 #### Ideas Unbound
 
 :::row{variant=CENTERED}
-- IU
+IU
 :::
 
 :card[Ideas Unbound] has been a staple since before :card[Sensei's Divining Top]
@@ -252,11 +252,11 @@ chapter](/meandeck/brainstorm) of the Wiki:
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- IU
-- LP
-- TO
+LED
+SW
+IU
+LP
+TO
 :::
 
 You can simply change a couple of cards and it still works:
@@ -264,11 +264,11 @@ You can simply change a couple of cards and it still works:
 > {U} + Brainstorm + X
 
 :::row{variant=PILE}
-- LED
-- SW
-- Consider
-- SW
-- TO
+LED
+SW
+Consider
+SW
+TO
 :::
 
 Let's look at the steps to complete the pile:
@@ -282,7 +282,7 @@ Let's look at the steps to complete the pile:
 
 This shows one example where people have thought Ideas is maybe obsoleted. In
 some of these discussions regarding the usefulness of Ideas Unbound, the word
-*crutch* has been thrown about a lot in relation to Ideas giving some people the
+_crutch_ has been thrown about a lot in relation to Ideas giving some people the
 false impression that it is a card for new players and isn't actually good.
 
 I want to clarify this is not true. There are a number of piles that only Ideas
@@ -293,11 +293,11 @@ Take this example playing around :card[Endurance]:
 > 3 {U} producing lands in play.
 
 :::row{variant=PILE}
-- IU
-- SW
-- Thassa's Oracle
-- Cavern of Souls
-- SW
+IU
+SW
+Thassa's Oracle
+Cavern of Souls
+SW
 :::
 
 Here you can win against an opponent who has double Endurance available.
@@ -324,8 +324,8 @@ not be disregarded lightly.
 #### Basic Lands
 
 :::row{variant=CENTERED}
-- Island
-- Swamp
+Island
+Swamp
 :::
 
 Basic lands have always held an interesting deckbuilding space in Legacy. They
@@ -363,14 +363,14 @@ when deciding whether to run basics and if so, how many and which ones to run.
 In this section we shall talk about the different flavours of Doomsday lists and
 the innovations that have been worked on some of them.
 
-This year saw a lot of nomenclature thrown around for *Turbo Doomsday* and the
-newly dubbed *Tempo Doomsday* alongside a myriad of others which we shall
+This year saw a lot of nomenclature thrown around for _Turbo Doomsday_ and the
+newly dubbed _Tempo Doomsday_ alongside a myriad of others which we shall
 discuss in a moment however people often get concerned as to what happens when
 their list doesn't fit into any of these common labels. First of all don't worry
 too much. It might be you only own a single :card[Personal Tutor] thus you
 probably aren't going to be finding early Doomsday kills as often as a
-traditional *Turbo* list which runs 4 of them but you don't want to splash {W}
-for an Esper list and aren't into playing a fairer game like a *Tempo* list.
+traditional _Turbo_ list which runs 4 of them but you don't want to splash {W}
+for an Esper list and aren't into playing a fairer game like a _Tempo_ list.
 This is totally fine. Doomsday is still a flexible shell and just because your
 list doesn't conform to one of these listed subarchetypes, doesn't make it
 immediately inferior in any way. The only reason the below subarchetypes are
@@ -380,11 +380,11 @@ variants or to most novel for 2022.
 #### Turbo Doomsday
 
 :::row{variant=CENTERED}
-- PT
+PT
 :::
 
-The label *Turbo* has now become pretty accepted to mean *Doomsday running 3-4
-copies of Personal Tutor*. It tends to want to win faster often sacrificing
+The label _Turbo_ has now become pretty accepted to mean _Doomsday running 3-4
+copies of Personal Tutor_. It tends to want to win faster often sacrificing
 later game selection (normally running only 0-1 Preordain) in favour of early
 game consistency. Likewise these lists tend to run around 15 lands and normally
 stay {U}{B} or occasionally splash {R} but almost never touch onto {W} or {G}
@@ -405,27 +405,27 @@ cycler cards and the inclusion of just the basic Island.
 #### ABCD Doomsday
 
 :::row{variant=CENTERED}
-- Misdirection
+Misdirection
 :::
 
 ABCD has become a community favourite saying this year with it standing for
-*Always Be Casting Doomsday*. This started as a way to advise people they should
+_Always Be Casting Doomsday_. This started as a way to advise people they should
 be trusting in the power of the card and jamming it early and often however a
-variant of the more common *Turbo* lists has appeared with this moniker applied
+variant of the more common _Turbo_ lists has appeared with this moniker applied
 to it as a naming convention.
 
-The main differences between a *Turbo* list and an *ABCD* list is the latter is
+The main differences between a _Turbo_ list and an _ABCD_ list is the latter is
 even more geared towards resolving early Doomsday often. It tends to have a
 higher fast mana count, sometimes forgo some pile cards like Ideas Unbound and
 runs a reduced interaction suite assuming you only need a single piece often to
 jam early. As part of the interaction arsenal it often removes Daze entirely but
-does include additional *pitch* protection in the form of :card[Misdirection].
+does include additional _pitch_ protection in the form of :card[Misdirection].
 One way these lists have been described is as if they are pre-boarded vs. decks
 like 8-Cast and Delver but will maybe not be as well geared against other
 archetypes as a result.
 
 Here is an example decklist from a 3rd place Challenge result in April by
-*Wonderpreaux*.
+_Wonderpreaux_.
 
 ::decklist{path=2022/09/15/wonderpreaux}
 
@@ -435,11 +435,11 @@ others elect to run things like Preordain or Pact of Negation instead.
 #### Tempo Doomsday
 
 :::row{variant=CENTERED}
-- Malevolent Hermit
-- Murktide Regent
+Malevolent Hermit
+Murktide Regent
 :::
 
-A new label for a previously explored concept appeared this year. *Tempo*
+A new label for a previously explored concept appeared this year. _Tempo_
 Doomsday basically indicates any Doomsday list that shares its deck space with
 another plan, normally a creature based fair one. Previous examples of this
 concept have included the use of :card[Uro, Titan of Nature's Wrath] or
@@ -449,7 +449,7 @@ staple inclusion in this style of deck acting as a speedbump to facilitate
 either side of the deck.
 
 This year has seen the design space of this half and half combo vs. fair plan
-explored in a much more in-depth fashion to a lot more success and popularity
+explored in a much more in depth fashion to a lot more success and popularity
 than before. This is largely thanks to the inclusion of new creatures like
 :card[Malevolent Hermit], :card[Murktide Regent] and :card[Dragon's Rage
 Channeler]. All these creatures have been tried and found to incorporate into
@@ -475,11 +475,11 @@ manabase. Very cool to see!
 #### Grief Doomsday
 
 :::row{variant=CENTERED}
-- Grief
-- Ephemerate
+Grief
+Ephemerate
 :::
 
-Something that sort of falls into the *Tempo* concept but not fully involves the
+Something that sort of falls into the _Tempo_ concept but not fully involves the
 use of the card :card[Grief]. Grief was explored as a potential interaction
 spell following the idea of maximising turn 1 interaction to enable early
 Doomsday but, just like in Deadguy Ale lists, it was found to be very effective
@@ -503,8 +503,8 @@ element of the deck but sometimes falls prey to its own mana requirements.
 #### Esper Doomsday
 
 :::row{variant=CENTERED}
-- Teferi, Time Raveler
-- Predict
+Teferi, Time Raveler
+Predict
 :::
 
 Although we have technically already discussed lists and subarchetypes in the
@@ -535,7 +535,7 @@ Reclamation] and :card[Entreat the Angels] to help fortify the grind plan.
 
 ## Final Thoughts
 
-That just about wraps up the current *year in summary*. Hopefully it has
+That just about wraps up the current _year in summary_. Hopefully it has
 provided a snapshot glance that allows you to have got a feel for the type of
 innovations and discussions that have taken place within the community. As
 always do feel free to try things out, ask questions and just generally have fun

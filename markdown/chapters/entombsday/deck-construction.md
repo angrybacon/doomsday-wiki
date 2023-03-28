@@ -65,6 +65,7 @@ The Doomsday package in the sideboard is somewhat streamlined compared to curren
 
 ### Other Options
 
+
 Here is another example Entombsday list running several of the below options:
 
 ::decklist{path=2023/03/entombsday.Nitro_Rick}

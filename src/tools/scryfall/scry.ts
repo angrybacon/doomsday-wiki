@@ -57,7 +57,7 @@ export const scry: Scry = async (query) => {
   const response = await fetch(path);
   if (!response.ok) {
     const error: string = await response.text();
-    throw new Error(error);
+    throw error;
   }
   const result: ScryData = await response.json();
   return result;

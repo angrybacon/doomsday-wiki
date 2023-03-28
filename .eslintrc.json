@@ -60,7 +60,6 @@
       "error",
       { "allowTypedFunctionExpressions": true }
     ],
-    "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-unused-vars": [
       "warn",
@@ -74,17 +73,18 @@
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
-    "react/jsx-no-useless-fragment": ["warn", { "allowExpressions": true }],
     "no-console": ["warn", { "allow": ["error"] }],
     "no-nested-ternary": "off",
-    "no-use-before-define": "off",
+    "no-param-reassign": ["error", { "props": false }],
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
     "no-shadow": "off",
     "no-underscore-dangle": "off",
-    "react/jsx-filename-extension": [
-      "error",
-      { "extensions": [".jsx", ".tsx"] }
-    ],
-    "react/jsx-props-no-spreading": "off",
+    "no-use-before-define": "off",
     "react/function-component-definition": [
       "error",
       {
@@ -92,12 +92,12 @@
         "unnamedComponents": "arrow-function"
       }
     ],
-    "no-restricted-syntax": [
+    "react/jsx-filename-extension": [
       "error",
-      "ForInStatement",
-      "LabeledStatement",
-      "WithStatement"
-    ]
+      { "extensions": [".jsx", ".tsx"] }
+    ],
+    "react/jsx-no-useless-fragment": ["warn", { "allowExpressions": true }],
+    "react/jsx-props-no-spreading": "off"
   },
   "settings": {
     "import/resolver": {

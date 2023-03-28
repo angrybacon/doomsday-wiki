@@ -26,7 +26,6 @@ const remarkWithPartial = (
   } else if (!partials[path]) {
     console.error(`[remark] Missing source file for "${path}" partial`);
   } else {
-    // eslint-disable-next-line no-param-reassign
     directive.data = {
       ...directive.data,
       hProperties: {

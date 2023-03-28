@@ -3,7 +3,7 @@ authors: d8dk32
 banner: BW
 kind: ARTICLE
 tags: [LEGACY, DDFT]
-title: "DDFT 2022: Year in Review"
+title: 'DDFT 2022: Year in Review'
 ---
 
 2022 has been something of a banner year for DDFT. We've seen more published
@@ -20,17 +20,17 @@ you, dear reader, back to... 2021?
 ## 2021
 
 :::row{variant=CENTERED}
-- Echo of Eons
-- Doomsday
-- Spoils of the Vault
+Echo of Eons
+Doomsday
+Spoils of the Vault
 :::
 
 2021, and 2020 before it, had not been a great year for DDFT. We'd gotten
 :card[Echo of Eons] and :card[Thassa's Oracle] a year or two before and the new
 tools had provided some fun and interesting decklists but not a ton of results.
-I'd been having fun tweaking and playing *Mindkiller Doomsday*, and had cashed
+I'd been having fun tweaking and playing _Mindkiller Doomsday_, and had cashed
 many a league but fallen short of 5-0s. Near the beginning of the year,
-*BluStalker* had a 5-0 with an [interesting Echo DDFT
+_BluStalker_ had a 5-0 with an [interesting Echo DDFT
 list](https://www.mtggoldfish.com/deck/3662732#paper). It had some, in my
 opinion, questionable card choices and was low on protection spells but it was a
 result in the vein of Traditional DDFT. Unfortunately it seemed nobody else had
@@ -56,10 +56,10 @@ We'll come back to some ideas from it later.
 
 ## Entering 2022
 
-As we moved into 2022, I was primarily playing and brewing *Mindkiller*
+As we moved into 2022, I was primarily playing and brewing _Mindkiller_
 variants. The metagame was (and still is, really) in such a state that I felt
 combo decks needed to be extremely fast to compete. There wasn't much room for a
-*midrange* combo deck that wasn't playing :card[Force of Will]. Traditional
+_midrange_ combo deck that wasn't playing :card[Force of Will]. Traditional
 DDFT, as well as decks like ANT, fall into this space and ANT was similarly on a
 downswing. I think this is in part because there is nothing inherent about the
 way the deck is constructed that beats any portion of the metagame. They aren't
@@ -67,7 +67,7 @@ fast enough to ignore decks without Force of Will, and they aren't resilient
 enough to reliably beat multiple counterspells without playing a bunch of their
 own protection. Combine this with the fact that blue decks had become more
 inherently constructed to beat typical Storm decks with cards like Narset, and
-you have a recipe for pushing out the *midrange* combo decks. It's much easier
+you have a recipe for pushing out the _midrange_ combo decks. It's much easier
 to construct a fast combo deck than one that inherently beats countermagic, and
 Mindkiller fits the bill. It even had the tools to play through hateful
 permanents when on the draw, though it lacked a bit of the ability to battle
@@ -106,15 +106,15 @@ lot less MTGO during the summer.
 ## You Said There Were Other DDFT Variants, Stop Talking About Your Spoils Kink
 
 :::row{variant=CENTERED}
-- Bolas's Citadel
-- Doomsday
-- Tendrils of Agony
+Bolas's Citadel
+Doomsday
+Tendrils of Agony
 :::
 
 Oh right, sorry.
 
 So around the same time I was on my hot streak, Legacy combo afficionado and
-accomplished Doomsday player *Fuz65* had a small flurry of results with a
+accomplished Doomsday player _Fuz65_ had a small flurry of results with a
 radical take on the archetype.
 
 ::decklist{path=2022/12/31/citadel-doomsday}
@@ -128,7 +128,7 @@ and Citadel provides a powerful engine that is hard for most decks to interact
 with.
 
 However, I would say my list was trying harder to be a Storm deck, with the
-tutors and multiple tutorable Storm engines. *Fuz*'s list is clearly more
+tutors and multiple tutorable Storm engines. _Fuz_'s list is clearly more
 focused on Doomsday, and the Citadels provide a backup plan that incidentally
 plays well with the primary plan. There are some aspects of this list that I
 don't personally like, such as the distinct lack of tutors. Playing more
@@ -138,7 +138,7 @@ can also let you draw into a Doomsday pile and help find Bolas's Citadel, or
 find a win-con off Citadel.
 
 That said, the list clearly works, which is interesting because I looks like it
-lies firmly in the realm of *midrange* combo. But lets compare it to decks like
+lies firmly in the realm of _midrange_ combo. But lets compare it to decks like
 ANT or Traditional DDFT. The biggest difference from Traditional DDFT is the
 manabase. Going from 4 to 2 colors and playing lots of basics gives it more
 stability against decks like Delver and many of the fair non-blue decks. Good
@@ -160,19 +160,19 @@ these aspects are what allow it to succeed.
 ## The Rest of the Year, or How I Didn’t Learn to Not Talk About My Spoils Kink
 
 :::row{variant=CENTERED}
-- Galvanic Relay
-- Doomsday
-- Mox Opal
+Galvanic Relay
+Doomsday
+Mox Opal
 :::
 
 As autumn rolled in I'd mostly had my fill of grass-touching and started to more
-frequently play Magic. I was still primarily focused on working on *Mindkiller
-Doomsday*, and I was especially interested in trying to adapt the deck around
+frequently play Magic. I was still primarily focused on working on _Mindkiller
+Doomsday_, and I was especially interested in trying to adapt the deck around
 :card[Mox Opal] and :card[Galvanic Relay]. I had seen their effectiveness in TES
 and was interested to see if they could do the same for my deck. You'll note
 that Relay was already in the sideboard of my 5-0 lists, but I was not
 altogether impressed with its power. TES was better optimized to use Relay than
-that incarnation of *Mindkiller*, in large part because of the number of mana
+that incarnation of _Mindkiller_, in large part because of the number of mana
 rocks. Opals help increase Storm count for a Relay, and then help you cast the
 spells you exiled for the next turn. TES is playing around 23 artifacts to help
 reach Metalcraft, and Mindkiller was running a mere 12. Conventional wisdom says
@@ -225,7 +225,7 @@ continued testing.
 
 ## Where Do We Go From Here?
 
-This is the *Mindkiller* list I am currently testing and I like it quite a bit.
+This is the _Mindkiller_ list I am currently testing and I like it quite a bit.
 
 ::decklist{path=2022/12/31/mindkiller.opal-v2}
 
@@ -252,10 +252,10 @@ I also removed :card[Street Wraith]. It was really only in the deck to enable a
 very specific pile. Imagine a hand like this:
 
 :::row{variant=CENTERED}
-- Doomsday
-- Dark Ritual
-- Lotus Petal
-- Lion's Eye Diamond
+Doomsday
+Dark Ritual
+Lotus Petal
+Lion's Eye Diamond
 :::
 
 This is a keepable 4-card hand with Street Wraith in the deck, since you can put
@@ -271,20 +271,20 @@ is, and all the reasonable win-cons and utility cards are already present.
 Perhaps :card[Slaughter Pact] would be a reasonable inclusion as a way to kill
 Collector Ouphe and other hatebears.
 
-Coming into 2023, I would also really like to work on the *Fuz65*-style list
+Coming into 2023, I would also really like to work on the _Fuz65_-style list
 some more as well. It's been a while since I've seriously played a deck with
 blue cantrips, and I'd hate to leave a viable DDFT list untested. I'd also
 really like to play more paper Magic, especially larger tournaments. Haven't had
 a good MTG road trip with the homies in far too long.
 
 Finally, to wrap this up, I wanted to shout out a couple people from the
-Doomsday discord that are active in the DDFT channel. *Jens* has been continuing
+Doomsday discord that are active in the DDFT channel. _Jens_ has been continuing
 to work on Traditional DDFT lists, and while they've expressed that it hasn't
 been all that successful, it's still good to see people developing and testing
-in the DDFT space. *Prosokken* is a real sicko and *Mindkiller* enjoyer, who has
+in the DDFT space. _Prosokken_ is a real sicko and _Mindkiller_ enjoyer, who has
 listened to a lot of outlandish crap ideas from me and was very helpful in
-converging on the *Mindkiller* list I'm currently testing. And of course
-*Fuz65*; innovation is always appreciated.
+converging on the _Mindkiller_ list I'm currently testing. And of course
+_Fuz65_; innovation is always appreciated.
 
 If you made it this far, thanks for reading, and hopefully 2023 will bring some
 new toys to play with.
