@@ -12,9 +12,11 @@ In general, the easiest way to play around interaction is using discard and coun
 
 By playing patiently and knowing when to go for your combo, you can steal wins that would potherwise be missed. 
 
-## Comboing in Response to Interaction
+## Comboing at Instant Speed
 
 Because the Tin Fins combo is Instant speed, you are able to combo off in response to interaction/hate, in response to your opponent's combo, or even in your opponents end step. 
+
+For example, a common line when playing against control decks is to combo in their endstep or in response to their cantrips/flash creatures. This dodges pitch-cast :card[Force of Negation] and allows you to draw 14 cards. This level of card advantage is nearly insurmountable for the control player in most situations and sets you up for the win on your turn.
 
 ## Removal
 
@@ -64,5 +66,28 @@ While similar to the previously mentioned effects, Surgical Extraction requires 
 
 In this scenario, you can bait the Surgical using the first reanimation spell, then you can respond to Surgical with the second. Things can get weird if they have two copies of Surgical, but you also run discard spells and countermagic, so you can use those to force them to Surgical before you cast your reanimation or just counter their Surgical.
 
+## Other Hate
 
+:::row{variant=CENTERED}
+- Teferi, Time Raveler
+- Hullbreacher
+- Containment Priest
+:::
 
+### Teferi, Time Raveler
+
+:card[Teferi, Time Raveler] is an annoying, but not necessarily difficult, card for Tin Fins to play around as it turns off our ability to reanimate Emrakul. The first option is to agressively discard or counter it. If those are not an option then the best available line is to reanimate Griselbrand as normal, go to combat and attack your opponent, the proceed with looping your deck to either hard cast Emrakul or loop Collective Brutality.
+
+Post-board, keep in mind that this effect turns off :card[Shelldock Isle], so avoid piles using that effect if your opponent is playing Teferi.
+
+### Narset, Parter of Veils and Hullbreacher
+
+Resolved Narset and Hullbreacher effects are likely the most difficult non-graveyard hate for Tin Fins to beat. By turning off our ability to draw cards with Griselbrand, these effects disable most of what makes this gameplan powerful. Generally the best way to beat these effects is to never let them resolve in the first place. These are high priority targets for discard and must-counter spells when cast. 
+
+If you're not able to answer them preemptively, the next best option is to combo off with them still on the stack or remove them, generally through combat, after the fact. For Narset, you are able to just attack into her, then proceed with one of the deck loops to win the game. For Hullbreacher, you'll need your opponent to attack with it so you can ambush it in combat with a Griselbrand. Alternatively, you can just reanimate Emrakul and ignore these effects if your opponent is at a low enough life total or you have the ability to combo again naturally.
+
+### Containment Priest
+
+Although it does not see much play currenty outside of the sideboard of Death and Taxes, :card[Containment Priest] completely disables the Tin Fins combo. Because of this, we almost always transform into Doomsday in post-board games against Death and Taxes. 
+
+Again, keep in mind that this effect turns off :card[Shelldock Isle], so avoid piles using it if you suspect Containment Priest
