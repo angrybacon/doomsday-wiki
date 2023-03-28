@@ -4,6 +4,8 @@ order: 1
 title: Playing the Deck
 ---
 
+## Table of Contents
+
 ## Preamble
 
 As a deck with two unique gameplans, Entombsday requires some flexibility from its pilot. Knowing the ins-and-outs of both Tin Fins and Doomsday will improve your performance with the deck, as will developing your own heuristics for when to uses which plan.
