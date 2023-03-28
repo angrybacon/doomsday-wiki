@@ -291,7 +291,7 @@ For instance, you successfully resolved Doomsday but suspect your opponent may
 be holding an :card[Endurance] in hand. In this scenario you can build the
 following pile:
 
-> {U} + Brainstorm + Street Wraith + X + X
+> Brainstorm + Street Wraith + X + X
 
 :::row{variant=PILE}
 EoA
@@ -315,7 +315,7 @@ You can also utilise a spare land in hand plus a land drop to enable a perfect
 Brainstorm pile. Take the following scenario where we have perhaps run out of
 fetchable lands from our deck as they are in our hand:
 
-> {U} + Brainstorm + Street Wraith + Underground Sea + Underground Sea
+> Brainstorm + Street Wraith + Underground Sea + Underground Sea
 >
 > A fetchland in play and a land drop available for turn
 
