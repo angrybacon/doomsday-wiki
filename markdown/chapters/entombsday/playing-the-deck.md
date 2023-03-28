@@ -33,8 +33,9 @@ Your combo turn is the turn in which you reanimate Griselbrand and attempt to wi
 *  Shallow Grave and Goryo's Vengeance create a delayed trigger that will exile the creature reanimated with them at the beginning of the next End Step. Because of this, you can cast them on your opponent's End Step and still have the creature in play for your turn.
 *  You can sacrifice the in-play Griselbrand to :card[Cabal Therapy]'s Flashback cost to put it back in your graveyard for next turn, bypassing the delayed trigger from Goryo's Vengeance/Shallow Grave.
 *  The life gain from Children of Korlis cares about total life lost this turn. In paper, make sure you track every point of life lost (fetchland activations, Thoughtseizes cast, etc.)
-*  Be mindful of both yur life total and the number of cards in your library. You don't want to draw twice from 14 life or draw seven cards with only six left in your deck.
-*  If you find that you're missing one combo piece before going to combat, you can try to cast some of your cantrips to dif a little deeper into your deck. This is also useful if you have less than seven cards left in deck and need to find a specific piece.
+*  Be mindful of both your life total and the number of cards in your library. You don't want to draw twice from 14 life or draw seven cards with only six left in your deck.
+*  If you find that you're missing one combo piece before going to combat, you can try to cast some of your cantrips to dig a little deeper into your deck. This is also useful if you have less than seven cards left in deck and need to find a specific piece.
+* Entomb can tutor for :card[Cabal Therapy] if you need access to a discard spell on your combo turn&mdash;if your Emrakul or Children is stuck in your hand and you don't have a Thoughtseize or Brainstorm&mdash;or need to sacrifice your Griselbrand to avoid the exile trigger of Shallow Grave/Goryo's Vengeance.
 
 ### Entombing without Entomb
 
@@ -164,7 +165,7 @@ When sideboarded into Doomsday, you want to look for hands that cast Doomsday qu
 
 ## Sideboarding
 
-Despite being a deck with a transformational sideboard plan, Entombsday does not need to *transform* in every post-board game. This guide will not tell you which plan to use in a given matchup, as the legacy meta is constantly changing and this guide would be outdated as soon as it is posted. It will outline some general guidelines of which plan is better against which hate pieces. Strong knowledge of the meta and each archetype's gameplan and common sideboarding will serve you well here.
+Despite being a deck with a transformational sideboard plan, Entombsday does not need to *transform* in every post-board game. This guide will not tell you which plan to use in a given matchup, as the Legacy meta is constantly changing and such a guide would be outdated as soon as it is posted. Instead, it will outline some general guidelines of which plan is better against which hate pieces. Strong knowledge of the meta and each archetype's gameplan and common sideboarding will serve you well here.
 
 When *transforming*, the general sideboard plan is:
 
@@ -178,16 +179,15 @@ When *transforming*, the general sideboard plan is:
 |2x :card[Street Wraith]||
 |2x :card[Thassa's Oracle]||
 
-Depending on the situation, you are also able to bring in one or both of :card[Flusterstorm] and :card[Echoing Truth], typically cutting either one to two :card[Preordain] or one :card[Daze]. 
+Depending on the situation, you are also able to bring in one or both of :card[Flusterstorm] and :card[Echoing Truth], typically cutting one to two copies of :card[Preordain] or one :card[Daze] on the draw. 
 
-As a general rule, you want to side into Doomsday when you expect permanent hate pieces such as :card[Leyline of the Void], :card[Dauthi Voidwalker], or :card[Grafdigger's Cage]. When expecting stack based hate, such as :card[Surgical Extraction] or :card[Endurance], it can be better to stay on the Tin Fins plan, as those are more easily beatable using the instant speed nature of the Tin Fins combo. 
+As a general rule, you want to side into Doomsday when you expect permanent hate pieces such as :card[Leyline of the Void], :card[Dauthi Voidwalker], :card[Grafdigger's Cage], :card[Narset, Parter of Veils], :card[Hullbreacher], or :card[Containment Priest]. When expecting stack based hate, such as :card[Surgical Extraction] or :card[Endurance], it can be better to stay on the Tin Fins plan, as those are more easily beatable using the instant speed nature of the Tin Fins combo. 
 
 It can also be correct to *transform* back and forth or stay Tin Fins in game two and only *transform* for game 3.
-For example:
 
->When playing against Delver, you should swap to Doomsday in game two to try and sneak a win by surprising them. If there is a game three, it's defensible to use either plan, depending on what graveyard hate you see in game two. The Tin Fins plan is stronger again Delver in general and can beat a Surgical Extraction, but if you see permanent hate, such as :card[Grafdigger's Cage], it may be better to stay on the Doomsday plan.
+For example, when playing against Delver, you should swap to Doomsday in game two to try and sneak a win by surprising them. If there is a game three, it's defensible to use either plan, depending on what graveyard hate you see in game two. The Tin Fins plan is stronger again Delver in general and can beat a Surgical Extraction, but if you see permanent hate, such as :card[Grafdigger's Cage], it may be better to stay on the Doomsday plan.
 
-When playing in paper, it's correct to shuffle all 15 sideboard cards in between each game, so the opponent doesn't know which gameplan you are on.
+When playing in paper, you should shuffle all 15 sideboard cards in between each game, so the opponent doesn't know which gameplan you are on.
 
 ### Partial Sideboarding
 
@@ -217,10 +217,10 @@ Because the sideboard swap is so clean, Entombsday has very few deck-specific pi
 - CoS
 :::
 
-This is a variation on the Shelldock + Emrakul Pile that provides three win attempts over multiple turns and plays around things such as :card[Endurance]. Things to note with this pile are:
+This is a variation on the Shelldock + Emrakul pile that provides three win attempts over multiple turns and plays around things such as :card[Endurance] by putting very few cards into your graveyard. A few things to note with this pile are:
 
-1. It can be sped up by a turn if you have access to a cantrip and a land drop this turn
-2. You don't always need to select Emrakul for the Hideaway trigger. When playing against Painter, it is sometimes correct to leave Emrakul in your deck and hide Thassa's Oracle under the Shelldock Isle, allowing you to cast Oracle before your Draw Step after being milled out.
+1. It can be sped up by a turn if you have access to a cantrip and a land drop.
+2. You don't always need to choose Emrakul for the Hideaway trigger. When playing against Painter, it is sometimes correct to leave Emrakul in your deck and hide Thassa's Oracle under the Shelldock Isle, allowing you to cast Oracle before your Draw Step after being milled out.
 
 >Cantrip + {U} + X
 
