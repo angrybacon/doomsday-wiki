@@ -73,7 +73,7 @@ As a {B} deck, Entombsday has access to a number of Discard effects, the most im
 
 :card[Collective Brutality] is an uncountable way to discard Griselbrand or Emrakul. By casting it with at least one Escalate mode, you are able to discard a card as a cost, preventing your opponent from countering it. Collective Brutality also allows you to win without the combat step by draining your opponent for two life every time you _loop_ your library. Despite these upsides, the card can be clunky and has been cut by some players recently.
 
-### Acceleration
+### Mana Acceleration
 
 :::row{variant=CENTERED}
 Dark Ritual
@@ -107,7 +107,7 @@ Island | PALP | 2
 Swamp | PALP | 10
 :::
 
-The fetchable lands typically consist of three to four copies of :card[Underground Sea], a single :card[Scrubland], one :card[Island | PALP | 2] and one :card[Swamp | PALP | 10]. Scrubland is not required for the deck, but is strongly recommended, as it allows you to cast Children of Korlis off of a land in the even that you do not draw a Lotus Petal while comboing.
+The fetchable lands typically consist of three to four copies of :card[Underground Sea], a single :card[Scrubland], one :card[Island] and one :card[Swamp]. Scrubland is not required for the deck, but is strongly recommended, as it allows you to cast Children of Korlis off of a land in the even that you do not draw a Lotus Petal while comboing.
 
 Some lists opt to only run two copies of Underground Sea (usually for budget reasons) and will substitute and additional Island and an :card[Urborg, Tomb of Yawgmoth]. This is serviceable, but suboptimal.
 
@@ -119,7 +119,7 @@ Shallow Grave
 Griselbrand
 :::
 
-The core combo package of Tin Fins consists of a minimum of 4 :card[Entomb], 6 reanimation spells, 2 :card[Griselbrand], 1 :card[Emrakul, the Aeons Torn], and 1 :card[Children of Korlis]. Emrakul has generally fallen out of favor in :card[Doomsday] lists, but is integral to the Tin Fins strategy as she allows looping the deck and swinging for lethal.
+The core combo package of Tin Fins consists of a minimum of four copies of :card[Entomb], six reanimation spells, two copies of :card[Griselbrand], an :card[Emrakul, the Aeons Torn], and a :card[Children of Korlis]. Emrakul has generally fallen out of favor in :card[Doomsday] lists, but is integral to the Tin Fins strategy as she allows looping the deck and swinging for lethal.
 
 The Doomsday package in the sideboard is somewhat streamlined compared to current Doomsday list. It still includes four copies of :card[Doomsday], one to two copies of :card[Thassa's Oracle], and a :card[Cavern of Souls], but there is only space for two copies of :card[Personal Tutor], two :card[Street Wraith], and one :card[Edge of Autumn].
 
@@ -151,7 +151,7 @@ As discussed above, Flusterstorm is a potent tool for fighting oposing combo dec
 
 There are several other cards that are playable in an Entombsday shell, but are considered non-standard and aren't seen often. A few examples are listed below:
 
-:card[Predict] and :card[Ideas Unbound] - Predict and Ideas Unbound allow you to quickly draw through your Doomsday pile and build protection into it at the cost of making you vulverable to disruption like :card[Pyroblast]/[:cardRed Elemental Blast].
+:card[Predict] and :card[Ideas Unbound] - Predict and Ideas Unbound allow you to quickly draw through your Doomsday pile and build protection into it at the cost of making you vulverable to disruption like :card[Pyroblast]/:card[Red Elemental Blast].
 
 :card[Spell Pierce] - Similar to Flusterstorm, Spell Pierce is another option for a one CMC counterspell. It answers Planeswalker spell, which Flusterstorm does not, but is otherwise less useful.
 
