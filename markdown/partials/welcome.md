@@ -32,7 +32,7 @@ was the main variant available post Gitaxian Probe ban and pre-printing of
 Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
 and win condition in tandem with Doomsday.
 
-**Entombsday** (Tin Fins + Doomsday) is a Tin Fins variant with a main deck plan
+**Entombsday** is a Tin Fins variant with a main deck plan
 focusing on reanimating Griselbrand using either :card[Shallow Grave] or
 :card[Goryo's Vengeance] to then have it attack alongside Emrakul, the Aeons Torn
 or looping the deck to generate infinite mana and hard cast Emrakul or cast 
