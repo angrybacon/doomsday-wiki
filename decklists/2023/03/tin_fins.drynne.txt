@@ -29,7 +29,7 @@
 1 Tundra
 2 Underground Sea
 
-//Sideboard
+// Sideboard
 2 Chain of Vapor
 1 Echoing Truth
 1 Flusterstorm

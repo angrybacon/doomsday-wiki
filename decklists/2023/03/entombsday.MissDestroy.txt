@@ -29,7 +29,7 @@
 2 Scalding Tarn
 4 Underground Sea
 
-//Sideboard
+// Sideboard
 1 Cavern of Souls
 4 Doomsday
 1 Echoing Truth
