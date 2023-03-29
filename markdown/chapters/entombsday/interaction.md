@@ -10,11 +10,11 @@ title: Playing Around Interaction
 
 In general, the easiest way to play around interaction is using discard and countermagic. However, because the core of the Tin Fins combo is Instant speed, there are a number of ways to play around different pieces interaction on the stack without those effects.
 
-By playing patiently and knowing when to go for your combo, you can steal wins that would potherwise be missed. 
+By playing patiently and knowing when to go for your combo, you can steal wins that would potherwise be missed.
 
 ## Comboing at Instant Speed
 
-Because the Tin Fins combo is Instant speed, you are able to combo off in response to interaction/hate, in response to your opponent's combo, or even in your opponents end step. 
+Because the Tin Fins combo is Instant speed, you are able to combo off in response to interaction/hate, in response to your opponent's combo, or even in your opponents end step.
 
 For example, a common line when playing against control decks is to combo in their endstep or in response to their cantrips/flash creatures. This dodges pitch-cast :card[Force of Negation] and allows you to draw 14 cards. This level of card advantage is nearly insurmountable for the control player in most situations and sets you up for the win on your turn.
 
@@ -26,7 +26,7 @@ Solitude
 Karakas
 :::
 
-Tin Fins is able to play around removal on Griselbrand fairly easily. Most players will wait until you activate Griselbrand the first time before casting a removal spell. Because of this, you can usually activate Griselbrand a second time to find a piece of countermagic to answer the removal spell. 
+Tin Fins is able to play around removal on Griselbrand fairly easily. Most players will wait until you activate Griselbrand the first time before casting a removal spell. Because of this, you can usually activate Griselbrand a second time to find a piece of countermagic to answer the removal spell.
 
 If you're unable to counter the removal, such as Karakas, it is still correct to draw as many cards as possible before it resolves. Generally, drawing 14 cards is enough to allow you to combo again in the same turn, as discussed in the [Playing the Deck](/markdown/chapters/entombsday/playing-the-deck) section.
 
@@ -52,7 +52,7 @@ Endurance
 Faerie Macabre
 :::
 
-Cards like Bojuka Bog, Endurance, and Faerie Macabre are some of the easiest to play around for Tin Fins. The general play pattern to beat these effects is to *bin* your Griselbrand, bait the interaction with a Shallow Grave, then simply cast a second copy of Entomb (or crack LED) to bin another Griselbrand after the effect resolves. 
+Cards like Bojuka Bog, Endurance, and Faerie Macabre are some of the easiest to play around for Tin Fins. The general play pattern to beat these effects is to _bin_ your Griselbrand, bait the interaction with a Shallow Grave, then simply cast a second copy of Entomb (or crack LED) to bin another Griselbrand after the effect resolves.
 
 Note that Shallow Grave is required here, as it does not target a specific card.
 
@@ -86,7 +86,7 @@ Spirit of the Labyrinth
 Hullbreacher
 :::
 
-Resolved Narset, Spirit of the Labyrinth, and Hullbreacher effects are likely the most difficult non-graveyard hate for Tin Fins to beat. By turning off our ability to draw cards with Griselbrand, these effects disable most of what makes this gameplan powerful. Generally the best way to beat these effects is to never let them resolve in the first place. These are high priority targets for discard and must-counter spells when cast. 
+Resolved Narset, Spirit of the Labyrinth, and Hullbreacher effects are likely the most difficult non-graveyard hate for Tin Fins to beat. By turning off our ability to draw cards with Griselbrand, these effects disable most of what makes this gameplan powerful. Generally the best way to beat these effects is to never let them resolve in the first place. These are high priority targets for discard and must-counter spells when cast.
 
 If you're not able to answer them preemptively, the next best option is to combo off with them still on the stack or remove them, generally through combat, after the fact. For Narset, you are able to just attack into her, then proceed with one of the deck loops to win the game. For Hullbreacher, you'll need your opponent to attack with it so you can ambush it in combat with a Griselbrand. Alternatively, you can just reanimate Emrakul and ignore these effects if your opponent is at a low enough life total or you have the ability to combo again naturally.
 
@@ -96,6 +96,6 @@ If you're not able to answer them preemptively, the next best option is to combo
 Containment Priest
 :::
 
-Although it does not see much play currenty outside of the sideboard of Death and Taxes, :card[Containment Priest] completely disables the Tin Fins combo. Because of this, we almost always transform into Doomsday in post-board games against Death and Taxes. 
+Although it does not see much play currenty outside of the sideboard of Death and Taxes, :card[Containment Priest] completely disables the Tin Fins combo. Because of this, we almost always transform into Doomsday in post-board games against Death and Taxes.
 
 Again, keep in mind that this effect turns off :card[Shelldock Isle], so avoid piles using it if you suspect Containment Priest.

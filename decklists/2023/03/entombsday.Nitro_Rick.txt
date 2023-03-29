@@ -30,7 +30,7 @@
 4 Underground Sea
 2 Verdant Catacombs
 
-Sideboard
+//Sideboard
 1 Cavern of Souls
 4 Doomsday
 1 Echoing Truth
