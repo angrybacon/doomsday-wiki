@@ -68,13 +68,11 @@ In this scenario, you can bait the Surgical using the first reanimation spell, t
 
 ## Other Hate
 
+### Teferi, Time Raveler
+
 :::row{variant=CENTERED}
 Teferi, Time Raveler
-Hullbreacher
-Containment Priest
 :::
-
-### Teferi, Time Raveler
 
 :card[Teferi, Time Raveler] is an annoying, but not necessarily difficult, card for Tin Fins to play around as it turns off our ability to reanimate Emrakul. The first option is to agressively discard or counter it. If those are not an option then the best available line is to reanimate Griselbrand as normal, go to combat and attack your opponent, the proceed with looping your deck to either hard cast Emrakul or loop Collective Brutality.
 
@@ -82,11 +80,21 @@ Post-board, keep in mind that this effect turns off :card[Shelldock Isle], so av
 
 ### Narset, Parter of Veils and Hullbreacher
 
-Resolved Narset and Hullbreacher effects are likely the most difficult non-graveyard hate for Tin Fins to beat. By turning off our ability to draw cards with Griselbrand, these effects disable most of what makes this gameplan powerful. Generally the best way to beat these effects is to never let them resolve in the first place. These are high priority targets for discard and must-counter spells when cast. 
+:::row{variant=CENTERED}
+Narset, Parter of Veils
+Spirit of the Labyrinth
+Hullbreacher
+:::
+
+Resolved Narset, Spirit of the Labyrinth, and Hullbreacher effects are likely the most difficult non-graveyard hate for Tin Fins to beat. By turning off our ability to draw cards with Griselbrand, these effects disable most of what makes this gameplan powerful. Generally the best way to beat these effects is to never let them resolve in the first place. These are high priority targets for discard and must-counter spells when cast. 
 
 If you're not able to answer them preemptively, the next best option is to combo off with them still on the stack or remove them, generally through combat, after the fact. For Narset, you are able to just attack into her, then proceed with one of the deck loops to win the game. For Hullbreacher, you'll need your opponent to attack with it so you can ambush it in combat with a Griselbrand. Alternatively, you can just reanimate Emrakul and ignore these effects if your opponent is at a low enough life total or you have the ability to combo again naturally.
 
 ### Containment Priest
+
+:::row{variant=CENTERED}
+Containment Priest
+:::
 
 Although it does not see much play currenty outside of the sideboard of Death and Taxes, :card[Containment Priest] completely disables the Tin Fins combo. Because of this, we almost always transform into Doomsday in post-board games against Death and Taxes. 
 
