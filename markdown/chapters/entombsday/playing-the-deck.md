@@ -75,18 +75,18 @@ As a combo deck, Entombsday tends to mulligan well, but requires specific cards 
 
 In general, you want to leverage the London Mulligan to find the fastest hand you can in game 1, preferably with protection. You should avoid keeping hands that just durdle and cast cantrips, as that will give your opponent time to stabilize and accumulate resources.
 
-When sideboarded into Doomsday, you want to look for hands that cast Doomsday quickly -- generally before turn 3. This typically means hands that contain either Doomsday itself or Personal Tutor and the mana to cast it. As with the game 1 plan, a protection spell is also helpful. 
+When sideboarded into Doomsday, you want to look for hands that cast Doomsday quickly&mdash;generally before turn 3. This typically means hands that contain either Doomsday itself or Personal Tutor and the mana to cast it. As with the game 1 plan, a protection spell is also helpful. 
 
 ### Sample Hands: Keep or Mull?
 
 :::row{variant=HAND}
- - Marsh Flats
- - Lotus Petal
- - LED
- - Dark Ritual
- - Entomb
- - Goryo's Vengeance
- - Force of Will
+Marsh Flats
+Lotus Petal
+LED
+Dark Ritual
+Entomb
+Goryo's Vengeance
+Force of Will
 :::
 
 :::accordion[Click to reveal]
@@ -94,13 +94,13 @@ When sideboarded into Doomsday, you want to look for hands that cast Doomsday qu
 :::
 
 :::row{variant=HAND}
- - Underground Sea
- - Lotus Petal
- - Polluted Delta
- - Dark Ritual
- - Thoughtseize
- - Preordain
- - Force of Will
+Underground Sea
+Lotus Petal
+Polluted Delta
+Dark Ritual
+Thoughtseize
+Preordain
+Force of Will
 :::
 
 :::accordion[Click to reveal]
@@ -108,13 +108,13 @@ When sideboarded into Doomsday, you want to look for hands that cast Doomsday qu
 :::
 
 :::row{variant=HAND}
- - Underground Sea
- - Flooded Strand
- - Marsh Flats
- - Entomb
- - BS
- - Force of Will
- - Lim-Dul's Vault
+Underground Sea
+Flooded Strand
+Marsh Flats
+Entomb
+BS
+Force of Will
+Lim-Dul's Vault
 :::
 
 :::accordion[Click to reveal]
@@ -122,13 +122,13 @@ When sideboarded into Doomsday, you want to look for hands that cast Doomsday qu
 :::
 
 :::row{variant=HAND}
- - Polluted Delta
- - Entomb
- - Cabal Therapy
- - Thoughtseize
- - Goryo's Vengeance
- - Daze
- - Force of Will
+Polluted Delta
+Entomb
+Cabal Therapy
+Thoughtseize
+Goryo's Vengeance
+Daze
+Force of Will
 :::
 
 :::accordion[Click to reveal]
@@ -136,13 +136,13 @@ When sideboarded into Doomsday, you want to look for hands that cast Doomsday qu
 :::
 
 :::row{variant=HAND}
- - Flooded Strand
- - Lotus Petal
- - Polluted Delta
- - Thoughtseize
- - Goryo's Vengeance
- - Ponder
- - Consider
+Flooded Strand
+Lotus Petal
+Polluted Delta
+Thoughtseize
+Goryo's Vengeance
+Ponder
+Consider
 :::
 
 :::accordion[Click to reveal]
@@ -150,13 +150,13 @@ When sideboarded into Doomsday, you want to look for hands that cast Doomsday qu
 :::
 
 :::row{variant=HAND}
- - Underground Sea
- - Polluted Delta
- - Cabal Therapy
- - Griselbrand
- - Ponder
- - Brainstorm
- - Brainstorm
+Underground Sea
+Polluted Delta
+Cabal Therapy
+Griselbrand
+Ponder
+Brainstorm
+Brainstorm
 :::
 
 :::accordion[Click to reveal]

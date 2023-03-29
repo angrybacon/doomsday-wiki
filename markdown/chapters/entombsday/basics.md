@@ -11,9 +11,9 @@ title: The Basics
 Entombsday is a Tin Fins/Doomsday hybrid combo deck.
 
 :::row{variant=CENTERED}
-- Entomb
-- Griselbrand
-- Doomsday
+Entomb
+Griselbrand
+Doomsday
 :::
 
 Tin Fins is a Reanimator variant that primarily aims to reanimate :card[Griselbrand] with haste using either :card[Shallow Grave] or :card[Goryo’s Vengeance], then draw enough cards to reanimate :card[Emrakul, the Aeons Torn] and attack for 22 damage. To enable this, the deck runs :card[Children of Korlis] to regain the life paid to :card[Griselbrand] and enable us to frequently draw our entire deck.

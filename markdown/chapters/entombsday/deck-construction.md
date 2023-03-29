@@ -26,9 +26,9 @@ As such, the deckbuilding ideas mirror those expressed in the [Deck Construction
 ### The Combo Packages
 
 :::row{variant=CENTERED}
-- Entomb
-- Shallow Grave
-- Griselbrand
+Entomb
+Shallow Grave
+Griselbrand
 :::
 
 The core combo package of Tin Fins consists of a minimum of 4 :card[Entomb], 6 reanimation spells, 2 :card[Griselbrand], 1 :card[Emrakul, the Aeons Torn], and 1 :card[Children of Korlis]. 
@@ -38,9 +38,9 @@ The Doomsday package in the sideboard is somewhat streamlined compared to curren
 ### Notable Inclusions
 
 :::row{variant=CENTERED}
-- Emrakul, the Aeons Torn
-- Lim-Dul's Vault
-- Scrubland
+Emrakul, the Aeons Torn
+Lim-Dul's Vault
+Scrubland
 :::
 
 :card[Emrakul, the Aeons Torn] - While she has generally fallen out of favor in :card[Doomsday] lists, Emrakul is integral to the Tin Fins strategy as she allows looping the deck and swinging for lethal.

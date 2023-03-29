@@ -21,9 +21,9 @@ For example, a common line when playing against control decks is to combo in the
 ## Removal
 
 :::row{variant=CENTERED}
-- StP
-- Solitude
-- Karakas
+StP
+Solitude
+Karakas
 :::
 
 Tin Fins is able to play around removal on Griselbrand fairly easily. Most players will wait until you activate Griselbrand the first time before casting a removal spell. Because of this, you can usually activate Griselbrand a second time to find a piece of countermagic to answer the removal spell. 
@@ -35,9 +35,9 @@ If you're unable to counter the removal, such as Karakas, it is still correct to
 ### Leyline Effects
 
 :::row{variant=CENTERED}
-- Leyline of the Void
-- Rest in Peace
-- Dauthi Voidwalker
+Leyline of the Void
+Rest in Peace
+Dauthi Voidwalker
 :::
 
 These effects are the primary reason we play the Doomsday transformation in the sideboard. Nothing feels better than your opponent mulling to two or three for a Leyline of the Void and casting Dark Ritual into Doomsday on your turn.
@@ -47,9 +47,9 @@ While Leyline of the Void and Rest in Peace are functionally blank cards against
 ### Cards that Empty the Graveyard
 
 :::row{variant=CENTERED}
-- Bojuka Bog
-- Endurance
-- Faerie Macabre
+Bojuka Bog
+Endurance
+Faerie Macabre
 :::
 
 Cards like Bojuka Bog, Endurance, and Faerie Macabre are some of the easiest to play around for Tin Fins. The general play pattern to beat these effects is to *bin* your Griselbrand, bait the interaction with a Shallow Grave, then simply cast a second copy of Entomb (or crack LED) to bin another Griselbrand after the effect resolves. 
@@ -59,7 +59,7 @@ Note that Shallow Grave is required here, as it does not target a specific card.
 ### Surgical Extraction
 
 :::row{variant=CENTERED}
-- Surgical Extraction
+Surgical Extraction
 :::
 
 While similar to the previously mentioned effects, Surgical Extraction requires the inverse play pattern. Since Surgical Extraction exiles all copies of the chosen card, you can't allow it to resolve. To beat these effects, you will need two reanimation effects instead of two Entomb effects is you're unable to just counter the spell.
@@ -69,9 +69,9 @@ In this scenario, you can bait the Surgical using the first reanimation spell, t
 ## Other Hate
 
 :::row{variant=CENTERED}
-- Teferi, Time Raveler
-- Hullbreacher
-- Containment Priest
+Teferi, Time Raveler
+Hullbreacher
+Containment Priest
 :::
 
 ### Teferi, Time Raveler
