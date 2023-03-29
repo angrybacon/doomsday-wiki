@@ -20,7 +20,7 @@ export const DECORATIONS: MenuDecoration[] = [
   },
   {
     category: Category.ENTOMBSDAY,
-    subtitle: 'Tin Fins + Doomsday',
+    subtitle: 'Tin Fins Hybrid',
     title: 'Entombsday',
   },
   {
