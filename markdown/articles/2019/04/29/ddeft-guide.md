@@ -23,7 +23,7 @@ That card turned out to be Experimental Frenzy.
 > You can’t play cards from your hand.  
 > {3}{R}: Destroy Experimental Frenzy.
 
-James, also known as ApeofJustice on the Doomsday Discord server, got 6th place
+James, also known as ApeOfJustice on the Doomsday Discord server, got 6th place
 in a MTGO challenge on April 14th, 2019 with :card[Experimental Frenzy]
 Doomsday.
 

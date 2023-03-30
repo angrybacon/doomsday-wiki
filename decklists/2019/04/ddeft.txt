@@ -1,5 +1,5 @@
 // Title: Doomsday Experimental Frenzy Fetchland Tendrils
-// Authors: ApeofJustice, Knox
+// Authors: ApeOfJustice, Knox
 // Colors: {U}{B}{R}
 1 Act on Impulse
 1 Cabal Therapy

@@ -35,7 +35,7 @@ breakdown:
 
 No Chalice decks (yay) and only one Ctrl+C, Ctrl+V out. As you can see Doomsday
 made up a significant portion of the metagame (10.5%!) with myself (Doishy) and
-ApeofJustice representing.
+ApeOfJustice representing.
 
 ::decklist{path=2018/04/ddft.apeofjustice}
 
@@ -45,7 +45,7 @@ Let's get into it. Reports written by their respective pilots:
 
 ### Round 1
 
-Player: ApeofJustice  
+Player: ApeOfJustice  
 Opponent: Ben (the eventual tournament winner)  
 Opposing Deck: ANT  
 Result: 1-2
@@ -101,7 +101,7 @@ boarded in any Bounce spells. I die to Mentor tokens and feel pretty angry.
 
 ### Round 2
 
-Player: ApeofJustice  
+Player: ApeOfJustice  
 Opponent: Morgan  
 Opposing Deck: Sneak and Show  
 Result: 2-0
@@ -148,7 +148,7 @@ This round I also enjoyed watching the lands mirror occurring to my left XD
 
 ### Round 3
 
-Player: ApeofJustice  
+Player: ApeOfJustice  
 Opponent: Josh  
 Opposing Deck: Turbo Depths  
 Result: 0-2
@@ -197,7 +197,7 @@ unknowns were of course FoW and blue card. Blergh.
 
 ### Round 4
 
-Player: ApeofJustice  
+Player: ApeOfJustice  
 Opponent: Mark  
 Opposing Deck: Infect  
 Result: 2-1
@@ -246,12 +246,12 @@ out I don't need my Island to win so Chain and Kill her.
 
 ### Round 5
 
-Player: ApeofJustice / Doishy  
-Opponent: Doishy / ApeofJustice  
+Player: ApeOfJustice / Doishy  
+Opponent: Doishy / ApeOfJustice  
 Opposing Deck: THE MIRROR!  
 Result: Madness
 
-**ApeofJustice:**
+**ApeOfJustice:**
 
 I played against Doishy.  
 It was a wonderfully fun game and I couldn’t do this game justice with regards
@@ -259,7 +259,7 @@ to the report.
 
 **Doishy:**
 
-Round 5 is something truly special. Round 5 vs ApeofJustice on Doomsday.  
+Round 5 is something truly special. Round 5 vs ApeOfJustice on Doomsday.  
 The 100% mirror.  
 James on James, Doomsday on Doomsday action.  
 It was everything everyone dreams of.
@@ -295,7 +295,7 @@ shit works anyways?.
 
 ## Ending Thoughts
 
-ApeofJustice:
+ApeOfJustice:
 
 > I went 2-3 in actual matches. I feel that my opponents had a couple of
 > particularly fortunate draws, but I was somewhat pleased with my overall play.
@@ -313,6 +313,6 @@ Doishy:
 > Crucible + Ghost Quarter + EE is so beautifull! ANT won the event so gratz to
 > Ben :)
 >
-> It was great meeting ApeofJustice (though it transpires we had met before in
+> It was great meeting ApeOfJustice (though it transpires we had met before in
 > years gone by) and I look fowards to schooling any other Doomsdayers in
 > superior combat maths at GP Brum (look forward to my 0-8 drop report).
