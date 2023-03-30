@@ -7,24 +7,24 @@ title: Other Doomsday Resources
 You can often find people streaming in the Discord server. Alternatively, check
 out these content creators for Doomsday:
 
-| Channel                           | Language | Links                                                                                                                   |
-| --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| James _ApeOfJustice_ Whitehouse   | English  | [Twitch](https://www.twitch.tv/apeofjustice) &bull; [YouTube](https://www.youtube.com/channel/UCx_K-oTEpDPJRhPtiP3WjKw) |
-| Lee _d8dk32_ Curtis               | English  | [Twitch](https://www.twitch.tv/ddftguy) &bull; [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)      |
-| _Doishy_                          | English  | [Twitch](https://www.twitch.tv/doishy) &bull; [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)       |
-| Brandon _Emidln_ Adams            | English  | [Twitch](https://www.twitch.tv/adam4300) &bull; [YouTube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)     |
-| Michael _fangzie_ Webb            | English  | [YouTube](https://www.youtube.com/channel/UCiGWW4P0bqUcmb9a8frmx1A)                                                     |
-| Albert _g0ld_rook_ Huang          | English  | [Twitch](https://www.twitch.tv/g0ld_rook) &bull; [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)    |
-| Erik _Hulahula_ Clauss            | English  | [YouTube](https://www.youtube.com/channel/UC8jP7pO-rpfhn0_Bg7CIp2w)                                                     |
-| Ethan _monkeyscantcry_ Formicella | English  | [Twitch](https://www.twitch.tv/monkeyscantcry)                                                                          |
-| Martin _nevilshute_ Nielsen       | English  | [YouTube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)                                                     |
-| Eric _Revenantkioku_ Koziol       | English  | [Twitch](https://www.twitch.tv/revenantkioku) &bull; [YouTube](https://www.youtube.com/user/revenantkioku)              |
-| Romario _Romariovidal_ Neto       | English  | [Twitch](https://www.twitch.tv/romariovidal)                                                                            |
-| Samantha _RoseIsland_ Murphy      | English  | [Twitch](https://www.twitch.tv/samantha_murphy)                                                                         |
-| Kai _Sawatarix_ Sawatari          | English  | [Twitch](https://www.twitch.tv/sawatarix) &bull; [YouTube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)    |
-| _ThornOfWrath_                    | English  | [Twitch](https://www.twitch.tv/thornofwrath)                                                                            |
-| _Walked_                          | English  | [Twitch](https://www.twitch.tv/walkedairplane) &bull; [YouTube](https://www.youtube.com/user/walkedairplane)            |
-| 駄馬ちゃん                        | Japanese | [Twitch](https://www.twitch.tv/dabauma)                                                                                 |
+| Channel                           | Languages                 | Links                                                                                                                   |
+| --------------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| James _ApeOfJustice_ Whitehouse   | English                   | [Twitch](https://www.twitch.tv/apeofjustice) &bull; [YouTube](https://www.youtube.com/channel/UCx_K-oTEpDPJRhPtiP3WjKw) |
+| Lee _d8dk32_ Curtis               | English                   | [Twitch](https://www.twitch.tv/ddftguy) &bull; [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)      |
+| _Doishy_                          | English                   | [Twitch](https://www.twitch.tv/doishy) &bull; [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)       |
+| Brandon _Emidln_ Adams            | English                   | [Twitch](https://www.twitch.tv/adam4300) &bull; [YouTube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)     |
+| Michael _fangzie_ Webb            | English                   | [YouTube](https://www.youtube.com/channel/UCiGWW4P0bqUcmb9a8frmx1A)                                                     |
+| Albert _g0ld_rook_ Huang          | English                   | [Twitch](https://www.twitch.tv/g0ld_rook) &bull; [YouTube](https://www.youtube.com/channel/UC5uCLmqksd7KrHdKa6Gxmaw)    |
+| Erik _Hulahula_ Clauss            | English                   | [YouTube](https://www.youtube.com/channel/UC8jP7pO-rpfhn0_Bg7CIp2w)                                                     |
+| Ethan _monkeyscantcry_ Formicella | English                   | [Twitch](https://www.twitch.tv/monkeyscantcry)                                                                          |
+| Martin _nevilshute_ Nielsen       | English                   | [YouTube](https://www.youtube.com/channel/UC96xkSiGHqjAa_dfnf46NtQ)                                                     |
+| Eric _Revenantkioku_ Koziol       | English                   | [Twitch](https://www.twitch.tv/revenantkioku) &bull; [YouTube](https://www.youtube.com/user/revenantkioku)              |
+| Romario _Romariovidal_ Neto       | English                   | [Twitch](https://www.twitch.tv/romariovidal)                                                                            |
+| Samantha _RoseIsland_ Murphy      | English                   | [Twitch](https://www.twitch.tv/samantha_murphy)                                                                         |
+| Kai _Sawatarix_ Sawatari          | English, German, Japanese | [Twitch](https://www.twitch.tv/sawatarix) &bull; [YouTube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)    |
+| _ThornOfWrath_                    | English                   | [Twitch](https://www.twitch.tv/thornofwrath)                                                                            |
+| _Walked_                          | English                   | [Twitch](https://www.twitch.tv/walkedairplane) &bull; [YouTube](https://www.youtube.com/user/walkedairplane)            |
+| 駄馬ちゃん                        | Japanese, English         | [Twitch](https://www.twitch.tv/dabauma)                                                                                 |
 
 For Paper Legacy that often involves Doomsday:
 
