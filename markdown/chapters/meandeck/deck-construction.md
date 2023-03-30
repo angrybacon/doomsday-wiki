@@ -510,14 +510,13 @@ copies normally replacing some number of :card[Preordain].
 
 ### Deckbuilding Ratios
 
-Most lists run around eleven cantrip effects, not including free cycle effects
-or other pile cards like Predict. This is generally a 4/4/3 split of
-Brainstorm/Ponder/Preordain with the Preordain slot being the one that changes.
-It's a very flexible slot and can be replaced by any number of things including
-interaction, free cycle effects or tutor effects. If you are unsure on what
-style of list you wish to play it is likely better to run the full twelve
-cantrips and then work out what you wish to replace them with at a later point
-in testing.
+Besides free cycle effects and other pile cards like :card[Consider] and
+:card[Predict], lists generally run the usual playsets of :card[Brainstorm] and
+:card[Ponder]. :card[Preordain] may or may not join the party depending on the
+amount of slots dedicated to permission and tutor effect in the list. If you are
+unsure on what style of list you wish to play it is likely better to run the
+full twelve cantrips and then work out what you wish to replace them with at a
+later point in testing.
 
 ## Pile Cards
 
