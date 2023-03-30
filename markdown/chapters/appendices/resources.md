@@ -24,6 +24,7 @@ out these content creators for Doomsday:
 | Kai _Sawatarix_ Sawatari          | [Twitch](https://www.twitch.tv/sawatarix) &bull; [YouTube](https://www.youtube.com/channel/UCd9ApEL1lSWpgjDqdlpSYlg)    |
 | _ThornOfWrath_                    | [Twitch](https://www.twitch.tv/thornofwrath)                                                                            |
 | _Walked_                          | [Twitch](https://www.twitch.tv/walkedairplane) &bull; [YouTube](https://www.youtube.com/user/walkedairplane)            |
+| 駄馬ちゃん                        | [Twitch](https://www.twitch.tv/dabauma)                                                                                 |
 
 For Paper Legacy that often involves Doomsday:
 
