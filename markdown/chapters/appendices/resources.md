@@ -9,7 +9,7 @@ out these content creators for Doomsday:
 
 | Channel                           | Language | Links                                                                                                                   |
 | --------------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| James _ApeofJustice_ Whitehouse   | English  | [Twitch](https://www.twitch.tv/apeofjustice) &bull; [YouTube](https://www.youtube.com/channel/UCx_K-oTEpDPJRhPtiP3WjKw) |
+| James _ApeOfJustice_ Whitehouse   | English  | [Twitch](https://www.twitch.tv/apeofjustice) &bull; [YouTube](https://www.youtube.com/channel/UCx_K-oTEpDPJRhPtiP3WjKw) |
 | Lee _d8dk32_ Curtis               | English  | [Twitch](https://www.twitch.tv/ddftguy) &bull; [YouTube](https://www.youtube.com/channel/UCD0Os6qvXicEZl6gJ_xPXGw)      |
 | _Doishy_                          | English  | [Twitch](https://www.twitch.tv/doishy) &bull; [YouTube](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA)       |
 | Brandon _Emidln_ Adams            | English  | [Twitch](https://www.twitch.tv/adam4300) &bull; [YouTube](https://www.youtube.com/channel/UCaUTfix3JtYYwpLHBSFunIw)     |

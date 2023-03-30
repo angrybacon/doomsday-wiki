@@ -1292,7 +1292,7 @@ cast Tendrils.
 With the tools of the trade re-worked and widely used, the Wiki was properly
 started to be written. Results started to be made again and new faces began to
 appear from discussion on reddit and mtgthesource. Community members like
-d8dk32, G0ld_rook and ApeofJustice started regularly streaming increasing the
+d8dk32, G0ld_rook and ApeOfJustice started regularly streaming increasing the
 visibility of the deck. A Facebook group was also made which attracted another
 slew of interested people. Everyone involved started to get to know each other
 and become as close to online friends as you can get. Bennotsi and I worked on
