@@ -97,10 +97,10 @@ TO
 
 1. Cast Brainstorm, draw LED, SW, Con and put back X then Con on top
 1. Cast LED
-1. Cycle SW, hold priority crack LED for {U}{U}{U}, draw Con
+1. Cycle SW, hold priority crack LED for {U}{U}{U}, draw Consider
 1. Cast Consider, surveil X, draw SW
 1. Cycle SW, draw TO
-1. Cast TO and win the game with 2 cards left in your deck
+1. Cast TO and win the game with 0 cards left in your deck
 
 As always you can play around with the compositions of these piles depending on
 what X is in your hand.
