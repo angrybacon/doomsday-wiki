@@ -212,13 +212,12 @@ Because the sideboard swap is so clean, Entombsday has very few deck-specific pi
 > Pass the Turn OR Cantrip + Land Drop
 
 :::row{variant=PILE}
-
-- SI
-- Em
-- TO
-- TO
-- CoS
-  :::
+SI
+Em
+TO
+TO
+CoS
+:::
 
 This is a variation on the Shelldock + Emrakul pile that provides three win attempts over multiple turns and plays around things such as :card[Endurance] by putting very few cards into your graveyard. A few things to note with this pile are:
 
@@ -228,25 +227,23 @@ This is a variation on the Shelldock + Emrakul pile that provides three win atte
 > Cantrip + {U} + X
 
 :::row{variant=PILE}
-
-- BS
-- LED
-- Con
-- SW
-- TO
-  :::
+BS
+LED
+Con
+SW
+TO
+:::
 
 This is a common _perfect pile_ when you have 2 total cards in hand. If you have Brainstorm in hand already and are able to cast it, the pile can be changed to:
 
 > Brainstorm + {U} + X
 
 :::row{variant=PILE}
-
-- LED
-- Con
-- SW
-- SW
-- TO
-  :::
+LED
+Con
+SW
+SW
+TO
+:::
 
 [meandeck:basics]: /meandeck/basics
