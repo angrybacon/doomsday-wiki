@@ -1,7 +1,6 @@
 // Title: Tin Fins
 // Authors: drynne
 // Colors: {W}{U}{B}
-
 4 Brainstorm
 1 Cabal Therapy
 1 Children of Korlis

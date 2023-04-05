@@ -17,27 +17,27 @@ We have three main variants represented on here that you can access resources
 for on the left hand sidebar.
 
 **Doomsday** is the primary deck variant that is having previously unprecedented
-success since the printing of Thassa's Oracle. Legacy Doomsday uses countermagic
-like Force of Will and discard like Duress to play a controlling game before
-ending the game.
+success since the printing of :card[TO]. Legacy Doomsday uses countermagic like
+Force of Will and discard like Duress to play a controlling game before ending
+the game.
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
-have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
-and Tendrils of Agony. They also prefer proactive protection such as Duress over
-being able to run reactive countermagic.
+have access to secondary Storm plans using cards like :card[BW], :card[EoE] and
+:card[ToA]. They also prefer proactive protection like discard over being able
+to run reactive countermagic.
 
 **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
 was the main variant available post Gitaxian Probe ban and pre-printing of
-Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
+Thassa's Oracle. These lists use :card[EF] as a card advantage engine
 and win condition in tandem with Doomsday.
 
-**Entombsday** is a Tin Fins variant with a main deck plan
-focusing on reanimating Griselbrand using either :card[Shallow Grave] or
-:card[Goryo's Vengeance] to then have it attack alongside Emrakul, the Aeons Torn
-or looping the deck to generate infinite mana and hard cast Emrakul or cast 
-Collective Brutality an infinite number of times. The key point to focus on is it
-runs a dedicated transformational sideboard into a variant of Doomsday.
+**Entombsday** is a Tin Fins variant with a main deck plan focusing on
+reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
+Vengeance] to then have it attack alongside :card[Em] or looping the deck to
+generate infinite mana and hard cast Emrakul or cast Collective Brutality an
+infinite number of times. The key point to focus on is it runs a dedicated
+transformational sideboard into a variant of Doomsday.
 
 If you are new to the archetype then check out the [FAQs Appendix][faq] for any
 initial queries you might have. Peruse the Wiki, read some of the articles and

@@ -1,13 +1,13 @@
 // Title: Entombsday
-// Authors: drynne
+// Authors: Nitro Rick
 // Colors: {W}{U}{B}
 4 Brainstorm
 1 Cabal Therapy
 1 Children of Korlis
-1 Collective Brutality
+1 Chrome Mox
 1 Consider
 4 Dark Ritual
-2 Daze
+3 Daze
 1 Emrakul, the Aeons Torn
 4 Entomb
 4 Force of Will
@@ -19,23 +19,23 @@
 4 Ponder
 2 Preordain
 4 Shallow Grave
-3 Thoughtseize
+2 Thoughtseize
 
-2 Flooded Strand
 1 Island
-2 Marsh Flats
 4 Polluted Delta
+1 Scalding Tarn
 1 Scrubland
 1 Swamp
-3 Underground Sea
+4 Underground Sea
+2 Verdant Catacombs
 
 // Sideboard
 1 Cavern of Souls
 4 Doomsday
 1 Echoing Truth
 1 Edge of Autumn
-1 Flusterstorm
-2 Personal Tutor
+2 Flusterstorm
+1 Ideas Unbound
 1 Shelldock Isle
 2 Street Wraith
 2 Thassa's Oracle
