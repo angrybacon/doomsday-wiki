@@ -14,9 +14,9 @@ export const DECORATIONS: MenuDecoration[] = [
     title: 'DDFT',
   },
   {
-    category: Category.DDEFT,
-    subtitle: 'Experimental Frenzy',
-    title: 'DDEFT',
+    category: Category.ENTOMBSDAY,
+    subtitle: 'Tin Fins Hybrid',
+    title: 'Entombsday',
   },
   {
     category: Category.APPENDICES,
