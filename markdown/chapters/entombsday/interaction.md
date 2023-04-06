@@ -153,6 +153,3 @@ Although it does not see much play currenty outside of the sideboard of Death
 and Taxes, :card[Containment Priest] completely disables the Tin Fins combo.
 Because of this, we almost always transform into Doomsday in post-board games
 against Death and Taxes.
-
-Again, keep in mind that this effect turns off :card[Shelldock Isle], so avoid
-piles using it if you suspect Containment Priest.
