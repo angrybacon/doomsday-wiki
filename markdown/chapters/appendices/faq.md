@@ -14,40 +14,39 @@ questions were also answered in this article:
 
 ## What are the different Doomsday decks and what is the difference between them?
 
-There are considered, at the time of writing, to be 4 primary distinct variants
-of Doomsday available for play. These comprise of **DDFT**, **DDEFT**,
-**Doomsday** and **Entombsday**.
+There are considered to be 4 primary distinct variants of Doomsday available for
+play. These comprise of **Doomsday**, **DDFT**, **Entombsday** and **DDEFT**.
 
 :::row{variant=CENTERED}
-ToA
-EF
 FoW
+ToA
 Griselbrand
+EF
 :::
+
+**Doomsday** is the primary deck variant that is having previously unprecedented
+success since the printing of :card[TO]. Legacy Doomsday uses countermagic like
+Force of Will and discard like Duress to play a controlling game before ending
+the game. Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is
+explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
-have access to secondary Storm plans using cards like Burning Wish, Echo of Eons
-and Tendrils of Agony. They also prefer proactive protection such as Duress over
-being able to run reactive countermagic.
+have access to secondary Storm plans using cards like :card[BW], :card[EoE] and
+:card[ToA]. They also prefer proactive protection like discard over being able
+to run reactive countermagic.
+
+**Entombsday** is a Tin Fins variant with a main deck plan focusing on
+reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
+Vengeance] to then have it attack alongside :card[Em] or looping the deck to
+generate infinite mana and hard cast Emrakul or cast Collective Brutality an
+infinite number of times. The key point to focus on is it runs a dedicated
+transformational sideboard into a variant of Doomsday.
 
 **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
-was the main variant available post Gitaxian Probe ban and pre-printing of
-Thassa's Oracle. These lists use Experimental Frenzy as a card advantage engine
-and win condition in tandem with Doomsday.
-
-**Doomsday** is the primary deck variant that is having previously unprecedented
-success since the printing of Thassa's Oracle. Doomsday uses countermagic like
-Force of Will and Daze to play a controlling game before ending the game with
-Doomsday. Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is
-explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
-
-**Entombsday** is more of a Tin Fins variant with a main deck plan focussing on
-reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
-Vengeance] to then have it attack alongside Emrakul, the Eons Torn or, looping
-the deck to cast an infinite number of Collective Brutality's or a lethal
-Tendrils of Agony. The key point ot focus on is it runs a dedicated
-transformational sideboard into effectively a variant of Doomsday.
+was the main variant available post :card[Gitaxian Probe] ban and pre-printing
+of Thassa's Oracle. These lists use Experimental Frenzy as a card advantage
+engine and win condition in tandem with Doomsday.
 
 ## What is the _best_ Doomsday archetype? Of that archetype what are the _best_ colours to run?
 
