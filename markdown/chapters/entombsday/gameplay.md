@@ -11,7 +11,7 @@ title: Playing the Deck
 As a deck with two unique gameplans, Entombsday requires some flexibility from
 its pilot. Knowing the ins-and-outs of both Tin Fins and Doomsday will improve
 your performance with the deck, as will developing your own heuristics for when
-to uses which plan.
+to use which plan.
 
 Because this Wiki already contains excellent resources for how to play Turbo
 Doomsday, we will primarily focus on the Tin Fins plan and when to _transform_
