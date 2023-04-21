@@ -69,18 +69,18 @@ with another cantrip).
 
 :::row{variant=CENTERED}
 Force of Will | DMR | 284
-Daze | NEM
-Misdirection | MMQ
+Daze
+Misdirection
 Flusterstorm
 :::
 
-As a {U} Legacy deck, Entombsday runs a number counterspell effects that enable
-it to protect its combos, primarily :card[Force of Will | DMR | 284] and
-:card[Daze | NEM]. Force of Will is always run as a four-of, while only two or
-three copies of Daze are included.
+As a {U} Legacy deck, Entombsday runs a number of counterspell effects that
+enable it to protect its combos, primarily :card[Force of Will] and :card[Daze].
+Force of Will is always run as a four-of, while only two or three copies of Daze
+are included.
 
-A single copy of :card[Misdirection | MMQ] can be run, usually in place of a
-copy of Daze. Misdirection allows for some interesting play patterns, such as
+A single copy of :card[Misdirection] can be run, usually in place of a copy of
+Daze. Misdirection allows for some interesting play patterns, such as
 redirecting an opponent's :card[Surgical Extraction], but is generally worse
 than Daze and is considered _spicy_.
 
@@ -155,8 +155,8 @@ be run as a one-of in the maindeck.
 ### Lands
 
 :::row{variant=CENTERED}
-Polluted Delta | ONS
-Flooded Strand | ONS
+Polluted Delta
+Flooded Strand
 Marsh Flats | MH2 | 437
 :::
 
@@ -207,7 +207,7 @@ and one :card[Edge of Autumn].
 
 :::row{variant=CENTERED}
 Lim-Dul's Vault
-Shelldock Isle | LRW
+Shelldock Isle
 :::
 
 :card[Lim-Dul’s Vault] - While slow, LDV allows you to find Entomb, a
