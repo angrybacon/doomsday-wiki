@@ -8,10 +8,8 @@ import { formatDate } from '@/tools/io/formatDate';
 import { readDecklist } from '@/tools/io/readDecklist';
 import { walk } from '@/tools/io/walk';
 
-type GetDecklists = () => Decklists;
-
 /** Read file system and return all decklists. */
-export const getDecklists: GetDecklists = () => {
+export const getDecklists = (): Decklists => {
   const extension = DECKLISTS_EXTENSION;
   const files = walk(BASE_DECKLISTS_URL, { extension });
   const decklists = files.reduce<Decklists>((accumulator, crumbs) => {

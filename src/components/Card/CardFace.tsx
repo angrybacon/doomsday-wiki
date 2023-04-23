@@ -37,7 +37,7 @@ export const CardFace: FunctionComponent<Props> = ({ active, data, sx }) => {
           src={image}
           sx={[
             {
-              backgroundColor: (theme: Theme) => theme.palette.action.selected,
+              backgroundColor: ({ palette }) => palette.action.selected,
               borderRadius: ['2px', '4px'],
               display: 'block',
               height: 1,

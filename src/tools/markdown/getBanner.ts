@@ -3,10 +3,8 @@ import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import type { ScryCard, ScryData } from '@/tools/scryfall/types';
 
-type GetBanner = (query: string) => Promise<Banner>;
-
 /** Fetch the artwork for a given Scryfall query. */
-export const getBanner: GetBanner = async (query) => {
+export const getBanner = async (query: string): Promise<Banner> => {
   const data: ScryData = await scry(query);
   const faces: ScryCard[] = readFaces(data);
   const { artist, images, name } = faces[0] || {};
@@ -14,5 +12,7 @@ export const getBanner: GetBanner = async (query) => {
   if (!art) {
     throw new Error(`Missing card art for banner "${name}"`);
   }
-  return { art, title: `"${name}" by ${artist}` };
+  // TODO Pass down name and artist separately
+  const banner: Banner = { art, title: `"${name}" by ${artist}` };
+  return banner;
 };

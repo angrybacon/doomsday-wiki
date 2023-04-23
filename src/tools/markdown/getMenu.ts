@@ -20,13 +20,12 @@ export const getMenu: GetMenu = () => {
     {}
   );
   return DECORATIONS.map(({ category, subtitle, title }) => {
-    const pages: Chapter[] = [...menu[category]];
+    const pages = menu[category];
+    if (!pages) {
+      throw new Error(`Could not find pages under '${category}' menu`);
+    }
     // NOTE Sort chapters by the `order` frontmatter, no support above 99
-    pages.sort((left, right) => {
-      const leftValue = left.matter.order ?? 99;
-      const rightValue = right.matter.order ?? 99;
-      return leftValue - rightValue;
-    });
+    pages.sort((a, b) => (a.matter.order ?? 99) - (b.matter.order ?? 99));
     return { category, subtitle, title, pages };
   });
 };

@@ -1,9 +1,7 @@
 import type { Theme } from '@mui/material/styles';
 import type { CSSProperties } from '@mui/material/styles/createMixins';
 
-type Barf = (theme: Theme) => CSSProperties;
-
-export const barf: Barf = (theme) => ({
+export const barf = (theme: Theme): CSSProperties => ({
   marginLeft: theme.spacing(-4),
   marginRight: theme.spacing(-4),
   [theme.breakpoints.down('sm')]: {

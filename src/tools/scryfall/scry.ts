@@ -15,17 +15,15 @@ const API = {
   SET: `${HOST}/cards`,
 } as const;
 
-type GetApi = (
-  name: string,
-  set?: string,
-  collectorNumber?: string
-) => [api: string, parameters: string];
-
 /**
  * Return a tuple representing the Scryfall configuration to use depending on
  * whether the query is ambiguous or definite.
  */
-const getApi: GetApi = (name, set, collectorNumber) => {
+export const getApi = (
+  name: string,
+  set?: string,
+  collectorNumber?: string
+): [api: string, parameters: string] => {
   if (set && collectorNumber) {
     return [`${API.SET}/${set.toLowerCase()}/${collectorNumber}`, ''];
   }
@@ -34,8 +32,6 @@ const getApi: GetApi = (name, set, collectorNumber) => {
   }
   return [API.SEARCH, `q=!"${name}"&unique=prints&order=released&dir=asc`];
 };
-
-type Scry = (query: string) => Promise<ScryData>;
 
 /**
  * Query Scryfall with `query`.
@@ -48,7 +44,7 @@ type Scry = (query: string) => Promise<ScryData>;
  * This asynchronous function builds a cache of concurrent promises to avoid
  * querying twice for the same name and set pair.
  */
-export const scry: Scry = async (query) => {
+export const scry = async (query: string): Promise<ScryData> => {
   const [name, set, collectorNumber] = query.split('|').map((it) => it.trim());
   const realName: string = getCard(name).name;
   const realSet: string | undefined = set || SETS[realName];

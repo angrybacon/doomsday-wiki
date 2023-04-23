@@ -63,7 +63,7 @@ export const Remark: FunctionComponent<Props> = ({
   );
 
   return withWrapper ? (
-    <Box sx={{ '> :not(p:first-of-type)': { mt: 3 } }}>{children}</Box>
+    <Box sx={{ display: 'grid', gap: 3 }}>{children}</Box>
   ) : (
     children
   );

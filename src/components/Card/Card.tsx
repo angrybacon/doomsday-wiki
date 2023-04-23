@@ -4,7 +4,6 @@ import { mdiCached } from '@mdi/js';
 import Icon from '@mdi/react';
 import { Box, IconButton } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import type { Theme } from '@mui/material/styles';
 import { CardFace } from '@/components/Card/CardFace';
 import type { ScryCard } from '@/tools/scryfall/types';
 
@@ -22,7 +21,7 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
     data.length > 1 ? (
       <IconButton
         onClick={onFlip}
-        sx={({ breakpoints, palette, shadows, spacing }: Theme) => ({
+        sx={({ breakpoints, palette, shadows, spacing }) => ({
           backdropFilter: 'blur(2px)',
           backgroundColor: alpha(palette.common.white, 0.4),
           boxShadow: shadows[1],

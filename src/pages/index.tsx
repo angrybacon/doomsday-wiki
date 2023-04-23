@@ -21,7 +21,7 @@ interface Props {
 }
 
 const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
-  const articleRoot = useRef<HTMLDivElement>(null);
+  const articlesRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
   const showMore = (count?: number) => () =>
@@ -31,7 +31,7 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
 
   useEffect(() => {
     if (size > ARTICLES_INITIAL_SIZE) {
-      articleRoot?.current?.scrollIntoView({
+      articlesRoot?.current?.scrollIntoView({
         behavior: 'smooth',
         block: 'end',
       });
@@ -51,7 +51,7 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
         <Grid item xs>
           <Grid
             container
-            ref={articleRoot}
+            ref={articlesRoot}
             spacing={2}
             sx={{ flexDirection: 'column', pb: 2 }}
           >

@@ -3,9 +3,7 @@ import type { Category } from '@/tools/markdown/constants/Category';
 
 export type Rosetta = [notation: string, name: string][];
 
-type GetRosetta = (category: string) => Rosetta;
-
-export const getRosetta: GetRosetta = (category) =>
+export const getRosetta = (category: string): Rosetta =>
   Object.entries(CARDS).reduce<Rosetta>((accumulator, [notation, card]) => {
     const [name, categories] = card;
     if (!categories.length || categories.includes(category as Category)) {

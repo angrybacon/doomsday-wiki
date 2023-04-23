@@ -53,7 +53,7 @@ export const Layout: FunctionComponent<Props> = ({
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
-      color: (theme) => theme.palette.common.white,
+      color: ({ palette }) => palette.common.white,
       position: 'relative',
       '&:before': {
         backdropFilter: 'blur(4px)',
@@ -90,7 +90,7 @@ export const Layout: FunctionComponent<Props> = ({
             display: 'flex',
             flexDirection: 'column',
             flexGrow: '1',
-            ml: (theme) => theme.drawer.width,
+            ml: ({ drawer }) => drawer.width,
             my: { xs: 2, sm: 3 },
             position: 'relative',
           },
@@ -110,10 +110,7 @@ export const Layout: FunctionComponent<Props> = ({
       </Box>
       {withBackToTop && (
         <BackToTop
-          sx={({ spacing }: Theme) => ({
-            bottom: spacing(2),
-            right: spacing(2),
-          })}
+          sx={({ spacing }) => ({ bottom: spacing(2), right: spacing(2) })}
         />
       )}
     </Box>

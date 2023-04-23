@@ -63,7 +63,11 @@
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-unused-vars": [
       "warn",
-      { "ignoreRestSiblings": true }
+      {
+        "argsIgnorePattern": "^_",
+        "destructuredArrayIgnorePattern": "^_",
+        "ignoreRestSiblings": true
+      }
     ],
     "camelcase": ["warn", { "ignoreDestructuring": true }],
     "import/extensions": [

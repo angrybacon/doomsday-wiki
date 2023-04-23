@@ -16,8 +16,8 @@ const variantStyles: Record<
   keyof typeof VARIANTS,
   (theme: Theme) => SystemStyleObject<Theme>
 > = {
-  CENTERED: (theme) => ({
-    ...theme.mixins.gutters,
+  CENTERED: ({ mixins }) => ({
+    ...mixins.gutters,
     justifyContent: 'space-around',
     mx: -1,
     '> *': { flexBasis: '25%', maxWidth: '25%' },
@@ -48,7 +48,7 @@ export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
   const variantKey = variant as keyof typeof VARIANTS;
   const variantStyle = VARIANTS[variantKey] || VARIANTS.CENTERED;
   return (
-    <Box sx={(theme) => theme.mixins.barf}>
+    <Box sx={({ mixins }) => mixins.barf}>
       <Box
         sx={[
           { display: 'flex', mx: { xs: -0.25, sm: -0.5, md: -1 } },

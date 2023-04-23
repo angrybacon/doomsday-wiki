@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
 import { FunctionComponent } from 'react';
-import { ListItem, ListItemText, Typography } from '@mui/material';
+import { ListItemButton, ListItemText, Typography } from '@mui/material';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import type { Matter } from '@/tools/markdown/types';
 
@@ -16,12 +16,12 @@ export const ArticleListItem: FunctionComponent<Props> = ({
   matter,
 }) => (
   <NextLink href={href} passHref>
-    <ListItem button component="a" divider={divider}>
+    <ListItemButton component="a" divider={divider}>
       <ListItemText
         disableTypography
         primary={<Typography>{matter.title}</Typography>}
         secondary={<ArticleMeta matter={matter} />}
       />
-    </ListItem>
+    </ListItemButton>
   </NextLink>
 );

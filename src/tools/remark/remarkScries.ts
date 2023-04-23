@@ -1,6 +1,7 @@
-import type { Text } from 'mdast';
+import type { Root, Text } from 'mdast';
 import type { ContainerDirective } from 'mdast-util-directive';
 import { select } from 'unist-util-select';
+import type { Plugin } from 'unified';
 import type { Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
 import { readFaces } from '@/tools/scryfall/read';
@@ -12,9 +13,9 @@ import type { Scries, ScryCard, ScryData } from '@/tools/scryfall/types';
  * the queries within.
  * This Unified pluggable returns a record of queries and responses pairs.
  */
-export const remarkScries =
+export const remarkScries: Plugin<[], Root, Scries> =
   () =>
-  async (tree: Node): Promise<Scries> => {
+  async (tree: Root): Promise<Scries> => {
     /** Unist tests to only visit nodes that contain Scryfall queries. */
     const tests: Test = [{ name: 'row', type: 'containerDirective' }];
     /** Contain the list of Scryfall promises to await for. */

@@ -19,9 +19,9 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => (
         {articles.map(({ matter, route }, index) => (
           <ArticleListItem
             divider={index < articles.length - 1}
+            href={route}
             key={route}
             matter={matter}
-            href={route}
           />
         ))}
       </List>

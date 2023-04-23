@@ -17,8 +17,8 @@ import { alpha } from '@mui/material/styles';
 
 export const RemarkTable: Components['table'] = ({ children }) => (
   <Box
-    sx={(theme) => ({
-      ...theme.mixins.barf,
+    sx={({ mixins }) => ({
+      ...mixins.barf,
       borderTop: 1,
       borderTopColor: 'divider',
       overflowX: 'auto',
@@ -39,7 +39,7 @@ export const RemarkTableCell: ComponentType<
   <TableCell
     style={style}
     sx={[
-      (theme) => theme.mixins.gutters,
+      ({ mixins }) => mixins.gutters,
       style?.textAlign === 'left' && { whiteSpace: 'nowrap' },
     ]}
   >
@@ -49,7 +49,7 @@ export const RemarkTableCell: ComponentType<
 
 export const RemarkTableHead: Components['thead'] = ({ children }) => (
   <TableHead
-    sx={{ bgcolor: (theme) => alpha(theme.palette.primary.light, 0.1) }}
+    sx={{ bgcolor: ({ palette }) => alpha(palette.primary.light, 0.1) }}
   >
     {children}
   </TableHead>

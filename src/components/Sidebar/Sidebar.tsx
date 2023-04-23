@@ -34,9 +34,9 @@ export const Sidebar: FunctionComponent<Props> = ({
   menu,
   onClose,
 }) => {
-  const sx: SxProps<Theme> = (theme: Theme) => ({
+  const sx: SxProps<Theme> = ({ drawer }) => ({
     [`.${drawerClasses.paper}`]: [
-      { width: theme.drawer.width },
+      { width: drawer.width },
       isClear && !isMobile && { background: 'none' },
     ],
   });
@@ -47,9 +47,9 @@ export const Sidebar: FunctionComponent<Props> = ({
   ];
 
   const sxHeader: SxProps<Theme> = [
-    { backgroundColor: ({ palette }: Theme) => palette.background.paper },
+    { backgroundColor: ({ palette }) => palette.background.paper },
     (!isClear || isMobile) && {
-      borderBottomColor: ({ palette }: Theme) => palette.divider,
+      borderBottomColor: ({ palette }) => palette.divider,
       borderBottomStyle: 'solid',
       borderBottomWidth: 1,
     },

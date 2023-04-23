@@ -54,7 +54,7 @@ export const Banner: FunctionComponent<Props> = ({
       <Typography
         sx={{
           alignItems: 'center',
-          bgcolor: (theme) => alpha(theme.palette.common.black, 0.3),
+          bgcolor: ({ palette }) => alpha(palette.common.black, 0.3),
           bottom: 0,
           color: 'common.white',
           display: 'flex',

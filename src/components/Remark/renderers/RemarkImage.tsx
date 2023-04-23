@@ -8,8 +8,8 @@ export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
     <>
       <Box
         component="span"
-        sx={(theme) => ({
-          ...theme.mixins.barf,
+        sx={({ mixins }) => ({
+          ...mixins.barf,
           border: 1,
           borderColor: 'divider',
           borderLeft: 0,

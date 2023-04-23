@@ -1,14 +1,14 @@
 import { DECK_RE } from '@/tools/decklists/constants';
 import type { Card } from '@/tools/decklists/types';
 
-type ParseCards = (text: string) => { cards: Card[][]; count: number };
-
 /**
  * Parse a body of lines representing cards in a decklist.
  * Empty lines found within the body will serve as delimiters for groups in
  * order to accomodate for multi-column rendering.
  */
-export const parseCards: ParseCards = (text) => {
+export const parseCards = (
+  text: string
+): { cards: Card[][]; count: number } => {
   let count = 0;
   const cards: Card[][] = text
     .split(DECK_RE.groupDelimiter)

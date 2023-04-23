@@ -36,8 +36,8 @@ export const Decklist: FunctionComponent<Props> = ({
   title,
 }) => (
   <Box
-    sx={(theme) => ({
-      ...theme.mixins.barf,
+    sx={({ mixins }) => ({
+      ...mixins.barf,
       border: 1,
       borderColor: 'divider',
       borderLeft: 0,
@@ -48,8 +48,8 @@ export const Decklist: FunctionComponent<Props> = ({
     <Accordion elevation={0} square>
       <AccordionSummary
         expandIcon={<Icon path={mdiChevronDown} size={1} />}
-        sx={(theme) => ({
-          ...theme.mixins.gutters,
+        sx={({ mixins }) => ({
+          ...mixins.gutters,
           [`.${accordionSummaryClasses.content}`]: { flexDirection: 'column' },
         })}
       >
@@ -97,9 +97,9 @@ export const Decklist: FunctionComponent<Props> = ({
         )}
       </AccordionSummary>
       <AccordionDetails
-        sx={(theme) => ({
-          ...theme.mixins.gutters,
-          bgcolor: alpha(theme.palette.primary.light, 0.1),
+        sx={({ mixins, palette }) => ({
+          ...mixins.gutters,
+          bgcolor: alpha(palette.primary.light, 0.1),
           borderTop: 1,
           borderTopColor: 'divider',
           display: 'flex',
