@@ -31,6 +31,7 @@
     "@mui/system": "5.11.16",
     "@mui/utils": "5.11.13",
     "@vercel/analytics": "0.1.11",
+    "async-sema": "3.1.1",
     "classnames": "2.3.2",
     "gray-matter": "4.0.3",
     "mana-font": "1.15.4",
