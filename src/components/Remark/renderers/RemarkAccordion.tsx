@@ -6,8 +6,8 @@ import {
   Accordion,
   AccordionDetails,
   AccordionSummary,
-  Box,
   Typography,
+  accordionClasses,
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 // eslint-disable-next-line import/no-cycle
@@ -26,48 +26,48 @@ interface Props extends ReactMarkdownProps {
   partial?: Partial;
 }
 
+// TODO Make a re-usable accordion component for the decklists as well
+
 export const RemarkAccordion: FunctionComponent<Props> = ({
-  children: [title = 'Expand', ...content] = [],
+  children: [title, ...content] = [],
   decklists,
-  partial: markdown,
+  partial,
 }) => (
-  <Box
+  <Accordion
+    elevation={0}
+    square
     sx={({ mixins }) => ({
       ...mixins.barf,
-      border: 1,
+      borderBottom: 1,
+      borderTop: 1,
       borderColor: 'divider',
-      borderLeft: 0,
-      borderRight: 0,
-      '& + &': { borderTop: 0, mt: '0!important' },
+      // NOTE Remove the default border for accordions within papers
+      '&:before': { display: 'none' },
+      '& + &': { borderTop: 0 },
+      [`&.${accordionClasses.expanded}`]: { ...mixins.barf, my: 0 },
     })}
   >
-    <Accordion elevation={0}>
-      <AccordionSummary
-        expandIcon={<Icon path={mdiChevronDown} size={1} />}
-        sx={({ mixins }) => mixins.gutters}
-      >
-        <Typography component="div">{title}</Typography>
-      </AccordionSummary>
-      <AccordionDetails
-        sx={({ mixins, palette }) => ({
-          ...mixins.gutters,
-          bgcolor: alpha(palette.primary.light, 0.1),
-          borderTop: 1,
-          borderTopColor: 'divider',
-          py: 2,
-          '& h6:first-of-type': { mt: 0 },
-          '> :not(p:first-of-type)': { mt: 2 },
-        })}
-      >
-        {content}
-        {markdown && (
-          <Remark
-            decklists={decklists}
-            markdown={markdown}
-            withWrapper={false}
-          />
-        )}
-      </AccordionDetails>
-    </Accordion>
-  </Box>
+    <AccordionSummary
+      expandIcon={<Icon path={mdiChevronDown} size={1} />}
+      sx={({ mixins }) => mixins.gutters}
+    >
+      <Typography component="div">{title}</Typography>
+    </AccordionSummary>
+    <AccordionDetails
+      sx={({ mixins, palette }) => ({
+        ...mixins.gutters,
+        bgcolor: alpha(palette.primary.light, 0.1),
+        borderTop: 1,
+        borderTopColor: 'divider',
+        py: 2,
+        '& h6:first-of-type': { mt: 0 },
+        '> :not(p:first-of-type)': { mt: 2 },
+      })}
+    >
+      {content}
+      {partial && (
+        <Remark decklists={decklists} markdown={partial} withWrapper={false} />
+      )}
+    </AccordionDetails>
+  </Accordion>
 );

@@ -6,7 +6,6 @@ import type {
   TableRowComponent,
 } from 'react-markdown/lib/ast-to-react';
 import {
-  Box,
   Table,
   TableBody,
   TableCell,
@@ -16,17 +15,18 @@ import {
 import { alpha } from '@mui/material/styles';
 
 export const RemarkTable: Components['table'] = ({ children }) => (
-  <Box
+  <Table
+    size="small"
     sx={({ mixins }) => ({
       ...mixins.barf,
       borderTop: 1,
       borderTopColor: 'divider',
       overflowX: 'auto',
-      '& + &': { borderTop: 0, mt: 0 },
+      '& + &': { borderTop: 0 },
     })}
   >
-    <Table size="small">{children}</Table>
-  </Box>
+    {children}
+  </Table>
 );
 
 export const RemarkTableBody: Components['tbody'] = ({ children }) => (

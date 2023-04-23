@@ -108,7 +108,7 @@ mulligans occur and the percentage of games won against mulligans.
 
 ![Mulligan percentage across games](/media/pictures/2017.chart.mulligan.gif)
 
-![Mulligan win percentage across games](/media/pictures/2017.chart.mulligan-win.gif)
+![Mulligan win percentage across games](/media/pictures/2017.chart.mulligan-winrate.gif)
 
 As you can see, despite the concerns, the deck seems to mulligan very well.
 There could be some variance in that people are keeping dodgy seven card hands
@@ -231,7 +231,7 @@ that use the deck's namesake card? We'll also have a look at the breakdown in
 how the deck actually goes about winning to work out how much the statement
 of...
 
-> ... We're playing a faster Storm deck with pet cards instead of the cards that
+> We're playing a faster Storm deck with pet cards instead of the cards that
 > make it a consistently fast threat...
 
 ... is true.
