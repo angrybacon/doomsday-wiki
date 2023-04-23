@@ -3,14 +3,15 @@ import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
 import { Box } from '@mui/material';
 import { ArticleChip } from '@/components/ArticleChip/ArticleChip';
-import type { Matter } from '@/tools/markdown/types';
+import type { ArticleMatter } from '@/tools/markdown/types';
 
 interface Props {
-  matter: Matter;
+  date: string | null;
+  matter: ArticleMatter;
 }
 
-export const ArticleMeta: FunctionComponent<Props> = ({ matter }) => {
-  const { authors, date, kind, tags = [] } = matter;
+export const ArticleMeta: FunctionComponent<Props> = ({ date, matter }) => {
+  const { authors, kind, tags = [] } = matter;
   return (
     <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 1 }}>
       <Box sx={{ m: -0.5, '> *': { m: 0.5 } }}>

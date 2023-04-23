@@ -11,12 +11,12 @@ import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
-import type { Menu } from '@/tools/markdown/types';
+import type { MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
   background?: string;
   children: ReactNode;
-  menu: Menu;
+  menu: MenuEntry[];
   title: string;
   withBackToTop?: boolean;
   withProgress?: boolean;

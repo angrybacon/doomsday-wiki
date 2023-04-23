@@ -2,10 +2,10 @@ import { GetStaticProps, NextPage } from 'next';
 import { Box } from '@mui/material';
 import { Layout } from '@/components/Layout/Layout';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { Menu } from '@/tools/markdown/types';
+import type { MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
-  menu: Menu;
+  menu: MenuEntry[];
 }
 
 const NotFoundPage: NextPage<Props> = ({ menu }) => (

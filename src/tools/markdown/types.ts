@@ -8,36 +8,62 @@ export interface Banner {
   title: string;
 }
 
-export interface Chapter extends Document {
-  category: Category;
-}
+// Cards ///////////////////////////////////////////////////////////////////////
 
-export interface Document {
-  crumbs: string[];
-  matter: Matter;
+interface Card<M> {
+  matter: M;
   route: string;
   slug: string;
 }
 
-export interface Markdown {
-  matter: Partial<Matter>;
+export interface ArticleCard extends Card<ArticleMatter> {
+  banner: Banner;
+  date: string | null;
+  day: string;
+  month: string;
+  year: string;
+}
+
+export interface ChapterCard extends Card<ChapterMatter> {
+  category: Category;
+}
+
+// Documents ///////////////////////////////////////////////////////////////////
+
+export interface Partial {
   partials: Partials;
   scries: Scries;
   text: string;
 }
 
-export interface Matter {
-  authors?: string;
-  banner?: string;
-  bannerData?: Banner;
-  date: string | null;
+export interface Article extends Partial {
+  banner: Banner;
+  matter: ArticleMatter;
+  minutes: number;
+}
+
+export interface Chapter extends Partial {
+  matter: ChapterMatter;
+}
+
+export type Partials = Record<string, Partial>;
+
+// Matter //////////////////////////////////////////////////////////////////////
+
+export interface ArticleMatter {
+  authors: string;
+  banner: string;
   kind: Kind;
-  order?: number;
-  tags?: Tag[];
+  tags: Tag[];
   title: string;
 }
 
-export type Menu = MenuEntry[];
+export interface ChapterMatter {
+  order: number | null;
+  title: string;
+}
+
+// Menu ////////////////////////////////////////////////////////////////////////
 
 export interface MenuDecoration {
   category: Category;
@@ -46,7 +72,5 @@ export interface MenuDecoration {
 }
 
 export interface MenuEntry extends MenuDecoration {
-  pages: Chapter[];
+  pages: ChapterCard[];
 }
-
-export type Partials = Record<string, Markdown>;

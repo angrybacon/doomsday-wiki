@@ -9,7 +9,7 @@ import { Box } from '@mui/material';
 // eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Markdown } from '@/tools/markdown/types';
+import type { Partial } from '@/tools/markdown/types';
 import { remarkAccordion } from '@/tools/remark/remarkAccordion';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
@@ -19,7 +19,7 @@ import { remarkRow } from '@/tools/remark/remarkRow';
 
 interface Props {
   decklists: Decklists;
-  markdown: Markdown;
+  markdown: Partial;
   withWrapper?: boolean;
 }
 

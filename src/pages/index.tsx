@@ -6,18 +6,22 @@ import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
-import { getArticles } from '@/tools/markdown/getArticles';
-import { getMarkdownPartial } from '@/tools/markdown/getMarkdown';
+import { getArticleCards } from '@/tools/markdown/getArticleCards';
+import { getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { Document, Markdown, Menu } from '@/tools/markdown/types';
+import type {
+  ArticleCard as ArticleCardModel,
+  MenuEntry,
+  Partial,
+} from '@/tools/markdown/types';
 
 const ARTICLES_INITIAL_SIZE = 5;
 
 interface Props {
-  articles: Document[];
+  articles: ArticleCardModel[];
   decklists: Decklists;
-  menu: Menu;
-  welcome: Markdown;
+  menu: MenuEntry[];
+  welcome: Partial;
 }
 
 const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
@@ -55,9 +59,9 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
             spacing={2}
             sx={{ flexDirection: 'column', pb: 2 }}
           >
-            {articles.slice(0, size).map(({ matter, route }) => (
-              <Grid item key={`article-${route}`} xs={12}>
-                <ArticleCard href={route} matter={matter} />
+            {articles.slice(0, size).map((article) => (
+              <Grid item key={`article-${article.route}`} xs={12}>
+                <ArticleCard {...article} />
               </Grid>
             ))}
             <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -78,10 +82,10 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    articles: await getArticles(),
+    articles: await getArticleCards(),
     decklists: getDecklists(),
     menu: getMenu(),
-    welcome: await getMarkdownPartial({ path: 'welcome' }),
+    welcome: await getPartial('welcome'),
   },
 });
 

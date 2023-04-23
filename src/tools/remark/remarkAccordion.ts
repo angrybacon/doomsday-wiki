@@ -31,8 +31,7 @@ const remarkWithPartial = (
       hProperties: {
         ...(directive.data?.hProperties as Record<string, unknown>),
         decklists,
-        markdown: partials[path],
-        partials,
+        partial: partials[path],
       },
     };
   }

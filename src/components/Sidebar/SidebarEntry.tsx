@@ -12,14 +12,14 @@ import {
   ListItemText,
 } from '@mui/material';
 import { Category } from '@/tools/markdown/constants/Category';
-import type { Chapter, MenuEntry } from '@/tools/markdown/types';
+import type { ChapterCard, MenuEntry } from '@/tools/markdown/types';
 
 type Props = Omit<MenuEntry, 'category' | 'pages'> & {
   category?: Category;
   children?: never;
   component?: ElementType;
   href?: string;
-  pages?: Chapter[];
+  pages?: ChapterCard[];
 };
 
 export const SidebarEntry: FunctionComponent<Props> = forwardRef<

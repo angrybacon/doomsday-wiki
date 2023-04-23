@@ -15,14 +15,14 @@ import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { darkTheme } from '@/theme/theme';
-import type { Menu } from '@/tools/markdown/types';
+import type { MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
   category: string;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
-  menu: Menu;
+  menu: MenuEntry[];
   onClose: () => void;
 }
 

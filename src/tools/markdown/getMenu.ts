@@ -1,20 +1,19 @@
 import { DECORATIONS } from '@/tools/markdown/constants/Menu';
-import { getChapters } from '@/tools/markdown/getChapters';
-import type { Chapter, MenuEntry } from '@/tools/markdown/types';
-
-type GetMenu = () => MenuEntry[];
+import { getChapterCards } from '@/tools/markdown/getChapterCards';
+import type { Category } from '@/tools/markdown/constants/Category';
+import type { ChapterCard, MenuEntry } from '@/tools/markdown/types';
 
 /**
  * Read file system and return a structured list of all chapters within their
  * respective categories.
  */
-export const getMenu: GetMenu = () => {
-  const chapters: Chapter[] = getChapters();
-  const menu = chapters.reduce<Record<string, Chapter[]>>(
-    (accumulator, chapter) => {
-      const [category] = chapter.crumbs;
+export const getMenu = (): MenuEntry[] => {
+  const cards: ChapterCard[] = getChapterCards();
+  const menu = cards.reduce<Partial<Record<Category, ChapterCard[]>>>(
+    (accumulator, card) => {
+      const { category } = card;
       accumulator[category] = accumulator[category] || [];
-      accumulator[category].push(chapter);
+      (accumulator[category] as ChapterCard[]).push(card);
       return accumulator;
     },
     {}

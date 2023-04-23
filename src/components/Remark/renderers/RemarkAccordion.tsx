@@ -13,7 +13,7 @@ import { alpha } from '@mui/material/styles';
 // eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Markdown } from '@/tools/markdown/types';
+import type { Partial } from '@/tools/markdown/types';
 
 // NOTE Because this feature allows Markdown content within itself, it
 //      introduces a circular reference but is controlled as long as it doesn't
@@ -23,13 +23,13 @@ import type { Markdown } from '@/tools/markdown/types';
 
 interface Props extends ReactMarkdownProps {
   decklists: Decklists;
-  markdown?: Markdown;
+  partial?: Partial;
 }
 
 export const RemarkAccordion: FunctionComponent<Props> = ({
   children: [title = 'Expand', ...content] = [],
   decklists,
-  markdown,
+  partial: markdown,
 }) => (
   <Box
     sx={({ mixins }) => ({

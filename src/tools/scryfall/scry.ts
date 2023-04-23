@@ -19,7 +19,7 @@ const API = {
  * Return a tuple representing the Scryfall configuration to use depending on
  * whether the query is ambiguous or definite.
  */
-export const getApi = (
+const getApi = (
   name: string,
   set?: string,
   collectorNumber?: string

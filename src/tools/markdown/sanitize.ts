@@ -1,55 +1,68 @@
 import { Kind } from '@/tools/markdown/constants/Kind';
 import { Tag } from '@/tools/markdown/constants/Tag';
 
+// TODO How about Zod?
+
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type Sanitizer<T> = (value: any, path: string) => T;
+type Sanitizer<T> = (value: any) => T;
 
 /** Verify that the article kind matter property is correctly formed. */
-export const sanitizeArticleKind: Sanitizer<Kind> = (value, path) => {
+export const sanitizeArticleKind: Sanitizer<Kind> = (value) => {
   if (!value || typeof value !== 'string') {
-    throw new Error(`Missing 'kind' property for article at "${path}"`);
+    throw new Error(`Missing 'kind' property`);
   }
   const kinds: string[] = Object.keys(Kind);
   if (!kinds.includes(value)) {
-    const kindsPretty = `['${kinds.join("', '")}']`;
+    const options = `['${kinds.join("', '")}']`;
     throw new Error(
-      `Wrong 'kind' property for article at "${path}". Expected one of: ${kindsPretty}, got "${value}" instead`
+      `Invalid 'kind' property. Expected one of: ${options}, got "${value}" instead`
     );
   }
   return Kind[value as keyof typeof Kind];
 };
 
 /** Verify that the article tags are correctly formed. */
-export const sanitizeArticleTags: Sanitizer<Tag[]> = (value, path) => {
-  let tags: Tag[] = [];
+export const sanitizeArticleTags: Sanitizer<Tag[]> = (value) => {
+  let result: Tag[] = [];
   if (value) {
-    const availableTags: Tag[] = Object.values(Tag);
+    const tags: Tag[] = Object.values(Tag);
     const values = Array.isArray(value) ? value : [value];
-    tags = values.map<Tag>((tag) => {
-      if (!availableTags.includes(tag)) {
-        const availableTagsPretty = `['${availableTags.join("', '")}']`;
+    result = values.map<Tag>((tag) => {
+      if (!tags.includes(tag)) {
+        const options = `['${tags.join("', '")}']`;
         throw new Error(
-          `Wrong 'tags' property for article at "${path}". Expected an array of tags, found "${tag}" instead. Available tags: ${availableTagsPretty}`
+          `Invalid 'tags' property. Expected one ${options}, got "${tag}" instead`
         );
       }
       return tag;
     });
   }
-  return tags;
+  return result;
 };
 
-/** Verify that the banner matter property is correctly formed. */
-export const sanitizeBanner: Sanitizer<string> = (value, path) => {
+const sanitizeString = (value: unknown, message: string): string => {
   if (!value || typeof value !== 'string') {
-    throw new Error(`Missing 'banner' property for document at "${path}"`);
+    throw new Error(message);
+  }
+  return value;
+};
+
+/** Verify that the authors field is correctly formed. */
+export const sanitizeAuthors: Sanitizer<string> = (value) =>
+  sanitizeString(value, "Missing 'authors' property");
+
+/** Verify that the banner matter property is correctly formed. */
+export const sanitizeBanner: Sanitizer<string> = (value) =>
+  sanitizeString(value, "Missing 'banner' property");
+
+/** Verify that the order field is correctly formed. */
+export const sanitizeOrder: Sanitizer<number> = (value) => {
+  if (value === undefined || !Number.isInteger(value)) {
+    throw new Error("Missing 'order' property");
   }
   return value;
 };
 
 /** Verify that the title matter property is correctly formed. */
-export const sanitizeTitle: Sanitizer<string> = (value, path) => {
-  if (!value || typeof value !== 'string') {
-    throw new Error(`Missing 'title' property for document at "${path}"`);
-  }
-  return value;
-};
+export const sanitizeTitle: Sanitizer<string> = (value) =>
+  sanitizeString(value, "Missing 'title' property");

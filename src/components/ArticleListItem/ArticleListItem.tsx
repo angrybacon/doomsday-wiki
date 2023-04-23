@@ -2,15 +2,17 @@ import NextLink from 'next/link';
 import { FunctionComponent } from 'react';
 import { ListItemButton, ListItemText, Typography } from '@mui/material';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
-import type { Matter } from '@/tools/markdown/types';
+import type { ArticleMatter } from '@/tools/markdown/types';
 
 interface Props {
+  date: string | null;
   divider?: boolean;
   href: string;
-  matter: Matter;
+  matter: ArticleMatter;
 }
 
 export const ArticleListItem: FunctionComponent<Props> = ({
+  date,
   divider,
   href,
   matter,
@@ -20,7 +22,7 @@ export const ArticleListItem: FunctionComponent<Props> = ({
       <ListItemText
         disableTypography
         primary={<Typography>{matter.title}</Typography>}
-        secondary={<ArticleMeta matter={matter} />}
+        secondary={<ArticleMeta date={date} matter={matter} />}
       />
     </ListItemButton>
   </NextLink>
