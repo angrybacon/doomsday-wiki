@@ -1,5 +1,6 @@
 ---
 authors: drynne
+banner: Entomb
 order: 1
 title: Playing the Deck
 ---

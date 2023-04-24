@@ -6,7 +6,8 @@ import type {
 } from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
-import { Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent } from '@mui/material';
+import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
@@ -25,11 +26,7 @@ interface Props {
 const ChapterPage: NextPage<Props> = ({ chapter, decklists, menu }) => (
   <Layout menu={menu} title={chapter.matter.title} withBackToTop withProgress>
     <Card>
-      <CardContent>
-        <Typography align="center" variant="h1">
-          {chapter.matter.title}
-        </Typography>
-      </CardContent>
+      <Banner banner={chapter.banner} title={chapter.matter.title} />
       <CardContent>
         <Remark decklists={decklists} markdown={chapter} />
       </CardContent>

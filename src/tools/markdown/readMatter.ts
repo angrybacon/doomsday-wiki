@@ -19,6 +19,7 @@ export const readArticleMatter: ReadMatter<ArticleMatter> = (data) => ({
 });
 
 export const readChapterMatter: ReadMatter<ChapterMatter> = (data) => ({
+  banner: sanitizeBanner(data.banner),
   order: data.order === undefined ? null : sanitizeOrder(data.order),
   title: sanitizeTitle(data.title),
 });

@@ -92,7 +92,11 @@ export const getChapter = async (path: string): Promise<Chapter> => {
   try {
     const { base, extra } = await getMarkdown(join('chapters', path));
     const matter = readChapterMatter(extra);
-    return { ...base, matter };
+    return {
+      ...base,
+      banner: await getBanner(matter.banner),
+      matter,
+    };
   } catch (error) {
     const message = error instanceof Error ? error.message : `${error}`;
     throw new Error(`${message} in "${path}"`);

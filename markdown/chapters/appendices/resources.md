@@ -1,4 +1,5 @@
 ---
+banner: Library of Leng
 title: Other Doomsday Resources
 ---
 

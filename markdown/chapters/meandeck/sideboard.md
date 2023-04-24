@@ -1,5 +1,6 @@
 ---
 authors: Nevilshute, Hulahula, Emidln, Monkeyscantcry, Romariovidal, Doishy
+banner: Pyroblast
 order: 6
 title: Sideboarding
 ---
@@ -243,7 +244,7 @@ Death's Shadow
 Pack Rat
 Rotting Regisaur
 Dragon's Rage Channeler
-Timeless Dragon
+Timeless Dragon | MH2
 Triumph of Saint Katherine
 :::
 
@@ -353,7 +354,7 @@ Counterbalance
 Standstill
 Dack Fayden
 Sylvan Library
-Endurance
+Endurance | MH2
 :::
 
 ### Delver Strategies

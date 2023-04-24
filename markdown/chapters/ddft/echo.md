@@ -1,4 +1,5 @@
 ---
+banner: EoE
 title: Using Echo of Eons in Piles
 ---
 

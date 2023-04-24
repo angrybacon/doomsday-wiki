@@ -1,4 +1,5 @@
 ---
+banner: ToA | STA | 34
 title: Winning Without Doomsday
 ---
 

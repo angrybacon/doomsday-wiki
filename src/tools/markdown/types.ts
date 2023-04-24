@@ -44,6 +44,7 @@ export interface Article extends Partial {
 }
 
 export interface Chapter extends Partial {
+  banner: Banner;
   matter: ChapterMatter;
 }
 
@@ -60,6 +61,7 @@ export interface ArticleMatter {
 }
 
 export interface ChapterMatter {
+  banner: string;
   order: number | null;
   title: string;
 }

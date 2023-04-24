@@ -1,4 +1,5 @@
 ---
+banner: Opt | INV
 title: The Doomsday Playables
 ---
 

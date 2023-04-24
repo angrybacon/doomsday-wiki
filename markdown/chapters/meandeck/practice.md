@@ -1,5 +1,6 @@
 ---
 authors: Doishy
+banner: Unburden
 order: 7
 title: Practice
 ---

@@ -1,5 +1,6 @@
 ---
 authors: Doishy
+banner: Sundial of the Infinite
 order: 3
 title: Pass-the-Turn Piles
 ---
