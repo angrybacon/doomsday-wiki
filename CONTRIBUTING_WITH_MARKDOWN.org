@@ -78,14 +78,14 @@ Chapter documents can take advantage of a front section called /frontmatter/ in
 Markdown parlance. It should start with a triple-dash line and end with another
 triple-dash line. Within that section, a body of YAML metadata can be provided.
 
+- =banner= (mandatory) ::
+  Configure a banner for the chapter page. Scryfall syntax is supported.
 - =title= (mandatory) ::
   A string for your chapter title. Wrap it with quotes to allow special
   characters within such as =:= and ='=.
 - =authors= ::
   Comma-separated list of authors that you want to credit for the chapter
   page. Currently unused.
-  within the sidebar. By default chapters are alpha-sorted using their slug ie.
-  their path.
 - =order= ::
   A number to specify the order of your chapter under its collapsible group
   within the sidebar. By default chapters are alpha-sorted using their slug ie.
