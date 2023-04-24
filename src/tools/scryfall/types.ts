@@ -27,6 +27,7 @@ export interface ScryDataItem {
     name: string;
     object: ScryObject.CARD_FACE;
   }[];
+  flavor_text?: string;
   image_uris?: ScryDataItemImages;
   name: string;
   object: ScryObject.CARD;
@@ -50,6 +51,7 @@ export interface ScryDataList {
 /** Sanitized Scryfall data for a single card. */
 export interface ScryCard {
   artist: string;
+  flavor: string | null;
   images: {
     art: string | null;
     full: string | null;

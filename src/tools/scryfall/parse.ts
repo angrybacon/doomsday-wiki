@@ -9,6 +9,7 @@ export const parse = (data: ScryDataItem): ScryCard => {
     data.image_uris || {};
   return {
     artist: data.artist,
+    flavor: data.flavor_text ?? null,
     images: { art, full },
     name: data.name,
     setCode: data.set,

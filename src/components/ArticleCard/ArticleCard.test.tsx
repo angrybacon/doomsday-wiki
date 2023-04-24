@@ -11,7 +11,7 @@ describe(ArticleCard.name, () => {
 
   beforeEach(() => {
     props = {
-      banner: { art: '', title: '' },
+      banner: { art: '', flavor: null, title: '' },
       date: null,
       day: '23',
       matter: {
@@ -41,6 +41,7 @@ describe(ArticleCard.name, () => {
     // Given
     props.banner = {
       art: 'protocol://domain.tld/path/to/resource',
+      flavor: null,
       title: 'Banner title',
     };
     // When

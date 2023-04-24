@@ -33,8 +33,11 @@ const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
   <Layout menu={menu} title={article.matter.title} withBackToTop withProgress>
     <Card>
       <Banner
-        authors={article.matter.authors}
         banner={article.banner}
+        footer={[
+          `Reading time: ${article.minutes.toFixed(0)} minutes`,
+          `By ${article.matter.authors}`,
+        ]}
         title={article.matter.title}
       />
       <CardContent>
