@@ -28,9 +28,9 @@ export const Banner: FunctionComponent<Props> = ({
       title={banner.title}
     >
       <Box
+        role="presentation"
         sx={{
           background: `url(${banner.art}) center / cover no-repeat`,
-          display: 'flex',
           filter: 'blur(2px)',
           height: { xs: 190, md: 280 },
         }}
@@ -54,7 +54,7 @@ export const Banner: FunctionComponent<Props> = ({
         <Typography
           sx={{
             color: 'common.white',
-            fontSize: { xs: '2rem', md: '2.5rem', lg: '3rem' },
+            fontSize: { xs: '1.8rem', md: '2.4rem', lg: '3rem' },
             textAlign: 'center',
           }}
           variant="h1"
@@ -64,14 +64,15 @@ export const Banner: FunctionComponent<Props> = ({
         {banner.flavor && (
           <Typography
             component="span"
-            sx={{
+            sx={({ breakpoints }) => ({
               color: 'grey.300',
               fontStyle: 'italic',
               maxWidth: 600,
               mt: 2,
               textAlign: 'center',
               whiteSpace: 'pre-wrap',
-            }}
+              [breakpoints.only('xs')]: { display: 'none' },
+            })}
             variant="subtitle2"
           >
             {banner.flavor}
@@ -80,15 +81,20 @@ export const Banner: FunctionComponent<Props> = ({
       </Box>
       {footer.length > 0 && (
         <Box
-          sx={{
+          sx={({ breakpoints }) => ({
             bottom: 0,
             color: 'grey.300',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            left: 0,
             pb: 0.5,
-            pr: 1,
+            px: 1,
             position: 'absolute',
             right: 0,
             textAlign: 'right',
-          }}
+            [breakpoints.only('xs')]: { flexDirection: 'row' },
+          })}
         >
           {footer.map((line) => (
             <Typography
