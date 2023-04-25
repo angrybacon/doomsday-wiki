@@ -1,4 +1,5 @@
 ---
+banner: Scrivener | EXO
 title: Decklist Compendium
 ---
 

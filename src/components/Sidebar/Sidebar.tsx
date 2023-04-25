@@ -15,14 +15,14 @@ import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { darkTheme } from '@/theme/theme';
-import type { Menu } from '@/tools/markdown/types';
+import type { MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
   category: string;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
-  menu: Menu;
+  menu: MenuEntry[];
   onClose: () => void;
 }
 
@@ -34,9 +34,9 @@ export const Sidebar: FunctionComponent<Props> = ({
   menu,
   onClose,
 }) => {
-  const sx: SxProps<Theme> = (theme: Theme) => ({
+  const sx: SxProps<Theme> = ({ drawer }) => ({
     [`.${drawerClasses.paper}`]: [
-      { width: theme.drawer.width },
+      { width: drawer.width },
       isClear && !isMobile && { background: 'none' },
     ],
   });
@@ -47,9 +47,9 @@ export const Sidebar: FunctionComponent<Props> = ({
   ];
 
   const sxHeader: SxProps<Theme> = [
-    { backgroundColor: ({ palette }: Theme) => palette.background.paper },
+    { backgroundColor: ({ palette }) => palette.background.paper },
     (!isClear || isMobile) && {
-      borderBottomColor: ({ palette }: Theme) => palette.divider,
+      borderBottomColor: ({ palette }) => palette.divider,
       borderBottomStyle: 'solid',
       borderBottomWidth: 1,
     },

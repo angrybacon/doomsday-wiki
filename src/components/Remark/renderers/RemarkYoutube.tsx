@@ -24,8 +24,8 @@ export const RemarkYoutube: FunctionComponent<Props> = ({ node }) => {
 
   return (
     <Box
-      sx={(theme) => ({
-        ...theme.mixins.barf,
+      sx={({ mixins }) => ({
+        ...mixins.barf,
         border: 1,
         borderColor: 'divider',
         borderLeft: 0,

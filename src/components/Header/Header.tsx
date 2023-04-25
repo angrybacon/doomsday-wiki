@@ -10,7 +10,6 @@ import {
   Typography,
 } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
-import type { Theme } from '@mui/material/styles';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import { Progress } from '@/components/Progress/Progress';
 
@@ -36,9 +35,9 @@ export const Header: FunctionComponent<Props> = ({
         <AppBar
           elevation={4}
           position="sticky"
-          sx={(theme: Theme) => ({
+          sx={({ palette }) => ({
             backdropFilter: 'blur(24px)',
-            backgroundColor: alpha(theme.palette.background.paper, 0.75),
+            backgroundColor: alpha(palette.background.paper, 0.75),
             pl: offset,
           })}
         >
@@ -67,7 +66,7 @@ export const Header: FunctionComponent<Props> = ({
             position: 'fixed',
             right: 0,
             top: 0,
-            zIndex: ({ zIndex }: Theme) => zIndex.appBar,
+            zIndex: ({ zIndex }) => zIndex.appBar,
           }}
         >
           <Progress />

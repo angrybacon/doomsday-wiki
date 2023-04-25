@@ -5,11 +5,11 @@ import remarkGfm from 'remark-gfm';
 import remarkSlug from 'remark-slug';
 import remarkToc from 'remark-toc';
 import type { PluggableList } from 'unified';
-import { Box } from '@mui/material';
+import { Box, accordionClasses, tableClasses } from '@mui/material';
 // eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import type { Decklists } from '@/tools/decklists/types';
-import type { Markdown } from '@/tools/markdown/types';
+import type { Partial } from '@/tools/markdown/types';
 import { remarkAccordion } from '@/tools/remark/remarkAccordion';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
@@ -19,7 +19,7 @@ import { remarkRow } from '@/tools/remark/remarkRow';
 
 interface Props {
   decklists: Decklists;
-  markdown: Markdown;
+  markdown: Partial;
   withWrapper?: boolean;
 }
 
@@ -63,7 +63,16 @@ export const Remark: FunctionComponent<Props> = ({
   );
 
   return withWrapper ? (
-    <Box sx={{ '> :not(p:first-of-type)': { mt: 3 } }}>{children}</Box>
+    <Box
+      sx={{
+        display: 'grid',
+        gap: 3,
+        [`.${accordionClasses.root} + .${accordionClasses.root}`]: { mt: -3 },
+        [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
+      }}
+    >
+      {children}
+    </Box>
   ) : (
     children
   );

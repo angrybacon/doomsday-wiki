@@ -3,7 +3,7 @@ authors: Jacobisboss
 banner: Ancestral Recall
 kind: ARTICLE
 tags: [VINTAGE, MEANDECK]
-title: Everything Doomsday
+title: Everything Vintage Doomsday
 ---
 
 _Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort

@@ -34,7 +34,5 @@ function* walkIterator(
   }
 }
 
-type Walk = (directory: string, options?: WalkOptions) => string[][];
-
-export const walk: Walk = (directory, options) =>
+export const walk = (directory: string, options?: WalkOptions): string[][] =>
   Array.from(walkIterator(directory, options));

@@ -1,4 +1,5 @@
 ---
+banner: Spike, Tournament Grinder
 title: Interesting Interactions
 ---
 

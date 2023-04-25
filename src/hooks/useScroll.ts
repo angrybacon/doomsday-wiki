@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 
-type UseScroll = () => number;
-
-export const useScroll: UseScroll = () => {
+export const useScroll = (): number => {
   const [scroll, setScroll] = useState<number>(0);
 
   const onScroll = () => {

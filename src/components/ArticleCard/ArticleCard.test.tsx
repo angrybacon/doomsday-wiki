@@ -11,23 +11,21 @@ describe(ArticleCard.name, () => {
 
   beforeEach(() => {
     props = {
-      href: '/path/to/article',
+      banner: { art: '', flavor: null, title: '' },
+      date: null,
+      day: '23',
       matter: {
-        bannerData: { art: '', title: '' },
-        date: null,
+        authors: 'Firstname Lastname',
+        banner: 'banner',
         kind: Kind.ARTICLE,
+        tags: [],
         title: 'Article Title',
       },
+      month: '04',
+      route: '/path/to/article',
+      slug: 'article',
+      year: '2023',
     };
-  });
-
-  it('should render nothing when no banner is provided', () => {
-    // Given
-    props.matter.bannerData = undefined;
-    // When
-    const { container } = render(<ArticleCard {...props} />);
-    // Then
-    expect(container).toBeEmptyDOMElement();
   });
 
   it('should render the title', () => {
@@ -39,16 +37,18 @@ describe(ArticleCard.name, () => {
     expect(screen.getByText(props.matter.title)).toBeInTheDocument();
   });
 
-  it('should render the banner as background when provided', () => {
+  it('should render the banner as background', () => {
     // Given
-    const bannerArt = 'protocol://domain.tld/path/to/resource';
-    const bannerTitle = 'Banner title';
-    props.matter.bannerData = { art: bannerArt, title: bannerTitle };
+    props.banner = {
+      art: 'protocol://domain.tld/path/to/resource',
+      flavor: null,
+      title: 'Banner title',
+    };
     // When
     const { container } = render(<ArticleCard {...props} />);
     // Then
     const element = container.firstChild;
-    expect(element).toHaveStyle(`background-image: url(${bannerArt})`);
-    expect(element).toHaveAccessibleName(bannerTitle);
+    expect(element).toHaveStyle(`background-image: url(${props.banner.art})`);
+    expect(element).toHaveAccessibleName(props.banner.title);
   });
 });

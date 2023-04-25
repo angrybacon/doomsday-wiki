@@ -1,5 +1,6 @@
 ---
 authors: angrybacon, Labman13, Doishy
+banner: Counterspell | TMP
 order: 4
 title: Playing Around Interaction
 ---

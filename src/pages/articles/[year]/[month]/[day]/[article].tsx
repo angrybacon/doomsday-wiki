@@ -12,50 +12,50 @@ import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
-import { getArticles } from '@/tools/markdown/getArticles';
-import { getMarkdown, getMarkdownPartial } from '@/tools/markdown/getMarkdown';
+import { getArticleCards } from '@/tools/markdown/getArticleCards';
+import { getArticle, getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { Document, Markdown, Menu } from '@/tools/markdown/types';
+import type {
+  Article,
+  ArticleCard,
+  MenuEntry,
+  Partial,
+} from '@/tools/markdown/types';
 
 interface Props {
+  article: Article;
   decklists: Decklists;
-  footer: Markdown;
-  markdown: Markdown;
-  menu: Menu;
+  footer: Partial;
+  menu: MenuEntry[];
 }
 
-const ArticlePage: NextPage<Props> = ({
-  decklists,
-  footer,
-  markdown,
-  menu,
-}) => {
-  const { matter } = markdown;
-  const { authors, bannerData, title } = matter;
-
-  if (!bannerData || !title) return null;
-
-  return (
-    <Layout menu={menu} title={title} withBackToTop withProgress>
-      <Card>
-        <Banner authors={authors} banner={bannerData} title={title} />
-        <CardContent>
-          <Remark decklists={decklists} markdown={markdown} />
-        </CardContent>
-        <Divider />
-        <CardContent>
-          <Remark decklists={decklists} markdown={footer} />
-        </CardContent>
-      </Card>
-    </Layout>
-  );
-};
+const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
+  <Layout menu={menu} title={article.matter.title} withBackToTop withProgress>
+    <Card>
+      <Banner
+        banner={article.banner}
+        footer={[
+          `Reading time: ${article.minutes.toFixed(0)} minutes`,
+          `By ${article.matter.authors}`,
+        ]}
+        title={article.matter.title}
+      />
+      <CardContent>
+        <Remark decklists={decklists} markdown={article} />
+      </CardContent>
+      <Divider />
+      <CardContent>
+        <Remark decklists={decklists} markdown={footer} />
+      </CardContent>
+    </Card>
+  </Layout>
+);
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const articles: Document[] = await getArticles();
-  const paths: GetStaticPathsResult['paths'] = articles.map(({ crumbs }) => {
-    const [year, month, day, article] = crumbs;
-    return { params: { article, day, month, year } };
+  const articles: ArticleCard[] = await getArticleCards();
+  const paths: GetStaticPathsResult['paths'] = articles.map((article) => {
+    const { day, month, slug, year } = article;
+    return { params: { article: slug, day, month, year } };
   });
   return { fallback: false, paths };
 };
@@ -73,11 +73,9 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   const { article, day, month, year } = params as Query;
   return {
     props: {
+      article: await getArticle(join(year, month, day, article)),
       decklists: getDecklists(),
-      footer: await getMarkdownPartial({ path: 'article-footer' }),
-      markdown: await getMarkdown({
-        path: join('articles', year, month, day, article),
-      }),
+      footer: await getPartial('article-footer'),
       menu: getMenu(),
     },
   };

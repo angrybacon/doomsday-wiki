@@ -13,11 +13,11 @@ export const Progress: FunctionComponent<Props> = ({ sx }) => {
   return (
     <Box
       sx={[
-        (theme: Theme) => ({
-          backgroundColor: theme.palette.secondary.main,
+        ({ palette, transitions }) => ({
+          backgroundColor: palette.secondary.main,
           borderBottomRightRadius: 2,
           height: 2,
-          transition: theme.transitions.create('width', {
+          transition: transitions.create('width', {
             duration: 75,
             easing: 'linear',
           }),

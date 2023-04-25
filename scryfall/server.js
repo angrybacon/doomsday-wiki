@@ -1,11 +1,16 @@
+const { RateLimit } = require('async-sema');
 const http = require('node:http');
 
 const CACHE = new Map();
 
 const API = 'https://api.scryfall.com';
 
+// NOTE See https://scryfall.com/docs/api for more details on the rate limit
+const limit = RateLimit(10);
+
 const handler = async (request, response) => {
   if (!CACHE.has(request.url)) {
+    await limit();
     const promise = fetch(`${API}${request.url}`).then(async (it) => {
       if (!it.ok) {
         const error = await it.text();
@@ -34,7 +39,8 @@ const handler = async (request, response) => {
 const HOST = 'localhost';
 const PORT = '3333';
 
-const server = http.createServer(handler);
-server.listen(PORT, HOST, () =>
-  console.info(`Cache server is running on http://${HOST}:${PORT}`)
-);
+http
+  .createServer(handler)
+  .listen(PORT, HOST, () =>
+    console.info(`Cache server is running on http://${HOST}:${PORT}`)
+  );

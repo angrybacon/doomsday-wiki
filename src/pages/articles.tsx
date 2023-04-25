@@ -3,25 +3,26 @@ import Card from '@mui/material/Card';
 import List from '@mui/material/List';
 import { ArticleListItem } from '@/components/ArticleListItem/ArticleListItem';
 import { Layout } from '@/components/Layout/Layout';
-import { getArticles } from '@/tools/markdown/getArticles';
+import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { Document, Menu } from '@/tools/markdown/types';
+import type { ArticleCard, MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
-  articles: Document[];
-  menu: Menu;
+  articles: ArticleCard[];
+  menu: MenuEntry[];
 }
 
 const ArticlesPage: NextPage<Props> = ({ articles, menu }) => (
   <Layout menu={menu} title="Articles" withBackToTop>
     <Card>
       <List disablePadding>
-        {articles.map(({ matter, route }, index) => (
+        {articles.map(({ date, matter, route }, index) => (
           <ArticleListItem
+            date={date}
             divider={index < articles.length - 1}
+            href={route}
             key={route}
             matter={matter}
-            href={route}
           />
         ))}
       </List>
@@ -31,7 +32,7 @@ const ArticlesPage: NextPage<Props> = ({ articles, menu }) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    articles: await getArticles(),
+    articles: await getArticleCards(),
     menu: getMenu(),
   },
 });

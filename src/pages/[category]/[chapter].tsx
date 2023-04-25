@@ -6,46 +6,39 @@ import type {
 } from 'next';
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
-import { Card, CardContent, Typography } from '@mui/material';
+import { Card, CardContent } from '@mui/material';
+import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import type { Decklists } from '@/tools/decklists/types';
-import { getChapters } from '@/tools/markdown/getChapters';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { getChapterCards } from '@/tools/markdown/getChapterCards';
+import { getChapter } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { Document, Markdown, Menu } from '@/tools/markdown/types';
+import type { Chapter, ChapterCard, MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
+  chapter: Chapter;
   decklists: Decklists;
-  markdown: Markdown;
-  menu: Menu;
+  menu: MenuEntry[];
 }
 
-const ChapterPage: NextPage<Props> = ({ decklists, markdown, menu }) => {
-  const { title } = markdown.matter;
-
-  if (!title) return null;
-
-  return (
-    <Layout menu={menu} title={title} withBackToTop withProgress>
-      <Card>
-        <CardContent>
-          <Typography align="center" variant="h1">
-            {title}
-          </Typography>
-          <Remark decklists={decklists} markdown={markdown} />
-        </CardContent>
-      </Card>
-    </Layout>
-  );
-};
+const ChapterPage: NextPage<Props> = ({ chapter, decklists, menu }) => (
+  <Layout menu={menu} title={chapter.matter.title} withBackToTop withProgress>
+    <Card>
+      <Banner banner={chapter.banner} title={chapter.matter.title} />
+      <CardContent>
+        <Remark decklists={decklists} markdown={chapter} />
+      </CardContent>
+    </Card>
+  </Layout>
+);
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const chapters: Document[] = getChapters();
-  const paths: GetStaticPathsResult['paths'] = chapters.map(({ crumbs }) => {
-    const [category, chapter] = crumbs;
-    return { params: { category, chapter } };
+  const chapters: ChapterCard[] = getChapterCards();
+  const paths: GetStaticPathsResult['paths'] = chapters.map((chapter) => {
+    const { category, slug } = chapter;
+    return { params: { category, chapter: slug } };
   });
   return { fallback: false, paths };
 };
@@ -61,10 +54,8 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   const { category, chapter } = params as Query;
   return {
     props: {
+      chapter: await getChapter(join(category, chapter)),
       decklists: getDecklists(),
-      markdown: await getMarkdown({
-        path: join('chapters', category, chapter),
-      }),
       menu: getMenu(),
     },
   };

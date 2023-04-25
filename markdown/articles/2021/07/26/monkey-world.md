@@ -32,9 +32,9 @@ deck by deck.
 Additions:
 
 :::row{variant=CENTERED}
-Ragavan, Nimble Pilferer
+Ragavan, Nimble Pilferer | MH2
 Dragon's Rage Channeler
-Murktide Regent
+Murktide Regent | MH2
 :::
 
 {U}{R} was already the main Delver variant after Strixhaven, and these 3 new
@@ -86,7 +86,7 @@ changed the matchup a lot.
 Additions:
 
 :::row{variant=CENTERED}
-Endurance
+Endurance | MH2
 Prismatic Ending
 :::
 
@@ -111,8 +111,8 @@ since they play Endurance in their main deck anyway.
 Additions:
 
 :::row{variant=CENTERED}
-Endurance
-Grist, the Hunger Tide
+Endurance | MH2
+Grist, the Hunger Tide | MH2
 :::
 
 In the past Elves was a very favorable match up for us, we were able to just
@@ -131,8 +131,8 @@ post Doomsday, if we go for a pas the turn pile.
 Additions:
 
 :::row{variant=CENTERED}
-Endurance
-Yavimaya, Cradle of Growth
+Endurance | MH2
+Yavimaya, Cradle of Growth | MH2
 :::
 
 :card[Yavimaya, Cradle of Growth] gave a huge boost to this kind of deck,
@@ -145,7 +145,7 @@ they cannot protect it.
 Addition:
 
 :::row{variant=CENTERED}
-Kaldra Compleat
+Kaldra Compleat | MH2
 :::
 
 Death and Taxes had always an awful match up against us and it stays this way,
@@ -156,7 +156,7 @@ but be careful with slow piles as :card[Kaldra Compleat] gives haste.
 Addition:
 
 :::row{variant=CENTERED}
-Endurance
+Endurance | MH2
 :::
 
 Cloudpost is still a _free win_ win for us, but as always with green decks since
@@ -167,7 +167,7 @@ MH2, play around Endurance.
 Addition:
 
 :::row{variant=CENTERED}
-Ragavan, Nimble Pilferer
+Ragavan, Nimble Pilferer | MH2
 :::
 
 {U}{R} Sneak and Show plays some number of Ragavan, Nimble Pilferer in the
@@ -183,8 +183,8 @@ strongest post MH2, but still a pretty even match up.
 Additions:
 
 :::row{variant=CENTERED}
-Endurance
-Urza's Saga
+Endurance | MH2
+Urza's Saga | MH2
 :::
 
 Lands was a very good match up for us, but it could get very tricky. We had
@@ -203,8 +203,8 @@ It is still a good match up but it got a bit worse, like most.
 Additions:
 
 :::row{variant=CENTERED}
-Ragavan, Nimble Pilferer
-Urza's Saga
+Ragavan, Nimble Pilferer | MH2
+Urza's Saga | MH2
 :::
 
 This new iteration of :card[Standstill] decks took the metagame by storm, it is

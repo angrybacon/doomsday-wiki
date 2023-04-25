@@ -1,6 +1,6 @@
-import type { GrayMatterFile } from 'gray-matter';
 import type { Root } from 'mdast';
 import { join } from 'path';
+import readingTime from 'reading-time';
 import remarkDirective from 'remark-directive';
 import remarkParse from 'remark-parse';
 import { unified } from 'unified';
@@ -12,7 +12,16 @@ import {
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
-import type { Markdown, Partials } from '@/tools/markdown/types';
+import {
+  readArticleMatter,
+  readChapterMatter,
+} from '@/tools/markdown/readMatter';
+import type {
+  Article,
+  Chapter,
+  Partial,
+  Partials,
+} from '@/tools/markdown/types';
 import { remarkPartials } from '@/tools/remark/remarkPartials';
 import { remarkScries } from '@/tools/remark/remarkScries';
 import type { Scries } from '@/tools/scryfall/types';
@@ -21,7 +30,7 @@ import type { Scries } from '@/tools/scryfall/types';
 const makePartials = async (tree: Root): Promise<Partials> => {
   const partials = await unified()
     // NOTE Provide the getter as a callback to avoid circular imports
-    .use(remarkPartials, getMarkdownPartial)
+    .use(remarkPartials, getPartial)
     .run(tree);
   return partials as unknown as Partials;
 };
@@ -36,39 +45,71 @@ const makeScries = async (tree: Root): Promise<Scries> => {
 const makeTree = (buffer: string): Root =>
   unified().use(remarkParse).use(remarkDirective).parse(buffer);
 
-type GetMarkdown = (options: {
-  path: string;
-  root?: string;
-}) => Promise<Markdown>;
+/**
+ * Read file system and return Markdown content with its matter for the
+ * specified path. Provided path should be relative to `BASE_MARKDOWN_URL` but
+ * the root can be specified.
+ */
+const getMarkdown = async (
+  path: string,
+  root: string = BASE_MARKDOWN_URL
+): Promise<{ base: Partial; extra: Record<string, unknown> }> => {
+  const { content, data } = readMarkdown(join(root, path) + MARKDOWN_EXTENSION);
+  const tree: Root = makeTree(content);
+  const base: Partial = {
+    partials: await makePartials(tree),
+    scries: await makeScries(tree),
+    text: toDirective(content),
+  };
+  return { base, extra: data };
+};
 
 /**
- * Read file system and return Markdown matter from the specified path.
- * Provided path should be relative to `BASE_MARKDOWN_URL` but can be specified.
- * Augment the result with Scryfall data found in the Markdown content.
+ * Read Mardown content under the provided `path` and augment with it article
+ * metadata.
  */
-export const getMarkdown: GetMarkdown = async (options) => {
-  const { path, root = BASE_MARKDOWN_URL } = options;
-  const absolutePath = join(root, path) + MARKDOWN_EXTENSION;
-  const { content, data }: GrayMatterFile<string> = readMarkdown(absolutePath);
-  const tree: Root = makeTree(content);
+export const getArticle = async (path: string): Promise<Article> => {
   try {
-    const scries: Scries = await makeScries(tree);
-    const partials: Partials = await makePartials(tree);
-    if (data.banner) {
-      data.bannerData = await getBanner(data.banner);
-    }
-    return { matter: data, partials, scries, text: toDirective(content) };
+    const { base, extra } = await getMarkdown(join('articles', path));
+    const matter = readArticleMatter(extra);
+    return {
+      ...base,
+      banner: await getBanner(matter.banner),
+      matter,
+      minutes: readingTime(base.text).minutes,
+    };
   } catch (error) {
-    let message = `${error}`;
-    if (error instanceof Error) message = error.message;
-    throw new Error(`Failed retrieving markdown "${path}" (${message})`);
+    const message = error instanceof Error ? error.message : `${error}`;
+    throw new Error(`${message} in "${path}"`);
   }
 };
 
-export type GetMarkdownPartial = (options: {
-  path: string;
-}) => Promise<Markdown>;
+/**
+ * Read Mardown content under the provided `path` and augment it with chapter
+ * metadata.
+ */
+export const getChapter = async (path: string): Promise<Chapter> => {
+  try {
+    const { base, extra } = await getMarkdown(join('chapters', path));
+    const matter = readChapterMatter(extra);
+    return {
+      ...base,
+      banner: await getBanner(matter.banner),
+      matter,
+    };
+  } catch (error) {
+    const message = error instanceof Error ? error.message : `${error}`;
+    throw new Error(`${message} in "${path}"`);
+  }
+};
 
 /** Read Mardown content under the provided `path`. */
-export const getMarkdownPartial: GetMarkdownPartial = async ({ path }) =>
-  getMarkdown({ path, root: BASE_PARTIALS_URL });
+export const getPartial = async (path: string): Promise<Partial> => {
+  try {
+    const { base } = await getMarkdown(path, BASE_PARTIALS_URL);
+    return base;
+  } catch (error) {
+    const message = error instanceof Error ? error.message : `${error}`;
+    throw new Error(`${message} in "${path}"`);
+  }
+};

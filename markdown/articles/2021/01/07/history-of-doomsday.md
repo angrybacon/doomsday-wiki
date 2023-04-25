@@ -732,7 +732,7 @@ if Doomsday was ever cast and had Karakas for any attempts to use Emrakul. The
 deck eventually fell out of favour due to some very big format changes that
 occurred within 2011.
 
-## "The Golden Age of DDFT"
+## The Golden Age of DDFT
 
 The first major changes in 2011 revolved around the printing of the complete
 Scars of Mirrodin block. The introduction of cards like :card[Batterskull]

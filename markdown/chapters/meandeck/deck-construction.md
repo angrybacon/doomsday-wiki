@@ -1,5 +1,6 @@
 ---
 authors: Otterlady, Doishy
+banner: Urza's Blueprints
 order: 5
 title: Deck Construction
 ---

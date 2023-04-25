@@ -24,12 +24,12 @@ export const ArticleChip: FunctionComponent<Props> = ({
     variant={kind ? 'outlined' : 'filled'}
     {...rest}
     sx={[
-      kind !== undefined && {
-        backgroundColor: (theme) =>
-          alpha(theme.palette.document[kind as Kind], 0.1),
-        borderColor: 'unset',
-        color: (theme) => theme.palette.document[kind as Kind],
-      },
+      kind !== undefined &&
+        (({ palette }) => ({
+          backgroundColor: alpha(palette.document[kind as Kind], 0.1),
+          borderColor: 'unset',
+          color: palette.document[kind as Kind],
+        })),
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   />

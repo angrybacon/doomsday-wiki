@@ -1,4 +1,5 @@
 ---
+banner: Brainstorm | SS1
 title: Brainstorm in Doomsday
 ---
 

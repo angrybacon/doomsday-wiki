@@ -1,32 +1,30 @@
 import { DECORATIONS } from '@/tools/markdown/constants/Menu';
-import { getChapters } from '@/tools/markdown/getChapters';
-import type { Chapter, MenuEntry } from '@/tools/markdown/types';
-
-type GetMenu = () => MenuEntry[];
+import { getChapterCards } from '@/tools/markdown/getChapterCards';
+import type { Category } from '@/tools/markdown/constants/Category';
+import type { ChapterCard, MenuEntry } from '@/tools/markdown/types';
 
 /**
  * Read file system and return a structured list of all chapters within their
  * respective categories.
  */
-export const getMenu: GetMenu = () => {
-  const chapters: Chapter[] = getChapters();
-  const menu = chapters.reduce<Record<string, Chapter[]>>(
-    (accumulator, chapter) => {
-      const [category] = chapter.crumbs;
+export const getMenu = (): MenuEntry[] => {
+  const cards: ChapterCard[] = getChapterCards();
+  const menu = cards.reduce<Partial<Record<Category, ChapterCard[]>>>(
+    (accumulator, card) => {
+      const { category } = card;
       accumulator[category] = accumulator[category] || [];
-      accumulator[category].push(chapter);
+      (accumulator[category] as ChapterCard[]).push(card);
       return accumulator;
     },
     {}
   );
   return DECORATIONS.map(({ category, subtitle, title }) => {
-    const pages: Chapter[] = [...menu[category]];
+    const pages = menu[category];
+    if (!pages) {
+      throw new Error(`Could not find pages under '${category}' menu`);
+    }
     // NOTE Sort chapters by the `order` frontmatter, no support above 99
-    pages.sort((left, right) => {
-      const leftValue = left.matter.order ?? 99;
-      const rightValue = right.matter.order ?? 99;
-      return leftValue - rightValue;
-    });
+    pages.sort((a, b) => (a.matter.order ?? 99) - (b.matter.order ?? 99));
     return { category, subtitle, title, pages };
   });
 };

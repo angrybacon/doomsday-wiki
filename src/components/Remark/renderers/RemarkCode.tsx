@@ -18,9 +18,9 @@ export const RemarkCode: Components['code'] = ({
     return (
       <Box
         component="code"
-        sx={{
-          bgcolor: (theme) => alpha(theme.palette.primary.light, 0.1),
-          borderColor: (theme) => alpha(theme.palette.primary.light, 0.2),
+        sx={({ palette }) => ({
+          bgcolor: alpha(palette.primary.light, 0.1),
+          borderColor: alpha(palette.primary.light, 0.2),
           borderRadius: '4px',
           borderStyle: 'solid',
           borderWidth: 1,
@@ -30,7 +30,7 @@ export const RemarkCode: Components['code'] = ({
           fontSize: 'body2.fontSize',
           px: 0.5,
           py: 0,
-        }}
+        })}
       >
         {children}
       </Box>
@@ -43,7 +43,7 @@ export const RemarkCode: Components['code'] = ({
   return (
     <Box
       component="span"
-      sx={(theme) => ({ ...theme.mixins.barf, display: 'block' })}
+      sx={({ mixins }) => ({ ...mixins.barf, display: 'block' })}
     >
       <Divider />
       <Box

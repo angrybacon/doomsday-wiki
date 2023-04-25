@@ -139,10 +139,9 @@ const customizeTheme = (options: ThemeOptions): Theme => {
           styleOverrides: {
             gutterBottom: {
               // NOTE Increase specificity
-              '&&': { marginBottom: '.6em', marginTop: '.6em' },
+              '&&': { marginBottom: '.3em', marginTop: '.3em' },
             },
             h1: {
-              marginBottom: '.8em',
               [breakpoints.down('sm')]: {
                 fontSize: typography.pxToRem(44),
               },

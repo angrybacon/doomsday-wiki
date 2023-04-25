@@ -1,9 +1,3 @@
-type FormatDate = (
-  year?: string,
-  month?: string,
-  day?: string
-) => null | string;
-
 /**
  * Parse a date out of an array representing the year, month and day in that
  * order.
@@ -11,7 +5,11 @@ type FormatDate = (
  * Return a local-formatted string representing the date found. Otherwise return
  * null.
  */
-export const formatDate: FormatDate = (year, month, day) => {
+export const formatDate = (
+  year?: string,
+  month?: string,
+  day?: string
+): string | null => {
   if (!year) return null;
   // NOTE Replace missing parts with the first month or day to still have a
   //      valid date object.

@@ -60,15 +60,15 @@ export const RemarkTweet: FunctionComponent<Props> = ({ node }) => {
   return (
     <Box
       ref={root}
-      sx={(theme) => ({
+      sx={{
         alignItems: 'center',
         display: 'flex',
         height,
         justifyContent: 'center',
         overflow: 'hidden',
         position: 'relative',
-        transition: theme.transitions.create('height'),
-      })}
+        transition: ({ transitions }) => transitions.create('height'),
+      }}
     >
       {inView && (
         <>
