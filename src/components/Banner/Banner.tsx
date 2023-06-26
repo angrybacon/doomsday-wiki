@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FunctionComponent } from 'react';
 import { Box, Divider, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
@@ -30,11 +31,21 @@ export const Banner: FunctionComponent<Props> = ({
       <Box
         role="presentation"
         sx={{
-          background: `url(${banner.art}) center / cover no-repeat`,
-          filter: 'blur(2px)',
           height: { xs: 190, md: 280 },
+          img: { filter: 'blur(4px)', objectFit: 'cover' },
+          overflow: 'hidden',
+          position: 'relative',
         }}
-      />
+      >
+        <Image
+          alt={banner.title}
+          blurDataURL={banner.thumbnail}
+          layout="fill"
+          placeholder="blur"
+          priority
+          src={banner.art}
+        />
+      </Box>
       <Box
         sx={({ palette }) => ({
           alignItems: 'center',

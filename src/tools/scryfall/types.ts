@@ -55,6 +55,7 @@ export interface ScryCard {
   images: {
     art: string | null;
     full: string | null;
+    thumbnail: string | null;
   };
   name: string;
   setCode: string;

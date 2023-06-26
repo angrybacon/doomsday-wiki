@@ -8,11 +8,16 @@ export const getBanner = async (query: string): Promise<Banner> => {
   const data: ScryData = await scry(query);
   const faces: ScryCard[] = readFaces(data);
   const { artist, flavor, images, name } = faces[0] || {};
-  const { art } = images || {};
-  if (!art) {
+  const { art, thumbnail } = images || {};
+  if (!art || !thumbnail) {
     throw new Error(`Missing card art for banner "${name}"`);
   }
-  // TODO Pass down name and artist separately
-  const banner: Banner = { art, flavor, title: `"${name}" by ${artist}` };
+  const banner: Banner = {
+    art,
+    flavor,
+    thumbnail,
+    // TODO Pass down name and artist separately
+    title: `"${name}" by ${artist}`,
+  };
   return banner;
 };
