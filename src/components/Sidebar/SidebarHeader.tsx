@@ -30,16 +30,16 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >
-      <NextLink href="/" passHref>
-        <Button
-          color="primary"
-          disableElevation
-          size="small"
-          variant="contained"
-        >
-          doomsday.wiki
-        </Button>
-      </NextLink>
+      <Button
+        color="primary"
+        component={NextLink}
+        disableElevation
+        href="/"
+        size="small"
+        variant="contained"
+      >
+        doomsday.wiki
+      </Button>
       <Box
         sx={{
           alignItems: 'center',

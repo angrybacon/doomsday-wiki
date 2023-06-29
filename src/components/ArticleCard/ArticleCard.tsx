@@ -24,21 +24,22 @@ export const ArticleCard: FunctionComponent<Props> = ({
     }}
     title={banner.title}
   >
-    <NextLink href={route} passHref>
-      <CardActionArea sx={{ pt: `${BANNER_OFFSET}px` }}>
-        <CardContent
-          sx={{
-            backgroundColor: ({ palette }) =>
-              alpha(palette.background.default, 0.8),
-            borderTop: 1,
-            borderTopColor: 'dividerOpaque',
-            p: 2,
-          }}
-        >
-          <Typography variant="h6">{matter.title}</Typography>
-          <ArticleMeta date={date} matter={matter} />
-        </CardContent>
-      </CardActionArea>
-    </NextLink>
+    <CardActionArea
+      component={NextLink}
+      href={route}
+      sx={{ pt: `${BANNER_OFFSET}px` }}
+    >
+      <CardContent
+        sx={({ palette }) => ({
+          backgroundColor: alpha(palette.background.default, 0.8),
+          borderTop: 1,
+          borderTopColor: 'dividerOpaque',
+          p: 2,
+        })}
+      >
+        <Typography variant="h6">{matter.title}</Typography>
+        <ArticleMeta date={date} matter={matter} />
+      </CardContent>
+    </CardActionArea>
   </Card>
 );

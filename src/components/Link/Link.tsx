@@ -1,6 +1,6 @@
 import NextLink from 'next/link';
 import { FunctionComponent, ReactNode } from 'react';
-import MuiLink from '@mui/material/Link';
+import { Link as MuiLink } from '@mui/material';
 
 interface Props {
   children: ReactNode;
@@ -17,8 +17,8 @@ export const Link: FunctionComponent<Props> = ({
     ? { rel: 'noopener noreferrer', target: '_blank' }
     : {};
   return (
-    <NextLink href={href} passHref>
-      <MuiLink {...extra}>{children}</MuiLink>
-    </NextLink>
+    <MuiLink {...extra} component={NextLink} href={href}>
+      {children}
+    </MuiLink>
   );
 };

@@ -70,13 +70,12 @@ export const Sidebar: FunctionComponent<Props> = ({
         {menu.map((entry) => (
           <SidebarEntry key={`entry-${entry.category}`} {...entry} />
         ))}
-        <NextLink href="/articles" passHref>
-          <SidebarEntry
-            component="a"
-            subtitle="Article Archive"
-            title="Articles"
-          />
-        </NextLink>
+        <SidebarEntry
+          component={NextLink}
+          href="/articles"
+          subtitle="Article Archive"
+          title="Articles"
+        />
       </List>
       <Divider />
       <SidebarRosetta sx={{ my: 2 }} category={category} />
