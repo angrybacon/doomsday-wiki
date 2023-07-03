@@ -1,0 +1,40 @@
+// Title: Turbo Doomsday
+// Authors: Fuz65
+// Colors: {U}{B}{G}
+4 Brainstorm
+1 Consider
+4 Dark Ritual
+1 Daze
+4 Doomsday
+1 Duress
+2 Edge of Autumn
+1 Flusterstorm
+4 Force of Will
+1 Lion's Eye Diamond
+4 Lotus Petal
+3 Personal Tutor
+4 Ponder
+3 Preordain
+2 Street Wraith
+1 Thassa's Oracle
+2 Thoughtseize
+1 Veil of Summer
+
+1 Bayou
+1 Cavern of Souls
+1 Island
+4 Misty Rainforest
+4 Polluted Delta
+1 Tropical Island
+3 Underground Sea
+1 Verdant Catacombs
+1 Waterlogged Grove
+
+// Sideboard
+2 Abrupt Decay
+4 Carpet of Flowers
+2 Force of Negation
+2 Leyline of the Void
+1 Nihil Spellbomb
+2 Sheoldred, the Apocalypse
+2 Veil of Summer
