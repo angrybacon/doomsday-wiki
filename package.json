@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next build' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto --kill-others --success first",
-    "dev": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next dev' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto",
+    "dev": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next dev' 'yarn scryfall:dev' --names 'next,scryfall' --prefix-colors auto",
     "lint": "concurrently 'yarn:lint:*' --names --prefix-colors auto --success all",
     "lint:code": "eslint .",
     "lint:format": "prettier --check markdown/ puzzles/ scryfall/ src/",
@@ -16,6 +16,7 @@
     "lint:wiki": "markdownlint markdown/",
     "prepare": "husky install",
     "scryfall": "node ./scryfall/server.js",
+    "scryfall:dev": "SCRYFALL_DEBUG=1 yarn scryfall",
     "start": "next start",
     "test": "jest",
     "test:coverage": "yarn test --coverage",

@@ -6,7 +6,7 @@ const CACHE = new Map();
 const API = 'https://api.scryfall.com';
 
 // NOTE See https://scryfall.com/docs/api for more details on the rate limit
-const limit = RateLimit(10);
+const limit = RateLimit(9);
 
 const handler = async (request, response) => {
   if (!CACHE.has(request.url)) {
@@ -20,7 +20,9 @@ const handler = async (request, response) => {
       return it.text();
     });
     CACHE.set(request.url, promise);
-    console.info(`Cached request for "${request.url}"`);
+    if (process.env.SCRYFALL_DEBUG) {
+      console.info(`Cached request for "${request.url}"`);
+    }
   }
   try {
     const data = await CACHE.get(request.url);
@@ -32,7 +34,9 @@ const handler = async (request, response) => {
     response.write(`Error while reading "${request.url}" (${error})`);
   } finally {
     response.end();
-    console.count(`GET ${request.url}`);
+    if (process.env.SCRYFALL_DEBUG) {
+      console.count(`GET ${request.url}`);
+    }
   }
 };
 
