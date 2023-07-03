@@ -6,6 +6,8 @@ tags: [LEGACY, MEANDECK]
 title: Doomsdaying at the 4Seasons Spring Tournament 2023 Pt.II
 ---
 
+ 
+
 Hello everyone! Luca Fasoli here, aka Fuz65 on mtgo. I’m once again writing 
 about my  experience at the 4 Seasons tournament in Bologna, where I predictably
 played Doomsday in all the events. The tournament was held on June 2nd/3rd/4th,
@@ -16,8 +18,11 @@ time.
 If you’re interested in my report for the previous edition of the 4 Seasons you 
 can find it here: https://ddft.wiki/articles/2023/03/12/4seasons 
 
+ 
+
 ## Table of Contents
  
+
 ## Between the seasons 
 
 After the top8 at the last 4 Seasons main event I've had one of my best 
@@ -52,12 +57,16 @@ I eventually top8’d and lost in the first round, which was a great result
 considering that my idea at the start of the tournament was to incinerate 300 
 play points. 
 
+ 
+
 With a couple more results i was in a pretty good spot for the italian Player of
 the Year race, which awards an European Legacy Masters invite to the top3 
 players. I failed to qualify with two direct qualifier tournaments, losing in 
 the top8 in one and getting destroyed in the other, but I felt pretty confident 
 about my chances going into the 4 Seasons weekend, i just needed some points 
 between the Italian Legacy Invitational and the Legacy Main Event. 
+
+ 
 
 ## Choosing the deck: 
 
@@ -91,6 +100,8 @@ didn’t take long for us to get stuck in traffic. Maybe leaving on a national
 holiday wasn’t a great idea after all. Luckily, though, the team event was 
 delayed and we were able to get there in time. 
 
+ 
+
 ## The Team Event 
 
 I had the vintage seat, while Francesco had legacy and Matteo modern. I’m not a 
@@ -121,7 +132,9 @@ flusterstorm scenario that i could’ve paid with the mana i had floated with a
 I kinda picked my play up in the end forcing a :card[time walk] in a spot that 
 I don’t think was obvious, but  as a whole I played the match at an embarassing 
 level and left the table annoyed at myself. 
+
  
+
 The rest of the tournament was rather uneventful except for a bad beats story 
 that somehow put me in a better mood.I got paired against  a friendly guy 
 playing white initiative in the “dead for top8” bracket and got completely 
@@ -150,19 +163,31 @@ best, and i had missed playing in one. We had to wait for Catta to finish
 slinging Wall of Omens in 2023 modern (his team Top8’d!) , but then we met with 
 Cena, another friend of ours, and went out to dinner! Nothing too fancy, but 
 after a long day I was famished and I reaaally needed a good dinner. 
+
  
 INSERT PHOTO HERE
  
+
 Left to right: Matteo, Catta, Doc, Cena and Me 
 
+ 
+
 ## Saturday – Italian Legacy Invitational  
+
+ 
 
 The Italian Legacy Invitational is a yearly invite-only tournament that features 
 some of the best players in the italian legacy scene. I finished 9th last year, 
 so I was looking forward to get a better result. First and firemost, though, I 
 wanted to get back to playing well (compared to my standard, at least).  
 
-###Round 1 - Nic Fit 2-0 
+ 
+
+ 
+
+### Round 1 - Nic Fit 2-0 
+
+ 
 
 **Game 1:** 
 
@@ -170,17 +195,24 @@ I open a very strong hand with :card[Doomsday] and :card[Duress]. I Duress to
 see and :card[Elder Gargaroth] and nothing that really interacts with me and win 
 comfortably. 
 
+ 
+
 I think I only boarded in the :card[Nihil Spellbomb], no need to do anything 
 else. 
+
+ 
 
 **Game 2:** 
 
 A quick Doomsday with :card[FoW] backup puts me ahead in the early stages of the
 game. I make sure that I don’t die to :card[Endurance] and get the dub. 
+
  
 1-0 
 
-###Round 2 - Andrea Mengucci – BUG Scam 1-2 
+ 
+
+### Round 2 - Andrea Mengucci – BUG Scam 1-2 
 
 Feature match against Andrea! Unfortunately the video doesn’t look to be 
 available anymore on twitch, it might get published somewhere else in the future.  
@@ -201,11 +233,13 @@ but i don’t expect to win most of the games where my opponent gets to stick a
 Leovold) and the same is true for Veil of Summer. I cut Daze on the draw and 2 
 of the Personal’s. 
 
-** Game 2:**   
+ 
+
+**Game 2:**   
 
 I get dismantled easily by discard followed by Leovold.  
 
-** Game 3:** 
+**Game 3:** 
 
 I go down to 2 carpet in favor of a couple of Lotus Petals IIRC. I keep an 
 interesting 7 with 2 Carpets, 2 Sheoldreds, Underground Sea, Fetch, Doomsday. 
@@ -237,9 +271,9 @@ the game.
 
  
 
-###Round 3- Dragon Stompy 2-1 
+### Round 3- Dragon Stompy 2-1 
 
-** Game 1:**  
+**Game 1:**  
 
 Lose the die roll, :card[Chalice of the Void]@1 followed by :card[Blood Moon] on
 turn 2. 
@@ -247,29 +281,29 @@ turn 2.
 Bring in the :card[Force of Negation]’s and the :card[Abrupt Decays], cut Veil, 
 Fluster, Preordain. 
 
-** Game 2:** 
+**Game 2:** 
 
 I play :card[Underground Sea], cantrip, deploy a :card[LP]. My opponent plays 
 Chalice@1, I resolve Doomsday with :card[EoA]in hand and put a force on Top. 
 
-** Game 3:** 
+**Game 3:** 
 
 I force a Blood Moon and go for a fast Doomsday. 
 
 2-1 
 
-###Round 4 - D&t 2-1 
+### Round 4 - D&t 2-1 
 
 ** Game 1:**   
 
 My opponent gets a game loss for incorrect decklist. 
 
-** Game 2:**  
+**Game 2:**  
 
 I hit the Doomsday fail rate and die to :card[Mother of Runes] 
 + :card[Skyclave Apparition] beats. 
 
-** Game 3:**  
+**Game 3:**  
 
 I let a :card[Deafening Silence] through and win with a pass the turn pile with 
 abrupt decay and a bunch of lands that keep me safe from denial and pesky 
@@ -277,24 +311,24 @@ abrupt decay and a bunch of lands that keep me safe from denial and pesky
 
 3-1 
 
-###Round 5 – Gazzola – RUG Delver 1-2 
+### Round 5 – Gazzola – RUG Delver 1-2 
 
 A well known Canadian Threshold player, I’m not happy about the matchup  but 
 hopefully the carpets can help. 
 
-** Game 1:**  
+**Game 1:**  
 
 I keep a land-heavy hand and main phase fetch on my turn 1 to play around 
 :card[Stifle]. My opponent :card[wasteland]s me and plays a :card[tarmogoyf] a 
 couple of turns later. I win at the last possible turn with a Veil-protected 
 Doomsday+Cycler. 
 
-** Game 2:** 
+**Game 2:** 
 
 I try to play around Stifle, but never draw a second blue source and die without
 doing anything. 
 
-** Game 3:**  
+**Game 3:**  
 
 My opponent does nothing for a couple of turns and I manage to establish a solid
 manabase. I play a :card[carpet of flowers], which gets forced. My second carpet 
@@ -368,7 +402,7 @@ Sideboarding:
 
 -1 Island 
 
-- 1 Preordain 
+-1 Preordain 
 
 **Game 2:**  
 
@@ -406,9 +440,9 @@ Record : 1-0
 
  
 
-###Round 2 - Davide - 8 Cast  
+### Round 2 - Davide - 8 Cast  
 
-Game 1:  
+**Game 1:**  
 
 Davide has a slow start and I have all the time in the world to play a Doomsday 
 with Force backup with very little pressure on the board. 
@@ -417,13 +451,17 @@ Sideboarding:
 
 +2 Decay 
 
++2 Sheoldred
+
 +1 FoN 
 
 -2 Preordain 
 
--1 Personal Tutor 
+-2 Personal Tutor 
 
-Game 2:  
+-1 Daze
+
+**Game 2:** 
 
 My opening 7 is ridiculous and lets me Force of Will a chalice on my opponent’s 
 turn 1, untap and jam Doomsday with flusterstorm backup. I’ll take the free win. 
@@ -434,9 +472,9 @@ Record: 2-0
 
  
 
-###Round 3 – Tomas – WUBR Control 
+### Round 3 – Tomas – WUBR Control 
 
-**Game 1: **
+**Game 1:**
 
 I innocently play a fetchland and pass, my opponent leads on an 
 :card[Inquisition of Kozilek], which prompts me to fetch Tropical and cast Veil 
@@ -448,7 +486,7 @@ but he doesn’t have it and i win with a Cavern + Oracle pile.
 
 Sideboarding: 
 
-+ 4 Carpet 
++4 Carpet 
 
 +2 Sheoldred 
 
@@ -481,7 +519,7 @@ Match: 2-0
 
 Record: 3-0 
 
-###Round 4 – Leif – Mono Black Midrange 
+### Round 4 – Leif – Mono Black Midrange 
 
 Leif is a friendly guy and good thing he is, since we get deck checked and have 
 a bunch of time to kill. There’s no chess board involved this time, but we 
@@ -522,7 +560,7 @@ Match: 1-2
 
 Record: 3-1 
 
-###Round 5 – Giulio – UB Shadow 
+### Round 5 – Giulio – UB Shadow 
 
 **Game 1:** 
 
@@ -554,7 +592,7 @@ Match: 2-0
 
 Record: 4-1 
 
-###Round 6 – Andrea – WR Initiative 
+### Round 6 – Andrea – WR Initiative 
 
 **Game 1:** 
 
@@ -655,7 +693,7 @@ Match: 2-1
 
 Record: 6-1 
 
-###Round 8 – Alexi - 8 Cast 
+### Round 8 – Alexi - 8 Cast 
 
 **Game 1:**  
 
@@ -666,25 +704,29 @@ Sideboarding:
 
 +2 Decay 
 
++2 Sheoldred, the Apocalypse
+
 +1 FoN 
 
 -2 Preordain 
 
--1 Personal Tutor 
+-2 Personal Tutor 
+
+-1 Daze
 
  
 
-**Game 2: **
+**Game 2:**
 
-I ship an unplayable 7 and get an interesting 6: Petal, Doomsday, Force, Force. 
-I genuinely think you’re supposed to keep this 6 against 8 cast on the draw. 
-There aren’t many 5 cards hands that can get there against a deck with 
-4 Chalices and 8 Forces. This hand has a lot of live draws: blue card is decent, 
-Black land is fine, Dark ritual is great. Urza’s Saga would be a beating, but 
-it’s not like an average 5-card hand has a good chance against saga+one piece of 
-interaction. It’s the kind of keep that makes you look like a fool if it doesn’t 
-work out, but I wasn’t there to avoid looking like a fool, I wanted to give 
-myself the best chances at winning the game. Keep.
+I ship an unplayable 7 and get an interesting 6: Petal, Doomsday, Force, Force.
+Personal Tutor, Thoughtseize.I genuinely think you’re supposed to keep this 6 
+against 8 cast on the draw. There aren’t many 5 cards hands that can get there 
+against a deck with 4 Chalices and 8 Forces. This hand has a lot of live draws: 
+a blue card is decent, Black land is fine, Dark ritual is great. Urza’s Saga 
+would be a beating, but it’s not like an average 5-card hand has a good chance 
+against saga+one piece of interaction. It’s the kind of keep that makes you look 
+like a fool if it doesn’t work out, but I wasn’t there to avoid looking like a 
+fool, I wanted to give myself the best chances at winning the game. Keep.
 
  
 
@@ -700,7 +742,7 @@ Match: 2-0
 
 Record: 7-1 
 
-###Round 9 – Riccardo - TEG 2-1 
+### Round 9 – Riccardo - TEG 2-1 
 
 Unfortunaly we can’t ID into the top8, we have to play it out.  
 
@@ -724,14 +766,14 @@ Sideboarding:
 
 -1 Preordain 
 
-**Game 2: **
+**Game 2:**
 
 I mulligan a no lander with Leyline and keep an insane 6 with Force and turn 1 
 Doomsday. Riccardo goes double Diamond, cracks them and reveals double 
 :card[Echo of Eons]. Yikes. His turn one ends with a huge :card[Galvanic Relay] 
 into a turn 2 win. 
 
-**Game 3: **
+**Game 3:**
 
 I start the game with :card[Leyline of the Void] in play and a somewhat medium 
 hand. Riccardo gets a relay for 6 on turn 1, but can’t get the win on his second 
@@ -750,52 +792,56 @@ Record: 8-1
 
  
 
-###TOP8 
+### TOP8 
 
-I finished first in the swiss and got an European Legacy Masters invite! To think 
-that I was worried about getting a t16/32 to get the invite with the at large slots 
-of the Italian POTY and ended up getting it with the first place... I was pleasantly
-surprised! 
+I finished first in the swiss and got an European Legacy Masters invite! To 
+think that I was worried about getting a t16/32 to get the invite with the at 
+large slots of the Italian POTY and ended up getting it with the first place... 
+I was pleasantly surprised! 
 
  
 
 This is my second top8 in a row at the 4 Seasons Tournaments and not something I 
-realistically expected to do, but I got lucky in some matches where it needed it and 
-I think played some tight magic in a few tricky spots. It was for sure a satisfying 
-way to bounce back after Friday’s poor performance. 
+realistically expected to do, but I got lucky in some matches where it needed it 
+and I think played some tight magic in a few tricky spots. It was for sure a 
+satisfying way to bounce back after Friday’s poor performance. 
 
  
 
-##Post-Event Thoughts 
+## Post-Event Thoughts 
 
-BUG Doomsday keeps on giving and it’s my go-to choice every time I want to give myself
-the best chances of winning a tournament. The list is tailored to my play style and
-everything feels smooth. It helps that my draws have been above average, but even despite
-that it’s solid and grinds extremely well with the green cards in the board. 
+BUG Doomsday keeps on giving and it’s my go-to choice every time I want to give 
+myself the best chances of winning a tournament. The list is tailored to my play 
+style and everything feels smooth. It helps that my draws have been above 
+average, but even despite that it’s solid and grinds extremely well with the 
+green cards in the board. 
 
 Some thanks: 
 
-The 4 Seasons organizers, the judges, the Blue Dojo community and the streaming team
-for providing a fun and well organized event. Thanks to Guidi, for organizing the Legacy 
-Invitational and running the Italian Player of the Year. 
+The 4 Seasons organizers, the judges, the Blue Dojo community and the streaming 
+team for providing a fun and well organized event. Thanks to Guidi, for 
+organizing the Legacy Invitational and running the Italian Player of the Year. 
 
-The Italian Legacy community! I’d love to thank everyone individually, but my memory 
-sucks for anything that’s not a Doomsday pile or a Storm line, I’d forget someone for 
-sure.  
+The Italian Legacy community! I’d love to thank everyone individually, but my 
+memory sucks for anything that’s not a Doomsday pile or a Storm line, I’d forget 
+someone for sure.  
 
-All the guys that I’ve talked to online and stopped by to say hi, from Mtgo players 
-to people from the Doomsday Discord. 
+All the guys that I’ve talked to online and stopped by to say hi, from Mtgo 
+players to people from the Doomsday Discord. 
 
-The Cenacchi’s, who always give us a place to stay for the weekend of the 4Seasons. 
+The Cenacchi’s, who always give us a place to stay for the weekend of the 
+4Seasons. 
 
 My teammates: going to tournaments without them wouldn’t be nearly as fun.  
 
  
 
 Thanks for reading, I hope you enjoyed my ramblings! If you want to reach me on 
-social media you can find me on twitter @Fuz651 or in the Doomsday Discord.  
+social media you can find me on [Twitter](https://twitter.com/Fuz651) or in the 
+Doomsday Discord.  
 
 See you all around! 
 
  
+
 Luca 
