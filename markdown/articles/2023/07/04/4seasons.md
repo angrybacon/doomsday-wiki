@@ -7,43 +7,43 @@ title: Doomsdaying at the 4Seasons Spring Tournament 2023 Pt. 2
 ---
 
 Hello everyone! Luca Fasoli here, aka _Fuz65_ on MTGO. I'm once again writing
-about my experience at the 4 Seasons tournament in Bologna, where I predictably
+about my experience at the 4Seasons tournament in Bologna, where I predictably
 played Doomsday in all the events. The tournament was held on June 2nd, 3rd and
 4th &mdash; which worked particularly well for me &mdash; as June 2nd is a
 national holiday in Italy, and it meant that I got to play the team event on
 Friday for the first time.
 
-If you're interested in my report for the previous edition of the 4 Seasons you
+If you're interested in my report for the previous edition of the 4Seasons you
 can find it [here](/articles/2023/03/12/4seasons).
 
 ## Table of Contents
 
 ## Between the Seasons
 
-After the top8 at the last 4 Seasons main event I've had one of my best
-stretches in Magic results-wise. Everything was going my way. You know in
-basketball when a player is feeling particularly hot and starts jacking up shots
-from almost half court just to see how hot he actually is and just casually
-swishes them all? That was me on the morning of the sunday after the 4 Seasons.
-And my _heat check_ was... Citadel Doomsday. I actually call it _Citadel City_
-both as a nod to _Crash Team Racing_ and because _Citadel Doomsday_ is way too
-understandable to be a Legacy deck name.
+After the top8 at the last 4Seasons main event I've had one of my best stretches
+in Magic results-wise. Everything was going my way. You know in basketball when
+a player is feeling particularly hot and starts jacking up shots from almost
+half court just to see how hot he actually is and just casually swishes them
+all? That was me on the morning of the Sunday after the 4Seasons. And my _heat
+check_ was... Citadel Doomsday. I actually call it _Citadel City_ both as a nod
+to _Crash Team Racing_ and because _Citadel Doomsday_ is way too understandable
+to be a Legacy deck name.
 
 ::tweet{id=1635026635538960391}
 
-Fun fact: that sunday we switched to _Daylight Saving Time_ in Italy. I strolled
+Fun fact: that Sunday we switched to _Daylight Saving Time_ in Italy. I strolled
 into the Blue Dojo Discord chat and randomly asked if anyone was going to play
 the challenge. A few people answered positively and were just waiting for the
-tournament to start. I didn't feel much like playing but went like "heh, screw
-it, I'll just play Citadel Doomsday and throw await 300 play points". The
+tournament to start. I didn't feel much like playing but went like "Heh, screw
+it, I'll just play Citadel Doomsday and throw away 300 play points". The
 tournament starts and I make some comments about my matchup and the first turns
 of my game. Panic ensued. Apparently the others had forgotten about the time
 change and I hadn't exactly been clear about it. Oops. Well, that meant that I
 had a public and man, they were in for a treat. At some point my opponent had
-double Endurance and veil. Normally it would be a tough spot to navigate, but
-Citadel with pact of negation backup into tendrils for 40something took care of
-it. Easy. I also got some of the nastiest preordain I've ever gotten. Stuff like
-Dark ritual and Street Wraith in hand, preordain into Thoughtseize plus
+double Endurance and Veil. Normally it would be a tough spot to navigate, but
+Citadel with pact of negation backup into Tendrils for 40-something took care of
+it. Easy. I also got some of the nastiest Preordain I've ever gotten. Stuff like
+Dark ritual and Street Wraith in hand, Preordain into Thoughtseize plus
 Doomsday.
 
 ::tweet{id=1635011684334206977}
@@ -56,7 +56,7 @@ With a couple more results I was in a pretty good spot for the italian Player of
 the Year race, which awards an European Legacy Masters invite to the top3
 players. I failed to qualify with two direct qualifier tournaments, losing in
 the top8 in one and getting destroyed in the other, but I felt pretty confident
-about my chances going into the 4 Seasons weekend, I just needed some points
+about my chances going into the 4Seasons weekend, I just needed some points
 between the Italian Legacy Invitational and the Legacy Main Event.
 
 ## Choosing the Deck
@@ -72,7 +72,7 @@ leagues and tried :card[Uro, Titan of Nature's Wrath] over Sheoldred and the
 Deed. It went quite well, but not enough that I felt like changing the list
 without having a significant amount of testing.
 
-In the end I submitted the same 75 that I registered at the previous 4 Seasons
+In the end I submitted the same 75 that I registered at the previous 4Seasons
 for both Saturday and Sunday:
 
 ::tweet{id=1665758688018157568}
@@ -83,7 +83,7 @@ for both Saturday and Sunday:
 
 ## Getting to Bologna
 
-Waking up early on friday for the team event was a tragedy. I was coming from an
+Waking up early on Friday for the team event was a tragedy. I was coming from an
 extremely tough week at work and I'd have appreciated a few more hours of sleep.
 I left from Milan with three of my teammates: Matteo, Catta and the Doc. It
 didn't take long for us to get stuck in traffic. Maybe leaving on a national
@@ -93,7 +93,7 @@ delayed and we were able to get there in time.
 ## The Team Event
 
 I had the Vintage seat, while Francesco had Legacy and Matteo Modern. I'm not a
-huge fan of the current vintage format, but among my teammates I was the one who
+huge fan of the current Vintage format, but among my teammates I was the one who
 had played it the most recently. I still like it better than Modern, so it was a
 fairly easy choice. Given that we decided to play the team event like three days
 earlier, I had no time to test. I settled for Doomsday, which was the deck I was
@@ -122,11 +122,11 @@ don't think was obvious, but as a whole I played the match at an embarassing
 level and left the table annoyed at myself.
 
 The rest of the tournament was rather uneventful except for a bad beats story
-that somehow put me in a better mood.I got paired against a friendly guy playing
-white initiative in the _dead for top8_ bracket and got completely annihilated.
-In game 1 my opponent mulled to 4, revealed :card[Chancellor of the Annex] and
-went Lotus into :card[White Plume Adventurer]. He then untapped, scried an
-:card[Ancient tomb] on top and played :card[Archon of Emeria]. Gg
+that somehow put me in a better mood. I got paired against a friendly guy
+playing white Initiative in the _dead for top8_ bracket and got completely
+annihilated. In game 1 my opponent mulled to 4, revealed :card[Chancellor of the
+Annex] and went Lotus into :card[White Plume Adventurer]. He then untapped,
+scried an :card[Ancient tomb] on top and played :card[Archon of Emeria]. Gg
 
 In game 2 I open the nuts: Ritual, :card[Doomsday], Fetchland, :card[Daze],
 :card[Ancestral Recall], :card[Street Wraith]. Turn1 win with Daze backup. My
@@ -146,7 +146,7 @@ frankly, boring.
 
 Our team went 3-3 as a whole, but I still had a good time. Team events are the
 best, and I had missed playing in one. We had to wait for Catta to finish
-slinging Walls of Omen in 2023 Modern (his team Top8'd!) , but then we met with
+slinging Walls of Omen in 2023 Modern (his team top8'd!) , but then we met with
 Cena, another friend of ours, and went out to dinner! Nothing too fancy, but
 after a long day I was famished and I reaaally needed a good dinner.
 
@@ -165,7 +165,7 @@ wanted to get back to playing well (compared to my standard, at least).
 #### Game 1
 
 I open a very strong hand with :card[Doomsday] and :card[Duress]. I Duress to
-see and :card[Elder Gargaroth] and nothing that really interacts with me and win
+see an :card[Elder Gargaroth] and nothing that really interacts with me and win
 comfortably.
 
 I think I only boarded in the :card[Nihil Spellbomb], no need to do anything
@@ -198,7 +198,7 @@ Stifle in mind. It's kind of a double edged sword because of discard +
 Petals to Carpets is a no brainer (except for :card[Leovold, Emissary of Trest]
 but I don't expect to win most of the games where my opponent gets to stick a
 Leovold) and the same is true for Veil of Summer. I cut Daze on the draw and 2
-of the Personal's.
+of the Personal Tutors.
 
 #### Game 2
 
@@ -206,24 +206,24 @@ I get dismantled easily by discard followed by Leovold.
 
 #### Game 3
 
-I go down to 2 carpet in favor of a couple of Lotus Petals IIRC. I keep an
+I go down to 2 Carpets in favor of a couple of Lotus Petals IIRC. I keep an
 interesting 7 with 2 Carpets, 2 Sheoldreds, Underground Sea, Fetch, Doomsday.
 Andrea deploys a pair of fetchlands and we play draw/go for a couple of turns. I
-resolve a carpet on turn one, draw veil on turn 2, draw a green source and play
-the second carpet on turn three with veil backup. I wasn't too sure about this
-play, but I ultimately did it thinking that my first carpet might have gotten
+resolve a Carpet on turn one, draw Veil on turn 2, draw a green source and play
+the second Carpet on turn three with Veil backup. I wasn't too sure about this
+play, but I ultimately did it thinking that my first Carpet might have gotten
 Commanded or I could've ended up under pressure on my mana in the form of
-Stifle/:card[Wasteland]. I get :card[Grief]'d, Veil in response, but :card[Drown
-in the Loch] takes care of my protection spell and takes a Doomsday. Sheoldred
-resolves and is close to going all the way, but Andrea Reeanimates my other
-Sheoldred and I'm forced to trade them. I don't think it's correct to keep them
-on the table when my opponent is the only one with the means to remove it. He
-was at 4 life, so Reanimate was out of the picture at that point. Andrea had a
-Uro in the graveyard but no second green source. He fetched down to three and
+:card[Stifle]/:card[Wasteland]. I get :card[Grief]'d, Veil in response, but
+:card[Drown in the Loch] takes care of my protection spell and takes a Doomsday.
+Sheoldred resolves and is close to going all the way, but Andrea Reeanimates my
+other Sheoldred and I'm forced to trade them. I don't think it's correct to keep
+them on the table when my opponent is the only one with the means to remove it.
+He was at 4 life, so Reanimate was out of the picture at that point. Andrea had
+a Uro in the graveyard but no second green source. He fetched down to three and
 played a :card[Collector Ouphe], which I just ignore because with double Carpet
 it isn't doing anything. I draw Nihil Spellbomb and get pretty excited,
 considering that Andrea is empty handed and Uro could be his only real threat. I
-slam it, move to activate it...oops. Collector Ouphe. Some turns later I draw a
+slam it, move to activate it... Oops. Collector Ouphe. Some turns later I draw a
 lethal Street Wraith, but my opponent finally finds the second green source for
 Uro and I lose quickly from there. It sucks to get a loss this early, but it was
 a very interesting game, a bunch of tough choices, lots of back and forth and I
@@ -235,16 +235,16 @@ Record: 1-1
 
 #### Game 1
 
-Lose the die roll, :card[Chalice of the Void]@1 followed by :card[Blood Moon] on
-turn 2.
+Lose the die roll, :card[Chalice of the Void] on 1 followed by :card[Blood Moon]
+on turn 2.
 
-Bring in the :card[Force of Negation]'s and the :card[Abrupt Decays], cut Veil,
-Fluster, Preordain.
+Bring in the :card[Force of Negation]'s and the :card[Abrupt Decay]'s, cut Veil,
+Flusterstorm, Preordain.
 
 #### Game 2
 
-I play :card[Underground Sea], cantrip, deploy a :card[LP]. My opponent plays
-Chalice@1, I resolve Doomsday with :card[EoA]in hand and put a force on Top.
+I play Underground Sea, cantrip, deploy a :card[LP]. My opponent plays Chalice
+on 1, I resolve Doomsday with :card[EoA] in hand and put a Force on top.
 
 #### Game 3
 
@@ -266,7 +266,7 @@ I hit the Doomsday fail rate and die to :card[Mother of Runes] and
 #### Game 3
 
 I let a :card[Deafening Silence] through and win with a pass the turn pile with
-abrupt decay and a bunch of lands that keep me safe from denial and pesky
+Abrupt Decay and a bunch of lands that keep me safe from denial and pesky
 :card[Spirit of the Labyrinth]s
 
 Record: 3-1
@@ -274,12 +274,12 @@ Record: 3-1
 ### Round 5 &mdash; Gazzola on RUG Delver 1-2
 
 A well known Canadian Threshold player, I'm not happy about the matchup but
-hopefully the carpets can help.
+hopefully the Carpets can help.
 
 #### Game 1
 
 I keep a land-heavy hand and main phase fetch on my turn 1 to play around
-:card[Stifle]. My opponent :card[wasteland]s me and plays a :card[tarmogoyf] a
+:card[Stifle]. My opponent :card[wasteland]s me and plays a :card[Tarmogoyf] a
 couple of turns later. I win at the last possible turn with a Veil-protected
 Doomsday + Cycler.
 
@@ -291,9 +291,9 @@ doing anything.
 #### Game 3
 
 My opponent does nothing for a couple of turns and I manage to establish a solid
-manabase. I play a :card[carpet of flowers], which gets forced. My second carpet
+manabase. I play a :card[Carpet of Flowers], which gets forced. My second Carpet
 resolves and I cast Doomsday, which gets forced. I try to resolve a Sheoldred on
-the following turn but that gets forced, too. I get beaten by a goyf and a
+the following turn but that gets forced, too. I get beaten by a Goyf and a
 :card[Brazen Borrower] and lose before being able to recover from the
 counterspells.
 
@@ -315,8 +315,8 @@ games (he mulliganed more, though).
 ## Dinner Main Event
 
 As always, Saturday dinner means Mulino Bruciato! We got our usual 20+ people
-table and I went for the usual tagliata Fredda + Tagliata Sale e Rosmarino (Cold
-marinated sliced steak + Sliced Steak w/salt and rosemary). While I was
+table and I went for the usual Tagliata Fredda + Tagliata Sale e Rosmarino (cold
+marinated sliced steak + sliced steak w/ salt and rosemary). While I was
 devouring my steaks, my friends had gotten this pasta with fried zucchini on it
 and man, I love fried zucchini. When the waiter came back for my second steak
 and asked for the sides I had to throw in some fried zucchini's. We got potatoes
@@ -340,7 +340,7 @@ on my first turn and it gets forced, which can only mean he has the combo for
 his turn 2. As expected his next turn is land + :card[Cephalid Illusionist],
 which I force. I slam a Doomsday shortly after. At this point I have to decide
 to either wait a turn or play Oracle without Cavern. I ultimately choose to
-ignore the cavern to avoid giving my opponent too many draws and get there.
+ignore the Cavern to avoid giving my opponent too many draws and get there.
 
 Sideboarding:
 
@@ -353,9 +353,9 @@ Sideboarding:
 
 #### Game 2
 
-I mulligan and face an early :card[Urza's saga], which both puts pressure on me
+I mulligan and face an early :card[Urza's Saga], which both puts pressure on me
 and gets a Shuko, threatening me with the combo. I play a discard spell and see
-a bunch of permission, I'm sitting on veil + :card[flusterstorm] and decide that
+a bunch of permission, I'm sitting on Veil + :card[Flusterstorm] and decide that
 my only way to win is to try and get my opponent after he empties his deck. He
 had enough permission to shut my plan off, but he hadn't emptied his library
 anyway.
@@ -366,7 +366,7 @@ Sideboarding: bring the Daze back in
 
 I'm faced with a mulligan decision on a cantrip-heavy hand and ship it looking
 for a more explosive hand. My opponent doesn't have an aggressive hand and I
-ultimately manage to sneak in a veil in response to a flusterstorm. I have
+ultimately manage to sneak in a Veil in response to a Flusterstorm. I have
 Underground Sea and :card[Waterlogged Grove] in play, Consider in hand, my
 opponent is tapped out with a bunch of cards in hand. I build LED/Cycler x3/
 Thassa's Oracle to play around Surgical Extraction.
@@ -402,8 +402,8 @@ Sideboarding:
 
 #### Game 2
 
-My opening 7 is ridiculous and lets me Force of Will a chalice on my opponent's
-turn 1, untap and jam Doomsday with flusterstorm backup. I'll take the free win.
+My opening 7 is ridiculous and lets me Force of Will a Chalice on my opponent's
+turn 1, untap and jam Doomsday with Flusterstorm backup. I'll take the free win.
 
 Record: 2-0
 
@@ -433,9 +433,9 @@ Sideboarding:
 
 Game 2 is a bit of a staring contest for the first three turns. On turn 4 I
 decided to start pushing and ritual out a :card[Sheoldred, the Apocalypse].
-Tomas forces, I veil, he Spell Pierces and I fluster (3 on pierce, 2 on FoW). He
+Tomas forces, I Veil, he Spell Pierces and I Fluster (3 on Pierce, 2 on FoW). He
 has Dress Down in his upkeep and manages to resolve 2 Ponders and a Teferi,
-which bounces my Sheoldred. I comfortably replay it with carpet and bring him
+which bounces my Sheoldred. I comfortably replay it with Carpet and bring him
 low on life. He eventually manages to bounce Sheoldred with Teferi and discard
 it. An instant speed Hymn to Tourach takes care of the rest of my hand, but I
 eventually draw a :card[Street Wraith], who swampwalks to the win.
@@ -455,8 +455,8 @@ Fortunately I made no mistakes in my decklist this time, and we're off to game
 #### Game 1
 
 Leif leads on :card[Grief] and I immediately put him on reanimator. He then
-plays dauthi voidwalker and I'm fairly confused. I draw a personal tutor that
-fetches Doomsday, and I win comfortably without getting too disrupted.
+plays :card[Dauthi Voidwalker] and I'm fairly confused. I draw a Personal Tutor
+that fetches Doomsday, and I win comfortably without getting too disrupted.
 
 Sidebarding:
 
@@ -464,17 +464,17 @@ I bring in the Leylines, Nihil Spellbomb and the Veils.
 
 #### Game 2
 
-Leif leads on Thoughtseize, Turn 2 Grief, ritual and Sheoldred. Ouch.
+Leif leads on Thoughtseize, turn 2 Grief, Ritual and Sheoldred. Ouch.
 
 Sideboarding:
 
-I cut the leylines.
+I cut the Leylines.
 
 #### Game 3
 
-I duress on turn 1 and see double grief, Dark Ritual, Bloodstained Mire,
-Wasteland, :card[Tourach, Dread Cantor]. I have Ponder, Consider and Lands (on a
-mulligan to 6). I take the ritual, my opponent draws reanimate and Grief into
+I Duress on turn 1 and see double Grief, Dark Ritual, Bloodstained Mire,
+Wasteland, :card[Tourach, Dread Cantor]. I have Ponder, Consider and lands (on a
+mulligan to 6). I take the Ritual, my opponent draws Reanimate and Grief into
 Reanimate Grief wrecks my hand. I get pretty close to going off, but I'm too low
 on life for that to work.
 
@@ -484,9 +484,9 @@ Record: 3-1
 
 #### Game 1
 
-He doesn't do much, so I just take my time and sculpt a strong hand. I duress
-and see a bunch of reanimates, Push, Force + Daze. I take the force, Doomsday
-and win with a Pass the turn pile.
+He doesn't do much, so I just take my time and sculpt a strong hand. I Duress
+and see a bunch of Reanimates, Push, Force + Daze. I take the Force, Doomsday
+and win with a pass the turn pile.
 
 Sideboarding:
 
@@ -508,7 +508,7 @@ Record: 4-1
 
 #### Game 1
 
-I don't know what he's on and keep a good hand with Doomsday and Force. Andrea
+I don't know what he is on and keep a good hand with Doomsday and Force. Andrea
 goes Cavern into :card[Anointed Peacekeeper] and I draw Force + 3 more
 Doomsday's. Womp womp.
 
@@ -529,22 +529,22 @@ At this point I was feeling like I was close to the end of my tournament. I'm
 not too happy about the matchup on the draw. My hand was solid, though, with
 Force, pitch and a Thoughtseize.
 
-I force Chalice@1, untap and Thoughtseize with Underground Sea. My opponent
+I Force Chalice on 1, untap and Thoughtseize with Underground Sea. My opponent
 reveals double :card[Archon of Emeria], double Simian Spirit Guide and Cavern.
 Archon is my pick, but that doesn't stop my opponent from jamming the other one
 on the next turn with Cavern. In my next turn I brainstorm to try to get
-something going, but I get brainstorm locked instead. I play a tapped Trop and
-take the 2 damage from the Archon. I personal tutor for a ponder to clear the
+something going, but I get brainstorm locked instead. I play a tapped Tropical
+Island and take the 2 damage from the Archon. I Tutor for a Ponder to clear the
 top of my library and my opponent plays a Simian Spirit Guide to join the Archon
 that's slowly chipping my life total. Ponder on my next turn shows me Misty
 Rainforest, Brainstorm and something useless. I take the Misty and leave the
-brainstorm on top. My opponent doesn't do anything particularly relevant and I
-am faced with a tough decision: My hand is Petal, Wraith, Edge, Doomsday,
-Tropical, Misty and Underground Sea in play. I can fetch Underground Sea and
-have the triple black or I can try to go for a Decay. I choose to take the
+Brainstorm on top. My opponent doesn't do anything particularly relevant and I
+am faced with a tough decision: my hand is Petal, Wraith, Edge, Doomsday,
+Tropical Island, Misty and Underground Sea in play. I can fetch Underground Sea
+and have the triple black or I can try to go for a Decay. I choose to take the
 Brainstorm and fetch the Island. In my opponent's turn I cast a desperate
 Brainstorm and see :card[Abrupt Decay]! I Decay on the turn after, street Wraith
-to clean the top of my library, brainstorm into Dark Ritual and win from there.
+to clean the top of my library, Brainstorm into Dark Ritual and win from there.
 I was lucky that my opponent didn't draw much after the first Archon, but I feel
 like I only had a few lines that gave me actual chances to win the game and
 managed to find one that was not obvious to me.
@@ -579,7 +579,7 @@ and :card[Nihil Spellbomb] to play around :card[Endurance].
 
 This game was streamed, but it doesn't seem to be available anymore, sadly.
 
-I have a turn 2 doomsday with some excess lands in hand, which means I have a
+I have a turn 2 Doomsday with some excess lands in hand, which means I have a
 way to play around double Endurance + triple Wasteland + Pyrobast. My pile was
 the following:
 
@@ -617,23 +617,24 @@ Sideboarding:
 
 #### Game 2
 
-I ship an unplayable 7 and get an interesting 6: Petal, Doomsday, Force, Force.
-Personal Tutor, Thoughtseize.I genuinely think you're supposed to keep this 6
-against 8-Cast on the draw. There aren't many 5 cards hands that can get there
+I ship an unplayable 7 and get an interesting 6: Petal, Doomsday, Force, Force,
+Personal Tutor and Thoughtseize. I genuinely think you're supposed to keep this
+6 against 8-Cast on the draw. There aren't many 5 cards hands that can get there
 against a deck with 4 Chalices and 8 Forces. This hand has a lot of live draws:
-a blue card is decent, Black land is fine, Dark ritual is great. Urza's Saga
+a blue card is decent, black land is fine, Dark Ritual is great. Urza's Saga
 would be a beating, but it's not like an average 5-card hand has a good chance
-against saga + one piece of interaction. It's the kind of keep that makes you
+against Saga + one piece of interaction. It's the kind of keep that makes you
 look like a fool if it doesn't work out, but I wasn't there to avoid looking
 like a fool, I wanted to give myself the best chances at winning the game. Keep.
 
-Chalice@1 is my opponent's first play, I force pitching Personal Tutor. My first
-draw step gives me a blue card, I play a petal and pass. Alexi plays a Seat of
-the Synod and passes. I draw....Dark Ritual! Ritual, Doomsday, my opponent
-forces and I force back. Doomsday resolves. I build Delta/Edge/Oracle/Cavern/
-Underground Sea. My opponent plays another land and passes, I play my delta and
-ship the turn back to him. He plays Thought Monitor, I untap, fetch USea and
-Thoughtseize. Uncounterable Thassa's Oracle gets the W on the following turn.
+Chalice on 1 is my opponent's first play, I Force pitching Personal Tutor. My
+first draw step gives me a blue card, I play a Petal and pass. Alexi plays a
+:card[Seat of the Synod] and passes. I draw... Dark Ritual! Ritual, Doomsday, my
+opponent forces and I force back. Doomsday resolves. I build
+Delta/Edge/Oracle/Cavern/Underground Sea. My opponent plays another land and
+passes, I play my Delta and ship the turn back to him. He plays Thought Monitor,
+I untap, fetch Underground Sea and Thoughtseize. Uncounterable Thassa's Oracle
+gets the W on the following turn.
 
 Record: 7-1
 
@@ -668,7 +669,7 @@ into a turn 2 win.
 I start the game with :card[Leyline of the Void] in play and a somewhat medium
 hand. Riccardo gets a relay for 6 on turn 1, but can't get the win on his second
 turn. I have a Doomsday without the triple black to cast it and a LED in my
-hand. I ponder into Grove + Preordain and decide to keep it, as I'm most likely
+hand. I Ponder into Grove + Preordain and decide to keep it, as I'm most likely
 going to need at least two turns to win and Grove + LED is a win if I can get
 the triple black. I bottom a FoN to try and push before my opponent can assemble
 another kill and eventually draw Lotus Petal. Doomsday, crack LED and double
@@ -679,11 +680,11 @@ Record: 8-1
 ### Top8
 
 I finished first in the swiss and got an European Legacy Masters invite! To
-think that I was worried about getting a Top16/32 to get the invite with the at
+think that I was worried about getting a top16/32 to get the invite with the at
 large slots of the Italian POTY and ended up getting it with the first place...
 I was pleasantly surprised!
 
-This is my second top8 in a row at the 4 Seasons Tournaments and not something I
+This is my second top8 in a row at the 4Seasons tournaments and not something I
 realistically expected to do, but I got lucky in some matches where it needed it
 and I think played some tight magic in a few tricky spots. It was for sure a
 satisfying way to bounce back after Friday's poor performance.
@@ -691,14 +692,14 @@ satisfying way to bounce back after Friday's poor performance.
 ## Post-Event Thoughts
 
 BUG Doomsday keeps on giving and it's my go-to choice every time I want to give
-myself the best chances of winning a tournament. The list is tailored to my play
-style and everything feels smooth. It helps that my draws have been above
+myself the best chances of winning a tournament. The list is tailored to my
+playstyle and everything feels smooth. It helps that my draws have been above
 average, but even despite that it's solid and grinds extremely well with the
 green cards in the board.
 
 Some thanks:
 
-The 4 Seasons organizers, the judges, the Blue Dojo community and the streaming
+The 4Seasons organizers, the judges, the Blue Dojo community and the streaming
 team for providing a fun and well organized event. Thanks to Guidi, for
 organizing the Legacy Invitational and running the _Italian Player of the Year_.
 

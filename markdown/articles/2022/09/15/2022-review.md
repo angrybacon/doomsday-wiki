@@ -525,7 +525,7 @@ circumnavigate the hate that may be brought in post board for the main Doomsday
 plan. As with all the subarchetypes, there is a lot of flexibility available to
 any pilots that wish to give this style a go and plenty of toolbox to work with.
 
-Here is an example decklist that recently won the 4 Seasons paper event in Italy
+Here is an example decklist that recently won the 4Seasons paper event in Italy
 by Dalibor Szegho.
 
 ::decklist{path=2022/09/15/dalibor-szegho}

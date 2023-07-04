@@ -8,7 +8,7 @@ title: Doomsdaying at the 4Seasons Spring Tournament 2023
 
 Hello everyone! I'm Luca Fasoli, aka _Fuz65_ on MTGO. You may know me for the
 unconventional Doomsday lists that I play on mtgo. Today I want to write about
-my experience at the 4 Seasons spring tournament (3-4-5th March), that
+my experience at the 4Seasons Spring Tournament (March 3rd, 4th and 5th), that
 culminated with a top8 at the Legacy main event.
 
 Let's start with this: I wasn't even convinced that I was going to play in
@@ -16,7 +16,7 @@ either of the Legacy events. The Legacy metagame wasn't at its best and I wasn't
 exactly looking forward to a tournament filled with Reanimator and Chalice
 decks.
 
-Fortunately, the 4 Seasons is more than a simple MtG tournament. It's an event
+Fortunately, the 4Seasons is more than a simple MtG tournament. It's an event
 where you get to meet both new people and friends that you don't get to see
 often. Worst case scenario I'd hang around the tournament hall, spend some money
 on cards that I don't actually need and have dinner at the _Mulino Bruciato_.
@@ -223,7 +223,7 @@ Matches 4-2
 Not a terrible result, and I got some practice for the main event.
 
 The main event of Saturday is dinner at the _Mulino Bruciato_, which is a
-highlight of our saturdays at the 4 Seasons Tournament. We booked a table for
+highlight of our saturdays at the 4Seasons Tournament. We booked a table for
 20-something people and it was a ton of fun. As a wheat-intolerant person I
 couldn't eat any of the pasta based dishes, but at the Mulino they have this
 amazing Tagliata Fredda (Sliced beef cooked and marinated for quite some time,
