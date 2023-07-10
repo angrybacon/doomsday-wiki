@@ -39,10 +39,10 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
     <>
       <ListItemButton
         ref={ref}
+        selected={rest.href === asPath}
         sx={({ transitions }) => ({
           '> svg': { transition: transitions.create('transform') },
         })}
-        selected={rest.href === asPath}
         {...rest}
         {...(hasPages && { onClick: onToggle })}
       >
@@ -64,18 +64,14 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
             sx={{ backgroundColor: 'background.default' }}
           >
             {pages.map(({ category, matter, route, slug }) => (
-              <NextLink href={route} key={`page-${route}`} passHref>
-                <ListItemButton
-                  component="a"
-                  selected={
-                    isOpen &&
-                    category === routeCategory &&
-                    slug === routeChapter
-                  }
-                >
-                  <ListItemText primary={matter?.title || route} />
-                </ListItemButton>
-              </NextLink>
+              <ListItemButton
+                component={NextLink}
+                href={route}
+                key={`page-${route}`}
+                selected={category === routeCategory && slug === routeChapter}
+              >
+                <ListItemText primary={matter?.title || route} />
+              </ListItemButton>
             ))}
           </List>
           <Divider />

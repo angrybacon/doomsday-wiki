@@ -49,7 +49,7 @@ See [[#environment-variables][#Environment Variables]] to disable the mocks.
 A number of variables are pre-configured for you in =.env.development=:
 
 - =SCRYFALL_MOCKS= ::
-  Whether the development server should mock queries to api.scryfall.com. This
+  Whether the development server should mock queries to =api.scryfall.com=. This
   allows offline development and reduce unnecessary hits on Scryfall's API since
   card data is fetched during the build.
 

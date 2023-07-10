@@ -10,6 +10,9 @@ _Wizard of the Coast_ or their respective artist for older sets. For cropped
 arts where the artist line of a card is not visible, the artists are mentioned
 in the accessible text.
 
+Phyrexian scripture and the corresponding unofficial font assets were provided
+from the work of [Stas][stas].
+
 All original code for the Wiki is available under the terms of the [MIT
 license][code:license]. For more information about the underlying code, refer to
 the [GitHub repository][code:repository].
@@ -29,5 +32,6 @@ adapted from one icon to another.
 [icons:mdi]: https://pictogrammers.com/library/mdi/
 [icons:simple-icons]: https://simpleicons.org
 [scryfall:api]: https://scryfall.com/docs/api
+[stas]: http://stas.tk/
 [wiki:license]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 [wizards:fcp]: https://company.wizards.com/en/legal/fancontentpolicy
