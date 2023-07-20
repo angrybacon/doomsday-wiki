@@ -39,8 +39,8 @@ export const Banner: FunctionComponent<Props> = ({
       >
         <Image
           alt={banner.title}
-          blurDataURL={banner.thumbnail}
-          layout="fill"
+          blurDataURL={banner.artThumbnail}
+          fill
           placeholder="blur"
           priority
           src={banner.art}

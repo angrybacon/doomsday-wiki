@@ -54,8 +54,9 @@ export interface ScryCard {
   flavor: string | null;
   images: {
     art: string | null;
+    /** Image as a Data URL. */
+    artThumbnail: string | null;
     full: string | null;
-    thumbnail: string | null;
   };
   name: string;
   setCode: string;

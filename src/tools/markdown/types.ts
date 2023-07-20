@@ -5,8 +5,8 @@ import type { Scries } from '@/tools/scryfall/types';
 
 export interface Banner {
   art: string;
+  artThumbnail: string;
   flavor: string | null;
-  thumbnail: string;
   title: string;
 }
 

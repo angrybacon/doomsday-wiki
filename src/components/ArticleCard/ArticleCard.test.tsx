@@ -11,7 +11,12 @@ describe(ArticleCard.name, () => {
 
   beforeEach(() => {
     props = {
-      banner: { art: '', flavor: null, title: '' },
+      banner: {
+        art: '',
+        artThumbnail: '',
+        flavor: null,
+        title: '',
+      },
       date: null,
       day: '23',
       matter: {
@@ -40,7 +45,8 @@ describe(ArticleCard.name, () => {
   it('should render the banner as background', () => {
     // Given
     props.banner = {
-      art: 'protocol://domain.tld/path/to/resource',
+      art: 'protocol://domain.tld/path/to/art',
+      artThumbnail: 'protocol://domain.tld/path/to/thumbnail',
       flavor: null,
       title: 'Banner title',
     };
