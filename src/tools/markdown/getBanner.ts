@@ -6,9 +6,9 @@ import type { ScryCard, ScryData } from '@/tools/scryfall/types';
 /** Fetch the artwork for a given Scryfall query. */
 export const getBanner = async (query: string): Promise<Banner> => {
   const data: ScryData = await scry(query);
-  const faces: ScryCard[] = await readFaces(data, { withThumbnail: true });
+  const faces: ScryCard[] = await readFaces(data, { withPreview: true });
   const { artist, flavor, images, name } = faces[0] || {};
-  const { art, artThumbnail } = images || {};
+  const { art, artPreview: artThumbnail } = images || {};
   if (!art || !artThumbnail) {
     throw new Error(`Missing card art for banner "${name}"`);
   }

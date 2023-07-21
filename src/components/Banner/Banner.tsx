@@ -32,7 +32,6 @@ export const Banner: FunctionComponent<Props> = ({
         role="presentation"
         sx={{
           height: { xs: 190, md: 280 },
-          img: { filter: 'blur(4px)', objectFit: 'cover' },
           overflow: 'hidden',
           position: 'relative',
         }}
@@ -44,6 +43,9 @@ export const Banner: FunctionComponent<Props> = ({
           placeholder="blur"
           priority
           src={banner.art}
+          // NOTE The fit property has to be set directly on the image element
+          //      for the behavior to be propagated to the blur preview.
+          style={{ filter: 'blur(4px)', objectFit: 'cover' }}
         />
       </Box>
       <Box

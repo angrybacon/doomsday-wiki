@@ -29,7 +29,6 @@ export const NAMED = {
     large: '/mocks/doomsday.wth.large.jpg',
     normal: '/mocks/doomsday.wth.normal.jpg',
     png: '/mocks/doomsday.wth.png.png',
-    small: '/mocks/doomsday.wth.small.jpg',
   },
   keywords: [],
   legalities: {
