@@ -5,7 +5,7 @@ import { getPlaiceholder } from 'plaiceholder';
 const makePreview = async (url: string): Promise<string> => {
   const response = await fetch(url);
   const buffer = Buffer.from(await response.arrayBuffer());
-  const { base64 } = await getPlaiceholder(buffer, { size: 64 });
+  const { base64 } = await getPlaiceholder(buffer, { size: 32 });
   return base64;
 };
 
