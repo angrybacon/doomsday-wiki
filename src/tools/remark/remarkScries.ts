@@ -26,11 +26,13 @@ export const remarkScries: Plugin<[], Root, Scries> =
       const directive = node as ContainerDirective;
       const text = select('text', directive) as Text;
       text.value.split('\n').forEach((query) => {
-        const promise: Promise<ScryData> = scry(query).then((response) => {
-          const cards: ScryCard[] = readFaces(response);
-          scries[query] = cards;
-          return response;
-        });
+        const promise: Promise<ScryData> = scry(query).then(
+          async (response) => {
+            const cards: ScryCard[] = await readFaces(response);
+            scries[query] = cards;
+            return response;
+          }
+        );
         promises.push(promise);
       });
     });

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { FunctionComponent } from 'react';
 import { Box, Divider, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
@@ -30,11 +31,23 @@ export const Banner: FunctionComponent<Props> = ({
       <Box
         role="presentation"
         sx={{
-          background: `url(${banner.art}) center / cover no-repeat`,
-          filter: 'blur(2px)',
           height: { xs: 190, md: 280 },
+          overflow: 'hidden',
+          position: 'relative',
         }}
-      />
+      >
+        <Image
+          alt={banner.title}
+          blurDataURL={banner.artThumbnail}
+          fill
+          placeholder="blur"
+          priority
+          src={banner.art}
+          // NOTE The fit property has to be set directly on the image element
+          //      for the behavior to be propagated to the blur preview.
+          style={{ filter: 'blur(4px)', objectFit: 'cover' }}
+        />
+      </Box>
       <Box
         sx={({ palette }) => ({
           alignItems: 'center',

@@ -13,7 +13,6 @@ interface ScryDataItemImages {
   large: string;
   normal: string;
   png: string;
-  small: string;
 }
 
 /**
@@ -54,6 +53,8 @@ export interface ScryCard {
   flavor: string | null;
   images: {
     art: string | null;
+    /** Preview image as a Data URL. */
+    artPreview: string | null;
     full: string | null;
   };
   name: string;

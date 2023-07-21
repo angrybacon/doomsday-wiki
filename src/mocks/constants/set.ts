@@ -32,7 +32,6 @@ export const SET = {
     large: '/mocks/duress.sta.large.jpg',
     normal: '/mocks/duress.sta.normal.jpg',
     png: '/mocks/duress.sta.png.png',
-    small: '/mocks/duress.sta.small.jpg',
   },
   keywords: [],
   lang: 'ja',
