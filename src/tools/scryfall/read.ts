@@ -14,7 +14,7 @@ const readFirstResult = (data: ScryData): ScryDataItem =>
 /** A single card can have multiple faces. */
 export const readFaces = async (
   data: ScryData,
-  options?: { withPreview: boolean }
+  options?: { withPreview: boolean },
 ): Promise<ScryCard[]> => {
   const { withPreview } = { withPreview: false, ...options };
   const card: ScryDataItem = readFirstResult(data);

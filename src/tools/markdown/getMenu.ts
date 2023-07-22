@@ -16,7 +16,7 @@ export const getMenu = (): MenuEntry[] => {
       (accumulator[category] as ChapterCard[]).push(card);
       return accumulator;
     },
-    {}
+    {},
   );
   return DECORATIONS.map(({ category, subtitle, title }) => {
     const pages = menu[category];

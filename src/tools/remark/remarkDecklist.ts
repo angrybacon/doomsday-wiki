@@ -23,7 +23,7 @@ export const remarkDecklist: Plugin<[{ decklists: Decklists }]> =
           ...directive.data,
           hProperties: {
             ...(directive.data?.hProperties as Record<string, unknown>),
-            ...decklists[path],
+            decklist: decklists[path],
           },
         };
       } else {

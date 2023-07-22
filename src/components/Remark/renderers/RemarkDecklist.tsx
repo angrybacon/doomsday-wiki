@@ -7,12 +7,11 @@ import type {
 } from '@/tools/decklists/types';
 
 interface Props extends ReactMarkdownProps {
-  node: ReactMarkdownProps['node'] & {
-    properties: DecklistModel & DecklistExtra;
-  };
+  decklist?: DecklistModel & DecklistExtra;
 }
 
-export const RemarkDecklist: FunctionComponent<Props> = ({ node }) => {
+export const RemarkDecklist: FunctionComponent<Props> = ({ decklist }) => {
+  if (!decklist) return null;
   const {
     authors,
     colors,
@@ -23,8 +22,7 @@ export const RemarkDecklist: FunctionComponent<Props> = ({ node }) => {
     sideCount,
     title,
     titleAsFile,
-  } = node.properties;
-  if (!main) return null;
+  } = decklist;
   return (
     <Decklist
       authors={authors}

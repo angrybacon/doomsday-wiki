@@ -3,14 +3,10 @@ import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Box } from '@mui/material';
 
 interface Props extends ReactMarkdownProps {
-  node: ReactMarkdownProps['node'] & {
-    properties: { id?: string };
-  };
+  id?: string;
 }
 
-export const RemarkYoutube: FunctionComponent<Props> = ({ node }) => {
-  const { id } = node.properties;
-
+export const RemarkYoutube: FunctionComponent<Props> = ({ id }) => {
   if (!id) return null;
 
   const allow = [

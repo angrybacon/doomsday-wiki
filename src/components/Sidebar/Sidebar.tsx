@@ -18,7 +18,7 @@ import { darkTheme } from '@/theme/theme';
 import type { MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
-  category: string;
+  category: string | undefined;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;

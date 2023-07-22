@@ -171,7 +171,7 @@ const customizeTheme = (options: ThemeOptions): Theme => {
         h5: { fontSize: typography.pxToRem(26) },
         h6: { fontSize: typography.pxToRem(22) },
       },
-    })
+    }),
   );
 };
 

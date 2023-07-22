@@ -6,7 +6,7 @@ import { toArray } from '@/tools/mana/toArray';
  * It usually looks like this:
  */
 export const parseHeader = (
-  text: string
+  text: string,
 ): {
   authors: string | null;
   colors: string[] | null;

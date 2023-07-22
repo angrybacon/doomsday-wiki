@@ -21,7 +21,7 @@ describe(walk.name, () => {
           'c.d/d/e/f.md': '',
           'empty.d': null,
         },
-        '/'
+        '/',
       );
     });
 
@@ -72,7 +72,7 @@ describe(walk.name, () => {
           'b/c/d.txt': '',
           'c.d/d/e/f.md': '',
         },
-        '/'
+        '/',
       );
     });
 
@@ -113,7 +113,7 @@ describe(walk.name, () => {
           'b/c/d.txt': '',
           'c.d/d/e/f.md': '',
         },
-        '/'
+        '/',
       );
     });
 

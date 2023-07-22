@@ -8,7 +8,7 @@
 export const formatDate = (
   year?: string,
   month?: string,
-  day?: string
+  day?: string,
 ): string | null => {
   if (!year) return null;
   // NOTE Replace missing parts with the first month or day to still have a
@@ -16,7 +16,7 @@ export const formatDate = (
   const date = new Date(
     parseInt(year, 10),
     month ? parseInt(month, 10) - 1 : 0,
-    day ? parseInt(day, 10) : 1
+    day ? parseInt(day, 10) : 1,
   );
   const isCurrentYear = new Date().getFullYear() === parseInt(year, 10);
   return date.toLocaleDateString(undefined, {

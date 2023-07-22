@@ -13,7 +13,7 @@ describe(ArticleCard.name, () => {
     props = {
       banner: {
         art: '',
-        artThumbnail: '',
+        artPreview: '',
         flavor: null,
         title: '',
       },
@@ -46,7 +46,7 @@ describe(ArticleCard.name, () => {
     // Given
     props.banner = {
       art: 'protocol://domain.tld/path/to/art',
-      artThumbnail: 'protocol://domain.tld/path/to/thumbnail',
+      artPreview: 'protocol://domain.tld/path/to/preview',
       flavor: null,
       title: 'Banner title',
     };

@@ -15,7 +15,7 @@ export const sanitizeArticleKind: Sanitizer<Kind> = (value) => {
   if (!kinds.includes(value)) {
     const options = `['${kinds.join("', '")}']`;
     throw new Error(
-      `Invalid 'kind' property. Expected one of: ${options}, got "${value}" instead`
+      `Invalid 'kind' property. Expected one of: ${options}, got "${value}" instead`,
     );
   }
   return Kind[value as keyof typeof Kind];
@@ -31,7 +31,7 @@ export const sanitizeArticleTags: Sanitizer<Tag[]> = (value) => {
       if (!tags.includes(tag)) {
         const options = `['${tags.join("', '")}']`;
         throw new Error(
-          `Invalid 'tags' property. Expected one ${options}, got "${tag}" instead`
+          `Invalid 'tags' property. Expected one ${options}, got "${tag}" instead`,
         );
       }
       return tag;

@@ -60,12 +60,12 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
           (error) => {
             const message = `Failed to scry banner "${matter.banner}" (${error})`;
             throw new Error(message);
-          }
-        )
+          },
+        ),
       );
       return [...accumulator, card];
     },
-    []
+    [],
   );
   await Promise.all(banners);
   return cards as ArticleCard[];

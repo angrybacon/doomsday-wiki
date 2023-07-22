@@ -17,7 +17,7 @@ const remarkWithChildren = (directive: Node & ContainerDirective): void => {
 
 const remarkWithPartial = (
   directive: Node & LeafDirective,
-  { decklists, partials }: { decklists: Decklists; partials: Partials }
+  { decklists, partials }: { decklists: Decklists; partials: Partials },
 ): void => {
   const path = directive.attributes?.path;
   if (!path) {

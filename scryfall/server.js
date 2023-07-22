@@ -46,5 +46,5 @@ const PORT = '3333';
 http
   .createServer(handler)
   .listen(PORT, HOST, () =>
-    console.info(`Cache server is running on http://${HOST}:${PORT}`)
+    console.info(`Cache server is running on http://${HOST}:${PORT}`),
   );

@@ -22,7 +22,7 @@ const API = {
 const getApi = (
   name: string,
   set?: string,
-  collectorNumber?: string
+  collectorNumber?: string,
 ): [api: string, parameters: string] => {
   if (set && collectorNumber) {
     return [`${API.SET}/${set.toLowerCase()}/${collectorNumber}`, ''];

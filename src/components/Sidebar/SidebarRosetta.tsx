@@ -14,7 +14,7 @@ import { getRosetta } from '@/tools/game/getRosetta';
 import type { Rosetta } from '@/tools/game/getRosetta';
 
 interface Props {
-  category: string;
+  category: string | undefined;
   sx?: SxProps<Theme>;
 }
 
