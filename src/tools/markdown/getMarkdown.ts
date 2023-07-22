@@ -1,4 +1,3 @@
-import type { Root } from 'mdast';
 import { join } from 'path';
 import readingTime from 'reading-time';
 import remarkDirective from 'remark-directive';
@@ -26,25 +25,6 @@ import { remarkPartials } from '@/tools/remark/remarkPartials';
 import { remarkScries } from '@/tools/remark/remarkScries';
 import type { Scries } from '@/tools/scryfall/types';
 
-/** Parse buffer as Markdown text and return all partials necessary for it. */
-const makePartials = async (tree: Root): Promise<Partials> => {
-  const partials = await unified()
-    // NOTE Provide the getter as a callback to avoid circular imports
-    .use(remarkPartials, getPartial)
-    .run(tree);
-  return partials as unknown as Partials;
-};
-
-/** Parse buffer as Markdown text and return Scry data from directives. */
-const makeScries = async (tree: Root): Promise<Scries> => {
-  const scries = await unified().use(remarkScries).run(tree);
-  return scries as unknown as Scries;
-};
-
-/** Forge a `unified` tree ready to be parsed by remarkers. */
-const makeTree = (buffer: string): Root =>
-  unified().use(remarkParse).use(remarkDirective).parse(buffer);
-
 /**
  * Read file system and return Markdown content with its matter for the
  * specified path. Provided path should be relative to `BASE_MARKDOWN_URL` but
@@ -55,10 +35,13 @@ const getMarkdown = async (
   root: string = BASE_MARKDOWN_URL,
 ): Promise<{ base: Partial; extra: Record<string, unknown> }> => {
   const { content, data } = readMarkdown(join(root, path) + MARKDOWN_EXTENSION);
-  const tree: Root = makeTree(content);
+  const tree = unified().use(remarkParse).use(remarkDirective).parse(content);
   const base: Partial = {
-    partials: await makePartials(tree),
-    scries: await makeScries(tree),
+    partials: (await unified()
+      // NOTE Provide the getter as a callback to avoid circular imports
+      .use(remarkPartials, getPartial)
+      .run(tree)) as unknown as Partials,
+    scries: (await unified().use(remarkScries).run(tree)) as unknown as Scries,
     text: toDirective(content),
   };
   return { base, extra: data };

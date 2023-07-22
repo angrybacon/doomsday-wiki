@@ -1,4 +1,4 @@
-import type { Directive } from 'mdast-util-directive';
+import type { Directives } from 'mdast-util-directive';
 import type { Plugin } from 'unified';
 import type { Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
@@ -10,7 +10,7 @@ import { Test, visit } from 'unist-util-visit';
 export const remarkBase: Plugin = () => (tree) => {
   const tests: Test = ['containerDirective', 'leafDirective', 'textDirective'];
   visit<Node, Test>(tree, tests, (node) => {
-    const directive = node as Node & Directive;
+    const directive = node as Node & Directives;
     directive.data = {
       ...directive.data,
       hName: directive.name,

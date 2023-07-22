@@ -35,16 +35,19 @@ const variantStyles: Record<
 };
 
 interface Props extends ReactMarkdownProps {
+  variant?: string;
   node: ReactMarkdownProps['node'] & {
     properties: {
-      cards: { data: ScryCard[]; id?: string }[];
-      variant?: string;
+      cards?: { data: ScryCard[]; id?: string }[];
     };
   };
 }
 
-export const RemarkRow: FunctionComponent<Props> = ({ node }) => {
-  const { cards = [], variant } = node.properties;
+export const RemarkRow: FunctionComponent<Props> = ({ node, variant }) => {
+  // NOTE We retrieve cards from the Hast properties which support complex
+  //      objects as opposed to inline properties which get converted to a
+  //      string of `[object Object] [object Object] ...`.
+  const { cards = [] } = node.properties;
   const variantKey = variant as keyof typeof VARIANTS;
   const variantStyle = VARIANTS[variantKey] || VARIANTS.CENTERED;
   return (

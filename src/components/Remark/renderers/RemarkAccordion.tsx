@@ -22,15 +22,13 @@ import type { Partial } from '@/tools/markdown/types';
 //      Remark -> Remark/constants -> RemarkAccordion -> Remark
 
 interface Props extends ReactMarkdownProps {
-  decklists: Decklists;
+  decklists?: Decklists;
   partial?: Partial;
 }
 
-// TODO Make a re-usable accordion component for the decklists as well
-
 export const RemarkAccordion: FunctionComponent<Props> = ({
   children: [title, ...content] = [],
-  decklists,
+  decklists = {},
   partial,
 }) => (
   <Accordion

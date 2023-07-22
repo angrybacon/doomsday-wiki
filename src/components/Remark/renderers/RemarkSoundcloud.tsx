@@ -3,13 +3,10 @@ import { Box } from '@mui/material';
 import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 
 interface Props extends ReactMarkdownProps {
-  node: ReactMarkdownProps['node'] & {
-    properties: { url?: string };
-  };
+  url?: string;
 }
 
-export const RemarkSoundcloud: FunctionComponent<Props> = ({ node }) => {
-  const { url } = node.properties;
+export const RemarkSoundcloud: FunctionComponent<Props> = ({ url }) => {
   if (!url) return null;
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
