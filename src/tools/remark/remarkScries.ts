@@ -31,7 +31,7 @@ export const remarkScries: Plugin<[], Root, Scries> =
             const cards: ScryCard[] = await readFaces(response);
             scries[query] = cards;
             return response;
-          }
+          },
         );
         promises.push(promise);
       });

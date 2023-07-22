@@ -3,13 +3,14 @@ import type { Rosetta } from '@/tools/game/getRosetta';
 import { Category } from '@/tools/markdown/constants/Category';
 
 describe(getRosetta.name, () => {
-  const tests: [category: Category, ok: string, ko: string][] =
+  const tests: [category: Category | undefined, ok: string, ko: string][] =
     // prettier-ignore
     [
       [Category.APPENDICES, 'Brainstorm',     'Consider'],
       [Category.DDFT,       'Echo of Eons',   'Predict'],
       [Category.DDEFT,      'Act on Impulse', 'Echo of Eons'],
       [Category.MEANDECK,   'Predict',        'Manamorphose'],
+      [undefined,           'Brainstorm',     'Consider'],
     ];
 
   it.each(tests)(
@@ -20,6 +21,6 @@ describe(getRosetta.name, () => {
       // Then
       expect(rosetta.find(([, name]) => name === ok)).toBeTruthy();
       expect(rosetta.find(([, name]) => name === ko)).toBeFalsy();
-    }
+    },
   );
 });

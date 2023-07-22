@@ -7,7 +7,7 @@ import type { Card } from '@/tools/decklists/types';
  * order to accomodate for multi-column rendering.
  */
 export const parseCards = (
-  text: string
+  text: string,
 ): { cards: Card[][]; count: number } => {
   let count = 0;
   const cards: Card[][] = text
@@ -20,7 +20,7 @@ export const parseCards = (
         const quantityValue = parseInt(quantity, 10);
         count += quantityValue;
         return [quantityValue, name];
-      })
+      }),
     );
   return { cards, count };
 };

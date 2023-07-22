@@ -7,7 +7,7 @@ import { Box, CircularProgress, Typography } from '@mui/material';
 type CreateTweet = (
   id: string,
   anchor: Element,
-  options: { align: string; dnt: boolean; theme: string }
+  options: { align: string; dnt: boolean; theme: string },
 ) => Promise<Element>;
 
 declare global {

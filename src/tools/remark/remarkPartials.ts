@@ -33,7 +33,7 @@ export const remarkPartials: Plugin<
           },
           (error) => {
             throw error;
-          }
+          },
         );
         promises.push(promise);
       }

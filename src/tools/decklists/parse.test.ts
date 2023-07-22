@@ -65,7 +65,7 @@ describe(parse.name, () => {
         mainCount: 2,
         side: 'SIDE',
         sideCount: 4,
-      })
+      }),
     );
   });
 });

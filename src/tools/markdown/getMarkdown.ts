@@ -52,7 +52,7 @@ const makeTree = (buffer: string): Root =>
  */
 const getMarkdown = async (
   path: string,
-  root: string = BASE_MARKDOWN_URL
+  root: string = BASE_MARKDOWN_URL,
 ): Promise<{ base: Partial; extra: Record<string, unknown> }> => {
   const { content, data } = readMarkdown(join(root, path) + MARKDOWN_EXTENSION);
   const tree: Root = makeTree(content);

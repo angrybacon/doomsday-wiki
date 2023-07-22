@@ -15,7 +15,7 @@ export const handlers: RestHandler<MockedRequest>[] = [
       card.name = name || card.name;
       card.set = set || card.set;
       return response(context.json(card));
-    }
+    },
   ),
 
   rest.get<ScryDataList>(
@@ -28,7 +28,7 @@ export const handlers: RestHandler<MockedRequest>[] = [
         card.data[0].name = name || query;
       }
       return response(context.json(card));
-    }
+    },
   ),
 
   rest.get<ScryDataItem>(
@@ -39,6 +39,6 @@ export const handlers: RestHandler<MockedRequest>[] = [
       const name = `${set.toUpperCase()}#${number}`;
       const card: ScryDataItem = { ...SET, name };
       return response(context.json(card));
-    }
+    },
   ),
 ];

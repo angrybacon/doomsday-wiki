@@ -14,5 +14,5 @@ const COLORLESS = '[0-9]|1[0-9]|20|C|X|Y|Z';
  */
 export const MANA_RE = new RegExp(
   `{(S|(?:${MANA}P?)|(?:2?${MANA})|${PAIRS}|${COLORLESS})}`,
-  'g'
+  'g',
 );

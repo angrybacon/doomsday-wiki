@@ -30,7 +30,7 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
 
   const showMore = (count?: number) => () =>
     setSize((previous) =>
-      count === undefined ? articles.length : previous + count
+      count === undefined ? articles.length : previous + count,
     );
 
   useEffect(() => {

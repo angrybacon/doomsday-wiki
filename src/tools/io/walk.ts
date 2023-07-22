@@ -16,7 +16,7 @@ interface WalkOptions {
 function* walkIterator(
   directory: string,
   options: WalkOptions = {},
-  accumulator: string[] = []
+  accumulator: string[] = [],
 ): Generator<string[], void> {
   const { depth, extension } = options;
   if (accumulator.length === depth) return;

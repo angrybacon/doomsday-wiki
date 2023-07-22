@@ -38,7 +38,7 @@ const SandboxPage: NextPage<Props> = ({ menu }) => {
         if (!value.length) return accumulator;
         return [...accumulator, { id, text: value.replace(/ +/g, ',') }];
       },
-      []
+      [],
     );
     setOutput(result);
   }, [input]);
@@ -96,7 +96,7 @@ const SandboxPage: NextPage<Props> = ({ menu }) => {
                     >
                       |{scripture.text}.
                     </Box>
-                  )
+                  ),
               )
             ) : (
               <Typography color="text.secondary" sx={{ fontStyle: 'italic' }}>

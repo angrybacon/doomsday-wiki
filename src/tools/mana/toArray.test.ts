@@ -39,6 +39,6 @@ describe(toArray.name, () => {
       const output = toArray(input);
       // Then
       expect(output).toStrictEqual(colors);
-    }
+    },
   );
 });
