@@ -1,4 +1,4 @@
-import type { FunctionComponent, ReactNode } from 'react';
+import { useEffect, type FunctionComponent, ReactNode } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
@@ -20,12 +20,15 @@ import { remarkRow } from '@/tools/remark/remarkRow';
 interface Props {
   decklists: Decklists;
   markdown: Partial;
+  /** Whether the component should scroll to the current anchor. */
+  withScroll?: boolean;
   withWrapper?: boolean;
 }
 
 export const Remark: FunctionComponent<Props> = ({
   decklists,
   markdown,
+  withScroll = true,
   withWrapper = true,
 }) => {
   const { partials, scries, text } = markdown;
@@ -61,6 +64,16 @@ export const Remark: FunctionComponent<Props> = ({
       {text}
     </ReactMarkdown>
   );
+
+  useEffect(() => {
+    if (withScroll) {
+      const { hash } = window.location;
+      if (hash) {
+        const element = document.getElementById(hash.substring(1));
+        setTimeout(() => element?.scrollIntoView(), 700);
+      }
+    }
+  }, [withScroll]);
 
   return withWrapper ? (
     <Box

@@ -1,11 +1,11 @@
+import { join } from 'path';
+import { ParsedUrlQuery } from 'querystring';
 import type {
   GetStaticPaths,
   GetStaticPathsResult,
   GetStaticProps,
   NextPage,
 } from 'next';
-import { join } from 'path';
-import { ParsedUrlQuery } from 'querystring';
 import { Card, CardContent } from '@mui/material';
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
