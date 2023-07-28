@@ -22,7 +22,7 @@ interface Props extends ReactMarkdownProps {
 
 export const RemarkTweet: FunctionComponent<Props> = ({ id }) => {
   const [hasError, setHasError] = useState<boolean>(false);
-  const [height, setHeight] = useState<number>(400);
+  const [height, setHeight] = useState<number>(700);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const tweet = useRef<HTMLDivElement>(null);
   const { inView, ref: root } = useInView({
@@ -39,9 +39,9 @@ export const RemarkTweet: FunctionComponent<Props> = ({ id }) => {
       window.twttr.widgets
         .createTweet(id, tweet.current, options)
         .then(() => {
-          const height = tweet.current?.clientHeight ?? 0;
-          if (height) {
-            setHeight(height);
+          const value = tweet.current?.clientHeight ?? 0;
+          if (value) {
+            setHeight((previous) => Math.max(value, previous));
           } else {
             setHasError(true);
           }
@@ -62,6 +62,7 @@ export const RemarkTweet: FunctionComponent<Props> = ({ id }) => {
         display: 'flex',
         height,
         justifyContent: 'center',
+        minHeight: height,
         overflow: 'hidden',
         position: 'relative',
         transition: ({ transitions }) => transitions.create('height'),
@@ -72,7 +73,6 @@ export const RemarkTweet: FunctionComponent<Props> = ({ id }) => {
           <Box
             ref={tweet}
             sx={{
-              alignSelf: 'flex-start',
               width: '100%',
               '& > *': { mb: '0!important', mt: '0!important' },
             }}
