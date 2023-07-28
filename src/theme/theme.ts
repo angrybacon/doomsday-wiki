@@ -96,7 +96,12 @@ const customizeTheme = (options: ThemeOptions): Theme => {
         MuiCssBaseline: {
           styleOverrides: {
             blockquote: { margin: 0 },
-            '#__next, html, body': { height: '100%', fontSize: 18 },
+            '#__next, html, body': {
+              height: '100%',
+              fontSize: 18,
+              scrollBehavior: 'smooth',
+              scrollPadding: spacing(2),
+            },
             em: {
               fontDisplay: 'swap',
               fontFamily: 'Libre Baskerville, serif',

@@ -1,5 +1,5 @@
-import type { ScryCard, ScryDataItem } from '@/tools/scryfall/types';
 import { getPlaiceholder } from 'plaiceholder';
+import type { ScryCard, ScryDataItem } from '@/tools/scryfall/types';
 
 /** Make a `plaiceholder` preview for the provided image URL. */
 const makePreview = async (url: string): Promise<string> => {

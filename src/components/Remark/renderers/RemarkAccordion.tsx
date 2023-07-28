@@ -64,7 +64,12 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
     >
       {content}
       {partial && (
-        <Remark decklists={decklists} markdown={partial} withWrapper={false} />
+        <Remark
+          decklists={decklists}
+          markdown={partial}
+          withScroll={false}
+          withWrapper={false}
+        />
       )}
     </AccordionDetails>
   </Accordion>

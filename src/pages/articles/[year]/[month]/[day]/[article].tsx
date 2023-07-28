@@ -1,11 +1,11 @@
+import { join } from 'path';
+import { ParsedUrlQuery } from 'querystring';
 import type {
   GetStaticPaths,
   GetStaticPathsResult,
   GetStaticProps,
   NextPage,
 } from 'next';
-import { join } from 'path';
-import { ParsedUrlQuery } from 'querystring';
 import { Card, CardContent, Divider } from '@mui/material';
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
@@ -45,7 +45,7 @@ const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
       </CardContent>
       <Divider />
       <CardContent>
-        <Remark decklists={decklists} markdown={footer} />
+        <Remark decklists={decklists} markdown={footer} withScroll={false} />
       </CardContent>
     </Card>
   </Layout>
