@@ -43,4 +43,4 @@ initial queries you might have. Peruse the Wiki, read some of the articles and
 come visit us in the [Discord][discord].
 
 [faq]: /appendices/faq
-[discord]: https://discord.gg/vajvFXt
+[discord]: /discord

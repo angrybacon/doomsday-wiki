@@ -427,7 +427,7 @@ I'll get back as soon as I can. Thanks :)
 > Editor's note: This was original posted [here][everything-doomsday] by
 > Jacobisboss and permission granted to reformat and post on the Wiki. If anyone
 > else has any Doomsday submissions they would like hosted, please drop us a
-> message on the [Doomsday Discord](https://discord.gg/vajvFXt).
+> message on the [Doomsday Discord](/discord).
 >
 > Thank you Jacob and his co-authors for the great article and thank-you for
 > reading.

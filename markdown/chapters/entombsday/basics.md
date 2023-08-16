@@ -85,5 +85,5 @@ Doomsday in the [Doomsday Discord server][discord:doomsday]
 [primer:acclimation]: https://docs.google.com/document/d/1OVDfdg3ytFoK4jvBVchSDP_upLL8yS4BZSDL32vIkDQ
 [primer:mtgthesource]: https://www.mtgthesource.com/forums/showthread.php?24104-Deck-TinFins-3-Return-of-the-Onion-Burst
 [primer:walked]: https://docs.google.com/document/d/1fJ7TimhdHG-2dwfwkie6jgDcZSl1eFD73QxBd_KQ86c
-[discord:doomsday]: https://discord.gg/vajvFXt
+[discord:doomsday]: /discord
 [discord:sealab]: https://discord.gg/m6z2eqp

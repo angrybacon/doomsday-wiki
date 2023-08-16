@@ -679,4 +679,4 @@ Now you have considered how to build your main deck, next chapter will explore
 the principles behind sideboard card choices and the ideas to follow for
 facing off against different archetypes.
 
-[discord]: https://discord.gg/vajvFXt
+[discord]: /discord
