@@ -8,8 +8,6 @@ import type { Theme } from '@mui/material/styles';
 import type { SxProps } from '@mui/system';
 import { ThemeContext } from '@/theme/ThemeContext';
 
-const DISCORD_URL = 'https://discord.gg/vajvFXt';
-
 interface Props {
   onClose: () => void;
   sx?: SxProps<Theme>;
@@ -49,11 +47,14 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
         }}
       >
         <Tooltip arrow title="Join our Discord server">
-          <a href={DISCORD_URL} rel="noopener noreferrer" target="_blank">
-            <IconButton size="large">
-              <Icon path={siDiscord.path} size={0.7} />
-            </IconButton>
-          </a>
+          <IconButton
+            component={NextLink}
+            href="/discord"
+            size="large"
+            target="_blank"
+          >
+            <Icon path={siDiscord.path} size={0.7} />
+          </IconButton>
         </Tooltip>
         <Tooltip arrow title={`Switch to ${isDark ? 'light' : 'dark'} theme`}>
           <IconButton onClick={onThemeToggle} size="large">
