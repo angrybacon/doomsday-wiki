@@ -1,6 +1,6 @@
 import type { ScryDataItem, ScryDataList } from '@/tools/scryfall/types';
 
-export const SEARCH = {
+export const SEARCH: ScryDataList = {
   /* eslint-disable camelcase */
   data: [
     {
@@ -237,7 +237,9 @@ export const SEARCH = {
     } as ScryDataItem,
   ],
   has_more: false,
+  next_page: null,
   object: 'list',
   total_cards: 2,
+  warnings: null,
   /* eslint-enable camelcase */
-} as ScryDataList;
+};

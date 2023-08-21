@@ -45,10 +45,14 @@ const getApi = (
  * querying twice for the same name and set pair.
  */
 export const scry = async (query: string): Promise<ScryData> => {
-  const [name, set, collectorNumber] = query.split('|').map((it) => it.trim());
-  const realName: string = getCard(name).name;
-  const realSet: string | undefined = set || SETS[realName];
-  const [api, parameters] = getApi(realName, realSet, collectorNumber);
+  const [name, set, collectorNumber] = query.split('|');
+  const realName = getCard(name.trim()).name;
+  const realSet = set || SETS[realName];
+  const [api, parameters] = getApi(
+    realName,
+    realSet?.trim(),
+    collectorNumber?.trim(),
+  );
   const path = `${api}?${parameters}`;
   const response = await fetch(path);
   if (!response.ok) {

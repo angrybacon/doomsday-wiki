@@ -7,7 +7,7 @@ export const DECKLISTS_EXTENSION = '.txt';
 export const BASE_DECKLISTS_URL = join(process.cwd(), 'decklists');
 
 /** Collection of regular expression used to parse a decklist file. */
-export const DECK_RE: Record<string, RegExp> = {
+export const DECK_RE = {
   card: /(\d+) +(.+)\b */,
   decklist:
     /\n*((?:\/\/.*\n+)+)?\n*((?:[^/].+\n*)+)\n*(?:\/\/ Sideboard\n+((?:.+\n*)+)\n*)?/,
@@ -15,4 +15,4 @@ export const DECK_RE: Record<string, RegExp> = {
   header:
     /(?:\/\/ Title: +(.+))(?:\n+\/\/ Authors: +(.+))?(?:\n+\/\/ Colors: +(.+))?/,
   line: /\d+[^\n]+/g,
-};
+} as const;

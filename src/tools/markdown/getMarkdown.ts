@@ -7,7 +7,7 @@ import { readMarkdown } from '@/tools/io/readMarkdown';
 import { toDirective } from '@/tools/mana/toDirective';
 import {
   BASE_MARKDOWN_URL,
-  BASE_PARTIALS_URL,
+  BASE_URLS,
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
@@ -89,7 +89,7 @@ export const getChapter = async (path: string): Promise<Chapter> => {
 /** Read Mardown content under the provided `path`. */
 export const getPartial = async (path: string): Promise<Partial> => {
   try {
-    const { base } = await getMarkdown(path, BASE_PARTIALS_URL);
+    const { base } = await getMarkdown(path, BASE_URLS.PARTIAL);
     return base;
   } catch (error) {
     const message = error instanceof Error ? error.message : `${error}`;

@@ -8,7 +8,7 @@ import type { ChapterCard, MenuEntry } from '@/tools/markdown/types';
  * respective categories.
  */
 export const getMenu = (): MenuEntry[] => {
-  const cards: ChapterCard[] = getChapterCards();
+  const cards = getChapterCards();
   const menu = cards.reduce<Partial<Record<Category, ChapterCard[]>>>(
     (accumulator, card) => {
       const { category } = card;
