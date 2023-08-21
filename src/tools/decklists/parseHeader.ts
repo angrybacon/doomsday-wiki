@@ -14,7 +14,7 @@ export const parseHeader = (
 } => {
   const [, title = '', authors = '', colorsAsText = ''] =
     text.match(DECK_RE.header) || [];
-  const colors: string[] = toArray(colorsAsText.trim());
+  const colors = toArray(colorsAsText.trim());
   return {
     authors: authors.trim() || null,
     colors: colors.length ? colors : null,

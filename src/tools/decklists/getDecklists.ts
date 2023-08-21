@@ -3,7 +3,7 @@ import {
   BASE_DECKLISTS_URL,
   DECKLISTS_EXTENSION,
 } from '@/tools/decklists/constants';
-import type { Decklist, Decklists } from '@/tools/decklists/types';
+import type { Decklists } from '@/tools/decklists/types';
 import { formatDate } from '@/tools/io/formatDate';
 import { readDecklist } from '@/tools/io/readDecklist';
 import { walk } from '@/tools/io/walk';
@@ -15,9 +15,10 @@ export const getDecklists = (): Decklists => {
   const decklists = files.reduce<Decklists>((accumulator, crumbs) => {
     const slug = join(...crumbs);
     const path = join(BASE_DECKLISTS_URL, slug) + extension;
-    const decklist: Decklist = readDecklist(path);
-    const [titleAsFile, ...dateCrumbs] = crumbs.reverse();
+    const decklist = readDecklist(path);
+    const [title, ...dateCrumbs] = crumbs.reverse();
     const date: null | string = formatDate(...dateCrumbs.reverse());
+    const titleAsFile = title as string;
     return { ...accumulator, [slug]: { ...decklist, date, titleAsFile } };
   }, {});
   return decklists;

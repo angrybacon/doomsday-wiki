@@ -30,7 +30,7 @@ export const RemarkDecklist: FunctionComponent<Props> = ({ decklist }) => {
       date={date || undefined}
       main={main}
       mainCount={mainCount}
-      side={side[0]}
+      side={side[0] || []}
       sideCount={sideCount}
       title={title || titleAsFile}
     />

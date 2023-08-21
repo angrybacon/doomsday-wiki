@@ -18,7 +18,7 @@ export const remarkRow: Plugin<[{ scries: Scries }]> =
       const directive = node as Node & ContainerDirective;
       const text = select('text', directive) as Text;
       const cards = text.value.split('\n').map((query, index) => {
-        const data: ScryCard[] = scries[query];
+        const data: ScryCard[] | undefined = scries[query];
         if (!data?.length) {
           throw new Error(`Missing Scryfall data for query "${query}"`);
         }

@@ -1,44 +1,44 @@
 import { toArray } from '@/tools/mana/toArray';
 
 describe(toArray.name, () => {
-  const specifications: [string, string, string[]][] =
+  const specifications: [title: string, input: string, expected: string[]][] =
     // prettier-ignore
     [
-    ['White',             '{W}',             ['w']],
-    ['Blue',              '{U}',             ['u']],
-    ['Black',             '{B}',             ['b']],
-    ['Red',               '{R}',             ['r']],
-    ['Green',             '{G}',             ['g']],
-    ['Azorius Senate',    '{W}{U}',          ['w', 'u']],
-    ['House Dimir',       '{U}{B}',          ['u', 'b']],
-    ['Cult of Rakdos',    '{B}{R}',          ['b', 'r']],
-    ['Gruul Clans',       '{R}{G}',          ['r', 'g']],
-    ['Selesnya Conclave', '{W}{G}',          ['w', 'g']],
-    ['Orzhov Syndicate',  '{W}{B}',          ['w', 'b']],
-    ['Izzet League',      '{U}{R}',          ['u', 'r']],
-    ['Golgari Swarm',     '{B}{G}',          ['b', 'g']],
-    ['Boros Legion',      '{W}{R}',          ['w', 'r']],
-    ['Simic Combine',     '{U}{G}',          ['u', 'g']],
-    ['Indatha Triome',    '{W}{B}{G}',       ['w', 'b', 'g']],
-    ['Raugrin Triome',    '{U}{R}{W}',       ['u', 'r', 'w']],
-    ['Zagoth Triome',     '{B}{G}{U}',       ['b', 'g', 'u']],
-    ['Savai Triome',      '{R}{W}{B}',       ['r', 'w', 'b']],
-    ['Ketria Triome',     '{G}{U}{R}',       ['g', 'u', 'r']],
-    ['Artifice',          '{W}{U}{B}{R}',    ['w', 'u', 'b', 'r']],
-    ['Chaos',             '{U}{B}{R}{G}',    ['u', 'b', 'r', 'g']],
-    ['Aggression',        '{B}{R}{G}{W}',    ['b', 'r', 'g', 'w']],
-    ['Altruism',          '{R}{G}{W}{U}',    ['r', 'g', 'w', 'u']],
-    ['Growth',            '{G}{W}{U}{B}',    ['g', 'w', 'u', 'b']],
-    ['All colors',        '{W}{U}{B}{R}{G}', ['w', 'u', 'b', 'r', 'g']],
+    ['White',             'L {W} R',             ['w']],
+    ['Blue',              'L {U} R',             ['u']],
+    ['Black',             'L {B} R',             ['b']],
+    ['Red',               'L {R} R',             ['r']],
+    ['Green',             'L {G} R',             ['g']],
+    ['Azorius Senate',    'L {W}{U} R',          ['w', 'u']],
+    ['House Dimir',       'L {U}{B} R',          ['u', 'b']],
+    ['Cult of Rakdos',    'L {B}{R} R',          ['b', 'r']],
+    ['Gruul Clans',       'L {R}{G} R',          ['r', 'g']],
+    ['Selesnya Conclave', 'L {W}{G} R',          ['w', 'g']],
+    ['Orzhov Syndicate',  'L {W}{B} R',          ['w', 'b']],
+    ['Izzet League',      'L {U}{R} R',          ['u', 'r']],
+    ['Golgari Swarm',     'L {B}{G} R',          ['b', 'g']],
+    ['Boros Legion',      'L {W}{R} R',          ['w', 'r']],
+    ['Simic Combine',     'L {U}{G} R',          ['u', 'g']],
+    ['Indatha Triome',    'L {W}{B}{G} R',       ['w', 'b', 'g']],
+    ['Raugrin Triome',    'L {U}{R}{W} R',       ['u', 'r', 'w']],
+    ['Zagoth Triome',     'L {B}{G}{U} R',       ['b', 'g', 'u']],
+    ['Savai Triome',      'L {R}{W}{B} R',       ['r', 'w', 'b']],
+    ['Ketria Triome',     'L {G}{U}{R} R',       ['g', 'u', 'r']],
+    ['Artifice',          'L {W}{U}{B}{R} R',    ['w', 'u', 'b', 'r']],
+    ['Chaos',             'L {U}{B}{R}{G} R',    ['u', 'b', 'r', 'g']],
+    ['Aggression',        'L {B}{R}{G}{W} R',    ['b', 'r', 'g', 'w']],
+    ['Altruism',          'L {R}{G}{W}{U} R',    ['r', 'g', 'w', 'u']],
+    ['Growth',            'L {G}{W}{U}{B} R',    ['g', 'w', 'u', 'b']],
+    ['All colors',        'L {W}{U}{B}{R}{G} R', ['w', 'u', 'b', 'r', 'g']],
   ];
 
   it.each(specifications)(
     'should identify mana symbols for: %s',
-    (_, input, colors) => {
+    (_, input, expected) => {
       // When
       const output = toArray(input);
       // Then
-      expect(output).toStrictEqual(colors);
+      expect(output).toStrictEqual(expected);
     },
   );
 });

@@ -1,6 +1,6 @@
 import type { ScryDataItem } from '@/tools/scryfall/types';
 
-export const NAMED = {
+export const NAMED: ScryDataItem = {
   /* eslint-disable camelcase */
   artist: 'Adrian Smith',
   artist_ids: ['be42f6f3-66d4-4957-9f1e-0591f8b95364'],
@@ -115,4 +115,4 @@ export const NAMED = {
   uri: 'https://api.scryfall.com/cards/5b3c6d87-9383-450b-bba5-33435b6b0d08',
   variation: false,
   /* eslint-enable camelcase */
-} as ScryDataItem;
+};

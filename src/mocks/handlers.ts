@@ -22,12 +22,14 @@ export const handlers: RestHandler<MockedRequest>[] = [
     'https://api.scryfall.com/cards/search',
     (request, response, context) => {
       const query = request.url.searchParams.get('q');
-      const card: ScryDataList = { ...SEARCH };
+      const cards: ScryDataList = { ...SEARCH };
       if (query) {
         const [, name] = query.match(/!"(.+)"/) || [];
-        card.data[0].name = name || query;
+        if (cards.data[0]) {
+          cards.data[0].name = name || query;
+        }
       }
-      return response(context.json(card));
+      return response(context.json(cards));
     },
   ),
 
