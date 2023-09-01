@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react';
+import type { FunctionComponent } from 'react';
 import { Box } from '@mui/material';
 import 'mana-font/css/mana.min.css';
 

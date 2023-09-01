@@ -8,8 +8,10 @@ import {
   List,
   drawerClasses,
 } from '@mui/material';
-import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
-import type { Theme } from '@mui/material/styles';
+import {
+  ThemeProvider as MuiThemeProvider,
+  type Theme,
+} from '@mui/material/styles';
 import type { SxProps } from '@mui/system';
 import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';

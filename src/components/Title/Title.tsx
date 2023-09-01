@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { FunctionComponent } from 'react';
+import type { FunctionComponent } from 'react';
 
 interface Props {
   title?: string;

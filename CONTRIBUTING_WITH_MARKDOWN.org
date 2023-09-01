@@ -288,3 +288,19 @@ from one wedge to the next.
 The syntax that was chosen for the implementation can be found
 [[https://mana.andrewgioia.com/icons.html][here]]. Currently only the mana costs
 are available but loyalty and other color indicators may come soon :tm:.
+
+*** Spoilers
+
+Transient spoilers are supported through the `spoiler` directive.
+
+#+BEGIN_SRC markdown
+Always be casting :spoiler[Doomsday].
+#+END_SRC
+
+But also support block-level children, and nesting.
+
+#+BEGIN_SRC markdown
+:::spoiler
+Always be casting :spoiler[Doomsday].
+:::
+#+END_SRC

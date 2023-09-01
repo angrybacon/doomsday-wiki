@@ -6,8 +6,8 @@
     "node": "18"
   },
   "scripts": {
-    "build": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next build' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto --kill-others --success first",
-    "dev": "concurrently 'NEXT_PUBLIC_HASH=$(git rev-parse --short HEAD) next dev' 'yarn scryfall:dev' --names 'next,scryfall' --prefix-colors auto",
+    "build": "concurrently 'next build' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto --kill-others --success first",
+    "dev": "concurrently 'next dev' 'yarn scryfall:dev' --names 'next,scryfall' --prefix-colors auto",
     "lint": "concurrently 'yarn:lint:*' --names --prefix-colors auto --success all",
     "lint:code": "eslint .",
     "lint:format": "prettier --check --loglevel warn markdown/ puzzles/ scryfall/ src/",

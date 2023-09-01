@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react';
+import type { FunctionComponent } from 'react';
 import { Box, Typography } from '@mui/material';
 import type { Card } from '@/tools/decklists/types';
 

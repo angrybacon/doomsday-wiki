@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FunctionComponent } from 'react';
+import type { FunctionComponent } from 'react';
 import { Box, Divider, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 import type { Banner as BannerModel } from '@/tools/markdown/types';

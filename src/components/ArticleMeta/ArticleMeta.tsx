@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react';
+import type { FunctionComponent } from 'react';
 import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
 import { Box } from '@mui/material';
