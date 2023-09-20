@@ -21,14 +21,13 @@ function* walkIterator(
   const { depth, extension } = options;
   if (accumulator.length === depth) return;
   if (existsSync(directory)) {
-    // NOTE Looping over the stream requires the `--downlevelIteration` flag
     for (const file of readdirSync(directory, { withFileTypes: true })) {
-      const { ext, name } = parse(file.name);
+      const { base, ext } = parse(file.name);
       if (file.isDirectory()) {
         const entry = join(directory, file.name);
         yield* walkIterator(entry, options, [...accumulator, file.name]);
       } else if (file.isFile() && (!extension || ext === extension)) {
-        yield [...accumulator, name];
+        yield [...accumulator, base];
       }
     }
   }

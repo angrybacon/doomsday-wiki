@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
     "strict": true,
     "target": "ESNext"
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts"],
+  "ts-node": { "files": true }
 }
