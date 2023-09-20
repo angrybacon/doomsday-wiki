@@ -8,9 +8,11 @@
   "scripts": {
     "build": "concurrently 'next build' 'yarn scryfall' --names 'next,scryfall' --prefix-colors auto --kill-others --success first",
     "dev": "concurrently 'next dev' 'yarn scryfall:dev' --names 'next,scryfall' --prefix-colors auto",
-    "lint": "concurrently 'yarn:lint:*' --names --prefix-colors auto --success all",
+    "guff": "ts-node ./guff/guff.ts markdown/articles/ markdown/chapters/",
+    "guff:watch": "find guff/* | entr yarn guff",
+    "lint": "concurrently 'yarn:lint:*' --prefix-colors auto --success all",
     "lint:code": "eslint .",
-    "lint:format": "prettier --check --loglevel warn markdown/ puzzles/ scryfall/ src/",
+    "lint:format": "prettier --check --loglevel warn guff/ markdown/ puzzles/ scryfall/ src/",
     "lint:prune": "ts-prune --error",
     "lint:typings": "tsc",
     "lint:wiki": "markdownlint markdown/",
@@ -51,6 +53,7 @@
     "remark-toc": "8.0.1",
     "sharp": "0.32.5",
     "simple-icons": "9.10.0",
+    "ts-node": "10.9.1",
     "unified": "10.1.2",
     "unist-util-select": "5.0.0",
     "unist-util-visit": "5.0.0"

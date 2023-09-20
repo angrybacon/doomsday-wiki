@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["**/*.ts"]
+}
