@@ -77,7 +77,6 @@ export const Layout: FunctionComponent<Props> = ({
         withProgress={withProgress}
       />
       <Sidebar
-        category={router.query.category && (router.query.category as string)}
         menu={menu}
         isClear={isClear}
         isMobile={!isDesktop}
