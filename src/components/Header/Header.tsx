@@ -22,9 +22,8 @@ export const Header: FunctionComponent<Props> = ({
     <>
       <AppBar
         elevation={4}
-        position="sticky"
         sx={({ palette }) => ({
-          backdropFilter: 'blur(24px)',
+          backdropFilter: 'blur(12px)',
           backgroundColor: alpha(palette.background.paper, 0.75),
           pl: offset,
         })}
@@ -41,6 +40,7 @@ export const Header: FunctionComponent<Props> = ({
           )}
         </Toolbar>
       </AppBar>
+      <Box role="presentation" sx={({ mixins }) => mixins.toolbar} />
       {withProgress && (
         <Box
           sx={{
