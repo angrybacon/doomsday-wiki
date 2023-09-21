@@ -21,7 +21,12 @@ const variants: TypographyVariant[] = [
 
 export const RemarkHeading: HeadingComponent = ({ children, id, level }) => (
   // NOTE The `id` property comes from `remark-slug`
-  <Typography gutterBottom id={id} variant={variants[level]}>
+  <Typography
+    gutterBottom
+    id={id}
+    sx={({ mixins }) => mixins.toolbarMargin}
+    variant={variants[level]}
+  >
     {children}
   </Typography>
 );

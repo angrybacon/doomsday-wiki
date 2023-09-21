@@ -12,6 +12,7 @@ import { deepmerge } from '@mui/utils';
 import type { Kind } from '@/tools/markdown/constants/Kind';
 import { barf } from '@/theme/tools/barf';
 import { gutters } from '@/theme/tools/gutters';
+import { toolbarMargin } from '@/theme/tools/toolbarMargin';
 
 import '@fontsource/libre-baskerville';
 
@@ -39,6 +40,7 @@ declare module '@mui/material/styles/createMixins' {
   interface Mixins {
     barf: CSSProperties;
     gutters: CSSProperties;
+    toolbarMargin: CSSProperties;
   }
 }
 
@@ -95,13 +97,13 @@ const customizeTheme = (options: ThemeOptions): Theme => {
         },
         MuiCssBaseline: {
           styleOverrides: {
-            blockquote: { margin: 0 },
             '#__next, html, body': {
               height: '100%',
               fontSize: 18,
               scrollBehavior: 'smooth',
               scrollPadding: spacing(2),
             },
+            blockquote: { margin: 0 },
             em: {
               fontDisplay: 'swap',
               fontFamily: 'Libre Baskerville, serif',
@@ -165,7 +167,11 @@ const customizeTheme = (options: ThemeOptions): Theme => {
         },
       },
       drawer: { width: '320px' },
-      mixins: { barf: barf(theme), gutters: gutters(theme) },
+      mixins: {
+        barf: barf(theme),
+        gutters: gutters(theme),
+        toolbarMargin: toolbarMargin(theme),
+      },
       palette,
       shape: { borderRadius: 8, borderRadiusPaper },
       typography: {

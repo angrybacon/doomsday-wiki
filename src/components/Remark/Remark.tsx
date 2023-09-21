@@ -70,6 +70,8 @@ export const Remark: FunctionComponent<Props> = ({
       const { hash } = window.location;
       if (hash) {
         const element = document.getElementById(hash.substring(1));
+        // NOTE The hardcoded delay is necessary to handle embedded tweets for
+        //      which the total height cannot be guessed in advanced.
         setTimeout(() => element?.scrollIntoView(), 700);
       }
     }
