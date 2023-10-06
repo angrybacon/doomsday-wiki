@@ -45,7 +45,7 @@ define, and computes average life loss and death probability figures.
 
 In the base case, if you have 20 life, 53 cards left in your library, and you
 name a 4-of, you have approximately a 14% chance to lose the game, and you'll
-lose on average around 11 life. If you name a 3-of, you have roughly a 23%
+lose on average around 10 life. If you name a 3-of, you have roughly a 23%
 chance to die and will lose around 13 life on average. If you plan to play with
 Spoils of the vault, it's useful to be able to approximmate these values on the
 fly, so here's a couple heuristics for that purpose:
@@ -58,7 +58,7 @@ fly, so here's a couple heuristics for that purpose:
 
 The first is much simpler, and if you think about it you can probably intuit why
 its true. The second heuristic relies on the first, is not as easy to mentally
-math, and loses accuracy at the extremes of probability, but it's the best I've
+math, and only accurate to within 5-10%, but it's the best I've
 come up with.
 
 Now with that behind us, we can discuss What kinds of decks might want Spoils
@@ -83,7 +83,7 @@ particularly ones that are looking to assemble a two-card combo. Spoils can
 function as additional copies of any combo piece, or any supporting card like
 mana acceleration.
 
-### Part2: A bit of History
+### Part 2: A bit of History
 
 Spoils of the Vault was printed nearly 20 years ago, so surely others have
 noticed its power? Let's take a look back into the annals of history. The
@@ -127,12 +127,12 @@ the Doomsday discord:
 combo](/media/pictures/2023.jax.on.spoils.png)
 
 Perhaps it was the aforementioned beer talking but clearly the card made an
-impression. I don't know if Jax ever posted any results with a list like this,
-but [kl0gW did some time later](https://www.mtggoldfish.com/deck/4259052#paper).
+impression. I don't know if Jax ever achieved any results with a list like this,
+but [kl0gW got a 5-0 some time later](https://www.mtggoldfish.com/deck/4259052#paper).
 This deck overall didn't seem to catch on however, and today it is a fringe
 combo option, with or (more frequently) without Spoils.
 
-So we can see that Spoils of the Vault probably has the power to compete in
+So we can see that Spoils of the Vault probably has the raw power to compete in
 legacy, if only in a certain subset of viable decks. All the decks mentioned are
 essentially 2 card combos. Even Nausea is sort of a 2-card combo, because you
 need mana and business, and Spoils can become whichever you don't have. There
@@ -230,9 +230,9 @@ cards that can do this like Night's Whisper, but as we'll see none of the same
 broad utility as Spoils of the Vault. And Night's Whisper always costs you two
 life, while Spoils can cost as little as 0.
 
-Furthermore, Spoils can plow through your for just {B} and some life. There is
-no other single card that can get you all the way to the Oracle at the bottom of
-your pile for as little mana or life.
+Furthermore, Spoils can plow through your entire deck for just {B} and some
+life. There is no other single card that can get you all the way to the Oracle
+at the bottom of your pile for as little mana or life.
 
 ### Spoils Can Clear Brainstorms
 
@@ -265,7 +265,7 @@ can adjust to how your opponent plays their turn. Since you know the exact
 construction of your library, if you have {B} open on your opponents turn Spoils
 can in theory be used to grab any card remaining in your deck except the bottom
 one (remember you still have to draw for turn, so don't name what's on the
-bottom!). For example, imagine you Resolve Doomsday would like to win on the
+bottom!). For example, imagine you Resolve Doomsday and would like to win on the
 next turn, but are worried your opponent has a card in hand that you cannot win
 through under any circumstances. If you have Spoils and a spare blue card in
 hand you could pile:
@@ -324,14 +324,15 @@ cards that can impact Doomsday piles.
 
 - **Cost-Increasers and Cards That Limit The Number of Spells You Can Cast:**
   Thalia, Deafening Silence, and Mindbreak Trap are cards that are often on the
-  combo player's mind.While it should be noted that cyclers can also let you
+  combo player's mind. While it should be noted that cyclers can also let you
   play through these effects, Spoils of the Vault can do it simply by reducing
   the number of spells you need to cast to get through a pile. Fewer spells
   cast, less additional cost. You can power through a card:[Deafening Silence]
   or card:[Mindbreak Trap] by casting one non-creature spell, Spoils of the
   Vault, followed by a creature spell, Thassa's Oracle. With this utility
   available, you could potentially consider playing fewer cyclers, opening a
-  couple slots in the maindeck.
+  couple slots in the maindeck. You can conceivably even beat Deafening Silence
+  plus Spirit of the Labyrinth, which cyclers are poorly suited for.
 
 - **card:[Endurance]:** If you cast Spoils naming Thassa's Oracle when it is on
   the bottom of your library, and have put nothing else to grave after casting
@@ -357,19 +358,20 @@ Here you would cast IU, draw 3, cycle into the Oracle and cast it. When your
 opponent responds with Endurance, you can allow the trigger to resolve and then
 cast Spoils namimg something that is not in your deck to get back to 0 cards in
 library. When making this kind of play, it's important to name the right card to
-make sure your opponent knows just how much smarter than them you are. card:[You
-Are Already Dead] and card:[Abandon Hope] are perrenial favorites.
+make sure your opponent knows just how much smarter than them you are. Recent
+printings have given us excellent choices like :card[You Are Already Dead] and
+:card[The Most Dangerous Gamer].
 
 - **Mill Effects:** Grindstone is the most commonly played such effect, but you
-  may occasionally run into something like card:[Thought Scour]. PLaying around
-  these effects can be very tricky, since a well-timed mill can have your
-  Brainstorm decking you instead of drawing useful cards. However, Spoils lets
-  you build piles that easily beat such effects. Let's contrive a realistic
-  example to demonstrate. Imagine you're playing against Painter, and you can
-  cast Doomsday but will need to pass the turn. Your opponent has an
-  card:[Urza's Saga] that is going to pop on their turn, and you wish to avoid
-  losing to the Grindstone you expect them to get. The following pile is immune
-  to Grindstone:
+  may occasionally run into something like card:[Thought Scour]. Playing around
+  these effects, while ordinarily not impossible, can be very tricky, since a
+  well-timed mill can make your Brainstorm deck you instead of draw useful
+  cards. However, Spoils lets you build piles that easily beat such effects.
+  Let's contrive a realistic example to demonstrate. Imagine you're playing
+  against Painter, and you can cast Doomsday but will need to pass the turn.
+  Your opponent has an card:[Urza's Saga] that is going to pop on their turn,
+  and you wish to avoid losing to the Grindstone you expect them to get. The
+  following pile is immune to Grindstone:
 
 :::row{variant=PILE}
 SotV
@@ -383,3 +385,14 @@ If they activate Grindstone any time before your draw step, you'll mill Spoils
 and Consider, and be able to simply cycle into Oracle. If they let you draw
 Spoils for turn, then responding to Spoils by activating Grindstone will simply
 cause Spoils to cost you less life.
+
+## Are You Convinced?
+
+I don't blame you if you arent't. Cast your first Spoils that ends a game you
+otherwise had wrapped up, and you'll curse this article, its authors and their
+descendants. Losing games because you made a deckbuilding decision that directly
+led to the loss hurts, no matter how many more games you win because of that
+choice. You just need to desensitize yourself to it, which means you need to
+cast more Spoils.
+
+Soon you'll be ONE OF US.
