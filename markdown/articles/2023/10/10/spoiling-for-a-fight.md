@@ -107,12 +107,11 @@ managed to reach 5th out of 166 in an SCG Open in 2013. There are also some
 results from similar list in MTGO events from that time. Not so long ago in
 2019, there are a handful of MTGO league 5-0s from a couple different people
 with a Mono-Black Painter/Helm of Obedience deck like [this one that plays
-Spoils](https://www.mtggoldfish.com/deck/2371231#paper). These are the types of
-decks that Spoils is well suited to. Fast two-card combo decks, looking to go
-fast so life totals don't matter. There may be multiple combo plans in one deck,
-but they rely on the same enablers like fast mana, and so Spoils of the Vault
-acts as a sort of glue to enable both plans concurrently and hold the deck
-together.
+Spoils](https://www.mtggoldfish.com/deck/2371231). These are the types of decks
+that Spoils is well suited to. Fast two-card combo decks, looking to go fast so
+life totals don't matter. There may be multiple combo plans in one deck, but
+they rely on the same enablers like fast mana, and so Spoils of the Vault acts
+as a sort of glue to enable both plans concurrently and hold the deck together.
 
 More recently, Strixhaven was released and with it came :card[Witherbloom
 Apprentice], which together with :card[Chain of Smog] formed a tight, mana
@@ -123,8 +122,8 @@ was impressed by it, so I suggested the card to Jax as a tutor option for the
 Witherbloom combo list. Sometime thereafter Jax posted this in a conversation in
 the Doomsday discord:
 
-![Jax says that Spoils is the best tutor for Witherbloom
-combo](/media/pictures/2023.jax.on.spoils.png)
+![Jax: Spoils is the best tutor for Witherbloom
+combo](/media/pictures/2023.spoils.jax.png)
 
 Perhaps it was the aforementioned beer talking but clearly the card made an
 impression. I don't know if Jax ever achieved any results with a list like this,
@@ -150,13 +149,13 @@ inclusion.
 
 ### Part 3: The Philosophy of Spoils, or How Not to Be a Coward
 
-![Bird knows the deep magics](/media/pictures/2023.bird.on.spoils.png)
+![Bird knows the deep magics](/media/pictures/2023.spoils.bird.png)
 
 The catastrophic way in which Spoils of the Vault sometimes ends games obscures
 its power level. The human mind is much better at remembering negative events,
 and so it can be difficult to get past a bad loss, much less a string of losses.
 
-![Emidln has given up on Spoils](/media/pictures/2023.emidln.on.spoils.png)
+![Emidln has given up on Spoils](/media/pictures/2023.spoils.emidln.png)
 
 It's important to recognize that the power level and flexibility provided by a
 1-mana, instant speed tutor will, over a sufficiently large sample size,
@@ -164,7 +163,7 @@ increase your winrate by more than the Sudden Instant Death by Spoils will
 decrease it.
 
 ![Wonderpreaux, regarding Spoils of the
-Vault](/media/pictures/2023.wonderpreaux.on.spoils.png)
+Vault](/media/pictures/2023.spoils.wonderpreaux.png)
 
 Perhaps these testimonials are giving you the wrong idea. I like to think of it
 this way: as a fast combo deck, if you need a particular card to win the game,
