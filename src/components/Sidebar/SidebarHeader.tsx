@@ -46,7 +46,7 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
           '&& > *': { ml: 1 }, // NOTE Increase specificity
         }}
       >
-        <Tooltip arrow title="Join our Discord server">
+        <Tooltip title="Join our Discord server">
           <IconButton
             component={NextLink}
             href="/discord"
@@ -56,7 +56,7 @@ export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
             <Icon path={siDiscord.path} size={0.7} />
           </IconButton>
         </Tooltip>
-        <Tooltip arrow title={`Switch to ${isDark ? 'light' : 'dark'} theme`}>
+        <Tooltip title={`Switch to ${isDark ? 'light' : 'dark'} theme`}>
           <IconButton onClick={onThemeToggle} size="large">
             <Icon path={isDark ? mdiLightbulbOn : mdiLightbulbOff} size={0.7} />
           </IconButton>

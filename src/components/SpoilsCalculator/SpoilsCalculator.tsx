@@ -1,9 +1,11 @@
 import { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
+import { mdiDelete, mdiReload } from '@mdi/js';
+import Icon from '@mdi/react';
 import {
   Box,
   Button,
+  ButtonGroup,
   Divider,
-  TextField,
   Unstable_Grid2 as Grid,
   Table,
   TableBody,
@@ -11,6 +13,8 @@ import {
   TableContainer,
   TableHead,
   TableRow,
+  TextField,
+  Tooltip,
   Typography,
 } from '@mui/material';
 
@@ -21,7 +25,7 @@ interface Input {
   samples?: number;
 }
 
-interface Result {
+interface Output {
   average: string;
   deathes: string;
   id: number;
@@ -33,7 +37,7 @@ const INITIAL_INPUT: Input = { copies: 4, deck: 53, life: 20, samples: 10000 };
 export const SpoilsCalculator: FunctionComponent<unknown> = () => {
   const [input, setInput] = useState(INITIAL_INPUT);
   const [isDisabled, setIsDisabled] = useState(true);
-  const [results, setResults] = useState<Result[]>([]);
+  const [output, setOutput] = useState<Output[]>([]);
 
   useEffect(() => {
     setIsDisabled(!Object.values(input).every(Boolean));
@@ -90,13 +94,17 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
         }),
         input,
       };
-      setResults((previous) => [
+      setOutput((previous) => [
         { ...result, id: previous.length },
         ...previous,
       ]);
       setIsDisabled(false);
     }
   };
+
+  const onResetInput = (): void => setInput(INITIAL_INPUT);
+
+  const onResetOutput = (): void => setOutput([]);
 
   return (
     <Box>
@@ -138,30 +146,42 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
           />
         </Grid>
       </Grid>
-      <Button
+      <ButtonGroup
         disableElevation
-        disabled={isDisabled}
-        fullWidth
-        onClick={onCompute}
-        sx={{ my: 3 }}
+        size="large"
+        sx={{ display: 'flex', my: 3 }}
         variant="contained"
       >
-        Calculate
-      </Button>
-      {results.length ? (
+        <Button disabled={isDisabled} onClick={onCompute} sx={{ flexGrow: 1 }}>
+          Calculate
+        </Button>
+        <Tooltip title="Reset inputs">
+          <Button onClick={onResetInput}>
+            <Icon path={mdiReload} size={1} />
+          </Button>
+        </Tooltip>
+        <Tooltip title="Clear results">
+          <Button onClick={onResetOutput}>
+            <Icon path={mdiDelete} size={1} />
+          </Button>
+        </Tooltip>
+      </ButtonGroup>
+      {output.length ? (
         <TableContainer sx={({ mixins }) => mixins.barf}>
           <Divider />
-          <Table>
+          <Table size="small">
             <TableHead>
               <TableRow>
+                <TableCell>#</TableCell>
                 <TableCell>Input</TableCell>
                 <TableCell>Average Life Loss</TableCell>
                 <TableCell>Death Likelihood</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
-              {results.map(({ average, deathes, id, input }) => (
+              {output.map(({ average, deathes, id, input }) => (
                 <TableRow key={id}>
+                  <TableCell>{id}</TableCell>
                   <TableCell>
                     {input.copies} out of {input.deck} with {input.life} life
                   </TableCell>
