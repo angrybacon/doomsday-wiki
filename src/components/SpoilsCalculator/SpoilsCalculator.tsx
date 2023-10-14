@@ -19,10 +19,10 @@ import {
 } from '@mui/material';
 
 interface Input {
-  copies?: number;
-  deck?: number;
-  life?: number;
-  samples?: number;
+  copies: number;
+  deck: number;
+  life: number;
+  samples: number;
 }
 
 interface Output {
@@ -48,7 +48,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
     ({ target }: ChangeEvent<HTMLInputElement>) =>
       setInput((previous) => ({
         ...previous,
-        [key]: parseInt(target.value, 10) || undefined,
+        [key]: parseInt(target.value, 10) || 0,
       }));
 
   /**
@@ -57,7 +57,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
    */
   const shuffle = (size: number): number[] => {
     const deck = [...Array(size).keys()];
-    for (let left = deck.length - 1; left > 0; left -= 1) {
+    for (let left = deck.length - 1; size > 0 && left > 0; left -= 1) {
       const right = Math.floor(Math.random() * (left + 1));
       [deck[left], deck[right]] = [deck[right] as number, deck[left] as number];
     }
@@ -65,41 +65,36 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
   };
 
   const onCompute = (): void => {
-    if (input.copies && input.deck && input.life && input.samples) {
-      setIsDisabled(true);
-      let average = 0;
-      let deathes = 0;
-      for (let sample = 0; sample < input.samples; sample += 1) {
-        const deck = shuffle(input.deck);
-        let candidate = 0;
-        while (candidate < input.deck) {
-          if ((deck[candidate] as number) < input.copies) {
-            average += candidate;
-            break;
-          }
-          candidate += 1;
+    setIsDisabled(true);
+    let average = 0;
+    let deathes = 0;
+    for (let sample = 0; sample < input.samples; sample += 1) {
+      const candidates = shuffle(input.deck);
+      let candidate = 0;
+      while (candidate < candidates.length) {
+        if ((candidates[candidate] as number) < input.copies) {
+          average += candidate;
+          break;
         }
-        if (candidate >= input.life) {
-          deathes += 1;
-        }
+        candidate += 1;
       }
-      const result = {
-        average: (average / input.samples).toLocaleString(undefined, {
-          minimumFractionDigits: 1,
-          maximumFractionDigits: 1,
-        }),
-        deathes: (deathes / input.samples).toLocaleString(undefined, {
-          minimumFractionDigits: 2,
-          style: 'percent',
-        }),
-        input,
-      };
-      setOutput((previous) => [
-        { ...result, id: previous.length },
-        ...previous,
-      ]);
-      setIsDisabled(false);
+      if (candidate >= input.life) {
+        deathes += 1;
+      }
     }
+    const result = {
+      average: (average / input.samples).toLocaleString(undefined, {
+        minimumFractionDigits: 1,
+        maximumFractionDigits: 1,
+      }),
+      deathes: (deathes / input.samples).toLocaleString(undefined, {
+        minimumFractionDigits: 2,
+        style: 'percent',
+      }),
+      input,
+    };
+    setOutput((previous) => [{ ...result, id: previous.length }, ...previous]);
+    setIsDisabled(false);
   };
 
   const onResetInput = (): void => setInput(INITIAL_INPUT);
@@ -139,6 +134,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
         <Grid xs={6} sm={3}>
           <TextField
             fullWidth
+            helperText={input.samples > 10000 && 'Not suited for above 10,000'}
             label="Samples"
             onChange={onChange('samples')}
             type="number"
