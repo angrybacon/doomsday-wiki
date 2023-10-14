@@ -14,6 +14,15 @@ Legacy-legal, one-mana tutor effect that can put any card right into your hand?
 And it's even an instant! You already know, baby! It's :card[Spoils of the
 Vault]! How can this card possibly still be legal?
 
+:::row{variant=CENTERED}
+Demonic Consultation
+Mystical Tutor
+Imperial Seal
+Booster Tutor
+Vampiric Tutor
+Goblin Tutor
+:::
+
 Assuming you made it this far into the article and are comprehending the meaning
 of the funny symbols on your computer screen, then you can read. And if you can
 read, it's pretty easy to figure out the downside of Spoils of the Vault. It
@@ -83,22 +92,41 @@ particularly ones that are looking to assemble a two-card combo. Spoils can
 function as additional copies of any combo piece, or any supporting card like
 mana acceleration.
 
-### Part 2: A bit of History
+### Part 2: A Bit of History
 
-Spoils of the Vault was printed nearly 20 years ago, so surely others have
-noticed its power? Let's take a look back into the annals of history. The
-Source, an MTG forum and once the greatest font of Legacy knowledge available,
-has [a
-thread](https://www.mtgthesource.com/forums/showthread.php?2640-Deck-Nausea-Tendrils-for-the-win)
-that was started in 2005 for a deck dubbed "Nausea". It was a storm combo deck,
-and used the typical rituals and mana rocks, as well as cards like Chromatic
-Sphere and Darkwater Egg to draw cards, and generate storm. Spoils of the Vault
-was included because, to quote the deck's creator Evil Roopey, "This card is
-Legacy’s Vampiric Tutor, a very weak one mind you. Seriously though this card is
-the best Black tutor effect in the format. At least I can’t think of a better
-one." A tutor for one black mana was exactly what the deck was looking for.
-However this deck didn't last, because Infernal Tutor was printed barely a year
-later, and steered the fate of storm combo in an entirely new direction.
+Spoils of the Vault was printed 20 years ago this month, so surely others have
+noticed its power? Let's take a look back into the annals of history.
+
+:::row{variant=CENTERED}
+Chromatic Sphere
+Darkwater Egg
+Helm of Awakening
+:::
+
+The Source, an MTG forum and once the greatest font of Legacy knowledge
+available, has a
+[thread](https://www.mtgthesource.com/forums/showthread.php?2640-Deck-Nausea-Tendrils-for-the-win)
+that was started in 2005 for a deck dubbed _Nausea_. It was a Storm combo deck,
+and used the typical rituals and mana rocks, as well as cards like
+:card[Chromatic Sphere] and :card[Darkwater Egg] to draw cards while generating
+Storm.
+
+> This card is Legacy's Vampiric Tutor, a very weak one mind you. Seriously
+> though this card is the best Black tutor effect in the format. At least I
+> can't think of a better one.
+>
+> &mdash; Evil Roopey
+
+A tutor for one black mana was exactly what the deck was looking for. However
+this deck didn't last, because :card[Infernal Tutor] was printed barely a year
+later, and steered the fate of Storm combo in an entirely new direction.
+
+:::row{variant=CENTERED}
+Dark Depths
+Vampire Hexmage
+Painter's Servant
+Grindstone
+:::
 
 In the years between then and now, we can see a handful of results crop up with
 Spoils of the Vault. A [Dark Depths/Reanimator hybrid
@@ -112,6 +140,11 @@ that Spoils is well suited to. Fast two-card combo decks, looking to go fast so
 life totals don't matter. There may be multiple combo plans in one deck, but
 they rely on the same enablers like fast mana, and so Spoils of the Vault acts
 as a sort of glue to enable both plans concurrently and hold the deck together.
+
+:::row{variant=CENTERED}
+Witherbloom Apprentice
+Chain of Smog
+:::
 
 More recently, Strixhaven was released and with it came :card[Witherbloom
 Apprentice], which together with :card[Chain of Smog] formed a tight, mana
@@ -314,32 +347,55 @@ backup.
 There are a lot of ways Spoils can be used to largely disregard several kinds of
 cards that can impact Doomsday piles.
 
-- **Draw Limiting Effects:** Since it puts a card into your hand rather than
-  drawing it, and exiles everything else along the way, Spoils lets you clear
-  any number of cards in your pile and put one fresh card in your hand through
-  draw limiters such as card:[Narset, Parter of Veils], card:[Hullbreacher], and
-  card:[Spirit of the Labyrinth]. This makes it easy to construct basic piles to
-  beat such effects without too much work.
+#### Draw-Limiting Effects
 
-- **Cost-Increasers and Cards That Limit The Number of Spells You Can Cast:**
-  Thalia, Deafening Silence, and Mindbreak Trap are cards that are often on the
-  combo player's mind. While it should be noted that cyclers can also let you
-  play through these effects, Spoils of the Vault can do it simply by reducing
-  the number of spells you need to cast to get through a pile. Fewer spells
-  cast, less additional cost. You can power through a card:[Deafening Silence]
-  or card:[Mindbreak Trap] by casting one non-creature spell, Spoils of the
-  Vault, followed by a creature spell, Thassa's Oracle. With this utility
-  available, you could potentially consider playing fewer cyclers, opening a
-  couple slots in the maindeck. You can conceivably even beat Deafening Silence
-  plus Spirit of the Labyrinth, which cyclers are poorly suited for.
+:::row{variant=CENTERED}
+Spirit of the Labyrinth
+Leovold, Emissary of Trest
+Narset, Parter of Veils
+:::
 
-- **card:[Endurance]:** If you cast Spoils naming Thassa's Oracle when it is on
-  the bottom of your library, and have put nothing else to grave after casting
-  Doomsday, there will only be Doomsday and Spoils in your graveyard when you
-  cast Thassa's Oracle. This means that Spoils piles can play around Endurance,
-  though it's worth mentioning it's difficult to play around much else at the
-  same time. This requires just {U}{U}{B} after Doomsday and so is very
-  reasonable to achieve with 3 lands.
+Since it puts a card into your hand rather than drawing it, and exiles
+everything else along the way, Spoils lets you clear any number of cards in your
+pile and put one fresh card in your hand through draw limiters such as
+:card[Narset, Parter of Veils], :card[Hullbreacher], and :card[Spirit of the
+Labyrinth]. This makes it easy to construct basic piles to beat such effects
+without too much work.
+
+#### Taxes and Cards That Limit the Number of Spells You Can Cast
+
+:::row{variant=CENTERED}
+Deafening Silence
+Thorn of Amethyst
+Mindbreak Trap
+:::
+
+:card[Thalia, Guardian of Thraben], :card[Deafening Silence], and
+:card[Mindbreak Trap] are cards that are often on the combo player's mind. While
+it should be noted that cyclers can also let you play through these effects,
+Spoils of the Vault can do it simply by reducing the number of spells you need
+to cast to get through a pile. Fewer spells cast, less additional cost. You can
+power through a Deafening Silence or Mindbreak Trap by casting one non-creature
+spell, Spoils of the Vault, followed by a creature spell, Thassa's Oracle. With
+this utility available, you could potentially consider playing fewer cyclers,
+opening a couple slots in the maindeck. You can conceivably even beat Deafening
+Silence plus Spirit of the Labyrinth, which cyclers are poorly suited for.
+
+#### Endurance Effects
+
+:::row{variant=CENTERED}
+Endurance | MH2
+Wheel of Sun and Moon
+Memory's Journey
+:::
+
+If you cast Spoils naming Thassa's Oracle when it is on the bottom of your
+library, and have put nothing else to grave after casting Doomsday other than
+Spoils, there will only be Doomsday and Spoils in your graveyard when you cast
+Thassa's Oracle. This means that Spoils piles can play around Endurance, though
+it's worth mentioning it's difficult to play around much else at the same time.
+This requires just {B}{U}{U} after Doomsday and so is very reasonable to achieve
+with 3 lands.
 
 Futhermore, you can use Spoils to clear out cards that are put back into the
 deck by Endurance, before your Oracle trigger resolves. Consider the following
@@ -361,16 +417,23 @@ make sure your opponent knows just how much smarter than them you are. Recent
 printings have given us excellent choices like :card[You Are Already Dead] and
 :card[The Most Dangerous Gamer].
 
-- **Mill Effects:** Grindstone is the most commonly played such effect, but you
-  may occasionally run into something like card:[Thought Scour]. Playing around
-  these effects, while ordinarily not impossible, can be very tricky, since a
-  well-timed mill can make your Brainstorm deck you instead of draw useful
-  cards. However, Spoils lets you build piles that easily beat such effects.
-  Let's contrive a realistic example to demonstrate. Imagine you're playing
-  against Painter, and you can cast Doomsday but will need to pass the turn.
-  Your opponent has an card:[Urza's Saga] that is going to pop on their turn,
-  and you wish to avoid losing to the Grindstone you expect them to get. The
-  following pile is immune to Grindstone:
+#### Mill Effects
+
+:::row{variant=CENTERED}
+Grindstone
+Thought Scour
+Hedron Crab
+:::
+
+Grindstone is the most commonly played such effect, but you may occasionally run
+into something like :card[Thought Scour]. Playing around these effects, while
+ordinarily not impossible, can be very tricky, since a well-timed mill can make
+your Brainstorm deck you instead of draw useful cards. However, Spoils lets you
+build piles that easily beat such effects. Let's contrive a realistic example to
+demonstrate. Imagine you're playing against Painter, and you can cast Doomsday
+but will need to pass the turn. Your opponent has an :card[Urza's Saga] that is
+going to pop on their turn, and you wish to avoid losing to the Grindstone you
+expect them to get. The following pile is immune to Grindstone:
 
 :::row{variant=PILE}
 SotV
@@ -386,6 +449,14 @@ Spoils for turn, then responding to Spoils by activating Grindstone will simply
 cause Spoils to cost you less life.
 
 ## Are You Convinced?
+
+:::row{variant=CENTERED}
+Abandon Hope
+Savage Beating
+Imminent Doom
+You Are Already Dead
+The Most Dangerous Gamer
+:::
 
 I don't blame you if you arent't. Cast your first Spoils that ends a game you
 otherwise had wrapped up, and you'll curse this article, its authors and their
