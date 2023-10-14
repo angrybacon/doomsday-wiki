@@ -52,7 +52,7 @@ are you to die when you cast Spoils? You can play with the widget below to test
 some scenarios. It simulates casting Spoils 10000 times with the parameters you
 define, and computes average life loss as well as death probability figures.
 
-::insert spoils calculator widget here::
+::spoils
 
 In the base case, if you have 20 life, 53 cards left in your library, and you
 name a 4-of, you have about 14% chance to lose the game, and you'll lose on

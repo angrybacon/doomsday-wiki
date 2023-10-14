@@ -28,6 +28,7 @@ import {
 } from '@/components/Remark/renderers/RemarkTable';
 import { RemarkTweet } from '@/components/Remark/renderers/RemarkTweet';
 import { RemarkYoutube } from '@/components/Remark/renderers/RemarkYoutube';
+import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 
 export const COMPONENTS: Components = {
   a: RemarkLink,
@@ -60,6 +61,7 @@ export const COMPONENTS_EXTRA = {
   row: RemarkRow,
   soundcloud: RemarkSoundcloud,
   spoiler: RemarkSpoiler,
+  spoils: SpoilsCalculator,
   tweet: RemarkTweet,
   youtube: RemarkYoutube,
 } as const;

@@ -304,3 +304,12 @@ But also support block-level children, and nesting.
 Always be casting :spoiler[Doomsday].
 :::
 #+END_SRC
+
+*** Spoils Calculator
+
+Insert a /Spoils of the Vault/ widget to let the reader run success rate
+simulations directly within the Markdown content.
+
+#+BEGIN_SRC markdown
+::spoils
+#+END_SRC
