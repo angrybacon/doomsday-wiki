@@ -138,6 +138,9 @@ const customizeTheme = (options: ThemeOptions): Theme => {
           },
         },
         MuiTooltip: {
+          defaultProps: {
+            arrow: true,
+          },
           styleOverrides: {
             tooltip: { textAlign: 'center' },
           },

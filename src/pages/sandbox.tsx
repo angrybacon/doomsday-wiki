@@ -10,6 +10,7 @@ import {
 } from '@mui/material';
 import { Stack } from '@mui/system';
 import { Layout } from '@/components/Layout/Layout';
+import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 import { phyrexian } from '@/fonts/fonts';
 import { getMenu } from '@/tools/markdown/getMenu';
 import type { MenuEntry } from '@/tools/markdown/types';
@@ -46,13 +47,21 @@ const SandboxPage: NextPage<Props> = ({ menu }) => {
   return (
     <Layout menu={menu} title="Sandbox">
       <Stack spacing={2}>
+        <Typography>
+          This page is not officially part of the Wiki and serves as repository
+          for interactive content until a better location for it is found.
+        </Typography>
         <Card>
           <CardContent>
-            <Typography>
-              This page is not officially part of the Wiki and serves as
-              repository for interactive content until a better location for it
-              is found.
+            <Typography paragraph variant="h3">
+              Spoils Calculator
             </Typography>
+            <Typography paragraph>
+              Estimate the likelihood of success with{' '}
+              <em>Spoils of the Vault</em> on the stack looking for a specific
+              card within the current library for the given copies left.
+            </Typography>
+            <SpoilsCalculator />
           </CardContent>
         </Card>
         <Card>
@@ -99,7 +108,7 @@ const SandboxPage: NextPage<Props> = ({ menu }) => {
                   ),
               )
             ) : (
-              <Typography color="text.secondary" sx={{ fontStyle: 'italic' }}>
+              <Typography sx={{ color: 'text.secondary', fontStyle: 'italic' }}>
                 Type something to see the corresponding Phyrexian scripture.
               </Typography>
             )}

@@ -27,7 +27,7 @@ export const CardFace: FunctionComponent<Props> = ({ active, data, sx }) => {
   ));
 
   return (
-    <Tooltip arrow title={title}>
+    <Tooltip title={title}>
       <Fade in={active}>
         <Box
           alt={titleLines.join(' - ')}
