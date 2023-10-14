@@ -36,42 +36,43 @@ and easily among the most powerful.
 
 To back up this claim, we'll discuss the use of Spoils as a simple tutor, the
 mathematics and probabilities surrounding its use, and the types of decks that
-can best make use of its power. And since this is the Doomsday Wiki, we'll also
-talk about its applicability to Legacy Doomsday decks, where it has utility
+can best make use of its power. And since this is the _Doomsday Wiki_, we'll
+also talk about its applicability to Legacy Doomsday decks, where it has utility
 beyond being a simple tutor. Let's get to it!
+
+## Table of Contents
 
 ## Spoils as a Tutor
 
-### Part 1: Some Math
+### Part 1: Some Maths
 
 It's impossible to discuss using Spoils of the Vault as a tutor without
 disussing the risk of death, so let's get that out of the way first. How likely
 are you to die when you cast Spoils? You can play with the widget below to test
 some scenarios. It simulates casting Spoils 10000 times with the parameters you
-define, and computes average life loss and death probability figures.
+define, and computes average life loss as well as death probability figures.
 
 ::insert spoils calculator widget here::
 
 In the base case, if you have 20 life, 53 cards left in your library, and you
-name a 4-of, you have approximately a 14% chance to lose the game, and you'll
-lose on average around 10 life. If you name a 3-of, you have roughly a 23%
-chance to die and will lose around 13 life on average. If you plan to play with
-Spoils of the vault, it's useful to be able to approximmate these values on the
-fly, so here's a couple heuristics for that purpose:
+name a 4-of, you have about 14% chance to lose the game, and you'll lose on
+average around 10 life. If you name a 3-of, you have roughly a 24% chance to die
+and will lose around 13 life. If you plan to play with Spoils of the vault, it's
+useful to be able to approximmate these values on the fly, so here are a couple
+heuristics for that purpose:
 
 > To approximate average life loss, divide your deck size by 1 plus the number
 > of remaining copies of the named card.
 >
-> To approximate percentage to die, multiply 40 by the ratio of avg. life loss
-> to your life total.
+> To approximate percentage to die, multiply 40 by the ratio of average life
+> loss to your life total.
 
 The first is much simpler, and if you think about it you can probably intuit why
 its true. The second heuristic relies on the first, is not as easy to mentally
-math, and only accurate to within 5-10%, but it's the best I've
-come up with.
+math, and only accurate to within 5-10%, but it's the best I've come up with.
 
 Now with that behind us, we can discuss What kinds of decks might want Spoils
-and how to construct a deck to maximally leverge it. Clearly we want to build a
+and how to construct a deck to maximally leverage it. Clearly we want to build a
 deck with as many 4-ofs of important cards as possible. This isn't much of a
 deviation from normal Legacy deckbuilding where we generally want as many copies
 as possible of our best cards. However it is unlike many tutor-centric decks
@@ -83,7 +84,7 @@ fourth.
 Additionally, the deck should be built to limit the amount of damage that gets
 done to its pilot. Fetchlands, :card[Thoughtseize], or other cards that use life
 as a resource should be carefully considered as inclusions because the damage
-can add up and reduce the number of cards you can see with Spoils. But most
+adds up and reduces the number of cards you can see with Spoils. But most
 importantly the deck should be fast so you don't need to worry about your
 opponent taking chunks out of your life total.
 
@@ -132,14 +133,15 @@ In the years between then and now, we can see a handful of results crop up with
 Spoils of the Vault. A [Dark Depths/Reanimator hybrid
 list](https://www.tcdecks.net/deck.php?id=9950&iddeck=72530) that played it
 managed to reach 5th out of 166 in an SCG Open in 2013. There are also some
-results from similar list in MTGO events from that time. Not so long ago in
+results from similar lists in MTGO events from that time. Not so long ago in
 2019, there are a handful of MTGO league 5-0s from a couple different people
-with a Mono-Black Painter/Helm of Obedience deck like [this one that plays
-Spoils](https://www.mtggoldfish.com/deck/2371231). These are the types of decks
-that Spoils is well suited to. Fast two-card combo decks, looking to go fast so
-life totals don't matter. There may be multiple combo plans in one deck, but
-they rely on the same enablers like fast mana, and so Spoils of the Vault acts
-as a sort of glue to enable both plans concurrently and hold the deck together.
+with a Mono-Black Painter/Helm of Obedience deck like [this
+one](https://www.mtggoldfish.com/deck/2371231) that plays Spoils as well. These
+are the types of decks that Spoils is well suited to. Fast two-card combo decks,
+looking to go fast so life totals don't matter. There may be multiple combo
+plans in one deck, but they rely on the same enablers like fast mana, and so
+Spoils of the Vault acts as a sort of glue to enable both plans concurrently and
+hold the deck together.
 
 :::row{variant=CENTERED}
 Witherbloom Apprentice
@@ -160,16 +162,16 @@ combo](/media/pictures/2023.spoils.jax.png)
 
 Perhaps it was the aforementioned beer talking but clearly the card made an
 impression. I don't know if Jax ever achieved any results with a list like this,
-but [kl0gW got a 5-0 some time later](https://www.mtggoldfish.com/deck/4259052#paper).
+but [kl0gW got a 5-0 some time later](https://www.mtggoldfish.com/deck/4259052).
 This deck overall didn't seem to catch on however, and today it is a fringe
 combo option, with or (more frequently) without Spoils.
 
 So we can see that Spoils of the Vault probably has the raw power to compete in
-legacy, if only in a certain subset of viable decks. All the decks mentioned are
-essentially 2 card combos. Even Nausea is sort of a 2-card combo, because you
+Legacy, if only in a certain subset of viable decks. All the decks mentioned are
+essentially 2-card combos. Even _Nausea_ is sort of a 2-card combo, because you
 need mana and business, and Spoils can become whichever you don't have. There
-are plenty of 2 card combo decks in Legacy right now, and even if they don't
-play black normally splashing colors is easy. So then why does it not show up
+are plenty of 2-card combo decks in Legacy right now, and even if they don't
+play black normally, splashing colors is easy. So then why does it not show up
 more often? Well, it's not really a tough question, is it? The card is easily
 among the highest risk cards in the format, and Magic, as a game with inherent
 variance, is often viewed through the lens of minimizing risk. As such, most
@@ -191,8 +193,8 @@ and so it can be difficult to get past a bad loss, much less a string of losses.
 ![Emidln has given up on Spoils](/media/pictures/2023.spoils.emidln.png)
 
 It's important to recognize that the power level and flexibility provided by a
-1-mana, instant speed tutor will, over a sufficiently large sample size,
-increase your winrate by more than the Sudden Instant Death by Spoils will
+1-mana, instant-speed tutor will, over a sufficiently large sample size,
+increases your winrate by more than the Sudden Instant Death by Spoils will
 decrease it.
 
 ![Wonderpreaux, regarding Spoils of the
@@ -205,7 +207,7 @@ win anyway. So if you die to Spoils from a high life total, you have simply
 shortcut to the inevitable outcome of the game. You and your opponent will
 appreciate the bathroom break. Realistically, in many games where you DON'T die
 to Spoils, it will actually have let you dig deeper than you otherwise would be
-able to, because in Legacy games can easily end before you can dig even 10 cards
+able to, because Legacy games can easily end before you can dig even 10 cards
 deep.
 
 There are situations where this fundamental principle won't exactly be true, for
@@ -214,8 +216,8 @@ probabilities are the same for each card, you simply have to choose one by
 whatever means you like, and accept that sometimes you will lose the game
 because you chose the wrong one.
 
-Before we dive into the applications of Spoils in Doomsdsay specifically, lets
-look at some math one more time, to hopefully drive home the point that this
+Before we dive into the applications of Spoils in Doomsday specifically, lets
+look at some maths one more time, to hopefully drive home the point that this
 card is powerful and worth the risk. Imagine a hypothetical 2-card combo deck,
 and of course you want to have a copy of each combo piece in your hand so you
 can win. For now we'll ignore how we'd pay for those cards or what turn they
@@ -223,19 +225,19 @@ might get cast on.
 
 The chance of drawing 1 of each in a 7 card hand is 14.5%, computed via a
 multivariate hypergeometric distribution. If you mulligan as low as 4, your
-chance of having 1 of each becomes ~47%. With 4 copies of Spoils of the Vault in
-your deck, your chance of having 1 of each combo piece, or one of either combo
-piece plus a Spoils, rise to 40%, and if you mulligan as low as 4 your chance of
-finding your combo pieces increases to nearly 88%!. Even factoring in that you
-will only survive Spoils around 85% of the time, you still end up with a much
-higher probability of finding those combo pieces.
+chance of having 1 of each becomes about 47%. With 4 copies of Spoils of the
+Vault in your deck, your chance of having 1 of each combo piece, or one of
+either combo piece plus a Spoils, rise to 40%, and if you mulligan as low as 4
+your chance of finding your combo pieces increases to nearly 88%!. Even
+factoring in that you will only survive Spoils around 85% of the time, you still
+end up with a much higher probability of finding those combo pieces.
 
 ## Spoils of the Vault in Doomsday
 
 Finally, we have reached the Doomsday portion of the article where we discuss
 Doomsday-specific uses for Spoils of the Vault. The card has enough utility that
 we believe it should be a much more commonly played tool in the deck. It has
-been 'proven' useful in [Mindkiller
+been _proven_ useful in [Mindkiller
 Doomsday](/articles/2022/01/16/the-mindkiller-update), and while this style of
 list also makes use of it as a simple tutor, it has all the same applications in
 Doomsday piles as it would in the more typical Turbo Doomsday lists. It should
@@ -251,7 +253,7 @@ In Turbo Doomsday, Spoils of the Vault particularly shines as a pile card. After
 resolving Doomsday, you know the exact construction and order of your library,
 meaning that (barring shuffle effects in response like a Surgical Extraction),
 Spoils will find you the card you name for a small, known cost of life. Let's
-take a look at some of the possibilities reagarding Doomsday piles.
+take a look at some of the possibilities regarding Doomsday piles.
 
 ### Spoils Is a Cantrip for {B}
 
@@ -271,9 +273,9 @@ at the bottom of your pile for as little mana or life.
 Brainstorm can be one of the most powerful enablers for Doomsday piles since it
 allows you to put up to three fresh cards in your hand, if you have useless
 cards you can afford to get rid of. The problem is that after doing this it's
-often difficult to create a "perfect pile", since the cards you put back on top
+often difficult to create a _perfect pile_, since the cards you put back on top
 of your library likely do not draw into other cards. Spoils can cleanly resolve
-this issue. For example with Brainstorm and two useless cards in hand, {U} {B}
+this issue. For example with Brainstorm and two useless cards in hand, {U}{B}
 available, and at least 4 life you might pile:
 
 :::row{variant=PILE}
@@ -284,7 +286,7 @@ X
 TO
 :::
 
-Drawing Spoils of the Vault, Lotus Petal, Lotus Petal with Brainstorm and
+Drawing Spoils of the Vault, Lotus Petal and Lotus Petal with Brainstorm,
 putting back the useless cards you had in hand, you can then cast Spoils naming
 Thassa's Oracle and clear the entire pile! Even outside of Doomsday piles, you
 can Brainstorm and then name the second card down with Spoils to clear a
@@ -311,19 +313,19 @@ TO
 :::
 
 If your opponent does not play the problem card on their turn you can cast
-Spoils for card:[Cavern of Souls] on their end step and draw Thassa's Oracle on
+Spoils for :card[Cavern of Souls] on their end step and draw Thassa's Oracle on
 your turn for the win. If they did turn out to have the problem card you simply
-spoils for card:[Force of Will] in response and counter it, passing one extra
+spoils for :card[Force of Will] in response and counter it, passing one extra
 time to draw both Cavern and Oracle. Piles like this can get highly complex,
 with the two miscellaneous cards on top potentially representing additional
 backup plans.
 
 To further illustrate the point, here's another example. Imagine a situation
 similar to last time with spoils in hand and {B} open for the opponent's turn,
-but in this case you are worried about your opponent having card:[Dress Down]
+but in this case you are worried about your opponent having :card[Dress Down]
 and would like a pile with an extra Thassa's Oracle so you can try again if the
 worst happens. What's more, you are also worried that your opponent might play a
-card:[Murktide Regent] and hold up a removal spell, punishing you for your
+:card[Murktide Regent] and hold up a removal spell, punishing you for your
 imperfect pile on your first attempt and not giving you the time to make a
 second. In this case you could pile:
 
@@ -339,7 +341,7 @@ If your opponent does not play the Murktide Regent you can cast spoils on their
 endstep for Cavern of Souls, drawing your Oracle with Two cards left in library
 and comfortably able to try casting both Oracles if the first gets hit with
 Dress Down. Alternatively, if they do play the Murktide Regent, you can name
-card:[Pact of Negation] making this into a perfect pile with counterspell
+:card[Pact of Negation] making this into a perfect pile with counterspell
 backup.
 
 ### Spoils Is a Powerful Tool for Beating Hate
@@ -398,8 +400,7 @@ This requires just {B}{U}{U} after Doomsday and so is very reasonable to achieve
 with 3 lands.
 
 Futhermore, you can use Spoils to clear out cards that are put back into the
-deck by Endurance, before your Oracle trigger resolves. Consider the following
-pile:
+deck by Endurance, before your Oracle trigger resolves. See the following pile:
 
 :::row{variant=PILE}
 IU
