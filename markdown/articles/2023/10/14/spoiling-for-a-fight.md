@@ -227,10 +227,11 @@ The chance of drawing 1 of each in a 7 card hand is 14.5%, computed via a
 multivariate hypergeometric distribution. If you mulligan as low as 4, your
 chance of having 1 of each becomes about 47%. With 4 copies of Spoils of the
 Vault in your deck, your chance of having 1 of each combo piece, or one of
-either combo piece plus a Spoils, rise to 40%, and if you mulligan as low as 4
-your chance of finding your combo pieces increases to nearly 88%!. Even
+either combo piece plus a copy of Spoils, rises to 34%, and if you mulligan as
+low as 4 your chance of finding what you need increases to nearly 82%! Even
 factoring in that you will only survive Spoils around 85% of the time, you still
-end up with a much higher probability of finding those combo pieces.
+end up with a nice 69% probability of surviving with those 2 combo pieces in
+hand, over 20% higher than Spoils.
 
 ## Spoils of the Vault in Doomsday
 
