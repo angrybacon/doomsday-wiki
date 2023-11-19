@@ -7,6 +7,19 @@ import { walk } from './walk';
 /** Regular expression to capture all headings in a Markdown buffer. */
 const HEADING_RE = /^#{1,6} (?<text>.+)$/gm;
 
+/** List of headings to skip. */
+const HEADING_BL: readonly string[] = [
+  'closing thoughts',
+  'closing words',
+  'conclusion',
+  'final thoughts',
+  'introduction',
+  'next steps',
+  'preamble',
+  'preface',
+  'table of contents',
+];
+
 function assertKind(value: unknown): asserts value is Kind | undefined {
   if (value && !Object.values(KINDS).includes(value)) {
     throw new Error(`Unknown kind "${value}"`);
@@ -36,7 +49,9 @@ export const read = (root: string): Entry[] => {
         const matches = [...content.matchAll(HEADING_RE)];
         headings = matches.reduce<string[]>((accumulator, match) => {
           const heading = match.groups?.text;
-          return heading ? [...accumulator, heading] : accumulator;
+          return heading && !HEADING_BL.includes(heading.toLowerCase())
+            ? [...accumulator, heading]
+            : accumulator;
         }, []);
       }
       return { kind: kind ?? null, headings, title };
