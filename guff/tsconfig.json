@@ -6,7 +6,7 @@
     "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "esnext"
   },
   "include": ["**/*.ts"],
   "ts-node": { "files": true }

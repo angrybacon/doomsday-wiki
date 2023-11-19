@@ -4,8 +4,10 @@ export interface Entry {
   title: string;
 }
 
-export enum Kind {
-  ARTICLE,
-  PRIMER,
-  REPORT,
-}
+export const KINDS = {
+  article: 'ARTICLE',
+  primer: 'PRIMER',
+  report: 'REPORT',
+} as const;
+
+export type Kind = (typeof KINDS)[keyof typeof KINDS];

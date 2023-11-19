@@ -1,14 +1,14 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
-import { Kind, type Entry } from './models';
+import { KINDS, type Entry, type Kind } from './models';
 import { walk } from './walk';
 
 /** Regular expression to capture all headings in a Markdown buffer. */
 const HEADING_RE = /^#{1,6} (?<text>.+)$/gm;
 
 function assertKind(value: unknown): asserts value is Kind | undefined {
-  if (value && !Object.keys(Kind).includes(value)) {
+  if (value && !Object.values(KINDS).includes(value)) {
     throw new Error(`Unknown kind "${value}"`);
   }
 }
@@ -30,11 +30,15 @@ export const read = (root: string): Entry[] => {
     try {
       assertKind(kind);
       assertTitle(title);
-      const matches = [...content.matchAll(HEADING_RE)];
-      const headings = matches.reduce<string[]>((accumulator, match) => {
-        const heading = match.groups?.text;
-        return heading ? [...accumulator, heading] : accumulator;
-      }, []);
+      let headings: string[] = [];
+      // NOTE Skip reports as they tend to have headings that are too generic
+      if (kind !== KINDS.report) {
+        const matches = [...content.matchAll(HEADING_RE)];
+        headings = matches.reduce<string[]>((accumulator, match) => {
+          const heading = match.groups?.text;
+          return heading ? [...accumulator, heading] : accumulator;
+        }, []);
+      }
       return { kind: kind ?? null, headings, title };
     } catch (error) {
       const message = error instanceof Error ? error.message : `${error}`;
