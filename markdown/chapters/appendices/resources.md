@@ -109,6 +109,7 @@ Alternate writings on Doomsday from around the Web.
 
 | Link                                                                                                                                     | Date          | Author                       | Language |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------- | -------- |
+| [_Freakle_'s report for EW2023 Prague](https://magicblogs.de/blog/9604-eternal-weekend-prag-2023-recap/)                                 | November 2023 | Freakle                      | German   |
 | [Grixis Tempo Doomsday: part 2](https://minmaxblog.com/embracing-the-dichotomy-a-guide-and-love-letter-to-grixis-tempo-doomsday-part-2/) | October 2022  | Samantha _RoseIsland_ Murphy | English  |
 | [Grixis Tempo Doomsday: part 1](https://minmaxblog.com/embracing-the-dichotomy-a-guide-and-love-letter-to-grixis-tempo-doomsday-part-1/) | October 2022  | Samantha _RoseIsland_ Murphy | English  |
 | [UB Tempo Doomsday](https://minmaxblog.com/ub-tempo-doomsday-origins-card-choices-and-primer/)                                           | February 2022 | Max _Maxtortion_ Gilmore     | English  |
