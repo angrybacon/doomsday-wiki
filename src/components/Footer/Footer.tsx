@@ -21,7 +21,7 @@ export const Footer: FunctionComponent<Props> = ({ isClear, sx }) => {
       ]}
     >
       <Typography component="p" variant="caption">
-        Copyright &copy; 2017-2023 Doomsday Wiki contributors. Read the notice
+        Copyright &copy; 2017-2024 Doomsday Wiki contributors. Read the notice
         about <Link href="/license">licenses and resources</Link>.
       </Typography>
       <Typography component="p" variant="caption">
