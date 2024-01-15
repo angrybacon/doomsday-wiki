@@ -109,6 +109,7 @@ Alternate writings on Doomsday from around the Web.
 
 | Link                                                                                                                                     | Date          | Author                       | Language |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------- | ---------------------------- | -------- |
+| [Dissecting Doomsday](https://docs.google.com/document/d/1SXlk4Esy8QTOat3tNViQ5TNzqLJmfwyBT6K1b26q_P0)                                   | December 2023 | David Delgado                | English  |
 | [_Freakle_'s report for EW2023 Prague](https://magicblogs.de/blog/9604-eternal-weekend-prag-2023-recap/)                                 | November 2023 | Freakle                      | German   |
 | [Grixis Tempo Doomsday: part 2](https://minmaxblog.com/embracing-the-dichotomy-a-guide-and-love-letter-to-grixis-tempo-doomsday-part-2/) | October 2022  | Samantha _RoseIsland_ Murphy | English  |
 | [Grixis Tempo Doomsday: part 1](https://minmaxblog.com/embracing-the-dichotomy-a-guide-and-love-letter-to-grixis-tempo-doomsday-part-1/) | October 2022  | Samantha _RoseIsland_ Murphy | English  |
