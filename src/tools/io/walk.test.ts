@@ -1,7 +1,9 @@
 import { readFileSync } from 'fs';
 import { vol } from 'memfs';
+
 import { walk } from '@/tools/io/walk';
 
+// eslint-disable-next-line global-require
 jest.mock('fs', () => require('memfs'));
 
 describe(walk.name, () => {

@@ -12,34 +12,15 @@
   ],
   "overrides": [
     {
-      "files": ["*.{ts,tsx}"],
-      "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": "error",
-        "react/prop-types": "off",
-        "react/react-in-jsx-scope": "off",
-        "react/require-default-props": "off"
-      }
-    },
-    {
-      "files": ["*.test.{ts,tsx}"],
-      "rules": {
-        "@typescript-eslint/no-var-requires": "off",
-        "global-require": "off",
-        "import/no-extraneous-dependencies": "off"
-      }
-    },
-    {
-      "files": ["jest.*.js"],
-      "globals": { "jest": true },
+      "files": ["**/*.js"],
       "rules": {
         "@typescript-eslint/no-var-requires": "off"
       }
     },
     {
-      "files": ["scryfall/**/*.js"],
+      "files": ["*.test.{ts,tsx}"],
       "rules": {
-        "@typescript-eslint/no-var-requires": "off",
-        "no-console": "off"
+        "import/no-extraneous-dependencies": "off"
       }
     },
     {
@@ -70,14 +51,16 @@
       }
     ],
     "camelcase": ["warn", { "ignoreDestructuring": true }],
+    "import/consistent-type-specifier-style": ["error", "prefer-inline"],
     "import/extensions": [
       "error",
       "ignorePackages",
       { "ts": "never", "tsx": "never" }
     ],
     "import/no-unresolved": "off",
+    "import/order": "off",
     "import/prefer-default-export": "off",
-    "no-console": ["warn", { "allow": ["error"] }],
+    "no-console": ["error", { "allow": ["count", "error", "info"] }],
     "no-nested-ternary": "off",
     "no-param-reassign": ["error", { "props": false }],
     "no-restricted-syntax": [
@@ -101,7 +84,10 @@
       { "extensions": [".jsx", ".tsx"] }
     ],
     "react/jsx-no-useless-fragment": ["warn", { "allowExpressions": true }],
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off"
   },
   "settings": {
     "import/resolver": {
