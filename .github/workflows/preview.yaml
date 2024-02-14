@@ -7,7 +7,6 @@ env:
 on: push
 
 jobs:
-
   lint:
     name: Lint
     runs-on: ubuntu-latest
@@ -18,7 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: 'yarn'
-          node-version: 18
+          node-version-file: 'package.json'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Lint code
@@ -36,7 +35,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: 'yarn'
-          node-version: 18
+          node-version-file: 'package.json'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Run tests
@@ -53,11 +52,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: 'yarn'
-          node-version: 18
+          node-version-file: 'package.json'
       - name: Set up Vercel
         run: |
-            yarn global add vercel@latest
-            vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+          yarn global add vercel@latest
+          vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy
@@ -75,11 +74,11 @@ jobs:
         uses: actions/setup-node@v3
         with:
           cache: 'yarn'
-          node-version: 18
+          node-version-file: 'package.json'
       - name: Set up Vercel
         run: |
-            yarn global add vercel@latest
-            vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          yarn global add vercel@latest
+          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy
