@@ -1,7 +1,6 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
-import { useState } from 'react';
 import { Box } from '@mui/material';
+import { useState, type FunctionComponent } from 'react';
+import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 
 export const RemarkSpoiler: FunctionComponent<ReactMarkdownProps> = ({
   children,

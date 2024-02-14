@@ -1,8 +1,9 @@
-import type { Components } from 'react-markdown';
-import type {
-  TableDataCellComponent,
-  TableHeaderCellComponent,
+import { type Components } from 'react-markdown';
+import {
+  type TableDataCellComponent,
+  type TableHeaderCellComponent,
 } from 'react-markdown/lib/ast-to-react';
+
 // eslint-disable-next-line import/no-cycle
 import { RemarkAccordion } from '@/components/Remark/renderers/RemarkAccordion';
 import { RemarkCard } from '@/components/Remark/renderers/RemarkCard';
@@ -14,8 +15,8 @@ import { RemarkImage } from '@/components/Remark/renderers/RemarkImage';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
 import { RemarkList } from '@/components/Remark/renderers/RemarkList';
 import { RemarkMana } from '@/components/Remark/renderers/RemarkMana';
-import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
 import { RemarkParagraph } from '@/components/Remark/renderers/RemarkParagraph';
+import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
 import { RemarkRow } from '@/components/Remark/renderers/RemarkRow';
 import { RemarkSoundcloud } from '@/components/Remark/renderers/RemarkSoundcloud';
 import { RemarkSpoiler } from '@/components/Remark/renderers/RemarkSpoiler';

@@ -1,19 +1,20 @@
-import type { FunctionComponent } from 'react';
 import { mdiAccount, mdiCalendar, mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
   Accordion,
+  accordionClasses,
   AccordionDetails,
   AccordionSummary,
+  accordionSummaryClasses,
   Box,
   Typography,
-  accordionClasses,
-  accordionSummaryClasses,
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
+import { type FunctionComponent } from 'react';
+
 import { Column } from '@/components/Decklist/Column';
 import { Mana } from '@/components/Mana/Mana';
-import type { Card } from '@/tools/decklists/types';
+import { type Card } from '@/tools/decklists/types';
 
 interface Props {
   authors: string | null;

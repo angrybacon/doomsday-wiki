@@ -1,10 +1,3 @@
-import type { Components } from 'react-markdown';
-import type {
-  ComponentType,
-  TableDataCellProps,
-  TableHeaderCellProps,
-  TableRowComponent,
-} from 'react-markdown/lib/ast-to-react';
 import {
   Table,
   TableBody,
@@ -13,6 +6,13 @@ import {
   TableRow,
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
+import { type Components } from 'react-markdown';
+import {
+  type ComponentType,
+  type TableDataCellProps,
+  type TableHeaderCellProps,
+  type TableRowComponent,
+} from 'react-markdown/lib/ast-to-react';
 
 export const RemarkTable: Components['table'] = ({ children }) => (
   <Table

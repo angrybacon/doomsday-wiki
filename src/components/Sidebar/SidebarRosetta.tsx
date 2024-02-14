@@ -1,17 +1,16 @@
-import { useEffect, useState } from 'react';
-import type { FunctionComponent } from 'react';
 import {
   Table,
   TableBody,
   TableCell,
+  tableCellClasses,
   TableHead,
   TableRow,
-  tableCellClasses,
 } from '@mui/material';
-import type { Theme } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
-import { getRosetta } from '@/tools/game/getRosetta';
-import type { Rosetta } from '@/tools/game/getRosetta';
+import { type Theme } from '@mui/material/styles';
+import { type SxProps } from '@mui/system';
+import { useEffect, useState, type FunctionComponent } from 'react';
+
+import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
 
 interface Props {
   category: string | undefined;

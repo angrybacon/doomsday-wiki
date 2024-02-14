@@ -1,7 +1,7 @@
 import { DECK_RE } from '@/tools/decklists/constants';
 import { parseCards } from '@/tools/decklists/parseCards';
 import { parseHeader } from '@/tools/decklists/parseHeader';
-import type { Decklist } from '@/tools/decklists/types';
+import { type Decklist } from '@/tools/decklists/types';
 
 /**
  * Parse a deck as string and return all cards with their corresponding amount

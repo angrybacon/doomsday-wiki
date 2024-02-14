@@ -1,9 +1,13 @@
-import type { ContainerDirective, LeafDirective } from 'mdast-util-directive';
-import type { Plugin } from 'unified';
-import type { Node } from 'unist';
+import {
+  type ContainerDirective,
+  type LeafDirective,
+} from 'mdast-util-directive';
+import { type Plugin } from 'unified';
+import { type Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
-import type { Decklists } from '@/tools/decklists/types';
-import type { Partials } from '@/tools/markdown/types';
+
+import { type Decklists } from '@/tools/decklists/types';
+import { type Partials } from '@/tools/markdown/types';
 
 const remarkWithChildren = (directive: Node & ContainerDirective): void => {
   const { column: c, line: l } = directive.position?.start ?? {};

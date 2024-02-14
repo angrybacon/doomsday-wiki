@@ -3,6 +3,7 @@ import readingTime from 'reading-time';
 import remarkDirective from 'remark-directive';
 import remarkParse from 'remark-parse';
 import { unified } from 'unified';
+
 import { readMarkdown } from '@/tools/io/readMarkdown';
 import { toDirective } from '@/tools/mana/toDirective';
 import {
@@ -15,15 +16,15 @@ import {
   readArticleMatter,
   readChapterMatter,
 } from '@/tools/markdown/readMatter';
-import type {
-  Article,
-  Chapter,
-  Partial,
-  Partials,
+import {
+  type Article,
+  type Chapter,
+  type Partial,
+  type Partials,
 } from '@/tools/markdown/types';
 import { remarkPartials } from '@/tools/remark/remarkPartials';
 import { remarkScries } from '@/tools/remark/remarkScries';
-import type { Scries } from '@/tools/scryfall/types';
+import { type Scries } from '@/tools/scryfall/types';
 
 /**
  * Read file system and return Markdown content with its matter for the

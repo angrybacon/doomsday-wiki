@@ -1,10 +1,11 @@
-import type { Text } from 'mdast';
-import type { Node } from 'unist';
-import type { ContainerDirective } from 'mdast-util-directive';
-import type { Plugin } from 'unified';
+import { type Text } from 'mdast';
+import { type ContainerDirective } from 'mdast-util-directive';
+import { type Plugin } from 'unified';
+import { type Node } from 'unist';
 import { select } from 'unist-util-select';
 import { Test, visit } from 'unist-util-visit';
-import type { Scries, ScryCard } from '@/tools/scryfall/types';
+
+import { type Scries, type ScryCard } from '@/tools/scryfall/types';
 
 /**
  * Parse row directives and augment properties with Scry results for the current

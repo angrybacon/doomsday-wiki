@@ -1,6 +1,6 @@
+import { Link as MuiLink } from '@mui/material';
 import NextLink from 'next/link';
 import { FunctionComponent, ReactNode } from 'react';
-import { Link as MuiLink } from '@mui/material';
 
 interface Props {
   children: ReactNode;

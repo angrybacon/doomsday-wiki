@@ -1,7 +1,14 @@
-import { createContext, useEffect, useMemo, useState } from 'react';
-import type { FunctionComponent, ReactNode } from 'react';
 import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
-import { THEME_STORAGE_KEY, Theme } from '@/theme/constants';
+import {
+  createContext,
+  useEffect,
+  useMemo,
+  useState,
+  type FunctionComponent,
+  type ReactNode,
+} from 'react';
+
+import { Theme, THEME_STORAGE_KEY } from '@/theme/constants';
 import { darkTheme, lightTheme } from '@/theme/theme';
 
 interface ThemeState {

@@ -1,5 +1,6 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+import { type FunctionComponent } from 'react';
+import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+
 import { Link } from '@/components/Link/Link';
 
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';

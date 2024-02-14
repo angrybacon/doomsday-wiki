@@ -1,5 +1,3 @@
-import { GetStaticProps, NextPage } from 'next';
-import { useEffect, useState, type ChangeEvent } from 'react';
 import {
   Box,
   Card,
@@ -9,11 +7,14 @@ import {
   Typography,
 } from '@mui/material';
 import { Stack } from '@mui/system';
+import { GetStaticProps, NextPage } from 'next';
+import { useEffect, useState, type ChangeEvent } from 'react';
+
 import { Layout } from '@/components/Layout/Layout';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 import { phyrexian } from '@/fonts/fonts';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { MenuEntry } from '@/tools/markdown/types';
+import { type MenuEntry } from '@/tools/markdown/types';
 
 // NOTE Flavor text from "Dark Ritual" Urza's Saga
 const DEFAULT_INPUT = `From void evolved Phyrexia.

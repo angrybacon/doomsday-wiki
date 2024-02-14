@@ -1,15 +1,16 @@
-import { useEffect, type FunctionComponent, ReactNode } from 'react';
+import { accordionClasses, Box, tableClasses } from '@mui/material';
+import { ReactNode, useEffect, type FunctionComponent } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 import remarkSlug from 'remark-slug';
 import remarkToc from 'remark-toc';
-import type { PluggableList } from 'unified';
-import { Box, accordionClasses, tableClasses } from '@mui/material';
+import { type PluggableList } from 'unified';
+
 // eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
-import type { Decklists } from '@/tools/decklists/types';
-import type { Partial } from '@/tools/markdown/types';
+import { type Decklists } from '@/tools/decklists/types';
+import { type Partial } from '@/tools/markdown/types';
 import { remarkAccordion } from '@/tools/remark/remarkAccordion';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';

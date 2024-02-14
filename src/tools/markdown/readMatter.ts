@@ -1,4 +1,3 @@
-import type { ArticleMatter, ChapterMatter } from '@/tools/markdown/types';
 import {
   sanitizeArticleKind,
   sanitizeArticleTags,
@@ -7,6 +6,7 @@ import {
   sanitizeOrder,
   sanitizeTitle,
 } from '@/tools/markdown/sanitize';
+import { type ArticleMatter, type ChapterMatter } from '@/tools/markdown/types';
 
 type ReadMatter<M> = (data: Record<string, unknown>) => M;
 

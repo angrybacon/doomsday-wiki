@@ -1,8 +1,9 @@
-import Image from 'next/image';
-import type { FunctionComponent } from 'react';
 import { Box, Divider, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import type { Banner as BannerModel } from '@/tools/markdown/types';
+import Image from 'next/image';
+import { type FunctionComponent } from 'react';
+
+import { type Banner as BannerModel } from '@/tools/markdown/types';
 
 interface Props {
   banner: BannerModel;

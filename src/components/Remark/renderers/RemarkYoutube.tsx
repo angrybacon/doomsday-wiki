@@ -1,6 +1,6 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Box } from '@mui/material';
+import { type FunctionComponent } from 'react';
+import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 
 interface Props extends ReactMarkdownProps {
   id?: string;

@@ -1,7 +1,8 @@
-import type { FunctionComponent } from 'react';
 import { Box } from '@mui/material';
-import type { Theme } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
+import { type Theme } from '@mui/material/styles';
+import { type SxProps } from '@mui/system';
+import { type FunctionComponent } from 'react';
+
 import { useScroll } from '@/hooks/useScroll';
 
 interface Props {

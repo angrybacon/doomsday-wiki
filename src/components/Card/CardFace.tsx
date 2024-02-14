@@ -1,8 +1,9 @@
-import type { FunctionComponent, ReactNode } from 'react';
 import { Box, Fade, Tooltip } from '@mui/material';
-import type { Theme } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
-import type { ScryCard } from '@/tools/scryfall/types';
+import { type Theme } from '@mui/material/styles';
+import { type SxProps } from '@mui/system';
+import { type FunctionComponent, type ReactNode } from 'react';
+
+import { type ScryCard } from '@/tools/scryfall/types';
 
 export interface Props {
   active: boolean;

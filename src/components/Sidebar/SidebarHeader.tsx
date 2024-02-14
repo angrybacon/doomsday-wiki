@@ -1,11 +1,12 @@
-import NextLink from 'next/link';
-import { FunctionComponent, useContext } from 'react';
-import { siDiscord } from 'simple-icons';
 import { mdiLightbulbOff, mdiLightbulbOn } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, Button, IconButton, Toolbar, Tooltip } from '@mui/material';
-import type { Theme } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
+import { type Theme } from '@mui/material/styles';
+import { type SxProps } from '@mui/system';
+import NextLink from 'next/link';
+import { FunctionComponent, useContext } from 'react';
+import { siDiscord } from 'simple-icons';
+
 import { ThemeContext } from '@/theme/ThemeContext';
 
 interface Props {

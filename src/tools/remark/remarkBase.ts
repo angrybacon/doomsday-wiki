@@ -1,6 +1,6 @@
-import type { Directives } from 'mdast-util-directive';
-import type { Plugin } from 'unified';
-import type { Node } from 'unist';
+import { type Directives } from 'mdast-util-directive';
+import { type Plugin } from 'unified';
+import { type Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
 
 /**

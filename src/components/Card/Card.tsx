@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import type { FunctionComponent, ReactNode } from 'react';
 import { mdiCached } from '@mdi/js';
 import Icon from '@mdi/react';
 import { Box, IconButton } from '@mui/material';
 import { alpha } from '@mui/material/styles';
+import { useState, type FunctionComponent, type ReactNode } from 'react';
+
 import { CardFace } from '@/components/Card/CardFace';
-import type { ScryCard } from '@/tools/scryfall/types';
+import { type ScryCard } from '@/tools/scryfall/types';
 
 export interface Props {
   data: ScryCard[];

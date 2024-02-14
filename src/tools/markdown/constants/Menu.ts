@@ -1,5 +1,5 @@
 import { Category } from '@/tools/markdown/constants/Category';
-import type { MenuDecoration } from '@/tools/markdown/types';
+import { type MenuDecoration } from '@/tools/markdown/types';
 
 /** List the menu entries and their corresponding decorations in order. */
 export const DECORATIONS: MenuDecoration[] = [

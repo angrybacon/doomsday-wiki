@@ -1,10 +1,9 @@
-import { useEffect, useState } from 'react';
-import type { FunctionComponent } from 'react';
 import { mdiChevronUp } from '@mdi/js';
 import Icon from '@mdi/react';
 import { Fab, Fade, useScrollTrigger } from '@mui/material';
-import type { Theme } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
+import { type Theme } from '@mui/material/styles';
+import { type SxProps } from '@mui/system';
+import { useEffect, useState, type FunctionComponent } from 'react';
 
 interface Props {
   sx?: SxProps<Theme>;

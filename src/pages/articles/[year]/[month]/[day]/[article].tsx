@@ -1,25 +1,26 @@
 import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
-import type {
-  GetStaticPaths,
-  GetStaticPathsResult,
-  GetStaticProps,
-  NextPage,
-} from 'next';
 import { Card, CardContent, Divider } from '@mui/material';
+import {
+  type GetStaticPaths,
+  type GetStaticPathsResult,
+  type GetStaticProps,
+  type NextPage,
+} from 'next';
+
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
-import type { Decklists } from '@/tools/decklists/types';
+import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getArticle, getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type {
-  Article,
-  ArticleCard,
-  MenuEntry,
-  Partial,
+import {
+  type Article,
+  type ArticleCard,
+  type MenuEntry,
+  type Partial,
 } from '@/tools/markdown/types';
 
 interface Props {

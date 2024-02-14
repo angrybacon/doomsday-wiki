@@ -1,11 +1,12 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Box } from '@mui/material';
-import { Theme, alpha } from '@mui/material/styles';
-import type { SystemStyleObject } from '@mui/system';
+import { alpha, Theme } from '@mui/material/styles';
+import { type SystemStyleObject } from '@mui/system';
+import { type FunctionComponent } from 'react';
+import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+
 import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
-import type { ScryCard } from '@/tools/scryfall/types';
+import { type ScryCard } from '@/tools/scryfall/types';
 
 const VARIANTS = {
   CENTERED: 'CENTERED',

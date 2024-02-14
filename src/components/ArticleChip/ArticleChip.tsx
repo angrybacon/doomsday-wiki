@@ -1,6 +1,7 @@
-import type { FunctionComponent } from 'react';
 import Chip, { ChipProps } from '@mui/material/Chip';
 import { alpha } from '@mui/material/styles';
+import { type FunctionComponent } from 'react';
+
 import { Kind } from '@/tools/markdown/constants/Kind';
 
 const KINDS: Record<Kind, string> = {

@@ -1,6 +1,7 @@
-import type { FunctionComponent } from 'react';
 import { Box, Typography } from '@mui/material';
-import type { Card } from '@/tools/decklists/types';
+import { type FunctionComponent } from 'react';
+
+import { type Card } from '@/tools/decklists/types';
 
 export interface Props {
   cards: Card[];

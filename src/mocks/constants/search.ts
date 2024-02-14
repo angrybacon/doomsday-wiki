@@ -1,4 +1,4 @@
-import type { ScryDataItem, ScryDataList } from '@/tools/scryfall/types';
+import { type ScryDataItem, type ScryDataList } from '@/tools/scryfall/types';
 
 export const SEARCH: ScryDataList = {
   /* eslint-disable camelcase */

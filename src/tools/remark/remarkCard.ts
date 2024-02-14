@@ -1,9 +1,10 @@
-import type { Text } from 'mdast';
-import type { TextDirective } from 'mdast-util-directive';
-import type { Plugin } from 'unified';
+import { type Text } from 'mdast';
+import { type TextDirective } from 'mdast-util-directive';
+import { type Plugin } from 'unified';
+import { type Node } from 'unist';
 import { select } from 'unist-util-select';
-import type { Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
+
 import { getCard } from '@/tools/game/getCard';
 
 /** Parse card directives and augment properties with the card name. */

@@ -1,5 +1,5 @@
-import type { Theme } from '@mui/material/styles';
-import type { CSSProperties } from '@mui/material/styles/createMixins';
+import { type Theme } from '@mui/material/styles';
+import { type CSSProperties } from '@mui/material/styles/createMixins';
 
 export const gutters = ({ breakpoints, spacing }: Theme): CSSProperties => ({
   paddingLeft: spacing(4),

@@ -1,11 +1,11 @@
-import type { Components } from 'react-markdown';
+import { Box, Divider } from '@mui/material';
+import { alpha, useTheme } from '@mui/material/styles';
+import { type Components } from 'react-markdown';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import {
   atomOneDark,
   atomOneLight,
 } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-import { Box, Divider } from '@mui/material';
-import { alpha, useTheme } from '@mui/material/styles';
 
 export const RemarkCode: Components['code'] = ({
   children,

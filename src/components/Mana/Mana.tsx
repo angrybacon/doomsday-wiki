@@ -1,5 +1,6 @@
-import type { FunctionComponent } from 'react';
 import { Box } from '@mui/material';
+import { type FunctionComponent } from 'react';
+
 import 'mana-font/css/mana.min.css';
 
 interface Props {

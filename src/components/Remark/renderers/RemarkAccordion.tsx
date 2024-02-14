@@ -1,19 +1,20 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
   Accordion,
+  accordionClasses,
   AccordionDetails,
   AccordionSummary,
   Typography,
-  accordionClasses,
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
+import { type FunctionComponent } from 'react';
+import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+
 // eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
-import type { Decklists } from '@/tools/decklists/types';
-import type { Partial } from '@/tools/markdown/types';
+import { type Decklists } from '@/tools/decklists/types';
+import { type Partial } from '@/tools/markdown/types';
 
 // NOTE Because this feature allows Markdown content within itself, it
 //      introduces a circular reference but is controlled as long as it doesn't

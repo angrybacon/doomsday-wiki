@@ -1,5 +1,3 @@
-import { GetStaticProps, NextPage } from 'next';
-import NextLink from 'next/link';
 import {
   Card,
   List,
@@ -7,11 +5,14 @@ import {
   ListItemText,
   Typography,
 } from '@mui/material';
+import { GetStaticProps, NextPage } from 'next';
+import NextLink from 'next/link';
+
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import { Layout } from '@/components/Layout/Layout';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type { ArticleCard, MenuEntry } from '@/tools/markdown/types';
+import { type ArticleCard, type MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
   articles: ArticleCard[];

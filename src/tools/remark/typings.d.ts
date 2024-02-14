@@ -1,4 +1,5 @@
 import 'unist';
+
 import { Decklist, DecklistExtra, Decklists } from '@/tools/decklists/types';
 import { Partial } from '@/tools/markdown/types';
 import { ScryCard } from '@/tools/scryfall/types';

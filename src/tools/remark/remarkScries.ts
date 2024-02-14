@@ -1,12 +1,17 @@
-import type { Root, Text } from 'mdast';
-import type { ContainerDirective } from 'mdast-util-directive';
+import { type Root, type Text } from 'mdast';
+import { type ContainerDirective } from 'mdast-util-directive';
+import { type Plugin } from 'unified';
+import { type Node } from 'unist';
 import { select } from 'unist-util-select';
-import type { Plugin } from 'unified';
-import type { Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
+
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
-import type { Scries, ScryCard, ScryData } from '@/tools/scryfall/types';
+import {
+  type Scries,
+  type ScryCard,
+  type ScryData,
+} from '@/tools/scryfall/types';
 
 /**
  * Parse the Markdown tree and visit all Scryfall directives in order to compute

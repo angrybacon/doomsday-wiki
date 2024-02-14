@@ -1,4 +1,5 @@
 import NextDocument, { Head, Html, Main, NextScript } from 'next/document';
+
 import { darkTheme as theme } from '@/theme/theme';
 
 export default class Document extends NextDocument {

@@ -1,9 +1,10 @@
-import NextLink from 'next/link';
-import type { FunctionComponent } from 'react';
 import { Card, CardActionArea, CardContent, Typography } from '@mui/material';
 import { alpha } from '@mui/material/styles';
+import NextLink from 'next/link';
+import { type FunctionComponent } from 'react';
+
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
-import type { ArticleCard as ArticleCardModel } from '@/tools/markdown/types';
+import { type ArticleCard as ArticleCardModel } from '@/tools/markdown/types';
 
 /** Vertical height that should be added for the banner. */
 const BANNER_OFFSET = 90;

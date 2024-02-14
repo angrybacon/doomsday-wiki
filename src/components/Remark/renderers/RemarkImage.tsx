@@ -1,5 +1,5 @@
-import type { Components } from 'react-markdown';
 import { Box, Typography } from '@mui/material';
+import { type Components } from 'react-markdown';
 
 export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
   if (!rest.src) return null;

@@ -1,9 +1,10 @@
-import type { Root } from 'mdast';
-import type { LeafDirective } from 'mdast-util-directive';
-import type { Plugin } from 'unified';
-import type { Node } from 'unist';
+import { type Root } from 'mdast';
+import { type LeafDirective } from 'mdast-util-directive';
+import { type Plugin } from 'unified';
+import { type Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
-import type { Partial, Partials } from '@/tools/markdown/types';
+
+import { type Partial, type Partials } from '@/tools/markdown/types';
 
 /**
  * Augment targets with content from partials for further reference while

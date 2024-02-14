@@ -1,6 +1,6 @@
-import { getCard } from '@/tools/game/getCard';
 import { SETS } from '@/tools/game/constants/Sets';
-import type { ScryData } from '@/tools/scryfall/types';
+import { getCard } from '@/tools/game/getCard';
+import { type ScryData } from '@/tools/scryfall/types';
 
 /**
  * Hardcoded URL pointing to the running Scryfall cache server. See
