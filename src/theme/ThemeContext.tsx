@@ -5,7 +5,7 @@ import {
   useMemo,
   useState,
   type FunctionComponent,
-  type ReactNode,
+  type PropsWithChildren,
 } from 'react';
 
 import { Theme, THEME_STORAGE_KEY } from '@/theme/constants';
@@ -24,11 +24,9 @@ const initial: ThemeState = {
 
 export const ThemeContext = createContext<ThemeState>(initial);
 
-interface Props {
-  children: ReactNode;
-}
-
-export const ThemeProvider: FunctionComponent<Props> = ({ children }) => {
+export const ThemeProvider: FunctionComponent<PropsWithChildren> = ({
+  children,
+}) => {
   const [isDark, setIsDark] = useState<boolean | null>(initial.isDark);
 
   const toggle = () => {

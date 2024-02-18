@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import { alpha, Theme } from '@mui/material/styles';
 import { type SystemStyleObject } from '@mui/system';
 import { type FunctionComponent } from 'react';
-import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+import { type Options as ReactMarkdownOptions } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
@@ -35,7 +35,7 @@ const variantStyles: Record<
   }),
 };
 
-interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownOptions {
   variant?: string;
   node: ReactMarkdownProps['node'] & {
     properties: {

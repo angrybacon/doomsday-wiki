@@ -8,7 +8,7 @@ import {
   useEffect,
   useState,
   type FunctionComponent,
-  type ReactNode,
+  type PropsWithChildren,
 } from 'react';
 
 import { BackToTop } from '@/components/BackToTop/BackToTop';
@@ -18,9 +18,8 @@ import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
 import { type MenuEntry } from '@/tools/markdown/types';
 
-interface Props {
+interface Props extends PropsWithChildren {
   background?: string;
-  children: ReactNode;
   menu: MenuEntry[];
   title: string;
   withBackToTop?: boolean;

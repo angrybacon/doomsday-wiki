@@ -1,4 +1,4 @@
-import { Box, Divider } from '@mui/material';
+import { Box } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
 import { type Components } from 'react-markdown';
 import SyntaxHighlighter from 'react-syntax-highlighter';
@@ -10,11 +10,13 @@ import {
 export const RemarkCode: Components['code'] = ({
   children,
   className = '',
-  inline,
+  node,
 }) => {
   const theme = useTheme();
 
-  if (inline) {
+  if (!node?.position || typeof children !== 'string') return <>{children}</>;
+
+  if (node.position.start.line === node.position.end.line) {
     return (
       <Box
         component="code"
@@ -42,21 +44,25 @@ export const RemarkCode: Components['code'] = ({
 
   return (
     <Box
-      component="span"
-      sx={({ mixins }) => ({ ...mixins.barf, display: 'block' })}
+      component="div"
+      sx={[
+        ({ mixins }) => ({
+          ...mixins.barf,
+          borderBottom: 1,
+          borderTop: 1,
+          display: 'block',
+          fontSize: '0.8em',
+        }),
+        ({ palette }) => ({ borderColor: palette.divider }),
+      ]}
     >
-      <Divider />
-      <Box
-        component={SyntaxHighlighter}
+      <SyntaxHighlighter
         language={language}
         showLineNumbers
         style={theme.palette.mode === 'dark' ? atomOneDark : atomOneLight}
-        // TODO Overwrite the padding from inline styles
-        sx={{ fontSize: '0.8em', m: 0 }}
       >
-        {children.map((it) => String(it).trim())}
-      </Box>
-      <Divider />
+        {children.trim()}
+      </SyntaxHighlighter>
     </Box>
   );
 };

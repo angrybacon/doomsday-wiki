@@ -1,8 +1,4 @@
 import { type Components } from 'react-markdown';
-import {
-  type TableDataCellComponent,
-  type TableHeaderCellComponent,
-} from 'react-markdown/lib/ast-to-react';
 
 // eslint-disable-next-line import/no-cycle
 import { RemarkAccordion } from '@/components/Remark/renderers/RemarkAccordion';
@@ -47,8 +43,8 @@ export const COMPONENTS: Components = {
   p: RemarkParagraph,
   table: RemarkTable,
   tbody: RemarkTableBody,
-  td: RemarkTableCell as TableDataCellComponent,
-  th: RemarkTableCell as TableHeaderCellComponent,
+  td: RemarkTableCell,
+  th: RemarkTableCell,
   thead: RemarkTableHead,
   tr: RemarkTableRow,
   ul: RemarkList as Components['ul'],

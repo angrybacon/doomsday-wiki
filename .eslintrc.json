@@ -60,7 +60,7 @@
     "import/no-unresolved": "off",
     "import/order": "off",
     "import/prefer-default-export": "off",
-    "no-console": ["error", { "allow": ["count", "error", "info"] }],
+    "no-console": ["warn", { "allow": ["count", "error", "info"] }],
     "no-nested-ternary": "off",
     "no-param-reassign": ["error", { "props": false }],
     "no-restricted-syntax": [

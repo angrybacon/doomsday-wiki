@@ -1,9 +1,9 @@
 import { type FunctionComponent } from 'react';
-import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+import { type Options as ReactMarkdownOptions } from 'react-markdown';
 
 import { Mana } from '@/components/Mana/Mana';
 
-interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownOptions {
   pattern?: string;
 }
 

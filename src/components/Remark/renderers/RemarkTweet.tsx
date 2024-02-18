@@ -2,7 +2,7 @@ import { Box, CircularProgress, Typography } from '@mui/material';
 import Script from 'next/script';
 import { FunctionComponent, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+import { Options as ReactMarkdownOptions } from 'react-markdown';
 
 type CreateTweet = (
   id: string,
@@ -16,7 +16,7 @@ declare global {
   }
 }
 
-interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownOptions {
   id?: string;
 }
 

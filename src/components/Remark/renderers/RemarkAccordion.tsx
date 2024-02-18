@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 import { type FunctionComponent } from 'react';
-import { type ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
+import { type Options as ReactMarkdownOptions } from 'react-markdown';
 
 // eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
@@ -22,7 +22,7 @@ import { type Partial } from '@/tools/markdown/types';
 //
 //      Remark -> Remark/constants -> RemarkAccordion -> Remark
 
-interface Props extends ReactMarkdownProps {
+interface Props extends ReactMarkdownOptions {
   decklists?: Decklists;
   partial?: Partial;
 }

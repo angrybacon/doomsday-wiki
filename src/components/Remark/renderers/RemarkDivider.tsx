@@ -1,6 +1,6 @@
 import Divider from '@mui/material/Divider';
-import { type FunctionComponent } from 'react';
+import { Components } from 'react-markdown';
 
-export const RemarkDivider: FunctionComponent = () => (
+export const RemarkDivider: Components['hr'] = () => (
   <Divider sx={({ mixins }) => ({ ...mixins.barf, my: 0 })} />
 );
