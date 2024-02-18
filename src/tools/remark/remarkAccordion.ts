@@ -42,14 +42,15 @@ const remarkWithPartial = (
 };
 
 /**
- * Augment targets with content from partials for further reference while
+ * Augment the tree with content from partials for further reference while
  * rendering components.
- * The `props` argument is only used to pass down context for nested accordions.
+ * The `parameters` argument is only used to pass down context for nested
+ * accordions.
  */
 export const remarkAccordion: Plugin<
   [{ decklists: Decklists; partials: Partials }]
 > = (parameters) => (tree) => {
-  const tests: Test = [
+  const tests = [
     { name: 'accordion', type: 'containerDirective' },
     { name: 'accordion', type: 'leafDirective' },
   ];

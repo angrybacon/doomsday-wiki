@@ -8,9 +8,9 @@ import { Test, visit } from 'unist-util-visit';
  * for `ReactMarkdown`.
  */
 export const remarkBase: Plugin = () => (tree) => {
-  const tests: Test = ['containerDirective', 'leafDirective', 'textDirective'];
+  const tests = ['containerDirective', 'leafDirective', 'textDirective'];
   visit<Node, Test>(tree, tests, (node) => {
-    const directive = node as Node & Directives;
+    const directive = node as Directives;
     directive.data = {
       ...directive.data,
       hName: directive.name,

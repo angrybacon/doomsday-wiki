@@ -1,10 +1,10 @@
-import { type Root, type Text } from 'mdast';
+import { type Text } from 'mdast';
 import { type ContainerDirective } from 'mdast-util-directive';
-import { type Plugin } from 'unified';
 import { type Node } from 'unist';
 import { select } from 'unist-util-select';
 import { Test, visit } from 'unist-util-visit';
 
+import { type Remarker } from '@/tools/remark/typings';
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 import {
@@ -16,17 +16,13 @@ import {
 /**
  * Parse the Markdown tree and visit all Scryfall directives in order to compute
  * the queries within.
- * This Unified pluggable returns a record of queries and responses pairs.
+ * This `unified` pluggable returns a record of queries and responses pairs.
  */
-export const remarkScries: Plugin<[], Root, Scries> =
-  () =>
-  async (tree: Root): Promise<Scries> => {
-    /** Unist tests to only visit nodes that contain Scryfall queries. */
-    const tests: Test = [{ name: 'row', type: 'containerDirective' }];
-    /** Contain the list of Scryfall promises to await for. */
+export const remarkScries: Remarker<{ scries: Scries }> =
+  () => async (tree) => {
     const promises: Promise<ScryData>[] = [];
-    /** Record for query and response pairs. */
     const scries: Scries = {};
+    const tests = [{ name: 'row', type: 'containerDirective' }];
     visit<Node, Test>(tree, tests, (node) => {
       const directive = node as ContainerDirective;
       const text = select('text', directive) as Text;
@@ -42,5 +38,6 @@ export const remarkScries: Plugin<[], Root, Scries> =
       });
     });
     await Promise.all(promises);
-    return scries;
+    Object.assign(tree, { scries });
+    return tree;
   };

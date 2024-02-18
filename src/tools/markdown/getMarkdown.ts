@@ -20,11 +20,9 @@ import {
   type Article,
   type Chapter,
   type Partial,
-  type Partials,
 } from '@/tools/markdown/types';
 import { remarkPartials } from '@/tools/remark/remarkPartials';
 import { remarkScries } from '@/tools/remark/remarkScries';
-import { type Scries } from '@/tools/scryfall/types';
 
 /**
  * Read file system and return Markdown content with its matter for the
@@ -37,15 +35,20 @@ const getMarkdown = async (
 ): Promise<{ base: Partial; extra: Record<string, unknown> }> => {
   const { content, data } = readMarkdown(join(root, path) + MARKDOWN_EXTENSION);
   const tree = unified().use(remarkParse).use(remarkDirective).parse(content);
-  const base: Partial = {
-    partials: (await unified()
-      // NOTE Provide the getter as a callback to avoid circular imports
-      .use(remarkPartials, getPartial)
-      .run(tree)) as unknown as Partials,
-    scries: (await unified().use(remarkScries).run(tree)) as unknown as Scries,
-    text: toDirective(content),
+  // TODO Merge the 2 run steps
+  // NOTE Provide the getter as a callback to avoid circular imports
+  const { partials } = await unified()
+    .use(remarkPartials, getPartial)
+    .run(tree);
+  const { scries } = await unified().use(remarkScries).run(tree);
+  return {
+    base: {
+      partials,
+      scries,
+      text: toDirective(content),
+    },
+    extra: data,
   };
-  return { base, extra: data };
 };
 
 /**
