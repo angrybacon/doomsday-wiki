@@ -20,7 +20,6 @@ import { darkTheme } from '@/theme/theme';
 import type { MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
-  category: string | undefined;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
@@ -29,7 +28,6 @@ interface Props {
 }
 
 export const Sidebar: FunctionComponent<Props> = ({
-  category,
   isClear,
   isMobile = false,
   isOpen,
@@ -80,7 +78,7 @@ export const Sidebar: FunctionComponent<Props> = ({
         />
       </List>
       <Divider />
-      <SidebarRosetta sx={{ my: 2 }} category={category} />
+      <SidebarRosetta sx={{ my: 2 }} />
     </Box>
   );
 

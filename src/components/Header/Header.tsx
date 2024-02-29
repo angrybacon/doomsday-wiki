@@ -4,6 +4,7 @@ import Icon from '@mdi/react';
 import { AppBar, Box, IconButton, Toolbar } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
 import { Progress } from '@/components/Progress/Progress';
+import { Search } from '@/components/Search/Search';
 
 interface Props {
   isMobile: boolean;
@@ -38,6 +39,7 @@ export const Header: FunctionComponent<Props> = ({
               <Icon path={mdiMenu} size={1} />
             </IconButton>
           )}
+          <Search />
         </Toolbar>
       </AppBar>
       <Box role="presentation" sx={({ mixins }) => mixins.toolbar} />

@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import type { FunctionComponent } from 'react';
+import { useRouter } from 'next/router';
+import { useEffect, useState, type FunctionComponent } from 'react';
 import {
   Table,
   TableBody,
@@ -14,11 +14,12 @@ import { getRosetta } from '@/tools/game/getRosetta';
 import type { Rosetta } from '@/tools/game/getRosetta';
 
 interface Props {
-  category: string | undefined;
   sx?: SxProps<Theme>;
 }
 
-export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
+export const SidebarRosetta: FunctionComponent<Props> = ({ sx }) => {
+  const { query } = useRouter();
+  const category = query.category && (query.category as string);
   const [rosetta, setRosetta] = useState<Rosetta>([]);
 
   useEffect(() => {
