@@ -27,28 +27,32 @@ import { RemarkTweet } from '@/components/Remark/renderers/RemarkTweet';
 import { RemarkYoutube } from '@/components/Remark/renderers/RemarkYoutube';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 
-export const COMPONENTS: Components = {
-  a: RemarkLink,
+export const COMPONENTS =
+  // prettier-ignore
+  {
+  a:          RemarkLink,
   blockquote: RemarkQuote,
-  code: RemarkCode,
-  h1: RemarkHeading,
-  h2: RemarkHeading,
-  h3: RemarkHeading,
-  h4: RemarkHeading,
-  h5: RemarkHeading,
-  h6: RemarkHeading,
-  hr: RemarkDivider,
-  img: RemarkImage,
-  ol: RemarkList as Components['ol'],
-  p: RemarkParagraph,
-  table: RemarkTable,
-  tbody: RemarkTableBody,
-  td: RemarkTableCell,
-  th: RemarkTableCell,
-  thead: RemarkTableHead,
-  tr: RemarkTableRow,
-  ul: RemarkList as Components['ul'],
-} as const;
+  code:       RemarkCode,
+  h1:         RemarkHeading,
+  h2:         RemarkHeading,
+  h3:         RemarkHeading,
+  h4:         RemarkHeading,
+  h5:         RemarkHeading,
+  h6:         RemarkHeading,
+  hr:         RemarkDivider,
+  img:        RemarkImage,
+  ol:         RemarkList,
+  p:          RemarkParagraph,
+  // NOTE The `code` entries handle both block and inline code markup
+  pre:        ({children})=> <>{children}</>,
+  table:      RemarkTable,
+  tbody:      RemarkTableBody,
+  td:         RemarkTableCell,
+  th:         RemarkTableCell,
+  thead:      RemarkTableHead,
+  tr:         RemarkTableRow,
+  ul:         RemarkList,
+} as const satisfies Components;
 
 export const COMPONENTS_EXTRA = {
   accordion: RemarkAccordion,

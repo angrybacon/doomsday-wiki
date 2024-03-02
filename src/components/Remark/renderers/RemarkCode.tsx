@@ -1,11 +1,20 @@
-import { Box } from '@mui/material';
+import { Box, type PaletteMode } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
+import { type Component } from 'react';
 import { type Components } from 'react-markdown';
-import SyntaxHighlighter from 'react-syntax-highlighter';
+import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
 import {
-  atomOneDark,
-  atomOneLight,
-} from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+  oneDark as dark,
+  oneLight as light,
+} from 'react-syntax-highlighter/dist/cjs/styles/prism';
+
+// NOTE They don't support React 18 yet
+const SyntaxHighlighter = Prism as typeof Component<SyntaxHighlighterProps>;
+
+const THEMES: Record<PaletteMode, SyntaxHighlighterProps['style']> = {
+  dark,
+  light,
+};
 
 export const RemarkCode: Components['code'] = ({
   children,
@@ -14,7 +23,7 @@ export const RemarkCode: Components['code'] = ({
 }) => {
   const theme = useTheme();
 
-  if (!node?.position || typeof children !== 'string') return <>{children}</>;
+  if (!node?.position || !children) return <>{children}</>;
 
   if (node.position.start.line === node.position.end.line) {
     return (
@@ -39,12 +48,16 @@ export const RemarkCode: Components['code'] = ({
     );
   }
 
-  // NOTE ReactMarkdown passes language through the class name
+  // NOTE Languages are passed down through the class name with `react-markdown`
   const [, language] = className.split('-');
 
   return (
     <Box
-      component="div"
+      component={SyntaxHighlighter}
+      customStyle={{ borderRadius: undefined, margin: undefined }}
+      language={language || 'text'}
+      showLineNumbers
+      style={THEMES[theme.palette.mode]}
       sx={[
         ({ mixins }) => ({
           ...mixins.barf,
@@ -56,13 +69,7 @@ export const RemarkCode: Components['code'] = ({
         ({ palette }) => ({ borderColor: palette.divider }),
       ]}
     >
-      <SyntaxHighlighter
-        language={language}
-        showLineNumbers
-        style={theme.palette.mode === 'dark' ? atomOneDark : atomOneLight}
-      >
-        {children.trim()}
-      </SyntaxHighlighter>
+      {typeof children === 'string' ? children.trim() : children}
     </Box>
   );
 };

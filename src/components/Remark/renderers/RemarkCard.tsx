@@ -1,11 +1,11 @@
 import { type FunctionComponent } from 'react';
-import { type Options as ReactMarkdownOptions } from 'react-markdown';
+import { type Options as MarkdownOptions } from 'react-markdown';
 
 import { Link } from '@/components/Link/Link';
 
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
-interface Props extends ReactMarkdownOptions {
+interface Props extends MarkdownOptions {
   name?: string;
 }
 

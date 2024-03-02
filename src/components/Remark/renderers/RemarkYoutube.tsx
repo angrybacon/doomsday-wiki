@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
-import { type Options as ReactMarkdownOptions } from 'react-markdown';
+import { type Options as MarkdownOptions } from 'react-markdown';
 
-interface Props extends ReactMarkdownOptions {
+interface Props extends MarkdownOptions {
   id?: string;
 }
 

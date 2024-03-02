@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import { alpha, Theme } from '@mui/material/styles';
 import { type SystemStyleObject } from '@mui/system';
 import { type FunctionComponent } from 'react';
-import { type Options as ReactMarkdownOptions } from 'react-markdown';
+import { type Options as MarkdownOptions } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
@@ -35,9 +35,9 @@ const variantStyles: Record<
   }),
 };
 
-interface Props extends ReactMarkdownOptions {
+interface Props extends MarkdownOptions {
   variant?: string;
-  node: ReactMarkdownProps['node'] & {
+  node: MarkdownOptions['node'] & {
     properties: {
       cards?: { data: ScryCard[]; id?: string }[];
     };

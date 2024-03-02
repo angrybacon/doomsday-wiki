@@ -1,6 +1,6 @@
 import { accordionClasses, Box, tableClasses } from '@mui/material';
 import { ReactNode, useEffect, type FunctionComponent } from 'react';
-import ReactMarkdown from 'react-markdown';
+import Markdown from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 import remarkSlug from 'remark-slug';
@@ -57,13 +57,13 @@ export const Remark: FunctionComponent<Props> = ({
   ];
 
   const children: ReactNode = (
-    <ReactMarkdown
+    <Markdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       remarkPlugins={[...basePlugins, ...customPlugins]}
       skipHtml
     >
       {text}
-    </ReactMarkdown>
+    </Markdown>
   );
 
   useEffect(() => {

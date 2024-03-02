@@ -5,7 +5,7 @@ import { Test, visit } from 'unist-util-visit';
 
 /**
  * Preliminary visit to mark directives by name for future remarkers as well as
- * for `ReactMarkdown`.
+ * for `react-markdown`.
  */
 export const remarkBase: Plugin = () => (tree) => {
   const tests = ['containerDirective', 'leafDirective', 'textDirective'];

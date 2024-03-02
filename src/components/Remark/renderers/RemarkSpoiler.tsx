@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
 import { useState, type FunctionComponent } from 'react';
-import { type Options as ReactMarkdownOptions } from 'react-markdown';
+import { type Options as MarkdownOptions } from 'react-markdown';
 
-export const RemarkSpoiler: FunctionComponent<ReactMarkdownOptions> = ({
+export const RemarkSpoiler: FunctionComponent<MarkdownOptions> = ({
   children,
 }) => {
   const [isSpoiled, setIsSpoiled] = useState(false);

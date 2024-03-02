@@ -1,5 +1,5 @@
 import { type FunctionComponent } from 'react';
-import { type Options as ReactMarkdownOptions } from 'react-markdown';
+import { type Options as MarkdownOptions } from 'react-markdown';
 
 import { Decklist } from '@/components/Decklist/Decklist';
 import {
@@ -7,7 +7,7 @@ import {
   type Decklist as DecklistModel,
 } from '@/tools/decklists/types';
 
-interface Props extends ReactMarkdownOptions {
+interface Props extends MarkdownOptions {
   decklist?: DecklistModel & DecklistExtra;
 }
 
