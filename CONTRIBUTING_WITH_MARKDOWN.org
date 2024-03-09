@@ -140,6 +140,9 @@ directives.
   closing pairs. It is possible to nest /container/ directives by using more
   than 3 colons.
 
+See [[https://doomsday.wiki/sandbox/markdown]] for examples of the below
+features.
+
 *** Inline Card Links
 
 You can insert inline Scryfall links for cards using the following syntax:
