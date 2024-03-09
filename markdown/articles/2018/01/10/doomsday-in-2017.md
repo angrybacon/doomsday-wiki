@@ -106,9 +106,9 @@ across all games of a match and the win percentages calculated from when
 mulligans occur. Below you can find two graphs: the percentage of games where
 mulligans occur and the percentage of games won against mulligans.
 
-![Mulligan percentage across games](/media/pictures/2017.chart.mulligan.gif)
+![Mulligan chart](/media/pictures/2017.chart.mulligan.gif 'Mulligan percentage across games')
 
-![Mulligan win percentage across games](/media/pictures/2017.chart.mulligan-winrate.gif)
+![Winrate per mulligan chart](/media/pictures/2017.chart.mulligan-winrate.gif 'Mulligan win percentage across games')
 
 As you can see, despite the concerns, the deck seems to mulligan very well.
 There could be some variance in that people are keeping dodgy seven card hands
@@ -247,7 +247,7 @@ gone up but is still on par with ANT. Following on from this point again Nanda
 had real concerns that Doomsday as a deck was not winning using its namesake
 card. Let's look at the breakdown of winning game engines:
 
-![Combo engines across games](/media/pictures/2017.chart.engines.gif)
+![Win engine chart](/media/pictures/2017.chart.engines.gif 'Combo engines across games')
 
 I guess that paints a clear picture. The four engines measured are the primary
 ones of any line that uses Doomsday itself, BW into EtW, natural ToA kills and

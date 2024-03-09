@@ -324,18 +324,18 @@ TO
 ### Images
 
 ```md
-![A placeholder image](https://www.placehold.co/1600x320 'High resolution')
+![A large placeholder image](https://www.placehold.co/1600x320 'High resolution')
 
-![A placeholder image](https://www.placehold.co/800x160 'Medium resolution')
+![A medium placeholder image](https://www.placehold.co/800x160 'Medium resolution')
 
-![A placeholder image](https://www.placehold.co/400x80 'Low resolution')
+![A small placeholder image](https://www.placehold.co/400x80 'Low resolution')
 ```
 
-![A placeholder image](https://www.placehold.co/1600x320 'High resolution')
+![A large placeholder image](https://www.placehold.co/1600x320 'High resolution')
 
-![A placeholder image](https://www.placehold.co/800x160 'Medium resolution')
+![A medium placeholder image](https://www.placehold.co/800x160 'Medium resolution')
 
-![A placeholder image](https://www.placehold.co/400x80 'Low resolution')
+![A small placeholder image](https://www.placehold.co/400x80 'Low resolution')
 
 ### YouTube
 

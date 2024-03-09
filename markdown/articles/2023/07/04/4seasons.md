@@ -150,8 +150,7 @@ slinging Walls of Omen in 2023 Modern (his team top8'd!) , but then we met with
 Cena, another friend of ours, and went out to dinner! Nothing too fancy, but
 after a long day I was famished and I reaaally needed a good dinner.
 
-![Left to right: Matteo, Catta, Doc, Cena and
-Me](/media/pictures/2023.4seasons.dinner.jpg)
+![Team picture](/media/pictures/2023.4seasons.dinner.jpg 'Left to right: Matteo, Catta, Doc, Cena and Me')
 
 ## Saturday &mdash; Italian Legacy Invitational
 

@@ -264,9 +264,7 @@ The 100% mirror.
 James on James, Doomsday on Doomsday action.  
 It was everything everyone dreams of.
 
-![Game faces](/media/pictures/2018.mirror.one.jpeg)
-
-> Ape (front) feeling the pressure as Doishy (back) gets super serious
+![Game faces picture](/media/pictures/2018.mirror.one.jpeg 'Ape (front) feeling the pressure as Doishy (back) gets super serious')
 
 Game 1 he displays superior die skills and both of us wreck the hands of the
 other. He manages to Doomsday first but it's a bluff and he sets up an easy PTT
@@ -289,9 +287,7 @@ wanting Doomsday in the Top 8 over personal glory but alas it was for naught
 because there was a big tie of people on six points and who even knows how that
 shit works anyways?.
 
-![Dat gamestate](/media/pictures/2018.mirror.two.jpeg)
-
-> 9 Goblins stare down 14 ~~Business Cards~~ Goblins as a Doomsday resolves.
+![Game state picture](/media/pictures/2018.mirror.two.jpeg '9 Goblins stare down 14 business-cards-Goblins as a Doomsday resolves')
 
 ## Ending Thoughts
 
