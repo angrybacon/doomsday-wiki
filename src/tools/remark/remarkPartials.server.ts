@@ -10,8 +10,8 @@ import { type Remarker } from '@/tools/remark/typings';
  * rendering components.
  */
 export const remarkPartials: Remarker<
-  { partials: Partials },
-  [getMarkdownPartial: (path: string) => Promise<Partial>]
+  [getMarkdownPartial: (path: string) => Promise<Partial>],
+  { partials: Partials }
 > = (getMarkdownPartial) => async (tree) => {
   const promises: Promise<Partial>[] = [];
   const partials: Partials = {};

@@ -1,22 +1,26 @@
 import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
-import { type Options as MarkdownOptions } from 'react-markdown';
+import { type ExtraProps } from 'react-markdown';
 
-interface Props extends MarkdownOptions {
+/** IFrame permissions for the YouTube widget. */
+const IFRAME_PERMISSIONS = [
+  'accelerometer',
+  'autoplay',
+  'clipboard-write',
+  'encrypted-media',
+  'gyroscope',
+  'picture-in-picture',
+].join(';');
+
+interface Props extends ExtraProps {
   id?: string;
 }
 
-export const RemarkYoutube: FunctionComponent<Props> = ({ id }) => {
-  if (!id) return null;
-
-  const allow = [
-    'accelerometer',
-    'autoplay',
-    'clipboard-write',
-    'encrypted-media',
-    'gyroscope',
-    'picture-in-picture',
-  ];
+export const RemarkYoutube: FunctionComponent<Props> = ({ id, node }) => {
+  if (!id) {
+    console.error('Missing ID for YouTube widget', node);
+    return null;
+  }
 
   return (
     <Box
@@ -33,11 +37,11 @@ export const RemarkYoutube: FunctionComponent<Props> = ({ id }) => {
           bgcolor: 'background.default',
           height: 0,
           position: 'relative',
-          pb: '56.25%', // NOTE Force intrinsic height to always be 16/9
+          pb: '56.25%', // NOTE Force intrinsic height to 16/9 ratio
         }}
       >
         <Box
-          allow={allow.join(';')}
+          allow={IFRAME_PERMISSIONS}
           allowFullScreen
           component="iframe"
           src={`https://www.youtube.com/embed/${id}`}

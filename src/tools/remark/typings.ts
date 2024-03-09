@@ -8,8 +8,8 @@ import { type Node } from 'unist';
  * augment the main node with the new data.
  */
 export type Remarker<
-  TOutput extends object,
-  TOptions extends unknown[] = [],
+  TOptions extends unknown[] = unknown[],
+  TOutput extends object = object,
   TNode extends Node = Node,
 > = (
   ...options: TOptions

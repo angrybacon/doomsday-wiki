@@ -1,13 +1,16 @@
 import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
-import { type Options as MarkdownOptions } from 'react-markdown';
+import { type ExtraProps } from 'react-markdown';
 
-interface Props extends MarkdownOptions {
+interface Props extends ExtraProps {
   url?: string;
 }
 
-export const RemarkSoundcloud: FunctionComponent<Props> = ({ url }) => {
-  if (!url) return null;
+export const RemarkSoundcloud: FunctionComponent<Props> = ({ node, url }) => {
+  if (!url) {
+    console.error('Missing URL for SoundCloud widget', node);
+    return null;
+  }
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
   const parameters = [

@@ -21,8 +21,8 @@ import {
   type Chapter,
   type Partial,
 } from '@/tools/markdown/types';
-import { remarkPartials } from '@/tools/remark/remarkPartials';
-import { remarkScries } from '@/tools/remark/remarkScries';
+import { remarkPartials } from '@/tools/remark/remarkPartials.server';
+import { remarkScries } from '@/tools/remark/remarkScries.server';
 
 /**
  * Read file system and return Markdown content with its matter for the

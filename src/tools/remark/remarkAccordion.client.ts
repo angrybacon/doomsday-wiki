@@ -2,42 +2,42 @@ import {
   type ContainerDirective,
   type LeafDirective,
 } from 'mdast-util-directive';
-import { type Plugin } from 'unified';
 import { type Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
 
 import { type Decklists } from '@/tools/decklists/types';
 import { type Partials } from '@/tools/markdown/types';
+import { hastify } from '@/tools/remark/hastify';
+import { Remarker } from '@/tools/remark/typings';
 
-const remarkWithChildren = (directive: Node & ContainerDirective): void => {
+const remarkWithChildren = (
+  directive: ContainerDirective,
+  decklists: Decklists,
+) => {
   const { column: c, line: l } = directive.position?.start ?? {};
   const location = `for accordion at ${l}:${c}`;
   if (!directive.children.length) {
     console.error(`[remark] Missing title ${location}`);
   } else if (directive.children.length === 1) {
     console.error(`[remark] Missing content ${location}`);
+  } else {
+    hastify(directive, { decklists });
   }
 };
 
 const remarkWithPartial = (
-  directive: Node & LeafDirective,
-  { decklists, partials }: { decklists: Decklists; partials: Partials },
-): void => {
+  directive: LeafDirective,
+  decklists: Decklists,
+  partials: Partials,
+) => {
   const path = directive.attributes?.path;
   if (!path) {
     const { column: c, line: l } = directive.position?.start ?? {};
     console.error(`[remark] Missing path for accordion at ${l}:${c}`);
   } else if (!partials[path]) {
-    console.error(`[remark] Missing source file for "${path}" partial`);
+    console.error(`[remark] Missing source file for partial "${path}"`);
   } else {
-    directive.data = {
-      ...directive.data,
-      hProperties: {
-        ...(directive.data?.hProperties as Record<string, unknown>),
-        decklists,
-        partial: partials[path],
-      },
-    };
+    hastify(directive, { decklists, partial: partials[path] });
   }
 };
 
@@ -47,18 +47,21 @@ const remarkWithPartial = (
  * The `parameters` argument is only used to pass down context for nested
  * accordions.
  */
-export const remarkAccordion: Plugin<
+export const remarkAccordion: Remarker<
   [{ decklists: Decklists; partials: Partials }]
-> = (parameters) => (tree) => {
-  const tests = [
-    { name: 'accordion', type: 'containerDirective' },
-    { name: 'accordion', type: 'leafDirective' },
-  ];
-  visit<Node, Test>(tree, tests, (node) => {
-    if (node.type === 'leafDirective') {
-      remarkWithPartial(node as LeafDirective, parameters);
-    } else if (node.type === 'containerDirective') {
-      remarkWithChildren(node as ContainerDirective);
-    }
-  });
-};
+> =
+  ({ decklists, partials }) =>
+  (tree) => {
+    const tests = [
+      { name: 'accordion', type: 'containerDirective' },
+      { name: 'accordion', type: 'leafDirective' },
+    ];
+    visit<Node, Test>(tree, tests, (node) => {
+      if (node.type === 'containerDirective') {
+        remarkWithChildren(node as ContainerDirective, decklists);
+      } else if (node.type === 'leafDirective') {
+        remarkWithPartial(node as LeafDirective, decklists, partials);
+      }
+    });
+    return tree;
+  };

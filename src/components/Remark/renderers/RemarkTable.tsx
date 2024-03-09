@@ -6,13 +6,8 @@ import {
   TableRow,
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { type Components } from 'react-markdown';
-import {
-  type ComponentType,
-  type TableDataCellProps,
-  type TableHeaderCellProps,
-  type TableRowComponent,
-} from 'react-markdown/lib/ast-to-react';
+import { ReactElement } from 'react';
+import { ExtraProps, type Components } from 'react-markdown';
 
 export const RemarkTable: Components['table'] = ({ children }) => (
   <Table
@@ -33,9 +28,10 @@ export const RemarkTableBody: Components['tbody'] = ({ children }) => (
   <TableBody>{children}</TableBody>
 );
 
-export const RemarkTableCell: ComponentType<
-  TableDataCellProps | TableHeaderCellProps
-> = ({ children, style }) => (
+export const RemarkTableCell = <T extends 'td' | 'th' = never>({
+  children,
+  style,
+}: JSX.IntrinsicElements[T] & ExtraProps): ReactElement => (
   <TableCell
     style={style}
     sx={[
@@ -55,6 +51,6 @@ export const RemarkTableHead: Components['thead'] = ({ children }) => (
   </TableHead>
 );
 
-export const RemarkTableRow: TableRowComponent = ({ children }) => (
+export const RemarkTableRow: Components['tr'] = ({ children }) => (
   <TableRow>{children}</TableRow>
 );

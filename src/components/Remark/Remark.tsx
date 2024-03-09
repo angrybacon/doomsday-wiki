@@ -1,5 +1,5 @@
 import { accordionClasses, Box, tableClasses } from '@mui/material';
-import { ReactNode, useEffect, type FunctionComponent } from 'react';
+import { useEffect, type FunctionComponent } from 'react';
 import Markdown from 'react-markdown';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
@@ -11,12 +11,12 @@ import { type PluggableList } from 'unified';
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import { type Decklists } from '@/tools/decklists/types';
 import { type Partial } from '@/tools/markdown/types';
-import { remarkAccordion } from '@/tools/remark/remarkAccordion';
-import { remarkBase } from '@/tools/remark/remarkBase';
-import { remarkCard } from '@/tools/remark/remarkCard';
-import { remarkDecklist } from '@/tools/remark/remarkDecklist';
-import { remarkMana } from '@/tools/remark/remarkMana';
-import { remarkRow } from '@/tools/remark/remarkRow';
+import { remarkAccordion } from '@/tools/remark/remarkAccordion.client';
+import { remarkBase } from '@/tools/remark/remarkBase.client';
+import { remarkCard } from '@/tools/remark/remarkCard.client';
+import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
+import { remarkMana } from '@/tools/remark/remarkMana.client';
+import { remarkRow } from '@/tools/remark/remarkRow.client';
 
 interface Props {
   decklists: Decklists;
@@ -32,8 +32,6 @@ export const Remark: FunctionComponent<Props> = ({
   withScroll = true,
   withWrapper = true,
 }) => {
-  const { partials, scries, text } = markdown;
-
   /** Vendor plugins to run against the node tree. */
   const basePlugins: PluggableList = [
     remarkDirective,
@@ -49,20 +47,20 @@ export const Remark: FunctionComponent<Props> = ({
    */
   const customPlugins: PluggableList = [
     remarkBase,
-    [remarkAccordion, { decklists, partials }],
+    [remarkAccordion, { decklists, partials: markdown.partials }],
     remarkCard,
     [remarkDecklist, { decklists }],
     remarkMana,
-    [remarkRow, { scries }],
+    [remarkRow, { scries: markdown.scries }],
   ];
 
-  const children: ReactNode = (
+  const children = (
     <Markdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       remarkPlugins={[...basePlugins, ...customPlugins]}
       skipHtml
     >
-      {text}
+      {markdown.text}
     </Markdown>
   );
 

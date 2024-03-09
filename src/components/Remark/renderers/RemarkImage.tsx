@@ -1,9 +1,11 @@
 import { Box, Typography } from '@mui/material';
 import { type Components } from 'react-markdown';
 
-export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
-  if (!rest.src) return null;
-  const description: string | undefined = title || rest.alt;
+export const RemarkImage: Components['img'] = ({ alt, node, src, title }) => {
+  if (!src) {
+    console.error('Missing image source', node);
+    return null;
+  }
   return (
     <>
       <Box
@@ -18,16 +20,16 @@ export const RemarkImage: Components['img'] = ({ title, ...rest }) => {
           img: { display: 'block', width: 1 },
         })}
       >
-        <img alt={description} decoding="async" {...rest} title={description} />
+        <img alt={alt} decoding="async" src={src} title={title} />
       </Box>
-      {description && (
+      {title && (
         <Typography
           color="textSecondary"
           component="em"
           sx={{ display: 'block', mt: 1, textAlign: 'center' }}
           variant="caption"
         >
-          {description}
+          {title}
         </Typography>
       )}
     </>
