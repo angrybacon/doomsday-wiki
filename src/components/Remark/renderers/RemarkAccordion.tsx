@@ -6,7 +6,6 @@ import {
   AccordionDetails,
   AccordionSummary,
   alpha,
-  Typography,
 } from '@mui/material';
 import {
   PropsWithChildren,

@@ -1,9 +1,9 @@
 import { accordionClasses, Box, tableClasses } from '@mui/material';
 import { useEffect, type FunctionComponent } from 'react';
 import Markdown from 'react-markdown';
+import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
-import remarkSlug from 'remark-slug';
 import remarkToc from 'remark-toc';
 import { type PluggableList } from 'unified';
 
@@ -32,33 +32,28 @@ export const Remark: FunctionComponent<Props> = ({
   withScroll = true,
   withWrapper = true,
 }) => {
-  /** Vendor plugins to run against the node tree. */
-  const basePlugins: PluggableList = [
-    remarkDirective,
-    remarkGfm,
-    remarkSlug,
-    [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
-  ];
-
-  /**
-   * Our own remarkers to run against the node tree.
-   * They should be used after vendor plugins. The `remarkBase` plugin should
-   * always run first.
-   */
-  const customPlugins: PluggableList = [
-    remarkBase,
-    [remarkAccordion, { decklists, partials: markdown.partials }],
-    remarkCard,
-    [remarkDecklist, { decklists }],
-    remarkMana,
-    [remarkRow, { scries: markdown.scries }],
-  ];
+  const plugins = {
+    rehypePlugins: [rehypeSlug],
+    remarkPlugins: [
+      // NOTE Vendor remarkers
+      remarkDirective,
+      remarkGfm,
+      [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
+      // NOTE Our own remarkers
+      remarkBase,
+      [remarkAccordion, { decklists, partials: markdown.partials }],
+      remarkCard,
+      [remarkDecklist, { decklists }],
+      remarkMana,
+      [remarkRow, { scries: markdown.scries }],
+    ],
+  } as const satisfies Record<string, PluggableList>;
 
   const children = (
     <Markdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
-      remarkPlugins={[...basePlugins, ...customPlugins]}
       skipHtml
+      {...plugins}
     >
       {markdown.text}
     </Markdown>

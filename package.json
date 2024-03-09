@@ -20,7 +20,7 @@
     "start": "next start",
     "test": "jest",
     "test:coverage": "yarn test --coverage",
-    "test:watch": "yarn test --verbose --watchAll"
+    "test:w": "yarn test --verbose --watchAll"
   },
   "dependencies": {
     "@emotion/react": "11.11.4",
@@ -44,10 +44,10 @@
     "react-markdown": "9.0.1",
     "react-syntax-highlighter": "15.5.0",
     "reading-time": "1.5.0",
+    "rehype-slug": "6.0.0",
     "remark-directive": "3.0.0",
     "remark-gfm": "4.0.0",
     "remark-parse": "11.0.0",
-    "remark-slug": "7.0.1",
     "remark-toc": "9.0.0",
     "sharp": "0.32.5",
     "simple-icons": "11.6.0",
