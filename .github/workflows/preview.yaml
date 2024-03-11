@@ -24,16 +24,8 @@ jobs:
           node-version-file: 'package.json'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      # - name: Lint project
-      #   run: pnpm lint
-      - name: Lint code
-        run: |
-          pnpm lint:code
-          pnpm lint:format
-      - name: Check typings
-        run: pnpm lint:typings
-      - name: Lint Markdown
-        run: pnpm lint:wiki
+      - name: Run lint tasks
+        run: pnpm lint
 
   tests:
     name: Tests
@@ -53,11 +45,13 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Run tests
-        run: pnpm test:coverage
+        run: pnpm test:coverage >> $GITHUB_STEP_SUMMARY
 
   preview:
     name: Preview
     needs: [lint, tests]
+    outputs:
+      url: ${{ steps.deploy.outputs.url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -78,7 +72,7 @@ jobs:
       - name: Build
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy
-        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} >> $GITHUB_STEP_SUMMARY
 
   release:
     name: Release
@@ -104,4 +98,4 @@ jobs:
       - name: Build
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy
-        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} >> $GITHUB_STEP_SUMMARY
