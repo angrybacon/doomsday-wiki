@@ -6,7 +6,7 @@ tags: [LEGACY, MEANDECK]
 title: 'Axion Mega Legacy February 2023: Second Place Report'
 ---
 
-_How to do well at a big tournament by getting really lucky_
+Or how to do well at a big tournament by getting really lucky.
 
 On the 18th February 2023 I came 2nd in the Axion _Mega Legacy_ event in the
 Great Hall at the University of Birmingham. This is part of an event series run

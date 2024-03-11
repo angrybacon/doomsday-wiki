@@ -5,10 +5,6 @@ import Head from 'next/head';
 
 import { ThemeProvider } from '@/theme/ThemeContext';
 
-if (process.env.SCRYFALL_MOCKS === '1') {
-  import('@/mocks/bootstrap');
-}
-
 const Application = (props: AppProps): JSX.Element => {
   const { Component, pageProps } = props;
   return (
