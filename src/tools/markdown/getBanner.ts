@@ -1,4 +1,4 @@
-import type { Banner } from '@/tools/markdown/types';
+import { type Banner } from '@/tools/markdown/types';
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 

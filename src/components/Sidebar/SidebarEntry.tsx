@@ -1,7 +1,3 @@
-import NextLink from 'next/link';
-import { useRouter } from 'next/router';
-import { forwardRef, useState } from 'react';
-import type { ElementType, FunctionComponent } from 'react';
 import { mdiChevronDown } from '@mdi/js';
 import Icon from '@mdi/react';
 import {
@@ -11,8 +7,17 @@ import {
   ListItemButton,
   ListItemText,
 } from '@mui/material';
+import NextLink from 'next/link';
+import { useRouter } from 'next/router';
+import {
+  forwardRef,
+  useState,
+  type ElementType,
+  type FunctionComponent,
+} from 'react';
+
 import { Category } from '@/tools/markdown/constants/Category';
-import type { ChapterCard, MenuEntry } from '@/tools/markdown/types';
+import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = Omit<MenuEntry, 'category' | 'pages'> & {
   category?: Category;

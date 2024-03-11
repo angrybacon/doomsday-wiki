@@ -157,8 +157,7 @@ was impressed by it, so I suggested the card to Jax as a tutor option for the
 Witherbloom combo list. Sometime thereafter Jax posted this in a conversation in
 the Doomsday discord:
 
-![Jax: Spoils is the best tutor for Witherbloom
-combo](/media/pictures/2023.spoils.jax.png)
+![Discord screenshot](/media/pictures/2023.spoils.jax.png 'Jax: Spoils is the best tutor for Witherbloom combo')
 
 Perhaps it was the aforementioned beer talking but clearly the card made an
 impression. I don't know if Jax ever achieved any results with a list like this,
@@ -184,21 +183,20 @@ inclusion.
 
 ### Part 3: The Philosophy of Spoils, or How Not to Be a Coward
 
-![Bird knows the deep magics](/media/pictures/2023.spoils.bird.png)
+![Discord screenshot](/media/pictures/2023.spoils.bird.png 'Bird knows the deep magics')
 
 The catastrophic way in which Spoils of the Vault sometimes ends games obscures
 its power level. The human mind is much better at remembering negative events,
 and so it can be difficult to get past a bad loss, much less a string of losses.
 
-![Emidln has given up on Spoils](/media/pictures/2023.spoils.emidln.png)
+![Discord screenshot](/media/pictures/2023.spoils.emidln.png 'Emidln has given up on Spoils')
 
 It's important to recognize that the power level and flexibility provided by a
 1-mana, instant-speed tutor will, over a sufficiently large sample size,
 increases your winrate by more than the Sudden Instant Death by Spoils will
 decrease it.
 
-![Wonderpreaux, regarding Spoils of the
-Vault](/media/pictures/2023.spoils.wonderpreaux.png)
+![Discord screenshot](/media/pictures/2023.spoils.wonderpreaux.png 'Wonderpreaux, regarding Spoils of the Vault')
 
 Perhaps these testimonials are giving you the wrong idea. I like to think of it
 this way: as a fast combo deck, if you need a particular card to win the game,

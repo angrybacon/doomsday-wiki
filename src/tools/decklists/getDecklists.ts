@@ -1,9 +1,10 @@
 import { join } from 'path';
+
 import {
   BASE_DECKLISTS_URL,
   DECKLISTS_EXTENSION,
 } from '@/tools/decklists/constants';
-import type { Decklists } from '@/tools/decklists/types';
+import { type Decklists } from '@/tools/decklists/types';
 import { formatDate } from '@/tools/io/formatDate';
 import { readDecklist } from '@/tools/io/readDecklist';
 import { walk } from '@/tools/io/walk';

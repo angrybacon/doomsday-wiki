@@ -154,7 +154,7 @@ wait no more. I tried to follow my one out of finding enough land and a second
 Ritual to pay through it and win the same turn but alas it was not to be. It was
 funny as fuck and I am happy to have lost that way >.<!
 
-![Hermit Dishing Out the Beats](/media/assets/tempo-player.png)
+![Hermit art giving the middle finger](/media/assets/tempo-player.png 'Hermit dishing out the beats')
 
 Game 3 I keep 7, opponent 5 and I lead on a Thoughtseize that sees
 :card[Paradigm Shift], :card[SE], :card[Narset, Parter of Veils], Force of Will
@@ -654,11 +654,11 @@ an okay performance themselves they also stayed strong with positive spirits!
 Bristol as a whole did great again across both events and I think we can look
 forward to even more this year. (Looking at this rumoured giga-event).
 
-![Feeling good after the event](/media/pictures/2022.brum-boiz.jpg)
+![Restaurant picture](/media/pictures/2022.brum-boiz.jpg 'Feeling good after the event')
 
-![Big ol' naan bread](/media/pictures/2022.wrath-of-naan.jpg)
+![Restaurant picture](/media/pictures/2022.wrath-of-naan.jpg "Big ol' naan bread")
 
-![The sound and smells of the grill were amazing](/media/pictures/2022.tandoori-lfg.jpg)
+![Restaurant picture](/media/pictures/2022.tandoori-lfg.jpg 'The sound and smells of the grill were amazing')
 
 Thanks for reading and remember that even if your performance is not amazing,
 you can still have a great time with good company if you make sure to look after

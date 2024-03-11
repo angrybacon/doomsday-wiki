@@ -1,18 +1,23 @@
 import {
   amber as article,
-  deepPurple as primary,
   grey,
-  pink as secondary,
-  purple as report,
+  deepPurple as primary,
   teal as primer,
+  purple as report,
+  pink as secondary,
 } from '@mui/material/colors';
-import { alpha, createTheme } from '@mui/material/styles';
-import type { Theme, ThemeOptions } from '@mui/material/styles';
+import {
+  alpha,
+  createTheme,
+  type Theme,
+  type ThemeOptions,
+} from '@mui/material/styles';
 import { deepmerge } from '@mui/utils';
-import type { Kind } from '@/tools/markdown/constants/Kind';
+
 import { barf } from '@/theme/tools/barf';
 import { gutters } from '@/theme/tools/gutters';
 import { toolbarMargin } from '@/theme/tools/toolbarMargin';
+import { type Kind } from '@/tools/markdown/constants/Kind';
 
 import '@fontsource/libre-baskerville';
 

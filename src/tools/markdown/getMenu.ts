@@ -1,7 +1,7 @@
+import { type Category } from '@/tools/markdown/constants/Category';
 import { DECORATIONS } from '@/tools/markdown/constants/Menu';
 import { getChapterCards } from '@/tools/markdown/getChapterCards';
-import type { Category } from '@/tools/markdown/constants/Category';
-import type { ChapterCard, MenuEntry } from '@/tools/markdown/types';
+import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
 
 /**
  * Read file system and return a structured list of all chapters within their

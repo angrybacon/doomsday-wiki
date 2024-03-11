@@ -1,8 +1,11 @@
-import type { FunctionComponent, ReactNode } from 'react';
 import { Box, Typography } from '@mui/material';
-import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
-import type { Theme } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
+import {
+  ThemeProvider as MuiThemeProvider,
+  type Theme,
+} from '@mui/material/styles';
+import { type SxProps } from '@mui/system';
+import { type FunctionComponent, type ReactNode } from 'react';
+
 import { Link } from '@/components/Link/Link';
 import { darkTheme } from '@/theme/theme';
 

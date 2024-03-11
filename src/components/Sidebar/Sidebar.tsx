@@ -1,23 +1,24 @@
-import NextLink from 'next/link';
-import type { FunctionComponent, ReactNode } from 'react';
 import {
   Box,
   Divider,
   Drawer,
+  drawerClasses,
   DrawerProps,
   List,
-  drawerClasses,
 } from '@mui/material';
 import {
   ThemeProvider as MuiThemeProvider,
   type Theme,
 } from '@mui/material/styles';
-import type { SxProps } from '@mui/system';
+import { type SxProps } from '@mui/system';
+import NextLink from 'next/link';
+import { type FunctionComponent, type ReactNode } from 'react';
+
 import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { darkTheme } from '@/theme/theme';
-import type { MenuEntry } from '@/tools/markdown/types';
+import { type MenuEntry } from '@/tools/markdown/types';
 
 interface Props {
   category: string | undefined;

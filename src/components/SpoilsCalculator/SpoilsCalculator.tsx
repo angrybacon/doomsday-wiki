@@ -1,4 +1,3 @@
-import { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
 import { mdiDelete, mdiReload } from '@mdi/js';
 import Icon from '@mdi/react';
 import {
@@ -17,6 +16,7 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
+import { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
 
 interface Input {
   copies: number;

@@ -1,9 +1,10 @@
-import type { FunctionComponent } from 'react';
 import { mdiAccount, mdiCalendar } from '@mdi/js';
 import Icon from '@mdi/react';
 import { Box } from '@mui/material';
+import { type FunctionComponent } from 'react';
+
 import { ArticleChip } from '@/components/ArticleChip/ArticleChip';
-import type { ArticleMatter } from '@/tools/markdown/types';
+import { type ArticleMatter } from '@/tools/markdown/types';
 
 interface Props {
   date: string | null;

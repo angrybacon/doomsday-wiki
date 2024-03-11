@@ -1,6 +1,7 @@
 import { join } from 'path';
-import { readMarkdown } from '@/tools/io/readMarkdown';
+
 import { formatDate } from '@/tools/io/formatDate';
+import { readMarkdown } from '@/tools/io/readMarkdown';
 import { walk } from '@/tools/io/walk';
 import {
   BASE_URLS,
@@ -8,10 +9,10 @@ import {
 } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { readArticleMatter } from '@/tools/markdown/readMatter';
-import type {
-  Banner,
-  ArticleCard,
-  ArticleMatter,
+import {
+  type ArticleCard,
+  type ArticleMatter,
+  type Banner,
 } from '@/tools/markdown/types';
 import { assertDepth } from '@/tools/markdown/utilities';
 

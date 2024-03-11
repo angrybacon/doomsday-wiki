@@ -1,18 +1,22 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
-import { useState } from 'react';
 import { Box } from '@mui/material';
+import { PropsWithChildren, useState, type FunctionComponent } from 'react';
+import { ExtraProps } from 'react-markdown';
 
-export const RemarkSpoiler: FunctionComponent<ReactMarkdownProps> = ({
-  children,
-}) => {
+type Props = PropsWithChildren & ExtraProps;
+
+export const RemarkSpoiler: FunctionComponent<Props> = ({ children, node }) => {
   const [isSpoiled, setIsSpoiled] = useState(false);
+
+  if (!node?.position) return <>{children}</>;
 
   const onSpoil = () => setIsSpoiled(true);
 
+  const component =
+    node.position.start.line === node.position.end.line ? 'span' : 'div';
+
   return (
     <Box
-      component="span"
+      component={component}
       onClick={onSpoil}
       role="button"
       sx={[

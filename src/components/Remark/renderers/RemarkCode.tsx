@@ -1,20 +1,31 @@
-import type { Components } from 'react-markdown';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import {
-  atomOneDark,
-  atomOneLight,
-} from 'react-syntax-highlighter/dist/cjs/styles/hljs';
-import { Box, Divider } from '@mui/material';
+import { Box, type PaletteMode } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
+import { type Component } from 'react';
+import { type Components } from 'react-markdown';
+import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
+import {
+  oneDark as dark,
+  oneLight as light,
+} from 'react-syntax-highlighter/dist/cjs/styles/prism';
+
+// NOTE They don't support React 18 yet
+const SyntaxHighlighter = Prism as typeof Component<SyntaxHighlighterProps>;
+
+const THEMES: Record<PaletteMode, SyntaxHighlighterProps['style']> = {
+  dark,
+  light,
+};
 
 export const RemarkCode: Components['code'] = ({
   children,
   className = '',
-  inline,
+  node,
 }) => {
   const theme = useTheme();
 
-  if (inline) {
+  if (!node?.position || !children) return <>{children}</>;
+
+  if (node.position.start.line === node.position.end.line) {
     return (
       <Box
         component="code"
@@ -37,26 +48,28 @@ export const RemarkCode: Components['code'] = ({
     );
   }
 
-  // NOTE ReactMarkdown passes language through the class name
+  // NOTE Languages are passed down through the class name with `react-markdown`
   const [, language] = className.split('-');
 
   return (
     <Box
-      component="span"
-      sx={({ mixins }) => ({ ...mixins.barf, display: 'block' })}
+      component={SyntaxHighlighter}
+      customStyle={{ borderRadius: undefined, margin: undefined }}
+      language={language || 'text'}
+      showLineNumbers
+      style={THEMES[theme.palette.mode]}
+      sx={[
+        ({ mixins }) => ({
+          ...mixins.barf,
+          borderBottom: 1,
+          borderTop: 1,
+          display: 'block',
+          fontSize: '0.8em',
+        }),
+        ({ palette }) => ({ borderColor: palette.divider }),
+      ]}
     >
-      <Divider />
-      <Box
-        component={SyntaxHighlighter}
-        language={language}
-        showLineNumbers
-        style={theme.palette.mode === 'dark' ? atomOneDark : atomOneLight}
-        // TODO Overwrite the padding from inline styles
-        sx={{ fontSize: '0.8em', m: 0 }}
-      >
-        {children.map((it) => String(it).trim())}
-      </Box>
-      <Divider />
+      {typeof children === 'string' ? children.trim() : children}
     </Box>
   );
 };

@@ -1,8 +1,5 @@
-import type { Components } from 'react-markdown';
-import type {
-  TableDataCellComponent,
-  TableHeaderCellComponent,
-} from 'react-markdown/lib/ast-to-react';
+import { type Components } from 'react-markdown';
+
 // eslint-disable-next-line import/no-cycle
 import { RemarkAccordion } from '@/components/Remark/renderers/RemarkAccordion';
 import { RemarkCard } from '@/components/Remark/renderers/RemarkCard';
@@ -12,10 +9,13 @@ import { RemarkDivider } from '@/components/Remark/renderers/RemarkDivider';
 import { RemarkHeading } from '@/components/Remark/renderers/RemarkHeading';
 import { RemarkImage } from '@/components/Remark/renderers/RemarkImage';
 import { RemarkLink } from '@/components/Remark/renderers/RemarkLink';
-import { RemarkList } from '@/components/Remark/renderers/RemarkList';
+import {
+  RemarkListOrdered,
+  RemarkListUnordered,
+} from '@/components/Remark/renderers/RemarkList';
 import { RemarkMana } from '@/components/Remark/renderers/RemarkMana';
-import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
 import { RemarkParagraph } from '@/components/Remark/renderers/RemarkParagraph';
+import { RemarkQuote } from '@/components/Remark/renderers/RemarkQuote';
 import { RemarkRow } from '@/components/Remark/renderers/RemarkRow';
 import { RemarkSoundcloud } from '@/components/Remark/renderers/RemarkSoundcloud';
 import { RemarkSpoiler } from '@/components/Remark/renderers/RemarkSpoiler';
@@ -30,28 +30,32 @@ import { RemarkTweet } from '@/components/Remark/renderers/RemarkTweet';
 import { RemarkYoutube } from '@/components/Remark/renderers/RemarkYoutube';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 
-export const COMPONENTS: Components = {
-  a: RemarkLink,
+export const COMPONENTS =
+  // prettier-ignore
+  {
+  a:          RemarkLink,
   blockquote: RemarkQuote,
-  code: RemarkCode,
-  h1: RemarkHeading,
-  h2: RemarkHeading,
-  h3: RemarkHeading,
-  h4: RemarkHeading,
-  h5: RemarkHeading,
-  h6: RemarkHeading,
-  hr: RemarkDivider,
-  img: RemarkImage,
-  ol: RemarkList as Components['ol'],
-  p: RemarkParagraph,
-  table: RemarkTable,
-  tbody: RemarkTableBody,
-  td: RemarkTableCell as TableDataCellComponent,
-  th: RemarkTableCell as TableHeaderCellComponent,
-  thead: RemarkTableHead,
-  tr: RemarkTableRow,
-  ul: RemarkList as Components['ul'],
-} as const;
+  code:       RemarkCode,
+  h1:         RemarkHeading<'h1'>,
+  h2:         RemarkHeading<'h2'>,
+  h3:         RemarkHeading<'h3'>,
+  h4:         RemarkHeading<'h4'>,
+  h5:         RemarkHeading<'h5'>,
+  h6:         RemarkHeading<'h6'>,
+  hr:         RemarkDivider,
+  img:        RemarkImage,
+  ol:         RemarkListOrdered,
+  p:          RemarkParagraph,
+  // NOTE The `code` entries handle both block and inline code markup
+  pre:        ({children})=> <>{children}</>,
+  table:      RemarkTable,
+  tbody:      RemarkTableBody,
+  td:         RemarkTableCell<'td'>,
+  th:         RemarkTableCell<'th'>,
+  thead:      RemarkTableHead,
+  tr:         RemarkTableRow,
+  ul:         RemarkListUnordered,
+} as const satisfies Components;
 
 export const COMPONENTS_EXTRA = {
   accordion: RemarkAccordion,

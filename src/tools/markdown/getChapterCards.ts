@@ -1,4 +1,5 @@
 import { join } from 'path';
+
 import { readMarkdown } from '@/tools/io/readMarkdown';
 import { walk } from '@/tools/io/walk';
 import {
@@ -6,7 +7,7 @@ import {
   MARKDOWN_EXTENSION,
 } from '@/tools/markdown/constants/Files';
 import { readChapterMatter } from '@/tools/markdown/readMatter';
-import type { ChapterCard, ChapterMatter } from '@/tools/markdown/types';
+import { type ChapterCard, type ChapterMatter } from '@/tools/markdown/types';
 import { assertCategory, assertDepth } from '@/tools/markdown/utilities';
 
 // TODO Can missing authors prevent build?

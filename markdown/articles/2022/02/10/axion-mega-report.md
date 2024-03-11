@@ -651,4 +651,4 @@ lose.
 
 xxxx
 
-![Doishy picking up his prize](/media/pictures/2022.axion-doishy.jpeg)
+![Doishy holding his win prize](/media/pictures/2022.axion-doishy.jpeg 'Doishy picking up his prize')

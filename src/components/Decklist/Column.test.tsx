@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react';
+
 import { Column, Props } from '@/components/Decklist/Column';
 
 describe(Column.name, () => {

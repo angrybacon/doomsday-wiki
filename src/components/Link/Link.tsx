@@ -1,9 +1,8 @@
-import NextLink from 'next/link';
-import { FunctionComponent, ReactNode } from 'react';
 import { Link as MuiLink } from '@mui/material';
+import NextLink from 'next/link';
+import { FunctionComponent, PropsWithChildren } from 'react';
 
-interface Props {
-  children: ReactNode;
+interface Props extends PropsWithChildren {
   external?: boolean;
   href: string;
 }

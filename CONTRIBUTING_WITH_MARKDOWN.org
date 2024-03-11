@@ -38,7 +38,7 @@ content.
 
 In addition, a linter will run on your committed changes to detect necessary
 improvements. A command is provided to help you sanitize your content locally:
-=yarn lint:wiki=.
+=pnpm lint:wiki=.
 
 If you can, set up your editor of choice to run =prettier= on save when you edit
 Wiki content. It'll do almost everything for you and make the linter happy
@@ -139,6 +139,9 @@ directives.
   Also create a new paragraph but accept children between the opening and
   closing pairs. It is possible to nest /container/ directives by using more
   than 3 colons.
+
+See [[https://doomsday.wiki/sandbox/markdown]] for examples of the below
+features.
 
 *** Inline Card Links
 

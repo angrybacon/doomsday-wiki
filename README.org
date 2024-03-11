@@ -1,7 +1,6 @@
 #+TITLE: Doomsday Wiki
 #+AUTHOR: Mathieu Marques
 
-[[https://app.netlify.com/sites/ddftwiki/deploys][https://img.shields.io/netlify/c4286750-ff36-41ea-aecd-daf5ae567b1a.svg?style=flat-square]]
 [[./LICENSE.org][https://img.shields.io/github/license/angrybacon/doomsday-wiki.svg?style=flat-square]]
 [[https://discord.gg/vajvFXt][https://img.shields.io/discord/398217260344410112.svg?color=7289DA&label=discord&style=flat-square]]
 

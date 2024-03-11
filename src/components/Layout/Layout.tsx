@@ -1,21 +1,25 @@
-import { useRouter } from 'next/router';
-import { useCallback, useEffect, useState } from 'react';
-import type { FunctionComponent, ReactNode } from 'react';
 import { Box, Container } from '@mui/material';
-import { useTheme } from '@mui/material/styles';
-import type { Theme } from '@mui/material/styles';
+import { useTheme, type Theme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import type { SxProps } from '@mui/system';
+import { type SxProps } from '@mui/system';
+import { useRouter } from 'next/router';
+import {
+  useCallback,
+  useEffect,
+  useState,
+  type FunctionComponent,
+  type PropsWithChildren,
+} from 'react';
+
 import { BackToTop } from '@/components/BackToTop/BackToTop';
 import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
-import type { MenuEntry } from '@/tools/markdown/types';
+import { type MenuEntry } from '@/tools/markdown/types';
 
-interface Props {
+interface Props extends PropsWithChildren {
   background?: string;
-  children: ReactNode;
   menu: MenuEntry[];
   title: string;
   withBackToTop?: boolean;

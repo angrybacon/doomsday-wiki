@@ -1,18 +1,19 @@
+import { Button, ButtonGroup, Card, CardContent, Grid } from '@mui/material';
 import { GetStaticProps, NextPage } from 'next';
 import { useEffect, useRef, useState } from 'react';
-import { Button, ButtonGroup, Card, CardContent, Grid } from '@mui/material';
+
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Layout } from '@/components/Layout/Layout';
 import { Remark } from '@/components/Remark/Remark';
 import { getDecklists } from '@/tools/decklists/getDecklists';
-import type { Decklists } from '@/tools/decklists/types';
+import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import type {
-  ArticleCard as ArticleCardModel,
-  MenuEntry,
-  Partial,
+import {
+  type ArticleCard as ArticleCardModel,
+  type MenuEntry,
+  type Partial,
 } from '@/tools/markdown/types';
 
 const ARTICLES_INITIAL_SIZE = 5;

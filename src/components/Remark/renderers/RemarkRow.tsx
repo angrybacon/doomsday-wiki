@@ -1,18 +1,19 @@
-import type { FunctionComponent } from 'react';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
 import { Box } from '@mui/material';
-import { Theme, alpha } from '@mui/material/styles';
-import type { SystemStyleObject } from '@mui/system';
+import { alpha, Theme } from '@mui/material/styles';
+import { type SystemStyleObject } from '@mui/system';
+import { type FunctionComponent } from 'react';
+import { ExtraProps } from 'react-markdown';
+
 import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
-import type { ScryCard } from '@/tools/scryfall/types';
+import { type ScryCard } from '@/tools/scryfall/types';
 
 const VARIANTS = {
   CENTERED: 'CENTERED',
   PILE: 'PILE',
 } as const;
 
-const variantStyles: Record<
+const STYLES: Record<
   keyof typeof VARIANTS,
   (theme: Theme) => SystemStyleObject<Theme>
 > = {
@@ -29,36 +30,34 @@ const variantStyles: Record<
     borderColor: 'divider',
     borderLeft: 0,
     borderRight: 0,
-    py: { xs: 2, sm: 4 }, // NOTE Should match `gutters`
+    py: { xs: 2, sm: 4 }, // NOTE Should match the `gutters` mixin
     '> *': { width: 0.2 },
   }),
 };
 
-interface Props extends ReactMarkdownProps {
+interface Props extends ExtraProps {
+  row?: { cards?: { data: ScryCard[]; id: string }[] };
   variant?: string;
-  node: ReactMarkdownProps['node'] & {
-    properties: {
-      cards?: { data: ScryCard[]; id?: string }[];
-    };
-  };
 }
 
-export const RemarkRow: FunctionComponent<Props> = ({ node, variant }) => {
-  // NOTE We retrieve cards from the Hast properties which support complex
-  //      objects as opposed to inline properties which get converted to a
-  //      string of `[object Object] [object Object] ...`.
-  const { cards = [] } = node.properties;
-  const variantKey = variant as keyof typeof VARIANTS;
-  const variantStyle = VARIANTS[variantKey] || VARIANTS.CENTERED;
+export const RemarkRow: FunctionComponent<Props> = ({ node, row, variant }) => {
+  if (!row?.cards) {
+    console.error('Missing cards for row', node);
+    return null;
+  }
+  if (variant && !Object.keys(VARIANTS).includes(variant)) {
+    console.error('Unknown variant for row', node);
+  }
+  const style = VARIANTS[variant as keyof typeof VARIANTS] || VARIANTS.CENTERED;
   return (
     <Box sx={({ mixins }) => mixins.barf}>
       <Box
         sx={[
           { display: 'flex', mx: { xs: -0.25, sm: -0.5, md: -1 } },
-          variantStyles[variantStyle],
+          STYLES[style],
         ]}
       >
-        {cards.map(({ data, id }) => (
+        {row.cards.map(({ data, id }) => (
           <Box key={id} sx={{ px: { xs: 0.25, sm: 0.5, md: 1 } }}>
             <Card data={data} />
           </Box>

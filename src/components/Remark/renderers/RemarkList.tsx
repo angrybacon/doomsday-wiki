@@ -1,13 +1,10 @@
-import { ElementType, FunctionComponent, ReactNode } from 'react';
 import Typography from '@mui/material/Typography';
+import { type Components } from 'react-markdown';
 
-// NOTE Typings for Components['ol'] and Components['ul']
-interface Props {
-  children: ReactNode & ReactNode[];
-  ordered: boolean;
-}
+export const RemarkListOrdered: Components['ol'] = ({ children }) => (
+  <Typography component="ol">{children}</Typography>
+);
 
-export const RemarkList: FunctionComponent<Props> = ({ children, ordered }) => {
-  const component: ElementType = ordered ? 'ol' : 'ul';
-  return <Typography component={component}>{children}</Typography>;
-};
+export const RemarkListUnordered: Components['ul'] = ({ children }) => (
+  <Typography component="ul">{children}</Typography>
+);

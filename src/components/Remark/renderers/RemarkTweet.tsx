@@ -1,8 +1,8 @@
+import { Box, CircularProgress, Typography } from '@mui/material';
 import Script from 'next/script';
 import { FunctionComponent, useRef, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
-import type { ReactMarkdownProps } from 'react-markdown/lib/ast-to-react';
-import { Box, CircularProgress, Typography } from '@mui/material';
+import { ExtraProps } from 'react-markdown';
 
 type CreateTweet = (
   id: string,
@@ -16,11 +16,11 @@ declare global {
   }
 }
 
-interface Props extends ReactMarkdownProps {
+interface Props extends ExtraProps {
   id?: string;
 }
 
-export const RemarkTweet: FunctionComponent<Props> = ({ id }) => {
+export const RemarkTweet: FunctionComponent<Props> = ({ id, node }) => {
   const [hasError, setHasError] = useState<boolean>(false);
   const [height, setHeight] = useState<number>(700);
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -31,7 +31,10 @@ export const RemarkTweet: FunctionComponent<Props> = ({ id }) => {
     triggerOnce: true,
   });
 
-  if (!id) return null;
+  if (!id) {
+    console.error('Missing ID for Tweet widget', node);
+    return null;
+  }
 
   const onReady = () => {
     if (tweet.current && window.twttr?.widgets?.createTweet) {

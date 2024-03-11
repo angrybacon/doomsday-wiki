@@ -1,7 +1,8 @@
-import type { AppProps } from 'next/app';
-import Head from 'next/head';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Analytics } from '@vercel/analytics/react';
+import { type AppProps } from 'next/app';
+import Head from 'next/head';
+
 import { ThemeProvider } from '@/theme/ThemeContext';
 
 if (process.env.SCRYFALL_MOCKS === '1') {

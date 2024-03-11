@@ -1,5 +1,5 @@
-import type { Theme } from '@mui/material/styles';
-import type { CSSProperties } from '@mui/material/styles/createMixins';
+import { type Theme } from '@mui/material/styles';
+import { type CSSProperties } from '@mui/material/styles/createMixins';
 
 /** Add top scroll margin to account for the sticky toolbar. */
 export const toolbarMargin = ({ breakpoints }: Theme): CSSProperties => ({

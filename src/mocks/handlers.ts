@@ -1,9 +1,9 @@
-import { rest } from 'msw';
-import type { MockedRequest, RestHandler } from 'msw';
+import { rest, type MockedRequest, type RestHandler } from 'msw';
+
 import { NAMED } from '@/mocks/constants/named';
 import { SEARCH } from '@/mocks/constants/search';
 import { SET } from '@/mocks/constants/set';
-import type { ScryDataItem, ScryDataList } from '@/tools/scryfall/types';
+import { type ScryDataItem, type ScryDataList } from '@/tools/scryfall/types';
 
 export const handlers: RestHandler<MockedRequest>[] = [
   rest.get<ScryDataItem>(

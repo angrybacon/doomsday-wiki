@@ -1,7 +1,7 @@
 import { Category } from '@/tools/markdown/constants/Category';
-import type { Kind } from '@/tools/markdown/constants/Kind';
-import type { Tag } from '@/tools/markdown/constants/Tag';
-import type { Scries } from '@/tools/scryfall/types';
+import { type Kind } from '@/tools/markdown/constants/Kind';
+import { type Tag } from '@/tools/markdown/constants/Tag';
+import { type Scries } from '@/tools/scryfall/types';
 
 export interface Banner {
   art: string;

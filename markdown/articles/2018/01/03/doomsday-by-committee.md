@@ -55,7 +55,7 @@ We are on the play and started with a Misty Rainforest. Opponent leads Turn one
 Verdant Catacombs and passes. We play a Badlands, crack the fetch for an Island,
 and cast Preordain, which brings us to here:
 
-![Scenario 1](/media/pictures/2018.ritual-doomsday.one.jpeg)
+![MTGO screenshot](/media/pictures/2018.ritual-doomsday.one.jpeg 'Scenario 1')
 
 Doishy and I quickly agree that we go for it here. By leaving both cards on top
 and drawing Doomsday, we can cast Doomsday and win that way if it resolves, and
@@ -111,7 +111,7 @@ pile with Lab Maniac. The important question here is what to put in the pile. To
 answer this question, we need to consider what disruption they could have and
 what of that we can even play around.
 
-![Scenario 2](/media/pictures/2018.ritual-doomsday.two.jpeg)
+![MTGO Screenshot](/media/pictures/2018.ritual-doomsday.two.jpeg 'Scenario 2')
 
 The pile that quickly jumps to mind is a _basic_ pile like \[AoI, LED, LM, GP,
 GP\]. This neatly plays around Therapy, and the 4 life paid is fine in this

@@ -1,5 +1,4 @@
-import { getRosetta } from '@/tools/game/getRosetta';
-import type { Rosetta } from '@/tools/game/getRosetta';
+import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
 import { Category } from '@/tools/markdown/constants/Category';
 
 describe(getRosetta.name, () => {
