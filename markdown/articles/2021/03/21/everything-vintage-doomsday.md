@@ -6,9 +6,9 @@ tags: [VINTAGE, MEANDECK]
 title: Everything Vintage Doomsday
 ---
 
-_Special thanks to Bart van Etten ([Diem4x][diem4x]), Max Vervoort
-([MaxMagicer][maxmagicer]), [SingPanMan][singpanman], and [discoverN][discovern]
-for writing._
+Special thanks to Bart [_Diem4x_][diem4x] van Etten, Max
+[_MaxMagicer_][maxmagicer] Vervoort, [_SingPanMan_][singpanman], and
+[_discoverN_][discovern] for writing.
 
 [diem4x]: https://twitter.com/Bartvehs
 [maxmagicer]: https://twitter.com/MaxVervoort2002
@@ -38,7 +38,7 @@ Dispute], :card[Force of Negation], and :card[Portent].
 CoS
 :::
 
-**Mystical Dispute / Force of Negation**: These slots are generally between
+**Mystical Dispute and Force of Negation**: These slots are generally between
 either :card[Treasure Cruise] + disruptive spell or two disruptive spells.
 Standard cards in these slots are 3rd :card[Daze], 4th :card[Flusterstorm],
 :card[Duress], or :card[Chain of Vapor]. With shops and mirrors so popular in
@@ -64,21 +64,19 @@ especially in something like the mirror.
 Portent
 :::
 
-## Sideboard Configuration and Sideboard Guide
+## Sideboard Configuration
 
-_With Bart van Etten and Max Vervoort_
-
-**:card[Steel Sabotage]**: it is only used for the shops matchup, but it's so
+**Steel Sabotage**: it is only used for the shops matchup, but it's so
 crucial in that matchup that you want four after sideboard. It's the most
 effective way to get rid of :card[Sphere of Resistance] type cards without
 investing too much mana.
 
-**:card[Mindbreak Trap]**: it's good vs. decks that try to do a lot on the first
+**Mindbreak Trap**: it's good vs. decks that try to do a lot on the first
 turn, like :card[Paradoxical Outcome], shops, or the mirror. At worst, it's a
 pitch to force, which makes sure it's not entirely a dead card when you draw it
 later in the game.
 
-**:card[Duress]**: an overall decent card against all decks where you want to
+**Duress**: an overall decent card against all decks where you want to
 play around counters and a card that sometimes is exactly what you need in your
 doomsday pile, especially when you have a Mox Jet in your start, so you don't
 need to tap a land to play it. A handy thing it can do is snag a Brain freeze
@@ -90,17 +88,17 @@ Mindbreak Trap
 Duress
 :::
 
-**:card[Fatal Push]**: you need an answer for cards like Lavinia,
+**Fatal Push**: you need an answer for cards like Lavinia,
 :card[Deathrite Shaman], :card[Thalia, Guardian of Thraben], :card[Archon of
 Emeria], Leovold, :card[Collector Ouphe], and other hatebears, and Push is just
 the most efficient one in the game. It's also good against ravager shops because
 it can give you enough time to beat the stax pieces.
 
-**:card[Opposition Agent]**: agent is outstanding in the mirror as it is a win
+**Opposition Agent**: agent is outstanding in the mirror as it is a win
 the game if it's not answered, while it's still decent vs. all decks that play
 tutors.
 
-**:card[Leyline of the Void]**: you only board it in vs. dredge or other bazaar
+**Leyline of the Void**: you only board it in vs. dredge or other bazaar
 decks, but it's just the most efficient card to play in your Doomsday sideboard
 for that matchup without dedicating too many spots for the matchup.
 
@@ -110,7 +108,7 @@ Opposition Agent
 Leyline of the Void
 :::
 
-**:card[Tasigur, the Golden Fang]**: you want an additional win condition
+**Tasigur, the Golden Fang**: you want an additional win condition
 against decks that can disrupt your combo well, like :card[Brain Freeze] or a
 deck with many specific counters, like Flusterstorm and :card[Pyroblast]. You
 also board Tasigur in when your opponent boards out their removal spells, like
@@ -118,7 +116,7 @@ how Jeskai boards out :card[Swords to Plowshares], and you want another card
 that they have to counter, yet it can't be hit by Flusterstorm, Pyroblast, or
 even Force of Negation. Because of this, it can sometimes steal games.
 
-**:card[Island]**: having a second basic is another tool for shops to better
+**Island**: having a second basic is another tool for shops to better
 play around :card[Wasteland] and :card[Ghost Quarter].
 
 :::row{variant=CENTERED}
@@ -126,7 +124,7 @@ Tasigur, the Golden Fang
 Island
 :::
 
-### Sideboard Guide
+## Sideboard Guide
 
 | vs BUG                      |                      |
 | --------------------------- | -------------------- |
@@ -224,8 +222,6 @@ and piles you can make to do that.
 
 ## Playing vs. Breach
 
-_With discoverN_
-
 You are against Breach, and the opponent was on the play with seven cards and
 went :card[Misty Rainforest], :card[Mox Ruby], pass (5 cards remaining). You
 mulliganned once, and your hand is :card[Doomsday], Street Wraith, Force of
@@ -234,25 +230,6 @@ Notable play arounds are Pyroblast/Fluster/Brain Freeze. How do you want to play
 this turn and the rest of the game?
 
 Our hand is:
-
-_DiscoverN's response_
-
-> **Game plan:**
->
-> In this hand, First, I want to play tasigur.  
-> And after the opponent moves, I want to play doomsday.
->
-> **Choices:**
->
-> 1. Play Ritual Doomsday: too risky.  
->    If the opponent doesn't have Brain Freeze, the opponent very likely has a
->    lot of counters. So, turn one kill won't be possible. 1. Cycling Wraith to
->    find a fetch, another Wraith, or Gitaxian probe to make casting Tasigur
->    easier. Not bad.
-> 1. Play Preordain: my choice.  
->    This choice has few flaws.  
->    Good things: it can keep Street Wraith. Wraith is a vital card to beating
->    Brain Freeze.
 
 :::row{variant=HAND}
 DD
@@ -264,9 +241,24 @@ Tasigur, the Golden Fang
 DR
 :::
 
-## Playing vs. BUG
+> **Game plan**
+>
+> In this hand, First, I want to play tasigur.  
+> And after the opponent moves, I want to play doomsday.
+>
+> **Choices**
+>
+> 1. Play Ritual Doomsday: too risky.  
+>    If the opponent doesn't have Brain Freeze, the opponent very likely has a
+>    lot of counters. So, turn one kill won't be possible. 1. Cycling Wraith to
+>    find a fetch, another Wraith, or Gitaxian probe to make casting Tasigur
+>    easier. Not bad.
+> 1. Play Preordain: my choice.  
+>    This choice has few flaws.  
+>    Good things: it can keep Street Wraith. Wraith is a vital card to beating
+>    Brain Freeze.
 
-_With SingPanMan_
+## Playing vs. BUG
 
 You are at 16 life vs. BUG game three (assume Fatal Push is in your deck and
 nothing is exiled, so you have your whole deck to put in your pile) and cast a
@@ -275,31 +267,31 @@ opponent has Leovold, Collector Ouphe, 3 lands, and 3 cards in hand. You assume
 their graveyard doesn't matter (i.e., :card[Snapcaster Mage]). What is your
 pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 
-_SingPanMan's response_
-
-> Demonic Tutor, Time Walk, Oracle, Oracle, Island (double Trophy is an issue)
+> 1. Pass turn
+> 1. Play Ritual
+> 1. Play Tutor, and get Time Walk
+> 1. Play Walk
+> 1. In extra turn, play Oracle
 >
-> 1. Pass turn 1. Play Ritual 1. Play Tutor, and get Time Walk 1. Play Walk 1.
->    In extra turn, play Oracle
->
-> I think there are low odds of winning this match.  
-> But you will have to go all-in.
+> I think there are low odds of winning this match. But you will have to go
+> all-in.
 >
 > If the opponent plays two trophies (or plays wasteland and trophy), you need
-> to search Island.  
-> Let's pray that it won't happen.
+> to search Island. Let's pray that it won't happen.
 >
 > **Bad**
 >
-> - Can withstand only one turn (16 life to 8, their board has 5 power) - Lose
->   with one counter (Flusterstorm, Force, Mindbreak Trap, Spell Pierce) - Lose
->   with one removal (Decay, Trophy) - 33% to lose (we can't draw the island) -
->   I can't afford the resources (it's all Leo's fault)
+> - Can withstand only one turn (16 life to 8, their board has 5 power)
+> - Lose with one counter (Flusterstorm, Force, Mindbreak Trap, Spell Pierce)
+> - Lose with one removal (Decay, Trophy)
+> - 33% to lose (we can't draw the island)
+> - I can't afford the resources (it's all Leo's fault)
 >
 > **Good**
 >
 > - The opponent might not have Daze (if the opponent has Daze, they will cast
->   it on Doomsday) - A single Wasteland can be played around
+>   it on Doomsday)
+> - A single Wasteland can be played around
 
 :::row{variant=PILE}
 Demonic Tutor
@@ -310,8 +302,6 @@ Island
 :::
 
 ## Playing vs. Bant
-
-_With discoverN_
 
 Your Opponent casts Archon of Emeria with five cards in hand on the play in turn
 two. It is game three (You have Fatal Push in your deck, and they may have cards
@@ -324,10 +314,6 @@ Hullbreacher, maybe Deafening Silence, counterspells like Flusterstorm, and even
 :card[Spell Queller]). What is your pile, and what do are you trying to do in
 the following turns?
 
-_DiscoverN's response_
-
-> Timewalk, Oracle, Oracle, Island, Island
->
 > This turn play tapped fetchland, pass.  
 > Next turn, play tapped fetchland, time walk.  
 > Next turn, play Oracle, fetch in response to removal if needed, or fetch to
@@ -353,8 +339,6 @@ Island
 
 ## Playing vs. Shops
 
-_With Jacobisboss_
-
 I've decided to do one final puzzle of a Doomsday pile to beat Golos shops.
 
 You cast Doomsday off of three lands and two Moxes, as there is a :card[Thorn of
@@ -374,8 +358,6 @@ Pre
 Daze
 FoW
 :::
-
-_My response_
 
 > From the top: Steel Sabotage, Gush, Oracle, Lotus, Island  
 > Goal: try to win in two turns.  

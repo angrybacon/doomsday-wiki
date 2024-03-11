@@ -6,7 +6,7 @@
     "node": ">=20.11.1"
   },
   "scripts": {
-    "build": "concurrently 'pnpm:build:*' --names --prefix-colors auto --kill-others --success first",
+    "build": "concurrently 'pnpm:build:*' --kill-others --names --prefix-colors auto --success first",
     "build:next": "next build",
     "build:scryfall": "pnpm run scryfall",
     "dev": "concurrently 'pnpm:dev:*' --names --prefix-colors auto",
@@ -52,7 +52,6 @@
     "remark-gfm": "4.0.0",
     "remark-parse": "11.0.0",
     "remark-toc": "9.0.0",
-    "sharp": "0.32.5",
     "simple-icons": "11.8.0",
     "unified": "11.0.4",
     "unist-util-select": "5.1.0",
@@ -85,9 +84,8 @@
     "jest-environment-jsdom": "29.7.0",
     "knip": "5.0.3",
     "lint-staged": "15.2.2",
-    "markdownlint-cli": "0.37.0",
+    "markdownlint-cli": "0.39.0",
     "mdast-util-directive": "3.0.0",
-    "msw": "1.3.2",
     "prettier": "3.2.5",
     "ts-node": "10.9.2",
     "typescript": "5.4.2"

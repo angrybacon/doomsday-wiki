@@ -19,6 +19,8 @@ competitive that I wouldn't be completely embarassed to write a primer.
 
 ::decklist{path=2018/12/ddft}
 
+## Table of Contents
+
 ## The Part Where I Predict Some of Your Questions About the List
 
 > Why Infernal Contract?
@@ -164,9 +166,9 @@ These are some situations you may find youself in and examples of piles you
 might use to win. Make sure you understand how much mana is needed post-Doomsday
 to execute one of these piles. Many of these piles can be quite mana hungry.
 
-**IC in hand used to draw into pile**
+##### IC in hand used to draw into pile
 
-> IC in hand - {B}{B}{B} + {B}{B}{B} - 7 Storm
+> {B}{B}{B} + {B}{B}{B} - 7 Storm
 
 :::row{variant=PILE}
 LP
@@ -176,7 +178,7 @@ CB
 ToA
 :::
 
-> IC in hand - {B}{B}{B} + {B}{B}{B} - 8 Storm
+> {B}{B}{B} + {B}{B}{B} - 8 Storm
 
 :::row{variant=PILE}
 LED
@@ -186,7 +188,7 @@ CB
 BW
 :::
 
-**Think the opponent is being cute and sandbagging an answer to Tendrils?**
+##### Think the opponent is being cute and sandbagging an answer to Tendrils?
 
 > Cantrip in hand - {B}{B}{B} + {U}{B}{B}{B}{B} - 7 Storm
 
@@ -198,7 +200,7 @@ Dur
 ToA
 :::
 
-**Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity**
+##### Need to get rid of something like a Gaddock Teeg or Leyline of Sanctity
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{B}{B}{B} - 7 Storm
 
@@ -212,9 +214,9 @@ ToA
 
 Note that this only works post board since CoV isn't in the maindeck.
 
-**Brainstorm and IC in hand**
+##### Brainstorm and IC in hand
 
-> BS and IC in hand - {B}{B}{B} + {U}{B} - 8 Storm
+> {B}{B}{B} + {U}{B} - 8 Storm
 
 :::row{variant=PILE}
 DR
@@ -224,9 +226,9 @@ DR
 ToA
 :::
 
-**Brainstorm and ToA in hand**
+##### Brainstorm and ToA in hand
 
-> BS and ToA in hand - {B}{B}{B} + {U}{B} - 8 Storm
+> {B}{B}{B} + {U}{B} - 8 Storm
 
 :::row{variant=PILE}
 IC
@@ -501,9 +503,9 @@ not having it hasn't had an adverse effect on my winrate. Pass-the-turn Lab Man
 piles were one of the deck's best tools against heavy discard. This new list
 just has different tools against discard in the form of Draw4s and PiF.
 
-### Sideboard Guide
+## Sideboard Guide
 
-#### Grixis Control
+### Grixis Control
 
 -1 Doomsday, -1 Rain of Filth, -1 Preordain  
 +2 Empty the Warrens, +1 Infernal Contract
@@ -514,7 +516,7 @@ toe-to-toe with their discard and card advantage. You can consider bringing
 Flusterstorm in for this matchup if you feel like you want a little more help.
 Maybe cut an LED and a Duress.
 
-#### Miracles, High Tide, any slow Ux Counterspell deck
+### Miracles, High Tide or any slow Counterspell deck
 
 -4 Lion's Eye Diamond, -4 Burning Wish, -1 Preordain  
 +1 Doomsday, +1 Infernal Contract, +1 Tendrils of Agony, +1 Past in Flames, +3
@@ -534,7 +536,7 @@ individually powerful cards to overwhelm their counters. Disrupt them and make
 them spend resources trying to reassemble instead of spend resources stopping
 you.
 
-#### Most Delver Variants
+### Most Delver Variants
 
 -2 Doomsday  
 +2 Empty the Warrens
@@ -544,7 +546,7 @@ lots of disruption. Empty the Warrens is a better plan. Often Delver players
 will keep threat-light, disruption-heavy hands and Empty stays relevant
 suprisingly late into the game. Be patient.
 
-#### Death's Shadow
+### Death's Shadow
 
 -3 Doomsday, -1 Conjurer's Bauble  
 +2 Empty the Warrens, +1 Tendrils of Agony, +1 Infernal Contract
@@ -557,7 +559,7 @@ The Bauble gets cut because it's bad without Doomsday, and the Contract comes in
 because you need maximum ability to try and take advantage of any opening you
 get.
 
-#### Storm
+### Storm
 
 -1 Rain of Filth, -1 Doomsday, -1 Preordain  
 +2 Flusterstorm, +1 Infernal Contract
@@ -568,7 +570,7 @@ Flusterstorm comes in for obvious reasons, and Contract comes in because your
 life total doesn't really matter and the matchup often devolves into
 discard-laden attrition games.
 
-#### Death and Taxes and pretty much anything with Chalices
+### Death and Taxes or pretty much anything with Chalices
 
 -3 Duress, -1 Preordain  
 +3 Echoing Truth, +1 Chain of Vapor
@@ -578,7 +580,7 @@ before they drop a lockpiece, or try to get rid of it and go off. Don't forget
 that Burning Wish can find solutions to hateful permanents, but a quick EtW can
 be a solution too.
 
-#### Lands
+### Lands
 
 -4 Thoughtseize  
 +3 Echoing Truth, +1 Chain of Vapor
@@ -589,7 +591,7 @@ Win before the Spheres come down, or bounce them. The mana denial is heavier in
 this matchup so watch out for that, and remember that Empty the Warrens is
 pretty bad in this matchup.
 
-#### Sneak and Show and Reanimator
+### Sneak and Show and Reanimator
 
 -1 Preordain, -1 Rain of Filth  
 +2 Flusterstorm
@@ -601,7 +603,7 @@ this matchup because they are the best single card at taking advantage of a
 window your opponent gives you, and it may be correct to side the same as Storm
 for this matchup.
 
-#### Turbo Depths or Nic Fit, without blue splash
+### Turbo Depths or Nic Fit, without blue splash
 
 -3 Duress, -1 Thoughtseize -1 Preordain  
 +3 Echoing Truth, +1 Chain of Vapor, +1 Infernal Contract

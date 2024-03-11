@@ -29,7 +29,7 @@ because of the extremely cheap pass-the-turn piles it enables. Most are quite
 straightforward and many are nearly identical to their same-turn counterparts.
 Let's look at some basic examples.
 
-**Example 1**
+### Example 1
 
 > {U}{U}
 
@@ -48,7 +48,7 @@ Doomsday on turn 1, and make your second land drop to generate {U}{U}. You may
 notice that this is identical to the basic Oracle pile presented in the first
 chapter, simply using the draw step in place of a cantrip to draw into the pile.
 
-**Example 2**
+### Example 2
 
 > {B}{B}{B}
 
@@ -67,7 +67,7 @@ be paid with a Ritual, meaning fewer lands needed if the situation permits.
 Again, this pile is also presented as a same-turn pile in the first chapter, and
 here the draw step replaces a cantrip.
 
-**Example 3**
+### Example 3
 
 > Lion's Eye Diamond on the board - {0}, 2 life
 
@@ -85,7 +85,7 @@ lands after passing the turn. Invalidating mana-denial and discard can be
 valuable against a deck like Pox, which, while uncommon, you will surely
 encounter at some point.
 
-**Example 4**
+### Example 4
 
 > Ponder in hand - {U}
 
@@ -114,7 +114,7 @@ these kinds of piles are often unecessary, but if you are unlucky you may find
 yourself with Oracle exiled, nothing but a Doomsday in hand, and you'll be glad
 you read this section.
 
-**Example 1**
+### Example 1
 
 > 2 cards in hand - {U}{U} - 8 Storm
 
@@ -141,7 +141,7 @@ those spells. Echo creates some unusual constraints on the pile though: the
 precise number of cards leftover is important so Echo doesn't kill you, and
 there is a chance your opponent draws a fresh hand full of interaction.
 
-**Example 2**
+### Example 2
 
 > LED, LP on board - {1}{U}{U} - 9 Storm
 
@@ -180,7 +180,7 @@ twice, meaning you'll need at least 4 life to execute. Though it appears clumsy,
 this pile does not require any unusual card choices and does not draw your
 opponent any new cards, so it has some appealing aspects.
 
-**Example 3**
+### Example 3
 
 > 5 lands in play - {1}{B}{B}{B}{B} - 5 Storm + 6 Storm
 
@@ -198,7 +198,7 @@ ton of lands on board, as well as :card[Rain of Filth], :card[Conjurer's
 Bauble], and maindeck Tendrils, which not every deck plays. However, with some
 mana producers in hand the onboard requirements are easier to manage.
 
-**Example 4**
+### Example 4
 
 > DR in hand, PiF in sideboard - {B}{B}{R}{R} - 10 Storm
 

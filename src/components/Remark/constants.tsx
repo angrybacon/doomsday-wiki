@@ -47,7 +47,7 @@ export const COMPONENTS =
   ol:         RemarkListOrdered,
   p:          RemarkParagraph,
   // NOTE The `code` entries handle both block and inline code markup
-  pre:        ({children})=> <>{children}</>,
+  pre:        ({children}) => <>{children}</>,
   table:      RemarkTable,
   tbody:      RemarkTableBody,
   td:         RemarkTableCell<'td'>,
