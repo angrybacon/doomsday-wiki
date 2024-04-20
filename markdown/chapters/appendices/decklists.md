@@ -21,7 +21,9 @@ alternatives, it can still allow for quick wins with an actual long game plan.
 
 Pilots like to experiment on a daily basis and keeping lists here simply is not
 feasible. Worry not, for newer lists can always be found in our [Discord
-server](/discord) in the `#decklists-archive` channel.
+server](/discord) in the [`#decklists-and-reports`][decklists] channel.
+
+[decklists]: https://discord.com/channels/398217260344410112/1148880149819953253
 
 ## Historical Decklists
 
