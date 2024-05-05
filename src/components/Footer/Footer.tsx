@@ -9,10 +9,10 @@ import { type FunctionComponent, type ReactNode } from 'react';
 import { Link } from '@/components/Link/Link';
 import { darkTheme } from '@/theme/theme';
 
-interface Props {
+type Props = {
   isClear: boolean;
   sx?: SxProps<Theme>;
-}
+};
 
 export const Footer: FunctionComponent<Props> = ({ isClear, sx }) => {
   const footer: ReactNode = (

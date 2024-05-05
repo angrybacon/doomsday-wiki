@@ -6,11 +6,11 @@ import { type FunctionComponent } from 'react';
 
 import { Progress } from '@/components/Progress/Progress';
 
-interface Props {
+type Props = {
   isMobile: boolean;
   onSidebarOpen: () => void;
   withProgress?: boolean;
-}
+};
 
 export const Header: FunctionComponent<Props> = ({
   isMobile,

@@ -14,7 +14,6 @@ import {
 } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-// eslint-disable-next-line import/no-cycle
 import { Remark } from '@/components/Remark/Remark';
 import { type Decklists } from '@/tools/decklists/types';
 import { type Partial } from '@/tools/markdown/types';
@@ -25,11 +24,12 @@ import { type Partial } from '@/tools/markdown/types';
 //
 //      Remark -> Remark/constants -> RemarkAccordion -> Remark
 
-interface Props extends ExtraProps, PropsWithChildren {
-  decklists?: Decklists;
-  partial?: Partial;
-  path?: string;
-}
+type Props = ExtraProps &
+  PropsWithChildren & {
+    decklists?: Decklists;
+    partial?: Partial;
+    path?: string;
+  };
 
 export const RemarkAccordion: FunctionComponent<Props> = ({
   children,

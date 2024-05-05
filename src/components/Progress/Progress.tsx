@@ -5,9 +5,9 @@ import { type FunctionComponent } from 'react';
 
 import { useScroll } from '@/hooks/useScroll';
 
-interface Props {
+type Props = {
   sx?: SxProps<Theme>;
-}
+};
 
 export const Progress: FunctionComponent<Props> = ({ sx }) => {
   const scroll = useScroll();

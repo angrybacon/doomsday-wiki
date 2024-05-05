@@ -5,9 +5,9 @@ import { Link } from '@/components/Link/Link';
 
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   name?: string;
-}
+};
 
 export const RemarkCard: FunctionComponent<Props> = ({ name, node }) => {
   if (!name) {

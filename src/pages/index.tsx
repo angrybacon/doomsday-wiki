@@ -18,12 +18,12 @@ import {
 
 const ARTICLES_INITIAL_SIZE = 5;
 
-interface Props {
+type Props = {
   articles: ArticleCardModel[];
   decklists: Decklists;
   menu: MenuEntry[];
   welcome: Partial;
-}
+};
 
 const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
   const articlesRoot = useRef<HTMLDivElement>(null);

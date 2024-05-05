@@ -7,9 +7,9 @@ import { useState, type FunctionComponent, type ReactNode } from 'react';
 import { CardFace } from '@/components/Card/CardFace';
 import { type ScryCard } from '@/tools/scryfall/types';
 
-export interface Props {
+export type Props = {
   data: ScryCard[];
-}
+};
 
 export const Card: FunctionComponent<Props> = ({ data }) => {
   const [selectedFace, setSelectedFace] = useState<number>(0);

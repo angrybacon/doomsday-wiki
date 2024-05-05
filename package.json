@@ -13,7 +13,7 @@
     "dev:next": "next dev",
     "dev:scryfall": "SCRYFALL_DEBUG=1 pnpm run scryfall",
     "lint": "pnpm run '/^lint:[^:]+$/'",
-    "lint:code": "eslint .",
+    "lint:code": "eslint",
     "lint:format": "pnpm run '/^lint:format:.+/'",
     "lint:format:code": "prettier --check --log-level warn puzzles/ scryfall/ src/",
     "lint:format:wiki": "prettier --check --log-level warn markdown/",
@@ -60,6 +60,7 @@
     "unist-util-visit": "5.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "9.2.0",
     "@ianvs/prettier-plugin-sort-imports": "4.2.1",
     "@testing-library/jest-dom": "6.4.5",
     "@testing-library/react": "15.0.6",
@@ -70,26 +71,19 @@
     "@types/react-dom": "18.3.0",
     "@types/react-syntax-highlighter": "15.5.13",
     "@types/unist": "3.0.2",
-    "@typescript-eslint/eslint-plugin": "7.8.0",
-    "@typescript-eslint/parser": "7.8.0",
     "concurrently": "8.2.2",
-    "eslint": "8.57.0",
-    "eslint-config-airbnb": "19.0.4",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint": "9.2.0",
     "eslint-plugin-import": "2.29.1",
-    "eslint-plugin-jsx-a11y": "6.8.0",
-    "eslint-plugin-react": "7.34.1",
-    "eslint-plugin-react-hooks": "4.6.2",
     "husky": "8.0.3",
     "jest": "29.7.0",
     "jest-environment-jsdom": "29.7.0",
     "knip": "5.12.2",
     "lint-staged": "15.2.2",
-    "markdownlint-cli": "0.39.0",
+    "markdownlint-cli": "0.40.0",
     "mdast-util-directive": "3.0.0",
     "prettier": "3.2.5",
     "ts-node": "10.9.2",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "typescript-eslint": "7.8.0"
   }
 }

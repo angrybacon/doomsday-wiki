@@ -11,14 +11,13 @@ import {
 import { Theme, THEME_STORAGE_KEY } from '@/theme/constants';
 import { darkTheme, lightTheme } from '@/theme/theme';
 
-interface ThemeState {
+type ThemeState = {
   isDark: boolean | null;
   toggle: () => void;
-}
+};
 
 const initial: ThemeState = {
   isDark: null,
-  // eslint-disable-next-line @typescript-eslint/no-empty-function
   toggle: () => {},
 };
 

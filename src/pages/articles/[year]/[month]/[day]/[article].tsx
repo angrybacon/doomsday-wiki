@@ -23,12 +23,12 @@ import {
   type Partial,
 } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   article: Article;
   decklists: Decklists;
   footer: Partial;
   menu: MenuEntry[];
-}
+};
 
 const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
   <Layout menu={menu} title={article.matter.title} withBackToTop withProgress>
@@ -61,12 +61,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { fallback: false, paths };
 };
 
-interface Query extends ParsedUrlQuery {
+type Query = ParsedUrlQuery & {
   article: string;
   day: string;
   month: string;
   year: string;
-}
+};
 
 export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,

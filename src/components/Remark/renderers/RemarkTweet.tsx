@@ -11,14 +11,15 @@ type CreateTweet = (
 ) => Promise<Element>;
 
 declare global {
+  // eslint-disable-next-line @typescript-eslint/consistent-type-definitions
   interface Window {
     twttr?: { widgets?: { createTweet?: CreateTweet } };
   }
 }
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   id?: string;
-}
+};
 
 export const RemarkTweet: FunctionComponent<Props> = ({ id, node }) => {
   const [hasError, setHasError] = useState<boolean>(false);

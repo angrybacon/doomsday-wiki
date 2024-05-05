@@ -5,9 +5,9 @@ import { Layout } from '@/components/Layout/Layout';
 import { getMenu } from '@/tools/markdown/getMenu';
 import { type MenuEntry } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   menu: MenuEntry[];
-}
+};
 
 const NotFoundPage: NextPage<Props> = ({ menu }) => (
   <Layout background="/404.jpg" menu={menu} title="404">

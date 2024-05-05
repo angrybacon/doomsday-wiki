@@ -3,9 +3,9 @@ import { type FunctionComponent } from 'react';
 
 import 'mana-font/css/mana.min.css';
 
-interface Props {
+type Props = {
   pattern: string;
-}
+};
 
 export const Mana: FunctionComponent<Props> = ({ pattern }) => (
   <Box

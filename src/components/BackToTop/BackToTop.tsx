@@ -5,9 +5,9 @@ import { type Theme } from '@mui/material/styles';
 import { type SxProps } from '@mui/system';
 import { useEffect, useState, type FunctionComponent } from 'react';
 
-interface Props {
+type Props = {
   sx?: SxProps<Theme>;
-}
+};
 
 export const BackToTop: FunctionComponent<Props> = ({ sx }) => {
   const [hasBeenDisplayed, setHasBeenDisplayed] = useState<boolean>(false);

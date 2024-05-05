@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import { type FunctionComponent } from 'react';
 
-interface Props {
+type Props = {
   title?: string;
-}
+};
 
 export const Title: FunctionComponent<Props> = ({ title }) => (
   <Head>

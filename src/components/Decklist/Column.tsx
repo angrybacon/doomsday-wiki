@@ -3,9 +3,9 @@ import { type FunctionComponent } from 'react';
 
 import { type Card } from '@/tools/decklists/types';
 
-export interface Props {
+export type Props = {
   cards: Card[];
-}
+};
 
 export const Column: FunctionComponent<Props> = ({ cards }) => {
   if (!cards.length) return null;

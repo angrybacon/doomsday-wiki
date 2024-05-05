@@ -18,19 +18,19 @@ import {
 } from '@mui/material';
 import { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
 
-interface Input {
+type Input = {
   copies: number;
   deck: number;
   life: number;
   samples: number;
-}
+};
 
-interface Output {
+type Output = {
   average: string;
   deathes: string;
   id: number;
   input: Input;
-}
+};
 
 const INITIAL_INPUT: Input = { copies: 4, deck: 53, life: 20, samples: 10000 };
 

@@ -6,10 +6,10 @@ import { type FunctionComponent } from 'react';
 import { ArticleChip } from '@/components/ArticleChip/ArticleChip';
 import { type ArticleMatter } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   date: string | null;
   matter: ArticleMatter;
-}
+};
 
 export const ArticleMeta: FunctionComponent<Props> = ({ date, matter }) => {
   const { authors, kind, tags = [] } = matter;

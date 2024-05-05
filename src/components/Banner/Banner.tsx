@@ -5,11 +5,11 @@ import { type FunctionComponent } from 'react';
 
 import { type Banner as BannerModel } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   banner: BannerModel;
   footer?: string[];
   title: string;
-}
+};
 
 export const Banner: FunctionComponent<Props> = ({
   banner,

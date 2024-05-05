@@ -9,10 +9,10 @@ import { siDiscord } from 'simple-icons';
 
 import { ThemeContext } from '@/theme/ThemeContext';
 
-interface Props {
+type Props = {
   onClose: () => void;
   sx?: SxProps<Theme>;
-}
+};
 
 export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {
   const { isDark, toggle } = useContext(ThemeContext);

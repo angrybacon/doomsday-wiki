@@ -1,6 +1,5 @@
 import { type Components } from 'react-markdown';
 
-// eslint-disable-next-line import/no-cycle
 import { RemarkAccordion } from '@/components/Remark/renderers/RemarkAccordion';
 import { RemarkCard } from '@/components/Remark/renderers/RemarkCard';
 import { RemarkCode } from '@/components/Remark/renderers/RemarkCode';

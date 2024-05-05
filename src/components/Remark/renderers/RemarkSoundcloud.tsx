@@ -2,9 +2,9 @@ import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   url?: string;
-}
+};
 
 export const RemarkSoundcloud: FunctionComponent<Props> = ({ node, url }) => {
   if (!url) {

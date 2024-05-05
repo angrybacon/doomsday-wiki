@@ -12,9 +12,9 @@ const IFRAME_PERMISSIONS = [
   'picture-in-picture',
 ].join(';');
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   id?: string;
-}
+};
 
 export const RemarkYoutube: FunctionComponent<Props> = ({ id, node }) => {
   if (!id) {
