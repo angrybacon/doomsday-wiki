@@ -57,7 +57,7 @@ export const Layout: FunctionComponent<Props> = ({
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
-      color: ({ palette }) => palette.common.white,
+      color: 'white',
       position: 'relative',
       '&:before': {
         backdropFilter: 'blur(4px)',

@@ -19,8 +19,7 @@ the [GitHub repository][code:repository].
 
 All original content such as articles and chapters is available under the terms
 of the [Attribution-NonCommercial-NoDerivatives 4.0 International][wiki:license]
-license. Its raw form can be found within the repository under the `markdown/`
-directory.
+license.
 
 In addition, the Wiki displays icons from the [Material Design Icons][icons:mdi]
 library as well as from the [Simple Icons][icons:simple-icons] library for brand

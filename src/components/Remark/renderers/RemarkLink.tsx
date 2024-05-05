@@ -2,9 +2,9 @@ import { type Components } from 'react-markdown';
 
 import { Link } from '@/components/Link/Link';
 
-export const RemarkLink: Components['a'] = ({ children, node, href }) => {
+export const RemarkLink: Components['a'] = ({ children, href, node }) => {
   if (!href) {
-    console.error('Missing reference for link', node);
+    console.error('Missing target for link', node);
     return <>{children}</>;
   }
   return (

@@ -25,7 +25,7 @@ export const Banner: FunctionComponent<Props> = ({
         backgroundColor: palette.grey[palette.mode === 'light' ? 600 : 800],
         overflow: 'hidden',
         position: 'relative',
-        textShadow: `0 0 8px ${palette.common.black}`,
+        textShadow: '0 0 8px black',
       })}
       title={banner.title}
     >

@@ -1,3 +1,4 @@
+import { hastify } from '@korumite/kiwi/client';
 import {
   type ContainerDirective,
   type LeafDirective,
@@ -7,7 +8,6 @@ import { Test, visit } from 'unist-util-visit';
 
 import { type Decklists } from '@/tools/decklists/types';
 import { type Partials } from '@/tools/markdown/types';
-import { hastify } from '@/tools/remark/hastify';
 import { Remarker } from '@/tools/remark/typings';
 
 const remarkWithChildren = (

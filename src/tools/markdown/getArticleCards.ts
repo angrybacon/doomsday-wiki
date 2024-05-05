@@ -1,8 +1,8 @@
 import { join } from 'path';
+import { walk } from '@korumite/kiwi/server';
 
 import { formatDate } from '@/tools/io/formatDate';
 import { readMarkdown } from '@/tools/io/readMarkdown';
-import { walk } from '@/tools/io/walk';
 import {
   BASE_URLS,
   MARKDOWN_EXTENSION,
@@ -22,9 +22,8 @@ type ArticleCardPending = Omit<ArticleCard, 'banner'> &
 
 /** Read file system and return a list of all articles. */
 export const getArticleCards = async (): Promise<ArticleCard[]> => {
-  const depth = 4;
   const extension = MARKDOWN_EXTENSION;
-  const files = walk(BASE_URLS.ARTICLE, { depth, extension });
+  const files = walk(BASE_URLS.ARTICLE, { extension });
   /** Warmup array for banner promises. */
   const banners: Promise<Banner>[] = [];
   // NOTE Reduce rightwards to sort descending
@@ -32,7 +31,7 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
     (accumulator, crumbs) => {
       const path = join(...crumbs) + extension;
       // NOTE Only consider complete paths ie. [year, month, day, slug]
-      assertDepth(crumbs, depth);
+      assertDepth(crumbs, 4);
       const [year, month, day, slug] = crumbs;
       let matter: ArticleMatter;
       try {
