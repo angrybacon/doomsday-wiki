@@ -1,9 +1,9 @@
+import { hastify } from '@korumite/kiwi/client';
 import { type LeafDirective } from 'mdast-util-directive';
 import { type Node } from 'unist';
 import { Test, visit } from 'unist-util-visit';
 
 import { type Decklists } from '@/tools/decklists/types';
-import { hastify } from '@/tools/remark/hastify';
 import { type Remarker } from '@/tools/remark/typings';
 
 /** Augment decklist directives with metadata found in `decklists`. */

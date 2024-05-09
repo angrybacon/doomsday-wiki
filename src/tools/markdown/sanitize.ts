@@ -3,8 +3,7 @@ import { Tag } from '@/tools/markdown/constants/Tag';
 
 // TODO How about Zod?
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type Sanitizer<T> = (value: any) => T;
+type Sanitizer<T> = (value: unknown) => T;
 
 /** Verify that the article kind matter property is correctly formed. */
 export const sanitizeArticleKind: Sanitizer<Kind> = (value) => {
@@ -60,7 +59,7 @@ export const sanitizeOrder: Sanitizer<number> = (value) => {
   if (value === undefined || !Number.isInteger(value)) {
     throw new Error("Missing 'order' property");
   }
-  return value;
+  return value as number;
 };
 
 /** Verify that the title matter property is correctly formed. */

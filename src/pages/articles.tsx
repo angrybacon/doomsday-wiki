@@ -14,10 +14,10 @@ import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getMenu } from '@/tools/markdown/getMenu';
 import { type ArticleCard, type MenuEntry } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   articles: ArticleCard[];
   menu: MenuEntry[];
-}
+};
 
 const ArticlesPage: NextPage<Props> = ({ articles, menu }) => (
   <Layout menu={menu} title="Articles" withBackToTop>

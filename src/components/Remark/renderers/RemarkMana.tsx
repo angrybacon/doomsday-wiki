@@ -3,9 +3,9 @@ import { type ExtraProps } from 'react-markdown';
 
 import { Mana } from '@/components/Mana/Mana';
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   pattern?: string;
-}
+};
 
 export const RemarkMana: FunctionComponent<Props> = ({ node, pattern }) => {
   if (!pattern) {

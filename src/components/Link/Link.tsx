@@ -2,10 +2,10 @@ import { Link as MuiLink } from '@mui/material';
 import NextLink from 'next/link';
 import { FunctionComponent, PropsWithChildren } from 'react';
 
-interface Props extends PropsWithChildren {
+type Props = PropsWithChildren & {
   external?: boolean;
   href: string;
-}
+};
 
 export const Link: FunctionComponent<Props> = ({
   children,

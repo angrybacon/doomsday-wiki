@@ -20,14 +20,14 @@ import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { darkTheme } from '@/theme/theme';
 import { type MenuEntry } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   category: string | undefined;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
   menu: MenuEntry[];
   onClose: () => void;
-}
+};
 
 export const Sidebar: FunctionComponent<Props> = ({
   category,

@@ -7,7 +7,6 @@ import remarkGfm from 'remark-gfm';
 import remarkToc from 'remark-toc';
 import { type PluggableList } from 'unified';
 
-// eslint-disable-next-line import/no-cycle
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import { type Decklists } from '@/tools/decklists/types';
 import { type Partial } from '@/tools/markdown/types';
@@ -18,13 +17,13 @@ import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
 import { remarkMana } from '@/tools/remark/remarkMana.client';
 import { remarkRow } from '@/tools/remark/remarkRow.client';
 
-interface Props {
+type Props = {
   decklists: Decklists;
   markdown: Partial;
   /** Whether the component should scroll to the current anchor. */
   withScroll?: boolean;
   withWrapper?: boolean;
-}
+};
 
 export const Remark: FunctionComponent<Props> = ({
   decklists,

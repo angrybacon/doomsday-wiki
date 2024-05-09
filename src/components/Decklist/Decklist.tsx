@@ -16,7 +16,7 @@ import { Column } from '@/components/Decklist/Column';
 import { Mana } from '@/components/Mana/Mana';
 import { type Card } from '@/tools/decklists/types';
 
-interface Props {
+type Props = {
   authors: string | null;
   colors: string[] | null;
   date?: string;
@@ -25,7 +25,7 @@ interface Props {
   side: Card[];
   sideCount: number;
   title: string;
-}
+};
 
 export const Decklist: FunctionComponent<Props> = ({
   authors,
@@ -67,7 +67,6 @@ export const Decklist: FunctionComponent<Props> = ({
             mr={1}
           >
             {colors.map((color, index) => (
-              // eslint-disable-next-line react/no-array-index-key
               <Mana key={index} pattern={color} />
             ))}
           </Box>
@@ -120,7 +119,6 @@ export const Decklist: FunctionComponent<Props> = ({
         </Typography>
         <Box display="flex" flexWrap="wrap">
           {main.map((cards, index) => (
-            // eslint-disable-next-line react/no-array-index-key
             <Box flex={1} key={`column-${index}`} mb={2} mr={2}>
               <Column cards={cards} />
             </Box>

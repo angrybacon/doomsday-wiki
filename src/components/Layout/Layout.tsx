@@ -18,13 +18,13 @@ import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
 import { type MenuEntry } from '@/tools/markdown/types';
 
-interface Props extends PropsWithChildren {
+type Props = PropsWithChildren & {
   background?: string;
   menu: MenuEntry[];
   title: string;
   withBackToTop?: boolean;
   withProgress?: boolean;
-}
+};
 
 export const Layout: FunctionComponent<Props> = ({
   background,
@@ -57,7 +57,7 @@ export const Layout: FunctionComponent<Props> = ({
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
-      color: ({ palette }) => palette.common.white,
+      color: 'white',
       position: 'relative',
       '&:before': {
         backdropFilter: 'blur(4px)',

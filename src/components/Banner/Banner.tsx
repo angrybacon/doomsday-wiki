@@ -5,11 +5,11 @@ import { type FunctionComponent } from 'react';
 
 import { type Banner as BannerModel } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   banner: BannerModel;
   footer?: string[];
   title: string;
-}
+};
 
 export const Banner: FunctionComponent<Props> = ({
   banner,
@@ -25,7 +25,7 @@ export const Banner: FunctionComponent<Props> = ({
         backgroundColor: palette.grey[palette.mode === 'light' ? 600 : 800],
         overflow: 'hidden',
         position: 'relative',
-        textShadow: `0 0 8px ${palette.common.black}`,
+        textShadow: '0 0 8px black',
       })}
       title={banner.title}
     >

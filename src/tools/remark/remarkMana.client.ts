@@ -1,10 +1,10 @@
+import { hastify } from '@korumite/kiwi/client';
 import { type Text } from 'mdast';
 import { type TextDirective } from 'mdast-util-directive';
 import { type Node } from 'unist';
 import { select } from 'unist-util-select';
 import { Test, visit } from 'unist-util-visit';
 
-import { hastify } from '@/tools/remark/hastify';
 import { Remarker } from '@/tools/remark/typings';
 
 /** Augment mana directives with the pattern query. */

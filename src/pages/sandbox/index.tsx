@@ -21,9 +21,9 @@ const DEFAULT_INPUT = `From void evolved Phyrexia.
 Great Yawgmoth, Father of Machines, saw its perfection.
 Thus the Grand Evolution began.`;
 
-interface Props {
+type Props = {
   menu: MenuEntry[];
-}
+};
 
 const SandboxPage: NextPage<Props> = ({ menu }) => {
   const [input, setInput] = useState<string>(DEFAULT_INPUT);

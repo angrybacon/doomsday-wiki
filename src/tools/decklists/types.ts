@@ -1,6 +1,6 @@
 export type Card = [quantity: number, name: string];
 
-export interface Decklist {
+export type Decklist = {
   authors: string | null;
   colors: string[] | null;
   main: Card[][];
@@ -8,11 +8,11 @@ export interface Decklist {
   side: Card[][];
   sideCount: number;
   title: string | null;
-}
+};
 
-export interface DecklistExtra {
+export type DecklistExtra = {
   date: null | string;
   titleAsFile: string;
-}
+};
 
 export type Decklists = Record<string, Decklist & DecklistExtra>;

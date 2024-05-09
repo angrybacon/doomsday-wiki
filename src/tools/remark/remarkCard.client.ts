@@ -1,3 +1,4 @@
+import { hastify } from '@korumite/kiwi/client';
 import { type Text } from 'mdast';
 import { type TextDirective } from 'mdast-util-directive';
 import { type Node } from 'unist';
@@ -5,7 +6,6 @@ import { select } from 'unist-util-select';
 import { Test, visit } from 'unist-util-visit';
 
 import { getCard } from '@/tools/game/getCard';
-import { hastify } from '@/tools/remark/hastify';
 import { type Remarker } from '@/tools/remark/typings';
 
 /** Augment card directives with the real cards names. */

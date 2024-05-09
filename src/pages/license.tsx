@@ -11,11 +11,11 @@ import { getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import { type MenuEntry, type Partial } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   decklists: Decklists;
   license: Partial;
   menu: MenuEntry[];
-}
+};
 
 const LicensePage: NextPage<Props> = ({ decklists, license, menu }) => (
   <Layout menu={menu} title="License">

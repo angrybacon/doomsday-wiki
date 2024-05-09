@@ -1,7 +1,7 @@
 import { join } from 'path';
+import { walk } from '@korumite/kiwi/server';
 
 import { readMarkdown } from '@/tools/io/readMarkdown';
-import { walk } from '@/tools/io/walk';
 import {
   BASE_URLS,
   MARKDOWN_EXTENSION,
@@ -14,13 +14,12 @@ import { assertCategory, assertDepth } from '@/tools/markdown/utilities';
 
 /** Read file system and return a list of all chapters. */
 export const getChapterCards = (): ChapterCard[] => {
-  const depth = 2;
   const extension = MARKDOWN_EXTENSION;
-  const files = walk(BASE_URLS.CHAPTER, { depth, extension });
+  const files = walk(BASE_URLS.CHAPTER, { extension });
   const cards = files.reduce<ChapterCard[]>((accumulator, crumbs) => {
     const path = join(...crumbs) + extension;
     // NOTE Only consider complete paths ie. [category, chapter]
-    assertDepth(crumbs, depth);
+    assertDepth(crumbs, 2);
     const [category, slug] = crumbs;
     assertCategory(category);
     let matter: ChapterMatter;

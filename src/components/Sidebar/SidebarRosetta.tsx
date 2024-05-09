@@ -12,10 +12,10 @@ import { useEffect, useState, type FunctionComponent } from 'react';
 
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
 
-interface Props {
+type Props = {
   category: string | undefined;
   sx?: SxProps<Theme>;
-}
+};
 
 export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
   const [rosetta, setRosetta] = useState<Rosetta>([]);

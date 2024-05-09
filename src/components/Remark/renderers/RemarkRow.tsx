@@ -35,10 +35,10 @@ const STYLES: Record<
   }),
 };
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   row?: { cards?: { data: ScryCard[]; id: string }[] };
   variant?: string;
-}
+};
 
 export const RemarkRow: FunctionComponent<Props> = ({ node, row, variant }) => {
   if (!row?.cards) {

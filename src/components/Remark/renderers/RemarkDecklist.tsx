@@ -7,9 +7,9 @@ import {
   type Decklist as DecklistModel,
 } from '@/tools/decklists/types';
 
-interface Props extends ExtraProps {
+type Props = ExtraProps & {
   decklist?: DecklistModel & DecklistExtra;
-}
+};
 
 export const RemarkDecklist: FunctionComponent<Props> = ({
   decklist,

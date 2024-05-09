@@ -1,4 +1,5 @@
 import { join } from 'path';
+import { walk } from '@korumite/kiwi/server';
 
 import {
   BASE_DECKLISTS_URL,
@@ -7,7 +8,6 @@ import {
 import { type Decklists } from '@/tools/decklists/types';
 import { formatDate } from '@/tools/io/formatDate';
 import { readDecklist } from '@/tools/io/readDecklist';
-import { walk } from '@/tools/io/walk';
 
 /** Read file system and return all decklists. */
 export const getDecklists = (): Decklists => {

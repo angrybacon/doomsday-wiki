@@ -3,78 +3,78 @@ import { type Kind } from '@/tools/markdown/constants/Kind';
 import { type Tag } from '@/tools/markdown/constants/Tag';
 import { type Scries } from '@/tools/scryfall/types';
 
-export interface Banner {
+export type Banner = {
   art: string;
   artPreview: string;
   flavor: string | null;
   title: string;
-}
+};
 
 // Cards ///////////////////////////////////////////////////////////////////////
 
-interface Card<M> {
+type Card<M> = {
   matter: M;
   route: string;
   slug: string;
-}
+};
 
-export interface ArticleCard extends Card<ArticleMatter> {
+export type ArticleCard = Card<ArticleMatter> & {
   banner: Banner;
   date: string | null;
   day: string;
   month: string;
   year: string;
-}
+};
 
-export interface ChapterCard extends Card<ChapterMatter> {
+export type ChapterCard = Card<ChapterMatter> & {
   category: Category;
-}
+};
 
 // Documents ///////////////////////////////////////////////////////////////////
 
-export interface Partial {
+export type Partial = {
   partials: Partials;
   scries: Scries;
   text: string;
-}
+};
 
-export interface Article extends Partial {
+export type Article = Partial & {
   banner: Banner;
   matter: ArticleMatter;
   minutes: number;
-}
+};
 
-export interface Chapter extends Partial {
+export type Chapter = Partial & {
   banner: Banner;
   matter: ChapterMatter;
-}
+};
 
 export type Partials = Record<string, Partial>;
 
 // Matter //////////////////////////////////////////////////////////////////////
 
-export interface ArticleMatter {
+export type ArticleMatter = {
   authors: string;
   banner: string;
   kind: Kind;
   tags: Tag[];
   title: string;
-}
+};
 
-export interface ChapterMatter {
+export type ChapterMatter = {
   banner: string;
   order: number | null;
   title: string;
-}
+};
 
 // Menu ////////////////////////////////////////////////////////////////////////
 
-export interface MenuDecoration {
+export type MenuDecoration = {
   category: Category;
   subtitle: string;
   title: string;
-}
+};
 
-export interface MenuEntry extends MenuDecoration {
+export type MenuEntry = MenuDecoration & {
   pages: ChapterCard[];
-}
+};

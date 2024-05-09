@@ -22,11 +22,11 @@ import {
   type MenuEntry,
 } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   chapter: Chapter;
   decklists: Decklists;
   menu: MenuEntry[];
-}
+};
 
 const ChapterPage: NextPage<Props> = ({ chapter, decklists, menu }) => (
   <Layout menu={menu} title={chapter.matter.title} withBackToTop withProgress>
@@ -48,10 +48,10 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { fallback: false, paths };
 };
 
-interface Query extends ParsedUrlQuery {
+type Query = ParsedUrlQuery & {
   category: string;
   chapter: string;
-}
+};
 
 export const getStaticProps: GetStaticProps<Props, Query> = async ({
   params,

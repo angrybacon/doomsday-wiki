@@ -9,11 +9,11 @@ import { getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import { Partial, type MenuEntry } from '@/tools/markdown/types';
 
-interface Props {
+type Props = {
   decklists: Decklists;
   markdown: Partial;
   menu: MenuEntry[];
-}
+};
 
 const Page: NextPage<Props> = ({ decklists, markdown, menu }) => (
   <Layout menu={menu} title="Sandbox">

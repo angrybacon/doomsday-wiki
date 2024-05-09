@@ -21,6 +21,8 @@ import { type Kind } from '@/tools/markdown/constants/Kind';
 
 import '@fontsource/libre-baskerville';
 
+/* eslint-disable @typescript-eslint/consistent-type-definitions */
+
 declare module '@mui/material/styles' {
   interface Palette {
     dividerOpaque: string;
@@ -54,6 +56,8 @@ declare module '@mui/system/createTheme/shape' {
     borderRadiusPaper: number;
   }
 }
+
+/* eslint-enable @typescript-eslint/consistent-type-definitions */
 
 const customizeTheme = (options: ThemeOptions): Theme => {
   const theme = createTheme(options);
