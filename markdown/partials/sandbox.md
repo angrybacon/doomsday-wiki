@@ -2,7 +2,52 @@
 
 ## Table of Contents
 
+## Preamble
+
+Rather than having to maintain any additional guidelines, refer to the following
+document in order to see how Markdown is rendered through the Wiki. It relies
+directly on components implemented within the Wiki so that the preview is as
+faithful as can be.
+
 ## Typography
+
+### Lists
+
+```md
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et ipsum consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+```
+
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et ipsum consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+
+```md
+1. Aliquam at _pretium_ eros, vitae congue orci
+1. Fusce **bibendum** ac mauris eu malesuada
+   1. Aliquam aliquet sed tortor ac laoreet
+   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
+      1. Donec dictum felis auctor :spoiler[semper] porttitor
+      1. Duis felis quam, ornare non tempor a, accumsan sed orci
+1. Vivamus a facilisis est
+```
+
+1. Aliquam at _pretium_ eros, vitae congue orci
+1. Fusce **bibendum** ac mauris eu malesuada
+   1. Aliquam aliquet sed tortor ac laoreet
+   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
+      1. Donec dictum felis auctor :spoiler[semper] porttitor
+      1. Duis felis quam, ornare non tempor a, accumsan sed orci
+1. Vivamus a facilisis est
 
 ### Paragraphs
 
@@ -56,44 +101,6 @@ libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 :spoiler[efficitur pharetra] quam.
 :::
 
-### Lists
-
-```md
-- Aliquam at _pretium_ eros, vitae congue orci
-- Fusce **bibendum** ac mauris eu malesuada
-  - Aliquam aliquet sed tortor ac laoreet
-  - Aenean vel nulla et ipsum consequat consequat sed eget justo
-    - Donec dictum felis auctor :spoiler[semper] porttitor
-    - Duis felis quam, ornare non tempor a, accumsan sed orci
-- Vivamus a facilisis est
-```
-
-- Aliquam at _pretium_ eros, vitae congue orci
-- Fusce **bibendum** ac mauris eu malesuada
-  - Aliquam aliquet sed tortor ac laoreet
-  - Aenean vel nulla et ipsum consequat consequat sed eget justo
-    - Donec dictum felis auctor :spoiler[semper] porttitor
-    - Duis felis quam, ornare non tempor a, accumsan sed orci
-- Vivamus a facilisis est
-
-```md
-1. Aliquam at _pretium_ eros, vitae congue orci
-1. Fusce **bibendum** ac mauris eu malesuada
-   1. Aliquam aliquet sed tortor ac laoreet
-   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
-      1. Donec dictum felis auctor :spoiler[semper] porttitor
-      1. Duis felis quam, ornare non tempor a, accumsan sed orci
-1. Vivamus a facilisis est
-```
-
-1. Aliquam at _pretium_ eros, vitae congue orci
-1. Fusce **bibendum** ac mauris eu malesuada
-   1. Aliquam aliquet sed tortor ac laoreet
-   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
-      1. Donec dictum felis auctor :spoiler[semper] porttitor
-      1. Duis felis quam, ornare non tempor a, accumsan sed orci
-1. Vivamus a facilisis est
-
 ### Tables
 
 ```md
@@ -113,6 +120,18 @@ libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 | Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
 
 ### Code Blocks
+
+````md
+```ts
+import { MANA_RE } from '@/tools/mana/constants';
+
+/** Find mana symbols in `text` and replace them with the directive syntax. */
+export const toDirective = (text: string): string => {
+  const result = text.replace(MANA_RE, ':mana[$1]');
+  return result;
+};
+```
+````
 
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
@@ -126,47 +145,20 @@ export const toDirective = (text: string): string => {
 
 ## Accordions
 
-```md
-::::accordion[From Markdown directly]
-
-[...]
-
-:::spoiler
-[...]
-:::
-
-::::
-```
-
-::::accordion[From Markdown directly]
-
-### Paragraphs
+````md
+:::accordion[A simple accordion]
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 :spoiler[efficitur pharetra] quam.
-
-### Quotes
 
 > Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 > tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 > libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 > :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 > :spoiler[efficitur pharetra] quam.
-
-### Spoilers
-
-:::spoiler
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
-:card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
-:::
-
-### Lists
 
 - Aliquam at _pretium_ eros, vitae congue orci
 - Fusce **bibendum** ac mauris eu malesuada
@@ -184,16 +176,12 @@ libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
       1. Duis felis quam, ornare non tempor a, accumsan sed orci
 1. Vivamus a facilisis est
 
-### Tables
-
 | One                         | Two              | Three                     |
 | --------------------------- | ---------------- | ------------------------- |
 | Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
 | Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
 | Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
-
-### Code Blocks
 
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
@@ -205,15 +193,97 @@ export const toDirective = (text: string): string => {
 };
 ```
 
-::::
+:::
+````
 
-```md
-::accordion[From a partial]{path=welcome}
-::accordion[From another partial]{path=license}
+:::accordion[A simple accordion]
+
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+:card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur pharetra] quam.
+
+> Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+> tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+> libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+> :card[Underground Sea] ex ligula, elementum elementum arcu eu,
+> :spoiler[efficitur pharetra] quam.
+
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et ipsum consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+
+1. Aliquam at _pretium_ eros, vitae congue orci
+1. Fusce **bibendum** ac mauris eu malesuada
+   1. Aliquam aliquet sed tortor ac laoreet
+   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
+      1. Donec dictum felis auctor :spoiler[semper] porttitor
+      1. Duis felis quam, ornare non tempor a, accumsan sed orci
+1. Vivamus a facilisis est
+
+| One                         | Two              | Three                     |
+| --------------------------- | ---------------- | ------------------------- |
+| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+| Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
+| Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
+
+```ts
+import { MANA_RE } from '@/tools/mana/constants';
+
+/** Find mana symbols in `text` and replace them with the directive syntax. */
+export const toDirective = (text: string): string => {
+  const result = text.replace(MANA_RE, ':mana[$1]');
+  return result;
+};
 ```
 
-::accordion[From a partial]{path=welcome}
-::accordion[From another partial]{path=license}
+:::
+
+```md
+::::accordion[Nested directives]
+:::spoiler
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+:card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur pharetra] quam.
+:::
+
+:::row
+DD | WTH
+DD | PRM | 61058
+DD | MP2
+DD | A25
+DD | PLST
+DD | SLD | 1115
+:::
+::::
+```
+
+::::accordion[Nested directives]
+:::spoiler
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+:card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur pharetra] quam.
+:::
+
+:::row
+DD | WTH
+DD | PRM | 61058
+DD | MP2
+DD | A25
+DD | PLST
+DD | SLD | 1115
+:::
+::::
 
 ## Rows
 
@@ -240,7 +310,7 @@ DD | SLD | 1115
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 Plains | UNH
 Island | UNH
 Swamp | UNH
@@ -249,7 +319,7 @@ Forest | UNH
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 Plains | UNH
 Island | UNH
 Swamp | UNH
@@ -258,7 +328,7 @@ Forest | UNH
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 Flooded Strand
 Misty Rainforest
 Polluted Delta
@@ -266,7 +336,7 @@ Scalding Tarn
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 Flooded Strand
 Misty Rainforest
 Polluted Delta
@@ -274,29 +344,39 @@ Scalding Tarn
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 TW
 IU
 AoI
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 TW
 IU
 AoI
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 IC
 Cruel Bargain
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 IC
 Cruel Bargain
+:::
+
+```md
+:::row
+BS
+:::
+```
+
+:::row
+BS
 :::
 
 ### Pile
