@@ -1,4 +1,3 @@
-import { join } from 'path';
 import { ParsedUrlQuery } from 'querystring';
 import { Card, CardContent } from '@mui/material';
 import {
@@ -59,7 +58,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   const { category, chapter } = params as Query;
   return {
     props: {
-      chapter: await getChapter(join(category, chapter)),
+      chapter: await getChapter(category, chapter),
       decklists: getDecklists(),
       menu: getMenu(),
     },

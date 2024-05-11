@@ -1,6 +1,8 @@
 import { readFileSync } from 'fs';
 import matter from 'gray-matter';
 
+// TODO Should that use korumite/read?
+
 /** Read file at `path` as Markdown and return the matter found. */
 export const readMarkdown = (
   path: string,

@@ -54,20 +54,25 @@ export const RemarkCode: Components['code'] = ({
   return (
     <Box
       component={SyntaxHighlighter}
-      customStyle={{ borderRadius: undefined, margin: undefined }}
+      customStyle={{
+        borderRadius: undefined,
+        margin: undefined,
+        paddingLeft: undefined,
+        paddingRight: undefined,
+      }}
       language={language || 'text'}
-      showLineNumbers
       style={THEMES[theme.palette.mode]}
-      sx={[
-        ({ mixins }) => ({
-          ...mixins.barf,
-          borderBottom: 1,
-          borderTop: 1,
-          display: 'block',
-          fontSize: '0.8em',
-        }),
-        ({ palette }) => ({ borderColor: palette.divider }),
-      ]}
+      sx={({ mixins, palette }) => ({
+        ...mixins.barf,
+        ...mixins.gutters,
+        borderBottomStyle: 'solid',
+        borderBottomWidth: 1,
+        borderColor: palette.divider,
+        borderTopStyle: 'solid',
+        borderTopWidth: 1,
+        display: 'block',
+        fontSize: '0.8em',
+      })}
     >
       {typeof children === 'string' ? children.trim() : children}
     </Box>

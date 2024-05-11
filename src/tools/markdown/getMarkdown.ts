@@ -1,16 +1,13 @@
+import { readFileSync } from 'node:fs';
 import { join } from 'path';
 import readingTime from 'reading-time';
 import remarkDirective from 'remark-directive';
+import remarkFrontmatter from 'remark-frontmatter';
 import remarkParse from 'remark-parse';
+import remarkStringify from 'remark-stringify';
 import { unified } from 'unified';
 
-import { readMarkdown } from '@/tools/io/readMarkdown';
-import { toDirective } from '@/tools/mana/toDirective';
-import {
-  BASE_MARKDOWN_URL,
-  BASE_URLS,
-  MARKDOWN_EXTENSION,
-} from '@/tools/markdown/constants/Files';
+import { BASE_URLS } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import {
   readArticleMatter,
@@ -21,49 +18,27 @@ import {
   type Chapter,
   type Partial,
 } from '@/tools/markdown/types';
-import { remarkPartials } from '@/tools/remark/remarkPartials.server';
+import { remarkMana } from '@/tools/remark/remarkMana.server';
 import { remarkScries } from '@/tools/remark/remarkScries.server';
+import { type Scries } from '@/tools/scryfall/types';
+import { remarkMatter } from '../remark/remarkFrontmatter.server';
 
-/**
- * Read file system and return Markdown content with its matter for the
- * specified path. Provided path should be relative to `BASE_MARKDOWN_URL` but
- * the root can be specified.
- */
-const getMarkdown = async (
-  path: string,
-  root: string = BASE_MARKDOWN_URL,
-): Promise<{ base: Partial; extra: Record<string, unknown> }> => {
-  const { content, data } = readMarkdown(join(root, path) + MARKDOWN_EXTENSION);
-  const tree = unified().use(remarkParse).use(remarkDirective).parse(content);
-  // TODO Merge the 2 run steps
-  // NOTE Provide the getter as a callback to avoid circular imports
-  const { partials } = await unified()
-    .use(remarkPartials, getPartial)
-    .run(tree);
-  const { scries } = await unified().use(remarkScries).run(tree);
-  return {
-    base: {
-      partials,
-      scries,
-      text: toDirective(content),
-    },
-    extra: data,
-  };
-};
-
-/**
- * Read Mardown content under the provided `path` and augment with it article
- * metadata.
- */
-export const getArticle = async (path: string): Promise<Article> => {
+const getMarkdown = async (path: string): Promise<Partial> => {
+  const buffer = readFileSync(path + '.md');
   try {
-    const { base, extra } = await getMarkdown(join('articles', path));
-    const matter = readArticleMatter(extra);
+    const { data, value } = await unified()
+      .use(remarkDirective)
+      .use(remarkFrontmatter)
+      .use(remarkMana)
+      .use(remarkMatter)
+      .use(remarkParse)
+      .use(remarkScries)
+      .use(remarkStringify)
+      .process(buffer);
     return {
-      ...base,
-      banner: await getBanner(matter.banner),
-      matter,
-      minutes: readingTime(base.text).minutes,
+      matter: data.matter as Record<string, unknown>,
+      scries: data.scries as Scries,
+      text: String(value),
     };
   } catch (error) {
     const message = error instanceof Error ? error.message : `${error}`;
@@ -71,32 +46,39 @@ export const getArticle = async (path: string): Promise<Article> => {
   }
 };
 
-/**
- * Read Mardown content under the provided `path` and augment it with chapter
- * metadata.
- */
-export const getChapter = async (path: string): Promise<Chapter> => {
+/** Convenience helper to read an article. See `getMarkdown`. */
+export const getArticle = async (
+  ...crumbs: [year: string, month: string, day: string, article: string]
+): Promise<Article> => {
+  const path = join(BASE_URLS.ARTICLE, ...crumbs);
+  const markdown = await getMarkdown(path);
   try {
-    const { base, extra } = await getMarkdown(join('chapters', path));
-    const matter = readChapterMatter(extra);
-    return {
-      ...base,
-      banner: await getBanner(matter.banner),
-      matter,
-    };
+    const matter = readArticleMatter(markdown.matter);
+    const banner = await getBanner(matter.banner);
+    const minutes = readingTime(markdown.text).minutes;
+    return { ...markdown, banner, matter, minutes };
   } catch (error) {
     const message = error instanceof Error ? error.message : `${error}`;
     throw new Error(`${message} in "${path}"`);
   }
 };
 
-/** Read Mardown content under the provided `path`. */
-export const getPartial = async (path: string): Promise<Partial> => {
+/** Convenience helper to read a chapter. See `getMarkdown`. */
+export const getChapter = async (
+  ...crumbs: [category: string, chapter: string]
+): Promise<Chapter> => {
+  const path = join(BASE_URLS.CHAPTER, ...crumbs);
+  const markdown = await getMarkdown(path);
   try {
-    const { base } = await getMarkdown(path, BASE_URLS.PARTIAL);
-    return base;
+    const matter = readChapterMatter(markdown.matter);
+    const banner = await getBanner(matter.banner);
+    return { ...markdown, banner, matter };
   } catch (error) {
     const message = error instanceof Error ? error.message : `${error}`;
     throw new Error(`${message} in "${path}"`);
   }
 };
+
+/** Convenience helper to read a partial. See `getMarkdown`. */
+export const getPartial = (path: string): Promise<Partial> =>
+  getMarkdown(join(BASE_URLS.PARTIAL, path));

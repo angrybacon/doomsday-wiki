@@ -29,10 +29,10 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
   const articlesRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
-  const showMore = (count?: number) => () =>
-    setSize((previous) =>
-      count === undefined ? articles.length : previous + count,
-    );
+  const showMore =
+    (count = 0) =>
+    () =>
+      setSize((previous) => (count ? previous + count : articles.length));
 
   useEffect(() => {
     if (size > ARTICLES_INITIAL_SIZE) {

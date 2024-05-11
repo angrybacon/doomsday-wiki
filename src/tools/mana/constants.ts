@@ -1,9 +1,16 @@
 const MANA = '[WUBRG]';
 
-// prettier-ignore
 const PAIRS = [
-  '(?:WU)', '(?:WB)', '(?:UB)', '(?:UR)', '(?:BR)',
-  '(?:BG)', '(?:RG)', '(?:RW)', '(?:GW)', '(?:GU)',
+  '(?:WU)',
+  '(?:WB)',
+  '(?:UB)',
+  '(?:UR)',
+  '(?:BR)',
+  '(?:BG)',
+  '(?:RG)',
+  '(?:RW)',
+  '(?:GW)',
+  '(?:GU)',
 ].join('|');
 
 const COLORLESS = '[0-9]|1[0-9]|20|C|X|Y|Z';

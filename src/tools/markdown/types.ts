@@ -12,8 +12,8 @@ export type Banner = {
 
 // Cards ///////////////////////////////////////////////////////////////////////
 
-type Card<M> = {
-  matter: M;
+type Card<TMatter> = {
+  matter: TMatter;
   route: string;
   slug: string;
 };
@@ -33,23 +33,21 @@ export type ChapterCard = Card<ChapterMatter> & {
 // Documents ///////////////////////////////////////////////////////////////////
 
 export type Partial = {
-  partials: Partials;
+  matter: Record<string, unknown>;
   scries: Scries;
   text: string;
 };
 
-export type Article = Partial & {
+export type Article = Omit<Partial, 'matter'> & {
   banner: Banner;
   matter: ArticleMatter;
   minutes: number;
 };
 
-export type Chapter = Partial & {
+export type Chapter = Omit<Partial, 'matter'> & {
   banner: Banner;
   matter: ChapterMatter;
 };
-
-export type Partials = Record<string, Partial>;
 
 // Matter //////////////////////////////////////////////////////////////////////
 
