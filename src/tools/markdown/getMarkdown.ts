@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { join } from 'path';
+import { join } from 'node:path';
 import readingTime from 'reading-time';
 import remarkDirective from 'remark-directive';
 import remarkFrontmatter from 'remark-frontmatter';

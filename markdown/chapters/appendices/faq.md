@@ -360,7 +360,7 @@ combo-specific hate for the matchup.
 ---
 
 If you have any questions beyond what is listed here feel free to ask in the
-[Discord][discord] or email <ddftwiki@gmail.com>.
+[Discord][discord].
 
 [data:matchups]: https://docs.google.com/spreadsheets/d/14hIVFCCxK6v6PHzj_7opfigFWVGV73kv59OdeN-J95I/edit#gid=890222427
 [discord]: /discord

@@ -18,8 +18,8 @@ importers:
         specifier: 5.0.13
         version: 5.0.13
       '@korumite/kiwi':
-        specifier: 2.8.0
-        version: 2.8.0
+        specifier: 2.9.1
+        version: 2.9.1
       '@mdi/js':
         specifier: 7.4.47
         version: 7.4.47
@@ -41,9 +41,6 @@ importers:
       async-sema:
         specifier: 3.1.1
         version: 3.1.1
-      gray-matter:
-        specifier: 4.0.3
-        version: 4.0.3
       mana-font:
         specifier: 1.15.9
         version: 1.15.9
@@ -707,8 +704,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@korumite/kiwi@2.8.0':
-    resolution: {integrity: sha512-sR3Vo0zWb8HJJdyI62ohnZwprHwXrl62jFgz3t38QzCm7CLyKHoo5huvZxwillDYAQ02H9dpOld7fcYwGCG/bQ==}
+  '@korumite/kiwi@2.9.1':
+    resolution: {integrity: sha512-aihxpDZCS/d5RMSOhygrT2J7Y4Lrm/yqtZxbJByKaxreWgIOGBx/nzRstML6uV7hq7gZmeuNYP4MUUqNFnTpHQ==}
 
   '@mdi/js@7.4.47':
     resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
@@ -4507,7 +4504,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@korumite/kiwi@2.8.0':
+  '@korumite/kiwi@2.9.1':
     dependencies:
       '@types/mdast': 4.0.3
       gray-matter: 4.0.3
