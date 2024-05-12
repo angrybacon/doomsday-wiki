@@ -18,7 +18,6 @@ import { remarkAccordion } from '@/tools/remark/remarkAccordion.client';
 import { remarkBase } from '@/tools/remark/remarkBase.client';
 import { remarkCard } from '@/tools/remark/remarkCard.client';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
-import { remarkMana } from '@/tools/remark/remarkMana.client';
 import { remarkRow } from '@/tools/remark/remarkRow.client';
 
 type Props = {
@@ -47,7 +46,6 @@ export const Remark: FunctionComponent<Props> = ({
       [remarkAccordion, { decklists }],
       remarkCard,
       [remarkDecklist, { decklists }],
-      remarkMana,
       [remarkRow, { scries: markdown.scries }],
     ],
   } as const satisfies Record<string, PluggableList>;

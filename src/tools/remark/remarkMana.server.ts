@@ -10,6 +10,7 @@ export const remarkMana: Plugin = () => async (tree) => {
     MANA_RE,
     (_match, value) =>
       ({
+        attributes: { pattern: value },
         children: [{ type: 'text', value }],
         name: 'mana',
         type: 'textDirective',

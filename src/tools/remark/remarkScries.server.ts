@@ -21,6 +21,7 @@ export const remarkScries: Plugin = () => async (tree, file) => {
     const directive = node as ContainerDirective;
     const text = select('text', directive) as Text | undefined;
     if (!text) {
+      // TODO Use file.fail() instead?
       throw new Error(`Missing content for directive "${directive.name}"`);
     }
     text.value.split('\n').forEach((query) => {

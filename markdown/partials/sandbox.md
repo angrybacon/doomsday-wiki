@@ -54,10 +54,18 @@ faithful as can be.
 You can inline mana symbols _almost_ everywhere.
 
 ```md
-{W} {U} {B} {R} {G}
+{W} {U} {B} {R} {G} {WP} {UP} {BP} {RP} {GP} {2W} {2U} {2B} {2R} {2G}
+
+{WU} {UB} {BR} {RG} {GW} {WB} {UR} {BG} {RW} {GU}
+
+{0} {1} {2} &hellip; {20} {S} {C} {X} {Y} {Z}
 ```
 
-{W} {U} {B} {R} {G}
+{W} {U} {B} {R} {G} {WP} {UP} {BP} {RP} {GP} {2W} {2U} {2B} {2R} {2G}
+
+{WU} {UB} {BR} {RG} {GW} {WB} {UR} {BG} {RW} {GU}
+
+{0} {1} {2} &hellip; {20} {S} {C} {X} {Y} {Z}
 
 When used collectively, for instance to indicate the color identity of an
 archetype, use the same order as found on the back of a _Magic: the Gathering_
