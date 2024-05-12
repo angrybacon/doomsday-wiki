@@ -174,8 +174,10 @@ export const toDirective = (text: string): string => {
 
 ## Accordions
 
+### Simple
+
 ````md
-:::accordion[A simple accordion]
+:::accordion[Click to expand]
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
@@ -225,7 +227,7 @@ export const toDirective = (text: string): string => {
 :::
 ````
 
-:::accordion[A simple accordion]
+:::accordion[Click to expand]
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
@@ -274,8 +276,10 @@ export const toDirective = (text: string): string => {
 
 :::
 
+### Nested Directives
+
 ```md
-::::accordion[Nested directives]
+::::accordion[Click to expand]
 :::spoiler
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
@@ -295,7 +299,7 @@ DD | SLD | 1115
 ::::
 ```
 
-::::accordion[Nested directives]
+::::accordion[Click to expand]
 :::spoiler
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,

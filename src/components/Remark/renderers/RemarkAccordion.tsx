@@ -62,9 +62,9 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
           bgcolor: alpha(palette.primary.light, 0.1),
           borderTop: 1,
           borderTopColor: 'divider',
+          display: 'grid',
+          gap: 3,
           py: 2,
-          '& h6:first-of-type': { mt: 0 },
-          '> :not(p:first-of-type)': { mt: 2 },
         })}
       >
         {content}
