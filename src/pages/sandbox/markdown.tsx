@@ -7,7 +7,7 @@ import { getDecklists } from '@/tools/decklists/getDecklists';
 import { Decklists } from '@/tools/decklists/types';
 import { getPartial } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
-import { Partial, type MenuEntry } from '@/tools/markdown/types';
+import { type MenuEntry, type Partial } from '@/tools/markdown/types';
 
 type Props = {
   decklists: Decklists;

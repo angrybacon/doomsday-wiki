@@ -1,8 +1,7 @@
-import { join } from 'path';
-import { walk } from '@korumite/kiwi/server';
+import { join } from 'node:path';
+import { read, walk } from '@korumite/kiwi/server';
 
 import { formatDate } from '@/tools/io/formatDate';
-import { readMarkdown } from '@/tools/io/readMarkdown';
 import {
   BASE_URLS,
   MARKDOWN_EXTENSION,
@@ -29,14 +28,12 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
   // NOTE Reduce rightwards to sort descending
   const cards = files.reduceRight<ArticleCardPending[]>(
     (accumulator, crumbs) => {
-      const path = join(...crumbs) + extension;
-      // NOTE Only consider complete paths ie. [year, month, day, slug]
       assertDepth(crumbs, 4);
       const [year, month, day, slug] = crumbs;
+      const path = join(...crumbs) + extension;
       let matter: ArticleMatter;
       try {
-        const { data } = readMarkdown(join(BASE_URLS.ARTICLE, path));
-        matter = readArticleMatter(data);
+        matter = readArticleMatter(read(BASE_URLS.ARTICLE, path).matter);
       } catch (error) {
         const message = error instanceof Error ? error.message : `${error}`;
         throw new Error(`${message} in "${path}"`);
@@ -52,10 +49,7 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
       };
       banners.push(
         getBanner(matter.banner).then(
-          (banner) => {
-            card.banner = banner;
-            return banner;
-          },
+          (banner) => (card.banner = banner),
           (error) => {
             const message = `Failed to scry banner "${matter.banner}" (${error})`;
             throw new Error(message);

@@ -1,10 +1,10 @@
-import { join } from 'path';
+import { join } from 'node:path';
 
 /** File extension to consider for Markdown content. */
 export const MARKDOWN_EXTENSION = '.md';
 
 /** Base URL for Markdown content. */
-export const BASE_MARKDOWN_URL = join(process.cwd(), 'markdown');
+const BASE_MARKDOWN_URL = join(process.cwd(), 'markdown');
 
 /** Base URLs for Markdown content. */
 export const BASE_URLS = {

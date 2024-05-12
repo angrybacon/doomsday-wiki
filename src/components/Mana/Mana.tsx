@@ -9,8 +9,9 @@ type Props = {
 
 export const Mana: FunctionComponent<Props> = ({ pattern }) => (
   <Box
-    component="i"
-    className={`ms ms-cost ms-${pattern}`}
-    sx={{ fontSize: '.8em', mx: 0.125, verticalAlign: 'initial' }}
+    aria-label={`Mana symbol: "${pattern}"`}
+    component="span"
+    className={`ms ms-cost ms-${pattern.toLowerCase()}`}
+    sx={{ fontSize: '.9em', mx: 0.25, verticalAlign: 'text-bottom' }}
   />
 );

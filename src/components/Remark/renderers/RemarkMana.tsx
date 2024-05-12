@@ -1,16 +1,18 @@
-import { type FunctionComponent } from 'react';
+import { type FunctionComponent, type PropsWithChildren } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Mana } from '@/components/Mana/Mana';
 
-type Props = ExtraProps & {
-  pattern?: string;
-};
+type Props = ExtraProps & PropsWithChildren & { pattern?: string };
 
-export const RemarkMana: FunctionComponent<Props> = ({ node, pattern }) => {
+export const RemarkMana: FunctionComponent<Props> = ({
+  children,
+  node,
+  pattern,
+}) => {
   if (!pattern) {
     console.error('Missing pattern in mana', node);
-    return null;
+    return children;
   }
-  return <Mana pattern={pattern.toLowerCase()} />;
+  return <Mana pattern={pattern} />;
 };

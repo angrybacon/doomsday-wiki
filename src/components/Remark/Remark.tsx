@@ -9,17 +9,20 @@ import { type PluggableList } from 'unified';
 
 import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
 import { type Decklists } from '@/tools/decklists/types';
-import { type Partial } from '@/tools/markdown/types';
+import {
+  type Article,
+  type Chapter,
+  type Partial,
+} from '@/tools/markdown/types';
 import { remarkAccordion } from '@/tools/remark/remarkAccordion.client';
 import { remarkBase } from '@/tools/remark/remarkBase.client';
 import { remarkCard } from '@/tools/remark/remarkCard.client';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
-import { remarkMana } from '@/tools/remark/remarkMana.client';
 import { remarkRow } from '@/tools/remark/remarkRow.client';
 
 type Props = {
   decklists: Decklists;
-  markdown: Partial;
+  markdown: Article | Chapter | Partial;
   /** Whether the component should scroll to the current anchor. */
   withScroll?: boolean;
   withWrapper?: boolean;
@@ -40,10 +43,9 @@ export const Remark: FunctionComponent<Props> = ({
       [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
       // NOTE Our own remarkers
       remarkBase,
-      [remarkAccordion, { decklists, partials: markdown.partials }],
+      [remarkAccordion, { decklists }],
       remarkCard,
       [remarkDecklist, { decklists }],
-      remarkMana,
       [remarkRow, { scries: markdown.scries }],
     ],
   } as const satisfies Record<string, PluggableList>;

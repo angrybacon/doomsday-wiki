@@ -1,13 +1,14 @@
-import { join } from 'path';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { walk } from '@korumite/kiwi/server';
 
 import {
   BASE_DECKLISTS_URL,
   DECKLISTS_EXTENSION,
 } from '@/tools/decklists/constants';
+import { parse } from '@/tools/decklists/parse';
 import { type Decklists } from '@/tools/decklists/types';
 import { formatDate } from '@/tools/io/formatDate';
-import { readDecklist } from '@/tools/io/readDecklist';
 
 /** Read file system and return all decklists. */
 export const getDecklists = (): Decklists => {
@@ -16,7 +17,7 @@ export const getDecklists = (): Decklists => {
   const decklists = files.reduce<Decklists>((accumulator, crumbs) => {
     const slug = join(...crumbs);
     const path = join(BASE_DECKLISTS_URL, slug) + extension;
-    const decklist = readDecklist(path);
+    const decklist = parse(readFileSync(path, 'utf8'));
     const [title, ...dateCrumbs] = crumbs.reverse();
     const date: null | string = formatDate(...dateCrumbs.reverse());
     const titleAsFile = title as string;

@@ -2,7 +2,81 @@
 
 ## Table of Contents
 
+## Preamble
+
+Rather than having to maintain any additional guidelines, refer to the following
+document in order to see how Markdown is rendered through the Wiki. It relies
+directly on components implemented within the Wiki so that the preview is as
+faithful as can be.
+
 ## Typography
+
+### Lists
+
+```md
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et ipsum consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+```
+
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et ipsum consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+
+```md
+1. Aliquam at _pretium_ eros, vitae congue orci
+1. Fusce **bibendum** ac mauris eu malesuada
+   1. Aliquam aliquet sed tortor ac laoreet
+   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
+      1. Donec dictum felis auctor :spoiler[semper] porttitor
+      1. Duis felis quam, ornare non tempor a, accumsan sed orci
+1. Vivamus a facilisis est
+```
+
+1. Aliquam at _pretium_ eros, vitae congue orci
+1. Fusce **bibendum** ac mauris eu malesuada
+   1. Aliquam aliquet sed tortor ac laoreet
+   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
+      1. Donec dictum felis auctor :spoiler[semper] porttitor
+      1. Duis felis quam, ornare non tempor a, accumsan sed orci
+1. Vivamus a facilisis est
+
+### Mana
+
+You can inline mana symbols _almost_ everywhere.
+
+```md
+{W} {U} {B} {R} {G} {WP} {UP} {BP} {RP} {GP} {2W} {2U} {2B} {2R} {2G}
+
+{WU} {UB} {BR} {RG} {GW} {WB} {UR} {BG} {RW} {GU}
+
+{0} {1} {2} &hellip; {20} {S} {C} {X} {Y} {Z}
+```
+
+{W} {U} {B} {R} {G} {WP} {UP} {BP} {RP} {GP} {2W} {2U} {2B} {2R} {2G}
+
+{WU} {UB} {BR} {RG} {GW} {WB} {UR} {BG} {RW} {GU}
+
+{0} {1} {2} &hellip; {20} {S} {C} {X} {Y} {Z}
+
+When used collectively, for instance to indicate the color identity of an
+archetype, use the same order as found on the back of a _Magic: the Gathering_
+card. This makes searching for guilds and clans much easier later on. As an
+exception to this rule and when referring to Doomsday colors, start with blue
+and black as it makes it easier for the eyes to parse quickly the differences
+from one wedge to the next.
+
+The syntax that was chosen for the implementation can be found
+[here](https://mana.andrewgioia.com/icons.html). Currently only the mana costs
+are available but loyalty and other color indicators may come soon &trade;.
 
 ### Paragraphs
 
@@ -56,44 +130,6 @@ libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 :spoiler[efficitur pharetra] quam.
 :::
 
-### Lists
-
-```md
-- Aliquam at _pretium_ eros, vitae congue orci
-- Fusce **bibendum** ac mauris eu malesuada
-  - Aliquam aliquet sed tortor ac laoreet
-  - Aenean vel nulla et ipsum consequat consequat sed eget justo
-    - Donec dictum felis auctor :spoiler[semper] porttitor
-    - Duis felis quam, ornare non tempor a, accumsan sed orci
-- Vivamus a facilisis est
-```
-
-- Aliquam at _pretium_ eros, vitae congue orci
-- Fusce **bibendum** ac mauris eu malesuada
-  - Aliquam aliquet sed tortor ac laoreet
-  - Aenean vel nulla et ipsum consequat consequat sed eget justo
-    - Donec dictum felis auctor :spoiler[semper] porttitor
-    - Duis felis quam, ornare non tempor a, accumsan sed orci
-- Vivamus a facilisis est
-
-```md
-1. Aliquam at _pretium_ eros, vitae congue orci
-1. Fusce **bibendum** ac mauris eu malesuada
-   1. Aliquam aliquet sed tortor ac laoreet
-   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
-      1. Donec dictum felis auctor :spoiler[semper] porttitor
-      1. Duis felis quam, ornare non tempor a, accumsan sed orci
-1. Vivamus a facilisis est
-```
-
-1. Aliquam at _pretium_ eros, vitae congue orci
-1. Fusce **bibendum** ac mauris eu malesuada
-   1. Aliquam aliquet sed tortor ac laoreet
-   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
-      1. Donec dictum felis auctor :spoiler[semper] porttitor
-      1. Duis felis quam, ornare non tempor a, accumsan sed orci
-1. Vivamus a facilisis est
-
 ### Tables
 
 ```md
@@ -113,6 +149,18 @@ libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 | Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
 
 ### Code Blocks
+
+````md
+```ts
+import { MANA_RE } from '@/tools/mana/constants';
+
+/** Find mana symbols in `text` and replace them with the directive syntax. */
+export const toDirective = (text: string): string => {
+  const result = text.replace(MANA_RE, ':mana[$1]');
+  return result;
+};
+```
+````
 
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
@@ -126,47 +174,22 @@ export const toDirective = (text: string): string => {
 
 ## Accordions
 
-```md
-::::accordion[From Markdown directly]
+### Simple
 
-[...]
-
-:::spoiler
-[...]
-:::
-
-::::
-```
-
-::::accordion[From Markdown directly]
-
-### Paragraphs
+````md
+:::accordion[Click to expand]
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 :spoiler[efficitur pharetra] quam.
-
-### Quotes
 
 > Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 > tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 > libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
 > :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 > :spoiler[efficitur pharetra] quam.
-
-### Spoilers
-
-:::spoiler
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
-:card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
-:::
-
-### Lists
 
 - Aliquam at _pretium_ eros, vitae congue orci
 - Fusce **bibendum** ac mauris eu malesuada
@@ -184,16 +207,12 @@ libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
       1. Duis felis quam, ornare non tempor a, accumsan sed orci
 1. Vivamus a facilisis est
 
-### Tables
-
 | One                         | Two              | Three                     |
 | --------------------------- | ---------------- | ------------------------- |
 | Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
 | Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
 | Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
-
-### Code Blocks
 
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
@@ -205,15 +224,99 @@ export const toDirective = (text: string): string => {
 };
 ```
 
-::::
+:::
+````
 
-```md
-::accordion[From a partial]{path=welcome}
-::accordion[From another partial]{path=license}
+:::accordion[Click to expand]
+
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+:card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur pharetra] quam.
+
+> Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+> tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+> libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+> :card[Underground Sea] ex ligula, elementum elementum arcu eu,
+> :spoiler[efficitur pharetra] quam.
+
+- Aliquam at _pretium_ eros, vitae congue orci
+- Fusce **bibendum** ac mauris eu malesuada
+  - Aliquam aliquet sed tortor ac laoreet
+  - Aenean vel nulla et ipsum consequat consequat sed eget justo
+    - Donec dictum felis auctor :spoiler[semper] porttitor
+    - Duis felis quam, ornare non tempor a, accumsan sed orci
+- Vivamus a facilisis est
+
+1. Aliquam at _pretium_ eros, vitae congue orci
+1. Fusce **bibendum** ac mauris eu malesuada
+   1. Aliquam aliquet sed tortor ac laoreet
+   1. Aenean vel nulla et ipsum consequat consequat sed eget justo
+      1. Donec dictum felis auctor :spoiler[semper] porttitor
+      1. Duis felis quam, ornare non tempor a, accumsan sed orci
+1. Vivamus a facilisis est
+
+| One                         | Two              | Three                     |
+| --------------------------- | ---------------- | ------------------------- |
+| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+| Quisque libero elit         | Aliquet sem vel  | Quisque commodo urna      |
+| Ultrices a faucibus eget    | Ultricies lectus | Curabitur lobortis dictum |
+
+```ts
+import { MANA_RE } from '@/tools/mana/constants';
+
+/** Find mana symbols in `text` and replace them with the directive syntax. */
+export const toDirective = (text: string): string => {
+  const result = text.replace(MANA_RE, ':mana[$1]');
+  return result;
+};
 ```
 
-::accordion[From a partial]{path=welcome}
-::accordion[From another partial]{path=license}
+:::
+
+### Nested Directives
+
+```md
+::::accordion[Click to expand]
+:::spoiler
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+:card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur pharetra] quam.
+:::
+
+:::row
+DD | WTH
+DD | PRM | 61058
+DD | MP2
+DD | A25
+DD | PLST
+DD | SLD | 1115
+:::
+::::
+```
+
+::::accordion[Click to expand]
+:::spoiler
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue sapien turpis quis purus. Suspendisse
+:card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur pharetra] quam.
+:::
+
+:::row
+DD | WTH
+DD | PRM | 61058
+DD | MP2
+DD | A25
+DD | PLST
+DD | SLD | 1115
+:::
+::::
 
 ## Rows
 
@@ -240,7 +343,7 @@ DD | SLD | 1115
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 Plains | UNH
 Island | UNH
 Swamp | UNH
@@ -249,7 +352,7 @@ Forest | UNH
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 Plains | UNH
 Island | UNH
 Swamp | UNH
@@ -258,7 +361,7 @@ Forest | UNH
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 Flooded Strand
 Misty Rainforest
 Polluted Delta
@@ -266,7 +369,7 @@ Scalding Tarn
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 Flooded Strand
 Misty Rainforest
 Polluted Delta
@@ -274,29 +377,39 @@ Scalding Tarn
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 TW
 IU
 AoI
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 TW
 IU
 AoI
 :::
 
 ```md
-:::row{variant=CENTERED}
+:::row
 IC
 Cruel Bargain
 :::
 ```
 
-:::row{variant=CENTERED}
+:::row
 IC
 Cruel Bargain
+:::
+
+```md
+:::row
+BS
+:::
+```
+
+:::row
+BS
 :::
 
 ### Pile

@@ -1,4 +1,4 @@
-import { join } from 'path';
+import { join } from 'node:path';
 
 /** File extension to consider for decklist files. */
 export const DECKLISTS_EXTENSION = '.txt';

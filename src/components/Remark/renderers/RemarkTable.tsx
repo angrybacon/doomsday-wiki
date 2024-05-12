@@ -2,6 +2,7 @@ import {
   Table,
   TableBody,
   TableCell,
+  TableContainer,
   TableHead,
   TableRow,
 } from '@mui/material';
@@ -10,8 +11,7 @@ import { ReactElement } from 'react';
 import { ExtraProps, type Components } from 'react-markdown';
 
 export const RemarkTable: Components['table'] = ({ children }) => (
-  <Table
-    size="small"
+  <TableContainer
     sx={({ mixins }) => ({
       ...mixins.barf,
       borderTop: 1,
@@ -20,8 +20,8 @@ export const RemarkTable: Components['table'] = ({ children }) => (
       '& + &': { borderTop: 0 },
     })}
   >
-    {children}
-  </Table>
+    <Table size="small">{children}</Table>
+  </TableContainer>
 );
 
 export const RemarkTableBody: Components['tbody'] = ({ children }) => (
