@@ -21,7 +21,7 @@ const Application = (props: AppProps): JSX.Element => {
         {/* TODO Provide decklists and menu through a shared context */}
         <Component {...pageProps} />
       </ThemeProvider>
-      <Analytics />
+      {process.env.NODE_ENV === 'production' && <Analytics />}
     </>
   );
 };
