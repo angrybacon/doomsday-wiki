@@ -12,42 +12,25 @@ import {
   type FunctionComponent,
   type ReactNode,
 } from 'react';
-import { type ExtraProps } from 'react-markdown';
 
-import { type Decklists } from '@/tools/decklists/types';
-
-type Props = ExtraProps &
-  PropsWithChildren & {
-    decklists?: Decklists;
-  };
-
-export const RemarkAccordion: FunctionComponent<Props> = ({
+export const RemarkAccordion: FunctionComponent<PropsWithChildren> = ({
   children,
-  decklists,
-  node,
 }) => {
-  if (!decklists) {
-    console.error('Missing decklists in accordion', node);
-    return null;
-  }
-
   const [title, ...content] = Array.isArray(children)
     ? (children as ReactNode[])
     : [children];
-
   return (
     <Accordion
       elevation={0}
-      square
       sx={({ mixins }) => ({
         ...mixins.barf,
         borderBottom: 1,
+        borderBottomColor: 'divider',
         borderTop: 1,
-        borderColor: 'divider',
-        // NOTE Remove the default border for accordions within papers
+        borderTopColor: 'divider',
         '&:before': { display: 'none' },
-        '& + &': { borderTop: 0 },
         [`&.${accordionClasses.expanded}`]: { ...mixins.barf, my: 0 },
+        '& + &': { borderTop: 0 },
       })}
     >
       <AccordionSummary
@@ -64,7 +47,7 @@ export const RemarkAccordion: FunctionComponent<Props> = ({
           borderTopColor: 'divider',
           display: 'grid',
           gap: 3,
-          py: 2,
+          py: 3,
         })}
       >
         {content}

@@ -28,9 +28,7 @@ export const ThemeProvider: FunctionComponent<PropsWithChildren> = ({
 }) => {
   const [isDark, setIsDark] = useState<boolean | null>(initial.isDark);
 
-  const toggle = () => {
-    setIsDark((previous) => !previous);
-  };
+  const toggle = () => setIsDark((previous) => !previous);
 
   useEffect(() => {
     if (isDark !== null) {

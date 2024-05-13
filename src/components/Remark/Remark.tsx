@@ -14,7 +14,6 @@ import {
   type Chapter,
   type Partial,
 } from '@/tools/markdown/types';
-import { remarkAccordion } from '@/tools/remark/remarkAccordion.client';
 import { remarkBase } from '@/tools/remark/remarkBase.client';
 import { remarkCard } from '@/tools/remark/remarkCard.client';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
@@ -43,7 +42,6 @@ export const Remark: FunctionComponent<Props> = ({
       [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
       // NOTE Our own remarkers
       remarkBase,
-      [remarkAccordion, { decklists }],
       remarkCard,
       [remarkDecklist, { decklists }],
       [remarkRow, { scries: markdown.scries }],
