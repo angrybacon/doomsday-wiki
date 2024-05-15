@@ -10,15 +10,22 @@ providing work for review.
 
 ** Contributing with Content
 
+In a effort to avoid repeating myself and having to maintain things in multiple
+places, the Markdown conventions guidelines will live next to the code. Visit
+=/sandbox/markdown= anywhere the Wiki is hosted to access the guidelines.
+
 See [[./CONTRIBUTING_WITH_MARKDOWN.org][CONTRIBUTING_WITH_MARKDOWN]].
 
 ** Contributing with Code
 
-See [[./CONTRIBUTING_WITH_CODE.org][CONTRIBUTING_WITH_CODE]].
+We're all consenting adults, use history as documentation and as long as you
+respect the existing conventions and configured linting tools you can't go very
+wrong.
 
 ** Testing your Changes
 
-This is a Next.js application written with TypeScript. All you have to do in
+This is a Next.js application written with TypeScript and I'll assume basic
+knowledge for a JavaScript stack is known from the reader. All you have to do in
 order to run the project locally is to clone the repository and install the
 JavaScript dependencies.
 
@@ -36,4 +43,4 @@ project locally, Vercel generates and updates URLs for every pull requests on
 the repository.
 
 As a general advice, avoid pushing for every little change you make as build
-minutes are limited.
+minutes are free but limited.
