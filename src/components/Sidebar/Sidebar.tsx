@@ -3,8 +3,8 @@ import {
   Divider,
   Drawer,
   drawerClasses,
-  DrawerProps,
   List,
+  type DrawerProps,
 } from '@mui/material';
 import {
   ThemeProvider as MuiThemeProvider,

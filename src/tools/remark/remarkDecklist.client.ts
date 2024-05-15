@@ -1,7 +1,7 @@
 import { hastify } from '@korumite/kiwi/client';
 import { type LeafDirective } from 'mdast-util-directive';
 import { type Node } from 'unist';
-import { Test, visit } from 'unist-util-visit';
+import { visit, type Test } from 'unist-util-visit';
 
 import { type Decklists } from '@/tools/decklists/types';
 import { type Remarker } from '@/tools/remark/typings';

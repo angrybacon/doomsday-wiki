@@ -16,7 +16,12 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import { ChangeEvent, FunctionComponent, useEffect, useState } from 'react';
+import {
+  useEffect,
+  useState,
+  type ChangeEvent,
+  type FunctionComponent,
+} from 'react';
 
 type Input = {
   copies: number;

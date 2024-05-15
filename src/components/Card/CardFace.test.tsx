@@ -1,10 +1,11 @@
 import { render, screen } from '@testing-library/react';
+import { type ComponentProps } from 'react';
 
-import { CardFace, Props } from '@/components/Card/CardFace';
+import { CardFace } from '@/components/Card/CardFace';
 import { type ScryCard } from '@/tools/scryfall/types';
 
 describe(CardFace.name, () => {
-  let props: Props;
+  let props: ComponentProps<typeof CardFace>;
 
   beforeEach(() => {
     props = {

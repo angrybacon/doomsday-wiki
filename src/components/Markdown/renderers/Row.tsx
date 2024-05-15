@@ -1,8 +1,8 @@
 import { Box } from '@mui/material';
-import { alpha, Theme } from '@mui/material/styles';
+import { alpha, type Theme } from '@mui/material/styles';
 import { type SystemStyleObject } from '@mui/system';
 import { type FunctionComponent } from 'react';
-import { ExtraProps } from 'react-markdown';
+import { type ExtraProps } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
@@ -40,7 +40,7 @@ type Props = ExtraProps & {
   variant?: string;
 };
 
-export const RemarkRow: FunctionComponent<Props> = ({ node, row, variant }) => {
+export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
   if (!row?.cards) {
     console.error('Missing cards for row', node);
     return null;

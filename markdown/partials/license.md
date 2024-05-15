@@ -10,6 +10,9 @@ _Wizard of the Coast_ or their respective artist for older sets. For cropped
 arts where the artist line of a card is not visible, the artists are mentioned
 in the accessible text.
 
+Mana symbols are rendered using the _Mana_ icon font made available by [Andrew
+Gioia][mana]. See their section about licensing for more details.
+
 Phyrexian scripture and the corresponding unofficial font assets were provided
 from the work of [Stas][stas].
 
@@ -30,6 +33,7 @@ adapted from one icon to another.
 [code:repository]: https://github.com/angrybacon/doomsday-wiki
 [icons:mdi]: https://pictogrammers.com/library/mdi/
 [icons:simple-icons]: https://simpleicons.org
+[mana]: https://mana.andrewgioia.com/
 [scryfall:api]: https://scryfall.com/docs/api
 [stas]: http://stas.tk/
 [wiki:license]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode

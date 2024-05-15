@@ -1,4 +1,4 @@
-import { ParsedUrlQuery } from 'querystring';
+import { type ParsedUrlQuery } from 'querystring';
 import { Card, CardContent, Divider } from '@mui/material';
 import {
   type GetStaticPaths,
@@ -9,7 +9,7 @@ import {
 
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
-import { Remark } from '@/components/Remark/Remark';
+import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
@@ -41,11 +41,11 @@ const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
         title={article.matter.title}
       />
       <CardContent>
-        <Remark decklists={decklists} markdown={article} />
+        <Markdown decklists={decklists} markdown={article} />
       </CardContent>
       <Divider />
       <CardContent>
-        <Remark decklists={decklists} markdown={footer} withScroll={false} />
+        <Markdown decklists={decklists} markdown={footer} withScroll={false} />
       </CardContent>
     </Card>
   </Layout>

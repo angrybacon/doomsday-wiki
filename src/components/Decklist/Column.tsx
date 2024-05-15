@@ -3,7 +3,7 @@ import { type FunctionComponent } from 'react';
 
 import { type Card } from '@/tools/decklists/types';
 
-export type Props = {
+type Props = {
   cards: Card[];
 };
 

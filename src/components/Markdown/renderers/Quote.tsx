@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { type Components } from 'react-markdown';
 
-export const RemarkQuote: Components['blockquote'] = ({ children }) => (
+export const Quote: Components['blockquote'] = ({ children }) => (
   <Box
     component="blockquote"
     sx={{

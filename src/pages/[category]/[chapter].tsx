@@ -1,4 +1,4 @@
-import { ParsedUrlQuery } from 'querystring';
+import { type ParsedUrlQuery } from 'querystring';
 import { Card, CardContent } from '@mui/material';
 import {
   type GetStaticPaths,
@@ -9,7 +9,7 @@ import {
 
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
-import { Remark } from '@/components/Remark/Remark';
+import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
 import { getChapterCards } from '@/tools/markdown/getChapterCards';
@@ -32,7 +32,7 @@ const ChapterPage: NextPage<Props> = ({ chapter, decklists, menu }) => (
     <Card>
       <Banner banner={chapter.banner} title={chapter.matter.title} />
       <CardContent>
-        <Remark decklists={decklists} markdown={chapter} />
+        <Markdown decklists={decklists} markdown={chapter} />
       </CardContent>
     </Card>
   </Layout>

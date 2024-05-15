@@ -5,7 +5,7 @@ import { type FunctionComponent, type ReactNode } from 'react';
 
 import { type ScryCard } from '@/tools/scryfall/types';
 
-export type Props = {
+type Props = {
   active: boolean;
   data: ScryCard;
   sx?: SxProps<Theme>;

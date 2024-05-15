@@ -1,4 +1,4 @@
-import Chip, { ChipProps } from '@mui/material/Chip';
+import { Chip, type ChipProps } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 import { type FunctionComponent } from 'react';
 

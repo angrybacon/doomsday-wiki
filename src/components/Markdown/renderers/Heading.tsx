@@ -2,9 +2,7 @@ import { Typography } from '@mui/material';
 import { type ReactElement } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-export const RemarkHeading = <
-  TLevel extends `h${1 | 2 | 3 | 4 | 5 | 6}` = never,
->({
+export const Heading = <TLevel extends `h${1 | 2 | 3 | 4 | 5 | 6}` = never>({
   children,
   id,
   node,

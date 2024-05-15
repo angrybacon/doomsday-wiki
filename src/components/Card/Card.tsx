@@ -7,7 +7,7 @@ import { useState, type FunctionComponent, type ReactNode } from 'react';
 import { CardFace } from '@/components/Card/CardFace';
 import { type ScryCard } from '@/tools/scryfall/types';
 
-export type Props = {
+type Props = {
   data: ScryCard[];
 };
 

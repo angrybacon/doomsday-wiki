@@ -7,7 +7,7 @@ import {
   Typography,
 } from '@mui/material';
 import { Stack } from '@mui/system';
-import { GetStaticProps, NextPage } from 'next';
+import { type GetStaticProps, type NextPage } from 'next';
 import { useEffect, useState, type ChangeEvent } from 'react';
 
 import { Layout } from '@/components/Layout/Layout';

@@ -1,7 +1,7 @@
 import { type FunctionComponent } from 'react';
-import { ExtraProps } from 'react-markdown';
+import { type ExtraProps } from 'react-markdown';
 
-import { Decklist } from '@/components/Decklist/Decklist';
+import { Decklist as DecklistAccordion } from '@/components/Decklist/Decklist';
 import {
   type DecklistExtra,
   type Decklist as DecklistModel,
@@ -11,16 +11,13 @@ type Props = ExtraProps & {
   decklist?: DecklistModel & DecklistExtra;
 };
 
-export const RemarkDecklist: FunctionComponent<Props> = ({
-  decklist,
-  node,
-}) => {
+export const Decklist: FunctionComponent<Props> = ({ decklist, node }) => {
   if (!decklist) {
     console.error('Missing card list in decklist', node);
     return null;
   }
   return (
-    <Decklist
+    <DecklistAccordion
       authors={decklist.authors}
       colors={decklist.colors}
       date={decklist.date || undefined}

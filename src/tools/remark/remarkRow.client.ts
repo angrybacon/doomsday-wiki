@@ -3,7 +3,7 @@ import { type Text } from 'mdast';
 import { type ContainerDirective } from 'mdast-util-directive';
 import { type Node } from 'unist';
 import { select } from 'unist-util-select';
-import { Test, visit } from 'unist-util-visit';
+import { visit, type Test } from 'unist-util-visit';
 
 import { type Remarker } from '@/tools/remark/typings';
 import { type Scries } from '@/tools/scryfall/types';

@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react';
+import { type ComponentProps } from 'react';
 
-import { ArticleCard, Props } from '@/components/ArticleCard/ArticleCard';
+import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Kind } from '@/tools/markdown/constants/Kind';
 
 jest.mock('@/components/ArticleChip/ArticleChip', () => ({
@@ -8,7 +9,7 @@ jest.mock('@/components/ArticleChip/ArticleChip', () => ({
 }));
 
 describe(ArticleCard.name, () => {
-  let props: Props;
+  let props: ComponentProps<typeof ArticleCard>;
 
   beforeEach(() => {
     props = {

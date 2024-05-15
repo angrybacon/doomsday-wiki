@@ -5,7 +5,7 @@ import {
   ListItemText,
   Typography,
 } from '@mui/material';
-import { GetStaticProps, NextPage } from 'next';
+import { type GetStaticProps, type NextPage } from 'next';
 import NextLink from 'next/link';
 
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
