@@ -7,8 +7,8 @@ import {
   TableRow as MuiTableRow,
 } from '@mui/material';
 import { alpha } from '@mui/material/styles';
-import { ReactElement } from 'react';
-import { ExtraProps, type Components } from 'react-markdown';
+import { type ReactElement } from 'react';
+import { type Components, type ExtraProps } from 'react-markdown';
 
 export const Table: Components['table'] = ({ children }) => (
   <MuiTableContainer

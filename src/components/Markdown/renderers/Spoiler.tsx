@@ -1,6 +1,10 @@
 import { Box } from '@mui/material';
-import { PropsWithChildren, useState, type FunctionComponent } from 'react';
-import { ExtraProps } from 'react-markdown';
+import {
+  useState,
+  type FunctionComponent,
+  type PropsWithChildren,
+} from 'react';
+import { type ExtraProps } from 'react-markdown';
 
 type Props = PropsWithChildren & ExtraProps;
 

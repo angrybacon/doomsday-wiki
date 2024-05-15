@@ -1,5 +1,5 @@
 import { Card, CardContent, Typography } from '@mui/material';
-import { GetStaticProps, NextPage } from 'next';
+import { type GetStaticProps, type NextPage } from 'next';
 
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';

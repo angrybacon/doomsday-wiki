@@ -8,8 +8,8 @@ import {
   AccordionSummary as MuiAccordionSummary,
 } from '@mui/material';
 import {
-  PropsWithChildren,
   type FunctionComponent,
+  type PropsWithChildren,
   type ReactNode,
 } from 'react';
 

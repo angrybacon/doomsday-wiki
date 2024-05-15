@@ -1,9 +1,10 @@
 import { render, screen } from '@testing-library/react';
+import { type ComponentProps } from 'react';
 
-import { Column, Props } from '@/components/Decklist/Column';
+import { Column } from '@/components/Decklist/Column';
 
 describe(Column.name, () => {
-  let props: Props;
+  let props: ComponentProps<typeof Column>;
 
   beforeEach(() => {
     props = { cards: [] };

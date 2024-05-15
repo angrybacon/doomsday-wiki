@@ -1,4 +1,4 @@
-import { ParsedUrlQuery } from 'querystring';
+import { type ParsedUrlQuery } from 'querystring';
 import { Card, CardContent, Divider } from '@mui/material';
 import {
   type GetStaticPaths,

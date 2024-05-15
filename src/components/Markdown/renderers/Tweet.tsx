@@ -1,8 +1,8 @@
 import { Box, CircularProgress, Typography } from '@mui/material';
 import Script from 'next/script';
-import { FunctionComponent, useRef, useState } from 'react';
+import { useRef, useState, type FunctionComponent } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { ExtraProps } from 'react-markdown';
+import { type ExtraProps } from 'react-markdown';
 
 type CreateTweet = (
   id: string,

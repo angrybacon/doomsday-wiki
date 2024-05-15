@@ -16,7 +16,7 @@ import {
   type FunctionComponent,
 } from 'react';
 
-import { Category } from '@/tools/markdown/constants/Category';
+import { type Category } from '@/tools/markdown/constants/Category';
 import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = Omit<MenuEntry, 'category' | 'pages'> & {

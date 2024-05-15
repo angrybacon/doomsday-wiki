@@ -1,5 +1,5 @@
 import { type FunctionComponent } from 'react';
-import { ExtraProps } from 'react-markdown';
+import { type ExtraProps } from 'react-markdown';
 
 import { Decklist as DecklistAccordion } from '@/components/Decklist/Decklist';
 import {

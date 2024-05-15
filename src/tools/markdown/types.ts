@@ -1,4 +1,4 @@
-import { Category } from '@/tools/markdown/constants/Category';
+import { type Category } from '@/tools/markdown/constants/Category';
 import { type Kind } from '@/tools/markdown/constants/Kind';
 import { type Tag } from '@/tools/markdown/constants/Tag';
 import { type Scries } from '@/tools/scryfall/types';

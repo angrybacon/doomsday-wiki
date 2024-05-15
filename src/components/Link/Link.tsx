@@ -1,6 +1,6 @@
 import { Link as MuiLink } from '@mui/material';
 import NextLink from 'next/link';
-import { FunctionComponent, PropsWithChildren } from 'react';
+import { type FunctionComponent, type PropsWithChildren } from 'react';
 
 type Props = PropsWithChildren & {
   external?: boolean;

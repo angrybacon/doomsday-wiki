@@ -9,7 +9,7 @@ import { type ArticleCard as ArticleCardModel } from '@/tools/markdown/types';
 /** Vertical height that should be added for the banner. */
 const BANNER_OFFSET = 90;
 
-export type Props = ArticleCardModel;
+type Props = ArticleCardModel;
 
 export const ArticleCard: FunctionComponent<Props> = ({
   banner,

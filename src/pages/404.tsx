@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import { GetStaticProps, NextPage } from 'next';
+import { type GetStaticProps, type NextPage } from 'next';
 
 import { Layout } from '@/components/Layout/Layout';
 import { getMenu } from '@/tools/markdown/getMenu';

@@ -1,9 +1,9 @@
 import { parse } from '@/tools/scryfall/parse';
 import {
-  ScryCard,
-  ScryData,
-  ScryDataItem,
-  ScryDataList,
+  type ScryCard,
+  type ScryData,
+  type ScryDataItem,
+  type ScryDataList,
 } from '@/tools/scryfall/types';
 
 /** Data can contain a list of objects in case of non-deterministic searches. */

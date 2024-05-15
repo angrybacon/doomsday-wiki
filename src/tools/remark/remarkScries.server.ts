@@ -3,7 +3,7 @@ import { type ContainerDirective } from 'mdast-util-directive';
 import { type Plugin } from 'unified';
 import { type Node } from 'unist';
 import { select } from 'unist-util-select';
-import { Test, visit } from 'unist-util-visit';
+import { visit, type Test } from 'unist-util-visit';
 
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';

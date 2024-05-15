@@ -1,6 +1,10 @@
 import { Box, type PaletteMode } from '@mui/material';
 import { alpha, useTheme } from '@mui/material/styles';
-import { FunctionComponent, PropsWithChildren, type Component } from 'react';
+import {
+  type Component,
+  type FunctionComponent,
+  type PropsWithChildren,
+} from 'react';
 import { type Components } from 'react-markdown';
 import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
 import {

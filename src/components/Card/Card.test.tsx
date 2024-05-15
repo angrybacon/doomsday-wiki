@@ -1,10 +1,12 @@
 import { render, screen } from '@testing-library/react';
+import { type ComponentProps } from 'react';
 
-import { Card, Props } from '@/components/Card/Card';
+import { Card } from '@/components/Card/Card';
 import { type ScryCard } from '@/tools/scryfall/types';
 
 describe(Card.name, () => {
-  let props: Props;
+  let props: ComponentProps<typeof Card>;
+
   const dummyCard = {
     artist: 'Firstname Lastname',
     images: { full: 'protocol://path/to/resource.png' },
