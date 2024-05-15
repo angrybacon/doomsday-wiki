@@ -1,10 +1,8 @@
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
+import { Card, CardContent, Typography } from '@mui/material';
 import { GetStaticProps, NextPage } from 'next';
 
 import { Layout } from '@/components/Layout/Layout';
-import { Remark } from '@/components/Remark/Remark';
+import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
 import { getPartial } from '@/tools/markdown/getMarkdown';
@@ -24,7 +22,7 @@ const LicensePage: NextPage<Props> = ({ decklists, license, menu }) => (
         <Typography align="center" variant="h1">
           License
         </Typography>
-        <Remark decklists={decklists} markdown={license} />
+        <Markdown decklists={decklists} markdown={license} />
       </CardContent>
     </Card>
   </Layout>

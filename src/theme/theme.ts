@@ -112,7 +112,7 @@ const customizeTheme = (options: ThemeOptions): Theme => {
               scrollBehavior: 'smooth',
               scrollPadding: spacing(2),
             },
-            blockquote: { margin: 0 },
+            'blockquote, ol, p, pre, ul': { margin: 0 },
             em: {
               fontDisplay: 'swap',
               fontFamily: 'Libre Baskerville, serif',

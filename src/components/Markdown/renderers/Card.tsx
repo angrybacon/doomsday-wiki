@@ -9,7 +9,9 @@ type Props = ExtraProps & {
   name?: string;
 };
 
-export const RemarkCard: FunctionComponent<Props> = ({ name, node }) => {
+// TODO Rename to `CardLink`?
+
+export const Card: FunctionComponent<Props> = ({ name, node }) => {
   if (!name) {
     console.error('Missing card name', node);
     return null;

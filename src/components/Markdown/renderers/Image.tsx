@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material';
 import { type Components } from 'react-markdown';
 
-export const RemarkImage: Components['img'] = ({ alt, node, src, title }) => {
+export const Image: Components['img'] = ({ alt, node, src, title }) => {
   if (!src) {
     console.error('Missing image source', node);
     return null;

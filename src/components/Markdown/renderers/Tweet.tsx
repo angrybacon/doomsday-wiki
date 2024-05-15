@@ -21,7 +21,7 @@ type Props = ExtraProps & {
   id?: string;
 };
 
-export const RemarkTweet: FunctionComponent<Props> = ({ id, node }) => {
+export const Tweet: FunctionComponent<Props> = ({ id, node }) => {
   const [hasError, setHasError] = useState<boolean>(false);
   const [height, setHeight] = useState<number>(700);
   const [isLoading, setIsLoading] = useState<boolean>(true);

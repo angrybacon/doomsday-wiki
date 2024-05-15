@@ -16,7 +16,7 @@ type Props = ExtraProps & {
   id?: string;
 };
 
-export const RemarkYoutube: FunctionComponent<Props> = ({ id, node }) => {
+export const Youtube: FunctionComponent<Props> = ({ id, node }) => {
   if (!id) {
     console.error('Missing ID for YouTube widget', node);
     return null;

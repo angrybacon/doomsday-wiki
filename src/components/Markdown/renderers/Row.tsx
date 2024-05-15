@@ -40,7 +40,7 @@ type Props = ExtraProps & {
   variant?: string;
 };
 
-export const RemarkRow: FunctionComponent<Props> = ({ node, row, variant }) => {
+export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
   if (!row?.cards) {
     console.error('Missing cards for row', node);
     return null;

@@ -1,13 +1,13 @@
 import { accordionClasses, Box, tableClasses } from '@mui/material';
 import { useEffect, type FunctionComponent } from 'react';
-import Markdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 import remarkToc from 'remark-toc';
 import { type PluggableList } from 'unified';
 
-import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Remark/constants';
+import { COMPONENTS, COMPONENTS_EXTRA } from '@/components/Markdown/constants';
 import { type Decklists } from '@/tools/decklists/types';
 import {
   type Article,
@@ -27,7 +27,7 @@ type Props = {
   withWrapper?: boolean;
 };
 
-export const Remark: FunctionComponent<Props> = ({
+export const Markdown: FunctionComponent<Props> = ({
   decklists,
   markdown,
   withScroll = true,
@@ -49,13 +49,13 @@ export const Remark: FunctionComponent<Props> = ({
   } as const satisfies Record<string, PluggableList>;
 
   const children = (
-    <Markdown
+    <ReactMarkdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       skipHtml
       {...plugins}
     >
       {markdown.text}
-    </Markdown>
+    </ReactMarkdown>
   );
 
   useEffect(() => {

@@ -4,7 +4,7 @@ import { ExtraProps } from 'react-markdown';
 
 type Props = PropsWithChildren & ExtraProps;
 
-export const RemarkSpoiler: FunctionComponent<Props> = ({ children, node }) => {
+export const Spoiler: FunctionComponent<Props> = ({ children, node }) => {
   const [isSpoiled, setIsSpoiled] = useState(false);
 
   if (!node?.position) return <>{children}</>;

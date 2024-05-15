@@ -6,7 +6,7 @@ type Props = ExtraProps & {
   url?: string;
 };
 
-export const RemarkSoundcloud: FunctionComponent<Props> = ({ node, url }) => {
+export const Soundcloud: FunctionComponent<Props> = ({ node, url }) => {
   if (!url) {
     console.error('Missing URL for SoundCloud widget', node);
     return null;

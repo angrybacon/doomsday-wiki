@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Layout } from '@/components/Layout/Layout';
-import { Remark } from '@/components/Remark/Remark';
+import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
@@ -49,7 +49,7 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
         <Grid item sm={7}>
           <Card>
             <CardContent>
-              <Remark decklists={decklists} markdown={welcome} />
+              <Markdown decklists={decklists} markdown={welcome} />
             </CardContent>
           </Card>
         </Grid>

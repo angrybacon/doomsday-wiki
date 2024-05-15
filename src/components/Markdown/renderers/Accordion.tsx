@@ -1,11 +1,11 @@
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
-  Accordion,
   accordionClasses,
-  AccordionDetails,
-  AccordionSummary,
   alpha,
+  Accordion as MuiAccordion,
+  AccordionDetails as MuiAccordionDetails,
+  AccordionSummary as MuiAccordionSummary,
 } from '@mui/material';
 import {
   PropsWithChildren,
@@ -13,14 +13,14 @@ import {
   type ReactNode,
 } from 'react';
 
-export const RemarkAccordion: FunctionComponent<PropsWithChildren> = ({
+export const Accordion: FunctionComponent<PropsWithChildren> = ({
   children,
 }) => {
   const [title, ...content] = Array.isArray(children)
     ? (children as ReactNode[])
     : [children];
   return (
-    <Accordion
+    <MuiAccordion
       elevation={0}
       sx={({ mixins }) => ({
         ...mixins.barf,
@@ -33,13 +33,13 @@ export const RemarkAccordion: FunctionComponent<PropsWithChildren> = ({
         '& + &': { borderTop: 0 },
       })}
     >
-      <AccordionSummary
+      <MuiAccordionSummary
         expandIcon={<Icon path={mdiChevronDown} size={1} />}
         sx={({ mixins }) => mixins.gutters}
       >
         {title}
-      </AccordionSummary>
-      <AccordionDetails
+      </MuiAccordionSummary>
+      <MuiAccordionDetails
         sx={({ mixins, palette }) => ({
           ...mixins.gutters,
           bgcolor: alpha(palette.primary.light, 0.1),
@@ -51,7 +51,7 @@ export const RemarkAccordion: FunctionComponent<PropsWithChildren> = ({
         })}
       >
         {content}
-      </AccordionDetails>
-    </Accordion>
+      </MuiAccordionDetails>
+    </MuiAccordion>
   );
 };

@@ -73,7 +73,7 @@ const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
   </Box>
 );
 
-export const RemarkCode: Components['code'] = ({
+export const Code: Components['code'] = ({
   children,
   className = '',
   node,

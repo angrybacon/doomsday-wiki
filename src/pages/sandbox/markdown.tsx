@@ -2,7 +2,7 @@ import { Card, CardContent } from '@mui/material';
 import { GetStaticProps, NextPage } from 'next';
 
 import { Layout } from '@/components/Layout/Layout';
-import { Remark } from '@/components/Remark/Remark';
+import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { Decklists } from '@/tools/decklists/types';
 import { getPartial } from '@/tools/markdown/getMarkdown';
@@ -19,7 +19,7 @@ const Page: NextPage<Props> = ({ decklists, markdown, menu }) => (
   <Layout menu={menu} title="Sandbox">
     <Card>
       <CardContent>
-        <Remark decklists={decklists} markdown={markdown} />
+        <Markdown decklists={decklists} markdown={markdown} />
       </CardContent>
     </Card>
   </Layout>
