@@ -45,8 +45,8 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
 
   return (
     <Layout menu={menu} title="Welcome">
-      <Grid container spacing={2}>
-        <Grid item sm={7}>
+      <Grid container spacing={3}>
+        <Grid item lg={7}>
           <Card>
             <CardContent>
               <Markdown decklists={decklists} markdown={welcome} />
