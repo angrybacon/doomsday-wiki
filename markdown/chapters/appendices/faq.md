@@ -3,6 +3,8 @@ banner: Information Booth | UNF | 218d
 title: Frequently Asked Questions
 ---
 
+<!-- markdownlint-configure-file {"line-length": {headings: false}} -->
+
 ## Table of Contents
 
 ## Preamble

@@ -130,7 +130,9 @@ be more aggressive with your cantrips.
 
 ## Matchups and sideboarding based on broad category
 
-### Fair Blue Decks (Slghtly Favorable, how much depends a lot on the specfic opponent)
+### Fair Blue Decks
+
+_Slightly favorable, how much depends a lot on the specfic opponent._
 
 It may seem suprising on the surface, but this deck is fine against blue decks.
 Refilling a blue mage's hand or going all in on Doomsday may not seem like good
@@ -156,7 +158,9 @@ number of goblins against slower control. Even if they don't win outright they
 can get your opponent low and force them to spend resources dealing with the
 horde while you build back up for another go.
 
-### Permanent Based Hate Decks including Burn (Slightly Unfavorable, except DnT which is even or slightly favorable)
+### Permanent Based Hate Decks including Burn
+
+_Slightly unfavorable, except Taxes which is even or slightly favorable._
 
 Generally in these matchups you win by giving your opponent as few turns as
 possible. You have wishable cards to deal with a permanent or 2, but it can be
@@ -171,7 +175,9 @@ and bring in your bounce spells or anything like Abrade or Abrupt Decay that you
 may have. These matchups tend to be straightforward. Watchout for things that
 affect your manabase, and try your best to create an opening.
 
-### Combo Mirrors and Pseudo-Mirrors (Slightly Favorable, faster = less favorable)
+### Combo Mirrors and Pseudo-Mirrors
+
+_Slightly favorable, faster: less favorable._
 
 This list is fast enough to have a shot against just about any other combo deck,
 has strong game against discard with Veil of Summer and Echoes, and packs enough
