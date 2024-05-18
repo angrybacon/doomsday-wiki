@@ -5,7 +5,7 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
-import { getPartial } from '@/tools/markdown/getMarkdown';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import { type MenuEntry, type Partial } from '@/tools/markdown/types';
 
@@ -31,7 +31,7 @@ const LicensePage: NextPage<Props> = ({ decklists, license, menu }) => (
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     decklists: getDecklists(),
-    license: await getPartial('license'),
+    license: await getMarkdown('partials', 'license.md'),
     menu: getMenu(),
   },
 });

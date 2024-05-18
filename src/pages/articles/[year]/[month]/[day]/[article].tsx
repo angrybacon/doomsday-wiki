@@ -13,7 +13,7 @@ import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { getArticle, getPartial } from '@/tools/markdown/getMarkdown';
+import { getArticle, getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import {
   type Article,
@@ -75,7 +75,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
     props: {
       article: await getArticle(year, month, day, article),
       decklists: getDecklists(),
-      footer: await getPartial('article-footer'),
+      footer: await getMarkdown('partials', 'article-footer.md'),
       menu: getMenu(),
     },
   };

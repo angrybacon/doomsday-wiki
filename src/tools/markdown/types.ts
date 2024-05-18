@@ -34,6 +34,7 @@ export type ChapterCard = Card<ChapterMatter> & {
 
 export type Partial = {
   matter: Record<string, unknown>;
+  minutes: number;
   scries: Scries;
   text: string;
 };
@@ -41,7 +42,6 @@ export type Partial = {
 export type Article = Omit<Partial, 'matter'> & {
   banner: Banner;
   matter: ArticleMatter;
-  minutes: number;
 };
 
 export type Chapter = Omit<Partial, 'matter'> & {

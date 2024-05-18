@@ -8,7 +8,7 @@ import { Markdown } from '@/components/Markdown/Markdown';
 import { getDecklists } from '@/tools/decklists/getDecklists';
 import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { getPartial } from '@/tools/markdown/getMarkdown';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import {
   type ArticleCard as ArticleCardModel,
@@ -86,7 +86,7 @@ export const getStaticProps: GetStaticProps<Props> = async () => ({
     articles: await getArticleCards(),
     decklists: getDecklists(),
     menu: getMenu(),
-    welcome: await getPartial('welcome'),
+    welcome: await getMarkdown('partials', 'welcome.md'),
   },
 });
 
