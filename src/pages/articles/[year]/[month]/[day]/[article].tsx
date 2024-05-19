@@ -10,10 +10,8 @@ import {
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
-import { getDecklists } from '@/tools/decklists/getDecklists';
-import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { getArticle, getPartial } from '@/tools/markdown/getMarkdown';
+import { getArticle, getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import {
   type Article,
@@ -24,12 +22,11 @@ import {
 
 type Props = {
   article: Article;
-  decklists: Decklists;
   footer: Partial;
   menu: MenuEntry[];
 };
 
-const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
+const Page: NextPage<Props> = ({ article, footer, menu }) => (
   <Layout menu={menu} title={article.matter.title} withBackToTop withProgress>
     <Card>
       <Banner
@@ -41,11 +38,11 @@ const ArticlePage: NextPage<Props> = ({ article, decklists, footer, menu }) => (
         title={article.matter.title}
       />
       <CardContent>
-        <Markdown decklists={decklists} markdown={article} />
+        <Markdown markdown={article} />
       </CardContent>
       <Divider />
       <CardContent>
-        <Markdown decklists={decklists} markdown={footer} withScroll={false} />
+        <Markdown markdown={footer} withScroll={false} />
       </CardContent>
     </Card>
   </Layout>
@@ -74,11 +71,10 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   return {
     props: {
       article: await getArticle(year, month, day, article),
-      decklists: getDecklists(),
-      footer: await getPartial('article-footer'),
+      footer: await getMarkdown('partials', 'article-footer.md'),
       menu: getMenu(),
     },
   };
 };
 
-export default ArticlePage;
+export default Page;

@@ -5,10 +5,8 @@ import { useEffect, useRef, useState } from 'react';
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
-import { getDecklists } from '@/tools/decklists/getDecklists';
-import { type Decklists } from '@/tools/decklists/types';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { getPartial } from '@/tools/markdown/getMarkdown';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { getMenu } from '@/tools/markdown/getMenu';
 import {
   type ArticleCard as ArticleCardModel,
@@ -20,12 +18,11 @@ const ARTICLES_INITIAL_SIZE = 5;
 
 type Props = {
   articles: ArticleCardModel[];
-  decklists: Decklists;
   menu: MenuEntry[];
   welcome: Partial;
 };
 
-const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
+const Page: NextPage<Props> = ({ articles, menu, welcome }) => {
   const articlesRoot = useRef<HTMLDivElement>(null);
   const [size, setSize] = useState(ARTICLES_INITIAL_SIZE);
 
@@ -45,11 +42,11 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
 
   return (
     <Layout menu={menu} title="Welcome">
-      <Grid container spacing={2}>
-        <Grid item sm={7}>
+      <Grid container spacing={3}>
+        <Grid item lg={7}>
           <Card>
             <CardContent>
-              <Markdown decklists={decklists} markdown={welcome} />
+              <Markdown markdown={welcome} />
             </CardContent>
           </Card>
         </Grid>
@@ -84,10 +81,9 @@ const HomePage: NextPage<Props> = ({ articles, decklists, menu, welcome }) => {
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     articles: await getArticleCards(),
-    decklists: getDecklists(),
     menu: getMenu(),
-    welcome: await getPartial('welcome'),
+    welcome: await getMarkdown('partials', 'welcome.md'),
   },
 });
 
-export default HomePage;
+export default Page;

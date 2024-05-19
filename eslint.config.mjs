@@ -27,6 +27,7 @@ export default [
           { argsIgnorePattern: '^_', ignoreRestSiblings: true },
         ],
         'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
+        'no-console': ['error', { allow: ['error', 'warn'] }],
       },
     },
   ].map((it) => ({

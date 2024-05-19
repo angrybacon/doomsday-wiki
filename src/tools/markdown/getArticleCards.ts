@@ -22,7 +22,7 @@ type ArticleCardPending = Omit<ArticleCard, 'banner'> &
 /** Read file system and return a list of all articles. */
 export const getArticleCards = async (): Promise<ArticleCard[]> => {
   const extension = MARKDOWN_EXTENSION;
-  const files = walk(BASE_URLS.ARTICLE, { extension });
+  const files = walk(BASE_URLS.ARTICLES, { extension });
   /** Warmup array for banner promises. */
   const banners: Promise<Banner>[] = [];
   // NOTE Reduce rightwards to sort descending
@@ -33,7 +33,7 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
       const path = join(...crumbs) + extension;
       let matter: ArticleMatter;
       try {
-        matter = readArticleMatter(read(BASE_URLS.ARTICLE, path).matter);
+        matter = readArticleMatter(read(BASE_URLS.ARTICLES, path).matter);
       } catch (error) {
         const message = error instanceof Error ? error.message : `${error}`;
         throw new Error(`${message} in "${path}"`);

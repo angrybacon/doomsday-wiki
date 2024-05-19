@@ -9,7 +9,7 @@ type Props = {
   menu: MenuEntry[];
 };
 
-const NotFoundPage: NextPage<Props> = ({ menu }) => (
+const Page: NextPage<Props> = ({ menu }) => (
   <Layout background="/404.jpg" menu={menu} title="404">
     <Box fontSize="10em" fontWeight="fontWeightLight" textAlign="center">
       404
@@ -23,4 +23,4 @@ export const getStaticProps: GetStaticProps<Props> = () => ({
   },
 });
 
-export default NotFoundPage;
+export default Page;

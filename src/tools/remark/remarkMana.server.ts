@@ -5,7 +5,7 @@ import { type Plugin } from 'unified';
 
 import { MANA_RE } from '@/tools/mana/constants';
 
-export const remarkMana: Plugin = () => async (tree) => {
+export const remarkMana: Plugin = () => async (tree) =>
   findAndReplace(tree as Nodes, [
     MANA_RE,
     (_match, value) =>
@@ -16,4 +16,3 @@ export const remarkMana: Plugin = () => async (tree) => {
         type: 'textDirective',
       }) satisfies TextDirective,
   ]);
-};

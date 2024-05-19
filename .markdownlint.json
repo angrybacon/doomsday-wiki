@@ -1,9 +1,0 @@
-{
-  "blanks-around-lists": false,
-  "emphasis-style": { "style": "underscore" },
-  "line-length": { "headings": false, "tables": false },
-  "no-duplicate-heading": { "siblings_only": true },
-  "no-emphasis-as-header": false,
-  "ol-prefix": { "style": "one" },
-  "strong-style": { "style": "asterisk" }
-}

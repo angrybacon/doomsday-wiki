@@ -1,9 +1,8 @@
 import { hastify } from '@korumite/kiwi/client';
 import { type Text } from 'mdast';
 import { type ContainerDirective } from 'mdast-util-directive';
-import { type Node } from 'unist';
 import { select } from 'unist-util-select';
-import { visit, type Test } from 'unist-util-visit';
+import { visit } from 'unist-util-visit';
 
 import { type Remarker } from '@/tools/remark/typings';
 import { type Scries } from '@/tools/scryfall/types';
@@ -13,7 +12,7 @@ export const remarkRow: Remarker<[{ scries: Scries }]> =
   ({ scries }) =>
   (tree) => {
     const tests = [{ name: 'row', type: 'containerDirective' }];
-    visit<Node, Test>(tree, tests, (node) => {
+    visit(tree, tests, (node) => {
       const directive = node as ContainerDirective;
       const text = select('text', directive) as Text | undefined;
       if (text) {

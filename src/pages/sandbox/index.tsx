@@ -25,7 +25,7 @@ type Props = {
   menu: MenuEntry[];
 };
 
-const SandboxPage: NextPage<Props> = ({ menu }) => {
+const Page: NextPage<Props> = ({ menu }) => {
   const [input, setInput] = useState<string>(DEFAULT_INPUT);
   const [output, setOutput] = useState<{ id: number; text: string }[]>([]);
 
@@ -126,4 +126,4 @@ export const getStaticProps: GetStaticProps<Props> = async () => ({
   },
 });
 
-export default SandboxPage;
+export default Page;

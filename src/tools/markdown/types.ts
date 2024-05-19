@@ -1,3 +1,4 @@
+import { type Decklists } from '@/tools/decklists/types';
 import { type Category } from '@/tools/markdown/constants/Category';
 import { type Kind } from '@/tools/markdown/constants/Kind';
 import { type Tag } from '@/tools/markdown/constants/Tag';
@@ -33,7 +34,9 @@ export type ChapterCard = Card<ChapterMatter> & {
 // Documents ///////////////////////////////////////////////////////////////////
 
 export type Partial = {
+  decklists: Decklists;
   matter: Record<string, unknown>;
+  minutes: number;
   scries: Scries;
   text: string;
 };
@@ -41,7 +44,6 @@ export type Partial = {
 export type Article = Omit<Partial, 'matter'> & {
   banner: Banner;
   matter: ArticleMatter;
-  minutes: number;
 };
 
 export type Chapter = Omit<Partial, 'matter'> & {

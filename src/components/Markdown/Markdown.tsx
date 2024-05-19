@@ -30,7 +30,6 @@ import {
   Youtube,
 } from '@/components/Markdown/renderers';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
-import { type Decklists } from '@/tools/decklists/types';
 import {
   type Article,
   type Chapter,
@@ -77,7 +76,6 @@ const COMPONENTS_EXTRA = {
 } as const;
 
 type Props = {
-  decklists: Decklists;
   markdown: Article | Chapter | Partial;
   /** Whether the component should scroll to the current anchor. */
   withScroll?: boolean;
@@ -85,7 +83,6 @@ type Props = {
 };
 
 export const Markdown: FunctionComponent<Props> = ({
-  decklists,
   markdown,
   withScroll = true,
   withWrapper = true,
@@ -100,7 +97,7 @@ export const Markdown: FunctionComponent<Props> = ({
       // NOTE Our own remarkers
       remarkBase,
       remarkCard,
-      [remarkDecklist, { decklists }],
+      [remarkDecklist, { decklists: markdown.decklists }],
       [remarkRow, { scries: markdown.scries }],
     ],
   } as const satisfies Record<string, PluggableList>;
