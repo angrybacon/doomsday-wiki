@@ -19,7 +19,7 @@ type Props = {
   menu: MenuEntry[];
 };
 
-const ArticlesPage: NextPage<Props> = ({ articles, menu }) => (
+const Page: NextPage<Props> = ({ articles, menu }) => (
   <Layout menu={menu} title="Articles" withBackToTop>
     <Card>
       <List disablePadding>
@@ -49,4 +49,4 @@ export const getStaticProps: GetStaticProps<Props> = async () => ({
   },
 });
 
-export default ArticlesPage;
+export default Page;

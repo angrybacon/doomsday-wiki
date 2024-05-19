@@ -6,6 +6,7 @@ import remarkParse from 'remark-parse';
 import remarkStringify from 'remark-stringify';
 import { unified } from 'unified';
 
+import { type Decklists } from '@/tools/decklists/types';
 import { BASE_URL } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import {
@@ -17,6 +18,7 @@ import {
   type Chapter,
   type Partial,
 } from '@/tools/markdown/types';
+import { remarkDecklists } from '@/tools/remark/remarkDecklists.server';
 import { remarkMatter } from '@/tools/remark/remarkFrontmatter.server';
 import { remarkMana } from '@/tools/remark/remarkMana.server';
 import { remarkMinutes } from '@/tools/remark/remarkMinutes.server';
@@ -33,6 +35,7 @@ export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
   const buffer = readFileSync(join(BASE_URL, path));
   try {
     const { data, value } = await unified()
+      .use(remarkDecklists)
       .use(remarkDirective)
       .use(remarkFrontmatter)
       .use(remarkMana)
@@ -43,6 +46,7 @@ export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
       .use(remarkStringify)
       .process(buffer);
     return {
+      decklists: data.decklists as Decklists,
       matter: data.matter as Record<string, unknown>,
       minutes: data.minutes as number,
       scries: data.scries as Scries,
