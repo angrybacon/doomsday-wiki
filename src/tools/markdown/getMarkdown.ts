@@ -17,11 +17,11 @@ import {
   type Chapter,
   type Partial,
 } from '@/tools/markdown/types';
+import { remarkMatter } from '@/tools/remark/remarkFrontmatter.server';
 import { remarkMana } from '@/tools/remark/remarkMana.server';
 import { remarkMinutes } from '@/tools/remark/remarkMinutes.server';
 import { remarkScries } from '@/tools/remark/remarkScries.server';
 import { type Scries } from '@/tools/scryfall/types';
-import { remarkMatter } from '../remark/remarkFrontmatter.server';
 
 /**
  * Read the Markdown content found at the provided path crumbs.

@@ -1,7 +1,6 @@
 import { hastify } from '@korumite/kiwi/client';
 import { type LeafDirective } from 'mdast-util-directive';
-import { type Node } from 'unist';
-import { visit, type Test } from 'unist-util-visit';
+import { visit } from 'unist-util-visit';
 
 import { type Decklists } from '@/tools/decklists/types';
 import { type Remarker } from '@/tools/remark/typings';
@@ -11,7 +10,7 @@ export const remarkDecklist: Remarker<[{ decklists: Decklists }]> =
   ({ decklists }) =>
   (tree) => {
     const tests = [{ name: 'decklist', type: 'leafDirective' }];
-    visit<Node, Test>(tree, tests, (node) => {
+    visit(tree, tests, (node) => {
       const directive = node as LeafDirective;
       const path = directive.attributes?.path;
       if (path) {

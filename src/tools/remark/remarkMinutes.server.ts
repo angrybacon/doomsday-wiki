@@ -9,6 +9,5 @@ export const remarkMinutes: Plugin = () => async (tree, file) => {
     text += (node as Literal).value;
   });
   const { minutes } = readingTime(text);
-  console.log(minutes);
-  file.data.minutes = Math.ceil(minutes);
+  Object.assign(file.data, { minutes });
 };

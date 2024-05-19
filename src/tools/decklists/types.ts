@@ -12,7 +12,7 @@ export type Decklist = {
 
 export type DecklistExtra = {
   date: null | string;
-  titleAsFile: string;
+  titleFromPath: string;
 };
 
 export type Decklists = Record<string, Decklist & DecklistExtra>;

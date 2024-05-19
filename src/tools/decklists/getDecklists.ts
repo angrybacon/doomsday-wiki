@@ -20,8 +20,8 @@ export const getDecklists = (): Decklists => {
     const decklist = parse(readFileSync(path, 'utf8'));
     const [title, ...dateCrumbs] = crumbs.reverse();
     const date: null | string = formatDate(...dateCrumbs.reverse());
-    const titleAsFile = title as string;
-    return { ...accumulator, [slug]: { ...decklist, date, titleAsFile } };
+    const titleFromPath = title as string;
+    return { ...accumulator, [slug]: { ...decklist, date, titleFromPath } };
   }, {});
   return decklists;
 };

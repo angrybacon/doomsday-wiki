@@ -25,7 +25,7 @@ export const Decklist: FunctionComponent<Props> = ({ decklist, node }) => {
       mainCount={decklist.mainCount}
       side={decklist.side[0] || []}
       sideCount={decklist.sideCount}
-      title={decklist.title || decklist.titleAsFile}
+      title={decklist.title || decklist.titleFromPath}
     />
   );
 };

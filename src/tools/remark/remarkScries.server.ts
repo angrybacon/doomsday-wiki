@@ -1,9 +1,8 @@
 import { type Text } from 'mdast';
 import { type ContainerDirective } from 'mdast-util-directive';
 import { type Plugin } from 'unified';
-import { type Node } from 'unist';
 import { select } from 'unist-util-select';
-import { visit, type Test } from 'unist-util-visit';
+import { visit } from 'unist-util-visit';
 
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
@@ -17,7 +16,7 @@ export const remarkScries: Plugin = () => async (tree, file) => {
   const promises: Promise<ScryData>[] = [];
   const scries: Scries = {};
   const tests = [{ name: 'row', type: 'containerDirective' }];
-  visit<Node, Test>(tree, tests, (node) => {
+  visit(tree, tests, (node) => {
     const directive = node as ContainerDirective;
     const text = select('text', directive) as Text | undefined;
     if (!text) {
