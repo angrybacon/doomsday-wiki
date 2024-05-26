@@ -27,7 +27,7 @@ const Page: NextPage<Props> = ({ license, menu }) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    license: await getMarkdown('partials', 'license.md'),
+    license: await getMarkdown('partials', 'license'),
     menu: getMenu(),
   },
 });
