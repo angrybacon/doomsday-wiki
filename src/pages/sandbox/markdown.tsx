@@ -24,7 +24,7 @@ const Page: NextPage<Props> = ({ markdown, menu }) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
-    markdown: await getMarkdown('partials', 'sandbox.md'),
+    markdown: await getMarkdown('partials', 'sandbox'),
     menu: getMenu(),
   },
 });
