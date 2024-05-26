@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 import { ThemeProvider } from '@/theme/ThemeContext';
 
-const Application = (props: AppProps): JSX.Element => {
+export default function Application(props: AppProps) {
   const { Component, pageProps } = props;
   return (
     <>
@@ -24,6 +24,4 @@ const Application = (props: AppProps): JSX.Element => {
       {process.env.NODE_ENV === 'production' && <Analytics />}
     </>
   );
-};
-
-export default Application;
+}

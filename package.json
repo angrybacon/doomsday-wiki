@@ -59,6 +59,7 @@
   "devDependencies": {
     "@eslint/js": "9.3.0",
     "@ianvs/prettier-plugin-sort-imports": "4.2.1",
+    "@korumite/ts": "1.1.0",
     "@testing-library/jest-dom": "6.4.5",
     "@testing-library/react": "15.0.7",
     "@types/jest": "29.5.12",
