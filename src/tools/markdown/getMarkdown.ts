@@ -1,8 +1,8 @@
 import { join } from 'node:path';
-import { read2 as read } from '@korumite/kiwi/server';
+import { read } from '@korumite/kiwi/server';
 
 import { type Decklists } from '@/tools/decklists/types';
-import { BASE_URL } from '@/tools/markdown/constants/Files';
+import { BASE_URLS } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import {
   readArticleMatter,
@@ -60,7 +60,7 @@ export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
   const path = join(...crumbs) + '.md';
   try {
     const { data, ...rest } = await read(
-      [BASE_URL, path],
+      [BASE_URLS.ROOT, path],
       remarkDecklists,
       remarkMana,
       remarkScries,

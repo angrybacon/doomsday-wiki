@@ -7,8 +7,8 @@ import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
  * Read file system and return a structured list of all chapters within their
  * respective categories.
  */
-export const getMenu = (): MenuEntry[] => {
-  const cards = getChapterCards();
+const getMenu = async (): Promise<MenuEntry[]> => {
+  const cards = await getChapterCards();
   const menu = cards.reduce<Partial<Record<Category, ChapterCard[]>>>(
     (accumulator, card) => {
       const { category } = card;
@@ -28,3 +28,6 @@ export const getMenu = (): MenuEntry[] => {
     return { category, subtitle, title, pages };
   });
 };
+
+/** A structured list of all chapters within their respective categories. */
+export const MENU = await getMenu();

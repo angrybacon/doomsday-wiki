@@ -1,4 +1,3 @@
-import { type ParsedUrlQuery } from 'querystring';
 import { Card, CardContent, Divider } from '@mui/material';
 import { type GetStaticPaths, type GetStaticProps, type NextPage } from 'next';
 
@@ -7,7 +6,7 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { ARTICLES } from '@/routes';
 import { getArticle, getMarkdown } from '@/tools/markdown/getMarkdown';
-import { getMenu } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/getMenu';
 import {
   type Article,
   type MenuEntry,
@@ -26,7 +25,7 @@ const Page: NextPage<Props> = ({ article, footer, menu }) => (
       <Banner
         banner={article.banner}
         footer={[
-          `Reading time: ${article.minutes.toFixed(0)} minutes`,
+          `Reading time: ${article.minutes} minutes`,
           `By ${article.matter.authors}`,
         ]}
         title={article.matter.title}
@@ -47,7 +46,7 @@ export const getStaticPaths: GetStaticPaths = () => ({
   paths: ARTICLES.ROUTES.map((route) => ({ params: route })),
 });
 
-type Query = ParsedUrlQuery & {
+type Query = {
   article: string;
   day: string;
   month: string;
@@ -62,7 +61,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
     props: {
       article: await getArticle(year, month, day, article),
       footer: await getMarkdown('partials', 'article-footer'),
-      menu: getMenu(),
+      menu: MENU,
     },
   };
 };

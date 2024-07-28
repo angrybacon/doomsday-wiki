@@ -4,7 +4,7 @@ import { type GetStaticProps, type NextPage } from 'next';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import { getMenu } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/getMenu';
 import { type MenuEntry, type Partial } from '@/tools/markdown/types';
 
 type Props = {
@@ -25,7 +25,7 @@ const Page: NextPage<Props> = ({ markdown, menu }) => (
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     markdown: await getMarkdown('partials', 'sandbox'),
-    menu: getMenu(),
+    menu: MENU,
   },
 });
 

@@ -1,4 +1,3 @@
-import { type ParsedUrlQuery } from 'querystring';
 import { Card, CardContent } from '@mui/material';
 import { type GetStaticPaths, type GetStaticProps, type NextPage } from 'next';
 
@@ -7,7 +6,7 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { CHAPTERS } from '@/routes';
 import { getChapter } from '@/tools/markdown/getMarkdown';
-import { getMenu } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/getMenu';
 import { type Chapter, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = {
@@ -31,7 +30,7 @@ export const getStaticPaths: GetStaticPaths = () => ({
   paths: CHAPTERS.ROUTES.map((route) => ({ params: route })),
 });
 
-type Query = ParsedUrlQuery & {
+type Query = {
   category: string;
   chapter: string;
 };
@@ -43,7 +42,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   return {
     props: {
       chapter: await getChapter(category, chapter),
-      menu: getMenu(),
+      menu: MENU,
     },
   };
 };

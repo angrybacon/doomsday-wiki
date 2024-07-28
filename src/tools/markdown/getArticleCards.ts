@@ -2,10 +2,7 @@ import { join } from 'node:path';
 import { read, walk } from '@korumite/kiwi/server';
 
 import { formatDate } from '@/tools/io/formatDate';
-import {
-  BASE_URLS,
-  MARKDOWN_EXTENSION,
-} from '@/tools/markdown/constants/Files';
+import { BASE_URLS } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { readArticleMatter } from '@/tools/markdown/readMatter';
 import {
@@ -15,25 +12,27 @@ import {
 } from '@/tools/markdown/types';
 import { assertDepth } from '@/tools/markdown/utilities';
 
+const MARKDOWN_EXTENSION = '.md';
+
 /** Represent an article card for which the banner hasn't resolved yet. */
 type ArticleCardPending = Omit<ArticleCard, 'banner'> &
   Partial<Pick<ArticleCard, 'banner'>>;
 
 /** Read file system and return a list of all articles. */
 export const getArticleCards = async (): Promise<ArticleCard[]> => {
-  const extension = MARKDOWN_EXTENSION;
-  const files = walk(BASE_URLS.ARTICLES, { extension });
+  const files = walk(BASE_URLS.ARTICLES, { extension: MARKDOWN_EXTENSION });
   /** Warmup array for banner promises. */
   const banners: Promise<Banner>[] = [];
   // NOTE Reduce rightwards to sort descending
-  const cards = files.reduceRight<ArticleCardPending[]>(
-    (accumulator, crumbs) => {
+  const cards = files.reduceRight<Promise<ArticleCardPending[]>>(
+    async (accumulator, crumbs) => {
       assertDepth(crumbs, 4);
       const [year, month, day, slug] = crumbs;
-      const path = join(...crumbs) + extension;
+      const path = join(...crumbs) + MARKDOWN_EXTENSION;
+      const markdown = await read([BASE_URLS.ARTICLES, path]);
       let matter: ArticleMatter;
       try {
-        matter = readArticleMatter(read(BASE_URLS.ARTICLES, path).matter);
+        matter = readArticleMatter(markdown.matter);
       } catch (error) {
         const message = error instanceof Error ? error.message : `${error}`;
         throw new Error(`${message} in "${path}"`);
@@ -56,10 +55,10 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
           },
         ),
       );
-      return [...accumulator, card];
+      return [...(await accumulator), card];
     },
-    [],
+    Promise.resolve([]),
   );
   await Promise.all(banners);
-  return cards as ArticleCard[];
+  return cards as Promise<ArticleCard[]>;
 };
