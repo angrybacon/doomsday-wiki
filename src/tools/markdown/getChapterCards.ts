@@ -10,7 +10,7 @@ const MARKDOWN_EXTENSION = '.md';
 
 /** Read file system and return a list of all chapters. */
 export const getChapterCards = (): Promise<ChapterCard[]> =>
-  CHAPTERS.tree.reduce<Promise<ChapterCard[]>>(async (accumulator, crumbs) => {
+  CHAPTERS.TREE.reduce<Promise<ChapterCard[]>>(async (accumulator, crumbs) => {
     assertDepth(crumbs, 2);
     const [category, slug] = crumbs;
     assertCategory(category);

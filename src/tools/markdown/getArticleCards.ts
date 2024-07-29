@@ -1,8 +1,8 @@
 import { join } from 'node:path';
-import { read, walk } from '@korumite/kiwi/server';
+import { read } from '@korumite/kiwi/server';
 
 import { formatDate } from '@/tools/io/formatDate';
-import { BASE_URLS } from '@/tools/markdown/constants/Files';
+import { ARTICLES, BASE_URLS } from '@/tools/markdown/constants/Files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { readArticleMatter } from '@/tools/markdown/readMatter';
 import {
@@ -20,11 +20,10 @@ type ArticleCardPending = Omit<ArticleCard, 'banner'> &
 
 /** Read file system and return a list of all articles. */
 export const getArticleCards = async (): Promise<ArticleCard[]> => {
-  const files = walk(BASE_URLS.ARTICLES, { extension: MARKDOWN_EXTENSION });
   /** Warmup array for banner promises. */
   const banners: Promise<Banner>[] = [];
   // NOTE Reduce rightwards to sort descending
-  const cards = files.reduceRight<Promise<ArticleCardPending[]>>(
+  const cards = ARTICLES.TREE.reduceRight<Promise<ArticleCardPending[]>>(
     async (accumulator, crumbs) => {
       assertDepth(crumbs, 4);
       const [year, month, day, slug] = crumbs;
