@@ -10,7 +10,6 @@ import {
   type ArticleMatter,
   type Banner,
 } from '@/tools/markdown/types';
-import { assertDepth } from '@/tools/markdown/utilities';
 
 const MARKDOWN_EXTENSION = '.md';
 
@@ -25,8 +24,6 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
   // NOTE Reduce rightwards to sort descending
   const cards = ARTICLES.TREE.reduceRight<Promise<ArticleCardPending[]>>(
     async (accumulator, crumbs) => {
-      assertDepth(crumbs, 4);
-      const [year, month, day, slug] = crumbs;
       const path = join(...crumbs) + MARKDOWN_EXTENSION;
       const markdown = await read([BASE_URLS.ARTICLES, path]);
       let matter: ArticleMatter;
@@ -36,6 +33,7 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
         const message = error instanceof Error ? error.message : `${error}`;
         throw new Error(`${message} in "${path}"`);
       }
+      const [year, month, day, slug] = crumbs;
       const card: ArticleCardPending = {
         date: formatDate(year, month, day),
         day,

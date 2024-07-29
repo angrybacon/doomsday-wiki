@@ -1,4 +1,3 @@
-import { type Category } from '@/tools/markdown/constants/Category';
 import { DECORATIONS } from '@/tools/markdown/constants/Menu';
 import { getChapterCards } from '@/tools/markdown/getChapterCards';
 import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
@@ -9,15 +8,14 @@ import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
  */
 const getMenu = async (): Promise<MenuEntry[]> => {
   const cards = await getChapterCards();
-  const menu = cards.reduce<Partial<Record<Category, ChapterCard[]>>>(
-    (accumulator, card) => {
-      const { category } = card;
-      accumulator[category] = accumulator[category] || [];
-      (accumulator[category] as ChapterCard[]).push(card);
-      return accumulator;
-    },
-    {},
-  );
+  const menu = cards.reduce<
+    Partial<Record<ChapterCard['category'], ChapterCard[]>>
+  >((accumulator, card) => {
+    const { category } = card;
+    accumulator[category] = accumulator[category] || [];
+    accumulator[category].push(card);
+    return accumulator;
+  }, {});
   return DECORATIONS.map(({ category, subtitle, title }) => {
     const pages = menu[category];
     if (!pages) {

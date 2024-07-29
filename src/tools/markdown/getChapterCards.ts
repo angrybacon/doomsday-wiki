@@ -1,19 +1,29 @@
 import { join } from 'node:path';
 import { read } from '@korumite/kiwi/server';
+import { z } from 'zod';
 
 import { BASE_URLS, CHAPTERS } from '@/tools/markdown/constants/Files';
 import { readChapterMatter } from '@/tools/markdown/readMatter';
 import { type ChapterCard, type ChapterMatter } from '@/tools/markdown/types';
-import { assertCategory, assertDepth } from '@/tools/markdown/utilities';
 
 const MARKDOWN_EXTENSION = '.md';
 
 /** Read file system and return a list of all chapters. */
 export const getChapterCards = (): Promise<ChapterCard[]> =>
   CHAPTERS.TREE.reduce<Promise<ChapterCard[]>>(async (accumulator, crumbs) => {
-    assertDepth(crumbs, 2);
-    const [category, slug] = crumbs;
-    assertCategory(category);
+    const category = z
+      .preprocess(
+        (value) => (typeof value === 'string' ? value.toUpperCase() : value),
+        z.union([
+          // TODO Read values dynamically
+          z.literal('APPENDICES'),
+          z.literal('DDEFT'),
+          z.literal('DDFT'),
+          z.literal('ENTOMBSDAY'),
+          z.literal('MEANDECK'),
+        ]),
+      )
+      .parse(crumbs[0]);
     const path = join(...crumbs) + MARKDOWN_EXTENSION;
     const markdown = await read([BASE_URLS.CHAPTERS, path]);
     let matter: ChapterMatter;
@@ -27,7 +37,7 @@ export const getChapterCards = (): Promise<ChapterCard[]> =>
       category,
       matter,
       route: ['', ...crumbs].join('/'),
-      slug,
+      slug: crumbs[1],
     };
     return [...(await accumulator), card];
   }, Promise.resolve([]));

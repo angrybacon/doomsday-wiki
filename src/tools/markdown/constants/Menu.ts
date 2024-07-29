@@ -1,25 +1,24 @@
-import { Category } from '@/tools/markdown/constants/Category';
 import { type MenuDecoration } from '@/tools/markdown/types';
 
 /** List the menu entries and their corresponding decorations in order. */
 export const DECORATIONS: MenuDecoration[] = [
   {
-    category: Category.MEANDECK,
+    category: 'MEANDECK',
     subtitle: 'Force of Will Doomsday',
     title: 'Doomsday',
   },
   {
-    category: Category.DDFT,
+    category: 'DDFT',
     subtitle: 'Doomsday Fetchland Tendrils',
     title: 'DDFT',
   },
   {
-    category: Category.ENTOMBSDAY,
+    category: 'ENTOMBSDAY',
     subtitle: 'Tin Fins Hybrid',
     title: 'Entombsday',
   },
   {
-    category: Category.APPENDICES,
+    category: 'APPENDICES',
     subtitle: 'Other Resources',
     title: 'Appendices',
   },

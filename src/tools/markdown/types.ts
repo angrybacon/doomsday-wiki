@@ -28,7 +28,7 @@ export type ArticleCard = Card<ArticleMatter> & {
 };
 
 export type ChapterCard = Card<ChapterMatter> & {
-  category: Category;
+  category: keyof typeof Category;
 };
 
 // Documents ///////////////////////////////////////////////////////////////////
@@ -56,21 +56,21 @@ export type Chapter = Omit<Partial, 'matter'> & {
 export type ArticleMatter = {
   authors: string;
   banner: string;
-  kind: Kind;
-  tags: Tag[];
+  kind: keyof typeof Kind;
+  tags: (keyof typeof Tag)[];
   title: string;
 };
 
 export type ChapterMatter = {
   banner: string;
-  order: number | null;
+  order?: number;
   title: string;
 };
 
 // Menu ////////////////////////////////////////////////////////////////////////
 
 export type MenuDecoration = {
-  category: Category;
+  category: keyof typeof Category;
   subtitle: string;
   title: string;
 };

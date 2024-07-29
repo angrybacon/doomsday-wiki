@@ -20,7 +20,7 @@ import { type Category } from '@/tools/markdown/constants/Category';
 import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = Omit<MenuEntry, 'category' | 'pages'> & {
-  category?: Category;
+  category?: keyof typeof Category;
   children?: never;
   component?: ElementType;
   href?: string;
