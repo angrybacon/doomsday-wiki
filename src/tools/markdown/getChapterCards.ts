@@ -2,9 +2,11 @@ import { join } from 'node:path';
 import { read } from '@korumite/kiwi/server';
 import { z } from 'zod';
 
+import { Category } from '@/tools/markdown/constants/Category';
 import { BASE_URLS, CHAPTERS } from '@/tools/markdown/constants/Files';
 import { readChapterMatter } from '@/tools/markdown/readMatter';
 import { type ChapterCard, type ChapterMatter } from '@/tools/markdown/types';
+import { union } from '@/tools/z/union';
 
 const MARKDOWN_EXTENSION = '.md';
 
@@ -14,14 +16,7 @@ export const getChapterCards = (): Promise<ChapterCard[]> =>
     const category = z
       .preprocess(
         (value) => (typeof value === 'string' ? value.toUpperCase() : value),
-        z.union([
-          // TODO Read values dynamically
-          z.literal('APPENDICES'),
-          z.literal('DDEFT'),
-          z.literal('DDFT'),
-          z.literal('ENTOMBSDAY'),
-          z.literal('MEANDECK'),
-        ]),
+        union(Object.keys(Category) as (keyof typeof Category)[]),
       )
       .parse(crumbs[0]);
     const path = join(...crumbs) + MARKDOWN_EXTENSION;
