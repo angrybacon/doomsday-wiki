@@ -32,7 +32,7 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
   Props
 >(({ category, pages = [], subtitle, title, ...rest }, ref) => {
   const { asPath, query } = useRouter();
-  const routeCategory = `${query.category}`;
+  const routeCategory = `${query.category}`.toUpperCase();
   const routeChapter = `${query.chapter}`;
   const hasPages = pages.length > 0;
   const [isOpen, setIsOpen] = useState(hasPages && category === routeCategory);
