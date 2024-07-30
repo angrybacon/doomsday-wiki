@@ -14,15 +14,16 @@ import {
 const MARKDOWN_EXTENSION = '.md';
 
 /** Represent an article card for which the banner hasn't resolved yet. */
-type ArticleCardPending = Omit<ArticleCard, 'banner'> &
-  Partial<Pick<ArticleCard, 'banner'>>;
+type ArticleCardPending = Omit<ArticleCard, 'banner'> & {
+  banner?: ArticleCard['banner'];
+};
 
 /** Read file system and return a list of all articles. */
 export const getArticleCards = async (): Promise<ArticleCard[]> => {
   /** Warmup array for banner promises. */
   const banners: Promise<Banner>[] = [];
   // NOTE Reduce rightwards to sort descending
-  const cards = ARTICLES.TREE.reduceRight<Promise<ArticleCardPending[]>>(
+  const cards = await ARTICLES.TREE.reduceRight<Promise<ArticleCardPending[]>>(
     async (accumulator, crumbs) => {
       const path = join(...crumbs) + MARKDOWN_EXTENSION;
       const markdown = await read([BASE_URLS.ARTICLES, path]);
@@ -57,5 +58,5 @@ export const getArticleCards = async (): Promise<ArticleCard[]> => {
     Promise.resolve([]),
   );
   await Promise.all(banners);
-  return cards as Promise<ArticleCard[]>;
+  return cards as ArticleCard[];
 };
