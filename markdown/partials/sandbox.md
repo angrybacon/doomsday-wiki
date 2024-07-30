@@ -456,7 +456,7 @@ Coming soon &trade;
 
 ## Spoilers
 
-Inline verbatim content is not supported within spoiler blocks.
+Inline verbatim content and links are not supported within spoiler blocks.
 
 ```md
 :::spoiler

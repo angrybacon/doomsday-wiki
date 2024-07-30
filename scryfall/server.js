@@ -20,7 +20,7 @@ const handler = async (request, response) => {
       return it.text();
     });
     CACHE.set(request.url, promise);
-    if (process.env.SCRYFALL_DEBUG) {
+    if (process.env.DEBUG) {
       console.info(`Cached request for "${request.url}"`);
     }
   }
@@ -34,7 +34,7 @@ const handler = async (request, response) => {
     response.write(`Error while reading "${request.url}" (${error})`);
   } finally {
     response.end();
-    if (process.env.SCRYFALL_DEBUG) {
+    if (process.env.DEBUG) {
       console.count(`GET ${request.url}`);
     }
   }
