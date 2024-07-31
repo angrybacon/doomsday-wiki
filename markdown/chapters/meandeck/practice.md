@@ -166,7 +166,7 @@ Opponent has 5 cards in hand.
 
 Your hand:
 
-:::row{variant=HAND}
+:::row
 DD
 DR
 Misty Rainforest
@@ -305,7 +305,7 @@ Game 3 turn 1 on the play with a 5 cards opening hand.
 
 Your hand:
 
-:::row{variant=HAND}
+:::row
 DD
 DR
 Misty Rainforest
@@ -422,7 +422,7 @@ You have 2 Underground Sea in play, 18 Life and your land drop available to you.
 
 Your hand:
 
-:::row{variant=HAND}
+:::row
 DD
 LP
 SW

@@ -29,7 +29,7 @@ so as early as the first turn. Typically you'll want to do this early in the
 game before your opponent establishes a board presence, but it can still be
 effective later on depending on the matchup. Consider the following hand:
 
-:::row{variant=HAND}
+:::row
 DR
 VoS
 LED
@@ -85,7 +85,7 @@ land drop you can use this to generate mana after Echo.
 
 Consider the following situation, where your opening 7 looks like this:
 
-:::row{variant=HAND}
+:::row
 LED
 LED
 Scalding Tarn
@@ -187,7 +187,7 @@ One last thing to address: there will be times when you determine that you
 simply have to take a risk and go for a natural storm kill without a Wish in
 hand. Perhaps your hand looks like this:
 
-:::row{variant=HAND}
+:::row
 LED
 LED
 LP

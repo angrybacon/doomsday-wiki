@@ -177,7 +177,7 @@ how they should play out.
 
 ### Hand 1
 
-:::row{variant=HAND}
+:::row
 City of Brass
 Gemstone Mine
 LP
@@ -196,7 +196,7 @@ Echo.
 
 ### Hand 2
 
-:::row{variant=HAND}
+:::row
 LP
 LP
 LED
@@ -216,7 +216,7 @@ have enough mana to still cast Echo afterwards.
 
 ### Hand 3
 
-:::row{variant=HAND}
+:::row
 LP
 DR
 LED
@@ -237,7 +237,7 @@ have a chance even against decks that could race the goblins.
 
 ### Hand 4
 
-:::row{variant=HAND}
+:::row
 LP
 DR
 DD
@@ -269,7 +269,7 @@ O R P H O S E.
 
 ### Hand 5
 
-:::row{variant=HAND}
+:::row
 LP
 EoE
 DD
@@ -285,7 +285,7 @@ on the haters.
 
 ### Hand 6
 
-:::row{variant=HAND}
+:::row
 LP
 Gemstone Mine
 Rite of Flame
@@ -303,7 +303,7 @@ guaranteed, and the deck mulligans pretty well. I'd throw this back.
 
 ### Hand 7
 
-:::row{variant=HAND}
+:::row
 LP
 DR
 City of Brass

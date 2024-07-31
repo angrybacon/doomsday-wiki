@@ -135,7 +135,7 @@ has resolved (from the Basics chapter):
 > Game 1  
 > On the play
 
-:::row{variant=HAND}
+:::row
 DR
 DD
 FoW
@@ -210,7 +210,7 @@ The extra card drawn can allow a lot of flexibility in keeping up countermagic.
 
 Take the following hand:
 
-:::row{variant=HAND}
+:::row
 DR
 DD
 FoW

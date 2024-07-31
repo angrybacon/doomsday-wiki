@@ -1075,7 +1075,7 @@ Doomsday of the time made those otherwise _dead_ cards very live.
 The speed was also a key point. The Meandeck list, with a perfect draw, could
 achieve a turn 2 kill with the following cards in hand/drawn:
 
-:::row{variant=HAND}
+:::row
 DR|MMQ
 DD
 DR|MMQ
@@ -1093,7 +1093,7 @@ draw and cast Probe into Unearth. Cast Unearth to reanimate Labman to then
 activate Top to draw for the win. An equivalent perfect draw from DDFT could
 result in a turn 1 win.
 
-:::row{variant=HAND}
+:::row
 DR|MMQ
 DD
 DR|MMQ
