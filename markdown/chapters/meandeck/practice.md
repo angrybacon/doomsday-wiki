@@ -156,26 +156,13 @@ very in depth and may be hard to follow along.
 
 ### Scenario 1: Turn 1 Doomsday vs Delver
 
-> 6 cards opening hand  
-> Game 1 on the draw
->
-> Opponent has a Dragon's Rage Channeler and a tapped Volcanic Island in play,
-> Scalding Tarn and Mishra's Bauble in Graveyard  
-> Opponent has 5 cards in hand
+Game 1 turn 1 on the draw with a 6 cards opening hand.
 
-Opposing board:
+Opponent has a :card[Dragon's Rage Channeler] and a tapped :card[Volcanic
+Island] in play, :card[Scalding Tarn] and :card[Mishra's Bauble] in their
+Graveyard.
 
-:::row{variant=CENTERED}
-Volcanic Island
-Dragon's Rage Channeler
-:::
-
-Opposing graveyard:
-
-:::row{variant=CENTERED}
-Scalding Tarn
-Mishra's Bauble
-:::
+Opponent has 5 cards in hand.
 
 Your hand:
 
@@ -314,8 +301,7 @@ Wasteland
 
 ### Scenario 2: Turn 1 Doomsday vs Mono Red Stompy
 
-> 5 cards opening hand  
-> Game 3 on the play
+Game 3 turn 1 on the play with a 5 cards opening hand.
 
 Your hand:
 
@@ -425,32 +411,14 @@ incorrect choice.
 
 ### Scenario 3: Turn 3 Doomsday vs Elves
 
-> Game 2
-> Your turn 3
->
-> Opponent has an Allosaurus Shepherd, Dryad Arbor (tapped), Elvish Visionary
-> and Forest (tapped) in Play  
-> Opponent has 6 cards in hand
+Game 2 turn 3.
 
-Opposing board:
+Opponent has an :card[Allosaurus Shepherd], :card[Dryad Arbor] (tapped),
+:card[Elvish Visionary] and a :card[Forest] (tapped) in play.
 
-:::row{variant=CENTERED}
-Forest
-Dryad Arbor
-Allosaurus Shepherd
-Elvish Visionary
-:::
+Opponent has 6 cards in hand.
 
-> You have 2 x Underground Sea in play
-> 18 Life
-> Land drop available
-
-Your board:
-
-:::row{variant=CENTERED}
-Underground Sea
-Underground Sea
-:::
+You have 2 Underground Sea in play, 18 Life and your land drop available to you.
 
 Your hand:
 

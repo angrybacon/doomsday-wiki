@@ -77,24 +77,39 @@ considered _best_ at the time.
 
 Historically there was a spreadsheet that had an ever-growing list of
 pre-prescribed piles based on certain criterias but this was for the old DDFT
-decks pre :card[Sensei's Divining Top] ban. A current one is not maintained for
-a couple of reasons: the biggest being that trying to rote learn piles is
-actually not effective training. It is better to learn the general rule sets or
-toolboxes you have at your disposal and then try to build on the fly using your
-knowledge, experience and general critical thinking than it is to try and
-remember "If I have {B}{B}{B}+{U}{U}{U}+{1}+SW in hand then I can win through
-:card[Thalia, Guardian of Thraben] in play".
+decks from before the banning of :card[Sensei's Divining Top]. A current one is
+not maintained for a couple of reasons: the biggest being that trying to rote
+learn piles is actually not effective training. It is better to learn the
+general rule sets or toolboxes you have at your disposal and then try to build
+on the fly using your knowledge, experience and general critical thinking than
+it is to try and remember "If I have {B}{B}{B}+{U}{U}{U}+{1}+SW in hand then I
+can win through Thalia".
+
+However there's a recurring argument for having a repository of quick piles that
+one might look up when facing X or Y scenario. While this would _feel_ very
+useful to content creators that are playing the deck once and then moving on,
+it's also the most efficient way of ignoring other open lines simply because of
+the blinkers you've installed that say "If X do Y".
+
+You are obviously allowed (and encouraged) to write down common scenarios you
+see yourself in and use that to your advantage. Just don't advertise it as
+universal truth.
 
 This Wiki aims to try and provide the general concepts and basic level knowledge
-needed to pilot the deck. Select your variant of choice and work through the
-chapters under that variant which should provide the simplest pile examples to
-give an idea of how to play. The majority of piles become variants of those
-discussed but you will, over time, learn to build more situational ones as you
-gain experience.
+needed to pilot the deck. Work through the chapters and pause when a pile is
+described as you make sure you follow the line. The majority of piles become
+variants of those discussed but you will, over time, learn to build more
+situational ones as you gain experience.
 
 ## What is the best matchup for the deck?
 
-Cloudpost.
+Post used to be the auto-win matchup where their only hope was either a timely
+:card[Boseiju, who Endures] or Choke and it had to resolve. With Modern Horizons
+3 (the Commander set to be exact), the deck has gained in popularity and the
+matchup has changed drastically. :card[Vexing Bauble] will help their
+:card[Disruptor Flute]s resolve, usually naming the Oracle or Doomsday itself.
+This slows down the game giving them more time to present lethal, or screw your
+pre-established pile entirely.
 
 In the current Legacy meta the best matchups to face are probably Miracles
 variants, non-blue decks and TES. These decks often do not provide much pressure
@@ -102,17 +117,16 @@ and have limited interaction once Doomsday resolves. We also have a lot of
 interaction which means they tend to not have enough disruption to be able to
 stop us.
 
-Death and Taxes, Maverick and Post are good examples of the easier matchups with
-limited interaction. Still, they can display threats in the form of hatebears
-for the 2 formers or larger, game-ending threats for the latter. But often they
-are too slow or get answered easily by Daze. For the green matchups,
-:card[Endurance] requires preparation and proper sequencing but is far from
-being as back-breaking as it is often thought. More details about this in the
-[interaction page](/meandeck/interaction#cheating-on-devotion).
+Death and Taxes and Maverick are good examples of the easier matchups with
+limited interaction. Still, they can display threats in the form of hatebears.
+But often they are too slow or get answered easily by Daze. For the green
+matchups, :card[Endurance] requires preparation and proper sequencing but is far
+from being as back-breaking as it is often thought. More details about this in
+the [interaction page](/meandeck/interaction#cheating-on-devotion).
 
 TES cannot beat the sheer amount of disruption the deck brings to the table nor
 interact with the fast combo kill besides :card[Silence] effects as the Doomsday
-pilot unravel their pile. That weakness can be mitigated but often means that
+pilots unravel their pile. That weakness can be mitigated but often means that
 while the TES pilot tries to disrupt our combo turn, they aren't progressing
 their own plan as much.
 
@@ -124,10 +138,16 @@ based on community-obtained results found [here][data:matchups]).
 Delver. Delver. Definitely Delver. Also Death Shadow decks.
 
 Basically any aggressive tempo shell running cheap threats and mana efficient
-disruption. UR Delver is the most played deck in Legacy and the deck has a hard
-time with that matchup (between 30% and 35% depending on meta shifts and deck
-popularity) however Grixis Delver is likely the worst to face as the addition of
-Thoughtseize as another angle of disruption makes them very hard to face.
+disruption. Red variants are probably the hardest matchups thanks to their reach
+through :card[Lightning Bolt] however Grixis Delver is likely the worst to face
+as the addition of :card[Thoughtseize] as another angle of disruption makes them
+very hard to face.
+
+Stiflenough has recently resurfaced with the printings of :card[Dress Down] and
+then :card[Doorkeeper Thrull]. Like Delver variants, the tempo element combined
+with fast clock makes it a difficult matchup navigate, except their also sport a
+full playset of :card[Stifle] in addition to maindeck copies of :card[Dress
+Down].
 
 ## What is a good meta to play Doomsday in?
 
@@ -172,6 +192,11 @@ smartest type of Legacy player_. Everyone has different ways of thinking and one
 person's nightmare deck to pilot (mine would be Maverick) is another person's
 bread and butter.
 
+:::accordion[Click to reveal]
+![Chart on how to pile correctly](/media/assets/pile-bell-chart.png 'How to pile
+correctly')
+:::
+
 ## How do I resolve Doomsday in paper?
 
 A large part of the confusion for the physical resolution of Doomsday stems from
@@ -179,7 +204,7 @@ the wording on the original Weatherlight printing of :card[Doomsday]. See the
 card below along with the original rules text printed:
 
 :::row{variant=CENTERED}
-Doomsday|WTH
+Doomsday | WTH
 :::
 
 > Pay half your life, rounded up:  
@@ -202,7 +227,7 @@ Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
 :::row{variant=CENTERED}
-Doomsday|A25
+Doomsday | A25
 :::
 
 > Search your library and graveyard for five cards and exile the rest.  
@@ -260,7 +285,7 @@ stuck, feel free to ask for help! The sense of community is very strong and you
 should be able to find someone to answer any queries across most time zones so
 please feel free to come and say hello in the [Doomsday Discord][discord].
 
-## What order should I make purchases to build Doomsday?
+## In what order should I make purchases to build Doomsday?
 
 As with any Legacy deck the focus should always be on the reserved list staples.
 dual lands are the first port of call with Underground Seas being the key part.

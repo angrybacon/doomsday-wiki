@@ -186,4 +186,3 @@ go at your own pace! (And hopefully have fun in the process)
 
 It is recommended you read the Wiki chapters in the order presented but feel
 free to read them how you wish.
-.
