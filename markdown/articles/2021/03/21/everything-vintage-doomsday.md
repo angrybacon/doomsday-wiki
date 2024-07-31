@@ -231,7 +231,7 @@ this turn and the rest of the game?
 
 Our hand is:
 
-:::row{variant=HAND}
+:::row
 DD
 SW
 Pre
@@ -353,7 +353,7 @@ Rod], more Revokers, etc?
 
 Our hand is:
 
-:::row{variant=HAND}
+:::row
 Pre
 Daze
 FoW

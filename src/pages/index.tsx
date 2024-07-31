@@ -7,7 +7,7 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import { getMenu } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/getMenu';
 import {
   type ArticleCard as ArticleCardModel,
   type MenuEntry,
@@ -81,8 +81,8 @@ const Page: NextPage<Props> = ({ articles, menu, welcome }) => {
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     articles: await getArticleCards(),
-    menu: getMenu(),
-    welcome: await getMarkdown('partials', 'welcome.md'),
+    menu: MENU,
+    welcome: await getMarkdown('partials', 'welcome'),
   },
 });
 

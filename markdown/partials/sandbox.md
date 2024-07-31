@@ -39,7 +39,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 :::
 ```
 
@@ -49,7 +49,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 :::
 
 ### Multiple
@@ -65,7 +65,7 @@ libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 :::accordion[Click to expand]
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 :::
 ```
 
@@ -77,7 +77,7 @@ libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 :::accordion[Click to expand]
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 :::
 
 ### Nested Directives
@@ -90,7 +90,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 :::
 
 :::row
@@ -111,7 +111,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 :::
 
 :::row
@@ -212,11 +212,15 @@ quotes) are mandatory for a proper accessibility of your images within the page.
 ![A small placeholder image](https://www.placehold.co/400x80 'Low resolution')
 ```
 
-![A large placeholder image](https://www.placehold.co/1600x320 'High resolution')
+![A large placeholder image](https://www.placehold.co/1600x200 'High resolution')
 
-![A medium placeholder image](https://www.placehold.co/800x160 'Medium resolution')
+![A medium placeholder image](https://www.placehold.co/800x100 'Medium resolution')
 
-![A small placeholder image](https://www.placehold.co/400x80 'Low resolution')
+![A small placeholder image](https://www.placehold.co/400x50 'Low resolution')
+
+## Links
+
+Coming soon &trade;
 
 ## Lists
 
@@ -296,7 +300,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 ```
 
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
@@ -304,7 +308,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+:spoiler[efficitur] pharetra quam.
 
 ## Quotes
 
@@ -452,7 +456,7 @@ Coming soon &trade;
 
 ## Spoilers
 
-Inline verbatim content is not supported within spoiler blocks.
+Inline verbatim content and links are not supported within spoiler blocks.
 
 ```md
 :::spoiler
@@ -475,6 +479,12 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 :::
 
 ## Tables
+
+The following items are not supported within tables:
+
+- Merged cells
+- Headless tables
+- Multiline text within rows
 
 ### Default Alignement
 

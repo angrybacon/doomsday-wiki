@@ -50,7 +50,7 @@ Take the following example:
 > Game 1  
 > On the play
 
-:::row{variant=hand}
+:::row
 DR
 DD
 FoW
@@ -116,7 +116,7 @@ ways that your opponents can prevent you from executing the pile as desired.
 If we were to look at the pile presented and have cast DR, DD from Underground
 Sea we are left with the following cards in hand:
 
-:::row{variant=hand}
+:::row
 FoW
 FoW
 Island
@@ -195,7 +195,7 @@ we had in hand from Ponder to Brainstorm.
 > Game 1  
 > On the play
 
-:::row{variant=hand}
+:::row
 DR
 DD
 FoW
@@ -296,7 +296,7 @@ a land already in hand. Once again returning to our scenario for the chapter:
 > Game 1  
 > On the play
 
-:::row{variant=hand}
+:::row
 DR
 DD
 FoW

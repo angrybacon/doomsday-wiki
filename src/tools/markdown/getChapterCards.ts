@@ -1,26 +1,29 @@
 import { join } from 'node:path';
-import { read, walk } from '@korumite/kiwi/server';
+import { read } from '@korumite/kiwi/server';
+import { z } from 'zod';
 
-import {
-  BASE_URLS,
-  MARKDOWN_EXTENSION,
-} from '@/tools/markdown/constants/Files';
+import { CATEGORIES } from '@/tools/markdown/constants';
+import { BASE_URLS, CHAPTERS } from '@/tools/markdown/files';
 import { readChapterMatter } from '@/tools/markdown/readMatter';
 import { type ChapterCard, type ChapterMatter } from '@/tools/markdown/types';
-import { assertCategory, assertDepth } from '@/tools/markdown/utilities';
+import { union } from '@/tools/z/union';
+
+const MARKDOWN_EXTENSION = '.md';
 
 /** Read file system and return a list of all chapters. */
-export const getChapterCards = (): ChapterCard[] => {
-  const extension = MARKDOWN_EXTENSION;
-  const files = walk(BASE_URLS.CHAPTERS, { extension });
-  const cards = files.reduce<ChapterCard[]>((accumulator, crumbs) => {
-    assertDepth(crumbs, 2);
-    const [category, slug] = crumbs;
-    assertCategory(category);
-    const path = join(...crumbs) + extension;
+export const getChapterCards = (): Promise<ChapterCard[]> =>
+  CHAPTERS.TREE.reduce<Promise<ChapterCard[]>>(async (accumulator, crumbs) => {
+    const category = z
+      .preprocess(
+        (value) => (typeof value === 'string' ? value.toUpperCase() : value),
+        union(CATEGORIES),
+      )
+      .parse(crumbs[0]);
+    const path = join(...crumbs) + MARKDOWN_EXTENSION;
+    const markdown = await read([BASE_URLS.CHAPTERS, path]);
     let matter: ChapterMatter;
     try {
-      matter = readChapterMatter(read(BASE_URLS.CHAPTERS, path).matter);
+      matter = readChapterMatter(markdown.matter);
     } catch (error) {
       const message = error instanceof Error ? error.message : `${error}`;
       throw new Error(`${message} in "${path}"`);
@@ -29,9 +32,7 @@ export const getChapterCards = (): ChapterCard[] => {
       category,
       matter,
       route: ['', ...crumbs].join('/'),
-      slug,
+      slug: crumbs[1],
     };
-    return [...accumulator, card];
-  }, []);
-  return cards;
-};
+    return [...(await accumulator), card];
+  }, Promise.resolve([]));

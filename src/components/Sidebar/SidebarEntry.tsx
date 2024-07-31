@@ -16,11 +16,11 @@ import {
   type FunctionComponent,
 } from 'react';
 
-import { type Category } from '@/tools/markdown/constants/Category';
+import { type CATEGORIES } from '@/tools/markdown/constants';
 import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = Omit<MenuEntry, 'category' | 'pages'> & {
-  category?: Category;
+  category?: (typeof CATEGORIES)[number];
   children?: never;
   component?: ElementType;
   href?: string;
@@ -32,7 +32,7 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
   Props
 >(({ category, pages = [], subtitle, title, ...rest }, ref) => {
   const { asPath, query } = useRouter();
-  const routeCategory = `${query.category}`;
+  const routeCategory = `${query.category}`.toUpperCase();
   const routeChapter = `${query.chapter}`;
   const hasPages = pages.length > 0;
   const [isOpen, setIsOpen] = useState(hasPages && category === routeCategory);

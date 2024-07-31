@@ -1,19 +1,23 @@
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
-import { Category } from '@/tools/markdown/constants/Category';
+import { type CATEGORIES } from '@/tools/markdown/constants';
 
 describe(getRosetta.name, () => {
-  const tests: [category: Category | undefined, ok: string, ko: string][] =
+  const tests: [
+    category: (typeof CATEGORIES)[number] | undefined,
+    ok: string,
+    ko: string,
+  ][] =
     // prettier-ignore
     [
-      [Category.APPENDICES, 'Brainstorm',     'Consider'],
-      [Category.DDFT,       'Echo of Eons',   'Predict'],
-      [Category.DDEFT,      'Act on Impulse', 'Echo of Eons'],
-      [Category.MEANDECK,   'Predict',        'Manamorphose'],
-      [undefined,           'Brainstorm',     'Consider'],
+      ['APPENDICES', 'Brainstorm',     'Consider'],
+      ['DDFT',       'Echo of Eons',   'Predict'],
+      ['DDEFT',      'Act on Impulse', 'Echo of Eons'],
+      ['MEANDECK',   'Predict',        'Manamorphose'],
+      [undefined,    'Brainstorm',     'Consider'],
     ];
 
   it.each(tests)(
-    "should return the appropriate notations for '%s'",
+    "should return the appropriate notation for '%s'",
     (category, ok, ko) => {
       // When
       const rosetta: Rosetta = getRosetta(category);

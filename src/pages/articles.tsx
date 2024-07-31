@@ -11,7 +11,7 @@ import NextLink from 'next/link';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import { Layout } from '@/components/Layout/Layout';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { getMenu } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/getMenu';
 import { type ArticleCard, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = {
@@ -45,7 +45,7 @@ const Page: NextPage<Props> = ({ articles, menu }) => (
 export const getStaticProps: GetStaticProps<Props> = async () => ({
   props: {
     articles: await getArticleCards(),
-    menu: getMenu(),
+    menu: MENU,
   },
 });
 

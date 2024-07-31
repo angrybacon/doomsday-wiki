@@ -17,7 +17,7 @@ import { deepmerge } from '@mui/utils';
 import { barf } from '@/theme/tools/barf';
 import { gutters } from '@/theme/tools/gutters';
 import { toolbarMargin } from '@/theme/tools/toolbarMargin';
-import { type Kind } from '@/tools/markdown/constants/Kind';
+import { type KINDS } from '@/tools/markdown/constants';
 
 import '@fontsource/libre-baskerville';
 
@@ -26,12 +26,12 @@ import '@fontsource/libre-baskerville';
 declare module '@mui/material/styles' {
   interface Palette {
     dividerOpaque: string;
-    document: Record<Kind, string>;
+    document: Record<(typeof KINDS)[number], string>;
   }
 
   interface PaletteOptions {
     dividerOpaque: string;
-    document: Record<Kind, string>;
+    document: Record<(typeof KINDS)[number], string>;
   }
 
   interface Theme {
@@ -203,9 +203,9 @@ export const darkTheme: Theme = customizeTheme({
     background: { default: '#121212', paper: grey[900] },
     dividerOpaque: grey[800],
     document: {
-      article: article.A700,
-      primer: primer.A700,
-      report: report.A400,
+      ARTICLE: article.A700,
+      PRIMER: primer.A700,
+      REPORT: report.A400,
     },
     mode: 'dark',
     primary,
@@ -218,9 +218,9 @@ export const lightTheme: Theme = customizeTheme({
     background: { default: grey[100] },
     dividerOpaque: grey[300],
     document: {
-      article: article.A700,
-      primer: primer.A700,
-      report: report.A700,
+      ARTICLE: article.A700,
+      PRIMER: primer.A700,
+      REPORT: report.A700,
     },
     mode: 'light',
     primary,

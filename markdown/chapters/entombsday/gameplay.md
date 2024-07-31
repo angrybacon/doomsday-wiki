@@ -162,7 +162,7 @@ game 1 plan, a protection spell is also helpful.
 
 Below are a number of sample starting hands. Would you keep them or mulligan?
 
-:::row{variant=HAND}
+:::row
 Marsh Flats
 Lotus Petal
 LED
@@ -180,7 +180,7 @@ chance to draw a blue card for Force to protect your combo, but we're not here
 to send back a turn 1 combo.
 :::
 
-:::row{variant=HAND}
+:::row
 Underground Sea
 Lotus Petal
 Polluted Delta
@@ -198,7 +198,7 @@ to enable your combo. You'll need to find both Entomb (or Griselbrand) and a
 reanimation spell.
 :::
 
-:::row{variant=HAND}
+:::row
 Underground Sea
 Flooded Strand
 Marsh Flats
@@ -216,7 +216,7 @@ multiple ways to dig for a reanimation spell. I would lead on the fetch lands
 and cast Lim-Dul's vault in my opponent's End Step.
 :::
 
-:::row{variant=HAND}
+:::row
 Polluted Delta
 Entomb
 Cabal Therapy
@@ -234,7 +234,7 @@ multiple pieces of protection, giving you time to find your second land or a
 Dark Ritual.
 :::
 
-:::row{variant=HAND}
+:::row
 Flooded Strand
 Lotus Petal
 Polluted Delta
@@ -252,7 +252,7 @@ outs between your 4 Entombs and 2 Griselbrands, but there is a chance you cast
 your cantrips and whiff.
 :::
 
-:::row{variant=HAND}
+:::row
 Underground Sea
 Polluted Delta
 Cabal Therapy

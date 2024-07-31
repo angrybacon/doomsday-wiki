@@ -1,23 +1,13 @@
-import { type ParsedUrlQuery } from 'querystring';
 import { Card, CardContent } from '@mui/material';
-import {
-  type GetStaticPaths,
-  type GetStaticPathsResult,
-  type GetStaticProps,
-  type NextPage,
-} from 'next';
+import { type GetStaticPaths, type GetStaticProps, type NextPage } from 'next';
 
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
-import { getChapterCards } from '@/tools/markdown/getChapterCards';
+import { CHAPTERS } from '@/tools/markdown/files';
 import { getChapter } from '@/tools/markdown/getMarkdown';
-import { getMenu } from '@/tools/markdown/getMenu';
-import {
-  type Chapter,
-  type ChapterCard,
-  type MenuEntry,
-} from '@/tools/markdown/types';
+import { MENU } from '@/tools/markdown/getMenu';
+import { type Chapter, type MenuEntry } from '@/tools/markdown/types';
 
 type Props = {
   chapter: Chapter;
@@ -35,16 +25,12 @@ const Page: NextPage<Props> = ({ chapter, menu }) => (
   </Layout>
 );
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const chapters: ChapterCard[] = getChapterCards();
-  const paths: GetStaticPathsResult['paths'] = chapters.map((chapter) => {
-    const { category, slug } = chapter;
-    return { params: { category, chapter: slug } };
-  });
-  return { fallback: false, paths };
-};
+export const getStaticPaths: GetStaticPaths = () => ({
+  fallback: false,
+  paths: CHAPTERS.ROUTES.map((route) => ({ params: route })),
+});
 
-type Query = ParsedUrlQuery & {
+type Query = {
   category: string;
   chapter: string;
 };
@@ -56,7 +42,7 @@ export const getStaticProps: GetStaticProps<Props, Query> = async ({
   return {
     props: {
       chapter: await getChapter(category, chapter),
-      menu: getMenu(),
+      menu: MENU,
     },
   };
 };

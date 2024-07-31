@@ -10,13 +10,16 @@ import {
   type FunctionComponent,
   type PropsWithChildren,
 } from 'react';
+import { z } from 'zod';
 
 import { BackToTop } from '@/components/BackToTop/BackToTop';
 import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
+import { CATEGORIES } from '@/tools/markdown/constants';
 import { type MenuEntry } from '@/tools/markdown/types';
+import { union } from '@/tools/z/union';
 
 type Props = PropsWithChildren & {
   background?: string;
@@ -40,6 +43,13 @@ export const Layout: FunctionComponent<Props> = ({
   const isDesktop = useMediaQuery(theme.breakpoints.up('md'));
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const isClear = !!background;
+  // TODO Pretty sure this can fail client side until migration to `app` router
+  const category = z
+    .preprocess(
+      (value) => (typeof value === 'string' ? value.toUpperCase() : value),
+      union(CATEGORIES).optional(),
+    )
+    .parse(router.query.category);
 
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
 
@@ -81,7 +91,7 @@ export const Layout: FunctionComponent<Props> = ({
         withProgress={withProgress}
       />
       <Sidebar
-        category={router.query.category && (router.query.category as string)}
+        category={category}
         menu={menu}
         isClear={isClear}
         isMobile={!isDesktop}

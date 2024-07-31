@@ -11,9 +11,10 @@ import { type SxProps } from '@mui/system';
 import { useEffect, useState, type FunctionComponent } from 'react';
 
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
+import { type CATEGORIES } from '@/tools/markdown/constants';
 
 type Props = {
-  category: string | undefined;
+  category: (typeof CATEGORIES)[number] | undefined;
   sx?: SxProps<Theme>;
 };
 

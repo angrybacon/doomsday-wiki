@@ -1,5 +1,4 @@
 import { getCard } from '@/tools/game/getCard';
-import { Category } from '@/tools/markdown/constants/Category';
 
 describe(getCard.name, () => {
   it('should return the name of a known acronym', () => {
@@ -15,7 +14,7 @@ describe(getCard.name, () => {
     const { name, categories } = getCard('AoI');
     // Then
     expect(name).toBe('Act on Impulse');
-    expect(categories).toStrictEqual([Category.DDEFT, Category.DDFT]);
+    expect(categories).toStrictEqual(['DDEFT', 'DDFT']);
   });
 
   it('should handle unknown acronyms', () => {

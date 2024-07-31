@@ -7,14 +7,14 @@ import { type ExtraProps } from 'react-markdown';
 import { Card } from '@/components/Card/Card';
 import { gutters } from '@/theme/tools/gutters';
 import { type ScryCard } from '@/tools/scryfall/types';
+import { union } from '@/tools/z/union';
 
-const VARIANTS = {
-  CENTERED: 'CENTERED',
-  PILE: 'PILE',
-} as const;
+const VARIANTS = ['CENTERED', 'PILE'] as const;
+
+const VARIANTS_SCHEMA = union(VARIANTS).optional();
 
 const STYLES: Record<
-  keyof typeof VARIANTS,
+  (typeof VARIANTS)[number],
   (theme: Theme) => SystemStyleObject<Theme>
 > = {
   CENTERED: ({ mixins }) => ({
@@ -45,10 +45,13 @@ export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
     console.error('Missing cards for row', node);
     return null;
   }
-  if (variant && !Object.keys(VARIANTS).includes(variant)) {
-    console.error('Unknown variant for row', node);
+  let style: (typeof VARIANTS)[number] = 'CENTERED';
+  const { data, error } = VARIANTS_SCHEMA.safeParse(variant);
+  if (error) {
+    console.error(`Unknown variant "${variant}" for row`);
+  } else if (data) {
+    style = data;
   }
-  const style = VARIANTS[variant as keyof typeof VARIANTS] || VARIANTS.CENTERED;
   return (
     <Box sx={({ mixins }) => mixins.barf}>
       <Box

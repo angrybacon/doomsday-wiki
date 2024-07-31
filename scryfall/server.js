@@ -20,7 +20,7 @@ const handler = async (request, response) => {
       return it.text();
     });
     CACHE.set(request.url, promise);
-    if (process.env.SCRYFALL_DEBUG) {
+    if (process.env.DEBUG) {
       console.info(`Cached request for "${request.url}"`);
     }
   }
@@ -31,10 +31,12 @@ const handler = async (request, response) => {
   } catch (error) {
     response.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
     // TODO Retrieve error details from API response
-    response.write(`Error while reading "${request.url}" (${error})`);
+    const message = `Error in response for "${request.url}" (${error})`;
+    response.write(message);
+    console.error(message);
   } finally {
     response.end();
-    if (process.env.SCRYFALL_DEBUG) {
+    if (process.env.DEBUG) {
       console.count(`GET ${request.url}`);
     }
   }

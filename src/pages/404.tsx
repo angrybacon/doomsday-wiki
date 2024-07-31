@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import { type GetStaticProps, type NextPage } from 'next';
 
 import { Layout } from '@/components/Layout/Layout';
-import { getMenu } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/getMenu';
 import { type MenuEntry } from '@/tools/markdown/types';
 
 type Props = {
@@ -19,7 +19,7 @@ const Page: NextPage<Props> = ({ menu }) => (
 
 export const getStaticProps: GetStaticProps<Props> = () => ({
   props: {
-    menu: getMenu(),
+    menu: MENU,
   },
 });
 

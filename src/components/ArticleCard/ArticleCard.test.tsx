@@ -2,7 +2,6 @@ import { render, screen } from '@testing-library/react';
 import { type ComponentProps } from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
-import { Kind } from '@/tools/markdown/constants/Kind';
 
 jest.mock('@/components/ArticleChip/ArticleChip', () => ({
   ArticleChip: 'div',
@@ -24,7 +23,7 @@ describe(ArticleCard.name, () => {
       matter: {
         authors: 'Firstname Lastname',
         banner: 'banner',
-        kind: Kind.ARTICLE,
+        kind: 'ARTICLE',
         tags: [],
         title: 'Article Title',
       },

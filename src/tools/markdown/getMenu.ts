@@ -1,23 +1,48 @@
-import { type Category } from '@/tools/markdown/constants/Category';
-import { DECORATIONS } from '@/tools/markdown/constants/Menu';
 import { getChapterCards } from '@/tools/markdown/getChapterCards';
-import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
+import {
+  type ChapterCard,
+  type MenuDecoration,
+  type MenuEntry,
+} from '@/tools/markdown/types';
+
+/** List the menu entries and their corresponding decorations in order. */
+const DECORATIONS: MenuDecoration[] = [
+  {
+    category: 'MEANDECK',
+    subtitle: 'Force of Will Doomsday',
+    title: 'Doomsday',
+  },
+  {
+    category: 'DDFT',
+    subtitle: 'Doomsday Fetchland Tendrils',
+    title: 'DDFT',
+  },
+  {
+    category: 'ENTOMBSDAY',
+    subtitle: 'Tin Fins Hybrid',
+    title: 'Entombsday',
+  },
+  {
+    category: 'APPENDICES',
+    subtitle: 'Other Resources',
+    title: 'Appendices',
+  },
+];
 
 /**
  * Read file system and return a structured list of all chapters within their
  * respective categories.
  */
-export const getMenu = (): MenuEntry[] => {
-  const cards = getChapterCards();
-  const menu = cards.reduce<Partial<Record<Category, ChapterCard[]>>>(
-    (accumulator, card) => {
-      const { category } = card;
-      accumulator[category] = accumulator[category] || [];
-      (accumulator[category] as ChapterCard[]).push(card);
-      return accumulator;
-    },
-    {},
-  );
+const getMenu = async (): Promise<MenuEntry[]> => {
+  const cards = await getChapterCards();
+  const menu = cards.reduce<
+    Partial<Record<ChapterCard['category'], ChapterCard[]>>
+  >((accumulator, card) => {
+    const { category } = card;
+    accumulator[category] = accumulator[category] || [];
+    accumulator[category].push(card);
+    return accumulator;
+  }, {});
   return DECORATIONS.map(({ category, subtitle, title }) => {
     const pages = menu[category];
     if (!pages) {
@@ -28,3 +53,6 @@ export const getMenu = (): MenuEntry[] => {
     return { category, subtitle, title, pages };
   });
 };
+
+/** A structured list of all chapters within their respective categories. */
+export const MENU = await getMenu();
