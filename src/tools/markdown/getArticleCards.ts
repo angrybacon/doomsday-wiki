@@ -2,7 +2,7 @@ import { join } from 'node:path';
 import { read } from '@korumite/kiwi/server';
 
 import { formatDate } from '@/tools/io/formatDate';
-import { ARTICLES, BASE_URLS } from '@/tools/markdown/constants/Files';
+import { ARTICLES, BASE_URLS } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { readArticleMatter } from '@/tools/markdown/readMatter';
 import {

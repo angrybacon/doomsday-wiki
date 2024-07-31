@@ -1,6 +1,33 @@
-import { DECORATIONS } from '@/tools/markdown/constants/Menu';
 import { getChapterCards } from '@/tools/markdown/getChapterCards';
-import { type ChapterCard, type MenuEntry } from '@/tools/markdown/types';
+import {
+  type ChapterCard,
+  type MenuDecoration,
+  type MenuEntry,
+} from '@/tools/markdown/types';
+
+/** List the menu entries and their corresponding decorations in order. */
+const DECORATIONS: MenuDecoration[] = [
+  {
+    category: 'MEANDECK',
+    subtitle: 'Force of Will Doomsday',
+    title: 'Doomsday',
+  },
+  {
+    category: 'DDFT',
+    subtitle: 'Doomsday Fetchland Tendrils',
+    title: 'DDFT',
+  },
+  {
+    category: 'ENTOMBSDAY',
+    subtitle: 'Tin Fins Hybrid',
+    title: 'Entombsday',
+  },
+  {
+    category: 'APPENDICES',
+    subtitle: 'Other Resources',
+    title: 'Appendices',
+  },
+];
 
 /**
  * Read file system and return a structured list of all chapters within their

@@ -31,7 +31,9 @@ const handler = async (request, response) => {
   } catch (error) {
     response.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
     // TODO Retrieve error details from API response
-    response.write(`Error while reading "${request.url}" (${error})`);
+    const message = `Error in response for "${request.url}" (${error})`;
+    response.write(message);
+    console.error(message);
   } finally {
     response.end();
     if (process.env.DEBUG) {

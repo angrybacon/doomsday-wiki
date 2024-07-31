@@ -2,9 +2,9 @@ import { Chip, type ChipProps } from '@mui/material';
 import { alpha } from '@mui/material/styles';
 import { type FunctionComponent } from 'react';
 
-import { type Kind } from '@/tools/markdown/constants/Kind';
+import { type KINDS } from '@/tools/markdown/constants';
 
-const KIND_TO_LABEL: Record<keyof typeof Kind, string> = {
+const KIND_TO_LABEL: Record<(typeof KINDS)[number], string> = {
   ARTICLE: 'Article',
   PRIMER: 'Primer',
   REPORT: 'Report',
@@ -13,7 +13,7 @@ const KIND_TO_LABEL: Record<keyof typeof Kind, string> = {
 type Props = Omit<ChipProps, 'label'> &
   (
     | { kind?: never; label: string }
-    | { kind: keyof typeof Kind; label?: never }
+    | { kind: (typeof KINDS)[number]; label?: never }
   );
 
 export const ArticleChip: FunctionComponent<Props> = ({

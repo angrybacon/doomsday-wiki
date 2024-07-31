@@ -4,7 +4,7 @@ import { type GetStaticPaths, type GetStaticProps, type NextPage } from 'next';
 import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
-import { CHAPTERS } from '@/tools/markdown/constants/Files';
+import { CHAPTERS } from '@/tools/markdown/files';
 import { getChapter } from '@/tools/markdown/getMarkdown';
 import { MENU } from '@/tools/markdown/getMenu';
 import { type Chapter, type MenuEntry } from '@/tools/markdown/types';

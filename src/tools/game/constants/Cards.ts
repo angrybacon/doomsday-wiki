@@ -1,7 +1,7 @@
-import { type Category } from '@/tools/markdown/constants/Category';
+import { type CATEGORIES } from '@/tools/markdown/constants';
 
 /** Commonly used acronyms and their corresponding category. */
-export const CARDS: Record<string, [string, (keyof typeof Category)[]]> =
+export const CARDS: Record<string, [string, (typeof CATEGORIES)[number][]]> =
   // prettier-ignore
   {
     AoI:  ['Act on Impulse',            ['DDEFT', 'DDFT']],

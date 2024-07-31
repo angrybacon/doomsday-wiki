@@ -2,7 +2,7 @@ import { join } from 'node:path';
 import { read } from '@korumite/kiwi/server';
 
 import { type Decklists } from '@/tools/decklists/types';
-import { BASE_URLS } from '@/tools/markdown/constants/Files';
+import { BASE_URLS } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import {
   readArticleMatter,

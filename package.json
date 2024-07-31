@@ -17,7 +17,7 @@
     "lint:format": "pnpm run '/^lint:format:\\w+$/'",
     "lint:format:code": "prettier --check --log-level warn puzzles/ scryfall/ src/",
     "lint:format:wiki": "prettier --check --log-level warn markdown/",
-    "lint:prune": "knip --exclude enumMembers",
+    "lint:prune": "knip",
     "lint:typings": "tsc",
     "lint:wiki": "markdownlint --config markdownlint.config.js markdown/",
     "scryfall": "node ./scryfall/server.js",

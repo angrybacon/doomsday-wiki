@@ -1,7 +1,6 @@
 import { z } from 'zod';
 
-import { Kind } from '@/tools/markdown/constants/Kind';
-import { Tag } from '@/tools/markdown/constants/Tag';
+import { KINDS, TAGS } from '@/tools/markdown/constants';
 import { type ArticleMatter, type ChapterMatter } from '@/tools/markdown/types';
 import { union } from '@/tools/z/union';
 
@@ -12,10 +11,10 @@ export const readArticleMatter: ReadMatter<ArticleMatter> = (data) =>
     .object({
       authors: z.string(),
       banner: z.string(),
-      kind: union(Object.keys(Kind) as (keyof typeof Kind)[]),
+      kind: union(KINDS),
       tags: z.preprocess(
         (value) => (Array.isArray(value) ? value : [value]),
-        union(Object.keys(Tag) as (keyof typeof Tag)[]).array(),
+        union(TAGS).array(),
       ),
       title: z.string(),
     })

@@ -12,25 +12,22 @@ export const BASE_URLS = {
   ROOT: BASE_URL,
 } as const;
 
-const SCHEMAS = {
-  ARTICLES: z
-    .tuple([z.string(), z.string(), z.string(), z.string()])
-    .refine((_): _ is [y: string, m: string, d: string, slug: string] => true)
-    .array(),
-  CHAPTERS: z
-    .tuple([z.string(), z.string()])
-    .refine((_): _ is [chapter: string, slug: string] => true)
-    .array(),
-} as const;
-
-const ARTICLES_TREE = SCHEMAS.ARTICLES.parse(walk(BASE_URLS.ARTICLES));
+const ARTICLES_TREE = z
+  .tuple([z.string(), z.string(), z.string(), z.string()])
+  .refine((_): _ is [y: string, m: string, d: string, slug: string] => true)
+  .array()
+  .parse(walk(BASE_URLS.ARTICLES));
 
 export const ARTICLES = {
   ROUTES: makeNextRoutes(ARTICLES_TREE, ['year', 'month', 'day', 'article']),
   TREE: ARTICLES_TREE,
 } as const;
 
-const CHAPTERS_TREE = SCHEMAS.CHAPTERS.parse(walk(BASE_URLS.CHAPTERS));
+const CHAPTERS_TREE = z
+  .tuple([z.string(), z.string()])
+  .refine((_): _ is [chapter: string, slug: string] => true)
+  .array()
+  .parse(walk(BASE_URLS.CHAPTERS));
 
 export const CHAPTERS = {
   ROUTES: makeNextRoutes(CHAPTERS_TREE, ['category', 'chapter']),

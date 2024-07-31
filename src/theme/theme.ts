@@ -17,7 +17,7 @@ import { deepmerge } from '@mui/utils';
 import { barf } from '@/theme/tools/barf';
 import { gutters } from '@/theme/tools/gutters';
 import { toolbarMargin } from '@/theme/tools/toolbarMargin';
-import { type Kind } from '@/tools/markdown/constants/Kind';
+import { type KINDS } from '@/tools/markdown/constants';
 
 import '@fontsource/libre-baskerville';
 
@@ -26,12 +26,12 @@ import '@fontsource/libre-baskerville';
 declare module '@mui/material/styles' {
   interface Palette {
     dividerOpaque: string;
-    document: Record<keyof typeof Kind, string>;
+    document: Record<(typeof KINDS)[number], string>;
   }
 
   interface PaletteOptions {
     dividerOpaque: string;
-    document: Record<keyof typeof Kind, string>;
+    document: Record<(typeof KINDS)[number], string>;
   }
 
   interface Theme {

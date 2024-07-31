@@ -14,12 +14,11 @@ export const getBanner = async (query: string): Promise<Banner> => {
   if (!art || !artPreview) {
     throw new Error(`Missing card art for banner "${name}"`);
   }
-  const banner: Banner = {
+  return {
     art,
     artPreview,
     flavor,
     // TODO Pass down name and artist separately
     title: `"${name}" by ${artist}`,
   };
-  return banner;
 };

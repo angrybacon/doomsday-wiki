@@ -1,14 +1,18 @@
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
-import { type Category } from '@/tools/markdown/constants/Category';
+import { type CATEGORIES } from '@/tools/markdown/constants';
 
 describe(getRosetta.name, () => {
-  const tests: [category: `${Category}` | undefined, ok: string, ko: string][] =
+  const tests: [
+    category: (typeof CATEGORIES)[number] | undefined,
+    ok: string,
+    ko: string,
+  ][] =
     // prettier-ignore
     [
-      ['appendices', 'Brainstorm',     'Consider'],
-      ['ddft',       'Echo of Eons',   'Predict'],
-      ['ddeft',      'Act on Impulse', 'Echo of Eons'],
-      ['meandeck',   'Predict',        'Manamorphose'],
+      ['APPENDICES', 'Brainstorm',     'Consider'],
+      ['DDFT',       'Echo of Eons',   'Predict'],
+      ['DDEFT',      'Act on Impulse', 'Echo of Eons'],
+      ['MEANDECK',   'Predict',        'Manamorphose'],
       [undefined,    'Brainstorm',     'Consider'],
     ];
 

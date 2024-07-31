@@ -18,10 +18,11 @@ import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { darkTheme } from '@/theme/theme';
+import { type CATEGORIES } from '@/tools/markdown/constants';
 import { type MenuEntry } from '@/tools/markdown/types';
 
 type Props = {
-  category: string | undefined;
+  category: (typeof CATEGORIES)[number] | undefined;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
