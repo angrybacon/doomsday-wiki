@@ -1,7 +1,6 @@
 ---
 authors: UnOrthodoxBird
 banner: EF
-order: 0
 title: The Basics
 ---
 

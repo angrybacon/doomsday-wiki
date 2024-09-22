@@ -1,7 +1,6 @@
 ---
 authors: Nevilshute, Hulahula, Emidln, Monkeyscantcry, Romariovidal, Doishy
 banner: Pyroblast
-order: 6
 title: Sideboarding
 ---
 

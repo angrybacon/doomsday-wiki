@@ -65,7 +65,6 @@ export type ArticleMatter = {
 
 export type ChapterMatter = {
   banner: string;
-  order?: number;
   title: string;
 };
 

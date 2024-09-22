@@ -24,7 +24,6 @@ export const readChapterMatter: ReadMatter<ChapterMatter> = (data) =>
   z
     .object({
       banner: z.string(),
-      order: z.number().nonnegative().optional(),
       title: z.string(),
     })
     .parse(data);
