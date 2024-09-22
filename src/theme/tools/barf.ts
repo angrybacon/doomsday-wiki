@@ -1,7 +1,7 @@
-import { type Theme } from '@mui/material/styles';
-import { type CSSProperties } from '@mui/material/styles/createMixins';
+import { type Theme } from '@mui/material';
+import { type SystemStyleObject } from '@mui/system';
 
-export const barf = ({ breakpoints, spacing }: Theme): CSSProperties => ({
+export const barf = ({ breakpoints, spacing }: Theme): SystemStyleObject => ({
   marginLeft: spacing(-4),
   marginRight: spacing(-4),
   width: 'auto',

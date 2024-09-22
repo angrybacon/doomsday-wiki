@@ -1,42 +1,36 @@
-import { Box, Container } from '@mui/material';
-import { useTheme, type Theme } from '@mui/material/styles';
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { type SxProps } from '@mui/system';
+import { Box, Container, useMediaQuery, useTheme } from '@mui/material';
 import { useRouter } from 'next/router';
 import {
   useCallback,
   useEffect,
   useState,
-  type FunctionComponent,
   type PropsWithChildren,
 } from 'react';
-import { z } from 'zod';
 
 import { BackToTop } from '@/components/BackToTop/BackToTop';
 import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
-import { CATEGORIES } from '@/tools/markdown/constants';
-import { type MenuEntry } from '@/tools/markdown/types';
-import { union } from '@/tools/z/union';
+import { type MENU } from '@/tools/markdown/menu';
+import { zChapter } from '@/tools/z/schemas';
 
-type Props = PropsWithChildren & {
+type Props = {
   background?: string;
-  menu: MenuEntry[];
+  menu: typeof MENU;
   title: string;
   withBackToTop?: boolean;
   withProgress?: boolean;
 };
 
-export const Layout: FunctionComponent<Props> = ({
+export const Layout = ({
   background,
   children,
   menu,
   title,
   withBackToTop = false,
   withProgress = false,
-}) => {
+}: PropsWithChildren<Props>) => {
   const router = useRouter();
   const theme = useTheme();
   // NOTE Prefer `up` over `down` to avoid flickering
@@ -44,12 +38,7 @@ export const Layout: FunctionComponent<Props> = ({
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const isClear = !!background;
   // TODO Pretty sure this can fail client side until migration to `app` router
-  const category = z
-    .preprocess(
-      (value) => (typeof value === 'string' ? value.toUpperCase() : value),
-      union(CATEGORIES).optional(),
-    )
-    .parse(router.query.category);
+  const category = zChapter.optional().parse(router.query.category);
 
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
 
@@ -60,30 +49,30 @@ export const Layout: FunctionComponent<Props> = ({
     return () => router.events.off('routeChangeStart', closeSidebar);
   }, [closeSidebar, router]);
 
-  const sx: SxProps<Theme> = [
-    { display: 'flex', flexDirection: 'column', minHeight: '100%' },
-    background !== undefined && {
-      backgroundImage: `url(${background})`,
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      color: 'white',
-      position: 'relative',
-      '&:before': {
-        backdropFilter: 'blur(4px)',
-        bottom: 0,
-        content: '""',
-        display: 'block',
-        left: 0,
-        position: 'absolute',
-        right: 0,
-        top: 0,
-      },
-    },
-  ];
-
   return (
-    <Box sx={sx}>
+    <Box
+      sx={[
+        { display: 'flex', flexDirection: 'column', minHeight: '100%' },
+        background !== undefined && {
+          backgroundImage: `url(${background})`,
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          color: 'white',
+          position: 'relative',
+          '&:before': {
+            backdropFilter: 'blur(4px)',
+            bottom: 0,
+            content: '""',
+            display: 'block',
+            left: 0,
+            position: 'absolute',
+            right: 0,
+            top: 0,
+          },
+        },
+      ]}
+    >
       <Title title={title} />
       <Header
         isMobile={!isDesktop}

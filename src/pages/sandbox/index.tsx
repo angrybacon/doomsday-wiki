@@ -3,10 +3,10 @@ import {
   Card,
   CardContent,
   Divider,
+  Stack,
   TextField,
   Typography,
 } from '@mui/material';
-import { Stack } from '@mui/system';
 import { type GetStaticProps, type NextPage } from 'next';
 import { useEffect, useState, type ChangeEvent } from 'react';
 
@@ -26,7 +26,7 @@ type Props = {
 };
 
 const Page: NextPage<Props> = ({ menu }) => {
-  const [input, setInput] = useState<string>(DEFAULT_INPUT);
+  const [input, setInput] = useState(DEFAULT_INPUT);
   const [output, setOutput] = useState<{ id: number; text: string }[]>([]);
 
   const onChange = ({ target }: ChangeEvent<HTMLInputElement>) =>

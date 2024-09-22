@@ -1,5 +1,4 @@
-import { Chip, type ChipProps } from '@mui/material';
-import { alpha } from '@mui/material/styles';
+import { alpha, Chip, type ChipProps } from '@mui/material';
 import { type FunctionComponent } from 'react';
 
 import { type KINDS } from '@/tools/markdown/constants';

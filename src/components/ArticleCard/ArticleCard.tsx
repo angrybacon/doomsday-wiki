@@ -1,5 +1,10 @@
-import { Card, CardActionArea, CardContent, Typography } from '@mui/material';
-import { alpha } from '@mui/material/styles';
+import {
+  alpha,
+  Card,
+  CardActionArea,
+  CardContent,
+  Typography,
+} from '@mui/material';
 import NextLink from 'next/link';
 import { type FunctionComponent } from 'react';
 

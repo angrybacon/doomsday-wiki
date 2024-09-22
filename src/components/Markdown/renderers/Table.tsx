@@ -1,4 +1,5 @@
 import {
+  alpha,
   Table as MuiTable,
   TableBody as MuiTableBody,
   TableCell as MuiTableCell,
@@ -6,7 +7,6 @@ import {
   TableHead as MuiTableHead,
   TableRow as MuiTableRow,
 } from '@mui/material';
-import { alpha } from '@mui/material/styles';
 import { type ReactElement } from 'react';
 import { type Components, type ExtraProps } from 'react-markdown';
 

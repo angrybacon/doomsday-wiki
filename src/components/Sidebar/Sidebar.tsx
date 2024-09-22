@@ -4,15 +4,11 @@ import {
   Drawer,
   drawerClasses,
   List,
+  ThemeProvider as MuiThemeProvider,
   type DrawerProps,
 } from '@mui/material';
-import {
-  ThemeProvider as MuiThemeProvider,
-  type Theme,
-} from '@mui/material/styles';
-import { type SxProps } from '@mui/system';
 import NextLink from 'next/link';
-import { type FunctionComponent, type ReactNode } from 'react';
+import { type FunctionComponent } from 'react';
 
 import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
@@ -38,27 +34,6 @@ export const Sidebar: FunctionComponent<Props> = ({
   menu,
   onClose,
 }) => {
-  const sx: SxProps<Theme> = ({ drawer }) => ({
-    [`.${drawerClasses.paper}`]: [
-      { width: drawer.width },
-      isClear && !isMobile && { background: 'none' },
-    ],
-  });
-
-  const sxBody: SxProps<Theme> = [
-    { color: 'text.primary', flexGrow: 1, overflowY: 'auto' },
-    isClear && !isMobile && { backdropFilter: 'blur(24px)' },
-  ];
-
-  const sxHeader: SxProps<Theme> = [
-    { backgroundColor: ({ palette }) => palette.background.paper },
-    (!isClear || isMobile) && {
-      borderBottomColor: ({ palette }) => palette.divider,
-      borderBottomStyle: 'solid',
-      borderBottomWidth: 1,
-    },
-  ];
-
   const drawerProps: DrawerProps = isMobile
     ? {
         ModalProps: { keepMounted: true },
@@ -68,8 +43,13 @@ export const Sidebar: FunctionComponent<Props> = ({
       }
     : { open: true, variant: 'permanent' };
 
-  const body: ReactNode = (
-    <Box sx={sxBody}>
+  const body = (
+    <Box
+      sx={[
+        { color: 'text.primary', flexGrow: 1, overflowY: 'auto' },
+        isClear && !isMobile && { backdropFilter: 'blur(24px)' },
+      ]}
+    >
       <List component="nav" dense>
         {menu.map((entry) => (
           <SidebarEntry key={`entry-${entry.category}`} {...entry} />
@@ -87,8 +67,22 @@ export const Sidebar: FunctionComponent<Props> = ({
   );
 
   return (
-    <Drawer sx={sx} {...drawerProps}>
-      <SidebarHeader sx={sxHeader} onClose={onClose} />
+    <Drawer
+      sx={({ drawer }) => ({
+        [`.${drawerClasses.paper}`]: [
+          { width: drawer.width },
+          isClear && !isMobile && { background: 'none' },
+        ],
+      })}
+      {...drawerProps}
+    >
+      <SidebarHeader
+        sx={[
+          { backgroundColor: 'background.paper' },
+          (!isClear || isMobile) && { borderBottom: 1, borderColor: 'divider' },
+        ]}
+        onClose={onClose}
+      />
       {isClear && !isMobile ? (
         <MuiThemeProvider theme={darkTheme}>{body}</MuiThemeProvider>
       ) : (

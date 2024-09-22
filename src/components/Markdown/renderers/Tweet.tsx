@@ -22,9 +22,9 @@ type Props = ExtraProps & {
 };
 
 export const Tweet: FunctionComponent<Props> = ({ id, node }) => {
-  const [hasError, setHasError] = useState<boolean>(false);
-  const [height, setHeight] = useState<number>(700);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [hasError, setHasError] = useState(false);
+  const [height, setHeight] = useState(700);
+  const [isLoading, setIsLoading] = useState(true);
   const tweet = useRef<HTMLDivElement>(null);
   const { inView, ref: root } = useInView({
     fallbackInView: true,

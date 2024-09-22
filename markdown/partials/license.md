@@ -5,10 +5,10 @@ title: Licenses and Resources
 The Wiki is unofficial _Magic: the Gathering_ fan content permitted under the
 [Fan Content Policy][wizards:fcp]. Portions of the materials used such as mana
 symbols and game mechanics are property of _Wizards of the Coast_. Card arts are
-made available from unaltered [Scryfall's API][scryfall:api] and are copyright
-_Wizard of the Coast_ or their respective artist for older sets. For cropped
-arts where the artist line of a card is not visible, the artists are mentioned
-in the accessible text.
+made available from the unaltered [Scryfall's API][scryfall:api] and are
+copyright _Wizard of the Coast_ or their respective artists for older sets. For
+cropped arts where the artist line of a card is not visible, the artists are
+mentioned in the accessible text.
 
 Mana symbols are rendered using the _Mana_ icon font made available by [Andrew
 Gioia][mana]. See their section about licensing for more details.

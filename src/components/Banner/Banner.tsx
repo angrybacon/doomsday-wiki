@@ -1,5 +1,4 @@
-import { Box, Divider, Typography } from '@mui/material';
-import { alpha } from '@mui/material/styles';
+import { alpha, Box, Divider, Typography } from '@mui/material';
 import Image from 'next/image';
 import { type FunctionComponent } from 'react';
 

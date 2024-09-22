@@ -1,6 +1,4 @@
-import { Box, Fade, Tooltip } from '@mui/material';
-import { type Theme } from '@mui/material/styles';
-import { type SxProps } from '@mui/system';
+import { Box, Fade, Tooltip, type SxProps } from '@mui/material';
 import { type FunctionComponent, type ReactNode } from 'react';
 
 import { type ScryCard } from '@/tools/scryfall/types';
@@ -8,7 +6,7 @@ import { type ScryCard } from '@/tools/scryfall/types';
 type Props = {
   active: boolean;
   data: ScryCard;
-  sx?: SxProps<Theme>;
+  sx?: SxProps;
 };
 
 export const CardFace: FunctionComponent<Props> = ({ active, data, sx }) => {

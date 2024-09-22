@@ -1,7 +1,6 @@
 import { mdiCached } from '@mdi/js';
 import Icon from '@mdi/react';
-import { Box, IconButton } from '@mui/material';
-import { alpha } from '@mui/material/styles';
+import { alpha, Box, IconButton } from '@mui/material';
 import { useState, type FunctionComponent, type ReactNode } from 'react';
 
 import { CardFace } from '@/components/Card/CardFace';
@@ -12,7 +11,7 @@ type Props = {
 };
 
 export const Card: FunctionComponent<Props> = ({ data }) => {
-  const [selectedFace, setSelectedFace] = useState<number>(0);
+  const [selectedFace, setSelectedFace] = useState(0);
 
   /** Toggle index between 0 and 1. */
   const onFlip = () => setSelectedFace((previous) => 1 - previous);

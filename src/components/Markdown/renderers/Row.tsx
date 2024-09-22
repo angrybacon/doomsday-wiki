@@ -1,5 +1,4 @@
-import { Box } from '@mui/material';
-import { alpha, type Theme } from '@mui/material/styles';
+import { alpha, Box, type Theme } from '@mui/material';
 import { type SystemStyleObject } from '@mui/system';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';

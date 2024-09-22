@@ -6,10 +6,10 @@ import {
   AccordionDetails,
   AccordionSummary,
   accordionSummaryClasses,
+  alpha,
   Box,
   Typography,
 } from '@mui/material';
-import { alpha } from '@mui/material/styles';
 import { type FunctionComponent } from 'react';
 
 import { Column } from '@/components/Decklist/Column';

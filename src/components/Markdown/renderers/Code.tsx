@@ -1,5 +1,4 @@
-import { Box, type PaletteMode } from '@mui/material';
-import { alpha, useTheme } from '@mui/material/styles';
+import { alpha, Box, useTheme, type PaletteMode } from '@mui/material';
 import {
   type Component,
   type FunctionComponent,

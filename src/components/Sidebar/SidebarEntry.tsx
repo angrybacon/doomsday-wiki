@@ -37,7 +37,6 @@ export const SidebarEntry: FunctionComponent<Props> = forwardRef<
   const hasPages = pages.length > 0;
   const [isOpen, setIsOpen] = useState(hasPages && category === routeCategory);
 
-  /** Toggle the drawer in mobile viewport. */
   const onToggle = () => setIsOpen((previous) => !previous);
 
   return (
