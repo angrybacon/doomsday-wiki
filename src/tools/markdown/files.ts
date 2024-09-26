@@ -1,6 +1,8 @@
 import { join } from 'node:path';
-import { makeNextRoutes, walk } from '@korumite/kiwi/server';
+import { makeCards, makeNextRoutes, walk } from '@korumite/kiwi/server';
 import { z } from 'zod';
+
+import { zCategory, zChapter } from '@/tools/z/schemas';
 
 /** @deprecated Use `BASE_URLS.ROOT` instead. */
 const BASE_URL = join(process.cwd(), 'markdown');
@@ -30,6 +32,18 @@ const CHAPTERS_TREE = z
   .parse(walk(BASE_URLS.CHAPTERS));
 
 export const CHAPTERS = {
+  CARDS: await makeCards(
+    { paths: CHAPTERS_TREE, root: BASE_URLS.CHAPTERS },
+    {
+      banner: ({ matter, path }) =>
+        z
+          .string({ required_error: `Missing banner in '${path}'` })
+          .parse(matter.banner),
+      category: ({ crumbs }) => zCategory.parse(crumbs[0]),
+      chapter: ({ crumbs }) => zChapter.parse(crumbs[0]),
+      slug: ({ crumbs }) => z.string().parse(crumbs[1]),
+    },
+  ),
   ROUTES: makeNextRoutes(CHAPTERS_TREE, ['category', 'chapter']),
   TREE: CHAPTERS_TREE,
 } as const;

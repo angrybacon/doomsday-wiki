@@ -7,22 +7,37 @@ import {
   ThemeProvider as MuiThemeProvider,
   type DrawerProps,
 } from '@mui/material';
-import NextLink from 'next/link';
 import { type FunctionComponent } from 'react';
 
-import { SidebarEntry } from '@/components/Sidebar/SidebarEntry';
+import { Entry } from '@/components/Sidebar/Entry';
+import { EntryAsLink } from '@/components/Sidebar/EntryAsLink';
 import { SidebarHeader } from '@/components/Sidebar/SidebarHeader';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { darkTheme } from '@/theme/theme';
 import { type CATEGORIES } from '@/tools/markdown/constants';
-import { type MenuEntry } from '@/tools/markdown/types';
+import { type MENU } from '@/tools/markdown/menu';
+
+/**
+ * Decorate menu entries with a pretty title and subtitle.
+ * Omitting an entry simply hides it from the menu.
+ */
+const DECORATIONS: Partial<
+  Record<(typeof CATEGORIES)[number], { subtitle: string; title: string }>
+> =
+  // prettier-ignore
+  {
+  APPENDICES: { subtitle: 'Other Resources',             title: 'Appendices' },
+  DDFT:       { subtitle: 'Doomsday Fetchland Tendrils', title: 'DDFT' },
+  ENTOMBSDAY: { subtitle: 'Tin Fins Hybrid',             title: 'Entombsday' },
+  MEANDECK:   { subtitle: 'Force of Will Doomsday',      title: 'Doomsday' },
+};
 
 type Props = {
   category: (typeof CATEGORIES)[number] | undefined;
   isClear: boolean;
   isMobile?: boolean;
   isOpen?: boolean;
-  menu: MenuEntry[];
+  menu: typeof MENU;
   onClose: () => void;
 };
 
@@ -51,11 +66,18 @@ export const Sidebar: FunctionComponent<Props> = ({
       ]}
     >
       <List component="nav" dense>
-        {menu.map((entry) => (
-          <SidebarEntry key={`entry-${entry.category}`} {...entry} />
-        ))}
-        <SidebarEntry
-          component={NextLink}
+        {menu.map(
+          (entry) =>
+            DECORATIONS[entry.id] && (
+              <Entry
+                chapter={entry.id}
+                key={`entry-${entry.id}`}
+                pages={entry.pages}
+                {...DECORATIONS[entry.id]}
+              />
+            ),
+        )}
+        <EntryAsLink
           href="/articles"
           subtitle="Article Archive"
           title="Articles"

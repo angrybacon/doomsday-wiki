@@ -13,7 +13,7 @@ import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { Title } from '@/components/Title/Title';
 import { type MENU } from '@/tools/markdown/menu';
-import { zChapter } from '@/tools/z/schemas';
+import { zCategory } from '@/tools/z/schemas';
 
 type Props = {
   background?: string;
@@ -38,7 +38,7 @@ export const Layout = ({
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const isClear = !!background;
   // TODO Pretty sure this can fail client side until migration to `app` router
-  const category = zChapter.optional().parse(router.query.category);
+  const category = zCategory.optional().parse(router.query.category);
 
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
 

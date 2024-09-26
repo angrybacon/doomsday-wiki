@@ -6,17 +6,13 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { ARTICLES } from '@/tools/markdown/files';
 import { getArticle, getMarkdown } from '@/tools/markdown/getMarkdown';
-import { MENU } from '@/tools/markdown/getMenu';
-import {
-  type Article,
-  type MenuEntry,
-  type Partial,
-} from '@/tools/markdown/types';
+import { MENU } from '@/tools/markdown/menu';
+import { type Article, type Partial } from '@/tools/markdown/types';
 
 type Props = {
   article: Article;
   footer: Partial;
-  menu: MenuEntry[];
+  menu: typeof MENU;
 };
 
 const Page: NextPage<Props> = ({ article, footer, menu }) => (

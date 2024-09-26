@@ -7,10 +7,9 @@ import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';
-import { MENU } from '@/tools/markdown/getMenu';
+import { MENU } from '@/tools/markdown/menu';
 import {
   type ArticleCard as ArticleCardModel,
-  type MenuEntry,
   type Partial,
 } from '@/tools/markdown/types';
 
@@ -18,7 +17,7 @@ const ARTICLES_INITIAL_SIZE = 5;
 
 type Props = {
   articles: ArticleCardModel[];
-  menu: MenuEntry[];
+  menu: typeof MENU;
   welcome: Partial;
 };
 

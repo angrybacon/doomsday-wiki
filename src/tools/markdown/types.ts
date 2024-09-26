@@ -1,9 +1,5 @@
 import { type Decklists } from '@/tools/decklists/types';
-import {
-  type CATEGORIES,
-  type KINDS,
-  type TAGS,
-} from '@/tools/markdown/constants';
+import { type KINDS, type TAGS } from '@/tools/markdown/constants';
 import { type Scries } from '@/tools/scryfall/types';
 
 export type Banner = {
@@ -29,10 +25,6 @@ export type ArticleCard = Card<ArticleMatter> & {
   year: string;
 };
 
-export type ChapterCard = Card<ChapterMatter> & {
-  category: (typeof CATEGORIES)[number];
-};
-
 // Documents ///////////////////////////////////////////////////////////////////
 
 export type Partial = {
@@ -50,10 +42,11 @@ export type Article = Omit<Partial, 'matter'> & {
 
 export type Chapter = Omit<Partial, 'matter'> & {
   banner: Banner;
-  matter: ChapterMatter;
+  matter: {
+    banner: string;
+    title: string;
+  };
 };
-
-// Matter //////////////////////////////////////////////////////////////////////
 
 export type ArticleMatter = {
   authors: string;
@@ -61,21 +54,4 @@ export type ArticleMatter = {
   kind: (typeof KINDS)[number];
   tags: (typeof TAGS)[number][];
   title: string;
-};
-
-export type ChapterMatter = {
-  banner: string;
-  title: string;
-};
-
-// Menu ////////////////////////////////////////////////////////////////////////
-
-export type MenuDecoration = {
-  category: (typeof CATEGORIES)[number];
-  subtitle: string;
-  title: string;
-};
-
-export type MenuEntry = MenuDecoration & {
-  pages: ChapterCard[];
 };

@@ -13,8 +13,7 @@ import { useEffect, useState, type ChangeEvent } from 'react';
 import { Layout } from '@/components/Layout/Layout';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 import { phyrexian } from '@/fonts/fonts';
-import { MENU } from '@/tools/markdown/getMenu';
-import { type MenuEntry } from '@/tools/markdown/types';
+import { MENU } from '@/tools/markdown/menu';
 
 // NOTE Flavor text from "Dark Ritual" in "Urza's Saga"
 const DEFAULT_INPUT = `From void evolved Phyrexia.
@@ -22,7 +21,7 @@ Great Yawgmoth, Father of Machines, saw its perfection.
 Thus the Grand Evolution began.`;
 
 type Props = {
-  menu: MenuEntry[];
+  menu: typeof MENU;
 };
 
 const Page: NextPage<Props> = ({ menu }) => {

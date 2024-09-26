@@ -3,6 +3,8 @@ interface ObjectConstructor {
 }
 
 interface String {
+  toLowerCase<T extends string>(this: T): Lowercase<T>;
+  toUpperCase<T extends string>(this: T): Uppercase<T>;
   split(separator: ''): string[];
   split(separator: string): [first: string, ...rest: string[]];
 }

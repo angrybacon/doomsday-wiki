@@ -11,12 +11,12 @@ import NextLink from 'next/link';
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import { Layout } from '@/components/Layout/Layout';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { MENU } from '@/tools/markdown/getMenu';
-import { type ArticleCard, type MenuEntry } from '@/tools/markdown/types';
+import { MENU } from '@/tools/markdown/menu';
+import { type ArticleCard } from '@/tools/markdown/types';
 
 type Props = {
   articles: ArticleCard[];
-  menu: MenuEntry[];
+  menu: typeof MENU;
 };
 
 const Page: NextPage<Props> = ({ articles, menu }) => (

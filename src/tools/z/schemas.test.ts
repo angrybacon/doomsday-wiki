@@ -1,28 +1,21 @@
-import { zChapter } from '@/tools/z/schemas';
+import { zCategory, zChapter } from '@/tools/z/schemas';
 
-describe('zChapter', () => {
-  it('should not validate an unknown chapter', () => {
+describe('zCategory', () => {
+  it('should not validate an unknown category', () => {
     // When
-    const test = () => zChapter.parse('unknown');
+    const test = () => zCategory.parse('unknown');
     // Then
     expect(test).toThrow();
   });
 
   it('should uppercase the parsed value', () => {
     // When
-    const output = zChapter.parse('DdFt');
+    const output = zCategory.parse('DdFt');
     // Then
     expect(output).toEqual('DDFT');
   });
 
-  it('should skip the digit prefix', () => {
-    // When
-    const output = zChapter.parse('01-ddft');
-    // Then
-    expect(output).toEqual('DDFT');
-  });
-
-  describe('Known chapters', () => {
+  describe('Known categories', () => {
     const tests: [input: string, expected: string][] = [
       ['appendices', 'APPENDICES'],
       ['ddft', 'DDFT'],
@@ -32,13 +25,46 @@ describe('zChapter', () => {
     ];
 
     it.each(tests)(
-      'should validate known chapters: "%s"',
+      'should validate known cateories: "%s"',
       (input, expected) => {
         // When
-        const output = zChapter.parse(input);
+        const output = zCategory.parse(input);
         // Then
         expect(output).toEqual(expected);
       },
     );
+  });
+});
+
+describe('zChapter', () => {
+  it('should not validate an unknown chapter', () => {
+    // When
+    const test = () => zChapter.parse('unknown');
+    // Then
+    expect(test).toThrow();
+  });
+
+  it('should not validate a known chapter with the wrong case', () => {
+    // When
+    const test = () => zChapter.parse('Meandeck');
+    // Then
+    expect(test).toThrow();
+  });
+
+  describe('Known categories', () => {
+    const tests: string[] = [
+      'appendices',
+      'ddft',
+      'ddeft',
+      'entombsday',
+      'meandeck',
+    ];
+
+    it.each(tests)('should validate known cateories: "%s"', (value) => {
+      // When
+      const output = zChapter.parse(value);
+      // Then
+      expect(output).toEqual(value);
+    });
   });
 });
