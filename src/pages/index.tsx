@@ -1,4 +1,10 @@
-import { Button, ButtonGroup, Card, CardContent, Grid } from '@mui/material';
+import {
+  Button,
+  ButtonGroup,
+  Card,
+  CardContent,
+  Grid2 as Grid,
+} from '@mui/material';
 import { type GetStaticProps, type NextPage } from 'next';
 import { useEffect, useRef, useState } from 'react';
 
@@ -42,14 +48,14 @@ const Page: NextPage<Props> = ({ articles, menu, welcome }) => {
   return (
     <Layout menu={menu} title="Welcome">
       <Grid container spacing={3}>
-        <Grid item lg={7}>
+        <Grid size={{ lg: 7 }}>
           <Card>
             <CardContent>
               <Markdown markdown={welcome} />
             </CardContent>
           </Card>
         </Grid>
-        <Grid item xs>
+        <Grid size="grow">
           <Grid
             container
             ref={articlesRoot}
@@ -57,11 +63,11 @@ const Page: NextPage<Props> = ({ articles, menu, welcome }) => {
             sx={{ flexDirection: 'column', pb: 2 }}
           >
             {articles.slice(0, size).map((article) => (
-              <Grid item key={`article-${article.route}`} xs={12}>
+              <Grid key={`article-${article.route}`}>
                 <ArticleCard {...article} />
               </Grid>
             ))}
-            <Grid item sx={{ display: 'flex', justifyContent: 'center' }}>
+            <Grid sx={{ display: 'flex', justifyContent: 'center' }}>
               <ButtonGroup
                 disabled={size >= articles.length}
                 variant="outlined"

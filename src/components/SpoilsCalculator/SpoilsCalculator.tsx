@@ -5,7 +5,7 @@ import {
   Button,
   ButtonGroup,
   Divider,
-  Unstable_Grid2 as Grid,
+  Grid2 as Grid,
   Table,
   TableBody,
   TableCell,
@@ -109,7 +109,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
   return (
     <Box>
       <Grid container spacing={2}>
-        <Grid xs={6} sm={3}>
+        <Grid size={{ xs: 6, sm: 3 }}>
           <TextField
             fullWidth
             label="Deck size"
@@ -118,7 +118,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
             value={input.deck}
           />
         </Grid>
-        <Grid xs={6} sm={3}>
+        <Grid size={{ xs: 6, sm: 3 }}>
           <TextField
             fullWidth
             label="Copies left"
@@ -127,7 +127,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
             value={input.copies}
           />
         </Grid>
-        <Grid xs={6} sm={3}>
+        <Grid size={{ xs: 6, sm: 3 }}>
           <TextField
             fullWidth
             label="Life total"
@@ -136,7 +136,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
             value={input.life}
           />
         </Grid>
-        <Grid xs={6} sm={3}>
+        <Grid size={{ xs: 6, sm: 3 }}>
           <TextField
             fullWidth
             helperText={input.samples > 10000 && 'Not suited for above 10,000'}
