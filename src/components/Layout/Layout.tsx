@@ -111,7 +111,7 @@ export const Layout: FunctionComponent<Props> = ({
           !isDesktop && { ml: 0 },
         ]}
       >
-        <Container component={Box} maxWidth="lg">
+        <Container component={Box} maxWidth="xl">
           {children}
         </Container>
         <Footer
