@@ -23,12 +23,12 @@ const Page: NextPage<Props> = ({ articles, menu }) => (
   <Layout menu={menu} title="Articles" withBackToTop>
     <Card>
       <List disablePadding>
-        {articles.map(({ date, matter, route }, index) => (
+        {articles.map(({ date, href, matter }, index) => (
           <ListItemButton
             component={NextLink}
             divider={index < articles.length - 1}
-            href={route}
-            key={route}
+            href={href}
+            key={href}
           >
             <ListItemText
               disableTypography

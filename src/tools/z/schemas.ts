@@ -1,7 +1,18 @@
 import { z } from 'zod';
 
-import { CATEGORIES } from '@/tools/markdown/constants';
+import { CATEGORIES, KINDS, TAGS } from '@/tools/markdown/constants';
 import { union } from '@/tools/z/union';
+
+export const zArticleMatter = z.object({
+  authors: z.string(),
+  banner: z.string(),
+  kind: union(KINDS),
+  tags: z.preprocess(
+    (value) => (Array.isArray(value) ? value : [value]),
+    union(TAGS).array(),
+  ),
+  title: z.string(),
+});
 
 /** A Zod schema to describe chapter categories. */
 export const zCategory = z.preprocess(
@@ -48,7 +59,7 @@ const zScry = z.object({
   setName: z.string(),
 });
 
-export const zChapterMetadata = z.object({
+export const zMetadata = z.object({
   decklists: z.record(z.string(), zDecklist),
   scries: z.record(z.string(), zScry.array()),
 });

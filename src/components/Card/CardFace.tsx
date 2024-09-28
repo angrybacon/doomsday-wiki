@@ -1,5 +1,5 @@
 import { Box, Fade, Tooltip, type SxProps } from '@mui/material';
-import { type FunctionComponent, type ReactNode } from 'react';
+import { type FunctionComponent } from 'react';
 
 import { type ScryCard } from '@/tools/scryfall/types';
 
@@ -15,20 +15,14 @@ export const CardFace: FunctionComponent<Props> = ({ active, data, sx }) => {
 
   if (!image) return null;
 
-  const titleLines: string[] = [
-    `"${name}" from ${setName}`,
-    `Art by ${artist}`,
-  ];
-
-  const title: ReactNode = titleLines.map((line, index) => (
-    <div key={`line-${index}`}>{line}</div>
-  ));
+  const description = [`"${name}" from ${setName}`, `Art by ${artist}`];
+  const title = description.map((line) => <div key={line}>{line}</div>);
 
   return (
     <Tooltip title={title}>
       <Fade in={active}>
         <Box
-          alt={titleLines.join(' - ')}
+          alt={description.join(' - ')}
           component="img"
           decoding="async"
           loading="lazy"

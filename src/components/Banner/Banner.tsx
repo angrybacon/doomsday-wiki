@@ -110,11 +110,7 @@ export const Banner: FunctionComponent<Props> = ({
           })}
         >
           {footer.map((line) => (
-            <Typography
-              component="div"
-              key={`footer-${line}`}
-              variant="caption"
-            >
+            <Typography component="div" key={line} variant="caption">
               {line}
             </Typography>
           ))}

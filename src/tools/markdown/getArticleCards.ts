@@ -1,62 +1,21 @@
-import { join } from 'node:path';
 import { read } from '@korumite/kiwi/server';
 
-import { formatDate } from '@/tools/io/formatDate';
-import { ARTICLES, BASE_URLS } from '@/tools/markdown/files';
+import { ARTICLES } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
-import { readArticleMatter } from '@/tools/markdown/readMatter';
-import {
-  type ArticleCard,
-  type ArticleMatter,
-  type Banner,
-} from '@/tools/markdown/types';
-
-const MARKDOWN_EXTENSION = '.md';
-
-/** Represent an article card for which the banner hasn't resolved yet. */
-type ArticleCardPending = Omit<ArticleCard, 'banner'> & {
-  banner?: ArticleCard['banner'];
-};
+import { type ArticleCard } from '@/tools/markdown/types';
+import { zArticleMatter } from '@/tools/z/schemas';
 
 /** Read file system and return a list of all articles. */
-export const getArticleCards = async (): Promise<ArticleCard[]> => {
-  /** Warmup array for banner promises. */
-  const banners: Promise<Banner>[] = [];
-  // NOTE Reduce rightwards to sort descending
-  const cards = await ARTICLES.TREE.reduceRight<Promise<ArticleCardPending[]>>(
-    async (accumulator, crumbs) => {
-      const path = join(...crumbs) + MARKDOWN_EXTENSION;
-      const markdown = await read([BASE_URLS.ARTICLES, path]);
-      let matter: ArticleMatter;
-      try {
-        matter = readArticleMatter(markdown.matter);
-      } catch (error) {
-        const message = error instanceof Error ? error.message : `${error}`;
-        throw new Error(`${message} in "${path}"`);
-      }
-      const [year, month, day, slug] = crumbs;
-      const card: ArticleCardPending = {
-        date: formatDate(year, month, day),
-        day,
+export const getArticleCards = async (): Promise<ArticleCard[]> =>
+  Promise.all(
+    ARTICLES.CARDS.map(async (card) => {
+      const markdown = await read([card.path]);
+      const matter = zArticleMatter.parse(markdown.matter);
+      return {
+        banner: await getBanner(matter.banner),
+        date: card.date,
+        href: '/articles' + card.href,
         matter,
-        month,
-        route: ['/articles', ...crumbs].join('/'),
-        slug,
-        year,
       };
-      banners.push(
-        getBanner(matter.banner).then(
-          (banner) => (card.banner = banner),
-          (error) => {
-            const message = `Failed to scry banner "${matter.banner}" (${error})`;
-            throw new Error(message);
-          },
-        ),
-      );
-      return [...(await accumulator), card];
-    },
-    Promise.resolve([]),
+    }),
   );
-  await Promise.all(banners);
-  return cards as ArticleCard[];
-};

@@ -119,7 +119,7 @@ export const Decklist: FunctionComponent<Props> = ({
         </Typography>
         <Box display="flex" flexWrap="wrap">
           {main.map((cards, index) => (
-            <Box flex={1} key={`column-${index}`} mb={2} mr={2}>
+            <Box flex={1} key={index} mb={2} mr={2}>
               <Column cards={cards} />
             </Box>
           ))}

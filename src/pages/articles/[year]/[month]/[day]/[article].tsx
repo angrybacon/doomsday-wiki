@@ -5,7 +5,8 @@ import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { ARTICLES } from '@/tools/markdown/files';
-import { getArticle, getMarkdown } from '@/tools/markdown/getMarkdown';
+import { getArticle } from '@/tools/markdown/getArticle';
+import { getMarkdown } from '@/tools/markdown/getMarkdown';
 import { MENU } from '@/tools/markdown/menu';
 import { type Article, type Partial } from '@/tools/markdown/types';
 

@@ -71,7 +71,7 @@ export const Sidebar: FunctionComponent<Props> = ({
             DECORATIONS[entry.id] && (
               <Entry
                 chapter={entry.id}
-                key={`entry-${entry.id}`}
+                key={entry.id}
                 pages={entry.pages}
                 {...DECORATIONS[entry.id]}
               />

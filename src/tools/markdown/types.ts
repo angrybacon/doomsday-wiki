@@ -9,38 +9,26 @@ export type Banner = {
   title: string;
 };
 
-// Cards ///////////////////////////////////////////////////////////////////////
-
-type Card<TMatter> = {
-  matter: TMatter;
-  route: string;
-  slug: string;
-};
-
-export type ArticleCard = Card<ArticleMatter> & {
-  banner: Banner;
-  date: string | null;
-  day: string;
-  month: string;
-  year: string;
-};
-
-// Documents ///////////////////////////////////////////////////////////////////
-
 export type Partial = {
   decklists: Decklists;
-  matter: Record<string, unknown>;
   minutes: number;
   scries: Scries;
   text: string;
 };
 
-export type Article = Omit<Partial, 'matter'> & {
+export type Article = Partial & {
   banner: Banner;
   matter: ArticleMatter;
 };
 
-export type Chapter = Omit<Partial, 'matter'> & {
+export type ArticleCard = {
+  banner: Banner;
+  date: string | null;
+  href: string;
+  matter: ArticleMatter;
+};
+
+export type Chapter = Partial & {
   banner: Banner;
   matter: {
     banner: string;

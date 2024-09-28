@@ -44,7 +44,7 @@ export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
       </TableHead>
       <TableBody>
         {rosetta.map(([notation, card]) => (
-          <TableRow key={`rosetta-${notation}-${card}`}>
+          <TableRow key={notation}>
             <TableCell component="th" scope="row">
               {notation}
             </TableCell>

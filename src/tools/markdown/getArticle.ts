@@ -1,27 +1,27 @@
 import { read } from '@korumite/kiwi/server';
 
-import { CHAPTERS } from '@/tools/markdown/files';
+import { ARTICLES } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
-import { type Chapter } from '@/tools/markdown/types';
+import { type Article } from '@/tools/markdown/types';
 import { remarkDecklists } from '@/tools/remark/remarkDecklists.server';
 import { remarkMana } from '@/tools/remark/remarkMana.server';
 import { remarkScries } from '@/tools/remark/remarkScries.server';
-import { zChapterMatter, zMetadata } from '@/tools/z/schemas';
+import { zArticleMatter, zMetadata } from '@/tools/z/schemas';
 
-export const getChapter = async (
-  ...crumbs: [chapter: string, slug: string]
-): Promise<Chapter> => {
+export const getArticle = async (
+  ...crumbs: [year: string, month: string, day: string, article: string]
+): Promise<Article> => {
   const id = crumbs.join('!');
-  const card = CHAPTERS.CARDS.find((card) => card.id === id);
+  const card = ARTICLES.CARDS.find((card) => card.id === id);
   try {
-    if (!card) throw new Error('Missing chapter card');
+    if (!card) throw new Error('Missing article card');
     const { data, ...markdown } = await read(
       [card.path],
       remarkDecklists,
       remarkMana,
       remarkScries,
     );
-    const matter = zChapterMatter.parse(markdown.matter);
+    const matter = zArticleMatter.parse(markdown.matter);
     return {
       ...markdown,
       ...zMetadata.parse(data),

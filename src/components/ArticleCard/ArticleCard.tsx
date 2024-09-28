@@ -6,7 +6,6 @@ import {
   Typography,
 } from '@mui/material';
 import NextLink from 'next/link';
-import { type FunctionComponent } from 'react';
 
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
 import { type ArticleCard as ArticleCardModel } from '@/tools/markdown/types';
@@ -14,14 +13,12 @@ import { type ArticleCard as ArticleCardModel } from '@/tools/markdown/types';
 /** Vertical height that should be added for the banner. */
 const BANNER_OFFSET = 90;
 
-type Props = ArticleCardModel;
-
-export const ArticleCard: FunctionComponent<Props> = ({
+export const ArticleCard = ({
   banner,
   date,
+  href,
   matter,
-  route,
-}) => (
+}: ArticleCardModel) => (
   <Card
     sx={{
       background: 'center / cover no-repeat',
@@ -32,7 +29,7 @@ export const ArticleCard: FunctionComponent<Props> = ({
   >
     <CardActionArea
       component={NextLink}
-      href={route}
+      href={href}
       sx={{ pt: `${BANNER_OFFSET}px` }}
     >
       <CardContent

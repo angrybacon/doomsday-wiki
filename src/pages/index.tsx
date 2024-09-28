@@ -63,7 +63,7 @@ const Page: NextPage<Props> = ({ articles, menu, welcome }) => {
             sx={{ flexDirection: 'column', pb: 2 }}
           >
             {articles.slice(0, size).map((article) => (
-              <Grid key={`article-${article.route}`}>
+              <Grid key={article.href}>
                 <ArticleCard {...article} />
               </Grid>
             ))}
