@@ -43,6 +43,7 @@
     "mdast-util-find-and-replace": "3.0.1",
     "next": "14.2.13",
     "plaiceholder": "3.0.0",
+    "posthog-js": "1.165.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-intersection-observer": "9.13.1",
