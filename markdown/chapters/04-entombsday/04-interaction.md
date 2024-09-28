@@ -1,7 +1,6 @@
 ---
 authors: drynne
 banner: SE
-order: 3
 title: Playing Around Interaction
 ---
 

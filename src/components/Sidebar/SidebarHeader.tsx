@@ -1,8 +1,13 @@
 import { mdiLightbulbOff, mdiLightbulbOn } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import { Box, Button, IconButton, Toolbar, Tooltip } from '@mui/material';
-import { type Theme } from '@mui/material/styles';
-import { type SxProps } from '@mui/system';
+import {
+  Box,
+  Button,
+  IconButton,
+  Toolbar,
+  Tooltip,
+  type SxProps,
+} from '@mui/material';
 import NextLink from 'next/link';
 import { useContext, type FunctionComponent } from 'react';
 import { siDiscord } from 'simple-icons';
@@ -11,7 +16,7 @@ import { ThemeContext } from '@/theme/ThemeContext';
 
 type Props = {
   onClose: () => void;
-  sx?: SxProps<Theme>;
+  sx?: SxProps;
 };
 
 export const SidebarHeader: FunctionComponent<Props> = ({ onClose, sx }) => {

@@ -1,8 +1,8 @@
-import { type Theme } from '@mui/material/styles';
-import { type CSSProperties } from '@mui/material/styles/createMixins';
+import { type Theme } from '@mui/material';
+import { type SystemStyleObject } from '@mui/system';
 
 /** Add top scroll margin to account for the sticky toolbar. */
-export const toolbarMargin = ({ breakpoints }: Theme): CSSProperties => ({
+export const toolbarMargin = ({ breakpoints }: Theme): SystemStyleObject => ({
   // NOTE Values are hardcoded to follow that of the MUI built-in `toolbar`
   //      mixin for simplicity. If the toolbar is customized, these values
   //      should be updated.

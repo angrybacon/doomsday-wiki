@@ -5,13 +5,13 @@ import { Banner } from '@/components/Banner/Banner';
 import { Layout } from '@/components/Layout/Layout';
 import { Markdown } from '@/components/Markdown/Markdown';
 import { CHAPTERS } from '@/tools/markdown/files';
-import { getChapter } from '@/tools/markdown/getMarkdown';
-import { MENU } from '@/tools/markdown/getMenu';
-import { type Chapter, type MenuEntry } from '@/tools/markdown/types';
+import { getChapter } from '@/tools/markdown/getChapter';
+import { MENU } from '@/tools/markdown/menu';
+import { type Chapter } from '@/tools/markdown/types';
 
 type Props = {
   chapter: Chapter;
-  menu: MenuEntry[];
+  menu: typeof MENU;
 };
 
 const Page: NextPage<Props> = ({ chapter, menu }) => (

@@ -1,7 +1,13 @@
 import { mdiMenu } from '@mdi/js';
 import Icon from '@mdi/react';
-import { AppBar, Box, IconButton, Toolbar } from '@mui/material';
-import { alpha, useTheme } from '@mui/material/styles';
+import {
+  alpha,
+  AppBar,
+  Box,
+  IconButton,
+  Toolbar,
+  useTheme,
+} from '@mui/material';
 import { type FunctionComponent } from 'react';
 
 import { Progress } from '@/components/Progress/Progress';

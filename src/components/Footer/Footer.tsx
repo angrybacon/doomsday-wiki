@@ -1,9 +1,9 @@
-import { Box, Typography } from '@mui/material';
 import {
+  Box,
   ThemeProvider as MuiThemeProvider,
-  type Theme,
-} from '@mui/material/styles';
-import { type SxProps } from '@mui/system';
+  Typography,
+  type SxProps,
+} from '@mui/material';
 import { type FunctionComponent, type ReactNode } from 'react';
 
 import { Link } from '@/components/Link/Link';
@@ -11,7 +11,7 @@ import { darkTheme } from '@/theme/theme';
 
 type Props = {
   isClear: boolean;
-  sx?: SxProps<Theme>;
+  sx?: SxProps;
 };
 
 export const Footer: FunctionComponent<Props> = ({ isClear, sx }) => {

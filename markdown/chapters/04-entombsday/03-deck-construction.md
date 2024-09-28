@@ -1,7 +1,6 @@
 ---
 authors: drynne
 banner: Em
-order: 2
 title: Deck Construction
 ---
 

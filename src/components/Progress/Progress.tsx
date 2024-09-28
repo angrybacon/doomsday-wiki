@@ -1,12 +1,10 @@
-import { Box } from '@mui/material';
-import { type Theme } from '@mui/material/styles';
-import { type SxProps } from '@mui/system';
+import { Box, type SxProps } from '@mui/material';
 import { type FunctionComponent } from 'react';
 
 import { useScroll } from '@/hooks/useScroll';
 
 type Props = {
-  sx?: SxProps<Theme>;
+  sx?: SxProps;
 };
 
 export const Progress: FunctionComponent<Props> = ({ sx }) => {

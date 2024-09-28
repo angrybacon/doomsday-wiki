@@ -19,7 +19,7 @@ describe(ArticleCard.name, () => {
         title: '',
       },
       date: null,
-      day: '23',
+      href: '/path/to/article',
       matter: {
         authors: 'Firstname Lastname',
         banner: 'banner',
@@ -27,10 +27,6 @@ describe(ArticleCard.name, () => {
         tags: [],
         title: 'Article Title',
       },
-      month: '04',
-      route: '/path/to/article',
-      slug: 'article',
-      year: '2023',
     };
   });
 

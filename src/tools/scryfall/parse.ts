@@ -29,7 +29,7 @@ export const parse = async (options: {
     try {
       artPreview = await makePreview(art);
     } catch (error) {
-      const message = error instanceof Error ? error.message : `${error}`;
+      const message = error instanceof Error ? error.message : error;
       throw new Error(`${message} for "${art}"`);
     }
   }

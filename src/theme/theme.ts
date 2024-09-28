@@ -1,3 +1,4 @@
+import { alpha, createTheme, type ThemeOptions } from '@mui/material';
 import {
   amber as article,
   grey,
@@ -6,12 +7,6 @@ import {
   purple as report,
   pink as secondary,
 } from '@mui/material/colors';
-import {
-  alpha,
-  createTheme,
-  type Theme,
-  type ThemeOptions,
-} from '@mui/material/styles';
 import { deepmerge } from '@mui/utils';
 
 import { barf } from '@/theme/tools/barf';
@@ -59,7 +54,7 @@ declare module '@mui/system/createTheme/shape' {
 
 /* eslint-enable @typescript-eslint/consistent-type-definitions */
 
-const customizeTheme = (options: ThemeOptions): Theme => {
+const customizeTheme = (options: ThemeOptions) => {
   const theme = createTheme(options);
   const { breakpoints, palette, spacing, typography } = theme;
   const { mode } = palette;
@@ -198,7 +193,7 @@ const customizeTheme = (options: ThemeOptions): Theme => {
   );
 };
 
-export const darkTheme: Theme = customizeTheme({
+export const darkTheme = customizeTheme({
   palette: {
     background: { default: '#121212', paper: grey[900] },
     dividerOpaque: grey[800],
@@ -213,7 +208,7 @@ export const darkTheme: Theme = customizeTheme({
   },
 });
 
-export const lightTheme: Theme = customizeTheme({
+export const lightTheme = customizeTheme({
   palette: {
     background: { default: grey[100] },
     dividerOpaque: grey[300],

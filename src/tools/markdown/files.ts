@@ -1,11 +1,14 @@
 import { join } from 'node:path';
-import { makeNextRoutes, walk } from '@korumite/kiwi/server';
+import { makeCards, makeNextRoutes, walk } from '@korumite/kiwi/server';
 import { z } from 'zod';
+
+import { formatDate } from '@/tools/io/formatDate';
+import { zCategory, zChapter } from '@/tools/z/schemas';
 
 /** @deprecated Use `BASE_URLS.ROOT` instead. */
 const BASE_URL = join(process.cwd(), 'markdown');
 
-/** Base file URLs for Markdown content categories. */
+/** Base file URLs for Markdown content. */
 export const BASE_URLS = {
   ARTICLES: join(BASE_URL, 'articles'),
   CHAPTERS: join(BASE_URL, 'chapters'),
@@ -19,6 +22,16 @@ const ARTICLES_TREE = z
   .parse(walk(BASE_URLS.ARTICLES));
 
 export const ARTICLES = {
+  CARDS: (
+    await makeCards(
+      { paths: ARTICLES_TREE, root: BASE_URLS.ARTICLES },
+      {
+        banner: ({ matter }) => z.string().parse(matter.banner),
+        date: ({ crumbs: [y, m, d] }) => formatDate(y, m, d),
+        slug: ({ crumbs }) => z.string().parse(crumbs[3]),
+      },
+    )
+  ).reverse(),
   ROUTES: makeNextRoutes(ARTICLES_TREE, ['year', 'month', 'day', 'article']),
   TREE: ARTICLES_TREE,
 } as const;
@@ -30,6 +43,15 @@ const CHAPTERS_TREE = z
   .parse(walk(BASE_URLS.CHAPTERS));
 
 export const CHAPTERS = {
+  CARDS: await makeCards(
+    { paths: CHAPTERS_TREE, root: BASE_URLS.CHAPTERS },
+    {
+      banner: ({ matter }) => z.string().parse(matter.banner),
+      category: ({ crumbs }) => zCategory.parse(crumbs[0]),
+      chapter: ({ crumbs }) => zChapter.parse(crumbs[0]),
+      slug: ({ crumbs }) => z.string().parse(crumbs[1]),
+    },
+  ),
   ROUTES: makeNextRoutes(CHAPTERS_TREE, ['category', 'chapter']),
   TREE: CHAPTERS_TREE,
 } as const;

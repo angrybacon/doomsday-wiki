@@ -1,7 +1,6 @@
 ---
 authors: Doishy
 banner: DD
-order: 0
 title: Core Concepts
 ---
 

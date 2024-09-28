@@ -1,5 +1,4 @@
-import { Box, Divider, Typography } from '@mui/material';
-import { alpha } from '@mui/material/styles';
+import { alpha, Box, Divider, Typography } from '@mui/material';
 import Image from 'next/image';
 import { type FunctionComponent } from 'react';
 
@@ -111,11 +110,7 @@ export const Banner: FunctionComponent<Props> = ({
           })}
         >
           {footer.map((line) => (
-            <Typography
-              component="div"
-              key={`footer-${line}`}
-              variant="caption"
-            >
+            <Typography component="div" key={line} variant="caption">
               {line}
             </Typography>
           ))}

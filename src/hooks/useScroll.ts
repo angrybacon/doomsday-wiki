@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 export const useScroll = (): number => {
-  const [scroll, setScroll] = useState<number>(0);
+  const [scroll, setScroll] = useState(0);
 
   const onScroll = () => {
     const { documentElement } = document;

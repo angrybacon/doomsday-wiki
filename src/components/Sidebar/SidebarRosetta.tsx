@@ -5,9 +5,8 @@ import {
   tableCellClasses,
   TableHead,
   TableRow,
+  type SxProps,
 } from '@mui/material';
-import { type Theme } from '@mui/material/styles';
-import { type SxProps } from '@mui/system';
 import { useEffect, useState, type FunctionComponent } from 'react';
 
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
@@ -15,7 +14,7 @@ import { type CATEGORIES } from '@/tools/markdown/constants';
 
 type Props = {
   category: (typeof CATEGORIES)[number] | undefined;
-  sx?: SxProps<Theme>;
+  sx?: SxProps;
 };
 
 export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
@@ -45,7 +44,7 @@ export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
       </TableHead>
       <TableBody>
         {rosetta.map(([notation, card]) => (
-          <TableRow key={`rosetta-${notation}-${card}`}>
+          <TableRow key={notation}>
             <TableCell component="th" scope="row">
               {notation}
             </TableCell>

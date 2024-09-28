@@ -15,11 +15,7 @@ export const Column: FunctionComponent<Props> = ({ cards }) => {
       sx={{ listStyleType: 'none', m: 0, minWidth: 170, p: 0 }}
     >
       {cards.map(([quantity, name]) => (
-        <Box
-          component="li"
-          key={`card-${quantity}-${name}`}
-          sx={{ display: 'flex' }}
-        >
+        <Box component="li" key={name} sx={{ display: 'flex' }}>
           <Typography
             component="span"
             variant="body2"
