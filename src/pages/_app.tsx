@@ -1,5 +1,5 @@
 import { CssBaseline } from '@mui/material';
-import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { type AppProps } from 'next/app';
 import Head from 'next/head';
 import postHog from 'posthog-js';
@@ -10,7 +10,7 @@ import { ThemeProvider } from '@/theme/ThemeContext';
 if (typeof window !== 'undefined' && process.env.NEXT_PUBLIC_POSTHOG_KEY) {
   postHog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY, {
     api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
-    person_profiles: 'always',
+    persistence: 'localStorage',
   });
 }
 
@@ -29,8 +29,8 @@ export default function Application({ Component, pageProps }: AppProps) {
         <PostHogProvider client={postHog}>
           <Component {...pageProps} />
         </PostHogProvider>
+        <SpeedInsights />
       </ThemeProvider>
-      {process.env.NODE_ENV === 'production' && <Analytics />}
     </>
   );
 }

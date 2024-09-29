@@ -1,7 +1,6 @@
 import {
   Box,
   ThemeProvider as MuiThemeProvider,
-  Typography,
   type SxProps,
 } from '@mui/material';
 import { type FunctionComponent, type ReactNode } from 'react';
@@ -19,22 +18,19 @@ export const Footer: FunctionComponent<Props> = ({ isClear, sx }) => {
     <Box
       component="footer"
       sx={[
-        { color: 'text.secondary', textAlign: 'center' },
+        { color: 'text.secondary', textAlign: 'center', typography: 'caption' },
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >
-      <Typography component="p" variant="caption">
-        Copyright &copy; 2017-2024 Doomsday Wiki contributors. Read the notice
-        about <Link href="/license">licenses and resources</Link>.
-      </Typography>
-      <Typography component="p" variant="caption">
-        This page collects anonymous analytics through Vercel. See their
-        GDPR-compliant{' '}
-        <Link href="https://vercel.com/legal/privacy-policy">
-          privacy policy
-        </Link>
-        .
-      </Typography>
+      <p>
+        &copy; 2017-2024 Doomsday Wiki contributors. Read the notice about{' '}
+        <Link href="/license">licenses and resources</Link>.
+      </p>
+      <p>
+        This page collects anonymous analytics in order to improve its contents.
+        By browsing the Wiki, you consent to the collection and use of that
+        data.
+      </p>
     </Box>
   );
   return isClear ? (
