@@ -16,7 +16,7 @@ const Page: NextPage<Props> = ({ license, menu }) => (
   <Layout menu={menu} title="License">
     <Card>
       <CardContent>
-        <Typography align="center" variant="h1">
+        <Typography align="center" gutterBottom variant="h1">
           License
         </Typography>
         <Markdown markdown={license} />
