@@ -192,8 +192,8 @@ existing articles for inspiration.
   [Tag.ts][constants:tag]. Tags are used to dictate which card abbreviations
   should be documented in the sidebar
 
-[constants:kind]: https://github.com/angrybacon/doomsday-wiki/blob/master/src/tools/markdown/constants/Kind.ts
-[constants:tag]: https://github.com/angrybacon/doomsday-wiki/blob/master/src/tools/markdown/constants/Tag.ts
+[constants:kind]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants/Kind.ts
+[constants:tag]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants/Tag.ts
 
 ## Images
 

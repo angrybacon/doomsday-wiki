@@ -12,7 +12,7 @@ import { useEffect, useState, type ChangeEvent } from 'react';
 
 import { Layout } from '@/components/Layout/Layout';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
-import { phyrexian } from '@/fonts/fonts';
+import { phyrexian } from '@/theme/fonts/fonts';
 import { MENU } from '@/tools/markdown/menu';
 
 // NOTE Flavor text from "Dark Ritual" in "Urza's Saga"

@@ -21,7 +21,7 @@ content.
 
 In some contexts, you can refer to card names within Markdown. To ease the
 writing process and reduce typos, a number of shorthands for card names can be
-found [[./src/tools/game/constants/Cards.ts][here]].
+found [[./tools/game/constants/Cards.ts][here]].
 
 For parts where you query card imagery, you can optionally provide a specific
 set using the 3-letters set code. By default, the first print for the card is
