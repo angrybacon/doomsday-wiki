@@ -31,7 +31,7 @@ export default [
       },
     },
   ].map((it) => ({
-    files: ['{scryfall,src}/**/*.{ts,tsx}'],
+    files: ['{components,hooks,pages,scryfall,theme,tools}/**/*.{ts,tsx}'],
     languageOptions: { parser: Ts.parser },
     ...it,
   })),

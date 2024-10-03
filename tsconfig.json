@@ -5,7 +5,12 @@
     "jsx": "preserve",
     "module": "preserve",
     "noEmit": true,
-    "paths": { "@/*": ["./src/*"] },
+    "paths": {
+      "@/components/*": ["./components/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/theme/*": ["./theme/*"],
+      "@/tools/*": ["./tools/*"]
+    },
     "verbatimModuleSyntax": false
   },
   "exclude": ["node_modules"],
