@@ -1,5 +1,4 @@
 import { CssBaseline } from '@mui/material';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import { type AppProps } from 'next/app';
 import Head from 'next/head';
 import postHog from 'posthog-js';
@@ -29,7 +28,6 @@ export default function Application({ Component, pageProps }: AppProps) {
         <PostHogProvider client={postHog}>
           <Component {...pageProps} />
         </PostHogProvider>
-        <SpeedInsights />
       </ThemeProvider>
     </>
   );
