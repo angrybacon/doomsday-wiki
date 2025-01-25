@@ -37,16 +37,14 @@ from the work of [Stas][stas].
 ###### Analytics
 
 We collect anonymous analytics in order to improve user experience. We do not
-use cookies. See the respective privacy policies for [Vercel][legal:vercel] and
-for [PostHog][legal:posthog].
+use cookies. See the [PostHog privacy policy][posthog:privacy].
 
 [code:license]: https://github.com/angrybacon/doomsday-wiki/blob/master/LICENSE.org
 [code:repository]: https://github.com/angrybacon/doomsday-wiki
 [icons:mdi]: https://pictogrammers.com/library/mdi/
 [icons:simple-icons]: https://simpleicons.org
-[legal:posthog]: https://posthog.com/privacy
-[legal:vercel]: https://vercel.com/legal/privacy-policy
 [mana]: https://mana.andrewgioia.com/
+[posthog:privacy]: https://posthog.com/privacy
 [scryfall:api]: https://scryfall.com/docs/api
 [stas]: http://stas.tk/
 [wiki:license]: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
