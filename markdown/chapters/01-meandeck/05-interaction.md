@@ -38,11 +38,11 @@ time removal matters is when you have cards left within your library. If an
 opponent tries to remove the Oracle at that point, assuming you have no
 additional Devotion to {U}, you will not be able to win off of the trigger.
 
-The main counter to this is of course to try and ensure you always leave zero
-cards left in your deck once the Oracle trigger resolves. Another way is to
-potentially try a _bait pile_ which tries to go off in one turn but has the
-option to wait another. This can be especially useful if you are playing
-multiple Oracles. Let us take this example from the Brainstorm chapter:
+The main counter to this is of course to try and ensure you leave zero cards
+left in your deck before the Oracle trigger resolves. Another way is to
+potentially try a _bait_ pile which tries to go off in one turn but has the
+option to wait another. This assumes you are playing multiple Oracles. Let us
+take this example from the Brainstorm chapter:
 
 > {U} + Brainstorm + Thassa's Oracle
 
@@ -67,10 +67,9 @@ Oracle in the deck the turn after.
 
 This pile plays around the following:
 
-- :card[Warping Wail]
-- Unavailability of Predict/Ideas Unbound
-- :card[Stifle] for the first Oracle
-- Removal for both Oracles
+- Up to 2 pieces of removal
+- Unavailability of a _draw_ spell
+- A :card[Stifle] effect on the first Oracle trigger
 - Countermagic for the first Oracle
 
 If your opponent deals with TO with its trigger on the stack, you could be
@@ -83,13 +82,13 @@ extra potential Devotion to {U} to help bolster your effect. Cards like
 :card[Baleful Strix], :card[Counterbalance], :card[Snapcaster Mage] or even
 :card[Teferi, Time Raveler] are a few examples. The concepts presented here can
 also help beat something like :card[Endurance] which, although doesn't actually
-remove the Oracle, does result in your deck having too many cards to enable you
-to win off of the trigger.
+remove the Oracle, does usually result in your deck having too many cards to
+enable you to win off of the trigger.
 
 ### Thinning with Fetchlands
 
 Another trick you can do, to help achieve a library of 0 cards for your Oracle
-trigger, is this: With an active fetchland in play as you resolve Doomsday, or
+trigger, is this: with an active fetchland in play as you resolve Doomsday, or
 sometimes by putting both a fetchland and a fetch'able land inside the pile, you
 can effectively thin further down the size of your library as you move towards
 resolving TO.
@@ -110,6 +109,9 @@ TO
 1. Cycle SW to draw EoA
 1. Land Polluted Delta and fetch the Island
 1. Cycle SW and play TO with 0 remaining cards
+
+With the addition of the Surveil land :card[Undercity Sewers], you can even
+remove 2 cards from your pile.
 
 ## Playing Through Countermagic
 
@@ -246,8 +248,7 @@ you to cast Force of Will twice if they try and fight over the Oracle.
 
 There are some key cards that may be used to help work around traditional
 countermagic. Cavern of Souls is an easy fit into the Doomsday gameplan and, if
-a land drop is available, can easily slot into some of the more _standard_
-piles.
+a land drop is available, can easily slot into piles with a _draw_ spell.
 
 > {U} + Brainstorm + X
 
@@ -278,9 +279,9 @@ TO
 
 Teferi, Time Raveler is another tool that can be used to help prevent
 countermagic however it is expensive to include in piles. It might be suitable
-for a PTT pile in the mid to late game. The in-built draw effect can help access
-your pile and, when combined with Baleful Strix, can function as pseudo draw 2
-or 3. You can use this draw to replace a cantrip slot in any of the piles
+for a PTT pile in the mid to late game. The built-in draw effect can help access
+your pile and, when combined with :card[Baleful Strix], can function as pseudo
+draw 2 or 3. You can use this draw to replace a cantrip slot in any of the piles
 already explained.
 
 ## Playing Through Permanent-Based Interaction
@@ -408,8 +409,7 @@ a full game win and both can be played around.
 
 For example, playing against Deafening Silence you can do a PTT pile similar to
 the one stated against taxing effects ensuring that you only ever cast one
-spell. The cyclers can be replaced with another cantrip if need be to increase
-the pile cost by {1}, {U} or {S}.
+spell.
 
 ### Draw Restrictors
 
@@ -419,21 +419,21 @@ Emissary of Trest], :card[Narset, Parter of Veils], :card[Hullbreacher] and
 :card[Spirit of the Labyrinth] all fall under this heading. The easiest way to
 deal with them is of course removal however that is not always viable,
 especially in game one. Another way is to simply pass the turn a number of times
-using the sorcery speed cantrips on your turn and the instant speed free cyclers
-on the opponent's turn. Predict is quite useful in this scenario as, despite
-costing {1}{U} it allows you to _dig_ up to three cards deep into the pile.
-Something like the following may be useful facing an opposing Narset for example
-(spread over multiple turns):
+using the sorcery speed cantrips on your turn and the instant speed cantrips on
+the opponent's turn. :card[Predict] and :card[Consider] are quite useful in this
+scenario as they allow you to _dig_ more than one card at a time. Something like
+the following may be useful facing an opposing Narset for example (spread over
+multiple turns):
 
 :::row{variant=PILE}
 Pnd
-Pdt
+Con
 EoA
 Pnd
 TO
 :::
 
-One key thing to note with these cards involves Teferi, Time Raveler's {-3}
+One key thing to note with these cards involves Teferi, Time Raveler's -3
 ability. If use the ability on a Leovold, you _will_ get to draw the card
 afterwards. This can allow you to remove the disruption and _crack_ into the
 pile at the same time.
@@ -449,12 +449,13 @@ Doomsday:
 > You lose half your life, rounded up.
 
 The first line is the relevant one. When resolving Doomsday you have to search
-two zones to construct your pile. Cards like :card[Ashiok, Dream Render],
-:card[Leonin Arbiter] and :card[Aven Mindcensor] can all prevent you from
-searching the library and cards like :card[Rest in Peace] can limit what is
-available to find in the graveyard. Out of these two the former is certainly the
-most detrimental as that can cut you off from the majority of your cards. So
-long as you are mindful of these you can however pull a neat trick.
+two zones to construct your pile. Cards like :card[Shadow of Doubt],
+:card[Ashiok, Dream Render], :card[Leonin Arbiter] and :card[Aven Mindcensor]
+can all prevent you from searching the library and cards like :card[Rest in
+Peace] can limit what is available to find in the graveyard. Out of these the
+formers are certainly the most detrimental as they can cut you off from the
+majority of your cards. So long as you are mindful of these you can however pull
+a neat trick.
 
 If you have Oracle in hand, you can cast Doomsday without being able to search
 your library. You still need to find 5 cards from your graveyard (if able) but,
@@ -464,20 +465,24 @@ non-existent; you can cast Doomsday and set your library of 0 cards and then
 cast Oracle to win.
 
 There is a special case scenario with :card[Opposition Agent]. If you cast
-Doomsday with an Opposition Agent in play your opponent gets to search for five
+Doomsday with an Opposition Agent in play, your opponent gets to search for five
 cards and the rest of your deck is exiled. Because your opponent controls the
-search they will get to see your hand and you will not be able to search from
-the graveyard. The only way to really beat a resolved agent is if you already
-have Oracle castable in hand, hopefully using Cavern of Souls otherwise the
-opponent could search for five counterspells to try and stop you.
+search process they will get to see your hand and you will not be able to search
+from the graveyard. The only realistic way to beat a resolved agent is if you
+already have Oracle castable in hand, hopefully using :card[Cavern of Souls]
+otherwise the opponent could search for five counterspells to try and stop you.
+Note that the agent will not give them a blue pitch for :card[FoW] but they
+certainly can search for 2 copies of :card[DR] in order to hardcast the force.
+You don't need to tell them though.
 
 ## Playing Around Shuffle Effects
 
 Shuffle effects can be one annoyance to face when building a pile that would
 otherwise have perfect ordering to it. There are some examples that you could
 imagine needing to play around like :card[Field of Ruin] or :card[Assassin's
-Trophy] however the primary concern is in fact a card that is very prevalent in
-Legacy: :card[Surgical Extraction].
+Trophy] but of those are a _may_ so you can usually opt out of the shuffle.
+However the primary concern is in fact a card that is very prevalent in Legacy:
+:card[Surgical Extraction].
 
 Upon successfully resolving a Doomsday, assuming no cards like :card[Leyline of
 the Void] are present, there will be one card in your graveyard and that will be
@@ -562,12 +567,13 @@ you_ then stay calm, take it as learning and move on.
 Grindstone
 :::
 
-You can find yourself in a situation whereby your opponent may have an active
-:card[Grindstone] and the mana to activate it but you otherwise have a window to
-try and win. Just like with Surgical Extraction it is difficult to know if
-and/or when the opponent may try to activate the Grindstone but the following
-pile covers all possible cases to resolve the Oracle with at most 2 cards left
-while passing the turn.
+Grindstone deserves its own section because of how unique its effect is and the
+sub-game it involves between you and your opponent. You can find yourself in a
+situation whereby your opponent may have an active :card[Grindstone] and the
+mana to activate it but you otherwise have a window to try and win. Just like
+with Surgical Extraction it is difficult to know if and/or when the opponent may
+try to activate the Grindstone but the following pile covers all possible cases
+to resolve the Oracle with at most 2 cards left while passing the turn.
 
 > PTT + {U}{U}
 
@@ -589,23 +595,7 @@ and draw the second TO.
 
 This is just one example in a single set of potential circumstances of course.
 Similar to this includes cards like :card[Hedron Crab], :card[Altar of
-Dementia] and :card[Ipnu Rivulet].
-
-### Fireblast
-
-:::row{variant=CENTERED}
-Fireblast
-:::
-
-Fireblast is something to be mindful of only in the Burn matchup but it's a good
-consideration in line with Lightning Bolt to be mindful of your life total. If
-you cast Doomsday from nine life or less you are weak to Fireblast once the
-Doomsday resolves and likewise from seven life or less you are at risk of Bolt.
-You also have to be mindful of when you can incorporate the use of Street Wraith
-in a pile (blocked from five life or less) or Force of Will or a fetchland
-(three life or less). Also always be mindful that if you cast Doomsday when on
-one life you will immediately lose due to the rounding up clause of the life
-loss.
+Dementia], :card[Trenchpost] and :card[Ipnu Rivulet].
 
 ### Mindbreak Trap
 
@@ -651,94 +641,137 @@ Ideas Unbound and the Thassa's Oracle itself. You can also utilise piles of just
 three cycling effects or add in Cavern to the mix to protect against other
 effects should it be desired.
 
-### Thought Scour / Predict / Ipnu Rivulet / Archmage's Charm
+### Direct Damage
 
 :::row{variant=CENTERED}
+Price of Progress
+Fireblast
+Lightning Bolt
+:::
+
+We usually joke that Doomsday players start the game with only 10 life. However
+it becomes very serious quite fast in matchups with a lot of cheap reach in the
+form of direct damage. For instance, if you cast Doomsday from nine life or less
+you are weak to :card[Fireblast] once the Doomsday resolves as soon as you give
+up priority and likewise from seven life or less you are at risk of dying to
+:card[Lightning Bolt]. You also have to be mindful of when you can incorporate
+the use cyclers that cost life, fetchlands or even :card[Force of Will]. Note
+that if you cast Doomsday when on one life you will immediately lose due to the
+rounding up clause of the life loss.
+
+### Mill Effects
+
+:::row{variant=CENTERED}
+Trenchpost
 Thought Scour
 Pdt
 Ipnu Rivulet
-Archmage's Charm
 :::
 
 Thought Scour is not normally a common card in Legacy now that the
 :card[Underworld Breach] era is gone however it can still show up in rogue brews
-from time to time. Predict is a card advantage spell played by both Miracles and
-Doomsday pilots. Both Thought Scour and Predict can target any player and so
-either can mess up your piles at instant speed, milling a key piece in response
-to a cantrip or potentially forcing you to unknowingly _deck_ yourself by making
-your Ideas Unbound suddenly lethal through decking. With Ipnu Rivulet being
+from time to time. Predict has also disappeared from both Miracles and Doomsday
+lists but the occasional High Tide pilot might get you. Cards like Thought Scour
+and Predict can target any player and so can mess up your piles at instant
+speed, milling a key piece in response to a cantrip or potentially forcing you
+to unknowingly _deck_ yourself with an empty library. With Ipnu Rivulet being
 particularly brutal, you can try to take similar considerations when facing
 Grindstone in either baiting the known activation or taking a bit more time to
 play around it.
 
-### Dack Fayden / Jace, the Mind Sculptor / Portent
+### Targeted Draw Effects
 
 :::row{variant=CENTERED}
+Kozilek's Command
 Dack Fayden
+Cephalid Coliseum
+Baleful Mastery
+:::
+
+Kozilek's Command can be very deadly as it can both reduce your devotion to {U}
+and make you draw a card. At instant speed and as per your opponent choice no
+less! However it is quite simple to play around it if you can plan in advance:
+with a cycler in hand for instance, this is a removal interaction that can be
+played around by leaving 1 card in the pile. If they target you with the
+mode that make you draw you don't need to use your cycler, and if they don't and
+instead opt to only exile the Oracle then you still have the opportunity to draw
+the last card of the pile.
+
+Cephalid Coliseum is a lot more difficult to navigate through but does require
+them to reach _Threshold_ and is therefore sensitive to sideboard cards you will
+bring in. Winning with 2 Oracles and 4 devotion to {U} is the straightforward
+option but :card[Jace, Wielder of Mysteries] is equally resolutive albeit more
+costly.
+
+### Fateseal Effects
+
+:::row{variant=CENTERED}
 Jace, the Mind Sculptor
 Portent
+Natural Selection
 :::
 
 These are only relevant when building a pass-the-turn pile. Jace is likely the
-least uncommon one to face and is easily beaten by placing an otherwise
-innocuous cantrip as the top card. If the opponent _upticks_ Jace then they
-cannot _hit_ an integral piece and even if they allow it to stay on top you can
-still execute the pile without hindrance.
+more common one to face and is easily beaten by placing an otherwise
+innocuous cantrip as the top card.
 
-### Vendilion Clique / Kolaghan's Command
+### Instant-Speed Discard Effects
 
 :::row{variant=CENTERED}
 Vendilion Clique
 Kolaghan's Command
 :::
 
-Both of these cards tend to come from control shells. Command is likely more
-disruptive but can be played around assuming you are able to ensure you have one
-additional card in hand than needed. Often this means not being able to utilise
-LED however you can otherwise treat it like any other pile where you need to
-keep countermagic up. Clique is tricky when trying to utilise cards like Predict
-or Ideas Unbound but is relatively superfluous if executing something with just
-cantrips. You can also build a pile around it _if_ you can predict when the
-opponent will use it however that can be tricky. Also be mindful of timing for
-your opponent being able to _snipe_ an LED with the artifact destruction mode.
+Both of these cards tend to come from forgotten control shells. Command is
+likely more disruptive but can be played around assuming you are able to ensure
+you have one additional card in hand than needed. Often this means not being
+able to utilise :card[LED] however you can otherwise treat it like any other
+pile where you need to keep countermagic up. Clique is tricky when trying to
+utilise cards like Predict or Ideas Unbound but is relatively superfluous if
+executing something with just cantrips. You can also build a pile around it _if_
+you can predict when the opponent will use it however that can be tricky. be
+mindful of timing for your opponent being able to _snipe_ an LED with the
+artifact destruction mode.
 
-### Stifle / Trickbind / Torpor Orb / Dress Down
+### Stifle Effects
 
 :::row{variant=CENTERED}
+Consign to Memory
 Stifle
 Trickbind
-Torpor Orb
-Dress Down
+Tishana's Tidebinder
 :::
 
-These effects all seek to prevent the Thassa's Oracle trigger from either
-resolving or ever triggering in the first place. For any permanent based one you
-will need to remove it to be able to win from the Oracle trigger. For the
-instant speed ones, you will need some sort of interaction, either countermagic
-or discard (however in the case of :card[Trickbind] you have to be proactive
-thanks to the split second ability) so something like Duress is a must. You can
-also think about using a second Oracle in your pile if you only suspect a single
-use example of these effects.
+These effects are all effects that seek to prevent the Thassa's Oracle trigger
+from resolving. You will need some sort of interaction, either countermagic or
+discard. Discard is very powerful in those matchups as the information gained is
+very valuable and will help setup piles where 2 Oracles are necessary in order
+to burn through the opposing interaction.
 
-### Thoughtseize / Thoughtknot Seer / Cabal Therapy
+### Humility Effects
 
 :::row{variant=CENTERED}
-Tsz
-Thoughtknot Seer
-CT
+Torpor Orb
+Dress Down
+Doorkeeper Thrull
 :::
 
-These effects tend to only be relevant for PTT piles. Normally they can be
-safely ignored however they may cause delay to your pile winning or, in the
-worst case scenario, could take your Oracle out of your hand leaving you unable
-to win. Just be mindful of when these cards could come up if building a PTT
-pile.
+These permanent-based lock pieces used to be handled with bounce spells from the
+sideboard however some of them now having Flash makes it somewhat unreliable.
+They interact with Oracle by preventing the trigger to ever reach the stack and
+therefore require a different approach. For instance, discard won't necessarily
+take care of Dress Down as they can simply cast it in response forcing you to
+pass the turn. The rise of the Stiflenought archetype has made some pilots go as
+far as listing :card[Jace, Wielder of Mysteries] or less commonly
+:card[Laboratory Maniac] in order to completely bypass both Stifle effect and
+ETB-hate.
 
-### Endurance / Thran Foundry
+### Endurance Effects
 
 :::row{variant=CENTERED}
 Endurance | MH2
 Thran Foundry
+Terminus
 :::
 
 Generally speaking, beating Endurance(s) and similar effects involves one or
