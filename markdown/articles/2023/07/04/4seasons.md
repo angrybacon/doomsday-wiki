@@ -29,7 +29,7 @@ check_ was... Citadel Doomsday. I actually call it _Citadel City_ both as a nod
 to _Crash Team Racing_ and because _Citadel Doomsday_ is way too understandable
 to be a Legacy deck name.
 
-::tweet{id=1635026635538960391}
+https://twitter.com/Fuz651/status/1635026635538960391
 
 Fun fact: that Sunday we switched to _Daylight Saving Time_ in Italy. I strolled
 into the Blue Dojo Discord chat and randomly asked if anyone was going to play
@@ -46,7 +46,7 @@ it. Easy. I also got some of the nastiest Preordain I've ever gotten. Stuff like
 Dark ritual and Street Wraith in hand, Preordain into Thoughtseize plus
 Doomsday.
 
-::tweet{id=1635011684334206977}
+https://twitter.com/Fuz651/status/1635011684334206977
 
 I eventually top8'd and lost in the first round, which was a great result
 considering that my idea at the start of the tournament was to incinerate 300
@@ -75,7 +75,7 @@ without having a significant amount of testing.
 In the end I submitted the same 75 that I registered at the previous 4Seasons
 for both Saturday and Sunday:
 
-::tweet{id=1665758688018157568}
+https://twitter.com/Fuz651/status/1665758688018157568
 
 [Link to the decklist](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
 

@@ -1,5 +1,5 @@
 import { mdiAccount, mdiCalendar } from '@mdi/js';
-import Icon from '@mdi/react';
+import { Icon } from '@mdi/react';
 import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
 

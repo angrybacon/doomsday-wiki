@@ -1,5 +1,5 @@
 import { mdiChevronUp } from '@mdi/js';
-import Icon from '@mdi/react';
+import { Icon } from '@mdi/react';
 import {
   Fab,
   Fade,

@@ -660,7 +660,7 @@ d8dk32 recently forwarded me a tweet by Stephen Menendian (designer of the 2012
 iteration of Meandeck Doomsday) who posted this picture as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
-::tweet{id=1242650950415691776}
+https://twitter.com/SMenendian/status/1242650950415691776
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)

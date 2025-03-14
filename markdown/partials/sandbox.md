@@ -528,11 +528,7 @@ The following items are not supported within tables:
 
 ## Twitter
 
-```md
-::tweet{id=1574576125535129600}
-```
-
-::tweet{id=1574576125535129600}
+Deprecated
 
 ## YouTube
 

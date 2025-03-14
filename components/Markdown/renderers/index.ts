@@ -12,5 +12,4 @@ export * from './Row';
 export * from './Soundcloud';
 export * from './Spoiler';
 export * from './Table';
-export * from './Tweet';
 export * from './Youtube';

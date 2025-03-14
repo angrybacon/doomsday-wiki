@@ -1,5 +1,5 @@
 import { mdiCached } from '@mdi/js';
-import Icon from '@mdi/react';
+import { Icon } from '@mdi/react';
 import { alpha, Box, IconButton } from '@mui/material';
 import { useState, type FunctionComponent, type ReactNode } from 'react';
 

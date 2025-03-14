@@ -45,7 +45,7 @@ taken screenshots of the time I cast a :card[Preordain] with triple active
 Spelldancer, leading into Doomsday+Oracle from hand with 5 devotion, but this _2
 mana kill two :card[Murktide Regent]s_ was pretty satisfying as well.
 
-::tweet{id=1624734026836705281}
+https://twitter.com/Fuz651/status/1624734026836705281
 
 At this point I was leaning towards playing Esper Slow Doomsday at the 4S main
 event, as I've already had a couple of decent finishes with it. The sudden surge
@@ -70,7 +70,7 @@ both of them. Not bad. I made a couple of changes and submitted my decklist.
 
 ::decklist{path=2023/03/turbo.fuz65}
 
-::tweet{id=1632482398716698625}
+https://twitter.com/Fuz651/status/1632482398716698625
 
 This build is very similar to my stock version of {B}{U}{G} Turbo, except for a
 second :card[Thoughtseize] over the second :card[Duress] (mostly for Initiative)
@@ -430,7 +430,7 @@ and we had to stop our game just as my position was starting to get shaky. By
 the way, it was my first OTB game with a clock and i kept forgetting about it,
 so I would have probably lost to time anyway.
 
-::tweet{id=1633363236069179392}
+https://twitter.com/MarcoMontani17/status/1633363236069179392
 
 The judge came back with bad news. I had listed 2 Duress/1 Thoughtseize instead
 of 2 Thoughtseize/1 Duress. I had exported my list from MTGO and forgot to
@@ -583,4 +583,4 @@ publish! Remember anyone is able to submit content to the Wiki and we'd love to
 see more from the community! Congrats again to Luca who is my favourite Dakkon
 lover and champion of the {G} splash!_
 
-::tweet{id=1632876228683202561}
+https://twitter.com/Fuz651/status/1632876228683202561

@@ -26,7 +26,6 @@ import {
   TableCell,
   TableHead,
   TableRow,
-  Tweet,
   Youtube,
 } from '@/components/Markdown/renderers';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
@@ -71,7 +70,6 @@ const COMPONENTS_EXTRA = {
   soundcloud: Soundcloud,
   spoiler: Spoiler,
   spoils: SpoilsCalculator,
-  tweet: Tweet,
   youtube: Youtube,
 } as const;
 
