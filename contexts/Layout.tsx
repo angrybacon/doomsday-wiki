@@ -1,7 +1,12 @@
 'use client';
 
-import { useParams } from 'next/navigation';
-import { createContext, useState, type PropsWithChildren } from 'react';
+import { useParams, usePathname } from 'next/navigation';
+import {
+  createContext,
+  useEffect,
+  useState,
+  type PropsWithChildren,
+} from 'react';
 import { z } from 'zod';
 
 import { zCategory } from '@/tools/z/schemas';
@@ -16,16 +21,24 @@ export const LayoutContext = createContext({
 export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const [isOpen, setIsOpen] = useState(false);
   const { chapter = null } = useParams();
+  const pathname = usePathname();
   const category = zCategory.nullable().parse(chapter);
+
+  useEffect(() => {
+    // NOTE With the page router, this used to be handled with router events
+    //      directly where the drawer would close as soon as the navigation
+    //      started. However the current implementation requires the navigation
+    //      to complete successfully.
+    //      router.events.on('routeChangeStart', onClose);
+    onClose();
+  }, [pathname]);
+
+  const onClose = () => setIsOpen(false);
+
+  const onOpen = () => setIsOpen(true);
+
   return (
-    <LayoutContext.Provider
-      value={{
-        category,
-        isOpen,
-        onClose: () => setIsOpen(false),
-        onOpen: () => setIsOpen(true),
-      }}
-    >
+    <LayoutContext.Provider value={{ category, isOpen, onClose, onOpen }}>
       {children}
     </LayoutContext.Provider>
   );
