@@ -6,8 +6,6 @@ import { deepmerge } from '@mui/utils';
 import { blur, recess } from '@/theme/mixins';
 import { article, primary, primer, report, secondary } from '@/theme/palette';
 
-import '@fontsource/libre-baskerville';
-
 /* eslint-disable @typescript-eslint/consistent-type-definitions */
 
 declare module '@mui/material/Chip' {

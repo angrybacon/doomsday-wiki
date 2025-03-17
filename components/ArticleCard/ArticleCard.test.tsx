@@ -1,7 +1,7 @@
-import { render, screen } from '@testing-library/react';
 import { type ComponentProps } from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
+import { render, screen } from '@/tools/test';
 
 jest.mock('@/components/ArticleChip/ArticleChip', () => ({
   ArticleChip: 'div',

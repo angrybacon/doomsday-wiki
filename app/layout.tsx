@@ -21,6 +21,8 @@ import { primary } from '@/theme/palette';
 import { theme } from '@/theme/theme';
 import { MENU } from '@/tools/markdown/menu';
 
+import '@fontsource/libre-baskerville';
+
 export const dynamicParams = false;
 
 export const metadata: Metadata = {

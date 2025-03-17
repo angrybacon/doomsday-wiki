@@ -29,6 +29,13 @@ export default [
         ],
         'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
         'no-console': ['error', { allow: ['error', 'warn'] }],
+        'no-restricted-imports': [
+          'error',
+          {
+            message: "Use '@/tools/test' instead",
+            name: '@testing-library/react',
+          },
+        ],
       },
     },
   ].map((it) => ({
