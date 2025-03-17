@@ -25,7 +25,6 @@ export const Youtube: FunctionComponent<Props> = ({ id, node }) => {
   return (
     <Box
       sx={({ mixins }) => ({
-        ...mixins.barf,
         border: 1,
         borderColor: 'divider',
         borderLeft: 0,

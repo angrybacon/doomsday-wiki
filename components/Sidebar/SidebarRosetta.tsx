@@ -1,3 +1,5 @@
+'use client';
+
 import {
   Table,
   TableBody,
@@ -9,15 +11,15 @@ import {
 } from '@mui/material';
 import { useEffect, useState, type FunctionComponent } from 'react';
 
+import { useLayout } from '@/hooks/useLayout';
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
-import { type CATEGORIES } from '@/tools/markdown/constants';
 
 type Props = {
-  category: (typeof CATEGORIES)[number] | undefined;
   sx?: SxProps;
 };
 
-export const SidebarRosetta: FunctionComponent<Props> = ({ category, sx }) => {
+export const SidebarRosetta: FunctionComponent<Props> = ({ sx }) => {
+  const { category } = useLayout();
   const [rosetta, setRosetta] = useState<Rosetta>([]);
 
   useEffect(() => {

@@ -16,6 +16,14 @@ export type Partial = {
   text: string;
 };
 
+type ArticleMatter = {
+  authors: string;
+  banner: string;
+  kind: (typeof KINDS)[number];
+  tags: (typeof TAGS)[number][];
+  title: string;
+};
+
 export type Article = Partial & {
   banner: Banner;
   matter: ArticleMatter;
@@ -30,16 +38,5 @@ export type ArticleCard = {
 
 export type Chapter = Partial & {
   banner: Banner;
-  matter: {
-    banner: string;
-    title: string;
-  };
-};
-
-export type ArticleMatter = {
-  authors: string;
-  banner: string;
-  kind: (typeof KINDS)[number];
-  tags: (typeof TAGS)[number][];
-  title: string;
+  matter: { banner: string; title: string };
 };

@@ -22,7 +22,7 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
         onClick={onFlip}
         sx={({ breakpoints, palette, shadows, spacing }) => ({
           backdropFilter: 'blur(2px)',
-          backgroundColor: alpha(palette.common.white, 0.4),
+          bgcolor: alpha(palette.common.white, 0.4),
           boxShadow: shadows[1],
           height: spacing(5),
           left: 0,
@@ -31,7 +31,7 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
           right: 0,
           top: '13%',
           width: spacing(5),
-          '&:hover': { backgroundColor: alpha(palette.common.white, 0.5) },
+          '&:hover': { bgcolor: alpha(palette.common.white, 0.5) },
           [breakpoints.up('sm')]: {
             height: spacing(6),
             left: 'unset',

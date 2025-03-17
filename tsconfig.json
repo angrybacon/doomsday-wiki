@@ -6,6 +6,8 @@
     "module": "preserve",
     "noEmit": true,
     "paths": {
+      "@/app/*": ["./app/*"],
+      "@/contexts/*": ["./contexts/*"],
       "@/components/*": ["./components/*"],
       "@/hooks/*": ["./hooks/*"],
       "@/theme/*": ["./theme/*"],

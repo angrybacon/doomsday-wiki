@@ -1,3 +1,5 @@
+'use client';
+
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -8,7 +10,7 @@ import {
   ListItemText,
 } from '@mui/material';
 import NextLink from 'next/link';
-import { useRouter } from 'next/router';
+import { useParams } from 'next/navigation';
 import { useState } from 'react';
 
 import { type MENU } from '@/tools/markdown/menu';
@@ -21,9 +23,7 @@ type Props = {
 };
 
 export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
-  const { query } = useRouter();
-  const currentChapter = `${query.category}`.toUpperCase();
-  const currentSlug = `${query.chapter}`;
+  const { chapter: currentChapter, slug: currentSlug } = useParams() || {};
   const [isOpen, setIsOpen] = useState(chapter === currentChapter);
 
   if (!subtitle || !title) return null;
@@ -36,7 +36,7 @@ export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
         <ListItemText
           primary={title}
           secondary={subtitle}
-          secondaryTypographyProps={{ variant: 'caption' }}
+          slotProps={{ secondary: { variant: 'caption' } }}
         />
         <Box
           component={Icon}

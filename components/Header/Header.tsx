@@ -1,66 +1,52 @@
+'use client';
+
 import { mdiMenu } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
   alpha,
   AppBar,
-  Box,
+  Divider,
   IconButton,
   Toolbar,
-  useTheme,
+  Tooltip,
 } from '@mui/material';
-import { type FunctionComponent } from 'react';
+import NextLink from 'next/link';
+import { siDiscord } from 'simple-icons';
 
-import { Progress } from '@/components/Progress/Progress';
+import { useLayout } from '@/hooks/useLayout';
 
-type Props = {
-  isMobile: boolean;
-  onSidebarOpen: () => void;
-  withProgress?: boolean;
-};
-
-export const Header: FunctionComponent<Props> = ({
-  isMobile,
-  onSidebarOpen,
-  withProgress = false,
-}) => {
-  const theme = useTheme();
-  const offset = isMobile ? 0 : theme.drawer.width;
+export const Header = () => {
+  const { onOpen } = useLayout();
   return (
-    <>
-      <AppBar
-        elevation={4}
-        sx={({ palette }) => ({
-          backdropFilter: 'blur(12px)',
-          backgroundColor: alpha(palette.background.paper, 0.75),
-          pl: offset,
-        })}
-      >
-        <Toolbar>
-          {isMobile && (
-            <IconButton
-              aria-label="Menu"
-              onClick={onSidebarOpen}
-              sx={{ mr: 1 }}
-            >
-              <Icon path={mdiMenu} size={1} />
-            </IconButton>
-          )}
-        </Toolbar>
-      </AppBar>
-      <Box role="presentation" sx={({ mixins }) => mixins.toolbar} />
-      {withProgress && (
-        <Box
-          sx={{
-            left: offset,
-            position: 'fixed',
-            right: 0,
-            top: 0,
-            zIndex: ({ zIndex }) => zIndex.appBar,
-          }}
+    <AppBar
+      elevation={0}
+      enableColorOnDark
+      sx={({ mixins, palette }) => ({
+        bgcolor: alpha(palette.background.paper, 0.5),
+        ...mixins.blur('weak'),
+      })}
+    >
+      <Toolbar>
+        <IconButton
+          aria-label="Open menu"
+          onClick={onOpen}
+          sx={{ display: { md: 'none' } }}
         >
-          <Progress />
-        </Box>
-      )}
-    </>
+          <Icon path={mdiMenu} size={1} />
+        </IconButton>
+        <Tooltip title="Join our Discord server">
+          <IconButton
+            component={NextLink}
+            href="/discord"
+            size="large"
+            sx={{ ml: 'auto' }}
+            target="_blank"
+          >
+            <Icon path={siDiscord.path} size={0.7} />
+          </IconButton>
+        </Tooltip>
+      </Toolbar>
+      <Divider />
+    </AppBar>
   );
 };

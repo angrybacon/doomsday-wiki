@@ -1,5 +1,6 @@
 import Js from '@eslint/js';
 import PluginImport from 'eslint-plugin-import';
+import PluginReactHooks from 'eslint-plugin-react-hooks';
 import Ts from 'typescript-eslint';
 
 // NOTE Some plugins have yet to properly migrate to being compatible with the
@@ -8,16 +9,16 @@ import Ts from 'typescript-eslint';
 //
 //      - eslint-plugin-jsx-a11y
 //      - eslint-plugin-react
-//      - eslint-plugin-react-hooks
 //      - next/core-web-vitals
 
 export default [
   ...[
     Js.configs.recommended,
+    PluginReactHooks.configs['recommended-latest'],
     ...Ts.configs.strict,
     ...Ts.configs.stylistic,
     {
-      plugins: { import: PluginImport },
+      plugins: { import: PluginImport, 'react-hook': PluginReactHooks },
       rules: {
         '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
         '@typescript-eslint/consistent-type-imports': 'error',

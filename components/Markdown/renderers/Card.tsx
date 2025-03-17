@@ -16,9 +16,5 @@ export const Card: FunctionComponent<Props> = ({ name, node }) => {
     console.error('Missing card name', node);
     return null;
   }
-  return (
-    <Link external href={`${SCRYFALL_SEARCH}?q=!"${name}"`}>
-      {name}
-    </Link>
-  );
+  return <Link href={`${SCRYFALL_SEARCH}?q=!"${name}"`}>{name}</Link>;
 };

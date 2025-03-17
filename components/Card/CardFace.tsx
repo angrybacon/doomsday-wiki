@@ -29,7 +29,7 @@ export const CardFace: FunctionComponent<Props> = ({ active, data, sx }) => {
           src={image}
           sx={[
             {
-              backgroundColor: ({ palette }) => palette.action.selected,
+              bgcolor: ({ palette }) => palette.action.selected,
               borderRadius: ['2px', '4px'],
               display: 'block',
               height: 1,

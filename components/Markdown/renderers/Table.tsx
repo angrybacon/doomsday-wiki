@@ -13,7 +13,6 @@ import { type Components, type ExtraProps } from 'react-markdown';
 export const Table: Components['table'] = ({ children }) => (
   <MuiTableContainer
     sx={({ mixins }) => ({
-      ...mixins.barf,
       borderTop: 1,
       borderTopColor: 'divider',
       overflowX: 'auto',

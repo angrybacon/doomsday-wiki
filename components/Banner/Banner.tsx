@@ -1,122 +1,112 @@
-import { alpha, Box, Divider, Typography } from '@mui/material';
+'use client';
+
+import { Box, Typography, type SxProps } from '@mui/material';
 import Image from 'next/image';
-import { type FunctionComponent } from 'react';
 
 import { type Banner as BannerModel } from '@/tools/markdown/types';
 
 type Props = {
+  author?: string;
   banner: BannerModel;
-  footer?: string[];
+  minutes: number;
   title: string;
+  sx: SxProps;
 };
 
-export const Banner: FunctionComponent<Props> = ({
-  banner,
-  footer = [],
-  title,
-}) => (
-  <>
-    <Box
-      aria-level={1}
-      role="heading"
-      sx={({ palette }) => ({
-        // NOTE Add a dark background to blend the blurring effect
-        backgroundColor: palette.grey[palette.mode === 'light' ? 600 : 800],
+export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
+  <Box
+    aria-level={1}
+    className="dark"
+    role="heading"
+    sx={[
+      {
+        alignItems: 'center',
+        // NOTE Chromium (?) expands the child blur area outside of the border
+        //      radius. This resets the blur in order to avoid white corners.
+        backdropFilter: 'blur(0)',
+        borderRadius: 4,
+        display: 'flex',
+        height: { xs: 160, md: 250 },
+        justifyContent: 'center',
         overflow: 'hidden',
         position: 'relative',
-        textShadow: '0 0 8px black',
+      },
+      ...(Array.isArray(sx) ? sx : [sx]),
+    ]}
+    title={banner.title}
+  >
+    <Image
+      alt={banner.title}
+      blurDataURL={banner.artPreview}
+      fill
+      placeholder="blur"
+      priority
+      src={banner.art}
+      style={{ objectFit: 'cover' }}
+    />
+    <Box
+      role="presentation"
+      sx={({ mixins }) => ({
+        ...mixins.blur('weak'),
+        inset: 0,
+        position: 'absolute',
       })}
-      title={banner.title}
+    />
+    <Box
+      sx={{
+        display: 'grid',
+        gap: 4,
+        justifyItems: 'center',
+        position: 'absolute',
+        px: 2,
+        textAlign: 'center',
+        textShadow: '0 0 8px black',
+      }}
     >
-      <Box
-        role="presentation"
+      <Typography
         sx={{
-          height: { xs: 190, md: 280 },
-          overflow: 'hidden',
-          position: 'relative',
+          color: 'text.primary',
+          fontSize: { xs: 'h6.fontSize', md: 'h2.fontSize' },
         }}
+        variant="h1"
       >
-        <Image
-          alt={banner.title}
-          blurDataURL={banner.artPreview}
-          fill
-          placeholder="blur"
-          priority
-          src={banner.art}
-          // NOTE The fit property has to be set directly on the image element
-          //      for the behavior to be propagated to the blur preview.
-          style={{ filter: 'blur(4px)', objectFit: 'cover' }}
-        />
-      </Box>
-      <Box
-        sx={({ palette }) => ({
-          alignItems: 'center',
-          backgroundColor: alpha(palette.common.black, 0.3),
-          bottom: 0,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          left: 0,
-          margin: 0,
-          position: 'absolute',
-          px: { xs: 2, md: 3, lg: 4 },
-          right: 0,
-          top: 0,
-        })}
-      >
+        {title}
+      </Typography>
+      {banner.flavor && (
         <Typography
           sx={{
-            color: 'common.white',
-            fontSize: { xs: '1.8rem', md: '2.4rem', lg: '3rem' },
-            textAlign: 'center',
+            color: 'text.secondary',
+            display: { xs: 'none', sm: 'block' },
+            fontStyle: 'italic',
+            maxWidth: '80%',
+            whiteSpace: 'pre-wrap',
           }}
-          variant="h1"
+          variant="subtitle2"
         >
-          {title}
+          {banner.flavor}
         </Typography>
-        {banner.flavor && (
-          <Typography
-            component="span"
-            sx={({ breakpoints }) => ({
-              color: 'grey.300',
-              fontStyle: 'italic',
-              maxWidth: 600,
-              mt: 2,
-              textAlign: 'center',
-              whiteSpace: 'pre-wrap',
-              [breakpoints.only('xs')]: { display: 'none' },
-            })}
-            variant="subtitle2"
-          >
-            {banner.flavor}
-          </Typography>
-        )}
-      </Box>
-      {footer.length > 0 && (
-        <Box
-          sx={({ breakpoints }) => ({
-            bottom: 0,
-            color: 'grey.300',
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-            left: 0,
-            pb: 0.5,
-            px: 1,
-            position: 'absolute',
-            right: 0,
-            textAlign: 'right',
-            [breakpoints.only('xs')]: { flexDirection: 'row' },
-          })}
-        >
-          {footer.map((line) => (
-            <Typography component="div" key={line} variant="caption">
-              {line}
-            </Typography>
-          ))}
-        </Box>
       )}
     </Box>
-    <Divider />
-  </>
+    <Typography
+      sx={{
+        bottom: 0,
+        color: 'text.secondary',
+        display: 'flex',
+        flexDirection: { xs: 'row', md: 'column' },
+        left: 0,
+        pb: 1,
+        px: 2,
+        position: 'absolute',
+        right: 0,
+        textAlign: 'right',
+        textShadow: '0 0 4px black',
+      }}
+      variant="caption"
+    >
+      {author && <div>By {author}</div>}
+      <Box sx={{ ml: 'auto' }}>
+        Reading time: {`${minutes} minute${minutes > 1 ? 's' : ''}`}
+      </Box>
+    </Typography>
+  </Box>
 );

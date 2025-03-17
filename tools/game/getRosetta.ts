@@ -4,7 +4,7 @@ import { type CATEGORIES } from '@/tools/markdown/constants';
 export type Rosetta = [notation: string, name: string][];
 
 export const getRosetta = (
-  category: (typeof CATEGORIES)[number] | undefined,
+  category: (typeof CATEGORIES)[number] | null,
 ): Rosetta =>
   Object.entries(CARDS).reduce<Rosetta>((accumulator, [notation, card]) => {
     const [name, categories] = card;

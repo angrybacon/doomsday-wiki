@@ -21,8 +21,8 @@ importers:
         specifier: 5.2.5
         version: 5.2.5
       '@korumite/kiwi':
-        specifier: 3.2.0
-        version: 3.2.0
+        specifier: 3.3.0
+        version: 3.3.0
       '@mdi/js':
         specifier: 7.4.47
         version: 7.4.47
@@ -144,6 +144,9 @@ importers:
       eslint-plugin-import:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.26.1(eslint@9.19.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.19.0(jiti@2.4.2))
+      eslint-plugin-react-hooks:
+        specifier: 5.2.0
+        version: 5.2.0(eslint@9.19.0(jiti@2.4.2))
       jest:
         specifier: 29.7.0
         version: 29.7.0(@types/node@22.13.10)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.8.2))
@@ -741,8 +744,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@korumite/kiwi@3.2.0':
-    resolution: {integrity: sha512-sCzyGqVP+5OzDXx51mPwGInQt2uEkeWugO1PdYF4sZWPVypg9f3WqyV5ysQGyyaspKgSlS16Q5PS0FZ9rHRj4A==}
+  '@korumite/kiwi@3.3.0':
+    resolution: {integrity: sha512-EcalVp4TSeifozirVOtIQ68MdSgTt1wh93bKxGCXJS+svub+4ZAa8rQXe11FLdxMxOcY7siJvJU9GoJy8x7GfQ==}
 
   '@korumite/ts@1.1.0':
     resolution: {integrity: sha512-qLSpsUXfuo7rkmx0bYtdCkt4jG9XaCzMVjATPEE2l39mSN4p1ncWMlejWottaDS/+JQaigmHEed+MujbuxjZDw==}
@@ -1754,6 +1757,12 @@ packages:
     peerDependenciesMeta:
       '@typescript-eslint/parser':
         optional: true
+
+  eslint-plugin-react-hooks@5.2.0:
+    resolution: {integrity: sha512-+f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy/sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
 
   eslint-scope@8.2.0:
     resolution: {integrity: sha512-PHlWUfG6lvPc3yvP5A4PNyBL1W8fkDUccmI21JUu/+GKZBoH/W5u6usENXUrWFRsyoW5ACUjFGgAFQp5gUlb/A==}
@@ -4381,7 +4390,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@korumite/kiwi@3.2.0':
+  '@korumite/kiwi@3.3.0':
     dependencies:
       mdast-util-toc: 7.1.0
       reading-time: 1.5.0
@@ -5473,6 +5482,10 @@ snapshots:
       - eslint-import-resolver-webpack
       - supports-color
 
+  eslint-plugin-react-hooks@5.2.0(eslint@9.19.0(jiti@2.4.2)):
+    dependencies:
+      eslint: 9.19.0(jiti@2.4.2)
+
   eslint-scope@8.2.0:
     dependencies:
       esrecurse: 4.3.0
@@ -6495,7 +6508,7 @@ snapshots:
 
   make-dir@4.0.0:
     dependencies:
-      semver: 7.6.3
+      semver: 7.7.1
 
   make-error@1.3.6: {}
 

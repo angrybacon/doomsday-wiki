@@ -71,8 +71,7 @@ directives.
   closing pairs. It is possible to nest /container/ directives by using more
   than 3 colons.
 
-See [[https://doomsday.wiki/sandbox/markdown]] for examples of the below
-features.
+See [[https://doomsday.wiki/markdown]] for examples of the below features.
 
 *** Inline Card Links
 

@@ -11,7 +11,6 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
       <Box
         component="span"
         sx={({ mixins }) => ({
-          ...mixins.barf,
           border: 1,
           borderColor: 'divider',
           borderLeft: 0,

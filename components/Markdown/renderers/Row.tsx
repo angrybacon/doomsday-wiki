@@ -4,7 +4,6 @@ import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
-import { gutters } from '@/theme/tools/gutters';
 import { type ScryCard } from '@/tools/scryfall/types';
 import { union } from '@/tools/z/union';
 
@@ -16,14 +15,12 @@ const STYLES: Record<
   (typeof VARIANTS)[number],
   (theme: Theme) => SystemStyleObject<Theme>
 > = {
-  CENTERED: ({ mixins }) => ({
-    ...mixins.gutters,
+  CENTERED: () => ({
     justifyContent: 'space-around',
     mx: -1,
     '> *': { flexBasis: '25%', maxWidth: '25%' },
   }),
   PILE: (theme) => ({
-    ...gutters(theme),
     bgcolor: alpha(theme.palette.primary.light, 0.1),
     border: 1,
     borderColor: 'divider',

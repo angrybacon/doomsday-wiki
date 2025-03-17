@@ -12,7 +12,7 @@ providing work for review.
 
 In a effort to avoid repeating myself and having to maintain things in multiple
 places, the Markdown conventions guidelines will live next to the code. Visit
-=/sandbox/markdown= anywhere the Wiki is hosted to access the guidelines.
+=/markdown= anywhere the Wiki is hosted to access the guidelines.
 
 See [[./CONTRIBUTING_WITH_MARKDOWN.org][CONTRIBUTING_WITH_MARKDOWN]].
 

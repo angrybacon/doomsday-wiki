@@ -28,27 +28,16 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
       customStyle={{
         borderRadius: undefined,
         margin: undefined,
-        paddingLeft: undefined,
-        paddingRight: undefined,
+        padding: undefined,
       }}
       language={language || 'text'}
       style={THEMES[theme.palette.mode]}
-      sx={[
-        ({ mixins, palette }) => ({
-          ...mixins.barf,
-          borderBottomStyle: 'solid',
-          borderBottomWidth: 1,
-          borderColor: palette.divider,
-          borderTopStyle: 'solid',
-          borderTopWidth: 1,
-          display: 'block',
-          fontSize: 'body2.fontSize',
-          my: 0,
-        }),
-        // NOTE Let MUI handle the merging of the viewport queries from `barf`
-        //      and `gutters`.
-        ({ mixins }) => mixins.gutters,
-      ]}
+      sx={{
+        borderRadius: 4,
+        display: 'block',
+        fontSize: 'body2.fontSize',
+        p: 2,
+      }}
     >
       {typeof children === 'string' ? children.trim() : children}
     </Box>
@@ -59,17 +48,14 @@ const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
   <Box
     component="code"
     sx={({ palette }) => ({
-      bgcolor: alpha(palette.primary.light, 0.1),
-      borderColor: alpha(palette.primary.light, 0.2),
-      borderRadius: '4px',
-      borderStyle: 'solid',
-      borderWidth: 1,
+      bgcolor: alpha(palette.primary.main, 0.1),
+      borderRadius: 1,
       color: 'text.secondary',
       fontDisplay: 'swap',
       fontFamily: 'monospace',
-      fontSize: 'body2.fontSize',
-      px: 0.5,
-      py: 0,
+      fontSize: '.9em',
+      px: '.2em',
+      py: '.1em',
     })}
   >
     {children}

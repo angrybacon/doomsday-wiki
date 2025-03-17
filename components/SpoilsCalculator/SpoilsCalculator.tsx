@@ -1,10 +1,11 @@
+'use client';
+
 import { mdiDelete, mdiReload } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
   Box,
   Button,
   ButtonGroup,
-  Divider,
   Grid2 as Grid,
   Table,
   TableBody,
@@ -168,8 +169,7 @@ export const SpoilsCalculator: FunctionComponent<unknown> = () => {
         </Tooltip>
       </ButtonGroup>
       {output.length ? (
-        <TableContainer sx={({ mixins }) => mixins.barf}>
-          <Divider />
+        <TableContainer>
           <Table size="small">
             <TableHead>
               <TableRow>

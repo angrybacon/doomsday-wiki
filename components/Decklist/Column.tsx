@@ -10,22 +10,13 @@ type Props = {
 export const Column: FunctionComponent<Props> = ({ cards }) => {
   if (!cards.length) return null;
   return (
-    <Box
-      component="ul"
-      sx={{ listStyleType: 'none', m: 0, minWidth: 170, p: 0 }}
-    >
+    <Box component="ul" sx={{ m: 0, p: 0 }}>
       {cards.map(([quantity, name]) => (
         <Box component="li" key={name} sx={{ display: 'flex' }}>
-          <Typography
-            component="span"
-            variant="body2"
-            sx={{ maxWidth: '1.6em', minWidth: '1.6em' }}
-          >
+          <Typography variant="body2" sx={{ width: '1.5em' }}>
             {quantity}
           </Typography>
-          <Typography component="span" variant="body2">
-            {name}
-          </Typography>
+          <Typography variant="body2">{name}</Typography>
         </Box>
       ))}
     </Box>

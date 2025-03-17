@@ -1,43 +1,46 @@
-import { mdiAccount, mdiCalendar } from '@mdi/js';
+import { mdiAccountEdit, mdiCalendar } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box } from '@mui/material';
-import { type FunctionComponent } from 'react';
 
 import { ArticleChip } from '@/components/ArticleChip/ArticleChip';
-import { type ArticleMatter } from '@/tools/markdown/types';
 
 type Props = {
+  authors: string;
   date: string | null;
-  matter: ArticleMatter;
+  kind: string;
+  tags: string[];
 };
 
-export const ArticleMeta: FunctionComponent<Props> = ({ date, matter }) => {
-  const { authors, kind, tags = [] } = matter;
-  return (
-    <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 1 }}>
-      <Box sx={{ m: -0.5, '> *': { m: 0.5 } }}>
-        {authors && (
-          <ArticleChip
-            icon={<Icon path={mdiAccount} size={0.5} />}
-            label={authors}
-          />
-        )}
-        {date && (
-          <ArticleChip
-            icon={<Icon path={mdiCalendar} size={0.5} />}
-            label={date}
-          />
-        )}
-        {tags.map((tag) => (
-          <ArticleChip
-            key={tag}
-            label={tag}
-            variant="outlined"
-            sx={{ textTransform: 'lowercase' }}
-          />
-        ))}
-      </Box>
-      <ArticleChip kind={kind} sx={{ ml: 1 }} />
+export const ArticleMeta = ({ authors, date, kind, tags }: Props) => (
+  <Box
+    sx={{
+      alignItems: 'end',
+      display: 'flex',
+      gap: 0.5,
+      justifyContent: 'space-between',
+    }}
+  >
+    <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
+      {authors && (
+        <ArticleChip
+          icon={<Icon path={mdiAccountEdit} size={0.6} />}
+          label={authors}
+        />
+      )}
+      {date && (
+        <ArticleChip
+          icon={<Icon path={mdiCalendar} size={0.6} />}
+          label={date}
+        />
+      )}
+      {tags.map((tag) => (
+        <ArticleChip
+          key={tag}
+          label={tag}
+          sx={{ textTransform: 'lowercase' }}
+        />
+      ))}
     </Box>
-  );
-};
+    <ArticleChip label={kind} sx={{ textTransform: 'lowercase' }} />
+  </Box>
+);
