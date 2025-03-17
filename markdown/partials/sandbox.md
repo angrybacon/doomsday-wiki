@@ -509,6 +509,8 @@ The following items are not supported within tables:
 
 ### Default Alignement
 
+<!-- markdownlint-disable line-length -->
+
 ```md
 | One                              | Two              | Three                     |
 | -------------------------------- | ---------------- | ------------------------- |
@@ -517,6 +519,8 @@ The following items are not supported within tables:
 | Morbi :card[DA] non velit        | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar :spoiler[sapien] in | Cras nec nisl    | Nascetur ridiculus mus    |
 ```
+
+<!-- markdownlint-restore -->
 
 | One                              | Two              | Three                     |
 | -------------------------------- | ---------------- | ------------------------- |
@@ -527,6 +531,7 @@ The following items are not supported within tables:
 
 ### Custom Alignement
 
+<!-- markdownlint-disable line-length -->
 <!-- prettier-ignore-start -->
 
 ```md
@@ -539,6 +544,7 @@ The following items are not supported within tables:
 ```
 
 <!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
 
 | One                              |       Two        |                     Three |
 | :------------------------------- | :--------------: | ------------------------: |
