@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: '404',
 };
 
-export default async () => (
+export default () => (
   <Box
     sx={{
       alignSelf: 'center',

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default async () => {
-  const markdown = await getMarkdown('partials', 'sandbox');
+  const markdown = await getMarkdown('partials', 'markdown');
   const toc = makeToc(markdown.text);
   return (
     <>

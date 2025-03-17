@@ -1,6 +1,6 @@
 'use client';
 
-import { useSearchParams } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { createContext, useState, type PropsWithChildren } from 'react';
 import { z } from 'zod';
 
@@ -15,8 +15,8 @@ export const LayoutContext = createContext({
 
 export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const [isOpen, setIsOpen] = useState(false);
-  const query = useSearchParams();
-  const category = zCategory.nullable().parse(query?.get('category'));
+  const { chapter = null } = useParams();
+  const category = zCategory.nullable().parse(chapter);
   return (
     <LayoutContext.Provider
       value={{

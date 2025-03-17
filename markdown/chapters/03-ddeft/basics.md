@@ -17,6 +17,8 @@ and tutoring ability is effectively combined with EF's play-off-the-top clause
 to allow for iterate-able wins requiring no draw spells to _crack_ into the
 pile.
 
+## Simple Piles
+
 Once an Experimental Frenzy is on board, a resolved Doomsday allows for a quick
 pile with innate durability.
 
