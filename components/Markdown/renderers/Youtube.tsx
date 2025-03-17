@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-/** IFrame permissions for the YouTube widget. */
+/** IFrame permissions for the YouTube widget */
 const IFRAME_PERMISSIONS = [
   'accelerometer',
   'autoplay',
@@ -24,12 +24,12 @@ export const Youtube: FunctionComponent<Props> = ({ id, node }) => {
 
   return (
     <Box
-      sx={({ mixins }) => ({
+      sx={{
         border: 1,
         borderColor: 'divider',
-        borderLeft: 0,
-        borderRight: 0,
-      })}
+        borderRadius: 4,
+        overflow: 'hidden',
+      }}
     >
       <Box
         sx={{
@@ -46,11 +46,9 @@ export const Youtube: FunctionComponent<Props> = ({ id, node }) => {
           src={`https://www.youtube.com/embed/${id}`}
           sx={{
             border: 0,
-            borderRadius: 0,
             display: 'block',
             height: 1,
-            left: 0,
-            top: 0,
+            inset: 0,
             position: 'absolute',
             width: 1,
           }}

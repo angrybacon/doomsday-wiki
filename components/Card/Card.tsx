@@ -13,7 +13,7 @@ type Props = {
 export const Card: FunctionComponent<Props> = ({ data }) => {
   const [selectedFace, setSelectedFace] = useState(0);
 
-  /** Toggle index between 0 and 1. */
+  /** Toggle index between 0 and 1 */
   const onFlip = () => setSelectedFace((previous) => 1 - previous);
 
   const button: ReactNode =

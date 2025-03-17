@@ -1,4 +1,4 @@
-/** Convenience typing to represent a successful data yield. */
+/** Convenience typing to represent a successful data yield */
 export type ScryData = ScryDataItem | ScryDataList;
 
 type ScryDataItemImages = {
@@ -42,13 +42,13 @@ export type ScryDataList = {
   warnings: string[] | null;
 };
 
-/** Sanitized Scryfall data for a single card. */
+/** Sanitized Scryfall data for a single card */
 export type ScryCard = {
   artist: string;
   flavor: string | null;
   images: {
     art: string | null;
-    /** Preview image as a Data URL. */
+    /** Preview image as a Data URL */
     artPreview: string | null;
     full: string | null;
   };
@@ -57,5 +57,5 @@ export type ScryCard = {
   setName: string;
 };
 
-/** Dictionary of Scryfall request settlements. */
+/** Dictionary of Scryfall request settlements */
 export type Scries = Record<string, ScryCard[]>;

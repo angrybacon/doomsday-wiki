@@ -7,7 +7,7 @@ import { visit } from 'unist-util-visit';
 import { getCard } from '@/tools/game/getCard';
 import { type Remarker } from '@/tools/remark/typings';
 
-/** Augment card directives with the real cards names. */
+/** Augment card directives with the real cards names */
 export const remarkCard: Remarker = () => (tree) => {
   const tests = [{ name: 'card', type: 'textDirective' }];
   visit(tree, tests, (node) => {

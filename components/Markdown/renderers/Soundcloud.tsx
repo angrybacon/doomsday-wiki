@@ -1,12 +1,11 @@
 import { Box } from '@mui/material';
-import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 type Props = ExtraProps & {
   url?: string;
 };
 
-export const Soundcloud: FunctionComponent<Props> = ({ node, url }) => {
+export const Soundcloud = ({ node, url }: Props) => {
   if (!url) {
     console.error('Missing URL for SoundCloud widget', node);
     return null;
@@ -24,7 +23,15 @@ export const Soundcloud: FunctionComponent<Props> = ({ node, url }) => {
       component="iframe"
       scrolling="no"
       src={`https://w.soundcloud.com/player/?${parameters.join('&')}`}
-      sx={{ border: 0, borderRadius: 1, display: 'block', width: 1 }}
+      sx={{
+        border: 1,
+        borderColor: 'divider',
+        borderRadius: 4,
+        display: 'block',
+        overflow: 'hidden',
+        p: 1.5,
+        width: 1,
+      }}
       title={url}
     />
   );

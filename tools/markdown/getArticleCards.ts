@@ -5,7 +5,7 @@ import { getBanner } from '@/tools/markdown/getBanner';
 import { type ArticleCard } from '@/tools/markdown/types';
 import { zArticleMatter } from '@/tools/z/schemas';
 
-/** Read file system and return a list of all articles. */
+/** Read file system and return a list of all articles */
 export const getArticleCards = async (): Promise<ArticleCard[]> =>
   Promise.all(
     ARTICLES.CARDS.map(async (card) => {

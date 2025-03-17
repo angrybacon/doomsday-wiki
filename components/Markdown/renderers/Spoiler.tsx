@@ -25,16 +25,16 @@ export const Spoiler: FunctionComponent<Props> = ({ children, node }) => {
       role="button"
       sx={[
         {
-          backgroundColor: 'action.selected',
-          borderRadius: '4px',
-          px: '2px',
+          bgcolor: 'action.selected',
+          borderRadius: 1,
+          px: '.2em',
           py: '.1em',
         },
         !isSpoiled &&
           (({ palette }) => ({
             ...(palette.mode === 'dark'
-              ? { backgroundColor: 'grey.900', color: 'grey.900' }
-              : { backgroundColor: 'grey.400', color: 'grey.400' }),
+              ? { bgcolor: 'grey.900', color: 'grey.900' }
+              : { bgcolor: 'grey.400', color: 'grey.400' }),
             cursor: 'pointer',
           })),
       ]}

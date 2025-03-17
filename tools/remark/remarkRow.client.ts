@@ -7,7 +7,7 @@ import { visit } from 'unist-util-visit';
 import { type Remarker } from '@/tools/remark/typings';
 import { type Scries } from '@/tools/scryfall/types';
 
-/** Augment row directives with metadata found in `scries. */
+/** Augment row directives with metadata found in `scries */
 export const remarkRow: Remarker<[{ scries: Scries }]> =
   ({ scries }) =>
   (tree) => {

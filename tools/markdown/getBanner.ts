@@ -2,7 +2,7 @@ import { type Banner } from '@/tools/markdown/types';
 import { readFaces } from '@/tools/scryfall/read';
 import { scry } from '@/tools/scryfall/scry';
 
-/** Fetch the artwork for a given Scryfall query. */
+/** Fetch the artwork for a given Scryfall query */
 export const getBanner = async (query: string): Promise<Banner> => {
   const data = await scry(query);
   const [face] = await readFaces(data, { withPreview: true });

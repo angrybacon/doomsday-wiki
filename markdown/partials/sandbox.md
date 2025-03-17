@@ -17,14 +17,14 @@ are a few more conventions:
 - Heading levels start at 2 in order to account for the page title
 - Don't use unicode quote characters eg. `‘’` and `“”`. They might not render
   properly for everyone so ASCII quotes should be preferred
-- A colon right in front of a word will be interpreted as a Markdown /directive/
+- A colon right in front of a word will be interpreted as a Markdown directive
   so make sure you have a space right after `:` when it is used as punctuation
 - A dot right after a number character ie. when you end your sentence with a
   digit, will sometimes render as a numbered list item. To avoid this behavior,
   escape the dot with a backslash: `Brainstorm is good, you might want all 4\.`
 - Depending on one's Markdown client, a dot at the end of a link can be
   considered part of said link eg. when you end your sentences with a link.
-  Avoid bare links, wrap them with angled brackets `<` and `>`
+  Avoid bare links inside of prose, wrap them with angled brackets `<` and `>`
 
 ## Accordions
 
@@ -60,7 +60,11 @@ Consecutive accordions stack against one another.
 :::accordion[Click to expand]
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue `sapien` turpis quis purus.
+libero elit rutrum orci.
+:::
+
+:::accordion[Click to expand]
+Et congue `sapien` turpis quis purus.
 :::
 
 :::accordion[Click to expand]
@@ -72,7 +76,11 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 :::accordion[Click to expand]
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
 tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue `sapien` turpis quis purus.
+libero elit rutrum orci.
+:::
+
+:::accordion[Click to expand]
+Et congue `sapien` turpis quis purus.
 :::
 
 :::accordion[Click to expand]
@@ -82,16 +90,18 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 
 ### Nested Directives
 
-```md
+````md
 ::::accordion[Click to expand]
-:::spoiler
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
-Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur] pharetra quam.
-:::
+```ts
+import { MANA_RE } from '@/tools/mana/constants';
+
+/** Find mana symbols in `text` and replace them with the directive syntax */
+export const toDirective = (text: string): string => {
+  const result = text.replace(MANA_RE, ':mana[$1]');
+  return result;
+};
+```
 
 :::row
 DD | WTH
@@ -102,17 +112,19 @@ DD | PLST
 DD | SLD | 1115
 :::
 ::::
-```
+````
 
 ::::accordion[Click to expand]
-:::spoiler
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
-Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur] pharetra quam.
-:::
+```ts
+import { MANA_RE } from '@/tools/mana/constants';
+
+/** Find mana symbols in `text` and replace them with the directive syntax */
+export const toDirective = (text: string): string => {
+  const result = text.replace(MANA_RE, ':mana[$1]');
+  return result;
+};
+```
 
 :::row
 DD | WTH
@@ -130,7 +142,7 @@ DD | SLD | 1115
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
 
-/** Find mana symbols in `text` and replace them with the directive syntax. */
+/** Find mana symbols in `text` and replace them with the directive syntax */
 export const toDirective = (text: string): string => {
   const result = text.replace(MANA_RE, ':mana[$1]');
   return result;
@@ -141,7 +153,7 @@ export const toDirective = (text: string): string => {
 ```ts
 import { MANA_RE } from '@/tools/mana/constants';
 
-/** Find mana symbols in `text` and replace them with the directive syntax. */
+/** Find mana symbols in `text` and replace them with the directive syntax */
 export const toDirective = (text: string): string => {
   const result = text.replace(MANA_RE, ':mana[$1]');
   return result;
@@ -150,7 +162,23 @@ export const toDirective = (text: string): string => {
 
 ## Decklists
 
-Coming soon &trade;
+```md
+::decklist{path=meandeck.budget}
+```
+
+::decklist{path=meandeck.budget}
+
+```md
+::decklist{path=2023/07/turbo.fuz65}
+::decklist{path=ddeft}
+::decklist{path=ddft}
+::decklist{path=meandeck.ub}
+```
+
+::decklist{path=2023/07/turbo.fuz65}
+::decklist{path=ddeft}
+::decklist{path=ddft}
+::decklist{path=meandeck.ub}
 
 ## Footnotes
 
@@ -162,38 +190,15 @@ The header of a Markdown document can be referred to as the _frontmatter_. It is
 used to hold a body of YAML metadata for the current document without polluting
 its actual content.
 
-### Chapters
+| Field     | Articles       | Chapters       | Notes                                                                                                        |
+| --------- | -------------- | -------------- | ------------------------------------------------------------------------------------------------------------ |
+| `authors` | Yes            | Yes            | Comma-separated list of authors that should be credited                                                      |
+| `banner`  | Yes (required) | Yes (required) | Configure a banner for the page. Scryfall syntax is supported                                                |
+| `kind`    | Yes (required) |                | Available values at [constants.ts][constants]                                                                |
+| `tags`    | Yes            |                | Available values at [constants.ts][constants]. Used to pick which abbreviations are available in the sidebar |
+| `title`   | Yes (required) | Yes (required) | Wrap with double quotes if using special characters such as `:` and `'`                                      |
 
-- `authors`: Comma-separated list of authors that should be credited for the
-  current chapter. Currently unused
-- `banner`: (mandatory) Configure a benner for the page. Scryfall syntax is
-  supported
-- `order`: A index number to specify the order of your chapter under its
-  collapsible group within the sidebar. By default chapters are alpha-sorted
-  using their slug ie. their path
-- `title`: (mandatory) A string to serve as page title. Wrap it with double
-  quotes to allow special characters such as `:` and `'`
-
-### Articles
-
-Article documents don't have an `order` property but support other fields. Use
-existing articles for inspiration.
-
-- `authors`: Comma-separated list of authors that should be credited for the
-  current chapter
-- `banner`: (mandatory) Set a banner for the article to display in the homepage
-  as well as at the top of the article in its own dedicated page. Scryfall
-  syntax is supported
-- `kind`: (mandatory) A kind symbol. Available values can be found in the keys
-  at [Kind.ts][constants:kind]
-- `title`: (mandatory) The string used for your article page title. Note that
-  this does not have any effect on the URL for your article
-- `tags`: An array of tag symbols. Available values can be found in the keys at
-  [Tag.ts][constants:tag]. Tags are used to dictate which card abbreviations
-  should be documented in the sidebar
-
-[constants:kind]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants/Kind.ts
-[constants:tag]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants/Tag.ts
+[constants]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants.ts
 
 ## Images
 
@@ -420,6 +425,8 @@ BS
 
 ### Pile
 
+Use the `PILE` variant in order to highlight a Doomsday pile.
+
 ```md
 :::row{variant=PILE}
 IU
@@ -432,6 +439,24 @@ TO
 
 :::row{variant=PILE}
 IU
+LP
+LP
+TO
+TO
+:::
+
+Incomplete piles are always left-aligned.
+
+```md
+:::row{variant=PILE}
+LP
+LP
+TO
+TO
+:::
+```
+
+:::row{variant=PILE}
 LP
 LP
 TO
@@ -485,42 +510,42 @@ The following items are not supported within tables:
 ### Default Alignement
 
 ```md
-| One                         | Two              | Three                     |
-| --------------------------- | ---------------- | ------------------------- |
-| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
-| Quisque **libero** elit     | Aliquet sem vel  | Quisque commodo urna      |
-| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
-| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+| One                              | Two              | Three                     |
+| -------------------------------- | ---------------- | ------------------------- |
+| Ultrices a _faucibus_ eget       | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit          | Aliquet sem vel  | Quisque commodo urna      |
+| Morbi :card[DA] non velit        | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar :spoiler[sapien] in | Cras nec nisl    | Nascetur ridiculus mus    |
 ```
 
-| One                         | Two              | Three                     |
-| --------------------------- | ---------------- | ------------------------- |
-| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
-| Quisque **libero** elit     | Aliquet sem vel  | Quisque commodo urna      |
-| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
-| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+| One                              | Two              | Three                     |
+| -------------------------------- | ---------------- | ------------------------- |
+| Ultrices a _faucibus_ eget       | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit          | Aliquet sem vel  | Quisque commodo urna      |
+| Morbi :card[DA] non velit        | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar :spoiler[sapien] in | Cras nec nisl    | Nascetur ridiculus mus    |
 
 ### Custom Alignement
 
 <!-- prettier-ignore-start -->
 
 ```md
-| One                         | Two              | Three                     |
-| :-------------------------- | :--------------: | ------------------------: |
-| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
-| Quisque **libero** elit     | Aliquet sem vel  | Quisque commodo urna      |
-| Morbi consectetur non velit | Tempor a massa   | Orci varius natoque       |
-| Sed pulvinar sapien in odio | Cras nec nisl    | Nascetur ridiculus mus    |
+| One                              | Two              | Three                     |
+| :------------------------------- | :--------------: | ------------------------: |
+| Ultrices a _faucibus_ eget       | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit          | Aliquet sem vel  | Quisque commodo urna      |
+| Morbi :card[DA] non velit        | Tempor a massa   | Orci varius natoque       |
+| Sed pulvinar :spoiler[sapien] in | Cras nec nisl    | Nascetur ridiculus mus    |
 ```
 
 <!-- prettier-ignore-end -->
 
-| One                         |       Two        |                     Three |
-| :-------------------------- | :--------------: | ------------------------: |
-| Ultrices a _faucibus_ eget  | Ultricies lectus | Curabitur lobortis dictum |
-| Quisque **libero** elit     | Aliquet sem vel  |      Quisque commodo urna |
-| Morbi consectetur non velit |  Tempor a massa  |       Orci varius natoque |
-| Sed pulvinar sapien in odio |  Cras nec nisl   |    Nascetur ridiculus mus |
+| One                              |       Two        |                     Three |
+| :------------------------------- | :--------------: | ------------------------: |
+| Ultrices a _faucibus_ eget       | Ultricies lectus | Curabitur lobortis dictum |
+| Quisque **libero** elit          | Aliquet sem vel  |      Quisque commodo urna |
+| Morbi :card[DA] non velit        |  Tempor a massa  |       Orci varius natoque |
+| Sed pulvinar :spoiler[sapien] in |  Cras nec nisl   |    Nascetur ridiculus mus |
 
 ## Twitter
 

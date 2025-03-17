@@ -1,4 +1,4 @@
-/** List of default preferred sets for given card names. */
+/** List of default preferred sets for given card names */
 export const SETS: Record<string, string> =
   // prettier-ignore
   {

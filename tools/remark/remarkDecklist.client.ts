@@ -5,7 +5,7 @@ import { visit } from 'unist-util-visit';
 import { type Decklists } from '@/tools/decklists/types';
 import { type Remarker } from '@/tools/remark/typings';
 
-/** Augment decklist directives with metadata found in `decklists`. */
+/** Augment decklist directives with metadata found in `decklists` */
 export const remarkDecklist: Remarker<[{ decklists: Decklists }]> =
   ({ decklists }) =>
   (tree) => {

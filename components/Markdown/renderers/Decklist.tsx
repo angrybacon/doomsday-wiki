@@ -1,4 +1,3 @@
-import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Decklist as DecklistAccordion } from '@/components/Decklist/Decklist';
@@ -11,21 +10,28 @@ type Props = ExtraProps & {
   decklist?: DecklistModel & DecklistExtra;
 };
 
-export const Decklist: FunctionComponent<Props> = ({ decklist, node }) => {
+export const Decklist = ({ decklist, node }: Props) => {
   if (!decklist) {
     console.error('Missing card list in decklist', node);
     return null;
   }
+
+  const { authors, colors, main, mainCount, sideCount } = decklist;
+
+  const date = decklist.dateFromPath || undefined;
+  const side = decklist.side[0] || [];
+  const title = decklist.title || decklist.titleFromPath;
+
   return (
     <DecklistAccordion
-      authors={decklist.authors}
-      colors={decklist.colors}
-      date={decklist.date || undefined}
-      main={decklist.main}
-      mainCount={decklist.mainCount}
-      side={decklist.side[0] || []}
-      sideCount={decklist.sideCount}
-      title={decklist.title || decklist.titleFromPath}
+      authors={authors}
+      colors={colors}
+      date={date}
+      main={main}
+      mainCount={mainCount}
+      side={side}
+      sideCount={sideCount}
+      title={title}
     />
   );
 };

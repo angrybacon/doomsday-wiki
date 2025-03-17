@@ -22,8 +22,8 @@ export const Header = () => {
       elevation={0}
       enableColorOnDark
       sx={({ mixins, palette }) => ({
-        bgcolor: alpha(palette.background.paper, 0.5),
         ...mixins.blur('weak'),
+        bgcolor: alpha(palette.background.paper, 0.5),
       })}
     >
       <Toolbar>

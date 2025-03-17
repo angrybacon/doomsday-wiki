@@ -17,16 +17,14 @@ const STYLES: Record<
 > = {
   CENTERED: () => ({
     justifyContent: 'space-around',
-    mx: -1,
+    mx: { xs: -0.5, md: -1 },
     '> *': { flexBasis: '25%', maxWidth: '25%' },
   }),
-  PILE: (theme) => ({
-    bgcolor: alpha(theme.palette.primary.light, 0.1),
-    border: 1,
-    borderColor: 'divider',
-    borderLeft: 0,
-    borderRight: 0,
+  PILE: ({ palette }) => ({
+    bgcolor: alpha(palette.primary.main, 0.1),
+    borderRadius: 4,
     py: { xs: 2, sm: 4 }, // NOTE Should match the `gutters` mixin
+    px: { xs: 1.5, sm: 3 }, // NOTE Should match the `gutters` mixin
     '> *': { width: 0.2 },
   }),
 };
@@ -49,19 +47,12 @@ export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
     style = data;
   }
   return (
-    <Box sx={({ mixins }) => mixins.barf}>
-      <Box
-        sx={[
-          { display: 'flex', mx: { xs: -0.25, sm: -0.5, md: -1 } },
-          STYLES[style],
-        ]}
-      >
-        {row.cards.map(({ data, id }) => (
-          <Box key={id} sx={{ px: { xs: 0.25, sm: 0.5, md: 1 } }}>
-            <Card data={data} />
-          </Box>
-        ))}
-      </Box>
+    <Box sx={[{ display: 'flex' }, STYLES[style]]}>
+      {row.cards.map(({ data, id }) => (
+        <Box key={id} sx={{ px: { xs: 0.5, md: 1 } }}>
+          <Card data={data} />
+        </Box>
+      ))}
     </Box>
   );
 };

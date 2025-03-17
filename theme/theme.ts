@@ -3,7 +3,7 @@
 import { createTheme } from '@mui/material';
 import { deepmerge } from '@mui/utils';
 
-import { blur } from '@/theme/mixins';
+import { blur, recess } from '@/theme/mixins';
 import { article, primary, primer, report, secondary } from '@/theme/palette';
 
 import '@fontsource/libre-baskerville';
@@ -35,6 +35,7 @@ declare module '@mui/material/styles' {
 declare module '@mui/material/styles/createMixins' {
   interface Mixins {
     blur: typeof blur;
+    recess: typeof recess;
   }
 }
 
@@ -68,6 +69,41 @@ const base = createTheme({
 export const theme = createTheme(
   deepmerge(base, {
     components: {
+      MuiAccordion: {
+        defaultProps: { elevation: 0, square: true },
+        styleOverrides: {
+          root: ({ theme }) =>
+            theme.unstable_sx({
+              border: 1,
+              borderColor: 'divider',
+              borderRadius: 4,
+              overflow: 'hidden',
+              // NOTE Remove the separator since we collapse all accordions
+              '&:before': { display: 'none' },
+              '&:has(+ &)': {
+                borderBottomLeftRadius: 0,
+                borderBottomRightRadius: 0,
+              },
+              '& + &': {
+                borderTop: 0,
+                borderTopLeftRadius: 0,
+                borderTopRightRadius: 0,
+              },
+            }),
+        },
+      },
+      MuiAccordionDetails: {
+        styleOverrides: {
+          root: ({ theme }) =>
+            theme.unstable_sx({ ...theme.mixins.recess(theme)('Y'), p: 2 }),
+        },
+      },
+      MuiAccordionSummary: {
+        styleOverrides: {
+          root: ({ theme }) =>
+            theme.unstable_sx({ '&:hover': { bgcolor: 'action.hover' } }),
+        },
+      },
       MuiCssBaseline: {
         styleOverrides: {
           html: { fontSize: 18, scrollBehavior: 'smooth' },
@@ -86,7 +122,7 @@ export const theme = createTheme(
       },
     },
     cssVariables: { colorSchemeSelector: 'class' },
-    mixins: { blur },
+    mixins: { blur, recess },
     typography: {
       fontFamily: 'var(--font-roboto)',
       h1: { fontSize: base.typography.pxToRem(46) },

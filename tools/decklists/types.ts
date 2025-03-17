@@ -11,7 +11,7 @@ export type Decklist = {
 };
 
 export type DecklistExtra = {
-  date: null | string;
+  dateFromPath: null | string;
   titleFromPath: string;
 };
 

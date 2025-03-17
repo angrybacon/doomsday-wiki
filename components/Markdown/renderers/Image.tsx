@@ -9,18 +9,19 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
   return (
     <>
       <Box
-        component="span"
-        sx={({ mixins }) => ({
+        alt={alt}
+        component="img"
+        decoding="async"
+        src={src}
+        sx={{
           border: 1,
           borderColor: 'divider',
-          borderLeft: 0,
-          borderRight: 0,
+          borderRadius: 4,
           display: 'block',
-          img: { display: 'block', width: 1 },
-        })}
-      >
-        <img alt={alt} decoding="async" src={src} title={title} />
-      </Box>
+          width: 1,
+        }}
+        title={title}
+      />
       {title && (
         <Typography
           color="textSecondary"

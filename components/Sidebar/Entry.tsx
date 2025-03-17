@@ -52,12 +52,7 @@ export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
         <List
           component="div"
           dense
-          sx={{
-            backgroundColor: 'background.default',
-            borderBottom: 1,
-            borderTop: 1,
-            borderColor: 'divider',
-          }}
+          sx={(theme) => theme.mixins.recess(theme)('Y')}
         >
           {pages.map(({ href, slug, title }) => (
             <ListItemButton
