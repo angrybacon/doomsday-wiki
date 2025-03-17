@@ -3,8 +3,6 @@ banner: ToA | STA | 34
 title: Winning Without Doomsday
 ---
 
-## Table of Contents
-
 ## Preamble
 
 One advantage that DDFT has over other Doomsday variants is that it can reliably

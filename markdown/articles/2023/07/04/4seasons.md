@@ -16,8 +16,6 @@ Friday for the first time.
 If you're interested in my report for the previous edition of the 4Seasons you
 can find it [here](/articles/2023/03/12/4seasons).
 
-## Table of Contents
-
 ## Between the Seasons
 
 After the top8 at the last 4Seasons main event I've had one of my best stretches

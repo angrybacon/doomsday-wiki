@@ -4,8 +4,6 @@ banner: Dark Petition
 title: The Basics
 ---
 
-## Table of Contents
-
 ## Preamble
 
 Entombsday is a Tin Fins and Doomsday hybrid combo deck.

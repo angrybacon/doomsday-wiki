@@ -3,8 +3,6 @@ banner: DR | TMP
 title: Uncommon Piles
 ---
 
-## Table of Contents
-
 ## Preamble
 
 There are a number of less commonly used ways to win the game after Doomsday.

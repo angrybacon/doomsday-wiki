@@ -13,8 +13,6 @@ Great Hall at the University of Birmingham. This is part of an event series run
 by Axion Now called _The Gathering_ &mdash; basically their answer to GPs. This
 is my writeup of the event.
 
-## Table of Contents
-
 ## Introductions
 
 Hi, my name is Alex, and I'm _EternalRant_ in the Discord. I've been playing

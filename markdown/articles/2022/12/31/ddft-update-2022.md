@@ -15,8 +15,6 @@ archetype in two substantially different directions that convinced me to write
 an article. So to begin this retrospective journey through the year, lets take
 you, dear reader, back to... 2021?
 
-## Table of Contents
-
 ## 2021
 
 :::row{variant=CENTERED}

@@ -15,8 +15,6 @@ Special thanks to Bart [_Diem4x_][diem4x] van Etten, Max
 [singpanman]: https://twitter.com/unbanGush
 [discovern]: https://twitter.com/discoverN6
 
-## Table of Contents
-
 ## Maindeck Configuration and Why no Cavern of Souls
 
 Decklist can be found [here](https://www.mtggoldfish.com/deck/3818519#paper) or

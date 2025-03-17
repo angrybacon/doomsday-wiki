@@ -6,8 +6,6 @@ tags: [LEGACY, MEANDECK]
 title: 'Doomsday at the Legacy Pit Open: An Interview with Romariovidal'
 ---
 
-## Table of Contents
-
 ## Preface
 
 Last weekend (weekend of September the 18th 2021) The Legacy Pit hosted the

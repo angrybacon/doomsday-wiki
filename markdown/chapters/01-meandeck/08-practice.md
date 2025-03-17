@@ -4,8 +4,6 @@ banner: Unburden
 title: Practice
 ---
 
-## Table of Contents
-
 ## Get Started
 
 Now that you've read up on the theory of how to build piles, how to play around

@@ -4,8 +4,6 @@ banner: Urza's Blueprints
 title: Deck Construction
 ---
 
-## Table of Contents
-
 ## Preamble
 
 Because of how flexible and versatile the Doomsday shell is, and how relatively

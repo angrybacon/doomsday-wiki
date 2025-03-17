@@ -28,8 +28,6 @@ paper than it is online, where everything is clearly laid out and sorted. The
 side event helped with that, and by the start of the main one, I was feeling
 confident slinging my paper doomsdays.
 
-## Table of Contents
-
 ## Choosing the Deck
 
 In the weeks leading to the event I didn't feel like testing much. As I said

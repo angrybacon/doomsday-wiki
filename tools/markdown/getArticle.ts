@@ -1,4 +1,4 @@
-import { read } from '@korumite/kiwi/server';
+import { makeToc, read } from '@korumite/kiwi/server';
 
 import { ARTICLES } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
@@ -21,12 +21,15 @@ export const getArticle = async (
       remarkMana,
       remarkScries,
     );
+    const toc = makeToc(markdown.text, { maxDepth: 3 });
+    if (!toc?.items?.length) throw new Error('Found empty table of contents');
     const matter = zArticleMatter.parse(markdown.matter);
     return {
       ...markdown,
       ...zMetadata.parse(data),
       banner: await getBanner(matter.banner),
       matter,
+      toc,
     };
   } catch (error) {
     const message = error instanceof Error ? error.message : error;

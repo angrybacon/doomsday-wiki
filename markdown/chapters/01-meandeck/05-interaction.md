@@ -4,8 +4,6 @@ banner: Counterspell | TMP
 title: Playing Around Interaction
 ---
 
-## Table of Contents
-
 ## Preamble
 
 Part of the appeal of Doomsday as a card and as a deck is its flexibility.

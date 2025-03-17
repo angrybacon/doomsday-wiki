@@ -15,8 +15,6 @@ article](/articles/2020/03/12/pretty-mean-deck), which you should really have a
 read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
-## Table of Contents
-
 ## The Different Doomsday Archetypes
 
 Although it wasn't always the case, it seems currently the most popular medium

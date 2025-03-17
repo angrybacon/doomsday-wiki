@@ -19,8 +19,6 @@ competitive that I wouldn't be completely embarassed to write a primer.
 
 ::decklist{path=2018/12/ddft}
 
-## Table of Contents
-
 ## The Part Where I Predict Some of Your Questions About the List
 
 > Why Infernal Contract?

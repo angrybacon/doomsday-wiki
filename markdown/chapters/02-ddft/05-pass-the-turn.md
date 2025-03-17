@@ -3,8 +3,6 @@ banner: Time Stop
 title: Pass-the-Turn Piles
 ---
 
-## Table of Contents
-
 ## Preamble
 
 First of all, why would you ever want to cast Doomsday and then pass the turn?

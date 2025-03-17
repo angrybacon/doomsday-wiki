@@ -6,8 +6,6 @@ tags: [LEGACY, MEANDECK]
 title: "A Decklist Discussion and Sideboard Guide: Doishy's Turbo Zero Respect"
 ---
 
-## Table of Contents
-
 ## Preface
 
 First of all I guess happy new year everyone!
@@ -64,7 +62,7 @@ to boot! This means I can have the choice to play the aggressive role (without
 all that nasty combat maths that hurts my tiny brain) or pivot to take it slow a
 bit more until I want to win. This flexibility is something I value highly.
 
-### I See Doomsday as a Mono Blue Deck that Happens to Require {B}{B}{B}
+### I See Doomsday as a Mono Blue Deck that Happens to Require BBB
 
 This one is a funny one and one I have been citing since Oracle was printed.
 People often look at me funny when I say this however it is definitely true. The

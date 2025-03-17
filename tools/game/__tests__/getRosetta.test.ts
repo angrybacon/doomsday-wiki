@@ -1,9 +1,8 @@
 import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
-import { type CATEGORIES } from '@/tools/markdown/constants';
 
 describe(getRosetta.name, () => {
   const tests: [
-    category: (typeof CATEGORIES)[number] | undefined,
+    category: Parameters<typeof getRosetta>[0],
     ok: string,
     ko: string,
   ][] =
@@ -13,7 +12,7 @@ describe(getRosetta.name, () => {
       ['DDFT',       'Echo of Eons',   'Predict'],
       ['DDEFT',      'Act on Impulse', 'Echo of Eons'],
       ['MEANDECK',   'Predict',        'Manamorphose'],
-      [undefined,    'Brainstorm',     'Consider'],
+      [null,         'Brainstorm',     'Consider'],
     ];
 
   it.each(tests)(

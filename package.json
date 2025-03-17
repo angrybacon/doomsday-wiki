@@ -15,7 +15,7 @@
     "lint": "pnpm run '/^lint:[^:]+$/'",
     "lint:code": "eslint",
     "lint:format": "pnpm run '/^lint:format:[^:]+$/'",
-    "lint:format:code": "prettier --check --log-level warn components/ hooks/ pages/ theme/ tools/",
+    "lint:format:code": "prettier --check --log-level warn components/ hooks/ theme/ tools/",
     "lint:format:puzzles": "prettier --check --log-level warn puzzles/",
     "lint:format:scryfall": "prettier --check --log-level warn scryfall/",
     "lint:format:wiki": "prettier --check --log-level warn markdown/",

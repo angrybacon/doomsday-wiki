@@ -5,8 +5,6 @@ title: Frequently Asked Questions
 
 <!-- markdownlint-configure-file {"line-length": {headings: false}} -->
 
-## Table of Contents
-
 ## Preamble
 
 Compiled here is a list of frequently asked questions observed from the Discord

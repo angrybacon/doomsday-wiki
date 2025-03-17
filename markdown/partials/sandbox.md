@@ -1,7 +1,5 @@
 <!-- markdownlint-disable first-line-heading -->
 
-## Table of Contents
-
 ## Preamble
 
 Rather than having to maintain any additional guidelines, refer to the following
@@ -29,6 +27,8 @@ are a few more conventions:
   Avoid bare links, wrap them with angled brackets `<` and `>`
 
 ## Accordions
+
+For decklist accordions, see [#decklists](#decklists).
 
 ### Simple
 
@@ -224,8 +224,6 @@ Coming soon &trade;
 
 ## Lists
 
-### Ordered Lists
-
 ```md
 1. Aliquam at _pretium_ eros, vitae congue orci
 1. Fusce **bibendum** ac mauris eu malesuada
@@ -243,8 +241,6 @@ Coming soon &trade;
       1. Donec dictum felis auctor :spoiler[semper] porttitor
       1. Duis felis quam, ornare non tempor a, accumsan sed orci
 1. Vivamus a facilisis est
-
-### Unordered Lists
 
 ```md
 - Aliquam at _pretium_ eros, vitae congue orci

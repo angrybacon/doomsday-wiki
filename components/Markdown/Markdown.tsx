@@ -11,7 +11,6 @@ import ReactMarkdown, { type Components } from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
-import remarkToc from 'remark-toc';
 import { type PluggableList } from 'unified';
 
 import { Divider } from '@/components/Divider/Divider';
@@ -92,7 +91,6 @@ export const Markdown: FunctionComponent<Props> = ({ markdown, sx }) => {
       // NOTE Vendor remarkers
       remarkDirective,
       remarkGfm,
-      [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
       // NOTE Our own remarkers
       remarkBase,
       remarkCard,

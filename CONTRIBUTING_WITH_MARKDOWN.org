@@ -45,12 +45,13 @@ Duress | STA | 92
 
 ** Tables of Content
 
-An automatic table of content can be inserted in Markdown documents with an
-empty level 2 heading that reads exactly =Table of Contents=. Leave that heading
-empty since none of its content will be rendered.
+An automatic table of content will be created for all chapters and articles.
+Nothing to do on your side! The table will look for level 2 and 3 headings in
+the whole document and render as a list of anchor links for each of them.
 
-The table will look for level 2 and 3 headings in the whole document and render
-as a numbered list of anchor links for each of them.
+Mana symbols and card names are not supported in headings. The table will ignore
+levels 4 and down anyway, but the heading slugs will look strange so prefer
+simpler titles.
 
 ** Custom Directives
 

@@ -4,8 +4,6 @@ banner: Entomb
 title: Playing the Deck
 ---
 
-## Table of Contents
-
 ## Preamble
 
 As a deck with two unique gameplans, Entombsday requires some flexibility from
