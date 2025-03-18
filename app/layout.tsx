@@ -56,7 +56,7 @@ export default ({ children }: PropsWithChildren) => (
       <InitColorSchemeScript attribute="class" />
       <TrackingProvider>
         <AppRouterCacheProvider>
-          <ThemeProvider modeStorageKey="ddftwiki:theme" theme={theme}>
+          <ThemeProvider theme={theme}>
             <CssBaseline />
             <LayoutProvider>
               <Sidebar>

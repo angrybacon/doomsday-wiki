@@ -1,10 +1,19 @@
-import { Box, Button, Divider, List, Toolbar } from '@mui/material';
+import { Icon } from '@mdi/react';
+import {
+  Box,
+  Button,
+  Divider,
+  IconButton,
+  List,
+  Toolbar,
+  Tooltip,
+} from '@mui/material';
 import NextLink from 'next/link';
+import { siDiscord } from 'simple-icons';
 
 import { Entry } from '@/components/Sidebar/Entry';
 import { EntryAsLink } from '@/components/Sidebar/EntryAsLink';
 import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
-import { Themes } from '@/components/Themes/Themes';
 import { type CATEGORIES } from '@/tools/markdown/constants';
 import { type MENU } from '@/tools/markdown/menu';
 
@@ -31,10 +40,10 @@ export const Drawer = ({ menu }: Props) => (
   <>
     <Toolbar
       sx={{
-        gap: 0.5,
+        gap: 1,
         justifyContent: 'space-between',
-        px: { xs: 1, md: 2 },
-        '> *': { height: 34 },
+        // NOTE Use a media query in order to overwrite toolbar padding
+        px: { xs: 2 },
       }}
     >
       <Button
@@ -47,7 +56,11 @@ export const Drawer = ({ menu }: Props) => (
       >
         doomsday.wiki
       </Button>
-      <Themes />
+      <Tooltip title="Join our Discord server">
+        <IconButton component={NextLink} href="/discord" target="_blank">
+          <Icon path={siDiscord.path} size={0.7} />
+        </IconButton>
+      </Tooltip>
     </Toolbar>
     <Divider />
     <Box sx={{ overflowY: 'auto' }}>

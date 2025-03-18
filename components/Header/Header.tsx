@@ -2,9 +2,7 @@
 
 import { mdiMenu } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import { AppBar, Divider, IconButton, Toolbar, Tooltip } from '@mui/material';
-import NextLink from 'next/link';
-import { siDiscord } from 'simple-icons';
+import { AppBar, Divider, IconButton, Toolbar } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';
 
@@ -27,17 +25,6 @@ export const Header = () => {
         >
           <Icon path={mdiMenu} size={1} />
         </IconButton>
-        <Tooltip title="Join our Discord server">
-          <IconButton
-            component={NextLink}
-            href="/discord"
-            size="large"
-            sx={{ ml: 'auto' }}
-            target="_blank"
-          >
-            <Icon path={siDiscord.path} size={0.7} />
-          </IconButton>
-        </Tooltip>
       </Toolbar>
       <Divider />
     </AppBar>
