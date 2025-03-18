@@ -1,7 +1,6 @@
 'use client';
 
 import { createTheme } from '@mui/material';
-import { deepmerge } from '@mui/utils';
 
 import { blur, recess } from '@/theme/mixins';
 import { article, primary, primer, report, secondary } from '@/theme/palette';
@@ -39,9 +38,9 @@ declare module '@mui/material/styles/createMixins' {
 
 /* eslint-enable @typescript-eslint/consistent-type-definitions */
 
-const { palette } = createTheme();
+const { palette, typography } = createTheme();
 
-const base = createTheme({
+export const theme = createTheme({
   colorSchemes: {
     dark: {
       palette: {
@@ -62,73 +61,68 @@ const base = createTheme({
       },
     },
   },
+  components: {
+    MuiAccordion: {
+      defaultProps: { elevation: 0, square: true },
+      styleOverrides: {
+        root: ({ theme }) =>
+          theme.unstable_sx({
+            border: 1,
+            borderColor: 'divider',
+            borderRadius: 4,
+            overflow: 'hidden',
+            // NOTE Remove the separator since we collapse all accordions
+            '&:before': { display: 'none' },
+            '&:has(+ &)': {
+              borderBottomLeftRadius: 0,
+              borderBottomRightRadius: 0,
+            },
+            '& + &': {
+              borderTop: 0,
+              borderTopLeftRadius: 0,
+              borderTopRightRadius: 0,
+            },
+          }),
+      },
+    },
+    MuiAccordionDetails: {
+      styleOverrides: {
+        root: ({ theme }) =>
+          theme.unstable_sx({ ...theme.mixins.recess(theme)('Y'), p: 2 }),
+      },
+    },
+    MuiAccordionSummary: {
+      styleOverrides: {
+        root: ({ theme }) =>
+          theme.unstable_sx({ '&:hover': { bgcolor: 'action.hover' } }),
+      },
+    },
+    MuiCssBaseline: {
+      styleOverrides: {
+        html: { fontSize: 18, scrollBehavior: 'smooth' },
+        'blockquote, ol, p, pre, ul': { margin: 0 },
+        em: {
+          fontDisplay: 'swap',
+          fontFamily: 'Libre Baskerville, serif',
+          fontSize: '0.9em',
+          fontStyle: 'italic',
+        },
+      },
+    },
+    MuiTooltip: {
+      defaultProps: { arrow: true },
+      styleOverrides: { tooltip: { textAlign: 'center' } },
+    },
+  },
+  cssVariables: { colorSchemeSelector: 'class' },
+  mixins: { blur, recess },
+  typography: {
+    fontFamily: 'var(--font-roboto)',
+    h1: { fontSize: typography.pxToRem(46) },
+    h2: { fontSize: typography.pxToRem(40) },
+    h3: { fontSize: typography.pxToRem(34) },
+    h4: { fontSize: typography.pxToRem(30) },
+    h5: { fontSize: typography.pxToRem(24) },
+    h6: { fontSize: typography.pxToRem(20) },
+  },
 });
-
-export const theme = createTheme(
-  deepmerge(base, {
-    components: {
-      MuiAccordion: {
-        defaultProps: { elevation: 0, square: true },
-        styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({
-              border: 1,
-              borderColor: 'divider',
-              borderRadius: 4,
-              overflow: 'hidden',
-              // NOTE Remove the separator since we collapse all accordions
-              '&:before': { display: 'none' },
-              '&:has(+ &)': {
-                borderBottomLeftRadius: 0,
-                borderBottomRightRadius: 0,
-              },
-              '& + &': {
-                borderTop: 0,
-                borderTopLeftRadius: 0,
-                borderTopRightRadius: 0,
-              },
-            }),
-        },
-      },
-      MuiAccordionDetails: {
-        styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({ ...theme.mixins.recess(theme)('Y'), p: 2 }),
-        },
-      },
-      MuiAccordionSummary: {
-        styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({ '&:hover': { bgcolor: 'action.hover' } }),
-        },
-      },
-      MuiCssBaseline: {
-        styleOverrides: {
-          html: { fontSize: 18, scrollBehavior: 'smooth' },
-          'blockquote, ol, p, pre, ul': { margin: 0 },
-          em: {
-            fontDisplay: 'swap',
-            fontFamily: 'Libre Baskerville, serif',
-            fontSize: '0.9em',
-            fontStyle: 'italic',
-          },
-        },
-      },
-      MuiTooltip: {
-        defaultProps: { arrow: true },
-        styleOverrides: { tooltip: { textAlign: 'center' } },
-      },
-    },
-    cssVariables: { colorSchemeSelector: 'class' },
-    mixins: { blur, recess },
-    typography: {
-      fontFamily: 'var(--font-roboto)',
-      h1: { fontSize: base.typography.pxToRem(46) },
-      h2: { fontSize: base.typography.pxToRem(40) },
-      h3: { fontSize: base.typography.pxToRem(34) },
-      h4: { fontSize: base.typography.pxToRem(30) },
-      h5: { fontSize: base.typography.pxToRem(24) },
-      h6: { fontSize: base.typography.pxToRem(20) },
-    },
-  } satisfies Parameters<typeof createTheme>[0]),
-);

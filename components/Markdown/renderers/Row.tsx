@@ -1,5 +1,4 @@
-import { alpha, Box, type Theme } from '@mui/material';
-import { type SystemStyleObject } from '@mui/system';
+import { alpha, Box, type SxProps, type Theme } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
@@ -11,21 +10,20 @@ const VARIANTS = ['CENTERED', 'PILE'] as const;
 
 const VARIANTS_SCHEMA = union(VARIANTS).optional();
 
-const STYLES: Record<
-  (typeof VARIANTS)[number],
-  (theme: Theme) => SystemStyleObject<Theme>
-> = {
+const STYLES: Record<(typeof VARIANTS)[number], SxProps<Theme>> = {
   CENTERED: () => ({
+    display: 'flex',
     justifyContent: 'space-around',
     mx: { xs: -0.5, md: -1 },
-    '> *': { flexBasis: '25%', maxWidth: '25%' },
+    '> *': { flexBasis: '25%', maxWidth: '25%', px: { xs: 0.5, md: 1 } },
   }),
   PILE: ({ palette }) => ({
     bgcolor: alpha(palette.primary.main, 0.1),
     borderRadius: 4,
-    py: { xs: 2, sm: 4 }, // NOTE Should match the `gutters` mixin
-    px: { xs: 1.5, sm: 3 }, // NOTE Should match the `gutters` mixin
-    '> *': { width: 0.2 },
+    display: 'flex',
+    py: { xs: 2, sm: 4 },
+    px: { xs: 1.5, sm: 3 },
+    '> *': { px: { xs: 0.5, md: 1 }, width: 0.2 },
   }),
 };
 
@@ -47,11 +45,13 @@ export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
     style = data;
   }
   return (
-    <Box sx={[{ display: 'flex' }, STYLES[style]]}>
+    <Box sx={STYLES[style]}>
       {row.cards.map(({ data, id }) => (
-        <Box key={id} sx={{ px: { xs: 0.5, md: 1 } }}>
+        // NOTE The extra wrapper is necessary for each card to retain the
+        //      harcoded aspect ratio.
+        <div key={id}>
           <Card data={data} />
-        </Box>
+        </div>
       ))}
     </Box>
   );
