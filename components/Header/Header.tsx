@@ -2,14 +2,7 @@
 
 import { mdiMenu } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import {
-  alpha,
-  AppBar,
-  Divider,
-  IconButton,
-  Toolbar,
-  Tooltip,
-} from '@mui/material';
+import { AppBar, Divider, IconButton, Toolbar, Tooltip } from '@mui/material';
 import NextLink from 'next/link';
 import { siDiscord } from 'simple-icons';
 
@@ -21,9 +14,9 @@ export const Header = () => {
     <AppBar
       elevation={0}
       enableColorOnDark
-      sx={({ mixins, palette }) => ({
-        ...mixins.blur('weak'),
-        bgcolor: alpha(palette.background.paper, 0.5),
+      sx={(theme) => ({
+        ...theme.mixins.blur('weak'),
+        bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .5)`,
       })}
     >
       <Toolbar>

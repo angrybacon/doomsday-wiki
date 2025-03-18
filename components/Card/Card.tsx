@@ -1,6 +1,6 @@
 import { mdiCached } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import { alpha, Box, IconButton } from '@mui/material';
+import { Box, IconButton } from '@mui/material';
 import { useState, type FunctionComponent, type ReactNode } from 'react';
 
 import { CardFace } from '@/components/Card/CardFace';
@@ -19,25 +19,20 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
   const button: ReactNode =
     data.length > 1 ? (
       <IconButton
+        className="light"
         onClick={onFlip}
-        sx={({ breakpoints, palette, shadows, spacing }) => ({
-          backdropFilter: 'blur(2px)',
-          bgcolor: alpha(palette.common.white, 0.4),
-          boxShadow: shadows[1],
-          height: spacing(5),
-          left: 0,
-          margin: '0 auto',
+        sx={({ mixins, vars }) => ({
+          ...mixins.blur('weakest'),
+          bgcolor: `rgba(${vars.palette.background.paperChannel} / .4)`,
+          boxShadow: 1,
+          height: [40, 48],
+          left: 'unset',
           position: 'absolute',
-          right: 0,
+          right: ['unset', '10%'],
           top: '13%',
-          width: spacing(5),
-          '&:hover': { bgcolor: alpha(palette.common.white, 0.5) },
-          [breakpoints.up('sm')]: {
-            height: spacing(6),
-            left: 'unset',
-            margin: 0,
-            right: '10%',
-            width: spacing(6),
+          width: [40, 48],
+          '&:hover': {
+            bgcolor: `rgba(${vars.palette.background.paperChannel} / .5)`,
           },
         })}
         title="Flip"
@@ -49,8 +44,10 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
   return (
     <Box
       sx={{
-        // NOTE Hard-coded ratio to iron irregularities from Scryfall data
+        // NOTE Hard-coded ratio to iron out irregularities from Scryfall data
         aspectRatio: '5 / 7',
+        display: 'flex',
+        justifyContent: 'center',
         position: 'relative',
       }}
     >

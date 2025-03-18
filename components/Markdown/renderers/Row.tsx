@@ -1,4 +1,4 @@
-import { alpha, Box, type SxProps, type Theme } from '@mui/material';
+import { Box, type SxProps, type Theme } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
@@ -17,8 +17,8 @@ const STYLES: Record<(typeof VARIANTS)[number], SxProps<Theme>> = {
     mx: { xs: -0.5, md: -1 },
     '> *': { flexBasis: '25%', maxWidth: '25%', px: { xs: 0.5, md: 1 } },
   }),
-  PILE: ({ palette }) => ({
-    bgcolor: alpha(palette.primary.main, 0.1),
+  PILE: ({ vars }) => ({
+    bgcolor: `rgba(${vars.palette.primary.mainChannel} / .1)`,
     borderRadius: 4,
     display: 'flex',
     py: { xs: 2, sm: 4 },

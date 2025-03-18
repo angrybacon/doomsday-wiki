@@ -1,5 +1,4 @@
 import {
-  alpha,
   Table as MuiTable,
   TableBody as MuiTableBody,
   TableCell as MuiTableCell,
@@ -41,7 +40,9 @@ export const TableCell = <T extends 'td' | 'th' = never>({
 
 export const TableHead: Components['thead'] = ({ children }) => (
   <MuiTableHead
-    sx={({ palette }) => ({ bgcolor: alpha(palette.primary.main, 0.1) })}
+    sx={({ vars }) => ({
+      bgcolor: `rgba(${vars.palette.primary.mainChannel} / .1)`,
+    })}
   >
     {children}
   </MuiTableHead>

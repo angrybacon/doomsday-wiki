@@ -44,24 +44,20 @@ const roboto = Roboto({
 });
 
 export default ({ children }: PropsWithChildren) => (
-  <ThemeProvider modeStorageKey="ddftwiki:theme" theme={theme}>
-    <CssBaseline />
-    <Box
-      component="html"
-      lang="en"
-      suppressHydrationWarning
-      // NOTE Pad with the tallest toolbar: extra spacing in mobile, who's going
-      //      to complain?
-      sx={{ scrollPaddingTop: 64 }}
-    >
-      <Box
-        className={roboto.variable}
-        component="body"
-        sx={{ display: 'flex' }}
-      >
-        <InitColorSchemeScript attribute="class" />
-        <TrackingProvider>
-          <AppRouterCacheProvider>
+  <Box
+    component="html"
+    lang="en"
+    suppressHydrationWarning
+    // NOTE Pad with the tallest toolbar: extra spacing in mobile, who's going
+    //      to complain?
+    sx={{ scrollPaddingTop: 64 }}
+  >
+    <Box className={roboto.variable} component="body" sx={{ display: 'flex' }}>
+      <InitColorSchemeScript attribute="class" />
+      <TrackingProvider>
+        <AppRouterCacheProvider>
+          <ThemeProvider modeStorageKey="ddftwiki:theme" theme={theme}>
+            <CssBaseline />
             <LayoutProvider>
               <Sidebar>
                 <Drawer menu={MENU} />
@@ -92,9 +88,9 @@ export default ({ children }: PropsWithChildren) => (
                 <Footer sx={{ gridArea: 'footer', pb: 3, pt: 8 }} />
               </Container>
             </LayoutProvider>
-          </AppRouterCacheProvider>
-        </TrackingProvider>
-      </Box>
+          </ThemeProvider>
+        </AppRouterCacheProvider>
+      </TrackingProvider>
     </Box>
-  </ThemeProvider>
+  </Box>
 );

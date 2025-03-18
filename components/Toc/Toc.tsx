@@ -153,9 +153,9 @@ export const Toc = ({ items, sx }: Props) => {
           position: 'sticky',
           width: WIDTH,
         },
-        ({ palette, spacing }) => ({
+        ({ spacing, vars }) => ({
           '&:after': {
-            background: `linear-gradient(to top, transparent, ${palette.background.default} 90%)`,
+            background: `linear-gradient(to top, transparent, ${vars.palette.background.default} 90%)`,
             content: '""',
             display: 'block',
             height: spacing(3),

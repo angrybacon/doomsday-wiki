@@ -1,5 +1,8 @@
 'use client';
 
+// NOTE Enable `vars` properties inside of the Theme
+import type {} from '@mui/material/themeCssVarsAugmentation';
+
 import { createTheme } from '@mui/material';
 
 import { blur, recess } from '@/theme/mixins';
