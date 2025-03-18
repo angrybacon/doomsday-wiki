@@ -1,15 +1,11 @@
-import { alpha, Box, useTheme, type PaletteMode } from '@mui/material';
-import {
-  type Component,
-  type FunctionComponent,
-  type PropsWithChildren,
-} from 'react';
+import { Box, useTheme, type PaletteMode } from '@mui/material';
+import { type FunctionComponent, type PropsWithChildren } from 'react';
 import { type Components } from 'react-markdown';
 import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
 import {
   oneDark as dark,
   oneLight as light,
-} from 'react-syntax-highlighter/dist/cjs/styles/prism';
+} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const THEMES: Record<PaletteMode, SyntaxHighlighterProps['style']> = {
   dark,
@@ -23,8 +19,7 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
   const theme = useTheme();
   return (
     <Box
-      // NOTE They don't support React 18 yet
-      component={Prism as typeof Component<SyntaxHighlighterProps>}
+      component={Prism}
       customStyle={{
         borderRadius: undefined,
         margin: undefined,
@@ -47,16 +42,15 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
 const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
   <Box
     component="code"
-    sx={({ palette }) => ({
-      bgcolor: alpha(palette.primary.main, 0.1),
+    sx={{
+      bgcolor: 'action.hover',
       borderRadius: 1,
-      color: 'text.secondary',
+      color: 'secondary.dark',
       fontDisplay: 'swap',
       fontFamily: 'monospace',
-      fontSize: '.9em',
       px: '.2em',
       py: '.1em',
-    })}
+    }}
   >
     {children}
   </Box>
