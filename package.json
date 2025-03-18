@@ -3,7 +3,7 @@
   "private": true,
   "version": "3.0.0",
   "engines": {
-    "node": ">=20.11.1"
+    "node": ">=22.14.0"
   },
   "scripts": {
     "build": "concurrently 'pnpm:build:*' --kill-others --names --prefix-colors auto --success first",

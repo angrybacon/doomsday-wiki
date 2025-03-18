@@ -59,8 +59,8 @@ export default ({ children }: PropsWithChildren) => (
         component="body"
         sx={{ display: 'flex' }}
       >
+        <InitColorSchemeScript attribute="class" />
         <TrackingProvider>
-          <InitColorSchemeScript attribute="class" />
           <AppRouterCacheProvider>
             <LayoutProvider>
               <Sidebar>
