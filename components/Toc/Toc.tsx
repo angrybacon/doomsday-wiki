@@ -20,7 +20,7 @@ import { Link } from '@/components/Link/Link';
 import { findHeadings } from '@/components/Toc/findHeadings';
 import { type Toc as TocModel } from '@/tools/markdown/types';
 
-const WIDTH = 240;
+const WIDTH = 260;
 
 const Entry = ({
   current,
@@ -85,7 +85,13 @@ const Entries = ({
   <Box
     component="ol"
     sx={[
-      { display: 'grid', gap: 0.5, listStyleType: 'none', pl: 1 },
+      {
+        display: 'grid',
+        gap: 0.5,
+        justifyItems: 'start',
+        listStyleType: 'none',
+        pl: 1,
+      },
       root && { gap: 1, pl: 0 },
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
@@ -149,18 +155,6 @@ export const Toc = ({ items, sx }: Props) => {
           position: 'sticky',
           width: WIDTH,
         },
-        ({ spacing, vars }) => ({
-          '&:after': {
-            background: `linear-gradient(to top, transparent, ${vars.palette.background.default} 90%)`,
-            content: '""',
-            display: 'block',
-            height: spacing(3),
-            left: 0,
-            position: 'absolute',
-            right: 0,
-            top: 0,
-          },
-        }),
         ({ breakpoints }) => ({
           height: 'calc(100vh - 56px)', // NOTE Copied from the `toolbar` mixin
           top: 56,
@@ -175,6 +169,19 @@ export const Toc = ({ items, sx }: Props) => {
             top: 64,
           },
         }),
+        ({ spacing, vars }) => ({
+          '&:after': {
+            background: `linear-gradient(to top, transparent, ${vars.palette.background.default} 90%)`,
+            content: '""',
+            display: 'block',
+            height: spacing(3),
+            left: 0,
+            pointerEvents: 'none',
+            position: 'absolute',
+            right: 0,
+            top: 0,
+          },
+        }),
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >
@@ -182,13 +189,19 @@ export const Toc = ({ items, sx }: Props) => {
         current={current}
         entries={items}
         root
-        sx={{ maxHeight: '100%', py: 3, overflowY: 'auto' }}
+        sx={{
+          maxHeight: '100%',
+          pr: 1,
+          py: 3,
+          overflowY: 'auto',
+          scrollbarWidth: 'thin',
+        }}
       >
         {trigger && (
           <>
-            <li role="presentation">
+            <Box component="li" role="presentation" sx={{ width: 1 }}>
               <Divider />
-            </li>
+            </Box>
             <Box
               component="li"
               onClick={onScroll}
@@ -197,9 +210,7 @@ export const Toc = ({ items, sx }: Props) => {
                 color: 'primary.main',
                 cursor: 'pointer',
                 px: 0.5,
-                '&:hover': {
-                  bgcolor: 'action.hover',
-                },
+                '&:hover': { bgcolor: 'action.hover' },
               }}
             >
               <Typography variant="subtitle2">Back to top</Typography>

@@ -65,7 +65,7 @@ export const Drawer = ({ menu }: Props) => (
       </NextLink>
     </Toolbar>
     <Divider />
-    <Box sx={{ overflowY: 'auto' }}>
+    <Box sx={{ overflowY: 'auto', scrollbarWidth: 'thin' }}>
       <List component="nav" dense>
         {menu.map(
           (entry) =>
