@@ -60,13 +60,13 @@ export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
         position: 'absolute',
         px: 2,
         textAlign: 'center',
-        textShadow: '0 0 8px black',
       }}
     >
       <Typography
         sx={{
           color: 'text.primary',
           fontSize: { xs: 'h6.fontSize', md: 'h2.fontSize' },
+          textShadow: '0 0 8px black',
         }}
         variant="h1"
       >
@@ -79,6 +79,7 @@ export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
             display: { xs: 'none', sm: 'block' },
             fontStyle: 'italic',
             maxWidth: '80%',
+            textShadow: '0 0 4px black',
             whiteSpace: 'pre-wrap',
           }}
           variant="subtitle2"

@@ -104,7 +104,7 @@ type Props = {
 
 export const Toc = ({ items, sx }: Props) => {
   const headings = useRef<ReturnType<typeof findHeadings>>([]);
-  const throttler = useRef<number>();
+  const throttler = useRef(0);
   const trigger = useScrollTrigger({ disableHysteresis: true, threshold: 900 });
   const [current, setCurrent] = useState<string>();
 
@@ -131,11 +131,7 @@ export const Toc = ({ items, sx }: Props) => {
 
   useEffect(() => {
     headings.current = findHeadings(items);
-    return () => {
-      if (throttler.current) {
-        cancelAnimationFrame(throttler.current);
-      }
-    };
+    return () => cancelAnimationFrame(throttler.current);
   }, [items]);
 
   const onScroll = () => document.body.scrollIntoView({ block: 'start' });

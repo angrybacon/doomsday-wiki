@@ -85,7 +85,14 @@ export default ({ children }: PropsWithChildren) => (
                 >
                   {children}
                 </Box>
-                <Footer sx={{ gridArea: 'footer', pb: 3, pt: 8 }} />
+                <Footer
+                  sx={{
+                    gridArea: 'footer',
+                    pb: 3,
+                    position: 'relative', // NOTE Force content above 404 background
+                    pt: 8,
+                  }}
+                />
               </Container>
             </LayoutProvider>
           </ThemeProvider>

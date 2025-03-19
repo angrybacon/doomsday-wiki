@@ -1,12 +1,25 @@
 'use client';
 
-import { Box, drawerClasses, Drawer as MuiDrawer } from '@mui/material';
+import {
+  Box,
+  drawerClasses,
+  Drawer as MuiDrawer,
+  type SxProps,
+  type Theme,
+} from '@mui/material';
 import { type PropsWithChildren } from 'react';
 
 import { useLayout } from '@/hooks/useLayout';
 
 const WIDTH = 280;
-const DRAWER_STYLES = { [`.${drawerClasses.paper}`]: { width: WIDTH } };
+
+const DRAWER_STYLES: SxProps<Theme> = ({ mixins, vars }) => ({
+  [`.${drawerClasses.paper}`]: {
+    ...mixins.blur('strong'),
+    bgcolor: `rgba(${vars.palette.background.paperChannel} / .5)`,
+    width: WIDTH,
+  },
+});
 
 export const Sidebar = ({ children }: PropsWithChildren) => {
   const { isOpen, onClose } = useLayout();
