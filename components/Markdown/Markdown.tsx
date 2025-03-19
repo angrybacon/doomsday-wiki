@@ -11,7 +11,6 @@ import ReactMarkdown, { type Components } from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
-import { type PluggableList } from 'unified';
 
 import { Divider } from '@/components/Divider/Divider';
 import {
@@ -57,7 +56,7 @@ const COMPONENTS = {
   h6: Heading<'h6'>,
   hr: () => <Divider />,
   img: Image,
-  // NOTE The `code` entries handle both block and inline code markup
+  // NOTE The `code` entries already handle both block and inline code markup
   pre: ({ children }) => <>{children}</>,
   table: Table,
   tbody: TableBody,
@@ -84,47 +83,38 @@ type Props = {
   sx?: SxProps;
 };
 
-export const Markdown: FunctionComponent<Props> = ({ markdown, sx }) => {
-  const plugins = {
-    rehypePlugins: [rehypeSlug],
-    remarkPlugins: [
-      // NOTE Vendor remarkers
-      remarkDirective,
-      remarkGfm,
-      // NOTE Our own remarkers
-      remarkBase,
-      remarkCard,
-      [remarkDecklist, { decklists: markdown.decklists }],
-      [remarkRow, { scries: markdown.scries }],
-    ],
-  } as const satisfies Record<string, PluggableList>;
-
-  const children = (
+export const Markdown: FunctionComponent<Props> = ({ markdown, sx }) => (
+  <Box
+    sx={[
+      {
+        display: 'grid',
+        gap: 3,
+        [`.${accordionClasses.root}`]: {
+          [`&.${accordionClasses.expanded}`]: { my: 0 },
+          [`& + .${accordionClasses.root}`]: { mt: -3 },
+        },
+        [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
+      },
+      ...(Array.isArray(sx) ? sx : [sx]),
+    ]}
+  >
     <ReactMarkdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       skipHtml
-      {...plugins}
+      rehypePlugins={[rehypeSlug]}
+      // TODO Since the Next migration we can probably do all that SSR now
+      remarkPlugins={[
+        // NOTE Vendor remarkers
+        remarkDirective,
+        remarkGfm,
+        // NOTE Our own remarkers
+        [remarkBase, { names: Object.keys(COMPONENTS_EXTRA) }],
+        remarkCard,
+        [remarkDecklist, { decklists: markdown.decklists }],
+        [remarkRow, { scries: markdown.scries }],
+      ]}
     >
       {markdown.text}
     </ReactMarkdown>
-  );
-
-  return (
-    <Box
-      sx={[
-        {
-          display: 'grid',
-          gap: 3,
-          [`.${accordionClasses.root}`]: {
-            [`&.${accordionClasses.expanded}`]: { my: 0 },
-            [`& + .${accordionClasses.root}`]: { mt: -3 },
-          },
-          [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
-        },
-        ...(Array.isArray(sx) ? sx : [sx]),
-      ]}
-    >
-      {children}
-    </Box>
-  );
-};
+  </Box>
+);
