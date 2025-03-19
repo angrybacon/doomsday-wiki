@@ -1,22 +1,19 @@
 import { hastify } from '@korumite/kiwi/client';
-import { type Text } from 'mdast';
-import { type TextDirective } from 'mdast-util-directive';
+import { type Root, type Text } from 'mdast';
 import { select } from 'unist-util-select';
 import { visit } from 'unist-util-visit';
 
 import { getCard } from '@/tools/game/getCard';
-import { type Remarker } from '@/tools/remark/typings';
 
 /** Augment card directives with the real cards names */
-export const remarkCard: Remarker = () => (tree) => {
-  const tests = [{ name: 'card', type: 'textDirective' }];
-  visit(tree, tests, (node) => {
-    const directive = node as TextDirective;
-    const text = select('text', directive) as Text | undefined;
+export const remarkCard = () => (tree: Root) => {
+  visit(tree, (node) => {
+    if (node.type !== 'textDirective' || node.name !== 'card') return;
+    const text = select('text', node) as Text | undefined;
     if (text) {
-      hastify(directive, { name: getCard(text.value).name });
+      hastify(node, { name: getCard(text.value).name });
     } else {
-      console.error(`[remark] Missing text for directive "${directive.name}"`);
+      console.error(`[remark] Missing text for directive "${node.name}"`);
     }
   });
   return tree;

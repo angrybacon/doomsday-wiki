@@ -6,7 +6,7 @@ import { getDecklist } from '@/tools/decklists/getDecklist';
 import { type Decklists } from '@/tools/decklists/types';
 
 /** Augment the tree with decklists found */
-export const remarkDecklists: Plugin = () => async (tree, file) => {
+export const remarkDecklists: Plugin = () => (tree, file) => {
   const tests = [{ name: 'decklist', type: 'leafDirective' }];
   const decklists: Decklists = {};
   visit(tree, tests, (node) => {

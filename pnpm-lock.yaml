@@ -21,8 +21,8 @@ importers:
         specifier: 5.2.5
         version: 5.2.5
       '@korumite/kiwi':
-        specifier: 3.4.0
-        version: 3.4.0
+        specifier: 3.4.1
+        version: 3.4.1
       '@mdi/js':
         specifier: 7.4.47
         version: 7.4.47
@@ -126,9 +126,6 @@ importers:
       '@types/react-syntax-highlighter':
         specifier: 15.5.13
         version: 15.5.13
-      '@types/unist':
-        specifier: 3.0.3
-        version: 3.0.3
       concurrently:
         specifier: 9.1.2
         version: 9.1.2
@@ -732,8 +729,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@korumite/kiwi@3.4.0':
-    resolution: {integrity: sha512-4grmnhxXOgNVReX9D4FIXSoHMrtTgFeQGXj8b0pGBJ/WYwoL+U7QZByWTWUKxASPAeaLKugnxiNoXHHIz2BoDg==}
+  '@korumite/kiwi@3.4.1':
+    resolution: {integrity: sha512-zni0U2v9B7UliMqCie7jv429BV9zh9oGu7PaDKG02texlT/g3/VdNqc9zNggiGgYkcfxgCXECE56dVpX7xqDAw==}
 
   '@korumite/ts@1.1.0':
     resolution: {integrity: sha512-qLSpsUXfuo7rkmx0bYtdCkt4jG9XaCzMVjATPEE2l39mSN4p1ncWMlejWottaDS/+JQaigmHEed+MujbuxjZDw==}
@@ -3533,8 +3530,8 @@ packages:
     resolution: {integrity: sha512-/EH/sDgxU2eGxajKdwLCDmQ4FWq+kpi3uCmBGpw1xJtnAxEjlD8j8PEiGWpCIMIs3ciNAgH0d3TTJiUkYzyZjA==}
     engines: {node: '>=10.12.0'}
 
-  vfile-matter@5.0.0:
-    resolution: {integrity: sha512-jhPSqlj8hTSkTXOqyxbUeZAFFVq/iwu/jukcApEqc/7DOidaAth6rDc0Zgg0vWpzUnWkwFP7aK28l6nBmxMqdQ==}
+  vfile-matter@5.0.1:
+    resolution: {integrity: sha512-o6roP82AiX0XfkyTHyRCMXgHfltUNlXSEqCIS80f+mbAyiQBE2fxtDVMtseyytGx75sihiJFo/zR6r/4LTs2Cw==}
 
   vfile-message@4.0.2:
     resolution: {integrity: sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==}
@@ -4383,7 +4380,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@korumite/kiwi@3.4.0':
+  '@korumite/kiwi@3.4.1':
     dependencies:
       mdast-util-toc: 7.1.0
       reading-time: 1.5.0
@@ -4395,7 +4392,7 @@ snapshots:
       unified: 11.0.5
       unist-util-remove: 4.0.0
       unist-util-visit: 5.0.0
-      vfile-matter: 5.0.0
+      vfile-matter: 5.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -7892,7 +7889,7 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  vfile-matter@5.0.0:
+  vfile-matter@5.0.1:
     dependencies:
       vfile: 6.0.3
       yaml: 2.7.0
