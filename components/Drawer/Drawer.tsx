@@ -56,11 +56,13 @@ export const Drawer = ({ menu }: Props) => (
       >
         doomsday.wiki
       </Button>
-      <Tooltip title="Join our Discord server">
-        <IconButton component={NextLink} href="/discord" target="_blank">
-          <Icon path={siDiscord.path} size={0.7} />
-        </IconButton>
-      </Tooltip>
+      <NextLink href="/discord" target="_blank">
+        <Tooltip title="Join our Discord server">
+          <IconButton>
+            <Icon path={siDiscord.path} size={0.7} />
+          </IconButton>
+        </Tooltip>
+      </NextLink>
     </Toolbar>
     <Divider />
     <Box sx={{ overflowY: 'auto' }}>
