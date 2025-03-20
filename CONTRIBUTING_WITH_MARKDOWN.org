@@ -17,32 +17,6 @@ content.
   Static content within the Wiki comes from those partials, this avoids having
   to maintain content within code.
 
-** Scryfall
-
-In some contexts, you can refer to card names within Markdown. To ease the
-writing process and reduce typos, a number of shorthands for card names can be
-found [[./tools/game/constants/Cards.ts][here]].
-
-For parts where you query card imagery, you can optionally provide a specific
-set using the 3-letters set code. By default, the first print for the card is
-used.
-
-#+BEGIN_SRC
-DD | SLD
-#+END_SRC
-
-For instance, the above query will scry for /Doomsday/ from the /Secret Lair
-Drop/ set. To identify the right code for your set, inspect the links at
-[[https://scryfall.com/sets]].
-
-In some specific cases, you will want to specify a collector number.This can be
-achieved by suffixing the corresponding number. This is useful for sets with
-multiple printings of the same card.
-
-#+BEGIN_SRC
-Duress | STA | 92
-#+END_SRC
-
 ** Tables of Content
 
 An automatic table of content will be created for all chapters and articles.
@@ -60,8 +34,8 @@ technicalities, the supported specifications for directives in Markdown are
 presented
 [[https://talk.commonmark.org/t/generic-directives-plugins-syntax/444][here]].
 
-The following sections will assume you know of /inline/, /leaf/ and /container/
-directives.
+The following sections will assume you know the differences between /inline/,
+/leaf/ and /container/ directives.
 
 - Inline directives (single colon =:=) ::
   Inline markup where the text does not create a new paragraph.

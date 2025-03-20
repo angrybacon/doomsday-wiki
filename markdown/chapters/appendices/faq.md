@@ -190,10 +190,8 @@ smartest type of Legacy player_. Everyone has different ways of thinking and one
 person's nightmare deck to pilot (mine would be Maverick) is another person's
 bread and butter.
 
-:::accordion[Click to reveal]
 ![Chart on how to pile correctly](/media/assets/pile-bell-chart.png 'How to pile
 correctly')
-:::
 
 ## How do I resolve Doomsday in paper?
 
