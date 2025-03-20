@@ -10,7 +10,12 @@ import { type Components, type ExtraProps } from 'react-markdown';
 
 export const Table: Components['table'] = ({ children }) => (
   <MuiTableContainer
-    sx={{ border: 1, borderColor: 'divider', borderRadius: 4 }}
+    sx={{
+      border: 1,
+      borderColor: 'divider',
+      borderRadius: 4,
+      overflowWrap: 'normal',
+    }}
   >
     <MuiTable size="small">{children}</MuiTable>
   </MuiTableContainer>
@@ -32,7 +37,13 @@ export const TableCell = <T extends 'td' | 'th' = never>({
 }: JSX.IntrinsicElements[T] & ExtraProps) => {
   const align = CELL_ALIGN[`${node?.properties.align}`];
   return (
-    <MuiTableCell align={align} sx={{ borderColor: 'divider' }}>
+    <MuiTableCell
+      align={align}
+      sx={[
+        { borderColor: 'divider' },
+        align === 'left' && { whiteSpace: 'nowrap' },
+      ]}
+    >
       {children}
     </MuiTableCell>
   );

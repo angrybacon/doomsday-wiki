@@ -643,6 +643,8 @@ The following items are not supported within tables:
 | Morbi :card[DA] non velit        |  Tempor a massa  |       Orci varius natoque |
 | Sed pulvinar :spoiler[sapien] in |  Cras nec nisl   |    Nascetur ridiculus mus |
 
+> Left-aligned cells will not wrap.
+
 ## Twitter
 
 Deprecated
