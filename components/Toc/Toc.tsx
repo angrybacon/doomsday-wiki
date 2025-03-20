@@ -73,6 +73,7 @@ const Entries = ({
   entries,
   root = false,
   sx,
+  title,
   variant = 'subtitle2',
 }: {
   children?: ReactNode;
@@ -80,6 +81,7 @@ const Entries = ({
   entries: TocModel[];
   root?: boolean;
   sx?: SxProps;
+  title?: string;
   variant?: TypographyProps['variant'];
 }) => (
   <Box
@@ -96,6 +98,19 @@ const Entries = ({
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
+    {title && (
+      <Box
+        component="li"
+        sx={{
+          color: 'text.secondary',
+          pl: 0.5,
+          textTransform: 'uppercase',
+          typography: 'caption',
+        }}
+      >
+        {title}
+      </Box>
+    )}
     {entries.map((entry) => (
       <Entry current={current} key={entry.title} variant={variant} {...entry} />
     ))}
@@ -196,6 +211,7 @@ export const Toc = ({ items, sx }: Props) => {
           overflowY: 'auto',
           scrollbarWidth: 'thin',
         }}
+        title="Table of Contents"
       >
         {trigger && (
           <>
