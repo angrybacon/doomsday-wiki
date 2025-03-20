@@ -12,6 +12,7 @@ export const Quote: Components['blockquote'] = ({ children }) => (
       fontStyle: 'italic',
       gap: 2,
       pl: 2,
+      py: 1,
       position: 'relative',
       '&:before': {
         bgcolor: 'secondary.main',

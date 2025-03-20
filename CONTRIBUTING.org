@@ -8,19 +8,65 @@ Contributions are more than welcome, thank you for considering it!
 Pull requests work best, below are guidelines set to help you in the process of
 providing work for review.
 
-** Contributing with Content
-
-In a effort to avoid repeating myself and having to maintain things in multiple
-places, the Markdown conventions guidelines will live next to the code. Visit
-=/markdown= anywhere the Wiki is hosted to access the guidelines.
-
-See [[./CONTRIBUTING_WITH_MARKDOWN.org][CONTRIBUTING_WITH_MARKDOWN]].
-
 ** Contributing with Code
 
 We're all consenting adults, use history as documentation and as long as you
 respect the existing conventions and configured linting tools you can't go very
 wrong.
+
+** Contributing with Content
+
+In a effort to avoid repeating myself and having to maintain things in multiple
+places, the Markdown conventions guidelines and supported features will live
+next to the code. Visit =/markdown= anywhere the Wiki is hosted to access the
+guidelines.
+
+*** File Structure
+
+Content consists of chapters and articles under =markdown/=. The chapters are
+considered /timeless/ and are the content that should be kept up to date to
+account for meta shifts and bannings. Articles on the other hand are dated
+content.
+
+- =articles/= ::
+  Dated reports and theories.
+- =chapters/= ::
+  Most of the content goes there, organized in =ddeft/=, =ddft/= and =meandeck/=
+  chapters. There's also =appendices/= for general-purposed resources.
+- =partials/= ::
+  Static content within the Wiki comes from those partials, this avoids having
+  to maintain content within code.
+
+*** Tables of Content
+
+An automatic table of content will be created for all chapters and articles.
+Nothing to do on your side! The table will look for level 2 and 3 headings in
+the whole document and render as a list of anchor links for each of them.
+
+Mana symbols and card names are not supported in headings. The table will ignore
+levels 4 and down anyway, but the heading slugs will look strange so prefer
+simpler titles.
+
+*** Custom Directives
+
+A number of custom directives are parsed within Markdown content. This allows
+more feature than what Markdown already supports by default. Visit =/markdown=
+anywhere the Wiki is hosted to see what it actually looks like. For the
+technicalities, the supported specifications for directives in Markdown are
+presented
+[[https://talk.commonmark.org/t/generic-directives-plugins-syntax/444][here]].
+
+We will assume you know the differences between /inline/, /leaf/ and /container/
+directives.
+
+- Inline directives (single colon =:=) ::
+  Inline markup where the text does not create a new paragraph.
+- Leaf directives (double colons =::=) ::
+  Create a new paragraph but accept no children within.
+- Container directives (a pair of triple or more colons =:::=) ::
+  Also create a new paragraph but accept children between the opening and
+  closing pairs. It is possible to nest /container/ directives by using more
+  than 3 colons.
 
 ** Testing your Changes
 

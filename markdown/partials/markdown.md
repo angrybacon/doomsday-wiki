@@ -162,6 +162,13 @@ export const toDirective = (text: string): string => {
 
 ## Decklists
 
+You can add decklists within your Markdown content, they will be rendered as a
+collapsible block. Decklist files are located under `decklists/` and should be
+dated using a `[year]/[month]/[day]/file.txt` (or `[year]/[month]/file.txt` when
+you don't have the exact date) convention if able. Follow the existing structure
+as an example. As an exception, decklist files found directly under `decklists/`
+are used in non-dated content like chapters to ease maintenance.
+
 ```md
 ::decklist{path=meandeck.budget}
 ```
@@ -475,18 +482,32 @@ found [here][cards.ts].
 
 > For supported acronyms, the case matters!.
 
-For parts where you query card imagery, you can optionally provide a specific
-set using the 3-letters set code. By default, first print is preferred except
-for a few [exceptions][sets.ts]. To identify the right code for your set,
-inspect the links at <https://scryfall.com/sets>.
+[cards.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Cards.ts
+
+### Inline Card Links
+
+```md
+I hear :card[TO] and :card[Doomsday] go well together.
+```
+
+I hear :card[TO] and :card[Doomsday] go well together.
+
+> Preview of the artwork on hover may come in the future.
+
+### Imagery
+
+You can also render card images. The aforementioned acronyms are also supported
+and you can optionally provide a specific set using its 3-letters set code. By
+default, first print is preferred except for a few [exceptions][sets.ts]. To
+identify the right code for your set, inspect the links at
+<https://scryfall.com/sets>.
 
 > Be warned however that some promotional prints may have an earlier timestamp
 > than the _regular_ printing of a card.
 
-[cards.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Cards.ts
 [sets.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Sets.ts
 
-### Specifying Prints
+#### Specifying Prints
 
 In some specific cases, you will want to specify a collector number, this can be
 achieved with a suffix. This is especially useful for sets with multiple
@@ -510,7 +531,7 @@ Subtlety | MH2
 Duress | STA | 92
 :::
 
-### Double-Face Cards
+#### Double-Face Cards
 
 ```md
 :::row
@@ -530,7 +551,7 @@ Malevolent Hermit
 Invasion of Ikoria
 :::
 
-### Split Cards
+#### Split Cards
 
 Split cards are also supported. You don't need to provide both names in order to
 match the card, except for _Who // What // When // Where // Why_, for some
