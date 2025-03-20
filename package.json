@@ -44,7 +44,7 @@
     "mdast-util-find-and-replace": "3.0.2",
     "next": "15.2.3",
     "plaiceholder": "3.0.0",
-    "posthog-js": "1.231.2",
+    "posthog-js": "1.232.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-markdown": "10.1.0",
@@ -83,6 +83,6 @@
     "prettier": "3.5.3",
     "ts-node": "10.9.2",
     "typescript": "5.8.2",
-    "typescript-eslint": "8.26.1"
+    "typescript-eslint": "8.27.0"
   }
 }
