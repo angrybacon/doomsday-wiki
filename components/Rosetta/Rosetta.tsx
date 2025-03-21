@@ -9,18 +9,21 @@ import {
   TableRow,
   type SxProps,
 } from '@mui/material';
-import { useEffect, useState, type FunctionComponent } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useLayout } from '@/hooks/useLayout';
-import { getRosetta, type Rosetta } from '@/tools/game/getRosetta';
+import {
+  getRosetta,
+  type Rosetta as RosettaModel,
+} from '@/tools/game/getRosetta';
 
 type Props = {
   sx?: SxProps;
 };
 
-export const SidebarRosetta: FunctionComponent<Props> = ({ sx }) => {
+export const Rosetta = ({ sx }: Props) => {
   const { category } = useLayout();
-  const [rosetta, setRosetta] = useState<Rosetta>([]);
+  const [rosetta, setRosetta] = useState<RosettaModel>([]);
 
   useEffect(() => {
     setRosetta(getRosetta(category));

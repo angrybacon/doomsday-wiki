@@ -1,13 +1,13 @@
 'use client';
 
-import { mdiMenu } from '@mdi/js';
+import { mdiMenu, mdiMenuOpen } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import { AppBar, Divider, IconButton, Toolbar } from '@mui/material';
+import { AppBar, Divider, IconButton, Toolbar, Tooltip } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';
 
 export const Header = () => {
-  const { onOpen } = useLayout();
+  const { hasTable, toggleMenu, toggleTable } = useLayout();
   return (
     <AppBar
       elevation={0}
@@ -20,11 +20,19 @@ export const Header = () => {
       <Toolbar>
         <IconButton
           aria-label="Open menu"
-          onClick={onOpen}
+          onClick={toggleMenu(true)}
           sx={{ display: { md: 'none' } }}
         >
-          <Icon path={mdiMenu} size={1} />
+          <Icon path={mdiMenu} size={0.7} />
         </IconButton>
+        <Tooltip title={`${hasTable ? 'Close' : 'Open'} table of contents`}>
+          <IconButton
+            onClick={toggleTable()}
+            sx={{ display: { sm: 'none' }, ml: 'auto' }}
+          >
+            <Icon path={mdiMenuOpen} size={0.7} />
+          </IconButton>
+        </Tooltip>
       </Toolbar>
       <Divider />
     </AppBar>

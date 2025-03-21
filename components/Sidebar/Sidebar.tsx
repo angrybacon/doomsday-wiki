@@ -22,16 +22,16 @@ const DRAWER_STYLES: SxProps<Theme> = ({ mixins, vars }) => ({
 });
 
 export const Sidebar = ({ children }: PropsWithChildren) => {
-  const { isOpen, onClose } = useLayout();
-
+  const { hasMenu, toggleMenu } = useLayout();
+  // NOTE This implementation renders the links twice in the DOM
   return (
     <Box sx={{ flexShrink: { md: 0 }, width: { md: WIDTH } }}>
       <MuiDrawer
-        ModalProps={{ keepMounted: true }}
-        onClose={onClose}
-        open={isOpen}
-        variant="temporary"
+        onClose={toggleMenu(false)}
+        open={hasMenu}
+        slotProps={{ root: { keepMounted: true } }}
         sx={[DRAWER_STYLES, { display: { xs: 'block', md: 'none' } }]}
+        variant="temporary"
       >
         {children}
       </MuiDrawer>

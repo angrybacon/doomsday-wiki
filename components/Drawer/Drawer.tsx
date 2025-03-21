@@ -11,9 +11,9 @@ import {
 import NextLink from 'next/link';
 import { siDiscord } from 'simple-icons';
 
+import { Rosetta } from '@/components/Rosetta/Rosetta';
 import { Entry } from '@/components/Sidebar/Entry';
 import { EntryAsLink } from '@/components/Sidebar/EntryAsLink';
-import { SidebarRosetta } from '@/components/Sidebar/SidebarRosetta';
 import { type CATEGORIES } from '@/tools/markdown/constants';
 import { type MENU } from '@/tools/markdown/menu';
 
@@ -85,7 +85,7 @@ export const Drawer = ({ menu }: Props) => (
         />
       </List>
       <Divider />
-      <SidebarRosetta sx={{ my: 2 }} />
+      <Rosetta sx={{ my: 2 }} />
     </Box>
   </>
 );

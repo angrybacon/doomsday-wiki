@@ -2,120 +2,71 @@
 
 import {
   Box,
-  Typography,
+  Drawer,
+  drawerClasses,
+  useMediaQuery,
   useScrollTrigger,
+  type BoxProps,
+  type DrawerProps,
   type SxProps,
-  type TypographyProps,
 } from '@mui/material';
 import {
   useCallback,
   useEffect,
   useRef,
   useState,
-  type ReactNode,
+  type PropsWithChildren,
 } from 'react';
 
-import { Divider } from '@/components/Divider/Divider';
-import { Link } from '@/components/Link/Link';
+import { Entries } from '@/components/Toc/Entries';
 import { findHeadings } from '@/components/Toc/findHeadings';
+import { useLayout } from '@/hooks/useLayout';
 import { type Toc as TocModel } from '@/tools/markdown/types';
 
-const WIDTH = 260;
+const WIDTH: BoxProps['width'] = { xs: 0, sm: 200, lg: 260 };
 
-const Entry = ({
-  current,
-  items,
-  title,
-  url,
-  variant,
-}: TocModel & { current?: string; variant: TypographyProps['variant'] }) =>
-  title && url ? (
-    <Typography
-      component="li"
-      sx={{ display: 'grid', gap: 0.5 }}
-      variant={variant}
-    >
-      <Link
-        color="primary"
-        href={url}
-        sx={[
-          {
-            borderRadius: 1,
-            display: 'block',
-            overflow: 'hidden',
-            position: 'relative',
-            px: 0.5,
-            '&:hover:after': {
-              bgcolor: 'action.hover',
-              content: '""',
-              inset: 0,
-              position: 'absolute',
-            },
-          },
-          current === url &&
-            ((theme) => ({
-              bgcolor: 'primary.light',
-              color: 'primary.contrastText',
-              ...theme.applyStyles('dark', { bgcolor: 'primary.dark' }),
-            })),
-        ]}
-        underline="none"
-      >
-        {title}
-      </Link>
-      {items && <Entries current={current} entries={items} variant="caption" />}
-    </Typography>
-  ) : null;
-
-const Entries = ({
-  children,
-  current,
-  entries,
-  root = false,
-  sx,
-  title,
-  variant = 'subtitle2',
-}: {
-  children?: ReactNode;
-  current?: string;
-  entries: TocModel[];
-  root?: boolean;
-  sx?: SxProps;
-  title?: string;
-  variant?: TypographyProps['variant'];
-}) => (
+const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
   <Box
-    component="ol"
+    aria-label="Table of contents"
+    component="nav"
     sx={[
       {
-        display: 'grid',
-        gap: 0.5,
-        justifyItems: 'start',
-        listStyleType: 'none',
-        pl: 1,
+        alignSelf: 'start',
+        pl: 3,
+        position: 'sticky',
       },
-      root && { gap: 1, pl: 0 },
+      ({ breakpoints }) => ({
+        height: 'calc(100vh - 56px)', // NOTE Copied from the `toolbar` mixin
+        top: 56,
+        [breakpoints.up('xs')]: {
+          '@media (orientation: landscape)': {
+            height: 'calc(100vh - 48px)',
+            top: 48,
+          },
+        },
+        [breakpoints.up('sm')]: {
+          height: 'calc(100vh - 64px)',
+          top: 64,
+        },
+      }),
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
-    {title && (
-      <Box
-        component="li"
-        sx={{
-          color: 'text.secondary',
-          pl: 0.5,
-          textTransform: 'uppercase',
-          typography: 'caption',
-        }}
-      >
-        {title}
-      </Box>
-    )}
-    {entries.map((entry) => (
-      <Entry current={current} key={entry.title} variant={variant} {...entry} />
-    ))}
     {children}
   </Box>
+);
+
+const TocMobile = ({ sx, ...rest }: DrawerProps) => (
+  <Drawer
+    anchor="right"
+    slotProps={{ root: { keepMounted: true } }}
+    variant="temporary"
+    sx={[
+      { [`.${drawerClasses.paper}`]: { maxWidth: '80vw', width: 300 } },
+      ...(Array.isArray(sx) ? sx : [sx]),
+    ]}
+    {...rest}
+  />
 );
 
 type Props = {
@@ -124,6 +75,8 @@ type Props = {
 };
 
 export const Toc = ({ items, sx }: Props) => {
+  const { hasTable, toggleTable } = useLayout();
+  const sm = useMediaQuery(({ breakpoints }) => breakpoints.up('sm'));
   const headings = useRef<ReturnType<typeof findHeadings>>([]);
   const throttler = useRef(0);
   const trigger = useScrollTrigger({ disableHysteresis: true, threshold: 900 });
@@ -155,85 +108,38 @@ export const Toc = ({ items, sx }: Props) => {
     return () => cancelAnimationFrame(throttler.current);
   }, [items]);
 
-  const onScroll = () => document.body.scrollIntoView({ block: 'start' });
-
   return (
-    <Box
-      aria-label="Table of contents"
-      component="nav"
-      sx={[
-        {
-          alignSelf: 'start',
-          display: { xs: 'none', md: 'block' },
-          mt: 0, // NOTE Reset margin from the layout
-          pl: 3,
-          position: 'sticky',
-          width: WIDTH,
-        },
-        ({ breakpoints }) => ({
-          height: 'calc(100vh - 56px)', // NOTE Copied from the `toolbar` mixin
-          top: 56,
-          [breakpoints.up('xs')]: {
-            '@media (orientation: landscape)': {
-              height: 'calc(100vh - 48px)',
-              top: 48,
-            },
-          },
-          [breakpoints.up('sm')]: {
-            height: 'calc(100vh - 64px)',
-            top: 64,
-          },
-        }),
-        ({ spacing, vars }) => ({
-          '&:after': {
-            background: `linear-gradient(to top, transparent, ${vars.palette.background.default} 90%)`,
-            content: '""',
-            display: 'block',
-            height: spacing(3),
-            left: 0,
-            pointerEvents: 'none',
-            position: 'absolute',
-            right: 0,
-            top: 0,
-          },
-        }),
-        ...(Array.isArray(sx) ? sx : [sx]),
-      ]}
-    >
-      <Entries
-        current={current}
-        entries={items}
-        root
-        sx={{
-          maxHeight: '100%',
-          pr: 1,
-          py: 3,
-          overflowY: 'auto',
-          scrollbarWidth: 'thin',
-        }}
-        title="Table of Contents"
-      >
-        {trigger && (
-          <>
-            <Box component="li" role="presentation" sx={{ width: 1 }}>
-              <Divider />
-            </Box>
-            <Box
-              component="li"
-              onClick={onScroll}
-              sx={{
-                borderRadius: 1,
-                color: 'primary.main',
-                cursor: 'pointer',
-                px: 0.5,
-                '&:hover': { bgcolor: 'action.hover' },
-              }}
-            >
-              <Typography variant="subtitle2">Back to top</Typography>
-            </Box>
-          </>
-        )}
-      </Entries>
+    // NOTE Reset margin from the layout,
+    <Box sx={[{ mt: 0, width: WIDTH }, ...(Array.isArray(sx) ? sx : [sx])]}>
+      {sm ? (
+        <TocDesktop>
+          <Entries
+            current={current}
+            entries={items}
+            root
+            sx={{
+              justifyItems: 'start',
+              maxHeight: '100%',
+              pr: 1,
+              py: 3,
+              scrollbarWidth: 'thin',
+            }}
+            withBackToTop={trigger}
+          />
+        </TocDesktop>
+      ) : (
+        <TocMobile onClose={toggleTable(false)} open={hasTable}>
+          <Entries
+            current={current}
+            entries={items}
+            // NOTE Until a reliable hash change event can be used, we pass down
+            //      the toggler.
+            onJump={toggleTable(false)}
+            root
+            sx={{ justifyItems: 'initial', p: 3 }}
+          />
+        </TocMobile>
+      )}
     </Box>
   );
 };
