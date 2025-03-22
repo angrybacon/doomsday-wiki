@@ -16,7 +16,7 @@ const WIDTH = 280;
 const DRAWER_STYLES: SxProps<Theme> = ({ mixins, vars }) => ({
   [`.${drawerClasses.paper}`]: {
     ...mixins.blur('strong'),
-    bgcolor: `rgba(${vars.palette.background.paperChannel} / .5)`,
+    bgcolor: `rgba(${vars.palette.background.paperChannel} / .75)`,
     width: WIDTH,
   },
 });
@@ -30,7 +30,10 @@ export const Sidebar = ({ children }: PropsWithChildren) => {
         onClose={toggleMenu(false)}
         open={hasMenu}
         slotProps={{ root: { keepMounted: true } }}
-        sx={[DRAWER_STYLES, { display: { xs: 'block', md: 'none' } }]}
+        sx={[
+          DRAWER_STYLES,
+          { display: { xs: 'block', md: 'none' }, maxWidth: '80vw' },
+        ]}
         variant="temporary"
       >
         {children}

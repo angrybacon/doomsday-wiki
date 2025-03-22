@@ -62,7 +62,14 @@ const TocMobile = ({ sx, ...rest }: DrawerProps) => (
     slotProps={{ root: { keepMounted: true } }}
     variant="temporary"
     sx={[
-      { [`.${drawerClasses.paper}`]: { maxWidth: '80vw', width: 300 } },
+      ({ mixins, vars }) => ({
+        [`.${drawerClasses.paper}`]: {
+          ...mixins.blur('strong'),
+          bgcolor: `rgba(${vars.palette.background.paperChannel} / .75)`,
+          maxWidth: '80vw',
+          width: 300,
+        },
+      }),
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
     {...rest}

@@ -26,7 +26,7 @@ const Entry = ({
   title && url ? (
     <Typography
       component="li"
-      sx={{ display: 'grid', gap: 0.5, justifyItems: 'inherit' }}
+      sx={{ display: 'grid', gap: 1, justifyItems: 'inherit' }}
       variant={variant}
     >
       <Link
@@ -39,7 +39,8 @@ const Entry = ({
             display: 'block',
             overflow: 'hidden',
             position: 'relative',
-            px: 0.5,
+            px: [1, 0.5],
+            py: [0.5, 0],
             '&:hover:after': {
               bgcolor: 'action.hover',
               content: '""',
@@ -88,7 +89,7 @@ export const Entries = ({
       sx={[
         {
           display: 'grid',
-          gap: 0.5,
+          gap: 1,
           justifyItems: 'inherit',
           listStyleType: 'none',
           pl: 1,
