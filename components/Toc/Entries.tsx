@@ -59,7 +59,14 @@ const Entry = ({
       >
         {title}
       </Link>
-      {items && <Entries current={current} entries={items} variant="caption" />}
+      {items && (
+        <Entries
+          current={current}
+          entries={items}
+          onJump={onJump}
+          variant="caption"
+        />
+      )}
     </Typography>
   ) : null;
 
