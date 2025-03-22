@@ -14,14 +14,15 @@ import { zCategory } from '@/tools/z/schemas';
 export const LayoutContext = createContext({
   category: null as z.infer<typeof zCategory> | null,
   hasMenu: false,
-  hasTable: false,
+  hasTable: null as boolean | null,
   toggleMenu: (_?: boolean) => () => {},
-  toggleTable: (_?: boolean) => () => {},
+  toggleTable: (_?: boolean | null) => () => {},
 });
 
 export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const [hasMenu, setHasMenu] = useState(false);
-  const [hasTable, setHasTable] = useState(false);
+  // NOTE The infamous 3-values boolean: `null` means the table is empty
+  const [hasTable, setHasTable] = useState<boolean | null>(null);
   const { chapter = null } = useParams();
   const pathname = usePathname();
   const category = zCategory.nullable().parse(chapter);
@@ -29,7 +30,7 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const toggleMenu = (value?: boolean) => () =>
     setHasMenu((previous) => (value === undefined ? !previous : value));
 
-  const toggleTable = (value?: boolean) => () =>
+  const toggleTable = (value?: boolean | null) => () =>
     setHasTable((previous) => (value === undefined ? !previous : value));
 
   useEffect(() => {

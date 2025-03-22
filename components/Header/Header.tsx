@@ -25,14 +25,18 @@ export const Header = () => {
         >
           <Icon path={mdiMenu} size={0.7} />
         </IconButton>
-        <Tooltip title={`${hasTable ? 'Close' : 'Open'} table of contents`}>
-          <IconButton
-            onClick={toggleTable()}
-            sx={{ display: { sm: 'none' }, ml: 'auto' }}
-          >
-            <Icon path={mdiMenuOpen} size={0.7} />
-          </IconButton>
-        </Tooltip>
+        {hasTable !== null && (
+          // NOTE We update accessibility data but the icon doesn't matter as no
+          //      one will actually see it.
+          <Tooltip title={`${hasTable ? 'Close' : 'Open'} table of contents`}>
+            <IconButton
+              onClick={toggleTable()}
+              sx={{ display: { sm: 'none' }, ml: 'auto' }}
+            >
+              <Icon path={mdiMenuOpen} size={0.7} />
+            </IconButton>
+          </Tooltip>
+        )}
       </Toolbar>
       <Divider />
     </AppBar>

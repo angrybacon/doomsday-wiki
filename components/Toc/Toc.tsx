@@ -112,7 +112,11 @@ export const Toc = ({ items, sx }: Props) => {
 
   useEffect(() => {
     headings.current = findHeadings(items);
-    return () => cancelAnimationFrame(throttler.current);
+    if (headings.current.length) toggleTable(false)();
+    return () => {
+      toggleTable(null)();
+      cancelAnimationFrame(throttler.current);
+    };
   }, [items]);
 
   return (
@@ -135,7 +139,7 @@ export const Toc = ({ items, sx }: Props) => {
           />
         </TocDesktop>
       ) : (
-        <TocMobile onClose={toggleTable(false)} open={hasTable}>
+        <TocMobile onClose={toggleTable(false)} open={!!hasTable}>
           <Entries
             current={current}
             entries={items}
