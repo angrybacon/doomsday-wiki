@@ -117,7 +117,7 @@ export const Toc = ({ items, sx }: Props) => {
       toggleTable(null)();
       cancelAnimationFrame(throttler.current);
     };
-  }, [items]);
+  }, [items, toggleTable]);
 
   return (
     // NOTE Reset margin from the layout,

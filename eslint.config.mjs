@@ -36,6 +36,7 @@ export default [
             name: '@testing-library/react',
           },
         ],
+        'react-hooks/exhaustive-deps': 'error',
       },
     },
   ].map((it) => ({

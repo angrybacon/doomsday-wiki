@@ -6,6 +6,7 @@ module.exports = {
   reactStrictMode: true,
   redirects: async () => [
     {
+      basePath: false,
       destination: 'https://discord.gg/vajvFXt',
       permanent: false,
       source: '/discord',

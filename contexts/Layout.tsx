@@ -3,6 +3,7 @@
 import { useParams, usePathname } from 'next/navigation';
 import {
   createContext,
+  useCallback,
   useEffect,
   useState,
   type PropsWithChildren,
@@ -27,11 +28,17 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const pathname = usePathname();
   const category = zCategory.nullable().parse(chapter);
 
-  const toggleMenu = (value?: boolean) => () =>
-    setHasMenu((previous) => (value === undefined ? !previous : value));
+  const toggleMenu = useCallback(
+    (value?: boolean) => () =>
+      setHasMenu((previous) => (value === undefined ? !previous : value)),
+    [],
+  );
 
-  const toggleTable = (value?: boolean | null) => () =>
-    setHasTable((previous) => (value === undefined ? !previous : value));
+  const toggleTable = useCallback(
+    (value?: boolean | null) => () =>
+      setHasTable((previous) => (value === undefined ? !previous : value)),
+    [],
+  );
 
   useEffect(() => {
     // NOTE With the page router, this used to be handled with router events
