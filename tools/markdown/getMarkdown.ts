@@ -3,9 +3,9 @@ import { read } from '@korumite/kiwi/server';
 
 import { BASE_URLS } from '@/tools/markdown/files';
 import { type Partial } from '@/tools/markdown/types';
-import { remarkDecklists } from '@/tools/remark/remarkDecklists.server';
-import { remarkMana } from '@/tools/remark/remarkMana.server';
-import { remarkScries } from '@/tools/remark/remarkScries.server';
+import { remarkDecklists } from '@/tools/remark/remarkDecklists';
+import { remarkMana } from '@/tools/remark/remarkMana';
+import { remarkScries } from '@/tools/remark/remarkScries';
 import { zMetadata } from '@/tools/z/schemas';
 
 /**
@@ -23,7 +23,7 @@ export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
       remarkMana,
       remarkScries,
     );
-    return { ...markdown, ...zMetadata.parse(data) };
+    return { ...markdown, ...zMetadata.parse(data), file: id };
   } catch (error) {
     const message = error instanceof Error ? error.message : error;
     throw new Error(`${message} in "${id}"`);

@@ -1,3 +1,5 @@
+'use client';
+
 import { Box } from '@mui/material';
 import {
   useState,
@@ -11,7 +13,10 @@ type Props = PropsWithChildren & ExtraProps;
 export const Spoiler: FunctionComponent<Props> = ({ children, node }) => {
   const [isHidden, setIsHidden] = useState(true);
 
-  if (!node?.position) return <>{children}</>;
+  if (!node?.position || !children) {
+    console.error('Could not parse spoiler node', node);
+    return <>{children}</>;
+  }
 
   const component =
     node.position.start.line === node.position.end.line ? 'span' : 'div';

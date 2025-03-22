@@ -1,8 +1,11 @@
+'use client';
+
 import { Box, type SxProps, type Theme } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
+import { RemarkError } from '@/tools/remark/RemarkError';
 import { type ScryCard } from '@/tools/scryfall/types';
 import { union } from '@/tools/z/union';
 
@@ -28,24 +31,17 @@ const STYLES: Record<(typeof VARIANTS)[number], SxProps<Theme>> = {
 };
 
 type Props = ExtraProps & {
+  file?: string;
   row?: { cards?: { data: ScryCard[]; id: string }[] };
   variant?: string;
 };
 
-export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
-  if (!row?.cards) {
-    console.error('Missing cards for row', node);
-    return null;
-  }
-  let style: (typeof VARIANTS)[number] = 'CENTERED';
+export const Row: FunctionComponent<Props> = ({ file, node, row, variant }) => {
+  if (!row?.cards) return null;
   const { data, error } = VARIANTS_SCHEMA.safeParse(variant);
-  if (error) {
-    console.error(`Unknown variant "${variant}" for row`);
-  } else if (data) {
-    style = data;
-  }
+  if (error) throw new RemarkError(`Unknown row "${variant}"`, { file, node });
   return (
-    <Box sx={STYLES[style]}>
+    <Box sx={STYLES[data || 'CENTERED']}>
       {row.cards.map(({ data, id }) => (
         // NOTE The extra wrapper is necessary for each card to retain the
         //      harcoded aspect ratio.

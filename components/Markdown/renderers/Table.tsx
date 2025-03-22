@@ -1,3 +1,5 @@
+'use client';
+
 import {
   Table as MuiTable,
   TableBody as MuiTableBody,

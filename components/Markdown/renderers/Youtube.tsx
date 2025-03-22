@@ -2,6 +2,8 @@ import { Box } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
+import { RemarkError } from '@/tools/remark/RemarkError';
+
 /** IFrame permissions for the YouTube widget */
 const IFRAME_PERMISSIONS = [
   'accelerometer',
@@ -13,15 +15,12 @@ const IFRAME_PERMISSIONS = [
 ].join(';');
 
 type Props = ExtraProps & {
+  file?: string;
   id?: string;
 };
 
-export const Youtube: FunctionComponent<Props> = ({ id, node }) => {
-  if (!id) {
-    console.error('Missing ID for YouTube widget', node);
-    return null;
-  }
-
+export const Youtube: FunctionComponent<Props> = ({ file, id, node }) => {
+  if (!id) throw new RemarkError('Missing YouTube ID', { file, node });
   return (
     <Box
       sx={{

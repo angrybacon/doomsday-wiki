@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, useTheme, type PaletteMode } from '@mui/material';
 import { type FunctionComponent, type PropsWithChildren } from 'react';
 import { type Components } from 'react-markdown';

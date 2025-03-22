@@ -1,5 +1,3 @@
-'use client';
-
 import {
   accordionClasses,
   Box,
@@ -83,7 +81,10 @@ type Props = {
   sx?: SxProps;
 };
 
-export const Markdown: FunctionComponent<Props> = ({ markdown, sx }) => (
+export const Markdown: FunctionComponent<Props> = ({
+  markdown: { decklists, file, scries, text },
+  sx,
+}) => (
   <Box
     sx={[
       {
@@ -108,13 +109,13 @@ export const Markdown: FunctionComponent<Props> = ({ markdown, sx }) => (
         remarkDirective,
         remarkGfm,
         // NOTE Our own remarkers
-        [remarkBase, { names: Object.keys(COMPONENTS_EXTRA) }],
-        remarkCard,
-        [remarkDecklist, { decklists: markdown.decklists }],
-        [remarkRow, { scries: markdown.scries }],
+        [remarkBase, { file, names: Object.keys(COMPONENTS_EXTRA) }],
+        [remarkCard, { file }],
+        [remarkDecklist, { decklists, file }],
+        [remarkRow, { file, scries }],
       ]}
     >
-      {markdown.text}
+      {text}
     </ReactMarkdown>
   </Box>
 );

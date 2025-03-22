@@ -3,9 +3,9 @@ import { makeToc, read } from '@korumite/kiwi/server';
 import { ARTICLES } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { type Article } from '@/tools/markdown/types';
-import { remarkDecklists } from '@/tools/remark/remarkDecklists.server';
-import { remarkMana } from '@/tools/remark/remarkMana.server';
-import { remarkScries } from '@/tools/remark/remarkScries.server';
+import { remarkDecklists } from '@/tools/remark/remarkDecklists';
+import { remarkMana } from '@/tools/remark/remarkMana';
+import { remarkScries } from '@/tools/remark/remarkScries';
 import { zArticleMatter, zMetadata } from '@/tools/z/schemas';
 
 export const getArticle = async (
@@ -28,6 +28,7 @@ export const getArticle = async (
       ...markdown,
       ...zMetadata.parse(data),
       banner: await getBanner(matter.banner),
+      file: id,
       matter,
       toc,
     };

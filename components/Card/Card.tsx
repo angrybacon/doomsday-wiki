@@ -1,3 +1,5 @@
+'use client';
+
 import { mdiCached } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, IconButton } from '@mui/material';

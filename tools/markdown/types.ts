@@ -11,6 +11,7 @@ export type Banner = {
 
 export type Partial = {
   decklists: Decklists;
+  file: string;
   minutes: number;
   scries: Scries;
   text: string;

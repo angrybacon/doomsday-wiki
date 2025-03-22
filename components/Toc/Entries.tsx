@@ -127,7 +127,7 @@ export const Entries = ({
       ))}
       {withBackToTop && (
         <>
-          <Divider component="li" role="separator" sx={{ width: 1 }} />
+          <Divider component="li" role="separator" sx={{ my: 1, width: 1 }} />
           <Box
             component="li"
             onClick={onScroll}

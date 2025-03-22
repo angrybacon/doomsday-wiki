@@ -5,16 +5,15 @@ import {
   type DecklistExtra,
   type Decklist as DecklistModel,
 } from '@/tools/decklists/types';
+import { RemarkError } from '@/tools/remark/RemarkError';
 
 type Props = ExtraProps & {
   decklist?: DecklistModel & DecklistExtra;
+  file?: string;
 };
 
-export const Decklist = ({ decklist, node }: Props) => {
-  if (!decklist) {
-    console.error('Missing card list in decklist', node);
-    return null;
-  }
+export const Decklist = ({ file, decklist, node }: Props) => {
+  if (!decklist) throw new RemarkError('Missing deck', { file, node });
 
   const { authors, colors, main, mainCount, sideCount } = decklist;
 

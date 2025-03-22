@@ -27,9 +27,9 @@ export const PhyrexianRemapper = () => {
       <TextField
         fullWidth
         label="Text"
-        maxRows={8}
         multiline
         onChange={({ target }) => setInput(target.value)}
+        rows={input.split('\n').length}
         value={input}
       />
       <Box
