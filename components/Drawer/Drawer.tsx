@@ -33,10 +33,11 @@ const DECORATIONS: Partial<
 };
 
 type Props = {
+  clock: string;
   menu: typeof MENU;
 };
 
-export const Drawer = ({ menu }: Props) => (
+export const Drawer = ({ clock, menu }: Props) => (
   <>
     <Toolbar
       sx={{
@@ -46,16 +47,18 @@ export const Drawer = ({ menu }: Props) => (
         px: { xs: 2 },
       }}
     >
-      <Button
-        component={NextLink}
-        disableElevation
-        href="/"
-        size="small"
-        sx={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
-        variant="contained"
-      >
-        doomsday.wiki
-      </Button>
+      <NextLink href="/">
+        <Tooltip title={clock}>
+          <Button
+            disableElevation
+            size="small"
+            sx={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
+            variant="contained"
+          >
+            doomsday.wiki
+          </Button>
+        </Tooltip>
+      </NextLink>
       <NextLink href="/discord" target="_blank">
         <Tooltip title="Join our Discord server">
           <IconButton>
