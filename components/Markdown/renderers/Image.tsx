@@ -1,3 +1,5 @@
+'use client';
+
 import { Box, Typography } from '@mui/material';
 import { type Components } from 'react-markdown';
 
@@ -10,17 +12,41 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
     <>
       <Box
         component="span"
-        sx={({ mixins }) => ({
-          ...mixins.barf,
+        sx={{
           border: 1,
           borderColor: 'divider',
-          borderLeft: 0,
-          borderRight: 0,
+          borderRadius: 4,
           display: 'block',
-          img: { display: 'block', width: 1 },
-        })}
+          overflow: 'hidden',
+          position: 'relative',
+          '&:before': ({ mixins }) => ({
+            ...mixins.blur('strong'),
+            backgroundPosition: 'center',
+            backgroundImage: `url(${src})`,
+            backgroundSize: 'cover',
+            content: '""',
+            display: 'block',
+            filter: 'blur(24px)',
+            inset: 0,
+            position: 'absolute',
+          }),
+        }}
+        title={title}
       >
-        <img alt={alt} decoding="async" src={src} title={title} />
+        <Box
+          alt={alt}
+          component="img"
+          decoding="async"
+          src={src}
+          sx={{
+            aspectRatio: '3 / 1',
+            display: 'block',
+            height: 'auto',
+            objectFit: 'contain',
+            position: 'relative',
+            width: 1,
+          }}
+        />
       </Box>
       {title && (
         <Typography

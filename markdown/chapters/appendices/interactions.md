@@ -3,8 +3,6 @@ banner: Spike, Tournament Grinder
 title: Interesting Interactions
 ---
 
-## Table of Contents
-
 ## Preamble
 
 This appendix describes important card interactions that may not be obvious to a

@@ -1,6 +1,6 @@
 import { type CATEGORIES } from '@/tools/markdown/constants';
 
-/** Commonly used acronyms and their corresponding category. */
+/** Commonly used acronyms and their corresponding category */
 export const CARDS: Record<string, [string, (typeof CATEGORIES)[number][]]> =
   // prettier-ignore
   {

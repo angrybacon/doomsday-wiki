@@ -6,8 +6,6 @@ tags: [LEGACY, MEANDECK]
 title: "Legacy at Axion's Mega Weekend: Winner's Report and Metagame Discussion"
 ---
 
-## Table of Contents
-
 ## Preface
 
 On the weekend just gone (5th and 6th of February 2022)

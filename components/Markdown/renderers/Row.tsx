@@ -1,10 +1,11 @@
-import { alpha, Box, type Theme } from '@mui/material';
-import { type SystemStyleObject } from '@mui/system';
+'use client';
+
+import { Box, type SxProps, type Theme } from '@mui/material';
 import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
-import { gutters } from '@/theme/tools/gutters';
+import { RemarkError } from '@/tools/remark/RemarkError';
 import { type ScryCard } from '@/tools/scryfall/types';
 import { union } from '@/tools/z/union';
 
@@ -12,59 +13,42 @@ const VARIANTS = ['CENTERED', 'PILE'] as const;
 
 const VARIANTS_SCHEMA = union(VARIANTS).optional();
 
-const STYLES: Record<
-  (typeof VARIANTS)[number],
-  (theme: Theme) => SystemStyleObject<Theme>
-> = {
-  CENTERED: ({ mixins }) => ({
-    ...mixins.gutters,
+const STYLES: Record<(typeof VARIANTS)[number], SxProps<Theme>> = {
+  CENTERED: () => ({
+    display: 'flex',
     justifyContent: 'space-around',
-    mx: -1,
-    '> *': { flexBasis: '25%', maxWidth: '25%' },
+    mx: { xs: -0.5, md: -1 },
+    '> *': { flexBasis: '25%', maxWidth: '25%', px: { xs: 0.5, md: 1 } },
   }),
-  PILE: (theme) => ({
-    ...gutters(theme),
-    bgcolor: alpha(theme.palette.primary.light, 0.1),
-    border: 1,
-    borderColor: 'divider',
-    borderLeft: 0,
-    borderRight: 0,
-    py: { xs: 2, sm: 4 }, // NOTE Should match the `gutters` mixin
-    '> *': { width: 0.2 },
+  PILE: ({ vars }) => ({
+    bgcolor: `rgba(${vars.palette.primary.mainChannel} / .1)`,
+    borderRadius: 4,
+    display: 'flex',
+    py: { xs: 2, sm: 4 },
+    px: { xs: 1.5, sm: 3 },
+    '> *': { px: { xs: 0.5, md: 1 }, width: 0.2 },
   }),
 };
 
 type Props = ExtraProps & {
+  file?: string;
   row?: { cards?: { data: ScryCard[]; id: string }[] };
   variant?: string;
 };
 
-export const Row: FunctionComponent<Props> = ({ node, row, variant }) => {
-  if (!row?.cards) {
-    console.error('Missing cards for row', node);
-    return null;
-  }
-  let style: (typeof VARIANTS)[number] = 'CENTERED';
+export const Row: FunctionComponent<Props> = ({ file, node, row, variant }) => {
+  if (!row?.cards) return null;
   const { data, error } = VARIANTS_SCHEMA.safeParse(variant);
-  if (error) {
-    console.error(`Unknown variant "${variant}" for row`);
-  } else if (data) {
-    style = data;
-  }
+  if (error) throw new RemarkError(`Unknown row "${variant}"`, { file, node });
   return (
-    <Box sx={({ mixins }) => mixins.barf}>
-      <Box
-        sx={[
-          { display: 'flex', mx: { xs: -0.25, sm: -0.5, md: -1 } },
-          STYLES[style],
-        ]}
-      >
-        {row.cards.map(({ data, id }) => (
-          <Box key={id} sx={{ px: { xs: 0.25, sm: 0.5, md: 1 } }}>
-            <Card data={data} />
-          </Box>
-        ))}
-      </Box>
+    <Box sx={STYLES[data || 'CENTERED']}>
+      {row.cards.map(({ data, id }) => (
+        // NOTE The extra wrapper is necessary for each card to retain the
+        //      harcoded aspect ratio.
+        <div key={id}>
+          <Card data={data} />
+        </div>
+      ))}
     </Box>
   );
 };

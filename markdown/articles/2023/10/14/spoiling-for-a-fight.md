@@ -40,8 +40,6 @@ can best make use of its power. And since this is the _Doomsday Wiki_, we'll
 also talk about its applicability to Legacy Doomsday decks, where it has utility
 beyond being a simple tutor. Let's get to it!
 
-## Table of Contents
-
 ## Spoils as a Tutor
 
 ### Part 1: Some Maths
@@ -254,7 +252,7 @@ meaning that (barring shuffle effects in response like a Surgical Extraction),
 Spoils will find you the card you name for a small, known cost of life. Let's
 take a look at some of the possibilities regarding Doomsday piles.
 
-### Spoils Is a Cantrip for {B}
+### Spoils Is a Cantrip for B
 
 Many Turbo Doomsday lists are running basic Swamp, or Cabal Ritual for
 additional {B}{B}{B}-producing effects. Being able to spend this excess black

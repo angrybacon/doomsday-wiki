@@ -3,8 +3,6 @@ banner: Opt | INV
 title: The Doomsday Playables
 ---
 
-## Table of Contents
-
 ## Preamble
 
 This is a list of potential Doomsday playables that have been historically tried

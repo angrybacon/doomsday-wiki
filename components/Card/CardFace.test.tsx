@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
 import { type ComponentProps } from 'react';
 
 import { CardFace } from '@/components/Card/CardFace';
 import { type ScryCard } from '@/tools/scryfall/types';
+import { render, screen } from '@/tools/test';
 
 describe(CardFace.name, () => {
   let props: ComponentProps<typeof CardFace>;

@@ -1,18 +1,21 @@
-import { accordionClasses, Box, tableClasses } from '@mui/material';
-import { useEffect, type FunctionComponent } from 'react';
+import {
+  accordionClasses,
+  Box,
+  tableClasses,
+  type SxProps,
+} from '@mui/material';
+import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
-import remarkToc from 'remark-toc';
-import { type PluggableList } from 'unified';
 
+import { Divider } from '@/components/Divider/Divider';
 import {
   Accordion,
   Card,
   Code,
   Decklist,
-  Divider,
   Heading,
   Image,
   Link,
@@ -26,7 +29,6 @@ import {
   TableCell,
   TableHead,
   TableRow,
-  Tweet,
   Youtube,
 } from '@/components/Markdown/renderers';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
@@ -50,9 +52,9 @@ const COMPONENTS = {
   h4: Heading<'h4'>,
   h5: Heading<'h5'>,
   h6: Heading<'h6'>,
-  hr: Divider,
+  hr: () => <Divider />,
   img: Image,
-  // NOTE The `code` entries handle both block and inline code markup
+  // NOTE The `code` entries already handle both block and inline code markup
   pre: ({ children }) => <>{children}</>,
   table: Table,
   tbody: TableBody,
@@ -71,71 +73,49 @@ const COMPONENTS_EXTRA = {
   soundcloud: Soundcloud,
   spoiler: Spoiler,
   spoils: SpoilsCalculator,
-  tweet: Tweet,
   youtube: Youtube,
 } as const;
 
 type Props = {
   markdown: Article | Chapter | Partial;
-  /** Whether the component should scroll to the current anchor. */
-  withScroll?: boolean;
-  withWrapper?: boolean;
+  sx?: SxProps;
 };
 
 export const Markdown: FunctionComponent<Props> = ({
-  markdown,
-  withScroll = true,
-  withWrapper = true,
-}) => {
-  const plugins = {
-    rehypePlugins: [rehypeSlug],
-    remarkPlugins: [
-      // NOTE Vendor remarkers
-      remarkDirective,
-      remarkGfm,
-      [remarkToc, { maxDepth: 3, ordered: true, tight: true }],
-      // NOTE Our own remarkers
-      remarkBase,
-      remarkCard,
-      [remarkDecklist, { decklists: markdown.decklists }],
-      [remarkRow, { scries: markdown.scries }],
-    ],
-  } as const satisfies Record<string, PluggableList>;
-
-  const children = (
+  markdown: { decklists, file, scries, text },
+  sx,
+}) => (
+  <Box
+    sx={[
+      {
+        display: 'grid',
+        gap: 3,
+        [`.${accordionClasses.root}`]: {
+          [`&.${accordionClasses.expanded}`]: { my: 0 },
+          [`& + .${accordionClasses.root}`]: { mt: -3 },
+        },
+        [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
+      },
+      ...(Array.isArray(sx) ? sx : [sx]),
+    ]}
+  >
     <ReactMarkdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       skipHtml
-      {...plugins}
+      rehypePlugins={[rehypeSlug]}
+      // TODO Since the Next migration we can probably do all that SSR now
+      remarkPlugins={[
+        // NOTE Vendor remarkers
+        remarkDirective,
+        remarkGfm,
+        // NOTE Our own remarkers
+        [remarkBase, { file, names: Object.keys(COMPONENTS_EXTRA) }],
+        [remarkCard, { file }],
+        [remarkDecklist, { decklists, file }],
+        [remarkRow, { file, scries }],
+      ]}
     >
-      {markdown.text}
+      {text}
     </ReactMarkdown>
-  );
-
-  useEffect(() => {
-    if (withScroll) {
-      const { hash } = window.location;
-      if (hash) {
-        const element = document.getElementById(hash.substring(1));
-        // NOTE The hardcoded delay is necessary to handle embedded tweets for
-        //      which the total height cannot be guessed in advanced.
-        setTimeout(() => element?.scrollIntoView(), 700);
-      }
-    }
-  }, [withScroll]);
-
-  return withWrapper ? (
-    <Box
-      sx={{
-        display: 'grid',
-        gap: 3,
-        [`.${accordionClasses.root} + .${accordionClasses.root}`]: { mt: -3 },
-        [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
-      }}
-    >
-      {children}
-    </Box>
-  ) : (
-    children
-  );
-};
+  </Box>
+);

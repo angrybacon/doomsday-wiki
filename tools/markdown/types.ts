@@ -11,14 +11,24 @@ export type Banner = {
 
 export type Partial = {
   decklists: Decklists;
+  file: string;
   minutes: number;
   scries: Scries;
   text: string;
 };
 
+type ArticleMatter = {
+  authors: string;
+  banner: string;
+  kind: (typeof KINDS)[number];
+  tags: (typeof TAGS)[number][];
+  title: string;
+};
+
 export type Article = Partial & {
   banner: Banner;
   matter: ArticleMatter;
+  toc: Toc;
 };
 
 export type ArticleCard = {
@@ -30,16 +40,12 @@ export type ArticleCard = {
 
 export type Chapter = Partial & {
   banner: Banner;
-  matter: {
-    banner: string;
-    title: string;
-  };
+  matter: { banner: string; title: string };
+  toc: Toc;
 };
 
-export type ArticleMatter = {
-  authors: string;
-  banner: string;
-  kind: (typeof KINDS)[number];
-  tags: (typeof TAGS)[number][];
-  title: string;
+export type Toc = {
+  items?: Toc[];
+  title?: string;
+  url?: string;
 };

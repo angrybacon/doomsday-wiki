@@ -3,8 +3,6 @@ banner: ToA
 title: The Basics
 ---
 
-## Table of Contents
-
 ## Preamble
 
 The goal of all Magic decks is to win the game. Doomsday aims to do so by

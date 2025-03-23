@@ -1,16 +1,15 @@
 import { Box } from '@mui/material';
-import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
+import { RemarkError } from '@/tools/remark/RemarkError';
+
 type Props = ExtraProps & {
+  file?: string;
   url?: string;
 };
 
-export const Soundcloud: FunctionComponent<Props> = ({ node, url }) => {
-  if (!url) {
-    console.error('Missing URL for SoundCloud widget', node);
-    return null;
-  }
+export const Soundcloud = ({ file, node, url }: Props) => {
+  if (!url) throw new RemarkError('Missing SoundCloud URL', { file, node });
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
   const parameters = [
@@ -24,7 +23,15 @@ export const Soundcloud: FunctionComponent<Props> = ({ node, url }) => {
       component="iframe"
       scrolling="no"
       src={`https://w.soundcloud.com/player/?${parameters.join('&')}`}
-      sx={{ border: 0, borderRadius: 1, display: 'block', width: 1 }}
+      sx={{
+        border: 1,
+        borderColor: 'divider',
+        borderRadius: 4,
+        display: 'block',
+        overflow: 'hidden',
+        p: 1.5,
+        width: 1,
+      }}
       title={url}
     />
   );

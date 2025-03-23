@@ -6,8 +6,6 @@ tags: [LEGACY, MEANDECK]
 title: "Legacy at Axion's Mega Weekend Birmingham: Speculating that Positive Life EV"
 ---
 
-## Table of Contents
-
 ## Preface
 
 On the weekend just gone (9th and 10th of April 2022)

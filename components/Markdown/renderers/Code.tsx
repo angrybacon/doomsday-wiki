@@ -1,15 +1,13 @@
-import { alpha, Box, useTheme, type PaletteMode } from '@mui/material';
-import {
-  type Component,
-  type FunctionComponent,
-  type PropsWithChildren,
-} from 'react';
+'use client';
+
+import { Box, useTheme, type PaletteMode } from '@mui/material';
+import { type FunctionComponent, type PropsWithChildren } from 'react';
 import { type Components } from 'react-markdown';
 import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
 import {
   oneDark as dark,
   oneLight as light,
-} from 'react-syntax-highlighter/dist/cjs/styles/prism';
+} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const THEMES: Record<PaletteMode, SyntaxHighlighterProps['style']> = {
   dark,
@@ -23,32 +21,20 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
   const theme = useTheme();
   return (
     <Box
-      // NOTE They don't support React 18 yet
-      component={Prism as typeof Component<SyntaxHighlighterProps>}
+      component={Prism}
       customStyle={{
         borderRadius: undefined,
         margin: undefined,
-        paddingLeft: undefined,
-        paddingRight: undefined,
+        padding: undefined,
       }}
       language={language || 'text'}
       style={THEMES[theme.palette.mode]}
-      sx={[
-        ({ mixins, palette }) => ({
-          ...mixins.barf,
-          borderBottomStyle: 'solid',
-          borderBottomWidth: 1,
-          borderColor: palette.divider,
-          borderTopStyle: 'solid',
-          borderTopWidth: 1,
-          display: 'block',
-          fontSize: 'body2.fontSize',
-          my: 0,
-        }),
-        // NOTE Let MUI handle the merging of the viewport queries from `barf`
-        //      and `gutters`.
-        ({ mixins }) => mixins.gutters,
-      ]}
+      sx={{
+        borderRadius: 4,
+        display: 'block',
+        fontSize: 'body2.fontSize',
+        p: 2,
+      }}
     >
       {typeof children === 'string' ? children.trim() : children}
     </Box>
@@ -58,19 +44,15 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
 const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
   <Box
     component="code"
-    sx={({ palette }) => ({
-      bgcolor: alpha(palette.primary.light, 0.1),
-      borderColor: alpha(palette.primary.light, 0.2),
-      borderRadius: '4px',
-      borderStyle: 'solid',
-      borderWidth: 1,
-      color: 'text.secondary',
+    sx={{
+      bgcolor: 'action.hover',
+      borderRadius: 1,
+      color: 'secondary.dark',
       fontDisplay: 'swap',
       fontFamily: 'monospace',
-      fontSize: 'body2.fontSize',
-      px: 0.5,
-      py: 0,
-    })}
+      px: '.2em',
+      py: '.1em',
+    }}
   >
     {children}
   </Box>

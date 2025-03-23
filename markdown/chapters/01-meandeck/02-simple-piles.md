@@ -4,8 +4,6 @@ banner: IU
 title: Simple Piles
 ---
 
-## Table of Contents
-
 ## Preamble
 
 The goal of all Magic decks is to win the game. :card[Doomsday] aims to do so by

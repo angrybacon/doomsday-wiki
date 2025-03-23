@@ -6,14 +6,17 @@
     "module": "preserve",
     "noEmit": true,
     "paths": {
+      "@/app/*": ["./app/*"],
+      "@/contexts/*": ["./contexts/*"],
       "@/components/*": ["./components/*"],
       "@/hooks/*": ["./hooks/*"],
       "@/theme/*": ["./theme/*"],
       "@/tools/*": ["./tools/*"]
     },
+    "plugins": [{ "name": "next" }],
     "verbatimModuleSyntax": false
   },
   "exclude": ["node_modules"],
   "extends": "./node_modules/@korumite/ts/tsconfig.dom.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
 }

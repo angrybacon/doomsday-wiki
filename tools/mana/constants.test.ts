@@ -1,6 +1,6 @@
 import { MANA_RE } from '@/tools/mana/constants';
 
-/** Dummy replace tester. */
+/** Dummy replace tester */
 const replace = (text: string): string => {
   const result = text.replace(MANA_RE, ':m[$1]');
   return result;

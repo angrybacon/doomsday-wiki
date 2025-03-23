@@ -4,8 +4,6 @@ banner: Sundial of the Infinite
 title: Pass-the-Turn Piles
 ---
 
-## Table of Contents
-
 ## Preamble
 
 It is very often the case that you are able to resolve Doomsday but, due to

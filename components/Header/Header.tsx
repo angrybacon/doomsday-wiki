@@ -1,66 +1,44 @@
-import { mdiMenu } from '@mdi/js';
-import Icon from '@mdi/react';
-import {
-  alpha,
-  AppBar,
-  Box,
-  IconButton,
-  Toolbar,
-  useTheme,
-} from '@mui/material';
-import { type FunctionComponent } from 'react';
+'use client';
 
-import { Progress } from '@/components/Progress/Progress';
+import { mdiMenu, mdiMenuOpen } from '@mdi/js';
+import { Icon } from '@mdi/react';
+import { AppBar, Divider, IconButton, Toolbar, Tooltip } from '@mui/material';
 
-type Props = {
-  isMobile: boolean;
-  onSidebarOpen: () => void;
-  withProgress?: boolean;
-};
+import { useLayout } from '@/hooks/useLayout';
 
-export const Header: FunctionComponent<Props> = ({
-  isMobile,
-  onSidebarOpen,
-  withProgress = false,
-}) => {
-  const theme = useTheme();
-  const offset = isMobile ? 0 : theme.drawer.width;
+export const Header = () => {
+  const { hasTable, toggleMenu, toggleTable } = useLayout();
   return (
-    <>
-      <AppBar
-        elevation={4}
-        sx={({ palette }) => ({
-          backdropFilter: 'blur(12px)',
-          backgroundColor: alpha(palette.background.paper, 0.75),
-          pl: offset,
-        })}
-      >
-        <Toolbar>
-          {isMobile && (
-            <IconButton
-              aria-label="Menu"
-              onClick={onSidebarOpen}
-              sx={{ mr: 1 }}
-            >
-              <Icon path={mdiMenu} size={1} />
-            </IconButton>
-          )}
-        </Toolbar>
-      </AppBar>
-      <Box role="presentation" sx={({ mixins }) => mixins.toolbar} />
-      {withProgress && (
-        <Box
-          sx={{
-            left: offset,
-            position: 'fixed',
-            right: 0,
-            top: 0,
-            zIndex: ({ zIndex }) => zIndex.appBar,
-          }}
+    <AppBar
+      elevation={0}
+      enableColorOnDark
+      sx={(theme) => ({
+        ...theme.mixins.blur('weak'),
+        bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .5)`,
+      })}
+    >
+      <Toolbar>
+        <IconButton
+          aria-label="Open menu"
+          onClick={toggleMenu(true)}
+          sx={{ display: { md: 'none' } }}
         >
-          <Progress />
-        </Box>
-      )}
-    </>
+          <Icon path={mdiMenu} size={0.7} />
+        </IconButton>
+        {hasTable !== null && (
+          // NOTE We update accessibility data but the icon doesn't matter as no
+          //      one will actually see it.
+          <Tooltip title={`${hasTable ? 'Close' : 'Open'} table of contents`}>
+            <IconButton
+              onClick={toggleTable()}
+              sx={{ display: { sm: 'none' }, ml: 'auto' }}
+            >
+              <Icon path={mdiMenuOpen} size={0.7} />
+            </IconButton>
+          </Tooltip>
+        )}
+      </Toolbar>
+      <Divider />
+    </AppBar>
   );
 };

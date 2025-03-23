@@ -8,7 +8,7 @@ describe(parseHeader.name, () => {
     (toArray as jest.Mock).mockImplementation((text) => text);
   });
 
-  it('should parse the title, authors and colors and trim them', () => {
+  it('should parse the header and trim each line', () => {
     // Given
     const title = 'Decklist Title';
     const authors = 'Firstname Lastname';

@@ -15,8 +15,6 @@ article](/articles/2020/03/12/pretty-mean-deck), which you should really have a
 read of before going through this one, however it seems I didn't touch on many
 points so hopefully this should provide some clarity on the following things:
 
-## Table of Contents
-
 ## The Different Doomsday Archetypes
 
 Although it wasn't always the case, it seems currently the most popular medium
@@ -660,7 +658,7 @@ d8dk32 recently forwarded me a tweet by Stephen Menendian (designer of the 2012
 iteration of Meandeck Doomsday) who posted this picture as a turn 1 win in
 Vintage. It is in fact also a deterministic turn 1 kill in Legacy Doomsday too!
 
-::tweet{id=1242650950415691776}
+<https://twitter.com/SMenendian/status/1242650950415691776>
 
 Have a go at working out this little puzzle checking the meandeck lists on the
 Wiki and see if you can work it out :)

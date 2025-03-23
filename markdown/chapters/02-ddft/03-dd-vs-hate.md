@@ -3,8 +3,6 @@ banner: Tsz | MP2
 title: Doomsday Versus Hate
 ---
 
-## Table of Contents
-
 ## Preamble
 
 Part of the appeal of Doomsday as a card and as a deck is its flexibility.

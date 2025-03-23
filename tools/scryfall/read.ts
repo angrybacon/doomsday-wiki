@@ -6,11 +6,11 @@ import {
   type ScryDataList,
 } from '@/tools/scryfall/types';
 
-/** Data can contain a list of objects in case of non-deterministic searches. */
+/** Data can contain a list of objects in case of non-deterministic searches */
 const readFirstResult = (data: ScryData): ScryDataItem | undefined =>
   data.object === 'list' ? (data as ScryDataList).data[0] : data;
 
-/** A single card can have multiple faces. */
+/** A single card can have multiple faces */
 export const readFaces = async (
   data: ScryData,
   options?: { withPreview: boolean },

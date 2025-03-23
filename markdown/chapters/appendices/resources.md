@@ -40,7 +40,7 @@ For Paper Legacy that often involves Doomsday:
 Videos from non-regular streamers or Doomsday content creators in Legacy.
 
 | Link                                                                                                     | Colors       | Date           | Author            | Language   |
-| -------------------------------------------------------------------------------------------------------- | ------------ | -------------- | ----------------- | ---------- |
+| -------------------------------------------------------------------------------------------------------- | :----------- | -------------- | ----------------- | ---------- |
 | [League with Doomsday](https://www.youtube.com/watch?v=sR-mH8vT3Mk)                                      | {U}{B}{G}    | December 2022  | MagicBlogsDe      | German     |
 | [League with Doomsday ft. _Doishy_](https://www.youtube.com/watch?v=aXP08JzTdHA)                         | {U}{B}       | November 2022  | Crucible of Words | English    |
 | [Primer on Doomsday](https://www.youtube.com/watch?v=KqQt8tGJwRc)                                        | {U}{B}       | November 2022  | AmmiO             | English    |

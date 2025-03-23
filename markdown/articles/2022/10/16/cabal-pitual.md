@@ -6,8 +6,6 @@ tags: [LEGACY, MEANDECK]
 title: 'Doomsday at the Legacy Pit Open II: An Interview with RoseIsland'
 ---
 
-## Table of Contents
-
 ## Preface
 
 Salutations!

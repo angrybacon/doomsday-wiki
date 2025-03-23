@@ -5,10 +5,10 @@ import { z } from 'zod';
 import { formatDate } from '@/tools/io/formatDate';
 import { zCategory, zChapter } from '@/tools/z/schemas';
 
-/** @deprecated Use `BASE_URLS.ROOT` instead. */
+/** @deprecated Use `BASE_URLS.ROOT` instead */
 const BASE_URL = join(process.cwd(), 'markdown');
 
-/** Base file URLs for Markdown content. */
+/** Base file URLs for Markdown content */
 export const BASE_URLS = {
   ARTICLES: join(BASE_URL, 'articles'),
   CHAPTERS: join(BASE_URL, 'chapters'),
@@ -32,8 +32,7 @@ export const ARTICLES = {
       },
     )
   ).reverse(),
-  ROUTES: makeNextRoutes(ARTICLES_TREE, ['year', 'month', 'day', 'article']),
-  TREE: ARTICLES_TREE,
+  ROUTES: makeNextRoutes(ARTICLES_TREE, ['year', 'month', 'day', 'slug']),
 } as const;
 
 const CHAPTERS_TREE = z
@@ -52,6 +51,5 @@ export const CHAPTERS = {
       slug: ({ crumbs }) => z.string().parse(crumbs[1]),
     },
   ),
-  ROUTES: makeNextRoutes(CHAPTERS_TREE, ['category', 'chapter']),
-  TREE: CHAPTERS_TREE,
+  ROUTES: makeNextRoutes(CHAPTERS_TREE, ['chapter', 'slug']),
 } as const;

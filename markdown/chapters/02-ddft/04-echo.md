@@ -3,8 +3,6 @@ banner: EoE
 title: Using Echo of Eons in Piles
 ---
 
-## Table of Contents
-
 ## Preamble
 
 Echo of Eons is a comparatively recent addition to the DDFT arsenal, and is

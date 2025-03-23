@@ -1,4 +1,4 @@
-/** Collection of regular expression used to parse a decklist file. */
+/** Collection of regular expression used to parse a decklist file */
 export const DECK_RE = {
   card: /(\d+) +(.+)\b */,
   decklist:

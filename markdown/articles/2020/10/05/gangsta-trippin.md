@@ -51,7 +51,7 @@ The first suite of cantrips are what would be considered the _standard_ Legacy
 setup. Ponder and Brainstorm can be found of as 4-ofs in most {U} based decks
 and Preordain as a 2-4 of in many as well.
 
-#### :card[Ponder]
+#### Ponder
 
 Ponder is powerful tool that allows you to see 4 cards during resolution. It is
 at its most powerful when paired with a fetchland as this gives you the option
@@ -64,7 +64,7 @@ Doomsday or a protection spell like Force of Will.
 Pnd
 :::
 
-#### :card[Preordain]
+#### Preordain
 
 Preordain is normally considered the _weakest_ of the classic suite. Previously
 it has normally been relegated to combo decks who just wanted additional
@@ -84,7 +84,7 @@ implies the opposite of the truth.
 Pre
 :::
 
-#### :card[Brainstorm]
+#### Brainstorm
 
 Brainstorm has been described as a [_Pillar of the
 Format_](https://twitter.com/mtgaaron/status/985674571188588544) and is
@@ -107,7 +107,7 @@ _free_ cycle cards that have little to no relevant text outside of their cycling
 abilities (other than some specific circumstances). Their use is almost always
 to provide a {0} mana draw effect after Doomsday has resolved.
 
-#### :card[Street Wraith]
+#### Street Wraith
 
 Street Wraith is used by Shadow decks to both thin out their draws and to reduce
 their life total aggressively. For Doomsday it is a way to enable a lot of the
@@ -133,7 +133,7 @@ video](https://youtu.be/Eyi_R7QZiAc?t=2673) by Nevilshute against {U}{B} Shadow.
 SW
 :::
 
-#### :card[Edge of Autumn]
+#### Edge of Autumn
 
 Edge of Autumn provides a method of cycling that is less taxing on your life
 total however can be of much less use outside of the combo. Sacrificing a land
@@ -161,7 +161,7 @@ however they can have usage outside of this to varying degrees. One is a well
 known staple for certain builds of Miracles and the other is a historical card
 from pre- :card[Sensei's Divining Top] ban DDFT days.
 
-### :card[Predict]
+### Predict
 
 Predict pairs effectively with other cantrips as you can use it to provide
 additional filtering and raw card advantage. It also enables access to Doomsday
@@ -175,7 +175,7 @@ component or causing the pilot to inadvertently draw themselves to death.
 Pdt
 :::
 
-### :card[Ideas Unbound]
+### Ideas Unbound
 
 Ideas Unbound is a more effective card (resources allowing) during pile
 construction but a weaker card outside of the combo. It can be used as a large

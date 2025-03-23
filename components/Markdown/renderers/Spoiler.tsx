@@ -1,3 +1,5 @@
+'use client';
+
 import { Box } from '@mui/material';
 import {
   useState,
@@ -9,11 +11,12 @@ import { type ExtraProps } from 'react-markdown';
 type Props = PropsWithChildren & ExtraProps;
 
 export const Spoiler: FunctionComponent<Props> = ({ children, node }) => {
-  const [isSpoiled, setIsSpoiled] = useState(false);
+  const [isHidden, setIsHidden] = useState(true);
 
-  if (!node?.position) return <>{children}</>;
-
-  const onSpoil = () => setIsSpoiled(true);
+  if (!node?.position || !children) {
+    console.error('Could not parse spoiler node', node);
+    return <>{children}</>;
+  }
 
   const component =
     node.position.start.line === node.position.end.line ? 'span' : 'div';
@@ -21,23 +24,25 @@ export const Spoiler: FunctionComponent<Props> = ({ children, node }) => {
   return (
     <Box
       component={component}
-      onClick={onSpoil}
+      onClick={() => setIsHidden(false)}
       role="button"
       sx={[
         {
-          backgroundColor: 'action.selected',
-          borderRadius: '4px',
-          px: '2px',
+          bgcolor: 'action.selected',
+          borderRadius: 1,
+          color: 'unset',
+          px: '.2em',
           py: '.1em',
         },
-        !isSpoiled &&
-          (({ palette }) => ({
-            ...(palette.mode === 'dark'
-              ? { backgroundColor: 'grey.900', color: 'grey.900' }
-              : { backgroundColor: 'grey.400', color: 'grey.400' }),
+        isHidden &&
+          ((theme) => ({
+            bgcolor: 'grey.400',
+            color: 'transparent',
             cursor: 'pointer',
+            ...theme.applyStyles('dark', { bgcolor: 'grey.900' }),
           })),
       ]}
+      title="Click to reveal"
     >
       {children}
     </Box>

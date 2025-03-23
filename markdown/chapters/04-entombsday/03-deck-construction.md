@@ -4,8 +4,6 @@ banner: Em
 title: Deck Construction
 ---
 
-## Table of Contents
-
 ## Preamble
 
 The idea behind modern builds of Entombsday is to take the Turbo Doomsday shell,

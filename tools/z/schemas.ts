@@ -14,13 +14,13 @@ export const zArticleMatter = z.object({
   title: z.string(),
 });
 
-/** A Zod schema to describe chapter categories. */
+/** A Zod schema to describe chapter categories */
 export const zCategory = z.preprocess(
   (value) => (typeof value === 'string' ? value.toUpperCase() : value),
   union(CATEGORIES),
 );
 
-/** A Zod schema to describe chapter path crumbs. */
+/** A Zod schema to describe chapter path crumbs */
 export const zChapter = union(CATEGORIES.map((it) => it.toLowerCase()));
 
 export const zChapterMatter = z.object({
@@ -42,7 +42,7 @@ const zDecklist = z.object({
   sideCount: z.number(),
   title: z.string().nullable(),
   // NOTE Formerly `DecklistExtra` type
-  date: z.string().nullable(),
+  dateFromPath: z.string().nullable(),
   titleFromPath: z.string(),
 });
 

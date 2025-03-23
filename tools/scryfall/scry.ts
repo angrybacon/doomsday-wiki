@@ -8,7 +8,7 @@ import { type ScryData } from '@/tools/scryfall/types';
  */
 const HOST = 'http://localhost:3333';
 
-/** Endpoints to query for a specific card. */
+/** Endpoints to query for a specific card */
 const API = {
   NAMED: `${HOST}/cards/named`,
   SEARCH: `${HOST}/cards/search`,

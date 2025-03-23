@@ -1,5 +1,6 @@
+'use client';
+
 import {
-  alpha,
   Table as MuiTable,
   TableBody as MuiTableBody,
   TableCell as MuiTableCell,
@@ -7,18 +8,16 @@ import {
   TableHead as MuiTableHead,
   TableRow as MuiTableRow,
 } from '@mui/material';
-import { type ReactElement } from 'react';
 import { type Components, type ExtraProps } from 'react-markdown';
 
 export const Table: Components['table'] = ({ children }) => (
   <MuiTableContainer
-    sx={({ mixins }) => ({
-      ...mixins.barf,
-      borderTop: 1,
-      borderTopColor: 'divider',
-      overflowX: 'auto',
-      '& + &': { borderTop: 0 },
-    })}
+    sx={{
+      border: 1,
+      borderColor: 'divider',
+      borderRadius: 4,
+      overflowWrap: 'normal',
+    }}
   >
     <MuiTable size="small">{children}</MuiTable>
   </MuiTableContainer>
@@ -28,29 +27,42 @@ export const TableBody: Components['tbody'] = ({ children }) => (
   <MuiTableBody>{children}</MuiTableBody>
 );
 
+const CELL_ALIGN: Record<string, 'center' | 'left' | 'right'> = {
+  left: 'left',
+  center: 'center',
+  right: 'right',
+} as const;
+
 export const TableCell = <T extends 'td' | 'th' = never>({
   children,
-  style,
-}: JSX.IntrinsicElements[T] & ExtraProps): ReactElement => (
-  <MuiTableCell
-    style={style}
-    sx={[
-      ({ mixins }) => mixins.gutters,
-      style?.textAlign === 'left' && { whiteSpace: 'nowrap' },
-    ]}
-  >
-    {children}
-  </MuiTableCell>
-);
+  node,
+}: JSX.IntrinsicElements[T] & ExtraProps) => {
+  const align = CELL_ALIGN[`${node?.properties.align}`];
+  return (
+    <MuiTableCell
+      align={align}
+      sx={[
+        { borderColor: 'divider' },
+        align === 'left' && { whiteSpace: 'nowrap' },
+      ]}
+    >
+      {children}
+    </MuiTableCell>
+  );
+};
 
 export const TableHead: Components['thead'] = ({ children }) => (
   <MuiTableHead
-    sx={{ bgcolor: ({ palette }) => alpha(palette.primary.light, 0.1) }}
+    sx={({ vars }) => ({
+      bgcolor: `rgba(${vars.palette.primary.mainChannel} / .1)`,
+    })}
   >
     {children}
   </MuiTableHead>
 );
 
 export const TableRow: Components['tr'] = ({ children }) => (
-  <MuiTableRow>{children}</MuiTableRow>
+  <MuiTableRow sx={{ '&:last-child td': { borderBottom: 0 } }}>
+    {children}
+  </MuiTableRow>
 );

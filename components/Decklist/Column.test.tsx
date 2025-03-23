@@ -1,7 +1,7 @@
-import { render, screen } from '@testing-library/react';
 import { type ComponentProps } from 'react';
 
 import { Column } from '@/components/Decklist/Column';
+import { render, screen } from '@/tools/test';
 
 describe(Column.name, () => {
   let props: ComponentProps<typeof Column>;

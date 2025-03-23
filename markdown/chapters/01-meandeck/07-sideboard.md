@@ -4,8 +4,6 @@ banner: Pyroblast
 title: Sideboarding
 ---
 
-## Table of Contents
-
 ## Preamble
 
 In this chapter we will present the concepts and elements to consider when

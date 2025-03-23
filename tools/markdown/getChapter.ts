@@ -1,11 +1,11 @@
-import { read } from '@korumite/kiwi/server';
+import { makeToc, read } from '@korumite/kiwi/server';
 
 import { CHAPTERS } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { type Chapter } from '@/tools/markdown/types';
-import { remarkDecklists } from '@/tools/remark/remarkDecklists.server';
-import { remarkMana } from '@/tools/remark/remarkMana.server';
-import { remarkScries } from '@/tools/remark/remarkScries.server';
+import { remarkDecklists } from '@/tools/remark/remarkDecklists';
+import { remarkMana } from '@/tools/remark/remarkMana';
+import { remarkScries } from '@/tools/remark/remarkScries';
 import { zChapterMatter, zMetadata } from '@/tools/z/schemas';
 
 export const getChapter = async (
@@ -21,12 +21,16 @@ export const getChapter = async (
       remarkMana,
       remarkScries,
     );
+    const toc = makeToc(markdown.text, { maxDepth: 3 });
+    if (!toc?.items?.length) throw new Error('Found empty table of contents');
     const matter = zChapterMatter.parse(markdown.matter);
     return {
       ...markdown,
       ...zMetadata.parse(data),
       banner: await getBanner(matter.banner),
+      file: id,
       matter,
+      toc,
     };
   } catch (error) {
     const message = error instanceof Error ? error.message : error;

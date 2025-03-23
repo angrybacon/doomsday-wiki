@@ -4,8 +4,6 @@ banner: BS | MMQ
 title: Brainstorm Piles
 ---
 
-## Table of Contents
-
 ## Preamble
 
 :card[Brainstorm] is one of the most powerful spells available in the Legacy

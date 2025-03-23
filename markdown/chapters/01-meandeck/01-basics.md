@@ -4,8 +4,6 @@ banner: DD
 title: Core Concepts
 ---
 
-## Table of Contents
-
 ## Preamble
 
 Welcome to Chapter 0 of the Doomsday section of the Wiki.

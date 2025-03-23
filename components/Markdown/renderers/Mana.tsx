@@ -1,14 +1,15 @@
-import { type FunctionComponent, type PropsWithChildren } from 'react';
+import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-import { Mana as Manaa } from '@/components/Mana/Mana';
+import { Mana as ManaComponent } from '@/components/Mana/Mana';
+import { RemarkError } from '@/tools/remark/RemarkError';
 
-type Props = ExtraProps & PropsWithChildren & { pattern?: string };
+type Props = ExtraProps & {
+  file?: string;
+  pattern?: string;
+};
 
-export const Mana: FunctionComponent<Props> = ({ children, node, pattern }) => {
-  if (!pattern) {
-    console.error('Missing pattern in mana', node);
-    return children;
-  }
-  return <Manaa pattern={pattern} />;
+export const Mana: FunctionComponent<Props> = ({ node, file, pattern }) => {
+  if (!pattern) throw new RemarkError('Missing mana pattern', { file, node });
+  return <ManaComponent pattern={pattern} />;
 };

@@ -12,10 +12,9 @@ export const Heading = <TLevel extends `h${1 | 2 | 3 | 4 | 5 | 6}` = never>({
   }
   return (
     <Typography
-      gutterBottom
       // NOTE The `id` property comes from the `remark-slug` plugin
       id={id}
-      sx={({ mixins }) => mixins.toolbarMargin}
+      sx={{ pt: 2 }}
       variant={node?.tagName as TLevel}
     >
       {children}

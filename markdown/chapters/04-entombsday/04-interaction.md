@@ -4,8 +4,6 @@ banner: SE
 title: Playing Around Interaction
 ---
 
-## Table of Contents
-
 ## Preamble
 
 In general, the easiest way to play around interaction is using discard and
