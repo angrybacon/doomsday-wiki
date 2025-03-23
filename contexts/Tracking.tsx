@@ -16,12 +16,10 @@ const PostHogPageView = () => {
       if (search?.toString()) {
         url = url + `?${search.toString()}`;
       }
-      client.capture('$pageview', {
-        $current_url: url,
-        theme: window.matchMedia('(prefers-color-scheme: dark)').matches
-          ? 'dark'
-          : 'light',
-      });
+      const theme = window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light';
+      client.capture('$pageview', { $current_url: url, device_theme: theme });
     }
   }, [client, pathname, search]);
 
