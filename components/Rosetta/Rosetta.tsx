@@ -9,13 +9,35 @@ import {
   TableRow,
   type SxProps,
 } from '@mui/material';
-import { useEffect, useState } from 'react';
 
 import { useLayout } from '@/hooks/useLayout';
-import {
-  getRosetta,
-  type Rosetta as RosettaModel,
-} from '@/tools/game/getRosetta';
+import { CARDS } from '@/tools/game/constants/Cards';
+
+const Row = ({
+  category,
+  categories,
+  name,
+  notation,
+}: {
+  category: string | null;
+  categories: string[];
+  name: string;
+  notation: string;
+}) => {
+  const dedicated = !!(category && categories.includes(category));
+  return !categories.length || dedicated ? (
+    <TableRow
+      sx={[
+        dedicated && {
+          [`.${tableCellClasses.body}`]: { color: 'text.primary' },
+        },
+      ]}
+    >
+      <TableCell component="th">{notation}</TableCell>
+      <TableCell sx={[{ whiteSpace: 'nowrap' }]}>{name}</TableCell>
+    </TableRow>
+  ) : null;
+};
 
 type Props = {
   sx?: SxProps;
@@ -23,12 +45,6 @@ type Props = {
 
 export const Rosetta = ({ sx }: Props) => {
   const { category } = useLayout();
-  const [rosetta, setRosetta] = useState<RosettaModel>([]);
-
-  useEffect(() => {
-    setRosetta(getRosetta(category));
-  }, [category]);
-
   return (
     <Table
       padding="checkbox"
@@ -48,13 +64,14 @@ export const Rosetta = ({ sx }: Props) => {
         </TableRow>
       </TableHead>
       <TableBody>
-        {rosetta.map(([notation, card]) => (
-          <TableRow key={notation}>
-            <TableCell component="th" scope="row">
-              {notation}
-            </TableCell>
-            <TableCell sx={{ whiteSpace: 'nowrap' }}>{card}</TableCell>
-          </TableRow>
+        {Object.entries(CARDS).map(([notation, card]) => (
+          <Row
+            category={category}
+            categories={card[1]}
+            key={notation}
+            name={card[0]}
+            notation={notation}
+          />
         ))}
       </TableBody>
     </Table>

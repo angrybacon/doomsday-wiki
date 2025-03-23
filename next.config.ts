@@ -1,4 +1,6 @@
-module.exports = {
+import { type NextConfig } from 'next';
+
+export default {
   eslint: { ignoreDuringBuilds: true },
   images: {
     remotePatterns: [{ hostname: 'cards.scryfall.io', protocol: 'https' }],
@@ -6,10 +8,9 @@ module.exports = {
   reactStrictMode: true,
   redirects: async () => [
     {
-      basePath: false,
       destination: 'https://discord.gg/vajvFXt',
       permanent: false,
       source: '/discord',
     },
   ],
-};
+} satisfies NextConfig;
