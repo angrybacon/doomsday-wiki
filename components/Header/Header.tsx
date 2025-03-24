@@ -23,7 +23,7 @@ export const Header = () => {
           onClick={toggleMenu(true)}
           sx={{ display: { md: 'none' } }}
         >
-          <Icon path={mdiMenu} size={0.7} />
+          <Icon path={mdiMenu} size={0.6} />
         </IconButton>
         {hasTable !== null && (
           // NOTE We update accessibility data but the icon doesn't matter as no
@@ -33,7 +33,7 @@ export const Header = () => {
               onClick={toggleTable()}
               sx={{ display: { sm: 'none' }, ml: 'auto' }}
             >
-              <Icon path={mdiMenuOpen} size={0.7} />
+              <Icon path={mdiMenuOpen} size={0.6} />
             </IconButton>
           </Tooltip>
         )}

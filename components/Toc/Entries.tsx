@@ -101,12 +101,15 @@ export const Entries = ({
           listStyleType: 'none',
           pl: 1,
         },
-        root && {
-          gap: 1,
-          overflowY: 'auto',
-          overscrollBehavior: 'contain',
-          pl: 0,
-        },
+        root &&
+          (({ spacing }) => ({
+            gap: 1,
+            overflowY: 'auto',
+            overscrollBehavior: 'contain',
+            pl: 0,
+            scrollBehavior: 'smooth',
+            scrollPadding: spacing(1),
+          })),
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >
@@ -115,7 +118,7 @@ export const Entries = ({
           component="li"
           sx={{
             color: 'text.secondary',
-            pl: 0.5,
+            pl: [1, 0.5],
             textTransform: 'uppercase',
             typography: 'caption',
           }}

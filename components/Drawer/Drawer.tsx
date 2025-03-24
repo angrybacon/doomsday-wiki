@@ -62,7 +62,7 @@ export const Drawer = ({ clock, menu }: Props) => (
       <NextLink href="/discord" target="_blank">
         <Tooltip title="Join our Discord server">
           <IconButton>
-            <Icon path={siDiscord.path} size={0.7} />
+            <Icon path={siDiscord.path} size={0.6} />
           </IconButton>
         </Tooltip>
       </NextLink>

@@ -15,6 +15,7 @@ import {
   useEffect,
   useRef,
   useState,
+  type ElementRef,
   type PropsWithChildren,
 } from 'react';
 
@@ -84,7 +85,11 @@ type Props = {
 export const Toc = ({ items, sx }: Props) => {
   const { hasTable, toggleTable } = useLayout();
   const sm = useMediaQuery(({ breakpoints }) => breakpoints.up('sm'));
+  const root = useRef<ElementRef<'div'>>();
+  /** Cache for headings found in the page */
   const headings = useRef<ReturnType<typeof findHeadings>>([]);
+  /** Cache for links contained in the table */
+  const links = useRef<HTMLAnchorElement[]>([]);
   const throttler = useRef(0);
   const trigger = useScrollTrigger({ disableHysteresis: true, threshold: 900 });
   const [current, setCurrent] = useState<string>();
@@ -92,11 +97,8 @@ export const Toc = ({ items, sx }: Props) => {
   const findCurrent = useCallback(() => {
     const heading = headings.current.findLast(({ node }) => {
       if (!node) return false;
-      return (
-        node.offsetTop <
-        document.documentElement.scrollTop +
-          document.documentElement.clientHeight / 2
-      );
+      const { clientHeight, scrollTop } = document.documentElement;
+      return node.offsetTop < scrollTop + clientHeight / 2;
     });
     if (heading) setCurrent(heading.url);
   }, []);
@@ -106,22 +108,38 @@ export const Toc = ({ items, sx }: Props) => {
   }, [findCurrent]);
 
   useEffect(() => {
+    if (!links.current.length) {
+      links.current = Array.from(root.current?.getElementsByTagName('a') || []);
+    }
+    if (current) {
+      const link = links.current.find(({ href }) => href.includes(current));
+      link?.scrollIntoView({ block: 'nearest' });
+    }
+  }, [current]);
+
+  useEffect(() => {
     window.addEventListener('scroll', animate);
     return () => window.removeEventListener('scroll', animate);
   }, [animate]);
 
   useEffect(() => {
     headings.current = findHeadings(items);
-    if (headings.current.length) toggleTable(false)();
+    if (headings.current.length) {
+      toggleTable(false)();
+      animate();
+    }
     return () => {
       toggleTable(null)();
       cancelAnimationFrame(throttler.current);
     };
-  }, [items, toggleTable]);
+  }, [animate, items, toggleTable]);
 
   return (
     // NOTE Reset margin from the layout,
-    <Box sx={[{ mt: 0, width: WIDTH }, ...(Array.isArray(sx) ? sx : [sx])]}>
+    <Box
+      ref={root}
+      sx={[{ mt: 0, width: WIDTH }, ...(Array.isArray(sx) ? sx : [sx])]}
+    >
       {sm ? (
         <TocDesktop>
           <Entries
