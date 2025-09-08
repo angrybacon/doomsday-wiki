@@ -16,7 +16,15 @@ questions were also answered in this article:
 ## What are the different Doomsday decks and what is the difference between them?
 
 There are considered to be 4 primary distinct variants of Doomsday available for
-play. These comprise of **Doomsday**, **DDFT**, **Entombsday** and **DDEFT**.
+play. This doesn't mean all 75's (or 95!) of a given decklist exist within those
+categories, we're all entitled to [a][fun:one], [little][fun:two],
+[bit][fun:three], [of][fun:four], [fun][fun:five].
+
+[fun:one]: https://www.mtgtop8.com/event?e=42309&d=513358
+[fun:two]: https://www.mtgtop8.com/event?e=63491&d=679817
+[fun:three]: https://www.mtgtop8.com/event?e=69394&d=725701
+[fun:four]: https://moxfield.com/decks/uxbhAUt1EkCK0i3ThOV-Mw
+[fun:five]: https://moxfield.com/decks/bo6OB-rqVEObb-cDFpfiFQ
 
 :::row{variant=CENTERED}
 FoW
@@ -26,10 +34,10 @@ EF
 :::
 
 **Doomsday** is the primary deck variant that is having previously unprecedented
-success since the printing of :card[TO]. Legacy Doomsday uses countermagic like
-Force of Will and discard like Duress to play a controlling game before ending
-the game. Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is
-explained in this article [here](/articles/2020/03/12/pretty-mean-deck).
+success since the printing of :card[TO]. Legacy Doomsday often uses reactive and
+proactive permission to play a controlling game before ending the game.
+Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is explained in
+this article [here](/articles/2020/03/12/pretty-mean-deck).
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
@@ -38,11 +46,11 @@ have access to secondary Storm plans using cards like :card[BW], :card[EoE] and
 to run reactive countermagic.
 
 **Entombsday** is a Tin Fins variant with a main deck plan focusing on
-reanimating Griselbrand using either :card[Shallow Grave] or :card[Goryo's
-Vengeance] to then have it attack alongside :card[Em] or looping the deck to
-generate infinite mana and hard cast Emrakul or cast Collective Brutality an
-infinite number of times. The key point to focus on is it runs a dedicated
-transformational sideboard into a variant of Doomsday.
+reanimating :card[Griselbrand] using either :card[Shallow Grave] or
+:card[Goryo's Vengeance] to then have it attack alongside :card[Em] or looping
+the deck to generate infinite mana and hard cast Emrakul or cast Collective
+Brutality an infinite number of times. The key point to focus on is it runs a
+dedicated transformational sideboard into a variant of Doomsday.
 
 **DDEFT** (Doomsday Experimental Frenzy Tendrils) is now an outdated style. This
 was the main variant available post :card[Gitaxian Probe] ban and pre-printing
@@ -104,20 +112,20 @@ situational ones as you gain experience.
 Post used to be the auto-win matchup where their only hope was either a timely
 :card[Boseiju, who Endures] or Choke and it had to resolve. With Modern Horizons
 3 (the Commander set to be exact), the deck has gained in popularity and the
-matchup has changed drastically. :card[Vexing Bauble] will help their
-:card[Disruptor Flute]s resolve, usually naming the Oracle or Doomsday itself.
-This slows down the game giving them more time to present lethal, or screw your
-pre-established pile entirely.
+matchup has changed drastically. Maindeck :card[Disruptor Flute]s, usually
+naming the Oracle or Doomsday itself can slow down the game giving them more
+time to present a lethal board state, or screw your pre-established pile
+entirely.
 
-In the current Legacy meta the best matchups to face are probably Miracles
-variants, non-blue decks and TES. These decks often do not provide much pressure
+Otherwise the better matchups to face are probably Miracles variants, non-blue
+decks and most Storm archetypes. These decks often do not provide much pressure
 and have limited interaction once Doomsday resolves. We also have a lot of
-interaction which means they tend to not have enough disruption to be able to
+interaction which means they tend not to have enough disruption to be able to
 stop us.
 
 Death and Taxes and Maverick are good examples of the easier matchups with
 limited interaction. Still, they can display threats in the form of hatebears.
-But often they are too slow or get answered easily by Daze. For the green
+But often they are too slow or get answered easily by :card[Daze]. For the green
 matchups, :card[Endurance] requires preparation and proper sequencing but is far
 from being as back-breaking as it is often thought. More details about this in
 the [interaction page](/meandeck/interaction#cheating-on-devotion).
@@ -143,9 +151,9 @@ very hard to face.
 
 Stiflenough has recently resurfaced with the printings of :card[Dress Down] and
 then :card[Doorkeeper Thrull]. Like Delver variants, the tempo element combined
-with fast clock makes it a difficult matchup navigate, except their also sport a
-full playset of :card[Stifle] in addition to maindeck copies of :card[Dress
-Down].
+with a fast clock makes it a difficult matchup to navigate, except they also
+sport a full playset of :card[Stifle] in addition to maindeck copies of
+:card[Dress Down].
 
 ## What is a good meta to play Doomsday in?
 
