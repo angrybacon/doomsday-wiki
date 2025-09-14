@@ -194,7 +194,7 @@ the Daze? This decision weighs up the opportunity cost of having potentially +1
 available which could pair with a blue card from our pile.
 
 Our land has to be an Underground Sea so this could get Wastelanded anyways but
-there is also potential they do not find one (and if they do, it means they
+there is also potential they do not find one and if they do, it means they
 aren't able to cast double :card[Lightning Bolt] or similar on us next turn.
 Does our decision change depending on what interaction they use? If they Daze us
 themselves then suddenly they have a very real cost to Wasteland being their

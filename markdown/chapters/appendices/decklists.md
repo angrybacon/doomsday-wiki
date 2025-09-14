@@ -11,19 +11,21 @@ obviated by new printings.
 
 ## Current Decklists
 
-The lists can either play a more reactive role and focus on building resources
-before going off like the below _Esper Doomsday_ list or be more all in. Since
-:card[Thassa's Oracle] is so compact and cheap compared to its predecessor
-alternatives, it can still allow for quick wins with an actual long game plan.
+Pilots like to experiment on a daily basis and keeping lists here up to date
+simply is not feasible. Worry not, for newer lists can always be found in our
+[Discord server](/discord) in the [`#decklists-and-reports`][decklists] channel.
+
+[decklists]: https://discord.com/channels/398217260344410112/1148880149819953253
+
+Doomsday can either play a more reactive role and focus on building resources
+before going off like the below _Esper_ list or be more all in and attempt to
+put the namesake card on the stack as soon as possible like in the straight
+_Dimir_ list. Since the win-condition of :card[Thassa's Oracle] is so compact
+and cheap compared to its predecessor alternatives, it can still allow for quick
+wins with an actual long game plan.
 
 ::decklist{path=meandeck.ub}
 ::decklist{path=meandeck.wub}
-
-Pilots like to experiment on a daily basis and keeping lists here simply is not
-feasible. Worry not, for newer lists can always be found in our [Discord
-server](/discord) in the [`#decklists-and-reports`][decklists] channel.
-
-[decklists]: https://discord.com/channels/398217260344410112/1148880149819953253
 
 ## Historical Decklists
 

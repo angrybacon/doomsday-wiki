@@ -91,7 +91,7 @@ export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
     <Typography
       sx={{
         bottom: 0,
-        color: 'text.secondary',
+        color: 'text.primary',
         display: 'flex',
         flexDirection: { xs: 'row', md: 'column' },
         left: 0,
