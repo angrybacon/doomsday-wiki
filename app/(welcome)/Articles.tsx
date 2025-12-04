@@ -31,9 +31,9 @@ export const Articles = ({ articles }: Props) => {
       container
       ref={root}
       spacing={2}
-      sx={({ spacing }) => ({
+      sx={(theme) => ({
         flexDirection: 'column',
-        scrollMarginBottom: spacing(2),
+        scrollMarginBottom: theme.spacing(2),
       })}
     >
       {articles.slice(0, size).map((article) => (

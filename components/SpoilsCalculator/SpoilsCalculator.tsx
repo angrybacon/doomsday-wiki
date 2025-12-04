@@ -17,12 +17,7 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import {
-  useEffect,
-  useState,
-  type ChangeEvent,
-  type FunctionComponent,
-} from 'react';
+import { useEffect, useState, type ChangeEvent } from 'react';
 
 type Input = {
   copies: number;
@@ -40,7 +35,7 @@ type Output = {
 
 const INITIAL_INPUT: Input = { copies: 4, deck: 53, life: 20, samples: 10000 };
 
-export const SpoilsCalculator: FunctionComponent<unknown> = () => {
+export const SpoilsCalculator = () => {
   const [input, setInput] = useState(INITIAL_INPUT);
   const [isDisabled, setIsDisabled] = useState(true);
   const [output, setOutput] = useState<Output[]>([]);

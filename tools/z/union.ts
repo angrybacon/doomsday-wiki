@@ -1,4 +1,5 @@
-import { z, type Primitive, type ZodLiteral } from 'zod';
+import * as z from 'zod';
+import { type Primitive, type ZodLiteral } from 'zod';
 
 function isValidUnion<T extends ZodLiteral<unknown>>(
   literals: T[],

@@ -1,7 +1,7 @@
 'use client';
 
 import { Box, useTheme, type PaletteMode } from '@mui/material';
-import { type FunctionComponent, type PropsWithChildren } from 'react';
+import { type PropsWithChildren } from 'react';
 import { type Components } from 'react-markdown';
 import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
 import {
@@ -14,10 +14,10 @@ const THEMES: Record<PaletteMode, SyntaxHighlighterProps['style']> = {
   light,
 };
 
-const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
+const CodeBlock = ({
   children,
   language,
-}) => {
+}: PropsWithChildren<{ language: string }>) => {
   const theme = useTheme();
   return (
     <Box
@@ -41,7 +41,7 @@ const CodeBlock: FunctionComponent<PropsWithChildren<{ language: string }>> = ({
   );
 };
 
-const CodeInline: FunctionComponent<PropsWithChildren> = ({ children }) => (
+const CodeInline = ({ children }: PropsWithChildren) => (
   <Box
     component="code"
     sx={{

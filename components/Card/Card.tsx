@@ -3,7 +3,7 @@
 import { mdiCached } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, IconButton } from '@mui/material';
-import { useState, type FunctionComponent, type ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 
 import { CardFace } from '@/components/Card/CardFace';
 import { type ScryCard } from '@/tools/scryfall/types';
@@ -12,7 +12,7 @@ type Props = {
   data: ScryCard[];
 };
 
-export const Card: FunctionComponent<Props> = ({ data }) => {
+export const Card = ({ data }: Props) => {
   const [selectedFace, setSelectedFace] = useState(0);
 
   /** Toggle index between 0 and 1 */
@@ -23,9 +23,9 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
       <IconButton
         className="light"
         onClick={onFlip}
-        sx={({ mixins, vars }) => ({
-          ...mixins.blur('weakest'),
-          bgcolor: `rgba(${vars.palette.background.paperChannel} / .4)`,
+        sx={(theme) => ({
+          ...theme.mixins.blur('weakest'),
+          bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .4)`,
           boxShadow: 1,
           height: [40, 48],
           left: 'unset',
@@ -34,7 +34,7 @@ export const Card: FunctionComponent<Props> = ({ data }) => {
           top: '13%',
           width: [40, 48],
           '&:hover': {
-            bgcolor: `rgba(${vars.palette.background.paperChannel} / .5)`,
+            bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .5)`,
           },
         })}
         title="Flip"

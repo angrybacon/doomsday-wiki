@@ -33,7 +33,6 @@ export const getChapter = async (
       toc,
     };
   } catch (error) {
-    const message = error instanceof Error ? error.message : error;
-    throw new Error(`${message} in "${id}"`);
+    throw new Error(`${error} in "${id}"`);
   }
 };

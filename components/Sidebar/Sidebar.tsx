@@ -2,8 +2,8 @@
 
 import {
   Box,
-  drawerClasses,
   Drawer as MuiDrawer,
+  drawerClasses,
   type SxProps,
   type Theme,
 } from '@mui/material';

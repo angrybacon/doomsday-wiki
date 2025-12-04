@@ -1,4 +1,3 @@
-import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Link } from '@/components/Link/Link';
@@ -13,7 +12,7 @@ type Props = ExtraProps & {
 
 // TODO Rename to `CardLink`?
 
-export const Card: FunctionComponent<Props> = ({ file, name, node }) => {
+export const Card = ({ file, name, node }: Props) => {
   if (!name) throw new RemarkError('Missing card name', { file, node });
   return <Link href={`${SCRYFALL_SEARCH}?q=!"${name}"`}>{name}</Link>;
 };

@@ -1,5 +1,4 @@
 import { Box } from '@mui/material';
-import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { RemarkError } from '@/tools/remark/RemarkError';
@@ -19,7 +18,7 @@ type Props = ExtraProps & {
   id?: string;
 };
 
-export const Youtube: FunctionComponent<Props> = ({ file, id, node }) => {
+export const Youtube = ({ file, id, node }: Props) => {
   if (!id) throw new RemarkError('Missing YouTube ID', { file, node });
   return (
     <Box

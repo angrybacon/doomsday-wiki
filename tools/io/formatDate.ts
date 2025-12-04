@@ -1,9 +1,9 @@
 /**
- * Parse a date out of an array representing the year, month and day in that
- * order.
- * Accept partial dates where day or even month can be omitted.
- * Return a local-formatted string representing the date found. Otherwise return
- * null.
+ * Parse a date out of the provided YEAR, MONTH and DAY.
+ *
+ * Support partial dates where the day or even the month can be omitted.
+ * Return a local-formatted string representing the date found or null in case
+ * of errors.
  */
 export const formatDate = (
   year?: string,
@@ -11,8 +11,7 @@ export const formatDate = (
   day?: string,
 ): string | null => {
   if (!year) return null;
-  // NOTE Replace missing parts with the first month or day to still have a
-  //      valid date object.
+  // NOTE Replace missing parts with the first month or day to make a valid date
   const date = new Date(
     parseInt(year, 10),
     month ? parseInt(month, 10) - 1 : 0,

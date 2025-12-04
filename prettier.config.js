@@ -6,6 +6,7 @@ module.exports = {
     '^@/',
     '^[.]',
   ],
+  importOrderCaseSensitive: true,
   plugins: ['@ianvs/prettier-plugin-sort-imports'],
   singleQuote: true,
 };

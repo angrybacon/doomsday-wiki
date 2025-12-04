@@ -43,8 +43,8 @@ export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
           path={mdiChevronDown}
           rotate={isOpen ? -180 : 0}
           size={1}
-          sx={({ transitions }) => ({
-            transition: transitions.create('transform'),
+          sx={(theme) => ({
+            transition: theme.transitions.create('transform'),
           })}
         />
       </ListItemButton>

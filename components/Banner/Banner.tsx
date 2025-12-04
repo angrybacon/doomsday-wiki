@@ -46,8 +46,8 @@ export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
     />
     <Box
       role="presentation"
-      sx={({ mixins }) => ({
-        ...mixins.blur('weak'),
+      sx={(theme) => ({
+        ...theme.mixins.blur('weak'),
         inset: 0,
         position: 'absolute',
       })}

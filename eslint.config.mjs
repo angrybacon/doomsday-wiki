@@ -28,7 +28,7 @@ export default [
           { argsIgnorePattern: '^_', ignoreRestSiblings: true },
         ],
         'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
-        'no-console': ['error', { allow: ['error', 'warn'] }],
+        'no-console': ['error', { allow: ['error'] }],
         'no-restricted-imports': [
           'error',
           {

@@ -1,7 +1,6 @@
 'use client';
 
 import { Box, type SxProps, type Theme } from '@mui/material';
-import { type FunctionComponent } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 import { Card } from '@/components/Card/Card';
@@ -36,7 +35,7 @@ type Props = ExtraProps & {
   variant?: string;
 };
 
-export const Row: FunctionComponent<Props> = ({ file, node, row, variant }) => {
+export const Row = ({ file, node, row, variant }: Props) => {
   if (!row?.cards) return null;
   const { data, error } = VARIANTS_SCHEMA.safeParse(variant);
   if (error) throw new RemarkError(`Unknown row "${variant}"`, { file, node });

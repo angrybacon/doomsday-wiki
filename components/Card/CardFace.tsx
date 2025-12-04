@@ -1,5 +1,4 @@
 import { Box, Fade, Tooltip, type SxProps } from '@mui/material';
-import { type FunctionComponent } from 'react';
 
 import { type ScryCard } from '@/tools/scryfall/types';
 
@@ -9,7 +8,7 @@ type Props = {
   sx?: SxProps;
 };
 
-export const CardFace: FunctionComponent<Props> = ({ active, data, sx }) => {
+export const CardFace = ({ active, data, sx }: Props) => {
   const { artist, images, name, setName } = data;
   const image = images.full;
 
