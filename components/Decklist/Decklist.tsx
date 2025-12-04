@@ -1,14 +1,13 @@
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
-  accordionSummaryClasses,
   Box,
   Accordion as MuiAccordion,
   AccordionDetails as MuiAccordionDetails,
   AccordionSummary as MuiAccordionSummary,
   Typography,
+  accordionSummaryClasses,
 } from '@mui/material';
-import { type FunctionComponent } from 'react';
 
 import { Column } from '@/components/Decklist/Column';
 import { Summary } from '@/components/Decklist/Summary';
@@ -25,7 +24,7 @@ type Props = {
   title: string;
 };
 
-export const Decklist: FunctionComponent<Props> = ({
+export const Decklist = ({
   authors,
   colors,
   main,
@@ -34,7 +33,7 @@ export const Decklist: FunctionComponent<Props> = ({
   side,
   sideCount,
   title,
-}) => (
+}: Props) => (
   <MuiAccordion>
     <MuiAccordionSummary
       expandIcon={<Icon path={mdiChevronDown} size={1} />}

@@ -4,9 +4,9 @@ import {
   Table,
   TableBody,
   TableCell,
-  tableCellClasses,
   TableHead,
   TableRow,
+  tableCellClasses,
   type SxProps,
 } from '@mui/material';
 

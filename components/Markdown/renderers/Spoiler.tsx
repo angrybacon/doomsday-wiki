@@ -1,16 +1,12 @@
 'use client';
 
 import { Box } from '@mui/material';
-import {
-  useState,
-  type FunctionComponent,
-  type PropsWithChildren,
-} from 'react';
+import { useState, type PropsWithChildren } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
 type Props = PropsWithChildren & ExtraProps;
 
-export const Spoiler: FunctionComponent<Props> = ({ children, node }) => {
+export const Spoiler = ({ children, node }: Props) => {
   const [isHidden, setIsHidden] = useState(true);
 
   if (!node?.position || !children) {

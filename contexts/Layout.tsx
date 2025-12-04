@@ -8,7 +8,7 @@ import {
   useState,
   type PropsWithChildren,
 } from 'react';
-import { z } from 'zod';
+import * as z from 'zod';
 
 import { zCategory } from '@/tools/z/schemas';
 

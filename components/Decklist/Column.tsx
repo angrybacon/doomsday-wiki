@@ -1,5 +1,4 @@
 import { Box, Typography } from '@mui/material';
-import { type FunctionComponent } from 'react';
 
 import { type Card } from '@/tools/decklists/types';
 
@@ -7,7 +6,7 @@ type Props = {
   cards: Card[];
 };
 
-export const Column: FunctionComponent<Props> = ({ cards }) => {
+export const Column = ({ cards }: Props) => {
   if (!cards.length) return null;
   return (
     <Box component="ul" sx={{ m: 0, p: 0 }}>

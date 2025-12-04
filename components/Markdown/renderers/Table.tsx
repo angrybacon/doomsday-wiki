@@ -53,8 +53,8 @@ export const TableCell = <T extends 'td' | 'th' = never>({
 
 export const TableHead: Components['thead'] = ({ children }) => (
   <MuiTableHead
-    sx={({ vars }) => ({
-      bgcolor: `rgba(${vars.palette.primary.mainChannel} / .1)`,
+    sx={(theme) => ({
+      bgcolor: `rgba(${theme.vars.palette.primary.mainChannel} / .1)`,
     })}
   >
     {children}

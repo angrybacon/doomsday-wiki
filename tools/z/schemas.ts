@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import * as z from 'zod';
 
 import { CATEGORIES, KINDS, TAGS } from '@/tools/markdown/constants';
 import { union } from '@/tools/z/union';

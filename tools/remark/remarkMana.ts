@@ -5,6 +5,7 @@ import { type Plugin } from 'unified';
 
 import { MANA_RE } from '@/tools/mana/constants';
 
+/** Find and replace all mana patterns with proper Remark directives */
 export const remarkMana: Plugin = () => (tree) =>
   findAndReplace(tree as Nodes, [
     MANA_RE,

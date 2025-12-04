@@ -25,7 +25,6 @@ export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
     );
     return { ...markdown, ...zMetadata.parse(data), file: id };
   } catch (error) {
-    const message = error instanceof Error ? error.message : error;
-    throw new Error(`${message} in "${id}"`);
+    throw new Error(`${error} in "${id}"`);
   }
 };

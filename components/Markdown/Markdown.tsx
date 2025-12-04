@@ -1,10 +1,9 @@
 import {
-  accordionClasses,
   Box,
+  accordionClasses,
   tableClasses,
   type SxProps,
 } from '@mui/material';
-import { type FunctionComponent } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
@@ -81,10 +80,10 @@ type Props = {
   sx?: SxProps;
 };
 
-export const Markdown: FunctionComponent<Props> = ({
+export const Markdown = ({
   markdown: { decklists, file, scries, text },
   sx,
-}) => (
+}: Props) => (
   <Box
     sx={[
       {

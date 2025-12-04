@@ -1,6 +1,6 @@
 import { join } from 'node:path';
 import { makeCards, makeNextRoutes, walk } from '@korumite/kiwi/server';
-import { z } from 'zod';
+import * as z from 'zod';
 
 import { formatDate } from '@/tools/io/formatDate';
 import { zCategory, zChapter } from '@/tools/z/schemas';
