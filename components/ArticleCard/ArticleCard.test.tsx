@@ -1,4 +1,4 @@
-import { type ComponentProps } from 'react';
+import { type ComponentPropsWithoutRef } from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { render, screen } from '@/tools/test';
@@ -8,7 +8,7 @@ jest.mock('@/components/ArticleChip/ArticleChip', () => ({
 }));
 
 describe(ArticleCard.name, () => {
-  let props: ComponentProps<typeof ArticleCard>;
+  let props: ComponentPropsWithoutRef<typeof ArticleCard>;
 
   beforeEach(() => {
     props = {

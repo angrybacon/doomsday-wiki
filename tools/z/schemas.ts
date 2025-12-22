@@ -1,15 +1,14 @@
 import * as z from 'zod';
 
 import { CATEGORIES, KINDS, TAGS } from '@/tools/markdown/constants';
-import { union } from '@/tools/z/union';
 
 export const zArticleMatter = z.object({
   authors: z.string(),
   banner: z.string(),
-  kind: union(KINDS),
+  kind: z.literal(KINDS),
   tags: z.preprocess(
     (value) => (Array.isArray(value) ? value : [value]),
-    union(TAGS).array(),
+    z.literal(TAGS).array(),
   ),
   title: z.string(),
 });
@@ -17,11 +16,11 @@ export const zArticleMatter = z.object({
 /** A Zod schema to describe chapter categories */
 export const zCategory = z.preprocess(
   (value) => (typeof value === 'string' ? value.toUpperCase() : value),
-  union(CATEGORIES),
+  z.literal(CATEGORIES),
 );
 
 /** A Zod schema to describe chapter path crumbs */
-export const zChapter = union(CATEGORIES.map((it) => it.toLowerCase()));
+export const zChapter = z.literal(CATEGORIES.map((it) => it.toLowerCase()));
 
 export const zChapterMatter = z.object({
   banner: z.string(),

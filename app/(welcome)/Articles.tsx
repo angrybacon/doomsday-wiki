@@ -1,14 +1,19 @@
 'use client';
 
-import { Button, ButtonGroup, Grid2 as Grid } from '@mui/material';
-import { useEffect, useRef, useState, type ComponentProps } from 'react';
+import { Button, ButtonGroup, Grid } from '@mui/material';
+import {
+  useEffect,
+  useRef,
+  useState,
+  type ComponentPropsWithoutRef,
+} from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 
 const INITIAL_SIZE = 4;
 
 type Props = {
-  articles: ComponentProps<typeof ArticleCard>[];
+  articles: ComponentPropsWithoutRef<typeof ArticleCard>[];
 };
 
 export const Articles = ({ articles }: Props) => {

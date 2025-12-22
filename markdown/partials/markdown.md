@@ -1,27 +1,21 @@
-<!-- markdownlint-disable first-line-heading -->
+# Markdown Guidelines
 
-## Preamble
+Rather than having to maintain additional guidelines in different locations,
+refer to the following sections in order to see how Markdown is rendered through
+the Wiki. It relies directly on components implemented within the Wiki so that
+the preview is as faithful as can be.
 
-Rather than having to maintain any additional guidelines, refer to the following
-sections in order to see how Markdown is rendered through the Wiki. It relies
-directly on components implemented within the Wiki so that the preview is as
-faithful as can be.
-
-In addition to `markdownlint` and `prettier` enforcing some basic rules, here
-are a few more conventions for Markdown contributions:
+All Markdown files are checked against both `markdownlint` and `prettier` at
+build time enforcing some basic rules, but here are a few more conventions for
+Markdown contributions:
 
 - Fill your paragraphs to 80 columns
 - If your title oppose to the above rule, think of a better heading for your
   document. In addition to annoy users with terminal-based clients, it also
   might not look that good either on the Wiki itself
 - Heading levels start at 2 in order to account for the page title
-- Don't use unicode quote characters eg. `‘’` and `“”`. They might not render
-  properly for everyone so ASCII quotes should be preferred
 - A colon right in front of a word will be interpreted as a Markdown directive
   so make sure you have a space right after `:` when it is used as punctuation
-- A dot right after a number character ie. when you end your sentence with a
-  digit, will sometimes render as a numbered list item. To avoid this behavior,
-  escape the dot with a backslash: `Brainstorm is good, you might want all 4\.`
 - Depending on one's Markdown client, a dot at the end of a link can be
   considered part of said link eg. when you end your sentences with a link.
   Avoid bare links inside of prose, wrap them with angled brackets `<` and `>`
@@ -205,8 +199,6 @@ its actual content.
 | `tags`    | Yes            |                | Available values at [constants.ts][constants.ts]. Used to pick which abbreviations are available in the sidebar |
 | `title`   | Yes (required) | Yes (required) | Wrap with double quotes if using special characters such as `:` and `'`                                         |
 
-[constants.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants.ts
-
 ## Images
 
 Prefer smaller images in resolution. Most users don't need a 4K screenshot of
@@ -217,22 +209,19 @@ for all users. See the [code][image.tsx] for reference.
 Both the accessible text (between square brackets) and the title (between single
 quotes) are mandatory for a proper accessibility of your images within the page.
 
-[cls]: https://web.dev/articles/cls
-[image.tsx]: https://github.com/angrybacon/doomsday-wiki/blob/master/components/Markdown/renderers/Image.tsx
-
 ```md
-![A large placeholder image](https://www.placehold.co/1600x800 'High resolution')
+![A large wide placeholder](https://www.placehold.co/1600x800 'Wide resolution')
 
-![A medium placeholder image](https://www.placehold.co/800x400 'Medium resolution')
+![A medium square placeholder](https://www.placehold.co/800 'Square resolution')
 
-![A small placeholder image](https://www.placehold.co/400x200 'Low resolution')
+![A small tall placeholder](https://www.placehold.co/200x400 'Tall resolution')
 ```
 
-![A large placeholder image](https://www.placehold.co/1600x800 'High resolution')
+![A large wide placeholder](https://www.placehold.co/1600x800 'Wide resolution')
 
-![A medium placeholder image](https://www.placehold.co/800x400 'Medium resolution')
+![A medium square placeholder](https://www.placehold.co/800 'Square resolution')
 
-![A small placeholder image](https://www.placehold.co/400x200 'Low resolution')
+![A small tall placeholder](https://www.placehold.co/200x400 'Tall resolution')
 
 ## Links
 
@@ -281,18 +270,22 @@ Coming soon &trade;
 You can inline mana symbols _almost_ everywhere.
 
 ```md
-{W} {U} {B} {R} {G} {WP} {UP} {BP} {RP} {GP} {2W} {2U} {2B} {2R} {2G}
+{W} {U} {B} {R} {G} &nbsp; {WP} {UP} {BP} {RP} {GP}
 
-{WU} {UB} {BR} {RG} {GW} {WB} {UR} {BG} {RW} {GU}
+{2W} {2U} {2B} {2R} {2G} &nbsp; {CW} {CU} {CB} {CR} {CG}
 
-{0} {1} {2} &hellip; {20} {S} {C} {X} {Y} {Z}
+{WU} {UB} {BR} {RG} {GW} &nbsp; {WB} {UR} {BG} {RW} {GU}
+
+{0} {1} {2} &hellip; {20} &nbsp; {S} {C} &nbsp; {X} {Y} {Z}
 ```
 
-{W} {U} {B} {R} {G} {WP} {UP} {BP} {RP} {GP} {2W} {2U} {2B} {2R} {2G}
+{W} {U} {B} {R} {G} &nbsp; {WP} {UP} {BP} {RP} {GP}
 
-{WU} {UB} {BR} {RG} {GW} {WB} {UR} {BG} {RW} {GU}
+{2W} {2U} {2B} {2R} {2G} &nbsp; {CW} {CU} {CB} {CR} {CG}
 
-{0} {1} {2} &hellip; {20} {S} {C} {X} {Y} {Z}
+{WU} {UB} {BR} {RG} {GW} &nbsp; {WB} {UR} {BG} {RW} {GU}
+
+{0} {1} {2} &hellip; {20} &nbsp; {S} {C} &nbsp; {X} {Y} {Z}
 
 When used collectively, for instance to indicate the color identity of an
 archetype, use the same order as found on the back of a _Magic: the Gathering_
@@ -482,8 +475,6 @@ found [here][cards.ts].
 
 > For supported acronyms, the case matters!.
 
-[cards.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Cards.ts
-
 ### Inline Card Links
 
 ```md
@@ -504,8 +495,6 @@ identify the right code for your set, inspect the links at
 
 > Be warned however that some promotional prints may have an earlier timestamp
 > than the _regular_ printing of a card.
-
-[sets.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Sets.ts
 
 #### Specifying Prints
 
@@ -531,7 +520,7 @@ Subtlety | MH2
 Duress | STA | 92
 :::
 
-#### Double-Face Cards
+#### Double-Faced Cards
 
 ```md
 :::row
@@ -664,8 +653,6 @@ The following items are not supported within tables:
 | Morbi :card[DA] non velit        |  Tempor a massa  |       Orci varius natoque |
 | Sed pulvinar :spoiler[sapien] in |  Cras nec nisl   |    Nascetur ridiculus mus |
 
-> Left-aligned cells will not wrap.
-
 ## Twitter
 
 Deprecated
@@ -677,3 +664,9 @@ Deprecated
 ```
 
 ::youtube{id=3LLIFHv5kbo}
+
+[cards.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Cards.ts
+[cls]: https://web.dev/articles/cls
+[constants.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants.ts
+[image.tsx]: https://github.com/angrybacon/doomsday-wiki/blob/master/components/Markdown/renderers/Image.tsx
+[sets.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Sets.ts

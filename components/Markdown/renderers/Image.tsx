@@ -19,8 +19,8 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
           display: 'block',
           overflow: 'hidden',
           position: 'relative',
-          '&:before': ({ mixins }) => ({
-            ...mixins.blur('strong'),
+          '&:before': (theme) => ({
+            ...theme.mixins.blur('strong'),
             backgroundPosition: 'center',
             backgroundImage: `url(${src})`,
             backgroundSize: 'cover',
@@ -39,7 +39,7 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
           decoding="async"
           src={src}
           sx={{
-            aspectRatio: '3 / 1',
+            aspectRatio: '2 / 1',
             display: 'block',
             height: 'auto',
             objectFit: 'contain',

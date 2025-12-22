@@ -1,11 +1,11 @@
-import { type ComponentProps } from 'react';
+import { type ComponentPropsWithoutRef } from 'react';
 
 import { Card } from '@/components/Card/Card';
 import { type ScryCard } from '@/tools/scryfall/types';
 import { render, screen } from '@/tools/test';
 
 describe(Card.name, () => {
-  let props: ComponentProps<typeof Card>;
+  let props: ComponentPropsWithoutRef<typeof Card>;
 
   const dummyCard = {
     artist: 'Firstname Lastname',

@@ -1,22 +1,25 @@
 import { Typography } from '@mui/material';
-import { type ReactElement } from 'react';
-import { type ExtraProps } from 'react-markdown';
+import { type Components } from 'react-markdown';
 
-export const Heading = <TLevel extends `h${1 | 2 | 3 | 4 | 5 | 6}` = never>({
+export const Heading: Components[`h${1 | 2 | 3 | 4 | 5 | 6}`] = ({
   children,
+  // NOTE The `id` property comes from the `rehype-slug` plugin
   id,
   node,
-}: JSX.IntrinsicElements[TLevel] & ExtraProps): ReactElement => {
-  if (!node?.tagName) {
-    console.error('Could not guess heading level', node);
+}) => {
+  if (
+    // NOTE Perhaps someday we'll have a functional `.includes`
+    node?.tagName !== 'h1' &&
+    node?.tagName !== 'h2' &&
+    node?.tagName !== 'h3' &&
+    node?.tagName !== 'h4' &&
+    node?.tagName !== 'h5' &&
+    node?.tagName !== 'h6'
+  ) {
+    throw new Error('Could not guess heading level');
   }
   return (
-    <Typography
-      // NOTE The `id` property comes from the `remark-slug` plugin
-      id={id}
-      sx={{ pt: 2 }}
-      variant={node?.tagName as TLevel}
-    >
+    <Typography id={id} sx={{ pt: 2 }} variant={node.tagName}>
       {children}
     </Typography>
   );

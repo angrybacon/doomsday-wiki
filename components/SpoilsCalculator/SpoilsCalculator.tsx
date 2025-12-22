@@ -6,7 +6,7 @@ import {
   Box,
   Button,
   ButtonGroup,
-  Grid2 as Grid,
+  Grid,
   Table,
   TableBody,
   TableCell,

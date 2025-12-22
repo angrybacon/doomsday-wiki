@@ -1,45 +1,35 @@
 'use client';
 
-import { Box, useTheme, type PaletteMode } from '@mui/material';
+import { Box } from '@mui/material';
 import { type PropsWithChildren } from 'react';
 import { type Components } from 'react-markdown';
-import { Prism, type SyntaxHighlighterProps } from 'react-syntax-highlighter';
-import {
-  oneDark as dark,
-  oneLight as light,
-} from 'react-syntax-highlighter/dist/esm/styles/prism';
-
-const THEMES: Record<PaletteMode, SyntaxHighlighterProps['style']> = {
-  dark,
-  light,
-};
+import { Prism } from 'react-syntax-highlighter';
+import { nord as style } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 const CodeBlock = ({
   children,
   language,
-}: PropsWithChildren<{ language: string }>) => {
-  const theme = useTheme();
-  return (
-    <Box
-      component={Prism}
-      customStyle={{
-        borderRadius: undefined,
-        margin: undefined,
-        padding: undefined,
-      }}
-      language={language || 'text'}
-      style={THEMES[theme.palette.mode]}
-      sx={{
-        borderRadius: 4,
-        display: 'block',
-        fontSize: 'body2.fontSize',
-        p: 2,
-      }}
-    >
-      {typeof children === 'string' ? children.trim() : children}
-    </Box>
-  );
-};
+}: PropsWithChildren<{ language: string }>) => (
+  <Box
+    component={Prism}
+    customStyle={{
+      borderRadius: undefined,
+      margin: undefined,
+      padding: undefined,
+    }}
+    language={language || 'text'}
+    style={style}
+    sx={{
+      borderRadius: 4,
+      display: 'block',
+      fontSize: 'body2.fontSize',
+      overscrollBehaviorInline: 'contain',
+      p: 2,
+    }}
+  >
+    {typeof children === 'string' ? children.trim() : children}
+  </Box>
+);
 
 const CodeInline = ({ children }: PropsWithChildren) => (
   <Box

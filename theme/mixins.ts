@@ -13,8 +13,8 @@ export const blur = (level: keyof typeof BLUR_VALUES): CSSObject => ({
 
 const RECESS_VALUES = {
   DARK: {
-    X: 'inset 8px 0 8px -4px rgba(0,0,0,.5),inset -8px 0 8px -4px rgba(0,0,0,.5)',
-    Y: 'inset 0 8px 8px -4px rgba(0,0,0,.5),inset 0 -8px 8px -4px rgba(0,0,0,.5)',
+    X: 'inset 8px 0 8px -4px rgba(0,0,0,.2),inset -8px 0 8px -4px rgba(0,0,0,.2)',
+    Y: 'inset 0 8px 8px -4px rgba(0,0,0,.2),inset 0 -8px 8px -4px rgba(0,0,0,.2)',
   },
   LIGHT: {
     X: 'inset 8px 0 8px -8px rgba(0,0,0,.2),inset -8px 0 8px -8px rgba(0,0,0,.2)',

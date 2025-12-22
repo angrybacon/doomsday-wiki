@@ -3,7 +3,7 @@
 import { mdiCached } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, IconButton } from '@mui/material';
-import { useState, type ReactNode } from 'react';
+import { useState } from 'react';
 
 import { CardFace } from '@/components/Card/CardFace';
 import { type ScryCard } from '@/tools/scryfall/types';
@@ -13,12 +13,12 @@ type Props = {
 };
 
 export const Card = ({ data }: Props) => {
-  const [selectedFace, setSelectedFace] = useState(0);
+  const [selected, setSelected] = useState(0);
 
   /** Toggle index between 0 and 1 */
-  const onFlip = () => setSelectedFace((previous) => 1 - previous);
+  const onFlip = () => setSelected((previous) => previous ^ 1);
 
-  const button: ReactNode =
+  const button =
     data.length > 1 ? (
       <IconButton
         className="light"
@@ -55,7 +55,7 @@ export const Card = ({ data }: Props) => {
     >
       {data.map((face, index) => (
         <CardFace
-          active={index === selectedFace}
+          active={index === selected}
           data={face}
           key={face.name}
           sx={{ position: 'absolute' }}

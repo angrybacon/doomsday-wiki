@@ -1,8 +1,8 @@
 import { Link as MuiLink } from '@mui/material';
 import NextLink from 'next/link';
-import { type ComponentProps } from 'react';
+import { type ComponentPropsWithoutRef } from 'react';
 
-type Props = ComponentProps<typeof MuiLink> & {
+type Props = ComponentPropsWithoutRef<typeof MuiLink> & {
   href: string;
 };
 

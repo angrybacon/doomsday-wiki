@@ -34,7 +34,7 @@ const Row = ({
       ]}
     >
       <TableCell component="th">{notation}</TableCell>
-      <TableCell sx={[{ whiteSpace: 'nowrap' }]}>{name}</TableCell>
+      <TableCell sx={{ whiteSpace: 'nowrap' }}>{name}</TableCell>
     </TableRow>
   ) : null;
 };

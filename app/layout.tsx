@@ -16,7 +16,7 @@ import { Footer } from '@/components/Footer/Footer';
 import { Header } from '@/components/Header/Header';
 import { Sidebar } from '@/components/Sidebar/Sidebar';
 import { LayoutProvider } from '@/contexts/Layout';
-import { TrackingProvider } from '@/contexts/Tracking';
+import { Tracking } from '@/contexts/Tracking';
 import { primary } from '@/theme/palette';
 import { theme } from '@/theme/theme';
 import { getClock } from '@/tools/clock/getClock';
@@ -28,11 +28,13 @@ export const dynamicParams = false;
 
 export const metadata: Metadata = {
   description: 'The Doomsday Wiki',
+  keywords: ['Doomsday', 'Legacy', 'Magic: the Gathering'],
   title: { default: 'doomsday.wiki', template: '%s • doomsday.wiki' },
 };
 
 export const viewport: Viewport = {
   initialScale: 1,
+  minimumScale: 1,
   themeColor: primary[500],
   width: 'device-width',
 };
@@ -60,51 +62,51 @@ export default async ({ children }: PropsWithChildren) => {
         component="body"
         sx={{ display: 'flex' }}
       >
-        <InitColorSchemeScript attribute="class" />
-        <TrackingProvider>
-          <AppRouterCacheProvider>
-            <ThemeProvider theme={theme}>
-              <CssBaseline />
-              <LayoutProvider>
-                <Sidebar>
-                  <Drawer clock={clock} menu={MENU} />
-                </Sidebar>
-                <Header />
-                <Container
-                  component="main"
-                  maxWidth="xl"
+        <InitColorSchemeScript attribute="data" />
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>
+            <Tracking />
+            <CssBaseline />
+            <LayoutProvider>
+              <Sidebar>
+                <Drawer clock={clock} menu={MENU} />
+              </Sidebar>
+              <Header />
+              <Container
+                component="main"
+                maxWidth="xl"
+                sx={{
+                  display: 'grid',
+                  gridTemplateAreas:
+                    '"offset offset" "banner banner" "content toc" "footer toc"',
+                  gridTemplateColumns: '1fr auto',
+                  gridTemplateRows: 'auto auto 1fr auto',
+                  minHeight: '100vh',
+                }}
+              >
+                <Toolbar role="presentation" sx={{ gridArea: 'offset' }} />
+                <Box
                   sx={{
-                    display: 'grid',
-                    gridTemplateAreas:
-                      '"offset offset" "banner banner" "content toc" "footer toc"',
-                    gridTemplateColumns: '1fr auto',
-                    gridTemplateRows: 'auto auto 1fr auto',
-                    minHeight: '100vh',
+                    display: 'contents',
+                    overflowWrap: 'anywhere',
+                    '> *': { mt: { xs: 2, sm: 3 } },
                   }}
                 >
-                  <Toolbar role="presentation" sx={{ gridArea: 'offset' }} />
-                  <Box
-                    sx={{
-                      display: 'contents',
-                      overflowWrap: 'anywhere',
-                      '> *': { mt: { xs: 2, sm: 3 } },
-                    }}
-                  >
-                    {children}
-                  </Box>
-                  <Footer
-                    sx={{
-                      gridArea: 'footer',
-                      pb: 3,
-                      position: 'relative', // NOTE Force content above 404 background
-                      pt: 8,
-                    }}
-                  />
-                </Container>
-              </LayoutProvider>
-            </ThemeProvider>
-          </AppRouterCacheProvider>
-        </TrackingProvider>
+                  {children}
+                </Box>
+                <Footer
+                  sx={{
+                    gridArea: 'footer',
+                    pb: { xs: 2, sm: 3 },
+                    // NOTE Force content above 404 background
+                    position: 'relative',
+                    pt: 8,
+                  }}
+                />
+              </Container>
+            </LayoutProvider>
+          </ThemeProvider>
+        </AppRouterCacheProvider>
       </Box>
     </Box>
   );

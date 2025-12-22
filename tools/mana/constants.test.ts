@@ -1,10 +1,7 @@
 import { MANA_RE } from '@/tools/mana/constants';
 
 /** Dummy replace tester */
-const replace = (text: string): string => {
-  const result = text.replace(MANA_RE, ':m[$1]');
-  return result;
-};
+const replace = (text: string): string => text.replace(MANA_RE, ':m[$1]');
 
 describe(replace.name, () => {
   const specifications: [string, [string, string][]][] = [

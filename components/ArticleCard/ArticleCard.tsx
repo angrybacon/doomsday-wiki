@@ -34,7 +34,7 @@ export const ArticleCard = ({
             display: 'grid',
             gap: 1,
           },
-          ({ mixins }) => mixins.blur('weak'),
+          (theme) => theme.mixins.blur('weak'),
         ]}
       >
         <Typography variant="h6" sx={{ textShadow: '0 0 8px black' }}>

@@ -601,7 +601,7 @@ Another example of this combination would be {W}{G} Depths.
 #### Oops All Spells
 
 Part graveyard deck and part combo deck, they are popular and more resilient
-with the modal double faced land cards. You should be okay boarding in a similar
+with the modal double-faced land cards. You should be okay boarding in a similar
 fashion when facing reanimator to maximise early disruption and interaction and
 play a slightly more controlling role.
 
