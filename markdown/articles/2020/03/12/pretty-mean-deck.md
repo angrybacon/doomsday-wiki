@@ -43,8 +43,7 @@ Diamond] but did instead pack a whole heap of countermagic featuring :card[Force
 of Will], :card[Spell Pierce] and :card[Pact of Negation] to name a few (even a
 :card[Misdirection]!).
 
-You can find a video of the deck in action
-[here](https://www.youtube.com/watch?v=UuswAK0IYdg)
+::youtube{id=UuswAK0IYdg}
 
 Now it was generally agreed by most of the Doomsday community at the time (2012)
 that the deck wasn't very good. Although it had cards such as :card[Sensei's

@@ -471,7 +471,7 @@ TO
 
 In some contexts, you can refer to card names within Markdown. To ease the
 writing process and reduce typos, a number of shorthands for card names can be
-found [here][cards.ts].
+found maintained next to [the code][cards.ts].
 
 > For supported acronyms, the case matters!.
 

@@ -52,9 +52,8 @@ simpler titles.
 A number of custom directives are parsed within Markdown content. This allows
 more feature than what Markdown already supports by default. Visit =/markdown=
 anywhere the Wiki is hosted to see what it actually looks like. For the
-technicalities, the supported specifications for directives in Markdown are
-presented
-[[https://talk.commonmark.org/t/generic-directives-plugins-syntax/444][here]].
+technicalities, see the supported specifications for
+[[https://talk.commonmark.org/t/generic-directives-plugins-syntax/444][directives]].
 
 We will assume you know the differences between /inline/, /leaf/ and /container/
 directives.

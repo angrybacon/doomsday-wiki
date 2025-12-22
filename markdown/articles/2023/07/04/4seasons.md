@@ -13,8 +13,8 @@ played Doomsday in all the events. The tournament was held on June 2nd, 3rd and
 national holiday in Italy, and it meant that I got to play the team event on
 Friday for the first time.
 
-If you're interested in my report for the previous edition of the 4Seasons you
-can find it [here](/articles/2023/03/12/4seasons).
+See [my report](/articles/2023/03/12/4seasons) for the previous edition of the
+4Seasons.
 
 ## Between the Seasons
 

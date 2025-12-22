@@ -14,14 +14,14 @@ All original content such as articles and chapters is available under the terms
 of the [Attribution-NonCommercial-NoDerivatives 4.0 International][wiki:license]
 license.
 
-###### Imagery
+## Imagery
 
 Card arts are made available from the unaltered [Scryfall's API][scryfall:api]
 and are copyright _Wizard of the Coast_ or their respective artists for older
 sets. For cropped arts where the artist line of a card is not visible, the
 artists are mentioned in the accessible text.
 
-###### Iconography and Assets
+## Iconography and Assets
 
 Mana symbols are rendered using the _Mana_ icon font made available by [Andrew
 Gioia][mana]. See their section about licensing for more details.
@@ -34,7 +34,7 @@ adapted from one icon to another.
 Phyrexian scripture and the corresponding unofficial font assets were provided
 from the work of [Stas][stas].
 
-###### Analytics
+## Analytics
 
 We collect anonymous analytics in order to improve user experience. We do not
 use cookies. See the [PostHog privacy policy][posthog:privacy].

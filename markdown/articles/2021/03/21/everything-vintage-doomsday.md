@@ -17,9 +17,6 @@ Special thanks to Bart [_Diem4x_][diem4x] van Etten, Max
 
 ## Maindeck Configuration and Why no Cavern of Souls
 
-Decklist can be found [here](https://www.mtggoldfish.com/deck/3818519#paper) or
-below:
-
 ::decklist{path=2021/03/21/meandeck.diem4x}
 
 Many players come from legacy Doomsday to play Vintage Doomsday, and many wonder
@@ -403,15 +400,3 @@ That's all! If you enjoyed this guide, you can leave me a follow on
 again, massive shoutouts to our 4 guests for making this happen. Make sure to
 check them out on Twitter as well. If you have any questions, leave me a DM, and
 I'll get back as soon as I can. Thanks :)
-
-> Editor's note: This was original posted [here][everything-doomsday] by
-> Jacobisboss and permission granted to reformat and post on the Wiki. If anyone
-> else has any Doomsday submissions they would like hosted, please drop us a
-> message on the [Doomsday Discord](/discord).
->
-> Thank you Jacob and his co-authors for the great article and thank-you for
-> reading.
->
-> &mdash; Doishy
-
-[everything-doomsday]: https://docs.google.com/document/d/1QRPEfYxSIGFvc05LC7uu-tCezkTqR-lzg05-3v_olQI

@@ -22,9 +22,8 @@ such as Reid Duke, AJ Sacher and Tomas Mar.
 [snapcardster:four-color-control]: https://snapcardster.com/blog/everything-about-four-color-control
 
 _Please note: the Snapcardster site is no longer running and therefore the link
-will not function, there are Reddit and The Source threads which can be found
-discussing the key points of the article [here][reddit.ponder-vs-preordain] and
-[here][mtgthesource.ponder-vs-preordain] respectively._
+will not function, see [this Reddit post][reddit.ponder-vs-preordain] and [this
+Source thread][mtgthesource.ponder-vs-preordain] for archives._
 
 [reddit.ponder-vs-preordain]: https://www.reddit.com/r/MTGLegacy/comments/83w1ug/preordain_vs_ponder/
 [mtgthesource.ponder-vs-preordain]: http://www.mtgthesource.com/forums/showthread.php?32319-Ponder-vs-Preordain
