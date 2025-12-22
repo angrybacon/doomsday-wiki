@@ -10,24 +10,26 @@ const CodeBlock = ({
   children,
   language,
 }: PropsWithChildren<{ language: string }>) => (
-  <Box
-    component={Prism}
-    customStyle={{
-      borderRadius: undefined,
-      margin: undefined,
-      padding: undefined,
-    }}
-    language={language || 'text'}
-    style={style}
-    sx={{
-      borderRadius: 4,
-      display: 'block',
-      fontSize: 'body2.fontSize',
-      overscrollBehaviorInline: 'contain',
-      p: 2,
-    }}
-  >
-    {typeof children === 'string' ? children.trim() : children}
+  <Box sx={{ borderRadius: 4, overflow: 'hidden' }}>
+    <Box
+      component={Prism}
+      customStyle={{
+        borderRadius: undefined,
+        margin: undefined,
+        padding: undefined,
+      }}
+      language={language || 'text'}
+      style={style}
+      sx={{
+        borderRadius: 'inherit',
+        display: 'block',
+        fontSize: 'body2.fontSize',
+        overscrollBehaviorInline: 'contain',
+        p: 2,
+      }}
+    >
+      {typeof children === 'string' ? children.trim() : children}
+    </Box>
   </Box>
 );
 

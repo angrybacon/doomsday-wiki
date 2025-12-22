@@ -7,9 +7,6 @@ export const Quote: Components['blockquote'] = ({ children }) => (
     sx={{
       color: 'text.secondary',
       display: 'grid',
-      fontDisplay: 'swap',
-      fontFamily: 'Libre Baskerville, serif',
-      fontStyle: 'italic',
       gap: 2,
       pl: 2,
       py: 1,
@@ -24,9 +21,7 @@ export const Quote: Components['blockquote'] = ({ children }) => (
         position: 'absolute',
         width: 4,
       },
-      '> *': {
-        fontFamily: 'inherit',
-      },
+      '> *': { fontFamily: 'inherit' },
     }}
   >
     {children}

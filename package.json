@@ -27,7 +27,6 @@
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
-    "@fontsource/libre-baskerville": "5.2.10",
     "@korumite/kiwi": "3.4.2",
     "@mdi/js": "7.4.47",
     "@mdi/react": "1.6.1",

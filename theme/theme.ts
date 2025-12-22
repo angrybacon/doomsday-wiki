@@ -111,12 +111,17 @@ export const theme = responsiveFontSizes(
       MuiCssBaseline: {
         styleOverrides: {
           'blockquote, ol, p, pre, ul': { margin: 0, padding: 0 },
-          html: { fontSize: 18, scrollBehavior: 'smooth' },
-          em: {
+          'blockquote, em': {
             fontDisplay: 'swap',
             fontFamily: 'Libre Baskerville, serif',
             fontSize: '0.9em',
             fontStyle: 'italic',
+          },
+          body: { display: 'flex' },
+          html: {
+            fontSize: 18,
+            scrollBehavior: 'smooth',
+            scrollPaddingTop: 64,
           },
           'ol, ul': { paddingLeft: '1em' },
         },

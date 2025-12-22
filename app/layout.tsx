@@ -8,7 +8,7 @@ import {
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import { type Metadata, type Viewport } from 'next';
-import { Roboto } from 'next/font/google';
+import { Libre_Baskerville, Roboto } from 'next/font/google';
 import { type PropsWithChildren } from 'react';
 
 import { Drawer } from '@/components/Drawer/Drawer';
@@ -21,8 +21,6 @@ import { primary } from '@/theme/palette';
 import { theme } from '@/theme/theme';
 import { getClock } from '@/tools/clock/getClock';
 import { MENU } from '@/tools/markdown/menu';
-
-import '@fontsource/libre-baskerville';
 
 export const dynamicParams = false;
 
@@ -39,6 +37,13 @@ export const viewport: Viewport = {
   width: 'device-width',
 };
 
+const baskerville = Libre_Baskerville({
+  display: 'swap',
+  subsets: ['latin'],
+  variable: '--font-baskerville',
+  weight: ['400', '700'],
+});
+
 const roboto = Roboto({
   display: 'swap',
   subsets: ['latin'],
@@ -49,19 +54,13 @@ const roboto = Roboto({
 export default async ({ children }: PropsWithChildren) => {
   const clock = await getClock();
   return (
-    <Box
-      component="html"
+    <html
       lang="en"
       suppressHydrationWarning
       // NOTE Pad with the tallest toolbar: extra spacing in mobile, who's going
       //      to complain?
-      sx={{ scrollPaddingTop: 64 }}
     >
-      <Box
-        className={roboto.variable}
-        component="body"
-        sx={{ display: 'flex' }}
-      >
+      <body className={[baskerville.variable, roboto.variable].join(' ')}>
         <InitColorSchemeScript attribute="data" />
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
@@ -107,7 +106,7 @@ export default async ({ children }: PropsWithChildren) => {
             </LayoutProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
-      </Box>
-    </Box>
+      </body>
+    </html>
   );
 };

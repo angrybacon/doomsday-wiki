@@ -19,7 +19,7 @@ export const Heading: Components[`h${1 | 2 | 3 | 4 | 5 | 6}`] = ({
     throw new Error('Could not guess heading level');
   }
   return (
-    <Typography id={id} sx={{ pt: 2 }} variant={node.tagName}>
+    <Typography id={id} sx={{ pt: { xs: 2, sm: 3 } }} variant={node.tagName}>
       {children}
     </Typography>
   );
