@@ -21,7 +21,7 @@ createServer(async (request, response) => {
       throw it.statusText;
     });
     CACHE.set(request.url, promise);
-    if (process.env.DEBUG) console.info(`Cached request for "${request.url}"`);
+    if (process.env.DEBUG === '1') console.info(`Caching for "${request.url}"`);
   }
   try {
     const data = await CACHE.get(request.url);
@@ -34,6 +34,6 @@ createServer(async (request, response) => {
     response.write(message);
   } finally {
     response.end();
-    if (process.env.DEBUG) console.count(`GET ${request.url}`);
+    if (process.env.DEBUG === '1') console.count(`GET ${request.url}`);
   }
 }).listen(PORT, HOST, () => console.info(`Running on http://${HOST}:${PORT}`));

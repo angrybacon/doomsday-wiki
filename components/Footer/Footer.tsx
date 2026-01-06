@@ -15,8 +15,8 @@ export const Footer = ({ sx }: Props) => (
     ]}
   >
     <p>
-      &copy; 2017-2025 Doomsday Wiki contributors. Read the notice about{' '}
-      <Link href="/license">licenses and resources</Link>.
+      &copy; {new Date().getUTCFullYear()} Doomsday Wiki contributors. Read the
+      notice about <Link href="/license">licenses and resources</Link>.
     </p>
     <p>
       This page collects anonymous analytics in order to improve its contents.

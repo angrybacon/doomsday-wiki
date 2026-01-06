@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-      - name: Setup dependencies
+      - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Run lint tasks
         run: pnpm lint
@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-      - name: Setup dependencies
+      - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Run tests
         run: pnpm test:coverage >> $GITHUB_STEP_SUMMARY
@@ -38,7 +38,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-      - name: Setup dependencies
+      - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Set up Vercel
         run: pnpm add --global vercel@latest
@@ -57,7 +57,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-      - name: Setup dependencies
+      - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Set up Vercel
         run: pnpm add --global vercel@latest
