@@ -2,10 +2,7 @@ import { SETS } from '@/tools/game/constants/Sets';
 import { getCard } from '@/tools/game/getCard';
 import { type ScryData } from '@/tools/scryfall/types';
 
-/**
- * Hardcoded URL pointing to the running Scryfall cache server. See
- * scryfall/server.js.
- */
+/** Hardcoded URL pointing to the running Scryfall cache server */
 const HOST = 'http://localhost:3333';
 
 /** Endpoints to query for a specific card */
