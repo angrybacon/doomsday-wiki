@@ -1,17 +1,20 @@
+type Position = {
+  column?: number;
+  line?: number;
+  offset?: number;
+};
+
 type Node = {
-  position?: { start?: { line?: number } };
+  position?: { end?: Position; start?: Position };
 };
 
 export class RemarkError extends Error {
-  constructor(
-    message: string,
-    options: { file?: string; node?: Node | undefined } = {},
-  ) {
-    const { file = '', node } = options;
-    const line = node?.position?.start?.line;
-    let position = file;
-    position += file && line !== undefined ? `:${line}` : '';
-    super(message + (position ? ` in "${position}"` : ''));
+  constructor(message: string, options: { node?: Node; path?: string }) {
+    const { column, line } = options.node?.position?.start ?? {};
+    let location = options.path ?? '';
+    location += location && line !== undefined ? `:${line}` : '';
+    location += location && column !== undefined ? `:${column}` : '';
+    super(message + (location ? ` in "${location}"` : ''));
     this.name = 'RemarkError';
     Object.setPrototypeOf(this, new.target.prototype);
   }

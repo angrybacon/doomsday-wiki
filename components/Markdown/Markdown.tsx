@@ -36,10 +36,10 @@ import {
   type Chapter,
   type Partial,
 } from '@/tools/markdown/types';
-import { remarkBase } from '@/tools/remark/remarkBase.client';
-import { remarkCard } from '@/tools/remark/remarkCard.client';
-import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
-import { remarkRow } from '@/tools/remark/remarkRow.client';
+import { remarkBase } from '@/tools/remark/remarkBase';
+import { remarkCard } from '@/tools/remark/remarkCard';
+import { remarkDecklist } from '@/tools/remark/remarkDecklist';
+import { remarkRow } from '@/tools/remark/remarkRow';
 
 const COMPONENTS = {
   a: Link,

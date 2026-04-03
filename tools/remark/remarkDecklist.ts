@@ -14,11 +14,11 @@ export const remarkDecklist =
       const path = node.attributes?.path;
       if (path) {
         if (!decklists[path]) {
-          throw new RemarkError(`Missing file "${path}"`, { file, node });
+          throw new RemarkError(`Missing file "${path}"`, { node, path: file });
         }
         hastify(node, { decklist: decklists[path] });
       } else {
-        throw new RemarkError('Missing decklist "path"', { file, node });
+        throw new RemarkError('Missing decklist "path"', { node, path: file });
       }
     });
     return tree;

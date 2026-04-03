@@ -16,7 +16,7 @@ export const remarkCard =
       if (text) {
         hastify(node, { name: getCard(text.value).name });
       } else {
-        throw new RemarkError('Missing card text', { file, node });
+        throw new RemarkError('Missing card text', { node, path: file });
       }
     });
     return tree;

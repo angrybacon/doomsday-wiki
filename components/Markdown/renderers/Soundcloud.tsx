@@ -4,12 +4,12 @@ import { type ExtraProps } from 'react-markdown';
 import { RemarkError } from '@/tools/remark/RemarkError';
 
 type Props = ExtraProps & {
-  file?: string;
+  path?: string;
   url?: string;
 };
 
-export const Soundcloud = ({ file, node, url }: Props) => {
-  if (!url) throw new RemarkError('Missing SoundCloud URL', { file, node });
+export const Soundcloud = ({ node, path, url }: Props) => {
+  if (!url) throw new RemarkError('Missing SoundCloud URL', { node, path });
   // TODO Explore more customization options here
   //      https://developers.soundcloud.com/docs/api/html5-widget
   const parameters = [

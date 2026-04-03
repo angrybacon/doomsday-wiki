@@ -6,13 +6,11 @@ import { RemarkError } from '@/tools/remark/RemarkError';
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 type Props = ExtraProps & {
-  file?: string;
   name?: string;
+  path?: string;
 };
 
-// TODO Rename to `CardLink`?
-
-export const Card = ({ file, name, node }: Props) => {
-  if (!name) throw new RemarkError('Missing card name', { file, node });
+export const Card = ({ name, node, path }: Props) => {
+  if (!name) throw new RemarkError('Missing card name', { node, path });
   return <Link href={`${SCRYFALL_SEARCH}?q=!"${name}"`}>{name}</Link>;
 };

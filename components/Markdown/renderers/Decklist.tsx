@@ -9,11 +9,11 @@ import { RemarkError } from '@/tools/remark/RemarkError';
 
 type Props = ExtraProps & {
   decklist?: DecklistModel & DecklistExtra;
-  file?: string;
+  path?: string;
 };
 
-export const Decklist = ({ file, decklist, node }: Props) => {
-  if (!decklist) throw new RemarkError('Missing deck', { file, node });
+export const Decklist = ({ decklist, node, path }: Props) => {
+  if (!decklist) throw new RemarkError('Missing deck', { node, path });
 
   const { authors, colors, main, mainCount, sideCount } = decklist;
 

@@ -1,5 +1,3 @@
-'use client';
-
 import { Box, Typography } from '@mui/material';
 import { type Components } from 'react-markdown';
 
@@ -19,17 +17,16 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
           display: 'block',
           overflow: 'hidden',
           position: 'relative',
-          '&:before': (theme) => ({
-            ...theme.mixins.blur('strong'),
-            backgroundPosition: 'center',
+          '&:before': {
             backgroundImage: `url(${src})`,
+            backgroundPosition: 'center',
             backgroundSize: 'cover',
             content: '""',
             display: 'block',
             filter: 'blur(24px)',
             inset: 0,
             position: 'absolute',
-          }),
+          },
         }}
         title={title}
       >

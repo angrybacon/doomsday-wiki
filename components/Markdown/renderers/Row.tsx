@@ -28,15 +28,15 @@ const STYLES: Record<z.infer<typeof VariantSchema>, SxProps<Theme>> = {
 };
 
 type Props = ExtraProps & {
-  file?: string;
+  path?: string;
   row?: { cards?: { data: ScryCard[]; id: string }[] };
   variant?: string;
 };
 
-export const Row = ({ file, node, row, variant }: Props) => {
+export const Row = ({ node, path, row, variant }: Props) => {
   if (!row?.cards?.length) return null;
   const { data, success } = VariantSchema.optional().safeParse(variant);
-  if (!success) throw new RemarkError(`Unknown "${variant}"`, { file, node });
+  if (!success) throw new RemarkError(`Unknown "${variant}"`, { node, path });
   return (
     <Box sx={STYLES[data || 'CENTERED']}>
       {row.cards.map(({ data, id }) => (

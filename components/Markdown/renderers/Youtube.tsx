@@ -14,12 +14,12 @@ const IFRAME_PERMISSIONS = [
 ].join(';');
 
 type Props = ExtraProps & {
-  file?: string;
   id?: string;
+  path?: string;
 };
 
-export const Youtube = ({ file, id, node }: Props) => {
-  if (!id) throw new RemarkError('Missing YouTube ID', { file, node });
+export const Youtube = ({ id, node, path }: Props) => {
+  if (!id) throw new RemarkError('Missing YouTube ID', { node, path });
   return (
     <Box
       sx={{

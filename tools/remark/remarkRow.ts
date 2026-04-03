@@ -14,12 +14,15 @@ export const remarkRow =
       if (node.type !== 'containerDirective' || node.name !== 'row') return;
       const text = select('text', node) as Text | undefined;
       if (!text) {
-        throw new RemarkError('Missing text for row', { file, node });
+        throw new RemarkError('Missing text for row', { node, path: file });
       }
       const row = text.value.split('\n').map((query, index) => {
         const data = scries[query];
         if (!data?.length) {
-          throw new RemarkError(`Missing data for "${query}"`, { file, node });
+          throw new RemarkError(`Missing data for "${query}"`, {
+            node,
+            path: file,
+          });
         }
         return { data, id: `${text.position?.start.offset}-${index}` };
       });
