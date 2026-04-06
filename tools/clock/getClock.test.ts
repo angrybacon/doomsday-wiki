@@ -1,12 +1,15 @@
 import { getClock } from '@/tools/clock/getClock';
 
-global.fetch = jest.fn();
+global.fetch = vi.fn();
 
 describe(getClock.name, () => {
-  const text = jest.fn();
+  const text = vi.fn();
 
   beforeEach(() => {
-    (fetch as jest.Mock).mockResolvedValue({ ok: true, text });
+    vi.mocked(fetch).mockResolvedValue({
+      ok: true,
+      text,
+    } as Partial<Response> as Response);
   });
 
   it('should parse the Doomsday clock', async () => {
@@ -67,7 +70,9 @@ describe(getClock.name, () => {
 
   it('should handle fetch failures', async () => {
     // Given
-    (fetch as jest.Mock).mockResolvedValue({ text });
+    vi.mocked(fetch).mockResolvedValue({
+      text,
+    } as Partial<Response> as Response);
     // When
     const test = () => getClock();
     // Then

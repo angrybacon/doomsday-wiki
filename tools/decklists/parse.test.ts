@@ -2,9 +2,9 @@ import { parse } from '@/tools/decklists/parse';
 import { parseCards } from '@/tools/decklists/parseCards';
 import { parseHeader } from '@/tools/decklists/parseHeader';
 
-jest.mock('@/tools/decklists/parseCards');
+vi.mock('@/tools/decklists/parseCards');
 
-jest.mock('@/tools/decklists/parseHeader');
+vi.mock('@/tools/decklists/parseHeader');
 
 const sample = [
   '// Title: Decklist Title',
@@ -19,9 +19,12 @@ const sample = [
 
 describe(parse.name, () => {
   beforeEach(() => {
-    jest.resetAllMocks();
-    (parseCards as jest.Mock).mockReturnValue({});
-    (parseHeader as jest.Mock).mockReturnValue({});
+    vi.mocked(parseCards).mockReturnValue({ cards: [], count: 0 });
+    vi.mocked(parseHeader).mockReturnValue({
+      authors: null,
+      colors: null,
+      title: null,
+    });
   });
 
   it('should identify the header', () => {
@@ -53,18 +56,24 @@ describe(parse.name, () => {
 
   it('should return the parsed body sections', () => {
     // Given
-    (parseCards as jest.Mock).mockReturnValueOnce({ cards: 'MAIN', count: 2 });
-    (parseCards as jest.Mock).mockReturnValueOnce({ cards: 'SIDE', count: 4 });
+    vi.mocked(parseCards).mockReturnValueOnce({
+      cards: [[[4, 'Brainstorm']]],
+      count: 4,
+    });
+    vi.mocked(parseCards).mockReturnValueOnce({
+      cards: [[[1, 'Plains']]],
+      count: 1,
+    });
     const buffer = sample;
     // When
     const result = parse(buffer);
     // Then
     expect(result).toStrictEqual(
       expect.objectContaining({
-        main: 'MAIN',
-        mainCount: 2,
-        side: 'SIDE',
-        sideCount: 4,
+        main: [[[4, 'Brainstorm']]],
+        mainCount: 4,
+        side: [[[1, 'Plains']]],
+        sideCount: 1,
       }),
     );
   });

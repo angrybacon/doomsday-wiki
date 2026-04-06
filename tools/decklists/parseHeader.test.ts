@@ -1,31 +1,6 @@
 import { parseHeader } from '@/tools/decklists/parseHeader';
-import { toArray } from '@/tools/mana/toArray';
-
-jest.mock('@/tools/mana/toArray');
 
 describe(parseHeader.name, () => {
-  beforeAll(() => {
-    (toArray as jest.Mock).mockImplementation((text) => text);
-  });
-
-  it('should parse the header and trim each line', () => {
-    // Given
-    const title = 'Decklist Title';
-    const authors = 'Firstname Lastname';
-    const colors = '{C1} {C2} {C3} {C4} {C5}';
-    const buffer = [
-      `// Title:    ${title}    `,
-      `// Authors:  ${authors}  `,
-      `// Colors:   ${colors}   `,
-    ].join('\n');
-    // When
-    const result = parseHeader(buffer);
-    // Then
-    expect(result.authors).toEqual(authors);
-    expect(result.colors).toEqual(colors);
-    expect(result.title).toEqual(title);
-  });
-
   it('should parse the title', () => {
     // Given
     const title = 'Decklist Title';
@@ -48,11 +23,29 @@ describe(parseHeader.name, () => {
 
   it('should parse the colors', () => {
     // Given
-    const colors = '{C1} {C2} {C3} {C4} {C5}';
+    const colors = '{W} {U} {B} {R} {G}';
     const buffer = [`// Title: Title`, `// Colors: ${colors}`].join('\n');
     // When
     const result = parseHeader(buffer);
     // Then
-    expect(result.colors).toEqual(colors);
+    expect(result.colors).toEqual(['w', 'u', 'b', 'r', 'g']);
+  });
+
+  it('should parse the header and trim each line', () => {
+    // Given
+    const title = 'Decklist Title';
+    const authors = 'Firstname Lastname';
+    const colors = '{W} {U} {B} {R} {G}';
+    const buffer = [
+      `// Title:    ${title}   `,
+      `// Authors:  ${authors} `,
+      `// Colors:   ${colors}  `,
+    ].join('\n');
+    // When
+    const result = parseHeader(buffer);
+    // Then
+    expect(result.authors).toEqual('Firstname Lastname');
+    expect(result.colors).toEqual(['w', 'u', 'b', 'r', 'g']);
+    expect(result.title).toEqual('Decklist Title');
   });
 });

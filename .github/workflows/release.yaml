@@ -27,7 +27,10 @@ jobs:
       - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Run tests
-        run: pnpm test:coverage >> $GITHUB_STEP_SUMMARY
+        run: pnpm test:coverage
+      - name: Report coverage
+        if: always()
+        uses: davelosert/vitest-coverage-report-action@v2
 
   preview:
     name: Preview

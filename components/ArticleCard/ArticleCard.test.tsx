@@ -3,10 +3,6 @@ import { type ComponentPropsWithoutRef } from 'react';
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { render, screen } from '@/tools/test';
 
-jest.mock('@/components/ArticleChip/ArticleChip', () => ({
-  ArticleChip: 'div',
-}));
-
 describe(ArticleCard.name, () => {
   let props: ComponentPropsWithoutRef<typeof ArticleCard>;
 
@@ -51,7 +47,7 @@ describe(ArticleCard.name, () => {
     const { container } = render(<ArticleCard {...props} />);
     // Then
     const element = container.firstChild;
-    expect(element).toHaveStyle(`background-image: url(${props.banner.art})`);
+    expect(element).toHaveStyle(`background-image: url("${props.banner.art}")`);
     expect(element).toHaveAccessibleName(props.banner.title);
   });
 });
