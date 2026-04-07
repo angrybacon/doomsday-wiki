@@ -1,10 +1,10 @@
-import { hastify } from '@korumite/kiwi/client';
+import { hastify } from '@korumite/kiwi';
 import { type Root } from 'mdast';
 import { visit } from 'unist-util-visit';
 
 /** Preliminary visit to mark directives by name and skip unsupported names */
 export const remarkBase =
-  ({ file, names }: { file: string; names: string[] }) =>
+  ({ names, path }: { names: string[]; path: string }) =>
   (tree: Root) => {
     visit(tree, (node) => {
       if (
@@ -13,7 +13,7 @@ export const remarkBase =
         node.type === 'textDirective'
       ) {
         if (names.includes(node.name)) {
-          hastify(node, { ...node.attributes, file });
+          hastify(node, { ...node.attributes, path });
         } else {
           node.children = [{ type: 'text', value: `:${node.name}` }];
           // NOTE I don't know how to output something that will render as a

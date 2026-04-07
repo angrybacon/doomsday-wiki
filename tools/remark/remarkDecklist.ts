@@ -1,4 +1,4 @@
-import { hastify } from '@korumite/kiwi/client';
+import { hastify } from '@korumite/kiwi';
 import { type Root } from 'mdast';
 import { visit } from 'unist-util-visit';
 
@@ -7,18 +7,18 @@ import { RemarkError } from '@/tools/remark/RemarkError';
 
 /** Augment decklist directives with metadata found in `decklists` */
 export const remarkDecklist =
-  ({ decklists, file }: { decklists: Decklists; file: string }) =>
+  ({ decklists, path }: { decklists: Decklists; path: string }) =>
   (tree: Root) => {
     visit(tree, (node) => {
       if (node.type !== 'leafDirective' || node.name !== 'decklist') return;
-      const path = node.attributes?.path;
-      if (path) {
-        if (!decklists[path]) {
-          throw new RemarkError(`Missing file "${path}"`, { node, path: file });
+      const url = node.attributes?.path;
+      if (url) {
+        if (!decklists[url]) {
+          throw new RemarkError(`Missing file "${url}"`, { node, path });
         }
-        hastify(node, { decklist: decklists[path] });
+        hastify(node, { decklist: decklists[url] });
       } else {
-        throw new RemarkError('Missing decklist "path"', { node, path: file });
+        throw new RemarkError('Missing decklist "path"', { node, path });
       }
     });
     return tree;

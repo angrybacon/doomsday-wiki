@@ -81,7 +81,7 @@ type Props = {
 };
 
 export const Markdown = ({
-  markdown: { decklists, file, scries, text },
+  markdown: { decklists, path, scries, text },
   sx,
 }: Props) => (
   <Box
@@ -108,10 +108,10 @@ export const Markdown = ({
         remarkDirective,
         remarkGfm,
         // NOTE Our own remarkers
-        [remarkBase, { file, names: Object.keys(COMPONENTS_EXTRA) }],
-        [remarkCard, { file }],
-        [remarkDecklist, { decklists, file }],
-        [remarkRow, { file, scries }],
+        [remarkBase, { names: Object.keys(COMPONENTS_EXTRA), path }],
+        [remarkCard, { path }],
+        [remarkDecklist, { decklists, path }],
+        [remarkRow, { path, scries }],
       ]}
     >
       {text}

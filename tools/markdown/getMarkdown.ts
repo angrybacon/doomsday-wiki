@@ -1,5 +1,6 @@
 import { join } from 'node:path';
-import { read } from '@korumite/kiwi/server';
+import { read } from '@korumite/kiwi';
+import { cache } from 'react';
 
 import { BASE_URLS } from '@/tools/markdown/files';
 import { type Partial } from '@/tools/markdown/types';
@@ -14,17 +15,20 @@ import { zMetadata } from '@/tools/z/schemas';
  * last crumb.
  * The path is relative to the root of the project.
  */
-export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
-  const id = crumbs.join('!');
-  try {
-    const { data, ...markdown } = await read(
-      [BASE_URLS.ROOT, join(...crumbs) + '.md'],
-      remarkDecklists,
-      remarkMana,
-      remarkScries,
-    );
-    return { ...markdown, ...zMetadata.parse(data), file: id };
-  } catch (error) {
-    throw new Error(`${error} in "${id}"`);
-  }
-};
+export const getMarkdown = cache(
+  async (...crumbs: string[]): Promise<Partial> => {
+    const path = join(...crumbs);
+    try {
+      const { data, ...markdown } = await read(
+        { crumbs, root: BASE_URLS.ROOT },
+        remarkDecklists,
+        remarkMana,
+        remarkScries,
+      );
+      return { ...markdown, ...zMetadata.parse(data) };
+    } catch (cause) {
+      const message = cause instanceof Error ? cause.message : String(cause);
+      throw new Error(`${message} in "${path}"`, { cause });
+    }
+  },
+);

@@ -1,5 +1,5 @@
 import { join } from 'node:path';
-import { makeCards, makeNextRoutes, walk } from '@korumite/kiwi/server';
+import { makeCards, makeNextRoutes, walk } from '@korumite/kiwi';
 import * as z from 'zod';
 
 import { formatDate } from '@/tools/io/formatDate';
@@ -24,11 +24,12 @@ const ARTICLES_TREE = z
 export const ARTICLES = {
   CARDS: (
     await makeCards(
-      { paths: ARTICLES_TREE, root: BASE_URLS.ARTICLES },
+      { paths: ARTICLES_TREE, prefix: '/articles', root: BASE_URLS.ARTICLES },
       {
         banner: ({ matter }) => z.string().parse(matter.banner),
         date: ({ crumbs: [y, m, d] }) => formatDate(y, m, d),
         slug: ({ crumbs }) => z.string().parse(crumbs[3]),
+        title: ({ matter }) => z.string().parse(matter.title),
       },
     )
   ).reverse(),
@@ -49,6 +50,7 @@ export const CHAPTERS = {
       category: ({ crumbs }) => zCategory.parse(crumbs[0]),
       chapter: ({ crumbs }) => zChapter.parse(crumbs[0]),
       slug: ({ crumbs }) => z.string().parse(crumbs[1]),
+      title: ({ matter }) => z.string().parse(matter.title),
     },
   ),
   ROUTES: makeNextRoutes(CHAPTERS_TREE, ['chapter', 'slug']),

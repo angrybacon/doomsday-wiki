@@ -18,8 +18,8 @@ importers:
         specifier: 11.14.1
         version: 11.14.1(@emotion/react@11.14.0(@types/react@19.2.14)(react@19.2.4))(@types/react@19.2.14)(react@19.2.4)
       '@korumite/kiwi':
-        specifier: 3.4.2
-        version: 3.4.2
+        specifier: 5.3.0
+        version: 5.3.0
       '@mdi/js':
         specifier: 7.4.47
         version: 7.4.47
@@ -684,8 +684,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@korumite/kiwi@3.4.2':
-    resolution: {integrity: sha512-0YOZ3CpTealjxRzUGZlZvyOwAV6n+GvGfW5aDtQd+neIYqeQdoq+2MmQ8TJdzPhwvzpVxK5LdX4m7nBxHjO4Sw==}
+  '@korumite/kiwi@5.3.0':
+    resolution: {integrity: sha512-V+ajfrJiWwweWIzkdIEhpukgZUxl1WYdwrFH0dnpgMsUAu2r8HY1RuVB3FwnpNuSgHZY3OGGxQnOdmpxalp4bw==}
 
   '@korumite/ts@1.2.0':
     resolution: {integrity: sha512-JL6FBXJKH20u7xY4AXNA0iNNpd55PuFQdmR3VMkEdbtWKnoUyjLGGNMe13p8b+oWMSkQ2N0DOKhT0+wUxdu4SA==}
@@ -4016,7 +4016,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@korumite/kiwi@3.4.2':
+  '@korumite/kiwi@5.3.0':
     dependencies:
       mdast-util-toc: 7.1.0
       reading-time: 1.5.0

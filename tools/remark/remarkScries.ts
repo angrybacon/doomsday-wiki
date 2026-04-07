@@ -1,4 +1,4 @@
-import { type Text } from 'mdast';
+import { type Root, type Text } from 'mdast';
 import { type ContainerDirective } from 'mdast-util-directive';
 import { type Plugin } from 'unified';
 import { select } from 'unist-util-select';
@@ -14,7 +14,7 @@ import { type Scries, type ScryData } from '@/tools/scryfall/types';
  * Look for `row` container directives and insert the Scryfall response into the
  * tree under the `scries` property.
  */
-export const remarkScries: Plugin = () => async (tree, file) => {
+export const remarkScries: Plugin<[], Root> = () => async (tree, file) => {
   const promises: Promise<ScryData>[] = [];
   const scries: Scries = {};
   const tests = [{ name: 'row', type: 'containerDirective' }];

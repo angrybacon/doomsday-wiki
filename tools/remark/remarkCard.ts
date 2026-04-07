@@ -1,4 +1,4 @@
-import { hastify } from '@korumite/kiwi/client';
+import { hastify } from '@korumite/kiwi';
 import { type Root, type Text } from 'mdast';
 import { select } from 'unist-util-select';
 import { visit } from 'unist-util-visit';
@@ -8,7 +8,7 @@ import { RemarkError } from '@/tools/remark/RemarkError';
 
 /** Augment card directives with the real cards names */
 export const remarkCard =
-  ({ file }: { file: string }) =>
+  ({ path }: { path: string }) =>
   (tree: Root) => {
     visit(tree, (node) => {
       if (node.type !== 'textDirective' || node.name !== 'card') return;
@@ -16,7 +16,7 @@ export const remarkCard =
       if (text) {
         hastify(node, { name: getCard(text.value).name });
       } else {
-        throw new RemarkError('Missing card text', { node, path: file });
+        throw new RemarkError('Missing card text', { node, path });
       }
     });
     return tree;

@@ -1,4 +1,5 @@
-import { makeToc, read } from '@korumite/kiwi/server';
+import { join } from 'node:path';
+import { makeToc, read } from '@korumite/kiwi';
 
 import { CHAPTERS } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
@@ -16,23 +17,21 @@ export const getChapter = async (
   try {
     if (!card) throw new Error('Missing chapter card');
     const { data, ...markdown } = await read(
-      [card.path],
+      card.path,
       remarkDecklists,
       remarkMana,
       remarkScries,
     );
-    const toc = makeToc(markdown.text, { maxDepth: 3 });
-    if (!toc?.items?.length) throw new Error('Found empty table of contents');
     const matter = zChapterMatter.parse(markdown.matter);
     return {
       ...markdown,
       ...zMetadata.parse(data),
       banner: await getBanner(matter.banner),
-      file: id,
       matter,
-      toc,
+      toc: makeToc(markdown.text, { maxDepth: 3, minDepth: 2 }),
     };
-  } catch (error) {
-    throw new Error(`${error} in "${id}"`);
+  } catch (cause) {
+    const message = cause instanceof Error ? cause.message : String(cause);
+    throw new Error(`${message} in "${join(...crumbs)}"`, { cause });
   }
 };

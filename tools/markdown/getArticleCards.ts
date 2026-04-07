@@ -1,4 +1,4 @@
-import { read } from '@korumite/kiwi/server';
+import { read } from '@korumite/kiwi';
 
 import { ARTICLES } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
@@ -9,12 +9,11 @@ import { zArticleMatter } from '@/tools/z/schemas';
 export const getArticleCards = async (): Promise<ArticleCard[]> =>
   Promise.all(
     ARTICLES.CARDS.map(async (card) => {
-      const markdown = await read([card.path]);
+      const markdown = await read(card.path);
       const matter = zArticleMatter.parse(markdown.matter);
       return {
+        ...card,
         banner: await getBanner(matter.banner),
-        date: card.date,
-        href: '/articles' + card.href,
         matter,
       };
     }),
