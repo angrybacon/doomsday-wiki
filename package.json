@@ -41,7 +41,7 @@
     "async-sema": "3.1.1",
     "mana-font": "1.18.0",
     "mdast-util-find-and-replace": "3.0.2",
-    "next": "15.2.6",
+    "next": "15.5.15",
     "plaiceholder": "3.0.0",
     "posthog-js": "1.301.1",
     "react": "18.3.1",
