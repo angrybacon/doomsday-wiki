@@ -14,15 +14,15 @@ import { siDiscord } from 'simple-icons';
 import { Rosetta } from '@/components/Rosetta/Rosetta';
 import { Entry } from '@/components/Sidebar/Entry';
 import { EntryAsLink } from '@/components/Sidebar/EntryAsLink';
-import { type CATEGORIES } from '@/tools/markdown/constants';
 import { type MENU } from '@/tools/markdown/menu';
+import { type Category } from '@/tools/markdown/schemas';
 
 /**
  * Decorate menu entries with a pretty title and subtitle.
  * Omitting an entry simply hides it from the menu.
  */
 const DECORATIONS: Partial<
-  Record<(typeof CATEGORIES)[number], { subtitle: string; title: string }>
+  Record<Category, { subtitle: string; title: string }>
 > =
   // prettier-ignore
   {

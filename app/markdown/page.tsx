@@ -14,7 +14,7 @@ export default async () => {
   const toc = makeToc(markdown.text, { maxDepth: 3, minDepth: 2 });
   return (
     <>
-      <Markdown markdown={markdown} sx={{ gridArea: 'content' }} />
+      <Markdown {...markdown} sx={{ gridArea: 'content' }} />
       <Toc items={toc.items || []} sx={{ gridArea: 'toc' }} />
     </>
   );

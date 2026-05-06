@@ -7,7 +7,8 @@ import { MANA_RE } from '@/tools/mana/constants';
 
 /**
  * Add support for `:mana` directives.
- * Find and replace all mana patterns with proper Remark directives.
+ *
+ * Find and replace all matching mana patterns with proper Remark directives.
  */
 export const remarkMana: Plugin<[], Root> = () => (tree) =>
   findAndReplace(tree as Nodes, [

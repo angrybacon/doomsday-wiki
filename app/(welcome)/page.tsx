@@ -16,7 +16,7 @@ export default async () => {
   return (
     <Grid container spacing={3}>
       <Grid size={{ lg: 7 }}>
-        <Markdown markdown={welcome} />
+        <Markdown {...welcome} />
       </Grid>
       <Grid size="grow">
         <Articles articles={articles} />

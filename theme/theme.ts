@@ -128,7 +128,9 @@ export const theme = responsiveFontSizes(
       },
       MuiTooltip: {
         defaultProps: { arrow: true },
-        styleOverrides: { tooltip: { textAlign: 'center' } },
+        styleOverrides: {
+          tooltip: { textAlign: 'center', whiteSpace: 'pre-line' },
+        },
       },
     },
     cssVariables: { colorSchemeSelector: 'data' },

@@ -1,31 +1,22 @@
+import { type ScrySingleResponse } from '@korumite/scrydrop';
 import { Box, Fade, Tooltip, type SxProps } from '@mui/material';
-
-import { type ScryCard } from '@/tools/scryfall/types';
 
 type Props = {
   active: boolean;
-  data: ScryCard;
+  face: ScrySingleResponse[number];
   sx?: SxProps;
 };
 
-export const CardFace = ({ active, data, sx }: Props) => {
-  const { artist, images, name, setName } = data;
-  const image = images.full;
-
-  if (!image) return null;
-
-  const description = [`"${name}" from ${setName}`, `Art by ${artist}`];
-  const title = description.map((line) => <div key={line}>{line}</div>);
-
-  return (
-    <Tooltip title={title}>
+export const CardFace = ({ active, face, sx }: Props) =>
+  face.image_uris ? (
+    <Tooltip title={face.alternate.join('\n')}>
       <Fade in={active}>
         <Box
-          alt={description.join(' - ')}
+          alt={face.alternate.join('. ')}
           component="img"
           decoding="async"
           loading="lazy"
-          src={image}
+          src={face.image_uris.normal}
           sx={[
             {
               bgcolor: 'action.disabled',
@@ -42,5 +33,4 @@ export const CardFace = ({ active, data, sx }: Props) => {
         />
       </Fade>
     </Tooltip>
-  );
-};
+  ) : null;

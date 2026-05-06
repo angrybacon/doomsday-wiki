@@ -1,3 +1,4 @@
+import { type ScrySingleResponse } from '@korumite/scrydrop';
 import {
   Box,
   accordionClasses,
@@ -31,11 +32,7 @@ import {
   Youtube,
 } from '@/components/Markdown/renderers';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
-import {
-  type Article,
-  type Chapter,
-  type Partial,
-} from '@/tools/markdown/types';
+import { type Decklists } from '@/tools/decklists/types';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist';
@@ -76,14 +73,14 @@ const COMPONENTS_EXTRA = {
 } as const;
 
 type Props = {
-  markdown: Article | Chapter | Partial;
+  decklists: Decklists;
+  path: string;
+  scries: Record<string, ScrySingleResponse>;
   sx?: SxProps;
+  text: string;
 };
 
-export const Markdown = ({
-  markdown: { decklists, path, scries, text },
-  sx,
-}: Props) => (
+export const Markdown = ({ decklists, path, scries, sx, text }: Props) => (
   <Box
     sx={[
       {
@@ -108,10 +105,10 @@ export const Markdown = ({
         remarkDirective,
         remarkGfm,
         // NOTE Our own remarkers
-        [remarkBase, { names: Object.keys(COMPONENTS_EXTRA), path }],
-        [remarkCard, { path }],
-        [remarkDecklist, { decklists, path }],
-        [remarkRow, { path, scries }],
+        [remarkBase, path, Object.keys(COMPONENTS_EXTRA)],
+        [remarkCard, path],
+        [remarkDecklist, path, decklists],
+        [remarkRow, path, scries],
       ]}
     >
       {text}

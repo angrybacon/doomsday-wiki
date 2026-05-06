@@ -8,12 +8,11 @@ import {
   useState,
   type PropsWithChildren,
 } from 'react';
-import * as z from 'zod';
 
-import { zCategory } from '@/tools/z/schemas';
+import { CategorySchema, type Category } from '@/tools/markdown/schemas';
 
 export const LayoutContext = createContext({
-  category: null as z.infer<typeof zCategory> | null,
+  category: null as Category | null,
   hasMenu: false,
   hasTable: null as boolean | null,
   toggleMenu: (_?: boolean) => () => {},
@@ -26,7 +25,7 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const [hasTable, setHasTable] = useState<boolean | null>(null);
   const { chapter = null } = useParams();
   const pathname = usePathname();
-  const category = zCategory.nullable().parse(chapter);
+  const category = CategorySchema.nullable().parse(chapter);
 
   const toggleMenu = useCallback(
     (value?: boolean) => () =>

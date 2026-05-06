@@ -15,7 +15,7 @@ export default async () => {
       <Typography gutterBottom variant="h1">
         License
       </Typography>
-      <Markdown markdown={license} />
+      <Markdown {...license} />
     </div>
   );
 };

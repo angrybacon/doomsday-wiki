@@ -1,11 +1,11 @@
 import { hastify } from '@korumite/kiwi';
 import { type Root } from 'mdast';
+import { type Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
 
 /** Preliminary visit to mark directives by name and skip unsupported names */
-export const remarkBase =
-  ({ names, path }: { names: string[]; path: string }) =>
-  (tree: Root) => {
+export const remarkBase: Plugin<[path: string, names: string[]], Root> =
+  (path, names) => (tree) => {
     visit(tree, (node) => {
       if (
         node.type === 'containerDirective' ||

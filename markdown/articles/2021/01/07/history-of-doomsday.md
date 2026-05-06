@@ -2,7 +2,7 @@
 authors: Doishy
 banner: DR
 kind: ARTICLE
-tags: LEGACY
+tags: [LEGACY]
 title: 'The History of Doomsday: An interview with Emidln'
 ---
 

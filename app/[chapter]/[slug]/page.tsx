@@ -24,13 +24,8 @@ export default async (context: {
   const markdown = await getChapter(chapter, slug);
   return (
     <>
-      <Banner
-        banner={markdown.banner}
-        minutes={markdown.minutes}
-        title={markdown.matter.title}
-        sx={{ gridArea: 'banner' }}
-      />
-      <Markdown markdown={markdown} sx={{ gridArea: 'content' }} />
+      <Banner {...markdown} sx={{ gridArea: 'banner' }} />
+      <Markdown {...markdown} sx={{ gridArea: 'content' }} />
       <Toc items={markdown.toc.items || []} sx={{ gridArea: 'toc' }} />
     </>
   );

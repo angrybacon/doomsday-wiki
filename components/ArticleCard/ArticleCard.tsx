@@ -2,14 +2,19 @@ import { Card, CardActionArea, CardContent, Typography } from '@mui/material';
 import NextLink from 'next/link';
 
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
-import { type ArticleCard as ArticleCardModel } from '@/tools/markdown/types';
+import { type Banner as BannerModel } from '@/tools/markdown/types';
 
-export const ArticleCard = ({
-  banner,
-  date,
-  href,
-  matter,
-}: ArticleCardModel) => (
+type Props = {
+  authors: string;
+  banner: BannerModel;
+  date: string | null;
+  href: string;
+  kind: string;
+  tags: string[];
+  title: string;
+};
+
+export const ArticleCard = ({ banner, href, title, ...meta }: Props) => (
   <Card
     className="dark"
     sx={{
@@ -38,9 +43,9 @@ export const ArticleCard = ({
         ]}
       >
         <Typography variant="h6" sx={{ textShadow: '0 0 8px black' }}>
-          {matter.title}
+          {title}
         </Typography>
-        <ArticleMeta date={date} {...matter} />
+        <ArticleMeta {...meta} />
       </CardContent>
     </CardActionArea>
   </Card>

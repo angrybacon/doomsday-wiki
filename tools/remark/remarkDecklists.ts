@@ -6,7 +6,7 @@ import { visit } from 'unist-util-visit';
 import { getDecklist } from '@/tools/decklists/getDecklist';
 import { type Decklists } from '@/tools/decklists/types';
 
-/** Augment the tree with decklists found */
+/** Preliminary visit to extract the required decklists */
 export const remarkDecklists: Plugin<[], Root> = () => (tree, file) => {
   const tests = [{ name: 'decklist', type: 'leafDirective' }];
   const decklists: Decklists = {};

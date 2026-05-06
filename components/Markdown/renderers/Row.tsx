@@ -1,12 +1,12 @@
 'use client';
 
+import { type ScrySingleResponse } from '@korumite/scrydrop';
 import { Box, type SxProps, type Theme } from '@mui/material';
 import { type ExtraProps } from 'react-markdown';
 import * as z from 'zod';
 
 import { Card } from '@/components/Card/Card';
 import { RemarkError } from '@/tools/remark/RemarkError';
-import { type ScryCard } from '@/tools/scryfall/types';
 
 const VariantSchema = z.literal(['CENTERED', 'PILE']);
 
@@ -28,22 +28,27 @@ const STYLES: Record<z.infer<typeof VariantSchema>, SxProps<Theme>> = {
 };
 
 type Props = ExtraProps & {
+  payload?: { cards?: { faces: ScrySingleResponse; id: string }[] };
   path?: string;
-  row?: { cards?: { data: ScryCard[]; id: string }[] };
   variant?: string;
 };
 
-export const Row = ({ node, path, row, variant }: Props) => {
-  if (!row?.cards?.length) return null;
+export const Row = ({
+  node,
+  path,
+  payload: { cards } = {},
+  variant,
+}: Props) => {
+  if (!cards?.length) throw new RemarkError('Missing cards', { node, path });
   const { data, success } = VariantSchema.optional().safeParse(variant);
   if (!success) throw new RemarkError(`Unknown "${variant}"`, { node, path });
   return (
     <Box sx={STYLES[data || 'CENTERED']}>
-      {row.cards.map(({ data, id }) => (
+      {cards.map(({ faces, id }) => (
         // NOTE The extra wrapper is necessary for each card to retain the
         //      harcoded aspect ratio.
         <div key={id}>
-          <Card data={data} />
+          <Card faces={faces} />
         </div>
       ))}
     </Box>

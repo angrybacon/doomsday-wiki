@@ -6,7 +6,7 @@
 Contributions are more than welcome, thank you for considering it!
 
 Pull requests work best, below are guidelines set to help you in the process of
-providing work for review.
+providing reviewable work.
 
 ** Contributing with Code
 
@@ -31,8 +31,8 @@ content.
 - =articles/= ::
   Dated reports and theories.
 - =chapters/= ::
-  Most of the content goes there, organized in =ddeft/=, =ddft/= and =meandeck/=
-  chapters. There's also =appendices/= for general-purposed resources.
+  Most of the content goes there, organized in archetype chapters. There's also
+  =appendices/= for general-purpose resources.
 - =partials/= ::
   Static content within the Wiki comes from those partials, this avoids having
   to maintain content within code.
@@ -41,22 +41,21 @@ content.
 
 An automatic table of content will be created for all chapters and articles.
 Nothing to do on your side! The table will look for level 2 and 3 headings in
-the whole document and render as a list of anchor links for each of them.
+the whole document and render itself as a list of anchor links.
 
-Mana symbols and card names are not supported in headings. The table will ignore
-levels 4 and down anyway, but the heading slugs will look strange so prefer
-simpler titles.
+Mana symbols and card names are not officially supported in headings. The
+heading slugs will look strange if you use markup so prefer simpler titles.
 
 *** Custom Directives
 
 A number of custom directives are parsed within Markdown content. This allows
-more feature than what Markdown already supports by default. Visit =/markdown=
+more features than what Markdown already supports by default. Visit =/markdown=
 anywhere the Wiki is hosted to see what it actually looks like. For the
 technicalities, see the supported specifications for
 [[https://talk.commonmark.org/t/generic-directives-plugins-syntax/444][directives]].
 
-We will assume you know the differences between /inline/, /leaf/ and /container/
-directives.
+The guidelines assume that the reader knows the differences between /inline/,
+/leaf/ and /container/ directives.
 
 - Inline directives (single colon =:=) ::
   Inline markup where the text does not create a new paragraph.
@@ -64,8 +63,8 @@ directives.
   Create a new paragraph but accept no children within.
 - Container directives (a pair of triple or more colons =:::=) ::
   Also create a new paragraph but accept children between the opening and
-  closing pairs. It is possible to nest /container/ directives by using more
-  than 3 colons.
+  closing pairs. It is possible to nest /container/ directives by using an
+  increasing number of colons.
 
 ** Testing your Changes
 
@@ -73,6 +72,11 @@ This is a Next.js application written with TypeScript and I'll assume basic
 knowledge for a JavaScript stack is known from the reader. All you have to do in
 order to run the project locally is to clone the repository and install the
 JavaScript dependencies.
+
+Scryfall recently updated their good citizenship contract requirements in terms
+of rate limit. It is now recommended to stay under 2 requests per second. Both
+the development and production builds throttle requests down to 1 per second for
+safety.
 
 #+BEGIN_SRC sh
 pnpm install  # Install dependencies
@@ -88,4 +92,4 @@ project locally, Vercel generates and updates URLs for every pull requests on
 the repository.
 
 As a general advice, avoid pushing for every little change you make as build
-minutes are free but limited.
+minutes are free but not infinite.

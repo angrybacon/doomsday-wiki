@@ -23,7 +23,7 @@ export default async () => {
           overflow: 'hidden',
         }}
       >
-        {articles.map(({ date, href, matter }, index) => (
+        {articles.map(({ href, title, ...meta }, index) => (
           <ListItemButton
             component={NextLink}
             divider={index < articles.length - 1}
@@ -32,8 +32,8 @@ export default async () => {
           >
             <ListItemText
               disableTypography
-              primary={<Typography>{matter.title}</Typography>}
-              secondary={<ArticleMeta date={date} {...matter} />}
+              primary={<Typography>{title}</Typography>}
+              secondary={<ArticleMeta {...meta} />}
               sx={{ display: 'grid', gap: 1 }}
             />
           </ListItemButton>
