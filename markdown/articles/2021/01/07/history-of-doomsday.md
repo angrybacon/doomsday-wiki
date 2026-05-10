@@ -979,7 +979,7 @@ and :card[Unearth]. The primary pile it ran went as such:
 :::row{variant=PILE}
 Mental Note
 LM
-Pact of Negation|FUT
+Pact of Negation | FUT
 GP
 Unearth
 :::
@@ -1078,14 +1078,14 @@ The speed was also a key point. The Meandeck list, with a perfect draw, could
 achieve a turn 2 kill with the following cards in hand/drawn:
 
 :::row
-DR|MMQ
+Dark Ritual | MMQ
 DD
-DR|MMQ
-Pact of Negation|FUT
+Dark Ritual | MMQ
+Pact of Negation | FUT
 SdT
 Polluted Delta
 GP
-Island|RAV
+Island | RAV
 :::
 
 The sequencing would be play Top off of Island on turn 1. Turn 2 you would fetch
@@ -1096,9 +1096,9 @@ activate Top to draw for the win. An equivalent perfect draw from DDFT could
 result in a turn 1 win.
 
 :::row
-DR|MMQ
+Dark Ritual | MMQ
 DD
-DR|MMQ
+Dark Ritual | MMQ
 Dur
 SdT
 Polluted Delta

@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: CR | TOR
+banner: Cabal Ritual | TOR
 kind: ARTICLE
 tags: [LEGACY, MEANDECK]
 title: 'May You Live in Interesting Times: The 2022 Doomsday Review'

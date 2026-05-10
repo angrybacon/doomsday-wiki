@@ -98,12 +98,12 @@ export const toDirective = (text: string): string => {
 ```
 
 :::row
-DD | WTH
-DD | PRM | 61058
-DD | MP2
-DD | A25
-DD | PLST
-DD | SLD | 1115
+Doomsday | WTH
+Doomsday | PRM | 61058
+Doomsday | MP2
+Doomsday | A25
+Doomsday | PLST
+Doomsday | SLD | 1115
 :::
 ::::
 ````
@@ -121,12 +121,12 @@ export const toDirective = (text: string): string => {
 ```
 
 :::row
-DD | WTH
-DD | PRM | 61058
-DD | MP2
-DD | A25
-DD | PLST
-DD | SLD | 1115
+Doomsday | WTH
+Doomsday | PRM | 61058
+Doomsday | MP2
+Doomsday | A25
+Doomsday | PLST
+Doomsday | SLD | 1115
 :::
 ::::
 
@@ -191,13 +191,13 @@ The header of a Markdown document can be referred to as the _frontmatter_. It is
 used to hold a body of YAML metadata for the current document without polluting
 its actual content.
 
-| Field     | Articles       | Chapters       | Notes                                                                                                           |
-| --------- | -------------- | -------------- | --------------------------------------------------------------------------------------------------------------- |
-| `authors` | Yes            | Yes            | Comma-separated list of authors that should be credited                                                         |
-| `banner`  | Yes (required) | Yes (required) | Configure a banner for the page. Scryfall syntax is supported                                                   |
-| `kind`    | Yes (required) |                | Available values at [constants.ts][constants.ts]                                                                |
-| `tags`    | Yes            |                | Available values at [constants.ts][constants.ts]. Used to pick which abbreviations are available in the sidebar |
-| `title`   | Yes (required) | Yes (required) | Wrap with double quotes if using special characters such as `:` and `'`                                         |
+| Field     | Articles       | Chapters       | Notes                                                                                                       |
+| --------- | -------------- | -------------- | ----------------------------------------------------------------------------------------------------------- |
+| `authors` | Yes            | Yes            | Comma-separated list of authors that should be credited                                                     |
+| `banner`  | Yes (required) | Yes (required) | Configure a banner for the page. Scryfall syntax is supported                                               |
+| `kind`    | Yes (required) |                | Available values at [schemas.ts][schemas.ts]                                                                |
+| `tags`    | Yes            |                | Available values at [schemas.ts][schemas.ts]. Used to pick which abbreviations are available in the sidebar |
+| `title`   | Yes (required) | Yes (required) | Wrap with double quotes if using special characters such as `:` and `'`                                     |
 
 ## Images
 
@@ -339,22 +339,22 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 
 ```md
 :::row
-DD | WTH
-DD | PRM | 61058
-DD | MP2
-DD | A25
-DD | PLST
-DD | SLD | 1115
+Doomsday | WTH
+Doomsday | PRM | 61058
+Doomsday | MP2
+Doomsday | A25
+Doomsday | PLST
+Doomsday | SLD | 1115
 :::
 ```
 
 :::row
-DD | WTH
-DD | PRM | 61058
-DD | MP2
-DD | A25
-DD | PLST
-DD | SLD | 1115
+Doomsday | WTH
+Doomsday | PRM | 61058
+Doomsday | MP2
+Doomsday | A25
+Doomsday | PLST
+Doomsday | SLD | 1115
 :::
 
 ```md
@@ -470,10 +470,10 @@ TO
 ## Scryfall
 
 In some contexts, you can refer to card names within Markdown. To ease the
-writing process and reduce typos, a number of shorthands for card names can be
-found maintained next to [the code][cards.ts].
+writing process and reduce the chances of mistyping, a number of shorthands for
+card names can be found maintained next to [the code][constants.ts].
 
-> For supported acronyms, the case matters!.
+> For supported acronyms, the case matters!
 
 ### Inline Card Links
 
@@ -483,15 +483,14 @@ I hear :card[TO] and :card[Doomsday] go well together.
 
 I hear :card[TO] and :card[Doomsday] go well together.
 
-> Preview of the artwork on hover may come in the future.
-
 ### Imagery
 
-You can also render card images. The aforementioned acronyms are also supported
-and you can optionally provide a specific set using its 3-letters set code. By
-default, first print is preferred except for a few [exceptions][sets.ts]. To
-identify the right code for your set, inspect the links at
-<https://scryfall.com/sets>.
+You can also render card images. The aforementioned acronyms are supported
+unless you specify more options in which case the full name is expected.
+
+You can optionally provide a specific set using its 3-letters set code. By
+default, first print is preferred. To identify the right code for your set,
+inspect the links at <https://scryfall.com/sets>.
 
 > Be warned however that some promotional prints may have an earlier timestamp
 > than the _regular_ printing of a card.
@@ -505,7 +504,7 @@ printings of the same card.
 ```md
 :::row
 DD
-DD | SLD
+Doomsday | SLD
 Subtlety
 Subtlety | MH2
 Duress | STA | 92
@@ -514,7 +513,7 @@ Duress | STA | 92
 
 :::row
 DD
-DD | SLD
+Doomsday | SLD
 Subtlety
 Subtlety | MH2
 Duress | STA | 92
@@ -665,8 +664,7 @@ Deprecated
 
 ::youtube{id=3LLIFHv5kbo}
 
-[cards.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Cards.ts
 [cls]: https://web.dev/articles/cls
-[constants.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/constants.ts
+[constants.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/rosetta/constants.ts
 [image.tsx]: https://github.com/angrybacon/doomsday-wiki/blob/master/components/Markdown/renderers/Image.tsx
-[sets.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/game/constants/Sets.ts
+[schemas.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/schemas.ts

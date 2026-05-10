@@ -37,7 +37,7 @@ export const remarkScries: Plugin<[], Root> = () => async (tree, file) => {
   );
 
   queries.forEach((query) => {
-    const promise = scry.single(query).then((it) => (scries[query] = it));
+    const promise = scry(query).then((it) => (scries[query] = it));
     promises.push(promise);
   });
 

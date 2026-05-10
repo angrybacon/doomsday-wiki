@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: BS | MMQ
+banner: Brainstorm | MMQ
 kind: ARTICLE
 tags: [LEGACY, MEANDECK]
 title: "Gangster Trippin': Cantrip Discipline in Doomsday"

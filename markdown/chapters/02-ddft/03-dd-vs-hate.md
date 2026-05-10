@@ -1,5 +1,5 @@
 ---
-banner: Tsz | MP2
+banner: Thoughtseize | MP2
 title: Doomsday Versus Hate
 ---
 

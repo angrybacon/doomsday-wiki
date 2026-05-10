@@ -1,5 +1,5 @@
 ---
-banner: DR | TMP
+banner: Dark Ritual | TMP
 title: Uncommon Piles
 ---
 

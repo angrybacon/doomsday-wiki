@@ -222,12 +222,12 @@ some real world game examples.
 > Opponent has a single uncracked fetchland in play. 4 cards in hand.
 
 :::row
-DR|MMQ
+Dark Ritual | MMQ
 DD
-FoW|EMA
+Force of Will | EMA
 Daze
-BS|MMQ
-Dur|PD3
+Brainstorm | MMQ
+Duress | PD3
 :::
 
 In this example we have a situation where if we want to win, we have to be able
@@ -365,9 +365,9 @@ find additional protection or free up our mana.
 > they have at least 1 Force of Will and blue card.
 
 :::row
-DR|MMQ
+Dark Ritual | MMQ
 DD
-FoW|EMA
+Force of Will | EMA
 FoW
 Daze
 Tsz
