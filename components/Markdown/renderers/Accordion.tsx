@@ -1,3 +1,4 @@
+import { RemarkError } from '@korumite/kiwi';
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -8,8 +9,6 @@ import {
 } from '@mui/material';
 import { type ReactNode } from 'react';
 import { type ExtraProps } from 'react-markdown';
-
-import { RemarkError } from '@/tools/remark/RemarkError';
 
 type Props = ExtraProps & {
   children?: ReactNode;

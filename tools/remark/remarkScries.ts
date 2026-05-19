@@ -1,7 +1,6 @@
+import { type ReadPlugin } from '@korumite/kiwi';
 import { type ScrySingleResponse } from '@korumite/scrydrop';
-import { type Root } from 'mdast';
 import { toString } from 'mdast-util-to-string';
-import { type Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
 
 import { scry } from '@/tools/scryfall/scry';
@@ -12,7 +11,7 @@ import { scry } from '@/tools/scryfall/scry';
  * Look for directives where cards are referred by name and make a dictionary of
  * query results under the `scries` property for further reference.
  */
-export const remarkScries: Plugin<[], Root> = () => async (tree, file) => {
+export const remarkScries: ReadPlugin = () => async (tree, file) => {
   const promises: Promise<ScrySingleResponse>[] = [];
   const scries: Record<string, ScrySingleResponse> = {};
   const queries: string[] = [];

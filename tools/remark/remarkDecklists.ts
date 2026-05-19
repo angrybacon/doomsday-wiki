@@ -1,21 +1,16 @@
-import { type Root } from 'mdast';
-import { type LeafDirective } from 'mdast-util-directive';
-import { type Plugin } from 'unified';
+import { type ReadPlugin } from '@korumite/kiwi';
 import { visit } from 'unist-util-visit';
 
 import { getDecklist } from '@/tools/decklists/getDecklist';
 import { type Decklists } from '@/tools/decklists/types';
 
 /** Preliminary visit to extract the required decklists */
-export const remarkDecklists: Plugin<[], Root> = () => (tree, file) => {
+export const remarkDecklists: ReadPlugin = () => (tree, file) => {
   const tests = [{ name: 'decklist', type: 'leafDirective' }];
   const decklists: Decklists = {};
   visit(tree, tests, (node) => {
-    const directive = node as LeafDirective;
-    const path = directive.attributes?.path;
-    if (typeof path !== 'string') {
-      throw new Error(`Invalid path for decklist "${path}"`);
-    }
+    const path = node.attributes?.path;
+    if (!path) throw new Error('Missing "path" for decklist');
     decklists[path] = getDecklist(...path.split('/'));
   });
   Object.assign(file.data, { decklists });

@@ -1,3 +1,4 @@
+import { RemarkError } from '@korumite/kiwi';
 import { type ExtraProps } from 'react-markdown';
 
 import { Decklist as DecklistAccordion } from '@/components/Decklist/Decklist';
@@ -5,7 +6,6 @@ import {
   type DecklistExtra,
   type Decklist as DecklistModel,
 } from '@/tools/decklists/types';
-import { RemarkError } from '@/tools/remark/RemarkError';
 
 type Props = ExtraProps & {
   decklist?: DecklistModel & DecklistExtra;

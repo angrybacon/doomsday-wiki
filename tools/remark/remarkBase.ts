@@ -1,10 +1,8 @@
-import { hastify } from '@korumite/kiwi';
-import { type Root } from 'mdast';
-import { type Plugin } from 'unified';
+import { hastify, type ReadPlugin } from '@korumite/kiwi';
 import { visit } from 'unist-util-visit';
 
 /** Preliminary visit to mark directives by name and skip unsupported names */
-export const remarkBase: Plugin<[path: string, names: string[]], Root> =
+export const remarkBase: ReadPlugin<[path: string, names: string[]]> =
   (path, names) => (tree) => {
     visit(tree, (node) => {
       if (

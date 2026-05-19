@@ -1,8 +1,6 @@
-import { hastify } from '@korumite/kiwi';
+import { hastify, type ReadPlugin } from '@korumite/kiwi';
 import { type ScrySingleResponse } from '@korumite/scrydrop';
-import { type Root } from 'mdast';
 import { toString } from 'mdast-util-to-string';
-import { type Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
 
 /**
@@ -14,9 +12,8 @@ import { visit } from 'unist-util-visit';
  * When used on a string directly where a file path cannot be inferred, use PATH
  * instead for error messages.
  */
-export const remarkRow: Plugin<
-  [path: string, scries: Record<string, ScrySingleResponse>],
-  Root
+export const remarkRow: ReadPlugin<
+  [path: string, scries: Record<string, ScrySingleResponse>]
 > = (path, scries) => (tree, file) => {
   visit(tree, (node) => {
     if (

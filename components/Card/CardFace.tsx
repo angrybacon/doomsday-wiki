@@ -20,7 +20,7 @@ export const CardFace = ({ active, face, sx }: Props) =>
           sx={[
             {
               bgcolor: 'action.disabled',
-              borderRadius: ['2px', '4px'],
+              borderRadius: '5.2% / 3.7%',
               display: 'block',
               height: 1,
               opacity: 0,

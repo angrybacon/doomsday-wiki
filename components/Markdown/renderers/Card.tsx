@@ -1,7 +1,7 @@
+import { RemarkError } from '@korumite/kiwi';
 import { type ExtraProps } from 'react-markdown';
 
 import { Link } from '@/components/Link/Link';
-import { RemarkError } from '@/tools/remark/RemarkError';
 
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
