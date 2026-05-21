@@ -97,7 +97,7 @@ export const theme = responsiveFontSizes(
       MuiAccordionDetails: {
         styleOverrides: {
           root: ({ theme }) => ({
-            ...theme.mixins.recess(theme)('Y'),
+            ...theme.mixins.recess('Y'),
             padding: theme.spacing(2),
           }),
         },

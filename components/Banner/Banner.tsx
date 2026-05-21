@@ -16,7 +16,7 @@ type Props = {
 export const Banner = ({ authors, banner, minutes, title, sx }: Props) => (
   <Box
     aria-level={1}
-    className="dark"
+    data-dark
     role="heading"
     sx={[
       {

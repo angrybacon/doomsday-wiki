@@ -16,7 +16,7 @@ type Props = {
 
 export const ArticleCard = ({ banner, href, title, ...meta }: Props) => (
   <Card
-    className="dark"
+    data-dark
     sx={{
       // NOTE Chromium (?) expands the child blur area outside of the border
       //      radius. This resets the blur in order to avoid white corners.

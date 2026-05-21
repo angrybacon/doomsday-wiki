@@ -21,7 +21,7 @@ export const Card = ({ faces }: Props) => {
   const button =
     faces.length > 1 ? (
       <IconButton
-        className="light"
+        data-light
         onClick={onFlip}
         sx={(theme) => ({
           ...theme.mixins.blur('weakest'),

@@ -1,4 +1,4 @@
-import { type CSSObject, type Theme } from '@mui/material';
+import { type CSSObject } from '@mui/material';
 
 const BLUR_VALUES = {
   strong: '12px',
@@ -22,9 +22,7 @@ const RECESS_VALUES = {
   },
 } as const satisfies Record<string, Record<string, CSSObject['boxShadow']>>;
 
-export const recess =
-  <TTheme extends Theme>(theme: TTheme) =>
-  (direction: 'X' | 'Y'): CSSObject => ({
-    boxShadow: RECESS_VALUES.LIGHT[direction],
-    ...theme.applyStyles('dark', { boxShadow: RECESS_VALUES.DARK[direction] }),
-  });
+export const recess = (direction: 'X' | 'Y'): CSSObject => ({
+  '[data-dark] &': { boxShadow: RECESS_VALUES.DARK[direction] },
+  '[data-light] &': { boxShadow: RECESS_VALUES.LIGHT[direction] },
+});
