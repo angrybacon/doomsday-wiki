@@ -1,10 +1,10 @@
-import { type ComponentProps } from 'react';
+import { type ComponentPropsWithoutRef } from 'react';
 
 import { Column } from '@/components/Decklist/Column';
 import { render, screen } from '@/tools/test';
 
 describe(Column.name, () => {
-  let props: ComponentProps<typeof Column>;
+  let props: ComponentPropsWithoutRef<typeof Column>;
 
   beforeEach(() => {
     props = { cards: [] };

@@ -37,7 +37,7 @@ EF
 success since the printing of :card[TO]. Legacy Doomsday often uses reactive and
 proactive permission to play a controlling game before ending the game.
 Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is explained in
-this article [here](/articles/2020/03/12/pretty-mean-deck).
+[this article](/articles/2020/03/12/pretty-mean-deck).
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
@@ -137,7 +137,7 @@ while the TES pilot tries to disrupt our combo turn, they aren't progressing
 their own plan as much.
 
 These are likely the most favourable matchups (part based on gut feel and part
-based on community-obtained results found [here][data:matchups]).
+based on [community-obtained results][data:matchups]).
 
 ## What is the worst matchup for the deck?
 

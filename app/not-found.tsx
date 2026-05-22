@@ -19,7 +19,7 @@ export default () => (
       }}
     />
     <Box
-      className="dark"
+      data-dark
       sx={{
         alignSelf: 'center',
         color: 'text.primary',

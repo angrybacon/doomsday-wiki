@@ -285,13 +285,13 @@ Mainboard
 
 Sideboard
 
-- 3-4 :card[Force of Negation] (a very important tool against other combo decks or
-  prison decks)
+- 3-4 :card[Force of Negation] (a very important tool against other combo decks
+  or prison decks)
 - 0-1 :card[Pact of Negation]
 - 1 :card[Massacre]
 - 0-2 Discard spells
-- 2-4 One mana counterspells like :card[Pyroblast], :card[Flusterstorm] or :card[Mystical
-  Dispute]
+- 2-4 One mana counterspells like :card[Pyroblast], :card[Flusterstorm] or
+  :card[Mystical Dispute]
 - 0-2 Cheap creature removal such as :card[Fatal Push]
 - 0-2 Bounce spells like :card[Echoing Truth]
 - 1 Anti-Endurance package (:card[Shelldock Isle] + :card[Em] or something like

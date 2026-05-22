@@ -1,7 +1,6 @@
+import { RemarkError } from '@korumite/kiwi';
 import { Box } from '@mui/material';
 import { type ExtraProps } from 'react-markdown';
-
-import { RemarkError } from '@/tools/remark/RemarkError';
 
 /** IFrame permissions for the YouTube widget */
 const IFRAME_PERMISSIONS = [
@@ -14,12 +13,12 @@ const IFRAME_PERMISSIONS = [
 ].join(';');
 
 type Props = ExtraProps & {
-  file?: string;
   id?: string;
+  path?: string;
 };
 
-export const Youtube = ({ file, id, node }: Props) => {
-  if (!id) throw new RemarkError('Missing YouTube ID', { file, node });
+export const Youtube = ({ id, node, path }: Props) => {
+  if (!id) throw new RemarkError('Missing YouTube ID', { node, path });
   return (
     <Box
       sx={{

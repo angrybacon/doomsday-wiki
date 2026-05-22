@@ -43,8 +43,7 @@ played. This is a {U}{B} Turbo list based on Maxtortion's Challenge winning list
 from late 2022. I know there's some newfangled initiative decks running around
 so I swapped a couple of sideboard cards around and I'm ready to go.
 
-Here's the list I ended up playing
-[link](https://www.moxfield.com/decks/MaLuDHEo60icrr-GNki2xg):
+Here's the list I ended up playing:
 
 ::decklist{path=2023/03/turbo.eternalrant}
 

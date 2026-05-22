@@ -1,4 +1,4 @@
-import { makeMenu } from '@korumite/kiwi/server';
+import { makeMenu } from '@korumite/kiwi';
 
 import { CHAPTERS } from '@/tools/markdown/files';
 

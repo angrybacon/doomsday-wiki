@@ -1,5 +1,5 @@
 ---
-banner: ToA | STA | 34
+banner: Tendrils of Agony | STA | 34
 title: Winning Without Doomsday
 ---
 

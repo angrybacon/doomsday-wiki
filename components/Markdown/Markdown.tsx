@@ -1,3 +1,4 @@
+import { type ScrySingleResponse } from '@korumite/scrydrop';
 import {
   Box,
   accordionClasses,
@@ -31,34 +32,30 @@ import {
   Youtube,
 } from '@/components/Markdown/renderers';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
-import {
-  type Article,
-  type Chapter,
-  type Partial,
-} from '@/tools/markdown/types';
-import { remarkBase } from '@/tools/remark/remarkBase.client';
-import { remarkCard } from '@/tools/remark/remarkCard.client';
-import { remarkDecklist } from '@/tools/remark/remarkDecklist.client';
-import { remarkRow } from '@/tools/remark/remarkRow.client';
+import { type Decklists } from '@/tools/decklists/types';
+import { remarkBase } from '@/tools/remark/remarkBase';
+import { remarkCard } from '@/tools/remark/remarkCard';
+import { remarkDecklist } from '@/tools/remark/remarkDecklist';
+import { remarkRow } from '@/tools/remark/remarkRow';
 
 const COMPONENTS = {
   a: Link,
   blockquote: Quote,
   code: Code,
-  h1: Heading<'h1'>,
-  h2: Heading<'h2'>,
-  h3: Heading<'h3'>,
-  h4: Heading<'h4'>,
-  h5: Heading<'h5'>,
-  h6: Heading<'h6'>,
+  h1: Heading,
+  h2: Heading,
+  h3: Heading,
+  h4: Heading,
+  h5: Heading,
+  h6: Heading,
   hr: () => <Divider />,
   img: Image,
   // NOTE The `code` entries already handle both block and inline code markup
   pre: ({ children }) => <>{children}</>,
   table: Table,
   tbody: TableBody,
-  td: TableCell<'td'>,
-  th: TableCell<'th'>,
+  td: TableCell,
+  th: TableCell,
   thead: TableHead,
   tr: TableRow,
 } as const satisfies Components;
@@ -76,14 +73,14 @@ const COMPONENTS_EXTRA = {
 } as const;
 
 type Props = {
-  markdown: Article | Chapter | Partial;
+  decklists: Decklists;
+  path: string;
+  scries: Record<string, ScrySingleResponse>;
   sx?: SxProps;
+  text: string;
 };
 
-export const Markdown = ({
-  markdown: { decklists, file, scries, text },
-  sx,
-}: Props) => (
+export const Markdown = ({ decklists, path, scries, sx, text }: Props) => (
   <Box
     sx={[
       {
@@ -108,10 +105,10 @@ export const Markdown = ({
         remarkDirective,
         remarkGfm,
         // NOTE Our own remarkers
-        [remarkBase, { file, names: Object.keys(COMPONENTS_EXTRA) }],
-        [remarkCard, { file }],
-        [remarkDecklist, { decklists, file }],
-        [remarkRow, { file, scries }],
+        [remarkBase, path, Object.keys(COMPONENTS_EXTRA)],
+        [remarkCard, path],
+        [remarkDecklist, path, decklists],
+        [remarkRow, path, scries],
       ]}
     >
       {text}

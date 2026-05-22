@@ -13,10 +13,10 @@ import { useLayout } from '@/hooks/useLayout';
 
 const WIDTH = 280;
 
-const DRAWER_STYLES: SxProps<Theme> = ({ mixins, vars }) => ({
+const DRAWER_STYLES: SxProps<Theme> = (theme) => ({
   [`.${drawerClasses.paper}`]: {
-    ...mixins.blur('strong'),
-    bgcolor: `rgba(${vars.palette.background.paperChannel} / .75)`,
+    ...theme.mixins.blur('strong'),
+    bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .75)`,
     width: WIDTH,
   },
 });

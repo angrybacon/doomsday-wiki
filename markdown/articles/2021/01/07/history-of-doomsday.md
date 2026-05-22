@@ -2,7 +2,7 @@
 authors: Doishy
 banner: DR
 kind: ARTICLE
-tags: LEGACY
+tags: [LEGACY]
 title: 'The History of Doomsday: An interview with Emidln'
 ---
 
@@ -254,24 +254,23 @@ decks found the answer did the Legacy deck truly form.
 ## The Start of Legacy - Early Storm Lists
 
 Moving sideways for the time being, storm decks were viable from the onset of
-Legacy with the most well known list at the time being known as _Iggy Pop_,
-designed by Michael Bomholt whose original primer can be found
-[here](https://web.archive.org/web/20090104201512/http:/www.starcitygames.com/php/news/article/10989.html).
-Iggy was a {U}{B} storm list based around the engine of :card[Ill-Gotten Gains]
-coupled with rituals effects, other fast mana, Lion's Eye Diamonds and
-:card[Tendrils of Agony] with tools like Mystical Tutor and :card[Intuition] to
-find them. The deck was very proactive, to the point it didn't run much
-protection at all. Discard effects like Duress weren't viable as, due to the
-mirrored recursion effect of Ill-Gotten Gains, discarding disruption was
-pointless as the opponent could just return it to their hand during Ill-Gotten
-Gain's resolution. The mana base was also very clean so pilots did not tend to
-splash for cards like :card[Orim's Chant] and, because of the use of Lion's Eye
-Diamonds (LEDs), countermagic was not viable either. As a result it was very
-all-in as far as combo decks go. With the deck you could loop Ill-Gotten Gains
-and, with a Dark Ritual and an LED, you could net mana each loop. To close the
-loop you could Intuition for 3 copies of Tendrils of Agony to win. It was very
-consistent boasting 8 maindeck tutor effects and maindeck removal like
-:card[Chain of Vapor] or :card[Cabal Pit].
+Legacy with the most well known list at the time being known as [_Iggy
+Pop_](https://web.archive.org/web/20090104201512/http:/www.starcitygames.com/php/news/article/10989.html),
+designed by Michael Bomholt. Iggy was a {U}{B} storm list based around the
+engine of :card[Ill-Gotten Gains] coupled with rituals effects, other fast mana,
+Lion's Eye Diamonds and :card[Tendrils of Agony] with tools like Mystical Tutor
+and :card[Intuition] to find them. The deck was very proactive, to the point it
+didn't run much protection at all. Discard effects like Duress weren't viable
+as, due to the mirrored recursion effect of Ill-Gotten Gains, discarding
+disruption was pointless as the opponent could just return it to their hand
+during Ill-Gotten Gain's resolution. The mana base was also very clean so pilots
+did not tend to splash for cards like :card[Orim's Chant] and, because of the
+use of Lion's Eye Diamonds (LEDs), countermagic was not viable either. As a
+result it was very all-in as far as combo decks go. With the deck you could loop
+Ill-Gotten Gains and, with a Dark Ritual and an LED, you could net mana each
+loop. To close the loop you could Intuition for 3 copies of Tendrils of Agony to
+win. It was very consistent boasting 8 maindeck tutor effects and maindeck
+removal like :card[Chain of Vapor] or :card[Cabal Pit].
 
 It's here in our story where we re-focus on Emidln. Emidln had gotten a taste of
 competitive magic and so started browsing forums to find out more information.
@@ -719,11 +718,12 @@ Force of Will, Top and other lighter permission. The most notable result it had
 was with a version dubbed _Ugly Duckling_ run by Chris Gosselin. This version
 ran Spell Pierces, Thoughtseizes, :card[Stifle] and a number of spicy sideboard
 inclusions like :card[Form of the Dragon] and :card[Armageddon] (for flavour
-reasons maybe?). He made top 8 of GP Columbus in August 2010. You can find a
-video of the full deck tech [here](https://www.youtube.com/watch?v=0TNK1Jb5r9E).
-Outside of 2010-2011 the deck didn't see a huge amount of play however as it
-could be awkward and have some slightly dodgy starting hands with Doomsday +
-Emrakul not always aligning fully.
+reasons maybe?). He made top 8 of GP Columbus in August 2010. Outside of
+2010-2011 the deck didn't see a huge amount of play however as it could be
+awkward and have some slightly dodgy starting hands with Doomsday + Emrakul not
+always aligning fully.
+
+::youtube{id=0TNK1Jb5r9E}
 
 The deck excelled against oppsoing combo and control due to the high amount of
 disruption it ran and the resiliency of the threat base however it was poor
@@ -979,7 +979,7 @@ and :card[Unearth]. The primary pile it ran went as such:
 :::row{variant=PILE}
 Mental Note
 LM
-Pact of Negation|FUT
+Pact of Negation | FUT
 GP
 Unearth
 :::
@@ -1027,11 +1027,13 @@ which we will get to later, have proven that the theory of it being a 1 card
 combo and having the scope to be one of the best decks in Legacy is completely
 correct however I believe his thinking was a little ahead of its time and based
 on a few misconceptions. The best result that was achieved with it was going 6-3
-at an SCG event in Columbus. The deck can be seen on feature match
-[here](https://www.youtube.com/watch?v=UuswAK0IYdg). Other than that it failed
-to really make a splash in the format and this is for a number of reasons based
-on the aforementioned idea of these misconceptions. I will discuss them based on
-my own thought processes below:
+at an SCG event in Columbus.
+
+::youtube{id=UuswAK0IYdg}
+
+Other than that it failed to really make a splash in the format and this is for
+a number of reasons based on the aforementioned idea of these misconceptions. I
+will discuss them based on my own thought processes below:
 
 1. Legacy is not Vintage
 1. You can only run 4 Doomsday
@@ -1076,14 +1078,14 @@ The speed was also a key point. The Meandeck list, with a perfect draw, could
 achieve a turn 2 kill with the following cards in hand/drawn:
 
 :::row
-DR|MMQ
+Dark Ritual | MMQ
 DD
-DR|MMQ
-Pact of Negation|FUT
+Dark Ritual | MMQ
+Pact of Negation | FUT
 SdT
 Polluted Delta
 GP
-Island|RAV
+Island | RAV
 :::
 
 The sequencing would be play Top off of Island on turn 1. Turn 2 you would fetch
@@ -1094,9 +1096,9 @@ activate Top to draw for the win. An equivalent perfect draw from DDFT could
 result in a turn 1 win.
 
 :::row
-DR|MMQ
+Dark Ritual | MMQ
 DD
-DR|MMQ
+Dark Ritual | MMQ
 Dur
 SdT
 Polluted Delta

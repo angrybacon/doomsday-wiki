@@ -10,8 +10,8 @@ type Props = Pick<MuiDividerProps, 'component' | 'role' | 'sx'>;
 export const Divider = ({ sx, ...rest }: Props) => (
   <MuiDivider
     sx={[
-      ({ vars }) => ({
-        background: `linear-gradient(to right, transparent, ${vars.palette.divider}, transparent)`,
+      (theme) => ({
+        background: `linear-gradient(to right, transparent, ${theme.vars.palette.divider}, transparent)`,
         border: 0,
         height: '1px',
       }),

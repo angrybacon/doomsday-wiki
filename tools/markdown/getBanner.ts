@@ -1,24 +1,19 @@
-import { type Banner } from '@/tools/markdown/types';
-import { readFaces } from '@/tools/scryfall/read';
+import { type ScrySingleResponse } from '@korumite/scrydrop';
+
 import { scry } from '@/tools/scryfall/scry';
 
 /** Fetch the artwork for a given Scryfall query */
-export const getBanner = async (query: string): Promise<Banner> => {
-  const data = await scry(query);
-  const [face] = await readFaces(data, { withPreview: true });
-  if (!face) {
-    throw new Error(`Missing data for banner with query "${query}"`);
-  }
-  const { artist, flavor, images, name } = face;
-  const { art, artPreview } = images || {};
-  if (!art || !artPreview) {
-    throw new Error(`Missing card art for banner "${name}"`);
-  }
+export const getBanner = async (query: string) => {
+  const [front]: ScrySingleResponse = await scry(query, { lqip: true });
+  if (!front) throw new Error(`Missing banner data for "${query}"`);
+  if (!front.image_uris)
+    throw new Error(`Missing banner imagery for "${query}"`);
+  if (!front.lqip) throw new Error(`Missing LQIP for "${query}"`);
   return {
-    art,
-    artPreview,
-    flavor,
-    // TODO Pass down name and artist separately
-    title: `"${name}" by ${artist}`,
+    art: front.image_uris.art_crop,
+    flavor: front.flavor_text ?? null,
+    label: front.alternate.join('. '),
+    lqip: front.lqip.art,
+    title: front.alternate.join('\n'),
   };
 };

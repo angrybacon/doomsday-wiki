@@ -10,13 +10,19 @@ export const Footer = ({ sx }: Props) => (
   <Box
     component="footer"
     sx={[
-      { color: 'text.secondary', textAlign: 'center', typography: 'caption' },
+      {
+        color: 'text.secondary',
+        textAlign: 'center',
+        typography: 'caption',
+        '[data-dark] &': { textShadow: '0 0 4px black' },
+        '[data-light] &': { textShadow: '0 0 4px white' },
+      },
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
     <p>
-      &copy; 2017-2025 Doomsday Wiki contributors. Read the notice about{' '}
-      <Link href="/license">licenses and resources</Link>.
+      &copy; {new Date().getUTCFullYear()} Doomsday Wiki contributors. Read the
+      notice about <Link href="/license">licenses and resources</Link>.
     </p>
     <p>
       This page collects anonymous analytics in order to improve its contents.

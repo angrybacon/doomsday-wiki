@@ -1,10 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "incremental": true,
     "jsx": "preserve",
-    "module": "preserve",
-    "noEmit": true,
     "paths": {
       "@/app/*": ["./app/*"],
       "@/contexts/*": ["./contexts/*"],
@@ -14,9 +11,17 @@
       "@/tools/*": ["./tools/*"]
     },
     "plugins": [{ "name": "next" }],
-    "verbatimModuleSyntax": false
+    "target": "ES2017",
+    "types": ["@testing-library/jest-dom", "vitest/globals"]
   },
   "exclude": ["node_modules"],
   "extends": "./node_modules/@korumite/ts/tsconfig.dom.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
+  "include": [
+    "**/*.mts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/dev/types/**/*.ts",
+    ".next/types/**/*.ts",
+    "next-env.d.ts"
+  ]
 }

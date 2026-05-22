@@ -28,17 +28,11 @@ export default async (context: {
   const footer = await getMarkdown('partials', 'article-footer');
   return (
     <>
-      <Banner
-        author={markdown.matter.authors}
-        banner={markdown.banner}
-        minutes={markdown.minutes}
-        title={markdown.matter.title}
-        sx={{ gridArea: 'banner' }}
-      />
+      <Banner {...markdown} sx={{ gridArea: 'banner' }} />
       <Box sx={{ display: 'grid', gap: 3, gridArea: 'content' }}>
-        <Markdown markdown={markdown} />
+        <Markdown {...markdown} />
         <Divider />
-        <Markdown markdown={footer} />
+        <Markdown {...footer} />
       </Box>
       <Toc items={markdown.toc.items || []} sx={{ gridArea: 'toc' }} />
     </>

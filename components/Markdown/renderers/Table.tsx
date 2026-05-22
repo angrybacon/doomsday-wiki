@@ -1,6 +1,7 @@
 'use client';
 
 import {
+  Box,
   Table as MuiTable,
   TableBody as MuiTableBody,
   TableCell as MuiTableCell,
@@ -8,48 +9,31 @@ import {
   TableHead as MuiTableHead,
   TableRow as MuiTableRow,
 } from '@mui/material';
-import { type Components, type ExtraProps } from 'react-markdown';
+import { type Components } from 'react-markdown';
 
 export const Table: Components['table'] = ({ children }) => (
-  <MuiTableContainer
-    sx={{
-      border: 1,
-      borderColor: 'divider',
-      borderRadius: 4,
-      overflowWrap: 'normal',
-    }}
-  >
-    <MuiTable size="small">{children}</MuiTable>
-  </MuiTableContainer>
-);
-
-export const TableBody: Components['tbody'] = ({ children }) => (
-  <MuiTableBody>{children}</MuiTableBody>
-);
-
-const CELL_ALIGN: Record<string, 'center' | 'left' | 'right'> = {
-  left: 'left',
-  center: 'center',
-  right: 'right',
-} as const;
-
-export const TableCell = <T extends 'td' | 'th' = never>({
-  children,
-  node,
-}: JSX.IntrinsicElements[T] & ExtraProps) => {
-  const align = CELL_ALIGN[`${node?.properties.align}`];
-  return (
-    <MuiTableCell
-      align={align}
-      sx={[
-        { borderColor: 'divider' },
-        align === 'left' && { whiteSpace: 'nowrap' },
-      ]}
+  <Box sx={{ borderRadius: 4, overflow: 'hidden' }}>
+    <MuiTableContainer
+      sx={{
+        border: 1,
+        borderColor: 'divider',
+        borderRadius: 'inherit',
+        overflowWrap: 'normal',
+        overscrollBehaviorInline: 'contain',
+      }}
     >
-      {children}
-    </MuiTableCell>
-  );
-};
+      <MuiTable size="small">{children}</MuiTable>
+    </MuiTableContainer>
+  </Box>
+);
+
+export const TableBody: Components['tbody'] = MuiTableBody;
+
+export const TableCell: Components['td'] = ({ children, style }) => (
+  <MuiTableCell style={style} sx={[{ borderColor: 'divider' }]}>
+    {children}
+  </MuiTableCell>
+);
 
 export const TableHead: Components['thead'] = ({ children }) => (
   <MuiTableHead

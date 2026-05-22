@@ -1,4 +1,4 @@
-import { makeToc } from '@korumite/kiwi/server';
+import { makeToc } from '@korumite/kiwi';
 import { type Metadata } from 'next';
 
 import { Markdown } from '@/components/Markdown/Markdown';
@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 
 export default async () => {
   const markdown = await getMarkdown('partials', 'markdown');
-  const toc = makeToc(markdown.text);
+  const toc = makeToc(markdown.text, { maxDepth: 3, minDepth: 2 });
   return (
     <>
-      <Markdown markdown={markdown} sx={{ gridArea: 'content' }} />
+      <Markdown {...markdown} sx={{ gridArea: 'content' }} />
       <Toc items={toc.items || []} sx={{ gridArea: 'toc' }} />
     </>
   );

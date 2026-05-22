@@ -1,6 +1,6 @@
 ---
 authors: angrybacon, Doishy
-banner: BS | MMQ
+banner: Brainstorm | MMQ
 title: Brainstorm Piles
 ---
 

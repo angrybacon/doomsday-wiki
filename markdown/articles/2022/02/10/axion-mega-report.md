@@ -379,7 +379,7 @@ just can't help myself and too often get away with. This is my opening 7 (on the
 draw mind).
 
 :::row
-DR | MMQ
+Dark Ritual | MMQ
 DD
 FoW
 Massacre

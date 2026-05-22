@@ -1,12 +1,13 @@
 import { join } from 'node:path';
-import { read } from '@korumite/kiwi/server';
+import { read } from '@korumite/kiwi';
+import { type ScrySingleResponse } from '@korumite/scrydrop';
+import { cache } from 'react';
 
+import { type Decklists } from '@/tools/decklists/types';
 import { BASE_URLS } from '@/tools/markdown/files';
-import { type Partial } from '@/tools/markdown/types';
 import { remarkDecklists } from '@/tools/remark/remarkDecklists';
 import { remarkMana } from '@/tools/remark/remarkMana';
 import { remarkScries } from '@/tools/remark/remarkScries';
-import { zMetadata } from '@/tools/z/schemas';
 
 /**
  * Read the Markdown content found at the provided path crumbs.
@@ -14,17 +15,22 @@ import { zMetadata } from '@/tools/z/schemas';
  * last crumb.
  * The path is relative to the root of the project.
  */
-export const getMarkdown = async (...crumbs: string[]): Promise<Partial> => {
-  const id = crumbs.join('!');
+export const getMarkdown = cache(async (...crumbs: string[]) => {
+  const path = join(...crumbs);
   try {
     const { data, ...markdown } = await read(
-      [BASE_URLS.ROOT, join(...crumbs) + '.md'],
+      { crumbs, root: BASE_URLS.ROOT },
       remarkDecklists,
       remarkMana,
       remarkScries,
     );
-    return { ...markdown, ...zMetadata.parse(data), file: id };
-  } catch (error) {
-    throw new Error(`${error} in "${id}"`);
+    return {
+      ...markdown,
+      decklists: data.decklists as Decklists,
+      scries: data.scries as Record<string, ScrySingleResponse>,
+    };
+  } catch (cause) {
+    const message = cause instanceof Error ? cause.message : String(cause);
+    throw new Error(`${message} in "${path}"`, { cause });
   }
-};
+});

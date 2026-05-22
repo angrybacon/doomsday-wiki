@@ -15,7 +15,7 @@ import {
   useEffect,
   useRef,
   useState,
-  type ElementRef,
+  type ComponentRef,
   type PropsWithChildren,
 } from 'react';
 
@@ -24,7 +24,7 @@ import { findHeadings } from '@/components/Toc/findHeadings';
 import { useLayout } from '@/hooks/useLayout';
 import { type Toc as TocModel } from '@/tools/markdown/types';
 
-const WIDTH: BoxProps['width'] = { xs: 0, sm: 200, lg: 260 };
+const WIDTH: BoxProps['width'] = { xs: 0, sm: 200, lg: 280 };
 
 const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
   <Box
@@ -36,16 +36,16 @@ const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
         pl: 3,
         position: 'sticky',
       },
-      ({ breakpoints }) => ({
+      (theme) => ({
         height: 'calc(100vh - 56px)', // NOTE Copied from the `toolbar` mixin
         top: 56,
-        [breakpoints.up('xs')]: {
+        [theme.breakpoints.up('xs')]: {
           '@media (orientation: landscape)': {
             height: 'calc(100vh - 48px)',
             top: 48,
           },
         },
-        [breakpoints.up('sm')]: {
+        [theme.breakpoints.up('sm')]: {
           height: 'calc(100vh - 64px)',
           top: 64,
         },
@@ -63,10 +63,10 @@ const TocMobile = ({ sx, ...rest }: DrawerProps) => (
     slotProps={{ root: { keepMounted: true } }}
     variant="temporary"
     sx={[
-      ({ mixins, vars }) => ({
+      (theme) => ({
         [`.${drawerClasses.paper}`]: {
-          ...mixins.blur('strong'),
-          bgcolor: `rgba(${vars.palette.background.paperChannel} / .75)`,
+          ...theme.mixins.blur('strong'),
+          bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .75)`,
           maxWidth: '80vw',
           width: 300,
         },
@@ -85,7 +85,7 @@ type Props = {
 export const Toc = ({ items, sx }: Props) => {
   const { hasTable, toggleTable } = useLayout();
   const sm = useMediaQuery(({ breakpoints }) => breakpoints.up('sm'));
-  const root = useRef<ElementRef<'div'>>();
+  const root = useRef<ComponentRef<'div'>>(null);
   /** Cache for headings found in the page */
   const headings = useRef<ReturnType<typeof findHeadings>>([]);
   /** Cache for links contained in the table */

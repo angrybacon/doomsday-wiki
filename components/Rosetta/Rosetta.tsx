@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';
-import { CARDS } from '@/tools/game/constants/Cards';
+import { CARDS } from '@/tools/rosetta/constants';
 
 const Row = ({
   category,
@@ -34,7 +34,7 @@ const Row = ({
       ]}
     >
       <TableCell component="th">{notation}</TableCell>
-      <TableCell sx={[{ whiteSpace: 'nowrap' }]}>{name}</TableCell>
+      <TableCell sx={{ whiteSpace: 'nowrap' }}>{name}</TableCell>
     </TableRow>
   ) : null;
 };

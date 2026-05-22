@@ -6,17 +6,17 @@ import Image from 'next/image';
 import { type Banner as BannerModel } from '@/tools/markdown/types';
 
 type Props = {
-  author?: string;
+  authors?: string;
   banner: BannerModel;
   minutes: number;
   title: string;
   sx: SxProps;
 };
 
-export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
+export const Banner = ({ authors, banner, minutes, title, sx }: Props) => (
   <Box
     aria-level={1}
-    className="dark"
+    data-dark
     role="heading"
     sx={[
       {
@@ -36,8 +36,8 @@ export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
     title={banner.title}
   >
     <Image
-      alt={banner.title}
-      blurDataURL={banner.artPreview}
+      alt={banner.label}
+      blurDataURL={banner.lqip}
       fill
       placeholder="blur"
       priority
@@ -104,7 +104,7 @@ export const Banner = ({ author, banner, minutes, title, sx }: Props) => (
       }}
       variant="caption"
     >
-      {author && <div>By {author}</div>}
+      {authors && <div>By {authors}</div>}
       <Box sx={{ ml: 'auto' }}>
         Reading time: {`${minutes} minute${minutes > 1 ? 's' : ''}`}
       </Box>

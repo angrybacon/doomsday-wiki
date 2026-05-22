@@ -1,27 +1,27 @@
 'use client';
 
+import { type ScrySingleResponse } from '@korumite/scrydrop';
 import { mdiCached } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, IconButton } from '@mui/material';
-import { useState, type ReactNode } from 'react';
+import { useState } from 'react';
 
 import { CardFace } from '@/components/Card/CardFace';
-import { type ScryCard } from '@/tools/scryfall/types';
 
 type Props = {
-  data: ScryCard[];
+  faces: ScrySingleResponse;
 };
 
-export const Card = ({ data }: Props) => {
-  const [selectedFace, setSelectedFace] = useState(0);
+export const Card = ({ faces }: Props) => {
+  const [selected, setSelected] = useState(0);
 
   /** Toggle index between 0 and 1 */
-  const onFlip = () => setSelectedFace((previous) => 1 - previous);
+  const onFlip = () => setSelected((previous) => previous ^ 1);
 
-  const button: ReactNode =
-    data.length > 1 ? (
+  const button =
+    faces.length > 1 ? (
       <IconButton
-        className="light"
+        data-light
         onClick={onFlip}
         sx={(theme) => ({
           ...theme.mixins.blur('weakest'),
@@ -53,10 +53,10 @@ export const Card = ({ data }: Props) => {
         position: 'relative',
       }}
     >
-      {data.map((face, index) => (
+      {faces.map((face, index) => (
         <CardFace
-          active={index === selectedFace}
-          data={face}
+          active={index === selected}
+          face={face}
           key={face.name}
           sx={{ position: 'absolute' }}
         />

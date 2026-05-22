@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: CoV | ONS
+banner: Chain of Vapor | ONS
 kind: REPORT
 tags: [LEGACY, MEANDECK]
 title: "Legacy at Axion's Mega Weekend Birmingham: Speculating that Positive Life EV"
@@ -426,7 +426,7 @@ one out. My opponent snap keeps a 7 and I get a little scared as I have to go
 down to 5. But what a 5 it was! (And yes, of course I was on the play again).
 
 :::row
-DR | MMQ
+Dark Ritual | MMQ
 DD
 FoW
 Con

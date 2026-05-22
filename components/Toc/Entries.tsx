@@ -102,13 +102,13 @@ export const Entries = ({
           pl: 1,
         },
         root &&
-          (({ spacing }) => ({
+          ((theme) => ({
             gap: 1,
             overflowY: 'auto',
             overscrollBehavior: 'contain',
             pl: 0,
             scrollBehavior: 'smooth',
-            scrollPadding: spacing(1),
+            scrollPadding: theme.spacing(1),
           })),
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}

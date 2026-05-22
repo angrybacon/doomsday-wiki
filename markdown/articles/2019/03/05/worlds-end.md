@@ -90,7 +90,7 @@ how you would normally.
 Now the nice thing about this card is the default Frenzy pile is very easy.
 
 :::row{variant=PILE}
-LED | MIR
+LED
 LED
 LED
 ToA
