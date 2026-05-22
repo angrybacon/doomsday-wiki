@@ -36,7 +36,7 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
           decoding="async"
           src={src}
           sx={{
-            aspectRatio: '2 / 1',
+            aspectRatio: '3 / 1',
             display: 'block',
             height: 'auto',
             objectFit: 'contain',
