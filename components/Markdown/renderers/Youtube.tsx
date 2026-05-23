@@ -12,8 +12,9 @@ const IFRAME_PERMISSIONS = [
   'picture-in-picture',
 ].join(';');
 
-type Props = ExtraProps & {
+type Props = {
   id?: string;
+  node: ExtraProps['node'];
   path?: string;
 };
 

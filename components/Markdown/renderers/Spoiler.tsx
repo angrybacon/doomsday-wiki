@@ -1,10 +1,13 @@
 'use client';
 
 import { Box } from '@mui/material';
-import { useState, type PropsWithChildren } from 'react';
+import { useState, type ReactNode } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-type Props = PropsWithChildren & ExtraProps;
+type Props = {
+  children: ReactNode;
+  node: ExtraProps['node'];
+};
 
 export const Spoiler = ({ children, node }: Props) => {
   const [isHidden, setIsHidden] = useState(true);

@@ -11,6 +11,7 @@ import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 
 import { Divider } from '@/components/Divider/Divider';
+import { remarker } from '@/components/Markdown/remarker';
 import {
   Accordion,
   Card,
@@ -105,10 +106,10 @@ export const Markdown = ({ decklists, path, scries, sx, text }: Props) => (
         remarkDirective,
         remarkGfm,
         // NOTE Our own remarkers
-        [remarkBase, path, Object.keys(COMPONENTS_EXTRA)],
-        [remarkCard, path],
-        [remarkDecklist, path, decklists],
-        [remarkRow, path, scries],
+        remarker(remarkBase, path, Object.keys(COMPONENTS_EXTRA)),
+        remarker(remarkCard, path),
+        remarker(remarkDecklist, path, decklists),
+        remarker(remarkRow, path, scries),
       ]}
     >
       {text}

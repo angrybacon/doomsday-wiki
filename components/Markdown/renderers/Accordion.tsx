@@ -10,8 +10,9 @@ import {
 import { type ReactNode } from 'react';
 import { type ExtraProps } from 'react-markdown';
 
-type Props = ExtraProps & {
+type Props = {
   children?: ReactNode;
+  node: ExtraProps['node'];
   path?: string;
 };
 

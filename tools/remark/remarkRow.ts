@@ -48,8 +48,7 @@ export const remarkRow: ReadPlugin<
         return { faces, id: `${index}-${node.position?.start.offset}` };
       });
 
-      // NOTE The `hast` library does not JSON-encode flat arrays
-      hastify(node, { payload: { cards } });
+      hastify(node, { cards });
     }
   });
 
