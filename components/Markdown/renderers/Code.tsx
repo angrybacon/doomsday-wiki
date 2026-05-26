@@ -1,7 +1,8 @@
 'use client';
 
+import type { Components } from 'react-markdown';
+
 import { Box } from '@mui/material';
-import { type Components } from 'react-markdown';
 import { Prism } from 'react-syntax-highlighter';
 import { nord as style } from 'react-syntax-highlighter/dist/esm/styles/prism';
 

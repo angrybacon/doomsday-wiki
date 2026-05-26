@@ -1,3 +1,5 @@
+import type { Card } from '@/tools/decklists/types';
+
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -11,7 +13,6 @@ import {
 
 import { Column } from '@/components/Decklist/Column';
 import { Summary } from '@/components/Decklist/Summary';
-import { type Card } from '@/tools/decklists/types';
 
 type Props = {
   authors: string | null;

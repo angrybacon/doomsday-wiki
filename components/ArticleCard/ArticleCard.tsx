@@ -1,8 +1,9 @@
+import type { Banner as BannerModel } from '@/tools/markdown/types';
+
 import { Card, CardActionArea, CardContent, Typography } from '@mui/material';
 import NextLink from 'next/link';
 
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
-import { type Banner as BannerModel } from '@/tools/markdown/types';
 
 type Props = {
   authors: string;

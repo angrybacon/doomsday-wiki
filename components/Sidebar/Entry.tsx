@@ -1,5 +1,7 @@
 'use client';
 
+import type { MENU } from '@/tools/markdown/menu';
+
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -12,8 +14,6 @@ import {
 import NextLink from 'next/link';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
-
-import { type MENU } from '@/tools/markdown/menu';
 
 type Props = {
   chapter: string;

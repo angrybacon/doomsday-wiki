@@ -1,13 +1,9 @@
 'use client';
 
-import {
-  Box,
-  Drawer as MuiDrawer,
-  drawerClasses,
-  type SxProps,
-  type Theme,
-} from '@mui/material';
-import { type PropsWithChildren } from 'react';
+import type { SxProps, Theme } from '@mui/material';
+import type { PropsWithChildren } from 'react';
+
+import { Box, Drawer as MuiDrawer, drawerClasses } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';
 

@@ -38,6 +38,7 @@ export default defineConfig({
       'error',
       { ignoreArrowShorthand: true },
     ],
+    'typescript/no-import-type-side-effects': 'error',
     'typescript/prefer-readonly-parameter-types': 'off',
     'typescript/strict-boolean-expressions': 'off',
     'unicorn/explicit-length-check': 'off',

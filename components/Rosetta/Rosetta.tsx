@@ -1,5 +1,7 @@
 'use client';
 
+import type { SxProps } from '@mui/material';
+
 import {
   Table,
   TableBody,
@@ -7,7 +9,6 @@ import {
   TableHead,
   TableRow,
   tableCellClasses,
-  type SxProps,
 } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';

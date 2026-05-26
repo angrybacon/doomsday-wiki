@@ -1,6 +1,6 @@
-import { Box, Typography } from '@mui/material';
+import type { Card } from '@/tools/decklists/types';
 
-import { type Card } from '@/tools/decklists/types';
+import { Box, Typography } from '@mui/material';
 
 type Props = {
   cards: Card[];

@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { List, ListItemButton, ListItemText, Typography } from '@mui/material';
-import { type Metadata } from 'next';
 import NextLink from 'next/link';
 
 import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';

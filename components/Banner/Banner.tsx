@@ -1,9 +1,10 @@
 'use client';
 
-import { Box, Typography, type SxProps } from '@mui/material';
-import Image from 'next/image';
+import type { SxProps } from '@mui/material';
+import type { Banner as BannerModel } from '@/tools/markdown/types';
 
-import { type Banner as BannerModel } from '@/tools/markdown/types';
+import { Box, Typography } from '@mui/material';
+import Image from 'next/image';
 
 type Props = {
   authors?: string;

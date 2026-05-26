@@ -1,5 +1,6 @@
+import type { Card } from '@/tools/decklists/types';
+
 import { DECK_RE } from '@/tools/decklists/constants';
-import { type Card } from '@/tools/decklists/types';
 
 const parseCard = (text: string): [quantity: number, name: string] | null => {
   const [, quantity, name] = text.match(DECK_RE.card) ?? [];

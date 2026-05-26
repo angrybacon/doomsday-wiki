@@ -1,6 +1,6 @@
-import { Box } from '@mui/material';
+import type { Pattern } from '@/tools/mana/constants';
 
-import { type Pattern } from '@/tools/mana/constants';
+import { Box } from '@mui/material';
 
 import 'mana-font/css/mana.min.css';
 

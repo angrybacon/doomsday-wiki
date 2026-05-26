@@ -1,12 +1,9 @@
 'use client';
 
+import type { ComponentPropsWithoutRef } from 'react';
+
 import { Button, ButtonGroup, Grid } from '@mui/material';
-import {
-  useEffect,
-  useRef,
-  useState,
-  type ComponentPropsWithoutRef,
-} from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 

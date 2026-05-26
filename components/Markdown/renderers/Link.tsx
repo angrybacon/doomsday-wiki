@@ -1,4 +1,4 @@
-import { type Components } from 'react-markdown';
+import type { Components } from 'react-markdown';
 
 import { Link as LinkComponent } from '@/components/Link/Link';
 

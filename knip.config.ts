@@ -1,4 +1,4 @@
-import { type KnipConfig } from 'knip';
+import type { KnipConfig } from 'knip';
 
 export default {
   ignore: ['markdownlint.config.cjs'],

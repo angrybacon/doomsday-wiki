@@ -1,4 +1,5 @@
-import { type ReadPlugin, type TextDirective } from '@korumite/kiwi';
+import type { ReadPlugin, TextDirective } from '@korumite/kiwi';
+
 import { findAndReplace } from 'mdast-util-find-and-replace';
 
 import { MANA_RE } from '@/tools/mana/constants';

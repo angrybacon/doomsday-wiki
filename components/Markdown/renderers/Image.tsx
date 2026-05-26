@@ -1,5 +1,6 @@
+import type { Components } from 'react-markdown';
+
 import { Box, Typography } from '@mui/material';
-import { type Components } from 'react-markdown';
 
 export const Image: Components['img'] = ({ alt, node, src, title }) => {
   if (!src) {

@@ -1,4 +1,4 @@
-import { type Metadata } from 'next';
+import type { Metadata } from 'next';
 
 import { Banner } from '@/components/Banner/Banner';
 import { Markdown } from '@/components/Markdown/Markdown';

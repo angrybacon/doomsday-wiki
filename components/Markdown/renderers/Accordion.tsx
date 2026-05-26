@@ -1,3 +1,6 @@
+import type { ReactNode } from 'react';
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
@@ -7,8 +10,6 @@ import {
   AccordionSummary as MuiAccordionSummary,
   Typography,
 } from '@mui/material';
-import { type ReactNode } from 'react';
-import { type ExtraProps } from 'react-markdown';
 
 type Props = {
   children?: ReactNode;

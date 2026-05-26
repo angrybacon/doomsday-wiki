@@ -1,3 +1,6 @@
+import type { MENU } from '@/tools/markdown/menu';
+import type { Category } from '@/tools/markdown/schemas';
+
 import { Icon } from '@mdi/react';
 import {
   Box,
@@ -14,8 +17,6 @@ import { siDiscord } from 'simple-icons';
 import { Rosetta } from '@/components/Rosetta/Rosetta';
 import { Entry } from '@/components/Sidebar/Entry';
 import { EntryAsLink } from '@/components/Sidebar/EntryAsLink';
-import { type MENU } from '@/tools/markdown/menu';
-import { type Category } from '@/tools/markdown/schemas';
 
 /**
  * Decorate menu entries with a pretty title and subtitle.

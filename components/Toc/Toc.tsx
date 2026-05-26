@@ -1,27 +1,21 @@
 'use client';
 
+import type { DrawerProps, SxProps } from '@mui/material';
+import type { ComponentRef, PropsWithChildren } from 'react';
+import type { Toc as TocModel } from '@/tools/markdown/types';
+
 import {
   Box,
   Drawer,
   drawerClasses,
   useMediaQuery,
   useScrollTrigger,
-  type DrawerProps,
-  type SxProps,
 } from '@mui/material';
-import {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-  type ComponentRef,
-  type PropsWithChildren,
-} from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { Entries } from '@/components/Toc/Entries';
 import { findHeadings } from '@/components/Toc/findHeadings';
 import { useLayout } from '@/hooks/useLayout';
-import { type Toc as TocModel } from '@/tools/markdown/types';
 
 const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
   <Box

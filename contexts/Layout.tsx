@@ -1,15 +1,12 @@
 'use client';
 
-import { useParams, usePathname } from 'next/navigation';
-import {
-  createContext,
-  useCallback,
-  useEffect,
-  useState,
-  type PropsWithChildren,
-} from 'react';
+import type { PropsWithChildren } from 'react';
+import type { Category } from '@/tools/markdown/schemas';
 
-import { CategorySchema, type Category } from '@/tools/markdown/schemas';
+import { useParams, usePathname } from 'next/navigation';
+import { createContext, useCallback, useEffect, useState } from 'react';
+
+import { CategorySchema } from '@/tools/markdown/schemas';
 
 export const LayoutContext = createContext({
   category: null as Category | null,

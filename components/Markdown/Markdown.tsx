@@ -1,11 +1,10 @@
-import { type ScrySingleResponse } from '@korumite/scrydrop';
-import {
-  Box,
-  accordionClasses,
-  tableClasses,
-  type SxProps,
-} from '@mui/material';
-import ReactMarkdown, { type Components } from 'react-markdown';
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { SxProps } from '@mui/material';
+import type { Components } from 'react-markdown';
+import type { Decklists } from '@/tools/decklists/types';
+
+import { Box, accordionClasses, tableClasses } from '@mui/material';
+import ReactMarkdown from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
@@ -33,7 +32,6 @@ import {
   Youtube,
 } from '@/components/Markdown/renderers';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
-import { type Decklists } from '@/tools/decklists/types';
 import { remarkBase } from '@/tools/remark/remarkBase';
 import { remarkCard } from '@/tools/remark/remarkCard';
 import { remarkDecklist } from '@/tools/remark/remarkDecklist';

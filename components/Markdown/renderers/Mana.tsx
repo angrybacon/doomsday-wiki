@@ -1,5 +1,6 @@
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
-import { type ExtraProps } from 'react-markdown';
 
 import { Mana as ManaComponent } from '@/components/Mana/Mana';
 

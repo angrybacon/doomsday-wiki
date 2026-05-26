@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { Box } from '@mui/material';
-import { type Metadata } from 'next';
 
 import { Banner } from '@/components/Banner/Banner';
 import { Divider } from '@/components/Divider/Divider';

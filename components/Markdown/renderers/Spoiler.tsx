@@ -1,8 +1,10 @@
 'use client';
 
+import type { ReactNode } from 'react';
+import type { ExtraProps } from 'react-markdown';
+
 import { Box } from '@mui/material';
-import { useState, type ReactNode } from 'react';
-import { type ExtraProps } from 'react-markdown';
+import { useState } from 'react';
 
 type Props = {
   children: ReactNode;

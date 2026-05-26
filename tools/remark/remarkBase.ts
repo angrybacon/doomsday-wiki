@@ -1,4 +1,6 @@
-import { hastify, type ReadPlugin } from '@korumite/kiwi';
+import type { ReadPlugin } from '@korumite/kiwi';
+
+import { hastify } from '@korumite/kiwi';
 import { visit } from 'unist-util-visit';
 
 /** Preliminary visit to mark directives by name and skip unsupported names */

@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { makeToc } from '@korumite/kiwi';
-import { type Metadata } from 'next';
 
 import { Markdown } from '@/components/Markdown/Markdown';
 import { Toc } from '@/components/Toc/Toc';

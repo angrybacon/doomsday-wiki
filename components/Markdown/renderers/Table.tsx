@@ -1,5 +1,7 @@
 'use client';
 
+import type { Components } from 'react-markdown';
+
 import {
   Box,
   Table as MuiTable,
@@ -9,7 +11,6 @@ import {
   TableHead as MuiTableHead,
   TableRow as MuiTableRow,
 } from '@mui/material';
-import { type Components } from 'react-markdown';
 
 export const Table: Components['table'] = ({ children }) => (
   <Box sx={{ borderRadius: 4, overflow: 'hidden' }}>

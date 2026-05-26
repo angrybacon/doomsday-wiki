@@ -1,8 +1,9 @@
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { Decklists } from '@/tools/decklists/types';
+
 import { join } from 'node:path';
 import { makeToc, read } from '@korumite/kiwi';
-import { type ScrySingleResponse } from '@korumite/scrydrop';
 
-import { type Decklists } from '@/tools/decklists/types';
 import { ARTICLES } from '@/tools/markdown/files';
 import { getBanner } from '@/tools/markdown/getBanner';
 import { remarkDecklists } from '@/tools/remark/remarkDecklists';

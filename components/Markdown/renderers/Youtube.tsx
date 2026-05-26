@@ -1,6 +1,7 @@
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
 import { Box } from '@mui/material';
-import { type ExtraProps } from 'react-markdown';
 
 /** IFrame permissions for the YouTube widget */
 const IFRAME_PERMISSIONS = [

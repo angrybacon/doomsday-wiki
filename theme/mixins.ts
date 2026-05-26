@@ -1,4 +1,4 @@
-import { type CSSObject } from '@mui/material';
+import type { CSSObject } from '@mui/material';
 
 const BLUR_VALUES = {
   strong: '12px',

@@ -1,10 +1,12 @@
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { SxProps, Theme } from '@mui/material';
+import type { Hastified } from '@/components/Markdown/types';
+
 import { RemarkError } from '@korumite/kiwi';
-import { type ScrySingleResponse } from '@korumite/scrydrop';
-import { Box, type SxProps, type Theme } from '@mui/material';
+import { Box } from '@mui/material';
 import * as z from 'zod';
 
 import { Card } from '@/components/Card/Card';
-import { type Hastified } from '@/components/Markdown/types';
 
 const VariantSchema = z.literal(['CENTERED', 'PILE']);
 

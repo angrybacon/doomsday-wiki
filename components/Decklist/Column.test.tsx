@@ -1,4 +1,4 @@
-import { type ComponentPropsWithoutRef } from 'react';
+import type { ComponentPropsWithoutRef } from 'react';
 
 import { Column } from '@/components/Decklist/Column';
 import { render, screen } from '@/tools/test';

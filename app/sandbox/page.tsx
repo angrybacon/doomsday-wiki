@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { Stack, Typography } from '@mui/material';
-import { type Metadata } from 'next';
 
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 import { PhyrexianRemapper } from './PhyrexianRemapper';

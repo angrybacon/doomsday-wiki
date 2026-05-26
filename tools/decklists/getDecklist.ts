@@ -1,8 +1,9 @@
+import type { Decklist, DecklistExtra } from '@/tools/decklists/types';
+
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { parse } from '@/tools/decklists/parse';
-import { type Decklist, type DecklistExtra } from '@/tools/decklists/types';
 import { formatDate } from '@/tools/io/formatDate';
 
 /** Base file URL for decklists */

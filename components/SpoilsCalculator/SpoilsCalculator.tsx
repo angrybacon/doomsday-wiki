@@ -1,5 +1,7 @@
 'use client';
 
+import type { ChangeEvent } from 'react';
+
 import { mdiDelete, mdiReload } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -17,7 +19,7 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import { useEffect, useState, type ChangeEvent } from 'react';
+import { useEffect, useState } from 'react';
 
 type Input = {
   copies: number;
