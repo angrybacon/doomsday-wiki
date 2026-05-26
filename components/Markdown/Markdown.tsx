@@ -49,10 +49,10 @@ const COMPONENTS = {
   h4: Heading,
   h5: Heading,
   h6: Heading,
-  hr: () => <Divider />,
+  hr: Divider,
   img: Image,
   // NOTE The `code` entries already handle both block and inline code markup
-  pre: ({ children }) => <>{children}</>,
+  pre: ({ children }) => children,
   table: Table,
   tbody: TableBody,
   td: TableCell,
@@ -93,6 +93,7 @@ export const Markdown = ({ decklists, path, scries, sx, text }: Props) => (
         },
         [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
       },
+      // oxlint-disable-next-line no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
@@ -100,7 +101,6 @@ export const Markdown = ({ decklists, path, scries, sx, text }: Props) => (
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}
       skipHtml
       rehypePlugins={[rehypeSlug]}
-      // TODO Since the Next migration we can probably do all that SSR now
       remarkPlugins={[
         // NOTE Vendor remarkers
         remarkDirective,

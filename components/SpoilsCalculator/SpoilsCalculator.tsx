@@ -57,7 +57,7 @@ export const SpoilsCalculator = () => {
    * Implements a simple Durstenfeld shuffle.
    */
   const shuffle = (size: number): number[] => {
-    const deck = [...Array(size).keys()];
+    const deck = [...Array.from({ length: size }).keys()];
     for (let left = deck.length - 1; size > 0 && left > 0; left -= 1) {
       const right = Math.floor(Math.random() * (left + 1));
       [deck[left], deck[right]] = [deck[right] as number, deck[left] as number];

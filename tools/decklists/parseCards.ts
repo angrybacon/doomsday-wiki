@@ -2,7 +2,7 @@ import { DECK_RE } from '@/tools/decklists/constants';
 import { type Card } from '@/tools/decklists/types';
 
 const parseCard = (text: string): [quantity: number, name: string] | null => {
-  const [, quantity, name] = text.match(DECK_RE.card) || [];
+  const [, quantity, name] = text.match(DECK_RE.card) ?? [];
   if (quantity === undefined || name === undefined) return null;
   return [parseInt(quantity, 10), name];
 };

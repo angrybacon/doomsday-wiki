@@ -16,12 +16,11 @@ export const getArticle = async (
   const card = ARTICLES.CARDS.find((card) => card.id === id);
   try {
     if (!card) throw new Error('Missing article card');
-    const { data, matter, ...markdown } = await read(
-      card.path,
-      remarkDecklists,
-      remarkMana,
-      remarkScries,
-    );
+    const {
+      data,
+      matter: _matter,
+      ...markdown
+    } = await read(card.path, remarkDecklists, remarkMana, remarkScries);
     return {
       ...card,
       ...markdown,

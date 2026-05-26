@@ -11,7 +11,7 @@ import { MANA_RE } from '@/tools/mana/constants';
 export const remarkMana: ReadPlugin = () => (tree) =>
   findAndReplace(tree, [
     MANA_RE,
-    (_match, value) =>
+    (_match, value: string) =>
       ({
         attributes: { pattern: value },
         children: [{ type: 'text', value }],

@@ -28,8 +28,7 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const category = CategorySchema.nullable().parse(chapter);
 
   const toggleMenu = useCallback(
-    (value?: boolean) => () =>
-      setHasMenu((previous) => (value === undefined ? !previous : value)),
+    (value?: boolean) => () => setHasMenu((previous) => value ?? !previous),
     [],
   );
 
@@ -46,7 +45,7 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
     //      to complete successfully.
     //      router.events.on('routeChangeStart', onClose);
     toggleMenu(false)();
-  }, [pathname]);
+  }, [pathname, toggleMenu]);
 
   return (
     <LayoutContext.Provider

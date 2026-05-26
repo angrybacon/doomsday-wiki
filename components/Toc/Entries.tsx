@@ -48,12 +48,11 @@ const Entry = ({
               position: 'absolute',
             },
           },
-          current === url &&
-            ((theme) => ({
-              bgcolor: 'primary.light',
-              color: 'primary.contrastText',
-              ...theme.applyStyles('dark', { bgcolor: 'primary.dark' }),
-            })),
+          current === url && {
+            color: 'primary.contrastText',
+            '[data-dark] &': { bgcolor: 'primary.dark' },
+            '[data-light] &': { bgcolor: 'primary.light' },
+          },
         ]}
         underline="none"
       >
@@ -110,6 +109,7 @@ export const Entries = ({
             scrollBehavior: 'smooth',
             scrollPadding: theme.spacing(1),
           })),
+        // oxlint-disable-next-line no-unsafe-assignment
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >
@@ -137,7 +137,11 @@ export const Entries = ({
       ))}
       {withBackToTop && (
         <>
-          <Divider component="li" role="separator" sx={{ my: 1, width: 1 }} />
+          <Divider
+            component="li"
+            role="presentation"
+            sx={{ my: 1, width: 1 }}
+          />
           <Box
             component="li"
             onClick={onScroll}

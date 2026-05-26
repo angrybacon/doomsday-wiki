@@ -15,7 +15,7 @@ export default async () => {
   return (
     <>
       <Markdown {...markdown} sx={{ gridArea: 'content' }} />
-      <Toc items={toc.items || []} sx={{ gridArea: 'toc' }} />
+      <Toc items={toc.items ?? []} sx={{ gridArea: 'toc' }} />
     </>
   );
 };

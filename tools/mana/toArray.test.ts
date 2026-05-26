@@ -1,6 +1,6 @@
 import { toArray } from '@/tools/mana/toArray';
 
-describe(toArray.name, () => {
+describe(toArray, () => {
   const specifications: [title: string, input: string, expected: string[]][] =
     // prettier-ignore
     [
@@ -30,6 +30,7 @@ describe(toArray.name, () => {
     ['Altruism',          'L {R}{G}{W}{U} R',    ['r', 'g', 'w', 'u']],
     ['Growth',            'L {G}{W}{U}{B} R',    ['g', 'w', 'u', 'b']],
     ['All colors',        'L {W}{U}{B}{R}{G} R', ['w', 'u', 'b', 'r', 'g']],
+    ['Invalid',           'L {A} R',             []],
   ];
 
   it.each(specifications)(

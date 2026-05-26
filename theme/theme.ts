@@ -13,8 +13,6 @@ import {
 import { blur, recess } from '@/theme/mixins';
 import { article, primary, primer, report, secondary } from '@/theme/palette';
 
-/* eslint-disable @typescript-eslint/consistent-type-definitions */
-
 declare module '@mui/material/Chip' {
   interface ChipPropsColorOverrides {
     article: true;
@@ -41,8 +39,6 @@ declare module '@mui/material/styles' {
     report?: Palette['primary'];
   }
 }
-
-/* eslint-enable @typescript-eslint/consistent-type-definitions */
 
 const { palette } = createTheme();
 

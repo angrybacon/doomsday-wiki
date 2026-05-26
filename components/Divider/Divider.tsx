@@ -15,6 +15,7 @@ export const Divider = ({ sx, ...rest }: Props) => (
         border: 0,
         height: '1px',
       }),
+      // oxlint-disable-next-line no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
     {...rest}

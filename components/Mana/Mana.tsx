@@ -13,6 +13,7 @@ export const Mana = ({ pattern }: Props) => (
     aria-label={`Mana symbol (${pattern})`}
     className={`ms ms-cost ms-${pattern.toLowerCase()}`}
     component="span"
+    // oxlint-disable-next-line jsx-ally/prefer-tag-over-role
     role="img"
     sx={{ mx: 0.25, verticalAlign: 'text-bottom' }}
   />

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default () => (
-  <Stack gap={3}>
+  <Stack sx={{ gap: 3 }}>
     <Typography component="em">
       This page is not officially part of the Wiki and serves as repository for
       interactive content until a better location for it is found.

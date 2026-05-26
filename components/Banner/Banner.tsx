@@ -15,9 +15,7 @@ type Props = {
 
 export const Banner = ({ authors, banner, minutes, title, sx }: Props) => (
   <Box
-    aria-level={1}
     data-dark
-    role="heading"
     sx={[
       {
         alignItems: 'center',
@@ -31,6 +29,7 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => (
         overflow: 'hidden',
         position: 'relative',
       },
+      // oxlint-disable-next-line no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
     title={banner.title}

@@ -34,7 +34,8 @@ export const Youtube = ({ id, node, path }: Props) => {
           bgcolor: 'background.default',
           height: 0,
           position: 'relative',
-          pb: '56.25%', // NOTE Force intrinsic height to 16/9 ratio
+          // NOTE Force intrinsic height to 16/9 ratio
+          pb: '56.25%',
         }}
       >
         <Box

@@ -10,24 +10,28 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
     <>
       <Box
         component="span"
-        sx={{
-          border: 1,
-          borderColor: 'divider',
-          borderRadius: 4,
-          display: 'block',
-          overflow: 'hidden',
-          position: 'relative',
-          '&:before': {
-            backgroundImage: `url(${src})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            content: '""',
+        sx={[
+          {
+            border: 1,
+            borderColor: 'divider',
+            borderRadius: 4,
             display: 'block',
-            filter: 'blur(24px)',
-            inset: 0,
-            position: 'absolute',
+            overflow: 'hidden',
+            position: 'relative',
           },
-        }}
+          typeof src === 'string' && {
+            '&:before': {
+              backgroundImage: `url(${src})`,
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              content: '""',
+              display: 'block',
+              filter: 'blur(24px)',
+              inset: 0,
+              position: 'absolute',
+            },
+          },
+        ]}
         title={title}
       >
         <Box

@@ -1,6 +1,6 @@
 import { parseHeader } from '@/tools/decklists/parseHeader';
 
-describe(parseHeader.name, () => {
+describe(parseHeader, () => {
   it('should parse the title', () => {
     // Given
     const title = 'Decklist Title';

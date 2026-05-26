@@ -28,6 +28,7 @@ export const CardFace = ({ active, face, sx }: Props) =>
               width: 1,
             },
             active && { pointerEvents: 'initial' },
+            // oxlint-disable-next-line no-unsafe-assignment
             ...(Array.isArray(sx) ? sx : [sx]),
           ]}
         />

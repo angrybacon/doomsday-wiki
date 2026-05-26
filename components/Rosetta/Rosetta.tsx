@@ -54,6 +54,7 @@ export const Rosetta = ({ sx }: Props) => {
           [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
           [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
         },
+        // oxlint-disable-next-line no-unsafe-assignment
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >

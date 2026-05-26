@@ -34,7 +34,7 @@ export default async (context: {
         <Divider />
         <Markdown {...footer} />
       </Box>
-      <Toc items={markdown.toc.items || []} sx={{ gridArea: 'toc' }} />
+      <Toc items={markdown.toc.items ?? []} sx={{ gridArea: 'toc' }} />
     </>
   );
 };

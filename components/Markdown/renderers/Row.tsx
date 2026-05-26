@@ -37,7 +37,7 @@ export const Row = ({ node, path, variant }: Props) => {
   const { data, success } = VariantSchema.optional().safeParse(variant);
   if (!success) throw new RemarkError(`Unknown "${variant}"`, { node, path });
   return (
-    <Box sx={STYLES[data || 'CENTERED']}>
+    <Box sx={STYLES[data ?? 'CENTERED']}>
       {cards.map(({ faces, id }) => (
         // NOTE The extra wrapper is necessary for each card to retain the
         //      harcoded aspect ratio.

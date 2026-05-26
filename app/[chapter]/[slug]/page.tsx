@@ -26,7 +26,7 @@ export default async (context: {
     <>
       <Banner {...markdown} sx={{ gridArea: 'banner' }} />
       <Markdown {...markdown} sx={{ gridArea: 'content' }} />
-      <Toc items={markdown.toc.items || []} sx={{ gridArea: 'toc' }} />
+      <Toc items={markdown.toc.items ?? []} sx={{ gridArea: 'toc' }} />
     </>
   );
 };

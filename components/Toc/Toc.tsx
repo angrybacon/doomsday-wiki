@@ -6,7 +6,6 @@ import {
   drawerClasses,
   useMediaQuery,
   useScrollTrigger,
-  type BoxProps,
   type DrawerProps,
   type SxProps,
 } from '@mui/material';
@@ -24,8 +23,6 @@ import { findHeadings } from '@/components/Toc/findHeadings';
 import { useLayout } from '@/hooks/useLayout';
 import { type Toc as TocModel } from '@/tools/markdown/types';
 
-const WIDTH: BoxProps['width'] = { xs: 0, sm: 200, lg: 280 };
-
 const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
   <Box
     aria-label="Table of contents"
@@ -37,7 +34,8 @@ const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
         position: 'sticky',
       },
       (theme) => ({
-        height: 'calc(100vh - 56px)', // NOTE Copied from the `toolbar` mixin
+        // NOTE Copied from the `toolbar` mixin
+        height: 'calc(100vh - 56px)',
         top: 56,
         [theme.breakpoints.up('xs')]: {
           '@media (orientation: landscape)': {
@@ -50,6 +48,7 @@ const TocDesktop = ({ children, sx }: PropsWithChildren<{ sx?: SxProps }>) => (
           top: 64,
         },
       }),
+      // oxlint-disable-next-line no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
@@ -71,6 +70,7 @@ const TocMobile = ({ sx, ...rest }: DrawerProps) => (
           width: 300,
         },
       }),
+      // oxlint-disable-next-line no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
     {...rest}
@@ -109,7 +109,7 @@ export const Toc = ({ items, sx }: Props) => {
 
   useEffect(() => {
     if (!links.current.length) {
-      links.current = Array.from(root.current?.getElementsByTagName('a') || []);
+      links.current = Array.from(root.current?.getElementsByTagName('a') ?? []);
     }
     if (current) {
       const link = links.current.find(({ href }) => href.includes(current));
@@ -138,7 +138,11 @@ export const Toc = ({ items, sx }: Props) => {
     // NOTE Reset margin from the layout,
     <Box
       ref={root}
-      sx={[{ mt: 0, width: WIDTH }, ...(Array.isArray(sx) ? sx : [sx])]}
+      sx={[
+        { mt: 0, width: { xs: 0, sm: 200, lg: 280 } },
+        // oxlint-disable-next-line no-unsafe-assignment
+        ...(Array.isArray(sx) ? sx : [sx]),
+      ]}
     >
       {sm ? (
         <TocDesktop>

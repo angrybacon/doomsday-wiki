@@ -1,9 +1,9 @@
 import { getClock } from '@/tools/clock/getClock';
 
-global.fetch = vi.fn();
+global.fetch = vi.fn<typeof fetch>();
 
-describe(getClock.name, () => {
-  const text = vi.fn();
+describe(getClock, () => {
+  const text = vi.fn<() => Promise<string>>();
 
   beforeEach(() => {
     vi.mocked(fetch).mockResolvedValue({
