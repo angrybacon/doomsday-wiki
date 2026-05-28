@@ -4,7 +4,7 @@ import type { SxProps } from '@mui/material';
 import type { Banner as BannerModel } from '@/tools/markdown/types';
 
 import { Box, Typography } from '@mui/material';
-import Image from 'next/image';
+import NextImage from 'next/image';
 
 type Props = {
   authors?: string;
@@ -35,7 +35,7 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => (
     ]}
     title={banner.title}
   >
-    <Image
+    <NextImage
       alt={banner.label}
       blurDataURL={banner.lqip}
       fill

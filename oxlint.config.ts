@@ -4,6 +4,8 @@ export default defineConfig({
   categories: {
     correctness: 'error',
     pedantic: 'error',
+    suspicious: 'error',
+    perf: 'error',
   },
   options: {
     reportUnusedDisableDirectives: 'error',
@@ -12,7 +14,18 @@ export default defineConfig({
     //      step just yet.
     typeCheck: true,
   },
+  overrides: [
+    {
+      files: ['**/*.test.{ts,tsx}'],
+      rules: { 'unicorn/consistent-function-scoping': 'off' },
+    },
+    {
+      files: ['next-env.d.ts'],
+      rules: { 'typescript/triple-slash-reference': 'off' },
+    },
+  ],
   plugins: [
+    'import',
     'jsx-a11y',
     'nextjs',
     'oxc',
@@ -32,7 +45,14 @@ export default defineConfig({
         name: '@testing-library/react',
       },
     ],
+    'import/max-dependencies': ['error', { ignoreTypeImports: true, max: 16 }],
+    'import/no-unassigned-import': ['error', { allow: ['**/*.css'] }],
     'react/display-name': 'off',
+    'react/react-in-jsx-scope': 'off',
+    'react-perf/jsx-no-jsx-as-prop': 'off',
+    'react-perf/jsx-no-new-array-as-prop': 'off',
+    'react-perf/jsx-no-new-function-as-prop': 'off',
+    'react-perf/jsx-no-new-object-as-prop': 'off',
     'typescript/ban-types': 'off',
     'typescript/no-confusing-void-expression': [
       'error',

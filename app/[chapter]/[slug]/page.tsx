@@ -11,7 +11,7 @@ export const generateMetadata = async (context: {
 }): Promise<Metadata> => {
   const { chapter, slug } = await context.params;
   const id = [chapter, slug].join('!');
-  const card = CHAPTERS.CARDS.find((card) => card.id === id);
+  const card = CHAPTERS.CARDS.find((it) => it.id === id);
   return card ? { title: card.title } : {};
 };
 

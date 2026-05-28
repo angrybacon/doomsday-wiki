@@ -21,15 +21,15 @@ export const parseCards = (
     .split(DECK_RE.groupDelimiter)
     .map((group) => group.match(DECK_RE.line))
     .filter((group): group is RegExpMatchArray => !!group)
-    .map((group) =>
-      group.reduce<Card[]>((accumulator, row) => {
+    .map((group) => {
+      const results: Card[] = [];
+      for (const row of group) {
         const card = parseCard(row);
-        if (card) {
-          count += card[0];
-          return [...accumulator, card];
-        }
-        return accumulator;
-      }, []),
-    );
+        if (!card) continue;
+        count += card[0];
+        results.push(card);
+      }
+      return results;
+    });
   return { cards, count };
 };

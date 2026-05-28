@@ -50,14 +50,14 @@ export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
       </ListItemButton>
       <Collapse in={isOpen} timeout="auto">
         <List component="div" dense sx={(theme) => theme.mixins.recess('Y')}>
-          {pages.map(({ href, slug, title }) => (
+          {pages.map((it) => (
             <ListItemButton
               component={NextLink}
-              href={href}
-              key={slug}
-              selected={chapter === currentChapter && slug === currentSlug}
+              href={it.href}
+              key={it.slug}
+              selected={chapter === currentChapter && it.slug === currentSlug}
             >
-              <ListItemText primary={title} />
+              <ListItemText primary={it.title} />
             </ListItemButton>
           ))}
         </List>

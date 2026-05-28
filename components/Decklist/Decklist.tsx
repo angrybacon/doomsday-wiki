@@ -62,7 +62,11 @@ export const Decklist = ({
         </Typography>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
           {main.map((cards, index) => (
-            <Column cards={cards} key={index} />
+            <Column
+              cards={cards}
+              // oxlint-disable-next-line react/no-array-index-key
+              key={index}
+            />
           ))}
         </Box>
       </div>

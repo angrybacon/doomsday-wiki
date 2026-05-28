@@ -13,7 +13,8 @@ const BASE_URL = join(process.cwd(), 'decklists');
 export const getDecklist = (...crumbs: string[]): Decklist & DecklistExtra => {
   const path = join(BASE_URL, ...crumbs) + '.txt';
   const decklist = parse(readFileSync(path, 'utf8'));
-  const [title, ...dateCrumbs] = crumbs.reverse();
-  const dateFromPath: null | string = formatDate(...dateCrumbs.reverse());
-  return { ...decklist, dateFromPath, titleFromPath: title as string };
+  const [title, ...dateCrumbs] = crumbs.toReversed();
+  if (!title) throw new Error('Misplaced decklist file somehow');
+  const dateFromPath: null | string = formatDate(...dateCrumbs.toReversed());
+  return { ...decklist, dateFromPath, titleFromPath: title };
 };

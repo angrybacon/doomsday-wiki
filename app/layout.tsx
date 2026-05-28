@@ -74,6 +74,7 @@ export default async ({ children }: PropsWithChildren) => {
               <Header />
               <Container
                 component="main"
+                id="root"
                 maxWidth="xl"
                 sx={{
                   display: 'grid',

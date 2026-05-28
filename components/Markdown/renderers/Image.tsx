@@ -1,12 +1,11 @@
 import type { Components } from 'react-markdown';
 
+import { RemarkError } from '@korumite/kiwi';
 import { Box, Typography } from '@mui/material';
 
 export const Image: Components['img'] = ({ alt, node, src, title }) => {
-  if (!src) {
-    console.error('Missing image source', node);
-    return null;
-  }
+  if (!alt) throw new RemarkError('Missing alternate title', { node });
+  if (!src) throw new RemarkError('Missing source', { node });
   return (
     <>
       <Box

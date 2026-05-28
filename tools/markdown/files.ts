@@ -41,7 +41,7 @@ export const ARTICLES = {
         title: ({ matter }) => z.string().parse(matter.title),
       },
     )
-  ).reverse(),
+  ).toReversed(),
   ROUTES: makeNextRoutes(ARTICLES_TREE, ['year', 'month', 'day', 'slug']),
 } as const;
 

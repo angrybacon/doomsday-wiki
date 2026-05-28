@@ -23,7 +23,7 @@ export const Sidebar = ({ children }: PropsWithChildren) => {
   return (
     <Box sx={{ flexShrink: { md: 0 }, width: { md: WIDTH } }}>
       <MuiDrawer
-        onClose={toggleMenu(false)}
+        onClose={() => toggleMenu(false)}
         open={hasMenu}
         slotProps={{ root: { keepMounted: true } }}
         sx={[

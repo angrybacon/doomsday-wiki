@@ -4,7 +4,13 @@ import type { PropsWithChildren } from 'react';
 import type { Category } from '@/tools/markdown/schemas';
 
 import { useParams, usePathname } from 'next/navigation';
-import { createContext, useCallback, useEffect, useState } from 'react';
+import {
+  createContext,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
 
 import { CategorySchema } from '@/tools/markdown/schemas';
 
@@ -12,8 +18,8 @@ export const LayoutContext = createContext({
   category: null as Category | null,
   hasMenu: false,
   hasTable: null as boolean | null,
-  toggleMenu: (_?: boolean) => () => {},
-  toggleTable: (_?: boolean | null) => () => {},
+  toggleMenu: (_?: boolean) => {},
+  toggleTable: (_?: boolean | null) => {},
 });
 
 export const LayoutProvider = ({ children }: PropsWithChildren) => {
@@ -25,12 +31,12 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const category = CategorySchema.nullable().parse(chapter);
 
   const toggleMenu = useCallback(
-    (value?: boolean) => () => setHasMenu((previous) => value ?? !previous),
+    (value?: boolean) => setHasMenu((previous) => value ?? !previous),
     [],
   );
 
   const toggleTable = useCallback(
-    (value?: boolean | null) => () =>
+    (value?: boolean | null) =>
       setHasTable((previous) => (value === undefined ? !previous : value)),
     [],
   );
@@ -41,20 +47,21 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
     //      started. However the current implementation requires the navigation
     //      to complete successfully.
     //      router.events.on('routeChangeStart', onClose);
-    toggleMenu(false)();
+    toggleMenu(false);
   }, [pathname, toggleMenu]);
 
+  const value = useMemo(
+    () => ({
+      category,
+      hasMenu,
+      hasTable,
+      toggleMenu,
+      toggleTable,
+    }),
+    [category, hasMenu, hasTable, toggleMenu, toggleTable],
+  );
+
   return (
-    <LayoutContext.Provider
-      value={{
-        category,
-        hasMenu,
-        hasTable,
-        toggleMenu,
-        toggleTable,
-      }}
-    >
-      {children}
-    </LayoutContext.Provider>
+    <LayoutContext.Provider value={value}>{children}</LayoutContext.Provider>
   );
 };

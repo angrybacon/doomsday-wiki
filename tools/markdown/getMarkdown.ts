@@ -27,7 +27,9 @@ export const getMarkdown = cache(async (...crumbs: string[]) => {
     );
     return {
       ...markdown,
+      // oxlint-disable-next-line typescript/no-unsafe-type-assertion
       decklists: data.decklists as Decklists,
+      // oxlint-disable-next-line typescript/no-unsafe-type-assertion
       scries: data.scries as Record<string, ScrySingleResponse>,
     };
   } catch (cause) {

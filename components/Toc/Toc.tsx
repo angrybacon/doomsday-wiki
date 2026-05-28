@@ -119,11 +119,11 @@ export const Toc = ({ items, sx }: Props) => {
   useEffect(() => {
     headings.current = findHeadings(items);
     if (headings.current.length) {
-      toggleTable(false)();
+      toggleTable(false);
       animate();
     }
     return () => {
-      toggleTable(null)();
+      toggleTable(null);
       cancelAnimationFrame(throttler.current);
     };
   }, [animate, items, toggleTable]);
@@ -155,13 +155,13 @@ export const Toc = ({ items, sx }: Props) => {
           />
         </TocDesktop>
       ) : (
-        <TocMobile onClose={toggleTable(false)} open={!!hasTable}>
+        <TocMobile onClose={() => toggleTable(false)} open={!!hasTable}>
           <Entries
             current={current}
             entries={items}
             // NOTE Until a reliable hash change event can be used, we pass down
             //      the toggler.
-            onJump={toggleTable(false)}
+            onJump={() => toggleTable(false)}
             root
             sx={{ justifyItems: 'initial', p: 3 }}
           />

@@ -84,76 +84,62 @@ export const Entries = ({
   sx,
   variant = 'subtitle2',
   withBackToTop,
-}: Props) => {
-  const onScroll = () => document.body.scrollIntoView({ block: 'start' });
-  return (
-    <Box
-      component="ol"
-      sx={[
-        {
-          display: 'grid',
+}: Props) => (
+  <Box
+    component="ol"
+    sx={[
+      {
+        display: 'grid',
+        gap: 1,
+        justifyItems: 'inherit',
+        listStyleType: 'none',
+        pl: 1,
+      },
+      root &&
+        ((theme) => ({
           gap: 1,
-          justifyItems: 'inherit',
-          listStyleType: 'none',
-          pl: 1,
-        },
-        root &&
-          ((theme) => ({
-            gap: 1,
-            overflowY: 'auto',
-            overscrollBehavior: 'contain',
-            pl: 0,
-            scrollBehavior: 'smooth',
-            scrollPadding: theme.spacing(1),
-          })),
-        // oxlint-disable-next-line no-unsafe-assignment
-        ...(Array.isArray(sx) ? sx : [sx]),
-      ]}
-    >
-      {root && (
-        <Box
-          component="li"
-          sx={{
-            color: 'text.secondary',
-            pl: [1, 0.5],
-            textTransform: 'uppercase',
-            typography: 'caption',
-          }}
-        >
-          Table of Contents
-        </Box>
-      )}
-      {entries.map((entry) => (
+          overflowY: 'auto',
+          overscrollBehavior: 'contain',
+          pl: 0,
+          scrollBehavior: 'smooth',
+          scrollPadding: theme.spacing(1),
+        })),
+      // oxlint-disable-next-line no-unsafe-assignment
+      ...(Array.isArray(sx) ? sx : [sx]),
+    ]}
+  >
+    {root && (
+      <Box
+        component="li"
+        sx={{
+          color: 'text.secondary',
+          pl: [1, 0.5],
+          textTransform: 'uppercase',
+          typography: 'caption',
+        }}
+      >
+        Table of Contents
+      </Box>
+    )}
+    {entries.map((entry) => (
+      <Entry
+        current={current}
+        key={entry.title}
+        onJump={onJump}
+        variant={variant}
+        {...entry}
+      />
+    ))}
+    {withBackToTop && (
+      <>
+        <Divider component="li" role="presentation" sx={{ my: 1, width: 1 }} />
         <Entry
-          current={current}
-          key={entry.title}
-          onJump={onJump}
-          variant={variant}
-          {...entry}
+          title="Back to top"
+          // NOTE This is hardcoded in the layout
+          url="#root"
+          variant="subtitle2"
         />
-      ))}
-      {withBackToTop && (
-        <>
-          <Divider
-            component="li"
-            role="presentation"
-            sx={{ my: 1, width: 1 }}
-          />
-          <Box
-            component="li"
-            onClick={onScroll}
-            sx={{
-              borderRadius: 1,
-              color: 'primary.main',
-              cursor: 'pointer',
-              px: 0.5,
-              '&:hover': { bgcolor: 'action.hover' },
-            }}
-          >
-            <Typography variant="subtitle2">Back to top</Typography>
-          </Box>
-        </>
-      )}
-    </Box>
-  );
-};
+      </>
+    )}
+  </Box>
+);

@@ -1,6 +1,7 @@
 'use client';
 
 // NOTE Enable `vars` properties inside of the Theme
+// oxlint-disable-next-line import/no-empty-named-blocks unicorn/require-module-specifiers
 import type {} from '@mui/material/themeCssVarsAugmentation';
 
 import {
@@ -68,8 +69,8 @@ export const theme = responsiveFontSizes(
       MuiAccordion: {
         defaultProps: { elevation: 0, square: true },
         styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({
+          root: (options) =>
+            options.theme.unstable_sx({
               border: 1,
               borderColor: 'divider',
               borderRadius: 4,
@@ -92,16 +93,18 @@ export const theme = responsiveFontSizes(
       },
       MuiAccordionDetails: {
         styleOverrides: {
-          root: ({ theme }) => ({
-            ...theme.mixins.recess('Y'),
-            padding: theme.spacing(2),
+          root: (options) => ({
+            ...options.theme.mixins.recess('Y'),
+            padding: options.theme.spacing(2),
           }),
         },
       },
       MuiAccordionSummary: {
         styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({ '&:hover': { bgcolor: 'action.hover' } }),
+          root: (options) =>
+            options.theme.unstable_sx({
+              '&:hover': { bgcolor: 'action.hover' },
+            }),
         },
       },
       MuiCssBaseline: {
