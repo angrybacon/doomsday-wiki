@@ -24,7 +24,7 @@ export const Articles = ({ articles }: Props) => {
 
   useEffect(() => {
     if (size > INITIAL_SIZE) {
-      root?.current?.scrollIntoView({ block: 'end' });
+      root.current?.scrollIntoView({ block: 'end' });
     }
   }, [size]);
 

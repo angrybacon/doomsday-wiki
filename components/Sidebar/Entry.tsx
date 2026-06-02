@@ -23,7 +23,7 @@ type Props = {
 };
 
 export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
-  const { chapter: currentChapter, slug: currentSlug } = useParams() || {};
+  const { chapter: currentChapter, slug: currentSlug } = useParams();
   const [isOpen, setIsOpen] = useState(chapter === currentChapter);
 
   if (!subtitle || !title) return null;

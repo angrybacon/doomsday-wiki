@@ -1,3 +1,5 @@
+'use client';
+
 import type { Banner as BannerModel } from '@/tools/markdown/types';
 
 import { Card, CardActionArea, CardContent, Typography } from '@mui/material';

@@ -1,3 +1,5 @@
+'use client';
+
 import type { ComponentPropsWithoutRef } from 'react';
 
 import { Link as MuiLink } from '@mui/material';
@@ -7,11 +9,18 @@ type Props = ComponentPropsWithoutRef<typeof MuiLink> & {
   href: string;
 };
 
-export const Link = (props: Props) => {
-  const extra = props.href.startsWith('http')
-    ? { rel: 'noopener noreferrer', target: '_blank' }
-    : {};
+export const Link = ({ href, ...rest }: Props) => {
+  const extra =
+    href.startsWith('http') || href.startsWith('/discord')
+      ? { rel: 'noopener noreferrer', target: '_blank' }
+      : {};
   return (
-    <MuiLink color="secondary" component={NextLink} {...extra} {...props} />
+    <MuiLink
+      color="secondary"
+      component={NextLink}
+      href={href}
+      {...extra}
+      {...rest}
+    />
   );
 };

@@ -2,7 +2,7 @@ import type { Pattern } from '@/tools/mana/constants';
 
 import { Box } from '@mui/material';
 
-import 'mana-font/css/mana.min.css';
+import 'mana-font/css/mana.css';
 
 type Props = {
   pattern: Pattern | (string & {});

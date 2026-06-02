@@ -76,12 +76,18 @@ JavaScript dependencies.
 Scryfall recently updated their good citizenship contract requirements in terms
 of rate limit. It is now recommended to stay under 2 requests per second. Both
 the development and production builds throttle requests down to 1 per second for
-safety.
+safety until a better solution is implemented. Preferably one that doesn't
+involve [[https://scryfall.com/docs/api/bulk-data][bulk data]] as the project
+wants to remain Markdown-driven with no backend.
 
 #+BEGIN_SRC sh
 pnpm install  # Install dependencies
 pnpm dev      # Run the application on http://localhost:3000
 #+END_SRC
+
+If you need to restart the application often for testing purposes, consider
+running both the Next.js and the Scryfall cache server separately with =pnpm
+dev:next= and =pnpm dev:scrydrop= so that you can keep the latter alive longer.
 
 See [[./package.json][package.json]] for a complete list of the available
 commands.

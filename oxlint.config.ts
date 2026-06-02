@@ -46,7 +46,7 @@ export default defineConfig({
       },
     ],
     'import/max-dependencies': ['error', { ignoreTypeImports: true, max: 16 }],
-    'import/no-unassigned-import': ['error', { allow: ['**/*.css'] }],
+    'import/no-unassigned-import': ['error', { allow: ['**/*.{css,d.ts}'] }],
     'react/display-name': 'off',
     'react/react-in-jsx-scope': 'off',
     'react-perf/jsx-no-jsx-as-prop': 'off',
@@ -59,9 +59,14 @@ export default defineConfig({
       { ignoreArrowShorthand: true },
     ],
     'typescript/no-import-type-side-effects': 'error',
+    'typescript/no-unnecessary-condition': 'error',
     'typescript/prefer-readonly-parameter-types': 'off',
     'typescript/strict-boolean-expressions': 'off',
     'unicorn/explicit-length-check': 'off',
     'vitest/valid-title': ['error', { ignoreTypeOfDescribeName: true }],
+    // NOTE Target rules to enable as soon as they are ported and available.
+    //      See <https://github.com/oxc-project/oxc/issues/1022>.
+    //
+    //      - react/jsx-no-leaked-render
   },
 });

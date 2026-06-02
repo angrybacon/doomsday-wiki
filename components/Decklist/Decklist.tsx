@@ -70,7 +70,7 @@ export const Decklist = ({
           ))}
         </Box>
       </div>
-      {side && (
+      {side.length > 0 && (
         <div>
           <Typography
             gutterBottom

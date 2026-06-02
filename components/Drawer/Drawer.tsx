@@ -1,3 +1,5 @@
+'use client';
+
 import type { MENU } from '@/tools/markdown/menu';
 import type { Category } from '@/tools/markdown/schemas';
 
@@ -48,25 +50,22 @@ export const Drawer = ({ clock, menu }: Props) => (
         px: { xs: 2 },
       }}
     >
-      <NextLink href="/">
-        <Tooltip title={clock}>
-          <Button
-            disableElevation
-            size="small"
-            sx={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
-            variant="contained"
-          >
-            doomsday.wiki
-          </Button>
-        </Tooltip>
-      </NextLink>
-      <NextLink href="/discord" target="_blank">
-        <Tooltip title="Join our Discord server">
-          <IconButton>
-            <Icon path={siDiscord.path} size={0.6} />
-          </IconButton>
-        </Tooltip>
-      </NextLink>
+      <Tooltip title={clock}>
+        <Button
+          disableElevation
+          href="/"
+          size="small"
+          sx={{ overflow: 'hidden', whiteSpace: 'nowrap' }}
+          variant="contained"
+        >
+          doomsday.wiki
+        </Button>
+      </Tooltip>
+      <Tooltip title="Join our Discord server">
+        <IconButton component={NextLink} href="/discord" target="_blank">
+          <Icon path={siDiscord.path} size={0.6} />
+        </IconButton>
+      </Tooltip>
     </Toolbar>
     <Divider />
     <Box sx={{ overflowY: 'auto', scrollbarWidth: 'thin' }}>
