@@ -1,5 +1,6 @@
+import type { Components } from 'react-markdown';
+
 import { Typography } from '@mui/material';
-import { type Components } from 'react-markdown';
 
 export const Heading: Components[`h${1 | 2 | 3 | 4 | 5 | 6}`] = ({
   children,

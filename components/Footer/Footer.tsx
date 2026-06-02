@@ -1,4 +1,6 @@
-import { Box, type SxProps } from '@mui/material';
+import type { SxProps } from '@mui/material';
+
+import { Box } from '@mui/material';
 
 import { Link } from '@/components/Link/Link';
 
@@ -17,6 +19,7 @@ export const Footer = ({ sx }: Props) => (
         '[data-dark] &': { textShadow: '0 0 4px black' },
         '[data-light] &': { textShadow: '0 0 4px white' },
       },
+      // oxlint-disable-next-line no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >

@@ -1,5 +1,7 @@
-import { type ScrySingleResponse } from '@korumite/scrydrop';
-import { Box, Fade, Tooltip, type SxProps } from '@mui/material';
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { SxProps } from '@mui/material';
+
+import { Box, Fade, Tooltip } from '@mui/material';
 
 type Props = {
   active: boolean;
@@ -28,6 +30,7 @@ export const CardFace = ({ active, face, sx }: Props) =>
               width: 1,
             },
             active && { pointerEvents: 'initial' },
+            // oxlint-disable-next-line no-unsafe-assignment
             ...(Array.isArray(sx) ? sx : [sx]),
           ]}
         />

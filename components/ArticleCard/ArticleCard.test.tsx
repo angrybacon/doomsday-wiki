@@ -1,9 +1,9 @@
-import { type ComponentPropsWithoutRef } from 'react';
+import type { ComponentPropsWithoutRef } from 'react';
 
 import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
 import { render, screen } from '@/tools/test';
 
-describe(ArticleCard.name, () => {
+describe(ArticleCard, () => {
   let props: ComponentPropsWithoutRef<typeof ArticleCard>;
 
   beforeEach(() => {

@@ -22,7 +22,11 @@ export const Summary = ({ authors, colors, date, title }: Props) => (
       {!!colors?.length && (
         <Box sx={{ whiteSpace: 'nowrap' }}>
           {colors.map((color, index) => (
-            <Mana key={index} pattern={color} />
+            <Mana
+              // oxlint-disable-next-line react/no-array-index-key
+              key={index}
+              pattern={color}
+            />
           ))}
         </Box>
       )}

@@ -1,4 +1,4 @@
-/* eslint-disable no-restricted-imports */
+// oxlint-disable eslint/no-restricted-imports
 import { ThemeProvider } from '@mui/material';
 import { render as r } from '@testing-library/react';
 

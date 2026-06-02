@@ -1,33 +1,37 @@
+import type { Components } from 'react-markdown';
+
+import { RemarkError } from '@korumite/kiwi';
 import { Box, Typography } from '@mui/material';
-import { type Components } from 'react-markdown';
 
 export const Image: Components['img'] = ({ alt, node, src, title }) => {
-  if (!src) {
-    console.error('Missing image source', node);
-    return null;
-  }
+  if (!alt) throw new RemarkError('Missing alternate title', { node });
+  if (!src) throw new RemarkError('Missing source', { node });
   return (
     <>
       <Box
         component="span"
-        sx={{
-          border: 1,
-          borderColor: 'divider',
-          borderRadius: 4,
-          display: 'block',
-          overflow: 'hidden',
-          position: 'relative',
-          '&:before': {
-            backgroundImage: `url(${src})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            content: '""',
+        sx={[
+          {
+            border: 1,
+            borderColor: 'divider',
+            borderRadius: 4,
             display: 'block',
-            filter: 'blur(24px)',
-            inset: 0,
-            position: 'absolute',
+            overflow: 'hidden',
+            position: 'relative',
           },
-        }}
+          typeof src === 'string' && {
+            '&:before': {
+              backgroundImage: `url(${src})`,
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              content: '""',
+              display: 'block',
+              filter: 'blur(24px)',
+              inset: 0,
+              position: 'absolute',
+            },
+          },
+        ]}
         title={title}
       >
         <Box

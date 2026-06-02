@@ -1,8 +1,9 @@
+import type { Card } from '@/tools/decklists/types';
+
 import { DECK_RE } from '@/tools/decklists/constants';
-import { type Card } from '@/tools/decklists/types';
 
 const parseCard = (text: string): [quantity: number, name: string] | null => {
-  const [, quantity, name] = text.match(DECK_RE.card) || [];
+  const [, quantity, name] = text.match(DECK_RE.card) ?? [];
   if (quantity === undefined || name === undefined) return null;
   return [parseInt(quantity, 10), name];
 };
@@ -20,15 +21,15 @@ export const parseCards = (
     .split(DECK_RE.groupDelimiter)
     .map((group) => group.match(DECK_RE.line))
     .filter((group): group is RegExpMatchArray => !!group)
-    .map((group) =>
-      group.reduce<Card[]>((accumulator, row) => {
+    .map((group) => {
+      const results: Card[] = [];
+      for (const row of group) {
         const card = parseCard(row);
-        if (card) {
-          count += card[0];
-          return [...accumulator, card];
-        }
-        return accumulator;
-      }, []),
-    );
+        if (!card) continue;
+        count += card[0];
+        results.push(card);
+      }
+      return results;
+    });
   return { cards, count };
 };

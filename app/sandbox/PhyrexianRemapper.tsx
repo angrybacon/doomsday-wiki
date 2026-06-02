@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import { phyrexian } from '@/theme/fonts/fonts';
 
-// NOTE Flavor text from "Dark Ritual" in "Urza's Saga"
+// NOTE Flavor text for "Dark Ritual" from "Urza's Saga"
 const DEFAULT_INPUT = `From void evolved Phyrexia.
 Great Yawgmoth, Father of Machines, saw its perfection.
 Thus the Grand Evolution began.`;
@@ -15,11 +15,11 @@ export const PhyrexianRemapper = () => {
 
   const output = input
     .trim()
-    .split(/[.\n]+/)
+    .split(/[.\n]+/u)
     .reduce<{ id: number; text: string }[]>((accumulator, column, id) => {
       const value = column.trim();
       if (!value.length) return accumulator;
-      return [...accumulator, { id, text: value.replace(/ +/g, ',') }];
+      return [...accumulator, { id, text: value.replaceAll(/ +/gu, ',') }];
     }, []);
 
   return (

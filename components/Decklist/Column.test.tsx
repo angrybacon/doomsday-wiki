@@ -1,9 +1,9 @@
-import { type ComponentPropsWithoutRef } from 'react';
+import type { ComponentPropsWithoutRef } from 'react';
 
 import { Column } from '@/components/Decklist/Column';
 import { render, screen } from '@/tools/test';
 
-describe(Column.name, () => {
+describe(Column, () => {
   let props: ComponentPropsWithoutRef<typeof Column>;
 
   beforeEach(() => {

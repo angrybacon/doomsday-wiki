@@ -1,24 +1,17 @@
 import { getClock } from '@/tools/clock/getClock';
 
-global.fetch = vi.fn();
+global.fetch = vi.fn<typeof fetch>();
 
-describe(getClock.name, () => {
-  const text = vi.fn();
-
-  beforeEach(() => {
-    vi.mocked(fetch).mockResolvedValue({
-      ok: true,
-      text,
-    } as Partial<Response> as Response);
-  });
-
+describe(getClock, () => {
   it('should parse the Doomsday clock', async () => {
     // Given
-    text.mockResolvedValueOnce(
-      `<meta name="description" content="Wrong description">
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(
+        `<meta name="description" content="Wrong description">
 <meta property="og:title" content="Title">
 <meta property="og:description" content="It is 89 seconds to midnight">
 <meta property="og:url" content="protocol://domain.tld/path/">`,
+      ),
     );
     // When
     const result = await getClock();
@@ -28,11 +21,11 @@ describe(getClock.name, () => {
 
   it('should ignore the final dot', async () => {
     // Given
-    text.mockResolvedValueOnce(
-      `<meta name="description" content="Wrong description">
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(`<meta name="description" content="Wrong description">
 <meta property="og:title" content="Title">
 <meta property="og:description" content="It is 89 seconds to midnight.">
-<meta property="og:url" content="protocol://domain.tld/path/">`,
+      <meta property="og:url" content="protocol://domain.tld/path/">`),
     );
     // When
     const result = await getClock();
@@ -42,11 +35,13 @@ describe(getClock.name, () => {
 
   it('should ignore the final forward slash', async () => {
     // Given
-    text.mockResolvedValueOnce(
-      `<meta name="description" content="Wrong description"  />
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(
+        `<meta name="description" content="Wrong description"  />
 <meta property="og:title" content="Title"  />
 <meta property="og:description" content="It is 89 seconds to midnight"  />
 <meta property="og:url" content="protocol://domain.tld/path/"  />`,
+      ),
     );
     // When
     const result = await getClock();
@@ -56,11 +51,13 @@ describe(getClock.name, () => {
 
   it('should ignore the extra spaces', async () => {
     // Given
-    text.mockResolvedValueOnce(
-      `<  meta  name="description"  content="Wrong description"  >
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(
+        `<  meta  name="description"  content="Wrong description"  >
 <  meta  property="og:title"  content="Title"  >
 <  meta  property="og:description"  content="It is 89 seconds to midnight"  >
 <  meta  property="og:url"  content="protocol://domain.tld/path/"  >`,
+      ),
     );
     // When
     const result = await getClock();
@@ -70,9 +67,7 @@ describe(getClock.name, () => {
 
   it('should handle fetch failures', async () => {
     // Given
-    vi.mocked(fetch).mockResolvedValue({
-      text,
-    } as Partial<Response> as Response);
+    vi.mocked(fetch).mockResolvedValueOnce(new Response('', { status: 500 }));
     // When
     const test = () => getClock();
     // Then
@@ -81,7 +76,7 @@ describe(getClock.name, () => {
 
   it('should handle empty documents', async () => {
     // Given
-    text.mockResolvedValueOnce('');
+    vi.mocked(fetch).mockResolvedValueOnce(new Response(''));
     // When
     const test = () => getClock();
     // Then
@@ -90,10 +85,12 @@ describe(getClock.name, () => {
 
   it('should handle missing descriptions', async () => {
     // Given
-    text.mockResolvedValueOnce(
-      `<meta name="description" content="Wrong description">
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(
+        `<meta name="description" content="Wrong description">
 <meta property="og:title" content="Title">
 <meta property="og:url" content="protocol://domain.tld/path/">`,
+      ),
     );
     // When
     const test = () => getClock();

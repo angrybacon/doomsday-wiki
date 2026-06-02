@@ -1,8 +1,9 @@
-import { type ReadPlugin } from '@korumite/kiwi';
+import type { ReadPlugin } from '@korumite/kiwi';
+import type { Decklists } from '@/tools/decklists/types';
+
 import { visit } from 'unist-util-visit';
 
 import { getDecklist } from '@/tools/decklists/getDecklist';
-import { type Decklists } from '@/tools/decklists/types';
 
 /** Preliminary visit to extract the required decklists */
 export const remarkDecklists: ReadPlugin = () => (tree, file) => {

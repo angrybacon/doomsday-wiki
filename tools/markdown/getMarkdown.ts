@@ -1,9 +1,10 @@
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { Decklists } from '@/tools/decklists/types';
+
 import { join } from 'node:path';
 import { read } from '@korumite/kiwi';
-import { type ScrySingleResponse } from '@korumite/scrydrop';
 import { cache } from 'react';
 
-import { type Decklists } from '@/tools/decklists/types';
 import { BASE_URLS } from '@/tools/markdown/files';
 import { remarkDecklists } from '@/tools/remark/remarkDecklists';
 import { remarkMana } from '@/tools/remark/remarkMana';
@@ -26,7 +27,9 @@ export const getMarkdown = cache(async (...crumbs: string[]) => {
     );
     return {
       ...markdown,
+      // oxlint-disable-next-line typescript/no-unsafe-type-assertion
       decklists: data.decklists as Decklists,
+      // oxlint-disable-next-line typescript/no-unsafe-type-assertion
       scries: data.scries as Record<string, ScrySingleResponse>,
     };
   } catch (cause) {

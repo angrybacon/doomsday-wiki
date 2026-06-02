@@ -576,7 +576,9 @@ Who // What // When // Where // Why
 
 ## Spoilers
 
-Inline verbatim content and links are not supported within spoiler blocks.
+### Block
+
+Inline verbatim content and links remain visible within spoiler blocks.
 
 ```md
 :::spoiler
@@ -585,7 +587,7 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+efficitur pharetra quam.
 :::
 ```
 
@@ -595,8 +597,20 @@ tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
 libero elit rutrum orci, et congue `sapien` turpis quis purus.
 
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur pharetra] quam.
+efficitur pharetra quam.
 :::
+
+### Inline
+
+```md
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue `sapien` turpis :spoiler[quis purus].
+```
+
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue `sapien` turpis :spoiler[quis purus].
 
 ## Tables
 

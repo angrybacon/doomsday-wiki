@@ -1,4 +1,6 @@
-import { RemarkError, hastify, type ReadPlugin } from '@korumite/kiwi';
+import type { ReadPlugin } from '@korumite/kiwi';
+
+import { RemarkError, hastify } from '@korumite/kiwi';
 import { toString } from 'mdast-util-to-string';
 import { visit } from 'unist-util-visit';
 

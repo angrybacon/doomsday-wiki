@@ -1,6 +1,7 @@
-import { Chip, type ChipProps } from '@mui/material';
+import type { ChipProps } from '@mui/material';
+import type { Kind } from '@/tools/markdown/schemas';
 
-import { type Kind } from '@/tools/markdown/schemas';
+import { Chip } from '@mui/material';
 
 const KIND_TO_COLOR: Record<string, ChipProps['color']> = {
   ARTICLE: 'article',

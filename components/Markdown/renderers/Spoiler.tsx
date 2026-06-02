@@ -1,42 +1,50 @@
 'use client';
 
-import { Box } from '@mui/material';
-import { useState, type PropsWithChildren } from 'react';
-import { type ExtraProps } from 'react-markdown';
+import type { ReactNode } from 'react';
+import type { ExtraProps } from 'react-markdown';
 
-type Props = PropsWithChildren & ExtraProps;
+import { Box } from '@mui/material';
+import { useState } from 'react';
+
+type Props = {
+  children: ReactNode;
+  node: ExtraProps['node'];
+};
 
 export const Spoiler = ({ children, node }: Props) => {
   const [isHidden, setIsHidden] = useState(true);
 
   if (!node?.position || !children) {
     console.error('Could not parse spoiler node', node);
-    return <>{children}</>;
+    return children;
   }
-
-  const component =
-    node.position.start.line === node.position.end.line ? 'span' : 'div';
 
   return (
     <Box
-      component={component}
+      aria-expanded={!isHidden}
+      component="button"
       onClick={() => setIsHidden(false)}
-      role="button"
       sx={[
         {
           bgcolor: 'action.selected',
+          border: 0,
+          borderRadius: 4,
+          color: 'inherit',
+          fontSize: 'inherit',
+          textAlign: 'inherit',
+          p: 2,
+        },
+        node.position.start.line === node.position.end.line && {
           borderRadius: 1,
-          color: 'unset',
           px: '.2em',
           py: '.1em',
         },
-        isHidden &&
-          ((theme) => ({
-            bgcolor: 'grey.400',
-            color: 'transparent',
-            cursor: 'pointer',
-            ...theme.applyStyles('dark', { bgcolor: 'grey.900' }),
-          })),
+        isHidden && {
+          color: 'transparent',
+          cursor: 'pointer',
+          '[data-dark] &': { bgcolor: 'grey.900' },
+          '[data-light] &': { bgcolor: 'grey.400' },
+        },
       ]}
       title="Click to reveal"
     >

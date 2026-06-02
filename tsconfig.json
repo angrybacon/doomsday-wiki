@@ -11,7 +11,7 @@
       "@/tools/*": ["./tools/*"]
     },
     "plugins": [{ "name": "next" }],
-    "target": "ES2017",
+    "target": "esnext",
     "types": ["@testing-library/jest-dom", "vitest/globals"]
   },
   "exclude": ["node_modules"],

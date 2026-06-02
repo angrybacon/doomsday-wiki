@@ -1,5 +1,10 @@
-module.exports = {
+import type { Config } from 'prettier';
+
+export default {
   importOrder: [
+    '<TYPES>',
+    '<TYPES>^@/',
+    '',
     '<BUILTIN_MODULES>',
     '<THIRD_PARTY_MODULES>',
     '',
@@ -9,4 +14,4 @@ module.exports = {
   importOrderCaseSensitive: true,
   plugins: ['@ianvs/prettier-plugin-sort-imports'],
   singleQuote: true,
-};
+} satisfies Config;

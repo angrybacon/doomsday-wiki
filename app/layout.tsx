@@ -1,3 +1,6 @@
+import type { Metadata, Viewport } from 'next';
+import type { PropsWithChildren } from 'react';
+
 import {
   Box,
   Container,
@@ -5,11 +8,9 @@ import {
   ThemeProvider,
   Toolbar,
 } from '@mui/material';
-import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
-import { type Metadata, type Viewport } from 'next';
 import { Libre_Baskerville, Roboto } from 'next/font/google';
-import { type PropsWithChildren } from 'react';
 
 import { Drawer } from '@/components/Drawer/Drawer';
 import { Footer } from '@/components/Footer/Footer';
@@ -73,6 +74,7 @@ export default async ({ children }: PropsWithChildren) => {
               <Header />
               <Container
                 component="main"
+                id="root"
                 maxWidth="xl"
                 sx={{
                   display: 'grid',

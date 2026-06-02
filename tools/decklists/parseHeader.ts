@@ -7,7 +7,7 @@ import { toArray } from '@/tools/mana/toArray';
  */
 export const parseHeader = (text: string) => {
   const [, title = '', authors = '', colorsAsText = ''] =
-    text.match(DECK_RE.header) || [];
+    text.match(DECK_RE.header) ?? [];
   const colors = toArray(colorsAsText.trim());
   return {
     authors: authors.trim() || null,

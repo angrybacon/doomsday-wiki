@@ -10,10 +10,10 @@ import { parseCards } from '@/tools/decklists/parseCards';
 const dummyCards = (...groups: number[]): string =>
   groups
     .filter((lines) => lines > 0)
-    .map((lines) => new Array(lines).fill(`  4  Doomsday  `).join('\n'))
+    .map((length) => Array.from({ length }).fill(`  4  Doomsday  `).join('\n'))
     .join('\n\n');
 
-describe(parseCards.name, () => {
+describe(parseCards, () => {
   it('should read a simple body of cards', () => {
     // Given
     const buffer: string = dummyCards(2);

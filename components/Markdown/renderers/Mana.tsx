@@ -1,9 +1,11 @@
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
-import { type ExtraProps } from 'react-markdown';
 
 import { Mana as ManaComponent } from '@/components/Mana/Mana';
 
-type Props = ExtraProps & {
+type Props = {
+  node: ExtraProps['node'];
   path?: string;
   pattern?: string;
 };

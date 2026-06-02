@@ -1,5 +1,7 @@
 'use client';
 
+import type { MENU } from '@/tools/markdown/menu';
+
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -13,8 +15,6 @@ import NextLink from 'next/link';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
 
-import { type MENU } from '@/tools/markdown/menu';
-
 type Props = {
   chapter: string;
   pages: (typeof MENU)[number]['pages'];
@@ -23,7 +23,7 @@ type Props = {
 };
 
 export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
-  const { chapter: currentChapter, slug: currentSlug } = useParams() || {};
+  const { chapter: currentChapter, slug: currentSlug } = useParams();
   const [isOpen, setIsOpen] = useState(chapter === currentChapter);
 
   if (!subtitle || !title) return null;
@@ -50,14 +50,14 @@ export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
       </ListItemButton>
       <Collapse in={isOpen} timeout="auto">
         <List component="div" dense sx={(theme) => theme.mixins.recess('Y')}>
-          {pages.map(({ href, slug, title }) => (
+          {pages.map((it) => (
             <ListItemButton
               component={NextLink}
-              href={href}
-              key={slug}
-              selected={chapter === currentChapter && slug === currentSlug}
+              href={it.href}
+              key={it.slug}
+              selected={chapter === currentChapter && it.slug === currentSlug}
             >
-              <ListItemText primary={title} />
+              <ListItemText primary={it.title} />
             </ListItemButton>
           ))}
         </List>

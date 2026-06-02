@@ -20,20 +20,23 @@ export const Header = () => {
       <Toolbar>
         <IconButton
           aria-label="Open menu"
-          onClick={toggleMenu(true)}
+          onClick={() => toggleMenu(true)}
           sx={{ display: { md: 'none' } }}
         >
           <Icon path={mdiMenu} size={0.6} />
         </IconButton>
         {hasTable !== null && (
-          // NOTE We update accessibility data but the icon doesn't matter as no
-          //      one will actually see it.
           <Tooltip title={`${hasTable ? 'Close' : 'Open'} table of contents`}>
             <IconButton
-              onClick={toggleTable()}
+              onClick={() => toggleTable()}
               sx={{ display: { sm: 'none' }, ml: 'auto' }}
             >
-              <Icon path={mdiMenuOpen} size={0.6} />
+              <Icon
+                // NOTE We update accessibility data but the icon doesn't matter
+                //      as no one will actually _see_ it.
+                path={mdiMenuOpen}
+                size={0.6}
+              />
             </IconButton>
           </Tooltip>
         )}

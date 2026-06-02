@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { Grid } from '@mui/material';
-import { type Metadata } from 'next';
 
 import { Markdown } from '@/components/Markdown/Markdown';
 import { getArticleCards } from '@/tools/markdown/getArticleCards';

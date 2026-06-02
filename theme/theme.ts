@@ -1,6 +1,7 @@
 'use client';
 
 // NOTE Enable `vars` properties inside of the Theme
+// oxlint-disable-next-line import/no-empty-named-blocks unicorn/require-module-specifiers
 import type {} from '@mui/material/themeCssVarsAugmentation';
 
 import {
@@ -12,8 +13,6 @@ import {
 
 import { blur, recess } from '@/theme/mixins';
 import { article, primary, primer, report, secondary } from '@/theme/palette';
-
-/* eslint-disable @typescript-eslint/consistent-type-definitions */
 
 declare module '@mui/material/Chip' {
   interface ChipPropsColorOverrides {
@@ -41,8 +40,6 @@ declare module '@mui/material/styles' {
     report?: Palette['primary'];
   }
 }
-
-/* eslint-enable @typescript-eslint/consistent-type-definitions */
 
 const { palette } = createTheme();
 
@@ -72,8 +69,8 @@ export const theme = responsiveFontSizes(
       MuiAccordion: {
         defaultProps: { elevation: 0, square: true },
         styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({
+          root: (options) =>
+            options.theme.unstable_sx({
               border: 1,
               borderColor: 'divider',
               borderRadius: 4,
@@ -96,16 +93,18 @@ export const theme = responsiveFontSizes(
       },
       MuiAccordionDetails: {
         styleOverrides: {
-          root: ({ theme }) => ({
-            ...theme.mixins.recess('Y'),
-            padding: theme.spacing(2),
+          root: (options) => ({
+            ...options.theme.mixins.recess('Y'),
+            padding: options.theme.spacing(2),
           }),
         },
       },
       MuiAccordionSummary: {
         styleOverrides: {
-          root: ({ theme }) =>
-            theme.unstable_sx({ '&:hover': { bgcolor: 'action.hover' } }),
+          root: (options) =>
+            options.theme.unstable_sx({
+              '&:hover': { bgcolor: 'action.hover' },
+            }),
         },
       },
       MuiCssBaseline: {
