@@ -13,6 +13,7 @@ export default defineConfig({
     execArgv: ['--no-experimental-webstorage'],
     globals: true,
     mockReset: true,
+    reporters: ['dot'],
     setupFiles: ['./vitest.setup.ts'],
   },
 });

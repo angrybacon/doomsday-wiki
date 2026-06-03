@@ -204,11 +204,11 @@ and one :card[Edge of Autumn].
 ## Notable Inclusions
 
 :::row{variant=CENTERED}
-Lim-Dul's Vault
+Lim-Dûl's Vault
 Shelldock Isle
 :::
 
-:card[Lim-Dul’s Vault] - While slow, LDV allows you to find Entomb, a
+:card[Lim-Dûl’s Vault] - While slow, LDV allows you to find Entomb, a
 reanimation spell, and Doomsday. Unless :card[Mystical Tutor] gets unbanned (one
 can dream!), it’s our best option for a tutor that finds both combos.
 

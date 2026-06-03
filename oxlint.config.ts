@@ -10,8 +10,6 @@ export default defineConfig({
   options: {
     reportUnusedDisableDirectives: 'error',
     typeAware: true,
-    // NOTE This is still experimental, probably not worth removing the `tsc`
-    //      step just yet.
     typeCheck: true,
   },
   overrides: [
@@ -20,11 +18,12 @@ export default defineConfig({
       rules: { 'unicorn/consistent-function-scoping': 'off' },
     },
     {
-      files: ['next-env.d.ts'],
-      rules: { 'typescript/triple-slash-reference': 'off' },
+      files: ['app/layout.tsx', 'components/Markdown/Markdown.tsx'],
+      rules: { 'import/max-dependencies': 'off' },
     },
   ],
   plugins: [
+    'eslint',
     'import',
     'jsx-a11y',
     'nextjs',
@@ -45,7 +44,6 @@ export default defineConfig({
         name: '@testing-library/react',
       },
     ],
-    'import/max-dependencies': ['error', { ignoreTypeImports: true, max: 16 }],
     'import/no-unassigned-import': ['error', { allow: ['**/*.{css,d.ts}'] }],
     'react/display-name': 'off',
     'react/react-in-jsx-scope': 'off',
@@ -53,6 +51,7 @@ export default defineConfig({
     'react-perf/jsx-no-new-array-as-prop': 'off',
     'react-perf/jsx-no-new-function-as-prop': 'off',
     'react-perf/jsx-no-new-object-as-prop': 'off',
+    // NOTE See https://oxc.rs/docs/guide/usage/linter/rules/typescript/ban-types
     'typescript/ban-types': 'off',
     'typescript/no-confusing-void-expression': [
       'error',

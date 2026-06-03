@@ -202,7 +202,7 @@ Marsh Flats
 Entomb
 BS
 Force of Will
-Lim-Dul's Vault
+Lim-Dûl's Vault
 :::
 
 :::accordion[Click to reveal]
@@ -210,7 +210,7 @@ Lim-Dul's Vault
 
 Despite being a fairly slow hand, you have Entomb, Protection, and
 multiple ways to dig for a reanimation spell. I would lead on the fetch lands
-and cast Lim-Dul's vault in my opponent's End Step.
+and cast Lim-Dûl's vault in my opponent's End Step.
 :::
 
 :::row

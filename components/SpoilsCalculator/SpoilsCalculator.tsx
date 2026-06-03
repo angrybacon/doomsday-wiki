@@ -53,7 +53,7 @@ export const SpoilsCalculator = () => {
     ({ target }: ChangeEvent<HTMLInputElement>) =>
       setInput((previous) => ({
         ...previous,
-        [key]: parseInt(target.value, 10) || 0,
+        [key]: Math.trunc(Number(target.value)) || 0,
       }));
 
   const onCompute = (): void => {

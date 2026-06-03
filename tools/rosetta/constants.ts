@@ -29,7 +29,7 @@ export const CARDS: Record<string, [name: string, categories: Category[]]> =
     GP:   ['Gitaxian Probe',           ['DDFT', 'MEANDECK']],
     IC:   ['Infernal Contract',        ['DDFT']],
     IU:   ['Ideas Unbound',            ['DDFT', 'ENTOMBSDAY', 'MEANDECK']],
-    LDV:  ["Lim-Dul's Vault",          ['DDEFT', 'ENTOMBSDAY', 'MEANDECK']],
+    LDV:  ["Lim-Dûl's Vault",          ['DDEFT', 'ENTOMBSDAY', 'MEANDECK']],
     LED:  ["Lion's Eye Diamond",       []],
     LM:   ['Laboratory Maniac',        []],
     LP:   ['Lotus Petal',              []],

@@ -13,11 +13,11 @@ export const formatDate = (
   if (!year) return null;
   // NOTE Replace missing parts with the first month or day to make a valid date
   const date = new Date(
-    parseInt(year, 10),
-    month ? parseInt(month, 10) - 1 : 0,
-    day ? parseInt(day, 10) : 1,
+    Math.trunc(Number(year)),
+    month ? Math.trunc(Number(month)) - 1 : 0,
+    day ? Math.trunc(Number(day)) : 1,
   );
-  const isCurrentYear = new Date().getFullYear() === parseInt(year, 10);
+  const isCurrentYear = new Date().getFullYear() === Math.trunc(Number(year));
   return date.toLocaleDateString(undefined, {
     year: isCurrentYear ? undefined : 'numeric',
     ...(month && { month: 'short' }),

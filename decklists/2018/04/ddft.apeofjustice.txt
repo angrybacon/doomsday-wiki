@@ -37,7 +37,7 @@
 2 Empty the Warrens
 1 Tendrils of Agony
 1 Shelldock Isle
-1 Emrakul, the Aeon’s Torn
+1 Emrakul, the Aeons Torn
 1 Hurkyl’s Recall
 1 Engineered Explosives
 1 Echoing Truth

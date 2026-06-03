@@ -201,7 +201,7 @@ which was dangerous as :card[Tormod's Crypt] was one of the most commonly played
 sideboard cards at the time. It also had some trouble finding the pieces as the
 only non-:card[Brainstorm] cantrips available were :card[Serum Visions] and
 thing like :card[Portent] however these weren't even really used. The main lists
-focussed on using Mystical Tutor and :card[Lim-Dul's Vault] to assemble the
+focussed on using Mystical Tutor and :card[Lim-Dûl's Vault] to assemble the
 pieces they needed to go off.
 
 When Champion's of Kamigawa came out in late 2004 it brought with it a new tool
@@ -382,7 +382,7 @@ or chain them into the Tendrils.
 
 2007 had given the format a number of key staples still used today.
 :card[Ponder], :card[Thoughtseize] and :card[Street Wraith] all entered the
-scene and immediately were given a home in the early FT builds. Lim-Dul's Vault
+scene and immediately were given a home in the early FT builds. Lim-Dûl's Vault
 could now be cut for a superior cantrip suite and more maindeck disruption in
 discard and chants could be added. The reliance on Ill-Gotten Gains was reduced
 as drawing multiple instances was very bad for the deck. Some of the learning
@@ -593,7 +593,7 @@ Doomsday copies 4-7. Ideas Unbound finally gained a wider acceptance in lists
 with pushing from Lejay and cheeseburger, first as a Wish target and then more
 into the main deck. Street Wraith had already started to be dropped due to
 disynergy with Ad Nauseum and lost its home completely in the deck. Many people
-still stuck to using Lim-Dul's Vault as a pseudo tutor within the deck or trying
+still stuck to using Lim-Dûl's Vault as a pseudo tutor within the deck or trying
 to work with Infernal Tutor. It took quite a surprisingly long time for people
 to finally adopt the leaner way of deck construction. This is of course easy to
 say with hindsight but it may not have been obvious at the time. Once again
@@ -709,8 +709,8 @@ destruction of lands which includes of course, Islands and Mountains.
 
 The first version of the deck retained the Tendrils based storm kill as an
 option and, being pre-Mystical ban, used a full set of Mystical Tutor with
-Lim-Dul's Vaults alongside an Intuition to find all the pieces. It allowed you
-to either Show and Tell into Emrakul, Doomsday into Tendrils or Doomsday into
+Lim-Dûl's Vault alongside an Intuition to find all the pieces. It allowed you to
+either Show and Tell into Emrakul, Doomsday into Tendrils or Doomsday into
 Shelldock Isle all in the main deck. The deck survived the Mystical Tutor ban
 and gained quite some popularity moving away from the Tendrils build to an
 all-in Emrakul build. It played very much like a combo-control deck running
@@ -747,7 +747,7 @@ graveyard hate tool in many decks. DDFT didn't need to run Misstep at the time.
 It ran a lot of 1 mana spells but still had reliance on LED for most of its
 wins. It also provided a natural home for Gitaxian Probe which allowed the
 dropping of any remaining usage of Street Wraith along with obsoleting the need
-for Preordain or Lim-Dul's Vault. The ability to win on turn 1 or 2 was made
+for Preordain or Lim-Dûl's Vault. The ability to win on turn 1 or 2 was made
 much easier thanks to both the +1 storm factor, the free draw spell and the
 early information that could be obtained.
 
@@ -1188,7 +1188,7 @@ forerunners in trying to piece the deck and the community back together.
 see what worked. It was noted that Ideas Unbound was much worse without Top.
 Simply taking an existing list and replacing Top with Preordain didn't work as
 many of the piles relied on the mana efficiency that Top provided. I myself
-became convinced that running a straight {U}{B} list with Lim-Dul's Vault,
+became convinced that running a straight {U}{B} list with Lim-Dûl's Vault,
 maindeck Tendrils and :card[Lake of the Dead] to help power out draw 4s was the
 way to go. The list was fun but it certainly wasn't competetive by any stretch.
 It was Bennotsi and G0ld_rook who started properly trying out :card[Three

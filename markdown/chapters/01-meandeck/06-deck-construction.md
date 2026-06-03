@@ -48,7 +48,7 @@ other than Sorceries.
 :::row{variant=CENTERED}
 DD
 PT
-Lim-Dul's Vault
+Lim-Dûl's Vault
 Solve the Equation
 BW
 :::

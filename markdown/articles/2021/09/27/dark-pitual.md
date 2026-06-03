@@ -629,8 +629,8 @@ Sideboard:
 > Carini (Wonderpreaux), and Ethan Formichella (Monkeyscantcry) were running.
 > Max's :card[Stifle] version was very appealing to me since it appeared to
 > enable an easier pivot between controlling and turbo modes of the deck, and it
-> also appeared to fit better with substituting :card[Lim-Dul's Vault] for
-> :card[Personal Tutor]. The choice to run :card[Lim-Dul's Vault] over
+> also appeared to fit better with substituting :card[Lim-Dûl's Vault] for
+> :card[Personal Tutor]. The choice to run :card[Lim-Dûl's Vault] over
 > :card[Personal Tutor] was personal preference, but I also am simply unwilling
 > to spend hundreds of dollars in paper for a card that in my view only provides
 > a marginal advantage over the alternative. The same decision was also made in
@@ -656,7 +656,7 @@ Sideboard:
 Round 1 of the tournament began with me facing Mark Marra on Jeskai Tempo, with
 me on the play. So, welcome back to Legacy – let's start with a tough matchup
 right out of the gates. I was able to take Game 1 largely due to casting an
-end-step :card[Lim-Dul's Vault] that spurred an exchange where my opponent cast
+end-step :card[Lim-Dûl's Vault] that spurred an exchange where my opponent cast
 :card[Daze] and :card[Force of Will]. I was lucky enough to find Doomsday off
 :card[Brainstorm] the following turn and already had Dark Ritual in hand. That
 let me build a pile that could win through :card[Wasteland] and the active
@@ -673,7 +673,7 @@ TO
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Abrade], 2
 :card[Flusterstorm]  
-**Out:** 4 :card[Force of Will], 2 :card[Lim-Dul's Vault]
+**Out:** 4 :card[Force of Will], 2 :card[Lim-Dûl's Vault]
 
 Game 2 was very close and involved a lot of decision-making with cantrips trying
 to find disruption, mana, and :card[Doomsday]. I ended up making a misplay at
@@ -717,7 +717,7 @@ TO
 Game 2, my opponent and I both mulled to 6, and my opponent came out with a plan
 to just race me with a fast Marit Lage. This is one game where :card[Lim-Dul's
 Vault] found me a win where :card[Personal Tutor] wouldn't. By Patrick's third
-end-step, he had assembled the combo. I cast :card[Lim-Dul's Vault] then,
+end-step, he had assembled the combo. I cast :card[Lim-Dûl's Vault] then,
 holding :card[Brainstorm], cycler, and :card[Lotus Petal], and land in hand.
 After paying 10 life (so looking through practically my entire deck!) I was able
 to find a Vault pile that would win the game for me in :card[Stifle],
@@ -745,7 +745,7 @@ win with a pass-the-turn pile using :card[Ideas Unbound].
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Abrade], 2
 :card[Flusterstorm]  
-**Out:** 4 :card[Force of Will], 2 :card[Lim-Dul's Vault]
+**Out:** 4 :card[Force of Will], 2 :card[Lim-Dûl's Vault]
 
 I remember Game 2 being a slog, with us again trading :card[Stifle]s on
 fetchlands and :card[Wasteland], my having to deal with an initial Ragavan with
@@ -805,7 +805,7 @@ with the expectation that I would also have to counter a :card[Veil of Summer]
 in response.
 
 **In:** 2 :card[Duress], 2 :card[Flusterstorm]  
-**Out:** 2 :card[Pact of Negation], 2 :card[Lim-Dul's Vault]
+**Out:** 2 :card[Pact of Negation], 2 :card[Lim-Dûl's Vault]
 
 In Game 2, Bryant mulled to 6 while I mulled to 5 – :card[Stifle], :card[Force
 of Will], :card[Flusterstorm], :card[Street Wraith], :card[Underground Sea]. Not
@@ -877,7 +877,7 @@ spells.
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Abrade], 2
 :card[Flusterstorm]  
-**Out:** 4 :card[Force of Will], 2 :card[Lim-Dul's Vault]
+**Out:** 4 :card[Force of Will], 2 :card[Lim-Dûl's Vault]
 
 Game 2, I kept a really fast 7 that consisted of :card[Volcanic Island], Fetch,
 Fetch, :card[Dark Ritual], :card[Doomsday], :card[Stifle], :card[Daze]. I
@@ -958,7 +958,7 @@ I ended up not needing the :card[Stifle], since my opponent couldn't find a
 #### Round 7 vs Zach Felix on Elves. Win (2-1)
 
 Game 1 went in my favor rather quickly, despite being on the Draw. I kept a six
-that had :card[Dark Ritual], :card[Daze], :card[Lim-Dul's Vault],
+that had :card[Dark Ritual], :card[Daze], :card[Lim-Dûl's Vault],
 :card[Underground Sea], Fetch, :card[Ponder]. Zach opened with :card[Quirion
 Ranger] turn 1. Back to back Elves felt like a boon after facing 3 Ragavan decks
 earlier in the tournament. I played :card[Underground Sea] and cast
@@ -1016,7 +1016,7 @@ amount, but not enough to keep me from winning the following turn.
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Red Elemental Blast],
 :card[Pyroblast], :card[Flusterstorm]  
-**Out:** 4 :card[Force of Will], 2 :card[Lim-Dul's Vault]
+**Out:** 4 :card[Force of Will], 2 :card[Lim-Dûl's Vault]
 
 Game 2, I mulled to a quick 6, and my opponent also mulled to 6. He opened with
 :card[Thoughtseize] taking :card[Doomsday], then played out 2
@@ -1078,7 +1078,7 @@ through those lines out loud - something one really can't do in paper.
 I would say the weirdest part of playing Doomsday in paper was using copies from
 Weatherlight and having to explain the Oracle text was updated to sequence
 resolution differently starting in 6th edition. I was asked the same thing about
-:card[Lim-Dul's Vault] and struggled to explain the changes, even though at this
+:card[Lim-Dûl's Vault] and struggled to explain the changes, even though at this
 point I knew how it is supposed to resolve from playing it on MTGO. I suggested
 we call a judge to get the Oracle text, but my opponent declined and said he was
 just curious.

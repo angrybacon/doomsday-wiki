@@ -1,4 +1,4 @@
-// Title: UB Doomsday Fetchland Tendrils feat. Lim-Dul's Vault
+// Title: UB Doomsday Fetchland Tendrils feat. Lim-Dûl's Vault
 // Authors: d8dk32
 // Colors: {U}{B}
 3 Tendrils of Agony

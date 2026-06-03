@@ -552,7 +552,7 @@ reason.
 :::row
 Fire
 Wear
-Walk-In-Closet
+Walk-In Closet
 Consign
 Who // What // When // Where // Why
 :::
@@ -561,7 +561,7 @@ Who // What // When // Where // Why
 :::row
 Fire
 Wear
-Walk-In-Closet
+Walk-In Closet
 Consign
 Who // What // When // Where // Why
 :::
