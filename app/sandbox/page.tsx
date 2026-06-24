@@ -1,6 +1,8 @@
-import { Stack, Typography } from '@mui/material';
-import { type Metadata } from 'next';
+import type { Metadata } from 'next';
 
+import { Stack, Typography } from '@mui/material';
+
+import { Link } from '@/components/Link/Link';
 import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
 import { PhyrexianRemapper } from './PhyrexianRemapper';
 
@@ -9,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default () => (
-  <Stack gap={3}>
+  <Stack sx={{ gap: 3 }}>
     <Typography component="em">
       This page is not officially part of the Wiki and serves as repository for
       interactive content until a better location for it is found.
@@ -17,8 +19,12 @@ export default () => (
     <Typography variant="h3">Spoils Calculator</Typography>
     <Typography>
       Estimate the likelihood of success with <em>Spoils of the Vault</em> on
-      the stack looking for a specific card within the current library for the
-      given copies left.
+      the stack looking for a specific card given the number of copies left in
+      the deck. This is but a naive implementation of randomness using
+      JavaScript, adjust your expectations.{' '}
+      <Link href="https://github.com/angrybacon/doomsday-wiki/blob/master/components/SpoilsCalculator/SpoilsCalculator.tsx">
+        SpoilsCalculator.tsx
+      </Link>
     </Typography>
     <SpoilsCalculator />
     <Typography variant="h3">Phyrexian Remapper</Typography>

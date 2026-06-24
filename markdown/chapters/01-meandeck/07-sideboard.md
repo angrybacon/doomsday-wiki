@@ -514,7 +514,7 @@ High Tide
 Stompy strategies are defined by trying to utilise cards like Chalice of the
 Void and Blood Moon coupled with fast mana from cards like Ancient Tomb, City of
 Traitors, Chrome Mox and Simian Spirit Guide to try and lock out the opposing
-deck and deploy fast-ramping threats like Goblin Rabblemaster, Thoughtknot Seer
+deck and deploy fast-ramping threats like Goblin Rabblemaster, Thought-Knot Seer
 or Arcbound Ravager to end the game. They normally run a suite of permanent
 based disruption cards and, if in {R}, Pyroblast effects to disrupt our
 strategy. It is best to bring in permanent removal to deal with their static
@@ -529,7 +529,7 @@ slightly slower but deterministic one. Be mindful that they may have a threat
 heavy hand with little disruption or a disruption heavy hand with no threats.
 Knowing which it is can be difficult but you should try and assess what pieces
 you can ignore and what must be dealt with. The scariest card from a Stompy deck
-is probably Thoughtknot Seer as it represents both disruption and pressure in a
+is probably Thought-Knot Seer as it represents both disruption and pressure in a
 single card. Force of Negation is one of the best tools for beating this
 strategy.
 
@@ -542,7 +542,7 @@ Examples of this archetype include:
 :::row{variant=CENTERED}
 Chalice of the Void
 Blood Moon
-Thoughtknot Seer
+Thought-Knot Seer
 Karn, the Great Creator
 Cloudpost
 :::

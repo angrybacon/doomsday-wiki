@@ -57,7 +57,7 @@ pushed the wider usage of Daze forwards and has tried a number of iterations of
 the deck. Between Jax and skilled player kl0gw (who seems to be a 5-0 machine)
 they developed what is being colloquially called "Turbo Doomsday". Whilst the
 previous baseline ran on average 2-3 Lotus Petals and maybe 1-2 _bad_ tutors
-such as Personal Tutor or Lim-Dul's Vault to increase support on finding
+such as Personal Tutor or Lim-Dûl's Vault to increase support on finding
 Doomsday, it mostly relied on a heavy cantrip shell and had a decent balance on
 being able to combo fast but not get stuck in the late game.
 

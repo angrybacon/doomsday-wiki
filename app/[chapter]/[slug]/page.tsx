@@ -1,4 +1,4 @@
-import { type Metadata } from 'next';
+import type { Metadata } from 'next';
 
 import { Banner } from '@/components/Banner/Banner';
 import { Markdown } from '@/components/Markdown/Markdown';
@@ -11,7 +11,7 @@ export const generateMetadata = async (context: {
 }): Promise<Metadata> => {
   const { chapter, slug } = await context.params;
   const id = [chapter, slug].join('!');
-  const card = CHAPTERS.CARDS.find((card) => card.id === id);
+  const card = CHAPTERS.CARDS.find((it) => it.id === id);
   return card ? { title: card.title } : {};
 };
 
@@ -26,7 +26,7 @@ export default async (context: {
     <>
       <Banner {...markdown} sx={{ gridArea: 'banner' }} />
       <Markdown {...markdown} sx={{ gridArea: 'content' }} />
-      <Toc items={markdown.toc.items || []} sx={{ gridArea: 'toc' }} />
+      <Toc items={markdown.toc.items ?? []} sx={{ gridArea: 'toc' }} />
     </>
   );
 };

@@ -1,4 +1,4 @@
-import { type ScrySingleResponse } from '@korumite/scrydrop';
+import type { ScrySingleResponse } from '@korumite/scrydrop';
 
 import { scry } from '@/tools/scryfall/scry';
 

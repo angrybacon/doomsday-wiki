@@ -1,5 +1,7 @@
 'use client';
 
+import type { SxProps } from '@mui/material';
+
 import {
   Table,
   TableBody,
@@ -7,7 +9,6 @@ import {
   TableHead,
   TableRow,
   tableCellClasses,
-  type SxProps,
 } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';
@@ -54,6 +55,7 @@ export const Rosetta = ({ sx }: Props) => {
           [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
           [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
         },
+        // oxlint-disable-next-line no-unsafe-assignment
         ...(Array.isArray(sx) ? sx : [sx]),
       ]}
     >

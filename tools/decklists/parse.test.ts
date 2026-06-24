@@ -14,10 +14,11 @@ const sample = [
   '// Sideboard',
   '4 Echoing Truth',
   '4 Echoing Truth',
-  '', // NOTE Normal people end files with a newline character
+  // NOTE Normal people end files with a newline character
+  '',
 ].join('\n');
 
-describe(parse.name, () => {
+describe(parse, () => {
   beforeEach(() => {
     vi.mocked(parseCards).mockReturnValue({ cards: [], count: 0 });
     vi.mocked(parseHeader).mockReturnValue({

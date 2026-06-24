@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { Box } from '@mui/material';
-import { type Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: '404',

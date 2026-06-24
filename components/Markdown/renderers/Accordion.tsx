@@ -1,3 +1,6 @@
+import type { ReactNode } from 'react';
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
@@ -7,19 +10,17 @@ import {
   AccordionSummary as MuiAccordionSummary,
   Typography,
 } from '@mui/material';
-import { type ReactNode } from 'react';
-import { type ExtraProps } from 'react-markdown';
+import { Children } from 'react';
 
-type Props = ExtraProps & {
+type Props = {
   children?: ReactNode;
+  node: ExtraProps['node'];
   path?: string;
 };
 
 export const Accordion = ({ children, node, path }: Props) => {
-  const [title, ...content] = Array.isArray(children)
-    ? (children as ReactNode[])
-    : [children];
-  if (!content) throw new RemarkError('Missing content', { node, path });
+  const [title, ...content] = Children.toArray(children);
+  if (!content.length) throw new RemarkError('Missing content', { node, path });
   if (!title) throw new RemarkError('Missing title', { node, path });
   return (
     <MuiAccordion>

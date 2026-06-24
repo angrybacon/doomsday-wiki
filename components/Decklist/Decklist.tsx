@@ -1,3 +1,5 @@
+import type { Card } from '@/tools/decklists/types';
+
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import {
@@ -11,7 +13,6 @@ import {
 
 import { Column } from '@/components/Decklist/Column';
 import { Summary } from '@/components/Decklist/Summary';
-import { type Card } from '@/tools/decklists/types';
 
 type Props = {
   authors: string | null;
@@ -61,11 +62,15 @@ export const Decklist = ({
         </Typography>
         <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 2 }}>
           {main.map((cards, index) => (
-            <Column cards={cards} key={index} />
+            <Column
+              cards={cards}
+              // oxlint-disable-next-line react/no-array-index-key
+              key={index}
+            />
           ))}
         </Box>
       </div>
-      {side && (
+      {side.length > 0 && (
         <div>
           <Typography
             gutterBottom

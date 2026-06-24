@@ -1,13 +1,9 @@
 'use client';
 
-import {
-  Box,
-  Drawer as MuiDrawer,
-  drawerClasses,
-  type SxProps,
-  type Theme,
-} from '@mui/material';
-import { type PropsWithChildren } from 'react';
+import type { SxProps, Theme } from '@mui/material';
+import type { PropsWithChildren } from 'react';
+
+import { Box, Drawer as MuiDrawer, drawerClasses } from '@mui/material';
 
 import { useLayout } from '@/hooks/useLayout';
 
@@ -27,7 +23,7 @@ export const Sidebar = ({ children }: PropsWithChildren) => {
   return (
     <Box sx={{ flexShrink: { md: 0 }, width: { md: WIDTH } }}>
       <MuiDrawer
-        onClose={toggleMenu(false)}
+        onClose={() => toggleMenu(false)}
         open={hasMenu}
         slotProps={{ root: { keepMounted: true } }}
         sx={[

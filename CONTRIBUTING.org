@@ -69,19 +69,41 @@ The guidelines assume that the reader knows the differences between /inline/,
 ** Testing your Changes
 
 This is a Next.js application written with TypeScript and I'll assume basic
-knowledge for a JavaScript stack is known from the reader. All you have to do in
-order to run the project locally is to clone the repository and install the
-JavaScript dependencies.
+knowledge for a JavaScript stack is known from the reader.
+
+*** Scryfall Dependency
 
 Scryfall recently updated their good citizenship contract requirements in terms
 of rate limit. It is now recommended to stay under 2 requests per second. Both
 the development and production builds throttle requests down to 1 per second for
-safety.
+safety until a better solution is implemented. Preferably one that doesn't
+involve [[https://scryfall.com/docs/api/bulk-data][bulk data]] as the project
+wants to remain Markdown-driven with no backend.
+
+As it stands, there is a =scrydrop= dependency which acts as a cache proxy for
+incoming Scryfall requests. It batches up to 75 queries at a time when it can
+but /loose/ card queries by name only are not batchable. This is due to the fact
+that the Wiki prefers oldest printings by default and that is not supported by
+the batch endpoint from Scryfall. That endpoint always returns the newest
+printing of a card.
+
+The development server runs =scrydrop= with =--greedy= in order to batch those
+queries anyway.
+
+To give you an idea, using an Apple M2, the production build takes ~5 minutes
+with the oldest printings by default and ~20 seconds with the greedy option.
+
+*** Running It Locally
 
 #+BEGIN_SRC sh
 pnpm install  # Install dependencies
 pnpm dev      # Run the application on http://localhost:3000
 #+END_SRC
+
+If you need to restart the application often for testing purposes, consider
+running both the Next.js and the Scryfall cache servers separately with =pnpm
+dev:next= and =pnpm dev:scrydrop= respectively so that you can keep the latter
+and its cache alive longer.
 
 See [[./package.json][package.json]] for a complete list of the available
 commands.

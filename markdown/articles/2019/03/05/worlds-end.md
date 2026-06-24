@@ -152,7 +152,7 @@ Pnd
 CB
 :::
 
-Some other cards come in to help with combo and consistency. Lim Dul's Vault is
+Some other cards come in to help with combo and consistency. Lim Dûl's Vault is
 a classic UB card that has been used as a Vampiric Tutor for a while and is
 often dismissed due to the card disadvantage it provides. However consider with
 Frenzy out. Suddenly you get to either tutor what you need to play immediately

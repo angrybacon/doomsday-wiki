@@ -1,6 +1,7 @@
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
 import { Box } from '@mui/material';
-import { type ExtraProps } from 'react-markdown';
 
 /** IFrame permissions for the YouTube widget */
 const IFRAME_PERMISSIONS = [
@@ -12,8 +13,9 @@ const IFRAME_PERMISSIONS = [
   'picture-in-picture',
 ].join(';');
 
-type Props = ExtraProps & {
+type Props = {
   id?: string;
+  node: ExtraProps['node'];
   path?: string;
 };
 
@@ -33,7 +35,8 @@ export const Youtube = ({ id, node, path }: Props) => {
           bgcolor: 'background.default',
           height: 0,
           position: 'relative',
-          pb: '56.25%', // NOTE Force intrinsic height to 16/9 ratio
+          // NOTE Force intrinsic height to 16/9 ratio
+          pb: '56.25%',
         }}
       >
         <Box

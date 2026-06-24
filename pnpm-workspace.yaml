@@ -1,0 +1,6 @@
+allowBuilds:
+  core-js: false
+  protobufjs: false
+  sharp: false
+minimumReleaseAgeExclude:
+  - '@korumite/*'

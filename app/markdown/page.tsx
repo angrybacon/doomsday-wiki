@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { makeToc } from '@korumite/kiwi';
-import { type Metadata } from 'next';
 
 import { Markdown } from '@/components/Markdown/Markdown';
 import { Toc } from '@/components/Toc/Toc';
@@ -15,7 +16,7 @@ export default async () => {
   return (
     <>
       <Markdown {...markdown} sx={{ gridArea: 'content' }} />
-      <Toc items={toc.items || []} sx={{ gridArea: 'toc' }} />
+      <Toc items={toc.items ?? []} sx={{ gridArea: 'toc' }} />
     </>
   );
 };

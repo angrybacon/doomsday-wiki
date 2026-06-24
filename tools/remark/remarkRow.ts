@@ -1,5 +1,7 @@
-import { hastify, type ReadPlugin } from '@korumite/kiwi';
-import { type ScrySingleResponse } from '@korumite/scrydrop';
+import type { ReadPlugin } from '@korumite/kiwi';
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+
+import { hastify } from '@korumite/kiwi';
 import { toString } from 'mdast-util-to-string';
 import { visit } from 'unist-util-visit';
 
@@ -48,8 +50,7 @@ export const remarkRow: ReadPlugin<
         return { faces, id: `${index}-${node.position?.start.offset}` };
       });
 
-      // NOTE The `hast` library does not JSON-encode flat arrays
-      hastify(node, { payload: { cards } });
+      hastify(node, { cards });
     }
   });
 

@@ -35,6 +35,7 @@ const COLORLESS = '[0-9]|1[0-9]|20|C|S|X|Y|Z';
  * Regular expression to match mana symbols.
  * For more details about the syntax, see <https://github.com/andrewgioia/mana>.
  */
+// oxlint-disable-next-line eslint/require-unicode-regexp
 export const MANA_RE = new RegExp(
   `{((?:${MANA}P?)|(?:(?:2|C)?${MANA})|${PAIRS}|${COLORLESS})}`,
   'g',

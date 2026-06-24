@@ -1,6 +1,7 @@
 'use client';
 
-import { type ScrySingleResponse } from '@korumite/scrydrop';
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+
 import { mdiCached } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, IconButton } from '@mui/material';

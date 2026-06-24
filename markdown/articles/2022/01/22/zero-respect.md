@@ -543,7 +543,7 @@ depending on play vs. draw. Should still be favourable.
 
 :::row{variant=CENTERED}
 Sneak Attack
-Emrakul, the Aeon's Torn
+Emrakul, the Aeons Torn
 Daze
 :::
 

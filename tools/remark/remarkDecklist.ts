@@ -1,7 +1,8 @@
-import { RemarkError, hastify, type ReadPlugin } from '@korumite/kiwi';
-import { visit } from 'unist-util-visit';
+import type { ReadPlugin } from '@korumite/kiwi';
+import type { Decklists } from '@/tools/decklists/types';
 
-import { type Decklists } from '@/tools/decklists/types';
+import { RemarkError, hastify } from '@korumite/kiwi';
+import { visit } from 'unist-util-visit';
 
 /** Augment decklist directives with metadata found in `decklists` */
 export const remarkDecklist: ReadPlugin<[path: string, decklists: Decklists]> =

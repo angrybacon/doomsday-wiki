@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { Typography } from '@mui/material';
-import { type Metadata } from 'next';
 
 import { Markdown } from '@/components/Markdown/Markdown';
 import { getMarkdown } from '@/tools/markdown/getMarkdown';

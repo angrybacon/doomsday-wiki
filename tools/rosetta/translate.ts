@@ -6,6 +6,6 @@ import { CARDS } from '@/tools/rosetta/constants';
  * When no entry can be found, fallback to the provided KEY.
  */
 export const translate = (key: string) => {
-  const [name = key, categories = []] = CARDS[key] || [];
+  const [name = key, categories = []] = CARDS[key] ?? [];
   return { name, categories };
 };

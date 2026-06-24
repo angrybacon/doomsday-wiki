@@ -1,5 +1,6 @@
+import type { Metadata } from 'next';
+
 import { Box } from '@mui/material';
-import { type Metadata } from 'next';
 
 import { Banner } from '@/components/Banner/Banner';
 import { Divider } from '@/components/Divider/Divider';
@@ -14,7 +15,7 @@ export const generateMetadata = async (context: {
 }): Promise<Metadata> => {
   const { day, month, slug, year } = await context.params;
   const id = [year, month, day, slug].join('!');
-  const card = ARTICLES.CARDS.find((card) => card.id === id);
+  const card = ARTICLES.CARDS.find((it) => it.id === id);
   return card ? { title: card.title } : {};
 };
 
@@ -34,7 +35,7 @@ export default async (context: {
         <Divider />
         <Markdown {...footer} />
       </Box>
-      <Toc items={markdown.toc.items || []} sx={{ gridArea: 'toc' }} />
+      <Toc items={markdown.toc.items ?? []} sx={{ gridArea: 'toc' }} />
     </>
   );
 };

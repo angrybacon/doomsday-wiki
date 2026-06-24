@@ -6,6 +6,9 @@ env:
 
 on: push
 
+permissions:
+  contents: read
+
 jobs:
   lint:
     name: Lint
@@ -19,8 +22,11 @@ jobs:
         run: pnpm lint
 
   tests:
-    name: Tests
-    runs-on: ubuntu-latest
+    name: Tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, ubuntu-latest]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -44,9 +50,9 @@ jobs:
       - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Set up Vercel
-        run: pnpm add --global vercel@latest
-      - name: Pulling project settings
-        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+        run: |
+          pnpm add --global vercel@latest
+          vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy
@@ -63,9 +69,9 @@ jobs:
       - name: Install dependencies
         uses: ./.github/actions/setup
       - name: Set up Vercel
-        run: pnpm add --global vercel@latest
-      - name: Pulling project settings
-        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+        run: |
+          pnpm add --global vercel@latest
+          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build
         run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy

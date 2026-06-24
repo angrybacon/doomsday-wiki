@@ -1,12 +1,14 @@
+import type { ExtraProps } from 'react-markdown';
+
 import { RemarkError } from '@korumite/kiwi';
-import { type ExtraProps } from 'react-markdown';
 
 import { Link } from '@/components/Link/Link';
 
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
-type Props = ExtraProps & {
+type Props = {
   name?: string;
+  node: ExtraProps['node'];
   path?: string;
 };
 
