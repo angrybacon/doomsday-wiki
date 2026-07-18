@@ -1,4 +1,4 @@
-import type { Toc } from '@/tools/markdown/types';
+import type { Toc } from '~/tools/markdown/types';
 
 export const findHeadings = (root: Toc[]) => {
   const results: { node: HTMLElement | null; url: string }[] = [];

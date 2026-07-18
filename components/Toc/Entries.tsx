@@ -1,12 +1,12 @@
 'use client';
 
 import type { SxProps, TypographyProps } from '@mui/material';
-import type { Toc as TocModel } from '@/tools/markdown/types';
+import type { Toc as TocModel } from '~/tools/markdown/types';
 
 import { Box, Typography } from '@mui/material';
 
-import { Divider } from '@/components/Divider/Divider';
-import { Link } from '@/components/Link/Link';
+import { Divider } from '~/components/Divider/Divider';
+import { Link } from '~/components/Link/Link';
 
 const Entry = ({
   current,

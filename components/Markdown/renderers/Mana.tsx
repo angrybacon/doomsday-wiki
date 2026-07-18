@@ -2,7 +2,7 @@ import type { ExtraProps } from 'react-markdown';
 
 import { RemarkError } from '@korumite/kiwi';
 
-import { Mana as ManaComponent } from '@/components/Mana/Mana';
+import { Mana as ManaComponent } from '~/components/Mana/Mana';
 
 type Props = {
   node: ExtraProps['node'];

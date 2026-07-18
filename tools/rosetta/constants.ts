@@ -1,4 +1,4 @@
-import type { Category } from '@/tools/markdown/schemas';
+import type { Category } from '~/tools/markdown/schemas';
 
 /** Commonly used acronyms and their corresponding categories */
 export const CARDS: Record<string, [name: string, categories: Category[]]> =

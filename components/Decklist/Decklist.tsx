@@ -1,4 +1,4 @@
-import type { Card } from '@/tools/decklists/types';
+import type { Card } from '~/tools/decklists/types';
 
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';
@@ -11,8 +11,8 @@ import {
   accordionSummaryClasses,
 } from '@mui/material';
 
-import { Column } from '@/components/Decklist/Column';
-import { Summary } from '@/components/Decklist/Summary';
+import { Column } from '~/components/Decklist/Column';
+import { Summary } from '~/components/Decklist/Summary';
 
 type Props = {
   authors: string | null;

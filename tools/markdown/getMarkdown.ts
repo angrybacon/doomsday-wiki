@@ -1,14 +1,14 @@
 import type { ScrySingleResponse } from '@korumite/scrydrop';
-import type { Decklists } from '@/tools/decklists/types';
+import type { Decklists } from '~/tools/decklists/types';
 
 import { join } from 'node:path';
 import { read } from '@korumite/kiwi';
 import { cache } from 'react';
 
-import { BASE_URLS } from '@/tools/markdown/files';
-import { remarkDecklists } from '@/tools/remark/remarkDecklists';
-import { remarkMana } from '@/tools/remark/remarkMana';
-import { remarkScries } from '@/tools/remark/remarkScries';
+import { BASE_URLS } from '~/tools/markdown/files';
+import { remarkDecklists } from '~/tools/remark/remarkDecklists';
+import { remarkMana } from '~/tools/remark/remarkMana';
+import { remarkScries } from '~/tools/remark/remarkScries';
 
 /**
  * Read the Markdown content found at the provided path crumbs.

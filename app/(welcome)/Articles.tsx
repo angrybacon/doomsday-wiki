@@ -5,7 +5,7 @@ import type { ComponentPropsWithoutRef } from 'react';
 import { Button, ButtonGroup, Grid } from '@mui/material';
 import { useEffect, useRef, useState } from 'react';
 
-import { ArticleCard } from '@/components/ArticleCard/ArticleCard';
+import { ArticleCard } from '~/components/ArticleCard/ArticleCard';
 
 const INITIAL_SIZE = 4;
 

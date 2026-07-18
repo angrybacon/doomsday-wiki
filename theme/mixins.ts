@@ -6,10 +6,22 @@ const BLUR_VALUES = {
   weakest: '2px',
 } as const satisfies Record<string, `${number}px`>;
 
-export const blur = (level: keyof typeof BLUR_VALUES): CSSObject => ({
-  backdropFilter: `blur(${BLUR_VALUES[level]})`,
-  backgroundImage: 'none',
-});
+export const blur = (
+  level: keyof typeof BLUR_VALUES,
+  /**
+   * The blur strategy.
+   *
+   * Use `'self'` to apply the filter on the element itself, or `'backdrop'` to
+   * use a backdrop filter which will blur what's _behind_ the element.
+   */
+  mode: 'backdrop' | 'self' = 'backdrop',
+): CSSObject =>
+  mode === 'self'
+    ? { filter: `blur(${BLUR_VALUES[level]})` }
+    : {
+        backdropFilter: `blur(${BLUR_VALUES[level]})`,
+        backgroundImage: 'none',
+      };
 
 const RECESS_VALUES = {
   DARK: {

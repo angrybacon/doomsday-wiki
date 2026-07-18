@@ -1,5 +1,5 @@
 import type { ReadPlugin } from '@korumite/kiwi';
-import type { Decklists } from '@/tools/decklists/types';
+import type { Decklists } from '~/tools/decklists/types';
 
 import { RemarkError, hastify } from '@korumite/kiwi';
 import { visit } from 'unist-util-visit';

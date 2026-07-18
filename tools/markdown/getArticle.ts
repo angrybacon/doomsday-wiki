@@ -1,14 +1,14 @@
 import type { ScrySingleResponse } from '@korumite/scrydrop';
-import type { Decklists } from '@/tools/decklists/types';
+import type { Decklists } from '~/tools/decklists/types';
 
 import { join } from 'node:path';
 import { makeToc, read } from '@korumite/kiwi';
 
-import { ARTICLES } from '@/tools/markdown/files';
-import { getBanner } from '@/tools/markdown/getBanner';
-import { remarkDecklists } from '@/tools/remark/remarkDecklists';
-import { remarkMana } from '@/tools/remark/remarkMana';
-import { remarkScries } from '@/tools/remark/remarkScries';
+import { ARTICLES } from '~/tools/markdown/files';
+import { getBanner } from '~/tools/markdown/getBanner';
+import { remarkDecklists } from '~/tools/remark/remarkDecklists';
+import { remarkMana } from '~/tools/remark/remarkMana';
+import { remarkScries } from '~/tools/remark/remarkScries';
 
 export const getArticle = async (
   ...crumbs: [year: string, month: string, day: string, article: string]

@@ -1,10 +1,10 @@
-import type { Decklist, DecklistExtra } from '@/tools/decklists/types';
+import type { Decklist, DecklistExtra } from '~/tools/decklists/types';
 
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { parse } from '@/tools/decklists/parse';
-import { formatDate } from '@/tools/io/formatDate';
+import { parse } from '~/tools/decklists/parse';
+import { formatDate } from '~/tools/io/formatDate';
 
 /** Base file URL for decklists */
 const BASE_URL = join(process.cwd(), 'decklists');

@@ -5,7 +5,7 @@ import { mdiAccountEdit, mdiCalendar } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box, Chip, Typography } from '@mui/material';
 
-import { Mana } from '@/components/Mana/Mana';
+import { Mana } from '~/components/Mana/Mana';
 
 type Props = {
   authors: string | null;

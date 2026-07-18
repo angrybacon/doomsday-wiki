@@ -3,7 +3,7 @@
 import { Box, TextField, Typography } from '@mui/material';
 import { useState } from 'react';
 
-import { phyrexian } from '@/theme/fonts/fonts';
+import { phyrexian } from '~/theme/fonts/fonts';
 
 // NOTE Flavor text for "Dark Ritual" from "Urza's Saga"
 const DEFAULT_INPUT = `From void evolved Phyrexia.

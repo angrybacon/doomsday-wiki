@@ -1,10 +1,11 @@
-import type { Pattern } from '@/tools/mana/constants';
+import type { Pattern } from '~/tools/mana/constants';
 
 import { Box } from '@mui/material';
 
 import 'mana-font/css/mana.css';
 
 type Props = {
+  // oxlint-disable-next-line typescript/ban-types
   pattern: Pattern | (string & {});
 };
 

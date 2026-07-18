@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 
 import { Stack, Typography } from '@mui/material';
 
-import { Link } from '@/components/Link/Link';
-import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
+import { Link } from '~/components/Link/Link';
+import { SpoilsCalculator } from '~/components/SpoilsCalculator/SpoilsCalculator';
 import { PhyrexianRemapper } from './PhyrexianRemapper';
 
 export const metadata: Metadata = {

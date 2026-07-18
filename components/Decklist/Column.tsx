@@ -1,4 +1,4 @@
-import type { Card } from '@/tools/decklists/types';
+import type { Card } from '~/tools/decklists/types';
 
 import { Box, Typography } from '@mui/material';
 

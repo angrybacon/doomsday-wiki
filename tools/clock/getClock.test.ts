@@ -1,4 +1,4 @@
-import { getClock } from '@/tools/clock/getClock';
+import { getClock } from '~/tools/clock/getClock';
 
 global.fetch = vi.fn<typeof fetch>();
 

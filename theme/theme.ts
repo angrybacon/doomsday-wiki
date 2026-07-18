@@ -11,8 +11,8 @@ import {
   responsiveFontSizes,
 } from '@mui/material';
 
-import { blur, recess } from '@/theme/mixins';
-import { article, primary, primer, report, secondary } from '@/theme/palette';
+import { blur, recess } from '~/theme/mixins';
+import { article, primary, primer, report, secondary } from '~/theme/palette';
 
 declare module '@mui/material/Chip' {
   interface ChipPropsColorOverrides {
@@ -134,6 +134,7 @@ export const theme = responsiveFontSizes(
     },
     cssVariables: { colorSchemeSelector: 'data' },
     mixins: { blur, recess },
+    motion: { reducedMotion: 'system' },
     typography: {
       fontFamily: 'var(--font-roboto)',
       h1: { fontSize: '3.2rem' },

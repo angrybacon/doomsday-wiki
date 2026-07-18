@@ -1,4 +1,4 @@
-import { parseCards } from '@/tools/decklists/parseCards';
+import { parseCards } from '~/tools/decklists/parseCards';
 
 /**
  * Create a dummy string representing a body of cards as expected from decklist

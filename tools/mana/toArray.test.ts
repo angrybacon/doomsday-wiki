@@ -1,4 +1,4 @@
-import { toArray } from '@/tools/mana/toArray';
+import { toArray } from '~/tools/mana/toArray';
 
 describe(toArray, () => {
   const specifications: [title: string, input: string, expected: string[]][] =

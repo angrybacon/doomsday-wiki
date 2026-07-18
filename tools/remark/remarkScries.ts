@@ -4,7 +4,7 @@ import type { ScrySingleResponse } from '@korumite/scrydrop';
 import { toString } from 'mdast-util-to-string';
 import { visit } from 'unist-util-visit';
 
-import { scry } from '@/tools/scryfall/scry';
+import { scry } from '~/tools/scryfall/scry';
 
 /**
  * Find card names and augment the tree with the corresponding Scryfall data.

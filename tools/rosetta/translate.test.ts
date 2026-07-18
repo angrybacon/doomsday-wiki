@@ -1,4 +1,4 @@
-import { translate } from '@/tools/rosetta/translate';
+import { translate } from '~/tools/rosetta/translate';
 
 describe(translate, () => {
   it('should return the name of a known acronym', () => {

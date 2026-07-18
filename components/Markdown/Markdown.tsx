@@ -1,7 +1,8 @@
+// oxlint-disable import/max-dependencies
 import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { SxProps } from '@mui/material';
 import type { Components } from 'react-markdown';
-import type { Decklists } from '@/tools/decklists/types';
+import type { Decklists } from '~/tools/decklists/types';
 
 import { Box, accordionClasses, tableClasses } from '@mui/material';
 import ReactMarkdown from 'react-markdown';
@@ -9,8 +10,8 @@ import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 
-import { Divider } from '@/components/Divider/Divider';
-import { remarker } from '@/components/Markdown/remarker';
+import { Divider } from '~/components/Divider/Divider';
+import { remarker } from '~/components/Markdown/remarker';
 import {
   Accordion,
   Card,
@@ -30,12 +31,12 @@ import {
   TableHead,
   TableRow,
   Youtube,
-} from '@/components/Markdown/renderers';
-import { SpoilsCalculator } from '@/components/SpoilsCalculator/SpoilsCalculator';
-import { remarkBase } from '@/tools/remark/remarkBase';
-import { remarkCard } from '@/tools/remark/remarkCard';
-import { remarkDecklist } from '@/tools/remark/remarkDecklist';
-import { remarkRow } from '@/tools/remark/remarkRow';
+} from '~/components/Markdown/renderers';
+import { SpoilsCalculator } from '~/components/SpoilsCalculator/SpoilsCalculator';
+import { remarkBase } from '~/tools/remark/remarkBase';
+import { remarkCard } from '~/tools/remark/remarkCard';
+import { remarkDecklist } from '~/tools/remark/remarkDecklist';
+import { remarkRow } from '~/tools/remark/remarkRow';
 
 const COMPONENTS = {
   a: Link,

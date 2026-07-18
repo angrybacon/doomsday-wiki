@@ -1,11 +1,11 @@
 'use client';
 
-import type { getArticleCards } from '@/tools/markdown/getArticleCards';
+import type { getArticleCards } from '~/tools/markdown/getArticleCards';
 
 import { List, ListItemButton, ListItemText, Typography } from '@mui/material';
 import NextLink from 'next/link';
 
-import { ArticleMeta } from '@/components/ArticleMeta/ArticleMeta';
+import { ArticleMeta } from '~/components/ArticleMeta/ArticleMeta';
 
 type Props = {
   articles: Awaited<ReturnType<typeof getArticleCards>>;

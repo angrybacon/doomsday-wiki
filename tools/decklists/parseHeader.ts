@@ -1,5 +1,5 @@
-import { DECK_RE } from '@/tools/decklists/constants';
-import { toArray } from '@/tools/mana/toArray';
+import { DECK_RE } from '~/tools/decklists/constants';
+import { toArray } from '~/tools/mana/toArray';
 
 /**
  * Parse the header of a decklist buffer.

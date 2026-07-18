@@ -1,6 +1,6 @@
 'use client';
 
-import type { MENU } from '@/tools/markdown/menu';
+import type { MENU } from '~/tools/markdown/menu';
 
 import { mdiChevronDown } from '@mdi/js';
 import { Icon } from '@mdi/react';

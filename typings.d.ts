@@ -3,6 +3,7 @@ interface ObjectConstructor {
 }
 
 /** Spell out all properties for a given type parameter */
+// oxlint-disable-next-line typescript/ban-types
 type Prettify<T> = { [K in keyof T]: T[K] } & {};
 
 // NOTE Next removed declarations for CSS so we add them back.

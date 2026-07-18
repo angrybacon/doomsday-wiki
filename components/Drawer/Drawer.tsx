@@ -1,7 +1,7 @@
 'use client';
 
-import type { MENU } from '@/tools/markdown/menu';
-import type { Category } from '@/tools/markdown/schemas';
+import type { MENU } from '~/tools/markdown/menu';
+import type { Category } from '~/tools/markdown/schemas';
 
 import { Icon } from '@mdi/react';
 import {
@@ -16,9 +16,9 @@ import {
 import NextLink from 'next/link';
 import { siDiscord } from 'simple-icons';
 
-import { Rosetta } from '@/components/Rosetta/Rosetta';
-import { Entry } from '@/components/Sidebar/Entry';
-import { EntryAsLink } from '@/components/Sidebar/EntryAsLink';
+import { Rosetta } from '~/components/Rosetta/Rosetta';
+import { Entry } from '~/components/Sidebar/Entry';
+import { EntryAsLink } from '~/components/Sidebar/EntryAsLink';
 
 /**
  * Decorate menu entries with a pretty title and subtitle.

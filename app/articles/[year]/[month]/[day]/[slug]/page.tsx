@@ -2,13 +2,13 @@ import type { Metadata } from 'next';
 
 import { Box } from '@mui/material';
 
-import { Banner } from '@/components/Banner/Banner';
-import { Divider } from '@/components/Divider/Divider';
-import { Markdown } from '@/components/Markdown/Markdown';
-import { Toc } from '@/components/Toc/Toc';
-import { ARTICLES } from '@/tools/markdown/files';
-import { getArticle } from '@/tools/markdown/getArticle';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { Banner } from '~/components/Banner/Banner';
+import { Divider } from '~/components/Divider/Divider';
+import { Markdown } from '~/components/Markdown/Markdown';
+import { Toc } from '~/components/Toc/Toc';
+import { ARTICLES } from '~/tools/markdown/files';
+import { getArticle } from '~/tools/markdown/getArticle';
+import { getMarkdown } from '~/tools/markdown/getMarkdown';
 
 export const generateMetadata = async (context: {
   params: Promise<ReturnType<typeof generateStaticParams>[number]>;
