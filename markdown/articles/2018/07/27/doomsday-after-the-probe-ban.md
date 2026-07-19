@@ -30,7 +30,7 @@ functional looked like this:
 
 It's essentially an ANT deck with a pair of Doomsdays jammed in and a couple
 cards to support them, namely Infernal Contract (which turned out to be great on
-its own) and a singleton Conjurer's Bauble (to enable IT into DD lines). The
+its own) and a singleton Conjurer's Bauble (to enable IT into Dd lines). The
 idea here is that I can win games off the power of Past in Flames as my Plan A,
 and Doomsday can function more like a Plan B, providing relatively low-resource
 deterministic kills that can ignore grave hate instead of relying on shitty Ad
@@ -82,8 +82,8 @@ Now, to the data!
 
 ## Overall Match Winrate
 
-**PiF DD**: 53.33% (16/30)  
-**BW DD**: 53.33% (16/30)
+**PiF Dd**: 53.33% (16/30)  
+**BW Dd**: 53.33% (16/30)
 
 Exactly the same. Not a lot to say here. I ran damn near 50/50 with both lists.
 That is far from spectacular, but 30 matches is not a lot, and it is decent
@@ -96,8 +96,8 @@ more interesting stats we can look at.
 
 ### Overall
 
-**PiF DD**: 56.75%  
-**BW DD**: 52.17%
+**PiF Dd**: 56.75%  
+**BW Dd**: 52.17%
 
 The PiF version did a bit better in this category, suggesting it had a few more
 2-0 wins and 1-2 losses.
@@ -106,8 +106,8 @@ The PiF version did a bit better in this category, suggesting it had a few more
 
 | ~      | G1     | G2     | G3     |
 | ------ | ------ | ------ | ------ |
-| PiF DD | 66.67% | 60%    | 28%    |
-| BW DD  | 56.67% | 42.85% | 63.63% |
+| PiF Dd | 66.67% | 60%    | 28%    |
+| BW Dd  | 56.67% | 42.85% | 63.63% |
 
 Frankly I'm not sure what to make of this. The PiF version had a substantially
 higher G1 and G2 winrate than the BW list, but it drops off precipitously in G3
@@ -120,12 +120,12 @@ lists I'm not sure that adequately explains things.
 ## Mulls and Combo Turn
 
 Average Mulligan  
-**PiF DD**: 6.64  
-**BW DD**: 6.62
+**PiF Dd**: 6.64  
+**BW Dd**: 6.62
 
 Average Combo Turn  
-**PiF DD**: 3.75  
-**BW DD**: 3.33
+**PiF Dd**: 3.75  
+**BW Dd**: 3.33
 
 There doesn't seem to be a significant difference between how well the 2 lists
 mulligan. Both mulligan fairly well. The BW list is slightly faster than the PiF
@@ -136,8 +136,8 @@ not needing Threshold for Cabal Rituals.
 
 | Mulligan | 7      | 6      | 5      |
 | -------- | ------ | ------ | ------ |
-| PiF DD   | 62%    | 45.45% | 33.33% |
-| BW DD    | 56.25% | 52.94% | 0%     |
+| PiF Dd   | 62%    | 45.45% | 33.33% |
+| BW Dd    | 56.25% | 52.94% | 0%     |
 
 I wouldn't put too much stock in this, but it appears as if the PiF list is
 affected more by mulligans. The BW list has a lower winrate at 7 cards but isn't
@@ -148,8 +148,8 @@ to get reasonable data, but I managed to win one with the PiF list.
 
 | Roll   | Win    | Lose   |
 | ------ | ------ | ------ |
-| PiF DD | 42.85% | 62.50% |
-| BW DD  | 57.14% | 50%    |
+| PiF Dd | 42.85% | 62.50% |
+| BW Dd  | 57.14% | 50%    |
 
 Another surprise. The PiF list seems to fare much better on the draw, whereas
 the BW list is the opposite. It's worth noting that both lists had the exact
@@ -164,22 +164,22 @@ that I found noteworthy.
 
 Against decks with Countermagic as their primary and only form of significant
 disruption against us (this includes decks like Miracles, UW Stoneblade, and
-also RUG delver and High Tide) the PiF DD list performed better, going 50%
-against these decks. The BW DD list won just 30% of these matches. The BW list
+also RUG delver and High Tide) the PiF Dd list performed better, going 50%
+against these decks. The BW Dd list won just 30% of these matches. The BW list
 seems weaker vs RUG Delver due to a shakier manabase and being worse against
 Stifle. However the BW list also played against a few more brew-ish lists in
 this category, including High Tide and a UR Control list so I'm wary of reading
 too much into this result.
 
-The BW DD list seems better vs. Hatebear decks like DnT and Maverick and I
+The BW Dd list seems better vs. Hatebear decks like DnT and Maverick and I
 attribute this mostly to its ability to Burning Wish for Massacre and ignore
 graveyard hate and Gaddock Teeg. The PiF list won just 1 of 4 matches against
 DnT, but I think this issue can be mitigated with a more focused sideboard and
 better play since I have very little experience in the ANT vs DnT matchup.
 
 Finally, I'd like to discuss a bit of archetype skew in my results. In
-particular, with the BW DD list I played against a wide swath of the format,
-whereas with my PiF DD list I played against a lot more fast blue combo decks,
+particular, with the BW Dd list I played against a wide swath of the format,
+whereas with my PiF Dd list I played against a lot more fast blue combo decks,
 like Show and Tell and UB Reanimator. These are both tough matchups and I lost
 every single one. In a small sample size this can affect my overall win rate
 significantly. If I ignore my disastrous matchups against these 2 decks, I
@@ -191,8 +191,8 @@ the deck could perform well if I have a good plan for them.
 
 I don't want to draw too many conclusions from this data as the sample size is
 quite small so it must be taken with a grain of salt. I'm more interested in
-generating some discussion. I think the BW DD list provides better game 1
-flexibility and speed. The PiF DD list is smoother and more stable. And for
+generating some discussion. I think the BW Dd list provides better game 1
+flexibility and speed. The PiF Dd list is smoother and more stable. And for
 anyone who is thinking "Shouldn't you just play ANT if you're basically doing it
 already?" it's a valid question but I like casting Doomsday and having it in the
 deck got me out of a few situations I wouldn't have been able to get out of

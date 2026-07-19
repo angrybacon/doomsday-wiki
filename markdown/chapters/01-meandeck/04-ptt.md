@@ -49,7 +49,7 @@ Take the following example:
 
 :::row
 DR
-DD
+Dd
 FoW
 FoW
 Underground Sea
@@ -63,7 +63,7 @@ more turn we still wouldn't have the guaranteed win and our opponent could very
 well play some interactive piece that punishes us for waiting.
 
 Given we have some protection in hand already, it is probably best to _jam_ DR
-into DD off of the Sea and build something like what we have already seen in
+into Dd off of the Sea and build something like what we have already seen in
 previous chapters:
 
 > PTT
@@ -110,7 +110,7 @@ able to have access to {U}{U} on your turn 2 and that Ideas Unbound can and will
 resolve. Legacy as a format though is not so forgiving and there are numerous
 ways that your opponents can prevent you from executing the pile as desired.
 
-If we were to look at the pile presented and have cast DR, DD from Underground
+If we were to look at the pile presented and have cast DR, Dd from Underground
 Sea we are left with the following cards in hand:
 
 :::row
@@ -194,12 +194,12 @@ we had in hand from Ponder to Brainstorm.
 
 :::row
 DR
-DD
+Dd
 FoW
 FoW
 Underground Sea
 Island
-BS
+Bs
 :::
 
 Now that we have Brainstorm available we can easily pass the turn only once and,
@@ -210,7 +210,7 @@ and protection in it.
 
 Let us think about something like this:
 
-> PTT + PTT + BS
+> PTT + PTT + Bs
 
 :::row{variant=PILE}
 SW
@@ -222,7 +222,7 @@ LP
 
 1. Resolve Doomsday, Pass the Turn
 1. Draw SW for turn.
-1. Play Island, Pass the Turn, BS in their end step, draw SW, CoS, TO, put back
+1. Play Island, Pass the Turn, Bs in their end step, draw SW, CoS, TO, put back
    CoS, TO
 1. Draw TO for turn.
 1. Cycle SW, draw CoS
@@ -242,7 +242,7 @@ Say we are against a deck like Moon Stompy and they spend their turn playing
 countermagic so we decide we want to go now. We can change the speed with which
 we execute the pile as such:
 
-> PTT + BS
+> PTT + Bs
 
 :::row{variant=PILE}
 SW
@@ -255,7 +255,7 @@ LP
 1. Resolve Doomsday, Pass the Turn
 1. Draw SW for turn.
 1. Cycle SW, draw SW
-1. Cast BS, draw CoS, TO, LP, put back FoW and FoW or SW
+1. Cast Bs, draw CoS, TO, LP, put back FoW and FoW or SW
 1. Play LP, crack for {U}
 1. Play CoS, name Merfolk or Wizard
 1. Cast an uncounterable Oracle with 2 cards left in your deck.
@@ -295,12 +295,12 @@ a land already in hand. Once again returning to our scenario for the chapter:
 
 :::row
 DR
-DD
+Dd
 FoW
 FoW
 Underground Sea
 Island
-BS
+Bs
 :::
 
 We could build something that instead of playing the Island straight off,
@@ -309,7 +309,7 @@ into the pile.
 
 Think of something like this:
 
-> PTT + BS
+> PTT + Bs
 
 :::row{variant=PILE}
 SW
@@ -322,7 +322,7 @@ CoS
 1. Resolve Doomsday, Pass the Turn
 1. Draw SW for turn.
 1. Cycle SW, draw Polluted Delta
-1. Cast BS, draw LP, TO, CoS, put back CoS and Island
+1. Cast Bs, draw LP, TO, CoS, put back CoS and Island
 1. Play LP, crack for {U}
 1. Play Delta, crack to fetch Island
 1. Cast Oracle with 1 card left in your deck.
@@ -330,7 +330,7 @@ CoS
 This variation allows us to resolve Oracle and still hold up Force of Will
 (assuming our initial Sea stays in place). Useful for non-{U} decks than might
 be representing removal. Again if they do take out the land we can play the
-Island anyways and just have the Delta as an extra card to put back with a BS if
+Island anyways and just have the Delta as an extra card to put back with a Bs if
 we wish to cast it.
 
 ## Piles with Protection

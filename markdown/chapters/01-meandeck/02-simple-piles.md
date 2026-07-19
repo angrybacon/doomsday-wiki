@@ -25,7 +25,7 @@ There are three steps that need to occur to enable you to win (most of the time)
 1. Resolve Thassa's Oracle
 
 :::row{variant=CENTERED}
-DD
+Dd
 Pnd
 TO
 :::

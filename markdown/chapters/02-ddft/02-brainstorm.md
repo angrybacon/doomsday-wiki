@@ -28,7 +28,7 @@ Let's discuss some examples:
 If you have a win condition in hand, you can Brainstorm to insert it into the
 pile, swapping it for additional mana.
 
-> BS, BW in hand - {B}{B}{B} + {1}{U} - 8 Storm
+> Bs, BW in hand - {B}{B}{B} + {1}{U} - 8 Storm
 
 :::row{variant=PILE}
 LED
@@ -39,7 +39,7 @@ LED
 :::
 
 1. Cast Doomsday and build the above pile
-1. Cast BS, draw LED, IU, SW and put back BW, IU
+1. Cast Bs, draw LED, IU, SW and put back BW, IU
 1. Cast LED
 1. Activate SW, hold priority cracking LED for {U}{U}{U}, draw IU
 1. Cast IU, draw BW, LP, LED
@@ -59,7 +59,7 @@ to the basic pile, since you get an extra spell in the pile.
 The extra card in hand need not be a win condition; any card that you want in
 your pile can be swapped in with Brainstorm.
 
-> BS, LP in hand - {B}{B}{B} + {1}{U}{B} - 9 Storm
+> Bs, LP in hand - {B}{B}{B} + {1}{U}{B} - 9 Storm
 
 :::row{variant=PILE}
 IC
@@ -70,7 +70,7 @@ LED
 :::
 
 1. Cast Doomsday and build the above pile
-1. Cast BS, draw IC, DR, BW, put back BW, LP
+1. Cast Bs, draw IC, DR, BW, put back BW, LP
 1. Cast DR, IC, draw LP, BW, LED, LED
 1. Cast LED, LED, LP
 1. Cast BW, hold priority and crack LEDs for {B}{B}{B}{B}{B}{B}, get ToA
@@ -85,7 +85,7 @@ the Petal for a DR to cast IC.
 Cards in hand need not even be "useful" at all. Dead cards can be traded in as
 well.
 
-> BS, Land in hand - {B}{B}{B} + {U}
+> Bs, Land in hand - {B}{B}{B} + {U}
 
 :::row{variant=PILE}
 LED
@@ -113,7 +113,7 @@ it.
 > Ponder, Land in hand - {B}{B}{B} + {U}{U}
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 SW
 Pnd
@@ -134,7 +134,7 @@ Brainstorm to then turn your dead cards into live ones.
 
 ## Conclusion
 
-1. You can use BS to exchange resources between your hand and the pile
+1. You can use Bs to exchange resources between your hand and the pile
 1. These resources need not be mana or wincons; dead cards/slots in your pile
    are resources in this sense.
 1. Be judicious with your Brainstorms pre-combo, as they can be powerful

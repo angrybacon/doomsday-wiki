@@ -22,7 +22,7 @@ play Doomsday and Tendrils of Agony in the same 75.
 ## The Starting Point
 
 :::row{variant=CENTERED}
-DD
+Dd
 EoE
 BW
 :::
@@ -208,7 +208,7 @@ Maybe this will... nope.
 
 :::row{variant=CENTERED}
 ToA
-BS
+Bs
 IC
 :::
 
@@ -271,7 +271,7 @@ maindeck Tendrils of Agony, but I needed something that could go a bit faster.
 
 :::row{variant=CENTERED}
 Gemstone Mine
-DD
+Dd
 Silence
 :::
 

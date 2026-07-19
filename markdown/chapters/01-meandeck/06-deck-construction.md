@@ -46,7 +46,7 @@ the Void] set to X = 1, being an Instant and being able to _tutor_ for cards
 other than Sorceries.
 
 :::row{variant=CENTERED}
-DD
+Dd
 PT
 Lim-Dûl's Vault
 Solve the Equation
@@ -469,7 +469,7 @@ longer and grindier game most likely.
 ### Cantrip Choices
 
 :::row{variant=CENTERED}
-BS
+Bs
 Pnd
 Pre
 Con

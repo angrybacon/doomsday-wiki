@@ -90,7 +90,7 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
         <Typography
           sx={{
             color: 'text.primary',
-            fontSize: { xs: 'h6.fontSize', md: 'h2.fontSize' },
+            fontSize: { xs: 'h6.fontSize', md: 'h1.fontSize' },
             textShadow: '0 0 8px black',
           }}
           variant="h1"
@@ -116,7 +116,7 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
       <Typography
         sx={{
           bottom: 0,
-          color: 'text.primary',
+          color: 'text.secondary',
           display: 'flex',
           flexDirection: { xs: 'row', md: 'column' },
           left: 0,

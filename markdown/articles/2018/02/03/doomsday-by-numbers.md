@@ -380,7 +380,7 @@ methods we use to win. We asked people to fill in their winning line from a
 pretty comprehensive list of different methods but for easy viewing we have
 broken it down into a set of four.
 
-- DD: Any line that wins via the casting of Doomsday
+- Dd: Any line that wins via the casting of Doomsday
 - EtW: Any line that wins via the casting of Empty the Warrens (without casting
   Doomsday)
 - N-Storm: Any line that wins via just naturally storming our with Tendrils of

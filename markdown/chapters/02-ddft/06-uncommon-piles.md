@@ -30,7 +30,7 @@ where it is being used to beat Endurance out of Bant Control decks.
 
 A simple version of the pile looks like this:
 
-> Enough life to live for 2 turns post-DD
+> Enough life to live for 2 turns post-Dd
 
 :::row{variant=PILE}
 SI
@@ -62,7 +62,7 @@ Pnd
 SI
 Em
 TO
-DD
+Dd
 :::
 
 Ponder on top means Shelldock Isle won't get fatesealed, you have Oracle as a
@@ -181,7 +181,7 @@ IU
 LP
 LED
 BW
-DD
+Dd
 :::
 
 In this slightly more complicated variant, you use Doomsday to set up a pile

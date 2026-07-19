@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: DD
+banner: Dd
 kind: ARTICLE
 tags: [LEGACY, DDFT, DDEFT, MEANDECK]
 title: DDFAQs or the Start of Everything You Need to Know about How to End the World in 2020
@@ -83,7 +83,7 @@ LED
 LED
 LED
 Collective Brutality
-DD
+Dd
 :::
 
 Instead of using :card[Burning Wish] for additional copies of Doomsday, the deck
@@ -146,7 +146,7 @@ what variant you are playing, you will be wanting to run 4 of these no matter
 what. With Meandeck and DDEFT variants these will often just all be run in the
 main however thanks to :card[Burning Wish], DDFT variants may run three in the
 main and on in the sideboard as a wish target thereby increasing the number of
-pseudo copies in the deck up to 7 (3 DD, 4 BW).
+pseudo copies in the deck up to 7 (3 Dd, 4 BW).
 
 There are a number of other cards that can also fall into this category
 alongside :card[Burning Wish] as cards that are basically designed to find
@@ -162,7 +162,7 @@ are likely to not find your game winning spell, any more and you can often be
 flooded with redundant copies.
 
 :::row{variant=CENTERED}
-DD
+Dd
 EF
 :::
 
@@ -243,7 +243,7 @@ you should end up with a very high cantrip number.
 
 :::row{variant=CENTERED}
 Pnd
-BS
+Bs
 Pdt
 :::
 

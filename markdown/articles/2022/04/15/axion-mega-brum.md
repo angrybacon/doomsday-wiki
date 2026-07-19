@@ -427,7 +427,7 @@ down to 5. But what a 5 it was! (And yes, of course I was on the play again).
 
 :::row
 Dark Ritual | MMQ
-DD
+Dd
 FoW
 Con
 Underground Sea

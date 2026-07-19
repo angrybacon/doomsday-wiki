@@ -132,7 +132,7 @@ knew the game was over but continued to played to see what they were playing.
 Turns out on turn 4 they played an :card[Urza's Saga] and a :card[Painter's
 Servant], which meant besides the hate bears I would also need to fight through
 :card[Grindstone]. G2 and 3 I mulled to hands that could cast Doomsday early and
-cast DD on t1 and t2 respectively never giving them a chance to play lock
+cast Dd on t1 and t2 respectively never giving them a chance to play lock
 pieces.
 
 > 2-1  
@@ -145,7 +145,7 @@ vs an 8-Cast opponent was at table 3 and Max Carini at table 4. Spoiler alert we
 all won this round!
 
 G1 Opponent cast a turn 1 Chalice but :card[Cabal Ritual] bailed me for a turn 2
-DD and a unbeatable PTT pile. G2 I made my land drops and cast Doomsday the good
+Dd and a unbeatable PTT pile. G2 I made my land drops and cast Doomsday the good
 honest way tapping 3 :card[Underground Sea]s, opponent didn't have neither
 countermagic nor pressure on the board so just another PTT pile.
 
@@ -165,9 +165,9 @@ VOD](https://www.twitch.tv/videos/1606339586?t=06h11m05s)
 
 Doomsday was going well in the event and we had we knew the mirror match was
 going to happen eventually, me and Max sat down do play knowing pretty much each
-other's 75, g1 Max cast a :card[PT] tried to resolve a DD which I countered, he
-followed up by playing the same sequence again PT-> DD and this time I didn't
-have the countermagic but I had my own DD + cycler, all I needed was to draw a
+other's 75, g1 Max cast a :card[PT] tried to resolve a Dd which I countered, he
+followed up by playing the same sequence again PT -> Dd and this time I didn't
+have the countermagic but I had my own Dd + cycler, all I needed was to draw a
 mana source, I drew a cabal rit and comb'd the same turn, I knew Max would win
 if I passed the turn and he also had no cards in hand. G2 I suspected I was
 going to see an opposition agent and on turn 3 or 4 I cast a duress, Max
@@ -181,14 +181,14 @@ concession a couple of turns later.
 #### Round 8 - Ryan Mullens - UR Delver
 
 So I knew my last round of the day would be either delver or 8-Cast, it was
-delver, very interesting match, interesting situation in g1, I drew DD at
+delver, very interesting match, interesting situation in g1, I drew Dd at
 exactly 4 life facing a 3/3 :card[Dragon's Rage Channeller], unfortunately my
-hand was :card[DD] + :card[SW], I say unfortunately because at 2 more life I
+hand was :card[Dd] + :card[SW], I say unfortunately because at 2 more life I
 could safely make a :card[Consider] pile or if the cycler was edge, my
 opponent's hand only had a :card[Ledger Shredder], but they also had a
 :card[Wasteland] in play, I ended up m aking a pile that lost to that on board
 Wasteland when a basic Brainstorm pile would had won. G2 an early Duress allowed
-me to resolve a DD with perfect information on t3 and make a win on the same
+me to resolve a Dd with perfect information on t3 and make a win on the same
 turn pile, g3 it was a delver game, it flipped and when I cast a duress I saw a
 hand with 2 :card[FoW], 2x :card[Murktide Regent], :card[Daze] and a
 :card[Pyroblast], and that was the end of day 1.
@@ -198,12 +198,12 @@ hand with 2 :card[FoW], 2x :card[Murktide Regent], :card[Daze] and a
 
 #### Round 9 - Bob Huang - 8-Cast
 
-I knew Bob was on 8-Cast and planned accordingly, g1 I cast a t1 DD backed up by
+I knew Bob was on 8-Cast and planned accordingly, g1 I cast a t1 Dd backed up by
 a Daze on my opponent's FoW, just made a PTT with some cyclers and a :card[CoS].
 G2 and 3 were pretty similar I cast Sheoldred early but Bob found :card[Karakas]
-and I couldn't resolve a Doomsday. G3 on the play I had the option to cast a DD
+and I couldn't resolve a Doomsday. G3 on the play I had the option to cast a Dd
 on t1 with a SW in hand instead I went for Sheoldred, speaking with Michael
-_BlackSkyDoc_ Yue between rounds I think going for DD was a much better option
+_BlackSkyDoc_ Yue between rounds I think going for Dd was a much better option
 Sheoldred required more resources and wouldn't win the next turn, my reasoning
 at the time was that Sheoldred would dodge :card[FoN].
 
@@ -227,12 +227,12 @@ These last 3 rounds were interesting to say the least, they were all elves, but
 not Elves!, they were Newton's creation elves, with :card[Fiend Artisan] and
 less elves than the traditional lists. G1 I cast a cantrip my opponent casts a
 free :card[Once Upon a Time], they grab an Endurance, the following turn I cast
-:card[Thoughtseize], discard Endurance, followed by Dark Ritual + DD, their hand
+:card[Thoughtseize], discard Endurance, followed by Dark Ritual + Dd, their hand
 was all lands, but it had a Boseiju so I made sure to put a land in my PTT pile,
 Kris discard Boseiju to destroy my Underground Sea and I searched up the other
 one in my deck, they said well played and we went to g2. This time the game went
 a bit longer, but Kris played a Fiend Artisan and I knew he was going to tutor
-up an Opposition Agent the next, I cast a DD and went for a Brainstorm pile that
+up an Opposition Agent the next, I cast a Dd and went for a Brainstorm pile that
 wins the same turn but would be soft to Endurance, they didn't have one and I
 won.
 
@@ -248,7 +248,7 @@ normally makes things very difficult for Doomsday since the rogue creature
 doesn't let you search your deck and Doomsday is a search effect, but in this
 case I had TO in hand, I called a judge to make sure I understood it correctly,
 and in fact Doomsday removes deck and graveyard in this boardstate, I cast dark
-ritual + DD and played TO with an empty library. G2 I lost to an Endurance and
+ritual + Dd and played TO with an empty library. G2 I lost to an Endurance and
 having my life total pressured, g3 I kept a hand without lands but with 2x
 petals, Cabal Ritual and a Doomsday, it would be very hard to make a pile to
 play around Endurance and Boseiju, without knowing my opponent's hand I made a
@@ -294,7 +294,7 @@ BlackSkyDoc!
 #### Round 1 - Ryan Hayes - 4C Control
 
 G1 on the draw, opp mulls to 6. Opponent leads Island-Forest- while I cantrip
-and cast DD on T2 off of DR with a blue fetch still in play. FOW pitching
+and cast Dd on T2 off of DR with a blue fetch still in play. FOW pitching
 :card[Narset, Parter of Veils] meets FOW pitching :card[Ponder]. Make the
 following pile with a SW in hand.
 
@@ -310,21 +310,21 @@ T3 opponent plays a :card[Tropical Island] and passes. T3 draw Edge, pass. T4
 oppponent plays :card[Prismatic Vista], passes. T4 draw TO. Cycle SW, play
 Cavern and TO. Opponent evokes an Endurance pitching :card[Sylvan Library]. T5
 opponent draws and says go. T5 draw TO. Play TO. Opponent plays Endurance
-targeting me with DD and SW in the yard. The Endurance trigger resolves, and
+targeting me with Dd and SW in the yard. The Endurance trigger resolves, and
 they play :card[Swords to Plowshares] on an oracle. I fetch and the TO trigger
-resolves with DD and SW in deck.
+resolves with Dd and SW in deck.
 
 SB: - Swamp, - SW, - Consider. +2 :card[Mystical Dispute], + Duress
 
 G2 on the draw. I mulligan to 5 after seeing hands with 5 lands and no lands. I
-cast a T3 DD which meets a FOW that I can't counter. They cast Surgical
+cast a T3 Dd which meets a FOW that I can't counter. They cast Surgical
 Extraction on the Doomsday. I don't have the heart to go for a Street Wraith
 beats win and concede. I noted they played a :card[Volcanic Island] and
 :card[Tundra] during the game.
 
 G3 on the play. Keep a banger of a hand. T1 I cast Ponder. T2 I cast Duress
 seeing [Island, FOW, FOW, :card[Torpor Orb], :card[Sylvan Library], and
-Endurance], taking Torpor Orb. Continue to cast DR and DD with FOW backup for
+Endurance], taking Torpor Orb. Continue to cast DR and Dd with FOW backup for
 their FOW. Make the following pile:
 
 :::row{variant=PILE}
@@ -467,7 +467,7 @@ for more aggressive piles.
 
 Game 1 &mdash; on the play. A T1 discard spell sees Force of Will, Force of
 Will, :card[Ice-Fang Coatl], Brainstorm, :card[Snapcaster Mage], :card[Flooded
-Strand], Flooded Strand. I choose Force of Will. On T2 I go for DD with Force
+Strand], Flooded Strand. I choose Force of Will. On T2 I go for Dd with Force
 backup and they're unable to Brainstorm into a third force. Since they have no
 clock, I go for a double pass-the-turn pile to win.
 
@@ -482,7 +482,7 @@ CoS
 SB: - Swamp, -3 Daze, - Thassa's Oracle. +2 Flusterstorm, +2 Mystical Dispute,
 +1 Duress.
 
-Game 2 &mdash; on the draw T2 cast DD with Force backup. It resolves.
+Game 2 &mdash; on the draw T2 cast Dd with Force backup. It resolves.
 
 :::row{variant=PILE}
 EoA
@@ -584,8 +584,8 @@ and an Underground Sea in hand.
 EoA
 EoA
 TO
-DD
-DD
+Dd
+Dd
 :::
 
 Needless to say, when they cast Surgical Extraction on Doomsday and find, I was
@@ -626,7 +626,7 @@ go for the kill - cast Doomsday, with the intention to make the following pile
 to win
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 Con
 EoA
@@ -699,7 +699,7 @@ _Emidln_, to board the plane to Richmond.
 Choice of deck/construction theory: Esper Doomsday w/ SFM package. The straight
 forward line of Doomsday into :card[Predict] name Thassa's Oracle, mill over
 Oracle, draw into Lotus Petal/:card[Unearth]. Unearth Oracle to win. With
-alternate creature/equipment of BS/SFM/BSkull/KC. SB consisting of the best
+alternate creature/equipment of Strix/SFM/BSkull/KC. SB consisting of the best
 white removal in the format STP and Prismatic Ending, more countermagic in FoN,
 interaction, a Plains, and Sheoldred. I wanted to play with Sheoldred, with the
 potential of just changing the game in your favor if you resolve, and protect

@@ -223,7 +223,7 @@ some real world game examples.
 
 :::row
 Dark Ritual | MMQ
-DD
+Dd
 Force of Will | EMA
 Daze
 Brainstorm | MMQ
@@ -366,7 +366,7 @@ find additional protection or free up our mana.
 
 :::row
 Dark Ritual | MMQ
-DD
+Dd
 Force of Will | EMA
 FoW
 Daze
@@ -481,7 +481,7 @@ turn, play a land and have the following hand / board state:
 My hand is thus:
 
 :::row
-DD
+Dd
 FoW
 Daze
 Pyroblast
@@ -519,7 +519,7 @@ Pnd
 EoA
 TO
 Pnd
-DD
+Dd
 :::
 
 Now there are a few things to note here. First and foremost this was not the
@@ -553,7 +553,7 @@ First we should consider what AgyePA had in hand. On my Doomsday being placed on
 the stack it looked like this:
 
 :::row
-DD
+Dd
 FoW
 Daze
 SE

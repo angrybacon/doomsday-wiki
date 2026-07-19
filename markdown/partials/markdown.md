@@ -419,12 +419,12 @@ Cruel Bargain
 
 ```md
 :::row
-BS
+Bs
 :::
 ```
 
 :::row
-BS
+Bs
 :::
 
 ### Pile
@@ -503,7 +503,7 @@ printings of the same card.
 
 ```md
 :::row
-DD
+Dd
 Doomsday | SLD
 Subtlety
 Subtlety | MH2
@@ -512,7 +512,7 @@ Duress | STA | 92
 ```
 
 :::row
-DD
+Dd
 Doomsday | SLD
 Subtlety
 Subtlety | MH2

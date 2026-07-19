@@ -73,7 +73,7 @@ need to re-pair the round.
 
 My actual round 1 opponent presents me with his attraction deck to cut, and all
 I can think is 'have I been away from Legacy this long?!'. It turns out this is
-mainly a distraction. I'm on the draw and keep my 7 including :card[DD],
+mainly a distraction. I'm on the draw and keep my 7 including :card[Dd],
 :card[Dark Ritual] plus :card[Thoughtseize] and :card[FoW] + {U} card. My
 opponent leads with :card[Ancient Tomb] into :card[Chrome Mox] (exiling a {B}
 card) and passes. I cast Thoughtseize and he casts Opposition Agent in response
@@ -89,9 +89,9 @@ can't be bothered to try for :card[SW] beats, so I concede.
 I keep a hand with some cantrips, a DR and :card[Duress]. I lead with Duress and
 see a hand with 1 land, a bunch of 3 and 4 mana spells (including Opposition
 Agent) plus a DR. I take the Ritual and hope to strand his spells in his hand.
-He goes land-go on turn 1. Turn 2 I cantrip into DD, and can win next turn. He
-misses his 2nd land drop so I'm feeling good about things. I cast DD turn 3. It
-turns out he's topdecked another Dark Ritual, so he responds to DD with Ritual
+He goes land-go on turn 1. Turn 2 I cantrip into Dd, and can win next turn. He
+misses his 2nd land drop so I'm feeling good about things. I cast Dd turn 3. It
+turns out he's topdecked another Dark Ritual, so he responds to Dd with Ritual
 into Opp Agent, and it's lights out.
 
 > Match 0-2  
@@ -103,16 +103,16 @@ into Opp Agent, and it's lights out.
 #### Game 1
 
 We spend the first couple of turns cantripping, then he casts :card[Stoneforge
-Mystic]. I have DD and FoW, but can't win in one turn. I let Stoneforge resolve
-on the basis that I can cast DD, pass, take one :card[Kaldra Compleat] hit, and
-win the following turn. He finds :card[Batterskull]. On my turn I resolve DD,
+Mystic]. I have Dd and FoW, but can't win in one turn. I let Stoneforge resolve
+on the basis that I can cast Dd, pass, take one :card[Kaldra Compleat] hit, and
+win the following turn. He finds :card[Batterskull]. On my turn I resolve Dd,
 and build a pile with cyclers, TO and :card[Cavern of Souls]. He puts in
 Batterskull on is turn. Then I just cantrip/cycle into TO and Cavern and win.
 
 #### Game 2
 
 Game 2 is pretty much the same story, except this time he only has an
-:card[Ice-Fang Coatl] pressuring me. I resolve DD with FoW backup, build the
+:card[Ice-Fang Coatl] pressuring me. I resolve Dd with FoW backup, build the
 same pile, and win comfortably.
 
 > Match 2-0  
@@ -128,8 +128,8 @@ the same hotel. Unfortunately that doesn't help me to know what he's playing!
 
 Phil is on the play, and leads off on :card[Urza's Saga] into :card[Goblin
 Engineer] (using :card[Simian Spirit Guide]) putting :card[Painter's Servant]
-into the graveyard. On my first turn I :card[Personal Tutor] for DD. His turn 2
-is land go. On my turn I resolve DD. If he has any sol land (or land plus SSG or
+into the graveyard. On my first turn I :card[Personal Tutor] for Dd. His turn 2
+is land go. On my turn I resolve Dd. If he has any sol land (or land plus SSG or
 :card[Lotus Petal]) I'm dead next turn, so I build a
 :card[Brainstorm]/:card[LED] pile, and go for it. Thankfully he doesn't have a
 Pyroblast and I win.
@@ -137,9 +137,9 @@ Pyroblast and I win.
 #### Game 2
 
 Game 2 is similar. Phil leads with mountain into :card[Goblin Welder]. I play
-land, cantrip and manage to assemble DD plus Dark Ritual. He then plays Urza's
+land, cantrip and manage to assemble Dd plus Dark Ritual. He then plays Urza's
 Saga and casts Goblin Engineer, getting Painter into the graveyard. On my turn I
-resolve DD, then think for a bit. I can either use the Brainstorm in hand to go
+resolve Dd, then think for a bit. I can either use the Brainstorm in hand to go
 for the win this turn, or I can pass the turn and Brainstorm/cycle into TO and
 Cavern. Each line loses to different things, but I figure if I go for it this
 turn I only lose to :card[Pyroblast] + SSG, or Mindbreak Trap. I go for it, he
@@ -156,7 +156,7 @@ had played Grindstone and held up blast. But I'll take wins where I can!
 #### Game 1
 
 My opponent starts with Plains into :card[Aether Vial]. I lead off with
-:card[Underground Sea] into Dark Ritual into DD. I build the _Death and Taxes
+:card[Underground Sea] into Dark Ritual into Dd. I build the _Death and Taxes
 special_ pile of [Fetch, Fetch, TO, Land, Land]. He doesn't draw any relevant
 interaction or pressure, and I win 2 turns later (with the help of a cantrip).
 
@@ -170,11 +170,11 @@ Island
 
 #### Game 2
 
-In game 2 I draw a hand consisting of DD, DR, Petal and no lands. I've seen
+In game 2 I draw a hand consisting of Dd, DR, Petal and no lands. I've seen
 enough of [Doishy's
 videos](https://www.youtube.com/channel/UC_sW93YGx7piZSIRakTnkrA) to know this
 is a snap keep. (Doishy's editor comments, "<3") (Opponent goes Plains, Aether
-Vial. I cast DD and build the DnT special again and pass back. My opponent plays
+Vial. I cast Dd and build the DnT special again and pass back. My opponent plays
 a :card[Rishadan Port]. I draw and play a fetch. My opponent then plays a
 :card[Wasteland] and does the trick where he ports my fetch, then Wastelands it.
 I figure that's fine, all it does it delay me by a turn. I draw my 2nd fetch and
@@ -198,15 +198,15 @@ one-sided.
 
 I'm on the draw. My opponent mulligans to 6 and casts a turn 1 :card[Blood
 Moon], which I have to let resolve. It's OK though because I have Petal, Dark
-Ritual and DD in hand. I'm a total luck sack and I draw a swamp for turn. My
+Ritual and Dd in hand. I'm a total luck sack and I draw a swamp for turn. My
 opponent only has 2 cards in hand so I bet it's not Pyroblast + SSG. I go for
 the win immediately and get there.
 
 #### Game 2
 
-On the draw, I force a turn one :card[Chalice of the Void]. I PT for DD on
+On the draw, I force a turn one :card[Chalice of the Void]. I PT for Dd on
 turn 1. My opponent then hard casts an SSG, and I'm feeling pretty good about
-things. On turn 2 I cast DD off Cabal Ritual and build an LED pile (though can't
+things. On turn 2 I cast Dd off Cabal Ritual and build an LED pile (though can't
 go off this turn). My opponent does nothing on turn 3 and tells me "if you can
 kill me I can't stop you". I duress just to make sure (it's competitive REL
 after all!), and win that turn.
@@ -224,8 +224,8 @@ time I get there!
 
 #### Game 1
 
-I keep a hand that casts a turn 3 DD, but has a good amount of interaction. I
-Thoughtseize on turn 2, and my opponent has nothing relevant. I DD next turn and
+I keep a hand that casts a turn 3 Dd, but has a good amount of interaction. I
+Thoughtseize on turn 2, and my opponent has nothing relevant. I Dd next turn and
 build a pile with cyclers, TO, Cavern and a Duress. I fire the duress off with
 one card left in library (to flush out any :card[Dress Down]s that are lurking)
 and cast TO for the win the turn after.
@@ -282,10 +282,10 @@ seems super positive. An all round good bloke.
 #### Game 1
 
 The last time we played Kieran was on Esper Vial, so when he leads off with
-:card[Tundra] into Underground Sea that's what I put him on. I cast an early DD,
-he forces, I force back, then DD resolves. I could try to win this turn, and I'm
+:card[Tundra] into Underground Sea that's what I put him on. I cast an early Dd,
+he forces, I force back, then Dd resolves. I could try to win this turn, and I'm
 terrified that if I don't, Kieran is going to slam :card[Meddling Mage] and lock
-out TO. And I figure that if he had another counter he would have countered DD.
+out TO. And I figure that if he had another counter he would have countered Dd.
 I go for it, and he doesn't have anything to stop me.
 
 #### Game 2
@@ -294,15 +294,15 @@ We spend the first few turns cantripping. Then Kieran plays :card[Cephalid
 Illusionist], and I see he's not on Esper Vial after all. And here I am with all
 my graveyard hate in my sideboard.
 
-On the next turn I have 4 lands in play and my hand is DD, Duress, Brainstorm,
+On the next turn I have 4 lands in play and my hand is Dd, Duress, Brainstorm,
 FoW, PT. I think I mess up here. I get fixated on the fact that Duress does not
 answer Nomads-en-Kor, but forget I have a FoW to answer Nomads, and Duress does
 answer countermagic from my opponent. I should just Duress, see what's up, and
 go from there.
 
-Instead, I cast DD, my opponent forces, and I force back. He then cracks a fetch
+Instead, I cast Dd, my opponent forces, and I force back. He then cracks a fetch
 for an Island, pauses, and passes representing :card[Flusterstorm]. I figure
-that this is a bluff; if he had Flusterstorm he would have just flustered DD,
+that this is a bluff; if he had Flusterstorm he would have just flustered Dd,
 right? I build an LED pile. I start executing the kill: I cast Brainstorm, cast
 LED, cycle SW and crack LED, draw :card[Consider], cast Consider, and then
 Kieran flusters my Consider. He did have it after all!
@@ -325,12 +325,12 @@ These games are all pretty complex and I don't remember them too well.
 #### Game 1
 
 This game is fairly straightforward. Ryan plays a :card[Collector Ouphe] fairly
-early but has no other pressure. I resolve a DD, but I've got plenty of time. I
+early but has no other pressure. I resolve a Dd, but I've got plenty of time. I
 build a pile with cyclers, TO and Cavern and win the following turn.
 
 #### Game 2
 
-It's a slow start to the game, but by the time I resolve DD my opponent only has
+It's a slow start to the game, but by the time I resolve Dd my opponent only has
 an Ice-Fang Coatl on the board. I build a pile of :card[Subtlety], SW, TO,
 Cavern, TO and pass. This pile ends up being too slow. I force a :card[Green
 Sun's Zenith] for 3 out of fear, and I snag an :card[Endurance] with the
@@ -339,11 +339,11 @@ and it's lights out.
 
 #### Game 3
 
-This game is pretty grindy. I keep an interactive hand but without DD. We both
+This game is pretty grindy. I keep an interactive hand but without Dd. We both
 have slow, cautious starts. I Thoughtseize my opponent, take an Endurance, and
 see a Surgical Extraction. He Surgicals away my Brainstorms and we settle in for
 a long game. I flood out &mdash; getting 4 USeas and a fetch in play by turn 5.
-I cast DD with FoW, PT, fetch in hand and looking at an empty board. It
+I cast Dd with FoW, PT, fetch in hand and looking at an empty board. It
 resolves.
 
 I build a pile of Sheoldred, TO, Cavern, TO, Island. Sheoldred won't have time
@@ -353,7 +353,7 @@ relevant. I resolve Sheoldred the following turn, and my opponent end steps an
 Endurance. They do something on their turn (I forget what) but tap out of
 Ice-Fang mana. On my turn I draw TO, get in with Sheoldred, and pass. My
 opponent cracks back with Endurance, leaving mana up. I draw and play Cavern. I
-fetch, and cast TO through Cavern (with a library of TO and DD). My opponent
+fetch, and cast TO through Cavern (with a library of TO and Dd). My opponent
 blasts the TO on the battlefield. I decide to force the blast (not sure if that
 was right, but I didn't want to lose this game the same way I lost game 2) and
 my opponent scoops.
@@ -380,23 +380,23 @@ I make her play on the main stage so I can get a photo of us.
 
 #### Game 1
 
-Sahar is on the play. I keep a hand that casts a turn 1 DD, but has no turn 0
-interaction. Sahar plays a turn 1 :card[Elite Spellbinder] and snags my DD. I
+Sahar is on the play. I keep a hand that casts a turn 1 Dd, but has no turn 0
+interaction. Sahar plays a turn 1 :card[Elite Spellbinder] and snags my Dd. I
 cantrip trying to find another one, which I do. On turn 2 she plays an
 :card[Archon of Emeria]. I look at the Dark Ritual and fetchland in my hand and
 my heart sinks a bit. I'm getting chunked for 5 a turn, and I can't assemble the
-mana to cast DD fast enough.
+mana to cast Dd fast enough.
 
 #### Game 2
 
-I keep a hand with DD, Petal, Land, FoW, Subtlety, Brainstorm and Street Wraith.
+I keep a hand with Dd, Petal, Land, FoW, Subtlety, Brainstorm and Street Wraith.
 I lead with SW cycle (into something irrelevant &mdash; Edge maybe?), into land,
 Petal. On her turn 1 Sahar goes Sol Land into Chalice on 1, and I have to decide
 whether to counter. My thinking is that I need to cast the Brainstorm to
-maximize my chance of casting the DD, so I choose to counter Chalice. Sahar then
+maximize my chance of casting the Dd, so I choose to counter Chalice. Sahar then
 plays Petal, Petal, Thalia. I elect not to cast my Brainstorm as it would mean
-cashing in my Petal and putting me further away from casting DD. Sahar then
-plays an Elite Spellbinder and takes the DD anyway. I'm again getting hit for 5
+cashing in my Petal and putting me further away from casting Dd. Sahar then
+plays an Elite Spellbinder and takes the Dd anyway. I'm again getting hit for 5
 a turn, and I'm dead a few turns later.
 
 We hug it out, and I go to collect my prize which is a very nice Revised

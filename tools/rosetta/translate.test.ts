@@ -3,7 +3,7 @@ import { translate } from '~/tools/rosetta/translate';
 describe(translate, () => {
   it('should return the name of a known acronym', () => {
     // When
-    const { name, categories } = translate('DD');
+    const { name, categories } = translate('Dd');
     // Then
     expect(name).toBe('Doomsday');
     expect(categories).toStrictEqual([]);

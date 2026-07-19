@@ -27,7 +27,7 @@ LED
 LED
 LED
 TO
-DD
+Dd
 :::
 
 :::row{variant=PILE}
@@ -35,7 +35,7 @@ LED
 LED
 LED
 ToA
-DD
+Dd
 :::
 
 Both of these generate enough mana in pile to recast Doomsday and restart the

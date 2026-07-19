@@ -147,13 +147,13 @@ there is a chance your opponent draws a fresh hand full of interaction.
 IU
 LED
 Pnd
-DD
+Dd
 BW
 :::
 
 1. Cast Ideas Unbound, holding priority to crack LED for {B}{B}{B}, drawing LED,
    Ponder and Doomsday
-1. Cast LED, crack the Petal for {U}, then cast DD with the floating black mana
+1. Cast LED, crack the Petal for {U}, then cast Dd with the floating black mana
 1. Construct the following new pile:
 
 :::row{variant=PILE}
@@ -161,7 +161,7 @@ IU
 LED
 LP
 BW
-DD
+Dd
 :::
 
 1. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}

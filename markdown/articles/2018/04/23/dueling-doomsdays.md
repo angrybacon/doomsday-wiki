@@ -59,7 +59,7 @@ player, Ben does a mini Tendrils against me quite early on. I soon draw a
 Surgical Extraction, and target his Tendrils of Agony; Ben concedes in response.
 Obviously didn’t side in or
 maindeck any Empty the Warrens.  
-G3) On the draw I keep a hand that is solid with some disruption, mana and DD,
+G3) On the draw I keep a hand that is solid with some disruption, mana and Dd,
 but no cantrips. Ben kept a 7 so I didn’t feel I could justify going below with
 this serviceable hand. Ben just Ponders on his turn, shuffles, then passes. I
 feel somewhat confident with the shuffle, and draw another Doomsday for turn. I
@@ -81,9 +81,9 @@ maindeck fluster! I rebuild and try to find things but a Mentor gets going and I
 get pressured. I have the kill ready but after checking the coast he has
 counterspell, SCM x2 and that first Fluster in the yard. I manage to bait the
 CSpell, Thoughtseize a Snappy but he still has the last. Here I had a line
-whereby I could bait the Fluster with a DD and then grab a second DD off the top
+whereby I could bait the Fluster with a Dd and then grab a second Dd off the top
 to then win (or maybe it was BW into ToA or something?) basically I go to bait
-with DD and he lets it resolve... Oh dear! I have to go for it but he has the
+with Dd and he lets it resolve... Oh dear! I have to go for it but he has the
 Fluster and hits something and Mentor tokens kill me because I don't have enough
 resources to make a pile involving a CT first or anything ( not that it would
 help). Game 2 I have a really nice opener with a Trop and Xantid. He starts T0
@@ -115,7 +115,7 @@ a pretty weak keep with Volcanic Island, Island, Mountain, Flooded Strand, Lotus
 Petal, and Force of Will. Seems pretty clearly on some UR Show and Tell variant.
 Draw a duress from the probe which I use to take that Force and pass. Morgan
 just plays a land and passes, I draw a therapy and take that Petal, seeing the
-scry to the top was a Griselbrand; confirm my assumption of SnT. I DR, BW, DD
+scry to the top was a Griselbrand; confirm my assumption of SnT. I DR, BW, Dd
 into a pass-the-turn pile. Kill him the next turn.
 
 G2) I keep a very solid hand with Probe, Therapy, Therapy, Thoughtseize, Fetch,
@@ -141,9 +141,9 @@ Decay T3. He scoops to my superior creature
 base!  
 Game 2 I have the T1 unprotected. I jam it, he has a Surgical. Ah well.  
 Game 3, We trade some resources then somewhere I find the spot to go off with
-Doomsday but cannot hit the needed storm count so I manage to build a DD EtW
+Doomsday but cannot hit the needed storm count so I manage to build a Dd EtW
 pile with at least two turns
-left of draw steps with 18 Goblins in play. He scoops. DD EtW pile. WUT?!  
+left of draw steps with 18 Goblins in play. He scoops. Dd EtW pile. WUT?!  
 This round I also enjoyed watching the lands mirror occurring to my left XD
 
 ### Round 3

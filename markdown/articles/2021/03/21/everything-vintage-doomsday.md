@@ -227,7 +227,7 @@ this turn and the rest of the game?
 Our hand is:
 
 :::row
-DD
+Dd
 SW
 Pre
 FoW

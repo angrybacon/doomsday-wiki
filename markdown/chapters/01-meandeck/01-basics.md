@@ -1,6 +1,6 @@
 ---
 authors: Doishy
-banner: DD
+banner: Dd
 title: Core Concepts
 ---
 
@@ -165,7 +165,7 @@ a mana rock like LED or Lotus Petal or for sacrificing a fetchland like
 The final thing to note is we as a community really like to use acronyms or
 abbreviations when talking about cards or plays. For cards, the Wiki has a
 lexicon on the left hand side of each page (or accessible by clicking the menu
-button on the top left for mobile devices). We may use BS as a term for
+button on the top left for mobile devices). We may use Bs as a term for
 :card[Brainstorm] as an example. For other non-card based examples, if they are
 related to specific chapters then they should explain them but the primary one
 to note is _PTT_ which stands for _pass-the-turn_, simply implying that to
