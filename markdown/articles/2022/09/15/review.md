@@ -139,7 +139,7 @@ main reasons, one of which is often mis-cited.
 
 The first and easiest reason is that people just want more consistency in being
 able to jam a quick Doomsday. With many being up to 8 copies of the namesake
-card (4 :card[DD] and 4 :card[PT]) then want to enable casting them as fast as
+card (4 :card[Dd] and 4 :card[PT]) then want to enable casting them as fast as
 possible and boosting the number of ritual effects facilitates this, even in the
 face of :card[Chalice of the Void] set to 1. With 8-Cast being a popular deck in
 the format alongside classics like Moon Stompy, this can be quite significant.

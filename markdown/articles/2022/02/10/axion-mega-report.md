@@ -245,7 +245,7 @@ for. I keep 5 cards, another turn 1 Doomsday with Force protection but no land
 Force it pitching Force. This was a massive mistake. I should've worked out the
 timings of how many turns I would need to pass and what could beat me in passing
 that many turns. I would need to pass 3 turns post Doomsday (unless I get lucky
-on my draw step with a land or another Petal,:card[BS], Street Wraith or
+on my draw step with a land or another Petal,:card[Bs], Street Wraith or
 :card[LED]) and so I should've worked out what beats the likely pile of \[fetch,
 fetch, TO, Island, Underground Sea\] or even what beats me trying to go for a
 faster 2 turn pass pile that maybe uses Brainstorm or something else similar.
@@ -380,10 +380,10 @@ draw mind).
 
 :::row
 Dark Ritual | MMQ
-DD
+Dd
 FoW
 Massacre
-BS
+Bs
 TO
 Daze
 :::

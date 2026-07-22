@@ -7,7 +7,7 @@ import { Icon } from '@mdi/react';
 import { Box, IconButton } from '@mui/material';
 import { useState } from 'react';
 
-import { CardFace } from '@/components/Card/CardFace';
+import { CardFace } from '~/components/Card/CardFace';
 
 type Props = {
   faces: ScrySingleResponse;

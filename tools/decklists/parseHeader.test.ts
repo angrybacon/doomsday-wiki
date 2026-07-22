@@ -1,4 +1,4 @@
-import { parseHeader } from '@/tools/decklists/parseHeader';
+import { parseHeader } from '~/tools/decklists/parseHeader';
 
 describe(parseHeader, () => {
   it('should parse the title', () => {

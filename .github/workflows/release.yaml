@@ -22,7 +22,7 @@ jobs:
         run: pnpm lint
 
   tests:
-    name: Tests (${{ matrix.os }})
+    name: Tests ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:

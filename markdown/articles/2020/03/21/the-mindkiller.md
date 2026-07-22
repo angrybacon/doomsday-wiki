@@ -95,7 +95,7 @@ the fact that it also refills your opponent's hand, because they don't matter.
 ### Doomsday / Thassa's Oracle
 
 :::row{variant=CENTERED}
-DD
+Dd
 TO
 :::
 
@@ -240,7 +240,7 @@ have a chance even against decks that could race the goblins.
 :::row
 LP
 DR
-DD
+Dd
 Rite of Flame
 SW
 Gemstone Mine
@@ -272,8 +272,8 @@ O R P H O S E.
 :::row
 LP
 EoE
-DD
-DD
+Dd
+Dd
 SotV
 TO
 BW

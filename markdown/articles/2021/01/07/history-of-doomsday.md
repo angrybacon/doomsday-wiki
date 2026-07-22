@@ -150,7 +150,7 @@ build a Doomsday deck. Some tried to mimick what a lot of Storm decks at the
 time were doing building piles like:
 
 :::row{variant=PILE}
-BS
+Bs
 DR
 DR
 Ill-Gotten Gains
@@ -636,7 +636,7 @@ enabler.
 Land drop available + Cantrip + 1 card in hand + {1}{U}
 
 :::row{variant=PILE}
-BS
+Bs
 SI
 Cloud of Faeries|ULG
 Em
@@ -1079,7 +1079,7 @@ achieve a turn 2 kill with the following cards in hand/drawn:
 
 :::row
 Dark Ritual | MMQ
-DD
+Dd
 Dark Ritual | MMQ
 Pact of Negation | FUT
 SdT
@@ -1097,7 +1097,7 @@ result in a turn 1 win.
 
 :::row
 Dark Ritual | MMQ
-DD
+Dd
 Dark Ritual | MMQ
 Dur
 SdT
@@ -1351,7 +1351,7 @@ based lists. The man just didn't stop working on making the deck work. It might
 be this work that actually helped keep the sense of community focussed and ready
 for the next iteration of the deck that would appear in late 2018 and early 2019.
 
-## DD-EF-T? An Experimental Frenzy
+## Dd-EF-T? An Experimental Frenzy
 
 2018 saw the printing of the Guilds of Ravnica set which included a card called
 :card[Experimental Frenzy]. Frenzy was a card that had some cool potential to it
@@ -1372,10 +1372,10 @@ From the Discord chat log:
 > Shieet you can pull double doomsday piles out of your ass to generate storm
 > with frenzy this is so cool at 4 mana sources you can ptt pile with [EF, LED,
 >
-> LED, DD, ToA] Throw Healing Salve in the 75 and you can actually go infinite
+> LED, Dd, ToA] Throw Healing Salve in the 75 and you can actually go infinite
 > lol
 >
-> Wait ToA gains life so [LED, LED, LED, ToA, DD] is infinite
+> Wait ToA gains life so [LED, LED, LED, ToA, Dd] is infinite
 
 Reversemermaid stumbled upon the foundations of a new version of Doomsday in
 Legacy. It was dubbed DDEFT (still pronounced the same as DDFT) or _Doomsday
@@ -1392,7 +1392,7 @@ LED
 LED
 LED
 ToA
-DD
+Dd
 :::
 
 You cast each LED and cast Tendrils. This gains you enough life to cast the
@@ -1408,7 +1408,7 @@ LED
 LED
 LED
 Collective Brutality
-DD
+Dd
 :::
 
 With the release of War of the Spark another new tool was introduced that could

@@ -44,7 +44,7 @@ With Experimental Frenzy in play, casting Doomsday wins the game.
 LED
 LED
 LED
-DD
+Dd
 ToA
 :::
 
@@ -53,7 +53,7 @@ With this pile, you can get infinite Storm.
 1. Cast LED, Crack for {B}{B}{B}
 1. Cast LED, Crack for {B}{B}{B}
 1. Cast LED, Crack for {B}{B}{B}
-1. Cast DD, LED LED LED ToA DD
+1. Cast Dd, LED LED LED ToA Dd
 1. Repeat
 
 If you do not have an Experimental Frenzy in play, casting Doomsday wins if you
@@ -80,7 +80,7 @@ example, take this PTT pile where you need 4 mana on the next turn.
 EF
 LED
 LED
-DD
+Dd
 ToA
 :::
 
@@ -95,7 +95,7 @@ Dark Ritual as an alternative to LED.
 DR
 DR
 DR
-DD
+Dd
 ToA
 :::
 
@@ -109,7 +109,7 @@ or bounce spell.
 Dur
 LED
 LED
-DD
+Dd
 ToA
 :::
 
@@ -119,7 +119,7 @@ Or
 LED
 Dur
 LED
-DD
+Dd
 ToA
 :::
 
@@ -129,7 +129,7 @@ Or
 LED
 ET
 LED
-DD
+Dd
 ToA
 :::
 
@@ -151,13 +151,13 @@ LED
 LED
 LED
 Collective Brutality
-DD
+Dd
 :::
 
 ## Act on Impulse
 
 Act on Impulse allows for more traditional piles when you only have 3 mana
-post-DD, and can't cast Experimental Frenzy.
+post-Dd, and can't cast Experimental Frenzy.
 
 Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
 piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards

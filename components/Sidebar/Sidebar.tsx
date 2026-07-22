@@ -5,7 +5,7 @@ import type { PropsWithChildren } from 'react';
 
 import { Box, Drawer as MuiDrawer, drawerClasses } from '@mui/material';
 
-import { useLayout } from '@/hooks/useLayout';
+import { useLayout } from '~/hooks/useLayout';
 
 const WIDTH = 280;
 

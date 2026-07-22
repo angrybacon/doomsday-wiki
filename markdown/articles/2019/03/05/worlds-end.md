@@ -27,7 +27,7 @@ I am against UB Shadow, Game 1. We both know what each other are on. He has a
 threat-light hand with disruption and burns himself down to 13 stripping my
 hand. I play a :card[Cloud of Faeries] and start bashing in, holding
 countermagic up. He ignores them for a bit, even shuffling away a Fatal Push
-with a BS when suddenly his life is low enough to be in danger. We of course
+with a Bs when suddenly his life is low enough to be in danger. We of course
 have both been joking the whole time that I was now playing the Delver deck and
 would get there with it. He finally finds his own Delver to drop and lo' it does
 not flip (there is a long running joke that his Delvers never flip). Through his
@@ -58,9 +58,9 @@ Reversemermaid on 01/26/2019:
 > shieet you can pull double doomsday piles out of your ass to generate storm
 > with frenzy this is so cool
 >
-> at 4 mana sources you can ptt pile with \[EF, LED, LED, DD, ToA\] Throw
+> at 4 mana sources you can ptt pile with \[EF, LED, LED, Dd, ToA\] Throw
 > Healing Salve in the 75 and you can actually go infinite lol Wait ToA gains
-> life so \[LED, LED, LED, ToA, DD\] is infinite
+> life so \[LED, LED, LED, ToA, Dd\] is infinite
 
 Did this guy just say infinite storm with Frenzy out? Suddenly, people were
 interested. Myself included!
@@ -69,7 +69,7 @@ Looking into the card and decklist more there were some key things identified.
 
 1. Frenzy plus Doomsday is an instant win.
 1. Frenzy plus Doomsday is infinite Storm instant win.
-1. Frenzy plus Doomsday assuming you have B post DD is an instant win even with
+1. Frenzy plus Doomsday assuming you have B post Dd is an instant win even with
    Surgical on LED
 1. You can even sub out Tendrils for Collective Brutality and it would still
    work
@@ -94,7 +94,7 @@ LED
 LED
 LED
 ToA
-DD
+Dd
 :::
 
 So Assume Frenzy is out and you cast Doomsday, stack the above.
@@ -104,7 +104,7 @@ So Assume Frenzy is out and you cast Doomsday, stack the above.
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 1. Cast Tendrils from the top of your deck for 5 storm and have {B}{B}{B}{B}{B}
    left in pool
-1. Cast Doomsday stack \[LED, LED, LED, ToA, DD\]
+1. Cast Doomsday stack \[LED, LED, LED, ToA, Dd\]
 1. Repeat as required
 
 The nice thing is the repeat stacks can use the Doomsday in the yard to form the
@@ -121,14 +121,14 @@ LED
 LED
 LED
 Aetherflux Reservoir
-DD
+Dd
 :::
 
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 1. Cast AR from the top of your deck for {B}{B}{B}{B}{B} left in pool
-1. Cast Doomsday, gaining 6 life stack \[LED, LED, LED, DD, ?\]
+1. Cast Doomsday, gaining 6 life stack \[LED, LED, LED, Dd, ?\]
 1. Repeat as required
 
 Eventually the life gain will ramp up so that you go about 50 life and you can

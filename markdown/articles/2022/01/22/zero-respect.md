@@ -57,7 +57,7 @@ you want from it.
 
 This one is self explanatory. One of the best things about the current
 iterations of Doomsday is I get to run both all my combo staples :card[DR],
-:card[LED], :card[DD] alongside things like :card[FoW] with a full cantrip suite
+:card[LED], :card[Dd] alongside things like :card[FoW] with a full cantrip suite
 to boot! This means I can have the choice to play the aggressive role (without
 all that nasty combat maths that hurts my tiny brain) or pivot to take it slow a
 bit more until I want to win. This flexibility is something I value highly.
@@ -120,7 +120,7 @@ matchup I pretty much never deviate from my plan on and I am happy to take my
 You will notice through the guide I often do not take out :card[Con], :card[DA],
 :card[IU], :card[LED] and I almost always leave in 2 cycler effects. This is
 because I like having the options to access the instant win Deep Analysis pile,
-fast :card[BS] piles and resilient Ideas Unbound piles. Even if they seem poor
+fast :card[Bs] piles and resilient Ideas Unbound piles. Even if they seem poor
 in a matchup, simply having them available to you I think is important because
 they grant you the most flexibility post Doomsday to tailor the pile to your
 needs. In all likelihood I should probably cut some number of them more often

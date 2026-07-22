@@ -23,7 +23,7 @@ old-style lists were seen as inferior to the Frenzy lists, and little more
 thought was given to the card for a few months. As the end of the decade drew
 closer, Echo decks started to creep into the metagame a bit, and I started
 thinking more and more about the card. It dawned on me that if you cast Doomsday
-and cracked an LED to flashback Echo of Eons, you'd have at least 7 cards (DD,
+and cracked an LED to flashback Echo of Eons, you'd have at least 7 cards (Dd,
 LED, plus your pile) to draw with Echo. Echo could function as a storm engine on
 it's own, facilitate Doomsday piles, and recoup cards after getting disrupted.
 With this in mind, I figured I wanted multiple copies maindeck. Burning Wish
@@ -120,7 +120,7 @@ able to leverage your new cards better than they can.
 Beyond some of these Doomsday/Echo specific ideas, the deck plays much like
 other storm variants. Use your cantrips to set up for your combo turn. There is
 some tension between using cantrips to find missing pieces, and needing a
-cantrip to draw into a DD pile, but this is something you'll get used to in
+cantrip to draw into a Dd pile, but this is something you'll get used to in
 time. Just be thoughtful with your cantrips and think about why you are casting
 it, what you need to see, etc. Remember that Echoes and Wishes and even Veil can
 draw into piles as well under the right conditions, so drawing multiple business

@@ -1,10 +1,10 @@
-import { parse } from '@/tools/decklists/parse';
-import { parseCards } from '@/tools/decklists/parseCards';
-import { parseHeader } from '@/tools/decklists/parseHeader';
+import { parse } from '~/tools/decklists/parse';
+import { parseCards } from '~/tools/decklists/parseCards';
+import { parseHeader } from '~/tools/decklists/parseHeader';
 
-vi.mock('@/tools/decklists/parseCards');
+vi.mock('~/tools/decklists/parseCards');
 
-vi.mock('@/tools/decklists/parseHeader');
+vi.mock('~/tools/decklists/parseHeader');
 
 const sample = [
   '// Title: Decklist Title',

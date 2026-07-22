@@ -1,6 +1,6 @@
 ---
 authors: Doishy, d8dk32
-banner: DD
+banner: Dd
 kind: ARTICLE
 tags: [LEGACY, DDFT]
 title: Doomsday by Committee, Setting the Scene

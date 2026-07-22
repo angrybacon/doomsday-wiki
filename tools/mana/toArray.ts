@@ -1,4 +1,4 @@
-import { MANA_RE } from '@/tools/mana/constants';
+import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and split them into an array of patterns */
 export const toArray = (text: string): string[] => {

@@ -4,7 +4,7 @@ import { mdiMenu, mdiMenuOpen } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { AppBar, Divider, IconButton, Toolbar, Tooltip } from '@mui/material';
 
-import { useLayout } from '@/hooks/useLayout';
+import { useLayout } from '~/hooks/useLayout';
 
 export const Header = () => {
   const { hasTable, toggleMenu, toggleTable } = useLayout();

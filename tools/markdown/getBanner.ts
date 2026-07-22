@@ -1,6 +1,6 @@
 import type { ScrySingleResponse } from '@korumite/scrydrop';
 
-import { scry } from '@/tools/scryfall/scry';
+import { scry } from '~/tools/scryfall/scry';
 
 /** Fetch the artwork for a given Scryfall query */
 export const getBanner = async (query: string) => {

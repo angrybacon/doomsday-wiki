@@ -2,7 +2,7 @@ import type { ReadPlugin, TextDirective } from '@korumite/kiwi';
 
 import { findAndReplace } from 'mdast-util-find-and-replace';
 
-import { MANA_RE } from '@/tools/mana/constants';
+import { MANA_RE } from '~/tools/mana/constants';
 
 /**
  * Add support for `:mana` directives.

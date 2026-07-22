@@ -95,15 +95,15 @@ resolving TO.
 > Land drop available
 
 :::row{variant=PILE}
-BS
+Bs
 SW
 EoA
 Polluted Delta|ONS
 TO
 :::
 
-1. Cast Ponder to draw BS
-1. Cast BS and put back Island then EoA
+1. Cast Ponder to draw Bs
+1. Cast Bs and put back Island then EoA
 1. Cycle SW to draw EoA
 1. Land Polluted Delta and fetch the Island
 1. Cycle SW and play TO with 0 remaining cards
@@ -136,7 +136,7 @@ has resolved (from the Basics chapter):
 
 :::row
 DR
-DD
+Dd
 FoW
 FoW
 Swamp
@@ -150,7 +150,7 @@ becomes exposed thanks to having to discard our Forces. Here is one potential
 solution assuming we played Doomsday off of Swamp and Dark Ritual:
 
 :::row{variant=PILE}
-BS
+Bs
 Tsz
 LED
 EoA
@@ -171,7 +171,7 @@ fully. You can do a similar scenario where you have initiated off of Bayou with
 Veil of Summer instead.
 
 :::row{variant=PILE}
-BS
+Bs
 VoS
 LED
 EoA
@@ -211,7 +211,7 @@ Take the following hand:
 
 :::row
 DR
-DD
+Dd
 FoW
 FoW
 Underground Sea|LEB
@@ -387,8 +387,8 @@ taxed:
 SW
 EoA
 TO
-DD
-DD
+Dd
+Dd
 :::
 
 In the above example you can simply cycle the first two cards and then cast
@@ -539,8 +539,8 @@ want but it is a possibility to be explored.
 SW
 EoA
 TO
-DD
-DD
+Dd
+Dd
 :::
 
 Here you have a pile where, if they Surgical in response to the cantrip effect

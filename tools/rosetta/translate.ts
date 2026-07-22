@@ -1,4 +1,4 @@
-import { CARDS } from '@/tools/rosetta/constants';
+import { CARDS } from '~/tools/rosetta/constants';
 
 /**
  * Try and find the full name and assigned categories for a given acronym.

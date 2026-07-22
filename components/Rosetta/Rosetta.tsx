@@ -11,8 +11,8 @@ import {
   tableCellClasses,
 } from '@mui/material';
 
-import { useLayout } from '@/hooks/useLayout';
-import { CARDS } from '@/tools/rosetta/constants';
+import { useLayout } from '~/hooks/useLayout';
+import { CARDS } from '~/tools/rosetta/constants';
 
 const Row = ({
   category,

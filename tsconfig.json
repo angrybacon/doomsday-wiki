@@ -3,12 +3,12 @@
     "allowJs": true,
     "jsx": "preserve",
     "paths": {
-      "@/app/*": ["./app/*"],
-      "@/contexts/*": ["./contexts/*"],
-      "@/components/*": ["./components/*"],
-      "@/hooks/*": ["./hooks/*"],
-      "@/theme/*": ["./theme/*"],
-      "@/tools/*": ["./tools/*"]
+      "~/app/*": ["./app/*"],
+      "~/components/*": ["./components/*"],
+      "~/contexts/*": ["./contexts/*"],
+      "~/hooks/*": ["./hooks/*"],
+      "~/theme/*": ["./theme/*"],
+      "~/tools/*": ["./tools/*"]
     },
     "plugins": [{ "name": "next" }],
     "target": "esnext",

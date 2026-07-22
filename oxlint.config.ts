@@ -4,8 +4,8 @@ export default defineConfig({
   categories: {
     correctness: 'error',
     pedantic: 'error',
-    suspicious: 'error',
     perf: 'error',
+    suspicious: 'error',
   },
   options: {
     reportUnusedDisableDirectives: 'error',
@@ -16,10 +16,6 @@ export default defineConfig({
     {
       files: ['**/*.test.{ts,tsx}'],
       rules: { 'unicorn/consistent-function-scoping': 'off' },
-    },
-    {
-      files: ['app/layout.tsx', 'components/Markdown/Markdown.tsx'],
-      rules: { 'import/max-dependencies': 'off' },
     },
   ],
   plugins: [
@@ -37,10 +33,11 @@ export default defineConfig({
   ],
   rules: {
     'eslint/max-lines-per-function': 'off',
+    'eslint/no-console': ['error', { allow: ['error', 'info', 'warn'] }],
     'eslint/no-restricted-imports': [
       'error',
       {
-        message: "Use '@/tools/test' instead.",
+        message: "Use '~/tools/test' instead.",
         name: '@testing-library/react',
       },
     ],
@@ -51,14 +48,13 @@ export default defineConfig({
     'react-perf/jsx-no-new-array-as-prop': 'off',
     'react-perf/jsx-no-new-function-as-prop': 'off',
     'react-perf/jsx-no-new-object-as-prop': 'off',
-    // NOTE See https://oxc.rs/docs/guide/usage/linter/rules/typescript/ban-types
-    'typescript/ban-types': 'off',
     'typescript/no-confusing-void-expression': [
       'error',
       { ignoreArrowShorthand: true },
     ],
     'typescript/no-import-type-side-effects': 'error',
     'typescript/no-unnecessary-condition': 'error',
+    'typescript/prefer-optional-chain': 'error',
     'typescript/prefer-readonly-parameter-types': 'off',
     'typescript/strict-boolean-expressions': 'off',
     'unicorn/explicit-length-check': 'off',

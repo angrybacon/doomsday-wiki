@@ -21,7 +21,7 @@ import {
 } from '@mui/material';
 import { useEffect, useState } from 'react';
 
-import { shuffle } from '@/components/SpoilsCalculator/shuffle';
+import { shuffle } from '~/components/SpoilsCalculator/shuffle';
 
 type Input = {
   copies: number;

@@ -88,7 +88,7 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 ::::accordion[Click to expand]
 
 ```ts
-import { MANA_RE } from '@/tools/mana/constants';
+import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and replace them with the directive syntax */
 export const toDirective = (text: string): string => {
@@ -111,7 +111,7 @@ Doomsday | SLD | 1115
 ::::accordion[Click to expand]
 
 ```ts
-import { MANA_RE } from '@/tools/mana/constants';
+import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and replace them with the directive syntax */
 export const toDirective = (text: string): string => {
@@ -134,7 +134,7 @@ Doomsday | SLD | 1115
 
 ````text
 ```ts
-import { MANA_RE } from '@/tools/mana/constants';
+import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and replace them with the directive syntax */
 export const toDirective = (text: string): string => {
@@ -145,7 +145,7 @@ export const toDirective = (text: string): string => {
 ````
 
 ```ts
-import { MANA_RE } from '@/tools/mana/constants';
+import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and replace them with the directive syntax */
 export const toDirective = (text: string): string => {
@@ -419,12 +419,12 @@ Cruel Bargain
 
 ```md
 :::row
-BS
+Bs
 :::
 ```
 
 :::row
-BS
+Bs
 :::
 
 ### Pile
@@ -503,7 +503,7 @@ printings of the same card.
 
 ```md
 :::row
-DD
+Dd
 Doomsday | SLD
 Subtlety
 Subtlety | MH2
@@ -512,7 +512,7 @@ Duress | STA | 92
 ```
 
 :::row
-DD
+Dd
 Doomsday | SLD
 Subtlety
 Subtlety | MH2

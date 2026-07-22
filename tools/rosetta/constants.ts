@@ -1,12 +1,12 @@
-import type { Category } from '@/tools/markdown/schemas';
+import type { Category } from '~/tools/markdown/schemas';
 
 /** Commonly used acronyms and their corresponding categories */
 export const CARDS: Record<string, [name: string, categories: Category[]]> =
   // prettier-ignore
   {
     AoI:  ['Act on Impulse',           ['DDEFT', 'DDFT']],
-    BS:   ['Brainstorm',               []],
     BW:   ['Burning Wish',             ['DDFT']],
+    Bs:   ['Brainstorm',               []],
     CB:   ["Conjurer's Bauble",        ['DDFT']],
     CR:   ['Cabal Ritual',             []],
     CT:   ['Cabal Therapy',            []],
@@ -14,9 +14,9 @@ export const CARDS: Record<string, [name: string, categories: Category[]]> =
     CoV:  ['Chain of Vapor',           []],
     Con:  ['Consider',                 ['DDFT', 'ENTOMBSDAY', 'MEANDECK']],
     DA:   ['Deep Analysis',            ['MEANDECK']],
-    DD:   ['Doomsday',                 []],
     DR:   ['Dark Ritual',              []],
     DW:   ['Divining Witch',           []],
+    Dd:   ['Doomsday',                 []],
     Dur:  ['Duress',                   []],
     EF:   ['Experimental Frenzy',      ['DDEFT']],
     ET:   ['Echoing Truth',            []],

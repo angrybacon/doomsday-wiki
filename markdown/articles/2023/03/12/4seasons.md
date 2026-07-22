@@ -148,7 +148,7 @@ passes. I :card[Ponder] and set up a turn 2 Doomsday with double Force backup.
 :card[CoS] for Human, :card[Thalia, Guardian of Thraben]. :card[Wasteland] on
 the next turn followed by :card[Rishadan Port] quickly close my window.
 
-**Game 2 and 3** were not particolarly close, just usual DD vs DnT stuff.
+**Game 2 and 3** were not particolarly close, just usual Dd vs DnT stuff.
 (Doishy's editor comments, "F's in chat for DnT players")
 
 Match 2-1  
@@ -160,10 +160,10 @@ Matches 1-1
 It sucks to get paired against a teammate but at least it's a good matchup I
 guess?
 
-The games again are just usual DD vs DnT. I lose game 2 because of a mulligan
+The games again are just usual Dd vs DnT. I lose game 2 because of a mulligan
 into a sketchy hand, but apart from that it went smoothly. Alessandro usually
 plays Delver, so imagine his excitement when he found out he had gotten paired
-against DD while on DnT.
+against Dd while on DnT.
 
 Match 2-1  
 Games 5-4  
@@ -189,7 +189,7 @@ Matches 3-1
 
 **Game 1** my opponent leads on :card[Delver of Secrets]. I have :card[LP],
 Petal, Ritual, Thoughtseize, Doomsday, :card[Underground Sea]. I go for the T1
-Doomsday, but my opponent has Delver, :card[BS], :card[ Lightning Bolt],
+Doomsday, but my opponent has Delver, :card[Bs], :card[ Lightning Bolt],
 Wasteland in hand. I take the Brainstorm and go for a pile that plays around
 anything but a counter. My opponent flips a Daze to its delver trigger.
 
@@ -258,10 +258,10 @@ and we went to game 3.
 
 :::row{variant=PILE}
 Sheoldred, the Apocalypse
-BS
+Bs
 Pnd
 Abrupt Decay
-DD
+Dd
 :::
 
 **Game 3:** I open a reasonable hand with Preordain, Brainstorm, Doomsday x2,
@@ -336,7 +336,7 @@ Matches 3-0
 ### Round 4 vs Nicola on Sneak and Show
 
 **Game 1:** I don't remember much about the early stages of game one, but I
-managed to cast DD and my opponent answers with Daze, forcing me to crack Lotus
+managed to cast Dd and my opponent answers with Daze, forcing me to crack Lotus
 Petal, my only available mana source left. I was counting on that one to
 Brainstorm into Cycler, Cycler, Oracle in case he had Show and Tell. He didn't
 have the win on the following turn and I was able to just cycle into Cavern +

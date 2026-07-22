@@ -2,7 +2,7 @@
 import { ThemeProvider } from '@mui/material';
 import { render as r } from '@testing-library/react';
 
-import { theme } from '@/theme/theme';
+import { theme } from '~/theme/theme';
 
 export const render = (...parameters: Parameters<typeof r>) => {
   const [ui, options] = parameters;

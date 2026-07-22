@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 
 import { Typography } from '@mui/material';
 
-import { Markdown } from '@/components/Markdown/Markdown';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { Markdown } from '~/components/Markdown/Markdown';
+import { getMarkdown } from '~/tools/markdown/getMarkdown';
 
 export const metadata: Metadata = {
   title: 'License',

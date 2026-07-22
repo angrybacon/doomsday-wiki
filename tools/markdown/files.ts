@@ -2,12 +2,12 @@ import { join } from 'node:path';
 import { makeCards, makeNextRoutes, walk } from '@korumite/kiwi';
 import * as z from 'zod';
 
-import { formatDate } from '@/tools/io/formatDate';
+import { formatDate } from '~/tools/io/formatDate';
 import {
   CategorySchema,
   KindSchema,
   TagSchema,
-} from '@/tools/markdown/schemas';
+} from '~/tools/markdown/schemas';
 
 /** @deprecated Use `BASE_URLS.ROOT` instead */
 const BASE_URL = join(process.cwd(), 'markdown');

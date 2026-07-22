@@ -1,3 +1,4 @@
+// oxlint-disable import/max-dependencies
 import type { Metadata, Viewport } from 'next';
 import type { PropsWithChildren } from 'react';
 
@@ -12,16 +13,15 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import { Libre_Baskerville, Roboto } from 'next/font/google';
 
-import { Drawer } from '@/components/Drawer/Drawer';
-import { Footer } from '@/components/Footer/Footer';
-import { Header } from '@/components/Header/Header';
-import { Sidebar } from '@/components/Sidebar/Sidebar';
-import { LayoutProvider } from '@/contexts/Layout';
-import { Tracking } from '@/contexts/Tracking';
-import { primary } from '@/theme/palette';
-import { theme } from '@/theme/theme';
-import { getClock } from '@/tools/clock/getClock';
-import { MENU } from '@/tools/markdown/menu';
+import { Drawer } from '~/components/Drawer/Drawer';
+import { Footer } from '~/components/Footer/Footer';
+import { Header } from '~/components/Header/Header';
+import { Sidebar } from '~/components/Sidebar/Sidebar';
+import { LayoutProvider } from '~/contexts/Layout';
+import { primary } from '~/theme/palette';
+import { theme } from '~/theme/theme';
+import { getClock } from '~/tools/clock/getClock';
+import { MENU } from '~/tools/markdown/menu';
 
 export const dynamicParams = false;
 
@@ -65,7 +65,6 @@ export default async ({ children }: PropsWithChildren) => {
         <InitColorSchemeScript attribute="data" />
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <Tracking />
             <CssBaseline />
             <LayoutProvider>
               <Sidebar>

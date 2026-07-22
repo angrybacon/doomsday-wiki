@@ -2,7 +2,7 @@ import type { SxProps } from '@mui/material';
 
 import { Box } from '@mui/material';
 
-import { Link } from '@/components/Link/Link';
+import { Link } from '~/components/Link/Link';
 
 type Props = {
   sx?: SxProps;
@@ -24,12 +24,11 @@ export const Footer = ({ sx }: Props) => (
     ]}
   >
     <p>
-      &copy; {new Date().getUTCFullYear()} Doomsday Wiki contributors. Read the
-      notice about <Link href="/license">licenses and resources</Link>.
+      &copy; Doomsday Wiki contributors &bull; {process.env.NEXT_PUBLIC_VERSION}
     </p>
     <p>
-      This page collects anonymous analytics in order to improve its contents.
-      By browsing the Wiki, you consent to the collection and use of that data.
+      Read the notice about <Link href="/license">licenses and resources</Link>.
+      This site collects anonymous usage data to improve its content.
     </p>
   </Box>
 );

@@ -127,7 +127,7 @@ useless outside of an active combo turn and sometimes variance can really kick
 you in the proverbial nuts but most of the time, at least according to the
 numbers, we seem to be doing fine.
 
-### Making BBB for a Quick DD Without DR is Difficult
+### Making BBB for a Quick Dd Without DR is Difficult
 
 One of the issues with the deck is that the namesake card does require BBB to
 cast. This is an interesting element with a deck that is primarily U. In terms
@@ -175,7 +175,7 @@ including one listed as "Active Combo turn". This turn has been tracked on a
 scale of T1 to T4+ with the theory that beyond T4 there is little difference for
 a deck concerned about being fast between say T5 and T20. As part of my data
 gathering I also collected combo turn statistics. This is the turn the combo
-occurs so if you are executing a DD pass-the-turn pile it is the turn you cast
+occurs so if you are executing a Dd pass-the-turn pile it is the turn you cast
 Doomsday to make the pile, not the turn you win on. This can create some results
 skewing but I will address that a bit more in a moment. First let's look at the
 raw data.
@@ -242,7 +242,7 @@ of...
 | DDFT | 2.99               |
 | TES  | 2.61               |
 
-Focussing only on the DD winning lines we see the turn average has definately
+Focussing only on the Dd winning lines we see the turn average has definately
 gone up but is still on par with ANT. Following on from this point again Nanda
 had real concerns that Doomsday as a deck was not winning using its namesake
 card. Let's look at the breakdown of winning game engines:
@@ -291,7 +291,7 @@ stack having been addressed:
 
 1. The deck is inconsistent.  
    **No more than any combo deck**
-1. Making {B}{B}{B} for a quick DD without DR is difficult.  
+1. Making {B}{B}{B} for a quick Dd without DR is difficult.  
    **Potentially but often not**
 1. Doomsday is not a fast enough deck.  
    **Slower than TES, as fast as ANT**

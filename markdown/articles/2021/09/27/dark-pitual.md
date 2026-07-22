@@ -444,7 +444,7 @@ G3 Went to 5 for a hand of :card[Ponder], :card[Force of Negation], land,
 
 #### Round 1 vs Kyle Dorgan on Karnforge. Win (2-1)
 
-Nothing to note here. Typical combo matchup for DD where I bought time with
+Nothing to note here. Typical combo matchup for Dd where I bought time with
 counterspells to get a same turn win with Doomsday.
 
 #### Round 2 vs Austin Blackner on UR Delver. Win (2-1)

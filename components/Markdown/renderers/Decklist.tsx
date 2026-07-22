@@ -1,12 +1,12 @@
-import type { Hastified } from '@/components/Markdown/types';
+import type { Hastified } from '~/components/Markdown/types';
 import type {
   DecklistExtra,
   Decklist as DecklistModel,
-} from '@/tools/decklists/types';
+} from '~/tools/decklists/types';
 
 import { RemarkError } from '@korumite/kiwi';
 
-import { Decklist as DecklistAccordion } from '@/components/Decklist/Decklist';
+import { Decklist as DecklistAccordion } from '~/components/Decklist/Decklist';
 
 type Props = {
   node: Hastified<{ decklist: DecklistModel & DecklistExtra }>;

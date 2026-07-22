@@ -117,7 +117,7 @@ itself. The remaining storm generally comes from a Ritual (6) to cast a Doomsday
 Duress to see if the coast is clear, or an extra ritual or something.
 
 Now imagine a scenario where you have an untapped Island and Swamp, and a hand
-of DD, LED, PN, DR. You can cast Doomsday, you have a cantrip to draw into the
+of Dd, LED, PN, DR. You can cast Doomsday, you have a cantrip to draw into the
 pile, and you have an LED to make mana for the Draw4. That's 4 storm, plus 5
 from the pile makes you 1 short. Fortunately you can squeeze that 10th storm out
 of your pile with a slight modification:
@@ -236,7 +236,7 @@ LP
 DR
 :::
 
-This concept of using BS to trade cards in hand for cards in library can be
+This concept of using Bs to trade cards in hand for cards in library can be
 extended to other pile components, like if you have a spare LP in hand, etc.
 
 #### Can You Do a Pass-the-Turn Pile?
@@ -357,7 +357,7 @@ There are 2 conflicting needs at work in this deck. One is the need to see as
 many cards as possible, and the other is the need to conserve cantrips for use
 as a combo peice alongside Doomsday. This balancing act gets easier with
 practice. Cast your Preordains first. Hold onto Brainstorms as long as possible.
-Remember that BW is a pseudo-cantrip into a DD pile since it can get you a
+Remember that BW is a pseudo-cantrip into a Dd pile since it can get you a
 Draw4. Doomsday won't be your main plan in some matchups and then you can use
 your cantrips more aggressively to set up another kind of kill.
 
@@ -367,7 +367,7 @@ poorly, duress poorly, fetch poorly, just generally spend your resources poorly.
 A lack of a plan will lose you games you could otherwise win. I think this
 concept applies to most every deck, but it's particularly important in proactive
 combo decks that require careful resource management. Look at your opening hand,
-determine whether you think you'll be winning with DD, Natural Storm, EtW, spend
+determine whether you think you'll be winning with Dd, Natural Storm, EtW, spend
 your resources in the way that best facilitates the plan. It's ok if sometimes
 the plan is _gather info and resources_, but if you can't quickly devise a more
 concrete plan you put yourself at a disadvantage.
@@ -409,7 +409,7 @@ cards. Burning Wish is also decent since if it resolves you can still do
 something produtive with it like grab a Draw4 or a PiF. Be careful when using
 Doomsday as a bait spell. Most of the time opponents will throw counters at it
 without a second thought, but if they call your bluff you can very well lose the
-game. Ideally you only use DD as bait if it seems like you can actually go off
+game. Ideally you only use Dd as bait if it seems like you can actually go off
 with it, both because you won't lose to yourself if it resolves, but also
 because it makes your opponent more likely to counter it.
 
@@ -425,14 +425,14 @@ quickly you may need to avoid killing with Doomsday. Foreseeing this and knowing
 when to pivot away from Doomsday will help you win games you might not have
 otherwise.
 
-Cabal Ritual with threshold is 5 black mana. Just need one more to cast DD + IC.
+Cabal Ritual with threshold is 5 black mana. Just need one more to cast Dd + IC.
 
 Don't shoot off Duresses willy-nilly.
 
 Try not to be overly afraid of Surgical Extraction. There is no one card that
 can be removed from your deck to completely shut off your ability to win. Since
 Draw4s let you pick up your whole deck after Doomsday there's no good way for
-your opponent to Surgical you post-DD and leave you with less than a 60% chance
+your opponent to Surgical you post-Dd and leave you with less than a 60% chance
 to win by reordering your pile.
 
 When you want to cast a cantrip, think hard about what you're looking for. What
@@ -628,4 +628,4 @@ Percentages are rounded to the nearest whole number.
 **Percent Matches Won with Natural Tendrils:** 36%  
 **Match Win Rate by Die Roll:** Win Roll - 65%, Lose Roll - 62%  
 **Game Win Rate by Mulligan:** 7 - 63%, 6 - 61%, 5 - 18%, 4 - 25%  
-**Avg Combo Turn by Wincon:** DD - 3.58, Natural Drills - 3.93, EtW - 3.14
+**Avg Combo Turn by Wincon:** Dd - 3.58, Natural Drills - 3.93, EtW - 3.14

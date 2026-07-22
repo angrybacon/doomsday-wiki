@@ -95,7 +95,7 @@ as almost drawing 3 cards with some people comparing it to :card[Ancestral
 Recall].
 
 :::row{variant=CENTERED}
-BS
+Bs
 :::
 
 ### Free Cycle Effects
@@ -251,7 +251,7 @@ Pnd
 FoW
 FoW
 Swamp
-BS
+Bs
 Pre
 :::
 
@@ -424,7 +424,7 @@ EoA
 FoW
 FoW
 Underground Sea
-BS
+Bs
 Daze
 :::
 
@@ -466,7 +466,7 @@ SW
 Pre
 Pnd
 Daze
-BS
+Bs
 Scalding Tarn
 :::
 
@@ -505,7 +505,7 @@ Our hand is:
 Daze
 Island
 Pre
-DD
+Dd
 Dur
 EoA
 Misty Rainforest

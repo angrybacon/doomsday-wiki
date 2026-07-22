@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 
 import { makeToc } from '@korumite/kiwi';
 
-import { Markdown } from '@/components/Markdown/Markdown';
-import { Toc } from '@/components/Toc/Toc';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { Markdown } from '~/components/Markdown/Markdown';
+import { Toc } from '~/components/Toc/Toc';
+import { getMarkdown } from '~/tools/markdown/getMarkdown';
 
 export const metadata: Metadata = {
   title: 'Markdown Preview',

@@ -255,7 +255,7 @@ top card instead.
 > {U} + Street Wraith + X
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 EoA
 TO
@@ -271,7 +271,7 @@ Alternatively, use Consider to get rid of X and achieve a perfect pile.
 > {U} + Street Wraith + X
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 EoA
 Consider

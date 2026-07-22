@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 
 import { Grid } from '@mui/material';
 
-import { Markdown } from '@/components/Markdown/Markdown';
-import { getArticleCards } from '@/tools/markdown/getArticleCards';
-import { getMarkdown } from '@/tools/markdown/getMarkdown';
+import { Markdown } from '~/components/Markdown/Markdown';
+import { getArticleCards } from '~/tools/markdown/getArticleCards';
+import { getMarkdown } from '~/tools/markdown/getMarkdown';
 import { Articles } from './Articles';
 
 export const metadata: Metadata = {

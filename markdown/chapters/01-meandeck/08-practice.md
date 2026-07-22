@@ -164,7 +164,7 @@ Opponent has 5 cards in hand.
 Your hand:
 
 :::row
-DD
+Dd
 DR
 Misty Rainforest
 Daze
@@ -231,7 +231,7 @@ this:
 
 :::row{variant=PILE}
 SW
-BS
+Bs
 LP
 TO
 CoS
@@ -260,8 +260,8 @@ resolution but hopefully the Daze is sufficient to protect the Oracle.
 Let's run through the first pile assuming we PTT once:
 
 1. Draw SW for turn
-1. Cycle SW, draw BS
-1. Cast BS, draw , LP, TO, CoS, put back Duress, Force
+1. Cycle SW, draw Bs
+1. Cast Bs, draw , LP, TO, CoS, put back Duress, Force
 1. Cast LP, crack for {U}
 1. Play Cavern naming Wizard or Merfolk
 1. Cast Oracle and win the game with 2 cards left in deck
@@ -303,7 +303,7 @@ Game 3 turn 1 on the play with a 5 cards opening hand.
 Your hand:
 
 :::row
-DD
+Dd
 DR
 Misty Rainforest
 LP
@@ -321,7 +321,7 @@ of any pitch card.
 
 We are certainly casting Doomsday here but we are faced with an initial decision
 on what initial mana source we do it from. We could play our land, fetch Sea and
-then resolve DR into DD, casting LP afterwards to insulate us from
+then resolve DR into Dd, casting LP afterwards to insulate us from
 :card[Blood Moon] effects and/or Chalice of the Void on 0. We could also cast
 DR off of Petal and hold up the Misty to then access a basic Island from the
 pile both insulating our mana and digging deeper into the pile.
@@ -355,7 +355,7 @@ Here are a few examples to think about:
 > PTT + fetchland
 
 :::row{variant=PILE}
-BS
+Bs
 LP
 TO
 CoS
@@ -385,7 +385,7 @@ CoS
 > PTT + PTT + fetchland
 
 :::row{variant=PILE}
-BS
+Bs
 TO
 CoS
 TO
@@ -420,7 +420,7 @@ You have 2 Underground Sea in play, 18 Life and your land drop available to you.
 Your hand:
 
 :::row
-DD
+Dd
 LP
 SW
 Flooded Strand
@@ -473,7 +473,7 @@ potential "interaction list".
 > SW + X + {U}
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 SW
 Con
@@ -502,7 +502,7 @@ We could also look at this:
 > SW + X + {U}
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 SW
 TO
@@ -510,14 +510,14 @@ TO
 :::
 
 As the opponent cannot cast any removal currently, and Endurance is still their
-biggest threat to this same turn win, we could look to try doing an impefect BS
+biggest threat to this same turn win, we could look to try doing an imperfect Bs
 pile with two Oracles included. Let's talk through how this pile plays out and
 assume our opponent waits until the very last minute (Oracle Trigger on the
 stack) to commit Endurance. We start with having cracked Petal and Strand pre-
 Doomsday to ensure less cards in our graveyard:
 
-1. Cycle SW into pile, draw BS
-1. Cast BS, draw LED, SW, TO, put back FoW and TO on top
+1. Cycle SW into pile, draw Bs
+1. Cast Bs, draw LED, SW, TO, put back FoW and TO on top
 1. Cast LED
 1. Cycle SW, hold priority crack LED for {U}{U}{U}, draw TO
 1. Cast TO to try and win with 2 cards in deck
@@ -525,13 +525,13 @@ Doomsday to ensure less cards in our graveyard:
 1. Oracle trigger resolves, see Force and Oracle
 
 This is the part where we have an interesting decision. Our deck is currently
-7 cards (FoW, TO and then some order of DD, SW, SW, LED, BS). If we were to
+7 cards (FoW, TO and then some order of Dd, SW, SW, LED, Bs). If we were to
 resolve the trigger and just keep Oracle on top that would only give us a
 potential devotion to {U} of 4 for the following turn with still 6 cards left
 in the deck. As a result we would need to pass again and hope to draw a cantrip
 at that (but we would probably die by then). As a result we should probably
 just let TO then FoW go to the bottom and try to get through the pile hoping
-to draw exactly SW into SW into BS. Not likely at all.
+to draw exactly SW into SW into Bs. Not likely at all.
 
 Conceptually it's a decent plan but it realistically loses just as hard to
 Endurance as the first example we presented.
@@ -569,7 +569,7 @@ Let's run through the pile assuming they have 2 Endurance:
 1. Cycle SW, draw EoA
 1. Oracle trigger is still on the stack with 2 cards in deck
 1. Opponent casts Endurance, trigger resolves
-1. Cycle Edge, draw IU or DD
+1. Cycle Edge, draw IU or Dd
 1. Oracle trigger resolves, win the game with 2 cards in deck
 
 This gets messier if they have removal like :card[Abrupt Decay] or if they hit
@@ -607,7 +607,7 @@ Let's look at one more potential PTT pile.
 > PTT + Flooded Strand + {U}
 
 :::row{variant=PILE}
-BS
+Bs
 TO
 TO
 LP
@@ -618,8 +618,8 @@ Again this pile requires you to have cast Doomsday off of Lotus Petal. This is
 a pile that looks to cast 2 Oracle in a single turn.
 
 1. Resolve Doomsday, pass the turn
-1. Draw BS for turn
-1. Cast BS, draw TO, TO, LP, put back FoW, SW
+1. Draw Bs for turn
+1. Cast Bs, draw TO, TO, LP, put back FoW, SW
 1. Crack Flooded Strand, fetch Island
 1. Cast Oracle to try and win with 2 cards in deck
 1. If required, cast LP, crack for {U}

@@ -349,7 +349,7 @@ However this was not the key point as to why it was run. It provides a decent
 cantrip effect which can be used to gain advantage through cards like
 :card[Narset, Parter of Veils] whilst also providing a clean way to _dig_
 through two cards in a pile. It also provides a way to create _perfect_
-:card[BS] piles [in key scenarios][meandeck:brainstorm-free-cantrip].
+:card[Bs] piles [in key scenarios][meandeck:brainstorm-free-cantrip].
 
 [meandeck:brainstorm-free-cantrip]: /meandeck/brainstorm#brainstorm-and-free-cantrip-available
 

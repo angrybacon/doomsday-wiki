@@ -200,7 +200,7 @@ Underground Sea
 Flooded Strand
 Marsh Flats
 Entomb
-BS
+Bs
 Force of Will
 Lim-Dûl's Vault
 :::
@@ -362,7 +362,7 @@ are:
 > Cantrip + {U} + X
 
 :::row{variant=PILE}
-BS
+Bs
 LED
 Con
 SW

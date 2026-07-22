@@ -1,7 +1,7 @@
 'use client';
 
 import type { PropsWithChildren } from 'react';
-import type { Category } from '@/tools/markdown/schemas';
+import type { Category } from '~/tools/markdown/schemas';
 
 import { useParams, usePathname } from 'next/navigation';
 import {
@@ -12,7 +12,7 @@ import {
   useState,
 } from 'react';
 
-import { CategorySchema } from '@/tools/markdown/schemas';
+import { CategorySchema } from '~/tools/markdown/schemas';
 
 export const LayoutContext = createContext({
   category: null as Category | null,

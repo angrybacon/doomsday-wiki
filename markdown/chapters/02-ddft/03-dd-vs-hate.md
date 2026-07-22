@@ -85,7 +85,7 @@ What about something like Pyroblast? Ideas Unbound and Thassa's Oracle are both
 blue, so this poses some difficulty. Fortunately, the sideboard gives us some
 options to work with.
 
-> LED, BW in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
+> LED, BW in hand - {B}{B}{B} + {1}{R}, 12+ life pre-Dd - 9 Storm
 
 :::row{variant=PILE}
 LED
@@ -275,7 +275,7 @@ BW
 
 Echo piles can win with Tendrils without ever casting a 1-cost spell.
 
-> BW, LED in hand - {B}{B}{B} + {1}{R}, 12+ life pre-DD - 9 Storm
+> BW, LED in hand - {B}{B}{B} + {1}{R}, 12+ life pre-Dd - 9 Storm
 
 :::row{variant=PILE}
 LED
@@ -513,7 +513,7 @@ Brainstorm so you can get the LED in your hand, and then draw a Street Wraith
 with Ponder. From here, you can cast LED, cycle Wraith making UUU, and be able
 to win. If they don't Surgical in response to the Ponder, simply draw the LED.
 Cast it, then Brainstorm making UUU with LED. If they Surgical in response to
-BS, you'll win no matter what you draw. If they don't you'll still win from here
+Bs, you'll win no matter what you draw. If they don't you'll still win from here
 even if they Surgical later on.
 
 The takeaway here is that the instant speed draw of Brainstorm lets you get the

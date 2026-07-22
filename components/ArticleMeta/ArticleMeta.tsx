@@ -2,7 +2,7 @@ import { mdiAccountEdit, mdiCalendar } from '@mdi/js';
 import { Icon } from '@mdi/react';
 import { Box } from '@mui/material';
 
-import { ArticleChip } from '@/components/ArticleChip/ArticleChip';
+import { ArticleChip } from '~/components/ArticleChip/ArticleChip';
 
 type Props = {
   authors: string;
