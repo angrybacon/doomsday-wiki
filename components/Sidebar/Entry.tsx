@@ -2,15 +2,8 @@
 
 import type { MENU } from '~/tools/markdown/menu';
 
-import { mdiChevronDown } from '@mdi/js';
-import { Icon } from '@mdi/react';
-import {
-  Box,
-  Collapse,
-  List,
-  ListItemButton,
-  ListItemText,
-} from '@mui/material';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMoreRounded';
+import { Collapse, List, ListItemButton, ListItemText } from '@mui/material';
 import NextLink from 'next/link';
 import { useParams } from 'next/navigation';
 import { useState } from 'react';
@@ -38,14 +31,11 @@ export const Entry = ({ chapter, pages, subtitle, title }: Props) => {
           secondary={subtitle}
           slotProps={{ secondary: { variant: 'caption' } }}
         />
-        <Box
-          component={Icon}
-          path={mdiChevronDown}
-          rotate={isOpen ? -180 : 0}
-          size={1}
-          sx={(theme) => ({
-            transition: theme.transitions.create('transform'),
-          })}
+        <ExpandMoreIcon
+          sx={[
+            (theme) => ({ transition: theme.transitions.create('transform') }),
+            isOpen && { transform: 'rotate(.5turn)' },
+          ]}
         />
       </ListItemButton>
       <Collapse in={isOpen} timeout="auto">

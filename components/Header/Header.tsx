@@ -1,7 +1,7 @@
 'use client';
 
-import { mdiMenu, mdiMenuOpen } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import MenuOpenIcon from '@mui/icons-material/MenuOpenRounded';
+import MenuIcon from '@mui/icons-material/MenuRounded';
 import { AppBar, IconButton, Toolbar, Tooltip } from '@mui/material';
 
 import { useLayout } from '~/hooks/useLayout';
@@ -28,7 +28,7 @@ export const Header = () => {
           onClick={() => toggleMenu(true)}
           sx={{ display: { md: 'none' } }}
         >
-          <Icon path={mdiMenu} size={1} />
+          <MenuIcon fontSize="small" />
         </IconButton>
         {hasTable && (
           <Tooltip title={`${showTable ? 'Close' : 'Open'} table of contents`}>
@@ -36,12 +36,7 @@ export const Header = () => {
               onClick={toggleTable()}
               sx={{ display: { md: 'none' }, ml: 'auto' }}
             >
-              <Icon
-                // NOTE We update accessibility data but the icon doesn't matter
-                //      as no one will actually _see_ it.
-                path={mdiMenuOpen}
-                size={1}
-              />
+              <MenuOpenIcon fontSize="small" />
             </IconButton>
           </Tooltip>
         )}

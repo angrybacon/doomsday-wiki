@@ -3,13 +3,13 @@
 import type { MENU } from '~/tools/markdown/menu';
 import type { Category } from '~/tools/markdown/schemas';
 
-import { Icon } from '@mdi/react';
 import {
   Box,
   Button,
   Divider,
   IconButton,
   List,
+  SvgIcon,
   Toolbar,
   Tooltip,
 } from '@mui/material';
@@ -65,7 +65,9 @@ export const Drawer = ({ clock, menu }: Props) => (
       </Tooltip>
       <Tooltip title="Join our Discord server">
         <IconButton component={NextLink} href="/discord" target="_blank">
-          <Icon path={siDiscord.path} size={0.6} />
+          <SvgIcon fontSize="small">
+            <path d={siDiscord.path} />
+          </SvgIcon>
         </IconButton>
       </Tooltip>
     </Toolbar>

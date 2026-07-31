@@ -2,8 +2,8 @@
 
 import type { ChangeEvent } from 'react';
 
-import { mdiDelete, mdiReload } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import DeleteIcon from '@mui/icons-material/DeleteRounded';
+import RestoreIcon from '@mui/icons-material/RestoreRounded';
 import {
   Box,
   Button,
@@ -145,12 +145,12 @@ export const SpoilsCalculator = () => {
         </Button>
         <Tooltip title="Reset inputs">
           <Button onClick={onResetInput}>
-            <Icon path={mdiReload} size={1} />
+            <RestoreIcon />
           </Button>
         </Tooltip>
         <Tooltip title="Clear results">
           <Button onClick={onResetOutput}>
-            <Icon path={mdiDelete} size={1} />
+            <DeleteIcon />
           </Button>
         </Tooltip>
       </ButtonGroup>

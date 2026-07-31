@@ -1,5 +1,5 @@
-import { mdiAccountEdit, mdiCalendar } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import AttributionIcon from '@mui/icons-material/AttributionRounded';
+import EventIcon from '@mui/icons-material/EventRounded';
 import { Box } from '@mui/material';
 
 import { ArticleChip } from '~/components/ArticleChip/ArticleChip';
@@ -21,18 +21,8 @@ export const ArticleMeta = ({ authors, date, kind, tags }: Props) => (
     }}
   >
     <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 0.5 }}>
-      {authors && (
-        <ArticleChip
-          icon={<Icon path={mdiAccountEdit} size={0.6} />}
-          label={authors}
-        />
-      )}
-      {date && (
-        <ArticleChip
-          icon={<Icon path={mdiCalendar} size={0.6} />}
-          label={date}
-        />
-      )}
+      {authors && <ArticleChip icon={<AttributionIcon />} label={authors} />}
+      {date && <ArticleChip icon={<EventIcon />} label={date} />}
       {tags.map((tag) => (
         <ArticleChip
           key={tag}

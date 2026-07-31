@@ -2,8 +2,7 @@
 
 import type { ScrySingleResponse } from '@korumite/scrydrop';
 
-import { mdiCached } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import ThreeSixtyIcon from '@mui/icons-material/ThreeSixtyRounded';
 import { Box, IconButton } from '@mui/material';
 import { useState } from 'react';
 
@@ -40,7 +39,7 @@ export const Card = ({ faces }: Props) => {
         })}
         title="Flip"
       >
-        <Icon path={mdiCached} />
+        <ThreeSixtyIcon />
       </IconButton>
     ) : null;
 
