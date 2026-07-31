@@ -1,17 +1,18 @@
 'use client';
 
-import type { ComponentPropsWithoutRef } from 'react';
+import type { SxProps } from '@mui/material';
+import type { LinkProps } from 'next/link';
+import type { PropsWithChildren } from 'react';
 
 import { Link as MuiLink } from '@mui/material';
 import NextLink from 'next/link';
 
-type Props = ComponentPropsWithoutRef<typeof MuiLink> & {
-  href: string;
-};
+type Props = PropsWithChildren<LinkProps> & { sx?: SxProps };
 
 export const Link = ({ href, ...rest }: Props) => {
+  const source = typeof href === 'string' ? href : href.pathname;
   const extra =
-    href.startsWith('http') || href.startsWith('/discord')
+    source?.startsWith('http') || source?.startsWith('/discord')
       ? { rel: 'noopener noreferrer', target: '_blank' }
       : {};
   return (

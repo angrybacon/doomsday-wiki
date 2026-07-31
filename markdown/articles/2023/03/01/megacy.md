@@ -45,7 +45,7 @@ so I swapped a couple of sideboard cards around and I'm ready to go.
 
 Here's the list I ended up playing:
 
-::decklist{path=2023/03/turbo.eternalrant}
+::decklist{url=2023/03/turbo.eternalrant}
 
 This list is pretty stock overall.
 

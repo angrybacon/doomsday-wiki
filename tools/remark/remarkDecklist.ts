@@ -9,9 +9,9 @@ export const remarkDecklist: ReadPlugin<[path: string, decklists: Decklists]> =
   (path, decklists) => (tree) => {
     visit(tree, (node) => {
       if (node.type !== 'leafDirective' || node.name !== 'decklist') return;
-      const url = node.attributes?.path;
+      const url = node.attributes?.url;
       if (!url) {
-        throw new RemarkError('Missing "path" for decklist', { node, path });
+        throw new RemarkError('Missing "url" for decklist', { node, path });
       }
       if (!decklists[url]) {
         throw new RemarkError(`Missing file "${url}"`, { node, path });

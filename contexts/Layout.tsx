@@ -17,15 +17,24 @@ import { CategorySchema } from '~/tools/markdown/schemas';
 export const LayoutContext = createContext({
   category: null as Category | null,
   hasMenu: false,
-  hasTable: null as boolean | null,
+  /** Whether the current page does have a table */
+  hasTable: false,
+  /** Whether we should show the table */
+  showTable: false,
   toggleMenu: (_?: boolean) => {},
-  toggleTable: (_?: boolean | null) => {},
+  /**
+   * Toggle the table visibility.
+   *
+   * Support a special case where VALUE can be `null` instead in order to
+   * indicate that the current page has no table at all.
+   */
+  toggleTable: (_?: boolean | null) => () => {},
 });
 
 export const LayoutProvider = ({ children }: PropsWithChildren) => {
   const [hasMenu, setHasMenu] = useState(false);
-  // NOTE The infamous 3-values boolean: `null` means the table is empty
-  const [hasTable, setHasTable] = useState<boolean | null>(null);
+  const [hasTable, setHasTable] = useState(false);
+  const [showTable, setShowTable] = useState(false);
   const { chapter = null } = useParams();
   const pathname = usePathname();
   const category = CategorySchema.nullable().parse(chapter);
@@ -36,8 +45,14 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
   );
 
   const toggleTable = useCallback(
-    (value?: boolean | null) =>
-      setHasTable((previous) => (value === undefined ? !previous : value)),
+    (value?: boolean | null) => () => {
+      if (value === null) {
+        setHasTable(false);
+      } else {
+        setHasTable(true);
+        setShowTable((previous) => value ?? !previous);
+      }
+    },
     [],
   );
 
@@ -55,10 +70,11 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
       category,
       hasMenu,
       hasTable,
+      showTable,
       toggleMenu,
       toggleTable,
     }),
-    [category, hasMenu, hasTable, toggleMenu, toggleTable],
+    [category, hasMenu, hasTable, showTable, toggleMenu, toggleTable],
   );
 
   return (

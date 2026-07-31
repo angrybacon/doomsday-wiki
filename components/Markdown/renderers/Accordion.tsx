@@ -8,7 +8,6 @@ import {
   Accordion as MuiAccordion,
   AccordionDetails as MuiAccordionDetails,
   AccordionSummary as MuiAccordionSummary,
-  Typography,
 } from '@mui/material';
 import { Children } from 'react';
 
@@ -25,7 +24,7 @@ export const Accordion = ({ children, node, path }: Props) => {
   return (
     <MuiAccordion>
       <MuiAccordionSummary expandIcon={<Icon path={mdiChevronDown} size={1} />}>
-        <Typography variant="caption">{title}</Typography>
+        {title}
       </MuiAccordionSummary>
       <MuiAccordionDetails sx={{ display: 'grid', gap: 2 }}>
         {content}

@@ -10,9 +10,9 @@ export const remarkDecklists: ReadPlugin = () => (tree, file) => {
   const tests = [{ name: 'decklist', type: 'leafDirective' }];
   const decklists: Decklists = {};
   visit(tree, tests, (node) => {
-    const path = node.attributes?.path;
-    if (!path) throw new Error('Missing "path" for decklist');
-    decklists[path] = getDecklist(...path.split('/'));
+    const url = node.attributes?.url;
+    if (!url) throw new Error('Missing "url" for decklist');
+    decklists[url] = getDecklist(...url.split('/'));
   });
   Object.assign(file.data, { decklists });
 };

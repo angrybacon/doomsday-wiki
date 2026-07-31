@@ -9,8 +9,8 @@ import { scry } from '~/tools/scryfall/scry';
 /**
  * Find card names and augment the tree with the corresponding Scryfall data.
  *
- * Look for directives where cards are referred by name and make a dictionary of
- * query results under the `scries` property for further reference.
+ * Look for directives where cards are referred by name and make a Scryfall
+ * dictionary of queries under the `scries` property for further reference.
  */
 export const remarkScries: ReadPlugin = () => async (tree, file) => {
   const promises: Promise<ScrySingleResponse>[] = [];

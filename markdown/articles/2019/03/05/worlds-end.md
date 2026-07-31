@@ -37,7 +37,7 @@ he dies to a 1/1 Faerie Cloud... Wow.
 For anyone mad enough to try the very untuned and fun list I dub it _Spaghetti
 and Meatballs_.
 
-::decklist{path=2019/03/spaghetti}
+::decklist{url=2019/03/spaghetti}
 
 Anyways I digress. Jumping to ahead a bit, when :card[Experimental Frenzy] was
 spoiled everyone had a think about it but most people just went "hmm, probs not
@@ -167,7 +167,7 @@ Protection comes in the form of 4 Tsz, 2-4 Duress and 0-1 Collective Brutality.
 
 Taking this into account lists are starting to look similar to the following:
 
-::decklist{path=2019/03/ddeft}
+::decklist{url=2019/03/ddeft}
 
 This has a lot of flex still available and, even as I type this, people are
 offering to fight me over running only three Frenzy and not four. I like three

@@ -48,7 +48,7 @@ only available on Youtube because other platforms require $$$ to host on them.
 
 ::youtube{id=hq4p4zUTPnY}
 
-::decklist{path=2022/10/16/tempo.roseisland}
+::decklist{url=2022/10/16/tempo.roseisland}
 
 Samantha has also written up a 2 part primer if you are interested in finding
 out more about their style of Tempo Doomsday. This can be found on the MinMax
@@ -82,7 +82,7 @@ hometown Richmond, VA (super convenient for me lol) at the Greater Richmond
 Convention Center, same venue SCG hosted their Opens/Invitationals and WotC
 hosted GPs and a couple of PTs in the past.
 
-::decklist{path=2022/10/16/meandeck.romariovidal}
+::decklist{url=2022/10/16/meandeck.romariovidal}
 
 So here is how the event went for me:
 
@@ -289,7 +289,7 @@ her way to top 8, Max finishing in 12th and Michael in 18th.
 We also have a report from regular grinder on the MTG Paper Legacy circuit
 BlackSkyDoc!
 
-::decklist{path=2022/10/16/meandeck.blacksky}
+::decklist{url=2022/10/16/meandeck.blacksky}
 
 #### Round 1 - Ryan Hayes - 4C Control
 
@@ -680,7 +680,7 @@ sometimes the most useful or interesting information can come from losses just
 as much! I have a lot of respect for BWand for both providing this and playing
 out a full 6 rounds. - Doishy
 
-::decklist{path=2022/10/16/meandeck.bwands}
+::decklist{url=2022/10/16/meandeck.bwands}
 
 #### Pre-Event Preperation
 

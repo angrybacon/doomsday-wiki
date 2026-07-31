@@ -23,8 +23,8 @@ export const getArticle = async (
       ...markdown
     } = await read(card.path, remarkDecklists, remarkMana, remarkScries);
     return {
-      ...card,
       ...markdown,
+      ...card,
       banner: await getBanner(card.banner),
       // oxlint-disable-next-line typescript/no-unsafe-type-assertion
       decklists: data.decklists as Decklists,

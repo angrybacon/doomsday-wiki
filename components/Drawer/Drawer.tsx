@@ -44,6 +44,8 @@ export const Drawer = ({ clock, menu }: Props) => (
   <>
     <Toolbar
       sx={{
+        borderBottom: 1,
+        borderColor: 'divider',
         gap: 1,
         justifyContent: 'space-between',
         // NOTE Use a media query in order to overwrite toolbar padding
@@ -67,8 +69,13 @@ export const Drawer = ({ clock, menu }: Props) => (
         </IconButton>
       </Tooltip>
     </Toolbar>
-    <Divider />
-    <Box sx={{ overflowY: 'auto', scrollbarWidth: 'thin' }}>
+    <Box
+      sx={{
+        overflowY: 'auto',
+        overscrollBehaviorBlock: 'contain',
+        scrollbarWidth: 'thin',
+      }}
+    >
       <List component="nav" dense>
         {menu.map(
           (entry) =>
@@ -88,7 +95,7 @@ export const Drawer = ({ clock, menu }: Props) => (
         />
       </List>
       <Divider />
-      <Rosetta sx={{ my: 2 }} />
+      <Rosetta sx={{ p: 2 }} />
     </Box>
   </>
 );

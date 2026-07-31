@@ -2,46 +2,50 @@
 
 import { mdiMenu, mdiMenuOpen } from '@mdi/js';
 import { Icon } from '@mdi/react';
-import { AppBar, Divider, IconButton, Toolbar, Tooltip } from '@mui/material';
+import { AppBar, IconButton, Toolbar, Tooltip } from '@mui/material';
 
 import { useLayout } from '~/hooks/useLayout';
 
 export const Header = () => {
-  const { hasTable, toggleMenu, toggleTable } = useLayout();
+  const { hasTable, showTable, toggleMenu, toggleTable } = useLayout();
   return (
     <AppBar
+      color="transparent"
       elevation={0}
       enableColorOnDark
-      sx={(theme) => ({
-        ...theme.mixins.blur('weak'),
-        bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .5)`,
-      })}
+      position="sticky"
     >
-      <Toolbar>
+      <Toolbar
+        sx={(theme) => ({
+          ...theme.mixins.blur('weak'),
+          bgcolor: 'rgba(var(--mui-palette-background-paperChannel) / .5)',
+          borderBottom: 1,
+          borderColor: 'divider',
+        })}
+      >
         <IconButton
           aria-label="Open menu"
           onClick={() => toggleMenu(true)}
           sx={{ display: { md: 'none' } }}
         >
-          <Icon path={mdiMenu} size={0.6} />
+          <Icon path={mdiMenu} size={1} />
         </IconButton>
-        {hasTable !== null && (
-          <Tooltip title={`${hasTable ? 'Close' : 'Open'} table of contents`}>
+        {hasTable && (
+          <Tooltip title={`${showTable ? 'Close' : 'Open'} table of contents`}>
             <IconButton
-              onClick={() => toggleTable()}
-              sx={{ display: { sm: 'none' }, ml: 'auto' }}
+              onClick={toggleTable()}
+              sx={{ display: { md: 'none' }, ml: 'auto' }}
             >
               <Icon
                 // NOTE We update accessibility data but the icon doesn't matter
                 //      as no one will actually _see_ it.
                 path={mdiMenuOpen}
-                size={0.6}
+                size={1}
               />
             </IconButton>
           </Tooltip>
         )}
       </Toolbar>
-      <Divider />
     </AppBar>
   );
 };

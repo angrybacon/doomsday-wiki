@@ -6,11 +6,11 @@ import type {} from '@mui/material/themeCssVarsAugmentation';
 
 import {
   accordionClasses,
-  collapseClasses,
   createTheme,
   responsiveFontSizes,
 } from '@mui/material';
 
+import { TOOLBAR_HEIGHT } from '~/theme/constants';
 import { blur, recess } from '~/theme/mixins';
 import { article, primary, primer, report, secondary } from '~/theme/palette';
 
@@ -67,7 +67,11 @@ export const theme = responsiveFontSizes(
     },
     components: {
       MuiAccordion: {
-        defaultProps: { elevation: 0, square: true },
+        defaultProps: {
+          elevation: 0,
+          // NOTE Prevent overly specific roundness from base theme
+          square: true,
+        },
         styleOverrides: {
           root: (options) =>
             options.theme.unstable_sx({
@@ -75,6 +79,7 @@ export const theme = responsiveFontSizes(
               borderColor: 'divider',
               borderRadius: 4,
               overflow: 'hidden',
+              [`&.${accordionClasses.expanded}`]: { margin: 0 },
               '&:has(+ &)': {
                 borderBottomLeftRadius: 0,
                 borderBottomRightRadius: 0,
@@ -83,10 +88,6 @@ export const theme = responsiveFontSizes(
                 borderTop: 0,
                 borderTopLeftRadius: 0,
                 borderTopRightRadius: 0,
-              },
-              [`&.${accordionClasses.expanded} .${collapseClasses.root}`]: {
-                borderTop: 1,
-                borderTopColor: 'divider',
               },
             }),
         },
@@ -108,7 +109,7 @@ export const theme = responsiveFontSizes(
         },
       },
       MuiCssBaseline: {
-        styleOverrides: {
+        styleOverrides: (_theme) => ({
           'blockquote, ol, p, pre, ul': { margin: 0, padding: 0 },
           'blockquote, em': {
             fontDisplay: 'swap',
@@ -120,9 +121,18 @@ export const theme = responsiveFontSizes(
           html: {
             fontSize: 18,
             scrollBehavior: 'smooth',
-            scrollPaddingTop: 64,
+            scrollPaddingTop: `calc(${TOOLBAR_HEIGHT}px + ${_theme.spacing(3)})`,
           },
           'ol, ul': { paddingLeft: '1em' },
+        }),
+      },
+      MuiDrawer: {
+        styleOverrides: {
+          paper: (options) => ({
+            ...options.theme.mixins.blur('strong'),
+            backgroundColor:
+              'rgba(var(--mui-palette-background-paperChannel) / .9)',
+          }),
         },
       },
       MuiTooltip: {
@@ -133,7 +143,7 @@ export const theme = responsiveFontSizes(
       },
     },
     cssVariables: { colorSchemeSelector: 'data' },
-    mixins: { blur, recess },
+    mixins: { blur, recess, toolbar: { minHeight: TOOLBAR_HEIGHT } },
     motion: { reducedMotion: 'system' },
     typography: {
       fontFamily: 'var(--font-roboto)',

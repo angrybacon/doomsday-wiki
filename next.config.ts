@@ -12,7 +12,6 @@ export default {
             .replaceAll(':', '')
         : 'development',
   },
-  reactStrictMode: true,
   // NOTE We increase the default timeout because we're limited with Scryfall
   //      rate limits.
   staticPageGenerationTimeout: 60 * 5,

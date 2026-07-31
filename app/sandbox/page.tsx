@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-import { Stack, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 
 import { Link } from '~/components/Link/Link';
 import { SpoilsCalculator } from '~/components/SpoilsCalculator/SpoilsCalculator';
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default () => (
-  <Stack sx={{ gap: 3 }}>
+  <>
     <Typography component="em">
       This page is not officially part of the Wiki and serves as repository for
       interactive content until a better location for it is found.
@@ -34,5 +34,5 @@ export default () => (
       at being accurate nor official. See the license for credits.
     </Typography>
     <PhyrexianRemapper />
-  </Stack>
+  </>
 );

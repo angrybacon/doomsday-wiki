@@ -66,7 +66,7 @@ both of them. Not bad. I made a couple of changes and submitted my decklist.
 
 [Link to the decklist](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
 
-::decklist{path=2023/03/turbo.fuz65}
+::decklist{url=2023/03/turbo.fuz65}
 
 <https://twitter.com/Fuz651/status/1632482398716698625>
 

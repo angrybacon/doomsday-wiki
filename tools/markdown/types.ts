@@ -5,9 +5,3 @@ export type Banner = {
   lqip: string;
   title: string;
 };
-
-export type Toc = {
-  items?: Toc[];
-  title?: string;
-  url?: string;
-};

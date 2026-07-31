@@ -14,9 +14,9 @@ Construction](/meandeck/deck-construction) chapter of the Doomsday Wiki.
 
 Below is a sample Entombsday list, followed by a Turbo Doomsday and Tin Fins list:
 
-::decklist{path=2023/03/entombsday.drynne}
-::decklist{path=2023/03/turbo.eternalrant}
-::decklist{path=2023/03/tinfins.drynne}
+::decklist{url=2023/03/entombsday.drynne}
+::decklist{url=2023/03/turbo.eternalrant}
+::decklist{url=2023/03/tinfins.drynne}
 
 When comparing the Entombsday list to the Tin Fins list, you should notice a
 slight reduction in the size of the combo package and a shift toward
@@ -268,6 +268,6 @@ opens you up to graveyard hate, which Entombsday is built to dodge.
 
 Below are three example Entombsday lists:
 
-::decklist{path=2023/03/entombsday.drynne}
-::decklist{path=2023/03/entombsday.nitro_rick}
-::decklist{path=2023/03/entombsday.missdestroy}
+::decklist{url=2023/03/entombsday.drynne}
+::decklist{url=2023/03/entombsday.nitro_rick}
+::decklist{url=2023/03/entombsday.missdestroy}

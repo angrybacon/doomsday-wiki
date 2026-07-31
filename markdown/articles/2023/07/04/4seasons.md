@@ -77,7 +77,7 @@ for both Saturday and Sunday:
 
 [Link to the decklist](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
 
-::decklist{path=2023/07/turbo.fuz65}
+::decklist{url=2023/07/turbo.fuz65}
 
 ## Getting to Bologna
 

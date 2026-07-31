@@ -63,7 +63,7 @@ time to submit anything.
 [Romario's Twitter](https://twitter.com/romarioneto3)  
 [Romario's Twitch](https://www.twitch.tv/romariovidal)
 
-::decklist{path=2021/09/27/meandeck.romariovidal}
+::decklist{url=2021/09/27/meandeck.romariovidal}
 
 > This past weekend the guy from The Legacy Pit hosted an event in Frederick MD,
 > this was the first large event since the start of the pandemic in NA. The
@@ -276,7 +276,7 @@ normal thing again in the future when things are safer.
 
 ### Nathan _VendillionMisclique_ Anderson Stahl - 27th Place (7-2)
 
-::decklist{path=2021/09/27/meandeck.vendillionmisclique}
+::decklist{url=2021/09/27/meandeck.vendillionmisclique}
 
 > My general decision to play Doomsday for the Pit open was based on a gut
 > feeling that Ragavan decks would be less popular in paper and my general
@@ -434,7 +434,7 @@ G3 Went to 5 for a hand of :card[Ponder], :card[Force of Negation], land,
 
 ### Nicholas _germancouch_ French-Seats - 59th Place (6-3)
 
-::decklist{path=2021/09/27/meandeck.germancouch}
+::decklist{url=2021/09/27/meandeck.germancouch}
 
 > I don't have a ton of notes about each match other than what I played against
 > but I'll try to recall anything notable. In terms of prep was I played at
@@ -607,7 +607,7 @@ Sideboard:
 
 [Dave's Twitter](https://twitter.com/rutabarracuda)
 
-::decklist{path=2021/09/27/meandeck.ruta-barracuda}
+::decklist{url=2021/09/27/meandeck.ruta-barracuda}
 
 > The Legacy Pit Open (LPO for short) was my first Legacy tournament in over a
 > year and a half. To give some background, before my daughter was born in

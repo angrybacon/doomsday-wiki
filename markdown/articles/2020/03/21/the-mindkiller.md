@@ -28,7 +28,7 @@ Just always go fo it.
 
 ## Mindkiller Doomsday
 
-::decklist{path=2020/04/mindkiller}
+::decklist{url=2020/04/mindkiller}
 
 I'm sure by now you've looked at the decklist, maybe closed it for a second and
 looked again, praying it'll be different, like when you peer into the fridge at

@@ -317,7 +317,7 @@ discard effects or Veil of Summer. The only card I would really advocate not
 skimping on is :card[Cavern of Souls]. This card single-handedly can enable a
 lot of wins in {U} matchups and thus is too good a tool to lose.
 
-::decklist{path=meandeck.budget}
+::decklist{url=meandeck.budget}
 
 Access to :card[Force of Will]:  
 -2 Flusterstorm -2 Thoughtseize  

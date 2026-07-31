@@ -3,10 +3,10 @@
 import type { SxProps } from '@mui/material';
 
 import {
+  Box,
   Table,
   TableBody,
   TableCell,
-  TableHead,
   TableRow,
   tableCellClasses,
 } from '@mui/material';
@@ -30,12 +30,14 @@ const Row = ({
     <TableRow
       sx={[
         dedicated && {
-          [`.${tableCellClasses.body}`]: { color: 'text.primary' },
+          [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
         },
       ]}
     >
-      <TableCell component="th">{notation}</TableCell>
-      <TableCell sx={{ whiteSpace: 'nowrap' }}>{name}</TableCell>
+      <TableCell component="th" sx={{ pr: 1 }}>
+        {notation}
+      </TableCell>
+      <TableCell>{name}</TableCell>
     </TableRow>
   ) : null;
 };
@@ -47,35 +49,29 @@ type Props = {
 export const Rosetta = ({ sx }: Props) => {
   const { category } = useLayout();
   return (
-    <Table
-      padding="checkbox"
-      size="small"
-      sx={[
-        {
-          [`.${tableCellClasses.body}`]: { color: 'text.secondary' },
-          [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
-        },
-        // oxlint-disable-next-line no-unsafe-assignment
-        ...(Array.isArray(sx) ? sx : [sx]),
-      ]}
-    >
-      <TableHead>
-        <TableRow>
-          <TableCell>Notation</TableCell>
-          <TableCell>Card</TableCell>
-        </TableRow>
-      </TableHead>
-      <TableBody>
-        {Object.entries(CARDS).map(([notation, card]) => (
-          <Row
-            category={category}
-            categories={card[1]}
-            key={notation}
-            name={card[0]}
-            notation={notation}
-          />
-        ))}
-      </TableBody>
-    </Table>
+    <Box sx={sx}>
+      <Table
+        padding="none"
+        size="small"
+        sx={[
+          {
+            [`.${tableCellClasses.body}`]: { color: 'text.disabled' },
+            [`.${tableCellClasses.root}`]: { border: 0, typography: 'caption' },
+          },
+        ]}
+      >
+        <TableBody>
+          {Object.entries(CARDS).map(([notation, card]) => (
+            <Row
+              category={category}
+              categories={card[1]}
+              key={notation}
+              name={card[0]}
+              notation={notation}
+            />
+          ))}
+        </TableBody>
+      </Table>
+    </Box>
   );
 };

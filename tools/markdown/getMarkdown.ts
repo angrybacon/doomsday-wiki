@@ -2,7 +2,7 @@ import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { Decklists } from '~/tools/decklists/types';
 
 import { join } from 'node:path';
-import { read } from '@korumite/kiwi';
+import { makeToc, read } from '@korumite/kiwi';
 import { cache } from 'react';
 
 import { BASE_URLS } from '~/tools/markdown/files';
@@ -31,6 +31,7 @@ export const getMarkdown = cache(async (...crumbs: string[]) => {
       decklists: data.decklists as Decklists,
       // oxlint-disable-next-line typescript/no-unsafe-type-assertion
       scries: data.scries as Record<string, ScrySingleResponse>,
+      toc: makeToc(markdown.text, { maxDepth: 3, minDepth: 2 }),
     };
   } catch (cause) {
     const message = cause instanceof Error ? cause.message : String(cause);

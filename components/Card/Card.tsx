@@ -26,7 +26,7 @@ export const Card = ({ faces }: Props) => {
         onClick={onFlip}
         sx={(theme) => ({
           ...theme.mixins.blur('weakest'),
-          bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .4)`,
+          bgcolor: 'rgba(var(--mui-palette-background-paperChannel) / .4)',
           boxShadow: 1,
           height: [40, 48],
           left: 'unset',
@@ -35,7 +35,7 @@ export const Card = ({ faces }: Props) => {
           top: '13%',
           width: [40, 48],
           '&:hover': {
-            bgcolor: `rgba(${theme.vars.palette.background.paperChannel} / .5)`,
+            bgcolor: 'rgba(var(--mui-palette-background-paperChannel) / .5)',
           },
         })}
         title="Flip"

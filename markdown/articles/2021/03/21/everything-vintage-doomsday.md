@@ -17,7 +17,7 @@ Special thanks to Bart [_Diem4x_][diem4x] van Etten, Max
 
 ## Maindeck Configuration and Why no Cavern of Souls
 
-::decklist{path=2021/03/21/meandeck.diem4x}
+::decklist{url=2021/03/21/meandeck.diem4x}
 
 Many players come from legacy Doomsday to play Vintage Doomsday, and many wonder
 why the deck does not play :card[Cavern of Souls]. The reason is that after

@@ -1,79 +1,18 @@
-'use client';
-
+import type { Toc as TocModel } from '@korumite/kiwi';
 import type { SxProps, TypographyProps } from '@mui/material';
-import type { Toc as TocModel } from '~/tools/markdown/types';
+import type { ComponentRef } from 'react';
 
 import { Box, Typography } from '@mui/material';
+import { useEffect, useRef } from 'react';
 
-import { Divider } from '~/components/Divider/Divider';
 import { Link } from '~/components/Link/Link';
 
-const Entry = ({
-  current,
-  items,
-  onJump,
-  title,
-  url,
-  variant,
-}: TocModel & {
-  current?: string;
-  onJump?: () => void;
-  variant: TypographyProps['variant'];
-}) =>
-  title && url ? (
-    <Typography
-      component="li"
-      sx={{ display: 'grid', gap: 1, justifyItems: 'inherit' }}
-      variant={variant}
-    >
-      <Link
-        color="primary"
-        href={url}
-        onClick={onJump}
-        sx={[
-          {
-            borderRadius: 1,
-            display: 'block',
-            overflow: 'hidden',
-            position: 'relative',
-            px: [1, 0.5],
-            py: [0.5, 0],
-            '&:hover:after': {
-              bgcolor: 'action.hover',
-              content: '""',
-              inset: 0,
-              position: 'absolute',
-            },
-          },
-          current === url && {
-            color: 'primary.contrastText',
-            '[data-dark] &': { bgcolor: 'primary.dark' },
-            '[data-light] &': { bgcolor: 'primary.light' },
-          },
-        ]}
-        underline="none"
-      >
-        {title}
-      </Link>
-      {items && (
-        <Entries
-          current={current}
-          entries={items}
-          onJump={onJump}
-          variant="caption"
-        />
-      )}
-    </Typography>
-  ) : null;
-
-type Props = {
-  current?: string;
+type EntriesProps = {
+  current: string | undefined;
   entries: TocModel[];
-  onJump?: () => void;
+  onJump: () => void;
   root?: boolean;
   sx?: SxProps;
-  variant?: TypographyProps['variant'];
-  withBackToTop?: boolean;
 };
 
 export const Entries = ({
@@ -82,64 +21,85 @@ export const Entries = ({
   onJump,
   root = false,
   sx,
-  variant = 'subtitle2',
-  withBackToTop,
-}: Props) => (
+}: EntriesProps) => (
   <Box
     component="ol"
     sx={[
       {
         display: 'grid',
-        gap: 1,
-        justifyItems: 'inherit',
         listStyleType: 'none',
-        pl: 1,
+        pl: 2,
       },
-      root &&
-        ((theme) => ({
-          gap: 1,
-          overflowY: 'auto',
-          overscrollBehavior: 'contain',
-          pl: 0,
-          scrollBehavior: 'smooth',
-          scrollPadding: theme.spacing(1),
-        })),
-      // oxlint-disable-next-line no-unsafe-assignment
+      root && { pl: 0 },
+      // oxlint-disable-next-line typescript/no-unsafe-assignment
       ...(Array.isArray(sx) ? sx : [sx]),
     ]}
   >
-    {root && (
-      <Box
-        component="li"
-        sx={{
-          color: 'text.secondary',
-          pl: [1, 0.5],
-          textTransform: 'uppercase',
-          typography: 'caption',
-        }}
-      >
-        Table of Contents
-      </Box>
-    )}
     {entries.map((entry) => (
       <Entry
+        component="li"
         current={current}
-        key={entry.title}
+        key={entry.url}
         onJump={onJump}
-        variant={variant}
         {...entry}
       />
     ))}
-    {withBackToTop && (
-      <>
-        <Divider component="li" role="presentation" sx={{ my: 1, width: 1 }} />
-        <Entry
-          title="Back to top"
-          // NOTE This is hardcoded in the layout
-          url="#root"
-          variant="subtitle2"
-        />
-      </>
-    )}
   </Box>
 );
+
+type EntryProps = TocModel & {
+  component?: TypographyProps['component'];
+  current?: string | undefined;
+  onJump: () => void;
+};
+
+export const Entry = ({
+  component = 'div',
+  current,
+  items,
+  onJump,
+  title,
+  url,
+}: EntryProps) => {
+  const root = useRef<ComponentRef<'li'>>(null);
+  const active = current !== undefined && url === `#${current}`;
+
+  useEffect(() => {
+    if (active) root.current?.scrollIntoView({ block: 'nearest' });
+  }, [active]);
+
+  if (!title || !url) return null;
+
+  return (
+    <Typography
+      component={component}
+      ref={root}
+      sx={{ display: 'grid', justifyItems: 'start' }}
+      variant="caption"
+    >
+      <Link
+        href={url}
+        onClick={onJump}
+        sx={[
+          {
+            borderRadius: 2,
+            color: 'inherit',
+            textDecoration: 'none',
+            '&:hover': { bgcolor: 'action.hover' },
+          },
+          active && { color: 'secondary.main' },
+        ]}
+      >
+        {title}
+      </Link>
+      {items && (
+        <Entries
+          current={current}
+          entries={items}
+          onJump={onJump}
+          sx={{ color: 'text.secondary' }}
+        />
+      )}
+    </Typography>
+  );
+};

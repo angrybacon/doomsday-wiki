@@ -129,7 +129,7 @@ into effect so I was probably due to make some changes to my [previous
 list](/articles/2022/01/22/zero-respect#the-decklist) whilst being unable to
 test for the event at all thanks to general life things getting in the way.
 
-::decklist{path=2022/02/zero-respect}
+::decklist{url=2022/02/zero-respect}
 
 As a result I took my previous list as a starter and begun conversing online
 with various community members to try and assess what changes I might want to

@@ -45,7 +45,7 @@ the scenarios. Doishy is watching and will add further commentary.
 
 The decklist:
 
-::decklist{path=2018/01/ddft.ubrg}
+::decklist{url=2018/01/ddft.ubrg}
 
 \* _Super-secret-shadowy-Doomsday-cabal &trade; might not exist..._
 

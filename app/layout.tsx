@@ -1,14 +1,8 @@
 // oxlint-disable import/max-dependencies
 import type { Metadata, Viewport } from 'next';
-import type { PropsWithChildren } from 'react';
+import type { PropsWithChildren, ReactNode } from 'react';
 
-import {
-  Box,
-  Container,
-  CssBaseline,
-  ThemeProvider,
-  Toolbar,
-} from '@mui/material';
+import { Box, CssBaseline, ThemeProvider } from '@mui/material';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v16-appRouter';
 import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
 import { Libre_Baskerville, Roboto } from 'next/font/google';
@@ -18,6 +12,7 @@ import { Footer } from '~/components/Footer/Footer';
 import { Header } from '~/components/Header/Header';
 import { Sidebar } from '~/components/Sidebar/Sidebar';
 import { LayoutProvider } from '~/contexts/Layout';
+import { SIDEBAR_WIDTH, TOC_WIDTH } from '~/theme/constants';
 import { primary } from '~/theme/palette';
 import { theme } from '~/theme/theme';
 import { getClock } from '~/tools/clock/getClock';
@@ -52,62 +47,58 @@ const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
 });
 
-export default async ({ children }: PropsWithChildren) => {
+export default async ({
+  children,
+  toc,
+}: PropsWithChildren<{ toc: ReactNode }>) => {
   const clock = await getClock();
   return (
     <html
+      className={[baskerville.variable, roboto.variable].join(' ')}
       lang="en"
       suppressHydrationWarning
-      // NOTE Pad with the tallest toolbar: extra spacing in mobile, who's going
-      //      to complain?
     >
-      <body className={[baskerville.variable, roboto.variable].join(' ')}>
+      <Box
+        component="body"
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          minHeight: '100vh',
+          ':has(> #toc)': { 'footer, main': { mr: { md: `${TOC_WIDTH}px` } } },
+          'footer, main': { ml: { md: `${SIDEBAR_WIDTH}px` } },
+        }}
+      >
         <InitColorSchemeScript attribute="data" />
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <CssBaseline />
             <LayoutProvider>
+              <CssBaseline />
               <Sidebar>
                 <Drawer clock={clock} menu={MENU} />
               </Sidebar>
               <Header />
-              <Container
+              <Box
                 component="main"
                 id="root"
-                maxWidth="xl"
                 sx={{
+                  alignContent: 'start',
+                  columnGap: { xs: 2, sm: 3 },
                   display: 'grid',
-                  gridTemplateAreas:
-                    '"offset offset" "banner banner" "content toc" "footer toc"',
-                  gridTemplateColumns: '1fr auto',
-                  gridTemplateRows: 'auto auto 1fr auto',
-                  minHeight: '100vh',
+                  flexGrow: 1,
+                  gridTemplateColumns: '1fr minmax(auto, 1200px) 1fr',
+                  py: 3,
+                  rowGap: 3,
+                  '> *': { gridColumn: 2 },
                 }}
               >
-                <Toolbar role="presentation" sx={{ gridArea: 'offset' }} />
-                <Box
-                  sx={{
-                    display: 'contents',
-                    overflowWrap: 'anywhere',
-                    '> *': { mt: { xs: 2, sm: 3 } },
-                  }}
-                >
-                  {children}
-                </Box>
-                <Footer
-                  sx={{
-                    gridArea: 'footer',
-                    pb: { xs: 2, sm: 3 },
-                    // NOTE Force content above 404 background
-                    position: 'relative',
-                    pt: 8,
-                  }}
-                />
-              </Container>
+                {children}
+              </Box>
+              {toc}
             </LayoutProvider>
+            <Footer />
           </ThemeProvider>
         </AppRouterCacheProvider>
-      </body>
+      </Box>
     </html>
   );
 };

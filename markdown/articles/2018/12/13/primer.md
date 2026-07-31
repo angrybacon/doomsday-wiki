@@ -17,7 +17,7 @@ Contracts, extra Rituals, and no Lab Maniac anywhere in the 75. I've been
 working to refine the list since then and it feels like its sufficiently
 competitive that I wouldn't be completely embarassed to write a primer.
 
-::decklist{path=2018/12/ddft}
+::decklist{url=2018/12/ddft}
 
 ## The Part Where I Predict Some of Your Questions About the List
 

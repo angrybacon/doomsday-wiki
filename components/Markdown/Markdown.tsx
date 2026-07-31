@@ -1,10 +1,9 @@
 // oxlint-disable import/max-dependencies
 import type { ScrySingleResponse } from '@korumite/scrydrop';
-import type { SxProps } from '@mui/material';
 import type { Components } from 'react-markdown';
 import type { Decklists } from '~/tools/decklists/types';
 
-import { Box, accordionClasses, tableClasses } from '@mui/material';
+import { Box, accordionClasses } from '@mui/material';
 import ReactMarkdown from 'react-markdown';
 import rehypeSlug from 'rehype-slug';
 import remarkDirective from 'remark-directive';
@@ -50,8 +49,6 @@ const COMPONENTS = {
   h6: Heading,
   hr: Divider,
   img: Image,
-  // NOTE The `code` entries already handle both block and inline code markup
-  pre: ({ children }) => children,
   table: Table,
   tbody: TableBody,
   td: TableCell,
@@ -76,25 +73,18 @@ type Props = {
   decklists: Decklists;
   path: string;
   scries: Record<string, ScrySingleResponse>;
-  sx?: SxProps;
   text: string;
 };
 
-export const Markdown = ({ decklists, path, scries, sx, text }: Props) => (
+export const Markdown = ({ decklists, path, scries, text }: Props) => (
   <Box
-    sx={[
-      {
-        display: 'grid',
-        gap: 3,
-        [`.${accordionClasses.root}`]: {
-          [`&.${accordionClasses.expanded}`]: { my: 0 },
-          [`& + .${accordionClasses.root}`]: { mt: -3 },
-        },
-        [`.${tableClasses.root} + .${tableClasses.root}`]: { mt: -3 },
-      },
-      // oxlint-disable-next-line no-unsafe-assignment
-      ...(Array.isArray(sx) ? sx : [sx]),
-    ]}
+    component="section"
+    sx={{
+      display: 'grid',
+      gap: 3,
+      '> *': { minWidth: 0 },
+      [`.${accordionClasses.root} + .${accordionClasses.root}`]: { mt: -3 },
+    }}
   >
     <ReactMarkdown
       components={{ ...COMPONENTS, ...COMPONENTS_EXTRA }}

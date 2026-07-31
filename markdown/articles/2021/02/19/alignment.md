@@ -84,7 +84,7 @@ configurations at the time of writing.
 
 Here is an example list from a recent MTGO League trophy by kl0gW:
 
-::decklist{path=2021/02/19/meandeck.ub.kl0gw}
+::decklist{url=2021/02/19/meandeck.ub.kl0gw}
 
 ### Speed Neutral - Old Reliable (Base Meandeck)
 
@@ -111,7 +111,7 @@ most popular although you can find variants available in {W}{U}{B}, {U}{B} or
 
 Here is an example list from a recent 13th place PTQ finish by RonColpoCinese:
 
-::decklist{path=2021/02/19/meandeck.ubg.roncolpocinese}
+::decklist{url=2021/02/19/meandeck.ubg.roncolpocinese}
 
 ### Speed Radical - Basically Snowko (Doomsday Control)
 
@@ -149,9 +149,9 @@ it will slightly less resiliency or ability to splash as many colours.
 Here are two _(pre-ban)_ example lists from a recent 15th place challenge finish
 by Marcus Ewaldh and another from a recent mtgo league trophy by Nevilshute:
 
-::decklist{path=2021/02/19/meandeck.ubr.iwouldliketorespond}
+::decklist{url=2021/02/19/meandeck.ubr.iwouldliketorespond}
 
-::decklist{path=2021/02/19/meandeck.ubrg.nevilshute}
+::decklist{url=2021/02/19/meandeck.ubrg.nevilshute}
 
 ## Alignment Axis 2 - Greed
 
@@ -205,7 +205,7 @@ strong Legacy playables.
 Here is an example list from a semi-recent 4-1 mtgo league result from
 BluStalker:
 
-::decklist{path=2021/02/19/meandeck.ub.blustalker}
+::decklist{url=2021/02/19/meandeck.ub.blustalker}
 
 ### Greed Neutral - 3 Colours
 
@@ -246,7 +246,7 @@ and the currently powerful creature suite of Dreadhorde Arcanist or Uro.
 
 Here is an example list from a recent 23rd PTQ placement by Helvetti:
 
-::decklist{path=2021/02/19/meandeck.ubr.helvetti}
+::decklist{url=2021/02/19/meandeck.ubr.helvetti}
 
 ### Greedy Motherfucker - 4 Colours
 
@@ -300,11 +300,11 @@ recommend sticking with at least 3 Petal if considering 4 colours.
 Here are three example lists from recent mtgo league trophies by _Sawatarix_,
 _BCS8995_ and _Doishy_ respectively:
 
-::decklist{path=2021/02/19/meandeck.ubrg.sawatarix}
+::decklist{url=2021/02/19/meandeck.ubrg.sawatarix}
 
-::decklist{path=2021/02/19/meandeck.ubrg.bcs8995}
+::decklist{url=2021/02/19/meandeck.ubrg.bcs8995}
 
-::decklist{path=2021/02/19/meandeck.ubrg.doishy}
+::decklist{url=2021/02/19/meandeck.ubrg.doishy}
 
 Post-ban both Martin _nevilshute_ Nielsen and Kai _Sawatarix_ Sawatari have been
 on a good run with a 4 colours (no {w}) list featuring Daze, Uro, Strix, 2
@@ -314,7 +314,7 @@ nothing else I think it proved you can play the greedy control style list
 without heavy reliance on Astrolabe now that it's gone and with only 2 basics, 1
 Island and 1 Swamp. The list can be found below.
 
-::decklist{path=2021/02/19/meandeck.ubrg.nevilshute-postban}
+::decklist{url=2021/02/19/meandeck.ubrg.nevilshute-postban}
 
 ## Building the Chart
 

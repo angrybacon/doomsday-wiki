@@ -35,7 +35,7 @@ result in the vein of Traditional DDFT. Unfortunately it seemed nobody else had
 managed anything. In the twilight hours of 2021, I secured a 5-0 with a new idea
 I had been testing, a DDFT list without :card[Burning Wish].
 
-::decklist{path=2022/12/31/no-wish-ddft}
+::decklist{url=2022/12/31/no-wish-ddft}
 
 :card[Wishclaw Talisman] plays the role of tutor, and we still had access to a
 copy of Echo of Eons. :card[Bolas's Citadel] was a new tool, expensive but
@@ -83,7 +83,7 @@ Warrens], I felt comfortable against blue decks in game 1, and there was no loss
 of speed so I could still beat the non-blue decks simply by virtue of deck
 construction, while slower hands could simply Thoughtseize them first.
 
-::decklist{path=2022/12/31/mindkiller}
+::decklist{url=2022/12/31/mindkiller}
 
 I continued to tweak the list, though changes were minimal, and in the spring I
 had something of a hot streak. I had 3 published 5-0s with essentially the above
@@ -115,7 +115,7 @@ So around the same time I was on my hot streak, Legacy combo afficionado and
 accomplished Doomsday player _Fuz65_ had a small flurry of results with a
 radical take on the archetype.
 
-::decklist{path=2022/12/31/citadel-doomsday}
+::decklist{url=2022/12/31/citadel-doomsday}
 
 This list is much more akin structurally to the more common Doomsday variant
 with a mere 2 colors for a rock solid manabase. Two copies of Bolas's Citadel
@@ -200,7 +200,7 @@ natural solution to my problem. I wouldn't need to cut any actual spells, and
 the Opals would hopefully mitigate any color issues stemming from my lands only
 making one color. I snagged a few 4-1s with a list that looked like this:
 
-::decklist{path=2022/12/31/mindkiller.opal}
+::decklist{url=2022/12/31/mindkiller.opal}
 
 It felt strong against most decks, and Echoes felt like they led more
 consistently to kills due to additional free mana sources. The Relays were
@@ -225,7 +225,7 @@ continued testing.
 
 This is the _Mindkiller_ list I am currently testing and I like it quite a bit.
 
-::decklist{path=2022/12/31/mindkiller.opal-v2}
+::decklist{url=2022/12/31/mindkiller.opal-v2}
 
 The biggest change to the list is moving the Relays to the main, and discard to
 the board. This maximizes the business spells and the power of Opal in game 1.

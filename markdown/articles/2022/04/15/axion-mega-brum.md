@@ -45,7 +45,7 @@ no full metagame data is available :(
 
 Decklist:
 
-::decklist{path=2022/04/15/zero-respect}
+::decklist{url=2022/04/15/zero-respect}
 
 List wise we had made one change since last time going down to 3 :card[FoN] in
 the side and adding a second :card[Flusterstorm]. I was happy with the list and

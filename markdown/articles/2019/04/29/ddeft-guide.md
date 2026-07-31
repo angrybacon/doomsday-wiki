@@ -29,7 +29,7 @@ Doomsday.
 
 ## Decklist
 
-::decklist{path=2019/04/ddeft}
+::decklist{url=2019/04/ddeft}
 
 We have concluded that a list similar to this is optimal.
 

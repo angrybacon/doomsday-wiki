@@ -164,22 +164,22 @@ as an example. As an exception, decklist files found directly under `decklists/`
 are used in non-dated content like chapters to ease maintenance.
 
 ```md
-::decklist{path=meandeck.budget}
+::decklist{url=meandeck.budget}
 ```
 
-::decklist{path=meandeck.budget}
+::decklist{url=meandeck.budget}
 
 ```md
-::decklist{path=2023/07/turbo.fuz65}
-::decklist{path=ddeft}
-::decklist{path=ddft}
-::decklist{path=meandeck.ub}
+::decklist{url=2023/07/turbo.fuz65}
+::decklist{url=ddeft}
+::decklist{url=ddft}
+::decklist{url=meandeck.ub}
 ```
 
-::decklist{path=2023/07/turbo.fuz65}
-::decklist{path=ddeft}
-::decklist{path=ddft}
-::decklist{path=meandeck.ub}
+::decklist{url=2023/07/turbo.fuz65}
+::decklist{url=ddeft}
+::decklist{url=ddft}
+::decklist{url=meandeck.ub}
 
 ## Footnotes
 
