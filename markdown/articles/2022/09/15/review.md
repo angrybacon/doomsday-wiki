@@ -171,7 +171,7 @@ additional {U} source with which to make use of.
 
 If people do include Cabal Ritual it tends to be as a 1 to 3-of and normally
 replaces 1 Petal and some number of extraneous :card[Preordain] slots or maybe
-some interaction slots. It is certainly not a requirement, expecially if you
+some interaction slots. It is certainly not a requirement, especially if you
 aren't keen on including basics in your list but it is a useful tool for
 consideration.
 
@@ -518,7 +518,7 @@ need be.
 
 Oftentimes the Esper lists will have a transformational sideboard turning them
 into pure control decks and using either creature or planeswalker threats like
-:card[Jace, the Mindsculptor] or :card[Stoneforge Mystic] to try and
+:card[Jace, the Mind Sculptor] or :card[Stoneforge Mystic] to try and
 circumnavigate the hate that may be brought in post board for the main Doomsday
 plan. As with all the subarchetypes, there is a lot of flexibility available to
 any pilots that wish to give this style a go and plenty of toolbox to work with.

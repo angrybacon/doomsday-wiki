@@ -15,7 +15,7 @@ there are some key variations that are being tested and debated on.
 
 Recently, in the Discord, the discussion came up of the advantages and
 disadvantages of different interaction elements. This includes choices which
-inform colour selection for the main deck, sideboard and takes into account
+inform colour selection for the maindeck, sideboard and takes into account
 playstyle and meta considerations.
 
 In this article I will look to build upon what was discussed on the splash
@@ -57,11 +57,11 @@ one sweep but with a _lower floor_ of failing to take anything at all. It does
 have one other advantage (if running :card[Baleful Strix] in the deck) that
 allows you to cast it multiple times thanks to the Flashback clause. Nevilshute
 has recently been having great success running a 1:1:1 ratio of all three
-discard spells in their main deck for maximum flexibility.
+discard spells in their maindeck for maximum flexibility.
 
 Targeted discard is a very effective protection method as it allows both the
 removal of at least one piece of opposing interaction from the opponent. Unlike
-other options, discard can be used in any preceeding turns to protect the combo
+other options, discard can be used in any preceding turns to protect the combo
 or take out any disruptive permanents that may appear (like :card[Chalice of the
 Void]). It also gives information about the opposing player's hand to help
 inform future decisions.
@@ -78,8 +78,8 @@ Veil is a very effective tool to combat countermagic or, as just mentioned,
 protect from opposing discard. It can be an effective way of powering out
 Doomsday, with a little extra card advantage on the side. Unlike discard, Veil
 is not as effective to deal with opposing interaction on any turns prior to the
-one where you intend to cast Doomsday. It also has some additonal considerations
-on any intended Doomsday combo turn as well.
+one where you intend to cast Doomsday. It also has some additional
+considerations on any intended Doomsday combo turn as well.
 
 Veil's cantrip ability can be both a boon and a detriment depending on the
 timing. If intending to _push_ Doomsday through with Veil you need to consider
@@ -157,7 +157,7 @@ on playstyle, personal preference, expected metagame shifts, or even just
 limitations of your collection (as some may not have the correct dual lands for
 a given splash which is totally okay!). There is currently no objectively
 correct answer on which interaction to bring to the table however a mix is
-generally considered better. Normally the mix inolves pairing Discard plus one
+generally considered better. Normally the mix involves pairing Discard plus one
 of the other colour splashes (the deck inherently being base {U}{B} meaning this
 is easier to support) however running say 6-8 Chant/Silences is not uncommon.
 Certain tools are of course better or worse depending on what you are facing.
@@ -196,7 +196,7 @@ These are both proven and effective disruption / protection pieces. :card[Spell
 Pierce] has the added benefit of being able to deal with a Chalice or Narset in
 addition to other stack based interaction whereas :card[Flusterstorm] is just
 generally more efficient, normally able to win a large counterwar by itself
-(generally only superceeded by an opposing Veil or sometimes another Fluster.
+(generally only superseded by an opposing Veil or sometimes another Fluster.
 Both are of course _soft_ counters and thus, like Daze, can lose effectiveness
 in a longer game. These are perfectly fine to be used in a pile, especially with
 an excess of {U} available however, unlike the other, more proactive pieces,
@@ -396,8 +396,8 @@ would only have reactive cards. This isn't too bad as in theory it would still
 trade nicely with most of their relevant interaction however it could mean
 getting blown out by something like :card[Dovin's Veto]. For a deck like
 Landstill, the only rogue card that really makes Thoughtseize shine over the
-alternatative options is :card[Nimble Obstructionist] being cycled as none of
-the other options can deal with it.
+alternative options is :card[Nimble Obstructionist] being cycled as none of the
+other options can deal with it.
 
 On Thoughtseizing them, and Standstill resolving, they respond with Force of
 Will pitching the :card[Supreme Verdict] we knew about as their blue card. Now
@@ -573,7 +573,7 @@ something. He was cognisant of the fact I was representing Pyroblast and / or
 Veil with my Trop x Volc combination open so was loathe to commit the Force into
 it without information. What is useful to note here too is my graveyard was
 practically only cantrips, lands and discard spells. Nothing that could help in
-a prolonged counter war or that could severly hamper my ability to build a
+a prolonged counter war or that could severely hamper my ability to build a
 winning pile. Based on this and the fact he knew I was aware of his Surgical,
 and thus would build a pile to play around it, he decided to allow my Force to
 resolve and then Surgical it with Doomsday still on the stack. If my two
@@ -636,7 +636,7 @@ not the case. Although I did know about it, I still had to try and build around
 it. If he had held it, I would have not been able to defend against it with Veil
 (one of the aforementioned weaknesses) and, with the pile I built, there is a
 risk that I would draw Doomsday or Oracle, maybe even one after another to then
-lose 2 turns to shuffle variance. As a result it would definately have been
+lose 2 turns to shuffle variance. As a result it would definitely have been
 correct to have held back the Surgical here.
 
 #### My pile
@@ -673,7 +673,7 @@ still try to go off with Pyroblast backup the next turn.
 
 I said he had built something _no-nonsense_ however the astute of you will have
 noticed he would have needed to have multiple turns of passing to have managed
-to play Oracle. He probaly should have built something like:
+to play Oracle. He probably should have built something like:
 
 :::row{variant=PILE}
 IU

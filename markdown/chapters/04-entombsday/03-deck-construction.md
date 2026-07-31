@@ -129,7 +129,7 @@ LED
 Mana acceleration is one of the defining features of Legacy combo decks. By
 cheating on mana and being able to resolve your combos as early as turn one, you
 can invalidate any pressure your opponent is presenting on the board and reduce
-the likelyhood that they are able to find interaction to disrupt you.
+the likelihood that they are able to find interaction to disrupt you.
 
 The two primary pieces of mana acceleration for Entombsday are :card[Dark
 Ritual] and :card[Lotus Petal]. Dark Ritual provides the exact mana needed for
@@ -226,7 +226,7 @@ Flusterstorm
 
 Because Entombsday is defined by the transformative sideboard from Tin Fins to
 Doomsday, the slots available for other sideboard cards are very limited to
-between two and four cards. Becvause of this, the slots chosen need to be highly
+between two and four cards. Because of this, the slots chosen need to be highly
 impactful in a specific matchup or broadly applicable across the metagame. The
 two most common options are :card[Echoing Truth] and :card[Flusterstorm].
 
@@ -257,7 +257,7 @@ bounce :card[Chalice of the Void] on 1.
 
 :card[Reanimate] - Tin Fins lists will sometimes run a single copy of Reanimate
 to allow you additional routes to combo off, as well as allowing you to
-reanimate Children of Korlis using fewer reources. This is generally not
+reanimate Children of Korlis using fewer resources. This is generally not
 standard for Entombsday, but is an option if you would like to try it. It can
 also enable Doomsday piles that mill Thassa's Oracle with Consider, but this
 opens you up to graveyard hate, which Entombsday is built to dodge.

@@ -40,7 +40,7 @@ I had been testing, a DDFT list without :card[Burning Wish].
 :card[Wishclaw Talisman] plays the role of tutor, and we still had access to a
 copy of Echo of Eons. :card[Bolas's Citadel] was a new tool, expensive but
 powerful. It functioned similarly to :card[Experimetal Frenzy], which saw its
-own share of Doomsday-related success, enabling piles and serving as a Storm
+own share of Doomsday-related success, enabling piles and serving as a _Storm_
 engine in its own right. The manabase in this list was much more stable than in
 the 4c builds with Burning Wish that I had been testing. It could play basics,
 and still play :card[Orim's Chant] to help protect Echo turns. Trying to build a
@@ -111,7 +111,7 @@ Tendrils of Agony
 
 Oh right, sorry.
 
-So around the same time I was on my hot streak, Legacy combo afficionado and
+So around the same time I was on my hot streak, Legacy combo aficionado and
 accomplished Doomsday player _Fuz65_ had a small flurry of results with a
 radical take on the archetype.
 
@@ -126,8 +126,8 @@ and Citadel provides a powerful engine that is hard for most decks to interact
 with.
 
 However, I would say my list was trying harder to be a Storm deck, with the
-tutors and multiple tutorable Storm engines. _Fuz_'s list is clearly more
-focused on Doomsday, and the Citadels provide a backup plan that incidentally
+tutors and multiple tutorable _Storm_ engines. _Fuz_'s list is clearly more
+focused on Doomsday, and the citadels provide a backup plan that incidentally
 plays well with the primary plan. There are some aspects of this list that I
 don't personally like, such as the distinct lack of tutors. Playing more
 cantrips improves your Doomsdays and provides consistency, but I would be
@@ -145,12 +145,12 @@ of the best combo cards against decks that play :card[Thalia, Guardian of
 Thraben] or :card[Chalice of the Void], but it has to be backed up by solid mana
 (or Force of Will). Storm decks, on the other hand, struggle to beat these kinds
 of cards once resolved. And to cap it all off, Citadel can be tough to interact
-with. Tradtional anti-Storm cards like :card[Flusterstorm] can't stop it from
+with. Traditional anti-_Storm_ cards like :card[Flusterstorm] can't stop it from
 resolving, and :card[Prismatic Ending] or other commonly played options can't
 remove it. :card[Endurance] does nothing to stop a Tendrils powered by Citadel,
 where it can be disruptive to a :card[Past in Flames] deck or a Doomsday pile.
 
-Citadel still functions as a Storm and card-advantage engine under Narset, and
+Citadel still functions as a _Storm_ and card-advantage engine under Narset, and
 it can't be Pyro- or Hydroblasted. Finally, not playing Burning Wish means a lot
 more room in the sideboard for a variety tools against the metagame. I think
 these aspects are what allow it to succeed.
@@ -171,7 +171,7 @@ and was interested to see if they could do the same for my deck. You'll note
 that Relay was already in the sideboard of my 5-0 lists, but I was not
 altogether impressed with its power. TES was better optimized to use Relay than
 that incarnation of _Mindkiller_, in large part because of the number of mana
-rocks. Opals help increase Storm count for a Relay, and then help you cast the
+rocks. Opals help increase _Storm_ count for a Relay, and then help you cast the
 spells you exiled for the next turn. TES is playing around 23 artifacts to help
 reach Metalcraft, and Mindkiller was running a mere 12. Conventional wisdom says
 that you need a minimum of 18 blue cards to be able to reliably have one to
@@ -191,7 +191,7 @@ better than Thoughtseize at protecting Echo turns. Part of the draw of Opal in
 the first place was making Echoes better by helping to generate mana from the
 new hand, so it seemed like Grid was a natural fit to this plan. But there were
 some issues: Defense Grid costs 2 mana, and Opal can't help cast it if you're
-relying on it to hit Metalcraft. This made it actaully quite awkward and the
+relying on it to hit Metalcraft. This made it actually quite awkward and the
 deck felt slower as a result, and it still only left me with 20 artifacts which
 is a little lower than I wanted.
 
@@ -213,7 +213,7 @@ felt favorable now felt much more even. There also were some issues with
 mulligans, primarily due to the manabase. The Opals were dead if the hand
 couldn't achieve Metalcraft, and more commonly lands would make the wrong color.
 The Thoughtseizes also felt a bit out of place now, as there was less excess
-black mana being created. Futhermore, it somehow felt like the deck was
+black mana being created. Furthermore, it somehow felt like the deck was
 constructed such that casting Thoughtseize on turn 1 and going off turn 2 was
 less desirable as a gameplan. I think it was a result of the lands not making
 all colors. A hand that could play land into Thoughtseize on turn 1 might no be
@@ -230,7 +230,7 @@ This is the _Mindkiller_ list I am currently testing and I like it quite a bit.
 The biggest change to the list is moving the Relays to the main, and discard to
 the board. This maximizes the business spells and the power of Opal in game 1.
 We're leaning into the speed axis. It doesn't noticeably impact gameplay against
-blue decks, because Storm spells from hand have always been the best weapon
+blue decks, because _Storm_ spells from hand have always been the best weapon
 against them, and Relay helps overpower them. Relay can be a liability against
 prison-style decks but this is an acceptable loss; there are only 3 copies of
 Relay maindeck, and in the blind you'd rather Spoils or Wish for Empty or Echo,
@@ -245,7 +245,7 @@ I'm not 100% convinced this is correct but most of what you want to discard is
 non-creature, and against the decks with creatures you'd care to discard, like
 Thalia, you'd rather just go fast and not spend time with discard spells. Not
 losing life to your manabase or other spells means you can see the most possible
-cards with Spoils, which is a minor, but cetainly non-zero, advantage. Finally,
+cards with Spoils, which is a minor, but certainly non-zero, advantage. Finally,
 I also removed :card[Street Wraith]. It was really only in the deck to enable a
 very specific pile. Imagine a hand like this:
 

@@ -103,7 +103,7 @@ point here is that it is possible.
 ### Example 4
 
 How about Stifle? Stifle is unaffected by Veil of Summer, stops both ways you'd
-try to win (Oracle and storm), but it won't stop you from drawing your pile.
+try to win (Oracle and _Storm_), but it won't stop you from drawing your pile.
 
 > Ponder in hand - {U}{U}{U}{B}, 2 life
 
@@ -127,8 +127,8 @@ decks and non-blue midrange. Discard comes in a few varieties, a la
 :card[Thoughtseize], :card[Hymn to Tourach], and :card[Liliana of the Veil], but
 you fight through them all in fundamentally the same way. Pass-the-turn piles
 are a powerful weapon against discard. They don't need to rely on cards in hand
-after Doomsday, and they require minimal initial input, i.e. a single hardcast
-Doomsday may be all you need.
+after Doomsday, and they require minimal initial input (i.e. a single hardcast
+Doomsday may be all you need).
 
 ### Example 1
 
@@ -142,7 +142,7 @@ SW
 TO
 :::
 
-You've seen this pile before, but we bring it up again here for its simplcity.
+You've seen this pile before, but we bring it up again here for its simplicity.
 It is efficient and requires no cards in hand, making it invulnerable to
 discard.
 
@@ -241,14 +241,14 @@ SW
 BW
 :::
 
-Storm kills are theoretically possible through a chalice on 0, although they
+_Storm_ kills are theoretically possible through a chalice on 0, although they
 require quite a bit of mana.
 
 #### Chalice on 1
 
 Chalice on 1 makes it tough to assemble your combo, since it turns off your
-cantrips, but it does very little to prevent you from winning if you can actualy
-cast Doomsday.
+cantrips, but it does very little to prevent you from winning if you can
+actually cast Doomsday.
 
 > {U}{U}, 2 life
 
@@ -285,12 +285,12 @@ SW
 BW
 :::
 
-Another storm kill that doesn't use 1-cost spells. Wishing for the Draw-4
+Another _Storm_ kill that doesn't use 1-cost spells. Wishing for the Draw-4
 eliminates the need for a 1-mana cantrip. This one has a hefty life cost though.
 
 #### Chalice on 2
 
-Chalice on 2 is reltively rare, but it turns off Wish and Oracle. f you resolve
+Chalice on 2 is relatively rare, but it turns off Wish and Oracle. f you resolve
 Veil of Summer before going off you can just ignore it. This is the preferred
 method. For the sake of completeness, here is a pile that can work through a
 Chalice on 2.
@@ -355,7 +355,7 @@ Island
 :::
 
 Pass the turn after Doomsday. Draw LED for turn, cast it, and cycle both Wraiths
-(making UUU with LED) to draw and play Oracle. Agianst Trinisphere, you'll need
+(making UUU with LED) to draw and play Oracle. Against Trinisphere, you'll need
 {3} to play LED, but then LED generates enough mana to cast Oracle. Against
 Canonist or Deafening Silence, you only cast 1 artifact and 1 creature, and both
 lockpieces permit you to cast 1 of each.
@@ -394,9 +394,9 @@ Playing through :card[Counterbalance] is not easy. Using a normal decklist, in
 game 1 there is no _standard_ way of getting through it. If you can resolve a
 Veil of Summer that will certainly work, but most Counterbalance players will
 try to keep a 1-cost card on top of their deck as much as possible so this can
-prove difficult. Natural Storm can also be effective. Sometimes you can convince
+prove difficult. Natural _Storm_ can also be effective. Sometimes you can convince
 a Counterbalance player to cast spells to change the cost of their top card,
-thereby adding to your storm count and unlocking other cards in your hand. This
+thereby adding to your _Storm_ count and unlocking other cards in your hand. This
 isn't always going to work but it is worth trying.
 
 After sideboarding, if you have Abrupt Decay in your deck, you can use it to
@@ -421,7 +421,7 @@ removal spell if you need to deal with something Abrupt Decay can't handle.
 
 ### Veil of Summer
 
-While Veil can stop your discard and turn off your Storm game plan, it does
+While Veil can stop your discard and turn off your _Storm_ game plan, it does
 nothing against a typical Thassa's Oracle Doomsday pile. against decks that can
 potentially play Veil of Summer, you should prefer to via a non-Tendrils means,
 with Doomsday+Oracle being the preference in general.
@@ -447,19 +447,19 @@ or win through other means. If they name Tendrils of Agony or Thassa's Oracle,
 you can win with the other without much trouble. A card like Dark Ritual is not
 used in many piles, but it can make casting Doomsday harder, and make a
 non-Doomsday kill almost impossible. Naming Lion's Eye Diamond isn't terribly
-difficult either. Ideas Unbound can draw 2 Petal and an Oracle and never need to
-use LED. Likewise, Lotus Petal isn't used in many piles, so you have options
+difficult either. Ideas Unbound can draw 2 petals and an oracle and never need
+to use LED. Likewise, Lotus Petal isn't used in many piles, so you have options
 there too. The point of all this is to illustrate that there is no single card
 they can name that completely wrecks you. The biggest threat from Meddling Mage
-is bad timing, i.e you set up for a certain type of kill, and Mage comes down
-and ruins it just before you would try to go off. Now your ability to shift
+is bad timing (i.e. you set up for a certain type of kill, and Mage comes down
+and ruins it just before you would try to go off). Now your ability to shift
 gears may be limited, making it harder to recover.
 
 ### Opposition Agent, Ashiok, and Friends
 
 There are several cards of varying playability that all have the effect of
 preventing you from searching your library. This obviously turns off Doomsday,
-but you can potentially win with a non-Doomsday storm kill. Ashiok will remove
+but you can potentially win with a non-Doomsday _Storm_ kill. Ashiok will remove
 your graveyard as well, but the other 2 let you search it with Doomsday, meaning
 you can potentially play through them if you're lucky and able to get the cards
 you need in the grave. And of course in the case of Leonin Arbiter, you can
@@ -469,7 +469,7 @@ always just pay {2} to ignore it.
 
 These types of effects are troublesome not only because they can remove an
 important piece from your deck but also because they force a shuffle. A
-well-timed Surgical suprise can mess up the order of a pile and make it very
+well-timed Surgical surprise can mess up the order of a pile and make it very
 unlikely that you'll win. There are a few ways to mitigate the effect of
 Surgical though.
 
@@ -525,8 +525,8 @@ matter.
 A new card from 2021 that is seeing a lot of play, both in blue decks and
 non-blue decks. It can ruin Oracle piles for 0 mana and has proven troublesome
 for many Doomsday players. If you walk into it, you're liable to get completely
-blown out. However, DDFT can play around it much more easily than other Domsday
-variants by not using Oracle. Endurance will have no effect on a typical Storm
+blown out. However, DDFT can play around it much more easily than other Doomsday
+variants by not using Oracle. Endurance will have no effect on a typical _Storm_
 kill pile. Echo piles can also be used to dodge Endurance, though care must be
 taken not to put more than 2 cards back into your graveyard.
 

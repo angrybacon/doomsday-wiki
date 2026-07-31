@@ -254,7 +254,7 @@ in a row.
 G1. Like I said previously this is a mu Doomsday is favored, much in the same
 way Doomsday is favored against Mono {G} Post but now you do have to have a plan
 for :card[Endurance]. I wasn't very familiar with the stock 75 for this deck but
-I suspected they weren't playing :card[Endurance] in the main deck. I cast
+I suspected they weren't playing :card[Endurance] in the maindeck. I cast
 doomsday, Mike asked me if he was dead to which I replied “yes if you don't have
 any interaction” they said “I do not”. I demonstrated to Mike the pile I was
 going go make with the cards in my hand and we went to G2.
@@ -283,7 +283,7 @@ normal thing again in the future when things are safer.
 > dislike for the card. I didn't have very much experience with combo and got
 > 100% of my list from Kai and followed his stream religiously over the past few
 > months. Unfortunately I was wrong about my general impression of the metagame,
-> there was a bunch of monkey buisness. Despite with facing some bad matchups
+> there was a bunch of monkey business. Despite with facing some bad matchups
 > and my relative inexperience as a pilot, the deck felt bonkers. One thing I
 > will say is while the Bant/4C matchup feels close when I play online many of
 > the pilots in this event seemed to not have a good understanding of matchup
@@ -292,8 +292,8 @@ normal thing again in the future when things are safer.
 
 #### Round 1 vs Matt Brown on UR Delver. Loss (1-2)
 
-This guy had :card[Snapcaster Mage]s, :card[Price of Progress], and 3
-:card[Flusterstorms] in the board. I got lucky to win G1 without a real
+This guy had :card[Snapcaster Mage]s, :card[Price of Progress], and 3 copies of
+:card[Flusterstorm] in the board. I got lucky to win G1 without a real
 understanding of what was going on but G2/3 were not close.
 
 #### Round 2 vs Kevin Brenneman on Bant Control. Win (2-1)
@@ -326,7 +326,7 @@ Entomb|ODY
 #### Round 4 vs Jacob Saracino on UR Delver. Win (2-1)
 
 G1 was close, they had turn 1 Ragavan and off the first cantrips I saw straight
-gas. Unfortunatly I had to let them cast spells.... I avoided this once by
+gas. Unfortunately I had to let them cast spells... I avoided this once by
 casting a Personal Tutor for :card[Edge of Autumn] they chose not to attack
 which was odd and it ended up enabling a same turn kill.
 
@@ -338,7 +338,7 @@ interaction but at this point my opener had two :card[Pact of Negation] and I've
 drawn into the full playset. We go draw go for a couple turns making land drops
 at which point my hand is 4 Pact, :card[Dark Ritual], 2 Cyclers. I topdeck the
 :card[Doomsday] and resolve through hardcast :card[Force of Negation], Force
-pitch :card[Daze], and :card[Pyroblast] at which point they have two unkowns in
+pitch :card[Daze], and :card[Pyroblast] at which point they have two unknowns in
 hand. I made a big punt here by putting myself dead to double :card[Daze]. I
 wasn't recognizing that they had tapped out for the FON and I didn't need to
 empty my library. Realised it as soon as I cast the :card[Ideas Unbound].
@@ -1009,10 +1009,10 @@ recall what my 7 was, other than it had FoW, cantrips, :card[Dark Ritual], and
 land. My opponent opened to :card[Underground Sea], :card[Ponder], pass. So at
 first I thought I was in a combo mirror. I cast a :card[Ponder] on my turn as
 well. My opponent cast another cantrip and then played out :card[Ornithopter].
-Ok, I'm facing :card[Ninjas] - not a great matchup, actually kinda bad. On my
-turn, I find the combo and set up a pass-the-turn pile with :card[Ideas
-Unbound]. My opponent ninjitsus in Yuriko on his turn and hits me for a decent
-amount, but not enough to keep me from winning the following turn.
+Ok, I'm facing Ninjas - not a great matchup, actually kinda bad. On my turn, I
+find the combo and set up a pass-the-turn pile with :card[Ideas Unbound]. My
+opponent ninjitsus in Yuriko on his turn and hits me for a decent amount, but
+not enough to keep me from winning the following turn.
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Red Elemental Blast],
 :card[Pyroblast], :card[Flusterstorm]  
@@ -1133,7 +1133,7 @@ TO
 1. Cast Consider, put X into the graveyard and draw TO
 1. Cast TO with the remaining mana from LED with zero cards left in your library
 
-This also allowss you to create very mana/card efficient piles with the help of
+This also allows you to create very mana/card efficient piles with the help of
 :card[Deep Analysis]. If you have {U} and either :card[Consider] or a cycler in
 hand you can build the following:
 

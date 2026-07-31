@@ -30,8 +30,8 @@ Gioia][mana]. See their section about licensing for more details.
 
 In addition, the Wiki displays icons from the [Material Icons][icons:mui]
 library as well as from the [Simple Icons][icons:simple-icons] library for brand
-icons. Please check their respective licensing for more details, which can be
-adapted from one icon to another.
+icons. Check their respective licensing for more details, which can be adapted
+from one icon to another.
 
 Phyrexian scripture and the corresponding unofficial font assets were provided
 from the work of [Stas][stas].

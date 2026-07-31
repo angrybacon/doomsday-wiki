@@ -20,7 +20,7 @@ the overall power level of the cards and reduce the number of dead cards in the
 deck. I took an ANT-hybrid list to a local win-a-dual and scrubbed out hard. I
 went back to the drawing board and devised a new list with multiple Infernal
 Contracts. I started jamming games in the MTGO practice room, and it tested
-suprisingly well. I dropped the list in the Doomsday Discord, but had a hard
+surprisingly well. I dropped the list in the Doomsday Discord, but had a hard
 time getting anyone else on board since it was so different from what others
 were trying at the time. As I got more comfortable with the new piles, I played
 a few leagues, and after cashing most of them I was able to convince a few of
@@ -125,7 +125,7 @@ lose
 wasteland me and drop Chalice@0. I have more lands, and since I can cantrip, I'm
 able to put something together withing a turn or 2. I play Petal into Chalice to
 get threshold, then ritual into Doomsday, and set up a pile with a basic Swamp
-instead of the normal Petal to cast more rituals. It makes exactly 10 storm, and
+instead of the normal Petal to cast more rituals. It makes exactly 10 _Storm_, and
 I'm still alive.  
 (4-2)
 

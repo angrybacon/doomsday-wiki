@@ -33,7 +33,7 @@ has some key text on it that states the following:
 This means that even in the face of a removal spell you can still win if the
 trigger resolves assuming you have zero cards left in your library. The only
 time removal matters is when you have cards left within your library. If an
-opponent tries to remove the Oracle at that point, assuming you have no
+opponent tries to remove the oracle at that point, assuming you have no
 additional Devotion to {U}, you will not be able to win off of the trigger.
 
 The main counter to this is of course to try and ensure you leave zero cards
@@ -80,7 +80,7 @@ extra potential Devotion to {U} to help bolster your effect. Cards like
 :card[Baleful Strix], :card[Counterbalance], :card[Snapcaster Mage] or even
 :card[Teferi, Time Raveler] are a few examples. The concepts presented here can
 also help beat something like :card[Endurance] which, although doesn't actually
-remove the Oracle, does usually result in your deck having too many cards to
+remove the oracle, does usually result in your deck having too many cards to
 enable you to win off of the trigger.
 
 ### Thinning with Fetchlands
@@ -240,7 +240,7 @@ for the other.
 In an alternative scenario if you were to face similar, but with an additional
 {U} available, you could build the same thing but with an additional piece of
 interaction such as Daze, Pact of Negation or simply a second blue card to allow
-you to cast Force of Will twice if they try and fight over the Oracle.
+you to cast Force of Will twice if they try and fight over the oracle.
 
 ### Other Tools Available
 
@@ -260,7 +260,7 @@ CoS
 
 You should recognise the above as a simplified Brainstorm pile. In this we have
 simply swapped out a Lotus Petal with Cavern. This severely punishes anyone
-trying to wait on countering the Oracle by letting the rest of the spells
+trying to wait on countering the oracle by letting the rest of the spells
 beforehand resolve.
 
 Likewise it can slot into most IU piles too.
@@ -380,7 +380,7 @@ actively stop you _going off_ and winning the game however they do present
 potential for a lot of delay on reaching that combo turn, especially if being
 placed under pressure. The piles themselves can be adapted, using the free
 cyclers, to try and become as mana efficient as possible. This is especially
-good when knowing you don't face removal as often the Oracle itself is not
+good when knowing you don't face removal as often the oracle itself is not
 taxed:
 
 :::row{variant=PILE}
@@ -571,7 +571,7 @@ situation whereby your opponent may have an active :card[Grindstone] and the
 mana to activate it but you otherwise have a window to try and win. Just like
 with Surgical Extraction it is difficult to know if and/or when the opponent may
 try to activate the Grindstone but the following pile covers all possible cases
-to resolve the Oracle with at most 2 cards left while passing the turn.
+to resolve the oracle with at most 2 cards left while passing the turn.
 
 > PTT + {U}{U}
 
@@ -692,14 +692,13 @@ less! However it is quite simple to play around it if you can plan in advance:
 with a cycler in hand for instance, this is a removal interaction that can be
 played around by leaving 1 card in the pile. If they target you with the
 mode that make you draw you don't need to use your cycler, and if they don't and
-instead opt to only exile the Oracle then you still have the opportunity to draw
+instead opt to only exile the oracle then you still have the opportunity to draw
 the last card of the pile.
 
 Cephalid Coliseum is a lot more difficult to navigate through but does require
 them to reach _Threshold_ and is therefore sensitive to sideboard cards you will
 bring in. Winning with 2 Oracles and 4 devotion to {U} is the straightforward
-option but :card[Jace, Wielder of Mysteries] is equally resolutive albeit more
-costly.
+option but :card[JWoM] is equally resolutive albeit more costly.
 
 ### Fateseal Effects
 
@@ -760,9 +759,8 @@ They interact with Oracle by preventing the trigger to ever reach the stack and
 therefore require a different approach. For instance, discard won't necessarily
 take care of Dress Down as they can simply cast it in response forcing you to
 pass the turn. The rise of the Stiflenought archetype has made some pilots go as
-far as listing :card[Jace, Wielder of Mysteries] or less commonly
-:card[Laboratory Maniac] in order to completely bypass both Stifle effect and
-ETB-hate.
+far as listing :card[JWoM] or less commonly :card[Laboratory Maniac] in order to
+completely bypass both Stifle effect and ETB-hate.
 
 ### Endurance Effects
 
@@ -792,7 +790,7 @@ To make your life easier you should avoid putting things in your graveyard in
 the first place: with the initial Doomsday already there, if you can limit your
 discarding to just 1 extra card, that means their first Endurance will put back
 at most 2 cards making a perfect pile simply become an imperfect pile with the 2
-devotion count from the Oracle. That means you should prefer things that draw
+devotion count from the oracle. That means you should prefer things that draw
 more with little waste like :card[IU] and avoid cards that put themselves in the
 graveyard like :card[LP] and cyclers. Beating 2 copies of Endurance in the same
 turn requires more initial {U} mana but is definitely possible:

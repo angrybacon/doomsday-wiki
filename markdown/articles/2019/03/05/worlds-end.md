@@ -52,7 +52,7 @@ Reversemermaid on 01/26/2019:
 > \[LED, LED, LED, LED, BW\] makes enough mana to BW for ToA and sac Frenzy
 >
 > waiiiiiiiit damn lol these piles have trouble generating enough storm lol just
-> did that pile and storm count was like 7 man im doing some embarassing
+> did that pile and storm count was like 7 man im doing some embarrassing
 > misplays with this
 >
 > shieet you can pull double doomsday piles out of your ass to generate storm
@@ -62,13 +62,13 @@ Reversemermaid on 01/26/2019:
 > Healing Salve in the 75 and you can actually go infinite lol Wait ToA gains
 > life so \[LED, LED, LED, ToA, Dd\] is infinite
 
-Did this guy just say infinite storm with Frenzy out? Suddenly, people were
+Did this guy just say infinite _Storm_ with Frenzy out? Suddenly, people were
 interested. Myself included!
 
 Looking into the card and decklist more there were some key things identified.
 
 1. Frenzy plus Doomsday is an instant win.
-1. Frenzy plus Doomsday is infinite Storm instant win.
+1. Frenzy plus Doomsday is infinite _Storm_ instant win.
 1. Frenzy plus Doomsday assuming you have B post Dd is an instant win even with
    Surgical on LED
 1. You can even sub out Tendrils for Collective Brutality and it would still
@@ -102,17 +102,17 @@ So Assume Frenzy is out and you cast Doomsday, stack the above.
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
 1. Cast LED, from the top of your deck, crack for {B}{B}{B}
-1. Cast Tendrils from the top of your deck for 5 storm and have {B}{B}{B}{B}{B}
+1. Cast Tendrils from the top of your deck for 5 _Storm_ and have {B}{B}{B}{B}{B}
    left in pool
 1. Cast Doomsday stack \[LED, LED, LED, ToA, Dd\]
 1. Repeat as required
 
 The nice thing is the repeat stacks can use the Doomsday in the yard to form the
 new piles. The life gain from Tendrils helps mitigate the lifeloss from Doomsday
-allowing you to go infinite. As per point 4 above, Collextive Brutalitiy can
-also be used as eventually your Doomsday life total will go down to 1 or 2, you
-cast Collective Brutality back up to 3/4 and thus can repeat ad infinium.  
-Hell, you could even consider running :card[Aetherflux Reservoir]!
+allowing you to go infinite. As per point 4 above, Collective Brutality can also
+be used as eventually your Doomsday life total will go down to 1 or 2, you cast
+Collective Brutality back up to 3/4 and thus can repeat ad infinium. Hell, you
+could even consider running :card[Aetherflux Reservoir]!
 
 As per the example above:
 
@@ -133,7 +133,7 @@ Dd
 
 Eventually the life gain will ramp up so that you go about 50 life and you can
 dome your opponent as required! This is of course just an amusing idea and in no
-way should be considered competetive!
+way should be considered competitive!
 
 ## Decklist
 
@@ -203,9 +203,9 @@ cards? Well, yes... seems I did...
 One run of 4 rounds however does not statistically significant data make
 however, as people who have read the old Wiki stuff will know, I like numbers!
 As soon as this new brew was announced and tried we at the cabal of Doomsdayers
-decided to get our rites on and ressurrect an old friend. The result
-spreadsheet. At the time of writing we now have 164 matches recorded as a
-community with the following statistical breakdown:
+decided to get our rites on and resurrect an old friend. The result spreadsheet.
+At the time of writing we now have 164 matches recorded as a community with the
+following statistical breakdown:
 
 | Match Win % | Average Combo Turn | Average Mulligan |
 | ----------- | ------------------ | ---------------- |

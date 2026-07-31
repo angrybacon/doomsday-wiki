@@ -39,7 +39,7 @@ of the field.
 
 It's likely due to these reasons mixed with a bit of a love for brewing and the
 desire to tailor a strategy to a pilot#'s own style that has seen this change
-come about. Today I want to dicuss the different theories and means of building
+come about. Today I want to discuss the different theories and means of building
 Meandeck Doomsday and how they might impact your performance or style.
 
 ## Alignment Axis 1 - Speed
@@ -51,11 +51,11 @@ being aimed for and how well the deck fairs in different stages of the game.
 
 ### Speed Purist - The Fast and the Furious (Turbo Doomsday)
 
-Well known combo afficienado Jax has worked on trying to develop faster builds
-of Doomsday since around March/April 2020. He was one of the ones who truly
-pushed the wider usage of Daze forwards and has tried a number of iterations of
-the deck. Between Jax and skilled player kl0gw (who seems to be a 5-0 machine)
-they developed what is being colloquially called "Turbo Doomsday". Whilst the
+Well known combo aficionado Jax has worked on trying to develop faster builds of
+Doomsday since around March/April 2020. He was one of the ones who truly pushed
+the wider usage of Daze forwards and has tried a number of iterations of the
+deck. Between Jax and skilled player kl0gw (who seems to be a 5-0 machine) they
+developed what is being colloquially called "Turbo Doomsday". Whilst the
 previous baseline ran on average 2-3 Lotus Petals and maybe 1-2 _bad_ tutors
 such as Personal Tutor or Lim-Dûl's Vault to increase support on finding
 Doomsday, it mostly relied on a heavy cantrip shell and had a decent balance on
@@ -185,7 +185,7 @@ backup (where applicable) is pretty key.
 If budget allows then running the full 4 Seas alongside 3 basics (2 Island / 1
 Swamp) is plenty of safe mana to work with. Your fetchlands should be 4 Polluted
 Delta, 3-4 {U} based fetchlands and 0-1 {B} based fetchland. Prismatic Vista is
-not a suitable card to run as you really need to prioritse being able to find
+not a suitable card to run as you really need to prioritise being able to find
 the Underground Seas.
 
 Sticking to 2 colours has upsides but also a lot of limitations. Normally
@@ -279,7 +279,7 @@ colour if you successfully resolve Doomsday in game 1. If the opponent looks
 through your deck and doesn't see any {r}x dual for example, they may not be
 prepared for Red-Elemental Blasts in game 2.
 
-The final option is the simplest which is to just shove it all in the main deck.
+The final option is the simplest which is to just shove it all in the maindeck.
 You would unlikely want both {U}x and {B}x duals of both colours so again, one
 is normally a secondary splash and the other a tertiary. I currently run 4
 colour no {W} and have the following land configuration:

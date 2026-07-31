@@ -118,6 +118,7 @@ export const theme = responsiveFontSizes(
             fontStyle: 'italic',
           },
           body: { display: 'flex' },
+          'em > em': { fontStyle: 'normal' },
           html: {
             fontSize: 18,
             scrollBehavior: 'smooth',

@@ -2,7 +2,7 @@
 // Colors: {U}{B}{R}
 3 Doomsday
 4 Burning Wish
-1 Act On Impulse
+1 Act on Impulse
 1 Laboratory Maniac
 4 Brainstorm
 4 Ponder

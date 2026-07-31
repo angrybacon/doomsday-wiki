@@ -17,8 +17,8 @@ can be competitive in the current Legacy metagame. So I resolved to play through
 from leagues. I focused my data tracking on match wins, so there's no per-game
 data, but I did track by opposing archetype to better understand how the deck
 fares against different aspects of the metagame. It should also be noted that 50
-matches isn't much in the grand scheme of things, but it should give us somethng
-to talk about.
+matches isn't much in the grand scheme of things, but it should give us
+something to talk about.
 
 ## The Deck
 
@@ -28,8 +28,8 @@ This list should look remarkably similar to the original form of the deck. There
 are no attempts to support Brainstorm, there's still plenty of copies of
 :card[Spoils of the Vault]. There are, however, protection spells maindeck. The
 Thoughtseizes are, in my opinion, the best option for this slot. They can be
-cast off ritual mana which makes them a vast improvement over the Chants eg.
-:card[Orim's Chant] and :card[Silence], I've tried previously. Not needing three
+cast off ritual mana which makes them a vast improvement over the Chants (e.g.
+:card[Orim's Chant], :card[Silence]) I've tried previously. Not needing three
 different colors of mana on your combo turn, which is frequently turn 1, is a
 huge boon in terms of being able to go fast, safely. Thoughtseize can also
 discard your own Echoes, which has come up a few times. We just ignore the life
@@ -95,7 +95,7 @@ Anyway, here's how it broke out:
 _Fair blue_ includes decks like Delver, the entire spectrum of UWx Piles from
 Bant to Landstill, and less common foes such as Death's Shadow decks. This
 category seems to be more or less even, perhaps edging towards slightly
-positive. This is perhaps the most suprising and encouraging result in all of
+positive. This is perhaps the most surprising and encouraging result in all of
 this, despite it being the lowest winrate among major categories. If your
 glass-cannon combo deck can go toe-to-toe with the blue decks of the format,
 then you have a pretty good glass cannon. It's safe to say that certain decks
@@ -233,7 +233,7 @@ Orim's Chant
 :::
 
 The Doomsday package is at its weakest in these matchups. You don't have the
-tools to build the same kind of robust piles that other Doosmday decks can make.
+tools to build the same kind of robust piles that other Doomsday decks can make.
 No :card[Cavern of Souls], no :card[Pact of Negation]. Trade out the business
 spells to keep the deck threat-dense, and add a bit more protection.
 

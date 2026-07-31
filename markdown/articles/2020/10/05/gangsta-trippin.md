@@ -33,7 +33,7 @@ _Dale Cooper_ that led to the inspiration to author this. Referring back to the
 concept of the _Xerox_ shell, Doomsday is a prime example of this in terms of
 deck construction. In fact, Meandeck Doomsday potentially boasts the highest
 number of cantrips of any given archetype in Legacy running up to a total of 18
-replacement card draw effects within the main deck alone.
+replacement card draw effects within the maindeck alone.
 
 In this article we hope to present the following points:
 
@@ -89,7 +89,7 @@ Brainstorm has been described as a [_Pillar of the
 Format_](https://twitter.com/mtgaaron/status/985674571188588544) and is
 considered one of the most powerful spell effects in Legacy. It acts as a way to
 _see_ 3 cards but can, in effect, give the ability to exchange up to 2 cards
-from your hand, normally those considered uneeded at the time, and get rid of
+from your hand, normally those considered unneeded at the time, and get rid of
 them, again normally with the aid of a fetchland. This in a sense can be viewed
 as almost drawing 3 cards with some people comparing it to :card[Ancestral
 Recall].
@@ -178,7 +178,7 @@ Pdt
 
 Ideas Unbound is a more effective card (resources allowing) during pile
 construction but a weaker card outside of the combo. It can be used as a large
-scale :card[Faithless Looting] effect to turn a land heavy hand into a speall
+scale :card[Faithless Looting] effect to turn a land heavy hand into a spell
 heavy hand. or provide an explosive boost of cards for a single turn,
 potentially enabling you to combo off there and then.
 
@@ -218,7 +218,7 @@ potentially scry 2 cards to the bottom of your deck that are unwanted to then
 shuffle them back to the top. This is also why it can be beneficial to crack any
 fetchland in play prior to casting Preordain.
 
-You should always try and cast Brainstorm in conjucture with a fetchland. With
+You should always try and cast Brainstorm in conjecture with a fetchland. With
 this in mind it should rarely be cast on turn 1. The main times this is
 acceptable are scenarios such as when trying to protect a card in hand from
 opposing targeted discard or, if your hand is one (common) piece away from a
@@ -381,7 +381,7 @@ of inside piles; _filtering_ and _card booming_. Filtering basically is the use
 of it as a glorified :card[Careful Study]. If you find yourself with a hand of
 too many lands, or an abundance of protection in a matchup where it's not
 needed, you can just cast Ideas Unbound to spend the turn drawing some extra gas
-and discarding the uneeded cards.
+and discarding the unneeded cards.
 
 The other option is more of a late game tactic whereby you use it effectively as
 an :card[Ancestral Recall]. If you are low on cards, close to having a winning

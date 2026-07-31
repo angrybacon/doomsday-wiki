@@ -9,15 +9,15 @@ title: DDFT Brews for 2021
 Like many Legacy players who are dedicated to their deck, I am constantly
 iterating, adjusting, and refining my lists. Since I'm a DDFT holdout, I have to
 work extra hard to make my deck even moderately playable compared to those more
-_normal_ Doomsday players. This means I'm very open to trying unsual (read: bad)
-ideas in case I find the next piece of sick tech. It's rare that this actually
-happens, but even failed brews can leave behind valuable morsels, which may with
-luck accumulate into something playable. So, dear reader, let me take you on a
-journey through the dark corners of the Doomsday Discord, where suboptimal decks
-skitter in the shadows, and the few remaining DDFT players, gaunt and starving,
-make their home. We'll see some examples of failures, examine the useful scraps,
-and talk about what I think is the best list right now for someone who wants to
-play Doomsday and Tendrils of Agony in the same 75.
+_normal_ Doomsday players. This means I'm very open to trying unusual (read:
+bad) ideas in case I find the next piece of sick tech. It's rare that this
+actually happens, but even failed brews can leave behind valuable morsels, which
+may with luck accumulate into something playable. So, dear reader, let me take
+you on a journey through the dark corners of the Doomsday Discord, where
+suboptimal decks skitter in the shadows, and the few remaining DDFT players,
+gaunt and starving, make their home. We'll see some examples of failures,
+examine the useful scraps, and talk about what I think is the best list right
+now for someone who wants to play Doomsday and Tendrils of Agony in the same 75.
 
 ## The Starting Point
 
@@ -48,7 +48,7 @@ Ideas Unbound instead of the Draw4's (Infernal Contract and Cruel Bargain) are
 primarily to facilitate Oracle piles, especially pass-the-turn piles. There's
 also a reduced number of rituals and more cantrips for consistency, encouraged
 by the reduced reliance on black mana. Clearly, Thassa's Oracle caused a
-substantial shift in the Doomsday world, even for those of us trying to Storm
+substantial shift in the Doomsday world, even for those of us trying to storm
 off.
 
 I still think this list is a very reasonable option, and a good place to start
@@ -113,7 +113,7 @@ playing it.
 ::decklist{url=2021/07/26/mindkiller.wubrg}
 
 _Mindkiller_ is probably the deck I'm most proud of, but it has its flaws.
-Though it could be suprisingly resilient, it was still a glass cannon, and one
+Though it could be surprisingly resilient, it was still a glass cannon, and one
 that sometimes fell apart without any intervention from the opponent. Every time
 I had a cold streak with Spoils of the Vault, I would look for alternatives to
 it.
@@ -187,7 +187,7 @@ Another list based on the "X is just Doomsday 5-8!" idea. I actually first had
 this idea shortly after :card[Gitaxian Probe] got banned. It wasn't good then,
 so I probably shouldn't have expected much now, but hey, Oracle had been printed
 since back then, so why not give it another shot? :card[Lim-Dûl's Vault] can be
-used to arrange the top few cards into something that can generate lethal Storm.
+used to arrange the top few cards into something that can generate lethal _Storm_.
 Play a few Draw4's and multiple copies of Tendrils maindeck so you have a better
 shot at arranging a lethal pile with LDV.
 
@@ -200,7 +200,8 @@ about the only redeeming quality of the deck in practice.
 ::decklist{url=2021/07/26/pox-doomsday}
 
 This one isn't DDFT but it certainly is bizarre. Doomsday costs {B}{B}{B}. Pox
-makes lots of black mana. Control decks with suprise combo finishes can be good.
+makes lots of black mana. Control decks with surprise combo finishes can be
+good.
 
 Maybe this will... nope.
 
@@ -231,8 +232,8 @@ actually Doomsday_.
 
 After trying that out for a bit, I ended up fitting Echo of Eons into the deck,
 and basically ended up with something like _Mindkiller_ but without wishes, just
-straight UB. Echo improves upon the 1 mana = 1 card = 1 Storm principle behind
-_Meandeck Tendrils_, by being 3 mana = 7 cards = ~6 storm and often is
+straight UB. Echo improves upon the 1 mana = 1 card = 1 _Storm_ principle behind
+_Meandeck Tendrils_, by being 3 mana = 7 cards = ~6 _Storm_ and often is
 mana-positive, so it felt like a good fit.
 
 [scg:meandeck-primer]: https://articles.starcitygames.com/premium/the-meandeck-tendrils-primer/
@@ -243,7 +244,7 @@ Now, this deck wasn't really that good, and the fact that I never finished a
 sideboard for it is somewhat telling. But it got me thinking about the power of
 Brainstorm, as both a setup spell and a Doomsday enabler. It's also quite good
 with multiple copies of Tendrils of Agony, since it frequently is worth 2 or 3
-Storm; cast spells, Brainstorm, draw 1-2 more castable spells, put a Tendrils
+_Storm_; cast spells, Brainstorm, draw 1-2 more castable spells, put a Tendrils
 from your hand back into your library, then cantrip into it for lethal was a
 common play pattern. So I set about making a more stable, less all-in DDFT list
 with multiple maindeck Tendrils, and ended up on this:

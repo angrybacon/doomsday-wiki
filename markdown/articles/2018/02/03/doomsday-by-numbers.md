@@ -84,7 +84,7 @@ and splash colours. Because of this variance it's hard to determine what list is
 performing best. We could try at give each ratio of things a unique code slot
 and string them together just as we could try and get people to list all cards
 in their piles however people don't want to have to keep that level of detail in
-their notes so in the interests of pragmatism this level of data is ommitted.
+their notes so in the interests of pragmatism this level of data is omitted.
 
 ## Business Business Business. Numbers, Numbers, Numbers
 
@@ -92,7 +92,7 @@ Right then, let's start looking at some data shall we?
 
 First of all the number of total 'good' match data points is 565. A _good_ match
 is defined as one where we have all the pertinent information recorded. For any
-data crunching involving sucess or win% we shall also define a 'good' match as
+data crunching involving success or win% we shall also define a 'good' match as
 "not the mirror". The reason being here is that we might only have data from one
 side of the match therefore only recording the result from one side and not the
 other. As a result it's easier to just omit them than allow the minor skew from
@@ -144,7 +144,7 @@ sideboard options. Being a combo deck, and a combo deck that uses a wishboard at
 that, we do have limited slots and options for trying to face a large variety of
 hate in different forms and it may be often we just have the wrong answers at
 the wrong times. It could also be the fact that our main win condition allows
-our opponent to see the entierity of our deck that is not included in the
+our opponent to see the entirety of our deck that is not included in the
 Doomsday pile and thus know exactly what to play around.
 
 Pre-release edit:
@@ -213,14 +213,14 @@ be less so.
 
 First of all let's take a moment to appreciate the variety of the format. Across
 the results we have a total of 97 different decks which is great. We did go
-through the results and tidy up certain decks where minor naming coventions
+through the results and tidy up certain decks where minor naming conventions
 might give the illusion of difference but they are the same for all intents and
 purposes (Dragon Stompy and Goblin Stompy). I'm sorry if by doing this I offend
 any archetypes however sometimes key subtle differences are just too subtle. The
 highest represented deck across all our results only had a net share of 9.04% of
 the meta we have faced so far which is nice.
 
-Now if we were to split our dicussion for each deck we would have a hard time
+Now if we were to split our discussion for each deck we would have a hard time
 and this would be a much longer article (though it is pretty long anyways so
 thank you if you have made it this far). Often when talking about archetypes
 people will split them into 'Blue' and 'Not Blue'. Sometimes this binary system
@@ -233,15 +233,15 @@ than listing each and every archetype.
 
 We decided upon a system of defining archetypes by what elements we as a deck
 actually cared about in terms of interaction. We decided to use the following
-catergories to list archetypes by:
+categories to list archetypes by:
 
-- Chalice - Decks that utitlize permanent, usually artifact based hate such as
+- Chalice - Decks that utilize permanent, usually artifact based hate such as
   Chalice of the Void or Thorn of Amethyst
 - Counterspells - Decks that utilise reactive countermagic such as Force of Will
   or Daze
 - Discard - Decks that utilise proactive hand disruption such as Thoughtseize or
   Hymn to Tourach
-- Hatebears - Decks that usitilise creature based disruption such as Thalia,
+- Hatebears - Decks that utilise creature based disruption such as Thalia,
   Guardian of Thraben or Eidolon of the Great Revel
 - Speed - Decks that just try and kill you quickly
 
@@ -256,7 +256,7 @@ Despite one being a great matchup and the other being unfavorable, both Eldrazi
 and Lands come under the heading 'Chalice'. Eldrazi because they run Chalice of
 the Void in the maindeck and Lands because their main method of hate is bringing
 in Sphere effects from the sideboard. Pretty much all storm variants come under
-'DiscardSpeed' but so does BR Reanimator. There are definately limitations to
+'DiscardSpeed' but so does BR Reanimator. There are definitely limitations to
 this assigning method and I would be very open to a different way of doing it.
 
 Looking at the performance breakdown against our categories we get this results
@@ -335,7 +335,7 @@ Comparing this to the other data from the last article we can see we are slower
 than TES on average but marginally faster than ANT. One thing to note however is
 that we do record combo turns for games even when we do not win them. This
 represents us 'going off' and maybe being blown out by an unknown piece of hate
-or miscounting storm or messing up the pile. To fix this we can generate the ACT
+or miscounting _Storm_ or messing up the pile. To fix this we can generate the ACT
 filtered only by when we win the game we go off.  
 Averaging that gives us the following:
 
@@ -361,7 +361,7 @@ BR Reanimator).
 
 One thing to consider about the Doomsday only wins number and the others before
 it is that pass-the-turn Doomsday lines can also skew the data to seem faster
-than it is. Let's take this as an oppotunity to look at roughly what amount of
+than it is. Let's take this as an opportunity to look at roughly what amount of
 our total Doomsday lines are pass-the-turn ones.
 
 ![Pass-the-turn chart](/media/pictures/2018.numbers.chart.pass-the-turn.gif 'Ratio of pass-the-turn piles')
@@ -407,11 +407,11 @@ main three win conditions.
 
 ![Engine usage chart](/media/pictures/2018.numbers.chart.pile-winrate.gif 'Doomsday piles across games')
 
-Lethal storm is again a clear majority, especially in Game 1. Laboratory maniac
+Lethal _Storm_ is again a clear majority, especially in Game 1. Laboratory maniac
 is steady across all games accounting for around thirty percent. I know some
 people debate on whether the inclusion of maniac is worth it but from this data
 it seems to show that he represents almost a third of wins therefore should
-probably be included. What is interesting is that the reduction in storm wins
+probably be included. What is interesting is that the reduction in _Storm_ wins
 from Games 2 and 3 seems to go directly to the added presence of Shelldock Isle
 wins.
 
@@ -426,7 +426,7 @@ just need to start polishing up our gameplay and bringing out our
 anti-_CounterspellsDiscard_ tech (IMO it's two Empty the Warrens in our board).
 
 Massive shout outs to all those who have contributed results to this project
-especialy d8dk32 and Hulahula who are MTGO League Machines! All I ask is that
+especially d8dk32 and Hulahula who are MTGO League Machines! All I ask is that
 everyone keeps up with the data recording. The more we keep up with this, the
 more results, the more accurate a snapshot we can keep on how the deck is
 performing.

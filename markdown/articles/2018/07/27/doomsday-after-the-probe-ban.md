@@ -10,10 +10,10 @@ The banning of Gitaxian Probe was brutal. I can't think of another word to
 describe it. For other Storm decks, Probe was simply a powerful card, too good
 not to play. For Doomsday, it was integral to the function of the deck. Beyond
 providing information and a cantrip, it was critical in many piles. Without it,
-most piles cost at least 1 mana more, or generate 1 less Storm if, for example,
+most piles cost at least 1 mana more, or generate 1 less _Storm_ if, for example,
 you use an on-board Bauble to draw into your pile. This may not seem devastating
 to the casual reader, but the deck is mana-hungry and often generating exactly
-10 Storm, so it's certainly more of a problem than it may appear at first
+10 _Storm_, so it's certainly more of a problem than it may appear at first
 glance.
 
 After a brief period of mourning, myself and a handful of other Doomsday players
@@ -54,7 +54,7 @@ someone in the Doomsday Discord as an alternative to maindeck Tendrils and
 either AoI or IU. Each of these cards works better in certain types of piles and
 if you're going to have 3 "dead" cards in the main, I find that the pile
 flexibility of having AoI and IU is an improvement over some of the cheap
-high-storm tricks you can do with maindeck ToA and Bauble loops.
+high-_Storm_ count tricks you can do with maindeck ToA and Bauble loops.
 
 With that lengthy intro out of the way, I'll get down to the meat of the
 article. I played 30 matches which each of these lists, with minor variations as

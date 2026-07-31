@@ -12,7 +12,7 @@ there are a number of ways to play around different pieces interaction on the
 stack without those effects.
 
 By playing patiently and knowing when to go for your combo, you can steal wins
-that would potherwise be missed.
+that would otherwise be missed.
 
 ## Comboing at Instant Speed
 
@@ -109,7 +109,7 @@ Teferi, Time Raveler
 
 :card[Teferi, Time Raveler] is an annoying, but not necessarily difficult, card
 for Tin Fins to play around as it turns off our ability to reanimate Emrakul.
-The first option is to agressively discard or counter it. If those are not an
+The first option is to aggressively discard or counter it. If those are not an
 option then the best available line is to reanimate Griselbrand as normal, go to
 combat and attack your opponent, the proceed with looping your deck to either
 hard cast Emrakul or loop Collective Brutality.
@@ -147,7 +147,7 @@ naturally.
 Containment Priest
 :::
 
-Although it does not see much play currenty outside of the sideboard of Death
+Although it does not see much play currently outside of the sideboard of Death
 and Taxes, :card[Containment Priest] completely disables the Tin Fins combo.
 Because of this, we almost always transform into Doomsday in post-board games
 against Death and Taxes.

@@ -98,13 +98,13 @@ Charm] or :card[Torpor Orb] but Modern Horizons 2 changed that.
 
 With Endurance Bant Miracles got a new tool to beat us post Doomsday. A flashed
 in Endurance plays around Daze and prevents our safest kills. We no longer can
-just jam an uncounterable Oracle with an empty library.
+just jam an uncounterable oracle with an empty library.
 
 Prismatic Ending is irrelevant in most matches, but it kills Defense Grid or
 Carpet of Flowers without siding in artifact or enchantment hate.
 
 The match up against Bant Control got a good chunk worse, compared to pre MH2,
-since they play Endurance in their main deck anyway.
+since they play Endurance in their maindeck anyway.
 
 ### Elves
 

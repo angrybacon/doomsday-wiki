@@ -42,7 +42,7 @@ RoseIsland. They had the highest placing result of all the Doomsday pilots
 represented managing to make it into the top 8 and did so with a novel take on
 the more Tempo based approaches that some have been working on, but to a much
 smaller scale than that put into more Turbo variants. The interview goes over
-the preperation, decklist choices and gameplay across the event as well as
+the preparation, decklist choices and gameplay across the event as well as
 touching on some other topics that are worthwhile having a listen to! Alas it is
 only available on Youtube because other platforms require $$$ to host on them.
 
@@ -647,7 +647,7 @@ Here are my takeaways from the event:
 - 2nd Thassa's Oracle &mdash; I made one pile with two Thassa's Oracle all day.
   I never saw a :card[Stifle] or Dress down, and the preferred plan for beating
   Endurance was Pact of Negation (though it is worse than double oracle against
-  exactly two cast endurances). I pitched an Oracle to a Force once, but another
+  exactly two cast endurances). I pitched an oracle to a Force once, but another
   blue card would have worked fine in that situation. I will be putting one
   Thassa's Oracle in my deck for the foreseeable future.
 
@@ -682,7 +682,7 @@ out a full 6 rounds. - Doishy
 
 ::decklist{url=2022/10/16/meandeck.bwands}
 
-#### Pre-Event Preperation
+#### Pre-Event Preparation
 
 Legacy pit II prep: preparing started the event 6 months prior to the event. Not
 knowing for sure what to play, researching various tournaments and decks. I knew
@@ -791,7 +791,7 @@ maybe WotC it seems) UR Delver was the highest represented archetype at 17% and
 boasted a powerful 55.17% non mirror match win rate. The fact that 4 UR Delver
 decks converted to top 8 shows just how dominant this archetype looks.
 
-Traditionally UR Delver has been the defacto kryptonite for Doomsday lists
+Traditionally UR Delver has been the de facto kryptonite for Doomsday lists
 however it doesn't look like that put a dampener on the performance of the 8
 pilots that took our favourite {B}{B}{B} spell along for the day. Looking at all
 archetypes with at least 2 players representing Doomsday boasts the highest win
@@ -800,7 +800,7 @@ it in the event were powerful performances by individual pilots on their
 respective decks. That's pretty good one might say!
 
 Many people seem to forget about Doomsday due to the relatively low numbers that
-it puts forwards in terms of represenation but this seems to indicate it is one
+it puts forwards in terms of representation but this seems to indicate it is one
 of the best things to be doing in the format right now. Looking at the other
 popular decks represented; GW Depths, 8-Cast, Death and Taxes, Elves, Reanimator
 and some Ux Control strategies, we can see many of them are very favourable
@@ -820,9 +820,9 @@ impressive 50% conversation to the top 32. It was mostly the UB Turbo variants
 that did well with the Esper lists not placing quite so highly. It might be that
 the loss to speed and the greater focus towards a longer or fairer gameplan was
 not as favoured in this metagame however the Grixis Tempo list getting to the
-top 8 could disuade this argument. Perhaps the Esper lists lacking both
-Expressive Iterarion as guranteed card advantage and Red Blast effects to combat
-a lot of what the meta is doing was the primary downfall.
+top 8 could dissuade this argument. Perhaps the Esper lists lacking both
+Expressive Iterarion as guaranteed card advantage and Red Blast effects to
+combat a lot of what the meta is doing was the primary downfall.
 
 What's really cool to see is that none of the lists played are the same. Every
 single one has a number of flex slots or sideboard configuration choices unique

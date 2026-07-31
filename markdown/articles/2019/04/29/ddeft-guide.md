@@ -48,7 +48,7 @@ Dd
 ToA
 :::
 
-With this pile, you can get infinite Storm.
+With this pile, you can get infinite _Storm_.
 
 1. Cast LED, Crack for {B}{B}{B}
 1. Cast LED, Crack for {B}{B}{B}
@@ -88,7 +88,7 @@ You can use this pile when you have 4 mana sources in play. If you have a
 Conjurer's Bauble in play, this is a win, if not, this is a PTT pile.
 
 If your opponent has Phyrexian Revoker on LED or a Chalice of the Void set to 0
-and you have a Frenzy in play, you can use this infinite Storm pile utilizing
+and you have a Frenzy in play, you can use this infinite _Storm_ pile utilizing
 Dark Ritual as an alternative to LED.
 
 :::row{variant=PILE}
@@ -134,12 +134,12 @@ ToA
 :::
 
 The first option is for when you have {B} floating, while the second and third
-do not require {B} floating. Both generate infinite Storm, and play around
+do not require {B} floating. Both generate infinite _Storm_, and play around
 different pieces of interaction.
 
 ## Collective Brutality - Use Cases
 
-:card[Collective Brutality] is a possible main-deck hedge to cards like Thalia
+:card[Collective Brutality] is a possible maindeck hedge to cards like Thalia
 and/or Gaddock Teeg, as well as an alternate win condition in case Tendrils of
 Agony gets exiled with Surgical Extraction.
 
@@ -160,8 +160,8 @@ Act on Impulse allows for more traditional piles when you only have 3 mana
 post-Dd, and can't cast Experimental Frenzy.
 
 Using Conjurer's Bauble with Act on Impulse allows for some classic Doomsday
-piles without Frenzy. Conjurer's Bauble allows you to get 6 Storm with 5 cards
-using this pile. You need {2}{U}{R}, a cantrip, and 3 Storm for this to work.
+piles without Frenzy. Conjurer's Bauble allows you to get 6 _Storm_ with 5 cards
+using this pile. You need {2}{U}{R}, a cantrip, and 3 _Storm_ for this to work.
 
 :::row{variant=PILE}
 AoI
@@ -191,7 +191,7 @@ Pdt
 ToA
 :::
 
-This pile creates 5 Storm, which is usually enough.
+This pile creates 5 _Storm_, which is usually enough.
 
 According to data we have gathered so far, using the Act on Impulse pile occurs
 around 25% of the time, and should definitely be utilized if possible.

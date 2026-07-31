@@ -28,7 +28,7 @@ This time the event was hosted at the University of Birmingham's Great Hall
 which is a really nice venue. With some nice weather and the campus ground at
 your disposal (and free parking to boot) it made for a super pleasant
 between-round setting (especially when your rounds are nice and quick). So as I
-mentioned 106 players, 7 rounds of swiss and a tonne of top 8 potential, it was
+mentioned 106 players, 7 rounds of Swiss and a tonne of top 8 potential, it was
 gonna be a long day!
 
 Alas this time around I am not sure if I can get proper metagame information so
@@ -98,7 +98,7 @@ started first so I slunk away and got seated already seeing a lot of familiar
 faces from the previous event and other known community members, some not seen
 since pre-pandemic! Once the player meeting had finished up and with thunderous
 applause to the re-introduction potential of team trios (Pioneer, Modern and
-Legacy) for future events our head judge, the almight Winter (Bristol local)
+Legacy) for future events our head judge, the almighty Winter (Bristol local)
 kicked everything off!
 
 ### Round 1 vs. Simone on Oracle Lash Combo
@@ -158,7 +158,7 @@ Game 3 I keep 7, opponent 5 and I lead on a Thoughtseize that sees
 :card[Paradigm Shift], :card[SE], :card[Narset, Parter of Veils], Force of Will
 and Island. I take Force and they play Shelldock for their turn. I untap, drop
 fetch, petal and Doomsday building something with double Oracle, lands,
-:card[CoS] and cyclers. The main thing to make sure of is to not risk an Oracle
+:card[CoS] and cyclers. The main thing to make sure of is to not risk an oracle
 to getting surgicalled at any point. The opponent does use their surgical on
 Doomsday eventually snagging another from my hand but ultimately they cannot
 find anything of use (Daze comes out from under Shelldock) and I manage to get
@@ -194,7 +194,7 @@ jamming turn 2 and setting up a pile with double Oracle in and countermagic for
 the first Endurance if needed. In the end I just need one Oracle to get the job
 done.
 
-It's definately a tough matchup for Food Chain and I am happy I read the
+It's definitely a tough matchup for Food Chain and I am happy I read the
 boarding right as Dylan did reveal a cheeky :card[Torpor Orb] in the list.
 
 **Dice Rolls**: 2-0  
@@ -202,7 +202,7 @@ boarding right as Dylan did reveal a cheeky :card[Torpor Orb] in the list.
 **Matches**: 2-0  
 **Games**: 4-1
 
-This was where we enjoyed the first half of our sandwhich and a banana. Nom nom.
+This was where we enjoyed the first half of our sandwich and a banana. Nom nom.
 
 ### Round 3 vs. Stu on Grixis Control
 
@@ -213,7 +213,7 @@ been talking to one of their mates earlier and knew they were all on control
 variants of some sort but no idea exactly what.
 
 I keep 6 whilst Stu retains 7. I think I tutor or cantrip to start with whilst
-he just drops basic Island. Turn 2 I Doomsdy which just resolves and I build a
+he just drops basic Island. Turn 2 I Doomsday which just resolves and I build a
 PTT pile with Cavern and the ability to fight over Endurance (making sure it
 also survived :card[Day's Undoing] in case it was Jeskai. I pass and he drops
 fetch into get :card[Badlands].
@@ -247,7 +247,7 @@ sure to stack it in such a way I cannot get punished by a Thoughtseize into
 Surgical on the fish. Stu draws blank and goes for the natural Day's Undoing. I
 do some quick maths with a hand of Forces, Chain of Vapor, and a cycler. My pile
 had a Ponder and an Ideas Unbound in. I had 11 cards across my hand, graveyard
-and library and could guarantee hitting an Oracle and getting to at least 2
+and library and could guarantee hitting an oracle and getting to at least 2
 cards left thereafter so I let it resolve, He finds nothing and I resolve Oracle
 off Cavern with a silly amount of interaction available.
 
@@ -277,7 +277,7 @@ players with 7/8 of them on combo, sounds great to me!). This was an intense
 match and was very close!
 
 I managed to win yet another die roll (this was getting silly now) and keep a
-decen if slow-ish 7 whilst he went to 6. I manage to snag a :card[Stoneforge
+decent if slow-ish 7 whilst he went to 6. I manage to snag a :card[Stoneforge
 Mystic] with a Thoughtseize leaving some :card[Rishadan Port]s in hand along
 with a :card[Mother of Runes] and :card[Flickerwisp]. It's a little late but I
 resolve Doomsday turn 4 and make a PTT pile that can beat double Port and
@@ -290,8 +290,7 @@ that can punish me plan other than maybe a :card[Pithing Needle] on one of my
 fetchlands combined with a swords to prevent me winning with an empty library.
 As a result when it came to the 3rd counter trigger I sacrificed both lands in
 response ready and safe in the knowledge that nothing he could do could hurt me.
-Then he tutored up a :card[Shadowspear].
-I'd forgotten about that card.
+Then he tutored up a :card[Shadowspear]. I'd forgotten about that card.
 
 Bugger.
 
@@ -359,7 +358,7 @@ We both keep 6 and I am ready with a protected turn 2 Doomsday. No Chalice is
 forthcoming so I jam. Force of Negation meets Doomsday. Force meets Force. Force
 of Negation 2 meets Force. Curses! :card[Emry, Lurker of the Loch] generates an
 obscene amount of advantage but I still have a lot of time as no threats are
-found however eventualy :card[Chalice of the Void] x2 drop and a Saga starts to
+found however eventually :card[Chalice of the Void] x2 drop and a Saga starts to
 crank up and the perfect run attempt is ended. Big oofs but well deserved to
 Autumn who got to and split the finals so congrats to them!
 
@@ -420,7 +419,7 @@ think 5/6 of the top 8 in the end being made up of robotic turtles.
 
 ### Round 7 vs. Alex on Moon Stompy
 
-Righty, despite the double walloping I was still feeing really good and had a
+Righty, despite the double walloping I was still feeling really good and had a
 small chance to eke in to the top thanks to great breakers if I could smash this
 one out. My opponent snap keeps a 7 and I get a little scared as I have to go
 down to 5. But what a 5 it was! (And yes, of course I was on the play again).
@@ -506,7 +505,7 @@ Kamigawa Block Constructed results:
 So I found the guys, had a chill out and waited for the announcements. Obviously
 top 8 was out and second top 8 was likely no go but I had potential for one of
 3rd or 4th top 8's and lo' and behold I managed to sneak into the chocolate top
-8 at 28th place in the swiss to fight to win a load of MH2 boosters. Not bad!
+8 at 28th place in the Swiss to fight to win a load of MH2 boosters. Not bad!
 
 ### Chocolate Quarters vs. Stuart on Yorion Death and Taxes
 

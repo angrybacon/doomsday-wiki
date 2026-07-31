@@ -13,7 +13,7 @@ a GPT, one of those hasn't been seen in ages, but it's Legacy and
 it's local.
 
 Saturday the 7th of April: 19 players converged into Firestorm games despite the
-short notice and terrible weather (like wow it was bad). Five rounds of swiss
+short notice and terrible weather (like wow it was bad). Five rounds of Swiss
 with cut to top 8. Thanks to the lovely judges we gave the full metagame
 breakdown:
 
@@ -67,7 +67,7 @@ Duress him on my T1, and take a Brainstorm seeing a hand of Flooded Strand,
 Lotus Petal, LED, and 2 Cabal Rituals. Then with no cantrips, I don’t feel
 confident letting this game going long, so I set up a pass-the-turn pile with
 Laboratory Maniac, going straight to 10 life. If he draws a tutor, or the
-Tendrils I die, but that is only a 5 outer, so Im quite happy playing against
+Tendrils I die, but that is only a 5 outer, so I'm quite happy playing against
 those odds. Ben hits a Ponder, shuffles, and hits the Tutor. GG
 
 Player: Doishy  
@@ -125,8 +125,8 @@ Spell Pierce, and Brainstorm. Draw a Dark Ritual off the Probe and go Dark Rit,
 Thoughtseize, Double therapy, leaving him with the Brainstorm, and Boseiju. I go
 a couple more draw-gos with Morgan. I manage to brainstorm into Probe, Probe,
 Duress. Duress him see the coast is clear, play out my mana, and probe into the
-Probe then BW I put back ontop (With him on 19 and my storm currently 6), to go
-for an Empty the warrens for 16 goblins, and then flash back the 2 therapies
+Probe then BW I put back on top (With him on 19 and my _Storm_ currently 6), to
+go for an Empty the warrens for 16 goblins, and then flash back the 2 therapies
 from T1. He draws nothing relevant and concedes.
 
 Player: Doishy  
@@ -141,7 +141,7 @@ Decay T3. He scoops to my superior creature
 base!  
 Game 2 I have the T1 unprotected. I jam it, he has a Surgical. Ah well.  
 Game 3, We trade some resources then somewhere I find the spot to go off with
-Doomsday but cannot hit the needed storm count so I manage to build a Dd EtW
+Doomsday but cannot hit the needed _Storm_ count so I manage to build a Dd EtW
 pile with at least two turns
 left of draw steps with 18 Goblins in play. He scoops. Dd EtW pile. WUT?!  
 This round I also enjoyed watching the lands mirror occurring to my left XD
@@ -214,7 +214,7 @@ G2) Mark mulligans to 6 and scrys to the top, I keep a T2 kill if I draw a
 cantrip or LED. I have a Thoughtseize but decide to play a land and hold the
 thoughtseize, since I have the mana to cast it and combo next turn if I can draw
 the cantrip. Mark plays a T1 Pithing Needle on LED and I inform him that it is
-infact a mana ability – feels bad man. (Editor's note: Mark knows better than
+in fact a mana ability – feels bad man. (Editor's note: Mark knows better than
 this and I did slap him after because he's a pillock) I get the cantrip,
 Thoughtseize him, and see his only interaction was a Flusterstorm, which I take,
 then proceed to standard pile ToA kill him.
@@ -231,10 +231,10 @@ for turn "Let me show you". I do my thing explaining each step then stack a
 Tendrils of Agony with 11 copies about to appear when she states she has a
 response. I know she has nothing in hand other than a Crop Rotation so I wonder
 what she plans to get. She rotates and grabs a Glacial Chasm and smugly puts it
-into play. I say okay and ask if Storm triogger may resolve. She says yes so I
+into play. I say okay and ask if _Storm_ trigger may resolve. She says yes so I
 point 12 Tendrils at her. She then points at Chasm to which I inform her
-regarding the wording difference of Damage vs Lifeloss. She looks
-confused and queries it so I helpfully call the Judge to explain.
+regarding the wording difference of Damage vs Lifeloss. She looks confused and
+queries it so I helpfully call the Judge to explain.
 
 Game 2 I probe to see a Choke in her hand (oh boy!). So I play a weirdly
 aggressive non U fetch game getting basic Island, Swamp and Badlands into play.
@@ -269,7 +269,7 @@ It was everything everyone dreams of.
 Game 1 he displays superior die skills and both of us wreck the hands of the
 other. He manages to Doomsday first but it's a bluff and he sets up an easy PTT
 pile. I school him by being excellent at casting brainstorms and combo him out
-with a Storm pile and LM beats (did I mention I had a LM beating down during
+with a _Storm_ pile and LM beats (did I mention I had a LM beating down during
 this game?).
 
 Game 2 he once again tries to imply foul things about my heritage by throwing 10
@@ -302,13 +302,13 @@ ApeOfJustice:
 
 Doishy:
 
-> 3-2 overall but a fun day nonethless. Nice gloating point to note: My
+> 3-2 overall but a fun day nonetheless. Nice gloating point to note: My
 > Standstill deck piloted by my friend Alex came second. His Semi finals match
 > was so glorious with Game 1 of it (vs Maverick) ending with his Opp having 0
 > permanents on the field and 2 cards (one was Teeg) in hand. Maindeck
-> Crucible + Ghost Quarter + EE is so beautifull! ANT won the event so gratz to
+> Crucible + Ghost Quarter + EE is so beautiful! ANT won the event so gratz to
 > Ben :)
 >
 > It was great meeting ApeOfJustice (though it transpires we had met before in
-> years gone by) and I look fowards to schooling any other Doomsdayers in
+> years gone by) and I look forwards to schooling any other Doomsdayers in
 > superior combat maths at GP Brum (look forward to my 0-8 drop report).

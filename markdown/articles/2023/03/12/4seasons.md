@@ -148,7 +148,7 @@ passes. I :card[Ponder] and set up a turn 2 Doomsday with double Force backup.
 :card[CoS] for Human, :card[Thalia, Guardian of Thraben]. :card[Wasteland] on
 the next turn followed by :card[Rishadan Port] quickly close my window.
 
-**Game 2 and 3** were not particolarly close, just usual Dd vs DnT stuff.
+**Game 2 and 3** were not particularly close, just usual Dd vs DnT stuff.
 (Doishy's editor comments, "F's in chat for DnT players")
 
 Match 2-1  
@@ -221,7 +221,7 @@ Matches 4-2
 Not a terrible result, and I got some practice for the main event.
 
 The main event of Saturday is dinner at the _Mulino Bruciato_, which is a
-highlight of our saturdays at the 4Seasons Tournament. We booked a table for
+highlight of our Saturdays at the 4Seasons Tournament. We booked a table for
 20-something people and it was a ton of fun. As a wheat-intolerant person I
 couldn't eat any of the pasta based dishes, but at the Mulino they have this
 amazing Tagliata Fredda (Sliced beef cooked and marinated for quite some time,
@@ -369,7 +369,7 @@ given that Doomsday had resolved I was more inclined to think about
 :card[Pyroblast]. The biggest problems in this spot were :card[Magus of the
 Moon] and :card[Blood Moon], which required me to put Island in the pile, but
 passing an additional turn. I chose to play around those and piled Cycler,
-Cycler, Oracle, Cavern, Island; so that I could've played the Oracle in case of
+Cycler, Oracle, Cavern, Island; so that I could've played the oracle in case of
 a Show and Tell. My opponent managed to Show and Tell an Atraxa one turn too
 late. I held my Oracle safely in hand to avoid Pyroblast and won with Cavern and
 an empty library.

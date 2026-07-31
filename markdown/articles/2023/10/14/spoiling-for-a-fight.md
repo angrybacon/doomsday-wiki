@@ -45,7 +45,7 @@ beyond being a simple tutor. Let's get to it!
 ### Part 1: Some Maths
 
 It's impossible to discuss using Spoils of the Vault as a tutor without
-disussing the risk of death, so let's get that out of the way first. How likely
+discussing the risk of death, so let's get that out of the way first. How likely
 are you to die when you cast Spoils? You can play with the widget below to test
 some scenarios. It simulates casting Spoils 10000 times with the parameters you
 define, and computes average life loss as well as death probability figures.
@@ -56,7 +56,7 @@ In the base case, if you have 20 life, 53 cards left in your library, and you
 name a 4-of, you have about 14% chance to lose the game, and you'll lose on
 average around 10 life. If you name a 3-of, you have roughly a 24% chance to die
 and will lose around 13 life. If you plan to play with Spoils of the vault, it's
-useful to be able to approximmate these values on the fly, so here are a couple
+useful to be able to approximate these values on the fly, so here are a couple
 heuristics for that purpose:
 
 > To approximate average life loss, divide your deck size by 1 plus the number
@@ -86,7 +86,7 @@ adds up and reduces the number of cards you can see with Spoils. But most
 importantly the deck should be fast so you don't need to worry about your
 opponent taking chunks out of your life total.
 
-These contraints mean that we'll mostly be thinking about combo decks,
+These constraints mean that we'll mostly be thinking about combo decks,
 particularly ones that are looking to assemble a two-card combo. Spoils can
 function as additional copies of any combo piece, or any supporting card like
 mana acceleration.
@@ -108,7 +108,7 @@ available, has a
 that was started in 2005 for a deck dubbed _Nausea_. It was a Storm combo deck,
 and used the typical rituals and mana rocks, as well as cards like
 :card[Chromatic Sphere] and :card[Darkwater Egg] to draw cards while generating
-Storm.
+_Storm_.
 
 > This card is Legacy's Vampiric Tutor, a very weak one mind you. Seriously
 > though this card is the best Black tutor effect in the format. At least I
@@ -149,9 +149,9 @@ Chain of Smog
 More recently, Strixhaven was released and with it came :card[Witherbloom
 Apprentice], which together with :card[Chain of Smog] formed a tight, mana
 efficient two-card combo. Many people spent time developing lists around the
-combo, and noted combo afficionado Jax put a lot of effort into it. At this
-point I had been playing Spoils of the Vault myself in Doomsday Storm lists, and
-was impressed by it, so I suggested the card to Jax as a tutor option for the
+combo, and noted combo aficionado Jax put a lot of effort into it. At this point
+I had been playing Spoils of the Vault myself in Doomsday Storm lists, and was
+impressed by it, so I suggested the card to Jax as a tutor option for the
 Witherbloom combo list. Sometime thereafter Jax posted this in a conversation in
 the Doomsday discord:
 
@@ -262,7 +262,7 @@ broad utility as Spoils of the Vault. And Night's Whisper always costs you two
 life, while Spoils can cost as little as 0.
 
 Furthermore, Spoils can plow through your entire deck for just {B} and some
-life. There is no other single card that can get you all the way to the Oracle
+life. There is no other single card that can get you all the way to the oracle
 at the bottom of your pile for as little mana or life.
 
 ### Spoils Can Clear Brainstorms
@@ -396,7 +396,7 @@ it's worth mentioning it's difficult to play around much else at the same time.
 This requires just {B}{U}{U} after Doomsday and so is very reasonable to achieve
 with 3 lands.
 
-Futhermore, you can use Spoils to clear out cards that are put back into the
+Furthermore, you can use Spoils to clear out cards that are put back into the
 deck by Endurance, before your Oracle trigger resolves. See the following pile:
 
 :::row{variant=PILE}
@@ -407,9 +407,9 @@ EoA
 TO
 :::
 
-Here you would cast IU, draw 3, cycle into the Oracle and cast it. When your
+Here you would cast IU, draw 3, cycle into the oracle and cast it. When your
 opponent responds with Endurance, you can allow the trigger to resolve and then
-cast Spoils namimg something that is not in your deck to get back to 0 cards in
+cast Spoils naming something that is not in your deck to get back to 0 cards in
 library. When making this kind of play, it's important to name the right card to
 make sure your opponent knows just how much smarter than them you are. Recent
 printings have given us excellent choices like :card[You Are Already Dead] and
@@ -456,7 +456,7 @@ You Are Already Dead
 The Most Dangerous Gamer
 :::
 
-I don't blame you if you arent't. Cast your first Spoils that ends a game you
+I don't blame you if you aren't. Cast your first Spoils that ends a game you
 otherwise had wrapped up, and you'll curse this article, its authors and their
 descendants. Losing games because you made a deckbuilding decision that directly
 led to the loss hurts, no matter how many more games you win because of that

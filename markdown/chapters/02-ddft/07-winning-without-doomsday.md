@@ -13,11 +13,11 @@ big deal, since it means you have options. You don't fold to a single
 :card[Narset, Parter of Veils]. You can pick the best combo engine for the
 situation and dodge the potential chokepoint that is the card Doomsday.
 
-There are 3 main categories of non-Doosmday wins and we will explore each of
+There are 3 main categories of non-Doomsday wins and we will explore each of
 them. Winning without Doomsday is arguably less complicated than winning with
-Doomsday, although it's often easier to assmeble a hand that wins with Doomsday.
+Doomsday, although it's often easier to assemble a hand that wins with Doomsday.
 If you've played other storm, most of this should be familiar to you, since 99%
-of lines to win without Doomsday involve a spell with the Storm keyword.
+of lines to win without Doomsday involve a spell with the _Storm_ keyword.
 
 ## Empty the Warrens
 
@@ -54,7 +54,7 @@ the Void on 1 relatively easily, with a couple Petals or LEDs.
 You can consider playing multiple copies of Empty in your sideboard, for the
 purpose of bringing a few copies in. Naturally drawing and casting Empty the
 Warrens, rather than Wishing for it, is a great tool against blue decks. Force
-of Will and Daze lose effectiveness against a storm spell cast from hand, since
+of Will and Daze lose effectiveness against a _Storm_ spell cast from hand, since
 even if they can counter 1 or 2 copies, you can still have 5 more. Empties are
 also reasonable in multiples against blue decks. You can make a small goblin
 horde, perhaps as few as 6, with relatively low resource input. Your opponent
@@ -66,7 +66,7 @@ they deal with the second goblin army.
 ## Alternative Storm Engines
 
 The most common alternative engine in DDFT is Echo of Eons, since it has
-substantial applications in piles on top of playing a role as a storm engine in
+substantial applications in piles on top of playing a role as a _Storm_ engine in
 its own right. The basic idea of using Echo as an engine could not be more
 straightforward. Make a bunch of mana, crack an LED, flashback Echo, and hope
 you draw more mana and a Burning Wish. With this in mind, we should focus more
@@ -106,17 +106,17 @@ relevant cards, but you should anticipate them having something. Sometimes there
 isn't anything you can do about it, and you just need to spin the wheel.
 Sometimes you can resolve a :card[Veil of Summer] before Echo and you won't need
 to worry much at all. If you draw discard/Veil in your new 7, cast it first
-whenever possible. You can sometimes use extra mana-prodcing spells to bait
+whenever possible. You can sometimes use extra mana-producing spells to bait
 countermagic if you sequence them in such a way as to tempt your opponent.
 
-Another common alternative Storm engine is :card[Peer into the Abyss]. Again,
+Another common alternative _Storm_ engine is :card[Peer into the Abyss]. Again,
 usage is pretty straightforward. Make a bunch of mana, wish for Peer, and cast
 it. Whiffing will be rare from this point, and you can choose to win any number
 of ways depending on what you draw. Peer does require a substantial upfront mana
 investment, but for the price it has a much higher rate of success than Echo of
 Eons.
 
-The only other reasonable candidate for an alternative Storm engine is
+The only other reasonable candidate for an alternative _Storm_ engine is
 :card[Past in Flames]. This is a much less common sideboard choice these days,
 since it is clumsier than Peer or Echo, but it's worth a mention. We won't go
 too in depth here, since there are plenty of ANT guides out there that address
@@ -135,7 +135,7 @@ alone could. Using Past in Flames is also mana hungry, and is uniquely hungry
 for {R}, since you need it for 2 Wishes and PiF itself. Keep this in mind when
 considering a PiF line.
 
-A few quick notes on other alternative storm engine options that DON'T see play
+A few quick notes on other alternative _Storm_ engine options that DON'T see play
 in this deck:
 
 1. Ad Nauseam - a powerful card, but it's an instant. We have no reliable way to
@@ -144,36 +144,36 @@ in this deck:
 1. Time Spiral/Diminishing Returns - Both of these have seen play in storm
    Wishboards at various points in time, but they have since been eclipsed by
    Echo of Eons
-1. Ill-Gotten Gains - A classic storm engine, but wildly outclassed by current
+1. Ill-Gotten Gains - A classic _Storm_ engine, but wildly outclassed by current
    offerings. It has been a long time since this card has been under serious
    consideration.
 
 ## Natural Storm
 
-_Natural_ storm, simply casting 9-10 spells in one turn without the use of an
+_Natural_ _Storm_, simply casting 9-10 spells in one turn without the use of an
 engine, is not as difficult as it may seem. If you draw for turn and have 8
 cards in hand, all spells, plus a Tendrils of Agony that you Wish for, you can
 already hit your opponent for 18, which in many cases is enough on it's own.
 
 It's clear that to achieve something like this will require a lot of mana. Lucky
-for you, your best spells for building storm also produce mana. Rituals, LEDs
-and Petals are a requirement for getting enough mana and storm to kill au
+for you, your best spells for building _Storm_ also produce mana. Rituals, LEDs
+and Petals are a requirement for getting enough mana and _Storm_ to kill au
 naturale. Discard spells and other protection are of course helpful on your way
-to 10 storm. Another important class of cards is your draw spells. When aiming
-for natural storm, cantrips can count for 2 spells since they often find you
-somthing else to cast. A Draw-4 is practically an engine in its own right, and
+to 10 _Storm_. Another important class of cards is your draw spells. When aiming
+for natural _Storm_, cantrips can count for 2 spells since they often find you
+something else to cast. A Draw-4 is practically an engine in its own right, and
 can let you see a ton of cards to draw more mana or a Burning Wish if you don't
 have one yet. Brainstorm is extremely strong in these situations, where it lets
 you swap a Burning Wish in hand for potential spells on top of your deck. A
 second cantrip can then draw the Wish again. In this manner Brainstorm can add
-to both your storm and mana counts.
+to both your _Storm_ and mana counts.
 
-Natural storm can be particularly powerful against blue decks, since they may
-add to your storm count by helpfully countering spells that don't matter. The
+Natural _Storm_ can be particularly powerful against blue decks, since they may
+add to your _Storm_ count by helpfully countering spells that don't matter. The
 way you sequence your spells like rituals plays an important role in convincing
-your opponent to add to the storm count. For example, if you cast a ritual off
+your opponent to add to the _Storm_ count. For example, if you cast a ritual off
 your last floating mana, an opponent may daze it rather than let it resolve and
-invalidate the Daze. Then - suprise! - you make your land drop for the turn,
+invalidate the Daze. Then - surprise! - you make your land drop for the turn,
 play a lotus petal, and another ritual; you had plenty of mana and didn't need
 that first ritual. These kinds of plays can be a bit of a gamble, since you
 can't rely on your opponent to fall for such a play. But if you are fortunate
@@ -182,7 +182,7 @@ their hand. Typically a spell like Wish or a Draw-4 is a must-counter, and can
 be used to bait out countermagic and clear the way for your real finisher.
 
 One last thing to address: there will be times when you determine that you
-simply have to take a risk and go for a natural storm kill without a Wish in
+simply have to take a risk and go for a natural _Storm_ kill without a Wish in
 hand. Perhaps your hand looks like this:
 
 :::row
@@ -198,8 +198,8 @@ Pnd
 Maybe you have a couple lands on board. If your opponent is threatening lethal
 damage, you need to go all in. Cast all your mana spells, then finally Ponder
 holding priority and crack the LEDs for {U}{U}{U}{R}{R}{R}. If you find a
-Burning Wish, you'll be able to cast Tendrils with storm count 9, which might be
-enough. If you find more cantrips you can cast them to dig deeper and Storm
+Burning Wish, you'll be able to cast Tendrils with _Storm_ count 9, which might
+be enough. If you find more cantrips you can cast them to dig deeper and _Storm_
 harder. The point is that you simply aren't winning unless you go all in, but
 DDFT affords you the possibility to win with a hand like that. Though this is a
 simplistic example, knowing when to take the risk is a skill you must learn. To
@@ -233,7 +233,7 @@ beatdown a real plan to win the game.
 1. DDFT is very capable of winning without casting Doomsday. This is nice
    because it removes a potential chokepoint from the deck.
 1. There are 3 main way to do this, via Empty the Warrens, via an alternative
-   engine like Echo of Eons, or via "natural" storm.
+   engine like Echo of Eons, or via "natural" _Storm_.
 1. Don't fixate on Doomsday just because it is the namesake card. Having the
    option to kill another way can open a lot of doors in terms of your gameplan
    and how you play, starting from the earliest turns.

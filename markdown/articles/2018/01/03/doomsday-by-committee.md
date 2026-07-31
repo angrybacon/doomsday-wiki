@@ -60,9 +60,9 @@ and cast Preordain, which brings us to here:
 Doishy and I quickly agree that we go for it here. By leaving both cards on top
 and drawing Doomsday, we can cast Doomsday and win that way if it resolves, and
 if not we Brainstorm into a Burning Wish for a lethal Tendrils (including the
-extra storm from the counterspell). In this case, Doomsday resolved and we had
-to decide how to build our pile. Our storm count was already plenty high so we
-only needed four cards in the pile to achieve lethal storm. There were two
+extra _Storm_ from the counterspell). In this case, Doomsday resolved and we had
+to decide how to build our pile. Our _Storm_ count was already plenty high so we
+only needed four cards in the pile to achieve lethal _Storm_. There were two
 options available to us for what to do with the 5th slot:
 
 A. Hide the Laboratory Maniac at the bottom of the pile.  
@@ -79,8 +79,8 @@ blowout that started with a turn one Chalice@1 from the opponent, who of course
 is playing 4C Loam (Aggro Loam). In hindsight this potentially could have been
 avoided by choosing choice B.
 
-Knowing how to sideboard properly is important, and losing the suprise factor of
-the Lab Man plan is insignificant in comparison, especially considering the
+Knowing how to sideboard properly is important, and losing the surprise factor
+of the Lab Man plan is insignificant in comparison, especially considering the
 matchup. Compared to Czech Pile, a deck like 4C Loam requires much more specific
 sideboarding to fight back in games two and three. Furthermore, this is a good
 example of how format familiarity goes beyond simply knowing what spells a deck
@@ -135,13 +135,13 @@ AoI, LM, LED, GP\]. With this, we can hold the Brainstorm and if they Therapy or
 play artifact destruction on their turn simply cast Brainstorm off Petal to draw
 the Volcanic Island, dodging both kinds of hate. Volc will be the red source for
 AoI next turn. Otherwise, we'll hang onto the brainstorm until our next turn.
-Draw the Volc, crack the petal to brainstormn into AoI, play the Volc and win.
-If at any point they cast Surgical, we Brainstorm after it resolves and hope the
+Draw the Volc, crack the petal to Brainstorm into AoI, play the Volc and win. If
+at any point they cast Surgical, we Brainstorm after it resolves and hope the
 pieces we need are in the top three.
 
 Doishy's comments:
 
-> We dicussed the different interactions that could be found with Natural Order
+> We discussed the different interactions that could be found with Natural Order
 > being the primary one. Natural order finding a Craterhoof would just kill us
 > there and then so that is one thing we basically had to ignore (assuming the
 > opponent had retained the card in their deck post board). Normally Reclamation
@@ -150,7 +150,7 @@ Doishy's comments:
 > count for them finding something like an Elvish Visionary and starting an
 > "Engine" turn. I think the Volc line was the safest choice given the inherent
 > risk of a pass-the-turn pile against a deck that can literally explode from
-> nowehere.
+> nowhere.
 
 ## Scenario 3
 

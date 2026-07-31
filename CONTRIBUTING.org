@@ -5,7 +5,7 @@
 
 Contributions are more than welcome, thank you for considering it!
 
-Pull requests work best, below are guidelines set to help you in the process of
+Pull requests work best. Below are guidelines set to help you in the process of
 providing reviewable work.
 
 ** Contributing with Code
@@ -16,7 +16,7 @@ wrong.
 
 ** Contributing with Content
 
-In a effort to avoid repeating myself and having to maintain things in multiple
+In an effort to avoid repeating myself and having to maintain things in multiple
 places, the Markdown conventions guidelines and supported features will live
 next to the code. Visit =/markdown= anywhere the Wiki is hosted to access the
 guidelines.
@@ -25,14 +25,14 @@ guidelines.
 
 Content consists of chapters and articles under =markdown/=. The chapters are
 considered /timeless/ and are the content that should be kept up to date to
-account for meta shifts and bannings. Articles on the other hand are dated
-content.
+account for meta shifts, bannings and new printings. Articles on the other hand
+are dated content.
 
 - =articles/= ::
-  Dated reports and theories.
+  Dated reports, primers and theories.
 - =chapters/= ::
-  Most of the content goes there, organized in archetype chapters. There's also
-  =appendices/= for general-purpose resources.
+  Most of the educational content goes there, organized in archetype chapters.
+  There's also =chapters/appendices/= for general-purpose resources.
 - =partials/= ::
   Static content within the Wiki comes from those partials, this avoids having
   to maintain content within code.
@@ -45,6 +45,41 @@ the whole document and render itself as a list of anchor links.
 
 Mana symbols and card names are not officially supported in headings. The
 heading slugs will look strange if you use markup so prefer simpler titles.
+
+*** Capitalization of Names
+
+Some card names and keyword mechanics double as ordinary English words (e.g.
+/Oracle/ for /Thassa's Oracle/, /Storm/ as a keyword mechanic). Here are a
+number of heuristics to follow.
+
+- ="Oracle"= used as the card's name ::
+  Capitalized. Used as /the/ name, even with an ordinal or modifying another
+  noun (e.g. "cast Oracle", "the second Oracle", "the Oracle trigger", "an
+  Oracle pile"). Swapping in "it" or "this card" would not work here.
+- ="oracle"= generic reference to the card ::
+  Lowercased. Generic reference to the card as an object (e.g. "they remove the
+  oracle", "to pitch an oracle to a Force", "the oracle's trigger"). Reword to
+  add "the" or "an" where it reads better than the bare capitalized form
+  described above.
+- ="Storm"= keywords that share a name with an archetype or common word ::
+  Capitalized. To be italicized in addition to disambiguate from the archetype
+  name (e.g. "generate lethal /Storm/", "the Storm archetype"). Never italicize
+  inside headings.
+- ="storm"= used as a verb ::
+  Lowercased. Common slang verb referring to a gameplay action (e.g. "to storm
+  off", "then storm them some", "to wish for Tendrils").
+
+*** Terminology
+
+To make maintenance and refactoring easier, in-game slang and terminology should
+be written in a consistent manner. Update the following list as more usage comes
+up.
+
+- Use =maindeck= and =sideboard= as a single word, no hyphen. This matches how
+  these terms are overwhelmingly used across the existing content and the wider
+  /Magic: the Gathering/ community, including as a verb (i.e. "maindeck this
+  card"). However /main/ and /side/ as bare adjectives or shortened verbs (i.e.
+  "side in the black cards against tempo") are acceptable.
 
 *** Custom Directives
 
@@ -110,8 +145,8 @@ commands.
 
 Running the project locally ensures you abide by the existing conventions and
 enables live preview for your changes. If for some reason you cannot run the
-project locally, Vercel generates and updates URLs for every pull requests on
-the repository.
+project locally, Vercel generates and updates URLs for every pull request on the
+repository.
 
-As a general advice, avoid pushing for every little change you make as build
+As general advice, avoid pushing for every little change you make as build
 minutes are free but not infinite.

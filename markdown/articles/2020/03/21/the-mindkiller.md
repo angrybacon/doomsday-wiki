@@ -19,12 +19,12 @@ title: Have No Fear, the Mindkiller is Here
 One lesson all budding combo players learn as they dive into the world of
 degenerate Magic decks is when to _go for it_. When do you take a chance and jam
 your combo, despite the possibility of opposing interaction? When do you wait a
-little bit longer, trying to find a better opportunity? This is an espceially
+little bit longer, trying to find a better opportunity? This is an especially
 critical lesson for Doomsday players, since there is often no recovering if you
 choose the wrong time. Fortunately, I have crafted a new take on Doomsday that
 makes this decision incredibly easy.
 
-Just always go fo it.
+Just always go for it.
 
 ## Mindkiller Doomsday
 
@@ -102,7 +102,7 @@ TO
 Doomsday is perhaps a questionable inclusion. Playing it kind of forces you to
 play Thassa's Oracle, which is completely dead outside of piles. Winning with it
 can be clumsy if you don't have a way to draw into your pile right away. But
-Doomsday does have some merits. You'll find it's suprisingly effective at
+Doomsday does have some merits. You'll find it's surprisingly effective at
 winning through certain kinds of hate. We'll talk about it more later but it is
 a serviceable engine card.
 
@@ -113,7 +113,7 @@ IC
 :::
 
 This is primarily here to facilitate certain Doomsday piles, but it is
-functional as a Storm engine of sorts, the way Spanish Inquisition decks use it.
+functional as a _Storm_ engine of sorts, the way Spanish Inquisition decks use it.
 
 ### Manamorphose
 
@@ -264,8 +264,8 @@ TO
 Grab some tissues and mop up. This pile right here is extremely powerful. You
 can win with very little mana left after Doomsday. It also functions as a pass
 the turn pile that wins from just {1}{R}, without the need to include any extra
-bad cards other than Oracle. No Predict or Ideas Unbound. No god either. Only M
-O R P H O S E.
+bad cards other than the oracle. No Predict or Ideas Unbound. No god either.
+Only M&nbsp;O&nbsp;R&nbsp;P&nbsp;H&nbsp;O&nbsp;S&nbsp;E.
 
 ### Hand 5
 
@@ -381,7 +381,7 @@ Delver player might consider it _unacceptable risk_.
 
 Now where were we? Right, being Warriors.
 
-## Some Dooomsday Piles
+## Some Doomsday Piles
 
 This deck is playing some cards that are not in any other Doomsday decks, so we
 should address how those cards affect piles. We saw one earlier on, the glorious
@@ -428,7 +428,7 @@ BW
 :::
 
 Manamorphose can draw into piles as well, and can fix your colors to cast
-Contract if you want to win with Storm instead of The Glorious Quad-Morphose
+Contract if you want to win with _Storm_ instead of The Glorious Quad-Morphose
 Oracle Pile.
 
 > Spoils, Spoils in hand - {B}{B}{B} + {B}{B}
@@ -442,7 +442,7 @@ TO
 :::
 
 A double-cantrip pile of sorts for when you have a shitload of black mana. You
-Spoil for LED, and then either Spoil straight to the Oracle if you have life to
+Spoil for LED, and then either Spoil straight to the oracle if you have life to
 spare, or just draw a Manamorphose if you don't.
 
 ## Matchups
@@ -451,7 +451,7 @@ When it comes to a deck like this, we don't care so much about precisely what
 deck our opponent is playing, but rather what they can do about what we're
 doing. Adding this to the fact that we only have 4-5 real sideboard slots leads
 me to the conclusion that its better to think in broad categories of matchups
-rather than a per-deck basis. As such, we'll go over srategies for each of 4
+rather than a per-deck basis. As such, we'll go over strategies for each of 4
 categories.
 
 ### Delver / Daze Decks

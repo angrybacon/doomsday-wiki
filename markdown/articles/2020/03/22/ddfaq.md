@@ -37,9 +37,9 @@ and a bit more comparison on each.
 
 ### DDFT (DoomsDay Fetchland Tendrils)
 
-_Lists that utilise traditional elements such as Burning Wish, some sort of draw
+Lists that utilise traditional elements such as Burning Wish, some sort of draw
 3/4 engine and focus on a Storm style approach to winning (however do not always
-require storm to win)._
+require _Storm_ to win).
 
 [As mentioned last time](/articles/2020/03/12/pretty-mean-deck), DDFT is the
 traditional name of historical iterations of the deck. We won't do a full
@@ -52,8 +52,8 @@ Bargain] to enable drawing into the Doomsday pile. :card[Burning Wish] has been
 used often to enable additional pseudo copies of Doomsday and newer cards like
 :card[Echo of Eons] have been incorporated in lists too. The aim of the deck is
 to kill via a Doomsday pile with lethal :card[Tendrils of Agony] or
-:card[Thassa's Oracle] or a natural Tendrils storm kill without Doomsday. See an
-example pile below:
+:card[Thassa's Oracle] or a natural Tendrils _Storm_ kill without Doomsday. See
+an example pile below:
 
 :::row{variant=PILE}
 IU
@@ -104,7 +104,7 @@ focussing more on controlling the game prior to _going off_. The deck is more
 prone to passing the turn after resolving a Doomsday whereas DDFT and DDEFT are
 both more designed to go off the same turn you resolve one. This version plays
 less dedicated combo pieces such as :card[Lion's Eye Diamond] and more reactive
-control elements like :card[Force of Will]. The deck does not run Storm based
+control elements like :card[Force of Will]. The deck does not run _Storm_ based
 win conditions either. An example pile is below:
 
 :::row{variant=PILE}
@@ -260,7 +260,7 @@ rule of thumb, the less preordain you have, the fast you intend the deck to be.
 DDEFT would be also wanting to run the 8 plus 2-4 Preordain. Unlike DDFT however
 it cannot afford to run either cycling effects like Street Wraith, nor can it
 run Arcum's Astrolabe. With :card[Experimental Frenzy] out you cannot easily
-cast either card from the top of your deck thus increasing the liklihood of
+cast either card from the top of your deck thus increasing the likelihood of
 _whiffing_ whilst with a Frenzy out. This shouldn't matter however as a Frenzy
 can itself generate such a high potential card advantage that having less
 cantrips is considered fine.
@@ -347,7 +347,7 @@ provide a mana boost when digging into a Doomsday pile or used to cast something
 grabbed with Burning Wish, it generally just sits pretty doing nothing prior to
 that. It is however one of the most powerful tools when performing the combo and
 thus should always be run, albeit to varying degrees. In storm builds it
-provides free storm and can enable the easy casting of :card[Echo of Eons].
+provides free _Storm_ and can enable the easy casting of :card[Echo of Eons].
 
 Finally some sort of win condition is required. This can be in the form of
 :card[Tendrils of Agony], :card[Thassa's Oracle] or even :card[Collective
@@ -369,7 +369,7 @@ and 0-3 Echo of Eons with a potential 4th as a wish target in the sideboard.
 Generally the win conditions are 0-1 Tendrils main (0 if the Tendrils is
 wishable from the side) and 1 Oracle main. Tendrils is retained as it takes the
 requirement to have Doomsday resolve out by giving the option to win from just a
-natural storm-style kill. DDFT lists should run 4 Lion's Eye Diamonds as they
+natural _Storm_-style kill. DDFT lists should run 4 Lion's Eye Diamonds as they
 have a lot of utility.
 
 #### DDEFT
@@ -447,7 +447,7 @@ Splash Basic. Some pilots also elect to run a toolbox land such as a
 Across all the variants and pilots the styles of sideboards can vary
 dramatically. Some tailor completely to facing other matchups, some include some
 sort of secondary or tertiary win condition and those with :card[Burning Wish]
-can even include a tutorable toolbox that can deployed to the main deck game
+can even include a tutorable toolbox that can deployed to the maindeck game
 plan.
 
 As any Legacy player knows, mapping sideboards or listing sideboard options can
@@ -493,7 +493,7 @@ Teferi and Mentor are probably the biggest boons for playing {W}.
 ### Red
 
 Red is obviously a staple for DDEFT and often for DDFT too. It enables
-:card[Burning Wish] in the main deck as a tutor for both the combo elements and
+:card[Burning Wish] in the maindeck as a tutor for both the combo elements and
 other toolbox cards. From the side it can provide access to alternative win
 conditions like :card[Empty the Warrens] and a plethora of removal for different
 scenarios such as :card[Abrade], :card[By Force] or :card[Rending Volley] to
@@ -509,7 +509,7 @@ Green provides a slightly cheaper package in terms of mana cost. Maindeck it
 provides access to protection in the form of :card[Veil of Summer] and super
 efficient removal in the form of :card[Abrupt Decay]. From the sideboard
 additional Veils/Decays may be brought in alongside other elements such as
-:card[Carpet of Flowers] or :card[Xantid Swarms]. {G} does not have a plan B
+:card[Carpet of Flowers] or :card[Xantid Swarm]. {G} does not have a plan B
 associated with it however some have explored the use of :card[Oko, Thief of
 Crowns] as a potential option or :card[Uro, Titan of Nature's Wrath].
 
@@ -635,8 +635,8 @@ question that is asked is "can I get a list of piles please?
 
 Back in the days of the Stormboards there was a pile document maintained that
 tried to list every conceivable Doomsday pile, the card requirements, mana
-requirements and storm requirements however this led to people relying on it. If
-they had failed to rote memorise a pile they would panic and get confused.
+requirements and _Storm_ requirements however this led to people relying on it.
+If they had failed to rote memorise a pile they would panic and get confused.
 
 A better approach is to learn the general rules or theories behind cards and
 then apply them to a scenario. Out of all the variants DDEFT probably has the

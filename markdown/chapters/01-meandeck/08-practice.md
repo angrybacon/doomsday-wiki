@@ -88,7 +88,7 @@ One of the classic ways of practicing, especially for combo decks. The term
 _goldfishing_ (or playing against a goldfish) is the practice of playing without
 an opponent by drawing a starting hand and proceeding to continue to play until
 an opponent who does nothing to stop you from accomplishing the gameplan is
-defeated. In this instance by succesfully executing plan A of casting and
+defeated. In this instance by successfully executing plan A of casting and
 resolving Doomsday and a Doomsday pile.
 
 This method is really good for evaluating your mulligan decisions and to
@@ -101,17 +101,17 @@ to actually resolve the card (especially in paper). Try timing yourself as you
 resolve the card. I would expect to have someone take around 1-2 minutes tops in
 confidently resolving Doomsday so try to train yourself to get to that speed.
 
-If you find youself sucessfully beating the goldfish you can start changing the
-configuration to how the goldfish plays. Maybe pretend they have a Force of Will
-and pitch card or are on the play and going to put a Chalice of the Void into
-play. You can use these quick situation setups to ready yourselves for proper
-games.
+If you find yourself successfully beating the goldfish you can start changing
+the configuration to how the goldfish plays. Maybe pretend they have a Force of
+Will and pitch card or are on the play and going to put a Chalice of the Void
+into play. You can use these quick situation setups to ready yourselves for
+proper games.
 
 ### Watch and Analyse Content Creators
 
 There are a vast scope of Legacy content creators out there. Some who enjoy
 streaming and others that prefer to make pre-recorded videos. Whatever you
-prefer there are definately going to be people who can provide content you may
+prefer there are definitely going to be people who can provide content you may
 like to watch. For Doomsday content, we have a lot of it posted in the Discord
 under the `#videos-streams-podcasts` channel and likewise in the additional
 [Resources Appendix](/appendices/resources).
@@ -255,7 +255,7 @@ because you likely will need the Underground Sea to be able to cast Daze off of.
 This will provide you with +1 additional card to return to the deck with
 Brainstorm if you need to use it. The pile itself will result in an imperfect
 pile assuming you want to try and win the turn immediately following Doomsday's
-resolution but hopefully the Daze is sufficient to protect the Oracle.
+resolution but hopefully the Daze is sufficient to protect the oracle.
 
 Let's run through the first pile assuming we PTT once:
 
@@ -272,7 +272,7 @@ times to be able to access {U}{U} and Oracle making this quite risky.
 For the second pile this gives more options to us. You draw and play the Strand
 for your next turn and, if they didn't remove the Sea, you can cast the Duress
 against them, maybe taking a Bolt or other threatening spell. Passing again will
-get you the Edge which you could use to cycle into the Oracle (sacrificing the
+get you the Edge which you could use to cycle into the oracle (sacrificing the
 Sea and floating {U} to then be able to fetch for the Island and cast Oracle
 with 2 cards left in deck and Force of Will backup. If you are able to wait the
 full three turns though it will be able to beat any amount of countermagic for
@@ -460,12 +460,12 @@ here you are not going to be able to stop an Endurance if they have one which
 could prevent your win.
 
 The first major decision is whether we are going to try and go for the win now
-or attempt to wait one turn (or setup to try and do both). Once we have commited
-to this decision it allows us to know what mana we are using to cast Doomsday;
-that is whether we are cracking the fetchland for a third Underground Sea and
-saving Petal, cracking the fetchland and Petal for {B}{B}{B}{U} in total prior
-to Doomsday or whether we are using the Petal for {B} and saving the Strand to
-then retrieve a land from the pile.
+or attempt to wait one turn (or setup to try and do both). Once we have
+committed to this decision it allows us to know what mana we are using to cast
+Doomsday; that is whether we are cracking the fetchland for a third Underground
+Sea and saving Petal, cracking the fetchland and Petal for {B}{B}{B}{U} in total
+prior to Doomsday or whether we are using the Petal for {B} and saving the
+Strand to then retrieve a land from the pile.
 
 Let's look at a few options we could try and see how they compare against our
 potential "interaction list".
@@ -625,10 +625,10 @@ a pile that looks to cast 2 Oracle in a single turn.
 1. If required, cast LP, crack for {U}
 1. Cast Oracle to try and win with 2 cards in deck
 
-Again the theory is sound but if they did have an Endurance to interrupt you
-in response to the first Oracle's trigger, you would go to 5 cards in your deck
-which would then force you to pass the turn again as you would only have a
-total potential devotion of 4.
+Again the theory is sound but if they did have an Endurance to interrupt you in
+response to the first Oracle trigger, you would go to 5 cards in your deck which
+would then force you to pass the turn again as you would only have a total
+potential devotion of 4.
 ::::
 
 ## Next Steps
