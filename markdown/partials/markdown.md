@@ -279,9 +279,26 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 > Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 > :spoiler[efficitur pharetra] quam.
 
-## Rows
+## Scryfall
 
-### Centered
+In some contexts, you can refer to card by name within Markdown. To ease the
+writing process and reduce the chances of mistyping, a number of shorthands for
+common card names can be found maintained next to [the code][constants.ts].
+
+### Inline Card Links
+
+The inline `:card` directive expects exact card names and look for the first
+printing of it.
+
+```md
+I hear :card[TO] and :card[Doomsday] go well together. But how about
+:card[Tamiyo, Inquisitive Student] and :card[Bs]?
+```
+
+I hear :card[TO] and :card[Doomsday] go well together. But how about
+:card[Tamiyo, Inquisitive Student] and :card[Bs]?
+
+### Rows of Cards
 
 Row of cards are centered automatically and each card is secured under 25% of
 the available width with a maximum hardcoded width. The card images do not wrap
@@ -331,7 +348,7 @@ Pnd
 Pre
 :::
 
-### Pile
+### Doomsday Piles
 
 Use the `PILE` variant in order to highlight a Doomsday pile.
 
@@ -371,25 +388,6 @@ SW
 TO
 :::
 
-## Scryfall
-
-In some contexts, you can refer to card by name within Markdown. To ease the
-writing process and reduce the chances of mistyping, a number of shorthands for
-common card names can be found maintained next to [the code][constants.ts].
-
-### Inline Card Links
-
-The inline `:card` directive expects exact card names and look for the first
-printing of it.
-
-```md
-I hear :card[TO] and :card[Doomsday] go well together. But how about
-:card[Tamiyo, Inquisitive Student] and :card[Bs]?
-```
-
-I hear :card[TO] and :card[Doomsday] go well together. But how about
-:card[Tamiyo, Inquisitive Student] and :card[Bs]?
-
 ### Specifying Prints
 
 In some specific cases, you will want to specify a set or a collector number,
@@ -398,17 +396,17 @@ multiple printings of the same card.
 
 ```md
 :::row
+Force of Will | 2XM | 340
 Doomsday | SLD
 Subtlety | MH2 | 309
-Force of Will | 2XM | 340
 Duress | STA | 92
 :::
 ```
 
 :::row
+Force of Will | 2XM | 340
 Doomsday | SLD
 Subtlety | MH2 | 309
-Force of Will | 2XM | 340
 Duress | STA | 92
 :::
 
@@ -417,7 +415,6 @@ Duress | STA | 92
 ```md
 :::row
 Tamiyo, Inquisitive Student
-Silundi Vision
 Malevolent Hermit
 Invasion of Ikoria
 Ugin, Eye of the Storms | TDM | 382
@@ -426,7 +423,6 @@ Ugin, Eye of the Storms | TDM | 382
 
 :::row
 Tamiyo, Inquisitive Student
-Silundi Vision
 Malevolent Hermit
 Invasion of Ikoria
 Ugin, Eye of the Storms | TDM | 382
@@ -444,16 +440,16 @@ for _Who // What // When // Where // Why_, for some impenetrable reason.
 ```md
 :::row
 Ice
-Walk-In Closet
 Consign
+Walk-In Closet
 Who // What // When // Where // Why
 :::
 ```
 
 :::row
 Ice
-Walk-In Closet
 Consign
+Walk-In Closet
 Who // What // When // Where // Why
 :::
 

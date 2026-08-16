@@ -74,7 +74,7 @@ export const Banner = ({ authors, banner, minutes, title }: Props) => {
       <Box
         sx={{
           display: 'grid',
-          gap: { xs: 2, lg: 4 },
+          gap: { xs: 1, md: 2 },
           justifyItems: 'center',
           position: 'absolute',
           px: 2,
@@ -85,10 +85,12 @@ export const Banner = ({ authors, banner, minutes, title }: Props) => {
           sx={{
             color: 'text.primary',
             fontSize: {
-              xs: 'h6.fontSize',
+              xs: 'h4.fontSize',
               sm: 'h3.fontSize',
+              md: 'h2.fontSize',
               lg: 'h1.fontSize',
             },
+            py: 0,
             textShadow: '0 0 8px black',
           }}
           variant="h1"
