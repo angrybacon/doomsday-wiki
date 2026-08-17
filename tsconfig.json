@@ -10,7 +10,6 @@
       "~/theme/*": ["./theme/*"],
       "~/tools/*": ["./tools/*"]
     },
-    "plugins": [{ "name": "next" }],
     "target": "esnext",
     "types": ["@testing-library/jest-dom", "vitest/globals"]
   },

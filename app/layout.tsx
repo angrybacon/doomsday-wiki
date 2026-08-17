@@ -55,6 +55,8 @@ export default async ({
   return (
     <html
       className={[baskerville.variable, roboto.variable].join(' ')}
+      // NOTE Tell Next about our smooth scrolling and disable it in navigation
+      data-scroll-behavior="smooth"
       lang="en"
       suppressHydrationWarning
     >
