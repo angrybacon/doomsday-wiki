@@ -20,7 +20,7 @@ export const Banner = ({ authors, banner, minutes, title }: Props) => {
   const image = useCallback(
     (element: HTMLImageElement | null) => {
       // NOTE The image's `onLoad` fires before React even finishes loading so
-      //      server-rendered component need a jQuery approach to have the fade
+      //      server-rendered components need a jQuery approach to have the fade
       //      animation.
       if (element?.complete) onLoad();
     },

@@ -410,7 +410,7 @@ Subtlety | MH2 | 309
 Duress | STA | 92
 :::
 
-#### Double-Faced Cards
+### Double-Faced Cards
 
 ```md
 :::row
@@ -428,14 +428,11 @@ Invasion of Ikoria
 Ugin, Eye of the Storms | TDM | 382
 :::
 
-#### Split Cards
+### Split Cards
 
 Split cards are also supported. You don't need to provide both names in order to
 match the card nor do you need to provide the front part specifically, except
 for _Who // What // When // Where // Why_, for some impenetrable reason.
-
-> Split cards currently render a button to flip them like DFC. This should be
-> fixed sometimes soon &trade;
 
 ```md
 :::row

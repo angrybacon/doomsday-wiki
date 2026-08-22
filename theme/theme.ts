@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 
 import { TOOLBAR_HEIGHT } from '~/theme/constants';
-import { blur, recess } from '~/theme/mixins';
+import { blur, frame, recess } from '~/theme/mixins';
 import { article, primary, primer, report, secondary } from '~/theme/palette';
 
 declare module '@mui/material/Chip' {
@@ -25,6 +25,7 @@ declare module '@mui/material/Chip' {
 declare module '@mui/material/styles' {
   interface Mixins {
     blur: typeof blur;
+    frame: typeof frame;
     recess: typeof recess;
   }
 
@@ -151,7 +152,7 @@ export const theme = responsiveFontSizes(
       },
     },
     cssVariables: { colorSchemeSelector: 'data' },
-    mixins: { blur, recess, toolbar: { minHeight: TOOLBAR_HEIGHT } },
+    mixins: { blur, frame, recess, toolbar: { minHeight: TOOLBAR_HEIGHT } },
     motion: { reducedMotion: 'system' },
     typography: {
       fontFamily: 'var(--font-roboto)',

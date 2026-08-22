@@ -23,6 +23,11 @@ export const blur = (
         backgroundImage: 'none',
       };
 
+/** Apply the right frame styles depending on the provided card SET */
+export const frame = (set?: string): CSSObject => ({
+  borderRadius: set === 'lea' ? '7.7% / 5.5%' : '5.2% / 3.7%',
+});
+
 const RECESS_VALUES = {
   DARK: {
     X: 'inset 8px 0 8px -4px rgba(0,0,0,.2),inset -8px 0 8px -4px rgba(0,0,0,.2)',
