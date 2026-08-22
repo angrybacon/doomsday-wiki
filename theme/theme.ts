@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 
 import { TOOLBAR_HEIGHT } from '~/theme/constants';
-import { blur, frame, recess } from '~/theme/mixins';
+import { blur, emboss, frame, recess } from '~/theme/mixins';
 import { article, primary, primer, report, secondary } from '~/theme/palette';
 
 declare module '@mui/material/Chip' {
@@ -22,9 +22,17 @@ declare module '@mui/material/Chip' {
   }
 }
 
+declare module '@mui/material/Tooltip' {
+  interface TooltipPopperSlotPropsOverrides {
+    'data-dark'?: boolean;
+    'data-light'?: boolean;
+  }
+}
+
 declare module '@mui/material/styles' {
   interface Mixins {
     blur: typeof blur;
+    emboss: typeof emboss;
     frame: typeof frame;
     recess: typeof recess;
   }
@@ -133,14 +141,29 @@ export const theme = responsiveFontSizes(
           paper: (options) => ({
             ...options.theme.mixins.blur('strong'),
             backgroundColor:
-              'rgba(var(--mui-palette-background-paperChannel) / .9)',
+              'rgb(var(--mui-palette-background-paperChannel) / .9)',
           }),
         },
       },
       MuiTooltip: {
-        defaultProps: { arrow: true },
+        defaultProps: {
+          placement: 'top',
+          slotProps: { popper: { 'data-dark': true } },
+        },
         styleOverrides: {
-          tooltip: { textAlign: 'center', whiteSpace: 'pre-line' },
+          tooltip: (options) => ({
+            ...options.theme.mixins.blur('strong'),
+            ...options.theme.mixins.emboss('sharp'),
+            backgroundColor:
+              'rgb(var(--mui-palette-background-paperChannel) / .5)',
+            borderColor: 'var(--mui-palette-divider)',
+            borderStyle: 'solid',
+            borderWidth: 1,
+            paddingBlock: options.theme.spacing(0.5),
+            paddingInline: options.theme.spacing(1),
+            textAlign: 'center',
+            whiteSpace: 'pre-line',
+          }),
         },
       },
       MuiTypography: {
@@ -152,7 +175,13 @@ export const theme = responsiveFontSizes(
       },
     },
     cssVariables: { colorSchemeSelector: 'data' },
-    mixins: { blur, frame, recess, toolbar: { minHeight: TOOLBAR_HEIGHT } },
+    mixins: {
+      blur,
+      emboss,
+      frame,
+      recess,
+      toolbar: { minHeight: TOOLBAR_HEIGHT },
+    },
     motion: { reducedMotion: 'system' },
     typography: {
       fontFamily: 'var(--font-roboto)',

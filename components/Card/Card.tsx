@@ -52,14 +52,13 @@ export const Card = ({ faces: [front, back] }: Props) => {
             onClick={onFlip}
             sx={(theme) => ({
               ...theme.mixins.blur('weakest'),
-              bgcolor: 'rgba(var(--mui-palette-background-paperChannel) / .6)',
+              bgcolor: 'rgb(var(--mui-palette-background-paperChannel) / .6)',
               boxShadow: 1,
               position: 'absolute',
               right: { xs: 'unset', sm: '14%' },
               top: '10%',
               '&:hover': {
-                bgcolor:
-                  'rgba(var(--mui-palette-background-paperChannel) / .7)',
+                bgcolor: 'rgb(var(--mui-palette-background-paperChannel) / .7)',
               },
             })}
           >

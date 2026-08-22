@@ -18,7 +18,7 @@ export const Header = () => {
       <Toolbar
         sx={(theme) => ({
           ...theme.mixins.blur('weak'),
-          bgcolor: 'rgba(var(--mui-palette-background-paperChannel) / .5)',
+          bgcolor: 'rgb(var(--mui-palette-background-paperChannel) / .5)',
           borderBottom: 1,
           borderColor: 'divider',
         })}

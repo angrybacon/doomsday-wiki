@@ -9,7 +9,7 @@ export const Footer = () => (
     component="footer"
     sx={(theme) => ({
       ...theme.mixins.blur('strong'),
-      bgcolor: 'rgba(var(--mui-palette-primary-mainChannel) / .1)',
+      bgcolor: 'rgb(var(--mui-palette-primary-mainChannel) / .1)',
       borderTop: 1,
       borderTopColor: 'divider',
       color: 'text.secondary',

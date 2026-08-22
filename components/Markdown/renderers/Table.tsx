@@ -40,7 +40,7 @@ export const TableCell: Components['td'] = ({ children, style }) => (
 
 export const TableHead: Components['thead'] = ({ children }) => (
   <MuiTableHead
-    sx={{ bgcolor: 'rgba(var(--mui-palette-primary-mainChannel) / .1)' }}
+    sx={{ bgcolor: 'rgb(var(--mui-palette-primary-mainChannel) / .1)' }}
   >
     {children}
   </MuiTableHead>

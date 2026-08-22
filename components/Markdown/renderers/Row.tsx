@@ -18,7 +18,7 @@ const STYLES: Record<z.infer<typeof VariantSchema>, SxProps<Theme>> = {
     '> *': { flexBasis: '25%', maxWidth: '25%', px: { xs: 0.5, md: 1 } },
   },
   PILE: {
-    bgcolor: 'rgba(var(--mui-palette-primary-mainChannel) / .1)',
+    bgcolor: 'rgb(var(--mui-palette-primary-mainChannel) / .1)',
     borderRadius: 4,
     display: 'flex',
     py: { xs: 2, sm: 4 },
