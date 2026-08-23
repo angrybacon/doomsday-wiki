@@ -117,6 +117,11 @@ export const theme = responsiveFontSizes(
             }),
         },
       },
+      MuiCard: {
+        styleOverrides: {
+          root: (options) => options.theme.unstable_sx({ borderRadius: 4 }),
+        },
+      },
       MuiCssBaseline: {
         styleOverrides: (_theme) => ({
           'blockquote, ol, p, pre, ul': { margin: 0, padding: 0 },

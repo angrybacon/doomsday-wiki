@@ -1,5 +1,11 @@
 # Markdown Guidelines
 
+:::warning{title="This page is not indexed"}
+You're seeing a page that is not officially part of the Wiki. It is left
+publicly available for simplicity and for ease of sharing. It is not being
+indexed by default, it is simply a reference for contributors.
+:::
+
 Rather than having to maintain additional guidelines in different locations,
 this page will attempt at documenting a timeless repository of contribution
 guidelines for the Wiki. Refer to the following sections in order to see how
@@ -7,6 +13,7 @@ Markdown is rendered through the pages. This page implements the same components
 and invokes the same code so what you see here is exactly how it renders within
 the rest of the Wiki. In doubt, see the usage and follow existing conventions.
 
+:::note{title="Additional conventions and guidelines"}
 All Markdown files are checked against both `markdownlint` and `prettier` at
 build time enforcing some basic rules, but here are a few more conventions for
 Markdown contributions:
@@ -21,6 +28,8 @@ Markdown contributions:
   considered part of said link (e.g. when you end your sentences with a link).
   Avoid bare links inside of prose, wrap them with angled brackets `<` and `>`
 - Heading levels start at 2 in order to account for the page title
+
+:::
 
 The below components wrapped with colons are referred to as as
 [directives][directives] in Markdown parlance. In the case of container
@@ -155,6 +164,15 @@ for all users. See the [code][image.tsx] for reference.
 Both the accessible text (between square brackets) and the title (between single
 quotes) are mandatory for proper accessibility of your images within the page.
 
+:::note{title="Difference between accessible text and image title"}
+The difference is subtle but important. Basically, the former should describe
+the image for anyone not able to access the image, while the latter will give
+additional context for anyone able to access the image.
+
+Basically, the accessible text answers the "what is it?" and the image title
+acts as legend for users who do see it.
+:::
+
 ```md
 ![A large wide placeholder](https://www.placehold.co/1600x800 'Wide resolution')
 
@@ -281,7 +299,7 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 
 ## Scryfall
 
-In some contexts, you can refer to card by name within Markdown. To ease the
+In some contexts, you can refer to cards by name within Markdown. To ease the
 writing process and reduce the chances of mistyping, a number of shorthands for
 common card names can be found maintained next to [the code][constants.ts].
 
@@ -297,6 +315,13 @@ I hear :card[TO] and :card[Doomsday] go well together. But how about
 
 I hear :card[TO] and :card[Doomsday] go well together. But how about
 :card[Tamiyo, Inquisitive Student] and :card[Bs]?
+
+:::note{title="Hover preview"}
+Inline card links have a preview on hover and double-faced cards are supported
+with an inline CTA to flip the card manually.
+
+For touch devices, the usual long-press should work just fine. YMMV
+:::
 
 ### Rows of Cards
 
@@ -390,9 +415,20 @@ TO
 
 ### Specifying Prints
 
+:::warning{title="First print policy"}
+By default first print is preferred and we trust the excellent Scryfall for
+that. But be warned however that some promotional prints may have an earlier
+timestamp than the _regular_ printing of a card. eg. Endurance
+:::
+
 In some specific cases, you will want to specify a set or a collector number,
 this can be achieved with a suffix. This is especially useful for sets with
 multiple printings of the same card.
+
+:::note{title="Identifying sets and collector numbers"}
+To identify the right 3-letters code, or the specific collector number for your
+printing preference, inspect the links at <https://scryfall.com/sets>.
+:::
 
 ```md
 :::row
@@ -460,8 +496,6 @@ Who // What // When // Where // Why
 
 ## Spoilers
 
-### Block
-
 Inline verbatim content and links remain visible within spoiler blocks.
 
 ```md
@@ -484,7 +518,7 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 efficitur pharetra quam.
 :::
 
-### Inline
+Inline spoilers are also supported.
 
 ```md
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed

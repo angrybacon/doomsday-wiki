@@ -31,6 +31,10 @@ import {
   TableRow,
   Youtube,
 } from '~/components/Markdown/renderers';
+import {
+  AdmonitionNote,
+  AdmonitionWarning,
+} from '~/components/Markdown/renderers/Admonition';
 import { SpoilsCalculator } from '~/components/SpoilsCalculator/SpoilsCalculator';
 import { remarkBase } from '~/tools/remark/remarkBase';
 import { remarkCard } from '~/tools/remark/remarkCard';
@@ -62,10 +66,12 @@ const COMPONENTS_EXTRA = {
   card: Card,
   decklist: Decklist,
   mana: Mana,
+  note: AdmonitionNote,
   row: Row,
   soundcloud: Soundcloud,
   spoiler: Spoiler,
   spoils: SpoilsCalculator,
+  warning: AdmonitionWarning,
   youtube: Youtube,
 } as const;
 
