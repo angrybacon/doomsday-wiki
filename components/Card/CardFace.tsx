@@ -14,6 +14,11 @@ export const CardFace = ({ active, face, flipped = false }: Props) => {
   const [broken, setBroken] = useState(false);
   const [ready, setReady] = useState(false);
 
+  const onError = () => {
+    setBroken(true);
+    setReady(true);
+  };
+
   const onLoad = useCallback(() => setReady(true), []);
 
   const image = useCallback(
@@ -27,11 +32,6 @@ export const CardFace = ({ active, face, flipped = false }: Props) => {
   );
 
   if (!face.image_uris?.normal) return null;
-
-  const onError = () => {
-    setBroken(true);
-    setReady(true);
-  };
 
   return (
     <Box
@@ -57,6 +57,10 @@ export const CardFace = ({ active, face, flipped = false }: Props) => {
           transition: theme.transitions.create('filter'),
           width: 1,
           img: {
+            // NOTE Hide the browser's fallback alt text while the image
+            //      hasn't painted yet, so the LQIP background shows through
+            //      instead.
+            color: 'transparent',
             display: 'block',
             height: 1,
             position: 'relative',
@@ -76,17 +80,19 @@ export const CardFace = ({ active, face, flipped = false }: Props) => {
       {broken ? (
         <Typography
           component="div"
-          sx={{
+          sx={(theme) => ({
+            ...theme.mixins.emboss('sharp'),
             display: 'flex',
             flexDirection: 'column',
             gap: 1,
             height: 1,
+            lineHeight: 'normal',
             minHeight: 0,
             overflowBlock: 'auto',
             p: 1,
             scrollbarWidth: 'thin',
             width: 1,
-          }}
+          })}
           variant="caption"
         >
           <p>{face.name}</p>

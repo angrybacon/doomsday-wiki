@@ -96,7 +96,7 @@ export const Markdown = ({ decklists, path, scries, text }: Props) => (
         remarkGfm,
         // NOTE Our own remarkers
         remarker(remarkBase, path, Object.keys(COMPONENTS_EXTRA)),
-        remarker(remarkCard, path),
+        remarker(remarkCard, path, scries),
         remarker(remarkDecklist, path, decklists),
         remarker(remarkRow, path, scries),
       ]}

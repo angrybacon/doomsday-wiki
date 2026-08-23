@@ -11,6 +11,9 @@ import { scry } from '~/tools/scryfall/scry';
  *
  * Look for directives where cards are referred by name and make a Scryfall
  * dictionary of queries under the `scries` property for further reference.
+ *
+ * - `card` from its child text node
+ * - `row` from its children text nodes
  */
 export const remarkScries: ReadPlugin = () => async (tree, file) => {
   const promises: Promise<ScrySingleResponse>[] = [];
@@ -20,13 +23,13 @@ export const remarkScries: ReadPlugin = () => async (tree, file) => {
   visit(
     tree,
     [
-      { name: 'feature', type: 'containerDirective' },
+      { name: 'card', type: 'textDirective' },
       { name: 'row', type: 'containerDirective' },
     ],
     (node) => {
-      if (node.type === 'containerDirective' && node.name === 'feature') {
-        const query = node.attributes?.banner?.trim();
-        if (query) queries.push(query);
+      if (node.type === 'textDirective' && node.name === 'card') {
+        const text = toString(node).trim();
+        if (text) queries.push(text);
       }
 
       if (node.type === 'containerDirective' && node.name === 'row') {
