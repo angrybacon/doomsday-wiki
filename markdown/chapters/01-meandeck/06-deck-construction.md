@@ -395,7 +395,7 @@ There are a couple of additional counter spell effects you can elect to run but
 these are normally personal preference choices. :card[Flusterstorm] and Spell
 Pierce are both viable options with the former being good at protecting your
 combo and against opposing combo and the latter being better at protecting from
-permanent hate like Blood Moon or planeswalkers like :card[Karn the Great
+permanent hate like Blood Moon or planeswalkers like :card[Karn, the Great
 Creator]. These normally contend with the proactive interaction slots and are
 only ever featured as a one or two-of at most. Some will also elect to run some
 number of :card[Pact of Negation] however this will be discussed as a pile card.

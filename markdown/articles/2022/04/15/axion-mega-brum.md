@@ -310,7 +310,7 @@ gun. I can make a yolo PTT pile that can take one Kaldra hit alongside the
 Mystic and survive but I lose if I get double taxed on mana (they had Port
 online and a Thalia out too). I basically just built Ideas into land, Oracle
 with an emergency :card[EoA] in case of removal. So I lose to second Port,
-:card[Wasteland], :card[Ethersworn Canonist], :card[Sanction Prelate] on 2 and
+:card[Wasteland], :card[Ethersworn Canonist], :card[Sanctum Prelate] on 2 and
 :card[Spirit of the Labyrinth] to name but a few. He gets a Shadowspear down,
 knocks me to 1 life and has to pass where I manage to cast Ideas, draw Oracle
 and win. That was intense!
@@ -478,7 +478,7 @@ get anything going as the board fills up with angry 1/1 and 2/2 threats.
 Eventually I can cast a :card[Kokusho, the Evening Star] but it is not enough.
 
 Game 2 went a lot better. I was able to get a lot of mana out and start the
-sweet :card[Gifts Ungiven] loop of :card[Hana-Kami], :card[Goryo's Vengeance],
+sweet :card[Gifts Ungiven] loop of :card[Hana Kami], :card[Goryo's Vengeance],
 :card[Death Denied] and :card[Kagemaro, First to Suffer] going however the whole
 time I had a :card[Manriki-Gusari] boosted :card[Hand of Honor] beating me down
 which I could not get rid of! I finally had gotten everything ready for a big

@@ -185,7 +185,7 @@ This is a very basic single cantrip pile.
 You have :card[Doomsday], :card[Street Wraith], :card[Preordain] in hand and
 Swamp and 3 x Underground Sea in play.
 
-1. Tap your lands for :card[UBBB]
+1. Tap your lands for {U}{B}{B}{B}
 1. Use {B}{B}{B} to cast Doomsday with {U} in pool
 
 Stack the following:

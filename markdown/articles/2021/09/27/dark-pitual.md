@@ -311,7 +311,7 @@ won but it was close. They got two dredges to look for the one-of
 
 #### Round 3 vs Mason Slate on BR Reanimator. Win (2-0)
 
-G1 I played :card[Lotis Petal] into a :card[Chancellor of the Annex] trigger so
+G1 I played :card[Lotus Petal] into a :card[Chancellor of the Annex] trigger so
 that I could cast discard on t1 to take an :card[Entomb]. After that they went
 for an :card[Animate Dead] line on :card[Grief] to put us both hellbent, but a
 2/1 doesn't do a great job as the only clock. Cantrips in the deck meant I was
@@ -394,7 +394,7 @@ went to cast :card[Thassa's Oracle] with one card in library to win through
 #### Round 8 vs Stephen Dupal on Elves. Win (2-0)
 
 G1 They played heath go. I didn't know exactly what they were on but resolved
-turn 1 :card[Doomsday] with :card[Undeground Sea] and a fetch in hand. Made the
+turn 1 :card[Doomsday] with :card[Underground Sea] and a fetch in hand. Made the
 following pile to beat :card[Wasteland] + :card[Thalia, Guardian of Thraben]
 over two turns.
 
@@ -421,7 +421,7 @@ Nettle Sentinel|EVE
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1)
 
 G1 lost after playing around a topdecked :card[Burning Inquiry], they discarded
-:card[Anger], :card[Vengvine] and played two Hollow Ones to kill from 10 life.
+:card[Anger], :card[Vengevine] and played two Hollow Ones to kill from 10 life.
 
 G2 I kept a super interactive hand where I was able to :card[Daze], Force the
 enablers. I then drew some cantrips while they were stuck doing nothing and won

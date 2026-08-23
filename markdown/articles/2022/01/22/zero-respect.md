@@ -463,7 +463,7 @@ Or
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
 - **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
-Like _Blue Soup_ but harder thanks to :card[Ragavan, Nimbler Pilferer] and
+Like _Blue Soup_ but harder thanks to :card[Ragavan, Nimble Pilferer] and
 :card[Expressive Iteration]. Often these might as well all be Delver decks just
 with :card[Meddling Mage] to annoy us. You can very well justify bringing in
 :card[Massacre] or :card[CoV] in these matchups. Again deck variance in the
@@ -512,7 +512,7 @@ Grindstone
 ### OmniShow
 
 - **Respect**: People who still run Release the Ants. Cunning Wish for Trickbind
-- **Disrespect**: People who run :card[Shared Summoning]
+- **Disrespect**: People who run :card[Shared Summons]
 - **Take out**: 2 Street Wraith, 1-2 Preordain, 1 Island, 1 Pact of Negation,
   maybe 1 Watery Grave, maybe 1 Lion's Eye Diamond, maybe 1 Deep Analysis
 - **Bring in**: 2-4 Force of Negation, maybe 1 Thassa's Oracle, 2 Flusterstorm,

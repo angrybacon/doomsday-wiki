@@ -39,7 +39,7 @@ I had been testing, a DDFT list without :card[Burning Wish].
 
 :card[Wishclaw Talisman] plays the role of tutor, and we still had access to a
 copy of Echo of Eons. :card[Bolas's Citadel] was a new tool, expensive but
-powerful. It functioned similarly to :card[Experimetal Frenzy], which saw its
+powerful. It functioned similarly to :card[Experimental Frenzy], which saw its
 own share of Doomsday-related success, enabling piles and serving as a _Storm_
 engine in its own right. The manabase in this list was much more stable than in
 the 4c builds with Burning Wish that I had been testing. It could play basics,

@@ -170,7 +170,7 @@ EF
 
 As the primary win condition for the deck is a 3 mana card, this can be quite a
 struggle to get to in a format like Legacy where resource efficiency is prized
-above all else. With cards like :card[Thalia, Guardian of Thraden] in the
+above all else. With cards like :card[Thalia, Guardian of Thraben] in the
 format, it is important to be able to resolve your game winning card fast to
 prevent your opponents from dropping hate elements or simply to outrace your
 opponent to prevent them winning the game first. To facilitate this, a number of

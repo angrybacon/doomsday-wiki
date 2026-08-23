@@ -182,7 +182,7 @@ concession a couple of turns later.
 
 So I knew my last round of the day would be either delver or 8-Cast, it was
 delver, very interesting match, interesting situation in g1, I drew Dd at
-exactly 4 life facing a 3/3 :card[Dragon's Rage Channeller], unfortunately my
+exactly 4 life facing a 3/3 :card[Dragon's Rage Channeler], unfortunately my
 hand was :card[Dd] + :card[SW], I say unfortunately because at 2 more life I
 could safely make a :card[Consider] pile or if the cycler was edge, my
 opponent's hand only had a :card[Ledger Shredder], but they also had a
@@ -500,7 +500,7 @@ PoN
 Game 1 - Mull to 6 on the play. Opponent leads with a :card[Green Sun's Zenith]
 for Dryad Arbor, then plays Allosaurus Shepherd, :card[Gaea's Cradle], and
 Collector Ouphe, which keeps me from winning on my third turn. I die on his T3
-to a :card[Craterhoof Behemonth]. Ouphe.
+to a :card[Craterhoof Behemoth]. Ouphe.
 
 SB: -3 duress, +2 Opposition Agent, +1 Chain of Vapor
 

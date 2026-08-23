@@ -1534,7 +1534,7 @@ CoS
 TO
 :::
 
-With the printing of :card[Lurrus of the Dream Den] from Ikoria, Doomsday was
+With the printing of :card[Lurrus of the Dream-Den] from Ikoria, Doomsday was
 easy to accept the companion losing only access to :card[Street Wraith] and
 Teferi in the card pool. Using tools like :card[Mishra's Bauble] to gain card
 advantage with Lurrus or to delay dig into piles, it was able to stay toe-to-toe

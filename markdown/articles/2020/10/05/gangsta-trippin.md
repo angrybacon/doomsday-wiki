@@ -296,9 +296,9 @@ turn or can it wait until the next? One of the hardest lessons to learn in
 Legacy is probably when it is fine to play a land and simply say "go". If you
 are playing against a {U} based control deck, often they will not be able to
 place any pressure on the board until the later turns or if they do, it is often
-only something like an :card[Ice-Fanged Coatl]. Being chipped away for 1 a turn
-is fine as it gives you a lot of time to work with so don't feel like you have
-to use all your mana every turn. This same principle applies to facing against
+only something like an :card[Ice-Fang Coatl]. Being chipped away for 1 a turn is
+fine as it gives you a lot of time to work with so don't feel like you have to
+use all your mana every turn. This same principle applies to facing against
 :card[Daze] decks like Delver. It's okay to take a turn or two and simply
 develop your mana without allowing them to trade 1:1 with your cantrips.
 

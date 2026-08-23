@@ -340,7 +340,7 @@ You cast Doomsday off of three lands and two Moxes, as there is a :card[Thorn of
 Amethyst] and a Sphere of Resistance on the battlefield under your opponent's
 control. They also control a :card[Phyrexian Revoker] with Black Lotus named, a
 2/2 :card[Stonecoil Serpent] and an :card[Ancient Tomb], a :card[Mox Emerald],
-an :card[Inventor's Fair], and two cards in hand. You are at 16 life, so after
+an :card[Inventors' Fair], and two cards in hand. You are at 16 life, so after
 Doomsday, you will be dead to 2 swings. Your hand consists of Preordain, Daze,
 and Force of Will. What is the easiest way of winning the next turn playing
 around Wasteland, another Sphere, Mindbreak trap, possibly Chalice, :card[Null

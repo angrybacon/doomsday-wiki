@@ -3,7 +3,7 @@
 // Colors: {U}{B}{R}
 4 Baleful Strix
 4 Brainstorm
-3 Dragon's Rage Channeller
+3 Dragon's Rage Channeler
 3 Dark Ritual
 4 Daze
 4 Doomsday

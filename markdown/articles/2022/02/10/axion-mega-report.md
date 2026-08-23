@@ -79,7 +79,7 @@ What we can see is that Graveyard based decks were very underrepresented with
 only one pilot taking a stand. It's often tough to work out whether people are
 in the peaks of overloading with anti-Graveyard hate or troughs of skimping out
 on it but with :card[Endurance] in abundance alongside a large number of
-potential Force effects and :card[Bojuka Bogs] it likely is tricky to find the
+potential Force effects and :card[Bojuka Bog] it likely is tricky to find the
 wins without going full throttle with something like Oops All Spells. Tempo,
 Prison and Blue Control were all equally represented in the top macro archetype
 slots with 6 pilots each followed by Midrange at 5 pilots, Aggro at 4 and both
@@ -124,8 +124,8 @@ I was one of the lucky few who managed to secure a ticket and with only the
 knowledge that "there will probably be UR Delver and Death & Taxes" about I had
 to try and come up with my list. To make things slightly trickier I had gone 1-3
 at the last local FNM I had played in (making me feel a little bummed out) and,
-probably more importantly, the :card[Ragavan, Nimbler Pilferer] ban had come
-into effect so I was probably due to make some changes to my [previous
+probably more importantly, the :card[Ragavan, Nimble Pilferer] ban had come into
+effect so I was probably due to make some changes to my [previous
 list](/articles/2022/01/22/zero-respect#the-decklist) whilst being unable to
 test for the event at all thanks to general life things getting in the way.
 
@@ -548,7 +548,7 @@ intrigued) and thus complete my one and only same turn win of the event.
 
 Sideboarding was a scary prospect. What {W}{U} lacks in terms of pressure in
 game 1 it can make up for in potential toolbox cards in games 2 and 3. Torpor
-Orb, Meddling Mage and :card[Ethersword Canonist] all came to mind and so I
+Orb, Meddling Mage and :card[Ethersworn Canonist] all came to mind and so I
 boarded thinking these elements likely. As I was against a tempo deck I didn't
 really want to stress my mana out so I decided to ignore the {R} splash for now.
 Additional Duress came in, I think Chain and Massacre both came in too. Probably

@@ -148,7 +148,7 @@ targeting restrictions on anything in play to enable the triggers.
 
 Red Blasts have the second function that makes them favourable which is the
 ability to potential remove threats from the board as well. :card[Narset, Parter
-of Veils], :card[Leovold, Emmissary of Trest] and :card[Delver of Secrets] are
+of Veils], :card[Leovold, Emissary of Trest] and :card[Delver of Secrets] are
 all viable targets that warrant removal assuming they were able to resolve in
 the first place. Though they can be countered (unlike common counterpart
 :card[Abrupt Decay]) they do not get stopped by Veil as decay can be. As with
