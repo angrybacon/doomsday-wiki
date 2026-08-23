@@ -14,7 +14,7 @@ export default {
   },
   // NOTE We increase the default timeout because we're limited with Scryfall
   //      rate limits.
-  staticPageGenerationTimeout: 60 * 5,
+  staticPageGenerationTimeout: 60 * 10,
   redirects: () =>
     Promise.resolve([
       {

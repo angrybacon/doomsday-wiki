@@ -40,8 +40,9 @@ export const remarkScries: ReadPlugin = () => async (tree, file) => {
   );
 
   queries.forEach((query) => {
-    const promise = scry(query).then((it) => (scries[query] = it));
-    promises.push(promise);
+    promises.push(
+      scry(query, { lqip: true }).then((it) => (scries[query] = it)),
+    );
   });
 
   await Promise.all(promises);
