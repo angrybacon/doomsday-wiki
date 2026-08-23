@@ -489,14 +489,14 @@ As is said in our recording:
 > We were slow to change.
 
 Late 2008 saw another key Storm card enter the scene from the Alara block;
-:card[Ad Nauseum]. The Storm decks had already been diverging over manabase but
+:card[Ad Nauseam]. The Storm decks had already been diverging over manabase but
 this really tipped things over the edge. We'd already seen Iggy Pop split into
 FT and TES. We now had further splitting into TES, FT, _Next Level Storm_ NLS
 and _Doomsday Fetchland Tendrils_ DDFT which finally became its own thing. Ad
-Nauseum pretty much completely replaces Ill-Gotten Gains as the primary combo
+Nauseam pretty much completely replaces Ill-Gotten Gains as the primary combo
 engine easing up on the graveyard aspect and thus leaving Iggy Pop as an
 archetype in the dust. TES adds in :card[Simian Spirit Guide]s and 3-4 Ad
-Nauseum, the rest add between 1 and 3. Questions start getting asked about
+Nauseam, the rest add between 1 and 3. Questions start getting asked about
 things like having Burning Wish vs not, the desired speed of the deck and the
 relevancy of chant effects vs discard.
 
@@ -518,7 +518,7 @@ From Dark_Cynic87 on the mtgthesource Fetchland Tendrils thread:
 > &mdash; [Dark_Cynic87](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=275805&viewfull=1#post275805)
 
 It is the concept above that causes FT/NLS to further develop into what becomes
-known as Ad Nauseum Tendrils or ANT. TES also starts to pick up the concepts of
+known as Ad Nauseam Tendrils or ANT. TES also starts to pick up the concepts of
 using a fetchland manabase, deviating away from the full 5 colour package. As
 2009 comes around Lejay leads people in starting to work on using Ideas Unbound
 as the primary pile draw engine of choice over/alongside draw 4s. Although TES
@@ -552,7 +552,7 @@ LED
 BW
 :::
 
-NLS was like a Doomsday / FT / Ad Nauseum hybrid that had access to both the
+NLS was like a Doomsday / FT / Ad Nauseam hybrid that had access to both the
 fast kill that TES ran, albeit a tad slower, and the anti-Teeg/more versatile or
 grindy style that Doomsday had. Users like Cheeseburger and Nemavera put a lot
 into what was listed as a _German Variant_ of NLS. It ran so many tutors/wishes
@@ -592,7 +592,7 @@ Doomsday itself, more pilots started to adopt Burning Wish into their lists as
 Doomsday copies 4-7. Ideas Unbound finally gained a wider acceptance in lists
 with pushing from Lejay and cheeseburger, first as a Wish target and then more
 into the maindeck. Street Wraith had already started to be dropped due to
-disynergy with Ad Nauseum and lost its home completely in the deck. Many people
+disynergy with Ad Nauseam and lost its home completely in the deck. Many people
 still stuck to using Lim-Dûl's Vault as a pseudo tutor within the deck or trying
 to work with Infernal Tutor. It took quite a surprisingly long time for people
 to finally adopt the leaner way of deck construction. This is of course easy to
@@ -601,9 +601,9 @@ there was huge variance in pilots lists with some people trying out
 :card[Personal Tutor] and Daze, many still had either a single maindeck or
 wishable Ill-Gotten Gains. There was also a divide still on whether to run 7
 discard effects main, 7 chant effects main or a split of the 2. Cabal Ritual
-slowly started to be dropped too as the deck moved away from Ad Nauseum and
+slowly started to be dropped too as the deck moved away from Ad Nauseam and
 instead opted to use :card[Rain of Filth] as the goto ritual #5. There was a big
-reason that lists began to move away from Ad Nauseum in Doomsday whilst ANT and
+reason that lists began to move away from Ad Nauseam in Doomsday whilst ANT and
 TES stuck with it and that was because of one very large printing that ocurred:
 :card[Em].
 
@@ -614,7 +614,7 @@ player resolving Doomsday meets that requirement perfectly. If you activate Isle
 with an Emrakul hidden under it you count as casting the card thus netting the
 extra turn trigger and gaining an uncounterable 15/15 with flying and
 Annihilator 6 for the cost of {U}. This slotted into Doomsday easily, initially
-with people testing in maindeck. Ad Nauseum had to be dropped because having a
+with people testing in maindeck. Ad Nauseam had to be dropped because having a
 15 cmc card in your deck could prove pretty lethal otherwise. The combo gave a
 big tool to DDFT which it had been missing for awhile in the form of a
 pass-the-turn pile plan that circumnavigated countermagic. Pretty much every
@@ -891,11 +891,11 @@ neat!
 The second key printing was :card[Past in Flames] or PiF. PiF was the boon that
 other storm decks needed and was snapped up immediately by both ANT and TES.
 Unlike the previous recursion reliance on Ill-Gotten Gains, PiF enabled an
-asymmetrical recursion effect that did not tax the life total like Ad Nauseum
+asymmetrical recursion effect that did not tax the life total like Ad Nauseam
 did. As a result it powered up the other storm decks no end. Unfortunately this
 had a negative impact on DDFT's perceived viability. Whereas before PiF there
 had been a number of strong arguments to run DDFT over ANT or TES due to the
-lack of reliance on Ad Nauseum, now that argument was forfeit. This card single
+lack of reliance on Ad Nauseam, now that argument was forfeit. This card single
 handedly allowed ANT and TES to be top tier decks all through until 2020. It was
 of course discussed as to whether PiF could be utilised by DDFT too with people
 exploring it as a Burning Wish target however it just did not fit in well with
