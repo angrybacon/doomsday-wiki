@@ -1,9 +1,11 @@
 import type { ScrySingleResponse } from '@korumite/scrydrop';
 
+import { cache } from 'react';
+
 import { scry } from '~/tools/scryfall/scry';
 
 /** Fetch the artwork for a given Scryfall query */
-export const getBanner = async (query: string) => {
+export const getBanner = cache(async (query: string) => {
   const [front]: ScrySingleResponse = await scry(query, { lqip: true });
   if (!front) throw new Error(`Missing banner data for "${query}"`);
   if (!front.image_uris)
@@ -16,4 +18,4 @@ export const getBanner = async (query: string) => {
     lqip: front.lqip.art,
     title: front.alternate.join('\n'),
   };
-};
+});
