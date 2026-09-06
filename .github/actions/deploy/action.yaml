@@ -12,9 +12,11 @@ outputs:
 
 runs:
   steps:
-    - shell: bash
+    - env:
+        ENVIRONMENT: ${{ inputs.environment }}
+      shell: bash
       run: |
-        case "${{ inputs.environment }}" in
+        case "$ENVIRONMENT" in
           preview)
             echo "VERCEL_FLAGS=" >> "$GITHUB_ENV"
             ;;
@@ -22,19 +24,26 @@ runs:
             echo "VERCEL_FLAGS=--prod" >> "$GITHUB_ENV"
             ;;
           *)
-            echo "::error::Unknown environment \"${{ inputs.environment }}\""
+            echo "::error::Unknown environment \"$ENVIRONMENT\""
             exit 1
             ;;
         esac
     - shell: bash
       run: pnpm add --global vercel@latest
+    - env:
+        ENVIRONMENT: ${{ inputs.environment }}
+        TOKEN: ${{ inputs.token }}
+      shell: bash
+      run: vercel pull --yes --environment="$ENVIRONMENT" --token="$TOKEN"
     - shell: bash
-      run: vercel pull --yes --environment=${{ inputs.environment }} --token=${{ inputs.token }}
-    - shell: bash
-      run: vercel build $VERCEL_FLAGS --token=${{ inputs.token }}
+      env:
+        TOKEN: ${{ inputs.token }}
+      run: vercel build $VERCEL_FLAGS --token="$TOKEN"
     - id: run
       shell: bash
+      env:
+        TOKEN: ${{ inputs.token }}
       run: |
-        url=$(vercel deploy --archive=tgz --prebuilt $VERCEL_FLAGS --token=${{ inputs.token }})
+        url=$(vercel deploy --archive=tgz --prebuilt $VERCEL_FLAGS --token="$TOKEN")
         echo "url=$url" >> "$GITHUB_OUTPUT"
   using: composite

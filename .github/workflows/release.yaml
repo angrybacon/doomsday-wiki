@@ -14,7 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup
+        with:
+          persist-credentials: false
+      - uses: $/.github/actions/setup
       - run: pnpm lint
 
   tests:
@@ -25,7 +27,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup
+        with:
+          persist-credentials: false
+      - uses: $/.github/actions/setup
       - run: pnpm test:coverage
       - uses: davelosert/vitest-coverage-report-action@v2
         if: ${{ !cancelled() }}
@@ -46,13 +50,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup
-      - uses: ./.github/actions/deploy
+        with:
+          persist-credentials: false
+      - uses: $/.github/actions/setup
+      - uses: $/.github/actions/deploy
         id: deploy
         with:
           environment: preview
           token: ${{ secrets.VERCEL_TOKEN }}
-      - uses: ./.github/actions/comment
+      - uses: $/.github/actions/comment
         if: ${{ !cancelled() }}
         with:
           token: ${{ github.token }}
@@ -67,8 +73,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: ./.github/actions/setup
-      - uses: ./.github/actions/deploy
+        with:
+          persist-credentials: false
+      - uses: $/.github/actions/setup
+      - uses: $/.github/actions/deploy
         with:
           environment: production
           token: ${{ secrets.VERCEL_TOKEN }}
