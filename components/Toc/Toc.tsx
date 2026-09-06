@@ -53,7 +53,7 @@ export const Toc = ({ toc }: Props) => {
       <Entries current={id} entries={toc.items} onJump={onJump} root />
       {trigger && (
         <>
-          <Divider sx={{ my: 1 }} />
+          <Divider sx={{ my: 2 }} />
           <Entry onJump={onJump} title="Back to top" url="#root" />
         </>
       )}
