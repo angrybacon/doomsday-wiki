@@ -1,0 +1,40 @@
+inputs:
+  environment:
+    description: Either "preview" or "production"
+    required: true
+  token:
+    description: The Vercel token
+    required: true
+
+outputs:
+  url:
+    value: ${{ steps.run.outputs.url }}
+
+runs:
+  steps:
+    - shell: bash
+      run: |
+        case "${{ inputs.environment }}" in
+          preview)
+            echo "VERCEL_FLAGS=" >> "$GITHUB_ENV"
+            ;;
+          production)
+            echo "VERCEL_FLAGS=--prod" >> "$GITHUB_ENV"
+            ;;
+          *)
+            echo "::error::Unknown environment \"${{ inputs.environment }}\""
+            exit 1
+            ;;
+        esac
+    - shell: bash
+      run: pnpm add --global vercel@latest
+    - shell: bash
+      run: vercel pull --yes --environment=${{ inputs.environment }} --token=${{ inputs.token }}
+    - shell: bash
+      run: vercel build $VERCEL_FLAGS --token=${{ inputs.token }}
+    - id: run
+      shell: bash
+      run: |
+        url=$(vercel deploy --archive=tgz --prebuilt $VERCEL_FLAGS --token=${{ inputs.token }})
+        echo "url=$url" >> "$GITHUB_OUTPUT"
+  using: composite
