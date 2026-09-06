@@ -98,7 +98,7 @@ resolving TO.
 Bs
 SW
 EoA
-Polluted Delta|ONS
+Polluted Delta | ONS
 TO
 :::
 
@@ -214,7 +214,7 @@ DR
 Dd
 FoW
 FoW
-Underground Sea|LEB
+Underground Sea | LEB
 Island
 Pre
 :::

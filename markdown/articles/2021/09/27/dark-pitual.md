@@ -115,7 +115,7 @@ G2. Opponent caught me off guard when they played a basic Island into
 :card[Careful Study], I sideboarded out some of my discard spells but now I
 realized I am playing against a deck that is also playing countermagic. Luckily
 they were able to put :card[Iona, Shield of Emeria] in the graveyard but not
-reanimate it back before I could resolve :card[Thassa’s Oracle].
+reanimate it back before I could resolve :card[Thassa's Oracle].
 
 #### Round 3 vs Derek Toth on Urza Echo. Win (2-0)
 
@@ -123,7 +123,7 @@ G1. This is another game that I didn’t get the right deck my opponent was
 playing. They cast a :card[Chalice of the Void] on turn one off a :card[City of
 Traitors] which I countered. I cast :card[Doomsday] the following turn and make
 a pile that can beat anything but a :card[Trinisphere], they don’t cast anything
-and just pass the turn, :card[Thassa’s Oracle] enters the battlefield and we
+and just pass the turn, :card[Thassa's Oracle] enters the battlefield and we
 reach for our sideboards. I thought my opponent was on mono {R} stompy but in
 this case I think I would still SB the same way.
 
@@ -320,7 +320,7 @@ able to outdraw them from there and easily win.
 G2 They mulled into oblivion.
 
 :::row{variant=CENTERED}
-Entomb|ODY
+Entomb | ODY
 :::
 
 #### Round 4 vs Jacob Saracino on UR Delver. Win (2-1)
@@ -403,7 +403,7 @@ LED
 SW
 EoA
 TO
-Volcanic Island|LEB
+Volcanic Island | LEB
 :::
 
 They knew they couldn't win and so just chose to not reveal what deck they were
@@ -415,7 +415,7 @@ draw spells were cyclers. The :card[Preordain] let me dig to a :card[Brainstorm]
 that ended the game.
 
 :::row{variant=CENTERED}
-Nettle Sentinel|EVE
+Nettle Sentinel | EVE
 :::
 
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1)
@@ -665,7 +665,7 @@ felt wasn't likely):
 
 :::row{variant=PILE}
 SW
-Volcanic Island|LEB
+Volcanic Island | LEB
 SW
 EoA
 TO
@@ -715,7 +715,7 @@ TO
 **Out:** 2 :card[Thoughtseize], :card[Preordain]
 
 Game 2, my opponent and I both mulled to 6, and my opponent came out with a plan
-to just race me with a fast Marit Lage. This is one game where :card[Lim-Dul's
+to just race me with a fast Marit Lage. This is one game where :card[Lim-Dûl's
 Vault] found me a win where :card[Personal Tutor] wouldn't. By Patrick's third
 end-step, he had assembled the combo. I cast :card[Lim-Dûl's Vault] then,
 holding :card[Brainstorm], cycler, and :card[Lotus Petal], and land in hand.
@@ -728,7 +728,7 @@ land on top. On my turn, I drew the 2nd cycler and won using the same pile as
 game 1.
 
 :::row{variant=CENTERED}
-Dark Depths|CSP
+Dark Depths | CSP
 :::
 
 #### Round 3 vs Anthony Arevalo on Jeskai Sagavan. Loss (1-2)
@@ -834,9 +834,9 @@ turn.
 :::row{variant=PILE}
 IU
 EoA
-Underground Sea|LEB
+Underground Sea | LEB
 TO
-Island|RAV
+Island | RAV
 :::
 
 What I should have thought more carefully about was the possibility of Bryant
@@ -907,11 +907,11 @@ into :card[Delver of Secrets]. On my turn, I cracked the fetch for
 pile to beat :card[Wasteland] but would require fading 2 turns:
 
 :::row{variant=PILE}
-Polluted Delta|ONS
+Polluted Delta | ONS
 EoA
 TO
 CoS
-Volcanic Island|LEB
+Volcanic Island | LEB
 :::
 
 Unfortunately, that didn't matter – Kyle revealed :card[Brainstorm] to flip
@@ -965,7 +965,7 @@ earlier in the tournament. I played :card[Underground Sea] and cast
 :card[Ponder] to find a :card[Force of Will]. Zach's second turn involved
 playing a :card[Quirion Ranger] and :card[Nettle Sentinel]. I played a fetch and
 passed. Zach didn't draw any engine cards, so he played a couple more creatures
-and swung for a few points of damage. In his end step, I cast :card[Lim-Dul's
+and swung for a few points of damage. In his end step, I cast :card[Lim-Dûl's
 Vault] and found :card[Doomsday] right away. When I untapped, I cast
 :card[Doomsday] and made a cycler pile. The following turn, Zach didn't topdeck
 a win, so I was able to cast :card[Thassa's Oracle] without issue the following
@@ -997,7 +997,7 @@ so I decided to go with the below pile to hold up :card[Force of Will] on
 :::row{variant=PILE}
 Pnd
 IU
-Underground Sea|LEB
+Underground Sea | LEB
 LP
 TO
 :::
@@ -1048,7 +1048,7 @@ not top decking well.
 **In:** 2 :card[Abrade], :card[Red Elemental Blast], :card[Pyroblast],
 :card[Cavern of Souls], 2 :card[Flusterstorm], 2 :card[Duress], :card[Echoing
 Truth]  
-**Out:** 2 :card[Stifle], 2 :card[Pact of Negation], 2 :card[Lim-Dul's
+**Out:** 2 :card[Stifle], 2 :card[Pact of Negation], 2 :card[Lim-Dûl's
 Vault], 2 :card[Street Wraith], 2 :card[Lotus Petal]
 
 Game 2, we both mull to 6. My opponent opens with :card[Painter's Servant]

@@ -12,9 +12,6 @@ export default {
             .replaceAll(':', '')
         : 'development',
   },
-  // NOTE We increase the default timeout because we're limited with Scryfall
-  //      rate limits.
-  staticPageGenerationTimeout: 60 * 10,
   redirects: () =>
     Promise.resolve([
       {
@@ -23,4 +20,7 @@ export default {
         source: '/discord',
       },
     ]),
+  // NOTE We increase the default timeout because rate-limited LQIP fetching and
+  //      computing might exceed the default 60 seconds.
+  staticPageGenerationTimeout: 60 * 3,
 } satisfies NextConfig;

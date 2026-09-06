@@ -15,14 +15,14 @@ Doomsday
 :::
 
 Tin Fins is a Reanimator variant that primarily aims to reanimate
-:card[Griselbrand] with haste using either :card[Shallow Grave] or :card[Goryo’s
+:card[Griselbrand] with haste using either :card[Shallow Grave] or :card[Goryo's
 Vengeance], then draw enough cards to reanimate :card[Emrakul, the Aeons Torn]
 and attack for 22 damage. To enable this, the deck runs :card[Children of
 Korlis] to regain the life paid to :card[Griselbrand] and enable us to
 frequently draw our entire deck.
 
 :card[Doomsday] aims to win the game by casting the namesake card and building a
-pile of 5 cards to win the game, typically using :card[Thassa’s Oracle].
+pile of 5 cards to win the game, typically using :card[Thassa's Oracle].
 
 The Tin Fins gameplan is incredibly strong in game 1, but is vulnerable to many
 common sideboard hate cards (:card[Leyline of the Void], :card[Endurance],
@@ -38,7 +38,7 @@ Tin Fins players are no strangers to transformational sideboards and hybrid
 gameplans. The deck has frequently run sideboard cards such as :card[Monastery
 Mentor] to dodge the aforementioned graveyard hate pieces. In fact,
 :card[Doomsday] had been discussed as a sideboard option for Tin Fins for years
-prior to the printing of Thassa’s Oracle. The current Entombsday build was
+prior to the printing of Thassa's Oracle. The current Entombsday build was
 popularized by _Walked_/_Walkedairplane_ toward the end of 2020 and has
 continued to evolve from there.
 

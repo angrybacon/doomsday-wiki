@@ -77,7 +77,7 @@ mainly a distraction. I'm on the draw and keep my 7 including :card[Dd],
 :card[Dark Ritual] plus :card[Thoughtseize] and :card[FoW] + {U} card. My
 opponent leads with :card[Ancient Tomb] into :card[Chrome Mox] (exiling a {B}
 card) and passes. I cast Thoughtseize and he casts Opposition Agent in response
-which I force. I see a :card[Karn, The Great Creator] and a :card[Sheoldred, the
+which I force. I see a :card[Karn, the Great Creator] and a :card[Sheoldred, the
 Apocalypse]. I figure I can't race the Sheoldred so I take it leaving my
 opponent with Karn, hoping I can win on my next turn. Unfortunately my opponent
 topdecks a Dark Ritual, so on turn 2 goes Swamp, Ritual, Karn, then wish for and

@@ -110,7 +110,7 @@ situational ones as you gain experience.
 ## What is the best matchup for the deck?
 
 Post used to be the auto-win matchup where their only hope was either a timely
-:card[Boseiju, who Endures] or Choke and it had to resolve. With Modern Horizons
+:card[Boseiju, Who Endures] or Choke and it had to resolve. With Modern Horizons
 3 (the Commander set to be exact), the deck has gained in popularity and the
 matchup has changed drastically. Maindeck :card[Disruptor Flute]s, usually
 naming the oracle or Doomsday itself can slow down the game giving them more

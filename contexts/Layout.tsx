@@ -4,13 +4,7 @@ import type { PropsWithChildren } from 'react';
 import type { Category } from '~/tools/markdown/schemas';
 
 import { useParams, usePathname } from 'next/navigation';
-import {
-  createContext,
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-} from 'react';
+import { createContext, useCallback, useMemo, useState } from 'react';
 
 import { CategorySchema } from '~/tools/markdown/schemas';
 
@@ -32,11 +26,13 @@ export const LayoutContext = createContext({
 });
 
 export const LayoutProvider = ({ children }: PropsWithChildren) => {
-  const [hasMenu, setHasMenu] = useState(false);
-  const [hasTable, setHasTable] = useState(false);
-  const [showTable, setShowTable] = useState(false);
   const { chapter = null } = useParams();
   const pathname = usePathname();
+  const [hasMenu, setHasMenu] = useState(false);
+  const [hasTable, setHasTable] = useState(false);
+  const [previousPathname, setPreviousPathname] = useState(pathname);
+  const [showTable, setShowTable] = useState(false);
+
   const category = CategorySchema.nullable().parse(chapter);
 
   const toggleMenu = useCallback(
@@ -56,14 +52,10 @@ export const LayoutProvider = ({ children }: PropsWithChildren) => {
     [],
   );
 
-  useEffect(() => {
-    // NOTE With the page router, this used to be handled with router events
-    //      directly where the drawer would close as soon as the navigation
-    //      started. However the current implementation requires the navigation
-    //      to complete successfully.
-    //      router.events.on('routeChangeStart', onClose);
-    toggleMenu(false);
-  }, [pathname, toggleMenu]);
+  if (pathname !== previousPathname) {
+    setPreviousPathname(pathname);
+    setHasMenu(false);
+  }
 
   const value = useMemo(
     () => ({

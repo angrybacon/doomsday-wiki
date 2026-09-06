@@ -189,7 +189,7 @@ Matches 3-1
 
 **Game 1** my opponent leads on :card[Delver of Secrets]. I have :card[LP],
 Petal, Ritual, Thoughtseize, Doomsday, :card[Underground Sea]. I go for the T1
-Doomsday, but my opponent has Delver, :card[Bs], :card[ Lightning Bolt],
+Doomsday, but my opponent has Delver, :card[Bs], :card[Lightning Bolt],
 Wasteland in hand. I take the Brainstorm and go for a pile that plays around
 anything but a counter. My opponent flips a Daze to its delver trigger.
 

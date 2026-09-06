@@ -124,7 +124,7 @@ that somehow put me in a better mood. I got paired against a friendly guy
 playing white Initiative in the _dead for top8_ bracket and got completely
 annihilated. In game 1 my opponent mulled to 4, revealed :card[Chancellor of the
 Annex] and went Lotus into :card[White Plume Adventurer]. He then untapped,
-scried an :card[Ancient tomb] on top and played :card[Archon of Emeria]. Gg
+scried an :card[Ancient Tomb] on top and played :card[Archon of Emeria]. Gg
 
 In game 2 I open the nuts: Ritual, :card[Doomsday], Fetchland, :card[Daze],
 :card[Ancestral Recall], :card[Street Wraith]. Turn1 win with Daze backup. My
@@ -276,7 +276,7 @@ hopefully the Carpets can help.
 #### Game 1
 
 I keep a land-heavy hand and main phase fetch on my turn 1 to play around
-:card[Stifle]. My opponent :card[wasteland]s me and plays a :card[Tarmogoyf] a
+:card[Stifle]. My opponent :card[Wasteland]s me and plays a :card[Tarmogoyf] a
 couple of turns later. I win at the last possible turn with a Veil-protected
 Doomsday + Cycler.
 

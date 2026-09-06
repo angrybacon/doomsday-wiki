@@ -141,7 +141,7 @@ included as four-ofs.
 
 Some Entombsday lists opt to run a single copy of :card[Chrome Mox] as a pseudo
 fifth Lotus Petal. This can allow for additional turn one combos and is another
-source of non-land mana while comboing. Notably, imprinting :card[Lim-Dul's
+source of non-land mana while comboing. Notably, imprinting :card[Lim-Dûl's
 Vault] under Chrome Mox allows you to "build your own" :card[Underground Sea].
 
 :card[Lion's Eye Diamond] is typically included in the maindeck of Entombsday.
@@ -208,14 +208,14 @@ Lim-Dûl's Vault
 Shelldock Isle
 :::
 
-:card[Lim-Dûl’s Vault] - While slow, LDV allows you to find Entomb, a
+:card[Lim-Dûl's Vault] - While slow, LDV allows you to find Entomb, a
 reanimation spell, and Doomsday. Unless :card[Mystical Tutor] gets unbanned (one
 can dream!), it’s our best option for a tutor that finds both combos.
 
 :card[Shelldock Isle] - This is another card that has seen less inclusion in
 Doomsday lists, but we include it since we already have an Emrakul in the deck.
 This enables some fairly simple piles that play around :card[Endurance] and
-:card[Painter’s Servant] + :card[Grindstone].
+:card[Painter's Servant] + :card[Grindstone].
 
 ## Sideboard Options
 

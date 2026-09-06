@@ -58,10 +58,13 @@ Doomsday | 6ED
 Doomsday | PRM | 61058
 Doomsday | MP2
 Doomsday | A25
+:::
+:::row
 Doomsday | PLST
 Doomsday | SLD | 1115
 Doomsday | MB2
 Doomsday | MSC
+Doomsday | SLZ | 281
 :::
 ::::
 ```
@@ -82,10 +85,13 @@ Doomsday | 6ED
 Doomsday | PRM | 61058
 Doomsday | MP2
 Doomsday | A25
+:::
+:::row
 Doomsday | PLST
 Doomsday | SLD | 1115
 Doomsday | MB2
 Doomsday | MSC
+Doomsday | SLZ | 281
 :::
 ::::
 
@@ -418,7 +424,7 @@ TO
 :::warning{title="First print policy"}
 By default first print is preferred and we trust the excellent Scryfall for
 that. But be warned however that some promotional prints may have an earlier
-timestamp than the _regular_ printing of a card. eg. Endurance
+timestamp than the _regular_ printing of a card (e.g. Endurance).
 :::
 
 In some specific cases, you will want to specify a set or a collector number,
@@ -466,24 +472,23 @@ Ugin, Eye of the Storms | TDM | 382
 
 ### Split Cards
 
-Split cards are also supported. You don't need to provide both names in order to
-match the card nor do you need to provide the front part specifically, except
-for _Who // What // When // Where // Why_, for some impenetrable reason.
+Split cards are also supported. Use either the full name, or the front face's
+name.
 
 ```md
 :::row
-Ice
+Fire // Ice
 Consign
-Walk-In Closet
-Who // What // When // Where // Why
+Emeritus of Woe
+Who
 :::
 ```
 
 :::row
-Ice
+Fire // Ice
 Consign
-Walk-In Closet
-Who // What // When // Where // Why
+Emeritus of Woe
+Who
 :::
 
 ## SoundCloud

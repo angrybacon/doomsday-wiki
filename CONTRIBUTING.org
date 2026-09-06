@@ -109,24 +109,26 @@ knowledge for a JavaScript stack is known from the reader.
 *** Scryfall Dependency
 
 Scryfall recently updated their good citizenship contract requirements in terms
-of rate limit. It is now recommended to stay under 2 requests per second. Both
-the development and production builds throttle requests down to 1 per second for
-safety until a better solution is implemented. Preferably one that doesn't
-involve [[https://scryfall.com/docs/api/bulk-data][bulk data]] as the project
-wants to remain Markdown-driven with no backend.
+of rate limit. See [[https://scryfall.com/docs/api/rate-limits]].
 
-As it stands, there is a =scrydrop= dependency which acts as a cache proxy for
-incoming Scryfall requests. It batches up to 75 queries at a time when it can
-but /loose/ card queries by name only are not batchable. This is due to the fact
-that the Wiki prefers oldest printings by default and that is not supported by
-the batch endpoint from Scryfall. That endpoint always returns the newest
-printing of a card.
+However their real-world enforcement is stricter than that: it's a cumulative
+rolling-window undocumented budget rather than a flat per-second rate, and a
+build resolving hundreds of unique card references reliably exhausts it
+regardless of how conservatively requests are paced, at which point every
+in-flight request fails for a full 60 second lockout.
 
-The development server runs =scrydrop= with =--greedy= in order to batch those
-queries anyway.
+As it stands, there is a =scrydrop= dependency which acts as a local proxy for
+Scryfall requests, and it now resolves those requests from a local copy of
+Scryfall's own [[https://scryfall.com/docs/api/bulk-data][bulk data]] export
+instead of the live API. Neither =pnpm dev= nor =pnpm build= makes any
+rate-limited request to Scryfall at all: =scrydrop pull= downloads the current
+bulk data export once, and =scrydrop server= resolves every query against an
+in-memory index built from that file. This also means the Wiki keeps preferring
+the oldest printing of a card by default without the precision tradeoff the old
+batching-based approach required.
 
-To give you an idea, using an Apple M2, the production build takes ~5 minutes
-with the oldest printings by default and ~20 seconds with the greedy option.
+See [[https://github.com/angrybacon/scrydrop][angrybacon/scrydrop]] for more
+details.
 
 *** Running It Locally
 
@@ -134,11 +136,6 @@ with the oldest printings by default and ~20 seconds with the greedy option.
 pnpm install  # Install dependencies
 pnpm dev      # Run the application on http://localhost:3000
 #+END_SRC
-
-If you need to restart the application often for testing purposes, consider
-running both the Next.js and the Scryfall cache servers separately with =pnpm
-dev:next= and =pnpm dev:scrydrop= respectively so that you can keep the latter
-and its cache alive longer.
 
 See [[./package.json][package.json]] for a complete list of the available
 commands.

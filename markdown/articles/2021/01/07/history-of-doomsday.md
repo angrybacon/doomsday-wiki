@@ -59,11 +59,11 @@ Legacy were printed, he actually already found a copy, and use for Doomsday in
 his ~~pile~~ deck which he used to deploy a very efficient combo:
 
 :::row{variant=PILE}
-Meditate|TMP
-Palinchron|ULG
-Mana Flare|LEB
-Turnabout|USG
-Stroke of Genius|USG
+Meditate | TMP
+Palinchron | ULG
+Mana Flare | LEB
+Turnabout | USG
+Stroke of Genius | USG
 :::
 
 For only {4}{U}{U}{U}{R} this would give you infinite mana to cast an
@@ -93,10 +93,10 @@ then cast a lethal :card[Braingeyser] or other {x} spell.
 
 :::row{variant=PILE}
 Island
-Black Lotus|LEB
+Black Lotus | LEB
 LED
-Regrowth|LEB
-Braingeyser|LEB
+Regrowth | LEB
+Braingeyser | LEB
 :::
 
 The pile required Timetwister and 2 other cards in hand along with {1}{G} for
@@ -130,11 +130,11 @@ use of :card[Tendrils of Agony], :card[Gush] combined with :card[Fastbond] and a
 cool kill involving :card[Mind's Desire] into :card[Beacon of Destruction].
 
 :::row{variant=PILE}
-Ancestral Recall|LEB
-Black Lotus|LEB
+Ancestral Recall | LEB
+Black Lotus | LEB
 DR
-Mind's Desire|SCG
-Beacon of Destruction|5DN
+Mind's Desire | SCG
+Beacon of Destruction | 5DN
 :::
 
 This pile was a pass-the-turn pile that cost {U}{B} to enact. It gave a _Storm_
@@ -160,7 +160,7 @@ ToA
 This already required 5 spells in hand to go off and was cumbersome but did add
 some additional business to the decks. Another cute tech people were trying was
 based on an old list called Dancing Ghoul. The aim of the deck was to cast
-:card[Corpse Dance] or :card[Shallow grave] on a :card[Sutured Ghoul] whilst
+:card[Corpse Dance] or :card[Shallow Grave] on a :card[Sutured Ghoul] whilst
 having put 2 of either :card[Phyrexian Dreadnought]s or :card[Krosan
 Cloudscraper] in the graveyard with :card[Buried Alive]. It was a spiritual
 predecessor to Tin Fins. Adding Doomsday gave the deck a {B} method of finding
@@ -169,11 +169,11 @@ if you had a piece already. The entire thing could be powered out by a mix of
 :card[Dark Ritual] and :card[Cabal Ritual].
 
 :::row{variant=PILE}
-Buried Alive|ODY
-Sutured Ghoul|JUD
+Buried Alive | ODY
+Sutured Ghoul | JUD
 Phyrexian Dreadnought
-Krosan Cloudscraper|LGN
-Shallow grave
+Krosan Cloudscraper | LGN
+Shallow Grave
 :::
 
 These lists were creative but generally not very effective at all and normally
@@ -183,7 +183,7 @@ making use of the, as then, new cards from Mirrodin block.
 
 :::row{variant=PILE}
 Pdt
-Brain Freeze|SCG
+Brain Freeze | SCG
 LED
 CB
 Second Sunrise
@@ -221,7 +221,7 @@ IU
 Helm of Awakening
 SdT
 SdT
-Brain Freeze|SCG
+Brain Freeze | SCG
 :::
 
 1 Top in play + {2}{U}{U}
@@ -231,7 +231,7 @@ IU
 Helm of Awakening
 LED
 SdT
-Brain Freeze|SCG
+Brain Freeze | SCG
 :::
 
 1 Helm in play + {U}{U}
@@ -241,7 +241,7 @@ IU
 SdT
 LED
 SdT
-Brain Freeze|SCG
+Brain Freeze | SCG
 :::
 
 This pile was resilient to graveyard interation however was still reliant on
@@ -300,7 +300,7 @@ shell to some success but the deck, although fast, did not achieve any top tier
 status.
 
 :::row{variant=PILE}
-Cruel Bargain|POR
+Cruel Bargain | POR
 LP
 DR
 DR
@@ -638,7 +638,7 @@ Land drop available + Cantrip + 1 card in hand + {1}{U}
 :::row{variant=PILE}
 Bs
 SI
-Cloud of Faeries|ULG
+Cloud of Faeries | ULG
 Em
 Island
 :::
@@ -653,7 +653,7 @@ Lejay had some additional fun coming up with some silly, if inefficient, tech
 involving multiple Ideas Unbounds and Emrakul to enable shuffle.
 
 :::row{variant=PILE}
-Relic of Progenitus|ALA
+Relic of Progenitus | ALA
 IU
 LED
 Em
@@ -1103,7 +1103,7 @@ Dur
 SdT
 Polluted Delta
 GP
-Island|RAV
+Island | RAV
 :::
 
 Take the same hand and replace one disruption element for another. You can play
@@ -1423,7 +1423,7 @@ Frenzy in play
 LED
 LED
 Jace, Wielder of Mysteries
-Flusterstorm|CMD
+Flusterstorm | CMD
 Flusterstorm
 :::
 

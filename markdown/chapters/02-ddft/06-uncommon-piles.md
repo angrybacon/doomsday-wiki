@@ -153,7 +153,7 @@ the inclusion Thassa's Oracle, is nevertheless useful to know, since its
 execution requires no unusual cards. A situation could be contrived where this
 type of pile was a reasonable option though you are unlikely to encounter such a
 situation in the wild; for example, your opponent has a :card[Leyline of
-sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
+Sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
 
 ### Example 1
 

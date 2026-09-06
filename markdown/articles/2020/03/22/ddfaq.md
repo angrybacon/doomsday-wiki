@@ -417,9 +417,9 @@ more crucial than a basic swamp as that tends to allow you to get into the game
 in the first place and the majority of your deck is {U} based cantrips anyways.
 
 :::row{variant=CENTERED}
-Island|RAV
-Underground Sea|LEB
-Swamp|RAV
+Island | RAV
+Underground Sea | LEB
+Swamp | RAV
 :::
 
 #### DDFT and DDEFT
@@ -484,9 +484,10 @@ initiation spell for drawing into a Doomsday pile.
 
 From the sideboard {W} offers a plan B in the form of :card[Monastery Mentor]
 that plays well with the cantrip dense lists that are run. Removal comes in the
-form of :card[Disenchant] or :card[Wear//Tear] for artifact or enchantment hate
-and :card[Swords to Plowshares] to deal with problematic creatures. You also
-gain some additional graveyard hate options in the form of :card[Rest in Peace].
+form of :card[Disenchant] or :card[Wear // Tear] for artifact or enchantment
+hate and :card[Swords to Plowshares] to deal with problematic creatures. You
+also gain some additional graveyard hate options in the form of :card[Rest in
+Peace].
 
 Teferi and Mentor are probably the biggest boons for playing {W}.
 
@@ -516,8 +517,8 @@ Crowns] as a potential option or :card[Uro, Titan of Nature's Wrath].
 Veil and Decay are the biggest boons for playing {G}.
 
 :::row{variant=CENTERED}
-Monastery Mentor|FRF
-Pyroblast|ICE
+Monastery Mentor | FRF
+Pyroblast | ICE
 Abrupt Decay
 :::
 
@@ -557,7 +558,7 @@ wording on the original Weatherlight printing of :card[Doomsday]. See the card
 below along with the original rules text printed:
 
 :::row{variant=CENTERED}
-Doomsday|WTH
+Doomsday | WTH
 :::
 
 > Pay half your life, rounded up:  
@@ -580,7 +581,7 @@ Before the next point let's take a look at the updated Oracle wording on the A25
 Doomsday:
 
 :::row{variant=CENTERED}
-Doomsday|A25
+Doomsday | A25
 :::
 
 > Search your library and graveyard for five cards and exile the rest.  

@@ -37,7 +37,7 @@ increase the number being played. Because of deck construction rules limitations
 in Legacy, this means running other cards to try and locate more copies of
 Doomsday.
 
-The two most common examples are :card[Personal Tutor] and :card[Lim-Dul's
+The two most common examples are :card[Personal Tutor] and :card[Lim-Dûl's
 Vault]. Both of these are card disadvantage but allow you to locate a copy of
 Doomsday and place it on top of your deck. Personal Tutor is more favoured for
 faster style lists costing only {U} and is good for setting up earlier combo

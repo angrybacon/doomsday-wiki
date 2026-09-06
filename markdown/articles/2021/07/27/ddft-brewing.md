@@ -120,7 +120,7 @@ it.
 
 :::row{variant=CENTERED}
 Plunge into Darkness
-Gamble|USG
+Gamble | USG
 SotV
 :::
 
@@ -137,7 +137,7 @@ or nearly so, and thus the _Mindkiller_ style of DDFT stayed in my mind.
 ## The Truly Bizarre
 
 :::row{variant=CENTERED}
-Goblin Charbelcher|MRD
+Goblin Charbelcher | MRD
 Recross the Paths
 Lim-Dûl's Vault
 :::

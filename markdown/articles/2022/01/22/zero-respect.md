@@ -181,7 +181,7 @@ general/expected roles and the justification for having them.
   protection. A very useful tool for multiple fair and unfair matchups.
 - 4 :card[FoN]: Acting as both combo protection from those faster than us and to
   complement the Chain by preventing things like :card[Blood Moon],
-  :card[Chalice of the void], :card[Trinisphere] etc. from landing onto the
+  :card[Chalice of the Void], :card[Trinisphere] etc. from landing onto the
   battlefield. A very versatile and mana efficient card. Sometimes can be
   over-boarded.
 

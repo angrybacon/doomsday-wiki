@@ -11,6 +11,7 @@
       "~/tools/*": ["./tools/*"]
     },
     "target": "esnext",
+    "tsBuildInfoFile": ".cache/tsconfig.tsbuildinfo",
     "types": ["@testing-library/jest-dom", "vitest/globals"]
   },
   "exclude": ["node_modules"],

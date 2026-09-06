@@ -231,7 +231,7 @@ Dd
 SW
 Pre
 FoW
-Underground Sea|LEB
+Underground Sea | LEB
 Tasigur, the Golden Fang
 DR
 :::

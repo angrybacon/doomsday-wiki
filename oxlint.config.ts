@@ -41,6 +41,10 @@ export default defineConfig({
         name: '@testing-library/react',
       },
     ],
+    'eslint/no-unused-vars': [
+      'error',
+      { argsIgnorePattern: '^_', ignoreRestSiblings: true },
+    ],
     'import/no-unassigned-import': ['error', { allow: ['**/*.{css,d.ts}'] }],
     'react/display-name': 'off',
     'react/react-in-jsx-scope': 'off',
