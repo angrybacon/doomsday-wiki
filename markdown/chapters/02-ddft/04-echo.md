@@ -7,7 +7,7 @@ title: Using Echo of Eons in Piles
 
 Echo of Eons is a comparatively recent addition to the DDFT arsenal, and is
 quite powerful and flexible. A deck like The Epic Storm uses it as an
-alternative Storm engine, and while we can use it that way too, it has some very
+alternative _Storm_ engine, and while we can use it that way too, it has some very
 interesting applications in Doomsday piles. If you're an :card[Old Fogey] when
 it comes to Doomsday, you may see some similarities between the piles presented
 here and the :card[Time Spiral] piles of yore.
@@ -49,7 +49,7 @@ BW
 
 This pile is rather elegant if you ask me. It's mana efficient, and also flashy,
 which is appealing. You need 2 rather specific cards in hand but the upfront
-mana cost is merely the price of Doomsday, and it generates all 10 storm on its
+mana cost is merely the price of Doomsday, and it generates all 10 _Storm_ on its
 own. The most glaring downside of this pile, something it shares with all Echo
 piles, is that your opponent also draws a fresh hand, meaning they can draw all
 manner of nasty interaction. We won't worry about this for now. Some decks won't
@@ -91,7 +91,7 @@ BW
 :::
 
 To start this pile, you cast Brainstorm and trade the 2 useless cards for Echo
-and 2 LEDs. PLay out both LEDs, crack them for UUURRR, and flashback Echo,
+and 2 LEDs. Play out both LEDs, crack them for UUURRR, and flashback Echo,
 leaving UUR floating. Now you will draw 7 of the remaining 8 cards. Here's where
 it gets a little complicated. You need both LEDs and the Burning Wish in hand to
 win the game. If you have them, great. Play out the LEDs, wish for Tendrils, and
@@ -117,8 +117,8 @@ TO
 
 This pile will start out identically to our other, casting Echo to draw a
 fresh 7. Unfortunately, there are 9 cards left due to those pesky useless cards
-that had been in your hand. If you have the Oracle and the means to cast it,
-great, There are 2 cards left, so if the Oracle survives, you win. But there are
+that had been in your hand. If you have the oracle and the means to cast it,
+great, There are 2 cards left, so if the oracle survives, you win. But there are
 2 "fail cases", outcomes where you simply can't win:
 
 1. The 2 remaining cards are Ponder and Thassa's Oracle
@@ -149,7 +149,7 @@ able to cast the discard spell for protection before casting Oracle.
 
 ## Extra Fancy
 
-It is possible to use multiple Echoes to build very high storm counts, enabling
+It is possible to use multiple Echoes to build very high _Storm_ counts, enabling
 you to kill with :card[Grapeshot]
 
 > LED, Echo, LP in hand - {B}{B}{B} + {R} - 10 + 12 Storm
@@ -175,11 +175,11 @@ You need to get lucky here when you draw for your first Echo since you need to
 at least draw Burning Wish, LED, and Echo. Any additional mana you have
 available will make your life easier. Of note, if you don't draw Burning Wish on
 the first Echo you won't be able to kill with Grapeshot, but you can still Echo
-again and have plenty of storm for a lethal Tendrils the next time around.
+again and have plenty of _Storm_ for a lethal Tendrils the next time around.
 
 ## Conclusion
 
-1. Echo enables some extremely mana-efficient piles that generate high storm
+1. Echo enables some extremely mana-efficient piles that generate high _Storm_
    counts.
 1. Some Echo piles are nondeterministic out of necessity, but don't let this
    scare you off. They typically still have a high probability of working.

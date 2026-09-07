@@ -21,7 +21,7 @@ export const Code: Components['code'] = ({
         component="code"
         sx={{
           bgcolor: 'action.hover',
-          borderRadius: 1,
+          borderRadius: 2,
           color: 'secondary.dark',
           fontDisplay: 'swap',
           fontFamily: 'monospace',
@@ -40,6 +40,7 @@ export const Code: Components['code'] = ({
   return (
     <Box sx={{ borderRadius: 4, overflow: 'hidden' }}>
       <Box
+        PreTag="div"
         component={Prism}
         customStyle={{
           borderRadius: undefined,

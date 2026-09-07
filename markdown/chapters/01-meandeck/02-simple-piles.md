@@ -21,7 +21,7 @@ Wiki.
 There are three steps that need to occur to enable you to win (most of the time)
 
 1. Resolve Doomsday
-1. Draw into your pile enough so that the Oracle's trigger can win you the game
+1. Draw into your pile enough so that the oracle's trigger can win you the game
 1. Resolve Thassa's Oracle
 
 :::row{variant=CENTERED}
@@ -59,7 +59,7 @@ to work out how you are going to get through enough cards that the trigger from
 two cards left in your library on its resolution, other times it means needing
 to have no cards left in your library on resolution. The former is known as an
 _imperfect pile_ and the latter a _perfect pile_. An _imperfect pile_ is named
-as such because if your opponent is able to remove the Oracle from play prior to
+as such because if your opponent is able to remove the oracle from play prior to
 resolution of its trigger (thus reducing your devotion to {U}) then you will not
 win the game.
 
@@ -112,9 +112,9 @@ TO
 
 This is the same pile we saw above but we can incorporate a :card[Cavern of
 Souls] into it which means, if they don't counter the :card[Lotus Petal] then
-you can cast an uncounterable Oracle this turn. If they do counter the Petal,
+you can cast an uncounterable oracle this turn. If they do counter the Petal,
 you can play Cavern (Naming Merfolk or Wizard) and pass the turn, discarding the
-:card[Street Wraith], to then naturally draw and cast the uncounterable Oracle
+:card[Street Wraith], to then naturally draw and cast the uncounterable oracle
 on your next turn without risking discarding it to the delayed trigger of Ideas
 Unbound. The steps otherwise are the same:
 
@@ -143,7 +143,7 @@ SW
 TO
 :::
 
-This pile is also a very simple way to achive a _perfect pile_ however, because
+This pile is also a very simple way to achieve a _perfect pile_ however, because
 we are unable to draw enough cards to get enough mana and Oracle in hand using
 Lotus Petal, we need to get a bit more creative.
 
@@ -300,7 +300,7 @@ LED first and just treat it like any other draw 2 pile.
 
 ## Generic Cantrip Piles
 
-There are some circumstances where maybe you have decided the mutliple draw
+There are some circumstances where maybe you have decided the multiple draw
 spells are not good enough to include in your decklist or maybe you have pitched
 your preferred one to a :card[FoW]. There are still plenty of options you can
 explore in making piles without them.

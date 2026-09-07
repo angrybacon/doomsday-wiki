@@ -23,18 +23,42 @@ export const blur = (
         backgroundImage: 'none',
       };
 
+const EMBOSS_VALUES = {
+  diffuse: '8px',
+  sharp: '4px',
+} as const satisfies Record<string, `${number}px`>;
+
+/** Increase contrast with text shadow with the provided LEVEL */
+export const emboss = (level: keyof typeof EMBOSS_VALUES): CSSObject => ({
+  '[data-dark] &, [data-dark]:not(html) &': {
+    textShadow: `0 0 ${EMBOSS_VALUES[level]} black`,
+  },
+  '[data-light] &, [data-light]:not(html) &': {
+    textShadow: `0 0 ${EMBOSS_VALUES[level]} white`,
+  },
+});
+
+/** Apply the right frame styles depending on the provided card SET */
+export const frame = (set?: string): CSSObject => ({
+  borderRadius: set === 'lea' ? '7.7% / 5.5%' : '5.2% / 3.7%',
+});
+
 const RECESS_VALUES = {
   DARK: {
-    X: 'inset 8px 0 8px -4px rgba(0,0,0,.2),inset -8px 0 8px -4px rgba(0,0,0,.2)',
-    Y: 'inset 0 8px 8px -4px rgba(0,0,0,.2),inset 0 -8px 8px -4px rgba(0,0,0,.2)',
+    X: 'inset 8px 0 8px -4px rgb(0,0,0,.2),inset -8px 0 8px -4px rgb(0,0,0,.2)',
+    Y: 'inset 0 8px 8px -4px rgb(0,0,0,.2),inset 0 -8px 8px -4px rgb(0,0,0,.2)',
   },
   LIGHT: {
-    X: 'inset 8px 0 8px -8px rgba(0,0,0,.2),inset -8px 0 8px -8px rgba(0,0,0,.2)',
-    Y: 'inset 0 8px 8px -8px rgba(0,0,0,.2),inset 0 -8px 8px -8px rgba(0,0,0,.2)',
+    X: 'inset 8px 0 8px -8px rgb(0,0,0,.2),inset -8px 0 8px -8px rgb(0,0,0,.2)',
+    Y: 'inset 0 8px 8px -8px rgb(0,0,0,.2),inset 0 -8px 8px -8px rgb(0,0,0,.2)',
   },
 } as const satisfies Record<string, Record<string, CSSObject['boxShadow']>>;
 
 export const recess = (direction: 'X' | 'Y'): CSSObject => ({
-  '[data-dark] &': { boxShadow: RECESS_VALUES.DARK[direction] },
-  '[data-light] &': { boxShadow: RECESS_VALUES.LIGHT[direction] },
+  '[data-dark] &, [data-dark]:not(html) &': {
+    boxShadow: RECESS_VALUES.DARK[direction],
+  },
+  '[data-light] &, [data-light]:not(html) &': {
+    boxShadow: RECESS_VALUES.LIGHT[direction],
+  },
 });

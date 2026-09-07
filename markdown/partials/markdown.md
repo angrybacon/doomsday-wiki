@@ -1,30 +1,45 @@
 # Markdown Guidelines
 
-Rather than having to maintain additional guidelines in different locations,
-refer to the following sections in order to see how Markdown is rendered through
-the Wiki. It relies directly on components implemented within the Wiki so that
-the preview is as faithful as can be.
+:::warning{title="This page is not indexed"}
+You're seeing a page that is not officially part of the Wiki. It is left
+publicly available for simplicity and for ease of sharing. It is not being
+indexed by default, it is simply a reference for contributors.
+:::
 
+Rather than having to maintain additional guidelines in different locations,
+this page will attempt at documenting a timeless repository of contribution
+guidelines for the Wiki. Refer to the following sections in order to see how
+Markdown is rendered through the pages. This page implements the same components
+and invokes the same code so what you see here is exactly how it renders within
+the rest of the Wiki. In doubt, see the usage and follow existing conventions.
+
+:::note{title="Additional conventions and guidelines"}
 All Markdown files are checked against both `markdownlint` and `prettier` at
 build time enforcing some basic rules, but here are a few more conventions for
 Markdown contributions:
 
 - Fill your paragraphs to 80 columns
-- If your title oppose to the above rule, think of a better heading for your
+- If your title opposes to the above rule, think of a better heading for your
   document. In addition to annoy users with terminal-based clients, it also
-  might not look that good either on the Wiki itself
-- Heading levels start at 2 in order to account for the page title
+  might not look that good either on the Wiki
 - A colon right in front of a word will be interpreted as a Markdown directive
   so make sure you have a space right after `:` when it is used as punctuation
 - Depending on one's Markdown client, a dot at the end of a link can be
-  considered part of said link eg. when you end your sentences with a link.
+  considered part of said link (e.g. when you end your sentences with a link).
   Avoid bare links inside of prose, wrap them with angled brackets `<` and `>`
+- Heading levels start at 2 in order to account for the page title
+
+:::
+
+The below components wrapped with colons are referred to as as
+[directives][directives] in Markdown parlance. In the case of container
+directives, they can be wrapped together by adding an additional colon character
+for each extra level.
 
 ## Accordions
 
-For decklist accordions, see [#decklists](#decklists).
-
-### Simple
+Consecutive accordions stack against one another. For decklist accordions, see
+[#decklists](#decklists).
 
 ```md
 :::accordion[Click to expand]
@@ -35,105 +50,55 @@ libero elit rutrum orci, et congue `sapien` turpis quis purus.
 Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 :spoiler[efficitur] pharetra quam.
 :::
-```
 
-:::accordion[Click to expand]
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci, et congue `sapien` turpis quis purus.
-
-Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur] pharetra quam.
-:::
-
-### Multiple
-
-Consecutive accordions stack against one another.
-
-```md
-:::accordion[Click to expand]
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci.
-:::
-
-:::accordion[Click to expand]
-Et congue `sapien` turpis quis purus.
-:::
-
-:::accordion[Click to expand]
-Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur] pharetra quam.
-:::
-```
-
-:::accordion[Click to expand]
-Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
-tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
-libero elit rutrum orci.
-:::
-
-:::accordion[Click to expand]
-Et congue `sapien` turpis quis purus.
-:::
-
-:::accordion[Click to expand]
-Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
-:spoiler[efficitur] pharetra quam.
-:::
-
-### Nested Directives
-
-````md
 ::::accordion[Click to expand]
-
-```ts
-import { MANA_RE } from '~/tools/mana/constants';
-
-/** Find mana symbols in `text` and replace them with the directive syntax */
-export const toDirective = (text: string): string => {
-  const result = text.replace(MANA_RE, ':mana[$1]');
-  return result;
-};
-```
-
 :::row
 Doomsday | WTH
+Doomsday | 6ED
 Doomsday | PRM | 61058
 Doomsday | MP2
 Doomsday | A25
+:::
+:::row
 Doomsday | PLST
 Doomsday | SLD | 1115
+Doomsday | MB2
+Doomsday | MSC
+Doomsday | SLZ | 281
 :::
 ::::
-````
-
-::::accordion[Click to expand]
-
-```ts
-import { MANA_RE } from '~/tools/mana/constants';
-
-/** Find mana symbols in `text` and replace them with the directive syntax */
-export const toDirective = (text: string): string => {
-  const result = text.replace(MANA_RE, ':mana[$1]');
-  return result;
-};
 ```
 
+:::accordion[Click to expand]
+Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
+tincidunter diam, sed tempor neque. Cras pulvinar, nisi at fermentum congue,
+libero elit rutrum orci, et congue `sapien` turpis quis purus.
+
+Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
+:spoiler[efficitur] pharetra quam.
+:::
+
+::::accordion[Click to expand]
 :::row
 Doomsday | WTH
+Doomsday | 6ED
 Doomsday | PRM | 61058
 Doomsday | MP2
 Doomsday | A25
+:::
+:::row
 Doomsday | PLST
 Doomsday | SLD | 1115
+Doomsday | MB2
+Doomsday | MSC
+Doomsday | SLZ | 281
 :::
 ::::
 
 ## Code
 
 ````text
-```ts
+```ts filename="toDirective.ts"
 import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and replace them with the directive syntax */
@@ -144,7 +109,7 @@ export const toDirective = (text: string): string => {
 ```
 ````
 
-```ts
+```ts filename="toDirective.ts"
 import { MANA_RE } from '~/tools/mana/constants';
 
 /** Find mana symbols in `text` and replace them with the directive syntax */
@@ -164,26 +129,22 @@ as an example. As an exception, decklist files found directly under `decklists/`
 are used in non-dated content like chapters to ease maintenance.
 
 ```md
-::decklist{path=meandeck.budget}
+::decklist{url=meandeck.budget}
 ```
 
-::decklist{path=meandeck.budget}
+::decklist{url=meandeck.budget}
 
 ```md
-::decklist{path=2023/07/turbo.fuz65}
-::decklist{path=ddeft}
-::decklist{path=ddft}
-::decklist{path=meandeck.ub}
+::decklist{url=2023/07/turbo.fuz65}
+::decklist{url=ddeft}
+::decklist{url=ddft}
+::decklist{url=meandeck.ub}
 ```
 
-::decklist{path=2023/07/turbo.fuz65}
-::decklist{path=ddeft}
-::decklist{path=ddft}
-::decklist{path=meandeck.ub}
-
-## Footnotes
-
-Coming soon &trade;
+::decklist{url=2023/07/turbo.fuz65}
+::decklist{url=ddeft}
+::decklist{url=ddft}
+::decklist{url=meandeck.ub}
 
 ## Frontmatter
 
@@ -191,13 +152,13 @@ The header of a Markdown document can be referred to as the _frontmatter_. It is
 used to hold a body of YAML metadata for the current document without polluting
 its actual content.
 
-| Field     | Articles       | Chapters       | Notes                                                                                                       |
-| --------- | -------------- | -------------- | ----------------------------------------------------------------------------------------------------------- |
-| `authors` | Yes            | Yes            | Comma-separated list of authors that should be credited                                                     |
-| `banner`  | Yes (required) | Yes (required) | Configure a banner for the page. Scryfall syntax is supported                                               |
-| `kind`    | Yes (required) |                | Available values at [schemas.ts][schemas.ts]                                                                |
-| `tags`    | Yes            |                | Available values at [schemas.ts][schemas.ts]. Used to pick which abbreviations are available in the sidebar |
-| `title`   | Yes (required) | Yes (required) | Wrap with double quotes if using special characters such as `:` and `'`                                     |
+| Field     | Type     | Notes                                                                                                  |
+| --------- | -------- | ------------------------------------------------------------------------------------------------------ |
+| `authors` | String   | Comma-separated list of authors that should be credited                                                |
+| `banner`  | String   | Configure a banner for the page. Support [Scryfall syntax][scryfall]                                   |
+| `kind`    | String   | Available values at [schemas.ts][schemas.ts]                                                           |
+| `tags`    | Sequence | Available values at [schemas.ts][schemas.ts]. Currently used to configure abbreviations in the sidebar |
+| `title`   | String   | Wrap with double quotes if using special characters such as `:` and `'`                                |
 
 ## Images
 
@@ -207,7 +168,16 @@ constrained in a hardcoded aspect ratio in order to prevent [CLS issues][cls]
 for all users. See the [code][image.tsx] for reference.
 
 Both the accessible text (between square brackets) and the title (between single
-quotes) are mandatory for a proper accessibility of your images within the page.
+quotes) are mandatory for proper accessibility of your images within the page.
+
+:::note{title="Difference between accessible text and image title"}
+The difference is subtle but important. Basically, the former should describe
+the image for anyone not able to access the image, while the latter will give
+additional context for anyone able to access the image.
+
+Basically, the accessible text answers the "what is it?" and the image title
+acts as legend for users who do see it.
+:::
 
 ```md
 ![A large wide placeholder](https://www.placehold.co/1600x800 'Wide resolution')
@@ -291,7 +261,7 @@ When used collectively, for instance to indicate the color identity of an
 archetype, use the same order as found on the back of a _Magic: the Gathering_
 card. This makes searching for guilds and clans much easier later on. As an
 exception to this rule and when referring to Doomsday colors, start with blue
-and black as it makes it easier for the eyes to parse quickly the differences
+then black as it makes it easier for the eyes to parse quickly the differences
 from one wedge to the next.
 
 Currently only the mana costs are available but loyalty and other color
@@ -333,29 +303,37 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 > Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 > :spoiler[efficitur pharetra] quam.
 
-## Rows
+## Scryfall
 
-### Centered
+In some contexts, you can refer to cards by name within Markdown. To ease the
+writing process and reduce the chances of mistyping, a number of shorthands for
+common card names can be found maintained next to [the code][constants.ts].
+
+### Inline Card Links
+
+The inline `:card` directive expects exact card names and look for the first
+printing of it.
 
 ```md
-:::row
-Doomsday | WTH
-Doomsday | PRM | 61058
-Doomsday | MP2
-Doomsday | A25
-Doomsday | PLST
-Doomsday | SLD | 1115
-:::
+I hear :card[TO] and :card[Doomsday] go well together. But how about
+:card[Tamiyo, Inquisitive Student] and :card[Bs]?
 ```
 
-:::row
-Doomsday | WTH
-Doomsday | PRM | 61058
-Doomsday | MP2
-Doomsday | A25
-Doomsday | PLST
-Doomsday | SLD | 1115
+I hear :card[TO] and :card[Doomsday] go well together. But how about
+:card[Tamiyo, Inquisitive Student] and :card[Bs]?
+
+:::note{title="Hover preview"}
+Inline card links have a preview on hover and double-faced cards are supported
+with an inline CTA to flip the card manually.
+
+For touch devices, the usual long-press should work just fine. YMMV
 :::
+
+### Rows of Cards
+
+Row of cards are centered automatically and each card is secured under 25% of
+the available width with a maximum hardcoded width. The card images do not wrap
+automatically.
 
 ```md
 :::row
@@ -365,6 +343,19 @@ Swamp | UNH
 Mountain | UNH
 Forest | UNH
 :::
+
+:::row
+Flooded Strand
+Misty Rainforest
+Polluted Delta
+Scalding Tarn
+:::
+
+:::row
+Bs
+Pnd
+Pre
+:::
 ```
 
 :::row
@@ -375,15 +366,6 @@ Mountain | UNH
 Forest | UNH
 :::
 
-```md
-:::row
-Flooded Strand
-Misty Rainforest
-Polluted Delta
-Scalding Tarn
-:::
-```
-
 :::row
 Flooded Strand
 Misty Rainforest
@@ -391,179 +373,122 @@ Polluted Delta
 Scalding Tarn
 :::
 
-```md
-:::row
-TW
-IU
-AoI
-:::
-```
-
-:::row
-TW
-IU
-AoI
-:::
-
-```md
-:::row
-IC
-Cruel Bargain
-:::
-```
-
-:::row
-IC
-Cruel Bargain
-:::
-
-```md
 :::row
 Bs
-:::
-```
-
-:::row
-Bs
+Pnd
+Pre
 :::
 
-### Pile
+### Doomsday Piles
 
 Use the `PILE` variant in order to highlight a Doomsday pile.
 
 ```md
 :::row{variant=PILE}
-IU
-LP
-LP
-TO
+SW
+SW
+SW
+SW
 TO
 :::
 ```
 
 :::row{variant=PILE}
-IU
-LP
-LP
-TO
+SW
+SW
+SW
+SW
 TO
 :::
 
-Incomplete piles are always left-aligned.
+Partial piles are always left-aligned.
 
 ```md
 :::row{variant=PILE}
-LP
-LP
-TO
+SW
+SW
+SW
 TO
 :::
 ```
 
 :::row{variant=PILE}
-LP
-LP
-TO
+SW
+SW
+SW
 TO
 :::
 
-## Scryfall
+### Specifying Prints
 
-In some contexts, you can refer to card names within Markdown. To ease the
-writing process and reduce the chances of mistyping, a number of shorthands for
-card names can be found maintained next to [the code][constants.ts].
+:::warning{title="First print policy"}
+By default first print is preferred and we trust the excellent Scryfall for
+that. But be warned however that some promotional prints may have an earlier
+timestamp than the _regular_ printing of a card (e.g. Endurance).
+:::
 
-> For supported acronyms, the case matters!
+In some specific cases, you will want to specify a set or a collector number,
+this can be achieved with a suffix. This is especially useful for sets with
+multiple printings of the same card.
 
-### Inline Card Links
-
-```md
-I hear :card[TO] and :card[Doomsday] go well together.
-```
-
-I hear :card[TO] and :card[Doomsday] go well together.
-
-### Imagery
-
-You can also render card images. The aforementioned acronyms are supported
-unless you specify more options in which case the full name is expected.
-
-You can optionally provide a specific set using its 3-letters set code. By
-default, first print is preferred. To identify the right code for your set,
-inspect the links at <https://scryfall.com/sets>.
-
-> Be warned however that some promotional prints may have an earlier timestamp
-> than the _regular_ printing of a card.
-
-#### Specifying Prints
-
-In some specific cases, you will want to specify a collector number, this can be
-achieved with a suffix. This is especially useful for sets with multiple
-printings of the same card.
+:::note{title="Identifying sets and collector numbers"}
+To identify the right 3-letters code, or the specific collector number for your
+printing preference, inspect the links at <https://scryfall.com/sets>.
+:::
 
 ```md
 :::row
-Dd
+Force of Will | 2XM | 340
 Doomsday | SLD
-Subtlety
-Subtlety | MH2
+Subtlety | MH2 | 309
 Duress | STA | 92
 :::
 ```
 
 :::row
-Dd
+Force of Will | 2XM | 340
 Doomsday | SLD
-Subtlety
-Subtlety | MH2
+Subtlety | MH2 | 309
 Duress | STA | 92
 :::
 
-#### Double-Faced Cards
+### Double-Faced Cards
 
 ```md
 :::row
 Tamiyo, Inquisitive Student
-Delver of Secrets
-Extus, Oriq Overlord
-Dennick, Pious Apprentice
-Invasion of Ikoria
-:::
-```
-
-:::row
-Tamiyo, Inquisitive Student
-Delver of Secrets
-Silundi Vision
 Malevolent Hermit
 Invasion of Ikoria
-:::
-
-#### Split Cards
-
-Split cards are also supported. You don't need to provide both names in order to
-match the card, except for _Who // What // When // Where // Why_, for some
-reason.
-
-> Split cards currently render a button to flip them like DFC. This should be
-> fixed sometimes soon &trade;
-
-```md
-:::row
-Fire
-Wear
-Walk-In Closet
-Consign
-Who // What // When // Where // Why
+Ugin, Eye of the Storms | TDM | 382
 :::
 ```
 
 :::row
-Fire
-Wear
-Walk-In Closet
+Tamiyo, Inquisitive Student
+Malevolent Hermit
+Invasion of Ikoria
+Ugin, Eye of the Storms | TDM | 382
+:::
+
+### Split Cards
+
+Split cards are also supported. Use either the full name, or the front face's
+name.
+
+```md
+:::row
+Fire // Ice
 Consign
-Who // What // When // Where // Why
+Emeritus of Woe
+Who
+:::
+```
+
+:::row
+Fire // Ice
+Consign
+Emeritus of Woe
+Who
 :::
 
 ## SoundCloud
@@ -575,8 +500,6 @@ Who // What // When // Where // Why
 ::soundcloud{url=ddftwiki/a-history-of-doomsday}
 
 ## Spoilers
-
-### Block
 
 Inline verbatim content and links remain visible within spoiler blocks.
 
@@ -600,7 +523,7 @@ Suspendisse :card[Underground Sea] ex ligula, elementum elementum arcu eu,
 efficitur pharetra quam.
 :::
 
-### Inline
+Inline spoilers are also supported.
 
 ```md
 Lorem ipsum _dolor_ sit amet, consectetur **adipiscing** elit. Ut sed
@@ -620,7 +543,7 @@ The following items are not supported within tables:
 - Headless tables
 - Multiline text within rows
 
-### Default Alignement
+### Default Alignment
 
 <!-- markdownlint-disable line-length -->
 
@@ -642,7 +565,7 @@ The following items are not supported within tables:
 | Morbi :card[DA] non velit        | Tempor a massa   | Orci varius natoque       |
 | Sed pulvinar :spoiler[sapien] in | Cras nec nisl    | Nascetur ridiculus mus    |
 
-### Custom Alignement
+### Custom Alignment
 
 <!-- markdownlint-disable line-length -->
 <!-- prettier-ignore-start -->
@@ -680,5 +603,7 @@ Deprecated
 
 [cls]: https://web.dev/articles/cls
 [constants.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/rosetta/constants.ts
+[directives]: https://talk.commonmark.org/t/generic-directives-plugins-syntax/444
 [image.tsx]: https://github.com/angrybacon/doomsday-wiki/blob/master/components/Markdown/renderers/Image.tsx
 [schemas.ts]: https://github.com/angrybacon/doomsday-wiki/blob/master/tools/markdown/schemas.ts
+[scryfall]: #scryfall

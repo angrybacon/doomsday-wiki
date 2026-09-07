@@ -3,15 +3,14 @@ banner: Information Booth | UNF | 218d
 title: Frequently Asked Questions
 ---
 
-<!-- markdownlint-configure-file {"line-length": {headings: false}} -->
+<!-- markdownlint-configure-file { "line-length": { headings: false } } -->
 
 ## Preamble
 
 Compiled here is a list of frequently asked questions observed from the Discord
 or other sources (Twitter, Reddit, video comment threads etc). If you believe a
-key question is missing then please feel free to suggest it. A lot of the
-questions were also answered in this article:
-[DDFAQs](/articles/2020/03/22/ddfaq).
+key question is missing then feel free to suggest it. A lot of the questions
+were also answered in this article: [DDFAQs](/articles/2020/03/22/ddfaq).
 
 ## What are the different Doomsday decks and what is the difference between them?
 
@@ -36,16 +35,16 @@ EF
 **Doomsday** is the primary deck variant that is having previously unprecedented
 success since the printing of :card[TO]. Legacy Doomsday often uses reactive and
 proactive permission to play a controlling game before ending the game.
-Initially called _Meandeck_ Doomsday, the moniker _Meandeck_ is explained in
+Initially called _Meandeck_ Doomsday, the _Meandeck_ moniker is explained in
 [this article](/articles/2020/03/12/pretty-mean-deck).
 
 **DDFT** (Doomsday Fetchland Tendrils) is the closest to historical lists.
 Although it adopts the current usage of Thassa's Oracle these decks tend to also
-have access to secondary Storm plans using cards like :card[BW], :card[EoE] and
+have access to secondary _Storm_ plans using cards like :card[BW], :card[EoE] and
 :card[ToA]. They also prefer proactive protection like discard over being able
 to run reactive countermagic.
 
-**Entombsday** is a Tin Fins variant with a main deck plan focusing on
+**Entombsday** is a Tin Fins variant with a maindeck plan focusing on
 reanimating :card[Griselbrand] using either :card[Shallow Grave] or
 :card[Goryo's Vengeance] to then have it attack alongside :card[Em] or looping
 the deck to generate infinite mana and hard cast Emrakul or cast Collective
@@ -60,14 +59,14 @@ engine and win condition in tandem with Doomsday.
 ## What is the _best_ Doomsday archetype? Of that archetype what are the _best_ colours to run?
 
 Doomsday has the most proven results of the archetypes listed above with
-performances that outnumbers TCDeck numbers of the previous 10 years preceeding
+performances that outnumbers TCDeck numbers of the previous 10 years preceding
 it for all archetypes (excluding 5-0 publications).
 
 Within Doomsday there is no definitive _best_ colour configuration to run.
 Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G} and
 even {U}{B}{R}{G} across the years with most decks having an almost entirely
-{U}{B} main deck configuration. The tools that are effective and provided by
-each colour depend on the meta at the time and the pilot's preferences in deck
+{U}{B} maindeck configuration. The tools that are effective and provided by each
+colour depend on the meta at the time and the pilot's preferences in deck
 building.
 
 ## What list should I start on? What is the _best_ list to play?
@@ -82,7 +81,7 @@ considered _best_ at the time.
 ## Is there a list of common Doomsday piles? What is the most common pile I should learn?
 
 Historically there was a spreadsheet that had an ever-growing list of
-pre-prescribed piles based on certain criterias but this was for the old DDFT
+pre-prescribed piles based on certain criteria but this was for the old DDFT
 decks from before the banning of :card[Sensei's Divining Top]. A current one is
 not maintained for a couple of reasons: the biggest being that trying to rote
 learn piles is actually not effective training. It is better to learn the
@@ -110,10 +109,10 @@ situational ones as you gain experience.
 ## What is the best matchup for the deck?
 
 Post used to be the auto-win matchup where their only hope was either a timely
-:card[Boseiju, who Endures] or Choke and it had to resolve. With Modern Horizons
+:card[Boseiju, Who Endures] or Choke and it had to resolve. With Modern Horizons
 3 (the Commander set to be exact), the deck has gained in popularity and the
 matchup has changed drastically. Maindeck :card[Disruptor Flute]s, usually
-naming the Oracle or Doomsday itself can slow down the game giving them more
+naming the oracle or Doomsday itself can slow down the game giving them more
 time to present a lethal board state, or screw your pre-established pile
 entirely.
 
@@ -149,11 +148,11 @@ through :card[Lightning Bolt] however Grixis Delver is likely the worst to face
 as the addition of :card[Thoughtseize] as another angle of disruption makes them
 very hard to face.
 
-Stiflenough has recently resurfaced with the printings of :card[Dress Down] and
-then :card[Doorkeeper Thrull]. Like Delver variants, the tempo element combined
-with a fast clock makes it a difficult matchup to navigate, except they also
-sport a full playset of :card[Stifle] in addition to maindeck copies of
-:card[Dress Down].
+Stiflenough has recently resurfaced with the printings of :card[Dress Down],
+:card[Doorkeeper Thrull], and then :card[Consign to Memory]. Like Delver
+variants, the tempo element combined with a fast clock makes it a difficult
+matchup to navigate, except they also sport a full playset of :card[Stifle] in
+addition to maindeck copies of :card[Dress Down] and :card[Consign to Memory].
 
 ## What is a good meta to play Doomsday in?
 
@@ -167,14 +166,14 @@ are good fields for Doomsday.
 
 It might be! A lot of people have been working on the deck for a long time and
 have very likely tried the card out if considered potentially playable. Feel
-free to ask on the Discord but please don't get too defensive if informed that
-the card was tried and didn't hit the mark. If you are new to the deck I would
-advise getting a few reps under your belt playing it first before delving into
-the spicier areas of the card pool. This doesn't mean you shouldn't consider new
+free to ask on the Discord but don't get too defensive if informed that the card
+was tried and didn't hit the mark. If you are new to the deck I would advise
+getting a few reps under your belt playing it first before delving into the
+spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
 For a list of _off-meta_ cards which have been tried before and discussion on
-them please check out the [playables appendix](/appendices/playables/).
+them check out the [playables appendix](/appendices/playables/).
 
 :::row{variant=CENTERED}
 Drown in the Loch
@@ -287,7 +286,7 @@ Doomsday rewards an exact knowledge of your 75 as well as format knowledge
 highly so increasing exposure to both is very important. Finally, if you get
 stuck, feel free to ask for help! The sense of community is very strong and you
 should be able to find someone to answer any queries across most time zones so
-please feel free to come and say hello in the [Doomsday Discord][discord].
+feel free to come and say hello in the [Doomsday Discord][discord].
 
 ## In what order should I make purchases to build Doomsday?
 
@@ -317,7 +316,7 @@ discard effects or Veil of Summer. The only card I would really advocate not
 skimping on is :card[Cavern of Souls]. This card single-handedly can enable a
 lot of wins in {U} matchups and thus is too good a tool to lose.
 
-::decklist{path=meandeck.budget}
+::decklist{url=meandeck.budget}
 
 Access to :card[Force of Will]:  
 -2 Flusterstorm -2 Thoughtseize  
@@ -333,7 +332,7 @@ At 2 :card[Underground Sea], :card[Daze] is unlocked as a reliable option.
 
 The second Oracle (main or side) can have a number of uses. It helps increase
 resilience against effects like :card[Extract] when they are aggressively used,
-help give a _second attempt_ vs. cards like :card[Stifle] on the Oracle's
+help give a _second attempt_ vs. cards like :card[Stifle] on the oracle's
 trigger. They can enable additional devotion count, allow blocking in a pinch
 with some filtering, provide extra tricks vs. mill effects like :card[Ipnu
 Rivulet] and act as a pseudo +2 to your {U} card count for Force of Will
@@ -358,7 +357,7 @@ through two cards in a pile. It also provides a way to create _perfect_
 When people elect to run :card[SI] and :card[Em] they are generally thinking
 about fair {U} matchups that do not run :card[Wasteland]. It should not be
 brought in versus any Delver variant nor when Wasteland and :card[Teferi, Time
-Raveler] are prominant in control variants as both of these can affect it.
+Raveler] are prominent in control variants as both of these can affect it.
 
 In early June 2022, the _Hideway_ mechanic was revamped and while the Isle still
 enters tapped, the 3 other cards put back under your deck can no longer be

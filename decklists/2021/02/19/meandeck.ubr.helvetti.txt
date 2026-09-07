@@ -30,7 +30,7 @@
 1 Volcanic Island
 
 // Sideboard
-2 Abdrade
+2 Abrade
 1 Fatal Push
 1 Red Elemental Blast
 2 Spell Pierce

@@ -32,7 +32,7 @@ deck to allow wins post-combat, which will be discussed below.
 ### The Combo Turn
 
 Your combo turn is the turn in which you reanimate Griselbrand and attempt to
-win. The combo turn generally proceds as follows:
+win. The combo turn generally proceeds as follows:
 
 1. Cast Entomb to bin Griselbrand
 1. Cast Shallow Grave or Goryo's Vengeance to reanimate Griselbrand
@@ -85,8 +85,8 @@ step.
 
 :card[Lion's Eye Diamond] is a tricky card to use properly due to the rules
 weirdness surrounding it. It is primarily included in the deck for its use in
-Doosday piles, but there are a few important interactions to be aware of for the
-Tin Fins half of the deck.
+Doomsday piles, but there are a few important interactions to be aware of for
+the Tin Fins half of the deck.
 
 LED can be used to _bin_ a Griselbrand in response to a :card[Shallow Grave].
 This unfortunately does not work with Emrakul, as her shuffle trigger will be

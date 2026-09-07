@@ -27,9 +27,9 @@ This chapter will look at examples where you might wish to pass the turn and the
 types of pile you could build in these circumstances. It will also revisit some
 concepts in previous chapters and show examples where you might build a pile
 which can pivot to win faster or slower depending on how the circumstances might
-change after passing the turn. Please do remember however that all of these are
-just examples and that you shouldn't look to any of them as _objectively
-correct_ for the situations presented.
+change after passing the turn. Do remember however that all of these are just
+examples and that you shouldn't look to any of them as _objectively correct_ for
+the situations presented.
 
 ## Pass-the-Turn Piles
 
@@ -96,7 +96,7 @@ This second example takes some inspiration from the 4 cyclers pile with some
 minor modifications. Assuming you are playing 2 Oracles, you can build this,
 passing the turn. Draw the first SW for turn. Play your Island and cycle through
 to the first Oracle and cast it. If they have an answer you can try to Force it.
-If they do manage to kill or counter the Oracle you can simply pass again and
+If they do manage to kill or counter the oracle you can simply pass again and
 cycle Edge into the second Oracle to try and win for a second time.
 
 This is a good example that showcases how a lot of piles can be built thinking
@@ -123,7 +123,7 @@ Pnd
 These are all tools we should think about when building the pile we want to
 construct. If we think about the pile built in that first example, it does not
 really take into account any of the other cards we have barring the Island (to
-cast IU) and maybe the Forces (to protect the Oracle).
+cast IU) and maybe the Forces (to protect the oracle).
 
 > PTT
 
@@ -141,7 +141,7 @@ it stacks up. If the opponent gets rid of our Land through :card[Wasteland] or
 another 2-3 times to access our Oracle and by that time our opponent has had a
 lot of time to find more answers or apply pressure against our halved life
 total. Likewise if they have :card[Daze] for our Ideas Unbound, are we willing
-to risk Forcing it to then have the Oracle countered later in the turn? If not
+to risk Forcing it to then have the oracle countered later in the turn? If not
 then we have to get a little more creative.
 
 One thing we can do when building the pile is rearrange it slightly to
@@ -180,7 +180,7 @@ run through some of these scenarios when building your pile.
 
 Brainstorm is one of the most powerful tools in enabling a change in tempo of
 how fast you execute a pile. Assuming you have the cards in hand, you are able
-to access the Oracle much quicker than you normally might which can be very
+to access the oracle much quicker than you normally might which can be very
 advantageous against certain decks, especially if they suddenly go _shields
 down_ in terms of presenting removal or other similar punishers to an imperfect
 pile.
@@ -229,7 +229,7 @@ LP
 1. Cycle SW, draw LP
 1. Cast LP, crack for {U}
 1. Play CoS, name Merfolk or Wizard
-1. Cast an uncounterable Oracle with 0 cards left in your deck.
+1. Cast an uncounterable oracle with 0 cards left in your deck.
 
 If we wanted to slow pile we could follow the above sequence with Force of Will
 backup for any surprises. The use of Brainstorm here is merely as a cantrip to
@@ -258,7 +258,7 @@ LP
 1. Cast Bs, draw CoS, TO, LP, put back FoW and FoW or SW
 1. Play LP, crack for {U}
 1. Play CoS, name Merfolk or Wizard
-1. Cast an uncounterable Oracle with 2 cards left in your deck.
+1. Cast an uncounterable oracle with 2 cards left in your deck.
 
 There are many other scenarios or matchups where you might wish to slow pile but
 then change your mind or likewise build a faster PTT pile but then decide to
@@ -338,7 +338,7 @@ we wish to cast it.
 Sometimes you might cast an early Doomsday with a cycle effect in hand but no
 protection. If you have a spare {U} card you can always stack a Force of Will or
 similar on top to act as a _safety net_ if needed. This is a pretty handy way to
-ensure you can progress the pile unihibited and is especially useful if you
+ensure you can progress the pile uninhibited and is especially useful if you
 otherwise would have a guaranteed (if unprotected) kill next turn. Likewise you
 can incorporate all manner of discard spells or countermagic as required if the
 situation allows.

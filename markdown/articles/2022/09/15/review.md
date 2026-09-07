@@ -171,7 +171,7 @@ additional {U} source with which to make use of.
 
 If people do include Cabal Ritual it tends to be as a 1 to 3-of and normally
 replaces 1 Petal and some number of extraneous :card[Preordain] slots or maybe
-some interaction slots. It is certainly not a requirement, expecially if you
+some interaction slots. It is certainly not a requirement, especially if you
 aren't keen on including basics in your list but it is a useful tool for
 consideration.
 
@@ -395,7 +395,7 @@ thanks to the Ragavan ban from earlier this year.
 
 Here is an example decklist from a recent 5-0 posting by Alex2.
 
-::decklist{path=2022/09/15/alex2}
+::decklist{url=2022/09/15/alex2}
 
 You can see the changes mentioned alongside a common adoption of a 2:2 split of
 cycler cards and the inclusion of just the basic Island.
@@ -425,7 +425,7 @@ archetypes as a result.
 Here is an example decklist from a 3rd place Challenge result in April by
 _Wonderpreaux_.
 
-::decklist{path=2022/09/15/wonderpreaux}
+::decklist{url=2022/09/15/wonderpreaux}
 
 This list still has an Ideas Unbound in as well as retains a single Daze but
 others elect to run things like Preordain or Pact of Negation instead.
@@ -465,7 +465,7 @@ to try.
 Here is an example decklist from the winner of the August Game Taitan Legacy for
 Real Estate event by RoseIsland.
 
-::decklist{path=2022/09/15/roseisland}
+::decklist{url=2022/09/15/roseisland}
 
 This list really leans into the true Grixis aspect with an incredibly greedy
 manabase. Very cool to see!
@@ -493,7 +493,7 @@ vs. decks like Delver to remove the combo element.
 
 Here is an example decklist from a 5-0 in July by Monkeyscantcry.
 
-::decklist{path=2022/09/15/monkeyscantcry}
+::decklist{url=2022/09/15/monkeyscantcry}
 
 It's an interesting take on the use of a creature plan to support the Doomsday
 element of the deck but sometimes falls prey to its own mana requirements.
@@ -518,7 +518,7 @@ need be.
 
 Oftentimes the Esper lists will have a transformational sideboard turning them
 into pure control decks and using either creature or planeswalker threats like
-:card[Jace, the Mindsculptor] or :card[Stoneforge Mystic] to try and
+:card[Jace, the Mind Sculptor] or :card[Stoneforge Mystic] to try and
 circumnavigate the hate that may be brought in post board for the main Doomsday
 plan. As with all the subarchetypes, there is a lot of flexibility available to
 any pilots that wish to give this style a go and plenty of toolbox to work with.
@@ -526,7 +526,7 @@ any pilots that wish to give this style a go and plenty of toolbox to work with.
 Here is an example decklist that recently won the 4Seasons paper event in Italy
 by Dalibor Szegho.
 
-::decklist{path=2022/09/15/dalibor-szegho}
+::decklist{url=2022/09/15/dalibor-szegho}
 
 There are some really cool cards in here including the use of :card[Sevinne's
 Reclamation] and :card[Entreat the Angels] to help fortify the grind plan.

@@ -103,14 +103,14 @@ on the next, where you wouldn't have the mana to do it all in one turn.
 
 ## With Tendrils of Agony
 
-Generating a lethal storm count can be tricky when you have to pass the turn. A
-standard five card pile ending with Burning Wish for Tendrils will only generate
-6 Storm on its own, which is unlikely to be lethal. Having additional Rituals or
-mana artifacts in hand can help add to storm count, but even then it can be
-difficult to approach double-digit Storm counts. Thassa's Oracle has made it so
-these kinds of piles are often unecessary, but if you are unlucky you may find
-yourself with Oracle exiled, nothing but a Doomsday in hand, and you'll be glad
-you read this section.
+Generating a lethal _Storm_ count can be tricky when you have to pass the turn.
+A standard five card pile ending with Burning Wish for Tendrils will only
+generate 6 _Storm_ on its own, which is unlikely to be lethal. Having additional
+Rituals or mana artifacts in hand can help add to _Storm_ count, but even then
+it can be difficult to approach double-digit _Storm_ counts. Thassa's Oracle has
+made it so these kinds of piles are often unnecessary, but if you are unlucky
+you may find yourself with Oracle exiled, nothing but a Doomsday in hand, and
+you'll be glad you read this section.
 
 ### Example 1
 
@@ -126,15 +126,15 @@ BW
 
 Echo of Eons in the maindeck provides some very interesting pile options, which
 are explored more in depth in a later chapter. One powerful application is
-building a high storm count by recycling multiple spells post-Doomsday. In this
+building a high _Storm_ count by recycling multiple spells post-Doomsday. In this
 example, you draw Ideas Unbound, which draws 2 LEDs and an Echo of Eons. Crack
 both LEDs for RRRUUU, and spend your blue mana to flashback Echo. This will draw
 the remaining 7 cards. Recast the mana artifacts, then the Burning Wish to grab
 Tendrils and cast it off LED mana.
 
-This pile is quite mana efficient, and even approaches a lethal storm count on
+This pile is quite mana efficient, and even approaches a lethal _Storm_ count on
 its own. If the 2 cards in hand are castable spells (i.e. Rituals, Petals) you
-can easily reach a lethal storm count assuming you have the resources to cast
+can easily reach a lethal _Storm_ count assuming you have the resources to cast
 those spells. Echo creates some unusual constraints on the pile though: the
 precise number of cards leftover is important so Echo doesn't kill you, and
 there is a chance your opponent draws a fresh hand full of interaction.
@@ -167,13 +167,13 @@ Dd
 1. Ponder into this new pile, holding priority to crack LED for {U}{U}{U}
 1. Draw and cast Ideas Unbound to draw LED, Petal, and Burning Wish
 1. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
-1. Retrive Tendrils of Agony from your sideboard and aim it at your opponent
+1. Retrieve Tendrils of Agony from your sideboard and aim it at your opponent
 
 This what is often referred to as a Double-Doomsday pile, where a second
 Doomsday is used as a way to recycle spells. While the initial mana cost looks
-relatively low and the Storm count quite high, the pile is actually quite mana
+relatively low and the _Storm_ count quite high, the pile is actually quite mana
 hungry and you need additional mana artifacts on board (or in hand for extra
-storm) to supply that mana. Note that this pile also halves your life total
+_Storm_) to supply that mana. Note that this pile also halves your life total
 twice, meaning you'll need at least 4 life to execute. Though it appears clumsy,
 this pile does not require any unusual card choices and does not draw your
 opponent any new cards, so it has some appealing aspects.
@@ -190,7 +190,7 @@ CB
 ToA
 :::
 
-This pile, on the other hand, does require some less commmon card choices. It
+This pile, on the other hand, does require some less common card choices. It
 works by using CB to cast ToA twice. To do it from no cards in hand requires a
 ton of lands on board, as well as :card[Rain of Filth], :card[Conjurer's
 Bauble], and maindeck Tendrils, which not every deck plays. However, with some
@@ -209,7 +209,7 @@ ToA
 :::
 
 If you have Past in Flames in the sideboard you can use that as an engine to
-generate lethal storm.
+generate lethal _Storm_.
 
 This pile doesn't require the use of an artifact meaning it can beat a Null Rod
 or a :card[Phyrexian Revoker], although having an LED available will make
@@ -225,7 +225,7 @@ in hand or on board.
 1. Pass-the-turn piles can be cheap and effective, especially when Thassa's
    Oracle is involved
 1. PTT piles leave you more susceptible to disruption
-1. It is possible to generate lethal Storm counts despite passing the turn,
+1. It is possible to generate lethal _Storm_ counts despite passing the turn,
    typically by using tricks to recycle cards. Mana is usually the primary
    constraint in such piles.
 1. Note that all of these piles can be used as same-turn piles, you simply need

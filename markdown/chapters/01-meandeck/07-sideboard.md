@@ -9,15 +9,15 @@ title: Sideboarding
 In this chapter we will present the concepts and elements to consider when
 building your sideboard and against some of the more resilient archetypes to
 meta shifts. Obviously with new printings or different metagames these concepts
-may change so please consider what decks you expect to face and amend
-accordingly. Some of this will overlap with what is discussed in the [Playing
-Around Interaction](/meandeck/interaction) section.
+may change so consider what decks you expect to face and amend accordingly. Some
+of this will overlap with what is discussed in the [Playing Around
+Interaction](/meandeck/interaction) section.
 
 ## List Assumptions
 
 There will need to be some assumptions made on the list you are playing, even
 despite flex slots available. These assumptions are that you will run, at a
-minimum, the following cards in your main deck configuration:
+minimum, the following cards in your maindeck configuration:
 
 - 4-8 Doomsday
 - 4 Dark Ritual
@@ -193,7 +193,7 @@ These are cards that help reinforce your manabase in some way. They may be an
 extra instance of a splash colour, additional basis to fight against Wasteland
 strategies or other mana based tools to use.
 
-This role is the most dependant on your main deck configuration and thus you may
+This role is the most dependant on your maindeck configuration and thus you may
 want between 0-3 slots dedicated to this role.
 
 :::row{variant=CENTERED}
@@ -269,15 +269,15 @@ allows them to circumnavigate its usage. This is the key matchup set to bring in
 the Anti-Graveyard tools, probably all of them, from your sideboard. You
 generally want to trim some of the slower elements from your deck as you want to
 aim for a swift kill. If you have tools like Cavern of Souls or Pyroblast in the
-main deck, then these can be taken out as often they will not interact with what
+maindeck, then these can be taken out as often they will not interact with what
 the opponent could bring in. You can also trim a land, often a basic Island, and
 potentially one or more copies of Predict (unless Predict is your only pile draw
 card). Your mana base will not be pressured so you can aggressively fix by
 fetching dual lands and not need to worry about not being able to achieve {U}{U}
 for Ideas Unbound (if you run it). If the opposing deck includes a lot of hand
-disruption then bringing in cheap interaction such as Veil of Summer,
-Force of Negation or Flusterstorm if you have it can also help buy time to allow
-you to combo off. Normally removal is not effective against these strategies.
+disruption then bringing in cheap interaction such as Veil of Summer, Force of
+Negation or Flusterstorm if you have it can also help buy time to allow you to
+combo off. Normally removal is not effective against these strategies.
 
 If you are running Leyline of the Void then either mulliganing aggressively for
 it or for a fast combo is a good idea. If you are on a mix of the _softer_
@@ -554,8 +554,8 @@ from multiple of the archetypes listed. When facing them you have to try and
 assess which parts of their strategy you most need to interact with in order to
 facilitate your gameplan or to prevent theirs. At the end of the day this comes
 down with experience and if a tool you have seems to fit against a deck that is
-sligtly spicy or counter-intuitive to what has been written above then do not be
-afraid to _go with your gut_. Just be mindful that you cannot hedge against
+slightly spicy or counter-intuitive to what has been written above then do not
+be afraid to _go with your gut_. Just be mindful that you cannot hedge against
 everything without severely diluting your primary gameplan. Accepting that
 sometimes you will lose to an oddball card or a very specific silver bullet like
 Ashiok, Nightmare Weaver is fine.
@@ -575,7 +575,7 @@ suite for the match. Better to focus on the 8+ counterspells post board than the
 
 Part creature based deck and part blue based control, their disruption suite
 tends to be a mix of Force of Wills and Force of Negations coupled with cards
-like Meddling Mage and other hatebear type effects. You will definately want
+like Meddling Mage and other hatebear type effects. You will definitely want
 your anti-blue suite along with some additional permanent and/or creature
 removal to help face them. Disguising what deck you are on pre-board can help
 avoid any relevant Meddling Mage naming against you.
@@ -613,9 +613,9 @@ recommend having a go at a sideboard guide writing exercise. Even if you would
 rather try to _netdeck_ one for convenience and end up disregarding your own,
 it's a good way to consider how to approach a matchup and what the relative
 value of the cards in your list, both main and side, have. If you still find you
-struggle with the theory behind a given matchup then please don't be afraid to
-ask for help but remember, the best help is learning how to work it out yourself
-rather than following a guide by rote!
+struggle with the theory behind a given matchup do not be afraid to ask for help
+but remember, the best help is learning how to work it out yourself rather than
+following a guide by rote!
 
 ## Next Steps
 

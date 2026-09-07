@@ -1,8 +1,8 @@
-// NOTE The `Chip` when used with an icon is not SSR compatible
+// NOTE Required for the `Chip` when used with an icon
 'use client';
 
-import { mdiAccountEdit, mdiCalendar } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import AttributionIcon from '@mui/icons-material/AttributionRounded';
+import EventIcon from '@mui/icons-material/EventRounded';
 import { Box, Chip, Typography } from '@mui/material';
 
 import { Mana } from '~/components/Mana/Mana';
@@ -33,18 +33,8 @@ export const Summary = ({ authors, colors, date, title }: Props) => (
       <Typography variant="body2">{title}</Typography>
     </Box>
     {authors && (
-      <Chip
-        icon={<Icon path={mdiAccountEdit} size={0.6} />}
-        label={authors}
-        size="small"
-      />
+      <Chip icon={<AttributionIcon />} label={authors} size="small" />
     )}
-    {date && (
-      <Chip
-        icon={<Icon path={mdiCalendar} size={0.6} />}
-        label={date}
-        size="small"
-      />
-    )}
+    {date && <Chip icon={<EventIcon />} label={date} size="small" />}
   </>
 );

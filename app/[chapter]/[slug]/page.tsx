@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 
 import { Banner } from '~/components/Banner/Banner';
 import { Markdown } from '~/components/Markdown/Markdown';
-import { Toc } from '~/components/Toc/Toc';
 import { CHAPTERS } from '~/tools/markdown/files';
 import { getChapter } from '~/tools/markdown/getChapter';
 
@@ -24,9 +23,8 @@ export default async (context: {
   const markdown = await getChapter(chapter, slug);
   return (
     <>
-      <Banner {...markdown} sx={{ gridArea: 'banner' }} />
-      <Markdown {...markdown} sx={{ gridArea: 'content' }} />
-      <Toc items={markdown.toc.items ?? []} sx={{ gridArea: 'toc' }} />
+      <Banner {...markdown} />
+      <Markdown {...markdown} />
     </>
   );
 };

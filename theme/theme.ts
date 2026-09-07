@@ -6,12 +6,12 @@ import type {} from '@mui/material/themeCssVarsAugmentation';
 
 import {
   accordionClasses,
-  collapseClasses,
   createTheme,
   responsiveFontSizes,
 } from '@mui/material';
 
-import { blur, recess } from '~/theme/mixins';
+import { TOOLBAR_HEIGHT } from '~/theme/constants';
+import { blur, emboss, frame, recess } from '~/theme/mixins';
 import { article, primary, primer, report, secondary } from '~/theme/palette';
 
 declare module '@mui/material/Chip' {
@@ -22,9 +22,18 @@ declare module '@mui/material/Chip' {
   }
 }
 
+declare module '@mui/material/Tooltip' {
+  interface TooltipPopperSlotPropsOverrides {
+    'data-dark'?: boolean;
+    'data-light'?: boolean;
+  }
+}
+
 declare module '@mui/material/styles' {
   interface Mixins {
     blur: typeof blur;
+    emboss: typeof emboss;
+    frame: typeof frame;
     recess: typeof recess;
   }
 
@@ -67,7 +76,11 @@ export const theme = responsiveFontSizes(
     },
     components: {
       MuiAccordion: {
-        defaultProps: { elevation: 0, square: true },
+        defaultProps: {
+          elevation: 0,
+          // NOTE Prevent overly specific roundness from base theme
+          square: true,
+        },
         styleOverrides: {
           root: (options) =>
             options.theme.unstable_sx({
@@ -75,6 +88,7 @@ export const theme = responsiveFontSizes(
               borderColor: 'divider',
               borderRadius: 4,
               overflow: 'hidden',
+              [`&.${accordionClasses.expanded}`]: { margin: 0 },
               '&:has(+ &)': {
                 borderBottomLeftRadius: 0,
                 borderBottomRightRadius: 0,
@@ -83,10 +97,6 @@ export const theme = responsiveFontSizes(
                 borderTop: 0,
                 borderTopLeftRadius: 0,
                 borderTopRightRadius: 0,
-              },
-              [`&.${accordionClasses.expanded} .${collapseClasses.root}`]: {
-                borderTop: 1,
-                borderTopColor: 'divider',
               },
             }),
         },
@@ -107,8 +117,13 @@ export const theme = responsiveFontSizes(
             }),
         },
       },
-      MuiCssBaseline: {
+      MuiCard: {
         styleOverrides: {
+          root: (options) => options.theme.unstable_sx({ borderRadius: 4 }),
+        },
+      },
+      MuiCssBaseline: {
+        styleOverrides: (_theme) => ({
           'blockquote, ol, p, pre, ul': { margin: 0, padding: 0 },
           'blockquote, em': {
             fontDisplay: 'swap',
@@ -117,32 +132,70 @@ export const theme = responsiveFontSizes(
             fontStyle: 'italic',
           },
           body: { display: 'flex' },
+          'em > em': { fontStyle: 'normal' },
           html: {
             fontSize: 18,
             scrollBehavior: 'smooth',
-            scrollPaddingTop: 64,
+            scrollPaddingTop: `calc(${TOOLBAR_HEIGHT}px + ${_theme.spacing(3)})`,
           },
           'ol, ul': { paddingLeft: '1em' },
+        }),
+      },
+      MuiDrawer: {
+        styleOverrides: {
+          paper: (options) => ({
+            ...options.theme.mixins.blur('strong'),
+            backgroundColor:
+              'rgb(var(--mui-palette-background-paperChannel) / .9)',
+          }),
         },
       },
       MuiTooltip: {
-        defaultProps: { arrow: true },
+        defaultProps: {
+          placement: 'top',
+          slotProps: { popper: { 'data-dark': true } },
+        },
         styleOverrides: {
-          tooltip: { textAlign: 'center', whiteSpace: 'pre-line' },
+          tooltip: (options) => ({
+            ...options.theme.mixins.blur('strong'),
+            ...options.theme.mixins.emboss('sharp'),
+            backgroundColor:
+              'rgb(var(--mui-palette-background-paperChannel) / .5)',
+            borderColor: 'var(--mui-palette-divider)',
+            borderStyle: 'solid',
+            borderWidth: 1,
+            paddingBlock: options.theme.spacing(0.5),
+            paddingInline: options.theme.spacing(1),
+            textAlign: 'center',
+            whiteSpace: 'pre-line',
+          }),
+        },
+      },
+      MuiTypography: {
+        styleOverrides: {
+          h1: { fontWeight: 'lighter', paddingBottom: 8, paddingTop: 24 },
+          h2: { fontWeight: 'lighter', paddingBottom: 8, paddingTop: 24 },
+          h3: { fontWeight: 'lighter', paddingBottom: 8, paddingTop: 24 },
         },
       },
     },
     cssVariables: { colorSchemeSelector: 'data' },
-    mixins: { blur, recess },
+    mixins: {
+      blur,
+      emboss,
+      frame,
+      recess,
+      toolbar: { minHeight: TOOLBAR_HEIGHT },
+    },
     motion: { reducedMotion: 'system' },
     typography: {
       fontFamily: 'var(--font-roboto)',
-      h1: { fontSize: '3.2rem' },
-      h2: { fontSize: '2.6rem' },
-      h3: { fontSize: '2.4rem' },
-      h4: { fontSize: '2.0rem' },
-      h5: { fontSize: '1.4rem' },
-      h6: { fontSize: '1.2rem' },
+      h1: { fontSize: '3.00rem' },
+      h2: { fontSize: '2.50rem' },
+      h3: { fontSize: '2.00rem' },
+      h4: { fontSize: '1.50rem' },
+      h5: { fontSize: '1.25rem' },
+      h6: { fontSize: '1.10rem' },
     },
   }),
 );

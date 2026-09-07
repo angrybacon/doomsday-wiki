@@ -136,7 +136,7 @@ As you can see this is an imperfect pile as it does not beat removal on Oracle
 due to it leaving a single card in your deck. If you have an additional {U}
 available then you can change step 3. above to arrange the deck (EoA, Pnd, TO)
 and cast the second Ponder with the additional {U}. Likewise, if you have
-another Ponder or Preordain in addition to the Oracle in hand, you can use that
+another Ponder or Preordain in addition to the oracle in hand, you can use that
 instead of the first Ponder in the example and use that extra card to generate
 the additional {U} needed for the same starting mana cost.
 
@@ -162,12 +162,12 @@ The Cantrip in the above example can be any of Ponder, Preordain or Brainstorm.
 Depending on which cantrip you use changes how you perform step 3 above. If it
 is Ponder, you simply rearrange the deck as there are only 3 cards left in it
 during resolution. Likewise, with Brainstorm; you will draw all three cards and
-replace 2 in the desired order as required. With Preordain you scry the Oracle
+replace 2 in the desired order as required. With Preordain you scry the oracle
 to the bottom of your library and draw the next card along. Another free cycler
 will not work in this position as they do not have the deck manipulation effects
 needed however even something as simple as :card[Opt] can be used.
 
-Even if not the Oracle, if you already have another element of the pile in hand,
+Even if not the oracle, if you already have another element of the pile in hand,
 you can substitute additional toolbox cards within the _standard_ pile to
 utilise the additional resources. Let's look at an example where you have an
 extra {B} available, :card[IU] in hand and you know your opponent is holding a

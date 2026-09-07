@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
 
-import { Box } from '@mui/material';
-
 import { Banner } from '~/components/Banner/Banner';
 import { Divider } from '~/components/Divider/Divider';
 import { Markdown } from '~/components/Markdown/Markdown';
-import { Toc } from '~/components/Toc/Toc';
 import { ARTICLES } from '~/tools/markdown/files';
 import { getArticle } from '~/tools/markdown/getArticle';
 import { getMarkdown } from '~/tools/markdown/getMarkdown';
@@ -29,13 +26,10 @@ export default async (context: {
   const footer = await getMarkdown('partials', 'article-footer');
   return (
     <>
-      <Banner {...markdown} sx={{ gridArea: 'banner' }} />
-      <Box sx={{ display: 'grid', gap: 3, gridArea: 'content' }}>
-        <Markdown {...markdown} />
-        <Divider />
-        <Markdown {...footer} />
-      </Box>
-      <Toc items={markdown.toc.items ?? []} sx={{ gridArea: 'toc' }} />
+      <Banner {...markdown} />
+      <Markdown {...markdown} />
+      <Divider />
+      <Markdown {...footer} />
     </>
   );
 };

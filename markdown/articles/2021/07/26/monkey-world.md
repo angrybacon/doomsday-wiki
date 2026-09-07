@@ -40,15 +40,15 @@ Murktide Regent | MH2
 {U}{R} was already the main Delver variant after Strixhaven, and these 3 new
 threats cemented that even further.
 
-While :card[Murktide Regent] is just a big beater for {U}{U}, :card[Dragon Rage
-Channeler] and :card[Ragavan, Nimble Pilferer] are far more important in the
-Delver vs Doomsday matchup. Dragon Rage Channeler is a card selection engine on
-a stick but needs set up to get Delirium online. This can take quite some time
-because most Delver lists play no artifacts or enchantments. We can use this to
-our advantage when we give them no targets to use their spells on, especially
-when they kept a hand with many counters. To be honest I am very happy they cut
-Sprite Dragon, but I’m afraid they’ll return to it in lists without Dragon Rage
-Channeler.
+While :card[Murktide Regent] is just a big beater for {U}{U}, :card[Dragon's
+Rage Channeler] and :card[Ragavan, Nimble Pilferer] are far more important in
+the Delver vs Doomsday matchup. Dragon's Rage Channeler is a card selection
+engine on a stick but needs set up to get Delirium online. This can take quite
+some time because most Delver lists play no artifacts or enchantments. We can
+use this to our advantage when we give them no targets to use their spells on,
+especially when they kept a hand with many counters. To be honest I am very
+happy they cut Sprite Dragon, but I’m afraid they’ll return to it in lists
+without Dragon's Rage Channeler.
 
 Ragavan has the most impact in our matches against Delver post MH2.  
 It has ability to mess with the top of our deck, so be careful with your tutors
@@ -98,13 +98,13 @@ Charm] or :card[Torpor Orb] but Modern Horizons 2 changed that.
 
 With Endurance Bant Miracles got a new tool to beat us post Doomsday. A flashed
 in Endurance plays around Daze and prevents our safest kills. We no longer can
-just jam an uncounterable Oracle with an empty library.
+just jam an uncounterable oracle with an empty library.
 
 Prismatic Ending is irrelevant in most matches, but it kills Defense Grid or
 Carpet of Flowers without siding in artifact or enchantment hate.
 
 The match up against Bant Control got a good chunk worse, compared to pre MH2,
-since they play Endurance in their main deck anyway.
+since they play Endurance in their maindeck anyway.
 
 ### Elves
 

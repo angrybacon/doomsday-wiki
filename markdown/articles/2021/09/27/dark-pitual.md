@@ -63,7 +63,7 @@ time to submit anything.
 [Romario's Twitter](https://twitter.com/romarioneto3)  
 [Romario's Twitch](https://www.twitch.tv/romariovidal)
 
-::decklist{path=2021/09/27/meandeck.romariovidal}
+::decklist{url=2021/09/27/meandeck.romariovidal}
 
 > This past weekend the guy from The Legacy Pit hosted an event in Frederick MD,
 > this was the first large event since the start of the pandemic in NA. The
@@ -115,7 +115,7 @@ G2. Opponent caught me off guard when they played a basic Island into
 :card[Careful Study], I sideboarded out some of my discard spells but now I
 realized I am playing against a deck that is also playing countermagic. Luckily
 they were able to put :card[Iona, Shield of Emeria] in the graveyard but not
-reanimate it back before I could resolve :card[Thassa’s Oracle].
+reanimate it back before I could resolve :card[Thassa's Oracle].
 
 #### Round 3 vs Derek Toth on Urza Echo. Win (2-0)
 
@@ -123,7 +123,7 @@ G1. This is another game that I didn’t get the right deck my opponent was
 playing. They cast a :card[Chalice of the Void] on turn one off a :card[City of
 Traitors] which I countered. I cast :card[Doomsday] the following turn and make
 a pile that can beat anything but a :card[Trinisphere], they don’t cast anything
-and just pass the turn, :card[Thassa’s Oracle] enters the battlefield and we
+and just pass the turn, :card[Thassa's Oracle] enters the battlefield and we
 reach for our sideboards. I thought my opponent was on mono {R} stompy but in
 this case I think I would still SB the same way.
 
@@ -254,7 +254,7 @@ in a row.
 G1. Like I said previously this is a mu Doomsday is favored, much in the same
 way Doomsday is favored against Mono {G} Post but now you do have to have a plan
 for :card[Endurance]. I wasn't very familiar with the stock 75 for this deck but
-I suspected they weren't playing :card[Endurance] in the main deck. I cast
+I suspected they weren't playing :card[Endurance] in the maindeck. I cast
 doomsday, Mike asked me if he was dead to which I replied “yes if you don't have
 any interaction” they said “I do not”. I demonstrated to Mike the pile I was
 going go make with the cards in my hand and we went to G2.
@@ -276,14 +276,14 @@ normal thing again in the future when things are safer.
 
 ### Nathan _VendillionMisclique_ Anderson Stahl - 27th Place (7-2)
 
-::decklist{path=2021/09/27/meandeck.vendillionmisclique}
+::decklist{url=2021/09/27/meandeck.vendillionmisclique}
 
 > My general decision to play Doomsday for the Pit open was based on a gut
 > feeling that Ragavan decks would be less popular in paper and my general
 > dislike for the card. I didn't have very much experience with combo and got
 > 100% of my list from Kai and followed his stream religiously over the past few
 > months. Unfortunately I was wrong about my general impression of the metagame,
-> there was a bunch of monkey buisness. Despite with facing some bad matchups
+> there was a bunch of monkey business. Despite with facing some bad matchups
 > and my relative inexperience as a pilot, the deck felt bonkers. One thing I
 > will say is while the Bant/4C matchup feels close when I play online many of
 > the pilots in this event seemed to not have a good understanding of matchup
@@ -292,8 +292,8 @@ normal thing again in the future when things are safer.
 
 #### Round 1 vs Matt Brown on UR Delver. Loss (1-2)
 
-This guy had :card[Snapcaster Mage]s, :card[Price of Progress], and 3
-:card[Flusterstorms] in the board. I got lucky to win G1 without a real
+This guy had :card[Snapcaster Mage]s, :card[Price of Progress], and 3 copies of
+:card[Flusterstorm] in the board. I got lucky to win G1 without a real
 understanding of what was going on but G2/3 were not close.
 
 #### Round 2 vs Kevin Brenneman on Bant Control. Win (2-1)
@@ -311,7 +311,7 @@ won but it was close. They got two dredges to look for the one-of
 
 #### Round 3 vs Mason Slate on BR Reanimator. Win (2-0)
 
-G1 I played :card[Lotis Petal] into a :card[Chancellor of the Annex] trigger so
+G1 I played :card[Lotus Petal] into a :card[Chancellor of the Annex] trigger so
 that I could cast discard on t1 to take an :card[Entomb]. After that they went
 for an :card[Animate Dead] line on :card[Grief] to put us both hellbent, but a
 2/1 doesn't do a great job as the only clock. Cantrips in the deck meant I was
@@ -320,13 +320,13 @@ able to outdraw them from there and easily win.
 G2 They mulled into oblivion.
 
 :::row{variant=CENTERED}
-Entomb|ODY
+Entomb | ODY
 :::
 
 #### Round 4 vs Jacob Saracino on UR Delver. Win (2-1)
 
 G1 was close, they had turn 1 Ragavan and off the first cantrips I saw straight
-gas. Unfortunatly I had to let them cast spells.... I avoided this once by
+gas. Unfortunately I had to let them cast spells... I avoided this once by
 casting a Personal Tutor for :card[Edge of Autumn] they chose not to attack
 which was odd and it ended up enabling a same turn kill.
 
@@ -338,7 +338,7 @@ interaction but at this point my opener had two :card[Pact of Negation] and I've
 drawn into the full playset. We go draw go for a couple turns making land drops
 at which point my hand is 4 Pact, :card[Dark Ritual], 2 Cyclers. I topdeck the
 :card[Doomsday] and resolve through hardcast :card[Force of Negation], Force
-pitch :card[Daze], and :card[Pyroblast] at which point they have two unkowns in
+pitch :card[Daze], and :card[Pyroblast] at which point they have two unknowns in
 hand. I made a big punt here by putting myself dead to double :card[Daze]. I
 wasn't recognizing that they had tapped out for the FON and I didn't need to
 empty my library. Realised it as soon as I cast the :card[Ideas Unbound].
@@ -394,7 +394,7 @@ went to cast :card[Thassa's Oracle] with one card in library to win through
 #### Round 8 vs Stephen Dupal on Elves. Win (2-0)
 
 G1 They played heath go. I didn't know exactly what they were on but resolved
-turn 1 :card[Doomsday] with :card[Undeground Sea] and a fetch in hand. Made the
+turn 1 :card[Doomsday] with :card[Underground Sea] and a fetch in hand. Made the
 following pile to beat :card[Wasteland] + :card[Thalia, Guardian of Thraben]
 over two turns.
 
@@ -403,7 +403,7 @@ LED
 SW
 EoA
 TO
-Volcanic Island|LEB
+Volcanic Island | LEB
 :::
 
 They knew they couldn't win and so just chose to not reveal what deck they were
@@ -415,13 +415,13 @@ draw spells were cyclers. The :card[Preordain] let me dig to a :card[Brainstorm]
 that ended the game.
 
 :::row{variant=CENTERED}
-Nettle Sentinel|EVE
+Nettle Sentinel | EVE
 :::
 
 #### Round 9 vs Matthew Czuzak on Madness. Win (2-1)
 
 G1 lost after playing around a topdecked :card[Burning Inquiry], they discarded
-:card[Anger], :card[Vengvine] and played two Hollow Ones to kill from 10 life.
+:card[Anger], :card[Vengevine] and played two Hollow Ones to kill from 10 life.
 
 G2 I kept a super interactive hand where I was able to :card[Daze], Force the
 enablers. I then drew some cantrips while they were stuck doing nothing and won
@@ -434,7 +434,7 @@ G3 Went to 5 for a hand of :card[Ponder], :card[Force of Negation], land,
 
 ### Nicholas _germancouch_ French-Seats - 59th Place (6-3)
 
-::decklist{path=2021/09/27/meandeck.germancouch}
+::decklist{url=2021/09/27/meandeck.germancouch}
 
 > I don't have a ton of notes about each match other than what I played against
 > but I'll try to recall anything notable. In terms of prep was I played at
@@ -607,7 +607,7 @@ Sideboard:
 
 [Dave's Twitter](https://twitter.com/rutabarracuda)
 
-::decklist{path=2021/09/27/meandeck.ruta-barracuda}
+::decklist{url=2021/09/27/meandeck.ruta-barracuda}
 
 > The Legacy Pit Open (LPO for short) was my first Legacy tournament in over a
 > year and a half. To give some background, before my daughter was born in
@@ -665,7 +665,7 @@ felt wasn't likely):
 
 :::row{variant=PILE}
 SW
-Volcanic Island|LEB
+Volcanic Island | LEB
 SW
 EoA
 TO
@@ -715,7 +715,7 @@ TO
 **Out:** 2 :card[Thoughtseize], :card[Preordain]
 
 Game 2, my opponent and I both mulled to 6, and my opponent came out with a plan
-to just race me with a fast Marit Lage. This is one game where :card[Lim-Dul's
+to just race me with a fast Marit Lage. This is one game where :card[Lim-Dûl's
 Vault] found me a win where :card[Personal Tutor] wouldn't. By Patrick's third
 end-step, he had assembled the combo. I cast :card[Lim-Dûl's Vault] then,
 holding :card[Brainstorm], cycler, and :card[Lotus Petal], and land in hand.
@@ -728,7 +728,7 @@ land on top. On my turn, I drew the 2nd cycler and won using the same pile as
 game 1.
 
 :::row{variant=CENTERED}
-Dark Depths|CSP
+Dark Depths | CSP
 :::
 
 #### Round 3 vs Anthony Arevalo on Jeskai Sagavan. Loss (1-2)
@@ -834,9 +834,9 @@ turn.
 :::row{variant=PILE}
 IU
 EoA
-Underground Sea|LEB
+Underground Sea | LEB
 TO
-Island|RAV
+Island | RAV
 :::
 
 What I should have thought more carefully about was the possibility of Bryant
@@ -907,11 +907,11 @@ into :card[Delver of Secrets]. On my turn, I cracked the fetch for
 pile to beat :card[Wasteland] but would require fading 2 turns:
 
 :::row{variant=PILE}
-Polluted Delta|ONS
+Polluted Delta | ONS
 EoA
 TO
 CoS
-Volcanic Island|LEB
+Volcanic Island | LEB
 :::
 
 Unfortunately, that didn't matter – Kyle revealed :card[Brainstorm] to flip
@@ -965,7 +965,7 @@ earlier in the tournament. I played :card[Underground Sea] and cast
 :card[Ponder] to find a :card[Force of Will]. Zach's second turn involved
 playing a :card[Quirion Ranger] and :card[Nettle Sentinel]. I played a fetch and
 passed. Zach didn't draw any engine cards, so he played a couple more creatures
-and swung for a few points of damage. In his end step, I cast :card[Lim-Dul's
+and swung for a few points of damage. In his end step, I cast :card[Lim-Dûl's
 Vault] and found :card[Doomsday] right away. When I untapped, I cast
 :card[Doomsday] and made a cycler pile. The following turn, Zach didn't topdeck
 a win, so I was able to cast :card[Thassa's Oracle] without issue the following
@@ -997,7 +997,7 @@ so I decided to go with the below pile to hold up :card[Force of Will] on
 :::row{variant=PILE}
 Pnd
 IU
-Underground Sea|LEB
+Underground Sea | LEB
 LP
 TO
 :::
@@ -1009,10 +1009,10 @@ recall what my 7 was, other than it had FoW, cantrips, :card[Dark Ritual], and
 land. My opponent opened to :card[Underground Sea], :card[Ponder], pass. So at
 first I thought I was in a combo mirror. I cast a :card[Ponder] on my turn as
 well. My opponent cast another cantrip and then played out :card[Ornithopter].
-Ok, I'm facing :card[Ninjas] - not a great matchup, actually kinda bad. On my
-turn, I find the combo and set up a pass-the-turn pile with :card[Ideas
-Unbound]. My opponent ninjitsus in Yuriko on his turn and hits me for a decent
-amount, but not enough to keep me from winning the following turn.
+Ok, I'm facing Ninjas - not a great matchup, actually kinda bad. On my turn, I
+find the combo and set up a pass-the-turn pile with :card[Ideas Unbound]. My
+opponent ninjitsus in Yuriko on his turn and hits me for a decent amount, but
+not enough to keep me from winning the following turn.
 
 **In:** :card[Cavern of Souls], 2 :card[Duress], :card[Red Elemental Blast],
 :card[Pyroblast], :card[Flusterstorm]  
@@ -1048,7 +1048,7 @@ not top decking well.
 **In:** 2 :card[Abrade], :card[Red Elemental Blast], :card[Pyroblast],
 :card[Cavern of Souls], 2 :card[Flusterstorm], 2 :card[Duress], :card[Echoing
 Truth]  
-**Out:** 2 :card[Stifle], 2 :card[Pact of Negation], 2 :card[Lim-Dul's
+**Out:** 2 :card[Stifle], 2 :card[Pact of Negation], 2 :card[Lim-Dûl's
 Vault], 2 :card[Street Wraith], 2 :card[Lotus Petal]
 
 Game 2, we both mull to 6. My opponent opens with :card[Painter's Servant]
@@ -1133,7 +1133,7 @@ TO
 1. Cast Consider, put X into the graveyard and draw TO
 1. Cast TO with the remaining mana from LED with zero cards left in your library
 
-This also allowss you to create very mana/card efficient piles with the help of
+This also allows you to create very mana/card efficient piles with the help of
 :card[Deep Analysis]. If you have {U} and either :card[Consider] or a cycler in
 hand you can build the following:
 

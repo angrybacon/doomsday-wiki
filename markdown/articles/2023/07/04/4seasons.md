@@ -50,7 +50,7 @@ I eventually top8'd and lost in the first round, which was a great result
 considering that my idea at the start of the tournament was to incinerate 300
 play points.
 
-With a couple more results I was in a pretty good spot for the italian Player of
+With a couple more results I was in a pretty good spot for the Italian Player of
 the Year race, which awards an European Legacy Masters invite to the top3
 players. I failed to qualify with two direct qualifier tournaments, losing in
 the top8 in one and getting destroyed in the other, but I felt pretty confident
@@ -77,7 +77,7 @@ for both Saturday and Sunday:
 
 [Link to the decklist](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
 
-::decklist{path=2023/07/turbo.fuz65}
+::decklist{url=2023/07/turbo.fuz65}
 
 ## Getting to Bologna
 
@@ -107,16 +107,16 @@ and started chaining mistake after mistake. At some point I was facing a known
 hand of :card[Pyroblast], :card[Flusterstorm] and :card[Force of Will]. My hand
 was :card[Dark Ritual], :card[Duress], Sheoldred + others, 3 mana in play. I
 lead on Dark Ritual, which makes no sense whatsoever. Had that ritual been
-forced I might've lost the game for no reason. That's basic Storm sequencing and
-not something I expect myself to miss after more than a decade of casting Dark
-Rituals and Duresses. That wasn't even the lowest point of the match: I built a
-pile that didn't empty the library because I was afraid I'd die to
+forced I might've lost the game for no reason. That's basic _Storm_ sequencing
+and not something I expect myself to miss after more than a decade of casting
+Dark Rituals and Duresses. That wasn't even the lowest point of the match: I
+built a pile that didn't empty the library because I was afraid I'd die to
 :card[Lightning Bolt] (not true, I had checked the wrong life total) and when my
 opponent :card[Swords to Plowshares]'d my Oracle, I conceded to a Flusterstorm
 on Flusterstorm scenario that I could've paid with the mana I had floated with a
 :card[Black Lotus]. The worst part might be that I ended up winning that match.
 I kinda picked my play up in the end forcing a :card[Time Walk] in a spot that I
-don't think was obvious, but as a whole I played the match at an embarassing
+don't think was obvious, but as a whole I played the match at an embarrassing
 level and left the table annoyed at myself.
 
 The rest of the tournament was rather uneventful except for a bad beats story
@@ -124,7 +124,7 @@ that somehow put me in a better mood. I got paired against a friendly guy
 playing white Initiative in the _dead for top8_ bracket and got completely
 annihilated. In game 1 my opponent mulled to 4, revealed :card[Chancellor of the
 Annex] and went Lotus into :card[White Plume Adventurer]. He then untapped,
-scried an :card[Ancient tomb] on top and played :card[Archon of Emeria]. Gg
+scried an :card[Ancient Tomb] on top and played :card[Archon of Emeria]. Gg
 
 In game 2 I open the nuts: Ritual, :card[Doomsday], Fetchland, :card[Daze],
 :card[Ancestral Recall], :card[Street Wraith]. Turn1 win with Daze backup. My
@@ -153,7 +153,7 @@ after a long day I was famished and I reaaally needed a good dinner.
 ## Saturday &mdash; Italian Legacy Invitational
 
 The Italian Legacy Invitational is a yearly invite-only tournament that features
-some of the best players in the italian Legacy scene. I finished 9th last year,
+some of the best players in the Italian Legacy scene. I finished 9th last year,
 so I was looking forward to get a better result. First and firemost, though, I
 wanted to get back to playing well (compared to my standard, at least).
 
@@ -276,7 +276,7 @@ hopefully the Carpets can help.
 #### Game 1
 
 I keep a land-heavy hand and main phase fetch on my turn 1 to play around
-:card[Stifle]. My opponent :card[wasteland]s me and plays a :card[Tarmogoyf] a
+:card[Stifle]. My opponent :card[Wasteland]s me and plays a :card[Tarmogoyf] a
 couple of turns later. I win at the last possible turn with a Veil-protected
 Doomsday + Cycler.
 
@@ -377,7 +377,7 @@ Thassa's Oracle
 :::
 
 I consider into LED, crack LED for {U}{U}{U}, crack the Grove and cycle until
-the Oracle. As it turns out, my opponent had Orim's Chant in hand, things
+the oracle. As it turns out, my opponent had Orim's Chant in hand, things
 would've been bleak had I let him untap.
 
 Record: 1-0
@@ -637,7 +637,7 @@ Record: 7-1
 
 ### Round 9 &mdash; Riccardo on TEG 2-1
 
-Unfortunaly we can't ID into the top8, we have to play it out.
+Unfortunately we can't ID into the top8, we have to play it out.
 
 #### Game 1
 
@@ -676,7 +676,7 @@ Record: 8-1
 
 ### Top8
 
-I finished first in the swiss and got an European Legacy Masters invite! To
+I finished first in the Swiss and got an European Legacy Masters invite! To
 think that I was worried about getting a top16/32 to get the invite with the at
 large slots of the Italian POTY and ended up getting it with the first place...
 I was pleasantly surprised!
@@ -701,7 +701,7 @@ team for providing a fun and well organized event. Thanks to Guidi, for
 organizing the Legacy Invitational and running the _Italian Player of the Year_.
 
 The Italian Legacy community! I'd love to thank everyone individually, but my
-memory sucks for anything that's not a Doomsday pile or a Storm line, I'd forget
+memory sucks for anything that's not a Doomsday pile or a _Storm_ line, I'd forget
 someone for sure.
 
 All the guys that I've talked to online and stopped by to say hi, from MTGO

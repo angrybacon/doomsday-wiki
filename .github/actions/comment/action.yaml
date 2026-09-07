@@ -1,0 +1,27 @@
+inputs:
+  token:
+    required: true
+  url:
+    required: true
+
+runs:
+  steps:
+    - shell: bash
+      env:
+        GITHUB_TOKEN: ${{ inputs.token }}
+        URL: ${{ inputs.url }}
+      run: |
+        request=$(gh pr view --json number --jq .number 2>/dev/null) || exit 0
+        api="repos/${{ github.repository }}/issues"
+        marker="<!-- preview -->"
+        body="$marker"$'\n'"$URL"
+        comment=$(
+          gh api "$api/$request/comments" --jq ".[] | select(.body | contains(\"$marker\")) | .id" \
+            | head -n1
+        )
+        if [ -n "$comment" ]; then
+          gh api "$api/comments/$comment" -X PATCH -f body="$body"
+        else
+          gh pr comment "$request" --body "$body"
+        fi
+  using: composite

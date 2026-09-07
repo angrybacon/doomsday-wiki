@@ -1,27 +1,26 @@
-import type { SxProps } from '@mui/material';
+'use client';
 
 import { Box } from '@mui/material';
 
 import { Link } from '~/components/Link/Link';
 
-type Props = {
-  sx?: SxProps;
-};
-
-export const Footer = ({ sx }: Props) => (
+export const Footer = () => (
   <Box
     component="footer"
-    sx={[
-      {
-        color: 'text.secondary',
-        textAlign: 'center',
-        typography: 'caption',
-        '[data-dark] &': { textShadow: '0 0 4px black' },
-        '[data-light] &': { textShadow: '0 0 4px white' },
-      },
-      // oxlint-disable-next-line no-unsafe-assignment
-      ...(Array.isArray(sx) ? sx : [sx]),
-    ]}
+    sx={(theme) => ({
+      ...theme.mixins.blur('strong'),
+      bgcolor: 'rgb(var(--mui-palette-primary-mainChannel) / .1)',
+      borderTop: 1,
+      borderTopColor: 'divider',
+      color: 'text.secondary',
+      // NOTE Force content above 404 background
+      position: 'relative',
+      px: 3,
+      py: 3,
+      textAlign: 'center',
+      typography: 'caption',
+      'main:has(> [data-not-found]) ~ &': { color: 'common.white' },
+    })}
   >
     <p>
       &copy; Doomsday Wiki contributors &bull; {process.env.NEXT_PUBLIC_VERSION}

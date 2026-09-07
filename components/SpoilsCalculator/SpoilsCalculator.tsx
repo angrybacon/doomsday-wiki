@@ -2,8 +2,8 @@
 
 import type { ChangeEvent } from 'react';
 
-import { mdiDelete, mdiReload } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import DeleteIcon from '@mui/icons-material/DeleteRounded';
+import RestoreIcon from '@mui/icons-material/RestoreRounded';
 import {
   Box,
   Button,
@@ -19,7 +19,7 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import { shuffle } from '~/components/SpoilsCalculator/shuffle';
 
@@ -41,12 +41,9 @@ const INITIAL_INPUT: Input = { copies: 4, deck: 53, life: 20, samples: 1000 };
 
 export const SpoilsCalculator = () => {
   const [input, setInput] = useState(INITIAL_INPUT);
-  const [isDisabled, setIsDisabled] = useState(true);
   const [output, setOutput] = useState<Output[]>([]);
 
-  useEffect(() => {
-    setIsDisabled(!Object.values(input).every(Boolean));
-  }, [input]);
+  const isReady = Object.values(input).every(Boolean);
 
   const onChange =
     (key: keyof Input) =>
@@ -57,7 +54,6 @@ export const SpoilsCalculator = () => {
       }));
 
   const onCompute = (): void => {
-    setIsDisabled(true);
     let lifeloss = 0;
     let deathes = 0;
     for (let sample = 0; sample < input.samples; sample += 1) {
@@ -81,7 +77,6 @@ export const SpoilsCalculator = () => {
       },
       ...previous,
     ]);
-    setIsDisabled(false);
   };
 
   const onResetInput = (): void => setInput(INITIAL_INPUT);
@@ -140,17 +135,17 @@ export const SpoilsCalculator = () => {
         sx={{ display: 'flex', my: 3 }}
         variant="contained"
       >
-        <Button disabled={isDisabled} onClick={onCompute} sx={{ flexGrow: 1 }}>
+        <Button disabled={!isReady} onClick={onCompute} sx={{ flexGrow: 1 }}>
           Calculate
         </Button>
         <Tooltip title="Reset inputs">
           <Button onClick={onResetInput}>
-            <Icon path={mdiReload} size={1} />
+            <RestoreIcon />
           </Button>
         </Tooltip>
         <Tooltip title="Clear results">
           <Button onClick={onResetOutput}>
-            <Icon path={mdiDelete} size={1} />
+            <DeleteIcon />
           </Button>
         </Tooltip>
       </ButtonGroup>

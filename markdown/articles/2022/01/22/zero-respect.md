@@ -39,7 +39,7 @@ Because of the demand for it as a one-off article I thought I would provide my
 own sideboard guide. This is not a guide I have properly written up before but
 it will be a good exercise for me as well to write it. This guide will also try
 to explain the reasoning behind some of the decisions and thus discuss both the
-main deck configuration and my own style of play alongside it. It very well may
+maindeck configuration and my own style of play alongside it. It very well may
 not be super applicable for you because of how you prefer to play (or because no
 one else plays my deck) but hopefully it will encourage you to have a go working
 out your own plans!
@@ -109,7 +109,7 @@ complete _Turbo_ shell but don't go full ham on cycling effects and multiple
 
 I have tried in the past to dedicate a lot of sideboard slots for beating URx
 Delver decks before and I realised that the games I was winning against them was
-because of tight play, a little bit of luck and mostly my main deck tools. As a
+because of tight play, a little bit of luck and mostly my maindeck tools. As a
 result I decided to run no dedicated Delver sideboard slots and instead just
 work out a solid plan from the other tools I was using anyways. This is the one
 matchup I pretty much never deviate from my plan on and I am happy to take my
@@ -148,9 +148,9 @@ maindeck :card[Watery Grave] to act as a 5th :card[Underground Sea]. It has 4
 :card[LP]s to help speed things up and fix mana. It runs the full set of Forces,
 Dazes and has 1 :card[CoS] and 1 :card[PoN] for pile building alongside two
 maindeck discard spells as additional protection. It also runs 2 :card[Pre]
-alongside the normal cantrip suite as extra slow fitlering.
+alongside the normal cantrip suite as extra slow filtering.
 
-::decklist{path=2022/01/zero-respect}
+::decklist{url=2022/01/zero-respect}
 
 As you can see the maindeck is entirely {U}{B} (despite what :card[EoA]
 pretends). This means we have a lot of flexibility in being able to add splash
@@ -181,7 +181,7 @@ general/expected roles and the justification for having them.
   protection. A very useful tool for multiple fair and unfair matchups.
 - 4 :card[FoN]: Acting as both combo protection from those faster than us and to
   complement the Chain by preventing things like :card[Blood Moon],
-  :card[Chalice of the void], :card[Trinisphere] etc. from landing onto the
+  :card[Chalice of the Void], :card[Trinisphere] etc. from landing onto the
   battlefield. A very versatile and mana efficient card. Sometimes can be
   over-boarded.
 
@@ -216,8 +216,8 @@ REB
   with two of them giving multiple chances at resolving it and allowing you to
   go up to a devotion of 4 which helps bypass things like :card[Endurance]. It
   also increases your pseudo blue card count for Force pitch purposes by +2
-  (because you now have 2 cards in the deck eligibile to pitch whereas before
-  you could never pitch your lone Oracle). It also blocks :card[Ragavan, Nimble
+  (because you now have 2 cards in the deck eligible to pitch whereas before you
+  could never pitch your lone Oracle). It also blocks :card[Ragavan, Nimble
   Pilferer] and :card[Thalia, Guardian of Thraben] really well in a pinch.
 - 1 :card[Tormod's Crypt]: The second part of my anti-graveyard package. This
   one is nice as it can just sit in play whilst you get prepped or be added to a
@@ -226,7 +226,8 @@ REB
   is a lot more effective.
 - 1 :card[Volcanic Island]: Finally it's a land that makes {R}. It helps cast
   our blast effects. Not much else to say though you could consider to bring it
-  in as an additional _bad Island_ in matchups where maybe you don't want Cavern.
+  in as an additional _bad_ Island in matchups where maybe you don't want
+  Cavern.
 
 :::row{variant=CENTERED}
 Surgical Extraction
@@ -462,7 +463,7 @@ Or
 - **Take out**: 1 Duress, 1 Thoughtseize, 1 Street Wraith
 - **Bring in**: 2 Flusterstorm, 1 Thassa's Oracle
 
-Like _Blue Soup_ but harder thanks to :card[Ragavan, Nimbler Pilferer] and
+Like _Blue Soup_ but harder thanks to :card[Ragavan, Nimble Pilferer] and
 :card[Expressive Iteration]. Often these might as well all be Delver decks just
 with :card[Meddling Mage] to annoy us. You can very well justify bringing in
 :card[Massacre] or :card[CoV] in these matchups. Again deck variance in the
@@ -511,7 +512,7 @@ Grindstone
 ### OmniShow
 
 - **Respect**: People who still run Release the Ants. Cunning Wish for Trickbind
-- **Disrespect**: People who run :card[Shared Summoning]
+- **Disrespect**: People who run :card[Shared Summons]
 - **Take out**: 2 Street Wraith, 1-2 Preordain, 1 Island, 1 Pact of Negation,
   maybe 1 Watery Grave, maybe 1 Lion's Eye Diamond, maybe 1 Deep Analysis
 - **Bring in**: 2-4 Force of Negation, maybe 1 Thassa's Oracle, 2 Flusterstorm,

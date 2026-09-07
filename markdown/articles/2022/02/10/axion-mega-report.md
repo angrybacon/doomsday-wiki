@@ -23,10 +23,10 @@ It was an amazing event run with lots of lovely people involved with judging
 also provided us with delicious decklists and metagame data) and of course
 playing! It was great to see people just having fun, jamming some cards and
 enjoying themselves. There were only two drops from players in round 4 but other
-than that, everyone played the entire swiss which goes to show just how much
+than that, everyone played the entire Swiss which goes to show just how much
 people just wanted to play!
 
-The event was 32 players. 5 round swiss with a cut to top 4. There were also two
+The event was 32 players. 5 round Swiss with a cut to top 4. There were also two
 _bonus top 4s_ for 5th to 8th place and 9th to 12th place respectively. The
 entire top 4 prized and the winners of the bonus top 4s also won some goodies.
 First place was a Revised Underground Sea, second a Revised Taiga and various
@@ -79,7 +79,7 @@ What we can see is that Graveyard based decks were very underrepresented with
 only one pilot taking a stand. It's often tough to work out whether people are
 in the peaks of overloading with anti-Graveyard hate or troughs of skimping out
 on it but with :card[Endurance] in abundance alongside a large number of
-potential Force effects and :card[Bojuka Bogs] it likely is tricky to find the
+potential Force effects and :card[Bojuka Bog] it likely is tricky to find the
 wins without going full throttle with something like Oops All Spells. Tempo,
 Prison and Blue Control were all equally represented in the top macro archetype
 slots with 6 pilots each followed by Midrange at 5 pilots, Aggro at 4 and both
@@ -124,12 +124,12 @@ I was one of the lucky few who managed to secure a ticket and with only the
 knowledge that "there will probably be UR Delver and Death & Taxes" about I had
 to try and come up with my list. To make things slightly trickier I had gone 1-3
 at the last local FNM I had played in (making me feel a little bummed out) and,
-probably more importantly, the :card[Ragavan, Nimbler Pilferer] ban had come
-into effect so I was probably due to make some changes to my [previous
+probably more importantly, the :card[Ragavan, Nimble Pilferer] ban had come into
+effect so I was probably due to make some changes to my [previous
 list](/articles/2022/01/22/zero-respect#the-decklist) whilst being unable to
 test for the event at all thanks to general life things getting in the way.
 
-::decklist{path=2022/02/zero-respect}
+::decklist{url=2022/02/zero-respect}
 
 As a result I took my previous list as a starter and begun conversing online
 with various community members to try and assess what changes I might want to
@@ -412,7 +412,7 @@ discarding until I died but it must have been funny things.
 
 Game 3 is back to normal business. I cast a turn 1 Doomsday with a double Petal
 hand and win after passing a few turns. And with that we head towards the final
-swiss round.
+Swiss round.
 
 **Match**: 2-1  
 **Matches**: 4-0  
@@ -443,7 +443,7 @@ potentially my round 4 opponent.
 The top 4 cut is actually pretty neat and not what I expected. Obviously Chris
 and I take the top two spots (Chris ahead on GW% which I could have improved by
 not playing so badly >.< ). Instead of a nice durdly control deck or another
-Death & Taxes opponent to munch on, I am greeted by the 3rd and 4th swiss places
+Death & Taxes opponent to munch on, I am greeted by the 3rd and 4th Swiss places
 being taken by none other than my round 3 opponent David (so UR Delver again)
 and Mr Callum Smith of Everyday Eternal fame on Imperial Painter, a matchup that
 can be very tough to navigate. I was in no good mindset to be able to pile
@@ -457,7 +457,7 @@ I was however already more than satisfied with my performance despite the
 mistakes and given how tired I still felt (though more alive thanks to foods) I
 think I was happy to be winning or losing at this point. In fact losing seemed
 like a great idea to just allow me to go to bed quicker but I am stubborn and
-competetive so we endured. And, going into the semi-final we meet once again
+competitive so we endured. And, going into the semi-final we meet once again
 with David.
 
 ### Semi-Final vs. David on UR Delver
@@ -505,7 +505,7 @@ with David who was a very fun opponent!). My 7 was a reasonable hand with
 cantrips and some interaction so I shipped it away because it failed to cast
 Doomsday on turn 1. My 6 cast Doomsday on turn 1 so I kept it. It even had a
 Daze as a nice little extra. I drop double Petal, Sea and cast Doomsday and it
-just resolves.... Not what I was expecting. Anyways I pile something sensible.
+just resolves... Not what I was expecting. Anyways I pile something sensible.
 Clutch the Daze for any hated shenanigans and find myself watching as David's
 outs slowly trickled to 0. Again Island and Cavern do their job and despite a
 Surgical again on Doomsday this time the pile is resilient as all hell.
@@ -548,7 +548,7 @@ intrigued) and thus complete my one and only same turn win of the event.
 
 Sideboarding was a scary prospect. What {W}{U} lacks in terms of pressure in
 game 1 it can make up for in potential toolbox cards in games 2 and 3. Torpor
-Orb, Meddling Mage and :card[Ethersword Canonist] all came to mind and so I
+Orb, Meddling Mage and :card[Ethersworn Canonist] all came to mind and so I
 boarded thinking these elements likely. As I was against a tempo deck I didn't
 really want to stress my mana out so I decided to ignore the {R} splash for now.
 Additional Duress came in, I think Chain and Massacre both came in too. Probably

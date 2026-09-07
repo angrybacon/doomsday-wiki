@@ -29,20 +29,20 @@ export const remarkRow: ReadPlugin<
 
       if (node.type === 'leafDirective') {
         file.fail(
-          'Unexpected "cards" leaf directive, use three colons instead',
+          'Unexpected "row" leaf directive, use three colons instead',
           node,
         );
       }
 
       if (node.type === 'textDirective') {
         file.fail(
-          'Unexpected "cards" text directive, use three colons instead',
+          'Unexpected "row" text directive, use three colons instead',
           node,
         );
       }
 
       const text = toString(node).trim();
-      if (!text) file.fail('Missing items in `cards` directive', node);
+      if (!text) file.fail('Missing items in "row" directive', node);
 
       const cards = text.split('\n').map((query, index) => {
         const faces = scries[query];

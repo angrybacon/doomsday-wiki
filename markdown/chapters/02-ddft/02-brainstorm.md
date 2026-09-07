@@ -51,7 +51,7 @@ LED
 You can see that this not only decreases the total cost of the pile by 1 mana,
 but also drastically reduces the amount of blue mana needed. This is useful,
 since it lets Brainstorm act almost like a ritual, effectively _producing_
-{U}{U} mana for Ideas Unbound. It also increases the Storm count by 1 compared
+{U}{U} mana for Ideas Unbound. It also increases the _Storm_ count by 1 compared
 to the basic pile, since you get an extra spell in the pile.
 
 ## Example 2
@@ -76,9 +76,9 @@ LED
 1. Cast BW, hold priority and crack LEDs for {B}{B}{B}{B}{B}{B}, get ToA
 1. Cast ToA
 
-In this example, you can see that the Storm count is again increased, as well as
-the amount of black mana needed decreased. Here, Brainstorm is letting you swap
-the Petal for a DR to cast IC.
+In this example, you can see that the _Storm_ count is again increased, as well
+as the amount of black mana needed decreased. Here, Brainstorm is letting you
+swap the Petal for a DR to cast IC.
 
 ## Example 3
 

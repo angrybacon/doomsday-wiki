@@ -35,7 +35,7 @@ export const Spoiler = ({ children, node }: Props) => {
           p: 2,
         },
         node.position.start.line === node.position.end.line && {
-          borderRadius: 1,
+          borderRadius: 2,
           px: '.2em',
           py: '.1em',
         },

@@ -19,7 +19,7 @@ Bizkit songs and "What's New, Pussycat" as sung by Tom Jones and Engelbert
 Humperdinck and arrive at the venue feeling refreshed and ready for 9 grueling
 rounds of Magic. I scribble out this decklist:
 
-::decklist{path=2018/03/ddft.ubrg}
+::decklist{url=2018/03/ddft.ubrg}
 
 And the hellride begins in earnest. This is all from sketchy notes and memory,
 so bear with it.
@@ -137,10 +137,10 @@ turn 3 and they fire off both Surgicals, taking irrelevant cantrips in my grave.
 This lets me hit both Bolts, so they can't kill me when I Doomsday. They attack
 me down low, I untap, and start going off. I wish for Tendrils, and say
 "Tendrils you for 20?" They count up all the spells I cast and gleefully inform
-me that I am short on storm and only got 18. I remind them that their life total
-is like 12 after those Surgicals and it doesn't fucking matter because they're
-still dead. After they sign the slip and flee, I count up my storm and it was in
-fact the full ten drills.
+me that I am short on _Storm_ and only got 18. I remind them that their life
+total is like 12 after those Surgicals and it doesn't fucking matter because
+they're still dead. After they sign the slip and flee, I count up my _Storm_ and
+it was in fact the full ten drills.
 
 3-2. Time to ride the lightning.
 
@@ -159,7 +159,7 @@ We draw go for a while and I get beat with Salvagers. I have the most of the
 combo in hand but am tight on mana and need a Ritual. They find another LED and
 go infinite with a Mishra's Bauble to draw most of their deck in my upkeep.
 Fortunately, I draw an extremely timely Ritual and blow them away with a simple
-storm kill.
+_Storm_ kill.
 
 G3: They lead on Mentor again make a couple tokens. I have discard and a
 cantrip. I'm a bit worried about Chalice or Canonist but I figure if they had
@@ -178,7 +178,7 @@ them on Miracles, which is correct. I Duress them and see they have maindeck
 B2B, which is annoying because I like to be able to fetch nonbasics vs Miracles.
 They don't have any countermagic however, and on turn 4 I have a 2nd discard
 spell to make sure the coast is still clear, and then win with a very basic
-storm kill.
+_Storm_ kill.
 
 -2 Lotus Petal, -2 Preordain, -1 Island  
 +1 Thoughtseize, +2 Abrupt Decay, +1 Tropical Island, +1 Sylvan Library
@@ -273,7 +273,7 @@ gets a Clique out and leaves my Doomsday and ritual in hand, which is a real bad
 sign, but at this point he'd been Azcanta-ing for 6+ turns and I'm sure his hand
 was well stocked. We go to time and on turn 0 of turns, I'm dead on board to
 Clique, so I make move. With 2 Bauble on board, if the top 2 cards of my deck
-are Burning Wishes, I have an ouside shot at winning if he somehow only has a
+are Burning Wishes, I have an outside shot at winning if he somehow only has a
 couple counterspells. I play out a couple LEDs I'd picked up, then ritual into
 Doomsday. It gets countered. I crack my LEDs and then draw with a Bauble. I peel
 a Wish, but it gets countered. I crack the other Bauble but it just draws me a
@@ -301,7 +301,7 @@ never use and get a foil Lab Maniac and a foil Empty the Warrens. Then I
 scribble out my decklist for the Legacy Classic. I decided to drop the green
 splash this time, to compare the two versions.
 
-::decklist{path=2018/03/ddft.ubr}
+::decklist{url=2018/03/ddft.ubr}
 
 I almost fall asleep at my table for the players meeting. I drink half an energy
 drink, and sit down for the first round of the Classic.
@@ -343,7 +343,7 @@ with a 5 minute time extension.
 
 G1: My opener has 3 discard spells, 3 lands, and a Doomsday. I Just make land
 drops, point a discard spell at my opponent every so often, and eventually draw
-into what I need for a clean storm kill and finish them off around turn 6 or 7.
+into what I need for a clean _Storm_ kill and finish them off around turn 6 or 7.
 
 -2 Preordain, -1 Burning Wish  
 +1 Thoughtseize, +2 Empty the Warrens
@@ -381,7 +381,7 @@ remains a mystery.
 -4 Cabal Therapy, -1 Conjurer's Bauble  
 +2 Hurkyl's Recall, +1 Echoing Truth, +1 Chain of Vapor, +1 Thoughtseize
 
-G2: I fetch and Thouhgtseize away a chalice, leaving them with a Sudden Shock, a
+G2: I fetch and Thoughtseize away a chalice, leaving them with a Sudden Shock, a
 Chandra, and a Fiery Confluence. They just play lands and I cantrip. On turn 3 I
 make a pass-the-turn pile, except I'm at 17 life so I drop to 8. End of turn
 they Sudden Shock me, untap, and cast Fiery Confluence to burn me for the
@@ -410,7 +410,7 @@ buys me another turn and I win by Wishing up a Doomsday and storming out.
 -1 Conjurer's Bauble  
 +1 Thoughtseize
 
-G2: He has a Draw4 on turn 1 but draws garbage again. We rip eachother's hands
+G2: He has a Draw4 on turn 1 but draws garbage again. We rip each other's hands
 apart with discard and start a topdeck war. I eventually find a Wish, go to grab
 a Doomdsay and... shit it's not there. I forgot to put it back in my board after
 last game. I just have to pass, but my opponent can't draw a business spell to
@@ -438,7 +438,7 @@ turn.
 
 G3: I'm on the play and my hand has a Doomsday, a Brainstorm, some lands, and 3
 discard spells. All my discard spells function as timewalks, and I naturally
-draw into what I need to storm out on turn 4.
+draw into what I need to _Storm_ out on turn 4.
 
 2-0. Glad I dropped from that stupid Classic.
 

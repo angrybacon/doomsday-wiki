@@ -4,8 +4,9 @@ import { RemarkError } from '@korumite/kiwi';
 import { Box, Typography } from '@mui/material';
 
 export const Image: Components['img'] = ({ alt, node, src, title }) => {
-  if (!alt) throw new RemarkError('Missing alternate title', { node });
-  if (!src) throw new RemarkError('Missing source', { node });
+  if (!alt) throw new RemarkError('Missing image alternate title', { node });
+  if (!src) throw new RemarkError('Missing image source', { node });
+  if (!title) throw new RemarkError('Missing image title', { node });
   return (
     <>
       <Box
@@ -51,9 +52,13 @@ export const Image: Components['img'] = ({ alt, node, src, title }) => {
       </Box>
       {title && (
         <Typography
-          color="textSecondary"
           component="em"
-          sx={{ display: 'block', mt: 1, textAlign: 'center' }}
+          sx={{
+            color: 'text.secondary',
+            display: 'block',
+            mt: 1,
+            textAlign: 'center',
+          }}
           variant="caption"
         >
           {title}

@@ -34,5 +34,5 @@
 1 Snuff Out
 1 Relic of Progenitus
 3 Leyline of the Void
-3 Subtletly
+3 Subtlety
 3 Sheoldred, the Apocalypse

@@ -23,7 +23,7 @@ This tech was extremely popular during the height of Miracles' power, since it
 was immune to counterspells after Doomsday resolved. Blue mages would try to
 trap you by letting Doomsday resolve, and you could slow-roll out an
 uncounterable Eldrazi to punish them. It fell out of favor over the past couple
-years but 2021 has seen a bit of a rennaissance in [Meandeck][meandeck:basics],
+years but 2021 has seen a bit of a renaissance in [Meandeck][meandeck:basics],
 where it is being used to beat Endurance out of Bant Control decks.
 
 [meandeck:basics]: /meandeck/basics
@@ -153,7 +153,7 @@ the inclusion Thassa's Oracle, is nevertheless useful to know, since its
 execution requires no unusual cards. A situation could be contrived where this
 type of pile was a reasonable option though you are unlikely to encounter such a
 situation in the wild; for example, your opponent has a :card[Leyline of
-sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
+Sanctity] and a :card[Meddling Mage] naming Thassa's Oracle.
 
 ### Example 1
 

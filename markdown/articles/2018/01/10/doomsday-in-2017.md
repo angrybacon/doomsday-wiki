@@ -51,7 +51,7 @@ wide range of data sources and to minimise pilot variance to allow the deck
 itself to shine through results wise. The results pool is still small at the
 time of writing (337 matches recorded) but it still provides a good starting
 snapshot to get an idea of how the deck is doing. Any results involving the
-mirror match have been ommitted for any statistics involving game results.
+mirror match have been omitted for any statistics involving game results.
 
 Although I am presenting these statistics this article is just using them to
 help answer questions. I am planning to release a full article soon to properly
@@ -224,8 +224,8 @@ This gives us point 4:
 ### Doomsday is Now Just a Worse ANT/TES
 
 These are fair comments. It is true that cards like Past in Flames are
-incredibly powerful engines that in many situations are less akward and more
-consistent than Doomsday itself. Our data above including EtW results definately
+incredibly powerful engines that in many situations are less awkward and more
+consistent than Doomsday itself. Our data above including EtW results definitely
 skews it faster so what if we take out those results and consider only the wins
 that use the deck's namesake card? We'll also have a look at the breakdown in
 how the deck actually goes about winning to work out how much the statement
@@ -242,7 +242,7 @@ of...
 | DDFT | 2.99               |
 | TES  | 2.61               |
 
-Focussing only on the Dd winning lines we see the turn average has definately
+Focussing only on the Dd winning lines we see the turn average has definitely
 gone up but is still on par with ANT. Following on from this point again Nanda
 had real concerns that Doomsday as a deck was not winning using its namesake
 card. Let's look at the breakdown of winning game engines:

@@ -1,7 +1,6 @@
 import type { Card } from '~/tools/decklists/types';
 
-import { mdiChevronDown } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMoreRounded';
 import {
   Box,
   Accordion as MuiAccordion,
@@ -37,7 +36,7 @@ export const Decklist = ({
 }: Props) => (
   <MuiAccordion>
     <MuiAccordionSummary
-      expandIcon={<Icon path={mdiChevronDown} size={1} />}
+      expandIcon={<ExpandMoreIcon />}
       sx={{
         [`.${accordionSummaryClasses.content}`]: { flexWrap: 'wrap', gap: 1 },
       }}

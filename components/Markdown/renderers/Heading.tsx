@@ -1,5 +1,6 @@
 import type { Components } from 'react-markdown';
 
+import { RemarkError } from '@korumite/kiwi';
 import { Typography } from '@mui/material';
 
 export const Heading: Components[`h${1 | 2 | 3 | 4 | 5 | 6}`] = ({
@@ -17,10 +18,10 @@ export const Heading: Components[`h${1 | 2 | 3 | 4 | 5 | 6}`] = ({
     node?.tagName !== 'h5' &&
     node?.tagName !== 'h6'
   ) {
-    throw new Error('Could not guess heading level');
+    throw new RemarkError('Could not guess heading level', { node });
   }
   return (
-    <Typography id={id} sx={{ pt: { xs: 2, sm: 3 } }} variant={node.tagName}>
+    <Typography id={id} variant={node.tagName}>
       {children}
     </Typography>
   );

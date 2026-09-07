@@ -24,30 +24,30 @@ thought was given to the card for a few months. As the end of the decade drew
 closer, Echo decks started to creep into the metagame a bit, and I started
 thinking more and more about the card. It dawned on me that if you cast Doomsday
 and cracked an LED to flashback Echo of Eons, you'd have at least 7 cards (Dd,
-LED, plus your pile) to draw with Echo. Echo could function as a storm engine on
-it's own, facilitate Doomsday piles, and recoup cards after getting disrupted.
-With this in mind, I figured I wanted multiple copies maindeck. Burning Wish
-could let me have effectively 7 copies maindeck, as well as provide a higher
-density of wincons to hit if I was trying to storm off with Echo as my engine.
-Pushing farther in this storm-based direction, I realized I'd likely want Cabal
-Rituals, and this incentivized Draw 4's as my main way to draw Doomsday piles
-and a tertiary storm engine. Without Act on Impulse, Jace and Lab Man are quite
-bad, so I leaned further into the storm side of the deck. The final innovation
-came after I was convinced that Veil of Summer was worth contorting the mana to
-include. When all was said and done, I ended up on this:
+LED, plus your pile) to draw with Echo. Echo could function as a _Storm_ engine
+on it's own, facilitate Doomsday piles, and recoup cards after getting
+disrupted. With this in mind, I figured I wanted multiple copies maindeck.
+Burning Wish could let me have effectively 7 copies maindeck, as well as provide
+a higher density of wincons to hit if I was trying to storm off with Echo as my
+engine. Pushing farther in this _Storm_-based direction, I realized I'd likely
+want Cabal Rituals, and this incentivized Draw 4's as my main way to draw
+Doomsday piles and a tertiary _Storm_ engine. Without Act on Impulse, Jace and
+Lab Man are quite bad, so I leaned further into the _Storm_ side of the deck.
+The final innovation came after I was convinced that Veil of Summer was worth
+contorting the mana to include. When all was said and done, I ended up on this:
 
-::decklist{path=2020/01/ddft.ubrg}
+::decklist{url=2020/01/ddft.ubrg}
 
 ## Playing the Deck
 
 This deck and many of its play patterns should look familiar to people who
 played Doomsday circa 2013, or played the Draw4 list in early 2018. Doomsday is
-your primary storm engine. A very basic pile would look like \[Draw4, Petal,
+your primary _Storm_ engine. A very basic pile would look like \[Draw4, Petal,
 Rit, Rit, ToA\]. You cast Doomsday, then cantrip into the pile, often using
 Lion's Eye Diamond to generate mana for the Draw4, which draws you the mana to
-cast Tendrils. The pile itself is 5 storm, so you need to cast enough spells
+cast Tendrils. The pile itself is 5 _Storm_, so you need to cast enough spells
 before Doomsday to make it lethal. You can also use Burning Wish to grab
-Tendrils and add one more storm, but this costs more mana. It's important to
+Tendrils and add one more _Storm_, but this costs more mana. It's important to
 keep in mind that using a Draw4 in a Doomsday pile means you will be halving
 your life total twice. Life total management is an important aspect of playing
 Doomdsay, and if your life total goes below 4 you need to think about how to win
@@ -67,10 +67,10 @@ probabilities, but in general there are a couple patterns to these
 cantrip you used to crack into the pile) to ensure that you see all the cards
 left after an Echo. It is also possible to use multiple Echoes in 1 pile,
 letting you redraw your pile multiple times. This can be useful for jacking your
-storm count way up in case you need to kill with Grapeshot.
+_Storm_ count way up in case you need to kill with Grapeshot.
 
-I find it diffficult to get a handle on these kinds of situations without seeing
-an example, so I reccomend goldfishing a bunch, but I'll try to lay out 3
+I find it difficult to get a handle on these kinds of situations without seeing
+an example, so I recommend goldfishing a bunch, but I'll try to lay out 3
 scenarios that I think will demonstrate some of the Echo Pile concepts. In each
 of the following examples, assume you opponent cannot interact.
 
@@ -106,7 +106,7 @@ win. By my calculation this has around a 70% chance of happening. Good odds, but
 non-deterministic. As an exercise for the reader, try to think if there may be a
 way to modify the pile to improve your success rate.
 
-Using Echo as a storm engine without Doomsday is nice and straightforward: make
+Using Echo as a _Storm_ engine without Doomsday is nice and straightforward: make
 a bunch of mana, cast Echo, and hope you draw well. The main consideration here
 is how much mana and what types you leave yourself. While it is entirely
 possible to win with no mana after Echo, the more mana you have, the better your
@@ -132,9 +132,9 @@ be more aggressive with your cantrips.
 
 ### Fair Blue Decks
 
-_Slightly favorable, how much depends a lot on the specfic opponent._
+_Slightly favorable, how much depends a lot on the specific opponent._
 
-It may seem suprising on the surface, but this deck is fine against blue decks.
+It may seem surprising on the surface, but this deck is fine against blue decks.
 Refilling a blue mage's hand or going all in on Doomsday may not seem like good
 gameplans, but there is more to it than that. Veil of Summer is obviously very
 good at protecting you, even if you refill their hand with Echo. Furthermore,

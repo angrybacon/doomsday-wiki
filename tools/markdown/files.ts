@@ -14,11 +14,11 @@ const BASE_URL = join(process.cwd(), 'markdown');
 
 /** Base file URLs for Markdown content */
 export const BASE_URLS = {
-  // oxlint-disable no-deprecated
+  // oxlint-disable typescript/no-deprecated
   ARTICLES: join(BASE_URL, 'articles'),
   CHAPTERS: join(BASE_URL, 'chapters'),
   ROOT: BASE_URL,
-  // oxlint-enable no-deprecated
+  // oxlint-enable typescript/no-deprecated
 } as const;
 
 const ARTICLES_TREE = z

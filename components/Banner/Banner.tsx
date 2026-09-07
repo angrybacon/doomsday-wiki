@@ -1,6 +1,5 @@
 'use client';
 
-import type { SxProps } from '@mui/material';
 import type { Banner as BannerModel } from '~/tools/markdown/types';
 
 import { Box, Typography } from '@mui/material';
@@ -11,10 +10,9 @@ type Props = {
   banner: BannerModel;
   minutes: number;
   title: string;
-  sx: SxProps;
 };
 
-export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
+export const Banner = ({ authors, banner, minutes, title }: Props) => {
   const [ready, setReady] = useState(false);
 
   const onLoad = useCallback(() => setReady(true), []);
@@ -22,7 +20,7 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
   const image = useCallback(
     (element: HTMLImageElement | null) => {
       // NOTE The image's `onLoad` fires before React even finishes loading so
-      //      server-rendered component need a jQuery approach to have the fade
+      //      server-rendered components need a jQuery approach to have the fade
       //      animation.
       if (element?.complete) onLoad();
     },
@@ -32,25 +30,21 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
   return (
     <Box
       data-dark
-      sx={[
-        {
-          alignItems: 'center',
-          // NOTE Chromium (?) expands the child blur area outside of the border
-          //      radius. This resets the blur in order to avoid white corners.
-          backdropFilter: 'blur(0)',
-          backgroundImage: `url(${banner.lqip})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          borderRadius: 4,
-          display: 'flex',
-          height: { xs: 160, md: 250 },
-          justifyContent: 'center',
-          overflow: 'hidden',
-          position: 'relative',
-        },
-        // oxlint-disable-next-line no-unsafe-assignment
-        ...(Array.isArray(sx) ? sx : [sx]),
-      ]}
+      sx={{
+        alignItems: 'center',
+        // NOTE Chromium (?) expands the child blur area outside of the border
+        //      radius. This resets the blur in order to avoid white corners.
+        backdropFilter: 'blur(0)',
+        backgroundImage: `url(${banner.lqip})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        borderRadius: 4,
+        display: 'flex',
+        height: { xs: 160, sm: 180, md: 250 },
+        justifyContent: 'center',
+        overflow: 'hidden',
+        position: 'relative',
+      }}
       title={banner.title}
     >
       <Box
@@ -80,7 +74,7 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
       <Box
         sx={{
           display: 'grid',
-          gap: 4,
+          gap: { xs: 1, md: 2 },
           justifyItems: 'center',
           position: 'absolute',
           px: 2,
@@ -90,7 +84,13 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
         <Typography
           sx={{
             color: 'text.primary',
-            fontSize: { xs: 'h6.fontSize', md: 'h1.fontSize' },
+            fontSize: {
+              xs: 'h4.fontSize',
+              sm: 'h3.fontSize',
+              md: 'h2.fontSize',
+              lg: 'h1.fontSize',
+            },
+            py: 0,
             textShadow: '0 0 8px black',
           }}
           variant="h1"
@@ -103,11 +103,11 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
               color: 'text.secondary',
               display: { xs: 'none', sm: 'block' },
               fontStyle: 'italic',
-              maxWidth: '80%',
-              textShadow: '0 0 4px black',
+              maxWidth: { lg: '80%' },
+              textShadow: '0 0 8px black',
               whiteSpace: 'pre-wrap',
             }}
-            variant="subtitle2"
+            variant="caption"
           >
             {banner.flavor}
           </Typography>
@@ -118,14 +118,14 @@ export const Banner = ({ authors, banner, minutes, title, sx }: Props) => {
           bottom: 0,
           color: 'text.secondary',
           display: 'flex',
-          flexDirection: { xs: 'row', md: 'column' },
+          flexDirection: { xs: 'row', lg: 'column' },
           left: 0,
           pb: 1,
           px: 2,
           position: 'absolute',
           right: 0,
           textAlign: 'right',
-          textShadow: '0 0 4px black',
+          textShadow: '0 0 8px black',
         }}
         variant="caption"
       >

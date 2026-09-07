@@ -19,12 +19,12 @@ The Doomsday piles that we will explain here are all based on using either Ideas
 Unbound or Infernal Contract as the big draw spell. There is some division in
 terms of decklists so adjust accordingly.
 
-There are some key rules you can use to help remember things like Storm count.
+There are some key rules you can use to help remember things like _Storm_ count.
 If the intended pile is meant to win without passing the turn then you always
-have at least 1 Storm to begin with from Doomsday itself. Additionally if all
+have at least 1 _Storm_ to begin with from Doomsday itself. Additionally if all
 cards used in the Doomsday pile are spells you can cast, then you get to add 5
-Storm from that. Breaking down the card sets of pre-pile, pile and wish targets
-helps the mind easily compute what Storm count you will end up with from a
+_Storm_ from that. Breaking down the card sets of pre-pile, pile and wish targets
+helps the mind easily compute what _Storm_ count you will end up with from a
 certain line of play.
 
 ### Single Cantrip Piles
@@ -55,12 +55,12 @@ BW
 1. Cast BW for ToA
 1. Cast ToA
 
-This pile has cost you {B}{B}{B} + {U}{U}{U} and 2 life and results in 7 Storm,
+This pile has cost you {B}{B}{B} + {U}{U}{U} and 2 life and results in 7 _Storm_,
 that is only 14 lifeloss. Note that the {U}{U} for IU is often paid for by a
 Lion's Eye Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond
 preceding the Doomsday you're already up to 18 lifeloss. Add in a Duress or an
 extra ritual beforehand and they're dead.  
-If you are low on life or need an extra storm, you'll can exchange the Street
+If you are low on life or need an extra _Storm_, you'll can exchange the Street
 Wraith with a Ponder at the cost of 1 more {U} mana.
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U}
@@ -80,8 +80,8 @@ TO
 1. Use the Petals to cast Oracle
 1. Oracle triggers with no cards left in your deck for the win
 
-This pile costs the same as the Tendrils pile, but the storm count doesn't
-matter, which obviously is great when you can't generate enough storm.
+This pile costs the same as the Tendrils pile, but the _Storm_ count doesn't
+matter, which obviously is great when you can't generate enough _Storm_.
 
 #### Infernal Contract
 
@@ -100,10 +100,10 @@ BW
 1. Cast IC, draw LP, LED, LED, ToA
 1. Cast LP and the LEDs
 1. Cast BW, holding priority, then crack LEDs for BBBBBB
-1. Retrive ToA from your sideboard and cast it
+1. Retrieve ToA from your sideboard and cast it
 
 This pile costs {B}{B}{B} + {1}{U}{B}{B}{B}, requires you have at least 2 life
-post-Doomsday, and results in 8 Storm. Like with Ideas Unbound, the mana cost
+post-Doomsday, and results in 8 _Storm_. Like with Ideas Unbound, the mana cost
 for the Draw-4 can be - and often is - paid for by a Lion's Eye Diamond in
 response to the first cantrip.
 
@@ -123,7 +123,7 @@ TO
 1. Oracle triggers with no cards in library for the win.
 
 Oracle piles can be done with Infernal Contract as well, and cost 1 less mana
-than a Storm pile with Contract.
+than a _Storm_ pile with a contract.
 
 ### Double Cantrip Piles
 
@@ -149,7 +149,7 @@ BW
 1. Cast BW, hold priority crack LED for {B}{B}{B}, get ToA
 1. Cast ToA
 
-This pile costs {B}{B}{B} + {1}{U}{U} to execute and results in 9 Storm. We use
+This pile costs {B}{B}{B} + {1}{U}{U} to execute and results in 9 _Storm_. We use
 the second cantrip in hand to draw a Lion's Eye Diamond before executing the
 rest of the pile and use that Lion's Eye Diamond to pay for much of the rest of
 the pile. We basically turn our additional cantrip into a Lion's Eye Diamond
@@ -212,7 +212,7 @@ That's it for the basic and most common piles. There are many variations of each
 pile and it doesn't really make sense to list them all. In each of the above
 piles you may replace one cantrip with another, you simply need the life or mana
 to use it. Also of note, the use of an on-board Conjurer's Bauble to draw into
-the piles allows for lower mana or life costs but does result in less Storm
+the piles allows for lower mana or life costs but does result in less _Storm_
 being generated during the play line.
 
 The most important part of learning how to cast Doomsday is to try not to think
@@ -225,14 +225,14 @@ scenario you might come across.
 
 This is only a small subset of the types of piles you'll require, but these
 basic forms are the foundation for other piles you'll encounter. In later
-chapters, you'll learn tricks for increasing Storm count, swapping cards into
+chapters, you'll learn tricks for increasing _Storm_ count, swapping cards into
 your piles with Brainstorm, and crafting piles that can win through certain
 types of disruption.
 
 ## Conclusion
 
 1. You generally need a card that lets you draw most of your pile
-1. Lethal Storm via Tendrils of Agony and Thassa's Oracle triggers are the most
+1. Lethal _Storm_ via Tendrils of Agony and Thassa's Oracle triggers are the most
    common win conditions for the deck. Each is best applied in different game
    scenarios which you'll learn with time.
 1. Holding priority when cantripping with LED in play is key, make sure to get
@@ -243,4 +243,4 @@ types of disruption.
 You now have sufficient information to start practicing! Start goldfishing and
 try to figuring out what piles to build and how to execute them.
 
-::decklist{path=ddft}
+::decklist{url=ddft}

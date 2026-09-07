@@ -2,13 +2,11 @@ import type { ReactNode } from 'react';
 import type { ExtraProps } from 'react-markdown';
 
 import { RemarkError } from '@korumite/kiwi';
-import { mdiChevronDown } from '@mdi/js';
-import { Icon } from '@mdi/react';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMoreRounded';
 import {
   Accordion as MuiAccordion,
   AccordionDetails as MuiAccordionDetails,
   AccordionSummary as MuiAccordionSummary,
-  Typography,
 } from '@mui/material';
 import { Children } from 'react';
 
@@ -24,8 +22,8 @@ export const Accordion = ({ children, node, path }: Props) => {
   if (!title) throw new RemarkError('Missing title', { node, path });
   return (
     <MuiAccordion>
-      <MuiAccordionSummary expandIcon={<Icon path={mdiChevronDown} size={1} />}>
-        <Typography variant="caption">{title}</Typography>
+      <MuiAccordionSummary expandIcon={<ExpandMoreIcon />}>
+        {title}
       </MuiAccordionSummary>
       <MuiAccordionDetails sx={{ display: 'grid', gap: 2 }}>
         {content}

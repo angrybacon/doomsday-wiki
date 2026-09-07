@@ -21,6 +21,9 @@ export default () => (
     />
     <Box
       data-dark
+      // NOTE We identify the content from the page so that the footer can
+      //      target it from a sibling.
+      data-not-found
       sx={{
         alignSelf: 'center',
         color: 'text.primary',

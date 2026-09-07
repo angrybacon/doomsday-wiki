@@ -39,7 +39,7 @@ of the field.
 
 It's likely due to these reasons mixed with a bit of a love for brewing and the
 desire to tailor a strategy to a pilot#'s own style that has seen this change
-come about. Today I want to dicuss the different theories and means of building
+come about. Today I want to discuss the different theories and means of building
 Meandeck Doomsday and how they might impact your performance or style.
 
 ## Alignment Axis 1 - Speed
@@ -51,11 +51,11 @@ being aimed for and how well the deck fairs in different stages of the game.
 
 ### Speed Purist - The Fast and the Furious (Turbo Doomsday)
 
-Well known combo afficienado Jax has worked on trying to develop faster builds
-of Doomsday since around March/April 2020. He was one of the ones who truly
-pushed the wider usage of Daze forwards and has tried a number of iterations of
-the deck. Between Jax and skilled player kl0gw (who seems to be a 5-0 machine)
-they developed what is being colloquially called "Turbo Doomsday". Whilst the
+Well known combo aficionado Jax has worked on trying to develop faster builds of
+Doomsday since around March/April 2020. He was one of the ones who truly pushed
+the wider usage of Daze forwards and has tried a number of iterations of the
+deck. Between Jax and skilled player kl0gw (who seems to be a 5-0 machine) they
+developed what is being colloquially called "Turbo Doomsday". Whilst the
 previous baseline ran on average 2-3 Lotus Petals and maybe 1-2 _bad_ tutors
 such as Personal Tutor or Lim-Dûl's Vault to increase support on finding
 Doomsday, it mostly relied on a heavy cantrip shell and had a decent balance on
@@ -84,7 +84,7 @@ configurations at the time of writing.
 
 Here is an example list from a recent MTGO League trophy by kl0gW:
 
-::decklist{path=2021/02/19/meandeck.ub.kl0gw}
+::decklist{url=2021/02/19/meandeck.ub.kl0gw}
 
 ### Speed Neutral - Old Reliable (Base Meandeck)
 
@@ -111,7 +111,7 @@ most popular although you can find variants available in {W}{U}{B}, {U}{B} or
 
 Here is an example list from a recent 13th place PTQ finish by RonColpoCinese:
 
-::decklist{path=2021/02/19/meandeck.ubg.roncolpocinese}
+::decklist{url=2021/02/19/meandeck.ubg.roncolpocinese}
 
 ### Speed Radical - Basically Snowko (Doomsday Control)
 
@@ -149,9 +149,9 @@ it will slightly less resiliency or ability to splash as many colours.
 Here are two _(pre-ban)_ example lists from a recent 15th place challenge finish
 by Marcus Ewaldh and another from a recent mtgo league trophy by Nevilshute:
 
-::decklist{path=2021/02/19/meandeck.ubr.iwouldliketorespond}
+::decklist{url=2021/02/19/meandeck.ubr.iwouldliketorespond}
 
-::decklist{path=2021/02/19/meandeck.ubrg.nevilshute}
+::decklist{url=2021/02/19/meandeck.ubrg.nevilshute}
 
 ## Alignment Axis 2 - Greed
 
@@ -185,7 +185,7 @@ backup (where applicable) is pretty key.
 If budget allows then running the full 4 Seas alongside 3 basics (2 Island / 1
 Swamp) is plenty of safe mana to work with. Your fetchlands should be 4 Polluted
 Delta, 3-4 {U} based fetchlands and 0-1 {B} based fetchland. Prismatic Vista is
-not a suitable card to run as you really need to prioritse being able to find
+not a suitable card to run as you really need to prioritise being able to find
 the Underground Seas.
 
 Sticking to 2 colours has upsides but also a lot of limitations. Normally
@@ -205,7 +205,7 @@ strong Legacy playables.
 Here is an example list from a semi-recent 4-1 mtgo league result from
 BluStalker:
 
-::decklist{path=2021/02/19/meandeck.ub.blustalker}
+::decklist{url=2021/02/19/meandeck.ub.blustalker}
 
 ### Greed Neutral - 3 Colours
 
@@ -246,7 +246,7 @@ and the currently powerful creature suite of Dreadhorde Arcanist or Uro.
 
 Here is an example list from a recent 23rd PTQ placement by Helvetti:
 
-::decklist{path=2021/02/19/meandeck.ubr.helvetti}
+::decklist{url=2021/02/19/meandeck.ubr.helvetti}
 
 ### Greedy Motherfucker - 4 Colours
 
@@ -279,7 +279,7 @@ colour if you successfully resolve Doomsday in game 1. If the opponent looks
 through your deck and doesn't see any {r}x dual for example, they may not be
 prepared for Red-Elemental Blasts in game 2.
 
-The final option is the simplest which is to just shove it all in the main deck.
+The final option is the simplest which is to just shove it all in the maindeck.
 You would unlikely want both {U}x and {B}x duals of both colours so again, one
 is normally a secondary splash and the other a tertiary. I currently run 4
 colour no {W} and have the following land configuration:
@@ -300,11 +300,11 @@ recommend sticking with at least 3 Petal if considering 4 colours.
 Here are three example lists from recent mtgo league trophies by _Sawatarix_,
 _BCS8995_ and _Doishy_ respectively:
 
-::decklist{path=2021/02/19/meandeck.ubrg.sawatarix}
+::decklist{url=2021/02/19/meandeck.ubrg.sawatarix}
 
-::decklist{path=2021/02/19/meandeck.ubrg.bcs8995}
+::decklist{url=2021/02/19/meandeck.ubrg.bcs8995}
 
-::decklist{path=2021/02/19/meandeck.ubrg.doishy}
+::decklist{url=2021/02/19/meandeck.ubrg.doishy}
 
 Post-ban both Martin _nevilshute_ Nielsen and Kai _Sawatarix_ Sawatari have been
 on a good run with a 4 colours (no {w}) list featuring Daze, Uro, Strix, 2
@@ -314,7 +314,7 @@ nothing else I think it proved you can play the greedy control style list
 without heavy reliance on Astrolabe now that it's gone and with only 2 basics, 1
 Island and 1 Swamp. The list can be found below.
 
-::decklist{path=2021/02/19/meandeck.ubrg.nevilshute-postban}
+::decklist{url=2021/02/19/meandeck.ubrg.nevilshute-postban}
 
 ## Building the Chart
 

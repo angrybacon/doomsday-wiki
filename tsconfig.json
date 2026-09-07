@@ -10,14 +10,13 @@
       "~/theme/*": ["./theme/*"],
       "~/tools/*": ["./tools/*"]
     },
-    "plugins": [{ "name": "next" }],
     "target": "esnext",
+    "tsBuildInfoFile": ".cache/tsconfig.tsbuildinfo",
     "types": ["@testing-library/jest-dom", "vitest/globals"]
   },
   "exclude": ["node_modules"],
   "extends": "./node_modules/@korumite/ts/tsconfig.dom.json",
   "include": [
-    "**/*.mts",
     "**/*.ts",
     "**/*.tsx",
     ".next/dev/types/**/*.ts",

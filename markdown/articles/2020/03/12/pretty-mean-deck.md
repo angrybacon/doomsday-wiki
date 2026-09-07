@@ -76,7 +76,7 @@ Thraben] having a spare {U} can mean a lot.
 
 The second key advantage is being able to win the game without having to draw a
 card in the process. Laboratory Maniac has a window of opportunity whereby your
-opponent gets a chance to kill it. If this suceeds you more often than not just
+opponent gets a chance to kill it. If this succeeds you more often than not just
 kill yourself with your otherwise game winning draw. Oracle however lets you win
 the game whether the card is in play or not. The Oracle text on Oracle states
 
@@ -185,7 +185,7 @@ This is a very basic single cantrip pile.
 You have :card[Doomsday], :card[Street Wraith], :card[Preordain] in hand and
 Swamp and 3 x Underground Sea in play.
 
-1. Tap your lands for :card[UBBB]
+1. Tap your lands for {U}{B}{B}{B}
 1. Use {B}{B}{B} to cast Doomsday with {U} in pool
 
 Stack the following:
@@ -200,7 +200,7 @@ TO
 
 1. Use {U} to cast Preordain. Draw Lion's Eye Diamond
 1. Cast Lion's Eye Diamond
-1. Cycle the Street Wraith paying two life. Hold priotity and crack Lion's Eye
+1. Cycle the Street Wraith paying two life. Hold priority and crack Lion's Eye
    Diamond for {U}{U}{U}. Draw Predict
 1. Use {U}{U} to cast Predict targeting yourself
 1. Name Ponder with Predict putting Ponder into your graveyard and drawing
@@ -208,8 +208,8 @@ TO
 1. Cast Lotus Petal. Crack for {U} leaving {U}{U} in pool
 1. Use {U}{U} to cast Thassa's Oracle
 
-The entire line costs {B}{B}{B} + {U} and requires two cantrips in hand.  
-This is a very basic double cantrip pile.
+The entire line costs {B}{B}{B} + {U} and requires two cantrips in hand. This is
+a very basic double cantrip pile.
 
 ### The Final Scenario to Consider
 
@@ -234,7 +234,7 @@ TO
 1. Draw Lion's Eye Diamond, Street Wraith and Predict and replace back first
    Force of Will and then Predict on top
 1. Cast Lion's Eye Diamond
-1. Cycle the Street Wraith paying two life. Hold priotity and crack Lion's Eye
+1. Cycle the Street Wraith paying two life. Hold priority and crack Lion's Eye
    Diamond for {U}{U}{U}. Draw Predict
 1. Use {U}{U} to cast Predict targeting yourself
 1. Name Force of Will with Predict putting Force of Will into your graveyard and
@@ -243,8 +243,7 @@ TO
 1. Use {U}{U} to cast Thassa's Oracle
 
 The entire line costs {B}{B}{B} + {U} and requires Brainstorm and one additional
-card in hand.  
-This is a very basic Brainstorm pile.
+card in hand. This is a very basic Brainstorm pile.
 
 Feel free to have a go at goldfishing similar lines!
 
@@ -253,11 +252,11 @@ Feel free to have a go at goldfishing similar lines!
 Currently there seem to be two main styles of play; Esper {U}{B}{W} and BUG
 {U}{B}{G}.
 
-BUG was the first iteration and the main offer is main deck :card[Veil of
-Summer] along with sideboard options like :card[Abrupt Decay] for problem
-permanents or cards like :card[Xantid Swarm] and :card[Carpet of Flowers].
-Normally the BUG lists run the meme-turned-viable plan B card of :card[Divining
-Witch] as a way to never actually need to cast Doomsday in the first place.
+BUG was the first iteration and the main offer is maindeck :card[Veil of Summer]
+along with sideboard options like :card[Abrupt Decay] for problem permanents or
+cards like :card[Xantid Swarm] and :card[Carpet of Flowers]. Normally the BUG
+lists run the meme-turned-viable plan B card of :card[Divining Witch] as a way
+to never actually need to cast Doomsday in the first place.
 
 Esper changes your options slightly. Instead of Veil you have :card[Teferi, Time
 Raveler] to play both the anti-hate and anti-counter role. It also lets you take
@@ -270,9 +269,9 @@ where it will be at least a little more optimised than before. If you want some
 starting points for either list, see [Hulahula's][tcdecks:esper] and
 [Gre3n1T's][tcdecks:sultai] approaches, Esper and Sultai respectively.
 
-::decklist{path=2020/03/meandeck.wub}
+::decklist{url=2020/03/meandeck.wub}
 
-::decklist{path=2020/03/meandeck.ubg}
+::decklist{url=2020/03/meandeck.ubg}
 
 [tcdecks:esper]: https://www.tcdecks.net/deck.php?id=33721&iddeck=299988
 [tcdecks:sultai]: https://www.tcdecks.net/deck.php?id=33454&iddeck=296642
@@ -281,7 +280,7 @@ starting points for either list, see [Hulahula's][tcdecks:esper] and
 
 If this seems to be your jam then look no further. The Doomsday Wiki is designed
 to be the primary resource on any variants of the deck. The lack of
-contemperaneous content is due to a lot of format and deck changes in a small
+contemporaneous content is due to a lot of format and deck changes in a small
 amount of time and not a lot of willing authors to write things! As this is a
 community run project we are always welcoming of new submissions whether it is
 articles, puzzles or chapter pages.

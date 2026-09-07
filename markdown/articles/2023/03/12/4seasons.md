@@ -66,7 +66,7 @@ both of them. Not bad. I made a couple of changes and submitted my decklist.
 
 [Link to the decklist](https://www.moxfield.com/decks/HqYY3dU55ESt2CIVuT0spA)
 
-::decklist{path=2023/03/turbo.fuz65}
+::decklist{url=2023/03/turbo.fuz65}
 
 <https://twitter.com/Fuz651/status/1632482398716698625>
 
@@ -131,7 +131,7 @@ luckily I don't get punished.
 point I cast Doomsday with Force backup. My opponent goes Orim's Chant, fetch
 :card[Mystic Sanctuary] to put back Orim's Chant and plays :card[Snapcaster
 Mage] into :card[Flusterstorm]. I managed to resolve Doomsday (8 life left,
-facing Snapcaster and :card[Nomad's En Kor]) and draw into a Nihil Spellbomb to
+facing Snapcaster and :card[Nomads en-Kor]) and draw into a Nihil Spellbomb to
 prevent my opponent from comboing. Knowing that my opponent had Orim's Chant, I
 had a pile that won both on the next turn and on the following one. Janus untaps
 and deploys a couple of 1/1's, Chants me in my upkeep and that's enough for him
@@ -148,7 +148,7 @@ passes. I :card[Ponder] and set up a turn 2 Doomsday with double Force backup.
 :card[CoS] for Human, :card[Thalia, Guardian of Thraben]. :card[Wasteland] on
 the next turn followed by :card[Rishadan Port] quickly close my window.
 
-**Game 2 and 3** were not particolarly close, just usual Dd vs DnT stuff.
+**Game 2 and 3** were not particularly close, just usual Dd vs DnT stuff.
 (Doishy's editor comments, "F's in chat for DnT players")
 
 Match 2-1  
@@ -189,7 +189,7 @@ Matches 3-1
 
 **Game 1** my opponent leads on :card[Delver of Secrets]. I have :card[LP],
 Petal, Ritual, Thoughtseize, Doomsday, :card[Underground Sea]. I go for the T1
-Doomsday, but my opponent has Delver, :card[Bs], :card[ Lightning Bolt],
+Doomsday, but my opponent has Delver, :card[Bs], :card[Lightning Bolt],
 Wasteland in hand. I take the Brainstorm and go for a pile that plays around
 anything but a counter. My opponent flips a Daze to its delver trigger.
 
@@ -221,7 +221,7 @@ Matches 4-2
 Not a terrible result, and I got some practice for the main event.
 
 The main event of Saturday is dinner at the _Mulino Bruciato_, which is a
-highlight of our saturdays at the 4Seasons Tournament. We booked a table for
+highlight of our Saturdays at the 4Seasons Tournament. We booked a table for
 20-something people and it was a ton of fun. As a wheat-intolerant person I
 couldn't eat any of the pasta based dishes, but at the Mulino they have this
 amazing Tagliata Fredda (Sliced beef cooked and marinated for quite some time,
@@ -290,7 +290,7 @@ Veil and Carpet (1 carpet IIRC). Cut Daze, Fluster, Personal Tutor, Flusterstorm
 and a Petal for each Carpet
 
 **Game 2:** We don't do much for the first few turns. At some point my opponent
-jams a :card[Cephalid Illusonist] pretty aggressively. I deal with it and I'm
+jams a :card[Cephalid Illusionist] pretty aggressively. I deal with it and I'm
 faced with a choice on the next turn: I have double USea into play and Ritual,
 Leyline of the Void, Doomsday, Doomsday, Carpet of Flowers in hand. I decide to
 go ritual into leyline and my opponent Forces it pitching :card[Step Through]. I
@@ -369,7 +369,7 @@ given that Doomsday had resolved I was more inclined to think about
 :card[Pyroblast]. The biggest problems in this spot were :card[Magus of the
 Moon] and :card[Blood Moon], which required me to put Island in the pile, but
 passing an additional turn. I chose to play around those and piled Cycler,
-Cycler, Oracle, Cavern, Island; so that I could've played the Oracle in case of
+Cycler, Oracle, Cavern, Island; so that I could've played the oracle in case of
 a Show and Tell. My opponent managed to Show and Tell an Atraxa one turn too
 late. I held my Oracle safely in hand to avoid Pyroblast and won with Cavern and
 an empty library.
@@ -486,7 +486,7 @@ Initiative.
 Usea, Lotus Petal and pass. Cavern on Human allows for an uncounterable
 :card[Elite Spellbinder] on turn 2, I Brainstorm in response and Rodridgo takes
 a Consider. I untap and jam Doomsday. A simple pile of cyclers and Oracle should
-be obvious here, as I have Force backup for a potential :card[Chaliceof the
+be obvious here, as I have Force backup for a potential :card[Chalice of the
 Void] on 2. The only thing that worries me is :card[Anointed Peacekeeper]. I
 call a judge to double check that it is in fact a human, but ultimately decide
 against playing around it, as it's not seeing relevant play in mono white, I
@@ -502,7 +502,7 @@ certainly don't expect it out of RW Initiative.
 
 **Game 2:** I keep a weak 6 with a Force of Will + Pitch, Lands, Dark Ritual and
 a cycler. Rodrigo mulligans as well. My opponent starts with :card[City of
-Traitors] + Lotus Petal into :card[White-Plume Adventurer] and I force it. My
+Traitors] + Lotus Petal into :card[White Plume Adventurer] and I force it. My
 hand is not nearly fast enough to deal with a resolved Adventurer. Fortunately
 Rodrigo misses his second land drop and we just do nothing for a couple of
 turns. I sacrifice a Waterlogged grove and eventually get to Doomsday. He finds

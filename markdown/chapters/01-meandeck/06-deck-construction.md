@@ -37,7 +37,7 @@ increase the number being played. Because of deck construction rules limitations
 in Legacy, this means running other cards to try and locate more copies of
 Doomsday.
 
-The two most common examples are :card[Personal Tutor] and :card[Lim-Dul's
+The two most common examples are :card[Personal Tutor] and :card[Lim-Dûl's
 Vault]. Both of these are card disadvantage but allow you to locate a copy of
 Doomsday and place it on top of your deck. Personal Tutor is more favoured for
 faster style lists costing only {U} and is good for setting up earlier combo
@@ -163,7 +163,7 @@ Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, straight {U}{B} _Turbo_ manabase, a more
 balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 
-#### {U}{B} Turbo
+#### Dimir Turbo
 
 - 2 Polluted Delta
 - 2 Flooded Strand
@@ -179,7 +179,7 @@ balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 If you were to run a splash colour you could replace the Island with the {U}/x
 dual land of the appropriate type here.
 
-#### {U}{B}{R} Balanced
+#### Grixis Balanced
 
 - 4 Polluted Delta
 - 3 Scalding Tarn
@@ -197,7 +197,7 @@ You can consider swapping basics for additional fetchlands if you want to be a
 little less resilient vs. Wasteland or :card[Blood Moon] effects. Inversely you
 can also go down to three Seas to add an additional basic land if desired.
 
-#### {W}{U}{B} Control
+#### Esper Control
 
 - 4 Polluted Delta
 - 4 Flooded Strand
@@ -395,7 +395,7 @@ There are a couple of additional counter spell effects you can elect to run but
 these are normally personal preference choices. :card[Flusterstorm] and Spell
 Pierce are both viable options with the former being good at protecting your
 combo and against opposing combo and the latter being better at protecting from
-permanent hate like Blood Moon or planeswalkers like :card[Karn the Great
+permanent hate like Blood Moon or planeswalkers like :card[Karn, the Great
 Creator]. These normally contend with the proactive interaction slots and are
 only ever featured as a one or two-of at most. Some will also elect to run some
 number of :card[Pact of Negation] however this will be discussed as a pile card.
@@ -423,7 +423,7 @@ Let's consider some example mana bases for different styles of play for the
 deck. We shall present an aggressive, Grixis {U}{B}{R} _Turbo_ package, a more
 balanced straight {U}{B} package and an Uro style BUG {U}{B}{G} package.
 
-#### {U}{B}{R} Turbo
+#### Grixis Turbo
 
 - 4 Force of Will
 - 4 Daze
@@ -436,7 +436,7 @@ fast and not need to worry about having a lot of interaction, only enough to try
 and push through an early combo. It would also likely be supplemented by a Pact
 of Negation too.
 
-#### {U}{B} Balanced
+#### Dimir Balanced
 
 - 4 Force of Will
 - 4 Daze
@@ -449,7 +449,7 @@ additional countermagic. They have a higher land count than the _turbo_ list and
 likely fewer free cycle effects too which provides the slots to add these
 additional interaction elements in.
 
-#### {U}{B}{G} Uro
+#### Sultai Uro
 
 - 4 Force of Will
 - 3 Daze
@@ -478,7 +478,7 @@ Mishra's Bauble
 
 Cantrips are a staple in {U} decks in Legacy and provide the ability to find the
 cards you need at the time you need them and allow you to _cheat_ on mana
-resources as you don't have to rely on the top of your deck or openening hand to
+resources as you don't have to rely on the top of your deck or opening hand to
 draw them. I won't write too much in detail on the different cantrips used
 however if you wish to read more about the ways of using them in the deck, feel
 free to read [this article here](/articles/2020/10/05/gangsta-trippin).
@@ -541,8 +541,8 @@ theory almost all of these are optional extras apart from one key component:
 you have a plan B) and therefore you have to run at least one of them. Some
 people like to run two but the second is often relegated to the sideboard. There
 is not much else to say other than the alternatives in :card[Laboratory Maniac]
-and :card[Jace, Wielder of Mysteries] unfortunately do not display quite the
-same efficiency or efficacy as a win condition of choice.
+and :card[JWoM] unfortunately do not display quite the same efficiency or
+efficacy as a win condition of choice.
 
 ### Free Cycle Effects
 
@@ -603,9 +603,9 @@ Cavern of Souls is an excellent way to ensure you can resolve Oracle in the face
 of countermagic or a Chalice of the Void X = 2. It fits very neatly into the
 shell and can be incorporated into many of the piles that are made. Lists will
 run between zero and one of them, sometimes in the sideboard but mostly in the
-main deck. Although it can tap for {C} it is not considered to be counted
-towards your land count and should instead be considered as a spell. It can have
-some extra utility if you are running a creature package by allowing you to cast
+maindeck. Although it can tap for {C} it is not considered to be counted towards
+your land count and should instead be considered as a spell. It can have some
+extra utility if you are running a creature package by allowing you to cast
 those creatures with it. Good in heavy {U} metas.
 
 ### Pact of Negation
@@ -672,8 +672,8 @@ like TCDecks or that can be found in the `#decklists-archive` channel in the
 
 ## Next Steps
 
-Now you have considered how to build your main deck, next chapter will explore
-the principles behind sideboard card choices and the ideas to follow for
-facing off against different archetypes.
+Now you have considered how to build your maindeck, next chapter will explore
+the principles behind sideboard card choices and the ideas to follow for facing
+off against different archetypes.
 
 [discord]: /discord

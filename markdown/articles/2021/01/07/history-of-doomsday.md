@@ -59,11 +59,11 @@ Legacy were printed, he actually already found a copy, and use for Doomsday in
 his ~~pile~~ deck which he used to deploy a very efficient combo:
 
 :::row{variant=PILE}
-Meditate|TMP
-Palinchron|ULG
-Mana Flare|LEB
-Turnabout|USG
-Stroke of Genius|USG
+Meditate | TMP
+Palinchron | ULG
+Mana Flare | LEB
+Turnabout | USG
+Stroke of Genius | USG
 :::
 
 For only {4}{U}{U}{U}{R} this would give you infinite mana to cast an
@@ -93,10 +93,10 @@ then cast a lethal :card[Braingeyser] or other {x} spell.
 
 :::row{variant=PILE}
 Island
-Black Lotus|LEB
+Black Lotus | LEB
 LED
-Regrowth|LEB
-Braingeyser|LEB
+Regrowth | LEB
+Braingeyser | LEB
 :::
 
 The pile required Timetwister and 2 other cards in hand along with {1}{G} for
@@ -130,17 +130,17 @@ use of :card[Tendrils of Agony], :card[Gush] combined with :card[Fastbond] and a
 cool kill involving :card[Mind's Desire] into :card[Beacon of Destruction].
 
 :::row{variant=PILE}
-Ancestral Recall|LEB
-Black Lotus|LEB
+Ancestral Recall | LEB
+Black Lotus | LEB
 DR
-Mind's Desire|SCG
-Beacon of Destruction|5DN
+Mind's Desire | SCG
+Beacon of Destruction | 5DN
 :::
 
-This pile was a pass-the-turn pile that cost {U}{B} to enact. It gave a storm of
-4 which allowed you to cast Desire into Beacon, cast the Beacon with the other
-copies of Desire on the stack which shuffled itself back into the deck to then
-resolve the next copy of Desire. You can find more information on Vintage
+This pile was a pass-the-turn pile that cost {U}{B} to enact. It gave a _Storm_
+of 4 which allowed you to cast Desire into Beacon, cast the Beacon with the
+other copies of Desire on the stack which shuffled itself back into the deck to
+then resolve the next copy of Desire. You can find more information on Vintage
 Doomsday from a number of sources but that is not our focus today!
 
 ## The Start of Legacy - Early Doomsday Lists
@@ -160,7 +160,7 @@ ToA
 This already required 5 spells in hand to go off and was cumbersome but did add
 some additional business to the decks. Another cute tech people were trying was
 based on an old list called Dancing Ghoul. The aim of the deck was to cast
-:card[Corpse Dance] or :card[Shallow grave] on a :card[Sutured Ghoul] whilst
+:card[Corpse Dance] or :card[Shallow Grave] on a :card[Sutured Ghoul] whilst
 having put 2 of either :card[Phyrexian Dreadnought]s or :card[Krosan
 Cloudscraper] in the graveyard with :card[Buried Alive]. It was a spiritual
 predecessor to Tin Fins. Adding Doomsday gave the deck a {B} method of finding
@@ -169,11 +169,11 @@ if you had a piece already. The entire thing could be powered out by a mix of
 :card[Dark Ritual] and :card[Cabal Ritual].
 
 :::row{variant=PILE}
-Buried Alive|ODY
-Sutured Ghoul|JUD
+Buried Alive | ODY
+Sutured Ghoul | JUD
 Phyrexian Dreadnought
-Krosan Cloudscraper|LGN
-Shallow grave
+Krosan Cloudscraper | LGN
+Shallow Grave
 :::
 
 These lists were creative but generally not very effective at all and normally
@@ -183,7 +183,7 @@ making use of the, as then, new cards from Mirrodin block.
 
 :::row{variant=PILE}
 Pdt
-Brain Freeze|SCG
+Brain Freeze | SCG
 LED
 CB
 Second Sunrise
@@ -194,8 +194,8 @@ the turn with it. You cast Predict, naming Brain Freeze and drawing LED and
 Bauble. You cast both, crack LED for {W} and activate Bauble, targeting nothing.
 Bauble will draw :card[Second Sunrise] which you cast, returning LED and Bauble
 to play. You then crack LED for {W} again and activate Bauble targeting Second
-Sunrise which you will then draw. You repeat this loop until your storm count is
-high enough and finish by cracking LED for {U} and targeting :card[Brain
+Sunrise which you will then draw. You repeat this loop until your _Storm_ count
+is high enough and finish by cracking LED for {U} and targeting :card[Brain
 Freeze]. The pile is mana efficient however relied on the graveyard to be used
 which was dangerous as :card[Tormod's Crypt] was one of the most commonly played
 sideboard cards at the time. It also had some trouble finding the pieces as the
@@ -208,8 +208,8 @@ When Champion's of Kamigawa came out in late 2004 it brought with it a new tool
 to the deck in the form of :card[Sensei's Divining Top]. With this being printed
 a new combo was identified that allowed pilots to avoid the use of the graveyard
 entirely. If you combine a pair of Divining Tops with :card[Helm of Awakening],
-you can loop them to generate infinite storm as each Top now casts for {0}. You
-can use these to generate storm and then _spin_ the top at the end to draw into
+you can loop them to generate infinite _Storm_ as each Top now casts for {0}. You
+can use these to generate _Storm_ and then _spin_ the top at the end to draw into
 the lethal Brain Freeze. The pile in isolation can seem clunky however as
 multiple Tops and Helms were run, it is likely you would aready have cost
 reduction or digging already available.
@@ -221,7 +221,7 @@ IU
 Helm of Awakening
 SdT
 SdT
-Brain Freeze|SCG
+Brain Freeze | SCG
 :::
 
 1 Top in play + {2}{U}{U}
@@ -231,7 +231,7 @@ IU
 Helm of Awakening
 LED
 SdT
-Brain Freeze|SCG
+Brain Freeze | SCG
 :::
 
 1 Helm in play + {U}{U}
@@ -241,7 +241,7 @@ IU
 SdT
 LED
 SdT
-Brain Freeze|SCG
+Brain Freeze | SCG
 :::
 
 This pile was resilient to graveyard interation however was still reliant on
@@ -300,7 +300,7 @@ shell to some success but the deck, although fast, did not achieve any top tier
 status.
 
 :::row{variant=PILE}
-Cruel Bargain|POR
+Cruel Bargain | POR
 LP
 DR
 DR
@@ -312,7 +312,7 @@ from Guildpact which allowed it to mitigate the balanced nature of Ill-Gotten
 Gains by removing the opposing hand from the game entirely. It could also just
 be used to make an opponent go hellbent from turn 1. Another very key card was
 printed in Dissension in the form of :card[Infernal Tutor]. This card allowed
-for a combo with Lion's Eye Diamond to achiveve hellbent status and effectively
+for a combo with Lion's Eye Diamond to achieve hellbent status and effectively
 become a :card[Demonic Tutor] in doing so. It also gave more power to other
 branch decks like Nausea which ran :card[Spoils of the Vault], :card[Chromatic
 Sphere] and Helm of Awakening as an engine. The deck actually ran a single copy
@@ -321,7 +321,7 @@ of Doomsday as a wish target with :card[Meditate] being the draw 4 of choice.
 ## Legacy Evolves, Storm Starts to Diverge
 
 2006 was a pretty crucial year for storm with the introduction of the set Time
-Spiral. This was the first set since Scourge to revisit the Storm mechanic
+Spiral. This was the first set since Scourge to revisit the _Storm_ mechanic
 providing two key cards: :card[Grapeshot] and, more importantly, :card[Empty the
 Warrens]. These cards gave a huge boost to the decks trying to use them with the
 Goblins plan allowing players to go off much earlier with a quick Empty for 5 or
@@ -331,7 +331,7 @@ deal with such aggression. Two key builds of storm quickly appeared to make use
 of them. The first was designed by user Wastedlife (now better known as a
 certain Bryant Cook) who came up with this deck concept known as _The EPIC
 Storm_, or _TES_ for short. This started utilising principles such as including
-main deck protection and a diverse tool suite to try and run hard and fast.
+maindeck protection and a diverse tool suite to try and run hard and fast.
 
 From a Discord log from Emidln:
 
@@ -357,7 +357,7 @@ At the same time as Wastedlife developed TES, Emidln was working on a deck
 called Fetchland Tendrils (FT) at the time moving into 2007. Whereas TES was a 5
 colour monstrosity built for speed, FT was focussed on the traditional {U}{B}
 shell of fetchlands and duals to run a {U}{B}{W} manabase. It also ran the same
-tutor packages with Mystical Tutor but also ran :card[Grim Tutors]. These were
+tutor packages with Mystical Tutor but also ran :card[Grim Tutor]s. These were
 very highly priced at the time being only printed in a small Starter set.
 Mtgthesource was now active and the very first response to Emidln's initial post
 on the Fetchland Tendrils thread is from user APriestofGix who says:
@@ -433,7 +433,7 @@ shells that were floating around and try incorporating the traditional storm
 kill into it. As mentioned with the Nausea deck above, Doomsday was a potential
 tool that people could run already in storm as a non-graveyard dependant engine
 away from ill-Gotten Gains but it was still never the main focus of the decks.
-Breathweapon suggested a few Storm based piles, most very simplistic variants
+Breathweapon suggested a few _Storm_ based piles, most very simplistic variants
 such as:
 
 Cantrip + {B}{B}{B}{B}
@@ -489,14 +489,14 @@ As is said in our recording:
 > We were slow to change.
 
 Late 2008 saw another key Storm card enter the scene from the Alara block;
-:card[Ad Nauseum]. The Storm decks had already been diverging over manabase but
+:card[Ad Nauseam]. The Storm decks had already been diverging over manabase but
 this really tipped things over the edge. We'd already seen Iggy Pop split into
 FT and TES. We now had further splitting into TES, FT, _Next Level Storm_ NLS
 and _Doomsday Fetchland Tendrils_ DDFT which finally became its own thing. Ad
-Nauseum pretty much completely replaces Ill-Gotten Gains as the primary combo
+Nauseam pretty much completely replaces Ill-Gotten Gains as the primary combo
 engine easing up on the graveyard aspect and thus leaving Iggy Pop as an
-archetype in the dust. TES adds in :card[Simian Spirit Guides] and 3-4 Ad
-Nauseum, the rest add between 1 and 3. Questions start getting asked about
+archetype in the dust. TES adds in :card[Simian Spirit Guide]s and 3-4 Ad
+Nauseam, the rest add between 1 and 3. Questions start getting asked about
 things like having Burning Wish vs not, the desired speed of the deck and the
 relevancy of chant effects vs discard.
 
@@ -518,7 +518,7 @@ From Dark_Cynic87 on the mtgthesource Fetchland Tendrils thread:
 > &mdash; [Dark_Cynic87](http://www.mtgthesource.com/forums/showthread.php?7800-Deck-Fetchland-Tendrils&p=275805&viewfull=1#post275805)
 
 It is the concept above that causes FT/NLS to further develop into what becomes
-known as Ad Nauseum Tendrils or ANT. TES also starts to pick up the concepts of
+known as Ad Nauseam Tendrils or ANT. TES also starts to pick up the concepts of
 using a fetchland manabase, deviating away from the full 5 colour package. As
 2009 comes around Lejay leads people in starting to work on using Ideas Unbound
 as the primary pile draw engine of choice over/alongside draw 4s. Although TES
@@ -529,7 +529,7 @@ the legendary hatebear could stop Tendrils and Empty all by itself. TES at the
 time was not running removal and previous Iggy style decks had picked up
 :card[Repeal] as the main tool of choice which could not be used against it. The
 Doomsday deck could run Chain of Vapor and incorporate it into piles almost for
-free as it could be used on your own Top or Petal to generate storm or draw an
+free as it could be used on your own Top or Petal to generate _Storm_ or draw an
 extra card whilst then bouncing an opposing Teeg.
 
 CoV in hand + SdT in play + {1}{U}
@@ -552,7 +552,7 @@ LED
 BW
 :::
 
-NLS was like a Doomsday / FT / Ad Nauseum hybrid that had access to both the
+NLS was like a Doomsday / FT / Ad Nauseam hybrid that had access to both the
 fast kill that TES ran, albeit a tad slower, and the anti-Teeg/more versatile or
 grindy style that Doomsday had. Users like Cheeseburger and Nemavera put a lot
 into what was listed as a _German Variant_ of NLS. It ran so many tutors/wishes
@@ -588,22 +588,22 @@ decks that utilised the card very well. As a result a number of changes occurred
 within the Doomsday lists of the time. A mere month later the card
 :card[Preordain] was printed in M11 and it eventually was to transition over.
 Because of the previous reliance on Mystical Tutor to find the title card
-Doosmday itself, more pilots started to adopt Burning Wish into their lists as
+Doomsday itself, more pilots started to adopt Burning Wish into their lists as
 Doomsday copies 4-7. Ideas Unbound finally gained a wider acceptance in lists
 with pushing from Lejay and cheeseburger, first as a Wish target and then more
-into the main deck. Street Wraith had already started to be dropped due to
-disynergy with Ad Nauseum and lost its home completely in the deck. Many people
+into the maindeck. Street Wraith had already started to be dropped due to
+disynergy with Ad Nauseam and lost its home completely in the deck. Many people
 still stuck to using Lim-Dûl's Vault as a pseudo tutor within the deck or trying
 to work with Infernal Tutor. It took quite a surprisingly long time for people
 to finally adopt the leaner way of deck construction. This is of course easy to
 say with hindsight but it may not have been obvious at the time. Once again
 there was huge variance in pilots lists with some people trying out
-:card[Personal Tutor] and Daze, many still had either a single main deck or
+:card[Personal Tutor] and Daze, many still had either a single maindeck or
 wishable Ill-Gotten Gains. There was also a divide still on whether to run 7
 discard effects main, 7 chant effects main or a split of the 2. Cabal Ritual
-slowly started to be dropped too as the deck moved away from Ad Nauseum and
+slowly started to be dropped too as the deck moved away from Ad Nauseam and
 instead opted to use :card[Rain of Filth] as the goto ritual #5. There was a big
-reason that lists began to move away from Ad Nauseum in Doomsday whilst ANT and
+reason that lists began to move away from Ad Nauseam in Doomsday whilst ANT and
 TES stuck with it and that was because of one very large printing that ocurred:
 :card[Em].
 
@@ -614,7 +614,7 @@ player resolving Doomsday meets that requirement perfectly. If you activate Isle
 with an Emrakul hidden under it you count as casting the card thus netting the
 extra turn trigger and gaining an uncounterable 15/15 with flying and
 Annihilator 6 for the cost of {U}. This slotted into Doomsday easily, initially
-with people testing in maindeck. Ad Nauseum had to be dropped because having a
+with people testing in maindeck. Ad Nauseam had to be dropped because having a
 15 cmc card in your deck could prove pretty lethal otherwise. The combo gave a
 big tool to DDFT which it had been missing for awhile in the form of a
 pass-the-turn pile plan that circumnavigated countermagic. Pretty much every
@@ -638,7 +638,7 @@ Land drop available + Cantrip + 1 card in hand + {1}{U}
 :::row{variant=PILE}
 Bs
 SI
-Cloud of Faeries|ULG
+Cloud of Faeries | ULG
 Em
 Island
 :::
@@ -653,7 +653,7 @@ Lejay had some additional fun coming up with some silly, if inefficient, tech
 involving multiple Ideas Unbounds and Emrakul to enable shuffle.
 
 :::row{variant=PILE}
-Relic of Progenitus|ALA
+Relic of Progenitus | ALA
 IU
 LED
 Em
@@ -707,11 +707,11 @@ passage from the bible, Book of Revelations, Chapter 6, Verse 14:
 This was a reference to the Annihilator 6 trigger of Emrakul causing the
 destruction of lands which includes of course, Islands and Mountains.
 
-The first version of the deck retained the Tendrils based storm kill as an
+The first version of the deck retained the Tendrils-based _Storm_ kill as an
 option and, being pre-Mystical ban, used a full set of Mystical Tutor with
 Lim-Dûl's Vault alongside an Intuition to find all the pieces. It allowed you to
 either Show and Tell into Emrakul, Doomsday into Tendrils or Doomsday into
-Shelldock Isle all in the main deck. The deck survived the Mystical Tutor ban
+Shelldock Isle all in the maindeck. The deck survived the Mystical Tutor ban
 and gained quite some popularity moving away from the Tendrils build to an
 all-in Emrakul build. It played very much like a combo-control deck running
 Force of Will, Top and other lighter permission. The most notable result it had
@@ -725,9 +725,9 @@ always aligning fully.
 
 ::youtube{id=0TNK1Jb5r9E}
 
-The deck excelled against oppsoing combo and control due to the high amount of
+The deck excelled against opposing combo and control due to the high amount of
 disruption it ran and the resiliency of the threat base however it was poor
-against oppsoing aggro like Zoo. They could pressure the life total with Bolts
+against opposing aggro like Zoo. They could pressure the life total with Bolts
 if Doomsday was ever cast and had Karakas for any attempts to use Emrakul. The
 deck eventually fell out of favour due to some very big format changes that
 occurred within 2011.
@@ -748,7 +748,7 @@ It ran a lot of 1 mana spells but still had reliance on LED for most of its
 wins. It also provided a natural home for Gitaxian Probe which allowed the
 dropping of any remaining usage of Street Wraith along with obsoleting the need
 for Preordain or Lim-Dûl's Vault. The ability to win on turn 1 or 2 was made
-much easier thanks to both the +1 storm factor, the free draw spell and the
+much easier thanks to both the +1 _Storm_ factor, the free draw spell and the
 early information that could be obtained.
 
 It was at this point that DDFT really started to take on the form that would
@@ -762,7 +762,7 @@ maybe a wishable Duress or Thoughtseize. The combination of Probe and Therapy
 was very effective against a lot of the format. Normally 5 ritual effects were
 run comprised of 4 Dark Ritual and 1 Rain of Filth. The combo package was
 basically 1 Ideas Unbound main and 1 Tendrils that could be wished for. Other
-tools like Empty the Warrens, Lotus Petal, wishable draw 4s were all avbailble
+tools like Empty the Warrens, Lotus Petal, wishable draw 4s were all available
 for customisation and could be added or removed as needed. The wish board gave a
 large toolbox that helped deal with many problem cards that other storm variants
 could struggle with in game 1 and the deck could both play a long grindy control
@@ -828,7 +828,7 @@ in September 2011, it was likely one of the better decks of the format. This
 _Golden Age_ as Emidln proclaimed it did not last long however due to the onset
 of a new block, a new set and the printing of another key set of cards. This
 block is so influential on the format that people have even been trying to push
-fan formats around ommitting it entirely. Enter Innistrad block.
+fan formats around omitting it entirely. Enter Innistrad block.
 
 ## Innistrad - The Start of the Decline of DDFT
 
@@ -888,16 +888,16 @@ activate it your opponent cannot respond. As the draw clause is tacked onto a
 mana ability they cannot respond with removal to the draw occurring. Pretty
 neat!
 
-The second key printing was :card[Past In Flames] or PiF. PiF was the boon that
+The second key printing was :card[Past in Flames] or PiF. PiF was the boon that
 other storm decks needed and was snapped up immediately by both ANT and TES.
 Unlike the previous recursion reliance on Ill-Gotten Gains, PiF enabled an
-assymetrical recursion effect that did not tax the life total like Ad Nauseum
+asymmetrical recursion effect that did not tax the life total like Ad Nauseam
 did. As a result it powered up the other storm decks no end. Unfortunately this
 had a negative impact on DDFT's perceived viability. Whereas before PiF there
 had been a number of strong arguments to run DDFT over ANT or TES due to the
-lack of reliance on Ad Nauseum, now that argument was forfeit. This card single
+lack of reliance on Ad Nauseam, now that argument was forfeit. This card single
 handedly allowed ANT and TES to be top tier decks all through until 2020. It was
-of course discussed as to whether PiF could be utitlised by DDFT too with people
+of course discussed as to whether PiF could be utilised by DDFT too with people
 exploring it as a Burning Wish target however it just did not fit in well with
 the rest of the deck and, with Doomsday itself removing your graveyard on
 resolution, it could not be incorporated into the shell.
@@ -958,7 +958,7 @@ As 2012 rolled around the DDFT lists didn't change all that much other than the
 addition of :card[Abrupt Decay] to the deck. Decay gave a way for the deck to
 effectively beat things like Counterbalance and Chalice of the Void. The main
 thing that caused a stir was the conceptulisation if a novel style of Doomsday
-list, at least for Legacy, from Vintage Doomsday afficienado Steven Menendian of
+list, at least for Legacy, from Vintage Doomsday aficionado Steven Menendian of
 Team Meandeck. Menendian had been playing Doomsday with a control shell and
 Labman to great effect in Vintage and had an idea to port the list to Legacy. He
 released a purchasable primer alongside the deck on eternal central with a large
@@ -1053,7 +1053,7 @@ The second point continues but focusses on the tutors that Vintage has. In
 Vintage you have access to Mystical Tutor, :card[Imperial Seal], Demonic Tutor
 and Vampiric Tutor meaning you can easily find exactly what you need including
 Doomsday. DDFT lists ran Burning Wish to fill this role and because it
-synergised with the storm elements. Menendian's Meandeck list had to naturally
+synergised with the _Storm_ elements. Menendian's Meandeck list had to naturally
 find a copy through cantripping. When your entire deck has no alternate kill
 (like natural Tendrils or Wish into Empty the Warrens) then not being able to
 find your key card is devastating.
@@ -1071,7 +1071,7 @@ think this stems from Vintage not being a removal heavy format. Although there
 were creature based strategies in Vintage, much of the interaction was stack
 based rather than board based. Legacy in comparison has a much higher rate of
 board based interaction. A key advantage of DDFT was it effectively nullified
-all of that removal given that the storm kill was the main plan whilst Meandeck
+all of that removal given that the _Storm_ kill was the main plan whilst Meandeck
 Doomsday of the time made those otherwise _dead_ cards very live.
 
 The speed was also a key point. The Meandeck list, with a perfect draw, could
@@ -1103,7 +1103,7 @@ Dur
 SdT
 Polluted Delta
 GP
-Island|RAV
+Island | RAV
 :::
 
 Take the same hand and replace one disruption element for another. You can play
@@ -1112,7 +1112,7 @@ the SdT+Cantrip pile listed above. Cast Probe into LED. Cast LED. Crack LED for
 {U}{U}{U} and activate Top to draw Ideas Unbound. Cast Ideas Unbound leaving {U}
 in pool to draw Top, LED and LED. Cast Top for {U} and cast both LEDs. Activate
 the LEDs for {B}{B}{B}{R}{R}{R}. Activate Top to draw Burning Wish, cast Wish
-leaving {B}{B}{B}{R} in pool and fetch Tendrils of Agony for 13 storm.
+leaving {B}{B}{B}{R} in pool and fetch Tendrils of Agony for 13 _Storm_.
 
 Regardless of any perceptions of the deck it was a new way to approach the
 archetype and did inspire many to try to concept (to no success) over the
@@ -1190,7 +1190,7 @@ Simply taking an existing list and replacing Top with Preordain didn't work as
 many of the piles relied on the mana efficiency that Top provided. I myself
 became convinced that running a straight {U}{B} list with Lim-Dûl's Vault,
 maindeck Tendrils and :card[Lake of the Dead] to help power out draw 4s was the
-way to go. The list was fun but it certainly wasn't competetive by any stretch.
+way to go. The list was fun but it certainly wasn't competitive by any stretch.
 It was Bennotsi and G0ld_rook who started properly trying out :card[Three
 Wishes] and starting everyone on the right path. Three Wishes enabled the
 creation of a double cantrip pile that didn't have to worry about the discard
@@ -1255,7 +1255,7 @@ Not only did Bauble allow for the same mana efficient plays as Top going turn 1
 Bauble into turn 2 double cantrip win, it also acted as a defense against
 Surgical Extraction and could be used to loop cards back into a deck.
 Post-Doomsday this meant you could save a tool if it was countered or discarded
-or, actively use it to build storm. Bennotsi presented a number of pretty
+or, actively use it to build _Storm_. Bennotsi presented a number of pretty
 efficient piles, using Bauble to return an LED to the deck after use however I
 noted that actually most of them benefitted heavily from eschewing Burning Wish
 and being able to loop multiple baubles.
@@ -1280,8 +1280,8 @@ CB
 ToA
 :::
 
-In the two examples above, the first gives 9 storm assuming you lead with Ritual
-into Doomsday. The second gives 10 storm with the same opening. Post Doomsday
+In the two examples above, the first gives 9 _Storm_ assuming you lead with Ritual
+into Doomsday. The second gives 10 _Storm_ with the same opening. Post Doomsday
 you cantrip into the first LED and then activate Bauble, targeting nothing, to
 draw and cast Act. Act exiles LED, Bauble and Tendrils. You cast LED and produce
 {B}{B}{B} with it. You cast Bauble for {B} leaving {B}{B} in pool. You activate
@@ -1367,7 +1367,7 @@ From the Discord chat log:
 >
 > Waiiiiiiiit damn lol these piles have trouble generating enough storm lol just
 > did that pile and storm count was like 7 man im doing some
-> embarassing misplays with this
+> embarrassing misplays with this
 >
 > Shieet you can pull double doomsday piles out of your ass to generate storm
 > with frenzy this is so cool at 4 mana sources you can ptt pile with [EF, LED,
@@ -1412,10 +1412,10 @@ Dd
 :::
 
 With the release of War of the Spark another new tool was introduced that could
-be slotted into the deck; :card[Jace, Wielder of Mysteries]. Jace allowed an
-alternative win condition which then could also provide long term card
-advantage. With Frenzy out you could also protect the card by stacking something
-like Flusterstorm underneath it.
+be slotted into the deck; :card[JWoM]. Jace allowed an alternative win condition
+which then could also provide long term card advantage. With Frenzy out you
+could also protect the card by stacking something like Flusterstorm underneath
+it.
 
 Frenzy in play
 
@@ -1423,7 +1423,7 @@ Frenzy in play
 LED
 LED
 Jace, Wielder of Mysteries
-Flusterstorm|CMD
+Flusterstorm | CMD
 Flusterstorm
 :::
 
@@ -1438,7 +1438,7 @@ effective compared to previous deck styles.
 ## F.I.R.E but Still no D.D.F.T
 
 We all know how the rest of 2019 goes. A lot of impactful new printings occur
-but almost none of them are applicable to Doomsday. If the storm kill was still
+but almost none of them are applicable to Doomsday. If the _Storm_ kill was still
 being run then :card[Veil of Summer] would have been a nice consideration but it
 did not slot in well with the Frenzy version of the deck requiring another
 splash colour and being an awkward hit off of Frenzy. The only tool that was
@@ -1449,7 +1449,7 @@ again the leading man on giving this new tech a try writing a [mini primer
 article on its usage](/articles/2020/01/01/echoes-of-the-past). The list played
 Veil, as allowing a {U} opponent to draw 7 cards is asking for disaster, and
 other than the Doomsday package, played very similar to other storm lists almost
-like an ANT and _new TES_ style hybrid. As with many of the recent iterations of
+like an ANT and _new_ TES style hybrid. As with many of the recent iterations of
 attempting revival, the deck seemed fun but overall lacking in raw
 power/consistency.
 
@@ -1534,7 +1534,7 @@ CoS
 TO
 :::
 
-With the printing of :card[Lurrus of the Dream Den] from Ikoria, Doomsday was
+With the printing of :card[Lurrus of the Dream-Den] from Ikoria, Doomsday was
 easy to accept the companion losing only access to :card[Street Wraith] and
 Teferi in the card pool. Using tools like :card[Mishra's Bauble] to gain card
 advantage with Lurrus or to delay dig into piles, it was able to stay toe-to-toe
@@ -1547,7 +1547,7 @@ shown to be able to run basically any colours and any toolbox it wanted. Over
 the year, very well known players like Marcus Ewaldh and Maxtortion have now
 jumped onto the deck.
 
-If part of 2011 had seemed like a golden age, 2020 has definately been a
+If part of 2011 had seemed like a golden age, 2020 has definitely been a
 platinum age for the deck. The community that stuck through 2 significant bans
 and stayed together were ready to go with all the infrastructure for the Discord
 and Wiki in place to launch into the new style of lists. This meant there was
@@ -1573,7 +1573,7 @@ to reanimate a Griselbranned. This would then draw more cards to play a Lotus
 Petal or Chrome Mox to ritual or Entomb-Grave a :card[Children of Korlis]. This
 would enable life gain to draw more cards with. You could win through haste
 attacking for 22 with Emrakul and Griselbranned or storm off with Tendrils. The
-deck was an all-in graveyard combo which could run a storm finish. Now some
+deck was an all-in graveyard combo which could run a _Storm_ finish. Now some
 people decided to try running Doomsday as a sideboard plan for the deck adding a
 Shelldock Isle and 4 Doomsday along with some other bits. It was pretty
 successful, both with and without the transformational sideboard plan. It ran

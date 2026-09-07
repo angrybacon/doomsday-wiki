@@ -17,13 +17,13 @@ Special thanks to Bart [_Diem4x_][diem4x] van Etten, Max
 
 ## Maindeck Configuration and Why no Cavern of Souls
 
-::decklist{path=2021/03/21/meandeck.diem4x}
+::decklist{url=2021/03/21/meandeck.diem4x}
 
 Many players come from legacy Doomsday to play Vintage Doomsday, and many wonder
 why the deck does not play :card[Cavern of Souls]. The reason is that after
 building a pile, you generally will have a :card[Gush] or :card[Ancestral
 Recall] on top. If the opponent has a counterspell, they aren't going to save it
-for the Oracle; they have to aggressively go after your Recall or Gush simply
+for the oracle; they have to aggressively go after your Recall or Gush simply
 because the card draw spell will draw you into a counter for their counter in
 addition to your Oracle. In my mind, there are only three flex slots in the
 maindeck for Doomsday. In this build, we have elected to use :card[Mystical
@@ -219,10 +219,10 @@ and piles you can make to do that.
 
 You are against Breach, and the opponent was on the play with seven cards and
 went :card[Misty Rainforest], :card[Mox Ruby], pass (5 cards remaining). You
-mulliganned once, and your hand is :card[Doomsday], Street Wraith, Force of
-Will, :card[Preordain], :card[Underground Sea], Tasigur, :card[Dark Ritual].
-Notable play arounds are Pyroblast/Fluster/Brain Freeze. How do you want to play
-this turn and the rest of the game?
+mulliganed once, and your hand is :card[Doomsday], Street Wraith, Force of Will,
+:card[Preordain], :card[Underground Sea], Tasigur, :card[Dark Ritual]. Notable
+play arounds are Pyroblast/Fluster/Brain Freeze. How do you want to play this
+turn and the rest of the game?
 
 Our hand is:
 
@@ -231,7 +231,7 @@ Dd
 SW
 Pre
 FoW
-Underground Sea|LEB
+Underground Sea | LEB
 Tasigur, the Golden Fang
 DR
 :::
@@ -259,8 +259,8 @@ You are at 16 life vs. BUG game three (assume Fatal Push is in your deck and
 nothing is exiled, so you have your whole deck to put in your pile) and cast a
 Doomsday with a Dark Ritual in hand and 3 Underground Seas in play. Your
 opponent has Leovold, Collector Ouphe, 3 lands, and 3 cards in hand. You assume
-their graveyard doesn't matter (i.e., :card[Snapcaster Mage]). What is your
-pile? (thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
+their graveyard doesn't matter (i.e. :card[Snapcaster Mage]). What is your pile?
+(thinking about playing around Fluster, Wasteland, possibly Daze, etc.)
 
 > 1. Pass turn
 > 1. Play Ritual
@@ -340,7 +340,7 @@ You cast Doomsday off of three lands and two Moxes, as there is a :card[Thorn of
 Amethyst] and a Sphere of Resistance on the battlefield under your opponent's
 control. They also control a :card[Phyrexian Revoker] with Black Lotus named, a
 2/2 :card[Stonecoil Serpent] and an :card[Ancient Tomb], a :card[Mox Emerald],
-an :card[Inventor's Fair], and two cards in hand. You are at 16 life, so after
+an :card[Inventors' Fair], and two cards in hand. You are at 16 life, so after
 Doomsday, you will be dead to 2 swings. Your hand consists of Preordain, Daze,
 and Force of Will. What is the easiest way of winning the next turn playing
 around Wasteland, another Sphere, Mindbreak trap, possibly Chalice, :card[Null

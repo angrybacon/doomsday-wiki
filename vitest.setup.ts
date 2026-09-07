@@ -1,4 +1,2 @@
-import * as matchers from '@testing-library/jest-dom/matchers';
-import { expect } from 'vitest';
-
-expect.extend(matchers);
+// oxlint-disable-next-line import/no-unassigned-import
+import '@testing-library/jest-dom/vitest';
