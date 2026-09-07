@@ -28,7 +28,7 @@ The entire interview is available on YouTube and SoundCloud.
 ::soundcloud{url=ddftwiki/a-history-of-doomsday}
 
 _Note: the raw video is over five hours long so is quite a journey. It also
-includes a lot of segways and general chatter however as I say in it: "the
+includes a lot of segues and general chatter however as I say in it: "the
 people who will be listening to this will enjoy a big ramble about Storm"._
 
 ::youtube{id=3LLIFHv5kbo}
@@ -119,7 +119,7 @@ stated](http://www.wizards.com/Default.asp?x=dci/announce/dci20040901a):
 > Banned and Restricted Lists. This format is going to be renamed.
 
 The format was subsequently decided to be named _Legacy_ and from that moment
-on, the format's became independant of one another. Along with this format
+on, the format's became independent of one another. Along with this format
 change a number of cards that were previously banned in Type 1.5 were taken off
 the ban list into Legacy. These notably included :card[Burning Wish],
 :card[Chrome Mox], :card[Lion's Eye Diamond], :card[Lotus Petal], :card[Mystical
@@ -146,7 +146,7 @@ Doomsday from a number of sources but that is not our focus today!
 ## The Start of Legacy - Early Doomsday Lists
 
 When Legacy first began there was some interest pocketed around about trying to
-build a Doomsday deck. Some tried to mimick what a lot of Storm decks at the
+build a Doomsday deck. Some tried to mimic what a lot of Storm decks at the
 time were doing building piles like:
 
 :::row{variant=PILE}
@@ -204,7 +204,7 @@ thing like :card[Portent] however these weren't even really used. The main lists
 focussed on using Mystical Tutor and :card[Lim-Dûl's Vault] to assemble the
 pieces they needed to go off.
 
-When Champion's of Kamigawa came out in late 2004 it brought with it a new tool
+When Champions of Kamigawa came out in late 2004 it brought with it a new tool
 to the deck in the form of :card[Sensei's Divining Top]. With this being printed
 a new combo was identified that allowed pilots to avoid the use of the graveyard
 entirely. If you combine a pair of Divining Tops with :card[Helm of Awakening],
@@ -370,7 +370,7 @@ on the Fetchland Tendrils thread is from user APriestofGix who says:
 2006 also introduced :card[Infernal Tutor] from Dissension. This was a card that
 could act as both a way to double up on ritual effects in hand whilst also
 having the potential to act like a full on Demonic Tutor when coupled with LED.
-This card would help power up TES as it grew along with other fledging storm
+This card would help power up TES as it grew along with other fledgling storm
 variants at the time. In Iggy Pop it began to replace Intuition. Being more
 resource efficient in terms of mana, not requiring {U} mana so was castable
 purely from ritual effects and being fine in multiples gave Infernal a number of
@@ -396,7 +396,7 @@ additional card filtering, long game advantage and often as an 8th card in hand
 during your combo turn or as a way to gain extra draws using a trick with Top
 and Chain of Vapor to bounce it in response to the trigger.
 
-The deck was very open to intepretation and, in Emidln's own words:
+The deck was very open to interpretation and, in Emidln's own words:
 
 > This archetype is extremely customizable. The basic requirements are
 > blue/black fetchlands, brainstorm, dark ritual, lion's eye diamond, and
@@ -408,14 +408,14 @@ Overall the decks were starting to become a lot more streamlined. With the onset
 of better cantrips, exploration of correct cantripping and fetching mechanics
 were starting to be explored. What are now assumed basic mechanics for a lot of
 Legacy decks were almost unheard of back then as the format, and the skills
-involved, were still fledging. This is also where we start to see the birth of
+involved, were still fledgling. This is also where we start to see the birth of
 more modern storm variants with the _Xerox_ concepts of cantrips over lands
 really taking effect. 4 Brainstorm, 4 Top, 4 Ponder and 4 Street Wraith became a
 staple build with Wraith allowing you to grab any card fetched from Mystical
 Tutor in the same turn as a _build your own :card[Demonic Tutor]_ type affair.
 
 It was also around this time that Emidln and Wastedlife set up the Stormboards.
-BZK was a team affiliated site with other people who worked on seperate teams
+BZK was a team affiliated site with other people who worked on separate teams
 not wanting to share testing results or tech. Because of this, Emidln wanted to
 set up a non-team affiliated space where people who loved all sorts of Storm
 combo could discuss things freely. Here he was later joined by other active
@@ -604,7 +604,7 @@ discard effects main, 7 chant effects main or a split of the 2. Cabal Ritual
 slowly started to be dropped too as the deck moved away from Ad Nauseam and
 instead opted to use :card[Rain of Filth] as the goto ritual #5. There was a big
 reason that lists began to move away from Ad Nauseam in Doomsday whilst ANT and
-TES stuck with it and that was because of one very large printing that ocurred:
+TES stuck with it and that was because of one very large printing that occurred:
 :card[Em].
 
 People very quickly picked up the combo of Emrakul along with a relatively
@@ -957,13 +957,13 @@ post from nanda sums it up nicely:
 As 2012 rolled around the DDFT lists didn't change all that much other than the
 addition of :card[Abrupt Decay] to the deck. Decay gave a way for the deck to
 effectively beat things like Counterbalance and Chalice of the Void. The main
-thing that caused a stir was the conceptulisation if a novel style of Doomsday
-list, at least for Legacy, from Vintage Doomsday aficionado Steven Menendian of
+thing that caused a stir was the conceptualisation if a novel style of Doomsday
+list, at least for Legacy, from Vintage Doomsday aficionado Stephen Menendian of
 Team Meandeck. Menendian had been playing Doomsday with a control shell and
 Labman to great effect in Vintage and had an idea to port the list to Legacy. He
 released a purchasable primer alongside the deck on eternal central with a large
 array of puzzle situations to solve with it. The deck took the Vintage concepts
-of being a combo-control list running an unprecendented amount of reactive
+of being a combo-control list running an unprecedented amount of reactive
 disruption for the archetype. Force of Will, Spell Pierce, :card[Pact of
 Negation], :card[Misdirection] and :card[Divert] were all featured over
 traditional elements like discard. An Ideas Unbound effect was removed entirely
@@ -1003,7 +1003,7 @@ thing in legacy citing:
 
 This was a pretty big claim to make given that the current DDFT deck was still
 very much alive and healthy enough at the time. It was met with mixed reviews,
-many liking the concept of the deck however an equal number critiscizing the
+many liking the concept of the deck however an equal number criticizing the
 apparent increased fragility it presented. Menendian had this to say on the
 mtgthesource thread on the article:
 
@@ -1046,8 +1046,8 @@ Force and Misdirection aggressively because of the card pool available. You
 could easily drop to 1-3 cards in hand and refill using :card[Gush] and
 :card[Ancestral Recall] to then maintain momentum. Legacy does not have these
 cards available. Relying on early pitch counters would often leave the pilot
-berefit of cards for key spells like Brainstorm and find themselves behind in
-card advantage in return for tempo they could not capitlise on.
+bereft of cards for key spells like Brainstorm and find themselves behind in
+card advantage in return for tempo they could not capitalise on.
 
 The second point continues but focusses on the tutors that Vintage has. In
 Vintage you have access to Mystical Tutor, :card[Imperial Seal], Demonic Tutor

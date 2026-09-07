@@ -217,7 +217,7 @@ Doishy's comments:
 > This observation was in some part due to the fact that d8 would not simply add
 > in an extra discard spell but swap it out for a Therapy. There was also some
 > bias here as for the last year I have been running a Miser's Thoughtseize main
-> and it whas been very strong, especially in the face of Thalias or Eidolons so
+> and it has been very strong, especially in the face of Thalias or Eidolons so
 > much so that I have consider switching from three Therapy, two Duress one
 > Thoughtseize main to three Therapy, one Duress and two Thoughtseize main.
 
@@ -240,7 +240,7 @@ d8dk32's comments:
 Doishy's comments:
 
 > I for one really enjoyed watching d8 play whilst we discussed decisions. What
-> made me feel confidant was, barring some of the decision points above, we
+> made me feel confident was, barring some of the decision points above, we
 > quite often agreed very quickly on what line to take with most being the
 > correct one. In addition to the above we had a classic turn two "Do we jam?"
 > vs what turned out to be an Esper Stoneblade/Delver variant. We both said yes

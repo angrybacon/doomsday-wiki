@@ -39,7 +39,7 @@ SW
 TO
 :::
 
-Imagine you have an Island and and Underground Sea on board, Dark Ritual and
+Imagine you have an Island and Underground Sea on board, Dark Ritual and
 Doomsday in hand. You can Ritual into Doomsday, pass the turn, and win with a
 mere 2 blue mana and 2 life when you untap. In fact you could conceivably cast
 Doomsday on turn 1, and make your second land drop to generate {U}{U}. You may
@@ -169,7 +169,7 @@ Dd
 1. Cast LED, Petal, and then Wish, holding priority to crack LED for {B}{B}{B}
 1. Retrieve Tendrils of Agony from your sideboard and aim it at your opponent
 
-This what is often referred to as a Double-Doomsday pile, where a second
+This is what is often referred to as a Double-Doomsday pile, where a second
 Doomsday is used as a way to recycle spells. While the initial mana cost looks
 relatively low and the _Storm_ count quite high, the pile is actually quite mana
 hungry and you need additional mana artifacts on board (or in hand for extra

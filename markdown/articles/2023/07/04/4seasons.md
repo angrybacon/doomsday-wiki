@@ -95,7 +95,7 @@ huge fan of the current Vintage format, but among my teammates I was the one who
 had played it the most recently. I still like it better than Modern, so it was a
 fairly easy choice. Given that we decided to play the team event like three days
 earlier, I had no time to test. I settled for Doomsday, which was the deck I was
-mostly likely to play decently.
+most likely to play decently.
 
 Too bad I did everything except for playing decently. I haven't played this
 badly in years. I didn't board in :card[Steel Sabotage] in round 2 and lost the
@@ -154,7 +154,7 @@ after a long day I was famished and I reaaally needed a good dinner.
 
 The Italian Legacy Invitational is a yearly invite-only tournament that features
 some of the best players in the Italian Legacy scene. I finished 9th last year,
-so I was looking forward to get a better result. First and firemost, though, I
+so I was looking forward to get a better result. First and foremost, though, I
 wanted to get back to playing well (compared to my standard, at least).
 
 ### Round 1 &mdash; Nic Fit 2-0
@@ -212,7 +212,7 @@ play, but I ultimately did it thinking that my first Carpet might have gotten
 Commanded or I could've ended up under pressure on my mana in the form of
 :card[Stifle]/:card[Wasteland]. I get :card[Grief]'d, Veil in response, but
 :card[Drown in the Loch] takes care of my protection spell and takes a Doomsday.
-Sheoldred resolves and is close to going all the way, but Andrea Reeanimates my
+Sheoldred resolves and is close to going all the way, but Andrea reanimates my
 other Sheoldred and I'm forced to trade them. I don't think it's correct to keep
 them on the table when my opponent is the only one with the means to remove it.
 He was at 4 life, so Reanimate was out of the picture at that point. Andrea had

@@ -48,7 +48,7 @@ Cantrips play a vital role in {U} Legacy decks by allowing you to filter your
 draws to find the card you need without having to rely solely on the top of your
 deck and your opening hand. This is especially true in Entombsday, as we have a
 lower density of reanimation effects than pure Tin Fins lists and access to
-fewer tutor effects that Turbo Doomsday lists.
+fewer tutor effects than Turbo Doomsday lists.
 
 As stated above, most lists run about 10 cantrips.
 
@@ -57,8 +57,8 @@ Just like in Doomsday lists, these should almost-never be run as less than
 four-ofs. The next best cantrip is :card[Preordain] and it is most commonly run
 as a two-of.
 
-Since it's printing in 2021, Entombsday lists have also started running one copy
-of :card[Consider] in place of the third Preordain due to it's utility in both
+Since its printing in 2021, Entombsday lists have also started running one copy
+of :card[Consider] in place of the third Preordain due to its utility in both
 gameplans. In addition to enabling several Doomsday piles, it is able to _bin_
 Griselbrand or Emrakul directly from your library (generally after setting it up
 with another cantrip).
@@ -196,7 +196,7 @@ generally fallen out of favor in :card[Doomsday] lists, but is integral to the
 Tin Fins strategy as she allows looping the deck and swinging for lethal.
 
 The Doomsday package in the sideboard is somewhat streamlined compared to
-current Doomsday list. It still includes four copies of :card[Doomsday], one to
+current Doomsday lists. It still includes four copies of :card[Doomsday], one to
 two copies of :card[Thassa's Oracle], and a :card[Cavern of Souls], but there is
 only space for two copies of :card[Personal Tutor], two :card[Street Wraith],
 and one :card[Edge of Autumn].

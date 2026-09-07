@@ -77,7 +77,7 @@ severely constrained on resources, or your opponent has a lockpiece you need to
 remove, or they are chock full of interaction but have no clock, you may find
 yourself needing to draw multiple cards over multiple turns to deal with such
 situations. Thassa's Oracle provides a cheap, clean wincon in these types of
-situations. Lets look at a few example:
+situations. Let's look at a few examples:
 
 ### Example 1
 
@@ -149,7 +149,7 @@ to brute force your Oracle through on the last turn.
 ## Piles with Empty the Warrens
 
 This is another technique, that, while its usefulness has declined sharply with
-the inclusion Thassa's Oracle, is nevertheless useful to know, since its
+the inclusion of Thassa's Oracle, is nevertheless useful to know, since its
 execution requires no unusual cards. A situation could be contrived where this
 type of pile was a reasonable option though you are unlikely to encounter such a
 situation in the wild; for example, your opponent has a :card[Leyline of
@@ -250,7 +250,7 @@ predating the rise of SDT Miracles. It can still be used to make functional
 piles, but these days is obviated by Echo of Eons. For this reason the card sees
 little to no play, but the pile is presented here for its historical interest.
 
-The cost listed in parentheses is assumingly paid for by the lands that are
+The cost listed in parentheses is presumably paid for by the lands that are
 untapped by Time Spiral.
 
 A simple example of a pass-the-turn pile that uses Time Spiral is as follows:

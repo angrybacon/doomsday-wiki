@@ -355,7 +355,7 @@ stream-of-consciousness manner.
 
 There are 2 conflicting needs at work in this deck. One is the need to see as
 many cards as possible, and the other is the need to conserve cantrips for use
-as a combo peice alongside Doomsday. This balancing act gets easier with
+as a combo piece alongside Doomsday. This balancing act gets easier with
 practice. Cast your Preordains first. Hold onto Brainstorms as long as possible.
 Remember that BW is a pseudo-cantrip into a Dd pile since it can get you a
 Draw4. Doomsday won't be your main plan in some matchups and then you can use
@@ -420,7 +420,7 @@ the game on the spot.
 
 I said earlier that life total management was very important. Doomsday and
 Draw4s both halve your lifetotal and they round up, meaning you generally need
-at at least 4 life to go off with Doomsday. If you life total is dropping
+at least 4 life to go off with Doomsday. If your life total is dropping
 quickly you may need to avoid killing with Doomsday. Foreseeing this and knowing
 when to pivot away from Doomsday will help you win games you might not have
 otherwise.
@@ -529,7 +529,7 @@ gameplan here is to use your interaction to stop their gameplan while forcing
 them to spend resources interacting on your terms. Against Miracles, this could
 mean Duressing their control cards and trying to whittle down their life total
 with EtW, which forces them to commit resources to finding Terminus. Vs a deck
-like High Tide, it means attacking their combo peices and using your
+like High Tide, it means attacking their combo pieces and using your
 individually powerful cards to overwhelm their counters. Disrupt them and make
 them spend resources trying to reassemble instead of spend resources stopping
 you.

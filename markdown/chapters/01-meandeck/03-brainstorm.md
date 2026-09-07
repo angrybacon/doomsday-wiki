@@ -169,7 +169,7 @@ needed however even something as simple as :card[Opt] can be used.
 
 Even if not the oracle, if you already have another element of the pile in hand,
 you can substitute additional toolbox cards within the _standard_ pile to
-utilise the additional resources. Let's look at an example where you have an
+utilize the additional resources. Let's look at an example where you have an
 extra {B} available, :card[IU] in hand and you know your opponent is holding a
 :card[Stifle] in hand.
 
@@ -193,7 +193,7 @@ We can play the pile in the following manner:
 1. Cast LP, crack for {U}
 1. Cast Oracle to win with 0 cards in your deck
 
-Because we had additional resources we were able to utilise them to provide
+Because we had additional resources we were able to utilize them to provide
 additional protection against what our opponent had. In this instance having the
 extra card in hand allowed us to make use of three of the pile cards immediately
 rather than just two. This also results in a perfect pile.
@@ -309,7 +309,7 @@ TO
 Here we successfully perform an imperfect Brainstorm pile without needing to
 discard our hand to LED.
 
-You can also utilise a spare land in hand plus a land drop to enable a perfect
+You can also utilize a spare land in hand plus a land drop to enable a perfect
 Brainstorm pile. Take the following scenario where we have perhaps run out of
 fetchable lands from our deck as they are in our hand:
 
@@ -328,7 +328,7 @@ TO
 1. Cycle SW, draw SW
 1. Cycle SW, draw LP
 1. Cast LP, crack for {U}
-1. Cast Brainstorm. draw Misty, Daze, TO, put back both Underground Seas
+1. Cast Brainstorm, draw Misty, Daze, TO, put back both Underground Seas
 1. Play Misty Rainforest, crack both fetchlands
 1. Tap both Seas for {U}
 1. Cast TO with 0 cards left in your library

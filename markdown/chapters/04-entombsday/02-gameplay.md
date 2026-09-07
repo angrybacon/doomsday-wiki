@@ -25,7 +25,7 @@ allow you to win on your combo turn. The most common way this is done is by
 reanimating :card[Emrakul, the Aeons Torn] before going to combat and attacking
 with Griselbrand and Emrakul for 22 damage.
 
-The deck also includes :card[Children of Korlis] to enable to you to draw your
+The deck also includes :card[Children of Korlis] to enable you to draw your
 whole deck with Griselbrand. Children of Korlis also enables you to loop your
 deck to allow wins post-combat, which will be discussed below.
 
@@ -42,11 +42,11 @@ win. The combo turn generally proceeds as follows:
    - Cast Entomb to bin Emrakul, reanimate it before the shuffle trigger
      resolves, then attack for 22 damage
    - Cast Children of Korlis to regain the life paid this turn and continue
-     drawing cards until you can
+     drawing cards until you find a way to close out the game
 
 ### General Tips
 
-- Goryo's Venegance can only target a legendary craeture. It is better to use
+- Goryo's Vengeance can only target a legendary creature. It is better to use
   that to reanimate your Griselbrand and save your Shallow Graves for Children
   of Korlis.
 - Shallow Grave and Goryo's Vengeance create a delayed trigger that will exile
@@ -77,7 +77,7 @@ win. The combo turn generally proceeds as follows:
 While Entombsday only runs two copies of Griselbrand, you will still find hands
 that have a copy in them. If you're on 7 cards on the draw, it can be correct to
 keep these hands and use your cleanup step to discard Griselbrand. This does not
-work for Emrakul, since you will never get the opportunity attack before it is
+work for Emrakul, since you will never get the opportunity to attack before it is
 exiled to the Shallow Grave or Goryo's Vengeance trigger on your opponents' end
 step.
 
@@ -307,7 +307,7 @@ two and only _transform_ for game 3.
 For example, when playing against Delver, you should swap to Doomsday in game
 two to try and sneak a win by surprising them. If there is a game three, it's
 defensible to use either plan, depending on what graveyard hate you see in game
-two. The Tin Fins plan is stronger again Delver in general and can beat a
+two. The Tin Fins plan is stronger against Delver in general and can beat a
 Surgical Extraction, but if you see permanent hate, such as :card[Grafdigger's
 Cage], it may be better to stay on the Doomsday plan.
 

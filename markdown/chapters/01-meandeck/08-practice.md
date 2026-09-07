@@ -22,14 +22,14 @@ of sites online that publish league lists, high tournament finishes and so on.
 There is also the very active Discord community, many who are happy to share
 their current lists and their thoughts and feelings on them.
 
-Sometimes the metagame will dictate a favourite in the various styles of the
+Sometimes the metagame will dictate a favorite in the various styles of the
 deck but a lot of the time there will be no _best list_ to run. Simply a large
 variety of ways you could construct your 75 cards.
 
 ### Adapting Online Lists
 
 Once you've found a list you like the look of, it's time for some tuning. Maybe
-you saw something top 8 a Sunday Challenge or perhaps you really liked a brew
+you saw something top 8 at a Sunday Challenge or perhaps you really liked a brew
 mentioned in a video. Whatever it is, get your deck-building tool of choice and
 start iterating it to your own tastes.
 
@@ -107,7 +107,7 @@ Will and pitch card or are on the play and going to put a Chalice of the Void
 into play. You can use these quick situation setups to ready yourselves for
 proper games.
 
-### Watch and Analyse Content Creators
+### Watch and Analyze Content Creators
 
 There are a vast scope of Legacy content creators out there. Some who enjoy
 streaming and others that prefer to make pre-recorded videos. Whatever you
@@ -181,7 +181,7 @@ want to avoid letting the Channeler get too big as it could present a real
 threat. Casting Doomsday off of Ritual from Underground Sea is a decent option
 as it allows us to leverage the Daze we have in hand but we also might want to
 think about whether we need the land drop to stay in play for whatever pile we
-want to build. We cannot grab a basic Swamp if run, because the fetchland
+want to build. We cannot grab a basic Swamp if one is run, because the fetchland
 doesn't allow it but if it did, that could be another thought to maybe have
 access to a non-Wastelandable source to cast the Duress from hand with.
 
@@ -260,7 +260,7 @@ Let's run through the first pile assuming we PTT once:
 
 1. Draw SW for turn
 1. Cycle SW, draw Bs
-1. Cast Bs, draw , LP, TO, CoS, put back Duress, Force
+1. Cast Bs, draw LP, TO, CoS, put back Duress, Force
 1. Cast LP, crack for {U}
 1. Play Cavern naming Wizard or Merfolk
 1. Cast Oracle and win the game with 2 cards left in deck
@@ -325,7 +325,7 @@ then resolve DR into Dd, casting LP afterwards to insulate us from
 DR off of Petal and hold up the Misty to then access a basic Island from the
 pile both insulating our mana and digging deeper into the pile.
 
-Once you have decided which mana source to utilise you will need to resolve
+Once you have decided which mana source to utilize you will need to resolve
 Doomsday and decide what cards to play around.
 
 Some potential interaction you could face:
@@ -343,7 +343,7 @@ There's a lot to think about here. Ideally you'll want to have a basic Island
 in the pile somewhere to pair with a Lotus Petal to enable {U}{U} under a Moon
 Effect but you also want to be insulated against Chalice on 2 or a Pyroblast so
 a Cavern is a decent choice to include. Beyond this simply, having 3 mana
-sources enables you to beat Trinisphere. You could also look to utilise cyclers
+sources enables you to beat Trinisphere. You could also look to utilize cyclers
 and LED to ignore all of it and just try to jam Oracle that way. No matter what
 you choose you might also want to execute it faster rather than slower as
 Rabblemaster presents a fast clock if they have it (getting you dead in 3 turns
@@ -479,7 +479,7 @@ Con
 TO
 :::
 
-This pile you should recognise easily. It's a simple Cycler + mana pile using
+This pile you should recognize easily. It's a simple Cycler + mana pile using
 Brainstorm and Consider to be able to dig through the entire pile and surveil
 away the dead Force of Will. It gets around most of the interaction the opponent
 could be holding other than Endurance and :card[Surgical Extraction]. This pile
@@ -510,7 +510,7 @@ TO
 
 As the opponent cannot cast any removal currently, and Endurance is still their
 biggest threat to this same turn win, we could look to try doing an imperfect Bs
-pile with two Oracles included. Let's talk through how this pile plays out and
+pile with two oracles included. Let's talk through how this pile plays out and
 assume our opponent waits until the very last minute (Oracle Trigger on the
 stack) to commit Endurance. We start with having cracked Petal and Strand pre-
 Doomsday to ensure less cards in our graveyard:
@@ -550,9 +550,9 @@ EoA
 
 This is a nice clean pile that allows you to beat double Endurance if need be.
 It helps that you have an extra cycler already in hand just in case. The 4 life
-from the SW shouldn't matter as either than can hit you for just 3 with their
+from the SW shouldn't matter as either they can hit you for just 3 with their
 board or for lethal from Natural Order or Cradle into Activate Shepherd.
-The pile also ignores collector Ouphe which is handy but can be scuppered by a
+The pile also ignores Collector Ouphe which is handy but can be scuppered by a
 Boseiju on their turn/in your upkeep/draw step hitting your lands.
 This pile favours having cracked your Strand to cast Doomsday and actually
 keeping your Petal in hand entirely.
@@ -614,7 +614,7 @@ Island
 :::
 
 Again this pile requires you to have cast Doomsday off of Lotus Petal. This is
-a pile that looks to cast 2 Oracle in a single turn.
+a pile that looks to cast 2 oracles in a single turn.
 
 1. Resolve Doomsday, pass the turn
 1. Draw Bs for turn

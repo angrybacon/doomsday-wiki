@@ -23,7 +23,7 @@ some of the unique aspects about Echo piles, but let's start from the beginning.
 There are only 5 cards in a pile, and Echo makes you draw 7. This means you'll
 need 2 more cards. Echo does not count, as flashback will exile it. One of those
 can be Doomsday itself, which will be in your graveyard. In the simplest
-scenario, the 7th card is Lion's Eye Diamon, which you will crack to both
+scenario, the 7th card is Lion's Eye Diamond, which you will crack to both
 generate mana for the flashback cost on Echo, and also to deposit it into your
 graveyard.
 
@@ -38,7 +38,7 @@ BW
 :::
 
 1. Cast Doomsday and build the pile described
-1. Cast LED and activate to to make {U}{U}{U}
+1. Cast LED and activate to make {U}{U}{U}
 1. Use that mana to flashback Echo of Eons
 1. Draw the 7 remaining cards
 1. Cast all 3 LEDs and the 2 Petals
@@ -75,7 +75,7 @@ that it can be used just as easily to win in Echo piles.
 
 ## Getting Fancier
 
-What happens when you aren't so lucky to have exactly 7 cards left over? Lets
+What happens when you aren't so lucky to have exactly 7 cards left over? Let's
 take a look at an example.
 
 ### Example 1

@@ -134,7 +134,7 @@ an "Oops I win" button in it. Both the above lists make use of Astrolabe and
 Baleful Strix to slow the game down. Daze and Preordain are replaced with the
 creature packages and more mana based control like Veil of Summer or Pyroblast
 effects. The number of Lotus Petals are also reduced to only 1-2 in the lists.
-Becausse of these changes to both sets of lists, the decks can play a very
+Because of these changes to both sets of lists, the decks can play a very
 strong longer game but are not able to capitalise as well on finding or pushing
 through and early Doomsday thanks to the lack of Daze, the higher reliance on
 fetching up basic lands and the reduced Petal count.

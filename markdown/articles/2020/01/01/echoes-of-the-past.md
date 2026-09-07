@@ -50,7 +50,7 @@ before Doomsday to make it lethal. You can also use Burning Wish to grab
 Tendrils and add one more _Storm_, but this costs more mana. It's important to
 keep in mind that using a Draw4 in a Doomsday pile means you will be halving
 your life total twice. Life total management is an important aspect of playing
-Doomdsay, and if your life total goes below 4 you need to think about how to win
+Doomsday, and if your life total goes below 4 you need to think about how to win
 without needing a Draw4 in your Doomsday pile.
 
 Using Echo of Eons in conjunction with Doomsday is where this list differs from
@@ -76,7 +76,7 @@ of the following examples, assume you opponent cannot interact.
 
 **Hand:** Dark Ritual, Doomsday, Doomsday, LED, Echo of Eons  
 **Board:** Swamp, Island  
-You Ritual into Doomdsay and construct the following pile: \[LED, Petal, Petal,
+You Ritual into Doomsday and construct the following pile: \[LED, Petal, Petal,
 Ponder, Burning Wish\]. Crack LED for {U}{U}{U}. Flashback Echo. At this point,
 there are 8 cards left to draw from for Echo, meaning you won't draw one, but
 there is no way to fail because if you don't draw the Burning Wish, you can
@@ -94,7 +94,7 @@ least 1 Echo. Crack those 2 LEDs for {U}{U}{U}{R}{R}{R}, then flashback Echo.
 This time there will be 7 cards leftover, so you're guaranteed to draw them all.
 Cast your LEDs, then Wish for ToA.
 
-**Hand:** Dark Ritual, Doomsday, Doomdsay, Brainstorm, Thoughtseize, Veil of
+**Hand:** Dark Ritual, Doomsday, Doomsday, Brainstorm, Thoughtseize, Veil of
 Summer  
 **Board:** Swamp, Island  
 This pile will require a little bit of luck. Ritual into Doomsday and construct
@@ -168,7 +168,7 @@ tough enough to win through one, much less multiples. Turn 1 Discard into turn 2
 kill is the best option besides a turn 1 kill. It is possible to storm off into
 Empty or even ToA through Chalice of the Void, so don't give up too early. Most
 of these decks don't have many ways to interact with you besides with their
-hateful permanents, you you are well served to jam as soon as you have an
+hateful permanents, you are well served to jam as soon as you have an
 opening. Don't waste time trying to play around things they likely don't have.
 For sideboarding, you usually want to cut Veil of Summers, maybe a Ponder or 2,
 and bring in your bounce spells or anything like Abrade or Abrupt Decay that you
@@ -181,7 +181,7 @@ _Slightly favorable, faster: less favorable._
 
 This list is fast enough to have a shot against just about any other combo deck,
 has strong game against discard with Veil of Summer and Echoes, and packs enough
-of it's own disruption to slow the opponent down. Veil has changed the nature of
+of its own disruption to slow the opponent down. Veil has changed the nature of
 combo matchups though, so be aware of it from your opponents as well. You can
 kill with Grapeshot to sidestep an opposing Veil if need be but ideally you'll
 kill them without needing to Echo while they have green mana up. Sometimes, it's

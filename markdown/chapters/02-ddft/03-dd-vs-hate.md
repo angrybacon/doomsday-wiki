@@ -16,8 +16,8 @@ basis for how to approach different types of interaction from your opponents.
 Generally when thinking about different types of interaction and combo-hate your
 opponent might have, it is useful to break it down into categories that have
 similar techniques for fighting individual cards in them. We'll use 3 main
-categories: Countermagic, Discard, Permanants, and a 4th Miscellaneous category
-which will cover cards that don't fit nicely into the others.
+categories: _Countermagic_, _Discard_, _Permanents_, and a 4th _Miscellaneous_
+category which will cover cards that don't fit nicely into the others.
 
 ## Fighting through Countermagic
 
@@ -38,7 +38,7 @@ can't get rid of?
 
 ### Example 1
 
-One thing to consider is using a pass-the-turn pile. Lets say your opponent lets
+One thing to consider is using a pass-the-turn pile. Let's say your opponent lets
 you resolve Doomsday but still has a Force of Will. You could use a
 pass-the-turn pile like this:
 
@@ -117,7 +117,7 @@ TO
 
 If you're not worried about your spells being countered, you can move the
 discard spell deeper into the pile. Ponder into Ideas Unbound and cast it to
-draw a discard spell, LED, and Wraith. cast the discard spell to take Stifle,
+draw a discard spell, LED, and Wraith. Cast the discard spell to take Stifle,
 and then you're free to cycle into Oracle.
 
 ## Playing Through Discard
@@ -290,7 +290,7 @@ eliminates the need for a 1-mana cantrip. This one has a hefty life cost though.
 
 #### Chalice on 2
 
-Chalice on 2 is relatively rare, but it turns off Wish and Oracle. f you resolve
+Chalice on 2 is relatively rare, but it turns off Wish and Oracle. If you resolve
 Veil of Summer before going off you can just ignore it. This is the preferred
 method. For the sake of completeness, here is a pile that can work through a
 Chalice on 2.
@@ -311,7 +311,7 @@ uncommon
 There has been some discussion of playing Cavern of Souls, which could let you
 play Oracle through Chalice on 2 (and normal countermagic for that matter). It
 would be a completely dead card outside of piles and so is likely not worth a
-slot, but its something to think about.
+slot, but it's something to think about.
 
 ### Gaddock Teeg / Leyline of Sanctity
 
@@ -422,8 +422,8 @@ removal spell if you need to deal with something Abrupt Decay can't handle.
 ### Veil of Summer
 
 While Veil can stop your discard and turn off your _Storm_ game plan, it does
-nothing against a typical Thassa's Oracle Doomsday pile. against decks that can
-potentially play Veil of Summer, you should prefer to via a non-Tendrils means,
+nothing against a typical Thassa's Oracle Doomsday pile. Against decks that can
+potentially play Veil of Summer, you should prefer to win via a non-Tendrils means,
 with Doomsday+Oracle being the preference in general.
 
 ### Grindstone
@@ -432,7 +432,7 @@ Grindstone or other milling effects provide an interesting roadblock to going
 off with Doomsday. A timely mill can completely destroy a pile. Any effect that
 draws 3 or more cards can be very dangerous, because you can deck yourself if
 they mill in response. You can think of Grindstone and other mill effects as a
-way to change the order of you pile, and we have access to a card that renders
+way to change the order of your pile, and we have access to a card that renders
 the order of our pile irrelevant: Echo of Eons. This will be your strongest tool
 for beating an onboard Grindstone; standard Echo piles are well suited to the
 job of beating mill effects. Keep in mind though, that decks that play
@@ -441,7 +441,7 @@ Grindstone often play Pyroblast as well.
 ### Meddling Mage
 
 Meddling Mage is a tricky card. It isn't included in the Permanent-based Hate
-section because the card they name will substantially effect how you play
+section because the card they name will substantially affect how you play
 differently to beat it. Obviously, if they name Doomsday, you need to remove it
 or win through other means. If they name Tendrils of Agony or Thassa's Oracle,
 you can win with the other without much trouble. A card like Dark Ritual is not
@@ -487,7 +487,7 @@ BW
 Echo lets you draw the entire pile and the order doesn't matter, so they are
 well suited to combatting Surgical effects. Note that this one is built without
 Lion's Eye Diamond, since that is presumably the card that will get extracted.
-You could build an Oracle pile in a similar fashion. It is import to consider
+You could build an Oracle pile in a similar fashion. It is important to consider
 the sequencing of your spells when playing against extraction effects. You
 cannot take any actions between cracking LED and flashing back Echo, or you will
 give your opponent priority and the chance to extract the Echo. After Echo, it

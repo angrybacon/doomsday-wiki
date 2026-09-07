@@ -31,7 +31,7 @@ Markdown contributions:
 
 :::
 
-The below components wrapped with colons are referred to as as
+The below components wrapped with colons are referred to as
 [directives][directives] in Markdown parlance. In the case of container
 directives, they can be wrapped together by adding an additional colon character
 for each extra level.

@@ -231,7 +231,7 @@ desperation scenario, it might be worth leaving a Brainstorm to be the last
 cantrip you play. This is because after resolving any Ponders and/or Preordains
 you have, the Brainstorm cannot _clear the top_ of your library so, although it
 can see 3 cards, it will not be able to have you view any new ones in isolation.
-In non-desperation scenarioes it may be better to Brainstorm and then use the
+In non-desperation scenarios it may be better to Brainstorm and then use the
 scry 2 from Preordain or the shuffle from Ponder to act as a fetchland shuffle
 however this is generally inefficient in terms of card usage.
 
@@ -375,7 +375,7 @@ can be used to remove potential advantage from using Predict.
 
 ### Looting with Ideas Unbound
 
-Many see Ideas Unbound as a purely _combo-centric_ card wit very limited utility
+Many see Ideas Unbound as a purely _combo-centric_ card with very limited utility
 prior to the casting of Doomsday. There are two main methods of using it outside
 of inside piles; _filtering_ and _card booming_. Filtering basically is the use
 of it as a glorified :card[Careful Study]. If you find yourself with a hand of

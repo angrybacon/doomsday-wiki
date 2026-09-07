@@ -365,7 +365,7 @@ a Bauble on board, and another Doomsday in hand. This gives me a discard spell
 to try to hit a counterspell if they draw one. However, they draw and play Dack,
 and Dack me. I draw Therapy and AoI, and discard Therapy and the extra Doomsday.
 I untap, draw Lab Man, play AoI exiling LED and Probe, and crack LED for UUU
-discarding Lab Man. Bauble puts Lab Man on the bottom of my emty library so I
+discarding Lab Man. Bauble puts Lab Man on the bottom of my empty library so I
 draw it, cast it, and use Probe from exile to draw for the win. Miss me with
 that Dack shit.
 
@@ -412,7 +412,7 @@ buys me another turn and I win by Wishing up a Doomsday and storming out.
 
 G2: He has a Draw4 on turn 1 but draws garbage again. We rip each other's hands
 apart with discard and start a topdeck war. I eventually find a Wish, go to grab
-a Doomdsay and... shit it's not there. I forgot to put it back in my board after
+a Doomsday and... shit it's not there. I forgot to put it back in my board after
 last game. I just have to pass, but my opponent can't draw a business spell to
 save his life and I topdeck one of my four (lol) Doomsdays to win two turns
 later.

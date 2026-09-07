@@ -393,8 +393,8 @@ is run. Meandeck lists tend to be able to run the more mana efficient card
 advantage engines too so run 1-2 :card[Predict] or :card[Ideas Unbound]. They
 tend to run between 1-2 Street Wraith and 1 Edge of Autumn. Edge is crucial as
 it provides a life-free alternative to drawing one card deeper into the Doomsday
-pile. Finally the win condition is 1-2 Thassa's Oracles. Often it is run as a
-singleton main with an additional copy in the sideboard.
+pile. Finally the win condition is 1-2 copies of Thassa's Oracle. Often it is
+run as a singleton main with an additional copy in the sideboard.
 
 ### Manabase
 
@@ -429,7 +429,7 @@ range. This is normally 4 Delta, 4 Tarn or 3 Tarn/1 Mire, 1 Volcanic Island, 1
 Badlands, 2 Underground Seas, 2 Islands and 1 Swamp. Sometimes (if there is a
 splash colour) you might add an additional land or replace the second basic
 Island with a, in the example of {G}, :card[Bayou] and/or :card[Tropical
-Island]. Toolbox lands such as :card[Nurturing Peatland] tend not be be used for
+Island]. Toolbox lands such as :card[Nurturing Peatland] tend not to be used for
 these lists but can be an option.
 
 #### Meandeck

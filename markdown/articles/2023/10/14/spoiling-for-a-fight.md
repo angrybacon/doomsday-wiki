@@ -336,7 +336,7 @@ TO
 
 If your opponent does not play the Murktide Regent you can cast spoils on their
 endstep for Cavern of Souls, drawing your Oracle with Two cards left in library
-and comfortably able to try casting both Oracles if the first gets hit with
+and comfortably able to try casting both oracles if the first gets hit with
 Dress Down. Alternatively, if they do play the Murktide Regent, you can name
 :card[Pact of Negation] making this into a perfect pile with counterspell
 backup.

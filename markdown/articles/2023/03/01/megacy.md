@@ -107,7 +107,7 @@ Mystic]. I have Dd and FoW, but can't win in one turn. I let Stoneforge resolve
 on the basis that I can cast Dd, pass, take one :card[Kaldra Compleat] hit, and
 win the following turn. He finds :card[Batterskull]. On my turn I resolve Dd,
 and build a pile with cyclers, TO and :card[Cavern of Souls]. He puts in
-Batterskull on is turn. Then I just cantrip/cycle into TO and Cavern and win.
+Batterskull on his turn. Then I just cantrip/cycle into TO and Cavern and win.
 
 #### Game 2
 
@@ -438,7 +438,7 @@ I lost all the games I used it. I'm probably going to cut it.
 
 I'm less happy with the sideboard.
 
-- The basic Island isn't dong enough work for my liking. There aren't many
+- The basic Island isn't doing enough work for my liking. There aren't many
   situations where it's the only option, as you can often use a lotus petal
   instead. (Doishy's editor comments, "In this I disagree!")
 - I hate Subtlety as a card but it's probably a necessary evil with the

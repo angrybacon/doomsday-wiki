@@ -56,17 +56,17 @@ was the main variant available post :card[Gitaxian Probe] ban and pre-printing
 of Thassa's Oracle. These lists use Experimental Frenzy as a card advantage
 engine and win condition in tandem with Doomsday.
 
-## What is the _best_ Doomsday archetype? Of that archetype what are the _best_ colours to run?
+## What is the _best_ Doomsday archetype? Of that archetype what are the _best_ colors to run?
 
 Doomsday has the most proven results of the archetypes listed above with
-performances that outnumbers TCDeck numbers of the previous 10 years preceding
+performances that outnumber TCDeck numbers of the previous 10 years preceding
 it for all archetypes (excluding 5-0 publications).
 
-Within Doomsday there is no definitive _best_ colour configuration to run.
+Within Doomsday there is no definitive _best_ color configuration to run.
 Success has been had with straight {U}{B}, {U}{B}{W}, {U}{B}{R}, {U}{B}{G} and
 even {U}{B}{R}{G} across the years with most decks having an almost entirely
 {U}{B} maindeck configuration. The tools that are effective and provided by each
-colour depend on the meta at the time and the pilot's preferences in deck
+color depend on the meta at the time and the pilot's preferences in deck
 building.
 
 ## What list should I start on? What is the _best_ list to play?
@@ -135,7 +135,7 @@ pilots unravel their pile. That weakness can be mitigated but often means that
 while the TES pilot tries to disrupt our combo turn, they aren't progressing
 their own plan as much.
 
-These are likely the most favourable matchups (part based on gut feel and part
+These are likely the most favorable matchups (part based on gut feel and part
 based on [community-obtained results][data:matchups]).
 
 ## What is the worst matchup for the deck?
@@ -259,7 +259,7 @@ time by pre-building your Doomsday pile in your head during the turns prior by
 using the time allowed for decisions like fetching lands or resolving Ponder to
 think about what you are likely to build.
 
-When learning the deck, playing with friends or at a local FNM it is likely to
+When learning the deck, playing with friends or at a local FNM it is likely you
 will be given more leeway to resolve it which is great for practice or if you
 are unfamiliar with the deck. Often people are very friendly and take some
 amount of enjoyment from watching the deck be played but I would still advise
@@ -291,7 +291,7 @@ feel free to come and say hello in the [Doomsday Discord][discord].
 ## In what order should I make purchases to build Doomsday?
 
 As with any Legacy deck the focus should always be on the reserved list staples.
-dual lands are the first port of call with Underground Seas being the key part.
+Dual lands are the first port of call with Underground Seas being the key part.
 You should look to pick up at least 2 Underground Seas if not 3 if you can. Once
 you have Seas then the Lion's Eye Diamond(s) is the next priority. For Doomsday
 you just need one but for the more all-in combo builds you will want 4\. After
@@ -306,7 +306,7 @@ This obviously depends on how constricted you are in terms of budget but yes you
 can! The easiest way is of course to run a heavy basics list. Unfortunately due
 to the life loss from Doomsday _Shock Lands_ like :card[Watery Grave] are not
 viable in high numbers. Following this you will only need 1-2 Underground Seas
-and can rely on basics and Petals to fix for any splash colours. This can slow
+and can rely on basics and Petals to fix for any splash colors. This can slow
 the deck down and make cards like :card[Daze] much worse for early turns but is
 perfectly serviceable. You can also omit the :card[Lion's Eye Diamond] in
 Doomsday but it will prevent you from getting access to a lot of the more mana
@@ -328,7 +328,7 @@ Access to :card[Underground Sea]:
 
 At 2 :card[Underground Sea], :card[Daze] is unlocked as a reliable option.
 
-## I am seeing lists with two Thassa's Oracles in, what does the 2nd do?
+## I am seeing lists with two oracles in, what does the 2nd do?
 
 The second Oracle (main or side) can have a number of uses. It helps increase
 resilience against effects like :card[Extract] when they are aggressively used,
@@ -337,7 +337,7 @@ trigger. They can enable additional devotion count, allow blocking in a pinch
 with some filtering, provide extra tricks vs. mill effects like :card[Ipnu
 Rivulet] and act as a pseudo +2 to your {U} card count for Force of Will
 effects. Especially useful if you need to bring in Force of Negations and
-maximise the ability to use them.
+maximize the ability to use them.
 
 ## Why do some lists run Consider without Deep Analysis?
 
@@ -382,7 +382,7 @@ suite and a lower focus on finding Doomsday or using pile-specific cards like
 ## Which is better out of _Turbo_ or _Tempo_ Doomsday?
 
 Against the majority of the meta at the time of writing this _Turbo_ Doomsday
-has a more favourable position with _Tempo_ giving up percentage points against
+has a more favorable position with _Tempo_ giving up percentage points against
 some of the otherwise easier matchups. _Tempo_ however has a much better game to
 be played against Delver or other decks that may run a significant amount of
 combo-specific hate for the matchup.

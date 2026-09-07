@@ -8,7 +8,7 @@ title: Playing Around Interaction
 
 In general, the easiest way to play around interaction is using discard and
 countermagic. However, because the core of the Tin Fins combo is Instant speed,
-there are a number of ways to play around different pieces interaction on the
+there are a number of ways to play around different pieces of interaction on the
 stack without those effects.
 
 By playing patiently and knowing when to go for your combo, you can steal wins
@@ -90,7 +90,7 @@ Surgical Extraction
 While similar to the previously mentioned effects, Surgical Extraction requires
 the inverse play pattern. Since Surgical Extraction exiles all copies of the
 chosen card, you can't allow it to resolve. To beat these effects, you will need
-two reanimation effects instead of two Entomb effects is you're unable to just
+two reanimation effects instead of two Entomb effects if you're unable to just
 counter the spell.
 
 In this scenario, you can bait the Surgical using the first reanimation spell,
@@ -111,7 +111,7 @@ Teferi, Time Raveler
 for Tin Fins to play around as it turns off our ability to reanimate Emrakul.
 The first option is to aggressively discard or counter it. If those are not an
 option then the best available line is to reanimate Griselbrand as normal, go to
-combat and attack your opponent, the proceed with looping your deck to either
+combat and attack your opponent, then proceed with looping your deck to either
 hard cast Emrakul or loop Collective Brutality.
 
 Post-board, keep in mind that this effect turns off :card[Shelldock Isle], so

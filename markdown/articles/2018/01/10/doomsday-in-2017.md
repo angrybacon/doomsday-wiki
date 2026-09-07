@@ -20,7 +20,7 @@ I hope not...
 2017 has been a difficult year for Doomsday as an archetype primarily due to the
 SDT ban. A lot of it was spent trying to work out any and all possible
 replacements, both card wise and playstyle wise. A lot of people switched to ANT
-as in their mind the deck had lost the one benefit over it's bigger sister in
+as in their mind the deck had lost the one benefit over its bigger sister in
 terms of card selection, advantage and resilience.
 
 I talk with a lot of people about the deck but one of the people I talk most
@@ -118,7 +118,7 @@ in the second graph. Seven cards have a very good win rate with a heavy
 reduction as one mulligans to six and to five. One thing to note is how few data
 points there actually are for mulligans to five or less showing some severe data
 changes for the win percentage across these points. As a result nothing solid
-can be inferred from these low points but I I hope the fact that the number of
+can be inferred from these low points but I hope the fact that the number of
 these results being so low is a testament to the general consistency of the deck
 itself.
 

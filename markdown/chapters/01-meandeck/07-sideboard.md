@@ -70,9 +70,9 @@ Permanent removal is anything that can deal with hateful interaction such as
 :card[Trinisphere] or :card[Narset, Parter of Veils]. Normally it can also deal
 with creature based interaction too but not always. There is a lot of overlap
 between the two categories however the permanent removal section is generally a
-bit broader. Often is is favourable to have only permanent removal then maybe 1
+bit broader. Often it is favorable to have only permanent removal then maybe 1
 additional flex slot of creature removal depending on what is expected to be
-faced or what your colour requirements allow.
+faced or what your color requirements allow.
 
 One item on the list which may look out of place is Force of Negation (FoN). FoN
 provides dual utility in being able to be brought in against opposing combo
@@ -122,7 +122,7 @@ Terminus
 ### Anti-Blue
 
 These are cards that tend to be biased towards stopping blue-based strategies
-from interacting favourably. Some may have relevance in other matchups but that
+from interacting favorably. Some may have relevance in other matchups but that
 is their main purpose.
 
 You probably want 1-4 slots dedicated to this role.
@@ -175,7 +175,7 @@ graveyard.
 
 If using Leyline of the Void you likely want to run 4, if not then 1-3 slots
 should suffice. Some tools like Flusterstorm or FoN have very good utility in a
-lot of the matchups that utilise the graveyard so in some circumstances you may
+lot of the matchups that utilize the graveyard so in some circumstances you may
 be able to fight those type of decks without dedicated interaction to bring in.
 
 :::row{variant=CENTERED}
@@ -190,10 +190,10 @@ Faerie Macabre
 ### Mana Assets
 
 These are cards that help reinforce your manabase in some way. They may be an
-extra instance of a splash colour, additional basis to fight against Wasteland
+extra instance of a splash color, additional basis to fight against Wasteland
 strategies or other mana based tools to use.
 
-This role is the most dependant on your maindeck configuration and thus you may
+This role is the most dependent on your maindeck configuration and thus you may
 want between 0-3 slots dedicated to this role.
 
 :::row{variant=CENTERED}
@@ -212,7 +212,7 @@ primary Doomsday plan or, in the case of a complete _transformative sideboard_
 replaces it entirely. Some of the cards have additional utility such as a second
 Thassa's Oracle increasing your blue card count by effectively two (as you can
 now _pitch_ either Oracle to a Force effect). This is good vs matchups where you
-know you want to maximise having free interaction.
+know you want to maximize having free interaction.
 
 There isn't a recommended number to run for this role however if you are doing a
 full _transformational sideboard_, it may take up the majority of your sideboard
@@ -285,7 +285,7 @@ graveyard permission like Surgical Extraction or Tormod's Crypt then finding a
 hand with one of these and / or some light permission like Daze can be
 effective. Again, trying to achieve a quick win is favoured as often the
 graveyard decks can skimp on stack based interaction however do be mindful of
-tools like Mindbreak Trap which can be be brought in or opposing Surgical
+tools like Mindbreak Trap which can be brought in or opposing Surgical
 Extractions or similar. If you end up with a slower hand then mitigate their
 disruption with your soft permission and try and find a Doomsday as quickly as
 possible.
@@ -308,7 +308,7 @@ Arclight Phoenix
 
 Blue based control can represent a number of archetypes however they generally
 use a mix of cantrips, removal spells and countermagic to draw out the game and
-gain advantage through it going long. Normally the win conditions utilised are
+gain advantage through it going long. Normally the win conditions utilized are
 not very fast to deploy or are slow to get going, often relying more on defense
 than aggression. Bringing the tool suite from the anti-blue package is normally
 most effective with some consideration given to needing to bring in Permanent
@@ -365,7 +365,7 @@ threats providing heavy pressure. You want to bring in some elements of the
 anti-blue package however consideration could also be more focussed on Mana
 assets.
 
-Delver strategies try to limit your resources so bring cards like Carpet of
+Delver strategies try to limit your resources so bringing cards like Carpet of
 Flowers in means you negate their soft permission and mana denial plan. Some
 pilots like to bring in creature removal for their threats however a lot of the
 time, trying to fight the Delver player _on the ground_ results in wasting time
@@ -377,9 +377,9 @@ however you should decide to keep one or the other and this could be dependent
 on being on the play vs being on the draw or how much you feel your mana is
 constrained.
 
-Some pilots prefer to try and utilise speed to their advantage. This can either
+Some pilots prefer to try and utilize speed to their advantage. This can either
 be through trying to resolve Doomsday as quickly as possible or, trying to
-resolve Doomsday and avoid passing the turn. For this latter one, maximising
+resolve Doomsday and avoid passing the turn. For this latter one, maximizing
 free cycle effects and adding in mana efficient interaction like Pact of
 Negation can be important.
 
@@ -426,7 +426,7 @@ getting there. The only potential disruption to consider is Mindbreak Trap,
 Endurance or Surgical Extraction effects for same turn wins and something like
 Deafening Silence, Ethersworn Canonist, Thalia, Guardian of Thraben or Choke for
 pass-the-turn wins. Having a piece of removal in your starting hand is
-favourable but not something you should mulligan too aggressively towards. Try
+favorable but not something you should mulligan too aggressively towards. Try
 to avoid needing to go for Unearth based wins as they could run tools like
 Elvish Reclaimer or Knight of the Reliquary that could fetch Bojuka Bog or have
 an on-board Scavenging Ooze or Containment Priest. Speed is normally better in
@@ -453,7 +453,7 @@ preferably in a single turn. They tend to feature similar disruption in order to
 circumnavigate opposing countermagic or interaction. Often they use cards like
 Thoughtseize, Duress, Unmask, Veil of Summer and Defense Grid to try and get
 their combo through. If they are blue based combo then they will rely on
-countermagic, perhaps in conjecture with other tools, in order to _force
+countermagic, perhaps in conjunction with other tools, in order to _force
 through_ the win. Against non-blue based combo you should focus on balancing
 defense with offense. As much interaction as is relevant should be brought in.
 Cards like Flusterstorm, Veil of Summer, Spell Pierce and Mindbreak Trap should
@@ -511,7 +511,7 @@ High Tide
 
 ### Stompy Strategies
 
-Stompy strategies are defined by trying to utilise cards like Chalice of the
+Stompy strategies are defined by trying to utilize cards like Chalice of the
 Void and Blood Moon coupled with fast mana from cards like Ancient Tomb, City of
 Traitors, Chrome Mox and Simian Spirit Guide to try and lock out the opposing
 deck and deploy fast-ramping threats like Goblin Rabblemaster, Thought-Knot Seer
@@ -553,7 +553,7 @@ Not every deck can be nicely categorised and often decks will exhibit elements
 from multiple of the archetypes listed. When facing them you have to try and
 assess which parts of their strategy you most need to interact with in order to
 facilitate your gameplan or to prevent theirs. At the end of the day this comes
-down with experience and if a tool you have seems to fit against a deck that is
+down to experience and if a tool you have seems to fit against a deck that is
 slightly spicy or counter-intuitive to what has been written above then do not
 be afraid to _go with your gut_. Just be mindful that you cannot hedge against
 everything without severely diluting your primary gameplan. Accepting that
@@ -602,7 +602,7 @@ Another example of this combination would be {W}{G} Depths.
 
 Part graveyard deck and part combo deck, they are popular and more resilient
 with the modal double-faced land cards. You should be okay boarding in a similar
-fashion when facing reanimator to maximise early disruption and interaction and
+fashion when facing reanimator to maximize early disruption and interaction and
 play a slightly more controlling role.
 
 ## Closing Words

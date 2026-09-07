@@ -350,5 +350,5 @@ Wheel of Sun and Moon
 These cards can put cards back into your pile. The former will make all your
 usual ways of digging into or thinning the pile useless (i.e. fetchlands,
 cantrips and cyclers won't reduce the size of your pile anymore). While the
-latter cast with the Oracle trigger still on the stack, will reduce your
+latter, cast with the Oracle trigger still on the stack, will reduce your
 devotion to {U} by 2 in addition to increasing the size of your library by one.

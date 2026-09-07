@@ -317,12 +317,12 @@ the following turns?
 > needed.
 >
 > You may think that you want to get a Fatal Push pile here, but that means you
-> would likely need the fatal push to resolve to win. If you were to cack fetch
+> would likely need the fatal push to resolve to win. If you were to crack fetch
 > (revolt for fatal push) with holding priority and cast Fatal Push on Archon
 > and still holding priority with the fetchland on the stack gush so you know
-> the cards you can draw, not only do you lose to a Hullbreacher but you loose
+> the cards you can draw, not only do you lose to a Hullbreacher but you lose
 > to Lavinia as well. The pile discoverN describes makes it so you can beat all
-> of these cards as well as Flusterstorm and Daze (two Oracles).
+> of these cards as well as Flusterstorm and Daze (two oracles).
 
 :::row{variant=PILE}
 Time Walk

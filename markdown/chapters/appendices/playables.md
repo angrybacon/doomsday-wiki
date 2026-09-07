@@ -31,7 +31,7 @@ cards like :card[SW] and cantrips like :card[Pnd], :card[Pre] and :card[Con] all
 of which are likely the cards that would be replaced. If you really wanted to
 have an effect that allows these instant speed interactions (because who doesn't
 love casting :card[Tsz] in an opponent's draw step) then :card[Teferi, Time
-Raveler] is likely better on all accounts other than the colour requirement.
+Raveler] is likely better on all counts other than the color requirement.
 
 That being said, :card[Quicken] enables interesting lines against :card[Orcish
 Bowmasters] when operating on a low life count. After the spell has finished
@@ -83,7 +83,7 @@ game in the same turn as most opponents will be able to answer it as soon as
 they untap if you give them a free tutor.
 
 :card[Profane Tutor] has been experimented with a lot and can be a decent choice
-for lists. The card is best utilised on turn 2 which means, in theory, you want
+for lists. The card is best utilized on turn 2 which means, in theory, you want
 a high number of copies where possible to ensure it is found early on.
 Unfortunately, as additional later copies of the card beyond this turn are not
 useful, running high numbers of it can lead to a lot of dead draws from the
@@ -189,8 +189,8 @@ the primary plan.
 
 There are ways you can focus more on the creature plan with the early 2022
 dubbing of _Tempo Doomsday_ lists but be warned it will skew certain matchups
-out of favour and sometimes result in very clunky hands or gameplans with the
-wrong parts of both sides being found.
+out of favour and sometimes result in very clunky hands or gameplans, with the
+wrong parts of both halves being drawn.
 
 ## Multi-Draw Spells
 
@@ -263,7 +263,7 @@ Echo of Eons is one of the various _draw 7_ effects that have existed in Magic
 and one of the few that are legal _and_ playable in Legacy. It can be a very
 powerful tool allowing for some unique pile construction that plays well around
 :card[Endurance] and makes good use of :card[LED]. If you run a list with an
-excess of Ritual effects you can ply extra {B} into the _Flashback_ cost for
+excess of Ritual effects you can put extra {B} into the _Flashback_ cost for
 Echo and cards like Predict or Consider allow you to easily place it into the
 graveyard.
 
@@ -281,7 +281,7 @@ Collective Brutality
 :::
 
 These cards can be very powerful allowing for a nice mix of flexibility and
-utility whilst being within the deck's core colours. One issue with them
+utility whilst being within the deck's core colors. One issue with them
 normally stems from the fact that two mana in Legacy is quite a lot and neither
 of these options presented are guaranteed to be effective in every matchup. If
 you are playing a slower, more controlling variant then they might have space as

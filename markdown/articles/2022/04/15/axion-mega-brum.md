@@ -91,7 +91,7 @@ happened! All in all good mental was achieved throughout with 120% success!
 
 ## Main Report
 
-As stated we drove up as a group (kudos for driver Seb!) to the dulcit sounds of
+As stated we drove up as a group (kudos for driver Seb!) to the dulcet sounds of
 Metalcore, Skindred and Lil' Jon and got to the venue. We had an explore around,
 found the venue and got drinks (coffee for the boiz, smoothie for me). My event
 started first so I slunk away and got seated already seeing a lot of familiar
@@ -122,7 +122,7 @@ disruption. As a result I decided to risk jamming and seeing what happened.
 Shelldock Isle
 :::
 
-I build something using :card[IU] and pass. They drop the know Island and pass
+I build something using :card[IU] and pass. They drop the known Island and pass
 back. I go for it and they try to :card[FoW] from under their Shelldock. I fight
 over it and drop :card[TO] getting the day off to a good start.
 
@@ -286,7 +286,7 @@ okay and the wisp hadn't appeared at all. Even despite a :card[Thalia, Guardian
 of Thraben] coming down Based on my calculations I was going to end the game
 with an empty library at 1 life. Now the element I did not account for was
 :card[Urza's Saga]. Even with this out I was like "it's fine there is nothing
-that can punish me plan other than maybe a :card[Pithing Needle] on one of my
+that can punish my plan other than maybe a :card[Pithing Needle] on one of my
 fetchlands combined with a swords to prevent me winning with an empty library.
 As a result when it came to the 3rd counter trigger I sacrificed both lands in
 response ready and safe in the knowledge that nothing he could do could hurt me.

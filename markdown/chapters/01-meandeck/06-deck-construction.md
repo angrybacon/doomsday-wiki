@@ -55,7 +55,7 @@ BW
 
 Another option, albeit a slower one again is :card[Solve the Equation]. This
 costs {2}{U} but allows you to place the Doomsday, or other target, directly
-into your hand. It can be favourable for lists that either want access to a more
+into your hand. It can be favorable for lists that either want access to a more
 toolbox approach to some of the deckbuilding choices or a slower, more
 controlling one. There are many other options that could be considered like
 :card[Burning Wish], :card[Profane Tutor] or :card[Spoils of the Vault] however
@@ -63,14 +63,14 @@ the majority of these have been found to not be effective.
 
 ### Deckbuilding Ratios
 
-In terms of deckbuilding ratios. You should have at a minimum four copies of
+In terms of deckbuilding ratios, you should have at a minimum four copies of
 Doomsday. If you prefer a slower, more control-esque style of play then you
 don't need to have any more as you should naturally find them through your other
 cantrips and general desired length of play. If you want a balanced style list
 then you should look to have around six copies of Doomsday (four Doomsday and
 two tutors). If you want a faster build then you want to aim for seven to eight
 copies of Doomsday (four Doomsday and three to four tutors). For faster builds
-the cheaper mana cost tutors are favourable whilst for slower ones the more
+the cheaper mana cost tutors are favorable whilst for slower ones the more
 expensive may be better options.
 
 If you want to increase the number of copies of Doomsday through the use of
@@ -85,8 +85,8 @@ act as additional copies of those as well.
 
 As with the majority of the decks in Legacy, or Magic in general, lands are
 required in order to be able to cast your spells. Doomsday tends to be a deck
-centered around the {U}{B} colour pairing with occasionally secondary and
-tertiary splash colours being integrated in. The deck runs a fetchland manabase
+centered around the {U}{B} color pairing with occasionally secondary and
+tertiary splash colors being integrated in. The deck runs a fetchland manabase
 normally consisting of four copies of :card[Polluted Delta] and four to five
 additional _off-colour_ fetchlands. The _off-colour_ fetchlands tend to be the
 {U} based splash ones (where a splash is applicable) as the majority with
@@ -109,20 +109,19 @@ controlling builds, some may elect to replace some of these with copies of
 however these are considered not as effective as other fetchlands.
 
 In terms of fetchable lands, :card[Underground Sea] is the dominant dual land
-used. For most straight {U}{B} lists this is a four-of that is run however for
-less aggressive lists or lists with splash colours in this can often be a three
-of. Some very aggressive lists which have started to forgo basic lands entirely
-are option to run four Seas and a copy of :card[Watery Grave] as a pseudo fifth
-copy. In this instance, if no basic lands are being run, the fetchland
-configuration can be changed to run any combination of {U}/x or {B}/x
-fetchlands. Diversification is important to avoid :card[Pithing Needle] type
-effects. Conversely, in a more control-based list this can drop down as far as
-only one or two copies of Underground Sea with an Island dominant manabase being
-favoured with copies of :card[Urborg, Tomb of Yawgmoth] being run as a mana
-fixer of choice.
+used. For most straight {U}{B} lists this is an easy four-of. However for less
+aggressive lists or lists with splash colors, a three-of is fine. Some very
+fast lists which have started to forgo basic lands entirely are opting to run
+four Seas and a copy of :card[Watery Grave] as a pseudo fifth copy. In this
+instance, if no basic lands are being run, the fetchland configuration can be
+changed to run any combination of {U}/x or {B}/x fetchlands. Diversification is
+important to avoid :card[Pithing Needle] type effects. Conversely, in a more
+control-based list this can drop down as far as only one or two copies of
+Underground Sea with an Island dominant manabase being favoured with copies of
+:card[Urborg, Tomb of Yawgmoth] being run as a mana fixer of choice.
 
-If splash colours are being run then it is generally accepted to run one {U}/x
-dual land of the splash colour and one {B}/x dual land of the splash colour but
+If splash colors are being run then it is generally accepted to run one {U}/x
+dual land of the splash color and one {B}/x dual land of the splash color but
 again you can elect to only run one splash dual with the {U}/X being favoured.
 
 For example: In a BUG {U}{B}{G} based Doomsday list you might elect to run three
@@ -176,7 +175,7 @@ balanced Grixis {U}{B}{R} manabase and a control style Esper {W}{U}{B} manabase.
 - 1 Watery Grave
 - 1 Island
 
-If you were to run a splash colour you could replace the Island with the {U}/x
+If you were to run a splash color you could replace the Island with the {U}/x
 dual land of the appropriate type here.
 
 #### Grixis Balanced
@@ -243,8 +242,8 @@ easily incorporated effectively in your piles. It helps fix your mana to enable
 you to pivot from cantripping to casting Doomsday and can also facilitate a turn
 one or turn two Doomsday though not as effectively as Dark Ritual does. The
 number of Lotus Petals increase as number of lands decreases and higher counts
-are favourable for either decks looking to win fast or that have greedier mana
-requirements due to splash colours. In a control style list you may only wish to
+are favorable for either decks looking to win fast or that have greedier mana
+requirements due to splash colors. In a control style list you may only wish to
 run two whilst most other lists will probably wish to run three or four.
 
 Some people opt for additional acceleration in the form of :card[Cabal Ritual].
@@ -282,7 +281,7 @@ TO
 Under interaction, there are two additional sub-categories of cards. Proactive
 and reactive. Proactive interaction is one you can use at any time to try and
 either interfere with your opponent's game plan or to protect your own. Examples
-of this include discard spells like :card[Duress]. Reactive interaction are
+of this include discard spells like :card[Duress]. Reactive interaction refers to
 cards that rely on your opponent making an action before they can be used.
 Examples of this include counter-magic like :card[Spell Pierce].
 
@@ -303,7 +302,7 @@ as they normally cost mana and are at Sorcery speed meaning they will not help
 prevent turn one plays when on the draw.
 
 Discard effects are good at providing information about a matchup early on and
-either preventing your opponent landing relevant threats or taking away their
+either preventing your opponent from landing relevant threats or taking away their
 own interaction from them. They tend to excel in {U} based fair matchups or
 against opposing combo decks. They are often weaker against fair non-{U} decks
 or _stompy_ type shells. The main limitation of discard effects is that, if they
@@ -314,7 +313,7 @@ Almost all styles of Doomsday list will run some number of discard effects,
 normally splitting between Duress and Thoughtseize and ranging between two and
 five copies. The ratio of the split normally favours Duress due to the impact of
 the life loss from Thoughtseize and the bias of non-creature spells being more
-impactful in matchups however this is meta-dependant and sometimes it is better
+impactful in matchups however this is meta-dependent and sometimes it is better
 to favour Thoughtseize. You should always include at least one of each in order
 to be able to incorporate the appropriate one in pile building. Some have tried
 alternatives like :card[Cabal Therapy] and :card[Inquisition of Kozilek] however
@@ -343,7 +342,7 @@ Doomsday for matchups where that may be useful.
 
 If running Strixes, these normally are swapped out for some mix of free cycle
 effects, :card[Daze] or Preordains. Adding some of the other creature packages
-are less simple to map out but can also take the place of those slots alongside
+is less simple to map out but can also take the place of those slots alongside
 Lotus Petals. Strixes are normally run as a two to four of and creature plans
 like Uro a three to four of (where incorporated).
 
@@ -385,10 +384,10 @@ Daze is another excellent tool in terms of interaction. It provides a second,
 mana-efficient piece of interaction that can help defend against key tap-out
 threats like :card[Trinisphere] or :card[Sylvan Library] whilst also providing
 the ability to push through early Doomsdays. As the game progresses they start
-being less effective but can be used _pitch_ to Force of Will meaning they are
+being less effective but can be used to _pitch_ to Force of Will meaning they are
 never truly dead cards. For non-control based lists this is almost always a
-four-of include into the deck as it really helps push through a lot of matchups.
-In control lists it tends to not be included at all, instead being replace with
+four-of in the deck as it really helps push through a lot of matchups.
+In control lists it tends to not be included at all, instead being replaced with
 alternative tools like Baleful Strix and Teferi.
 
 There are a couple of additional counter spell effects you can elect to run but
@@ -458,7 +457,7 @@ additional interaction elements in.
 - 4 Baleful Strix
 - 3 Uro, Titan of Nature's Wrath
 
-This list has invested in having the alternate gameplan as part of it's
+This list has invested in having the alternate gameplan as part of its
 construction. Free cycle effects and Lotus Petals will probably both be very
 low, land count will likely be high and you can see they have trimmed on a Daze
 here too. This list will still be able to win fast but is expecting to have a
@@ -529,9 +528,9 @@ This is probably the most diverse set of cards and might as well be titled
 _miscellaneous_ however there are some important pieces in here that are
 fundamental to the deck. A lot of these cards do have a lot of usage outside of
 the Doomsday pile but the reason they are in the deck is often to be searched up
-and utilised as part of your combo. Examples like Echo can be used to build
-piles that have backup plan or maximise the cards you obtain in them whilst
-cards like Relic can be use to protect your graveyard against Endurance. In
+and utilized as part of your combo. Examples like Echo can be used to build
+piles that have a backup plan or maximize the cards you obtain in them whilst
+cards like Relic can be used to protect your graveyard against Endurance. In
 theory almost all of these are optional extras apart from one key component:
 :card[Thassa's Oracle].
 
@@ -583,7 +582,7 @@ access multiple cards in your pile at once. They also can have additional
 utility outside of the combo with Predict and Whisper providing stable card
 advantage over time. Ideas Unbound is the most effective and popular one with
 the others sometimes providing a supporting role. Most of the time however only
-one multi-draw spell is run in a list. Control style lists may consider to run
+one multi-draw spell is run in a list. Control style lists may consider running
 multiple Predict either with, or without, and Ideas Unbound in the list as a raw
 card advantage engine.
 
@@ -621,14 +620,14 @@ to be more aggressive and draw it naturally.
 
 ### Consider Package
 
-As mentioned above in the cantrip section. :card[Consider] is a useful tool that
+As mentioned above in the cantrip section, :card[Consider] is a useful tool that
 can enable some unique piles and help fortify existing ones. If running
 Consider, it may optionally be paired with :card[Deep Analysis] which enables
 very mana-efficient piles. Some elect to run this package over :card[Ideas
 Unbound] whilst others prefer to run them in conjunction with one another. If
 running the package, the Consider normally replaces a Preordain and the Deep
 Analysis replaces a :card[Personal Tutor] or a free cycle effect. If planning to
-go fast it is best to maximise the number of free cycle effects with Consider
+go fast it is best to maximize the number of free cycle effects with Consider
 and Deep Analysis as they also enable the ability to go for aggressive, low
 resource wins.
 
@@ -648,14 +647,14 @@ Think about the following questions:
   at any given opportunity?
 - What tools do we want access to in the sideboard?
 
-If we want to cast Doomsday early then we want to maximise our cheap tutors and
+If we want to cast Doomsday early then we want to maximize our cheap tutors and
 number of mana accelerants and/or free cycle effects but will likely have to
 reduce the number of lands and cantrips we run. We also probably want to include
-Cavern and Ideas Unbound to enable to most efficient PTT piles and Consider with
+Cavern and Ideas Unbound to enable the most efficient PTT piles and Consider with
 Deep Analysis to provide the most mana efficient wins available to us. If we
 want to pass the turn more we probably want a lower free cycle count and would
 probably not run Pact of Negation. If we wanted to win on the same turn we cast
-Doomsday more often we would probably maximise the use of both of these.
+Doomsday more often we would probably maximize the use of both of these.
 
 These are just a few things to have in mind when putting your decklist together.
 As stated at the start of the chapter, it's not useful to present a _default_
@@ -667,7 +666,7 @@ the justification of each choice you make.
 
 If you don't feel up to it or maybe don't have the luxury of time to be able to
 follow this exercise then there are many examples of proven lists on websites
-like TCDecks or that can be found in the `#decklists-archive` channel in the
+like TCDecks, or that can be found in the `#decklists-archive` channel in the
 [Doomsday Discord][discord].
 
 ## Next Steps

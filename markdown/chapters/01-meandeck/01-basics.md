@@ -44,7 +44,7 @@ questions you might want to ask are very likely to have been asked before. This
 is great as it means it is hopefully written down somewhere already! If you
 think of something you want answered and cannot find it in the chapters there
 are a few places you can look which might help. First and foremost is the
-[FAQs](/appendices/faq)! Otherwise, articles are dated content which are more
+[FAQs](/appendices/faq)! Otherwise, articles are dated content which is more
 likely to have recent changes or information inside them.
 
 The best place to search after the Wiki is the Doomsday Discord. Again the
@@ -65,7 +65,7 @@ lose to yourself at least once, or make small mistakes with big consequences or
 forget how to navigate certain situations. This is fine, this is learning,
 learning is good.
 
-This is true for any game, format, deck that you need to put the reps in.
+This is true for any game, format, or deck that you need to put the reps in.
 For many people this may be harder than it sounds. You might have family
 commitments or a busy work life and thus you only really get to indulge in one
 Legacy event a month. This is fine, you can work with it. Even if you only have
@@ -96,7 +96,7 @@ The term _pile_ is used to denote the stack of 5 cards with which you build your
 deck on successfully resolving :card[Doomsday]. A large portion of this site is
 to help you learn how to construct these _piles_ in order to win the game in
 almost any circumstance. While it would be nigh impossible to enumerate every
-game states and pile variations, these chapters are aimed to show you the basic
+game state and pile variations, these chapters are aimed to show you the basic
 concepts behind casting and winning with Doomsday.
 
 ## Pile Notation

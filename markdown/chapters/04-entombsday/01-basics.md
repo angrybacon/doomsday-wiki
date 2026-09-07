@@ -44,7 +44,7 @@ continued to evolve from there.
 
 ## Why Play Entombsday?
 
-Tin Fins is fun to play. Doomsday is fun play. As the old Reese's ad goes,
+Tin Fins is fun to play. Doomsday is fun to play. As the old Reese's ad goes,
 they're "two great tastes that taste great together"!
 
 From a more objective point of view, both game plans cover each other's
@@ -63,7 +63,7 @@ All of this and more is possible through the power of Entombsday!
 
 ## Additional Resources
 
-These chapters aim to be an introduction to Entombsday and was made possible by
+These chapters aim to be an introduction to Entombsday and were made possible by
 [_Walked_'s original Entombsday primer][primer:walked] and [Acclimation's Tin
 Fins primer][primer:acclimation]. Both of these primers are great resources. If
 you have questions that are not covered here, they may have been asked or

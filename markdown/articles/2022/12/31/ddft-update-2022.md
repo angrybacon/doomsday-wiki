@@ -135,7 +135,7 @@ inclined to replace a couple :card[Preordain]s with Wishclaw Talismans, which
 can also let you draw into a Doomsday pile and help find Bolas's Citadel, or
 find a win-con off Citadel.
 
-That said, the list clearly works, which is interesting because I looks like it
+That said, the list clearly works, which is interesting because it looks like it
 lies firmly in the realm of _midrange_ combo. But lets compare it to decks like
 ANT or Traditional DDFT. The biggest difference from Traditional DDFT is the
 manabase. Going from 4 to 2 colors and playing lots of basics gives it more
@@ -216,8 +216,8 @@ The Thoughtseizes also felt a bit out of place now, as there was less excess
 black mana being created. Furthermore, it somehow felt like the deck was
 constructed such that casting Thoughtseize on turn 1 and going off turn 2 was
 less desirable as a gameplan. I think it was a result of the lands not making
-all colors. A hand that could play land into Thoughtseize on turn 1 might no be
-able to make red mana for turn 2. In spite off all this, I felt like Opals could
+all colors. A hand that could play land into Thoughtseize on turn 1 might not be
+able to make red mana for turn 2. In spite of all this, I felt like Opals could
 still be a net gain (and my results without Opal were uninspiring), so I
 continued testing.
 

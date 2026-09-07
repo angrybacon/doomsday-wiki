@@ -13,7 +13,7 @@ cannot immediately execute a pile. In these circumstances we would elect to use
 what is colloquially known as a _pass-the-turn_ pile or _PTT_ pile.
 
 As previously mentioned, a _pass-the-turn_ pile or _PTT_ pile is simply one
-where, instead of having a cantrip to draw into the pile in hand, you utilise
+where, instead of having a cantrip to draw into the pile in hand, you utilize
 your draw for the turn instead. There are many reasons why passing the turn
 might be advantageous or necessary based on the resources available to you.
 There are also many scenarios where passing the turn multiple times is correct
@@ -93,7 +93,7 @@ TO
 :::
 
 This second example takes some inspiration from the 4 cyclers pile with some
-minor modifications. Assuming you are playing 2 Oracles, you can build this,
+minor modifications. Assuming you are playing 2 oracles, you can build this,
 passing the turn. Draw the first SW for turn. Play your Island and cycle through
 to the first Oracle and cast it. If they have an answer you can try to Force it.
 If they do manage to kill or counter the oracle you can simply pass again and
@@ -167,7 +167,7 @@ Draw IU, play Island and pass again. Then draw SW, cycle into TO and play it
 with double Force of Will available now.
 
 Maybe they cast a :card[Spirit of the Labyrinth] off of Cavern of Souls and
-Chrome Mox. Suddenly Your Ideas is useless and Ponder can't help. Having the SW
+Chrome Mox. Suddenly your Ideas is useless and Ponder can't help. Having the SW
 means you can pass twice, cycle SW in their turn and then try to play TO with
 double Force of Will (pitching Ponder and IU) and even have access to one of the
 Petals in case they have removed one of your lands.
@@ -328,7 +328,7 @@ CoS
 1. Cast Oracle with 1 card left in your deck.
 
 This variation allows us to resolve Oracle and still hold up Force of Will
-(assuming our initial Sea stays in place). Useful for non-{U} decks than might
+(assuming our initial Sea stays in place). Useful for non-{U} decks that might
 be representing removal. Again if they do take out the land we can play the
 Island anyways and just have the Delta as an extra card to put back with a Bs if
 we wish to cast it.

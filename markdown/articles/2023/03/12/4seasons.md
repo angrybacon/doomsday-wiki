@@ -32,11 +32,11 @@ confident slinging my paper doomsdays.
 
 In the weeks leading to the event I didn't feel like testing much. As I said
 earlier, I didn't enjoy the online metagame very much and the decks that I used
-to play to take breaks from combo where all unplayable thanks to Initiative.
+to play to take breaks from combo were all unplayable thanks to Initiative.
 Then came :card[Mercurial Spelldancer]. While the card is not ideal in Doomsday,
 it's a ton of fun. I updated my {U}{B} Doomsday w/transformational SB into
 midrange and jammed a bunch of leagues, getting multiple 4-1's with it. As
-someone with an unhealty habit of prioritizing card draw over actively trying to
+someone with an unhealthy habit of prioritizing card draw over actively trying to
 win the game, (Doishy's editor comments, "Looking at you Marcus!") Spelldancer
 was exactly what I needed to keep myself interested in Legacy. I wish I had
 taken screenshots of the time I cast a :card[Preordain] with triple active

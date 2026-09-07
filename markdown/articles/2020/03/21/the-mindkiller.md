@@ -249,7 +249,7 @@ Gemstone Mine
 The first Doomsday hand. We are pretty clearly casting Dark Ritual into
 Doomsday. Street Wraith will draw into the pile and we can have some mana
 floating due to Rite of Flame. What's the pile though? Prepare for the most
-breathtakingly elegant Doomdsay pile you will ever see:
+breathtakingly elegant Doomsday pile you will ever see:
 
 > SW in hand - {1}{R}, 2 life
 

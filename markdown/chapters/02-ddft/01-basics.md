@@ -60,7 +60,7 @@ that is only 14 lifeloss. Note that the {U}{U} for IU is often paid for by a
 Lion's Eye Diamond. With a Dark Ritual to cast Doomsday and a Lion's Eye Diamond
 preceding the Doomsday you're already up to 18 lifeloss. Add in a Duress or an
 extra ritual beforehand and they're dead.  
-If you are low on life or need an extra _Storm_, you'll can exchange the Street
+If you are low on life or need an extra _Storm_, you can exchange the Street
 Wraith with a Ponder at the cost of 1 more {U} mana.
 
 > Cantrip in hand - {B}{B}{B} + {U}{U}{U}
@@ -102,7 +102,7 @@ BW
 1. Cast BW, holding priority, then crack LEDs for BBBBBB
 1. Retrieve ToA from your sideboard and cast it
 
-This pile costs {B}{B}{B} + {1}{U}{B}{B}{B}, requires you have at least 2 life
+This pile costs {B}{B}{B} + {1}{U}{B}{B}{B}, requires you to have at least 2 life
 post-Doomsday, and results in 8 _Storm_. Like with Ideas Unbound, the mana cost
 for the Draw-4 can be - and often is - paid for by a Lion's Eye Diamond in
 response to the first cantrip.
@@ -203,7 +203,7 @@ BW
 Double cantrip piles with Infernal Contract require a Conjurer's Bauble, since
 if you can't put a card back into your deck you'll deck yourself when you try to
 draw 4. This is not a situation that you will likely find yourself in, as
-Draw-4s like Infernal Contract and Conjurer's bauble tend to be uncommon
+Draw-4s like Infernal Contract and Conjurer's Bauble tend to be uncommon
 deckbuilding choices in the most recent DDFT lists.
 
 ## Variations
@@ -241,6 +241,6 @@ types of disruption.
 ## Get Started
 
 You now have sufficient information to start practicing! Start goldfishing and
-try to figuring out what piles to build and how to execute them.
+try to figure out what piles to build and how to execute them.
 
 ::decklist{url=ddft}

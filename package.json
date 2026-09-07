@@ -1,9 +1,9 @@
 {
   "engines": {
-    "node": "24.18.0"
+    "node": "24.20.0"
   },
   "name": "doomsday-wiki",
-  "packageManager": "pnpm@11.25.0",
+  "packageManager": "pnpm@12.3.4",
   "private": true,
   "type": "module",
   "scripts": {
@@ -51,7 +51,7 @@
     "remark-directive": "4.0.0",
     "remark-gfm": "4.0.1",
     "sharp": "0.35.4",
-    "simple-icons": "16.29.0",
+    "simple-icons": "16.30.0",
     "unist-util-visit": "5.1.0",
     "zod": "4.5.4"
   },

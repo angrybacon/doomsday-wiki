@@ -186,7 +186,7 @@ exactly 4 life facing a 3/3 :card[Dragon's Rage Channeler], unfortunately my
 hand was :card[Dd] + :card[SW], I say unfortunately because at 2 more life I
 could safely make a :card[Consider] pile or if the cycler was edge, my
 opponent's hand only had a :card[Ledger Shredder], but they also had a
-:card[Wasteland] in play, I ended up m aking a pile that lost to that on board
+:card[Wasteland] in play, I ended up making a pile that lost to that on board
 Wasteland when a basic Brainstorm pile would had won. G2 an early Duress allowed
 me to resolve a Dd with perfect information on t3 and make a win on the same
 turn pile, g3 it was a delver game, it flipped and when I cast a duress I saw a
@@ -821,7 +821,7 @@ that did well with the Esper lists not placing quite so highly. It might be that
 the loss to speed and the greater focus towards a longer or fairer gameplan was
 not as favoured in this metagame however the Grixis Tempo list getting to the
 top 8 could dissuade this argument. Perhaps the Esper lists lacking both
-Expressive Iterarion as guaranteed card advantage and Red Blast effects to
+Expressive Iteration as guaranteed card advantage and Red Blast effects to
 combat a lot of what the meta is doing was the primary downfall.
 
 What's really cool to see is that none of the lists played are the same. Every
@@ -829,7 +829,7 @@ single one has a number of flex slots or sideboard configuration choices unique
 to it and it reinforces just how versatile the archetype is. Breaking down the
 numbers the only shared slots consistent across all 8 lists were 4 ofs for
 Doomsday, Ponder, Brainstorm, Dark Ritual and Force of Will, 1 ofs for Cavern of
-Souls and from there it's a real mixed bag. Most lists favoured 2 Oracles but
+Souls and from there it's a real mixed bag. Most lists favoured 2 oracles but
 some opted for only a singleton. Daze was under-represented which shows the
 trend in pilots dropping it often at the moment with only an average of 1.5
 copies per list. Force of Negation was the highest represented Sideboard card

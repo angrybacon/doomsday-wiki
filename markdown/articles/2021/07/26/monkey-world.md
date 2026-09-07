@@ -15,7 +15,7 @@ new cards other decks got, how the matchups changed and how we adapted.
 
 ## The Impact of Modern Horizons 2
 
-Modern Horizons 1 released after the already powerful set War of the sparks and
+Modern Horizons 1 released after the already powerful set War of the Spark and
 nuked every eternal format.
 
 Powerhouses like :card[Urza, Lord High Artificer] or :card[Hogaak, Arisen
@@ -136,7 +136,7 @@ Yavimaya, Cradle of Growth | MH2
 :::
 
 :card[Yavimaya, Cradle of Growth] gave a huge boost to this kind of deck,
-especially GW Depths. GW Depths got a lot faster and is probably the premiere
+especially GW Depths. GW Depths got a lot faster and is probably the premier
 Depths deck right now. Endurance is also an issue in this match up, but at least
 they cannot protect it.
 
@@ -277,7 +277,7 @@ Mainboard
 - 1-2 :card[Edge of Autumn] (more cyclers help with the consistency of same turn
   wins)
 - 1 :card[Ideas Unbound]
-- 1-2 :card[Thassa's Oracle] (2 Oracles help with Endurance)
+- 1-2 :card[Thassa's Oracle] (2 oracles help with Endurance)
 - 4 :card[Doomsday]
 - 2-4 :card[Street Wraith] (again more cyclers help with the consistency of same
   turn wins)

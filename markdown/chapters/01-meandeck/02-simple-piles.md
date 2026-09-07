@@ -257,7 +257,7 @@ LP
 TO
 :::
 
-If you are low on resources you can utilise the above pile using :card[Consider]
+If you are low on resources you can utilize the above pile using :card[Consider]
 in conjunction with :card[Deep Analysis]. Consider allows you to put Deep
 Analysis into your graveyard and draw the Lion's Eye Diamond. You can then cast
 the Deep Analysis with Flashback in order to draw into additional mana and the
@@ -317,7 +317,7 @@ EoA
 TO
 :::
 
-This is a basic as you can get and is just as mana efficient as the first
+This is as basic as you can get and is just as mana efficient as the first
 pile presented in this chapter. It does have the same weakness in that it
 doesn't allow you to play around any interaction but it can have its useful
 moments. Use sparingly as it is heavy in both life investment and lands

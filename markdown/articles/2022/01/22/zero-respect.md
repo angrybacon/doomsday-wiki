@@ -258,7 +258,7 @@ Try your best. Play around Daze, Monkey, Bolt, Wasteland, and Stifle when you
 can. Don't play around them when you can't. If they have Torpor Orb, good for
 them. They obviously wanted it more. The changes we make are because of
 :card[Ragavan, Nimble Pilferer] because us having our own discard hit us is
-devastating. Second Oracle lets you act a bit ore aggressively in pile building
+devastating. Second Oracle lets you act a bit more aggressively in pile building
 and also acts as a buffer to random instances of having your sole win condition
 exiled to monkey.
 

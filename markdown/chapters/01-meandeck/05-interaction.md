@@ -39,7 +39,7 @@ additional Devotion to {U}, you will not be able to win off of the trigger.
 The main counter to this is of course to try and ensure you leave zero cards
 left in your deck before the Oracle trigger resolves. Another way is to
 potentially try a _bait_ pile which tries to go off in one turn but has the
-option to wait another. This assumes you are playing multiple Oracles. Let us
+option to wait another. This assumes you are playing multiple oracles. Let us
 take this example from the Brainstorm chapter:
 
 > {U} + Brainstorm + Thassa's Oracle
@@ -71,11 +71,11 @@ This pile plays around the following:
 - Countermagic for the first Oracle
 
 If your opponent deals with TO with its trigger on the stack, you could be
-missing on a couple Devotion to {U}. That's why it's important to try and
+missing out on a couple Devotion to {U}. That's why it's important to try and
 consume the entirety of your pile before going for it whenever you can,
 especially if your opponent is likely to hold removal as you go off.
 
-With enough mana, and other relevant permanents in your deck, you can utilise
+With enough mana, and other relevant permanents in your deck, you can utilize
 extra potential Devotion to {U} to help bolster your effect. Cards like
 :card[Baleful Strix], :card[Counterbalance], :card[Snapcaster Mage] or even
 :card[Teferi, Time Raveler] are a few examples. The concepts presented here can
@@ -125,7 +125,7 @@ means to play around / punish a resolved Doomsday in the face of countermagic.
 
 ### Proactive Disruption
 
-You can utilise your proactive disruption spells like Thoughtseize or Veil of
+You can utilize your proactive disruption spells like Thoughtseize or Veil of
 Summer at the start of your turn. Take the following scenario where you have
 cast Doomsday on turn 1 for a PTT pile in the face of a known {U} deck and it
 has resolved (from the Basics chapter):
@@ -144,7 +144,7 @@ Island
 Pre
 :::
 
-Although we have Force of will in our hand we are wanting to use LED to help us
+Although we have Force of Will in our hand we are wanting to use LED to help us
 generate enough mana to cast everything we want. If we use LED our Oracle
 becomes exposed thanks to having to discard our Forces. Here is one potential
 solution assuming we played Doomsday off of Swamp and Dark Ritual:
@@ -191,7 +191,7 @@ to crack LED.
 
 ### Reactive Disruption
 
-For Legacy, reactive disruption tends to be centred around countermagic and
+For Legacy, reactive disruption tends to be centered around countermagic and
 Doomsday is no different. A lot of the consideration that comes from using
 reactive protection within piles generally boils down to 2 points:
 
@@ -233,7 +233,7 @@ TO
 :::
 
 This pile allows us to simply cast IU and play out Oracle without ever needing
-to _drop shields_ of the two Forces in hand. It is also resilient to opposing
+to _drop the shields_ on the two Forces in hand. It is also resilient to opposing
 discard as they can only take 1 Force and there is still a Preordain to pitch
 for the other.
 
@@ -258,7 +258,7 @@ TO
 CoS
 :::
 
-You should recognise the above as a simplified Brainstorm pile. In this we have
+You should recognize the above as a simplified Brainstorm pile. In this we have
 simply swapped out a Lotus Petal with Cavern. This severely punishes anyone
 trying to wait on countering the oracle by letting the rest of the spells
 beforehand resolve.
@@ -432,7 +432,7 @@ TO
 :::
 
 One key thing to note with these cards involves Teferi, Time Raveler's -3
-ability. If use the ability on a Leovold, you _will_ get to draw the card
+ability. If you use the ability on a Leovold, you _will_ get to draw the card
 afterwards. This can allow you to remove the disruption and _crack_ into the
 pile at the same time.
 
@@ -617,11 +617,11 @@ LP
 TO
 :::
 
-Assuming you had a cantrip ready to _dig_ into the pile, you can use it to try
-and use it to either pre-emptively bait the Trap or to enable digging one deeper
+Assuming you had a cantrip ready to _dig_ into the pile, you can use it to
+either pre-emptively bait the Trap or to enable digging one deeper
 so that you can lead on Thoughtseize the next turn.
 
-You can also utilise tools like the cycling effects to just not cast three
+You can also utilize tools like the cycling effects to just not cast three
 spells. If you suspect a Mindbreak Trap in the opponent's hand, with three lands
 available on the following turn you can go Dark Ritual into Doomsday and pass
 the turn building the following:
@@ -635,7 +635,7 @@ TO
 :::
 
 This pile only actually casts two spells on the turn after resolving Doomsday.
-Ideas Unbound and the Thassa's Oracle itself. You can also utilise piles of just
+Ideas Unbound and the Thassa's Oracle itself. You can also utilize piles of just
 three cycling effects or add in Cavern to the mix to protect against other
 effects should it be desired.
 
@@ -653,7 +653,7 @@ form of direct damage. For instance, if you cast Doomsday from nine life or less
 you are weak to :card[Fireblast] once the Doomsday resolves as soon as you give
 up priority and likewise from seven life or less you are at risk of dying to
 :card[Lightning Bolt]. You also have to be mindful of when you can incorporate
-the use cyclers that cost life, fetchlands or even :card[Force of Will]. Note
+the use of cyclers that cost life, fetchlands or even :card[Force of Will]. Note
 that if you cast Doomsday when on one life you will immediately lose due to the
 rounding up clause of the life loss.
 
@@ -687,17 +687,17 @@ Baleful Mastery
 :::
 
 Kozilek's Command can be very deadly as it can both reduce your devotion to {U}
-and make you draw a card. At instant speed and as per your opponent choice no
+and make you draw a card. At instant speed and as per your opponent's choice no
 less! However it is quite simple to play around it if you can plan in advance:
 with a cycler in hand for instance, this is a removal interaction that can be
 played around by leaving 1 card in the pile. If they target you with the
-mode that make you draw you don't need to use your cycler, and if they don't and
+mode that makes you draw, you don't need to use your cycler, and if they don't and
 instead opt to only exile the oracle then you still have the opportunity to draw
 the last card of the pile.
 
 Cephalid Coliseum is a lot more difficult to navigate through but does require
 them to reach _Threshold_ and is therefore sensitive to sideboard cards you will
-bring in. Winning with 2 Oracles and 4 devotion to {U} is the straightforward
+bring in. Winning with 2 oracles and 4 devotion to {U} is the straightforward
 option but :card[JWoM] is equally resolutive albeit more costly.
 
 ### Fateseal Effects
@@ -722,11 +722,11 @@ Kolaghan's Command
 Both of these cards tend to come from forgotten control shells. Command is
 likely more disruptive but can be played around assuming you are able to ensure
 you have one additional card in hand than needed. Often this means not being
-able to utilise :card[LED] however you can otherwise treat it like any other
+able to utilize :card[LED] however you can otherwise treat it like any other
 pile where you need to keep countermagic up. Clique is tricky when trying to
-utilise cards like Predict or Ideas Unbound but is relatively superfluous if
+utilize cards like Predict or Ideas Unbound but is relatively superfluous if
 executing something with just cantrips. You can also build a pile around it _if_
-you can predict when the opponent will use it however that can be tricky. be
+you can predict when the opponent will use it however that can be tricky. Be
 mindful of timing for your opponent being able to _snipe_ an LED with the
 artifact destruction mode.
 
@@ -739,10 +739,10 @@ Trickbind
 Tishana's Tidebinder
 :::
 
-These effects are all effects that seek to prevent the Thassa's Oracle trigger
+These are all effects that seek to prevent the Thassa's Oracle trigger
 from resolving. You will need some sort of interaction, either countermagic or
 discard. Discard is very powerful in those matchups as the information gained is
-very valuable and will help setup piles where 2 Oracles are necessary in order
+very valuable and will help setup piles where 2 oracles are necessary in order
 to burn through the opposing interaction.
 
 ### Humility Effects
@@ -755,11 +755,12 @@ Doorkeeper Thrull
 
 These permanent-based lock pieces used to be handled with bounce spells from the
 sideboard however some of them now having Flash makes it somewhat unreliable.
-They interact with Oracle by preventing the trigger to ever reach the stack and
-therefore require a different approach. For instance, discard won't necessarily
-take care of Dress Down as they can simply cast it in response forcing you to
-pass the turn. The rise of the Stiflenought archetype has made some pilots go as
-far as listing :card[JWoM] or less commonly :card[Laboratory Maniac] in order to
+They interact with Oracle by preventing the trigger from ever reaching the
+stack and therefore require a different approach. For instance, discard won't
+necessarily take care of Dress Down as they can simply cast it in response
+forcing you to pass the turn. The rise of the Stiflenought archetype has made
+some pilots go as far as listing :card[JWoM] or less commonly :card[Laboratory
+Maniac] in order to
 completely bypass both Stifle effect and ETB-hate.
 
 ### Endurance Effects
@@ -812,9 +813,9 @@ pile or by drawing them naturally.
 
 ## Deciding When to Pass the Turn
 
-One of the hardest tricks to master is the judgement of when to utilise a PTT or
+One of the hardest tricks to master is the judgment of when to utilize a PTT or
 slow pile and when to go for it in the face of possible interaction. There is no
-hard science to this judgement but it does depend on the resources you have
+hard science to this judgment but it does depend on the resources you have
 available to you, the suspected interaction the opponent has and the degree of
 _pressure_ they are imposing on you with their own gameplan (are they likely to
 be able to win if given the extra turn or turns?). This is something you will

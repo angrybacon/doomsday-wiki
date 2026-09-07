@@ -127,7 +127,7 @@ The first and most important is that Burning Wish exiles itself upon resolution.
 This means you can't flash back the same Wish that you used to get PiF. To have
 a deterministic line, you will need a second Burning Wish in your graveyard or
 hand. It is also rarely helpful to flashback a Doomsday, since it exiles your
-graveyard after you choose your 5 cards. This means that you may be goin for
+graveyard after you choose your 5 cards. This means that you may be going for
 more non-deterministic lines with PiF, flashing back cantrips to try to find
 another Wish. Draw-4 spells like Infernal Contract can be powerful value engines
 with Past in Flames, letting you see several more extra cards than cantrips
@@ -153,7 +153,7 @@ in this deck:
 _Natural_ _Storm_, simply casting 9-10 spells in one turn without the use of an
 engine, is not as difficult as it may seem. If you draw for turn and have 8
 cards in hand, all spells, plus a Tendrils of Agony that you Wish for, you can
-already hit your opponent for 18, which in many cases is enough on it's own.
+already hit your opponent for 18, which in many cases is enough on its own.
 
 It's clear that to achieve something like this will require a lot of mana. Lucky
 for you, your best spells for building _Storm_ also produce mana. Rituals, LEDs
@@ -224,7 +224,7 @@ limited to :card[Young Pyromancer], :card[Monastery Mentor] and :card[Dark
 Confidant]. In this case winning with creature beatdown can become a more viable
 plan (although Confidant is typically seen as a card advantage engine first and
 a beater second). However, this type of plan tends to be weaker than one might
-think, and most player tend to eschew it. You may find it to your liking, or
+think, and most players tend to eschew it. You may find it to your liking, or
 suited to your expected metagame, but in general, don't consider creature
 beatdown a real plan to win the game.
 
@@ -232,7 +232,7 @@ beatdown a real plan to win the game.
 
 1. DDFT is very capable of winning without casting Doomsday. This is nice
    because it removes a potential chokepoint from the deck.
-1. There are 3 main way to do this, via Empty the Warrens, via an alternative
+1. There are 3 main ways to do this, via Empty the Warrens, via an alternative
    engine like Echo of Eons, or via "natural" _Storm_.
 1. Don't fixate on Doomsday just because it is the namesake card. Having the
    option to kill another way can open a lot of doors in terms of your gameplan

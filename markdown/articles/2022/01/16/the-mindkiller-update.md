@@ -285,7 +285,7 @@ Empty bad. Chant good.
 
 You're gonna have to use your own judgement on a per-deck basis. I find Chants
 to be broadly good against random bullshit though, and if you're really unsure,
-trimming 2 Thoughtseizes for 2 Chants is vey reasonable. Notably, I also tend to
+trimming 2 Thoughtseizes for 2 Chants is very reasonable. Notably, I also tend to
 use this strategy if I trounce someone turn 1 and never see their deck.
 
 ### 8-Cast

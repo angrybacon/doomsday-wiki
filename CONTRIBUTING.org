@@ -46,6 +46,13 @@ the whole document and render itself as a list of anchor links.
 Mana symbols and card names are not officially supported in headings. The
 heading slugs will look strange if you use markup so prefer simpler titles.
 
+*** Spelling
+
+Prefer American spelling (e.g. /color/ over /colour/, /favorite/ over
+/favourite/) throughout chapters and the rest of the Wiki's static content.
+Articles as dated content authored by specific people may keep the author's
+preferred spelling instead.
+
 *** Capitalization of Names
 
 Some card names and keyword mechanics double as ordinary English words (e.g.
@@ -57,17 +64,17 @@ number of heuristics to follow.
   noun (e.g. "cast Oracle", "the second Oracle", "the Oracle trigger", "an
   Oracle pile"). Swapping in "it" or "this card" would not work here.
 - ="oracle"= generic reference to the card ::
-  Lowercased. Generic reference to the card as an object (e.g. "they remove the
-  oracle", "to pitch an oracle to a Force", "the oracle's trigger"). Reword to
-  add "the" or "an" where it reads better than the bare capitalized form
-  described above.
+  Lowercased. Generic reference to the card as an object (e.g. "to pitch an
+  oracle to a Force", "the oracle's trigger", "the 2 oracles"). Reword to add
+  "the" or "an" where it reads better than the bare capitalized form described
+  above.
 - ="Storm"= keywords that share a name with an archetype or common word ::
   Capitalized. To be italicized in addition to disambiguate from the archetype
   name (e.g. "generate lethal /Storm/", "the Storm archetype"). Never italicize
   inside headings.
 - ="storm"= used as a verb ::
   Lowercased. Common slang verb referring to a gameplay action (e.g. "to storm
-  off", "then storm them some", "to wish for Tendrils").
+  off", "then storm them some").
 
 *** Terminology
 

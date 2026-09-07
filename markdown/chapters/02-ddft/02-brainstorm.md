@@ -102,7 +102,7 @@ Pnd
 1. Cast Oracle
 1. Oracle triggers with 2 cards left in the deck to win
 
-While this pile is vulnerable to removal on Oracle, its also extremely cheap and
+While this pile is vulnerable to removal on Oracle, it's also extremely cheap and
 works with a rather bad hand.
 
 ## Example 4
@@ -126,7 +126,7 @@ TO
 1. Cast LED, cycle SW, holding priority to crack LED for {U}{U}{U}
 1. Draw Ponder and cast it to draw Oracle
 1. Cast Oracle
-1. Oracle triggers with 1 cards left in the deck to win
+1. Oracle triggers with 1 card left in the deck to win
 
 After you Ponder into the pile, this one is identical to the previous example.
 At the cost of only 1 more mana you can turn your mere Ponder into a fancy
