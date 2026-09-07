@@ -9,6 +9,13 @@ import { useImperativeHandle, useState } from 'react';
 
 import { CardFace } from '~/components/Card/CardFace';
 
+const NO_BACK_LAYOUTS: string[] = [
+  'adventure',
+  'flip',
+  'prepare',
+  'split',
+] satisfies ScrySingleResponse[number]['layout'][];
+
 type Props = {
   faces: ScrySingleResponse;
   floating?: boolean;
@@ -66,7 +73,7 @@ export const Card = ({
         {back && <CardFace active={selected === 1} face={back} flipped />}
       </Box>
 
-      {back && front.layout !== 'split' && !floating && (
+      {back && !NO_BACK_LAYOUTS.includes(front.layout) && !floating && (
         <Tooltip title="Flip">
           <IconButton
             data-light
