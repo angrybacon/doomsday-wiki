@@ -46,13 +46,15 @@ export const CardLink = ({ faces }: Props) => {
     >
       <span>
         <Link href={`${SCRYFALL_SEARCH}?q=!"${front.name}"`}>{front.name}</Link>
-        &nbsp;
         {back && front.layout !== 'split' && (
-          <Tooltip title="Flip">
-            <IconButton onClick={onFlip} size="small">
-              <ThreeSixtyIcon color="primary" fontSize="small" />
-            </IconButton>
-          </Tooltip>
+          <>
+            &nbsp;
+            <Tooltip title="Flip">
+              <IconButton onClick={onFlip} size="small">
+                <ThreeSixtyIcon color="primary" fontSize="small" />
+              </IconButton>
+            </Tooltip>
+          </>
         )}
       </span>
     </Tooltip>

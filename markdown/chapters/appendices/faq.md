@@ -148,11 +148,11 @@ through :card[Lightning Bolt] however Grixis Delver is likely the worst to face
 as the addition of :card[Thoughtseize] as another angle of disruption makes them
 very hard to face.
 
-Stiflenough has recently resurfaced with the printings of :card[Dress Down] and
-then :card[Doorkeeper Thrull]. Like Delver variants, the tempo element combined
-with a fast clock makes it a difficult matchup to navigate, except they also
-sport a full playset of :card[Stifle] in addition to maindeck copies of
-:card[Dress Down].
+Stiflenough has recently resurfaced with the printings of :card[Dress Down],
+:card[Doorkeeper Thrull], and then :card[Consign to Memory]. Like Delver
+variants, the tempo element combined with a fast clock makes it a difficult
+matchup to navigate, except they also sport a full playset of :card[Stifle] in
+addition to maindeck copies of :card[Dress Down] and :card[Consign to Memory].
 
 ## What is a good meta to play Doomsday in?
 
