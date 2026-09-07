@@ -9,9 +9,9 @@ title: Sideboarding
 In this chapter we will present the concepts and elements to consider when
 building your sideboard and against some of the more resilient archetypes to
 meta shifts. Obviously with new printings or different metagames these concepts
-may change so please consider what decks you expect to face and amend
-accordingly. Some of this will overlap with what is discussed in the [Playing
-Around Interaction](/meandeck/interaction) section.
+may change so consider what decks you expect to face and amend accordingly. Some
+of this will overlap with what is discussed in the [Playing Around
+Interaction](/meandeck/interaction) section.
 
 ## List Assumptions
 
@@ -613,9 +613,9 @@ recommend having a go at a sideboard guide writing exercise. Even if you would
 rather try to _netdeck_ one for convenience and end up disregarding your own,
 it's a good way to consider how to approach a matchup and what the relative
 value of the cards in your list, both main and side, have. If you still find you
-struggle with the theory behind a given matchup then please don't be afraid to
-ask for help but remember, the best help is learning how to work it out yourself
-rather than following a guide by rote!
+struggle with the theory behind a given matchup do not be afraid to ask for help
+but remember, the best help is learning how to work it out yourself rather than
+following a guide by rote!
 
 ## Next Steps
 

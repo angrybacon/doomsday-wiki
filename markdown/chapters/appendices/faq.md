@@ -9,9 +9,8 @@ title: Frequently Asked Questions
 
 Compiled here is a list of frequently asked questions observed from the Discord
 or other sources (Twitter, Reddit, video comment threads etc). If you believe a
-key question is missing then please feel free to suggest it. A lot of the
-questions were also answered in this article:
-[DDFAQs](/articles/2020/03/22/ddfaq).
+key question is missing then feel free to suggest it. A lot of the questions
+were also answered in this article: [DDFAQs](/articles/2020/03/22/ddfaq).
 
 ## What are the different Doomsday decks and what is the difference between them?
 
@@ -167,14 +166,14 @@ are good fields for Doomsday.
 
 It might be! A lot of people have been working on the deck for a long time and
 have very likely tried the card out if considered potentially playable. Feel
-free to ask on the Discord but please don't get too defensive if informed that
-the card was tried and didn't hit the mark. If you are new to the deck I would
-advise getting a few reps under your belt playing it first before delving into
-the spicier areas of the card pool. This doesn't mean you shouldn't consider new
+free to ask on the Discord but don't get too defensive if informed that the card
+was tried and didn't hit the mark. If you are new to the deck I would advise
+getting a few reps under your belt playing it first before delving into the
+spicier areas of the card pool. This doesn't mean you shouldn't consider new
 things but do check first as likely it has been tried and rejected before.
 
 For a list of _off-meta_ cards which have been tried before and discussion on
-them please check out the [playables appendix](/appendices/playables/).
+them check out the [playables appendix](/appendices/playables/).
 
 :::row{variant=CENTERED}
 Drown in the Loch
@@ -287,7 +286,7 @@ Doomsday rewards an exact knowledge of your 75 as well as format knowledge
 highly so increasing exposure to both is very important. Finally, if you get
 stuck, feel free to ask for help! The sense of community is very strong and you
 should be able to find someone to answer any queries across most time zones so
-please feel free to come and say hello in the [Doomsday Discord][discord].
+feel free to come and say hello in the [Doomsday Discord][discord].
 
 ## In what order should I make purchases to build Doomsday?
 

@@ -127,16 +127,15 @@ the decisions being made.
 
 At the end of the day if there is something you don't understand, whether it is
 how to execute a pile, the decision made with keeping certain opening hands or
-why people are running only 3 of a certain card, please just ask! Wwyd (What
-would you do?) scenarios are always a fun way to get people engaged in
-discussion and provide you with alternative insights if you are unsure on
-something specific.
+why people are running only 3 of a certain card, just ask! Wwyd (What would you
+do?) scenarios are always a fun way to get people engaged in discussion and
+provide you with alternative insights if you are unsure on something specific.
 
 Whatever it is, if you have searched for it and cannot find what you need then
-please just ask someone! Even if they don't know they might talk it through with
-you and you might be able to work together to solve it out. Or they may know
-someone who does know the answer. Either which way, the community is very chill
-and always willing to chip in. We all started somewhere!
+just ask! Even if they don't know they might talk it through with you and you
+might be able to work together to solve it out. Or they may know someone who
+does know the answer. Either which way, the community is very chill and always
+willing to chip in. We all started somewhere!
 
 ## Scenarios
 

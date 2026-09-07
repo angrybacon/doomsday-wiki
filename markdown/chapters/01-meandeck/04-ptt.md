@@ -27,9 +27,9 @@ This chapter will look at examples where you might wish to pass the turn and the
 types of pile you could build in these circumstances. It will also revisit some
 concepts in previous chapters and show examples where you might build a pile
 which can pivot to win faster or slower depending on how the circumstances might
-change after passing the turn. Please do remember however that all of these are
-just examples and that you shouldn't look to any of them as _objectively
-correct_ for the situations presented.
+change after passing the turn. Do remember however that all of these are just
+examples and that you shouldn't look to any of them as _objectively correct_ for
+the situations presented.
 
 ## Pass-the-Turn Piles
 
