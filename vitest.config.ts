@@ -10,7 +10,6 @@ export default defineConfig({
       reporter: ['json', 'json-summary', 'text'],
     },
     environment: 'happy-dom',
-    execArgv: ['--no-experimental-webstorage'],
     globals: true,
     mockReset: true,
     setupFiles: ['./vitest.setup.ts'],
