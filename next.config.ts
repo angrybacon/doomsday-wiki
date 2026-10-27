@@ -12,6 +12,18 @@ export default {
             .replaceAll(':', '')
         : 'development',
   },
+  headers: () =>
+    Promise.resolve([
+      {
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: `public, max-age=${60 * 60 * 24 * 365}, immutable`,
+          },
+        ],
+        source: '/lqip/:path*',
+      },
+    ]),
   redirects: () =>
     Promise.resolve([
       {
