@@ -88,7 +88,8 @@ export default async ({
                   display: 'grid',
                   flexGrow: 1,
                   gridTemplateColumns: '1fr minmax(auto, 1200px) 1fr',
-                  py: 3,
+                  pb: 9,
+                  pt: 3,
                   rowGap: 3,
                   '> *': { gridColumn: 2 },
                 }}

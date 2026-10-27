@@ -15,8 +15,7 @@ export const Footer = () => (
       color: 'text.secondary',
       // NOTE Force content above 404 background
       position: 'relative',
-      px: 3,
-      py: 3,
+      p: { xs: 2, sm: 3 },
       textAlign: 'center',
       typography: 'caption',
       'main:has(> [data-not-found]) ~ &': { color: 'common.white' },

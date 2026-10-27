@@ -173,9 +173,21 @@ export const theme = responsiveFontSizes(
       },
       MuiTypography: {
         styleOverrides: {
-          h1: { fontWeight: 'lighter', paddingBottom: 8, paddingTop: 24 },
-          h2: { fontWeight: 'lighter', paddingBottom: 8, paddingTop: 24 },
-          h3: { fontWeight: 'lighter', paddingBottom: 8, paddingTop: 24 },
+          h1: (options) =>
+            options.theme.unstable_sx({
+              fontWeight: 'lighter',
+              pt: { xs: 1, sm: 2 },
+            }),
+          h2: (options) =>
+            options.theme.unstable_sx({
+              fontWeight: 'lighter',
+              pt: { xs: 1, sm: 2 },
+            }),
+          h3: (options) =>
+            options.theme.unstable_sx({
+              fontWeight: 'lighter',
+              pt: { xs: 1, sm: 2 },
+            }),
         },
       },
     },

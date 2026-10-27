@@ -41,12 +41,6 @@ from the work of [Stas][stas].
 We collect anonymous analytics in order to improve user experience. We do not
 use cookies. See the [PostHog privacy policy][posthog:privacy].
 
----
-
-For questions, corrections, or contributions, visit the [GitHub
-repository][code:repository] or reach out through the [Doomsday
-Discord](/discord).
-
 [code:license]: https://github.com/angrybacon/doomsday-wiki/blob/master/LICENSE.org
 [code:repository]: https://github.com/angrybacon/doomsday-wiki
 [icons:mui]: https://mui.com/material-ui/material-icons
