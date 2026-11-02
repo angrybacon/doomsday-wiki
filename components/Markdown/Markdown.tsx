@@ -1,7 +1,7 @@
 // oxlint-disable import/max-dependencies
-import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { Components } from 'react-markdown';
 import type { Decklists } from '~/tools/decklists/types';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { Box, accordionClasses } from '@mui/material';
 import ReactMarkdown from 'react-markdown';
@@ -78,7 +78,7 @@ const COMPONENTS_EXTRA = {
 type Props = {
   decklists: Decklists;
   path: string;
-  scries: Record<string, ScrySingleResponse>;
+  scries: Record<string, ScrySingleResponseSlim>;
   text: string;
 };
 

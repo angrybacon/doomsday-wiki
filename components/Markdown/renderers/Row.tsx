@@ -1,6 +1,6 @@
-import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { SxProps, Theme } from '@mui/material';
 import type { Hastified } from '~/components/Markdown/types';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { RemarkError } from '@korumite/kiwi';
 import { Box } from '@mui/material';
@@ -28,7 +28,7 @@ const STYLES: Record<z.infer<typeof VariantSchema>, SxProps<Theme>> = {
 };
 
 type Props = {
-  node: Hastified<{ cards: { faces: ScrySingleResponse; id: string }[] }>;
+  node: Hastified<{ cards: { faces: ScrySingleResponseSlim; id: string }[] }>;
   path?: string;
   variant?: string;
 };

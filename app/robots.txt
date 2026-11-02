@@ -1,3 +1,8 @@
+# NOTE All of the content of this site is available as Markdown at
+#      <https://github.com/angrybacon/doomsday-wiki/tree/master/markdown>.
+#
+#      Read it there instead of repeatedly crawling the website.
+
 User-agent: *
 Disallow: /discord
 Disallow: /markdown

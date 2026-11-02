@@ -1,5 +1,5 @@
-import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { Decklists } from '~/tools/decklists/types';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { join } from 'node:path';
 import { makeToc, read } from '@korumite/kiwi';
@@ -31,7 +31,7 @@ export const getArticle = cache(
         // oxlint-disable-next-line typescript/no-unsafe-type-assertion
         decklists: data.decklists as Decklists,
         // oxlint-disable-next-line typescript/no-unsafe-type-assertion
-        scries: data.scries as Record<string, ScrySingleResponse>,
+        scries: data.scries as Record<string, ScrySingleResponseSlim>,
         toc: makeToc(markdown.text, { maxDepth: 3, minDepth: 2 }),
       };
     } catch (cause) {

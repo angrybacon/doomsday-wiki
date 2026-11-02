@@ -1,7 +1,11 @@
+import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
+
 import { Scry } from '@korumite/scrydrop';
 
 import { translate } from '~/tools/rosetta/translate';
 import { lqip } from '~/tools/scryfall/lqip';
+import { slim } from '~/tools/scryfall/slim';
 
 const NEWLINE_RE = /\r?\n/gu;
 
@@ -11,10 +15,20 @@ const { single } = Scry({
   user: `doomsday-wiki/${process.env.NEXT_PUBLIC_VERSION}`,
 });
 
-export const scry = async (
+export async function scry(
   query: string,
-  options: { lqip?: boolean },
-): ReturnType<typeof single> => {
+  options: { full: true; lqip?: boolean },
+): Promise<ScrySingleResponse>;
+
+export async function scry(
+  query: string,
+  options: { full?: false; lqip?: boolean },
+): Promise<ScrySingleResponseSlim>;
+
+export async function scry(
+  query: string,
+  { full, ...options }: { full?: boolean; lqip?: boolean },
+) {
   const [name, set, number] = translate(query.replaceAll(NEWLINE_RE, ' '))
     .name.split('|')
     .map((it) => it.trim());
@@ -29,5 +43,5 @@ export const scry = async (
       }),
     );
   }
-  return faces;
-};
+  return full ? faces : slim(faces);
+}

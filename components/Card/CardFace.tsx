@@ -1,4 +1,4 @@
-import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { Box, Tooltip, Typography } from '@mui/material';
 import { useCallback, useState } from 'react';
@@ -6,7 +6,7 @@ import { useCallback, useState } from 'react';
 type Props = {
   /** Whether this specific face is currently active and visible */
   active: boolean;
-  face: ScrySingleResponse[number];
+  face: ScrySingleResponseSlim[number];
   flipped?: boolean;
 };
 

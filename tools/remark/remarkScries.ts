@@ -1,5 +1,5 @@
 import type { ReadPlugin } from '@korumite/kiwi';
-import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { toString } from 'mdast-util-to-string';
 import { visit } from 'unist-util-visit';
@@ -65,7 +65,7 @@ const batch = async <T>(
  * - `row` from its children text nodes
  */
 export const remarkScries: ReadPlugin = () => async (tree, file) => {
-  const scries: Record<string, ScrySingleResponse> = {};
+  const scries: Record<string, ScrySingleResponseSlim> = {};
   const queries: string[] = [];
 
   visit(

@@ -1,5 +1,5 @@
 import type { ReadPlugin } from '@korumite/kiwi';
-import type { ScrySingleResponse } from '@korumite/scrydrop';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { hastify } from '@korumite/kiwi';
 import { toString } from 'mdast-util-to-string';
@@ -7,7 +7,7 @@ import { visit } from 'unist-util-visit';
 
 /** Augment card directives with the real cards names */
 export const remarkCard: ReadPlugin<
-  [path: string, scries: Record<string, ScrySingleResponse>]
+  [path: string, scries: Record<string, ScrySingleResponseSlim>]
 > = (path, scries) => (tree, file) => {
   visit(tree, [{ name: 'card', type: 'textDirective' }], (node) => {
     file.path = file.path || path;

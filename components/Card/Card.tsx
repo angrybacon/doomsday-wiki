@@ -1,7 +1,7 @@
 'use client';
 
-import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { RefObject } from 'react';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import ThreeSixtyIcon from '@mui/icons-material/ThreeSixtyRounded';
 import { Box, IconButton, Tooltip } from '@mui/material';
@@ -14,10 +14,10 @@ const NO_BACK_LAYOUTS: string[] = [
   'flip',
   'prepare',
   'split',
-] satisfies ScrySingleResponse[number]['layout'][];
+] satisfies ScrySingleResponseSlim[number]['layout'][];
 
 type Props = {
-  faces: ScrySingleResponse;
+  faces: ScrySingleResponseSlim;
   floating?: boolean;
   ref?: RefObject<{ flip: () => void } | null>;
 };

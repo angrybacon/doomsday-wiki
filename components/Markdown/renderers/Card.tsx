@@ -1,12 +1,12 @@
-import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { Hastified } from '~/components/Markdown/types';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import { RemarkError } from '@korumite/kiwi';
 
 import { CardLink } from '~/components/CardLink/CardLink';
 
 type Props = {
-  data?: { card?: ScrySingleResponse };
+  data?: { card?: ScrySingleResponseSlim };
   node: Hastified<{ name: string }>;
   path?: string;
 };

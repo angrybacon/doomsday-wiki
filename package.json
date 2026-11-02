@@ -1,9 +1,9 @@
 {
   "engines": {
-    "node": "24.20.0"
+    "node": "24.22.2"
   },
   "name": "doomsday-wiki",
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.16.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -42,7 +42,7 @@
     "mdast-util-find-and-replace": "3.0.4",
     "mdast-util-to-string": "4.0.0",
     "next": "16.4.3",
-    "posthog-js": "1.438.21",
+    "posthog-js": "1.444.0",
     "react": "19.3.1",
     "react-dom": "19.3.1",
     "react-markdown": "10.1.0",
@@ -67,9 +67,9 @@
     "@vitest/coverage-v8": "5.0.5",
     "concurrently": "10.0.6",
     "happy-dom": "21.0.4",
-    "knip": "6.43.0",
+    "knip": "6.44.1",
     "markdownlint-cli": "0.50.0",
-    "oxlint": "1.89.0",
+    "oxlint": "1.90.0",
     "oxlint-tsgolint": "7.0.2005",
     "prettier": "3.9.10",
     "rimraf": "6.1.3",

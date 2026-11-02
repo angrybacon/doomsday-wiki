@@ -1,7 +1,7 @@
 'use client';
 
-import type { ScrySingleResponse } from '@korumite/scrydrop';
 import type { ComponentRef } from 'react';
+import type { ScrySingleResponseSlim } from '~/tools/scryfall/slim';
 
 import ThreeSixtyIcon from '@mui/icons-material/ThreeSixtyRounded';
 import { IconButton, Tooltip } from '@mui/material';
@@ -13,7 +13,7 @@ import { Link } from '~/components/Link/Link';
 const SCRYFALL_SEARCH = 'https://scryfall.com/search';
 
 type Props = {
-  faces: ScrySingleResponse;
+  faces: ScrySingleResponseSlim;
 };
 
 export const CardLink = ({ faces }: Props) => {
